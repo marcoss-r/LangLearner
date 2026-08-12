@@ -1,0 +1,264 @@
+{
+  "id": "fr-a1-047",
+  "lang": "fr",
+  "level": "A1",
+  "order": 47,
+  "title": "La casa y las habitaciones",
+  "objectives": [
+    "Nombrar las habitaciones de una casa: chambre, salon, cuisine, salle de bains...",
+    "Describir tu casa combinando este vocabulario con être y los adjetivos ya conocidos",
+    "Distinguir la cuisine (la cocina, habitación) de faire la cuisine (cocinar, ya visto en la clase 35)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Las habitaciones de la casa",
+      "body": "Ya sabes decir la maison (clase 11) y l'appartement (clase 13). Ahora completas el vocabulario con las habitaciones de dentro.",
+      "examples": [
+        { "target": "Ma chambre est petite mais jolie.", "es": "Mi dormitorio es pequeño pero bonito.", "note": "chambre + adjetivos ya conocidos" },
+        { "target": "La cuisine est grande.", "es": "La cocina es grande.", "note": "la cuisine, habitación" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la casa",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["la chambre", "el dormitorio"],
+        ["le salon", "el salón"],
+        ["la cuisine", "la cocina"],
+        ["la salle de bains", "el baño"],
+        ["les toilettes", "el aseo, el váter"],
+        ["le couloir", "el pasillo"],
+        ["le jardin", "el jardín"],
+        ["la porte", "la puerta"]
+      ],
+      "note": "En muchas casas francesas, les toilettes (el váter) está separado de la salle de bains (donde está la ducha o la bañera)."
+    },
+    {
+      "type": "contrast",
+      "title": "La cuisine no es solo «cocinar»",
+      "items": [
+        { "wrong": "Pensar que cuisine solo es el verbo «cocinar»", "right": "la cuisine = la habitación; faire la cuisine = cocinar (clase 35)", "why": "La cuisine como sustantivo es la habitación de la casa. Para el verbo, hace falta faire la cuisine, no cuisine sola." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Les toilettes va siempre en plural, aunque te refieras a un solo váter: où sont les toilettes ? (¿dónde está el baño?), nunca «où est la toilette ?»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la chambre", "es": "el dormitorio", "ipa": "/la ʃɑ̃bʁ/", "esApprox": "«la SHANBR»", "pos": "sustantivo", "gender": "f", "plural": "les chambres", "example": { "target": "Ma chambre est petite mais jolie.", "es": "Mi dormitorio es pequeño pero bonito." } },
+    { "id": "v2", "target": "le salon", "es": "el salón", "ipa": "/lə sa.lɔ̃/", "esApprox": "«le sa-LÓN»", "pos": "sustantivo", "gender": "m", "plural": "les salons", "example": { "target": "Le salon est grand.", "es": "El salón es grande." } },
+    { "id": "v3", "target": "la cuisine", "es": "la cocina", "ipa": "/la kɥi.zin/", "esApprox": "«la küí-ZIN»", "pos": "sustantivo", "gender": "f", "plural": "les cuisines", "example": { "target": "La cuisine est grande.", "es": "La cocina es grande." } },
+    { "id": "v4", "target": "la salle de bains", "es": "el baño", "ipa": "/la sal də bɛ̃/", "esApprox": "«la sal de BEN»", "pos": "sustantivo", "gender": "f", "plural": "les salles de bains", "example": { "target": "La salle de bains est neuve.", "es": "El baño es nuevo." } },
+    { "id": "v5", "target": "les toilettes", "es": "el aseo, el váter", "ipa": "/le twa.lɛt/", "esApprox": "«le tuá-LET»", "pos": "sustantivo", "gender": "f", "plural": "les toilettes", "example": { "target": "Où sont les toilettes ?", "es": "¿Dónde está el baño?" } },
+    { "id": "v6", "target": "le couloir", "es": "el pasillo", "ipa": "/lə ku.lwaʁ/", "esApprox": "«le ku-LUÁR»", "pos": "sustantivo", "gender": "m", "plural": "les couloirs", "example": { "target": "Le couloir est long.", "es": "El pasillo es largo." } },
+    { "id": "v7", "target": "le jardin", "es": "el jardín", "ipa": "/lə ʒaʁ.dɛ̃/", "esApprox": "«le yar-DEN»", "pos": "sustantivo", "gender": "m", "plural": "les jardins", "example": { "target": "Le jardin est très joli.", "es": "El jardín es muy bonito." } },
+    { "id": "v8", "target": "la porte", "es": "la puerta", "ipa": "/la pɔʁt/", "esApprox": "«la PORT»", "pos": "sustantivo", "gender": "f", "plural": "les portes", "example": { "target": "Ferme la porte, s'il te plaît.", "es": "Cierra la puerta, por favor." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «dormitorio»?",
+      "options": ["le salon", "la chambre", "la cuisine", "le couloir"],
+      "answer": 1,
+      "explain": "La chambre = el dormitorio."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «faire la cuisine»?",
+      "options": ["la habitación cocina", "cocinar", "limpiar la cocina", "comprar comida"],
+      "answer": 1,
+      "explain": "Faire la cuisine = cocinar (clase 35), distinto de la cuisine (la habitación)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "statement": "Les toilettes va siempre en plural en francés.",
+      "answer": true,
+      "explain": "Aunque sea un solo váter: les toilettes, nunca la toilette."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras es masculina, a diferencia de las demás?",
+      "options": ["la chambre", "la cuisine", "le salon", "la porte"],
+      "answer": 2,
+      "explain": "Le salon es masculino; las otras tres son femeninas."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["le couloir", "le jardin", "la porte", "les toilettes"],
+      "right": ["el váter", "el pasillo", "la puerta", "el jardín"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Couloir = pasillo, jardin = jardín, porte = puerta, toilettes = váter."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Mi dormitorio es pequeño, pero el salón es grande.",
+      "accept": ["Ma chambre est petite, mais le salon est grand"],
+      "hintWords": ["ma chambre", "le salon"],
+      "strictAccents": false,
+      "audio": "Ma chambre est petite, mais le salon est grand.",
+      "explain": "Petite (femenino, chambre) frente a grand (masculino, salon)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "El jardín es bonito y el baño es nuevo.",
+      "accept": ["Le jardin est joli et la salle de bains est neuve"],
+      "hintWords": ["le jardin", "la salle de bains"],
+      "strictAccents": false,
+      "audio": "Le jardin est joli et la salle de bains est neuve.",
+      "explain": "Joli (masculino, jardin) frente a neuve (femenino, salle de bains)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "___ sont les toilettes, s'il vous plaît ?",
+      "blanks": [{ "accept": ["Où"] }],
+      "bank": ["Où", "Quand", "Comment"],
+      "explain": "Où sont les toilettes ? es una pregunta muy útil."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Cierra la puerta, por favor»",
+      "tokens": ["s'il te plaît", "la porte", "Ferme", ","],
+      "answer": ["Ferme", "la porte", ",", "s'il te plaît"],
+      "audio": "Ferme la porte, s'il te plaît.",
+      "explain": "Repaso de la estructura de petición con el imperativo ferme."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "prompt": "Le couloir est long, mais le jardin est très joli.",
+      "accept": ["El pasillo es largo, pero el jardín es muy bonito."],
+      "strictAccents": false,
+      "audio": "Le couloir est long, mais le jardin est très joli.",
+      "explain": "Long (largo) y joli (bonito), dos adjetivos aplicados a la casa."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación describiendo tu casa",
+      "turns": [
+        { "who": "Léa", "text": "Elle est comment, ta maison ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Elle est grande, avec un beau jardin.", "Elle est petite, mais jolie."], "hint": "describe tu casa" },
+        { "who": "Léa", "text": "Ça a l'air super !", "speak": true }
+      ],
+      "explain": "Elle (la maison) est + adjetivo, describiendo la casa en general."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "speak": "La cuisine et le salon sont grands.",
+      "mode": "write",
+      "accept": ["La cuisine et le salon sont grands"],
+      "showTextAfter": true,
+      "explain": "Cuisine (f.) y salon (m.), dos habitaciones."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "speak": "la salle de bains",
+      "mode": "choose",
+      "options": ["la salle de bains", "les toilettes", "la chambre", "le couloir"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "La salle de bains = el baño (ducha/bañera)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["casa"],
+      "difficulty": 3,
+      "speak": "Ma maison a une chambre, un salon, une cuisine et un joli jardin.",
+      "es": "Mi casa tiene un dormitorio, un salón, una cocina y un jardín bonito.",
+      "ipa": "/ma mɛ.zɔ̃ a yn ʃɑ̃bʁ œ̃ sa.lɔ̃ yn kɥi.zin e œ̃ ʒɔ.li ʒaʁ.dɛ̃/",
+      "esApprox": "«ma me-ZÓN a ün SHANBR un sa-LÓN ün küí-ZIN e un yo-LÍ yar-DEN»",
+      "focus": "Cuatro habitaciones seguidas: buen repaso de género (une/un alternando).",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Describe las habitaciones de tu casa.",
+      "modelAnswer": "Ma maison a une chambre, une cuisine et un salon.",
+      "alsoValid": ["Mon appartement a deux chambres et un petit salon."],
+      "speak": "Ma maison a une chambre, une cuisine et un salon.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "gender_article",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto",
+      "items": [
+        { "word": "chambre", "options": ["le", "la"], "answer": 1 },
+        { "word": "salon", "options": ["le", "la"], "answer": 0 },
+        { "word": "jardin", "options": ["le", "la"], "answer": 0 },
+        { "word": "cuisine", "options": ["le", "la"], "answer": 1 }
+      ],
+      "explain": "Chambre y cuisine son femeninas; salon y jardin son masculinos."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Hay un error de plural. Corrige la frase entera.",
+      "wrong": "Où est la toilette ?",
+      "accept": ["Où sont les toilettes ?"],
+      "audio": "Où sont les toilettes ?",
+      "explain": "Toilettes va siempre en plural."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la chambre", "es": "el dormitorio", "esApprox": "«la SHANBR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le salon", "es": "el salón", "esApprox": "«le sa-LÓN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "la cuisine", "es": "la cocina", "esApprox": "«la küí-ZIN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "la salle de bains", "es": "el baño", "esApprox": "«la sal de BEN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "les toilettes", "es": "el váter", "esApprox": "«le tuá-LET»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "le jardin", "es": "el jardín", "esApprox": "«le yar-DEN»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "la porte", "es": "la puerta", "esApprox": "«la PORT»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Où sont les toilettes ?", "es": "¿Dónde está el baño?", "from": "v5" },
+    { "id": "s9", "kind": "phrase", "target": "Ma maison a une chambre, un salon, une cuisine et un joli jardin.", "es": "Mi casa tiene un dormitorio, un salón, una cocina y un jardín bonito.", "from": "e14" }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "id": "fr-a1-045",
+  "lang": "fr",
+  "level": "A1",
+  "order": 45,
+  "title": "La frecuencia: souvent, toujours, jamais, parfois",
+  "objectives": [
+    "Usar los adverbios de frecuencia toujours, souvent, parfois, rarement y jamais",
+    "Colocar el adverbio de frecuencia justo después del verbo conjugado",
+    "Usar ne... jamais como negación especial, en el mismo sitio que ne... pas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "De siempre a nunca",
+      "body": "Estos adverbios dicen con qué frecuencia pasa algo, de más a menos: **toujours** (siempre) → **souvent** (a menudo) → **parfois** (a veces) → **rarement** (raramente) → **jamais** (nunca). Van justo después del verbo conjugado, no al principio ni al final de la frase como en español.",
+      "examples": [
+        { "target": "Je travaille toujours le lundi.", "es": "Siempre trabajo los lunes.", "note": "el adverbio va después del verbo, no antes" },
+        { "target": "Il ne fait jamais attention.", "es": "Nunca tiene cuidado.", "note": "ne... jamais, como ne... pas" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "La escalera de frecuencia",
+      "headers": ["Francés", "Español", "Frecuencia"],
+      "rows": [
+        ["toujours", "siempre", "100%"],
+        ["souvent", "a menudo", "alta"],
+        ["parfois", "a veces", "media"],
+        ["rarement", "raramente", "baja"],
+        ["ne... jamais", "nunca", "0%"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "El adverbio no va al principio de la frase",
+      "items": [
+        { "wrong": "Souvent, je travaille le lundi. (calcando el orden español)", "right": "Je travaille souvent le lundi.", "why": "En español es normal poner el adverbio de frecuencia al principio; en francés hablado lo natural es colocarlo justo después del verbo conjugado. Ponerlo al principio no es agramatical, pero suena menos natural en la conversación." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Jamais funciona como pas: ocupa el mismo lugar en la negación. Ne + verbo + jamais, exactamente en el sitio donde iría pas. Nunca se usan los dos a la vez (ne... pas... jamais no existe)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "toujours", "es": "siempre", "ipa": "/tu.ʒuʁ/", "esApprox": "«tu-YUR»", "pos": "adverbio", "gender": null, "example": { "target": "Il est toujours content.", "es": "Siempre está contento." } },
+    { "id": "v2", "target": "souvent", "es": "a menudo", "ipa": "/su.vɑ̃/", "esApprox": "«su-VAN»", "pos": "adverbio", "gender": null, "example": { "target": "Je fais souvent du sport.", "es": "A menudo hago deporte." } },
+    { "id": "v3", "target": "parfois", "es": "a veces", "ipa": "/paʁ.fwa/", "esApprox": "«par-FUÁ»", "pos": "adverbio", "gender": null, "example": { "target": "Elle chante parfois.", "es": "A veces canta." } },
+    { "id": "v4", "target": "rarement", "es": "raramente, pocas veces", "ipa": "/ʁaʁ.mɑ̃/", "esApprox": "«rar-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "Nous sortons rarement.", "es": "Salimos pocas veces." } },
+    { "id": "v5", "target": "ne... jamais", "es": "nunca", "ipa": "/nə...ʒa.mɛ/", "esApprox": "«ne...ya-MÉ»", "pos": "adverbio", "gender": null, "example": { "target": "Il ne fait jamais attention.", "es": "Nunca tiene cuidado." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["frecuencia"],
+      "difficulty": 1,
+      "prompt": "¿Qué adverbio indica la frecuencia más alta?",
+      "options": ["rarement", "parfois", "toujours", "jamais"],
+      "answer": 2,
+      "explain": "Toujours = siempre, la frecuencia máxima."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "¿Dónde va normalmente el adverbio de frecuencia?",
+      "options": ["al principio de la frase", "justo después del verbo conjugado", "al final de la frase", "antes del sujeto"],
+      "answer": 1,
+      "explain": "Va justo después del verbo conjugado: je travaille souvent."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "statement": "Jamais ocupa el mismo lugar que pas en la negación.",
+      "answer": true,
+      "explain": "Ne + verbo + jamais, igual que ne + verbo + pas."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos adverbios indica frecuencia baja o nula, a diferencia de los demás?",
+      "options": ["toujours", "souvent", "rarement", "toujours"],
+      "answer": 2,
+      "explain": "Rarement es de frecuencia baja; toujours y souvent son de frecuencia alta."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["frecuencia"],
+      "difficulty": 1,
+      "prompt": "Une cada adverbio con su significado",
+      "left": ["souvent", "parfois", "rarement", "toujours"],
+      "right": ["siempre", "a menudo", "a veces", "raramente"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Souvent = a menudo, parfois = a veces, rarement = raramente, toujours = siempre."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "A menudo hago deporte, pero raramente cocino.",
+      "accept": ["Je fais souvent du sport, mais je fais rarement la cuisine"],
+      "hintWords": ["souvent", "rarement"],
+      "strictAccents": false,
+      "audio": "Je fais souvent du sport, mais je fais rarement la cuisine.",
+      "explain": "Los dos adverbios van justo después del verbo conjugado."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "Nunca tiene cuidado.",
+      "accept": ["Il ne fait jamais attention"],
+      "hintWords": ["ne fait jamais"],
+      "strictAccents": false,
+      "audio": "Il ne fait jamais attention.",
+      "explain": "Ne + fait + jamais: mismo patrón que ne + fait + pas."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "Completa con el adverbio correcto",
+      "text": "Elle est ___ contente : ça n'arrive presque jamais.",
+      "blanks": [{ "accept": ["rarement"] }],
+      "bank": ["rarement", "toujours", "souvent"],
+      "explain": "Rarement encaja con «casi nunca pasa» en el resto de la frase."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Siempre trabajo los lunes»",
+      "tokens": ["le lundi", "toujours", "Je", "travaille"],
+      "answer": ["Je", "travaille", "toujours", "le lundi"],
+      "audio": "Je travaille toujours le lundi.",
+      "explain": "Toujours va justo después del verbo, no al principio."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["frecuencia"],
+      "difficulty": 1,
+      "prompt": "Nous sortons rarement, mais nous parlons souvent au téléphone.",
+      "accept": ["Salimos pocas veces, pero hablamos a menudo por teléfono."],
+      "strictAccents": false,
+      "audio": "Nous sortons rarement, mais nous parlons souvent au téléphone.",
+      "explain": "Rarement y souvent, dos frecuencias distintas en la misma frase."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus hábitos",
+      "turns": [
+        { "who": "Léa", "text": "Tu fais souvent du sport ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je fais souvent du sport.", "Non, je fais rarement du sport."], "hint": "responde con un adverbio de frecuencia" },
+        { "who": "Léa", "text": "Moi, je fais du sport tous les jours !", "speak": true }
+      ],
+      "explain": "Tu fais souvent... ? se responde con el mismo adverbio o uno distinto."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "speak": "Il ne fait jamais attention, c'est un problème.",
+      "mode": "write",
+      "accept": ["Il ne fait jamais attention, c'est un problème"],
+      "showTextAfter": true,
+      "explain": "Ne... jamais, con el mismo orden que ne... pas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "speak": "parfois",
+      "mode": "choose",
+      "options": ["parfois", "toujours", "jamais", "souvent"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Parfois = a veces."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["frecuencia"],
+      "difficulty": 3,
+      "speak": "Je suis toujours content, je souris souvent, mais je ne pleure jamais.",
+      "es": "Siempre estoy contento, sonrío a menudo, pero nunca lloro.",
+      "ipa": "/ʒə sɥi tu.ʒuʁ kɔ̃.tɑ̃ ʒə su.ʁi su.vɑ̃ mɛ ʒə nə plœʁ ʒa.mɛ/",
+      "esApprox": "«ye süí tu-YUR kon-TAN ye su-RÍ su-VAN me ye ne PLEUR ya-MÉ»",
+      "focus": "Toujours, souvent y jamais, los tres extremos de la escalera de frecuencia.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "Di algo que haces siempre, algo que haces a veces y algo que no haces nunca.",
+      "modelAnswer": "Je travaille toujours le lundi, je fais parfois du sport, je ne mange jamais tard.",
+      "alsoValid": ["Je me lève toujours tôt, je danse parfois, je ne fume jamais."],
+      "speak": "Je travaille toujours le lundi, je fais parfois du sport, je ne mange jamais tard.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "¿Es una frecuencia alta o baja?",
+      "buckets": ["Alta", "Baja"],
+      "items": [
+        { "text": "toujours", "bucket": 0 },
+        { "text": "rarement", "bucket": 1 },
+        { "text": "souvent", "bucket": 0 },
+        { "text": "jamais", "bucket": 1 }
+      ],
+      "explain": "Toujours y souvent son altas; rarement y jamais son bajas o nulas."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "Hay un error de orden. Corrige la frase entera.",
+      "wrong": "Souvent je travaille le lundi.",
+      "accept": ["Je travaille souvent le lundi"],
+      "audio": "Je travaille souvent le lundi.",
+      "explain": "El adverbio de frecuencia va después del verbo, no al principio."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "toujours", "es": "siempre", "esApprox": "«tu-YUR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "souvent", "es": "a menudo", "esApprox": "«su-VAN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "parfois", "es": "a veces", "esApprox": "«par-FUÁ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "rarement", "es": "raramente", "esApprox": "«rar-MAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "ne... jamais", "es": "nunca", "esApprox": "«ne...ya-MÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je travaille souvent le lundi.", "es": "A menudo trabajo los lunes.", "from": "e17" },
+    { "id": "s7", "kind": "phrase", "target": "Il ne fait jamais attention, c'est un problème.", "es": "Nunca tiene cuidado, es un problema.", "from": "e12" },
+    { "id": "s8", "kind": "phrase", "target": "Je suis toujours content, je souris souvent, mais je ne pleure jamais.", "es": "Siempre estoy contento, sonrío a menudo, pero nunca lloro.", "from": "e14" },
+    { "id": "s9", "kind": "phrase", "target": "Nous sortons rarement, mais nous parlons souvent au téléphone.", "es": "Salimos pocas veces, pero hablamos a menudo por teléfono.", "from": "e10" }
+  ]
+}

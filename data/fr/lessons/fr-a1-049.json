@@ -1,0 +1,271 @@
+{
+  "id": "fr-a1-049",
+  "lang": "fr",
+  "level": "A1",
+  "order": 49,
+  "title": "Il y a, c'est y il est: tres formas que el español confunde",
+  "objectives": [
+    "Usar il y a para decir «hay» (existencia de algo)",
+    "Usar c'est + sustantivo/nombre/adjetivo para identificar o presentar algo o a alguien",
+    "Usar il est/elle est + profesión o adjetivo, sin artículo, y distinguirlo de c'est un/une + profesión"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres estructuras, tres funciones distintas",
+      "body": "Ya has usado las tres muchas veces sin explicación. Ahora las distingues bien: **il y a** dice que algo existe o está presente («hay»). **C'est** identifica o presenta algo, casi siempre con un sustantivo o un nombre propio detrás. **Il/elle est** describe, con un adjetivo o (sin artículo) una profesión.",
+      "examples": [
+        { "target": "Il y a un canapé dans le salon.", "es": "Hay un sofá en el salón.", "note": "il y a = existencia" },
+        { "target": "C'est mon frère.", "es": "Es mi hermano.", "note": "c'est + sustantivo, identifica" },
+        { "target": "Il est grand.", "es": "Es alto.", "note": "il est + adjetivo, describe" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "C'est un professeur frente a il est professeur",
+      "headers": ["Estructura", "Ejemplo", "Función"],
+      "rows": [
+        ["il y a", "Il y a un problème.", "decir que algo existe"],
+        ["c'est + sustantivo/nombre", "C'est un professeur. / C'est Marc.", "identificar, con artículo"],
+        ["il est + adjetivo", "Il est grand.", "describir con adjetivo"],
+        ["il est + profesión (sin artículo)", "Il est professeur.", "describir con profesión, sin artículo"]
+      ],
+      "note": "C'est un professeur e il est professeur significan casi lo mismo, pero se construyen de forma distinta: con artículo (c'est un) o sin él (il est)."
+    },
+    {
+      "type": "contrast",
+      "title": "El error más frecuente: mezclar las dos construcciones",
+      "items": [
+        { "wrong": "Il est un professeur.", "right": "Il est professeur. / C'est un professeur.", "why": "Il est nunca lleva artículo delante de una profesión: il est professeur, no il est un professeur. Si quieres usar el artículo un/une, tienes que cambiar a c'est: c'est un professeur." },
+        { "wrong": "C'est grand.", "right": "Il est grand. (hablando de algo ya mencionado, con adjetivo)", "why": "Para un simple adjetivo referido a algo ya conocido, lo normal es il/elle est. C'est + adjetivo existe, pero se usa para valorar una situación general (c'est bien, c'est intéressant), no para describir un sustantivo concreto ya mencionado." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Il y a es invariable, como il pleut o il faut: nunca se dice «ils y ont» aunque hablemos de varias cosas. Il y a un chat, il y a des chats: siempre il y a, sea singular o plural."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il y a", "es": "hay", "ipa": "/il.j.a/", "esApprox": "«il-YÁ»", "pos": "expresión", "gender": null, "example": { "target": "Il y a un problème.", "es": "Hay un problema." } },
+    { "id": "v2", "target": "il n'y a pas de", "es": "no hay", "ipa": "/il.nj.a.pa.də/", "esApprox": "«il-nia-pa-DE»", "pos": "expresión", "gender": null, "example": { "target": "Il n'y a pas de problème.", "es": "No hay ningún problema." } },
+    { "id": "v3", "target": "c'est", "es": "es, esto es", "ipa": "/sɛ/", "esApprox": "«SE»", "pos": "expresión", "gender": null, "example": { "target": "C'est mon frère.", "es": "Es mi hermano." } },
+    { "id": "v4", "target": "ce sont", "es": "son, estos son", "ipa": "/sə sɔ̃/", "esApprox": "«se SON»", "pos": "expresión", "gender": null, "example": { "target": "Ce sont mes parents.", "es": "Son mis padres." } },
+    { "id": "v5", "target": "il est / elle est", "es": "es (describiendo)", "ipa": "/il ɛ / ɛl ɛ/", "esApprox": "«il e» / «el e»", "pos": "expresión", "gender": null, "example": { "target": "Il est professeur.", "es": "Es profesor." } },
+    { "id": "v6", "target": "qu'est-ce qu'il y a ?", "es": "¿qué pasa?, ¿qué hay?", "ipa": "/kɛs.kil.j.a/", "esApprox": "«kes-kil-YÁ»", "pos": "expresión", "gender": null, "example": { "target": "Qu'est-ce qu'il y a ? Tu es fatigué ?", "es": "¿Qué pasa? ¿Estás cansado?" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["il-y-a"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «hay un problema»?",
+      "options": ["C'est un problème.", "Il y a un problème.", "Il est un problème.", "Il a un problème."],
+      "answer": 1,
+      "explain": "Il y a un problème = hay un problema."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases es correcta?",
+      "options": ["Il est un professeur.", "Il est professeur.", "C'est professeur.", "Il y a professeur."],
+      "answer": 1,
+      "explain": "Il est professeur, sin artículo. C'est un professeur también sería correcto, pero no il est un professeur."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["il-y-a"],
+      "difficulty": 2,
+      "statement": "Il y a cambia de forma en plural: ils y ont.",
+      "answer": false,
+      "explain": "Il y a es invariable, siempre igual, sea singular o plural."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "statement": "C'est un professeur e il est professeur significan casi lo mismo, pero se construyen distinto.",
+      "answer": true,
+      "explain": "Una lleva artículo (c'est un), la otra no (il est)."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases usa il y a, a diferencia de las demás?",
+      "options": ["C'est mon frère.", "Il est grand.", "Il y a un chat.", "Ce sont mes parents."],
+      "answer": 2,
+      "explain": "Il y a un chat es la única que expresa existencia."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "Une cada frase con su función",
+      "left": ["Il y a un problème.", "C'est mon frère.", "Il est grand.", "Il est professeur."],
+      "right": ["describir con profesión, sin artículo", "existencia", "identificar con sustantivo", "describir con adjetivo"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Cuatro funciones distintas para cuatro estructuras parecidas."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["il-y-a"],
+      "difficulty": 2,
+      "prompt": "Hay un sofá gris en el salón.",
+      "accept": ["Il y a un canapé gris dans le salon"],
+      "hintWords": ["il y a"],
+      "strictAccents": false,
+      "audio": "Il y a un canapé gris dans le salon.",
+      "explain": "Il y a + sustantivo, para decir que algo existe en un lugar."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "Es mi hermano. Es profesor.",
+      "accept": ["C'est mon frère. Il est professeur."],
+      "hintWords": ["c'est", "il est"],
+      "strictAccents": false,
+      "audio": "C'est mon frère. Il est professeur.",
+      "explain": "C'est para presentar (mon frère), il est para describir su profesión (sin artículo)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "Completa con c'est o il est",
+      "text": "___ mon ami. ___ très sympa.",
+      "blanks": [{ "accept": ["C'est"] }, { "accept": ["Il est"] }],
+      "bank": ["C'est", "Il est"],
+      "explain": "C'est mon ami (identifica), il est très sympa (describe con adjetivo)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["il-y-a"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «No hay ningún problema»",
+      "tokens": ["pas", "Il", "de", "problème", "n'y a"],
+      "answer": ["Il", "n'y a", "pas", "de", "problème"],
+      "audio": "Il n'y a pas de problème.",
+      "explain": "Il n'y a pas de + sustantivo: el artículo se convierte en de, como en la clase 19."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["cest-il-est"],
+      "difficulty": 1,
+      "prompt": "Ce sont mes parents. Ils sont très généreux.",
+      "accept": ["Son mis padres. Son muy generosos."],
+      "strictAccents": false,
+      "audio": "Ce sont mes parents. Ils sont très généreux.",
+      "explain": "Ce sont (plural de c'est) frente a ils sont (être normal)."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación presentando a un amigo",
+      "turns": [
+        { "who": "Léa", "text": "Qui est-ce ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'est mon ami Thomas.", "C'est ma sœur."], "hint": "usa c'est para presentar a alguien" },
+        { "who": "Léa", "text": "Ah, il est sympa !", "speak": true }
+      ],
+      "explain": "C'est para presentar a alguien por primera vez."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["il-y-a"],
+      "difficulty": 2,
+      "speak": "Qu'est-ce qu'il y a ? Tu es fatigué ?",
+      "mode": "write",
+      "accept": ["Qu'est-ce qu'il y a ? Tu es fatigué ?"],
+      "showTextAfter": true,
+      "explain": "Qu'est-ce qu'il y a ? es una pregunta muy frecuente."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "speak": "Il est professeur.",
+      "mode": "choose",
+      "options": ["Il est professeur.", "Il est un professeur.", "C'est professeur.", "Il y a professeur."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Il est professeur, sin artículo, es la única forma correcta entre las cuatro."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["cest-il-est"],
+      "difficulty": 3,
+      "speak": "C'est mon frère, il est professeur, il est très patient et il y a toujours des étudiants contents.",
+      "es": "Es mi hermano, es profesor, es muy paciente y siempre hay estudiantes contentos.",
+      "ipa": "/sɛ mɔ̃ fʁɛʁ i.l‿ɛ pʁɔ.fɛ.sœʁ i.l‿ɛ tʁɛ pa.sjɑ̃ e il.j.a tu.ʒuʁ de.z‿e.ty.djɑ̃ kɔ̃.tɑ̃/",
+      "esApprox": "«se mon FRER i-le pro-fe-SEUR i-le tré pa-SIAN e il-YÁ tu-YUR de-ze-tü-DIAN kon-TAN»",
+      "focus": "Las tres estructuras en una sola frase: c'est, il est (x2) e il y a.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "speak_prompt",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "Presenta a un amigo: quién es (c'est) y su profesión (il est).",
+      "modelAnswer": "C'est mon ami Paul, il est étudiant.",
+      "alsoValid": ["C'est ma cousine, elle est professeure."],
+      "speak": "C'est mon ami Paul, il est étudiant.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "¿Esta frase usa il y a, c'est o il est?",
+      "buckets": ["il y a", "c'est", "il est"],
+      "items": [
+        { "text": "un problème dans la cuisine", "bucket": 0 },
+        { "text": "mon frère", "bucket": 1 },
+        { "text": "grand et sympa", "bucket": 2 },
+        { "text": "des livres sur l'étagère", "bucket": 0 },
+        { "text": "professeur", "bucket": 2 }
+      ],
+      "explain": "Il y a (existencia), c'est (identificar), il est (describir)."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "Hay un error: sobra el artículo. Corrige la frase entera.",
+      "wrong": "Il est un professeur très patient.",
+      "accept": ["Il est professeur très patient", "C'est un professeur très patient"],
+      "audio": "Il est professeur très patient.",
+      "explain": "Il est nunca lleva artículo delante de una profesión."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "il y a", "es": "hay", "esApprox": "«il-YÁ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "il n'y a pas de", "es": "no hay", "esApprox": "«il-nia-pa-DE»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "c'est", "es": "es, esto es", "esApprox": "«SE»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "ce sont", "es": "son, estos son", "esApprox": "«se SON»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "il est / elle est", "es": "es (describiendo)", "esApprox": "«il e» / «el e»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "qu'est-ce qu'il y a ?", "es": "¿qué pasa?", "esApprox": "«kes-kil-YÁ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Il y a un canapé gris dans le salon.", "es": "Hay un sofá gris en el salón.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "C'est mon frère. Il est professeur.", "es": "Es mi hermano. Es profesor.", "from": "e8" },
+    { "id": "s9", "kind": "phrase", "target": "C'est mon frère, il est professeur, il est très patient et il y a toujours des étudiants contents.", "es": "Es mi hermano, es profesor, es muy paciente y siempre hay estudiantes contentos.", "from": "e15" }
+  ]
+}

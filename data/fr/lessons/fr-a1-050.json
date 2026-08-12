@@ -1,0 +1,265 @@
+{
+  "id": "fr-a1-050",
+  "lang": "fr",
+  "level": "A1",
+  "order": 50,
+  "title": "Las preposiciones de lugar",
+  "objectives": [
+    "Usar las preposiciones de lugar más frecuentes: sur, sous, devant, derrière, entre",
+    "Usar à côté de y en face de, que se combinan con de + artículo (à côté du, en face de la)",
+    "Describir dónde está algo combinando il y a (clase 49) con una preposición de lugar"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dónde está exactamente",
+      "body": "Ya usas dans (dentro de, clase 48). Ahora completas el mapa de preposiciones de lugar más usadas para decir exactamente dónde está algo.",
+      "examples": [
+        { "target": "Le chat est sur le canapé.", "es": "El gato está sobre el sofá.", "note": "sur = encima de" },
+        { "target": "Le tapis est sous la table.", "es": "La alfombra está debajo de la mesa.", "note": "sous = debajo de" },
+        { "target": "L'armoire est à côté du lit.", "es": "El armario está al lado de la cama.", "note": "à côté de + le = à côté du" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las preposiciones de lugar",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["sur", "sobre, encima de"],
+        ["sous", "debajo de"],
+        ["devant", "delante de"],
+        ["derrière", "detrás de"],
+        ["entre", "entre"],
+        ["à côté de", "al lado de"],
+        ["en face de", "enfrente de"]
+      ],
+      "note": "À côté de y en face de terminan en de: se combinan con le/les igual que en la clase 37 (à côté du, à côté des)."
+    },
+    {
+      "type": "contrast",
+      "title": "À côté du, no à côté de le",
+      "items": [
+        { "wrong": "à côté de le lit", "right": "à côté du lit", "why": "De + le se contrae siempre en du, incluso dentro de una expresión más larga como à côté de. La regla de la clase 37 se aplica igual." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para describir dónde está algo, combina il y a + preposición: il y a un chat sous la table (hay un gato debajo de la mesa). Es la estructura más natural para hablar de la disposición de una habitación."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sur", "es": "sobre, encima de", "ipa": "/syʁ/", "esApprox": "«SÜR»", "pos": "preposición", "gender": null, "example": { "target": "Le livre est sur la table.", "es": "El libro está sobre la mesa." } },
+    { "id": "v2", "target": "sous", "es": "debajo de", "ipa": "/su/", "esApprox": "«SU»", "pos": "preposición", "gender": null, "example": { "target": "Le chat est sous le lit.", "es": "El gato está debajo de la cama." } },
+    { "id": "v3", "target": "devant", "es": "delante de", "ipa": "/də.vɑ̃/", "esApprox": "«de-VAN»", "pos": "preposición", "gender": null, "example": { "target": "La voiture est devant la maison.", "es": "El coche está delante de la casa." } },
+    { "id": "v4", "target": "derrière", "es": "detrás de", "ipa": "/dɛ.ʁjɛʁ/", "esApprox": "«de-RIER»", "pos": "preposición", "gender": null, "example": { "target": "Le jardin est derrière la maison.", "es": "El jardín está detrás de la casa." } },
+    { "id": "v5", "target": "entre", "es": "entre", "ipa": "/ɑ̃tʁ/", "esApprox": "«ANTR»", "pos": "preposición", "gender": null, "example": { "target": "La lampe est entre les deux lits.", "es": "La lámpara está entre las dos camas." } },
+    { "id": "v6", "target": "à côté de", "es": "al lado de", "ipa": "/a ko.te də/", "esApprox": "«a ko-TÉ de»", "pos": "preposición", "gender": null, "example": { "target": "L'armoire est à côté du lit.", "es": "El armario está al lado de la cama." } },
+    { "id": "v7", "target": "en face de", "es": "enfrente de", "ipa": "/ɑ̃ fas də/", "esApprox": "«an FAS de»", "pos": "preposición", "gender": null, "example": { "target": "L'école est en face de la maison.", "es": "El colegio está enfrente de la casa." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «debajo de»?",
+      "options": ["sur", "sous", "devant", "derrière"],
+      "answer": 1,
+      "explain": "Sous = debajo de."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «al lado de la cama»?",
+      "options": ["à côté de le lit", "à côté du lit", "à côté la lit", "côté de lit"],
+      "answer": 1,
+      "explain": "À côté du lit: de + le se contrae en du."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "statement": "En face de sigue la misma regla de contracción que à côté de.",
+      "answer": true,
+      "explain": "En face du, en face de la: mismo patrón que de + artículo."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas preposiciones es opuesta a «devant», a diferencia de las demás?",
+      "options": ["derrière", "sur", "sous", "entre"],
+      "answer": 0,
+      "explain": "Derrière (detrás) es lo opuesto de devant (delante)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 1,
+      "prompt": "Une cada preposición con su significado",
+      "left": ["sur", "sous", "devant", "entre"],
+      "right": ["entre", "sobre", "debajo de", "delante de"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Sur = sobre, sous = debajo, devant = delante, entre = entre."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "El gato está sobre el sofá y la alfombra está debajo de la mesa.",
+      "accept": ["Le chat est sur le canapé et le tapis est sous la table"],
+      "hintWords": ["sur le canapé", "sous la table"],
+      "strictAccents": false,
+      "audio": "Le chat est sur le canapé et le tapis est sous la table.",
+      "explain": "Sur y sous, dos preposiciones opuestas."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "El colegio está enfrente de la casa.",
+      "accept": ["L'école est en face de la maison"],
+      "hintWords": ["en face de"],
+      "strictAccents": false,
+      "audio": "L'école est en face de la maison.",
+      "explain": "En face de la maison, sin contraer (la no se contrae)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "Completa con la preposición correcta",
+      "text": "L'armoire est ___ du lit, et le miroir est ___ la porte.",
+      "blanks": [{ "accept": ["à côté"] }, { "accept": ["derrière"] }],
+      "bank": ["à côté", "derrière", "sous"],
+      "explain": "À côté du lit (al lado) y derrière la porte (detrás)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El coche está delante de la casa»",
+      "tokens": ["la maison", "La voiture", "devant", "est"],
+      "answer": ["La voiture", "est", "devant", "la maison"],
+      "audio": "La voiture est devant la maison.",
+      "explain": "Devant + sustantivo, sin de."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 1,
+      "prompt": "Il y a une lampe entre les deux lits.",
+      "accept": ["Hay una lámpara entre las dos camas."],
+      "strictAccents": false,
+      "audio": "Il y a une lampe entre les deux lits.",
+      "explain": "Il y a + une lampe + entre: existencia y ubicación juntas."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre dónde está el gato",
+      "turns": [
+        { "who": "Léa", "text": "Où est le chat ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il est sous le lit.", "Il est sur le canapé."], "hint": "di dónde está con una preposición de lugar" },
+        { "who": "Léa", "text": "Ah, il est là !", "speak": true }
+      ],
+      "explain": "Il (le chat) est + preposición + lugar."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "speak": "Le jardin est derrière la maison, en face de l'école.",
+      "mode": "write",
+      "accept": ["Le jardin est derrière la maison, en face de l'école"],
+      "showTextAfter": true,
+      "explain": "Derrière y en face de, dos preposiciones en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "speak": "à côté du lit",
+      "mode": "choose",
+      "options": ["à côté du lit", "à côté de le lit", "sous le lit", "sur le lit"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "À côté du lit es la única forma correcta con la contracción."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 3,
+      "speak": "Le lit est devant la fenêtre, l'armoire est à côté et le tapis est sous le lit.",
+      "es": "La cama está delante de la ventana, el armario está al lado y la alfombra está debajo de la cama.",
+      "ipa": "/lə li ɛ də.vɑ̃ la fə.nɛtʁ laʁ.mwaʁ ɛ.t‿a ko.te e lə ta.pi ɛ su lə li/",
+      "esApprox": "«le LÍ e de-VAN la fe-NETR lar-MUÁR e-ta ko-TÉ e le ta-PÍ e su le LÍ»",
+      "focus": "Tres preposiciones seguidas describiendo una habitación completa.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "Describe dónde está tu cama y tu armario en tu dormitorio.",
+      "modelAnswer": "Le lit est devant la fenêtre et l'armoire est à côté du lit.",
+      "alsoValid": ["Mon lit est sous la fenêtre, mon armoire est derrière la porte."],
+      "speak": "Le lit est devant la fenêtre et l'armoire est à côté du lit.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "¿Esta preposición necesita «de» delante de un sustantivo?",
+      "buckets": ["Necesita de", "No necesita de"],
+      "items": [
+        { "text": "à côté", "bucket": 0 },
+        { "text": "sur", "bucket": 1 },
+        { "text": "en face", "bucket": 0 },
+        { "text": "sous", "bucket": 1 },
+        { "text": "devant", "bucket": 1 }
+      ],
+      "explain": "À côté de y en face de terminan en de; sur, sous y devant van directas al sustantivo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "Hay un error de contracción. Corrige la frase entera.",
+      "wrong": "L'armoire est à côté de le lit.",
+      "accept": ["L'armoire est à côté du lit"],
+      "audio": "L'armoire est à côté du lit.",
+      "explain": "De + le se contrae en du, incluso después de à côté."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "sur", "es": "sobre, encima de", "esApprox": "«SÜR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "sous", "es": "debajo de", "esApprox": "«SU»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "devant", "es": "delante de", "esApprox": "«de-VAN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "derrière", "es": "detrás de", "esApprox": "«de-RIER»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "entre", "es": "entre", "esApprox": "«ANTR»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "à côté de", "es": "al lado de", "esApprox": "«a ko-TÉ de»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "en face de", "es": "enfrente de", "esApprox": "«an FAS de»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "Il y a une lampe entre les deux lits.", "es": "Hay una lámpara entre las dos camas.", "from": "e10" },
+    { "id": "s9", "kind": "phrase", "target": "Le lit est devant la fenêtre, l'armoire est à côté et le tapis est sous le lit.", "es": "La cama está delante de la ventana, el armario está al lado y la alfombra está debajo de la cama.", "from": "e14" }
+  ]
+}

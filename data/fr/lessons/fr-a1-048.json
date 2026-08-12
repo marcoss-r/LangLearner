@@ -1,0 +1,266 @@
+{
+  "id": "fr-a1-048",
+  "lang": "fr",
+  "level": "A1",
+  "order": 48,
+  "title": "Los muebles y los objetos cotidianos",
+  "objectives": [
+    "Nombrar los muebles más frecuentes de una casa",
+    "Describir en qué habitación está cada mueble usando dans (dentro de)",
+    "Usar los colores y los adjetivos ya conocidos para describir muebles"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los muebles de cada habitación",
+      "body": "Con el vocabulario de la clase 47 (las habitaciones) y este de hoy (los muebles), ya puedes describir toda tu casa con detalle. Dans (dentro de, en) te sirve para decir en qué habitación está cada cosa.",
+      "examples": [
+        { "target": "Le lit est dans la chambre.", "es": "La cama está en el dormitorio.", "note": "dans + habitación" },
+        { "target": "Le canapé est gris.", "es": "El sofá es gris.", "note": "mueble + color, ya conocido" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de los muebles",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["le lit", "la cama"],
+        ["la table / la chaise", "la mesa / la silla"],
+        ["le canapé", "el sofá"],
+        ["l'armoire", "el armario"],
+        ["l'étagère", "la estantería"],
+        ["la lampe", "la lámpara"],
+        ["le miroir", "el espejo"],
+        ["le tapis", "la alfombra"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Dans frente a à: dos formas de decir «en»",
+      "items": [
+        { "wrong": "Usar à para decir en qué habitación está algo (le lit à la chambre)", "right": "dans la chambre, no à la chambre", "why": "Dans se usa para decir que algo está dentro de un espacio cerrado (una habitación, una caja, una casa). À se usa más para destinos o ubicaciones generales (aller à Paris). No son intercambiables." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "L'armoire y l'étagère empiezan por vocal, así que llevan l', igual que l'école o l'homme: recuerda la regla de la clase 11."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le lit", "es": "la cama", "ipa": "/lə li/", "esApprox": "«le LÍ»", "pos": "sustantivo", "gender": "m", "plural": "les lits", "example": { "target": "Le lit est dans la chambre.", "es": "La cama está en el dormitorio." } },
+    { "id": "v2", "target": "le canapé", "es": "el sofá", "ipa": "/lə ka.na.pe/", "esApprox": "«le ka-na-PÉ»", "pos": "sustantivo", "gender": "m", "plural": "les canapés", "example": { "target": "Le canapé est gris.", "es": "El sofá es gris." } },
+    { "id": "v3", "target": "l'armoire", "es": "el armario", "ipa": "/laʁ.mwaʁ/", "esApprox": "«lar-MUÁR»", "pos": "sustantivo", "gender": "f", "plural": "les armoires", "example": { "target": "L'armoire est dans la chambre.", "es": "El armario está en el dormitorio." } },
+    { "id": "v4", "target": "l'étagère", "es": "la estantería", "ipa": "/le.ta.ʒɛʁ/", "esApprox": "«le-ta-YER»", "pos": "sustantivo", "gender": "f", "plural": "les étagères", "example": { "target": "Les livres sont sur l'étagère.", "es": "Los libros están en la estantería." } },
+    { "id": "v5", "target": "la lampe", "es": "la lámpara", "ipa": "/la lɑ̃p/", "esApprox": "«la LANP»", "pos": "sustantivo", "gender": "f", "plural": "les lampes", "example": { "target": "La lampe est jolie.", "es": "La lámpara es bonita." } },
+    { "id": "v6", "target": "le miroir", "es": "el espejo", "ipa": "/lə mi.ʁwaʁ/", "esApprox": "«le mi-RUÁR»", "pos": "sustantivo", "gender": "m", "plural": "les miroirs", "example": { "target": "Le miroir est grand.", "es": "El espejo es grande." } },
+    { "id": "v7", "target": "le tapis", "es": "la alfombra", "ipa": "/lə ta.pi/", "esApprox": "«le ta-PÍ»", "pos": "sustantivo", "gender": "m", "plural": "les tapis", "example": { "target": "Le tapis est bleu.", "es": "La alfombra es azul." } },
+    { "id": "v8", "target": "dans", "es": "dentro de, en", "ipa": "/dɑ̃/", "esApprox": "«DAN»", "pos": "preposición", "gender": null, "example": { "target": "Le chat est dans le salon.", "es": "El gato está en el salón." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["muebles"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «sofá»?",
+      "options": ["le lit", "le canapé", "l'armoire", "la lampe"],
+      "answer": 1,
+      "explain": "Le canapé = el sofá."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "prompt": "¿Qué preposición se usa para decir que algo está dentro de una habitación?",
+      "options": ["à", "dans", "de", "sur"],
+      "answer": 1,
+      "explain": "Dans + habitación: le lit est dans la chambre."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "statement": "L'armoire y l'étagère llevan l' porque empiezan por vocal.",
+      "answer": true,
+      "explain": "Igual que l'école o l'homme (clase 11)."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras es femenina, a diferencia de las demás?",
+      "options": ["le lit", "le canapé", "l'armoire", "le miroir"],
+      "answer": 2,
+      "explain": "L'armoire es femenina; las otras tres son masculinas."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["muebles"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["l'étagère", "le miroir", "le tapis", "la lampe"],
+      "right": ["la lámpara", "la estantería", "el espejo", "la alfombra"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Étagère = estantería, miroir = espejo, tapis = alfombra, lampe = lámpara."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "prompt": "La cama está en el dormitorio y el sofá está en el salón.",
+      "accept": ["Le lit est dans la chambre et le canapé est dans le salon"],
+      "hintWords": ["dans la chambre", "dans le salon"],
+      "strictAccents": false,
+      "audio": "Le lit est dans la chambre et le canapé est dans le salon.",
+      "explain": "Dans + habitación, dos veces en la misma frase."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "prompt": "El armario es grande y el espejo es bonito.",
+      "accept": ["L'armoire est grande et le miroir est joli"],
+      "hintWords": ["l'armoire", "le miroir"],
+      "strictAccents": false,
+      "audio": "L'armoire est grande et le miroir est joli.",
+      "explain": "Grande (femenino, armoire) frente a joli (masculino, miroir)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "prompt": "Completa con dans",
+      "text": "Le tapis est ___ le salon.",
+      "blanks": [{ "accept": ["dans"] }],
+      "bank": ["dans", "à", "de"],
+      "explain": "Dans le salon: dentro del salón."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Los libros están en la estantería»",
+      "tokens": ["l'étagère", "sont", "Les livres", "sur"],
+      "answer": ["Les livres", "sont", "sur", "l'étagère"],
+      "audio": "Les livres sont sur l'étagère.",
+      "explain": "Sur (encima de) + l'étagère."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["muebles"],
+      "difficulty": 1,
+      "prompt": "La lampe et le miroir sont dans la chambre.",
+      "accept": ["La lámpara y el espejo están en el dormitorio."],
+      "strictAccents": false,
+      "audio": "La lampe et le miroir sont dans la chambre.",
+      "explain": "Dos muebles, un mismo lugar (dans la chambre)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre los muebles de tu salón",
+      "turns": [
+        { "who": "Léa", "text": "Il est comment, ton canapé ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il est gris et grand.", "Il est bleu et petit."], "hint": "describe tu sofá con un color" },
+        { "who": "Léa", "text": "Ça a l'air confortable !", "speak": true }
+      ],
+      "explain": "Il (le canapé) est + color + adjetivo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "speak": "L'armoire et le lit sont dans la chambre.",
+      "mode": "write",
+      "accept": ["L'armoire et le lit sont dans la chambre"],
+      "showTextAfter": true,
+      "explain": "Dos muebles con dans la chambre."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "speak": "le tapis",
+      "mode": "choose",
+      "options": ["le tapis", "le canapé", "le miroir", "le lit"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Le tapis = la alfombra."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["muebles"],
+      "difficulty": 3,
+      "speak": "Dans le salon, il y a un canapé gris, une lampe et un tapis bleu.",
+      "es": "En el salón hay un sofá gris, una lámpara y una alfombra azul.",
+      "ipa": "/dɑ̃ lə sa.lɔ̃ i.l‿i.a œ̃ ka.na.pe ɡʁi yn lɑ̃p e œ̃ ta.pi blø/",
+      "esApprox": "«dan le sa-LÓN il-YÁ un ka-na-PÉ GRI ün LANP e un ta-PÍ BLEU»",
+      "focus": "Il y a (adelanto de la clase 49) para enumerar lo que hay en una habitación.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "prompt": "Describe los muebles de tu dormitorio.",
+      "modelAnswer": "Dans ma chambre, le lit est grand et l'armoire est blanche.",
+      "alsoValid": ["Ma chambre a un lit, une armoire et une lampe."],
+      "speak": "Dans ma chambre, le lit est grand et l'armoire est blanche.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "prompt": "¿Es masculino (le) o femenino (la/l')?",
+      "buckets": ["Masculino", "Femenino"],
+      "items": [
+        { "text": "lit", "bucket": 0 },
+        { "text": "armoire", "bucket": 1 },
+        { "text": "canapé", "bucket": 0 },
+        { "text": "lampe", "bucket": 1 },
+        { "text": "miroir", "bucket": 0 },
+        { "text": "étagère", "bucket": 1 }
+      ],
+      "explain": "Lit, canapé y miroir son masculinos; armoire, lampe y étagère son femeninos."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["muebles"],
+      "difficulty": 2,
+      "prompt": "Hay un error de preposición. Corrige la frase entera.",
+      "wrong": "Le lit est à la chambre.",
+      "accept": ["Le lit est dans la chambre"],
+      "audio": "Le lit est dans la chambre.",
+      "explain": "Para decir que algo está dentro de una habitación, se usa dans, no à."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "le lit", "es": "la cama", "esApprox": "«le LÍ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le canapé", "es": "el sofá", "esApprox": "«le ka-na-PÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "l'armoire", "es": "el armario", "esApprox": "«lar-MUÁR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "l'étagère", "es": "la estantería", "esApprox": "«le-ta-YER»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "le miroir", "es": "el espejo", "esApprox": "«le mi-RUÁR»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "le tapis", "es": "la alfombra", "esApprox": "«le ta-PÍ»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "dans", "es": "dentro de, en", "esApprox": "«DAN»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Les livres sont sur l'étagère.", "es": "Los libros están en la estantería.", "from": "e9" },
+    { "id": "s9", "kind": "phrase", "target": "Dans le salon, il y a un canapé gris, une lampe et un tapis bleu.", "es": "En el salón hay un sofá gris, una lámpara y una alfombra azul.", "from": "e14" }
+  ]
+}
