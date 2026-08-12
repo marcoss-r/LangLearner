@@ -1,0 +1,267 @@
+{
+  "id": "fr-a1-028",
+  "lang": "fr",
+  "level": "A1",
+  "order": 28,
+  "title": "Describir el carácter",
+  "objectives": [
+    "Describir el carácter de alguien con adjetivos de personalidad: sympa, timide, drôle, généreux, gentil...",
+    "Matizar el grado de una cualidad con très (muy) y un peu (un poco)",
+    "Aplicar être + adjetivo de carácter, concordando en género como ya sabes"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Más allá de content y sérieux",
+      "body": "Ya conoces content, fatigué y sérieux. Ahora amplías el vocabulario para describir cómo es alguien por dentro, no solo cómo se siente. Todos estos adjetivos funcionan con être, igual que los que ya conoces, y se pueden matizar con **très** (muy) y **un peu** (un poco).",
+      "examples": [
+        { "target": "Il est très sympa.", "es": "Es muy simpático.", "note": "très + adjetivo" },
+        { "target": "Elle est un peu timide.", "es": "Es un poco tímida.", "note": "un peu + adjetivo" },
+        { "target": "Ils sont généreux.", "es": "Son generosos.", "note": "généreux, -eux → -euse en femenino" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del carácter",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["sympa", "simpático/a (invariable, coloquial)"],
+        ["timide", "tímido/a (invariable)"],
+        ["drôle", "gracioso/a (invariable)"],
+        ["généreux / généreuse", "generoso/a"],
+        ["gentil / gentille", "amable"],
+        ["patient / patiente", "paciente"],
+        ["calme", "tranquilo/a (invariable)"]
+      ],
+      "note": "Sympa es la forma corta y coloquial de sympathique: se usa muchísimo más en el habla."
+    },
+    {
+      "type": "contrast",
+      "title": "Gentil es una excepción de femenino",
+      "items": [
+        { "wrong": "gentil → gentile", "right": "gentil → gentille", "why": "Gentil dobla la l en femenino: gentille, no gentile. No sigue ningún patrón de los que ya conoces; es una excepción que hay que memorizar aparte." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Très y un peu van siempre justo delante del adjetivo: très patient, un peu timide. Nunca se combinan entre sí ni se colocan en otro sitio de la frase."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sympa", "es": "simpático, simpática", "ipa": "/sɛ̃.pa/", "esApprox": "«sen-PÁ»", "pos": "adjetivo", "gender": null, "example": { "target": "Ton ami est très sympa.", "es": "Tu amigo es muy simpático." } },
+    { "id": "v2", "target": "timide", "es": "tímido, tímida", "ipa": "/ti.mid/", "esApprox": "«ti-MID»", "pos": "adjetivo", "gender": null, "example": { "target": "Elle est un peu timide.", "es": "Es un poco tímida." } },
+    { "id": "v3", "target": "drôle", "es": "gracioso, graciosa", "ipa": "/dʁol/", "esApprox": "«DROL»", "pos": "adjetivo", "gender": null, "example": { "target": "Il est très drôle.", "es": "Es muy gracioso." } },
+    { "id": "v4", "target": "généreux / généreuse", "es": "generoso, generosa", "ipa": "/ʒe.ne.ʁø / ʒe.ne.ʁøz/", "esApprox": "«ye-ne-REU» / «ye-ne-REUZ»", "pos": "adjetivo", "gender": null, "example": { "target": "Elle est très généreuse.", "es": "Es muy generosa." } },
+    { "id": "v5", "target": "gentil / gentille", "es": "amable", "ipa": "/ʒɑ̃.ti / ʒɑ̃.tij/", "esApprox": "«yan-TÍ» / «yan-TIY»", "pos": "adjetivo", "gender": null, "example": { "target": "Vous êtes très gentil.", "es": "Es usted muy amable." } },
+    { "id": "v6", "target": "patient / patiente", "es": "paciente", "ipa": "/pa.sjɑ̃ / pa.sjɑ̃t/", "esApprox": "«pa-SIAN» / «pa-SIANT»", "pos": "adjetivo", "gender": null, "example": { "target": "Il est patient avec les enfants.", "es": "Es paciente con los niños." } },
+    { "id": "v7", "target": "calme", "es": "tranquilo, tranquila", "ipa": "/kalm/", "esApprox": "«KALM»", "pos": "adjetivo", "gender": null, "example": { "target": "Elle est calme et sérieuse.", "es": "Es tranquila y seria." } },
+    { "id": "v8", "target": "très", "es": "muy", "ipa": "/tʁɛ/", "esApprox": "«TRÉ»", "pos": "adverbio", "gender": null, "example": { "target": "Il est très gentil.", "es": "Es muy amable." } },
+    { "id": "v9", "target": "un peu", "es": "un poco", "ipa": "/œ̃ pø/", "esApprox": "«un PEU»", "pos": "adverbio", "gender": null, "example": { "target": "Elle est un peu timide.", "es": "Es un poco tímida." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["caracter"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «sympa»?",
+      "options": ["tímido", "simpático", "generoso", "tranquilo"],
+      "answer": 1,
+      "explain": "Sympa = simpático, forma corta y coloquial de sympathique."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "statement": "El femenino de «gentil» es «gentile».",
+      "answer": false,
+      "explain": "El femenino correcto es gentille, con doble l."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["caracter"],
+      "difficulty": 1,
+      "statement": "«Sympa», «timide» y «calme» son invariables en género.",
+      "answer": true,
+      "explain": "Ya acaban en -e (o en -a, en el caso de sympa) y no cambian entre masculino y femenino."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos adjetivos cambia de forma en femenino, a diferencia de los demás?",
+      "options": ["sympa", "timide", "généreux", "calme"],
+      "answer": 2,
+      "explain": "Généreux → généreuse cambia; los otros tres son invariables."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["caracter"],
+      "difficulty": 1,
+      "prompt": "Une cada adjetivo con su significado",
+      "left": ["drôle", "patient", "gentil", "timide"],
+      "right": ["amable", "tímido", "gracioso", "paciente"],
+      "answer": [2, 3, 0, 1],
+      "explain": "Drôle = gracioso, patient = paciente, gentil = amable, timide = tímido."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "Es muy simpático y muy paciente.",
+      "accept": ["Il est très sympa et très patient"],
+      "hintWords": ["très sympa", "très patient"],
+      "strictAccents": false,
+      "audio": "Il est très sympa et très patient.",
+      "explain": "Très va justo delante de cada adjetivo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "Es un poco tímida, pero muy generosa.",
+      "accept": ["Elle est un peu timide, mais très généreuse"],
+      "hintWords": ["un peu timide", "très généreuse"],
+      "strictAccents": false,
+      "audio": "Elle est un peu timide, mais très généreuse.",
+      "explain": "Un peu (matiz suave) frente a très (matiz fuerte)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "Completa con el femenino correcto",
+      "text": "Vous êtes très ___ (amable, hablando a una mujer).",
+      "blanks": [{ "accept": ["gentille"] }],
+      "bank": ["gentille", "gentil", "gentile"],
+      "explain": "Gentille es el femenino irregular de gentil."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es tranquilo y un poco tímido»",
+      "tokens": ["timide", "calme", "Il", "un peu", "et", "est"],
+      "answer": ["Il", "est", "calme", "et", "un peu", "timide"],
+      "audio": "Il est calme et un peu timide.",
+      "explain": "Calme y timide, con un peu matizando el segundo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["caracter"],
+      "difficulty": 1,
+      "prompt": "Mon frère est très drôle, mais un peu impatient.",
+      "accept": ["Mi hermano es muy gracioso, pero un poco impaciente."],
+      "strictAccents": false,
+      "audio": "Mon frère est très drôle, mais un peu impatient.",
+      "explain": "Impatient es lo contrario de patient."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación describiendo a una amiga",
+      "turns": [
+        { "who": "Léa", "text": "Elle est comment, ta nouvelle amie ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Elle est très sympa et généreuse.", "Elle est un peu timide, mais gentille."], "hint": "describe su carácter con un adjetivo y très o un peu" },
+        { "who": "Léa", "text": "Elle a l'air super !", "speak": true }
+      ],
+      "explain": "Combina adjetivo de carácter + très/un peu para matizar."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "speak": "Elle est calme et très patiente.",
+      "mode": "write",
+      "accept": ["Elle est calme et très patiente"],
+      "showTextAfter": true,
+      "explain": "Calme (invariable) y patiente (femenino regular)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "speak": "sympa",
+      "mode": "choose",
+      "options": ["sympa", "timide", "calme", "drôle"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Sympa = simpático."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["caracter"],
+      "difficulty": 3,
+      "speak": "Mon amie est très sympa, un peu timide, mais toujours patiente.",
+      "es": "Mi amiga es muy simpática, un poco tímida, pero siempre paciente.",
+      "ipa": "/mɔ.n‿a.mi ɛ tʁɛ sɛ̃.pa œ̃ pø ti.mid mɛ tu.ʒuʁ pa.sjɑ̃t/",
+      "esApprox": "«mo-na-MÍ e tré sen-PÁ un peu ti-MID me tu-YUR pa-SIANT»",
+      "focus": "Très y un peu delante de cada adjetivo: el matiz cambia el peso de la frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "Describe tu carácter: elige dos adjetivos y matízalos con très o un peu.",
+      "modelAnswer": "Je suis très patient et un peu timide.",
+      "alsoValid": ["Je suis très sympa et un peu impatiente."],
+      "speak": "Je suis très patient et un peu timide.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "¿Este adjetivo cambia en femenino o es invariable?",
+      "buckets": ["Cambia", "Invariable"],
+      "items": [
+        { "text": "sympa", "bucket": 1 },
+        { "text": "généreux", "bucket": 0 },
+        { "text": "timide", "bucket": 1 },
+        { "text": "gentil", "bucket": 0 },
+        { "text": "calme", "bucket": 1 },
+        { "text": "patient", "bucket": 0 }
+      ],
+      "explain": "Généreux, gentil y patient cambian; sympa, timide y calme son invariables."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "Hay un error de concordancia. Corrige la frase entera.",
+      "wrong": "Elle est gentil.",
+      "accept": ["Elle est gentille"],
+      "audio": "Elle est gentille.",
+      "explain": "Con elle hace falta el femenino: gentille, con doble l."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "sympa", "es": "simpático, simpática", "esApprox": "«sen-PÁ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "timide", "es": "tímido, tímida", "esApprox": "«ti-MID»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "drôle", "es": "gracioso, graciosa", "esApprox": "«DROL»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "généreux / généreuse", "es": "generoso, generosa", "esApprox": "«ye-ne-REU» / «ye-ne-REUZ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "gentil / gentille", "es": "amable", "esApprox": "«yan-TÍ» / «yan-TIY»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "patient / patiente", "es": "paciente", "esApprox": "«pa-SIAN» / «pa-SIANT»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "un peu", "es": "un poco", "esApprox": "«un PEU»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "Elle est calme et très patiente.", "es": "Es tranquila y muy paciente.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Mon amie est très sympa, un peu timide, mais toujours patiente.", "es": "Mi amiga es muy simpática, un poco tímida, pero siempre paciente.", "from": "e14" }
+  ]
+}

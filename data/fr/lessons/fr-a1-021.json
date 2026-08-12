@@ -1,0 +1,313 @@
+{
+  "id": "fr-a1-021",
+  "lang": "fr",
+  "level": "A1",
+  "order": 21,
+  "title": "Preguntar I: entonación, est-ce que e inversión",
+  "objectives": [
+    "Formar preguntas de sí/no con la entonación: frase afirmativa + voz que sube al final",
+    "Formar preguntas con est-ce que, la fórmula neutra que sirve en cualquier registro",
+    "Reconocer la inversión verbo-sujeto (es-tu...?) como el registro más formal, ya usado en clases anteriores"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres formas de preguntar, un solo significado",
+      "body": "El francés tiene tres formas de convertir una frase afirmativa en pregunta de sí/no, y las tres significan exactamente lo mismo. Ya has usado las tres sin saberlo: **Tu es fatigué ?** (entonación), **Où habites-tu ?** (inversión). Ahora las ves ordenadas y aprendes la tercera: **est-ce que**.",
+      "examples": [
+        { "target": "Tu es fatigué ?", "es": "¿Estás cansado?", "note": "entonación: la más informal, muy hablada" },
+        { "target": "Est-ce que tu es fatigué ?", "es": "¿Estás cansado?", "note": "est-ce que: neutra, sirve en cualquier contexto" },
+        { "target": "Es-tu fatigué ?", "es": "¿Estás cansado?", "note": "inversión: la más formal o escrita" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los tres registros, lado a lado",
+      "headers": ["Registro", "Cómo se forma", "Ejemplo"],
+      "rows": [
+        ["Entonación", "frase afirmativa + ?, subiendo la voz al final", "Tu as faim ?"],
+        ["Est-ce que", "est-ce que + frase afirmativa, sin tocar el orden", "Est-ce que tu as faim ?"],
+        ["Inversión", "verbo + guion + sujeto", "As-tu faim ?"]
+      ],
+      "note": "Est-ce que se convierte en est-ce qu' delante de vocal: est-ce qu'il a faim ?"
+    },
+    {
+      "type": "contrast",
+      "title": "Est-ce que: la opción que nunca falla",
+      "items": [
+        { "wrong": "Complicarte con la inversión al empezar a hablar", "right": "est-ce que + frase normal, sin cambiar el orden de palabras", "why": "Est-ce que es la opción más segura para un principiante: no toca el orden de la frase, solo añade cuatro palabras delante. Funciona en cualquier situación, formal o informal." }
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "La entonación de la pregunta",
+      "body": "En una pregunta por entonación, la voz sube claramente al final de la frase. Es la única diferencia con la frase afirmativa: las palabras son idénticas.",
+      "drills": [
+        { "target": "Tu es content.", "ipa": "/ty ɛ kɔ̃.tɑ̃/", "esApprox": "«tü e kon-TAN», voz plana", "hint": "afirmación" },
+        { "target": "Tu es content ?", "ipa": "/ty ɛ kɔ̃.tɑ̃ ↗/", "esApprox": "«tü e kon-TAN?», voz sube al final", "hint": "pregunta por entonación" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Con il/elle/on, si el verbo acaba en vocal, la inversión inserta una **-t-** para que no choquen dos vocales seguidas: il a → **a-t-il** ? (no «a-il»). Es un detalle que verás más en detalle con el tiempo; de momento, reconócelo si lo ves escrito."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "est-ce que / est-ce qu'",
+      "es": "fórmula neutra para preguntar (no se traduce palabra por palabra)",
+      "ipa": "/ɛs.kə/",
+      "esApprox": "«es-KE»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Est-ce que tu as faim ?", "es": "¿Tienes hambre?" }
+    },
+    {
+      "id": "v2",
+      "target": "n'est-ce pas ?",
+      "es": "¿verdad?, ¿no?",
+      "ipa": "/nɛs pa/",
+      "esApprox": "«nes PA»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Tu es content, n'est-ce pas ?", "es": "Estás contento, ¿verdad?" }
+    },
+    {
+      "id": "v3",
+      "target": "pourquoi pas ?",
+      "es": "¿por qué no?",
+      "ipa": "/puʁ.kwa pa/",
+      "esApprox": "«pur-KUÁ PA»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Pourquoi pas ? Bonne idée !", "es": "¿Por qué no? ¡Buena idea!" }
+    },
+    {
+      "id": "v4",
+      "target": "d'accord ?",
+      "es": "¿de acuerdo?, ¿vale?",
+      "ipa": "/da.kɔʁ/",
+      "esApprox": "«da-KOR»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "On se tutoie, d'accord ?", "es": "Nos tuteamos, ¿de acuerdo?" }
+    },
+    {
+      "id": "v5",
+      "target": "vraiment ?",
+      "es": "¿de verdad?",
+      "ipa": "/vʁɛ.mɑ̃/",
+      "esApprox": "«vre-MAN»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Vraiment ? Tu es sûr ?", "es": "¿De verdad? ¿Estás seguro?" }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["preguntas"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas tres preguntas es la más informal?",
+      "options": ["Tu as faim ?", "Est-ce que tu as faim ?", "As-tu faim ?", "Las tres son igual de informales"],
+      "answer": 0,
+      "explain": "La pregunta por entonación (sin cambiar el orden) es la más informal."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["preguntas"],
+      "difficulty": 1,
+      "statement": "Est-ce que cambia el orden de las palabras de la frase.",
+      "answer": false,
+      "explain": "Est-ce que se añade delante, sin tocar el orden: est-ce que + frase normal."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "statement": "La inversión (as-tu, es-tu) es el registro más formal de los tres.",
+      "answer": true,
+      "explain": "La inversión es típica de un registro más cuidado o escrito."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas preguntas usa inversión, a diferencia de las demás?",
+      "options": ["Tu es fatigué ?", "Est-ce que tu es fatigué ?", "Es-tu fatigué ?", "Tu es fatigué, n'est-ce pas ?"],
+      "answer": 2,
+      "explain": "Es-tu fatigué ? es la única con el verbo delante del sujeto (inversión)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Une cada pregunta con su registro",
+      "left": ["Tu as faim ?", "Est-ce que tu as faim ?", "As-tu faim ?", "Tu as faim, n'est-ce pas ?"],
+      "right": ["pregunta con confirmación", "inversión", "est-ce que", "entonación"],
+      "answer": [3, 2, 1, 0],
+      "explain": "Cada frase corresponde a un registro distinto de pregunta, aunque el significado sea el mismo."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "¿Tienes hambre? (con est-ce que)",
+      "accept": ["Est-ce que tu as faim ?"],
+      "hintWords": ["est-ce que"],
+      "strictAccents": false,
+      "audio": "Est-ce que tu as faim ?",
+      "explain": "Est-ce que + tu as faim, sin cambiar el orden."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Estás contento, ¿verdad?",
+      "accept": ["Tu es content, n'est-ce pas ?"],
+      "hintWords": ["n'est-ce pas"],
+      "strictAccents": false,
+      "audio": "Tu es content, n'est-ce pas ?",
+      "explain": "N'est-ce pas ? al final de una afirmación pide confirmación."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Completa con la fórmula neutra para preguntar",
+      "text": "___ tu es espagnol ?",
+      "blanks": [{ "accept": ["Est-ce que"] }],
+      "bank": ["Est-ce que", "Est-ce qu'", "N'est-ce pas"],
+      "explain": "Delante de tu (consonante), se usa est-ce que, no est-ce qu'."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Ordena por inversión: «¿Tiene usted un gato?»",
+      "tokens": ["chat", "Avez-vous", "un", "?"],
+      "answer": ["Avez-vous", "un", "chat", "?"],
+      "audio": "Avez-vous un chat ?",
+      "explain": "Avez-vous: el verbo avez se invierte con vous."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["preguntas"],
+      "difficulty": 1,
+      "prompt": "Vraiment ? Tu es sûr ?",
+      "accept": ["¿De verdad? ¿Estás seguro?"],
+      "strictAccents": false,
+      "audio": "Vraiment ? Tu es sûr ?",
+      "explain": "Vraiment ? expresa sorpresa o incredulidad."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación proponiendo un plan",
+      "turns": [
+        { "who": "Léa", "text": "On mange ensemble ce soir, d'accord ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, d'accord.", "Pourquoi pas ?"], "hint": "acepta el plan" },
+        { "who": "Léa", "text": "Super, à ce soir !", "speak": true }
+      ],
+      "explain": "D'accord ? y pourquoi pas ? son fórmulas muy naturales para proponer y aceptar planes."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "speak": "Est-ce que tu es fatigué ?",
+      "mode": "write",
+      "accept": ["Est-ce que tu es fatigué ?"],
+      "showTextAfter": true,
+      "explain": "Est-ce que tu es + adjetivo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "speak": "Avez-vous un chat ?",
+      "mode": "choose",
+      "options": ["Avez-vous un chat ?", "Vous avez un chat.", "Est-ce que vous avez un chat ?", "Un chat, vous avez ?"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Avez-vous es la forma por inversión, con guion entre verbo y sujeto."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "speak": "Tu es fatigué ? Est-ce que tu as faim ? As-tu soif ?",
+      "es": "¿Estás cansado? ¿Tienes hambre? ¿Tienes sed?",
+      "ipa": "/ty ɛ fa.ti.ɡe ɛs.kə ty a fɛ̃ a ty swaf/",
+      "esApprox": "«tü e fa-ti-GHÉ es-KE tü a FEN a tü SUAF»",
+      "focus": "Practica las tres formas de preguntar seguidas: sube la voz al final en la primera.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Pregúntale a un amigo si tiene hambre, usando est-ce que.",
+      "modelAnswer": "Est-ce que tu as faim ?",
+      "alsoValid": ["Tu as faim ?"],
+      "speak": "Est-ce que tu as faim ?",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "¿Qué registro usa esta pregunta?",
+      "buckets": ["Entonación", "Est-ce que", "Inversión"],
+      "items": [
+        { "text": "Tu as faim ?", "bucket": 0 },
+        { "text": "Est-ce que tu as faim ?", "bucket": 1 },
+        { "text": "As-tu faim ?", "bucket": 2 },
+        { "text": "Vous êtes content ?", "bucket": 0 },
+        { "text": "Êtes-vous content ?", "bucket": 2 },
+        { "text": "Est-ce que vous êtes content ?", "bucket": 1 }
+      ],
+      "explain": "Tres registros, un mismo significado: elige el que mejor encaje con la situación."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Hay un error en la inversión. Corrige la frase entera.",
+      "wrong": "Es tu content ?",
+      "accept": ["Es-tu content ?"],
+      "audio": "Es-tu content ?",
+      "explain": "La inversión lleva siempre un guion entre el verbo y el sujeto: es-tu, no es tu."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "est-ce que / est-ce qu'", "es": "fórmula para preguntar", "esApprox": "«es-KE»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "n'est-ce pas ?", "es": "¿verdad?", "esApprox": "«nes PA»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "pourquoi pas ?", "es": "¿por qué no?", "esApprox": "«pur-KUÁ PA»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "d'accord ?", "es": "¿de acuerdo?", "esApprox": "«da-KOR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "vraiment ?", "es": "¿de verdad?", "esApprox": "«vre-MAN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Est-ce que tu as faim ?", "es": "¿Tienes hambre?", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Tu es content, n'est-ce pas ?", "es": "Estás contento, ¿verdad?", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Avez-vous un chat ?", "es": "¿Tiene usted un gato?", "from": "e13" },
+    { "id": "s9", "kind": "phrase", "target": "Tu es fatigué ? Est-ce que tu as faim ? As-tu soif ?", "es": "¿Estás cansado? ¿Tienes hambre? ¿Tienes sed?", "from": "e14" }
+  ]
+}

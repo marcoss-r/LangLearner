@@ -1,0 +1,264 @@
+{
+  "id": "fr-a1-030",
+  "lang": "fr",
+  "level": "A1",
+  "order": 30,
+  "title": "Los adjetivos posesivos: mon, ma, mes…",
+  "objectives": [
+    "Usar mon/ma/mes, ton/ta/tes y son/sa/ses concordando con el género y número de lo poseído, no del poseedor",
+    "Usar notre/nos, votre/vos y leur/leurs para nosotros, vosotros/usted y ellos",
+    "Usar mon (no ma) delante de un sustantivo femenino que empieza por vocal: mon amie"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El posesivo concuerda con lo poseído, no con quien posee",
+      "body": "Ya usaste mon/ma/ton/ta como fórmulas fijas desde la clase 2. Ahora ves el sistema completo. La trampa más grande para un hispanohablante: en español, «su» no cambia si el dueño es hombre o mujer. En francés, **son/sa/ses** tampoco cambian según el dueño, pero sí según el género de **lo que se posee**: son père puede ser «su padre» (de él o de ella), y sa mère puede ser «su madre» (de él o de ella).",
+      "examples": [
+        { "target": "son père", "es": "su padre (de él o de ella)", "note": "père es masculino → son, sea quien sea el dueño" },
+        { "target": "sa mère", "es": "su madre (de él o de ella)", "note": "mère es femenino → sa, sea quien sea el dueño" },
+        { "target": "mon amie", "es": "mi amiga", "note": "amie es femenino, pero empieza por vocal → mon, no ma" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los posesivos completos",
+      "headers": ["Poseedor", "Masc. sg.", "Fem. sg.", "Plural (m./f.)"],
+      "rows": [
+        ["yo (mi/mis)", "mon", "ma", "mes"],
+        ["tú (tu/tus)", "ton", "ta", "tes"],
+        ["él/ella (su/sus)", "son", "sa", "ses"],
+        ["nosotros (nuestro/a/os/as)", "notre", "notre", "nos"],
+        ["vosotros/usted (vuestro/a/os/as, su/sus)", "votre", "votre", "vos"],
+        ["ellos/ellas (su/sus)", "leur", "leur", "leurs"]
+      ],
+      "note": "Notre y votre son iguales en masculino y femenino singular; solo cambian en plural (nos, vos)."
+    },
+    {
+      "type": "contrast",
+      "title": "Son/sa no dicen si el dueño es él o ella",
+      "items": [
+        { "wrong": "Pensar que son siempre es «de él» y sa siempre es «de ella»", "right": "son y sa dependen del género de lo poseído, no del dueño", "why": "Léa parle de son père (Léa habla de su padre) usa son porque père es masculino, aunque Léa sea mujer. Sin contexto, son père puede ser el padre de un hombre o de una mujer: hay que fijarse en la frase entera para saberlo." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Igual que l' sustituía a le/la delante de vocal (clase 11), **mon** sustituye a **ma** delante de un sustantivo femenino que empieza por vocal o h muda: mon amie, mon histoire, mon école. Es solo por sonido, no cambia el género real de la palabra."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "mon / ma / mes", "es": "mi, mis", "ipa": "/mɔ̃ / ma / me/", "esApprox": "«mon» / «ma» / «me»", "pos": "posesivo", "gender": null, "example": { "target": "Mon père et ma mère sont contents.", "es": "Mi padre y mi madre están contentos." } },
+    { "id": "v2", "target": "ton / ta / tes", "es": "tu, tus", "ipa": "/tɔ̃ / ta / te/", "esApprox": "«ton» / «ta» / «te»", "pos": "posesivo", "gender": null, "example": { "target": "Ton frère est sympa.", "es": "Tu hermano es simpático." } },
+    { "id": "v3", "target": "son / sa / ses", "es": "su, sus (de él o de ella)", "ipa": "/sɔ̃ / sa / se/", "esApprox": "«son» / «sa» / «se»", "pos": "posesivo", "gender": null, "example": { "target": "Léa parle de son père.", "es": "Léa habla de su padre." } },
+    { "id": "v4", "target": "notre / nos", "es": "nuestro/a, nuestros/as", "ipa": "/nɔtʁ / no/", "esApprox": "«NOTR» / «no»", "pos": "posesivo", "gender": null, "example": { "target": "Notre maison est grande.", "es": "Nuestra casa es grande." } },
+    { "id": "v5", "target": "votre / vos", "es": "vuestro/a, su/sus (de usted)", "ipa": "/vɔtʁ / vo/", "esApprox": "«VOTR» / «vo»", "pos": "posesivo", "gender": null, "example": { "target": "Votre famille est grande.", "es": "Su familia es grande." } },
+    { "id": "v6", "target": "leur / leurs", "es": "su, sus (de ellos/ellas)", "ipa": "/lœʁ/", "esApprox": "«LEUR»", "pos": "posesivo", "gender": null, "example": { "target": "Leurs enfants sont drôles.", "es": "Sus hijos son graciosos." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «mi amiga» (amie es femenino, empieza por vocal)?",
+      "options": ["ma amie", "mon amie", "mes amie", "ta amie"],
+      "answer": 1,
+      "explain": "Delante de vocal, ma se convierte en mon, aunque amie sea femenino."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "¿Qué determina la forma de «son/sa/ses»?",
+      "options": ["el género del dueño", "el género de lo poseído", "el número del dueño", "nada, son siempre iguales"],
+      "answer": 1,
+      "explain": "Son/sa/ses concuerdan con el género y número de lo que se posee, no con el dueño."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "statement": "«Son père» puede significar tanto «su padre» de un hombre como de una mujer.",
+      "answer": true,
+      "explain": "Son no indica el género del dueño, solo el de père (masculino)."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos posesivos NO cambia entre masculino y femenino singular, a diferencia de los demás?",
+      "options": ["mon/ma", "ton/ta", "son/sa", "notre"],
+      "answer": 3,
+      "explain": "Notre es igual en masculino y femenino singular; los otros tres sí distinguen género."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Une cada posesivo con su significado",
+      "left": ["mes", "leurs", "notre", "vos"],
+      "right": ["vuestros/as", "mis", "sus (de ellos)", "nuestro/a"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Mes = mis, leurs = sus (de ellos), notre = nuestro/a, vos = vuestros/as."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Mi padre y mi madre están contentos.",
+      "accept": ["Mon père et ma mère sont contents"],
+      "hintWords": ["mon père", "ma mère"],
+      "strictAccents": false,
+      "audio": "Mon père et ma mère sont contents.",
+      "explain": "Mon (père, masculino) y ma (mère, femenino): el mismo dueño, dos formas distintas."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Nuestra casa es grande y nuestros amigos son simpáticos.",
+      "accept": ["Notre maison est grande et nos amis sont sympas"],
+      "hintWords": ["notre maison", "nos amis"],
+      "strictAccents": false,
+      "audio": "Notre maison est grande et nos amis sont sympas.",
+      "explain": "Notre (singular) y nos (plural)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Completa con el posesivo correcto",
+      "text": "Léa parle de ___ mère et de ___ père.",
+      "blanks": [{ "accept": ["sa"] }, { "accept": ["son"] }],
+      "bank": ["sa", "son", "ses"],
+      "explain": "Sa mère (femenino) y son père (masculino), aunque el dueño (Léa) sea siempre el mismo."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Sus hijos son graciosos»",
+      "tokens": ["sont", "enfants", "Leurs", "drôles"],
+      "answer": ["Leurs", "enfants", "sont", "drôles"],
+      "audio": "Leurs enfants sont drôles.",
+      "explain": "Leurs (plural de leur) + sustantivo plural."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Mon oncle et ma tante habitent avec leurs enfants.",
+      "accept": ["Mi tío y mi tía viven con sus hijos."],
+      "strictAccents": false,
+      "audio": "Mon oncle et ma tante habitent avec leurs enfants.",
+      "explain": "Leurs enfants: los hijos de mi tío y mi tía (ellos)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre la casa de un amigo",
+      "turns": [
+        { "who": "Léa", "text": "Ta maison, elle est grande ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, ma maison est grande.", "Non, ma maison est petite."], "hint": "usa ma maison" },
+        { "who": "Léa", "text": "Et tes parents, leur maison est grande aussi ?", "speak": true }
+      ],
+      "explain": "Ta/ma (tú/yo) frente a leur (ellos, tus padres)."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "speak": "Mon amie et son frère sont sympas.",
+      "mode": "write",
+      "accept": ["Mon amie et son frère sont sympas"],
+      "showTextAfter": true,
+      "explain": "Mon amie (delante de vocal) y son frère (masculino)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "speak": "notre famille",
+      "mode": "choose",
+      "options": ["notre famille", "nos parents", "leur famille", "votre famille"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Notre famille = nuestra familia (singular)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["posesivos"],
+      "difficulty": 3,
+      "speak": "Mon frère, ta sœur, son père, notre mère, votre famille, leurs enfants.",
+      "es": "Mi hermano, tu hermana, su padre, nuestra madre, vuestra familia, sus hijos.",
+      "ipa": "/mɔ̃ fʁɛʁ ta sœʁ sɔ̃ pɛʁ nɔtʁ mɛʁ vɔtʁ fa.mij lœʁ.z‿ɑ̃.fɑ̃/",
+      "esApprox": "«mon FRER ta SEUR son PER notr MER votr fa-MIY leur-zan-FAN»",
+      "focus": "Los seis posesivos seguidos, uno por cada persona: buen repaso de memoria.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Habla de tu familia usando mon, ma y mes al menos una vez cada uno.",
+      "modelAnswer": "Mon père, ma mère et mes grands-parents sont généreux.",
+      "alsoValid": ["Mon frère, ma sœur et mes cousins sont drôles."],
+      "speak": "Mon père, ma mère et mes grands-parents sont généreux.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "¿Es masculino singular o femenino singular?",
+      "buckets": ["Masculino sg.", "Femenino sg."],
+      "items": [
+        { "text": "mon père", "bucket": 0 },
+        { "text": "ma mère", "bucket": 1 },
+        { "text": "son frère", "bucket": 0 },
+        { "text": "sa sœur", "bucket": 1 },
+        { "text": "ton oncle", "bucket": 0 },
+        { "text": "ta tante", "bucket": 1 }
+      ],
+      "explain": "El posesivo concuerda con père/frère/oncle (masculino) o mère/sœur/tante (femenino)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Hay un error: se usó ma delante de vocal. Corrige la frase entera.",
+      "wrong": "C'est ma amie.",
+      "accept": ["C'est mon amie"],
+      "audio": "C'est mon amie.",
+      "explain": "Delante de vocal, ma se convierte en mon: mon amie, no ma amie."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "mon / ma / mes", "es": "mi, mis", "esApprox": "«mon» / «ma» / «me»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "ton / ta / tes", "es": "tu, tus", "esApprox": "«ton» / «ta» / «te»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "son / sa / ses", "es": "su, sus (él/ella)", "esApprox": "«son» / «sa» / «se»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "notre / nos", "es": "nuestro/a, nuestros/as", "esApprox": "«NOTR» / «no»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "votre / vos", "es": "vuestro/a", "esApprox": "«VOTR» / «vo»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "leur / leurs", "es": "su, sus (ellos)", "esApprox": "«LEUR»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Mon amie et son frère sont sympas.", "es": "Mi amiga y su hermano son simpáticos.", "from": "e12" },
+    { "id": "s8", "kind": "phrase", "target": "Léa parle de son père.", "es": "Léa habla de su padre.", "from": "v3" },
+    { "id": "s9", "kind": "phrase", "target": "Mon frère, ta sœur, son père, notre mère, votre famille, leurs enfants.", "es": "Mi hermano, tu hermana, su padre, nuestra madre, vuestra familia, sus hijos.", "from": "e14" }
+  ]
+}

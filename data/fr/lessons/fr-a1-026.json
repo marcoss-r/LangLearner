@@ -1,0 +1,340 @@
+{
+  "id": "fr-a1-026",
+  "lang": "fr",
+  "level": "A1",
+  "order": 26,
+  "title": "Dónde va el adjetivo (y los que cambian de sitio)",
+  "objectives": [
+    "Colocar el adjetivo después del sustantivo, la regla general en francés",
+    "Reconocer el grupo de adjetivos frecuentes que van ANTES del sustantivo: belleza, edad, bondad/maldad y tamaño",
+    "Reconocer adjetivos que cambian de significado según la posición: ancien, propre, grand"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La mayoría de adjetivos van después",
+      "body": "En español, el adjetivo suele ir después del sustantivo (una casa grande) aunque a veces se antepone por estilo. En francés la regla es más estricta: la mayoría de los adjetivos van **después**: une voiture bleue, un chat noir, une histoire intéressante. Pero hay un grupo pequeño y muy frecuente de adjetivos que se colocan **antes**.",
+      "examples": [
+        { "target": "une histoire intéressante", "es": "una historia interesante", "note": "regla general: adjetivo después" },
+        { "target": "une belle histoire", "es": "una bonita historia", "note": "beau va antes: es de los especiales" },
+        { "target": "un petit chat", "es": "un gato pequeño", "note": "petit también va antes" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los adjetivos que van ANTES del sustantivo",
+      "headers": ["Categoría", "Adjetivos", "Ejemplo"],
+      "rows": [
+        ["Belleza", "beau, joli", "une belle maison"],
+        ["Edad", "jeune, vieux, nouveau", "un jeune homme"],
+        ["Bondad/maldad", "bon, mauvais", "une bonne idée"],
+        ["Tamaño", "grand, petit, gros", "un petit village"]
+      ],
+      "note": "Es el mismo grupo que en inglés se conoce como BAGS (Beauty, Age, Goodness, Size): un truco mnemotécnico útil si lo conoces de otro idioma."
+    },
+    {
+      "type": "contrast",
+      "title": "Algunos adjetivos cambian de significado según dónde van",
+      "items": [
+        { "wrong": "Pensar que un ancien professeur y un professeur ancien significan lo mismo", "right": "un ancien professeur = un ex profesor; un professeur ancien = un profesor antiguo (de otra época)", "why": "Ancien antes del sustantivo significa «antiguo» en el sentido de «anterior, ex-»; después del sustantivo significa «antiguo» en el sentido de «viejo, de hace mucho tiempo». No es el mismo matiz." },
+        { "wrong": "Pensar que ma propre voiture y ma voiture propre significan lo mismo", "right": "ma propre voiture = mi propio coche; ma voiture propre = mi coche limpio", "why": "Propre antes del sustantivo significa «propio» (posesión); después significa «limpio». El orden cambia completamente el sentido." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Ya viste un ejemplo de esto en la clase 23: **un grand homme** (un gran hombre, importante) frente a **un homme grand** (un hombre alto, de estatura). Grand antes del sustantivo cambia de sentido: deja de hablar de tamaño físico para hablar de importancia."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "joli / jolie",
+      "es": "bonito, bonita",
+      "ipa": "/ʒɔ.li/",
+      "esApprox": "«yo-LÍ»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "C'est une jolie maison.", "es": "Es una casa bonita." }
+    },
+    {
+      "id": "v2",
+      "target": "mauvais / mauvaise",
+      "es": "malo, mala",
+      "ipa": "/mo.vɛ / mo.vɛz/",
+      "esApprox": "«mo-VÉ» / «mo-VEZ»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "C'est une mauvaise idée.", "es": "Es una mala idea." }
+    },
+    {
+      "id": "v3",
+      "target": "ancien / ancienne",
+      "es": "antiguo, antigua; ex-",
+      "ipa": "/ɑ̃.sjɛ̃ / ɑ̃.sjɛn/",
+      "esApprox": "«an-SIÉN» / «an-SIEN»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "C'est mon ancien professeur.", "es": "Es mi antiguo (ex) profesor." }
+    },
+    {
+      "id": "v4",
+      "target": "propre",
+      "es": "propio; limpio",
+      "ipa": "/pʁɔpʁ/",
+      "esApprox": "«PROPR»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "C'est ma propre voiture.", "es": "Es mi propio coche." }
+    },
+    {
+      "id": "v5",
+      "target": "gros / grosse",
+      "es": "gordo, gorda; grande",
+      "ipa": "/ɡʁo / ɡʁos/",
+      "esApprox": "«GRÓ» / «GRÓS»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "C'est un gros problème.", "es": "Es un gran (gordo) problema." }
+    },
+    {
+      "id": "v6",
+      "target": "jeune",
+      "es": "joven",
+      "ipa": "/ʒœn/",
+      "esApprox": "«YEUN»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "C'est un jeune homme.", "es": "Es un hombre joven." }
+    },
+    {
+      "id": "v7",
+      "target": "petit / petite",
+      "es": "pequeño, pequeña",
+      "ipa": "/pə.ti / pə.tit/",
+      "esApprox": "«pe-TÍ» / «pe-TIT»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "C'est un petit village.", "es": "Es un pueblo pequeño." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["adjetivos", "orden-palabras"],
+      "difficulty": 2,
+      "prompt": "¿Dónde va normalmente el adjetivo en francés?",
+      "options": ["antes del sustantivo", "después del sustantivo", "siempre al final de la frase", "no importa"],
+      "answer": 1,
+      "explain": "La regla general (con excepciones) es después del sustantivo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "¿A qué categoría de adjetivos que van antes del sustantivo pertenece «petit»?",
+      "options": ["belleza", "edad", "bondad/maldad", "tamaño"],
+      "answer": 3,
+      "explain": "Petit habla de tamaño, como grand y gros."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "statement": "«Un ancien professeur» significa lo mismo que «un professeur ancien».",
+      "answer": false,
+      "explain": "Ancien antes = ex profesor; ancien después = profesor de otra época."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos adjetivos va normalmente DESPUÉS del sustantivo, a diferencia de los demás?",
+      "options": ["joli", "grand", "intéressant", "petit"],
+      "answer": 2,
+      "explain": "Intéressant sigue la regla general (después); los otros tres son del grupo especial que va antes."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["un ancien professeur", "ma propre voiture", "un grand homme", "un homme grand"],
+      "right": ["un hombre alto", "mi propio coche", "un gran hombre", "un ex profesor"],
+      "answer": [3, 1, 2, 0],
+      "explain": "La posición del adjetivo cambia el significado en los cuatro casos."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Es una casa bonita y pequeña.",
+      "accept": ["C'est une jolie petite maison", "C'est une petite maison jolie"],
+      "hintWords": ["jolie", "petite"],
+      "strictAccents": false,
+      "audio": "C'est une jolie petite maison.",
+      "explain": "Joli y petit van los dos antes del sustantivo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Es mi propio coche.",
+      "accept": ["C'est ma propre voiture"],
+      "hintWords": ["ma propre voiture"],
+      "strictAccents": false,
+      "audio": "C'est ma propre voiture.",
+      "explain": "Propre antes del sustantivo significa «propio»."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Completa con el orden correcto",
+      "text": "C'est une ___ idée (mala idea).",
+      "blanks": [{ "accept": ["mauvaise"] }],
+      "bank": ["mauvaise", "malade"],
+      "explain": "Mauvaise (malo/a) va antes del sustantivo: une mauvaise idée."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["adjetivos", "orden-palabras"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es un gato negro bonito»",
+      "tokens": ["chat", "noir", "joli", "C'est", "un"],
+      "answer": ["C'est", "un", "joli", "chat", "noir"],
+      "audio": "C'est un joli chat noir.",
+      "explain": "Joli va antes (grupo especial); noir va después (regla general)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "C'est un jeune homme sérieux.",
+      "accept": ["Es un hombre joven serio."],
+      "strictAccents": false,
+      "audio": "C'est un jeune homme sérieux.",
+      "explain": "Jeune (edad) va antes; sérieux (regla general) va después."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre una casa nueva",
+      "turns": [
+        { "who": "Léa", "text": "Elle est comment, ta nouvelle maison ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'est une jolie petite maison.", "C'est une belle maison."], "hint": "describe la casa con un adjetivo del grupo especial" },
+        { "who": "Léa", "text": "Ça a l'air super !", "speak": true }
+      ],
+      "explain": "Nouvelle, jolie y petite son del grupo que va antes del sustantivo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "speak": "C'est un gros problème.",
+      "mode": "write",
+      "accept": ["C'est un gros problème"],
+      "showTextAfter": true,
+      "explain": "Gros (tamaño) va antes del sustantivo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "speak": "un ancien professeur",
+      "mode": "choose",
+      "options": ["un ancien professeur", "un professeur ancien", "un professeur sérieux", "un jeune professeur"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Un ancien professeur (con ancien antes) significa «un ex profesor»."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["adjetivos"],
+      "difficulty": 3,
+      "speak": "C'est une jolie petite maison avec un grand jardin intéressant.",
+      "es": "Es una casa bonita y pequeña con un jardín grande e interesante.",
+      "ipa": "/sɛ.t‿yn ʒɔ.li pə.tit mɛ.zɔ̃ a.vɛk œ̃ ɡʁɑ̃ ʒaʁ.dɛ̃ ɛ̃.te.ʁɛ.sɑ̃/",
+      "esApprox": "«se-tün yo-LÍ pe-TIT me-ZÓN a-VEK un gran yar-DEN en-te-re-SAN»",
+      "focus": "Jolie, petite y grand van antes; intéressant va después: los dos patrones en una sola frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Describe tu casa: pequeña, bonita, con un gato negro.",
+      "modelAnswer": "C'est une petite maison jolie, avec un chat noir.",
+      "alsoValid": ["J'ai une jolie petite maison et un chat noir."],
+      "speak": "C'est une petite maison jolie, avec un chat noir.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "¿Este adjetivo va antes o después del sustantivo (uso normal)?",
+      "buckets": ["Antes", "Después"],
+      "items": [
+        { "text": "petit", "bucket": 0 },
+        { "text": "intéressant", "bucket": 1 },
+        { "text": "beau", "bucket": 0 },
+        { "text": "bleu", "bucket": 1 },
+        { "text": "jeune", "bucket": 0 },
+        { "text": "français", "bucket": 1 }
+      ],
+      "explain": "El grupo especial (belleza, edad, bondad/maldad, tamaño) va antes; el resto sigue la regla general."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["adjetivos", "orden-palabras"],
+      "difficulty": 2,
+      "prompt": "Hay un error de orden. Corrige la frase entera.",
+      "wrong": "C'est une maison jolie.",
+      "accept": ["C'est une jolie maison"],
+      "audio": "C'est une jolie maison.",
+      "explain": "Joli es del grupo especial: va antes del sustantivo, no después."
+    },
+    {
+      "id": "e18",
+      "type": "gender_article",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Elige la forma correcta para «une maison»",
+      "items": [
+        { "word": "une maison (gros/grosse)", "options": ["gros", "grosse"], "answer": 1 },
+        { "word": "une maison (joli/jolie)", "options": ["joli", "jolie"], "answer": 1 },
+        { "word": "une maison (mauvais/mauvaise)", "options": ["mauvais", "mauvaise"], "answer": 1 }
+      ],
+      "explain": "Maison es femenino: gros, joli y mauvais concuerdan en femenino."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "joli / jolie", "es": "bonito, bonita", "esApprox": "«yo-LÍ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "mauvais / mauvaise", "es": "malo, mala", "esApprox": "«mo-VÉ» / «mo-VEZ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ancien / ancienne", "es": "antiguo, ex-", "esApprox": "«an-SIÉN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "propre", "es": "propio; limpio", "esApprox": "«PROPR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "gros / grosse", "es": "gordo, grande", "esApprox": "«GRÓ» / «GRÓS»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "jeune", "es": "joven", "esApprox": "«YEUN»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "petit / petite", "es": "pequeño, pequeña", "esApprox": "«pe-TÍ» / «pe-TIT»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "C'est un gros problème.", "es": "Es un gran problema.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "C'est une jolie petite maison avec un grand jardin intéressant.", "es": "Es una casa bonita y pequeña con un jardín grande e interesante.", "from": "e14" }
+  ]
+}
