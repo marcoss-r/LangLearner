@@ -1,7 +1,8 @@
 # LangLearner — Plan de desarrollo
 
-> **Documento maestro.** Lo leen los agentes (Sonnet 5 / Opus 5) que van a construir la app.
+> **Documento maestro.** Lo lee el asistente que construye la app, al empezar cada tanda de trabajo.
 > Lee este fichero **entero** antes de escribir una sola línea de código.
+> **La app la desarrolla un único asistente, en secuencia.** Sin agentes en paralelo: ver §10.
 > Documentos hermanos: [`docs/SPEC-DATOS.md`](docs/SPEC-DATOS.md) (esquema de contenido y ejercicios) y [`docs/CURRICULO.md`](docs/CURRICULO.md) (mapa de clases).
 
 ---
@@ -83,7 +84,8 @@ SPA de una sola página con router por hash, datos en JSON estático cargado baj
 ├── css/
 │   ├── base.css                Reset, tokens, tipografía, safe-area, layout raíz
 │   ├── components.css          Botones, tarjetas, chips, barras, modal, toast
-│   ├── screens.css             Layout específico de cada pantalla
+│   ├── screens.css             Piezas compartidas + Aprender, Curso, Progreso, Ajustes
+│   ├── lesson.css              Pantallas de sesión: clase, examen, repaso
 │   └── exercises.css           Estilos de los 16 tipos de ejercicio
 ├── js/
 │   ├── app.js                  Bootstrap, router por hash, montaje de pantallas
@@ -95,11 +97,15 @@ SPA de una sola página con router por hash, datos en JSON estático cargado baj
 │   ├── ui.js                   Helpers DOM (h(), toast, modal, haptics, barra de acentos)
 │   ├── screens/
 │   │   ├── home.js  course.js  lesson.js  exam.js  review.js  stats.js  settings.js
+│   │   ├── parts.js            Piezas comunes a todas las pantallas
+│   │   ├── session.js          Común a clase/examen/repaso: shell, pasos, resultados
+│   │   └── dev.js              Banco de pruebas oculto (#/dev/exercises)
 │   └── exercises/
 │       ├── index.js            Registro tipo → renderer
+│       ├── shared.js           Infraestructura común a los 16 renderers
 │       └── mcq.js  fillBlank.js  translate.js  matchPairs.js  wordOrder.js
 │           conjugation.js  listening.js  shadowing.js  speakPrompt.js
-│           genderArticle.js  categorize.js  flashcard.js  dialogue.js
+│           genderArticle.js  categorize.js  dialogue.js
 │           errorCorrection.js  trueFalse.js  oddOneOut.js
 └── data/
     ├── courses.json            Índice de idiomas disponibles
@@ -111,7 +117,7 @@ SPA de una sola página con router por hash, datos en JSON estático cargado baj
 ```
 
 ### Principios no negociables
-- **Un fichero JSON por clase.** Nunca un mega-fichero. Permite carga perezosa y que varios agentes escriban contenido en paralelo sin conflictos.
+- **Un fichero JSON por clase.** Nunca un mega-fichero. Permite carga perezosa y que cada lote de contenido se escriba, valide y despliegue sin tocar lo ya hecho.
 - **`course.json` no contiene ejercicios**, solo metadatos (id, título, nivel, orden, tags, minutos, prerrequisitos). Es lo único que se carga al abrir un idioma.
 - **Ningún módulo JS toca `localStorage` directamente** salvo `store.js`.
 - **Ningún módulo llama a `speechSynthesis` directamente** salvo `audio.js`.
@@ -320,42 +326,44 @@ Sin XP ni medallas. Datos con significado:
 
 ## 10. Fases de desarrollo
 
-Cada fase es una **sesión de agente independiente**. Un agente **no** debe abordar más de una fase (o de un lote) por sesión: el contexto se agota y la calidad cae.
+**Modelo de ejecución: un solo asistente, en secuencia.** Nada de agentes en paralelo. Se probó en las Fases 2 y 3 y salió caro sin salir mejor: el trabajo se pagaba dos veces, una cuando el agente verificaba lo suyo y otra cuando había que revisarlo de nuevo para poder responder por ello. A partir de aquí el asistente con el que hablas escribe el código **y** lo verifica, una sola vez y a fondo. Tardar más está asumido y aceptado.
 
-### Fase 0 — Esqueleto y PWA · 1 agente
+Lo que sí se mantiene es el **troceado**: una fase (o un lote de contenido) por tanda de trabajo. No porque lo pida ningún reparto, sino porque el contexto se agota y la calidad cae en picado cuando se intenta abarcar de más. Si una fase no cabe, se parte en trozos con un punto de corte verificable, se deja el estado por escrito y se sigue en la tanda siguiente.
+
+### Fase 0 — Esqueleto y PWA
 Crear `index.html`, `manifest.webmanifest`, `sw.js`, `.nojekyll`, `css/base.css`, `css/components.css`, `js/app.js` (router por hash + montaje), `js/ui.js`, los iconos (SVG generado a PNG o placeholders sólidos con la letra "L" sobre `--bg`).
 **Aceptación:** se instala en el iPhone, arranca offline, respeta todas las casillas del §4, navega entre 4 pantallas vacías, sin scroll horizontal, sin zoom al enfocar un input.
 
-### Fase 1 — Núcleo de datos y servicios · 1 agente
+### Fase 1 — Núcleo de datos y servicios
 `js/store.js`, `js/data.js`, `js/srs.js`, `js/audio.js`, `js/grader.js`. Sin interfaz.
 Incluye **una clase de prueba escrita a mano** (`data/fr/lessons/fr-a1-001.json`) y un `data/fr/course.json` con esa única entrada, para poder probar.
 **Aceptación:** desde la consola se puede cargar el curso, cargar una clase, corregir una respuesta con tildes y erratas, pronunciar una frase en francés, y guardar/leer progreso.
 
-### Fase 2 — Motor de ejercicios · 2 agentes (8 tipos cada uno)
+### Fase 2 — Motor de ejercicios
 Los 16 tipos de [`SPEC-DATOS.md`](docs/SPEC-DATOS.md) + `js/exercises/index.js` + `css/exercises.css`.
 Cada tipo expone la misma interfaz: `render(exercise, ctx) → { el, check(), reveal(), focus() }`.
 **Aceptación:** una pantalla oculta `#/dev/exercises` renderiza un ejemplo de cada tipo y todos corrigen bien, incluidos los casos raros (respuesta vacía, tildes, mayúsculas, `ß`/`ss`, apóstrofos tipográficos).
 
-### Fase 3 — Pantallas · 2 agentes
-Agente A: `home.js`, `course.js`, `stats.js`, `settings.js`.
-Agente B: `lesson.js` (portada, teoría, ejercicios, resultados), `exam.js`, `review.js`.
+### Fase 3 — Pantallas
+Pantallas de navegación: `home.js`, `course.js`, `stats.js`, `settings.js`.
+Pantallas de sesión: `lesson.js` (portada, teoría, ejercicios, resultados), `exam.js`, `review.js`, más `session.js` con lo común a las tres.
 **Aceptación:** flujo completo de una clase de principio a fin con la clase de prueba; el progreso persiste tras cerrar y reabrir la app.
 
-### Fase 4 — Currículo A2 y B1 · 1 agente por idioma
+### Fase 4 — Currículo A2 y B1 · una tanda por idioma
 [`docs/CURRICULO.md`](docs/CURRICULO.md) ya trae **A1 completo (90 clases por idioma)** y el **mapa de bloques de A2 y B1** con inventario gramatical y número de clases por bloque. Esta fase expande A2+B1 a títulos concretos siguiendo la receta del propio documento, y genera `data/fr/course.json` y `data/de/course.json` completos (250 entradas cada uno, solo metadatos).
 **Aceptación:** 250 entradas por idioma, `order` correlativo 1–250, sin títulos duplicados, todo prerrequisito apunta a una clase de `order` inferior.
 
-### Fase 5 — Contenido · ~50 sesiones de agente (el grueso del trabajo)
-Lotes de **10 clases por sesión**, en orden. Un agente por lote.
-Prompt de cada lote: *«Lee `docs/SPEC-DATOS.md` y las filas N a N+9 de `docs/CURRICULO.md`. Escribe los 10 ficheros JSON correspondientes. No leas otras clases salvo `fr-a1-001.json` como referencia de formato. Ejecuta `node tools/validate.mjs` al terminar.»*
+### Fase 5 — Contenido · ~50 tandas (el grueso del trabajo)
+Lotes de **10 clases por tanda**, en orden.
+Guion de cada lote: *«Lee `docs/SPEC-DATOS.md` y las filas N a N+9 de `docs/CURRICULO.md`. Escribe los 10 ficheros JSON correspondientes. No leas otras clases salvo `fr-a1-001.json` como referencia de formato. Ejecuta `node tools/validate.mjs` al terminar.»*
 **Aceptación por lote:** 10 ficheros válidos contra el esquema, ≥15 ejercicios y ≥8 ítems de vocabulario por clase, sin ejercicios que usen gramática todavía no enseñada (respeta `prerequisites`).
 
-### Fase 6 — Pruebas de nivel · 1 agente por idioma
+### Fase 6 — Pruebas de nivel · una tanda por idioma
 6 ficheros: `fr-a1`, `fr-a2`, `fr-b1`, `de-a1`, `de-a2`, `de-b1`. **70 ejercicios** cada uno, seleccionados a mano para cubrir todos los bloques del nivel de forma proporcional, sin repetir literalmente ejercicios de las clases. Sin secciones de teoría. Corrección solo al final, con informe por `tag`.
 **Aceptación:** cada ejercicio del examen tiene un `sourceLesson` que existe y pertenece a ese nivel.
 
-### Fase 7 — Pulido, QA y despliegue · 1–2 agentes
-- `tools/validate.mjs`: valida los 500 JSON contra el esquema (Node, sin dependencias). Es lo único que usa npm/node, y solo en local.
+### Fase 7 — Pulido, QA y despliegue
+- ~~`tools/validate.mjs`~~ **adelantado a la Fase 1**, porque la Fase 5 lo necesita para validar cada lote. Ya existe y funciona.
 - **QA lingüística**: pase de revisión sobre muestra aleatoria (ver §11).
 - Accesibilidad: contraste ≥4.5:1, foco visible, `aria-live` para los mensajes de corrección, etiquetas en los botones de audio.
 - Rendimiento: la pantalla de curso con 250 filas debe ir fluida (renderiza por bloques o usa `content-visibility: auto`).
@@ -365,7 +373,7 @@ Prompt de cada lote: *«Lee `docs/SPEC-DATOS.md` y las filas N a N+9 de `docs/CU
 
 ---
 
-## 11. Reglas para los agentes de contenido
+## 11. Reglas de contenido
 
 Esto es lo que más determina si la app sirve o no.
 
@@ -373,7 +381,7 @@ Esto es lo que más determina si la app sirve o no.
 2. **Nunca metagramática vacía.** Prohibido "el passé composé se usa para acciones pasadas". Sí: "el passé composé es el equivalente casi exacto de *he comido* / *comí* del español; el francés hablado casi no usa el otro pasado simple, así que con esto ya puedes contar todo tu fin de semana".
 3. **Aproximación fonética en castellano obligatoria** en todo el vocabulario nuevo, además del IPA. Formato: `esApprox`. Ejemplo francés `beaucoup` → `«bo-CÚ»`, con nota si hay un sonido inexistente en español. Ejemplo alemán `ich` → `«ij» suave, como una j andaluza muy floja, no la j de "jamón"`. Sé concreto, no digas "difícil de reproducir".
 4. **Género y plural siempre.** Un sustantivo alemán sin `der/die/das` y sin plural es contenido defectuoso. Un sustantivo francés sin `le/la` (y sin marca de que empieza por vocal) también.
-5. **Progresión honesta.** No uses en un ejercicio nada que no se haya enseñado en esa clase o en una anterior (`prerequisites` lo declara). El validador no lo comprueba: es responsabilidad del agente.
+5. **Progresión honesta.** No uses en un ejercicio nada que no se haya enseñado en esa clase o en una anterior (`prerequisites` lo declara). El validador no lo comprueba: hay que llevarlo a mano.
 6. **Frases reales, no frases de libro.** "El bolígrafo de mi tía está sobre la mesa" está prohibido. Las frases deben ser cosas que alguien diría de verdad en una conversación.
 7. **Español de España.** Vosotros, coger, ordenador, móvil, zumo. El usuario es español.
 8. **Riesgo asumido:** el contenido lo genera una IA y en francés/alemán habrá errores puntuales (géneros, preposiciones, auxiliar del Perfekt, régimen verbal). Mitigación: regla 4, el pase de QA de la Fase 7 sobre ≥10 % de las clases de cada nivel, y el botón "Reportar error" dentro de la app.
@@ -397,9 +405,9 @@ Esto es lo que más determina si la app sirve o no.
 
 ```
 Fase 0 → Fase 1 → Fase 2 → Fase 3 → [app usable con 1 clase]
-       → Fase 4 → Fase 5 lotes FR A1 (9 sesiones) → [empiezas a estudiar de verdad]
+       → Fase 4 → Fase 5 lotes FR A1 (9 tandas) → [empiezas a estudiar de verdad]
        → Fase 6 examen FR A1 → Fase 5 lotes FR A2/B1 → Fase 6 → 
        → Fase 5 lotes DE → Fase 6 → Fase 7
 ```
 
-El punto **"empiezas a estudiar de verdad"** llega tras ~13 sesiones de agente. Todo lo demás es contenido incremental que no rompe nada.
+El punto **"empiezas a estudiar de verdad"** llega tras ~13 tandas de trabajo. Todo lo demás es contenido incremental que no rompe nada.

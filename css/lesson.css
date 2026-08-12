@@ -1,0 +1,911 @@
+/* css/lesson.css — estilos de las pantallas de sesión (Fase 3):
+   clase (portada + teoría + ejercicios + resultados), prueba de nivel y
+   repaso espaciado.
+   Las piezas compartidas están en css/screens.css §1 y en css/components.css;
+   los estilos de los ejercicios en sí, en css/exercises.css: no los dupliques
+   aquí. */
+
+/* ============================================================
+   1. Esqueleto de sesión (js/screens/session.js)
+   ============================================================ */
+
+/* Cadena de alturas: para que la barra de acción quede abajo del todo incluso
+   con un ejercicio corto, TODOS los contenedores intermedios tienen que
+   estirarse. Un `min-height:100%` en .session solo no basta: su bloque
+   contenedor es el <div> que crea asyncScreen(), que es de altura automática,
+   así que el porcentaje se ignora y la barra sube a media pantalla.
+   `100%` a secas y sin restar nada: el porcentaje se resuelve contra la caja
+   de CONTENIDO de #app (que es a la vez el elemento .screen), así que sus
+   paddings vertical ya están descontados. Restarlos otra vez dejaba 48 px
+   muertos bajo la barra. */
+.screen-lesson,
+.screen-exam,
+.screen-review{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.lesson-root,
+.exam-root,
+.review-root{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.session{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.session__top{
+  position: sticky;
+  top: calc(-1 * var(--sp-4));
+  z-index: 5;
+  background: var(--bg);
+  padding-top: var(--sp-2);
+  padding-bottom: var(--sp-3);
+  margin-top: calc(-1 * var(--sp-2));
+}
+
+.session__top-row{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-2);
+  min-height: 44px;
+}
+
+.session__title{
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.session__count{
+  flex: 0 0 auto;
+  margin-left: auto;
+  font-size: 15px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-dim);
+}
+
+.session__exit{
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 0 var(--sp-3);
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.session__exit:active{ background: var(--surface); }
+
+.session__body{
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+/* Barra de acción inferior. La tab bar se oculta en #/lesson y #/exam
+   (tab:null en app.js), así que este espacio es nuestro; el padding inferior
+   respeta siempre el indicador de inicio del iPhone. */
+.session__bar{
+  position: sticky;
+  bottom: calc(-1 * var(--sp-6));
+  z-index: 5;
+  margin-top: var(--sp-4);
+  margin-bottom: calc(-1 * var(--sp-6));
+  padding-top: var(--sp-3);
+  padding-bottom: var(--sp-3);
+  background: linear-gradient(to bottom, transparent, var(--bg) 22%);
+}
+
+/* El indicador de inicio del iPhone solo lo tiene que compensar quien esté
+   pegado al borde de la pantalla: en #/lesson y #/exam la tab bar está oculta
+   (tab:null en app.js) y la barra de acción ES el borde. En #/review la tab
+   bar sigue visible y ya reserva ella el --sab: sumarlo aquí también dejaría
+   un hueco muerto de ~34 px sobre la tab bar. */
+.screen-lesson .session__bar,
+.screen-exam .session__bar{
+  padding-bottom: calc(var(--sab) + var(--sp-3));
+}
+
+.session__actions{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+/* ============================================================
+   2. Clase — portada
+   ============================================================ */
+
+.lesson-cover__chips{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-4);
+}
+
+.lesson-previous,
+.lesson-objectives{
+  margin-bottom: var(--sp-4);
+}
+
+.lesson-objectives ul{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin-top: var(--sp-3);
+}
+
+.lesson-objective{
+  position: relative;
+  padding-left: var(--sp-5);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.lesson-objective::before{
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.lesson-cover__actions{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  margin-top: var(--sp-5);
+  padding-bottom: calc(var(--sab) + var(--sp-2));
+}
+
+/* ============================================================
+   3. Clase — teoría
+   ============================================================ */
+
+.lesson-theory{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+/* La teoría es larga: el botón "Empezar ejercicios" va al final del contenido,
+   no flotando, pero cuando la teoría cabe en pantalla el hueco lo absorbe el
+   último bloque para que el botón no quede a media altura. */
+.lesson-theory > :nth-last-child(2){
+  margin-bottom: auto;
+}
+
+.lesson-theory__head{
+  margin-bottom: var(--sp-4);
+}
+
+.lesson-backlink{
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--accent);
+  font-size: 16px;
+}
+
+.lesson-theory__title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.lesson-section{
+  margin-bottom: var(--sp-4);
+}
+
+.lesson-section__title{
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: var(--sp-3);
+}
+
+/* Etiqueta de tipo de sección: fonética, cultura, truco, "ojo con esto". */
+.lesson-section__tag{
+  display: inline-block;
+  margin-bottom: var(--sp-2);
+  padding: 4px 10px;
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.lesson-section__tag--warn{
+  background: var(--warn-soft);
+  border-color: transparent;
+  color: var(--warn);
+}
+
+.lesson-section__tag--accent{
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+  color: var(--accent);
+}
+
+.lesson-body{
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.lesson-body code{
+  font-family: "SF Mono", ui-monospace, Menlo, monospace;
+  font-size: .9em;
+  padding: 1px 5px;
+  border-radius: 6px;
+  background: var(--surface-2);
+  color: var(--accent-2);
+}
+
+.lesson-body strong{ color: var(--text); font-weight: 700; }
+.lesson-body em{ color: var(--text-dim); }
+
+.lesson-note{
+  margin-top: var(--sp-3);
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+/* Fila "texto en idioma meta + ▶". El texto puede ser largo: envuelve, y el
+   botón nunca se encoge. */
+.lesson-target-row{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.lesson-target,
+.lesson-vocab__target,
+.lesson-vocab__example-target{
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-weight: 600;
+}
+
+/* ---------- explanation ---------- */
+
+.lesson-examples{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin-top: var(--sp-4);
+}
+
+.lesson-example{
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+
+.lesson-example__es{
+  font-size: 15px;
+  color: var(--text-dim);
+}
+
+.lesson-example__note{
+  margin-top: var(--sp-1);
+  font-size: 13px;
+  color: var(--text-faint);
+}
+
+/* ---------- table ---------- */
+
+/* El scroll horizontal vive DENTRO de la tabla: la página nunca desborda a
+   376 px (PLAN.md §4). */
+.lesson-table-wrap{
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+}
+
+.lesson-table{
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+.lesson-table th,
+.lesson-table td{
+  padding: var(--sp-2) var(--sp-3);
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.lesson-table thead th{
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+.lesson-table tbody th{
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+.lesson-table tbody tr:last-child th,
+.lesson-table tbody tr:last-child td{
+  border-bottom: none;
+}
+
+/* ---------- phonetics ---------- */
+
+.lesson-drills{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin-top: var(--sp-3);
+}
+
+.lesson-drill{
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+
+.lesson-drill .fonetica-ipa,
+.lesson-drill .fonetica-es{
+  margin-top: var(--sp-1);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.lesson-drill__hint{
+  margin-top: var(--sp-2);
+  font-size: 13px;
+  color: var(--text-faint);
+  line-height: 1.45;
+}
+
+/* ---------- contrast ---------- */
+
+.lesson-contrast{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.lesson-contrast__item{
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+
+.lesson-contrast__wrong,
+.lesson-contrast__right{
+  /* `position: relative` no es decorativo: confina el `position: absolute` del
+     texto solo-para-lectores-de-pantalla de más abajo. Sin un ancestro
+     posicionado, su bloque contenedor es el viewport y el elemento escapa del
+     `overflow:hidden` de #root, inflando el scrollHeight del documento. */
+  position: relative;
+  display: flex;
+  gap: var(--sp-2);
+  align-items: baseline;
+  font-size: 15px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.lesson-contrast__wrong{
+  color: var(--err);
+  text-decoration: line-through;
+  text-decoration-color: rgba(255, 107, 107, .45);
+}
+
+.lesson-contrast__right{
+  margin-top: var(--sp-2);
+  color: var(--ok);
+  font-weight: 600;
+}
+
+.lesson-contrast__mark{
+  flex: 0 0 auto;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* El prefijo "Incorrecto:"/"Correcto:" existe para el lector de pantalla: el
+   color y el símbolo no significan nada sin vista. */
+.lesson-contrast__sr{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.lesson-contrast__why{
+  margin-top: var(--sp-2);
+  padding-top: var(--sp-2);
+  border-top: 1px dashed var(--border);
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+/* ---------- culture / tip ---------- */
+
+.lesson-section--culture{ border-left: 3px solid var(--accent-line); }
+.lesson-section--tip{ border-left: 3px solid var(--warn); }
+
+/* ============================================================
+   4. Clase — vocabulario
+   ============================================================ */
+
+.lesson-vocab__list{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin-top: var(--sp-3);
+}
+
+.lesson-vocab__item{
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+
+.lesson-vocab__head{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.lesson-vocab__head .lesson-target-row{ flex: 1 1 auto; }
+
+.lesson-vocab__gender{
+  flex: 0 0 auto;
+  text-transform: uppercase;
+}
+
+.lesson-vocab__es{
+  margin-top: var(--sp-1);
+  font-size: 16px;
+}
+
+.lesson-vocab__plural{
+  margin-top: var(--sp-1);
+  font-size: 13px;
+  color: var(--text-faint);
+}
+
+.lesson-vocab__item .fonetica-ipa,
+.lesson-vocab__item .fonetica-es{
+  margin-top: var(--sp-1);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.lesson-vocab__example{
+  margin-top: var(--sp-3);
+  padding-top: var(--sp-3);
+  border-top: 1px dashed var(--border);
+}
+
+.lesson-vocab__example-es{
+  margin-top: var(--sp-1);
+  font-size: 14px;
+  color: var(--text-dim);
+}
+
+/* ============================================================
+   5. Resultados (clase, examen, repaso)
+   ============================================================ */
+
+.lesson-results,
+.review-results,
+.exam-report{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  padding-bottom: var(--sp-4);
+}
+
+/* Mismo motivo que en .session__bar: solo compensa --sab quien vive contra el
+   borde de la pantalla, y en #/review la tab bar ya está ahí. */
+.lesson-results,
+.exam-report{
+  padding-bottom: calc(var(--sab) + var(--sp-4));
+}
+
+.lesson-results__title{
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.result-score{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-1);
+  padding: var(--sp-5) var(--sp-4);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  text-align: center;
+}
+
+.result-score__value{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+.result-score--ok .result-score__value{ color: var(--ok); }
+.result-score--warn .result-score__value{ color: var(--warn); }
+.result-score--err .result-score__value{ color: var(--err); }
+
+.result-score--ok{ border-color: var(--ok); background: var(--ok-soft); }
+.result-score--warn{ border-color: var(--warn); background: var(--warn-soft); }
+.result-score--err{ border-color: var(--err); background: var(--err-soft); }
+
+.result-score__detail{
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.result-score__caption{
+  margin-top: var(--sp-1);
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.45;
+}
+
+.result-stat{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding: var(--sp-2) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.result-stat:last-child{ border-bottom: none; }
+
+.result-stat__label{
+  color: var(--text-dim);
+  font-size: 15px;
+}
+
+.result-stat__value{
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.result-breakdown{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin-top: var(--sp-3);
+}
+
+.result-breakdown__head{
+  display: flex;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-1);
+  font-size: 14px;
+}
+
+.result-breakdown__value{
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+  flex: 0 0 auto;
+}
+
+.result-actions{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+/* ============================================================
+   6. Repaso espaciado
+   ============================================================ */
+
+.review-title{
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: var(--sp-4);
+}
+
+.review-card{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  padding: var(--sp-4) 0;
+}
+
+.review-card__tag{
+  align-self: flex-start;
+  padding: 4px 10px;
+  border-radius: var(--r-full);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-line);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+.review-card__main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  min-height: 96px;
+  padding: var(--sp-5) var(--sp-4);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  text-align: center;
+}
+
+.review-card__main--audio{ min-height: 120px; }
+
+.review-target--big,
+.review-es--big{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.review-card__hint{
+  font-size: 14px;
+  text-align: center;
+}
+
+.review-solution[hidden]{ display: none; }
+
+.review-solution{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+
+.review-solution__row{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.review-target{
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 18px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.review-es{
+  font-size: 16px;
+  color: var(--text);
+}
+
+.review-diff{
+  margin-top: var(--sp-1);
+  font-weight: 600;
+}
+
+/* Cuatro calificaciones: Otra vez / Difícil / Bien / Fácil (PLAN.md §8).
+   En dos filas de dos para que cada botón conserve sus 44 px de alto y su
+   etiqueta entera a 376 px. */
+.review-grades{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-2);
+}
+
+.review-grade{
+  padding: 12px var(--sp-2);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 15px;
+}
+
+.review-grade--again{ color: var(--err); border-color: var(--err); background: var(--err-soft); }
+.review-grade--hard{ color: var(--warn); border-color: var(--warn); background: var(--warn-soft); }
+.review-grade--good{ color: var(--accent); border-color: var(--accent-line); background: var(--accent-soft); }
+.review-grade--easy{ color: var(--ok); border-color: var(--ok); background: var(--ok-soft); }
+
+.review-note{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   7. Prueba de nivel
+   ============================================================ */
+
+.exam-title{
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: var(--sp-4);
+}
+
+.exam-status{
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: var(--sp-1);
+}
+
+.exam-status--done{ color: var(--ok); }
+
+.exam-nav{
+  display: flex;
+  gap: var(--sp-2);
+}
+
+.exam-nav__btn{
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.exam-review h2{
+  margin-bottom: var(--sp-2);
+}
+
+.exam-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+  gap: var(--sp-2);
+  margin-top: var(--sp-4);
+}
+
+.exam-grid__cell{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border-radius: var(--r-sm);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.exam-grid__cell.is-done{
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+  color: var(--accent);
+}
+
+.exam-tags{
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--sp-2);
+}
+
+.exam-tag-note{
+  font-size: 13px;
+  margin-top: var(--sp-1);
+}
+
+.exam-tag-row{
+  display: flex;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding: var(--sp-2) 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+}
+
+.exam-tag-row:last-child{ border-bottom: none; }
+
+.exam-tag-row__name{
+  min-width: 0;
+  overflow-wrap: anywhere;
+  color: var(--text-dim);
+}
+
+.exam-tag-row__value{
+  flex: 0 0 auto;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.exam-tag-row__value.is-weak{ color: var(--err); }
+
+.exam-detail[hidden]{ display: none; }
+
+.exam-detail{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.exam-detail__item{
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.exam-detail__item.is-wrong{ border-color: var(--err); }
+
+.exam-detail__head{
+  font-weight: 700;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Pista de que una tabla se puede deslizar. `is-scrollable` la pone lesson.js
+   solo cuando la tabla desborda de verdad; sin esto la tercera columna se
+   corta a media palabra y no hay forma de saber que existe. */
+.lesson-table-wrap.is-scrollable{
+  position: relative;
+  /* El degradado va pegado al viewport del contenedor, no al contenido, para
+     que no se desplace al hacer scroll. */
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent 100%);
+  mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent 100%);
+}
+
+/* Al llegar al final no queda nada que insinuar: se quita el difuminado para
+   que la última columna se lea entera. */
+.lesson-table-wrap.is-scrollable.is-at-end{
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+.lesson-table-hint{
+  margin-top: var(--sp-2);
+  font-size: 13px;
+  color: var(--text-faint);
+  font-style: italic;
+}

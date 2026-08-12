@@ -1,6 +1,6 @@
 # CURRÍCULO — 250 clases por idioma
 
-> **A1 está definido clase por clase** (90 por idioma) y es directamente ejecutable por los agentes de contenido de la Fase 5.
+> **A1 está definido clase por clase** (90 por idioma) y es directamente ejecutable en los lotes de contenido de la Fase 5.
 > **A2 y B1 están definidos por bloques**, con el inventario exacto que debe cubrirse y el número de clases de cada bloque. La Fase 4 los expande a títulos concretos siguiendo la receta del §5.
 
 ## 0. Convenciones

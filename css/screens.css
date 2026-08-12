@@ -1,0 +1,609 @@
+/* css/screens.css — estilos de las pantallas de navegación (Fase 3).
+   La primera sección son las piezas compartidas de js/screens/parts.js y NO
+   debe tocarse desde una pantalla concreta. Debajo, los estilos propios de
+   Aprender / Curso / Progreso / Ajustes.
+   Las pantallas de sesión (clase, examen, repaso) viven en css/lesson.css. */
+
+/* ============================================================
+   1. Piezas compartidas (parts.js)
+   ============================================================ */
+
+.screen-header{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-5);
+}
+.screen-header__back{
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+  align-self: flex-start;
+  color: var(--accent);
+  font-size: 16px;
+  text-decoration: none;
+}
+.screen-header__back span[aria-hidden]{ font-size: 22px; line-height: 1; }
+.screen-header__title{
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+.screen-header__subtitle{
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 15px;
+  line-height: 1.4;
+}
+.screen-header__actions{
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.progress-row{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+.progress-row .progress{ flex: 1; min-width: 0; }
+.progress-row__value{
+  flex: none;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-dim);
+}
+
+.chip--level{
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .04em;
+  font-weight: 600;
+}
+.chip--level-a1{ background: rgba(74, 222, 128, .14); color: var(--ok); }
+.chip--level-a2{ background: var(--accent-soft); color: var(--accent); }
+.chip--level-b1{ background: rgba(251, 191, 36, .14); color: var(--warn); }
+
+.screen-loading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-6) var(--sp-4);
+}
+.empty-state--error .empty-state__title{ color: var(--err); }
+.empty-state--error p{ word-break: break-word; }
+
+/* ============================================================
+   2. Pantallas de navegación
+   (Aprender, Curso, Progreso, Ajustes — Agente A de la Fase 3)
+   ============================================================ */
+
+/* Las cuatro pantallas apilan tarjetas de arriba a abajo: un único gap de
+   flexbox en el contenedor raíz evita tener que poner margin-bottom en cada
+   tarjeta suelta y que se nos olvide alguna. */
+.screen-home, .screen-course, .screen-stats, .screen-settings{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+.home-body{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+/* ------------------------------------------------------------
+   2.1 Aprender (home.js)
+   ------------------------------------------------------------ */
+
+.lang-switcher{
+  display: flex;
+  gap: var(--sp-2);
+}
+.lang-switcher__btn{
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  padding: 10px;
+  border-radius: var(--r-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 15px;
+  font-weight: 600;
+  transition: background 150ms ease-out, border-color 150ms ease-out, color 150ms ease-out;
+}
+.lang-switcher__btn.is-active{
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+  color: var(--accent-2);
+}
+
+.home-continue{
+  display: block;
+  text-decoration: none;
+}
+.home-continue__eyebrow{
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--accent);
+  margin-bottom: var(--sp-1);
+}
+.home-continue__meta{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin: var(--sp-3) 0;
+}
+.home-continue__cta{
+  margin-top: var(--sp-2);
+}
+.home-continue__actions{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  margin-top: var(--sp-3);
+}
+
+.home-levels{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  margin-top: var(--sp-3);
+}
+.home-level-row{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+.home-level-row__head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-2);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.home-review{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  text-decoration: none;
+}
+.home-review__main{
+  min-width: 0;
+}
+.home-review .chip{
+  flex: 0 0 auto;
+  font-size: 17px;
+  min-width: 32px;
+  justify-content: center;
+}
+
+.home-course-link{
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------
+   2.2 Curso (course.js)
+   ------------------------------------------------------------ */
+
+.course-search{
+  margin-bottom: var(--sp-3);
+}
+.course-filters__row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  align-items: center;
+}
+.course-filter{
+  flex: 1 1 120px;
+  min-width: 0;
+  padding: 10px 12px;
+}
+.course-toggle{
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex: 0 0 auto;
+  font-size: 14px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.course-toggle input{
+  width: auto;
+  min-width: 20px;
+  min-height: 20px;
+  accent-color: var(--accent);
+}
+
+.course-groups{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+.course-level-title{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-top: var(--sp-2);
+}
+.course-block-title{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-dim);
+  padding: 0 var(--sp-1);
+}
+
+.course-row{
+  /* La lista puede llegar a 250 filas (Fase 5): que el navegador solo
+     calcule el layout de las filas visibles en pantalla. El alto estimado
+     evita saltos de scroll al entrar/salir del viewport. */
+  content-visibility: auto;
+  contain-intrinsic-size: 0 92px;
+  align-items: flex-start;
+}
+.course-row__top{
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+}
+/* El .row__title compartido trunca a una línea (pensado para filas cortas);
+   los títulos de clase son largos y deben poder verse enteros aquí. */
+.course-row__top .row__title{
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  flex: 1 1 auto;
+  min-width: 0;
+  line-height: 1.3;
+}
+.course-row__chips{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-1);
+  margin-top: var(--sp-2);
+}
+.course-row__chips .chip{
+  font-size: 12px;
+  padding: 4px 10px;
+}
+.course-exam-row{
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+}
+
+/* ------------------------------------------------------------
+   2.3 Progreso (stats.js)
+   ------------------------------------------------------------ */
+
+.stats-empty{
+  padding: var(--sp-2) 0;
+}
+
+.stats-weak{
+  border-color: var(--accent-line);
+}
+.stats-weak-row{
+  align-items: center;
+}
+/* Los tags largos (p.ej. "pronunciacion-general") no deben truncarse: es
+   justo el dato que el usuario necesita leer entero aquí. */
+.stats-weak-row .row__title{
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+.stats-weak-row .chip{
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+.stats-weak__rank{
+  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.stats-big-number{
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--accent-2);
+  margin-top: var(--sp-2);
+}
+
+.stats-level-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-2);
+  margin-top: var(--sp-3);
+}
+.stats-level-grid__item{
+  text-align: center;
+  padding: var(--sp-2);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+}
+.stats-level-grid__value{
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.stats-levels{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  margin-top: var(--sp-3);
+}
+
+.stats-bars{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin-top: var(--sp-2);
+}
+.stats-bar-row__label{
+  font-size: 14px;
+  margin-bottom: var(--sp-1);
+}
+
+/* Mapa de calor: 12 columnas (semanas) x 7 filas (días), pensado para caber
+   en 376px de ancho lógico sin scroll horizontal. overflow-x:auto es
+   cinturón de seguridad, no la solución -- las medidas ya caben solas. */
+.heatmap{
+  display: flex;
+  gap: 6px;
+  margin-top: var(--sp-3);
+  max-width: 100%;
+  overflow-x: auto;
+}
+.heatmap__labels{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 0 0 auto;
+}
+.heatmap__labels span{
+  width: 14px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 9px;
+  text-align: center;
+  color: var(--text-faint);
+}
+.heatmap__weeks{
+  display: flex;
+  gap: 3px;
+}
+.heatmap__week{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.heatmap__cell{
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  padding: 0;
+  display: block;
+}
+.heatmap__cell--future{
+  background: transparent;
+  border-color: transparent;
+}
+.heatmap__cell--b0{ background: var(--surface-2); }
+.heatmap__cell--b1{ background: rgba(111,179,255,.25); border-color: transparent; }
+.heatmap__cell--b2{ background: rgba(111,179,255,.5); border-color: transparent; }
+.heatmap__cell--b3{ background: rgba(111,179,255,.75); border-color: transparent; }
+.heatmap__cell--b4{ background: var(--accent); border-color: transparent; }
+.heatmap__cell.is-today{
+  box-shadow: 0 0 0 1px var(--accent-2) inset;
+}
+.heatmap__cell:not(.heatmap__cell--future){
+  cursor: pointer;
+}
+.heatmap__legend{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: var(--sp-3);
+  font-size: 12px;
+}
+.heatmap__legend .heatmap__cell{
+  width: 12px;
+  height: 12px;
+}
+
+.stats-exam{
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+}
+.stats-exam + .stats-exam{
+  margin-top: var(--sp-2);
+}
+.stats-exam__head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-2);
+}
+.stats-exam__tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-1);
+  margin-top: var(--sp-2);
+}
+.stats-exam__tags .chip{
+  font-size: 12px;
+  padding: 4px 10px;
+}
+
+/* ------------------------------------------------------------
+   2.4 Ajustes (settings.js)
+   ------------------------------------------------------------ */
+
+.settings-voice-row{
+  display: flex;
+  gap: var(--sp-2);
+  align-items: center;
+}
+.settings-select{
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 10px 12px;
+}
+.settings-voice-hint{
+  margin-top: var(--sp-2);
+}
+
+.settings-range-row{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+.settings-range-value{
+  flex: 0 0 auto;
+  min-width: 44px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--accent-2);
+}
+/* Slider táctil: el thumb nativo de iOS ya tiene 44px de alto de zona de
+   toque aunque el track visual sea más fino; no hace falta tocar eso. */
+.settings-range{
+  -webkit-appearance: none;
+  appearance: none;
+  flex: 1 1 auto;
+  width: 100%;
+  height: 26px;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.settings-range::-webkit-slider-runnable-track{
+  height: 6px;
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+}
+.settings-range::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  margin-top: -9px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: none;
+}
+.settings-range::-moz-range-track{
+  height: 6px;
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+}
+.settings-range::-moz-range-thumb{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: none;
+}
+
+.settings-toggle{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.settings-toggle:last-of-type{
+  border-bottom: none;
+}
+
+/* Interruptor accesible: checkbox real invisible superpuesto al carril
+   visual, así el foco de teclado y los lectores de pantalla siguen
+   funcionando igual que con un <input type="checkbox"> normal. */
+.switch{
+  position: relative;
+  flex: 0 0 auto;
+  width: 48px;
+  height: 28px;
+}
+.switch__input{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.switch__track{
+  position: absolute;
+  inset: 0;
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  transition: background 150ms ease-out, border-color 150ms ease-out;
+}
+.switch__track::after{
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--text-dim);
+  transition: transform 150ms ease-out, background 150ms ease-out;
+}
+.switch__input:checked + .switch__track{
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+}
+.switch__input:checked + .switch__track::after{
+  transform: translateX(20px);
+  background: var(--accent);
+}
+.switch__input:focus-visible + .switch__track{
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.settings-goal-row{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+.settings-goal-input{
+  width: 88px;
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.settings-file-input{
+  display: none;
+}
+
+.settings-danger{
+  border-color: var(--err-soft);
+}

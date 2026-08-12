@@ -1,0 +1,34 @@
+{
+  "lang": "fr",
+  "name": "Francés",
+  "version": 1,
+  "levels": [
+    { "id": "A1", "name": "A1 — Principiante", "range": [1, 90], "exam": "fr-a1" },
+    { "id": "A2", "name": "A2 — Elemental", "range": [91, 175], "exam": "fr-a2" },
+    { "id": "B1", "name": "B1 — Intermedio", "range": [176, 250], "exam": "fr-b1" }
+  ],
+  "blocks": [
+    { "id": "fr-a1-b1", "level": "A1", "name": "Primeros pasos", "range": [1, 10] },
+    { "id": "fr-a1-b2", "level": "A1", "name": "El sustantivo y el artículo", "range": [11, 20] },
+    { "id": "fr-a1-b3", "level": "A1", "name": "Preguntar y describir", "range": [21, 32] },
+    { "id": "fr-a1-b4", "level": "A1", "name": "Verbos y rutina", "range": [33, 46] },
+    { "id": "fr-a1-b5", "level": "A1", "name": "Vida cotidiana", "range": [47, 60] },
+    { "id": "fr-a1-b6", "level": "A1", "name": "Escuela, trabajo y cuerpo", "range": [61, 74] },
+    { "id": "fr-a1-b7", "level": "A1", "name": "El pasado y el futuro cercano", "range": [75, 90] }
+  ],
+  "lessons": [
+    {
+      "id": "fr-a1-001",
+      "order": 1,
+      "level": "A1",
+      "block": "fr-a1-b1",
+      "title": "Bienvenido al francés: qué te va a regalar el español y qué te va a traicionar",
+      "subtitle": "Cognados, falsos amigos y las tres cosas que de verdad chocan a un hispanohablante",
+      "kind": "cultura",
+      "tags": ["cognados", "falsos-amigos", "pronunciacion-general"],
+      "estimatedMinutes": 15,
+      "prerequisites": [],
+      "file": "./data/fr/lessons/fr-a1-001.json"
+    }
+  ]
+}

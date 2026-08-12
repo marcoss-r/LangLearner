@@ -1,0 +1,755 @@
+/* =========================================================
+   LangLearner — exercises.css
+   Estilos de los 16 tipos de ejercicio (docs/SPEC-DATOS.md §6).
+   Fase 2 primera mitad: mcq, true_false, odd_one_out, gender_article,
+   match_pairs, categorize, fill_blank, word_order — completos y en uso.
+   El resto de clases (.ex-dialogue__turn, .ex-conj-row, .ex-selfassess...)
+   ya están aquí para que el segundo agente de la Fase 2 no tenga que tocar
+   este fichero: solo añadir sus propios módulos de tipo.
+   Solo tokens de PLAN.md §5. Verde = acierto, rojo = fallo, ámbar = "casi".
+   ========================================================= */
+
+/* ---------- Bloque genérico de ejercicio ---------- */
+.ex{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  padding: var(--sp-4) 0;
+}
+
+.ex-prompt{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.ex-prompt-row{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.ex-hint-static{
+  font-size: 14px;
+}
+
+.ex-hint{
+  font-size: 14px;
+  color: var(--warn);
+  margin-top: var(--sp-1);
+}
+
+/* Botón ▶ / 🐢 de audio. Área táctil mínima 44px. */
+.ex-audio-btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: var(--r-full);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 17px;
+  flex: 0 0 auto;
+  transition: transform 150ms ease-out, background 150ms ease-out;
+}
+
+.ex-audio-btn:active{
+  transform: scale(0.94);
+  background: var(--accent-line);
+}
+
+/* Bloque de feedback tras comprobar. aria-live="polite" en el JS. */
+.ex-feedback{
+  min-height: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.ex-feedback--ok{ color: var(--ok); }
+.ex-feedback--err{ color: var(--err); }
+.ex-feedback--warn{ color: var(--warn); }
+
+.ex-explain{
+  padding-top: var(--sp-2);
+  border-top: 1px dashed var(--border);
+  color: var(--text-dim);
+  font-size: 15px;
+}
+
+/* ---------- Opciones (mcq / true_false / odd_one_out / gender_article) ---------- */
+.ex-options{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.ex-options--inline{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ex-option{
+  min-height: 44px;
+  padding: 12px 16px;
+  border-radius: var(--r-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  text-align: left;
+  font-size: 16px;
+  transition: border-color 150ms ease-out, background 150ms ease-out, transform 150ms ease-out;
+}
+
+.ex-option:active{
+  transform: scale(0.98);
+}
+
+.ex-option--sm{
+  min-width: 64px;
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+.ex-option.is-selected{
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.ex-option.is-correct{
+  border-color: var(--ok);
+  background: var(--ok-soft);
+  color: var(--ok);
+}
+
+.ex-option.is-incorrect{
+  border-color: var(--err);
+  background: var(--err-soft);
+  color: var(--err);
+}
+
+/* ---------- gender_article: varios ítems con sus propios botones ---------- */
+.ex-gender-list{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.ex-gender-row{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  padding: var(--sp-2) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.ex-gender-row__word{
+  min-width: 90px;
+  font-weight: 600;
+}
+
+/* ---------- match_pairs: dos columnas, sin drag and drop ---------- */
+.ex-match{
+  display: flex;
+  gap: var(--sp-3);
+  align-items: flex-start;
+}
+
+.ex-match__col{
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.ex-match__item{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: var(--r-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  text-align: left;
+  font-size: 15px;
+  transition: border-color 150ms ease-out, background 150ms ease-out;
+}
+
+.ex-match__item.is-pending{
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.ex-match__item.is-paired{
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.ex-match__item.is-correct{
+  border-color: var(--ok);
+  background: var(--ok-soft);
+}
+
+.ex-match__item.is-incorrect{
+  border-color: var(--err);
+  background: var(--err-soft);
+}
+
+.ex-match__badge{
+  flex: 0 0 auto;
+  min-width: 20px;
+  height: 20px;
+  border-radius: var(--r-full);
+  background: var(--accent);
+  color: var(--bg);
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ex-match__text{
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.ex-match__correction{
+  margin-top: var(--sp-2);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-weight: 400;
+}
+
+/* ---------- categorize: toque en ítem, toque en cubo ---------- */
+.ex-categorize__pool{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  min-height: 44px;
+}
+
+.ex-categorize__item{
+  min-height: 44px;
+  padding: 10px 14px;
+  border-radius: var(--r-full);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 15px;
+  transition: border-color 150ms ease-out, background 150ms ease-out, transform 150ms ease-out;
+}
+
+.ex-categorize__item.is-pending{
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  transform: scale(1.04);
+}
+
+.ex-categorize__item.is-correct{
+  border-color: var(--ok);
+  background: var(--ok-soft);
+  color: var(--ok);
+}
+
+.ex-categorize__item.is-incorrect{
+  border-color: var(--err);
+  background: var(--err-soft);
+  color: var(--err);
+}
+
+.ex-categorize__buckets{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.ex-categorize__bucket{
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  overflow: hidden;
+}
+
+.ex-categorize__bucket-title{
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 14px;
+  background: var(--surface-2);
+  font-weight: 600;
+  text-align: left;
+}
+
+.ex-categorize__bucket-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  padding: var(--sp-3);
+  min-height: 44px;
+}
+
+/* ---------- fill_blank: huecos como botón (banco) o input ---------- */
+.ex-fillblank-text{
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.ex-blank{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  min-width: 64px;
+  padding: 4px 10px;
+  margin: 2px;
+  border-radius: var(--r-sm);
+  vertical-align: middle;
+}
+
+.ex-blank--bank{
+  background: var(--surface-2);
+  border: 1px solid var(--accent-line);
+  color: var(--accent-2);
+  font-weight: 600;
+}
+
+.ex-blank--bank.is-correct{ border-color: var(--ok); background: var(--ok-soft); color: var(--ok); }
+.ex-blank--bank.is-incorrect{ border-color: var(--err); background: var(--err-soft); color: var(--err); }
+.ex-blank--bank.is-close{ border-color: var(--warn); background: var(--warn-soft); color: var(--warn); }
+
+.ex-blank--input{
+  min-width: 96px;
+  margin: 2px;
+}
+
+.ex-blank--input .ex-input{
+  min-width: 96px;
+  width: auto;
+  display: inline-block;
+}
+
+.ex-fillblank-correct{
+  color: var(--text-dim);
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.ex-bank-picker{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.ex-bank-picker__item{
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--accent-2);
+  font-weight: 600;
+}
+
+/* ---------- word_order: banco + zona de respuesta, ambos con wrap ---------- */
+.ex-word-order__answer-label,
+.ex-word-order__bank-label{
+  font-size: 13px;
+}
+
+.ex-word-order__answer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  min-height: 52px;
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  border: 1px dashed var(--border);
+}
+
+.ex-word-order__bank{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface);
+}
+
+.ex-word-order__token{
+  min-height: 44px;
+  min-width: 44px;
+  padding: 10px 14px;
+  border-radius: var(--r-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 16px;
+  white-space: normal;
+  overflow-wrap: break-word;
+  transition: border-color 150ms ease-out, background 150ms ease-out, transform 150ms ease-out;
+}
+
+.ex-word-order__token:active{
+  transform: scale(0.96);
+}
+
+.ex-word-order__token.is-used{
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.ex-word-order__token.is-correct{
+  border-color: var(--ok);
+  background: var(--ok-soft);
+  color: var(--ok);
+}
+
+.ex-word-order__token.is-incorrect{
+  border-color: var(--err);
+  background: var(--err-soft);
+  color: var(--err);
+}
+
+/* ---------- Input de texto libre (fill_blank sin bank, y tipos de la 2ª mitad) ---------- */
+.ex-input-wrap{
+  display: inline-flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+}
+
+.ex-input{
+  min-height: 44px;
+}
+
+/* Un input ya corregido está deshabilitado: su barra de acentos no sirve para
+   nada y, si se queda abierta, deja un hueco de 60px bajo cada respuesta. */
+.ex-input:disabled + .accent-bar{
+  display: none;
+}
+
+.ex-input.is-correct{ border-color: var(--ok); }
+.ex-input.is-incorrect{ border-color: var(--err); }
+.ex-input.is-close{ border-color: var(--warn); }
+
+/* ---------- Placeholder / error ---------- */
+.ex-placeholder{
+  padding: var(--sp-4);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  border: 1px dashed var(--border);
+  color: var(--text-dim);
+  font-style: italic;
+}
+
+.ex-error{
+  padding: var(--sp-4);
+  border-radius: var(--r-md);
+  background: var(--err-soft);
+  border: 1px solid var(--err);
+  color: var(--err);
+}
+
+/* =========================================================
+   Infraestructura para la segunda mitad de la Fase 2
+   (translate_to_target, translate_to_es, conjugation, listening,
+   shadowing, speak_prompt, dialogue, error_correction). No la usa
+   ningún renderer todavía: define las clases por adelantado para
+   no tener que volver a tocar este fichero.
+   ========================================================= */
+
+/* conjugation: una fila por persona gramatical */
+.ex-conj-row{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-2) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.ex-conj-row__person{
+  min-width: 90px;
+  font-weight: 600;
+  color: var(--text-dim);
+}
+
+/* dialogue: turnos de conversación */
+.ex-dialogue__turn{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.ex-dialogue__turn--blank{
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.ex-dialogue__who{
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-dim);
+}
+
+/* shadowing / speak_prompt: flujo de autoevaluación */
+.ex-selfassess{
+  display: flex;
+  gap: var(--sp-2);
+}
+
+.ex-selfassess__btn{
+  flex: 1 1 0;
+  min-height: 44px;
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  font-weight: 600;
+}
+
+.ex-selfassess__btn--hard{ color: var(--warn); }
+.ex-selfassess__btn--ok{ color: var(--ok); }
+
+/* ---------- Sin scroll horizontal a 376px ---------- */
+.ex, .ex *{
+  max-width: 100%;
+}
+
+/* =========================================================
+   Pantalla de pruebas #/dev/exercises (Fase 2). screens.css todavía no
+   existe (lo crea la Fase 3), así que estas cuatro reglas viven aquí.
+   ========================================================= */
+.screen-dev{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.ex-dev-list{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.ex-dev-item__meta{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-2);
+}
+
+.ex-dev-item__actions{
+  display: flex;
+  gap: var(--sp-2);
+  margin-top: var(--sp-2);
+}
+
+/* =========================================================
+   Tipos de escritura y audio (Fase 2, segunda mitad):
+   translate · conjugation · listening · shadowing ·
+   speak_prompt · dialogue · error_correction
+   ========================================================= */
+
+/* Tramo divergente resaltado en los mensajes de "casi". */
+.ex-diff{
+  color: var(--warn);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.ex-solution-audio{
+  display: block;
+  margin-top: var(--sp-2);
+}
+
+/* ---------- translate ---------- */
+.ex-translate .ex-prompt{
+  margin-bottom: var(--sp-1);
+}
+
+/* ---------- conjugation ---------- */
+.ex-conj-heading{
+  color: var(--accent-2);
+  font-weight: 600;
+  margin-bottom: var(--sp-3);
+}
+
+.ex-conj-table{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.ex-conj-row__correct{
+  font-size: 15px;
+  color: var(--text-dim);
+}
+
+.ex-conj-row__audio{
+  display: inline-flex;
+}
+
+/* A 376px la persona se pone encima y el input comparte línea con la
+   corrección y el ▶. Sin repartir explícitamente el espacio, el input ocupa el
+   100% y empuja corrección y audio a una línea propia cada uno: seis personas
+   se convertían en una tabla de tres pantallas de alto. */
+@media (max-width: 400px){
+  .ex-conj-row{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "person correct"
+      "input  audio";
+    column-gap: var(--sp-3);
+    row-gap: var(--sp-1);
+    align-items: center;
+  }
+  .ex-conj-row__person{ grid-area: person; min-width: 0; }
+  .ex-conj-row .ex-input-wrap{ grid-area: input; min-width: 0; }
+  .ex-conj-row__correct{ grid-area: correct; justify-self: end; }
+  .ex-conj-row__audio{ grid-area: audio; justify-self: end; }
+}
+
+/* ---------- listening ---------- */
+.ex-listen-controls{
+  display: flex;
+  gap: var(--sp-3);
+  margin: var(--sp-3) 0;
+}
+
+.ex-voice-warning{
+  color: var(--warn);
+}
+
+.ex-listen-transcript{
+  margin-top: var(--sp-3);
+  padding: var(--sp-3);
+  border-radius: var(--r-sm);
+  background: var(--surface-2);
+  border-left: 3px solid var(--accent-line);
+}
+
+.ex-listen-transcript__target{
+  font-weight: 600;
+}
+
+.ex-listen-transcript__es{
+  color: var(--text-dim);
+  margin-top: var(--sp-1);
+}
+
+/* ---------- shadowing y speak_prompt ---------- */
+.ex-shadow-line{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-2);
+}
+
+.ex-shadow-target,
+.ex-speak-model{
+  font-size: 21px;
+  font-weight: 600;
+  color: var(--accent-2);
+  flex: 1 1 100%;
+}
+
+.ex-shadow-es{
+  color: var(--text-dim);
+  margin-bottom: var(--sp-3);
+}
+
+.ex-shadow-guide,
+.ex-speak-solution{
+  margin-top: var(--sp-3);
+  padding: var(--sp-3);
+  border-radius: var(--r-sm);
+  background: var(--surface-2);
+}
+
+.ex-shadow-approx{
+  font-style: italic;
+  color: var(--text);
+}
+
+.ex-shadow-focus{
+  margin-top: var(--sp-2);
+  color: var(--text-dim);
+}
+
+.ex-speak-also{
+  margin-top: var(--sp-3);
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--border);
+}
+
+.ex-speak-alt{
+  color: var(--accent-2);
+}
+
+/* ---------- dialogue ---------- */
+.ex-dialogue__list{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.ex-dialogue__text{
+  flex: 1 1 auto;
+}
+
+/* El turno es una columna flex: sin esto el ▶ se estira a todo el ancho de la
+   burbuja y parece una barra, no un botón. */
+.ex-dialogue__turn .ex-audio-btn{
+  align-self: flex-start;
+}
+
+.ex-dialogue__hint{
+  font-size: 14px;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
+.ex-dialogue__correct{
+  flex: 1 1 100%;
+  font-size: 15px;
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+/* ---------- error_correction ---------- */
+.ex-wrong{
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-3);
+  padding: var(--sp-3);
+  border-radius: var(--r-sm);
+  background: var(--err-soft);
+  border-left: 3px solid var(--err);
+}
+
+.ex-wrong__badge{
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--err);
+}
+
+.ex-wrong__text{
+  flex: 1 1 100%;
+  color: var(--text-dim);
+  text-decoration-color: var(--err);
+}

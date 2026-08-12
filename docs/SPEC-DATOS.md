@@ -1,6 +1,6 @@
 # SPEC-DATOS — Esquema de contenido y ejercicios
 
-> Documento de referencia para los agentes que escriben **clases** (Fase 5) y **exámenes** (Fase 6), y para los que implementan el **motor de ejercicios** (Fase 2).
+> Documento de referencia para escribir **clases** (Fase 5) y **exámenes** (Fase 6), y para el **motor de ejercicios** (Fase 2).
 > Si escribes contenido: lee este fichero y tus filas de [`CURRICULO.md`](CURRICULO.md). **No leas otras clases** (agotan el contexto), salvo `data/fr/lessons/fr-a1-001.json` como referencia de formato.
 
 ---
@@ -397,7 +397,8 @@ Pipeline de normalización, en este orden:
 6. Si `strictAccents === false`: quitar diacríticos con `normalize('NFD').replace(/\p{Diacritic}/gu,'')` en ambos lados.
 
 Comparación contra cada elemento de `accept`:
-- Igualdad exacta tras normalizar → **acierto** (verde).
+- Igualdad exacta tras normalizar → **acierto** (verde), con `reason: 'exact'`.
+- Igualdad solo gracias a haber ignorado las tildes (`strictAccents === false`) → **acierto** (verde) pero con `reason: 'accents'`: la interfaz debe mostrar igualmente la grafía correcta con los acentos en su sitio. Es un acierto, no un fallo, pero el usuario tiene que verlo.
 - Distancia de Levenshtein ≤ 1 (o ≤ 2 si la respuesta tiene >12 caracteres) → **"casi"** (ámbar): cuenta como acierto en la nota pero muestra la forma correcta resaltando la diferencia, y la tarjeta se marca como "difícil" en el SRS.
 - Si solo difiere en diacríticos y `strictAccents === true` → **"casi"**, con el mensaje "cuidado con las tildes".
 - Resto → **fallo** (rojo): muestra la primera entrada de `accept` y el `explain`, y encola el ejercicio para repetirlo al final de la clase.

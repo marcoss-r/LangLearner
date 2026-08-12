@@ -1,0 +1,326 @@
+/* =========================================================
+   LangLearner — components.css
+   Botones, tarjetas, chips, barra de progreso, listas, toast,
+   modal, estados vacíos, spinner y barra de caracteres especiales.
+   ========================================================= */
+
+/* ---------- Botones ---------- */
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  min-height: 44px;
+  padding: 12px 20px;
+  border-radius: var(--r-md);
+  font-size: 16px;
+  font-weight: 600;
+  transition: transform 150ms ease-out, opacity 150ms ease-out, background 150ms ease-out;
+}
+
+.btn:active{
+  transform: scale(0.97);
+}
+
+.btn[disabled]{
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.btn--primary{
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.btn--secondary{
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.btn--ghost{
+  background: transparent;
+  color: var(--accent);
+}
+
+.btn--danger{
+  background: var(--err-soft);
+  color: var(--err);
+}
+
+.btn--block{
+  width: 100%;
+}
+
+/* ---------- Tarjetas ---------- */
+.card{
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: var(--sp-4);
+}
+
+.card--interactive{
+  transition: transform 150ms ease-out, background 150ms ease-out;
+}
+
+.card--interactive:active{
+  transform: scale(0.98);
+  background: var(--surface-2);
+}
+
+.card__title{
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: var(--sp-1);
+}
+
+.card__subtitle{
+  color: var(--text-dim);
+  font-size: 15px;
+}
+
+/* ---------- Chips ---------- */
+.chip{
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+  padding: 6px 12px;
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.chip--accent{
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+  color: var(--accent-2);
+}
+
+.chip--ok{ background: var(--ok-soft); color: var(--ok); border-color: transparent; }
+.chip--err{ background: var(--err-soft); color: var(--err); border-color: transparent; }
+.chip--warn{ background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+
+/* ---------- Barra de progreso ---------- */
+.progress{
+  height: 8px;
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+  overflow: hidden;
+}
+
+.progress__fill{
+  height: 100%;
+  background: var(--accent);
+  border-radius: var(--r-full);
+  transition: width 220ms ease-out;
+}
+
+/* ---------- Lista de filas ---------- */
+.row-list{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  min-height: 44px;
+  padding: var(--sp-3);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.row__main{
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.row__title{
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.row__meta{
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+/* ---------- Toast ---------- */
+#toast-root{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--sab) + 76px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-2);
+  pointer-events: none;
+  z-index: 60;
+}
+
+.toast{
+  max-width: calc(100vw - 32px);
+  padding: 12px 18px;
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+  animation: toast-in 180ms ease-out;
+}
+
+.toast--ok{ border-color: var(--ok); color: var(--ok); }
+.toast--err{ border-color: var(--err); color: var(--err); }
+.toast--warn{ border-color: var(--warn); color: var(--warn); }
+
+@keyframes toast-in{
+  from{ opacity: 0; transform: translateY(8px); }
+  to{ opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Modal ---------- */
+#modal-root:empty{
+  display: none;
+}
+
+.modal-overlay{
+  position: fixed;
+  inset: 0;
+  background: rgba(5,9,16,.6);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 80;
+  animation: overlay-in 180ms ease-out;
+}
+
+@keyframes overlay-in{
+  from{ opacity: 0; }
+  to{ opacity: 1; }
+}
+
+.modal{
+  width: 100%;
+  max-width: 480px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg) var(--r-lg) 0 0;
+  padding: var(--sp-5);
+  padding-bottom: calc(var(--sab) + var(--sp-5));
+  animation: modal-in 200ms ease-out;
+}
+
+@keyframes modal-in{
+  from{ opacity: 0; transform: translateY(16px); }
+  to{ opacity: 1; transform: translateY(0); }
+}
+
+.modal__title{
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: var(--sp-3);
+}
+
+.modal__body{
+  color: var(--text-dim);
+  margin-bottom: var(--sp-5);
+}
+
+.modal__actions{
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+/* ---------- Estados vacíos ---------- */
+.empty-state{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: var(--sp-2);
+  padding: var(--sp-6) var(--sp-4);
+  color: var(--text-dim);
+}
+
+.empty-state__icon{
+  font-size: 40px;
+  margin-bottom: var(--sp-2);
+}
+
+.empty-state__title{
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* ---------- Spinner ---------- */
+.spinner{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 3px solid var(--surface-2);
+  border-top-color: var(--accent);
+  animation: spin 700ms linear infinite;
+}
+
+@keyframes spin{
+  to{ transform: rotate(360deg); }
+}
+
+/* ---------- Barra de caracteres especiales ---------- */
+/* Se muestra encima del teclado al enfocar un input de idioma extranjero.
+   position: sticky respecto al contenedor de scroll para que quede pegada
+   justo encima del teclado en iOS sin usar posicionamiento fijo problemático
+   con el viewport visual. */
+.accent-bar[hidden]{
+  /* Las reglas de autor ganan siempre a la hoja del user-agent, así que sin
+     esto el display:flex de abajo dejaría visible la barra pese al
+     atributo `hidden`. */
+  display: none;
+}
+
+.accent-bar{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: var(--sp-2);
+  padding: var(--sp-2);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  margin-top: var(--sp-2);
+}
+
+.accent-bar__key{
+  flex: 0 0 auto;
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--accent-2);
+}
+
+.accent-bar__key:active{
+  background: var(--accent-soft);
+}

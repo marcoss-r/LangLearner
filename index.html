@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="LangLearner">
+<meta name="theme-color" content="#0B1220">
+<meta name="color-scheme" content="dark">
+<link rel="apple-touch-icon" href="./assets/icon-180.png">
+<link rel="manifest" href="./manifest.webmanifest">
+<title>LangLearner</title>
+<link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/components.css">
+<link rel="stylesheet" href="./css/exercises.css">
+<link rel="stylesheet" href="./css/screens.css">
+<link rel="stylesheet" href="./css/lesson.css">
+</head>
+<body>
+<div id="root">
+  <header class="app-header">
+    <span class="app-header__title">LangLearner</span>
+  </header>
+
+  <main id="app" class="screen" aria-live="polite"></main>
+
+  <nav class="app-tabbar" aria-label="Navegación principal">
+    <a class="tabbar__item" data-route="#/" href="#/">
+      <span class="tabbar__icon" aria-hidden="true">📘</span>
+      <span class="tabbar__label">Aprender</span>
+    </a>
+    <a class="tabbar__item" data-route="#/review" href="#/review">
+      <span class="tabbar__icon" aria-hidden="true">🔁</span>
+      <span class="tabbar__label">Repasar</span>
+    </a>
+    <a class="tabbar__item" data-route="#/stats" href="#/stats">
+      <span class="tabbar__icon" aria-hidden="true">📊</span>
+      <span class="tabbar__label">Progreso</span>
+    </a>
+    <a class="tabbar__item" data-route="#/settings" href="#/settings">
+      <span class="tabbar__icon" aria-hidden="true">⚙️</span>
+      <span class="tabbar__label">Ajustes</span>
+    </a>
+  </nav>
+</div>
+
+<div id="toast-root"></div>
+<div id="modal-root"></div>
+
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>

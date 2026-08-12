@@ -1,0 +1,292 @@
+/* =========================================================
+   LangLearner — base.css
+   Reset, tokens de diseño, tipografía, safe-areas y layout raíz.
+   Tema oscuro fijo: no hay media query de prefers-color-scheme.
+   ========================================================= */
+
+:root{
+  /* Fondo y superficies */
+  --bg:          #0B1220;
+  --surface:     #131C2E;
+  --surface-2:   #1A2438;
+  --border:      #26314A;
+
+  /* Texto */
+  --text:        #E8EDF7;
+  --text-dim:    #97A3BE;
+  --text-faint:  #667390;
+
+  /* Acento */
+  --accent:      #6FB3FF;
+  --accent-2:    #A8D3FF;
+  --accent-soft: rgba(111,179,255,.14);
+  --accent-line: rgba(111,179,255,.35);
+
+  /* Semánticos */
+  --ok:   #4ADE80;  --ok-soft:   rgba(74,222,128,.14);
+  --err:  #FF6B6B;  --err-soft:  rgba(255,107,107,.14);
+  --warn: #FBBF24;  --warn-soft: rgba(251,191,36,.14);
+
+  /* Forma */
+  --r-sm: 10px; --r-md: 16px; --r-lg: 22px; --r-full: 999px;
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:24px; --sp-6:32px;
+
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+
+  /* Safe areas de iOS. Con viewport-fit=cover el contenido pasa bajo la Dynamic
+     Island y el indicador de inicio: hay que compensar siempre con env(), nunca
+     con píxeles fijos. */
+  --sat: env(safe-area-inset-top,    0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left,   0px);
+  --sar: env(safe-area-inset-right,  0px);
+
+  color-scheme: dark;
+}
+
+/* ---------- Reset ---------- */
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Altura raíz: 100dvh con fallback a -webkit-fill-available. Nunca 100vh a secas
+   (100vh en Safari iOS incluye la zona tapada por la barra de direcciones). */
+html{
+  height: -webkit-fill-available;
+  height: 100dvh;
+  background: var(--bg);
+}
+
+body{
+  height: -webkit-fill-available;
+  height: 100dvh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  /* Sin retardo de 300ms ni zoom por doble toque en toda la interfaz. */
+  touch-action: manipulation;
+  /* Look nativo: nada de menú contextual de "mantener pulsado" ni selección
+     accidental de texto en botones, tabs, etc. Se reactiva explícitamente en
+     los bloques de contenido legible (ver .selectable más abajo). */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  overscroll-behavior-y: none;
+}
+
+h1, h2, h3, h4, p, ul, ol, figure, blockquote{
+  margin: 0;
+}
+
+ul, ol{
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+button{
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+img, svg{
+  display: block;
+  max-width: 100%;
+}
+
+/* Bloques donde el usuario debe poder seleccionar y copiar texto: explicaciones,
+   ejemplos, fonética. */
+.selectable, .selectable *{
+  -webkit-touch-callout: default;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* ---------- Tipografía ---------- */
+h1{ font-size: 28px; font-weight: 700; line-height: 1.25; }
+h2{ font-size: 22px; font-weight: 600; line-height: 1.3; }
+h3{ font-size: 19px; font-weight: 600; line-height: 1.35; }
+
+/* Texto en idioma extranjero: siempre marcado con lang="fr"/"de" en el HTML,
+   ligeramente destacado en tamaño y color para distinguirlo del castellano. */
+[lang="fr"], [lang="de"]{
+  color: var(--accent-2);
+  font-size: 1.03em;
+}
+
+.text-dim{ color: var(--text-dim); }
+.text-faint{ color: var(--text-faint); }
+
+.fonetica-es{
+  font-style: italic;
+  color: var(--text-dim);
+}
+
+.fonetica-ipa{
+  font-family: "SF Mono", ui-monospace, Menlo, monospace;
+  font-size: 0.85em;
+  color: var(--text-faint);
+}
+
+/* ---------- Layout raíz ---------- */
+#root{
+  height: -webkit-fill-available;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  /* Los laterales del propio shell respetan la safe area en dispositivos con
+     notch lateral (apaisado) o bordes redondeados. */
+  padding-left: var(--sal);
+  padding-right: var(--sar);
+  overflow: hidden;
+}
+
+.app-header{
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  padding-top: calc(var(--sat) + 8px);
+  padding-bottom: 8px;
+  padding-left: var(--sp-4);
+  padding-right: var(--sp-4);
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.app-header__title{
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* #app es el único contenedor con scroll de la aplicación. */
+#app{
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* Sin pull-to-refresh ni efecto rebote de página al llegar a los bordes. */
+  overscroll-behavior-y: contain;
+}
+
+.screen{
+  padding-left: calc(var(--sal) + 16px);
+  padding-right: calc(var(--sar) + 16px);
+  padding-top: var(--sp-4);
+  padding-bottom: var(--sp-6);
+  max-width: 100%;
+}
+
+.app-tabbar{
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  padding-bottom: calc(var(--sab) + 6px);
+  padding-top: 6px;
+  padding-left: var(--sal);
+  padding-right: var(--sar);
+}
+
+.app-tabbar.is-hidden{
+  display: none;
+}
+
+.tabbar__item{
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-height: 44px;
+  padding: 4px;
+  color: var(--text-faint);
+  border-radius: var(--r-sm);
+}
+
+.tabbar__item.is-active{
+  color: var(--accent);
+}
+
+.tabbar__icon{
+  font-size: 20px;
+  line-height: 1;
+}
+
+.tabbar__label{
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* ---------- Inputs ---------- */
+/* font-size 16px mínimo: por debajo de eso iOS hace zoom automático al enfocar. */
+input, textarea, select{
+  font-family: var(--font);
+  font-size: 16px;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  padding: var(--sp-3);
+  -webkit-user-select: text;
+  user-select: text;
+  width: 100%;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* Los inputs de respuesta en francés/alemán deben llevar además, en el HTML:
+   autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false"
+   y lang="fr"/"de". Sin esto el autocorrector de iOS destruye lo que escribe
+   el usuario. Esta clase documenta/objetiviza esas reglas también por CSS. */
+.input-target{
+  font-size: 16px;
+}
+
+/* Área táctil mínima 44x44 en lo pulsable. Ojo: NO se aplica a `a[href]` en
+   general, porque los enlaces en línea dentro de una explicación reventarían el
+   interlineado del párrafo. Los enlaces que actúen como control llevan .tap-target. */
+button, .tap-target{
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Reduce movimiento si el usuario lo pide en Ajustes de accesibilidad. */
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after{
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Nunca debe haber scroll horizontal, ni siquiera a 376px de ancho lógico
+   (iPhone 15). Cinturón de seguridad además del layout con flex/grid. */
+html, body, #root{
+  overflow-x: hidden;
+  max-width: 100vw;
+}
