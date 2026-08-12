@@ -1,0 +1,363 @@
+{
+  "id": "fr-a1-014",
+  "lang": "fr",
+  "level": "A1",
+  "order": 14,
+  "title": "El plural de los sustantivos",
+  "objectives": [
+    "Formar el plural regular añadiendo una -s muda a la mayoría de sustantivos",
+    "Aplicar los plurales irregulares más frecuentes: -eau/-eu → -eaux/-eux, -al → -aux, y las palabras invariables en -s, -x, -z",
+    "Reconocer que en el habla el plural casi siempre se oye solo en el artículo (les), no en el sustantivo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un plural que se escribe pero casi no se oye",
+      "body": "La mayoría de sustantivos forman el plural añadiendo una **-s**, igual que en español. La diferencia enorme es que esa -s **no se pronuncia**: le chat y les chats suenan casi igual, salvo por el artículo. Además hay tres patrones irregulares muy frecuentes que conviene memorizar cuanto antes.",
+      "examples": [
+        { "target": "le chat → les chats", "es": "el gato → los gatos", "note": "plural regular, -s muda" },
+        { "target": "le bureau → les bureaux", "es": "la oficina → las oficinas", "note": "-eau → -eaux" },
+        { "target": "le cheval → les chevaux", "es": "el caballo → los caballos", "note": "-al → -aux" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cuatro patrones de plural",
+      "headers": ["Terminación singular", "Plural", "Ejemplo"],
+      "rows": [
+        ["la mayoría de palabras", "+ s (muda)", "le chat → les chats"],
+        ["-eau, -eu", "+ x", "le bureau → les bureaux, le cheveu → les cheveux"],
+        ["-al", "→ -aux", "le journal → les journaux, le cheval → les chevaux"],
+        ["ya acaba en -s, -x o -z", "no cambia", "le pays → les pays, la voix → les voix, le nez → les nez"]
+      ],
+      "note": "Les cheveux (el pelo) siempre se dice en plural en francés, aunque hables de todo el pelo como un conjunto, no de pelos sueltos."
+    },
+    {
+      "type": "phonetics",
+      "title": "El plural se oye en el artículo, no en el sustantivo",
+      "body": "Como la -s del plural casi nunca suena, la única pista auditiva suele ser el artículo: le frente a les.",
+      "drills": [
+        { "target": "le chat", "ipa": "/lə ʃa/", "esApprox": "«le SHÁ»", "hint": "singular" },
+        { "target": "les chats", "ipa": "/le ʃa/", "esApprox": "«le SHÁ»", "hint": "plural: suena casi igual, solo cambia le por les" },
+        { "target": "les chevaux", "ipa": "/le ʃə.vo/", "esApprox": "«le she-VÓ»", "hint": "aquí sí cambia la palabra entera, no solo el artículo" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "El oído español busca una -s que no está",
+      "items": [
+        { "wrong": "Esperar oír la diferencia entre chat y chats, como entre casa y casas en español", "right": "le chat / les chats suenan prácticamente igual: la clave está en le/les", "why": "En español el plural se oye siempre en el sustantivo. En francés, para la mayoría de palabras, hay que escuchar el artículo, no el final de la palabra." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Cuando dudes cómo se pronuncia un plural, pregúntate primero si la palabra acaba en -al o en -eau/-eu en singular: esos son los únicos casos donde el plural realmente **suena** distinto. En todos los demás casos, entrena el oído para el artículo."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "le chat",
+      "es": "el gato",
+      "ipa": "/lə ʃa/",
+      "esApprox": "«le SHÁ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les chats",
+      "example": { "target": "Les chats dorment beaucoup.", "es": "Los gatos duermen mucho." }
+    },
+    {
+      "id": "v2",
+      "target": "le bureau",
+      "es": "la oficina",
+      "ipa": "/lə by.ʁo/",
+      "esApprox": "«le bü-RÓ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les bureaux",
+      "example": { "target": "Les bureaux sont fermés.", "es": "Las oficinas están cerradas." }
+    },
+    {
+      "id": "v3",
+      "target": "le cheveu",
+      "es": "el cabello, el pelo",
+      "ipa": "/lə ʃə.vø/",
+      "esApprox": "«le she-VEU»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les cheveux",
+      "example": { "target": "Elle a les cheveux longs.", "es": "Tiene el pelo largo." }
+    },
+    {
+      "id": "v4",
+      "target": "le journal",
+      "es": "el periódico",
+      "ipa": "/lə ʒuʁ.nal/",
+      "esApprox": "«le yur-NAL»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les journaux",
+      "example": { "target": "Je lis le journal le matin.", "es": "Leo el periódico por la mañana." }
+    },
+    {
+      "id": "v5",
+      "target": "le cheval",
+      "es": "el caballo",
+      "ipa": "/lə ʃə.val/",
+      "esApprox": "«le she-VAL»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les chevaux",
+      "example": { "target": "Les chevaux sont grands.", "es": "Los caballos son grandes." }
+    },
+    {
+      "id": "v6",
+      "target": "le pays",
+      "es": "el país",
+      "ipa": "/lə pe.i/",
+      "esApprox": "«le pe-Í»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les pays",
+      "example": { "target": "La France est un beau pays.", "es": "Francia es un país bonito." }
+    },
+    {
+      "id": "v7",
+      "target": "la voix",
+      "es": "la voz",
+      "ipa": "/la vwa/",
+      "esApprox": "«la VUÁ»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les voix",
+      "example": { "target": "Elle a une belle voix.", "es": "Tiene una voz bonita." }
+    },
+    {
+      "id": "v8",
+      "target": "le nez",
+      "es": "la nariz",
+      "ipa": "/lə ne/",
+      "esApprox": "«le NÉ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les nez",
+      "example": { "target": "J'ai le nez froid.", "es": "Tengo la nariz fría." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["plural"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es el plural de «le chat»?",
+      "options": ["les chates", "les chats", "les chatx", "les chateaux"],
+      "answer": 1,
+      "explain": "Plural regular: se añade -s (muda). Les chats."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el plural de «le cheval»?",
+      "options": ["les chevals", "les chevaux", "les chevales", "les cheval"],
+      "answer": 1,
+      "explain": "-al se convierte en -aux: le cheval → les chevaux."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "statement": "«Le pays» no cambia en plural: les pays.",
+      "answer": true,
+      "explain": "Las palabras que ya acaban en -s, -x o -z no cambian en plural."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["plural"],
+      "difficulty": 1,
+      "statement": "En francés, la -s del plural casi siempre se pronuncia claramente.",
+      "answer": false,
+      "explain": "Casi nunca se pronuncia: la pista auditiva suele ser el artículo, le frente a les."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos plurales es regular (solo añade una -s), a diferencia de los demás?",
+      "options": ["les chevaux", "les chats", "les bureaux", "les pays"],
+      "answer": 1,
+      "explain": "Les chats sigue el plural regular (+s). Les chevaux (-al→aux) y les bureaux (-eau→eaux) son irregulares; les pays es invariable."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Une cada singular con su plural",
+      "left": ["le cheveu", "le journal", "le pays", "le bureau"],
+      "right": ["les bureaux", "les pays", "les cheveux", "les journaux"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Cheveu → cheveux (-eu → -eux), journal → journaux (-al → -aux), pays → pays (invariable), bureau → bureaux (-eau → -eaux)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Los gatos duermen mucho.",
+      "accept": ["Les chats dorment beaucoup"],
+      "hintWords": ["les chats"],
+      "strictAccents": false,
+      "audio": "Les chats dorment beaucoup.",
+      "explain": "Les chats: plural regular, la -s no se oye."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Los caballos son grandes.",
+      "accept": ["Les chevaux sont grands"],
+      "hintWords": ["les chevaux"],
+      "strictAccents": false,
+      "audio": "Les chevaux sont grands.",
+      "explain": "Les chevaux: -al se convierte en -aux."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Completa con el plural correcto",
+      "text": "Je lis les ___ le matin.",
+      "blanks": [{ "accept": ["journaux"] }],
+      "bank": ["journaux", "journals", "journal"],
+      "explain": "Le journal → les journaux."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tiene el pelo largo»",
+      "tokens": ["cheveux", "les", "Elle a", "longs"],
+      "answer": ["Elle a", "les", "cheveux", "longs"],
+      "audio": "Elle a les cheveux longs.",
+      "explain": "Les cheveux: en francés el pelo siempre se dice en plural."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["plural"],
+      "difficulty": 1,
+      "prompt": "Les bureaux sont fermés.",
+      "accept": ["Las oficinas están cerradas."],
+      "strictAccents": false,
+      "audio": "Les bureaux sont fermés.",
+      "explain": "Le bureau → les bureaux."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre los caballos de una granja",
+      "turns": [
+        { "who": "Léa", "text": "Il y a des chevaux ici ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, les chevaux sont grands.", "Oui, il y a des chevaux."], "hint": "confirma que hay caballos, y que son grandes" },
+        { "who": "Léa", "text": "Super, j'adore les chevaux !", "speak": true }
+      ],
+      "explain": "Les chevaux: recuerda el plural irregular en -aux."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "speak": "Les chevaux et les chats sont dans le village.",
+      "mode": "write",
+      "accept": ["Les chevaux et les chats sont dans le village"],
+      "showTextAfter": true,
+      "explain": "Les chevaux (plural irregular) y les chats (plural regular, -s muda)."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "speak": "les chats",
+      "mode": "choose",
+      "options": ["les chats", "le chat", "les chevaux", "le journal"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Le chat y les chats suenan casi igual: la diferencia está en el artículo."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["plural"],
+      "difficulty": 3,
+      "speak": "Les journaux, les chevaux et les bureaux sont dans le village.",
+      "es": "Los periódicos, los caballos y las oficinas están en el pueblo.",
+      "ipa": "/le ʒuʁ.no le ʃə.vo e le by.ʁo sɔ̃ dɑ̃ lə vi.laʒ/",
+      "esApprox": "«le yur-NÓ le she-VÓ e le bü-RÓ son dan le vi-LAY»",
+      "focus": "Tres plurales en -aux/-eaux seguidos: entrena el oído para esa terminación.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "speak_prompt",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Di en voz alta que los caballos y los gatos están en el pueblo.",
+      "modelAnswer": "Les chevaux et les chats sont dans le village.",
+      "alsoValid": ["Les chats et les chevaux sont dans le village."],
+      "speak": "Les chevaux et les chats sont dans le village.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "¿Qué patrón de plural sigue esta palabra?",
+      "buckets": ["+ s regular", "-eau/-eu → x", "-al → aux", "invariable"],
+      "items": [
+        { "text": "chat", "bucket": 0 },
+        { "text": "bureau", "bucket": 1 },
+        { "text": "cheval", "bucket": 2 },
+        { "text": "pays", "bucket": 3 },
+        { "text": "cheveu", "bucket": 1 },
+        { "text": "journal", "bucket": 2 }
+      ],
+      "explain": "Cuatro patrones: regular en -s, -eau/-eu en -x, -al en -aux, e invariables (ya acaban en -s/-x/-z)."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Hay un error de plural. Corrige la frase entera.",
+      "wrong": "Les chevals sont grands.",
+      "accept": ["Les chevaux sont grands"],
+      "audio": "Les chevaux sont grands.",
+      "explain": "El plural de cheval es chevaux, no chevals: -al se convierte en -aux."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "le chat / les chats", "es": "el gato / los gatos", "esApprox": "«le SHÁ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le cheveu / les cheveux", "es": "el cabello / el pelo", "esApprox": "«le she-VEU»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "le journal / les journaux", "es": "el periódico / los periódicos", "esApprox": "«le yur-NAL»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "le cheval / les chevaux", "es": "el caballo / los caballos", "esApprox": "«le she-VAL»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "le pays / les pays", "es": "el país / los países", "esApprox": "«le pe-Í»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "la voix / les voix", "es": "la voz / las voces", "esApprox": "«la VUÁ»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "le nez / les nez", "es": "la nariz / las narices", "esApprox": "«le NÉ»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Elle a les cheveux longs.", "es": "Tiene el pelo largo.", "from": "e10" },
+    { "id": "s9", "kind": "phrase", "target": "Les journaux, les chevaux et les bureaux sont dans le village.", "es": "Los periódicos, los caballos y las oficinas están en el pueblo.", "from": "e15" }
+  ]
+}

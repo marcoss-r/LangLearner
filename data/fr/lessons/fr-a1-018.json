@@ -1,0 +1,351 @@
+{
+  "id": "fr-a1-018",
+  "lang": "fr",
+  "level": "A1",
+  "order": 18,
+  "title": "Los números del 70 al 100: soixante-dix y quatre-vingts",
+  "objectives": [
+    "Formar los números del 70 al 79 como soixante-dix + unidad, es decir, «sesenta y diez, sesenta y once...»",
+    "Formar los números del 80 al 99 como quatre-vingts + unidad, es decir, «cuatro veces veinte»",
+    "Decir cent (100) y saber que quatre-vingts pierde la -s cuando va seguido de otro número"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Aquí el francés deja de tener lógica decimal",
+      "body": "Hasta el 69, todo era decena + unidad, sin sorpresas. A partir de 70, el francés estándar (el de Francia) hace algo que no tiene equivalente en español: en vez de decir «setenta», dice literalmente **soixante-dix** (sesenta-diez). Y en vez de «ochenta», dice **quatre-vingts** (cuatro-veintes, es decir, cuatro veces veinte). No es un error ni una rareza tuya: así funciona el sistema, y hay que memorizarlo como un bloque nuevo.",
+      "examples": [
+        { "target": "soixante-dix", "es": "setenta", "note": "literalmente «sesenta-diez»" },
+        { "target": "quatre-vingts", "es": "ochenta", "note": "literalmente «cuatro veces veinte»" },
+        { "target": "quatre-vingt-dix", "es": "noventa", "note": "«cuatro veces veinte, diez»" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "70, 80, 90 y 100",
+      "headers": ["Número", "Francés", "Cómo se forma"],
+      "rows": [
+        ["70", "soixante-dix", "60 + 10"],
+        ["71", "soixante et onze", "60 + (et) 11"],
+        ["75", "soixante-quinze", "60 + 15"],
+        ["80", "quatre-vingts", "4 × 20"],
+        ["81", "quatre-vingt-un", "4×20 + 1, sin et (excepción)"],
+        ["90", "quatre-vingt-dix", "4×20 + 10"],
+        ["91", "quatre-vingt-onze", "4×20 + 11, sin et"],
+        ["99", "quatre-vingt-dix-neuf", "4×20 + 10 + 9"],
+        ["100", "cent", "—"]
+      ],
+      "note": "Quatre-vingts lleva -s cuando es exactamente 80; en 81, 82... pierde la -s: quatre-vingt-un, quatre-vingt-deux."
+    },
+    {
+      "type": "contrast",
+      "title": "Del 71 al 99, ni rastro de «et» salvo en el 71",
+      "items": [
+        { "wrong": "quatre-vingt et un", "right": "quatre-vingt-un", "why": "A diferencia de vingt et un o trente et un, a partir de 80 el francés estándar deja de usar et, incluso en las unidades acabadas en 1: quatre-vingt-un, quatre-vingt-onze. La única excepción de esta zona es soixante et onze (71), que sí lleva et." }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "En Bélgica y Suiza sí dicen «setenta» de forma normal",
+      "body": "El francés de Bélgica y de Suiza usa septante (70), octante o huitante (80, según la zona) y nonante (90), mucho más parecidos al español. Es el francés de Francia el que conserva este sistema antiguo, heredado de una forma de contar de base 20. Si aprendes con acento de Francia, memoriza soixante-dix / quatre-vingts / quatre-vingt-dix; no te van a examinar de septante."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "soixante-dix",
+      "es": "setenta",
+      "ipa": "/swa.sɑ̃t dis/",
+      "esApprox": "«suá-SANT DIS»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v2",
+      "target": "soixante et onze",
+      "es": "setenta y uno",
+      "ipa": "/swa.sɑ̃t‿e ɔ̃z/",
+      "esApprox": "«suá-san-te ONZ»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v3",
+      "target": "soixante-quinze",
+      "es": "setenta y cinco",
+      "ipa": "/swa.sɑ̃t kɛ̃z/",
+      "esApprox": "«suá-SANT KENZ»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v4",
+      "target": "quatre-vingts",
+      "es": "ochenta",
+      "ipa": "/katʁ.vɛ̃/",
+      "esApprox": "«katr-VEN»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v5",
+      "target": "quatre-vingt-un",
+      "es": "ochenta y uno",
+      "ipa": "/katʁ.vɛ̃ œ̃/",
+      "esApprox": "«katr-ven UN»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v6",
+      "target": "quatre-vingt-dix",
+      "es": "noventa",
+      "ipa": "/katʁ.vɛ̃ dis/",
+      "esApprox": "«katr-ven DIS»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v7",
+      "target": "quatre-vingt-onze",
+      "es": "noventa y uno",
+      "ipa": "/katʁ.vɛ̃ ɔ̃z/",
+      "esApprox": "«katr-ven ONZ»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v8",
+      "target": "quatre-vingt-dix-neuf",
+      "es": "noventa y nueve",
+      "ipa": "/katʁ.vɛ̃ dis nœf/",
+      "esApprox": "«katr-ven dis-NEUF»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v9",
+      "target": "cent",
+      "es": "cien",
+      "ipa": "/sɑ̃/",
+      "esApprox": "«SAN»",
+      "pos": "número",
+      "gender": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «70» en el francés de Francia?",
+      "options": ["septante", "soixante-dix", "soixante-dix-sept", "dix-soixante"],
+      "answer": 1,
+      "explain": "70 = soixante-dix, literalmente «sesenta-diez»."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «80» en francés?",
+      "options": ["huit dix", "octante", "quatre-vingts", "quatre-vingt-dix"],
+      "answer": 2,
+      "explain": "80 = quatre-vingts, literalmente «cuatro veces veinte»."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "statement": "«Quatre-vingt-un» (81) se escribe sin et, a diferencia de vingt et un.",
+      "answer": true,
+      "explain": "A partir de 80, el francés estándar deja de usar et incluso en las unidades acabadas en 1."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "statement": "Quatre-vingts pierde la -s cuando va seguido de otro número, como en quatre-vingt-un.",
+      "answer": true,
+      "explain": "La -s de quatre-vingts solo aparece cuando el número es exactamente 80."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos números lleva «et», a diferencia de los demás?",
+      "options": ["quatre-vingt-un", "quatre-vingt-onze", "soixante et onze", "quatre-vingt-dix-neuf"],
+      "answer": 2,
+      "explain": "Soixante et onze (71) es la única excepción con et en esta zona de números."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Une cada número con su cifra",
+      "left": ["soixante-dix", "quatre-vingts", "quatre-vingt-dix", "cent"],
+      "right": ["100", "80", "70", "90"],
+      "answer": [2, 1, 3, 0],
+      "explain": "Soixante-dix = 70, quatre-vingts = 80, quatre-vingt-dix = 90, cent = 100."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Tengo noventa y nueve libros.",
+      "accept": ["J'ai quatre-vingt-dix-neuf livres"],
+      "hintWords": ["quatre-vingt-dix-neuf"],
+      "strictAccents": false,
+      "audio": "J'ai quatre-vingt-dix-neuf livres.",
+      "explain": "99 = quatre-vingt-dix-neuf: 4×20 + 10 + 9."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "El colegio tiene ochenta años.",
+      "accept": ["L'école a quatre-vingts ans"],
+      "hintWords": ["quatre-vingts"],
+      "strictAccents": false,
+      "audio": "L'école a quatre-vingts ans.",
+      "explain": "80 exacto conserva la -s: quatre-vingts ans."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Completa: 91 se dice quatre-vingt-___",
+      "text": "Quatre-vingt-___",
+      "blanks": [{ "accept": ["onze"] }],
+      "bank": ["onze", "et onze", "un"],
+      "explain": "91 = quatre-vingt-onze, sin et."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tengo setenta y cinco años»",
+      "tokens": ["ans", "soixante-quinze", "J'ai"],
+      "answer": ["J'ai", "soixante-quinze", "ans"],
+      "audio": "J'ai soixante-quinze ans.",
+      "explain": "75 = soixante-quinze: 60 + 15."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Nous avons cent livres.",
+      "accept": ["Tenemos cien libros."],
+      "strictAccents": false,
+      "audio": "Nous avons cent livres.",
+      "explain": "Cent = 100, sin artículo ni «un» delante."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre un colegio muy antiguo",
+      "turns": [
+        { "who": "Léa", "text": "L'école, elle a quel âge ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Elle a quatre-vingt-dix ans.", "Elle a quatre-vingts ans."], "hint": "di una edad entre 80 y 99" },
+        { "who": "Léa", "text": "Waouh, elle a bon âge !", "speak": true }
+      ],
+      "explain": "Quatre-vingt-dix (90) y quatre-vingts (80) son las formas más comunes para edades avanzadas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "L'école a quatre-vingts ans.",
+      "mode": "write",
+      "accept": ["L'école a quatre-vingts ans"],
+      "showTextAfter": true,
+      "explain": "Quatre-vingts = 80."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "soixante-dix",
+      "mode": "choose",
+      "options": ["soixante-dix", "quatre-vingts", "quatre-vingt-dix", "soixante"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Soixante-dix = 70."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["numeros"],
+      "difficulty": 3,
+      "speak": "Soixante-dix, quatre-vingts, quatre-vingt-dix, cent.",
+      "es": "Setenta, ochenta, noventa, cien.",
+      "ipa": "/swa.sɑ̃t dis katʁ.vɛ̃ katʁ.vɛ̃ dis sɑ̃/",
+      "esApprox": "«suá-SANT DIS katr-VEN katr-ven DIS SAN»",
+      "focus": "Estos cuatro números son los que más cuesta automatizar: repítelos hasta que salgan sin pensar.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "speak_prompt",
+      "tags": ["numeros"],
+      "difficulty": 3,
+      "prompt": "Di en voz alta: setenta, ochenta, noventa y cien.",
+      "modelAnswer": "Soixante-dix, quatre-vingts, quatre-vingt-dix, cent.",
+      "alsoValid": ["Soixante-dix, quatre-vingts, quatre-vingt-dix et cent."],
+      "speak": "Soixante-dix, quatre-vingts, quatre-vingt-dix, cent.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Este número se basa en soixante (60) o en quatre-vingt (4×20)?",
+      "buckets": ["Base soixante", "Base quatre-vingt"],
+      "items": [
+        { "text": "soixante-dix", "bucket": 0 },
+        { "text": "quatre-vingt-un", "bucket": 1 },
+        { "text": "soixante-quinze", "bucket": 0 },
+        { "text": "quatre-vingt-dix-neuf", "bucket": 1 },
+        { "text": "soixante et onze", "bucket": 0 }
+      ],
+      "explain": "Del 70 al 79 se basan en soixante; del 80 al 99, en quatre-vingt."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "J'ai quatre-vingt et un ans.",
+      "accept": ["J'ai quatre-vingt-un ans"],
+      "audio": "J'ai quatre-vingt-un ans.",
+      "explain": "A partir de 80, no se usa et ni siquiera en las unidades acabadas en 1: quatre-vingt-un, sin et."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "soixante-dix", "es": "setenta", "esApprox": "«suá-SANT DIS»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "soixante et onze", "es": "setenta y uno", "esApprox": "«suá-san-te ONZ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "quatre-vingts", "es": "ochenta", "esApprox": "«katr-VEN»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "quatre-vingt-un", "es": "ochenta y uno", "esApprox": "«katr-ven UN»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "quatre-vingt-dix", "es": "noventa", "esApprox": "«katr-ven DIS»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "quatre-vingt-dix-neuf", "es": "noventa y nueve", "esApprox": "«katr-ven dis-NEUF»", "from": "v8" },
+    { "id": "s7", "kind": "word", "target": "cent", "es": "cien", "esApprox": "«SAN»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "L'école a quatre-vingts ans.", "es": "El colegio tiene ochenta años.", "from": "e8" },
+    { "id": "s9", "kind": "phrase", "target": "Soixante-dix, quatre-vingts, quatre-vingt-dix, cent.", "es": "Setenta, ochenta, noventa, cien.", "from": "e15" }
+  ]
+}

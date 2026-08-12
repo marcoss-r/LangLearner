@@ -1,0 +1,381 @@
+{
+  "id": "fr-a1-013",
+  "lang": "fr",
+  "level": "A1",
+  "order": 13,
+  "title": "El género de los sustantivos: pistas para acertar",
+  "objectives": [
+    "Usar las terminaciones más fiables para adivinar si un sustantivo es masculino o femenino",
+    "Reconocer que el género no siempre es predecible: hay excepciones frecuentes que hay que memorizar",
+    "Aprender cada sustantivo nuevo junto a su artículo, como hábito para no dudar del género"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "No es aleatorio: hay pistas",
+      "body": "En la clase 1 ya viste que -tion, -sion y -té casi siempre son femeninas. El género francés no es tan caprichoso como parece: hay terminaciones que aciertan la mayoría de las veces. No son una regla infalible, pero te van a sacar de muchas dudas rápido, sobre todo cuando la palabra se parece a una española.",
+      "examples": [
+        { "target": "la nation", "es": "la nación", "note": "-tion → casi siempre femenino" },
+        { "target": "le village", "es": "el pueblo", "note": "-age → casi siempre masculino" },
+        { "target": "le problème", "es": "el problema", "note": "excepción: -e, pero masculino (igual que en español, «el problema»)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Terminaciones que suelen acertar el género",
+      "headers": ["Terminación", "Género habitual", "Ejemplo"],
+      "rows": [
+        ["-tion, -sion", "femenino", "la nation, la télévision"],
+        ["-té", "femenino", "la liberté"],
+        ["-ette, -elle", "femenino", "la chaussette"],
+        ["-age", "masculino", "le village"],
+        ["-ment", "masculino", "l'appartement"],
+        ["-eau", "masculino", "le bureau"],
+        ["consonante final + e muda", "femenino, casi siempre", "la maison, la chaise"]
+      ],
+      "note": "Son tendencias fuertes, no leyes absolutas. Frente a la duda, memoriza el artículo junto a la palabra."
+    },
+    {
+      "type": "contrast",
+      "title": "Las excepciones que rompen la regla",
+      "items": [
+        { "wrong": "Pensar que toda palabra en -e es femenina", "right": "le problème, le silence son masculinos", "why": "Muchas palabras acabadas en -e son femeninas (la maison, la chaise), pero hay excepciones importantes que no siguen esa pauta, sobre todo palabras de origen griego como problème." },
+        { "wrong": "Pensar que toda palabra sin -e final es masculina", "right": "la main (la mano) es femenina", "why": "La main no tiene ninguna de las terminaciones típicas de femenino y aun así lo es. Es de las excepciones más frecuentes: apréndetela de memoria." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El hábito que de verdad funciona: cuando aprendas una palabra nueva, no la aprendas sola («maison»), apréndela con su artículo («la maison»). Así el género se memoriza a la vez que la palabra, sin tener que pararte a pensar en reglas cada vez."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "la nation",
+      "es": "la nación",
+      "ipa": "/la na.sjɔ̃/",
+      "esApprox": "«la na-SIÓN»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les nations",
+      "example": { "target": "C'est une grande nation.", "es": "Es una gran nación." }
+    },
+    {
+      "id": "v2",
+      "target": "la liberté",
+      "es": "la libertad",
+      "ipa": "/la li.bɛʁ.te/",
+      "esApprox": "«la li-ber-TÉ»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les libertés",
+      "example": { "target": "La liberté est importante.", "es": "La libertad es importante." }
+    },
+    {
+      "id": "v3",
+      "target": "le village",
+      "es": "el pueblo",
+      "ipa": "/lə vi.laʒ/",
+      "esApprox": "«le vi-LAY»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les villages",
+      "example": { "target": "Le village est grand.", "es": "El pueblo es grande." }
+    },
+    {
+      "id": "v4",
+      "target": "l'appartement",
+      "es": "el apartamento, el piso",
+      "ipa": "/la.paʁ.tə.mɑ̃/",
+      "esApprox": "«la-par-te-MAN»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les appartements",
+      "example": { "target": "L'appartement est grand.", "es": "El piso es grande." }
+    },
+    {
+      "id": "v5",
+      "target": "le bureau",
+      "es": "la oficina; el escritorio",
+      "ipa": "/lə by.ʁo/",
+      "esApprox": "«le bü-RÓ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les bureaux",
+      "example": { "target": "Le bureau est fermé.", "es": "La oficina está cerrada." }
+    },
+    {
+      "id": "v6",
+      "target": "la chaussette",
+      "es": "el calcetín",
+      "ipa": "/la ʃo.sɛt/",
+      "esApprox": "«la sho-SET»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les chaussettes",
+      "example": { "target": "J'ai une chaussette rouge.", "es": "Tengo un calcetín rojo." }
+    },
+    {
+      "id": "v7",
+      "target": "le silence",
+      "es": "el silencio",
+      "ipa": "/lə si.lɑ̃s/",
+      "esApprox": "«le si-LANS»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les silences",
+      "example": { "target": "J'aime le silence.", "es": "Me gusta el silencio." }
+    },
+    {
+      "id": "v8",
+      "target": "la main",
+      "es": "la mano",
+      "ipa": "/la mɛ̃/",
+      "esApprox": "«la MEN»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les mains",
+      "example": { "target": "J'ai mal à la main.", "es": "Me duele la mano." }
+    },
+    {
+      "id": "v9",
+      "target": "le problème",
+      "es": "el problema",
+      "ipa": "/lə pʁɔ.blɛm/",
+      "esApprox": "«le pro-BLEM»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les problèmes",
+      "example": { "target": "Ce n'est pas un problème.", "es": "No es un problema." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["genero"],
+      "difficulty": 1,
+      "prompt": "¿Qué género suelen tener las palabras acabadas en -tion?",
+      "options": ["masculino", "femenino"],
+      "answer": 1,
+      "explain": "-tion es una de las terminaciones femeninas más fiables: la nation, la télévision."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["genero"],
+      "difficulty": 1,
+      "prompt": "¿Qué género suelen tener las palabras acabadas en -age?",
+      "options": ["masculino", "femenino"],
+      "answer": 0,
+      "explain": "-age suele ser masculino: le village, le fromage."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "statement": "Todas las palabras acabadas en -e son femeninas.",
+      "answer": false,
+      "explain": "Hay excepciones importantes, como le problème o le silence, que acaban en -e pero son masculinas."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "statement": "«La main» es una excepción: no tiene ninguna terminación típica de femenino.",
+      "answer": true,
+      "explain": "La main es femenino a pesar de no acabar ni en -e ni en ninguna terminación típica."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras es masculina, a diferencia de las demás?",
+      "options": ["la nation", "la liberté", "le village", "la chaussette"],
+      "answer": 2,
+      "explain": "Le village es masculino (-age); las otras tres son femeninas (-tion, -té, -ette)."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Une cada terminación con su género habitual",
+      "left": ["-tion", "-age", "-ment", "-ette"],
+      "right": ["masculino", "femenino", "masculino", "femenino"],
+      "answer": [1, 0, 2, 3],
+      "explain": "-tion y -ette suelen ser femeninas; -age y -ment suelen ser masculinas."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "El pueblo es grande.",
+      "accept": ["Le village est grand"],
+      "hintWords": ["le village"],
+      "strictAccents": false,
+      "audio": "Le village est grand.",
+      "explain": "Village es masculino: le village."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Me duele la mano.",
+      "accept": ["J'ai mal à la main"],
+      "hintWords": ["la main"],
+      "strictAccents": false,
+      "audio": "J'ai mal à la main.",
+      "explain": "Main es una excepción femenina que hay que memorizar."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo correcto",
+      "text": "___ problème, c'est ___ liberté de choisir.",
+      "blanks": [{ "accept": ["le"] }, { "accept": ["la"] }],
+      "bank": ["le", "la"],
+      "explain": "Le problème (masculino, excepción), la liberté (femenino, -té)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["genero"],
+      "difficulty": 1,
+      "prompt": "Le silence dans la nation est important.",
+      "accept": ["El silencio en la nación es importante."],
+      "strictAccents": false,
+      "audio": "Le silence dans la nation est important.",
+      "explain": "Le silence (masculino, excepción) frente a la nation (femenino, -tion)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el piso nuevo",
+      "turns": [
+        { "who": "Léa", "text": "Il est grand, l'appartement ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, l'appartement est grand."], "hint": "confirma que el piso es grande" },
+        { "who": "Léa", "text": "Et le village, il te plaît ?", "speak": true }
+      ],
+      "explain": "L'appartement (masculino, -ment) y le village (masculino, -age) comparten género pero distinta forma de artículo por empezar por vocal."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["genero"],
+      "difficulty": 1,
+      "speak": "Le problème, c'est le silence.",
+      "mode": "write",
+      "accept": ["Le problème, c'est le silence"],
+      "showTextAfter": true,
+      "explain": "Dos excepciones masculinas juntas: le problème y le silence."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "speak": "la chaussette",
+      "mode": "choose",
+      "options": ["la chaussette", "le village", "le bureau", "la main"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "La chaussette es la única de las cuatro con la terminación típica -ette."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["genero"],
+      "difficulty": 3,
+      "speak": "Le problème, c'est que j'ai mal à la main.",
+      "es": "El problema es que me duele la mano.",
+      "ipa": "/lə pʁɔ.blɛm sɛ kə ʒe mal a la mɛ̃/",
+      "esApprox": "«le pro-BLEM se ke ye mal a la MEN»",
+      "focus": "Le problème es masculino aunque acabe en -e: no te dejes engañar por la terminación.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Di en voz alta que el pueblo es grande y que el piso también es grande.",
+      "modelAnswer": "Le village est grand et l'appartement est grand.",
+      "alsoValid": ["Le village est grand, l'appartement est grand aussi."],
+      "speak": "Le village est grand et l'appartement est grand.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "gender_article",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto usando las terminaciones como pista",
+      "items": [
+        { "word": "nation", "options": ["le", "la"], "answer": 1, "hint": "-tion" },
+        { "word": "village", "options": ["le", "la"], "answer": 0, "hint": "-age" },
+        { "word": "liberté", "options": ["le", "la"], "answer": 1, "hint": "-té" },
+        { "word": "problème", "options": ["le", "la"], "answer": 0, "hint": "excepción: acaba en -e pero es masculino" }
+      ],
+      "explain": "Las terminaciones aciertan casi siempre, salvo excepciones como problème."
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "¿Sigue la terminación típica de su género o es una excepción?",
+      "buckets": ["Sigue la regla", "Excepción"],
+      "items": [
+        { "text": "la nation (-tion)", "bucket": 0 },
+        { "text": "le problème (-e, pero masculino)", "bucket": 1 },
+        { "text": "le village (-age)", "bucket": 0 },
+        { "text": "la main (sin terminación típica)", "bucket": 1 },
+        { "text": "la liberté (-té)", "bucket": 0 }
+      ],
+      "explain": "Problème y main son las excepciones más frecuentes de este grupo de palabras."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Hay un error de género. Corrige la frase entera.",
+      "wrong": "La problème est important.",
+      "accept": ["Le problème est important"],
+      "audio": "Le problème est important.",
+      "explain": "Problème es masculino a pesar de acabar en -e: le problème, no la problème."
+    },
+    {
+      "id": "e19",
+      "type": "word_order",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La libertad es importante»",
+      "tokens": ["importante", "liberté", "La", "est"],
+      "answer": ["La", "liberté", "est", "importante"],
+      "audio": "La liberté est importante.",
+      "explain": "La liberté (femenino, -té) + est + importante."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la nation", "es": "la nación", "esApprox": "«la na-SIÓN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "la liberté", "es": "la libertad", "esApprox": "«la li-ber-TÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "le village", "es": "el pueblo", "esApprox": "«le vi-LAY»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le bureau", "es": "la oficina", "esApprox": "«le bü-RÓ»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "la chaussette", "es": "el calcetín", "esApprox": "«la sho-SET»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "le silence", "es": "el silencio", "esApprox": "«le si-LANS»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "la main", "es": "la mano", "esApprox": "«la MEN»", "from": "v8" },
+    { "id": "s8", "kind": "word", "target": "le problème", "es": "el problema", "esApprox": "«le pro-BLEM»", "from": "v9" },
+    { "id": "s9", "kind": "phrase", "target": "Le problème, c'est que j'ai mal à la main.", "es": "El problema es que me duele la mano.", "from": "e14" }
+  ]
+}

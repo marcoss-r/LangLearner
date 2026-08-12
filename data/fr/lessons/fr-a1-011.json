@@ -1,0 +1,366 @@
+{
+  "id": "fr-a1-011",
+  "lang": "fr",
+  "level": "A1",
+  "order": 11,
+  "title": "Los artículos definidos: le, la, l', les",
+  "objectives": [
+    "Elegir entre le, la, l' y les según el género y el número del sustantivo",
+    "Usar l' delante de un sustantivo que empieza por vocal o por h muda",
+    "Reconocer que les no distingue género en plural: sirve para masculino y femenino"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuatro formas para decir «el/la/los/las»",
+      "body": "El francés tiene cuatro artículos definidos: **le** (masculino singular), **la** (femenino singular), **l'** (singular, delante de vocal o h muda, sin importar el género) y **les** (plural, masculino o femenino). El artículo definido se usa para algo concreto y conocido, igual que en español: «el libro» = un libro determinado, no uno cualquiera.",
+      "examples": [
+        { "target": "le livre", "es": "el libro", "note": "masculino" },
+        { "target": "la maison", "es": "la casa", "note": "femenino" },
+        { "target": "l'école", "es": "el colegio", "note": "empieza por vocal: l', no le ni la" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los cuatro artículos definidos",
+      "headers": ["", "Singular", "Plural"],
+      "rows": [
+        ["Masculino", "le livre", "les livres"],
+        ["Femenino", "la maison", "les maisons"],
+        ["Ante vocal o h muda", "l'école / l'homme", "les écoles / les hommes"]
+      ],
+      "note": "En plural no se distingue el género: siempre les, sea masculino o femenino."
+    },
+    {
+      "type": "phonetics",
+      "title": "Les se enlaza con la vocal siguiente",
+      "body": "Delante de una palabra que empieza por vocal, la -s de les deja de ser muda: se pronuncia como una z, pegada a la vocal.",
+      "drills": [
+        { "target": "les livres", "ipa": "/le livʁ/", "esApprox": "«le LIVR»", "hint": "la -s no suena: livres empieza por consonante" },
+        { "target": "les amis", "ipa": "/le.z‿ami/", "esApprox": "«le-za-MÍ»", "hint": "aquí la -s sí suena, como una z, porque amis empieza por vocal" },
+        { "target": "l'homme", "ipa": "/lɔm/", "esApprox": "«LOM»", "hint": "la h nunca suena, así que homme se comporta como si empezara por o" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "L' no es un capricho: es obligatorio",
+      "items": [
+        { "wrong": "Le école", "right": "L'école", "why": "Delante de vocal (o h muda), le y la se convierten siempre en l', sin excepción. Decir «le école» suena tan raro en francés como sonaría en español «el colegio» pronunciado sin enlazar." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "L' no te dice si la palabra es masculina o femenina: «l'école» es femenina y «l'homme» es masculino, pero los dos usan l'. Tendrás que memorizar el género de cada palabra por separado (más sobre esto en la próxima clase)."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "le livre",
+      "es": "el libro",
+      "ipa": "/lə livʁ/",
+      "esApprox": "«le LIVR»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les livres",
+      "example": { "target": "Le livre est intéressant.", "es": "El libro es interesante." }
+    },
+    {
+      "id": "v2",
+      "target": "la maison",
+      "es": "la casa",
+      "ipa": "/la mɛ.zɔ̃/",
+      "esApprox": "«la me-ZÓN»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les maisons",
+      "example": { "target": "La maison est grande.", "es": "La casa es grande." }
+    },
+    {
+      "id": "v3",
+      "target": "l'ami / l'amie",
+      "es": "el amigo, la amiga",
+      "ipa": "/la.mi/",
+      "esApprox": "«la-MÍ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les amis / les amies",
+      "example": { "target": "C'est l'ami de mon frère.", "es": "Es el amigo de mi hermano." }
+    },
+    {
+      "id": "v4",
+      "target": "le sac",
+      "es": "el bolso, la bolsa",
+      "ipa": "/lə sak/",
+      "esApprox": "«le SAK»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les sacs",
+      "example": { "target": "Le sac est sur la table.", "es": "El bolso está sobre la mesa." }
+    },
+    {
+      "id": "v5",
+      "target": "la voiture",
+      "es": "el coche",
+      "ipa": "/la vwa.tyʁ/",
+      "esApprox": "«la vuá-TÜR»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les voitures",
+      "example": { "target": "La voiture est grande.", "es": "El coche es grande." }
+    },
+    {
+      "id": "v6",
+      "target": "l'école",
+      "es": "el colegio, la escuela",
+      "ipa": "/le.kɔl/",
+      "esApprox": "«le-KOL»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les écoles",
+      "example": { "target": "L'école est grande.", "es": "El colegio es grande." }
+    },
+    {
+      "id": "v7",
+      "target": "l'homme",
+      "es": "el hombre",
+      "ipa": "/lɔm/",
+      "esApprox": "«LOM»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les hommes",
+      "example": { "target": "L'homme est content.", "es": "El hombre está contento." }
+    },
+    {
+      "id": "v8",
+      "target": "la femme",
+      "es": "la mujer",
+      "ipa": "/la fam/",
+      "esApprox": "«la FAM», no «la FEM»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les femmes",
+      "example": { "target": "La femme est fatiguée.", "es": "La mujer está cansada." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "prompt": "¿Qué artículo lleva «livre» (libro, masculino)?",
+      "options": ["le", "la", "les", "l'"],
+      "answer": 0,
+      "explain": "Livre es masculino singular: le livre."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "¿Qué artículo lleva «école» (empieza por vocal)?",
+      "options": ["le", "la", "l'", "les"],
+      "answer": 2,
+      "explain": "Delante de vocal, tanto le como la se convierten en l'."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "statement": "Les distingue masculino de femenino en plural.",
+      "answer": false,
+      "explain": "Les sirve igual para masculino y femenino: les livres, les maisons."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos artículos con sustantivo es femenino, a diferencia de los demás?",
+      "options": ["le livre", "le sac", "la voiture", "l'homme"],
+      "answer": 2,
+      "explain": "La voiture es femenino; livre, sac y homme son masculinos."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "prompt": "Une cada frase con su traducción",
+      "left": ["le livre", "la maison", "l'école", "l'homme"],
+      "right": ["el colegio", "la casa", "el libro", "el hombre"],
+      "answer": [2, 1, 0, 3],
+      "explain": "Le livre = el libro, la maison = la casa, l'école = el colegio, l'homme = el hombre."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "prompt": "el libro",
+      "accept": ["le livre"],
+      "hintWords": ["le livre"],
+      "strictAccents": false,
+      "audio": "le livre",
+      "explain": "Livre es masculino: le livre."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "el hombre y la mujer",
+      "accept": ["l'homme et la femme"],
+      "hintWords": ["l'homme", "la femme"],
+      "strictAccents": false,
+      "audio": "l'homme et la femme.",
+      "explain": "Homme empieza por h muda: l'homme. Femme es femenino: la femme."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo correcto",
+      "text": "___ maison est grande.",
+      "blanks": [{ "accept": ["La"] }],
+      "bank": ["La", "Le", "Les"],
+      "explain": "Maison es femenino singular: la maison."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El coche es grande»",
+      "tokens": ["grande", "voiture", "La", "est"],
+      "answer": ["La", "voiture", "est", "grande"],
+      "audio": "La voiture est grande.",
+      "explain": "La voiture est grande: artículo + sustantivo + être + adjetivo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "prompt": "Les amis sont contents.",
+      "accept": ["Los amigos están contentos."],
+      "strictAccents": false,
+      "audio": "Les amis sont contents.",
+      "explain": "Les amis = los amigos, con la liaison «le-za-MÍ»."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre la casa",
+      "turns": [
+        { "who": "Léa", "text": "La maison est grande ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, la maison est grande."], "hint": "confirma que la casa es grande" },
+        { "who": "Léa", "text": "Et l'école ?", "speak": true }
+      ],
+      "explain": "La maison (femenino) y l'école (empieza por vocal) llevan artículos distintos."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "speak": "Le livre et la maison.",
+      "mode": "write",
+      "accept": ["Le livre et la maison"],
+      "showTextAfter": true,
+      "explain": "Le livre (masculino) et la maison (femenino)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "speak": "les amis",
+      "mode": "choose",
+      "options": ["les amis", "le livre", "la maison", "l'école"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Les amis se reconoce por la liaison: «le-za-MÍ»."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "speak": "Le livre, la maison, l'école et les amis.",
+      "es": "El libro, la casa, el colegio y los amigos.",
+      "ipa": "/lə livʁ la mɛ.zɔ̃ le.kɔl e le.z‿ami/",
+      "esApprox": "«le LIVR la me-ZÓN le-KOL e le-za-MÍ»",
+      "focus": "Fíjate en la liaison de les amis: la -s de les se convierte en z antes de la vocal.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Enumera en voz alta: el libro, la casa y los amigos, con los artículos correctos.",
+      "modelAnswer": "Le livre, la maison et les amis.",
+      "alsoValid": ["Le livre, la maison, les amis."],
+      "speak": "Le livre, la maison et les amis.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "gender_article",
+      "tags": ["articulos", "genero"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo definido correcto",
+      "items": [
+        { "word": "livre", "options": ["le", "la"], "answer": 0 },
+        { "word": "maison", "options": ["le", "la"], "answer": 1 },
+        { "word": "école", "options": ["le", "la", "l'"], "answer": 2, "hint": "empieza por vocal" },
+        { "word": "homme", "options": ["le", "la", "l'"], "answer": 2, "hint": "la h es muda, cuenta como vocal" }
+      ],
+      "explain": "École y homme empiezan por sonido vocálico: siempre l', sea cual sea su género."
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["articulos", "genero"],
+      "difficulty": 2,
+      "prompt": "¿Es masculino (le) o femenino (la)?",
+      "buckets": ["Masculino (le)", "Femenino (la)"],
+      "items": [
+        { "text": "livre", "bucket": 0 },
+        { "text": "maison", "bucket": 1 },
+        { "text": "sac", "bucket": 0 },
+        { "text": "voiture", "bucket": 1 },
+        { "text": "femme", "bucket": 1 }
+      ],
+      "explain": "Le livre y le sac son masculinos; la maison, la voiture y la femme son femeninos."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Le école est grande.",
+      "accept": ["L'école est grande"],
+      "audio": "L'école est grande.",
+      "explain": "Delante de vocal, le se convierte siempre en l': l'école, no le école."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "le livre", "es": "el libro", "esApprox": "«le LIVR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "la maison", "es": "la casa", "esApprox": "«la me-ZÓN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "l'ami / l'amie", "es": "el amigo, la amiga", "esApprox": "«la-MÍ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le sac", "es": "el bolso", "esApprox": "«le SAK»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "la voiture", "es": "el coche", "esApprox": "«la vuá-TÜR»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "l'école", "es": "el colegio", "esApprox": "«le-KOL»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "l'homme", "es": "el hombre", "esApprox": "«LOM»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "la femme", "es": "la mujer", "esApprox": "«la FAM»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Le livre, la maison, l'école et les amis.", "es": "El libro, la casa, el colegio y los amigos.", "from": "e14" }
+  ]
+}
