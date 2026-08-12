@@ -1,0 +1,392 @@
+{
+  "id": "fr-a1-002",
+  "lang": "fr",
+  "level": "A1",
+  "order": 2,
+  "title": "El alfabeto y deletrear tu nombre",
+  "objectives": [
+    "Pronunciar las 26 letras del alfabeto francés, sobre todo las que más difieren del español (h, j, w, y)",
+    "Deletrear tu nombre y tu apellido en francés y entender cuando alguien te deletrea el suyo",
+    "Nombrar los tres acentos y la cedilla (é, è, ê, ç) para poder deletrearlos cuando aparecen"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Las mismas 26 letras, pero con otro nombre",
+      "body": "El alfabeto francés tiene las mismas 26 letras que el español (sin la ñ). Lo que cambia es cómo se **llama** cada letra en voz alta: una b no se dice «be», se dice «bé»; una h no suena como nada al hablar, pero al deletrear se llama «ash». Saber nombrar las letras es imprescindible para deletrear tu nombre por teléfono, dar tu email o entender una dirección que te dictan.",
+      "examples": [
+        { "target": "le café", "es": "el café", "note": "con accent aigu (é)" },
+        { "target": "le père", "es": "el padre", "note": "con accent grave (è)" },
+        { "target": "le château", "es": "el castillo", "note": "con accent circonflexe (â, ê, î, ô, û)" },
+        { "target": "le garçon", "es": "el chico", "note": "con cédille (ç), para que la c suene «s» antes de a, o, u" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las 26 letras y cómo se llaman",
+      "headers": ["Letra", "Aproximación en castellano"],
+      "rows": [
+        ["A", "«a»"],
+        ["B", "«bé»"],
+        ["C", "«sé»"],
+        ["D", "«dé»"],
+        ["E", "«e», breve y cerrada, como tragándosela"],
+        ["F", "«ef»"],
+        ["G", "«jé», con la j francesa suave, no como la ge española"],
+        ["H", "«ash»"],
+        ["I", "«i»"],
+        ["J", "«yi», con zumbido, como el centro de «garaje»"],
+        ["K", "«ka»"],
+        ["L", "«el»"],
+        ["M", "«em»"],
+        ["N", "«en»"],
+        ["O", "«o»"],
+        ["P", "«pé»"],
+        ["Q", "«kü», con la u francesa"],
+        ["R", "«er», con la r gutural, como aclarándote la garganta"],
+        ["S", "«es»"],
+        ["T", "«té»"],
+        ["U", "«ü», boca de u, sonido de i"],
+        ["V", "«vé»"],
+        ["W", "«duble-vé»"],
+        ["X", "«iks»"],
+        ["Y", "«i-GREK»"],
+        ["Z", "«zed»"]
+      ],
+      "note": "No hay letra ñ: el sonido «ñ» en francés se escribe gn (montagne)."
+    },
+    {
+      "type": "phonetics",
+      "title": "Las cuatro letras que más chocan al nombrarlas",
+      "body": "Cuatro nombres de letra no se parecen a nada del español: apréndetelos de memoria antes de intentar deletrear nada.",
+      "drills": [
+        { "target": "H", "ipa": "/aʃ/", "esApprox": "«ash»", "hint": "dentro de una palabra la h casi siempre es muda, pero la letra se llama «ash»" },
+        { "target": "R", "ipa": "/ɛʁ/", "esApprox": "«er», con la r gutural", "hint": "no es la r española: sale de la garganta, no de la punta de la lengua" },
+        { "target": "U", "ipa": "/y/", "esApprox": "«ü», boca de u, sonido de i", "hint": "muy distinta de la u española" },
+        { "target": "J", "ipa": "/ʒi/", "esApprox": "«yi» con zumbido", "hint": "no es la j española (jota); es un sonido suave, como el del medio de «garaje»" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para deletrear en francés no basta con decir las letras: si hay un acento o una cedilla, tienes que nombrarlo. «Café» se deletrea así: **C, A, F, E accent aigu**. Y para no confundir letras que suenan parecido (como b/p o m/n), los franceses a veces añaden una palabra de referencia: «B comme Bruxelles»."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "épeler",
+      "es": "deletrear",
+      "ipa": "/e.pə.le/",
+      "esApprox": "«e-pe-LÉ»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Vous pouvez épeler votre nom, s'il vous plaît ?", "es": "¿Puede deletrear su nombre, por favor?" }
+    },
+    {
+      "id": "v2",
+      "target": "un accent aigu",
+      "es": "un acento agudo (é)",
+      "ipa": "/œ̃.nak.sɑ̃.te.gy/",
+      "esApprox": "«un-nak-san-te-GÜ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des accents aigus",
+      "example": { "target": "Café s'écrit avec un accent aigu.", "es": "Café se escribe con un acento agudo." }
+    },
+    {
+      "id": "v3",
+      "target": "un accent grave",
+      "es": "un acento grave (è)",
+      "ipa": "/œ̃.nak.sɑ̃.ɡʁav/",
+      "esApprox": "«un-nak-san GRAV»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des accents graves",
+      "example": { "target": "Père s'écrit avec un accent grave.", "es": "Père se escribe con un acento grave." }
+    },
+    {
+      "id": "v4",
+      "target": "un accent circonflexe",
+      "es": "un acento circunflejo (ê)",
+      "ipa": "/œ̃.nak.sɑ̃.siʁ.kɔ̃.flɛks/",
+      "esApprox": "«un-nak-san sir-kon-FLEKS»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des accents circonflexes",
+      "example": { "target": "Château s'écrit avec un accent circonflexe.", "es": "Château se escribe con un acento circunflejo." }
+    },
+    {
+      "id": "v5",
+      "target": "une cédille",
+      "es": "una cedilla (ç)",
+      "ipa": "/yn se.dij/",
+      "esApprox": "«ün se-DIY»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "des cédilles",
+      "example": { "target": "Garçon s'écrit avec une cédille.", "es": "Garçon se escribe con una cedilla." }
+    },
+    {
+      "id": "v6",
+      "target": "un trait d'union",
+      "es": "un guion",
+      "ipa": "/œ̃ tʁɛ dy.njɔ̃/",
+      "esApprox": "«un tré dü-NIÓN»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des traits d'union",
+      "example": { "target": "Grand-mère s'écrit avec un trait d'union.", "es": "Grand-mère se escribe con un guion." }
+    },
+    {
+      "id": "v7",
+      "target": "en majuscules",
+      "es": "en mayúsculas",
+      "ipa": "/ɑ̃ ma.ʒys.kyl/",
+      "esApprox": "«an ma-yüs-KÜL»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Écris ton nom en majuscules.", "es": "Escribe tu nombre en mayúsculas." }
+    },
+    {
+      "id": "v8",
+      "target": "en minuscules",
+      "es": "en minúsculas",
+      "ipa": "/ɑ̃ mi.nys.kyl/",
+      "esApprox": "«an mi-nüs-KÜL»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "D'habitude, on écrit en minuscules.", "es": "Normalmente se escribe en minúsculas." }
+    },
+    {
+      "id": "v9",
+      "target": "une arobase",
+      "es": "una arroba (@)",
+      "ipa": "/yn a.ʁɔ.baz/",
+      "esApprox": "«ün a-ro-BAZ»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "des arobases",
+      "example": { "target": "C'est marco, arobase, gmail point com.", "es": "Es marco, arroba, gmail punto com." }
+    },
+    {
+      "id": "v10",
+      "target": "un point",
+      "es": "un punto (.)",
+      "ipa": "/œ̃ pwɛ̃/",
+      "esApprox": "«un PUÉN»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des points",
+      "example": { "target": "N'oublie pas le point final.", "es": "No olvides el punto final." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["alfabeto"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se llama la letra «Y» en francés?",
+      "options": ["i grec", "ipsilon", "i", "igrek-ka"],
+      "answer": 0,
+      "explain": "La Y se llama «i grec» («i griega»), literalmente «i de los griegos»."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["alfabeto"],
+      "difficulty": 1,
+      "statement": "La letra H se llama «ash» en el alfabeto francés.",
+      "answer": true,
+      "explain": "Se llama «ash», aunque dentro de una palabra casi siempre sea muda."
+    },
+    {
+      "id": "e3",
+      "type": "odd_one_out",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas letras NO rima con las otras tres al nombrarla?",
+      "options": ["B", "D", "P", "H"],
+      "answer": 3,
+      "explain": "B, D y P se llaman «bé», «dé» y «pé»: riman en «é». H se llama «ash»: no rima con las demás."
+    },
+    {
+      "id": "e4",
+      "type": "match_pairs",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Une cada letra con su nombre en francés",
+      "left": ["G", "J", "W", "Y"],
+      "right": ["duble-vé", "i grec", "jé", "yi"],
+      "answer": [2, 3, 0, 1],
+      "explain": "G = jé, J = yi (con zumbido), W = duble-vé, Y = i grec."
+    },
+    {
+      "id": "e5",
+      "type": "translate_to_target",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Se escribe con un acento agudo.",
+      "accept": ["Ça s'écrit avec un accent aigu", "Ca s'écrit avec un accent aigu"],
+      "hintWords": ["ça s'écrit", "un accent aigu"],
+      "strictAccents": false,
+      "audio": "Ça s'écrit avec un accent aigu.",
+      "explain": "Ça s'écrit avec + acento: así se explica cómo se escribe una palabra."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "¿Puedes deletrear tu apellido, por favor?",
+      "accept": ["Tu peux épeler ton nom de famille, s'il te plaît", "Vous pouvez épeler votre nom de famille, s'il vous plaît"],
+      "hintWords": ["épeler", "ton nom de famille"],
+      "strictAccents": false,
+      "audio": "Tu peux épeler ton nom de famille, s'il te plaît ?",
+      "explain": "Épeler = deletrear. La frase funciona igual en tú (tu peux) que en usted (vous pouvez)."
+    },
+    {
+      "id": "e7",
+      "type": "fill_blank",
+      "tags": ["alfabeto"],
+      "difficulty": 1,
+      "prompt": "Completa la pregunta",
+      "text": "___ ça s'écrit ?",
+      "blanks": [{ "accept": ["Comment"] }],
+      "bank": ["Comment", "Combien", "Quand"],
+      "explain": "Comment ça s'écrit ? = ¿Cómo se escribe (eso)?"
+    },
+    {
+      "id": "e8",
+      "type": "word_order",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Cómo deletreas tu nombre?»",
+      "tokens": ["prénom", "Comment", "tu", "?", "épelles", "ton"],
+      "answer": ["Comment", "tu", "épelles", "ton", "prénom", "?"],
+      "audio": "Comment tu épelles ton prénom ?",
+      "explain": "Épeler se conjuga épelles en «tu»: comment tu épelles... = cómo deletreas..."
+    },
+    {
+      "id": "e9",
+      "type": "translate_to_es",
+      "tags": ["alfabeto"],
+      "difficulty": 1,
+      "prompt": "Ça s'écrit avec une cédille.",
+      "accept": ["Se escribe con una cedilla."],
+      "strictAccents": false,
+      "audio": "Ça s'écrit avec une cédille.",
+      "explain": "Cédille = cedilla, el signo bajo la ç."
+    },
+    {
+      "id": "e10",
+      "type": "dialogue",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación: te piden que deletrees tu nombre por teléfono",
+      "turns": [
+        { "who": "Agent", "text": "Comment ça s'écrit, votre prénom ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ça s'écrit M, A, R, C, O.", "Ça s'écrit M-A-R-C-O."], "hint": "di «ça s'écrit» y deletrea M, A, R, C, O" },
+        { "who": "Agent", "text": "Merci, et votre nom de famille ?", "speak": true }
+      ],
+      "explain": "Ça s'écrit + las letras una a una: la fórmula estándar para deletrear algo."
+    },
+    {
+      "id": "e11",
+      "type": "listening",
+      "tags": ["alfabeto"],
+      "difficulty": 1,
+      "speak": "Comment ça s'écrit ?",
+      "mode": "write",
+      "accept": ["Comment ça s'écrit ?"],
+      "showTextAfter": true,
+      "explain": "Comment ça s'écrit ? = ¿Cómo se escribe (eso)?"
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "speak": "un accent circonflexe",
+      "mode": "choose",
+      "options": ["un accent aigu", "un accent grave", "un accent circonflexe", "une cédille"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Un accent circonflexe es el acento en forma de tejadillo: â, ê, î, ô, û."
+    },
+    {
+      "id": "e13",
+      "type": "shadowing",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "speak": "Vous pouvez épeler votre nom, s'il vous plaît ?",
+      "es": "¿Puede deletrear su nombre, por favor?",
+      "ipa": "/vu pu.ve e.pə.le vɔ.tʁə nɔ̃ sil vu plɛ/",
+      "esApprox": "«vu pu-VÉ e-pe-LÉ vo-tre NON sil vu PLÉ»",
+      "focus": "La u de «vous» y «pouvez» no es la u española: pon la boca para decir «u» pero di «i».",
+      "selfAssess": true
+    },
+    {
+      "id": "e14",
+      "type": "speak_prompt",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Alguien te pregunta «Comment ça s'écrit, votre prénom ?». Deletrea en voz alta tu nombre en francés, letra por letra.",
+      "modelAnswer": "Ça s'écrit M, A, R, C, O.",
+      "alsoValid": ["Ça s'écrit A, N, A."],
+      "speak": "Ça s'écrit M, A, R, C, O.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "gender_article",
+      "tags": ["alfabeto", "genero"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto",
+      "items": [
+        { "word": "accent aigu", "options": ["un", "une"], "answer": 0, "hint": "accent es masculino" },
+        { "word": "cédille", "options": ["un", "une"], "answer": 1, "hint": "cédille es femenino" },
+        { "word": "arobase", "options": ["un", "une"], "answer": 1, "hint": "arobase es femenino, aunque no lo parezca" }
+      ],
+      "explain": "Un accent, une cédille, une arobase: no hay truco, hay que memorizar el género de cada palabra."
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "¿La palabra lleva algún signo especial (acento o cedilla) o no lleva ninguno?",
+      "buckets": ["Lleva signo", "No lleva ninguno"],
+      "items": [
+        { "text": "café", "bucket": 0 },
+        { "text": "garçon", "bucket": 0 },
+        { "text": "chat", "bucket": 1 },
+        { "text": "château", "bucket": 0 },
+        { "text": "table", "bucket": 1 }
+      ],
+      "explain": "Café y château llevan accent aigu / circonflexe; garçon lleva cédille; chat y table no llevan ningún signo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Chateau s'écrit sans accent.",
+      "accept": ["Château s'écrit avec un accent circonflexe"],
+      "audio": "Château s'écrit avec un accent circonflexe.",
+      "explain": "Château lleva un accent circonflexe sobre la a: â."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "épeler", "es": "deletrear", "esApprox": "«e-pe-LÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "un accent aigu", "es": "un acento agudo", "esApprox": "«un-nak-san-te-GÜ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "une cédille", "es": "una cedilla", "esApprox": "«ün se-DIY»", "from": "v5" },
+    { "id": "s4", "kind": "word", "target": "un trait d'union", "es": "un guion", "esApprox": "«un tré dü-NIÓN»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "une arobase", "es": "una arroba", "esApprox": "«ün a-ro-BAZ»", "from": "v9" },
+    { "id": "s6", "kind": "word", "target": "en majuscules", "es": "en mayúsculas", "esApprox": "«an ma-yüs-KÜL»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Comment ça s'écrit ?", "es": "¿Cómo se escribe (eso)?", "from": "e11" },
+    { "id": "s8", "kind": "phrase", "target": "Vous pouvez épeler votre nom, s'il vous plaît ?", "es": "¿Puede deletrear su nombre, por favor?", "from": "e13" },
+    { "id": "s9", "kind": "phrase", "target": "Ça s'écrit avec un accent aigu.", "es": "Se escribe con un acento agudo.", "from": "e5" }
+  ]
+}

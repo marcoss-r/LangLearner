@@ -1,0 +1,373 @@
+{
+  "id": "fr-a1-003",
+  "lang": "fr",
+  "level": "A1",
+  "order": 3,
+  "title": "Pronunciación general I: las letras que no se pronuncian",
+  "objectives": [
+    "Aplicar la regla CaReFuL para saber qué consonantes finales se pronuncian (c, r, f, l) y cuáles no (el resto)",
+    "Pronunciar sin la consonante final palabras muy frecuentes como beaucoup, trop o le temps",
+    "Reconocer que la h inicial nunca suena en francés, aunque se escriba siempre"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El francés escribe letras que no dice",
+      "body": "La ortografía del francés se fijó hace siglos y desde entonces la lengua hablada ha cambiado mucho más rápido que la escrita. El resultado: un montón de letras finales que se escriben pero **no se pronuncian**. La buena noticia es que hay una regla que cubre la mayoría de los casos: se llama **CaReFuL**, por las cuatro consonantes finales que sí suelen sonar: **C, R, F, L**. Todas las demás consonantes finales (t, d, s, p, x, n...) casi siempre son mudas.",
+      "examples": [
+        { "target": "beaucoup", "es": "mucho", "note": "la p final no se pronuncia" },
+        { "target": "le temps", "es": "el tiempo", "note": "la p y la s finales no se pronuncian" },
+        { "target": "actif", "es": "activo", "note": "la f sí se pronuncia: CaReFuL" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "¿Se pronuncia la consonante final?",
+      "headers": ["Consonante final", "¿Se pronuncia?", "Ejemplo"],
+      "rows": [
+        ["c, r, f, l (CaReFuL)", "Sí, casi siempre", "actif, neuf, avril, hôtel"],
+        ["t, d", "No, casi nunca", "le lit, le nord"],
+        ["s, x", "No, casi nunca", "gris, deux"],
+        ["p", "No, casi nunca", "beaucoup, trop"],
+        ["n (tras vocal)", "No como consonante: nasaliza la vocal", "un, bien"]
+      ],
+      "note": "Como toda regla del francés, tiene excepciones: un ours y le fils sí pronuncian la s final."
+    },
+    {
+      "type": "phonetics",
+      "title": "Practica con palabras muy frecuentes",
+      "body": "Escucha y repite: la consonante final desaparece salvo que sea C, R, F o L.",
+      "drills": [
+        { "target": "beaucoup", "ipa": "/bo.ku/", "esApprox": "«bo-KÚ»", "hint": "la p final no suena" },
+        { "target": "le temps", "ipa": "/lə tɑ̃/", "esApprox": "«le TAN»", "hint": "ni la p ni la s se oyen" },
+        { "target": "un enfant", "ipa": "/œ̃.n‿ɑ̃.fɑ̃/", "esApprox": "«un-nan-FAN»", "hint": "la t final no suena" },
+        { "target": "actif", "ipa": "/ak.tif/", "esApprox": "«ak-TIF»", "hint": "la f sí suena: CaReFuL" },
+        { "target": "un ours", "ipa": "/œ̃.n‿uʁs/", "esApprox": "«un-NURS»", "hint": "excepción: aquí la s final sí se pronuncia" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "El reflejo del español que hay que perder",
+      "items": [
+        { "wrong": "Pronunciar la t final de «enfant» como en español", "right": "un enfant se dice «un-nan-FAN», sin t", "why": "En español pronunciamos casi todas las letras que escribimos. En francés hay que acostumbrarse a «comerse» la mayoría de las consonantes finales." },
+        { "wrong": "Pensar que la h de «hôtel» se pronuncia como la j española en otros idiomas", "right": "la h de hôtel es siempre muda: «o-TEL»", "why": "La h francesa nunca suena, ni al principio ni en medio de palabra. Es una letra fantasma en la ortografía." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Adelanto útil: la terminación **-ent** de los verbos en «ils/elles» (como ils parlent) tampoco se pronuncia nunca. Es la misma regla de las consonantes finales mudas, aplicada a una terminación verbal entera. Lo verás con calma en las clases de verbos, pero ya puedes ir acostumbrando el oído."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "beaucoup",
+      "es": "mucho",
+      "ipa": "/bo.ku/",
+      "esApprox": "«bo-KÚ»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Merci beaucoup !", "es": "¡Muchas gracias!" }
+    },
+    {
+      "id": "v2",
+      "target": "trop",
+      "es": "demasiado",
+      "ipa": "/tʁo/",
+      "esApprox": "«TRÓ»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "C'est trop cher pour moi.", "es": "Es demasiado caro para mí." }
+    },
+    {
+      "id": "v3",
+      "target": "le temps",
+      "es": "el tiempo",
+      "ipa": "/lə tɑ̃/",
+      "esApprox": "«le TAN»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les temps",
+      "example": { "target": "Je n'ai pas le temps aujourd'hui.", "es": "No tengo tiempo hoy." }
+    },
+    {
+      "id": "v4",
+      "target": "un enfant",
+      "es": "un niño, una niña",
+      "ipa": "/œ̃.n‿ɑ̃.fɑ̃/",
+      "esApprox": "«un-nan-FAN»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des enfants",
+      "example": { "target": "C'est un enfant très calme.", "es": "Es un niño muy tranquilo." }
+    },
+    {
+      "id": "v5",
+      "target": "gris / grise",
+      "es": "gris",
+      "ipa": "/ɡʁi / ɡʁiz/",
+      "esApprox": "«GRI» en masculino (s muda), «GRIZ» en femenino (aquí la s suena «z»)",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Le ciel est gris aujourd'hui.", "es": "El cielo está gris hoy." }
+    },
+    {
+      "id": "v6",
+      "target": "actif / active",
+      "es": "activo, activa",
+      "ipa": "/ak.tif / ak.tiv/",
+      "esApprox": "«ak-TIF» / «ak-TIV»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Mon fils est très actif.", "es": "Mi hijo es muy activo." }
+    },
+    {
+      "id": "v7",
+      "target": "neuf",
+      "es": "nueve; nuevo (sin usar)",
+      "ipa": "/nœf/",
+      "esApprox": "«NEUF»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Ma voiture est presque neuve.", "es": "Mi coche es casi nuevo." }
+    },
+    {
+      "id": "v8",
+      "target": "un ours",
+      "es": "un oso",
+      "ipa": "/œ̃.n‿uʁs/",
+      "esApprox": "«un-NURS»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des ours",
+      "example": { "target": "Il y a un ours dans ce zoo.", "es": "Hay un oso en este zoo." }
+    },
+    {
+      "id": "v9",
+      "target": "le fils",
+      "es": "el hijo",
+      "ipa": "/lə fis/",
+      "esApprox": "«le FIS»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les fils",
+      "example": { "target": "C'est le fils de ma voisine.", "es": "Es el hijo de mi vecina." }
+    },
+    {
+      "id": "v10",
+      "target": "assez",
+      "es": "bastante",
+      "ipa": "/a.se/",
+      "esApprox": "«a-SÉ»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "J'ai assez de temps.", "es": "Tengo bastante tiempo." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "letras-mudas"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas consonantes finales SÍ se suele pronunciar (regla CaReFuL)?",
+      "options": ["p", "t", "d", "f"],
+      "answer": 3,
+      "explain": "CaReFuL: C, R, F y L son las consonantes finales que sí suelen sonar. La f de neuf o actif se pronuncia."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "letras-mudas"],
+      "difficulty": 1,
+      "statement": "La h inicial nunca se pronuncia en francés.",
+      "answer": true,
+      "explain": "La h francesa es siempre muda, tanto al principio como en medio de una palabra."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "letras-mudas"],
+      "difficulty": 2,
+      "statement": "En «le fils», la s final se pronuncia.",
+      "answer": true,
+      "explain": "Fils es una excepción muy frecuente: se pronuncia «le FIS», con la s sonando."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["pronunciacion-general", "letras-mudas"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO pronuncia su consonante final?",
+      "options": ["neuf", "actif", "ours", "gris"],
+      "answer": 3,
+      "explain": "Neuf, actif y ours pronuncian su consonante final (f, f, s). Gris no pronuncia la s en masculino."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronunciacion-general", "letras-mudas"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su transcripción",
+      "left": ["beaucoup", "neuf", "le temps", "actif"],
+      "right": ["/nœf/, la f suena", "/bo.ku/, la p es muda", "/ak.tif/, la f suena", "/lə tɑ̃/, ni la p ni la s suenan"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Beaucoup y le temps se comen sus consonantes finales; neuf y actif las pronuncian (CaReFuL)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Es demasiado caro para mí.",
+      "accept": ["C'est trop cher pour moi"],
+      "hintWords": ["trop", "cher", "pour moi"],
+      "strictAccents": false,
+      "audio": "C'est trop cher pour moi.",
+      "explain": "Trop = demasiado. La p final no se pronuncia: «TRÓ»."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Tengo un hijo y una hija.",
+      "accept": ["J'ai un fils et une fille"],
+      "hintWords": ["un fils", "une fille"],
+      "strictAccents": false,
+      "audio": "J'ai un fils et une fille.",
+      "explain": "Fils (hijo) pronuncia la s; fille (hija) no tiene nada que ver en la escritura, ojo a no confundirlas."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra que falta",
+      "text": "Il y a ___ de monde ici, on ne peut pas entrer.",
+      "blanks": [{ "accept": ["trop"] }],
+      "bank": ["trop", "beaucoup", "assez"],
+      "explain": "Trop de monde = demasiada gente. Beaucoup y assez no encajan con el sentido negativo de la frase (no se puede entrar)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tengo bastante tiempo»",
+      "tokens": ["temps", "J'ai", "de", "assez"],
+      "answer": ["J'ai", "assez", "de", "temps"],
+      "audio": "J'ai assez de temps.",
+      "explain": "Assez de + sustantivo = bastante (de) algo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 1,
+      "prompt": "Mon fils est très actif.",
+      "accept": ["Mi hijo es muy activo."],
+      "strictAccents": false,
+      "audio": "Mon fils est très actif.",
+      "explain": "Actif pronuncia la f final; fils pronuncia la s final: dos excepciones a la regla general en la misma frase."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el hijo de un amigo",
+      "turns": [
+        { "who": "Léo", "text": "Ton fils est comment ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il est très actif.", "Il est très actif, il ne reste jamais assis."], "hint": "dile que tu hijo es muy activo" },
+        { "who": "Léo", "text": "Ah, comme le mien !", "speak": true }
+      ],
+      "explain": "Actif se pronuncia con la f final sonando, a diferencia de la mayoría de las palabras de esta clase."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "speak": "Le temps est gris aujourd'hui.",
+      "mode": "write",
+      "accept": ["Le temps est gris aujourd'hui"],
+      "showTextAfter": true,
+      "explain": "Ni la p de temps ni la s de gris (en masculino) se pronuncian."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "letras-mudas"],
+      "difficulty": 2,
+      "speak": "un ours",
+      "mode": "choose",
+      "options": ["un ours", "un tour", "un jour", "un cours"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Un ours es la única de las cuatro donde la consonante final que suena es una s; en las otras es una r (CaReFuL también)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 3,
+      "speak": "Mon fils est très actif, il ne reste jamais assis.",
+      "es": "Mi hijo es muy activo, nunca se queda quieto.",
+      "ipa": "/mɔ̃ fis ɛ tʁɛ ak.tif il nə ʁɛst ʒa.mɛ a.si/",
+      "esApprox": "«mon FIS e tré ak-TIF il ne rest ya-MÉ a-SI»",
+      "focus": "Fils y actif son dos excepciones que sí pronuncian su consonante final: no te las comas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Alguien te pregunta si hace mucho frío hoy. Dile que hace bastante frío, ni mucho ni poco.",
+      "modelAnswer": "Il fait assez froid.",
+      "alsoValid": ["Il fait assez froid aujourd'hui."],
+      "speak": "Il fait assez froid.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronunciacion-general", "letras-mudas"],
+      "difficulty": 2,
+      "prompt": "¿La consonante final de esta palabra es muda o sonora?",
+      "buckets": ["Muda", "Sonora"],
+      "items": [
+        { "text": "beaucoup", "bucket": 0 },
+        { "text": "neuf", "bucket": 1 },
+        { "text": "gris", "bucket": 0 },
+        { "text": "actif", "bucket": 1 },
+        { "text": "trop", "bucket": 0 },
+        { "text": "ours", "bucket": 1 }
+      ],
+      "explain": "Neuf, actif y ours siguen la regla CaReFuL (f, f, s... salvo que ours es la excepción de la s). Los demás se comen su consonante final."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Hay un error de ortografía. Corrige la frase entera.",
+      "wrong": "Il est très activ.",
+      "accept": ["Il est très actif"],
+      "audio": "Il est très actif.",
+      "explain": "El masculino se escribe actif, con f; active es la forma femenina."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "beaucoup", "es": "mucho", "esApprox": "«bo-KÚ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "trop", "es": "demasiado", "esApprox": "«TRÓ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "le temps", "es": "el tiempo", "esApprox": "«le TAN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "un enfant", "es": "un niño, una niña", "esApprox": "«un-nan-FAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "actif / active", "es": "activo, activa", "esApprox": "«ak-TIF» / «ak-TIV»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "un ours", "es": "un oso", "esApprox": "«un-NURS»", "from": "v8" },
+    { "id": "s7", "kind": "word", "target": "le fils", "es": "el hijo", "esApprox": "«le FIS»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "Le temps est gris aujourd'hui.", "es": "El tiempo está gris hoy.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Mon fils est très actif, il ne reste jamais assis.", "es": "Mi hijo es muy activo, nunca se queda quieto.", "from": "e14" }
+  ]
+}

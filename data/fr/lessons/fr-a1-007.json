@@ -1,0 +1,376 @@
+{
+  "id": "fr-a1-007",
+  "lang": "fr",
+  "level": "A1",
+  "order": 7,
+  "title": "Pronunciación general II: é, è, ê y la e muda",
+  "objectives": [
+    "Distinguir el sonido cerrado de é del sonido abierto de è y ê",
+    "Reconocer cuándo una e sin acento no se pronuncia (la e muda o «schwa»)",
+    "Pronunciar correctamente palabras muy frecuentes con cada uno de los tres tipos de e"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una letra, tres sonidos distintos",
+      "body": "En español, la e suena siempre igual. En francés hay que distinguir tres cosas: **é** (accent aigu) es una e cerrada, parecida a la española pero más tensa, como en «café». **è** y **ê** (accent grave y accent circonflexe) son una e abierta, más parecida a la «e» de «perro» pero un poco más abierta todavía. Y la **e sin acento**, sobre todo al final de palabra, casi siempre es **muda** o se reduce a un sonido brevísimo llamado schwa: ni «e» ni nada, un murmullo.",
+      "examples": [
+        { "target": "le café", "es": "el café", "note": "é cerrada" },
+        { "target": "la mère", "es": "la madre", "note": "è abierta" },
+        { "target": "une table", "es": "una mesa", "note": "la e final es muda" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los tres sonidos de la e",
+      "headers": ["Escritura", "Sonido", "Ejemplo"],
+      "rows": [
+        ["é (accent aigu)", "e cerrada, tensa", "le café, étudier"],
+        ["è (accent grave)", "e abierta", "la mère, après"],
+        ["ê (accent circonflexe)", "e abierta, igual que è", "la fenêtre, la tête"],
+        ["e sin acento a final de palabra", "muda o casi muda", "une table, une pomme"],
+        ["e sin acento en medio de palabra", "schwa breve, como una e que casi no se oye", "le petit, ce"]
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "Escucha y repite: cerrada, abierta o muda",
+      "body": "Compara los tres sonidos en palabras reales.",
+      "drills": [
+        { "target": "le café", "ipa": "/lə ka.fe/", "esApprox": "«le ka-FÉ»", "hint": "é cerrada, como en español pero más tensa" },
+        { "target": "la mère", "ipa": "/la mɛʁ/", "esApprox": "«la MER»", "hint": "è abierta, boca más abierta que la é" },
+        { "target": "la fenêtre", "ipa": "/la fə.nɛtʁ/", "esApprox": "«la fe-NETR»", "hint": "ê se pronuncia igual de abierta que è" },
+        { "target": "une table", "ipa": "/yn tabl/", "esApprox": "«ün TABL»", "hint": "la e final no suena nada" },
+        { "target": "le petit", "ipa": "/lə pə.ti/", "esApprox": "«le pe-TÍ»", "hint": "las dos e sin acento son un murmullo brevísimo, casi no se oyen" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "La e española no sirve de referencia única",
+      "items": [
+        { "wrong": "Pronunciar café con la misma e que en español", "right": "le café suena «le ka-FÉ», con una é más tensa y cerrada", "why": "La é francesa se pronuncia con la boca más cerrada y estirada que la e española; si la abres demasiado, suena a è." },
+        { "wrong": "Pronunciar la e final de table o pomme", "right": "une table = «ün TABL», une pomme = «ün POM»", "why": "Salvo en poesía o canción, la e final tras consonante no se pronuncia casi nunca en el francés hablado." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco rápido: si ves **é**, cierra la boca; si ves **è** o **ê**, ábrela un poco más; si ves una **e sin acento al final de la palabra**, cállatela casi del todo. Con estos tres reflejos resuelves la mayoría de las palabras que verás en las próximas clases."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "le café",
+      "es": "el café",
+      "ipa": "/lə ka.fe/",
+      "esApprox": "«le ka-FÉ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les cafés",
+      "example": { "target": "On prend un café ?", "es": "¿Tomamos un café?" }
+    },
+    {
+      "id": "v2",
+      "target": "la mère",
+      "es": "la madre",
+      "ipa": "/la mɛʁ/",
+      "esApprox": "«la MER»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les mères",
+      "example": { "target": "C'est la mère de Camille.", "es": "Es la madre de Camille." }
+    },
+    {
+      "id": "v3",
+      "target": "le frère",
+      "es": "el hermano",
+      "ipa": "/lə fʁɛʁ/",
+      "esApprox": "«le FRER»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les frères",
+      "example": { "target": "Mon frère habite à Lyon.", "es": "Mi hermano vive en Lyon." }
+    },
+    {
+      "id": "v4",
+      "target": "la fenêtre",
+      "es": "la ventana",
+      "ipa": "/la fə.nɛtʁ/",
+      "esApprox": "«la fe-NETR»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les fenêtres",
+      "example": { "target": "Ferme la fenêtre, s'il te plaît.", "es": "Cierra la ventana, por favor." }
+    },
+    {
+      "id": "v5",
+      "target": "la tête",
+      "es": "la cabeza",
+      "ipa": "/la tɛt/",
+      "esApprox": "«la TET»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les têtes",
+      "example": { "target": "J'ai mal à la tête.", "es": "Me duele la cabeza." }
+    },
+    {
+      "id": "v6",
+      "target": "étudier",
+      "es": "estudiar",
+      "ipa": "/e.ty.dje/",
+      "esApprox": "«e-tü-DIÉ»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "J'aime étudier le français.", "es": "Me gusta estudiar francés." }
+    },
+    {
+      "id": "v7",
+      "target": "une pomme",
+      "es": "una manzana",
+      "ipa": "/yn pɔm/",
+      "esApprox": "«ün POM»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "des pommes",
+      "example": { "target": "Je mange une pomme.", "es": "Como una manzana." }
+    },
+    {
+      "id": "v8",
+      "target": "une table",
+      "es": "una mesa",
+      "ipa": "/yn tabl/",
+      "esApprox": "«ün TABL»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "des tables",
+      "example": { "target": "Le livre est sur la table.", "es": "El libro está sobre la mesa." }
+    },
+    {
+      "id": "v9",
+      "target": "le début",
+      "es": "el principio, el comienzo",
+      "ipa": "/lə de.by/",
+      "esApprox": "«le de-BÜ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les débuts",
+      "example": { "target": "C'est le début du film.", "es": "Es el principio de la película." }
+    },
+    {
+      "id": "v10",
+      "target": "après",
+      "es": "después",
+      "ipa": "/a.pʁɛ/",
+      "esApprox": "«a-PRÉ»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "On mange après.", "es": "Comemos después." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "e-muda"],
+      "difficulty": 1,
+      "prompt": "¿Qué acento marca una e cerrada, tensa?",
+      "options": ["accent aigu (é)", "accent grave (è)", "accent circonflexe (ê)", "ningún acento"],
+      "answer": 0,
+      "explain": "El accent aigu (é) es el único que marca una e cerrada."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "e-muda"],
+      "difficulty": 1,
+      "statement": "È y ê se pronuncian igual de abiertas.",
+      "answer": true,
+      "explain": "Accent grave (è) y accent circonflexe (ê) representan el mismo sonido abierto."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "e-muda"],
+      "difficulty": 2,
+      "statement": "La e final de «une table» se pronuncia claramente, como en español.",
+      "answer": false,
+      "explain": "La e final tras consonante casi nunca se pronuncia: «ün TABL»."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras tiene una e cerrada (é), a diferencia de las demás?",
+      "options": ["la mère", "la tête", "le café", "la fenêtre"],
+      "answer": 2,
+      "explain": "Le café lleva é cerrada; las otras tres llevan è o ê, abiertas."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con el tipo de e que contiene",
+      "left": ["le café", "la mère", "une table", "la fenêtre"],
+      "right": ["e final muda", "é cerrada", "è/ê abierta", "è/ê abierta"],
+      "answer": [1, 2, 0, 3],
+      "explain": "Café → é cerrada; mère y fenêtre → è/ê abierta; table → e final muda."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Me duele la cabeza.",
+      "accept": ["J'ai mal à la tête"],
+      "hintWords": ["j'ai mal à", "la tête"],
+      "strictAccents": false,
+      "audio": "J'ai mal à la tête.",
+      "explain": "Tête lleva accent circonflexe: se pronuncia con e abierta, «TET»."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Mi hermano vive en Lyon.",
+      "accept": ["Mon frère habite à Lyon"],
+      "hintWords": ["mon frère", "habiter à"],
+      "strictAccents": false,
+      "audio": "Mon frère habite à Lyon.",
+      "explain": "Frère lleva è abierta: «FRER»."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "J'aime beaucoup ___ le français.",
+      "blanks": [{ "accept": ["étudier"] }],
+      "bank": ["étudier", "après", "début"],
+      "explain": "Étudier = estudiar, con é cerrada al principio."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Cierra la ventana, por favor»",
+      "tokens": ["s'il te plaît", "Ferme", "la fenêtre", ","],
+      "answer": ["Ferme", "la fenêtre", ",", "s'il te plaît"],
+      "audio": "Ferme la fenêtre, s'il te plaît.",
+      "explain": "Fenêtre lleva accent circonflexe: se pronuncia «fe-NETR», con e abierta."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 1,
+      "prompt": "C'est le début du film, après le café.",
+      "accept": ["Es el principio de la película, después del café."],
+      "strictAccents": false,
+      "audio": "C'est le début du film, après le café.",
+      "explain": "Début (é cerrada) y après (è abierta) en la misma frase, buen contraste de práctica."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en un café",
+      "turns": [
+        { "who": "Serveur", "text": "Un café pour vous ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, un café, s'il vous plaît.", "Oui, merci."], "hint": "acepta el café con educación" },
+        { "who": "Serveur", "text": "Très bien, ça arrive !", "speak": true }
+      ],
+      "explain": "Café siempre con é cerrada: «ka-FÉ»."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 1,
+      "speak": "Ma mère et mon frère habitent à Lyon.",
+      "mode": "write",
+      "accept": ["Ma mère et mon frère habitent à Lyon"],
+      "showTextAfter": true,
+      "explain": "Mère y frère llevan è abierta; habitent tiene la -ent final muda."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "e-muda"],
+      "difficulty": 2,
+      "speak": "une table",
+      "mode": "choose",
+      "options": ["une table", "un café", "la tête", "la mère"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Une table es la única con e final muda entre estas cuatro."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 3,
+      "speak": "Ma mère boit un café après le début du film.",
+      "es": "Mi madre se toma un café después del principio de la película.",
+      "ipa": "/ma mɛʁ bwa œ̃ ka.fe a.pʁɛ lə de.by dy film/",
+      "esApprox": "«ma MER buá un ka-FÉ a-PRÉ le de-BÜ dü FILM»",
+      "focus": "Contrasta la è abierta de mère y après con la é cerrada de café y début.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Dile a un amigo que te duele la cabeza y que quieres un café.",
+      "modelAnswer": "J'ai mal à la tête, je voudrais un café.",
+      "alsoValid": ["J'ai mal à la tête et je veux un café."],
+      "speak": "J'ai mal à la tête, je voudrais un café.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronunciacion-general", "e-muda"],
+      "difficulty": 2,
+      "prompt": "¿La e marcada lleva un sonido abierto (è/ê) o es una e final muda?",
+      "buckets": ["Abierta (è/ê)", "Final muda"],
+      "items": [
+        { "text": "la mère", "bucket": 0 },
+        { "text": "une table", "bucket": 1 },
+        { "text": "la tête", "bucket": 0 },
+        { "text": "une pomme", "bucket": 1 },
+        { "text": "la fenêtre", "bucket": 0 },
+        { "text": "le frère", "bucket": 0 }
+      ],
+      "explain": "Mère, tête, fenêtre y frère llevan è/ê abierta; table y pomme terminan en e muda."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Hay un error de acento. Corrige la palabra.",
+      "wrong": "Ma mere habite à Paris.",
+      "accept": ["Ma mère habite à Paris"],
+      "audio": "Ma mère habite à Paris.",
+      "explain": "Mère necesita accent grave: sin él, la palabra estaría mal escrita (y sonaría distinto)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "le café", "es": "el café", "esApprox": "«le ka-FÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "la mère", "es": "la madre", "esApprox": "«la MER»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "le frère", "es": "el hermano", "esApprox": "«le FRER»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "la fenêtre", "es": "la ventana", "esApprox": "«la fe-NETR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "la tête", "es": "la cabeza", "esApprox": "«la TET»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "étudier", "es": "estudiar", "esApprox": "«e-tü-DIÉ»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "après", "es": "después", "esApprox": "«a-PRÉ»", "from": "v10" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai mal à la tête.", "es": "Me duele la cabeza.", "from": "e6" },
+    { "id": "s9", "kind": "phrase", "target": "Ma mère boit un café après le début du film.", "es": "Mi madre se toma un café después del principio de la película.", "from": "e14" }
+  ]
+}

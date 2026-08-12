@@ -1,0 +1,365 @@
+{
+  "id": "fr-a1-005",
+  "lang": "fr",
+  "level": "A1",
+  "order": 5,
+  "title": "Presentarse: je m'appelle, j'ai… ans, j'habite à…",
+  "objectives": [
+    "Decir tu nombre, tu edad y dónde vives con je m'appelle, j'ai... ans y j'habite à...",
+    "Preguntar esos mismos datos a otra persona: comment tu t'appelles ?, quel âge as-tu ?, où habites-tu ?",
+    "Presentar a un tercero usando il/elle s'appelle e il/elle a... ans"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres fórmulas para presentarte, memorizadas por ahora",
+      "body": "Para presentarte solo necesitas tres piezas: **je m'appelle** (me llamo), **j'ai... ans** (tengo... años) y **j'habite à...** (vivo en...). Todavía no has visto cómo se conjugan de verdad los verbos que hay detrás (s'appeler, avoir, habiter): eso llega en clases posteriores. De momento, apréndetelas como bloques fijos, igual que en español dices «me llamo» sin pensar en la gramática que hay debajo.",
+      "examples": [
+        { "target": "Je m'appelle Léa.", "es": "Me llamo Léa.", "note": "s'appeler, verbo pronominal — lo verás a fondo en la clase 41" },
+        { "target": "J'ai vingt ans.", "es": "Tengo veinte años.", "note": "avoir — lo verás a fondo en la clase 10" },
+        { "target": "J'habite à Lyon.", "es": "Vivo en Lyon.", "note": "habiter — lo verás a fondo en la clase 33" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Hablar de ti y preguntar a otra persona",
+      "headers": ["Sobre ti (je)", "Preguntar (tu)", "Sobre otra persona (il/elle)"],
+      "rows": [
+        ["Je m'appelle...", "Comment tu t'appelles ?", "Il/Elle s'appelle..."],
+        ["J'ai... ans.", "Quel âge as-tu ?", "Il/Elle a... ans."],
+        ["J'habite à...", "Où habites-tu ?", "Il/Elle habite à..."]
+      ],
+      "note": "Comment tu t'appelles ? es la forma coloquial; la forma más cuidada es Comment vous appelez-vous ?"
+    },
+    {
+      "type": "contrast",
+      "title": "À o en: depende de si es ciudad o país",
+      "items": [
+        { "wrong": "J'habite à France.", "right": "J'habite en France.", "why": "Con ciudades se usa à (à Madrid, à Paris). Con la mayoría de países, que son femeninos, se usa en (en France, en Espagne). Lo verás con más detalle en la clase 36." },
+        { "wrong": "J'ai vingt an.", "right": "J'ai vingt ans.", "why": "Ans (años) siempre lleva -s, aunque no se pronuncie: j'ai vingt ans se dice «yé van AN», con la s muda." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Todavía no has visto los números en francés (llegan en las clases 16 a 18). Por ahora, memoriza «vingt» (veinte) y «trente» (treinta) como dos palabras sueltas para poder decir tu edad si te acercas a esas cifras; el sistema completo de números lo aprenderás pronto y entonces podrás decir cualquier edad."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "je m'appelle",
+      "es": "me llamo",
+      "ipa": "/ʒə ma.pɛl/",
+      "esApprox": "«ye ma-PEL»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Bonjour, je m'appelle Marco.", "es": "Hola, me llamo Marco." }
+    },
+    {
+      "id": "v2",
+      "target": "tu t'appelles",
+      "es": "te llamas",
+      "ipa": "/ty ta.pɛl/",
+      "esApprox": "«tü ta-PEL»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Et toi, comment tu t'appelles ?", "es": "¿Y tú, cómo te llamas?" }
+    },
+    {
+      "id": "v3",
+      "target": "il s'appelle / elle s'appelle",
+      "es": "se llama",
+      "ipa": "/il sa.pɛl / ɛl sa.pɛl/",
+      "esApprox": "«il sa-PEL» / «el sa-PEL»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Elle s'appelle Camille.", "es": "Se llama Camille." }
+    },
+    {
+      "id": "v4",
+      "target": "j'ai... ans",
+      "es": "tengo... años",
+      "ipa": "/ʒe ɑ̃/",
+      "esApprox": "«ye AN», la s de ans no suena",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "J'ai vingt ans.", "es": "Tengo veinte años." }
+    },
+    {
+      "id": "v5",
+      "target": "quel âge as-tu ?",
+      "es": "¿cuántos años tienes?",
+      "ipa": "/kɛl aʒ a ty/",
+      "esApprox": "«kel AY a-TÜ»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Quel âge as-tu, Léa ?", "es": "¿Cuántos años tienes, Léa?" }
+    },
+    {
+      "id": "v6",
+      "target": "j'habite à...",
+      "es": "vivo en... (+ ciudad)",
+      "ipa": "/ʒa.bit a/",
+      "esApprox": "«ya-BIT a»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "J'habite à Barcelone.", "es": "Vivo en Barcelona." }
+    },
+    {
+      "id": "v7",
+      "target": "j'habite en...",
+      "es": "vivo en... (+ país)",
+      "ipa": "/ʒa.bit ɑ̃/",
+      "esApprox": "«ya-BIT an»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "J'habite en France.", "es": "Vivo en Francia." }
+    },
+    {
+      "id": "v8",
+      "target": "où habites-tu ?",
+      "es": "¿dónde vives?",
+      "ipa": "/u a.bit ty/",
+      "esApprox": "«u a-BIT tü»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Où habites-tu maintenant ?", "es": "¿Dónde vives ahora?" }
+    },
+    {
+      "id": "v9",
+      "target": "enchanté / enchantée",
+      "es": "encantado, encantada",
+      "ipa": "/ɑ̃.ʃɑ̃.te/",
+      "esApprox": "«an-shan-TÉ»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Enchanté, je m'appelle Thomas.", "es": "Encantado, me llamo Thomas." }
+    },
+    {
+      "id": "v10",
+      "target": "vingt ans",
+      "es": "veinte años",
+      "ipa": "/vɛ̃t ɑ̃/",
+      "esApprox": "«vén AN»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "J'ai vingt ans.", "es": "Tengo veinte años." }
+    },
+    {
+      "id": "v11",
+      "target": "trente ans",
+      "es": "treinta años",
+      "ipa": "/tʁɑ̃t ɑ̃/",
+      "esApprox": "«tran-TAN»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "J'ai trente ans.", "es": "Tengo treinta años." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["presentarse"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se pregunta la edad de alguien en francés?",
+      "options": ["Comment tu t'appelles ?", "Où habites-tu ?", "Quel âge as-tu ?", "Enchanté !"],
+      "answer": 2,
+      "explain": "Quel âge as-tu ? = ¿cuántos años tienes?"
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "statement": "«J'habite en France» usa «en» porque Francia es un país.",
+      "answer": true,
+      "explain": "Con países (la mayoría femeninos) se usa en; con ciudades se usa à."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "statement": "«J'habite à Madrid» usa «à» porque Madrid es una ciudad.",
+      "answer": true,
+      "explain": "Con ciudades siempre se usa à: à Madrid, à Paris, à Lyon."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones NO usa el verbo s'appeler?",
+      "options": ["je m'appelle", "tu t'appelles", "il s'appelle", "j'ai vingt ans"],
+      "answer": 3,
+      "explain": "J'ai vingt ans usa el verbo avoir, no s'appeler."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["presentarse"],
+      "difficulty": 1,
+      "prompt": "Une cada frase con su traducción",
+      "left": ["je m'appelle", "j'ai vingt ans", "j'habite à Madrid", "enchanté"],
+      "right": ["encantado", "vivo en Madrid", "me llamo", "tengo veinte años"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Je m'appelle = me llamo, j'ai vingt ans = tengo veinte años, j'habite à Madrid = vivo en Madrid, enchanté = encantado."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "prompt": "Me llamo Ana y vivo en Barcelona.",
+      "accept": ["Je m'appelle Ana et j'habite à Barcelone"],
+      "hintWords": ["je m'appelle", "j'habite à"],
+      "strictAccents": false,
+      "audio": "Je m'appelle Ana et j'habite à Barcelone.",
+      "explain": "Une las dos fórmulas con et: je m'appelle... et j'habite à..."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "prompt": "Tengo treinta años.",
+      "accept": ["J'ai trente ans"],
+      "hintWords": ["j'ai", "trente ans"],
+      "strictAccents": false,
+      "audio": "J'ai trente ans.",
+      "explain": "J'ai + edad + ans, siempre con la -s final de ans, aunque no se oiga."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["presentarse"],
+      "difficulty": 1,
+      "prompt": "Completa la pregunta",
+      "text": "___ tu t'appelles ?",
+      "blanks": [{ "accept": ["Comment"] }],
+      "bank": ["Comment", "Où", "Quel"],
+      "explain": "Comment tu t'appelles ? = ¿Cómo te llamas?"
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la pregunta: «¿Dónde vives?»",
+      "tokens": ["?", "habites-tu", "Où"],
+      "answer": ["Où", "habites-tu", "?"],
+      "audio": "Où habites-tu ?",
+      "explain": "En la pregunta formal, el verbo y el pronombre se invierten y se unen con un guion: habites-tu."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["presentarse"],
+      "difficulty": 1,
+      "prompt": "Il s'appelle Thomas et il a vingt ans.",
+      "accept": ["Se llama Thomas y tiene veinte años."],
+      "strictAccents": false,
+      "audio": "Il s'appelle Thomas et il a vingt ans.",
+      "explain": "Il s'appelle = se llama, il a vingt ans = tiene veinte años."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación: conoces a alguien nuevo",
+      "turns": [
+        { "who": "Camille", "text": "Bonjour ! Comment tu t'appelles ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je m'appelle Ana.", "Je m'appelle Marco."], "hint": "di tu nombre con je m'appelle" },
+        { "who": "Camille", "text": "Enchantée ! Quel âge as-tu ?", "speak": true }
+      ],
+      "explain": "Tras presentarte, lo normal es que la otra persona diga enchanté(e) y siga preguntando."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["presentarse"],
+      "difficulty": 1,
+      "speak": "J'habite à Madrid.",
+      "mode": "write",
+      "accept": ["J'habite à Madrid"],
+      "showTextAfter": true,
+      "explain": "J'habite à + ciudad = vivo en + ciudad."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["presentarse"],
+      "difficulty": 1,
+      "speak": "Quel âge as-tu ?",
+      "mode": "choose",
+      "options": ["Quel âge as-tu ?", "Où habites-tu ?", "Comment tu t'appelles ?", "Enchanté !"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Quel âge as-tu ? pregunta por la edad."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "speak": "Bonjour, je m'appelle Léa, j'ai vingt ans et j'habite à Lyon.",
+      "es": "Hola, me llamo Léa, tengo veinte años y vivo en Lyon.",
+      "ipa": "/bɔ̃.ʒuʁ ʒə ma.pɛl le.a ʒe vɛ̃t ɑ̃ e ʒa.bit a ljɔ̃/",
+      "esApprox": "«bon-YUR ye ma-PEL le-Á ye vén AN e ya-BIT a li-ÓN»",
+      "focus": "J'habite se pronuncia todo junto, «ya-BIT», sin pausa entre j' y habite.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "prompt": "Preséntate: di tu nombre, tu edad (usa vingt ans o trente ans) y dónde vives.",
+      "modelAnswer": "Je m'appelle Marco, j'ai trente ans et j'habite à Madrid.",
+      "alsoValid": ["Je m'appelle Ana, j'ai vingt ans et j'habite à Barcelone."],
+      "speak": "Je m'appelle Marco, j'ai trente ans et j'habite à Madrid.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["presentarse"],
+      "difficulty": 1,
+      "prompt": "¿Es información sobre ti (je) o una pregunta a otra persona (tu)?",
+      "buckets": ["Sobre ti (je)", "Pregunta a otra persona (tu)"],
+      "items": [
+        { "text": "je m'appelle", "bucket": 0 },
+        { "text": "comment tu t'appelles ?", "bucket": 1 },
+        { "text": "j'ai vingt ans", "bucket": 0 },
+        { "text": "quel âge as-tu ?", "bucket": 1 },
+        { "text": "j'habite à Paris", "bucket": 0 },
+        { "text": "où habites-tu ?", "bucket": 1 }
+      ],
+      "explain": "Je es siempre sobre ti; las preguntas con tu se dirigen a la otra persona."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "J'habite à France.",
+      "accept": ["J'habite en France"],
+      "audio": "J'habite en France.",
+      "explain": "Con países como France se usa en, no à. À se reserva para ciudades."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "je m'appelle", "es": "me llamo", "esApprox": "«ye ma-PEL»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "j'ai... ans", "es": "tengo... años", "esApprox": "«ye AN»", "from": "v4" },
+    { "id": "s3", "kind": "word", "target": "j'habite à...", "es": "vivo en... (ciudad)", "esApprox": "«ya-BIT a»", "from": "v6" },
+    { "id": "s4", "kind": "word", "target": "j'habite en...", "es": "vivo en... (país)", "esApprox": "«ya-BIT an»", "from": "v7" },
+    { "id": "s5", "kind": "word", "target": "quel âge as-tu ?", "es": "¿cuántos años tienes?", "esApprox": "«kel AY a-TÜ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "où habites-tu ?", "es": "¿dónde vives?", "esApprox": "«u a-BIT tü»", "from": "v8" },
+    { "id": "s7", "kind": "word", "target": "enchanté / enchantée", "es": "encantado, encantada", "esApprox": "«an-shan-TÉ»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "J'habite à Madrid.", "es": "Vivo en Madrid.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Bonjour, je m'appelle Léa, j'ai vingt ans et j'habite à Lyon.", "es": "Hola, me llamo Léa, tengo veinte años y vivo en Lyon.", "from": "e14" }
+  ]
+}

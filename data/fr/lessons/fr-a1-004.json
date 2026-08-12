@@ -1,0 +1,364 @@
+{
+  "id": "fr-a1-004",
+  "lang": "fr",
+  "level": "A1",
+  "order": 4,
+  "title": "Saludos, despedidas y fórmulas de cortesía",
+  "objectives": [
+    "Saludar y despedirte en francés eligiendo la fórmula correcta según el momento del día",
+    "Usar las fórmulas de cortesía básicas: s'il vous plaît, merci, de rien, pardon, excusez-moi",
+    "Distinguir el registro informal (salut) del formal (bonjour, au revoir) según con quién hablas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Bonjour dura todo el día",
+      "body": "«Bonjour» no es solo «buenos días»: se usa desde que te levantas hasta última hora de la tarde, con cualquier persona, formal o informal. «Bonsoir» toma el relevo al anochecer, más o menos a partir de las seis o siete. «Bonne nuit» **no es un saludo**: solo se usa al despedirte de alguien que se va a dormir, nunca al llegar a un sitio de noche.",
+      "examples": [
+        { "target": "Bonjour !", "es": "¡Hola! / ¡Buenos días!", "note": "válido toda la mañana y toda la tarde" },
+        { "target": "Bonsoir !", "es": "¡Buenas tardes! / ¡Buenas noches!", "note": "al llegar, ya anochecido" },
+        { "target": "Bonne nuit !", "es": "¡Buenas noches!", "note": "solo al despedirte, cuando alguien se va a dormir" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Saludar, despedirse y dar las gracias",
+      "headers": ["Francés", "Español", "Cuándo se usa"],
+      "rows": [
+        ["Bonjour", "Hola / Buenos días", "de la mañana hasta media tarde, formal o informal"],
+        ["Bonsoir", "Buenas tardes / noches", "al anochecer o de noche, al llegar"],
+        ["Bonne nuit", "Buenas noches", "al despedirte de alguien que se va a dormir"],
+        ["Salut", "Hola / Adiós", "informal, entre amigos, sirve para saludar y despedir"],
+        ["Au revoir", "Adiós", "despedida general, formal e informal"],
+        ["À bientôt / À plus tard", "Hasta pronto / Hasta luego", "cuando vas a volver a ver a esa persona pronto"],
+        ["Merci (beaucoup)", "Gracias (muchas)", "para agradecer"],
+        ["De rien / Je vous en prie", "De nada", "de rien es informal, je vous en prie es más formal"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: «Comment allez-vous ?» no siempre es literal",
+      "items": [
+        { "wrong": "Responder a «Ça va ?» con una frase larga y detallada", "right": "Ça va ? → Ça va, et toi ?", "why": "«Ça va ?» es una pregunta social casi automática, como nuestro «¿qué tal?». Se responde brevemente y se devuelve la pregunta, no se cuenta el día entero." },
+        { "wrong": "Usar «salut» con el jefe o con un desconocido mayor", "right": "con desconocidos o en el trabajo, mejor bonjour / au revoir", "why": "Salut es tan informal como nuestro «hola, qué tal» entre colegas. Con quien tratas de usted, usa siempre bonjour." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "**Pardon** y **excusez-moi** no son intercambiables del todo: **pardon** se usa para una molestia rápida (chocar sin querer, pedir que repitan algo), y **excusez-moi** (o **excuse-moi** en tú) para pedir permiso o llamar la atención de alguien, por ejemplo, para preguntar una dirección por la calle."
+    },
+    {
+      "type": "culture",
+      "title": "La bise: el saludo que no existe en España",
+      "body": "En muchas zonas de Francia, la gente se saluda con **la bise**: uno o varios besos suaves en la mejilla, sin llegar a tocarla con los labios del todo. El número de besos varía según la región (2 es lo más común, pero hay sitios con 1, 3 o hasta 4). Entre hombres que no se conocen bien o en contextos formales, se da la mano (**serrer la main**) en su lugar. Si dudas, deja que la otra persona marque el gesto."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "bonjour",
+      "es": "hola, buenos días",
+      "ipa": "/bɔ̃.ʒuʁ/",
+      "esApprox": "«bon-YUR»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Bonjour, madame !", "es": "¡Buenos días, señora!" }
+    },
+    {
+      "id": "v2",
+      "target": "bonsoir",
+      "es": "buenas tardes, buenas noches (al llegar)",
+      "ipa": "/bɔ̃.swaʁ/",
+      "esApprox": "«bon-SUAR»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Bonsoir tout le monde !", "es": "¡Buenas noches a todos!" }
+    },
+    {
+      "id": "v3",
+      "target": "bonne nuit",
+      "es": "buenas noches (al despedirte)",
+      "ipa": "/bɔn nɥi/",
+      "esApprox": "«bon NÜI»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Bonne nuit, dors bien !", "es": "¡Buenas noches, duerme bien!" }
+    },
+    {
+      "id": "v4",
+      "target": "au revoir",
+      "es": "adiós",
+      "ipa": "/o ʁə.vwaʁ/",
+      "esApprox": "«o re-VUAR»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Au revoir, à demain !", "es": "¡Adiós, hasta mañana!" }
+    },
+    {
+      "id": "v5",
+      "target": "salut",
+      "es": "hola / adiós (informal)",
+      "ipa": "/sa.ly/",
+      "esApprox": "«sa-LÜ»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Salut ! Ça va ?", "es": "¡Hola! ¿Qué tal?" }
+    },
+    {
+      "id": "v6",
+      "target": "s'il vous plaît / s'il te plaît",
+      "es": "por favor",
+      "ipa": "/sil vu plɛ / sil tə plɛ/",
+      "esApprox": "«sil vu PLÉ» / «sil te PLÉ»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Un café, s'il vous plaît.", "es": "Un café, por favor." }
+    },
+    {
+      "id": "v7",
+      "target": "merci (beaucoup)",
+      "es": "gracias (muchas)",
+      "ipa": "/mɛʁ.si (bo.ku)/",
+      "esApprox": "«mer-SI (bo-KÚ)»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Merci beaucoup pour votre aide.", "es": "Muchas gracias por su ayuda." }
+    },
+    {
+      "id": "v8",
+      "target": "de rien",
+      "es": "de nada",
+      "ipa": "/də ʁjɛ̃/",
+      "esApprox": "«de RIÉN»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "— Merci ! — De rien !", "es": "—¡Gracias! —¡De nada!" }
+    },
+    {
+      "id": "v9",
+      "target": "pardon",
+      "es": "perdón",
+      "ipa": "/paʁ.dɔ̃/",
+      "esApprox": "«par-DÓN»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Pardon, vous pouvez répéter ?", "es": "Perdón, ¿puede repetir?" }
+    },
+    {
+      "id": "v10",
+      "target": "excusez-moi / excuse-moi",
+      "es": "disculpe / disculpa",
+      "ipa": "/ɛk.sky.ze mwa / ɛk.skyz mwa/",
+      "esApprox": "«eks-kü-ZÉ MUÁ» / «eks-KÜZ MUÁ»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Excusez-moi, où est la gare ?", "es": "Disculpe, ¿dónde está la estación?" }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "prompt": "Son las 21:00 y llegas a casa de un amigo. ¿Qué dices?",
+      "options": ["Bonjour", "Bonsoir", "Bonne nuit", "Salut"],
+      "answer": 1,
+      "explain": "De noche, al llegar, se dice bonsoir. Bonne nuit es solo para despedirse cuando alguien se va a dormir."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "statement": "«Bonjour» solo se puede decir por la mañana.",
+      "answer": false,
+      "explain": "Bonjour vale desde que te levantas hasta bien entrada la tarde."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "statement": "«Salut» es apropiado para saludar a tu jefe en una reunión formal.",
+      "answer": false,
+      "explain": "Salut es informal, entre amigos. Con el jefe, mejor bonjour."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["saludos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones NO sirve para despedirse?",
+      "options": ["au revoir", "à bientôt", "bonjour", "bonne nuit"],
+      "answer": 2,
+      "explain": "Bonjour es un saludo de llegada, no de despedida. Las otras tres sirven para despedirse."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["cortesia"],
+      "difficulty": 1,
+      "prompt": "Une cada expresión con su traducción",
+      "left": ["merci beaucoup", "de rien", "pardon", "s'il vous plaît"],
+      "right": ["por favor", "muchas gracias", "de nada", "perdón"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Merci beaucoup = muchas gracias, de rien = de nada, pardon = perdón, s'il vous plaît = por favor."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "prompt": "Buenos días, señora. ¿Cómo está usted?",
+      "accept": ["Bonjour, madame. Comment allez-vous ?"],
+      "hintWords": ["bonjour", "comment allez-vous"],
+      "strictAccents": false,
+      "audio": "Bonjour, madame. Comment allez-vous ?",
+      "explain": "Comment allez-vous ? es la versión formal de «¿qué tal?», con vous."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "Disculpe, ¿dónde está la estación, por favor?",
+      "accept": ["Excusez-moi, où est la gare, s'il vous plaît ?"],
+      "hintWords": ["excusez-moi", "où est"],
+      "strictAccents": false,
+      "audio": "Excusez-moi, où est la gare, s'il vous plaît ?",
+      "explain": "Excusez-moi para llamar la atención de un desconocido y pedirle algo con educación."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["saludos"],
+      "difficulty": 2,
+      "prompt": "Completa el diálogo de despedida antes de dormir",
+      "text": "— Bonne ___, dors bien ! — Merci, toi aussi !",
+      "blanks": [{ "accept": ["nuit"] }],
+      "bank": ["nuit", "soir", "jour"],
+      "explain": "Bonne nuit se usa al despedirte de alguien que se va a dormir."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «¡Hola! ¿Qué tal?»",
+      "tokens": ["?", "ça", "Salut", "va", "!"],
+      "answer": ["Salut", "!", "ça", "va", "?"],
+      "audio": "Salut ! Ça va ?",
+      "explain": "Salut ! Ça va ? es el saludo informal más habitual entre amigos."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["cortesia"],
+      "difficulty": 1,
+      "prompt": "Pardon, vous pouvez répéter, s'il vous plaît ?",
+      "accept": ["Perdón, ¿puede repetir, por favor?"],
+      "strictAccents": false,
+      "audio": "Pardon, vous pouvez répéter, s'il vous plaît ?",
+      "explain": "Pardon aquí pide disculpas por no haber entendido, no por haber molestado."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["saludos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación: te cruzas con un vecino por la calle",
+      "turns": [
+        { "who": "Voisin", "text": "Bonjour ! Comment allez-vous ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ça va bien, merci, et vous ?", "Très bien, merci, et vous ?"], "hint": "responde que estás bien, da las gracias y devuelve la pregunta" },
+        { "who": "Voisin", "text": "Très bien aussi, merci !", "speak": true }
+      ],
+      "explain": "Es de buena educación devolver siempre la pregunta con «et vous ?» / «et toi ?»."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "speak": "Bonsoir, comment allez-vous ?",
+      "mode": "write",
+      "accept": ["Bonsoir, comment allez-vous ?"],
+      "showTextAfter": true,
+      "explain": "Bonsoir se usa al anochecer, aunque sea la primera vez que ves a esa persona ese día."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cortesia"],
+      "difficulty": 1,
+      "speak": "excusez-moi",
+      "mode": "choose",
+      "options": ["excusez-moi", "au revoir", "de rien", "bonne nuit"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Excusez-moi se usa para pedir permiso o llamar la atención de alguien."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["saludos", "cortesia"],
+      "difficulty": 2,
+      "speak": "Bonjour, excusez-moi, vous pouvez m'aider, s'il vous plaît ?",
+      "es": "Buenos días, disculpe, ¿puede ayudarme, por favor?",
+      "ipa": "/bɔ̃.ʒuʁ ɛk.sky.ze mwa vu pu.ve mɛ.de sil vu plɛ/",
+      "esApprox": "«bon-YUR eks-kü-ZÉ MUÁ vu pu-VÉ me-DÉ sil vu PLÉ»",
+      "focus": "La u de «vous» y «pouvez» no es la u española: pon la boca de «u» y di «i».",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["saludos"],
+      "difficulty": 2,
+      "prompt": "Son las once de la mañana y te cruzas con tu profesora de francés por la calle. Salúdala.",
+      "modelAnswer": "Bonjour, madame !",
+      "alsoValid": ["Bonjour !"],
+      "speak": "Bonjour, madame !",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["saludos", "cortesia"],
+      "difficulty": 1,
+      "prompt": "¿Es una fórmula para saludar/despedirse o para dar las gracias/pedir disculpas?",
+      "buckets": ["Saludo o despedida", "Cortesía"],
+      "items": [
+        { "text": "bonjour", "bucket": 0 },
+        { "text": "merci beaucoup", "bucket": 1 },
+        { "text": "au revoir", "bucket": 0 },
+        { "text": "pardon", "bucket": 1 },
+        { "text": "bonsoir", "bucket": 0 },
+        { "text": "de rien", "bucket": 1 }
+      ],
+      "explain": "Bonjour, au revoir y bonsoir sirven para saludar o despedirse; merci, pardon y de rien son fórmulas de cortesía."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["saludos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de registro. Corrige la frase entera.",
+      "wrong": "Salut, madame la directrice, comment allez-vous ?",
+      "accept": ["Bonjour, madame la directrice, comment allez-vous ?"],
+      "audio": "Bonjour, madame la directrice, comment allez-vous ?",
+      "explain": "Con una directora, en un registro formal, se usa bonjour, no salut."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "bonjour", "es": "hola, buenos días", "esApprox": "«bon-YUR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "bonsoir", "es": "buenas tardes/noches", "esApprox": "«bon-SUAR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "bonne nuit", "es": "buenas noches (al despedirte)", "esApprox": "«bon NÜI»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "au revoir", "es": "adiós", "esApprox": "«o re-VUAR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "merci beaucoup", "es": "muchas gracias", "esApprox": "«mer-SI bo-KÚ»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "pardon", "es": "perdón", "esApprox": "«par-DÓN»", "from": "v9" },
+    { "id": "s7", "kind": "word", "target": "excusez-moi", "es": "disculpe", "esApprox": "«eks-kü-ZÉ MUÁ»", "from": "v10" },
+    { "id": "s8", "kind": "phrase", "target": "Bonjour, comment allez-vous ?", "es": "Buenos días, ¿cómo está usted?", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Excusez-moi, vous pouvez m'aider, s'il vous plaît ?", "es": "Disculpe, ¿puede ayudarme, por favor?", "from": "e14" }
+  ]
+}

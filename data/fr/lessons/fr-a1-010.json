@@ -1,0 +1,375 @@
+{
+  "id": "fr-a1-010",
+  "lang": "fr",
+  "level": "A1",
+  "order": 10,
+  "title": "El verbo avoir",
+  "objectives": [
+    "Conjugar avoir (tener) en las seis personas del presente",
+    "Usar avoir para la edad y la posesión: j'ai vingt ans, j'ai un frère",
+    "Reconocer expresiones fijas con avoir que en español también usan «tener»: avoir faim, avoir soif, avoir chaud, avoir froid, avoir peur"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El segundo verbo imprescindible",
+      "body": "**Avoir** significa «tener». Ya lo usaste en la clase 5 para decir tu edad (j'ai vingt ans) sin explicarlo del todo; ahora lo ves completo. Igual que être, es muy irregular y muy frecuente: sirve para la edad, para la posesión (j'ai un frère) y para un montón de expresiones fijas que en español también se dicen con «tener»: avoir faim (tener hambre), avoir soif (tener sed), avoir froid (tener frío). Aquí el español ayuda: la lógica es casi idéntica.",
+      "examples": [
+        { "target": "J'ai vingt ans.", "es": "Tengo veinte años.", "note": "edad" },
+        { "target": "J'ai un frère.", "es": "Tengo un hermano.", "note": "posesión" },
+        { "target": "J'ai faim.", "es": "Tengo hambre.", "note": "expresión fija, igual que en español" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Avoir en presente",
+      "headers": ["Persona", "Forma", "Aproximación"],
+      "rows": [
+        ["je", "ai", "«e»"],
+        ["tu", "as", "«a»"],
+        ["il / elle / on", "a", "«a»"],
+        ["nous", "avons", "«a-VÓN»"],
+        ["vous", "avez", "«a-VÉ»"],
+        ["ils / elles", "ont", "«on»"]
+      ],
+      "note": "J'ai se escribe con la e delante del verbo porque je pierde su vocal ante otra vocal: j'ai, no je ai."
+    },
+    {
+      "type": "phonetics",
+      "title": "La liaison que sí distingue singular de plural",
+      "body": "Con être, il y ils sonaban igual. Con avoir no hay ese problema: **il a** y **ils ont** se pronuncian claramente distinto, gracias a la liaison del plural.",
+      "drills": [
+        { "target": "il a", "ipa": "/i.la/", "esApprox": "«i-LÁ»", "hint": "sin enlace especial" },
+        { "target": "ils ont", "ipa": "/il.z‿ɔ̃/", "esApprox": "«il-ZON»", "hint": "aquí sí hay una z de enlace: se nota claramente el plural" },
+        { "target": "nous avons", "ipa": "/nu.z‿a.vɔ̃/", "esApprox": "«nu-za-VÓN»", "hint": "la s de nous suena como z, pegada a avons" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Aquí el español no traiciona: aprovéchalo",
+      "items": [
+        { "wrong": "Buscar una traducción distinta para avoir faim, avoir soif o avoir froid", "right": "avoir faim = tener hambre, avoir soif = tener sed, avoir froid = tener frío", "why": "El francés y el español coinciden: donde el español dice «tener + sensación», el francés dice avoir + la misma sensación. No lo compliques buscando otra estructura." },
+        { "wrong": "J'ai vingt ans → intentar decirlo con être", "right": "la edad siempre va con avoir, nunca con être", "why": "Aunque en otros idiomas la edad se diga con el verbo «ser/estar», en francés (como en español, «tengo... años») siempre es avoir." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Avoir tort es lo contrario de avoir raison: **avoir raison** = tener razón, **avoir tort** = no tener razón, equivocarse. Los dos se construyen igual que avoir faim o avoir peur: avoir + la palabra, sin artículo."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "avoir",
+      "es": "tener",
+      "ipa": "/a.vwaʁ/",
+      "esApprox": "«a-VUÁR»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "J'ai un frère et une sœur.", "es": "Tengo un hermano y una hermana." }
+    },
+    {
+      "id": "v2",
+      "target": "avoir faim",
+      "es": "tener hambre",
+      "ipa": "/a.vwaʁ fɛ̃/",
+      "esApprox": "«a-VUÁR FEN»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "J'ai faim, on mange bientôt ?", "es": "Tengo hambre, ¿comemos pronto?" }
+    },
+    {
+      "id": "v3",
+      "target": "avoir soif",
+      "es": "tener sed",
+      "ipa": "/a.vwaʁ swaf/",
+      "esApprox": "«a-VUÁR SUAF»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Tu as soif ? Il y a de l'eau.", "es": "¿Tienes sed? Hay agua." }
+    },
+    {
+      "id": "v4",
+      "target": "avoir chaud",
+      "es": "tener calor",
+      "ipa": "/a.vwaʁ ʃo/",
+      "esApprox": "«a-VUÁR SHÓ»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "J'ai très chaud aujourd'hui.", "es": "Tengo mucho calor hoy." }
+    },
+    {
+      "id": "v5",
+      "target": "avoir froid",
+      "es": "tener frío",
+      "ipa": "/a.vwaʁ fʁwa/",
+      "esApprox": "«a-VUÁR FRUÁ»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Nous avons froid.", "es": "Tenemos frío." }
+    },
+    {
+      "id": "v6",
+      "target": "avoir raison",
+      "es": "tener razón",
+      "ipa": "/a.vwaʁ ʁɛ.zɔ̃/",
+      "esApprox": "«a-VUÁR re-ZÓN»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Tu as raison.", "es": "Tienes razón." }
+    },
+    {
+      "id": "v7",
+      "target": "avoir tort",
+      "es": "no tener razón, equivocarse",
+      "ipa": "/a.vwaʁ tɔʁ/",
+      "esApprox": "«a-VUÁR TOR»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Il a tort, ce n'est pas ça.", "es": "Se equivoca, no es eso." }
+    },
+    {
+      "id": "v8",
+      "target": "avoir peur",
+      "es": "tener miedo",
+      "ipa": "/a.vwaʁ pœʁ/",
+      "esApprox": "«a-VUÁR PEUR»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Ils ont peur des inconnus.", "es": "Tienen miedo de los desconocidos." }
+    },
+    {
+      "id": "v9",
+      "target": "avoir sommeil",
+      "es": "tener sueño",
+      "ipa": "/a.vwaʁ sɔ.mɛj/",
+      "esApprox": "«a-VUÁR so-MÉY»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "J'ai sommeil, je vais dormir.", "es": "Tengo sueño, me voy a dormir." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["avoir"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma de avoir para «vous»?",
+      "options": ["avez", "avons", "ont", "as"],
+      "answer": 0,
+      "explain": "Vous avez es la forma correcta para vous."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["avoir"],
+      "difficulty": 1,
+      "statement": "«Avoir faim» se traduce literalmente como «tener hambre».",
+      "answer": true,
+      "explain": "Aquí el francés y el español coinciden exactamente."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "statement": "«Avoir raison» y «avoir tort» son opuestos.",
+      "answer": true,
+      "explain": "Avoir raison = tener razón; avoir tort = no tener razón, equivocarse."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas de avoir es plural, a diferencia de las demás?",
+      "options": ["ai", "as", "avons", "a"],
+      "answer": 2,
+      "explain": "Avons es la forma de nous, plural; ai, as y a son singulares."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["avoir"],
+      "difficulty": 1,
+      "prompt": "Une cada frase con su forma de avoir",
+      "left": ["j'ai", "tu as", "nous avons", "ils ont"],
+      "right": ["tienen", "tengo", "tienes", "tenemos"],
+      "answer": [1, 2, 3, 0],
+      "explain": "J'ai = tengo, tu as = tienes, nous avons = tenemos, ils ont = tienen."
+    },
+    {
+      "id": "e6",
+      "type": "conjugation",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "verb": "avoir",
+      "tense": "présent",
+      "prompt": "Conjuga «avoir» en presente",
+      "rows": [
+        { "person": "je", "accept": ["ai"] },
+        { "person": "tu", "accept": ["as"] },
+        { "person": "il / elle", "accept": ["a"] },
+        { "person": "nous", "accept": ["avons"] },
+        { "person": "vous", "accept": ["avez"] },
+        { "person": "ils / elles", "accept": ["ont"] }
+      ],
+      "explain": "Avoir, como être, no se parece a su infinitivo en casi ninguna forma."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "prompt": "Tengo hambre y sed.",
+      "accept": ["J'ai faim et soif"],
+      "hintWords": ["j'ai faim", "soif"],
+      "strictAccents": false,
+      "audio": "J'ai faim et soif.",
+      "explain": "J'ai + faim et soif, sin artículo delante de ninguna de las dos."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "prompt": "Tenemos calor.",
+      "accept": ["Nous avons chaud"],
+      "hintWords": ["nous avons", "chaud"],
+      "strictAccents": false,
+      "audio": "Nous avons chaud.",
+      "explain": "Nous avons + chaud, con la liaison «nu-za-VÓN»."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["avoir"],
+      "difficulty": 1,
+      "prompt": "Completa con la forma correcta de avoir",
+      "text": "Il ___ raison, mais nous ___ un peu froid.",
+      "blanks": [{ "accept": ["a"] }, { "accept": ["avons"] }],
+      "bank": ["a", "as", "avons", "ont"],
+      "explain": "Il a raison (singular), nous avons froid (plural nosotros)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["avoir"],
+      "difficulty": 1,
+      "prompt": "Ils ont peur des inconnus.",
+      "accept": ["Tienen miedo de los desconocidos."],
+      "strictAccents": false,
+      "audio": "Ils ont peur des inconnus.",
+      "explain": "Avoir peur de + algo/alguien = tener miedo de."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación antes de comer",
+      "turns": [
+        { "who": "Léa", "text": "Tu as faim ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai faim.", "Non, mais j'ai soif."], "hint": "di si tienes hambre o sed" },
+        { "who": "Léa", "text": "Moi aussi, j'ai faim !", "speak": true }
+      ],
+      "explain": "Tu as faim ? se responde con j'ai faim (o j'ai soif si es sed lo que tienes)."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["avoir"],
+      "difficulty": 1,
+      "speak": "Nous avons froid.",
+      "mode": "write",
+      "accept": ["Nous avons froid"],
+      "showTextAfter": true,
+      "explain": "Nous avons froid = tenemos frío."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "speak": "Ils ont peur.",
+      "mode": "choose",
+      "options": ["Ils ont peur.", "Il a peur.", "Elle a peur.", "Elles ont peur."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "A diferencia de être, con avoir sí se distingue claramente il a de ils ont, gracias a la liaison."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "speak": "J'ai faim, j'ai soif et j'ai sommeil !",
+      "es": "¡Tengo hambre, tengo sed y tengo sueño!",
+      "ipa": "/ʒe fɛ̃ ʒe swaf e ʒe sɔ.mɛj/",
+      "esApprox": "«ye FEN ye SUAF e ye so-MÉY»",
+      "focus": "J'ai se repite tres veces: acostúmbrate a que suene «ye», rápido y ligero.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "prompt": "Dile a un amigo que tienes frío y que tienes sueño.",
+      "modelAnswer": "J'ai froid et j'ai sommeil.",
+      "alsoValid": ["J'ai froid et sommeil."],
+      "speak": "J'ai froid et j'ai sommeil.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "prompt": "¿Esta forma de avoir es singular o plural?",
+      "buckets": ["Singular", "Plural"],
+      "items": [
+        { "text": "ai", "bucket": 0 },
+        { "text": "avons", "bucket": 1 },
+        { "text": "as", "bucket": 0 },
+        { "text": "ont", "bucket": 1 },
+        { "text": "a", "bucket": 0 },
+        { "text": "avez", "bucket": 1 }
+      ],
+      "explain": "Ai, as y a son singulares (je, tu, il/elle); avons, avez y ont son plurales (nous, vous, ils/elles)."
+    },
+    {
+      "id": "e17",
+      "type": "mcq",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «avoir tort»?",
+      "options": ["tener razón", "tener miedo", "equivocarse, no tener razón", "tener sueño"],
+      "answer": 2,
+      "explain": "Avoir tort es lo contrario de avoir raison."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "prompt": "Hay un error: han usado être en vez de avoir. Corrige la frase entera.",
+      "wrong": "Je suis faim.",
+      "accept": ["J'ai faim"],
+      "audio": "J'ai faim.",
+      "explain": "Faim va siempre con avoir, nunca con être: j'ai faim, no je suis faim."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "avoir", "es": "tener", "esApprox": "«a-VUÁR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "avoir faim", "es": "tener hambre", "esApprox": "«a-VUÁR FEN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "avoir soif", "es": "tener sed", "esApprox": "«a-VUÁR SUAF»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "avoir chaud", "es": "tener calor", "esApprox": "«a-VUÁR SHÓ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "avoir froid", "es": "tener frío", "esApprox": "«a-VUÁR FRUÁ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "avoir raison", "es": "tener razón", "esApprox": "«a-VUÁR re-ZÓN»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "avoir peur", "es": "tener miedo", "esApprox": "«a-VUÁR PEUR»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Nous avons froid.", "es": "Tenemos frío.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "J'ai faim, j'ai soif et j'ai sommeil !", "es": "¡Tengo hambre, tengo sed y tengo sueño!", "from": "e14" }
+  ]
+}

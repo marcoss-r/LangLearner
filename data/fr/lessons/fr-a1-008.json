@@ -1,0 +1,343 @@
+{
+  "id": "fr-a1-008",
+  "lang": "fr",
+  "level": "A1",
+  "order": 8,
+  "title": "Los pronombres personales sujeto",
+  "objectives": [
+    "Conocer los pronombres personales sujeto del francés: je, tu, il, elle, on, nous, vous, ils, elles",
+    "Usar on con el significado de «nosotros» en el francés hablado, sabiendo que se conjuga como il/elle",
+    "Elegir ils o elles según el género del grupo: ils para un grupo mixto o todo masculino, elles solo si es todo femenino"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Nueve pronombres para no dejar nunca el verbo sin sujeto",
+      "body": "Ya sabes que el francés siempre necesita un pronombre delante del verbo. Estos son los nueve pronombres personales sujeto: **je** (yo), **tu** (tú), **il/elle** (él/ella), **on** (uno, la gente; en el habla, «nosotros»), **nous** (nosotros, más formal o escrito), **vous** (usted/vosotros/ustedes), **ils/elles** (ellos/ellas). Delante de vocal, je se convierte en **j'** (j'habite, j'ai).",
+      "examples": [
+        { "target": "Je m'appelle Marco.", "es": "Me llamo Marco.", "note": "je → j' delante de vocal, si el verbo empezara por vocal" },
+        { "target": "On habite à Madrid.", "es": "Vivimos en Madrid.", "note": "on, muy usado en el habla, con forma verbal de il/elle" },
+        { "target": "Ils s'appellent Paul et Marie.", "es": "Se llaman Paul y Marie.", "note": "grupo mixto → ils" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los nueve pronombres",
+      "headers": ["Pronombre", "Significado", "Nota"],
+      "rows": [
+        ["je / j'", "yo", "j' delante de vocal"],
+        ["tu", "tú", "confianza, ver clase 6"],
+        ["il", "él", ""],
+        ["elle", "ella", ""],
+        ["on", "uno, la gente / nosotros", "se conjuga como il/elle"],
+        ["nous", "nosotros", "más formal o escrito que on"],
+        ["vous", "usted / vosotros / ustedes", "formal o plural, ver clase 6"],
+        ["ils", "ellos (o grupo mixto)", ""],
+        ["elles", "ellas (solo si todo el grupo es femenino)", ""]
+      ],
+      "note": "Con un grupo mixto, aunque haya 99 mujeres y un solo hombre, el francés usa ils, igual que el español usa «ellos»."
+    },
+    {
+      "type": "phonetics",
+      "title": "Il y ils suenan igual; elle y elles también",
+      "body": "Un detalle que sorprende: **il** e **ils** se pronuncian exactamente igual (/il/) cuando el verbo que sigue empieza por consonante, porque la -s del plural es muda. Lo mismo pasa con **elle** y **elles** (/ɛl/). Solo se distinguen por el contexto o, delante de un verbo que empieza por vocal, por la liaison: «il habite» (sin enlace) frente a «ils habitent» (con una -s que sí suena, enlazando con la vocal).",
+      "drills": [
+        { "target": "il", "ipa": "/il/", "esApprox": "«il»", "hint": "igual que ils delante de consonante" },
+        { "target": "elle", "ipa": "/ɛl/", "esApprox": "«el»", "hint": "igual que elles delante de consonante" },
+        { "target": "on", "ipa": "/ɔ̃/", "esApprox": "«on», nasal", "hint": "sonido propio, no se confunde con nada más" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En la conversación cotidiana, los franceses dicen **on** muchísimo más que **nous** para decir «nosotros»: «on habite à Paris» suena mucho más natural que «nous habitons à Paris». Nous no desaparece (se usa en registros más cuidados o por escrito), pero acostúmbrate a que on = nosotros en el francés hablado del día a día."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "je / j'",
+      "es": "yo",
+      "ipa": "/ʒə/",
+      "esApprox": "«ye»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Je m'appelle Marco.", "es": "Me llamo Marco." }
+    },
+    {
+      "id": "v2",
+      "target": "tu",
+      "es": "tú",
+      "ipa": "/ty/",
+      "esApprox": "«tü»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Tu habites où ?", "es": "¿Dónde vives?" }
+    },
+    {
+      "id": "v3",
+      "target": "il / elle",
+      "es": "él / ella",
+      "ipa": "/il / ɛl/",
+      "esApprox": "«il» / «el»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Elle s'appelle Camille.", "es": "Se llama Camille." }
+    },
+    {
+      "id": "v4",
+      "target": "on",
+      "es": "uno, la gente; en el habla, nosotros",
+      "ipa": "/ɔ̃/",
+      "esApprox": "«on», nasal",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "On habite à Madrid.", "es": "Vivimos en Madrid." }
+    },
+    {
+      "id": "v5",
+      "target": "nous",
+      "es": "nosotros",
+      "ipa": "/nu/",
+      "esApprox": "«nu»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Nous habitons à Madrid.", "es": "Vivimos en Madrid." }
+    },
+    {
+      "id": "v6",
+      "target": "vous",
+      "es": "usted / vosotros / ustedes",
+      "ipa": "/vu/",
+      "esApprox": "«vu»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Vous habitez où ?", "es": "¿Dónde vive usted? / ¿Dónde vivís?" }
+    },
+    {
+      "id": "v7",
+      "target": "ils / elles",
+      "es": "ellos / ellas",
+      "ipa": "/il / ɛl/",
+      "esApprox": "«il» / «el», igual que il/elle en singular",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Ils s'appellent Paul et Marie.", "es": "Se llaman Paul y Marie." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "prompt": "¿Qué pronombre usan mucho los franceses, en el habla de todos los días, para decir «nosotros»?",
+      "options": ["nous", "on", "vous", "ils"],
+      "answer": 1,
+      "explain": "On es mucho más frecuente que nous en el francés hablado."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Aunque «on» signifique «nosotros», ¿con qué forma verbal se conjuga?",
+      "options": ["la de je", "la de tu", "la de il/elle", "la de nous"],
+      "answer": 2,
+      "explain": "On se conjuga siempre como il o elle, aunque su significado sea «nosotros»."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "statement": "Ils se usa para un grupo formado solo por mujeres.",
+      "answer": false,
+      "explain": "Para un grupo solo femenino se usa elles. Ils es para grupos masculinos o mixtos."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "statement": "Si en un grupo hay una mayoría de mujeres pero al menos un hombre, se usa ils.",
+      "answer": true,
+      "explain": "Basta un solo hombre en el grupo para que el francés use ils, igual que el español usa «ellos»."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estos pronombres es plural, a diferencia de los demás?",
+      "options": ["il", "elle", "on", "ils"],
+      "answer": 3,
+      "explain": "Ils es plural; il, elle y on son singulares (aunque on a veces signifique «nosotros»)."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "prompt": "Une cada pronombre con su significado",
+      "left": ["je", "nous", "il", "elles"],
+      "right": ["ellas", "yo", "nosotros", "él"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Je = yo, nous = nosotros, il = él, elles = ellas."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Ella se llama Camille.",
+      "accept": ["Elle s'appelle Camille"],
+      "hintWords": ["elle s'appelle"],
+      "strictAccents": false,
+      "audio": "Elle s'appelle Camille.",
+      "explain": "Elle = ella; se usa el mismo verbo s'appelle que con il."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Vivimos en Madrid, mi hermano y yo.",
+      "accept": ["On habite à Madrid, mon frère et moi"],
+      "hintWords": ["on habite", "mon frère et moi"],
+      "strictAccents": false,
+      "audio": "On habite à Madrid, mon frère et moi.",
+      "explain": "On + la misma forma verbal que il/elle: on habite, igual que il habite."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Completa hablando de un chico: «___ tiene veinte años»",
+      "text": "___ a vingt ans.",
+      "blanks": [{ "accept": ["Il"] }],
+      "bank": ["Il", "Elle", "Ils"],
+      "explain": "Para un chico se usa il, no elle."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «Ella tiene treinta años»",
+      "tokens": ["trente", "a", "ans", "Elle"],
+      "answer": ["Elle", "a", "trente", "ans"],
+      "audio": "Elle a trente ans.",
+      "explain": "Elle a + edad + ans."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "prompt": "On habite à Barcelone, mon frère et moi.",
+      "accept": ["Vivimos en Barcelona, mi hermano y yo."],
+      "strictAccents": false,
+      "audio": "On habite à Barcelone, mon frère et moi.",
+      "explain": "On aquí significa «nosotros»: es el uso más frecuente en el habla."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación: te preguntan por tu hermana",
+      "turns": [
+        { "who": "Marc", "text": "Et ta sœur, elle s'appelle comment ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Elle s'appelle Julie.", "Elle s'appelle Camille."], "hint": "responde con elle s'appelle" },
+        { "who": "Marc", "text": "Ah, et elle a quel âge ?", "speak": true }
+      ],
+      "explain": "Elle sustituye a «ta sœur» (tu hermana): una vez nombrada, ya no hace falta repetir el sustantivo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "speak": "On habite à Madrid.",
+      "mode": "write",
+      "accept": ["On habite à Madrid"],
+      "showTextAfter": true,
+      "explain": "On habite = vivimos, con forma verbal de il/elle."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "speak": "on",
+      "mode": "choose",
+      "options": ["on", "nous", "vous", "ils"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "On tiene un sonido nasal propio, /ɔ̃/, que no se confunde con los demás pronombres."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "speak": "On habite à Madrid, mon frère et moi.",
+      "es": "Vivimos en Madrid, mi hermano y yo.",
+      "ipa": "/ɔ̃.n‿a.bit a ma.dʁid mɔ̃ fʁɛʁ e mwa/",
+      "esApprox": "«on-na-BIT a ma-DRID mon FRER e MUÁ»",
+      "focus": "On habite se enlaza: la n de on se pega a la a de habite, «on-na-BIT».",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "speak_prompt",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Preséntame a tu hermano: di cómo se llama y cuántos años tiene, usando il.",
+      "modelAnswer": "Il s'appelle Paul, il a trente ans.",
+      "alsoValid": ["Il s'appelle Thomas, il a vingt ans."],
+      "speak": "Il s'appelle Paul, il a trente ans.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "¿Es un pronombre singular o plural (en su forma verbal)?",
+      "buckets": ["Singular (forma verbal)", "Plural (forma verbal)"],
+      "items": [
+        { "text": "je", "bucket": 0 },
+        { "text": "nous", "bucket": 1 },
+        { "text": "il", "bucket": 0 },
+        { "text": "ils", "bucket": 1 },
+        { "text": "on", "bucket": 0 },
+        { "text": "vous", "bucket": 1 }
+      ],
+      "explain": "On, aunque signifique «nosotros», se conjuga en singular. Vous se conjuga siempre en plural, aunque hables con una sola persona de usted."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Hay un error: hablan de la madre, pero usan el pronombre equivocado. Corrige la frase entera.",
+      "wrong": "Il a trente ans, c'est ma mère.",
+      "accept": ["Elle a trente ans, c'est ma mère"],
+      "audio": "Elle a trente ans, c'est ma mère.",
+      "explain": "Ma mère es femenino: hay que usar elle, no il."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "je / j'", "es": "yo", "esApprox": "«ye»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "tu", "es": "tú", "esApprox": "«tü»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "il / elle", "es": "él / ella", "esApprox": "«il» / «el»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "on", "es": "uno, la gente; nosotros", "esApprox": "«on», nasal", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "nous", "es": "nosotros", "esApprox": "«nu»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "ils / elles", "es": "ellos / ellas", "esApprox": "«il» / «el»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "On habite à Madrid.", "es": "Vivimos en Madrid.", "from": "e13" },
+    { "id": "s8", "kind": "phrase", "target": "Elle s'appelle Camille.", "es": "Se llama Camille.", "from": "e7" },
+    { "id": "s9", "kind": "phrase", "target": "On habite à Barcelone, mon frère et moi.", "es": "Vivimos en Barcelona, mi hermano y yo.", "from": "e11" }
+  ]
+}
