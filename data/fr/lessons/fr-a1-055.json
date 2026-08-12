@@ -1,0 +1,267 @@
+{
+  "id": "fr-a1-055",
+  "lang": "fr",
+  "level": "A1",
+  "order": 55,
+  "title": "En la tienda: comprar ropa y hablar de tallas y precios",
+  "objectives": [
+    "Pedir ayuda y una talla en una tienda de ropa: je cherche, quelle taille ?",
+    "Preguntar el precio: c'est combien ?, ça coûte combien ?",
+    "Decidir si te llevas algo: je le prends / je ne le prends pas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una conversación completa en la tienda",
+      "body": "Con las fórmulas de esta clase puedes desenvolverte en cualquier tienda de ropa: buscar una prenda, pedir tu talla, preguntar el precio y decidir si te la llevas.",
+      "examples": [
+        { "target": "Je cherche un pantalon noir.", "es": "Busco un pantalón negro.", "note": "je cherche + prenda" },
+        { "target": "C'est combien ?", "es": "¿Cuánto cuesta?", "note": "pregunta por el precio" },
+        { "target": "Je le prends.", "es": "Me lo llevo.", "note": "le sustituye a la prenda (masculino); lo verás a fondo en la clase 82" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para la tienda",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["je cherche...", "busco..."],
+        ["quelle taille ?", "¿qué talla?"],
+        ["je peux essayer ?", "¿puedo probármelo?"],
+        ["la cabine d'essayage", "el probador"],
+        ["c'est combien ? / ça coûte combien ?", "¿cuánto cuesta?"],
+        ["c'est trop cher", "es demasiado caro"],
+        ["en solde", "de rebajas"],
+        ["je le prends / je ne le prends pas", "me lo llevo / no me lo llevo"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Combien va con verbo, no solo con sustantivo",
+      "items": [
+        { "wrong": "Combien le pantalon ? (sin verbo)", "right": "Il coûte combien, le pantalon ? / C'est combien ?", "why": "A diferencia de una pregunta reducida en español («¿cuánto el pantalón?»), el francés necesita un verbo: coûter (costar) o être. Combien seul suena incompleto." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Je le prends usa le para sustituir a la prenda ya mencionada (un pantalon → le). Es un adelanto de los pronombres COD que verás a fondo en la clase 82; de momento, apréndelo como fórmula fija para decidir en una tienda."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je cherche", "es": "busco", "ipa": "/ʒə ʃɛʁʃ/", "esApprox": "«ye SHERSH»", "pos": "expresión", "gender": null, "example": { "target": "Je cherche un pantalon noir.", "es": "Busco un pantalón negro." } },
+    { "id": "v2", "target": "quelle taille ?", "es": "¿qué talla?", "ipa": "/kɛl taj/", "esApprox": "«kel TÁY»", "pos": "expresión", "gender": null, "example": { "target": "Quelle taille faites-vous ?", "es": "¿Qué talla tiene usted?" } },
+    { "id": "v3", "target": "je peux essayer ?", "es": "¿puedo probármelo?", "ipa": "/ʒə pø e.se.je/", "esApprox": "«ye peu e-se-YÉ»", "pos": "expresión", "gender": null, "example": { "target": "Je peux essayer cette robe ?", "es": "¿Puedo probarme este vestido?" } },
+    { "id": "v4", "target": "la cabine d'essayage", "es": "el probador", "ipa": "/la ka.bin de.sɛ.jaʒ/", "esApprox": "«la ka-BIN de-se-YAY»", "pos": "sustantivo", "gender": "f", "plural": "les cabines d'essayage", "example": { "target": "La cabine d'essayage est là-bas.", "es": "El probador está allí." } },
+    { "id": "v5", "target": "c'est combien ? / ça coûte combien ?", "es": "¿cuánto cuesta?", "ipa": "/sɛ kɔ̃.bjɛ̃/", "esApprox": "«se kon-BIÉN»", "pos": "expresión", "gender": null, "example": { "target": "Ce pull, c'est combien ?", "es": "¿Cuánto cuesta este jersey?" } },
+    { "id": "v6", "target": "c'est trop cher", "es": "es demasiado caro", "ipa": "/sɛ tʁo ʃɛʁ/", "esApprox": "«se tro SHER»", "pos": "expresión", "gender": null, "example": { "target": "C'est trop cher pour moi.", "es": "Es demasiado caro para mí." } },
+    { "id": "v7", "target": "en solde", "es": "de rebajas", "ipa": "/ɑ̃ sɔld/", "esApprox": "«an SOLD»", "pos": "expresión", "gender": null, "example": { "target": "Cette robe est en solde.", "es": "Este vestido está de rebajas." } },
+    { "id": "v8", "target": "je le prends / je ne le prends pas", "es": "me lo llevo / no me lo llevo", "ipa": "/ʒə lə pʁɑ̃/", "esApprox": "«ye le PRAN»", "pos": "expresión", "gender": null, "example": { "target": "C'est parfait, je le prends.", "es": "Es perfecto, me lo llevo." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["compras"],
+      "difficulty": 1,
+      "prompt": "¿Cómo preguntas el precio de algo?",
+      "options": ["Quelle taille ?", "C'est combien ?", "Je le prends.", "C'est trop cher."],
+      "answer": 1,
+      "explain": "C'est combien ? = ¿cuánto cuesta?"
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "¿Dónde te pruebas la ropa en una tienda?",
+      "options": ["à la caisse", "dans la cabine d'essayage", "à l'entrée", "au marché"],
+      "answer": 1,
+      "explain": "La cabine d'essayage = el probador."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "statement": "Se puede preguntar el precio sin verbo: «Combien le pantalon ?».",
+      "answer": false,
+      "explain": "El francés necesita un verbo: c'est combien ? o il coûte combien ?"
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones NO tiene que ver con el precio, a diferencia de las demás?",
+      "options": ["c'est combien ?", "c'est trop cher", "en solde", "quelle taille ?"],
+      "answer": 3,
+      "explain": "Quelle taille ? pregunta por la talla, no por el precio."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["compras"],
+      "difficulty": 1,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["je cherche", "en solde", "c'est trop cher", "je le prends"],
+      "right": ["me lo llevo", "busco", "de rebajas", "es demasiado caro"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Je cherche = busco, en solde = de rebajas, c'est trop cher = es caro, je le prends = me lo llevo."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Busco un vestido azul. ¿Puedo probármelo?",
+      "accept": ["Je cherche une robe bleue. Je peux essayer ?"],
+      "hintWords": ["je cherche", "je peux essayer"],
+      "strictAccents": false,
+      "audio": "Je cherche une robe bleue. Je peux essayer ?",
+      "explain": "Je cherche + prenda, je peux essayer + petición."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Es demasiado caro, no me lo llevo.",
+      "accept": ["C'est trop cher, je ne le prends pas"],
+      "hintWords": ["c'est trop cher", "je ne le prends pas"],
+      "strictAccents": false,
+      "audio": "C'est trop cher, je ne le prends pas.",
+      "explain": "C'est trop cher + je ne le prends pas."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en la tienda",
+      "text": "— ___ taille faites-vous ? — Je fais du quarante.",
+      "blanks": [{ "accept": ["Quelle"] }],
+      "bank": ["Quelle", "Comment", "Combien"],
+      "explain": "Quelle taille ? es la pregunta correcta para la talla."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Este jersey está de rebajas»",
+      "tokens": ["en solde", "Ce pull", "est"],
+      "answer": ["Ce pull", "est", "en solde"],
+      "audio": "Ce pull est en solde.",
+      "explain": "Ce pull est en solde: estructura simple con être."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["compras"],
+      "difficulty": 1,
+      "prompt": "Cette robe est en solde, elle n'est pas trop chère. Je la prends !",
+      "accept": ["Este vestido está de rebajas, no es demasiado caro. ¡Me lo llevo!"],
+      "strictAccents": false,
+      "audio": "Cette robe est en solde, elle n'est pas trop chère. Je la prends !",
+      "explain": "Je la prends: le se convierte en la porque robe es femenino."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en una tienda de ropa",
+      "turns": [
+        { "who": "Vendeuse", "text": "Bonjour, je peux vous aider ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je cherche un pantalon noir.", "Je cherche une robe bleue."], "hint": "di qué buscas" },
+        { "who": "Vendeuse", "text": "Quelle taille faites-vous ?", "speak": true }
+      ],
+      "explain": "Je cherche + prenda es la respuesta natural a una oferta de ayuda."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "speak": "Ce pantalon, c'est combien ? — Il coûte quarante euros.",
+      "mode": "write",
+      "accept": ["Ce pantalon, c'est combien ? — Il coûte quarante euros"],
+      "showTextAfter": true,
+      "explain": "C'est combien ? y la respuesta con coûter."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "speak": "je le prends",
+      "mode": "choose",
+      "options": ["je le prends", "c'est trop cher", "je cherche", "en solde"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Je le prends = me lo llevo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["compras"],
+      "difficulty": 3,
+      "speak": "Je cherche un pull. Je peux essayer ? C'est combien ? Parfait, je le prends.",
+      "es": "Busco un jersey. ¿Puedo probármelo? ¿Cuánto cuesta? Perfecto, me lo llevo.",
+      "ipa": "/ʒə ʃɛʁʃ œ̃ pyl ʒə pø e.se.je sɛ kɔ̃.bjɛ̃ paʁ.fɛ ʒə lə pʁɑ̃/",
+      "esApprox": "«ye SHERSH un PÜL ye peu e-se-YÉ se kon-BIÉN par-FÉ ye le PRAN»",
+      "focus": "Una conversación de compra completa, de principio a fin.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Estás en una tienda: di qué buscas y pregunta el precio.",
+      "modelAnswer": "Je cherche une chemise blanche. C'est combien ?",
+      "alsoValid": ["Je cherche des chaussures noires. Ça coûte combien ?"],
+      "speak": "Je cherche une chemise blanche. C'est combien ?",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "¿Es para pedir ayuda/talla o para hablar de precio?",
+      "buckets": ["Ayuda/talla", "Precio"],
+      "items": [
+        { "text": "je cherche", "bucket": 0 },
+        { "text": "c'est combien ?", "bucket": 1 },
+        { "text": "quelle taille ?", "bucket": 0 },
+        { "text": "c'est trop cher", "bucket": 1 },
+        { "text": "je peux essayer ?", "bucket": 0 },
+        { "text": "en solde", "bucket": 1 }
+      ],
+      "explain": "Tres expresiones para pedir ayuda o talla, tres para hablar de precio."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Hay un error: falta el verbo. Corrige la frase entera.",
+      "wrong": "Combien le pantalon ?",
+      "accept": ["Il coûte combien, le pantalon ?", "C'est combien, le pantalon ?"],
+      "audio": "Il coûte combien, le pantalon ?",
+      "explain": "Hace falta un verbo (coûter o être) para preguntar el precio."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "je cherche", "es": "busco", "esApprox": "«ye SHERSH»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "quelle taille ?", "es": "¿qué talla?", "esApprox": "«kel TÁY»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "je peux essayer ?", "es": "¿puedo probármelo?", "esApprox": "«ye peu e-se-YÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "c'est combien ?", "es": "¿cuánto cuesta?", "esApprox": "«se kon-BIÉN»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "c'est trop cher", "es": "es demasiado caro", "esApprox": "«se tro SHER»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "en solde", "es": "de rebajas", "esApprox": "«an SOLD»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "je le prends", "es": "me lo llevo", "esApprox": "«ye le PRAN»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Je cherche un pantalon noir.", "es": "Busco un pantalón negro.", "from": "v1" },
+    { "id": "s9", "kind": "phrase", "target": "Je cherche un pull. Je peux essayer ? C'est combien ? Parfait, je le prends.", "es": "Busco un jersey. ¿Puedo probármelo? ¿Cuánto cuesta? Perfecto, me lo llevo.", "from": "e14" }
+  ]
+}

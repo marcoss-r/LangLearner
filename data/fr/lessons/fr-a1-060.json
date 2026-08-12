@@ -1,0 +1,287 @@
+{
+  "id": "fr-a1-060",
+  "lang": "fr",
+  "level": "A1",
+  "order": 60,
+  "title": "Repaso activo IV (clases 47–59)",
+  "objectives": [
+    "Repasar la casa, los muebles y las estructuras il y a / c'est / il est",
+    "Repasar las preposiciones de lugar, la ciudad, las direcciones y el transporte",
+    "Repasar la ropa, la comida, los partitivos y el restaurante"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque E (casa, ciudad y comida)",
+      "body": "Sin gramática nueva. Este bloque ha cubierto mucho vocabulario (casa, muebles, ciudad, ropa, comida) y estructuras clave (il y a/c'est/il est, preposiciones de lugar, partitivos). Repasa las tablas y practica con calma."
+    },
+    {
+      "type": "table",
+      "title": "Il y a, c'est, il est",
+      "headers": ["Estructura", "Uso", "Ejemplo"],
+      "rows": [
+        ["il y a", "existencia (hay)", "Il y a un lit dans la chambre."],
+        ["c'est / ce sont", "identificar (esto es)", "C'est ma chambre. Ce sont mes livres."],
+        ["il est / elle est", "describir con adjetivo", "Il est grand, le salon."]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Preposiciones de lugar y direcciones",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["sur / sous", "encima de / debajo de"],
+        ["devant / derrière", "delante de / detrás de"],
+        ["à côté de / en face de", "al lado de / enfrente de"],
+        ["tout droit / à gauche / à droite", "todo recto / a la izquierda / a la derecha"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la chambre", "es": "el dormitorio", "ipa": "/la ʃɑ̃bʁ/", "esApprox": "«la SHAMBR»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v2", "target": "il y a", "es": "hay", "ipa": "/il i a/", "esApprox": "«il i A»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "à côté de", "es": "al lado de", "ipa": "/a ko.te də/", "esApprox": "«a ko-TE de»", "pos": "preposición", "gender": null },
+    { "id": "v4", "target": "tout droit", "es": "todo recto", "ipa": "/tu dʁwa/", "esApprox": "«tu DRUÁ»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "en voiture / à pied", "es": "en coche / a pie", "ipa": "/ɑ̃ vwa.tyʁ a pje/", "esApprox": "«an vuá-TÜR a PIÉ»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "le pantalon", "es": "el pantalón", "ipa": "/lə pɑ̃.ta.lɔ̃/", "esApprox": "«le pan-ta-LÓN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v7", "target": "c'est combien ?", "es": "¿cuánto cuesta?", "ipa": "/sɛ kɔ̃.bjɛ̃/", "esApprox": "«se kon-BIÉN»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "du / de la / de l' / des", "es": "(artículo partitivo)", "ipa": "/dy də la də l de/", "esApprox": "«dü de la de l de»", "pos": "artículo", "gender": null },
+    { "id": "v9", "target": "l'addition", "es": "la cuenta", "ipa": "/la.di.sjɔ̃/", "esApprox": "«la-di-SIÓN»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v10", "target": "le petit-déjeuner", "es": "el desayuno", "ipa": "/lə pə.ti de.ʒœ.ne/", "esApprox": "«le peti de-YEU-ne»", "pos": "sustantivo", "gender": "m" }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "¿Qué estructura usas para decir «hay un sofá en el salón»?",
+      "options": ["C'est un canapé", "Il y a un canapé", "Il est un canapé", "Ce sont un canapé"],
+      "answer": 1,
+      "explain": "Repaso de la clase 49: il y a = hay."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «debajo de la mesa»?",
+      "options": ["sur la table", "devant la table", "sous la table", "derrière la table"],
+      "answer": 2,
+      "explain": "Repaso de la clase 50: sous = debajo de."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "statement": "Tout droit significa «a la derecha».",
+      "answer": false,
+      "explain": "Tout droit = todo recto; à droite = a la derecha."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "statement": "Se usa le/la para el gusto general y du/de la para una cantidad concreta.",
+      "answer": true,
+      "explain": "Repaso de las clases 56-57: j'aime le fromage / je mange du fromage."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos no es un medio de transporte?",
+      "options": ["le bus", "le métro", "à pied", "l'addition"],
+      "answer": 3,
+      "explain": "L'addition es la cuenta del restaurante, no un transporte."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["casa", "muebles"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["la chambre", "le canapé", "la cuisine", "l'armoire"],
+      "right": ["el armario", "el sofá", "el dormitorio", "la cocina"],
+      "answer": [2, 1, 3, 0],
+      "explain": "Repaso de las clases 47 y 48."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Perdone, ¿para ir a la estación? Todo recto, y luego a la derecha.",
+      "accept": ["Excusez-moi, pour aller à la gare ? Tout droit, et ensuite à droite"],
+      "hintWords": ["pour aller à la gare", "tout droit", "à droite"],
+      "strictAccents": false,
+      "audio": "Excusez-moi, pour aller à la gare ? Tout droit, et ensuite à droite.",
+      "explain": "Repaso de la clase 52."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["comida", "partitivos"],
+      "difficulty": 2,
+      "prompt": "Como pan con mantequilla y bebo café.",
+      "accept": ["Je mange du pain avec du beurre et je bois du café"],
+      "hintWords": ["je mange du pain", "je bois du café"],
+      "strictAccents": false,
+      "audio": "Je mange du pain avec du beurre et je bois du café.",
+      "explain": "Repaso de las clases 57 y 59."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["preposiciones-lugar"],
+      "difficulty": 2,
+      "prompt": "Completa con la preposición correcta",
+      "text": "Le canapé est ___ la fenêtre et ___ la table.",
+      "blanks": [{ "accept": ["à côté de"] }, { "accept": ["devant"] }],
+      "bank": ["à côté de", "devant", "sous"],
+      "explain": "Repaso de la clase 50."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La cuenta, por favor»",
+      "tokens": ["s'il vous plaît", "L'addition", ","],
+      "answer": ["L'addition", ",", "s'il vous plaît"],
+      "audio": "L'addition, s'il vous plaît.",
+      "explain": "Repaso de la clase 58."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["compras", "ropa"],
+      "difficulty": 2,
+      "prompt": "Ce pantalon, c'est combien ? — Il coûte quarante euros.",
+      "accept": ["Este pantalón, ¿cuánto cuesta? — Cuesta cuarenta euros."],
+      "strictAccents": false,
+      "audio": "Ce pantalon, c'est combien ? — Il coûte quarante euros.",
+      "explain": "Repaso de la clase 55."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre cómo vas al trabajo",
+      "turns": [
+        { "who": "Léa", "text": "Comment tu vas au travail ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je vais au travail en bus.", "Je vais au travail à pied."], "hint": "usa un medio de transporte" },
+        { "who": "Léa", "text": "D'accord, moi je prends le métro.", "speak": true }
+      ],
+      "explain": "Repaso de la clase 53."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "speak": "Il y a un lit et une armoire dans la chambre.",
+      "mode": "write",
+      "accept": ["Il y a un lit et une armoire dans la chambre"],
+      "showTextAfter": true,
+      "explain": "Repaso de las clases 47-49."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["partitivos"],
+      "difficulty": 1,
+      "speak": "de l'eau",
+      "mode": "choose",
+      "options": ["du eau", "de la eau", "de l'eau", "des eau"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase 57."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["restaurante", "comida"],
+      "difficulty": 3,
+      "speak": "Bonsoir, une table pour deux. Je voudrais du poulet et de l'eau, et l'addition à la fin, s'il vous plaît.",
+      "es": "Buenas noches, una mesa para dos. Querría pollo y agua, y la cuenta al final, por favor.",
+      "ipa": "/bɔ̃.swaʁ yn tabl puʁ dø ʒə vu.dʁɛ dy pu.lɛ e də lo e la.di.sjɔ̃ a la fɛ̃ sil vu plɛ/",
+      "esApprox": "«bon-SUÁR ün TABL pur DEU ye vu-DRE dü pu-LÉ e de LO e la-di-SIÓN a la FEN sil vu PLE»",
+      "focus": "Frase larga combinando restaurante, partitivos y la cuenta.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "speak_prompt",
+      "tags": ["ciudad", "direcciones"],
+      "difficulty": 2,
+      "prompt": "Describe cómo llegar de tu casa a un lugar de la ciudad.",
+      "modelAnswer": "Pour aller à la gare, c'est tout droit, puis à gauche.",
+      "alsoValid": ["Je vais au travail en bus, c'est à côté de la gare."],
+      "speak": "Pour aller à la gare, c'est tout droit, puis à gauche.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["ciudad", "casa"],
+      "difficulty": 2,
+      "prompt": "¿Es un lugar de la ciudad o una habitación de la casa?",
+      "buckets": ["Ciudad", "Casa"],
+      "items": [
+        { "text": "la banque", "bucket": 0 },
+        { "text": "la chambre", "bucket": 1 },
+        { "text": "la gare", "bucket": 0 },
+        { "text": "la cuisine", "bucket": 1 }
+      ],
+      "explain": "Repaso combinado de las clases 47 y 51."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["cest-il-est"],
+      "difficulty": 2,
+      "prompt": "Hay un error de estructura. Corrige la frase entera.",
+      "wrong": "Il y a mes livres sur la table.",
+      "accept": ["Ce sont mes livres sur la table"],
+      "audio": "Ce sont mes livres sur la table.",
+      "explain": "Con posesivo (mes livres) se usa c'est/ce sont, no il y a."
+    },
+    {
+      "id": "e19",
+      "type": "gender_article",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto",
+      "items": [
+        { "word": "pantalon", "options": ["le", "la"], "answer": 0 },
+        { "word": "chemise", "options": ["le", "la"], "answer": 1 }
+      ],
+      "explain": "Le pantalon (masculino), la chemise (femenino)."
+    },
+    {
+      "id": "e20",
+      "type": "mcq",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «el desayuno»?",
+      "options": ["le déjeuner", "le dîner", "le petit-déjeuner", "le goûter"],
+      "answer": 2,
+      "explain": "Le petit-déjeuner = el desayuno."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "il y a", "es": "hay", "esApprox": "«il i A»", "from": "v2" },
+    { "id": "s2", "kind": "word", "target": "à côté de", "es": "al lado de", "esApprox": "«a ko-TE de»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "tout droit", "es": "todo recto", "esApprox": "«tu DRUÁ»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "c'est combien ?", "es": "¿cuánto cuesta?", "esApprox": "«se kon-BIÉN»", "from": "v7" },
+    { "id": "s5", "kind": "word", "target": "l'addition", "es": "la cuenta", "esApprox": "«la-di-SIÓN»", "from": "v9" },
+    { "id": "s6", "kind": "word", "target": "le petit-déjeuner", "es": "el desayuno", "esApprox": "«le peti de-YEU-ne»", "from": "v10" },
+    { "id": "s7", "kind": "phrase", "target": "Excusez-moi, pour aller à la gare ? Tout droit, et ensuite à droite.", "es": "Perdone, ¿para ir a la estación? Todo recto, y luego a la derecha.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Je mange du pain avec du beurre et je bois du café.", "es": "Como pan con mantequilla y bebo café.", "from": "e8" }
+  ]
+}

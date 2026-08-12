@@ -1,0 +1,263 @@
+{
+  "id": "fr-a1-051",
+  "lang": "fr",
+  "level": "A1",
+  "order": 51,
+  "title": "La ciudad y los lugares públicos",
+  "objectives": [
+    "Nombrar los lugares públicos más frecuentes de una ciudad",
+    "Combinar este vocabulario con las contracciones au/à la/à l' ya conocidas",
+    "Usar il y a para decir qué lugares hay en una ciudad o barrio"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los lugares de la ciudad",
+      "body": "Con este vocabulario puedes describir tu ciudad o preguntar por lugares cuando viajas. Todo se combina con lo que ya sabes: aller à/au/à la (clase 36), il y a (clase 49).",
+      "examples": [
+        { "target": "Il y a une pharmacie près d'ici.", "es": "Hay una farmacia cerca de aquí.", "note": "il y a + lugar" },
+        { "target": "Je vais à la banque.", "es": "Voy al banco.", "note": "aller à la + lugar femenino" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la ciudad",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["la banque", "el banco"],
+        ["la pharmacie", "la farmacia"],
+        ["l'hôpital", "el hospital"],
+        ["la poste", "la oficina de correos"],
+        ["le marché", "el mercado"],
+        ["le parc", "el parque"],
+        ["la gare", "la estación (de tren)"],
+        ["la place", "la plaza"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "La gare no es solo «una parada»",
+      "items": [
+        { "wrong": "Confundir la gare con l'arrêt de bus", "right": "la gare = estación de tren; l'arrêt = parada de autobús", "why": "En francés hay palabras distintas según el medio de transporte: la gare es solo para trenes (y a veces autobuses de largo recorrido), mientras que una parada de autobús urbano es un arrêt. Lo verás con más detalle en la clase 53." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Près d'ici (cerca de aquí) y loin d'ici (lejos de aquí) son expresiones muy útiles para preguntar por la distancia a un lugar: Il y a une pharmacie près d'ici ?"
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la banque", "es": "el banco", "ipa": "/la bɑ̃k/", "esApprox": "«la BANK»", "pos": "sustantivo", "gender": "f", "plural": "les banques", "example": { "target": "Je vais à la banque.", "es": "Voy al banco." } },
+    { "id": "v2", "target": "la pharmacie", "es": "la farmacia", "ipa": "/la faʁ.ma.si/", "esApprox": "«la far-ma-SÍ»", "pos": "sustantivo", "gender": "f", "plural": "les pharmacies", "example": { "target": "Il y a une pharmacie près d'ici.", "es": "Hay una farmacia cerca de aquí." } },
+    { "id": "v3", "target": "l'hôpital", "es": "el hospital", "ipa": "/lo.pi.tal/", "esApprox": "«lo-pi-TAL»", "pos": "sustantivo", "gender": "m", "plural": "les hôpitaux", "example": { "target": "L'hôpital est grand.", "es": "El hospital es grande." } },
+    { "id": "v4", "target": "la poste", "es": "la oficina de correos", "ipa": "/la pɔst/", "esApprox": "«la POST»", "pos": "sustantivo", "gender": "f", "plural": "les postes", "example": { "target": "La poste est fermée.", "es": "Correos está cerrado." } },
+    { "id": "v5", "target": "le marché", "es": "el mercado", "ipa": "/lə maʁ.ʃe/", "esApprox": "«le mar-SHÉ»", "pos": "sustantivo", "gender": "m", "plural": "les marchés", "example": { "target": "Le marché est le samedi.", "es": "El mercado es los sábados." } },
+    { "id": "v6", "target": "le parc", "es": "el parque", "ipa": "/lə paʁk/", "esApprox": "«le PARK»", "pos": "sustantivo", "gender": "m", "plural": "les parcs", "example": { "target": "Le parc est joli.", "es": "El parque es bonito." } },
+    { "id": "v7", "target": "la gare", "es": "la estación (de tren)", "ipa": "/la ɡaʁ/", "esApprox": "«la GAR»", "pos": "sustantivo", "gender": "f", "plural": "les gares", "example": { "target": "La gare est loin d'ici.", "es": "La estación está lejos de aquí." } },
+    { "id": "v8", "target": "la place", "es": "la plaza", "ipa": "/la plas/", "esApprox": "«la PLAS»", "pos": "sustantivo", "gender": "f", "plural": "les places", "example": { "target": "La place est au centre.", "es": "La plaza está en el centro." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «farmacia»?",
+      "options": ["la banque", "la pharmacie", "la poste", "le marché"],
+      "answer": 1,
+      "explain": "La pharmacie = la farmacia."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «voy al banco»?",
+      "options": ["Je vais au banque.", "Je vais à la banque.", "Je vais banque.", "Je vais la banque."],
+      "answer": 1,
+      "explain": "Banque es femenino: à la banque, sin contraer."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "statement": "La gare es solo para autobuses urbanos.",
+      "answer": false,
+      "explain": "La gare es para trenes; la parada de autobús urbano es un arrêt."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos lugares es masculino, a diferencia de los demás?",
+      "options": ["la banque", "la pharmacie", "le parc", "la poste"],
+      "answer": 2,
+      "explain": "Le parc es masculino; las otras tres son femeninas."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["l'hôpital", "le marché", "la gare", "la place"],
+      "right": ["la plaza", "el hospital", "el mercado", "la estación"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Hôpital = hospital, marché = mercado, gare = estación, place = plaza."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Hay una farmacia y un banco cerca de aquí.",
+      "accept": ["Il y a une pharmacie et une banque près d'ici"],
+      "hintWords": ["il y a", "près d'ici"],
+      "strictAccents": false,
+      "audio": "Il y a une pharmacie et une banque près d'ici.",
+      "explain": "Il y a + dos lugares + près d'ici."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Voy al mercado y luego al parque.",
+      "accept": ["Je vais au marché et ensuite au parc"],
+      "hintWords": ["au marché", "au parc"],
+      "strictAccents": false,
+      "audio": "Je vais au marché et ensuite au parc.",
+      "explain": "Marché y parc son masculinos: au marché, au parc."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Completa con la preposición correcta",
+      "text": "Je vais ___ pharmacie, puis ___ hôpital.",
+      "blanks": [{ "accept": ["à la"] }, { "accept": ["à l'"] }],
+      "bank": ["à la", "à l'", "au"],
+      "explain": "À la pharmacie (femenino), à l'hôpital (empieza por vocal)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La estación está lejos de aquí»",
+      "tokens": ["loin d'ici", "La gare", "est"],
+      "answer": ["La gare", "est", "loin d'ici"],
+      "audio": "La gare est loin d'ici.",
+      "explain": "Loin d'ici = lejos de aquí."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "prompt": "La place est au centre, entre la banque et la poste.",
+      "accept": ["La plaza está en el centro, entre el banco y correos."],
+      "strictAccents": false,
+      "audio": "La place est au centre, entre la banque et la poste.",
+      "explain": "Entre (clase 50) + dos lugares."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación preguntando por una farmacia",
+      "turns": [
+        { "who": "Toi", "blank": true, "accept": ["Il y a une pharmacie près d'ici ?", "Où est la pharmacie, s'il vous plaît ?"], "hint": "pregunta por una farmacia cercana" },
+        { "who": "Passant", "text": "Oui, à côté de la banque.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Merci beaucoup !"], "hint": "da las gracias" }
+      ],
+      "explain": "Il y a...? y à côté de... son fórmulas útiles para preguntar y responder por lugares."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "speak": "Le marché est sur la place, en face de la poste.",
+      "mode": "write",
+      "accept": ["Le marché est sur la place, en face de la poste"],
+      "showTextAfter": true,
+      "explain": "Repaso de preposiciones de lugar (clase 50) aplicadas a la ciudad."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "speak": "l'hôpital",
+      "mode": "choose",
+      "options": ["l'hôpital", "l'école", "la banque", "le parc"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "L'hôpital = el hospital."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["ciudad"],
+      "difficulty": 3,
+      "speak": "Dans ma ville, il y a une gare, un marché, un parc et une belle place.",
+      "es": "En mi ciudad hay una estación, un mercado, un parque y una plaza bonita.",
+      "ipa": "/dɑ̃ ma vil i.l‿i.a yn ɡaʁ œ̃ maʁ.ʃe œ̃ paʁk e yn bɛl plas/",
+      "esApprox": "«dan ma VIL il-YÁ ün GAR un mar-SHÉ un PARK e ün bel PLAS»",
+      "focus": "Il y a enumerando cuatro lugares seguidos, con sus artículos correctos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Describe qué lugares hay en tu ciudad.",
+      "modelAnswer": "Dans ma ville, il y a une gare, un parc et un marché.",
+      "alsoValid": ["Il y a une pharmacie, une banque et une poste près de chez moi."],
+      "speak": "Dans ma ville, il y a une gare, un parc et un marché.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "gender_article",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto",
+      "items": [
+        { "word": "banque", "options": ["le", "la"], "answer": 1 },
+        { "word": "parc", "options": ["le", "la"], "answer": 0 },
+        { "word": "gare", "options": ["le", "la"], "answer": 1 },
+        { "word": "hôpital", "options": ["le", "la", "l'"], "answer": 2, "hint": "empieza por vocal" }
+      ],
+      "explain": "Banque y gare son femeninas, parc es masculino, hôpital lleva l'."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Hay un error de contracción. Corrige la frase entera.",
+      "wrong": "Je vais à le marché.",
+      "accept": ["Je vais au marché"],
+      "audio": "Je vais au marché.",
+      "explain": "À + le se contrae en au: au marché."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la banque", "es": "el banco", "esApprox": "«la BANK»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "la pharmacie", "es": "la farmacia", "esApprox": "«la far-ma-SÍ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "l'hôpital", "es": "el hospital", "esApprox": "«lo-pi-TAL»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "la poste", "es": "correos", "esApprox": "«la POST»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "le marché", "es": "el mercado", "esApprox": "«le mar-SHÉ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "la gare", "es": "la estación", "esApprox": "«la GAR»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "la place", "es": "la plaza", "esApprox": "«la PLAS»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Il y a une pharmacie près d'ici ?", "es": "¿Hay una farmacia cerca de aquí?", "from": "e11" },
+    { "id": "s9", "kind": "phrase", "target": "Dans ma ville, il y a une gare, un marché, un parc et une belle place.", "es": "En mi ciudad hay una estación, un mercado, un parque y una plaza bonita.", "from": "e14" }
+  ]
+}

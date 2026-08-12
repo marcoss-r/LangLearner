@@ -1,0 +1,265 @@
+{
+  "id": "fr-a1-054",
+  "lang": "fr",
+  "level": "A1",
+  "order": 54,
+  "title": "La ropa",
+  "objectives": [
+    "Nombrar las prendas de ropa más frecuentes",
+    "Usar porter (llevar puesto) para describir qué ropa lleva alguien",
+    "Combinar la ropa con los colores ya conocidos: une chemise bleue"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Porter: llevar puesto",
+      "body": "Para decir qué ropa llevas puesta, se usa el verbo **porter** (llevar puesto), un verbo -er regular como los de la clase 33.",
+      "examples": [
+        { "target": "Je porte un pantalon noir.", "es": "Llevo un pantalón negro.", "note": "porter + prenda + color" },
+        { "target": "Elle porte une robe bleue.", "es": "Lleva un vestido azul.", "note": "robe (femenino) + bleue" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la ropa",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["un pantalon", "un pantalón"],
+        ["une chemise", "una camisa"],
+        ["un t-shirt", "una camiseta"],
+        ["une robe", "un vestido"],
+        ["des chaussures", "unos zapatos"],
+        ["un manteau", "un abrigo"],
+        ["un pull", "un jersey"],
+        ["une jupe", "una falda"]
+      ],
+      "note": "Des chaussures va siempre en plural: un solo zapato es une chaussure, pero casi siempre se habla de los dos."
+    },
+    {
+      "type": "contrast",
+      "title": "Porter no es solo «llevar» en sentido de transportar",
+      "items": [
+        { "wrong": "Confundir porter (llevar puesto) con apporter (llevar/traer algo)", "right": "je porte une chemise (llevo puesta una camisa) frente a j'apporte un cadeau (traigo un regalo)", "why": "Porter, sin más, se refiere sobre todo a la ropa que llevas puesta. Para llevar/traer un objeto de un sitio a otro se usa apporter." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Recuerda combinar la ropa con los colores (clase 24) y concordar el color en género: un pull bleu (masculino) frente a une chemise bleue (femenino, con -e)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "un pantalon", "es": "un pantalón", "ipa": "/œ̃ pɑ̃.ta.lɔ̃/", "esApprox": "«un pan-ta-LÓN»", "pos": "sustantivo", "gender": "m", "plural": "des pantalons", "example": { "target": "Je porte un pantalon noir.", "es": "Llevo un pantalón negro." } },
+    { "id": "v2", "target": "une chemise", "es": "una camisa", "ipa": "/yn ʃə.miz/", "esApprox": "«ün she-MIZ»", "pos": "sustantivo", "gender": "f", "plural": "des chemises", "example": { "target": "Il porte une chemise blanche.", "es": "Lleva una camisa blanca." } },
+    { "id": "v3", "target": "un t-shirt", "es": "una camiseta", "ipa": "/œ̃ ti.ʃœʁt/", "esApprox": "«un ti-SHEURT»", "pos": "sustantivo", "gender": "m", "plural": "des t-shirts", "example": { "target": "J'aime ce t-shirt rouge.", "es": "Me gusta esta camiseta roja." } },
+    { "id": "v4", "target": "une robe", "es": "un vestido", "ipa": "/yn ʁɔb/", "esApprox": "«ün ROB»", "pos": "sustantivo", "gender": "f", "plural": "des robes", "example": { "target": "Elle porte une robe bleue.", "es": "Lleva un vestido azul." } },
+    { "id": "v5", "target": "des chaussures", "es": "unos zapatos", "ipa": "/de ʃo.syʁ/", "esApprox": "«de sho-SÜR»", "pos": "sustantivo", "gender": "f", "plural": "des chaussures", "example": { "target": "J'ai des chaussures noires.", "es": "Tengo unos zapatos negros." } },
+    { "id": "v6", "target": "un manteau", "es": "un abrigo", "ipa": "/œ̃ mɑ̃.to/", "esApprox": "«un man-TÓ»", "pos": "sustantivo", "gender": "m", "plural": "des manteaux", "example": { "target": "Je porte un manteau en hiver.", "es": "Llevo abrigo en invierno." } },
+    { "id": "v7", "target": "un pull", "es": "un jersey", "ipa": "/œ̃ pyl/", "esApprox": "«un PÜL»", "pos": "sustantivo", "gender": "m", "plural": "des pulls", "example": { "target": "Ce pull est très chaud.", "es": "Este jersey da mucho calor." } },
+    { "id": "v8", "target": "une jupe", "es": "una falda", "ipa": "/yn ʒyp/", "esApprox": "«ün YÜP»", "pos": "sustantivo", "gender": "f", "plural": "des jupes", "example": { "target": "Elle porte une jupe grise.", "es": "Lleva una falda gris." } },
+    { "id": "v9", "target": "porter", "es": "llevar puesto", "ipa": "/pɔʁ.te/", "esApprox": "«por-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Qu'est-ce que tu portes aujourd'hui ?", "es": "¿Qué llevas puesto hoy?" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["ropa"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «vestido»?",
+      "options": ["une chemise", "une robe", "une jupe", "un pull"],
+      "answer": 1,
+      "explain": "Une robe = un vestido."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "¿Qué verbo usas para decir qué ropa llevas puesta?",
+      "options": ["avoir", "être", "porter", "faire"],
+      "answer": 2,
+      "explain": "Porter = llevar puesto."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "statement": "Des chaussures va siempre en plural.",
+      "answer": true,
+      "explain": "Casi siempre se habla de los dos zapatos juntos."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas prendas es masculina, a diferencia de las demás?",
+      "options": ["une chemise", "une robe", "un pull", "une jupe"],
+      "answer": 2,
+      "explain": "Un pull es masculino; las otras tres son femeninas."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["ropa"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["un manteau", "un pull", "une jupe", "des chaussures"],
+      "right": ["unos zapatos", "un abrigo", "un jersey", "una falda"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Manteau = abrigo, pull = jersey, jupe = falda, chaussures = zapatos."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "Llevo un pantalón negro y una camisa blanca.",
+      "accept": ["Je porte un pantalon noir et une chemise blanche"],
+      "hintWords": ["je porte"],
+      "strictAccents": false,
+      "audio": "Je porte un pantalon noir et une chemise blanche.",
+      "explain": "Noir (masculino, pantalon) frente a blanche (femenino, chemise)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "¿Qué llevas puesto hoy? Un vestido azul.",
+      "accept": ["Qu'est-ce que tu portes aujourd'hui ? Une robe bleue."],
+      "hintWords": ["qu'est-ce que tu portes"],
+      "strictAccents": false,
+      "audio": "Qu'est-ce que tu portes aujourd'hui ? Une robe bleue.",
+      "explain": "Qu'est-ce que tu portes...? es la pregunta clave de esta clase."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de porter",
+      "text": "Je ___ un manteau, mais vous ___ un pull.",
+      "blanks": [{ "accept": ["porte"] }, { "accept": ["portez"] }],
+      "bank": ["porte", "portez", "portons"],
+      "explain": "Je porte, vous portez: verbo -er regular."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Este jersey da mucho calor»",
+      "tokens": ["chaud", "Ce pull", "très", "est"],
+      "answer": ["Ce pull", "est", "très", "chaud"],
+      "audio": "Ce pull est très chaud.",
+      "explain": "Ce pull (este jersey) + est + très chaud."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["ropa"],
+      "difficulty": 1,
+      "prompt": "Elle porte une jupe grise et des chaussures noires.",
+      "accept": ["Lleva una falda gris y unos zapatos negros."],
+      "strictAccents": false,
+      "audio": "Elle porte une jupe grise et des chaussures noires.",
+      "explain": "Grise (femenino) y noires (plural femenino)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre qué ropa llevas",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu portes pour la fête ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je porte une robe bleue.", "Je porte un pantalon noir et une chemise blanche."], "hint": "describe tu ropa" },
+        { "who": "Léa", "text": "Ça va être joli !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu portes...? se responde con je porte + ropa."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "speak": "Il porte un t-shirt rouge et un pantalon noir.",
+      "mode": "write",
+      "accept": ["Il porte un t-shirt rouge et un pantalon noir"],
+      "showTextAfter": true,
+      "explain": "Dos prendas con sus colores."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "speak": "des chaussures",
+      "mode": "choose",
+      "options": ["des chaussures", "un manteau", "une jupe", "un pull"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Des chaussures = unos zapatos."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["ropa"],
+      "difficulty": 3,
+      "speak": "Aujourd'hui, je porte un pantalon noir, une chemise blanche et des chaussures noires.",
+      "es": "Hoy llevo un pantalón negro, una camisa blanca y unos zapatos negros.",
+      "ipa": "/o.ʒuʁ.dɥi ʒə pɔʁt œ̃ pɑ̃.ta.lɔ̃ nwaʁ yn ʃə.miz blɑ̃ʃ e de ʃo.syʁ nwaʁ/",
+      "esApprox": "«o-yur-DÜÍ ye PORT un pan-ta-LÓN NUÁR ün she-MIZ BLANSH e de sho-SÜR NUÁR»",
+      "focus": "Tres prendas con sus colores concordados: buen repaso de género.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "Describe la ropa que llevas puesta hoy.",
+      "modelAnswer": "Je porte un pantalon bleu et un t-shirt blanc.",
+      "alsoValid": ["Je porte une robe verte et des chaussures noires."],
+      "speak": "Je porte un pantalon bleu et un t-shirt blanc.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "gender_article",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto",
+      "items": [
+        { "word": "pantalon", "options": ["un", "une"], "answer": 0 },
+        { "word": "chemise", "options": ["un", "une"], "answer": 1 },
+        { "word": "robe", "options": ["un", "une"], "answer": 1 },
+        { "word": "pull", "options": ["un", "une"], "answer": 0 }
+      ],
+      "explain": "Pantalon y pull son masculinos; chemise y robe son femeninas."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "Hay un error de concordancia. Corrige la frase entera.",
+      "wrong": "Elle porte une chemise blanc.",
+      "accept": ["Elle porte une chemise blanche"],
+      "audio": "Elle porte une chemise blanche.",
+      "explain": "Chemise es femenino: el color debe concordar, blanche."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "un pantalon", "es": "un pantalón", "esApprox": "«un pan-ta-LÓN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "une chemise", "es": "una camisa", "esApprox": "«ün she-MIZ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "une robe", "es": "un vestido", "esApprox": "«ün ROB»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "des chaussures", "es": "unos zapatos", "esApprox": "«de sho-SÜR»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "un manteau", "es": "un abrigo", "esApprox": "«un man-TÓ»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "un pull", "es": "un jersey", "esApprox": "«un PÜL»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "porter", "es": "llevar puesto", "esApprox": "«por-TÉ»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "Qu'est-ce que tu portes aujourd'hui ?", "es": "¿Qué llevas puesto hoy?", "from": "v9" },
+    { "id": "s9", "kind": "phrase", "target": "Aujourd'hui, je porte un pantalon noir, une chemise blanche et des chaussures noires.", "es": "Hoy llevo un pantalón negro, una camisa blanca y unos zapatos negros.", "from": "e14" }
+  ]
+}
