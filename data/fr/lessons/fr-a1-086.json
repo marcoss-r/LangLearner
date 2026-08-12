@@ -1,0 +1,253 @@
+{
+  "id": "fr-a1-086",
+  "lang": "fr",
+  "level": "A1",
+  "order": 86,
+  "title": "Por teléfono y por mensaje",
+  "objectives": [
+    "Contestar y hacer una llamada de teléfono con las fórmulas habituales",
+    "Usar téléphoner à (clase 83) en un contexto real de llamada",
+    "Escribir un mensaje corto e informal"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Al teléfono",
+      "body": "En francés, al descolgar el teléfono se dice allô, no bonjour. Después se suele decir el propio nombre para identificarse.",
+      "examples": [
+        { "target": "Allô ? C'est Léa à l'appareil.", "es": "¿Diga? Soy Léa (al teléfono).", "note": "allô + c'est + nombre + à l'appareil" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas de teléfono y mensajes",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["Allô ?", "¿Diga? (al descolgar)"],
+        ["C'est [nom] à l'appareil.", "Soy [nombre] (al teléfono)."],
+        ["Je peux parler à... ?", "¿Puedo hablar con...?"],
+        ["Un instant, s'il vous plaît.", "Un momento, por favor."],
+        ["Je rappelle plus tard.", "Vuelvo a llamar más tarde."],
+        ["Envoyer un message", "Enviar un mensaje"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Rappeler es como téléphoner (clase 83), pero significa «volver a llamar»: je te rappelle plus tard."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "Allô ?", "es": "¿Diga? (al descolgar)", "ipa": "/a.lo/", "esApprox": "«a-LÓ»", "pos": "expresión", "gender": null, "example": { "target": "Allô ? Oui, bonjour.", "es": "¿Diga? Sí, buenos días." } },
+    { "id": "v2", "target": "à l'appareil", "es": "al teléfono", "ipa": "/a la.pa.ʁɛj/", "esApprox": "«a la-pa-REY»", "pos": "expresión", "gender": null, "example": { "target": "C'est Léa à l'appareil.", "es": "Soy Léa al teléfono." } },
+    { "id": "v3", "target": "rappeler", "es": "volver a llamar", "ipa": "/ʁa.ple/", "esApprox": "«ra-PLÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je te rappelle plus tard.", "es": "Te vuelvo a llamar más tarde." } },
+    { "id": "v4", "target": "un instant", "es": "un momento", "ipa": "/œ̃.n‿ɛ̃s.tɑ̃/", "esApprox": "«un-nens-TAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Un instant, s'il vous plaît.", "es": "Un momento, por favor." } },
+    { "id": "v5", "target": "envoyer", "es": "enviar", "ipa": "/ɑ̃.vwa.je/", "esApprox": "«an-vuá-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je t'envoie un message.", "es": "Te envío un mensaje." } },
+    { "id": "v6", "target": "un texto / un SMS", "es": "un mensaje de texto", "ipa": "/œ̃ tɛks.to/", "esApprox": "«un teks-TÓ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je t'envoie un texto.", "es": "Te envío un mensaje de texto." } },
+    { "id": "v7", "target": "raccrocher", "es": "colgar (el teléfono)", "ipa": "/ʁa.kʁɔ.ʃe/", "esApprox": "«ra-kro-SHÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je raccroche, à bientôt !", "es": "Cuelgo, ¡hasta pronto!" } },
+    { "id": "v8", "target": "Ne quittez pas.", "es": "No cuelgue, espere.", "ipa": "/nə ki.te pa/", "esApprox": "«ne ki-TÉ pa»", "pos": "expresión", "gender": null, "example": { "target": "Ne quittez pas, un instant.", "es": "No cuelgue, un momento." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "¿Qué se dice al descolgar el teléfono en francés?",
+      "options": ["Bonjour ?", "Allô ?", "Salut ?", "Oui ?"],
+      "answer": 1,
+      "explain": "Allô ? es la fórmula habitual al descolgar."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "¿Cómo te identificas al teléfono?",
+      "options": ["C'est [nom] à l'appareil.", "Je suis [nom].", "Voici [nom].", "[Nom] est ici."],
+      "answer": 0,
+      "explain": "C'est [nombre] à l'appareil = soy [nombre] (al teléfono)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "statement": "Rappeler significa «llamar por primera vez».",
+      "answer": false,
+      "explain": "Rappeler significa «volver a llamar»."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones no es de una llamada telefónica?",
+      "options": ["Allô ?", "à l'appareil", "un instant", "Une autre fois"],
+      "answer": 3,
+      "explain": "Une autre fois (clase 85) es de invitaciones, no de teléfono."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["rappeler", "envoyer", "un texto", "un instant"],
+      "right": ["un momento", "volver a llamar", "un mensaje de texto", "enviar"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Rappeler = volver a llamar, envoyer = enviar, texto = mensaje, instant = momento."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "¿Diga? Soy Léa al teléfono. ¿Puedo hablar con Marc?",
+      "accept": ["Allô ? C'est Léa à l'appareil. Je peux parler à Marc ?"],
+      "hintWords": ["allô", "c'est Léa à l'appareil", "je peux parler à Marc"],
+      "strictAccents": false,
+      "audio": "Allô ? C'est Léa à l'appareil. Je peux parler à Marc ?",
+      "explain": "Allô + c'est...à l'appareil + je peux parler à... (clase 44)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "Un momento, por favor. Te vuelvo a llamar más tarde.",
+      "accept": ["Un instant, s'il vous plaît. Je te rappelle plus tard"],
+      "hintWords": ["un instant, s'il vous plaît", "je te rappelle plus tard"],
+      "strictAccents": false,
+      "audio": "Un instant, s'il vous plaît. Je te rappelle plus tard.",
+      "explain": "Un instant + je te rappelle (rappeler + pronombre COI, clase 83)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación telefónica",
+      "text": "___ ? C'est Léa ___ l'appareil.",
+      "blanks": [{ "accept": ["Allô"] }, { "accept": ["à"] }],
+      "bank": ["Allô", "à", "de"],
+      "explain": "Allô ? + c'est + nombre + à l'appareil."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Te envío un mensaje de texto»",
+      "tokens": ["un texto", "Je t'", "envoie"],
+      "answer": ["Je t'", "envoie", "un texto"],
+      "audio": "Je t'envoie un texto.",
+      "explain": "Je t'envoie (envoyer + pronombre COI) + un texto."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "Je suis occupé maintenant, je te rappelle dans une heure.",
+      "accept": ["Estoy ocupado ahora, te vuelvo a llamar dentro de una hora."],
+      "strictAccents": false,
+      "audio": "Je suis occupé maintenant, je te rappelle dans une heure.",
+      "explain": "Occupé (clase 85) + rappeler + dans une heure."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación telefónica",
+      "turns": [
+        { "who": "Léa", "text": "Allô ? C'est Léa à l'appareil.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Allô, bonjour Léa !", "Salut Léa, ça va ?"], "hint": "responde al teléfono" },
+        { "who": "Léa", "text": "Je t'envoie un texto avec l'adresse.", "speak": true }
+      ],
+      "explain": "Al contestar el teléfono, se responde a allô con un saludo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "speak": "Allô ? C'est Marc à l'appareil. Je peux parler à Léa, s'il vous plaît ?",
+      "mode": "write",
+      "accept": ["Allô ? C'est Marc à l'appareil. Je peux parler à Léa, s'il vous plaît ?"],
+      "showTextAfter": true,
+      "explain": "Fórmula completa para empezar una llamada."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["telefono"],
+      "difficulty": 1,
+      "speak": "un instant",
+      "mode": "choose",
+      "options": ["à l'appareil", "un instant", "un texto", "rappeler"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un instant = un momento."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["telefono"],
+      "difficulty": 3,
+      "speak": "Allô ? C'est Léa à l'appareil. Je suis occupée maintenant, je te rappelle plus tard, ou je t'envoie un texto.",
+      "es": "¿Diga? Soy Léa al teléfono. Estoy ocupada ahora, te vuelvo a llamar más tarde, o te envío un mensaje de texto.",
+      "ipa": "/a.lo sɛ le.a a la.pa.ʁɛj ʒə sɥi.z‿ɔ.ky.pe mɛ̃t.nɑ̃ ʒə tə ʁa.pɛl ply taʁ u ʒə tɑ̃.vwa œ̃ tɛks.to/",
+      "esApprox": "«a-LÓ se LE-a a la-pa-REY ye süí-o-kü-PÉ ment-NAN ye te ra-PEL plü TAR u ye tan-VUÁ un teks-TÓ»",
+      "focus": "Conversación telefónica completa con dos alternativas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "Contesta el teléfono, identifícate, y di que estás ocupado.",
+      "modelAnswer": "Allô ? C'est moi à l'appareil. Je suis occupé, je rappelle plus tard.",
+      "alsoValid": ["Allô, bonjour ! Un instant, s'il vous plaît."],
+      "speak": "Allô ? C'est moi à l'appareil. Je suis occupé, je rappelle plus tard.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "¿Es para empezar la llamada o para terminarla?",
+      "buckets": ["Empezar", "Terminar/posponer"],
+      "items": [
+        { "text": "Allô ?", "bucket": 0 },
+        { "text": "Je rappelle plus tard.", "bucket": 1 },
+        { "text": "C'est Léa à l'appareil.", "bucket": 0 },
+        { "text": "Un instant, s'il vous plaît.", "bucket": 1 }
+      ],
+      "explain": "Allô y c'est...à l'appareil empiezan la llamada; rappeler/un instant la posponen."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["telefono"],
+      "difficulty": 2,
+      "prompt": "Hay un error: al teléfono no se dice bonjour al descolgar. Corrige la frase entera.",
+      "wrong": "Bonjour ? C'est Léa à l'appareil.",
+      "accept": ["Allô ? C'est Léa à l'appareil"],
+      "audio": "Allô ? C'est Léa à l'appareil.",
+      "explain": "Al descolgar el teléfono se dice allô, no bonjour."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "Allô ?", "es": "¿Diga? (al descolgar)", "esApprox": "«a-LÓ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "à l'appareil", "es": "al teléfono", "esApprox": "«a la-pa-REY»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "rappeler", "es": "volver a llamar", "esApprox": "«ra-PLÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "un instant", "es": "un momento", "esApprox": "«un-nens-TAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "envoyer", "es": "enviar", "esApprox": "«an-vuá-YÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Allô ? C'est Léa à l'appareil. Je peux parler à Marc ?", "es": "¿Diga? Soy Léa al teléfono. ¿Puedo hablar con Marc?", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Un instant, s'il vous plaît. Je te rappelle plus tard.", "es": "Un momento, por favor. Te vuelvo a llamar más tarde.", "from": "e7" },
+    { "id": "s8", "kind": "word", "target": "raccrocher", "es": "colgar (el teléfono)", "esApprox": "«ra-kro-SHÉ»", "from": "v7" }
+  ]
+}

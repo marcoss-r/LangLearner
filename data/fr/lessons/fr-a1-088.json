@@ -1,0 +1,252 @@
+{
+  "id": "fr-a1-088",
+  "lang": "fr",
+  "level": "A1",
+  "order": 88,
+  "title": "Cultura: el día a día en Francia (horarios, tuteo, cortesía)",
+  "objectives": [
+    "Conocer los horarios habituales de comidas y tiendas en Francia",
+    "Repasar cuándo usar tu y cuándo usar vous (clase 6) en la vida real",
+    "Reconocer costumbres de cortesía como la bise y el uso de s'il vous plaît"
+  ],
+  "sections": [
+    {
+      "type": "culture",
+      "title": "Horarios distintos a los de España",
+      "body": "En Francia, el déjeuner (comida) suele ser entre las 12h y las 13h30, más temprano que en España. Le dîner (la cena) suele ser entre las 19h30 y las 20h30, también más temprano. Muchas tiendas pequeñas cierran el domingo y, a veces, el lunes por la mañana."
+    },
+    {
+      "type": "table",
+      "title": "Horarios habituales en Francia",
+      "headers": ["Comida", "Horario habitual"],
+      "rows": [
+        ["le petit-déjeuner", "entre 7h y 8h30"],
+        ["le déjeuner", "entre 12h y 13h30"],
+        ["le dîner", "entre 19h30 y 20h30"]
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Tu y vous en la práctica",
+      "body": "Aunque ya conoces la regla de tu/vous (clase 6), en la práctica los franceses suelen esperar a que la persona mayor o de más autoridad proponga el tuteo con on se tutoie ? Hasta entonces, es más seguro usar vous."
+    },
+    {
+      "type": "culture",
+      "title": "La bise y otras costumbres de cortesía",
+      "body": "Entre amigos y familia, es habitual saludarse con la bise (uno o dos besos en la mejilla, según la región). En situaciones formales, se da la mano. S'il vous plaît y merci se usan mucho más a menudo que en español, incluso en situaciones muy pequeñas, como al pagar en una tienda."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la bise", "es": "el beso en la mejilla (saludo)", "ipa": "/la biz/", "esApprox": "«la BIZ»", "pos": "sustantivo", "gender": "f", "example": { "target": "On se fait la bise ?", "es": "¿Nos damos un beso?" } },
+    { "id": "v2", "target": "serrer la main", "es": "dar la mano", "ipa": "/se.ʁe la mɛ̃/", "esApprox": "«se-RÉ la MEN»", "pos": "expresión", "gender": null, "example": { "target": "En France, on se serre la main pour se dire bonjour.", "es": "En Francia, se da la mano para saludarse." } },
+    { "id": "v3", "target": "les magasins", "es": "las tiendas", "ipa": "/le ma.ɡa.zɛ̃/", "esApprox": "«le ma-ga-ZEN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Les magasins sont fermés le dimanche.", "es": "Las tiendas están cerradas el domingo." } },
+    { "id": "v4", "target": "fermé / ouvert", "es": "cerrado / abierto", "ipa": "/fɛʁ.me u.vɛʁ/", "esApprox": "«fer-MÉ u-VER»", "pos": "adjetivo", "gender": "m", "example": { "target": "Le magasin est fermé le lundi matin.", "es": "La tienda está cerrada el lunes por la mañana." } },
+    { "id": "v5", "target": "on se tutoie ?", "es": "¿nos tuteamos?", "ipa": "/ɔ̃ sə ty.twa/", "esApprox": "«on se tü-TUÁ»", "pos": "expresión", "gender": null, "example": { "target": "On se tutoie ? — Avec plaisir !", "es": "¿Nos tuteamos? —¡Con mucho gusto!" } },
+    { "id": "v6", "target": "les horaires", "es": "los horarios", "ipa": "/le.z‿ɔ.ʁɛʁ/", "esApprox": "«le-zo-RER»", "pos": "sustantivo", "gender": "m", "example": { "target": "Les horaires du déjeuner sont différents en France.", "es": "Los horarios de la comida son diferentes en Francia." } },
+    { "id": "v7", "target": "la boulangerie", "es": "la panadería", "ipa": "/la bu.lɑ̃ʒ.ʁi/", "esApprox": "«la bu-lan-zhe-RÍ»", "pos": "sustantivo", "gender": "f", "example": { "target": "La boulangerie ferme à 19h30.", "es": "La panadería cierra a las 19h30." } },
+    { "id": "v8", "target": "poli / polie", "es": "educado/a", "ipa": "/pɔ.li/", "esApprox": "«po-LÍ»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Il est important d'être poli.", "es": "Es importante ser educado." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "¿A qué hora suele ser le déjeuner en Francia?",
+      "options": ["Entre las 14h y las 15h30", "Entre las 12h y las 13h30", "Entre las 10h y las 11h", "No hay horario fijo"],
+      "answer": 1,
+      "explain": "Le déjeuner suele ser más temprano que en España, entre las 12h y las 13h30."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "¿Qué costumbre es habitual entre amigos y familia en Francia?",
+      "options": ["Serrer la main", "La bise", "S'il vous plaît", "Vous"],
+      "answer": 1,
+      "explain": "La bise (besos en la mejilla) es habitual entre amigos y familia."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "statement": "Muchas tiendas pequeñas cierran el domingo en Francia.",
+      "answer": true,
+      "explain": "Es una costumbre habitual, sobre todo fuera de las grandes ciudades."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "statement": "En Francia se puede tutear a cualquier persona sin esperar a que lo proponga.",
+      "answer": false,
+      "explain": "Es más seguro esperar a que la otra persona proponga el tuteo con on se tutoie ?"
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["les magasins", "fermé", "ouvert", "les horaires"],
+      "right": ["abierto", "los horarios", "las tiendas", "cerrado"],
+      "answer": [2, 3, 0, 1],
+      "explain": "Magasins = tiendas, fermé = cerrado, ouvert = abierto, horaires = horarios."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Las tiendas están cerradas el domingo, pero abiertas el sábado.",
+      "accept": ["Les magasins sont fermés le dimanche, mais ouverts le samedi"],
+      "hintWords": ["les magasins sont fermés le dimanche", "ouverts le samedi"],
+      "strictAccents": false,
+      "audio": "Les magasins sont fermés le dimanche, mais ouverts le samedi.",
+      "explain": "Fermé/ouvert + los días de la semana (clase 38)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "¿Nos tuteamos? —Con mucho gusto, en Francia es normal entre amigos.",
+      "accept": ["On se tutoie ? — Avec plaisir, en France c'est normal entre amis"],
+      "hintWords": ["on se tutoie", "avec plaisir", "entre amis"],
+      "strictAccents": false,
+      "audio": "On se tutoie ? — Avec plaisir, en France c'est normal entre amis.",
+      "explain": "On se tutoie ? (clase 6) + avec plaisir."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Completa con el horario correcto",
+      "text": "En France, le ___ est souvent entre 19h30 et 20h30.",
+      "blanks": [{ "accept": ["dîner"] }],
+      "bank": ["dîner", "déjeuner", "petit-déjeuner"],
+      "explain": "Le dîner (la cena) suele ser entre las 19h30 y las 20h30."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «En Francia, se da la mano para saludarse»",
+      "tokens": ["pour se dire bonjour", "on se serre la main", "En France,"],
+      "answer": ["En France,", "on se serre la main", "pour se dire bonjour"],
+      "audio": "En France, on se serre la main pour se dire bonjour.",
+      "explain": "En France + on se serre la main + pour se dire bonjour."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Les horaires du déjeuner et du dîner sont plus tôt en France qu'en Espagne.",
+      "accept": ["Los horarios de la comida y la cena son más tempranos en Francia que en España."],
+      "strictAccents": false,
+      "audio": "Les horaires du déjeuner et du dîner sont plus tôt en France qu'en Espagne.",
+      "explain": "Comparación entre los horarios franceses y españoles."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el tuteo",
+      "turns": [
+        { "who": "Léa", "text": "On se tutoie ? On a le même âge.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Avec plaisir !", "Oui, d'accord !"], "hint": "acepta el tuteo" },
+        { "who": "Léa", "text": "Super, alors, tu fais quoi dans la vie ?", "speak": true }
+      ],
+      "explain": "On se tutoie ? se acepta con avec plaisir o d'accord."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "speak": "En France, le déjeuner est entre midi et treize heures trente.",
+      "mode": "write",
+      "accept": ["En France, le déjeuner est entre midi et treize heures trente"],
+      "showTextAfter": true,
+      "explain": "Horario habitual de la comida en Francia."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cultura-francesa"],
+      "difficulty": 1,
+      "speak": "la bise",
+      "mode": "choose",
+      "options": ["serrer la main", "la bise", "les magasins", "les horaires"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "La bise = el beso en la mejilla."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["cultura-francesa"],
+      "difficulty": 3,
+      "speak": "En France, on mange plus tôt qu'en Espagne, les magasins sont souvent fermés le dimanche, et on attend qu'on nous propose le tutoiement.",
+      "es": "En Francia, se come más temprano que en España, las tiendas suelen estar cerradas el domingo, y se espera a que nos propongan el tuteo.",
+      "ipa": "/ɑ̃ fʁɑ̃s ɔ̃ mɑ̃ʒ ply to kɑ̃.n‿ɛs.paɲ le ma.ɡa.zɛ̃ sɔ̃ su.vɑ̃ fɛʁ.me lə di.mɑ̃ʃ e ɔ̃.n‿a.tɑ̃ kɔ̃ nu pʁɔ.poz lə ty.twa.mɑ̃/",
+      "esApprox": "«an FRANS on MANY plü TÓ kan-nes-PAÑ le ma-ga-ZEN son su-VAN fer-MÉ le di-MANSH e on-na-TAN kon nu pro-POZ le tü-tuá-MAN»",
+      "focus": "Tres costumbres francesas comparadas con España en una sola frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Di dos diferencias culturales entre Francia y tu país.",
+      "modelAnswer": "En France, on mange plus tôt, et les magasins sont fermés le dimanche.",
+      "alsoValid": ["On se fait la bise pour se dire bonjour."],
+      "speak": "En France, on mange plus tôt, et les magasins sont fermés le dimanche.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "¿Es sobre horarios, tuteo o cortesía?",
+      "buckets": ["Horarios", "Tuteo", "Cortesía"],
+      "items": [
+        { "text": "le déjeuner entre 12h et 13h30", "bucket": 0 },
+        { "text": "on se tutoie ?", "bucket": 1 },
+        { "text": "la bise", "bucket": 2 },
+        { "text": "les magasins fermés le dimanche", "bucket": 0 }
+      ],
+      "explain": "Horarios (comidas/tiendas), tuteo (on se tutoie), cortesía (la bise)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Hay un error cultural. Corrige la frase entera.",
+      "wrong": "En France, le dîner est à vingt-trois heures.",
+      "accept": ["En France, le dîner est à vingt heures"],
+      "audio": "En France, le dîner est à vingt heures.",
+      "explain": "Le dîner en Francia suele ser sobre las 19h30-20h30, no a las 23h."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la bise", "es": "el beso en la mejilla (saludo)", "esApprox": "«la BIZ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "serrer la main", "es": "dar la mano", "esApprox": "«se-RÉ la MEN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "les magasins", "es": "las tiendas", "esApprox": "«le ma-ga-ZEN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "fermé / ouvert", "es": "cerrado / abierto", "esApprox": "«fer-MÉ u-VER»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "on se tutoie ?", "es": "¿nos tuteamos?", "esApprox": "«on se tü-TUÁ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Les magasins sont fermés le dimanche, mais ouverts le samedi.", "es": "Las tiendas están cerradas el domingo, pero abiertas el sábado.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "On se tutoie ? — Avec plaisir, en France c'est normal entre amis.", "es": "¿Nos tuteamos? —Con mucho gusto, en Francia es normal entre amigos.", "from": "e7" },
+    { "id": "s8", "kind": "word", "target": "la boulangerie", "es": "la panadería", "esApprox": "«la bu-lan-zhe-RÍ»", "from": "v7" }
+  ]
+}

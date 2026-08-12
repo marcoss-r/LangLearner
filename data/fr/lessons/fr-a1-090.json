@@ -1,0 +1,272 @@
+{
+  "id": "fr-a1-090",
+  "lang": "fr",
+  "level": "A1",
+  "order": 90,
+  "title": "Preparación para la prueba de nivel A1",
+  "objectives": [
+    "Repasar los pilares gramaticales de todo el curso A1: verbos, artículos, negación, pronombres y passé composé",
+    "Practicar el tipo de preguntas más habituales en una prueba de nivel A1 (DELF A1)",
+    "Ganar confianza antes de pasar al nivel A2"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cómo prepararte para la prueba",
+      "body": "Una prueba de nivel A1 (como el DELF A1) evalúa comprensión oral, comprensión escrita, expresión escrita y expresión oral, con temas muy cotidianos: presentarte, hablar de tu familia, tu rutina, tus gustos, hacer la compra, pedir en un restaurante, hablar del pasado reciente. Todo lo que has practicado en este curso."
+    },
+    {
+      "type": "table",
+      "title": "Los pilares gramaticales de A1",
+      "headers": ["Bloque", "Contenido clave"],
+      "rows": [
+        ["Verbos", "être, avoir, -er, -ir, aller, faire, venir, pouvoir/vouloir/devoir, pronominales"],
+        ["Artículos", "le/la/les, un/une/des, du/de la/de l'/des (partitivo)"],
+        ["Negación y preguntas", "ne...pas, ne...jamais, ne...rien, est-ce que, inversión"],
+        ["Pronombres", "sujeto, posesivos, COD (le/la/les), COI (lui/leur)"],
+        ["El pasado", "passé composé con avoir y être, participios regulares e irregulares"],
+        ["El futuro y el presente continuo", "aller + infinitivo, venir de + infinitivo, être en train de"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En el examen oral, no te preocupes por hablar perfecto: es más importante comunicar con claridad que evitar todos los errores. Usa frases cortas y seguras en vez de frases largas y arriesgadas."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "réviser", "es": "repasar", "ipa": "/ʁe.vi.ze/", "esApprox": "«re-vi-ZÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je révise avant l'examen.", "es": "Repaso antes del examen." } },
+    { "id": "v2", "target": "un examen", "es": "un examen", "ipa": "/œ̃.n‿ɛɡ.za.mɛ̃/", "esApprox": "«un-neg-za-MEN»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai un examen de français demain.", "es": "Tengo un examen de francés mañana." } },
+    { "id": "v3", "target": "réussir", "es": "aprobar, lograr", "ipa": "/ʁe.y.siʁ/", "esApprox": "«re-ü-SIR»", "pos": "verbo", "gender": null, "example": { "target": "Je vais réussir mon examen.", "es": "Voy a aprobar mi examen." } },
+    { "id": "v4", "target": "avoir confiance en soi", "es": "tener confianza en uno mismo", "ipa": "/a.vwaʁ kɔ̃.fjɑ̃s ɑ̃ swa/", "esApprox": "«a-VUÁR kon-FIANS an SUÁ»", "pos": "expresión", "gender": null, "example": { "target": "Il faut avoir confiance en soi.", "es": "Hay que tener confianza en uno mismo." } },
+    { "id": "v5", "target": "le niveau", "es": "el nivel", "ipa": "/lə ni.vo/", "esApprox": "«le ni-VÓ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Mon niveau de français a beaucoup progressé.", "es": "Mi nivel de francés ha progresado mucho." } },
+    { "id": "v6", "target": "progresser", "es": "progresar, mejorar", "ipa": "/pʁɔ.ɡʁɛ.se/", "esApprox": "«pro-gre-SÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai beaucoup progressé cette année.", "es": "He progresado mucho este año." } },
+    { "id": "v7", "target": "féliciter", "es": "felicitar", "ipa": "/fe.li.si.te/", "esApprox": "«fe-li-si-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je te félicite pour ton niveau A1 !", "es": "¡Te felicito por tu nivel A1!" } },
+    { "id": "v8", "target": "continuer à apprendre", "es": "seguir aprendiendo", "ipa": "/kɔ̃.ti.nɥe a a.pʁɑ̃dʁ/", "esApprox": "«kon-ti-nüÉ a a-PRANDR»", "pos": "expresión", "gender": null, "example": { "target": "Je vais continuer à apprendre le français.", "es": "Voy a seguir aprendiendo francés." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta?",
+      "options": ["Je suis vingt-cinq ans.", "J'ai vingt-cinq ans.", "J'ai vingt-cinq an.", "Je suis eu vingt-cinq ans."],
+      "answer": 1,
+      "explain": "Repaso de la clase 10: avoir + edad, no être."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «no como carne»?",
+      "options": ["Je ne mange pas de viande.", "Je ne mange pas la viande.", "Je ne mange pas viande.", "Je mange ne pas viande."],
+      "answer": 0,
+      "explain": "Repaso de la clase 19: tras la negación, un/une/des/du/de la se convierten en de."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "statement": "Aller usa être como auxiliar en passé composé, no avoir.",
+      "answer": true,
+      "explain": "Repaso de la clase 80."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "statement": "El pronombre COD va siempre después del verbo conjugado, como en español.",
+      "answer": false,
+      "explain": "Repaso de la clase 82: en francés, el pronombre COD va antes del verbo."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases NO está en pasado?",
+      "options": ["J'ai mangé.", "Je suis allé.", "Je vais manger.", "J'ai fini."],
+      "answer": 2,
+      "explain": "Je vais manger es futuro próximo (clase 75), no pasado."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "Une cada estructura con su función",
+      "left": ["il y a", "c'est / ce sont", "il est / elle est", "il fait"],
+      "right": ["describir con adjetivo", "el tiempo meteorológico", "existencia (hay)", "identificar"],
+      "answer": [2, 3, 0, 1],
+      "explain": "Repaso de las clases 49 y 68."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "Me llamo Léa, tengo veinticinco años y soy profesora.",
+      "accept": ["Je m'appelle Léa, j'ai vingt-cinq ans et je suis professeure"],
+      "hintWords": ["je m'appelle Léa", "j'ai vingt-cinq ans", "je suis professeure"],
+      "strictAccents": false,
+      "audio": "Je m'appelle Léa, j'ai vingt-cinq ans et je suis professeure.",
+      "explain": "Presentarse: verbo pronominal + avoir + être (clases 5, 10, 63)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "Ayer fui al trabajo, comí con amigos y por la noche estudié francés.",
+      "accept": ["Hier, je suis allé au travail, j'ai mangé avec des amis et le soir j'ai étudié le français"],
+      "hintWords": ["hier, je suis allé au travail", "j'ai mangé avec des amis", "j'ai étudié le français"],
+      "strictAccents": false,
+      "audio": "Hier, je suis allé au travail, j'ai mangé avec des amis et le soir j'ai étudié le français.",
+      "explain": "Passé composé con être (allé) y avoir (mangé, étudié), clases 78 y 80."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo partitivo correcto",
+      "text": "Je mange ___ pain et je bois ___ eau.",
+      "blanks": [{ "accept": ["du"] }, { "accept": ["de l'"] }],
+      "bank": ["du", "de la", "de l'", "des"],
+      "explain": "Repaso de la clase 57: du pain (masc.), de l'eau (vocal)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿A qué hora te levantas?»",
+      "tokens": ["à quelle heure", "Tu te lèves", "?"],
+      "answer": ["Tu te lèves", "à quelle heure", "?"],
+      "audio": "Tu te lèves à quelle heure ?",
+      "explain": "Repaso de la clase 41: verbo pronominal + pregunta."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "Je viens de finir mon travail, je suis en train de me reposer, et demain je vais voir mes amis.",
+      "accept": ["Acabo de terminar mi trabajo, estoy descansando, y mañana voy a ver a mis amigos."],
+      "strictAccents": false,
+      "audio": "Je viens de finir mon travail, je suis en train de me reposer, et demain je vais voir mes amis.",
+      "explain": "Las tres estructuras de las clases 75-77 en una sola frase."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "Completa esta conversación típica de una prueba oral A1",
+      "turns": [
+        { "who": "Examinateur", "text": "Bonjour, comment vous appelez-vous ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je m'appelle...", "Bonjour, je m'appelle Léa."], "hint": "preséntate con tu nombre" },
+        { "who": "Examinateur", "text": "Et qu'est-ce que vous faites dans la vie ?", "speak": true }
+      ],
+      "explain": "Presentarse es siempre el primer paso de una prueba oral."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "speak": "Bonjour, je m'appelle Marc, j'ai trente ans et j'habite à Paris.",
+      "mode": "write",
+      "accept": ["Bonjour, je m'appelle Marc, j'ai trente ans et j'habite à Paris"],
+      "showTextAfter": true,
+      "explain": "Presentación básica típica de comprensión oral."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["repaso", "examen"],
+      "difficulty": 1,
+      "speak": "j'ai réussi",
+      "mode": "choose",
+      "options": ["je réussis", "j'ai réussi", "je vais réussir", "je suis réussi"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'ai réussi = he aprobado/logrado (passé composé con avoir)."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["repaso", "examen"],
+      "difficulty": 3,
+      "speak": "Je révise beaucoup avant l'examen, j'ai confiance en moi, et je vais réussir.",
+      "es": "Repaso mucho antes del examen, tengo confianza en mí mismo, y voy a aprobar.",
+      "ipa": "/ʒə ʁe.vi zə bo.ku a.vɑ̃ lɛɡ.za.mɛ̃ ʒe kɔ̃.fjɑ̃s ɑ̃ mwa e ʒə vɛ ʁe.y.siʁ/",
+      "esApprox": "«ye re-VI ze bo-KÚ a-VAN leg-za-MEN ye kon-FIANS an MUÁ e ye ve re-ü-SIR»",
+      "focus": "Frase motivadora antes del examen, combinando presente y futuro próximo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "speak_prompt",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "Preséntate en francés: nombre, edad, profesión y una cosa que te gusta.",
+      "modelAnswer": "Je m'appelle Léa, j'ai vingt-cinq ans, je suis étudiante et j'aime la lecture.",
+      "alsoValid": ["Bonjour, je m'appelle Marc, j'ai trente ans, je suis ingénieur."],
+      "speak": "Je m'appelle Léa, j'ai vingt-cinq ans, je suis étudiante et j'aime la lecture.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "¿Es presente, pasado o futuro próximo?",
+      "buckets": ["Presente", "Pasado", "Futuro próximo"],
+      "items": [
+        { "text": "Je mange.", "bucket": 0 },
+        { "text": "J'ai mangé.", "bucket": 1 },
+        { "text": "Je vais manger.", "bucket": 2 },
+        { "text": "Je suis allé.", "bucket": 1 },
+        { "text": "Je parle.", "bucket": 0 }
+      ],
+      "explain": "Repaso general de los tres tiempos verbales principales del curso."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "Hay un error de auxiliar. Corrige la frase entera.",
+      "wrong": "J'ai allé au travail hier.",
+      "accept": ["Je suis allé au travail hier"],
+      "audio": "Je suis allé au travail hier.",
+      "explain": "Aller usa être como auxiliar, no avoir (clase 80)."
+    },
+    {
+      "id": "e19",
+      "type": "gender_article",
+      "tags": ["repaso", "examen"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto",
+      "items": [
+        { "word": "examen", "options": ["le", "la"], "answer": 0 },
+        { "word": "confiance", "options": ["le", "la"], "answer": 1 }
+      ],
+      "explain": "Le examen (masculino), la confiance (femenino)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "réviser", "es": "repasar", "esApprox": "«re-vi-ZÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "un examen", "es": "un examen", "esApprox": "«un-neg-za-MEN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "réussir", "es": "aprobar, lograr", "esApprox": "«re-ü-SIR»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "avoir confiance en soi", "es": "tener confianza en uno mismo", "esApprox": "«a-VUÁR kon-FIANS an SUÁ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "le niveau", "es": "el nivel", "esApprox": "«le ni-VÓ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je m'appelle Léa, j'ai vingt-cinq ans et je suis professeure.", "es": "Me llamo Léa, tengo veinticinco años y soy profesora.", "from": "e7" },
+    { "id": "s7", "kind": "phrase", "target": "Hier, je suis allé au travail, j'ai mangé avec des amis et le soir j'ai étudié le français.", "es": "Ayer fui al trabajo, comí con amigos y por la noche estudié francés.", "from": "e8" },
+    { "id": "s8", "kind": "phrase", "target": "Je révise beaucoup avant l'examen, j'ai confiance en moi, et je vais réussir.", "es": "Repaso mucho antes del examen, tengo confianza en mí mismo, y voy a aprobar.", "from": "e15" }
+  ]
+}

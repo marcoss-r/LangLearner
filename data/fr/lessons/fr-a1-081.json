@@ -1,0 +1,250 @@
+{
+  "id": "fr-a1-081",
+  "lang": "fr",
+  "level": "A1",
+  "order": 81,
+  "title": "El passé composé IV: negación y preguntas en pasado",
+  "objectives": [
+    "Negar el passé composé: ne + avoir/être + pas + participio",
+    "Preguntar en passé composé con est-ce que y con inversión (clase 21)",
+    "Combinar negación y pregunta en pasado"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La negación del passé composé",
+      "body": "Ne...pas (clase 19) rodea siempre el verbo auxiliar (avoir o être), nunca el participio pasado. Esta regla es la misma tanto si el auxiliar es avoir (clase 78) como être (clase 80).",
+      "examples": [
+        { "target": "Je n'ai pas mangé, et elle n'est pas venue.", "es": "No he comido, y ella no ha venido.", "note": "ne + avoir/être + pas + participio" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Preguntar en passé composé",
+      "headers": ["Forma", "Ejemplo"],
+      "rows": [
+        ["Est-ce que + sujeto + auxiliar + participio", "Est-ce que tu as mangé ?"],
+        ["Inversión: auxiliar-sujeto + participio", "As-tu mangé ?"],
+        ["Negación + inversión", "N'as-tu pas mangé ?"]
+      ],
+      "note": "Repaso de la clase 21: est-ce que e inversión funcionan igual que en presente, pero con avoir/être + participio."
+    },
+    {
+      "type": "tip",
+      "body": "En la inversión, el auxiliar y el sujeto se unen con un guion: as-tu, est-elle, avez-vous. El participio va siempre después, sin guion."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "Est-ce que tu as... ?", "es": "¿Has...?", "ipa": "/ɛs.kə ty a/", "esApprox": "«es-ke tü A»", "pos": "expresión", "gender": null, "example": { "target": "Est-ce que tu as mangé ?", "es": "¿Has comido?" } },
+    { "id": "v2", "target": "As-tu... ?", "es": "¿Has...? (inversión)", "ipa": "/a ty/", "esApprox": "«a TÜ»", "pos": "expresión", "gender": null, "example": { "target": "As-tu fini ton travail ?", "es": "¿Has terminado tu trabajo?" } },
+    { "id": "v3", "target": "Es-tu allé(e) ?", "es": "¿Fuiste? (inversión con être)", "ipa": "/ɛ ty a.le/", "esApprox": "«e tü a-LÉ»", "pos": "expresión", "gender": null, "example": { "target": "Es-tu allé au travail hier ?", "es": "¿Fuiste al trabajo ayer?" } },
+    { "id": "v4", "target": "jamais", "es": "nunca (con passé composé)", "ipa": "/ʒa.mɛ/", "esApprox": "«ya-MÉ»", "pos": "adverbio", "gender": null, "example": { "target": "Je n'ai jamais mangé ça.", "es": "Nunca he comido eso." } },
+    { "id": "v5", "target": "rien", "es": "nada (con passé composé)", "ipa": "/ʁjɛ̃/", "esApprox": "«RIEN»", "pos": "pronombre", "gender": null, "example": { "target": "Je n'ai rien mangé.", "es": "No he comido nada." } },
+    { "id": "v6", "target": "As-tu déjà... ?", "es": "¿Ya has...?", "ipa": "/a ty de.ʒa/", "esApprox": "«a tü de-YA»", "pos": "expresión", "gender": null, "example": { "target": "As-tu déjà mangé ?", "es": "¿Ya has comido?" } },
+    { "id": "v7", "target": "essayer", "es": "probar, intentar", "ipa": "/e.se.je/", "esApprox": "«e-se-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je n'ai jamais essayé ça.", "es": "Nunca he probado eso." } },
+    { "id": "v8", "target": "personne", "es": "nadie (con passé composé)", "ipa": "/pɛʁ.sɔn/", "esApprox": "«per-SON»", "pos": "pronombre", "gender": null, "example": { "target": "Je n'ai mangé avec personne.", "es": "No he comido con nadie." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se niega «j'ai mangé»?",
+      "options": ["Je n'ai mangé pas.", "Je n'ai pas mangé.", "Je ne mange pas.", "Je n'ai pas mangée."],
+      "answer": 1,
+      "explain": "Ne...pas rodea avoir: je n'ai pas mangé."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se pregunta «¿has terminado?» con inversión?",
+      "options": ["Tu as fini ?", "As-tu fini ?", "As fini-tu ?", "Est-ce que as-tu fini ?"],
+      "answer": 1,
+      "explain": "As-tu fini ?: inversión avoir-sujeto + participio."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "statement": "Ne...pas rodea siempre el auxiliar, nunca el participio.",
+      "answer": true,
+      "explain": "Repaso de las clases 78 y 80: ne + avoir/être + pas + participio."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "statement": "Je n'ai jamais mangé significa «no he comido nunca».",
+      "answer": true,
+      "explain": "Ne...jamais (clase 46) también rodea el auxiliar en passé composé."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Une cada pregunta con su forma",
+      "left": ["Est-ce que tu as mangé ?", "As-tu mangé ?", "Es-tu allé ?", "N'as-tu pas mangé ?"],
+      "right": ["negación + inversión", "est-ce que", "inversión con être", "inversión con avoir"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Cuatro formas distintas de preguntar en pasado."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "No he comido nada, y ella no ha venido.",
+      "accept": ["Je n'ai rien mangé, et elle n'est pas venue"],
+      "hintWords": ["je n'ai rien mangé", "elle n'est pas venue"],
+      "strictAccents": false,
+      "audio": "Je n'ai rien mangé, et elle n'est pas venue.",
+      "explain": "Ne...rien + avoir; ne...pas + être."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Has terminado tu trabajo? — No, no he podido.",
+      "accept": ["As-tu fini ton travail ? — Non, je n'ai pas pu"],
+      "hintWords": ["as-tu fini ton travail", "je n'ai pas pu"],
+      "strictAccents": false,
+      "audio": "As-tu fini ton travail ? — Non, je n'ai pas pu.",
+      "explain": "Pregunta con inversión + respuesta negada."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "Completa la negación",
+      "text": "Je ___ ai ___ fini, et je ___ suis ___ allé au travail.",
+      "blanks": [{ "accept": ["n'"] }, { "accept": ["pas"] }, { "accept": ["ne"] }, { "accept": ["pas"] }],
+      "bank": ["n'", "ne", "pas"],
+      "explain": "Je n'ai pas fini (avoir); je ne suis pas allé (être)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la pregunta: «¿Fuiste al trabajo ayer?»",
+      "tokens": ["hier", "au travail", "Es-tu allé", "?"],
+      "answer": ["Es-tu allé", "au travail", "hier", "?"],
+      "audio": "Es-tu allé au travail hier ?",
+      "explain": "Es-tu (inversión de être) + allé + au travail + hier."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "Est-ce que tu as mangé ? — Non, je n'ai rien mangé aujourd'hui.",
+      "accept": ["¿Has comido? —No, no he comido nada hoy."],
+      "strictAccents": false,
+      "audio": "Est-ce que tu as mangé ? — Non, je n'ai rien mangé aujourd'hui.",
+      "explain": "Pregunta con est-ce que + respuesta con ne...rien."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre lo que hiciste",
+      "turns": [
+        { "who": "Léa", "text": "As-tu déjà mangé ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, je n'ai pas encore mangé.", "Oui, j'ai déjà mangé."], "hint": "responde con avoir + participio, en afirmativo o negativo" },
+        { "who": "Léa", "text": "D'accord !", "speak": true }
+      ],
+      "explain": "As-tu déjà...? se responde con avoir + participio, con déjà o pas encore (clase 78)."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "speak": "Je n'ai pas fini mon travail, et je ne suis pas allé au sport aujourd'hui.",
+      "mode": "write",
+      "accept": ["Je n'ai pas fini mon travail, et je ne suis pas allé au sport aujourd'hui"],
+      "showTextAfter": true,
+      "explain": "Negación con avoir y con être, en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-compose"],
+      "difficulty": 1,
+      "speak": "As-tu mangé ?",
+      "mode": "choose",
+      "options": ["Tu as mangé.", "As-tu mangé ?", "Est-ce que mangé ?", "Manges-tu ?"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "As-tu mangé ? = ¿has comido? (inversión)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 3,
+      "speak": "Je n'ai jamais mangé ça, et je n'ai rien voulu essayer.",
+      "es": "Nunca he comido eso, y no he querido probar nada.",
+      "ipa": "/ʒə ne ʒa.mɛ mɑ̃.ʒe sa e ʒə ne ʁjɛ̃ vu.ly e.sɛ.je/",
+      "esApprox": "«ye ne ya-MÉ man-YÉ SA e ye ne RIEN vu-LÜ e-se-YÉ»",
+      "focus": "Dos negaciones distintas (jamais, rien) en passé composé.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Di algo que no has hecho todavía hoy.",
+      "modelAnswer": "Je n'ai pas encore mangé aujourd'hui.",
+      "alsoValid": ["Je ne suis pas encore allé au travail."],
+      "speak": "Je n'ai pas encore mangé aujourd'hui.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Es una pregunta con est-ce que o con inversión?",
+      "buckets": ["Est-ce que", "Inversión"],
+      "items": [
+        { "text": "Est-ce que tu as fini ?", "bucket": 0 },
+        { "text": "As-tu fini ?", "bucket": 1 },
+        { "text": "Est-ce qu'il est venu ?", "bucket": 0 },
+        { "text": "Es-tu venu ?", "bucket": 1 }
+      ],
+      "explain": "Est-ce que + orden normal frente a inversión auxiliar-sujeto."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "Hay un error de posición de la negación. Corrige la frase entera.",
+      "wrong": "J'ai mangé pas.",
+      "accept": ["Je n'ai pas mangé"],
+      "audio": "Je n'ai pas mangé.",
+      "explain": "Ne...pas rodea el auxiliar avoir, no va después del participio."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "Est-ce que tu as... ?", "es": "¿Has...?", "esApprox": "«es-ke tü A»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "As-tu... ?", "es": "¿Has...? (inversión)", "esApprox": "«a TÜ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "Es-tu allé(e) ?", "es": "¿Fuiste? (inversión con être)", "esApprox": "«e tü a-LÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "jamais", "es": "nunca (con passé composé)", "esApprox": "«ya-MÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "rien", "es": "nada (con passé composé)", "esApprox": "«RIEN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je n'ai rien mangé, et elle n'est pas venue.", "es": "No he comido nada, y ella no ha venido.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "As-tu fini ton travail ? — Non, je n'ai pas pu.", "es": "¿Has terminado tu trabajo? —No, no he podido.", "from": "e7" },
+    { "id": "s8", "kind": "word", "target": "personne", "es": "nadie (con passé composé)", "esApprox": "«per-SON»", "from": "v8" }
+  ]
+}
