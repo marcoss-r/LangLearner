@@ -1,0 +1,262 @@
+{
+  "id": "fr-a1-062",
+  "lang": "fr",
+  "level": "A1",
+  "order": 62,
+  "title": "Las asignaturas y los estudios",
+  "objectives": [
+    "Nombrar las asignaturas más comunes: les mathématiques, le français, l'histoire, la géographie",
+    "Usar aimer/adorer/détester (clase 33) para hablar de tus asignaturas preferidas",
+    "Usar étudier (verbo -er regular, clase 33) para decir qué estudias"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar de las asignaturas",
+      "body": "Étudier es un verbo -er regular (clase 33): j'étudie, tu étudies, il étudie... Combínalo con aimer/détester para dar tu opinión sobre cada asignatura.",
+      "examples": [
+        { "target": "J'étudie les mathématiques et j'aime beaucoup ça.", "es": "Estudio matemáticas y me gusta mucho.", "note": "étudier + aimer, dos verbos -er regulares" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de las asignaturas",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["les mathématiques", "las matemáticas"],
+        ["le français", "el francés (como asignatura)"],
+        ["l'histoire", "la historia"],
+        ["la géographie", "la geografía"],
+        ["les sciences", "las ciencias"],
+        ["le sport", "el deporte"],
+        ["la musique", "la música"],
+        ["l'art", "el arte"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Étudier frente a apprendre",
+      "items": [
+        { "wrong": "Usar los dos verbos de forma indistinta", "right": "J'étudie les mathématiques à l'école. / J'apprends beaucoup de choses.", "why": "Étudier se centra en la actividad (dedicar tiempo a una asignatura); apprendre (aprender, verbo irregular que verás en clases futuras) se centra en el resultado. De momento, usa étudier para hablar de tus asignaturas." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Les mathématiques y les sciences se usan siempre en plural, aunque en español digamos «la matemática» en algunos países."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "les mathématiques", "es": "las matemáticas", "ipa": "/le ma.te.ma.tik/", "esApprox": "«le ma-te-ma-TIK»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'étudie les mathématiques.", "es": "Estudio matemáticas." } },
+    { "id": "v2", "target": "l'histoire", "es": "la historia", "ipa": "/lis.twaʁ/", "esApprox": "«lis-TUÁR»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'adore l'histoire.", "es": "Me encanta la historia." } },
+    { "id": "v3", "target": "la géographie", "es": "la geografía", "ipa": "/la ʒe.ɔ.ɡʁa.fi/", "esApprox": "«la yeo-gra-FÍ»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je déteste la géographie.", "es": "Detesto la geografía." } },
+    { "id": "v4", "target": "les sciences", "es": "las ciencias", "ipa": "/le sjɑ̃s/", "esApprox": "«le SIANS»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'aime les sciences.", "es": "Me gustan las ciencias." } },
+    { "id": "v5", "target": "l'art", "es": "el arte", "ipa": "/laʁ/", "esApprox": "«LAR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Elle étudie l'art.", "es": "Ella estudia arte." } },
+    { "id": "v6", "target": "étudier", "es": "estudiar", "ipa": "/e.ty.dje/", "esApprox": "«e-tü-DIÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'étudie le français.", "es": "Estudio francés." } },
+    { "id": "v7", "target": "facile / difficile", "es": "fácil / difícil", "ipa": "/fa.sil di.fi.sil/", "esApprox": "«fa-SIL di-fi-SIL»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Les mathématiques sont difficiles.", "es": "Las matemáticas son difíciles." } },
+    { "id": "v8", "target": "un cours", "es": "una clase (asignatura, sesión)", "ipa": "/œ̃ kuʁ/", "esApprox": "«un KUR»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai un cours d'histoire ce matin.", "es": "Tengo una clase de historia esta mañana." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["estudios"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «las matemáticas»?",
+      "options": ["l'histoire", "les mathématiques", "la géographie", "l'art"],
+      "answer": 1,
+      "explain": "Les mathématiques = las matemáticas."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma correcta de étudier para «je»?",
+      "options": ["étudie", "étudies", "étudions", "étudient"],
+      "answer": 0,
+      "explain": "J'étudie: verbo -er regular (clase 33)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["estudios"],
+      "difficulty": 1,
+      "statement": "Les mathématiques y les sciences se usan siempre en plural.",
+      "answer": true,
+      "explain": "Ambas palabras son siempre plurales en francés."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas asignaturas es la única singular?",
+      "options": ["les mathématiques", "les sciences", "l'histoire", "les sports"],
+      "answer": 2,
+      "explain": "L'histoire es singular; las otras se usan en plural."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["estudios"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["l'histoire", "la géographie", "les sciences", "l'art"],
+      "right": ["las ciencias", "el arte", "la historia", "la geografía"],
+      "answer": [2, 3, 0, 1],
+      "explain": "Histoire = historia, géographie = geografía, sciences = ciencias, art = arte."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "Estudio matemáticas e historia, pero detesto la geografía.",
+      "accept": ["J'étudie les mathématiques et l'histoire, mais je déteste la géographie"],
+      "hintWords": ["j'étudie les mathématiques et l'histoire", "je déteste la géographie"],
+      "strictAccents": false,
+      "audio": "J'étudie les mathématiques et l'histoire, mais je déteste la géographie.",
+      "explain": "Étudier (actividad) + détester (gusto), dos verbos -er."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "Las matemáticas son difíciles, pero me encanta el arte.",
+      "accept": ["Les mathématiques sont difficiles, mais j'adore l'art"],
+      "hintWords": ["les mathématiques sont difficiles", "j'adore l'art"],
+      "strictAccents": false,
+      "audio": "Les mathématiques sont difficiles, mais j'adore l'art.",
+      "explain": "Sont + adjetivo plural (difficiles) para describir una asignatura."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "Completa con el verbo correcto",
+      "text": "J'___ le français et les sciences à l'école.",
+      "blanks": [{ "accept": ["étudie"] }],
+      "bank": ["étudie", "étudies", "étudions"],
+      "explain": "J'étudie: primera persona del singular."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tengo una clase de historia esta mañana»",
+      "tokens": ["ce matin", "un cours d'histoire", "J'ai"],
+      "answer": ["J'ai", "un cours d'histoire", "ce matin"],
+      "audio": "J'ai un cours d'histoire ce matin.",
+      "explain": "J'ai (clase 10) + un cours de + asignatura."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["estudios"],
+      "difficulty": 1,
+      "prompt": "Elle aime les sciences, mais elle déteste les mathématiques.",
+      "accept": ["A ella le gustan las ciencias, pero detesta las matemáticas."],
+      "strictAccents": false,
+      "audio": "Elle aime les sciences, mais elle déteste les mathématiques.",
+      "explain": "Aimer/détester + asignatura en plural."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus estudios",
+      "turns": [
+        { "who": "Léa", "text": "Tu aimes les mathématiques ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, je déteste les mathématiques.", "Oui, j'adore les mathématiques."], "hint": "di si te gustan o no las matemáticas" },
+        { "who": "Léa", "text": "Moi, j'adore l'histoire.", "speak": true }
+      ],
+      "explain": "Tu aimes...? se responde con aimer/adorer/détester (clase 33)."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "speak": "J'étudie l'histoire et la géographie, mais je préfère le sport.",
+      "mode": "write",
+      "accept": ["J'étudie l'histoire et la géographie, mais je préfère le sport"],
+      "showTextAfter": true,
+      "explain": "Étudier + preferir, dos asignaturas y una preferencia."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["estudios"],
+      "difficulty": 1,
+      "speak": "les mathématiques",
+      "mode": "choose",
+      "options": ["l'histoire", "les mathématiques", "la géographie", "l'art"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Les mathématiques = las matemáticas."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["estudios"],
+      "difficulty": 3,
+      "speak": "J'étudie les mathématiques, l'histoire et les sciences, mais ma matière préférée, c'est l'art.",
+      "es": "Estudio matemáticas, historia y ciencias, pero mi asignatura preferida es el arte.",
+      "ipa": "/ʒe.ty.di le ma.te.ma.tik lis.twaʁ e le sjɑ̃s mɛ ma ma.tjɛʁ pʁe.fe.ʁe sɛ laʁ/",
+      "esApprox": "«ye-tü-DÍ le ma-te-ma-TIK lis-TUÁR e le SIANS me ma ma-TIER pre-fe-RE se LAR»",
+      "focus": "Varias asignaturas seguidas y una preferencia final con c'est.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "Di qué asignaturas estudias y cuál es tu preferida.",
+      "modelAnswer": "J'étudie les mathématiques et l'histoire, et ma matière préférée, c'est le sport.",
+      "alsoValid": ["J'adore les sciences, mais je déteste la géographie."],
+      "speak": "J'étudie les mathématiques et l'histoire, et ma matière préférée, c'est le sport.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["estudios"],
+      "difficulty": 1,
+      "prompt": "¿Le gusta o no le gusta esta asignatura?",
+      "buckets": ["Le gusta", "No le gusta"],
+      "items": [
+        { "text": "J'adore l'art.", "bucket": 0 },
+        { "text": "Je déteste la géographie.", "bucket": 1 },
+        { "text": "J'aime les sciences.", "bucket": 0 },
+        { "text": "Je n'aime pas les mathématiques.", "bucket": 1 }
+      ],
+      "explain": "Adorer/aimer = le gusta; détester/ne pas aimer = no le gusta."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "Hay un error de concordancia verbal. Corrige la frase entera.",
+      "wrong": "J'étudies l'histoire.",
+      "accept": ["J'étudie l'histoire"],
+      "audio": "J'étudie l'histoire.",
+      "explain": "Con je, el verbo -er termina en -e: j'étudie, no j'étudies."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "les mathématiques", "es": "las matemáticas", "esApprox": "«le ma-te-ma-TIK»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "l'histoire", "es": "la historia", "esApprox": "«lis-TUÁR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "la géographie", "es": "la geografía", "esApprox": "«la yeo-gra-FÍ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "les sciences", "es": "las ciencias", "esApprox": "«le SIANS»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "étudier", "es": "estudiar", "esApprox": "«e-tü-DIÉ»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "un cours", "es": "una clase (asignatura, sesión)", "esApprox": "«un KUR»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "J'étudie les mathématiques et l'histoire, mais je déteste la géographie.", "es": "Estudio matemáticas e historia, pero detesto la geografía.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Les mathématiques sont difficiles, mais j'adore l'art.", "es": "Las matemáticas son difíciles, pero me encanta el arte.", "from": "e7" }
+  ]
+}

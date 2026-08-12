@@ -1,0 +1,254 @@
+{
+  "id": "fr-a1-064",
+  "lang": "fr",
+  "level": "A1",
+  "order": 64,
+  "title": "Hablar de tu trabajo y de tus estudios",
+  "objectives": [
+    "Mantener una conversación completa sobre tu trabajo o tus estudios",
+    "Usar travailler comme/dans y étudier à (clases 62-63) en contexto",
+    "Preguntar y responder sobre la profesión y el lugar de trabajo o estudio"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar de tu vida profesional o académica",
+      "body": "Combina lo que ya sabes: être + profesión (clase 63), travailler comme/dans (clase 33) y étudier (clase 62), para tener una conversación completa sobre tu trabajo o tus estudios.",
+      "examples": [
+        { "target": "Je travaille comme ingénieur dans une grande entreprise.", "es": "Trabajo de ingeniero en una gran empresa.", "note": "travailler comme + profesión + dans + lugar" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Preguntas y respuestas sobre el trabajo y los estudios",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["Qu'est-ce que tu fais dans la vie ?", "¿A qué te dedicas?"],
+        ["Je travaille comme...", "Trabajo de..."],
+        ["Je travaille dans une entreprise / un hôpital / une école.", "Trabajo en una empresa / un hospital / una escuela."],
+        ["J'étudie à l'université.", "Estudio en la universidad."],
+        ["Qu'est-ce que tu étudies ?", "¿Qué estudias?"],
+        ["Ça te plaît, ton travail ?", "¿Te gusta tu trabajo?"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "L'université es femenino: à l'université (à + le se contrae en au, pero université empieza por vocal, así que es à l'université, sin contracción de artículo definido)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "l'université", "es": "la universidad", "ipa": "/ly.ni.vɛʁ.si.te/", "esApprox": "«lü-ni-ver-si-TE»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'étudie à l'université.", "es": "Estudio en la universidad." } },
+    { "id": "v2", "target": "une entreprise", "es": "una empresa", "ipa": "/yn ɑ̃.tʁə.pʁiz/", "esApprox": "«ün an-tre-PRIZ»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je travaille dans une entreprise.", "es": "Trabajo en una empresa." } },
+    { "id": "v3", "target": "un hôpital", "es": "un hospital", "ipa": "/œ̃.n‿o.pi.tal/", "esApprox": "«un-no-pi-TAL»", "pos": "sustantivo", "gender": "m", "example": { "target": "Elle travaille dans un hôpital.", "es": "Ella trabaja en un hospital." } },
+    { "id": "v4", "target": "travailler comme", "es": "trabajar de", "ipa": "/tʁa.va.je kɔm/", "esApprox": "«tra-va-YÉ KOM»", "pos": "expresión", "gender": null, "example": { "target": "Je travaille comme professeur.", "es": "Trabajo de profesor." } },
+    { "id": "v5", "target": "Qu'est-ce que tu fais dans la vie ?", "es": "¿A qué te dedicas?", "ipa": "/kɛs.kə ty fɛ dɑ̃ la vi/", "esApprox": "«kes-ke tü FE dan la VI»", "pos": "expresión", "gender": null, "example": { "target": "Qu'est-ce que tu fais dans la vie ? — Je suis médecin.", "es": "¿A qué te dedicas? —Soy médico." } },
+    { "id": "v6", "target": "Ça te plaît ?", "es": "¿Te gusta?", "ipa": "/sa tə plɛ/", "esApprox": "«sa te PLE»", "pos": "expresión", "gender": null, "example": { "target": "Ça te plaît, ton travail ?", "es": "¿Te gusta tu trabajo?" } },
+    { "id": "v7", "target": "intéressant / fatigant", "es": "interesante / cansado (agotador)", "ipa": "/ɛ̃.te.ʁɛ.sɑ̃ fa.ti.ɡɑ̃/", "esApprox": "«en-te-re-SAN fa-ti-GAN»", "pos": "adjetivo", "gender": "m", "example": { "target": "Mon travail est intéressant, mais fatigant.", "es": "Mi trabajo es interesante, pero cansado." } },
+    { "id": "v8", "target": "Qu'est-ce que tu étudies ?", "es": "¿Qué estudias?", "ipa": "/kɛs.kə ty e.ty.di/", "esApprox": "«kes-ke tü e-tü-DÍ»", "pos": "expresión", "gender": null, "example": { "target": "Qu'est-ce que tu étudies ? — J'étudie les sciences.", "es": "¿Qué estudias? —Estudio ciencias." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo preguntas a alguien a qué se dedica?",
+      "options": ["Ça te plaît ?", "Qu'est-ce que tu fais dans la vie ?", "Tu es d'où ?", "Tu as quel âge ?"],
+      "answer": 1,
+      "explain": "Qu'est-ce que tu fais dans la vie ? = ¿a qué te dedicas?"
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «estudio en la universidad»?",
+      "options": ["J'étudie l'université.", "J'étudie à l'université.", "Je suis l'université.", "Je travaille à l'université."],
+      "answer": 1,
+      "explain": "Étudier à + lugar: j'étudie à l'université."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "statement": "Travailler comme + profesión no lleva artículo, igual que être + profesión.",
+      "answer": true,
+      "explain": "Je travaille comme professeur, igual que je suis professeur (clase 63)."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos lugares no es de trabajo o estudio?",
+      "options": ["une entreprise", "un hôpital", "l'université", "le petit-déjeuner"],
+      "answer": 3,
+      "explain": "Le petit-déjeuner (clase 59) es el desayuno, no un lugar de trabajo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["trabajo", "estudios"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["travailler comme", "l'université", "une entreprise", "Ça te plaît ?"],
+      "right": ["¿te gusta?", "una empresa", "trabajar de", "la universidad"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Travailler comme = trabajar de, université = universidad, entreprise = empresa, ça te plaît = ¿te gusta?"
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Trabajo de ingeniero en una empresa. Es interesante, pero cansado.",
+      "accept": ["Je travaille comme ingénieur dans une entreprise. C'est intéressant, mais fatigant"],
+      "hintWords": ["je travaille comme ingénieur", "dans une entreprise"],
+      "strictAccents": false,
+      "audio": "Je travaille comme ingénieur dans une entreprise. C'est intéressant, mais fatigant.",
+      "explain": "Travailler comme + travailler dans + adjetivos con c'est."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "Estudio en la universidad. Estudio matemáticas y me gusta mucho.",
+      "accept": ["J'étudie à l'université. J'étudie les mathématiques et j'aime beaucoup ça"],
+      "hintWords": ["j'étudie à l'université", "j'étudie les mathématiques"],
+      "strictAccents": false,
+      "audio": "J'étudie à l'université. J'étudie les mathématiques et j'aime beaucoup ça.",
+      "explain": "Étudier à + lugar, étudier + asignatura (clase 62)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Completa la pregunta y la respuesta",
+      "text": "___ tu fais dans la vie ? — Je ___ médecin.",
+      "blanks": [{ "accept": ["Qu'est-ce que"] }, { "accept": ["suis"] }],
+      "bank": ["Qu'est-ce que", "Comment", "suis", "ai"],
+      "explain": "Qu'est-ce que tu fais...? — Je suis + profesión."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Trabajo en un hospital como enfermera»",
+      "tokens": ["comme infirmière", "dans un hôpital", "Je travaille"],
+      "answer": ["Je travaille", "dans un hôpital", "comme infirmière"],
+      "audio": "Je travaille dans un hôpital comme infirmière.",
+      "explain": "Travailler dans + lugar + comme + profesión."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Ça te plaît, ton travail ? — Oui, mon travail est intéressant.",
+      "accept": ["¿Te gusta tu trabajo? —Sí, mi trabajo es interesante."],
+      "strictAccents": false,
+      "audio": "Ça te plaît, ton travail ? — Oui, mon travail est intéressant.",
+      "explain": "Ça te plaît ? + mon travail est + adjetivo."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["trabajo", "estudios"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu trabajo o tus estudios",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu fais dans la vie ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je travaille comme ingénieur.", "J'étudie à l'université."], "hint": "di si trabajas o estudias, y en qué" },
+        { "who": "Léa", "text": "Ça te plaît ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, c'est intéressant.", "Oui, ça me plaît beaucoup."], "hint": "responde si te gusta" }
+      ],
+      "explain": "Conversación completa: profesión/estudios + opinión."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "speak": "Je travaille comme cuisinier dans un restaurant. C'est fatigant, mais intéressant.",
+      "mode": "write",
+      "accept": ["Je travaille comme cuisinier dans un restaurant. C'est fatigant, mais intéressant"],
+      "showTextAfter": true,
+      "explain": "Descripción completa del trabajo con travailler comme/dans."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["estudios"],
+      "difficulty": 1,
+      "speak": "l'université",
+      "mode": "choose",
+      "options": ["une entreprise", "un hôpital", "l'université", "la salle de classe"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "L'université = la universidad."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["trabajo", "estudios"],
+      "difficulty": 3,
+      "speak": "Qu'est-ce que tu fais dans la vie ? — Je travaille comme médecin dans un hôpital, et ça me plaît beaucoup.",
+      "es": "¿A qué te dedicas? —Trabajo de médico en un hospital, y me gusta mucho.",
+      "ipa": "/kɛs.kə ty fɛ dɑ̃ la vi ʒə tʁa.vaj kɔm med.sɛ̃ dɑ̃.z‿œ̃.n‿o.pi.tal e sa mə plɛ bo.ku/",
+      "esApprox": "«kes-ke tü FE dan la VI ye tra-VÁY kom med-SEN dan-zun-no-pi-TAL e sa me PLE bo-KÚ»",
+      "focus": "Pregunta y respuesta completa sobre el trabajo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["trabajo", "estudios"],
+      "difficulty": 2,
+      "prompt": "Habla de tu trabajo o tus estudios: qué haces, dónde y si te gusta.",
+      "modelAnswer": "J'étudie à l'université. J'étudie les sciences et ça me plaît beaucoup.",
+      "alsoValid": ["Je travaille comme professeur dans une école. C'est fatigant, mais intéressant."],
+      "speak": "J'étudie à l'université. J'étudie les sciences et ça me plaît beaucoup.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["trabajo", "estudios"],
+      "difficulty": 2,
+      "prompt": "¿Es del trabajo o de los estudios?",
+      "buckets": ["Trabajo", "Estudios"],
+      "items": [
+        { "text": "Je travaille comme avocat.", "bucket": 0 },
+        { "text": "J'étudie à l'université.", "bucket": 1 },
+        { "text": "Je travaille dans une entreprise.", "bucket": 0 },
+        { "text": "J'étudie les mathématiques.", "bucket": 1 }
+      ],
+      "explain": "Travailler comme/dans = trabajo; étudier = estudios."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Hay un error: falta la preposición comme. Corrige la frase entera.",
+      "wrong": "Je travaille ingénieur.",
+      "accept": ["Je travaille comme ingénieur"],
+      "audio": "Je travaille comme ingénieur.",
+      "explain": "Travailler comme + profesión: falta comme."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "l'université", "es": "la universidad", "esApprox": "«lü-ni-ver-si-TE»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "une entreprise", "es": "una empresa", "esApprox": "«ün an-tre-PRIZ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un hôpital", "es": "un hospital", "esApprox": "«un-no-pi-TAL»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "travailler comme", "es": "trabajar de", "esApprox": "«tra-va-YÉ KOM»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "Qu'est-ce que tu fais dans la vie ?", "es": "¿A qué te dedicas?", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Ça te plaît, ton travail ?", "es": "¿Te gusta tu trabajo?", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je travaille comme ingénieur dans une entreprise. C'est intéressant, mais fatigant.", "es": "Trabajo de ingeniero en una empresa. Es interesante, pero cansado.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'étudie à l'université. J'étudie les mathématiques et j'aime beaucoup ça.", "es": "Estudio en la universidad. Estudio matemáticas y me gusta mucho.", "from": "e7" }
+  ]
+}

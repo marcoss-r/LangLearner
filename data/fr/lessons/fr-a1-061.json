@@ -1,0 +1,256 @@
+{
+  "id": "fr-a1-061",
+  "lang": "fr",
+  "level": "A1",
+  "order": 61,
+  "title": "La escuela y el aula",
+  "objectives": [
+    "Nombrar los objetos y personas del aula: le professeur, l'élève, le livre, le cahier",
+    "Usar il y a y c'est para describir un aula (clases 49-50)",
+    "Reconocer el vocabulario básico de la vida escolar"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de la escuela",
+      "body": "Con il y a (clase 49) y las preposiciones de lugar (clase 50) puedes describir cualquier aula: qué hay y dónde está.",
+      "examples": [
+        { "target": "Dans la salle de classe, il y a un tableau et des chaises.", "es": "En el aula, hay una pizarra y sillas.", "note": "il y a + objetos del aula" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del aula",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["la salle de classe", "el aula"],
+        ["le professeur / la professeure", "el profesor / la profesora"],
+        ["l'élève", "el/la alumno/a"],
+        ["le livre", "el libro"],
+        ["le cahier", "el cuaderno"],
+        ["le stylo / le crayon", "el bolígrafo / el lápiz"],
+        ["le tableau", "la pizarra"],
+        ["la chaise / la table", "la silla / la mesa"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "L'élève no cambia de forma entre masculino y femenino, solo el artículo: un élève / une élève. Le professeur tiene una forma femenina moderna, la professeure, cada vez más usada."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la salle de classe", "es": "el aula", "ipa": "/la sal də klas/", "esApprox": "«la sal de KLAS»", "pos": "sustantivo", "gender": "f", "example": { "target": "La salle de classe est grande.", "es": "El aula es grande." } },
+    { "id": "v2", "target": "le professeur / la professeure", "es": "el profesor / la profesora", "ipa": "/lə pʁɔ.fɛ.sœʁ/", "esApprox": "«le pro-fe-SEUR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le professeur parle français.", "es": "El profesor habla francés." } },
+    { "id": "v3", "target": "l'élève", "es": "el/la alumno/a", "ipa": "/le.lɛv/", "esApprox": "«le-LEV»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il y a vingt élèves dans la classe.", "es": "Hay veinte alumnos en la clase." } },
+    { "id": "v4", "target": "le livre", "es": "el libro", "ipa": "/lə livʁ/", "esApprox": "«le LIVR»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ouvre mon livre.", "es": "Abro mi libro." } },
+    { "id": "v5", "target": "le cahier", "es": "el cuaderno", "ipa": "/lə ka.je/", "esApprox": "«le ka-YÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'écris dans mon cahier.", "es": "Escribo en mi cuaderno." } },
+    { "id": "v6", "target": "le stylo", "es": "el bolígrafo", "ipa": "/lə sti.lo/", "esApprox": "«le sti-LÓ»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'écris avec un stylo bleu.", "es": "Escribo con un bolígrafo azul." } },
+    { "id": "v7", "target": "le tableau", "es": "la pizarra", "ipa": "/lə ta.blo/", "esApprox": "«le ta-BLÓ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le professeur écrit au tableau.", "es": "El profesor escribe en la pizarra." } },
+    { "id": "v8", "target": "la chaise", "es": "la silla", "ipa": "/la ʃɛz/", "esApprox": "«la SHEZ»", "pos": "sustantivo", "gender": "f", "example": { "target": "Il y a trente chaises dans la classe.", "es": "Hay treinta sillas en la clase." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «el cuaderno»?",
+      "options": ["le livre", "le cahier", "le stylo", "le tableau"],
+      "answer": 1,
+      "explain": "Le cahier = el cuaderno."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "¿Dónde escribe el profesor para toda la clase?",
+      "options": ["dans le cahier", "sur la chaise", "au tableau", "dans le livre"],
+      "answer": 2,
+      "explain": "Au tableau (à + le = au, clase 36): en la pizarra."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "statement": "L'élève es la persona que enseña en la clase.",
+      "answer": false,
+      "explain": "L'élève es quien aprende; le professeur es quien enseña."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras no es un objeto de escritura?",
+      "options": ["le stylo", "le cahier", "la chaise", "le livre"],
+      "answer": 2,
+      "explain": "La chaise (la silla) no es un objeto para escribir."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["le professeur", "l'élève", "le tableau", "la salle de classe"],
+      "right": ["el aula", "el profesor", "el alumno", "la pizarra"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Professeur = profesor, élève = alumno, tableau = pizarra, salle de classe = aula."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "En el aula, hay una pizarra y treinta sillas.",
+      "accept": ["Dans la salle de classe, il y a un tableau et trente chaises"],
+      "hintWords": ["dans la salle de classe", "il y a"],
+      "strictAccents": false,
+      "audio": "Dans la salle de classe, il y a un tableau et trente chaises.",
+      "explain": "Il y a (clase 49) + los objetos del aula."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "El profesor escribe en la pizarra y los alumnos escriben en su cuaderno.",
+      "accept": ["Le professeur écrit au tableau et les élèves écrivent dans leur cahier"],
+      "hintWords": ["le professeur écrit au tableau", "les élèves écrivent"],
+      "strictAccents": false,
+      "audio": "Le professeur écrit au tableau et les élèves écrivent dans leur cahier.",
+      "explain": "Au tableau (contracción) frente a dans leur cahier."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "J'écris dans mon ___ avec un ___.",
+      "blanks": [{ "accept": ["cahier"] }, { "accept": ["stylo"] }],
+      "bank": ["cahier", "stylo", "tableau"],
+      "explain": "Cahier (cuaderno) + stylo (bolígrafo): escribir en el cuaderno con un bolígrafo."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hay veinte alumnos en la clase»",
+      "tokens": ["dans la classe", "vingt élèves", "Il y a"],
+      "answer": ["Il y a", "vingt élèves", "dans la classe"],
+      "audio": "Il y a vingt élèves dans la classe.",
+      "explain": "Il y a + número + élèves + dans la classe."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "prompt": "Le professeur parle et les élèves écoutent.",
+      "accept": ["El profesor habla y los alumnos escuchan."],
+      "strictAccents": false,
+      "audio": "Le professeur parle et les élèves écoutent.",
+      "explain": "Écouter: verbo -er regular (clase 33)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en clase",
+      "turns": [
+        { "who": "Léa", "text": "Tu as un stylo ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai un stylo.", "Non, je n'ai pas de stylo."], "hint": "responde si tienes o no un bolígrafo" },
+        { "who": "Léa", "text": "Merci !", "speak": true }
+      ],
+      "explain": "Tu as...? se responde con avoir (clase 10) y la negación pas de (clase 19)."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "speak": "Dans la salle de classe, il y a un tableau, des chaises et des tables.",
+      "mode": "write",
+      "accept": ["Dans la salle de classe, il y a un tableau, des chaises et des tables"],
+      "showTextAfter": true,
+      "explain": "Descripción del aula con il y a."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "speak": "le cahier",
+      "mode": "choose",
+      "options": ["le livre", "le cahier", "le stylo", "le tableau"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Le cahier = el cuaderno."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["escuela"],
+      "difficulty": 3,
+      "speak": "Le professeur écrit au tableau, les élèves ouvrent leur livre et écrivent dans leur cahier.",
+      "es": "El profesor escribe en la pizarra, los alumnos abren su libro y escriben en su cuaderno.",
+      "ipa": "/lə pʁɔ.fɛ.sœʁ e.kʁi o ta.blo le.zə.lɛv uvʁ lœʁ livʁ e e.kʁiv dɑ̃ lœʁ ka.je/",
+      "esApprox": "«le pro-fe-SEUR e-KRÍ o ta-BLÓ le-ze-LEV UVR leur LIVR e e-KRIV dan leur ka-YÉ»",
+      "focus": "Una escena completa de aula con varios verbos y objetos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Describe tu aula: qué objetos hay y cuántos alumnos.",
+      "modelAnswer": "Dans ma salle de classe, il y a vingt-cinq élèves et un tableau.",
+      "alsoValid": ["Il y a des livres, des cahiers et des chaises."],
+      "speak": "Dans ma salle de classe, il y a vingt-cinq élèves et un tableau.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "prompt": "¿Es una persona o un objeto?",
+      "buckets": ["Persona", "Objeto"],
+      "items": [
+        { "text": "le professeur", "bucket": 0 },
+        { "text": "le livre", "bucket": 1 },
+        { "text": "l'élève", "bucket": 0 },
+        { "text": "le stylo", "bucket": 1 },
+        { "text": "le cahier", "bucket": 1 }
+      ],
+      "explain": "Professeur y élève son personas; livre, stylo y cahier son objetos."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Hay un error de contracción. Corrige la frase entera.",
+      "wrong": "Le professeur écrit à le tableau.",
+      "accept": ["Le professeur écrit au tableau"],
+      "audio": "Le professeur écrit au tableau.",
+      "explain": "À + le se contrae siempre en au (clase 36)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la salle de classe", "es": "el aula", "esApprox": "«la sal de KLAS»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le professeur / la professeure", "es": "el profesor / la profesora", "esApprox": "«le pro-fe-SEUR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "l'élève", "es": "el/la alumno/a", "esApprox": "«le-LEV»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le livre", "es": "el libro", "esApprox": "«le LIVR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "le cahier", "es": "el cuaderno", "esApprox": "«le ka-YÉ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "le tableau", "es": "la pizarra", "esApprox": "«le ta-BLÓ»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Dans la salle de classe, il y a un tableau et trente chaises.", "es": "En el aula, hay una pizarra y treinta sillas.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Le professeur écrit au tableau et les élèves écrivent dans leur cahier.", "es": "El profesor escribe en la pizarra y los alumnos escriben en su cuaderno.", "from": "e7" }
+  ]
+}

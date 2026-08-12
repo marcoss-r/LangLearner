@@ -1,0 +1,257 @@
+{
+  "id": "fr-a1-067",
+  "lang": "fr",
+  "level": "A1",
+  "order": 67,
+  "title": "Los animales",
+  "objectives": [
+    "Nombrar los animales domésticos y de granja más comunes",
+    "Usar avoir un/une + animal para hablar de mascotas (clase 10)",
+    "Describir animales con avoir + parte del cuerpo (clases 27, 65)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los animales",
+      "body": "Con avoir (clase 10) hablas de qué mascotas tienes, y con les couleurs y avoir + parte del cuerpo (clases 27, 65) puedes describirlos.",
+      "examples": [
+        { "target": "J'ai un chien et un chat. Mon chien a de grandes oreilles.", "es": "Tengo un perro y un gato. Mi perro tiene las orejas grandes.", "note": "avoir + animal, avoir + parte del cuerpo del animal" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de los animales",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["le chien", "el perro"],
+        ["le chat", "el gato"],
+        ["l'oiseau", "el pájaro"],
+        ["le cheval", "el caballo"],
+        ["la vache", "la vaca"],
+        ["le cochon", "el cerdo"],
+        ["le poisson", "el pez"],
+        ["le lapin", "el conejo"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Le poisson ya lo conocías con el significado de «pescado» (clase 56). En francés, la misma palabra sirve para el animal vivo y para el alimento."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le chien", "es": "el perro", "ipa": "/lə ʃjɛ̃/", "esApprox": "«le SHIEN»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai un chien.", "es": "Tengo un perro." } },
+    { "id": "v2", "target": "le chat", "es": "el gato", "ipa": "/lə ʃa/", "esApprox": "«le SHA»", "pos": "sustantivo", "gender": "m", "example": { "target": "Mon chat dort beaucoup.", "es": "Mi gato duerme mucho." } },
+    { "id": "v3", "target": "l'oiseau", "es": "el pájaro", "ipa": "/lwa.zo/", "esApprox": "«uá-ZÓ»", "pos": "sustantivo", "gender": "m", "plural": "les oiseaux", "example": { "target": "L'oiseau chante le matin.", "es": "El pájaro canta por la mañana." } },
+    { "id": "v4", "target": "le cheval", "es": "el caballo", "ipa": "/lə ʃə.val/", "esApprox": "«le she-VAL»", "pos": "sustantivo", "gender": "m", "plural": "les chevaux", "example": { "target": "Le cheval court vite.", "es": "El caballo corre rápido." } },
+    { "id": "v5", "target": "la vache", "es": "la vaca", "ipa": "/la vaʃ/", "esApprox": "«la VASH»", "pos": "sustantivo", "gender": "f", "example": { "target": "Il y a des vaches dans le champ.", "es": "Hay vacas en el campo." } },
+    { "id": "v6", "target": "le cochon", "es": "el cerdo", "ipa": "/lə kɔ.ʃɔ̃/", "esApprox": "«le ko-SHÓN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le cochon mange beaucoup.", "es": "El cerdo come mucho." } },
+    { "id": "v7", "target": "le lapin", "es": "el conejo", "ipa": "/lə la.pɛ̃/", "esApprox": "«le la-PEN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le lapin est petit et rapide.", "es": "El conejo es pequeño y rápido." } },
+    { "id": "v8", "target": "un animal / des animaux", "es": "un animal / unos animales", "ipa": "/œ̃.n‿a.ni.mal de.z‿a.ni.mo/", "esApprox": "«un-na-ni-MAL de-za-ni-MÓ»", "pos": "sustantivo", "gender": "m", "plural": "des animaux", "example": { "target": "J'aime beaucoup les animaux.", "es": "Me gustan mucho los animales." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «el perro»?",
+      "options": ["le chat", "le chien", "le lapin", "l'oiseau"],
+      "answer": 1,
+      "explain": "Le chien = el perro."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el plural de «le cheval»?",
+      "options": ["les chevals", "les chevaux", "les cheval", "les chevales"],
+      "answer": 1,
+      "explain": "Cheval hace el plural en -aux: les chevaux."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "statement": "La vache y le cochon son animales de granja.",
+      "answer": true,
+      "explain": "Vache (vaca) y cochon (cerdo) son animales de granja."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos animales no suele ser mascota doméstica?",
+      "options": ["le chien", "le chat", "la vache", "le lapin"],
+      "answer": 2,
+      "explain": "La vache (la vaca) es un animal de granja, no una mascota habitual."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["le cheval", "l'oiseau", "le lapin", "le cochon"],
+      "right": ["el conejo", "el cerdo", "el caballo", "el pájaro"],
+      "answer": [2, 3, 0, 1],
+      "explain": "Cheval = caballo, oiseau = pájaro, lapin = conejo, cochon = cerdo."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Tengo un perro y un gato, y me encantan los animales.",
+      "accept": ["J'ai un chien et un chat, et j'adore les animaux"],
+      "hintWords": ["j'ai un chien et un chat", "j'adore les animaux"],
+      "strictAccents": false,
+      "audio": "J'ai un chien et un chat, et j'adore les animaux.",
+      "explain": "Avoir (clase 10) + adorer (clase 33) con les animaux."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Mi perro tiene las orejas grandes y los ojos pequeños.",
+      "accept": ["Mon chien a de grandes oreilles et de petits yeux"],
+      "hintWords": ["mon chien a de grandes oreilles", "de petits yeux"],
+      "strictAccents": false,
+      "audio": "Mon chien a de grandes oreilles et de petits yeux.",
+      "explain": "Avoir + partes del cuerpo (clases 27, 65), aplicado a un animal."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Completa con el animal correcto",
+      "text": "Dans le champ, il y a des ___ et des ___.",
+      "blanks": [{ "accept": ["vaches"] }, { "accept": ["chevaux"] }],
+      "bank": ["vaches", "chevaux", "chats"],
+      "explain": "Vaches (vacas) y chevaux (caballos) son animales de granja."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El pájaro canta por la mañana»",
+      "tokens": ["le matin", "chante", "L'oiseau"],
+      "answer": ["L'oiseau", "chante", "le matin"],
+      "audio": "L'oiseau chante le matin.",
+      "explain": "L'oiseau + chante (verbo -er regular) + le matin."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "prompt": "Mon chat dort beaucoup, mais mon chien joue tout le temps.",
+      "accept": ["Mi gato duerme mucho, pero mi perro juega todo el tiempo."],
+      "strictAccents": false,
+      "audio": "Mon chat dort beaucoup, mais mon chien joue tout le temps.",
+      "explain": "Dos animales domésticos con verbos diferentes."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre mascotas",
+      "turns": [
+        { "who": "Léa", "text": "Tu as un animal à la maison ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai un chien.", "Oui, j'ai un chat.", "Non, je n'ai pas d'animal."], "hint": "responde con avoir + animal o la negación" },
+        { "who": "Léa", "text": "Super !", "speak": true }
+      ],
+      "explain": "Tu as...? se responde con avoir (clase 10)."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "speak": "J'ai un chien, un chat et un lapin. J'adore les animaux.",
+      "mode": "write",
+      "accept": ["J'ai un chien, un chat et un lapin. J'adore les animaux"],
+      "showTextAfter": true,
+      "explain": "Tres mascotas y una opinión."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "speak": "le cheval",
+      "mode": "choose",
+      "options": ["la vache", "le cheval", "le cochon", "le lapin"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Le cheval = el caballo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["animales"],
+      "difficulty": 3,
+      "speak": "J'ai un chien et un chat à la maison, et dans le champ, il y a des vaches et des chevaux.",
+      "es": "Tengo un perro y un gato en casa, y en el campo, hay vacas y caballos.",
+      "ipa": "/ʒe œ̃ ʃjɛ̃ e œ̃ ʃa a la mɛ.zɔ̃ e dɑ̃ lə ʃɑ̃ il i a de vaʃ e de ʃə.vo/",
+      "esApprox": "«ye un SHIEN e un SHA a la me-ZÓN e dan le SHAN il i a de VASH e de she-VÓ»",
+      "focus": "Contraste entre animales domésticos y animales de granja.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Di qué animales tienes o qué animales te gustan.",
+      "modelAnswer": "J'ai un chat et j'adore les chevaux.",
+      "alsoValid": ["Je n'ai pas d'animal, mais j'aime les chiens."],
+      "speak": "J'ai un chat et j'adore les chevaux.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "prompt": "¿Es un animal doméstico o de granja?",
+      "buckets": ["Doméstico", "De granja"],
+      "items": [
+        { "text": "le chien", "bucket": 0 },
+        { "text": "la vache", "bucket": 1 },
+        { "text": "le chat", "bucket": 0 },
+        { "text": "le cochon", "bucket": 1 },
+        { "text": "le lapin", "bucket": 0 },
+        { "text": "le cheval", "bucket": 1 }
+      ],
+      "explain": "Chien, chat y lapin suelen ser domésticos; vache, cochon y cheval, de granja."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Hay un error de plural. Corrige la frase entera.",
+      "wrong": "Il y a des chevals dans le champ.",
+      "accept": ["Il y a des chevaux dans le champ"],
+      "audio": "Il y a des chevaux dans le champ.",
+      "explain": "El plural de cheval es chevaux, no chevals."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "le chien", "es": "el perro", "esApprox": "«le SHIEN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le chat", "es": "el gato", "esApprox": "«le SHA»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "l'oiseau", "es": "el pájaro", "esApprox": "«uá-ZÓ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le cheval", "es": "el caballo", "esApprox": "«le she-VAL»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "la vache", "es": "la vaca", "esApprox": "«la VASH»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "le lapin", "es": "el conejo", "esApprox": "«le la-PEN»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "un animal / des animaux", "es": "un animal / unos animales", "esApprox": "«un-na-ni-MAL de-za-ni-MÓ»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai un chien et un chat, et j'adore les animaux.", "es": "Tengo un perro y un gato, y me encantan los animales.", "from": "e6" }
+  ]
+}
