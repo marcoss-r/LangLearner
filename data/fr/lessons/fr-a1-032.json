@@ -1,0 +1,400 @@
+{
+  "id": "fr-a1-032",
+  "lang": "fr",
+  "level": "A1",
+  "order": 32,
+  "title": "Repaso activo II (clases 21–31)",
+  "objectives": [
+    "Repasar y consolidar las preguntas, los colores, los adjetivos, la descripción física y de carácter",
+    "Repasar la familia, los posesivos y las nacionalidades",
+    "Combinar todo el bloque C en frases completas, sin apoyo de teoría nueva"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque C",
+      "body": "Sin gramática nueva. Repasa las clases 21 a 31: las tres formas de preguntar, las interrogativas, la liaison, los colores, los adjetivos (género, número y posición), describir el físico y el carácter, la familia, los posesivos y las nacionalidades. Más ejercicios que en una clase normal, a propósito."
+    },
+    {
+      "type": "table",
+      "title": "Los tres registros de pregunta",
+      "headers": ["Registro", "Ejemplo"],
+      "rows": [
+        ["Entonación", "Tu as faim ?"],
+        ["Est-ce que", "Est-ce que tu as faim ?"],
+        ["Inversión", "As-tu faim ?"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los posesivos",
+      "headers": ["Poseedor", "Masc. sg.", "Fem. sg.", "Plural"],
+      "rows": [
+        ["yo", "mon", "ma", "mes"],
+        ["tú", "ton", "ta", "tes"],
+        ["él/ella", "son", "sa", "ses"],
+        ["nosotros", "notre", "notre", "nos"],
+        ["ellos", "leur", "leur", "leurs"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Adjetivos que van antes del sustantivo",
+      "headers": ["Categoría", "Ejemplos"],
+      "rows": [
+        ["Belleza", "beau, joli"],
+        ["Edad", "jeune, vieux, nouveau"],
+        ["Bondad/maldad", "bon, mauvais"],
+        ["Tamaño", "grand, petit, gros"]
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "Recordatorio de liaison",
+      "body": "Tres liaisons que ya deberías tener automatizadas.",
+      "drills": [
+        { "target": "les amis", "ipa": "/le.z‿ami/", "esApprox": "«le-za-MÍ»", "hint": "s → z" },
+        { "target": "neuf ans", "ipa": "/nœ.v‿ɑ̃/", "esApprox": "«neu-VAN»", "hint": "f → v, caso especial" },
+        { "target": "un garçon et une fille", "ipa": "/œ̃ ɡaʁ.sɔ̃ e yn fij/", "esApprox": "«un gar-SÓN e ün FIY»", "hint": "sin liaison después de et" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "qui", "es": "quién", "ipa": "/ki/", "esApprox": "«ki»", "pos": "pronombre", "gender": null },
+    { "id": "v2", "target": "pourquoi", "es": "por qué", "ipa": "/puʁ.kwa/", "esApprox": "«pur-KUÁ»", "pos": "adverbio", "gender": null },
+    { "id": "v3", "target": "bleu / bleue", "es": "azul", "ipa": "/blø/", "esApprox": "«BLEU»", "pos": "adjetivo", "gender": null },
+    { "id": "v4", "target": "sympa", "es": "simpático, simpática", "ipa": "/sɛ̃.pa/", "esApprox": "«sen-PÁ»", "pos": "adjetivo", "gender": null },
+    { "id": "v5", "target": "mon / ma / mes", "es": "mi, mis", "ipa": "/mɔ̃ / ma / me/", "esApprox": "«mon» / «ma» / «me»", "pos": "posesivo", "gender": null },
+    { "id": "v6", "target": "les grands-parents", "es": "los abuelos", "ipa": "/le ɡʁɑ̃.pa.ʁɑ̃/", "esApprox": "«le gran-pa-RAN»", "pos": "sustantivo", "gender": "m", "plural": "les grands-parents" },
+    { "id": "v7", "target": "la France", "es": "Francia", "ipa": "/la fʁɑ̃s/", "esApprox": "«la FRANS»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v8", "target": "parler", "es": "hablar", "ipa": "/paʁ.le/", "esApprox": "«par-LÉ»", "pos": "verbo", "gender": null },
+    { "id": "v9", "target": "les yeux", "es": "los ojos", "ipa": "/le zjø/", "esApprox": "«le ZIEU»", "pos": "sustantivo", "gender": "m", "plural": "les yeux" },
+    { "id": "v10", "target": "gentil / gentille", "es": "amable", "ipa": "/ʒɑ̃.ti / ʒɑ̃.tij/", "esApprox": "«yan-TÍ» / «yan-TIY»", "pos": "adjetivo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["preguntas"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas tres preguntas es por inversión?",
+      "options": ["Tu as faim ?", "Est-ce que tu as faim ?", "As-tu faim ?", "Ninguna"],
+      "answer": 2,
+      "explain": "As-tu faim ? invierte el verbo y el sujeto."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["interrogativos"],
+      "difficulty": 1,
+      "prompt": "¿Qué interrogativa usas para preguntar por una persona?",
+      "options": ["que", "où", "qui", "quand"],
+      "answer": 2,
+      "explain": "Qui es para personas."
+    },
+    {
+      "id": "e3",
+      "type": "mcq",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "¿Qué color es invariable en género?",
+      "options": ["bleu", "vert", "orange", "noir"],
+      "answer": 2,
+      "explain": "Orange no cambia nunca."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "statement": "Son/sa/ses concuerdan con el género de lo poseído, no del dueño.",
+      "answer": true,
+      "explain": "Son père puede ser el padre de un hombre o de una mujer."
+    },
+    {
+      "id": "e5",
+      "type": "true_false",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "statement": "«Petit» va normalmente antes del sustantivo.",
+      "answer": true,
+      "explain": "Petit es del grupo especial (tamaño) que va antes."
+    },
+    {
+      "id": "e6",
+      "type": "odd_one_out",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases usa être, a diferencia de las demás?",
+      "options": ["Il a les yeux bleus.", "Elle a les cheveux longs.", "Il est grand et mince.", "Il a une barbe."],
+      "answer": 2,
+      "explain": "Il est grand et mince usa être; las otras usan avoir."
+    },
+    {
+      "id": "e7",
+      "type": "match_pairs",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["le mari", "la tante", "les enfants", "le cousin"],
+      "right": ["el primo", "el marido", "la tía", "los hijos"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Mari = marido, tante = tía, enfants = hijos, cousin = primo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "Es muy simpática y un poco tímida.",
+      "accept": ["Elle est très sympa et un peu timide"],
+      "hintWords": ["très sympa", "un peu timide"],
+      "strictAccents": false,
+      "audio": "Elle est très sympa et un peu timide.",
+      "explain": "Repaso de la clase 28: très y un peu."
+    },
+    {
+      "id": "e9",
+      "type": "translate_to_target",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Mi padre y mi madre están contentos.",
+      "accept": ["Mon père et ma mère sont contents"],
+      "hintWords": ["mon père", "ma mère"],
+      "strictAccents": false,
+      "audio": "Mon père et ma mère sont contents.",
+      "explain": "Repaso de la clase 30: mon (masc.) y ma (fem.)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_target",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Vivo en Francia y hablo francés y español.",
+      "accept": ["J'habite en France et je parle français et espagnol"],
+      "hintWords": ["en France", "je parle"],
+      "strictAccents": false,
+      "audio": "J'habite en France et je parle français et espagnol.",
+      "explain": "Repaso de la clase 31: en + país femenino."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Completa con el orden correcto",
+      "text": "C'est une ___ maison (bonita).",
+      "blanks": [{ "accept": ["jolie"] }],
+      "bank": ["jolie", "intéressante"],
+      "explain": "Joli va antes del sustantivo (grupo especial)."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Completa con el posesivo correcto",
+      "text": "Léa parle de ___ mère et de ___ père.",
+      "blanks": [{ "accept": ["sa"] }, { "accept": ["son"] }],
+      "bank": ["sa", "son", "ses"],
+      "explain": "Sa mère (femenino), son père (masculino): el mismo dueño, dos formas."
+    },
+    {
+      "id": "e13",
+      "type": "word_order",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tiene los ojos verdes»",
+      "tokens": ["yeux", "a", "Elle", "verts", "les"],
+      "answer": ["Elle", "a", "les", "yeux", "verts"],
+      "audio": "Elle a les yeux verts.",
+      "explain": "Avoir + les yeux + color."
+    },
+    {
+      "id": "e14",
+      "type": "translate_to_es",
+      "tags": ["familia"],
+      "difficulty": 1,
+      "prompt": "Mes grands-parents habitent avec mon oncle et ma tante.",
+      "accept": ["Mis abuelos viven con mi tío y mi tía."],
+      "strictAccents": false,
+      "audio": "Mes grands-parents habitent avec mon oncle et ma tante.",
+      "explain": "Repaso de vocabulario de familia."
+    },
+    {
+      "id": "e15",
+      "type": "dialogue",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación describiendo a un amigo",
+      "turns": [
+        { "who": "Léa", "text": "Il est comment, ton ami ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il est grand, sympa et un peu timide.", "Il est petit et très drôle."], "hint": "describe su físico y su carácter" },
+        { "who": "Léa", "text": "Il a l'air super !", "speak": true }
+      ],
+      "explain": "Repaso combinado de físico (clase 27) y carácter (clase 28)."
+    },
+    {
+      "id": "e16",
+      "type": "listening",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "speak": "Où est-ce que tu habites ?",
+      "mode": "write",
+      "accept": ["Où est-ce que tu habites ?"],
+      "showTextAfter": true,
+      "explain": "Repaso de la clase 22."
+    },
+    {
+      "id": "e17",
+      "type": "listening",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "speak": "La voiture est bleue.",
+      "mode": "write",
+      "accept": ["La voiture est bleue"],
+      "showTextAfter": true,
+      "explain": "Repaso de la clase 24."
+    },
+    {
+      "id": "e18",
+      "type": "listening",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "speak": "les amis",
+      "mode": "choose",
+      "options": ["les amis", "le ami", "les ami", "l'amis"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Les amis, con liaison «le-za-MÍ»."
+    },
+    {
+      "id": "e19",
+      "type": "mcq",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "¿Qué idioma se habla en le Japon?",
+      "options": ["le chinois", "le japonais", "le coréen", "l'anglais"],
+      "answer": 1,
+      "explain": "Le Japon → le japonais."
+    },
+    {
+      "id": "e20",
+      "type": "true_false",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "statement": "Las nacionalidades van en mayúscula cuando son adjetivos.",
+      "answer": false,
+      "explain": "Van en minúscula: je suis française."
+    },
+    {
+      "id": "e21",
+      "type": "odd_one_out",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos adjetivos es irregular en femenino, a diferencia de los demás?",
+      "options": ["content", "beau", "actif", "sympa"],
+      "answer": 1,
+      "explain": "Beau → belle es muy irregular; los otros siguen patrones más previsibles."
+    },
+    {
+      "id": "e22",
+      "type": "match_pairs",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Une cada adjetivo masculino con su femenino",
+      "left": ["heureux", "gentil", "beau", "actif"],
+      "right": ["belle", "heureuse", "active", "gentille"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Heureux → heureuse, gentil → gentille, beau → belle, actif → active."
+    },
+    {
+      "id": "e23",
+      "type": "categorize",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "prompt": "¿Es de la generación de los padres o de los hijos?",
+      "buckets": ["Padres/tíos", "Hijos/primos"],
+      "items": [
+        { "text": "la tante", "bucket": 0 },
+        { "text": "le cousin", "bucket": 1 },
+        { "text": "le père", "bucket": 0 },
+        { "text": "la fille", "bucket": 1 }
+      ],
+      "explain": "Repaso de la clase 29."
+    },
+    {
+      "id": "e24",
+      "type": "shadowing",
+      "tags": ["fisico", "caracter"],
+      "difficulty": 3,
+      "speak": "Elle est grande, mince, elle a les yeux verts et elle est très sympa.",
+      "es": "Es alta, delgada, tiene los ojos verdes y es muy simpática.",
+      "ipa": "/ɛl ɛ ɡʁɑ̃d mɛ̃s ɛ.l‿a le zjø vɛʁ e ɛ.l‿ɛ tʁɛ sɛ̃.pa/",
+      "esApprox": "«el e GRAND MENS e-la le ZIEU VER e e-le tré sen-PÁ»",
+      "focus": "Repaso combinado: être (físico general) + avoir (rasgos) + être (carácter).",
+      "selfAssess": true
+    },
+    {
+      "id": "e25",
+      "type": "speak_prompt",
+      "tags": ["familia", "posesivos"],
+      "difficulty": 2,
+      "prompt": "Habla de tu familia: usa al menos dos posesivos distintos (mon, ma, son...).",
+      "modelAnswer": "Mon père est grand et ma mère a les yeux bleus.",
+      "alsoValid": ["Ma sœur est sympa et son mari est drôle."],
+      "speak": "Mon père est grand et ma mère a les yeux bleus.",
+      "selfAssess": true
+    },
+    {
+      "id": "e26",
+      "type": "error_correction",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "C'est ma amie.",
+      "accept": ["C'est mon amie"],
+      "audio": "C'est mon amie.",
+      "explain": "Delante de vocal, ma se convierte en mon."
+    },
+    {
+      "id": "e27",
+      "type": "gender_article",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Elige la forma correcta para «la maison»",
+      "items": [
+        { "word": "la maison (joli/jolie)", "options": ["joli", "jolie"], "answer": 1 },
+        { "word": "la maison (blanc/blanche)", "options": ["blanc", "blanche"], "answer": 1 },
+        { "word": "la maison (orange)", "options": ["orange", "orangee"], "answer": 0 }
+      ],
+      "explain": "Joli y blanc concuerdan; orange no cambia nunca."
+    },
+    {
+      "id": "e28",
+      "type": "categorize",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "¿Qué registro de pregunta es este?",
+      "buckets": ["Entonación", "Est-ce que", "Inversión"],
+      "items": [
+        { "text": "Tu es content ?", "bucket": 0 },
+        { "text": "Est-ce que tu es content ?", "bucket": 1 },
+        { "text": "Es-tu content ?", "bucket": 2 },
+        { "text": "Vous habitez où ?", "bucket": 0 }
+      ],
+      "explain": "Repaso final de la clase 21."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "qui", "es": "quién", "esApprox": "«ki»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "mon / ma / mes", "es": "mi, mis", "esApprox": "«mon» / «ma» / «me»", "from": "v5" },
+    { "id": "s3", "kind": "word", "target": "les grands-parents", "es": "los abuelos", "esApprox": "«le gran-pa-RAN»", "from": "v6" },
+    { "id": "s4", "kind": "word", "target": "parler", "es": "hablar", "esApprox": "«par-LÉ»", "from": "v8" },
+    { "id": "s5", "kind": "word", "target": "les yeux", "es": "los ojos", "esApprox": "«le ZIEU»", "from": "v9" },
+    { "id": "s6", "kind": "word", "target": "gentil / gentille", "es": "amable", "esApprox": "«yan-TÍ» / «yan-TIY»", "from": "v10" },
+    { "id": "s7", "kind": "phrase", "target": "Elle est très sympa et un peu timide.", "es": "Es muy simpática y un poco tímida.", "from": "e8" },
+    { "id": "s8", "kind": "phrase", "target": "J'habite en France et je parle français et espagnol.", "es": "Vivo en Francia y hablo francés y español.", "from": "e10" },
+    { "id": "s9", "kind": "phrase", "target": "Elle est grande, mince, elle a les yeux verts et elle est très sympa.", "es": "Es alta, delgada, tiene los ojos verdes y es muy simpática.", "from": "e24" }
+  ]
+}

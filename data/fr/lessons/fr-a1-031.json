@@ -1,0 +1,268 @@
+{
+  "id": "fr-a1-031",
+  "lang": "fr",
+  "level": "A1",
+  "order": 31,
+  "title": "Países, nacionalidades e idiomas",
+  "objectives": [
+    "Nombrar países, nacionalidades e idiomas frecuentes",
+    "Usar en/au/aux + país según el género del país, ya adelantado en la clase 5",
+    "Distinguir la nacionalidad-adjetivo (minúscula: je suis française) del idioma (sustantivo masculino: le français) y del habitante (mayúscula: une Française)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un país, una nacionalidad, un idioma",
+      "body": "Ya sabes decir j'habite en France (clase 5). Ahora amplías: cada país tiene su nacionalidad (adjetivo) y, casi siempre, un idioma con el mismo nombre. Ojo: la mayoría de nacionalidades e idiomas se escriben en **minúscula** en francés, a diferencia de los países.",
+      "examples": [
+        { "target": "la France, français, le français", "es": "Francia, francés (adjetivo), el francés (idioma)", "note": "país en mayúscula, nacionalidad e idioma en minúscula" },
+        { "target": "j'habite en France", "es": "vivo en Francia", "note": "en + país femenino" },
+        { "target": "j'habite au Japon", "es": "vivo en Japón", "note": "au + país masculino" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Países, nacionalidades e idiomas",
+      "headers": ["País", "Preposición", "Nacionalidad", "Idioma"],
+      "rows": [
+        ["la France", "en France", "français / française", "le français"],
+        ["l'Espagne", "en Espagne", "espagnol / espagnole", "l'espagnol"],
+        ["l'Allemagne", "en Allemagne", "allemand / allemande", "l'allemand"],
+        ["l'Italie", "en Italie", "italien / italienne", "l'italien"],
+        ["le Portugal", "au Portugal", "portugais / portugaise", "le portugais"],
+        ["le Royaume-Uni", "au Royaume-Uni", "anglais / anglaise", "l'anglais"],
+        ["les États-Unis", "aux États-Unis", "américain / américaine", "l'anglais (también)"],
+        ["le Japon", "au Japon", "japonais / japonaise", "le japonais"]
+      ],
+      "note": "En con países femeninos (la mayoría), au con masculinos, aux con plurales. Lo verás a fondo en la clase 36."
+    },
+    {
+      "type": "contrast",
+      "title": "Minúscula para el adjetivo, mayúscula para la persona",
+      "items": [
+        { "wrong": "Je suis Française. (con mayúscula, como en inglés)", "right": "Je suis française. (minúscula, como adjetivo)", "why": "Cuando français es un adjetivo (nacionalidad) o el nombre del idioma, va en minúscula: je suis française, je parle français. Solo se escribe con mayúscula cuando es un sustantivo que designa a la persona: une Française (una francesa)." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Fíjate en el Royaume-Uni: el país se llama «Reino Unido», pero la nacionalidad y el idioma son anglais (inglés), no «royaume-unien». Pasa lo mismo con los États-Unis: la nacionalidad es américain, y el idioma que se habla allí también es l'anglais."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la France", "es": "Francia", "ipa": "/la fʁɑ̃s/", "esApprox": "«la FRANS»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v2", "target": "l'Allemagne / allemand", "es": "Alemania / alemán", "ipa": "/lal.maɲ / al.mɑ̃/", "esApprox": "«lal-MAÑ» / «al-MAN»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v3", "target": "l'Italie / italien", "es": "Italia / italiano", "ipa": "/li.ta.li / i.ta.ljɛ̃/", "esApprox": "«li-ta-LÍ» / «i-ta-LIÉN»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v4", "target": "le Portugal / portugais", "es": "Portugal / portugués", "ipa": "/lə pɔʁ.ty.ɡal / pɔʁ.ty.ɡɛ/", "esApprox": "«le por-tü-GAL» / «por-tü-GUÉ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v5", "target": "le Royaume-Uni / anglais", "es": "el Reino Unido / inglés", "ipa": "/lə ʁwa.jom.y.ni / ɑ̃.ɡlɛ/", "esApprox": "«le ruá-yom-ü-NÍ» / «an-GLÉ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v6", "target": "les États-Unis / américain", "es": "los Estados Unidos / americano", "ipa": "/le.z‿e.ta.zy.ni / a.me.ʁi.kɛ̃/", "esApprox": "«le-ze-ta-zü-NÍ» / «a-me-ri-KEN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v7", "target": "le Japon / japonais", "es": "Japón / japonés", "ipa": "/lə ʒa.pɔ̃ / ʒa.pɔ.nɛ/", "esApprox": "«le ya-PÓN» / «ya-po-NÉ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v8", "target": "parler (une langue)", "es": "hablar (un idioma)", "ipa": "/paʁ.le/", "esApprox": "«par-LÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je parle français et un peu anglais.", "es": "Hablo francés y un poco de inglés." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["nacionalidades"],
+      "difficulty": 1,
+      "prompt": "¿Qué idioma se habla en le Portugal?",
+      "options": ["l'espagnol", "le portugais", "l'italien", "le français"],
+      "answer": 1,
+      "explain": "Le Portugal → le portugais."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "¿Qué idioma se habla en le Royaume-Uni?",
+      "options": ["le royaume-unien", "l'anglais", "l'américain", "le british"],
+      "answer": 1,
+      "explain": "En el Royaume-Uni se habla anglais, no «royaume-unien» (no existe esa palabra)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "statement": "Las nacionalidades se escriben con mayúscula cuando son adjetivos: Je suis Française.",
+      "answer": false,
+      "explain": "Como adjetivo van en minúscula: je suis française. Solo con mayúscula si designan a la persona (une Française)."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos países usa «au» (masculino), a diferencia de los demás?",
+      "options": ["la France", "l'Espagne", "le Japon", "l'Italie"],
+      "answer": 2,
+      "explain": "Le Japon es masculino (au Japon); los otros tres son femeninos (en France, en Espagne, en Italie)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Une cada país con su idioma",
+      "left": ["l'Allemagne", "l'Italie", "le Japon", "les États-Unis"],
+      "right": ["l'anglais", "l'allemand", "l'italien", "le japonais"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Allemagne → allemand, Italie → italien, Japon → japonais, États-Unis → anglais."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Vivo en Alemania y hablo un poco de alemán.",
+      "accept": ["J'habite en Allemagne et je parle un peu allemand"],
+      "hintWords": ["en Allemagne", "je parle"],
+      "strictAccents": false,
+      "audio": "J'habite en Allemagne et je parle un peu allemand.",
+      "explain": "En + país femenino, je parle + idioma sin artículo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Es americana, pero vive en Japón.",
+      "accept": ["Elle est américaine, mais elle habite au Japon"],
+      "hintWords": ["américaine", "au Japon"],
+      "strictAccents": false,
+      "audio": "Elle est américaine, mais elle habite au Japon.",
+      "explain": "Américaine (nacionalidad, minúscula) frente a au Japon (país masculino)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Completa con la preposición correcta",
+      "text": "J'habite ___ Portugal, mais mes parents habitent ___ France.",
+      "blanks": [{ "accept": ["au"] }, { "accept": ["en"] }],
+      "bank": ["au", "en", "aux"],
+      "explain": "Au Portugal (masculino), en France (femenino)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hablo francés y español»",
+      "tokens": ["français", "Je parle", "espagnol", "et"],
+      "answer": ["Je parle", "français", "et", "espagnol"],
+      "audio": "Je parle français et espagnol.",
+      "explain": "Parler + idioma, sin artículo delante."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["nacionalidades"],
+      "difficulty": 1,
+      "prompt": "Mon cousin est italien, il habite en Italie et il parle italien et anglais.",
+      "accept": ["Mi primo es italiano, vive en Italia y habla italiano e inglés."],
+      "strictAccents": false,
+      "audio": "Mon cousin est italien, il habite en Italie et il parle italien et anglais.",
+      "explain": "Italien aparece tres veces con tres funciones: país (Italie), nacionalidad e idioma."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre de dónde eres",
+      "turns": [
+        { "who": "Léa", "text": "Tu es espagnol ? Tu habites où ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je suis espagnol, j'habite en Espagne.", "Oui, je suis espagnole, j'habite en Espagne."], "hint": "confirma tu nacionalidad y di dónde vives" },
+        { "who": "Léa", "text": "Super, et tu parles anglais aussi ?", "speak": true }
+      ],
+      "explain": "Je suis espagnol(e) + j'habite en Espagne: nacionalidad y país."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "speak": "Je parle français et un peu anglais.",
+      "mode": "write",
+      "accept": ["Je parle français et un peu anglais"],
+      "showTextAfter": true,
+      "explain": "Parler + idioma, sin artículo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "speak": "les États-Unis",
+      "mode": "choose",
+      "options": ["les États-Unis", "le Royaume-Uni", "l'Allemagne", "le Japon"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Les États-Unis, con liaison «le-ze-ta-zü-NÍ»."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["nacionalidades"],
+      "difficulty": 3,
+      "speak": "Elle est allemande, elle habite en Italie et elle parle italien, allemand et anglais.",
+      "es": "Es alemana, vive en Italia y habla italiano, alemán e inglés.",
+      "ipa": "/ɛl ɛ.t‿al.mɑ̃d ɛ.l‿a.bit ɑ̃.n‿i.ta.li e ɛl paʁl i.ta.ljɛ̃ al.mɑ̃ e ɑ̃.ɡlɛ/",
+      "esApprox": "«el e-tal-MAND e-la-BIT an-ni-ta-LÍ e el PARL i-ta-LIÉN al-MAN e an-GLÉ»",
+      "focus": "Tres idiomas seguidos: mantén el ritmo sin pausas entre ellos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Di tu nacionalidad, dónde vives y qué idiomas hablas.",
+      "modelAnswer": "Je suis espagnol, j'habite en Espagne et je parle espagnol et un peu français.",
+      "alsoValid": ["Je suis espagnole, j'habite en Espagne et je parle espagnol et anglais."],
+      "speak": "Je suis espagnol, j'habite en Espagne et je parle espagnol et un peu français.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "¿Este país usa en, au o aux?",
+      "buckets": ["en (femenino)", "au (masculino)", "aux (plural)"],
+      "items": [
+        { "text": "France", "bucket": 0 },
+        { "text": "Japon", "bucket": 1 },
+        { "text": "Italie", "bucket": 0 },
+        { "text": "Portugal", "bucket": 1 },
+        { "text": "États-Unis", "bucket": 2 },
+        { "text": "Allemagne", "bucket": 0 }
+      ],
+      "explain": "En con femeninos, au con masculinos, aux con plurales como États-Unis."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Hay un error de mayúscula. Corrige la frase entera.",
+      "wrong": "Je suis Française et je parle Français.",
+      "accept": ["Je suis française et je parle français"],
+      "audio": "Je suis française et je parle français.",
+      "explain": "Como adjetivo o idioma, française y français van en minúscula."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la France", "es": "Francia", "esApprox": "«la FRANS»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "l'Allemagne / allemand", "es": "Alemania / alemán", "esApprox": "«lal-MAÑ» / «al-MAN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "l'Italie / italien", "es": "Italia / italiano", "esApprox": "«li-ta-LÍ» / «i-ta-LIÉN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le Royaume-Uni / anglais", "es": "el Reino Unido / inglés", "esApprox": "«le ruá-yom-ü-NÍ» / «an-GLÉ»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "les États-Unis / américain", "es": "Estados Unidos / americano", "esApprox": "«le-ze-ta-zü-NÍ»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "le Japon / japonais", "es": "Japón / japonés", "esApprox": "«le ya-PÓN» / «ya-po-NÉ»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "parler", "es": "hablar", "esApprox": "«par-LÉ»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Je parle français et un peu anglais.", "es": "Hablo francés y un poco de inglés.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Elle est allemande, elle habite en Italie et elle parle italien, allemand et anglais.", "es": "Es alemana, vive en Italia y habla italiano, alemán e inglés.", "from": "e14" }
+  ]
+}

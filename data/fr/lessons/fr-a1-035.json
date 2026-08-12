@@ -1,0 +1,281 @@
+{
+  "id": "fr-a1-035",
+  "lang": "fr",
+  "level": "A1",
+  "order": 35,
+  "title": "Los verbos aller y faire",
+  "objectives": [
+    "Conjugar aller (ir) en presente, uno de los verbos más irregulares del francés",
+    "Conjugar faire (hacer) en presente",
+    "Usar faire en expresiones fijas muy frecuentes: faire du sport, faire les courses, faire la cuisine, faire attention"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos verbos imprescindibles, muy irregulares",
+      "body": "Ya usas **ça va** desde la clase 4 sin saber que viene de aller. Aller (ir) y faire (hacer) son dos de los verbos más irregulares y más usados del francés: no se parecen casi nada a su infinitivo. Merece la pena memorizarlos ya, porque los vas a necesitar constantemente.",
+      "examples": [
+        { "target": "Je vais à l'école.", "es": "Voy al colegio.", "note": "aller" },
+        { "target": "Qu'est-ce que tu fais ?", "es": "¿Qué haces?", "note": "faire" },
+        { "target": "Je fais du sport.", "es": "Hago deporte.", "note": "faire + du/de la + actividad" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Aller y faire en presente",
+      "headers": ["Persona", "aller", "faire"],
+      "rows": [
+        ["je", "vais", "fais"],
+        ["tu", "vas", "fais"],
+        ["il / elle / on", "va", "fait"],
+        ["nous", "allons", "faisons"],
+        ["vous", "allez", "faites"],
+        ["ils / elles", "vont", "font"]
+      ],
+      "note": "Nous faisons se pronuncia «fe-ZÓN», no «fé-ZÓN»: es una excepción de pronunciación."
+    },
+    {
+      "type": "contrast",
+      "title": "Faire cubre «hacer» Y muchas expresiones fijas",
+      "items": [
+        { "wrong": "Traducir cada expresión con faire palabra por palabra", "right": "faire du sport, faire les courses, faire la cuisine son bloques fijos", "why": "El español usa verbos distintos (hacer deporte, ir de compras, cocinar) donde el francés usa siempre faire. Apréndete estas expresiones como bloques, no las traduzcas pieza a pieza." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Faire attention (prestar/tener atención, ir con cuidado) es una de las expresiones con faire más útiles del día a día: «Fais attention !» (¡Ten cuidado!) se oye constantemente en francés hablado."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "aller", "es": "ir", "ipa": "/a.le/", "esApprox": "«a-LÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je vais à l'école.", "es": "Voy al colegio." } },
+    { "id": "v2", "target": "faire", "es": "hacer", "ipa": "/fɛʁ/", "esApprox": "«FER»", "pos": "verbo", "gender": null, "example": { "target": "Qu'est-ce que tu fais ?", "es": "¿Qué haces?" } },
+    { "id": "v3", "target": "faire du sport", "es": "hacer deporte", "ipa": "/fɛʁ dy spɔʁ/", "esApprox": "«fer dü SPOR»", "pos": "expresión", "gender": null, "example": { "target": "Nous faisons du sport ensemble.", "es": "Hacemos deporte juntos." } },
+    { "id": "v4", "target": "faire les courses", "es": "hacer la compra", "ipa": "/fɛʁ le kuʁs/", "esApprox": "«fer le KURS»", "pos": "expresión", "gender": null, "example": { "target": "Je fais les courses le samedi.", "es": "Hago la compra los sábados." } },
+    { "id": "v5", "target": "faire la cuisine", "es": "cocinar", "ipa": "/fɛʁ la kɥi.zin/", "esApprox": "«fer la küí-ZIN»", "pos": "expresión", "gender": null, "example": { "target": "Il fait la cuisine ce soir.", "es": "Cocina él esta noche." } },
+    { "id": "v6", "target": "faire attention", "es": "prestar atención, ir con cuidado", "ipa": "/fɛʁ a.tɑ̃.sjɔ̃/", "esApprox": "«fer a-tan-SIÓN»", "pos": "expresión", "gender": null, "example": { "target": "Fais attention !", "es": "¡Ten cuidado!" } },
+    { "id": "v7", "target": "faire la fête", "es": "salir de fiesta, celebrar", "ipa": "/fɛʁ la fɛt/", "esApprox": "«fer la FET»", "pos": "expresión", "gender": null, "example": { "target": "Ils font la fête ce soir.", "es": "Esta noche salen de fiesta." } },
+    { "id": "v8", "target": "ça va", "es": "va bien, así así (según entonación)", "ipa": "/sa va/", "esApprox": "«sa VA»", "pos": "expresión", "gender": null, "example": { "target": "Ça va, merci, et toi ?", "es": "Bien, gracias, ¿y tú?" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["aller"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma de aller para «nous»?",
+      "options": ["vais", "va", "allons", "vont"],
+      "answer": 2,
+      "explain": "Nous allons."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["faire"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «hacer deporte»?",
+      "options": ["jouer le sport", "faire du sport", "faire le sport", "aller au sport"],
+      "answer": 1,
+      "explain": "Faire du sport es la expresión correcta."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["faire"],
+      "difficulty": 2,
+      "statement": "«Nous faisons» se pronuncia «fe-ZÓN».",
+      "answer": true,
+      "explain": "Es una excepción de pronunciación: no suena «fé»."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["aller", "faire"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas es de faire, a diferencia de las demás?",
+      "options": ["vais", "vas", "fais", "va"],
+      "answer": 2,
+      "explain": "Fais es de faire; las otras tres son de aller."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["faire"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["faire les courses", "faire la cuisine", "faire attention", "faire la fête"],
+      "right": ["cocinar", "hacer la compra", "salir de fiesta", "tener cuidado"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Faire les courses = hacer la compra, faire la cuisine = cocinar, faire attention = tener cuidado, faire la fête = salir de fiesta."
+    },
+    {
+      "id": "e6",
+      "type": "conjugation",
+      "tags": ["aller"],
+      "difficulty": 2,
+      "verb": "aller",
+      "tense": "présent",
+      "prompt": "Conjuga «aller» en presente",
+      "rows": [
+        { "person": "je", "accept": ["vais"] },
+        { "person": "tu", "accept": ["vas"] },
+        { "person": "il / elle", "accept": ["va"] },
+        { "person": "nous", "accept": ["allons"] },
+        { "person": "vous", "accept": ["allez"] },
+        { "person": "ils / elles", "accept": ["vont"] }
+      ],
+      "explain": "Aller es de los verbos más irregulares: no se parece nada a su infinitivo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["faire"],
+      "difficulty": 2,
+      "prompt": "Hago la compra y cocino los sábados.",
+      "accept": ["Je fais les courses et je fais la cuisine le samedi"],
+      "hintWords": ["je fais les courses", "je fais la cuisine"],
+      "strictAccents": false,
+      "audio": "Je fais les courses et je fais la cuisine le samedi.",
+      "explain": "Dos expresiones con faire en la misma frase."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["aller"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de aller",
+      "text": "Je ___ à l'école, mais mes parents ___ au travail.",
+      "blanks": [{ "accept": ["vais"] }, { "accept": ["vont"] }],
+      "bank": ["vais", "vont", "va"],
+      "explain": "Je vais (singular) frente a mes parents vont (plural)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["faire"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¡Ten cuidado!»",
+      "tokens": ["!", "attention", "Fais"],
+      "answer": ["Fais", "attention", "!"],
+      "audio": "Fais attention !",
+      "explain": "Fais attention !, imperativo con tu."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["aller", "faire"],
+      "difficulty": 1,
+      "prompt": "Nous allons faire la fête ce soir.",
+      "accept": ["Vamos a salir de fiesta esta noche."],
+      "strictAccents": false,
+      "audio": "Nous allons faire la fête ce soir.",
+      "explain": "Aller + faire la fête: dos verbos juntos, aunque solo el primero se conjuga aquí."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["aller"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación: te preguntan cómo estás",
+      "turns": [
+        { "who": "Léa", "text": "Salut ! Ça va ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ça va, merci, et toi ?", "Ça va bien, et toi ?"], "hint": "responde y devuelve la pregunta" },
+        { "who": "Léa", "text": "Ça va très bien, merci !", "speak": true }
+      ],
+      "explain": "Ça va viene de aller: literalmente «eso va»."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["faire"],
+      "difficulty": 2,
+      "speak": "Nous faisons du sport le week-end.",
+      "mode": "write",
+      "accept": ["Nous faisons du sport le week-end"],
+      "showTextAfter": true,
+      "explain": "Nous faisons: pronunciación especial «fe-ZÓN»."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["aller"],
+      "difficulty": 2,
+      "speak": "ils vont",
+      "mode": "choose",
+      "options": ["ils vont", "ils font", "ils sont", "ils ont"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Ils vont (aller) frente a ils font (faire), ils sont (être) e ils ont (avoir): cuatro verbos muy parecidos."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["aller", "faire"],
+      "difficulty": 3,
+      "speak": "Je vais faire les courses, et toi, qu'est-ce que tu fais ?",
+      "es": "Voy a hacer la compra, ¿y tú, qué haces?",
+      "ipa": "/ʒə vɛ fɛʁ le kuʁs e twa kɛs.kə ty fɛ/",
+      "esApprox": "«ye vé fer le KURS e tuá kes-ke tü FÉ»",
+      "focus": "Je vais + infinitivo: un adelanto del futuro próximo que verás a fondo en la clase 75.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["faire"],
+      "difficulty": 2,
+      "prompt": "Di que haces deporte y que cocinas los fines de semana.",
+      "modelAnswer": "Je fais du sport et je fais la cuisine le week-end.",
+      "alsoValid": ["Je fais du sport et la cuisine le week-end."],
+      "speak": "Je fais du sport et je fais la cuisine le week-end.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["aller", "faire"],
+      "difficulty": 2,
+      "prompt": "¿Esta forma es de aller o de faire?",
+      "buckets": ["aller", "faire"],
+      "items": [
+        { "text": "vais", "bucket": 0 },
+        { "text": "fais", "bucket": 1 },
+        { "text": "allons", "bucket": 0 },
+        { "text": "faisons", "bucket": 1 },
+        { "text": "vont", "bucket": 0 },
+        { "text": "font", "bucket": 1 }
+      ],
+      "explain": "Aller: vais, allons, vont. Faire: fais, faisons, font."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["faire"],
+      "difficulty": 2,
+      "prompt": "Hay un error de conjugación. Corrige la frase entera.",
+      "wrong": "Vous fait attention.",
+      "accept": ["Vous faites attention"],
+      "audio": "Vous faites attention.",
+      "explain": "Con vous, la forma es faites, no fait (que es la de il/elle)."
+    },
+    {
+      "id": "e18",
+      "type": "true_false",
+      "tags": ["aller", "faire"],
+      "difficulty": 2,
+      "statement": "Vous faites y vous allez son las formas de faire y aller para vous.",
+      "answer": true,
+      "explain": "Vous faites (faire) y vous allez (aller)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "aller", "es": "ir", "esApprox": "«a-LÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "faire", "es": "hacer", "esApprox": "«FER»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "faire du sport", "es": "hacer deporte", "esApprox": "«fer dü SPOR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "faire les courses", "es": "hacer la compra", "esApprox": "«fer le KURS»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "faire la cuisine", "es": "cocinar", "esApprox": "«fer la küí-ZIN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "faire attention", "es": "tener cuidado", "esApprox": "«fer a-tan-SIÓN»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "faire la fête", "es": "salir de fiesta", "esApprox": "«fer la FET»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "Fais attention !", "es": "¡Ten cuidado!", "from": "e9" },
+    { "id": "s9", "kind": "phrase", "target": "Je vais faire les courses, et toi, qu'est-ce que tu fais ?", "es": "Voy a hacer la compra, ¿y tú, qué haces?", "from": "e14" }
+  ]
+}

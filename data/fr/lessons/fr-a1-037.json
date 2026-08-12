@@ -1,0 +1,268 @@
+{
+  "id": "fr-a1-037",
+  "lang": "fr",
+  "level": "A1",
+  "order": 37,
+  "title": "Venir y venir de: las contracciones du, de la, des",
+  "objectives": [
+    "Conjugar venir (venir) en presente",
+    "Contraer obligatoriamente de + le → du y de + les → des, igual que ya viste con à en la clase 36",
+    "Usar venir de + lugar para decir de dónde vienes"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El mismo patrón de la clase 36, ahora con de",
+      "body": "De (de) se comporta con le y les igual que à en la clase anterior: se funden en una sola palabra. De + le = **du**, de + les = **des**. Con la y l', tampoco pasa nada especial.",
+      "examples": [
+        { "target": "Je viens du travail.", "es": "Vengo del trabajo.", "note": "de + le travail = du travail" },
+        { "target": "Je viens de la gare.", "es": "Vengo de la estación.", "note": "de + la gare: no se contrae" },
+        { "target": "Je viens des États-Unis.", "es": "Vengo de los Estados Unidos.", "note": "de + les États-Unis = des États-Unis" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Venir en presente",
+      "headers": ["Persona", "Forma", "Aproximación"],
+      "rows": [
+        ["je", "viens", "«VIEN»"],
+        ["tu", "viens", "«VIEN»"],
+        ["il / elle / on", "vient", "«VIEN»"],
+        ["nous", "venons", "«ve-NÓN»"],
+        ["vous", "venez", "«ve-NÉ»"],
+        ["ils / elles", "viennent", "«VIEN»"]
+      ],
+      "note": "Je/tu/il/ils suenan todos «VIEN»: la misma trampa que ya viste con los verbos -er en la clase 33."
+    },
+    {
+      "type": "contrast",
+      "title": "Des tiene dos orígenes distintos",
+      "items": [
+        { "wrong": "Pensar que des siempre es el artículo indefinido plural (clase 12)", "right": "des puede ser un/une/des (artículo) o de+les (contracción): mira el contexto", "why": "J'ai des amis usa des como artículo indefinido. Je viens des États-Unis usa des como contracción de de + les. Se escriben igual mediante pura coincidencia, pero cumplen funciones distintas." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Du también reaparecerá más adelante con otro uso (el artículo partitivo, para cantidades no contables: du pain). De momento, quédate solo con esta función: du/des como contracción de de + el artículo, para decir de dónde vienes."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "venir", "es": "venir", "ipa": "/və.niʁ/", "esApprox": "«ve-NIR»", "pos": "verbo", "gender": null, "example": { "target": "D'où est-ce que tu viens ?", "es": "¿De dónde vienes?" } },
+    { "id": "v2", "target": "du (de + le)", "es": "del (contracción)", "ipa": "/dy/", "esApprox": "«dü»", "pos": "expresión", "gender": null, "example": { "target": "Je viens du travail.", "es": "Vengo del trabajo." } },
+    { "id": "v3", "target": "de la", "es": "de la (sin contraer)", "ipa": "/də la/", "esApprox": "«de la»", "pos": "expresión", "gender": null, "example": { "target": "Je viens de la gare.", "es": "Vengo de la estación." } },
+    { "id": "v4", "target": "de l'", "es": "del/de la (sin contraer, ante vocal)", "ipa": "/də l/", "esApprox": "«del»", "pos": "expresión", "gender": null, "example": { "target": "Je viens de l'école.", "es": "Vengo del colegio." } },
+    { "id": "v5", "target": "des (de + les)", "es": "de los/las (contracción)", "ipa": "/de/", "esApprox": "«de»", "pos": "expresión", "gender": null, "example": { "target": "Je viens des États-Unis.", "es": "Vengo de los Estados Unidos." } },
+    { "id": "v6", "target": "venir de", "es": "venir de, ser de (origen)", "ipa": "/və.niʁ də/", "esApprox": "«ve-NIR de»", "pos": "expresión", "gender": null, "example": { "target": "Elle vient d'Espagne.", "es": "Es de España." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["contracciones"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se contrae de + le?",
+      "options": ["du", "de le", "del", "des"],
+      "answer": 0,
+      "explain": "De + le = du."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["venir"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma de venir para «vous»?",
+      "options": ["venez", "venons", "viennent", "viens"],
+      "answer": 0,
+      "explain": "Vous venez."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "statement": "De + la se contrae en «dla».",
+      "answer": false,
+      "explain": "De + la no se contrae nunca: de la, sin cambios."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["venir"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas de venir suena distinta de las demás?",
+      "options": ["viens", "vient", "viennent", "venons"],
+      "answer": 3,
+      "explain": "Venons (nous) suena distinto; viens, vient y viennent suenan todos «VIEN»."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Une cada combinación con su resultado",
+      "left": ["de + le", "de + la", "de + l'", "de + les"],
+      "right": ["des", "du", "de l'", "de la"],
+      "answer": [1, 3, 2, 0],
+      "explain": "De+le=du, de+la=de la, de+l'=de l', de+les=des."
+    },
+    {
+      "id": "e6",
+      "type": "conjugation",
+      "tags": ["venir"],
+      "difficulty": 2,
+      "verb": "venir",
+      "tense": "présent",
+      "prompt": "Conjuga «venir» en presente",
+      "rows": [
+        { "person": "je", "accept": ["viens"] },
+        { "person": "tu", "accept": ["viens"] },
+        { "person": "il / elle", "accept": ["vient"] },
+        { "person": "nous", "accept": ["venons"] },
+        { "person": "vous", "accept": ["venez"] },
+        { "person": "ils / elles", "accept": ["viennent"] }
+      ],
+      "explain": "Venir es muy irregular, pero muy frecuente."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["venir"],
+      "difficulty": 2,
+      "prompt": "Vengo del trabajo y ella viene del colegio.",
+      "accept": ["Je viens du travail et elle vient de l'école"],
+      "hintWords": ["du travail", "de l'école"],
+      "strictAccents": false,
+      "audio": "Je viens du travail et elle vient de l'école.",
+      "explain": "Du travail (contrae) frente a de l'école (no contrae)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Completa con du, de la, de l' o des",
+      "text": "Je viens ___ gare, puis ___ travail, puis ___ États-Unis.",
+      "blanks": [{ "accept": ["de la"] }, { "accept": ["du"] }, { "accept": ["des"] }],
+      "bank": ["de la", "du", "des", "de l'"],
+      "explain": "De la gare (fem.), du travail (masc.), des États-Unis (plural)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["venir"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la pregunta: «¿De dónde vienes?»",
+      "tokens": ["tu", "D'où", "viens", "est-ce que"],
+      "answer": ["D'où", "est-ce que", "tu", "viens"],
+      "audio": "D'où est-ce que tu viens ?",
+      "explain": "D'où (de + où) est-ce que tu viens ?"
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["venir"],
+      "difficulty": 1,
+      "prompt": "Elle vient d'Espagne, mais elle habite en France.",
+      "accept": ["Es de España, pero vive en Francia."],
+      "strictAccents": false,
+      "audio": "Elle vient d'Espagne, mais elle habite en France.",
+      "explain": "Venir de + país = ser de ese país (origen)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["venir"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre de dónde vienes",
+      "turns": [
+        { "who": "Léa", "text": "D'où est-ce que tu viens ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je viens d'Espagne.", "Je viens du Portugal."], "hint": "di de dónde vienes" },
+        { "who": "Léa", "text": "Ah, super ! Et tu viens souvent en France ?", "speak": true }
+      ],
+      "explain": "Venir de + país, con la contracción correcta según el género."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["venir"],
+      "difficulty": 2,
+      "speak": "Je viens du travail, je suis fatigué.",
+      "mode": "write",
+      "accept": ["Je viens du travail, je suis fatigué"],
+      "showTextAfter": true,
+      "explain": "Du travail: de+le contraído."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "speak": "des États-Unis",
+      "mode": "choose",
+      "options": ["des États-Unis", "de les États-Unis", "du États-Unis", "de la États-Unis"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "De + les États-Unis = des États-Unis."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["venir", "contracciones"],
+      "difficulty": 3,
+      "speak": "Je viens du travail, elle vient de la gare, ils viennent des États-Unis.",
+      "es": "Vengo del trabajo, ella viene de la estación, ellos vienen de los Estados Unidos.",
+      "ipa": "/ʒə vjɛ̃ dy tʁa.vaj ɛl vjɛ̃ də la ɡaʁ il vjɛn de.z‿e.ta.zy.ni/",
+      "esApprox": "«ye VIEN dü tra-VÁY el VIEN de la GAR il VIEN de-ze-ta-zü-NÍ»",
+      "focus": "Tres contracciones distintas con de: du, de la, des.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["venir"],
+      "difficulty": 2,
+      "prompt": "Di de dónde vienes y de dónde viene tu familia.",
+      "modelAnswer": "Je viens d'Espagne et ma famille vient du Portugal.",
+      "alsoValid": ["Je viens de France et mes parents viennent d'Italie."],
+      "speak": "Je viens d'Espagne et ma famille vient du Portugal.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "¿Esta combinación se contrae o no?",
+      "buckets": ["Se contrae", "No se contrae"],
+      "items": [
+        { "text": "de + le", "bucket": 0 },
+        { "text": "de + la", "bucket": 1 },
+        { "text": "de + les", "bucket": 0 },
+        { "text": "de + l'", "bucket": 1 }
+      ],
+      "explain": "Mismo patrón que à: solo le y les se funden."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error de contracción. Corrige la frase entera.",
+      "wrong": "Je viens de le travail.",
+      "accept": ["Je viens du travail"],
+      "audio": "Je viens du travail.",
+      "explain": "De + le se contrae siempre en du: nunca «de le»."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "venir", "es": "venir", "esApprox": "«ve-NIR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "du (de + le)", "es": "del", "esApprox": "«dü»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "de la", "es": "de la", "esApprox": "«de la»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "des (de + les)", "es": "de los/las", "esApprox": "«de»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "venir de", "es": "venir de, ser de", "esApprox": "«ve-NIR de»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "D'où est-ce que tu viens ?", "es": "¿De dónde vienes?", "from": "e9" },
+    { "id": "s7", "kind": "phrase", "target": "Elle vient d'Espagne, mais elle habite en France.", "es": "Es de España, pero vive en Francia.", "from": "e10" },
+    { "id": "s8", "kind": "phrase", "target": "Je viens du travail, elle vient de la gare, ils viennent des États-Unis.", "es": "Vengo del trabajo, ella viene de la estación, ellos vienen de los Estados Unidos.", "from": "e14" },
+    { "id": "s9", "kind": "phrase", "target": "Je viens d'Espagne et ma famille vient du Portugal.", "es": "Vengo de España y mi familia viene de Portugal.", "from": "e15" }
+  ]
+}
