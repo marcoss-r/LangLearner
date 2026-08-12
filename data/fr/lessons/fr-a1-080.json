@@ -1,0 +1,255 @@
+{
+  "id": "fr-a1-080",
+  "lang": "fr",
+  "level": "A1",
+  "order": 80,
+  "title": "El passé composé III: con être y el acuerdo del participio",
+  "objectives": [
+    "Reconocer que algunos verbos de movimiento forman el passé composé con être, no avoir",
+    "Aplicar el acuerdo del participio con être: añade -e (femenino) y/o -s (plural), como con los adjetivos",
+    "Usar aller, venir, partir, arriver y rester en passé composé"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un grupo especial de verbos usa être",
+      "body": "Un grupo reducido de verbos, casi todos de movimiento, forma el passé composé con être en vez de avoir. Ya conoces cinco de ellos: aller (clase 35), venir (clase 37), partir y arriver (clase 75-76), y rester.",
+      "examples": [
+        { "target": "Je suis allé au travail, et elle est venue avec moi.", "es": "Fui al trabajo, y ella vino conmigo.", "note": "être (suis/est) + participio + acuerdo (-e para elle)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El acuerdo del participio con être",
+      "headers": ["Sujeto", "Participio", "Ejemplo"],
+      "rows": [
+        ["il (m. sing.)", "sin cambio", "il est allé"],
+        ["elle (f. sing.)", "+ e", "elle est allée"],
+        ["ils (m. pl.)", "+ s", "ils sont allés"],
+        ["elles (f. pl.)", "+ es", "elles sont allées"]
+      ],
+      "note": "Es el mismo patrón que ya conoces de los adjetivos: content/contente/contents/contentes (clase 27)."
+    },
+    {
+      "type": "contrast",
+      "title": "Être frente a avoir en passé composé"
+      ,
+      "items": [
+        { "wrong": "J'ai allé au travail.", "right": "Je suis allé au travail.", "why": "Aller es uno de los verbos que usan être como auxiliar, no avoir. La mayoría de los verbos (clase 78) usan avoir, pero este grupo reducido de movimiento usa être." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "allé / allée", "es": "ido/a (de aller)", "ipa": "/a.le/", "esApprox": "«a-LÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je suis allé au travail.", "es": "Fui al trabajo." } },
+    { "id": "v2", "target": "venu / venue", "es": "venido/a (de venir)", "ipa": "/və.ny/", "esApprox": "«ve-NÜ»", "pos": "verbo", "gender": null, "example": { "target": "Elle est venue avec moi.", "es": "Ella vino conmigo." } },
+    { "id": "v3", "target": "parti / partie", "es": "salido/a, marchado/a (de partir)", "ipa": "/paʁ.ti/", "esApprox": "«par-TÍ»", "pos": "verbo", "gender": null, "example": { "target": "Ils sont partis tôt.", "es": "Ellos salieron pronto." } },
+    { "id": "v4", "target": "arrivé / arrivée", "es": "llegado/a (de arriver)", "ipa": "/a.ʁi.ve/", "esApprox": "«a-ri-VÉ»", "pos": "verbo", "gender": null, "example": { "target": "Elles sont arrivées à midi.", "es": "Ellas llegaron a mediodía." } },
+    { "id": "v5", "target": "resté / restée", "es": "quedado/a (de rester)", "ipa": "/ʁɛs.te/", "esApprox": "«res-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Nous sommes restés à la maison.", "es": "Nos quedamos en casa." } },
+    { "id": "v6", "target": "avec moi", "es": "conmigo", "ipa": "/a.vɛk mwa/", "esApprox": "«a-VEK MUÁ»", "pos": "expresión", "gender": null, "example": { "target": "Il est venu avec moi.", "es": "Él vino conmigo." } },
+    { "id": "v7", "target": "tôt / tard", "es": "temprano / tarde", "ipa": "/to taʁ/", "esApprox": "«TÓ TAR»", "pos": "adverbio", "gender": null, "example": { "target": "Je suis parti tôt et rentré tard.", "es": "Salí temprano y volví tarde." } },
+    { "id": "v8", "target": "jusqu'au soir", "es": "hasta la noche", "ipa": "/ʒys.ko swaʁ/", "esApprox": "«yüs-ko SUAR»", "pos": "expresión", "gender": null, "example": { "target": "Je suis resté jusqu'au soir.", "es": "Me quedé hasta la noche." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «fui al trabajo» (hablante hombre)?",
+      "options": ["J'ai allé au travail.", "Je suis allé au travail.", "Je suis aller au travail.", "J'ai été au travail."],
+      "answer": 1,
+      "explain": "Aller usa être como auxiliar: je suis allé."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose", "etre", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «ella vino» (elle)?",
+      "options": ["Elle est venu.", "Elle est venue.", "Elle a venu.", "Elle est venus."],
+      "answer": 1,
+      "explain": "Con elle (femenino singular), el participio añade -e: venue."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 2,
+      "statement": "Aller, venir, partir, arriver y rester usan être, no avoir, en passé composé.",
+      "answer": true,
+      "explain": "Son verbos de movimiento que forman parte del grupo que usa être."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["acuerdo-participio"],
+      "difficulty": 2,
+      "statement": "Con ils (masculino plural), el participio añade -s.",
+      "answer": true,
+      "explain": "Ils sont allés: -s para el plural masculino."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Une cada sujeto con la forma correcta del participio de aller",
+      "left": ["il", "elle", "ils", "elles"],
+      "right": ["allées", "allé", "allés", "allée"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Il allé, elle allée, ils allés, elles allées."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 2,
+      "prompt": "Fui al trabajo, y ella vino conmigo.",
+      "accept": ["Je suis allé au travail, et elle est venue avec moi"],
+      "hintWords": ["je suis allé au travail", "elle est venue avec moi"],
+      "strictAccents": false,
+      "audio": "Je suis allé au travail, et elle est venue avec moi.",
+      "explain": "Allé (masc.) frente a venue (fem., con -e)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "etre", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Ellos llegaron temprano, pero ellas se quedaron tarde.",
+      "accept": ["Ils sont arrivés tôt, mais elles sont restées tard"],
+      "hintWords": ["ils sont arrivés tôt", "elles sont restées tard"],
+      "strictAccents": false,
+      "audio": "Ils sont arrivés tôt, mais elles sont restées tard.",
+      "explain": "Arrivés (masc. pl., -s) frente a restées (fem. pl., -es)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Completa con el acuerdo correcto del participio",
+      "text": "Mon frère est parti___, et ma sœur est parti___ aussi.",
+      "blanks": [{ "accept": [""] }, { "accept": ["e"] }],
+      "bank": ["", "e", "s"],
+      "explain": "Mon frère (masc.) → parti, sin cambio; ma sœur (fem.) → partie, con -e."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Nos quedamos en casa»",
+      "tokens": ["à la maison", "sommes restés", "Nous"],
+      "answer": ["Nous", "sommes restés", "à la maison"],
+      "audio": "Nous sommes restés à la maison.",
+      "explain": "Nous sommes (être) + restés (participio, plural)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 2,
+      "prompt": "Elles sont arrivées à midi, et nous sommes venus avec elles.",
+      "accept": ["Ellas llegaron a mediodía, y nosotros vinimos con ellas."],
+      "strictAccents": false,
+      "audio": "Elles sont arrivées à midi, et nous sommes venus avec elles.",
+      "explain": "Arrivées (fem. pl.) frente a venus (masc. pl.)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu día",
+      "turns": [
+        { "who": "Léa", "text": "Tu es allé au travail aujourd'hui ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je suis allé au travail.", "Non, je suis resté à la maison."], "hint": "responde con être + participio" },
+        { "who": "Léa", "text": "D'accord !", "speak": true }
+      ],
+      "explain": "Tu es allé...? se responde con être + participio."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 2,
+      "speak": "Je suis parti tôt, je suis arrivé à midi, et je suis resté jusqu'au soir.",
+      "mode": "write",
+      "accept": ["Je suis parti tôt, je suis arrivé à midi, et je suis resté jusqu'au soir"],
+      "showTextAfter": true,
+      "explain": "Tres verbos con être seguidos en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["acuerdo-participio"],
+      "difficulty": 2,
+      "speak": "elle est venue",
+      "mode": "choose",
+      "options": ["il est venu", "elle est venue", "ils sont venus", "elles sont venues"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Elle est venue: femenino singular, con -e."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose", "etre", "acuerdo-participio"],
+      "difficulty": 3,
+      "speak": "Je suis allé au travail, ma sœur est venue avec moi, et nous sommes restés jusqu'au soir.",
+      "es": "Fui al trabajo, mi hermana vino conmigo, y nos quedamos hasta la noche.",
+      "ipa": "/ʒə sɥi.z‿a.le o tʁa.vaj ma sœʁ ɛ və.ny a.vɛk mwa e nu sɔm ʁɛs.te ʒys.ko swaʁ/",
+      "esApprox": "«ye süí-a-LÉ o tra-VÁY ma SEUR e ve-NÜ a-VEK MUÁ e nu som res-TÉ yüs-ko SUAR»",
+      "focus": "Tres verbos con être y sus acuerdos (allé, venue, restés) en una historia.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 2,
+      "prompt": "Cuenta adónde fuiste y a qué hora llegaste ayer.",
+      "modelAnswer": "Je suis allé au travail, et je suis arrivé tôt.",
+      "alsoValid": ["Je suis resté à la maison toute la journée."],
+      "speak": "Je suis allé au travail, et je suis arrivé tôt.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "¿El participio necesita -e, -s, -es o ningún cambio?",
+      "buckets": ["Sin cambio", "+ e", "+ s", "+ es"],
+      "items": [
+        { "text": "il est allé", "bucket": 0 },
+        { "text": "elle est allée", "bucket": 1 },
+        { "text": "ils sont allés", "bucket": 2 },
+        { "text": "elles sont allées", "bucket": 3 }
+      ],
+      "explain": "Il (sin cambio), elle (+e), ils (+s), elles (+es)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 2,
+      "prompt": "Hay un error de auxiliar. Corrige la frase entera.",
+      "wrong": "J'ai allé au travail.",
+      "accept": ["Je suis allé au travail"],
+      "audio": "Je suis allé au travail.",
+      "explain": "Aller usa être como auxiliar, no avoir."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "allé / allée", "es": "ido/a (de aller)", "esApprox": "«a-LÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "venu / venue", "es": "venido/a (de venir)", "esApprox": "«ve-NÜ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "parti / partie", "es": "salido/a, marchado/a (de partir)", "esApprox": "«par-TÍ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "arrivé / arrivée", "es": "llegado/a (de arriver)", "esApprox": "«a-ri-VÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "resté / restée", "es": "quedado/a (de rester)", "esApprox": "«res-TÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je suis allé au travail, et elle est venue avec moi.", "es": "Fui al trabajo, y ella vino conmigo.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Ils sont arrivés tôt, mais elles sont restées tard.", "es": "Ellos llegaron temprano, pero ellas se quedaron tarde.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Nous sommes restés à la maison.", "es": "Nos quedamos en casa.", "from": "e9" }
+  ]
+}

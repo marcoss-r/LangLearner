@@ -1,0 +1,256 @@
+{
+  "id": "fr-a1-073",
+  "lang": "fr",
+  "level": "A1",
+  "order": 73,
+  "title": "Pronunciación general V: el ritmo y el acento del francés",
+  "objectives": [
+    "Reconocer que el acento francés cae siempre en la última sílaba pronunciada de un grupo de palabras",
+    "Distinguir el ritmo francés (sílabas de duración regular) del ritmo español (acento variable por palabra)",
+    "Aplicar el acento de grupo a frases cortas ya conocidas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un acento que nunca se mueve",
+      "body": "En español, el acento cambia de sílaba según la palabra: HABlo, habLÓ, HÁblame. En francés, el acento tónico cae siempre en la **última sílaba pronunciada** de la palabra o del grupo de palabras (le groupe rythmique). No hay excepciones ni palabras con acento «escondido» en medio.",
+      "examples": [
+        { "target": "Il est content.", "es": "Está contento.", "note": "el acento cae en «-TENT», la última sílaba del grupo" },
+        { "target": "Il est très content aujourd'hui.", "es": "Está muy contento hoy.", "note": "ahora el acento se mueve al final: «-DHUI»" }
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "El grupo rítmico",
+      "body": "Un groupe rythmique es un conjunto de palabras que se pronuncian juntas, sin pausa, formando una sola unidad de sentido. Solo la última sílaba del grupo lleva el acento; todas las demás sílabas se pronuncian con una duración e intensidad muy parecidas entre sí.",
+      "drills": [
+        { "target": "Je suis fatigué.", "ipa": "/ʒə sɥi fa.ti.ˈɡe/", "esApprox": "«ye süí fa-ti-GUÉ»", "hint": "acento solo en la última sílaba, GUÉ" },
+        { "target": "Je suis très fatigué aujourd'hui.", "ipa": "/ʒə sɥi tʁɛ fa.ti.ɡe.o.ʒuʁ.ˈdɥi/", "esApprox": "«ye süí tre fa-ti-gue-o-yur-DÜÍ»", "hint": "el acento se mueve al final del grupo entero, no de cada palabra" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Ritmo español frente a ritmo francés",
+      "items": [
+        { "wrong": "Marcar una sílaba fuerte en cada palabra francesa, como en español", "right": "Pronunciar todas las sílabas con duración pareja, y reservar el acento para el final del grupo", "why": "El español tiene acento libre: cada palabra tiene su propia sílaba fuerte (CAsa, caSÓN). El francés tiene acento fijo de grupo: todas las sílabas suenan casi iguales hasta la última, que se alarga ligeramente." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para entrenar el oído, intenta leer una frase corta francesa sin marcar ninguna sílaba hasta la última: el resultado te sonará más «plano» y regular que en español, y eso es exactamente lo correcto."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "l'accent tonique", "es": "el acento tónico", "ipa": "/lak.sɑ̃ tɔ.nik/", "esApprox": "«lak-san to-NIK»", "pos": "sustantivo", "gender": "m", "example": { "target": "L'accent tonique est toujours à la fin.", "es": "El acento tónico está siempre al final." } },
+    { "id": "v2", "target": "le groupe rythmique", "es": "el grupo rítmico", "ipa": "/lə ɡʁup ʁit.mik/", "esApprox": "«le GRUP rit-MIK»", "pos": "sustantivo", "gender": "m", "example": { "target": "Une phrase peut avoir plusieurs groupes rythmiques.", "es": "Una frase puede tener varios grupos rítmicos." } },
+    { "id": "v3", "target": "la syllabe", "es": "la sílaba", "ipa": "/la si.lab/", "esApprox": "«la si-LAB»", "pos": "sustantivo", "gender": "f", "example": { "target": "La dernière syllabe est accentuée.", "es": "La última sílaba lleva el acento." } },
+    { "id": "v4", "target": "toujours à la fin", "es": "siempre al final", "ipa": "/tu.ʒuʁ a la fɛ̃/", "esApprox": "«tu-YUR a la FEN»", "pos": "expresión", "gender": null, "example": { "target": "En français, l'accent est toujours à la fin.", "es": "En francés, el acento está siempre al final." } },
+    { "id": "v5", "target": "régulier / régulière", "es": "regular", "ipa": "/ʁe.ɡy.lje/", "esApprox": "«re-gü-LIÉ»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Le rythme du français est très régulier.", "es": "El ritmo del francés es muy regular." } },
+    { "id": "v6", "target": "content / contente", "es": "contento/a", "ipa": "/kɔ̃.tɑ̃ kɔ̃.tɑ̃t/", "esApprox": "«kon-TAN kon-TANT»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Il est content aujourd'hui.", "es": "Está contento hoy." } },
+    { "id": "v7", "target": "fatigué / fatiguée", "es": "cansado/a", "ipa": "/fa.ti.ɡe/", "esApprox": "«fa-ti-GUÉ»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Je suis très fatigué aujourd'hui.", "es": "Estoy muy cansado hoy." } },
+    { "id": "v8", "target": "aujourd'hui", "es": "hoy", "ipa": "/o.ʒuʁ.dɥi/", "esApprox": "«o-yur-DÜÍ»", "pos": "adverbio", "gender": null, "example": { "target": "Aujourd'hui, il fait beau.", "es": "Hoy hace buen tiempo." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 2,
+      "prompt": "¿Dónde cae el acento tónico en francés?",
+      "options": ["En la primera sílaba siempre", "En una sílaba distinta según la palabra", "En la última sílaba del grupo rítmico", "No hay acento en francés"],
+      "answer": 2,
+      "explain": "El acento francés es fijo: siempre en la última sílaba pronunciada del grupo."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 2,
+      "statement": "En francés, cada palabra tiene su propia sílaba acentuada, como en español.",
+      "answer": false,
+      "explain": "El acento francés pertenece al grupo rítmico entero, no a cada palabra por separado."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "statement": "Si se añaden más palabras a una frase, el acento se mueve al final del nuevo grupo.",
+      "answer": true,
+      "explain": "Il est content → Il est très content aujourd'hui: el acento se desplaza siempre al final."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas afirmaciones sobre el ritmo francés es falsa?",
+      "options": ["Las sílabas tienen duración pareja", "El acento cae al final del grupo", "El acento cambia de sílaba según la palabra", "El ritmo es muy regular"],
+      "answer": 2,
+      "explain": "Esa afirmación describe el español, no el francés."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Une cada término con su significado",
+      "left": ["l'accent tonique", "le groupe rythmique", "la syllabe", "régulier"],
+      "right": ["regular", "el acento tónico", "la sílaba", "el grupo rítmico"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Accent tonique = acento tónico, groupe rythmique = grupo rítmico, syllabe = sílaba, régulier = regular."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "prompt": "El acento tónico está siempre al final del grupo rítmico.",
+      "accept": ["L'accent tonique est toujours à la fin du groupe rythmique"],
+      "hintWords": ["l'accent tonique", "toujours à la fin", "du groupe rythmique"],
+      "strictAccents": false,
+      "audio": "L'accent tonique est toujours à la fin du groupe rythmique.",
+      "explain": "Frase que resume la regla principal de esta clase."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "prompt": "Estoy contento hoy, pero estoy muy cansado.",
+      "accept": ["Je suis content aujourd'hui, mais je suis très fatigué"],
+      "hintWords": ["je suis content aujourd'hui", "je suis très fatigué"],
+      "strictAccents": false,
+      "audio": "Je suis content aujourd'hui, mais je suis très fatigué.",
+      "explain": "Dos grupos rítmicos, cada uno con su propio acento final."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "prompt": "Completa la regla",
+      "text": "En français, l'accent tonique est toujours à la ___ du groupe.",
+      "blanks": [{ "accept": ["fin"] }],
+      "bank": ["fin", "début", "milieu"],
+      "explain": "El acento francés está siempre al final (la fin), nunca al principio ni en medio."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El ritmo del francés es muy regular»",
+      "tokens": ["très régulier", "du français", "Le rythme", "est"],
+      "answer": ["Le rythme", "du français", "est", "très régulier"],
+      "audio": "Le rythme du français est très régulier.",
+      "explain": "Le rythme + du français + est + très régulier."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "prompt": "Une phrase peut avoir plusieurs groupes rythmiques, chacun avec son propre accent.",
+      "accept": ["Una frase puede tener varios grupos rítmicos, cada uno con su propio acento."],
+      "strictAccents": false,
+      "audio": "Une phrase peut avoir plusieurs groupes rythmiques, chacun avec son propre accent.",
+      "explain": "Cada grupo rítmico dentro de una frase tiene su propio acento final."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre cómo te sientes",
+      "turns": [
+        { "who": "Léa", "text": "Ça va ? Tu es content aujourd'hui ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je suis content aujourd'hui.", "Non, je suis fatigué."], "hint": "responde sobre cómo te sientes hoy" },
+        { "who": "Léa", "text": "D'accord !", "speak": true }
+      ],
+      "explain": "Practica el ritmo de una frase corta con acento final."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "speak": "Je suis très fatigué aujourd'hui, mais je suis content.",
+      "mode": "write",
+      "accept": ["Je suis très fatigué aujourd'hui, mais je suis content"],
+      "showTextAfter": true,
+      "explain": "Dos grupos rítmicos con acento en fatigué y en content."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 1,
+      "speak": "le groupe rythmique",
+      "mode": "choose",
+      "options": ["l'accent tonique", "la syllabe", "le groupe rythmique", "régulier"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Le groupe rythmique = el grupo rítmico."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 3,
+      "speak": "Je suis fatigué. Je suis très fatigué aujourd'hui. Je suis très fatigué, mais je suis content.",
+      "es": "Estoy cansado. Estoy muy cansado hoy. Estoy muy cansado, pero estoy contento.",
+      "ipa": "/ʒə sɥi fa.ti.ɡe ʒə sɥi tʁɛ fa.ti.ɡe.o.ʒuʁ.dɥi ʒə sɥi tʁɛ fa.ti.ɡe mɛ ʒə sɥi kɔ̃.tɑ̃/",
+      "esApprox": "«ye süí fa-ti-GUÉ ye süí tre fa-ti-gue-o-yur-DÜÍ ye süí tre fa-ti-GUÉ me ye süí kon-TAN»",
+      "focus": "El mismo grupo (je suis fatigué) alargado tres veces, con el acento moviéndose siempre al final.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "prompt": "Di una frase corta y luego alárgala, notando cómo se mueve el acento al final.",
+      "modelAnswer": "Je suis content. Je suis très content aujourd'hui.",
+      "alsoValid": ["Je suis fatigué. Je suis très fatigué aujourd'hui."],
+      "speak": "Je suis content. Je suis très content aujourd'hui.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "prompt": "¿Describe el ritmo francés o el ritmo español?",
+      "buckets": ["Ritmo francés", "Ritmo español"],
+      "items": [
+        { "text": "El acento cambia de sílaba según la palabra.", "bucket": 1 },
+        { "text": "El acento cae siempre al final del grupo.", "bucket": 0 },
+        { "text": "Las sílabas tienen duración muy pareja.", "bucket": 0 },
+        { "text": "Cada palabra tiene su propia sílaba fuerte.", "bucket": 1 }
+      ],
+      "explain": "El francés tiene acento fijo de grupo; el español, acento libre por palabra."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["ritmo"],
+      "difficulty": 2,
+      "prompt": "Hay un error de concepto. Corrige la frase entera.",
+      "wrong": "L'accent tonique est toujours au début du groupe.",
+      "accept": ["L'accent tonique est toujours à la fin du groupe"],
+      "audio": "L'accent tonique est toujours à la fin du groupe.",
+      "explain": "El acento tónico francés está siempre al final, nunca al principio."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "l'accent tonique", "es": "el acento tónico", "esApprox": "«lak-san to-NIK»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le groupe rythmique", "es": "el grupo rítmico", "esApprox": "«le GRUP rit-MIK»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "la syllabe", "es": "la sílaba", "esApprox": "«la si-LAB»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "toujours à la fin", "es": "siempre al final", "esApprox": "«tu-YUR a la FEN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "régulier / régulière", "es": "regular", "esApprox": "«re-gü-LIÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "L'accent tonique est toujours à la fin du groupe rythmique.", "es": "El acento tónico está siempre al final del grupo rítmico.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je suis content aujourd'hui, mais je suis très fatigué.", "es": "Estoy contento hoy, pero estoy muy cansado.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Le rythme du français est très régulier.", "es": "El ritmo del francés es muy regular.", "from": "e9" }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "fr-a1-076",
+  "lang": "fr",
+  "level": "A1",
+  "order": 76,
+  "title": "El passé récent: venir de + infinitivo",
+  "objectives": [
+    "Formar el passé récent: venir (presente, clase 37) + de + infinitivo",
+    "Distinguir venir de + lugar (clase 37) de venir de + infinitivo (esta clase)",
+    "Usar el passé récent para hablar de algo que acabas de hacer"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Venir de + infinitivo",
+      "body": "Ya conoces venir de + lugar (clase 37) para decir de dónde vienes: je viens du travail. Ahora aprendes un uso distinto: venir de + infinitivo sirve para decir que acabas de hacer algo, en un pasado muy reciente.",
+      "examples": [
+        { "target": "Je viens de manger.", "es": "Acabo de comer.", "note": "venir (presente) + de + infinitivo" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Venir de + lugar frente a venir de + infinitivo",
+      "items": [
+        { "wrong": "Pensar que venir de siempre habla de un lugar", "right": "Je viens du travail (lugar, clase 37) / Je viens de manger (acción reciente, esta clase)", "why": "Después de venir de puede ir un sustantivo con artículo contraído (du travail) o un infinitivo (de manger). El significado cambia por completo: uno indica origen, el otro indica una acción que acaba de terminar." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Venir de + infinitivo, todas las personas",
+      "headers": ["Persona", "Forma"],
+      "rows": [
+        ["je", "viens de + infinitif"],
+        ["tu", "viens de + infinitif"],
+        ["il / elle", "vient de + infinitif"],
+        ["nous", "venons de + infinitif"],
+        ["vous", "venez de + infinitif"],
+        ["ils / elles", "viennent de + infinitif"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "De se convierte en d' delante de un infinitivo que empieza por vocal: je viens d'arriver (acabo de llegar), igual que ne se convertía en n' (clase 19)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "venir de + infinitif", "es": "acabar de + infinitivo (pasado reciente)", "ipa": "/və.niʁ də/", "esApprox": "«ve-NIR de»", "pos": "expresión", "gender": null, "example": { "target": "Je viens de finir.", "es": "Acabo de terminar." } },
+    { "id": "v2", "target": "arriver", "es": "llegar", "ipa": "/a.ʁi.ve/", "esApprox": "«a-ri-VÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je viens d'arriver.", "es": "Acabo de llegar." } },
+    { "id": "v3", "target": "finir", "es": "terminar", "ipa": "/fi.niʁ/", "esApprox": "«fi-NIR»", "pos": "verbo", "gender": null, "example": { "target": "Nous venons de finir le cours.", "es": "Acabamos de terminar la clase." } },
+    { "id": "v4", "target": "à l'instant", "es": "hace un momento, ahora mismo", "ipa": "/a lɛ̃s.tɑ̃/", "esApprox": "«a lens-TAN»", "pos": "expresión", "gender": null, "example": { "target": "Il vient de partir à l'instant.", "es": "Acaba de salir ahora mismo." } },
+    { "id": "v5", "target": "recevoir", "es": "recibir", "ipa": "/ʁə.sə.vwaʁ/", "esApprox": "«re-se-VUÁR»", "pos": "verbo", "gender": null, "example": { "target": "Je viens de recevoir ton message.", "es": "Acabo de recibir tu mensaje." } },
+    { "id": "v6", "target": "un message", "es": "un mensaje", "ipa": "/œ̃ mɛ.saʒ/", "esApprox": "«un me-SAZH»", "pos": "sustantivo", "gender": "m", "example": { "target": "Tu viens de recevoir un message.", "es": "Acabas de recibir un mensaje." } },
+    { "id": "v7", "target": "le bureau", "es": "la oficina, el despacho", "ipa": "/lə by.ʁo/", "esApprox": "«le bü-RÓ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Elle vient d'arriver au bureau.", "es": "Ella acaba de llegar a la oficina." } },
+    { "id": "v8", "target": "tout de suite", "es": "ahora mismo, enseguida", "ipa": "/tut sɥit/", "esApprox": "«tut SÜÍT»", "pos": "expresión", "gender": null, "example": { "target": "Je viens de finir tout de suite.", "es": "Acabo de terminar ahora mismo." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «acabo de comer»?",
+      "options": ["Je viens du manger.", "Je viens de manger.", "Je viens manger.", "Je vais de manger."],
+      "answer": 1,
+      "explain": "Venir (presente) + de + infinitivo: je viens de manger."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «je viens du travail»?",
+      "options": ["Acabo de trabajar", "Vengo del trabajo", "Voy a trabajar", "Estoy trabajando"],
+      "answer": 1,
+      "explain": "Venir de + lugar (clase 37): vengo del trabajo, no acabo de trabajar."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "statement": "De se convierte en d' delante de un infinitivo que empieza por vocal.",
+      "answer": true,
+      "explain": "Je viens d'arriver, igual que ne → n' (clase 19)."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases NO es un passé récent?",
+      "options": ["Je viens de manger.", "Je viens du travail.", "Il vient de finir.", "Nous venons d'arriver."],
+      "answer": 1,
+      "explain": "Je viens du travail es venir de + lugar (clase 37), no passé récent."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "Une cada persona con su forma de venir de",
+      "left": ["je", "il", "nous", "ils"],
+      "right": ["viennent de", "viens de", "vient de", "venons de"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Je viens de, il vient de, nous venons de, ils viennent de."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "Acabo de llegar y acabo de recibir tu mensaje.",
+      "accept": ["Je viens d'arriver et je viens de recevoir ton message"],
+      "hintWords": ["je viens d'arriver", "je viens de recevoir ton message"],
+      "strictAccents": false,
+      "audio": "Je viens d'arriver et je viens de recevoir ton message.",
+      "explain": "Venir de + infinitivo, dos veces, con d' delante de vocal."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "Acabamos de terminar la clase, y ellos acaban de salir.",
+      "accept": ["Nous venons de finir le cours, et ils viennent de partir"],
+      "hintWords": ["nous venons de finir le cours", "ils viennent de partir"],
+      "strictAccents": false,
+      "audio": "Nous venons de finir le cours, et ils viennent de partir.",
+      "explain": "Venons de + finir, viennent de + partir."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de venir de",
+      "text": "Tu ___ de finir, et vous ___ d'arriver.",
+      "blanks": [{ "accept": ["viens"] }, { "accept": ["venez"] }],
+      "bank": ["viens", "venez", "vient"],
+      "explain": "Tu viens de, vous venez de."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Acaba de salir ahora mismo»",
+      "tokens": ["à l'instant", "de partir", "Il vient"],
+      "answer": ["Il vient", "de partir", "à l'instant"],
+      "audio": "Il vient de partir à l'instant.",
+      "explain": "Il vient + de partir + à l'instant."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-recent"],
+      "difficulty": 1,
+      "prompt": "Elle vient de recevoir un message, et elle vient d'arriver au bureau.",
+      "accept": ["Ella acaba de recibir un mensaje, y acaba de llegar a la oficina."],
+      "strictAccents": false,
+      "audio": "Elle vient de recevoir un message, et elle vient d'arriver au bureau.",
+      "explain": "Dos acciones muy recientes con venir de."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre algo que acabas de hacer",
+      "turns": [
+        { "who": "Léa", "text": "Tu viens d'arriver ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je viens d'arriver.", "Oui, je viens de finir le travail."], "hint": "responde con venir de + infinitivo" },
+        { "who": "Léa", "text": "Parfait, on commence !", "speak": true }
+      ],
+      "explain": "Tu viens de...? se responde con venir de + infinitivo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "speak": "Je viens de manger, et je viens de recevoir un message de mon frère.",
+      "mode": "write",
+      "accept": ["Je viens de manger, et je viens de recevoir un message de mon frère"],
+      "showTextAfter": true,
+      "explain": "Dos acciones muy recientes con venir de."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-recent"],
+      "difficulty": 1,
+      "speak": "nous venons de finir",
+      "mode": "choose",
+      "options": ["je viens de finir", "nous venons de finir", "ils viennent de finir", "vous venez de finir"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Nous venons de finir = acabamos de terminar."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-recent"],
+      "difficulty": 3,
+      "speak": "Je viens d'arriver, je viens de manger, et je viens de recevoir ton message.",
+      "es": "Acabo de llegar, acabo de comer, y acabo de recibir tu mensaje.",
+      "ipa": "/ʒə vjɛ̃ da.ʁi.ve ʒə vjɛ̃ də mɑ̃.ʒe e ʒə vjɛ̃ də ʁə.sə.vwaʁ tɔ̃ mɛ.saʒ/",
+      "esApprox": "«ye vien da-ri-VÉ ye vien de man-YÉ e ye vien de re-se-VUÁR ton me-SAZH»",
+      "focus": "Tres acciones muy recientes seguidas con venir de.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "Di tres cosas que acabas de hacer.",
+      "modelAnswer": "Je viens d'arriver, je viens de manger et je viens de finir mon travail.",
+      "alsoValid": ["Je viens de recevoir un message."],
+      "speak": "Je viens d'arriver, je viens de manger et je viens de finir mon travail.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "¿Es venir de + lugar o venir de + infinitivo?",
+      "buckets": ["Venir de + lugar", "Venir de + infinitivo"],
+      "items": [
+        { "text": "Je viens du travail.", "bucket": 0 },
+        { "text": "Je viens de manger.", "bucket": 1 },
+        { "text": "Il vient de l'école.", "bucket": 0 },
+        { "text": "Il vient de finir.", "bucket": 1 }
+      ],
+      "explain": "Repaso de la clase 37 (lugar) frente a esta clase (infinitivo)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-recent"],
+      "difficulty": 2,
+      "prompt": "Hay un error: falta el apóstrofo. Corrige la frase entera.",
+      "wrong": "Je viens de arriver.",
+      "accept": ["Je viens d'arriver"],
+      "audio": "Je viens d'arriver.",
+      "explain": "De se convierte en d' delante de vocal: d'arriver."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "venir de + infinitif", "es": "acabar de + infinitivo (pasado reciente)", "esApprox": "«ve-NIR de»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "arriver", "es": "llegar", "esApprox": "«a-ri-VÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "finir", "es": "terminar", "esApprox": "«fi-NIR»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "à l'instant", "es": "hace un momento, ahora mismo", "esApprox": "«a lens-TAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "recevoir", "es": "recibir", "esApprox": "«re-se-VUÁR»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je viens d'arriver et je viens de recevoir ton message.", "es": "Acabo de llegar y acabo de recibir tu mensaje.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Nous venons de finir le cours, et ils viennent de partir.", "es": "Acabamos de terminar la clase, y ellos acaban de salir.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Il vient de partir à l'instant.", "es": "Acaba de salir ahora mismo.", "from": "e9" }
+  ]
+}

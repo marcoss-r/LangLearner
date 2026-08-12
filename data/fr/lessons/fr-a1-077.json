@@ -1,0 +1,251 @@
+{
+  "id": "fr-a1-077",
+  "lang": "fr",
+  "level": "A1",
+  "order": 77,
+  "title": "Être en train de: la acción en curso",
+  "objectives": [
+    "Formar être en train de + infinitivo para hablar de una acción que ocurre en este momento",
+    "Distinguir être en train de (acción en curso) de aller + infinitivo (clase 75) y venir de + infinitivo (clase 76)",
+    "Usar las tres estructuras del futuro próximo, passé récent y acción en curso juntas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Être en train de + infinitivo",
+      "body": "Être (clase 9) en train de + infinitivo indica que una acción está ocurriendo justo ahora, en este preciso momento. Es el equivalente al «estar + gerundio» del español.",
+      "examples": [
+        { "target": "Je suis en train de manger.", "es": "Estoy comiendo.", "note": "être (presente) + en train de + infinitivo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Tres momentos, tres estructuras",
+      "headers": ["Estructura", "Momento", "Ejemplo"],
+      "rows": [
+        ["venir de + infinitif (clase 76)", "acción recién terminada", "Je viens de manger."],
+        ["être en train de + infinitif (esta clase)", "acción en curso, ahora mismo", "Je suis en train de manger."],
+        ["aller + infinitif (clase 75)", "acción próxima", "Je vais manger."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En train de no cambia nunca de forma: solo cambia être según la persona. Je suis en train de, tu es en train de, il est en train de..."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "être en train de", "es": "estar + gerundio (acción en curso)", "ipa": "/ɛtʁ ɑ̃ tʁɛ̃ də/", "esApprox": "«ETR an TREN de»", "pos": "expresión", "gender": null, "example": { "target": "Je suis en train de travailler.", "es": "Estoy trabajando." } },
+    { "id": "v2", "target": "en ce moment", "es": "en este momento", "ipa": "/ɑ̃ sə mɔ.mɑ̃/", "esApprox": "«an se mo-MAN»", "pos": "expresión", "gender": null, "example": { "target": "Je suis en train de lire en ce moment.", "es": "Estoy leyendo en este momento." } },
+    { "id": "v3", "target": "lire", "es": "leer", "ipa": "/liʁ/", "esApprox": "«LIR»", "pos": "verbo", "gender": null, "example": { "target": "Elle est en train de lire.", "es": "Ella está leyendo." } },
+    { "id": "v4", "target": "écouter", "es": "escuchar", "ipa": "/e.ku.te/", "esApprox": "«e-ku-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Ils sont en train d'écouter de la musique.", "es": "Ellos están escuchando música." } },
+    { "id": "v5", "target": "chercher", "es": "buscar", "ipa": "/ʃɛʁ.ʃe/", "esApprox": "«sher-SHÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je suis en train de chercher mes clés.", "es": "Estoy buscando mis llaves." } },
+    { "id": "v6", "target": "les clés", "es": "las llaves", "ipa": "/le kle/", "esApprox": "«le KLÉ»", "pos": "sustantivo", "gender": "f", "example": { "target": "Où sont mes clés ?", "es": "¿Dónde están mis llaves?" } },
+    { "id": "v7", "target": "Qu'est-ce que tu es en train de faire ?", "es": "¿Qué estás haciendo?", "ipa": "/kɛs.kə ty ɛ.z‿ɑ̃ tʁɛ̃ də fɛʁ/", "esApprox": "«kes-ke tü e-zan-TREN de FER»", "pos": "expresión", "gender": null, "example": { "target": "Qu'est-ce que tu es en train de faire ? — Je lis.", "es": "¿Qué estás haciendo? —Estoy leyendo." } },
+    { "id": "v8", "target": "trouver", "es": "encontrar", "ipa": "/tʁu.ve/", "esApprox": "«tru-VÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je suis en train de trouver une solution.", "es": "Estoy encontrando una solución." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «estoy comiendo»?",
+      "options": ["Je viens de manger.", "Je suis en train de manger.", "Je vais manger.", "Je mange en train."],
+      "answer": 1,
+      "explain": "Être en train de + infinitivo: je suis en train de manger."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases indica una acción que YA terminó?",
+      "options": ["Je suis en train de finir.", "Je viens de finir.", "Je vais finir.", "Je finis en train."],
+      "answer": 1,
+      "explain": "Venir de + infinitivo (clase 76) indica una acción recién terminada."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "statement": "En train de cambia de forma según la persona, igual que être.",
+      "answer": false,
+      "explain": "Solo être cambia (je suis, tu es, il est...); en train de nunca cambia."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["accion-en-curso", "futuro-proximo", "passe-recent"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases habla de una acción futura, no presente o pasada?",
+      "options": ["Je suis en train de lire.", "Je viens de lire.", "Je vais lire.", "Je suis en train de finir."],
+      "answer": 2,
+      "explain": "Aller + infinitivo (clase 75) es la única estructura de futuro entre las cuatro."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["accion-en-curso", "futuro-proximo", "passe-recent"],
+      "difficulty": 2,
+      "prompt": "Une cada estructura con su momento",
+      "left": ["venir de manger", "être en train de manger", "aller manger"],
+      "right": ["acción próxima", "acción recién terminada", "acción en curso"],
+      "answer": [1, 2, 0],
+      "explain": "Venir de = recién terminada, être en train de = en curso, aller = próxima."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "prompt": "Estoy buscando mis llaves en este momento.",
+      "accept": ["Je suis en train de chercher mes clés en ce moment"],
+      "hintWords": ["je suis en train de chercher mes clés", "en ce moment"],
+      "strictAccents": false,
+      "audio": "Je suis en train de chercher mes clés en ce moment.",
+      "explain": "Être en train de + chercher + en ce moment."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "prompt": "Ellos están escuchando música, y ella está leyendo.",
+      "accept": ["Ils sont en train d'écouter de la musique, et elle est en train de lire"],
+      "hintWords": ["ils sont en train d'écouter", "elle est en train de lire"],
+      "strictAccents": false,
+      "audio": "Ils sont en train d'écouter de la musique, et elle est en train de lire.",
+      "explain": "Être en train de + écouter / lire, dos personas distintas."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de être",
+      "text": "Tu ___ en train de travailler, et nous ___ en train de manger.",
+      "blanks": [{ "accept": ["es"] }, { "accept": ["sommes"] }],
+      "bank": ["es", "sommes", "sont"],
+      "explain": "Tu es en train de, nous sommes en train de."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Estoy leyendo en este momento»",
+      "tokens": ["en ce moment", "en train de lire", "Je suis"],
+      "answer": ["Je suis", "en train de lire", "en ce moment"],
+      "audio": "Je suis en train de lire en ce moment.",
+      "explain": "Je suis + en train de lire + en ce moment."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["accion-en-curso"],
+      "difficulty": 1,
+      "prompt": "Nous sommes en train de manger, mais ils viennent de finir.",
+      "accept": ["Estamos comiendo, pero ellos acaban de terminar."],
+      "strictAccents": false,
+      "audio": "Nous sommes en train de manger, mais ils viennent de finir.",
+      "explain": "Être en train de (en curso) frente a venir de (recién terminado)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre lo que estás haciendo",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu es en train de faire ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je suis en train de lire.", "Je suis en train de manger.", "Je suis en train de travailler."], "hint": "usa être en train de" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu es en train de faire ? se responde con être en train de + infinitivo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "speak": "Je suis en train de chercher mes clés, et je viens de finir mon travail.",
+      "mode": "write",
+      "accept": ["Je suis en train de chercher mes clés, et je viens de finir mon travail"],
+      "showTextAfter": true,
+      "explain": "Être en train de frente a venir de, en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["accion-en-curso"],
+      "difficulty": 1,
+      "speak": "ils sont en train d'écouter",
+      "mode": "choose",
+      "options": ["ils viennent d'écouter", "ils sont en train d'écouter", "ils vont écouter", "ils écoutent en train"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Ils sont en train d'écouter = ellos están escuchando."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["accion-en-curso", "futuro-proximo", "passe-recent"],
+      "difficulty": 3,
+      "speak": "Je viens de manger, je suis en train de lire, et je vais bientôt travailler.",
+      "es": "Acabo de comer, estoy leyendo, y voy a trabajar pronto.",
+      "ipa": "/ʒə vjɛ̃ də mɑ̃.ʒe ʒə sɥi.z‿ɑ̃ tʁɛ̃ də liʁ e ʒə vɛ bjɛ̃.to tʁa.vaj.e/",
+      "esApprox": "«ye vien de man-YÉ ye süí-an-TREN de LIR e ye ve bien-TÓ tra-va-YÉ»",
+      "focus": "Las tres estructuras (passé récent, acción en curso, futuro próximo) en una sola frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "prompt": "Di qué estás haciendo en este momento.",
+      "modelAnswer": "Je suis en train d'étudier le français.",
+      "alsoValid": ["Je suis en train de manger."],
+      "speak": "Je suis en train d'étudier le français.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["accion-en-curso", "futuro-proximo", "passe-recent"],
+      "difficulty": 2,
+      "prompt": "¿Es acción recién terminada, en curso o próxima?",
+      "buckets": ["Recién terminada", "En curso", "Próxima"],
+      "items": [
+        { "text": "Je viens de manger.", "bucket": 0 },
+        { "text": "Je suis en train de manger.", "bucket": 1 },
+        { "text": "Je vais manger.", "bucket": 2 },
+        { "text": "Il vient de partir.", "bucket": 0 },
+        { "text": "Il est en train de partir.", "bucket": 1 }
+      ],
+      "explain": "Venir de = recién terminada, être en train de = en curso, aller = próxima."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["accion-en-curso"],
+      "difficulty": 2,
+      "prompt": "Hay un error: en train de no cambia de forma. Corrige la frase entera.",
+      "wrong": "Je suis en trains de manger.",
+      "accept": ["Je suis en train de manger"],
+      "audio": "Je suis en train de manger.",
+      "explain": "En train de es invariable: nunca lleva -s."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "être en train de", "es": "estar + gerundio (acción en curso)", "esApprox": "«ETR an TREN de»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "en ce moment", "es": "en este momento", "esApprox": "«an se mo-MAN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "lire", "es": "leer", "esApprox": "«LIR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "écouter", "es": "escuchar", "esApprox": "«e-ku-TÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "chercher", "es": "buscar", "esApprox": "«sher-SHÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je suis en train de chercher mes clés en ce moment.", "es": "Estoy buscando mis llaves en este momento.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Ils sont en train d'écouter de la musique, et elle est en train de lire.", "es": "Ellos están escuchando música, y ella está leyendo.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Je viens de manger, je suis en train de lire, et je vais bientôt travailler.", "es": "Acabo de comer, estoy leyendo, y voy a trabajar pronto.", "from": "e14" }
+  ]
+}
