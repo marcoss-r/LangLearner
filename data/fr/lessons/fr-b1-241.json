@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-241",
+  "lang": "fr",
+  "level": "B1",
+  "order": 241,
+  "title": "Negociar: pedir, ceder y llegar a un acuerdo",
+  "objectives": [
+    "Usar je vous propose, on pourrait trouver un compromis para negociar",
+    "Usar je peux faire un effort si..., rencontrons-nous à mi-chemin para ceder",
+    "Practicar una negociación completa hasta llegar a un acuerdo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Las tres fases de una negociación",
+      "body": "Negociar tiene tres fases: proponer, ceder un poco, y cerrar el acuerdo. Este vocabulario te permite manejar las tres con naturalidad."
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas de negociación",
+      "headers": ["Fase", "Expresión"],
+      "rows": [
+        ["proponer", "je vous propose, qu'est-ce que vous en pensez ?"],
+        ["ceder", "je peux faire un effort si..., rencontrons-nous à mi-chemin"],
+        ["cerrar el trato", "dans ce cas, marché conclu"],
+        ["postura firme", "c'est à prendre ou à laisser, c'est mon dernier mot"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "On pourrait trouver un compromis",
+      "body": "Esta fórmula abre la puerta a ceder sin comprometerte demasiado pronto: reconoce que hay margen para negociar, sin decir aún cuánto."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je vous propose", "es": "le propongo", "ipa": "/ʒə vu pʁɔ.poz/", "esApprox": "«ye vu pro-POZ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "c'est à prendre ou à laisser", "es": "lo toma o lo deja", "ipa": "/sɛ.t‿a pʁɑ̃dʁ u a lɛ.se/", "esApprox": "«se-ta PRANDR u a le-SÉ»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "on pourrait trouver un compromis", "es": "podríamos encontrar un término medio", "ipa": "/ɔ̃ pu.ʁɛ tʁu.ve œ̃ kɔ̃.pʁɔ.mi/", "esApprox": "«on pu-RE tru-VÉ un kon-pro-MÍ»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "je peux faire un effort si", "es": "puedo hacer un esfuerzo si", "ipa": "/ʒə pø fɛʁ œ̃.n‿e.fɔʁ si/", "esApprox": "«ye PÖ FER un-ne-FOR si»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "c'est mon dernier mot", "es": "es mi última palabra", "ipa": "/sɛ mɔ̃ dɛʁ.nje mo/", "esApprox": "«se mon der-NIÉ MO»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "dans ce cas, marché conclu", "es": "en ese caso, trato hecho", "ipa": "/dɑ̃ sə ka maʁ.ʃe kɔ̃.kly/", "esApprox": "«dan se KA mar-SHÉ kon-KLÜ»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "qu'est-ce que vous en pensez ?", "es": "¿qué le parece?", "ipa": "/kɛs.kə vu.z‿ɑ̃ pɑ̃.se/", "esApprox": "«kes-ke vu-zan pan-SÉ»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "rencontrons-nous à mi-chemin", "es": "encontrémonos a medio camino", "ipa": "/ʁɑ̃.kɔ̃.tʁɔ̃ nu a mi ʃə.mɛ̃/", "esApprox": "«ran-kon-TRON nu a mi she-MIN»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo dices «trato hecho»?",
+      "options": ["c'est mon dernier mot", "marché conclu", "c'est à prendre ou à laisser", "je vous propose"],
+      "answer": 1,
+      "explain": "Marché conclu significa trato hecho."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo propones ceder un poco?",
+      "options": ["c'est mon dernier mot", "je peux faire un effort si", "c'est à prendre ou à laisser", "marché conclu"],
+      "answer": 1,
+      "explain": "Je peux faire un effort si propone una concesión condicional."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "statement": "C'est à prendre ou à laisser expresa una postura firme, sin margen.",
+      "answer": true,
+      "explain": "C'est à prendre ou à laisser no deja espacio para negociar más."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "statement": "Rencontrons-nous à mi-chemin significa que uno de los dos debe ceder todo.",
+      "answer": false,
+      "explain": "Rencontrons-nous à mi-chemin propone que ambos cedan algo, a medio camino."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su fase de negociación",
+      "left": ["je vous propose", "je peux faire un effort si", "marché conclu", "c'est mon dernier mot"],
+      "right": ["proponer", "ceder", "cerrar el trato", "postura firme"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cada expresión corresponde a una fase de la negociación."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "Le propongo un precio más bajo. ¿Qué le parece?",
+      "accept": ["Je vous propose un prix plus bas. Qu'est-ce que vous en pensez ?"],
+      "hintWords": ["je vous propose un prix plus bas", "qu'est-ce que vous en pensez ?"],
+      "strictAccents": true,
+      "audio": "Je vous propose un prix plus bas. Qu'est-ce que vous en pensez ?",
+      "explain": "Je vous propose + qu'est-ce que vous en pensez ?"
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "Podríamos encontrar un término medio. Encontrémonos a medio camino."  ,
+      "accept": ["On pourrait trouver un compromis. Rencontrons-nous à mi-chemin"],
+      "hintWords": ["on pourrait trouver un compromis", "rencontrons-nous à mi-chemin"],
+      "strictAccents": true,
+      "audio": "On pourrait trouver un compromis. Rencontrons-nous à mi-chemin.",
+      "explain": "On pourrait trouver un compromis + rencontrons-nous à mi-chemin."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "Je peux faire un ___ si vous baissez le prix, et dans ce cas, ___.",
+      "blanks": [{ "accept": ["effort"] }, { "accept": ["marché conclu"] }],
+      "bank": ["effort", "marché conclu", "dernier mot"],
+      "explain": "Je peux faire un effort si + dans ce cas, marché conclu."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es mi última palabra»",
+      "tokens": ["mon dernier mot", "C'est"],
+      "answer": ["C'est", "mon dernier mot"],
+      "audio": "C'est mon dernier mot.",
+      "explain": "C'est mon dernier mot cierra la negociación con firmeza."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "Je vous propose un compromis : rencontrons-nous à mi-chemin, et dans ce cas, marché conclu.",
+      "accept": ["Le propongo un término medio: encontrémonos a medio camino, y en ese caso, trato hecho."],
+      "strictAccents": false,
+      "audio": "Je vous propose un compromis : rencontrons-nous à mi-chemin, et dans ce cas, marché conclu.",
+      "explain": "Una negociación completa hasta el acuerdo final."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación negociando un acuerdo",
+      "turns": [
+        { "who": "Léa", "text": "Le prix est trop élevé pour moi.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je peux faire un effort si vous prenez deux articles.", "On pourrait trouver un compromis."], "hint": "usa una fórmula de negociación" },
+        { "who": "Léa", "text": "D'accord, marché conclu !", "speak": true }
+      ],
+      "explain": "Repaso combinado de las fórmulas de negociación."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "speak": "Je vous propose un compromis, rencontrons-nous à mi-chemin, et dans ce cas, marché conclu.",
+      "mode": "write",
+      "accept": ["Je vous propose un compromis, rencontrons-nous à mi-chemin, et dans ce cas, marché conclu"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de las fórmulas de negociación."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["negociacion"],
+      "difficulty": 1,
+      "speak": "marché conclu",
+      "mode": "choose",
+      "options": ["c'est mon dernier mot", "marché conclu", "à prendre ou à laisser", "je vous propose"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Marché conclu cierra el trato."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["negociacion"],
+      "difficulty": 3,
+      "speak": "Je vous propose un compromis. Je peux faire un effort si vous baissez le prix. Rencontrons-nous à mi-chemin, et dans ce cas, marché conclu.",
+      "es": "Le propongo un término medio. Puedo hacer un esfuerzo si baja el precio. Encontrémonos a medio camino, y en ese caso, trato hecho.",
+      "ipa": "/ʒə vu pʁɔ.poz œ̃ kɔ̃.pʁɔ.mi ʒə pø fɛʁ œ̃.n‿e.fɔʁ si vu bɛ.se lə pʁi ʁɑ̃.kɔ̃.tʁɔ̃ nu a mi ʃə.mɛ̃ e dɑ̃ sə ka maʁ.ʃe kɔ̃.kly/",
+      "esApprox": "«ye vu pro-POZ un kon-pro-MÍ ye PÖ FER un-ne-FOR si vu be-SÉ le PRI ran-kon-TRON nu a mi she-MIN e dan se KA mar-SHÉ kon-KLÜ»",
+      "focus": "Una negociación completa: propuesta, concesión y cierre.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "Negocia algo (un precio, un horario, una tarea), usando al menos tres fórmulas de esta lección.",
+      "modelAnswer": "Je vous propose un compromis, et je peux faire un effort si vous acceptez ma proposition.",
+      "alsoValid": ["Rencontrons-nous à mi-chemin, et marché conclu."],
+      "speak": "Je vous propose un compromis, et je peux faire un effort si vous acceptez ma proposition.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "¿Es ceder o mantener una postura firme?",
+      "buckets": ["Ceder", "Postura firme"],
+      "items": [
+        { "text": "je peux faire un effort si", "bucket": 0 },
+        { "text": "c'est mon dernier mot", "bucket": 1 },
+        { "text": "rencontrons-nous à mi-chemin", "bucket": 0 },
+        { "text": "c'est à prendre ou à laisser", "bucket": 1 }
+      ],
+      "explain": "Je peux faire un effort si y rencontrons-nous à mi-chemin ceden; c'est mon dernier mot y c'est à prendre ou à laisser son firmes."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["negociacion"],
+      "difficulty": 2,
+      "prompt": "Hay un error: la expresión correcta es marché conclu, no marché fini. Corrige la frase entera.",
+      "wrong": "D'accord, marché fini !",
+      "accept": ["D'accord, marché conclu"],
+      "audio": "D'accord, marché conclu !",
+      "explain": "La expresión fija es marché conclu (trato hecho), no marché fini."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je vous propose", "es": "le propongo", "esApprox": "«ye vu pro-POZ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "c'est à prendre ou à laisser", "es": "lo toma o lo deja", "esApprox": "«se-ta PRANDR u a le-SÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "on pourrait trouver un compromis", "es": "podríamos encontrar un término medio", "esApprox": "«on pu-RE tru-VÉ un kon-pro-MÍ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "je peux faire un effort si", "es": "puedo hacer un esfuerzo si", "esApprox": "«ye PÖ FER un-ne-FOR si»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "c'est mon dernier mot", "es": "es mi última palabra", "esApprox": "«se mon der-NIÉ MO»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "dans ce cas, marché conclu", "es": "en ese caso, trato hecho", "esApprox": "«dan se KA mar-SHÉ kon-KLÜ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je vous propose un prix plus bas. Qu'est-ce que vous en pensez ?", "es": "Le propongo un precio más bajo. ¿Qué le parece?", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "On pourrait trouver un compromis. Rencontrons-nous à mi-chemin.", "es": "Podríamos encontrar un término medio. Encontrémonos a medio camino.", "from": "e7" }
+  ]
+}

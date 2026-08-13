@@ -1,0 +1,251 @@
+{
+  "id": "fr-b1-245",
+  "lang": "fr",
+  "level": "B1",
+  "order": 245,
+  "title": "Pronunciación general X: el habla muy rápida",
+  "objectives": [
+    "Reconocer las reducciones típicas del habla muy rápida (t'as, chuis, chais pas, y a)",
+    "Entender que estas reducciones son normales en el francés hablado, no errores",
+    "Distinguir cuándo son apropiadas (habla informal) y cuándo no (registro formal)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El francés que se come las palabras",
+      "body": "En el habla muy rápida y familiar, el francés reduce muchas palabras frecuentes casi hasta desaparecer. No hace falta que tú las uses al escribir, pero sí reconocerlas para entender a un francés hablando rápido."
+    },
+    {
+      "type": "phonetics",
+      "title": "Reducciones del habla rápida",
+      "drills": [
+        { "target": "t'as", "ipa": "/ta/", "esApprox": "«TA»", "hint": "reducción de tu as: t'as raison" },
+        { "target": "chuis", "ipa": "/ʃɥi/", "esApprox": "«SHÜÍ»", "hint": "reducción de je suis: chuis fatigué" },
+        { "target": "chais pas", "ipa": "/ʃɛ pa/", "esApprox": "«SHE pa»", "hint": "reducción de je (ne) sais pas: chais pas" },
+        { "target": "y a", "ipa": "/ja/", "esApprox": "«YA»", "hint": "reducción de il y a: y a du monde" },
+        { "target": "t'es", "ipa": "/tɛ/", "esApprox": "«TE»", "hint": "reducción de tu es: t'es sûr ?" },
+        { "target": "pasque", "ipa": "/pask/", "esApprox": "«PASK»", "hint": "reducción de parce que: pasque j'ai pas le temps" },
+        { "target": "j'vais", "ipa": "/ʒvɛ/", "esApprox": "«SHVE»", "hint": "reducción de je vais: j'vais rentrer" },
+        { "target": "faut", "ipa": "/fo/", "esApprox": "«FO»", "hint": "reducción de il faut: faut que j'y aille" }
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "No para escribir, sí para escuchar",
+      "body": "Estas reducciones son propias del habla informal muy rápida. En un registro formal (una carta, un correo, una entrevista), sigue usando las formas completas: je suis, no chuis."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "t'as", "es": "tú tienes (reducción de tu as)", "ipa": "/ta/", "esApprox": "«TA»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "chuis", "es": "yo soy/estoy (reducción de je suis)", "ipa": "/ʃɥi/", "esApprox": "«SHÜÍ»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "chais pas", "es": "no sé (reducción de je ne sais pas)", "ipa": "/ʃɛ pa/", "esApprox": "«SHE pa»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "y a", "es": "hay (reducción de il y a)", "ipa": "/ja/", "esApprox": "«YA»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "t'es", "es": "tú eres/estás (reducción de tu es)", "ipa": "/tɛ/", "esApprox": "«TE»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "pasque", "es": "porque (reducción de parce que)", "ipa": "/pask/", "esApprox": "«PASK»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "j'vais", "es": "voy (reducción de je vais)", "ipa": "/ʒvɛ/", "esApprox": "«SHVE»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "faut", "es": "hay que (reducción de il faut)", "ipa": "/fo/", "esApprox": "«FO»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «chais pas»?",
+      "options": ["je ne sais pas", "je crois que", "je pense que", "je veux dire"],
+      "answer": 0,
+      "explain": "Chais pas es la reducción muy informal de je ne sais pas."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «t'as»?",
+      "options": ["tu as", "tu es", "tu vas", "tu sais"],
+      "answer": 0,
+      "explain": "T'as es la reducción de tu as."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "statement": "Chuis es la contracción informal de je suis.",
+      "answer": true,
+      "explain": "Chuis se usa mucho en el habla rápida por je suis."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "statement": "«Y a» significa «il n'y a pas».",
+      "answer": false,
+      "explain": "Y a significa il y a (afirmativo), no la forma negativa."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "Une cada forma reducida con su forma estándar",
+      "left": ["t'as", "chuis", "pasque", "faut"],
+      "right": ["tu as", "je suis", "parce que", "il faut"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cada forma reducida corresponde a una expresión estándar."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "No sé, la verdad.",
+      "accept": ["Je ne sais pas, à vrai dire"],
+      "hintWords": ["je ne sais pas", "à vrai dire"],
+      "strictAccents": true,
+      "audio": "Je ne sais pas, à vrai dire.",
+      "explain": "Al escribir, usa siempre la forma estándar: je ne sais pas."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "Tienes razón, hay mucha gente.",
+      "accept": ["Tu as raison, il y a beaucoup de monde"],
+      "hintWords": ["tu as raison", "il y a beaucoup de monde"],
+      "strictAccents": true,
+      "audio": "Tu as raison, il y a beaucoup de monde.",
+      "explain": "Forma estándar: tu as + il y a, sin reducir."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "«T'as raison» en francés estándar es",
+      "text": "Tu ___ raison.",
+      "blanks": [{ "accept": ["as"] }],
+      "bank": ["as", "es", "vas"],
+      "explain": "T'as es la reducción de tu as."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "«Y a du monde» está reducido. Ordena su forma estándar",
+      "tokens": ["du monde", "Il y a"],
+      "answer": ["Il y a", "du monde"],
+      "audio": "Il y a du monde.",
+      "explain": "Y a (reducido) equivale a il y a (estándar)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "Chuis fatigué, j'ai pas envie de sortir.",
+      "accept": ["Estoy cansado, no tengo ganas de salir."],
+      "strictAccents": false,
+      "audio": "Chuis fatigué, j'ai pas envie de sortir.",
+      "explain": "Chuis = je suis, en el habla muy rápida."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación reconociendo el habla rápida",
+      "turns": [
+        { "who": "Léa", "text": "T'as vu l'heure qu'il est ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je sais, il est tard.", "Chais pas, j'ai pas regardé."], "hint": "reconoce la forma reducida t'as" },
+        { "who": "Léa", "text": "Faut qu'on y aille !", "speak": true }
+      ],
+      "explain": "Repaso combinado de las reducciones del habla rápida."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "speak": "Chuis pas sûr, mais chais pas, faut vérifier.",
+      "mode": "translate",
+      "accept": ["No estoy seguro, pero no sé, hay que comprobarlo."],
+      "showTextAfter": true,
+      "explain": "Reconocimiento de varias reducciones encadenadas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 1,
+      "speak": "t'as",
+      "mode": "choose",
+      "options": ["tu as", "tu es", "tu vas", "tu sais"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "T'as es la reducción de tu as."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 3,
+      "speak": "T'as vu ? Chuis crevé, chais pas ce qui se passe, mais faut que j'y aille.",
+      "es": "¿Has visto? Estoy reventado, no sé qué pasa, pero tengo que irme.",
+      "ipa": "/ta vy ʃɥi kʁə.ve ʃɛ pa sə ki sə pas mɛ fo kə ʒi aj/",
+      "esApprox": "«ta VÜ SHÜÍ kre-VÉ SHE pa se ki se PAS me FO ke shi AY»",
+      "focus": "Practica la pronunciación de las reducciones del habla rápida, aunque no las necesites para escribir.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "Alguien te dice «T'as pas vu mon téléphone ?». Explica qué te está preguntando, en francés estándar.",
+      "modelAnswer": "Il me demande si j'ai vu son téléphone.",
+      "alsoValid": ["Elle veut savoir où est son téléphone."],
+      "speak": "T'as pas vu mon téléphone ?",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "¿Es forma estándar o forma reducida (habla rápida)?",
+      "buckets": ["Forma estándar", "Forma reducida"],
+      "items": [
+        { "text": "tu as", "bucket": 0 },
+        { "text": "t'as", "bucket": 1 },
+        { "text": "il y a", "bucket": 0 },
+        { "text": "y a", "bucket": 1 }
+      ],
+      "explain": "Tu as e il y a son estándar; t'as e y a son reducciones del habla rápida."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronunciacion-general", "habla-rapida"],
+      "difficulty": 2,
+      "prompt": "Hay un error: en un registro formal no se usan reducciones como chuis. Corrige la frase entera.",
+      "wrong": "Cher Monsieur, chuis désolé du retard.",
+      "accept": ["Cher Monsieur, je suis désolé du retard"],
+      "audio": "Cher Monsieur, je suis désolé du retard.",
+      "explain": "En un registro formal (una carta, un correo), se usa je suis, no la reducción chuis."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "t'as", "es": "tú tienes (reducción de tu as)", "esApprox": "«TA»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "chuis", "es": "yo soy/estoy (reducción de je suis)", "esApprox": "«SHÜÍ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "chais pas", "es": "no sé (reducción de je ne sais pas)", "esApprox": "«SHE pa»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "y a", "es": "hay (reducción de il y a)", "esApprox": "«YA»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "pasque", "es": "porque (reducción de parce que)", "esApprox": "«PASK»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "faut", "es": "hay que (reducción de il faut)", "esApprox": "«FO»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je ne sais pas, à vrai dire.", "es": "No sé, la verdad.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Tu as raison, il y a beaucoup de monde.", "es": "Tienes razón, hay mucha gente.", "from": "e7" }
+  ]
+}
