@@ -1,0 +1,277 @@
+{
+  "id": "fr-b1-209",
+  "lang": "fr",
+  "level": "B1",
+  "order": 209,
+  "title": "El passé simple: reconocerlo al leer (sin usarlo tú)",
+  "objectives": [
+    "Entender que el passé simple es un tiempo literario, propio de novelas y textos escritos",
+    "Reconocer las formas más frecuentes de verbos irregulares (il fut, il eut, il dit, il vint, il fit)",
+    "Traducir frases con passé simple sin necesidad de usarlo tú mismo, ya que en el habla se usa el passé composé"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un tiempo que solo se lee",
+      "body": "El passé simple significa lo mismo que el passé composé, pero se usa solo en textos escritos: novelas, cuentos, textos históricos. Ningún francés lo usa al hablar. Tu objetivo hoy es reconocerlo al leer, no producirlo."
+    },
+    {
+      "type": "table",
+      "title": "Formas frecuentes e irregulares",
+      "headers": ["Passé simple", "Equivale a", "Infinitivo"],
+      "rows": [
+        ["il fut", "il a été", "être"],
+        ["il eut", "il a eu", "avoir"],
+        ["il dit", "il a dit", "dire"],
+        ["il vint", "il est venu", "venir"],
+        ["il fit", "il a fait", "faire"],
+        ["il parla", "il a parlé", "parler"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Pistas para reconocerlo",
+      "body": "Los verbos en -er suelen terminar en -a en il/elle (il parla). Muchos verbos irregulares frecuentes terminan en -ut (il eut, il put) o en -it (il dit, il fit)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il fut", "es": "fue, estuvo", "ipa": "/il fy/", "esApprox": "«il FÜ»", "pos": "verbo", "gender": null },
+    { "id": "v2", "target": "il eut", "es": "tuvo", "ipa": "/il y/", "esApprox": "«il Ü»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "il dit", "es": "dijo", "ipa": "/il di/", "esApprox": "«il DI»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "il vint", "es": "vino", "ipa": "/il vɛ̃/", "esApprox": "«il VIN»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "il fit", "es": "hizo", "ipa": "/il fi/", "esApprox": "«il FI»", "pos": "verbo", "gender": null },
+    { "id": "v6", "target": "il parla", "es": "habló", "ipa": "/il paʁ.la/", "esApprox": "«il par-LA»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "il put", "es": "pudo", "ipa": "/il py/", "esApprox": "«il PÜ»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "il alla", "es": "fue, se fue", "ipa": "/i.l‿a.la/", "esApprox": "«il-a-LA»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "¿Qué es el passé simple?",
+      "options": ["un tiempo que se usa mucho al hablar", "un tiempo literario que solo se usa en textos escritos", "un tiempo de futuro", "un modo como el subjonctif"],
+      "answer": 1,
+      "explain": "El passé simple es propio de textos escritos, nunca del habla."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «il fut»?",
+      "options": ["él es", "él fue/estuvo", "él será", "él sería"],
+      "answer": 1,
+      "explain": "Il fut equivale a il a été (passé composé)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "statement": "El passé simple se usa en la conversación cotidiana.",
+      "answer": false,
+      "explain": "En la conversación cotidiana se usa el passé composé, no el passé simple."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "statement": "Il vint es el passé simple de venir.",
+      "answer": true,
+      "explain": "Il vint equivale a il est venu."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Une cada forma de passé simple con su equivalente en passé composé",
+      "left": ["il fut", "il eut", "il dit", "il vint"],
+      "right": ["il a été", "il a eu", "il a dit", "il est venu"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Il fut = il a été, il eut = il a eu, il dit = il a dit, il vint = il est venu."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_es",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Il parla longtemps avec elle, puis il partit.",
+      "accept": ["Habló mucho tiempo con ella, y luego se fue."],
+      "strictAccents": false,
+      "audio": "Il parla longtemps avec elle, puis il partit.",
+      "explain": "Il parla = habló, il partit = se fue, ambos en passé simple."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_es",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Le roi eut un fils, et le peuple fut heureux.",
+      "accept": ["El rey tuvo un hijo, y el pueblo fue feliz."],
+      "strictAccents": false,
+      "audio": "Le roi eut un fils, et le peuple fut heureux.",
+      "explain": "Il eut = tuvo, il fut = fue, típicos de un cuento."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Il dit «bonjour» está en passé simple. Complétalo en passé composé, como lo dirías al hablar",
+      "text": "Il ___ «bonjour» quand il est entré dans la pièce.",
+      "blanks": [{ "accept": ["a dit"] }],
+      "bank": ["a dit", "dira", "disait"],
+      "explain": "Il dit (passé simple) equivale a il a dit (passé composé), lo que usarías al hablar."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "«Il fit beau ce jour-là» está en passé simple. Ordena su versión en passé composé",
+      "tokens": ["beau ce jour-là", "Il a fait"],
+      "answer": ["Il a fait", "beau ce jour-là"],
+      "audio": "Il a fait beau ce jour-là.",
+      "explain": "Il fit (passé simple) equivale a il a fait (passé composé)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Il vint la voir, il lui dit la vérité, et elle fut très surprise.",
+      "accept": ["Vino a verla, le dijo la verdad, y ella se quedó muy sorprendida."],
+      "strictAccents": false,
+      "audio": "Il vint la voir, il lui dit la vérité, et elle fut très surprise.",
+      "explain": "Tres formas de passé simple encadenadas: vint, dit, fut."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando lo que significa un texto antiguo",
+      "turns": [
+        { "who": "Léa", "text": "Tu comprends ce texte ancien ? Il y a écrit «il fut».", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, «il fut» ça veut dire «il a été».", "Oui, je reconnais le passé simple, mais je ne l'utilise pas quand je parle."], "hint": "explica qué significa una forma en passé simple" },
+        { "who": "Léa", "text": "Ah, d'accord, merci !", "speak": true }
+      ],
+      "explain": "Explicar el passé simple usando passé composé, como se hace en una conversación real."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "speak": "Il vint la voir, et il lui dit la vérité.",
+      "mode": "translate",
+      "accept": ["Vino a verla, y le dijo la verdad."],
+      "showTextAfter": true,
+      "explain": "Reconocimiento auditivo del passé simple, traducido al español."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 1,
+      "speak": "il fut",
+      "mode": "choose",
+      "options": ["il a été", "il a eu", "il a fait", "il a dit"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Il fut equivale a il a été."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 3,
+      "speak": "Il était une fois un roi qui eut trois fils. Un jour, il les appela et leur dit qu'il partait en voyage.",
+      "es": "Érase una vez un rey que tuvo tres hijos. Un día, los llamó y les dijo que se iba de viaje.",
+      "ipa": "/i.l‿e.tɛ.t‿yn fwa œ̃ ʁwa ki y tʁwa fis œ̃ ʒuʁ i.l‿le.z‿a.pə.la e lœʁ di kil paʁ.tɛ ɑ̃ vwa.jaʒ/",
+      "esApprox": "«il-e-TE-tün fuá un RUÁ ki Ü truá FIS un YUR il-le-za-pe-LA e LÖR di kil par-TE an vuá-YAJ»",
+      "focus": "Practica la pronunciación de un texto literario con passé simple, un tiempo que solo reconocerás al leer.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Explica en passé composé qué crees que significa esta frase en passé simple: «Il fut le premier à arriver».",
+      "modelAnswer": "Ça veut dire qu'il a été le premier à arriver.",
+      "alsoValid": ["Ça veut dire qu'il est arrivé en premier."],
+      "speak": "Il fut le premier à arriver.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "conjugation",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "verb": "dire",
+      "tense": "passé composé",
+      "prompt": "Conjuga «dire» en passé composé (lo que dirías al hablar, no el passé simple)",
+      "rows": [
+        { "person": "j'", "accept": ["ai dit"] },
+        { "person": "tu", "accept": ["as dit"] },
+        { "person": "il / elle", "accept": ["a dit"] },
+        { "person": "nous", "accept": ["avons dit"] },
+        { "person": "vous", "accept": ["avez dit"] },
+        { "person": "ils / elles", "accept": ["ont dit"] }
+      ],
+      "explain": "Al hablar, dire se conjuga en passé composé, no en passé simple."
+    },
+    {
+      "id": "e19",
+      "type": "word_order",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "«Elle fut heureuse» está en passé simple. Ordena su versión hablada",
+      "tokens": ["heureuse", "Elle a été"],
+      "answer": ["Elle a été", "heureuse"],
+      "audio": "Elle a été heureuse.",
+      "explain": "Elle fut (passé simple) equivale a elle a été (passé composé)."
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "¿Es passé simple (lectura) o passé composé (uso diario)?",
+      "buckets": ["Passé simple (lectura)", "Passé composé (uso diario)"],
+      "items": [
+        { "text": "il fut", "bucket": 0 },
+        { "text": "il a été", "bucket": 1 },
+        { "text": "il vint", "bucket": 0 },
+        { "text": "il est venu", "bucket": 1 }
+      ],
+      "explain": "Il fut e il vint son passé simple (solo lectura); il a été e il est venu son passé composé (uso diario)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Hay un error: al hablar se usa el passé composé, no el passé simple. Corrige la frase entera.",
+      "wrong": "Hier soir, je mangeai au restaurant avec mes amis.",
+      "accept": ["Hier soir, j'ai mangé au restaurant avec mes amis"],
+      "audio": "Hier soir, j'ai mangé au restaurant avec mes amis.",
+      "explain": "El passé simple no se usa al hablar; en la conversación cotidiana se usa el passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il fut", "es": "fue, estuvo", "esApprox": "«il FÜ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "il eut", "es": "tuvo", "esApprox": "«il Ü»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "il dit", "es": "dijo", "esApprox": "«il DI»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "il vint", "es": "vino", "esApprox": "«il VIN»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "il fit", "es": "hizo", "esApprox": "«il FI»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "il parla", "es": "habló", "esApprox": "«il par-LA»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Il parla longtemps avec elle, puis il partit.", "es": "Habló mucho tiempo con ella, y luego se fue.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Le roi eut un fils, et le peuple fut heureux.", "es": "El rey tuvo un hijo, y el pueblo fue feliz.", "from": "e7" }
+  ]
+}

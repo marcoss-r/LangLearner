@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-213",
+  "lang": "fr",
+  "level": "B1",
+  "order": 213,
+  "title": "Cuenta la historia de tu vida en cinco minutos",
+  "objectives": [
+    "Usar je suis né(e) à, j'ai grandi à y quand j'étais enfant para empezar una biografía",
+    "Usar après avoir + participio (infinitif passé) para encadenar etapas de la vida",
+    "Practicar un relato biográfico corto, combinando todos los tiempos del pasado"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El relato biográfico",
+      "body": "Contar tu vida en cinco minutos combina todo lo que sabes: imparfait para el fondo, passé composé para los hitos, plus-que-parfait para lo anterior, y el infinitif passé (après avoir + participio) para encadenar etapas."
+    },
+    {
+      "type": "table",
+      "title": "Marcadores biográficos",
+      "headers": ["Etapa", "Expresión"],
+      "rows": [
+        ["nacimiento", "je suis né(e) à"],
+        ["infancia", "j'ai grandi à, quand j'étais enfant"],
+        ["etapas encadenadas", "après avoir terminé mes études"],
+        ["presente", "aujourd'hui"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Selecciona los momentos clave",
+      "body": "No hace falta contarlo todo: elige dos o tres momentos clave (mon plus grand souvenir, ce qui m'a le plus marqué) y narra el resto brevemente."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je suis né(e) à", "es": "nací en", "ipa": "/ʒə sɥi ne a/", "esApprox": "«ye süí NÉ a»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "j'ai grandi à", "es": "crecí en", "ipa": "/ʒe gʁɑ̃.di a/", "esApprox": "«ye gran-DÍ a»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "quand j'étais enfant", "es": "cuando era niño/a", "ipa": "/kɑ̃ ʒe.tɛ.z‿ɑ̃.fɑ̃/", "esApprox": "«kan ye-TE-zan-FAN»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "plus tard", "es": "más tarde", "ipa": "/ply taʁ/", "esApprox": "«plü TAR»", "pos": "adverbio", "gender": null },
+    { "id": "v5", "target": "après avoir terminé mes études", "es": "después de terminar mis estudios", "ipa": "/a.pʁɛ.z‿a.vwaʁ tɛʁ.mi.ne me.z‿e.tyd/", "esApprox": "«a-pre-za-VUÁR ter-mi-NÉ me-ze-TÜD»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "aujourd'hui", "es": "hoy en día", "ipa": "/o.ʒuʁ.dɥi/", "esApprox": "«o-shur-DÜÍ»", "pos": "adverbio", "gender": null },
+    { "id": "v7", "target": "mon plus grand souvenir", "es": "mi mejor recuerdo", "ipa": "/mɔ̃ ply gʁɑ̃ su.və.niʁ/", "esApprox": "«mon plü GRAN su-ve-NIR»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "ce qui m'a le plus marqué", "es": "lo que más me marcó", "ipa": "/sə ki ma lə ply maʁ.ke/", "esApprox": "«se ki ma le plü mar-KÉ»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo empiezas una biografía diciendo dónde naciste?",
+      "options": ["J'ai grandi à...", "Je suis né(e) à...", "Aujourd'hui...", "Plus tard..."],
+      "answer": 1,
+      "explain": "Je suis né(e) à es la fórmula típica para empezar una biografía."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo encadenas dos etapas de tu vida (mismo sujeto)?",
+      "options": ["après je termine mes études", "après avoir terminé mes études", "après que je termine mes études", "après terminer mes études"],
+      "answer": 1,
+      "explain": "Après avoir + participio (infinitif passé) encadena etapas con el mismo sujeto."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "statement": "Quand j'étais enfant suele ir seguido de imparfait.",
+      "answer": true,
+      "explain": "Describe hábitos o situaciones de la infancia: imparfait."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "statement": "Una buena biografía de cinco minutos cuenta todos los detalles posibles.",
+      "answer": false,
+      "explain": "Es mejor seleccionar dos o tres momentos clave que contarlo todo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su etapa",
+      "left": ["je suis né(e) à", "quand j'étais enfant", "après avoir terminé mes études", "aujourd'hui"],
+      "right": ["presente", "nacimiento", "infancia", "etapa encadenada"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Je suis né(e) à = nacimiento, quand j'étais enfant = infancia, après avoir terminé = etapa encadenada, aujourd'hui = presente."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Nací en Madrid, y crecí en un pueblo pequeño.",
+      "accept": ["Je suis né(e) à Madrid, et j'ai grandi dans un petit village"],
+      "hintWords": ["je suis né(e) à Madrid", "et j'ai grandi dans un petit village"],
+      "strictAccents": true,
+      "audio": "Je suis né(e) à Madrid, et j'ai grandi dans un petit village.",
+      "explain": "Dos hitos biográficos encadenados con passé composé."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Después de terminar mis estudios, encontré trabajo, y hoy en día vivo en París.",
+      "accept": ["Après avoir terminé mes études, j'ai trouvé un travail, et aujourd'hui j'habite à Paris"],
+      "hintWords": ["après avoir terminé mes études, j'ai trouvé un travail", "et aujourd'hui j'habite à Paris"],
+      "strictAccents": true,
+      "audio": "Après avoir terminé mes études, j'ai trouvé un travail, et aujourd'hui j'habite à Paris.",
+      "explain": "Infinitif passé (après avoir terminé) encadenando etapas con el mismo sujeto."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Quand j'___ enfant, je voulais être médecin. ___, j'ai changé d'avis.",
+      "blanks": [{ "accept": ["étais"] }, { "accept": ["Plus tard"] }],
+      "bank": ["étais", "Plus tard", "aujourd'hui"],
+      "explain": "Quand j'étais enfant (imparfait) + plus tard (avance en el tiempo)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Lo que más me marcó fue mi primer viaje»",
+      "tokens": ["c'est mon premier voyage", "Ce qui m'a le plus marqué,"],
+      "answer": ["Ce qui m'a le plus marqué,", "c'est mon premier voyage"],
+      "audio": "Ce qui m'a le plus marqué, c'est mon premier voyage.",
+      "explain": "Ce qui m'a le plus marqué destaca un momento clave de la biografía."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Je suis né à Lyon, j'ai grandi dans un petit village, et après avoir terminé mes études, j'ai déménagé à Paris. Aujourd'hui, je suis heureux.",
+      "accept": ["Nací en Lyon, crecí en un pueblo pequeño, y después de terminar mis estudios, me mudé a París. Hoy en día, soy feliz."],
+      "strictAccents": false,
+      "audio": "Je suis né à Lyon, j'ai grandi dans un petit village, et après avoir terminé mes études, j'ai déménagé à Paris. Aujourd'hui, je suis heureux.",
+      "explain": "Una biografía corta completa, de principio a fin."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación contando tu biografía",
+      "turns": [
+        { "who": "Léa", "text": "Raconte-moi ta vie en quelques mots.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je suis né(e) à Madrid, et j'ai grandi dans un petit village.", "Après avoir terminé mes études, j'ai trouvé un travail."], "hint": "usa los marcadores biográficos" },
+        { "who": "Léa", "text": "Quelle belle histoire !", "speak": true }
+      ],
+      "explain": "Repaso combinado del relato biográfico."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "speak": "Je suis né à Lyon, j'ai grandi dans un petit village, et après avoir terminé mes études, j'ai déménagé à Paris.",
+      "mode": "write",
+      "accept": ["Je suis né à Lyon, j'ai grandi dans un petit village, et après avoir terminé mes études, j'ai déménagé à Paris"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del relato biográfico."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["narracion"],
+      "difficulty": 1,
+      "speak": "quand j'étais enfant",
+      "mode": "choose",
+      "options": ["je suis né", "quand j'étais enfant", "aujourd'hui", "plus tard"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Quand j'étais enfant introduce la infancia, con imparfait."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["narracion"],
+      "difficulty": 3,
+      "speak": "Je suis né à Lyon. Quand j'étais enfant, je voulais être médecin. Après avoir terminé mes études, j'ai trouvé un travail, et aujourd'hui, je suis heureux.",
+      "es": "Nací en Lyon. Cuando era niño, quería ser médico. Después de terminar mis estudios, encontré trabajo, y hoy en día, soy feliz.",
+      "ipa": "/ʒə sɥi ne a ljɔ̃ kɑ̃ ʒe.tɛ.z‿ɑ̃.fɑ̃ ʒə vu.lɛ ɛtʁ me.dsɛ̃ a.pʁɛ.z‿a.vwaʁ tɛʁ.mi.ne me.z‿e.tyd ʒe tʁu.ve œ̃ tʁa.vaj e o.ʒuʁ.dɥi ʒə sɥi ø.ʁø/",
+      "esApprox": "«ye süí NÉ a li-ON kan ye-TE-zan-FAN ye vu-LE etr me-de-SIN a-pre-za-VUÁR ter-mi-NÉ me-ze-TÜD ye tru-VÉ un tra-VAY e o-shur-DÜÍ ye süí ö-RÖ»",
+      "focus": "Una biografía corta completa, de la infancia al presente.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Cuenta la historia de tu vida en pocas frases: nacimiento, infancia, un momento clave, y presente.",
+      "modelAnswer": "Je suis né(e) à Madrid, j'ai grandi dans un petit village, et après avoir terminé mes études, j'ai déménagé. Aujourd'hui, je suis heureux/heureuse.",
+      "alsoValid": ["Ce qui m'a le plus marqué, c'est mon premier voyage à l'étranger."],
+      "speak": "Je suis né(e) à Madrid, j'ai grandi dans un petit village, et après avoir terminé mes études, j'ai déménagé. Aujourd'hui, je suis heureux.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "¿Es pasado o presente?",
+      "buckets": ["Pasado", "Presente"],
+      "items": [
+        { "text": "je suis né(e) à", "bucket": 0 },
+        { "text": "aujourd'hui", "bucket": 1 },
+        { "text": "quand j'étais enfant", "bucket": 0 },
+        { "text": "je suis heureux", "bucket": 1 }
+      ],
+      "explain": "Je suis né(e) à y quand j'étais enfant son pasado; aujourd'hui y je suis heureux son presente."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Hay un error: mismo sujeto exige après avoir + participio, no après que. Corrige la frase entera.",
+      "wrong": "Après que j'ai terminé mes études, j'ai trouvé un travail.",
+      "accept": ["Après avoir terminé mes études, j'ai trouvé un travail"],
+      "audio": "Après avoir terminé mes études, j'ai trouvé un travail.",
+      "explain": "Mismo sujeto: après avoir + participio (infinitif passé), no après que + verbo conjugado."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je suis né(e) à", "es": "nací en", "esApprox": "«ye süí NÉ a»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'ai grandi à", "es": "crecí en", "esApprox": "«ye gran-DÍ a»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "quand j'étais enfant", "es": "cuando era niño/a", "esApprox": "«kan ye-TE-zan-FAN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "plus tard", "es": "más tarde", "esApprox": "«plü TAR»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "après avoir terminé mes études", "es": "después de terminar mis estudios", "esApprox": "«a-pre-za-VUÁR ter-mi-NÉ me-ze-TÜD»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "ce qui m'a le plus marqué", "es": "lo que más me marcó", "esApprox": "«se ki ma le plü mar-KÉ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je suis né(e) à Madrid, et j'ai grandi dans un petit village.", "es": "Nací en Madrid, y crecí en un pueblo pequeño.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Après avoir terminé mes études, j'ai trouvé un travail, et aujourd'hui j'habite à Paris.", "es": "Después de terminar mis estudios, encontré trabajo, y hoy en día vivo en París.", "from": "e7" }
+  ]
+}

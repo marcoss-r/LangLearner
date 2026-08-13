@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-215",
+  "lang": "fr",
+  "level": "B1",
+  "order": 215,
+  "title": "El discurso indirecto en presente: decir lo que alguien dijo",
+  "objectives": [
+    "Transformar afirmaciones directas en indirectas con que, cuando el verbo introductorio está en presente",
+    "Transformar preguntas directas en indirectas con si, ce que o ce qui",
+    "Transformar órdenes directas en indirectas con de + infinitivo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Contar lo que alguien dijo",
+      "body": "Cuando el verbo introductorio está en presente (il dit que...), los tiempos no cambian: solo cambian los pronombres y posesivos (je → il, mon → son). Las preguntas y órdenes también cambian de estructura."
+    },
+    {
+      "type": "table",
+      "title": "Transformaciones del discurso indirecto",
+      "headers": ["Tipo", "Estructura", "Ejemplo"],
+      "rows": [
+        ["afirmación", "que + indicativo", "il dit qu'il est fatigué"],
+        ["pregunta sí/no", "si + indicativo", "il demande si je viens"],
+        ["pregunta con qué (COD)", "ce que + indicativo", "il demande ce que je fais"],
+        ["pregunta con qué (sujeto)", "ce qui + indicativo", "il demande ce qui se passe"],
+        ["orden", "de + infinitivo", "il me dit de venir"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Cambian los pronombres, no los tiempos",
+      "body": "«Je suis fatigué» → il dit qu'il est fatigué: el tiempo (présent) no cambia, porque dit está en presente. Solo cambian je → il y los posesivos correspondientes."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il dit que", "es": "dice que", "ipa": "/il di kə/", "esApprox": "«il DI ke»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "il demande si", "es": "pregunta si", "ipa": "/il də.mɑ̃d si/", "esApprox": "«il de-MAND si»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "il demande ce que", "es": "pregunta qué, lo que", "ipa": "/il də.mɑ̃d sə kə/", "esApprox": "«il de-MAND se ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "il demande ce qui", "es": "pregunta qué, lo que (sujeto)", "ipa": "/il də.mɑ̃d sə ki/", "esApprox": "«il de-MAND se ki»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "il me dit de", "es": "me dice que (+ infinitivo)", "ipa": "/il mə di də/", "esApprox": "«il me DI de»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "elle répond que", "es": "ella responde que", "ipa": "/ɛl ʁe.pɔ̃ kə/", "esApprox": "«el re-PON ke»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "ils expliquent que", "es": "ellos explican que", "ipa": "/il.z‿ɛks.plik kə/", "esApprox": "«il-zeks-PLIK ke»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "il ajoute que", "es": "él añade que", "ipa": "/i.l‿a.ʒut kə/", "esApprox": "«il a-SHUT ke»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "¿Cómo reportas «Je suis fatigué» con dire?",
+      "options": ["Il dit je suis fatigué.", "Il dit qu'il est fatigué.", "Il dit qu'il suis fatigué.", "Il dit être fatigué."],
+      "answer": 1,
+      "explain": "Je suis fatigué → il dit qu'il est fatigué: cambia el pronombre, no el tiempo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "¿Cómo reportas la pregunta «Tu viens ?»?",
+      "options": ["Il demande que tu viens.", "Il demande si je viens.", "Il demande tu viens.", "Il demande que je viens."],
+      "answer": 1,
+      "explain": "Una pregunta de sí o no se reporta con si."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "statement": "Qu'est-ce que tu fais ? se convierte en il demande ce que je fais.",
+      "answer": true,
+      "explain": "Qu'est-ce que (complemento) se convierte en ce que en el discurso indirecto."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "statement": "Una orden como «Viens !» se reporta con que + subjonctif.",
+      "answer": false,
+      "explain": "Una orden se reporta con de + infinitivo: il me dit de venir."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Une cada tipo con su estructura",
+      "left": ["afirmación", "pregunta sí/no", "pregunta con qué (COD)", "orden"],
+      "right": ["que", "si", "ce que", "de + infinitivo"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Afirmación = que, pregunta sí/no = si, pregunta con qué (COD) = ce que, orden = de + infinitivo."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Dice que está cansado y que quiere descansar.",
+      "accept": ["Il dit qu'il est fatigué et qu'il veut se reposer"],
+      "hintWords": ["il dit qu'il est fatigué", "et qu'il veut se reposer"],
+      "strictAccents": true,
+      "audio": "Il dit qu'il est fatigué et qu'il veut se reposer.",
+      "explain": "Dos afirmaciones reportadas con que."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Me pregunta si vengo y qué voy a hacer.",
+      "accept": ["Il me demande si je viens et ce que je vais faire"],
+      "hintWords": ["il me demande si je viens", "et ce que je vais faire"],
+      "strictAccents": true,
+      "audio": "Il me demande si je viens et ce que je vais faire.",
+      "explain": "Pregunta sí/no (si) + pregunta con qué (ce que)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Il demande ___ je viens, et il demande ___ je fais ce week-end.",
+      "blanks": [{ "accept": ["si"] }, { "accept": ["ce que"] }],
+      "bank": ["si", "ce que", "que"],
+      "explain": "Si (pregunta sí/no) y ce que (pregunta con qué)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Me dice que venga»",
+      "tokens": ["de venir", "Il me dit"],
+      "answer": ["Il me dit", "de venir"],
+      "audio": "Il me dit de venir.",
+      "explain": "Orden reportada: de + infinitivo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Elle répond qu'elle est d'accord, et elle ajoute qu'elle viendra demain.",
+      "accept": ["Responde que está de acuerdo, y añade que vendrá mañana."],
+      "strictAccents": false,
+      "audio": "Elle répond qu'elle est d'accord, et elle ajoute qu'elle viendra demain.",
+      "explain": "Dos afirmaciones reportadas encadenadas: répond que y ajoute que."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación reportando lo que dijo alguien",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce qu'il a dit ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il dit qu'il est fatigué.", "Il demande si tu viens."], "hint": "usa el discurso indirecto" },
+        { "who": "Léa", "text": "Ah, d'accord.", "speak": true }
+      ],
+      "explain": "Repaso combinado del discurso indirecto en presente."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "speak": "Il dit qu'il est fatigué, et il demande si je viens ce soir.",
+      "mode": "write",
+      "accept": ["Il dit qu'il est fatigué, et il demande si je viens ce soir"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de afirmación y pregunta reportadas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 1,
+      "speak": "il demande ce que",
+      "mode": "choose",
+      "options": ["il dit que", "il demande si", "il demande ce que", "il me dit de"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Il demande ce que reporta una pregunta con qué (complemento)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 3,
+      "speak": "Il dit qu'il est fatigué, il demande si je viens, et il me dit de l'appeler plus tard.",
+      "es": "Dice que está cansado, pregunta si vengo, y me dice que lo llame más tarde.",
+      "ipa": "/il di kil ɛ fa.ti.ge il də.mɑ̃d si ʒə vjɛ̃ e il mə di də la.pə.le ply taʁ/",
+      "esApprox": "«il DI kil e fa-ti-GÉ il de-MAND si ye VIEN e il me DI de la-pe-LÉ plü TAR»",
+      "focus": "Afirmación, pregunta y orden reportadas en una sola narración.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Reporta algo que alguien te dijo, usando il dit que, il demande si o il me dit de.",
+      "modelAnswer": "Il dit qu'il est fatigué, et il me dit de l'appeler plus tard.",
+      "alsoValid": ["Il demande si je viens ce soir."],
+      "speak": "Il dit qu'il est fatigué, et il me dit de l'appeler plus tard.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "¿Es una afirmación (que) o una pregunta (si/ce que)?",
+      "buckets": ["Afirmación", "Pregunta"],
+      "items": [
+        { "text": "il dit que", "bucket": 0 },
+        { "text": "il demande si", "bucket": 1 },
+        { "text": "elle répond que", "bucket": 0 },
+        { "text": "il demande ce que", "bucket": 1 }
+      ],
+      "explain": "Il dit que y elle répond que son afirmaciones; il demande si e il demande ce que son preguntas reportadas."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Hay un error: una pregunta de sí o no se reporta con si, no con que. Corrige la frase entera.",
+      "wrong": "Il demande que je viens.",
+      "accept": ["Il demande si je viens"],
+      "audio": "Il demande si je viens.",
+      "explain": "Una pregunta de sí o no exige si en el discurso indirecto, no que."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il dit que", "es": "dice que", "esApprox": "«il DI ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "il demande si", "es": "pregunta si", "esApprox": "«il de-MAND si»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "il demande ce que", "es": "pregunta qué, lo que", "esApprox": "«il de-MAND se ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "il demande ce qui", "es": "pregunta qué, lo que (sujeto)", "esApprox": "«il de-MAND se ki»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "il me dit de", "es": "me dice que (+ infinitivo)", "esApprox": "«il me DI de»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "il ajoute que", "es": "él añade que", "esApprox": "«il a-SHUT ke»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Il dit qu'il est fatigué et qu'il veut se reposer.", "es": "Dice que está cansado y que quiere descansar.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Il me demande si je viens et ce que je vais faire.", "es": "Me pregunta si vengo y qué voy a hacer.", "from": "e7" }
+  ]
+}

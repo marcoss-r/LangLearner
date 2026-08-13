@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-214",
+  "lang": "fr",
+  "level": "B1",
+  "order": 214,
+  "title": "La voz pasiva: formación y cuándo usarla",
+  "objectives": [
+    "Formar la voz pasiva: être + participio pasado, con concordancia de género y número",
+    "Usar la voz pasiva en presente, passé composé, imparfait y futur",
+    "Reconocer cuándo el francés prefiere on en lugar de la voz pasiva"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuando el sujeto recibe la acción",
+      "body": "La voz pasiva se forma con être + participio pasado, que concuerda en género y número con el sujeto. El agente (quien hace la acción) se introduce con par, y es opcional."
+    },
+    {
+      "type": "table",
+      "title": "La voz pasiva en distintos tiempos",
+      "headers": ["Tiempo", "Ejemplo"],
+      "rows": [
+        ["présent", "la maison est construite"],
+        ["passé composé", "la maison a été construite"],
+        ["imparfait", "la maison était construite"],
+        ["futur", "la maison sera construite"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "On es más frecuente en el habla",
+      "body": "En francés hablado, on a mangé le gâteau es mucho más natural que le gâteau a été mangé. La voz pasiva se usa más en textos escritos, noticias, o cuando no importa quién hizo la acción."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la maison est construite", "es": "la casa está construida", "ipa": "/la mɛ.zɔ̃ ɛ kɔ̃s.tʁɥit/", "esApprox": "«la me-ZÓN e kons-TRÜÍT»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "la maison a été construite", "es": "la casa fue construida", "ipa": "/la mɛ.zɔ̃ a e.te kɔ̃s.tʁɥit/", "esApprox": "«la me-ZÓN a e-TÉ kons-TRÜÍT»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "la lettre a été envoyée", "es": "la carta fue enviada", "ipa": "/la lɛtʁ a e.te ɑ̃.vwa.je/", "esApprox": "«la LETR a e-TÉ an-vuá-YÉ»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "le livre a été écrit par...", "es": "el libro fue escrito por...", "ipa": "/lə livʁ a e.te e.kʁi paʁ/", "esApprox": "«le LIVR a e-TÉ e-KRÍ par»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "les fleurs sont arrosées tous les jours", "es": "las flores se riegan todos los días", "ipa": "/le flœʁ sɔ̃.t‿a.ʁo.ze tu le ʒuʁ/", "esApprox": "«le FLÖR son-ta-ro-ZÉ tu le YUR»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "le problème sera résolu", "es": "el problema será resuelto", "ipa": "/lə pʁɔ.blɛm sə.ʁa ʁe.zɔ.ly/", "esApprox": "«le pro-BLEM se-RA re-zo-LÜ»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "la porte a été fermée", "es": "la puerta fue cerrada", "ipa": "/la pɔʁt a e.te fɛʁ.me/", "esApprox": "«la PORT a e-TÉ fer-MÉ»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "par", "es": "por", "ipa": "/paʁ/", "esApprox": "«PAR»", "pos": "preposición", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se forma la voz pasiva?",
+      "options": ["avoir + participio", "être + participio", "être + infinitivo", "avoir + infinitivo"],
+      "answer": 1,
+      "explain": "La voz pasiva se forma con être + participio pasado."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «el libro fue escrito por Victor Hugo»?",
+      "options": ["Le livre a écrit Victor Hugo.", "Le livre a été écrit par Victor Hugo.", "Le livre était écrit Victor Hugo.", "Le livre est écrit de Victor Hugo."],
+      "answer": 1,
+      "explain": "Passé composé pasivo: a été écrit, con el agente introducido por par."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "statement": "El participio pasado concuerda en género y número con el sujeto en la voz pasiva.",
+      "answer": true,
+      "explain": "La maison a été construite: construite concuerda con la maison (femenino)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "statement": "En francés hablado, se prefiere siempre la voz pasiva sobre on.",
+      "answer": false,
+      "explain": "En el habla, on es mucho más frecuente que la voz pasiva."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "Une cada tiempo con su forma pasiva",
+      "left": ["présent", "passé composé", "imparfait", "futur"],
+      "right": ["la maison est construite", "la maison a été construite", "la maison était construite", "la maison sera construite"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cada tiempo cambia solo el auxiliar être; el participio se mantiene."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "La carta fue enviada ayer por la mañana.",
+      "accept": ["La lettre a été envoyée hier matin"],
+      "hintWords": ["la lettre a été envoyée", "hier matin"],
+      "strictAccents": true,
+      "audio": "La lettre a été envoyée hier matin.",
+      "explain": "Passé composé pasivo: a été envoyée."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "Las flores se riegan todos los días.",
+      "accept": ["Les fleurs sont arrosées tous les jours"],
+      "hintWords": ["les fleurs sont arrosées", "tous les jours"],
+      "strictAccents": true,
+      "audio": "Les fleurs sont arrosées tous les jours.",
+      "explain": "Présent pasivo: sont arrosées."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "La porte ___ fermée par le gardien, et le problème ___ résolu bientôt.",
+      "blanks": [{ "accept": ["a été"] }, { "accept": ["sera"] }],
+      "bank": ["a été", "sera", "est"],
+      "explain": "Passé composé pasivo (a été fermée) y futur pasivo (sera résolu)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El libro fue escrito por Victor Hugo»",
+      "tokens": ["par Victor Hugo", "Le livre a été écrit"],
+      "answer": ["Le livre a été écrit", "par Victor Hugo"],
+      "audio": "Le livre a été écrit par Victor Hugo.",
+      "explain": "Voz pasiva con agente introducido por par."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "La maison a été construite en 1900, et elle est habitée aujourd'hui par une famille nombreuse.",
+      "accept": ["La casa fue construida en 1900, y está habitada hoy en día por una familia numerosa."],
+      "strictAccents": false,
+      "audio": "La maison a été construite en 1900, et elle est habitée aujourd'hui par une famille nombreuse.",
+      "explain": "Passé composé pasivo y présent pasivo combinados."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación usando la voz pasiva",
+      "turns": [
+        { "who": "Léa", "text": "Qui a écrit ce livre ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il a été écrit par Victor Hugo.", "Ce livre a été écrit il y a longtemps."], "hint": "usa la voz pasiva" },
+        { "who": "Léa", "text": "Ah, je ne savais pas !", "speak": true }
+      ],
+      "explain": "Repaso combinado de la voz pasiva."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "speak": "La lettre a été envoyée hier, et le problème sera résolu bientôt.",
+      "mode": "write",
+      "accept": ["La lettre a été envoyée hier, et le problème sera résolu bientôt"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de la voz pasiva en distintos tiempos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["voz-pasiva"],
+      "difficulty": 1,
+      "speak": "a été construite",
+      "mode": "choose",
+      "options": ["est construite", "a été construite", "était construite", "sera construite"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "A été construite es la voz pasiva en passé composé."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["voz-pasiva"],
+      "difficulty": 3,
+      "speak": "La maison a été construite en 1900. Elle est habitée aujourd'hui par une famille nombreuse. Le toit sera réparé bientôt.",
+      "es": "La casa fue construida en 1900. Está habitada hoy en día por una familia numerosa. El tejado será reparado pronto.",
+      "ipa": "/la mɛ.zɔ̃ a e.te kɔ̃s.tʁɥit ɑ̃ diz.nœf sɑ̃ ɛl ɛ.t‿a.bi.te o.ʒuʁ.dɥi paʁ yn fa.mij nɔ̃.bʁøz lə twa sə.ʁa ʁe.pa.ʁe bjɛ̃.to/",
+      "esApprox": "«la me-ZÓN a e-TÉ kons-TRÜÍT an DIZ-nöf SAN el e-ta-bi-TÉ o-shur-DÜÍ par ün fa-MÍY non-BRÖZ le TUÁ se-RA re-pa-RÉ bien-TO»",
+      "focus": "Voz pasiva en tres tiempos distintos: passé composé, présent y futur.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "Describe algo usando la voz pasiva, con o sin agente.",
+      "modelAnswer": "Le livre a été écrit par Victor Hugo, et il est lu par des millions de personnes.",
+      "alsoValid": ["Les fleurs sont arrosées tous les jours."],
+      "speak": "Le livre a été écrit par Victor Hugo, et il est lu par des millions de personnes.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "¿Es voz activa o voz pasiva?",
+      "buckets": ["Voz activa", "Voz pasiva"],
+      "items": [
+        { "text": "Victor Hugo a écrit ce livre", "bucket": 0 },
+        { "text": "Ce livre a été écrit par Victor Hugo", "bucket": 1 },
+        { "text": "On arrose les fleurs", "bucket": 0 },
+        { "text": "Les fleurs sont arrosées", "bucket": 1 }
+      ],
+      "explain": "Victor Hugo a écrit y on arrose son voz activa; a été écrit y sont arrosées son voz pasiva."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["voz-pasiva"],
+      "difficulty": 2,
+      "prompt": "Hay un error: la voz pasiva exige être + participio. Corrige la frase entera.",
+      "wrong": "La maison a construit en 1900.",
+      "accept": ["La maison a été construite en 1900"],
+      "audio": "La maison a été construite en 1900.",
+      "explain": "La voz pasiva exige être + participio (a été construite), no avoir + participio directamente."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "la maison est construite", "es": "la casa está construida", "esApprox": "«la me-ZÓN e kons-TRÜÍT»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "la maison a été construite", "es": "la casa fue construida", "esApprox": "«la me-ZÓN a e-TÉ kons-TRÜÍT»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "la lettre a été envoyée", "es": "la carta fue enviada", "esApprox": "«la LETR a e-TÉ an-vuá-YÉ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "le livre a été écrit par...", "es": "el libro fue escrito por...", "esApprox": "«le LIVR a e-TÉ e-KRÍ par»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "les fleurs sont arrosées tous les jours", "es": "las flores se riegan todos los días", "esApprox": "«le FLÖR son-ta-ro-ZÉ tu le YUR»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "le problème sera résolu", "es": "el problema será resuelto", "esApprox": "«le pro-BLEM se-RA re-zo-LÜ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "La lettre a été envoyée hier matin.", "es": "La carta fue enviada ayer por la mañana.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Les fleurs sont arrosées tous les jours.", "es": "Las flores se riegan todos los días.", "from": "e7" }
+  ]
+}

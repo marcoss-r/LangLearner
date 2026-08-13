@@ -1,0 +1,274 @@
+{
+  "id": "fr-b1-210",
+  "lang": "fr",
+  "level": "B1",
+  "order": 210,
+  "title": "Leer un cuento corto y entender los tiempos verbales",
+  "objectives": [
+    "Leer un cuento corto identificando imparfait, plus-que-parfait y passé simple",
+    "Reconocer que el passé simple narra los hechos puntuales en un texto literario",
+    "Comentar el cuento en passé composé, como se haría al hablar de él"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un cuento corto",
+      "body": "Il était une fois un jeune homme qui vivait dans un vieux village. Il avait toujours rêvé de voyager, mais il n'avait jamais eu l'occasion de partir. Un jour, il rencontra une femme qui venait d'un pays lointain. Elle lui parla de son voyage, et il décida de partir avec elle. Ils voyagèrent ensemble pendant des années, et finalement, ils se marièrent. Depuis ce jour, ils vécurent heureux pour toujours. C'est ainsi que se termine cette histoire."
+    },
+    {
+      "type": "table",
+      "title": "Los tres tiempos en el cuento",
+      "headers": ["Tiempo", "Ejemplos del cuento"],
+      "rows": [
+        ["imparfait (fondo)", "il vivait, qui venait"],
+        ["plus-que-parfait (antes)", "il avait toujours rêvé, il n'avait jamais eu"],
+        ["passé simple (hechos puntuales)", "il rencontra, elle parla, il décida, ils voyagèrent, ils se marièrent, ils vécurent"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Al hablar de este cuento, usa passé composé",
+      "body": "Si le cuentas esta historia a un amigo en voz alta, dirías il a rencontré, ils se sont mariés, ils ont vécu — nunca las formas en passé simple del texto escrito."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il était une fois", "es": "érase una vez", "ipa": "/i.l‿e.tɛ.t‿yn fwa/", "esApprox": "«il-e-TE-tün FUÁ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "un vieux village", "es": "un pueblo viejo", "ipa": "/œ̃ vjø vi.laʒ/", "esApprox": "«un VIÖ vi-LAJ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v3", "target": "elle vécut heureuse", "es": "vivió feliz", "ipa": "/ɛl ve.ky ø.ʁøz/", "esApprox": "«el ve-KÜ ö-RÖZ»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "ils se marièrent", "es": "se casaron", "ipa": "/il sə ma.ʁjɛʁ/", "esApprox": "«il se ma-RIER»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "la morale de l'histoire", "es": "la moraleja del cuento", "ipa": "/la mɔ.ʁal də lis.twaʁ/", "esApprox": "«la mo-RAL de lis-tuáR»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "c'est ainsi que", "es": "así es como", "ipa": "/sɛ.t‿ɛ̃.si kə/", "esApprox": "«se-tin-SÍ ke»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "depuis ce jour", "es": "desde aquel día", "ipa": "/də.pɥi sə ʒuʁ/", "esApprox": "«de-püí se YUR»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "pour toujours", "es": "para siempre", "ipa": "/puʁ tu.ʒuʁ/", "esApprox": "«pur tu-YUR»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "¿En qué tiempo está «il vivait»?",
+      "options": ["passé simple", "imparfait", "plus-que-parfait", "passé composé"],
+      "answer": 1,
+      "explain": "Il vivait describe el fondo: imparfait."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "¿En qué tiempo está «il rencontra»?",
+      "options": ["imparfait", "passé simple", "plus-que-parfait", "futur"],
+      "answer": 1,
+      "explain": "Il rencontra es un hecho puntual: passé simple."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "statement": "Il avait toujours rêvé está en plus-que-parfait.",
+      "answer": true,
+      "explain": "Muestra algo anterior a los hechos principales del cuento."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "statement": "El cuento usa el passé composé para narrar los hechos principales.",
+      "answer": false,
+      "explain": "El cuento usa passé simple, típico de los textos literarios."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Une cada forma del cuento con su tiempo",
+      "left": ["il vivait", "il avait rêvé", "il rencontra", "ils se marièrent"],
+      "right": ["imparfait", "plus-que-parfait", "passé simple (encontrar)", "passé simple (casarse)"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Il vivait = imparfait, il avait rêvé = plus-que-parfait, il rencontra e ils se marièrent = passé simple."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_es",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Il était une fois un jeune homme qui vivait dans un vieux village.",
+      "accept": ["Érase una vez un joven que vivía en un pueblo viejo."],
+      "strictAccents": false,
+      "audio": "Il était une fois un jeune homme qui vivait dans un vieux village.",
+      "explain": "Il était une fois abre el cuento; vivait describe el fondo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_es",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Un jour, il rencontra une femme qui venait d'un pays lointain.",
+      "accept": ["Un día, conoció a una mujer que venía de un país lejano."],
+      "strictAccents": false,
+      "audio": "Un jour, il rencontra une femme qui venait d'un pays lointain.",
+      "explain": "Il rencontra (passé simple) + venait (imparfait, descripción)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Si contaras esto hablando, usarías passé composé en vez de passé simple",
+      "text": "Il ___ une femme qui venait d'un pays lointain.",
+      "blanks": [{ "accept": ["a rencontré"] }],
+      "bank": ["a rencontré", "rencontrera", "rencontrait"],
+      "explain": "Il rencontra (passé simple, texto escrito) equivale a il a rencontré (passé composé, al hablar)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "«Ils se marièrent» está en passé simple. Ordena su versión hablada",
+      "tokens": ["se sont mariés", "Ils"],
+      "answer": ["Ils", "se sont mariés"],
+      "audio": "Ils se sont mariés.",
+      "explain": "Ils se marièrent (passé simple) equivale a ils se sont mariés (passé composé)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Ils voyagèrent ensemble pendant des années, et depuis ce jour, ils vécurent heureux pour toujours.",
+      "accept": ["Viajaron juntos durante años, y desde aquel día, vivieron felices para siempre."],
+      "strictAccents": false,
+      "audio": "Ils voyagèrent ensemble pendant des années, et depuis ce jour, ils vécurent heureux pour toujours.",
+      "explain": "El desenlace clásico de un cuento, en passé simple."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación contando el cuento en passé composé",
+      "turns": [
+        { "who": "Léa", "text": "De quoi parle cette histoire ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'est l'histoire d'un homme qui a rencontré une femme, et ils se sont mariés.", "L'idée principale, c'est qu'ils ont voyagé ensemble et qu'ils sont restés heureux."], "hint": "cuenta la historia en passé composé, como se haría al hablar" },
+        { "who": "Léa", "text": "Ça a l'air joli.", "speak": true }
+      ],
+      "explain": "Al comentar un texto literario, se usa passé composé, no passé simple."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "speak": "Depuis ce jour, ils vécurent heureux pour toujours.",
+      "mode": "translate",
+      "accept": ["Desde aquel día, vivieron felices para siempre."],
+      "showTextAfter": true,
+      "explain": "Reconocimiento del passé simple, traducido al español."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 1,
+      "speak": "il était une fois",
+      "mode": "choose",
+      "options": ["il était une fois", "il fut une fois", "il est une fois", "il sera une fois"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Il était une fois (imparfait) es la fórmula clásica para empezar un cuento."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 3,
+      "speak": "Il était une fois un jeune homme qui vivait dans un vieux village. Il avait toujours rêvé de voyager. Un jour, il rencontra une femme, et depuis ce jour, ils vécurent heureux pour toujours.",
+      "es": "Érase una vez un joven que vivía en un pueblo viejo. Siempre había soñado con viajar. Un día, conoció a una mujer, y desde aquel día, vivieron felices para siempre.",
+      "ipa": "/i.l‿e.tɛ.t‿yn fwa œ̃ ʒœn ɔm ki vi.vɛ dɑ̃.z‿œ̃ vjø vi.laʒ i.l‿a.vɛ tu.ʒuʁ ʁe.ve də vwa.ja.ʒe œ̃ ʒuʁ i.l‿ʁɑ̃.kɔ̃.tʁa yn fam e də.pɥi sə ʒuʁ il ve.kyʁ ø.ʁø puʁ tu.ʒuʁ/",
+      "esApprox": "«il-e-TE-tün FUÁ un YÖN OM ki vi-VE dan-un VIÖ vi-LAJ il-a-VE tu-YUR re-VÉ de vua-ya-YÉ un YUR il-ran-kon-TRA ün FAM e de-püí se YUR il ve-KÜR ö-RÖ pur tu-YUR»",
+      "focus": "Un cuento completo combinando imparfait, plus-que-parfait y passé simple.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Resume este cuento en tus propias palabras, usando passé composé, no passé simple.",
+      "modelAnswer": "C'est l'histoire d'un jeune homme qui a rencontré une femme, et ils se sont mariés. Ils ont vécu heureux.",
+      "alsoValid": ["Un homme a rencontré une femme, et depuis ce jour, ils ont été heureux."],
+      "speak": "C'est l'histoire d'un jeune homme qui a rencontré une femme, et ils se sont mariés. Ils ont vécu heureux.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "conjugation",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "verb": "vivre",
+      "tense": "passé composé",
+      "prompt": "Conjuga «vivre» en passé composé (lo que dirías al hablar, no el passé simple)",
+      "rows": [
+        { "person": "j'", "accept": ["ai vécu"] },
+        { "person": "tu", "accept": ["as vécu"] },
+        { "person": "il / elle", "accept": ["a vécu"] },
+        { "person": "nous", "accept": ["avons vécu"] },
+        { "person": "vous", "accept": ["avez vécu"] },
+        { "person": "ils / elles", "accept": ["ont vécu"] }
+      ],
+      "explain": "Al hablar, vivre se conjuga en passé composé (a vécu), no en passé simple (vécut)."
+    },
+    {
+      "id": "e19",
+      "type": "word_order",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "«Il décida de partir» está en passé simple. Ordena su versión hablada",
+      "tokens": ["de partir", "Il a décidé"],
+      "answer": ["Il a décidé", "de partir"],
+      "audio": "Il a décidé de partir.",
+      "explain": "Il décida (passé simple) equivale a il a décidé (passé composé)."
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "¿Es tiempo de fondo (imparfait/plus-que-parfait) o hecho puntual (passé simple)?",
+      "buckets": ["Tiempo de fondo", "Hecho puntual"],
+      "items": [
+        { "text": "il vivait", "bucket": 0 },
+        { "text": "il rencontra", "bucket": 1 },
+        { "text": "il avait rêvé", "bucket": 0 },
+        { "text": "ils se marièrent", "bucket": 1 }
+      ],
+      "explain": "Il vivait e il avait rêvé son tiempo de fondo; il rencontra e ils se marièrent son hechos puntuales."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-simple", "lectura"],
+      "difficulty": 2,
+      "prompt": "Hay un error: al hablar se usa passé composé, no passé simple. Corrige la frase entera.",
+      "wrong": "Pour raconter ce conte à l'oral, je dirais : il rencontra une femme hier.",
+      "accept": ["Pour raconter ce conte à l'oral, je dirais : il a rencontré une femme hier"],
+      "audio": "Pour raconter ce conte à l'oral, je dirais : il a rencontré une femme hier.",
+      "explain": "Al hablar, se usa el passé composé, no el passé simple, aunque el texto original esté en passé simple."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il était une fois", "es": "érase una vez", "esApprox": "«il-e-TE-tün FUÁ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "un vieux village", "es": "un pueblo viejo", "esApprox": "«un VIÖ vi-LAJ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "ils se marièrent", "es": "se casaron", "esApprox": "«il se ma-RIER»", "from": "v4" },
+    { "id": "s4", "kind": "phrase", "target": "la morale de l'histoire", "es": "la moraleja del cuento", "esApprox": "«la mo-RAL de lis-tuáR»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "c'est ainsi que", "es": "así es como", "esApprox": "«se-tin-SÍ ke»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "depuis ce jour", "es": "desde aquel día", "esApprox": "«de-püí se YUR»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Il était une fois un jeune homme qui vivait dans un vieux village.", "es": "Érase una vez un joven que vivía en un pueblo viejo.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Un jour, il rencontra une femme qui venait d'un pays lointain.", "es": "Un día, conoció a una mujer que venía de un país lejano.", "from": "e7" }
+  ]
+}
