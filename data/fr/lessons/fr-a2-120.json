@@ -1,0 +1,254 @@
+{
+  "id": "fr-a2-120",
+  "lang": "fr",
+  "level": "A2",
+  "order": 120,
+  "title": "Celui, celle, ceux, celles: el demostrativo que sustituye al nombre",
+  "objectives": [
+    "Usar celui, celle, ceux, celles para sustituir un sustantivo ya mencionado",
+    "Combinar celui/celle/ceux/celles con de + sustantivo, con -ci/-là, o con qui/que (clase A2-117)",
+    "Evitar repetir ce/cette/ces + sustantivo (clase A2-119) cuando ya está claro de qué se habla"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Celui, celle, ceux, celles: sustituir en vez de repetir",
+      "body": "Cuando ya sabes de qué sustantivo se habla, en vez de repetir ce livre, cette histoire, ces photos (clase A2-119), puedes usar celui, celle, ceux o celles.",
+      "examples": [
+        { "target": "J'aime ce livre, mais je préfère celui de Léa.", "es": "Me gusta este libro, pero prefiero el de Léa.", "note": "celui sustituye a ce livre" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las cuatro formas",
+      "headers": ["Forma", "Sustituye a...", "Ejemplo"],
+      "rows": [
+        ["celui", "masculino singular", "celui de Léa"],
+        ["celle", "femenino singular", "celle de Marc"],
+        ["ceux", "masculino plural", "ceux de mes parents"],
+        ["celles", "femenino plural", "celles de ma sœur"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Tres formas de completar celui/celle/ceux/celles",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["+ de + sustantivo", "celui de Léa (el de Léa)"],
+        ["+ -ci / -là", "celui-ci, celui-là (este, ese/aquel)"],
+        ["+ qui / que (clase A2-117)", "celui qui travaille avec moi"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "celui", "es": "el (de) (masc. sing.)", "ipa": "/sə.lɥi/", "esApprox": "«se-LÜÍ»", "pos": "pronombre", "gender": "m", "example": { "target": "Je préfère celui de Léa.", "es": "Prefiero el de Léa." } },
+    { "id": "v2", "target": "celle", "es": "la (de) (fem. sing.)", "ipa": "/sɛl/", "esApprox": "«SEL»", "pos": "pronombre", "gender": "f", "example": { "target": "Je préfère celle de Marc.", "es": "Prefiero la de Marc." } },
+    { "id": "v3", "target": "ceux", "es": "los (de) (masc. pl.)", "ipa": "/sø/", "esApprox": "«SEU»", "pos": "pronombre", "gender": "m", "example": { "target": "Ceux de mes parents sont vieux.", "es": "Los de mis padres son viejos." } },
+    { "id": "v4", "target": "celles", "es": "las (de) (fem. pl.)", "ipa": "/sɛl/", "esApprox": "«SEL»", "pos": "pronombre", "gender": "f", "example": { "target": "Celles de ma sœur sont nouvelles.", "es": "Las de mi hermana son nuevas." } },
+    { "id": "v5", "target": "celui-ci / celui-là", "es": "este / ese, aquel", "ipa": "/sə.lɥi si sə.lɥi la/", "esApprox": "«se-LÜÍ SI se-LÜÍ LA»", "pos": "pronombre", "gender": "m", "example": { "target": "Celui-ci est mieux que celui-là.", "es": "Este es mejor que ese." } },
+    { "id": "v6", "target": "celui qui / celle que", "es": "el que / la que", "ipa": "/sə.lɥi ki sɛl kə/", "esApprox": "«se-LÜÍ ki SEL ke»", "pos": "pronombre", "gender": null, "example": { "target": "C'est celui qui travaille avec moi.", "es": "Es el que trabaja conmigo." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «prefiero el de Léa» (un libro, masculino)?",
+      "options": ["Je préfère celle de Léa.", "Je préfère celui de Léa.", "Je préfère ceux de Léa.", "Je préfère ce de Léa."],
+      "answer": 1,
+      "explain": "Celui: masculino singular."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «los de mis padres» (masculino plural)?",
+      "options": ["celui de mes parents", "celle de mes parents", "ceux de mes parents", "celles de mes parents"],
+      "answer": 2,
+      "explain": "Ceux: masculino plural."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "statement": "Celui/celle/ceux/celles se pueden combinar con qui o que.",
+      "answer": true,
+      "explain": "Celui qui travaille avec moi, celle que j'ai lue."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "statement": "Celui-ci significa «aquel», más lejano que celui-là.",
+      "answer": false,
+      "explain": "Es al revés: celui-ci = este (cercano), celui-là = ese/aquel (lejano)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Une cada forma con lo que sustituye",
+      "left": ["celui", "celle", "ceux", "celles"],
+      "right": ["femenino plural", "masculino singular", "femenino singular", "masculino plural"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Celui (m. sing.), celle (f. sing.), ceux (m. pl.), celles (f. pl.)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Me gusta este libro, pero prefiero el de Léa.",
+      "accept": ["J'aime ce livre, mais je préfère celui de Léa"],
+      "hintWords": ["j'aime ce livre", "je préfère celui de Léa"],
+      "strictAccents": true,
+      "audio": "J'aime ce livre, mais je préfère celui de Léa.",
+      "explain": "Celui sustituye a ce livre."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["demostrativos", "relativos"],
+      "difficulty": 2,
+      "prompt": "Es el que trabaja conmigo. Es la que veo a menudo.",
+      "accept": ["C'est celui qui travaille avec moi. C'est celle que je vois souvent"],
+      "hintWords": ["c'est celui qui travaille avec moi", "c'est celle que je vois souvent"],
+      "strictAccents": true,
+      "audio": "C'est celui qui travaille avec moi. C'est celle que je vois souvent.",
+      "explain": "Celui qui (sujeto) + celle que (complemento), combinando con qui/que (clase A2-117)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Ces photos sont belles, mais je préfère ___ de ma sœur.",
+      "blanks": [{ "accept": ["celles"] }],
+      "bank": ["celui", "celle", "celles"],
+      "explain": "Photos (fem. pl.) → celles."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Este es mejor que ese»",
+      "tokens": ["que celui-là", "Celui-ci", "est mieux"],
+      "answer": ["Celui-ci", "est mieux", "que celui-là"],
+      "audio": "Celui-ci est mieux que celui-là.",
+      "explain": "Celui-ci + est mieux + que celui-là."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Ceux de mes parents sont vieux, mais celles de ma sœur sont nouvelles.",
+      "accept": ["Los de mis padres son viejos, pero las de mi hermana son nuevas."],
+      "strictAccents": false,
+      "audio": "Ceux de mes parents sont vieux, mais celles de ma sœur sont nouvelles.",
+      "explain": "Ceux (masc. pl.) frente a celles (fem. pl.)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre libros",
+      "turns": [
+        { "who": "Léa", "text": "Tu préfères quel livre, celui-ci ou celui-là ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je préfère celui-ci.", "Je préfère celui-là."], "hint": "usa celui-ci o celui-là" },
+        { "who": "Léa", "text": "D'accord !", "speak": true }
+      ],
+      "explain": "Celui-ci ou celui-là ? se responde eligiendo una de las dos formas."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "speak": "J'aime ce livre, mais je préfère celui de Léa, celui qui parle d'un voyage.",
+      "mode": "write",
+      "accept": ["J'aime ce livre, mais je préfère celui de Léa, celui qui parle d'un voyage"],
+      "showTextAfter": true,
+      "explain": "Celui de + celui qui, dos usos distintos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["demostrativos"],
+      "difficulty": 1,
+      "speak": "celui-ci",
+      "mode": "choose",
+      "options": ["celui-là", "celui-ci", "celle-ci", "ceux-ci"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Celui-ci = este (masculino singular)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["demostrativos"],
+      "difficulty": 3,
+      "speak": "J'aime ce livre, mais je préfère celui de Léa, celui qui parle d'un voyage et que j'ai lu deux fois.",
+      "es": "Me gusta este libro, pero prefiero el de Léa, el que trata de un viaje y que he leído dos veces.",
+      "ipa": "/ʒɛm sə livʁ mɛ ʒə pʁe.fɛʁ sə.lɥi də le.a sə.lɥi ki paʁl dœ̃ vwa.jaʒ e kə ʒe ly dø fwa/",
+      "esApprox": "«yem se LIVR me ye pre-FER se-LÜÍ de LE-a se-LÜÍ ki PARL dun vuá-YAZH e ke ye LÜ deu FUÁ»",
+      "focus": "Celui usado tres veces con distintas estructuras: de, qui, que.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Compara dos cosas usando celui-ci/celui-là o celui de/celle de.",
+      "modelAnswer": "Celui-ci est mieux que celui-là.",
+      "alsoValid": ["Je préfère celui de Léa."],
+      "speak": "Celui-ci est mieux que celui-là.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "¿Qué forma corresponde?",
+      "buckets": ["celui", "celle", "ceux", "celles"],
+      "items": [
+        { "text": "livre (m. sing.)", "bucket": 0 },
+        { "text": "histoire (f. sing.)", "bucket": 1 },
+        { "text": "livres (m. pl.)", "bucket": 2 },
+        { "text": "photos (f. pl.)", "bucket": 3 }
+      ],
+      "explain": "Celui, celle, ceux, celles según género y número."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de género. Corrige la frase entera.",
+      "wrong": "Je préfère celui de ma sœur. (cette histoire)",
+      "accept": ["Je préfère celle de ma sœur"],
+      "audio": "Je préfère celle de ma sœur.",
+      "explain": "Histoire es femenino: celle, no celui."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "celui", "es": "el (de) (masc. sing.)", "esApprox": "«se-LÜÍ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "celle", "es": "la (de) (fem. sing.)", "esApprox": "«SEL»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ceux", "es": "los (de) (masc. pl.)", "esApprox": "«SEU»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "celles", "es": "las (de) (fem. pl.)", "esApprox": "«SEL»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "celui-ci / celui-là", "es": "este / ese, aquel", "esApprox": "«se-LÜÍ SI se-LÜÍ LA»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "J'aime ce livre, mais je préfère celui de Léa.", "es": "Me gusta este libro, pero prefiero el de Léa.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "C'est celui qui travaille avec moi. C'est celle que je vois souvent.", "es": "Es el que trabaja conmigo. Es la que veo a menudo.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Celui-ci est mieux que celui-là.", "es": "Este es mejor que ese.", "from": "e9" }
+  ]
+}

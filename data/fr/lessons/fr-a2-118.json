@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-118",
+  "lang": "fr",
+  "level": "A2",
+  "order": 118,
+  "title": "El relativo où: lugar y tiempo",
+  "objectives": [
+    "Usar où como relativo de lugar: le quartier où j'habite",
+    "Usar où como relativo de tiempo: le jour où je suis né",
+    "Distinguir où relativo (clase A1-22 lo enseñó como interrogativo) de qui/que (clase A2-117)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Où: no solo para preguntar",
+      "body": "Ya conoces où como palabra interrogativa (¿dónde?, clase A1-22). También funciona como relativo, sustituyendo un lugar o un momento de tiempo, para no repetir dans lequel, à cette époque, etc.",
+      "examples": [
+        { "target": "C'est le quartier où j'habite. C'est le jour où je suis né.", "es": "Es el barrio donde vivo. Es el día en que nací.", "note": "où de lugar (quartier) y où de tiempo (jour)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Où de lugar y de tiempo",
+      "headers": ["Uso", "Ejemplo"],
+      "rows": [
+        ["Lugar", "le quartier où j'habite, la ville où je suis né"],
+        ["Tiempo", "le jour où je suis né, l'année où j'ai déménagé"]
+      ],
+      "note": "En español, où de tiempo se traduce como «en que» o «cuando», no siempre como «donde»."
+    },
+    {
+      "type": "contrast",
+      "title": "Où frente a qui/que (clase A2-117)"
+      ,
+      "items": [
+        { "wrong": "Le quartier que j'habite. (habiter no lleva complemento directo con où)", "right": "Le quartier où j'habite.", "why": "Qui/que sustituyen personas o cosas; où sustituye un lugar o un momento. Habiter dans un quartier necesita où, no que." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le jour où", "es": "el día en que", "ipa": "/lə ʒuʁ u/", "esApprox": "«le YUR U»", "pos": "expresión", "gender": null, "example": { "target": "Le jour où je suis né, il neigeait.", "es": "El día en que nací, nevaba." } },
+    { "id": "v2", "target": "le quartier où", "es": "el barrio donde", "ipa": "/lə kaʁ.tje u/", "esApprox": "«le kar-TIÉ U»", "pos": "expresión", "gender": null, "example": { "target": "Le quartier où j'habite est calme.", "es": "El barrio donde vivo es tranquilo." } },
+    { "id": "v3", "target": "l'année où", "es": "el año en que", "ipa": "/la.ne u/", "esApprox": "«la-NÉ U»", "pos": "expresión", "gender": null, "example": { "target": "L'année où j'ai déménagé, j'ai connu Léa.", "es": "El año en que me mudé, conocí a Léa." } },
+    { "id": "v4", "target": "l'endroit où", "es": "el lugar donde", "ipa": "/lɑ̃.dʁwa u/", "esApprox": "«lan-DRUÁ U»", "pos": "expresión", "gender": null, "example": { "target": "C'est l'endroit où on s'est connus.", "es": "Es el lugar donde nos conocimos." } },
+    { "id": "v5", "target": "le moment où", "es": "el momento en que", "ipa": "/lə mɔ.mɑ̃ u/", "esApprox": "«le mo-MAN U»", "pos": "expresión", "gender": null, "example": { "target": "C'est le moment où tout a changé.", "es": "Es el momento en que todo cambió." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «el barrio donde vivo»?",
+      "options": ["le quartier que j'habite", "le quartier qui j'habite", "le quartier où j'habite", "le quartier qu'habite"],
+      "answer": 2,
+      "explain": "Habiter dans un lieu necesita où, no que/qui."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «el día en que nací»?",
+      "options": ["le jour que je suis né", "le jour qui je suis né", "le jour où je suis né", "le jour dont je suis né"],
+      "answer": 2,
+      "explain": "Où también sustituye un momento de tiempo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "statement": "Où puede sustituir tanto un lugar como un momento de tiempo.",
+      "answer": true,
+      "explain": "Le quartier où (lugar) y le jour où (tiempo)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "statement": "Où es la misma palabra que la interrogativa où (clase A1-22).",
+      "answer": true,
+      "explain": "Es la misma palabra, con una función distinta: preguntar frente a unir frases."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["le jour où", "l'année où", "l'endroit où", "le moment où"],
+      "right": ["el momento en que", "el día en que", "el año en que", "el lugar donde"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Jour = día, année = año, endroit = lugar, moment = momento."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Es el barrio donde vivo. Es el día en que nací.",
+      "accept": ["C'est le quartier où j'habite. C'est le jour où je suis né"],
+      "hintWords": ["c'est le quartier où j'habite", "c'est le jour où je suis né"],
+      "strictAccents": true,
+      "audio": "C'est le quartier où j'habite. C'est le jour où je suis né.",
+      "explain": "Où de lugar (quartier) y où de tiempo (jour)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "El año en que me mudé, conocí a Léa.",
+      "accept": ["L'année où j'ai déménagé, j'ai connu Léa"],
+      "hintWords": ["l'année où j'ai déménagé", "j'ai connu Léa"],
+      "strictAccents": true,
+      "audio": "L'année où j'ai déménagé, j'ai connu Léa.",
+      "explain": "L'année où + acción en passé composé."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Completa con el relativo correcto",
+      "text": "C'est l'endroit ___ on s'est connus, et c'est aussi le moment ___ tout a changé.",
+      "blanks": [{ "accept": ["où"] }, { "accept": ["où"] }],
+      "bank": ["où", "que", "qui"],
+      "explain": "Endroit (lugar) y moment (tiempo) necesitan où."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El barrio donde vivo es tranquilo»",
+      "tokens": ["est calme", "Le quartier où j'habite"],
+      "answer": ["Le quartier où j'habite", "est calme"],
+      "audio": "Le quartier où j'habite est calme.",
+      "explain": "Le quartier où j'habite + est calme."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Le jour où je suis né, il neigeait. C'était le premier jour de l'année.",
+      "accept": ["El día en que nací, nevaba. Era el primer día del año."],
+      "strictAccents": false,
+      "audio": "Le jour où je suis né, il neigeait. C'était le premier jour de l'année.",
+      "explain": "Le jour où + imparfait (fondo) + c'était (descripción)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre dónde te conocieron",
+      "turns": [
+        { "who": "Léa", "text": "C'est où, l'endroit où vous vous êtes connus ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'est le quartier où j'habite.", "C'est un café où je vais souvent."], "hint": "usa où de lugar" },
+        { "who": "Léa", "text": "Ah, quelle belle histoire !", "speak": true }
+      ],
+      "explain": "L'endroit où...? se responde con où de lugar."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "speak": "Le quartier où j'habite est calme, et l'année où j'ai déménagé, j'ai connu mes voisins.",
+      "mode": "write",
+      "accept": ["Le quartier où j'habite est calme, et l'année où j'ai déménagé, j'ai connu mes voisins"],
+      "showTextAfter": true,
+      "explain": "Où de lugar y où de tiempo en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["relativos"],
+      "difficulty": 1,
+      "speak": "le jour où",
+      "mode": "choose",
+      "options": ["le jour que", "le jour qui", "le jour où", "le jour dont"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Le jour où = el día en que."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["relativos"],
+      "difficulty": 3,
+      "speak": "Le jour où je suis né, il neigeait. Le quartier où j'habite maintenant est très différent.",
+      "es": "El día en que nací, nevaba. El barrio donde vivo ahora es muy diferente.",
+      "ipa": "/lə ʒuʁ u ʒə sɥi ne il nɛ.ʒɛ lə kaʁ.tje u ʒa.bit mɛ̃t.nɑ̃ ɛ tʁɛ di.fe.ʁɑ̃/",
+      "esApprox": "«le YUR U ye süí NÉ il ne-ZHE le kar-TIÉ U ya-BIT ment-NAN e tre di-fe-RAN»",
+      "focus": "Où de tiempo y où de lugar en dos frases consecutivas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Describe el barrio donde vives y el año en que te mudaste allí.",
+      "modelAnswer": "Le quartier où j'habite est calme, et l'année où j'ai déménagé était 2020.",
+      "alsoValid": ["C'est l'endroit où j'ai grandi."],
+      "speak": "Le quartier où j'habite est calme, et l'année où j'ai déménagé était 2020.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "¿Où se refiere a un lugar o a un momento de tiempo?",
+      "buckets": ["Lugar", "Tiempo"],
+      "items": [
+        { "text": "le quartier où", "bucket": 0 },
+        { "text": "le jour où", "bucket": 1 },
+        { "text": "l'endroit où", "bucket": 0 },
+        { "text": "l'année où", "bucket": 1 }
+      ],
+      "explain": "Quartier/endroit son lugares; jour/année son momentos de tiempo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de relativo. Corrige la frase entera.",
+      "wrong": "Le quartier que j'habite est calme.",
+      "accept": ["Le quartier où j'habite est calme"],
+      "audio": "Le quartier où j'habite est calme.",
+      "explain": "Habiter dans un lieu necesita où, no que."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "le jour où", "es": "el día en que", "esApprox": "«le YUR U»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "le quartier où", "es": "el barrio donde", "esApprox": "«le kar-TIÉ U»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "l'année où", "es": "el año en que", "esApprox": "«la-NÉ U»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "l'endroit où", "es": "el lugar donde", "esApprox": "«lan-DRUÁ U»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "le moment où", "es": "el momento en que", "esApprox": "«le mo-MAN U»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "C'est le quartier où j'habite. C'est le jour où je suis né.", "es": "Es el barrio donde vivo. Es el día en que nací.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "L'année où j'ai déménagé, j'ai connu Léa.", "es": "El año en que me mudé, conocí a Léa.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Le quartier où j'habite est calme.", "es": "El barrio donde vivo es tranquilo.", "from": "e9" }
+  ]
+}

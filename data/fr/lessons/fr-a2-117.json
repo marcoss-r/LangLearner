@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-117",
+  "lang": "fr",
+  "level": "A2",
+  "order": 117,
+  "title": "Los relativos qui y que",
+  "objectives": [
+    "Usar qui para unir dos frases cuando el sustantivo repetido es el sujeto de la segunda",
+    "Usar que para unir dos frases cuando el sustantivo repetido es el complemento de la segunda",
+    "Evitar repetir un sustantivo, uniendo dos frases cortas en una más natural"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Qui y que: unir dos frases sin repetir",
+      "body": "Qui y que sirven para unir dos frases que comparten un sustantivo, sin repetirlo. Se usa qui cuando ese sustantivo es el sujeto de la segunda frase, y que cuando es el complemento.",
+      "examples": [
+        { "target": "J'ai un ami. Cet ami habite à Paris. → J'ai un ami qui habite à Paris.", "es": "Tengo un amigo. Ese amigo vive en París. → Tengo un amigo que vive en París.", "note": "ami es sujeto de habite → qui" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Qui frente a que",
+      "headers": ["Pronombre", "Función", "Ejemplo"],
+      "rows": [
+        ["qui", "sujeto de la frase relativa", "J'ai un ami qui habite à Paris."],
+        ["que / qu'", "complemento de la frase relativa", "Le livre que j'ai lu était intéressant."]
+      ],
+      "note": "Después de qui va directamente un verbo; después de que va un sujeto y luego un verbo."
+    },
+    {
+      "type": "contrast",
+      "title": "El truco para no confundirlos"
+      ,
+      "items": [
+        { "wrong": "Le livre qui j'ai lu... (sin sujeto después de qui)", "right": "Le livre que j'ai lu...", "why": "Si después del relativo hay otro sujeto (j'ai lu), necesitas que. Si el relativo va seguido directamente de un verbo, sin otro sujeto, necesitas qui." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "qui", "es": "que (sujeto)", "ipa": "/ki/", "esApprox": "«KI»", "pos": "pronombre", "gender": null, "example": { "target": "J'ai un ami qui habite à Paris.", "es": "Tengo un amigo que vive en París." } },
+    { "id": "v2", "target": "que / qu'", "es": "que (complemento)", "ipa": "/kə/", "esApprox": "«ke»", "pos": "pronombre", "gender": null, "example": { "target": "Le livre que j'ai lu était bien.", "es": "El libro que leí estaba bien." } },
+    { "id": "v3", "target": "la personne qui", "es": "la persona que", "ipa": "/la pɛʁ.sɔn ki/", "esApprox": "«la per-SON ki»", "pos": "expresión", "gender": null, "example": { "target": "C'est la personne qui travaille avec moi.", "es": "Es la persona que trabaja conmigo." } },
+    { "id": "v4", "target": "le film que", "es": "la película que", "ipa": "/lə film kə/", "esApprox": "«le FILM ke»", "pos": "expresión", "gender": null, "example": { "target": "Le film que j'ai vu était drôle.", "es": "La película que vi era divertida." } },
+    { "id": "v5", "target": "sympa", "es": "simpático/a (informal)", "ipa": "/sɛ̃.pa/", "esApprox": "«sen-PA»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Les voisins qui habitent là sont sympas.", "es": "Los vecinos que viven ahí son simpáticos." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta?",
+      "options": ["J'ai un ami que habite à Paris.", "J'ai un ami qui habite à Paris.", "J'ai un ami où habite à Paris.", "J'ai un ami dont habite à Paris."],
+      "answer": 1,
+      "explain": "Ami es el sujeto de habite: qui."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta?",
+      "options": ["Le livre qui j'ai lu était bien.", "Le livre que j'ai lu était bien.", "Le livre où j'ai lu était bien.", "Le livre qu'il a lu était bien."],
+      "answer": 1,
+      "explain": "Livre es el complemento de j'ai lu: que."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "statement": "Después de qui va directamente un verbo, sin otro sujeto.",
+      "answer": true,
+      "explain": "Qui es el sujeto de la frase relativa."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "statement": "Que se convierte en qu' delante de una vocal.",
+      "answer": true,
+      "explain": "Le film qu'il a vu, igual que le/la → l' (clase A1-11)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Une cada frase con su relativo correcto",
+      "left": ["J'ai un ami ___ habite à Paris.", "Le livre ___ j'ai lu était bien.", "La personne ___ travaille avec moi.", "Le film ___ j'ai vu était drôle."],
+      "right": ["qui (sujeto de habite)", "que (complemento de j'ai lu)", "qui (sujeto de travaille)", "que (complemento de j'ai vu)"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Qui es sujeto de la frase relativa; que es su complemento."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Tengo un amigo que vive en París y que habla tres idiomas.",
+      "accept": ["J'ai un ami qui habite à Paris et qui parle trois langues"],
+      "hintWords": ["j'ai un ami qui habite à Paris", "qui parle trois langues"],
+      "strictAccents": true,
+      "audio": "J'ai un ami qui habite à Paris et qui parle trois langues.",
+      "explain": "Qui, dos veces, porque ami es sujeto de las dos acciones."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "El libro que leí y la película que vi eran muy buenos.",
+      "accept": ["Le livre que j'ai lu et le film que j'ai vu étaient très bons"],
+      "hintWords": ["le livre que j'ai lu", "le film que j'ai vu"],
+      "strictAccents": true,
+      "audio": "Le livre que j'ai lu et le film que j'ai vu étaient très bons.",
+      "explain": "Que, dos veces, porque livre y film son complementos de j'ai lu/vu."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Completa con qui o que",
+      "text": "C'est la personne ___ travaille avec moi, et c'est aussi la personne ___ j'ai vue hier.",
+      "blanks": [{ "accept": ["qui"] }, { "accept": ["que"] }],
+      "bank": ["qui", "que"],
+      "explain": "Qui (sujeto de travaille) frente a que (complemento de j'ai vue)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es la persona que trabaja conmigo»",
+      "tokens": ["avec moi", "C'est la personne qui travaille"],
+      "answer": ["C'est la personne qui travaille", "avec moi"],
+      "audio": "C'est la personne qui travaille avec moi.",
+      "explain": "C'est la personne qui travaille + avec moi."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "J'ai des voisins qui sont très sympas et que je vois souvent.",
+      "accept": ["Tengo unos vecinos que son muy simpáticos y que veo a menudo."],
+      "strictAccents": false,
+      "audio": "J'ai des voisins qui sont très sympas et que je vois souvent.",
+      "explain": "Qui (sujeto de sont) frente a que (complemento de je vois)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre una película",
+      "turns": [
+        { "who": "Léa", "text": "Tu as vu un bon film récemment ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, le film que j'ai vu était très bon.", "Oui, c'est un film qui parle d'un voyage."], "hint": "usa qui o que" },
+        { "who": "Léa", "text": "Ah, tu me le recommandes ?", "speak": true }
+      ],
+      "explain": "Se puede describir una película con qui (sujeto) o que (complemento)."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "speak": "J'ai un ami qui habite à Paris et que je vois souvent.",
+      "mode": "write",
+      "accept": ["J'ai un ami qui habite à Paris et que je vois souvent"],
+      "showTextAfter": true,
+      "explain": "Qui y que, ambos referidos al mismo ami."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["relativos"],
+      "difficulty": 1,
+      "speak": "qui habite à Paris",
+      "mode": "choose",
+      "options": ["que habite à Paris", "qui habite à Paris", "où habite à Paris", "dont habite à Paris"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Qui + verbo directamente, sin otro sujeto."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["relativos"],
+      "difficulty": 3,
+      "speak": "J'ai un ami qui habite à Paris, qui parle trois langues, et que je vois souvent.",
+      "es": "Tengo un amigo que vive en París, que habla tres idiomas, y que veo a menudo.",
+      "ipa": "/ʒe œ̃.n‿a.mi ki a.bit a pa.ʁi ki paʁl tʁwa lɑ̃ɡ e kə ʒə vwa su.vɑ̃/",
+      "esApprox": "«ye un-na-MÍ ki a-BIT a pa-RÍ ki PARL truá LANG e ke ye VUÁ su-VAN»",
+      "focus": "Tres relativos seguidos referidos a la misma persona: qui, qui, que.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Describe a un amigo usando qui y que en la misma frase.",
+      "modelAnswer": "J'ai un ami qui habite à Paris et que je vois souvent.",
+      "alsoValid": ["C'est une personne qui travaille beaucoup et que j'admire."],
+      "speak": "J'ai un ami qui habite à Paris et que je vois souvent.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "¿Se usa qui o que?",
+      "buckets": ["qui", "que"],
+      "items": [
+        { "text": "J'ai un ami ___ habite à Paris.", "bucket": 0 },
+        { "text": "Le livre ___ j'ai lu.", "bucket": 1 },
+        { "text": "La personne ___ travaille avec moi.", "bucket": 0 },
+        { "text": "Le film ___ j'ai vu.", "bucket": 1 }
+      ],
+      "explain": "Qui (sujeto de la relativa) frente a que (complemento)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de relativo. Corrige la frase entera.",
+      "wrong": "Le livre qui j'ai lu était bien.",
+      "accept": ["Le livre que j'ai lu était bien"],
+      "audio": "Le livre que j'ai lu était bien.",
+      "explain": "Livre es el complemento de j'ai lu: necesita que, no qui."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "qui", "es": "que (sujeto)", "esApprox": "«KI»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "que / qu'", "es": "que (complemento)", "esApprox": "«ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "la personne qui", "es": "la persona que", "esApprox": "«la per-SON ki»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "le film que", "es": "la película que", "esApprox": "«le FILM ke»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "sympa", "es": "simpático/a (informal)", "esApprox": "«sen-PA»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "J'ai un ami qui habite à Paris et qui parle trois langues.", "es": "Tengo un amigo que vive en París y que habla tres idiomas.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Le livre que j'ai lu et le film que j'ai vu étaient très bons.", "es": "El libro que leí y la película que vi eran muy buenos.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "C'est la personne qui travaille avec moi.", "es": "Es la persona que trabaja conmigo.", "from": "e9" }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-112",
+  "lang": "fr",
+  "level": "A2",
+  "order": 112,
+  "title": "Repaso activo VIII (clases 101–111)",
+  "objectives": [
+    "Repasar la formación y los usos del imparfait",
+    "Repasar el contraste imparfait/passé composé en sus tres variantes",
+    "Repasar la narración: descripciones, hábitos, anécdotas, conectores y verbos especiales"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque I (el imperfecto y la narración)",
+      "body": "Sin gramática nueva. Este bloque te ha dado una herramienta clave para contar historias en francés: el imparfait, y su contraste con el passé composé. Repasa las tablas con calma antes de pasar a los pronombres."
+    },
+    {
+      "type": "table",
+      "title": "Resumen del contraste imparfait/passé composé",
+      "headers": ["Uso", "Tiempo"],
+      "rows": [
+        ["Descripción, fondo de una escena", "imparfait"],
+        ["Hábito repetido en el pasado", "imparfait"],
+        ["Acción puntual, con principio/fin", "passé composé"],
+        ["Duración cerrada y contada (pendant + número)", "passé composé"],
+        ["Reacción puntual (devenir, avoir peur...)", "passé composé"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos que cambian de matiz",
+      "headers": ["Verbo", "Imparfait", "Passé composé"],
+      "rows": [
+        ["savoir", "sabía", "supe, me enteré"],
+        ["connaître", "conocía", "conocí (primera vez)"],
+        ["pouvoir", "podía (general)", "pude (caso concreto)"],
+        ["vouloir", "quería", "quise / me negué a"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "j'étais", "es": "yo era/estaba", "ipa": "/ʒe.tɛ/", "esApprox": "«ye-TE»", "pos": "verbo", "gender": null },
+    { "id": "v2", "target": "il pleuvait", "es": "llovía", "ipa": "/il plœ.vɛ/", "esApprox": "«il pleu-VE»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "soudain", "es": "de repente", "ipa": "/su.dɛ̃/", "esApprox": "«su-DEN»", "pos": "adverbio", "gender": null },
+    { "id": "v4", "target": "il y avait", "es": "había", "ipa": "/il i a.vɛ/", "esApprox": "«il i a-VE»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "avoir l'habitude de", "es": "tener la costumbre de, soler", "ipa": "/a.vwaʁ la.bi.tyd də/", "esApprox": "«a-VUÁR la-bi-TÜD de»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "finalement", "es": "finalmente, al final", "ipa": "/fi.nal.mɑ̃/", "esApprox": "«fi-nal-MAN»", "pos": "adverbio", "gender": null },
+    { "id": "v7", "target": "j'ai su", "es": "supe, me enteré", "ipa": "/ʒe sy/", "esApprox": "«ye SÜ»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "recommander", "es": "recomendar", "ipa": "/ʁə.kɔ.mɑ̃.de/", "esApprox": "«re-ko-man-DÉ»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la única excepción al radical del imparfait?",
+      "options": ["avoir", "aller", "être", "faire"],
+      "answer": 2,
+      "explain": "Repaso de la clase A2-101: être tiene el radical irregular ét-."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «hacía buen tiempo cuando salí»?",
+      "options": ["Il a fait beau quand je suis sorti.", "Il faisait beau quand je suis sorti.", "Il faisait beau quand je sortais.", "Il a fait beau quand je sortais."],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-103: foto fija (faisait) + acción (suis sorti)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "statement": "Una duración cerrada y contada con pendant + número va en passé composé, aunque sea larga.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-105."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "statement": "Connaître en passé composé significa conocer a alguien por primera vez.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-110."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Une cada forma con su significado",
+      "left": ["je savais", "j'ai su", "je connaissais", "j'ai connu"],
+      "right": ["conocí por primera vez", "sabía (estado)", "me enteré", "ya conocía"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Repaso de la clase A2-110."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["imparfait", "descripcion"],
+      "difficulty": 2,
+      "prompt": "Mi abuela era bajita, tenía el pelo blanco, y siempre llevaba gafas.",
+      "accept": ["Ma grand-mère était petite, elle avait les cheveux blancs, et elle portait toujours des lunettes"],
+      "hintWords": ["ma grand-mère était petite", "elle avait les cheveux blancs"],
+      "strictAccents": true,
+      "audio": "Ma grand-mère était petite, elle avait les cheveux blancs, et elle portait toujours des lunettes.",
+      "explain": "Repaso de la clase A2-106."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["habitos"],
+      "difficulty": 2,
+      "prompt": "Antes, solía jugar fuera todos los días; ahora, me quedo en casa.",
+      "accept": ["Avant, je jouais dehors tous les jours ; maintenant, je reste à la maison"],
+      "hintWords": ["avant, je jouais dehors tous les jours", "maintenant, je reste à la maison"],
+      "strictAccents": true,
+      "audio": "Avant, je jouais dehors tous les jours ; maintenant, je reste à la maison.",
+      "explain": "Repaso de la clase A2-107."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Completa con el conector correcto",
+      "text": "D'abord, j'ai raté le bus. ___, je suis arrivé en retard.",
+      "blanks": [{ "accept": ["Alors"] }],
+      "bank": ["Alors", "Bref", "Avant"],
+      "explain": "Repaso de la clase A2-109: alors indica consecuencia."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Qué pasó anoche?»",
+      "tokens": ["hier soir", "Qu'est-ce qui s'est passé", "?"],
+      "answer": ["Qu'est-ce qui s'est passé", "hier soir", "?"],
+      "audio": "Qu'est-ce qui s'est passé hier soir ?",
+      "explain": "Repaso de la clase A2-108."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "J'ai vu un film hier soir. Les personnages étaient drôles, et la fin était surprenante.",
+      "accept": ["Vi una película anoche. Los personajes eran divertidos, y el final era sorprendente."],
+      "strictAccents": false,
+      "audio": "J'ai vu un film hier soir. Les personnages étaient drôles, et la fin était surprenante.",
+      "explain": "Repaso de la clase A2-111."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre lo que hacías cuando pasó algo",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu faisais quand j'ai appelé ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je dormais.", "Je lisais un livre.", "Je cuisinais."], "hint": "responde con un verbo en imparfait" },
+        { "who": "Léa", "text": "Ah, désolée !", "speak": true }
+      ],
+      "explain": "Repaso de la clase A2-104."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "speak": "Il faisait beau, les enfants jouaient dans la rue, quand soudain il a commencé à pleuvoir.",
+      "mode": "write",
+      "accept": ["Il faisait beau, les enfants jouaient dans la rue, quand soudain il a commencé à pleuvoir"],
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-103."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["habitos"],
+      "difficulty": 1,
+      "speak": "à l'époque",
+      "mode": "choose",
+      "options": ["maintenant", "à l'époque", "bientôt", "demain"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-107."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["narracion"],
+      "difficulty": 3,
+      "speak": "Il faisait beau, j'étais tranquille chez moi. Soudain, quelqu'un a frappé à la porte : c'était mon voisin.",
+      "es": "Hacía buen tiempo, estaba tranquilo en casa. De repente, alguien llamó a la puerta: era mi vecino.",
+      "ipa": "/il fə.zɛ bo ʒe.tɛ tʁɑ̃.kil ʃe mwa su.dɛ̃ kɛl.kœ̃ a fʁa.pe a la pɔʁt sɛ.tɛ mɔ̃ vwa.zɛ̃/",
+      "esApprox": "«il fe-ZE bo ye-TE tran-KIL she MUÁ su-DEN kel-KUN a fra-PÉ a la PORT se-TE mon vuá-ZEN»",
+      "focus": "Repaso de la estructura de una anécdota: situación + interrupción.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Cuenta una pequeña anécdota combinando imparfait y passé composé.",
+      "modelAnswer": "Il faisait beau, j'étais tranquille. Soudain, le téléphone a sonné.",
+      "alsoValid": ["J'étais fatigué toute la semaine, mais j'ai eu une bonne surprise."],
+      "speak": "Il faisait beau, j'étais tranquille. Soudain, le téléphone a sonné.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Es una foto fija (imparfait) o una acción (passé composé)?",
+      "buckets": ["Foto fija", "Acción"],
+      "items": [
+        { "text": "Il faisait beau.", "bucket": 0 },
+        { "text": "Je suis sorti.", "bucket": 1 },
+        { "text": "Les enfants jouaient.", "bucket": 0 },
+        { "text": "Il a commencé à pleuvoir.", "bucket": 1 }
+      ],
+      "explain": "Repaso de la clase A2-103."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Hay un error de matiz. Corrige la frase entera.",
+      "wrong": "Je connaissais Marc à l'université.",
+      "accept": ["J'ai connu Marc à l'université"],
+      "audio": "J'ai connu Marc à l'université.",
+      "explain": "Repaso de la clase A2-110: para el primer encuentro, connaître va en passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "j'étais", "es": "yo era/estaba", "esApprox": "«ye-TE»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "il pleuvait", "es": "llovía", "esApprox": "«il pleu-VE»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "soudain", "es": "de repente", "esApprox": "«su-DEN»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "il y avait", "es": "había", "esApprox": "«il i a-VE»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "avoir l'habitude de", "es": "tener la costumbre de, soler", "esApprox": "«a-VUÁR la-bi-TÜD de»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "finalement", "es": "finalmente, al final", "esApprox": "«fi-nal-MAN»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "j'ai su", "es": "supe, me enteré", "esApprox": "«ye SÜ»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "recommander", "es": "recomendar", "esApprox": "«re-ko-man-DÉ»", "from": "v8" }
+  ]
+}

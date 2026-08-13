@@ -1,0 +1,251 @@
+{
+  "id": "fr-a2-111",
+  "lang": "fr",
+  "level": "A2",
+  "order": 111,
+  "title": "Cuenta la última película o libro que te gustó",
+  "objectives": [
+    "Hablar de una película o un libro combinando imparfait (descripción) y passé composé (acción)",
+    "Dar tu opinión sobre una historia con vocabulario específico",
+    "Recomendar o desaconsejar algo con naturalidad"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Contar de qué trataba una historia",
+      "body": "Para hablar de una película o un libro, describe la historia y los personajes en imparfait (clase A2-102), y cuenta lo que pasó y tu reacción en passé composé.",
+      "examples": [
+        { "target": "J'ai vu un film hier soir. L'histoire parlait d'un voyage, et les personnages étaient très drôles.", "es": "Vi una película anoche. La historia trataba de un viaje, y los personajes eran muy divertidos.", "note": "ai vu (acción) + parlait/étaient (descripción)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario para hablar de historias",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["un film / un livre", "una película / un libro"],
+        ["l'histoire parlait de...", "la historia trataba de..."],
+        ["les personnages", "los personajes"],
+        ["la fin", "el final"],
+        ["je recommande / je ne recommande pas", "recomiendo / no recomiendo"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Je recommande vivement es una forma muy natural de recomendar algo con entusiasmo: vivement significa aquí «mucho, encarecidamente»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "un film", "es": "una película", "ipa": "/œ̃ film/", "esApprox": "«un FILM»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai vu un bon film hier soir.", "es": "Vi una buena película anoche." } },
+    { "id": "v2", "target": "l'histoire parlait de", "es": "la historia trataba de", "ipa": "/lis.twaʁ paʁ.lɛ də/", "esApprox": "«lis-TUÁR par-LE de»", "pos": "expresión", "gender": null, "example": { "target": "L'histoire parlait d'un voyage.", "es": "La historia trataba de un viaje." } },
+    { "id": "v3", "target": "un personnage", "es": "un personaje", "ipa": "/œ̃ pɛʁ.sɔ.naʒ/", "esApprox": "«un per-so-NAZH»", "pos": "sustantivo", "gender": "m", "example": { "target": "Les personnages étaient drôles.", "es": "Los personajes eran divertidos." } },
+    { "id": "v4", "target": "la fin", "es": "el final", "ipa": "/la fɛ̃/", "esApprox": "«la FEN»", "pos": "sustantivo", "gender": "f", "example": { "target": "La fin était surprenante.", "es": "El final era sorprendente." } },
+    { "id": "v5", "target": "recommander", "es": "recomendar", "ipa": "/ʁə.kɔ.mɑ̃.de/", "esApprox": "«re-ko-man-DÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je recommande vivement ce livre.", "es": "Recomiendo encarecidamente este libro." } },
+    { "id": "v6", "target": "drôle", "es": "divertido/a, gracioso/a", "ipa": "/dʁol/", "esApprox": "«DROL»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Les personnages étaient drôles.", "es": "Los personajes eran divertidos." } },
+    { "id": "v7", "target": "surprenant / surprenante", "es": "sorprendente", "ipa": "/syʁ.pʁə.nɑ̃/", "esApprox": "«sür-pre-NAN»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "La fin était surprenante.", "es": "El final era sorprendente." } },
+    { "id": "v8", "target": "un voyage", "es": "un viaje", "ipa": "/œ̃ vwa.jaʒ/", "esApprox": "«un vuá-YAZH»", "pos": "sustantivo", "gender": "m", "example": { "target": "L'histoire parlait d'un voyage.", "es": "La historia trataba de un viaje." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["narracion", "opinion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «los personajes eran divertidos»?",
+      "options": ["Les personnages ont été drôles.", "Les personnages étaient drôles.", "Les personnages sont drôles.", "Les personnages ont drôle."],
+      "answer": 1,
+      "explain": "Étaient (imparfait): descripción de los personajes."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «recomiendo encarecidamente este libro»?",
+      "options": ["Je recommande vivement ce livre.", "J'ai recommandé vivement ce livre.", "Je recommandais vivement ce livre.", "Je vais recommander vivement ce livre."],
+      "answer": 0,
+      "explain": "Presente para dar una opinión/recomendación general."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "statement": "Para describir la historia y los personajes, se suele usar el imparfait.",
+      "answer": true,
+      "explain": "Descripción = imparfait (clase A2-102)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "statement": "Para decir que viste una película, se usa el imparfait: je voyais un film.",
+      "answer": false,
+      "explain": "Ver una película es una acción puntual: j'ai vu un film (passé composé)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["un personnage", "la fin", "surprenant", "un voyage"],
+      "right": ["un viaje", "un personaje", "sorprendente", "el final"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Personnage = personaje, fin = final, surprenant = sorprendente, voyage = viaje."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["narracion", "opinion"],
+      "difficulty": 2,
+      "prompt": "Vi una película anoche. La historia trataba de un viaje, y los personajes eran muy divertidos.",
+      "accept": ["J'ai vu un film hier soir. L'histoire parlait d'un voyage, et les personnages étaient très drôles"],
+      "hintWords": ["j'ai vu un film hier soir", "l'histoire parlait d'un voyage", "les personnages étaient très drôles"],
+      "strictAccents": true,
+      "audio": "J'ai vu un film hier soir. L'histoire parlait d'un voyage, et les personnages étaient très drôles.",
+      "explain": "Ai vu (acción) + parlait/étaient (descripción, imparfait)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "El final era sorprendente. Recomiendo encarecidamente este libro.",
+      "accept": ["La fin était surprenante. Je recommande vivement ce livre"],
+      "hintWords": ["la fin était surprenante", "je recommande vivement ce livre"],
+      "strictAccents": true,
+      "audio": "La fin était surprenante. Je recommande vivement ce livre.",
+      "explain": "Était (descripción) + recommande (opinión en presente)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Completa con el tiempo correcto",
+      "text": "J'___ (passé composé, voir) un bon livre, et l'histoire ___ (imparfait, parler) d'un voyage.",
+      "blanks": [{ "accept": ["ai vu"] }, { "accept": ["parlait"] }],
+      "bank": ["ai vu", "parlait", "vois"],
+      "explain": "Ai vu (acción) + parlait (descripción)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «No recomiendo esta película»",
+      "tokens": ["ce film", "Je ne recommande pas"],
+      "answer": ["Je ne recommande pas", "ce film"],
+      "audio": "Je ne recommande pas ce film.",
+      "explain": "Je ne recommande pas + ce film."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["narracion", "opinion"],
+      "difficulty": 2,
+      "prompt": "J'ai lu un livre la semaine dernière. Les personnages étaient intéressants, mais la fin était un peu triste.",
+      "accept": ["Leí un libro la semana pasada. Los personajes eran interesantes, pero el final era un poco triste."],
+      "strictAccents": false,
+      "audio": "J'ai lu un livre la semaine dernière. Les personnages étaient intéressants, mais la fin était un peu triste.",
+      "explain": "Ai lu (acción) + étaient (descripción, dos veces)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["narracion", "opinion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre una película",
+      "turns": [
+        { "who": "Léa", "text": "Tu as vu un bon film récemment ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai vu un film génial hier soir.", "Oui, l'histoire parlait d'un voyage."], "hint": "cuenta una película que viste" },
+        { "who": "Léa", "text": "Ah, tu me le recommandes ?", "speak": true }
+      ],
+      "explain": "Tu as vu un bon film...? se responde contando la película."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["narracion", "opinion"],
+      "difficulty": 2,
+      "speak": "J'ai vu un film hier soir. Les personnages étaient drôles, et la fin était surprenante.",
+      "mode": "write",
+      "accept": ["J'ai vu un film hier soir. Les personnages étaient drôles, et la fin était surprenante"],
+      "showTextAfter": true,
+      "explain": "Acción + dos descripciones en imparfait."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["opinion"],
+      "difficulty": 1,
+      "speak": "je recommande",
+      "mode": "choose",
+      "options": ["j'ai recommandé", "je recommande", "je recommandais", "je vais recommander"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Je recommande = recomiendo (presente, opinión general)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["narracion", "opinion"],
+      "difficulty": 3,
+      "speak": "J'ai vu un film hier soir. L'histoire parlait d'un voyage, les personnages étaient drôles, et la fin était surprenante. Je recommande vivement !",
+      "es": "Vi una película anoche. La historia trataba de un viaje, los personajes eran divertidos, y el final era sorprendente. ¡Lo recomiendo encarecidamente!",
+      "ipa": "/ʒe vy œ̃ film jɛʁ swaʁ lis.twaʁ paʁ.lɛ dœ̃ vwa.jaʒ le pɛʁ.sɔ.naʒ e.tɛ dʁol e la fɛ̃ e.tɛ syʁ.pʁə.nɑ̃t ʒə ʁə.kɔ.mɑ̃d viv.mɑ̃/",
+      "esApprox": "«ye VÜ un FILM ier SUAR lis-TUÁR par-LE dun vuá-YAZH le per-so-NAZH e-TE DROL e la FEN e-TE sür-pre-NANT ye re-ko-MAND viv-MAN»",
+      "focus": "Reseña completa: acción + tres descripciones + recomendación.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["narracion", "opinion"],
+      "difficulty": 2,
+      "prompt": "Cuenta la última película o libro que te gustó: qué viste/leíste, de qué trataba, y si lo recomiendas.",
+      "modelAnswer": "J'ai vu un film génial. L'histoire parlait d'un voyage, et je recommande vivement.",
+      "alsoValid": ["J'ai lu un bon livre, les personnages étaient intéressants."],
+      "speak": "J'ai vu un film génial. L'histoire parlait d'un voyage, et je recommande vivement.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["narracion", "opinion"],
+      "difficulty": 2,
+      "prompt": "¿Es una acción (passé composé) o una descripción (imparfait)?",
+      "buckets": ["Acción", "Descripción"],
+      "items": [
+        { "text": "J'ai vu un film.", "bucket": 0 },
+        { "text": "Les personnages étaient drôles.", "bucket": 1 },
+        { "text": "J'ai lu un livre.", "bucket": 0 },
+        { "text": "La fin était surprenante.", "bucket": 1 }
+      ],
+      "explain": "Ver/leer son acciones puntuales; describir personajes o el final es imparfait."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "Les personnages ont été très drôles.",
+      "accept": ["Les personnages étaient très drôles"],
+      "audio": "Les personnages étaient très drôles.",
+      "explain": "Describir a los personajes va en imparfait, no en passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "un film", "es": "una película", "esApprox": "«un FILM»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "l'histoire parlait de", "es": "la historia trataba de", "esApprox": "«lis-TUÁR par-LE de»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un personnage", "es": "un personaje", "esApprox": "«un per-so-NAZH»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "la fin", "es": "el final", "esApprox": "«la FEN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "recommander", "es": "recomendar", "esApprox": "«re-ko-man-DÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "J'ai vu un film hier soir. L'histoire parlait d'un voyage, et les personnages étaient très drôles.", "es": "Vi una película anoche. La historia trataba de un viaje, y los personajes eran muy divertidos.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "La fin était surprenante. Je recommande vivement ce livre.", "es": "El final era sorprendente. Recomiendo encarecidamente este libro.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Je ne recommande pas ce film.", "es": "No recomiendo esta película.", "from": "e9" }
+  ]
+}

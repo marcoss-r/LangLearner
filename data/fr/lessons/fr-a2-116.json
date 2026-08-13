@@ -1,0 +1,261 @@
+{
+  "id": "fr-a2-116",
+  "lang": "fr",
+  "level": "A2",
+  "order": 116,
+  "title": "Los pronombres tónicos: moi, toi, lui, elle, nous…",
+  "objectives": [
+    "Usar los pronombres tónicos después de una preposición: avec moi, pour toi, chez lui",
+    "Usar los pronombres tónicos para dar énfasis: moi, je pense que...",
+    "Usar los pronombres tónicos después de c'est: c'est moi, c'est lui"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Unos pronombres distintos de los que ya conoces",
+      "body": "Los pronombres tónicos (moi, toi, lui, elle, nous, vous, eux, elles) no sustituyen al sujeto del verbo (como je, tu, il, clase A1-08): se usan después de una preposición, para dar énfasis, o después de c'est.",
+      "examples": [
+        { "target": "Moi, je pense que c'est lui le problème, pas toi.", "es": "Yo, creo que el problema es él, no tú.", "note": "moi (énfasis) + lui (después de c'est) + toi (comparación)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los pronombres tónicos",
+      "headers": ["Sujeto", "Tónico"],
+      "rows": [
+        ["je", "moi"],
+        ["tu", "toi"],
+        ["il", "lui"],
+        ["elle", "elle"],
+        ["nous", "nous"],
+        ["vous", "vous"],
+        ["ils", "eux"],
+        ["elles", "elles"]
+      ],
+      "note": "Solo je→moi, tu→toi, il→lui e ils→eux cambian de forma; los demás son iguales que el sujeto."
+    },
+    {
+      "type": "table",
+      "title": "Los tres usos principales",
+      "headers": ["Uso", "Ejemplo"],
+      "rows": [
+        ["Después de preposición", "Tu viens avec moi ?"],
+        ["Énfasis al principio de la frase", "Moi, je n'aime pas ça."],
+        ["Después de c'est", "C'est toi ?"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "moi / toi", "es": "yo / tú (tónicos)", "ipa": "/mwa twa/", "esApprox": "«MUÁ TUÁ»", "pos": "pronombre", "gender": null, "example": { "target": "Tu viens avec moi ?", "es": "¿Vienes conmigo?" } },
+    { "id": "v2", "target": "lui / elle", "es": "él / ella (tónicos)", "ipa": "/lɥi ɛl/", "esApprox": "«LÜÍ EL»", "pos": "pronombre", "gender": null, "example": { "target": "C'est pour lui.", "es": "Es para él." } },
+    { "id": "v3", "target": "eux / elles", "es": "ellos / ellas (tónicos)", "ipa": "/ø ɛl/", "esApprox": "«EU EL»", "pos": "pronombre", "gender": null, "example": { "target": "Je pars sans eux.", "es": "Me voy sin ellos." } },
+    { "id": "v4", "target": "chez", "es": "en casa de", "ipa": "/ʃe/", "esApprox": "«SHÉ»", "pos": "preposición", "gender": null, "example": { "target": "Je vais chez lui ce soir.", "es": "Voy a su casa esta noche." } },
+    { "id": "v5", "target": "sans", "es": "sin", "ipa": "/sɑ̃/", "esApprox": "«SAN»", "pos": "preposición", "gender": null, "example": { "target": "Je ne peux pas vivre sans toi.", "es": "No puedo vivir sin ti." } },
+    { "id": "v6", "target": "plus... que moi", "es": "más... que yo", "ipa": "/ply kə mwa/", "esApprox": "«plü ke MUÁ»", "pos": "expresión", "gender": null, "example": { "target": "Elle est plus grande que moi.", "es": "Ella es más alta que yo." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «¿vienes conmigo?»?",
+      "options": ["Tu viens avec je ?", "Tu viens avec moi ?", "Tu viens avec me ?", "Tu viens avec mien ?"],
+      "answer": 1,
+      "explain": "Después de una preposición (avec), se usa el pronombre tónico: moi."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «es para él»?",
+      "options": ["C'est pour il.", "C'est pour lui.", "C'est pour le.", "C'est pour son."],
+      "answer": 1,
+      "explain": "Después de una preposición, il se convierte en lui."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "statement": "Nous y vous tienen la misma forma como sujeto y como pronombre tónico.",
+      "answer": true,
+      "explain": "Solo je, tu, il e ils cambian de forma."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "statement": "Moi, je pense que... es una forma de dar énfasis al sujeto.",
+      "answer": true,
+      "explain": "El pronombre tónico al principio añade énfasis, aunque el verbo ya lleve su propio sujeto (je)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "Une cada sujeto con su pronombre tónico",
+      "left": ["je", "tu", "il", "ils"],
+      "right": ["toi", "eux", "moi", "lui"],
+      "answer": [2, 0, 3, 1],
+      "explain": "Je → moi, tu → toi, il → lui, ils → eux."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "Yo, creo que el problema es él, no tú.",
+      "accept": ["Moi, je pense que c'est lui le problème, pas toi"],
+      "hintWords": ["moi, je pense que c'est lui", "pas toi"],
+      "strictAccents": true,
+      "audio": "Moi, je pense que c'est lui le problème, pas toi.",
+      "explain": "Moi (énfasis) + lui (después de c'est) + toi (contraste)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "Voy a su casa esta noche, sin ellos.",
+      "accept": ["Je vais chez lui ce soir, sans eux"],
+      "hintWords": ["je vais chez lui ce soir", "sans eux"],
+      "strictAccents": true,
+      "audio": "Je vais chez lui ce soir, sans eux.",
+      "explain": "Chez lui + sans eux, dos preposiciones con tónicos."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre tónico correcto",
+      "text": "Elle est plus grande que ___, mais je suis plus rapide qu'___.",
+      "blanks": [{ "accept": ["moi"] }, { "accept": ["elle"] }],
+      "bank": ["moi", "elle", "je"],
+      "explain": "Que + pronombre tónico en las comparaciones."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «No puedo vivir sin ti»",
+      "tokens": ["sans toi", "Je ne peux pas vivre"],
+      "answer": ["Je ne peux pas vivre", "sans toi"],
+      "audio": "Je ne peux pas vivre sans toi.",
+      "explain": "Je ne peux pas vivre + sans toi."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "C'est toi ? Nous, on t'attendait chez nous.",
+      "accept": ["¿Eres tú? Nosotros, te esperábamos en nuestra casa."],
+      "strictAccents": false,
+      "audio": "C'est toi ? Nous, on t'attendait chez nous.",
+      "explain": "Toi (después de c'est) + nous (énfasis y preposición)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre venir contigo",
+      "turns": [
+        { "who": "Léa", "text": "Tu viens avec moi ce soir ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je viens avec toi.", "Non, je ne peux pas venir avec toi."], "hint": "usa avec toi" },
+        { "who": "Léa", "text": "D'accord !", "speak": true }
+      ],
+      "explain": "Avec moi se responde con avec toi."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "speak": "Moi, je pense que c'est elle, pas lui, mais toi, qu'est-ce que tu penses ?",
+      "mode": "write",
+      "accept": ["Moi, je pense que c'est elle, pas lui, mais toi, qu'est-ce que tu penses ?"],
+      "showTextAfter": true,
+      "explain": "Cuatro pronombres tónicos en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 1,
+      "speak": "avec moi",
+      "mode": "choose",
+      "options": ["avec je", "avec moi", "avec me", "avec mien"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Avec moi = conmigo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 3,
+      "speak": "Moi, je viens avec toi. C'est lui qui reste chez nous, et eux, ils partent sans elle.",
+      "es": "Yo, vengo contigo. Es él quien se queda en nuestra casa, y ellos, se van sin ella.",
+      "ipa": "/mwa ʒə vjɛ̃ a.vɛk twa sɛ lɥi ki ʁɛst ʃe nu e ø il paʁt sɑ̃.z‿ɛl/",
+      "esApprox": "«MUÁ ye VIEN a-VEK TUÁ se LÜÍ ki REST she NU e EU il PART san-ZEL»",
+      "focus": "Seis pronombres tónicos distintos en una sola frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "Di con quién vas a algún sitio, usando un pronombre tónico.",
+      "modelAnswer": "Je vais au cinéma avec eux ce soir.",
+      "alsoValid": ["Moi, je préfère rester chez moi."],
+      "speak": "Je vais au cinéma avec eux ce soir.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "¿Es un pronombre sujeto o un pronombre tónico?",
+      "buckets": ["Sujeto", "Tónico"],
+      "items": [
+        { "text": "il", "bucket": 0 },
+        { "text": "lui", "bucket": 1 },
+        { "text": "je", "bucket": 0 },
+        { "text": "moi", "bucket": 1 },
+        { "text": "ils", "bucket": 0 },
+        { "text": "eux", "bucket": 1 }
+      ],
+      "explain": "Il/je/ils son sujetos; lui/moi/eux son tónicos."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de pronombre. Corrige la frase entera.",
+      "wrong": "Tu viens avec je ?",
+      "accept": ["Tu viens avec moi ?"],
+      "audio": "Tu viens avec moi ?",
+      "explain": "Después de una preposición, se usa el pronombre tónico moi, no je."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "moi / toi", "es": "yo / tú (tónicos)", "esApprox": "«MUÁ TUÁ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "lui / elle", "es": "él / ella (tónicos)", "esApprox": "«LÜÍ EL»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "eux / elles", "es": "ellos / ellas (tónicos)", "esApprox": "«EU EL»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "chez", "es": "en casa de", "esApprox": "«SHÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "sans", "es": "sin", "esApprox": "«SAN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Moi, je pense que c'est lui le problème, pas toi.", "es": "Yo, creo que el problema es él, no tú.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je vais chez lui ce soir, sans eux.", "es": "Voy a su casa esta noche, sin ellos.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Je ne peux pas vivre sans toi.", "es": "No puedo vivir sin ti.", "from": "e9" }
+  ]
+}
