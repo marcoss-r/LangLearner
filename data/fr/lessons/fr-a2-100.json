@@ -1,0 +1,268 @@
+{
+  "id": "fr-a2-100",
+  "lang": "fr",
+  "level": "A2",
+  "order": 100,
+  "title": "Repaso activo VII (clases 91–99)",
+  "objectives": [
+    "Repasar el grupo completo de verbos con être y el acuerdo del participio",
+    "Repasar los pronombres COD/COI en passé composé y el acuerdo con el COD antepuesto",
+    "Repasar los verbos pronominales en pasado, los marcadores de tiempo y los participios irregulares"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque H (el pasado a fondo)",
+      "body": "Sin gramática nueva. Este bloque ha completado tu dominio del passé composé: el auxiliar completo, los pronombres, el acuerdo del participio, los pronominales, y los participios irregulares más difíciles. Repasa con calma antes de seguir con el imparfait."
+    },
+    {
+      "type": "table",
+      "title": "El acuerdo del participio, resumen completo",
+      "headers": ["Caso", "Acuerdo", "Ejemplo"],
+      "rows": [
+        ["con être (verbos de movimiento)", "con el sujeto", "elle est allée, ils sont allés"],
+        ["pronominales (con être)", "con el pronombre reflexivo", "elle s'est levée"],
+        ["con avoir, sin COD antepuesto", "nunca", "j'ai mangé la pomme"],
+        ["con avoir, con COD antepuesto", "con el COD", "je l'ai mangée"],
+        ["con avoir, con COI", "nunca", "je lui ai parlé"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los verbos con être, opuestos",
+      "headers": ["Verbo", "Opuesto"],
+      "rows": [
+        ["entrer", "sortir"],
+        ["monter", "descendre"],
+        ["naître", "mourir"],
+        ["arriver", "partir"],
+        ["aller", "venir"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "naître", "es": "nacer", "ipa": "/nɛtʁ/", "esApprox": "«NETR»", "pos": "verbo", "gender": null },
+    { "id": "v2", "target": "tomber", "es": "caerse", "ipa": "/tɔ̃.be/", "esApprox": "«ton-BÉ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "Je l'ai vu(e).", "es": "Lo/la vi.", "ipa": "/ʒə le vy/", "esApprox": "«ye le VÜ»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "ne...plus", "es": "ya no", "ipa": "/nə ply/", "esApprox": "«ne PLÜ»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "ne...que", "es": "solo, solamente", "ipa": "/nə kə/", "esApprox": "«ne ke»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "pris", "es": "cogido, tomado (de prendre)", "ipa": "/pʁi/", "esApprox": "«PRÍ»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "il y a + durée", "es": "hace... (tiempo)", "ipa": "/il i a/", "esApprox": "«il i A»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "C'était génial !", "es": "¡Fue genial!", "ipa": "/sɛ.tɛ ʒe.njal/", "esApprox": "«se-TE ye-NIAL»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «ella nació en 1998»?",
+      "options": ["Elle a né en 1998.", "Elle est née en 1998.", "Elle a naît en 1998.", "Elle est naître en 1998."],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-91: naître usa être."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta?",
+      "options": ["J'ai mangée la pomme.", "J'ai mangé la pomme.", "J'ai mangés la pomme.", "J'ai mangés la pomme."],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-93: sin pronombre antepuesto, no hay acuerdo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "statement": "Los verbos pronominales siempre usan être en passé composé.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-94."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "statement": "Ne...que no es una negación real: solo limita una cantidad.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-96."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos participios no termina en -is?",
+      "options": ["pris", "mis", "bu", "assis"],
+      "answer": 2,
+      "explain": "Repaso de la clase A2-97: bu termina en -u."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su opuesto",
+      "left": ["entrer", "monter", "naître", "tomber"],
+      "right": ["mourir", "sortir", "rester", "descendre"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Repaso de la clase A2-91."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "¿La manzana? La comí esta mañana.",
+      "accept": ["La pomme ? Je l'ai mangée ce matin"],
+      "hintWords": ["la pomme", "je l'ai mangée ce matin"],
+      "strictAccents": true,
+      "audio": "La pomme ? Je l'ai mangée ce matin.",
+      "explain": "Repaso de la clase A2-93."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "Ella se levantó a las siete, y se vistió rápido.",
+      "accept": ["Elle s'est levée à sept heures, et elle s'est habillée vite"],
+      "hintWords": ["elle s'est levée à sept heures", "elle s'est habillée vite"],
+      "strictAccents": true,
+      "audio": "Elle s'est levée à sept heures, et elle s'est habillée vite.",
+      "explain": "Repaso de la clase A2-94."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "Completa con el marcador correcto",
+      "text": "Je suis arrivé ___, et je pars demain.",
+      "blanks": [{ "accept": ["avant-hier"] }],
+      "bank": ["avant-hier", "bientôt", "demain"],
+      "explain": "Repaso de la clase A2-95."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la pregunta: «¿Por qué no has respondido?»",
+      "tokens": ["pas répondu", "Pourquoi n'as-tu", "?"],
+      "answer": ["Pourquoi n'as-tu", "pas répondu", "?"],
+      "audio": "Pourquoi n'as-tu pas répondu ?",
+      "explain": "Repaso de la clase A2-96."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "J'ai mis mon manteau, j'ai pris mon sac, et j'ai dit au revoir à mes parents.",
+      "accept": ["Me puse el abrigo, cogí mi bolso, y dije adiós a mis padres."],
+      "strictAccents": false,
+      "audio": "J'ai mis mon manteau, j'ai pris mon sac, et j'ai dit au revoir à mes parents.",
+      "explain": "Repaso de la clase A2-97."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["conversacion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu fin de semana",
+      "turns": [
+        { "who": "Léa", "text": "Alors, qu'est-ce que tu as fait de beau ce week-end ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je suis allé à un concert, c'était génial.", "Rien de spécial, je me suis reposé."], "hint": "cuenta tu fin de semana" },
+        { "who": "Léa", "text": "Ah, sympa !", "speak": true }
+      ],
+      "explain": "Repaso de la clase A2-98."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "speak": "J'ai lu ce livre, j'ai bu un café, et j'ai écrit un message à Léa.",
+      "mode": "write",
+      "accept": ["J'ai lu ce livre, j'ai bu un café, et j'ai écrit un message à Léa"],
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-97."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 1,
+      "speak": "je les ai vues",
+      "mode": "choose",
+      "options": ["je l'ai vu", "je l'ai vue", "je les ai vus", "je les ai vues"],
+      "answer": 3,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-93."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["narracion", "passe-compose"],
+      "difficulty": 3,
+      "speak": "Je me suis réveillé, je me suis douché, puis j'ai pris le petit-déjeuner. Plus tard, j'ai déjeuné avec mes collègues.",
+      "es": "Me desperté, me duché, luego desayuné. Más tarde, comí con mis compañeros.",
+      "ipa": "/ʒə mə sɥi ʁe.ve.je ʒə mə sɥi du.ʃe pɥi ʒe pʁi lə pə.ti de.ʒœ.ne ply taʁ ʒe de.ʒœ.ne a.vɛk me kɔ.lɛɡ/",
+      "esApprox": "«ye me süí re-ve-YÉ ye me süí du-SHÉ püí ye PRÍ le peti de-YEU-ne plü TAR ye de-yeu-NÉ a-VEK me ko-LEG»",
+      "focus": "Repaso del bloque completo: pronominales, avoir, y conectores de narración.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "speak_prompt",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Narra tu día de ayer combinando al menos un pronominal, un verbo con avoir y uno con être.",
+      "modelAnswer": "Je me suis levé, j'ai pris le petit-déjeuner, et je suis allé au travail.",
+      "alsoValid": ["Je me suis reposé, j'ai lu un livre, et je suis sorti le soir."],
+      "speak": "Je me suis levé, j'ai pris le petit-déjeuner, et je suis allé au travail.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "¿Este verbo usa avoir o être en passé composé?",
+      "buckets": ["avoir", "être"],
+      "items": [
+        { "text": "manger", "bucket": 0 },
+        { "text": "entrer", "bucket": 1 },
+        { "text": "parler", "bucket": 0 },
+        { "text": "naître", "bucket": 1 },
+        { "text": "finir", "bucket": 0 },
+        { "text": "tomber", "bucket": 1 }
+      ],
+      "explain": "Repaso de la clase A2-91."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "Hay un error de auxiliar. Corrige la frase entera.",
+      "wrong": "J'ai réveillé tôt.",
+      "accept": ["Je me suis réveillé tôt"],
+      "audio": "Je me suis réveillé tôt.",
+      "explain": "Repaso de la clase A2-99: se réveiller es pronominal."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "naître", "es": "nacer", "esApprox": "«NETR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "tomber", "es": "caerse", "esApprox": "«ton-BÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "Je l'ai vu(e).", "es": "Lo/la vi.", "esApprox": "«ye le VÜ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "ne...plus", "es": "ya no", "esApprox": "«ne PLÜ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "ne...que", "es": "solo, solamente", "esApprox": "«ne ke»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "pris", "es": "cogido, tomado (de prendre)", "esApprox": "«PRÍ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "il y a + durée", "es": "hace... (tiempo)", "esApprox": "«il i A»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "C'était génial !", "es": "¡Fue genial!", "esApprox": "«se-TE ye-NIAL»", "from": "v8" }
+  ]
+}

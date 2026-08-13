@@ -1,0 +1,252 @@
+{
+  "id": "fr-a2-099",
+  "lang": "fr",
+  "level": "A2",
+  "order": 99,
+  "title": "Narrar un día cualquiera de tu vida, paso a paso",
+  "objectives": [
+    "Narrar una jornada completa en passé composé, de la mañana a la noche",
+    "Combinar los pronominales de la rutina (clase A1-41) con avoir y être en pasado",
+    "Usar puis, après, plus tard para encadenar las acciones con naturalidad"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "De la rutina en presente a la narración en pasado",
+      "body": "Ya sabes describir tu rutina en presente (clase A1-40). Ahora la cuentas en pasado, con los mismos verbos pronominales pero conjugados con être (clase A2-94), combinados con avoir para las demás acciones.",
+      "examples": [
+        { "target": "Je me suis réveillé, puis je me suis douché, et après j'ai pris le petit-déjeuner.", "es": "Me desperté, luego me duché, y después desayuné.", "note": "être + pronominal, avoir + prendre" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Nuevos conectores para narrar"
+      ,
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["puis", "luego, después"],
+        ["après", "después"],
+        ["plus tard", "más tarde"],
+        ["à ce moment-là", "en ese momento"]
+      ],
+      "note": "Puis es un sinónimo de ensuite (clase A1-40), y se usa igual de a menudo."
+    },
+    {
+      "type": "tip",
+      "body": "Cuando narras un día completo, no hace falta un conector en cada frase: usa uno cada dos o tres acciones para que suene natural, no como una lista."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "puis", "es": "luego, después", "ipa": "/pɥi/", "esApprox": "«PÜÍ»", "pos": "adverbio", "gender": null, "example": { "target": "Je me suis levé, puis je me suis douché.", "es": "Me levanté, luego me duché." } },
+    { "id": "v2", "target": "après", "es": "después", "ipa": "/a.pʁɛ/", "esApprox": "«a-PRE»", "pos": "adverbio", "gender": null, "example": { "target": "J'ai pris le petit-déjeuner, et après je suis parti.", "es": "Desayuné, y después salí." } },
+    { "id": "v3", "target": "plus tard", "es": "más tarde", "ipa": "/ply taʁ/", "esApprox": "«plü TAR»", "pos": "expresión", "gender": null, "example": { "target": "Plus tard, j'ai déjeuné avec des collègues.", "es": "Más tarde, comí con unos compañeros." } },
+    { "id": "v4", "target": "à ce moment-là", "es": "en ese momento", "ipa": "/a sə mɔ.mɑ̃ la/", "esApprox": "«a se mo-MAN LA»", "pos": "expresión", "gender": null, "example": { "target": "À ce moment-là, j'ai reçu un appel.", "es": "En ese momento, recibí una llamada." } },
+    { "id": "v5", "target": "un collègue", "es": "un/a compañero/a de trabajo", "ipa": "/œ̃ kɔ.lɛɡ/", "esApprox": "«un ko-LEG»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai déjeuné avec mes collègues.", "es": "Comí con mis compañeros de trabajo." } },
+    { "id": "v6", "target": "recevoir / reçu", "es": "recibir / recibido", "ipa": "/ʁə.sə.vwaʁ ʁə.sy/", "esApprox": "«re-se-VUÁR re-SÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai reçu un appel important.", "es": "Recibí una llamada importante." } },
+    { "id": "v7", "target": "un appel", "es": "una llamada", "ipa": "/œ̃.n‿a.pɛl/", "esApprox": "«un-na-PEL»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai reçu un appel important.", "es": "Recibí una llamada importante." } },
+    { "id": "v8", "target": "Raconte-moi ta journée.", "es": "Cuéntame tu día.", "ipa": "/ʁa.kɔ̃t mwa ta ʒuʁ.ne/", "esApprox": "«ra-KONT muá ta yur-NÉ»", "pos": "expresión", "gender": null, "example": { "target": "Raconte-moi ta journée d'hier.", "es": "Cuéntame tu día de ayer." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["narracion", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «puis»?",
+      "options": ["antes", "luego, después", "nunca", "ahora"],
+      "answer": 1,
+      "explain": "Puis = luego, después, sinónimo de ensuite."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «en ese momento»?",
+      "options": ["plus tard", "à ce moment-là", "après", "puis"],
+      "answer": 1,
+      "explain": "À ce moment-là = en ese momento."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["narracion", "passe-compose"],
+      "difficulty": 2,
+      "statement": "Una narración de un día puede combinar verbos pronominales, con avoir y con être.",
+      "answer": true,
+      "explain": "Es normal mezclar los tres tipos según cada verbo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "statement": "Puis y ensuite (clase A1-40) tienen el mismo significado.",
+      "answer": true,
+      "explain": "Son sinónimos, aunque puis es algo más frecuente en el habla."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["puis", "plus tard", "un collègue", "un appel"],
+      "right": ["una llamada", "luego", "más tarde", "un compañero de trabajo"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Puis = luego, plus tard = más tarde, collègue = compañero, appel = llamada."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["narracion", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Me desperté, luego me duché, y después desayuné.",
+      "accept": ["Je me suis réveillé, puis je me suis douché, et après j'ai pris le petit-déjeuner"],
+      "hintWords": ["je me suis réveillé", "puis je me suis douché", "j'ai pris le petit-déjeuner"],
+      "strictAccents": true,
+      "audio": "Je me suis réveillé, puis je me suis douché, et après j'ai pris le petit-déjeuner.",
+      "explain": "Se réveiller, se doucher (pronominales) + prendre (avoir)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["narracion", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Más tarde, comí con mis compañeros de trabajo, y en ese momento recibí una llamada.",
+      "accept": ["Plus tard, j'ai déjeuné avec mes collègues, et à ce moment-là j'ai reçu un appel"],
+      "hintWords": ["plus tard, j'ai déjeuné avec mes collègues", "à ce moment-là j'ai reçu un appel"],
+      "strictAccents": true,
+      "audio": "Plus tard, j'ai déjeuné avec mes collègues, et à ce moment-là j'ai reçu un appel.",
+      "explain": "Plus tard y à ce moment-là, dos marcadores de narración."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Completa con el conector correcto",
+      "text": "Je me suis levé, ___ je me suis habillé, et ___ je suis parti au travail.",
+      "blanks": [{ "accept": ["puis"] }, { "accept": ["après"] }],
+      "bank": ["puis", "après", "plus tard"],
+      "explain": "Puis + après: dos conectores para encadenar acciones."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Recibí una llamada importante en ese momento»",
+      "tokens": ["à ce moment-là", "un appel important", "J'ai reçu"],
+      "answer": ["J'ai reçu", "un appel important", "à ce moment-là"],
+      "audio": "J'ai reçu un appel important à ce moment-là.",
+      "explain": "J'ai reçu + un appel important + à ce moment-là."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["narracion", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Je me suis levé tôt, je me suis habillé, puis je suis allé au travail avec mes collègues.",
+      "accept": ["Me levanté temprano, me vestí, luego fui al trabajo con mis compañeros."],
+      "strictAccents": false,
+      "audio": "Je me suis levé tôt, je me suis habillé, puis je suis allé au travail avec mes collègues.",
+      "explain": "Rutina completa narrada con pronominales y être."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu día",
+      "turns": [
+        { "who": "Léa", "text": "Raconte-moi ta journée d'hier.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je me suis levé tôt, puis je suis allé au travail.", "Je me suis levé, j'ai pris le petit-déjeuner, et je suis parti."], "hint": "narra tu día con passé composé" },
+        { "who": "Léa", "text": "Ah, une journée normale, alors !", "speak": true }
+      ],
+      "explain": "Raconte-moi ta journée se responde con una narración en passé composé."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["narracion", "passe-compose"],
+      "difficulty": 2,
+      "speak": "Je me suis levé, j'ai pris le petit-déjeuner, puis je suis allé au travail avec mes collègues.",
+      "mode": "write",
+      "accept": ["Je me suis levé, j'ai pris le petit-déjeuner, puis je suis allé au travail avec mes collègues"],
+      "showTextAfter": true,
+      "explain": "Narración de la mañana con tres verbos distintos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["narracion"],
+      "difficulty": 1,
+      "speak": "plus tard",
+      "mode": "choose",
+      "options": ["puis", "après", "plus tard", "à ce moment-là"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Plus tard = más tarde."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["narracion", "passe-compose"],
+      "difficulty": 3,
+      "speak": "Je me suis réveillé, je me suis douché, puis j'ai pris le petit-déjeuner. Plus tard, j'ai déjeuné avec mes collègues, et le soir je me suis couché tôt.",
+      "es": "Me desperté, me duché, luego desayuné. Más tarde, comí con mis compañeros, y por la noche me acosté temprano.",
+      "ipa": "/ʒə mə sɥi ʁe.ve.je ʒə mə sɥi du.ʃe pɥi ʒe pʁi lə pə.ti de.ʒœ.ne ply taʁ ʒe de.ʒœ.ne a.vɛk me kɔ.lɛɡ e lə swaʁ ʒə mə sɥi ku.ʃe to/",
+      "esApprox": "«ye me süí re-ve-YÉ ye me süí du-SHÉ püí ye PRÍ le peti de-YEU-ne plü TAR ye de-yeu-NÉ a-VEK me ko-LEG e le SUAR ye me süí ku-SHÉ TÓ»",
+      "focus": "Un día completo narrado de principio a fin, con seis verbos distintos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["narracion", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Narra tu día de ayer, paso a paso, desde que te levantaste hasta que te acostaste.",
+      "modelAnswer": "Je me suis levé, j'ai pris le petit-déjeuner, puis je suis allé au travail, et le soir je me suis couché tôt.",
+      "alsoValid": ["Je me suis réveillé tard, je me suis reposé, et j'ai lu un livre."],
+      "speak": "Je me suis levé, j'ai pris le petit-déjeuner, puis je suis allé au travail, et le soir je me suis couché tôt.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "¿Es un conector de narración o una expresión de opinión?",
+      "buckets": ["Conector", "Opinión"],
+      "items": [
+        { "text": "puis", "bucket": 0 },
+        { "text": "C'était génial !", "bucket": 1 },
+        { "text": "plus tard", "bucket": 0 },
+        { "text": "Rien de spécial.", "bucket": 1 }
+      ],
+      "explain": "Repaso combinado de las clases A2-98 y A2-99."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["narracion", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Hay un error de auxiliar. Corrige la frase entera.",
+      "wrong": "J'ai réveillé tôt.",
+      "accept": ["Je me suis réveillé tôt"],
+      "audio": "Je me suis réveillé tôt.",
+      "explain": "Se réveiller es pronominal: necesita être y el pronombre reflexivo."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "puis", "es": "luego, después", "esApprox": "«PÜÍ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "après", "es": "después", "esApprox": "«a-PRE»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "plus tard", "es": "más tarde", "esApprox": "«plü TAR»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "à ce moment-là", "es": "en ese momento", "esApprox": "«a se mo-MAN LA»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un collègue", "es": "un/a compañero/a de trabajo", "esApprox": "«un ko-LEG»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je me suis réveillé, puis je me suis douché, et après j'ai pris le petit-déjeuner.", "es": "Me desperté, luego me duché, y después desayuné.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Plus tard, j'ai déjeuné avec mes collègues, et à ce moment-là j'ai reçu un appel.", "es": "Más tarde, comí con mis compañeros de trabajo, y en ese momento recibí una llamada.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai reçu un appel important à ce moment-là.", "es": "Recibí una llamada importante en ese momento.", "from": "e9" }
+  ]
+}

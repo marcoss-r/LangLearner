@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-091",
+  "lang": "fr",
+  "level": "A2",
+  "order": 91,
+  "title": "Repaso a fondo: cuándo va con avoir y cuándo con être",
+  "objectives": [
+    "Completar la lista de verbos que forman el passé composé con être",
+    "Reconocer los pares de opuestos que ayudan a memorizarlos: entrer/sortir, monter/descendre, naître/mourir",
+    "Aplicar el acuerdo del participio (clase A1-80) a todos estos verbos nuevos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El grupo completo de verbos con être",
+      "body": "En A1 conociste cinco verbos con être: aller, venir, partir, arriver, rester. Ahora completas el grupo entero, que son casi todos verbos de movimiento o de cambio de estado, y que se recuerdan mejor en parejas de opuestos.",
+      "examples": [
+        { "target": "Elle est née à Paris et elle est morte à Lyon.", "es": "Ella nació en París y murió en Lyon.", "note": "naître/mourir, ambos con être" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los verbos con être, en parejas de opuestos",
+      "headers": ["Verbo", "Participio", "Opuesto"],
+      "rows": [
+        ["entrer", "entré(e)", "sortir → sorti(e)"],
+        ["monter", "monté(e)", "descendre → descendu(e)"],
+        ["naître", "né(e)", "mourir → mort(e)"],
+        ["arriver", "arrivé(e)", "partir → parti(e)"],
+        ["aller", "allé(e)", "venir → venu(e)"],
+        ["tomber", "tombé(e)", "rester → resté(e)"]
+      ],
+      "note": "Todos estos participios se acuerdan con el sujeto (-e, -s, -es), exactamente igual que aller (clase A1-80)."
+    },
+    {
+      "type": "tip",
+      "body": "Un truco muy usado para memorizarlos es el nombre «DR & MRS VANDERTRAMP», donde cada letra es la inicial de un verbo: Devenir, Revenir, Monter, Rester, Sortir, Venir, Aller, Naître, Descendre, Entrer, Rentrer, Tomber, Retourner, Arriver, Mourir, Partir."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "entrer", "es": "entrar", "ipa": "/ɑ̃.tʁe/", "esApprox": "«an-TRÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je suis entré dans la salle.", "es": "Entré en la sala." } },
+    { "id": "v2", "target": "sortir", "es": "salir", "ipa": "/sɔʁ.tiʁ/", "esApprox": "«sor-TIR»", "pos": "verbo", "gender": null, "example": { "target": "Elle est sortie tôt ce matin.", "es": "Ella salió temprano esta mañana." } },
+    { "id": "v3", "target": "monter", "es": "subir", "ipa": "/mɔ̃.te/", "esApprox": "«mon-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Nous sommes montés au troisième étage.", "es": "Subimos al tercer piso." } },
+    { "id": "v4", "target": "descendre", "es": "bajar", "ipa": "/de.sɑ̃dʁ/", "esApprox": "«de-SANDR»", "pos": "verbo", "gender": null, "example": { "target": "Ils sont descendus à la cave.", "es": "Bajaron al sótano." } },
+    { "id": "v5", "target": "naître", "es": "nacer", "ipa": "/nɛtʁ/", "esApprox": "«NETR»", "pos": "verbo", "gender": null, "example": { "target": "Elle est née en 1998.", "es": "Ella nació en 1998." } },
+    { "id": "v6", "target": "mourir", "es": "morir", "ipa": "/mu.ʁiʁ/", "esApprox": "«mu-RIR»", "pos": "verbo", "gender": null, "example": { "target": "Il est mort l'année dernière.", "es": "Él murió el año pasado." } },
+    { "id": "v7", "target": "tomber", "es": "caerse", "ipa": "/tɔ̃.be/", "esApprox": "«ton-BÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je suis tombé dans l'escalier.", "es": "Me caí en la escalera." } },
+    { "id": "v8", "target": "retourner", "es": "volver, regresar", "ipa": "/ʁə.tuʁ.ne/", "esApprox": "«re-tur-NÉ»", "pos": "verbo", "gender": null, "example": { "target": "Nous sommes retournés à Paris.", "es": "Volvimos a París." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el opuesto de «entrer»?",
+      "options": ["sortir", "monter", "tomber", "naître"],
+      "answer": 0,
+      "explain": "Entrer/sortir es una de las parejas de opuestos con être."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «ella nació en 1998»?",
+      "options": ["Elle a né en 1998.", "Elle est née en 1998.", "Elle a naît en 1998.", "Elle est naître en 1998."],
+      "answer": 1,
+      "explain": "Naître usa être: elle est née."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "statement": "Monter y descendre son un par de opuestos que usan être.",
+      "answer": true,
+      "explain": "Monter/descendre, como entrer/sortir y naître/mourir."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "statement": "El participio de estos verbos se acuerda con el sujeto, igual que aller.",
+      "answer": true,
+      "explain": "Repaso de la clase A1-80: -e, -s, -es según el sujeto."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su opuesto",
+      "left": ["entrer", "monter", "naître", "tomber"],
+      "right": ["mourir", "sortir", "rester", "descendre"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Entrer/sortir, monter/descendre, naître/mourir, tomber/rester."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "Entré en la sala y subí al tercer piso.",
+      "accept": ["Je suis entré dans la salle et je suis monté au troisième étage"],
+      "hintWords": ["je suis entré dans la salle", "je suis monté au troisième étage"],
+      "strictAccents": true,
+      "audio": "Je suis entré dans la salle et je suis monté au troisième étage.",
+      "explain": "Entrer y monter, ambos con être."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Ella salió temprano y volvió tarde.",
+      "accept": ["Elle est sortie tôt et elle est retournée tard"],
+      "hintWords": ["elle est sortie tôt", "elle est retournée tard"],
+      "strictAccents": true,
+      "audio": "Elle est sortie tôt et elle est retournée tard.",
+      "explain": "Sortie y retournée: femenino singular, con -e."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "Completa con el auxiliar correcto",
+      "text": "Je ___ tombé dans l'escalier, mais je ___ vite continué.",
+      "blanks": [{ "accept": ["suis"] }, { "accept": ["ai"] }],
+      "bank": ["suis", "ai"],
+      "explain": "Tomber usa être (je suis tombé); continuer usa avoir (j'ai continué)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Bajamos al sótano»",
+      "tokens": ["à la cave", "sommes descendus", "Nous"],
+      "answer": ["Nous", "sommes descendus", "à la cave"],
+      "audio": "Nous sommes descendus à la cave.",
+      "explain": "Nous sommes (être) + descendus (participio, plural)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "Il est né à Paris, il a grandi à Lyon, et il est mort à Marseille.",
+      "accept": ["Nació en París, creció en Lyon, y murió en Marsella."],
+      "strictAccents": false,
+      "audio": "Il est né à Paris, il a grandi à Lyon, et il est mort à Marseille.",
+      "explain": "Naître y mourir (être) frente a grandir (avoir, regular -ir)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre lo que hiciste hoy",
+      "turns": [
+        { "who": "Léa", "text": "Tu es sorti tôt ce matin ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je suis sorti tôt.", "Non, je suis resté à la maison."], "hint": "usa être + participio" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Tu es sorti...? se responde con être + participio."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "speak": "Je suis entré, je suis monté, et je suis vite descendu.",
+      "mode": "write",
+      "accept": ["Je suis entré, je suis monté, et je suis vite descendu"],
+      "showTextAfter": true,
+      "explain": "Tres verbos de movimiento con être seguidos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 1,
+      "speak": "elle est née",
+      "mode": "choose",
+      "options": ["elle a né", "elle est née", "elle est naître", "elle a naître"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Elle est née = ella nació."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose", "auxiliar", "acuerdo-participio"],
+      "difficulty": 3,
+      "speak": "Je suis entré, je suis monté au troisième étage, je suis tombé, et je suis vite retourné en bas.",
+      "es": "Entré, subí al tercer piso, me caí, y volví abajo rápidamente.",
+      "ipa": "/ʒə sɥi.z‿ɑ̃.tʁe ʒə sɥi mɔ̃.te o tʁwa.zjɛ.m‿e.taʒ ʒə sɥi tɔ̃.be e ʒə sɥi vit ʁə.tuʁ.ne ɑ̃ ba/",
+      "esApprox": "«ye süí-an-TRÉ ye süí mon-TÉ o truá-ZIEM-e-TAZH ye süí ton-BÉ e ye süí vit re-tur-NÉ an BA»",
+      "focus": "Cuatro verbos de movimiento con être seguidos, todos en masculino singular.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "Cuenta un pequeño recorrido: por dónde entraste, subiste o bajaste.",
+      "modelAnswer": "Je suis entré, je suis monté, et je suis redescendu.",
+      "alsoValid": ["Je suis sorti, puis je suis retourné à la maison."],
+      "speak": "Je suis entré, je suis monté, et je suis redescendu.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "¿Este verbo usa avoir o être en passé composé?",
+      "buckets": ["avoir", "être"],
+      "items": [
+        { "text": "manger", "bucket": 0 },
+        { "text": "entrer", "bucket": 1 },
+        { "text": "parler", "bucket": 0 },
+        { "text": "naître", "bucket": 1 },
+        { "text": "finir", "bucket": 0 },
+        { "text": "tomber", "bucket": 1 }
+      ],
+      "explain": "Entrer, naître y tomber son del grupo être; manger, parler y finir usan avoir."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-compose", "auxiliar"],
+      "difficulty": 2,
+      "prompt": "Hay un error de auxiliar. Corrige la frase entera.",
+      "wrong": "J'ai tombé dans l'escalier.",
+      "accept": ["Je suis tombé dans l'escalier"],
+      "audio": "Je suis tombé dans l'escalier.",
+      "explain": "Tomber usa être como auxiliar, no avoir."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "entrer", "es": "entrar", "esApprox": "«an-TRÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "sortir", "es": "salir", "esApprox": "«sor-TIR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "monter", "es": "subir", "esApprox": "«mon-TÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "descendre", "es": "bajar", "esApprox": "«de-SANDR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "naître", "es": "nacer", "esApprox": "«NETR»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "mourir", "es": "morir", "esApprox": "«mu-RIR»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "tomber", "es": "caerse", "esApprox": "«ton-BÉ»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "Je suis entré dans la salle et je suis monté au troisième étage.", "es": "Entré en la sala y subí al tercer piso.", "from": "e6" }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "id": "fr-a2-097",
+  "lang": "fr",
+  "level": "A2",
+  "order": 97,
+  "title": "Los participios irregulares que todavía se te resisten",
+  "objectives": [
+    "Aprender los participios irregulares de prendre, mettre, dire, écrire, boire, connaître, lire y croire",
+    "Usarlos correctamente con avoir en passé composé",
+    "Reconocer los patrones: -is, -it, -u, que se repiten en varios verbos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Más participios que hay que memorizar",
+      "body": "Además de los que ya conoces (avoir → eu, être → été, faire → fait, clase A1-79), hay un grupo de verbos muy frecuentes con participios irregulares que conviene memorizar bien, porque se repiten mucho en la conversación diaria.",
+      "examples": [
+        { "target": "J'ai pris le bus, j'ai mis mon manteau, et j'ai dit au revoir.", "es": "Cogí el autobús, me puse el abrigo, y dije adiós.", "note": "pris, mis, dit: tres participios irregulares distintos" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Participios irregulares frecuentes",
+      "headers": ["Infinitivo", "Participio", "Patrón"],
+      "rows": [
+        ["prendre", "pris", "-is"],
+        ["mettre", "mis", "-is"],
+        ["dire", "dit", "-it"],
+        ["écrire", "écrit", "-it"],
+        ["boire", "bu", "-u"],
+        ["connaître", "connu", "-u"],
+        ["lire", "lu", "-u"],
+        ["croire", "cru", "-u"]
+      ],
+      "note": "Muchos participios irregulares terminan en -is, -it o -u: agruparlos así ayuda a memorizarlos."
+    },
+    {
+      "type": "tip",
+      "body": "No intentes memorizar los ocho participios de golpe: practica primero los tres de la primera frase de ejemplo (pris, mis, dit), y añade los demás poco a poco en los próximos días."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "pris", "es": "cogido, tomado (de prendre)", "ipa": "/pʁi/", "esApprox": "«PRÍ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai pris le bus ce matin.", "es": "Cogí el autobús esta mañana." } },
+    { "id": "v2", "target": "mettre / mis", "es": "poner / puesto", "ipa": "/mɛtʁ mi/", "esApprox": "«METR MÍ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai mis mon manteau.", "es": "Me puse el abrigo." } },
+    { "id": "v3", "target": "dire / dit", "es": "decir / dicho", "ipa": "/diʁ di/", "esApprox": "«DIR DÍ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai dit au revoir.", "es": "Dije adiós." } },
+    { "id": "v4", "target": "écrire / écrit", "es": "escribir / escrito", "ipa": "/e.kʁiʁ e.kʁi/", "esApprox": "«e-KRIR e-KRÍ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai écrit un message.", "es": "Escribí un mensaje." } },
+    { "id": "v5", "target": "boire / bu", "es": "beber / bebido", "ipa": "/bwaʁ by/", "esApprox": "«BUÁR BÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai bu un café.", "es": "Bebí un café." } },
+    { "id": "v6", "target": "connu", "es": "conocido (de connaître)", "ipa": "/kɔ.ny/", "esApprox": "«ko-NÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai connu Léa à l'université.", "es": "Conocí a Léa en la universidad." } },
+    { "id": "v7", "target": "lu", "es": "leído (de lire)", "ipa": "/ly/", "esApprox": "«LÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai lu ce livre.", "es": "He leído este libro." } },
+    { "id": "v8", "target": "croire / cru", "es": "creer / creído", "ipa": "/kʁwaʁ kʁy/", "esApprox": "«KRUÁR KRÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai cru que tu étais malade.", "es": "Creí que estabas enfermo." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el participio de «prendre»?",
+      "options": ["prendu", "pris", "prendé", "prendi"],
+      "answer": 1,
+      "explain": "Prendre → pris."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «escribí un mensaje»?",
+      "options": ["J'ai écrire un message.", "J'ai écrit un message.", "J'ai écris un message.", "J'ai écrivé un message."],
+      "answer": 1,
+      "explain": "Écrire → écrit."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "statement": "Boire, connaître, lire y croire tienen participios que terminan en -u.",
+      "answer": true,
+      "explain": "Bu, connu, lu, cru: todos terminan en -u."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos participios no termina en -is?",
+      "options": ["pris", "mis", "bu", "assis"],
+      "answer": 2,
+      "explain": "Bu termina en -u; los demás terminan en -is."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Une cada infinitivo con su participio",
+      "left": ["dire", "connaître", "mettre", "croire"],
+      "right": ["cru", "dit", "connu", "mis"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Dire → dit, connaître → connu, mettre → mis, croire → cru."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Cogí el autobús, me puse el abrigo, y dije adiós.",
+      "accept": ["J'ai pris le bus, j'ai mis mon manteau, et j'ai dit au revoir"],
+      "hintWords": ["j'ai pris le bus", "j'ai mis mon manteau", "j'ai dit au revoir"],
+      "strictAccents": true,
+      "audio": "J'ai pris le bus, j'ai mis mon manteau, et j'ai dit au revoir.",
+      "explain": "Pris, mis, dit: tres participios irregulares distintos."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "He leído este libro y he bebido un café.",
+      "accept": ["J'ai lu ce livre et j'ai bu un café"],
+      "hintWords": ["j'ai lu ce livre", "j'ai bu un café"],
+      "strictAccents": true,
+      "audio": "J'ai lu ce livre et j'ai bu un café.",
+      "explain": "Lu y bu: ambos terminan en -u."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Completa con el participio correcto",
+      "text": "J'ai ___ Léa à l'université, et j'ai ___ que c'était une bonne étudiante.",
+      "blanks": [{ "accept": ["connu"] }, { "accept": ["cru"] }],
+      "bank": ["connu", "cru", "lu"],
+      "explain": "Connaître → connu, croire → cru."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Escribí un mensaje esta mañana»",
+      "tokens": ["ce matin", "un message", "J'ai écrit"],
+      "answer": ["J'ai écrit", "un message", "ce matin"],
+      "audio": "J'ai écrit un message ce matin.",
+      "explain": "J'ai écrit + un message + ce matin."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "J'ai mis mon manteau, j'ai pris mon sac, et j'ai dit au revoir à mes parents.",
+      "accept": ["Me puse el abrigo, cogí mi bolso, y dije adiós a mis padres."],
+      "strictAccents": false,
+      "audio": "J'ai mis mon manteau, j'ai pris mon sac, et j'ai dit au revoir à mes parents.",
+      "explain": "Mis, pris, dit: tres participios en secuencia."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre cómo conociste a alguien",
+      "turns": [
+        { "who": "Léa", "text": "Comment tu as connu Marc ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je l'ai connu à l'université.", "Je l'ai connu au travail."], "hint": "usa connu" },
+        { "who": "Léa", "text": "Ah, sympa !", "speak": true }
+      ],
+      "explain": "Comment tu as connu...? se responde con connu + lugar."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "speak": "J'ai lu ce livre, j'ai bu un café, et j'ai écrit un message à Léa.",
+      "mode": "write",
+      "accept": ["J'ai lu ce livre, j'ai bu un café, et j'ai écrit un message à Léa"],
+      "showTextAfter": true,
+      "explain": "Tres participios irregulares con -u y -it."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 1,
+      "speak": "j'ai pris",
+      "mode": "choose",
+      "options": ["j'ai mis", "j'ai pris", "j'ai dit", "j'ai lu"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'ai pris = cogí/tomé."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 3,
+      "speak": "J'ai pris mon sac, j'ai mis mon manteau, j'ai dit au revoir, et j'ai écrit un message avant de partir.",
+      "es": "Cogí mi bolso, me puse el abrigo, dije adiós, y escribí un mensaje antes de salir.",
+      "ipa": "/ʒe pʁi mɔ̃ sak ʒe mi mɔ̃ mɑ̃.to ʒe di o ʁə.vwaʁ e ʒe e.kʁi œ̃ mɛ.saʒ a.vɑ̃ də paʁ.tiʁ/",
+      "esApprox": "«ye PRÍ mon SAK ye MÍ mon man-TÓ ye DÍ o re-VUÁR e ye e-KRÍ un me-SAZH a-VAN de par-TIR»",
+      "focus": "Cuatro participios irregulares distintos en una pequeña historia.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Cuenta qué cogiste, qué te pusiste, y qué bebiste esta mañana.",
+      "modelAnswer": "J'ai pris mon sac, j'ai mis mon manteau, et j'ai bu un café.",
+      "alsoValid": ["J'ai lu un livre et j'ai écrit un message."],
+      "speak": "J'ai pris mon sac, j'ai mis mon manteau, et j'ai bu un café.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿En qué termina este participio?",
+      "buckets": ["-is", "-it", "-u"],
+      "items": [
+        { "text": "pris", "bucket": 0 },
+        { "text": "dit", "bucket": 1 },
+        { "text": "bu", "bucket": 2 },
+        { "text": "mis", "bucket": 0 },
+        { "text": "écrit", "bucket": 1 },
+        { "text": "connu", "bucket": 2 }
+      ],
+      "explain": "Agrupar por terminación ayuda a memorizarlos."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Hay un error de participio. Corrige la frase entera.",
+      "wrong": "J'ai prendu le bus.",
+      "accept": ["J'ai pris le bus"],
+      "audio": "J'ai pris le bus.",
+      "explain": "El participio de prendre es pris, no prendu."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "pris", "es": "cogido, tomado (de prendre)", "esApprox": "«PRÍ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "mettre / mis", "es": "poner / puesto", "esApprox": "«METR MÍ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "dire / dit", "es": "decir / dicho", "esApprox": "«DIR DÍ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "écrire / écrit", "es": "escribir / escrito", "esApprox": "«e-KRIR e-KRÍ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "boire / bu", "es": "beber / bebido", "esApprox": "«BUÁR BÜ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "croire / cru", "es": "creer / creído", "esApprox": "«KRUÁR KRÜ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai pris le bus, j'ai mis mon manteau, et j'ai dit au revoir.", "es": "Cogí el autobús, me puse el abrigo, y dije adiós.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai lu ce livre et j'ai bu un café.", "es": "He leído este libro y he bebido un café.", "from": "e7" }
+  ]
+}

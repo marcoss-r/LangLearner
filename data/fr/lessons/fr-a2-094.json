@@ -1,0 +1,256 @@
+{
+  "id": "fr-a2-094",
+  "lang": "fr",
+  "level": "A2",
+  "order": 94,
+  "title": "Los verbos pronominales en pasado",
+  "objectives": [
+    "Formar el passé composé de los verbos pronominales (clase A1-41): siempre con être",
+    "Aplicar el acuerdo del participio con el pronombre reflexivo, como con el COD (clase A2-93)",
+    "Negar un verbo pronominal en passé composé: ne + pronombre + être + pas + participio"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los pronominales siempre usan être",
+      "body": "Los verbos pronominales (se lever, se coucher, s'habiller...) forman el passé composé siempre con être, nunca con avoir, y el participio se acuerda con el pronombre reflexivo, casi siempre en género y número con el sujeto.",
+      "examples": [
+        { "target": "Elle s'est levée à sept heures, et ils se sont couchés tard.", "es": "Ella se levantó a las siete, y ellos se acostaron tarde.", "note": "s'est levée (fem. sing.), se sont couchés (masc. pl.)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Se lever en passé composé, todas las personas",
+      "headers": ["Persona", "Forma"],
+      "rows": [
+        ["je", "me suis levé(e)"],
+        ["tu", "t'es levé(e)"],
+        ["il / elle", "s'est levé(e)"],
+        ["nous", "nous sommes levé(e)s"],
+        ["vous", "vous êtes levé(e)(s)"],
+        ["ils / elles", "se sont levé(e)s"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "La negación de un pronominal en passé composé"
+      ,
+      "items": [
+        { "wrong": "Je me suis ne pas levé.", "right": "Je ne me suis pas levé.", "why": "Ne...pas rodea el conjunto pronombre + être: ne + me + suis + pas + levé, igual que en presente (clase A1-41)." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "s'est levé(e)", "es": "se levantó", "ipa": "/sɛ lə.ve/", "esApprox": "«se le-VÉ»", "pos": "verbo", "gender": null, "example": { "target": "Elle s'est levée tôt.", "es": "Ella se levantó temprano." } },
+    { "id": "v2", "target": "s'est couché(e)", "es": "se acostó", "ipa": "/sɛ ku.ʃe/", "esApprox": "«se ku-SHÉ»", "pos": "verbo", "gender": null, "example": { "target": "Il s'est couché tard.", "es": "Él se acostó tarde." } },
+    { "id": "v3", "target": "s'est habillé(e)", "es": "se vistió", "ipa": "/sɛ.t‿a.bi.je/", "esApprox": "«se-ta-bi-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je me suis habillé vite.", "es": "Me vestí rápido." } },
+    { "id": "v4", "target": "s'est reposé(e)", "es": "descansó", "ipa": "/sɛ ʁə.po.ze/", "esApprox": "«se re-po-ZÉ»", "pos": "verbo", "gender": null, "example": { "target": "Nous nous sommes reposés.", "es": "Descansamos." } },
+    { "id": "v5", "target": "s'est amusé(e)", "es": "se divirtió", "ipa": "/sɛ.t‿a.my.ze/", "esApprox": "«se-ta-mü-ZÉ»", "pos": "verbo", "gender": null, "example": { "target": "Les enfants se sont amusés.", "es": "Los niños se divirtieron." } },
+    { "id": "v6", "target": "s'est promené(e)", "es": "se dio un paseo", "ipa": "/sɛ pʁɔ.mə.ne/", "esApprox": "«se pro-me-NÉ»", "pos": "verbo", "gender": null, "example": { "target": "Ils se sont promenés dans le parc.", "es": "Se dieron un paseo por el parque." } },
+    { "id": "v7", "target": "s'est réveillé(e)", "es": "se despertó", "ipa": "/sɛ ʁe.vɛ.je/", "esApprox": "«se re-ve-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je me suis réveillé tôt.", "es": "Me desperté temprano." } },
+    { "id": "v8", "target": "tout le week-end", "es": "todo el fin de semana", "ipa": "/tu lə wik.ɛnd/", "esApprox": "«tu le uí-KEND»", "pos": "expresión", "gender": null, "example": { "target": "Je me suis reposé tout le week-end.", "es": "Descansé todo el fin de semana." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «ella se levantó»?",
+      "options": ["Elle a levée.", "Elle s'est levée.", "Elle est levée.", "Elle a se levée."],
+      "answer": 1,
+      "explain": "Los pronominales usan être: elle s'est levée."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «ellos se acostaron» (masculino plural)?",
+      "options": ["Ils se sont couché.", "Ils se sont couchés.", "Ils sont couchés.", "Ils ont couchés."],
+      "answer": 1,
+      "explain": "Se sont couchés: être + acuerdo con -s."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "statement": "Los verbos pronominales siempre usan être en passé composé.",
+      "answer": true,
+      "explain": "Nunca usan avoir, a diferencia de la mayoría de los verbos (clase A1-78)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "statement": "La negación rodea el pronombre reflexivo y être juntos.",
+      "answer": true,
+      "explain": "Ne + me + suis + pas: el conjunto pronombre + être queda dentro de ne...pas."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "Une cada persona con su forma correcta",
+      "left": ["je", "tu", "nous", "ils"],
+      "right": ["nous sommes levé(e)s", "me suis levé(e)", "se sont levés", "t'es levé(e)"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Je me suis, tu t'es, nous nous sommes, ils se sont."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "Ella se levantó a las siete, y se vistió rápido.",
+      "accept": ["Elle s'est levée à sept heures, et elle s'est habillée vite"],
+      "hintWords": ["elle s'est levée à sept heures", "elle s'est habillée vite"],
+      "strictAccents": true,
+      "audio": "Elle s'est levée à sept heures, et elle s'est habillée vite.",
+      "explain": "Levée y habillée: femenino singular, con -e."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "No me levanté temprano, y no descansé bien.",
+      "accept": ["Je ne me suis pas levé tôt, et je ne me suis pas bien reposé"],
+      "hintWords": ["je ne me suis pas levé tôt", "je ne me suis pas bien reposé"],
+      "strictAccents": true,
+      "audio": "Je ne me suis pas levé tôt, et je ne me suis pas bien reposé.",
+      "explain": "Ne + me + suis + pas + participio, dos veces."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de être",
+      "text": "Nous nous ___ promenés dans le parc, et les enfants se ___ amusés.",
+      "blanks": [{ "accept": ["sommes"] }, { "accept": ["sont"] }],
+      "bank": ["sommes", "sont", "es"],
+      "explain": "Nous nous sommes, ils se sont."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Descansamos todo el fin de semana»",
+      "tokens": ["tout le week-end", "Nous nous sommes", "reposés"],
+      "answer": ["Nous nous sommes", "reposés", "tout le week-end"],
+      "audio": "Nous nous sommes reposés tout le week-end.",
+      "explain": "Nous nous sommes + reposés + tout le week-end."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "Les enfants se sont amusés, et ils se sont promenés dans le parc.",
+      "accept": ["Los niños se divirtieron, y se dieron un paseo por el parque."],
+      "strictAccents": false,
+      "audio": "Les enfants se sont amusés, et ils se sont promenés dans le parc.",
+      "explain": "Se sont amusés/promenés: masculino plural, con -s."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu mañana",
+      "turns": [
+        { "who": "Léa", "text": "Tu t'es levé tôt ce matin ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je me suis levé tôt.", "Non, je me suis levé tard."], "hint": "usa me suis levé" },
+        { "who": "Léa", "text": "D'accord !", "speak": true }
+      ],
+      "explain": "Tu t'es levé...? se responde con me suis + levé."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "speak": "Elle s'est levée tôt, elle s'est habillée, et elle s'est promenée dans le parc.",
+      "mode": "write",
+      "accept": ["Elle s'est levée tôt, elle s'est habillée, et elle s'est promenée dans le parc"],
+      "showTextAfter": true,
+      "explain": "Tres pronominales seguidos, todos femenino singular."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 1,
+      "speak": "ils se sont couchés",
+      "mode": "choose",
+      "options": ["ils sont couchés", "ils se sont couchés", "ils ont couchés", "ils se couchés"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Ils se sont couchés = ellos se acostaron."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 3,
+      "speak": "Je me suis levé tôt, je me suis habillé, je me suis promené, et le soir je me suis couché tard.",
+      "es": "Me levanté temprano, me vestí, me di un paseo, y por la noche me acosté tarde.",
+      "ipa": "/ʒə mə sɥi lə.ve to ʒə mə sɥi.z‿a.bi.je ʒə mə sɥi pʁɔ.mə.ne e lə swaʁ ʒə mə sɥi ku.ʃe taʁ/",
+      "esApprox": "«ye me süí le-VÉ TÓ ye me süí-a-bi-YÉ ye me süí pro-me-NÉ e le SUAR ye me süí ku-SHÉ TAR»",
+      "focus": "Cuatro verbos pronominales seguidos, todos masculino singular.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "Cuenta tu rutina de ayer con verbos pronominales en pasado.",
+      "modelAnswer": "Je me suis levé tôt, je me suis habillé, et je me suis couché tard.",
+      "alsoValid": ["Je me suis reposé tout le week-end."],
+      "speak": "Je me suis levé tôt, je me suis habillé, et je me suis couché tard.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "¿Qué acuerdo necesita el participio?",
+      "buckets": ["sin cambio (il)", "+ e (elle)", "+ s (ils)", "+ es (elles)"],
+      "items": [
+        { "text": "il s'est levé", "bucket": 0 },
+        { "text": "elle s'est levée", "bucket": 1 },
+        { "text": "ils se sont levés", "bucket": 2 },
+        { "text": "elles se sont levées", "bucket": 3 }
+      ],
+      "explain": "El mismo patrón de acuerdo que con être (clase A1-80)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-compose", "pronominales"],
+      "difficulty": 2,
+      "prompt": "Hay un error de auxiliar. Corrige la frase entera.",
+      "wrong": "Je ai levé tôt.",
+      "accept": ["Je me suis levé tôt"],
+      "audio": "Je me suis levé tôt.",
+      "explain": "Los pronominales usan être, no avoir, y necesitan el pronombre reflexivo."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "s'est levé(e)", "es": "se levantó", "esApprox": "«se le-VÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "s'est couché(e)", "es": "se acostó", "esApprox": "«se ku-SHÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "s'est habillé(e)", "es": "se vistió", "esApprox": "«se-ta-bi-YÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "s'est reposé(e)", "es": "descansó", "esApprox": "«se re-po-ZÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "s'est promené(e)", "es": "se dio un paseo", "esApprox": "«se pro-me-NÉ»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "Elle s'est levée à sept heures, et elle s'est habillée vite.", "es": "Ella se levantó a las siete, y se vistió rápido.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je ne me suis pas levé tôt, et je ne me suis pas bien reposé.", "es": "No me levanté temprano, y no descansé bien.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Nous nous sommes reposés tout le week-end.", "es": "Descansamos todo el fin de semana.", "from": "e9" }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "fr-a2-095",
+  "lang": "fr",
+  "level": "A2",
+  "order": 95,
+  "title": "Marcadores de tiempo del pasado: hier, il y a, la semaine dernière",
+  "objectives": [
+    "Ampliar los marcadores de pasado: avant-hier, récemment, dernièrement",
+    "Usar il y a + duración para decir «hace...»: il y a deux jours (hace dos días)",
+    "Combinar estos marcadores con el passé composé (clases A1-78 a A2-94)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Il y a: dos significados distintos",
+      "body": "Ya conoces il y a con el significado de «hay» (clase A1-49). Il y a también significa «hace» cuando va seguido de una duración de tiempo: il y a deux jours (hace dos días), il y a un an (hace un año).",
+      "examples": [
+        { "target": "Il y a un an, je ne parlais pas français.", "es": "Hace un año, no hablaba francés.", "note": "il y a + duración = hace" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Marcadores de pasado, ampliados",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["hier / avant-hier", "ayer / anteayer"],
+        ["hier soir / hier matin", "anoche / ayer por la mañana"],
+        ["il y a + duración", "hace... (una cantidad de tiempo)"],
+        ["récemment", "recientemente"],
+        ["dernièrement", "últimamente"],
+        ["ce jour-là", "ese día (en una narración)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Ce jour-là es muy útil cuando cuentas una historia en pasado: en vez de repetir la fecha, dices «ese día» para referirte al momento del que ya hablabas."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "avant-hier", "es": "anteayer", "ipa": "/a.vɑ̃.tjɛʁ/", "esApprox": "«a-van-TIER»", "pos": "adverbio", "gender": null, "example": { "target": "Je suis arrivé avant-hier.", "es": "Llegué anteayer." } },
+    { "id": "v2", "target": "hier soir", "es": "anoche", "ipa": "/jɛʁ swaʁ/", "esApprox": "«ier SUAR»", "pos": "expresión", "gender": null, "example": { "target": "Hier soir, je me suis couché tard.", "es": "Anoche me acosté tarde." } },
+    { "id": "v3", "target": "il y a + durée", "es": "hace... (tiempo)", "ipa": "/il i a/", "esApprox": "«il i A»", "pos": "expresión", "gender": null, "example": { "target": "Il y a deux jours, j'ai vu Léa.", "es": "Hace dos días, vi a Léa." } },
+    { "id": "v4", "target": "récemment", "es": "recientemente", "ipa": "/ʁe.sa.mɑ̃/", "esApprox": "«re-sa-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "J'ai déménagé récemment.", "es": "Me he mudado recientemente." } },
+    { "id": "v5", "target": "dernièrement", "es": "últimamente", "ipa": "/dɛʁ.njɛʁ.mɑ̃/", "esApprox": "«der-nier-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "Dernièrement, j'ai beaucoup travaillé.", "es": "Últimamente he trabajado mucho." } },
+    { "id": "v6", "target": "ce jour-là", "es": "ese día", "ipa": "/sə ʒuʁ la/", "esApprox": "«se YUR LA»", "pos": "expresión", "gender": null, "example": { "target": "Ce jour-là, il a fait beau.", "es": "Ese día, hizo buen tiempo." } },
+    { "id": "v7", "target": "déménager", "es": "mudarse", "ipa": "/de.me.na.ʒe/", "esApprox": "«de-me-na-ZHÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai déménagé il y a un mois.", "es": "Me mudé hace un mes." } },
+    { "id": "v8", "target": "il y a longtemps", "es": "hace mucho tiempo", "ipa": "/il i a lɔ̃.tɑ̃/", "esApprox": "«il i a lon-TAN»", "pos": "expresión", "gender": null, "example": { "target": "Ça s'est passé il y a longtemps.", "es": "Eso pasó hace mucho tiempo." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «anteayer»?",
+      "options": ["hier", "avant-hier", "hier soir", "récemment"],
+      "answer": 1,
+      "explain": "Avant-hier = anteayer."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «il y a deux jours»?",
+      "options": ["hay dos días", "dentro de dos días", "hace dos días", "dos días antes"],
+      "answer": 2,
+      "explain": "Il y a + duración = hace."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "statement": "Il y a puede significar «hay» y también «hace», según el contexto.",
+      "answer": true,
+      "explain": "Il y a un chat (hay) frente a il y a deux jours (hace)."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos marcadores no se refiere al pasado?",
+      "options": ["hier", "avant-hier", "bientôt", "récemment"],
+      "answer": 2,
+      "explain": "Bientôt (clase A1-75) es de futuro próximo, no de pasado."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "Une cada marcador con su significado",
+      "left": ["avant-hier", "récemment", "dernièrement", "ce jour-là"],
+      "right": ["ese día", "últimamente", "anteayer", "recientemente"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Avant-hier = anteayer, récemment = recientemente, dernièrement = últimamente, ce jour-là = ese día."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "Hace dos días, vi a Léa, y anoche le hablé por teléfono.",
+      "accept": ["Il y a deux jours, j'ai vu Léa, et hier soir je lui ai parlé au téléphone"],
+      "hintWords": ["il y a deux jours", "hier soir je lui ai parlé"],
+      "strictAccents": true,
+      "audio": "Il y a deux jours, j'ai vu Léa, et hier soir je lui ai parlé au téléphone.",
+      "explain": "Il y a + duración, combinado con hier soir."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "Me he mudado recientemente, y últimamente he trabajado mucho.",
+      "accept": ["J'ai déménagé récemment, et dernièrement j'ai beaucoup travaillé"],
+      "hintWords": ["j'ai déménagé récemment", "dernièrement j'ai beaucoup travaillé"],
+      "strictAccents": true,
+      "audio": "J'ai déménagé récemment, et dernièrement j'ai beaucoup travaillé.",
+      "explain": "Récemment y dernièrement, dos adverbios de pasado reciente."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "Completa con el marcador correcto",
+      "text": "Je suis arrivé ___, et je pars demain.",
+      "blanks": [{ "accept": ["avant-hier"] }],
+      "bank": ["avant-hier", "bientôt", "demain"],
+      "explain": "Avant-hier (llegada, pasado) frente a demain (salida, futuro)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Eso pasó hace mucho tiempo»",
+      "tokens": ["il y a longtemps", "s'est passé", "Ça"],
+      "answer": ["Ça", "s'est passé", "il y a longtemps"],
+      "audio": "Ça s'est passé il y a longtemps.",
+      "explain": "Ça s'est passé (pronominal, être) + il y a longtemps."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "Ce jour-là, il a fait beau, et nous nous sommes promenés dans le parc.",
+      "accept": ["Ese día, hizo buen tiempo, y nos dimos un paseo por el parque."],
+      "strictAccents": false,
+      "audio": "Ce jour-là, il a fait beau, et nous nous sommes promenés dans le parc.",
+      "explain": "Ce jour-là para referirse a un día ya mencionado en la narración."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre cuándo llegaste",
+      "turns": [
+        { "who": "Léa", "text": "Tu es arrivé quand ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je suis arrivé hier.", "Je suis arrivé il y a deux jours.", "Je suis arrivé avant-hier."], "hint": "usa un marcador de tiempo pasado" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Tu es arrivé quand ? se responde con un marcador de pasado."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "speak": "J'ai déménagé il y a un mois, et récemment j'ai trouvé un nouveau travail.",
+      "mode": "write",
+      "accept": ["J'ai déménagé il y a un mois, et récemment j'ai trouvé un nouveau travail"],
+      "showTextAfter": true,
+      "explain": "Il y a + duración, combinado con récemment."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 1,
+      "speak": "avant-hier",
+      "mode": "choose",
+      "options": ["hier", "avant-hier", "demain", "bientôt"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Avant-hier = anteayer."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 3,
+      "speak": "Avant-hier, je suis arrivé. Hier soir, je me suis reposé. Et il y a une heure, j'ai commencé à réviser.",
+      "es": "Anteayer, llegué. Anoche, descansé. Y hace una hora, empecé a repasar.",
+      "ipa": "/a.vɑ̃.tjɛʁ ʒə sɥi.z‿a.ʁi.ve jɛʁ swaʁ ʒə mə sɥi ʁə.po.ze e i.li.a yn œʁ ʒe kɔ.mɑ̃.se a ʁe.vi.ze/",
+      "esApprox": "«a-van-TIER ye süí-a-ri-VÉ ier SUAR ye me süí re-po-ZÉ e il-i-A ün EUR ye ko-man-SÉ a re-vi-ZÉ»",
+      "focus": "Tres marcadores de pasado distintos en una pequeña narración.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "Cuenta algo que hiciste usando il y a + duración.",
+      "modelAnswer": "Il y a trois jours, j'ai vu un bon film.",
+      "alsoValid": ["J'ai déménagé il y a six mois."],
+      "speak": "Il y a trois jours, j'ai vu un bon film.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "¿Es un marcador de pasado o de futuro?",
+      "buckets": ["Pasado", "Futuro"],
+      "items": [
+        { "text": "avant-hier", "bucket": 0 },
+        { "text": "bientôt", "bucket": 1 },
+        { "text": "récemment", "bucket": 0 },
+        { "text": "demain", "bucket": 1 }
+      ],
+      "explain": "Avant-hier y récemment son de pasado; bientôt y demain son de futuro."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["marcadores-tiempo"],
+      "difficulty": 2,
+      "prompt": "Hay un error de significado. Corrige la frase entera.",
+      "wrong": "Dans deux jours, j'ai vu Léa.",
+      "accept": ["Il y a deux jours, j'ai vu Léa"],
+      "audio": "Il y a deux jours, j'ai vu Léa.",
+      "explain": "Con passé composé (acción ya terminada) se usa il y a, no dans (que es de futuro)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "avant-hier", "es": "anteayer", "esApprox": "«a-van-TIER»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "hier soir", "es": "anoche", "esApprox": "«ier SUAR»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "il y a + durée", "es": "hace... (tiempo)", "esApprox": "«il i A»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "récemment", "es": "recientemente", "esApprox": "«re-sa-MAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "dernièrement", "es": "últimamente", "esApprox": "«der-nier-MAN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "ce jour-là", "es": "ese día", "esApprox": "«se YUR LA»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Il y a deux jours, j'ai vu Léa, et hier soir je lui ai parlé au téléphone.", "es": "Hace dos días, vi a Léa, y anoche le hablé por teléfono.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai déménagé récemment, et dernièrement j'ai beaucoup travaillé.", "es": "Me he mudado recientemente, y últimamente he trabajado mucho.", "from": "e7" }
+  ]
+}
