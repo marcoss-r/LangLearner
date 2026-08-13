@@ -1,0 +1,248 @@
+{
+  "id": "fr-a2-162",
+  "lang": "fr",
+  "level": "A2",
+  "order": 162,
+  "title": "Repaso activo XII (clases 151–161)",
+  "objectives": [
+    "Repasar las fórmulas de opinión, acuerdo, gustos y sugerencias",
+    "Repasar el comparativo, el superlativo y los adverbios en -ment",
+    "Repasar los cuantificadores y los conectores de causa y consecuencia"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque M (expresarse)",
+      "body": "Sin gramática nueva. Este bloque ha sido muy denso en funciones comunicativas: opinar, estar de acuerdo, sugerir, quedar, quejarse, pedir permiso, comparar. Repasa antes de pasar a la fonética."
+    },
+    {
+      "type": "table",
+      "title": "Resumen de fórmulas",
+      "headers": ["Función", "Expresión clave"],
+      "rows": [
+        ["opinión", "je pense que, à mon avis"],
+        ["acuerdo/desacuerdo", "je suis d'accord, pas du tout"],
+        ["sugerencia", "on pourrait, et si on..."],
+        ["comparar", "plus... que, le meilleur"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "El siguiente bloque: fonética",
+      "body": "Después de este repaso, el Bloque N se centra en la pronunciación del francés hablado real: enchaînement, e caduca, entonación y contracciones. Prepárate para escuchar francés auténtico, no solo el francés «de libro»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "à mon avis", "es": "en mi opinión", "ipa": "/a mɔ̃.n‿a.vi/", "esApprox": "«a mon-na-VÍ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je suis d'accord", "es": "estoy de acuerdo", "ipa": "/ʒə sɥi da.kɔʁ/", "esApprox": "«ye süí da-KOR»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "ça ne me dit rien", "es": "no me apetece nada", "ipa": "/sa nə mə di ʁjɛ̃/", "esApprox": "«sa ne me di RIEN»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "on pourrait", "es": "podríamos", "ipa": "/ɔ̃ pu.ʁɛ/", "esApprox": "«on pu-RE»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "je suis désolé", "es": "lo siento", "ipa": "/ʒə sɥi de.zɔ.le/", "esApprox": "«ye süí de-zo-LÉ»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "le meilleur", "es": "el mejor", "ipa": "/lə mɛ.jœʁ/", "esApprox": "«le me-YÖR»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "rapidement", "es": "rápidamente", "ipa": "/ʁa.pid.mɑ̃/", "esApprox": "«ra-pid-MAN»", "pos": "adverbio", "gender": null },
+    { "id": "v8", "target": "donc", "es": "así que, por lo tanto", "ipa": "/dɔ̃k/", "esApprox": "«DONK»", "pos": "conjunción", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «en mi opinión, esta película es excelente»?",
+      "options": ["À mon avis, ce film est excellent.", "Je suis d'accord, ce film est excellent.", "On pourrait, ce film est excellent.", "Donc, ce film est excellent."],
+      "answer": 0,
+      "explain": "Repaso de la clase A2-151."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el comparativo irregular de bon?",
+      "options": ["plus bon", "meilleur", "bonnier", "le bon"],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-158."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "statement": "Ça ne me dit rien expresa indiferencia, no un gusto fuerte.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-153."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["causa-consecuencia"],
+      "difficulty": 2,
+      "statement": "Donc introduce una causa, no una consecuencia.",
+      "answer": false,
+      "explain": "Repaso de la clase A2-161: donc introduce una consecuencia, no una causa."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su función",
+      "left": ["on pourrait", "je suis désolé", "à mon avis", "le meilleur"],
+      "right": ["superlativo", "opinión", "sugerencia", "disculpa"],
+      "answer": [2, 3, 1, 0],
+      "explain": "On pourrait = sugerencia, je suis désolé = disculpa, à mon avis = opinión, le meilleur = superlativo."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "En mi opinión, esta película es excelente. Estoy de acuerdo contigo.",
+      "accept": ["À mon avis, ce film est excellent. Je suis d'accord avec toi"],
+      "hintWords": ["à mon avis, ce film est excellent", "je suis d'accord avec toi"],
+      "strictAccents": true,
+      "audio": "À mon avis, ce film est excellent. Je suis d'accord avec toi.",
+      "explain": "Repaso de las clases A2-151 y A2-152."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["sugerencias", "quedar"],
+      "difficulty": 2,
+      "prompt": "Podríamos ir al cine. Nos vemos delante del cine a las siete.",
+      "accept": ["On pourrait aller au cinéma. On se retrouve devant le cinéma à dix-neuf heures"],
+      "hintWords": ["on pourrait aller au cinéma", "on se retrouve devant le cinéma à dix-neuf heures"],
+      "strictAccents": true,
+      "audio": "On pourrait aller au cinéma. On se retrouve devant le cinéma à dix-neuf heures.",
+      "explain": "Repaso de las clases A2-154 y A2-155."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["comparativo", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Ce restaurant est le ___, ___ on y va souvent.",
+      "blanks": [{ "accept": ["meilleur"] }, { "accept": ["donc"] }],
+      "bank": ["meilleur", "donc", "pire"],
+      "explain": "Repaso de las clases A2-159 y A2-161."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Trabaja rápidamente»",
+      "tokens": ["rapidement", "Il travaille"],
+      "answer": ["Il travaille", "rapidement"],
+      "audio": "Il travaille rapidement.",
+      "explain": "Repaso de la clase A2-160."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["quejas", "permiso"],
+      "difficulty": 2,
+      "prompt": "Excusez-moi, il y a un problème avec ma commande, et je suis désolé de vous déranger.",
+      "accept": ["Disculpe, hay un problema con mi pedido, y siento molestarle."],
+      "strictAccents": false,
+      "audio": "Excusez-moi, il y a un problème avec ma commande, et je suis désolé de vous déranger.",
+      "explain": "Repaso de las clases A2-156 y A2-157."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación proponiendo un plan",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce qu'on fait ce week-end ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["On pourrait faire un pique-nique.", "Et si on allait au cinéma ?"], "hint": "usa on pourrait o et si on" },
+        { "who": "Léa", "text": "Bonne idée !", "speak": true }
+      ],
+      "explain": "Repaso de la clase A2-154."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "speak": "À mon avis, c'est le meilleur restaurant de la ville, mais il est un peu cher, donc on n'y va pas souvent.",
+      "mode": "write",
+      "accept": ["À mon avis, c'est le meilleur restaurant de la ville, mais il est un peu cher, donc on n'y va pas souvent"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de opinión, superlativo y consecuencia."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["vocabulario"],
+      "difficulty": 1,
+      "speak": "je suis désolé",
+      "mode": "choose",
+      "options": ["je suis d'accord", "je suis désolé", "on pourrait", "à mon avis"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-157."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["vocabulario"],
+      "difficulty": 3,
+      "speak": "À mon avis, on pourrait aller au meilleur restaurant de la ville, mais je suis désolé, je n'ai pas assez d'argent.",
+      "es": "En mi opinión, podríamos ir al mejor restaurante de la ciudad, pero lo siento, no tengo suficiente dinero.",
+      "ipa": "/a mɔ̃.n‿a.vi ɔ̃ pu.ʁɛ a.le o mɛ.jœʁ ʁɛs.to.ʁɑ̃ də la vil mɛ ʒə sɥi de.zɔ.le ʒə nɛ pa.z‿a.se daʁ.ʒɑ̃/",
+      "esApprox": "«a mon-na-VÍ on pu-RE a-LÉ o me-YÖR res-to-RAN de la VIL me ye süí de-zo-LÉ ye ne pa-za-SÉ dar-YAN»",
+      "focus": "Opinión, sugerencia, superlativo y disculpa combinados.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Da tu opinión sobre algo, propón un plan, y compara dos opciones.",
+      "modelAnswer": "À mon avis, on pourrait aller au cinéma, c'est meilleur que rester à la maison.",
+      "alsoValid": ["Je suis d'accord, ce restaurant est le meilleur."],
+      "speak": "À mon avis, on pourrait aller au cinéma, c'est meilleur que rester à la maison.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "¿Es sobre opinión/acuerdo o sobre comparar?",
+      "buckets": ["Opinión/acuerdo", "Comparar"],
+      "items": [
+        { "text": "à mon avis", "bucket": 0 },
+        { "text": "le meilleur", "bucket": 1 },
+        { "text": "je suis d'accord", "bucket": 0 },
+        { "text": "plus cher que", "bucket": 1 }
+      ],
+      "explain": "Repaso combinado de las clases A2-151, A2-152, A2-158 y A2-159."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "Hay un error de conjunción. Corrige la frase entera.",
+      "wrong": "Je suis fatigué, donc je n'ai pas assez dormi.",
+      "accept": ["Je suis fatigué, car je n'ai pas assez dormi"],
+      "audio": "Je suis fatigué, car je n'ai pas assez dormi.",
+      "explain": "Repaso de la clase A2-161: car (causa), no donc (consecuencia)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "à mon avis", "es": "en mi opinión", "esApprox": "«a mon-na-VÍ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je suis d'accord", "es": "estoy de acuerdo", "esApprox": "«ye süí da-KOR»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "ça ne me dit rien", "es": "no me apetece nada", "esApprox": "«sa ne me di RIEN»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "on pourrait", "es": "podríamos", "esApprox": "«on pu-RE»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "je suis désolé", "es": "lo siento", "esApprox": "«ye süí de-zo-LÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "le meilleur", "es": "el mejor", "esApprox": "«le me-YÖR»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "À mon avis, ce film est excellent. Je suis d'accord avec toi.", "es": "En mi opinión, esta película es excelente. Estoy de acuerdo contigo.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "On pourrait aller au cinéma. On se retrouve devant le cinéma à dix-neuf heures.", "es": "Podríamos ir al cine. Nos vemos delante del cine a las siete.", "from": "e7" }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "fr-a2-161",
+  "lang": "fr",
+  "level": "A2",
+  "order": 161,
+  "title": "Expresar cantidad y causa: beaucoup de, parce que, donc, car",
+  "objectives": [
+    "Repasar y ampliar los cuantificadores: beaucoup de, un peu de, trop de, pas assez de",
+    "Distinguir parce que (causa, responde a pourquoi) de car (causa, más escrito) y donc (consecuencia)",
+    "Practicar frases de causa y consecuencia encadenadas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cantidad, causa y consecuencia",
+      "body": "Beaucoup de expresa cantidad; parce que y car explican una causa; donc introduce una consecuencia. Parce que responde a una pregunta con pourquoi; car se usa más en textos escritos, con el mismo significado.",
+      "examples": [
+        { "target": "J'ai beaucoup de travail, donc je suis fatigué, car je n'ai pas assez dormi.", "es": "Tengo mucho trabajo, así que estoy cansado, porque no he dormido lo suficiente.", "note": "beaucoup de + donc (consecuencia) + car (causa)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cuantificadores",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["beaucoup de", "mucho/a/os/as de"],
+        ["un peu de", "un poco de"],
+        ["trop de", "demasiado/a de"],
+        ["pas assez de", "no suficiente de"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Causa y consecuencia",
+      "headers": ["Francés", "Uso"],
+      "rows": [
+        ["parce que", "causa, responde a pourquoi ?"],
+        ["car", "causa, más frecuente por escrito"],
+        ["donc", "consecuencia"]
+      ],
+      "note": "Parce que y car nunca van al principio absoluto de una conversación (no responden a una pregunta que no se ha hecho); donc siempre introduce el resultado de lo anterior."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "beaucoup de", "es": "mucho/a/os/as de", "ipa": "/bo.ku də/", "esApprox": "«bo-KU de»", "pos": "expresión", "gender": null, "example": { "target": "J'ai beaucoup de travail.", "es": "Tengo mucho trabajo." } },
+    { "id": "v2", "target": "pas assez de", "es": "no suficiente de", "ipa": "/pa.z‿a.se də/", "esApprox": "«pa-za-SÉ de»", "pos": "expresión", "gender": null, "example": { "target": "Je n'ai pas assez dormi.", "es": "No he dormido lo suficiente." } },
+    { "id": "v3", "target": "parce que", "es": "porque", "ipa": "/paʁs kə/", "esApprox": "«pars ke»", "pos": "conjunción", "gender": null, "example": { "target": "Je suis fatigué parce que je n'ai pas assez dormi.", "es": "Estoy cansado porque no he dormido lo suficiente." } },
+    { "id": "v4", "target": "car", "es": "porque, pues", "ipa": "/kaʁ/", "esApprox": "«KAR»", "pos": "conjunción", "gender": null, "example": { "target": "Je suis fatigué, car je n'ai pas assez dormi.", "es": "Estoy cansado, pues no he dormido lo suficiente." } },
+    { "id": "v5", "target": "donc", "es": "así que, por lo tanto", "ipa": "/dɔ̃k/", "esApprox": "«DONK»", "pos": "conjunción", "gender": null, "example": { "target": "J'ai beaucoup de travail, donc je suis fatigué.", "es": "Tengo mucho trabajo, así que estoy cansado." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras introduce una consecuencia, no una causa?",
+      "options": ["parce que", "car", "donc", "beaucoup de"],
+      "answer": 2,
+      "explain": "Donc introduce una consecuencia; parce que y car, una causa."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "¿Qué pregunta responde parce que?",
+      "options": ["Comment ?", "Pourquoi ?", "Quand ?", "Où ?"],
+      "answer": 1,
+      "explain": "Parce que responde a pourquoi ? (¿por qué?)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "statement": "Car y parce que tienen el mismo significado (causa).",
+      "answer": true,
+      "explain": "Ambos expresan causa; car es más frecuente en el registro escrito."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "statement": "Pas assez de significa lo mismo que trop de.",
+      "answer": false,
+      "explain": "Pas assez de = no suficiente; trop de = demasiado. Son opuestos."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["beaucoup de", "un peu de", "trop de", "donc"],
+      "right": ["así que", "demasiado de", "un poco de", "mucho de"],
+      "answer": [3, 2, 1, 0],
+      "explain": "Beaucoup de = mucho de, un peu de = un poco de, trop de = demasiado de, donc = así que."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "Tengo mucho trabajo, así que estoy cansado, porque no he dormido lo suficiente.",
+      "accept": ["J'ai beaucoup de travail, donc je suis fatigué, car je n'ai pas assez dormi"],
+      "hintWords": ["j'ai beaucoup de travail, donc je suis fatigué", "car je n'ai pas assez dormi"],
+      "strictAccents": true,
+      "audio": "J'ai beaucoup de travail, donc je suis fatigué, car je n'ai pas assez dormi.",
+      "explain": "Beaucoup de + donc (consecuencia) + car (causa)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "¿Por qué estás cansado? Porque tengo demasiado trabajo esta semana.",
+      "accept": ["Pourquoi tu es fatigué ? Parce que j'ai trop de travail cette semaine"],
+      "hintWords": ["pourquoi tu es fatigué", "parce que j'ai trop de travail cette semaine"],
+      "strictAccents": true,
+      "audio": "Pourquoi tu es fatigué ? Parce que j'ai trop de travail cette semaine.",
+      "explain": "Pourquoi + parce que + trop de."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "Completa con la conjunción correcta",
+      "text": "Je suis fatigué ___ je n'ai pas assez dormi, ___ je vais me coucher tôt.",
+      "blanks": [{ "accept": ["parce que", "car"] }, { "accept": ["donc"] }],
+      "bank": ["parce que", "car", "donc"],
+      "explain": "Parce que/car (causa) + donc (consecuencia)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tengo mucho trabajo»",
+      "tokens": ["de travail", "J'ai beaucoup"],
+      "answer": ["J'ai beaucoup", "de travail"],
+      "audio": "J'ai beaucoup de travail.",
+      "explain": "J'ai beaucoup + de travail."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "Je n'ai pas assez de temps cette semaine, car j'ai trop de travail, donc je ne peux pas sortir.",
+      "accept": ["No tengo suficiente tiempo esta semana, porque tengo demasiado trabajo, así que no puedo salir."],
+      "strictAccents": false,
+      "audio": "Je n'ai pas assez de temps cette semaine, car j'ai trop de travail, donc je ne peux pas sortir.",
+      "explain": "Pas assez de + car + donc, una cadena completa de causa y consecuencia."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando una causa",
+      "turns": [
+        { "who": "Léa", "text": "Pourquoi tu es fatigué ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Parce que j'ai beaucoup de travail.", "Car je n'ai pas assez dormi."], "hint": "usa parce que o car" },
+        { "who": "Léa", "text": "Ah, tu devrais te reposer alors.", "speak": true }
+      ],
+      "explain": "Pourquoi...? se responde con parce que o car."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "speak": "J'ai beaucoup de travail cette semaine, donc je suis fatigué, car je n'ai pas assez dormi.",
+      "mode": "write",
+      "accept": ["J'ai beaucoup de travail cette semaine, donc je suis fatigué, car je n'ai pas assez dormi"],
+      "showTextAfter": true,
+      "explain": "Cantidad, consecuencia y causa combinadas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 1,
+      "speak": "donc",
+      "mode": "choose",
+      "options": ["parce que", "car", "donc", "beaucoup"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Donc = así que, introduce una consecuencia."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 3,
+      "speak": "J'ai trop de travail cette semaine, donc je suis fatigué, car je n'ai pas assez dormi, et j'ai un peu mal à la tête.",
+      "es": "Tengo demasiado trabajo esta semana, así que estoy cansado, porque no he dormido lo suficiente, y me duele un poco la cabeza.",
+      "ipa": "/ʒe tʁo də tʁa.vaj sɛt sə.mɛn dɔ̃k ʒə sɥi fa.ti.ɡe kaʁ ʒə nɛ pa.z‿a.se dɔʁ.mi e ʒe œ̃ pø mal a la tɛt/",
+      "esApprox": "«ye tro de tra-VAY set se-MEN donk ye süí fa-ti-GÉ kar ye ne pa-za-SÉ dor-MÍ e ye un pö mal a la TET»",
+      "focus": "Cantidad, consecuencia y dos causas encadenadas en una frase larga.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "Explica por qué estás cansado o ocupado esta semana, usando parce que o car, y donc.",
+      "modelAnswer": "J'ai beaucoup de travail cette semaine, donc je suis fatigué, car je n'ai pas assez dormi.",
+      "alsoValid": ["Je n'ai pas assez de temps, car j'ai trop de travail."],
+      "speak": "J'ai beaucoup de travail cette semaine, donc je suis fatigué, car je n'ai pas assez dormi.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "¿Es causa o consecuencia?",
+      "buckets": ["Causa", "Consecuencia"],
+      "items": [
+        { "text": "parce que", "bucket": 0 },
+        { "text": "donc", "bucket": 1 },
+        { "text": "car", "bucket": 0 },
+        { "text": "donc je suis fatigué", "bucket": 1 }
+      ],
+      "explain": "Parce que y car son causa; donc es consecuencia."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["cantidad", "causa-consecuencia"],
+      "difficulty": 2,
+      "prompt": "Hay un error de conjunción. Corrige la frase entera.",
+      "wrong": "Je suis fatigué, donc je n'ai pas assez dormi.",
+      "accept": ["Je suis fatigué, car je n'ai pas assez dormi"],
+      "audio": "Je suis fatigué, car je n'ai pas assez dormi.",
+      "explain": "No dormir es la causa del cansancio, no la consecuencia: se necesita car o parce que, no donc."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "beaucoup de", "es": "mucho/a/os/as de", "esApprox": "«bo-KU de»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "pas assez de", "es": "no suficiente de", "esApprox": "«pa-za-SÉ de»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "parce que", "es": "porque", "esApprox": "«pars ke»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "car", "es": "porque, pues", "esApprox": "«KAR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "donc", "es": "así que, por lo tanto", "esApprox": "«DONK»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "J'ai beaucoup de travail, donc je suis fatigué, car je n'ai pas assez dormi.", "es": "Tengo mucho trabajo, así que estoy cansado, porque no he dormido lo suficiente.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Pourquoi tu es fatigué ? Parce que j'ai trop de travail cette semaine.", "es": "¿Por qué estás cansado? Porque tengo demasiado trabajo esta semana.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai beaucoup de travail.", "es": "Tengo mucho trabajo.", "from": "e9" }
+  ]
+}
