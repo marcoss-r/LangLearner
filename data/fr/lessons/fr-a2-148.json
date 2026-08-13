@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-148",
+  "lang": "fr",
+  "level": "A2",
+  "order": 148,
+  "title": "Ir de compras: consumo, precios y dinero",
+  "objectives": [
+    "Aprender vocabulario de las compras y el dinero",
+    "Hablar de precios, rebajas y formas de pago",
+    "Practicar frases útiles al comprar algo en una tienda"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Comprar en francés",
+      "body": "Sin gramática nueva. Vocabulario para hablar de compras: les soldes, en solde, payer en espèces / par carte, un reçu.",
+      "examples": [
+        { "target": "C'est en solde, ça coûte trente euros au lieu de cinquante. Je vais payer par carte.", "es": "Está rebajado, cuesta treinta euros en vez de cincuenta. Voy a pagar con tarjeta.", "note": "en solde + au lieu de + payer par carte" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de las compras",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["les soldes", "las rebajas"],
+        ["en solde", "rebajado, de rebajas"],
+        ["au lieu de", "en vez de"],
+        ["payer en espèces / par carte", "pagar en efectivo / con tarjeta"],
+        ["un reçu", "un recibo"],
+        ["rembourser", "reembolsar"],
+        ["échanger", "cambiar (un producto)"],
+        ["ça coûte cher / pas cher", "cuesta caro / barato"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Échanger frente a rembourser",
+      "body": "Échanger un produit significa cambiarlo por otro (mismo valor); se faire rembourser significa que te devuelven el dinero. En una tienda, puedes preguntar: «Je peux l'échanger ou me faire rembourser ?»"
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "les soldes", "es": "las rebajas", "ipa": "/le sɔld/", "esApprox": "«le SOLD»", "pos": "sustantivo", "gender": "m", "example": { "target": "Les soldes commencent demain.", "es": "Las rebajas empiezan mañana." } },
+    { "id": "v2", "target": "en solde", "es": "rebajado, de rebajas", "ipa": "/ɑ̃ sɔld/", "esApprox": "«an SOLD»", "pos": "expresión", "gender": null, "example": { "target": "C'est en solde, ça coûte moins cher.", "es": "Está rebajado, cuesta menos." } },
+    { "id": "v3", "target": "au lieu de", "es": "en vez de", "ipa": "/o ljø də/", "esApprox": "«o LIÖ de»", "pos": "expresión", "gender": null, "example": { "target": "Ça coûte trente euros au lieu de cinquante.", "es": "Cuesta treinta euros en vez de cincuenta." } },
+    { "id": "v4", "target": "payer en espèces", "es": "pagar en efectivo", "ipa": "/pe.je ɑ̃ n‿ɛs.pɛs/", "esApprox": "«pe-YÉ an-nes-PES»", "pos": "expresión", "gender": null, "example": { "target": "Je préfère payer en espèces.", "es": "Prefiero pagar en efectivo." } },
+    { "id": "v5", "target": "payer par carte", "es": "pagar con tarjeta", "ipa": "/pe.je paʁ kaʁt/", "esApprox": "«pe-YÉ par KART»", "pos": "expresión", "gender": null, "example": { "target": "Je vais payer par carte.", "es": "Voy a pagar con tarjeta." } },
+    { "id": "v6", "target": "un reçu", "es": "un recibo", "ipa": "/œ̃ ʁə.sy/", "esApprox": "«un re-SÜ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je voudrais un reçu, s'il vous plaît.", "es": "Querría un recibo, por favor." } },
+    { "id": "v7", "target": "échanger", "es": "cambiar (un producto)", "ipa": "/e.ʃɑ̃.ʒe/", "esApprox": "«e-shan-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je voudrais échanger ce pull.", "es": "Querría cambiar este jersey." } },
+    { "id": "v8", "target": "ça coûte cher", "es": "cuesta caro", "ipa": "/sa kut ʃɛʁ/", "esApprox": "«sa KUT SHER»", "pos": "expresión", "gender": null, "example": { "target": "Ça coûte trop cher pour moi.", "es": "Cuesta demasiado caro para mí." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «voy a pagar con tarjeta»?",
+      "options": ["Je vais payer en espèces.", "Je vais payer par carte.", "Je vais échanger la carte.", "Je vais rembourser la carte."],
+      "answer": 1,
+      "explain": "Payer par carte = pagar con tarjeta."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «en solde»?",
+      "options": ["caro", "rebajado", "gratis", "agotado"],
+      "answer": 1,
+      "explain": "En solde = rebajado, de rebajas."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "statement": "Un reçu es un documento que confirma una compra.",
+      "answer": true,
+      "explain": "Un reçu = un recibo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "statement": "Échanger y rembourser significan exactamente lo mismo.",
+      "answer": false,
+      "explain": "Échanger = cambiar un producto por otro; rembourser = devolver el dinero."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["les soldes", "un reçu", "au lieu de", "rembourser"],
+      "right": ["reembolsar", "las rebajas", "un recibo", "en vez de"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Soldes = rebajas, reçu = recibo, au lieu de = en vez de, rembourser = reembolsar."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "Está rebajado, cuesta treinta euros en vez de cincuenta. Voy a pagar con tarjeta.",
+      "accept": ["C'est en solde, ça coûte trente euros au lieu de cinquante. Je vais payer par carte"],
+      "hintWords": ["c'est en solde, ça coûte trente euros au lieu de cinquante", "je vais payer par carte"],
+      "strictAccents": true,
+      "audio": "C'est en solde, ça coûte trente euros au lieu de cinquante. Je vais payer par carte.",
+      "explain": "En solde + au lieu de + payer par carte."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "Querría cambiar este jersey, y también querría un recibo.",
+      "accept": ["Je voudrais échanger ce pull, et je voudrais aussi un reçu"],
+      "hintWords": ["je voudrais échanger ce pull", "je voudrais aussi un reçu"],
+      "strictAccents": true,
+      "audio": "Je voudrais échanger ce pull, et je voudrais aussi un reçu.",
+      "explain": "Échanger + un reçu, dos peticiones corteses típicas en una tienda."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Les ___ commencent demain, tout est ___.",
+      "blanks": [{ "accept": ["soldes"] }, { "accept": ["en solde"] }],
+      "bank": ["soldes", "en solde", "cher"],
+      "explain": "Les soldes + tout est en solde."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Prefiero pagar en efectivo»",
+      "tokens": ["payer en espèces", "Je préfère"],
+      "answer": ["Je préfère", "payer en espèces"],
+      "audio": "Je préfère payer en espèces.",
+      "explain": "Je préfère + payer en espèces."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "Ça coûte trop cher pour moi, mais avec les soldes, c'est beaucoup moins cher qu'avant.",
+      "accept": ["Cuesta demasiado caro para mí, pero con las rebajas, es mucho más barato que antes."],
+      "strictAccents": false,
+      "audio": "Ça coûte trop cher pour moi, mais avec les soldes, c'est beaucoup moins cher qu'avant.",
+      "explain": "Ça coûte cher + les soldes + moins cher."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en una tienda",
+      "turns": [
+        { "who": "Vendeur", "text": "Vous voulez payer comment ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je vais payer par carte.", "Je préfère payer en espèces."], "hint": "usa payer par carte o payer en espèces" },
+        { "who": "Vendeur", "text": "Très bien, voici votre reçu.", "speak": true }
+      ],
+      "explain": "Vous voulez payer comment...? se responde con la forma de pago."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "speak": "C'est en solde, ça coûte trente euros au lieu de cinquante, et je vais payer par carte.",
+      "mode": "write",
+      "accept": ["C'est en solde, ça coûte trente euros au lieu de cinquante, et je vais payer par carte"],
+      "showTextAfter": true,
+      "explain": "Frase completa típica al comprar algo rebajado."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["compras", "dinero"],
+      "difficulty": 1,
+      "speak": "les soldes",
+      "mode": "choose",
+      "options": ["un reçu", "les soldes", "au lieu de", "échanger"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Les soldes = las rebajas."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["compras", "dinero"],
+      "difficulty": 3,
+      "speak": "C'est en solde, ça coûte trente euros au lieu de cinquante, je vais payer par carte, et je voudrais un reçu.",
+      "es": "Está rebajado, cuesta treinta euros en vez de cincuenta, voy a pagar con tarjeta, y querría un recibo.",
+      "ipa": "/sɛ ɑ̃ sɔld sa kut tʁɑ̃t øʁo o ljø də sɛ̃.kɑ̃t ʒə vɛ pe.je paʁ kaʁt e ʒə vu.dʁɛ œ̃ ʁə.sy/",
+      "esApprox": "«se an SOLD sa KUT trant Ö-RO o LIÖ de sen-KANT ye ve pe-YÉ par KART e ye vu-DRE un re-SÜ»",
+      "focus": "Una compra completa: precio, forma de pago y recibo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "Cuenta una compra reciente: qué compraste, el precio, cómo pagaste.",
+      "modelAnswer": "J'ai acheté un pull en solde, ça coûtait vingt euros, j'ai payé par carte.",
+      "alsoValid": ["Je préfère toujours payer en espèces."],
+      "speak": "J'ai acheté un pull en solde, ça coûtait vingt euros, j'ai payé par carte.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "¿Es sobre el precio o sobre el pago?",
+      "buckets": ["Precio", "Pago"],
+      "items": [
+        { "text": "en solde", "bucket": 0 },
+        { "text": "payer par carte", "bucket": 1 },
+        { "text": "ça coûte cher", "bucket": 0 },
+        { "text": "payer en espèces", "bucket": 1 }
+      ],
+      "explain": "En solde y ça coûte cher son sobre el precio; payer par carte y payer en espèces, sobre el pago."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["compras", "dinero"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "Je voudrais rembourser ce pull contre un autre.",
+      "accept": ["Je voudrais échanger ce pull contre un autre"],
+      "audio": "Je voudrais échanger ce pull contre un autre.",
+      "explain": "Se échange (cambia) un producto por otro; rembourser es devolver el dinero, no cambiar por otra cosa."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "les soldes", "es": "las rebajas", "esApprox": "«le SOLD»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "en solde", "es": "rebajado, de rebajas", "esApprox": "«an SOLD»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "au lieu de", "es": "en vez de", "esApprox": "«o LIÖ de»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "payer en espèces / par carte", "es": "pagar en efectivo / con tarjeta", "esApprox": "«pe-YÉ an-nes-PES / par KART»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un reçu", "es": "un recibo", "esApprox": "«un re-SÜ»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "échanger", "es": "cambiar (un producto)", "esApprox": "«e-shan-YÉ»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "C'est en solde, ça coûte trente euros au lieu de cinquante. Je vais payer par carte.", "es": "Está rebajado, cuesta treinta euros en vez de cincuenta. Voy a pagar con tarjeta.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je voudrais échanger ce pull, et je voudrais aussi un reçu.", "es": "Querría cambiar este jersey, y también querría un recibo.", "from": "e7" }
+  ]
+}

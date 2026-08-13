@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-145",
+  "lang": "fr",
+  "level": "A2",
+  "order": 145,
+  "title": "La prensa y la televisión",
+  "objectives": [
+    "Aprender vocabulario de la prensa y la televisión",
+    "Hablar de hábitos de información con el presente",
+    "Practicar frases sobre las noticias y los programas de televisión"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Informarse en francés",
+      "body": "Sin gramática nueva. Vocabulario para hablar de los medios de comunicación: les informations, une chaîne, un journal, un présentateur.",
+      "examples": [
+        { "target": "Je regarde les informations tous les soirs, et je lis aussi le journal le matin.", "es": "Veo las noticias todas las noches, y también leo el periódico por la mañana.", "note": "regarder les informations + lire le journal, hábitos con presente" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la prensa y la televisión",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["les informations / les infos", "las noticias"],
+        ["une chaîne", "un canal (de televisión)"],
+        ["un journal", "un periódico"],
+        ["un présentateur / une présentatrice", "un presentador / una presentadora"],
+        ["une émission", "un programa (de tv o radio)"],
+        ["un article", "un artículo"],
+        ["allumer / éteindre la télé", "encender / apagar la tele"],
+        ["une actualité", "una actualidad, una noticia"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Regarder, lire o écouter",
+      "body": "Cada medio va con un verbo distinto: on regarde la télé o une émission, on lit le journal o un article, on écoute la radio. No los confundas."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "les informations / les infos", "es": "las noticias", "ipa": "/le.z‿ɛ̃.fɔʁ.ma.sjɔ̃/", "esApprox": "«le-zen-for-ma-SIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je regarde les informations tous les soirs.", "es": "Veo las noticias todas las noches." } },
+    { "id": "v2", "target": "une chaîne", "es": "un canal (de televisión)", "ipa": "/yn ʃɛn/", "esApprox": "«ün SHEN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Quelle chaîne tu regardes ?", "es": "¿Qué canal ves?" } },
+    { "id": "v3", "target": "un journal", "es": "un periódico", "ipa": "/œ̃ ʒuʁ.nal/", "esApprox": "«un yur-NAL»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je lis le journal le matin.", "es": "Leo el periódico por la mañana." } },
+    { "id": "v4", "target": "un présentateur / une présentatrice", "es": "un presentador / una presentadora", "ipa": "/œ̃ pʁe.zɑ̃.ta.tœʁ/", "esApprox": "«un pre-zan-ta-TÖR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le présentateur parle très vite.", "es": "El presentador habla muy rápido." } },
+    { "id": "v5", "target": "une émission", "es": "un programa (de tv o radio)", "ipa": "/yn e.mi.sjɔ̃/", "esApprox": "«ün e-mi-SIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "C'est mon émission préférée.", "es": "Es mi programa favorito." } },
+    { "id": "v6", "target": "un article", "es": "un artículo", "ipa": "/œ̃ naʁ.tikl/", "esApprox": "«un nar-TIKL»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai lu un article intéressant.", "es": "Leí un artículo interesante." } },
+    { "id": "v7", "target": "allumer / éteindre la télé", "es": "encender / apagar la tele", "ipa": "/a.ly.me e.tɛ̃dʁ la te.le/", "esApprox": "«a-lü-MÉ e-TENDR la te-LÉ»", "pos": "expresión", "gender": null, "example": { "target": "Peux-tu éteindre la télé, s'il te plaît ?", "es": "¿Puedes apagar la tele, por favor?" } },
+    { "id": "v8", "target": "une actualité", "es": "una actualidad, una noticia", "ipa": "/yn ak.ty.a.li.te/", "esApprox": "«ün ak-tü-a-li-TÉ»", "pos": "sustantivo", "gender": "f", "example": { "target": "Cette actualité est vraiment triste.", "es": "Esta noticia es realmente triste." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «veo las noticias todas las noches»?",
+      "options": ["Je regarde les informations tous les soirs.", "Je lis les informations tous les soirs.", "J'écoute les informations tous les soirs.", "J'allume les informations tous les soirs."],
+      "answer": 0,
+      "explain": "Regarder les informations (a la televisión) = ver las noticias."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "¿Qué es «une chaîne»?",
+      "options": ["un periódico", "un canal de televisión", "un programa", "un artículo"],
+      "answer": 1,
+      "explain": "Une chaîne = un canal de televisión."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "statement": "Une émission es un programa de televisión o radio.",
+      "answer": true,
+      "explain": "Une émission = un programa (de tv o radio)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "statement": "Un article y un journal significan exactamente lo mismo.",
+      "answer": false,
+      "explain": "Un journal es el periódico completo; un article es un texto dentro de él."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["un journal", "un présentateur", "une émission", "une actualité"],
+      "right": ["una noticia", "un periódico", "un presentador", "un programa"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Journal = periódico, présentateur = presentador, émission = programa, actualité = noticia."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "Veo las noticias todas las noches, y también leo el periódico por la mañana.",
+      "accept": ["Je regarde les informations tous les soirs, et je lis aussi le journal le matin"],
+      "hintWords": ["je regarde les informations tous les soirs", "je lis aussi le journal le matin"],
+      "strictAccents": true,
+      "audio": "Je regarde les informations tous les soirs, et je lis aussi le journal le matin.",
+      "explain": "Regarder les informations + lire le journal, hábitos con presente."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "Leí un artículo interesante sobre mi programa favorito.",
+      "accept": ["J'ai lu un article intéressant sur mon émission préférée"],
+      "hintWords": ["j'ai lu un article intéressant", "sur mon émission préférée"],
+      "strictAccents": true,
+      "audio": "J'ai lu un article intéressant sur mon émission préférée.",
+      "explain": "Un article + une émission préférée."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Peux-tu ___ la télé ? Le ___ parle trop vite.",
+      "blanks": [{ "accept": ["éteindre"] }, { "accept": ["présentateur"] }],
+      "bank": ["éteindre", "présentateur", "chaîne"],
+      "explain": "Éteindre la télé + le présentateur."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Qué canal ves?»",
+      "tokens": ["tu regardes", "Quelle chaîne"],
+      "answer": ["Quelle chaîne", "tu regardes"],
+      "audio": "Quelle chaîne tu regardes ?",
+      "explain": "Quelle chaîne + tu regardes."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "Cette actualité est vraiment triste, j'ai lu l'article ce matin dans le journal.",
+      "accept": ["Esta noticia es realmente triste, leí el artículo esta mañana en el periódico."],
+      "strictAccents": false,
+      "audio": "Cette actualité est vraiment triste, j'ai lu l'article ce matin dans le journal.",
+      "explain": "Une actualité + un article + un journal."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus hábitos informativos",
+      "turns": [
+        { "who": "Léa", "text": "Tu t'informes comment, toi ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je regarde les informations tous les soirs.", "Je lis le journal le matin."], "hint": "usa les informations o le journal" },
+        { "who": "Léa", "text": "Ah, moi je préfère lire des articles en ligne.", "speak": true }
+      ],
+      "explain": "Tu t'informes comment...? se responde con tus hábitos de medios."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "speak": "Je regarde les informations tous les soirs, je lis le journal le matin, et j'aime lire des articles sur l'actualité.",
+      "mode": "write",
+      "accept": ["Je regarde les informations tous les soirs, je lis le journal le matin, et j'aime lire des articles sur l'actualité"],
+      "showTextAfter": true,
+      "explain": "Tres hábitos informativos encadenados."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["medios"],
+      "difficulty": 1,
+      "speak": "une émission",
+      "mode": "choose",
+      "options": ["un journal", "une émission", "un article", "une chaîne"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Une émission = un programa."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["medios"],
+      "difficulty": 3,
+      "speak": "Je regarde les informations tous les soirs, je lis le journal le matin, et j'ai lu un article intéressant sur l'actualité.",
+      "es": "Veo las noticias todas las noches, leo el periódico por la mañana, y leí un artículo interesante sobre la actualidad.",
+      "ipa": "/ʒə ʁə.ɡaʁd le.z‿ɛ̃.fɔʁ.ma.sjɔ̃ tu le swaʁ ʒə li lə ʒuʁ.nal lə ma.tɛ̃ e ʒe ly œ̃.n‿aʁ.tikl ɛ̃.te.ʁɛ.sɑ̃ syʁ lak.ty.a.li.te/",
+      "esApprox": "«ye re-GARD le-zen-for-ma-SIÓN tu le SUAR ye li le yur-NAL le ma-TEN e ye LÜ un-nar-TIKL en-te-re-SAN sür lak-tü-a-li-TÉ»",
+      "focus": "Varios hábitos de información combinados en una frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "Habla de cómo te informas: qué canal ves, si lees el periódico.",
+      "modelAnswer": "Je regarde les informations le soir, et je lis parfois le journal.",
+      "alsoValid": ["Je préfère lire des articles en ligne."],
+      "speak": "Je regarde les informations le soir, et je lis parfois le journal.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "¿Es de la televisión o de la prensa escrita?",
+      "buckets": ["Televisión", "Prensa escrita"],
+      "items": [
+        { "text": "une chaîne", "bucket": 0 },
+        { "text": "un journal", "bucket": 1 },
+        { "text": "un présentateur", "bucket": 0 },
+        { "text": "un article", "bucket": 1 }
+      ],
+      "explain": "Chaîne y présentateur son de la televisión; journal y article, de la prensa escrita."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["medios"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "Je lis les informations à la télé.",
+      "accept": ["Je regarde les informations à la télé"],
+      "audio": "Je regarde les informations à la télé.",
+      "explain": "En la televisión, se regarde (ve) las noticias, no se lit (lee)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "les informations / les infos", "es": "las noticias", "esApprox": "«le-zen-for-ma-SIÓN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "une chaîne", "es": "un canal (de televisión)", "esApprox": "«ün SHEN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un journal", "es": "un periódico", "esApprox": "«un yur-NAL»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "une émission", "es": "un programa (de tv o radio)", "esApprox": "«ün e-mi-SIÓN»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "un article", "es": "un artículo", "esApprox": "«un nar-TIKL»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "une actualité", "es": "una actualidad, una noticia", "esApprox": "«ün ak-tü-a-li-TÉ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je regarde les informations tous les soirs, et je lis aussi le journal le matin.", "es": "Veo las noticias todas las noches, y también leo el periódico por la mañana.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai lu un article intéressant sur mon émission préférée.", "es": "Leí un artículo interesante sobre mi programa favorito.", "from": "e7" }
+  ]
+}

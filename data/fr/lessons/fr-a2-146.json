@@ -1,0 +1,257 @@
+{
+  "id": "fr-a2-146",
+  "lang": "fr",
+  "level": "A2",
+  "order": 146,
+  "title": "El cine y la música",
+  "objectives": [
+    "Aprender vocabulario del cine y la música",
+    "Dar opiniones sencillas sobre películas y canciones",
+    "Practicar frases para hablar de tus gustos culturales"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar de cine y música",
+      "body": "Sin gramática nueva. Vocabulario para hablar de tus gustos culturales: un réalisateur, un acteur, un chanteur, une chanson.",
+      "examples": [
+        { "target": "J'ai vu un film génial hier soir. Le réalisateur est très connu.", "es": "Vi una película genial anoche. El director es muy conocido.", "note": "voir un film (passé composé) + un réalisateur" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del cine",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["un réalisateur / une réalisatrice", "un director / una directora"],
+        ["un acteur / une actrice", "un actor / una actriz"],
+        ["un film d'horreur / une comédie", "una película de terror / una comedia"],
+        ["les sous-titres", "los subtítulos"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la música",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["un chanteur / une chanteuse", "un cantante / una cantante"],
+        ["une chanson", "una canción"],
+        ["un concert", "un concierto"],
+        ["écouter de la musique", "escuchar música"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "un réalisateur / une réalisatrice", "es": "un director / una directora (de cine)", "ipa": "/œ̃ ʁe.a.li.za.tœʁ/", "esApprox": "«un re-a-li-za-TÖR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le réalisateur est très connu.", "es": "El director es muy conocido." } },
+    { "id": "v2", "target": "un acteur / une actrice", "es": "un actor / una actriz", "ipa": "/œ̃ nak.tœʁ yn nak.tʁis/", "esApprox": "«un nak-TÖR ün nak-TRIS»", "pos": "sustantivo", "gender": "m", "example": { "target": "Mon acteur préféré joue dans ce film.", "es": "Mi actor favorito actúa en esta película." } },
+    { "id": "v3", "target": "un film d'horreur", "es": "una película de terror", "ipa": "/œ̃ film dɔ.ʁœʁ/", "esApprox": "«un FILM do-RÖR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je n'aime pas les films d'horreur.", "es": "No me gustan las películas de terror." } },
+    { "id": "v4", "target": "les sous-titres", "es": "los subtítulos", "ipa": "/le su.titʁ/", "esApprox": "«le su-TITR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je regarde les films avec des sous-titres.", "es": "Veo las películas con subtítulos." } },
+    { "id": "v5", "target": "un chanteur / une chanteuse", "es": "un cantante / una cantante", "ipa": "/œ̃ ʃɑ̃.tœʁ yn ʃɑ̃.tøz/", "esApprox": "«un shan-TÖR ün shan-TÖZ»", "pos": "sustantivo", "gender": "m", "example": { "target": "C'est mon chanteur préféré.", "es": "Es mi cantante favorito." } },
+    { "id": "v6", "target": "une chanson", "es": "una canción", "ipa": "/yn ʃɑ̃.sɔ̃/", "esApprox": "«ün shan-SÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Cette chanson est magnifique.", "es": "Esta canción es magnífica." } },
+    { "id": "v7", "target": "un concert", "es": "un concierto", "ipa": "/œ̃ kɔ̃.sɛʁ/", "esApprox": "«un kon-SER»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je suis allé à un concert samedi.", "es": "Fui a un concierto el sábado." } },
+    { "id": "v8", "target": "écouter de la musique", "es": "escuchar música", "ipa": "/e.ku.te də la my.zik/", "esApprox": "«e-ku-TÉ de la mü-ZIK»", "pos": "expresión", "gender": null, "example": { "target": "J'écoute de la musique tous les jours.", "es": "Escucho música todos los días." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «el director es muy conocido»?",
+      "options": ["Le réalisateur est très connu.", "L'acteur est très connu.", "Le chanteur est très connu.", "Le film est très connu."],
+      "answer": 0,
+      "explain": "Un réalisateur = un director de cine."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "¿Qué son «les sous-titres»?",
+      "options": ["las canciones", "los subtítulos", "los conciertos", "las comedias"],
+      "answer": 1,
+      "explain": "Les sous-titres = los subtítulos."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "statement": "Un chanteur canta canciones, mientras que un acteur actúa en películas.",
+      "answer": true,
+      "explain": "Chanteur = cantante; acteur = actor."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "statement": "Une chanson y un concert significan lo mismo.",
+      "answer": false,
+      "explain": "Une chanson es una canción; un concert es un evento en directo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["un acteur", "une chanson", "un film d'horreur", "un concert"],
+      "right": ["un concierto", "una película de terror", "un actor", "una canción"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Acteur = actor, chanson = canción, film d'horreur = película de terror, concert = concierto."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "Vi una película genial anoche. El director es muy conocido.",
+      "accept": ["J'ai vu un film génial hier soir. Le réalisateur est très connu"],
+      "hintWords": ["j'ai vu un film génial hier soir", "le réalisateur est très connu"],
+      "strictAccents": true,
+      "audio": "J'ai vu un film génial hier soir. Le réalisateur est très connu.",
+      "explain": "Voir un film (passé composé) + un réalisateur."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "Fui a un concierto el sábado. Esta canción es magnífica.",
+      "accept": ["Je suis allé à un concert samedi. Cette chanson est magnifique"],
+      "hintWords": ["je suis allé à un concert samedi", "cette chanson est magnifique"],
+      "strictAccents": true,
+      "audio": "Je suis allé à un concert samedi. Cette chanson est magnifique.",
+      "explain": "Aller à un concert (passé composé) + une chanson magnifique."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Je regarde les films avec des ___, et j'___ de la musique tous les jours.",
+      "blanks": [{ "accept": ["sous-titres"] }, { "accept": ["écoute"] }],
+      "bank": ["sous-titres", "écoute", "chante"],
+      "explain": "Des sous-titres + écouter de la musique."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «No me gustan las películas de terror»",
+      "tokens": ["les films d'horreur", "Je n'aime pas"],
+      "answer": ["Je n'aime pas", "les films d'horreur"],
+      "audio": "Je n'aime pas les films d'horreur.",
+      "explain": "Je n'aime pas + les films d'horreur."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "Mon chanteur préféré a sorti une nouvelle chanson, et je suis allé à son concert le mois dernier.",
+      "accept": ["Mi cantante favorito ha sacado una nueva canción, y fui a su concierto el mes pasado."],
+      "strictAccents": false,
+      "audio": "Mon chanteur préféré a sorti une nouvelle chanson, et je suis allé à son concert le mois dernier.",
+      "explain": "Un chanteur préféré + une chanson + un concert."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre gustos culturales",
+      "turns": [
+        { "who": "Léa", "text": "Tu préfères le cinéma ou la musique ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je préfère le cinéma, j'aime beaucoup les comédies.", "J'écoute de la musique tous les jours."], "hint": "usa el vocabulario del cine o la música" },
+        { "who": "Léa", "text": "Ah, intéressant, moi j'adore les concerts !", "speak": true }
+      ],
+      "explain": "Tu préfères...? se responde con tus gustos culturales."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "speak": "J'ai vu un film génial avec des sous-titres, et j'écoute cette chanson tous les jours depuis le concert.",
+      "mode": "write",
+      "accept": ["J'ai vu un film génial avec des sous-titres, et j'écoute cette chanson tous les jours depuis le concert"],
+      "showTextAfter": true,
+      "explain": "Cine y música combinados en una sola frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cine", "musica"],
+      "difficulty": 1,
+      "speak": "un réalisateur",
+      "mode": "choose",
+      "options": ["un acteur", "un réalisateur", "un chanteur", "un concert"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un réalisateur = un director de cine."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["cine", "musica"],
+      "difficulty": 3,
+      "speak": "J'ai vu un film d'horreur hier soir avec des sous-titres, et je suis allé à un concert de mon chanteur préféré.",
+      "es": "Vi una película de terror anoche con subtítulos, y fui a un concierto de mi cantante favorito.",
+      "ipa": "/ʒe vy œ̃ film dɔ.ʁœʁ i.jɛʁ swaʁ a.vɛk de su.titʁ e ʒə sɥi.z‿a.le a œ̃ kɔ̃.sɛʁ də mɔ̃ ʃɑ̃.tœʁ pʁe.fe.ʁe/",
+      "esApprox": "«ye VÜ un FILM do-RÖR ier SUAR a-VEK de su-TITR e ye süí-za-LÉ a un kon-SER de mon shan-TÖR pre-fe-RÉ»",
+      "focus": "Cine y música combinados en una historia completa.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "Habla de una película que has visto o un concierto al que has ido.",
+      "modelAnswer": "J'ai vu un film génial le week-end dernier, et le réalisateur est très connu.",
+      "alsoValid": ["Je suis allé à un concert samedi."],
+      "speak": "J'ai vu un film génial le week-end dernier, et le réalisateur est très connu.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "¿Es del cine o de la música?",
+      "buckets": ["Cine", "Música"],
+      "items": [
+        { "text": "un réalisateur", "bucket": 0 },
+        { "text": "un chanteur", "bucket": 1 },
+        { "text": "les sous-titres", "bucket": 0 },
+        { "text": "un concert", "bucket": 1 }
+      ],
+      "explain": "Réalisateur y sous-titres son del cine; chanteur y concert, de la música."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["cine", "musica"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "J'écoute un film génial.",
+      "accept": ["J'ai vu un film génial"],
+      "audio": "J'ai vu un film génial.",
+      "explain": "Una película se ve (voir), no se escucha (écouter)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "un réalisateur / une réalisatrice", "es": "un director / una directora", "esApprox": "«un re-a-li-za-TÖR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "un acteur / une actrice", "es": "un actor / una actriz", "esApprox": "«un nak-TÖR ün nak-TRIS»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "les sous-titres", "es": "los subtítulos", "esApprox": "«le su-TITR»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "un chanteur / une chanteuse", "es": "un cantante / una cantante", "esApprox": "«un shan-TÖR ün shan-TÖZ»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "une chanson", "es": "una canción", "esApprox": "«ün shan-SÓN»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "un concert", "es": "un concierto", "esApprox": "«un kon-SER»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai vu un film génial hier soir. Le réalisateur est très connu.", "es": "Vi una película genial anoche. El director es muy conocido.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je suis allé à un concert samedi. Cette chanson est magnifique.", "es": "Fui a un concierto el sábado. Esta canción es magnífica.", "from": "e7" }
+  ]
+}
