@@ -1,0 +1,250 @@
+{
+  "id": "fr-b1-231",
+  "lang": "fr",
+  "level": "B1",
+  "order": 231,
+  "title": "El arte y la literatura",
+  "objectives": [
+    "Usar vocabulario de arte: un tableau, une exposition, un musée, un chef-d'œuvre",
+    "Usar vocabulario de literatura: un roman, un auteur, s'inspirer de",
+    "Practicar frases para describir obras de arte y literatura"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar de arte y libros",
+      "body": "Este vocabulario te permite describir un cuadro, hablar de una exposición, o comentar tu último libro con más precisión."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de arte y literatura",
+      "headers": ["Expresión", "Significado"],
+      "rows": [
+        ["un tableau", "un cuadro"],
+        ["un chef-d'œuvre", "una obra maestra"],
+        ["une exposition", "una exposición"],
+        ["un musée", "un museo"],
+        ["un roman", "una novela"],
+        ["un auteur / un écrivain", "un autor / un escritor"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "S'inspirer de",
+      "body": "Los artistas s'inspirent de (se inspiran en) otras obras, la naturaleza, o sus propias experiencias. Es una expresión clave para hablar del proceso creativo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "un tableau", "es": "un cuadro", "ipa": "/œ̃ ta.blo/", "esApprox": "«un ta-BLÓ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v2", "target": "un roman", "es": "una novela", "ipa": "/œ̃ ʁɔ.mɑ̃/", "esApprox": "«un ro-MAN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v3", "target": "un chef-d'œuvre", "es": "una obra maestra", "ipa": "/œ̃ ʃɛ.dœvʁ/", "esApprox": "«un shef-DÖVR»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v4", "target": "une exposition", "es": "una exposición", "ipa": "/yn ɛks.pɔ.zi.sjɔ̃/", "esApprox": "«ün eks-po-zi-SIÓN»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v5", "target": "un auteur / un écrivain", "es": "un autor / un escritor", "ipa": "/œ̃.n‿o.tœʁ œ̃.n‿e.kʁi.vɛ̃/", "esApprox": "«un-no-TÖR un-ne-kri-VIN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v6", "target": "un musée", "es": "un museo", "ipa": "/œ̃ my.ze/", "esApprox": "«un mü-ZÉ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v7", "target": "le style d'un artiste", "es": "el estilo de un artista", "ipa": "/lə stil dœ̃.n‿aʁ.tist/", "esApprox": "«le STIL dun-nar-TIST»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "s'inspirer de", "es": "inspirarse en", "ipa": "/sɛ̃s.pi.ʁe də/", "esApprox": "«sins-pi-RÉ de»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «una obra maestra»?",
+      "options": ["un chef-d'œuvre", "un tableau", "une exposition", "un musée"],
+      "answer": 0,
+      "explain": "Un chef-d'œuvre es una obra maestra."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "¿Qué escribe un écrivain?",
+      "options": ["un tableau", "un roman", "une exposition", "un musée"],
+      "answer": 1,
+      "explain": "Un écrivain escribe un roman (una novela)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "statement": "S'inspirer de significa tomar ideas de algo o alguien.",
+      "answer": true,
+      "explain": "S'inspirer de es inspirarse en algo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "statement": "Un musée es lo mismo que un roman.",
+      "answer": false,
+      "explain": "Un musée es un edificio; un roman es un libro."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["un tableau", "une exposition", "un auteur", "le style"],
+      "right": ["un cuadro", "una exposición", "un autor", "el estilo"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Vocabulario clave de arte y literatura."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "Este cuadro es una obra maestra que se puede ver en el museo." ,
+      "accept": ["Ce tableau est un chef-d'œuvre qu'on peut voir au musée"],
+      "hintWords": ["ce tableau est un chef-d'œuvre", "qu'on peut voir au musée"],
+      "strictAccents": true,
+      "audio": "Ce tableau est un chef-d'œuvre qu'on peut voir au musée.",
+      "explain": "Un tableau + un chef-d'œuvre + un musée."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "El autor se inspiró en su propia vida para escribir esta novela." ,
+      "accept": ["L'auteur s'est inspiré de sa propre vie pour écrire ce roman"],
+      "hintWords": ["l'auteur s'est inspiré de sa propre vie", "pour écrire ce roman"],
+      "strictAccents": true,
+      "audio": "L'auteur s'est inspiré de sa propre vie pour écrire ce roman.",
+      "explain": "Un auteur + s'inspirer de + un roman."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "J'ai visité une ___ sur cet artiste, et j'ai découvert le ___ de son travail.",
+      "blanks": [{ "accept": ["exposition"] }, { "accept": ["style"] }],
+      "bank": ["exposition", "style", "roman"],
+      "explain": "Une exposition + le style d'un artiste."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Este museo tiene un cuadro famoso»",
+      "tokens": ["un tableau célèbre", "Ce musée a"],
+      "answer": ["Ce musée a", "un tableau célèbre"],
+      "audio": "Ce musée a un tableau célèbre.",
+      "explain": "Un musée + un tableau."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "Cet écrivain s'inspire souvent de la nature pour écrire ses romans, et son style est reconnaissable.",
+      "accept": ["Este escritor se inspira a menudo en la naturaleza para escribir sus novelas, y su estilo es reconocible."],
+      "strictAccents": false,
+      "audio": "Cet écrivain s'inspire souvent de la nature pour écrire ses romans, et son style est reconnaissable.",
+      "explain": "S'inspirer de + le style d'un artiste."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre un museo",
+      "turns": [
+        { "who": "Léa", "text": "Tu as vu l'exposition au musée ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, il y avait un vrai chef-d'œuvre.", "Pas encore, mais j'adore le style de cet artiste."], "hint": "usa vocabulario de arte" },
+        { "who": "Léa", "text": "Il faut y aller !", "speak": true }
+      ],
+      "explain": "Repaso combinado del vocabulario de arte."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "speak": "Ce tableau est un chef-d'œuvre qu'on peut voir au musée, et l'auteur s'est inspiré de sa propre vie.",
+      "mode": "write",
+      "accept": ["Ce tableau est un chef-d'œuvre qu'on peut voir au musée, et l'auteur s'est inspiré de sa propre vie"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario de arte y literatura."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["arte", "literatura"],
+      "difficulty": 1,
+      "speak": "un chef-d'œuvre",
+      "mode": "choose",
+      "options": ["un tableau", "un chef-d'œuvre", "une exposition", "un musée"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un chef-d'œuvre es una obra maestra."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["arte", "literatura"],
+      "difficulty": 3,
+      "speak": "Ce tableau est un chef-d'œuvre. L'auteur s'est inspiré de sa propre vie pour écrire ce roman, et le style de l'artiste est reconnaissable.",
+      "es": "Este cuadro es una obra maestra. El autor se inspiró en su propia vida para escribir esta novela, y el estilo del artista es reconocible.",
+      "ipa": "/sə ta.blo ɛ.t‿œ̃ ʃɛ.dœvʁ lo.tœʁ sɛ.t‿ɛ̃s.pi.ʁe də sa pʁɔpʁ vi puʁ e.kʁiʁ sə ʁɔ.mɑ̃ e lə stil də laʁ.tist ɛ ʁə.kɔ.nɛ.sabl/",
+      "esApprox": "«se ta-BLÓ e-tun shef-DÖVR lo-TÖR se-tins-pi-RÉ de sa PROPR VI pur e-KRIR se ro-MAN e le STIL de lar-TIST e re-ko-ne-SABL»",
+      "focus": "Vocabulario de arte y literatura encadenado en una descripción.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "Describe un cuadro, un libro o un artista que te guste, usando el vocabulario de arte.",
+      "modelAnswer": "J'aime ce roman, l'auteur s'inspire de sa propre vie, et son style est très reconnaissable.",
+      "alsoValid": ["Ce tableau est un chef-d'œuvre exposé dans un musée célèbre."],
+      "speak": "J'aime ce roman, l'auteur s'inspire de sa propre vie, et son style est très reconnaissable.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "¿Es arte visual o literatura?",
+      "buckets": ["Arte visual", "Literatura"],
+      "items": [
+        { "text": "un tableau", "bucket": 0 },
+        { "text": "un roman", "bucket": 1 },
+        { "text": "une exposition", "bucket": 0 },
+        { "text": "un écrivain", "bucket": 1 }
+      ],
+      "explain": "Un tableau y une exposition son arte visual; un roman y un écrivain son literatura."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["arte", "literatura"],
+      "difficulty": 2,
+      "prompt": "Hay un error: s'inspirer pide de, no à. Corrige la frase entera.",
+      "wrong": "L'auteur s'inspire à sa propre vie.",
+      "accept": ["L'auteur s'inspire de sa propre vie"],
+      "audio": "L'auteur s'inspire de sa propre vie.",
+      "explain": "S'inspirer de exige la preposición de, no à."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "un tableau", "es": "un cuadro", "esApprox": "«un ta-BLÓ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "un roman", "es": "una novela", "esApprox": "«un ro-MAN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un chef-d'œuvre", "es": "una obra maestra", "esApprox": "«un shef-DÖVR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "une exposition", "es": "una exposición", "esApprox": "«ün eks-po-zi-SIÓN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un auteur / un écrivain", "es": "un autor / un escritor", "esApprox": "«un-no-TÖR un-ne-kri-VIN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "s'inspirer de", "es": "inspirarse en", "esApprox": "«sins-pi-RÉ de»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ce tableau est un chef-d'œuvre qu'on peut voir au musée.", "es": "Este cuadro es una obra maestra que se puede ver en el museo.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "L'auteur s'est inspiré de sa propre vie pour écrire ce roman.", "es": "El autor se inspiró en su propia vida para escribir esta novela.", "from": "e7" }
+  ]
+}

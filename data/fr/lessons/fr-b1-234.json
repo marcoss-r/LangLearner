@@ -1,0 +1,250 @@
+{
+  "id": "fr-b1-234",
+  "lang": "fr",
+  "level": "B1",
+  "order": 234,
+  "title": "Las relaciones y la convivencia",
+  "objectives": [
+    "Usar vocabulario de pareja y convivencia: un couple, partager les tâches ménagères",
+    "Hablar de conflictos y soluciones: un conflit, faire des compromis",
+    "Practicar frases sobre la vida compartida, en pareja o en colocation"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Convivir con otras personas",
+      "body": "Ya sabes hablar de carácter y amistad. Ahora hablas de la convivencia diaria: repartir tareas, resolver conflictos, y respetar el espacio de cada uno."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de relaciones y convivencia",
+      "headers": ["Expresión", "Significado"],
+      "rows": [
+        ["partager les tâches ménagères", "compartir las tareas domésticas"],
+        ["un conflit", "un conflicto"],
+        ["faire des compromis", "hacer concesiones, llegar a acuerdos"],
+        ["vivre en colocation", "vivir en piso compartido"],
+        ["un colocataire", "un compañero de piso"],
+        ["respecter l'espace personnel", "respetar el espacio personal"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Faire des compromis",
+      "body": "En cualquier convivencia (pareja, colocation, familia), faire des compromis es esencial: ceder un poco cada uno para que la relación funcione."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "un couple", "es": "una pareja", "ipa": "/œ̃ kupl/", "esApprox": "«un KUPL»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v2", "target": "partager les tâches ménagères", "es": "compartir las tareas domésticas", "ipa": "/paʁ.ta.ʒe le tɑʃ me.na.ʒɛʁ/", "esApprox": "«par-ta-SHÉ le TASH me-na-SHER»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "s'entendre bien avec quelqu'un", "es": "llevarse bien con alguien", "ipa": "/sɑ̃.tɑ̃dʁ bjɛ̃ a.vɛk kɛl.kœ̃/", "esApprox": "«san-TANDR bien a-VEK kel-KUN»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "un conflit", "es": "un conflicto", "ipa": "/œ̃ kɔ̃.fli/", "esApprox": "«un kon-FLÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v5", "target": "faire des compromis", "es": "hacer concesiones, llegar a acuerdos", "ipa": "/fɛʁ de kɔ̃.pʁɔ.mi/", "esApprox": "«FER de kon-pro-MÍ»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "vivre en colocation", "es": "vivir en piso compartido", "ipa": "/vivʁ ɑ̃ kɔ.lɔ.ka.sjɔ̃/", "esApprox": "«VIVR an ko-lo-ka-SIÓN»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "un colocataire", "es": "un compañero de piso", "ipa": "/œ̃ kɔ.lɔ.ka.tɛʁ/", "esApprox": "«un ko-lo-ka-TER»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v8", "target": "respecter l'espace personnel", "es": "respetar el espacio personal", "ipa": "/ʁɛs.pɛk.te lɛs.pas pɛʁ.sɔ.nɛl/", "esApprox": "«res-pek-TÉ les-PAS per-so-NEL»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «compartir las tareas domésticas»?",
+      "options": ["partager les tâches ménagères", "faire des compromis", "vivre en colocation", "respecter l'espace personnel"],
+      "answer": 0,
+      "explain": "Partager les tâches ménagères es compartir las tareas domésticas."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "¿Qué es un colocataire?",
+      "options": ["una pareja", "un compañero de piso", "un conflicto", "un compromiso"],
+      "answer": 1,
+      "explain": "Un colocataire es un compañero de piso."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "statement": "Faire des compromis significa que cada uno cede un poco.",
+      "answer": true,
+      "explain": "Faire des compromis implica ceder para llegar a un acuerdo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "statement": "Un conflit significa que todo va perfectamente bien.",
+      "answer": false,
+      "explain": "Un conflit es un desacuerdo o una tensión."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["un couple", "un conflit", "un colocataire", "vivre en colocation"],
+      "right": ["una pareja", "un conflicto", "un compañero de piso", "vivir en piso compartido"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Vocabulario clave de relaciones y convivencia."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "Esta pareja comparte las tareas domésticas y se lleva muy bien.",
+      "accept": ["Ce couple partage les tâches ménagères et s'entend très bien"],
+      "hintWords": ["ce couple partage les tâches ménagères", "et s'entend très bien"],
+      "strictAccents": true,
+      "audio": "Ce couple partage les tâches ménagères et s'entend très bien.",
+      "explain": "Un couple + partager les tâches ménagères + s'entendre bien."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "Tuvimos un conflicto, pero conseguimos llegar a un acuerdo.",
+      "accept": ["Nous avons eu un conflit, mais nous avons réussi à faire des compromis"],
+      "hintWords": ["nous avons eu un conflit", "mais nous avons réussi à faire des compromis"],
+      "strictAccents": true,
+      "audio": "Nous avons eu un conflit, mais nous avons réussi à faire des compromis.",
+      "explain": "Un conflit + faire des compromis."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Je vis en ___ avec deux ___ sympathiques.",
+      "blanks": [{ "accept": ["colocation"] }, { "accept": ["colocataires"] }],
+      "bank": ["colocation", "colocataires", "couple"],
+      "explain": "Vivre en colocation + un colocataire."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hay que respetar el espacio personal de cada uno»",
+      "tokens": ["de chacun", "Il faut respecter l'espace personnel"],
+      "answer": ["Il faut respecter l'espace personnel", "de chacun"],
+      "audio": "Il faut respecter l'espace personnel de chacun.",
+      "explain": "Respecter l'espace personnel."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "Vivre en colocation demande de partager les tâches ménagères et de respecter l'espace personnel de chacun.",
+      "accept": ["Vivir en piso compartido exige compartir las tareas domésticas y respetar el espacio personal de cada uno."],
+      "strictAccents": false,
+      "audio": "Vivre en colocation demande de partager les tâches ménagères et de respecter l'espace personnel de chacun.",
+      "explain": "Todo el vocabulario de convivencia combinado."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre la convivencia",
+      "turns": [
+        { "who": "Léa", "text": "Ça se passe bien avec tes colocataires ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, on partage bien les tâches ménagères.", "On a eu un conflit, mais on a fait des compromis."], "hint": "usa vocabulario de convivencia" },
+        { "who": "Léa", "text": "Tant mieux !", "speak": true }
+      ],
+      "explain": "Repaso combinado del vocabulario de convivencia."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "speak": "Ce couple partage les tâches ménagères, et ils font des compromis quand il y a un conflit.",
+      "mode": "write",
+      "accept": ["Ce couple partage les tâches ménagères, et ils font des compromis quand il y a un conflit"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario de relaciones."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 1,
+      "speak": "un colocataire",
+      "mode": "choose",
+      "options": ["un couple", "un colocataire", "un conflit", "un compromis"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un colocataire es un compañero de piso."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 3,
+      "speak": "Vivre en colocation demande de partager les tâches ménagères, de respecter l'espace personnel, et de faire des compromis en cas de conflit.",
+      "es": "Vivir en piso compartido exige compartir las tareas domésticas, respetar el espacio personal, y hacer concesiones en caso de conflicto.",
+      "ipa": "/vivʁ ɑ̃ kɔ.lɔ.ka.sjɔ̃ də.mɑ̃d də paʁ.ta.ʒe le tɑʃ me.na.ʒɛʁ də ʁɛs.pɛk.te lɛs.pas pɛʁ.sɔ.nɛl e də fɛʁ de kɔ̃.pʁɔ.mi ɑ̃ ka də kɔ̃.fli/",
+      "esApprox": "«VIVR an ko-lo-ka-SIÓN de-MAND de par-ta-SHÉ le TASH me-na-SHER de res-pek-TÉ les-PAS per-so-NEL e de FER de kon-pro-MÍ an KA de kon-FLÍ»",
+      "focus": "Vocabulario de convivencia encadenado en una explicación completa.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "Habla de cómo es tu convivencia (en pareja, en colocation o en familia), usando el vocabulario del tema.",
+      "modelAnswer": "Je vis en colocation, et on partage bien les tâches ménagères.",
+      "alsoValid": ["Dans mon couple, on fait des compromis quand il y a un conflit."],
+      "speak": "Je vis en colocation, et on partage bien les tâches ménagères.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "¿Es un problema o una buena práctica de convivencia?",
+      "buckets": ["Problema", "Buena práctica"],
+      "items": [
+        { "text": "un conflit", "bucket": 0 },
+        { "text": "faire des compromis", "bucket": 1 },
+        { "text": "ne pas respecter l'espace personnel", "bucket": 0 },
+        { "text": "partager les tâches ménagères", "bucket": 1 }
+      ],
+      "explain": "Un conflit y no respetar el espacio personal son problemas; faire des compromis y compartir tareas son buenas prácticas."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["relaciones", "convivencia"],
+      "difficulty": 2,
+      "prompt": "Hay un error: s'entendre bien pide avec, no à. Corrige la frase entera.",
+      "wrong": "Je m'entends bien à mon colocataire.",
+      "accept": ["Je m'entends bien avec mon colocataire"],
+      "audio": "Je m'entends bien avec mon colocataire.",
+      "explain": "S'entendre bien avec quelqu'un exige la preposición avec, no à."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "un couple", "es": "una pareja", "esApprox": "«un KUPL»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "partager les tâches ménagères", "es": "compartir las tareas domésticas", "esApprox": "«par-ta-SHÉ le TASH me-na-SHER»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un conflit", "es": "un conflicto", "esApprox": "«un kon-FLÍ»", "from": "v4" },
+    { "id": "s4", "kind": "phrase", "target": "faire des compromis", "es": "hacer concesiones, llegar a acuerdos", "esApprox": "«FER de kon-pro-MÍ»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "vivre en colocation", "es": "vivir en piso compartido", "esApprox": "«VIVR an ko-lo-ka-SIÓN»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "un colocataire", "es": "un compañero de piso", "esApprox": "«un ko-lo-ka-TER»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ce couple partage les tâches ménagères et s'entend très bien.", "es": "Esta pareja comparte las tareas domésticas y se lleva muy bien.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Nous avons eu un conflit, mais nous avons réussi à faire des compromis.", "es": "Tuvimos un conflicto, pero conseguimos llegar a un acuerdo.", "from": "e7" }
+  ]
+}
