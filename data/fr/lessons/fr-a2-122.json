@@ -1,0 +1,252 @@
+{
+  "id": "fr-a2-122",
+  "lang": "fr",
+  "level": "A2",
+  "order": 122,
+  "title": "Hablar de cantidades sin repetir el sustantivo",
+  "objectives": [
+    "Combinar en (clase A2-113) con los indefinidos (clase A2-121) para hablar de cantidades",
+    "Responder preguntas de cantidad sin repetir el sustantivo: j'en ai quelques-uns",
+    "Mantener una conversación fluida sobre cantidades de cosas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "En + indefinido: la combinación perfecta",
+      "body": "Cuando respondes con una cantidad indeterminada (quelques, plusieurs) y ya has mencionado el sustantivo, usa en + una forma especial del indefinido: quelques-uns/quelques-unes, plusieurs (que no cambia).",
+      "examples": [
+        { "target": "Tu as des questions ? Oui, j'en ai quelques-unes.", "es": "¿Tienes preguntas? Sí, tengo algunas.", "note": "en + quelques-unes, sin repetir questions" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "En + cantidad, sin repetir el sustantivo",
+      "headers": ["Pregunta", "Respuesta"],
+      "rows": [
+        ["Tu as des livres ?", "J'en ai quelques-uns. / J'en ai plusieurs."],
+        ["Tu as des questions ?", "J'en ai quelques-unes."],
+        ["Tu as lu tous les livres ?", "J'en ai lu quelques-uns, pas tous."]
+      ],
+      "note": "Quelques-uns (masc.) y quelques-unes (fem.) llevan guion y se acuerdan en género, aunque quelques (sin -uns) es siempre invariable (clase A2-121)."
+    },
+    {
+      "type": "tip",
+      "title": "Aucun siempre en singular",
+      "body": "Aunque el sustantivo original esté en plural (des questions), aucun/aucune se usa siempre en singular: je n'en ai aucune, no je n'en ai aucunes."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "quelques-uns / quelques-unes", "es": "algunos/algunas (de eso)", "ipa": "/kɛl.kə.zœ̃ kɛl.kə.zyn/", "esApprox": "«kel-ke-ZUN kel-ke-ZÜN»", "pos": "pronombre", "gender": null, "example": { "target": "J'en ai quelques-uns.", "es": "Tengo algunos." } },
+    { "id": "v2", "target": "j'en ai plusieurs", "es": "tengo varios/as", "ipa": "/ʒɑ̃.n‿e ply.zjœʁ/", "esApprox": "«yan-ne plü-ZIEUR»", "pos": "expresión", "gender": null, "example": { "target": "J'en ai plusieurs à la maison.", "es": "Tengo varios en casa." } },
+    { "id": "v3", "target": "pas tous / pas toutes", "es": "no todos/todas", "ipa": "/pa tu pa tut/", "esApprox": "«pa TÚ pa TUT»", "pos": "expresión", "gender": null, "example": { "target": "J'en ai lu quelques-uns, pas tous.", "es": "He leído algunos, no todos." } },
+    { "id": "v4", "target": "aucun / aucune", "es": "ninguno/a", "ipa": "/o.kœ̃ o.kyn/", "esApprox": "«o-KUN o-KÜN»", "pos": "adjetivo", "gender": null, "example": { "target": "Je n'en ai aucun.", "es": "No tengo ninguno." } },
+    { "id": "v5", "target": "la plupart", "es": "la mayoría", "ipa": "/la ply.paʁ/", "esApprox": "«la plü-PAR»", "pos": "expresión", "gender": null, "example": { "target": "La plupart sont intéressants.", "es": "La mayoría son interesantes." } },
+    { "id": "v6", "target": "presque tous / presque toutes", "es": "casi todos/todas", "ipa": "/pʁɛs.kə tu/", "esApprox": "«presk-ke TÚ»", "pos": "expresión", "gender": null, "example": { "target": "Presque tous sont bons.", "es": "Casi todos son buenos." } },
+    { "id": "v7", "target": "un tas de", "es": "un montón de", "ipa": "/œ̃ tɑ də/", "esApprox": "«un TA de»", "pos": "expresión", "gender": null, "example": { "target": "J'en ai un tas à la maison.", "es": "Tengo un montón en casa." } },
+    { "id": "v8", "target": "à peine", "es": "apenas", "ipa": "/a pɛn/", "esApprox": "«a PEN»", "pos": "adverbio", "gender": null, "example": { "target": "J'en ai à peine quelques-uns.", "es": "Apenas tengo algunos." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "¿Cómo respondes «sí, tengo algunas» a «tu as des questions ?»?",
+      "options": ["J'en ai quelques.", "J'en ai quelques-unes.", "J'ai quelques questions.", "J'en questions."],
+      "answer": 1,
+      "explain": "En + quelques-unes (femenino, porque questions es femenino)."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «no tengo ninguno»?",
+      "options": ["Je n'en ai pas.", "Je n'en ai aucun.", "J'en ai aucun.", "Je n'ai en aucun."],
+      "answer": 1,
+      "explain": "Je n'en ai aucun: la negación con aucun, más enfática que pas."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "statement": "Quelques-uns y quelques-unes se acuerdan en género, aunque quelques (sin -uns) es invariable.",
+      "answer": true,
+      "explain": "Es una excepción dentro del sistema de indefinidos (clase A2-121)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "statement": "Plusieurs cambia de forma cuando se combina con en.",
+      "answer": false,
+      "explain": "Plusieurs siempre es invariable, con o sin en."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["quelques-uns", "aucun", "la plupart", "presque tous"],
+      "right": ["ninguno", "algunos", "casi todos", "la mayoría"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Quelques-uns = algunos, aucun = ninguno, la plupart = la mayoría, presque tous = casi todos."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "¿Tienes preguntas? Sí, tengo algunas.",
+      "accept": ["Tu as des questions ? Oui, j'en ai quelques-unes"],
+      "hintWords": ["tu as des questions", "j'en ai quelques-unes"],
+      "strictAccents": true,
+      "audio": "Tu as des questions ? Oui, j'en ai quelques-unes.",
+      "explain": "En + quelques-unes, sin repetir questions."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "¿Has leído todos los libros? He leído algunos, no todos.",
+      "accept": ["Tu as lu tous les livres ? J'en ai lu quelques-uns, pas tous"],
+      "hintWords": ["tu as lu tous les livres", "j'en ai lu quelques-uns, pas tous"],
+      "strictAccents": true,
+      "audio": "Tu as lu tous les livres ? J'en ai lu quelques-uns, pas tous.",
+      "explain": "En + quelques-uns (masc., livres) + pas tous."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Tu as des amis à Paris ? Oui, j'___ ai ___.",
+      "blanks": [{ "accept": ["en"] }, { "accept": ["quelques-uns"] }],
+      "bank": ["en", "quelques-uns", "quelques"],
+      "explain": "En + quelques-uns (masc., amis)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «No tengo ninguno»",
+      "tokens": ["aucun", "Je n'en ai"],
+      "answer": ["Je n'en ai", "aucun"],
+      "audio": "Je n'en ai aucun.",
+      "explain": "Je n'en ai + aucun."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "J'ai lu beaucoup de livres cette année. La plupart étaient intéressants, mais je n'en ai aimé aucun autant que celui-ci.",
+      "accept": ["He leído muchos libros este año. La mayoría eran interesantes, pero no me ha gustado ninguno tanto como este."],
+      "strictAccents": false,
+      "audio": "J'ai lu beaucoup de livres cette année. La plupart étaient intéressants, mais je n'en ai aimé aucun autant que celui-ci.",
+      "explain": "La plupart + en + aucun, combinados con celui-ci (clase A2-120)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus amigos en Paris",
+      "turns": [
+        { "who": "Léa", "text": "Tu as des amis à Paris ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'en ai quelques-uns.", "Non, je n'en ai aucun."], "hint": "usa en + quelques-uns o aucun" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Tu as des amis...? se responde con en + cantidad."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "speak": "J'ai des livres, j'en ai plusieurs, mais je n'en ai lu que quelques-uns.",
+      "mode": "write",
+      "accept": ["J'ai des livres, j'en ai plusieurs, mais je n'en ai lu que quelques-uns"],
+      "showTextAfter": true,
+      "explain": "En + plusieurs, en + ne...que + quelques-uns."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronombres", "en"],
+      "difficulty": 1,
+      "speak": "j'en ai aucun",
+      "mode": "choose",
+      "options": ["j'en ai quelques-uns", "j'en ai aucun", "j'en ai plusieurs", "j'en ai la plupart"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'en ai aucun = no tengo ninguno."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronombres", "en"],
+      "difficulty": 3,
+      "speak": "Tu as des questions ? J'en ai quelques-unes. Tu as des livres ? J'en ai plusieurs, mais je n'en ai lu que quelques-uns.",
+      "es": "¿Tienes preguntas? Tengo algunas. ¿Tienes libros? Tengo varios, pero solo he leído algunos.",
+      "ipa": "/ty a de kɛs.tjɔ̃ ʒɑ̃.n‿e kɛl.kə.zyn ty a de livʁ ʒɑ̃.n‿e ply.zjœʁ mɛ ʒə nɑ̃.n‿e ly kə kɛl.kə.zœ̃/",
+      "esApprox": "«tü a de kes-TIÓN yan-ne kel-ke-ZÜN tü a de LIVR yan-ne plü-ZIEUR me ye nan-ne LÜ ke kel-ke-ZUN»",
+      "focus": "En combinado con quelques-uns/unes y plusieurs en una conversación.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Habla de cuántos libros o amigos tienes, sin repetir el sustantivo.",
+      "modelAnswer": "J'ai des livres, j'en ai plusieurs, et j'en ai lu quelques-uns cette année.",
+      "alsoValid": ["Je n'en ai aucun."],
+      "speak": "J'ai des livres, j'en ai plusieurs, et j'en ai lu quelques-uns cette année.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "¿Indica cero, algunos o todos?",
+      "buckets": ["Cero", "Algunos", "Todos"],
+      "items": [
+        { "text": "j'en ai aucun", "bucket": 0 },
+        { "text": "j'en ai quelques-uns", "bucket": 1 },
+        { "text": "j'en ai plusieurs", "bucket": 1 },
+        { "text": "je les ai tous", "bucket": 2 }
+      ],
+      "explain": "Aucun (cero), quelques-uns/plusieurs (algunos), tous (todos)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Hay un error de acuerdo. Corrige la frase entera.",
+      "wrong": "J'ai des questions, j'en ai quelques-uns.",
+      "accept": ["J'ai des questions, j'en ai quelques-unes"],
+      "audio": "J'ai des questions, j'en ai quelques-unes.",
+      "explain": "Questions es femenino: quelques-unes, no quelques-uns."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "quelques-uns / quelques-unes", "es": "algunos/algunas (de eso)", "esApprox": "«kel-ke-ZUN kel-ke-ZÜN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'en ai plusieurs", "es": "tengo varios/as", "esApprox": "«yan-ne plü-ZIEUR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "aucun / aucune", "es": "ninguno/a", "esApprox": "«o-KUN o-KÜN»", "from": "v4" },
+    { "id": "s4", "kind": "phrase", "target": "la plupart", "es": "la mayoría", "esApprox": "«la plü-PAR»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "presque tous / presque toutes", "es": "casi todos/todas", "esApprox": "«presk-ke TÚ»", "from": "v6" },
+    { "id": "s5b", "kind": "phrase", "target": "un tas de", "es": "un montón de", "esApprox": "«un TA de»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "Tu as des questions ? Oui, j'en ai quelques-unes.", "es": "¿Tienes preguntas? Sí, tengo algunas.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Tu as lu tous les livres ? J'en ai lu quelques-uns, pas tous.", "es": "¿Has leído todos los libros? He leído algunos, no todos.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Je n'en ai aucun.", "es": "No tengo ninguno.", "from": "e9" }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "fr-a2-130",
+  "lang": "fr",
+  "level": "A2",
+  "order": 130,
+  "title": "El condicional para pedir las cosas con educación",
+  "objectives": [
+    "Usar el condicional para pedir cosas de forma cortés (je voudrais, pourriez-vous, tu pourrais)",
+    "Distinguir una petición cortés (condicional) de una orden directa (presente/imperativo)",
+    "Practicar fórmulas de cortesía habituales en tiendas, restaurantes y con desconocidos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El condicional suaviza las peticiones",
+      "body": "Decir «Je veux un café» suena brusco. Con el condicional, «Je voudrais un café», la petición es cortés. Lo mismo pasa con pouvoir: «Tu peux m'aider ?» es directo, «Tu pourrais m'aider ?» es más amable, y con vous, «Pourriez-vous m'aider ?» es la forma más formal.",
+      "examples": [
+        { "target": "Pourriez-vous m'aider, s'il vous plaît ?", "es": "¿Podría ayudarme, por favor?", "note": "pourriez-vous = condicional de pouvoir con vous, forma cortés" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "De la orden a la petición cortés",
+      "headers": ["Directo", "Cortés (condicional)"],
+      "rows": [
+        ["Je veux un café.", "Je voudrais un café."],
+        ["Tu peux m'aider ?", "Tu pourrais m'aider ?"],
+        ["Vous pouvez fermer la porte ?", "Pourriez-vous fermer la porte ?"],
+        ["Donne-moi l'addition.", "Je voudrais l'addition, s'il vous plaît."]
+      ],
+      "note": "El condicional no cambia el significado, cambia el tono: de exigencia a petición amable."
+    },
+    {
+      "type": "tip",
+      "title": "Fórmulas útiles",
+      "body": "Con vous, la pregunta cortés suele invertir el orden: «Pourriez-vous...?», «Auriez-vous...?», «Sauriez-vous...?». Con tu, basta con «Tu pourrais...?». Añadir «s'il vous plaît» / «s'il te plaît» refuerza la cortesía."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "pourriez-vous", "es": "¿podría usted?", "ipa": "/pu.ʁje vu/", "esApprox": "«pu-RIÉ vu»", "pos": "verbo", "gender": null, "example": { "target": "Pourriez-vous m'aider ?", "es": "¿Podría ayudarme?" } },
+    { "id": "v2", "target": "tu pourrais", "es": "¿podrías?", "ipa": "/ty pu.ʁɛ/", "esApprox": "«tü pu-RE»", "pos": "verbo", "gender": null, "example": { "target": "Tu pourrais fermer la fenêtre ?", "es": "¿Podrías cerrar la ventana?" } },
+    { "id": "v3", "target": "auriez-vous", "es": "¿tendría usted?", "ipa": "/o.ʁje vu/", "esApprox": "«o-RIÉ vu»", "pos": "verbo", "gender": null, "example": { "target": "Auriez-vous l'heure, s'il vous plaît ?", "es": "¿Tendría usted la hora, por favor?" } },
+    { "id": "v4", "target": "l'addition", "es": "la cuenta", "ipa": "/la.di.sjɔ̃/", "esApprox": "«la-di-SIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je voudrais l'addition, s'il vous plaît.", "es": "Querría la cuenta, por favor." } },
+    { "id": "v5", "target": "un renseignement", "es": "una información", "ipa": "/œ̃ ʁɑ̃.sɛ.ɲə.mɑ̃/", "esApprox": "«un ran-se-nie-MAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je voudrais un renseignement.", "es": "Querría una información." } },
+    { "id": "v6", "target": "sans problème", "es": "sin problema", "ipa": "/sɑ̃ pʁɔ.blɛm/", "esApprox": "«san pro-BLEM»", "pos": "expresión", "gender": null, "example": { "target": "Sans problème, je peux vous aider.", "es": "Sin problema, puedo ayudarle." } },
+    { "id": "v7", "target": "pourrais-je", "es": "¿podría yo?", "ipa": "/pu.ʁɛ ʒə/", "esApprox": "«pu-RE ye»", "pos": "verbo", "gender": null, "example": { "target": "Pourrais-je avoir l'addition ?", "es": "¿Podría (yo) tener la cuenta?" } },
+    { "id": "v8", "target": "bien sûr", "es": "por supuesto", "ipa": "/bjɛ̃ syʁ/", "esApprox": "«bien SÜR»", "pos": "expresión", "gender": null, "example": { "target": "Bien sûr, je peux vous aider.", "es": "Por supuesto, puedo ayudarle." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma más cortés de pedir ayuda a un desconocido?",
+      "options": ["Tu m'aides.", "Aide-moi.", "Pourriez-vous m'aider ?", "Tu m'aidais."],
+      "answer": 2,
+      "explain": "Pourriez-vous...? es la forma cortés con vous."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "¿Qué frase suena más brusca?",
+      "options": ["Je voudrais un café.", "Je veux un café.", "Pourrais-je avoir un café ?", "J'aimerais un café."],
+      "answer": 1,
+      "explain": "«Je veux» es directo; el condicional suaviza la petición."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "statement": "El condicional cambia el significado de la frase, no solo el tono.",
+      "answer": false,
+      "explain": "El significado es el mismo; solo cambia de exigencia a petición amable."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "statement": "«Pourriez-vous» es el condicional de pouvoir con vous.",
+      "answer": true,
+      "explain": "Pouvoir → pourr- (radical del futuro) + iez = pourriez."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "Une la frase directa con su versión cortés",
+      "left": ["Tu peux m'aider ?", "Vous pouvez fermer la porte ?", "Donne-moi l'addition.", "Je veux un café."],
+      "right": ["Tu pourrais m'aider ?", "Pourriez-vous fermer la porte ?", "Je voudrais l'addition, s'il vous plaît.", "Je voudrais un café."],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cada petición directa tiene su equivalente cortés en condicional."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "¿Podría ayudarme, por favor?",
+      "accept": ["Pourriez-vous m'aider, s'il vous plaît"],
+      "hintWords": ["pourriez-vous", "m'aider", "s'il vous plaît"],
+      "strictAccents": true,
+      "audio": "Pourriez-vous m'aider, s'il vous plaît ?",
+      "explain": "Pourriez-vous + infinitivo + s'il vous plaît."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "Querría la cuenta, por favor.",
+      "accept": ["Je voudrais l'addition, s'il vous plaît"],
+      "hintWords": ["je voudrais", "l'addition", "s'il vous plaît"],
+      "strictAccents": true,
+      "audio": "Je voudrais l'addition, s'il vous plaît.",
+      "explain": "Je voudrais + sustantivo: petición cortés típica en un restaurante."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma cortés",
+      "text": "___-vous m'aider ? ___-vous l'heure, s'il vous plaît ?",
+      "blanks": [{ "accept": ["Pourriez"] }, { "accept": ["Auriez"] }],
+      "bank": ["Pourriez", "Auriez", "Pouvez"],
+      "explain": "Pourriez-vous m'aider ? Auriez-vous l'heure ?"
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Podrías cerrar la ventana?»",
+      "tokens": ["fermer la fenêtre", "Tu pourrais", "?"],
+      "answer": ["Tu pourrais", "fermer la fenêtre", "?"],
+      "audio": "Tu pourrais fermer la fenêtre ?",
+      "explain": "Tu pourrais + infinitivo + ?"
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "Je voudrais un renseignement, s'il vous plaît. — Sans problème, je peux vous aider.",
+      "accept": ["Querría una información, por favor. — Sin problema, puedo ayudarle."],
+      "strictAccents": false,
+      "audio": "Je voudrais un renseignement, s'il vous plaît. Sans problème, je peux vous aider.",
+      "explain": "Petición cortés y respuesta amable típica en una oficina o tienda."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en un restaurante",
+      "turns": [
+        { "who": "Serveur", "text": "Bonjour, vous avez choisi ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je voudrais un café, s'il vous plaît.", "Pourrais-je avoir l'addition ?"], "hint": "usa el condicional para pedir con educación" },
+        { "who": "Serveur", "text": "Très bien, tout de suite.", "speak": true }
+      ],
+      "explain": "En un restaurante, se pide con el condicional: je voudrais, pourrais-je."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "speak": "Pourriez-vous m'aider ? Je voudrais un renseignement, s'il vous plaît.",
+      "mode": "write",
+      "accept": ["Pourriez-vous m'aider ? Je voudrais un renseignement, s'il vous plaît"],
+      "showTextAfter": true,
+      "explain": "Dos peticiones corteses seguidas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cortesia"],
+      "difficulty": 1,
+      "speak": "auriez-vous",
+      "mode": "choose",
+      "options": ["avez-vous", "auriez-vous", "aviez-vous", "aurez-vous"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Auriez-vous = ¿tendría usted? (condicional cortés de avoir)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["cortesia"],
+      "difficulty": 3,
+      "speak": "Pourriez-vous m'aider, s'il vous plaît ? Je voudrais un renseignement, et j'aimerais aussi l'addition.",
+      "es": "¿Podría ayudarme, por favor? Querría una información, y también me gustaría la cuenta.",
+      "ipa": "/pu.ʁje vu mɛ.de sil vu plɛ ʒə vu.dʁɛ œ̃ ʁɑ̃.sɛ.ɲə.mɑ̃ e ʒɛ.mə.ʁɛ o.si la.di.sjɔ̃/",
+      "esApprox": "«pu-RIÉ vu me-DÉ sil vu ple ye vu-DRE un ran-se-nie-MAN e yem-me-RE o-SI la-di-SIÓN»",
+      "focus": "Varias fórmulas de cortesía en condicional, encadenadas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "Pide algo con educación usando pourriez-vous o je voudrais.",
+      "modelAnswer": "Pourriez-vous m'aider, s'il vous plaît ?",
+      "alsoValid": ["Je voudrais l'addition, s'il vous plaît."],
+      "speak": "Pourriez-vous m'aider, s'il vous plaît ?",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "¿Es una petición directa o cortés?",
+      "buckets": ["Directa", "Cortés"],
+      "items": [
+        { "text": "Aide-moi.", "bucket": 0 },
+        { "text": "Tu pourrais m'aider ?", "bucket": 1 },
+        { "text": "Donne-moi l'addition.", "bucket": 0 },
+        { "text": "Pourriez-vous m'aider ?", "bucket": 1 }
+      ],
+      "explain": "El imperativo y «tu veux/tu peux» son directos; el condicional es cortés."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "prompt": "Hay un error de forma cortés. Corrige la frase entera.",
+      "wrong": "Pouvez-vous m'aider, s'il vous plaît ? Non, je veux dire : pourriez-vous ?",
+      "accept": ["Pourriez-vous m'aider, s'il vous plaît"],
+      "audio": "Pourriez-vous m'aider, s'il vous plaît.",
+      "explain": "La forma más cortés es pourriez-vous, no pouvez-vous."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "pourriez-vous", "es": "¿podría usted?", "esApprox": "«pu-RIÉ vu»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "tu pourrais", "es": "¿podrías?", "esApprox": "«tü pu-RE»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "auriez-vous", "es": "¿tendría usted?", "esApprox": "«o-RIÉ vu»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "l'addition", "es": "la cuenta", "esApprox": "«la-di-SIÓN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un renseignement", "es": "una información", "esApprox": "«un ran-se-nie-MAN»", "from": "v5" },
+    { "id": "s5b", "kind": "phrase", "target": "pourrais-je", "es": "¿podría yo?", "esApprox": "«pu-RE ye»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "Pourriez-vous m'aider, s'il vous plaît ?", "es": "¿Podría ayudarme, por favor?", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je voudrais l'addition, s'il vous plaît.", "es": "Querría la cuenta, por favor.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Tu pourrais fermer la fenêtre ?", "es": "¿Podrías cerrar la ventana?", "from": "e9" }
+  ]
+}

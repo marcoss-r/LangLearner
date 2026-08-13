@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-128",
+  "lang": "fr",
+  "level": "A2",
+  "order": 128,
+  "title": "Si + presente + futuro: la condición realista",
+  "objectives": [
+    "Formar la condición realista: si + presente, + futur simple (clase A2-125)",
+    "Evitar el error más común: nunca poner el futuro después de si",
+    "Usar esta estructura para hablar de condiciones probables o realistas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Si + presente, + futuro",
+      "body": "Para hablar de una condición realista (algo que puede pasar), usa si + presente en la parte de la condición, y futur simple en la parte del resultado. Nunca se usa el futuro justo después de si.",
+      "examples": [
+        { "target": "Si tu viens demain, je serai content.", "es": "Si vienes mañana, estaré contento.", "note": "si + presente (viens) + futuro (serai)" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "El error más frecuente"
+      ,
+      "items": [
+        { "wrong": "Si tu viendras demain, je serai content.", "right": "Si tu viens demain, je serai content.", "why": "Después de si, nunca va el futuro: siempre presente. El futuro va solo en la otra parte de la frase." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El orden puede cambiar",
+      "headers": ["Orden", "Ejemplo"],
+      "rows": [
+        ["Si + presente, futuro", "Si tu as le temps, on ira au cinéma."],
+        ["Futuro, si + presente", "On ira au cinéma si tu as le temps."]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "si + présent", "es": "si + presente (condición)", "ipa": "/si/", "esApprox": "«SI»", "pos": "conjunción", "gender": null, "example": { "target": "Si tu viens, je serai content.", "es": "Si vienes, estaré contento." } },
+    { "id": "v2", "target": "si tu as le temps", "es": "si tienes tiempo", "ipa": "/si ty a lə tɑ̃/", "esApprox": "«si tü a le TAN»", "pos": "expresión", "gender": null, "example": { "target": "Si tu as le temps, on ira au cinéma.", "es": "Si tienes tiempo, iremos al cine." } },
+    { "id": "v3", "target": "s'il pleut", "es": "si llueve", "ipa": "/sil plø/", "esApprox": "«sil PLEU»", "pos": "expresión", "gender": null, "example": { "target": "S'il pleut, nous resterons à la maison.", "es": "Si llueve, nos quedaremos en casa." } },
+    { "id": "v4", "target": "si je peux", "es": "si puedo", "ipa": "/si ʒə pø/", "esApprox": "«si ye PEU»", "pos": "expresión", "gender": null, "example": { "target": "Si je peux, je viendrai.", "es": "Si puedo, vendré." } },
+    { "id": "v5", "target": "au cas où", "es": "por si acaso", "ipa": "/o ka u/", "esApprox": "«o ka U»", "pos": "expresión", "gender": null, "example": { "target": "Prends un parapluie, au cas où.", "es": "Coge un paraguas, por si acaso." } },
+    { "id": "v6", "target": "un parapluie", "es": "un paraguas", "ipa": "/œ̃ pa.ʁa.plɥi/", "esApprox": "«un pa-ra-PLÜÍ»", "pos": "sustantivo", "gender": "m", "example": { "target": "S'il pleut, prends un parapluie.", "es": "Si llueve, coge un paraguas." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta?",
+      "options": ["Si tu viendras, je serai content.", "Si tu viens, je serai content.", "Si tu viens, je suis content.", "Si tu viendras, je suis content."],
+      "answer": 1,
+      "explain": "Si + presente (viens), + futuro (serai)."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «si llueve, nos quedaremos en casa»?",
+      "options": ["S'il pleuvra, nous resterons à la maison.", "S'il pleut, nous resterons à la maison.", "S'il pleut, nous restons à la maison.", "S'il pleuvra, nous restons à la maison."],
+      "answer": 1,
+      "explain": "S'il pleut (presente) + nous resterons (futuro)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "statement": "Después de si, nunca se usa el futuro.",
+      "answer": true,
+      "explain": "Es la regla clave de esta estructura."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "statement": "El orden de las dos partes de la frase (si.../futuro) puede cambiar sin cambiar el sentido.",
+      "answer": true,
+      "explain": "Si tu as le temps, on ira... = On ira... si tu as le temps."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Une cada condición con su resultado",
+      "left": ["Si tu as le temps,", "S'il pleut,", "Si je peux,", "Au cas où,"],
+      "right": ["prends un parapluie.", "je viendrai.", "nous resterons à la maison.", "on ira au cinéma."],
+      "answer": [3, 2, 1, 0],
+      "explain": "Cuatro condiciones distintas, cada una con su resultado lógico."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Si vienes mañana, estaré contento.",
+      "accept": ["Si tu viens demain, je serai content"],
+      "hintWords": ["si tu viens demain", "je serai content"],
+      "strictAccents": true,
+      "audio": "Si tu viens demain, je serai content.",
+      "explain": "Si + presente (viens) + futuro (serai)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Si tienes tiempo, iremos al cine. Si llueve, nos quedaremos en casa.",
+      "accept": ["Si tu as le temps, on ira au cinéma. S'il pleut, nous resterons à la maison"],
+      "hintWords": ["si tu as le temps, on ira au cinéma", "s'il pleut, nous resterons"],
+      "strictAccents": true,
+      "audio": "Si tu as le temps, on ira au cinéma. S'il pleut, nous resterons à la maison.",
+      "explain": "Dos condiciones distintas, ambas con presente + futuro."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Completa con el tiempo correcto",
+      "text": "Si je ___ (presente, pouvoir), je ___ (futuro, venir).",
+      "blanks": [{ "accept": ["peux"] }, { "accept": ["viendrai"] }],
+      "bank": ["peux", "viendrai", "pourrai"],
+      "explain": "Si + presente (peux) + futuro (viendrai)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Coge un paraguas, por si acaso»",
+      "tokens": ["au cas où", "un parapluie", "Prends"],
+      "answer": ["Prends", "un parapluie", "au cas où"],
+      "audio": "Prends un parapluie, au cas où.",
+      "explain": "Prends + un parapluie + au cas où."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Si tu as le temps demain, on ira voir mes parents ensemble.",
+      "accept": ["Si tienes tiempo mañana, iremos a ver a mis padres juntos."],
+      "strictAccents": false,
+      "audio": "Si tu as le temps demain, on ira voir mes parents ensemble.",
+      "explain": "Si + presente + futuro, con on (informal para nous)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre un plan condicional",
+      "turns": [
+        { "who": "Léa", "text": "Si tu as le temps ce week-end, on fait quoi ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Si j'ai le temps, on ira au cinéma.", "Si j'ai le temps, je viendrai chez toi."], "hint": "usa si + presente + futuro" },
+        { "who": "Léa", "text": "Super, on se voit alors !", "speak": true }
+      ],
+      "explain": "Si tu as le temps...? se responde con otra condición si + futuro."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "speak": "Si tu viens demain, je serai content, et si tu as le temps, on ira au cinéma.",
+      "mode": "write",
+      "accept": ["Si tu viens demain, je serai content, et si tu as le temps, on ira au cinéma"],
+      "showTextAfter": true,
+      "explain": "Dos condiciones seguidas, ambas con presente + futuro."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["condicional", "si"],
+      "difficulty": 1,
+      "speak": "si tu viens",
+      "mode": "choose",
+      "options": ["si tu viendras", "si tu viens", "si tu es venu", "si tu venais"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Después de si, siempre presente: si tu viens."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["condicional", "si"],
+      "difficulty": 3,
+      "speak": "Si tu as le temps demain, on ira au cinéma. S'il pleut, nous resterons à la maison. Si je peux, je viendrai te chercher.",
+      "es": "Si tienes tiempo mañana, iremos al cine. Si llueve, nos quedaremos en casa. Si puedo, iré a buscarte.",
+      "ipa": "/si ty a lə tɑ̃ də.mɛ̃ ɔ.n‿i.ʁa o si.ne.ma sil plø nu ʁɛs.tə.ʁɔ̃.z‿a la mɛ.zɔ̃ si ʒə pø ʒə vjɛ̃.dʁe tə ʃɛʁ.ʃe/",
+      "esApprox": "«si tü a le TAN de-MEN on-ni-RA o si-ne-MA sil PLEU nu res-te-RON-a la me-ZÓN si ye PEU ye vien-DRÉ te sher-SHÉ»",
+      "focus": "Tres condiciones distintas con si + presente + futuro.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Di dos planes condicionales para el fin de semana, usando si + presente + futuro.",
+      "modelAnswer": "Si j'ai le temps, j'irai au cinéma. S'il fait beau, je ferai du sport.",
+      "alsoValid": ["Si tu viens, je serai content."],
+      "speak": "Si j'ai le temps, j'irai au cinéma. S'il fait beau, je ferai du sport.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "¿Va con presente o con futuro?",
+      "buckets": ["Después de si (presente)", "En el resultado (futuro)"],
+      "items": [
+        { "text": "tu viens", "bucket": 0 },
+        { "text": "je serai content", "bucket": 1 },
+        { "text": "il pleut", "bucket": 0 },
+        { "text": "nous resterons", "bucket": 1 }
+      ],
+      "explain": "Después de si siempre presente; en el resultado, futuro."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "Si tu viendras, je serai content.",
+      "accept": ["Si tu viens, je serai content"],
+      "audio": "Si tu viens, je serai content.",
+      "explain": "Después de si, nunca va el futuro: siempre presente."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "si + présent", "es": "si + presente (condición)", "esApprox": "«SI»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "si tu as le temps", "es": "si tienes tiempo", "esApprox": "«si tü a le TAN»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "s'il pleut", "es": "si llueve", "esApprox": "«sil PLEU»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "si je peux", "es": "si puedo", "esApprox": "«si ye PEU»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "au cas où", "es": "por si acaso", "esApprox": "«o ka U»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Si tu viens demain, je serai content.", "es": "Si vienes mañana, estaré contento.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Si tu as le temps, on ira au cinéma. S'il pleut, nous resterons à la maison.", "es": "Si tienes tiempo, iremos al cine. Si llueve, nos quedaremos en casa.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Prends un parapluie, au cas où.", "es": "Coge un paraguas, por si acaso.", "from": "e9" }
+  ]
+}

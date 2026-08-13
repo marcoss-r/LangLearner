@@ -1,0 +1,256 @@
+{
+  "id": "fr-a2-125",
+  "lang": "fr",
+  "level": "A2",
+  "order": 125,
+  "title": "El futur simple: formación regular",
+  "objectives": [
+    "Formar el futur simple: infinitivo + terminaciones -ai, -as, -a, -ons, -ez, -ont",
+    "Aplicar la regla especial de los verbos en -re: se quita la -e final antes de añadir la terminación",
+    "Distinguir el futur simple del futuro próximo (clase A1-75), ya conocido"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un futuro que se apoya en el infinitivo",
+      "body": "El futur simple se forma con el infinitivo completo del verbo + unas terminaciones fijas. Es distinto del futuro próximo (aller + infinitivo, clase A1-75), que se usa para planes muy cercanos o seguros; el futur simple sirve para cualquier momento del futuro.",
+      "examples": [
+        { "target": "Demain, je parlerai avec mon patron, et je finirai ce projet.", "es": "Mañana, hablaré con mi jefe, y terminaré este proyecto.", "note": "parler-ai, finir-ai: infinitivo + terminación" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las terminaciones del futur simple",
+      "headers": ["Persona", "Terminación", "Parler"],
+      "rows": [
+        ["je", "-ai", "je parlerai"],
+        ["tu", "-as", "tu parleras"],
+        ["il / elle", "-a", "il parlera"],
+        ["nous", "-ons", "nous parlerons"],
+        ["vous", "-ez", "vous parlerez"],
+        ["ils / elles", "-ont", "ils parleront"]
+      ],
+      "note": "Estas terminaciones se parecen mucho al verbo avoir en presente (ai, as, a, avons, avez, ont): es un buen truco para memorizarlas."
+    },
+    {
+      "type": "table",
+      "title": "Los verbos en -re pierden la -e",
+      "headers": ["Infinitivo", "Radical del futuro", "Ejemplo"],
+      "rows": [
+        ["attendre", "attendr-", "j'attendrai"],
+        ["répondre", "répondr-", "je répondrai"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je parlerai", "es": "yo hablaré", "ipa": "/ʒə paʁ.lə.ʁe/", "esApprox": "«ye par-le-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "Demain, je parlerai avec mon patron.", "es": "Mañana, hablaré con mi jefe." } },
+    { "id": "v2", "target": "tu finiras", "es": "tú terminarás", "ipa": "/ty fi.ni.ʁa/", "esApprox": "«tü fi-ni-RA»", "pos": "verbo", "gender": null, "example": { "target": "Tu finiras à quelle heure ?", "es": "¿A qué hora terminarás?" } },
+    { "id": "v3", "target": "nous attendrons", "es": "nosotros esperaremos", "ipa": "/nu.z‿a.tɑ̃.dʁɔ̃/", "esApprox": "«nu-zan-tan-DRON»", "pos": "verbo", "gender": null, "example": { "target": "Nous attendrons devant la gare.", "es": "Esperaremos delante de la estación." } },
+    { "id": "v4", "target": "vous répondrez", "es": "vosotros/ustedes responderán", "ipa": "/vu ʁe.pɔ̃.dʁe/", "esApprox": "«vu re-pon-DRÉ»", "pos": "verbo", "gender": null, "example": { "target": "Vous répondrez demain.", "es": "Responderán mañana." } },
+    { "id": "v5", "target": "ils termineront", "es": "ellos terminarán", "ipa": "/il tɛʁ.mi.nə.ʁɔ̃/", "esApprox": "«il ter-mi-ne-RON»", "pos": "verbo", "gender": null, "example": { "target": "Ils termineront ce projet.", "es": "Terminarán este proyecto." } },
+    { "id": "v6", "target": "un projet", "es": "un proyecto", "ipa": "/œ̃ pʁɔ.ʒɛ/", "esApprox": "«un pro-YÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Nous finirons ce projet demain.", "es": "Terminaremos este proyecto mañana." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se forma el futur simple de parler para je?",
+      "options": ["je parle + ai", "je parler + ai", "je parlai", "je parlerai"],
+      "answer": 3,
+      "explain": "Infinitivo (parler) + terminación (-ai) = je parlerai."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el radical del futuro de attendre?",
+      "options": ["attend-", "attendr-", "attendre-", "attends-"],
+      "answer": 1,
+      "explain": "Attendre pierde la -e final: attendr- + ai = j'attendrai."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "statement": "Las terminaciones del futur simple se parecen a avoir en presente (ai, as, a, avons, avez, ont).",
+      "answer": true,
+      "explain": "Es un truco útil para memorizarlas."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "statement": "El futur simple y el futuro próximo (aller + infinitivo) significan exactamente lo mismo en todos los contextos.",
+      "answer": false,
+      "explain": "El futuro próximo es para planes cercanos o seguros; el futur simple sirve para cualquier momento del futuro."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Une cada persona con su forma de parler en futuro",
+      "left": ["je", "tu", "nous", "ils"],
+      "right": ["parleront", "parlerai", "parleras", "parlerons"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Je parlerai, tu parleras, nous parlerons, ils parleront."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Mañana, hablaré con mi jefe, y terminaré este proyecto.",
+      "accept": ["Demain, je parlerai avec mon patron, et je finirai ce projet"],
+      "hintWords": ["demain, je parlerai avec mon patron", "je finirai ce projet"],
+      "strictAccents": true,
+      "audio": "Demain, je parlerai avec mon patron, et je finirai ce projet.",
+      "explain": "Parlerai + finirai, ambos verbos regulares en futuro."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Esperaremos delante de la estación, y ustedes responderán mañana.",
+      "accept": ["Nous attendrons devant la gare, et vous répondrez demain"],
+      "hintWords": ["nous attendrons devant la gare", "vous répondrez demain"],
+      "strictAccents": true,
+      "audio": "Nous attendrons devant la gare, et vous répondrez demain.",
+      "explain": "Attendrons (radical -re) + répondrez (radical -re)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Completa con el futuro correcto",
+      "text": "Ils ___ ce projet, et nous ___ leur réponse.",
+      "blanks": [{ "accept": ["termineront"] }, { "accept": ["attendrons"] }],
+      "bank": ["termineront", "attendrons", "terminent"],
+      "explain": "Ils termineront, nous attendrons."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿A qué hora terminarás?»",
+      "tokens": ["à quelle heure", "Tu finiras", "?"],
+      "answer": ["Tu finiras", "à quelle heure", "?"],
+      "audio": "Tu finiras à quelle heure ?",
+      "explain": "Tu finiras + à quelle heure."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Ils termineront ce projet la semaine prochaine, et vous répondrez à leurs questions.",
+      "accept": ["Terminarán este proyecto la semana que viene, y responderán a sus preguntas."],
+      "strictAccents": false,
+      "audio": "Ils termineront ce projet la semaine prochaine, et vous répondrez à leurs questions.",
+      "explain": "Termineront + répondrez, dos futuros regulares."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus planes de mañana",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu feras demain ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je parlerai avec mon patron.", "Je finirai mon projet."], "hint": "usa el futur simple" },
+        { "who": "Léa", "text": "Ah, bonne chance !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu feras...? se responde con el futur simple."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "speak": "Je parlerai avec mon patron, tu finiras ton travail, et nous attendrons ensemble.",
+      "mode": "write",
+      "accept": ["Je parlerai avec mon patron, tu finiras ton travail, et nous attendrons ensemble"],
+      "showTextAfter": true,
+      "explain": "Tres futuros regulares seguidos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["futuro"],
+      "difficulty": 1,
+      "speak": "nous attendrons",
+      "mode": "choose",
+      "options": ["nous attendons", "nous attendrons", "nous avons attendu", "nous allons attendre"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Nous attendrons = esperaremos (futur simple)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["futuro"],
+      "difficulty": 3,
+      "speak": "Demain, je parlerai avec mon patron, je finirai mon travail, et nous attendrons les résultats ensemble.",
+      "es": "Mañana, hablaré con mi jefe, terminaré mi trabajo, y esperaremos los resultados juntos.",
+      "ipa": "/də.mɛ̃ ʒə paʁ.lə.ʁe a.vɛk mɔ̃ pa.tʁɔ̃ ʒə fi.ni.ʁe mɔ̃ tʁa.vaj e nu.z‿a.tɑ̃.dʁɔ̃ le ʁe.zyl.ta ɑ̃.sɑ̃bl/",
+      "esApprox": "«de-MEN ye par-le-RÉ a-VEK mon pa-TRON ye fi-ni-RÉ mon tra-VÁY e nu-zan-tan-DRON le re-zül-TA an-SANBL»",
+      "focus": "Tres futuros regulares en una frase completa sobre planes de mañana.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Di tres cosas que harás mañana, usando el futur simple.",
+      "modelAnswer": "Demain, je parlerai avec mon patron, je finirai mon travail, et je me reposerai.",
+      "alsoValid": ["Nous attendrons les résultats ensemble."],
+      "speak": "Demain, je parlerai avec mon patron, je finirai mon travail, et je me reposerai.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "¿Es presente o futur simple?",
+      "buckets": ["Presente", "Futur simple"],
+      "items": [
+        { "text": "je parle", "bucket": 0 },
+        { "text": "je parlerai", "bucket": 1 },
+        { "text": "nous attendons", "bucket": 0 },
+        { "text": "nous attendrons", "bucket": 1 }
+      ],
+      "explain": "El futur simple añade -ai/-as/-a/-ons/-ez/-ont al infinitivo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Hay un error de radical. Corrige la frase entera.",
+      "wrong": "J'attendreai devant la gare.",
+      "accept": ["J'attendrai devant la gare"],
+      "audio": "J'attendrai devant la gare.",
+      "explain": "Attendre pierde la -e final: attendr- + ai = attendrai, no attendreai."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "je parlerai", "es": "yo hablaré", "esApprox": "«ye par-le-RÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "tu finiras", "es": "tú terminarás", "esApprox": "«tü fi-ni-RA»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "nous attendrons", "es": "nosotros esperaremos", "esApprox": "«nu-zan-tan-DRON»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "vous répondrez", "es": "vosotros/ustedes responderán", "esApprox": "«vu re-pon-DRÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "ils termineront", "es": "ellos terminarán", "esApprox": "«il ter-mi-ne-RON»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Demain, je parlerai avec mon patron, et je finirai ce projet.", "es": "Mañana, hablaré con mi jefe, y terminaré este proyecto.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Nous attendrons devant la gare, et vous répondrez demain.", "es": "Esperaremos delante de la estación, y ustedes responderán mañana.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Tu finiras à quelle heure ?", "es": "¿A qué hora terminarás?", "from": "e9" }
+  ]
+}

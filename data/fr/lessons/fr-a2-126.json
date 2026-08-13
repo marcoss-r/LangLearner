@@ -1,0 +1,258 @@
+{
+  "id": "fr-a2-126",
+  "lang": "fr",
+  "level": "A2",
+  "order": 126,
+  "title": "Los futuros irregulares más usados (être, avoir, aller, faire, venir…)",
+  "objectives": [
+    "Memorizar los radicales irregulares del futuro de être, avoir, aller, faire y venir",
+    "Aplicar esos radicales con las terminaciones regulares del futur simple (clase A2-125)",
+    "Reconocer los radicales de pouvoir, vouloir, devoir, voir y savoir"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un radical especial, pero las mismas terminaciones",
+      "body": "Algunos verbos muy frecuentes tienen un radical irregular en el futuro, que hay que memorizar. Pero las terminaciones (-ai, -as, -a, -ons, -ez, -ont, clase A2-125) son siempre las mismas, sin excepción.",
+      "examples": [
+        { "target": "Je serai content, j'aurai du temps, et j'irai en vacances.", "es": "Estaré contento, tendré tiempo, e iré de vacaciones.", "note": "ser-, aur-, ir-: tres radicales irregulares distintos" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los radicales irregulares más frecuentes",
+      "headers": ["Infinitivo", "Radical del futuro", "Ejemplo"],
+      "rows": [
+        ["être", "ser-", "je serai"],
+        ["avoir", "aur-", "j'aurai"],
+        ["aller", "ir-", "j'irai"],
+        ["faire", "fer-", "je ferai"],
+        ["venir", "viendr-", "je viendrai"],
+        ["pouvoir", "pourr-", "je pourrai"],
+        ["vouloir", "voudr-", "je voudrai"],
+        ["devoir", "devr-", "je devrai"],
+        ["voir", "verr-", "je verrai"],
+        ["savoir", "saur-", "je saurai"]
+      ],
+      "note": "No hay un patrón único: cada uno hay que memorizarlo, pero se repiten muchísimo en la conversación."
+    },
+    {
+      "type": "tip",
+      "title": "Truco para memorizarlos",
+      "body": "Muchos radicales irregulares terminan igual que el verbo pero cambian la primera parte: venir → viendr-, devoir → devr-, pouvoir → pourr-, vouloir → voudr-. Fíjate en que casi todos acaban en -r antes de las terminaciones (-ai, -as, -a...)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je serai", "es": "yo seré/estaré", "ipa": "/ʒə sə.ʁe/", "esApprox": "«ye se-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je serai content de te voir.", "es": "Estaré contento de verte." } },
+    { "id": "v2", "target": "j'aurai", "es": "yo tendré", "ipa": "/ʒo.ʁe/", "esApprox": "«yo-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'aurai du temps demain.", "es": "Tendré tiempo mañana." } },
+    { "id": "v3", "target": "j'irai", "es": "yo iré", "ipa": "/ʒi.ʁe/", "esApprox": "«yi-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'irai en vacances en juillet.", "es": "Iré de vacaciones en julio." } },
+    { "id": "v4", "target": "je ferai", "es": "yo haré", "ipa": "/ʒə fə.ʁe/", "esApprox": "«ye fe-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je ferai du sport ce week-end.", "es": "Haré deporte este fin de semana." } },
+    { "id": "v5", "target": "je viendrai", "es": "yo vendré", "ipa": "/ʒə vjɛ̃.dʁe/", "esApprox": "«ye vien-DRÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je viendrai avec toi.", "es": "Vendré contigo." } },
+    { "id": "v6", "target": "je pourrai", "es": "yo podré", "ipa": "/ʒə pu.ʁe/", "esApprox": "«ye pu-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je pourrai t'aider demain.", "es": "Podré ayudarte mañana." } },
+    { "id": "v7", "target": "je voudrai", "es": "yo querré", "ipa": "/ʒə vu.dʁe/", "esApprox": "«ye vu-DRÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je voudrai partir tôt.", "es": "Querré salir pronto." } },
+    { "id": "v8", "target": "je verrai", "es": "yo veré", "ipa": "/ʒə vɛ.ʁe/", "esApprox": "«ye ve-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je verrai mes amis ce soir.", "es": "Veré a mis amigos esta noche." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el radical del futuro de être?",
+      "options": ["êtr-", "être-", "ser-", "ét-"],
+      "answer": 2,
+      "explain": "Être → ser- (radical irregular), como en je serai."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «iré de vacaciones»?",
+      "options": ["Je vais irai en vacances.", "J'irai en vacances.", "Je vais aller en vacances.", "J'allerai en vacances."],
+      "answer": 1,
+      "explain": "Aller → ir- (radical irregular): j'irai."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "statement": "Aunque el radical sea irregular, las terminaciones del futuro son siempre las mismas.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-125: -ai, -as, -a, -ons, -ez, -ont."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "statement": "Venir y devoir tienen el mismo radical de futuro.",
+      "answer": false,
+      "explain": "Venir → viendr-, devoir → devr-: radicales distintos."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su radical del futuro",
+      "left": ["faire", "pouvoir", "savoir", "voir"],
+      "right": ["saur-", "verr-", "fer-", "pourr-"],
+      "answer": [2, 3, 0, 1],
+      "explain": "Faire → fer-, pouvoir → pourr-, savoir → saur-, voir → verr-."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Estaré contento, tendré tiempo, e iré de vacaciones.",
+      "accept": ["Je serai content, j'aurai du temps, et j'irai en vacances"],
+      "hintWords": ["je serai content", "j'aurai du temps", "j'irai en vacances"],
+      "strictAccents": true,
+      "audio": "Je serai content, j'aurai du temps, et j'irai en vacances.",
+      "explain": "Ser-, aur-, ir-: tres radicales irregulares en la misma frase."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Podré ayudarte mañana. Vendré con mis amigos.",
+      "accept": ["Je pourrai t'aider demain. Je viendrai avec mes amis"],
+      "hintWords": ["je pourrai t'aider demain", "je viendrai avec mes amis"],
+      "strictAccents": true,
+      "audio": "Je pourrai t'aider demain. Je viendrai avec mes amis.",
+      "explain": "Pourr- (pouvoir) + viendr- (venir)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Completa con el futuro correcto",
+      "text": "Je ne ___ pas venir, mais je ___ mes amis demain.",
+      "blanks": [{ "accept": ["pourrai"] }, { "accept": ["verrai"] }],
+      "bank": ["pourrai", "verrai", "peux"],
+      "explain": "Pourrai (pouvoir) + verrai (voir)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Haré deporte este fin de semana»",
+      "tokens": ["ce week-end", "Je ferai", "du sport"],
+      "answer": ["Je ferai", "du sport", "ce week-end"],
+      "audio": "Je ferai du sport ce week-end.",
+      "explain": "Je ferai + du sport + ce week-end."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Tu voudras venir avec nous ? Nous serons contents de t'avoir.",
+      "accept": ["¿Querrás venir con nosotros? Estaremos contentos de tenerte."],
+      "strictAccents": false,
+      "audio": "Tu voudras venir avec nous ? Nous serons contents de t'avoir.",
+      "explain": "Voudras (vouloir) + serons (être)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus planes de vacaciones",
+      "turns": [
+        { "who": "Léa", "text": "Tu iras où en vacances ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["J'irai à Paris.", "J'irai voir mes parents."], "hint": "usa j'irai" },
+        { "who": "Léa", "text": "Ah, super !", "speak": true }
+      ],
+      "explain": "Tu iras où...? se responde con j'irai + lugar."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "speak": "Je serai en vacances, j'irai voir mes parents, et je verrai mes amis aussi.",
+      "mode": "write",
+      "accept": ["Je serai en vacances, j'irai voir mes parents, et je verrai mes amis aussi"],
+      "showTextAfter": true,
+      "explain": "Trois radicales irregulares: ser-, ir-, verr-."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 1,
+      "speak": "j'aurai",
+      "mode": "choose",
+      "options": ["j'ai", "j'aurai", "j'avais", "j'ai eu"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'aurai = tendré (futuro de avoir)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 3,
+      "speak": "Demain, je serai libre, j'irai voir mes parents, je ferai du sport, et je verrai mes amis le soir.",
+      "es": "Mañana, estaré libre, iré a ver a mis padres, haré deporte, y veré a mis amigos por la noche.",
+      "ipa": "/də.mɛ̃ ʒə sə.ʁe libʁ ʒi.ʁe vwaʁ me pa.ʁɑ̃ ʒə fə.ʁe dy spɔʁ e ʒə vɛ.ʁe me.z‿a.mi lə swaʁ/",
+      "esApprox": "«de-MEN ye se-RÉ LIBR yi-RÉ VUÁR me pa-RAN ye fe-RÉ dü SPOR e ye ve-RÉ me-za-MÍ le SUAR»",
+      "focus": "Cuatro futuros irregulares en una sola frase sobre un día completo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Di tres cosas que serás, tendrás o harás el año que viene.",
+      "modelAnswer": "L'année prochaine, je serai plus fort en français, j'aurai un nouveau travail, et j'irai en France.",
+      "alsoValid": ["Je verrai mes amis plus souvent."],
+      "speak": "L'année prochaine, je serai plus fort en français, j'aurai un nouveau travail, et j'irai en France.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿A qué infinitivo pertenece este radical de futuro?",
+      "buckets": ["être", "avoir", "aller", "faire"],
+      "items": [
+        { "text": "ser-", "bucket": 0 },
+        { "text": "aur-", "bucket": 1 },
+        { "text": "ir-", "bucket": 2 },
+        { "text": "fer-", "bucket": 3 }
+      ],
+      "explain": "Ser- (être), aur- (avoir), ir- (aller), fer- (faire)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["futuro", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Hay un error de radical. Corrige la frase entera.",
+      "wrong": "J'allerai en vacances en juillet.",
+      "accept": ["J'irai en vacances en juillet"],
+      "audio": "J'irai en vacances en juillet.",
+      "explain": "El radical del futuro de aller es ir-, no aller-."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "je serai", "es": "yo seré/estaré", "esApprox": "«ye se-RÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "j'aurai", "es": "yo tendré", "esApprox": "«yo-RÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "j'irai", "es": "yo iré", "esApprox": "«yi-RÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "je ferai", "es": "yo haré", "esApprox": "«ye fe-RÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "je viendrai", "es": "yo vendré", "esApprox": "«ye vien-DRÉ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "je pourrai", "es": "yo podré", "esApprox": "«ye pu-RÉ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je serai content, j'aurai du temps, et j'irai en vacances.", "es": "Estaré contento, tendré tiempo, e iré de vacaciones.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je pourrai t'aider demain. Je viendrai avec mes amis.", "es": "Podré ayudarte mañana. Vendré con mis amigos.", "from": "e7" }
+  ]
+}
