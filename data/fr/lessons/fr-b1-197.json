@@ -1,0 +1,255 @@
+{
+  "id": "fr-b1-197",
+  "lang": "fr",
+  "level": "B1",
+  "order": 197,
+  "title": "Lequel, laquelle, lesquels, lesquelles",
+  "objectives": [
+    "Usar lequel/laquelle/lesquels/lesquelles como relativo tras preposición para referirse a cosas",
+    "Formar las contracciones auquel, à laquelle, auxquels, auxquelles",
+    "Formar las contracciones duquel, de laquelle, desquels, desquelles"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El relativo tras preposición",
+      "body": "Cuando el antecedente es una cosa y va precedido de una preposición (avec, dans, pour, sur...), no se usa qui, sino lequel, que concuerda en género y número con el sustantivo."
+    },
+    {
+      "type": "table",
+      "title": "Las cuatro formas",
+      "headers": ["Género/número", "Forma", "Ejemplo"],
+      "rows": [
+        ["masculino singular", "lequel", "le stylo avec lequel j'écris"],
+        ["femenino singular", "laquelle", "la ville dans laquelle j'habite"],
+        ["masculino plural", "lesquels", "les amis avec lesquels je sors"],
+        ["femenino plural", "lesquelles", "les raisons pour lesquelles"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Contracciones con à y de",
+      "headers": ["Preposición + lequel", "Contracción"],
+      "rows": [
+        ["à + lequel", "auquel"],
+        ["à + lesquels / lesquelles", "auxquels / auxquelles"],
+        ["de + lequel", "duquel"],
+        ["de + lesquels / lesquelles", "desquels / desquelles"]
+      ],
+      "note": "À laquelle y de laquelle no se contraen. Duquel se usa sobre todo tras preposiciones compuestas (à côté de, près de, au sujet de), donde dont no es posible."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le stylo avec lequel j'écris", "es": "el boli con el que escribo", "ipa": "/lə sti.lo a.vɛk lə.kɛl ʒe.kʁi/", "esApprox": "«le sti-LO a-VEK le-KEL ye-KRÍ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "la ville dans laquelle j'habite", "es": "la ciudad en la que vivo", "ipa": "/la vil dɑ̃ la.kɛl ʒa.bit/", "esApprox": "«la VIL dan la-KEL sha-BIT»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "les amis avec lesquels je sors", "es": "los amigos con los que salgo", "ipa": "/le.z‿a.mi a.vɛk le.kɛl ʒə sɔʁ/", "esApprox": "«le-za-MÍ a-VEK le-KEL ye SOR»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "les raisons pour lesquelles", "es": "las razones por las que", "ipa": "/le ʁɛ.zɔ̃ puʁ le.kɛl/", "esApprox": "«le re-ZÓN pur le-KEL»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "le projet auquel je pense", "es": "el proyecto en el que pienso", "ipa": "/lə pʁɔ.ʒɛ o.kɛl ʒə pɑ̃s/", "esApprox": "«le pro-YÉ o-KEL ye PANS»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "la réunion à laquelle je vais", "es": "la reunión a la que voy", "ipa": "/la ʁe.y.njɔ̃ a la.kɛl ʒə vɛ/", "esApprox": "«la re-ü-NIÓN a la-KEL ye VE»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "le bâtiment à côté duquel je travaille", "es": "el edificio al lado del cual trabajo", "ipa": "/lə ba.ti.mɑ̃ a ko.te dy.kɛl ʒə tʁa.vaj/", "esApprox": "«le ba-ti-MAN a ko-TÉ dü-KEL ye tra-VAY»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "l'université près de laquelle j'habite", "es": "la universidad cerca de la cual vivo", "ipa": "/ly.ni.vɛʁ.si.te pʁɛ də la.kɛl ʒa.bit/", "esApprox": "«lü-ni-ver-si-TÉ pre de la-KEL sha-BIT»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma femenina singular?",
+      "options": ["lequel", "laquelle", "lesquels", "lesquelles"],
+      "answer": 1,
+      "explain": "Laquelle concuerda con un sustantivo femenino singular."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la contracción de à + lequel?",
+      "options": ["alequel", "auquel", "à lequel", "aulequel"],
+      "answer": 1,
+      "explain": "À + lequel se contrae en auquel."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "statement": "Duquel se usa después de preposiciones compuestas como à côté de.",
+      "answer": true,
+      "explain": "Tras preposiciones compuestas con de, se usa duquel en lugar de dont."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "statement": "À laquelle se contrae en alaquelle.",
+      "answer": false,
+      "explain": "À laquelle no se contrae; se queda como dos palabras."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su género y número",
+      "left": ["avec lequel", "dans laquelle", "avec lesquels", "pour lesquelles"],
+      "right": ["masculino singular", "femenino singular", "masculino plural", "femenino plural"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Lequel = masculino singular, laquelle = femenino singular, lesquels = masculino plural, lesquelles = femenino plural."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "El boli con el que escribo es azul.",
+      "accept": ["Le stylo avec lequel j'écris est bleu"],
+      "hintWords": ["le stylo avec lequel j'écris", "est bleu"],
+      "strictAccents": true,
+      "audio": "Le stylo avec lequel j'écris est bleu.",
+      "explain": "Avec + lequel, concordando con le stylo (masculino singular)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "El proyecto en el que pienso es muy interesante.",
+      "accept": ["Le projet auquel je pense est très intéressant"],
+      "hintWords": ["le projet auquel je pense", "est très intéressant"],
+      "strictAccents": true,
+      "audio": "Le projet auquel je pense est très intéressant.",
+      "explain": "À + lequel se contrae en auquel (penser à)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Voici les amis avec ___ je sors, et voici la ville dans ___ j'habite.",
+      "blanks": [{ "accept": ["lesquels"] }, { "accept": ["laquelle"] }],
+      "bank": ["lesquels", "laquelle", "lequel"],
+      "explain": "Lesquels (masculino plural, les amis) y laquelle (femenino singular, la ville)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El edificio al lado del cual trabajo es nuevo»",
+      "tokens": ["est nouveau", "Le bâtiment à côté duquel je travaille"],
+      "answer": ["Le bâtiment à côté duquel je travaille", "est nouveau"],
+      "audio": "Le bâtiment à côté duquel je travaille est nouveau.",
+      "explain": "Duquel tras la preposición compuesta à côté de."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "Voici les raisons pour lesquelles je suis parti, et le projet auquel je pense encore.",
+      "accept": ["Aquí están las razones por las que me fui, y el proyecto en el que todavía pienso."],
+      "strictAccents": false,
+      "audio": "Voici les raisons pour lesquelles je suis parti, et le projet auquel je pense encore.",
+      "explain": "Lesquelles (femenino plural) y auquel (masculino singular contraído)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación describiendo un proyecto",
+      "turns": [
+        { "who": "Léa", "text": "C'est quoi ce projet ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'est le projet auquel je pense.", "C'est le sujet duquel on parlait."], "hint": "usa lequel/auquel/duquel" },
+        { "who": "Léa", "text": "Ah, intéressant !", "speak": true }
+      ],
+      "explain": "Repaso combinado de lequel y sus contracciones."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "speak": "Le stylo avec lequel j'écris est bleu, et la ville dans laquelle j'habite est petite.",
+      "mode": "write",
+      "accept": ["Le stylo avec lequel j'écris est bleu, et la ville dans laquelle j'habite est petite"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de lequel y laquelle."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 1,
+      "speak": "auquel",
+      "mode": "choose",
+      "options": ["lequel", "auquel", "duquel", "laquelle"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Auquel es la contracción de à + lequel."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 3,
+      "speak": "Le stylo avec lequel j'écris, les amis avec lesquels je sors, et le projet auquel je pense.",
+      "es": "El boli con el que escribo, los amigos con los que salgo, y el proyecto en el que pienso.",
+      "ipa": "/lə sti.lo a.vɛk lə.kɛl ʒe.kʁi le.z‿a.mi a.vɛk le.kɛl ʒə sɔʁ e lə pʁɔ.ʒɛ o.kɛl ʒə pɑ̃s/",
+      "esApprox": "«le sti-LO a-VEK le-KEL ye-KRÍ le-za-MÍ a-VEK le-KEL ye SOR e le pro-YÉ o-KEL ye PANS»",
+      "focus": "Tres formas de lequel encadenadas con distintas preposiciones.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "Describe algo usando lequel con una preposición distinta cada vez.",
+      "modelAnswer": "Le stylo avec lequel j'écris est bleu, et la ville dans laquelle j'habite est petite.",
+      "alsoValid": ["Le projet auquel je pense est très intéressant."],
+      "speak": "Le stylo avec lequel j'écris est bleu, et la ville dans laquelle j'habite est petite.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "¿Es masculino o femenino?",
+      "buckets": ["Masculino", "Femenino"],
+      "items": [
+        { "text": "lequel", "bucket": 0 },
+        { "text": "laquelle", "bucket": 1 },
+        { "text": "lesquels", "bucket": 0 },
+        { "text": "lesquelles", "bucket": 1 }
+      ],
+      "explain": "Lequel y lesquels son masculinos; laquelle y lesquelles son femeninos."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["relativos", "lequel"],
+      "difficulty": 2,
+      "prompt": "Hay un error: à + lequel se contrae en auquel. Corrige la frase entera.",
+      "wrong": "Le projet à lequel je pense.",
+      "accept": ["Le projet auquel je pense"],
+      "audio": "Le projet auquel je pense.",
+      "explain": "À + lequel siempre se contrae en auquel."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "le stylo avec lequel j'écris", "es": "el boli con el que escribo", "esApprox": "«le sti-LO a-VEK le-KEL ye-KRÍ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "la ville dans laquelle j'habite", "es": "la ciudad en la que vivo", "esApprox": "«la VIL dan la-KEL sha-BIT»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "les amis avec lesquels je sors", "es": "los amigos con los que salgo", "esApprox": "«le-za-MÍ a-VEK le-KEL ye SOR»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "les raisons pour lesquelles", "es": "las razones por las que", "esApprox": "«le re-ZÓN pur le-KEL»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "le projet auquel je pense", "es": "el proyecto en el que pienso", "esApprox": "«le pro-YÉ o-KEL ye PANS»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "la réunion à laquelle je vais", "es": "la reunión a la que voy", "esApprox": "«la re-ü-NIÓN a la-KEL ye VE»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Le stylo avec lequel j'écris est bleu.", "es": "El boli con el que escribo es azul.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Le projet auquel je pense est très intéressant.", "es": "El proyecto en el que pienso es muy interesante.", "from": "e7" }
+  ]
+}

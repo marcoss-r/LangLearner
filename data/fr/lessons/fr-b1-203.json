@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-203",
+  "lang": "fr",
+  "level": "B1",
+  "order": 203,
+  "title": "Resumir un texto o una conversación con tus palabras",
+  "objectives": [
+    "Usar en résumé, pour résumer y l'idée principale, c'est que para resumir",
+    "Usar en gros, globalement y en bref para resumir a grandes rasgos",
+    "Practicar resúmenes cortos con tus propias palabras, sin repetir todo el texto"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Resumir no es repetir",
+      "body": "Resumir significa quedarte con la idea principal y decirla con tus propias palabras, no repetir el texto entero. Estas fórmulas te ayudan a señalar que estás resumiendo."
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para resumir",
+      "headers": ["Expresión", "Uso"],
+      "rows": [
+        ["en résumé / pour résumer", "resumen general"],
+        ["l'idée principale, c'est que", "señalar la idea clave"],
+        ["en gros / globalement", "a grandes rasgos, sin detalles"],
+        ["en d'autres termes", "reformular con otras palabras"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Un buen resumen es corto",
+      "body": "Si tu resumen es casi tan largo como el texto original, no es un resumen. Quédate con lo esencial: una o dos frases suelen bastar."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "en résumé", "es": "en resumen", "ipa": "/ɑ̃ ʁe.zy.me/", "esApprox": "«an re-zü-MÉ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "pour résumer", "es": "para resumir", "ipa": "/puʁ ʁe.zy.me/", "esApprox": "«pur re-zü-MÉ»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "l'idée principale, c'est que", "es": "la idea principal es que", "ipa": "/li.de pʁɛ̃.si.pal sɛ kə/", "esApprox": "«li-DÉ prin-si-PAL se ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "en gros", "es": "a grandes rasgos", "ipa": "/ɑ̃ gʁo/", "esApprox": "«an GRO»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "en bref", "es": "en breve, resumiendo", "ipa": "/ɑ̃ bʁɛf/", "esApprox": "«an BREF»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "globalement", "es": "en general, globalmente", "ipa": "/glɔ.bal.mɑ̃/", "esApprox": "«glo-bal-MAN»", "pos": "adverbio", "gender": null },
+    { "id": "v7", "target": "si je résume", "es": "si resumo", "ipa": "/si ʒə ʁe.zym/", "esApprox": "«si ye re-ZÜM»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "en d'autres termes", "es": "en otras palabras", "ipa": "/ɑ̃ dotʁ tɛʁm/", "esApprox": "«an DOTR TERM»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "¿Cómo dices «en resumen»?",
+      "options": ["en résumé", "en conclusion", "d'abord", "cependant"],
+      "answer": 0,
+      "explain": "En résumé introduce un resumen breve."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "¿Cuál usas para decir la idea principal de un texto?",
+      "options": ["L'idée principale, c'est que...", "En premier lieu", "Par contre", "Donc"],
+      "answer": 0,
+      "explain": "L'idée principale, c'est que señala directamente el punto clave."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "statement": "En gros significa «a grandes rasgos», sin entrar en detalles.",
+      "answer": true,
+      "explain": "En gros resume sin dar todos los detalles."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "statement": "Resumir significa repetir el texto palabra por palabra.",
+      "answer": false,
+      "explain": "Resumir significa quedarte con la idea principal, con tus propias palabras."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su traducción",
+      "left": ["en résumé", "en gros", "globalement", "en d'autres termes"],
+      "right": ["en resumen", "a grandes rasgos", "en general", "en otras palabras"],
+      "answer": [0, 1, 2, 3],
+      "explain": "En résumé = en resumen, en gros = a grandes rasgos, globalement = en general, en d'autres termes = en otras palabras."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "En resumen, la idea principal es que hay que ahorrar más.",
+      "accept": ["En résumé, l'idée principale, c'est qu'il faut économiser plus"],
+      "hintWords": ["en résumé, l'idée principale", "c'est qu'il faut économiser plus"],
+      "strictAccents": true,
+      "audio": "En résumé, l'idée principale, c'est qu'il faut économiser plus.",
+      "explain": "En résumé + l'idée principale, c'est que, señalando el punto clave."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "A grandes rasgos, el texto habla de los problemas del medioambiente.",
+      "accept": ["En gros, le texte parle des problèmes de l'environnement"],
+      "hintWords": ["en gros, le texte parle", "des problèmes de l'environnement"],
+      "strictAccents": true,
+      "audio": "En gros, le texte parle des problèmes de l'environnement.",
+      "explain": "En gros, un resumen sin entrar en detalles."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "___, le texte dit qu'il faut agir vite. ___, c'est une question de temps.",
+      "blanks": [{ "accept": ["En résumé"] }, { "accept": ["En d'autres termes"] }],
+      "bank": ["En résumé", "En d'autres termes", "Cependant"],
+      "explain": "En résumé (resumen) y en d'autres termes (reformulación)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Si resumo, la situación es complicada»",
+      "tokens": ["la situation est compliquée", "Si je résume"],
+      "answer": ["Si je résume", "la situation est compliquée"],
+      "audio": "Si je résume, la situation est compliquée.",
+      "explain": "Si je résume introduce un resumen personal."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "Globalement, la conversation portait sur les vacances, mais en bref, personne n'était d'accord sur la destination.",
+      "accept": ["En general, la conversación trataba sobre las vacaciones, pero resumiendo, nadie estaba de acuerdo sobre el destino."],
+      "strictAccents": false,
+      "audio": "Globalement, la conversation portait sur les vacances, mais en bref, personne n'était d'accord sur la destination.",
+      "explain": "Globalement (visión general) y en bref (resumen final)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación resumiendo una reunión",
+      "turns": [
+        { "who": "Léa", "text": "Tu peux résumer la réunion ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["En résumé, il faut finir le projet avant vendredi.", "Pour résumer, on a décidé de continuer."], "hint": "usa una fórmula de resumen" },
+        { "who": "Léa", "text": "Merci, c'est clair.", "speak": true }
+      ],
+      "explain": "Repaso combinado de las fórmulas de resumen."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "speak": "En résumé, l'idée principale, c'est qu'il faut économiser plus, et en gros, tout le monde est d'accord.",
+      "mode": "write",
+      "accept": ["En résumé, l'idée principale, c'est qu'il faut économiser plus, et en gros, tout le monde est d'accord"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de en résumé y en gros."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["resumen"],
+      "difficulty": 1,
+      "speak": "en d'autres termes",
+      "mode": "choose",
+      "options": ["en résumé", "en gros", "en d'autres termes", "globalement"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "En d'autres termes reformula con otras palabras."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["resumen"],
+      "difficulty": 3,
+      "speak": "Pour résumer, l'idée principale, c'est qu'il faut agir vite. En gros, tout le monde est d'accord, mais en d'autres termes, personne n'a de solution claire.",
+      "es": "Para resumir, la idea principal es que hay que actuar rápido. A grandes rasgos, todo el mundo está de acuerdo, pero en otras palabras, nadie tiene una solución clara.",
+      "ipa": "/puʁ ʁe.zy.me li.de pʁɛ̃.si.pal sɛ kil fo a.ʒiʁ vit ɑ̃ gʁo tu lə mɔ̃d ɛ.t‿da.kɔʁ mɛ ɑ̃ dotʁ tɛʁm pɛʁ.sɔn na də sɔ.ly.sjɔ̃ klɛʁ/",
+      "esApprox": "«pur re-zü-MÉ li-DÉ prin-si-PAL se kil FO a-SHIR VIT an GRO tu le MOND e-tda-KOR me an DOTR TERM per-SON na de so-lü-SIÓN KLER»",
+      "focus": "Un resumen completo con tres fórmulas distintas encadenadas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "Resume una conversación o un texto con tus propias palabras, usando en résumé o pour résumer.",
+      "modelAnswer": "En résumé, l'idée principale, c'est qu'il faut économiser plus.",
+      "alsoValid": ["En gros, tout le monde est d'accord sur ce point."],
+      "speak": "En résumé, l'idée principale, c'est qu'il faut économiser plus.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "¿Es una fórmula de resumen o de conclusión?",
+      "buckets": ["Resumen", "Conclusión"],
+      "items": [
+        { "text": "en résumé", "bucket": 0 },
+        { "text": "en conclusion", "bucket": 1 },
+        { "text": "en gros", "bucket": 0 },
+        { "text": "par conséquent", "bucket": 1 }
+      ],
+      "explain": "En résumé y en gros resumen el contenido; en conclusion y par conséquent cierran o sacan una consecuencia."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "Hay un error: en résumé es una expresión fija, no se pluraliza. Corrige la frase entera.",
+      "wrong": "En résumés, il faut économiser plus.",
+      "accept": ["En résumé, il faut économiser plus"],
+      "audio": "En résumé, il faut économiser plus.",
+      "explain": "En résumé es una expresión fija e invariable, nunca se pluraliza."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "en résumé", "es": "en resumen", "esApprox": "«an re-zü-MÉ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "pour résumer", "es": "para resumir", "esApprox": "«pur re-zü-MÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "l'idée principale, c'est que", "es": "la idea principal es que", "esApprox": "«li-DÉ prin-si-PAL se ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "en gros", "es": "a grandes rasgos", "esApprox": "«an GRO»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "globalement", "es": "en general, globalmente", "esApprox": "«glo-bal-MAN»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "en d'autres termes", "es": "en otras palabras", "esApprox": "«an DOTR TERM»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "En résumé, l'idée principale, c'est qu'il faut économiser plus.", "es": "En resumen, la idea principal es que hay que ahorrar más.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "En gros, le texte parle des problèmes de l'environnement.", "es": "A grandes rasgos, el texto habla de los problemas del medioambiente.", "from": "e7" }
+  ]
+}

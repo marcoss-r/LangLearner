@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-202",
+  "lang": "fr",
+  "level": "B1",
+  "order": 202,
+  "title": "Estructurar una opinión argumentada de principio a fin",
+  "objectives": [
+    "Estructurar una opinión completa: introducción, argumentos, matiz y conclusión",
+    "Usar de plus y en outre para añadir argumentos",
+    "Combinar los conectores de secuencia, contraste y consecuencia en un mismo texto"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El esqueleto de una opinión argumentada",
+      "body": "Ya conoces por separado los conectores de secuencia, contraste y consecuencia. Hoy los combinas en una estructura completa: introducción, argumentos, un matiz, y una conclusión."
+    },
+    {
+      "type": "table",
+      "title": "Esqueleto de una opinión",
+      "headers": ["Parte", "Conector", "Función"],
+      "rows": [
+        ["introducción", "à mon avis", "dar tu opinión"],
+        ["primer argumento", "tout d'abord", "primer punto"],
+        ["argumento adicional", "de plus, en outre", "añadir otro punto"],
+        ["matiz", "cependant", "reconocer un inconveniente"],
+        ["conclusión", "en conclusion, pour toutes ces raisons", "cerrar la opinión"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Menos es más",
+      "body": "Para una opinión de nivel B1, con dos argumentos claros y un matiz es suficiente. No hace falta alargarse: una estructura corta y clara convence más que una larga y confusa."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "à mon avis", "es": "en mi opinión", "ipa": "/a mɔ̃.n‿a.vi/", "esApprox": "«a mon-na-VÍ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "tout d'abord", "es": "antes que nada, para empezar", "ipa": "/tu da.bɔʁ/", "esApprox": "«tu da-BOR»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "de plus", "es": "además", "ipa": "/də plys/", "esApprox": "«de PLÜS»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "en outre", "es": "además (formal)", "ipa": "/ɑ̃.n‿utʁ/", "esApprox": "«an-NUTR»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "cependant", "es": "sin embargo", "ipa": "/sə.pɑ̃.dɑ̃/", "esApprox": "«se-pan-DAN»", "pos": "conjunción", "gender": null },
+    { "id": "v6", "target": "par conséquent", "es": "por consiguiente", "ipa": "/paʁ kɔ̃.se.kɑ̃/", "esApprox": "«par kon-se-KAN»", "pos": "conjunción", "gender": null },
+    { "id": "v7", "target": "en conclusion", "es": "en conclusión", "ipa": "/ɑ̃ kɔ̃.kly.zjɔ̃/", "esApprox": "«an kon-klü-SIÓN»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "pour toutes ces raisons", "es": "por todas estas razones", "ipa": "/puʁ tut se ʁɛ.zɔ̃/", "esApprox": "«pur TUT se re-ZÓN»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "¿Qué conector usas para añadir un segundo argumento?",
+      "options": ["cependant", "de plus", "en conclusion", "donc"],
+      "answer": 1,
+      "explain": "De plus añade un argumento nuevo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "¿Con qué se suele cerrar una opinión argumentada?",
+      "options": ["tout d'abord", "en conclusion", "cependant", "de plus"],
+      "answer": 1,
+      "explain": "En conclusion cierra la opinión."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "statement": "Una opinión bien estructurada suele incluir una introducción, argumentos y una conclusión.",
+      "answer": true,
+      "explain": "Es la estructura básica de una opinión argumentada."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "statement": "Cependant se usa para añadir un argumento nuevo, no para matizar.",
+      "answer": false,
+      "explain": "Cependant se usa para matizar o reconocer un inconveniente, no para añadir un argumento nuevo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "Une cada conector con su parte de la estructura",
+      "left": ["à mon avis", "tout d'abord", "de plus", "en conclusion"],
+      "right": ["introducción", "primer argumento", "argumento adicional", "cierre"],
+      "answer": [0, 1, 2, 3],
+      "explain": "À mon avis = introducción, tout d'abord = primer argumento, de plus = argumento adicional, en conclusion = cierre."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "En mi opinión, este proyecto es una buena idea. Primero, ahorra tiempo. Además, es más barato.",
+      "accept": ["À mon avis, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps. De plus, il est moins cher"],
+      "hintWords": ["à mon avis, ce projet est une bonne idée", "tout d'abord, il permet de gagner du temps, de plus, il est moins cher"],
+      "strictAccents": true,
+      "audio": "À mon avis, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps. De plus, il est moins cher.",
+      "explain": "Introducción + dos argumentos, conectados con tout d'abord y de plus."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "Sin embargo, hace falta más tiempo para prepararlo. Por todas estas razones, pienso que hay que decidir con cuidado.",
+      "accept": ["Cependant, il faut plus de temps pour le préparer. Pour toutes ces raisons, je pense qu'il faut décider avec soin"],
+      "hintWords": ["cependant, il faut plus de temps pour le préparer", "pour toutes ces raisons, je pense qu'il faut décider avec soin"],
+      "strictAccents": true,
+      "audio": "Cependant, il faut plus de temps pour le préparer. Pour toutes ces raisons, je pense qu'il faut décider avec soin.",
+      "explain": "Matiz (cependant) + conclusión (pour toutes ces raisons)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "Completa con el conector correcto",
+      "text": "___, ce projet a beaucoup d'avantages. ___, il faut être prudent.",
+      "blanks": [{ "accept": ["À mon avis"] }, { "accept": ["Cependant"] }],
+      "bank": ["À mon avis", "Cependant", "De plus"],
+      "explain": "À mon avis (introducción) y cependant (matiz)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «En conclusión, estoy a favor de este proyecto»",
+      "tokens": ["je suis pour ce projet", "En conclusion"],
+      "answer": ["En conclusion", "je suis pour ce projet"],
+      "audio": "En conclusion, je suis pour ce projet.",
+      "explain": "En conclusion cierra la opinión argumentada."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "À mon avis, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps. De plus, il est moins cher. Cependant, il faut plus de préparation. En conclusion, je suis pour.",
+      "accept": ["En mi opinión, este proyecto es una buena idea. Primero, permite ahorrar tiempo. Además, es más barato. Sin embargo, hace falta más preparación. En conclusión, estoy a favor."],
+      "strictAccents": false,
+      "audio": "À mon avis, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps. De plus, il est moins cher. Cependant, il faut plus de préparation. En conclusion, je suis pour.",
+      "explain": "Una opinión argumentada completa: introducción, dos argumentos, matiz y conclusión."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación dando tu opinión estructurada",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu penses de ce projet ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["À mon avis, c'est une bonne idée. Tout d'abord, ça fait gagner du temps.", "En conclusion, je suis pour ce projet."], "hint": "usa la estructura de opinión completa" },
+        { "who": "Léa", "text": "C'est bien argumenté !", "speak": true }
+      ],
+      "explain": "Repaso combinado de la estructura de opinión argumentada."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "speak": "À mon avis, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps. En conclusion, je suis pour.",
+      "mode": "write",
+      "accept": ["À mon avis, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps. En conclusion, je suis pour"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de introducción, argumento y conclusión."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["argumentacion"],
+      "difficulty": 1,
+      "speak": "en conclusion",
+      "mode": "choose",
+      "options": ["tout d'abord", "de plus", "cependant", "en conclusion"],
+      "answer": 3,
+      "showTextAfter": true,
+      "explain": "En conclusion cierra la opinión."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["argumentacion"],
+      "difficulty": 3,
+      "speak": "À mon avis, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps. De plus, il est moins cher. Cependant, il faut plus de préparation. En conclusion, je suis pour.",
+      "es": "En mi opinión, este proyecto es una buena idea. Primero, permite ahorrar tiempo. Además, es más barato. Sin embargo, hace falta más preparación. En conclusión, estoy a favor.",
+      "ipa": "/a mɔ̃.n‿a.vi sə pʁɔ.ʒɛ ɛ.t‿yn bɔn i.de tu da.bɔʁ il pɛʁ.mɛ də ga.ɲe dy tɑ̃ də plys i.l‿ɛ mwɛ̃ ʃɛʁ sə.pɑ̃.dɑ̃ il fo ply də pʁe.pa.ʁa.sjɔ̃ ɑ̃ kɔ̃.kly.zjɔ̃ ʒə sɥi puʁ/",
+      "esApprox": "«a mon-na-VÍ se pro-YÉ e-tun BON i-DÉ tu da-BOR il per-ME de ga-ñe DÜ TAN de PLÜS il e muin SHER se-pan-DAN il FO plü de pre-pa-ra-SIÓN an kon-klü-SIÓN ye süí PUR»",
+      "focus": "Una opinión argumentada completa de principio a fin.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "Estructura una opinión completa sobre un tema, con introducción, dos argumentos, un matiz y una conclusión.",
+      "modelAnswer": "À mon avis, apprendre une langue est utile. Tout d'abord, ça ouvre des portes. De plus, ça enrichit la culture générale. Cependant, ça demande du temps. En conclusion, je pense que ça en vaut la peine.",
+      "alsoValid": ["À mon avis, ce projet est une bonne idée, mais il faut être prudent."],
+      "speak": "À mon avis, apprendre une langue est utile. Tout d'abord, ça ouvre des portes. De plus, ça enrichit la culture générale. Cependant, ça demande du temps. En conclusion, je pense que ça en vaut la peine.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "¿Es introducción/argumento o cierre?",
+      "buckets": ["Introducción/argumento", "Cierre"],
+      "items": [
+        { "text": "à mon avis", "bucket": 0 },
+        { "text": "tout d'abord", "bucket": 0 },
+        { "text": "en conclusion", "bucket": 1 },
+        { "text": "pour toutes ces raisons", "bucket": 1 }
+      ],
+      "explain": "À mon avis y tout d'abord abren la opinión; en conclusion y pour toutes ces raisons la cierran."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "Hay un error: en conclusion va al final, no al principio. Corrige la frase entera.",
+      "wrong": "En conclusion, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps.",
+      "accept": ["À mon avis, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps"],
+      "audio": "À mon avis, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps.",
+      "explain": "En conclusion va al final de la opinión; para empezar se usa à mon avis."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "à mon avis", "es": "en mi opinión", "esApprox": "«a mon-na-VÍ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "tout d'abord", "es": "antes que nada, para empezar", "esApprox": "«tu da-BOR»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "de plus", "es": "además", "esApprox": "«de PLÜS»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "en outre", "es": "además (formal)", "esApprox": "«an-NUTR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "cependant", "es": "sin embargo", "esApprox": "«se-pan-DAN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "en conclusion", "es": "en conclusión", "esApprox": "«an kon-klü-SIÓN»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "À mon avis, ce projet est une bonne idée. Tout d'abord, il permet de gagner du temps. De plus, il est moins cher.", "es": "En mi opinión, este proyecto es una buena idea. Primero, ahorra tiempo. Además, es más barato.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Cependant, il faut plus de temps pour le préparer. Pour toutes ces raisons, je pense qu'il faut décider avec soin.", "es": "Sin embargo, hace falta más tiempo para prepararlo. Por todas estas razones, pienso que hay que decidir con cuidado.", "from": "e7" }
+  ]
+}

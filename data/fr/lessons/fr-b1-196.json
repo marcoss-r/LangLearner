@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-196",
+  "lang": "fr",
+  "level": "B1",
+  "order": 196,
+  "title": "El relativo dont",
+  "objectives": [
+    "Usar dont para sustituir de + sustantivo en una frase relativa",
+    "Reconocer los verbos y expresiones que piden de (parler de, avoir besoin de, être content de)",
+    "Practicar dont también con valor de posesión (dont la couverture est bleue)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dont sustituye a de + sustantivo",
+      "body": "Cuando un verbo o expresión pide de (parler de, avoir besoin de, être content de), en la frase relativa se usa dont en lugar de que. Dont también puede indicar posesión: le livre dont la couverture est bleue."
+    },
+    {
+      "type": "table",
+      "title": "Verbos y expresiones con de",
+      "headers": ["Expresión", "Ejemplo con dont"],
+      "rows": [
+        ["parler de", "le livre dont je parle"],
+        ["avoir besoin de", "la personne dont j'ai besoin"],
+        ["être content de", "le film dont je suis content"],
+        ["être fier de", "le prix dont je suis fier"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Dont también indica posesión",
+      "body": "Le livre dont la couverture est bleue = el libro cuya portada es azul. Dont conecta el sustantivo principal con algo suyo, como el equivalente francés de «cuyo»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le livre dont je parle", "es": "el libro del que hablo", "ipa": "/lə livʁ dɔ̃ ʒə paʁl/", "esApprox": "«le LIVR don ye PARL»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "la personne dont j'ai besoin", "es": "la persona que necesito", "ipa": "/la pɛʁ.sɔn dɔ̃ ʒe bə.zwɛ̃/", "esApprox": "«la per-SON don ye be-SUÍN»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "le film dont je suis content(e)", "es": "la película con la que estoy contento/a", "ipa": "/lə film dɔ̃ ʒə sɥi kɔ̃.tɑ̃/", "esApprox": "«le FILM don ye süí kon-TAN»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "dont la couverture est bleue", "es": "cuya portada es azul", "ipa": "/dɔ̃ la ku.vɛʁ.tyʁ ɛ blø/", "esApprox": "«don la ku-ver-TÜR e BLÖ»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "avoir besoin de", "es": "necesitar", "ipa": "/a.vwaʁ bə.zwɛ̃ də/", "esApprox": "«a-VUÁR be-SUÍN de»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "parler de", "es": "hablar de", "ipa": "/paʁ.le də/", "esApprox": "«par-LÉ de»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "être content de", "es": "estar contento de", "ipa": "/ɛtʁ kɔ̃.tɑ̃ də/", "esApprox": "«ETR kon-TAN de»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "être fier de", "es": "estar orgulloso de", "ipa": "/ɛtʁ fjɛʁ də/", "esApprox": "«ETR FIER de»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "¿Qué sustituye dont?",
+      "options": ["à + sustantivo", "de + sustantivo", "en + sustantivo", "pour + sustantivo"],
+      "answer": 1,
+      "explain": "Dont sustituye a de + sustantivo en una frase relativa."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «el libro del que hablo»?",
+      "options": ["Le livre que je parle.", "Le livre dont je parle.", "Le livre où je parle.", "Le livre qui je parle."],
+      "answer": 1,
+      "explain": "Parler de pide dont en la frase relativa."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "statement": "Dont puede indicar posesión: le livre dont la couverture est bleue.",
+      "answer": true,
+      "explain": "Dont funciona como el equivalente francés de «cuyo»."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "statement": "Dont sustituye a à + sustantivo.",
+      "answer": false,
+      "explain": "Dont sustituye a de + sustantivo, no a à + sustantivo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su frase con dont",
+      "left": ["avoir besoin de", "parler de", "être content de", "être fier de"],
+      "right": ["la personne dont j'ai besoin", "le livre dont je parle", "le film dont je suis content", "le prix dont je suis fier"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cada expresión con de se convierte en dont en la frase relativa."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "El libro del que hablo es muy interesante.",
+      "accept": ["Le livre dont je parle est très intéressant"],
+      "hintWords": ["le livre dont je parle", "est très intéressant"],
+      "strictAccents": true,
+      "audio": "Le livre dont je parle est très intéressant.",
+      "explain": "Dont sustituye a de ce livre (parler de)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "La persona que necesito no está aquí.",
+      "accept": ["La personne dont j'ai besoin n'est pas là"],
+      "hintWords": ["la personne dont j'ai besoin", "n'est pas là"],
+      "strictAccents": true,
+      "audio": "La personne dont j'ai besoin n'est pas là.",
+      "explain": "Dont sustituye a de cette personne (avoir besoin de)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "Completa con dont",
+      "text": "C'est le film ___ je suis content, et voici la personne ___ j'ai besoin.",
+      "blanks": [{ "accept": ["dont"] }, { "accept": ["dont"] }],
+      "bank": ["dont", "que", "qui"],
+      "explain": "Être content de y avoir besoin de piden dont en la frase relativa."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Este es el libro cuya portada es azul»",
+      "tokens": ["dont la couverture est bleue", "Voici le livre"],
+      "answer": ["Voici le livre", "dont la couverture est bleue"],
+      "audio": "Voici le livre dont la couverture est bleue.",
+      "explain": "Dont con valor de posesión: la couverture del livre."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "Voici la personne dont je t'ai parlé, celle dont j'ai besoin pour le projet.",
+      "accept": ["Aquí está la persona de la que te hablé, la que necesito para el proyecto."],
+      "strictAccents": false,
+      "audio": "Voici la personne dont je t'ai parlé, celle dont j'ai besoin pour le projet.",
+      "explain": "Dos usos de dont en la misma frase: parler de y avoir besoin de."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación describiendo un libro",
+      "turns": [
+        { "who": "Léa", "text": "C'est quoi ce livre ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'est le livre dont je t'ai parlé.", "C'est le livre dont la couverture est bleue."], "hint": "usa dont" },
+        { "who": "Léa", "text": "Ah oui, je me souviens !", "speak": true }
+      ],
+      "explain": "Repaso combinado del relativo dont."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "speak": "Voici le livre dont je parle, et voici la personne dont j'ai besoin.",
+      "mode": "write",
+      "accept": ["Voici le livre dont je parle, et voici la personne dont j'ai besoin"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del relativo dont."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["relativos", "dont"],
+      "difficulty": 1,
+      "speak": "dont j'ai besoin",
+      "mode": "choose",
+      "options": ["que j'ai besoin", "dont j'ai besoin", "où j'ai besoin", "qui j'ai besoin"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Avoir besoin de pide dont, no que."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["relativos", "dont"],
+      "difficulty": 3,
+      "speak": "Voici le livre dont je parle, la personne dont j'ai besoin, et le film dont je suis content.",
+      "es": "Aquí está el libro del que hablo, la persona que necesito, y la película con la que estoy contento.",
+      "ipa": "/vwa.si lə livʁ dɔ̃ ʒə paʁl la pɛʁ.sɔn dɔ̃ ʒe bə.zwɛ̃ e lə film dɔ̃ ʒə sɥi kɔ̃.tɑ̃/",
+      "esApprox": "«vuá-SÍ le LIVR don ye PARL la per-SON don ye be-SUÍN e le FILM don ye süí kon-TAN»",
+      "focus": "Tres usos de dont encadenados con distintos verbos de de.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "Describe algo usando dont, combinando dos expresiones distintas con de.",
+      "modelAnswer": "Voici le livre dont je parle, et voici la personne dont j'ai besoin.",
+      "alsoValid": ["C'est le projet dont je suis fier."],
+      "speak": "Voici le livre dont je parle, et voici la personne dont j'ai besoin.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "¿Es dont (de + sustantivo) o que (complemento directo)?",
+      "buckets": ["dont", "que"],
+      "items": [
+        { "text": "le livre dont je parle", "bucket": 0 },
+        { "text": "le livre que je lis", "bucket": 1 },
+        { "text": "la personne dont j'ai besoin", "bucket": 0 },
+        { "text": "la personne que je vois", "bucket": 1 }
+      ],
+      "explain": "Dont sustituye a de + sustantivo; que sustituye al complemento directo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["relativos", "dont"],
+      "difficulty": 2,
+      "prompt": "Hay un error: parler de pide dont, no que. Corrige la frase entera.",
+      "wrong": "Voici le livre que je parle.",
+      "accept": ["Voici le livre dont je parle"],
+      "audio": "Voici le livre dont je parle.",
+      "explain": "Parler de pide dont, no que, en la frase relativa."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "le livre dont je parle", "es": "el libro del que hablo", "esApprox": "«le LIVR don ye PARL»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "la personne dont j'ai besoin", "es": "la persona que necesito", "esApprox": "«la per-SON don ye be-SUÍN»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "le film dont je suis content(e)", "es": "la película con la que estoy contento/a", "esApprox": "«le FILM don ye süí kon-TAN»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "dont la couverture est bleue", "es": "cuya portada es azul", "esApprox": "«don la ku-ver-TÜR e BLÖ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "avoir besoin de", "es": "necesitar", "esApprox": "«a-VUÁR be-SUÍN de»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "être fier de", "es": "estar orgulloso de", "esApprox": "«ETR FIER de»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Le livre dont je parle est très intéressant.", "es": "El libro del que hablo es muy interesante.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "La personne dont j'ai besoin n'est pas là.", "es": "La persona que necesito no está aquí.", "from": "e7" }
+  ]
+}

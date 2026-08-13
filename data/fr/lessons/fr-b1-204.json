@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-204",
+  "lang": "fr",
+  "level": "B1",
+  "order": 204,
+  "title": "Debatir un tema con estructura: a favor y en contra",
+  "objectives": [
+    "Usar les partisans de / les opposants à para presentar dos posturas",
+    "Dar un argumento en faveur de o un argumento contre",
+    "Practicar un turno de debate estructurado, con ambos lados y tu postura"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Presentar los dos lados de un debate",
+      "body": "Un buen debate reconoce los dos lados antes de dar tu postura: qué piensan los partidarios, qué piensan los opositores, y por qué tú te inclinas hacia un lado."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de debate",
+      "headers": ["Expresión", "Significado"],
+      "rows": [
+        ["les partisans de", "quienes están a favor"],
+        ["les opposants à", "quienes están en contra"],
+        ["un argument en faveur de", "un argumento a favor"],
+        ["un argument contre", "un argumento en contra"],
+        ["je suis plutôt pour / contre", "tu postura personal"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Il y a du pour et du contre",
+      "body": "Esta expresión reconoce que un tema tiene aspectos positivos y negativos antes de dar tu opinión final: es una forma madura de empezar un debate."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "d'un côté... de l'autre côté", "es": "por un lado... por otro lado", "ipa": "/dœ̃ ko.te də lotʁ ko.te/", "esApprox": "«dun ko-TÉ de LOTR ko-TÉ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "les partisans de... pensent que", "es": "los partidarios de... piensan que", "ipa": "/le paʁ.ti.zɑ̃ də pɑ̃s kə/", "esApprox": "«le par-ti-ZAN de PANS ke»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "les opposants à... estiment que", "es": "los opositores a... consideran que", "ipa": "/le.z‿ɔ.po.zɑ̃ a ɛs.tim kə/", "esApprox": "«le-zo-po-ZAN a es-TIM ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "il y a du pour et du contre", "es": "hay pros y contras", "ipa": "/i.li.a dy puʁ e dy kɔ̃tʁ/", "esApprox": "«il-i-a dü PUR e dü KONTR»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "un argument en faveur de", "es": "un argumento a favor de", "ipa": "/œ̃.n‿aʁ.gy.mɑ̃ ɑ̃ fa.vœʁ də/", "esApprox": "«un-nar-gü-MAN an fa-VÖR de»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "un argument contre", "es": "un argumento en contra", "ipa": "/œ̃.n‿aʁ.gy.mɑ̃ kɔ̃tʁ/", "esApprox": "«un-nar-gü-MAN KONTR»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "je suis plutôt pour", "es": "estoy más bien a favor", "ipa": "/ʒə sɥi ply.to puʁ/", "esApprox": "«ye süí plü-TO PUR»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "je suis plutôt contre", "es": "estoy más bien en contra", "ipa": "/ʒə sɥi ply.to kɔ̃tʁ/", "esApprox": "«ye süí plü-TO KONTR»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "¿Cómo dices «estoy más bien a favor»?",
+      "options": ["Je suis plutôt pour.", "Je suis plutôt contre.", "Je suis d'accord.", "Ça dépend."],
+      "answer": 0,
+      "explain": "Je suis plutôt pour expresa una postura moderada a favor."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «il y a du pour et du contre»?",
+      "options": ["hay pros y contras", "todos están de acuerdo", "nadie tiene razón", "es imposible decidir"],
+      "answer": 0,
+      "explain": "Il y a du pour et du contre reconoce aspectos positivos y negativos."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "statement": "Les partisans de son las personas que están a favor de algo.",
+      "answer": true,
+      "explain": "Les partisans de = quienes apoyan una idea."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "statement": "Les opposants à son las personas que están a favor de algo.",
+      "answer": false,
+      "explain": "Les opposants à son quienes están en contra, no a favor."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su postura",
+      "left": ["les partisans de", "les opposants à", "un argument en faveur de", "un argument contre"],
+      "right": ["a favor (grupo)", "en contra (grupo)", "a favor (razón)", "en contra (razón)"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Les partisans y un argument en faveur de son a favor; les opposants y un argument contre son en contra."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "Por un lado, estoy a favor; por otro lado, hay un argumento en contra muy fuerte.",
+      "accept": ["D'un côté, je suis pour, de l'autre côté, il y a un argument contre très fort"],
+      "hintWords": ["d'un côté, je suis pour", "de l'autre côté, il y a un argument contre très fort"],
+      "strictAccents": true,
+      "audio": "D'un côté, je suis pour, de l'autre côté, il y a un argument contre très fort.",
+      "explain": "D'un côté... de l'autre côté presenta dos posturas opuestas."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "Los partidarios piensan que es necesario, pero los opositores consideran que es peligroso.",
+      "accept": ["Les partisans pensent que c'est nécessaire, mais les opposants estiment que c'est dangereux"],
+      "hintWords": ["les partisans pensent que c'est nécessaire", "mais les opposants estiment que c'est dangereux"],
+      "strictAccents": true,
+      "audio": "Les partisans pensent que c'est nécessaire, mais les opposants estiment que c'est dangereux.",
+      "explain": "Les partisans (a favor) frente a les opposants (en contra)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Je suis plutôt ___, mais je reconnais qu'il y a du pour et du ___.",
+      "blanks": [{ "accept": ["pour"] }, { "accept": ["contre"] }],
+      "bank": ["pour", "contre", "d'accord"],
+      "explain": "Je suis plutôt pour, mais il y a du pour et du contre."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hay un argumento a favor y otro en contra»",
+      "tokens": ["et un argument contre", "Il y a un argument en faveur"],
+      "answer": ["Il y a un argument en faveur", "et un argument contre"],
+      "audio": "Il y a un argument en faveur et un argument contre.",
+      "explain": "Presentar un argumento a favor y otro en contra."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "Les partisans de cette idée pensent que c'est une bonne solution, mais les opposants estiment que c'est trop risqué.",
+      "accept": ["Los partidarios de esta idea piensan que es una buena solución, pero los opositores consideran que es demasiado arriesgado."],
+      "strictAccents": false,
+      "audio": "Les partisans de cette idée pensent que c'est une bonne solution, mais les opposants estiment que c'est trop risqué.",
+      "explain": "Las dos posturas de un debate presentadas una tras otra."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación tomando una postura",
+      "turns": [
+        { "who": "Léa", "text": "Tu es pour ou contre ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je suis plutôt pour.", "Il y a du pour et du contre, mais je suis plutôt contre."], "hint": "usa una fórmula de debate" },
+        { "who": "Léa", "text": "Intéressant, je ne suis pas sûre.", "speak": true }
+      ],
+      "explain": "Repaso combinado de las fórmulas de debate."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "speak": "D'un côté, je suis pour, de l'autre côté, il y a un argument contre très fort. Il y a du pour et du contre.",
+      "mode": "write",
+      "accept": ["D'un côté, je suis pour, de l'autre côté, il y a un argument contre très fort. Il y a du pour et du contre"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de las dos posturas de un debate."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 1,
+      "speak": "les opposants à",
+      "mode": "choose",
+      "options": ["les partisans de", "les opposants à", "un argument contre", "je suis plutôt pour"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Les opposants à son quienes están en contra."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 3,
+      "speak": "Les partisans pensent que c'est nécessaire, les opposants estiment que c'est dangereux, et moi, je suis plutôt pour, même s'il y a du pour et du contre.",
+      "es": "Los partidarios piensan que es necesario, los opositores consideran que es peligroso, y yo, estoy más bien a favor, aunque hay pros y contras.",
+      "ipa": "/le paʁ.ti.zɑ̃ pɑ̃s kə sɛ ne.se.sɛʁ le.z‿ɔ.po.zɑ̃ ɛs.time kə sɛ dɑ̃.ʒʁø e mwa ʒə sɥi ply.to puʁ mɛm si.l‿i.a dy puʁ e dy kɔ̃tʁ/",
+      "esApprox": "«le par-ti-ZAN PANS ke se ne-se-SER le-zo-po-ZAN es-ti-ME ke se dan-YRÖ e muá ye süí plü-TO PUR mem si-lia dü PUR e dü KONTR»",
+      "focus": "Dos posturas de debate y una toma de postura personal encadenadas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "Debate un tema dando un argumento a favor y uno en contra, y termina con tu postura.",
+      "modelAnswer": "Il y a un argument en faveur et un argument contre, mais je suis plutôt pour.",
+      "alsoValid": ["Les partisans pensent que c'est utile, les opposants pensent que c'est risqué."],
+      "speak": "Il y a un argument en faveur et un argument contre, mais je suis plutôt pour.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "¿Es a favor o en contra?",
+      "buckets": ["A favor", "En contra"],
+      "items": [
+        { "text": "les partisans de", "bucket": 0 },
+        { "text": "les opposants à", "bucket": 1 },
+        { "text": "je suis plutôt pour", "bucket": 0 },
+        { "text": "je suis plutôt contre", "bucket": 1 }
+      ],
+      "explain": "Les partisans de y je suis plutôt pour son a favor; les opposants à y je suis plutôt contre son en contra."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["argumentacion", "debate"],
+      "difficulty": 2,
+      "prompt": "Hay un error: quienes piensan que algo es peligroso son los opposants, no los partisans. Corrige la frase entera.",
+      "wrong": "Les partisans de cette idée estiment que c'est dangereux.",
+      "accept": ["Les opposants à cette idée estiment que c'est dangereux"],
+      "audio": "Les opposants à cette idée estiment que c'est dangereux.",
+      "explain": "Les partisans están a favor; quienes ven algo como peligroso son los opposants."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "d'un côté... de l'autre côté", "es": "por un lado... por otro lado", "esApprox": "«dun ko-TÉ de LOTR ko-TÉ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "les partisans de... pensent que", "es": "los partidarios de... piensan que", "esApprox": "«le par-ti-ZAN de PANS ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "les opposants à... estiment que", "es": "los opositores a... consideran que", "esApprox": "«le-zo-po-ZAN a es-TIM ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "il y a du pour et du contre", "es": "hay pros y contras", "esApprox": "«il-i-a dü PUR e dü KONTR»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "un argument en faveur de", "es": "un argumento a favor de", "esApprox": "«un-nar-gü-MAN an fa-VÖR de»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "je suis plutôt contre", "es": "estoy más bien en contra", "esApprox": "«ye süí plü-TO KONTR»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "D'un côté, je suis pour, de l'autre côté, il y a un argument contre très fort.", "es": "Por un lado, estoy a favor; por otro lado, hay un argumento en contra muy fuerte.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Les partisans pensent que c'est nécessaire, mais les opposants estiment que c'est dangereux.", "es": "Los partidarios piensan que es necesario, pero los opositores consideran que es peligroso.", "from": "e7" }
+  ]
+}
