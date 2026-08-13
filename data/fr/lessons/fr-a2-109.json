@@ -1,0 +1,253 @@
+{
+  "id": "fr-a2-109",
+  "lang": "fr",
+  "level": "A2",
+  "order": 109,
+  "title": "Los conectores del relato: d'abord, puis, ensuite, enfin",
+  "objectives": [
+    "Repasar d'abord, ensuite, puis, enfin (clases A1-40 y A2-99) y ordenarlos correctamente en un relato",
+    "Ampliar el repertorio con alors, du coup, bref y au bout d'un moment",
+    "Encadenar un relato de al menos cinco frases con conectores variados"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso y ampliación de los conectores",
+      "body": "Ya conoces d'abord, ensuite, puis y enfin (clases A1-40, A2-99) para ordenar una narración. Ahora amplías el repertorio con conectores que muestran consecuencia (alors, du coup) y los que resumen o cierran (bref).",
+      "examples": [
+        { "target": "D'abord, j'ai raté le bus. Alors, je suis arrivé en retard. Du coup, mon patron n'était pas content. Bref, une mauvaise journée.", "es": "Primero, perdí el autobús. Entonces, llegué tarde. Por eso, mi jefe no estaba contento. En resumen, un mal día.", "note": "d'abord (orden) + alors/du coup (consecuencia) + bref (resumen)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Conectores del relato, ampliados",
+      "headers": ["Conector", "Función", "Español"],
+      "rows": [
+        ["d'abord", "orden: primero", "primero"],
+        ["ensuite / puis", "orden: luego", "luego, después"],
+        ["enfin", "orden: por último", "por último, finalmente"],
+        ["alors / du coup", "consecuencia", "entonces, por eso"],
+        ["au bout d'un moment", "tras un tiempo", "al cabo de un rato"],
+        ["bref", "resumen", "en resumen, en fin"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Du coup es muy informal y muy frecuente en el francés hablado; alors es un poco más neutro y sirve en cualquier registro."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "alors", "es": "entonces", "ipa": "/a.lɔʁ/", "esApprox": "«a-LOR»", "pos": "adverbio", "gender": null, "example": { "target": "J'ai raté le bus, alors je suis arrivé en retard.", "es": "Perdí el autobús, entonces llegué tarde." } },
+    { "id": "v2", "target": "du coup", "es": "por eso, así que (informal)", "ipa": "/dy ku/", "esApprox": "«dü KÚ»", "pos": "adverbio", "gender": null, "example": { "target": "Du coup, mon patron n'était pas content.", "es": "Por eso, mi jefe no estaba contento." } },
+    { "id": "v3", "target": "bref", "es": "en resumen, en fin", "ipa": "/bʁɛf/", "esApprox": "«BREF»", "pos": "adverbio", "gender": null, "example": { "target": "Bref, une mauvaise journée.", "es": "En resumen, un mal día." } },
+    { "id": "v4", "target": "au bout d'un moment", "es": "al cabo de un rato", "ipa": "/o bu dœ̃ mɔ.mɑ̃/", "esApprox": "«o BÚ dun mo-MAN»", "pos": "expresión", "gender": null, "example": { "target": "Au bout d'un moment, il est arrivé.", "es": "Al cabo de un rato, llegó." } },
+    { "id": "v5", "target": "rater", "es": "perder (un autobús, un tren), fallar", "ipa": "/ʁa.te/", "esApprox": "«ra-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai raté le bus.", "es": "Perdí el autobús." } },
+    { "id": "v6", "target": "en retard", "es": "tarde, con retraso", "ipa": "/ɑ̃ ʁə.taʁ/", "esApprox": "«an re-TAR»", "pos": "expresión", "gender": null, "example": { "target": "Je suis arrivé en retard.", "es": "Llegué tarde." } },
+    { "id": "v7", "target": "un patron / une patronne", "es": "un/a jefe/a", "ipa": "/œ̃ pa.tʁɔ̃/", "esApprox": "«un pa-TRÓN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Mon patron n'était pas content.", "es": "Mi jefe no estaba contento." } },
+    { "id": "v8", "target": "une mauvaise journée", "es": "un mal día", "ipa": "/yn mo.vɛz ʒuʁ.ne/", "esApprox": "«ün mo-VEZ yur-NÉ»", "pos": "expresión", "gender": null, "example": { "target": "Bref, une mauvaise journée.", "es": "En resumen, un mal día." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["conectores", "narracion"],
+      "difficulty": 2,
+      "prompt": "¿Qué conector indica consecuencia?",
+      "options": ["d'abord", "ensuite", "alors", "enfin"],
+      "answer": 2,
+      "explain": "Alors indica consecuencia: entonces."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "¿Qué conector resume o cierra un relato?",
+      "options": ["bref", "d'abord", "puis", "au bout d'un moment"],
+      "answer": 0,
+      "explain": "Bref = en resumen, en fin."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "statement": "Du coup es un conector muy informal, típico del francés hablado.",
+      "answer": true,
+      "explain": "Alors es más neutro; du coup es más informal."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "statement": "D'abord, ensuite y enfin marcan el orden de las acciones, no la consecuencia.",
+      "answer": true,
+      "explain": "Son conectores de orden, no de causa-efecto."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Une cada conector con su función",
+      "left": ["d'abord", "alors", "bref", "au bout d'un moment"],
+      "right": ["tras un tiempo", "orden: primero", "resumen", "consecuencia"],
+      "answer": [1, 3, 2, 0],
+      "explain": "D'abord (orden), alors (consecuencia), bref (resumen), au bout d'un moment (tras un tiempo)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["conectores", "narracion"],
+      "difficulty": 2,
+      "prompt": "Primero, perdí el autobús. Entonces, llegué tarde.",
+      "accept": ["D'abord, j'ai raté le bus. Alors, je suis arrivé en retard"],
+      "hintWords": ["d'abord, j'ai raté le bus", "alors, je suis arrivé en retard"],
+      "strictAccents": true,
+      "audio": "D'abord, j'ai raté le bus. Alors, je suis arrivé en retard.",
+      "explain": "D'abord (orden) + alors (consecuencia)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Por eso, mi jefe no estaba contento. En resumen, un mal día.",
+      "accept": ["Du coup, mon patron n'était pas content. Bref, une mauvaise journée"],
+      "hintWords": ["du coup, mon patron n'était pas content", "bref, une mauvaise journée"],
+      "strictAccents": true,
+      "audio": "Du coup, mon patron n'était pas content. Bref, une mauvaise journée.",
+      "explain": "Du coup (consecuencia informal) + bref (resumen)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Completa con el conector correcto",
+      "text": "___, il n'est pas arrivé. ___, je suis parti sans lui.",
+      "blanks": [{ "accept": ["Au bout d'un moment"] }, { "accept": ["Alors"] }],
+      "bank": ["Au bout d'un moment", "Alors", "Bref"],
+      "explain": "Au bout d'un moment (tras un tiempo) + alors (consecuencia)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Al cabo de un rato, llegó»",
+      "tokens": ["il est arrivé", "Au bout d'un moment,"],
+      "answer": ["Au bout d'un moment,", "il est arrivé"],
+      "audio": "Au bout d'un moment, il est arrivé.",
+      "explain": "Au bout d'un moment + il est arrivé."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["conectores", "narracion"],
+      "difficulty": 2,
+      "prompt": "D'abord, j'ai raté le bus, ensuite je suis arrivé en retard, et du coup mon patron n'était pas content. Bref, une mauvaise journée.",
+      "accept": ["Primero, perdí el autobús, luego llegué tarde, y por eso mi jefe no estaba contento. En resumen, un mal día."],
+      "strictAccents": false,
+      "audio": "D'abord, j'ai raté le bus, ensuite je suis arrivé en retard, et du coup mon patron n'était pas content. Bref, une mauvaise journée.",
+      "explain": "Cuatro conectores distintos en una narración completa."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["conectores", "narracion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu mal día",
+      "turns": [
+        { "who": "Léa", "text": "Alors, ta journée ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["D'abord, j'ai raté le bus, et du coup je suis arrivé en retard.", "Bref, une mauvaise journée."], "hint": "usa conectores para contar tu día" },
+        { "who": "Léa", "text": "Oh non, désolée !", "speak": true }
+      ],
+      "explain": "Alors, ta journée ? es una forma habitual de preguntar cómo fue el día."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "speak": "D'abord, j'ai raté le bus. Alors, je suis arrivé en retard. Bref, une mauvaise journée.",
+      "mode": "write",
+      "accept": ["D'abord, j'ai raté le bus. Alors, je suis arrivé en retard. Bref, une mauvaise journée"],
+      "showTextAfter": true,
+      "explain": "Tres conectores encadenados: orden, consecuencia, resumen."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["conectores"],
+      "difficulty": 1,
+      "speak": "du coup",
+      "mode": "choose",
+      "options": ["d'abord", "enfin", "du coup", "au bout d'un moment"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Du coup = por eso, así que."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["conectores", "narracion"],
+      "difficulty": 3,
+      "speak": "D'abord, j'ai raté le bus. Ensuite, je suis arrivé en retard. Du coup, mon patron n'était pas content. Bref, une mauvaise journée.",
+      "es": "Primero, perdí el autobús. Luego, llegué tarde. Por eso, mi jefe no estaba contento. En resumen, un mal día.",
+      "ipa": "/da.bɔʁ ʒe ʁa.te lə bys ɑ̃.sɥit ʒə sɥi.z‿a.ʁi.ve ɑ̃ ʁə.taʁ dy ku mɔ̃ pa.tʁɔ̃ nɛ.tɛ pa kɔ̃.tɑ̃ bʁɛf yn mo.vɛz ʒuʁ.ne/",
+      "esApprox": "«da-BOR ye ra-TÉ le BÜS an-SÜÍT ye süí-a-ri-VÉ an re-TAR dü KÚ mon pa-TRON ne-TE pa kon-TAN BREF ün mo-VEZ yur-NÉ»",
+      "focus": "Cuatro conectores distintos, contando un mal día de principio a fin.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["conectores", "narracion"],
+      "difficulty": 2,
+      "prompt": "Cuenta un mal día usando al menos tres conectores distintos.",
+      "modelAnswer": "D'abord, j'ai raté le bus. Alors, je suis arrivé en retard. Bref, une mauvaise journée.",
+      "alsoValid": ["Au bout d'un moment, tout s'est arrangé, et finalement c'était une bonne journée."],
+      "speak": "D'abord, j'ai raté le bus. Alors, je suis arrivé en retard. Bref, une mauvaise journée.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "¿Es un conector de orden, de consecuencia o de resumen?",
+      "buckets": ["Orden", "Consecuencia", "Resumen"],
+      "items": [
+        { "text": "d'abord", "bucket": 0 },
+        { "text": "alors", "bucket": 1 },
+        { "text": "bref", "bucket": 2 },
+        { "text": "ensuite", "bucket": 0 },
+        { "text": "du coup", "bucket": 1 }
+      ],
+      "explain": "Orden (d'abord, ensuite), consecuencia (alors, du coup), resumen (bref)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Hay un error de conector: bref no se usa para empezar una historia. Corrige la frase entera.",
+      "wrong": "Bref, j'ai raté le bus ce matin.",
+      "accept": ["D'abord, j'ai raté le bus ce matin"],
+      "audio": "D'abord, j'ai raté le bus ce matin.",
+      "explain": "Bref resume o cierra; d'abord se usa para empezar una narración."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "alors", "es": "entonces", "esApprox": "«a-LOR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "du coup", "es": "por eso, así que (informal)", "esApprox": "«dü KÚ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "bref", "es": "en resumen, en fin", "esApprox": "«BREF»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "au bout d'un moment", "es": "al cabo de un rato", "esApprox": "«o BÚ dun mo-MAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "rater", "es": "perder (un autobús, un tren), fallar", "esApprox": "«ra-TÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "D'abord, j'ai raté le bus. Alors, je suis arrivé en retard.", "es": "Primero, perdí el autobús. Entonces, llegué tarde.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Du coup, mon patron n'était pas content. Bref, une mauvaise journée.", "es": "Por eso, mi jefe no estaba contento. En resumen, un mal día.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Au bout d'un moment, il est arrivé.", "es": "Al cabo de un rato, llegó.", "from": "e9" }
+  ]
+}

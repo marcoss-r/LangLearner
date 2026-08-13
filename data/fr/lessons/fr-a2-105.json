@@ -1,0 +1,247 @@
+{
+  "id": "fr-a2-105",
+  "lang": "fr",
+  "level": "A2",
+  "order": 105,
+  "title": "Imparfait frente a passé composé III: casos que engañan a un hispanohablante",
+  "objectives": [
+    "Distinguir un sentimiento que cambia de golpe (passé composé) de un sentimiento que dura (imparfait)",
+    "Reconocer que una duración cerrada y contada, aunque sea larga, va en passé composé",
+    "Evitar el error más común de los hispanohablantes: usar imparfait solo porque en español «sonaría» a imperfecto"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Trampa 1: los sentimientos que cambian de golpe",
+      "body": "En español, con verbos de sentimiento solemos usar el imperfecto de forma automática («estaba triste»). En francés, si el sentimiento aparece de golpe en un momento concreto, se usa passé composé con devenir o avoir, no imparfait con être.",
+      "examples": [
+        { "target": "Quand j'ai vu le film, je suis devenu triste. (reacción puntual)", "es": "Cuando vi la película, me puse triste.", "note": "devenir en passé composé: cambio puntual" },
+        { "target": "J'étais triste toute la semaine. (estado continuo)", "es": "Estuve triste toda la semana.", "note": "être en imparfait: estado que dura" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Trampa 2: una duración larga también puede ir en passé composé"
+      ,
+      "items": [
+        { "wrong": "J'habitais à Paris pendant cinq ans. (con pendant + número, no es imparfait)", "right": "J'ai habité à Paris pendant cinq ans.", "why": "Cuando la duración está cerrada y contada con pendant + un número, el francés la trata como un bloque completo, en passé composé, aunque sea un periodo largo. El imparfait solo aparece sin ese límite marcado: j'habitais à Paris quand j'étais jeune." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No traduzcas mecánicamente el imperfecto español al imparfait francés: pregúntate si la acción tiene un límite claro (principio, final, o duración contada). Si lo tiene, casi seguro necesitas passé composé."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "devenir", "es": "convertirse en, ponerse (+ adjetivo)", "ipa": "/də.və.niʁ/", "esApprox": "«de-ve-NIR»", "pos": "verbo", "gender": null, "example": { "target": "Je suis devenu triste.", "es": "Me puse triste." } },
+    { "id": "v2", "target": "toute la semaine", "es": "toda la semana", "ipa": "/tut la sə.mɛn/", "esApprox": "«tut la se-MEN»", "pos": "expresión", "gender": null, "example": { "target": "J'étais fatigué toute la semaine.", "es": "Estuve cansado toda la semana." } },
+    { "id": "v3", "target": "habiter", "es": "vivir (en un lugar)", "ipa": "/a.bi.te/", "esApprox": "«a-bi-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai habité à Paris pendant cinq ans.", "es": "Viví en París durante cinco años." } },
+    { "id": "v4", "target": "vivre", "es": "vivir", "ipa": "/vivʁ/", "esApprox": "«VIVR»", "pos": "verbo", "gender": null, "example": { "target": "J'ai vécu en France pendant deux ans.", "es": "Viví en Francia durante dos años." } },
+    { "id": "v5", "target": "pendant + durée", "es": "durante + tiempo", "ipa": "/pɑ̃.dɑ̃/", "esApprox": "«pan-DAN»", "pos": "preposición", "gender": null, "example": { "target": "J'ai attendu pendant une heure.", "es": "Esperé durante una hora." } },
+    { "id": "v6", "target": "avoir peur", "es": "tener miedo", "ipa": "/a.vwaʁ pœʁ/", "esApprox": "«a-VUÁR PEUR»", "pos": "expresión", "gender": null, "example": { "target": "J'ai eu peur quand j'ai entendu ce bruit.", "es": "Tuve miedo cuando oí ese ruido." } },
+    { "id": "v7", "target": "un bruit", "es": "un ruido", "ipa": "/œ̃ bʁɥi/", "esApprox": "«un BRÜÍ»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai entendu un bruit bizarre.", "es": "Oí un ruido raro." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imparfait", "passe-compose", "contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me puse triste cuando vi la película» (reacción puntual)?",
+      "options": ["J'étais triste quand j'ai vu le film.", "Je suis devenu triste quand j'ai vu le film.", "Je devenais triste quand je voyais le film.", "J'ai été triste quand je voyais le film."],
+      "answer": 1,
+      "explain": "Devenir en passé composé: un cambio de sentimiento en un momento concreto."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta para «viví en París durante cinco años»?",
+      "options": ["J'habitais à Paris pendant cinq ans.", "J'ai habité à Paris pendant cinq ans.", "J'étais habité à Paris pendant cinq ans.", "J'habite à Paris pendant cinq ans."],
+      "answer": 1,
+      "explain": "Pendant + número = duración cerrada, va en passé composé."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "statement": "Una duración larga siempre va en imparfait, nunca en passé composé.",
+      "answer": false,
+      "explain": "Si la duración está cerrada y contada (pendant + número), va en passé composé, aunque sea larga."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "statement": "Un sentimiento que dura sin cambios (estado continuo) va en imparfait.",
+      "answer": true,
+      "explain": "J'étais triste toute la semaine: estado que dura, en imparfait."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Une cada frase con el tiempo correcto",
+      "left": ["J'ai eu peur.", "J'avais peur.", "J'ai habité à Paris pendant cinq ans.", "J'habitais à Paris quand j'étais jeune."],
+      "right": ["estado sin límite marcado (imparfait)", "reacción puntual (passé composé)", "duración cerrada y contada (passé composé)", "estado continuo (imparfait)"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Cada frase ilustra uno de los dos casos trampa de esta clase."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Cuando oí ese ruido, tuve miedo.",
+      "accept": ["Quand j'ai entendu ce bruit, j'ai eu peur"],
+      "hintWords": ["quand j'ai entendu ce bruit", "j'ai eu peur"],
+      "strictAccents": true,
+      "audio": "Quand j'ai entendu ce bruit, j'ai eu peur.",
+      "explain": "Avoir peur en passé composé: una reacción puntual."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Viví en Francia durante dos años, pero vivía en España cuando era pequeño.",
+      "accept": ["J'ai vécu en France pendant deux ans, mais j'habitais en Espagne quand j'étais petit"],
+      "hintWords": ["j'ai vécu en France pendant deux ans", "j'habitais en Espagne quand j'étais petit"],
+      "strictAccents": true,
+      "audio": "J'ai vécu en France pendant deux ans, mais j'habitais en Espagne quand j'étais petit.",
+      "explain": "Duración cerrada (passé composé) frente a fondo sin límite (imparfait)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Completa con el tiempo correcto",
+      "text": "J'___ (imparfait, être) fatigué toute la semaine, mais quand j'ai vu Léa, je ___ (passé composé, devenir) content tout de suite.",
+      "blanks": [{ "accept": ["étais"] }, { "accept": ["suis devenu"] }],
+      "bank": ["étais", "suis devenu", "deviens"],
+      "explain": "Étais (estado continuo) frente a suis devenu (cambio puntual)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Esperé durante una hora»",
+      "tokens": ["pendant une heure", "J'ai attendu"],
+      "answer": ["J'ai attendu", "pendant une heure"],
+      "audio": "J'ai attendu pendant une heure.",
+      "explain": "Pendant + número = duración cerrada, passé composé."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "J'ai habité à Lyon pendant trois ans, mais je n'y étais pas très heureux.",
+      "accept": ["Viví en Lyon durante tres años, pero no era muy feliz allí."],
+      "strictAccents": false,
+      "audio": "J'ai habité à Lyon pendant trois ans, mais je n'y étais pas très heureux.",
+      "explain": "Duración cerrada (passé composé) + estado continuo (imparfait)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu reacción",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu as ressenti quand tu as vu le film ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je suis devenu triste.", "J'ai eu peur."], "hint": "usa una reacción puntual en passé composé" },
+        { "who": "Léa", "text": "Ah, moi aussi !", "speak": true }
+      ],
+      "explain": "Una reacción puntual ante algo concreto se responde en passé composé."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "speak": "J'ai habité à Paris pendant cinq ans, et j'étais très content là-bas.",
+      "mode": "write",
+      "accept": ["J'ai habité à Paris pendant cinq ans, et j'étais très content là-bas"],
+      "showTextAfter": true,
+      "explain": "Duración cerrada (passé composé) + estado continuo (imparfait)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["contraste-pasados"],
+      "difficulty": 1,
+      "speak": "je suis devenu triste",
+      "mode": "choose",
+      "options": ["j'étais triste", "je suis devenu triste", "je deviens triste", "je devenais triste"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Je suis devenu triste = reacción puntual, en passé composé."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 3,
+      "speak": "J'étais fatigué toute la semaine, mais quand j'ai vu Léa, je suis devenu content tout de suite.",
+      "es": "Estuve cansado toda la semana, pero cuando vi a Léa, me puse contento enseguida.",
+      "ipa": "/ʒe.tɛ fa.ti.ɡe tut la sə.mɛn mɛ kɑ̃ ʒe vy le.a ʒə sɥi də.və.ny kɔ̃.tɑ̃ tu də sɥit/",
+      "esApprox": "«ye-TE fa-ti-GUÉ tut la se-MEN me kan ye VÜ LE-a ye süí de-ve-NÜ kon-TAN tu de SÜÍT»",
+      "focus": "Estado continuo (étais) frente a cambio puntual (suis devenu).",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Cuenta un estado que duró un tiempo, y una reacción puntual que tuviste.",
+      "modelAnswer": "J'étais fatigué toute la semaine, mais j'ai eu une bonne surprise vendredi.",
+      "alsoValid": ["J'ai habité à Lyon pendant deux ans, et j'étais content là-bas."],
+      "speak": "J'étais fatigué toute la semaine, mais j'ai eu une bonne surprise vendredi.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Es un estado continuo (imparfait) o una duración cerrada/reacción puntual (passé composé)?",
+      "buckets": ["Estado continuo", "Duración cerrada / reacción puntual"],
+      "items": [
+        { "text": "J'étais triste toute la semaine.", "bucket": 0 },
+        { "text": "Je suis devenu triste.", "bucket": 1 },
+        { "text": "J'habitais à Paris quand j'étais jeune.", "bucket": 0 },
+        { "text": "J'ai habité à Paris pendant cinq ans.", "bucket": 1 }
+      ],
+      "explain": "El límite marcado (pendant + número, cambio puntual) es la clave para elegir passé composé."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "J'habitais à Paris pendant cinq ans.",
+      "accept": ["J'ai habité à Paris pendant cinq ans"],
+      "audio": "J'ai habité à Paris pendant cinq ans.",
+      "explain": "Pendant + número marca una duración cerrada: va en passé composé, no en imparfait."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "devenir", "es": "convertirse en, ponerse (+ adjetivo)", "esApprox": "«de-ve-NIR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "habiter", "es": "vivir (en un lugar)", "esApprox": "«a-bi-TÉ»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "vivre", "es": "vivir", "esApprox": "«VIVR»", "from": "v4" },
+    { "id": "s4", "kind": "phrase", "target": "pendant + durée", "es": "durante + tiempo", "esApprox": "«pan-DAN»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "avoir peur", "es": "tener miedo", "esApprox": "«a-VUÁR PEUR»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "Quand j'ai entendu ce bruit, j'ai eu peur.", "es": "Cuando oí ese ruido, tuve miedo.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai vécu en France pendant deux ans, mais j'habitais en Espagne quand j'étais petit.", "es": "Viví en Francia durante dos años, pero vivía en España cuando era pequeño.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai attendu pendant une heure.", "es": "Esperé durante una hora.", "from": "e9" }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "fr-a2-104",
+  "lang": "fr",
+  "level": "A2",
+  "order": 104,
+  "title": "Imparfait frente a passé composé II: cuando los dos aparecen en la misma frase",
+  "objectives": [
+    "Usar quand + passé composé para interrumpir una escena en imparfait",
+    "Usar pendant que + imparfait + imparfait para dos acciones simultáneas de fondo",
+    "Combinar varias acciones puntuales (passé composé) sobre un mismo fondo (imparfait)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres patrones muy frecuentes",
+      "body": "Ahora que conoces los dos tiempos por separado (clase A2-103), practica los tres patrones más habituales para combinarlos en una misma frase.",
+      "examples": [
+        { "target": "Je dormais quand le téléphone a sonné.", "es": "Yo dormía cuando sonó el teléfono.", "note": "imparfait (fondo) + quand + passé composé (interrupción)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los tres patrones",
+      "headers": ["Patrón", "Ejemplo"],
+      "rows": [
+        ["Fondo interrumpido: imparfait + quand + passé composé", "Je lisais quand tu as appelé."],
+        ["Dos acciones simultáneas: pendant que + imparfait + imparfait", "Pendant que je cuisinais, elle mettait la table."],
+        ["Varias acciones sobre un mismo fondo", "Il faisait beau : les enfants jouaient, les parents parlaient, et un chien dormait."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En el patrón de interrupción, el orden de las dos partes puede cambiar: Le téléphone a sonné pendant que je dormais es igual de correcto que Je dormais quand le téléphone a sonné."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sonner", "es": "sonar (un teléfono, un timbre)", "ipa": "/sɔ.ne/", "esApprox": "«so-NÉ»", "pos": "verbo", "gender": null, "example": { "target": "Le téléphone a sonné.", "es": "Sonó el teléfono." } },
+    { "id": "v2", "target": "je lisais", "es": "yo leía", "ipa": "/ʒə li.zɛ/", "esApprox": "«ye li-ZE»", "pos": "verbo", "gender": null, "example": { "target": "Je lisais quand tu as appelé.", "es": "Yo leía cuando llamaste." } },
+    { "id": "v3", "target": "cuisiner", "es": "cocinar", "ipa": "/kɥi.zi.ne/", "esApprox": "«küí-zi-NÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je cuisinais quand elle est arrivée.", "es": "Yo cocinaba cuando ella llegó." } },
+    { "id": "v4", "target": "mettre la table", "es": "poner la mesa", "ipa": "/mɛtʁ la tabl/", "esApprox": "«METR la TABL»", "pos": "expresión", "gender": null, "example": { "target": "Elle mettait la table.", "es": "Ella ponía la mesa." } },
+    { "id": "v5", "target": "appeler", "es": "llamar (por teléfono)", "ipa": "/a.ple/", "esApprox": "«a-PLÉ»", "pos": "verbo", "gender": null, "example": { "target": "Tu as appelé pendant que je lisais.", "es": "Llamaste mientras yo leía." } },
+    { "id": "v6", "target": "au même moment", "es": "al mismo tiempo, en ese preciso momento", "ipa": "/o mɛm mɔ.mɑ̃/", "esApprox": "«o mem mo-MAN»", "pos": "expresión", "gender": null, "example": { "target": "Au même moment, quelqu'un a frappé à la porte.", "es": "En ese mismo momento, alguien llamó a la puerta." } },
+    { "id": "v7", "target": "frapper à la porte", "es": "llamar a la puerta", "ipa": "/fʁa.pe a la pɔʁt/", "esApprox": "«fra-PÉ a la PORT»", "pos": "expresión", "gender": null, "example": { "target": "Quelqu'un a frappé à la porte.", "es": "Alguien llamó a la puerta." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imparfait", "passe-compose", "contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «yo dormía cuando sonó el teléfono»?",
+      "options": ["J'ai dormi quand le téléphone sonnait.", "Je dormais quand le téléphone a sonné.", "Je dormais quand le téléphone sonnait.", "J'ai dormi quand le téléphone a sonné."],
+      "answer": 1,
+      "explain": "Imparfait (fondo) + quand + passé composé (interrupción)."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["imparfait", "contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Qué tiempo se usa en los dos verbos con pendant que para dos acciones simultáneas?",
+      "options": ["passé composé + passé composé", "imparfait + imparfait", "imparfait + passé composé", "presente + presente"],
+      "answer": 1,
+      "explain": "Pendant que je cuisinais, elle mettait la table: ambas en imparfait."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "statement": "El orden de las dos partes de una frase con quand puede cambiar sin cambiar el sentido.",
+      "answer": true,
+      "explain": "Je dormais quand le téléphone a sonné = Le téléphone a sonné pendant que je dormais."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "statement": "En un fondo de escena, se pueden añadir varias acciones puntuales distintas en passé composé.",
+      "answer": true,
+      "explain": "El fondo (imparfait) puede tener varias interrupciones (passé composé)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Une cada frase con su patrón",
+      "left": ["Je lisais quand tu as appelé.", "Pendant que je cuisinais, elle mettait la table.", "Il faisait beau, les enfants jouaient."],
+      "right": ["dos acciones simultáneas", "fondo interrumpido", "fondo sin interrupción"],
+      "answer": [1, 0, 2],
+      "explain": "Cada frase ilustra uno de los tres patrones de esta clase."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Yo leía cuando llamaste.",
+      "accept": ["Je lisais quand tu as appelé"],
+      "hintWords": ["je lisais", "quand tu as appelé"],
+      "strictAccents": true,
+      "audio": "Je lisais quand tu as appelé.",
+      "explain": "Lisais (fondo) + as appelé (interrupción)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Mientras yo cocinaba, ella ponía la mesa.",
+      "accept": ["Pendant que je cuisinais, elle mettait la table"],
+      "hintWords": ["pendant que je cuisinais", "elle mettait la table"],
+      "strictAccents": true,
+      "audio": "Pendant que je cuisinais, elle mettait la table.",
+      "explain": "Dos acciones simultáneas, ambas en imparfait."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Completa con el tiempo correcto",
+      "text": "Je ___ (imparfait, dormir) quand quelqu'un ___ (passé composé, frapper) à la porte.",
+      "blanks": [{ "accept": ["dormais"] }, { "accept": ["a frappé"] }],
+      "bank": ["dormais", "a frappé", "dors"],
+      "explain": "Dormais (fondo) + a frappé (interrupción puntual)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «En ese mismo momento, alguien llamó a la puerta»",
+      "tokens": ["quelqu'un a frappé à la porte", "Au même moment,"],
+      "answer": ["Au même moment,", "quelqu'un a frappé à la porte"],
+      "audio": "Au même moment, quelqu'un a frappé à la porte.",
+      "explain": "Au même moment + acción puntual en passé composé."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Il faisait beau : les enfants jouaient, les parents parlaient, et soudain il a commencé à pleuvoir.",
+      "accept": ["Hacía buen tiempo: los niños jugaban, los padres hablaban, y de repente empezó a llover."],
+      "strictAccents": false,
+      "audio": "Il faisait beau : les enfants jouaient, les parents parlaient, et soudain il a commencé à pleuvoir.",
+      "explain": "Un fondo con varias acciones simultáneas, interrumpido por una acción puntual."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre lo que hacías cuando pasó algo",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu faisais quand j'ai appelé ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je dormais.", "Je lisais un livre.", "Je cuisinais."], "hint": "responde con un verbo en imparfait" },
+        { "who": "Léa", "text": "Ah, désolée !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu faisais quand...? se responde con el fondo en imparfait."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "speak": "Je dormais quand le téléphone a sonné, et j'ai répondu tout de suite.",
+      "mode": "write",
+      "accept": ["Je dormais quand le téléphone a sonné, et j'ai répondu tout de suite"],
+      "showTextAfter": true,
+      "explain": "Fondo interrumpido, seguido de otra acción puntual."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["contraste-pasados"],
+      "difficulty": 1,
+      "speak": "pendant que je cuisinais",
+      "mode": "choose",
+      "options": ["quand j'ai cuisiné", "pendant que je cuisinais", "quand je cuisine", "pendant que j'ai cuisiné"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Pendant que + imparfait: acción simultánea de fondo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 3,
+      "speak": "Je lisais tranquillement quand le téléphone a sonné. Pendant que je répondais, quelqu'un a frappé à la porte.",
+      "es": "Yo leía tranquilamente cuando sonó el teléfono. Mientras yo respondía, alguien llamó a la puerta.",
+      "ipa": "/ʒə li.zɛ tʁɑ̃.kil.mɑ̃ kɑ̃ lə te.le.fɔn a sɔ.ne pɑ̃.dɑ̃ kə ʒə ʁe.pɔ̃.dɛ kɛl.kœ̃ a fʁa.pe a la pɔʁt/",
+      "esApprox": "«ye li-ZE tran-kil-MAN kan le te-le-FON a so-NÉ pan-DAN ke ye re-pon-DE kel-KUN a fra-PÉ a la PORT»",
+      "focus": "Dos interrupciones encadenadas sobre el mismo fondo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Cuenta qué hacías cuando pasó algo inesperado.",
+      "modelAnswer": "Je dormais quand le téléphone a sonné.",
+      "alsoValid": ["Je cuisinais quand quelqu'un a frappé à la porte."],
+      "speak": "Je dormais quand le téléphone a sonné.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Es el fondo (imparfait) o la interrupción (passé composé)?",
+      "buckets": ["Fondo", "Interrupción"],
+      "items": [
+        { "text": "je dormais", "bucket": 0 },
+        { "text": "le téléphone a sonné", "bucket": 1 },
+        { "text": "je lisais", "bucket": 0 },
+        { "text": "tu as appelé", "bucket": 1 }
+      ],
+      "explain": "El fondo describe; la interrupción cuenta la acción puntual."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "J'ai dormi quand le téléphone sonnait.",
+      "accept": ["Je dormais quand le téléphone a sonné"],
+      "audio": "Je dormais quand le téléphone a sonné.",
+      "explain": "El fondo va en imparfait; la interrupción puntual va en passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "sonner", "es": "sonar (un teléfono, un timbre)", "esApprox": "«so-NÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "je lisais", "es": "yo leía", "esApprox": "«ye li-ZE»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "cuisiner", "es": "cocinar", "esApprox": "«küí-zi-NÉ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "mettre la table", "es": "poner la mesa", "esApprox": "«METR la TABL»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "au même moment", "es": "al mismo tiempo, en ese preciso momento", "esApprox": "«o mem mo-MAN»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "Je lisais quand tu as appelé.", "es": "Yo leía cuando llamaste.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Pendant que je cuisinais, elle mettait la table.", "es": "Mientras yo cocinaba, ella ponía la mesa.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Au même moment, quelqu'un a frappé à la porte.", "es": "En ese mismo momento, alguien llamó a la puerta.", "from": "e9" }
+  ]
+}

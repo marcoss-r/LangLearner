@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-102",
+  "lang": "fr",
+  "level": "A2",
+  "order": 102,
+  "title": "El imparfait: para qué se usa (descripciones y fondo de la escena)",
+  "objectives": [
+    "Usar el imparfait para describir personas, lugares y el tiempo en pasado",
+    "Usar el imparfait para hábitos y acciones repetidas en el pasado",
+    "Usar el imparfait para el «fondo» de una historia: lo que pasaba de forma continua"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres usos principales del imparfait",
+      "body": "El imparfait (clase A2-101) no cuenta acciones puntuales, sino cómo eran las cosas: descripciones, hábitos, y el fondo de una escena. No tiene un principio ni un final marcados, a diferencia del passé composé (que verás en contraste en la clase A2-103).",
+      "examples": [
+        { "target": "Il était grand, il avait les cheveux longs, et il portait toujours un chapeau.", "es": "Era alto, tenía el pelo largo, y siempre llevaba un sombrero.", "note": "descripción física en imparfait" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los tres usos del imparfait",
+      "headers": ["Uso", "Ejemplo"],
+      "rows": [
+        ["Describir personas/lugares", "Elle était petite et souriante."],
+        ["Describir el tiempo", "Il faisait froid et il pleuvait."],
+        ["Hábitos en el pasado", "Je jouais au foot tous les samedis."],
+        ["Fondo de una historia", "Il était sept heures, la ville dormait encore."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Una buena señal para saber si necesitas imparfait: si puedes decir «solía...» o «siempre...» en español, casi seguro que en francés va en imparfait."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il était / elle était", "es": "él era / ella era", "ipa": "/il e.tɛ ɛl e.tɛ/", "esApprox": "«il e-TE el e-TE»", "pos": "verbo", "gender": null, "example": { "target": "Il était grand et souriant.", "es": "Era alto y sonriente." } },
+    { "id": "v2", "target": "souriant / souriante", "es": "sonriente", "ipa": "/su.ʁjɑ̃ su.ʁjɑ̃t/", "esApprox": "«su-RIAN su-RIANT»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Elle était toujours souriante.", "es": "Ella siempre estaba sonriente." } },
+    { "id": "v3", "target": "il pleuvait", "es": "llovía", "ipa": "/il plœ.vɛ/", "esApprox": "«il pleu-VE»", "pos": "verbo", "gender": null, "example": { "target": "Il pleuvait ce jour-là.", "es": "Llovía ese día." } },
+    { "id": "v4", "target": "il neigeait", "es": "nevaba", "ipa": "/il nɛ.ʒɛ/", "esApprox": "«il ne-ZHE»", "pos": "verbo", "gender": null, "example": { "target": "Il neigeait en hiver.", "es": "Nevaba en invierno." } },
+    { "id": "v5", "target": "je jouais", "es": "yo jugaba", "ipa": "/ʒə ʒu.ɛ/", "esApprox": "«ye yu-E»", "pos": "verbo", "gender": null, "example": { "target": "Je jouais au foot tous les samedis.", "es": "Jugaba al fútbol todos los sábados." } },
+    { "id": "v6", "target": "porter", "es": "llevar (puesto)", "ipa": "/pɔʁ.te/", "esApprox": "«por-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Il portait toujours un chapeau.", "es": "Siempre llevaba un sombrero." } },
+    { "id": "v7", "target": "un chapeau", "es": "un sombrero", "ipa": "/œ̃ ʃa.po/", "esApprox": "«un sha-PÓ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Elle avait un chapeau rouge.", "es": "Tenía un sombrero rojo." } },
+    { "id": "v8", "target": "dormir", "es": "dormir", "ipa": "/dɔʁ.miʁ/", "esApprox": "«dor-MIR»", "pos": "verbo", "gender": null, "example": { "target": "La ville dormait encore.", "es": "La ciudad todavía dormía." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "¿Qué tiempo se usa para describir cómo era una persona en el pasado?",
+      "options": ["passé composé", "imparfait", "futuro próximo", "presente"],
+      "answer": 1,
+      "explain": "El imparfait se usa para descripciones."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «jugaba al fútbol todos los sábados» (hábito)?",
+      "options": ["J'ai joué au foot tous les samedis.", "Je jouais au foot tous les samedis.", "Je vais jouer au foot tous les samedis.", "Je joue au foot tous les samedis."],
+      "answer": 1,
+      "explain": "Un hábito repetido en el pasado va en imparfait."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "statement": "El imparfait se usa para describir el tiempo meteorológico en el pasado.",
+      "answer": true,
+      "explain": "Il pleuvait, il faisait froid: descripciones del tiempo en imparfait."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "statement": "Si en español puedes decir «solía + infinitivo», en francés casi seguro va en imparfait.",
+      "answer": true,
+      "explain": "Es una buena señal para reconocer cuándo usar el imparfait."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Une cada frase con su uso del imparfait",
+      "left": ["Il était grand.", "Il pleuvait.", "Je jouais au foot.", "La ville dormait."],
+      "right": ["fondo de una historia", "hábito", "descripción física", "descripción del tiempo"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Descripción física, del tiempo, hábito, y fondo de una escena."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Era alto, tenía el pelo largo, y siempre llevaba un sombrero.",
+      "accept": ["Il était grand, il avait les cheveux longs, et il portait toujours un chapeau"],
+      "hintWords": ["il était grand", "il avait les cheveux longs", "il portait toujours un chapeau"],
+      "strictAccents": true,
+      "audio": "Il était grand, il avait les cheveux longs, et il portait toujours un chapeau.",
+      "explain": "Tres descripciones seguidas en imparfait."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Llovía y nevaba mucho ese invierno.",
+      "accept": ["Il pleuvait et il neigeait beaucoup cet hiver-là"],
+      "hintWords": ["il pleuvait et il neigeait beaucoup"],
+      "strictAccents": true,
+      "audio": "Il pleuvait et il neigeait beaucoup cet hiver-là.",
+      "explain": "Pleuvait y neigeait: descripción del tiempo en imparfait."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Completa con el imparfait correcto",
+      "text": "Elle était toujours ___, et elle ___ un chapeau rouge.",
+      "blanks": [{ "accept": ["souriante"] }, { "accept": ["portait"] }],
+      "bank": ["souriante", "portait", "porte"],
+      "explain": "Souriante (adjetivo) + portait (imparfait de porter)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La ciudad todavía dormía»",
+      "tokens": ["encore", "dormait", "La ville"],
+      "answer": ["La ville", "dormait", "encore"],
+      "audio": "La ville dormait encore.",
+      "explain": "La ville + dormait + encore."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Il était sept heures, la ville dormait encore, et il pleuvait doucement.",
+      "accept": ["Eran las siete, la ciudad todavía dormía, y llovía suavemente."],
+      "strictAccents": false,
+      "audio": "Il était sept heures, la ville dormait encore, et il pleuvait doucement.",
+      "explain": "El fondo de una escena: hora, ciudad, tiempo, todo en imparfait."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación describiendo a alguien",
+      "turns": [
+        { "who": "Léa", "text": "Il était comment, ton premier professeur ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il était grand et souriant.", "Elle était petite et gentille."], "hint": "describe con imparfait" },
+        { "who": "Léa", "text": "Ah, sympa !", "speak": true }
+      ],
+      "explain": "Il était comment...? se responde con una descripción en imparfait."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "speak": "Il faisait froid, il pleuvait, et je jouais au foot quand même.",
+      "mode": "write",
+      "accept": ["Il faisait froid, il pleuvait, et je jouais au foot quand même"],
+      "showTextAfter": true,
+      "explain": "Descripción del tiempo + hábito, ambos en imparfait."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["imparfait"],
+      "difficulty": 1,
+      "speak": "il pleuvait",
+      "mode": "choose",
+      "options": ["il a plu", "il pleuvait", "il pleut", "il va pleuvoir"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Il pleuvait = llovía (imparfait, descripción)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["imparfait"],
+      "difficulty": 3,
+      "speak": "Il était sept heures, il pleuvait, la ville dormait encore, et je jouais tout seul dans la rue.",
+      "es": "Eran las siete, llovía, la ciudad todavía dormía, y yo jugaba solo en la calle.",
+      "ipa": "/il e.tɛ sɛ.t‿œʁ il plœ.vɛ la vil dɔʁ.mɛ ɑ̃.kɔʁ e ʒə ʒu.ɛ tu sœl dɑ̃ la ʁy/",
+      "esApprox": "«il e-TE se-TEUR il pleu-VE la VIL dor-ME an-KOR e ye yu-E tu SEUL dan la RÜ»",
+      "focus": "El fondo completo de una escena, con cuatro imparfaits.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Describe cómo era tu escuela y qué hacías allí, usando imparfait.",
+      "modelAnswer": "Mon école était petite, et je jouais au foot tous les jours.",
+      "alsoValid": ["Il faisait toujours froid en hiver, et j'allais à l'école à pied."],
+      "speak": "Mon école était petite, et je jouais au foot tous les jours.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "¿Qué uso del imparfait es este?",
+      "buckets": ["Descripción", "Hábito"],
+      "items": [
+        { "text": "Il était grand.", "bucket": 0 },
+        { "text": "Je jouais au foot tous les samedis.", "bucket": 1 },
+        { "text": "Il pleuvait.", "bucket": 0 },
+        { "text": "Nous allions à la piscine chaque été.", "bucket": 1 }
+      ],
+      "explain": "Descripciones frente a hábitos repetidos, los dos usos principales del imparfait."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "Quand j'étais petit, j'ai joué au foot tous les samedis.",
+      "accept": ["Quand j'étais petit, je jouais au foot tous les samedis"],
+      "audio": "Quand j'étais petit, je jouais au foot tous les samedis.",
+      "explain": "Un hábito repetido en el pasado va en imparfait, no en passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "il était / elle était", "es": "él era / ella era", "esApprox": "«il e-TE el e-TE»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "il pleuvait", "es": "llovía", "esApprox": "«il pleu-VE»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "il neigeait", "es": "nevaba", "esApprox": "«il ne-ZHE»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "je jouais", "es": "yo jugaba", "esApprox": "«ye yu-E»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "porter", "es": "llevar (puesto)", "esApprox": "«por-TÉ»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "Il était grand, il avait les cheveux longs, et il portait toujours un chapeau.", "es": "Era alto, tenía el pelo largo, y siempre llevaba un sombrero.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Il pleuvait et il neigeait beaucoup cet hiver-là.", "es": "Llovía y nevaba mucho ese invierno.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Il était sept heures, la ville dormait encore, et il pleuvait doucement.", "es": "Eran las siete, la ciudad todavía dormía, y llovía suavemente.", "from": "e10" }
+  ]
+}

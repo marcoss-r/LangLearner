@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-107",
+  "lang": "fr",
+  "level": "A2",
+  "order": 107,
+  "title": "Hábitos de cuando eras niño: hablar de \"solía\"",
+  "objectives": [
+    "Hablar de hábitos de la infancia con el imparfait (clases A2-101 a A2-102)",
+    "Usar avant/maintenant para contrastar el pasado con el presente",
+    "Usar avoir l'habitude de + infinitivo para hablar de costumbres"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "«Solía» en francés",
+      "body": "El español tiene la expresión «solía + infinitivo» para hábitos del pasado. En francés, ese matiz lo da directamente el imparfait, sin necesidad de una palabra especial: je jouais dehors tous les jours ya significa «solía jugar fuera todos los días».",
+      "examples": [
+        { "target": "Avant, je jouais dehors tous les jours ; maintenant, je reste à la maison.", "es": "Antes, solía jugar fuera todos los días; ahora, me quedo en casa.", "note": "avant + imparfait frente a maintenant + presente" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Contrastar antes y ahora",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["avant / maintenant", "antes / ahora"],
+        ["à l'époque", "en esa época"],
+        ["avoir l'habitude de + infinitif", "tener la costumbre de, soler"],
+        ["ce n'est plus pareil", "ya no es lo mismo"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Avoir l'habitude de es otra forma de decir «soler», pero más explícita que el simple imparfait: j'avais l'habitude de jouer dehors (tenía la costumbre de jugar fuera) suena un poco más formal que je jouais dehors."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "avant", "es": "antes", "ipa": "/a.vɑ̃/", "esApprox": "«a-VAN»", "pos": "adverbio", "gender": null, "example": { "target": "Avant, je jouais dehors tous les jours.", "es": "Antes, solía jugar fuera todos los días." } },
+    { "id": "v2", "target": "à l'époque", "es": "en esa época", "ipa": "/a le.pɔk/", "esApprox": "«a le-POK»", "pos": "expresión", "gender": null, "example": { "target": "À l'époque, je n'avais pas de téléphone.", "es": "En esa época, no tenía teléfono." } },
+    { "id": "v3", "target": "avoir l'habitude de", "es": "tener la costumbre de, soler", "ipa": "/a.vwaʁ la.bi.tyd də/", "esApprox": "«a-VUÁR la-bi-TÜD de»", "pos": "expresión", "gender": null, "example": { "target": "J'avais l'habitude de jouer dehors.", "es": "Solía jugar fuera." } },
+    { "id": "v4", "target": "ce n'est plus pareil", "es": "ya no es lo mismo", "ipa": "/sə nɛ ply pa.ʁɛj/", "esApprox": "«se ne plü pa-REY»", "pos": "expresión", "gender": null, "example": { "target": "Ce n'est plus pareil aujourd'hui.", "es": "Ya no es lo mismo hoy." } },
+    { "id": "v5", "target": "dehors", "es": "fuera, al aire libre", "ipa": "/də.ɔʁ/", "esApprox": "«de-ÓR»", "pos": "adverbio", "gender": null, "example": { "target": "Je jouais dehors avec mes voisins.", "es": "Jugaba fuera con mis vecinos." } },
+    { "id": "v6", "target": "un voisin / une voisine", "es": "un/a vecino/a", "ipa": "/œ̃ vwa.zɛ̃/", "esApprox": "«un vuá-ZEN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je jouais avec mes voisins.", "es": "Jugaba con mis vecinos." } },
+    { "id": "v7", "target": "maintenant", "es": "ahora", "ipa": "/mɛ̃t.nɑ̃/", "esApprox": "«ment-NAN»", "pos": "adverbio", "gender": null, "example": { "target": "Maintenant, je reste à la maison.", "es": "Ahora, me quedo en casa." } },
+    { "id": "v8", "target": "un téléphone", "es": "un teléfono", "ipa": "/œ̃ te.le.fɔn/", "esApprox": "«un te-le-FON»", "pos": "sustantivo", "gender": "m", "example": { "target": "À l'époque, je n'avais pas de téléphone.", "es": "En esa época, no tenía teléfono." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imparfait", "habitos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «solía jugar fuera todos los días»?",
+      "options": ["J'ai joué dehors tous les jours.", "Je jouais dehors tous les jours.", "Je vais jouer dehors tous les jours.", "Je joue dehors tous les jours."],
+      "answer": 1,
+      "explain": "El imparfait ya expresa el matiz de «solía»."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["habitos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «tenía la costumbre de jugar fuera»?",
+      "options": ["J'ai l'habitude de jouer dehors.", "J'avais l'habitude de jouer dehors.", "J'ai eu l'habitude de jouer dehors.", "J'allais l'habitude de jouer dehors."],
+      "answer": 1,
+      "explain": "Avoir l'habitude de en imparfait: j'avais l'habitude de."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["imparfait", "habitos"],
+      "difficulty": 2,
+      "statement": "El francés no necesita una palabra especial para decir «solía»: el imparfait ya lo expresa.",
+      "answer": true,
+      "explain": "Je jouais dehors ya significa «solía jugar fuera»."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["habitos"],
+      "difficulty": 2,
+      "statement": "Avant se usa con imparfait, y maintenant se usa con presente, para contrastar hábitos.",
+      "answer": true,
+      "explain": "Avant + imparfait frente a maintenant + presente."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["habitos"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["avant", "à l'époque", "dehors", "un voisin"],
+      "right": ["un vecino", "antes", "fuera", "en esa época"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Avant = antes, à l'époque = en esa época, dehors = fuera, voisin = vecino."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["imparfait", "habitos"],
+      "difficulty": 2,
+      "prompt": "Antes, solía jugar fuera todos los días; ahora, me quedo en casa.",
+      "accept": ["Avant, je jouais dehors tous les jours ; maintenant, je reste à la maison"],
+      "hintWords": ["avant, je jouais dehors tous les jours", "maintenant, je reste à la maison"],
+      "strictAccents": true,
+      "audio": "Avant, je jouais dehors tous les jours ; maintenant, je reste à la maison.",
+      "explain": "Avant + imparfait frente a maintenant + presente."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["habitos"],
+      "difficulty": 2,
+      "prompt": "En esa época, no tenía teléfono, y jugaba con mis vecinos.",
+      "accept": ["À l'époque, je n'avais pas de téléphone, et je jouais avec mes voisins"],
+      "hintWords": ["à l'époque, je n'avais pas de téléphone", "je jouais avec mes voisins"],
+      "strictAccents": true,
+      "audio": "À l'époque, je n'avais pas de téléphone, et je jouais avec mes voisins.",
+      "explain": "À l'époque + dos imparfaits."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["habitos"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "J'___ l'habitude de jouer dehors avec mes voisins.",
+      "blanks": [{ "accept": ["avais"] }],
+      "bank": ["avais", "ai", "aurai"],
+      "explain": "J'avais l'habitude de: imparfait de avoir l'habitude de."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["habitos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Ya no es lo mismo hoy»",
+      "tokens": ["aujourd'hui", "Ce n'est plus pareil"],
+      "answer": ["Ce n'est plus pareil", "aujourd'hui"],
+      "audio": "Ce n'est plus pareil aujourd'hui.",
+      "explain": "Ce n'est plus pareil + aujourd'hui."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["imparfait", "habitos"],
+      "difficulty": 2,
+      "prompt": "Avant, j'avais l'habitude de jouer dehors avec mes voisins ; maintenant, ce n'est plus pareil.",
+      "accept": ["Antes, solía jugar fuera con mis vecinos; ahora, ya no es lo mismo."],
+      "strictAccents": false,
+      "audio": "Avant, j'avais l'habitude de jouer dehors avec mes voisins ; maintenant, ce n'est plus pareil.",
+      "explain": "Contraste completo entre el hábito pasado y el presente."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["habitos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus hábitos de infancia",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu faisais dehors, à l'époque ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je jouais avec mes voisins.", "J'avais l'habitude de jouer au foot."], "hint": "usa el imparfait para un hábito" },
+        { "who": "Léa", "text": "Ah, moi aussi !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu faisais...? se responde con un hábito en imparfait."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["imparfait", "habitos"],
+      "difficulty": 2,
+      "speak": "Avant, je jouais dehors avec mes voisins tous les jours ; maintenant, je reste à la maison.",
+      "mode": "write",
+      "accept": ["Avant, je jouais dehors avec mes voisins tous les jours ; maintenant, je reste à la maison"],
+      "showTextAfter": true,
+      "explain": "Contraste avant/maintenant, imparfait/presente."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["habitos"],
+      "difficulty": 1,
+      "speak": "à l'époque",
+      "mode": "choose",
+      "options": ["maintenant", "à l'époque", "bientôt", "demain"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "À l'époque = en esa época."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["imparfait", "habitos"],
+      "difficulty": 3,
+      "speak": "À l'époque, j'avais l'habitude de jouer dehors avec mes voisins tous les jours ; aujourd'hui, ce n'est plus pareil.",
+      "es": "En esa época, solía jugar fuera con mis vecinos todos los días; hoy, ya no es lo mismo.",
+      "ipa": "/a le.pɔk ʒa.vɛ la.bi.tyd də ʒu.e də.ɔʁ a.vɛk me vwa.zɛ̃ tu le ʒuʁ o.ʒuʁ.dɥi sə nɛ ply pa.ʁɛj/",
+      "esApprox": "«a le-POK ya-VE la-bi-TÜD de yu-É de-ÓR a-VEK me vuá-ZEN tu le YUR o-yur-DÜÍ se ne plü pa-REY»",
+      "focus": "Hábito completo con avoir l'habitude de, contrastado con el presente.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["imparfait", "habitos"],
+      "difficulty": 2,
+      "prompt": "Cuenta un hábito de tu infancia y contrástalo con ahora.",
+      "modelAnswer": "Avant, je jouais dehors tous les jours ; maintenant, je reste à la maison.",
+      "alsoValid": ["J'avais l'habitude de lire beaucoup, mais ce n'est plus pareil."],
+      "speak": "Avant, je jouais dehors tous les jours ; maintenant, je reste à la maison.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["habitos"],
+      "difficulty": 2,
+      "prompt": "¿Es del pasado o del presente?",
+      "buckets": ["Pasado", "Presente"],
+      "items": [
+        { "text": "avant", "bucket": 0 },
+        { "text": "maintenant", "bucket": 1 },
+        { "text": "à l'époque", "bucket": 0 },
+        { "text": "aujourd'hui", "bucket": 1 }
+      ],
+      "explain": "Avant/à l'époque son del pasado; maintenant/aujourd'hui son del presente."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["imparfait", "habitos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "Avant, j'ai joué dehors tous les jours.",
+      "accept": ["Avant, je jouais dehors tous les jours"],
+      "audio": "Avant, je jouais dehors tous les jours.",
+      "explain": "Un hábito repetido en el pasado va en imparfait, no en passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "avant", "es": "antes", "esApprox": "«a-VAN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "à l'époque", "es": "en esa época", "esApprox": "«a le-POK»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "avoir l'habitude de", "es": "tener la costumbre de, soler", "esApprox": "«a-VUÁR la-bi-TÜD de»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "ce n'est plus pareil", "es": "ya no es lo mismo", "esApprox": "«se ne plü pa-REY»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "dehors", "es": "fuera, al aire libre", "esApprox": "«de-ÓR»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Avant, je jouais dehors tous les jours ; maintenant, je reste à la maison.", "es": "Antes, solía jugar fuera todos los días; ahora, me quedo en casa.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "À l'époque, je n'avais pas de téléphone, et je jouais avec mes voisins.", "es": "En esa época, no tenía teléfono, y jugaba con mis vecinos.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Ce n'est plus pareil aujourd'hui.", "es": "Ya no es lo mismo hoy.", "from": "e9" }
+  ]
+}
