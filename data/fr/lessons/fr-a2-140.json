@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-140",
+  "lang": "fr",
+  "level": "A2",
+  "order": 140,
+  "title": "Las redes sociales",
+  "objectives": [
+    "Aprender vocabulario de las redes sociales",
+    "Hablar de hábitos y opiniones sobre las redes sociales",
+    "Practicar frases sobre publicar, comentar y compartir contenido"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar de las redes sociales",
+      "body": "Sin gramática nueva. Vocabulario para hablar de lo que haces en las redes: publier, partager, un abonné, suivre quelqu'un.",
+      "examples": [
+        { "target": "Je publie une photo par jour, et j'aimerais avoir plus d'abonnés.", "es": "Publico una foto al día, y me gustaría tener más seguidores.", "note": "presente habitual + condicional de deseo (clase A2-131)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de las redes sociales",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["publier", "publicar"],
+        ["partager", "compartir"],
+        ["un abonné / une abonnée", "un seguidor / una seguidora"],
+        ["suivre quelqu'un", "seguir a alguien"],
+        ["un commentaire", "un comentario"],
+        ["aimer / mettre un j'aime", "dar like"],
+        ["un réseau social", "una red social"],
+        ["passer trop de temps sur", "pasar demasiado tiempo en"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Suivre, un verbo irregular útil",
+      "body": "Suivre (seguir) se conjuga je suis, tu suis, il suit, nous suivons, vous suivez, ils suivent. Ojo: je suis también significa «yo soy/estoy» (être); el contexto aclara cuál es."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "publier", "es": "publicar", "ipa": "/py.bli.je/", "esApprox": "«pü-bli-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je publie une photo par jour.", "es": "Publico una foto al día." } },
+    { "id": "v2", "target": "partager", "es": "compartir", "ipa": "/paʁ.ta.ʒe/", "esApprox": "«par-ta-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai partagé cette vidéo avec mes amis.", "es": "Compartí este vídeo con mis amigos." } },
+    { "id": "v3", "target": "un abonné / une abonnée", "es": "un seguidor / una seguidora", "ipa": "/œ̃ na.bɔ.ne yn a.bɔ.ne/", "esApprox": "«un-na-bo-NÉ ün a-bo-NÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'aimerais avoir plus d'abonnés.", "es": "Me gustaría tener más seguidores." } },
+    { "id": "v4", "target": "suivre quelqu'un", "es": "seguir a alguien", "ipa": "/sɥivʁ kɛl.kœ̃/", "esApprox": "«SÜÍVR kel-KUN»", "pos": "expresión", "gender": null, "example": { "target": "Je suis mon actrice préférée.", "es": "Sigo a mi actriz favorita." } },
+    { "id": "v5", "target": "un commentaire", "es": "un comentario", "ipa": "/œ̃ kɔ.mɑ̃.tɛʁ/", "esApprox": "«un ko-man-TER»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai lu tous les commentaires.", "es": "Leí todos los comentarios." } },
+    { "id": "v6", "target": "mettre un j'aime", "es": "dar like", "ipa": "/mɛtʁ œ̃ ʒɛm/", "esApprox": "«METR un YEM»", "pos": "expresión", "gender": null, "example": { "target": "J'ai mis un j'aime sur ta photo.", "es": "Le di like a tu foto." } },
+    { "id": "v7", "target": "un réseau social", "es": "una red social", "ipa": "/œ̃ ʁe.zo sɔ.sjal/", "esApprox": "«un re-ZÓ so-SIAL»", "pos": "sustantivo", "gender": "m", "example": { "target": "Quel réseau social tu préfères ?", "es": "¿Qué red social prefieres?" } },
+    { "id": "v8", "target": "passer trop de temps sur", "es": "pasar demasiado tiempo en", "ipa": "/pɑ.se tʁo də tɑ̃ syʁ/", "esApprox": "«pa-SÉ tro de TAN sür»", "pos": "expresión", "gender": null, "example": { "target": "Je passe trop de temps sur les réseaux sociaux.", "es": "Paso demasiado tiempo en las redes sociales." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me gustaría tener más seguidores»?",
+      "options": ["J'ai plus d'abonnés.", "J'aimerais avoir plus d'abonnés.", "Je suis plus d'abonnés.", "J'aime plus d'abonnés."],
+      "answer": 1,
+      "explain": "J'aimerais avoir (condicional de deseo, clase A2-131) + un abonné."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «suivre quelqu'un» en redes sociales?",
+      "options": ["comentar a alguien", "seguir a alguien", "compartir con alguien", "bloquear a alguien"],
+      "answer": 1,
+      "explain": "Suivre quelqu'un = seguir a alguien."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "statement": "Mettre un j'aime significa dar like.",
+      "answer": true,
+      "explain": "Mettre un j'aime = dar like."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "statement": "Un abonné y un commentaire significan lo mismo.",
+      "answer": false,
+      "explain": "Un abonné = un seguidor; un commentaire = un comentario. Son distintos."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["publier", "partager", "un commentaire", "un réseau social"],
+      "right": ["una red social", "publicar", "un comentario", "compartir"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Publier = publicar, partager = compartir, commentaire = comentario, réseau social = red social."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "Publico una foto al día, y me gustaría tener más seguidores.",
+      "accept": ["Je publie une photo par jour, et j'aimerais avoir plus d'abonnés"],
+      "hintWords": ["je publie une photo par jour", "j'aimerais avoir plus d'abonnés"],
+      "strictAccents": true,
+      "audio": "Je publie une photo par jour, et j'aimerais avoir plus d'abonnés.",
+      "explain": "Presente habitual + condicional de deseo (clase A2-131)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "Compartí este vídeo con mis amigos, y leí todos los comentarios.",
+      "accept": ["J'ai partagé cette vidéo avec mes amis, et j'ai lu tous les commentaires"],
+      "hintWords": ["j'ai partagé cette vidéo avec mes amis", "j'ai lu tous les commentaires"],
+      "strictAccents": true,
+      "audio": "J'ai partagé cette vidéo avec mes amis, et j'ai lu tous les commentaires.",
+      "explain": "Partager + lire, ambos en passé composé."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Je ___ mon actrice préférée, et j'ai mis un ___ sur sa photo.",
+      "blanks": [{ "accept": ["suis"] }, { "accept": ["j'aime"] }],
+      "bank": ["suis", "j'aime", "partage"],
+      "explain": "Suivre quelqu'un + mettre un j'aime."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Paso demasiado tiempo en las redes sociales»",
+      "tokens": ["sur les réseaux sociaux", "Je passe trop de temps"],
+      "answer": ["Je passe trop de temps", "sur les réseaux sociaux"],
+      "audio": "Je passe trop de temps sur les réseaux sociaux.",
+      "explain": "Je passe trop de temps sur + les réseaux sociaux."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "Je passe trop de temps sur les réseaux sociaux, je devrais publier moins et lire plus.",
+      "accept": ["Paso demasiado tiempo en las redes sociales, debería publicar menos y leer más."],
+      "strictAccents": false,
+      "audio": "Je passe trop de temps sur les réseaux sociaux, je devrais publier moins et lire plus.",
+      "explain": "Passer trop de temps sur + je devrais (consejo a uno mismo, clase A2-133)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre redes sociales",
+      "turns": [
+        { "who": "Léa", "text": "Quel réseau social tu préfères ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je préfère celui où je peux partager des photos.", "J'aime bien suivre mes amis là-bas."], "hint": "usa partager o suivre" },
+        { "who": "Léa", "text": "Ah, moi aussi, j'adore ça !", "speak": true }
+      ],
+      "explain": "Quel réseau social...? se responde con tus preferencias."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "speak": "Je publie une photo par jour, j'ai plus de mille abonnés, et je passe trop de temps sur les réseaux sociaux.",
+      "mode": "write",
+      "accept": ["Je publie une photo par jour, j'ai plus de mille abonnés, et je passe trop de temps sur les réseaux sociaux"],
+      "showTextAfter": true,
+      "explain": "Frase completa típica sobre el uso de las redes."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["redes-sociales"],
+      "difficulty": 1,
+      "speak": "un abonné",
+      "mode": "choose",
+      "options": ["un commentaire", "un abonné", "un réseau social", "un j'aime"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un abonné = un seguidor."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["redes-sociales"],
+      "difficulty": 3,
+      "speak": "Je publie une photo par jour, je lis les commentaires, et je passe trop de temps sur les réseaux sociaux.",
+      "es": "Publico una foto al día, leo los comentarios, y paso demasiado tiempo en las redes sociales.",
+      "ipa": "/ʒə py.bli yn fɔ.to paʁ ʒuʁ ʒə li le kɔ.mɑ̃.tɛʁ e ʒə pɑs tʁo də tɑ̃ syʁ le ʁe.zo sɔ.sjo/",
+      "esApprox": "«ye pü-BLÍ ün fo-TO par YUR ye LI le ko-man-TER e ye PAS tro de TAN sür le re-ZÓ so-SIÓ»",
+      "focus": "Hábitos cotidianos en las redes sociales, en presente.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "Habla de tus hábitos en las redes sociales: qué publicas, a quién sigues.",
+      "modelAnswer": "Je publie une photo par semaine, et je suis mes amis et ma famille.",
+      "alsoValid": ["Je passe trop de temps sur les réseaux sociaux."],
+      "speak": "Je publie une photo par semaine, et je suis mes amis et ma famille.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "¿Es una acción o una persona/cosa?",
+      "buckets": ["Acción", "Persona/cosa"],
+      "items": [
+        { "text": "publier", "bucket": 0 },
+        { "text": "un abonné", "bucket": 1 },
+        { "text": "partager", "bucket": 0 },
+        { "text": "un commentaire", "bucket": 1 }
+      ],
+      "explain": "Publier y partager son acciones; abonné y commentaire, persona y cosa."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["redes-sociales"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "J'ai suivi un commentaire sur ta photo.",
+      "accept": ["J'ai mis un commentaire sur ta photo"],
+      "audio": "J'ai mis un commentaire sur ta photo.",
+      "explain": "Se pone (mettre) un commentaire, no se sigue (suivre)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "publier", "es": "publicar", "esApprox": "«pü-bli-YÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "partager", "es": "compartir", "esApprox": "«par-ta-YÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un abonné / une abonnée", "es": "un seguidor / una seguidora", "esApprox": "«un-na-bo-NÉ ün a-bo-NÉ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "suivre quelqu'un", "es": "seguir a alguien", "esApprox": "«SÜÍVR kel-KUN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un commentaire", "es": "un comentario", "esApprox": "«un ko-man-TER»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "un réseau social", "es": "una red social", "esApprox": "«un re-ZÓ so-SIAL»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Je publie une photo par jour, et j'aimerais avoir plus d'abonnés.", "es": "Publico una foto al día, y me gustaría tener más seguidores.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai partagé cette vidéo avec mes amis, et j'ai lu tous les commentaires.", "es": "Compartí este vídeo con mis amigos, y leí todos los comentarios.", "from": "e7" }
+  ]
+}

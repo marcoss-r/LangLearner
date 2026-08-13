@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-135",
+  "lang": "fr",
+  "level": "A2",
+  "order": 135,
+  "title": "Viajes y alojamiento: reservar y llegar",
+  "objectives": [
+    "Aprender vocabulario para reservar un alojamiento y hablar de un viaje",
+    "Usar el futuro y el condicional (clases A2-125 a A2-133) con este vocabulario nuevo",
+    "Practicar frases útiles para llegar a un hotel o a un alojamiento"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Empieza el bloque de vocabulario temático",
+      "body": "Sin gramática nueva: este bloque amplía tu vocabulario usando todo lo que ya sabes (presente, pasado, futuro, condicional). Hoy: cómo reservar un alojamiento y hablar de tu llegada.",
+      "examples": [
+        { "target": "J'ai réservé une chambre pour trois nuits. Je voudrais faire l'enregistrement.", "es": "He reservado una habitación para tres noches. Querría hacer el check-in.", "note": "passé composé (réservé) + condicional cortés (je voudrais)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del alojamiento",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["réserver", "reservar"],
+        ["une chambre", "una habitación"],
+        ["une nuit", "una noche"],
+        ["l'enregistrement / le check-in", "el registro de entrada"],
+        ["une réservation", "una reserva"],
+        ["complet / complète", "completo/a (sin plazas)"],
+        ["une auberge de jeunesse", "un albergue juvenil"],
+        ["disponible", "disponible"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Al llegar a un hotel",
+      "body": "Frases útiles: «J'ai une réservation au nom de...» (Tengo una reserva a nombre de...), «Je voudrais une chambre pour deux personnes» (Querría una habitación para dos personas), «Est-ce que le petit-déjeuner est inclus ?» (¿El desayuno está incluido?)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "réserver", "es": "reservar", "ipa": "/ʁe.zɛʁ.ve/", "esApprox": "«re-zer-VÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai réservé une chambre pour trois nuits.", "es": "He reservado una habitación para tres noches." } },
+    { "id": "v2", "target": "une chambre", "es": "una habitación", "ipa": "/yn ʃɑ̃bʁ/", "esApprox": "«ün SHANBR»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je voudrais une chambre pour deux personnes.", "es": "Querría una habitación para dos personas." } },
+    { "id": "v3", "target": "une nuit", "es": "una noche", "ipa": "/yn nɥi/", "esApprox": "«ün NÜÍ»", "pos": "sustantivo", "gender": "f", "example": { "target": "Nous restons trois nuits.", "es": "Nos quedamos tres noches." } },
+    { "id": "v4", "target": "l'enregistrement", "es": "el registro de entrada", "ipa": "/lɑ̃.ʁə.ʒis.tʁə.mɑ̃/", "esApprox": "«lan-re-yis-tre-MAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je voudrais faire l'enregistrement.", "es": "Querría hacer el check-in." } },
+    { "id": "v5", "target": "une réservation", "es": "una reserva", "ipa": "/yn ʁe.zɛʁ.va.sjɔ̃/", "esApprox": "«ün re-zer-va-SIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'ai une réservation au nom de Martin.", "es": "Tengo una reserva a nombre de Martin." } },
+    { "id": "v6", "target": "complet / complète", "es": "completo/a", "ipa": "/kɔ̃.plɛ kɔ̃.plɛt/", "esApprox": "«kon-PLE kon-PLET»", "pos": "adjetivo", "gender": null, "example": { "target": "Désolé, l'hôtel est complet.", "es": "Lo siento, el hotel está completo." } },
+    { "id": "v7", "target": "une auberge de jeunesse", "es": "un albergue juvenil", "ipa": "/yn o.bɛʁʒ də ʒœ.nɛs/", "esApprox": "«ün o-BERSH de yeu-NES»", "pos": "sustantivo", "gender": "f", "example": { "target": "On a dormi dans une auberge de jeunesse.", "es": "Dormimos en un albergue juvenil." } },
+    { "id": "v8", "target": "le petit-déjeuner est inclus", "es": "el desayuno está incluido", "ipa": "/lə pə.ti de.ʒœ.ne ɛ.t‿ɛ̃.kly/", "esApprox": "«le pe-TÍ de-yeu-NÉ e tan-KLÜ»", "pos": "expresión", "gender": null, "example": { "target": "Est-ce que le petit-déjeuner est inclus ?", "es": "¿El desayuno está incluido?" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «he reservado una habitación»?",
+      "options": ["J'ai réservé une chambre.", "Je réserve une chambre.", "J'aurai réservé une chambre.", "Je réserverai une chambre."],
+      "answer": 0,
+      "explain": "Passé composé de réserver, repaso de las clases A2-091/092."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «l'hôtel est complet»?",
+      "options": ["el hotel está limpio", "el hotel está completo, sin plazas", "el hotel está lejos", "el hotel está cerrado"],
+      "answer": 1,
+      "explain": "Complet/complète = sin plazas disponibles."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "statement": "Une nuit es femenino.",
+      "answer": true,
+      "explain": "Une nuit, femenino, como la mayoría de palabras terminadas en -uit."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "statement": "Une auberge de jeunesse es un tipo de hotel de lujo.",
+      "answer": false,
+      "explain": "Es un albergue juvenil, un alojamiento económico."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["réserver", "l'enregistrement", "disponible", "complet"],
+      "right": ["completo, sin plazas", "disponible", "reservar", "el registro de entrada"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Réserver = reservar, l'enregistrement = el registro de entrada, disponible = disponible, complet = completo."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "He reservado una habitación para tres noches. Querría hacer el check-in.",
+      "accept": ["J'ai réservé une chambre pour trois nuits. Je voudrais faire l'enregistrement"],
+      "hintWords": ["j'ai réservé une chambre pour trois nuits", "je voudrais faire l'enregistrement"],
+      "strictAccents": true,
+      "audio": "J'ai réservé une chambre pour trois nuits. Je voudrais faire l'enregistrement.",
+      "explain": "Passé composé (réservé) + condicional cortés (je voudrais)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "Tengo una reserva a nombre de Martin. ¿El desayuno está incluido?",
+      "accept": ["J'ai une réservation au nom de Martin. Est-ce que le petit-déjeuner est inclus"],
+      "hintWords": ["j'ai une réservation au nom de martin", "est-ce que le petit-déjeuner est inclus"],
+      "strictAccents": true,
+      "audio": "J'ai une réservation au nom de Martin. Est-ce que le petit-déjeuner est inclus ?",
+      "explain": "Une réservation au nom de + pregunta con est-ce que."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Je voudrais une ___ pour deux personnes, pour trois ___.",
+      "blanks": [{ "accept": ["chambre"] }, { "accept": ["nuits"] }],
+      "bank": ["chambre", "nuits", "réservation"],
+      "explain": "Une chambre pour deux personnes, pour trois nuits."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Lo siento, el hotel está completo»",
+      "tokens": ["l'hôtel est complet", "Désolé,"],
+      "answer": ["Désolé,", "l'hôtel est complet"],
+      "audio": "Désolé, l'hôtel est complet.",
+      "explain": "Désolé + l'hôtel est complet."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "On a dormi dans une auberge de jeunesse, c'était moins cher qu'un hôtel.",
+      "accept": ["Dormimos en un albergue juvenil, era más barato que un hotel."],
+      "strictAccents": false,
+      "audio": "On a dormi dans une auberge de jeunesse, c'était moins cher qu'un hôtel.",
+      "explain": "Passé composé (a dormi) + imparfait descriptivo (c'était), repaso de la clase A2-101."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación al llegar a la recepción",
+      "turns": [
+        { "who": "Réceptionniste", "text": "Bonjour, vous avez une réservation ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai une réservation au nom de Martin.", "Oui, j'ai réservé une chambre pour trois nuits."], "hint": "usa réservation o j'ai réservé" },
+        { "who": "Réceptionniste", "text": "Très bien, voici votre clé.", "speak": true }
+      ],
+      "explain": "Al llegar a un hotel, se confirma la réservation."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "speak": "J'ai une réservation au nom de Martin, pour trois nuits, et je voudrais savoir si le petit-déjeuner est inclus.",
+      "mode": "write",
+      "accept": ["J'ai une réservation au nom de Martin, pour trois nuits, et je voudrais savoir si le petit-déjeuner est inclus"],
+      "showTextAfter": true,
+      "explain": "Frase completa típica al llegar a un hotel."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["viajes"],
+      "difficulty": 1,
+      "speak": "complet",
+      "mode": "choose",
+      "options": ["complet", "disponible", "réservé", "inclus"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Complet = completo, sin plazas."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["viajes"],
+      "difficulty": 3,
+      "speak": "J'ai réservé une chambre pour trois nuits dans une auberge de jeunesse, et le petit-déjeuner était inclus.",
+      "es": "Reservé una habitación para tres noches en un albergue juvenil, y el desayuno estaba incluido.",
+      "ipa": "/ʒe ʁe.zɛʁ.ve yn ʃɑ̃bʁ puʁ tʁwa nɥi dɑ̃.z‿yn o.bɛʁʒ də ʒœ.nɛs e lə pə.ti de.ʒœ.ne e.tɛ ɛ̃.kly/",
+      "esApprox": "«ye re-zer-VÉ ün SHANBR pur truá NÜÍ dan-zün o-BERSH de yeu-NES e le pe-TÍ de-yeu-NÉ e-TE an-KLÜ»",
+      "focus": "Vocabulario de viajes combinado con passé composé e imparfait.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "Cuenta cómo reservaste tu último alojamiento de vacaciones.",
+      "modelAnswer": "J'ai réservé une chambre dans un hôtel pour cinq nuits.",
+      "alsoValid": ["On a dormi dans une auberge de jeunesse."],
+      "speak": "J'ai réservé une chambre dans un hôtel pour cinq nuits.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "¿Es sobre reservar o sobre llegar al alojamiento?",
+      "buckets": ["Reservar", "Llegar"],
+      "items": [
+        { "text": "j'ai réservé une chambre", "bucket": 0 },
+        { "text": "je voudrais faire l'enregistrement", "bucket": 1 },
+        { "text": "l'hôtel est complet", "bucket": 0 },
+        { "text": "voici votre clé", "bucket": 1 }
+      ],
+      "explain": "Réserver, complet: antes de llegar. Enregistrement, la clé: al llegar."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "J'ai une chambre au nom de Martin.",
+      "accept": ["J'ai une réservation au nom de Martin"],
+      "audio": "J'ai une réservation au nom de Martin.",
+      "explain": "Para hablar de tener una reserva, se usa réservation, no chambre."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "réserver", "es": "reservar", "esApprox": "«re-zer-VÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "une chambre", "es": "una habitación", "esApprox": "«ün SHANBR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "une nuit", "es": "una noche", "esApprox": "«ün NÜÍ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "l'enregistrement", "es": "el registro de entrada", "esApprox": "«lan-re-yis-tre-MAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "une réservation", "es": "una reserva", "esApprox": "«ün re-zer-va-SIÓN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "complet / complète", "es": "completo/a", "esApprox": "«kon-PLE kon-PLET»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai réservé une chambre pour trois nuits. Je voudrais faire l'enregistrement.", "es": "He reservado una habitación para tres noches. Querría hacer el check-in.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai une réservation au nom de Martin. Est-ce que le petit-déjeuner est inclus ?", "es": "Tengo una reserva a nombre de Martin. ¿El desayuno está incluido?", "from": "e7" }
+  ]
+}

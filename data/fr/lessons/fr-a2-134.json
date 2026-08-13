@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-134",
+  "lang": "fr",
+  "level": "A2",
+  "order": 134,
+  "title": "Repaso activo X (clases 125–133)",
+  "objectives": [
+    "Repasar el futur simple (regular e irregular) y sus marcadores de tiempo",
+    "Repasar la formación del condicional y sus usos: cortesía, deseos, consejos",
+    "Repasar las dos condiciones con si: realista (présent + futur) e hipotética (imparfait + conditionnel)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque K (futuro e hipótesis)",
+      "body": "Sin gramática nueva. Este bloque ha introducido el futur simple, el condicional y las frases con si. Repasa las tablas con calma antes de pasar al vocabulario temático ampliado."
+    },
+    {
+      "type": "table",
+      "title": "Resumen: futuro y condicional",
+      "headers": ["Tiempo", "Formación", "Ejemplo"],
+      "rows": [
+        ["futur simple", "infinitivo (o radical irregular) + -ai/-as/-a/-ons/-ez/-ont", "je parlerai, j'irai"],
+        ["conditionnel", "radical del futuro + -ais/-ais/-ait/-ions/-iez/-aient", "je parlerais, j'irais"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Resumen: las dos condiciones con si",
+      "headers": ["Tipo", "Estructura", "Ejemplo"],
+      "rows": [
+        ["Realista", "si + présent + futur", "S'il fait beau, je sortirai."],
+        ["Hipotética", "si + imparfait + conditionnel", "S'il faisait beau, je sortirais."]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je serai", "es": "yo seré/estaré (futuro)", "ipa": "/ʒə sə.ʁe/", "esApprox": "«ye se-RÉ»", "pos": "verbo", "gender": null },
+    { "id": "v2", "target": "je voudrais", "es": "yo querría (condicional)", "ipa": "/ʒə vu.dʁɛ/", "esApprox": "«ye vu-DRE»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "pourriez-vous", "es": "¿podría usted?", "ipa": "/pu.ʁje vu/", "esApprox": "«pu-RIÉ vu»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "si j'avais", "es": "si tuviera", "ipa": "/si ʒa.vɛ/", "esApprox": "«si sha-VE»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "tu devrais", "es": "deberías", "ipa": "/ty də.vʁɛ/", "esApprox": "«tü de-VRE»", "pos": "verbo", "gender": null },
+    { "id": "v6", "target": "à ta place", "es": "en tu lugar", "ipa": "/a ta plas/", "esApprox": "«a ta PLAS»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "je te promets", "es": "te prometo", "ipa": "/ʒə tə pʁɔ.mɛ/", "esApprox": "«ye te pro-ME»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "un jour", "es": "algún día", "ipa": "/œ̃ ʒuʁ/", "esApprox": "«un YUR»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el radical del futuro de faire?",
+      "options": ["fair-", "fer-", "fais-", "fait-"],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-126."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "¿Qué terminaciones usa el condicional?",
+      "options": ["las del futuro", "las del imparfait", "las del presente", "las del passé composé"],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-129."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["si"],
+      "difficulty": 2,
+      "statement": "Si + présent + futur expresa una condición realista.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-128."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["si"],
+      "difficulty": 2,
+      "statement": "Después de si, se puede usar el condicional.",
+      "answer": false,
+      "explain": "Repaso de la clase A2-132: después de si va el presente o el imparfait, nunca el condicional."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Une cada uso del condicional con su ejemplo",
+      "left": ["cortesía", "deseo", "consejo", "hipótesis"],
+      "right": ["si j'étais riche, j'achèterais une maison", "pourriez-vous m'aider ?", "tu devrais te reposer", "j'aimerais vivre à la campagne"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Cortesía (pourriez-vous), deseo (j'aimerais), consejo (tu devrais), hipótesis (si j'étais)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Estaré contento, y algún día iré a Francia.",
+      "accept": ["Je serai content, et un jour j'irai en France"],
+      "hintWords": ["je serai content", "un jour j'irai en France"],
+      "strictAccents": true,
+      "audio": "Je serai content, et un jour j'irai en France.",
+      "explain": "Repaso de las clases A2-125 y A2-126."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "¿Podría ayudarme? Querría una información.",
+      "accept": ["Pourriez-vous m'aider ? Je voudrais un renseignement"],
+      "hintWords": ["pourriez-vous m'aider", "je voudrais un renseignement"],
+      "strictAccents": true,
+      "audio": "Pourriez-vous m'aider ? Je voudrais un renseignement.",
+      "explain": "Repaso de la clase A2-130."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["si"],
+      "difficulty": 2,
+      "prompt": "Completa con el imparfait y el condicional correctos",
+      "text": "Si j' ___ plus d'argent, je ___ tout le temps.",
+      "blanks": [{ "accept": ["avais"] }, { "accept": ["voyagerais"] }],
+      "bank": ["avais", "voyagerais", "aurai"],
+      "explain": "Repaso de la clase A2-132."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["consejos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Deberías dormir más»",
+      "tokens": ["dormir plus", "Tu devrais"],
+      "answer": ["Tu devrais", "dormir plus"],
+      "audio": "Tu devrais dormir plus.",
+      "explain": "Repaso de la clase A2-133."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Dans un an, je finirai mes études, et je te promets que je viendrai te voir.",
+      "accept": ["Dentro de un año, terminaré mis estudios, y te prometo que vendré a verte."],
+      "strictAccents": false,
+      "audio": "Dans un an, je finirai mes études, et je te promets que je viendrai te voir.",
+      "explain": "Repaso de la clase A2-127."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["consejos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación dando un consejo",
+      "turns": [
+        { "who": "Léa", "text": "Je suis fatiguée, je travaille trop.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Tu devrais te reposer.", "À ta place, je me reposerais."], "hint": "usa tu devrais o à ta place" },
+        { "who": "Léa", "text": "Tu as raison, merci.", "speak": true }
+      ],
+      "explain": "Repaso de la clase A2-133."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "speak": "Si j'avais plus de temps libre, j'aimerais vivre à la campagne, et je voyagerais tout le temps.",
+      "mode": "write",
+      "accept": ["Si j'avais plus de temps libre, j'aimerais vivre à la campagne, et je voyagerais tout le temps"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de las clases A2-131 y A2-132."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["futuro"],
+      "difficulty": 1,
+      "speak": "j'irai",
+      "mode": "choose",
+      "options": ["je vais", "j'irai", "j'irais", "j'allais"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-126."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["futuro", "condicional"],
+      "difficulty": 3,
+      "speak": "L'année prochaine, je finirai mes études. Si j'avais plus d'argent, je voyagerais. Et à ta place, je changerais de travail.",
+      "es": "El año que viene, terminaré mis estudios. Si tuviera más dinero, viajaría. Y en tu lugar, cambiaría de trabajo.",
+      "ipa": "/la.ne pʁɔ.ʃɛn ʒə fi.ni.ʁe me.z‿e.tyd si ʒa.vɛ ply.z‿aʁ.ʒɑ̃ ʒə vwa.ja.ʒə.ʁɛ e a ta plas ʒə ʃɑ̃.ʒə.ʁɛ də tʁa.vaj/",
+      "esApprox": "«la-NÉ pro-SHEN ye fi-ni-RÉ me-ze-TÜD si sha-VE plü-zar-YAN ye vuá-ya-she-RE e a ta PLAS ye shan-she-RE de tra-VAY»",
+      "focus": "Repaso combinado de futuro, condicional hipotético y consejo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Habla de un plan futuro y de una situación hipotética, usando el futuro y el condicional.",
+      "modelAnswer": "L'année prochaine, j'irai en France. Si j'avais plus de temps, je voyagerais plus souvent.",
+      "alsoValid": ["Un jour, je changerai de vie."],
+      "speak": "L'année prochaine, j'irai en France. Si j'avais plus de temps, je voyagerais plus souvent.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["futuro", "condicional"],
+      "difficulty": 2,
+      "prompt": "¿Es futuro o condicional?",
+      "buckets": ["Futuro", "Condicional"],
+      "items": [
+        { "text": "j'irai", "bucket": 0 },
+        { "text": "j'irais", "bucket": 1 },
+        { "text": "je serai", "bucket": 0 },
+        { "text": "je serais", "bucket": 1 }
+      ],
+      "explain": "Repaso combinado de las clases A2-125, A2-126 y A2-129."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["si"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal después de si. Corrige la frase entera.",
+      "wrong": "Si je serais riche, j'achèterais une maison.",
+      "accept": ["Si j'étais riche, j'achèterais une maison"],
+      "audio": "Si j'étais riche, j'achèterais une maison.",
+      "explain": "Repaso de la clase A2-132: después de si va el imparfait, no el condicional."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "je serai", "es": "yo seré/estaré (futuro)", "esApprox": "«ye se-RÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "je voudrais", "es": "yo querría (condicional)", "esApprox": "«ye vu-DRE»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "pourriez-vous", "es": "¿podría usted?", "esApprox": "«pu-RIÉ vu»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "si j'avais", "es": "si tuviera", "esApprox": "«si sha-VE»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "tu devrais", "es": "deberías", "esApprox": "«tü de-VRE»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "à ta place", "es": "en tu lugar", "esApprox": "«a ta PLAS»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je serai content, et un jour j'irai en France.", "es": "Estaré contento, y algún día iré a Francia.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Pourriez-vous m'aider ? Je voudrais un renseignement.", "es": "¿Podría ayudarme? Querría una información.", "from": "e7" }
+  ]
+}

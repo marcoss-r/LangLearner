@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-139",
+  "lang": "fr",
+  "level": "A2",
+  "order": 139,
+  "title": "La tecnología y el móvil",
+  "objectives": [
+    "Aprender vocabulario del móvil y de la tecnología cotidiana",
+    "Hablar de problemas técnicos comunes",
+    "Practicar frases útiles para pedir ayuda con un aparato"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El móvil y sus problemas",
+      "body": "Sin gramática nueva. Vocabulario para hablar de tecnología: la batterie, télécharger, un mot de passe, ça ne marche pas.",
+      "examples": [
+        { "target": "Mon téléphone est tombé en panne. La batterie ne se charge plus.", "es": "Mi teléfono se ha estropeado. La batería ya no carga.", "note": "tomber en panne = estropearse" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la tecnología",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["la batterie", "la batería"],
+        ["télécharger", "descargar"],
+        ["un mot de passe", "una contraseña"],
+        ["ça ne marche pas", "no funciona"],
+        ["tomber en panne", "estropearse, averiarse"],
+        ["une application", "una aplicación"],
+        ["le wifi", "el wifi"],
+        ["mettre à jour", "actualizar"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Ça ne marche pas, la frase comodín",
+      "body": "Ça ne marche pas sirve para cualquier aparato que no funciona: un téléphone, un ordinateur, le wifi, une application. Es la expresión más útil para pedir ayuda con un problema técnico."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la batterie", "es": "la batería", "ipa": "/la ba.tʁi/", "esApprox": "«la ba-TRÍ»", "pos": "sustantivo", "gender": "f", "example": { "target": "La batterie ne se charge plus.", "es": "La batería ya no carga." } },
+    { "id": "v2", "target": "télécharger", "es": "descargar", "ipa": "/te.le.ʃaʁ.ʒe/", "esApprox": "«te-le-shar-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai téléchargé une nouvelle application.", "es": "Descargué una aplicación nueva." } },
+    { "id": "v3", "target": "un mot de passe", "es": "una contraseña", "ipa": "/œ̃ mo də pas/", "esApprox": "«un MO de PAS»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai oublié mon mot de passe.", "es": "He olvidado mi contraseña." } },
+    { "id": "v4", "target": "ça ne marche pas", "es": "no funciona", "ipa": "/sa nə maʁʃ pa/", "esApprox": "«sa ne MARSH pa»", "pos": "expresión", "gender": null, "example": { "target": "Mon téléphone ne marche pas.", "es": "Mi teléfono no funciona." } },
+    { "id": "v5", "target": "tomber en panne", "es": "estropearse, averiarse", "ipa": "/tɔ̃.be ɑ̃ pan/", "esApprox": "«ton-BÉ an PAN»", "pos": "expresión", "gender": null, "example": { "target": "Mon téléphone est tombé en panne.", "es": "Mi teléfono se ha estropeado." } },
+    { "id": "v6", "target": "une application", "es": "una aplicación", "ipa": "/yn a.pli.ka.sjɔ̃/", "esApprox": "«ün a-pli-ka-SIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Cette application est très utile.", "es": "Esta aplicación es muy útil." } },
+    { "id": "v7", "target": "le wifi", "es": "el wifi", "ipa": "/lə wi.fi/", "esApprox": "«le uí-FÍ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le wifi ne marche pas ici.", "es": "El wifi no funciona aquí." } },
+    { "id": "v8", "target": "mettre à jour", "es": "actualizar", "ipa": "/mɛtʁ a ʒuʁ/", "esApprox": "«METR a YUR»", "pos": "expresión", "gender": null, "example": { "target": "Je dois mettre à jour l'application.", "es": "Tengo que actualizar la aplicación." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «mi teléfono se ha estropeado»?",
+      "options": ["Mon téléphone ne marche pas.", "Mon téléphone est tombé en panne.", "Mon téléphone est en panne.", "Mon téléphone a une panne."],
+      "answer": 1,
+      "explain": "Tomber en panne = estropearse (passé composé: est tombé en panne)."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «télécharger»?",
+      "options": ["actualizar", "descargar", "cargar (la batería)", "borrar"],
+      "answer": 1,
+      "explain": "Télécharger = descargar."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "statement": "Un mot de passe es una contraseña.",
+      "answer": true,
+      "explain": "Un mot de passe = una contraseña."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "statement": "Mettre à jour significa lo mismo que télécharger.",
+      "answer": false,
+      "explain": "Mettre à jour = actualizar algo que ya tienes; télécharger = descargar algo nuevo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["la batterie", "une application", "le wifi", "un mot de passe"],
+      "right": ["una contraseña", "la batería", "una aplicación", "el wifi"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Batterie = batería, application = aplicación, wifi = wifi, mot de passe = contraseña."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "Mi teléfono se ha estropeado. La batería ya no carga.",
+      "accept": ["Mon téléphone est tombé en panne. La batterie ne se charge plus"],
+      "hintWords": ["mon téléphone est tombé en panne", "la batterie ne se charge plus"],
+      "strictAccents": true,
+      "audio": "Mon téléphone est tombé en panne. La batterie ne se charge plus.",
+      "explain": "Tomber en panne (passé composé) + ne...plus."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "He olvidado mi contraseña, y el wifi no funciona aquí.",
+      "accept": ["J'ai oublié mon mot de passe, et le wifi ne marche pas ici"],
+      "hintWords": ["j'ai oublié mon mot de passe", "le wifi ne marche pas ici"],
+      "strictAccents": true,
+      "audio": "J'ai oublié mon mot de passe, et le wifi ne marche pas ici.",
+      "explain": "Un mot de passe + ça ne marche pas."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "J'ai ___ une nouvelle application, mais je dois la mettre à ___.",
+      "blanks": [{ "accept": ["téléchargé"] }, { "accept": ["jour"] }],
+      "bank": ["téléchargé", "jour", "panne"],
+      "explain": "J'ai téléchargé + mettre à jour."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El wifi no funciona aquí»",
+      "tokens": ["ne marche pas ici", "Le wifi"],
+      "answer": ["Le wifi", "ne marche pas ici"],
+      "audio": "Le wifi ne marche pas ici.",
+      "explain": "Le wifi + ne marche pas ici."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "J'ai téléchargé l'application, mais elle ne marche pas parce que je dois d'abord la mettre à jour.",
+      "accept": ["Descargué la aplicación, pero no funciona porque primero tengo que actualizarla."],
+      "strictAccents": false,
+      "audio": "J'ai téléchargé l'application, mais elle ne marche pas parce que je dois d'abord la mettre à jour.",
+      "explain": "Télécharger + ça ne marche pas + mettre à jour, tres verbos de tecnología en una frase."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre un problema técnico",
+      "turns": [
+        { "who": "Léa", "text": "Ton téléphone marche bien ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, il est tombé en panne.", "Non, la batterie ne se charge plus."], "hint": "usa tomber en panne o la batterie" },
+        { "who": "Léa", "text": "Ah, c'est embêtant, il faut le réparer.", "speak": true }
+      ],
+      "explain": "Ante un problema técnico, se explica con tomber en panne o ne marche pas."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "speak": "Mon téléphone est tombé en panne, la batterie ne se charge plus, et j'ai aussi oublié mon mot de passe.",
+      "mode": "write",
+      "accept": ["Mon téléphone est tombé en panne, la batterie ne se charge plus, et j'ai aussi oublié mon mot de passe"],
+      "showTextAfter": true,
+      "explain": "Tres problemas técnicos encadenados."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["tecnologia"],
+      "difficulty": 1,
+      "speak": "tomber en panne",
+      "mode": "choose",
+      "options": ["mettre à jour", "tomber en panne", "télécharger", "ça marche"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Tomber en panne = estropearse."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["tecnologia"],
+      "difficulty": 3,
+      "speak": "Mon téléphone est tombé en panne, la batterie ne marche plus, et je dois télécharger une nouvelle application.",
+      "es": "Mi teléfono se ha estropeado, la batería ya no funciona, y tengo que descargar una nueva aplicación.",
+      "ipa": "/mɔ̃ te.le.fɔn ɛ tɔ̃.be ɑ̃ pan la ba.tʁi nə maʁʃ ply e ʒə dwa te.le.ʃaʁ.ʒe yn nu.vɛl a.pli.ka.sjɔ̃/",
+      "esApprox": "«mon te-le-FON e ton-BÉ an PAN la ba-TRÍ ne MARSH plü e ye duá te-le-shar-YÉ ün nu-VEL a-pli-ka-SIÓN»",
+      "focus": "Varios problemas técnicos encadenados en una sola frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "Explica un problema técnico que has tenido con tu teléfono u ordenador.",
+      "modelAnswer": "Mon téléphone est tombé en panne, et j'ai dû télécharger une nouvelle application.",
+      "alsoValid": ["J'ai oublié mon mot de passe."],
+      "speak": "Mon téléphone est tombé en panne, et j'ai dû télécharger une nouvelle application.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "¿Es un problema o una acción normal?",
+      "buckets": ["Problema", "Acción normal"],
+      "items": [
+        { "text": "tomber en panne", "bucket": 0 },
+        { "text": "télécharger", "bucket": 1 },
+        { "text": "ça ne marche pas", "bucket": 0 },
+        { "text": "mettre à jour", "bucket": 1 }
+      ],
+      "explain": "Tomber en panne y ça ne marche pas son problemas; télécharger y mettre à jour, acciones normales."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "J'ai téléchargé mon mot de passe.",
+      "accept": ["J'ai oublié mon mot de passe"],
+      "audio": "J'ai oublié mon mot de passe.",
+      "explain": "Una contraseña se olvida (oublier), no se descarga (télécharger)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la batterie", "es": "la batería", "esApprox": "«la ba-TRÍ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "télécharger", "es": "descargar", "esApprox": "«te-le-shar-YÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un mot de passe", "es": "una contraseña", "esApprox": "«un MO de PAS»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "ça ne marche pas", "es": "no funciona", "esApprox": "«sa ne MARSH pa»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "tomber en panne", "es": "estropearse, averiarse", "esApprox": "«ton-BÉ an PAN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "mettre à jour", "es": "actualizar", "esApprox": "«METR a YUR»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Mon téléphone est tombé en panne. La batterie ne se charge plus.", "es": "Mi teléfono se ha estropeado. La batería ya no carga.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai oublié mon mot de passe, et le wifi ne marche pas ici.", "es": "He olvidado mi contraseña, y el wifi no funciona aquí.", "from": "e7" }
+  ]
+}

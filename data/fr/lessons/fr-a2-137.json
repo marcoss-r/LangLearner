@@ -1,0 +1,257 @@
+{
+  "id": "fr-a2-137",
+  "lang": "fr",
+  "level": "A2",
+  "order": 137,
+  "title": "En el banco y en correos: hacer una gestión",
+  "objectives": [
+    "Aprender vocabulario para hacer una gestión en el banco o en correos",
+    "Usar pourriez-vous y je voudrais (clase A2-130) para pedir un trámite con educación",
+    "Practicar frases útiles para abrir una cuenta o enviar un paquete"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Trámites cotidianos",
+      "body": "En el banco o en correos, se piden las cosas con educación, igual que en un restaurante (clase A2-130). Vocabulario clave: un compte, un colis, envoyer, retirer de l'argent.",
+      "examples": [
+        { "target": "Je voudrais ouvrir un compte. Pourriez-vous m'expliquer les documents nécessaires ?", "es": "Querría abrir una cuenta. ¿Podría explicarme los documentos necesarios?", "note": "je voudrais + pourriez-vous, dos peticiones corteses" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del banco",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["un compte", "una cuenta"],
+        ["ouvrir un compte", "abrir una cuenta"],
+        ["retirer de l'argent", "sacar dinero"],
+        ["un distributeur", "un cajero automático"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de correos",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["un colis", "un paquete"],
+        ["envoyer", "enviar"],
+        ["un timbre", "un sello"],
+        ["une lettre recommandée", "una carta certificada"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "un compte", "es": "una cuenta", "ipa": "/œ̃ kɔ̃t/", "esApprox": "«un KONT»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je voudrais ouvrir un compte.", "es": "Querría abrir una cuenta." } },
+    { "id": "v2", "target": "retirer de l'argent", "es": "sacar dinero", "ipa": "/ʁə.ti.ʁe də laʁ.ʒɑ̃/", "esApprox": "«re-ti-RÉ de lar-YAN»", "pos": "expresión", "gender": null, "example": { "target": "Je dois retirer de l'argent.", "es": "Tengo que sacar dinero." } },
+    { "id": "v3", "target": "un distributeur", "es": "un cajero automático", "ipa": "/œ̃ dis.tʁi.by.tœʁ/", "esApprox": "«un dis-tri-bü-TÖR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il y a un distributeur à côté de la banque.", "es": "Hay un cajero automático al lado del banco." } },
+    { "id": "v4", "target": "un colis", "es": "un paquete", "ipa": "/œ̃ kɔ.li/", "esApprox": "«un ko-LÍ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je voudrais envoyer un colis.", "es": "Querría enviar un paquete." } },
+    { "id": "v5", "target": "envoyer", "es": "enviar", "ipa": "/ɑ̃.vwa.je/", "esApprox": "«an-vuá-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai envoyé une lettre hier.", "es": "Envié una carta ayer." } },
+    { "id": "v6", "target": "un timbre", "es": "un sello", "ipa": "/œ̃ tɛ̃bʁ/", "esApprox": "«un TENBR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il me faut trois timbres.", "es": "Necesito tres sellos." } },
+    { "id": "v7", "target": "une lettre recommandée", "es": "una carta certificada", "ipa": "/yn lɛtʁ ʁə.kɔ.mɑ̃.de/", "esApprox": "«ün LETR re-ko-man-DÉ»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je voudrais envoyer une lettre recommandée.", "es": "Querría enviar una carta certificada." } },
+    { "id": "v8", "target": "un document", "es": "un documento", "ipa": "/œ̃ dɔ.ky.mɑ̃/", "esApprox": "«un do-kü-MAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Quels documents sont nécessaires ?", "es": "¿Qué documentos son necesarios?" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «querría abrir una cuenta»?",
+      "options": ["Je voudrais ouvrir un compte.", "Je veux ouvrir un colis.", "J'aimerais retirer un compte.", "Je voudrais un timbre."],
+      "answer": 0,
+      "explain": "Ouvrir un compte = abrir una cuenta."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "¿Qué es «un colis»?",
+      "options": ["una cuenta", "un sello", "un paquete", "un cajero"],
+      "answer": 2,
+      "explain": "Un colis = un paquete."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "statement": "Un distributeur sirve para sacar dinero.",
+      "answer": true,
+      "explain": "Un distributeur = un cajero automático."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "statement": "Une lettre recommandée es un tipo de paquete, no de carta.",
+      "answer": false,
+      "explain": "Une lettre recommandée es una carta certificada, no un paquete."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["un compte", "un timbre", "un colis", "un distributeur"],
+      "right": ["un cajero automático", "un paquete", "una cuenta", "un sello"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Compte = cuenta, timbre = sello, colis = paquete, distributeur = cajero automático."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "Querría abrir una cuenta. ¿Podría explicarme los documentos necesarios?",
+      "accept": ["Je voudrais ouvrir un compte. Pourriez-vous m'expliquer les documents nécessaires"],
+      "hintWords": ["je voudrais ouvrir un compte", "pourriez-vous m'expliquer les documents nécessaires"],
+      "strictAccents": true,
+      "audio": "Je voudrais ouvrir un compte. Pourriez-vous m'expliquer les documents nécessaires ?",
+      "explain": "Je voudrais + pourriez-vous, dos peticiones corteses (clase A2-130)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "Querría enviar un paquete y una carta certificada.",
+      "accept": ["Je voudrais envoyer un colis et une lettre recommandée"],
+      "hintWords": ["je voudrais envoyer un colis", "et une lettre recommandée"],
+      "strictAccents": true,
+      "audio": "Je voudrais envoyer un colis et une lettre recommandée.",
+      "explain": "Je voudrais envoyer + un colis + une lettre recommandée."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Il me faut trois ___ pour envoyer ce ___.",
+      "blanks": [{ "accept": ["timbres"] }, { "accept": ["colis"] }],
+      "bank": ["timbres", "colis", "comptes"],
+      "explain": "Trois timbres + ce colis."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tengo que sacar dinero»",
+      "tokens": ["retirer de l'argent", "Je dois"],
+      "answer": ["Je dois", "retirer de l'argent"],
+      "audio": "Je dois retirer de l'argent.",
+      "explain": "Je dois + retirer de l'argent."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "Il y a un distributeur à côté de la banque, mais je dois d'abord parler avec quelqu'un pour ouvrir un compte.",
+      "accept": ["Hay un cajero automático al lado del banco, pero primero tengo que hablar con alguien para abrir una cuenta."],
+      "strictAccents": false,
+      "audio": "Il y a un distributeur à côté de la banque, mais je dois d'abord parler avec quelqu'un pour ouvrir un compte.",
+      "explain": "Un distributeur + devoir + ouvrir un compte."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en correos",
+      "turns": [
+        { "who": "Employé", "text": "Bonjour, je peux vous aider ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je voudrais envoyer un colis.", "Je voudrais envoyer une lettre recommandée."], "hint": "usa je voudrais envoyer" },
+        { "who": "Employé", "text": "Très bien, ça fait douze euros.", "speak": true }
+      ],
+      "explain": "En correos, se pide con je voudrais envoyer."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "speak": "Je voudrais ouvrir un compte, et je dois aussi envoyer un colis.",
+      "mode": "write",
+      "accept": ["Je voudrais ouvrir un compte, et je dois aussi envoyer un colis"],
+      "showTextAfter": true,
+      "explain": "Dos gestiones combinadas: banco y correos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["banco", "correos"],
+      "difficulty": 1,
+      "speak": "un distributeur",
+      "mode": "choose",
+      "options": ["un compte", "un distributeur", "un colis", "un timbre"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un distributeur = un cajero automático."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["banco", "correos"],
+      "difficulty": 3,
+      "speak": "Je voudrais ouvrir un compte, retirer de l'argent, et envoyer un colis avant midi.",
+      "es": "Querría abrir una cuenta, sacar dinero, y enviar un paquete antes del mediodía.",
+      "ipa": "/ʒə vu.dʁɛ u.vʁiʁ œ̃ kɔ̃t ʁə.ti.ʁe də laʁ.ʒɑ̃ e ɑ̃.vwa.je œ̃ kɔ.li a.vɑ̃ mi.di/",
+      "esApprox": "«ye vu-DRE u-VRIR un KONT re-ti-RÉ de lar-YAN e an-vuá-YÉ un ko-LÍ a-VAN mi-DÍ»",
+      "focus": "Tres gestiones distintas en una sola frase de deseo cortés.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "Explica una gestión que necesitas hacer en el banco o en correos.",
+      "modelAnswer": "Je voudrais ouvrir un compte et retirer de l'argent.",
+      "alsoValid": ["Je voudrais envoyer un colis en France."],
+      "speak": "Je voudrais ouvrir un compte et retirer de l'argent.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "¿Es del banco o de correos?",
+      "buckets": ["Banco", "Correos"],
+      "items": [
+        { "text": "un compte", "bucket": 0 },
+        { "text": "un colis", "bucket": 1 },
+        { "text": "un distributeur", "bucket": 0 },
+        { "text": "un timbre", "bucket": 1 }
+      ],
+      "explain": "Compte y distributeur son del banco; colis y timbre, de correos."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["banco", "correos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "Je voudrais envoyer un compte à ma sœur.",
+      "accept": ["Je voudrais envoyer un colis à ma sœur"],
+      "audio": "Je voudrais envoyer un colis à ma sœur.",
+      "explain": "Se envía un colis (paquete), no un compte (cuenta)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "un compte", "es": "una cuenta", "esApprox": "«un KONT»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "retirer de l'argent", "es": "sacar dinero", "esApprox": "«re-ti-RÉ de lar-YAN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un distributeur", "es": "un cajero automático", "esApprox": "«un dis-tri-bü-TÖR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "un colis", "es": "un paquete", "esApprox": "«un ko-LÍ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "envoyer", "es": "enviar", "esApprox": "«an-vuá-YÉ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "un timbre", "es": "un sello", "esApprox": "«un TENBR»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je voudrais ouvrir un compte. Pourriez-vous m'expliquer les documents nécessaires ?", "es": "Querría abrir una cuenta. ¿Podría explicarme los documentos necesarios?", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je voudrais envoyer un colis et une lettre recommandée.", "es": "Querría enviar un paquete y una carta certificada.", "from": "e7" }
+  ]
+}

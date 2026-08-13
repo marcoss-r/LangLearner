@@ -1,0 +1,252 @@
+{
+  "id": "fr-a2-132",
+  "lang": "fr",
+  "level": "A2",
+  "order": 132,
+  "title": "Si + imparfait + condicional: la condición hipotética",
+  "objectives": [
+    "Formar la condición hipotética: si + imparfait (clase A2-101), condicional (clase A2-129)",
+    "Distinguir la condición realista (si + presente + futuro, clase A2-128) de la hipotética",
+    "Practicar frases hipotéticas sobre situaciones imaginarias"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una condición que (probablemente) no es real",
+      "body": "Si + presente + futuro (clase A2-128) habla de algo que puede pasar de verdad: «S'il fait beau, je sortirai.» Si + imparfait + condicional habla de algo imaginario, poco probable o irreal: «S'il faisait beau, je sortirais» (pero seguramente no hará buen tiempo, o es solo una hipótesis).",
+      "examples": [
+        { "target": "Si j'avais plus d'argent, je voyagerais tout le temps.", "es": "Si tuviera más dinero, viajaría todo el tiempo.", "note": "si + imparfait (avais), condicional (voyagerais)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las dos condiciones",
+      "headers": ["Tipo", "Estructura", "Ejemplo"],
+      "rows": [
+        ["Realista", "si + présent + futur", "S'il fait beau, je sortirai."],
+        ["Hipotética", "si + imparfait + conditionnel", "S'il faisait beau, je sortirais."]
+      ],
+      "note": "En la parte con si, nunca va el condicional ni el futuro; solo el imparfait (o el presente en la condición realista)."
+    },
+    {
+      "type": "table",
+      "title": "Más ejemplos hipotéticos",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["Si j'avais plus d'argent, je voyagerais.", "Si tuviera más dinero, viajaría."],
+        ["Si tu étais moi, tu ferais quoi ?", "Si fueras yo, ¿qué harías?"],
+        ["Si nous avions le temps, nous irions au cinéma.", "Si tuviéramos tiempo, iríamos al cine."]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "si j'avais", "es": "si tuviera", "ipa": "/si ʒa.vɛ/", "esApprox": "«si sha-VE»", "pos": "verbo", "gender": null, "example": { "target": "Si j'avais plus d'argent, je voyagerais.", "es": "Si tuviera más dinero, viajaría." } },
+    { "id": "v2", "target": "si j'étais", "es": "si yo fuera/estuviera", "ipa": "/si ʒe.tɛ/", "esApprox": "«si ye-TE»", "pos": "verbo", "gender": null, "example": { "target": "Si j'étais riche, j'achèterais une maison.", "es": "Si fuera rico, compraría una casa." } },
+    { "id": "v3", "target": "si tu étais", "es": "si tú fueras/estuvieras", "ipa": "/si ty e.tɛ/", "esApprox": "«si tü e-TE»", "pos": "verbo", "gender": null, "example": { "target": "Si tu étais moi, tu ferais quoi ?", "es": "Si fueras yo, ¿qué harías?" } },
+    { "id": "v4", "target": "si nous avions", "es": "si tuviéramos", "ipa": "/si nu.z‿a.vjɔ̃/", "esApprox": "«si nu-za-VIÓN»", "pos": "verbo", "gender": null, "example": { "target": "Si nous avions le temps, nous irions au cinéma.", "es": "Si tuviéramos tiempo, iríamos al cine." } },
+    { "id": "v5", "target": "de l'argent", "es": "dinero", "ipa": "/də laʁ.ʒɑ̃/", "esApprox": "«de lar-YAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Si j'avais de l'argent, je voyagerais.", "es": "Si tuviera dinero, viajaría." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «si tuviera más dinero, viajaría»?",
+      "options": ["Si j'ai plus d'argent, je voyagerai.", "Si j'avais plus d'argent, je voyagerais.", "Si j'aurai plus d'argent, je voyagerais.", "Si j'avais plus d'argent, je voyagerai."],
+      "answer": 1,
+      "explain": "Si + imparfait (avais) + condicional (voyagerais): la condición hipotética."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "¿Qué tiempo verbal va justo después de si en la condición hipotética?",
+      "options": ["el futuro", "el condicional", "el imparfait", "el presente"],
+      "answer": 2,
+      "explain": "Después de si (en este tipo de frase), siempre va el imparfait, nunca el condicional ni el futuro."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "statement": "Si j'avais... es la condición hipotética; si j'ai... es la condición realista.",
+      "answer": true,
+      "explain": "Imparfait (avais) = hipotética (clase A2-132); presente (ai) = realista (clase A2-128)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "statement": "Después de si, el condicional está permitido si la frase es hipotética.",
+      "answer": false,
+      "explain": "El condicional nunca va justo después de si; va en la otra parte de la frase."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Une cada inicio con su continuación lógica",
+      "left": ["Si j'avais de l'argent,", "Si tu étais moi,", "Si nous avions le temps,", "Si j'étais riche,"],
+      "right": ["j'achèterais une maison.", "tu ferais quoi ?", "nous irions au cinéma.", "je voyagerais."],
+      "answer": [3, 1, 2, 0],
+      "explain": "Cada condición hipotética con si + imparfait tiene su consecuencia en condicional."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Si tuviera más dinero, viajaría todo el tiempo.",
+      "accept": ["Si j'avais plus d'argent, je voyagerais tout le temps"],
+      "hintWords": ["si j'avais plus d'argent", "je voyagerais tout le temps"],
+      "strictAccents": true,
+      "audio": "Si j'avais plus d'argent, je voyagerais tout le temps.",
+      "explain": "Si + imparfait (avais) + condicional (voyagerais)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Si fueras yo, ¿qué harías?",
+      "accept": ["Si tu étais moi, tu ferais quoi"],
+      "hintWords": ["si tu étais moi", "tu ferais quoi"],
+      "strictAccents": true,
+      "audio": "Si tu étais moi, tu ferais quoi ?",
+      "explain": "Si + imparfait (étais) + condicional (ferais)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Completa con el imparfait y el condicional correctos",
+      "text": "Si nous ___ le temps, nous ___ au cinéma.",
+      "blanks": [{ "accept": ["avions"] }, { "accept": ["irions"] }],
+      "bank": ["avions", "irions", "aurons"],
+      "explain": "Si + avions (imparfait) + irions (condicional)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Si fuera rico, compraría una casa»",
+      "tokens": ["j'achèterais une maison", "Si j'étais riche,"],
+      "answer": ["Si j'étais riche,", "j'achèterais une maison"],
+      "audio": "Si j'étais riche, j'achèterais une maison.",
+      "explain": "Si j'étais riche + j'achèterais une maison."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Si j'avais de l'argent, je voyagerais tout le temps, mais je n'en ai pas.",
+      "accept": ["Si tuviera dinero, viajaría todo el tiempo, pero no tengo."],
+      "strictAccents": false,
+      "audio": "Si j'avais de l'argent, je voyagerais tout le temps, mais je n'en ai pas.",
+      "explain": "La frase hipotética confirma que, en realidad, no tiene dinero."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre una situación hipotética",
+      "turns": [
+        { "who": "Léa", "text": "Si tu avais plus de temps libre, tu ferais quoi ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Si j'avais plus de temps libre, je voyagerais.", "Je voyagerais tout le temps."], "hint": "usa si + imparfait + condicional" },
+        { "who": "Léa", "text": "Ah, moi aussi !", "speak": true }
+      ],
+      "explain": "Si tu avais...? se responde con si j'avais... + condicional."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "speak": "Si j'avais de l'argent, je voyagerais. Si j'étais riche, j'achèterais une maison.",
+      "mode": "write",
+      "accept": ["Si j'avais de l'argent, je voyagerais. Si j'étais riche, j'achèterais une maison"],
+      "showTextAfter": true,
+      "explain": "Dos frases hipotéticas seguidas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["condicional", "si"],
+      "difficulty": 1,
+      "speak": "si j'avais",
+      "mode": "choose",
+      "options": ["si j'ai", "si j'aurai", "si j'avais", "si j'ai eu"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Si j'avais = si tuviera (imparfait después de si, condición hipotética)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["condicional", "si"],
+      "difficulty": 3,
+      "speak": "Si j'avais plus d'argent, je voyagerais tout le temps. Si j'étais toi, je changerais de vie.",
+      "es": "Si tuviera más dinero, viajaría todo el tiempo. Si fuera tú, cambiaría de vida.",
+      "ipa": "/si ʒa.vɛ ply.z‿aʁ.ʒɑ̃ ʒə vwa.ja.ʒə.ʁɛ tu lə tɑ̃ si ʒe.tɛ twa ʒə ʃɑ̃.ʒə.ʁɛ də vi/",
+      "esApprox": "«si sha-VE plü-zar-YAN ye vuá-ya-she-RE tu le TAN si ye-TE tuá ye shan-she-RE de VI»",
+      "focus": "Dos condiciones hipotéticas encadenadas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Di qué harías si tuvieras más dinero o más tiempo libre.",
+      "modelAnswer": "Si j'avais plus d'argent, je voyagerais tout le temps.",
+      "alsoValid": ["Si j'avais plus de temps libre, je lirais plus."],
+      "speak": "Si j'avais plus d'argent, je voyagerais tout le temps.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "¿Es una condición realista o hipotética?",
+      "buckets": ["Realista (si + présent)", "Hipotética (si + imparfait)"],
+      "items": [
+        { "text": "s'il fait beau, je sortirai", "bucket": 0 },
+        { "text": "s'il faisait beau, je sortirais", "bucket": 1 },
+        { "text": "si j'ai le temps, j'irai", "bucket": 0 },
+        { "text": "si j'avais le temps, j'irais", "bucket": 1 }
+      ],
+      "explain": "Si + présent + futur (realista) frente a si + imparfait + condicional (hipotética)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["condicional", "si"],
+      "difficulty": 2,
+      "prompt": "Hay un error: no se puede usar el condicional justo después de si. Corrige la frase entera.",
+      "wrong": "Si je serais riche, j'achèterais une maison.",
+      "accept": ["Si j'étais riche, j'achèterais une maison"],
+      "audio": "Si j'étais riche, j'achèterais une maison.",
+      "explain": "Después de si va el imparfait (j'étais), nunca el condicional."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "si j'avais", "es": "si tuviera", "esApprox": "«si sha-VE»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "si j'étais", "es": "si yo fuera/estuviera", "esApprox": "«si ye-TE»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "si tu étais", "es": "si tú fueras/estuvieras", "esApprox": "«si tü e-TE»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "si nous avions", "es": "si tuviéramos", "esApprox": "«si nu-za-VIÓN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "de l'argent", "es": "dinero", "esApprox": "«de lar-YAN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Si j'avais plus d'argent, je voyagerais tout le temps.", "es": "Si tuviera más dinero, viajaría todo el tiempo.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Si tu étais moi, tu ferais quoi ?", "es": "Si fueras yo, ¿qué harías?", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Si j'étais riche, j'achèterais une maison.", "es": "Si fuera rico, compraría una casa.", "from": "e9" }
+  ]
+}
