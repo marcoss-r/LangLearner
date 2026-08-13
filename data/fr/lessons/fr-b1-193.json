@@ -1,0 +1,245 @@
+{
+  "id": "fr-b1-193",
+  "lang": "fr",
+  "level": "B1",
+  "order": 193,
+  "title": "Contrastar los tres niveles de hipótesis (si+presente, si+imparfait, si+plus-que-parfait)",
+  "objectives": [
+    "Repasar los tres niveles de hipótesis con si y su estructura completa",
+    "Distinguir cuándo usar cada nivel según el tipo de condición",
+    "Practicar frases que contrastan los tres niveles sobre un mismo tema"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres formas de decir «si»",
+      "body": "Sin gramática nueva: hoy juntas los tres niveles de hipótesis que ya conoces por separado, para verlos contrastados uno junto a otro."
+    },
+    {
+      "type": "table",
+      "title": "Los tres niveles de hipótesis",
+      "headers": ["Nivel", "Estructura", "Cuándo", "Ejemplo"],
+      "rows": [
+        ["realista", "si + présent + présent/futur", "condición aún posible", "si tu pars, je viens"],
+        ["hipotético", "si + imparfait + conditionnel présent", "condición improbable pero posible", "si tu partais, je viendrais"],
+        ["irreal del pasado", "si + plus-que-parfait + conditionnel passé", "condición que ya no puede cambiar", "si tu étais parti, je serais venu"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "La pista está en el tiempo",
+      "body": "Un marcador como hier (ayer) señala que la condición pertenece al pasado y ya no puede cambiar: exige plus-que-parfait, no imparfait."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "si tu pars, je viens", "es": "si te vas, vengo", "ipa": "/si ty paʁ ʒə vjɛ̃/", "esApprox": "«si tü PAR ye VIEN»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "si tu partais, je viendrais", "es": "si te fueras, vendría", "ipa": "/si ty paʁ.tɛ ʒə vjɛ̃.dʁɛ/", "esApprox": "«si tü par-TE ye vien-DRE»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "si tu étais parti, je serais venu", "es": "si te hubieras ido, habría venido", "ipa": "/si ty e.tɛ paʁ.ti ʒə sə.ʁɛ və.ny/", "esApprox": "«si tü e-TE par-TÍ ye se-RE ve-NÜ»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "encore possible", "es": "todavía posible", "ipa": "/ɑ̃.kɔʁ pɔ.sibl/", "esApprox": "«an-KOR po-SIBL»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "peu probable", "es": "poco probable", "ipa": "/pø pʁɔ.babl/", "esApprox": "«pö pro-BABL»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "impossible maintenant", "es": "imposible ahora", "ipa": "/ɛ̃.pɔ.sibl mɛ̃t.nɑ̃/", "esApprox": "«in-po-SIBL mint-NAN»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "¿Qué estructura usas para una condición realista y aún posible?",
+      "options": ["si + présent + futur", "si + imparfait + conditionnel", "si + plus-que-parfait + conditionnel passé", "si + futur + futur"],
+      "answer": 0,
+      "explain": "Si + présent + présent/futur: condición realista."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "¿Qué nivel usas para algo que ya no se puede cambiar porque pertenece al pasado?",
+      "options": ["si + présent", "si + imparfait", "si + plus-que-parfait", "si + futur"],
+      "answer": 2,
+      "explain": "Si + plus-que-parfait + conditionnel passé: la hipótesis irreal del pasado."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "statement": "Si tu partais, je viendrais expresa una condición hipotética, no una certeza.",
+      "answer": true,
+      "explain": "Si + imparfait + conditionnel présent expresa algo improbable, no seguro."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "statement": "Los tres niveles de hipótesis usan siempre el mismo tiempo después de si.",
+      "answer": false,
+      "explain": "Cada nivel usa un tiempo distinto tras si: présent, imparfait o plus-que-parfait."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "Une cada frase con su nivel",
+      "left": ["si tu pars, je viens", "si tu partais, je viendrais", "si tu étais parti, je serais venu"],
+      "right": ["condición irreal del pasado", "condición realista", "condición hipotética"],
+      "answer": [1, 2, 0],
+      "explain": "Si tu pars = realista, si tu partais = hipotética, si tu étais parti = irreal del pasado."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "Si te vas, vengo; si te fueras, vendría; si te hubieras ido, habría venido.",
+      "accept": ["Si tu pars, je viens, si tu partais, je viendrais, si tu étais parti, je serais venu"],
+      "hintWords": ["si tu pars, je viens", "si tu partais, je viendrais, si tu étais parti, je serais venu"],
+      "strictAccents": true,
+      "audio": "Si tu pars, je viens ; si tu partais, je viendrais ; si tu étais parti, je serais venu.",
+      "explain": "Los tres niveles de hipótesis, uno tras otro, sobre el mismo tema."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "Si estudias, aprobarás; si estudiaras más, aprobarías mejor; si hubieras estudiado, habrías aprobado.",
+      "accept": ["Si tu étudies, tu réussiras, si tu étudiais plus, tu réussirais mieux, si tu avais étudié, tu aurais réussi"],
+      "hintWords": ["si tu étudies, tu réussiras", "si tu étudiais plus, tu réussirais mieux, si tu avais étudié, tu aurais réussi"],
+      "strictAccents": true,
+      "audio": "Si tu étudies, tu réussiras ; si tu étudiais plus, tu réussirais mieux ; si tu avais étudié, tu aurais réussi.",
+      "explain": "Los tres niveles de hipótesis aplicados a estudiar y aprobar."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Si tu ___ maintenant, tu arriveras à temps ; si tu ___ hier, tu ne serais pas en retard aujourd'hui.",
+      "blanks": [{ "accept": ["pars"] }, { "accept": ["étais parti"] }],
+      "bank": ["pars", "partais", "étais parti"],
+      "explain": "Maintenant (présent, realista) frente a hier (plus-que-parfait, irreal del pasado)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Si hubiera sabido, habría venido»",
+      "tokens": ["je serais venu", "Si j'avais su"],
+      "answer": ["Si j'avais su", "je serais venu"],
+      "audio": "Si j'avais su, je serais venu.",
+      "explain": "Si + plus-que-parfait + conditionnel passé."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "Si tu pars maintenant, tu arriveras à temps ; si tu étais parti hier, tu ne serais pas en retard aujourd'hui.",
+      "accept": ["Si te vas ahora, llegarás a tiempo; si te hubieras ido ayer, no llegarías tarde hoy."],
+      "strictAccents": false,
+      "audio": "Si tu pars maintenant, tu arriveras à temps ; si tu étais parti hier, tu ne serais pas en retard aujourd'hui.",
+      "explain": "Contraste entre condición realista (maintenant) e irreal del pasado (hier)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación con una hipótesis",
+      "turns": [
+        { "who": "Léa", "text": "Tu pars quand ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Si je pars maintenant, j'arrive à temps.", "Si j'étais parti hier, je ne serais pas en retard."], "hint": "usa uno de los tres niveles de hipótesis" },
+        { "who": "Léa", "text": "D'accord, dépêche-toi !", "speak": true }
+      ],
+      "explain": "Repaso combinado de los tres niveles de hipótesis."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "speak": "Si tu pars, je viens ; si tu partais, je viendrais ; si tu étais parti, je serais venu.",
+      "mode": "write",
+      "accept": ["Si tu pars, je viens ; si tu partais, je viendrais ; si tu étais parti, je serais venu"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de los tres niveles de hipótesis."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["contraste", "si"],
+      "difficulty": 1,
+      "speak": "si tu étais parti",
+      "mode": "choose",
+      "options": ["si tu pars", "si tu partais", "si tu étais parti", "si tu partiras"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Si tu étais parti es plus-que-parfait, el nivel irreal del pasado."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["contraste", "si"],
+      "difficulty": 3,
+      "speak": "Si tu pars maintenant, tu arriveras à temps. Si tu partais plus tard, tu serais en retard. Si tu étais parti hier, tu ne serais pas fatigué aujourd'hui.",
+      "es": "Si te vas ahora, llegarás a tiempo. Si te fueras más tarde, llegarías tarde. Si te hubieras ido ayer, no estarías cansado hoy.",
+      "ipa": "/si ty paʁ mɛ̃t.nɑ̃ ty a.ʁi.və.ʁa a tɑ̃ si ty paʁ.tɛ ply taʁ ty sə.ʁɛ ɑ̃ ʁə.taʁ si ty e.tɛ paʁ.ti jɛʁ ty nə sə.ʁɛ pa fa.ti.ge o.ʒuʁ.dɥi/",
+      "esApprox": "«si tü PAR mint-NAN tü a-ri-ve-RA a TAN si tü par-TE plü TAR tü se-RE an re-TAR si tü e-TE par-TÍ ier tü ne se-RE pa fa-ti-GÉ o-shur-DÜÍ»",
+      "focus": "Los tres niveles de hipótesis aplicados al mismo tema: llegar a tiempo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "Crea tres frases sobre el mismo tema, una para cada nivel de hipótesis.",
+      "modelAnswer": "Si j'étudie, je réussirai ; si j'étudiais plus, je réussirais mieux ; si j'avais étudié, j'aurais réussi.",
+      "alsoValid": ["Si tu pars, je viens ; si tu partais, je viendrais."],
+      "speak": "Si j'étudie, je réussirai ; si j'étudiais plus, je réussirais mieux ; si j'avais étudié, j'aurais réussi.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "¿Es realista (présent) o irreal del pasado (plus-que-parfait)?",
+      "buckets": ["Realista", "Irreal del pasado"],
+      "items": [
+        { "text": "si tu pars", "bucket": 0 },
+        { "text": "si tu étais parti", "bucket": 1 },
+        { "text": "si tu étudies", "bucket": 0 },
+        { "text": "si tu avais étudié", "bucket": 1 }
+      ],
+      "explain": "Si tu pars y si tu étudies son condiciones realistas; si tu étais parti y si tu avais étudié son condiciones irreales del pasado."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["contraste", "si"],
+      "difficulty": 2,
+      "prompt": "Hay un error: hier marca el pasado, así que exige plus-que-parfait. Corrige la frase entera.",
+      "wrong": "Si tu partais hier, tu ne serais pas en retard.",
+      "accept": ["Si tu étais parti hier, tu ne serais pas en retard"],
+      "audio": "Si tu étais parti hier, tu ne serais pas en retard.",
+      "explain": "Hier (ayer) exige plus-que-parfait (si tu étais parti), no imparfait (si tu partais)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "si tu pars, je viens", "es": "si te vas, vengo", "esApprox": "«si tü PAR ye VIEN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "si tu partais, je viendrais", "es": "si te fueras, vendría", "esApprox": "«si tü par-TE ye vien-DRE»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "si tu étais parti, je serais venu", "es": "si te hubieras ido, habría venido", "esApprox": "«si tü e-TE par-TÍ ye se-RE ve-NÜ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "encore possible", "es": "todavía posible", "esApprox": "«an-KOR po-SIBL»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "peu probable", "es": "poco probable", "esApprox": "«pö pro-BABL»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "impossible maintenant", "es": "imposible ahora", "esApprox": "«in-po-SIBL mint-NAN»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Si tu pars, je viens ; si tu partais, je viendrais ; si tu étais parti, je serais venu.", "es": "Si te vas, vengo; si te fueras, vendría; si te hubieras ido, habría venido.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Si tu étudies, tu réussiras ; si tu étudiais plus, tu réussirais mieux ; si tu avais étudié, tu aurais réussi.", "es": "Si estudias, aprobarás; si estudiaras más, aprobarías mejor; si hubieras estudiado, habrías aprobado.", "from": "e7" }
+  ]
+}

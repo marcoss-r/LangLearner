@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-186",
+  "lang": "fr",
+  "level": "B1",
+  "order": 186,
+  "title": "Repaso activo XVIII (clases 176–185)",
+  "objectives": [
+    "Repasar la formación del subjonctif présent, regular e irregular",
+    "Repasar los disparadores del subjonctif: deseo, emoción, duda, obligación y conjunciones",
+    "Practicar el contraste entre indicativo y subjonctif en frases combinadas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso del Bloque P: el subjuntivo",
+      "body": "Sin gramática nueva. El Bloque P ha sido denso: la formación del subjonctif, sus irregulares, y todos los contextos que lo activan (deseo, emoción, duda, obligación, conjunciones). Hoy repasas todo junto."
+    },
+    {
+      "type": "table",
+      "title": "Resumen de disparadores del subjonctif",
+      "headers": ["Contexto", "Ejemplo"],
+      "rows": [
+        ["deseo (sujeto distinto)", "je veux que tu partes"],
+        ["emoción (sujeto distinto)", "je suis content que tu sois là"],
+        ["duda / certeza negada", "je ne pense pas que ce soit vrai"],
+        ["obligación específica", "il faut que tu sois à l'heure"],
+        ["conjunciones", "bien que, pour que, avant que"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Lo que NO lleva subjonctif",
+      "body": "Recuerda: certeza afirmativa (je pense que, je suis sûr que, il est probable que), causa (parce que) y tiempo posterior (après que) llevan indicativo, no subjonctif."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il faut que", "es": "hace falta que", "ipa": "/il fo kə/", "esApprox": "«il FO ke»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "que je sois", "es": "que yo sea, que yo esté", "ipa": "/kə ʒə swa/", "esApprox": "«ke ye SUÁ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "je veux que", "es": "quiero que", "ipa": "/ʒə vø kə/", "esApprox": "«ye VÖ ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "je suis content(e) que", "es": "estoy contento/a de que", "ipa": "/ʒə sɥi kɔ̃.tɑ̃ kə/", "esApprox": "«ye süí kon-TAN ke»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "je ne pense pas que", "es": "no pienso que", "ipa": "/ʒə nə pɑ̃s pa kə/", "esApprox": "«ye ne PANS pa ke»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "bien que", "es": "aunque", "ipa": "/bjɛ̃ kə/", "esApprox": "«BIEN ke»", "pos": "conjunción", "gender": null },
+    { "id": "v7", "target": "je crois que oui", "es": "creo que sí", "ipa": "/ʒə kʁwa kə wi/", "esApprox": "«ye KRUÁ ke UÍ»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "je souhaiterais que", "es": "desearía que", "ipa": "/ʒə swɛ.tʁɛ kə/", "esApprox": "«ye suet-RE ke»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "¿De dónde se saca el radical del subjonctif regular?",
+      "options": ["del infinitivo", "de la forma ils/elles del presente", "del radical del futur", "del radical del imparfait"],
+      "answer": 1,
+      "explain": "Repaso de la clase B1-176."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el subjonctif de être para je?",
+      "options": ["je suis", "que je sois", "que je serai", "que j'étais"],
+      "answer": 1,
+      "explain": "Repaso de la clase B1-177."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "statement": "Je pense que (afirmativo) lleva indicativo, pero je ne pense pas que lleva subjonctif.",
+      "answer": true,
+      "explain": "Repaso de la clase B1-180."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "statement": "Après que lleva subjonctif, igual que avant que.",
+      "answer": false,
+      "explain": "Repaso de la clase B1-182: après que lleva indicativo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su contexto",
+      "left": ["je veux que", "je suis content que", "il faut que", "bien que"],
+      "right": ["conjunción (concesión)", "obligación específica", "deseo (sujeto distinto)", "emoción (sujeto distinto)"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Je veux que = deseo, je suis content que = emoción, il faut que = obligación, bien que = conjunción."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "Quiero que estés contento, aunque sea difícil.",
+      "accept": ["Je veux que tu sois content, bien que ce soit difficile"],
+      "hintWords": ["je veux que tu sois content", "bien que ce soit difficile"],
+      "strictAccents": true,
+      "audio": "Je veux que tu sois content, bien que ce soit difficile.",
+      "explain": "Deseo (je veux que) + conjunción (bien que), ambos con subjonctif."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "No pienso que sea fácil, pero hace falta que lo intentemos.",
+      "accept": ["Je ne pense pas que ce soit facile, mais il faut que nous essayions"],
+      "hintWords": ["je ne pense pas que ce soit facile", "mais il faut que nous essayions"],
+      "strictAccents": true,
+      "audio": "Je ne pense pas que ce soit facile, mais il faut que nous essayions.",
+      "explain": "Duda (je ne pense pas que) + obligación (il faut que), ambos con subjonctif."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Je pense qu'il ___ raison, mais je ne pense pas que ce ___ facile.",
+      "blanks": [{ "accept": ["a"] }, { "accept": ["soit"] }],
+      "bank": ["a", "soit", "est"],
+      "explain": "Repaso de la clase B1-180: afirmativo (indicativo) frente a negado (subjonctif)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Desearía que pudieras venir»",
+      "tokens": ["que vous puissiez venir", "Je souhaiterais"],
+      "answer": ["Je souhaiterais", "que vous puissiez venir"],
+      "audio": "Je souhaiterais que vous puissiez venir.",
+      "explain": "Repaso de la clase B1-185: fórmula formal con subjonctif."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "Je crois que oui, mais je ne suis pas sûr que ce soit la meilleure solution, bien que ça semble logique.",
+      "accept": ["Creo que sí, pero no estoy seguro de que sea la mejor solución, aunque parezca lógico."],
+      "strictAccents": false,
+      "audio": "Je crois que oui, mais je ne suis pas sûr que ce soit la meilleure solution, bien que ça semble logique.",
+      "explain": "Repaso combinado de opinión con reserva, duda y concesión."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación con una expresión del bloque",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu en penses ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je ne pense pas que ce soit une bonne idée.", "Je crois que oui, mais ça dépend."], "hint": "usa una expresión de opinión con subjonctif o indicativo" },
+        { "who": "Léa", "text": "D'accord, je comprends.", "speak": true }
+      ],
+      "explain": "Repaso combinado del Bloque P."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "speak": "Il faut que tu sois à l'heure, je veux que ce soit clair, et bien que ce soit difficile, je suis content que tu essaies.",
+      "mode": "write",
+      "accept": ["Il faut que tu sois à l'heure, je veux que ce soit clair, et bien que ce soit difficile, je suis content que tu essaies"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de todos los disparadores del subjonctif."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["subjuntivo"],
+      "difficulty": 1,
+      "speak": "je ne pense pas que",
+      "mode": "choose",
+      "options": ["je pense que", "je ne pense pas que", "je sais que", "je suis sûr que"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Solo je ne pense pas que exige subjonctif de esta lista."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["subjuntivo"],
+      "difficulty": 3,
+      "speak": "Je veux que tu sois content, bien que ce soit difficile, et je ne pense pas que ce soit impossible, il faut juste que nous essayions.",
+      "es": "Quiero que estés contento, aunque sea difícil, y no pienso que sea imposible, solo hace falta que lo intentemos.",
+      "ipa": "/ʒə vø kə ty swa kɔ̃.tɑ̃ bjɛ̃ kə sə swa di.fi.sil e ʒə nə pɑ̃s pa kə sə swa.t‿ɛ̃.pɔ.sibl il fo ʒys.tə kə nu.z‿ɛ.sɛ.jjɔ̃/",
+      "esApprox": "«ye VÖ ke tü suá kon-TAN BIEN ke se suá di-fi-SIL e ye ne PANS pa ke se suá-tin-po-SIBL il FO YÜST ke nu-ze-se-YION»",
+      "focus": "Repaso final: cuatro subjonctifs encadenados en una sola narración.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "Combina un deseo, una emoción y una duda en una sola explicación, usando subjonctif.",
+      "modelAnswer": "Je veux que tu sois content, je suis content que tu essaies, mais je ne pense pas que ce soit facile.",
+      "alsoValid": ["Il faut que tu sois à l'heure, bien que ce soit difficile."],
+      "speak": "Je veux que tu sois content, je suis content que tu essaies, mais je ne pense pas que ce soit facile.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "¿Es indicativo o subjonctif?",
+      "buckets": ["Indicativo", "Subjonctif"],
+      "items": [
+        { "text": "je pense que", "bucket": 0 },
+        { "text": "je ne pense pas que", "bucket": 1 },
+        { "text": "après que", "bucket": 0 },
+        { "text": "bien que", "bucket": 1 }
+      ],
+      "explain": "Repaso final del contraste indicativo/subjonctif del Bloque P."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["subjuntivo"],
+      "difficulty": 2,
+      "prompt": "Hay un error: il faut que exige subjonctif. Corrige la frase entera.",
+      "wrong": "Il faut que tu es à l'heure.",
+      "accept": ["Il faut que tu sois à l'heure"],
+      "audio": "Il faut que tu sois à l'heure.",
+      "explain": "Il faut que exige subjonctif (tu sois), no indicativo (tu es)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il faut que", "es": "hace falta que", "esApprox": "«il FO ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "que je sois", "es": "que yo sea, que yo esté", "esApprox": "«ke ye SUÁ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je veux que", "es": "quiero que", "esApprox": "«ye VÖ ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "je suis content(e) que", "es": "estoy contento/a de que", "esApprox": "«ye süí kon-TAN ke»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "je ne pense pas que", "es": "no pienso que", "esApprox": "«ye ne PANS pa ke»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "bien que", "es": "aunque", "esApprox": "«BIEN ke»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je veux que tu sois content, bien que ce soit difficile.", "es": "Quiero que estés contento, aunque sea difícil.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je ne pense pas que ce soit facile, mais il faut que nous essayions.", "es": "No pienso que sea fácil, pero hace falta que lo intentemos.", "from": "e7" }
+  ]
+}

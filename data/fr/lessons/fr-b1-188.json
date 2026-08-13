@@ -1,0 +1,253 @@
+{
+  "id": "fr-b1-188",
+  "lang": "fr",
+  "level": "B1",
+  "order": 188,
+  "title": "Si + plus-que-parfait + condicional pasado: la hipótesis irreal del pasado",
+  "objectives": [
+    "Formar el plus-que-parfait: imparfait de avoir/être + participio pasado",
+    "Construir la hipótesis irreal del pasado: si + plus-que-parfait + conditionnel passé",
+    "Practicar frases sobre cómo el pasado podría haber sido distinto"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El pasado del pasado",
+      "body": "El plus-que-parfait se forma como el passé composé, pero con el auxiliar (avoir o être) en imparfait en lugar de en presente. Se usa en la parte con si de una hipótesis sobre algo que ya no se puede cambiar."
+    },
+    {
+      "type": "table",
+      "title": "Formación del plus-que-parfait",
+      "headers": ["Verbo", "Ejemplo"],
+      "rows": [
+        ["savoir (avoir)", "j'avais su"],
+        ["venir (être)", "j'étais venu(e)"],
+        ["faire (avoir)", "tu avais fait"]
+      ],
+      "note": "Mismo auxiliar y mismas reglas de concordancia que en el passé composé, pero con el auxiliar en imparfait."
+    },
+    {
+      "type": "table",
+      "title": "La hipótesis irreal del pasado",
+      "headers": ["Parte", "Tiempo", "Ejemplo"],
+      "rows": [
+        ["si + ...", "plus-que-parfait", "si j'avais su"],
+        ["consecuencia", "conditionnel passé", "je serais venu(e)"]
+      ],
+      "note": "Si j'avais su, je serais venu: algo que ya no se puede cambiar, porque pertenece al pasado."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "si j'avais su", "es": "si hubiera sabido", "ipa": "/si ʒa.vɛ sy/", "esApprox": "«si sha-VE SÜ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je serais venu(e)", "es": "habría venido", "ipa": "/ʒə sə.ʁɛ və.ny/", "esApprox": "«ye se-RE ve-NÜ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "si tu avais fait", "es": "si hubieras hecho", "ipa": "/si ty a.vɛ fɛ/", "esApprox": "«si tü a-VE FE»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "nous n'aurions pas eu", "es": "no habríamos tenido", "ipa": "/nu no.ʁjɔ̃ pa.z‿y/", "esApprox": "«nu no-RIÓN pa-ZÜ»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "elle aurait pu", "es": "habría podido", "ipa": "/ɛl o.ʁɛ py/", "esApprox": "«el o-RE PÜ»", "pos": "verbo", "gender": null },
+    { "id": "v6", "target": "si nous avions parlé", "es": "si hubiéramos hablado", "ipa": "/si nu.z‿a.vjɔ̃ paʁ.le/", "esApprox": "«si nu-za-VIÓN par-LÉ»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "si vous étiez arrivé(e)(s)", "es": "si hubierais llegado", "ipa": "/si vu.z‿e.tje a.ʁi.ve/", "esApprox": "«si vu-ze-TIÉ a-ri-VÉ»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "j'aurais aimé", "es": "me habría gustado", "ipa": "/ʒo.ʁɛ.z‿ɛ.me/", "esApprox": "«sho-RE-ze-MÉ»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se forma el plus-que-parfait?",
+      "options": ["imparfait de avoir/être + participio", "conditionnel de avoir/être + participio", "presente de avoir/être + participio", "futur de avoir/être + participio"],
+      "answer": 0,
+      "explain": "El plus-que-parfait usa el auxiliar en imparfait."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "¿Qué estructura expresa una hipótesis irreal del pasado?",
+      "options": ["si + présent + futur", "si + imparfait + conditionnel présent", "si + plus-que-parfait + conditionnel passé", "si + passé composé + présent"],
+      "answer": 2,
+      "explain": "Si + plus-que-parfait + conditionnel passé: algo del pasado que ya no se puede cambiar."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "statement": "Si j'avais su, je serais venu es un ejemplo de hipótesis irreal del pasado.",
+      "answer": true,
+      "explain": "Plus-que-parfait (si j'avais su) + conditionnel passé (je serais venu)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "statement": "En la hipótesis irreal del pasado, la parte con si va en conditionnel passé.",
+      "answer": false,
+      "explain": "La parte con si va en plus-que-parfait; la consecuencia va en conditionnel passé."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "Une cada frase con su traducción",
+      "left": ["si j'avais su", "je serais venu(e)", "si tu avais fait", "elle aurait pu"],
+      "right": ["habría podido", "si hubieras hecho", "habría venido", "si hubiera sabido"],
+      "answer": [3, 2, 1, 0],
+      "explain": "Si j'avais su = si hubiera sabido, je serais venu = habría venido, si tu avais fait = si hubieras hecho, elle aurait pu = habría podido."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "Si hubiera sabido, habría venido antes.",
+      "accept": ["Si j'avais su, je serais venu plus tôt", "Si j'avais su, je serais venue plus tôt"],
+      "hintWords": ["si j'avais su", "je serais venu plus tôt"],
+      "strictAccents": true,
+      "audio": "Si j'avais su, je serais venu plus tôt.",
+      "explain": "Plus-que-parfait (si j'avais su) + conditionnel passé (je serais venu)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "Si hubieras hablado conmigo, no habríamos tenido este problema.",
+      "accept": ["Si tu avais parlé avec moi, nous n'aurions pas eu ce problème"],
+      "hintWords": ["si tu avais parlé avec moi", "nous n'aurions pas eu ce problème"],
+      "strictAccents": true,
+      "audio": "Si tu avais parlé avec moi, nous n'aurions pas eu ce problème.",
+      "explain": "Plus-que-parfait (si tu avais parlé) + conditionnel passé (nous n'aurions pas eu)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Si j' ___ la vérité, je ___ tout de suite.",
+      "blanks": [{ "accept": ["avais su"] }, { "accept": ["serais venu", "serais venue"] }],
+      "bank": ["avais su", "serais venu", "aurais su"],
+      "explain": "Si + plus-que-parfait (avais su) + conditionnel passé (serais venu)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Si hubieras hecho un esfuerzo, habrías tenido éxito»",
+      "tokens": ["tu aurais réussi", "Si tu avais fait un effort"],
+      "answer": ["Si tu avais fait un effort", "tu aurais réussi"],
+      "audio": "Si tu avais fait un effort, tu aurais réussi.",
+      "explain": "Si + plus-que-parfait (avais fait) + conditionnel passé (aurais réussi)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "Si nous avions parlé plus tôt, elle aurait pu nous aider.",
+      "accept": ["Si hubiéramos hablado antes, ella habría podido ayudarnos."],
+      "strictAccents": false,
+      "audio": "Si nous avions parlé plus tôt, elle aurait pu nous aider.",
+      "explain": "Plus-que-parfait (si nous avions parlé) + conditionnel passé (elle aurait pu)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando por qué no viniste",
+      "turns": [
+        { "who": "Léa", "text": "Pourquoi tu n'es pas venu ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Si j'avais su, je serais venu.", "J'aurais aimé venir, mais je ne savais pas."], "hint": "usa si + plus-que-parfait + conditionnel passé" },
+        { "who": "Léa", "text": "Ah, dommage !", "speak": true }
+      ],
+      "explain": "Repaso combinado de la hipótesis irreal del pasado."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "speak": "Si j'avais su, je serais venu plus tôt, et nous n'aurions pas eu ce problème.",
+      "mode": "write",
+      "accept": ["Si j'avais su, je serais venu plus tôt, et nous n'aurions pas eu ce problème"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de la hipótesis irreal del pasado."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 1,
+      "speak": "si j'avais su",
+      "mode": "choose",
+      "options": ["si j'ai su", "si j'avais su", "si je savais", "si j'aurais su"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Si j'avais su es el plus-que-parfait correcto para la hipótesis irreal del pasado."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 3,
+      "speak": "Si j'avais su, je serais venu plus tôt. Si tu avais parlé avec moi, nous n'aurions pas eu ce problème. Elle aurait pu nous aider.",
+      "es": "Si hubiera sabido, habría venido antes. Si hubieras hablado conmigo, no habríamos tenido este problema. Ella habría podido ayudarnos.",
+      "ipa": "/si ʒa.vɛ sy ʒə sə.ʁɛ və.ny ply to si ty a.vɛ paʁ.le a.vɛk mwa nu no.ʁjɔ̃ pa.z‿y sə pʁɔ.blɛm ɛl o.ʁɛ py nu.z‿ɛ.de/",
+      "esApprox": "«si sha-VE SÜ ye se-RE ve-NÜ plü TO si tü a-VE par-LÉ a-VEK muá nu no-RIÓN pa-ZÜ se pro-BLEM el o-RE PÜ nu-ze-DÉ»",
+      "focus": "Tres hipótesis irreales del pasado encadenadas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "Habla de algo que habría sido diferente si el pasado hubiera cambiado, usando si + plus-que-parfait + conditionnel passé.",
+      "modelAnswer": "Si j'avais su, je serais venu plus tôt.",
+      "alsoValid": ["Si tu avais parlé avec moi, nous n'aurions pas eu ce problème."],
+      "speak": "Si j'avais su, je serais venu plus tôt.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "¿Es la parte con si (plus-que-parfait) o la consecuencia (conditionnel passé)?",
+      "buckets": ["Parte con si", "Consecuencia"],
+      "items": [
+        { "text": "si j'avais su", "bucket": 0 },
+        { "text": "je serais venu", "bucket": 1 },
+        { "text": "si tu avais fait un effort", "bucket": 0 },
+        { "text": "elle aurait pu nous aider", "bucket": 1 }
+      ],
+      "explain": "La parte con si va en plus-que-parfait; la consecuencia va en conditionnel passé."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["condicional-pasado", "si"],
+      "difficulty": 2,
+      "prompt": "Hay un error: la parte con si nunca lleva conditionnel. Corrige la frase entera.",
+      "wrong": "Si j'aurais su, je serais venu.",
+      "accept": ["Si j'avais su, je serais venu", "Si j'avais su, je serais venue"],
+      "audio": "Si j'avais su, je serais venu.",
+      "explain": "La parte con si va en plus-que-parfait (si j'avais su), nunca en conditionnel (si j'aurais su)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "si j'avais su", "es": "si hubiera sabido", "esApprox": "«si sha-VE SÜ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je serais venu(e)", "es": "habría venido", "esApprox": "«ye se-RE ve-NÜ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "si tu avais fait", "es": "si hubieras hecho", "esApprox": "«si tü a-VE FE»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "nous n'aurions pas eu", "es": "no habríamos tenido", "esApprox": "«nu no-RIÓN pa-ZÜ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "elle aurait pu", "es": "habría podido", "esApprox": "«el o-RE PÜ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "si nous avions parlé", "es": "si hubiéramos hablado", "esApprox": "«si nu-za-VIÓN par-LÉ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Si j'avais su, je serais venu plus tôt.", "es": "Si hubiera sabido, habría venido antes.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Si tu avais parlé avec moi, nous n'aurions pas eu ce problème.", "es": "Si hubieras hablado conmigo, no habríamos tenido este problema.", "from": "e7" }
+  ]
+}
