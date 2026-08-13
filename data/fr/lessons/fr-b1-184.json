@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-184",
+  "lang": "fr",
+  "level": "B1",
+  "order": 184,
+  "title": "Dar tu opinión con matices: creo que sí, pero no estoy seguro",
+  "objectives": [
+    "Usar fórmulas cortas de opinión matizada: je crois que oui, ça dépend, pas vraiment, tout à fait",
+    "Distinguir je me demande si (+ indicativo) de je ne suis pas sûr que (+ subjonctif)",
+    "Practicar opiniones que combinan certeza parcial y duda"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Opinar sin ser tajante",
+      "body": "En una conversación real casi nunca respondes con un sí o un no rotundo. Hoy practicas fórmulas cortas para matizar tu opinión, combinadas con el contraste indicativo/subjonctif que ya conoces."
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas de opinión matizada",
+      "headers": ["Expresión", "Matiz"],
+      "rows": [
+        ["je crois que oui / non", "opinión con reserva"],
+        ["tout à fait", "acuerdo total"],
+        ["pas vraiment", "desacuerdo suave"],
+        ["ça dépend", "depende del contexto"],
+        ["d'un côté... de l'autre", "dos puntos de vista opuestos"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Je me demande si + indicativo",
+      "body": "Aunque expresa duda, je me demande si va seguido de indicativo, no de subjonctif: je me demande si tu as raison. Es distinto de je ne suis pas sûr que, que sí exige subjonctif."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je crois que oui", "es": "creo que sí", "ipa": "/ʒə kʁwa kə wi/", "esApprox": "«ye KRUÁ ke UÍ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je crois que non", "es": "creo que no", "ipa": "/ʒə kʁwa kə nɔ̃/", "esApprox": "«ye KRUÁ ke NON»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "je n'en suis pas sûr", "es": "no estoy seguro de eso", "ipa": "/ʒə nɑ̃ sɥi pa syʁ/", "esApprox": "«ye nan süí pa SÜR»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "ça dépend", "es": "depende", "ipa": "/sa de.pɑ̃/", "esApprox": "«sa de-PAN»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "tout à fait", "es": "totalmente, exactamente", "ipa": "/tu.t‿a fɛ/", "esApprox": "«tu-ta FE»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "pas vraiment", "es": "no exactamente, no mucho", "ipa": "/pa vʁɛ.mɑ̃/", "esApprox": "«pa vre-MAN»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "d'un côté... de l'autre", "es": "por un lado... por otro", "ipa": "/dœ̃ ko.te də lotʁ/", "esApprox": "«dun ko-TÉ de LOTR»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "je me demande si", "es": "me pregunto si", "ipa": "/ʒə mə də.mɑ̃d si/", "esApprox": "«ye me de-MAND si»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo dices «creo que sí» de forma corta?",
+      "options": ["je crois que oui", "je crois que non", "ça dépend", "pas vraiment"],
+      "answer": 0,
+      "explain": "Je crois que oui es la fórmula corta para «creo que sí»."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "¿Qué modo sigue a je me demande si?",
+      "options": ["indicativo", "subjonctif", "infinitivo", "conditionnel"],
+      "answer": 0,
+      "explain": "Je me demande si va con indicativo, aunque exprese duda."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "statement": "Tout à fait significa que estás totalmente de acuerdo.",
+      "answer": true,
+      "explain": "Tout à fait expresa acuerdo total."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "statement": "Ça dépend expresa una opinión fija y segura.",
+      "answer": false,
+      "explain": "Ça dépend expresa justo lo contrario: que la respuesta no es fija."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su matiz",
+      "left": ["je crois que oui", "pas vraiment", "ça dépend", "tout à fait"],
+      "right": ["no exactamente", "depende", "acuerdo total", "opinión con reserva"],
+      "answer": [3, 0, 1, 2],
+      "explain": "Je crois que oui = opinión con reserva, pas vraiment = no exactamente, ça dépend = depende, tout à fait = acuerdo total."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Creo que sí, pero no estoy seguro de que sea la mejor opción.",
+      "accept": ["Je crois que oui, mais je ne suis pas sûr que ce soit la meilleure option"],
+      "hintWords": ["je crois que oui", "mais je ne suis pas sûr que ce soit la meilleure option"],
+      "strictAccents": true,
+      "audio": "Je crois que oui, mais je ne suis pas sûr que ce soit la meilleure option.",
+      "explain": "Opinión con reserva combinada con duda (subjonctif)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Me pregunto si tienes razón; depende del contexto.",
+      "accept": ["Je me demande si tu as raison, ça dépend du contexte"],
+      "hintWords": ["je me demande si tu as raison", "ça dépend du contexte"],
+      "strictAccents": true,
+      "audio": "Je me demande si tu as raison, ça dépend du contexte.",
+      "explain": "Je me demande si + indicativo (tu as raison)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Completa con si o que",
+      "text": "Je me demande ___ tu as raison, mais je ne suis pas sûr ___ ce soit vrai.",
+      "blanks": [{ "accept": ["si"] }, { "accept": ["que"] }],
+      "bank": ["si", "que", "de"],
+      "explain": "Je me demande si + indicativo frente a je ne suis pas sûr que + subjonctif."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Por un lado estoy de acuerdo, por otro tengo dudas»",
+      "tokens": ["de l'autre j'ai des doutes", "D'un côté je suis d'accord"],
+      "answer": ["D'un côté je suis d'accord", "de l'autre j'ai des doutes"],
+      "audio": "D'un côté je suis d'accord, de l'autre j'ai des doutes.",
+      "explain": "D'un côté... de l'autre presenta dos puntos de vista opuestos."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Je crois que non, mais ça dépend, et je me demande si nous avons toutes les informations.",
+      "accept": ["Creo que no, pero depende, y me pregunto si tenemos toda la información."],
+      "strictAccents": false,
+      "audio": "Je crois que non, mais ça dépend, et je me demande si nous avons toutes les informations.",
+      "explain": "Tres matices combinados: opinión con reserva, ça dépend y duda con si."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación con una opinión matizada",
+      "turns": [
+        { "who": "Léa", "text": "Tu es d'accord ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Tout à fait.", "Pas vraiment, ça dépend."], "hint": "usa un matiz de opinión" },
+        { "who": "Léa", "text": "D'accord, je comprends.", "speak": true }
+      ],
+      "explain": "Repaso combinado de las fórmulas de opinión matizada."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "speak": "Je crois que oui, mais je ne suis pas sûr que ce soit la meilleure option. Ça dépend.",
+      "mode": "write",
+      "accept": ["Je crois que oui, mais je ne suis pas sûr que ce soit la meilleure option. Ça dépend"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de opinión con reserva, duda y ça dépend."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["opinion"],
+      "difficulty": 1,
+      "speak": "je me demande si",
+      "mode": "choose",
+      "options": ["je me demande si", "je ne suis pas sûr que", "je crois que", "ça dépend"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Je me demande si expresa duda pero va con indicativo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["opinion"],
+      "difficulty": 3,
+      "speak": "Je crois que oui, mais je ne suis pas sûr que ce soit vrai. D'un côté je suis d'accord, de l'autre je me demande si nous avons raison.",
+      "es": "Creo que sí, pero no estoy seguro de que sea verdad. Por un lado estoy de acuerdo, por otro me pregunto si tenemos razón.",
+      "ipa": "/ʒə kʁwa kə wi mɛ ʒə nə sɥi pa syʁ kə sə swa vʁɛ dœ̃ ko.te ʒə sɥi da.kɔʁ də lotʁ ʒə mə də.mɑ̃d si nu.z‿a.vɔ̃ ʁɛ.zɔ̃/",
+      "esApprox": "«ye KRUÁ ke UÍ me ye ne süí pa SÜR ke se suá VRE dun ko-TÉ ye süí da-KOR de LOTR ye me de-MAND si nu-za-VON re-ZÓN»",
+      "focus": "Opinión larga combinando reserva, duda y dos puntos de vista.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Da una opinión matizada usando al menos dos expresiones de duda o certeza distintas.",
+      "modelAnswer": "Je crois que oui, mais ça dépend, et je ne suis pas sûr que ce soit la meilleure solution.",
+      "alsoValid": ["D'un côté je suis d'accord, de l'autre je me demande si c'est vrai."],
+      "speak": "Je crois que oui, mais ça dépend, et je ne suis pas sûr que ce soit la meilleure solution.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "¿Es certeza/acuerdo o duda/matiz?",
+      "buckets": ["Certeza/acuerdo", "Duda/matiz"],
+      "items": [
+        { "text": "tout à fait", "bucket": 0 },
+        { "text": "pas vraiment", "bucket": 1 },
+        { "text": "je crois que oui", "bucket": 0 },
+        { "text": "ça dépend", "bucket": 1 }
+      ],
+      "explain": "Tout à fait y je crois que oui son certeza/acuerdo; pas vraiment y ça dépend son duda/matiz."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["opinion"],
+      "difficulty": 2,
+      "prompt": "Hay un error: je me demande si exige indicativo. Corrige la frase entera.",
+      "wrong": "Je me demande si tu aies raison.",
+      "accept": ["Je me demande si tu as raison"],
+      "audio": "Je me demande si tu as raison.",
+      "explain": "Je me demande si exige indicativo (tu as), no subjonctif (tu aies)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je crois que oui", "es": "creo que sí", "esApprox": "«ye KRUÁ ke UÍ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je crois que non", "es": "creo que no", "esApprox": "«ye KRUÁ ke NON»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "ça dépend", "es": "depende", "esApprox": "«sa de-PAN»", "from": "v4" },
+    { "id": "s4", "kind": "phrase", "target": "tout à fait", "es": "totalmente, exactamente", "esApprox": "«tu-ta FE»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "pas vraiment", "es": "no exactamente, no mucho", "esApprox": "«pa vre-MAN»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "je me demande si", "es": "me pregunto si", "esApprox": "«ye me de-MAND si»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je crois que oui, mais je ne suis pas sûr que ce soit la meilleure option.", "es": "Creo que sí, pero no estoy seguro de que sea la mejor opción.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je me demande si tu as raison, ça dépend du contexte.", "es": "Me pregunto si tienes razón; depende del contexto.", "from": "e7" }
+  ]
+}

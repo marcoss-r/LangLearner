@@ -1,0 +1,251 @@
+{
+  "id": "fr-b1-183",
+  "lang": "fr",
+  "level": "B1",
+  "order": 183,
+  "title": "Subjuntivo o indicativo: cuándo el francés elige uno u otro",
+  "objectives": [
+    "Repasar qué expresiones activan el subjonctif y cuáles no",
+    "Distinguir parejas que parecen similares pero exigen modos distintos: certeza/duda, avant que/après que",
+    "Practicar la elección entre subjonctif e indicativo en contexto"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Guía rápida: ¿subjonctif o indicativo?",
+      "body": "El subjonctif aparece tras deseo, emoción, duda negada, obligación y ciertas conjunciones (bien que, pour que, avant que). El indicativo aparece cuando hay certeza, causa o tiempo (après que, parce que, je suis sûr que)."
+    },
+    {
+      "type": "table",
+      "title": "Activa subjonctif frente a no lo activa",
+      "headers": ["Activa subjonctif", "No lo activa (indicativo)"],
+      "rows": [
+        ["il faut que, je veux que, bien que", "je suis sûr que, je sais que"],
+        ["je ne pense pas que, il est possible que", "je pense que, il est probable que"],
+        ["avant que (sujeto distinto)", "après que, parce que"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Parejas que engañan",
+      "headers": ["Parece igual, pero...", "Modo"],
+      "rows": [
+        ["je suis sûr que", "indicativo (certeza)"],
+        ["je ne suis pas sûr que", "subjonctif (duda)"],
+        ["avant que", "subjonctif"],
+        ["après que", "indicativo"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je suis sûr que", "es": "estoy seguro de que", "ipa": "/ʒə sɥi syʁ kə/", "esApprox": "«ye süí SÜR ke»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je ne suis pas sûr que", "es": "no estoy seguro de que", "ipa": "/ʒə nə sɥi pa syʁ kə/", "esApprox": "«ye ne süí pa SÜR ke»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "après que", "es": "después de que", "ipa": "/a.pʁɛ kə/", "esApprox": "«a-PRE ke»", "pos": "conjunción", "gender": null },
+    { "id": "v4", "target": "c'est parce que", "es": "es porque", "ipa": "/sɛ paʁs kə/", "esApprox": "«se PARS ke»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "je sais que", "es": "sé que", "ipa": "/ʒə sɛ kə/", "esApprox": "«ye SE ke»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "il faut que", "es": "hace falta que", "ipa": "/il fo kə/", "esApprox": "«il FO ke»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones NO activa el subjonctif?",
+      "options": ["il faut que", "je suis sûr que", "bien que", "je ne pense pas que"],
+      "answer": 1,
+      "explain": "Je suis sûr que expresa certeza y lleva indicativo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "¿Qué modo sigue a c'est parce que (causa)?",
+      "options": ["indicativo", "subjonctif", "infinitivo", "conditionnel"],
+      "answer": 0,
+      "explain": "La causa (parce que) siempre lleva indicativo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "statement": "Après que lleva subjonctif.",
+      "answer": false,
+      "explain": "Après que lleva indicativo, a diferencia de avant que."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "statement": "Je suis sûr que lleva indicativo porque expresa certeza.",
+      "answer": true,
+      "explain": "La certeza afirmativa siempre lleva indicativo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su modo",
+      "left": ["il faut que", "je suis sûr que", "bien que", "après que"],
+      "right": ["indicativo (certeza)", "subjonctif (concesión)", "indicativo (tiempo)", "subjonctif (obligación)"],
+      "answer": [3, 0, 1, 2],
+      "explain": "Il faut que = subjonctif (obligación), je suis sûr que = indicativo (certeza), bien que = subjonctif (concesión), après que = indicativo (tiempo)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "Estoy seguro de que tienes razón, pero no estoy seguro de que sea la mejor solución.",
+      "accept": ["Je suis sûr que tu as raison, mais je ne suis pas sûr que ce soit la meilleure solution"],
+      "hintWords": ["je suis sûr que tu as raison", "mais je ne suis pas sûr que ce soit la meilleure solution"],
+      "strictAccents": true,
+      "audio": "Je suis sûr que tu as raison, mais je ne suis pas sûr que ce soit la meilleure solution.",
+      "explain": "Certeza afirmativa (indicativo) frente a certeza negada (subjonctif)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "Después de que llegues, hablaremos; antes de que te vayas, hace falta que me expliques.",
+      "accept": ["Après que tu arrives, nous parlerons, avant que tu partes, il faut que tu m'expliques"],
+      "hintWords": ["après que tu arrives, nous parlerons", "avant que tu partes, il faut que tu m'expliques"],
+      "strictAccents": true,
+      "audio": "Après que tu arrives, nous parlerons, avant que tu partes, il faut que tu m'expliques.",
+      "explain": "Après que (indicativo) frente a avant que e il faut que (subjonctif)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Je suis sûr qu'il ___ raison, mais je ne suis pas sûr que ce ___ une bonne idée.",
+      "blanks": [{ "accept": ["a"] }, { "accept": ["soit"] }],
+      "bank": ["a", "soit", "ait"],
+      "explain": "Je suis sûr que + indicativo (a) frente a je ne suis pas sûr que + subjonctif (soit)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Después de que llegues, hablaremos»",
+      "tokens": ["nous parlerons", "Après que tu arrives"],
+      "answer": ["Après que tu arrives", "nous parlerons"],
+      "audio": "Après que tu arrives, nous parlerons.",
+      "explain": "Après que + indicativo, a diferencia de avant que + subjonctif."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "C'est parce qu'il pleut que je reste à la maison, bien que j'aie envie de sortir.",
+      "accept": ["Es porque llueve que me quedo en casa, aunque tengo ganas de salir."],
+      "strictAccents": false,
+      "audio": "C'est parce qu'il pleut que je reste à la maison, bien que j'aie envie de sortir.",
+      "explain": "Causa (parce que + indicativo) frente a concesión (bien que + subjonctif)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando el motivo",
+      "turns": [
+        { "who": "Léa", "text": "Pourquoi tu restes ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'est parce qu'il pleut.", "Bien que j'aie envie de sortir, je reste."], "hint": "usa causa (indicativo) o bien que (subjonctif)" },
+        { "who": "Léa", "text": "Ah, je comprends.", "speak": true }
+      ],
+      "explain": "Repaso combinado de causa e indicativo/subjonctif."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "speak": "Je suis sûr que tu as raison, mais je ne suis pas sûr que ce soit facile.",
+      "mode": "write",
+      "accept": ["Je suis sûr que tu as raison, mais je ne suis pas sûr que ce soit facile"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de certeza afirmativa y duda negada."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["contraste"],
+      "difficulty": 1,
+      "speak": "après que",
+      "mode": "choose",
+      "options": ["après que", "avant que", "bien que", "pour que"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Après que es la única de esta lista que lleva indicativo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["contraste"],
+      "difficulty": 3,
+      "speak": "Je suis sûr que tu as raison, bien que ce soit difficile, et il faut que nous partions avant qu'il soit trop tard.",
+      "es": "Estoy seguro de que tienes razón, aunque sea difícil, y hace falta que nos vayamos antes de que sea demasiado tarde.",
+      "ipa": "/ʒə sɥi syʁ kə ty a ʁɛ.zɔ̃ bjɛ̃ kə sə swa di.fi.sil e il fo kə nu paʁ.tjɔ̃ a.vɑ̃ kil swa tʁo taʁ/",
+      "esApprox": "«ye süí SÜR ke tü a re-ZÓN BIEN ke se suá di-fi-SIL e il FO ke nu par-TIÓN a-VAN kil suá tro TAR»",
+      "focus": "Contraste de indicativo (certeza) y subjonctif (concesión, obligación) en una sola frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "Crea una frase que combine una certeza (indicativo) y una concesión o duda (subjonctif).",
+      "modelAnswer": "Je suis sûr que tu as raison, bien que ce soit difficile à croire.",
+      "alsoValid": ["Je ne pense pas que ce soit facile, mais je sais que tu as essayé."],
+      "speak": "Je suis sûr que tu as raison, bien que ce soit difficile à croire.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "¿Es indicativo o subjonctif?",
+      "buckets": ["Indicativo", "Subjonctif"],
+      "items": [
+        { "text": "je suis sûr que", "bucket": 0 },
+        { "text": "je ne suis pas sûr que", "bucket": 1 },
+        { "text": "après que", "bucket": 0 },
+        { "text": "bien que", "bucket": 1 }
+      ],
+      "explain": "Je suis sûr que y après que llevan indicativo; je ne suis pas sûr que y bien que llevan subjonctif."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["contraste"],
+      "difficulty": 2,
+      "prompt": "Hay un error: la certeza afirmativa exige indicativo. Corrige la frase entera.",
+      "wrong": "Je suis sûr que tu aies raison.",
+      "accept": ["Je suis sûr que tu as raison"],
+      "audio": "Je suis sûr que tu as raison.",
+      "explain": "Je suis sûr que expresa certeza y exige indicativo (tu as), no subjonctif (tu aies)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je suis sûr que", "es": "estoy seguro de que", "esApprox": "«ye süí SÜR ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je ne suis pas sûr que", "es": "no estoy seguro de que", "esApprox": "«ye ne süí pa SÜR ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "après que", "es": "después de que", "esApprox": "«a-PRE ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "c'est parce que", "es": "es porque", "esApprox": "«se PARS ke»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "je sais que", "es": "sé que", "esApprox": "«ye SE ke»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "il faut que", "es": "hace falta que", "esApprox": "«il FO ke»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je suis sûr que tu as raison, mais je ne suis pas sûr que ce soit la meilleure solution.", "es": "Estoy seguro de que tienes razón, pero no estoy seguro de que sea la mejor solución.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "C'est parce qu'il pleut que je reste à la maison, bien que j'aie envie de sortir.", "es": "Es porque llueve que me quedo en casa, aunque tengo ganas de salir.", "from": "e10" }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "fr-b1-181",
+  "lang": "fr",
+  "level": "B1",
+  "order": 181,
+  "title": "Il faut que: la obligación con subjuntivo",
+  "objectives": [
+    "Contrastar il faut + infinitivo (obligación general) con il faut que + subjonctif (obligación para alguien concreto)",
+    "Usar il ne faut pas que para prohibiciones y il est nécessaire que para necesidades",
+    "Practicar frases de obligación, prohibición y necesidad"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos formas de decir «hay que»",
+      "body": "Il faut + infinitivo expresa una obligación general, sin decir para quién. Il faut que + subjonctif expresa una obligación para una persona concreta."
+    },
+    {
+      "type": "table",
+      "title": "Obligación general frente a obligación específica",
+      "headers": ["Estructura", "Uso", "Ejemplo"],
+      "rows": [
+        ["il faut + infinitivo", "obligación general", "il faut partir tôt"],
+        ["il faut que + subjonctif", "obligación para alguien concreto", "il faut que tu partes tôt"],
+        ["il ne faut pas que + subjonctif", "prohibición", "il ne faut pas que tu sois en retard"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "La necesidad siempre lleva subjonctif",
+      "body": "A diferencia de penser/croire (donde solo el negativo lleva subjonctif), las expresiones de necesidad como il est nécessaire que llevan subjonctif tanto en afirmativo como en negativo: il est nécessaire que tu fasses attention, il n'est pas nécessaire que tu sois là."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il faut partir", "es": "hay que irse", "ipa": "/il fo paʁ.tiʁ/", "esApprox": "«il FO par-TIR»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "il faut que tu partes", "es": "tienes que irte", "ipa": "/il fo kə ty paʁt/", "esApprox": "«il FO ke tü PART»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "il ne faut pas que", "es": "no debe, no hay que", "ipa": "/il nə fo pa kə/", "esApprox": "«il ne FO pa ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "il est nécessaire que", "es": "es necesario que", "ipa": "/i.l‿ɛ ne.se.sɛʁ kə/", "esApprox": "«il e ne-se-SER ke»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "il n'est pas nécessaire que", "es": "no es necesario que", "ipa": "/il nɛ pa ne.se.sɛʁ kə/", "esApprox": "«il ne pa ne-se-SER ke»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "que vous fassiez attention", "es": "que tengáis cuidado", "ipa": "/kə vu fa.sje a.tɑ̃.sjɔ̃/", "esApprox": "«ke vu fa-SIÉ a-tan-SIÓN»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "que tu sois à l'heure", "es": "que llegues puntual", "ipa": "/kə ty swa a lœʁ/", "esApprox": "«ke tü suá a LÖR»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "que nous partions", "es": "que nosotros nos vayamos", "ipa": "/kə nu paʁ.tjɔ̃/", "esApprox": "«ke nu par-TIÓN»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la obligación general, sin decir para quién?",
+      "options": ["il faut partir", "il faut que tu partes", "il faut que je parte", "il faut que nous partions"],
+      "answer": 0,
+      "explain": "Il faut + infinitivo, sin que, expresa una obligación general."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «no debes llegar tarde»?",
+      "options": ["Il ne faut pas que tu sois en retard.", "Il ne faut pas être en retard.", "Il ne faut pas que tu es en retard.", "Il faut que tu ne sois pas en retard."],
+      "answer": 0,
+      "explain": "Il ne faut pas que + subjonctif expresa una prohibición dirigida a alguien concreto."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "statement": "Il est nécessaire que siempre lleva subjonctif, incluso en negativo.",
+      "answer": true,
+      "explain": "A diferencia de penser/croire, la necesidad siempre lleva subjonctif."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "statement": "Il faut que + infinitivo es la estructura para una obligación general.",
+      "answer": false,
+      "explain": "La obligación general es il faut + infinitivo, sin que. Il faut que va con subjonctif."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Une cada frase con su función",
+      "left": ["il faut partir", "il faut que tu partes", "il ne faut pas que tu partes", "il est nécessaire que tu partes"],
+      "right": ["prohibición", "necesidad específica", "obligación específica", "obligación general"],
+      "answer": [3, 2, 0, 1],
+      "explain": "Il faut partir = obligación general, il faut que tu partes = obligación específica, il ne faut pas que tu partes = prohibición, il est nécessaire que tu partes = necesidad específica."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Hay que llegar temprano, y tienes que estar listo a las ocho.",
+      "accept": ["Il faut arriver tôt, et il faut que tu sois prêt à huit heures"],
+      "hintWords": ["il faut arriver tôt", "et il faut que tu sois prêt à huit heures"],
+      "strictAccents": true,
+      "audio": "Il faut arriver tôt, et il faut que tu sois prêt à huit heures.",
+      "explain": "Obligación general (il faut arriver) + obligación específica (il faut que tu sois)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "No debes llegar tarde, es necesario que tengas cuidado.",
+      "accept": ["Il ne faut pas que tu sois en retard, il est nécessaire que tu fasses attention"],
+      "hintWords": ["il ne faut pas que tu sois en retard", "il est nécessaire que tu fasses attention"],
+      "strictAccents": true,
+      "audio": "Il ne faut pas que tu sois en retard, il est nécessaire que tu fasses attention.",
+      "explain": "Prohibición (il ne faut pas que) + necesidad (il est nécessaire que)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Il ___ partir tôt, mais il ne faut pas que tu ___ en retard.",
+      "blanks": [{ "accept": ["faut"] }, { "accept": ["sois"] }],
+      "bank": ["faut", "sois", "es"],
+      "explain": "Il faut + infinitivo (obligación general) frente a il ne faut pas que + subjonctif (prohibición)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es necesario que tengáis cuidado»",
+      "tokens": ["attention", "Il est nécessaire que vous fassiez"],
+      "answer": ["Il est nécessaire que vous fassiez", "attention"],
+      "audio": "Il est nécessaire que vous fassiez attention.",
+      "explain": "Il est nécessaire que + subjonctif irregular de faire (que vous fassiez)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Il faut que nous partions tôt, et il n'est pas nécessaire que tu sois là.",
+      "accept": ["Hace falta que salgamos temprano, y no es necesario que estés allí."],
+      "strictAccents": false,
+      "audio": "Il faut que nous partions tôt, et il n'est pas nécessaire que tu sois là.",
+      "explain": "Dos obligaciones específicas, una afirmativa y otra negada, ambas con subjonctif."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación con una obligación o prohibición",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce qu'il faut faire ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il faut que tu sois à l'heure.", "Il ne faut pas que tu sois en retard."], "hint": "usa il faut que o il ne faut pas que" },
+        { "who": "Léa", "text": "D'accord, je vais faire attention.", "speak": true }
+      ],
+      "explain": "Repaso combinado de obligación y prohibición con subjonctif."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "speak": "Il faut que tu sois à l'heure, et il ne faut pas que nous soyons en retard.",
+      "mode": "write",
+      "accept": ["Il faut que tu sois à l'heure, et il ne faut pas que nous soyons en retard"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de obligación y prohibición."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["obligacion"],
+      "difficulty": 1,
+      "speak": "il n'est pas nécessaire que",
+      "mode": "choose",
+      "options": ["il n'est pas nécessaire que", "il est nécessaire que", "il ne faut pas que", "il faut que"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Il n'est pas nécessaire que niega la necesidad, no la prohíbe."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["obligacion"],
+      "difficulty": 3,
+      "speak": "Il faut partir tôt, il faut que tu sois prêt, il ne faut pas que nous soyons en retard, et il est nécessaire que vous fassiez attention.",
+      "es": "Hay que salir temprano, tienes que estar listo, no debemos llegar tarde, y es necesario que tengáis cuidado.",
+      "ipa": "/il fo paʁ.tiʁ to il fo kə ty swa pʁɛ il nə fo pa kə nu swa.jɔ̃.z‿ɑ̃ ʁə.taʁ e i.l‿ɛ ne.se.sɛʁ kə vu fa.sje.z‿a.tɑ̃.sjɔ̃/",
+      "esApprox": "«il FO par-TIR TO il FO ke tü suá PRE il ne FO pa ke nu suá-yon-zan re-TAR e il e ne-se-SER ke vu fa-sié-za-tan-SIÓN»",
+      "focus": "Cuatro estructuras de obligación encadenadas: general, específica, prohibición y necesidad.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Da una obligación general y una obligación específica para alguien, usando il faut e il faut que.",
+      "modelAnswer": "Il faut arriver tôt, et il faut que tu sois prêt à huit heures.",
+      "alsoValid": ["Il ne faut pas que nous soyons en retard."],
+      "speak": "Il faut arriver tôt, et il faut que tu sois prêt à huit heures.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "¿Es obligación general (infinitivo) u obligación específica (subjonctif)?",
+      "buckets": ["Obligación general", "Obligación específica"],
+      "items": [
+        { "text": "il faut partir", "bucket": 0 },
+        { "text": "il faut que tu partes", "bucket": 1 },
+        { "text": "il faut arriver tôt", "bucket": 0 },
+        { "text": "il faut que nous partions", "bucket": 1 }
+      ],
+      "explain": "Il faut partir e il faut arriver tôt son obligación general; il faut que tu partes e il faut que nous partions son obligación específica."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Hay un error: il faut que exige subjonctif. Corrige la frase entera.",
+      "wrong": "Il faut que je pars tôt.",
+      "accept": ["Il faut que je parte tôt"],
+      "audio": "Il faut que je parte tôt.",
+      "explain": "Il faut que exige subjonctif (que je parte), no indicativo (je pars)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il faut partir", "es": "hay que irse", "esApprox": "«il FO par-TIR»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "il faut que tu partes", "es": "tienes que irte", "esApprox": "«il FO ke tü PART»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "il ne faut pas que", "es": "no debe, no hay que", "esApprox": "«il ne FO pa ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "il est nécessaire que", "es": "es necesario que", "esApprox": "«il e ne-se-SER ke»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "il n'est pas nécessaire que", "es": "no es necesario que", "esApprox": "«il ne pa ne-se-SER ke»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "que tu sois à l'heure", "es": "que llegues puntual", "esApprox": "«ke tü suá a LÖR»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Il faut arriver tôt, et il faut que tu sois prêt à huit heures.", "es": "Hay que llegar temprano, y tienes que estar listo a las ocho.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Il ne faut pas que tu sois en retard, il est nécessaire que tu fasses attention.", "es": "No debes llegar tarde, es necesario que tengas cuidado.", "from": "e7" }
+  ]
+}

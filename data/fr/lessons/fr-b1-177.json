@@ -1,0 +1,262 @@
+{
+  "id": "fr-b1-177",
+  "lang": "fr",
+  "level": "B1",
+  "order": 177,
+  "title": "Los subjuntivos irregulares más usados (être, avoir, aller, faire, pouvoir, savoir)",
+  "objectives": [
+    "Memorizar el subjonctif présent irregular de être y avoir",
+    "Memorizar el subjonctif présent irregular de aller, faire, pouvoir y savoir",
+    "Practicar estos seis verbos irregulares con il faut que"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Seis verbos que no siguen la regla",
+      "body": "Être, avoir, aller, faire, pouvoir y savoir tienen un subjonctif présent irregular: no se forma a partir de ils/elles en presente. Son los seis irregulares más frecuentes y hay que memorizarlos."
+    },
+    {
+      "type": "table",
+      "title": "Être y avoir",
+      "headers": ["Persona", "être", "avoir"],
+      "rows": [
+        ["que je / j'", "sois", "aie"],
+        ["que tu", "sois", "aies"],
+        ["qu'il / elle", "soit", "ait"],
+        ["que nous", "soyons", "ayons"],
+        ["que vous", "soyez", "ayez"],
+        ["qu'ils / elles", "soient", "aient"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Aller, faire, pouvoir, savoir",
+      "headers": ["Persona", "aller", "faire", "pouvoir", "savoir"],
+      "rows": [
+        ["que je", "aille", "fasse", "puisse", "sache"],
+        ["que nous", "allions", "fassions", "puissions", "sachions"]
+      ],
+      "note": "Aller y faire cambian de radical entre je/tu/il/ils (aill-, fass-) y nous/vous (all-, fass-... salvo aller: allions/alliez). Pouvoir y savoir usan un solo radical (puiss-, sach-) en todas las personas."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "que je sois", "es": "que yo sea, que yo esté", "ipa": "/kə ʒə swa/", "esApprox": "«ke ye SUÁ»", "pos": "verbo", "gender": null },
+    { "id": "v2", "target": "que j'aie", "es": "que yo tenga", "ipa": "/kə ʒe/", "esApprox": "«ke ye»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "que j'aille", "es": "que yo vaya", "ipa": "/kə ʒaj/", "esApprox": "«ke shai»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "que je fasse", "es": "que yo haga", "ipa": "/kə ʒə fas/", "esApprox": "«ke ye FAS»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "que je puisse", "es": "que yo pueda", "ipa": "/kə ʒə pɥis/", "esApprox": "«ke ye PÜIS»", "pos": "verbo", "gender": null },
+    { "id": "v6", "target": "que je sache", "es": "que yo sepa", "ipa": "/kə ʒə saʃ/", "esApprox": "«ke ye SASH»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "que nous soyons", "es": "que nosotros seamos, que nosotros estemos", "ipa": "/kə nu swa.jɔ̃/", "esApprox": "«ke nu suá-YON»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "que vous ayez", "es": "que vosotros tengáis", "ipa": "/kə vu.z‿e.je/", "esApprox": "«ke vu-ze-YÉ»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el subjonctif de être para je?",
+      "options": ["je suis", "que je sois", "que je serai", "que j'étais"],
+      "answer": 1,
+      "explain": "Être es irregular: que je sois, no que je suis."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el subjonctif de avoir para nous?",
+      "options": ["que nous ayons", "que nous avons", "que nous aurons", "que nous avions"],
+      "answer": 0,
+      "explain": "Avoir es irregular: que nous ayons."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "statement": "El subjonctif de aller para je es que j'aille.",
+      "answer": true,
+      "explain": "Aller es irregular en je/tu/il/ils: que j'aille."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "statement": "El subjonctif de savoir para je es que je sais.",
+      "answer": false,
+      "explain": "El subjonctif de savoir es que je sache, no que je sais (que es indicativo)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su subjonctif de je",
+      "left": ["être", "avoir", "aller", "faire"],
+      "right": ["que je fasse", "que je sois", "que j'aille", "que j'aie"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Être → que je sois, avoir → que j'aie, aller → que j'aille, faire → que je fasse."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Hace falta que yo sea puntual y que tenga paciencia.",
+      "accept": ["Il faut que je sois ponctuel et que j'aie de la patience", "Il faut que je sois ponctuelle et que j'aie de la patience"],
+      "hintWords": ["il faut que je sois ponctuel", "et que j'aie de la patience"],
+      "strictAccents": true,
+      "audio": "Il faut que je sois ponctuel et que j'aie de la patience.",
+      "explain": "Dos subjonctifs irregulares combinados: être y avoir."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Hace falta que vayamos allí y que hagamos algo.",
+      "accept": ["Il faut que nous allions là-bas et que nous fassions quelque chose"],
+      "hintWords": ["il faut que nous allions là-bas", "et que nous fassions quelque chose"],
+      "strictAccents": true,
+      "audio": "Il faut que nous allions là-bas et que nous fassions quelque chose.",
+      "explain": "Dos subjonctifs irregulares combinados: aller y faire."
+    },
+    {
+      "id": "e8",
+      "type": "conjugation",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "verb": "être",
+      "tense": "subjonctif présent",
+      "prompt": "Conjuga «être» en subjonctif présent (después de il faut que)",
+      "rows": [
+        { "person": "que je", "accept": ["sois"] },
+        { "person": "que tu", "accept": ["sois"] },
+        { "person": "qu'il / elle", "accept": ["soit"] },
+        { "person": "que nous", "accept": ["soyons"] },
+        { "person": "que vous", "accept": ["soyez"] },
+        { "person": "qu'ils / elles", "accept": ["soient"] }
+      ],
+      "explain": "Être tiene un radical irregular propio (soi-/soy-) en el subjonctif."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hace falta que puedas venir»",
+      "tokens": ["venir", "Il faut que tu puisses"],
+      "answer": ["Il faut que tu puisses", "venir"],
+      "audio": "Il faut que tu puisses venir.",
+      "explain": "Il faut que + subjonctif irregular de pouvoir (que tu puisses)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Il faut que je sois à l'heure, que j'aie mon passeport, et que je sache où aller.",
+      "accept": ["Hace falta que sea puntual, que tenga mi pasaporte, y que sepa adónde ir."],
+      "strictAccents": false,
+      "audio": "Il faut que je sois à l'heure, que j'aie mon passeport, et que je sache où aller.",
+      "explain": "Tres subjonctifs irregulares combinados: être, avoir y savoir."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación con una obligación",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce qu'il faut que je fasse ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il faut que tu sois patient.", "Il faut que tu ailles à la gare."], "hint": "usa un subjonctif irregular" },
+        { "who": "Léa", "text": "D'accord, je comprends.", "speak": true }
+      ],
+      "explain": "Repaso combinado de los subjonctifs irregulares."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "speak": "Il faut que je sois à l'heure, que j'aie de la patience, et que je sache la réponse.",
+      "mode": "write",
+      "accept": ["Il faut que je sois à l'heure, que j'aie de la patience, et que je sache la réponse"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de los subjonctifs irregulares de être, avoir y savoir."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 1,
+      "speak": "que nous soyons",
+      "mode": "choose",
+      "options": ["que nous sommes", "que nous soyons", "que nous serons", "que nous étions"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "El subjonctif de être para nous es que nous soyons."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 3,
+      "speak": "Il faut que je sois à l'heure, que j'aille à la réunion, que je fasse bonne impression, et que je sache quoi dire.",
+      "es": "Hace falta que sea puntual, que vaya a la reunión, que dé buena impresión, y que sepa qué decir.",
+      "ipa": "/il fo kə ʒə swa a lœʁ kə ʒaj a la ʁe.y.njɔ̃ kə ʒə fas bɔn ɛ̃.pʁɛ.sjɔ̃ e kə ʒə saʃ kwa diʁ/",
+      "esApprox": "«il FO ke ye SUÁ a LÖR ke shai a la re-ü-NIÓN ke ye FAS bon in-pre-SIÓN e ke ye SASH kuá DIR»",
+      "focus": "Cuatro subjonctifs irregulares encadenados: être, aller, faire y savoir.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Di tres obligaciones usando il faut que con verbos irregulares (être, avoir, aller, faire, pouvoir, savoir).",
+      "modelAnswer": "Il faut que je sois ponctuel, que j'aie mon billet, et que je sache l'heure du train.",
+      "alsoValid": ["Il faut que nous allions à la gare et que nous puissions partir tôt."],
+      "speak": "Il faut que je sois ponctuel, que j'aie mon billet, et que je sache l'heure du train.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Es être/avoir o aller/faire?",
+      "buckets": ["être/avoir", "aller/faire"],
+      "items": [
+        { "text": "que je sois", "bucket": 0 },
+        { "text": "que j'aille", "bucket": 1 },
+        { "text": "que j'aie", "bucket": 0 },
+        { "text": "que je fasse", "bucket": 1 }
+      ],
+      "explain": "Que je sois y que j'aie son de être/avoir; que j'aille y que je fasse son de aller/faire."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["subjuntivo", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Hay un error: être es irregular en el subjonctif. Corrige la frase entera.",
+      "wrong": "Il faut que je suis à l'heure.",
+      "accept": ["Il faut que je sois à l'heure"],
+      "audio": "Il faut que je sois à l'heure.",
+      "explain": "Il faut que exige subjonctif (que je sois), no indicativo (je suis)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "que je sois", "es": "que yo sea, que yo esté", "esApprox": "«ke ye SUÁ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "que j'aie", "es": "que yo tenga", "esApprox": "«ke ye»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "que j'aille", "es": "que yo vaya", "esApprox": "«ke shai»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "que je fasse", "es": "que yo haga", "esApprox": "«ke ye FAS»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "que je puisse", "es": "que yo pueda", "esApprox": "«ke ye PÜIS»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "que je sache", "es": "que yo sepa", "esApprox": "«ke ye SASH»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "que nous soyons", "es": "que nosotros seamos, que nosotros estemos", "esApprox": "«ke nu suá-YON»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "que vous ayez", "es": "que vosotros tengáis", "esApprox": "«ke vu-ze-YÉ»", "from": "v8" }
+  ]
+}

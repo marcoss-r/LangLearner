@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-185",
+  "lang": "fr",
+  "level": "B1",
+  "order": 185,
+  "title": "Pedir algo formalmente usando el subjuntivo",
+  "objectives": [
+    "Usar je souhaiterais que, il serait souhaitable que y pourriez-vous faire en sorte que con subjonctif",
+    "Combinar el conditionnel de cortesía con el subjonctif en peticiones formales",
+    "Practicar peticiones formales, como en un correo o una carta"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Peticiones formales con subjonctif",
+      "body": "En un registro formal (un correo, una carta, hablar con un desconocido), las peticiones combinan el conditionnel de cortesía con el subjonctif: je souhaiterais que vous puissiez..."
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas formales",
+      "headers": ["Expresión", "Uso"],
+      "rows": [
+        ["je souhaiterais que", "deseo formal"],
+        ["je voudrais que", "deseo formal (más directo)"],
+        ["pourriez-vous faire en sorte que", "petición formal cortés"],
+        ["il serait souhaitable que", "sugerencia o recomendación formal"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Conditionnel + subjonctif",
+      "body": "La cortesía formal combina dos cosas que ya conoces: el conditionnel (je souhaiterais, il serait) para suavizar la petición, y el subjonctif después de que para la acción pedida."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je souhaiterais que", "es": "desearía que", "ipa": "/ʒə swɛ.tʁɛ kə/", "esApprox": "«ye suet-RE ke»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "j'aimerais que vous puissiez", "es": "me gustaría que usted pudiera", "ipa": "/ʒɛ.mʁɛ kə vu pɥi.sje/", "esApprox": "«she-me-RE ke vu püi-SIÉ»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "je voudrais que vous fassiez", "es": "querría que hicieran", "ipa": "/ʒə vu.dʁɛ kə vu fa.sje/", "esApprox": "«ye vu-DRE ke vu fa-SIÉ»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "pourriez-vous faire en sorte que", "es": "¿podría usted hacer que...?", "ipa": "/pu.ʁje vu fɛʁ ɑ̃ sɔʁt kə/", "esApprox": "«pu-RIÉ vu FER an SORT ke»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "il serait souhaitable que", "es": "sería deseable que", "ipa": "/il sə.ʁɛ swɛ.tabl kə/", "esApprox": "«il se-RE suet-TABL ke»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "que vous puissiez", "es": "que usted/ustedes puedan", "ipa": "/kə vu pɥi.sje/", "esApprox": "«ke vu püi-SIÉ»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "que vous fassiez", "es": "que usted/ustedes hagan", "ipa": "/kə vu fa.sje/", "esApprox": "«ke vu fa-SIÉ»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "que ce soit possible", "es": "que sea posible", "ipa": "/kə sə swa pɔ.sibl/", "esApprox": "«ke se suá po-SIBL»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la fórmula más formal para pedir algo?",
+      "options": ["je veux que", "je souhaiterais que", "tu peux", "donne-moi"],
+      "answer": 1,
+      "explain": "Je souhaiterais que, con conditionnel, es más formal que je veux que."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «¿podría hacer que fuera posible?» de forma formal?",
+      "options": ["Pourriez-vous faire en sorte que ce soit possible ?", "Tu peux faire que ce soit possible ?", "Fais que ce soit possible.", "Je veux que ce soit possible."],
+      "answer": 0,
+      "explain": "Pourriez-vous (conditionnel) + faire en sorte que + subjonctif es la forma más formal."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "statement": "Il serait souhaitable que va seguido de subjonctif.",
+      "answer": true,
+      "explain": "Il serait souhaitable que ce soit possible: subjonctif."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "statement": "Je souhaiterais que se usa en un registro informal, como coucou.",
+      "answer": false,
+      "explain": "Je souhaiterais que es formal; coucou es informal."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su función",
+      "left": ["je souhaiterais que", "pourriez-vous faire en sorte que", "il serait souhaitable que", "je voudrais que"],
+      "right": ["sugerencia formal (sería deseable)", "deseo formal (desearía)", "petición formal (¿podría?)", "deseo formal (querría)"],
+      "answer": [1, 2, 0, 3],
+      "explain": "Je souhaiterais que = deseo formal, pourriez-vous = petición cortés, il serait souhaitable que = sugerencia formal, je voudrais que = deseo directo formal."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "Desearía que pudiera ayudarme con este problema.",
+      "accept": ["Je souhaiterais que vous puissiez m'aider avec ce problème"],
+      "hintWords": ["je souhaiterais que vous puissiez m'aider", "avec ce problème"],
+      "strictAccents": true,
+      "audio": "Je souhaiterais que vous puissiez m'aider avec ce problème.",
+      "explain": "Je souhaiterais que + subjonctif de pouvoir (vous puissiez)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "¿Podría hacer que fuera posible antes del viernes?",
+      "accept": ["Pourriez-vous faire en sorte que ce soit possible avant vendredi"],
+      "hintWords": ["pourriez-vous faire en sorte que ce soit possible", "avant vendredi"],
+      "strictAccents": true,
+      "audio": "Pourriez-vous faire en sorte que ce soit possible avant vendredi ?",
+      "explain": "Pourriez-vous + faire en sorte que + subjonctif de être (ce soit)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Je ___ que vous ___ le nécessaire.",
+      "blanks": [{ "accept": ["souhaiterais"] }, { "accept": ["fassiez"] }],
+      "bank": ["souhaiterais", "fassiez", "faites"],
+      "explain": "Je souhaiterais (conditionnel) que vous fassiez (subjonctif) le nécessaire."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Sería deseable que fuera posible»",
+      "tokens": ["que ce soit possible", "Il serait souhaitable"],
+      "answer": ["Il serait souhaitable", "que ce soit possible"],
+      "audio": "Il serait souhaitable que ce soit possible.",
+      "explain": "Il serait souhaitable que + subjonctif de être (ce soit)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "Je voudrais que vous fassiez le nécessaire, et je vous remercie d'avance.",
+      "accept": ["Querría que hicieran lo necesario, y les doy las gracias de antemano."],
+      "strictAccents": false,
+      "audio": "Je voudrais que vous fassiez le nécessaire, et je vous remercie d'avance.",
+      "explain": "Petición formal cerrada con un agradecimiento anticipado, típico de un correo formal."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación con una petición formal",
+      "turns": [
+        { "who": "L'employé", "text": "Que puis-je faire pour vous ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je souhaiterais que vous m'aidiez avec ce dossier.", "Pourriez-vous faire en sorte que ce soit prêt demain ?"], "hint": "usa una fórmula formal + subjonctif" },
+        { "who": "L'employé", "text": "Bien sûr, je m'en occupe.", "speak": true }
+      ],
+      "explain": "Repaso combinado de las fórmulas de petición formal."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "speak": "Je souhaiterais que vous puissiez m'aider, et il serait souhaitable que ce soit avant vendredi.",
+      "mode": "write",
+      "accept": ["Je souhaiterais que vous puissiez m'aider, et il serait souhaitable que ce soit avant vendredi"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de las fórmulas formales con subjonctif."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 1,
+      "speak": "il serait souhaitable que",
+      "mode": "choose",
+      "options": ["il serait souhaitable que", "je veux que", "tu dois", "donne-moi"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Il serait souhaitable que es la fórmula formal de sugerencia."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 3,
+      "speak": "Je souhaiterais que vous puissiez m'aider, pourriez-vous faire en sorte que ce soit possible avant vendredi ? Il serait souhaitable que vous fassiez le nécessaire.",
+      "es": "Desearía que pudiera ayudarme, ¿podría hacer que fuera posible antes del viernes? Sería deseable que hicieran lo necesario.",
+      "ipa": "/ʒə swɛ.tʁɛ kə vu pɥi.sje mɛ.de pu.ʁje vu fɛʁ ɑ̃ sɔʁt kə sə swa pɔ.sibl a.vɑ̃ vɑ̃.dʁə.di il sə.ʁɛ swɛ.tabl kə vu fa.sje lə ne.se.sɛʁ/",
+      "esApprox": "«ye suet-RE ke vu püi-SIÉ me-DÉ pu-RIÉ vu FER an SORT ke se suá po-SIBL a-VAN van-dre-DÍ il se-RE suet-TABL ke vu fa-SIÉ le ne-se-SER»",
+      "focus": "Petición formal larga combinando tres fórmulas de cortesía con subjonctif.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "Haz una petición formal usando je souhaiterais que o il serait souhaitable que + subjonctif.",
+      "modelAnswer": "Je souhaiterais que vous puissiez m'aider avec ce dossier avant vendredi.",
+      "alsoValid": ["Pourriez-vous faire en sorte que ce soit prêt demain ?"],
+      "speak": "Je souhaiterais que vous puissiez m'aider avec ce dossier avant vendredi.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "¿Es formal o informal?",
+      "buckets": ["Formal", "Informal"],
+      "items": [
+        { "text": "je souhaiterais que", "bucket": 0 },
+        { "text": "coucou", "bucket": 1 },
+        { "text": "il serait souhaitable que", "bucket": 0 },
+        { "text": "à plus", "bucket": 1 }
+      ],
+      "explain": "Je souhaiterais que e il serait souhaitable que son formales; coucou y à plus son informales."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["peticiones", "formal"],
+      "difficulty": 2,
+      "prompt": "Hay un error: je souhaiterais que exige subjonctif. Corrige la frase entera.",
+      "wrong": "Je souhaiterais que vous pouvez m'aider.",
+      "accept": ["Je souhaiterais que vous puissiez m'aider"],
+      "audio": "Je souhaiterais que vous puissiez m'aider.",
+      "explain": "Je souhaiterais que exige subjonctif (vous puissiez), no indicativo (vous pouvez)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je souhaiterais que", "es": "desearía que", "esApprox": "«ye suet-RE ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'aimerais que vous puissiez", "es": "me gustaría que usted pudiera", "esApprox": "«she-me-RE ke vu püi-SIÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je voudrais que vous fassiez", "es": "querría que hicieran", "esApprox": "«ye vu-DRE ke vu fa-SIÉ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "pourriez-vous faire en sorte que", "es": "¿podría usted hacer que...?", "esApprox": "«pu-RIÉ vu FER an SORT ke»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "il serait souhaitable que", "es": "sería deseable que", "esApprox": "«il se-RE suet-TABL ke»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "que ce soit possible", "es": "que sea posible", "esApprox": "«ke se suá po-SIBL»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je souhaiterais que vous puissiez m'aider avec ce problème.", "es": "Desearía que pudiera ayudarme con este problema.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Pourriez-vous faire en sorte que ce soit possible avant vendredi ?", "es": "¿Podría hacer que fuera posible antes del viernes?", "from": "e7" }
+  ]
+}
