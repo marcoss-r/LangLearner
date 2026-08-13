@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-219",
+  "lang": "fr",
+  "level": "B1",
+  "order": 219,
+  "title": "El participio presente como adjetivo",
+  "objectives": [
+    "Usar el participio presente como adjetivo, concordando en género y número",
+    "Distinguir el gérondif invariable (en courant) del adjetivo variable (de l'eau courante)",
+    "Practicar frases descriptivas con participios presentes como adjetivos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuando el participio presente se convierte en adjetivo",
+      "body": "El mismo participio presente puede funcionar como gérondif (invariable, siempre con en) o como adjetivo (variable, concuerda en género y número, sin en)."
+    },
+    {
+      "type": "table",
+      "title": "Participios presentes como adjetivos",
+      "headers": ["Masculino", "Femenino", "Ejemplo"],
+      "rows": [
+        ["amusant", "amusante", "une histoire amusante"],
+        ["obéissant", "obéissante", "un enfant obéissant"],
+        ["courant", "courante", "de l'eau courante"],
+        ["surprenant", "surprenante", "des résultats surprenants"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Invariable frente a variable",
+      "body": "En courant (gérondif: corriendo) nunca cambia. De l'eau courante (adjetivo: agua corriente) sí concuerda: un robinet courant, une eau courante, des enfants courants (poco natural, pero gramaticalmente concordaría)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "une histoire amusante", "es": "una historia divertida", "ipa": "/yn is.twaʁ a.my.zɑ̃t/", "esApprox": "«ün is-tuáR a-mü-ZANT»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "un enfant obéissant", "es": "un niño obediente", "ipa": "/œ̃.n‿ɑ̃.fɑ̃ ɔ.be.i.sɑ̃/", "esApprox": "«un-nan-FAN o-be-i-SAN»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "de l'eau courante", "es": "agua corriente", "ipa": "/də lo ku.ʁɑ̃t/", "esApprox": "«de LO ku-RANT»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "une lumière éblouissante", "es": "una luz deslumbrante", "ipa": "/yn ly.mjɛʁ e.blu.i.sɑ̃t/", "esApprox": "«ün lü-MIER e-blu-i-SANT»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "des résultats surprenants", "es": "unos resultados sorprendentes", "ipa": "/de ʁe.zyl.ta syʁ.pʁə.nɑ̃/", "esApprox": "«de re-zül-TA sür-pre-NAN»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "une décision surprenante", "es": "una decisión sorprendente", "ipa": "/yn de.si.zjɔ̃ syʁ.pʁə.nɑ̃t/", "esApprox": "«ün de-si-SIÓN sür-pre-NANT»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "fatigant / fatigante", "es": "cansado/a, agotador/a", "ipa": "/fa.ti.gɑ̃ fa.ti.gɑ̃t/", "esApprox": "«fa-ti-GAN fa-ti-GANT»", "pos": "adjetivo", "gender": null },
+    { "id": "v8", "target": "intéressant / intéressante", "es": "interesante", "ipa": "/ɛ̃.te.ʁɛ.sɑ̃ ɛ̃.te.ʁɛ.sɑ̃t/", "esApprox": "«in-te-re-SAN in-te-re-SANT»", "pos": "adjetivo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "¿El participio presente usado como adjetivo, concuerda con el sustantivo?",
+      "options": ["sí, en género y número", "no, es siempre invariable", "solo en género", "solo en número"],
+      "answer": 0,
+      "explain": "Como adjetivo, concuerda en género y número; como gérondif, es invariable."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma femenina de surprenant?",
+      "options": ["surprenant", "surprenante", "surprenants", "surprenantes"],
+      "answer": 1,
+      "explain": "Surprenant (masc.) → surprenante (fem.)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "statement": "En courant (gérondif) es invariable.",
+      "answer": true,
+      "explain": "El gérondif nunca concuerda con nada."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "statement": "De l'eau courante (adjetivo) es invariable, igual que el gérondif.",
+      "answer": false,
+      "explain": "Como adjetivo, courante concuerda con eau (femenino), a diferencia del gérondif."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "Une cada sustantivo con su adjetivo",
+      "left": ["une histoire", "un enfant", "de l'eau", "une lumière"],
+      "right": ["amusante", "obéissant", "courante", "éblouissante"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cada adjetivo concuerda en género con su sustantivo."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "Es una historia divertida con resultados sorprendentes.",
+      "accept": ["C'est une histoire amusante avec des résultats surprenants"],
+      "hintWords": ["c'est une histoire amusante", "avec des résultats surprenants"],
+      "strictAccents": true,
+      "audio": "C'est une histoire amusante avec des résultats surprenants.",
+      "explain": "Amusante (femenino) y surprenants (masculino plural), concordando con sus sustantivos."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "El niño obediente bebió agua corriente.",
+      "accept": ["L'enfant obéissant a bu de l'eau courante"],
+      "hintWords": ["l'enfant obéissant a bu", "de l'eau courante"],
+      "strictAccents": true,
+      "audio": "L'enfant obéissant a bu de l'eau courante.",
+      "explain": "Obéissant (masculino) y courante (femenino), concordando."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Cette décision est ___, et ces résultats sont ___.",
+      "blanks": [{ "accept": ["surprenante"] }, { "accept": ["surprenants"] }],
+      "bank": ["surprenante", "surprenants", "surprenant"],
+      "explain": "Surprenante concuerda con décision (femenino); surprenants concuerda con résultats (masculino plural)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Una luz deslumbrante iluminaba la sala»",
+      "tokens": ["éclairait la salle", "Une lumière éblouissante"],
+      "answer": ["Une lumière éblouissante", "éclairait la salle"],
+      "audio": "Une lumière éblouissante éclairait la salle.",
+      "explain": "Éblouissante concuerda con lumière (femenino)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "Cette histoire amusante et ces résultats surprenants ont rendu la soirée fatigante mais intéressante.",
+      "accept": ["Esta historia divertida y estos resultados sorprendentes hicieron que la velada fuera agotadora pero interesante."],
+      "strictAccents": false,
+      "audio": "Cette histoire amusante et ces résultats surprenants ont rendu la soirée fatigante mais intéressante.",
+      "explain": "Varios participios presentes usados como adjetivos, cada uno concordando."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación describiendo una película",
+      "turns": [
+        { "who": "Léa", "text": "Comment était le film ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'était amusant, mais un peu fatigant.", "Les résultats étaient surprenants."], "hint": "usa un participio presente como adjetivo" },
+        { "who": "Léa", "text": "Ça donne envie de le voir.", "speak": true }
+      ],
+      "explain": "Repaso combinado del participio presente como adjetivo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "speak": "C'est une histoire amusante avec des résultats surprenants, et l'enfant obéissant a bu de l'eau courante.",
+      "mode": "write",
+      "accept": ["C'est une histoire amusante avec des résultats surprenants, et l'enfant obéissant a bu de l'eau courante"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de varios participios presentes como adjetivos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["participio-presente"],
+      "difficulty": 1,
+      "speak": "surprenante",
+      "mode": "choose",
+      "options": ["surprenant", "surprenante", "surprenants", "surprenantes"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Surprenante es la forma femenina singular."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["participio-presente"],
+      "difficulty": 3,
+      "speak": "Cette histoire amusante, ces résultats surprenants, et cette lumière éblouissante ont rendu la soirée inoubliable.",
+      "es": "Esta historia divertida, estos resultados sorprendentes, y esta luz deslumbrante hicieron que la velada fuera inolvidable.",
+      "ipa": "/sɛt is.twaʁ a.my.zɑ̃t se ʁe.zyl.ta syʁ.pʁə.nɑ̃ e sɛt ly.mjɛʁ e.blu.i.sɑ̃t ɔ̃ ʁɑ̃.dy la swa.ʁe i.nu.bli.jabl/",
+      "esApprox": "«set is-tuáR a-mü-ZANT se re-zül-TA sür-pre-NAN e set lü-MIER e-blu-i-SANT on ran-DÜ la suá-RÉ i-nu-bli-YABL»",
+      "focus": "Tres participios presentes como adjetivos, concordando cada uno con su sustantivo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "Describe algo usando un participio presente como adjetivo, concordando en género y número.",
+      "modelAnswer": "C'est une histoire amusante avec des résultats surprenants.",
+      "alsoValid": ["L'enfant obéissant a bu de l'eau courante."],
+      "speak": "C'est une histoire amusante avec des résultats surprenants.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "¿Es invariable (gérondif) o variable (adjetivo)?",
+      "buckets": ["Invariable (gérondif)", "Variable (adjetivo)"],
+      "items": [
+        { "text": "en courant", "bucket": 0 },
+        { "text": "de l'eau courante", "bucket": 1 },
+        { "text": "en parlant", "bucket": 0 },
+        { "text": "une histoire amusante", "bucket": 1 }
+      ],
+      "explain": "En courant y en parlant son gérondif (invariable); de l'eau courante y une histoire amusante son adjetivos (variables)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["participio-presente"],
+      "difficulty": 2,
+      "prompt": "Hay un error: como adjetivo, el participio presente concuerda en género. Corrige la frase entera.",
+      "wrong": "Cette décision est surprenant.",
+      "accept": ["Cette décision est surprenante"],
+      "audio": "Cette décision est surprenante.",
+      "explain": "Décision es femenino, así que el adjetivo debe ser surprenante, no surprenant."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "une histoire amusante", "es": "una historia divertida", "esApprox": "«ün is-tuáR a-mü-ZANT»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "un enfant obéissant", "es": "un niño obediente", "esApprox": "«un-nan-FAN o-be-i-SAN»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "de l'eau courante", "es": "agua corriente", "esApprox": "«de LO ku-RANT»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "une lumière éblouissante", "es": "una luz deslumbrante", "esApprox": "«ün lü-MIER e-blu-i-SANT»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "des résultats surprenants", "es": "unos resultados sorprendentes", "esApprox": "«de re-zül-TA sür-pre-NAN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "fatigant / fatigante", "es": "cansado/a, agotador/a", "esApprox": "«fa-ti-GAN fa-ti-GANT»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "C'est une histoire amusante avec des résultats surprenants.", "es": "Es una historia divertida con resultados sorprendentes.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "L'enfant obéissant a bu de l'eau courante.", "es": "El niño obediente bebió agua corriente.", "from": "e7" }
+  ]
+}

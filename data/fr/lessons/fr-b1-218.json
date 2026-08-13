@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-218",
+  "lang": "fr",
+  "level": "B1",
+  "order": 218,
+  "title": "El gerundio: en + participio presente (en mangeant, en parlant)",
+  "objectives": [
+    "Formar el participio presente: radical de nous en presente + -ant",
+    "Usar en + participio presente (gérondif) para expresar simultaneidad o medio",
+    "Reconocer los participios presentes irregulares de être, avoir y savoir"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos acciones a la vez",
+      "body": "El gérondif (en + participio presente) expresa que dos acciones ocurren al mismo tiempo, o que una acción es el medio para lograr otra: il parle en mangeant (habla mientras come), il a appris en pratiquant (aprendió practicando)."
+    },
+    {
+      "type": "table",
+      "title": "Formación",
+      "headers": ["Verbo", "Nous (presente)", "Gérondif"],
+      "rows": [
+        ["manger", "nous mangeons", "en mangeant"],
+        ["finir", "nous finissons", "en finissant"],
+        ["faire", "nous faisons", "en faisant"]
+      ],
+      "note": "Tres excepciones irregulares: être → en étant, avoir → en ayant, savoir → en sachant."
+    },
+    {
+      "type": "tip",
+      "title": "Tout en + gérondif: concesión",
+      "body": "Tout en travaillant beaucoup, il trouve le temps de faire du sport (aunque trabaja mucho...). Añadir tout antes de en da un matiz de concesión, parecido a bien que."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "en mangeant", "es": "comiendo, mientras come", "ipa": "/ɑ̃ mɑ̃.ʒɑ̃/", "esApprox": "«an man-SHAN»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "en parlant", "es": "hablando, mientras habla", "ipa": "/ɑ̃ paʁ.lɑ̃/", "esApprox": "«an par-LAN»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "en travaillant", "es": "trabajando", "ipa": "/ɑ̃ tʁa.va.jɑ̃/", "esApprox": "«an tra-va-YAN»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "en pratiquant", "es": "practicando", "ipa": "/ɑ̃ pʁa.ti.kɑ̃/", "esApprox": "«an pra-ti-KAN»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "en faisant", "es": "haciendo", "ipa": "/ɑ̃ fə.zɑ̃/", "esApprox": "«an fe-ZAN»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "en marchant", "es": "caminando", "ipa": "/ɑ̃ maʁ.ʃɑ̃/", "esApprox": "«an mar-SHAN»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "tout en", "es": "aun + gerundio (concesión)", "ipa": "/tu.t‿ɑ̃/", "esApprox": "«tu-TAN»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "en étant", "es": "siendo, estando", "ipa": "/ɑ̃.n‿e.tɑ̃/", "esApprox": "«an-ne-TAN»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se forma el participio presente?",
+      "options": ["radical de nous + -ant", "infinitivo + -ant", "radical de ils + -ant", "radical del imparfait + -ant"],
+      "answer": 0,
+      "explain": "Nous mangeons → mangeant, nous finissons → finissant."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «habla mientras come»?",
+      "options": ["Il parle en mangeant.", "Il parle mangeant.", "Il parle et mange.", "Il parle pour manger."],
+      "answer": 0,
+      "explain": "El gérondif siempre lleva en delante del participio presente."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "statement": "El participio presente de être es étant.",
+      "answer": true,
+      "explain": "Être es una de las tres excepciones irregulares."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "statement": "Tout en + gérondif expresa causa, no concesión.",
+      "answer": false,
+      "explain": "Tout en + gérondif expresa concesión, parecido a bien que."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su gérondif",
+      "left": ["manger", "parler", "faire", "être"],
+      "right": ["en mangeant", "en parlant", "en faisant", "en étant"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Formación regular salvo être (irregular: en étant)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "Aprendió francés practicando todos los días.",
+      "accept": ["Il a appris le français en pratiquant tous les jours"],
+      "hintWords": ["il a appris le français", "en pratiquant tous les jours"],
+      "strictAccents": true,
+      "audio": "Il a appris le français en pratiquant tous les jours.",
+      "explain": "En pratiquant expresa el medio por el cual aprendió."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "Habla por teléfono mientras camina.",
+      "accept": ["Il parle au téléphone en marchant"],
+      "hintWords": ["il parle au téléphone", "en marchant"],
+      "strictAccents": true,
+      "audio": "Il parle au téléphone en marchant.",
+      "explain": "En marchant expresa simultaneidad."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "Completa con el gérondif correcto",
+      "text": "Elle a trouvé la solution ___ beaucoup.",
+      "blanks": [{ "accept": ["en réfléchissant"] }],
+      "bank": ["en réfléchissant", "réfléchissant", "en réfléchi"],
+      "explain": "En réfléchissant: en + participio presente de réfléchir."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Aprendo escuchando música»",
+      "tokens": ["en écoutant de la musique", "J'apprends"],
+      "answer": ["J'apprends", "en écoutant de la musique"],
+      "audio": "J'apprends en écoutant de la musique.",
+      "explain": "En écoutant expresa el medio de aprendizaje."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "Tout en travaillant beaucoup, il trouve le temps de faire du sport.",
+      "accept": ["Aunque trabaja mucho, encuentra tiempo para hacer deporte."],
+      "strictAccents": false,
+      "audio": "Tout en travaillant beaucoup, il trouve le temps de faire du sport.",
+      "explain": "Tout en + gérondif expresa concesión."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando cómo aprendiste",
+      "turns": [
+        { "who": "Léa", "text": "Comment tu as appris le français ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["En pratiquant tous les jours.", "En regardant des films en français."], "hint": "usa en + participio presente" },
+        { "who": "Léa", "text": "Bonne méthode !", "speak": true }
+      ],
+      "explain": "Repaso combinado del gérondif."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "speak": "Il a appris le français en pratiquant tous les jours, et il parle au téléphone en marchant.",
+      "mode": "write",
+      "accept": ["Il a appris le français en pratiquant tous les jours, et il parle au téléphone en marchant"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del gérondif con medio y simultaneidad."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["gerundio"],
+      "difficulty": 1,
+      "speak": "en mangeant",
+      "mode": "choose",
+      "options": ["en mangeant", "mangeant", "en manger", "mangé"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "El gérondif siempre lleva en delante del participio presente."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["gerundio"],
+      "difficulty": 3,
+      "speak": "J'apprends en écoutant de la musique, il parle en mangeant, et tout en travaillant beaucoup, il trouve le temps de faire du sport.",
+      "es": "Aprendo escuchando música, él habla mientras come, y aunque trabaja mucho, encuentra tiempo para hacer deporte.",
+      "ipa": "/ʒa.pʁɑ̃ ɑ̃.n‿e.ku.tɑ̃ də la my.zik il paʁl ɑ̃ mɑ̃.ʒɑ̃ e tu.t‿ɑ̃ tʁa.va.jɑ̃ bo.ku il tʁuv lə tɑ̃ də fɛʁ dy spɔʁ/",
+      "esApprox": "«sha-PRAN an-ne-ku-TAN de la mü-ZIK il PARL an man-SHAN e tu-TAN tra-va-YAN bo-KÚ il TRUV le TAN de FER dü SPOR»",
+      "focus": "Tres gérondifs encadenados: medio, simultaneidad y concesión.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "Explica cómo aprendiste algo, usando en + participio presente.",
+      "modelAnswer": "J'ai appris le français en pratiquant tous les jours.",
+      "alsoValid": ["J'apprends en écoutant de la musique."],
+      "speak": "J'ai appris le français en pratiquant tous les jours.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "¿Expresa simultaneidad o medio?",
+      "buckets": ["Simultaneidad", "Medio"],
+      "items": [
+        { "text": "il parle en mangeant", "bucket": 0 },
+        { "text": "il a appris en pratiquant", "bucket": 1 },
+        { "text": "elle marche en téléphonant", "bucket": 0 },
+        { "text": "elle a réussi en travaillant dur", "bucket": 1 }
+      ],
+      "explain": "Il parle en mangeant y elle marche en téléphonant expresan simultaneidad; il a appris en pratiquant y elle a réussi en travaillant dur expresan el medio."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["gerundio"],
+      "difficulty": 2,
+      "prompt": "Hay un error: el gérondif siempre lleva en. Corrige la frase entera.",
+      "wrong": "Il parle mangeant.",
+      "accept": ["Il parle en mangeant"],
+      "audio": "Il parle en mangeant.",
+      "explain": "El gérondif exige en delante del participio presente."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "en mangeant", "es": "comiendo, mientras come", "esApprox": "«an man-SHAN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "en parlant", "es": "hablando, mientras habla", "esApprox": "«an par-LAN»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "en travaillant", "es": "trabajando", "esApprox": "«an tra-va-YAN»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "en pratiquant", "es": "practicando", "esApprox": "«an pra-ti-KAN»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "en marchant", "es": "caminando", "esApprox": "«an mar-SHAN»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "en étant", "es": "siendo, estando", "esApprox": "«an-ne-TAN»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Il a appris le français en pratiquant tous les jours.", "es": "Aprendió francés practicando todos los días.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Il parle au téléphone en marchant.", "es": "Habla por teléfono mientras camina.", "from": "e7" }
+  ]
+}

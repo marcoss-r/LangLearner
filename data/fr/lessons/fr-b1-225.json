@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-225",
+  "lang": "fr",
+  "level": "B1",
+  "order": 225,
+  "title": "La salud y el sistema sanitario",
+  "objectives": [
+    "Usar el vocabulario del sistema sanitario: la sécurité sociale, une mutuelle, être remboursé",
+    "Distinguir une consultation, les urgences y un spécialiste",
+    "Practicar frases sobre citas médicas y reembolsos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El sistema sanitario francés",
+      "body": "En Francia, la sécurité sociale reembolsa parte de los gastos médicos, y une mutuelle (un seguro complementario) suele cubrir el resto. Este vocabulario te permite desenvolverte en el sistema sanitario."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del sistema sanitario",
+      "headers": ["Expresión", "Significado"],
+      "rows": [
+        ["prendre rendez-vous chez le médecin", "pedir cita con el médico"],
+        ["une consultation", "una consulta"],
+        ["les urgences", "urgencias"],
+        ["un spécialiste", "un especialista"],
+        ["être hospitalisé", "ser hospitalizado"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Sécurité sociale frente a mutuelle",
+      "body": "La sécurité sociale es el sistema público, que reembolsa una parte. Une mutuelle es un seguro complementario privado que cubre lo que la sécurité sociale no reembolsa."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "prendre rendez-vous chez le médecin", "es": "pedir cita con el médico", "ipa": "/pʁɑ̃dʁ ʁɑ̃.de.vu ʃe lə me.dsɛ̃/", "esApprox": "«PRANDR ran-de-VÚ she le me-de-SIN»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "la sécurité sociale", "es": "la seguridad social", "ipa": "/la se.ky.ʁi.te sɔ.sjal/", "esApprox": "«la se-kü-ri-TÉ so-SIAL»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v3", "target": "être remboursé", "es": "ser reembolsado", "ipa": "/ɛtʁ ʁɑ̃.buʁ.se/", "esApprox": "«ETR ran-bur-SÉ»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "une mutuelle", "es": "un seguro médico complementario", "ipa": "/yn my.tɥɛl/", "esApprox": "«ün mü-TÜEL»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v5", "target": "une consultation", "es": "una consulta", "ipa": "/yn kɔ̃.syl.ta.sjɔ̃/", "esApprox": "«ün kon-sül-ta-SIÓN»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v6", "target": "les urgences", "es": "urgencias", "ipa": "/le.z‿yʁ.ʒɑ̃s/", "esApprox": "«le-zür-YANS»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v7", "target": "un spécialiste", "es": "un especialista", "ipa": "/œ̃ spe.sja.list/", "esApprox": "«un spe-sia-LIST»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v8", "target": "être hospitalisé", "es": "ser hospitalizado", "ipa": "/ɛtʁ ɔs.pi.ta.li.ze/", "esApprox": "«ETR os-pi-ta-li-ZÉ»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "¿Qué es la sécurité sociale?",
+      "options": ["un hospital", "el sistema público de seguridad social", "un médico", "una farmacia"],
+      "answer": 1,
+      "explain": "La sécurité sociale es el sistema público que reembolsa parte de los gastos médicos."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «ser reembolsado»?",
+      "options": ["être remboursé", "être hospitalisé", "être consulté", "être urgent"],
+      "answer": 0,
+      "explain": "Être remboursé es ser reembolsado."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "statement": "Une mutuelle complementa lo que no cubre la sécurité sociale.",
+      "answer": true,
+      "explain": "Une mutuelle es un seguro complementario privado."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "statement": "Les urgences es lo mismo que une consultation normal.",
+      "answer": false,
+      "explain": "Les urgences son para casos urgentes; une consultation es una cita normal."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["prendre rendez-vous", "une consultation", "les urgences", "un spécialiste"],
+      "right": ["pedir cita", "una visita al médico", "atención urgente", "un médico experto"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cada expresión corresponde a una parte del sistema sanitario."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Pedí cita con el médico para una consulta.",
+      "accept": ["J'ai pris rendez-vous chez le médecin pour une consultation"],
+      "hintWords": ["j'ai pris rendez-vous chez le médecin", "pour une consultation"],
+      "strictAccents": true,
+      "audio": "J'ai pris rendez-vous chez le médecin pour une consultation.",
+      "explain": "Prendre rendez-vous chez le médecin + une consultation."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Fui a urgencias y fui reembolsado por la seguridad social.",
+      "accept": ["Je suis allé aux urgences et j'ai été remboursé par la sécurité sociale"],
+      "hintWords": ["je suis allé aux urgences", "et j'ai été remboursé par la sécurité sociale"],
+      "strictAccents": true,
+      "audio": "Je suis allé aux urgences et j'ai été remboursé par la sécurité sociale.",
+      "explain": "Aller aux urgences + être remboursé (voz pasiva, repaso del Bloque T)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "J'ai une ___ pour compléter ce que la sécurité sociale ne rembourse pas, et j'ai vu un ___ pour un problème spécifique.",
+      "blanks": [{ "accept": ["mutuelle"] }, { "accept": ["spécialiste"] }],
+      "bank": ["mutuelle", "spécialiste", "médecin"],
+      "explain": "Une mutuelle complementa la sécurité sociale; un spécialiste trata problemas específicos."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Fue hospitalizado durante una semana»",
+      "tokens": ["pendant une semaine", "Il a été hospitalisé"],
+      "answer": ["Il a été hospitalisé", "pendant une semaine"],
+      "audio": "Il a été hospitalisé pendant une semaine.",
+      "explain": "Être hospitalisé en voz pasiva."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "J'ai pris rendez-vous chez un spécialiste, et ma mutuelle a remboursé la consultation.",
+      "accept": ["Pedí cita con un especialista, y mi seguro complementario reembolsó la consulta."],
+      "strictAccents": false,
+      "audio": "J'ai pris rendez-vous chez un spécialiste, et ma mutuelle a remboursé la consultation.",
+      "explain": "Un spécialiste + une mutuelle que reembolsa."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu salud",
+      "turns": [
+        { "who": "Léa", "text": "Tu vas bien ? Tu as vu un médecin ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai pris rendez-vous pour une consultation.", "J'ai dû aller aux urgences."], "hint": "usa vocabulario del sistema sanitario" },
+        { "who": "Léa", "text": "J'espère que tout va bien.", "speak": true }
+      ],
+      "explain": "Repaso combinado del vocabulario de salud."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "speak": "J'ai pris rendez-vous chez le médecin, et la sécurité sociale a remboursé une partie de la consultation.",
+      "mode": "write",
+      "accept": ["J'ai pris rendez-vous chez le médecin, et la sécurité sociale a remboursé une partie de la consultation"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario del sistema sanitario."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["salud"],
+      "difficulty": 1,
+      "speak": "les urgences",
+      "mode": "choose",
+      "options": ["une consultation", "les urgences", "un spécialiste", "une mutuelle"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Les urgences es el servicio de urgencias."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["salud"],
+      "difficulty": 3,
+      "speak": "J'ai pris rendez-vous chez le médecin, j'ai eu une consultation, et la sécurité sociale m'a remboursé grâce à ma mutuelle.",
+      "es": "Pedí cita con el médico, tuve una consulta, y la seguridad social me reembolsó gracias a mi seguro complementario.",
+      "ipa": "/ʒe pʁi ʁɑ̃.de.vu ʃe lə me.dsɛ̃ ʒe.z‿y yn kɔ̃.syl.ta.sjɔ̃ e la se.ky.ʁi.te sɔ.sjal ma ʁɑ̃.buʁ.se gʁas a ma my.tɥɛl/",
+      "esApprox": "«ye PRI ran-de-VÚ she le me-de-SIN she-zü ün kon-sül-ta-SIÓN e la se-kü-ri-TÉ so-SIAL ma ran-bur-SÉ gras a ma mü-TÜEL»",
+      "focus": "El proceso completo de una visita médica y su reembolso.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Cuenta una experiencia con el sistema sanitario francés, usando al menos tres expresiones nuevas.",
+      "modelAnswer": "J'ai pris rendez-vous chez le médecin, j'ai eu une consultation, et j'ai été remboursé par la sécurité sociale.",
+      "alsoValid": ["J'ai dû aller aux urgences et j'ai été hospitalisé."],
+      "speak": "J'ai pris rendez-vous chez le médecin, j'ai eu une consultation, et j'ai été remboursé par la sécurité sociale.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "¿Es sistema público o seguro complementario?",
+      "buckets": ["Sistema público", "Seguro complementario"],
+      "items": [
+        { "text": "la sécurité sociale", "bucket": 0 },
+        { "text": "une mutuelle", "bucket": 1 },
+        { "text": "les urgences", "bucket": 0 },
+        { "text": "une consultation privée", "bucket": 1 }
+      ],
+      "explain": "La sécurité sociale y les urgences son del sistema público; une mutuelle y une consultation privée son del ámbito complementario/privado."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Hay un error: no se pide cita para urgencias, se va directamente. Corrige la frase entera.",
+      "wrong": "J'ai pris rendez-vous chez les urgences.",
+      "accept": ["Je suis allé aux urgences"],
+      "audio": "Je suis allé aux urgences.",
+      "explain": "A les urgences se va directamente (aller aux urgences), no se pide cita."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "prendre rendez-vous chez le médecin", "es": "pedir cita con el médico", "esApprox": "«PRANDR ran-de-VÚ she le me-de-SIN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "la sécurité sociale", "es": "la seguridad social", "esApprox": "«la se-kü-ri-TÉ so-SIAL»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "être remboursé", "es": "ser reembolsado", "esApprox": "«ETR ran-bur-SÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "une mutuelle", "es": "un seguro médico complementario", "esApprox": "«ün mü-TÜEL»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "les urgences", "es": "urgencias", "esApprox": "«le-zür-YANS»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "un spécialiste", "es": "un especialista", "esApprox": "«un spe-sia-LIST»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai pris rendez-vous chez le médecin pour une consultation.", "es": "Pedí cita con el médico para una consulta.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je suis allé aux urgences et j'ai été remboursé par la sécurité sociale.", "es": "Fui a urgencias y fui reembolsado por la seguridad social.", "from": "e7" }
+  ]
+}

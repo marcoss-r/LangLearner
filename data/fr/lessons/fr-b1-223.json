@@ -1,0 +1,250 @@
+{
+  "id": "fr-b1-223",
+  "lang": "fr",
+  "level": "B1",
+  "order": 223,
+  "title": "La educación superior: la universidad y los estudios",
+  "objectives": [
+    "Usar el vocabulario de matricularse y cursar estudios universitarios",
+    "Distinguir licence, master y les exámenes en el sistema francés",
+    "Practicar frases sobre tu propia experiencia universitaria"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El sistema universitario francés",
+      "body": "Francia usa el sistema LMD: licence (3 años), master (2 años más) y doctorat. Este vocabulario te permite hablar de tu propia experiencia académica."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario universitario",
+      "headers": ["Expresión", "Significado"],
+      "rows": [
+        ["s'inscrire à l'université", "matricularse"],
+        ["une licence / un master", "un grado / un máster"],
+        ["rédiger un mémoire", "redactar una tesina"],
+        ["passer un examen", "hacer un examen"],
+        ["obtenir son diplôme", "obtener el título"],
+        ["une bourse d'études", "una beca de estudios"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Passer ≠ aprobar",
+      "body": "Passer un examen significa hacer/presentarse a un examen, no aprobarlo. Para decir que lo aprobaste, se dice réussir un examen."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "s'inscrire à l'université", "es": "matricularse en la universidad", "ipa": "/sɛ̃s.kʁiʁ a ly.ni.vɛʁ.si.te/", "esApprox": "«sins-KRIR a lü-ni-ver-si-TÉ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "une licence", "es": "un grado, una licenciatura", "ipa": "/yn li.sɑ̃s/", "esApprox": "«ün li-SANS»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v3", "target": "un master", "es": "un máster", "ipa": "/œ̃ mas.tɛʁ/", "esApprox": "«un mas-TER»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v4", "target": "rédiger un mémoire", "es": "redactar una tesina", "ipa": "/ʁe.di.ʒe œ̃ me.mwaʁ/", "esApprox": "«re-di-SHÉ un me-MUÁR»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "passer un examen", "es": "hacer un examen", "ipa": "/pa.se œ̃.n‿ɛg.za.mɛ̃/", "esApprox": "«pa-SÉ un-neg-za-MIN»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "obtenir son diplôme", "es": "obtener el título", "ipa": "/ɔp.tə.niʁ sɔ̃ di.plom/", "esApprox": "«op-te-NIR son di-PLOM»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "une bourse d'études", "es": "una beca de estudios", "ipa": "/yn buʁs de.tyd/", "esApprox": "«ün BURS de-TÜD»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v8", "target": "le campus", "es": "el campus", "ipa": "/lə kɑ̃.pys/", "esApprox": "«le kam-PÜS»", "pos": "sustantivo", "gender": "m" }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "¿Qué es una licence?",
+      "options": ["un doctorado", "un grado universitario", "un máster", "una beca"],
+      "answer": 1,
+      "explain": "Une licence es el equivalente francés a un grado universitario."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «obtener el título»?",
+      "options": ["obtenir son diplôme", "passer un examen", "rédiger un mémoire", "s'inscrire"],
+      "answer": 0,
+      "explain": "Obtenir son diplôme es obtener el título."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "statement": "Une bourse d'études es una ayuda económica para estudiar.",
+      "answer": true,
+      "explain": "Une bourse d'études es una beca."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "statement": "Un mémoire es lo mismo que un examen.",
+      "answer": false,
+      "explain": "Un mémoire es un trabajo escrito; un examen es una prueba."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["s'inscrire à l'université", "rédiger un mémoire", "passer un examen", "obtenir son diplôme"],
+      "right": ["matricularse", "escribir un trabajo", "hacer un examen", "terminar los estudios"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cada expresión corresponde a una etapa de la vida universitaria."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "Me matriculé en la universidad y empecé un grado.",
+      "accept": ["Je me suis inscrit(e) à l'université et j'ai commencé une licence"],
+      "hintWords": ["je me suis inscrit(e) à l'université", "et j'ai commencé une licence"],
+      "strictAccents": true,
+      "audio": "Je me suis inscrit à l'université et j'ai commencé une licence.",
+      "explain": "S'inscrire à l'université + commencer une licence."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "Redacté mi tesina y obtuve mi título de máster.",
+      "accept": ["J'ai rédigé mon mémoire et j'ai obtenu mon diplôme de master"],
+      "hintWords": ["j'ai rédigé mon mémoire", "et j'ai obtenu mon diplôme de master"],
+      "strictAccents": true,
+      "audio": "J'ai rédigé mon mémoire et j'ai obtenu mon diplôme de master.",
+      "explain": "Rédiger un mémoire + obtenir son diplôme."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "J'ai ___ un examen difficile, mais j'ai eu une ___ d'études pour continuer.",
+      "blanks": [{ "accept": ["passé"] }, { "accept": ["bourse"] }],
+      "bank": ["passé", "bourse", "licence"],
+      "explain": "Passer un examen + une bourse d'études."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El campus está cerca de mi casa»",
+      "tokens": ["près de chez moi", "Le campus est"],
+      "answer": ["Le campus est", "près de chez moi"],
+      "audio": "Le campus est près de chez moi.",
+      "explain": "Le campus es el recinto universitario."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "Je me suis inscrit à l'université, j'ai passé mes examens, et j'ai obtenu ma licence.",
+      "accept": ["Me matriculé en la universidad, hice mis exámenes, y obtuve mi grado."],
+      "strictAccents": false,
+      "audio": "Je me suis inscrit à l'université, j'ai passé mes examens, et j'ai obtenu ma licence.",
+      "explain": "El recorrido completo de una licence."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus estudios",
+      "turns": [
+        { "who": "Léa", "text": "Tu étudies quoi à l'université ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je fais une licence de sciences.", "Je rédige mon mémoire de master."], "hint": "usa vocabulario universitario" },
+        { "who": "Léa", "text": "Ça a l'air intéressant !", "speak": true }
+      ],
+      "explain": "Repaso combinado del vocabulario universitario."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "speak": "Je me suis inscrit à l'université, j'ai passé mes examens, et j'ai obtenu ma licence.",
+      "mode": "write",
+      "accept": ["Je me suis inscrit à l'université, j'ai passé mes examens, et j'ai obtenu ma licence"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario universitario."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["educacion"],
+      "difficulty": 1,
+      "speak": "une bourse d'études",
+      "mode": "choose",
+      "options": ["une licence", "un master", "une bourse d'études", "un mémoire"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Une bourse d'études es una beca de estudios."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["educacion"],
+      "difficulty": 3,
+      "speak": "Je me suis inscrit à l'université, j'ai eu une bourse d'études, j'ai passé mes examens, et j'ai obtenu mon diplôme.",
+      "es": "Me matriculé en la universidad, tuve una beca de estudios, hice mis exámenes, y obtuve mi título.",
+      "ipa": "/ʒə mə sɥi.z‿ɛ̃s.kʁi a ly.ni.vɛʁ.si.te ʒe.z‿y yn buʁs de.tyd ʒe pa.se me.z‿ɛg.za.mɛ̃ e ʒe.z‿ɔp.tə.ny mɔ̃ di.plom/",
+      "esApprox": "«ye me süí ins-KRÍ a lü-ni-ver-si-TÉ she-zü ün BURS de-TÜD ye pa-SÉ me-zeg-za-MIN e she-zop-te-NÜ mon di-PLOM»",
+      "focus": "El recorrido universitario completo: matrícula, beca, exámenes y título.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "Cuenta tu experiencia universitaria, desde matricularte hasta obtener el título.",
+      "modelAnswer": "Je me suis inscrit à l'université, j'ai fait une licence, et j'ai obtenu mon diplôme.",
+      "alsoValid": ["J'ai rédigé mon mémoire de master l'année dernière."],
+      "speak": "Je me suis inscrit à l'université, j'ai fait une licence, et j'ai obtenu mon diplôme.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "¿Es inicio o fin de los estudios?",
+      "buckets": ["Inicio", "Fin"],
+      "items": [
+        { "text": "s'inscrire à l'université", "bucket": 0 },
+        { "text": "obtenir son diplôme", "bucket": 1 },
+        { "text": "une bourse d'études", "bucket": 0 },
+        { "text": "rédiger un mémoire", "bucket": 1 }
+      ],
+      "explain": "S'inscrire y une bourse d'études son de inicio; obtenir son diplôme y rédiger un mémoire son de fin de los estudios."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["educacion"],
+      "difficulty": 2,
+      "prompt": "Hay un error: se dice réussir un examen, no obtenir un examen. Corrige la frase entera.",
+      "wrong": "J'ai obtenu mon examen.",
+      "accept": ["J'ai réussi mon examen"],
+      "audio": "J'ai réussi mon examen.",
+      "explain": "Se dice réussir un examen (aprobar) u obtenir son diplôme (obtener el título), no obtenir un examen."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "s'inscrire à l'université", "es": "matricularse en la universidad", "esApprox": "«sins-KRIR a lü-ni-ver-si-TÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "une licence", "es": "un grado, una licenciatura", "esApprox": "«ün li-SANS»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un master", "es": "un máster", "esApprox": "«un mas-TER»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "rédiger un mémoire", "es": "redactar una tesina", "esApprox": "«re-di-SHÉ un me-MUÁR»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "obtenir son diplôme", "es": "obtener el título", "esApprox": "«op-te-NIR son di-PLOM»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "une bourse d'études", "es": "una beca de estudios", "esApprox": "«ün BURS de-TÜD»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Je me suis inscrit(e) à l'université et j'ai commencé une licence.", "es": "Me matriculé en la universidad y empecé un grado.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai rédigé mon mémoire et j'ai obtenu mon diplôme de master.", "es": "Redacté mi tesina y obtuve mi título de máster.", "from": "e7" }
+  ]
+}
