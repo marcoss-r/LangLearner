@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-171",
+  "lang": "fr",
+  "level": "A2",
+  "order": 171,
+  "title": "Repaso activo XV: futuro y condicional",
+  "objectives": [
+    "Repasar el futur proche y el futur simple, y cuándo usar cada uno",
+    "Repasar el conditionnel présent para la cortesía y las hipótesis con si + imparfait",
+    "Practicar frases que combinan futuro y condicional"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso de futuro y condicional",
+      "body": "Sin gramática nueva. Repasa el futur proche, el futur simple, el conditionnel présent (cortesía) y las hipótesis con si + imparfait + conditionnel del Bloque K."
+    },
+    {
+      "type": "table",
+      "title": "Futur proche frente a futur simple",
+      "headers": ["Uso", "Tiempo", "Ejemplo"],
+      "rows": [
+        ["Plan cercano o decidido", "futur proche (aller + infinitif)", "je vais partir demain"],
+        ["Plan lejano o promesa", "futur simple", "je partirai l'année prochaine"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Conditionnel présent",
+      "headers": ["Uso", "Ejemplo"],
+      "rows": [
+        ["Cortesía", "je voudrais un café, pourriez-vous m'aider ?"],
+        ["Hipótesis (si + imparfait)", "si j'avais le temps, je viendrais"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je vais partir", "es": "voy a salir, voy a partir", "ipa": "/ʒə vɛ paʁ.tiʁ/", "esApprox": "«ye VE par-TIR»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je partirai", "es": "partiré, saldré", "ipa": "/ʒə paʁ.ti.ʁe/", "esApprox": "«ye par-ti-RÉ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "je voudrais", "es": "querría, quisiera", "ipa": "/ʒə vu.dʁɛ/", "esApprox": "«ye vu-DRE»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "pourriez-vous", "es": "¿podría usted...?", "ipa": "/pu.ʁje vu/", "esApprox": "«pu-RIÉ VU»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "si j'avais le temps", "es": "si tuviera tiempo", "ipa": "/si ʒa.vɛ lə tɑ̃/", "esApprox": "«si sha-VE le TAN»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "je viendrais", "es": "vendría", "ipa": "/ʒə vjɛ̃.dʁɛ/", "esApprox": "«ye vien-DRE»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "demain", "es": "mañana", "ipa": "/də.mɛ̃/", "esApprox": "«de-MIN»", "pos": "adverbio", "gender": null },
+    { "id": "v8", "target": "l'année prochaine", "es": "el año que viene", "ipa": "/la.ne pʁɔ.ʃɛn/", "esApprox": "«la-NÉ pro-SHEN»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "¿Cuál se usa para un plan decidido y cercano?",
+      "options": ["je partirai", "je vais partir", "je partais", "je serais parti"],
+      "answer": 1,
+      "explain": "Repaso de la clase A1-075: futur proche (aller + infinitif) para planes cercanos."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se pide algo con cortesía en francés?",
+      "options": ["Je veux un café.", "Je voudrais un café.", "J'ai voulu un café.", "Je voudrai un café."],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-130: el conditionnel présent para la cortesía."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "statement": "El conditionnel présent se forma con el radical del futur simple más las terminaciones del imparfait.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-129."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["hipotesis"],
+      "difficulty": 2,
+      "statement": "Si + imparfait va seguido de futur simple.",
+      "answer": false,
+      "explain": "Repaso de la clase A2-132: si + imparfait va seguido de conditionnel, no de futur simple."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["futuro", "condicional"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con lo que representa",
+      "left": ["je vais partir", "je partirai", "je voudrais", "si j'avais le temps"],
+      "right": ["hipótesis", "cortesía", "futur simple", "futur proche"],
+      "answer": [3, 2, 1, 0],
+      "explain": "Je vais partir = futur proche, je partirai = futur simple, je voudrais = cortesía, si j'avais le temps = hipótesis."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Voy a salir mañana, pero el año que viene viajaré a Francia.",
+      "accept": ["Je vais partir demain, mais l'année prochaine je voyagerai en France"],
+      "hintWords": ["je vais partir demain", "mais l'année prochaine je voyagerai en France"],
+      "strictAccents": true,
+      "audio": "Je vais partir demain, mais l'année prochaine je voyagerai en France.",
+      "explain": "Futur proche (plan cercano) + futur simple (promesa lejana)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Si tuviera tiempo, vendría contigo.",
+      "accept": ["Si j'avais le temps, je viendrais avec toi"],
+      "hintWords": ["si j'avais le temps", "je viendrais avec toi"],
+      "strictAccents": true,
+      "audio": "Si j'avais le temps, je viendrais avec toi.",
+      "explain": "Si + imparfait + conditionnel: la hipótesis del Bloque K."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Si j'___ le temps, je ___ avec toi.",
+      "blanks": [{ "accept": ["avais"] }, { "accept": ["viendrais"] }],
+      "bank": ["avais", "viendrais", "aurai"],
+      "explain": "Si + imparfait (avais) + conditionnel (viendrais)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Podría usted ayudarme, por favor?»",
+      "tokens": ["s'il vous plaît", "Pourriez-vous m'aider"],
+      "answer": ["Pourriez-vous m'aider", "s'il vous plaît"],
+      "audio": "Pourriez-vous m'aider, s'il vous plaît ?",
+      "explain": "Pourriez-vous + infinitif, la forma de cortesía más formal."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Si j'avais plus d'argent, je voyagerais davantage, mais pour l'instant, je vais partir seulement le week-end prochain.",
+      "accept": ["Si tuviera más dinero, viajaría más, pero por ahora, voy a salir solo el próximo fin de semana."],
+      "strictAccents": false,
+      "audio": "Si j'avais plus d'argent, je voyagerais davantage, mais pour l'instant, je vais partir seulement le week-end prochain.",
+      "explain": "Hipótesis (conditionnel) combinada con un plan cercano (futur proche)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación hablando de tus planes",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu vas faire demain ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je vais partir tôt.", "Je partirai vers midi."], "hint": "usa futur proche o futur simple" },
+        { "who": "Léa", "text": "D'accord !", "speak": true }
+      ],
+      "explain": "Repaso de las clases A1-075 y A2-125."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["futuro", "condicional"],
+      "difficulty": 2,
+      "speak": "Je voudrais partir demain, mais si j'avais plus de temps, je resterais jusqu'à l'année prochaine.",
+      "mode": "write",
+      "accept": ["Je voudrais partir demain, mais si j'avais plus de temps, je resterais jusqu'à l'année prochaine"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de cortesía, futuro e hipótesis."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["condicional"],
+      "difficulty": 1,
+      "speak": "je viendrais",
+      "mode": "choose",
+      "options": ["je viens", "je viendrai", "je viendrais", "je venais"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-132: conditionnel présent."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["futuro", "condicional"],
+      "difficulty": 3,
+      "speak": "Demain, je vais partir tôt, et l'année prochaine, je voyagerai davantage. Si j'avais plus de temps, je viendrais avec toi.",
+      "es": "Mañana, voy a salir temprano, y el año que viene, viajaré más. Si tuviera más tiempo, vendría contigo.",
+      "ipa": "/də.mɛ̃ ʒə vɛ paʁ.tiʁ to e la.ne pʁɔ.ʃɛn ʒə vwa.ja.ʒə.ʁe da.vɑ̃.taʒ si ʒa.vɛ ply də tɑ̃ ʒə vjɛ̃.dʁɛ a.vɛk twa/",
+      "esApprox": "«de-MIN ye VE par-TIR TO e la-NÉ pro-SHEN ye vua-ya-she-RÉ da-van-TAJ si sha-VE plü de TAN ye vien-DRE a-VEK tuá»",
+      "focus": "Narración combinando futur proche, futur simple y conditionnel hipotético.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["futuro", "condicional"],
+      "difficulty": 2,
+      "prompt": "Habla de tus planes usando futur proche, futur simple y una hipótesis con si + imparfait + conditionnel.",
+      "modelAnswer": "Je vais partir demain, je partirai en vacances l'année prochaine, et si j'avais plus d'argent, je voyagerais plus souvent.",
+      "alsoValid": ["Si j'avais le temps, je viendrais te voir."],
+      "speak": "Je vais partir demain, je partirai en vacances l'année prochaine, et si j'avais plus d'argent, je voyagerais plus souvent.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["futuro", "condicional"],
+      "difficulty": 2,
+      "prompt": "¿Es futuro o condicional?",
+      "buckets": ["Futuro", "Condicional"],
+      "items": [
+        { "text": "je vais partir", "bucket": 0 },
+        { "text": "je voudrais", "bucket": 1 },
+        { "text": "je partirai", "bucket": 0 },
+        { "text": "je viendrais", "bucket": 1 }
+      ],
+      "explain": "Je vais partir y je partirai son formas de futuro; je voudrais y je viendrais son formas de conditionnel."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Hay un error: tras si + imparfait va conditionnel, no futur. Corrige la frase entera.",
+      "wrong": "Si j'avais le temps, je viendrai avec toi.",
+      "accept": ["Si j'avais le temps, je viendrais avec toi"],
+      "audio": "Si j'avais le temps, je viendrais avec toi.",
+      "explain": "Si + imparfait exige conditionnel (je viendrais), no futur simple (je viendrai)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je vais partir", "es": "voy a salir, voy a partir", "esApprox": "«ye VE par-TIR»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je partirai", "es": "partiré, saldré", "esApprox": "«ye par-ti-RÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je voudrais", "es": "querría, quisiera", "esApprox": "«ye vu-DRE»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "pourriez-vous", "es": "¿podría usted...?", "esApprox": "«pu-RIÉ VU»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "si j'avais le temps", "es": "si tuviera tiempo", "esApprox": "«si sha-VE le TAN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "je viendrais", "es": "vendría", "esApprox": "«ye vien-DRE»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je vais partir demain, mais l'année prochaine je voyagerai en France.", "es": "Voy a salir mañana, pero el año que viene viajaré a Francia.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Si j'avais le temps, je viendrais avec toi.", "es": "Si tuviera tiempo, vendría contigo.", "from": "e7" }
+  ]
+}

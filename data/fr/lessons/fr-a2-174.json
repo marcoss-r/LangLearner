@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-174",
+  "lang": "fr",
+  "level": "A2",
+  "order": 174,
+  "title": "Taller de conversación escrita: simula un intercambio real",
+  "objectives": [
+    "Practicar fórmulas para saludar, dar seguimiento y despedirte en un mensaje informal",
+    "Simular un intercambio de mensajes real combinando varias funciones del curso",
+    "Reconocer cuándo un registro informal (tu, bisous) no debe mezclarse con uno formal"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un taller, no una clase de gramática",
+      "body": "Sin gramática nueva. Hoy simulas un intercambio de mensajes real con un amigo francófono: saludo informal, seguimiento (una pregunta o petición) y despedida cariñosa."
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para un mensaje informal",
+      "headers": ["Momento", "Expresión"],
+      "rows": [
+        ["saludo informal", "coucou"],
+        ["explicar el motivo", "je t'écris pour..."],
+        ["pedir respuesta rápida", "réponds-moi vite"],
+        ["introducir algo olvidado", "au fait, n'oublie pas de me dire..."],
+        ["despedida informal", "à plus"],
+        ["despedida cariñosa", "bisous"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "No mezcles registros",
+      "body": "Coucou y bisous son informales, para amigos y familia. Con desconocidos o en contextos formales usarías bonjour y cordialement. No mezcles los dos registros en el mismo mensaje."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "coucou", "es": "hola (informal)", "ipa": "/ku.ku/", "esApprox": "«ku-KÚ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je t'écris pour...", "es": "te escribo para...", "ipa": "/ʒə te.kʁi puʁ/", "esApprox": "«ye te-KRI pur»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "réponds-moi vite", "es": "respóndeme rápido", "ipa": "/ʁe.pɔ̃ mwa vit/", "esApprox": "«re-PON muá VIT»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "à plus", "es": "hasta luego (informal)", "ipa": "/a plys/", "esApprox": "«a PLÜS»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "bisous", "es": "besos (despedida cariñosa)", "ipa": "/bi.zu/", "esApprox": "«bi-ZÚ»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "au fait", "es": "por cierto", "ipa": "/o fɛ/", "esApprox": "«o FE»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "n'oublie pas de me dire", "es": "no olvides decirme", "ipa": "/nu.bli pa də mə diʁ/", "esApprox": "«nu-BLÍ pa de me DIR»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "ça te dit de...?", "es": "¿te apetece...?", "ipa": "/sa tə di də/", "esApprox": "«sa te DI de»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["saludo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo empiezas un mensaje informal a un amigo?",
+      "options": ["Coucou !", "Bonjour Monsieur,", "Cher Monsieur,", "Madame,"],
+      "answer": 0,
+      "explain": "Coucou es el saludo informal típico entre amigos."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["despedida"],
+      "difficulty": 2,
+      "prompt": "¿Cómo terminas un mensaje informal y cariñoso?",
+      "options": ["Cordialement", "Bisous", "Veuillez agréer mes salutations", "Bien à vous"],
+      "answer": 1,
+      "explain": "Bisous es la despedida cariñosa e informal."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["seguimiento"],
+      "difficulty": 2,
+      "statement": "Réponds-moi vite es una petición para que alguien conteste rápido.",
+      "answer": true,
+      "explain": "Réponds-moi vite pide una respuesta rápida."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["registro"],
+      "difficulty": 2,
+      "statement": "Bisous se usa en un correo muy formal dirigido a un jefe.",
+      "answer": false,
+      "explain": "Bisous es informal; en un correo formal usarías cordialement."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["mensajes"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su función",
+      "left": ["coucou", "à plus", "bisous", "au fait"],
+      "right": ["saludo informal", "despedida informal", "despedida cariñosa", "introducir algo relacionado"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Coucou = saludo, à plus = despedida informal, bisous = despedida cariñosa, au fait = introducir un tema relacionado."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["mensajes"],
+      "difficulty": 2,
+      "prompt": "Hola, te escribo para preguntarte algo. Respóndeme rápido, por favor.",
+      "accept": ["Coucou, je t'écris pour te demander quelque chose. Réponds-moi vite, s'il te plaît"],
+      "hintWords": ["coucou, je t'écris pour te demander quelque chose", "réponds-moi vite, s'il te plaît"],
+      "strictAccents": true,
+      "audio": "Coucou, je t'écris pour te demander quelque chose. Réponds-moi vite, s'il te plaît.",
+      "explain": "Saludo informal + motivo del mensaje + petición de respuesta rápida."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["mensajes"],
+      "difficulty": 2,
+      "prompt": "Por cierto, no olvides decirme a qué hora llegas. ¡Besos!",
+      "accept": ["Au fait, n'oublie pas de me dire à quelle heure tu arrives. Bisous"],
+      "hintWords": ["au fait, n'oublie pas de me dire à quelle heure tu arrives", "bisous"],
+      "strictAccents": true,
+      "audio": "Au fait, n'oublie pas de me dire à quelle heure tu arrives. Bisous !",
+      "explain": "Au fait introduce algo olvidado; bisous cierra el mensaje de forma cariñosa."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["mensajes"],
+      "difficulty": 2,
+      "prompt": "Completa el mensaje",
+      "text": "___, je t'écris pour te proposer un truc. ___ de me dire si ça te dit !",
+      "blanks": [{ "accept": ["Coucou"] }, { "accept": ["N'oublie pas"] }],
+      "bank": ["Coucou", "N'oublie pas", "Cordialement"],
+      "explain": "Coucou (saludo informal) + n'oublie pas (petición de seguimiento)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["mensajes"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Por cierto, ¿te apetece venir el sábado?»",
+      "tokens": ["ça te dit de venir samedi ?", "Au fait,"],
+      "answer": ["Au fait,", "ça te dit de venir samedi ?"],
+      "audio": "Au fait, ça te dit de venir samedi ?",
+      "explain": "Au fait introduce la pregunta como algo que se te acaba de ocurrir."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["mensajes"],
+      "difficulty": 2,
+      "prompt": "Coucou ! Je t'écris pour te dire que je suis bien arrivé. Au fait, n'oublie pas de me dire quand tu pars. Bisous !",
+      "accept": ["¡Hola! Te escribo para decirte que he llegado bien. Por cierto, no olvides decirme cuándo te vas. ¡Besos!"],
+      "strictAccents": false,
+      "audio": "Coucou ! Je t'écris pour te dire que je suis bien arrivé. Au fait, n'oublie pas de me dire quand tu pars. Bisous !",
+      "explain": "Un mensaje informal completo: saludo, noticia, seguimiento y despedida."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["mensajes"],
+      "difficulty": 2,
+      "prompt": "Completa el intercambio de mensajes",
+      "turns": [
+        { "who": "Léa", "text": "Coucou, ça va ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Coucou, oui ça va, et toi ?", "Salut, je t'écris pour te dire un truc."], "hint": "empieza tu mensaje de forma informal" },
+        { "who": "Léa", "text": "Dis-moi tout !", "speak": true }
+      ],
+      "explain": "Simula el inicio de un intercambio de mensajes real."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["mensajes"],
+      "difficulty": 2,
+      "speak": "Coucou, je t'écris pour te proposer un plan. Réponds-moi vite, et n'oublie pas de me dire si ça te dit. Bisous !",
+      "mode": "write",
+      "accept": ["Coucou, je t'écris pour te proposer un plan. Réponds-moi vite, et n'oublie pas de me dire si ça te dit. Bisous !"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de saludo, motivo, seguimiento y despedida."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["mensajes"],
+      "difficulty": 1,
+      "speak": "à plus",
+      "mode": "choose",
+      "options": ["à plus", "au fait", "bisous", "coucou"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "À plus es la despedida informal para «hasta luego»."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["mensajes"],
+      "difficulty": 3,
+      "speak": "Coucou ! Je t'écris pour te dire que je suis bien arrivé. Au fait, réponds-moi vite. À plus, bisous !",
+      "es": "¡Hola! Te escribo para decirte que he llegado bien. Por cierto, respóndeme rápido. ¡Hasta luego, besos!",
+      "ipa": "/ku.ku ʒə te.kʁi puʁ tə diʁ kə ʒə sɥi bjɛ̃ a.ʁi.ve o fɛ ʁe.pɔ̃ mwa vit a plys bi.zu/",
+      "esApprox": "«ku-KÚ ye te-KRI pur te DIR ke ye süí bien a-ri-VÉ o FE re-PON muá VIT a PLÜS bi-ZÚ»",
+      "focus": "Mensaje informal completo con saludo, motivo, petición y doble despedida.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["mensajes"],
+      "difficulty": 2,
+      "prompt": "Escribe o di en voz alta un mensaje corto e informal a un amigo, con saludo, una pregunta y una despedida cariñosa.",
+      "modelAnswer": "Coucou, ça te dit de venir samedi ? Réponds-moi vite, bisous !",
+      "alsoValid": ["Coucou, au fait, n'oublie pas de me dire à quelle heure tu arrives. À plus !"],
+      "speak": "Coucou, ça te dit de venir samedi ? Réponds-moi vite, bisous !",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["mensajes"],
+      "difficulty": 2,
+      "prompt": "¿Es un saludo/despedida o una expresión de seguimiento?",
+      "buckets": ["Saludo/despedida", "Seguimiento"],
+      "items": [
+        { "text": "coucou", "bucket": 0 },
+        { "text": "réponds-moi vite", "bucket": 1 },
+        { "text": "bisous", "bucket": 0 },
+        { "text": "n'oublie pas de me dire", "bucket": 1 }
+      ],
+      "explain": "Coucou y bisous son saludo/despedida; réponds-moi vite y n'oublie pas de me dire piden seguimiento."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["registro"],
+      "difficulty": 2,
+      "prompt": "Hay un error: no se mezcla un cierre formal con uno informal. Corrige la frase entera.",
+      "wrong": "Cordialement, bisous et à plus !",
+      "accept": ["Bisous et à plus"],
+      "audio": "Bisous et à plus !",
+      "explain": "Cordialement es formal y bisous/à plus son informales; en un mensaje a un amigo, usa solo el registro informal."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "coucou", "es": "hola (informal)", "esApprox": "«ku-KÚ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je t'écris pour...", "es": "te escribo para...", "esApprox": "«ye te-KRI pur»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "réponds-moi vite", "es": "respóndeme rápido", "esApprox": "«re-PON muá VIT»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "à plus", "es": "hasta luego (informal)", "esApprox": "«a PLÜS»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "bisous", "es": "besos (despedida cariñosa)", "esApprox": "«bi-ZÚ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "au fait", "es": "por cierto", "esApprox": "«o FE»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Coucou, je t'écris pour te demander quelque chose. Réponds-moi vite, s'il te plaît.", "es": "Hola, te escribo para preguntarte algo. Respóndeme rápido, por favor.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Au fait, n'oublie pas de me dire à quelle heure tu arrives. Bisous !", "es": "Por cierto, no olvides decirme a qué hora llegas. ¡Besos!", "from": "e7" }
+  ]
+}
