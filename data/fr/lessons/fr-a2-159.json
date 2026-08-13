@@ -1,0 +1,248 @@
+{
+  "id": "fr-a2-159",
+  "lang": "fr",
+  "level": "A2",
+  "order": 159,
+  "title": "El superlativo: le plus, le moins",
+  "objectives": [
+    "Formar el superlativo con le/la/les plus y le/la/les moins + adjetivo",
+    "Usar le meilleur como superlativo irregular de bon",
+    "Practicar frases superlativas sobre personas, lugares y cosas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Del comparativo al superlativo",
+      "body": "El superlativo añade el artículo definido (le, la, les) delante del comparativo: le plus grand (el más grande), la moins chère (la menos cara).",
+      "examples": [
+        { "target": "C'est le restaurant le plus cher de la ville, mais c'est aussi le meilleur.", "es": "Es el restaurante más caro de la ciudad, pero también es el mejor.", "note": "le plus cher de + le meilleur" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El superlativo",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["le/la/les plus + adjetivo", "le plus grand, la plus belle"],
+        ["le/la/les moins + adjetivo", "le moins cher, la moins chère"],
+        ["le/la/les meilleur(e)(s)", "le meilleur restaurant"]
+      ],
+      "note": "Se usa de + lugar/grupo para decir «de la ciudad», «de la classe», etc., no dans."
+    },
+    {
+      "type": "tip",
+      "title": "Le pire, sin acuerdo de género",
+      "body": "A diferencia de le meilleur / la meilleure, le pire no cambia de forma según el género: le pire film, la pire idée. Solo cambia el artículo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le/la plus", "es": "el/la más", "ipa": "/lə la ply/", "esApprox": "«le la plü»", "pos": "expresión", "gender": null, "example": { "target": "C'est le restaurant le plus cher de la ville.", "es": "Es el restaurante más caro de la ciudad." } },
+    { "id": "v2", "target": "le/la moins", "es": "el/la menos", "ipa": "/lə la mwɛ̃/", "esApprox": "«le la muen»", "pos": "expresión", "gender": null, "example": { "target": "C'est la solution la moins chère.", "es": "Es la solución menos cara." } },
+    { "id": "v3", "target": "le meilleur / la meilleure", "es": "el mejor / la mejor", "ipa": "/lə mɛ.jœʁ/", "esApprox": "«le me-YÖR»", "pos": "expresión", "gender": null, "example": { "target": "C'est le meilleur restaurant de la ville.", "es": "Es el mejor restaurante de la ciudad." } },
+    { "id": "v4", "target": "le pire / la pire", "es": "el peor / la peor", "ipa": "/lə piʁ/", "esApprox": "«le PIR»", "pos": "expresión", "gender": null, "example": { "target": "C'est le pire film que j'ai vu.", "es": "Es la peor película que he visto." } },
+    { "id": "v5", "target": "de la ville / de la classe", "es": "de la ciudad / de la clase", "ipa": "/də la vil də la klas/", "esApprox": "«de la VIL de la KLAS»", "pos": "expresión", "gender": null, "example": { "target": "C'est le meilleur élève de la classe.", "es": "Es el mejor alumno de la clase." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «es el restaurante más caro de la ciudad»?",
+      "options": ["C'est le restaurant le plus cher de la ville.", "C'est le restaurant plus cher dans la ville.", "C'est le restaurant le plus cher dans la ville.", "C'est le plus cher restaurant la ville."],
+      "answer": 0,
+      "explain": "Le plus cher de la ville, con de (no dans)."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el superlativo irregular de bon?",
+      "options": ["le plus bon", "le meilleur", "le bonnier", "le moins bon"],
+      "answer": 1,
+      "explain": "Le meilleur, forma irregular de bon (como en el comparativo)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "statement": "El superlativo se forma añadiendo el artículo definido al comparativo.",
+      "answer": true,
+      "explain": "Plus grand (comparativo) → le plus grand (superlativo)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "statement": "Se usa dans para decir «de la ciudad» en una frase superlativa.",
+      "answer": false,
+      "explain": "Se usa de, no dans: le meilleur restaurant de la ville."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["le meilleur", "le pire", "le moins cher", "le plus grand"],
+      "right": ["el más grande", "el mejor", "el menos caro", "el peor"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Le meilleur = el mejor, le pire = el peor, le moins cher = el menos caro, le plus grand = el más grande."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "Es el restaurante más caro de la ciudad, pero también es el mejor.",
+      "accept": ["C'est le restaurant le plus cher de la ville, mais c'est aussi le meilleur"],
+      "hintWords": ["c'est le restaurant le plus cher de la ville", "mais c'est aussi le meilleur"],
+      "strictAccents": true,
+      "audio": "C'est le restaurant le plus cher de la ville, mais c'est aussi le meilleur.",
+      "explain": "Le plus cher de + le meilleur."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "Es la peor película que he visto, y es la más cara también.",
+      "accept": ["C'est le pire film que j'ai vu, et c'est le plus cher aussi"],
+      "hintWords": ["c'est le pire film que j'ai vu", "et c'est le plus cher aussi"],
+      "strictAccents": true,
+      "audio": "C'est le pire film que j'ai vu, et c'est le plus cher aussi.",
+      "explain": "Le pire + le plus cher."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "C'est le ___ élève de la classe, et c'est aussi le ___ sportif.",
+      "blanks": [{ "accept": ["meilleur"] }, { "accept": ["meilleur"] }],
+      "bank": ["meilleur", "pire"],
+      "explain": "Le meilleur élève + le meilleur sportif."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es la solución menos cara»",
+      "tokens": ["la moins chère", "C'est la solution"],
+      "answer": ["C'est la solution", "la moins chère"],
+      "audio": "C'est la solution la moins chère.",
+      "explain": "C'est la solution + la moins chère."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "C'est le meilleur élève de la classe, mais c'est aussi le moins sympa avec les autres.",
+      "accept": ["Es el mejor alumno de la clase, pero también es el menos simpático con los demás."],
+      "strictAccents": false,
+      "audio": "C'est le meilleur élève de la classe, mais c'est aussi le moins sympa avec les autres.",
+      "explain": "Le meilleur de + le moins sympa."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el mejor restaurante",
+      "turns": [
+        { "who": "Léa", "text": "Quel est le meilleur restaurant de la ville, à ton avis ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'est celui-ci, le plus cher aussi.", "Je pense que c'est celui en face."], "hint": "usa le meilleur o le plus cher" },
+        { "who": "Léa", "text": "Ah, je vais essayer alors !", "speak": true }
+      ],
+      "explain": "Quel est le meilleur...? se responde con una recomendación superlativa."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "speak": "C'est le meilleur restaurant de la ville, mais c'est aussi le plus cher, et le pire pour le service.",
+      "mode": "write",
+      "accept": ["C'est le meilleur restaurant de la ville, mais c'est aussi le plus cher, et le pire pour le service"],
+      "showTextAfter": true,
+      "explain": "Varios superlativos combinados."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["superlativo"],
+      "difficulty": 1,
+      "speak": "le pire",
+      "mode": "choose",
+      "options": ["le meilleur", "le pire", "le plus grand", "le moins cher"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Le pire = el peor."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["superlativo"],
+      "difficulty": 3,
+      "speak": "C'est le meilleur restaurant de la ville, le plus cher aussi, mais c'est le pire pour le service.",
+      "es": "Es el mejor restaurante de la ciudad, el más caro también, pero es el peor en cuanto al servicio.",
+      "ipa": "/sɛ lə mɛ.jœʁ ʁɛs.to.ʁɑ̃ də la vil lə ply ʃɛʁ o.si mɛ sɛ lə piʁ puʁ lə sɛʁ.vis/",
+      "esApprox": "«se le me-YÖR res-to-RAN de la VIL le plü SHER o-SI me se le PIR pur le ser-VIS»",
+      "focus": "Tres superlativos distintos sobre el mismo lugar.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "Habla del mejor y del peor restaurante, película o lugar que conoces.",
+      "modelAnswer": "C'est le meilleur restaurant de la ville, mais c'est aussi le plus cher.",
+      "alsoValid": ["C'est le pire film que j'ai vu."],
+      "speak": "C'est le meilleur restaurant de la ville, mais c'est aussi le plus cher.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "¿Es un superlativo regular o irregular?",
+      "buckets": ["Regular", "Irregular"],
+      "items": [
+        { "text": "le plus grand", "bucket": 0 },
+        { "text": "le meilleur", "bucket": 1 },
+        { "text": "le moins cher", "bucket": 0 },
+        { "text": "le pire", "bucket": 1 }
+      ],
+      "explain": "Le plus grand y le moins cher son regulares; le meilleur y le pire, irregulares."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["superlativo"],
+      "difficulty": 2,
+      "prompt": "Hay un error de preposición. Corrige la frase entera.",
+      "wrong": "C'est le meilleur restaurant dans la ville.",
+      "accept": ["C'est le meilleur restaurant de la ville"],
+      "audio": "C'est le meilleur restaurant de la ville.",
+      "explain": "El superlativo usa de + lugar, no dans."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "le/la plus", "es": "el/la más", "esApprox": "«le la plü»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "le/la moins", "es": "el/la menos", "esApprox": "«le la muen»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "le meilleur / la meilleure", "es": "el mejor / la mejor", "esApprox": "«le me-YÖR»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "le pire / la pire", "es": "el peor / la peor", "esApprox": "«le PIR»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "de la ville / de la classe", "es": "de la ciudad / de la clase", "esApprox": "«de la VIL de la KLAS»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "C'est le restaurant le plus cher de la ville, mais c'est aussi le meilleur.", "es": "Es el restaurante más caro de la ciudad, pero también es el mejor.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "C'est le pire film que j'ai vu, et c'est le plus cher aussi.", "es": "Es la peor película que he visto, y es la más cara también.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "C'est la solution la moins chère.", "es": "Es la solución menos cara.", "from": "e9" }
+  ]
+}

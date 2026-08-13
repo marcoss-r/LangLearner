@@ -1,0 +1,256 @@
+{
+  "id": "fr-a2-154",
+  "lang": "fr",
+  "level": "A2",
+  "order": 154,
+  "title": "Hacer sugerencias y proponer planes",
+  "objectives": [
+    "Aprender fórmulas para proponer un plan: on pourrait, et si on..., ça te dit de",
+    "Usar el condicional (clase A2-129) en las sugerencias",
+    "Practicar una conversación proponiendo y respondiendo a planes"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Proponer algo con naturalidad",
+      "body": "Sin gramática nueva. On pourrait, et si on..., ça te dit de... son las fórmulas más naturales para proponer un plan, todas con el condicional o el presente.",
+      "examples": [
+        { "target": "On pourrait aller au cinéma ce soir. Ça te dit ?", "es": "Podríamos ir al cine esta noche. ¿Te apetece?", "note": "on pourrait + ça te dit ?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para proponer",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["on pourrait", "podríamos"],
+        ["et si on...", "¿y si...?"],
+        ["ça te dit de...", "¿te apetece...?"],
+        ["qu'est-ce que tu dirais de...", "¿qué te parece...?"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Responder a una sugerencia",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["bonne idée", "buena idea"],
+        ["pourquoi pas", "por qué no"],
+        ["je préférerais autre chose", "preferiría otra cosa"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "on pourrait", "es": "podríamos", "ipa": "/ɔ̃ pu.ʁɛ/", "esApprox": "«on pu-RE»", "pos": "verbo", "gender": null, "example": { "target": "On pourrait aller au cinéma ce soir.", "es": "Podríamos ir al cine esta noche." } },
+    { "id": "v2", "target": "et si on...", "es": "¿y si...?", "ipa": "/e si ɔ̃/", "esApprox": "«e si ON»", "pos": "expresión", "gender": null, "example": { "target": "Et si on allait à la plage ?", "es": "¿Y si vamos a la playa?" } },
+    { "id": "v3", "target": "ça te dit de...", "es": "¿te apetece...?", "ipa": "/sa tə di də/", "esApprox": "«sa te DI de»", "pos": "expresión", "gender": null, "example": { "target": "Ça te dit de sortir ce week-end ?", "es": "¿Te apetece salir este fin de semana?" } },
+    { "id": "v4", "target": "qu'est-ce que tu dirais de", "es": "¿qué te parece...?", "ipa": "/kɛs.kə ty di.ʁɛ də/", "esApprox": "«kes-ke tü di-RE de»", "pos": "expresión", "gender": null, "example": { "target": "Qu'est-ce que tu dirais d'un pique-nique ?", "es": "¿Qué te parece un picnic?" } },
+    { "id": "v5", "target": "bonne idée", "es": "buena idea", "ipa": "/bɔn i.de/", "esApprox": "«bon i-DÉ»", "pos": "expresión", "gender": null, "example": { "target": "Bonne idée, allons-y !", "es": "Buena idea, ¡vamos!" } },
+    { "id": "v6", "target": "pourquoi pas", "es": "por qué no", "ipa": "/puʁ.kwa pa/", "esApprox": "«pur-KUÁ pa»", "pos": "expresión", "gender": null, "example": { "target": "Pourquoi pas, ça a l'air sympa.", "es": "Por qué no, parece divertido." } },
+    { "id": "v7", "target": "je préférerais autre chose", "es": "preferiría otra cosa", "ipa": "/ʒə pʁe.fe.ʁə.ʁɛ otʁ ʃoz/", "esApprox": "«ye pre-fe-re-RE OTR SHOZ»", "pos": "expresión", "gender": null, "example": { "target": "Je préférerais autre chose, si possible.", "es": "Preferiría otra cosa, si es posible." } },
+    { "id": "v8", "target": "un pique-nique", "es": "un picnic", "ipa": "/œ̃ pik.nik/", "esApprox": "«un PIK-nik»", "pos": "sustantivo", "gender": "m", "example": { "target": "On pourrait faire un pique-nique.", "es": "Podríamos hacer un picnic." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «podríamos ir al cine esta noche»?",
+      "options": ["On pourrait aller au cinéma ce soir.", "On peut aller au cinéma ce soir.", "On va aller au cinéma ce soir.", "On ira au cinéma ce soir."],
+      "answer": 0,
+      "explain": "On pourrait (condicional) suena a sugerencia, no a orden."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «ça te dit de»?",
+      "options": ["¿me dices que?", "¿te apetece?", "¿te dijo que?", "¿te digo que?"],
+      "answer": 1,
+      "explain": "Ça te dit de = ¿te apetece?"
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "statement": "Et si on... va seguido del imparfait.",
+      "answer": true,
+      "explain": "Et si on allait...? usa el imparfait, aunque no sea una condición hipotética completa."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "statement": "Pourquoi pas significa un rechazo total.",
+      "answer": false,
+      "explain": "Pourquoi pas significa aceptación con cierta duda, no un rechazo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["bonne idée", "pourquoi pas", "un pique-nique", "je préférerais autre chose"],
+      "right": ["preferiría otra cosa", "buena idea", "por qué no", "un picnic"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Bonne idée = buena idea, pourquoi pas = por qué no, pique-nique = picnic, préférerais autre chose = preferiría otra cosa."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "Podríamos ir al cine esta noche. ¿Te apetece?",
+      "accept": ["On pourrait aller au cinéma ce soir. Ça te dit"],
+      "hintWords": ["on pourrait aller au cinéma ce soir", "ça te dit"],
+      "strictAccents": true,
+      "audio": "On pourrait aller au cinéma ce soir. Ça te dit ?",
+      "explain": "On pourrait + ça te dit ?"
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "¿Y si vamos a la playa? Buena idea, ¡vamos!",
+      "accept": ["Et si on allait à la plage ? Bonne idée, allons-y"],
+      "hintWords": ["et si on allait à la plage", "bonne idée, allons-y"],
+      "strictAccents": true,
+      "audio": "Et si on allait à la plage ? Bonne idée, allons-y !",
+      "explain": "Et si on... + bonne idée."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "Qu'est-ce que tu ___ d'un pique-nique ? ___ pas, ça a l'air sympa.",
+      "blanks": [{ "accept": ["dirais"] }, { "accept": ["Pourquoi"] }],
+      "bank": ["dirais", "Pourquoi", "penses"],
+      "explain": "Qu'est-ce que tu dirais de + pourquoi pas."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Podríamos hacer un picnic»",
+      "tokens": ["un pique-nique", "On pourrait faire"],
+      "answer": ["On pourrait faire", "un pique-nique"],
+      "audio": "On pourrait faire un pique-nique.",
+      "explain": "On pourrait faire + un pique-nique."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "Ça te dit de sortir ce week-end ? Pourquoi pas, mais je préférerais autre chose que le cinéma.",
+      "accept": ["¿Te apetece salir este fin de semana? Por qué no, pero preferiría otra cosa que el cine."],
+      "strictAccents": false,
+      "audio": "Ça te dit de sortir ce week-end ? Pourquoi pas, mais je préférerais autre chose que le cinéma.",
+      "explain": "Ça te dit de + pourquoi pas + je préférerais autre chose."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación proponiendo un plan",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce qu'on fait ce week-end ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["On pourrait faire un pique-nique.", "Et si on allait au cinéma ?"], "hint": "usa on pourrait o et si on" },
+        { "who": "Léa", "text": "Bonne idée, ça me dit bien !", "speak": true }
+      ],
+      "explain": "Qu'est-ce qu'on fait...? se responde con una sugerencia."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "speak": "On pourrait faire un pique-nique, et si ça ne te dit rien, on pourrait aller au cinéma.",
+      "mode": "write",
+      "accept": ["On pourrait faire un pique-nique, et si ça ne te dit rien, on pourrait aller au cinéma"],
+      "showTextAfter": true,
+      "explain": "Dos sugerencias combinadas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["sugerencias"],
+      "difficulty": 1,
+      "speak": "ça te dit de",
+      "mode": "choose",
+      "options": ["on pourrait", "ça te dit de", "et si on", "pourquoi pas"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Ça te dit de = ¿te apetece?"
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["sugerencias"],
+      "difficulty": 3,
+      "speak": "On pourrait aller au cinéma, ou et si on faisait un pique-nique ? Qu'est-ce que tu dirais de ça ?",
+      "es": "Podríamos ir al cine, ¿o y si hacemos un picnic? ¿Qué te parece eso?",
+      "ipa": "/ɔ̃ pu.ʁɛ a.le o si.ne.ma u e si ɔ̃ fə.zɛ œ̃ pik.nik kɛs.kə ty di.ʁɛ də sa/",
+      "esApprox": "«on pu-RE a-LÉ o si-ne-MA u e si on fe-ZE un PIK-nik kes-ke tü di-RE de sa»",
+      "focus": "Varias fórmulas de sugerencia encadenadas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "Propón un plan para el fin de semana, usando dos fórmulas distintas.",
+      "modelAnswer": "On pourrait aller au cinéma, et si tu préfères, on pourrait faire un pique-nique.",
+      "alsoValid": ["Ça te dit de sortir samedi soir ?"],
+      "speak": "On pourrait aller au cinéma, et si tu préfères, on pourrait faire un pique-nique.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "¿Es una propuesta o una respuesta a una propuesta?",
+      "buckets": ["Propuesta", "Respuesta"],
+      "items": [
+        { "text": "on pourrait", "bucket": 0 },
+        { "text": "bonne idée", "bucket": 1 },
+        { "text": "et si on...", "bucket": 0 },
+        { "text": "pourquoi pas", "bucket": 1 }
+      ],
+      "explain": "On pourrait y et si on son propuestas; bonne idée y pourquoi pas, respuestas."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["sugerencias"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "Et si on va à la plage ?",
+      "accept": ["Et si on allait à la plage"],
+      "audio": "Et si on allait à la plage ?",
+      "explain": "Et si on... necesita el imparfait (allait), no el presente (va)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "on pourrait", "es": "podríamos", "esApprox": "«on pu-RE»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "et si on...", "es": "¿y si...?", "esApprox": "«e si ON»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "ça te dit de...", "es": "¿te apetece...?", "esApprox": "«sa te DI de»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "qu'est-ce que tu dirais de", "es": "¿qué te parece...?", "esApprox": "«kes-ke tü di-RE de»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "bonne idée", "es": "buena idea", "esApprox": "«bon i-DÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "pourquoi pas", "es": "por qué no", "esApprox": "«pur-KUÁ pa»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "On pourrait aller au cinéma ce soir. Ça te dit ?", "es": "Podríamos ir al cine esta noche. ¿Te apetece?", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Et si on allait à la plage ? Bonne idée, allons-y !", "es": "¿Y si vamos a la playa? Buena idea, ¡vamos!", "from": "e7" }
+  ]
+}

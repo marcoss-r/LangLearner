@@ -1,0 +1,253 @@
+{
+  "id": "fr-a2-153",
+  "lang": "fr",
+  "level": "A2",
+  "order": 153,
+  "title": "Expresar gustos con matices: j'aime bien, j'adore, ça ne me dit rien",
+  "objectives": [
+    "Ampliar los matices para expresar gustos, más allá de j'aime/je n'aime pas",
+    "Ordenar los gustos de más a menos: j'adore, j'aime bien, ça me dit rien, je déteste",
+    "Practicar frases con matices sobre tus preferencias"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Del amor al odio, con matices",
+      "body": "Sin gramática nueva. Ya conoces j'aime, je n'aime pas, j'adore, je déteste. Ahora añades matices intermedios: j'aime bien (menos fuerte que j'adore), ça ne me dit rien (indiferencia, no ganas).",
+      "examples": [
+        { "target": "J'adore le chocolat, mais ça ne me dit rien de manger des escargots.", "es": "Me encanta el chocolate, pero no me apetece nada comer caracoles.", "note": "j'adore (fuerte) frente a ça ne me dit rien (indiferencia)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Escala de gustos, de más a menos",
+      "headers": ["Francés", "Español", "Intensidad"],
+      "rows": [
+        ["j'adore", "me encanta", "muy positivo"],
+        ["j'aime bien", "me gusta bastante", "positivo moderado"],
+        ["ça ne me dit rien", "no me apetece nada", "indiferencia"],
+        ["je n'aime pas trop", "no me gusta demasiado", "negativo moderado"],
+        ["je déteste", "odio, detesto", "muy negativo"]
+      ],
+      "note": "J'aime bien es más suave que j'adore, no significa «me gusta un poco»."
+    },
+    {
+      "type": "tip",
+      "title": "Avoir envie de, otra forma de gusto",
+      "body": "Avoir envie de + infinitivo o sustantivo expresa un deseo momentáneo, distinto de aimer (un gusto general): j'aime le chocolat (en general) frente a j'ai envie de chocolat (ahora mismo)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "j'adore", "es": "me encanta", "ipa": "/ʒa.dɔʁ/", "esApprox": "«sha-DOR»", "pos": "verbo", "gender": null, "example": { "target": "J'adore le chocolat.", "es": "Me encanta el chocolate." } },
+    { "id": "v2", "target": "j'aime bien", "es": "me gusta bastante", "ipa": "/ʒɛm bjɛ̃/", "esApprox": "«shem BIEN»", "pos": "verbo", "gender": null, "example": { "target": "J'aime bien ce restaurant.", "es": "Me gusta bastante este restaurante." } },
+    { "id": "v3", "target": "ça ne me dit rien", "es": "no me apetece nada", "ipa": "/sa nə mə di ʁjɛ̃/", "esApprox": "«sa ne me di RIEN»", "pos": "expresión", "gender": null, "example": { "target": "Ça ne me dit rien de sortir ce soir.", "es": "No me apetece nada salir esta noche." } },
+    { "id": "v4", "target": "je n'aime pas trop", "es": "no me gusta demasiado", "ipa": "/ʒə nɛm pa tʁo/", "esApprox": "«ye nem pa TRO»", "pos": "expresión", "gender": null, "example": { "target": "Je n'aime pas trop le poisson.", "es": "No me gusta demasiado el pescado." } },
+    { "id": "v5", "target": "je déteste", "es": "odio, detesto", "ipa": "/ʒə de.tɛst/", "esApprox": "«ye de-TEST»", "pos": "verbo", "gender": null, "example": { "target": "Je déteste attendre.", "es": "Odio esperar." } },
+    { "id": "v6", "target": "un escargot", "es": "un caracol", "ipa": "/œ̃.n‿ɛs.kaʁ.ɡo/", "esApprox": "«un-nes-kar-GÓ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je n'ai jamais mangé d'escargots.", "es": "Nunca he comido caracoles." } },
+    { "id": "v7", "target": "avoir envie de", "es": "tener ganas de", "ipa": "/a.vwaʁ ɑ̃.vi də/", "esApprox": "«a-VUÁR an-VÍ de»", "pos": "expresión", "gender": null, "example": { "target": "J'ai envie de manger une pizza.", "es": "Tengo ganas de comer una pizza." } },
+    { "id": "v8", "target": "ça dépend", "es": "depende", "ipa": "/sa de.pɑ̃/", "esApprox": "«sa de-PAN»", "pos": "expresión", "gender": null, "example": { "target": "Ça dépend du jour.", "es": "Depende del día." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es más fuerte, j'aime bien o j'adore?",
+      "options": ["j'aime bien", "j'adore", "son iguales", "ninguno de los dos"],
+      "answer": 1,
+      "explain": "J'adore es más fuerte que j'aime bien."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «ça ne me dit rien»?",
+      "options": ["me encanta", "no me apetece nada", "lo odio", "me da igual el precio"],
+      "answer": 1,
+      "explain": "Ça ne me dit rien = no me apetece nada, indiferencia."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "statement": "J'aime bien significa «me gusta un poco».",
+      "answer": false,
+      "explain": "J'aime bien significa «me gusta bastante», no «un poco»."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "statement": "Avoir envie de significa tener ganas de.",
+      "answer": true,
+      "explain": "Avoir envie de = tener ganas de."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "Ordena de más positivo a más negativo",
+      "left": ["j'adore", "j'aime bien", "je n'aime pas trop", "je déteste"],
+      "right": ["muy negativo", "positivo moderado", "muy positivo", "negativo moderado"],
+      "answer": [2, 1, 3, 0],
+      "explain": "J'adore (muy positivo), j'aime bien (positivo moderado), je n'aime pas trop (negativo moderado), je déteste (muy negativo)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "Me encanta el chocolate, pero no me apetece nada comer caracoles.",
+      "accept": ["J'adore le chocolat, mais ça ne me dit rien de manger des escargots"],
+      "hintWords": ["j'adore le chocolat", "mais ça ne me dit rien de manger des escargots"],
+      "strictAccents": true,
+      "audio": "J'adore le chocolat, mais ça ne me dit rien de manger des escargots.",
+      "explain": "J'adore (fuerte) frente a ça ne me dit rien (indiferencia)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "No me gusta demasiado el pescado, pero tengo ganas de comer pizza.",
+      "accept": ["Je n'aime pas trop le poisson, mais j'ai envie de manger une pizza"],
+      "hintWords": ["je n'aime pas trop le poisson", "j'ai envie de manger une pizza"],
+      "strictAccents": true,
+      "audio": "Je n'aime pas trop le poisson, mais j'ai envie de manger une pizza.",
+      "explain": "Je n'aime pas trop + avoir envie de."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "Tu veux sortir ce soir ? Ça ___ , je suis fatigué.",
+      "blanks": [{ "accept": ["dépend"] }],
+      "bank": ["dépend", "adore", "déteste"],
+      "explain": "Ça dépend = depende."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Odio esperar»",
+      "tokens": ["attendre", "Je déteste"],
+      "answer": ["Je déteste", "attendre"],
+      "audio": "Je déteste attendre.",
+      "explain": "Je déteste + attendre."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "J'aime bien ce restaurant, mais ça dépend des jours, parfois ça ne me dit rien d'y aller.",
+      "accept": ["Me gusta bastante este restaurante, pero depende de los días, a veces no me apetece nada ir."],
+      "strictAccents": false,
+      "audio": "J'aime bien ce restaurant, mais ça dépend des jours, parfois ça ne me dit rien d'y aller.",
+      "explain": "J'aime bien + ça dépend + ça ne me dit rien."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus gustos",
+      "turns": [
+        { "who": "Léa", "text": "Tu veux manger des escargots ce soir ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ça ne me dit rien, désolé.", "J'ai plutôt envie d'une pizza."], "hint": "usa ça ne me dit rien o avoir envie de" },
+        { "who": "Léa", "text": "Pas de problème, on trouvera autre chose.", "speak": true }
+      ],
+      "explain": "Ante una propuesta, se responde con matices de gustos."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "speak": "J'adore le chocolat, j'aime bien le fromage, mais ça ne me dit rien de manger des escargots.",
+      "mode": "write",
+      "accept": ["J'adore le chocolat, j'aime bien le fromage, mais ça ne me dit rien de manger des escargots"],
+      "showTextAfter": true,
+      "explain": "Tres niveles de gustos combinados."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["gustos"],
+      "difficulty": 1,
+      "speak": "ça ne me dit rien",
+      "mode": "choose",
+      "options": ["j'adore", "ça ne me dit rien", "je déteste", "j'aime bien"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Ça ne me dit rien = no me apetece nada."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["gustos"],
+      "difficulty": 3,
+      "speak": "J'adore le chocolat, j'aime bien le fromage, je n'aime pas trop le poisson, et je déteste les escargots.",
+      "es": "Me encanta el chocolate, me gusta bastante el queso, no me gusta demasiado el pescado, y odio los caracoles.",
+      "ipa": "/ʒa.dɔʁ lə ʃɔ.kɔ.la ʒɛm bjɛ̃ lə fʁɔ.maʒ ʒə nɛm pa tʁo lə pwa.sɔ̃ e ʒə de.tɛst le.z‿ɛs.kaʁ.ɡo/",
+      "esApprox": "«sha-DOR le sho-ko-LA shem BIEN le fro-MASH ye nem pa TRO le puá-SON e ye de-TEST le-zes-kar-GÓ»",
+      "focus": "Los cuatro niveles de gustos, de más a menos, en una frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "Habla de tus gustos sobre comida, usando al menos tres matices distintos.",
+      "modelAnswer": "J'adore le chocolat, j'aime bien le fromage, mais je déteste les escargots.",
+      "alsoValid": ["Ça ne me dit rien de manger du poisson."],
+      "speak": "J'adore le chocolat, j'aime bien le fromage, mais je déteste les escargots.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "¿Es positivo, negativo o indiferencia?",
+      "buckets": ["Positivo", "Negativo o indiferencia"],
+      "items": [
+        { "text": "j'adore", "bucket": 0 },
+        { "text": "ça ne me dit rien", "bucket": 1 },
+        { "text": "j'aime bien", "bucket": 0 },
+        { "text": "je déteste", "bucket": 1 }
+      ],
+      "explain": "J'adore y j'aime bien son positivos; ça ne me dit rien y je déteste, negativos o de indiferencia."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["gustos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "J'aime bien beaucoup ce restaurant, c'est mon préféré.",
+      "accept": ["J'adore ce restaurant, c'est mon préféré"],
+      "audio": "J'adore ce restaurant, c'est mon préféré.",
+      "explain": "Para un gusto muy fuerte (favorito), se usa j'adore, no j'aime bien beaucoup (que no es natural)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "j'adore", "es": "me encanta", "esApprox": "«sha-DOR»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'aime bien", "es": "me gusta bastante", "esApprox": "«shem BIEN»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "ça ne me dit rien", "es": "no me apetece nada", "esApprox": "«sa ne me di RIEN»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "je n'aime pas trop", "es": "no me gusta demasiado", "esApprox": "«ye nem pa TRO»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "je déteste", "es": "odio, detesto", "esApprox": "«ye de-TEST»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "avoir envie de", "es": "tener ganas de", "esApprox": "«a-VUÁR an-VÍ de»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "J'adore le chocolat, mais ça ne me dit rien de manger des escargots.", "es": "Me encanta el chocolate, pero no me apetece nada comer caracoles.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je n'aime pas trop le poisson, mais j'ai envie de manger une pizza.", "es": "No me gusta demasiado el pescado, pero tengo ganas de comer pizza.", "from": "e7" }
+  ]
+}

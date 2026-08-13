@@ -1,0 +1,252 @@
+{
+  "id": "fr-a2-158",
+  "lang": "fr",
+  "level": "A2",
+  "order": 158,
+  "title": "El comparativo: plus... que, moins... que, aussi... que",
+  "objectives": [
+    "Formar el comparativo de superioridad, inferioridad e igualdad con adjetivos",
+    "Reconocer las formas irregulares: meilleur (bon), pire (mauvais)",
+    "Practicar comparaciones entre personas, cosas y lugares"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres formas de comparar",
+      "body": "Para comparar dos cosas, usa plus (más), moins (menos) o aussi (tan) + adjetivo + que.",
+      "examples": [
+        { "target": "Paris est plus grand que Lyon, mais Lyon est aussi intéressant que Paris.", "es": "París es más grande que Lyon, pero Lyon es tan interesante como París.", "note": "plus grand que + aussi intéressant que" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El comparativo",
+      "headers": ["Estructura", "Significado", "Ejemplo"],
+      "rows": [
+        ["plus + adjetivo + que", "más... que", "plus grand que"],
+        ["moins + adjetivo + que", "menos... que", "moins cher que"],
+        ["aussi + adjetivo + que", "tan... como", "aussi intéressant que"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Formas irregulares",
+      "headers": ["Adjetivo", "Comparativo de superioridad"],
+      "rows": [
+        ["bon / bonne (bueno)", "meilleur / meilleure (mejor)"],
+        ["mauvais / mauvaise (malo)", "pire (peor), o plus mauvais"]
+      ],
+      "note": "Meilleur y pire no usan plus + bon/mauvais; son formas totalmente distintas, como en español bueno → mejor."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "plus... que", "es": "más... que", "ipa": "/ply kə/", "esApprox": "«plü ke»", "pos": "expresión", "gender": null, "example": { "target": "Paris est plus grand que Lyon.", "es": "París es más grande que Lyon." } },
+    { "id": "v2", "target": "moins... que", "es": "menos... que", "ipa": "/mwɛ̃ kə/", "esApprox": "«muen ke»", "pos": "expresión", "gender": null, "example": { "target": "Ce livre est moins cher que l'autre.", "es": "Este libro es menos caro que el otro." } },
+    { "id": "v3", "target": "aussi... que", "es": "tan... como", "ipa": "/o.si kə/", "esApprox": "«o-si ke»", "pos": "expresión", "gender": null, "example": { "target": "Lyon est aussi intéressant que Paris.", "es": "Lyon es tan interesante como París." } },
+    { "id": "v4", "target": "meilleur / meilleure", "es": "mejor", "ipa": "/mɛ.jœʁ/", "esApprox": "«me-YÖR»", "pos": "adjetivo", "gender": null, "example": { "target": "Ce restaurant est meilleur que l'autre.", "es": "Este restaurante es mejor que el otro." } },
+    { "id": "v5", "target": "pire", "es": "peor", "ipa": "/piʁ/", "esApprox": "«PIR»", "pos": "adjetivo", "gender": null, "example": { "target": "C'est pire que je pensais.", "es": "Es peor de lo que pensaba." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «París es más grande que Lyon»?",
+      "options": ["Paris est plus grand que Lyon.", "Paris est aussi grand que Lyon.", "Paris est grand plus Lyon.", "Paris est plus grand comme Lyon."],
+      "answer": 0,
+      "explain": "Plus + adjetivo + que."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el comparativo de superioridad de bon?",
+      "options": ["plus bon", "meilleur", "bonnier", "le bon"],
+      "answer": 1,
+      "explain": "Bon tiene una forma irregular: meilleur, no plus bon."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "statement": "Aussi... que se usa para comparar dos cosas iguales.",
+      "answer": true,
+      "explain": "Aussi... que = tan... como, igualdad."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "statement": "Pire es el comparativo regular de mauvais (plus mauvais).",
+      "answer": false,
+      "explain": "Pire es una forma irregular, aunque plus mauvais también es aceptable en algunos casos."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "Une cada estructura con su significado",
+      "left": ["plus... que", "moins... que", "aussi... que", "meilleur"],
+      "right": ["mejor", "más... que", "tan... como", "menos... que"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Plus que = más que, moins que = menos que, aussi que = tan como, meilleur = mejor."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "París es más grande que Lyon, pero Lyon es tan interesante como París.",
+      "accept": ["Paris est plus grand que Lyon, mais Lyon est aussi intéressant que Paris"],
+      "hintWords": ["paris est plus grand que lyon", "lyon est aussi intéressant que paris"],
+      "strictAccents": true,
+      "audio": "Paris est plus grand que Lyon, mais Lyon est aussi intéressant que Paris.",
+      "explain": "Plus grand que + aussi intéressant que."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "Este restaurante es mejor que el otro, y es menos caro también.",
+      "accept": ["Ce restaurant est meilleur que l'autre, et il est moins cher aussi"],
+      "hintWords": ["ce restaurant est meilleur que l'autre", "il est moins cher aussi"],
+      "strictAccents": true,
+      "audio": "Ce restaurant est meilleur que l'autre, et il est moins cher aussi.",
+      "explain": "Meilleur que + moins cher."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Ce livre est ___ que je pensais, mais le film est ___ que le livre.",
+      "blanks": [{ "accept": ["pire"] }, { "accept": ["meilleur"] }],
+      "bank": ["pire", "meilleur", "plus"],
+      "explain": "Pire + meilleur, dos formas irregulares en la misma frase."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Este libro es menos caro que el otro»",
+      "tokens": ["que l'autre", "Ce livre est moins cher"],
+      "answer": ["Ce livre est moins cher", "que l'autre"],
+      "audio": "Ce livre est moins cher que l'autre.",
+      "explain": "Ce livre est moins cher + que l'autre."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "Ce restaurant est meilleur que l'autre, mais c'est aussi plus cher, donc ça dépend de ton budget.",
+      "accept": ["Este restaurante es mejor que el otro, pero también es más caro, así que depende de tu presupuesto."],
+      "strictAccents": false,
+      "audio": "Ce restaurant est meilleur que l'autre, mais c'est aussi plus cher, donc ça dépend de ton budget.",
+      "explain": "Meilleur que + plus cher, dos comparaciones en la misma frase."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación comparando dos restaurantes",
+      "turns": [
+        { "who": "Léa", "text": "Quel restaurant tu préfères ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Celui-ci est meilleur que l'autre.", "Celui-ci est moins cher que l'autre."], "hint": "usa meilleur o moins cher" },
+        { "who": "Léa", "text": "Ah, d'accord, allons-y alors !", "speak": true }
+      ],
+      "explain": "Al comparar, se usan meilleur, moins cher, plus grand..."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "speak": "Paris est plus grand que Lyon, Lyon est aussi intéressant que Paris, et ce restaurant est meilleur que l'autre.",
+      "mode": "write",
+      "accept": ["Paris est plus grand que Lyon, Lyon est aussi intéressant que Paris, et ce restaurant est meilleur que l'autre"],
+      "showTextAfter": true,
+      "explain": "Tres comparaciones combinadas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["comparativo"],
+      "difficulty": 1,
+      "speak": "meilleur",
+      "mode": "choose",
+      "options": ["plus bon", "meilleur", "pire", "aussi bon"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Meilleur = mejor (comparativo irregular de bon)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["comparativo"],
+      "difficulty": 3,
+      "speak": "Paris est plus grand que Lyon, mais Lyon est aussi intéressant, et ce restaurant est meilleur que l'autre, même s'il est plus cher.",
+      "es": "París es más grande que Lyon, pero Lyon es tan interesante, y este restaurante es mejor que el otro, aunque sea más caro.",
+      "ipa": "/pa.ʁi ɛ ply ɡʁɑ̃ kə ljɔ̃ mɛ ljɔ̃ ɛ.t‿o.si ɛ̃.te.ʁɛ.sɑ̃ e sə ʁɛs.to.ʁɑ̃ ɛ mɛ.jœʁ kə lotʁ mɛm sil ɛ ply ʃɛʁ/",
+      "esApprox": "«pa-RÍ e plü GRAN ke li-ON me li-ON e-to-SI en-te-re-SAN e se res-to-RAN e me-YÖR ke LOTR mem sil e plü SHER»",
+      "focus": "Varias comparaciones encadenadas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "Compara dos ciudades, dos restaurantes o dos películas que conoces.",
+      "modelAnswer": "Paris est plus grand que Lyon, mais Lyon est aussi intéressant.",
+      "alsoValid": ["Ce film est meilleur que l'autre."],
+      "speak": "Paris est plus grand que Lyon, mais Lyon est aussi intéressant.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "¿Es superioridad, inferioridad o igualdad?",
+      "buckets": ["Superioridad/inferioridad", "Igualdad"],
+      "items": [
+        { "text": "plus grand que", "bucket": 0 },
+        { "text": "aussi intéressant que", "bucket": 1 },
+        { "text": "moins cher que", "bucket": 0 },
+        { "text": "aussi bon que", "bucket": 1 }
+      ],
+      "explain": "Plus/moins indican superioridad o inferioridad; aussi, igualdad."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["comparativo"],
+      "difficulty": 2,
+      "prompt": "Hay un error de forma irregular. Corrige la frase entera.",
+      "wrong": "Ce restaurant est plus bon que l'autre.",
+      "accept": ["Ce restaurant est meilleur que l'autre"],
+      "audio": "Ce restaurant est meilleur que l'autre.",
+      "explain": "Bon tiene una forma irregular: meilleur, no plus bon."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "plus... que", "es": "más... que", "esApprox": "«plü ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "moins... que", "es": "menos... que", "esApprox": "«muen ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "aussi... que", "es": "tan... como", "esApprox": "«o-si ke»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "meilleur / meilleure", "es": "mejor", "esApprox": "«me-YÖR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "pire", "es": "peor", "esApprox": "«PIR»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Paris est plus grand que Lyon, mais Lyon est aussi intéressant que Paris.", "es": "París es más grande que Lyon, pero Lyon es tan interesante como París.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Ce restaurant est meilleur que l'autre, et il est moins cher aussi.", "es": "Este restaurante es mejor que el otro, y es menos caro también.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Ce livre est moins cher que l'autre.", "es": "Este libro es menos caro que el otro.", "from": "e9" }
+  ]
+}

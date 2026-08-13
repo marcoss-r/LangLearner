@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-160",
+  "lang": "fr",
+  "level": "A2",
+  "order": 160,
+  "title": "Los adverbios en -ment",
+  "objectives": [
+    "Formar adverbios en -ment a partir del femenino del adjetivo",
+    "Reconocer las excepciones más comunes: vraiment, gentiment",
+    "Practicar frases con adverbios en -ment"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Del adjetivo al adverbio",
+      "body": "La mayoría de los adverbios en francés se forman añadiendo -ment al femenino del adjetivo: lent → lente → lentement. Si el adjetivo termina en vocal en masculino, se añade -ment directamente: vrai → vraiment.",
+      "examples": [
+        { "target": "Il parle lentement, mais il travaille rapidement.", "es": "Habla lentamente, pero trabaja rápidamente.", "note": "lent → lente → lentement, rapide → rapidement" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Formación regular",
+      "headers": ["Adjetivo (m./f.)", "Adverbio"],
+      "rows": [
+        ["lent / lente", "lentement"],
+        ["rapide / rapide", "rapidement"],
+        ["heureux / heureuse", "heureusement"],
+        ["facile / facile", "facilement"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Excepciones frecuentes",
+      "headers": ["Adjetivo", "Adverbio irregular"],
+      "rows": [
+        ["vrai", "vraiment"],
+        ["gentil", "gentiment"],
+        ["bon", "bien"],
+        ["mauvais", "mal"]
+      ],
+      "note": "Bon → bien y mauvais → mal son las excepciones más importantes: no siguen ningún patrón regular."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "lentement", "es": "lentamente", "ipa": "/lɑ̃t.mɑ̃/", "esApprox": "«lant-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "Il parle lentement.", "es": "Habla lentamente." } },
+    { "id": "v2", "target": "rapidement", "es": "rápidamente", "ipa": "/ʁa.pid.mɑ̃/", "esApprox": "«ra-pid-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "Il travaille rapidement.", "es": "Trabaja rápidamente." } },
+    { "id": "v3", "target": "heureusement", "es": "afortunadamente", "ipa": "/ø.ʁøz.mɑ̃/", "esApprox": "«ö-röz-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "Heureusement, il n'est pas trop tard.", "es": "Afortunadamente, no es demasiado tarde." } },
+    { "id": "v4", "target": "vraiment", "es": "de verdad, realmente", "ipa": "/vʁɛ.mɑ̃/", "esApprox": "«vre-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "C'est vraiment intéressant.", "es": "Es realmente interesante." } },
+    { "id": "v5", "target": "gentiment", "es": "amablemente", "ipa": "/ʒɑ̃.ti.mɑ̃/", "esApprox": "«shan-ti-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "Il m'a répondu gentiment.", "es": "Me respondió amablemente." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el adverbio de lent?",
+      "options": ["lentement", "lentament", "lenment", "lement"],
+      "answer": 0,
+      "explain": "Lent → lente (femenino) → lentement."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el adverbio irregular de bon?",
+      "options": ["bonnement", "bien", "bonment", "bonnamment"],
+      "answer": 1,
+      "explain": "Bon → bien, una excepción totalmente irregular."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "statement": "Los adverbios en -ment se forman a partir del femenino del adjetivo.",
+      "answer": true,
+      "explain": "Lent → lente → lentement, es la regla general."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "statement": "Mauvais tiene un adverbio regular: mauvaisement.",
+      "answer": false,
+      "explain": "Mauvais → mal, es irregular, no mauvaisement."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "Une cada adjetivo con su adverbio",
+      "left": ["rapide", "heureux", "vrai", "gentil"],
+      "right": ["gentiment", "rapidement", "heureusement", "vraiment"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Rapide → rapidement, heureux → heureusement, vrai → vraiment, gentil → gentiment."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "Habla lentamente, pero trabaja rápidamente.",
+      "accept": ["Il parle lentement, mais il travaille rapidement"],
+      "hintWords": ["il parle lentement", "mais il travaille rapidement"],
+      "strictAccents": true,
+      "audio": "Il parle lentement, mais il travaille rapidement.",
+      "explain": "Lentement + rapidement, dos adverbios regulares."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "Afortunadamente, no es demasiado tarde. Me respondió amablemente.",
+      "accept": ["Heureusement, il n'est pas trop tard. Il m'a répondu gentiment"],
+      "hintWords": ["heureusement, il n'est pas trop tard", "il m'a répondu gentiment"],
+      "strictAccents": true,
+      "audio": "Heureusement, il n'est pas trop tard. Il m'a répondu gentiment.",
+      "explain": "Heureusement + gentiment, dos adverbios irregulares."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "Completa con el adverbio correcto",
+      "text": "C'est ___ intéressant, mais il parle trop ___.",
+      "blanks": [{ "accept": ["vraiment"] }, { "accept": ["rapidement"] }],
+      "bank": ["vraiment", "rapidement", "gentiment"],
+      "explain": "Vraiment + rapidement."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Trabaja rápidamente»",
+      "tokens": ["rapidement", "Il travaille"],
+      "answer": ["Il travaille", "rapidement"],
+      "audio": "Il travaille rapidement.",
+      "explain": "Il travaille + rapidement."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "Il a très bien travaillé, mais il a mal dormi, et c'est vraiment dommage.",
+      "accept": ["Ha trabajado muy bien, pero ha dormido mal, y es realmente una pena."],
+      "strictAccents": false,
+      "audio": "Il a très bien travaillé, mais il a mal dormi, et c'est vraiment dommage.",
+      "explain": "Bien + mal + vraiment, tres adverbios irregulares y frecuentes."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación describiendo cómo hace algo alguien",
+      "turns": [
+        { "who": "Léa", "text": "Comment il parle, ton prof de français ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il parle lentement, c'est facile à comprendre.", "Il parle assez rapidement."], "hint": "usa un adverbio en -ment" },
+        { "who": "Léa", "text": "Ah, ça a l'air bien !", "speak": true }
+      ],
+      "explain": "Comment il parle...? se responde con un adverbio."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "speak": "Il parle lentement, il travaille rapidement, et heureusement, il répond toujours gentiment.",
+      "mode": "write",
+      "accept": ["Il parle lentement, il travaille rapidement, et heureusement, il répond toujours gentiment"],
+      "showTextAfter": true,
+      "explain": "Cuatro adverbios en -ment combinados."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["adverbios"],
+      "difficulty": 1,
+      "speak": "vraiment",
+      "mode": "choose",
+      "options": ["lentement", "vraiment", "rapidement", "gentiment"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Vraiment = de verdad, realmente."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["adverbios"],
+      "difficulty": 3,
+      "speak": "Il parle lentement, il travaille rapidement, et heureusement, il est vraiment gentil avec tout le monde.",
+      "es": "Habla lentamente, trabaja rápidamente, y afortunadamente, es realmente amable con todo el mundo.",
+      "ipa": "/il paʁl lɑ̃t.mɑ̃ il tʁa.vaj ʁa.pid.mɑ̃ e ø.ʁøz.mɑ̃ i.l‿ɛ vʁɛ.mɑ̃ ʒɑ̃.ti a.vɛk tu lə mɔ̃d/",
+      "esApprox": "«il PARL lant-MAN il tra-VAY ra-pid-MAN e ö-röz-MAN il e vre-MAN shan-TÍ a-VEK tu le MOND»",
+      "focus": "Cuatro adverbios en -ment en una descripción completa.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "Describe cómo haces algo (hablar, trabajar, conducir), usando al menos dos adverbios en -ment.",
+      "modelAnswer": "Je parle lentement en français, mais je travaille rapidement.",
+      "alsoValid": ["Il m'a répondu gentiment."],
+      "speak": "Je parle lentement en français, mais je travaille rapidement.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "¿Es un adverbio regular o irregular?",
+      "buckets": ["Regular", "Irregular"],
+      "items": [
+        { "text": "lentement", "bucket": 0 },
+        { "text": "bien", "bucket": 1 },
+        { "text": "rapidement", "bucket": 0 },
+        { "text": "mal", "bucket": 1 }
+      ],
+      "explain": "Lentement y rapidement son regulares; bien y mal, irregulares."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["adverbios"],
+      "difficulty": 2,
+      "prompt": "Hay un error de formación. Corrige la frase entera.",
+      "wrong": "Il a bonnement travaillé aujourd'hui.",
+      "accept": ["Il a bien travaillé aujourd'hui"],
+      "audio": "Il a bien travaillé aujourd'hui.",
+      "explain": "El adverbio de bon es bien, no bonnement (que no existe)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "lentement", "es": "lentamente", "esApprox": "«lant-MAN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "rapidement", "es": "rápidamente", "esApprox": "«ra-pid-MAN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "heureusement", "es": "afortunadamente", "esApprox": "«ö-röz-MAN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "vraiment", "es": "de verdad, realmente", "esApprox": "«vre-MAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "gentiment", "es": "amablemente", "esApprox": "«shan-ti-MAN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Il parle lentement, mais il travaille rapidement.", "es": "Habla lentamente, pero trabaja rápidamente.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Heureusement, il n'est pas trop tard. Il m'a répondu gentiment.", "es": "Afortunadamente, no es demasiado tarde. Me respondió amablemente.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Il travaille rapidement.", "es": "Trabaja rápidamente.", "from": "e9" }
+  ]
+}

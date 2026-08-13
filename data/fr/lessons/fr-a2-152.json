@@ -1,0 +1,257 @@
+{
+  "id": "fr-a2-152",
+  "lang": "fr",
+  "level": "A2",
+  "order": 152,
+  "title": "Estar de acuerdo o no estarlo",
+  "objectives": [
+    "Aprender fórmulas para estar de acuerdo: je suis d'accord, c'est vrai, tout à fait",
+    "Aprender fórmulas para no estar de acuerdo: je ne suis pas d'accord, pas du tout",
+    "Practicar una conversación con acuerdo y desacuerdo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Acuerdo y desacuerdo",
+      "body": "Sin gramática nueva. Después de una opinión (clase A2-151), puedes estar de acuerdo o no. Je suis d'accord avec toi es la fórmula más común; pas du tout la más enfática para el desacuerdo.",
+      "examples": [
+        { "target": "Je suis tout à fait d'accord avec toi. Mais je ne suis pas d'accord sur ce point.", "es": "Estoy totalmente de acuerdo contigo. Pero no estoy de acuerdo en este punto.", "note": "être d'accord avec + sur" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Estar de acuerdo",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["je suis d'accord avec toi", "estoy de acuerdo contigo"],
+        ["tout à fait", "completamente, totalmente"],
+        ["c'est vrai", "es verdad"],
+        ["tu as raison", "tienes razón"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "No estar de acuerdo",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["je ne suis pas d'accord", "no estoy de acuerdo"],
+        ["pas du tout", "en absoluto"],
+        ["je ne pense pas", "no lo creo"],
+        ["ce n'est pas si simple", "no es tan simple"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je suis d'accord avec toi", "es": "estoy de acuerdo contigo", "ipa": "/ʒə sɥi da.kɔʁ a.vɛk twa/", "esApprox": "«ye süí da-KOR a-VEK tuá»", "pos": "expresión", "gender": null, "example": { "target": "Je suis d'accord avec toi sur ce point.", "es": "Estoy de acuerdo contigo en este punto." } },
+    { "id": "v2", "target": "tout à fait", "es": "completamente, totalmente", "ipa": "/tu.t‿a fɛ/", "esApprox": "«tu-ta FE»", "pos": "adverbio", "gender": null, "example": { "target": "Je suis tout à fait d'accord.", "es": "Estoy totalmente de acuerdo." } },
+    { "id": "v3", "target": "je ne suis pas d'accord", "es": "no estoy de acuerdo", "ipa": "/ʒə nə sɥi pa da.kɔʁ/", "esApprox": "«ye ne süí pa da-KOR»", "pos": "expresión", "gender": null, "example": { "target": "Je ne suis pas d'accord avec toi.", "es": "No estoy de acuerdo contigo." } },
+    { "id": "v4", "target": "pas du tout", "es": "en absoluto", "ipa": "/pa dy tu/", "esApprox": "«pa dü TU»", "pos": "expresión", "gender": null, "example": { "target": "Ce n'est pas vrai, pas du tout.", "es": "No es verdad, en absoluto." } },
+    { "id": "v5", "target": "je ne pense pas", "es": "no lo creo", "ipa": "/ʒə nə pɑ̃s pa/", "esApprox": "«ye ne PANS pa»", "pos": "expresión", "gender": null, "example": { "target": "Je pense que ce n'est pas une bonne idée.", "es": "Pienso que no es una buena idea." } },
+    { "id": "v6", "target": "ce n'est pas si simple", "es": "no es tan simple", "ipa": "/sə nɛ pa si sɛ̃pl/", "esApprox": "«se ne pa si SENPL»", "pos": "expresión", "gender": null, "example": { "target": "Ce n'est pas si simple que ça.", "es": "No es tan simple como parece." } },
+    { "id": "v7", "target": "d'un côté... de l'autre", "es": "por un lado... por otro", "ipa": "/dœ̃ ko.te də lotʁ/", "esApprox": "«dun ko-TÉ de LOTR»", "pos": "expresión", "gender": null, "example": { "target": "D'un côté je suis d'accord, de l'autre j'ai des doutes.", "es": "Por un lado estoy de acuerdo, por otro tengo dudas." } },
+    { "id": "v8", "target": "changer d'avis", "es": "cambiar de opinión", "ipa": "/ʃɑ̃.ʒe da.vi/", "esApprox": "«shan-YÉ da-VÍ»", "pos": "expresión", "gender": null, "example": { "target": "J'ai changé d'avis sur ce sujet.", "es": "He cambiado de opinión sobre este tema." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «estoy totalmente de acuerdo»?",
+      "options": ["Je suis tout à fait d'accord.", "Je ne suis pas du tout d'accord.", "Je pense pas d'accord.", "Je suis avec accord."],
+      "answer": 0,
+      "explain": "Tout à fait d'accord = totalmente de acuerdo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «pas du tout»?",
+      "options": ["un poco", "quizás", "en absoluto", "totalmente"],
+      "answer": 2,
+      "explain": "Pas du tout = en absoluto (negación enfática)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "statement": "Je ne pense pas significa «no lo creo».",
+      "answer": true,
+      "explain": "Je ne pense pas = no lo creo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "statement": "D'un côté... de l'autre... se usa para dar una opinión totalmente segura.",
+      "answer": false,
+      "explain": "D'un côté... de l'autre... se usa para mostrar dos puntos de vista, con matices."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["tu as raison", "changer d'avis", "ce n'est pas si simple", "c'est vrai"],
+      "right": ["es verdad", "tienes razón", "cambiar de opinión", "no es tan simple"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Avoir raison = tener razón, changer d'avis = cambiar de opinión, ce n'est pas si simple = no es tan simple, c'est vrai = es verdad."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "Estoy totalmente de acuerdo contigo. Pero no estoy de acuerdo en este punto.",
+      "accept": ["Je suis tout à fait d'accord avec toi. Mais je ne suis pas d'accord sur ce point"],
+      "hintWords": ["je suis tout à fait d'accord avec toi", "mais je ne suis pas d'accord sur ce point"],
+      "strictAccents": true,
+      "audio": "Je suis tout à fait d'accord avec toi. Mais je ne suis pas d'accord sur ce point.",
+      "explain": "Être d'accord avec + sur."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "No lo creo, en absoluto. No es tan simple.",
+      "accept": ["Je ne pense pas, pas du tout. Ce n'est pas si simple"],
+      "hintWords": ["je ne pense pas, pas du tout", "ce n'est pas si simple"],
+      "strictAccents": true,
+      "audio": "Je ne pense pas, pas du tout. Ce n'est pas si simple.",
+      "explain": "Je ne pense pas + pas du tout + ce n'est pas si simple."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "D'un ___, je suis d'accord, de l'___, j'ai des doutes.",
+      "blanks": [{ "accept": ["côté"] }, { "accept": ["autre"] }],
+      "bank": ["côté", "autre", "avis"],
+      "explain": "D'un côté... de l'autre..., para mostrar matices."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «He cambiado de opinión sobre este tema»",
+      "tokens": ["sur ce sujet", "J'ai changé d'avis"],
+      "answer": ["J'ai changé d'avis", "sur ce sujet"],
+      "audio": "J'ai changé d'avis sur ce sujet.",
+      "explain": "J'ai changé d'avis + sur ce sujet."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "D'un côté je suis d'accord avec toi, mais de l'autre, je pense que ce n'est pas si simple.",
+      "accept": ["Por un lado estoy de acuerdo contigo, pero por otro, pienso que no es tan simple."],
+      "strictAccents": false,
+      "audio": "D'un côté je suis d'accord avec toi, mais de l'autre, je pense que ce n'est pas si simple.",
+      "explain": "D'un côté... de l'autre..., una opinión matizada."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación mostrando tu acuerdo o desacuerdo",
+      "turns": [
+        { "who": "Léa", "text": "Je pense qu'on devrait partir plus tôt.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je suis d'accord avec toi.", "Je ne suis pas d'accord, c'est trop tôt."], "hint": "usa d'accord o pas d'accord" },
+        { "who": "Léa", "text": "D'accord, on verra.", "speak": true }
+      ],
+      "explain": "Ante una opinión, se responde con acuerdo o desacuerdo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "speak": "Je suis tout à fait d'accord avec toi, mais je pense que ce n'est pas si simple.",
+      "mode": "write",
+      "accept": ["Je suis tout à fait d'accord avec toi, mais je pense que ce n'est pas si simple"],
+      "showTextAfter": true,
+      "explain": "Acuerdo parcial, con matices."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 1,
+      "speak": "pas du tout",
+      "mode": "choose",
+      "options": ["tout à fait", "pas du tout", "je pense", "c'est vrai"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Pas du tout = en absoluto."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 3,
+      "speak": "Je suis d'accord avec toi sur ce point, mais d'un côté je pense aussi que ce n'est pas si simple.",
+      "es": "Estoy de acuerdo contigo en este punto, pero por un lado también pienso que no es tan simple.",
+      "ipa": "/ʒə sɥi da.kɔʁ a.vɛk twa syʁ sə pwɛ̃ mɛ dœ̃ ko.te ʒə pɑ̃s o.si kə sə nɛ pa si sɛ̃pl/",
+      "esApprox": "«ye süí da-KOR a-VEK tuá sür se PUEN me dun ko-TÉ ye PANS o-SI ke se ne pa si SENPL»",
+      "focus": "Acuerdo con matiz, combinando varias expresiones.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "Da tu opinión sobre algo y muestra si estás de acuerdo o no con una idea común.",
+      "modelAnswer": "Je suis d'accord avec toi sur ce point, mais je pense aussi que ce n'est pas si simple.",
+      "alsoValid": ["Je ne suis pas d'accord, pas du tout."],
+      "speak": "Je suis d'accord avec toi sur ce point, mais je pense aussi que ce n'est pas si simple.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "¿Es acuerdo o desacuerdo?",
+      "buckets": ["Acuerdo", "Desacuerdo"],
+      "items": [
+        { "text": "tout à fait", "bucket": 0 },
+        { "text": "pas du tout", "bucket": 1 },
+        { "text": "tu as raison", "bucket": 0 },
+        { "text": "je ne pense pas", "bucket": 1 }
+      ],
+      "explain": "Tout à fait y tu as raison son acuerdo; pas du tout y je ne pense pas, desacuerdo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["opinion", "acuerdo"],
+      "difficulty": 2,
+      "prompt": "Hay un error de estructura. Corrige la frase entera.",
+      "wrong": "Je suis pas d'accord avec toi.",
+      "accept": ["Je ne suis pas d'accord avec toi"],
+      "audio": "Je ne suis pas d'accord avec toi.",
+      "explain": "La negación necesita ne...pas completa: je ne suis pas d'accord."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je suis d'accord avec toi", "es": "estoy de acuerdo contigo", "esApprox": "«ye süí da-KOR a-VEK tuá»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "tout à fait", "es": "completamente, totalmente", "esApprox": "«tu-ta FE»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je ne suis pas d'accord", "es": "no estoy de acuerdo", "esApprox": "«ye ne süí pa da-KOR»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "pas du tout", "es": "en absoluto", "esApprox": "«pa dü TU»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "je ne pense pas", "es": "no lo creo", "esApprox": "«ye ne PANS pa»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "d'un côté... de l'autre...", "es": "por un lado... por otro", "esApprox": "«dun ko-TÉ de LOTR»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Je suis tout à fait d'accord avec toi. Mais je ne suis pas d'accord sur ce point.", "es": "Estoy totalmente de acuerdo contigo. Pero no estoy de acuerdo en este punto.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je ne pense pas, pas du tout. Ce n'est pas si simple.", "es": "No lo creo, en absoluto. No es tan simple.", "from": "e7" }
+  ]
+}
