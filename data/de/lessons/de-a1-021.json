@@ -1,0 +1,365 @@
+{
+  "id": "de-a1-021",
+  "lang": "de",
+  "level": "A1",
+  "order": 21,
+  "title": "Pronunciación general III: ch, sch, sp, st, z, v, w",
+  "objectives": [
+    "Consolidar los sonidos de consonantes que más chocan a un hispanohablante: sch, sp-, st-, z, v, w",
+    "Aplicar la regla sp-/st- → shp-/sht- al principio de una raíz o sílaba",
+    "Reconocer que esa misma regla NO se aplica cuando st aparece en medio de una palabra sin ser el inicio de una raíz, como en Fenster"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un repaso general, más una regla nueva: sp- y st- al principio",
+      "body": "Ya viste z (ts), v (f) y w (v española) en la clase 2. Ahora añades sch, que se pronuncia como una sola consonante «sh», y la regla de sp- y st- al PRINCIPIO de una raíz o sílaba: ahí se pronuncian «shp-» y «sht-», no «sp-» ni «st-» tal cual.",
+      "examples": [
+        { "target": "sprechen", "es": "hablar", "note": "sp- inicial → shp-" },
+        { "target": "die Stadt", "es": "la ciudad", "note": "st- inicial → sht-" },
+        { "target": "die Schule", "es": "el colegio", "note": "sch = una sola sh" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Seis combinaciones que hay que dominar",
+      "headers": ["Combinación", "Sonido", "Ejemplo"],
+      "rows": [
+        ["sch", "sh (una sola consonante)", "die Schule (el colegio)"],
+        ["sp- (inicio de raíz)", "shp", "sprechen (hablar)"],
+        ["st- (inicio de raíz)", "sht", "die Stadt (la ciudad)"],
+        ["z", "ts", "der Zug (el tren)"],
+        ["v", "f", "der Vater (el padre)"],
+        ["w", "v española", "das Wasser (el agua)"]
+      ],
+      "note": "z, v y w ya las viste en la clase 2; sch, sp- y st- son las novedades de hoy."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: la regla sp-/st- solo aplica al principio de una raíz",
+      "items": [
+        { "wrong": "Fenster se pronuncia «FEN-shter», aplicando siempre la regla sp/st", "right": "Fenster se pronuncia «FEN-ster», con st normal", "why": "La regla sp-/st- → shp-/sht- solo se aplica cuando ese grupo arranca una raíz o sílaba reconocible, como en Stadt o Stuhl. En Fenster, el grupo st está en medio de una raíz que no se puede partir en sp/st + algo, así que se pronuncia tal cual, sin convertirse en sht." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Cuando dudes si una st o sp se pronuncia «sht/shp» o «normal», pregúntate: ¿esta palabra podría empezar aquí como una raíz alemana independiente? Stuhl, Stadt, sprechen: sí. Fenster: no, ahí st está incrustado en medio, así que se queda como suena escrito."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "die Schule",
+      "es": "el colegio",
+      "ipa": "/ˈʃuːlə/",
+      "esApprox": "«SHU-le»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Schulen",
+      "example": { "target": "Die Schule ist modern.", "es": "El colegio es moderno." }
+    },
+    {
+      "id": "v2",
+      "target": "sprechen",
+      "es": "hablar",
+      "ipa": "/ˈʃpʁɛçən/",
+      "esApprox": "«SHPRE-chen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich spreche Deutsch.", "es": "Hablo alemán." }
+    },
+    {
+      "id": "v3",
+      "target": "der Sport",
+      "es": "el deporte",
+      "ipa": "/ʃpɔʁt/",
+      "esApprox": "«shport»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": null,
+      "example": { "target": "Sport ist gesund.", "es": "El deporte es saludable." }
+    },
+    {
+      "id": "v4",
+      "target": "das Fenster",
+      "es": "la ventana",
+      "ipa": "/ˈfɛnstɐ/",
+      "esApprox": "«FEN-ster», con st normal, no shter",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Fenster",
+      "example": { "target": "Das Fenster ist offen.", "es": "La ventana está abierta." }
+    },
+    {
+      "id": "v5",
+      "target": "der Zug",
+      "es": "el tren",
+      "ipa": "/tsuːk/",
+      "esApprox": "«tsuk»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Züge",
+      "example": { "target": "Der Zug ist modern.", "es": "El tren es moderno." }
+    },
+    {
+      "id": "v6",
+      "target": "das Wasser",
+      "es": "el agua",
+      "ipa": "/ˈvasɐ/",
+      "esApprox": "«VA-ser»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Das Wasser ist kalt.", "es": "El agua está fría." }
+    },
+    {
+      "id": "v7",
+      "target": "verstehen",
+      "es": "entender",
+      "ipa": "/fɛɐ̯ˈʃteːən/",
+      "esApprox": "«fer-SHTÉ-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich verstehe nicht.", "es": "No entiendo." }
+    },
+    {
+      "id": "v8",
+      "target": "der Stuhl",
+      "es": "la silla",
+      "ipa": "/ʃtuːl/",
+      "esApprox": "«shtul»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Stühle",
+      "example": { "target": "Der Stuhl ist modern.", "es": "La silla es moderna." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "consonantes"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se pronuncia «sch» en alemán?",
+      "options": ["como «sk»", "como una sola «sh»", "como «s» + «ch» por separado", "es muda"],
+      "answer": 1,
+      "explain": "sch se pronuncia siempre como una sola consonante sh, parecida al inglés."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se pronuncia «sp» al principio de una raíz?",
+      "options": ["sp", "shp", "ps", "sb"],
+      "answer": 1,
+      "explain": "sp- inicial se pronuncia «shp-»: sprechen suena «SHPRE-chen»."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "statement": "En «Fenster», el grupo «st» se pronuncia «sht», igual que en «Stadt».",
+      "answer": false,
+      "explain": "En Fenster, st está en medio de la palabra, no al inicio de una raíz, así que se pronuncia normal: FEN-ster."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["consonantes"],
+      "difficulty": 1,
+      "statement": "La z alemana siempre suena «ts», nunca como la z española.",
+      "answer": true,
+      "explain": "z = ts siempre, como ya viste en la clase 2 con Zug."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO empieza con el sonido «shp» o «sht»?",
+      "options": ["sprechen", "Stadt", "Fenster", "Stuhl"],
+      "answer": 2,
+      "explain": "Fenster no empieza con sp/st: el grupo st está en medio, así que no aplica la regla."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su pronunciación aproximada",
+      "left": ["Schule", "Sport", "Zug", "Wasser"],
+      "right": ["SHU-le", "shport", "tsuk", "VA-ser"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro sonidos distintos: sch, sp-, z y w."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "prompt": "Hablo alemán.",
+      "accept": ["Ich spreche Deutsch"],
+      "hintWords": ["ich spreche"],
+      "strictAccents": false,
+      "audio": "Ich spreche Deutsch.",
+      "explain": "sprechen: sp- inicial suena «shp-»."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "prompt": "El colegio es moderno.",
+      "accept": ["Die Schule ist modern"],
+      "hintWords": ["die Schule"],
+      "strictAccents": false,
+      "audio": "Die Schule ist modern.",
+      "explain": "Schule: sch suena como una sola sh."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra que falta",
+      "text": "Ich ___ Deutsch. Das Fenster ist ___.",
+      "blanks": [{ "accept": ["spreche"] }, { "accept": ["offen"] }],
+      "bank": ["spreche", "spielt", "offen"],
+      "explain": "spreche (yo hablo) y offen (abierto), dos palabras ya conocidas."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El tren es moderno»",
+      "tokens": ["ist", "Zug", "Der", "modern"],
+      "answer": ["Der", "Zug", "ist", "modern"],
+      "audio": "Der Zug ist modern.",
+      "explain": "Der Zug + ist + modern."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["consonantes"],
+      "difficulty": 1,
+      "prompt": "Ich verstehe nicht.",
+      "accept": ["No entiendo."],
+      "strictAccents": false,
+      "audio": "Ich verstehe nicht.",
+      "explain": "verstehen: ver- + stehen, con st- pronunciado sht."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Was machst du?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ich spreche Deutsch."], "hint": "dile que hablas alemán" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "Ich spreche Deutsch: sprechen es uno de los verbos más útiles del idioma."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["consonantes"],
+      "difficulty": 1,
+      "speak": "Ich spreche Deutsch.",
+      "mode": "write",
+      "accept": ["Ich spreche Deutsch"],
+      "showTextAfter": true,
+      "explain": "Ich spreche Deutsch = hablo alemán."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "speak": "Der Zug ist modern.",
+      "mode": "choose",
+      "options": ["Der Zug ist modern.", "Die Schule ist modern.", "Das Fenster ist modern."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Zug, Schule y Fenster suenan claramente distintos: presta atención al sustantivo inicial."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "speak": "Ich spreche Deutsch. Die Schule ist modern.",
+      "es": "Hablo alemán. El colegio es moderno.",
+      "ipa": "/ɪç ˈʃpʁɛçə dɔɪ̯tʃ diː ˈʃuːlə ɪst moˈdɛʁn/",
+      "esApprox": "«ich SHPRE-che doich, di SHU-le ist mo-DERN»",
+      "focus": "sprechen y Schule comparten el sonido sh, aunque se escriban distinto: sp- y sch.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "speak": "Das Fenster ist offen, und der Stuhl ist modern.",
+      "es": "La ventana está abierta, y la silla es moderna.",
+      "ipa": "/das ˈfɛnstɐ ɪst ˈɔfən ʊnt deːɐ̯ ʃtuːl ɪst moˈdɛʁn/",
+      "esApprox": "«das FEN-ster ist Ó-fen, unt der SHTUL ist mo-DERN»",
+      "focus": "Compara: Fenster con st normal, y Stuhl con sht inicial. La diferencia está en si st abre o no una raíz.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si hablas alemán. Responde que sí, que hablas alemán.",
+      "modelAnswer": "Ja, ich spreche Deutsch.",
+      "alsoValid": ["Ich spreche Deutsch."],
+      "speak": "Ja, ich spreche Deutsch.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["consonantes"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra: ¿suena «sht/shp» al principio, o «st» normal en medio?",
+      "buckets": ["Suena sht/shp inicial", "Suena st normal (en medio)"],
+      "items": [
+        { "text": "Stadt", "bucket": 0 },
+        { "text": "sprechen", "bucket": 0 },
+        { "text": "Stuhl", "bucket": 0 },
+        { "text": "Fenster", "bucket": 1 },
+        { "text": "verstehen", "bucket": 0 }
+      ],
+      "explain": "verstehen cuenta como sht inicial porque su raíz, stehen, empieza justo con ese grupo."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["mayuscula-sustantivos", "consonantes"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "das fenster ist offen.",
+      "accept": ["Das Fenster ist offen"],
+      "audio": "Das Fenster ist offen.",
+      "explain": "Fenster es un sustantivo: lleva mayúscula inicial, igual que Das al empezar la frase."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Schule", "es": "el colegio", "esApprox": "«SHU-le»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "sprechen", "es": "hablar", "esApprox": "«SHPRE-chen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Sport", "es": "el deporte", "esApprox": "«shport»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Fenster", "es": "la ventana", "esApprox": "«FEN-ster»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Zug", "es": "el tren", "esApprox": "«tsuk»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "das Wasser", "es": "el agua", "esApprox": "«VA-ser»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "verstehen", "es": "entender", "esApprox": "«fer-SHTÉ-en»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "der Stuhl", "es": "la silla", "esApprox": "«shtul»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich spreche Deutsch. Die Schule ist modern.", "es": "Hablo alemán. El colegio es moderno.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Das Fenster ist offen, und der Stuhl ist modern.", "es": "La ventana está abierta, y la silla es moderna.", "from": "e16" }
+  ]
+}

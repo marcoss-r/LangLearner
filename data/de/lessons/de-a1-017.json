@@ -1,0 +1,326 @@
+{
+  "id": "de-a1-017",
+  "lang": "de",
+  "level": "A1",
+  "order": 17,
+  "title": "Los artículos indefinidos: ein, eine",
+  "objectives": [
+    "Aprender los artículos indefinidos ein (masculino y neutro) y eine (femenino)",
+    "Usarlos para presentar un sustantivo por primera vez, frente al artículo definido der/die/das",
+    "Reconocer que el plural indefinido no lleva artículo: se omite directamente"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un artículo para masculino y neutro, otro para femenino",
+      "body": "El artículo indefinido alemán es más sencillo que el definido: solo hay dos formas. Ein sirve tanto para masculino como para neutro; eine es exclusivamente femenino. Se usa para presentar algo por primera vez o hablar de un ejemplo cualquiera, igual que «un/una» en español.",
+      "examples": [
+        { "target": "Das ist ein Hund.", "es": "Eso es un perro.", "note": "Hund es masculino → ein" },
+        { "target": "Das ist eine Katze.", "es": "Eso es un gato.", "note": "Katze es femenino → eine" },
+        { "target": "Das ist ein Haus.", "es": "Eso es una casa.", "note": "Haus es neutro → ein" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los artículos indefinidos según el género",
+      "headers": ["Género", "Artículo indefinido", "Ejemplo"],
+      "rows": [
+        ["masculino (der)", "ein", "ein Hund (un perro)"],
+        ["femenino (die)", "eine", "eine Katze (una gata)"],
+        ["neutro (das)", "ein", "ein Haus (una casa)"],
+        ["plural (die)", "(sin artículo)", "Katzen (gatos, unos gatos)"]
+      ],
+      "note": "En plural no existe un artículo indefinido: simplemente se omite. «Unos gatos» se dice Katzen, sin nada delante."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: el género no se traduce entre idiomas",
+      "items": [
+        { "wrong": "eine Haus (pensando que «casa» es femenino, como en español)", "right": "ein Haus", "why": "Haus es neutro en alemán (das Haus), aunque «casa» sea femenino en español. El género gramatical no se traduce de un idioma a otro: hay que aprenderlo con cada palabra alemana, sin fiarte de su equivalente en español." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El artículo definido (der/die/das) se usa para algo concreto y ya conocido; el indefinido (ein/eine) para algo nuevo o cualquiera. «Das ist ein Hund» (un perro cualquiera) frente a «Der Hund ist müde» (ese perro concreto está cansado)."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "ein",
+      "es": "un (masculino y neutro)",
+      "ipa": "/aɪ̯n/",
+      "esApprox": "«ain»",
+      "pos": "artículo",
+      "gender": null,
+      "example": { "target": "Das ist ein Hund.", "es": "Eso es un perro." }
+    },
+    {
+      "id": "v2",
+      "target": "eine",
+      "es": "una (femenino)",
+      "ipa": "/ˈaɪ̯nə/",
+      "esApprox": "«AI-ne»",
+      "pos": "artículo",
+      "gender": null,
+      "example": { "target": "Das ist eine Katze.", "es": "Eso es un gato." }
+    },
+    {
+      "id": "v3",
+      "target": "der Hund",
+      "es": "el perro",
+      "ipa": "/hʊnt/",
+      "esApprox": "«junt»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Hunde",
+      "example": { "target": "Das ist ein Hund.", "es": "Eso es un perro." }
+    },
+    {
+      "id": "v4",
+      "target": "die Katze",
+      "es": "el gato, la gata",
+      "ipa": "/ˈkatsə/",
+      "esApprox": "«KAT-se»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Katzen",
+      "example": { "target": "Das ist eine Katze.", "es": "Eso es un gato." }
+    },
+    {
+      "id": "v5",
+      "target": "das Haus",
+      "es": "la casa",
+      "ipa": "/haʊ̯s/",
+      "esApprox": "«jaus»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Häuser",
+      "example": { "target": "Das ist ein Haus.", "es": "Eso es una casa." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "¿Qué artículo indefinido usarías para «der Hund» (el perro, masculino)?",
+      "options": ["eine", "ein", "die", "no lleva artículo"],
+      "answer": 1,
+      "explain": "ein sirve para masculino y neutro."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "¿Qué artículo indefinido usarías para «die Katze» (el gato, femenino)?",
+      "options": ["ein", "eine", "der", "no lleva artículo"],
+      "answer": 1,
+      "explain": "eine es exclusivamente para femenino."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "statement": "El artículo indefinido masculino y el neutro son iguales: ein.",
+      "answer": true,
+      "explain": "ein Hund (masculino), ein Haus (neutro): la misma forma para los dos géneros."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "statement": "En plural, el alemán usa un artículo indefinido especial, distinto de ein/eine.",
+      "answer": false,
+      "explain": "En plural no hay artículo indefinido: se omite directamente. Katzen, no «eine Katzen»."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos NO es un artículo indefinido correcto?",
+      "options": ["ein Hund", "eine Katze", "ein Haus", "eine Buch"],
+      "answer": 3,
+      "explain": "Debería ser ein Buch: Buch es neutro, no femenino."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Une cada sustantivo con su artículo indefinido correcto",
+      "left": ["Hund", "Katze", "Haus"],
+      "right": ["eine Katze", "ein Hund", "ein Haus"],
+      "answer": [1, 0, 2],
+      "explain": "Hund (masculino) → ein Hund; Katze (femenino) → eine Katze; Haus (neutro) → ein Haus."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Eso es un perro.",
+      "accept": ["Das ist ein Hund"],
+      "hintWords": ["das ist ein Hund"],
+      "strictAccents": false,
+      "audio": "Das ist ein Hund.",
+      "explain": "Hund es masculino: ein Hund."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Eso es una casa.",
+      "accept": ["Das ist ein Haus"],
+      "hintWords": ["das ist ein Haus"],
+      "strictAccents": false,
+      "audio": "Das ist ein Haus.",
+      "explain": "Haus es neutro en alemán, aunque «casa» sea femenino en español: ein Haus, no eine Haus."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo indefinido correcto",
+      "text": "Das ist ___ Hund. Das ist ___ Katze.",
+      "blanks": [{ "accept": ["ein"] }, { "accept": ["eine"] }],
+      "bank": ["ein", "eine", "der"],
+      "explain": "Hund es masculino (ein); Katze es femenino (eine)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Eso es una casa»",
+      "tokens": ["ist", "Haus", "Das", "ein"],
+      "answer": ["Das", "ist", "ein", "Haus"],
+      "audio": "Das ist ein Haus.",
+      "explain": "Das + ist + ein Haus."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "prompt": "Das ist eine Katze.",
+      "accept": ["Eso es un gato.", "Eso es una gata."],
+      "strictAccents": false,
+      "audio": "Das ist eine Katze.",
+      "explain": "eine Katze = un/una gata, aunque en español digamos «un gato» en genérico."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación señalando una foto",
+      "turns": [
+        { "who": "Anna", "text": "Was ist das?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Das ist ein Hund."], "hint": "dile que es un perro" },
+        { "who": "Anna", "text": "Wie süß!", "speak": true }
+      ],
+      "explain": "Was ist das? es la pregunta típica para identificar un objeto."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "speak": "Das ist ein Haus.",
+      "mode": "write",
+      "accept": ["Das ist ein Haus"],
+      "showTextAfter": true,
+      "explain": "Das ist ein Haus = eso es una casa."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "speak": "Das ist eine Katze.",
+      "mode": "choose",
+      "options": ["Das ist eine Katze.", "Das ist ein Hund.", "Das ist ein Haus."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Escucha bien el sustantivo final: Katze, Hund y Haus suenan muy distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "speak": "Das ist ein Hund, und das ist eine Katze.",
+      "es": "Eso es un perro, y eso es un gato.",
+      "ipa": "/das ɪst aɪ̯n hʊnt ʊnt das ɪst ˈaɪ̯nə ˈkatsə/",
+      "esApprox": "«das ist ain junt unt das ist AI-ne KAT-se»",
+      "focus": "ein (sin -e final) y eine (con -e final): la única diferencia de sonido entre los dos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "speak": "Das ist ein Haus.",
+      "es": "Eso es una casa.",
+      "ipa": "/das ɪst aɪ̯n haʊ̯s/",
+      "esApprox": "«das ist ain jaus»",
+      "focus": "Recuerda: Haus es neutro, aunque «casa» sea femenino en español. Practica ein Haus, no eine Haus.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Te preguntan qué es eso, señalando una casa. Responde que es una casa.",
+      "modelAnswer": "Das ist ein Haus.",
+      "alsoValid": ["Das ist ein modernes Haus."],
+      "speak": "Das ist ein Haus.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada sustantivo según su artículo indefinido",
+      "buckets": ["ein", "eine"],
+      "items": [
+        { "text": "Hund", "bucket": 0 },
+        { "text": "Katze", "bucket": 1 },
+        { "text": "Haus", "bucket": 0 }
+      ],
+      "explain": "Hund y Haus llevan ein (masculino y neutro); Katze lleva eine (femenino)."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Das ist eine Haus.",
+      "accept": ["Das ist ein Haus"],
+      "audio": "Das ist ein Haus.",
+      "explain": "Haus es neutro, así que lleva ein, no eine."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "ein", "es": "un (masculino y neutro)", "esApprox": "«ain»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "eine", "es": "una (femenino)", "esApprox": "«AI-ne»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Hund", "es": "el perro", "esApprox": "«junt»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Katze", "es": "el gato, la gata", "esApprox": "«KAT-se»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Haus", "es": "la casa", "esApprox": "«jaus»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Das ist ein Hund, und das ist eine Katze.", "es": "Eso es un perro, y eso es un gato.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Das ist ein Haus.", "es": "Eso es una casa.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Das ist ein Hund.", "es": "Eso es un perro.", "from": "e7" }
+  ]
+}

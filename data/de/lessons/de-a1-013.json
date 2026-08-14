@@ -1,0 +1,322 @@
+{
+  "id": "de-a1-013",
+  "lang": "de",
+  "level": "A1",
+  "order": 13,
+  "title": "Preguntas I: preguntas de sí o no",
+  "objectives": [
+    "Formar preguntas de sí o no invirtiendo el verbo conjugado a la primera posición",
+    "Responder con ja o nein seguido, si hace falta, de la frase completa",
+    "Reconocer que el alemán no necesita un verbo auxiliar como el «do» inglés para preguntar"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Para preguntar, el verbo salta a la primera posición",
+      "body": "Ya sabes que el verbo va en segunda posición en una afirmación. Para convertir esa afirmación en una pregunta de sí o no, el verbo salta a la PRIMERA posición y el sujeto pasa justo detrás. No hace falta ningún verbo auxiliar, a diferencia del inglés («Do you learn German?»): basta con invertir el orden.",
+      "examples": [
+        { "target": "Du lernst Deutsch.", "es": "Tú aprendes alemán.", "note": "afirmación: sujeto (1), verbo (2)" },
+        { "target": "Lernst du Deutsch?", "es": "¿Aprendes alemán?", "note": "pregunta: verbo (1), sujeto (2)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "De la afirmación a la pregunta: solo hay que invertir",
+      "headers": ["Afirmación", "Pregunta de sí o no"],
+      "rows": [
+        ["Du lernst Deutsch.", "Lernst du Deutsch?"],
+        ["Er hat Zeit.", "Hat er Zeit?"],
+        ["Ihr seid müde.", "Seid ihr müde?"]
+      ],
+      "note": "El verbo es siempre el mismo; solo cambia su posición respecto al sujeto."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: no basta con añadir un signo de interrogación",
+      "items": [
+        { "wrong": "Du hast Zeit? (mismo orden que la afirmación, solo con interrogación)", "right": "Hast du Zeit?", "why": "En alemán no es correcto preguntar simplemente subiendo la entonación sobre el orden afirmativo, como a veces se hace en español. Hay que invertir el verbo y el sujeto: Hast du Zeit?, no Du hast Zeit?" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para responder, empieza con Ja (sí) o Nein (no), y si quieres, añade la frase completa: «Lernst du Deutsch?» — «Ja, ich lerne Deutsch.» Aquí el sujeto ich vuelve a su sitio normal, porque la respuesta ya no es una pregunta."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "ja",
+      "es": "sí",
+      "ipa": "/jaː/",
+      "esApprox": "«ya»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Ja, ich lerne Deutsch.", "es": "Sí, aprendo alemán." }
+    },
+    {
+      "id": "v2",
+      "target": "nein",
+      "es": "no",
+      "ipa": "/naɪ̯n/",
+      "esApprox": "«nain»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Nein, ich bin nicht müde.", "es": "No, no estoy cansado." }
+    },
+    {
+      "id": "v3",
+      "target": "vielleicht",
+      "es": "quizás",
+      "ipa": "/fiˈlaɪ̯çt/",
+      "esApprox": "«fi-LAICHT», con ich-Laut al final",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Vielleicht habe ich Zeit.", "es": "Quizás tengo tiempo." }
+    },
+    {
+      "id": "v4",
+      "target": "natürlich",
+      "es": "claro, por supuesto",
+      "ipa": "/naˈtyːɐ̯lɪç/",
+      "esApprox": "«na-TÜR-lich», con ü y ich-Laut al final",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Ja, natürlich!", "es": "¡Sí, claro!" }
+    },
+    {
+      "id": "v5",
+      "target": "genau",
+      "es": "exacto, eso es",
+      "ipa": "/ɡəˈnaʊ̯/",
+      "esApprox": "«gue-NAU»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Genau, das stimmt.", "es": "Exacto, eso es correcto." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se forma una pregunta de sí o no en alemán?",
+      "options": ["Añadiendo un verbo auxiliar como en inglés", "Poniendo el verbo en primera posición", "No se puede hacer preguntas así en alemán", "Cambiando el orden de las palabras al azar"],
+      "answer": 1,
+      "explain": "El verbo conjugado salta a la primera posición y el sujeto va justo detrás."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["preguntas"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la pregunta correcta para «Du lernst Deutsch.»?",
+      "options": ["Du lernst Deutsch?", "Lernst du Deutsch?", "Was lernst du?", "Deutsch lernst du?"],
+      "answer": 1,
+      "explain": "Lernst du Deutsch? invierte el verbo lernst y el sujeto du."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["preguntas"],
+      "difficulty": 1,
+      "statement": "En alemán, para hacer una pregunta de sí o no se necesita un verbo auxiliar como «do» en inglés.",
+      "answer": false,
+      "explain": "El alemán no necesita auxiliar: basta con invertir el orden del verbo y el sujeto."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["preguntas"],
+      "difficulty": 1,
+      "statement": "«Hat er Zeit?» es la pregunta correcta para «Er hat Zeit.»",
+      "answer": true,
+      "explain": "hat (verbo) pasa a primera posición, er (sujeto) a la segunda."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas NO es una pregunta de sí o no correctamente formada?",
+      "options": ["Lernst du Deutsch?", "Bist du müde?", "Du hast Zeit?", "Habt ihr Durst?"],
+      "answer": 2,
+      "explain": "Du hast Zeit? mantiene el orden afirmativo; debería ser Hast du Zeit?"
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Une cada afirmación con su pregunta correspondiente",
+      "left": ["Du lernst Deutsch.", "Er hat Zeit.", "Ihr seid müde."],
+      "right": ["Seid ihr müde?", "Hat er Zeit?", "Lernst du Deutsch?"],
+      "answer": [2, 1, 0],
+      "explain": "En los tres casos, el verbo se adelanta a la primera posición."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "¿Tienes tiempo?",
+      "accept": ["Hast du Zeit?"],
+      "hintWords": ["hast du"],
+      "strictAccents": false,
+      "audio": "Hast du Zeit?",
+      "explain": "hast (verbo) + du (sujeto) + Zeit."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "¿Estás cansado?",
+      "accept": ["Bist du müde?"],
+      "hintWords": ["bist du"],
+      "strictAccents": false,
+      "audio": "Bist du müde?",
+      "explain": "bist (verbo) + du (sujeto) + müde."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra que falta",
+      "text": "___ du Deutsch? — Ja, ich lerne Deutsch.",
+      "blanks": [{ "accept": ["Lernst"] }],
+      "bank": ["Lernst", "Lernt", "Lerne"],
+      "explain": "Lernst du...? es la pregunta con du, la forma -st."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la pregunta: «¿Tenéis sed?»",
+      "tokens": ["Durst", "ihr", "Habt"],
+      "answer": ["Habt", "ihr", "Durst"],
+      "audio": "Habt ihr Durst?",
+      "explain": "Habt (verbo) + ihr (sujeto) + Durst."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["preguntas"],
+      "difficulty": 1,
+      "prompt": "Arbeitest du?",
+      "accept": ["¿Trabajas?"],
+      "strictAccents": false,
+      "audio": "Arbeitest du?",
+      "explain": "arbeitest (verbo, con la e extra) + du."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du Zeit?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich habe Zeit."], "hint": "responde que sí, que tienes tiempo" },
+        { "who": "Anna", "text": "Super!", "speak": true }
+      ],
+      "explain": "En la respuesta, ich vuelve a la primera posición porque ya no es una pregunta."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "speak": "Lernst du Deutsch?",
+      "mode": "write",
+      "accept": ["Lernst du Deutsch?"],
+      "showTextAfter": true,
+      "explain": "Lernst du Deutsch? = ¿Aprendes alemán?"
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "speak": "Bist du müde?",
+      "mode": "choose",
+      "options": ["Bist du müde?", "Du bist müde.", "Ist er müde?"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "La entonación ascendente y el orden verbo-sujeto marcan que es una pregunta."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "speak": "Lernst du Deutsch? Ja, natürlich!",
+      "es": "¿Aprendes alemán? ¡Sí, claro!",
+      "ipa": "/lɛʁnst duː dɔɪ̯tʃ jaː naˈtyːɐ̯lɪç/",
+      "esApprox": "«lernst du doich, ya na-TÜR-lich»",
+      "focus": "Sube la entonación al final de la pregunta, y bájala en la respuesta afirmativa.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "speak": "Hast du Hunger? Vielleicht.",
+      "es": "¿Tienes hambre? Quizás.",
+      "ipa": "/hast duː ˈhʊŋɐ fiˈlaɪ̯çt/",
+      "esApprox": "«jast du JUN-guer, fi-LAICHT»",
+      "focus": "vielleicht empieza con v (sonido f) y termina en ich-Laut: dos sonidos que hay que cuidar en la misma palabra.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["preguntas"],
+      "difficulty": 1,
+      "prompt": "Te preguntan si trabajas. Responde «sí, claro».",
+      "modelAnswer": "Ja, natürlich!",
+      "alsoValid": ["Ja, natürlich, ich arbeite."],
+      "speak": "Ja, natürlich!",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada frase: ¿es una afirmación o una pregunta?",
+      "buckets": ["Afirmación", "Pregunta"],
+      "items": [
+        { "text": "Du lernst Deutsch.", "bucket": 0 },
+        { "text": "Lernst du Deutsch?", "bucket": 1 },
+        { "text": "Er hat Zeit.", "bucket": 0 },
+        { "text": "Hat er Zeit?", "bucket": 1 }
+      ],
+      "explain": "La posición del verbo respecto al sujeto es la única diferencia entre las dos columnas."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["preguntas"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Du lernst Deutsch?",
+      "accept": ["Lernst du Deutsch?"],
+      "audio": "Lernst du Deutsch?",
+      "explain": "No basta con el signo de interrogación: hay que invertir el verbo (lernst) y el sujeto (du)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "ja", "es": "sí", "esApprox": "«ya»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "nein", "es": "no", "esApprox": "«nain»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "vielleicht", "es": "quizás", "esApprox": "«fi-LAICHT»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "natürlich", "es": "claro, por supuesto", "esApprox": "«na-TÜR-lich»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "genau", "es": "exacto, eso es", "esApprox": "«gue-NAU»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Lernst du Deutsch? Ja, natürlich!", "es": "¿Aprendes alemán? ¡Sí, claro!", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Hast du Hunger? Vielleicht.", "es": "¿Tienes hambre? Quizás.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Hast du Zeit?", "es": "¿Tienes tiempo?", "from": "e7" }
+  ]
+}

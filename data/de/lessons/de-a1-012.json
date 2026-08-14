@@ -1,0 +1,323 @@
+{
+  "id": "de-a1-012",
+  "lang": "de",
+  "level": "A1",
+  "order": 12,
+  "title": "La regla de oro: el verbo conjugado en segunda posición",
+  "objectives": [
+    "Entender que el verbo conjugado ocupa siempre la segunda posición en una frase declarativa alemana",
+    "Reconocer que si algo distinto del sujeto ocupa la primera posición, el sujeto se mueve justo después del verbo",
+    "Reordenar frases moviendo un adverbio de tiempo al principio sin desplazar el verbo de su sitio"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La regla más importante de la gramática alemana",
+      "body": "Apréndete esta regla de memoria, porque lo explica casi todo el orden de palabras alemán: en una frase declarativa, el verbo conjugado va SIEMPRE en la segunda posición. No en la segunda palabra necesariamente, sino en el segundo «bloque». Lo curioso es qué puede ir en la primera posición: no tiene que ser el sujeto. Puede ser un adverbio de tiempo (heute, jetzt), y entonces el sujeto se desplaza a después del verbo.",
+      "examples": [
+        { "target": "Ich lerne Deutsch.", "es": "Aprendo alemán.", "note": "sujeto en posición 1, verbo en posición 2" },
+        { "target": "Heute lerne ich Deutsch.", "es": "Hoy aprendo alemán.", "note": "heute en posición 1, verbo sigue en posición 2, sujeto se mueve a la posición 3" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El verbo siempre en el mismo sitio, pase lo que pase delante",
+      "headers": ["Posición 1", "Verbo (posición 2)", "Resto de la frase"],
+      "rows": [
+        ["Ich", "lerne", "Deutsch."],
+        ["Heute", "lerne", "ich Deutsch."],
+        ["Morgen", "arbeite", "ich."],
+        ["Jetzt", "habe", "ich Zeit."]
+      ],
+      "note": "Fíjate en que el verbo (lerne, arbeite, habe) está siempre en el mismo lugar, la segunda posición, aunque lo que va delante cambie."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: en español puedes poner el sujeto donde quieras; en alemán, no",
+      "items": [
+        { "wrong": "Heute ich lerne Deutsch. (calco literal del español «Hoy yo aprendo alemán»)", "right": "Heute lerne ich Deutsch.", "why": "En español puedes decir «Hoy yo aprendo alemán» sin problema, con el verbo en tercera posición. En alemán eso es un error: si Heute ocupa la primera posición, el verbo tiene que ir justo después (posición 2), y el sujeto ich se desplaza a la posición 3." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco mental: imagina el verbo conjugado como un imán pegado siempre a la segunda posición. Puedes mover casi cualquier otra cosa al principio de la frase para darle énfasis (heute, jetzt, morgen...), pero el verbo nunca se mueve de su sitio: todo lo demás se reorganiza a su alrededor."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "heute",
+      "es": "hoy",
+      "ipa": "/ˈhɔɪ̯tə/",
+      "esApprox": "«HOI-te»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Heute lerne ich Deutsch.", "es": "Hoy aprendo alemán." }
+    },
+    {
+      "id": "v2",
+      "target": "morgen",
+      "es": "mañana (el día siguiente)",
+      "ipa": "/ˈmɔʁɡn̩/",
+      "esApprox": "«MOR-guen»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Morgen arbeite ich.", "es": "Mañana trabajo." }
+    },
+    {
+      "id": "v3",
+      "target": "jetzt",
+      "es": "ahora",
+      "ipa": "/jɛtst/",
+      "esApprox": "«yetst»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Jetzt habe ich Zeit.", "es": "Ahora tengo tiempo." }
+    },
+    {
+      "id": "v4",
+      "target": "oft",
+      "es": "a menudo",
+      "ipa": "/ɔft/",
+      "esApprox": "«oft»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Oft spiele ich.", "es": "A menudo juego." }
+    },
+    {
+      "id": "v5",
+      "target": "dann",
+      "es": "entonces, luego",
+      "ipa": "/dan/",
+      "esApprox": "«dan»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Dann bin ich glücklich.", "es": "Entonces estoy feliz." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "prompt": "¿En qué posición va siempre el verbo conjugado en una frase declarativa alemana?",
+      "options": ["Primera", "Segunda", "Tercera", "Última"],
+      "answer": 1,
+      "explain": "Es la regla de oro del orden de palabras alemán: verbo conjugado siempre en segunda posición."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["orden-palabras"],
+      "difficulty": 2,
+      "prompt": "Si empiezas la frase con «Heute» en vez de con el sujeto, ¿qué pasa con el sujeto?",
+      "options": ["Desaparece", "Se mueve justo después del verbo", "Se duplica", "No cambia de posición"],
+      "answer": 1,
+      "explain": "Heute lerne ich Deutsch: el sujeto ich se desplaza a la posición 3, después del verbo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["orden-palabras"],
+      "difficulty": 2,
+      "statement": "En alemán, «Heute ich lerne Deutsch» es correcto, igual que en español «Hoy yo aprendo alemán».",
+      "answer": false,
+      "explain": "Es incorrecto: dejaría el verbo en tercera posición, lo que rompe la regla de oro."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 1,
+      "statement": "«Heute lerne ich Deutsch» es correcto, con el verbo en segunda posición.",
+      "answer": true,
+      "explain": "heute (1) + lerne (2) + ich Deutsch (resto): cumple la regla."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases NO respeta la regla del verbo en segunda posición?",
+      "options": ["Ich lerne Deutsch.", "Heute lerne ich Deutsch.", "Heute ich lerne Deutsch.", "Jetzt arbeite ich."],
+      "answer": 2,
+      "explain": "Heute ich lerne Deutsch deja el verbo en tercera posición: es incorrecto."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["orden-palabras"],
+      "difficulty": 2,
+      "prompt": "Une cada frase en español con su traducción correcta",
+      "left": ["Hoy aprendo alemán.", "Ahora trabajo.", "A menudo juego."],
+      "right": ["Jetzt arbeite ich.", "Oft spiele ich.", "Heute lerne ich Deutsch."],
+      "answer": [2, 0, 1],
+      "explain": "En los tres casos, el adverbio va primero y el verbo se queda fijo en segunda posición."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "prompt": "Hoy aprendo alemán.",
+      "accept": ["Heute lerne ich Deutsch"],
+      "hintWords": ["heute", "lerne ich"],
+      "strictAccents": false,
+      "audio": "Heute lerne ich Deutsch.",
+      "explain": "Heute (1) + lerne (2) + ich Deutsch: el sujeto se mueve detrás del verbo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "prompt": "Mañana trabajo.",
+      "accept": ["Morgen arbeite ich"],
+      "hintWords": ["morgen", "arbeite ich"],
+      "strictAccents": false,
+      "audio": "Morgen arbeite ich.",
+      "explain": "Morgen (1) + arbeite (2) + ich: mismo patrón."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "prompt": "Completa con el verbo correcto",
+      "text": "Jetzt ___ ich Zeit. Dann ___ ich Deutsch.",
+      "blanks": [{ "accept": ["habe"] }, { "accept": ["lerne"] }],
+      "bank": ["habe", "lerne", "bin"],
+      "explain": "El verbo va siempre justo después del adverbio inicial."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Ahora tengo tiempo»",
+      "tokens": ["ich", "Jetzt", "Zeit", "habe"],
+      "answer": ["Jetzt", "habe", "ich", "Zeit"],
+      "audio": "Jetzt habe ich Zeit.",
+      "explain": "Jetzt ocupa la posición 1, habe la posición 2, e ich se desplaza a la posición 3."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["orden-palabras"],
+      "difficulty": 1,
+      "prompt": "Oft spiele ich.",
+      "accept": ["A menudo juego.", "Juego a menudo."],
+      "strictAccents": false,
+      "audio": "Oft spiele ich.",
+      "explain": "Oft (a menudo) en primera posición, spiele en segunda, ich en tercera."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus hábitos",
+      "turns": [
+        { "who": "Anna", "text": "Lernst du oft Deutsch?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich lerne oft Deutsch."], "hint": "responde que sí, que aprendes alemán a menudo" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "Ich lerne oft Deutsch: aquí ich va primero, así que no hace falta moverlo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "speak": "Heute lerne ich Deutsch.",
+      "mode": "write",
+      "accept": ["Heute lerne ich Deutsch"],
+      "showTextAfter": true,
+      "explain": "Heute lerne ich Deutsch = hoy aprendo alemán."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "speak": "Jetzt habe ich Zeit.",
+      "mode": "choose",
+      "options": ["Jetzt habe ich Zeit.", "Jetzt ich habe Zeit.", "Heute habe ich Zeit."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Solo la primera opción respeta el verbo en segunda posición y coincide con el audio."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "speak": "Heute lerne ich Deutsch, und morgen arbeite ich.",
+      "es": "Hoy aprendo alemán, y mañana trabajo.",
+      "ipa": "/ˈhɔɪ̯tə ˈlɛʁnə ɪç dɔɪ̯tʃ ʊnt ˈmɔʁɡn̩ ˈaʁbaɪ̯tə ɪç/",
+      "esApprox": "«HOI-te LER-ne ich doich unt MOR-guen AR-bai-te ich»",
+      "focus": "Practica el ritmo: adverbio, verbo, sujeto, resto. Es el patrón que vas a usar constantemente.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "speak": "Dann bin ich glücklich.",
+      "es": "Entonces estoy feliz.",
+      "ipa": "/dan bɪn ɪç ˈɡlʏklɪç/",
+      "esApprox": "«dan bin ich GLÜK-lich»",
+      "focus": "Dann (1) + bin (2) + ich glücklich: el mismo patrón con el verbo sein.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "prompt": "Alguien te pregunta cuándo tienes tiempo. Dile que ahora tienes tiempo, empezando la frase con «jetzt».",
+      "modelAnswer": "Jetzt habe ich Zeit.",
+      "alsoValid": ["Jetzt habe ich viel Zeit."],
+      "speak": "Jetzt habe ich Zeit.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["orden-palabras"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada frase: ¿el sujeto está en primera posición o hay un adverbio en primera posición?",
+      "buckets": ["Sujeto en posición 1", "Adverbio en posición 1"],
+      "items": [
+        { "text": "Ich lerne Deutsch.", "bucket": 0 },
+        { "text": "Heute lerne ich Deutsch.", "bucket": 1 },
+        { "text": "Wir haben Zeit.", "bucket": 0 },
+        { "text": "Jetzt haben wir Zeit.", "bucket": 1 }
+      ],
+      "explain": "En ambos casos el verbo se queda en segunda posición; lo único que cambia es qué va delante de él."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["verbo-segunda-posicion"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Heute ich lerne Deutsch.",
+      "accept": ["Heute lerne ich Deutsch"],
+      "audio": "Heute lerne ich Deutsch.",
+      "explain": "El verbo tiene que ir en segunda posición: Heute lerne ich Deutsch, con ich desplazado a la tercera."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "heute", "es": "hoy", "esApprox": "«HOI-te»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "morgen", "es": "mañana (día siguiente)", "esApprox": "«MOR-guen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "jetzt", "es": "ahora", "esApprox": "«yetst»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "oft", "es": "a menudo", "esApprox": "«oft»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "dann", "es": "entonces, luego", "esApprox": "«dan»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Heute lerne ich Deutsch.", "es": "Hoy aprendo alemán.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Dann bin ich glücklich.", "es": "Entonces estoy feliz.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Jetzt habe ich Zeit.", "es": "Ahora tengo tiempo.", "from": "e17" }
+  ]
+}

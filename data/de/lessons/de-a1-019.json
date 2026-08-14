@@ -1,0 +1,376 @@
+{
+  "id": "de-a1-019",
+  "lang": "de",
+  "level": "A1",
+  "order": 19,
+  "title": "Los números del 0 al 20",
+  "objectives": [
+    "Contar del 0 al 20 en alemán",
+    "Reconocer el patrón -zehn de los números del 13 al 19, con dos contracciones irregulares (sechzehn, siebzehn)",
+    "Pronunciar correctamente los números con consonantes que no existen en español, como zw- o -chs"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Del 0 al 12, cada número es distinto; del 13 en adelante, aparece un patrón",
+      "body": "Los números del 0 al 12 hay que memorizarlos uno a uno, sin atajos. A partir del 13, el alemán añade la terminación -zehn (relacionada con zehn, «diez») a la unidad correspondiente: dreizehn (13), vierzehn (14)... Ojo con dos excepciones: sechzehn (16) pierde la s de sechs, y siebzehn (17) pierde la -en de sieben.",
+      "examples": [
+        { "target": "dreizehn", "es": "trece", "note": "drei + zehn, sin cambios" },
+        { "target": "sechzehn", "es": "dieciséis", "note": "sechs pierde la s: sech + zehn" },
+        { "target": "siebzehn", "es": "diecisiete", "note": "sieben pierde -en: sieb + zehn" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los números del 0 al 20",
+      "headers": ["Número", "Alemán"],
+      "rows": [
+        ["0", "null"],
+        ["1", "eins"],
+        ["2", "zwei"],
+        ["3", "drei"],
+        ["4", "vier"],
+        ["5", "fünf"],
+        ["6", "sechs"],
+        ["7", "sieben"],
+        ["8", "acht"],
+        ["9", "neun"],
+        ["10", "zehn"],
+        ["11", "elf"],
+        ["12", "zwölf"],
+        ["13", "dreizehn"],
+        ["14", "vierzehn"],
+        ["15", "fünfzehn"],
+        ["16", "sechzehn"],
+        ["17", "siebzehn"],
+        ["18", "achtzehn"],
+        ["19", "neunzehn"],
+        ["20", "zwanzig"]
+      ],
+      "note": "11 (elf) y 12 (zwölf) son totalmente irregulares, igual que en español «once» y «doce»."
+    },
+    {
+      "type": "phonetics",
+      "title": "Consonantes que no existen juntas en español",
+      "body": "zwei y zwanzig empiezan con el grupo zw-, que no existe en español; sechs termina en el grupo -chs, con un sonido gutural seguido de s.",
+      "drills": [
+        { "target": "zwei", "ipa": "/tsvaɪ̯/", "esApprox": "«tsvai»", "hint": "zw = ts + v seguidas" },
+        { "target": "sechs", "ipa": "/zɛks/", "esApprox": "«zeks»", "hint": "chs suena «ks»" },
+        { "target": "zwanzig", "ipa": "/ˈtsvantsɪç/", "esApprox": "«TSVAN-tsich», con ich-Laut al final", "hint": "zw + ich-Laut al final" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Practica los números en grupos de cinco (eins a fünf, sechs a zehn...) en vez de intentar memorizar los veintiuno de golpe: el cerebro retiene mejor bloques pequeños."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "null",
+      "es": "cero",
+      "ipa": "/nʊl/",
+      "esApprox": "«nul»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Null ist keine Zahl für Anfänger.", "es": "El cero no es un número difícil para principiantes." }
+    },
+    {
+      "id": "v2",
+      "target": "eins",
+      "es": "uno",
+      "ipa": "/aɪ̯ns/",
+      "esApprox": "«ains»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Eins, zwei, drei.", "es": "Uno, dos, tres." }
+    },
+    {
+      "id": "v3",
+      "target": "zwei",
+      "es": "dos",
+      "ipa": "/tsvaɪ̯/",
+      "esApprox": "«tsvai»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Ich habe zwei Bücher.", "es": "Tengo dos libros." }
+    },
+    {
+      "id": "v4",
+      "target": "drei",
+      "es": "tres",
+      "ipa": "/dʁaɪ̯/",
+      "esApprox": "«drai»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Drei Katzen spielen.", "es": "Tres gatos juegan." }
+    },
+    {
+      "id": "v5",
+      "target": "sieben",
+      "es": "siete",
+      "ipa": "/ˈziːbən/",
+      "esApprox": "«ZÍ-ben»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Sieben Tage hat die Woche.", "es": "La semana tiene siete días." }
+    },
+    {
+      "id": "v6",
+      "target": "zehn",
+      "es": "diez",
+      "ipa": "/tseːn/",
+      "esApprox": "«tsén»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Zehn Finger hat eine Hand.", "es": "Una mano tiene diez dedos." }
+    },
+    {
+      "id": "v7",
+      "target": "fünfzehn",
+      "es": "quince",
+      "ipa": "/ˈfʏnftseːn/",
+      "esApprox": "«FÜNF-tsen»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Ich habe fünfzehn Bücher.", "es": "Tengo quince libros." }
+    },
+    {
+      "id": "v8",
+      "target": "zwanzig",
+      "es": "veinte",
+      "ipa": "/ˈtsvantsɪç/",
+      "esApprox": "«TSVAN-tsich»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Zwanzig ist die letzte Zahl dieser Klasse.", "es": "Veinte es el último número de esta clase." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «7» en alemán?",
+      "options": ["sechs", "sieben", "acht", "neun"],
+      "answer": 1,
+      "explain": "sieben es siete."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Qué patrón siguen los números del 13 al 19?",
+      "options": ["Se restan de 20", "Terminan en -zehn", "Son totalmente irregulares", "Se leen al revés"],
+      "answer": 1,
+      "explain": "dreizehn, vierzehn, fünfzehn... todos terminan en -zehn (con dos excepciones fonéticas)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "statement": "Sechzehn (16) pierde la s de sechs al combinarse con zehn.",
+      "answer": true,
+      "explain": "sechs + zehn → sechzehn, sin la s intermedia."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "statement": "Zwanzig significa «doce».",
+      "answer": false,
+      "explain": "Zwanzig significa «veinte»; «doce» es zwölf."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos números NO sigue el patrón -zehn?",
+      "options": ["dreizehn", "vierzehn", "zwanzig", "fünfzehn"],
+      "answer": 2,
+      "explain": "zwanzig (20) tiene su propia palabra, no sigue el patrón -zehn de los números del 13 al 19."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "Une cada número con su palabra en alemán",
+      "left": ["1", "5", "10", "20"],
+      "right": ["zehn", "eins", "zwanzig", "fünf"],
+      "answer": [1, 3, 0, 2],
+      "explain": "eins, fünf, zehn, zwanzig: cuatro números clave para orientarte."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "siete",
+      "accept": ["sieben"],
+      "hintWords": ["sieben"],
+      "strictAccents": false,
+      "audio": "sieben",
+      "explain": "sieben = siete."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "quince",
+      "accept": ["fünfzehn"],
+      "hintWords": ["fünfzehn"],
+      "strictAccents": false,
+      "audio": "fünfzehn",
+      "explain": "fünf + zehn = fünfzehn, sin ninguna contracción."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "Completa la secuencia",
+      "text": "Eins, zwei, ___, vier, fünf.",
+      "blanks": [{ "accept": ["drei"] }],
+      "bank": ["drei", "sechs", "sieben"],
+      "explain": "eins, zwei, drei, vier, fünf: los cinco primeros números."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Ordena estos números de menor a mayor",
+      "tokens": ["zehn", "drei", "zwanzig", "eins"],
+      "answer": ["eins", "drei", "zehn", "zwanzig"],
+      "audio": "eins, drei, zehn, zwanzig",
+      "explain": "1, 3, 10, 20: el orden numérico correcto."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "vierzehn",
+      "accept": ["catorce"],
+      "strictAccents": false,
+      "audio": "vierzehn",
+      "explain": "vier + zehn = vierzehn, catorce."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus libros",
+      "turns": [
+        { "who": "Anna", "text": "Hast du zehn Bücher?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, ich habe fünfzehn Bücher."], "hint": "responde que no, que tienes quince libros" },
+        { "who": "Anna", "text": "Wow!", "speak": true }
+      ],
+      "explain": "fünfzehn Bücher = quince libros, sin artículo delante del número."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "speak": "sieben",
+      "mode": "write",
+      "accept": ["sieben"],
+      "showTextAfter": true,
+      "explain": "sieben = siete."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "zwanzig",
+      "mode": "choose",
+      "options": ["zwanzig", "zwölf", "zehn"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "zwanzig, zwölf y zehn empiezan de forma parecida: hay que escuchar la palabra entera."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "Eins, zwei, drei, vier, fünf.",
+      "es": "Uno, dos, tres, cuatro, cinco.",
+      "ipa": "/aɪ̯ns tsvaɪ̯ dʁaɪ̯ fiːɐ̯ fʏnf/",
+      "esApprox": "«ains, tsvai, drai, fir, fünf»",
+      "focus": "zwei empieza con el grupo consonántico zw-, que no existe en español: practícalo despacio.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "Sechzehn, siebzehn, achtzehn.",
+      "es": "Dieciséis, diecisiete, dieciocho.",
+      "ipa": "/ˈzɛçtseːn ˈziːptseːn ˈaxtseːn/",
+      "esApprox": "«ZECH-tsen, ZIP-tsen, AJT-tsen»",
+      "focus": "Estas dos son las únicas irregulares de la serie -zehn: memorízalas juntas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "Te piden que cuentes del uno al cinco en alemán. Hazlo.",
+      "modelAnswer": "Eins, zwei, drei, vier, fünf.",
+      "alsoValid": ["Eins, zwei, drei, vier und fünf."],
+      "speak": "Eins, zwei, drei, vier, fünf.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada número: ¿del 0 al 10, o del 11 al 20?",
+      "buckets": ["0-10", "11-20"],
+      "items": [
+        { "text": "eins", "bucket": 0 },
+        { "text": "sieben", "bucket": 0 },
+        { "text": "zehn", "bucket": 0 },
+        { "text": "fünfzehn", "bucket": 1 },
+        { "text": "zwanzig", "bucket": 1 }
+      ],
+      "explain": "zehn (10) es el límite entre los dos grupos."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la palabra entera.",
+      "wrong": "sechszehn",
+      "accept": ["sechzehn"],
+      "audio": "sechzehn",
+      "explain": "sechzehn pierde la s de sechs al combinarse con zehn: no lleva doble s."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "null", "es": "cero", "esApprox": "«nul»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "eins", "es": "uno", "esApprox": "«ains»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "zwei", "es": "dos", "esApprox": "«tsvai»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "drei", "es": "tres", "esApprox": "«drai»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "sieben", "es": "siete", "esApprox": "«ZÍ-ben»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "zehn", "es": "diez", "esApprox": "«tsén»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "fünfzehn", "es": "quince", "esApprox": "«FÜNF-tsen»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "zwanzig", "es": "veinte", "esApprox": "«TSVAN-tsich»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Sechzehn, siebzehn, achtzehn.", "es": "Dieciséis, diecisiete, dieciocho.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "de-a1-014",
+  "lang": "de",
+  "level": "A1",
+  "order": 14,
+  "title": "Preguntas II: las W-Fragen (wer, was, wo, wann, wie, warum)",
+  "objectives": [
+    "Aprender las seis palabras interrogativas principales: wer, was, wo, wann, wie, warum",
+    "Formar preguntas con W-Wort en primera posición y el verbo justo detrás, en segunda posición",
+    "Elegir la W-Frage correcta según lo que quieras preguntar: persona, cosa, lugar, tiempo, modo o razón"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Las W-Fragen: la misma regla del verbo en segunda posición",
+      "body": "Se llaman W-Fragen porque casi todas empiezan por w: wer (quién), was (qué), wo (dónde), wann (cuándo), wie (cómo) y warum (por qué). La buena noticia es que no necesitas aprender una regla nueva: la palabra interrogativa ocupa la primera posición, y el verbo se queda exactamente donde ya sabes que va, en la segunda.",
+      "examples": [
+        { "target": "Was machst du?", "es": "¿Qué haces?", "note": "was (1) + machst (2) + du" },
+        { "target": "Wo wohnst du?", "es": "¿Dónde vives?", "note": "wo (1) + wohnst (2) + du" },
+        { "target": "Warum lernst du Deutsch?", "es": "¿Por qué aprendes alemán?", "note": "warum (1) + lernst (2) + du Deutsch" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las seis W-Fragen principales",
+      "headers": ["Palabra", "Significado", "Ejemplo"],
+      "rows": [
+        ["wer", "quién", "Wer ist das?"],
+        ["was", "qué", "Was machst du?"],
+        ["wo", "dónde", "Wo wohnst du?"],
+        ["wann", "cuándo", "Wann arbeitest du?"],
+        ["wie", "cómo", "Wie heißt du?"],
+        ["warum", "por qué", "Warum lernst du Deutsch?"]
+      ],
+      "note": "Ya conocías woher (¿de dónde?) desde la clase 6: es una variante de wo especializada en el origen."
+    },
+    {
+      "type": "tip",
+      "body": "Para elegir la W-Frage correcta, piensa qué tipo de respuesta esperas: si es una persona, wer; si es una cosa o acción, was; si es un lugar, wo; un momento, wann; una manera, wie; una razón, warum."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "wer",
+      "es": "quién",
+      "ipa": "/veːɐ̯/",
+      "esApprox": "«ver»",
+      "pos": "pronombre interrogativo",
+      "gender": null,
+      "example": { "target": "Wer ist das?", "es": "¿Quién es ese/esa?" }
+    },
+    {
+      "id": "v2",
+      "target": "was",
+      "es": "qué",
+      "ipa": "/vas/",
+      "esApprox": "«vas»",
+      "pos": "pronombre interrogativo",
+      "gender": null,
+      "example": { "target": "Was machst du?", "es": "¿Qué haces?" }
+    },
+    {
+      "id": "v3",
+      "target": "wo",
+      "es": "dónde",
+      "ipa": "/voː/",
+      "esApprox": "«vo»",
+      "pos": "adverbio interrogativo",
+      "gender": null,
+      "example": { "target": "Wo wohnst du?", "es": "¿Dónde vives?" }
+    },
+    {
+      "id": "v4",
+      "target": "wann",
+      "es": "cuándo",
+      "ipa": "/van/",
+      "esApprox": "«van»",
+      "pos": "adverbio interrogativo",
+      "gender": null,
+      "example": { "target": "Wann arbeitest du?", "es": "¿Cuándo trabajas?" }
+    },
+    {
+      "id": "v5",
+      "target": "wie",
+      "es": "cómo",
+      "ipa": "/viː/",
+      "esApprox": "«vi»",
+      "pos": "adverbio interrogativo",
+      "gender": null,
+      "example": { "target": "Wie heißt du?", "es": "¿Cómo te llamas?" }
+    },
+    {
+      "id": "v6",
+      "target": "warum",
+      "es": "por qué",
+      "ipa": "/vaˈʁʊm/",
+      "esApprox": "«va-RUM»",
+      "pos": "adverbio interrogativo",
+      "gender": null,
+      "example": { "target": "Warum lernst du Deutsch?", "es": "¿Por qué aprendes alemán?" }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["w-fragen"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «wer»?",
+      "options": ["qué", "quién", "dónde", "cuándo"],
+      "answer": 1,
+      "explain": "Wer pregunta por una persona: ¿quién?"
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["w-fragen"],
+      "difficulty": 1,
+      "prompt": "¿Qué palabra interrogativa usarías para preguntar por un lugar?",
+      "options": ["wann", "wo", "warum", "wer"],
+      "answer": 1,
+      "explain": "Wo pregunta por un lugar: ¿dónde?"
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["preguntas"],
+      "difficulty": 1,
+      "statement": "En las preguntas con W-Wort, el verbo sigue en segunda posición, justo después de la palabra interrogativa.",
+      "answer": true,
+      "explain": "Was machst du?: was (1), machst (2), du (3)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["w-fragen"],
+      "difficulty": 1,
+      "statement": "Warum significa «cuándo».",
+      "answer": false,
+      "explain": "Warum significa «por qué»; «cuándo» es wann."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO es una W-Frage?",
+      "options": ["wer", "was", "ja", "wo"],
+      "answer": 2,
+      "explain": "Ja significa «sí»; no es una palabra interrogativa."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["w-fragen"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["wer", "was", "wann", "warum"],
+      "right": ["quién", "qué", "cuándo", "por qué"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro de las seis W-Fragen principales."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "prompt": "¿Qué haces?",
+      "accept": ["Was machst du?"],
+      "hintWords": ["was", "machst du"],
+      "strictAccents": false,
+      "audio": "Was machst du?",
+      "explain": "was (1) + machst (2) + du (3)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "prompt": "¿Cuándo trabajas?",
+      "accept": ["Wann arbeitest du?"],
+      "hintWords": ["wann", "arbeitest du"],
+      "strictAccents": false,
+      "audio": "Wann arbeitest du?",
+      "explain": "wann (1) + arbeitest (2) + du (3)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "prompt": "Completa con la W-Frage correcta",
+      "text": "___ heißt du? — Ich heiße Marco. ___ wohnst du? — Ich wohne in Berlin.",
+      "blanks": [{ "accept": ["Wie"] }, { "accept": ["Wo"] }],
+      "bank": ["Wie", "Wo", "Wann"],
+      "explain": "Wie pregunta por el nombre (modo); wo pregunta por el lugar."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la pregunta: «¿Por qué aprendes alemán?»",
+      "tokens": ["Deutsch", "du", "Warum", "lernst"],
+      "answer": ["Warum", "lernst", "du", "Deutsch"],
+      "audio": "Warum lernst du Deutsch?",
+      "explain": "Warum (1) + lernst (2) + du Deutsch (resto)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["w-fragen"],
+      "difficulty": 1,
+      "prompt": "Wer ist das?",
+      "accept": ["¿Quién es ese?", "¿Quién es esa?", "¿Quién es?"],
+      "strictAccents": false,
+      "audio": "Wer ist das?",
+      "explain": "Wer ist das? es la pregunta típica para pedir el nombre de alguien que no conoces."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Was machst du?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ich lerne Deutsch."], "hint": "dile que aprendes alemán" },
+        { "who": "Anna", "text": "Wie interessant!", "speak": true }
+      ],
+      "explain": "Was machst du? es una de las preguntas más frecuentes del día a día."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["w-fragen"],
+      "difficulty": 1,
+      "speak": "Was machst du?",
+      "mode": "write",
+      "accept": ["Was machst du?"],
+      "showTextAfter": true,
+      "explain": "Was machst du? = ¿Qué haces?"
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "speak": "Wo wohnst du?",
+      "mode": "choose",
+      "options": ["Wo wohnst du?", "Wer wohnst du?", "Wann wohnst du?"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Solo wo tiene sentido con wohnen: dónde vives, no quién ni cuándo vives."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "speak": "Wer bist du? Wie heißt du?",
+      "es": "¿Quién eres? ¿Cómo te llamas?",
+      "ipa": "/veːɐ̯ bɪst duː viː haɪ̯st duː/",
+      "esApprox": "«ver bist du, vi HAIST du»",
+      "focus": "La r final de wer casi no se pronuncia como consonante, suena casi vocal, igual que en Herr y für.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "speak": "Warum lernst du Deutsch?",
+      "es": "¿Por qué aprendes alemán?",
+      "ipa": "/vaˈʁʊm lɛʁnst duː dɔɪ̯tʃ/",
+      "esApprox": "«va-RUM lernst du doich»",
+      "focus": "warum lleva el acento en la segunda sílaba: va-RUM, no VA-rum.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "prompt": "Quieres saber dónde vive tu nuevo amigo. Pregúntaselo.",
+      "modelAnswer": "Wo wohnst du?",
+      "alsoValid": ["Wo wohnst du jetzt?"],
+      "speak": "Wo wohnst du?",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada W-Frage: ¿pregunta por una persona/cosa o por una circunstancia (lugar, tiempo, modo, razón)?",
+      "buckets": ["Persona o cosa", "Circunstancia"],
+      "items": [
+        { "text": "wer", "bucket": 0 },
+        { "text": "was", "bucket": 0 },
+        { "text": "wo", "bucket": 1 },
+        { "text": "wann", "bucket": 1 },
+        { "text": "wie", "bucket": 1 },
+        { "text": "warum", "bucket": 1 }
+      ],
+      "explain": "Wer y was preguntan por «qué es»; las otras cuatro preguntan por las circunstancias que rodean la acción."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["w-fragen"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Du wo wohnst?",
+      "accept": ["Wo wohnst du?"],
+      "audio": "Wo wohnst du?",
+      "explain": "La W-Frage ocupa siempre la primera posición, seguida inmediatamente del verbo."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "wer", "es": "quién", "esApprox": "«ver»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "was", "es": "qué", "esApprox": "«vas»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "wo", "es": "dónde", "esApprox": "«vo»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "wann", "es": "cuándo", "esApprox": "«van»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "wie", "es": "cómo", "esApprox": "«vi»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "warum", "es": "por qué", "esApprox": "«va-RUM»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Wer bist du? Wie heißt du?", "es": "¿Quién eres? ¿Cómo te llamas?", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Warum lernst du Deutsch?", "es": "¿Por qué aprendes alemán?", "from": "e16" }
+  ]
+}

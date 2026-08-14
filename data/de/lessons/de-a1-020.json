@@ -1,0 +1,361 @@
+{
+  "id": "de-a1-020",
+  "lang": "de",
+  "level": "A1",
+  "order": 20,
+  "title": "Los números del 21 al 100 y el orden invertido (einundzwanzig)",
+  "objectives": [
+    "Aprender las decenas del alemán: zwanzig, dreißig, vierzig... hasta hundert",
+    "Formar números compuestos invirtiendo unidad y decena, unidas por und: einundzwanzig (21)",
+    "Contrastar este orden invertido con el español, que dice la decena primero"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "En alemán, la unidad va antes que la decena",
+      "body": "El español dice «veintiuno»: decena primero, unidad después. El alemán hace justo lo contrario: dice primero la unidad, luego und («y»), y por último la decena. Einundzwanzig es literalmente «uno y veinte». Al principio resulta contraintuitivo, pero el patrón es completamente regular a partir del 21.",
+      "examples": [
+        { "target": "einundzwanzig", "es": "veintiuno", "note": "ein + und + zwanzig, literalmente «uno y veinte»" },
+        { "target": "zweiunddreißig", "es": "treinta y dos", "note": "zwei + und + dreißig" },
+        { "target": "fünfundvierzig", "es": "cuarenta y cinco", "note": "fünf + und + vierzig" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las decenas, del 20 al 100",
+      "headers": ["Número", "Alemán"],
+      "rows": [
+        ["20", "zwanzig"],
+        ["30", "dreißig"],
+        ["40", "vierzig"],
+        ["50", "fünfzig"],
+        ["60", "sechzig"],
+        ["70", "siebzig"],
+        ["80", "achtzig"],
+        ["90", "neunzig"],
+        ["100", "hundert"]
+      ],
+      "note": "sechzig y siebzig pierden una letra, igual que sechzehn y siebzehn en la clase anterior: el mismo patrón se repite."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: no traduzcas número por número desde el español",
+      "items": [
+        { "wrong": "zwanzigeins (calco de «veintiuno»: decena + unidad)", "right": "einundzwanzig", "why": "El orden alemán es exactamente el inverso del español: unidad + und + decena. Traducir palabra por palabra desde el español produce un orden incorrecto." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para formar cualquier número entre 21 y 99, coge la unidad (ein, zwei, drei...), añade und, y termina con la decena: [unidad] + und + [decena]. Funciona siempre, sin excepciones en el orden."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "dreißig",
+      "es": "treinta",
+      "ipa": "/ˈdʁaɪ̯sɪç/",
+      "esApprox": "«DRAI-sich»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Ich habe dreißig Bücher.", "es": "Tengo treinta libros." }
+    },
+    {
+      "id": "v2",
+      "target": "vierzig",
+      "es": "cuarenta",
+      "ipa": "/ˈfɪɐ̯tsɪç/",
+      "esApprox": "«FIR-tsich»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Fünfundvierzig ist meine Lieblingszahl.", "es": "Cuarenta y cinco es mi número favorito." }
+    },
+    {
+      "id": "v3",
+      "target": "fünfzig",
+      "es": "cincuenta",
+      "ipa": "/ˈfʏnftsɪç/",
+      "esApprox": "«FÜNF-tsich»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Fünfzig Jahre sind viel.", "es": "Cincuenta años son muchos." }
+    },
+    {
+      "id": "v4",
+      "target": "sechzig",
+      "es": "sesenta",
+      "ipa": "/ˈzɛçtsɪç/",
+      "esApprox": "«ZECH-tsich»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Sechzig Minuten hat eine Stunde.", "es": "Una hora tiene sesenta minutos." }
+    },
+    {
+      "id": "v5",
+      "target": "siebzig",
+      "es": "setenta",
+      "ipa": "/ˈziːptsɪç/",
+      "esApprox": "«ZIP-tsich»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Siebzig ist keine runde Zahl wie hundert.", "es": "Setenta no es un número redondo como cien." }
+    },
+    {
+      "id": "v6",
+      "target": "achtzig",
+      "es": "ochenta",
+      "ipa": "/ˈaxtsɪç/",
+      "esApprox": "«AJ-tsich», con ach-Laut",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Achtzig Prozent ist viel.", "es": "El ochenta por ciento es mucho." }
+    },
+    {
+      "id": "v7",
+      "target": "neunzig",
+      "es": "noventa",
+      "ipa": "/ˈnɔɪ̯ntsɪç/",
+      "esApprox": "«NOIN-tsich»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Neunzig ist fast hundert.", "es": "Noventa está casi en cien." }
+    },
+    {
+      "id": "v8",
+      "target": "hundert",
+      "es": "cien",
+      "ipa": "/ˈhʊndɐt/",
+      "esApprox": "«JUN-dert»",
+      "pos": "numeral",
+      "gender": null,
+      "example": { "target": "Ich habe hundert Bücher.", "es": "Tengo cien libros." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se forma 21 en alemán?",
+      "options": ["zwanzigeins", "einundzwanzig", "zwanzigundein", "eins-zwanzig"],
+      "answer": 1,
+      "explain": "einundzwanzig: unidad (ein) + und + decena (zwanzig)."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «und» en einundzwanzig?",
+      "options": ["uno", "veinte", "y", "con"],
+      "answer": 2,
+      "explain": "und significa «y»: conecta la unidad con la decena."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "statement": "En alemán, la unidad se dice ANTES que la decena, al revés que en español.",
+      "answer": true,
+      "explain": "einundzwanzig = «uno y veinte», con la unidad primero."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "statement": "Dreißig significa «cuarenta».",
+      "answer": false,
+      "explain": "Dreißig significa «treinta»; «cuarenta» es vierzig."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas decenas está mal escrita?",
+      "options": ["vierzig", "fünfzig", "sechszig", "siebzig"],
+      "answer": 2,
+      "explain": "Debería ser sechzig, sin la s de sechs, igual que sechzehn en la clase anterior."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "Une cada número con su palabra en alemán",
+      "left": ["30", "40", "50", "100"],
+      "right": ["vierzig", "hundert", "dreißig", "fünfzig"],
+      "answer": [2, 0, 3, 1],
+      "explain": "dreißig, vierzig, fünfzig, hundert: cuatro decenas clave."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "veintiuno",
+      "accept": ["einundzwanzig"],
+      "hintWords": ["ein", "und", "zwanzig"],
+      "strictAccents": false,
+      "audio": "einundzwanzig",
+      "explain": "ein + und + zwanzig, todo junto en una sola palabra."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "cuarenta y cinco",
+      "accept": ["fünfundvierzig"],
+      "hintWords": ["fünf", "und", "vierzig"],
+      "strictAccents": false,
+      "audio": "fünfundvierzig",
+      "explain": "fünf + und + vierzig: la unidad (5) va primero."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra que conecta la unidad y la decena",
+      "text": "22 = zwei___zwanzig. 67 = sieben___sechzig.",
+      "blanks": [{ "accept": ["und"] }, { "accept": ["und"] }],
+      "bank": ["und", "oder", "zu"],
+      "explain": "und es la palabra que siempre conecta la unidad con la decena."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tengo treinta libros»",
+      "tokens": ["Bücher", "Ich", "dreißig", "habe"],
+      "answer": ["Ich", "habe", "dreißig", "Bücher"],
+      "audio": "Ich habe dreißig Bücher.",
+      "explain": "Ich habe + número + sustantivo, sin artículo delante del número."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "neunzig",
+      "accept": ["noventa"],
+      "strictAccents": false,
+      "audio": "neunzig",
+      "explain": "neunzig = noventa."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu biblioteca",
+      "turns": [
+        { "who": "Anna", "text": "Hast du fünfzig Bücher?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, ich habe hundert Bücher."], "hint": "responde que no, que tienes cien libros" },
+        { "who": "Anna", "text": "Unglaublich!", "speak": true }
+      ],
+      "explain": "hundert Bücher = cien libros, sin ein delante en el uso cotidiano."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "einundzwanzig",
+      "mode": "write",
+      "accept": ["einundzwanzig"],
+      "showTextAfter": true,
+      "explain": "einundzwanzig = veintiuno."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "dreißig",
+      "mode": "choose",
+      "options": ["dreißig", "dreizehn", "vierzig"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "dreißig (30) y dreizehn (13) se parecen mucho por escrito y de oído: hay que prestar mucha atención."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "Einundzwanzig, zweiundzwanzig, dreiundzwanzig.",
+      "es": "Veintiuno, veintidós, veintitrés.",
+      "ipa": "/ˈaɪ̯nʊnttsvantsɪç ˈtsvaɪ̯ʊnttsvantsɪç ˈdʁaɪ̯ʊnttsvantsɪç/",
+      "esApprox": "«AIN-unt-tsvan-tsich, TSVAI-unt-tsvan-tsich, DRAI-unt-tsvan-tsich»",
+      "focus": "Practica el patrón unidad + und + zwanzig hasta que salga sin pensar.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "Fünfzig, sechzig, siebzig, achtzig, neunzig, hundert.",
+      "es": "Cincuenta, sesenta, setenta, ochenta, noventa, cien.",
+      "ipa": "/ˈfʏnftsɪç ˈzɛçtsɪç ˈziːptsɪç ˈaxtsɪç ˈnɔɪ̯ntsɪç ˈhʊndɐt/",
+      "esApprox": "«FÜNF-tsich, ZECH-tsich, ZIP-tsich, AJ-tsich, NOIN-tsich, JUN-dert»",
+      "focus": "Todas las decenas de 40 a 90 terminan en -zig, con el mismo ritmo: mantenlo constante.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Te piden que digas cuarenta y cinco en alemán.",
+      "modelAnswer": "Fünfundvierzig.",
+      "alsoValid": ["Fünfundvierzig!"],
+      "speak": "Fünfundvierzig.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada número: ¿decena simple o número compuesto con und?",
+      "buckets": ["Decena simple", "Compuesto con und"],
+      "items": [
+        { "text": "zwanzig", "bucket": 0 },
+        { "text": "dreißig", "bucket": 0 },
+        { "text": "einundzwanzig", "bucket": 1 },
+        { "text": "fünfundvierzig", "bucket": 1 },
+        { "text": "hundert", "bucket": 0 }
+      ],
+      "explain": "Las decenas redondas no llevan und; los números entre decenas sí."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la palabra entera.",
+      "wrong": "sechszig",
+      "accept": ["sechzig"],
+      "audio": "sechzig",
+      "explain": "sechzig pierde la s de sechs, igual que sechzehn: el mismo patrón se repite en las decenas."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "dreißig", "es": "treinta", "esApprox": "«DRAI-sich»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "vierzig", "es": "cuarenta", "esApprox": "«FIR-tsich»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "fünfzig", "es": "cincuenta", "esApprox": "«FÜNF-tsich»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "sechzig", "es": "sesenta", "esApprox": "«ZECH-tsich»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "siebzig", "es": "setenta", "esApprox": "«ZIP-tsich»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "achtzig", "es": "ochenta", "esApprox": "«AJ-tsich»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "neunzig", "es": "noventa", "esApprox": "«NOIN-tsich»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "hundert", "es": "cien", "esApprox": "«JUN-dert»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Einundzwanzig, zweiundzwanzig, dreiundzwanzig.", "es": "Veintiuno, veintidós, veintitrés.", "from": "e15" }
+  ]
+}

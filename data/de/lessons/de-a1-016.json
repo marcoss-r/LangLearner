@@ -1,0 +1,324 @@
+{
+  "id": "de-a1-016",
+  "lang": "de",
+  "level": "A1",
+  "order": 16,
+  "title": "El plural de los sustantivos",
+  "objectives": [
+    "Reconocer que el alemán no tiene una única terminación de plural, como el español con -s",
+    "Identificar los cinco patrones principales de plural: -e, -er, -(e)n, -s y sin cambio (a veces con Umlaut)",
+    "Recordar que en plural el artículo es siempre die, sea cual sea el género en singular"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "No hay un plural único: hay que aprenderlo con cada palabra",
+      "body": "En español, casi todos los plurales se forman añadiendo -s o -es. En alemán no existe ese atajo: hay varios patrones distintos, y algunos añaden además una diéresis (Umlaut) a la vocal. La única buena noticia sin excepciones es esta: en plural, el artículo es SIEMPRE die, no importa si la palabra era der, die o das en singular.",
+      "examples": [
+        { "target": "der Tisch → die Tische", "es": "la mesa → las mesas", "note": "patrón -e" },
+        { "target": "das Buch → die Bücher", "es": "el libro → los libros", "note": "patrón -er + Umlaut" },
+        { "target": "das Auto → die Autos", "es": "el coche → los coches", "note": "patrón -s, típico de préstamos" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los cinco patrones principales de plural",
+      "headers": ["Patrón", "Singular", "Plural"],
+      "rows": [
+        ["-e (a veces con Umlaut)", "der Tisch", "die Tische"],
+        ["-er (casi siempre con Umlaut)", "das Buch", "die Bücher"],
+        ["-(e)n", "die Blume", "die Blumen"],
+        ["-s (préstamos extranjeros)", "das Auto", "die Autos"],
+        ["sin cambio (a veces con Umlaut)", "der Vater", "die Väter"]
+      ],
+      "note": "Todos los plurales de esta tabla llevan die delante, aunque el singular fuera der o das."
+    },
+    {
+      "type": "tip",
+      "body": "Cuando aprendas un sustantivo nuevo, apréndelo con su artículo Y con su plural a la vez: «der Tisch, die Tische». Es más trabajo al principio, pero ahorra muchísimos errores después."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "der Tisch",
+      "es": "la mesa",
+      "ipa": "/tɪʃ/",
+      "esApprox": "«tish»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Tische",
+      "example": { "target": "Die Tische sind modern.", "es": "Las mesas son modernas." }
+    },
+    {
+      "id": "v2",
+      "target": "das Kind",
+      "es": "el niño, la niña",
+      "ipa": "/kɪnt/",
+      "esApprox": "«kint»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Kinder",
+      "example": { "target": "Die Kinder spielen.", "es": "Los niños juegan." }
+    },
+    {
+      "id": "v3",
+      "target": "die Blume",
+      "es": "la flor",
+      "ipa": "/ˈbluːmə/",
+      "esApprox": "«BLÚ-me»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Blumen",
+      "example": { "target": "Die Blumen sind schön.", "es": "Las flores son bonitas." }
+    },
+    {
+      "id": "v4",
+      "target": "das Auto",
+      "es": "el coche",
+      "ipa": "/ˈaʊ̯to/",
+      "esApprox": "«AU-to»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Autos",
+      "example": { "target": "Die Autos sind modern.", "es": "Los coches son modernos." }
+    },
+    {
+      "id": "v5",
+      "target": "der Vater",
+      "es": "el padre",
+      "ipa": "/ˈfaːtɐ/",
+      "esApprox": "«FA-ter»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Väter",
+      "example": { "target": "Die Väter sind müde.", "es": "Los padres están cansados." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["plural"],
+      "difficulty": 1,
+      "prompt": "¿Qué artículo se usa SIEMPRE en plural, sea cual sea el género en singular?",
+      "options": ["der", "die", "das", "depende del género"],
+      "answer": 1,
+      "explain": "En plural, el artículo es siempre die: die Tische, die Bücher, die Blumen."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el plural de «das Buch»?",
+      "options": ["die Buche", "die Bücher", "die Buchs", "die Buch"],
+      "answer": 1,
+      "explain": "das Buch → die Bücher, con Umlaut y la terminación -er."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["plural"],
+      "difficulty": 1,
+      "statement": "El alemán tiene una única terminación de plural, como el español con -s.",
+      "answer": false,
+      "explain": "Hay varios patrones distintos: -e, -er, -(e)n, -s y sin cambio, a veces con Umlaut."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["plural"],
+      "difficulty": 1,
+      "statement": "El plural de «das Auto» es «die Autos», tomando prestada la terminación -s de otros idiomas.",
+      "answer": true,
+      "explain": "Los préstamos extranjeros suelen formar el plural con -s, como en inglés."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos plurales está mal formado?",
+      "options": ["die Tische", "die Bücher", "die Autos", "die Kindern"],
+      "answer": 3,
+      "explain": "El plural correcto es die Kinder, sin la -n extra."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Une cada singular con su plural",
+      "left": ["der Tisch", "das Buch", "die Blume", "das Auto"],
+      "right": ["die Autos", "die Tische", "die Bücher", "die Blumen"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Cuatro patrones distintos de plural en un solo ejercicio."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "las mesas",
+      "accept": ["die Tische"],
+      "hintWords": ["die Tische"],
+      "strictAccents": false,
+      "audio": "die Tische",
+      "explain": "der Tisch → die Tische, patrón -e."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "los libros",
+      "accept": ["die Bücher"],
+      "hintWords": ["die Bücher"],
+      "strictAccents": false,
+      "audio": "die Bücher",
+      "explain": "das Buch → die Bücher, patrón -er con Umlaut."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Completa con el plural correcto (Auto → Autos; Blume → Blumen)",
+      "text": "Die ___ sind modern. Die ___ sind schön.",
+      "blanks": [{ "accept": ["Autos"] }, { "accept": ["Blumen"] }],
+      "bank": ["Autos", "Blumen", "Bücher"],
+      "explain": "Auto forma el plural con -s; Blume, con -n."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Los libros son modernos»",
+      "tokens": ["modern", "Bücher", "sind", "Die"],
+      "answer": ["Die", "Bücher", "sind", "modern"],
+      "audio": "Die Bücher sind modern.",
+      "explain": "Die Bücher + sind (plural de sein) + modern."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["plural"],
+      "difficulty": 1,
+      "prompt": "die Kinder",
+      "accept": ["los niños", "las niñas", "los niños y las niñas"],
+      "strictAccents": false,
+      "audio": "die Kinder",
+      "explain": "das Kind → die Kinder, patrón -er sin Umlaut."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du Kinder?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich habe Kinder."], "hint": "responde que sí, que tienes hijos" },
+        { "who": "Anna", "text": "Wie schön!", "speak": true }
+      ],
+      "explain": "Kinder es el plural de Kind, sin artículo aquí porque acompaña a haben, como Hunger o Durst."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["plural"],
+      "difficulty": 1,
+      "speak": "Die Bücher sind modern.",
+      "mode": "write",
+      "accept": ["Die Bücher sind modern"],
+      "showTextAfter": true,
+      "explain": "Die Bücher sind modern = los libros son modernos."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "speak": "Die Autos sind modern.",
+      "mode": "choose",
+      "options": ["Die Autos sind modern.", "Das Auto ist modern.", "Die Auto sind modern."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Solo la primera opción usa correctamente el plural die Autos con el verbo sind."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "speak": "Die Kinder spielen.",
+      "es": "Los niños juegan.",
+      "ipa": "/diː ˈkɪndɐ ˈʃpiːlən/",
+      "esApprox": "«di KIN-der SHPI-len»",
+      "focus": "Kinder no lleva Umlaut, a diferencia de Bücher o Väter: no todos los plurales en -er lo llevan.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "speak": "Die Väter sind müde.",
+      "es": "Los padres están cansados.",
+      "ipa": "/diː ˈfɛːtɐ zɪnt ˈmyːdə/",
+      "esApprox": "«di FÉ-ter zint MÜ-de»",
+      "focus": "Vater cambia la a en ä al pluralizar, sin añadir ninguna terminación: die Väter.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si los libros son modernos. Responde que sí.",
+      "modelAnswer": "Ja, die Bücher sind modern.",
+      "alsoValid": ["Die Bücher sind modern."],
+      "speak": "Ja, die Bücher sind modern.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada plural: ¿lleva Umlaut o no?",
+      "buckets": ["Con Umlaut", "Sin Umlaut"],
+      "items": [
+        { "text": "Väter", "bucket": 0 },
+        { "text": "Tische", "bucket": 1 },
+        { "text": "Bücher", "bucket": 0 },
+        { "text": "Autos", "bucket": 1 },
+        { "text": "Kinder", "bucket": 1 }
+      ],
+      "explain": "El Umlaut en plural no sigue una regla fija: hay que aprenderlo palabra por palabra."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Die Kindern sind glücklich.",
+      "accept": ["Die Kinder sind glücklich"],
+      "audio": "Die Kinder sind glücklich.",
+      "explain": "El plural de Kind es Kinder, sin la -n extra que sí aparece en otros casos gramaticales que verás más adelante."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Tisch", "es": "la mesa", "esApprox": "«tish»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Kind", "es": "el niño, la niña", "esApprox": "«kint»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Blume", "es": "la flor", "esApprox": "«BLÚ-me»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Auto", "es": "el coche", "esApprox": "«AU-to»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Vater", "es": "el padre", "esApprox": "«FA-ter»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Die Kinder spielen.", "es": "Los niños juegan.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Die Väter sind müde.", "es": "Los padres están cansados.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Die Bücher sind modern.", "es": "Los libros son modernos.", "from": "e17" }
+  ]
+}

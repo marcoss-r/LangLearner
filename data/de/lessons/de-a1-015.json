@@ -1,0 +1,331 @@
+{
+  "id": "de-a1-015",
+  "lang": "de",
+  "level": "A1",
+  "order": 15,
+  "title": "Los tres géneros: der, die, das y cómo adivinarlos",
+  "objectives": [
+    "Entender que el género gramatical alemán no siempre coincide con el género natural de lo que describe",
+    "Reconocer las terminaciones que ayudan a adivinar el género: -er/-ig (der), -e/-heit/-ung (die), -chen/-um (das)",
+    "Aceptar que, cuando no hay ninguna pista, hay que memorizar cada sustantivo junto a su artículo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "No hay una regla perfecta, pero sí buenas pistas",
+      "body": "Llevas 14 clases viendo der, die y das sin una explicación sistemática de cómo elegir. La verdad incómoda es que no existe una regla que funcione siempre. La buena noticia es que la TERMINACIÓN de la palabra acierta en una proporción muy alta de los casos, así que merece la pena aprenderse los patrones más frecuentes.",
+      "examples": [
+        { "target": "der Lehrer", "es": "el profesor", "note": "-er, profesión → masculino" },
+        { "target": "die Freiheit", "es": "la libertad", "note": "-heit → femenino" },
+        { "target": "das Mädchen", "es": "la chica", "note": "-chen (diminutivo) → neutro, aunque sea una persona femenina" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Terminaciones que predicen el género",
+      "headers": ["Terminación", "Género probable", "Ejemplo"],
+      "rows": [
+        ["-er (oficios, profesiones)", "der", "der Lehrer (el profesor)"],
+        ["-e (muchos sustantivos)", "die", "die Blume (la flor)"],
+        ["-heit, -keit, -ung, -schaft, -tion", "die", "die Freiheit (la libertad)"],
+        ["-chen, -lein (diminutivos)", "das", "das Mädchen (la chica)"],
+        ["-um, -ment", "das", "das Museum, das Dokument"]
+      ],
+      "note": "Estas terminaciones aciertan la mayoría de las veces, pero no siempre: hay excepciones, así que ante la duda, aprende cada palabra con su artículo."
+    },
+    {
+      "type": "contrast",
+      "title": "Recuerda: el género gramatical manda sobre el sentido",
+      "items": [
+        { "wrong": "das Mädchen debería ser die Mädchen, porque una chica es femenina", "right": "das Mädchen es correcto: la terminación -chen fuerza siempre el género neutro", "why": "Ya lo viste en la clase 8: el género gramatical no depende de si la palabra se refiere a un hombre o una mujer, sino de reglas puramente lingüísticas como esta terminación diminutiva." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Cuando aprendas un sustantivo nuevo sin ninguna terminación reconocible, apréndelo siempre junto a su artículo, como si fuera una sola palabra: «derTisch», «dieTür», «dasBuch». Con el tiempo, el oído empieza a notar qué «suena bien»."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "der Lehrer",
+      "es": "el profesor",
+      "ipa": "/ˈleːʁɐ/",
+      "esApprox": "«LÉ-rer»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Lehrer",
+      "example": { "target": "Der Lehrer ist müde.", "es": "El profesor está cansado." }
+    },
+    {
+      "id": "v2",
+      "target": "die Blume",
+      "es": "la flor",
+      "ipa": "/ˈbluːmə/",
+      "esApprox": "«BLÚ-me»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Blumen",
+      "example": { "target": "Die Blume ist schön.", "es": "La flor es bonita." }
+    },
+    {
+      "id": "v3",
+      "target": "das Mädchen",
+      "es": "la chica",
+      "ipa": "/ˈmɛːtçən/",
+      "esApprox": "«MED-chen»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Mädchen",
+      "example": { "target": "Das Mädchen ist glücklich.", "es": "La chica está feliz." }
+    },
+    {
+      "id": "v4",
+      "target": "die Freiheit",
+      "es": "la libertad",
+      "ipa": "/ˈfʁaɪ̯haɪ̯t/",
+      "esApprox": "«FRAI-hait»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Freiheiten",
+      "example": { "target": "Die Freiheit ist schön.", "es": "La libertad es bonita." }
+    },
+    {
+      "id": "v5",
+      "target": "das Dokument",
+      "es": "el documento",
+      "ipa": "/dokuˈmɛnt/",
+      "esApprox": "«do-ku-MENT»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Dokumente",
+      "example": { "target": "Das Dokument ist wichtig.", "es": "El documento es importante." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "¿Qué terminación casi siempre indica masculino en una profesión?",
+      "options": ["-e", "-er", "-chen", "-ung"],
+      "answer": 1,
+      "explain": "-er en profesiones: der Lehrer, der Arbeiter."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "¿Qué terminación casi siempre indica género neutro (das)?",
+      "options": ["-heit", "-chen", "-ung", "-schaft"],
+      "answer": 1,
+      "explain": "-chen es un diminutivo y fuerza siempre el neutro: das Mädchen."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["genero"],
+      "difficulty": 1,
+      "statement": "Las palabras terminadas en -ung, como die Zeitung, son casi siempre femeninas.",
+      "answer": true,
+      "explain": "-ung es una de las terminaciones femeninas más fiables del alemán."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["genero"],
+      "difficulty": 1,
+      "statement": "El género gramatical alemán siempre coincide con el género natural de lo que describe.",
+      "answer": false,
+      "explain": "das Mädchen (la chica) es neutro por su terminación, no por su sentido: es la prueba de que no siempre coinciden."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO sigue el patrón esperado de su terminación?",
+      "options": ["der Lehrer", "die Freiheit", "das Mädchen", "der Blume"],
+      "answer": 3,
+      "explain": "Debería ser die Blume: las palabras en -e suelen ser femeninas, no masculinas."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Une cada terminación con el género que suele indicar",
+      "left": ["-er", "-e", "-chen", "-ung"],
+      "right": ["der", "das", "die", "die"],
+      "answer": [0, 2, 1, 3],
+      "explain": "-er → der, -e → die, -chen → das, -ung → die."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "El profesor",
+      "accept": ["der Lehrer"],
+      "hintWords": ["der Lehrer"],
+      "strictAccents": false,
+      "audio": "der Lehrer",
+      "explain": "-er en una profesión, casi siempre der."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "La libertad",
+      "accept": ["die Freiheit"],
+      "hintWords": ["die Freiheit"],
+      "strictAccents": false,
+      "audio": "die Freiheit",
+      "explain": "-heit siempre es die."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo correcto",
+      "text": "___ Mädchen ist glücklich. ___ Lehrer ist müde.",
+      "blanks": [{ "accept": ["Das"] }, { "accept": ["Der"] }],
+      "bank": ["Das", "Der", "Die"],
+      "explain": "Mädchen es neutro (-chen); Lehrer es masculino (-er)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El profesor está cansado»",
+      "tokens": ["ist", "Lehrer", "müde", "Der"],
+      "answer": ["Der", "Lehrer", "ist", "müde"],
+      "audio": "Der Lehrer ist müde.",
+      "explain": "Der Lehrer + ist + müde."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["genero"],
+      "difficulty": 1,
+      "prompt": "die Blume",
+      "accept": ["la flor"],
+      "strictAccents": false,
+      "audio": "die Blume",
+      "explain": "Blume termina en -e: femenina, como la mayoría de palabras con esa terminación."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Ist der Lehrer müde?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, der Lehrer ist müde."], "hint": "responde que sí" },
+        { "who": "Anna", "text": "Und das Mädchen?", "speak": true }
+      ],
+      "explain": "Der Lehrer (masculino) y das Mädchen (neutro): dos géneros distintos en el mismo diálogo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["genero"],
+      "difficulty": 1,
+      "speak": "Die Blume ist schön.",
+      "mode": "write",
+      "accept": ["Die Blume ist schön"],
+      "showTextAfter": true,
+      "explain": "Die Blume ist schön = la flor es bonita."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "speak": "Das Mädchen ist glücklich.",
+      "mode": "choose",
+      "options": ["Das Mädchen ist glücklich.", "Der Mädchen ist glücklich.", "Die Mädchen ist glücklich."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Mädchen es siempre das, por la terminación -chen."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "speak": "Das Mädchen ist glücklich.",
+      "es": "La chica está feliz.",
+      "ipa": "/das ˈmɛːtçən ɪst ˈɡlʏklɪç/",
+      "esApprox": "«das MED-chen ist GLÜK-lich»",
+      "focus": "Aunque hable de una chica, el artículo es das: la terminación -chen manda sobre el sentido.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "speak": "Die Freiheit ist schön.",
+      "es": "La libertad es bonita.",
+      "ipa": "/diː ˈfʁaɪ̯haɪ̯t ɪst ʃøːn/",
+      "esApprox": "«di FRAI-hait ist shön»",
+      "focus": "-heit siempre suena igual y siempre es femenina: una de las terminaciones más fiables.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si la flor es bonita. Responde que sí.",
+      "modelAnswer": "Ja, die Blume ist schön.",
+      "alsoValid": ["Die Blume ist schön."],
+      "speak": "Ja, die Blume ist schön.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada sustantivo según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Lehrer", "bucket": 0 },
+        { "text": "Blume", "bucket": 1 },
+        { "text": "Mädchen", "bucket": 2 },
+        { "text": "Freiheit", "bucket": 1 },
+        { "text": "Dokument", "bucket": 2 }
+      ],
+      "explain": "Cada palabra sigue el patrón de su terminación: -er, -e, -chen, -heit, -ment."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Der Blume ist schön.",
+      "accept": ["Die Blume ist schön"],
+      "audio": "Die Blume ist schön.",
+      "explain": "Blume termina en -e: es femenina (die), no masculina."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Lehrer", "es": "el profesor", "esApprox": "«LÉ-rer»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Blume", "es": "la flor", "esApprox": "«BLÚ-me»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Mädchen", "es": "la chica", "esApprox": "«MED-chen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Freiheit", "es": "la libertad", "esApprox": "«FRAI-hait»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Dokument", "es": "el documento", "esApprox": "«do-ku-MENT»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Das Mädchen ist glücklich.", "es": "La chica está feliz.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Die Freiheit ist schön.", "es": "La libertad es bonita.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Die Blume ist schön.", "es": "La flor es bonita.", "from": "e17" }
+  ]
+}
