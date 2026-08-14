@@ -1,0 +1,93 @@
+{
+  "id": "de-a1-071",
+  "lang": "de",
+  "level": "A1",
+  "order": 71,
+  "title": "Los adverbios de tiempo y dónde se colocan",
+  "objectives": [
+    "Conocer los adverbios de tiempo y frecuencia más comunes: heute, morgen, oft, immer, manchmal, selten, nie",
+    "Colocar el adverbio de tiempo en posición 1 (antes del verbo) o después del verbo conjugado",
+    "Entender que el verbo conjugado siempre ocupa la posición 2, sin importar qué vaya antes"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El verbo siempre en posición 2",
+      "body": "Ya viste esto con expresiones como «Am Wochenende habe ich...» (clase 70): cuando algo distinto al sujeto va primero, el verbo conjugado se mantiene en posición 2 y el sujeto pasa después. Esto también aplica a los adverbios de tiempo y frecuencia: puedes ponerlos al principio (para dar énfasis) o después del verbo (posición normal).",
+      "examples": [
+        { "target": "Ich gehe oft ins Kino.", "es": "Voy a menudo al cine." },
+        { "target": "Oft gehe ich ins Kino.", "es": "A menudo voy al cine.", "note": "mismo significado, énfasis en «oft»" },
+        { "target": "Heute arbeite ich nicht.", "es": "Hoy no trabajo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Adverbios de frecuencia (de más a menos)",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["immer", "siempre"],
+        ["oft", "a menudo"],
+        ["manchmal", "a veces"],
+        ["selten", "rara vez"],
+        ["nie", "nunca"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Regla práctica: el sujeto y el verbo pueden intercambiar su orden, pero el verbo conjugado SIEMPRE está en posición 2. Si el adverbio va primero, el sujeto va justo después del verbo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "heute", "es": "hoy", "ipa": "/ˈhɔɪ̯tə/", "esApprox": "«JÓI-te»", "pos": "adverbio", "gender": null, "example": { "target": "Heute arbeite ich nicht.", "es": "Hoy no trabajo." } },
+    { "id": "v2", "target": "morgen", "es": "mañana (día siguiente)", "ipa": "/ˈmɔʁɡn̩/", "esApprox": "«MOR-guen»", "pos": "adverbio", "gender": null, "example": { "target": "Morgen fahre ich nach Berlin.", "es": "Mañana voy a Berlín." } },
+    { "id": "v3", "target": "immer", "es": "siempre", "ipa": "/ˈɪmɐ/", "esApprox": "«Í-mer»", "pos": "adverbio", "gender": null, "example": { "target": "Ich bin immer müde.", "es": "Siempre estoy cansado." } },
+    { "id": "v4", "target": "oft", "es": "a menudo", "ipa": "/ɔft/", "esApprox": "«oft»", "pos": "adverbio", "gender": null, "example": { "target": "Wir gehen oft schwimmen.", "es": "Vamos a nadar a menudo." } },
+    { "id": "v5", "target": "manchmal", "es": "a veces", "ipa": "/ˈmançmaːl/", "esApprox": "«MANCH-mal»", "pos": "adverbio", "gender": null, "example": { "target": "Manchmal koche ich zu Hause.", "es": "A veces cocino en casa." } },
+    { "id": "v6", "target": "selten", "es": "rara vez", "ipa": "/ˈzɛltn̩/", "esApprox": "«ZEL-ten»", "pos": "adverbio", "gender": null, "example": { "target": "Ich bin selten spät.", "es": "Rara vez llego tarde." } },
+    { "id": "v7", "target": "nie", "es": "nunca", "ipa": "/niː/", "esApprox": "«ni»", "pos": "adverbio", "gender": null, "example": { "target": "Er trinkt nie Kaffee.", "es": "Él nunca toma café." } },
+    { "id": "v8", "target": "jetzt", "es": "ahora", "ipa": "/jɛtst/", "esApprox": "«yetst»", "pos": "adverbio", "gender": null, "example": { "target": "Jetzt habe ich Zeit.", "es": "Ahora tengo tiempo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["adverbios-tiempo"], "difficulty": 1, "prompt": "¿Cuál adverbio significa «siempre»?", "options": ["oft", "immer", "nie", "selten"], "answer": 1, "explain": "immer = siempre." },
+    { "id": "e2", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "En «Oft gehe ich ins Kino», ¿en qué posición está «gehe»?", "options": ["Posición 1", "Posición 2", "Posición 3", "Al final"], "answer": 1, "explain": "El verbo conjugado siempre ocupa la posición 2." },
+    { "id": "e3", "type": "true_false", "tags": ["adverbios-tiempo"], "difficulty": 2, "statement": "«selten» significa «nunca».", "answer": false, "explain": "selten = rara vez; nunca es «nie»." },
+    { "id": "e4", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "Si el adverbio va en posición 1, el sujeto pasa a estar justo después del verbo.", "answer": true, "explain": "Sujeto y adverbio pueden intercambiar posición, pero el verbo siempre está en posición 2." },
+    { "id": "e5", "type": "match_pairs", "tags": ["adverbios-tiempo"], "difficulty": 2, "prompt": "Une cada adverbio con su traducción", "left": ["immer", "oft", "manchmal", "nie"], "right": ["siempre", "a menudo", "a veces", "nunca"], "answer": [0, 1, 2, 3], "explain": "Escala de frecuencia: immer > oft > manchmal > selten > nie." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Voy a menudo al cine.", "accept": ["Ich gehe oft ins Kino"], "hintWords": ["ich gehe oft ins Kino"], "strictAccents": false, "audio": "Ich gehe oft ins Kino.", "explain": "Orden normal: sujeto + verbo + adverbio + resto." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "A menudo voy al cine. (empieza con «Oft»)", "accept": ["Oft gehe ich ins Kino"], "hintWords": ["oft gehe ich ins Kino"], "strictAccents": false, "audio": "Oft gehe ich ins Kino.", "explain": "Oft en posición 1, gehe en posición 2, ich después del verbo." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["adverbios-tiempo"], "difficulty": 2, "prompt": "Siempre estoy cansado.", "accept": ["Ich bin immer müde"], "hintWords": ["ich bin immer müde"], "strictAccents": false, "audio": "Ich bin immer müde.", "explain": "immer va después del verbo conjugado, antes del adjetivo." },
+    { "id": "e9", "type": "fill_blank", "tags": ["adverbios-tiempo"], "difficulty": 2, "prompt": "Completa con el adverbio correcto", "text": "Er trinkt ___ Kaffee. (nunca) Ich bin ___ spät. (rara vez)", "blanks": [{ "accept": ["nie"] }, { "accept": ["selten"] }], "bank": ["nie", "selten", "immer"], "explain": "nie = nunca; selten = rara vez." },
+    { "id": "e10", "type": "word_order", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Ordena: «Mañana voy a Berlín» (empieza con Morgen)", "tokens": ["nach Berlin", "fahre", "Morgen", "ich"], "answer": ["Morgen", "fahre", "ich", "nach Berlin"], "audio": "Morgen fahre ich nach Berlin.", "explain": "Morgen (posición 1) + fahre (posición 2) + ich + nach Berlin." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["adverbios-tiempo"], "difficulty": 2, "prompt": "Manchmal koche ich zu Hause.", "accept": ["A veces cocino en casa."], "strictAccents": false, "audio": "Manchmal koche ich zu Hause.", "explain": "manchmal = a veces." },
+    { "id": "e12", "type": "dialogue", "tags": ["adverbios-tiempo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Nina", "text": "Gehst du oft ins Kino?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich gehe oft ins Kino.", "Nein, ich gehe selten ins Kino."], "hint": "responde con tu frecuencia" },
+      { "who": "Nina", "text": "Und heute? Hast du Zeit?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, jetzt habe ich Zeit."], "hint": "responde que sí, que ahora tienes tiempo" }
+    ], "explain": "Uso natural de adverbios de frecuencia y tiempo en conversación." },
+    { "id": "e13", "type": "listening", "tags": ["adverbios-tiempo"], "difficulty": 1, "speak": "Ich bin immer müde.", "mode": "write", "accept": ["Ich bin immer müde"], "showTextAfter": true, "explain": "immer va justo después del verbo conjugado." },
+    { "id": "e14", "type": "listening", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Oft gehe ich ins Kino.", "mode": "choose", "options": ["Oft gehe ich ins Kino.", "Ich oft gehe ins Kino.", "Gehe oft ich ins Kino."], "answer": 0, "showTextAfter": true, "explain": "Solo la primera respeta la regla del verbo en posición 2." },
+    { "id": "e15", "type": "shadowing", "tags": ["adverbios-tiempo"], "difficulty": 2, "speak": "Manchmal koche ich zu Hause, aber ich gehe selten ins Restaurant.", "es": "A veces cocino en casa, pero rara vez voy al restaurante.", "ipa": "/ˈmançmaːl ˈkɔxə ɪç tsuː ˈhaʊ̯zə ˈaːbɐ ɪç ˈɡeːə ˈzɛltn̩ ɪns ʁɛstoˈʁɑ̃/", "esApprox": "«MANCH-mal KÓ-je ich tsu JÁU-ze, Á-ber ich GUÉ-e ZEL-ten ins res-to-RÁN»", "focus": "manchmal y selten en posición 1 y en posición normal respectivamente, contrastados con aber.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Heute arbeite ich nicht, aber morgen fahre ich nach Berlin.", "es": "Hoy no trabajo, pero mañana voy a Berlín.", "ipa": "/ˈhɔɪ̯tə ˈaʁbaɪ̯tə ɪç nɪçt ˈaːbɐ ˈmɔʁɡn̩ ˈfaːʁə ɪç naːx bɛʁˈliːn/", "esApprox": "«JÓI-te AR-bai-te ich nicht, Á-ber MOR-guen FÁ-re ich nach ber-LÍN»", "focus": "heute y morgen abren la frase; el verbo conjugado siempre en posición 2.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["adverbios-tiempo"], "difficulty": 2, "prompt": "Te preguntan si vas a menudo al cine. Di que sí, que vas a menudo.", "modelAnswer": "Ja, ich gehe oft ins Kino.", "alsoValid": ["Oft gehe ich ins Kino."], "speak": "Ja, ich gehe oft ins Kino.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["adverbios-tiempo"], "difficulty": 2, "prompt": "Clasifica cada adverbio: ¿frecuencia alta o baja?", "buckets": ["Frecuencia alta", "Frecuencia baja"], "items": [
+      { "text": "immer", "bucket": 0 },
+      { "text": "oft", "bucket": 0 },
+      { "text": "selten", "bucket": 1 },
+      { "text": "nie", "bucket": 1 },
+      { "text": "manchmal", "bucket": 1 }
+    ], "explain": "immer y oft son alta frecuencia; manchmal, selten y nie son baja frecuencia (de más a menos)." },
+    { "id": "e19", "type": "error_correction", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Oft ich gehe ins Kino.", "accept": ["Oft gehe ich ins Kino"], "audio": "Oft gehe ich ins Kino.", "explain": "El verbo conjugado va en posición 2, no el sujeto." },
+    { "id": "e20", "type": "mcq", "tags": ["adverbios-tiempo"], "difficulty": 2, "prompt": "«Ich bin oft müde, weil ich viel arbeite. Manchmal gehe ich ins Kino, aber ich gehe selten ins Restaurant. Heute habe ich frei, und morgen fahre ich nach Hamburg.» ¿Con qué frecuencia va la persona al restaurante?", "options": ["A menudo", "Nunca", "Rara vez", "Siempre"], "answer": 2, "explain": "«ich gehe selten ins Restaurant» = voy rara vez al restaurante." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "immer", "es": "siempre", "esApprox": "«Í-mer»", "from": "v3" },
+    { "id": "s2", "kind": "word", "target": "oft", "es": "a menudo", "esApprox": "«oft»", "from": "v4" },
+    { "id": "s3", "kind": "word", "target": "manchmal", "es": "a veces", "esApprox": "«MANCH-mal»", "from": "v5" },
+    { "id": "s4", "kind": "word", "target": "selten", "es": "rara vez", "esApprox": "«ZEL-ten»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "nie", "es": "nunca", "esApprox": "«ni»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "jetzt", "es": "ahora", "esApprox": "«yetst»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Manchmal koche ich zu Hause, aber ich gehe selten ins Restaurant.", "es": "A veces cocino en casa, pero rara vez voy al restaurante.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Heute arbeite ich nicht, aber morgen fahre ich nach Berlin.", "es": "Hoy no trabajo, pero mañana voy a Berlín.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "id": "de-a1-068",
+  "lang": "de",
+  "level": "A1",
+  "order": 68,
+  "title": "El Perfekt IV: verbos separables e inseparables",
+  "objectives": [
+    "Formar el participio de verbos separables: el prefijo va ANTES de ge-, no después (aufgestanden, no geaufstanden)",
+    "Reconocer que los verbos con prefijo inseparable (be-, ver-, ent-, er-, ge-, zer-, emp-, miss-) NO llevan ge- en el participio",
+    "Aplicar las dos reglas con verbos ya conocidos: aufstehen, besuchen, bezahlen, bestellen, verstehen"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos tipos de prefijo, dos reglas distintas para el participio",
+      "body": "Ya conoces los verbos separables (aufstehen, einkaufen) desde la clase 29. En el Perfekt, su ge- se cuela justo ENTRE el prefijo y la raíz: aufstehen → aufgestanden. Pero hay otro grupo de verbos, los inseparables, cuyo prefijo (be-, ver-, ent-, er-, ge-, zer-, emp-, miss-) nunca se separa, ni siquiera en el Perfekt: y ahí la regla es la contraria, no llevan ge- en absoluto. Besuchen → besucht, no gebesucht.",
+      "examples": [
+        { "target": "Ich bin früh aufgestanden.", "es": "Me levanté temprano.", "note": "separable: auf + ge + standen" },
+        { "target": "Ich habe dich besucht.", "es": "Te visité.", "note": "inseparable: sin ge-, besucht directamente" },
+        { "target": "Ich habe die Rechnung bezahlt.", "es": "Pagué la cuenta.", "note": "inseparable: bezahlt, sin ge-" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos separables: el ge- se cuela en medio",
+      "headers": ["Infinitivo", "Participio"],
+      "rows": [
+        ["aufstehen", "aufgestanden"],
+        ["einkaufen", "eingekauft"],
+        ["anrufen", "angerufen"],
+        ["fernsehen", "ferngesehen"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos inseparables: nunca llevan ge-",
+      "headers": ["Infinitivo", "Participio"],
+      "rows": [
+        ["besuchen", "besucht"],
+        ["bezahlen", "bezahlt"],
+        ["bestellen", "bestellt"],
+        ["verstehen", "verstanden"]
+      ],
+      "note": "Fíjate en que estos cuatro verbos ya los conocías: ahora completas su participio."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: no apliques la misma regla a los dos tipos",
+      "items": [
+        { "wrong": "Ich habe dich gebesucht. (añadiendo ge- a un verbo inseparable)", "right": "Ich habe dich besucht.", "why": "Los prefijos be-, ver-, ent-, er-, ge-, zer-, emp- y miss- son inseparables, y su participio nunca lleva ge-. Es la trampa más común de esta clase: tratar todos los prefijos igual." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco para distinguirlos: en los verbos separables, el prefijo LLEVA el acento tónico (AUFstehen). En los inseparables, el acento va en la raíz, no en el prefijo (beSUCHen). Escuchar dónde cae el acento te dice qué regla aplicar."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "aufstehen",
+      "es": "levantarse",
+      "ipa": "/ˈaʊ̯fˌʃteːən/",
+      "esApprox": "«AUF-shte-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich bin früh aufgestanden.", "es": "Me levanté temprano." }
+    },
+    {
+      "id": "v2",
+      "target": "einkaufen",
+      "es": "ir de compras",
+      "ipa": "/ˈaɪ̯nˌkaʊ̯fən/",
+      "esApprox": "«AIN-kau-fen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe eingekauft.", "es": "Fui de compras." }
+    },
+    {
+      "id": "v3",
+      "target": "anrufen",
+      "es": "llamar por teléfono",
+      "ipa": "/ˈanˌʁuːfən/",
+      "esApprox": "«AN-ru-fen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe dich angerufen.", "es": "Te llamé." }
+    },
+    {
+      "id": "v4",
+      "target": "fernsehen",
+      "es": "ver la televisión",
+      "ipa": "/ˈfɛʁnˌzeːən/",
+      "esApprox": "«FERN-ze-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe ferngesehen.", "es": "Vi la televisión." }
+    },
+    {
+      "id": "v5",
+      "target": "besuchen",
+      "es": "visitar",
+      "ipa": "/bəˈzuːxən/",
+      "esApprox": "«be-ZÚ-jen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe dich besucht.", "es": "Te visité." }
+    },
+    {
+      "id": "v6",
+      "target": "bezahlen",
+      "es": "pagar",
+      "ipa": "/bəˈtsaːlən/",
+      "esApprox": "«be-TSÁ-len»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe die Rechnung bezahlt.", "es": "Pagué la cuenta." }
+    },
+    {
+      "id": "v7",
+      "target": "bestellen",
+      "es": "pedir (en un restaurante)",
+      "ipa": "/bəˈʃtɛlən/",
+      "esApprox": "«be-SHTE-len»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe einen Kaffee bestellt.", "es": "Pedí un café." }
+    },
+    {
+      "id": "v8",
+      "target": "verstehen",
+      "es": "entender",
+      "ipa": "/fɛɐ̯ˈʃteːən/",
+      "esApprox": "«fer-SHTÉ-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe alles verstanden.", "es": "Lo entendí todo." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el participio de «aufstehen»?",
+      "options": ["geaufstanden", "aufgestanden", "aufgesteht", "gestanden"],
+      "answer": 1,
+      "explain": "El ge- se cuela entre el prefijo y la raíz: aufgestanden."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el participio de «besuchen»?",
+      "options": ["gebesucht", "besucht", "besuchen", "gebesuchen"],
+      "answer": 1,
+      "explain": "Los verbos inseparables como besuchen no llevan ge-: besucht."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["separables"],
+      "difficulty": 1,
+      "statement": "En los verbos separables, el ge- se coloca entre el prefijo y la raíz.",
+      "answer": true,
+      "explain": "aufstehen → aufgestanden: auf + ge + standen."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "statement": "Verstehen lleva ge- en su participio, porque es un verbo frecuente.",
+      "answer": false,
+      "explain": "verstehen es inseparable (ver-): su participio, verstanden, nunca lleva ge-."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos participios está mal formado?",
+      "options": ["aufgestanden", "besucht", "gebezahlt", "angerufen"],
+      "answer": 2,
+      "explain": "El participio correcto de bezahlen es bezahlt, sin ge-."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Une cada infinitivo con su participio",
+      "left": ["aufstehen", "besuchen", "anrufen", "bezahlen"],
+      "right": ["besucht", "aufgestanden", "bezahlt", "angerufen"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Dos separables (con ge- en medio) y dos inseparables (sin ge-)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "Me levanté temprano.",
+      "accept": ["Ich bin früh aufgestanden"],
+      "hintWords": ["ich bin früh aufgestanden"],
+      "strictAccents": false,
+      "audio": "Ich bin früh aufgestanden.",
+      "explain": "aufstehen usa sein (clase 67) + aufgestanden."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Te visité.",
+      "accept": ["Ich habe dich besucht"],
+      "hintWords": ["ich habe dich besucht"],
+      "strictAccents": false,
+      "audio": "Ich habe dich besucht.",
+      "explain": "besuchen: habe + dich + besucht, sin ge-."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Completa con el participio correcto",
+      "text": "Ich habe die Rechnung ___. Ich habe dich ___.",
+      "blanks": [{ "accept": ["bezahlt"] }, { "accept": ["angerufen"] }],
+      "bank": ["bezahlt", "angerufen", "gebezahlt"],
+      "explain": "bezahlt (inseparable, sin ge-); angerufen (separable, con ge- en medio)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Lo entendí todo»",
+      "tokens": ["verstanden", "Ich", "alles", "habe"],
+      "answer": ["Ich", "habe", "alles", "verstanden"],
+      "audio": "Ich habe alles verstanden.",
+      "explain": "habe + alles + verstanden (sin ge-, inseparable)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Ich habe einen Kaffee bestellt.",
+      "accept": ["Pedí un café."],
+      "strictAccents": false,
+      "audio": "Ich habe einen Kaffee bestellt.",
+      "explain": "bestellt: participio de bestellen, sin ge-."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du eingekauft?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich habe eingekauft."], "hint": "responde que sí, que fuiste de compras" },
+        { "who": "Anna", "text": "Super!", "speak": true }
+      ],
+      "explain": "eingekauft: participio de einkaufen, separable."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["perfekt"],
+      "difficulty": 1,
+      "speak": "Ich bin früh aufgestanden.",
+      "mode": "write",
+      "accept": ["Ich bin früh aufgestanden"],
+      "showTextAfter": true,
+      "explain": "Ich bin früh aufgestanden = me levanté temprano."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "speak": "Ich habe dich besucht.",
+      "mode": "choose",
+      "options": ["Ich habe dich besucht.", "Ich habe dich angerufen.", "Ich habe dich gesehen."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "besucht, angerufen y gesehen suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "speak": "Ich bin früh aufgestanden, und ich habe eingekauft.",
+      "es": "Me levanté temprano, y fui de compras.",
+      "ipa": "/ɪç bɪn fʁyː ˈaʊ̯fɡəʃtandən ʊnt ɪç ˈhaːbə ˈaɪ̯nɡəkaʊ̯ft/",
+      "esApprox": "«ich bin frü AUF-gue-shtan-den unt ich HÁ-be AIN-gue-kauft»",
+      "focus": "aufgestanden y eingekauft: el ge- se esconde justo después del prefijo separable.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "speak": "Ich habe dich besucht, und ich habe alles verstanden.",
+      "es": "Te visité, y lo entendí todo.",
+      "ipa": "/ɪç ˈhaːbə dɪç bəˈzuːxt ʊnt ɪç ˈhaːbə ˈalɛs fɛɐ̯ˈʃtandən/",
+      "esApprox": "«ich HÁ-be dich be-ZÚJT unt ich HÁ-be A-les fer-SHTAN-den»",
+      "focus": "besucht y verstanden: sin ge-, con el acento en la raíz, no en el prefijo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si fuiste de compras. Responde que sí, que fuiste de compras.",
+      "modelAnswer": "Ja, ich habe eingekauft.",
+      "alsoValid": ["Ich habe eingekauft."],
+      "speak": "Ja, ich habe eingekauft.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada verbo: ¿separable (con ge- en medio) o inseparable (sin ge-)?",
+      "buckets": ["Separable", "Inseparable"],
+      "items": [
+        { "text": "aufstehen", "bucket": 0 },
+        { "text": "besuchen", "bucket": 1 },
+        { "text": "einkaufen", "bucket": 0 },
+        { "text": "bezahlen", "bucket": 1 },
+        { "text": "anrufen", "bucket": 0 }
+      ],
+      "explain": "Los separables llevan ge- en medio; los inseparables (be-, ver-...) nunca llevan ge-."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich habe dich gebesucht.",
+      "accept": ["Ich habe dich besucht"],
+      "audio": "Ich habe dich besucht.",
+      "explain": "besuchen es inseparable: su participio nunca lleva ge-."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Hay otro error distinto. Corrige la frase entera.",
+      "wrong": "Ich bin geaufstanden.",
+      "accept": ["Ich bin aufgestanden"],
+      "audio": "Ich bin aufgestanden.",
+      "explain": "El ge- va DESPUÉS del prefijo separable auf-, no antes: aufgestanden."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "aufgestanden", "es": "levantado (participio de aufstehen)", "esApprox": "«AUF-gue-shtan-den»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "eingekauft", "es": "comprado, ido de compras", "esApprox": "«AIN-gue-kauft»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "angerufen", "es": "llamado por teléfono", "esApprox": "«AN-gue-ru-fen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "besucht", "es": "visitado (participio de besuchen)", "esApprox": "«be-ZÚJT»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "bezahlt", "es": "pagado (participio de bezahlen)", "esApprox": "«be-TSÁLT»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "verstanden", "es": "entendido (participio de verstehen)", "esApprox": "«fer-SHTAN-den»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich bin früh aufgestanden, und ich habe eingekauft.", "es": "Me levanté temprano, y fui de compras.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich habe dich besucht, und ich habe alles verstanden.", "es": "Te visité, y lo entendí todo.", "from": "e16" }
+  ]
+}

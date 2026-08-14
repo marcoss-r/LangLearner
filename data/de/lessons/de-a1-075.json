@@ -1,0 +1,91 @@
+{
+  "id": "de-a1-075",
+  "lang": "de",
+  "level": "A1",
+  "order": 75,
+  "title": "Pronunciación general IV: acento tónico y entonación",
+  "objectives": [
+    "Identificar dónde recae el acento tónico en palabras alemanas simples y compuestas",
+    "Reconocer que los prefijos separables llevan el acento, y los inseparables no",
+    "Aplicar la entonación descendente en afirmaciones y ascendente en preguntas de sí/no"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El acento suele estar en la primera sílaba de la raíz",
+      "body": "En la mayoría de las palabras alemanas de origen germánico, el acento tónico cae en la primera sílaba: WOHnung, ARbeiten, FRUHstück. En las palabras compuestas, el acento principal va en la primera parte: FUSSballspieler. Ya viste en la clase 68 que los prefijos separables (auf-, an-, ein-) llevan el acento (AUFstehen), mientras que los inseparables (be-, ver-, ent-) nunca lo llevan (beSUCHen).",
+      "examples": [
+        { "target": "die WOHnung", "es": "el piso", "note": "acento en la primera sílaba" },
+        { "target": "AUFstehen", "es": "levantarse", "note": "prefijo separable, acentuado" },
+        { "target": "beSUCHen", "es": "visitar", "note": "prefijo inseparable, sin acento" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Entonación de frases",
+      "headers": ["Tipo de frase", "Entonación", "Ejemplo"],
+      "rows": [
+        ["Afirmación", "descendente ↘", "Ich komme aus Spanien. ↘"],
+        ["Pregunta sí/no", "ascendente ↗", "Kommst du aus Spanien? ↗"],
+        ["Pregunta con w-", "descendente ↘", "Woher kommst du? ↘"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "A diferencia del español, las preguntas alemanas con palabra interrogativa (wer, wo, was, wann...) NO suben la entonación al final; solo las preguntas de sí/no (sin palabra interrogativa) suben."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Betonung", "es": "el acento tónico, el énfasis", "ipa": "/bəˈtoːnʊŋ/", "esApprox": "«be-TÓ-nung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Betonung ist wichtig.", "es": "El acento tónico es importante." } },
+    { "id": "v2", "target": "die Silbe", "es": "la sílaba", "ipa": "/ˈzɪlbə/", "esApprox": "«ZÍL-be»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das Wort hat drei Silben.", "es": "La palabra tiene tres sílabas." } },
+    { "id": "v3", "target": "steigen", "es": "subir", "ipa": "/ˈʃtaɪ̯ɡn̩/", "esApprox": "«SHTÁI-guen»", "pos": "verbo", "gender": null, "example": { "target": "Die Stimme steigt.", "es": "La voz sube." } },
+    { "id": "v4", "target": "fallen", "es": "bajar, caer", "ipa": "/ˈfalən/", "esApprox": "«FÁ-len»", "pos": "verbo", "gender": null, "example": { "target": "Die Stimme fällt.", "es": "La voz baja." } },
+    { "id": "v5", "target": "die Stimme", "es": "la voz", "ipa": "/ˈʃtɪmə/", "esApprox": "«SHTÍ-me»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ihre Stimme ist laut.", "es": "Su voz es fuerte." } },
+    { "id": "v6", "target": "der Wortakzent", "es": "el acento de palabra", "ipa": "/ˈvɔʁtʔaktsɛnt/", "esApprox": "«VORT-ak-tsent»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Wortakzent liegt vorne.", "es": "El acento de palabra está al principio." } },
+    { "id": "v7", "target": "deutlich", "es": "claro, con claridad", "ipa": "/ˈdɔɪ̯tlɪç/", "esApprox": "«DÓIT-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Sprich deutlich!", "es": "¡Habla con claridad!" } },
+    { "id": "v8", "target": "die Frage", "es": "la pregunta", "ipa": "/ˈfʁaːɡə/", "esApprox": "«FRÁ-ge»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine gute Frage.", "es": "Esa es una buena pregunta." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["pronunciacion-general"], "difficulty": 1, "prompt": "¿Dónde suele estar el acento en palabras alemanas simples?", "options": ["Última sílaba", "Primera sílaba", "Es aleatorio", "Depende del género"], "answer": 1, "explain": "El acento suele caer en la primera sílaba de la raíz." },
+    { "id": "e2", "type": "mcq", "tags": ["entonacion"], "difficulty": 2, "prompt": "¿Cómo es la entonación de una pregunta de sí/no como «Kommst du aus Spanien?»?", "options": ["Descendente", "Ascendente", "Plana", "No importa"], "answer": 1, "explain": "Las preguntas sí/no (sin palabra interrogativa) suben al final." },
+    { "id": "e3", "type": "true_false", "tags": ["pronunciacion-general"], "difficulty": 2, "statement": "AUFstehen lleva el acento en el prefijo aufque es separable.", "answer": true, "explain": "Los prefijos separables siempre llevan el acento." },
+    { "id": "e4", "type": "true_false", "tags": ["entonacion"], "difficulty": 2, "statement": "Las preguntas con «wo», «was» o «wann» suben la entonación al final, igual que en español.", "answer": false, "explain": "En alemán, las preguntas con palabra interrogativa bajan al final, a diferencia del español." },
+    { "id": "e5", "type": "match_pairs", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Une cada palabra con su acento correcto", "left": ["AUFstehen", "beSUCHen", "WOHnung", "verSTEHen"], "right": ["prefijo separable acentuado", "prefijo inseparable sin acento", "primera sílaba de la raíz", "prefijo inseparable sin acento"], "answer": [0, 1, 2, 3], "explain": "Separables acentuados, inseparables no, palabras simples en la primera sílaba." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["entonacion"], "difficulty": 2, "prompt": "¡Habla con claridad!", "accept": ["Sprich deutlich!", "Sprich deutlich"], "hintWords": ["sprich deutlich"], "strictAccents": false, "audio": "Sprich deutlich!", "explain": "Imperativo (clase 54) + adverbio deutlich." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "La palabra tiene tres sílabas.", "accept": ["Das Wort hat drei Silben"], "hintWords": ["das Wort hat drei Silben"], "strictAccents": false, "audio": "Das Wort hat drei Silben.", "explain": "die Silbe → die Silben en plural." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["entonacion"], "difficulty": 2, "prompt": "Esa es una buena pregunta.", "accept": ["Das ist eine gute Frage"], "hintWords": ["das ist eine gute Frage"], "strictAccents": false, "audio": "Das ist eine gute Frage.", "explain": "eine gute Frage: adjetivo con terminación -e tras ein-." },
+    { "id": "e9", "type": "fill_blank", "tags": ["entonacion"], "difficulty": 2, "prompt": "Completa: «La voz sube en las preguntas de sí/no»", "text": "Die ___ steigt bei Ja/Nein-___.", "blanks": [{ "accept": ["Stimme"] }, { "accept": ["Fragen"] }], "bank": ["Stimme", "Fragen", "Silbe"], "explain": "Die Stimme steigt bei Ja/Nein-Fragen." },
+    { "id": "e10", "type": "word_order", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Ordena: «El acento de palabra está al principio»", "tokens": ["vorne", "liegt", "Der Wortakzent"], "answer": ["Der Wortakzent", "liegt", "vorne"], "audio": "Der Wortakzent liegt vorne.", "explain": "Der Wortakzent liegt vorne: sujeto-verbo-adverbio." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["entonacion"], "difficulty": 2, "prompt": "Woher kommst du?", "accept": ["¿De dónde vienes?"], "strictAccents": false, "audio": "Woher kommst du?", "explain": "Pregunta con palabra interrogativa: entonación descendente, aunque lleve signo de interrogación." },
+    { "id": "e12", "type": "dialogue", "tags": ["entonacion"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lehrerin", "text": "Kommst du aus Spanien?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich komme aus Spanien."], "hint": "responde con entonación descendente, es una afirmación" },
+      { "who": "Lehrerin", "text": "Woher genau?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Aus Madrid."], "hint": "responde con el nombre de tu ciudad" }
+    ], "explain": "Contraste entre pregunta sí/no (ascendente) y respuesta afirmativa (descendente)." },
+    { "id": "e13", "type": "listening", "tags": ["entonacion"], "difficulty": 1, "speak": "Kommst du aus Spanien?", "mode": "write", "accept": ["Kommst du aus Spanien"], "showTextAfter": true, "explain": "Pregunta sí/no con entonación ascendente al final." },
+    { "id": "e14", "type": "listening", "tags": ["pronunciacion-general"], "difficulty": 2, "speak": "AUFstehen, beSUCHen, WOHnung", "mode": "choose", "options": ["aufSTEHen, BEsuchen, wohNUNG", "AUFstehen, beSUCHen, WOHnung", "aufsteHEN, besuCHEN, wohNUNG"], "answer": 1, "showTextAfter": true, "explain": "Separables acentuados en el prefijo, inseparables sin acento, palabras simples en la primera sílaba." },
+    { "id": "e15", "type": "shadowing", "tags": ["pronunciacion-general"], "difficulty": 2, "speak": "Ich stehe früh auf, aber ich besuche meine Familie am Wochenende.", "es": "Me levanto temprano, pero visito a mi familia el fin de semana.", "ipa": "/ɪç ˈʃteːə fʁyː aʊ̯f ˈaːbɐ ɪç bəˈzuːxə ˈmaɪ̯nə familiə am ˈvɔxn̩ˌʔɛndə/", "esApprox": "«ich SHTÉ-e frü auf, Á-ber ich be-ZÚ-je MÁI-ne fa-MÍ-lie am VO-jen-en-de»", "focus": "auf (separable, acentuado) frente a besuche (inseparable, sin acento en el prefijo).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["entonacion"], "difficulty": 2, "speak": "Kommst du aus Spanien? Ja, ich komme aus Spanien.", "es": "¿Vienes de España? Sí, vengo de España.", "ipa": "/ˈkɔmst duː aʊ̯s ˈʃpaːniən jaː ɪç ˈkɔmə aʊ̯s ˈʃpaːniən/", "esApprox": "«komst du aus SHPÁ-nien? ya, ich KÓ-me aus SHPÁ-nien»", "focus": "La pregunta sube al final (↗), la respuesta baja (↘): el contraste clave de esta clase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["entonacion"], "difficulty": 2, "prompt": "Pide a alguien que hable con claridad.", "modelAnswer": "Sprich deutlich!", "alsoValid": ["Sprechen Sie deutlich!"], "speak": "Sprich deutlich!", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Clasifica cada verbo: prefijo separable o inseparable", "buckets": ["Separable (acentuado)", "Inseparable (sin acento)"], "items": [
+      { "text": "aufstehen", "bucket": 0 },
+      { "text": "besuchen", "bucket": 1 },
+      { "text": "einkaufen", "bucket": 0 },
+      { "text": "verstehen", "bucket": 1 },
+      { "text": "anrufen", "bucket": 0 }
+    ], "explain": "auf-, ein-, an- son separables y acentuados; be-, ver- son inseparables y sin acento." },
+    { "id": "e19", "type": "error_correction", "tags": ["entonacion"], "difficulty": 2, "prompt": "Hay un error de entonación descrito. Corrige la afirmación.", "wrong": "Woher kommst du? se pronuncia con entonación ascendente, igual que en español.", "accept": ["Woher kommst du se pronuncia con entonación descendente", "Woher kommst du tiene entonación descendente"], "explain": "Las preguntas con palabra interrogativa bajan al final en alemán, a diferencia del español." },
+    { "id": "e20", "type": "mcq", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "«Im Deutschen liegt die Betonung meistens auf der ersten Silbe. Bei trennbaren Verben wie aufstehen ist die Vorsilbe betont. Bei untrennbaren Verben wie besuchen ist sie nicht betont. Bei Fragen ohne Fragewort steigt die Stimme am Ende.» ¿Qué pasa con la voz en las preguntas sin palabra interrogativa?", "options": ["Baja", "Sube", "Se mantiene igual", "Depende del hablante"], "answer": 1, "explain": "«die Stimme steigt am Ende» = la voz sube al final." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Betonung", "es": "el acento tónico, el énfasis", "esApprox": "«be-TÓ-nung»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Silbe", "es": "la sílaba", "esApprox": "«ZÍL-be»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "steigen", "es": "subir", "esApprox": "«SHTÁI-guen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "fallen", "es": "bajar, caer", "esApprox": "«FÁ-len»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Stimme", "es": "la voz", "esApprox": "«SHTÍ-me»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "deutlich", "es": "claro, con claridad", "esApprox": "«DÓIT-lich»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich stehe früh auf, aber ich besuche meine Familie am Wochenende.", "es": "Me levanto temprano, pero visito a mi familia el fin de semana.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Kommst du aus Spanien? Ja, ich komme aus Spanien.", "es": "¿Vienes de España? Sí, vengo de España.", "from": "e16" }
+  ]
+}

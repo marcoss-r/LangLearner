@@ -1,0 +1,86 @@
+{
+  "id": "de-a1-077",
+  "lang": "de",
+  "level": "A1",
+  "order": 77,
+  "title": "Cultura: el día a día en Alemania (puntualidad, Sie, reciclaje)",
+  "objectives": [
+    "Conocer tres rasgos culturales clave del día a día alemán: puntualidad, tratamiento formal (Sie) y reciclaje",
+    "Ampliar vocabulario relacionado con estas costumbres",
+    "Reflexionar sobre las diferencias con las costumbres de tu propio país"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Pünktlichkeit: la puntualidad como valor cultural",
+      "body": "En Alemania, llegar tarde (aunque sean solo cinco minutos) se considera una falta de respeto, tanto en el trabajo como en citas personales. Es normal avisar con un mensaje si vas a llegar tarde: «Ich komme fünf Minuten später» (Llego cinco minutos tarde). Si llegas antes, tampoco es ideal tocar el timbre demasiado pronto; se suele esperar cerca hasta la hora exacta."
+    },
+    {
+      "type": "explanation",
+      "title": "Du y Sie: cuándo usar cada uno",
+      "body": "Ya viste la diferencia gramatical entre du y Sie (clase 6), pero culturalmente es importante saber cuándo usarlos: Sie es obligatorio con desconocidos adultos, en tiendas, con profesores universitarios y en el trabajo hasta que te ofrezcan pasar a du («Wollen wir uns duzen?» - ¿Nos tuteamos?). Entre estudiantes jóvenes y en ambientes informales, du es más común desde el principio."
+    },
+    {
+      "type": "explanation",
+      "title": "Mülltrennung: separar la basura",
+      "body": "El reciclaje es una parte muy visible de la vida cotidiana alemana. Hay contenedores de distintos colores: der gelbe Sack/die gelbe Tonne (envases), das Altpapier (papel), der Biomüll (orgánico), das Glas (vidrio, a menudo separado por color) y der Restmüll (resto). No separar bien la basura puede generar comentarios de los vecinos."
+    },
+    {
+      "type": "tip",
+      "body": "Estos tres rasgos —puntualidad, formalidad con Sie, y reciclaje estricto— sorprenden a muchos recién llegados a Alemania. Observarlos desde el principio ayuda a integrarte mejor."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "pünktlich", "es": "puntual", "ipa": "/ˈpʏŋktlɪç/", "esApprox": "«PÜNKT-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Sei bitte pünktlich!", "es": "¡Por favor, sé puntual!" } },
+    { "id": "v2", "target": "der Müll", "es": "la basura", "ipa": "/mʏl/", "esApprox": "«mül»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wir trennen den Müll.", "es": "Separamos la basura." } },
+    { "id": "v3", "target": "die Tonne", "es": "el contenedor", "ipa": "/ˈtɔnə/", "esApprox": "«TÓ-ne»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die gelbe Tonne ist für Verpackungen.", "es": "El contenedor amarillo es para envases." } },
+    { "id": "v4", "target": "trennen", "es": "separar", "ipa": "/ˈtʁɛnən/", "esApprox": "«TRÉ-nen»", "pos": "verbo", "gender": null, "example": { "target": "In Deutschland trennt man den Müll.", "es": "En Alemania se separa la basura." } },
+    { "id": "v5", "target": "duzen", "es": "tutear", "ipa": "/ˈduːtsn̩/", "esApprox": "«DÚ-tsen»", "pos": "verbo", "gender": null, "example": { "target": "Wollen wir uns duzen?", "es": "¿Nos tuteamos?" } },
+    { "id": "v6", "target": "höflich", "es": "educado, cortés", "ipa": "/ˈhøːflɪç/", "esApprox": "«JÖF-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Sie ist immer höflich.", "es": "Ella siempre es educada." } },
+    { "id": "v7", "target": "die Regel", "es": "la regla, la norma", "ipa": "/ˈʁeːɡl̩/", "esApprox": "«RÉ-guel»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine wichtige Regel.", "es": "Esa es una regla importante." } },
+    { "id": "v8", "target": "typisch", "es": "típico", "ipa": "/ˈtyːpɪʃ/", "esApprox": "«TÜ-pish»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist typisch deutsch.", "es": "Eso es típicamente alemán." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["cultura-alemana"], "difficulty": 1, "prompt": "¿Cómo se considera llegar tarde en Alemania?", "options": ["Es normal y no importa", "Es una falta de respeto", "Solo importa en el trabajo", "Solo importa con desconocidos"], "answer": 1, "explain": "La puntualidad es un valor cultural muy importante en Alemania." },
+    { "id": "e2", "type": "mcq", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "¿Qué frase se usa para proponer pasar de Sie a du?", "options": ["Wie geht's?", "Wollen wir uns duzen?", "Wie heißen Sie?", "Sprechen Sie Deutsch?"], "answer": 1, "explain": "Wollen wir uns duzen? = ¿Nos tuteamos? Es la forma habitual de proponerlo." },
+    { "id": "e3", "type": "true_false", "tags": ["cultura-alemana"], "difficulty": 1, "statement": "En Alemania es común separar la basura en varios contenedores distintos.", "answer": true, "explain": "Mülltrennung: papel, envases, orgánico, vidrio y resto se separan." },
+    { "id": "e4", "type": "true_false", "tags": ["cultura-alemana"], "difficulty": 2, "statement": "En el trabajo alemán, es normal pasar a du con un jefe sin que él lo proponga primero.", "answer": false, "explain": "Normalmente se espera a que la persona de mayor rango o edad proponga el cambio a du." },
+    { "id": "e5", "type": "match_pairs", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["pünktlich", "der Müll", "die Tonne", "höflich"], "right": ["puntual", "la basura", "el contenedor", "educado"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario cultural de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "¡Por favor, sé puntual!", "accept": ["Sei bitte pünktlich!", "Sei bitte pünktlich"], "hintWords": ["sei bitte pünktlich"], "strictAccents": false, "audio": "Sei bitte pünktlich!", "explain": "Imperativo du (clase 54) + bitte + pünktlich." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "En Alemania se separa la basura.", "accept": ["In Deutschland trennt man den Müll"], "hintWords": ["in Deutschland trennt man den Müll"], "strictAccents": false, "audio": "In Deutschland trennt man den Müll.", "explain": "man + trennt: forma impersonal (introducida ya en la clase 61)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "¿Nos tuteamos?", "accept": ["Wollen wir uns duzen?", "Wollen wir uns duzen"], "hintWords": ["wollen wir uns duzen"], "strictAccents": false, "audio": "Wollen wir uns duzen?", "explain": "Expresión fija para proponer pasar de Sie a du." },
+    { "id": "e9", "type": "fill_blank", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "Completa la frase", "text": "Die gelbe ___ ist für Verpackungen. Das ist eine wichtige ___.", "blanks": [{ "accept": ["Tonne"] }, { "accept": ["Regel"] }], "bank": ["Tonne", "Regel", "Müll"], "explain": "die Tonne (el contenedor); die Regel (la regla)." },
+    { "id": "e10", "type": "word_order", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "Ordena: «Eso es típicamente alemán»", "tokens": ["deutsch", "typisch", "Das ist"], "answer": ["Das ist", "typisch", "deutsch"], "audio": "Das ist typisch deutsch.", "explain": "Das ist typisch deutsch: expresión coloquial frecuente." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "Sie ist immer höflich und pünktlich.", "accept": ["Ella siempre es educada y puntual."], "strictAccents": false, "audio": "Sie ist immer höflich und pünktlich.", "explain": "höflich y pünktlich: dos adjetivos culturales de esta clase." },
+    { "id": "e12", "type": "dialogue", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Kollege", "text": "Wir arbeiten jetzt lange zusammen. Wollen wir uns duzen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, gerne!", "Ja, sehr gerne."], "hint": "acepta con entusiasmo" },
+      { "who": "Kollege", "text": "Super! Und bitte, sei pünktlich morgen.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, natürlich."], "hint": "responde que sí, claro" }
+    ], "explain": "Situación típica del entorno laboral alemán: proponer du y recordar la puntualidad." },
+    { "id": "e13", "type": "listening", "tags": ["cultura-alemana"], "difficulty": 1, "speak": "Wollen wir uns duzen?", "mode": "write", "accept": ["Wollen wir uns duzen"], "showTextAfter": true, "explain": "Frase clave para pasar de Sie a du." },
+    { "id": "e14", "type": "listening", "tags": ["cultura-alemana"], "difficulty": 2, "speak": "In Deutschland trennt man den Müll.", "mode": "choose", "options": ["In Deutschland trennt man den Müll.", "In Deutschland trinkt man den Müll.", "In Deutschland kennt man den Müll."], "answer": 0, "showTextAfter": true, "explain": "trennt (separa) suena distinto a trinkt (bebe) y kennt (conoce)." },
+    { "id": "e15", "type": "shadowing", "tags": ["cultura-alemana"], "difficulty": 2, "speak": "In Deutschland ist Pünktlichkeit sehr wichtig, und man trennt den Müll genau.", "es": "En Alemania la puntualidad es muy importante, y se separa la basura con mucha precisión.", "ipa": "/ɪn ˈdɔɪ̯tʃlant ɪst ˈpʏŋktlɪçkaɪ̯t zeːɐ̯ ˈvɪçtɪç ʊnt man ˈtʁɛnt deːn mʏl ɡəˈnaʊ̯/", "esApprox": "«in DÓICH-lant ist PÜNKT-lich-kait zer VICH-tich unt man trent den mül ge-NAU»", "focus": "die Pünktlichkeit y trennen: dos ideas centrales de la cultura cotidiana alemana.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["cultura-alemana"], "difficulty": 2, "speak": "Man sagt zuerst Sie, aber Kollegen fragen oft: Wollen wir uns duzen?", "es": "Primero se dice Sie, pero los compañeros a menudo preguntan: ¿Nos tuteamos?", "ipa": "/man zaːkt tsuˈeːɐ̯st ziː ˈaːbɐ kɔˈleːɡn̩ ˈfʁaːɡn̩ ɔft ˈvɔlən viːɐ̯ ʊns ˈduːtsn̩/", "esApprox": "«man zakt tsu-ÉRST zi, Á-ber ko-LÉ-guen FRÁ-guen oft: VÓ-len vir uns DÚ-tsen»", "focus": "El paso de Sie a du siempre lo propone alguien explícitamente, nunca se asume.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "Un compañero de trabajo te propone tutearos. Acepta con entusiasmo.", "modelAnswer": "Ja, sehr gerne!", "alsoValid": ["Ja, gerne!"], "speak": "Ja, sehr gerne!", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "Clasifica cada palabra según el tema cultural", "buckets": ["Puntualidad", "Sie/du", "Reciclaje"], "items": [
+      { "text": "pünktlich", "bucket": 0 },
+      { "text": "duzen", "bucket": 1 },
+      { "text": "die Tonne", "bucket": 2 },
+      { "text": "trennen", "bucket": 2 },
+      { "text": "höflich", "bucket": 1 }
+    ], "explain": "pünktlich: puntualidad; duzen y höflich: tratamiento; die Tonne y trennen: reciclaje." },
+    { "id": "e19", "type": "error_correction", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "In Deutschland ist man immer unpünktlich.", "accept": ["In Deutschland ist man meistens pünktlich", "In Deutschland ist Pünktlichkeit wichtig"], "explain": "Es al revés: en Alemania la puntualidad es un valor muy importante, no lo contrario." },
+    { "id": "e20", "type": "mcq", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "«In Deutschland ist Pünktlichkeit sehr wichtig: fünf Minuten zu spät ist schon unhöflich. Man sagt zuerst Sie, bis jemand «Wollen wir uns duzen?» fragt. Und man trennt den Müll genau: Papier, Verpackungen, Biomüll und Restmüll kommen in verschiedene Tonnen.» ¿Qué se considera ya una falta de respeto?", "options": ["Llegar cinco minutos tarde", "Usar du con desconocidos", "No reciclar el vidrio", "Hablar demasiado alto"], "answer": 0, "explain": "«fünf Minuten zu spät ist schon unhöflich» = cinco minutos tarde ya es de mala educación." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "pünktlich", "es": "puntual", "esApprox": "«PÜNKT-lich»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Müll", "es": "la basura", "esApprox": "«mül»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Tonne", "es": "el contenedor", "esApprox": "«TÓ-ne»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "trennen", "es": "separar", "esApprox": "«TRÉ-nen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "duzen", "es": "tutear", "esApprox": "«DÚ-tsen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "höflich", "es": "educado, cortés", "esApprox": "«JÖF-lich»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "In Deutschland ist Pünktlichkeit sehr wichtig, und man trennt den Müll genau.", "es": "En Alemania la puntualidad es muy importante, y se separa la basura con mucha precisión.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Man sagt zuerst Sie, aber Kollegen fragen oft: Wollen wir uns duzen?", "es": "Primero se dice Sie, pero los compañeros a menudo preguntan: ¿Nos tuteamos?", "from": "e16" }
+  ]
+}

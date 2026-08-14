@@ -1,0 +1,370 @@
+{
+  "id": "de-a1-066",
+  "lang": "de",
+  "level": "A1",
+  "order": 66,
+  "title": "El Perfekt II: los participios irregulares más frecuentes",
+  "objectives": [
+    "Reconocer que muchos verbos frecuentes forman el participio de forma irregular: ge-...-en, a menudo con cambio de vocal",
+    "Memorizar los participios de ocho verbos muy usados: sehen, lesen, trinken, sprechen, essen, nehmen, schreiben, geben",
+    "Seguir aplicando haben + participio al final de la frase"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los participios irregulares: hay que memorizarlos uno a uno",
+      "body": "Muchos de los verbos más frecuentes del alemán forman el participio de forma irregular: en vez de ge-...-t, usan ge-...-en, y casi siempre cambian la vocal de la raíz. No hay un patrón que los prediga todos: hay que aprenderlos como vocabulario, junto al infinitivo.",
+      "examples": [
+        { "target": "Ich habe den Film gesehen.", "es": "Vi la película.", "note": "sehen → gesehen" },
+        { "target": "Ich habe Wasser getrunken.", "es": "Bebí agua.", "note": "trinken → getrunken" },
+        { "target": "Ich habe ein Buch gelesen.", "es": "Leí un libro.", "note": "lesen → gelesen" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Ocho participios irregulares frecuentes",
+      "headers": ["Infinitivo", "Participio"],
+      "rows": [
+        ["sehen", "gesehen"],
+        ["lesen", "gelesen"],
+        ["trinken", "getrunken"],
+        ["sprechen", "gesprochen"],
+        ["essen", "gegessen"],
+        ["nehmen", "genommen"],
+        ["schreiben", "geschrieben"],
+        ["geben", "gegeben"]
+      ],
+      "note": "essen (comer) y nehmen (coger, tomar) son dos verbos nuevos en esta clase, con cambio de vocal también en presente: du isst, du nimmst."
+    },
+    {
+      "type": "tip",
+      "body": "Cuando aprendas un verbo nuevo, pregúntate siempre: ¿su participio termina en -t (regular) o en -en (irregular)? Si no lo sabes, es más seguro asumir que puede ser irregular y comprobarlo, porque los verbos más frecuentes del alemán casi siempre lo son."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "sehen",
+      "es": "ver",
+      "ipa": "/ˈzeːən/",
+      "esApprox": "«ZÉ-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe den Film gesehen.", "es": "Vi la película." }
+    },
+    {
+      "id": "v2",
+      "target": "lesen",
+      "es": "leer",
+      "ipa": "/ˈleːzən/",
+      "esApprox": "«LÉ-zen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe ein Buch gelesen.", "es": "Leí un libro." }
+    },
+    {
+      "id": "v3",
+      "target": "trinken",
+      "es": "beber",
+      "ipa": "/ˈtʁɪŋkən/",
+      "esApprox": "«TRIN-ken»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe Wasser getrunken.", "es": "Bebí agua." }
+    },
+    {
+      "id": "v4",
+      "target": "sprechen",
+      "es": "hablar",
+      "ipa": "/ˈʃpʁɛçən/",
+      "esApprox": "«SHPRE-chen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe Deutsch gesprochen.", "es": "Hablé alemán." }
+    },
+    {
+      "id": "v5",
+      "target": "essen",
+      "es": "comer",
+      "ipa": "/ˈɛsən/",
+      "esApprox": "«E-sen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe Fisch gegessen.", "es": "Comí pescado." }
+    },
+    {
+      "id": "v6",
+      "target": "nehmen",
+      "es": "coger, tomar",
+      "ipa": "/ˈneːmən/",
+      "esApprox": "«NÉ-men»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe den Bus genommen.", "es": "Tomé el autobús." }
+    },
+    {
+      "id": "v7",
+      "target": "schreiben",
+      "es": "escribir",
+      "ipa": "/ˈʃʁaɪ̯bən/",
+      "esApprox": "«SHRAI-ben»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe eine E-Mail geschrieben.", "es": "Escribí un correo." }
+    },
+    {
+      "id": "v8",
+      "target": "geben",
+      "es": "dar",
+      "ipa": "/ˈɡeːbən/",
+      "esApprox": "«GUÉ-ben»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe dem Kind ein Geschenk gegeben.", "es": "Le di un regalo al niño." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el participio de «sehen»?",
+      "options": ["geseht", "gesehen", "gesieht", "sehen"],
+      "answer": 1,
+      "explain": "sehen → gesehen, con ge-...-en."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el participio de «trinken»?",
+      "options": ["getrinkt", "getrunken", "getranken", "trinken"],
+      "answer": 1,
+      "explain": "trinken → getrunken, con cambio de vocal i → u."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["irregulares"],
+      "difficulty": 1,
+      "statement": "Los participios irregulares terminan en -en, no en -t.",
+      "answer": true,
+      "explain": "ge-...-en es el patrón de los participios irregulares."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "statement": "El participio de essen es geesst.",
+      "answer": false,
+      "explain": "El participio correcto es gegessen, con doble consonante y cambio de vocal."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos participios NO es irregular?",
+      "options": ["gesehen", "getrunken", "gemacht", "gesprochen"],
+      "answer": 2,
+      "explain": "gemacht es regular (ge-...-t); los otros tres son irregulares (ge-...-en)."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "Une cada infinitivo con su participio",
+      "left": ["sehen", "lesen", "essen", "geben"],
+      "right": ["gelesen", "gesehen", "gegeben", "gegessen"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro participios irregulares frecuentes."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "Vi la película.",
+      "accept": ["Ich habe den Film gesehen"],
+      "hintWords": ["ich habe den Film gesehen"],
+      "strictAccents": false,
+      "audio": "Ich habe den Film gesehen.",
+      "explain": "habe + den Film + gesehen (participio, final)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "Bebí agua.",
+      "accept": ["Ich habe Wasser getrunken"],
+      "hintWords": ["ich habe Wasser getrunken"],
+      "strictAccents": false,
+      "audio": "Ich habe Wasser getrunken.",
+      "explain": "habe + Wasser + getrunken (participio, final)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "Completa con el participio correcto",
+      "text": "Ich habe ein Buch ___. Ich habe Fisch ___.",
+      "blanks": [{ "accept": ["gelesen"] }, { "accept": ["gegessen"] }],
+      "bank": ["gelesen", "gegessen", "gesehen"],
+      "explain": "gelesen (lesen); gegessen (essen)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tomé el autobús»",
+      "tokens": ["genommen", "Ich", "den", "habe", "Bus"],
+      "answer": ["Ich", "habe", "den", "Bus", "genommen"],
+      "audio": "Ich habe den Bus genommen.",
+      "explain": "habe + den Bus + genommen (participio, final)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "Ich habe eine E-Mail geschrieben.",
+      "accept": ["Escribí un correo.", "He escrito un correo."],
+      "strictAccents": false,
+      "audio": "Ich habe eine E-Mail geschrieben.",
+      "explain": "geschrieben: participio de schreiben."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du den Film gesehen?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich habe den Film gesehen."], "hint": "responde que sí, que viste la película" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "hast...gesehen: pregunta en Perfekt con participio irregular."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["irregulares"],
+      "difficulty": 1,
+      "speak": "Ich habe den Film gesehen.",
+      "mode": "write",
+      "accept": ["Ich habe den Film gesehen"],
+      "showTextAfter": true,
+      "explain": "Ich habe den Film gesehen = vi la película."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "speak": "Ich habe Deutsch gesprochen.",
+      "mode": "choose",
+      "options": ["Ich habe Deutsch gesprochen.", "Ich habe Deutsch gelesen.", "Ich habe Deutsch geschrieben."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "gesprochen, gelesen y geschrieben suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "speak": "Ich habe den Film gesehen, und ich habe Wasser getrunken.",
+      "es": "Vi la película, y bebí agua.",
+      "ipa": "/ɪç ˈhaːbə deːn fɪlm ɡəˈzeːən ʊnt ɪç ˈhaːbə ˈvasɐ ɡəˈtʁʊŋkən/",
+      "esApprox": "«ich HÁ-be den film gue-ZÉ-en unt ich HÁ-be VA-ser gue-TRUN-ken»",
+      "focus": "gesehen y getrunken: dos participios irregulares con acento en la segunda sílaba.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "speak": "Ich habe Fisch gegessen, und ich habe den Bus genommen.",
+      "es": "Comí pescado, y tomé el autobús.",
+      "ipa": "/ɪç ˈhaːbə fɪʃ ɡəˈɡɛsən ʊnt ɪç ˈhaːbə deːn bʊs ɡəˈnɔmən/",
+      "esApprox": "«ich HÁ-be fish gue-GUE-sen unt ich HÁ-be den bus gue-NO-men»",
+      "focus": "gegessen tiene doble consonante ss; genommen tiene doble m: practícalas despacio.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si viste la película. Responde que sí, que la viste.",
+      "modelAnswer": "Ja, ich habe den Film gesehen.",
+      "alsoValid": ["Ich habe ihn gesehen."],
+      "speak": "Ja, ich habe den Film gesehen.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "conjugation",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "verb": "sehen (Perfekt)",
+      "tense": "Perfekt",
+      "prompt": "Completa el Perfekt de «sehen» (ver) con haben",
+      "rows": [
+        { "person": "ich", "accept": ["habe gesehen"] },
+        { "person": "du", "accept": ["hast gesehen"] },
+        { "person": "er / sie / es", "accept": ["hat gesehen"] },
+        { "person": "wir", "accept": ["haben gesehen"] },
+        { "person": "ihr", "accept": ["habt gesehen"] },
+        { "person": "sie / Sie", "accept": ["haben gesehen"] }
+      ],
+      "explain": "gesehen no cambia nunca; solo cambia haben, según la persona."
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada participio: ¿regular (-t) o irregular (-en)?",
+      "buckets": ["Regular (-t)", "Irregular (-en)"],
+      "items": [
+        { "text": "gemacht", "bucket": 0 },
+        { "text": "gesehen", "bucket": 1 },
+        { "text": "gelernt", "bucket": 0 },
+        { "text": "getrunken", "bucket": 1 },
+        { "text": "gekauft", "bucket": 0 }
+      ],
+      "explain": "Los participios regulares terminan en -t; los irregulares, en -en."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["irregulares"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich habe Wasser getrinkt.",
+      "accept": ["Ich habe Wasser getrunken"],
+      "audio": "Ich habe Wasser getrunken.",
+      "explain": "trinken es irregular: su participio es getrunken, no getrinkt."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "gesehen", "es": "visto (participio de sehen)", "esApprox": "«gue-ZÉ-en»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "gelesen", "es": "leído (participio de lesen)", "esApprox": "«gue-LÉ-zen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "getrunken", "es": "bebido (participio de trinken)", "esApprox": "«gue-TRUN-ken»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "gesprochen", "es": "hablado (participio de sprechen)", "esApprox": "«gue-SHPRO-jen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "gegessen", "es": "comido (participio de essen)", "esApprox": "«gue-GUE-sen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "genommen", "es": "cogido, tomado (participio de nehmen)", "esApprox": "«gue-NO-men»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe den Film gesehen, und ich habe Wasser getrunken.", "es": "Vi la película, y bebí agua.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich habe Fisch gegessen, und ich habe den Bus genommen.", "es": "Comí pescado, y tomé el autobús.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "id": "de-a1-069",
+  "lang": "de",
+  "level": "A1",
+  "order": 69,
+  "title": "El Präteritum de sein, haben y los modales",
+  "objectives": [
+    "Conjugar sein (war) y haben (hatte) en Präteritum",
+    "Conjugar los verbos modales en Präteritum: konnte, musste, wollte, durfte, sollte",
+    "Reconocer que, a diferencia del resto de verbos, sein, haben y los modales prefieren el Präteritum incluso al hablar"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La gran excepción: estos verbos SÍ usan el Präteritum al hablar",
+      "body": "Ya sabes que el Perfekt es el pasado normal del alemán hablado (clase 65). Pero hay una excepción muy importante: sein, haben y los verbos modales casi siempre se usan en Präteritum, incluso en una conversación informal. Decir «ich bin müde gewesen» es gramatical, pero suena raro; lo natural es «ich war müde».",
+      "examples": [
+        { "target": "Ich war müde.", "es": "Estaba cansado.", "note": "sein → war" },
+        { "target": "Ich hatte Zeit.", "es": "Tenía tiempo.", "note": "haben → hatte" },
+        { "target": "Ich konnte nicht kommen.", "es": "No pude venir.", "note": "können → konnte" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Sein y haben en Präteritum",
+      "headers": ["Persona", "sein", "haben"],
+      "rows": [
+        ["ich", "war", "hatte"],
+        ["du", "warst", "hattest"],
+        ["er / sie / es", "war", "hatte"],
+        ["wir", "waren", "hatten"],
+        ["ihr", "wart", "hattet"],
+        ["sie / Sie", "waren", "hatten"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los modales en Präteritum (ich)",
+      "headers": ["Infinitivo", "Präteritum (ich)"],
+      "rows": [
+        ["können", "konnte"],
+        ["müssen", "musste"],
+        ["wollen", "wollte"],
+        ["dürfen", "durfte"],
+        ["sollen", "sollte"]
+      ],
+      "note": "Los modales en Präteritum pierden el Umlaut que tenían en presente: kann → konnte, muss → musste, sin ä/ö/ü."
+    },
+    {
+      "type": "tip",
+      "body": "Memoriza war y hatte como las dos formas de pasado más útiles del alemán: las vas a usar constantemente para describir cómo te sentías o qué tenías, mucho más que sus formas de Perfekt."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "sein",
+      "es": "ser, estar",
+      "ipa": "/zaɪ̯n/",
+      "esApprox": "«zain»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich war müde.", "es": "Estaba cansado." }
+    },
+    {
+      "id": "v2",
+      "target": "haben",
+      "es": "tener",
+      "ipa": "/ˈhaːbn̩/",
+      "esApprox": "«HÁ-ben»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich hatte Zeit.", "es": "Tenía tiempo." }
+    },
+    {
+      "id": "v3",
+      "target": "können",
+      "es": "poder, saber",
+      "ipa": "/ˈkœnən/",
+      "esApprox": "«KÖ-nen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich konnte nicht kommen.", "es": "No pude venir." }
+    },
+    {
+      "id": "v4",
+      "target": "müssen",
+      "es": "deber, tener que",
+      "ipa": "/ˈmʏsən/",
+      "esApprox": "«MÜ-sen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich musste arbeiten.", "es": "Tuve que trabajar." }
+    },
+    {
+      "id": "v5",
+      "target": "wollen",
+      "es": "querer (directo)",
+      "ipa": "/ˈvɔlən/",
+      "esApprox": "«VO-len»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich wollte schwimmen.", "es": "Quería nadar." }
+    },
+    {
+      "id": "v6",
+      "target": "dürfen",
+      "es": "tener permiso, poder",
+      "ipa": "/ˈdʏʁfən/",
+      "esApprox": "«DÜR-fen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich durfte nicht rauchen.", "es": "No tenía permiso para fumar." }
+    },
+    {
+      "id": "v7",
+      "target": "sollen",
+      "es": "deber (indicación de otro)",
+      "ipa": "/ˈzɔlən/",
+      "esApprox": "«ZO-len»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich sollte pünktlich sein.", "es": "Se suponía que debía ser puntual." }
+    },
+    {
+      "id": "v8",
+      "target": "damals",
+      "es": "entonces, en aquella época",
+      "ipa": "/ˈdaːmaːls/",
+      "esApprox": "«DÁ-mals»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Damals war ich müde.", "es": "En aquella época estaba cansado." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["prateritum"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es el Präteritum de sein para «ich»?",
+      "options": ["bin", "war", "gewesen", "wart"],
+      "answer": 1,
+      "explain": "ich war."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el Präteritum de können para «ich»?",
+      "options": ["kann", "konnte", "gekonnt", "könnte"],
+      "answer": 1,
+      "explain": "ich konnte, sin Umlaut."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "statement": "Sein, haben y los modales se usan en Präteritum incluso al hablar.",
+      "answer": true,
+      "explain": "Es la gran excepción a la preferencia general por el Perfekt en el habla."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "statement": "Los modales en Präteritum mantienen el Umlaut del presente.",
+      "answer": false,
+      "explain": "Pierden el Umlaut: kann → konnte, sin ä/ö/ü."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas NO es Präteritum?",
+      "options": ["war", "hatte", "konnte", "gewesen"],
+      "answer": 3,
+      "explain": "gewesen es el participio (Perfekt), no el Präteritum."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "Une cada infinitivo con su Präteritum (ich)",
+      "left": ["sein", "haben", "können", "müssen"],
+      "right": ["hatte", "war", "musste", "konnte"],
+      "answer": [1, 0, 3, 2],
+      "explain": "war, hatte, konnte, musste: cuatro formas clave de Präteritum."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "Estaba cansado.",
+      "accept": ["Ich war müde"],
+      "hintWords": ["ich war müde"],
+      "strictAccents": false,
+      "audio": "Ich war müde.",
+      "explain": "ich war, Präteritum de sein."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "Tenía tiempo.",
+      "accept": ["Ich hatte Zeit"],
+      "hintWords": ["ich hatte Zeit"],
+      "strictAccents": false,
+      "audio": "Ich hatte Zeit.",
+      "explain": "ich hatte, Präteritum de haben."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta en Präteritum",
+      "text": "Ich ___ nicht kommen. (können) Ich ___ arbeiten. (müssen)",
+      "blanks": [{ "accept": ["konnte"] }, { "accept": ["musste"] }],
+      "bank": ["konnte", "musste", "kann"],
+      "explain": "konnte (können); musste (müssen), ambas sin Umlaut."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Quería nadar»",
+      "tokens": ["schwimmen", "Ich", "wollte"],
+      "answer": ["Ich", "wollte", "schwimmen"],
+      "audio": "Ich wollte schwimmen.",
+      "explain": "wollte (Präteritum) + schwimmen (infinitivo, final)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "Ich durfte nicht rauchen.",
+      "accept": ["No tenía permiso para fumar.", "No podía fumar."],
+      "strictAccents": false,
+      "audio": "Ich durfte nicht rauchen.",
+      "explain": "durfte: Präteritum de dürfen."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Warst du müde?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich war müde."], "hint": "responde que sí, que estabas cansado" },
+        { "who": "Anna", "text": "Ah, okay!", "speak": true }
+      ],
+      "explain": "warst (du) frente a war (ich): las dos formas de sein en Präteritum."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["prateritum"],
+      "difficulty": 1,
+      "speak": "Ich war müde.",
+      "mode": "write",
+      "accept": ["Ich war müde"],
+      "showTextAfter": true,
+      "explain": "Ich war müde = estaba cansado."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "speak": "Ich hatte Zeit.",
+      "mode": "choose",
+      "options": ["Ich hatte Zeit.", "Ich war Zeit.", "Ich habe Zeit."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "hatte, war y habe suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "speak": "Damals war ich müde, und ich hatte keine Zeit.",
+      "es": "En aquella época estaba cansado, y no tenía tiempo.",
+      "ipa": "/ˈdaːmaːls vaːɐ̯ ɪç ˈmyːdə ʊnt ɪç ˈhatə ˈkaɪ̯nə tsaɪ̯t/",
+      "esApprox": "«DÁ-mals var ich MÜ-de unt ich JA-te KAI-ne tsait»",
+      "focus": "war y hatte son las dos formas de pasado más frecuentes del alemán hablado.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "speak": "Ich konnte nicht kommen, weil ich musste arbeiten.",
+      "es": "No pude venir, porque tuve que trabajar.",
+      "ipa": "/ɪç ˈkɔntə nɪçt ˈkɔmən vaɪ̯l ɪç ˈmʊstə ˈaʁbaɪ̯tən/",
+      "esApprox": "«ich KON-te nicht KO-men, vail ich MUS-te AR-bai-ten»",
+      "focus": "konnte y musste: dos Präteritum de modales, sin Umlaut, con la terminación -te.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si estabas cansado. Responde que sí, que estabas cansado.",
+      "modelAnswer": "Ja, ich war müde.",
+      "alsoValid": ["Ich war müde."],
+      "speak": "Ja, ich war müde.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "conjugation",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "verb": "sein (Präteritum)",
+      "tense": "Präteritum",
+      "prompt": "Conjuga «sein» (ser/estar) en Präteritum",
+      "rows": [
+        { "person": "ich", "accept": ["war"] },
+        { "person": "du", "accept": ["warst"] },
+        { "person": "er / sie / es", "accept": ["war"] },
+        { "person": "wir", "accept": ["waren"] },
+        { "person": "ihr", "accept": ["wart"] },
+        { "person": "sie / Sie", "accept": ["waren"] }
+      ],
+      "explain": "ich y er/sie/es comparten war, sin terminación, igual que en presente comparten bin/ist su propio patrón."
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada forma: ¿es Präteritum o Perfekt (participio)?",
+      "buckets": ["Präteritum", "Perfekt (participio)"],
+      "items": [
+        { "text": "war", "bucket": 0 },
+        { "text": "gewesen", "bucket": 1 },
+        { "text": "hatte", "bucket": 0 },
+        { "text": "gehabt", "bucket": 1 },
+        { "text": "konnte", "bucket": 0 }
+      ],
+      "explain": "war, hatte y konnte son Präteritum; gewesen y gehabt son participios de Perfekt."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["prateritum"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich könnte nicht kommen.",
+      "accept": ["Ich konnte nicht kommen"],
+      "audio": "Ich konnte nicht kommen.",
+      "explain": "El Präteritum de können es konnte, sin Umlaut; könnte es una forma distinta (condicional), que no toca en esta clase."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "war", "es": "era, estaba (Präteritum de sein)", "esApprox": "«var»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "hatte", "es": "tenía (Präteritum de haben)", "esApprox": "«JA-te»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "konnte", "es": "podía, sabía (Präteritum de können)", "esApprox": "«KON-te»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "musste", "es": "tenía que (Präteritum de müssen)", "esApprox": "«MUS-te»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "wollte", "es": "quería (Präteritum de wollen)", "esApprox": "«VOL-te»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "damals", "es": "entonces, en aquella época", "esApprox": "«DÁ-mals»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Damals war ich müde, und ich hatte keine Zeit.", "es": "En aquella época estaba cansado, y no tenía tiempo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich konnte nicht kommen, weil ich musste arbeiten.", "es": "No pude venir, porque tuve que trabajar.", "from": "e16" }
+  ]
+}
