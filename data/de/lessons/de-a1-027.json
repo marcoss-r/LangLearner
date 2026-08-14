@@ -1,0 +1,329 @@
+{
+  "id": "de-a1-027",
+  "lang": "de",
+  "level": "A1",
+  "order": 27,
+  "title": "Los posesivos: mein, dein, sein, ihr…",
+  "objectives": [
+    "Aprender los posesivos alemanes: mein, dein, sein, ihr, unser, euer, ihr, Ihr",
+    "Aplicar la misma terminación que ein/eine según el género del sustantivo poseído, no del poseedor",
+    "Distinguir sein (de él) de ihr (de ella), que en español se traducen igual («su»)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los posesivos se comportan exactamente como ein",
+      "body": "Los posesivos alemanes (mein, dein, sein...) siguen las mismas terminaciones que ein/eine: sin terminación para masculino y neutro, con -e para femenino. Ojo con un matiz importante: esa terminación depende del género de lo que se posee, NO del género de quien posee. «Su perro» (de ella) es ihr Hund, sin -e, porque Hund es masculino, aunque quien posee sea una mujer.",
+      "examples": [
+        { "target": "mein Hund", "es": "mi perro", "note": "Hund es masculino → mein, sin -e" },
+        { "target": "meine Katze", "es": "mi gata", "note": "Katze es femenino → meine, con -e" },
+        { "target": "ihr Hund", "es": "su perro (de ella)", "note": "Hund sigue siendo masculino → ihr, sin -e, aunque la poseedora sea mujer" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los ocho posesivos",
+      "headers": ["Pronombre", "Posesivo"],
+      "rows": [
+        ["ich", "mein (mi)"],
+        ["du", "dein (tu)"],
+        ["er", "sein (su, de él)"],
+        ["sie", "ihr (su, de ella)"],
+        ["es", "sein (su, de ello)"],
+        ["wir", "unser (nuestro)"],
+        ["ihr", "euer (vuestro)"],
+        ["sie (ellos)", "ihr (su, de ellos)"],
+        ["Sie", "Ihr (su, formal)"]
+      ],
+      "note": "sein e ihr son las formas que más confusión generan: sein = de él/de ello; ihr = de ella/de ellos."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: el posesivo alemán no copia el género del poseedor, como en inglés",
+      "items": [
+        { "wrong": "pensar que ihr siempre lleva -e porque «ella» es femenina", "right": "ihr Hund (sin -e, porque Hund es masculino) frente a ihre Katze (con -e, porque Katze es femenino)", "why": "El posesivo concuerda con el género de lo poseído, exactamente igual que ein. El género de la persona que posee no influye en absoluto en la terminación." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para elegir la terminación correcta, ignora quién es el dueño y pregúntate solo: «¿de qué género es la cosa poseída?» Si es masculino o neutro, sin -e; si es femenino, con -e. Es la misma regla de ein/eine que ya conoces."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "mein",
+      "es": "mi",
+      "ipa": "/maɪ̯n/",
+      "esApprox": "«main»",
+      "pos": "posesivo",
+      "gender": null,
+      "example": { "target": "Das ist mein Hund.", "es": "Ese es mi perro." }
+    },
+    {
+      "id": "v2",
+      "target": "dein",
+      "es": "tu",
+      "ipa": "/daɪ̯n/",
+      "esApprox": "«dain»",
+      "pos": "posesivo",
+      "gender": null,
+      "example": { "target": "Ist das dein Buch?", "es": "¿Es ese tu libro?" }
+    },
+    {
+      "id": "v3",
+      "target": "sein",
+      "es": "su (de él, de ello)",
+      "ipa": "/zaɪ̯n/",
+      "esApprox": "«zain»",
+      "pos": "posesivo",
+      "gender": null,
+      "example": { "target": "Das ist sein Haus.", "es": "Esa es su casa (de él)." }
+    },
+    {
+      "id": "v4",
+      "target": "ihr",
+      "es": "su (de ella, de ellos)",
+      "ipa": "/iːɐ̯/",
+      "esApprox": "«ir»",
+      "pos": "posesivo",
+      "gender": null,
+      "example": { "target": "Das ist ihr Haus.", "es": "Esa es su casa (de ella)." }
+    },
+    {
+      "id": "v5",
+      "target": "unser",
+      "es": "nuestro",
+      "ipa": "/ˈʊnzɐ/",
+      "esApprox": "«UN-zer»",
+      "pos": "posesivo",
+      "gender": null,
+      "example": { "target": "Das ist unser Auto.", "es": "Ese es nuestro coche." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["posesivos"],
+      "difficulty": 1,
+      "prompt": "¿Qué posesivo corresponde a «ich»?",
+      "options": ["dein", "mein", "sein", "unser"],
+      "answer": 1,
+      "explain": "ich → mein."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["posesivos"],
+      "difficulty": 1,
+      "prompt": "¿Qué posesivo corresponde a «er»?",
+      "options": ["ihr", "sein", "dein", "unser"],
+      "answer": 1,
+      "explain": "er → sein (de él)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "statement": "La terminación del posesivo depende del género del sustantivo poseído, no del poseedor.",
+      "answer": true,
+      "explain": "ihr Hund (sin -e) frente a ihre Katze (con -e): depende de Hund/Katze, no de «ella»."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["posesivos"],
+      "difficulty": 1,
+      "statement": "Sein siempre significa «de ella» (su, femenino).",
+      "answer": false,
+      "explain": "Sein significa «de él» o «de ello»; «de ella» es ihr."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos posesivos NO existe en alemán?",
+      "options": ["mein", "dein", "sein", "eren"],
+      "answer": 3,
+      "explain": "eren no es un posesivo alemán."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Une cada pronombre con su posesivo",
+      "left": ["ich", "du", "wir", "sie (ellos)"],
+      "right": ["unser", "mein", "dein", "ihr"],
+      "answer": [1, 2, 0, 3],
+      "explain": "mein, dein, unser, ihr: cuatro posesivos clave."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Mi perro",
+      "accept": ["mein Hund"],
+      "hintWords": ["mein Hund"],
+      "strictAccents": false,
+      "audio": "mein Hund",
+      "explain": "Hund es masculino: mein, sin -e."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Su casa (de él)",
+      "accept": ["sein Haus"],
+      "hintWords": ["sein Haus"],
+      "strictAccents": false,
+      "audio": "sein Haus",
+      "explain": "Haus es neutro: sein, sin -e."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Completa con el posesivo correcto",
+      "text": "Das ist ___ Hund. (mi) Das ist ___ Katze. (su, de ella)",
+      "blanks": [{ "accept": ["mein"] }, { "accept": ["ihre"] }],
+      "bank": ["mein", "ihre", "sein"],
+      "explain": "mein sin -e (Hund, masculino); ihre con -e (Katze, femenino)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["posesivos"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «Ese es mi libro»",
+      "tokens": ["Buch", "Das", "mein", "ist"],
+      "answer": ["Das", "ist", "mein", "Buch"],
+      "audio": "Das ist mein Buch.",
+      "explain": "Das ist + posesivo + sustantivo."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["posesivos"],
+      "difficulty": 1,
+      "prompt": "Das ist unser Haus.",
+      "accept": ["Esa es nuestra casa."],
+      "strictAccents": false,
+      "audio": "Das ist unser Haus.",
+      "explain": "unser Haus: Haus es neutro, sin -e."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Ist das dein Hund?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, das ist mein Hund."], "hint": "responde que sí, que es tu perro" },
+        { "who": "Anna", "text": "Wie süß!", "speak": true }
+      ],
+      "explain": "dein en la pregunta, mein en la respuesta: los dos sin -e, porque Hund es masculino."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["posesivos"],
+      "difficulty": 1,
+      "speak": "Das ist mein Hund.",
+      "mode": "write",
+      "accept": ["Das ist mein Hund"],
+      "showTextAfter": true,
+      "explain": "Das ist mein Hund = ese es mi perro."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "speak": "Das ist sein Haus.",
+      "mode": "choose",
+      "options": ["Das ist sein Haus.", "Das ist ihr Haus.", "Das ist unser Haus."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "sein, ihr y unser suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "speak": "Das ist mein Hund, und das ist deine Katze.",
+      "es": "Ese es mi perro, y esa es tu gata.",
+      "ipa": "/das ɪst maɪ̯n hʊnt ʊnt das ɪst ˈdaɪ̯nə ˈkatsə/",
+      "esApprox": "«das ist main junt unt das ist DAI-ne KAT-se»",
+      "focus": "mein (sin -e) para Hund, masculino; deine (con -e) para Katze, femenino.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "speak": "Das ist ihr Haus, und das ist unser Auto.",
+      "es": "Esa es su casa (de ella), y ese es nuestro coche.",
+      "ipa": "/das ɪst iːɐ̯ haʊ̯s ʊnt das ɪst ˈʊnzɐ ˈaʊ̯to/",
+      "esApprox": "«das ist ir jaus unt das ist UN-zer AU-to»",
+      "focus": "ihr suena «ir», muy distinto de er: no los confundas de oído.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si ese es tu libro. Responde que sí, que es tu libro.",
+      "modelAnswer": "Ja, das ist mein Buch.",
+      "alsoValid": ["Das ist mein Buch."],
+      "speak": "Ja, das ist mein Buch.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada posesivo + sustantivo: ¿lleva -e o no?",
+      "buckets": ["Sin -e (masculino/neutro)", "Con -e (femenino)"],
+      "items": [
+        { "text": "mein Hund", "bucket": 0 },
+        { "text": "meine Katze", "bucket": 1 },
+        { "text": "mein Buch", "bucket": 0 },
+        { "text": "deine Blume", "bucket": 1 }
+      ],
+      "explain": "La -e aparece solo delante de un sustantivo femenino."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["posesivos"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Das ist meine Hund.",
+      "accept": ["Das ist mein Hund"],
+      "audio": "Das ist mein Hund.",
+      "explain": "Hund es masculino, así que el posesivo va sin -e: mein, no meine."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "mein", "es": "mi", "esApprox": "«main»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "dein", "es": "tu", "esApprox": "«dain»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "sein", "es": "su (de él, de ello)", "esApprox": "«zain»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "ihr", "es": "su (de ella, de ellos)", "esApprox": "«ir»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "unser", "es": "nuestro", "esApprox": "«UN-zer»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Das ist mein Hund, und das ist deine Katze.", "es": "Ese es mi perro, y esa es tu gata.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Das ist ihr Haus, und das ist unser Auto.", "es": "Esa es su casa (de ella), y ese es nuestro coche.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Das ist mein Buch.", "es": "Ese es mi libro.", "from": "e17" }
+  ]
+}

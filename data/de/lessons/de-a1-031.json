@@ -1,0 +1,375 @@
+{
+  "id": "de-a1-031",
+  "lang": "de",
+  "level": "A1",
+  "order": 31,
+  "title": "La hora, formal e informal",
+  "objectives": [
+    "Preguntar la hora: Wie spät ist es? / Wie viel Uhr ist es?",
+    "Decir la hora en el sistema formal (reloj de 24 horas) y en el informal (coloquial)",
+    "Dominar la trampa de halb: halb acht significa las siete y media, no las ocho y media"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos sistemas para decir la hora",
+      "body": "El alemán usa un sistema formal, con el reloj de 24 horas (como en los horarios de trenes), y otro informal, coloquial, muy parecido al «y cuarto / y media / menos cuarto» del español, con una trampa importante: halb (medio) no se refiere a la hora que acaba de pasar, sino a la que va a llegar. Halb acht es «medio camino hacia las ocho», es decir, las siete y media, no las ocho y media.",
+      "examples": [
+        { "target": "Es ist sieben Uhr.", "es": "Son las siete.", "note": "hora en punto" },
+        { "target": "Es ist halb acht.", "es": "Son las siete y media.", "note": "halb + LA HORA SIGUIENTE, no la anterior" },
+        { "target": "Es ist Viertel nach sieben.", "es": "Son las siete y cuarto.", "note": "Viertel nach = y cuarto" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Formal vs. informal",
+      "headers": ["Hora", "Formal (24h)", "Informal"],
+      "rows": [
+        ["7:00", "sieben Uhr", "sieben"],
+        ["7:15", "sieben Uhr fünfzehn", "Viertel nach sieben"],
+        ["7:30", "sieben Uhr dreißig", "halb acht"],
+        ["7:45", "sieben Uhr fünfundvierzig", "Viertel vor acht"]
+      ],
+      "note": "Fíjate en la fila de las 7:30: en informal se dice «halb ACHT» (mirando hacia la hora siguiente), nunca «halb sieben»."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: halb acht NO es las ocho y media",
+      "items": [
+        { "wrong": "halb acht = las ocho y media (traduciendo literalmente «medio ocho»)", "right": "halb acht = las siete y media", "why": "El alemán piensa en halb como «a mitad de camino hacia» la hora que menciona. Halb acht es la mitad del camino entre las siete y las ocho, es decir, las siete y media. Es la trampa más famosa de la hora en alemán." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Wie spät ist es? y Wie viel Uhr ist es? significan exactamente lo mismo: ¿qué hora es? Usa la que te resulte más fácil de recordar."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "die Uhr",
+      "es": "la hora; el reloj",
+      "ipa": "/uːɐ̯/",
+      "esApprox": "«ur»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Uhren",
+      "example": { "target": "Wie viel Uhr ist es?", "es": "¿Qué hora es?" }
+    },
+    {
+      "id": "v2",
+      "target": "die Minute",
+      "es": "el minuto",
+      "ipa": "/miˈnuːtə/",
+      "esApprox": "«mi-NÚ-te»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Minuten",
+      "example": { "target": "Eine Stunde hat sechzig Minuten.", "es": "Una hora tiene sesenta minutos." }
+    },
+    {
+      "id": "v3",
+      "target": "Viertel",
+      "es": "cuarto",
+      "ipa": "/ˈfɪʁtl̩/",
+      "esApprox": "«FIR-tel»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Es ist Viertel nach sieben.", "es": "Son las siete y cuarto." }
+    },
+    {
+      "id": "v4",
+      "target": "halb",
+      "es": "medio, mitad",
+      "ipa": "/halp/",
+      "esApprox": "«jalp»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Es ist halb acht.", "es": "Son las siete y media." }
+    },
+    {
+      "id": "v5",
+      "target": "Wie spät ist es?",
+      "es": "¿qué hora es?",
+      "ipa": "/viː ʃpɛːt ɪst ɛs/",
+      "esApprox": "«vi shpet ist es»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Entschuldigung, wie spät ist es?", "es": "Perdón, ¿qué hora es?" }
+    },
+    {
+      "id": "v6",
+      "target": "um",
+      "es": "a (las), a la hora de",
+      "ipa": "/ʊm/",
+      "esApprox": "«um»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Um sieben Uhr stehe ich auf.", "es": "Me levanto a las siete." }
+    },
+    {
+      "id": "v7",
+      "target": "der Mittag",
+      "es": "el mediodía",
+      "ipa": "/ˈmɪtaːk/",
+      "esApprox": "«MI-tak»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Mittage",
+      "example": { "target": "Es ist zwölf Uhr Mittag.", "es": "Son las doce del mediodía." }
+    },
+    {
+      "id": "v8",
+      "target": "die Mitternacht",
+      "es": "la medianoche",
+      "ipa": "/ˈmɪtɐˌnaxt/",
+      "esApprox": "«MI-ter-najt», con ach-Laut»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": null,
+      "example": { "target": "Es ist Mitternacht.", "es": "Es medianoche." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «halb acht» en alemán?",
+      "options": ["las ocho y media", "las siete y media", "las ocho menos cuarto", "las ocho en punto"],
+      "answer": 1,
+      "explain": "halb acht = a mitad de camino hacia las ocho = las siete y media."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["hora"],
+      "difficulty": 1,
+      "prompt": "¿Cómo preguntas la hora en alemán?",
+      "options": ["Wie alt bist du?", "Wie spät ist es?", "Wo ist die Uhr?", "Wann bist du?"],
+      "answer": 1,
+      "explain": "Wie spät ist es? = ¿qué hora es?"
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["hora"],
+      "difficulty": 1,
+      "statement": "El sistema formal de la hora en alemán usa el reloj de 24 horas.",
+      "answer": true,
+      "explain": "El sistema formal, como en los horarios de trenes, usa 0 a 24."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "statement": "«Viertel nach sieben» significa las siete menos cuarto.",
+      "answer": false,
+      "explain": "Viertel nach sieben significa las siete Y cuarto; «menos cuarto» es Viertel vor."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones NO se refiere a las 7:30?",
+      "options": ["halb acht", "sieben Uhr dreißig", "Viertel nach sieben", "7:30 Uhr"],
+      "answer": 2,
+      "explain": "Viertel nach sieben son las 7:15, no las 7:30."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Une cada hora formal con su equivalente informal",
+      "left": ["sieben Uhr", "sieben Uhr dreißig", "sieben Uhr fünfzehn", "sieben Uhr fünfundvierzig"],
+      "right": ["Viertel vor acht", "sieben", "halb acht", "Viertel nach sieben"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Cuatro formas informales de decir la hora, cada una con su versión formal."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["hora"],
+      "difficulty": 1,
+      "prompt": "¿Qué hora es?",
+      "accept": ["Wie spät ist es?"],
+      "hintWords": ["wie spät ist es"],
+      "strictAccents": false,
+      "audio": "Wie spät ist es?",
+      "explain": "Wie spät ist es? = ¿qué hora es?"
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Son las siete y media.",
+      "accept": ["Es ist halb acht"],
+      "hintWords": ["es ist halb acht"],
+      "strictAccents": false,
+      "audio": "Es ist halb acht.",
+      "explain": "«Las siete y media» se dice halb ACHT, mirando hacia la hora siguiente."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Es ist ___ acht. Es ist Viertel ___ sieben.",
+      "blanks": [{ "accept": ["halb"] }, { "accept": ["nach"] }],
+      "bank": ["halb", "nach", "vor"],
+      "explain": "halb acht (siete y media); Viertel nach sieben (siete y cuarto)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["hora"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «Son las siete»",
+      "tokens": ["sieben", "ist", "Es"],
+      "answer": ["Es", "ist", "sieben"],
+      "audio": "Es ist sieben.",
+      "explain": "Es + ist + la hora."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Es ist Viertel vor acht.",
+      "accept": ["Son las ocho menos cuarto."],
+      "strictAccents": false,
+      "audio": "Es ist Viertel vor acht.",
+      "explain": "Viertel vor = menos cuarto."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Wie spät ist es?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Es ist halb acht."], "hint": "responde que son las siete y media (halb acht)" },
+        { "who": "Anna", "text": "Danke!", "speak": true }
+      ],
+      "explain": "halb acht = las siete y media, no las ocho y media."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "speak": "Es ist halb acht.",
+      "mode": "write",
+      "accept": ["Es ist halb acht"],
+      "showTextAfter": true,
+      "explain": "Es ist halb acht = son las siete y media."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "speak": "Es ist Viertel nach sieben.",
+      "mode": "choose",
+      "options": ["Es ist Viertel nach sieben.", "Es ist Viertel vor sieben.", "Es ist halb sieben."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "nach, vor y halb dan resultados muy distintos: hay que distinguirlos bien de oído."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "speak": "Es ist halb acht. Wir haben Zeit.",
+      "es": "Son las siete y media. Tenemos tiempo.",
+      "ipa": "/ɛs ɪst halp axt viːɐ̯ ˈhaːbən tsaɪ̯t/",
+      "esApprox": "«es ist jalp ajt, vir HÁ-ben tsait»",
+      "focus": "halb acht: acuérdate de que apunta hacia las ocho, aunque sean las siete y media.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "speak": "Um sieben Uhr stehe ich auf.",
+      "es": "Me levanto a las siete.",
+      "ipa": "/ʊm ˈziːbən uːɐ̯ ˈʃteːə ɪç aʊ̯f/",
+      "esApprox": "«um ZÍ-ben ur SHTÉ-e ich auf»",
+      "focus": "um + hora es la estructura fija para decir «a las...»; aufstehen sigue separándose, con auf al final.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Te preguntan qué hora es. Responde que son las siete y cuarto.",
+      "modelAnswer": "Es ist Viertel nach sieben.",
+      "alsoValid": ["Viertel nach sieben."],
+      "speak": "Es ist Viertel nach sieben.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada expresión: ¿formal o informal?",
+      "buckets": ["Formal (24h)", "Informal"],
+      "items": [
+        { "text": "sieben Uhr dreißig", "bucket": 0 },
+        { "text": "halb acht", "bucket": 1 },
+        { "text": "vierzehn Uhr", "bucket": 0 },
+        { "text": "Viertel nach sieben", "bucket": 1 }
+      ],
+      "explain": "El sistema formal usa números; el informal usa halb, Viertel, nach y vor."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Es ist halb sieben, das heißt 7:30.",
+      "accept": ["Es ist halb acht, das heißt 7:30"],
+      "audio": "Es ist halb acht, das heißt 7:30.",
+      "explain": "Las 7:30 se dicen halb ACHT (hacia las ocho), nunca halb sieben."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Uhr", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Minute", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Mittag", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Mitternacht", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" }
+      ],
+      "explain": "Uhr, Minute y Mitternacht son femeninas; Mittag es masculino."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Uhr", "es": "la hora; el reloj", "esApprox": "«ur»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Minute", "es": "el minuto", "esApprox": "«mi-NÚ-te»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "Viertel", "es": "cuarto", "esApprox": "«FIR-tel»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "halb", "es": "medio, mitad", "esApprox": "«jalp»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "Wie spät ist es?", "es": "¿qué hora es?", "esApprox": "«vi shpet ist es»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "um", "es": "a (las)", "esApprox": "«um»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "der Mittag", "es": "el mediodía", "esApprox": "«MI-tak»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "die Mitternacht", "es": "la medianoche", "esApprox": "«MI-ter-najt»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Es ist halb acht. Wir haben Zeit.", "es": "Son las siete y media. Tenemos tiempo.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Um sieben Uhr stehe ich auf.", "es": "Me levanto a las siete.", "from": "e16" }
+  ]
+}

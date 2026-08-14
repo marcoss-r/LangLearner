@@ -1,0 +1,376 @@
+{
+  "id": "de-a1-034",
+  "lang": "de",
+  "level": "A1",
+  "order": 34,
+  "title": "La familia",
+  "objectives": [
+    "Aprender el vocabulario básico de la familia: Bruder, Schwester, Sohn, Tochter, Großeltern",
+    "Combinar los posesivos (clase 27) con los miembros de la familia",
+    "Reconocer die Eltern y die Geschwister, dos palabras que solo existen en plural"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La familia: el terreno perfecto para practicar los posesivos",
+      "body": "Hablar de la familia es una forma estupenda de repasar los posesivos de la clase 27, porque casi siempre dices «mi hermano» o «su abuela», nunca «el hermano» a secas. Recuerda: la terminación del posesivo depende del género de la persona nombrada, no de quién habla.",
+      "examples": [
+        { "target": "mein Bruder", "es": "mi hermano", "note": "Bruder es masculino → mein, sin -e" },
+        { "target": "meine Schwester", "es": "mi hermana", "note": "Schwester es femenino → meine, con -e" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El vocabulario de la familia",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["der Vater", "el padre"],
+        ["die Mutter", "la madre"],
+        ["der Bruder", "el hermano"],
+        ["die Schwester", "la hermana"],
+        ["der Sohn", "el hijo"],
+        ["die Tochter", "la hija"],
+        ["der Großvater", "el abuelo"],
+        ["die Großmutter", "la abuela"],
+        ["die Eltern", "los padres (siempre plural)"],
+        ["die Geschwister", "los hermanos, sin distinguir sexo (siempre plural)"]
+      ],
+      "note": "Eltern y Geschwister no tienen forma en singular con ese significado: son palabras que solo existen en plural."
+    },
+    {
+      "type": "tip",
+      "body": "Die Geschwister es muy útil porque no distingue sexo: sirve tanto si tienes solo hermanos, solo hermanas, o de los dos. «Hast du Geschwister?» es la forma más natural de preguntar si alguien tiene hermanos."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "der Bruder",
+      "es": "el hermano",
+      "ipa": "/ˈbʁuːdɐ/",
+      "esApprox": "«BRÚ-der»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Brüder",
+      "example": { "target": "Das ist mein Bruder.", "es": "Ese es mi hermano." }
+    },
+    {
+      "id": "v2",
+      "target": "die Schwester",
+      "es": "la hermana",
+      "ipa": "/ˈʃvɛstɐ/",
+      "esApprox": "«SHVES-ter»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Schwestern",
+      "example": { "target": "Das ist meine Schwester.", "es": "Esa es mi hermana." }
+    },
+    {
+      "id": "v3",
+      "target": "der Sohn",
+      "es": "el hijo",
+      "ipa": "/zoːn/",
+      "esApprox": "«zon»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Söhne",
+      "example": { "target": "Das ist mein Sohn.", "es": "Ese es mi hijo." }
+    },
+    {
+      "id": "v4",
+      "target": "die Tochter",
+      "es": "la hija",
+      "ipa": "/ˈtɔxtɐ/",
+      "esApprox": "«TOJ-ter», con ach-Laut",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Töchter",
+      "example": { "target": "Das ist meine Tochter.", "es": "Esa es mi hija." }
+    },
+    {
+      "id": "v5",
+      "target": "die Eltern",
+      "es": "los padres",
+      "ipa": "/ˈɛltɐn/",
+      "esApprox": "«EL-tern»",
+      "pos": "sustantivo (plural)",
+      "gender": null,
+      "example": { "target": "Das sind meine Eltern.", "es": "Esos son mis padres." }
+    },
+    {
+      "id": "v6",
+      "target": "die Geschwister",
+      "es": "los hermanos (sin distinguir sexo)",
+      "ipa": "/ɡəˈʃvɪstɐ/",
+      "esApprox": "«gue-SHVIS-ter»",
+      "pos": "sustantivo (plural)",
+      "gender": null,
+      "example": { "target": "Hast du Geschwister?", "es": "¿Tienes hermanos?" }
+    },
+    {
+      "id": "v7",
+      "target": "der Großvater",
+      "es": "el abuelo",
+      "ipa": "/ˈɡʁoːsˌfaːtɐ/",
+      "esApprox": "«GRÓS-fa-ter»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Großväter",
+      "example": { "target": "Mein Großvater ist müde.", "es": "Mi abuelo está cansado." }
+    },
+    {
+      "id": "v8",
+      "target": "die Großmutter",
+      "es": "la abuela",
+      "ipa": "/ˈɡʁoːsˌmʊtɐ/",
+      "esApprox": "«GRÓS-mu-ter»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Großmütter",
+      "example": { "target": "Meine Großmutter ist glücklich.", "es": "Mi abuela está feliz." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["familia"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «hermano» en alemán?",
+      "options": ["Schwester", "Bruder", "Sohn", "Tochter"],
+      "answer": 1,
+      "explain": "der Bruder = el hermano."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["familia"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «die Eltern»?",
+      "options": ["los hermanos", "los padres", "los abuelos", "los hijos"],
+      "answer": 1,
+      "explain": "die Eltern = los padres, siempre en plural."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["familia"],
+      "difficulty": 1,
+      "statement": "Die Tochter significa «la hija».",
+      "answer": true,
+      "explain": "die Tochter = la hija."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["familia"],
+      "difficulty": 1,
+      "statement": "Der Sohn significa «la hija».",
+      "answer": false,
+      "explain": "Der Sohn significa «el hijo»; «la hija» es die Tochter."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["familia"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas palabras NO es un miembro de la familia?",
+      "options": ["Bruder", "Schwester", "Zeitung", "Tochter"],
+      "answer": 2,
+      "explain": "Zeitung significa periódico, no es un familiar."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["familia"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["Bruder", "Schwester", "Großvater", "Großmutter"],
+      "right": ["abuela", "hermano", "abuelo", "hermana"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Cuatro miembros de la familia."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "prompt": "Mi hermano",
+      "accept": ["mein Bruder"],
+      "hintWords": ["mein Bruder"],
+      "strictAccents": false,
+      "audio": "mein Bruder",
+      "explain": "Bruder es masculino: mein, sin -e."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "prompt": "Mi hermana",
+      "accept": ["meine Schwester"],
+      "hintWords": ["meine Schwester"],
+      "strictAccents": false,
+      "audio": "meine Schwester",
+      "explain": "Schwester es femenino: meine, con -e."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "prompt": "Completa con el posesivo correcto",
+      "text": "Das ist ___ Bruder. Das ist ___ Schwester.",
+      "blanks": [{ "accept": ["mein"] }, { "accept": ["meine"] }],
+      "bank": ["mein", "meine", "sein"],
+      "explain": "mein sin -e (Bruder, masculino); meine con -e (Schwester, femenino)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["familia"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «Ese es mi hijo»",
+      "tokens": ["Sohn", "Das", "mein", "ist"],
+      "answer": ["Das", "ist", "mein", "Sohn"],
+      "audio": "Das ist mein Sohn.",
+      "explain": "Das ist + mein Sohn."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["familia"],
+      "difficulty": 1,
+      "prompt": "Das sind meine Eltern.",
+      "accept": ["Esos son mis padres."],
+      "strictAccents": false,
+      "audio": "Das sind meine Eltern.",
+      "explain": "meine Eltern: Eltern es plural, así que el posesivo también va en plural."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du Geschwister?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich habe einen Bruder."], "hint": "responde que sí, que tienes un hermano" },
+        { "who": "Anna", "text": "Wie schön!", "speak": true }
+      ],
+      "explain": "einen Bruder: Bruder es masculino, así que ein cambia a einen en acusativo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["familia"],
+      "difficulty": 1,
+      "speak": "Das ist mein Bruder.",
+      "mode": "write",
+      "accept": ["Das ist mein Bruder"],
+      "showTextAfter": true,
+      "explain": "Das ist mein Bruder = ese es mi hermano."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "speak": "Das ist meine Schwester.",
+      "mode": "choose",
+      "options": ["Das ist meine Schwester.", "Das ist mein Bruder.", "Das ist meine Tochter."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Schwester, Bruder y Tochter suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "speak": "Das ist mein Bruder, und das ist meine Schwester.",
+      "es": "Ese es mi hermano, y esa es mi hermana.",
+      "ipa": "/das ɪst maɪ̯n ˈbʁuːdɐ ʊnt das ɪst ˈmaɪ̯nə ˈʃvɛstɐ/",
+      "esApprox": "«das ist main BRÚ-der unt das ist MAI-ne SHVES-ter»",
+      "focus": "mein (sin -e) frente a meine (con -e): la diferencia clave según el género del familiar.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "speak": "Meine Großmutter und mein Großvater sind glücklich.",
+      "es": "Mi abuela y mi abuelo están felices.",
+      "ipa": "/ˈmaɪ̯nə ˈɡʁoːsˌmʊtɐ ʊnt maɪ̯n ˈɡʁoːsˌfaːtɐ zɪnt ˈɡlʏklɪç/",
+      "esApprox": "«MAI-ne GRÓS-mu-ter unt main GRÓS-fa-ter zint GLÜK-lich»",
+      "focus": "Groß- se pronuncia con la o larga y la ß como una s fuerte, en las dos palabras.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si tienes hermanos. Responde que sí, que tienes una hermana.",
+      "modelAnswer": "Ja, ich habe eine Schwester.",
+      "alsoValid": ["Ich habe eine Schwester."],
+      "speak": "Ja, ich habe eine Schwester.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada familiar según su género",
+      "buckets": ["der", "die"],
+      "items": [
+        { "text": "Bruder", "bucket": 0 },
+        { "text": "Schwester", "bucket": 1 },
+        { "text": "Sohn", "bucket": 0 },
+        { "text": "Tochter", "bucket": 1 },
+        { "text": "Großvater", "bucket": 0 },
+        { "text": "Großmutter", "bucket": 1 }
+      ],
+      "explain": "Los familiares masculinos con der, los femeninos con die."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Das ist meine Bruder.",
+      "accept": ["Das ist mein Bruder"],
+      "audio": "Das ist mein Bruder.",
+      "explain": "Bruder es masculino, así que el posesivo va sin -e: mein, no meine."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["familia"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Bruder", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Schwester", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Sohn", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Tochter", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" }
+      ],
+      "explain": "Bruder y Sohn son masculinos; Schwester y Tochter, femeninos."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Bruder", "es": "el hermano", "esApprox": "«BRÚ-der»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Schwester", "es": "la hermana", "esApprox": "«SHVES-ter»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Sohn", "es": "el hijo", "esApprox": "«zon»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Tochter", "es": "la hija", "esApprox": "«TOJ-ter»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Eltern", "es": "los padres", "esApprox": "«EL-tern»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Geschwister", "es": "los hermanos", "esApprox": "«gue-SHVIS-ter»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "der Großvater", "es": "el abuelo", "esApprox": "«GRÓS-fa-ter»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "die Großmutter", "es": "la abuela", "esApprox": "«GRÓS-mu-ter»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Das ist mein Bruder, und das ist meine Schwester.", "es": "Ese es mi hermano, y esa es mi hermana.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Meine Großmutter und mein Großvater sind glücklich.", "es": "Mi abuela y mi abuelo están felices.", "from": "e16" }
+  ]
+}

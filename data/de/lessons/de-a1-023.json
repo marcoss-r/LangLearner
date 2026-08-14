@@ -1,0 +1,329 @@
+{
+  "id": "de-a1-023",
+  "lang": "de",
+  "level": "A1",
+  "order": 23,
+  "title": "El nominativo: quién hace la acción",
+  "objectives": [
+    "Entender qué es un caso gramatical y por qué el alemán lo marca en el artículo, a diferencia del español",
+    "Identificar el nominativo como el caso del sujeto: quién hace la acción",
+    "Reconocer que todo el der/die/das y ein/eine aprendidos hasta ahora ya estaban en nominativo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un caso es la función de un sustantivo, marcada en su artículo",
+      "body": "El español distingue quién hace la acción y quién la recibe sobre todo por el orden de las palabras: «El perro ve al gato» no es lo mismo que «El gato ve al perro». El alemán, en cambio, tiene bastante más libertad de orden porque marca esa información directamente en el artículo: son los llamados casos. Hay cuatro: Nominativ (sujeto), Akkusativ (objeto directo), Dativ (objeto indirecto) y Genitiv (posesión). Empezamos por el más fácil, porque ya lo conoces: el Nominativ es el caso del sujeto, y es exactamente el der/die/das y ein/eine que llevas usando desde la clase 1.",
+      "examples": [
+        { "target": "Der Hund ist müde.", "es": "El perro está cansado.", "note": "der Hund = sujeto → Nominativ" },
+        { "target": "Die Katze ist schön.", "es": "El gato es bonito.", "note": "die Katze = sujeto → Nominativ" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El nominativo: exactamente lo que ya sabes",
+      "headers": ["Género", "Definido", "Indefinido"],
+      "rows": [
+        ["masculino", "der", "ein"],
+        ["femenino", "die", "eine"],
+        ["neutro", "das", "ein"],
+        ["plural", "die", "(sin artículo)"]
+      ],
+      "note": "No hay nada nuevo que memorizar aquí: es la misma tabla de las clases 1 a 17, ahora con nombre propio: Nominativ."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: en la próxima clase, esta tabla va a cambiar",
+      "items": [
+        { "wrong": "pensar que der/die/das son siempre iguales, en cualquier función de la frase", "right": "der Hund (sujeto, Nominativ) frente a den Hund (objeto directo, Akkusativ)", "why": "El nominativo es solo uno de los cuatro casos. En la próxima clase verás que, cuando un sustantivo masculino deja de ser sujeto y pasa a ser objeto directo, der cambia a den. Es la primera vez que el artículo cambia de forma según su función." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para identificar el nominativo, pregúntate «¿quién o qué hace la acción?». La respuesta a esa pregunta es siempre el sujeto, y va en Nominativ."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "der Fall",
+      "es": "el caso (gramatical)",
+      "ipa": "/fal/",
+      "esApprox": "«fal»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Fälle",
+      "example": { "target": "Der Nominativ ist ein Fall.", "es": "El nominativo es un caso." }
+    },
+    {
+      "id": "v2",
+      "target": "das Subjekt",
+      "es": "el sujeto",
+      "ipa": "/zʊpˈjɛkt/",
+      "esApprox": "«zup-YEKT»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Subjekte",
+      "example": { "target": "Der Hund ist das Subjekt.", "es": "El perro es el sujeto." }
+    },
+    {
+      "id": "v3",
+      "target": "die Handlung",
+      "es": "la acción",
+      "ipa": "/ˈhandlʊŋ/",
+      "esApprox": "«JAND-lung»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Handlungen",
+      "example": { "target": "Die Katze macht die Handlung.", "es": "El gato hace la acción." }
+    },
+    {
+      "id": "v4",
+      "target": "der Nominativ",
+      "es": "el nominativo",
+      "ipa": "/ˈnoːminatiːf/",
+      "esApprox": "«NÓ-mi-na-tif»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Nominative",
+      "example": { "target": "Der Nominativ ist der erste Fall.", "es": "El nominativo es el primer caso." }
+    },
+    {
+      "id": "v5",
+      "target": "der Akkusativ",
+      "es": "el acusativo",
+      "ipa": "/ˈakuzatiːf/",
+      "esApprox": "«A-ku-za-tif»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Akkusative",
+      "example": { "target": "Der Akkusativ kommt in der nächsten Klasse.", "es": "El acusativo llega en la próxima clase." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["casos"],
+      "difficulty": 2,
+      "prompt": "¿Qué es un «caso» gramatical en alemán?",
+      "options": ["Un tiempo verbal", "La función del sustantivo en la frase, marcada en el artículo", "Un tipo de pregunta", "Un dialecto regional"],
+      "answer": 1,
+      "explain": "Un caso marca si un sustantivo es sujeto, objeto directo, indirecto o posesor, cambiando su artículo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["nominativo"],
+      "difficulty": 1,
+      "prompt": "¿Qué caso corresponde al sujeto, quien hace la acción?",
+      "options": ["Akkusativ", "Nominativ", "Dativ", "Genitiv"],
+      "answer": 1,
+      "explain": "Nominativ es el caso del sujeto."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["casos"],
+      "difficulty": 1,
+      "statement": "El español también marca los casos en el artículo, igual que el alemán.",
+      "answer": false,
+      "explain": "El español usa sobre todo el orden de palabras; el alemán marca la función directamente en el artículo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["nominativo"],
+      "difficulty": 1,
+      "statement": "Todo lo que has aprendido hasta ahora (der Hund, die Katze, das Haus como sujetos) ya estaba en nominativo.",
+      "answer": true,
+      "explain": "Todos los sujetos de las clases 1 a 22 estaban en Nominativ, aunque no tuviera nombre todavía."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["nominativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases NO tiene el sustantivo destacado en nominativo (sujeto)?",
+      "options": ["Der Hund ist müde.", "Die Katze ist schön.", "Ich sehe den Hund.", "Das Haus ist modern."],
+      "answer": 2,
+      "explain": "En «Ich sehe den Hund», den Hund es el objeto directo (Akkusativ), no el sujeto: lo verás en la próxima clase."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["casos"],
+      "difficulty": 2,
+      "prompt": "Une cada término con su significado",
+      "left": ["der Fall", "das Subjekt", "die Handlung", "der Nominativ"],
+      "right": ["el caso", "el sujeto", "la acción", "el nominativo"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro palabras clave para entender el sistema de casos."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["casos"],
+      "difficulty": 2,
+      "prompt": "El caso",
+      "accept": ["der Fall"],
+      "hintWords": ["der Fall"],
+      "strictAccents": false,
+      "audio": "der Fall",
+      "explain": "Fall es masculino: der Fall."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["casos"],
+      "difficulty": 2,
+      "prompt": "El sujeto",
+      "accept": ["das Subjekt"],
+      "hintWords": ["das Subjekt"],
+      "strictAccents": false,
+      "audio": "das Subjekt",
+      "explain": "Subjekt es neutro: das Subjekt."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["nominativo"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra que falta",
+      "text": "Quien hace la acción es el ___. El primer caso se llama ___.",
+      "blanks": [{ "accept": ["Subjekt"] }, { "accept": ["Nominativ"] }],
+      "bank": ["Subjekt", "Nominativ", "Akkusativ"],
+      "explain": "Subjekt = sujeto; Nominativ = el caso del sujeto."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["nominativo"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «El perro está cansado»",
+      "tokens": ["ist", "Hund", "müde", "Der"],
+      "answer": ["Der", "Hund", "ist", "müde"],
+      "audio": "Der Hund ist müde.",
+      "explain": "Der Hund, en nominativo, es el sujeto de la frase."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["casos"],
+      "difficulty": 1,
+      "prompt": "Der Nominativ ist der erste Fall.",
+      "accept": ["El nominativo es el primer caso."],
+      "strictAccents": false,
+      "audio": "Der Nominativ ist der erste Fall.",
+      "explain": "Una frase resumen de esta clase."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["nominativo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre gramática",
+      "turns": [
+        { "who": "Anna", "text": "Was ist das Subjekt in «Die Katze ist schön»?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Die Katze ist das Subjekt."], "hint": "responde que «die Katze» es el sujeto" },
+        { "who": "Anna", "text": "Genau!", "speak": true }
+      ],
+      "explain": "Die Katze, en nominativo, hace de sujeto de la frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["casos"],
+      "difficulty": 2,
+      "speak": "Der Hund ist das Subjekt.",
+      "mode": "write",
+      "accept": ["Der Hund ist das Subjekt"],
+      "showTextAfter": true,
+      "explain": "Der Hund ist das Subjekt = el perro es el sujeto."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["casos"],
+      "difficulty": 2,
+      "speak": "Der Nominativ ist der erste Fall.",
+      "mode": "choose",
+      "options": ["Der Nominativ ist der erste Fall.", "Der Akkusativ ist der erste Fall.", "Der Dativ ist der erste Fall."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "El nominativo es siempre el primer caso en el orden tradicional de los cuatro casos alemanes."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["casos"],
+      "difficulty": 2,
+      "speak": "Der Hund ist das Subjekt. Er ist im Nominativ.",
+      "es": "El perro es el sujeto. Está en nominativo.",
+      "ipa": "/deːɐ̯ hʊnt ɪst das zʊpˈjɛkt eːɐ̯ ɪst ɪm ˈnoːminatiːf/",
+      "esApprox": "«der junt ist das zup-YEKT, er ist im NÓ-mi-na-tif»",
+      "focus": "Subjekt lleva el acento en la segunda sílaba: zup-YEKT, no ZUP-yekt.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["casos"],
+      "difficulty": 2,
+      "speak": "Die Katze macht die Handlung.",
+      "es": "El gato hace la acción.",
+      "ipa": "/diː ˈkatsə maxt diː ˈhandlʊŋ/",
+      "esApprox": "«di KAT-se majt di JAND-lung»",
+      "focus": "macht lleva el ach-Laut gutural; Handlung empieza con una h aspirada suave.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["nominativo"],
+      "difficulty": 2,
+      "prompt": "Te preguntan cuál es el primer caso del alemán. Respóndelo.",
+      "modelAnswer": "Der Nominativ ist der erste Fall.",
+      "alsoValid": ["Der Nominativ."],
+      "speak": "Der Nominativ ist der erste Fall.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["casos"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Fall", "bucket": 0 },
+        { "text": "Subjekt", "bucket": 2 },
+        { "text": "Handlung", "bucket": 1 },
+        { "text": "Nominativ", "bucket": 0 },
+        { "text": "Akkusativ", "bucket": 0 }
+      ],
+      "explain": "Fall, Nominativ y Akkusativ son masculinos; Subjekt es neutro; Handlung es femenino."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["casos"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Die Fall ist wichtig.",
+      "accept": ["Der Fall ist wichtig"],
+      "audio": "Der Fall ist wichtig.",
+      "explain": "Fall es masculino (der), no femenino."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Fall", "es": "el caso (gramatical)", "esApprox": "«fal»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Subjekt", "es": "el sujeto", "esApprox": "«zup-YEKT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Handlung", "es": "la acción", "esApprox": "«JAND-lung»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Nominativ", "es": "el nominativo", "esApprox": "«NÓ-mi-na-tif»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Akkusativ", "es": "el acusativo", "esApprox": "«A-ku-za-tif»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Der Hund ist das Subjekt. Er ist im Nominativ.", "es": "El perro es el sujeto. Está en nominativo.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Die Katze macht die Handlung.", "es": "El gato hace la acción.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Der Nominativ ist der erste Fall.", "es": "El nominativo es el primer caso.", "from": "e17" }
+  ]
+}
