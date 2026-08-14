@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-247",
+  "lang": "fr",
+  "level": "B1",
+  "order": 247,
+  "title": "Repaso activo XXII: los pasados y el subjuntivo",
+  "objectives": [
+    "Repasar el subjonctif présent y sus usos principales (deseo, emoción, duda, obligación)",
+    "Repasar la trilogía de los pasados (imparfait, passé composé, plus-que-parfait) y el condicional pasado",
+    "Combinar pasados y subjuntivo en frases naturales, sin gramática nueva"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso de los grandes bloques gramaticales de B1",
+      "body": "Sin gramática nueva. Hoy repasas dos de los pilares de B1: el subjonctif (clases 176-185) y los tiempos del pasado, incluido el condicional pasado (clases 187-188 y 206-208). También recuerdas que el passé simple solo se reconoce al leer, nunca se usa al hablar."
+    },
+    {
+      "type": "table",
+      "title": "Resumen de tiempos y usos",
+      "headers": ["Tiempo/estructura", "Uso principal", "Ejemplo"],
+      "rows": [
+        ["subjonctif présent", "deseo, emoción, duda, obligación", "il faut que tu viennes"],
+        ["imparfait", "descripción, hábito en el pasado", "quand j'étais petit"],
+        ["passé composé", "acción puntual y terminada", "j'ai visité Paris"],
+        ["plus-que-parfait", "el pasado del pasado", "il était déjà parti"],
+        ["condicional pasado", "reproche, arrepentimiento, hipótesis irreal", "j'aurais dû partir plus tôt"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "El passé simple solo se lee",
+      "body": "Recuerda: reconoces il fut, elle dit al leer un cuento, pero al hablar o escribir usas siempre el passé composé (il a été, elle a dit)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il faut que tu viennes", "es": "hace falta que vengas", "ipa": "/il fo kə ty vjɛn/", "esApprox": "«il fo ke tü VIEN»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je suis content que", "es": "me alegro de que", "ipa": "/ʒə sɥi kɔ̃.tɑ̃ kə/", "esApprox": "«she süi kon-TAN ke»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "je ne pense pas que", "es": "no creo que", "ipa": "/ʒə nə pɑ̃s pa kə/", "esApprox": "«she ne PANS pa ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "quand j'étais petit", "es": "cuando era pequeño", "ipa": "/kɑ̃ ʒe.tɛ pə.ti/", "esApprox": "«kan she-TE pe-TÍ»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "il était déjà parti", "es": "ya se había ido", "ipa": "/i.le.tɛ de.ʒa paʁ.ti/", "esApprox": "«i-le-TE de-SHÁ par-TÍ»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "j'aurais dû partir plus tôt", "es": "debería haberme ido antes", "ipa": "/ʒɔ.ʁɛ dy paʁ.tiʁ ply to/", "esApprox": "«sho-RE dü par-TIR plü TO»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "bien que ce soit difficile", "es": "aunque sea difícil", "ipa": "/bjɛ̃ kə sə swa di.fi.sil/", "esApprox": "«bien ke se suá di-fi-SIL»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "avant que tu partes", "es": "antes de que te vayas", "ipa": "/a.vɑ̃ kə ty paʁt/", "esApprox": "«a-VAN ke tü PART»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "¿Qué tiempo se usa tras «il faut que»?",
+      "options": ["indicativo", "subjonctif", "condicional", "passé simple"],
+      "answer": 1,
+      "explain": "Repaso de la clase B1-181: il faut que exige subjonctif."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "¿Cuál describe mejor el plus-que-parfait?",
+      "options": ["una acción puntual", "el pasado del pasado", "un hábito presente", "una hipótesis futura"],
+      "answer": 1,
+      "explain": "Repaso de la clase B1-206: el plus-que-parfait expresa el pasado del pasado."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "statement": "El condicional pasado se usa para expresar reproche, como en «tu aurais dû me le dire».",
+      "answer": true,
+      "explain": "Repaso de la clase B1-189."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "statement": "Al hablar en una conversación normal, se debe usar el passé simple en vez del passé composé.",
+      "answer": false,
+      "explain": "Repaso de la clase B1-209: el passé simple solo se reconoce al leer, no se usa al hablar."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Une cada conector con el modo que exige",
+      "left": ["bien que", "parce que", "avant que", "pendant que"],
+      "right": ["subjonctif", "indicativo", "subjonctif", "indicativo"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Bien que y avant que exigen subjonctif; parce que y pendant que exigen indicativo."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Me alegro de que hayas venido, aunque llegaste tarde.",
+      "accept": ["Je suis content que tu sois venu, bien que tu sois arrivé en retard"],
+      "hintWords": ["je suis content que tu sois venu", "bien que tu sois arrivé en retard"],
+      "strictAccents": true,
+      "audio": "Je suis content que tu sois venu, bien que tu sois arrivé en retard.",
+      "explain": "Repaso combinado del subjonctif tras emoción y conjunción."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Cuando llegué, él ya se había ido; debería haber salido antes.",
+      "accept": ["Quand je suis arrivé, il était déjà parti ; j'aurais dû partir plus tôt"],
+      "hintWords": ["quand je suis arrivé, il était déjà parti", "j'aurais dû partir plus tôt"],
+      "strictAccents": true,
+      "audio": "Quand je suis arrivé, il était déjà parti ; j'aurais dû partir plus tôt.",
+      "explain": "Repaso combinado de plus-que-parfait y condicional pasado."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Je ne pense pas qu'il ___ raison, mais je suis content que tu ___ venu.",
+      "blanks": [{ "accept": ["ait"] }, { "accept": ["sois"] }],
+      "bank": ["ait", "sois", "est"],
+      "explain": "Repaso combinado del subjonctif tras duda y emoción."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Debería haber estudiado antes del examen»",
+      "tokens": ["avant l'examen", "J'aurais dû étudier"],
+      "answer": ["J'aurais dû étudier", "avant l'examen"],
+      "audio": "J'aurais dû étudier avant l'examen.",
+      "explain": "Repaso de la clase B1-189: el condicional pasado."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Quand j'étais petit, je passais mes étés chez mes grands-parents, mais un jour, ils décidèrent de vendre la maison.",
+      "accept": ["Cuando era pequeño, pasaba mis veranos en casa de mis abuelos, pero un día, decidieron vender la casa."],
+      "strictAccents": false,
+      "audio": "Quand j'étais petit, je passais mes étés chez mes grands-parents, mais un jour, ils décidèrent de vendre la maison.",
+      "explain": "«décidèrent» es passé simple: se reconoce al leer, pero al hablar dirías «ils ont décidé»."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación combinando subjuntivo y pasado",
+      "turns": [
+        { "who": "Léa", "text": "Tu penses qu'il a bien fait de partir ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je ne pense pas qu'il ait bien fait, il aurait dû rester.", "Je suis content qu'il soit parti, c'était mieux pour lui."], "hint": "usa subjonctif o condicional pasado" },
+        { "who": "Léa", "text": "C'est vrai, avec le recul, c'est difficile à dire.", "speak": true }
+      ],
+      "explain": "Repaso combinado del subjonctif y el condicional pasado."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "speak": "Il faut que tu viennes avant qu'il parte, parce qu'il était déjà en retard hier.",
+      "mode": "write",
+      "accept": ["Il faut que tu viennes avant qu'il parte, parce qu'il était déjà en retard hier"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de subjonctif e imparfait."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["repaso"],
+      "difficulty": 1,
+      "speak": "j'aurais dû partir plus tôt",
+      "mode": "choose",
+      "options": ["je suis parti plus tôt", "j'aurais dû partir plus tôt", "je pars plus tôt", "je partirai plus tôt"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase B1-189: el condicional pasado."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["repaso"],
+      "difficulty": 3,
+      "speak": "Je ne pense pas qu'il ait raison, mais je suis content que tu sois venu, bien que tu sois arrivé en retard ; tu aurais dû partir plus tôt.",
+      "es": "No creo que tenga razón, pero me alegro de que hayas venido, aunque llegaste tarde; deberías haber salido antes.",
+      "ipa": "/ʒə nə pɑ̃s pa ki.l‿ɛ ʁɛ.zɔ̃ mɛ ʒə sɥi kɔ̃.tɑ̃ kə ty swa və.ny bjɛ̃ kə ty swa.z‿a.ʁi.ve ɑ̃ ʁə.taʁ ty ɔ.ʁɛ dy paʁ.tiʁ ply to/",
+      "esApprox": "«she ne PANS pa ki-lE re-ZON me she süi kon-TAN ke tü suá ve-NÜ bien ke tü suá-za-ri-VÉ an re-TAR tü o-RE dü par-TIR plü TO»",
+      "focus": "Repaso final: subjonctif, conjunciones y condicional pasado encadenados.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Cuenta algo que deberías haber hecho de otra manera, usando el condicional pasado y el subjonctif.",
+      "modelAnswer": "J'aurais dû étudier davantage, bien que je sois content du résultat final.",
+      "alsoValid": ["Je ne pense pas que j'aie bien fait, j'aurais dû demander de l'aide."],
+      "speak": "J'aurais dû étudier davantage, bien que je sois content du résultat final.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "¿Es subjonctif o condicional pasado?",
+      "buckets": ["Subjonctif", "Condicional pasado"],
+      "items": [
+        { "text": "il faut que tu viennes", "bucket": 0 },
+        { "text": "j'aurais dû partir", "bucket": 1 },
+        { "text": "bien que ce soit difficile", "bucket": 0 },
+        { "text": "tu aurais dû me le dire", "bucket": 1 }
+      ],
+      "explain": "Il faut que y bien que exigen subjonctif; j'aurais dû y tu aurais dû son condicional pasado."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Hay un error: bien que exige subjonctif, no indicativo. Corrige la frase entera.",
+      "wrong": "Bien qu'il est fatigué, il continue à travailler.",
+      "accept": ["Bien qu'il soit fatigué, il continue à travailler"],
+      "audio": "Bien qu'il soit fatigué, il continue à travailler.",
+      "explain": "Bien que exige subjonctif: bien qu'il soit fatigué."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il faut que tu viennes", "es": "hace falta que vengas", "esApprox": "«il fo ke tü VIEN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je suis content que", "es": "me alegro de que", "esApprox": "«she süi kon-TAN ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "quand j'étais petit", "es": "cuando era pequeño", "esApprox": "«kan she-TE pe-TÍ»", "from": "v4" },
+    { "id": "s4", "kind": "phrase", "target": "il était déjà parti", "es": "ya se había ido", "esApprox": "«i-le-TE de-SHÁ par-TÍ»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "j'aurais dû partir plus tôt", "es": "debería haberme ido antes", "esApprox": "«sho-RE dü par-TIR plü TO»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "bien que ce soit difficile", "es": "aunque sea difícil", "esApprox": "«bien ke se suá di-fi-SIL»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Je suis content que tu sois venu, bien que tu sois arrivé en retard.", "es": "Me alegro de que hayas venido, aunque llegaste tarde.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Quand je suis arrivé, il était déjà parti ; j'aurais dû partir plus tôt.", "es": "Cuando llegué, él ya se había ido; debería haber salido antes.", "from": "e7" }
+  ]
+}
