@@ -1,0 +1,364 @@
+{
+  "id": "de-a1-007",
+  "lang": "de",
+  "level": "A1",
+  "order": 7,
+  "title": "Du o Sie: el tuteo en alemán",
+  "objectives": [
+    "Entender cuándo se usa du (informal) y cuándo Sie (formal)",
+    "Reconocer que Sie (usted/ustedes) siempre se escribe con mayúscula, a diferencia de sie (ella/ellos)",
+    "Convertir las preguntas de presentación ya vistas (heißen, kommen, wohnen) a la forma formal con Sie"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Alemán, francés y muchas lenguas europeas distinguen tú/usted; el inglés ya no",
+      "body": "En alemán existen dos formas de dirigirte a alguien: **du** (tú, informal) y **Sie** (usted/ustedes, formal). Se usa Sie con desconocidos, en el trabajo (salvo que te digan lo contrario), con personas mayores que no conoces, y en general en cualquier situación formal. Se usa du con amigos, familia, niños, compañeros de tu edad y, cada vez más, en ambientes informales como startups o redes sociales. Ante la duda, empieza con Sie: es la opción segura.",
+      "examples": [
+        { "target": "Wie heißt du?", "es": "¿Cómo te llamas? (informal)", "note": "a un amigo" },
+        { "target": "Wie heißen Sie?", "es": "¿Cómo se llama usted? (formal)", "note": "a un desconocido" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las mismas preguntas, en informal y en formal",
+      "headers": ["Informal (du)", "Formal (Sie)"],
+      "rows": [
+        ["Wie heißt du?", "Wie heißen Sie?"],
+        ["Woher kommst du?", "Woher kommen Sie?"],
+        ["Wo wohnst du?", "Wo wohnen Sie?"]
+      ],
+      "note": "El verbo con Sie se parece mucho al infinitivo (heißen, kommen, wohnen): es una de las pocas cosas fáciles de la conjugación alemana."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: Sie (usted) y sie (ella/ellos) se escriben casi igual",
+      "items": [
+        { "wrong": "wie heißen sie? (con minúscula, pensando en 'ellos')", "right": "Wie heißen Sie? (con mayúscula, dirigiéndote a un 'usted')", "why": "Sie con mayúscula inicial, en cualquier posición de la frase, es siempre la forma formal de «usted». Sie con minúscula es «ella» o «ellos/ellas», y solo lleva mayúscula si empieza la frase." }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Cuándo dudar y usar Sie",
+      "body": "Los alemanes suelen tomarse en serio esta distinción: tutear a un desconocido sin permiso puede sonar maleducado o demasiado directo, sobre todo con personas mayores. Es normal preguntar «Darf ich du sagen?» (¿puedo tutearte?) antes de pasar de Sie a du con alguien nuevo, especialmente en el trabajo."
+    },
+    {
+      "type": "tip",
+      "body": "Truco para no equivocarte: si dudas entre du y Sie, usa Sie. Nadie se ofende por recibir un trato demasiado formal; sí puede molestar un tuteo prematuro."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "Wie heißen Sie?",
+      "es": "¿cómo se llama usted?",
+      "ipa": "/viː ˈhaɪ̯sn̩ ziː/",
+      "esApprox": "«vi HAI-sen zi»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Guten Tag! Wie heißen Sie?", "es": "¡Buenos días! ¿Cómo se llama usted?" }
+    },
+    {
+      "id": "v2",
+      "target": "Woher kommen Sie?",
+      "es": "¿de dónde es usted?",
+      "ipa": "/voˈheːɐ̯ ˈkɔmən ziː/",
+      "esApprox": "«vo-HER KO-men zi»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Woher kommen Sie, Frau Schmidt?", "es": "¿De dónde es usted, señora Schmidt?" }
+    },
+    {
+      "id": "v3",
+      "target": "Wo wohnen Sie?",
+      "es": "¿dónde vive usted?",
+      "ipa": "/voː ˈvoːnən ziː/",
+      "esApprox": "«vo VÓ-nen zi»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Wo wohnen Sie jetzt?", "es": "¿Dónde vive usted ahora?" }
+    },
+    {
+      "id": "v4",
+      "target": "Sie",
+      "es": "usted, ustedes (formal)",
+      "ipa": "/ziː/",
+      "esApprox": "«zi», siempre con mayúscula inicial",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Kommen Sie aus Deutschland?", "es": "¿Viene usted de Alemania?" }
+    },
+    {
+      "id": "v5",
+      "target": "du",
+      "es": "tú (informal)",
+      "ipa": "/duː/",
+      "esApprox": "«du»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Kommst du aus Spanien?", "es": "¿Vienes de España?" }
+    },
+    {
+      "id": "v6",
+      "target": "der Herr",
+      "es": "el señor",
+      "ipa": "/hɛʁ/",
+      "esApprox": "«JER», la r final se pronuncia suave, casi vocal",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Herren",
+      "example": { "target": "Herr Schmidt, wie geht es Ihnen?", "es": "Señor Schmidt, ¿cómo está usted?" }
+    },
+    {
+      "id": "v7",
+      "target": "die Frau",
+      "es": "la señora; la mujer",
+      "ipa": "/fʁaʊ̯/",
+      "esApprox": "«frau», diptongo au como en 'auto'",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Frauen",
+      "example": { "target": "Frau Schmidt kommt aus Deutschland.", "es": "La señora Schmidt viene de Alemania." }
+    },
+    {
+      "id": "v8",
+      "target": "Darf ich du sagen?",
+      "es": "¿puedo tutearte?",
+      "ipa": "/daʁf ɪç duː ˈzaːɡən/",
+      "esApprox": "«darf ich du ZA-guen»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Wir sind jung, darf ich du sagen?", "es": "Somos jóvenes, ¿puedo tutearte?" }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["du-sie"],
+      "difficulty": 1,
+      "prompt": "¿Cuándo usas Sie en vez de du?",
+      "options": ["Con amigos cercanos", "Con desconocidos o en situaciones formales", "Siempre, no hay elección", "Nunca se usa en alemán hablado"],
+      "answer": 1,
+      "explain": "Sie es la forma formal: se usa con desconocidos, en el trabajo o con personas mayores que no conoces."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["du-sie"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se escribe Sie (usted) comparado con sie (ella/ellos)?",
+      "options": ["Exactamente igual", "Sie (usted) siempre con S mayúscula", "sie (ella) siempre con mayúscula", "No existe diferencia hablada ni escrita"],
+      "answer": 1,
+      "explain": "Sie con mayúscula inicial en cualquier posición es la forma formal; sie con minúscula es ella/ellos."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["du-sie"],
+      "difficulty": 1,
+      "statement": "Sie (usted) siempre se escribe con mayúscula, esté donde esté en la frase.",
+      "answer": true,
+      "explain": "A diferencia de los sustantivos, que llevan mayúscula por ser sustantivos, Sie formal lleva mayúscula por ser un pronombre de cortesía."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["du-sie"],
+      "difficulty": 1,
+      "statement": "Du es la forma adecuada para dirigirte a tu jefe la primera vez que lo conoces.",
+      "answer": false,
+      "explain": "Lo habitual, salvo que te indiquen lo contrario, es empezar con Sie en el entorno laboral."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas preguntas es informal (du)?",
+      "options": ["Wie heißen Sie?", "Woher kommen Sie?", "Wo wohnst du?", "Wo wohnen Sie?"],
+      "answer": 2,
+      "explain": "Wo wohnst du? usa la forma du; las otras tres usan Sie."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "prompt": "Une cada pregunta informal con su versión formal",
+      "left": ["Wie heißt du?", "Woher kommst du?", "Wo wohnst du?"],
+      "right": ["Wo wohnen Sie?", "Wie heißen Sie?", "Woher kommen Sie?"],
+      "answer": [1, 2, 0],
+      "explain": "Cada pregunta con du tiene su pareja exacta con Sie."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se llama usted?",
+      "accept": ["Wie heißen Sie?"],
+      "hintWords": ["wie", "heißen Sie"],
+      "strictAccents": false,
+      "audio": "Wie heißen Sie?",
+      "explain": "Wie heißen Sie? es la versión formal de Wie heißt du?"
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "prompt": "¿De dónde es usted?",
+      "accept": ["Woher kommen Sie?"],
+      "hintWords": ["woher", "kommen Sie"],
+      "strictAccents": false,
+      "audio": "Woher kommen Sie?",
+      "explain": "Woher kommen Sie? es la versión formal de Woher kommst du?"
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra que falta",
+      "text": "___ heißen Sie? — Ich heiße Herr Schmidt.",
+      "blanks": [{ "accept": ["Wie"] }],
+      "bank": ["Wie", "Wo", "Woher"],
+      "explain": "Wie heißen Sie? pregunta por el nombre, igual que Wie heißt du? en informal."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Dónde vive usted?»",
+      "tokens": ["Sie", "wohnen", "Wo"],
+      "answer": ["Wo", "wohnen", "Sie"],
+      "audio": "Wo wohnen Sie?",
+      "explain": "La palabra de pregunta (Wo) va primero, y Sie va justo después del verbo."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["du-sie"],
+      "difficulty": 1,
+      "prompt": "Darf ich du sagen?",
+      "accept": ["¿Puedo tutearte?"],
+      "strictAccents": false,
+      "audio": "Darf ich du sagen?",
+      "explain": "Es la fórmula típica para pedir permiso antes de pasar de Sie a du con alguien."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación formal con el señor Schmidt",
+      "turns": [
+        { "who": "Herr Schmidt", "text": "Guten Tag! Wie heißen Sie?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ich heiße Marco."], "hint": "preséntate: la respuesta es la misma en informal y en formal" },
+        { "who": "Herr Schmidt", "text": "Woher kommen Sie?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ich komme aus Spanien."], "hint": "di que vienes de España" }
+      ],
+      "explain": "Aunque la pregunta cambia entre du y Sie, tu respuesta (ich heiße, ich komme aus...) es exactamente igual en los dos registros."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "speak": "Wie heißen Sie?",
+      "mode": "write",
+      "accept": ["Wie heißen Sie?"],
+      "showTextAfter": true,
+      "explain": "Wie heißen Sie? = ¿Cómo se llama usted?"
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "speak": "Wo wohnen Sie?",
+      "mode": "choose",
+      "options": ["Wo wohnen Sie?", "Wo wohnst du?", "Wie heißen Sie?"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Sie y du suenan distinto en el verbo: wohnen Sie frente a wohnst du."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "speak": "Entschuldigung, wie heißen Sie?",
+      "es": "Perdón, ¿cómo se llama usted?",
+      "ipa": "/ɛntˈʃʊldɪɡʊŋ viː ˈhaɪ̯sn̩ ziː/",
+      "esApprox": "«ent-SHUL-di-gung vi HAI-sen zi»",
+      "focus": "El tono formal empieza ya en el Entschuldigung inicial: pronúncialo con calma, no atropellado.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "speak": "Herr Schmidt, woher kommen Sie?",
+      "es": "Señor Schmidt, ¿de dónde es usted?",
+      "ipa": "/hɛʁ ʃmɪt voˈheːɐ̯ ˈkɔmən ziː/",
+      "esApprox": "«jer SHMIT vo-HER KO-men zi»",
+      "focus": "La r final de Herr casi no se pronuncia como consonante: suena casi como una vocal suave.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "prompt": "Conoces al jefe de tu pareja por primera vez. Pregúntale de dónde es, usando la forma formal.",
+      "modelAnswer": "Woher kommen Sie?",
+      "alsoValid": ["Entschuldigung, woher kommen Sie?"],
+      "speak": "Woher kommen Sie?",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada pregunta: ¿informal (du) o formal (Sie)?",
+      "buckets": ["Informal (du)", "Formal (Sie)"],
+      "items": [
+        { "text": "Wie heißt du?", "bucket": 0 },
+        { "text": "Wie heißen Sie?", "bucket": 1 },
+        { "text": "Woher kommst du?", "bucket": 0 },
+        { "text": "Woher kommen Sie?", "bucket": 1 },
+        { "text": "Wo wohnst du?", "bucket": 0 },
+        { "text": "Wo wohnen Sie?", "bucket": 1 }
+      ],
+      "explain": "Las formas con -st (heißt, kommst, wohnst) son du; las que terminan como el infinitivo + Sie son formales."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["du-sie"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "wie heißen sie?",
+      "accept": ["Wie heißen Sie?"],
+      "audio": "Wie heißen Sie?",
+      "explain": "Dos mayúsculas obligatorias aquí: Wie por empezar la frase, y Sie por ser la forma formal de «usted»."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "Wie heißen Sie?", "es": "¿cómo se llama usted?", "esApprox": "«vi HAI-sen zi»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "Woher kommen Sie?", "es": "¿de dónde es usted?", "esApprox": "«vo-HER KO-men zi»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "Wo wohnen Sie?", "es": "¿dónde vive usted?", "esApprox": "«vo VÓ-nen zi»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "Sie", "es": "usted, ustedes (formal)", "esApprox": "«zi»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "du", "es": "tú (informal)", "esApprox": "«du»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Herr", "es": "el señor", "esApprox": "«JER»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "die Frau", "es": "la señora; la mujer", "esApprox": "«frau»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "Darf ich du sagen?", "es": "¿puedo tutearte?", "esApprox": "«darf ich du ZA-guen»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Entschuldigung, wie heißen Sie?", "es": "Perdón, ¿cómo se llama usted?", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Herr Schmidt, woher kommen Sie?", "es": "Señor Schmidt, ¿de dónde es usted?", "from": "e16" }
+  ]
+}

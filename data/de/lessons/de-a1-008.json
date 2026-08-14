@@ -1,0 +1,365 @@
+{
+  "id": "de-a1-008",
+  "lang": "de",
+  "level": "A1",
+  "order": 8,
+  "title": "Los pronombres personales sujeto",
+  "objectives": [
+    "Aprender los pronombres personales sujeto del alemán: ich, du, er, sie, es, wir, ihr, sie, Sie",
+    "Elegir er, sie o es para sustituir un sustantivo según su género gramatical (der/die/das), no según si es persona o cosa",
+    "Distinguir por contexto y mayúscula entre sie (ella), sie (ellos/ellas) y Sie (usted/ustedes)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "En alemán, hasta las cosas tienen «él», «ella» o «ello»",
+      "body": "En español decimos «la mesa» y, si queremos sustituirla, usamos «ella» solo si hablamos de una persona; para un objeto solemos repetir el sustantivo o decir «lo». En alemán no: TODO sustantivo tiene un género gramatical (der, die o das), y el pronombre que lo sustituye tiene que coincidir con ese género, sea persona o sea cosa. Der Tisch (la mesa, masculino) se sustituye por er; die Tür (la puerta, femenino) se sustituye por sie; das Buch (el libro, neutro) se sustituye por es.",
+      "examples": [
+        { "target": "der Tisch → er", "es": "la mesa → él (no «ella»)", "note": "Tisch es masculino en alemán" },
+        { "target": "die Tür → sie", "es": "la puerta → ella", "note": "Tür es femenino" },
+        { "target": "das Buch → es", "es": "el libro → ello", "note": "Buch es neutro" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los nueve pronombres personales sujeto",
+      "headers": ["Alemán", "Significado"],
+      "rows": [
+        ["ich", "yo"],
+        ["du", "tú (informal)"],
+        ["er", "él (o un objeto masculino: der)"],
+        ["sie", "ella (o un objeto femenino: die)"],
+        ["es", "ello (un objeto neutro: das)"],
+        ["wir", "nosotros, nosotras"],
+        ["ihr", "vosotros, vosotras (informal plural)"],
+        ["sie", "ellos, ellas"],
+        ["Sie", "usted, ustedes (formal, siempre con mayúscula)"]
+      ],
+      "note": "sie (ella) y sie (ellos/ellas) se escriben igual: el verbo que las acompaña es lo que las distingue, como verás en la clase 9."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: el género gramatical manda, no el sentido común",
+      "items": [
+        { "wrong": "das Mädchen (la chica) → sie, porque una chica es femenina", "right": "das Mädchen → es, porque Mädchen es gramaticalmente neutro (das)", "why": "Mädchen (chica) es neutro por su terminación -chen, aunque se refiera a una persona femenina. El género gramatical del sustantivo manda siempre sobre el sentido de la palabra." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Cuando aprendas un sustantivo nuevo, apréndelo siempre junto a su artículo (der Tisch, die Tür, das Buch) y no suelto: así sabrás automáticamente qué pronombre usar después, sin tener que pensarlo dos veces."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "ich",
+      "es": "yo",
+      "ipa": "/ɪç/",
+      "esApprox": "«ich», sonido suave (ich-Laut)",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Ich heiße Marco.", "es": "Yo me llamo Marco." }
+    },
+    {
+      "id": "v2",
+      "target": "du",
+      "es": "tú (informal)",
+      "ipa": "/duː/",
+      "esApprox": "«du»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Woher kommst du?", "es": "¿De dónde eres tú?" }
+    },
+    {
+      "id": "v3",
+      "target": "er",
+      "es": "él (o un objeto masculino)",
+      "ipa": "/eːɐ̯/",
+      "esApprox": "«er»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Er ist müde.", "es": "Él está cansado." }
+    },
+    {
+      "id": "v4",
+      "target": "sie",
+      "es": "ella (o un objeto femenino); también ellos/ellas",
+      "ipa": "/ziː/",
+      "esApprox": "«zi»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Sie ist müde.", "es": "Ella está cansada." }
+    },
+    {
+      "id": "v5",
+      "target": "es",
+      "es": "ello (un objeto neutro)",
+      "ipa": "/ɛs/",
+      "esApprox": "«es»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Es ist hier.", "es": "Está aquí (hablando de algo neutro, como das Buch)." }
+    },
+    {
+      "id": "v6",
+      "target": "wir",
+      "es": "nosotros, nosotras",
+      "ipa": "/viːɐ̯/",
+      "esApprox": "«vir»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Wir kommen aus Deutschland.", "es": "Nosotros venimos de Alemania." }
+    },
+    {
+      "id": "v7",
+      "target": "ihr",
+      "es": "vosotros, vosotras (informal plural)",
+      "ipa": "/iːɐ̯/",
+      "esApprox": "«ir»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Ihr seid meine Freunde.", "es": "Vosotros sois mis amigos." }
+    },
+    {
+      "id": "v8",
+      "target": "Sie",
+      "es": "usted, ustedes (formal)",
+      "ipa": "/ziː/",
+      "esApprox": "«zi», siempre con mayúscula inicial",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Sie kommen aus Spanien.", "es": "Usted viene / ustedes vienen de España." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "¿Qué pronombre usarías para sustituir «der Tisch» (la mesa, masculino)?",
+      "options": ["sie", "es", "er", "ihr"],
+      "answer": 2,
+      "explain": "Tisch es masculino (der), así que se sustituye por er, no por «ella» como harías en español."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "¿Qué pronombre usarías para sustituir «das Buch» (el libro, neutro)?",
+      "options": ["er", "sie", "es", "wir"],
+      "answer": 2,
+      "explain": "Buch es neutro (das), así que se sustituye por es."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "statement": "En alemán, el pronombre que sustituye a un objeto depende del género gramatical del sustantivo, no de si es persona o cosa.",
+      "answer": true,
+      "explain": "Es la clave de esta clase: der → er, die → sie, das → es, siempre, tanto para personas como para objetos."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "statement": "Ihr significa «ellos» (tercera persona plural).",
+      "answer": false,
+      "explain": "Ihr significa «vosotros/vosotras»: es la segunda persona del plural, no la tercera."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos pronombres NO es plural?",
+      "options": ["wir", "ihr", "sie (ellos)", "er"],
+      "answer": 3,
+      "explain": "Er (él) es singular; wir, ihr y sie (ellos) son plurales."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "prompt": "Une cada pronombre con su significado",
+      "left": ["ich", "du", "wir", "ihr"],
+      "right": ["yo", "tú", "nosotros", "vosotros"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Los cuatro pronombres más frecuentes en una conversación informal."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "prompt": "Nosotros",
+      "accept": ["wir"],
+      "hintWords": ["wir"],
+      "strictAccents": false,
+      "audio": "wir",
+      "explain": "Wir es la primera persona del plural."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "prompt": "Vosotros",
+      "accept": ["ihr"],
+      "hintWords": ["ihr"],
+      "strictAccents": false,
+      "audio": "ihr",
+      "explain": "Ihr es la segunda persona del plural, informal."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto que sustituye al sustantivo (der Tisch = la mesa; die Tür = la puerta; hier/dort = aquí/allí)",
+      "text": "Wo ist der Tisch? — ___ ist hier. Wo ist die Tür? — ___ ist dort.",
+      "blanks": [{ "accept": ["Er"] }, { "accept": ["Sie"] }],
+      "bank": ["Er", "Sie", "Es"],
+      "explain": "Tisch es masculino → er; Tür es femenino → sie."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «Él está cansado»",
+      "tokens": ["ist", "müde", "Er"],
+      "answer": ["Er", "ist", "müde"],
+      "audio": "Er ist müde.",
+      "explain": "Er + ist + müde, el mismo orden que ya conoces con otros sujetos."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Sie ist müde.",
+      "accept": ["Ella está cansada.", "Usted está cansada."],
+      "strictAccents": false,
+      "audio": "Sie ist müde.",
+      "explain": "Escrita al principio de frase, Sie es ambigua entre «ella» y el «usted» formal: el contexto de la conversación es lo que lo aclara."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre dónde está el libro",
+      "turns": [
+        { "who": "Anna", "text": "Wo ist das Buch?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Es ist hier."], "hint": "responde que está aquí, con el pronombre neutro" },
+        { "who": "Anna", "text": "Danke!", "speak": true }
+      ],
+      "explain": "Buch es neutro (das), así que el pronombre correcto es es."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 1,
+      "speak": "Er ist müde.",
+      "mode": "write",
+      "accept": ["Er ist müde"],
+      "showTextAfter": true,
+      "explain": "Er ist müde = él está cansado."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "speak": "Sie ist müde.",
+      "mode": "choose",
+      "options": ["Sie ist müde.", "Er ist müde.", "Es ist müde."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Er, sie y es suenan claramente distintos, aunque se escriban parecido."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "speak": "Wir kommen aus Deutschland.",
+      "es": "Nosotros venimos de Alemania.",
+      "ipa": "/viːɐ̯ ˈkɔmən aʊ̯s ˈdɔɪ̯tʃlant/",
+      "esApprox": "«vir KO-men aus DOICH-lant»",
+      "focus": "Wir + kommen suena natural porque, con los verbos regulares, la forma de wir es igual al infinitivo: lo verás formalmente en la clase 11.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "speak": "Sie kommen aus Spanien.",
+      "es": "Ellos vienen de España. / Ustedes vienen de España.",
+      "ipa": "/ziː ˈkɔmən aʊ̯s ˈʃpaːni̯ən/",
+      "esApprox": "«zi KO-men aus SHPA-nien»",
+      "focus": "Hablado, sie (ellos) y Sie (ustedes) suenan exactamente igual: solo el contexto o la mayúscula por escrito los distingue.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Te preguntan dónde está el libro (das Buch). Diles que está aquí, usando el pronombre correcto.",
+      "modelAnswer": "Es ist hier.",
+      "alsoValid": ["Es ist hier, auf dem Tisch."],
+      "speak": "Es ist hier.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada pronombre según la persona gramatical",
+      "buckets": ["1ª persona", "2ª persona", "3ª persona"],
+      "items": [
+        { "text": "ich", "bucket": 0 },
+        { "text": "wir", "bucket": 0 },
+        { "text": "du", "bucket": 1 },
+        { "text": "ihr", "bucket": 1 },
+        { "text": "er", "bucket": 2 },
+        { "text": "sie (ella)", "bucket": 2 },
+        { "text": "es", "bucket": 2 },
+        { "text": "Sie", "bucket": 2 }
+      ],
+      "explain": "Sie (formal) se comporta gramaticalmente como una tercera persona, aunque se refiera a la persona con la que hablas."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["du-sie", "pronombres-sujeto"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Wie heißen sie?",
+      "accept": ["Wie heißen Sie?"],
+      "audio": "Wie heißen Sie?",
+      "explain": "Si te diriges formalmente a alguien, Sie siempre lleva mayúscula; en minúscula, sie significaría «ellos», lo que no tendría sentido en esta pregunta directa."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "ich", "es": "yo", "esApprox": "«ich»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "du", "es": "tú (informal)", "esApprox": "«du»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "er", "es": "él (o un objeto masculino)", "esApprox": "«er»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "sie", "es": "ella / ellos, ellas", "esApprox": "«zi»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "es", "es": "ello (un objeto neutro)", "esApprox": "«es»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "wir", "es": "nosotros, nosotras", "esApprox": "«vir»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "ihr", "es": "vosotros, vosotras", "esApprox": "«ir»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "Sie", "es": "usted, ustedes (formal)", "esApprox": "«zi»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Wir kommen aus Deutschland.", "es": "Nosotros venimos de Alemania.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Es ist hier.", "es": "Está aquí.", "from": "e17" }
+  ]
+}

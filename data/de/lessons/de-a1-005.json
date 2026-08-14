@@ -1,0 +1,376 @@
+{
+  "id": "de-a1-005",
+  "lang": "de",
+  "level": "A1",
+  "order": 5,
+  "title": "Saludos, despedidas y cortesía",
+  "objectives": [
+    "Saludar según el momento del día: Guten Morgen, Guten Tag, Guten Abend",
+    "Despedirte de forma formal e informal: Auf Wiedersehen, Tschüss, Gute Nacht",
+    "Usar las fórmulas básicas de cortesía: Danke, Bitte, Entschuldigung"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Saludar en alemán depende mucho de la hora del día",
+      "body": "El alemán es bastante más estricto que el español a la hora de elegir el saludo según el momento del día. Guten Morgen se usa solo por la mañana; a partir de media mañana se cambia a Guten Tag, y al anochecer, a Guten Abend. Hallo es informal y vale a cualquier hora, parecido a nuestro «hola». Para despedirte antes de dormir, nunca uses un saludo: existe una fórmula propia, Gute Nacht.",
+      "examples": [
+        { "target": "Guten Morgen!", "es": "¡Buenos días!", "note": "solo por la mañana" },
+        { "target": "Guten Abend!", "es": "¡Buenas tardes/noches!", "note": "al anochecer" },
+        { "target": "Hallo!", "es": "¡Hola!", "note": "informal, a cualquier hora" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Saludos y despedidas según el momento",
+      "headers": ["Alemán", "Cuándo se usa", "Equivale a"],
+      "rows": [
+        ["Guten Morgen", "por la mañana, hasta media mañana", "Buenos días"],
+        ["Guten Tag", "desde media mañana hasta el atardecer", "Buenos días / Buenas tardes"],
+        ["Guten Abend", "al anochecer", "Buenas tardes / Buenas noches"],
+        ["Gute Nacht", "al despedirte para dormir", "Buenas noches (despedida)"],
+        ["Hallo", "informal, a cualquier hora", "Hola"]
+      ],
+      "note": "Auf Wiedersehen es la despedida formal para cualquier hora; Tschüss es la informal, también válida a cualquier hora."
+    },
+    {
+      "type": "phonetics",
+      "title": "Dos palabras que cuestan al principio: Entschuldigung y Tschüss",
+      "body": "Entschuldigung (perdón, disculpe) es larga y con varias consonantes seguidas, pero se usa muchísimo: merece la pena practicarla desde ya. Tschüss combina la consonante «tsch» (una sola unidad de sonido, no tres letras sueltas) con la ü.",
+      "drills": [
+        { "target": "Entschuldigung", "ipa": "/ɛntˈʃʊldɪɡʊŋ/", "esApprox": "«ent-SHUL-di-gung»", "hint": "tsch suena como una ch inglesa suave" },
+        { "target": "Tschüss", "ipa": "/tʃʏs/", "esApprox": "«chüs», con la ü de labios apretados", "hint": "tsch + ü, dos sonidos seguidos que no existen juntos en español" },
+        { "target": "Guten Abend", "ipa": "/ˈɡuːtn̩ ˈaːbənt/", "esApprox": "«GU-ten Á-bent»", "hint": "la d final de Abend suena casi como una t" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Auf Wiedersehen se usa con desconocidos o en situaciones formales; Tschüss, con amigos, familia y compañeros. En la clase 7 verás con calma cuándo se usa du y cuándo Sie: por ahora, quédate con que Auf Wiedersehen es la opción segura si no conoces a la persona."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "Hallo",
+      "es": "hola",
+      "ipa": "/haˈloː/",
+      "esApprox": "«ha-LÓ»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Hallo! Wie schön!", "es": "¡Hola! ¡Qué bien!" }
+    },
+    {
+      "id": "v2",
+      "target": "Guten Morgen",
+      "es": "buenos días (por la mañana)",
+      "ipa": "/ˌɡuːtn̩ ˈmɔʁɡn̩/",
+      "esApprox": "«GU-ten MOR-guen»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Guten Morgen! Bist du müde?", "es": "¡Buenos días! ¿Estás cansado?" }
+    },
+    {
+      "id": "v3",
+      "target": "Guten Abend",
+      "es": "buenas tardes / buenas noches (al anochecer)",
+      "ipa": "/ˌɡuːtn̩ ˈaːbənt/",
+      "esApprox": "«GU-ten Á-bent»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Guten Abend! Die Straße ist schön.", "es": "¡Buenas noches! La calle es bonita." }
+    },
+    {
+      "id": "v4",
+      "target": "Gute Nacht",
+      "es": "buenas noches (al despedirte para dormir)",
+      "ipa": "/ˌɡuːtə ˈnaxt/",
+      "esApprox": "«GU-te NAJT», con ach-Laut en Nacht",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Gute Nacht! Bis morgen.", "es": "¡Buenas noches! Hasta mañana." }
+    },
+    {
+      "id": "v5",
+      "target": "Auf Wiedersehen",
+      "es": "adiós (formal)",
+      "ipa": "/aʊ̯f ˈviːdɐˌzeːən/",
+      "esApprox": "«auf VI-der-ze-en»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Auf Wiedersehen, bis bald!", "es": "¡Adiós, hasta pronto!" }
+    },
+    {
+      "id": "v6",
+      "target": "Tschüss",
+      "es": "adiós (informal)",
+      "ipa": "/tʃʏs/",
+      "esApprox": "«chüs»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Tschüss, bis morgen!", "es": "¡Adiós, hasta mañana!" }
+    },
+    {
+      "id": "v7",
+      "target": "Danke",
+      "es": "gracias",
+      "ipa": "/ˈdaŋkə/",
+      "esApprox": "«DAN-ke»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Danke schön!", "es": "¡Muchas gracias!" }
+    },
+    {
+      "id": "v8",
+      "target": "Bitte",
+      "es": "por favor; de nada",
+      "ipa": "/ˈbɪtə/",
+      "esApprox": "«BI-te»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Danke! — Bitte!", "es": "¡Gracias! — ¡De nada!" }
+    },
+    {
+      "id": "v9",
+      "target": "Entschuldigung",
+      "es": "perdón, disculpe",
+      "ipa": "/ɛntˈʃʊldɪɡʊŋ/",
+      "esApprox": "«ent-SHUL-di-gung»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Entschuldigung, wo ist die Straße?", "es": "Perdón, ¿dónde está la calle?" }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "prompt": "¿Qué saludo usas por la mañana?",
+      "options": ["Guten Abend", "Guten Morgen", "Gute Nacht", "Tschüss"],
+      "answer": 1,
+      "explain": "Guten Morgen se usa solo por la mañana."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["cortesia"],
+      "difficulty": 1,
+      "prompt": "¿Cómo te despides de forma formal, con alguien que no conoces?",
+      "options": ["Tschüss", "Hallo", "Auf Wiedersehen", "Danke"],
+      "answer": 2,
+      "explain": "Auf Wiedersehen es la despedida formal; Tschüss es la informal."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "statement": "Guten Tag se puede usar desde media mañana hasta el atardecer.",
+      "answer": true,
+      "explain": "Es el saludo «comodín» del día, entre Guten Morgen y Guten Abend."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "statement": "Gute Nacht se usa para saludar a alguien al llegar a un sitio.",
+      "answer": false,
+      "explain": "Gute Nacht es una despedida, no un saludo: se usa justo antes de irse a dormir."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["saludos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO es una despedida?",
+      "options": ["Tschüss", "Auf Wiedersehen", "Guten Morgen", "Gute Nacht"],
+      "answer": 2,
+      "explain": "Guten Morgen es un saludo; las otras tres son despedidas."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["cortesia"],
+      "difficulty": 1,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["Hallo", "Danke", "Entschuldigung", "Tschüss"],
+      "right": ["hola", "gracias", "perdón", "adiós (informal)"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro de las expresiones más usadas del día a día."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "prompt": "Buenos días (por la mañana).",
+      "accept": ["Guten Morgen"],
+      "hintWords": ["Guten Morgen"],
+      "strictAccents": false,
+      "audio": "Guten Morgen!",
+      "explain": "Guten Morgen se reserva para la mañana."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "prompt": "Buenas noches (al despedirte para dormir).",
+      "accept": ["Gute Nacht"],
+      "hintWords": ["Gute Nacht"],
+      "strictAccents": false,
+      "audio": "Gute Nacht!",
+      "explain": "Gute Nacht es una despedida, no un saludo."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["saludos", "cortesia"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra que falta",
+      "text": "___ Morgen, Anna! ... ___ Wiedersehen, bis morgen!",
+      "blanks": [{ "accept": ["Guten"] }, { "accept": ["Auf"] }],
+      "bank": ["Guten", "Auf", "Tschüss"],
+      "explain": "Guten Morgen para saludar; Auf Wiedersehen para despedirte formalmente."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "prompt": "Ordena para saludar por la mañana",
+      "tokens": ["Morgen", "Guten"],
+      "answer": ["Guten", "Morgen"],
+      "audio": "Guten Morgen!",
+      "explain": "Guten Morgen: el adjetivo guten siempre va delante del sustantivo Morgen."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["cortesia"],
+      "difficulty": 1,
+      "prompt": "Entschuldigung!",
+      "accept": ["Perdón.", "Disculpe."],
+      "strictAccents": false,
+      "audio": "Entschuldigung!",
+      "explain": "Entschuldigung sirve tanto para pedir perdón como para llamar la atención de alguien, como nuestro «disculpe»."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "prompt": "Completa el saludo al cruzarte con alguien",
+      "turns": [
+        { "who": "Anna", "text": "Guten Tag!", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Guten Tag!", "Hallo!"], "hint": "saluda de vuelta" },
+        { "who": "Anna", "text": "Auf Wiedersehen!", "speak": true }
+      ],
+      "explain": "Devolver el mismo saludo es lo más natural."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "speak": "Guten Abend!",
+      "mode": "write",
+      "accept": ["Guten Abend!"],
+      "showTextAfter": true,
+      "explain": "Guten Abend = buenas tardes/noches, al anochecer."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "speak": "Auf Wiedersehen!",
+      "mode": "choose",
+      "options": ["Auf Wiedersehen!", "Guten Morgen!", "Gute Nacht!"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Las tres empiezan distinto: presta atención al inicio de la frase."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["cortesia"],
+      "difficulty": 2,
+      "speak": "Entschuldigung!",
+      "es": "¡Perdón! / ¡Disculpe!",
+      "ipa": "/ɛntˈʃʊldɪɡʊŋ/",
+      "esApprox": "«ent-SHUL-di-gung»",
+      "focus": "tsch es una sola unidad de sonido, parecida a la ch española pero un poco más suave.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["cortesia"],
+      "difficulty": 1,
+      "speak": "Tschüss!",
+      "es": "¡Adiós! (informal)",
+      "ipa": "/tʃʏs/",
+      "esApprox": "«chüs»",
+      "focus": "tsch + ü seguidos: dos sonidos que no aparecen juntos en español, practica despacio.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "prompt": "Son las nueve de la noche y te vas a dormir. Despídete de tu familia.",
+      "modelAnswer": "Gute Nacht!",
+      "alsoValid": ["Gute Nacht, bis morgen!"],
+      "speak": "Gute Nacht!",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["saludos", "cortesia"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada expresión: ¿saludo, despedida o cortesía?",
+      "buckets": ["Saludo", "Despedida", "Cortesía"],
+      "items": [
+        { "text": "Hallo", "bucket": 0 },
+        { "text": "Guten Morgen", "bucket": 0 },
+        { "text": "Guten Abend", "bucket": 0 },
+        { "text": "Auf Wiedersehen", "bucket": 1 },
+        { "text": "Tschüss", "bucket": 1 },
+        { "text": "Gute Nacht", "bucket": 1 },
+        { "text": "Danke", "bucket": 2 },
+        { "text": "Bitte", "bucket": 2 },
+        { "text": "Entschuldigung", "bucket": 2 }
+      ],
+      "explain": "Nueve expresiones básicas repartidas en tres grupos claros."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["mayuscula-sustantivos", "saludos"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Guten morgen!",
+      "accept": ["Guten Morgen!"],
+      "audio": "Guten Morgen!",
+      "explain": "Morgen es un sustantivo (la mañana), por eso lleva mayúscula aunque vaya después de un adjetivo en minúscula."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "Hallo", "es": "hola", "esApprox": "«ha-LÓ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "Guten Morgen", "es": "buenos días (mañana)", "esApprox": "«GU-ten MOR-guen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "Guten Abend", "es": "buenas tardes/noches", "esApprox": "«GU-ten Á-bent»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "Gute Nacht", "es": "buenas noches (despedida)", "esApprox": "«GU-te NAJT»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "Auf Wiedersehen", "es": "adiós (formal)", "esApprox": "«auf VI-der-ze-en»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "Tschüss", "es": "adiós (informal)", "esApprox": "«chüs»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "Danke", "es": "gracias", "esApprox": "«DAN-ke»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "Bitte", "es": "por favor; de nada", "esApprox": "«BI-te»", "from": "v8" },
+    { "id": "s9", "kind": "word", "target": "Entschuldigung", "es": "perdón, disculpe", "esApprox": "«ent-SHUL-di-gung»", "from": "v9" },
+    { "id": "s10", "kind": "phrase", "target": "Danke schön!", "es": "¡Muchas gracias!", "from": "v7" },
+    { "id": "s11", "kind": "phrase", "target": "Entschuldigung, wo ist die Straße?", "es": "Perdón, ¿dónde está la calle?", "from": "v9" }
+  ]
+}

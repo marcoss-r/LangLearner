@@ -1,0 +1,379 @@
+{
+  "id": "de-a1-004",
+  "lang": "de",
+  "level": "A1",
+  "order": 4,
+  "title": "Pronunciación general II: ä, ö, ü y ß",
+  "objectives": [
+    "Distinguir ä, ö y ü de las vocales a, o, u y de la e española",
+    "Aplicar la regla que decide cuándo se escribe ß y cuándo ss, según la vocal anterior",
+    "Diferenciar los dos sonidos de «ch» en alemán: el suave (ich-Laut) y el gutural (ach-Laut)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Ä, ö y ü no son adornos: cambian palabras enteras",
+      "body": "Ya viste ä, ö y ü en la clase 2. Ahora toca profundizar, porque estos tres caracteres no son un capricho ortográfico: en muchísimas palabras, el Umlaut cambia el número o el significado. Der Vater (el padre) se convierte en die Väter (los padres) solo añadiendo la diéresis a la a. Aprender a oír y pronunciar estos tres sonidos es una de las inversiones más rentables que puedes hacer en alemán.",
+      "examples": [
+        { "target": "der Vater", "es": "el padre", "note": "sin Umlaut" },
+        { "target": "die Väter", "es": "los padres", "note": "con Umlaut: cambia el número" },
+        { "target": "schön", "es": "bonito", "note": "ö, no existe en español" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Reglas rápidas: ä, ö, ü y ß/ss",
+      "headers": ["Regla", "Ejemplo"],
+      "rows": [
+        ["ß aparece tras vocal larga o diptongo", "die Straße (a larga)"],
+        ["ss aparece tras vocal corta", "dass (a corta)"],
+        ["ä = e abierta, más abierta que la e española", "der Vater → die Väter"],
+        ["ö = o con los labios en posición de u", "schön"],
+        ["ü = u con los labios en posición de i", "müde, für"]
+      ],
+      "note": "En Suiza no se usa la ß: se escribe siempre ss, sea cual sea la vocal anterior."
+    },
+    {
+      "type": "phonetics",
+      "title": "Los dos sonidos de «ch»: ich-Laut y ach-Laut",
+      "body": "La combinación ch tiene dos pronunciaciones distintas en alemán, y no es cuestión de suerte: depende de la vocal que va justo antes. Tras vocales «delanteras» (i, e, ä, ö, ü) suena suave, casi como una s aspirada con la lengua cerca del paladar: es el ich-Laut. Tras vocales «traseras» (a, o, u) suena gutural, parecida a la jota española: es el ach-Laut.",
+      "drills": [
+        { "target": "ich", "ipa": "/ɪç/", "esApprox": "«ich», sonido suave, la lengua casi toca el paladar, nada de gutural", "hint": "ich-Laut, tras i" },
+        { "target": "das Buch", "ipa": "/das buːx/", "esApprox": "«das BUJ», sonido gutural, como la jota española pero un poco más suave", "hint": "ach-Laut, tras u" },
+        { "target": "die Straße", "ipa": "/ˈʃtʁaːsə/", "esApprox": "«SHTRA-se», ß tras la a larga", "hint": "ß" },
+        { "target": "dass", "ipa": "/das/", "esApprox": "«das», ss tras la a corta", "hint": "ss" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco para ich-Laut vs ach-Laut: si la vocal antes de la ch es i, e, ä, ö o ü, el sonido es suave (ich). Si es a, o o u, el sonido es gutural, como una jota suave (ach, Buch)."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "der Vater",
+      "es": "el padre",
+      "ipa": "/ˈfaːtɐ/",
+      "esApprox": "«FA-ter», la v suena como f",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Väter",
+      "example": { "target": "Der Vater ist müde.", "es": "El padre está cansado." }
+    },
+    {
+      "id": "v2",
+      "target": "die Mutter",
+      "es": "la madre",
+      "ipa": "/ˈmʊtɐ/",
+      "esApprox": "«MU-ter»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Mütter",
+      "example": { "target": "Die Mutter ist müde.", "es": "La madre está cansada." }
+    },
+    {
+      "id": "v3",
+      "target": "schön",
+      "es": "bonito, bonita; también «bien»",
+      "ipa": "/ʃøːn/",
+      "esApprox": "«shön», boca de u, sonido de e",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Die Straße ist schön.", "es": "La calle es bonita." }
+    },
+    {
+      "id": "v4",
+      "target": "müde",
+      "es": "cansado, cansada",
+      "ipa": "/ˈmyːdə/",
+      "esApprox": "«MÜ-de», boca de u, sonido de i",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Der Vater ist müde.", "es": "El padre está cansado." }
+    },
+    {
+      "id": "v5",
+      "target": "für",
+      "es": "para",
+      "ipa": "/fyːɐ̯/",
+      "esApprox": "«FÜR», boca de u, sonido de i",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Das Buch ist für die Mutter.", "es": "El libro es para la madre." }
+    },
+    {
+      "id": "v6",
+      "target": "die Straße",
+      "es": "la calle",
+      "ipa": "/ˈʃtʁaːsə/",
+      "esApprox": "«SHTRA-se», ß = ss fuerte",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Straßen",
+      "example": { "target": "Die Straße ist sehr schön.", "es": "La calle es muy bonita." }
+    },
+    {
+      "id": "v7",
+      "target": "dass",
+      "es": "que (conjunción)",
+      "ipa": "/das/",
+      "esApprox": "«das», con ss corta, no confundir con das (el/lo)",
+      "pos": "conjunción",
+      "gender": null,
+      "example": { "target": "Ich weiß, dass die Straße schön ist.", "es": "Sé que la calle es bonita." }
+    },
+    {
+      "id": "v8",
+      "target": "das Buch",
+      "es": "el libro",
+      "ipa": "/buːx/",
+      "esApprox": "«BUJ», con el sonido gutural del ach-Laut al final",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Bücher",
+      "example": { "target": "Das Buch ist für die Mutter.", "es": "El libro es para la madre." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["umlaut"],
+      "difficulty": 1,
+      "prompt": "¿Qué cambia el Umlaut en «Mütter» respecto a «Mutter»?",
+      "options": ["El número: de madre a madres", "No cambia nada", "El género", "Es un error ortográfico"],
+      "answer": 0,
+      "explain": "die Mutter (madre) → die Mütter (madres): el Umlaut marca aquí el plural."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["umlaut"],
+      "difficulty": 1,
+      "prompt": "¿Cuándo se escribe ß en vez de ss?",
+      "options": ["Tras vocal larga o diptongo", "Tras vocal corta", "Son intercambiables siempre", "Solo al final de la palabra"],
+      "answer": 0,
+      "explain": "ß aparece tras vocal larga (Straße); ss aparece tras vocal corta (dass)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["umlaut"],
+      "difficulty": 1,
+      "statement": "El ich-Laut (como en «ich») es un sonido suave, con la lengua cerca del paladar.",
+      "answer": true,
+      "explain": "El ich-Laut aparece tras vocales delanteras (i, e, ä, ö, ü) y suena suave."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["umlaut"],
+      "difficulty": 1,
+      "statement": "El ach-Laut (como en «Buch») suena exactamente igual que el ich-Laut.",
+      "answer": false,
+      "explain": "El ach-Laut es gutural, parecido a la jota española; el ich-Laut es mucho más suave."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO lleva ninguno de los tres Umlaute (ä, ö, ü)?",
+      "options": ["schön", "müde", "Vater", "für"],
+      "answer": 2,
+      "explain": "Vater no lleva Umlaut en singular; en cambio su plural, Väter, sí."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["Vater", "Mutter", "schön", "müde"],
+      "right": ["padre", "madre", "bonito", "cansado"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Vocabulario básico de esta clase, cargado de los tres Umlaute."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "prompt": "El padre está cansado.",
+      "accept": ["Der Vater ist müde"],
+      "hintWords": ["der Vater", "ist", "müde"],
+      "strictAccents": false,
+      "audio": "Der Vater ist müde.",
+      "explain": "müde lleva ü: boca en posición de u, sonido de i."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "prompt": "La calle es bonita.",
+      "accept": ["Die Straße ist schön"],
+      "hintWords": ["die Straße", "ist", "schön"],
+      "strictAccents": false,
+      "audio": "Die Straße ist schön.",
+      "explain": "schön lleva ö: boca en posición de u, sonido de e."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra que falta",
+      "text": "Der Vater ist ___. Die Straße ist sehr ___.",
+      "blanks": [{ "accept": ["müde"] }, { "accept": ["schön"] }],
+      "bank": ["müde", "schön", "für"],
+      "explain": "müde (cansado) y schön (bonito) llevan Umlaut: ü y ö."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La madre está cansada»",
+      "tokens": ["ist", "Mutter", "müde", "Die"],
+      "answer": ["Die", "Mutter", "ist", "müde"],
+      "audio": "Die Mutter ist müde.",
+      "explain": "Die Mutter + ist + müde: el mismo orden que ya conoces."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["umlaut"],
+      "difficulty": 1,
+      "prompt": "Die Straße ist schön.",
+      "accept": ["La calle es bonita."],
+      "strictAccents": false,
+      "audio": "Die Straße ist schön.",
+      "explain": "Straße lleva ß (tras vocal larga); schön lleva ö."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre la familia",
+      "turns": [
+        { "who": "Anna", "text": "Ist der Vater müde?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, der Vater ist sehr müde."], "hint": "dile que sí, que está muy cansado" },
+        { "who": "Anna", "text": "Und die Mutter?", "speak": true }
+      ],
+      "explain": "müde (cansado) es uno de los adjetivos más útiles de esta clase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "speak": "Die Straße ist schön.",
+      "mode": "write",
+      "accept": ["Die Straße ist schön"],
+      "showTextAfter": true,
+      "explain": "Die Straße ist schön = la calle es bonita."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "speak": "Der Vater ist müde.",
+      "mode": "choose",
+      "options": ["Der Vater ist müde.", "Die Mutter ist müde.", "Die Straße ist müde."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Escucha bien la primera palabra: Vater, Mutter y Straße suenan muy distintas."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "speak": "Die Straße ist schön.",
+      "es": "La calle es bonita.",
+      "ipa": "/diː ˈʃtʁaːsə ɪst ʃøːn/",
+      "esApprox": "«di SHTRA-se ist shön»",
+      "focus": "En schön, pon la boca como para decir «u» pero pronuncia «e»: es el sonido ö.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "speak": "Das Buch ist für die Mutter.",
+      "es": "El libro es para la madre.",
+      "ipa": "/das buːx ɪst fyːɐ̯ diː ˈmʊtɐ/",
+      "esApprox": "«das BUJ ist für di MU-ter»",
+      "focus": "Buch termina en ach-Laut, un sonido gutural parecido a la jota; für lleva ü, boca de u con sonido de i.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si la calle es bonita. Responde que sí, que es muy bonita.",
+      "modelAnswer": "Ja, die Straße ist sehr schön.",
+      "alsoValid": ["Die Straße ist sehr schön."],
+      "speak": "Ja, die Straße ist sehr schön.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "gender_article",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Vater", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Mutter", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Straße", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Buch", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" }
+      ],
+      "explain": "Vater es masculino, Mutter y Straße femeninas, Buch neutro."
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["umlaut"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra según su género: der, die o das",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Vater", "bucket": 0 },
+        { "text": "Mutter", "bucket": 1 },
+        { "text": "Straße", "bucket": 1 },
+        { "text": "Buch", "bucket": 2 }
+      ],
+      "explain": "Un ejemplo de cada género en esta clase: der Vater, die Mutter/Straße, das Buch."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["mayuscula-sustantivos", "umlaut"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Die Buch ist für die Mutter.",
+      "accept": ["Das Buch ist für die Mutter"],
+      "audio": "Das Buch ist für die Mutter.",
+      "explain": "Buch es neutro (das, no die): uno de los géneros que hay que memorizar palabra por palabra."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Vater", "es": "el padre", "esApprox": "«FA-ter»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Mutter", "es": "la madre", "esApprox": "«MU-ter»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "schön", "es": "bonito, bonita", "esApprox": "«shön»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "müde", "es": "cansado, cansada", "esApprox": "«MÜ-de»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "für", "es": "para", "esApprox": "«FÜR»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Straße", "es": "la calle", "esApprox": "«SHTRA-se»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "das Buch", "es": "el libro", "esApprox": "«BUJ»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Die Straße ist schön.", "es": "La calle es bonita.", "from": "e15" },
+    { "id": "s9", "kind": "phrase", "target": "Das Buch ist für die Mutter.", "es": "El libro es para la madre.", "from": "e16" },
+    { "id": "s10", "kind": "phrase", "target": "Der Vater ist müde.", "es": "El padre está cansado.", "from": "e7" }
+  ]
+}
