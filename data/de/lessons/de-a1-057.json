@@ -1,0 +1,373 @@
+{
+  "id": "de-a1-057",
+  "lang": "de",
+  "level": "A1",
+  "order": 57,
+  "title": "La compra, los precios y las cantidades",
+  "objectives": [
+    "Aprender las unidades de cantidad: Kilo, Gramm, Liter, Packung, Flasche",
+    "Combinar las cantidades con los alimentos y los precios ya conocidos",
+    "Usar mehr (más) y weniger (menos) para matizar una cantidad"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cantidades concretas para ir de compras",
+      "body": "Para comprar cantidades concretas de algo, el alemán pone la unidad justo delante del alimento, sin ninguna preposición: «ein Kilo Käse» (un kilo de queso), sin «von» en medio, a diferencia del inglés «a kilo OF cheese».",
+      "examples": [
+        { "target": "Ich möchte ein Kilo Käse.", "es": "Quisiera un kilo de queso.", "note": "sin preposición entre Kilo y Käse" },
+        { "target": "Ich möchte eine Flasche Milch.", "es": "Quisiera una botella de leche.", "note": "eine Flasche + alimento" },
+        { "target": "Ich möchte mehr Brot, bitte.", "es": "Quisiera más pan, por favor.", "note": "mehr + alimento" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Unidades de cantidad",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["das Kilo", "el kilo"],
+        ["das Gramm", "el gramo"],
+        ["der Liter", "el litro"],
+        ["die Packung", "el paquete"],
+        ["die Flasche", "la botella"],
+        ["genug", "suficiente"],
+        ["mehr", "más"],
+        ["weniger", "menos"]
+      ],
+      "note": "Kilo, Gramm y Liter no cambian de forma en plural cuando van con un número: zwei Kilo, no zwei Kilos."
+    },
+    {
+      "type": "tip",
+      "body": "Combina las unidades de cantidad con los números que ya conoces: «zweihundert Gramm Käse» (doscientos gramos de queso), «zwei Liter Milch» (dos litros de leche), siempre sin preposición entre la cantidad y el alimento."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "das Kilo",
+      "es": "el kilo",
+      "ipa": "/ˈkiːlo/",
+      "esApprox": "«KÍ-lo»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Kilo",
+      "example": { "target": "Ich möchte ein Kilo Käse.", "es": "Quisiera un kilo de queso." }
+    },
+    {
+      "id": "v2",
+      "target": "das Gramm",
+      "es": "el gramo",
+      "ipa": "/ɡʁam/",
+      "esApprox": "«gram»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Gramm",
+      "example": { "target": "Ich möchte hundert Gramm Käse.", "es": "Quisiera cien gramos de queso." }
+    },
+    {
+      "id": "v3",
+      "target": "der Liter",
+      "es": "el litro",
+      "ipa": "/ˈliːtɐ/",
+      "esApprox": "«LÍ-ter»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Liter",
+      "example": { "target": "Ich möchte einen Liter Milch.", "es": "Quisiera un litro de leche." }
+    },
+    {
+      "id": "v4",
+      "target": "die Packung",
+      "es": "el paquete",
+      "ipa": "/ˈpakʊŋ/",
+      "esApprox": "«PA-kung»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Packungen",
+      "example": { "target": "Ich möchte eine Packung Reis.", "es": "Quisiera un paquete de arroz." }
+    },
+    {
+      "id": "v5",
+      "target": "die Flasche",
+      "es": "la botella",
+      "ipa": "/ˈflaʃə/",
+      "esApprox": "«FLA-she»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Flaschen",
+      "example": { "target": "Ich möchte eine Flasche Milch.", "es": "Quisiera una botella de leche." }
+    },
+    {
+      "id": "v6",
+      "target": "genug",
+      "es": "suficiente",
+      "ipa": "/ɡəˈnuːk/",
+      "esApprox": "«gue-NUK»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Das ist genug.", "es": "Eso es suficiente." }
+    },
+    {
+      "id": "v7",
+      "target": "mehr",
+      "es": "más",
+      "ipa": "/meːɐ̯/",
+      "esApprox": "«mer»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Ich möchte mehr Brot.", "es": "Quisiera más pan." }
+    },
+    {
+      "id": "v8",
+      "target": "weniger",
+      "es": "menos",
+      "ipa": "/ˈveːnɪɡɐ/",
+      "esApprox": "«VÉ-ni-guer»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Ich möchte weniger Reis.", "es": "Quisiera menos arroz." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["precios"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «un kilo de queso» en alemán?",
+      "options": ["ein Kilo von Käse", "ein Kilo Käse", "ein Käse Kilo", "eine Kilo Käse"],
+      "answer": 1,
+      "explain": "ein Kilo Käse, sin ninguna preposición en medio."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["compras"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «weniger»?",
+      "options": ["más", "menos", "suficiente", "mucho"],
+      "answer": 1,
+      "explain": "weniger = menos."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["precios"],
+      "difficulty": 1,
+      "statement": "Die Flasche significa «la botella».",
+      "answer": true,
+      "explain": "die Flasche = la botella."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "statement": "Kilo, Gramm y Liter cambian de forma en plural cuando van con un número.",
+      "answer": false,
+      "explain": "zwei Kilo, no zwei Kilos: se quedan invariables tras un número."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas NO es una unidad de cantidad?",
+      "options": ["Kilo", "Liter", "Packung", "Kellner"],
+      "answer": 3,
+      "explain": "Kellner es el camarero, no una unidad de cantidad."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["precios"],
+      "difficulty": 1,
+      "prompt": "Une cada unidad con su significado",
+      "left": ["Kilo", "Gramm", "Liter", "Flasche"],
+      "right": ["gramo", "kilo", "botella", "litro"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro unidades de cantidad frecuentes."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "prompt": "Quisiera un kilo de queso.",
+      "accept": ["Ich möchte ein Kilo Käse"],
+      "hintWords": ["ich möchte ein Kilo Käse"],
+      "strictAccents": false,
+      "audio": "Ich möchte ein Kilo Käse.",
+      "explain": "möchte + ein Kilo Käse, sin preposición."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Quisiera más pan.",
+      "accept": ["Ich möchte mehr Brot"],
+      "hintWords": ["ich möchte mehr Brot"],
+      "strictAccents": false,
+      "audio": "Ich möchte mehr Brot.",
+      "explain": "mehr + alimento, sin artículo."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Ich möchte eine ___ Milch. Ich möchte eine ___ Reis.",
+      "blanks": [{ "accept": ["Flasche"] }, { "accept": ["Packung"] }],
+      "bank": ["Flasche", "Packung", "Kilo"],
+      "explain": "eine Flasche Milch; eine Packung Reis."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Quisiera un litro de leche»",
+      "tokens": ["Milch", "Ich", "einen", "möchte", "Liter"],
+      "answer": ["Ich", "möchte", "einen", "Liter", "Milch"],
+      "audio": "Ich möchte einen Liter Milch.",
+      "explain": "einen Liter: Liter es masculino, acusativo tras möchte."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["compras"],
+      "difficulty": 1,
+      "prompt": "Das ist genug.",
+      "accept": ["Eso es suficiente."],
+      "strictAccents": false,
+      "audio": "Das ist genug.",
+      "explain": "genug = suficiente."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en el mercado",
+      "turns": [
+        { "who": "Verkäufer", "text": "Wie viel Käse möchten Sie?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ich möchte ein Kilo Käse."], "hint": "pide un kilo de queso" },
+        { "who": "Verkäufer", "text": "Gerne!", "speak": true }
+      ],
+      "explain": "ein Kilo Käse, sin preposición."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["precios"],
+      "difficulty": 1,
+      "speak": "Ich möchte ein Kilo Käse.",
+      "mode": "write",
+      "accept": ["Ich möchte ein Kilo Käse"],
+      "showTextAfter": true,
+      "explain": "Ich möchte ein Kilo Käse = quisiera un kilo de queso."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "speak": "Ich möchte mehr Brot.",
+      "mode": "choose",
+      "options": ["Ich möchte mehr Brot.", "Ich möchte weniger Brot.", "Ich möchte genug Brot."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "mehr, weniger y genug cambian el sentido de la frase."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "speak": "Ich möchte ein Kilo Käse und eine Flasche Milch.",
+      "es": "Quisiera un kilo de queso y una botella de leche.",
+      "ipa": "/ɪç ˈmœçtə aɪ̯n ˈkiːlo ˈkɛːzə ʊnt ˈaɪ̯nə ˈflaʃə mɪlç/",
+      "esApprox": "«ich MÖCH-te ain KÍ-lo KÉ-se unt AI-ne FLA-she milch»",
+      "focus": "Kilo y Käse van seguidos, sin ninguna palabra entre ellos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "speak": "Das ist genug, ich möchte nicht mehr.",
+      "es": "Eso es suficiente, no quiero más.",
+      "ipa": "/das ɪst ɡəˈnuːk ɪç ˈmœçtə nɪçt meːɐ̯/",
+      "esApprox": "«das ist gue-NUK, ich MÖCH-te nicht mer»",
+      "focus": "genug lleva el acento en la última sílaba: gue-NUK.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "prompt": "Estás en el mercado y quieres pedir doscientos gramos de queso.",
+      "modelAnswer": "Ich möchte zweihundert Gramm Käse.",
+      "alsoValid": ["Ich möchte 200 Gramm Käse."],
+      "speak": "Ich möchte zweihundert Gramm Käse.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada unidad según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Kilo", "bucket": 2 },
+        { "text": "Gramm", "bucket": 2 },
+        { "text": "Liter", "bucket": 0 },
+        { "text": "Packung", "bucket": 1 },
+        { "text": "Flasche", "bucket": 1 }
+      ],
+      "explain": "Kilo y Gramm son neutros; Liter, masculino; Packung y Flasche, femeninas."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich möchte ein Kilo von Käse.",
+      "accept": ["Ich möchte ein Kilo Käse"],
+      "audio": "Ich möchte ein Kilo Käse.",
+      "explain": "No se usa von entre la cantidad y el alimento: ein Kilo Käse, sin preposición."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["precios"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Kilo", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Liter", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Packung", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Flasche", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" }
+      ],
+      "explain": "Kilo neutro, Liter masculino, Packung y Flasche femeninas."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Kilo", "es": "el kilo", "esApprox": "«KÍ-lo»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Gramm", "es": "el gramo", "esApprox": "«gram»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Liter", "es": "el litro", "esApprox": "«LÍ-ter»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Packung", "es": "el paquete", "esApprox": "«PA-kung»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Flasche", "es": "la botella", "esApprox": "«FLA-she»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "genug", "es": "suficiente", "esApprox": "«gue-NUK»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "mehr", "es": "más", "esApprox": "«mer»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "weniger", "es": "menos", "esApprox": "«VÉ-ni-guer»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich möchte ein Kilo Käse und eine Flasche Milch.", "es": "Quisiera un kilo de queso y una botella de leche.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Das ist genug, ich möchte nicht mehr.", "es": "Eso es suficiente, no quiero más.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "id": "de-a1-062",
+  "lang": "de",
+  "level": "A1",
+  "order": 62,
+  "title": "Los animales",
+  "objectives": [
+    "Aprender el vocabulario de animales domésticos y de granja: Vogel, Kuh, Pferd, Schwein",
+    "Aprender animales salvajes frecuentes: Löwe, Elefant, Maus",
+    "Practicar el género y el plural de estos sustantivos, reforzando lo ya visto en clases anteriores"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Animales domésticos, de granja y salvajes",
+      "body": "Ya conoces der Hund y die Katze desde la clase 17. Esta clase amplía el vocabulario con animales de granja y algunos salvajes muy frecuentes en libros y conversaciones básicas.",
+      "examples": [
+        { "target": "Das Pferd ist schön.", "es": "El caballo es bonito.", "note": "das Pferd, neutro" },
+        { "target": "Die Kuh ist braun.", "es": "La vaca es marrón.", "note": "die Kuh, femenino" },
+        { "target": "Der Löwe ist stark.", "es": "El león es fuerte.", "note": "der Löwe, masculino" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de animales",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["der Vogel", "el pájaro"],
+        ["die Kuh", "la vaca"],
+        ["das Pferd", "el caballo"],
+        ["das Schwein", "el cerdo"],
+        ["die Maus", "el ratón"],
+        ["der Löwe", "el león"],
+        ["der Elefant", "el elefante"],
+        ["der Hund", "el perro"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Der Löwe y der Elefant siguen una declinación especial (añaden -n en casi todos los casos menos el nominativo singular: den Löwen, dem Elefanten), pero en A1 basta con que reconozcas la forma básica; profundizarás en esa declinación más adelante."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "der Vogel",
+      "es": "el pájaro",
+      "ipa": "/ˈfoːɡl̩/",
+      "esApprox": "«FÓ-guel»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Vögel",
+      "example": { "target": "Der Vogel ist klein.", "es": "El pájaro es pequeño." }
+    },
+    {
+      "id": "v2",
+      "target": "die Kuh",
+      "es": "la vaca",
+      "ipa": "/kuː/",
+      "esApprox": "«ku»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Kühe",
+      "example": { "target": "Die Kuh ist braun.", "es": "La vaca es marrón." }
+    },
+    {
+      "id": "v3",
+      "target": "das Pferd",
+      "es": "el caballo",
+      "ipa": "/pfeːɐ̯t/",
+      "esApprox": "«pfert»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Pferde",
+      "example": { "target": "Das Pferd ist schön.", "es": "El caballo es bonito." }
+    },
+    {
+      "id": "v4",
+      "target": "das Schwein",
+      "es": "el cerdo",
+      "ipa": "/ʃvaɪ̯n/",
+      "esApprox": "«shvain»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Schweine",
+      "example": { "target": "Das Schwein ist rosa.", "es": "El cerdo es rosa." }
+    },
+    {
+      "id": "v5",
+      "target": "die Maus",
+      "es": "el ratón",
+      "ipa": "/maʊ̯s/",
+      "esApprox": "«maus»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Mäuse",
+      "example": { "target": "Die Maus ist klein.", "es": "El ratón es pequeño." }
+    },
+    {
+      "id": "v6",
+      "target": "der Löwe",
+      "es": "el león",
+      "ipa": "/ˈløːvə/",
+      "esApprox": "«LÖ-ve»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Löwen",
+      "example": { "target": "Der Löwe ist stark.", "es": "El león es fuerte." }
+    },
+    {
+      "id": "v7",
+      "target": "der Elefant",
+      "es": "el elefante",
+      "ipa": "/eleˈfant/",
+      "esApprox": "«e-le-FANT»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Elefanten",
+      "example": { "target": "Der Elefant ist groß.", "es": "El elefante es grande." }
+    },
+    {
+      "id": "v8",
+      "target": "der Hund",
+      "es": "el perro",
+      "ipa": "/hʊnt/",
+      "esApprox": "«junt»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Hunde",
+      "example": { "target": "Der Hund ist braun.", "es": "El perro es marrón." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «vaca» en alemán?",
+      "options": ["Pferd", "Kuh", "Schwein", "Maus"],
+      "answer": 1,
+      "explain": "die Kuh = la vaca."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «león» en alemán?",
+      "options": ["Elefant", "Löwe", "Vogel", "Maus"],
+      "answer": 1,
+      "explain": "der Löwe = el león."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "statement": "Das Pferd significa «el caballo».",
+      "answer": true,
+      "explain": "das Pferd = el caballo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "statement": "Der Elefant significa «el ratón».",
+      "answer": false,
+      "explain": "Der Elefant es el elefante; «el ratón» es die Maus."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas palabras NO es un animal?",
+      "options": ["Kuh", "Pferd", "Apotheke", "Löwe"],
+      "answer": 2,
+      "explain": "Apotheke es la farmacia, no un animal."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "prompt": "Une cada animal con su significado",
+      "left": ["Vogel", "Kuh", "Pferd", "Schwein"],
+      "right": ["caballo", "pájaro", "cerdo", "vaca"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Cuatro animales de granja y campo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "El caballo es bonito.",
+      "accept": ["Das Pferd ist schön"],
+      "hintWords": ["das Pferd ist schön"],
+      "strictAccents": false,
+      "audio": "Das Pferd ist schön.",
+      "explain": "das Pferd = el caballo, neutro."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "El león es fuerte.",
+      "accept": ["Der Löwe ist stark"],
+      "hintWords": ["der Löwe ist stark"],
+      "strictAccents": false,
+      "audio": "Der Löwe ist stark.",
+      "explain": "der Löwe = el león, masculino."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Die ___ ist braun. Das ___ ist rosa.",
+      "blanks": [{ "accept": ["Kuh"] }, { "accept": ["Schwein"] }],
+      "bank": ["Kuh", "Schwein", "Maus"],
+      "explain": "Kuh (femenino) es marrón; Schwein (neutro) es rosa."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El elefante es grande»",
+      "tokens": ["groß", "Der", "ist", "Elefant"],
+      "answer": ["Der", "Elefant", "ist", "groß"],
+      "audio": "Der Elefant ist groß.",
+      "explain": "Der Elefant + ist + groß."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "prompt": "Die Maus ist klein.",
+      "accept": ["El ratón es pequeño."],
+      "strictAccents": false,
+      "audio": "Die Maus ist klein.",
+      "explain": "die Maus = el ratón."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du einen Hund?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, ich habe einen Vogel."], "hint": "responde que no, que tienes un pájaro" },
+        { "who": "Anna", "text": "Wie schön!", "speak": true }
+      ],
+      "explain": "einen Vogel: Vogel es masculino, acusativo einen."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["animales"],
+      "difficulty": 1,
+      "speak": "Das Pferd ist schön.",
+      "mode": "write",
+      "accept": ["Das Pferd ist schön"],
+      "showTextAfter": true,
+      "explain": "Das Pferd ist schön = el caballo es bonito."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "speak": "Der Löwe ist stark.",
+      "mode": "choose",
+      "options": ["Der Löwe ist stark.", "Der Elefant ist stark.", "Der Vogel ist stark."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Löwe, Elefant y Vogel suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "speak": "Der Löwe ist stark, und die Maus ist klein.",
+      "es": "El león es fuerte, y el ratón es pequeño.",
+      "ipa": "/deːɐ̯ ˈløːvə ɪst ʃtaʁk ʊnt diː maʊ̯s ɪst klaɪ̯n/",
+      "esApprox": "«der LÖ-ve ist shtark unt di maus ist klain»",
+      "focus": "Löwe lleva el sonido ö, con los labios en posición de o pero pronunciando e.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "speak": "Die Kuh und das Pferd sind auf dem Bauernhof.",
+      "es": "La vaca y el caballo están en la granja.",
+      "ipa": "/diː kuː ʊnt das pfeːɐ̯t zɪnt aʊ̯f deːm ˈbaʊ̯ɐnhoːf/",
+      "esApprox": "«di ku unt das pfert zint auf dem BAU-ern-jof»",
+      "focus": "Bauernhof (la granja) es una palabra nueva que reconoces por Bauer + Hof: aparece aquí solo para escuchar.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si tienes un perro. Responde que no, que tienes un pájaro.",
+      "modelAnswer": "Nein, ich habe einen Vogel.",
+      "alsoValid": ["Ich habe einen Vogel."],
+      "speak": "Nein, ich habe einen Vogel.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada animal según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Vogel", "bucket": 0 },
+        { "text": "Kuh", "bucket": 1 },
+        { "text": "Pferd", "bucket": 2 },
+        { "text": "Schwein", "bucket": 2 },
+        { "text": "Maus", "bucket": 1 },
+        { "text": "Löwe", "bucket": 0 }
+      ],
+      "explain": "Vogel y Löwe son masculinos; Kuh y Maus, femeninas; Pferd y Schwein, neutros."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Der Pferd ist schön.",
+      "accept": ["Das Pferd ist schön"],
+      "audio": "Das Pferd ist schön.",
+      "explain": "Pferd es neutro (das), no masculino."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["animales"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Vogel", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Kuh", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Pferd", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Löwe", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" }
+      ],
+      "explain": "Vogel y Löwe masculinos, Kuh femenino, Pferd neutro."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Vogel", "es": "el pájaro", "esApprox": "«FÓ-guel»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Kuh", "es": "la vaca", "esApprox": "«ku»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Pferd", "es": "el caballo", "esApprox": "«pfert»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Schwein", "es": "el cerdo", "esApprox": "«shvain»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Maus", "es": "el ratón", "esApprox": "«maus»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Löwe", "es": "el león", "esApprox": "«LÖ-ve»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "der Elefant", "es": "el elefante", "esApprox": "«e-le-FANT»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "Der Löwe ist stark, und die Maus ist klein.", "es": "El león es fuerte, y el ratón es pequeño.", "from": "e15" },
+    { "id": "s9", "kind": "phrase", "target": "Die Kuh und das Pferd sind auf dem Bauernhof.", "es": "La vaca y el caballo están en la granja.", "from": "e16" }
+  ]
+}

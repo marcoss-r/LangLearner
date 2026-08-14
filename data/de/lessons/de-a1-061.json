@@ -1,0 +1,372 @@
+{
+  "id": "de-a1-061",
+  "lang": "de",
+  "level": "A1",
+  "order": 61,
+  "title": "En el médico: decir que te duele algo",
+  "objectives": [
+    "Usar wehtun (doler) con dativo: Der Kopf tut mir weh",
+    "Aprender vocabulario de síntomas: krank, Fieber, Husten, Erkältung",
+    "Combinar las partes del cuerpo (clase 60) con wehtun para describir un dolor"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Wehtun: un verbo separable que rige dativo",
+      "body": "Para decir que algo te duele, el alemán usa wehtun, un verbo separable (como aufstehen) que además rige dativo (como helfen o gefallen): la parte del cuerpo es el sujeto, y la persona a quien le duele va en dativo. Es exactamente la misma estructura que gefallen (clase 38): «Das gefällt mir» / «Der Kopf tut mir weh».",
+      "examples": [
+        { "target": "Der Kopf tut mir weh.", "es": "Me duele la cabeza.", "note": "Kopf (sujeto) + tut...weh (verbo) + mir (dativo)" },
+        { "target": "Ich bin krank.", "es": "Estoy enfermo.", "note": "sein + krank" },
+        { "target": "Ich habe Fieber.", "es": "Tengo fiebre.", "note": "haben + Fieber, sin artículo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de salud",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["wehtun", "doler"],
+        ["krank", "enfermo"],
+        ["gesund", "sano"],
+        ["die Erkältung", "el resfriado"],
+        ["das Fieber", "la fiebre"],
+        ["der Husten", "la tos"],
+        ["die Tablette", "la pastilla"],
+        ["die Apotheke", "la farmacia"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para decir qué te duele, combina cualquier parte del cuerpo de la clase 60 con tut mir weh: «Der Bauch tut mir weh», «Der Rücken tut mir weh», «Die Hand tut mir weh». Es una fórmula muy productiva."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "wehtun",
+      "es": "doler",
+      "ipa": "/ˈveːtuːn/",
+      "esApprox": "«VÉ-tun»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Der Kopf tut mir weh.", "es": "Me duele la cabeza." }
+    },
+    {
+      "id": "v2",
+      "target": "krank",
+      "es": "enfermo",
+      "ipa": "/kʁaŋk/",
+      "esApprox": "«krank»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Ich bin krank.", "es": "Estoy enfermo." }
+    },
+    {
+      "id": "v3",
+      "target": "gesund",
+      "es": "sano",
+      "ipa": "/ɡəˈzʊnt/",
+      "esApprox": "«gue-ZUNT»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Ich bin gesund.", "es": "Estoy sano." }
+    },
+    {
+      "id": "v4",
+      "target": "die Erkältung",
+      "es": "el resfriado",
+      "ipa": "/ɛɐ̯ˈkɛltʊŋ/",
+      "esApprox": "«er-KEL-tung»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Erkältungen",
+      "example": { "target": "Ich habe eine Erkältung.", "es": "Tengo un resfriado." }
+    },
+    {
+      "id": "v5",
+      "target": "das Fieber",
+      "es": "la fiebre",
+      "ipa": "/ˈfiːbɐ/",
+      "esApprox": "«FÍ-ber»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Ich habe Fieber.", "es": "Tengo fiebre." }
+    },
+    {
+      "id": "v6",
+      "target": "der Husten",
+      "es": "la tos",
+      "ipa": "/ˈhuːstən/",
+      "esApprox": "«JÚS-ten»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": null,
+      "example": { "target": "Ich habe Husten.", "es": "Tengo tos." }
+    },
+    {
+      "id": "v7",
+      "target": "die Tablette",
+      "es": "la pastilla",
+      "ipa": "/taˈblɛtə/",
+      "esApprox": "«ta-BLE-te»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Tabletten",
+      "example": { "target": "Ich brauche eine Tablette.", "es": "Necesito una pastilla." }
+    },
+    {
+      "id": "v8",
+      "target": "die Apotheke",
+      "es": "la farmacia",
+      "ipa": "/apoˈteːkə/",
+      "esApprox": "«a-po-TÉ-ke»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Apotheken",
+      "example": { "target": "Die Apotheke ist geradeaus.", "es": "La farmacia está todo recto." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["salud"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «me duele la cabeza»?",
+      "options": ["Ich habe Kopf.", "Der Kopf tut mir weh.", "Ich bin Kopf.", "Der Kopf ist krank."],
+      "answer": 1,
+      "explain": "Der Kopf tut mir weh: la parte del cuerpo es el sujeto, mir es el dativo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["medico"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «krank»?",
+      "options": ["sano", "enfermo", "cansado", "feliz"],
+      "answer": 1,
+      "explain": "krank = enfermo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "statement": "Wehtun rige dativo, igual que gefallen.",
+      "answer": true,
+      "explain": "La persona a quien le duele algo va en dativo: mir, dir, ihm..."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["salud"],
+      "difficulty": 1,
+      "statement": "Die Apotheke significa «el hospital».",
+      "answer": false,
+      "explain": "Die Apotheke es la farmacia; «el hospital» es das Krankenhaus."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["salud"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas palabras NO está relacionada con estar enfermo?",
+      "options": ["Fieber", "Husten", "Erkältung", "Firma"],
+      "answer": 3,
+      "explain": "Firma es la empresa, no está relacionada con la salud."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["salud"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["krank", "gesund", "Fieber", "Husten"],
+      "right": ["sano", "enfermo", "tos", "fiebre"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro palabras clave de la salud."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Me duele la cabeza.",
+      "accept": ["Der Kopf tut mir weh"],
+      "hintWords": ["der Kopf tut mir weh"],
+      "strictAccents": false,
+      "audio": "Der Kopf tut mir weh.",
+      "explain": "Kopf (sujeto) + tut...weh (verbo) + mir (dativo)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Tengo fiebre.",
+      "accept": ["Ich habe Fieber"],
+      "hintWords": ["ich habe Fieber"],
+      "strictAccents": false,
+      "audio": "Ich habe Fieber.",
+      "explain": "haben + Fieber, sin artículo."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Ich bin ___. Der Bauch tut ___ weh.",
+      "blanks": [{ "accept": ["krank"] }, { "accept": ["mir"] }],
+      "bank": ["krank", "mir", "gesund"],
+      "explain": "krank (enfermo); mir (dativo, a mí)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Me duele la espalda»",
+      "tokens": ["mir", "Der", "weh", "Rücken", "tut"],
+      "answer": ["Der", "Rücken", "tut", "mir", "weh"],
+      "audio": "Der Rücken tut mir weh.",
+      "explain": "Der Rücken + tut (posición 2) + mir + weh (final, prefijo separable)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["salud"],
+      "difficulty": 1,
+      "prompt": "Ich brauche eine Tablette.",
+      "accept": ["Necesito una pastilla."],
+      "strictAccents": false,
+      "audio": "Ich brauche eine Tablette.",
+      "explain": "eine Tablette = una pastilla."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en el médico",
+      "turns": [
+        { "who": "Arzt", "text": "Was tut Ihnen weh?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Der Kopf tut mir weh."], "hint": "dile que te duele la cabeza" },
+        { "who": "Arzt", "text": "Sie brauchen eine Tablette.", "speak": true }
+      ],
+      "explain": "Was tut Ihnen weh? es la pregunta formal para saber qué te duele; Ihnen es el dativo de Sie."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["salud"],
+      "difficulty": 1,
+      "speak": "Der Kopf tut mir weh.",
+      "mode": "write",
+      "accept": ["Der Kopf tut mir weh"],
+      "showTextAfter": true,
+      "explain": "Der Kopf tut mir weh = me duele la cabeza."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "speak": "Ich habe Fieber.",
+      "mode": "choose",
+      "options": ["Ich habe Fieber.", "Ich habe Husten.", "Ich bin krank."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Fieber, Husten y krank suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "speak": "Ich bin krank, und der Kopf tut mir weh.",
+      "es": "Estoy enfermo, y me duele la cabeza.",
+      "ipa": "/ɪç bɪn kʁaŋk ʊnt deːɐ̯ kɔpf tuːt miːɐ̯ veː/",
+      "esApprox": "«ich bin krank unt der kopf tut mir ve»",
+      "focus": "tut weh: weh se pronuncia «ve», con una v que suena como f suave.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "speak": "Ich habe eine Erkältung und Husten.",
+      "es": "Tengo un resfriado y tos.",
+      "ipa": "/ɪç ˈhaːbə ˈaɪ̯nə ɛɐ̯ˈkɛltʊŋ ʊnt ˈhuːstən/",
+      "esApprox": "«ich HÁ-be AI-ne er-KEL-tung unt JÚS-ten»",
+      "focus": "Erkältung lleva el Umlaut ä, con sonido de e abierta.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "El médico te pregunta qué te duele. Dile que te duele la barriga.",
+      "modelAnswer": "Der Bauch tut mir weh.",
+      "alsoValid": ["Mein Bauch tut weh."],
+      "speak": "Der Bauch tut mir weh.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra: ¿describe estar sano o enfermo?",
+      "buckets": ["Sano", "Enfermo"],
+      "items": [
+        { "text": "gesund", "bucket": 0 },
+        { "text": "krank", "bucket": 1 },
+        { "text": "Fieber", "bucket": 1 },
+        { "text": "Husten", "bucket": 1 },
+        { "text": "Erkältung", "bucket": 1 }
+      ],
+      "explain": "Solo gesund describe estar sano; el resto son síntomas o enfermedad."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Der Kopf tut mich weh.",
+      "accept": ["Der Kopf tut mir weh"],
+      "audio": "Der Kopf tut mir weh.",
+      "explain": "wehtun rige dativo: mich (acusativo) debe ser mir (dativo)."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Erkältung", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Fieber", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Husten", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Apotheke", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" }
+      ],
+      "explain": "Erkältung y Apotheke son femeninas, Fieber neutro, Husten masculino."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "wehtun", "es": "doler", "esApprox": "«VÉ-tun»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "krank", "es": "enfermo", "esApprox": "«krank»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "gesund", "es": "sano", "esApprox": "«gue-ZUNT»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Erkältung", "es": "el resfriado", "esApprox": "«er-KEL-tung»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Fieber", "es": "la fiebre", "esApprox": "«FÍ-ber»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Husten", "es": "la tos", "esApprox": "«JÚS-ten»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "die Tablette", "es": "la pastilla", "esApprox": "«ta-BLE-te»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "die Apotheke", "es": "la farmacia", "esApprox": "«a-po-TÉ-ke»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich bin krank, und der Kopf tut mir weh.", "es": "Estoy enfermo, y me duele la cabeza.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Ich habe eine Erkältung und Husten.", "es": "Tengo un resfriado y tos.", "from": "e16" }
+  ]
+}

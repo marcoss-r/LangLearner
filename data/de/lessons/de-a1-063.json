@@ -1,0 +1,366 @@
+{
+  "id": "de-a1-063",
+  "lang": "de",
+  "level": "A1",
+  "order": 63,
+  "title": "El tiempo meteorológico",
+  "objectives": [
+    "Describir el tiempo meteorológico con el es impersonal: Es regnet, es schneit",
+    "Aprender die Sonne scheint (brilla el sol) y der Wind weht (sopla el viento)",
+    "Usar warm y kalt para describir la temperatura"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El tiempo meteorológico, con el es impersonal",
+      "body": "Igual que en español decimos «llueve» sin sujeto, en alemán se usa un es impersonal obligatorio (ya lo viste con es gibt en la clase 45): es regnet (llueve), es schneit (nieva). Cuando el sujeto sí es algo concreto, como el sol o el viento, ya no hace falta es: die Sonne scheint, der Wind weht.",
+      "examples": [
+        { "target": "Es regnet.", "es": "Llueve.", "note": "es impersonal + regnen" },
+        { "target": "Die Sonne scheint.", "es": "Brilla el sol.", "note": "sujeto real: die Sonne" },
+        { "target": "Es ist kalt.", "es": "Hace frío.", "note": "es + sein + adjetivo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del tiempo",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["regnen", "llover"],
+        ["schneien", "nevar"],
+        ["die Sonne", "el sol"],
+        ["scheinen", "brillar"],
+        ["der Wind", "el viento"],
+        ["wehen", "soplar (el viento)"],
+        ["warm", "cálido"],
+        ["kalt", "frío"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Regnen y schneien son verbos que casi siempre solo se usan en tercera persona con es: no vas a decir «ich regne» nunca. Apréndelos directamente en su forma fija: es regnet, es schneit."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "regnen",
+      "es": "llover",
+      "ipa": "/ˈʁeːɡnən/",
+      "esApprox": "«RÉG-nen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Es regnet.", "es": "Llueve." }
+    },
+    {
+      "id": "v2",
+      "target": "schneien",
+      "es": "nevar",
+      "ipa": "/ˈʃnaɪ̯ən/",
+      "esApprox": "«SHNAI-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Es schneit.", "es": "Nieva." }
+    },
+    {
+      "id": "v3",
+      "target": "die Sonne",
+      "es": "el sol",
+      "ipa": "/ˈzɔnə/",
+      "esApprox": "«ZO-ne»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": null,
+      "example": { "target": "Die Sonne scheint.", "es": "Brilla el sol." }
+    },
+    {
+      "id": "v4",
+      "target": "scheinen",
+      "es": "brillar",
+      "ipa": "/ˈʃaɪ̯nən/",
+      "esApprox": "«SHAI-nen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Die Sonne scheint.", "es": "Brilla el sol." }
+    },
+    {
+      "id": "v5",
+      "target": "der Wind",
+      "es": "el viento",
+      "ipa": "/vɪnt/",
+      "esApprox": "«vint»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Winde",
+      "example": { "target": "Der Wind weht.", "es": "Sopla el viento." }
+    },
+    {
+      "id": "v6",
+      "target": "wehen",
+      "es": "soplar (el viento)",
+      "ipa": "/ˈveːən/",
+      "esApprox": "«VÉ-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Der Wind weht stark.", "es": "El viento sopla fuerte." }
+    },
+    {
+      "id": "v7",
+      "target": "warm",
+      "es": "cálido",
+      "ipa": "/vaʁm/",
+      "esApprox": "«varm»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Es ist warm.", "es": "Hace calor." }
+    },
+    {
+      "id": "v8",
+      "target": "kalt",
+      "es": "frío",
+      "ipa": "/kalt/",
+      "esApprox": "«kalt»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Es ist kalt.", "es": "Hace frío." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «llueve» en alemán?",
+      "options": ["Es schneit.", "Es regnet.", "Es ist kalt.", "Der Wind weht."],
+      "answer": 1,
+      "explain": "Es regnet = llueve."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «brilla el sol»?",
+      "options": ["Es regnet.", "Die Sonne scheint.", "Der Wind weht.", "Es schneit."],
+      "answer": 1,
+      "explain": "Die Sonne scheint = brilla el sol."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "statement": "Kalt significa «frío».",
+      "answer": true,
+      "explain": "kalt = frío."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "statement": "Warm significa «frío».",
+      "answer": false,
+      "explain": "Warm significa «cálido»; «frío» es kalt."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases NO usa el es impersonal?",
+      "options": ["Es regnet.", "Es schneit.", "Die Sonne scheint.", "Es ist kalt."],
+      "answer": 2,
+      "explain": "Die Sonne scheint tiene un sujeto real, die Sonne, así que no necesita es."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["regnen", "schneien", "Sonne", "Wind"],
+      "right": ["viento", "llover", "nevar", "sol"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Cuatro palabras clave del tiempo meteorológico."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "prompt": "Llueve.",
+      "accept": ["Es regnet"],
+      "hintWords": ["es regnet"],
+      "strictAccents": false,
+      "audio": "Es regnet.",
+      "explain": "Es + regnet, es impersonal."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Sopla el viento.",
+      "accept": ["Der Wind weht"],
+      "hintWords": ["der Wind weht"],
+      "strictAccents": false,
+      "audio": "Der Wind weht.",
+      "explain": "Der Wind (sujeto real) + weht."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Es ist ___ im Winter. Es ist ___ im Sommer.",
+      "blanks": [{ "accept": ["kalt"] }, { "accept": ["warm"] }],
+      "bank": ["kalt", "warm", "windig"],
+      "explain": "kalt en invierno; warm en verano."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Brilla el sol»",
+      "tokens": ["scheint", "Sonne", "Die"],
+      "answer": ["Die", "Sonne", "scheint"],
+      "audio": "Die Sonne scheint.",
+      "explain": "Die Sonne + scheint."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "prompt": "Es schneit.",
+      "accept": ["Nieva."],
+      "strictAccents": false,
+      "audio": "Es schneit.",
+      "explain": "Es schneit = nieva."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Regnet es?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, die Sonne scheint."], "hint": "responde que no, que brilla el sol" },
+        { "who": "Anna", "text": "Schön!", "speak": true }
+      ],
+      "explain": "Regnet es? es la pregunta de sí o no, con el verbo primero."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "speak": "Es regnet.",
+      "mode": "write",
+      "accept": ["Es regnet"],
+      "showTextAfter": true,
+      "explain": "Es regnet = llueve."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "speak": "Die Sonne scheint.",
+      "mode": "choose",
+      "options": ["Die Sonne scheint.", "Es regnet.", "Es schneit."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Las tres frases suenan claramente distintas."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "speak": "Es regnet, und es ist kalt.",
+      "es": "Llueve, y hace frío.",
+      "ipa": "/ɛs ˈʁeːɡnət ʊnt ɛs ɪst kalt/",
+      "esApprox": "«es RÉG-net unt es ist kalt»",
+      "focus": "regnet lleva una e extra, como los verbos con raíz en -t/-n consonante doble: regnet, no regnt.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "speak": "Die Sonne scheint, und der Wind weht.",
+      "es": "Brilla el sol, y sopla el viento.",
+      "ipa": "/diː ˈzɔnə ʃaɪ̯nt ʊnt deːɐ̯ vɪnt veːt/",
+      "esApprox": "«di ZO-ne shaint unt der vint vet»",
+      "focus": "scheint y weht: los dos verbos suenan cortos y directos en tercera persona.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "prompt": "Te preguntan si llueve. Responde que no, que hace calor.",
+      "modelAnswer": "Nein, es ist warm.",
+      "alsoValid": ["Es ist warm."],
+      "speak": "Nein, es ist warm.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada frase: ¿temperatura cálida o fría?",
+      "buckets": ["Cálido", "Frío"],
+      "items": [
+        { "text": "Es ist warm.", "bucket": 0 },
+        { "text": "Es ist kalt.", "bucket": 1 },
+        { "text": "Es schneit.", "bucket": 1 },
+        { "text": "Die Sonne scheint.", "bucket": 0 }
+      ],
+      "explain": "warm y die Sonne scheint sugieren calor; kalt y es schneit, frío."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Regnet.",
+      "accept": ["Es regnet"],
+      "audio": "Es regnet.",
+      "explain": "Falta el es impersonal, obligatorio con los verbos meteorológicos."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Sonne", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Wind", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" }
+      ],
+      "explain": "Sonne es femenina, Wind es masculino."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "regnen", "es": "llover", "esApprox": "«RÉG-nen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "schneien", "es": "nevar", "esApprox": "«SHNAI-en»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Sonne", "es": "el sol", "esApprox": "«ZO-ne»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "scheinen", "es": "brillar", "esApprox": "«SHAI-nen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Wind", "es": "el viento", "esApprox": "«vint»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "wehen", "es": "soplar (el viento)", "esApprox": "«VÉ-en»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "warm", "es": "cálido", "esApprox": "«varm»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "kalt", "es": "frío", "esApprox": "«kalt»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Es regnet, und es ist kalt.", "es": "Llueve, y hace frío.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Die Sonne scheint, und der Wind weht.", "es": "Brilla el sol, y sopla el viento.", "from": "e16" }
+  ]
+}

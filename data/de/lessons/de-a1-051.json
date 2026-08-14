@@ -1,0 +1,368 @@
+{
+  "id": "de-a1-051",
+  "lang": "de",
+  "level": "A1",
+  "order": 51,
+  "title": "Verbos modales I: können y müssen",
+  "objectives": [
+    "Conjugar können (poder, saber) y müssen (deber, tener que) en presente",
+    "Colocar el verbo modal en segunda posición y el infinitivo del verbo principal al final de la frase",
+    "Distinguir können (capacidad) de müssen (obligación)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los verbos modales: dos verbos en una frase, cada uno en su sitio",
+      "body": "Los verbos modales expresan una actitud sobre otra acción: poder, deber, querer. Se usan siempre acompañados de un segundo verbo en infinitivo, que va al final de la frase, mientras el modal se queda en segunda posición. A este patrón se le llama «marco verbal» (Satzklammer): los dos verbos «abrazan» el resto de la frase.",
+      "examples": [
+        { "target": "Ich kann schwimmen.", "es": "Sé nadar.", "note": "kann (posición 2) + schwimmen (final)" },
+        { "target": "Ich muss arbeiten.", "es": "Tengo que trabajar.", "note": "muss (posición 2) + arbeiten (final)" },
+        { "target": "Ich kann gut singen.", "es": "Sé cantar bien.", "note": "gut va ENTRE el modal y el infinitivo, no después" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Können y müssen en presente",
+      "headers": ["Persona", "können", "müssen"],
+      "rows": [
+        ["ich", "kann", "muss"],
+        ["du", "kannst", "musst"],
+        ["er / sie / es", "kann", "muss"],
+        ["wir", "können", "müssen"],
+        ["ihr", "könnt", "müsst"],
+        ["sie / Sie", "können", "müssen"]
+      ],
+      "note": "ich y er/sie/es comparten la misma forma, sin terminación (kann, muss): es un rasgo típico de todos los verbos modales."
+    },
+    {
+      "type": "tip",
+      "body": "Recuerda: el infinitivo va SIEMPRE al final, aunque metas otras palabras en medio (adverbios, objetos...). «Ich kann gut singen», no «Ich kann singen gut»."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "können",
+      "es": "poder, saber (capacidad)",
+      "ipa": "/ˈkœnən/",
+      "esApprox": "«KÖ-nen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich kann schwimmen.", "es": "Sé nadar." }
+    },
+    {
+      "id": "v2",
+      "target": "müssen",
+      "es": "deber, tener que",
+      "ipa": "/ˈmʏsən/",
+      "esApprox": "«MÜ-sen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich muss arbeiten.", "es": "Tengo que trabajar." }
+    },
+    {
+      "id": "v3",
+      "target": "schwimmen",
+      "es": "nadar",
+      "ipa": "/ˈʃvɪmən/",
+      "esApprox": "«SHVI-men»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich kann schwimmen.", "es": "Sé nadar." }
+    },
+    {
+      "id": "v4",
+      "target": "singen",
+      "es": "cantar",
+      "ipa": "/ˈzɪŋən/",
+      "esApprox": "«ZIN-guen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich kann gut singen.", "es": "Sé cantar bien." }
+    },
+    {
+      "id": "v5",
+      "target": "kochen",
+      "es": "cocinar",
+      "ipa": "/ˈkɔxən/",
+      "esApprox": "«KO-chen», con ach-Laut",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Du musst kochen.", "es": "Tienes que cocinar." }
+    },
+    {
+      "id": "v6",
+      "target": "tanzen",
+      "es": "bailar",
+      "ipa": "/ˈtantsən/",
+      "esApprox": "«TAN-tsen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Wir können tanzen.", "es": "Sabemos bailar." }
+    },
+    {
+      "id": "v7",
+      "target": "gut",
+      "es": "bien, bueno",
+      "ipa": "/ɡuːt/",
+      "esApprox": "«gut»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Ich kann gut kochen.", "es": "Sé cocinar bien." }
+    },
+    {
+      "id": "v8",
+      "target": "viel",
+      "es": "mucho",
+      "ipa": "/fiːl/",
+      "esApprox": "«fil»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Ich muss viel arbeiten.", "es": "Tengo que trabajar mucho." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["modales"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma de «ich» para können?",
+      "options": ["kannst", "kann", "könnt", "können"],
+      "answer": 1,
+      "explain": "ich kann, sin terminación."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "¿Dónde va el infinitivo del verbo principal con un verbo modal?",
+      "options": ["Justo después del modal", "Al final de la frase", "Al principio", "No se usa infinitivo"],
+      "answer": 1,
+      "explain": "El infinitivo va siempre al final: Ich kann gut schwimmen."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["modales"],
+      "difficulty": 1,
+      "statement": "Müssen expresa obligación: tener que hacer algo.",
+      "answer": true,
+      "explain": "müssen = deber, tener que."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["modales"],
+      "difficulty": 1,
+      "statement": "«Ich kannst schwimmen» es correcto.",
+      "answer": false,
+      "explain": "La forma de ich es kann, sin -st; kannst es de du."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas NO pertenece a können?",
+      "options": ["kann", "kannst", "könnt", "musst"],
+      "answer": 3,
+      "explain": "musst pertenece a müssen, no a können."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["modales"],
+      "difficulty": 1,
+      "prompt": "Une cada pronombre con su forma de können",
+      "left": ["ich", "du", "wir", "ihr"],
+      "right": ["kannst", "kann", "könnt", "können"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Las cuatro formas de können para ich, du, wir e ihr."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "Sé nadar.",
+      "accept": ["Ich kann schwimmen"],
+      "hintWords": ["ich kann schwimmen"],
+      "strictAccents": false,
+      "audio": "Ich kann schwimmen.",
+      "explain": "kann (posición 2) + schwimmen (infinitivo, final)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "Tengo que trabajar.",
+      "accept": ["Ich muss arbeiten"],
+      "hintWords": ["ich muss arbeiten"],
+      "strictAccents": false,
+      "audio": "Ich muss arbeiten.",
+      "explain": "muss (posición 2) + arbeiten (infinitivo, final)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Ich ___ gut singen. Du ___ kochen.",
+      "blanks": [{ "accept": ["kann"] }, { "accept": ["musst"] }],
+      "bank": ["kann", "musst", "können"],
+      "explain": "ich kann; du musst."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Ella tiene que cocinar»",
+      "tokens": ["kochen", "Sie", "muss"],
+      "answer": ["Sie", "muss", "kochen"],
+      "audio": "Sie muss kochen.",
+      "explain": "Sie + muss + kochen (infinitivo, final)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["modales"],
+      "difficulty": 1,
+      "prompt": "Wir können tanzen.",
+      "accept": ["Sabemos bailar."],
+      "strictAccents": false,
+      "audio": "Wir können tanzen.",
+      "explain": "können con la capacidad de bailar."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Kannst du schwimmen?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich kann schwimmen."], "hint": "responde que sí, que sabes nadar" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "kannst (du) frente a kann (ich): las dos formas sin terminación -e."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["modales"],
+      "difficulty": 1,
+      "speak": "Ich kann schwimmen.",
+      "mode": "write",
+      "accept": ["Ich kann schwimmen"],
+      "showTextAfter": true,
+      "explain": "Ich kann schwimmen = sé nadar."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "speak": "Ich muss arbeiten.",
+      "mode": "choose",
+      "options": ["Ich muss arbeiten.", "Ich kann arbeiten.", "Du musst arbeiten."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "muss, kann y musst suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "speak": "Ich kann gut singen, und ich kann gut kochen.",
+      "es": "Sé cantar bien, y sé cocinar bien.",
+      "ipa": "/ɪç kan ɡuːt ˈzɪŋən ʊnt ɪç kan ɡuːt ˈkɔxən/",
+      "esApprox": "«ich kan gut ZIN-guen unt ich kan gut KO-chen»",
+      "focus": "gut se coloca siempre entre el modal y el infinitivo: kann gut singen, nunca kann singen gut.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "speak": "Du musst arbeiten, aber ich muss schlafen.",
+      "es": "Tú tienes que trabajar, pero yo tengo que dormir.",
+      "ipa": "/duː mʊst ˈaʁbaɪ̯tən ˈaːbɐ ɪç mʊs ˈʃlaːfən/",
+      "esApprox": "«du must AR-bai-ten, Á-ber ich mus SHLÁ-fen»",
+      "focus": "musst (du, con -st) frente a muss (ich, sin terminación): la diferencia clave.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si sabes bailar. Responde que sí, que sabes bailar.",
+      "modelAnswer": "Ja, ich kann tanzen.",
+      "alsoValid": ["Ich kann tanzen."],
+      "speak": "Ja, ich kann tanzen.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "conjugation",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "verb": "können",
+      "tense": "Präsens",
+      "prompt": "Conjuga «können» (poder, saber) en presente",
+      "rows": [
+        { "person": "ich", "accept": ["kann"] },
+        { "person": "du", "accept": ["kannst"] },
+        { "person": "er / sie / es", "accept": ["kann"] },
+        { "person": "wir", "accept": ["können"] },
+        { "person": "ihr", "accept": ["könnt"] },
+        { "person": "sie / Sie", "accept": ["können"] }
+      ],
+      "explain": "ich y er/sie/es comparten kann, sin terminación: un rasgo típico de los verbos modales."
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada forma: ¿es de können o de müssen?",
+      "buckets": ["können", "müssen"],
+      "items": [
+        { "text": "ich kann", "bucket": 0 },
+        { "text": "ich muss", "bucket": 1 },
+        { "text": "du kannst", "bucket": 0 },
+        { "text": "du musst", "bucket": 1 },
+        { "text": "wir können", "bucket": 0 }
+      ],
+      "explain": "können (capacidad) frente a müssen (obligación)."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich kann schwimmen gut.",
+      "accept": ["Ich kann gut schwimmen"],
+      "audio": "Ich kann gut schwimmen.",
+      "explain": "El infinitivo va siempre al final: gut se coloca antes de schwimmen."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "können", "es": "poder, saber", "esApprox": "«KÖ-nen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "müssen", "es": "deber, tener que", "esApprox": "«MÜ-sen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "schwimmen", "es": "nadar", "esApprox": "«SHVI-men»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "singen", "es": "cantar", "esApprox": "«ZIN-guen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "kochen", "es": "cocinar", "esApprox": "«KO-chen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "tanzen", "es": "bailar", "esApprox": "«TAN-tsen»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich kann gut singen, und ich kann gut kochen.", "es": "Sé cantar bien, y sé cocinar bien.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Du musst arbeiten, aber ich muss schlafen.", "es": "Tú tienes que trabajar, pero yo tengo que dormir.", "from": "e16" }
+  ]
+}

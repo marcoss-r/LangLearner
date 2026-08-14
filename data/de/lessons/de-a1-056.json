@@ -1,0 +1,369 @@
+{
+  "id": "de-a1-056",
+  "lang": "de",
+  "level": "A1",
+  "order": 56,
+  "title": "En el restaurante: pedir y pagar",
+  "objectives": [
+    "Pedir en un restaurante usando möchten (clase 52): Ich möchte...",
+    "Aprender el vocabulario de la mesa: Speisekarte, bestellen, bezahlen, Rechnung",
+    "Pedir la cuenta y valorar la comida con lecker (rico, sabroso)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Todo lo que necesitas para un restaurante, con lo que ya sabes",
+      "body": "Un restaurante es la situación perfecta para combinar möchten (clase 52) con el vocabulario de comida (clase 55) y unas pocas palabras nuevas: die Speisekarte (el menú), bestellen (pedir), bezahlen (pagar) y die Rechnung (la cuenta).",
+      "examples": [
+        { "target": "Ich möchte bestellen.", "es": "Quisiera pedir.", "note": "möchte + bestellen (infinitivo)" },
+        { "target": "Die Rechnung, bitte.", "es": "La cuenta, por favor.", "note": "fórmula fija para pedir la cuenta" },
+        { "target": "Das ist sehr lecker!", "es": "¡Eso está muy rico!", "note": "lecker: valorar la comida" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del restaurante",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["die Speisekarte", "el menú, la carta"],
+        ["bestellen", "pedir (en un restaurante)"],
+        ["bezahlen", "pagar"],
+        ["die Rechnung", "la cuenta"],
+        ["lecker", "rico, sabroso"],
+        ["das Restaurant", "el restaurante"],
+        ["der Kellner", "el camarero"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "«Die Rechnung, bitte» es la fórmula fija para pedir la cuenta en cualquier restaurante alemán: corta, directa y siempre funciona."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "die Speisekarte",
+      "es": "el menú, la carta",
+      "ipa": "/ˈʃpaɪ̯zəˌkaʁtə/",
+      "esApprox": "«SHPAI-ze-kar-te»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Speisekarten",
+      "example": { "target": "Die Speisekarte, bitte.", "es": "La carta, por favor." }
+    },
+    {
+      "id": "v2",
+      "target": "bestellen",
+      "es": "pedir (en un restaurante)",
+      "ipa": "/bəˈʃtɛlən/",
+      "esApprox": "«be-SHTE-len»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich möchte bestellen.", "es": "Quisiera pedir." }
+    },
+    {
+      "id": "v3",
+      "target": "bezahlen",
+      "es": "pagar",
+      "ipa": "/bəˈtsaːlən/",
+      "esApprox": "«be-TSÁ-len»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich möchte bezahlen.", "es": "Quisiera pagar." }
+    },
+    {
+      "id": "v4",
+      "target": "die Rechnung",
+      "es": "la cuenta",
+      "ipa": "/ˈʁɛçnʊŋ/",
+      "esApprox": "«REJ-nung»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Rechnungen",
+      "example": { "target": "Die Rechnung, bitte.", "es": "La cuenta, por favor." }
+    },
+    {
+      "id": "v5",
+      "target": "lecker",
+      "es": "rico, sabroso",
+      "ipa": "/ˈlɛkɐ/",
+      "esApprox": "«LE-ker»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Das ist sehr lecker!", "es": "¡Eso está muy rico!" }
+    },
+    {
+      "id": "v6",
+      "target": "das Restaurant",
+      "es": "el restaurante",
+      "ipa": "/ʁɛstoˈʁãː/",
+      "esApprox": "«res-to-RÁN»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Restaurants",
+      "example": { "target": "Das Restaurant ist modern.", "es": "El restaurante es moderno." }
+    },
+    {
+      "id": "v7",
+      "target": "der Kellner",
+      "es": "el camarero",
+      "ipa": "/ˈkɛlnɐ/",
+      "esApprox": "«KEL-ner»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Kellner",
+      "example": { "target": "Der Kellner ist nett.", "es": "El camarero es simpático." }
+    },
+    {
+      "id": "v8",
+      "target": "Guten Appetit",
+      "es": "buen provecho",
+      "ipa": "/ˌɡuːtn̩ apeˈtiːt/",
+      "esApprox": "«GU-ten a-pe-TIT»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Guten Appetit!", "es": "¡Buen provecho!" }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «pedir la cuenta»?",
+      "options": ["Die Speisekarte, bitte.", "Die Rechnung, bitte.", "Guten Appetit!", "Ich möchte kochen."],
+      "answer": 1,
+      "explain": "Die Rechnung, bitte. es la fórmula para pedir la cuenta."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «bestellen»?",
+      "options": ["pagar", "pedir (en un restaurante)", "cocinar", "comer"],
+      "answer": 1,
+      "explain": "bestellen = pedir."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "statement": "Lecker significa «rico, sabroso».",
+      "answer": true,
+      "explain": "lecker = rico, sabroso."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "statement": "Die Speisekarte significa «la cuenta».",
+      "answer": false,
+      "explain": "Die Speisekarte es el menú/la carta; «la cuenta» es die Rechnung."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas palabras NO está relacionada con el restaurante?",
+      "options": ["Speisekarte", "Rechnung", "Wecker", "Kellner"],
+      "answer": 2,
+      "explain": "Wecker es el despertador, no está relacionado con el restaurante."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["Speisekarte", "bestellen", "bezahlen", "Rechnung"],
+      "right": ["pedir", "menú", "cuenta", "pagar"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro palabras clave del restaurante."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Quisiera pedir.",
+      "accept": ["Ich möchte bestellen"],
+      "hintWords": ["ich möchte bestellen"],
+      "strictAccents": false,
+      "audio": "Ich möchte bestellen.",
+      "explain": "möchte + bestellen (infinitivo, final)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "La cuenta, por favor.",
+      "accept": ["Die Rechnung, bitte"],
+      "hintWords": ["die Rechnung, bitte"],
+      "strictAccents": false,
+      "audio": "Die Rechnung, bitte.",
+      "explain": "Fórmula fija, sin verbo."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Ich möchte ___. Das ist sehr ___.",
+      "blanks": [{ "accept": ["bestellen"] }, { "accept": ["lecker"] }],
+      "bank": ["bestellen", "lecker", "bezahlen"],
+      "explain": "bestellen para pedir; lecker para valorar la comida."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Quisiera pagar»",
+      "tokens": ["bezahlen", "Ich", "möchte"],
+      "answer": ["Ich", "möchte", "bezahlen"],
+      "audio": "Ich möchte bezahlen.",
+      "explain": "Ich möchte + bezahlen (infinitivo, final)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "prompt": "Der Kellner ist nett.",
+      "accept": ["El camarero es simpático."],
+      "strictAccents": false,
+      "audio": "Der Kellner ist nett.",
+      "explain": "der Kellner = el camarero."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en un restaurante",
+      "turns": [
+        { "who": "Kellner", "text": "Möchten Sie bestellen?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich möchte einen Kaffee."], "hint": "responde que sí, y pide un café" },
+        { "who": "Kellner", "text": "Kommt sofort!", "speak": true }
+      ],
+      "explain": "Möchten Sie...? es la forma educada de preguntar qué quiere pedir alguien."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "speak": "Die Rechnung, bitte.",
+      "mode": "write",
+      "accept": ["Die Rechnung, bitte"],
+      "showTextAfter": true,
+      "explain": "Die Rechnung, bitte = la cuenta, por favor."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "speak": "Das ist sehr lecker!",
+      "mode": "choose",
+      "options": ["Das ist sehr lecker!", "Das ist sehr teuer!", "Das ist sehr modern!"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "lecker, teuer y modern suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "speak": "Ich möchte bestellen, und dann möchte ich bezahlen.",
+      "es": "Quisiera pedir, y luego quisiera pagar.",
+      "ipa": "/ɪç ˈmœçtə bəˈʃtɛlən ʊnt dan ˈmœçtə ɪç bəˈtsaːlən/",
+      "esApprox": "«ich MÖCH-te be-SHTE-len unt dan MÖCH-te ich be-TSÁ-len»",
+      "focus": "bestellen y bezahlen empiezan con be-, un prefijo muy frecuente en verbos alemanes.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "speak": "Guten Appetit! Das ist sehr lecker.",
+      "es": "¡Buen provecho! Eso está muy rico.",
+      "ipa": "/ˌɡuːtn̩ apeˈtiːt das ɪst zeːɐ̯ ˈlɛkɐ/",
+      "esApprox": "«GU-ten a-pe-TIT, das ist zer LE-ker»",
+      "focus": "Appetit lleva el acento en la última sílaba, como en español: a-pe-TIT.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Has terminado de comer y quieres pagar. Pide la cuenta.",
+      "modelAnswer": "Die Rechnung, bitte.",
+      "alsoValid": ["Ich möchte bezahlen."],
+      "speak": "Die Rechnung, bitte.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Speisekarte", "bucket": 1 },
+        { "text": "Rechnung", "bucket": 1 },
+        { "text": "Restaurant", "bucket": 2 },
+        { "text": "Kellner", "bucket": 0 }
+      ],
+      "explain": "Speisekarte y Rechnung son femeninas; Restaurant, neutro; Kellner, masculino."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich möchte bezahlen der Rechnung.",
+      "accept": ["Ich möchte die Rechnung bezahlen"],
+      "audio": "Ich möchte die Rechnung bezahlen.",
+      "explain": "die Rechnung bezahlen: die Rechnung es el objeto directo (acusativo, sin cambio por ser femenino), y va antes del infinitivo."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Speisekarte", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Rechnung", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Restaurant", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Kellner", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" }
+      ],
+      "explain": "Speisekarte y Rechnung son femeninas, Restaurant neutro, Kellner masculino."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Speisekarte", "es": "el menú, la carta", "esApprox": "«SHPAI-ze-kar-te»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "bestellen", "es": "pedir (en un restaurante)", "esApprox": "«be-SHTE-len»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "bezahlen", "es": "pagar", "esApprox": "«be-TSÁ-len»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Rechnung", "es": "la cuenta", "esApprox": "«REJ-nung»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "lecker", "es": "rico, sabroso", "esApprox": "«LE-ker»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "das Restaurant", "es": "el restaurante", "esApprox": "«res-to-RÁN»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "der Kellner", "es": "el camarero", "esApprox": "«KEL-ner»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "Guten Appetit", "es": "buen provecho", "esApprox": "«GU-ten a-pe-TIT»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich möchte bestellen, und dann möchte ich bezahlen.", "es": "Quisiera pedir, y luego quisiera pagar.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Die Rechnung, bitte.", "es": "La cuenta, por favor.", "from": "e13" }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "id": "de-a1-055",
+  "lang": "de",
+  "level": "A1",
+  "order": 55,
+  "title": "Las comidas y los alimentos",
+  "objectives": [
+    "Aprender el vocabulario básico de los alimentos: Brot, Käse, Fleisch, Fisch, Gemüse, Obst",
+    "Combinar los alimentos con verbos ya conocidos: essen no se usa todavía, pero sí mögen, kaufen y haben",
+    "Practicar el acusativo con estos sustantivos, la mayoría neutros o masculinos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de la comida, con los verbos que ya conoces",
+      "body": "No hace falta un verbo nuevo para hablar de comida: puedes usar haben, kaufen y brauchen, que ya conoces desde hace varias clases. Muchos nombres de alimentos son incontables (no tienen plural natural): Brot, Fleisch, Obst, Gemüse se usan casi siempre en singular.",
+      "examples": [
+        { "target": "Ich kaufe Brot und Käse.", "es": "Compro pan y queso.", "note": "sin artículo, como sustantivos incontables" },
+        { "target": "Ich habe Obst und Gemüse.", "es": "Tengo fruta y verdura.", "note": "sin artículo" },
+        { "target": "Ich brauche Milch.", "es": "Necesito leche.", "note": "sin artículo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de alimentos",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["das Brot", "el pan"],
+        ["der Käse", "el queso"],
+        ["das Fleisch", "la carne"],
+        ["der Fisch", "el pescado"],
+        ["das Gemüse", "la verdura"],
+        ["das Obst", "la fruta"],
+        ["der Reis", "el arroz"],
+        ["die Milch", "la leche"]
+      ],
+      "note": "Cuando hablas de alimentos en general, sin especificar cantidad, se omite el artículo: Brot, no das Brot."
+    },
+    {
+      "type": "tip",
+      "body": "Fíjate en que Fleisch, Brot, Obst y Gemüse son todos neutros: si memorizas ese patrón, aciertas el género de la mayoría de alimentos incontables sin tener que memorizarlos uno a uno."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "das Brot",
+      "es": "el pan",
+      "ipa": "/bʁoːt/",
+      "esApprox": "«brot»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Brote",
+      "example": { "target": "Ich kaufe Brot.", "es": "Compro pan." }
+    },
+    {
+      "id": "v2",
+      "target": "der Käse",
+      "es": "el queso",
+      "ipa": "/ˈkɛːzə/",
+      "esApprox": "«KÉ-se»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": null,
+      "example": { "target": "Ich kaufe Käse.", "es": "Compro queso." }
+    },
+    {
+      "id": "v3",
+      "target": "das Fleisch",
+      "es": "la carne",
+      "ipa": "/flaɪ̯ʃ/",
+      "esApprox": "«flaish»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Ich brauche Fleisch.", "es": "Necesito carne." }
+    },
+    {
+      "id": "v4",
+      "target": "der Fisch",
+      "es": "el pescado",
+      "ipa": "/fɪʃ/",
+      "esApprox": "«fish»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Fische",
+      "example": { "target": "Ich habe Fisch.", "es": "Tengo pescado." }
+    },
+    {
+      "id": "v5",
+      "target": "das Gemüse",
+      "es": "la verdura",
+      "ipa": "/ɡəˈmyːzə/",
+      "esApprox": "«gue-MÜ-se»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Ich habe Gemüse.", "es": "Tengo verdura." }
+    },
+    {
+      "id": "v6",
+      "target": "das Obst",
+      "es": "la fruta",
+      "ipa": "/oːpst/",
+      "esApprox": "«opst»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Ich kaufe Obst.", "es": "Compro fruta." }
+    },
+    {
+      "id": "v7",
+      "target": "der Reis",
+      "es": "el arroz",
+      "ipa": "/ʁaɪ̯s/",
+      "esApprox": "«rais»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": null,
+      "example": { "target": "Ich brauche Reis.", "es": "Necesito arroz." }
+    },
+    {
+      "id": "v8",
+      "target": "die Milch",
+      "es": "la leche",
+      "ipa": "/mɪlç/",
+      "esApprox": "«milch»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": null,
+      "example": { "target": "Ich brauche Milch.", "es": "Necesito leche." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «pan» en alemán?",
+      "options": ["Käse", "Brot", "Fleisch", "Fisch"],
+      "answer": 1,
+      "explain": "das Brot = el pan."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «leche» en alemán?",
+      "options": ["Milch", "Reis", "Obst", "Gemüse"],
+      "answer": 0,
+      "explain": "die Milch = la leche."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "statement": "Das Gemüse significa «la verdura».",
+      "answer": true,
+      "explain": "das Gemüse = la verdura."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "statement": "Der Fisch significa «el arroz».",
+      "answer": false,
+      "explain": "Der Fisch es el pescado; «el arroz» es der Reis."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas palabras NO es un alimento?",
+      "options": ["Brot", "Käse", "Wecker", "Fleisch"],
+      "answer": 2,
+      "explain": "Wecker es el despertador, no un alimento."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "prompt": "Une cada alimento con su significado",
+      "left": ["Brot", "Käse", "Fleisch", "Fisch"],
+      "right": ["queso", "pan", "pescado", "carne"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro alimentos básicos."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Compro pan y queso.",
+      "accept": ["Ich kaufe Brot und Käse"],
+      "hintWords": ["ich kaufe Brot und Käse"],
+      "strictAccents": false,
+      "audio": "Ich kaufe Brot und Käse.",
+      "explain": "Sin artículo, porque son alimentos incontables."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Necesito leche.",
+      "accept": ["Ich brauche Milch"],
+      "hintWords": ["ich brauche Milch"],
+      "strictAccents": false,
+      "audio": "Ich brauche Milch.",
+      "explain": "brauche + Milch, sin artículo."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Ich kaufe ___ und Gemüse. Ich brauche ___.",
+      "blanks": [{ "accept": ["Obst"] }, { "accept": ["Reis"] }],
+      "bank": ["Obst", "Reis", "Fisch"],
+      "explain": "Obst (fruta) y Reis (arroz), dos alimentos incontables."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tengo pescado y arroz»",
+      "tokens": ["Reis", "Ich", "und", "habe", "Fisch"],
+      "answer": ["Ich", "habe", "Fisch", "und", "Reis"],
+      "audio": "Ich habe Fisch und Reis.",
+      "explain": "Ich habe + dos alimentos unidos por und."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "prompt": "Ich habe Gemüse.",
+      "accept": ["Tengo verdura."],
+      "strictAccents": false,
+      "audio": "Ich habe Gemüse.",
+      "explain": "Gemüse = verdura."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du Käse?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, ich habe Fisch."], "hint": "responde que no, que tienes pescado" },
+        { "who": "Anna", "text": "Ah, okay!", "speak": true }
+      ],
+      "explain": "haben + alimento, sin artículo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "speak": "Ich kaufe Brot und Käse.",
+      "mode": "write",
+      "accept": ["Ich kaufe Brot und Käse"],
+      "showTextAfter": true,
+      "explain": "Ich kaufe Brot und Käse = compro pan y queso."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "speak": "Ich habe Gemüse.",
+      "mode": "choose",
+      "options": ["Ich habe Gemüse.", "Ich habe Obst.", "Ich habe Fleisch."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Gemüse, Obst y Fleisch suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "speak": "Ich kaufe Brot, Käse und Milch.",
+      "es": "Compro pan, queso y leche.",
+      "ipa": "/ɪç ˈkaʊ̯fə bʁoːt ˈkɛːzə ʊnt mɪlç/",
+      "esApprox": "«ich KAU-fe brot, KÉ-se unt milch»",
+      "focus": "Milch termina en el sonido ich-Laut, suave, tras la l.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "speak": "Ich habe Obst und Gemüse, aber ich brauche Fleisch.",
+      "es": "Tengo fruta y verdura, pero necesito carne.",
+      "ipa": "/ɪç ˈhaːbə oːpst ʊnt ɡəˈmyːzə ˈaːbɐ ɪç ˈbʁaʊ̯xə flaɪ̯ʃ/",
+      "esApprox": "«ich HÁ-be opst unt gue-MÜ-se, Á-ber ich BRAU-je flaish»",
+      "focus": "Gemüse lleva el sonido ü labializado en su segunda sílaba.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si tienes queso. Responde que sí, que tienes queso.",
+      "modelAnswer": "Ja, ich habe Käse.",
+      "alsoValid": ["Ich habe Käse."],
+      "speak": "Ja, ich habe Käse.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada alimento según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Käse", "bucket": 0 },
+        { "text": "Fisch", "bucket": 0 },
+        { "text": "Milch", "bucket": 1 },
+        { "text": "Brot", "bucket": 2 },
+        { "text": "Fleisch", "bucket": 2 },
+        { "text": "Gemüse", "bucket": 2 }
+      ],
+      "explain": "Käse, Fisch y Reis son masculinos; Milch, femenina; Brot, Fleisch, Gemüse y Obst, neutros."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich kaufe die Brot.",
+      "accept": ["Ich kaufe Brot"],
+      "audio": "Ich kaufe Brot.",
+      "explain": "Los alimentos incontables se usan sin artículo cuando hablas en general."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Brot", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Käse", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Milch", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Fisch", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" }
+      ],
+      "explain": "Brot es neutro, Käse y Fisch masculinos, Milch femenina."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Brot", "es": "el pan", "esApprox": "«brot»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Käse", "es": "el queso", "esApprox": "«KÉ-se»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Fleisch", "es": "la carne", "esApprox": "«flaish»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Fisch", "es": "el pescado", "esApprox": "«fish»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Gemüse", "es": "la verdura", "esApprox": "«gue-MÜ-se»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "das Obst", "es": "la fruta", "esApprox": "«opst»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "der Reis", "es": "el arroz", "esApprox": "«rais»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "die Milch", "es": "la leche", "esApprox": "«milch»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich kaufe Brot, Käse und Milch.", "es": "Compro pan, queso y leche.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Ich habe Obst und Gemüse, aber ich brauche Fleisch.", "es": "Tengo fruta y verdura, pero necesito carne.", "from": "e16" }
+  ]
+}
