@@ -1,0 +1,92 @@
+{
+  "id": "de-a1-079",
+  "lang": "de",
+  "level": "A1",
+  "order": 79,
+  "title": "Las conjunciones que no cambian nada: und, aber, oder, denn",
+  "objectives": [
+    "Unir dos frases completas con und, aber, oder y denn",
+    "Entender que estas cuatro conjunciones no cuentan como posición 1: el verbo sigue en su lugar normal",
+    "Distinguir denn (porque, causal) de weil, que verás en la próxima clase con un orden distinto"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Conjunciones que no mueven el verbo",
+      "body": "Und (y), aber (pero), oder (o) y denn (porque) unen dos frases completas sin cambiar el orden de palabras de ninguna de las dos. Cada frase mantiene su verbo en la posición 2 de siempre. Estas cuatro conjunciones no ocupan ninguna posición: son como un puente neutral entre dos frases independientes.",
+      "examples": [
+        { "target": "Ich koche, und du deckst den Tisch.", "es": "Yo cocino, y tú pones la mesa." },
+        { "target": "Ich mag Kaffee, aber ich trinke lieber Tee.", "es": "Me gusta el café, pero prefiero tomar té." },
+        { "target": "Willst du Kaffee oder Tee?", "es": "¿Quieres café o té?" },
+        { "target": "Ich bin müde, denn ich habe viel gearbeitet.", "es": "Estoy cansado, porque he trabajado mucho." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las cuatro conjunciones",
+      "headers": ["Alemán", "Español", "Uso"],
+      "rows": [
+        ["und", "y", "suma dos ideas"],
+        ["aber", "pero", "contraste"],
+        ["oder", "o", "alternativa"],
+        ["denn", "porque", "causa (verbo en su lugar normal)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "denn y weil significan los dos «porque», pero denn deja el verbo en su sitio normal, mientras que weil lo manda al final de la frase, como verás en la clase 80. denn es más común en el habla; weil es más frecuente por escrito."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "und", "es": "y", "ipa": "/ʊnt/", "esApprox": "«unt»", "pos": "conjunción", "gender": null, "example": { "target": "Ich koche, und du deckst den Tisch.", "es": "Yo cocino, y tú pones la mesa." } },
+    { "id": "v2", "target": "aber", "es": "pero", "ipa": "/ˈaːbɐ/", "esApprox": "«Á-ber»", "pos": "conjunción", "gender": null, "example": { "target": "Ich mag Kaffee, aber ich trinke lieber Tee.", "es": "Me gusta el café, pero prefiero tomar té." } },
+    { "id": "v3", "target": "oder", "es": "o", "ipa": "/ˈoːdɐ/", "esApprox": "«Ó-der»", "pos": "conjunción", "gender": null, "example": { "target": "Willst du Kaffee oder Tee?", "es": "¿Quieres café o té?" } },
+    { "id": "v4", "target": "denn", "es": "porque", "ipa": "/dɛn/", "esApprox": "«den»", "pos": "conjunción", "gender": null, "example": { "target": "Ich bin müde, denn ich habe viel gearbeitet.", "es": "Estoy cansado, porque he trabajado mucho." } },
+    { "id": "v5", "target": "decken", "es": "poner (la mesa)", "ipa": "/ˈdɛkn̩/", "esApprox": "«DÉ-ken»", "pos": "verbo", "gender": null, "example": { "target": "Du deckst den Tisch.", "es": "Tú pones la mesa." } },
+    { "id": "v6", "target": "lieber", "es": "preferiblemente, más bien", "ipa": "/ˈliːbɐ/", "esApprox": "«LÍ-ber»", "pos": "adverbio", "gender": null, "example": { "target": "Ich trinke lieber Tee.", "es": "Prefiero tomar té." } },
+    { "id": "v7", "target": "entweder", "es": "o (bien)", "ipa": "/ɛntˈveːdɐ/", "esApprox": "«ent-VÉ-der»", "pos": "conjunción", "gender": null, "example": { "target": "Entweder du kommst, oder ich gehe.", "es": "O vienes, o me voy." } },
+    { "id": "v8", "target": "beide", "es": "ambos", "ipa": "/ˈbaɪ̯də/", "esApprox": "«BÁI-de»", "pos": "pronombre", "gender": null, "example": { "target": "Wir mögen beide Kaffee.", "es": "A los dos nos gusta el café." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["conjunciones"], "difficulty": 1, "prompt": "¿Cómo se dice «pero» en alemán?", "options": ["und", "oder", "aber", "denn"], "answer": 2, "explain": "aber = pero, indica contraste." },
+    { "id": "e2", "type": "mcq", "tags": ["conjunciones"], "difficulty": 2, "prompt": "¿Qué pasa con el verbo tras «denn»?", "options": ["Va al final", "Se mantiene en posición 2 de su frase", "Desaparece", "Va en posición 1"], "answer": 1, "explain": "denn no mueve el verbo; cada frase mantiene su verbo en posición 2." },
+    { "id": "e3", "type": "true_false", "tags": ["conjunciones"], "difficulty": 2, "statement": "und, aber, oder y denn no cuentan como posición 1 en la frase.", "answer": true, "explain": "Son un puente neutral entre dos frases independientes." },
+    { "id": "e4", "type": "true_false", "tags": ["conjunciones"], "difficulty": 2, "statement": "denn y weil tienen el mismo significado pero un orden de palabras distinto.", "answer": true, "explain": "Ambas significan «porque»; denn no mueve el verbo, weil sí (clase 80)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Une cada conjunción con su traducción", "left": ["und", "aber", "oder", "denn"], "right": ["y", "pero", "o", "porque"], "answer": [0, 1, 2, 3], "explain": "Las cuatro conjunciones que no cambian el orden de palabras." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Yo cocino, y tú pones la mesa.", "accept": ["Ich koche, und du deckst den Tisch"], "hintWords": ["ich koche, und du deckst den Tisch"], "strictAccents": false, "audio": "Ich koche, und du deckst den Tisch.", "explain": "Cada frase mantiene su propio orden verbo-posición 2." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Me gusta el café, pero prefiero tomar té.", "accept": ["Ich mag Kaffee, aber ich trinke lieber Tee"], "hintWords": ["ich mag Kaffee, aber ich trinke lieber Tee"], "strictAccents": false, "audio": "Ich mag Kaffee, aber ich trinke lieber Tee.", "explain": "aber une dos ideas contrastadas, sin mover el verbo." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Estoy cansado, porque he trabajado mucho.", "accept": ["Ich bin müde, denn ich habe viel gearbeitet"], "hintWords": ["ich bin müde, denn ich habe viel gearbeitet"], "strictAccents": false, "audio": "Ich bin müde, denn ich habe viel gearbeitet.", "explain": "denn + verbo en posición normal (habe en posición 2 de su frase)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Completa con la conjunción correcta", "text": "Willst du Kaffee ___ Tee? Ich bin müde, ___ ich habe viel gearbeitet.", "blanks": [{ "accept": ["oder"] }, { "accept": ["denn"] }], "bank": ["oder", "denn", "und"], "explain": "oder (alternativa); denn (causa)." },
+    { "id": "e10", "type": "word_order", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Ordena: «O vienes, o me voy»", "tokens": ["ich gehe", "du kommst", "Entweder", "oder"], "answer": ["Entweder", "du kommst", "oder", "ich gehe"], "audio": "Entweder du kommst, oder ich gehe.", "explain": "entweder...oder: estructura de alternativa exclusiva." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Wir mögen beide Kaffee.", "accept": ["A los dos nos gusta el café.", "Nos gusta a ambos el café."], "strictAccents": false, "audio": "Wir mögen beide Kaffee.", "explain": "beide = ambos." },
+    { "id": "e12", "type": "dialogue", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Ben", "text": "Willst du Kaffee oder Tee?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich trinke lieber Tee.", "Ich mag Kaffee, aber ich trinke lieber Tee."], "hint": "responde con tu preferencia" },
+      { "who": "Ben", "text": "Okay, ich mache dir einen Tee.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Danke!"], "hint": "da las gracias" }
+    ], "explain": "Uso natural de oder y aber en una conversación cotidiana." },
+    { "id": "e13", "type": "listening", "tags": ["conjunciones"], "difficulty": 1, "speak": "Ich bin müde, denn ich habe viel gearbeitet.", "mode": "write", "accept": ["Ich bin müde, denn ich habe viel gearbeitet"], "showTextAfter": true, "explain": "denn con el verbo en su posición normal." },
+    { "id": "e14", "type": "listening", "tags": ["conjunciones"], "difficulty": 2, "speak": "Willst du Kaffee oder Tee?", "mode": "choose", "options": ["Willst du Kaffee oder Tee?", "Willst du Kaffee und Tee?", "Willst du Kaffee aber Tee?"], "answer": 0, "showTextAfter": true, "explain": "oder = alternativa, distinta de und (suma) y aber (contraste)." },
+    { "id": "e15", "type": "shadowing", "tags": ["conjunciones"], "difficulty": 2, "speak": "Ich mag Kaffee, aber ich trinke lieber Tee, denn Kaffee macht mich nervös.", "es": "Me gusta el café, pero prefiero tomar té, porque el café me pone nervioso.", "ipa": "/ɪç maːk ˈkafeː ˈaːbɐ ɪç ˈtʁɪŋkə ˈliːbɐ teː dɛn ˈkafeː ˈmaxt mɪç nɛʁˈvøːs/", "esApprox": "«ich mak KA-fe, Á-ber ich TRÍN-ke LÍ-ber te, den KA-fe macht mich ner-VÖS»", "focus": "Dos conjunciones encadenadas (aber, denn) sin mover el verbo en ninguna de las tres frases.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["conjunciones"], "difficulty": 2, "speak": "Ich koche, und du deckst den Tisch, oder wir bestellen einfach Pizza.", "es": "Yo cocino, y tú pones la mesa, o simplemente pedimos pizza.", "ipa": "/ɪç ˈkɔxə ʊnt duː ˈdɛkst deːn tɪʃ ˈoːdɐ viːɐ̯ bəˈʃtɛlən ˈaɪ̯nfax ˈpɪtsa/", "esApprox": "«ich KÓ-je, unt du dekst den tish, Ó-der vir be-SHTÉ-len AIN-fach PÍ-tsa»", "focus": "und y oder encadenan tres frases sin cambiar el orden de ninguna.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Te preguntan si quieres café o té. Di que prefieres el té.", "modelAnswer": "Ich trinke lieber Tee.", "alsoValid": ["Lieber Tee."], "speak": "Ich trinke lieber Tee.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Clasifica cada conjunción según su función", "buckets": ["Suma/contraste/alternativa", "Causa"], "items": [
+      { "text": "und", "bucket": 0 },
+      { "text": "aber", "bucket": 0 },
+      { "text": "denn", "bucket": 1 },
+      { "text": "oder", "bucket": 0 }
+    ], "explain": "und, aber y oder suman, contrastan o dan alternativas; denn expresa causa." },
+    { "id": "e19", "type": "error_correction", "tags": ["conjunciones"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich bin müde, denn habe ich viel gearbeitet.", "accept": ["Ich bin müde, denn ich habe viel gearbeitet"], "audio": "Ich bin müde, denn ich habe viel gearbeitet.", "explain": "denn no invierte el orden: el sujeto va antes del verbo, como en una frase normal." },
+    { "id": "e20", "type": "mcq", "tags": ["conjunciones"], "difficulty": 2, "prompt": "«Wir mögen beide Kaffee, aber wir trinken lieber Tee am Abend, denn Kaffee macht uns wach.» ¿Por qué prefieren el té por la noche?", "options": ["Porque no les gusta el café", "Porque el café los mantiene despiertos", "Porque el té es más barato", "Porque no tienen café"], "answer": 1, "explain": "«denn Kaffee macht uns wach» = porque el café nos mantiene despiertos." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "und", "es": "y", "esApprox": "«unt»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "aber", "es": "pero", "esApprox": "«Á-ber»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "oder", "es": "o", "esApprox": "«Ó-der»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "denn", "es": "porque", "esApprox": "«den»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "lieber", "es": "preferiblemente, más bien", "esApprox": "«LÍ-ber»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "beide", "es": "ambos", "esApprox": "«BÁI-de»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich mag Kaffee, aber ich trinke lieber Tee, denn Kaffee macht mich nervös.", "es": "Me gusta el café, pero prefiero tomar té, porque el café me pone nervioso.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich koche, und du deckst den Tisch, oder wir bestellen einfach Pizza.", "es": "Yo cocino, y tú pones la mesa, o simplemente pedimos pizza.", "from": "e16" }
+  ]
+}

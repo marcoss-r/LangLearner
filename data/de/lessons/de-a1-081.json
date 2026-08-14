@@ -1,0 +1,91 @@
+{
+  "id": "de-a1-081",
+  "lang": "de",
+  "level": "A1",
+  "order": 81,
+  "title": "Dass: contar lo que alguien dice o piensa",
+  "objectives": [
+    "Usar dass para introducir lo que alguien dice, piensa, sabe o cree",
+    "Aplicar el mismo movimiento del verbo al final que ya conoces de weil",
+    "Combinar dass con verbos como sagen, glauben, denken y wissen"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "dass funciona como weil: el verbo va al final",
+      "body": "Dass (que) introduce lo que alguien dice, piensa o sabe, y es una conjunción subordinante como weil (clase 80): el verbo conjugado de la frase con dass se va al final. Se usa con verbos como sagen (decir), glauben (creer), denken (pensar), wissen (saber) y hoffen (esperar).",
+      "examples": [
+        { "target": "Ich glaube, dass er recht hat.", "es": "Creo que él tiene razón." },
+        { "target": "Sie sagt, dass sie müde ist.", "es": "Ella dice que está cansada." },
+        { "target": "Ich weiß, dass du das kannst.", "es": "Sé que puedes hacerlo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos frecuentes con dass",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["glauben, dass...", "creer que..."],
+        ["denken, dass...", "pensar que..."],
+        ["sagen, dass...", "decir que..."],
+        ["wissen, dass...", "saber que..."],
+        ["hoffen, dass...", "esperar que..."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No confundas dass (conjunción «que») con das (artículo/pronombre neutro «el/eso»): se pronuncian igual, pero dass siempre lleva doble s y siempre introduce una frase completa con verbo al final."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "dass", "es": "que (conjunción)", "ipa": "/das/", "esApprox": "«das»", "pos": "conjunción", "gender": null, "example": { "target": "Ich glaube, dass er recht hat.", "es": "Creo que él tiene razón." } },
+    { "id": "v2", "target": "glauben", "es": "creer", "ipa": "/ˈɡlaʊ̯bn̩/", "esApprox": "«GLÁU-ben»", "pos": "verbo", "gender": null, "example": { "target": "Ich glaube dir.", "es": "Te creo." } },
+    { "id": "v3", "target": "denken", "es": "pensar", "ipa": "/ˈdɛŋkn̩/", "esApprox": "«DÉN-ken»", "pos": "verbo", "gender": null, "example": { "target": "Was denkst du?", "es": "¿Qué piensas?" } },
+    { "id": "v4", "target": "wissen", "es": "saber", "ipa": "/ˈvɪsn̩/", "esApprox": "«VÍ-sen»", "pos": "verbo", "gender": null, "example": { "target": "Ich weiß es nicht.", "es": "No lo sé." } },
+    { "id": "v5", "target": "hoffen", "es": "esperar (deseo)", "ipa": "/ˈhɔfn̩/", "esApprox": "«JÓ-fen»", "pos": "verbo", "gender": null, "example": { "target": "Ich hoffe, dass es klappt.", "es": "Espero que salga bien." } },
+    { "id": "v6", "target": "recht haben", "es": "tener razón", "ipa": "/ʁɛçt ˈhaːbn̩/", "esApprox": "«recht JÁ-ben»", "pos": "expresión", "gender": null, "example": { "target": "Du hast recht.", "es": "Tienes razón." } },
+    { "id": "v7", "target": "klappen", "es": "salir bien, funcionar", "ipa": "/ˈklapn̩/", "esApprox": "«KLÁ-pen»", "pos": "verbo", "gender": null, "example": { "target": "Es klappt gut.", "es": "Sale bien." } },
+    { "id": "v8", "target": "sicher", "es": "seguro", "ipa": "/ˈzɪçɐ/", "esApprox": "«ZÍ-cher»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich bin sicher, dass es klappt.", "es": "Estoy seguro de que va a salir bien." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["dass"], "difficulty": 1, "prompt": "¿Qué significa «dass»?", "options": ["eso (pronombre)", "que (conjunción)", "porque", "y"], "answer": 1, "explain": "dass = que, introduce lo que alguien dice o piensa." },
+    { "id": "e2", "type": "mcq", "tags": ["dass"], "difficulty": 2, "prompt": "¿Dónde va el verbo conjugado en una frase con dass?", "options": ["Posición 1", "Posición 2", "Al final", "No cambia"], "answer": 2, "explain": "dass es subordinante, como weil: manda el verbo al final." },
+    { "id": "e3", "type": "true_false", "tags": ["dass"], "difficulty": 2, "statement": "dass y das se pronuncian igual pero se escriben distinto.", "answer": true, "explain": "dass (conjunción, doble s) frente a das (artículo/pronombre, una s)." },
+    { "id": "e4", "type": "true_false", "tags": ["dass"], "difficulty": 2, "statement": "«glauben, dass...» significa «pensar que...».", "answer": false, "explain": "glauben = creer; denken = pensar. Ambos van con dass, pero no significan lo mismo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["dass"], "difficulty": 2, "prompt": "Une cada verbo con su traducción", "left": ["glauben", "wissen", "hoffen", "denken"], "right": ["creer", "saber", "esperar (deseo)", "pensar"], "answer": [0, 1, 2, 3], "explain": "Cuatro verbos frecuentes que se combinan con dass." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["dass"], "difficulty": 2, "prompt": "Creo que él tiene razón.", "accept": ["Ich glaube, dass er recht hat"], "hintWords": ["ich glaube, dass er recht hat"], "strictAccents": false, "audio": "Ich glaube, dass er recht hat.", "explain": "hat va al final: verbo conjugado de la frase con dass." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["dass"], "difficulty": 2, "prompt": "Ella dice que está cansada.", "accept": ["Sie sagt, dass sie müde ist"], "hintWords": ["sie sagt, dass sie müde ist"], "strictAccents": false, "audio": "Sie sagt, dass sie müde ist.", "explain": "ist va al final de la frase con dass." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["dass"], "difficulty": 2, "prompt": "Espero que salga bien.", "accept": ["Ich hoffe, dass es klappt"], "hintWords": ["ich hoffe, dass es klappt"], "strictAccents": false, "audio": "Ich hoffe, dass es klappt.", "explain": "klappt va al final de la frase con dass." },
+    { "id": "e9", "type": "fill_blank", "tags": ["dass"], "difficulty": 2, "prompt": "Completa moviendo el verbo al final", "text": "Ich weiß, dass du das ___. (können)", "blanks": [{ "accept": ["kannst"] }], "bank": ["kannst", "kann", "können"], "explain": "kannst va al final: verbo conjugado de la frase con dass." },
+    { "id": "e10", "type": "word_order", "tags": ["dass"], "difficulty": 3, "prompt": "Ordena: «Estoy seguro de que va a salir bien»", "tokens": ["klappt", "es", "dass", "Ich bin sicher,"], "answer": ["Ich bin sicher,", "dass", "es", "klappt"], "audio": "Ich bin sicher, dass es klappt.", "explain": "klappt va al final: el verbo conjugado cierra la frase con dass." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["dass"], "difficulty": 2, "prompt": "Ich weiß es nicht.", "accept": ["No lo sé."], "strictAccents": false, "audio": "Ich weiß es nicht.", "explain": "wissen: ich weiß, irregular como los verbos modales." },
+    { "id": "e12", "type": "dialogue", "tags": ["dass"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Max", "text": "Glaubst du, dass es morgen regnet?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich hoffe, dass es nicht regnet.", "Ich glaube, dass es regnet."], "hint": "responde con tu opinión, usando dass" },
+      { "who": "Max", "text": "Mal sehen!", "speak": true }
+    ], "explain": "Práctica de dass tras glauben y hoffen." },
+    { "id": "e13", "type": "listening", "tags": ["dass"], "difficulty": 1, "speak": "Ich glaube, dass er recht hat.", "mode": "write", "accept": ["Ich glaube, dass er recht hat"], "showTextAfter": true, "explain": "dass manda el verbo conjugado (hat) al final." },
+    { "id": "e14", "type": "listening", "tags": ["dass"], "difficulty": 2, "speak": "Ich hoffe, dass es klappt.", "mode": "choose", "options": ["Ich hoffe, dass es klappt.", "Ich hoffe, dass es klappst.", "Ich hoffe, dass es klappen."], "answer": 0, "showTextAfter": true, "explain": "klappt: er/sie/es, la única forma correcta con «es» como sujeto." },
+    { "id": "e15", "type": "shadowing", "tags": ["dass"], "difficulty": 2, "speak": "Ich glaube, dass du recht hast, und ich hoffe, dass alles klappt.", "es": "Creo que tienes razón, y espero que todo salga bien.", "ipa": "/ɪç ˈɡlaʊ̯bə das duː ʁɛçt hast ʊnt ɪç ˈhɔfə das ˈalə ˈklapt/", "esApprox": "«ich GLÁU-be, das du recht jast, unt ich JÓ-fe, das Á-le klapt»", "focus": "hast y klapt: dos verbos conjugados que cierran cada una de las frases con dass.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["dass"], "difficulty": 2, "speak": "Sie sagt, dass sie müde ist, aber ich weiß, dass sie noch arbeiten muss.", "es": "Ella dice que está cansada, pero yo sé que todavía tiene que trabajar.", "ipa": "/ziː zaːkt das ziː ˈmyːdə ɪst ˈaːbɐ ɪç vaɪ̯s das ziː nɔx ˈaʁbaɪ̯tn̩ mʊs/", "esApprox": "«zi zakt, das zi MÜ-de ist, Á-ber ich vais, das zi noch AR-bai-ten mus»", "focus": "muss va al final, aunque haya otro infinitivo (arbeiten) justo antes: el conjugado siempre cierra.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["dass"], "difficulty": 2, "prompt": "Te preguntan si crees que va a llover mañana. Di que esperas que no llueva.", "modelAnswer": "Ich hoffe, dass es nicht regnet.", "alsoValid": ["Ich glaube nicht, dass es regnet."], "speak": "Ich hoffe, dass es nicht regnet.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["dass"], "difficulty": 2, "prompt": "Clasifica cada palabra: dass (conjunción) o das (artículo/pronombre)", "buckets": ["dass (que)", "das (el/eso)"], "items": [
+      { "text": "Ich glaube, ___ er recht hat.", "bucket": 0 },
+      { "text": "___ ist mein Buch.", "bucket": 1 },
+      { "text": "Ich weiß, ___ du müde bist.", "bucket": 0 },
+      { "text": "___ Kind spielt.", "bucket": 1 }
+    ], "explain": "dass introduce una frase completa; das es artículo neutro o pronombre." },
+    { "id": "e19", "type": "error_correction", "tags": ["dass"], "difficulty": 3, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich glaube, dass hat er recht.", "accept": ["Ich glaube, dass er recht hat"], "audio": "Ich glaube, dass er recht hat.", "explain": "Con dass, el verbo conjugado (hat) va al final, no justo después de dass." },
+    { "id": "e20", "type": "mcq", "tags": ["dass"], "difficulty": 2, "prompt": "«Ich denke, dass Deutsch schwer ist, aber ich glaube, dass ich es schaffe. Ich hoffe, dass die Prüfung nicht so schwer ist.» ¿Qué espera la persona sobre el examen?", "options": ["Que sea muy difícil", "Que no sea tan difícil", "Que se cancele", "Que sea en alemán"], "answer": 1, "explain": "«ich hoffe, dass die Prüfung nicht so schwer ist» = espero que el examen no sea tan difícil." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "dass", "es": "que (conjunción)", "esApprox": "«das»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "glauben", "es": "creer", "esApprox": "«GLÁU-ben»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "denken", "es": "pensar", "esApprox": "«DÉN-ken»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "wissen", "es": "saber", "esApprox": "«VÍ-sen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "hoffen", "es": "esperar (deseo)", "esApprox": "«JÓ-fen»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "recht haben", "es": "tener razón", "esApprox": "«recht JÁ-ben»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich glaube, dass du recht hast, und ich hoffe, dass alles klappt.", "es": "Creo que tienes razón, y espero que todo salga bien.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Sie sagt, dass sie müde ist, aber ich weiß, dass sie noch arbeiten muss.", "es": "Ella dice que está cansada, pero yo sé que todavía tiene que trabajar.", "from": "e16" }
+  ]
+}

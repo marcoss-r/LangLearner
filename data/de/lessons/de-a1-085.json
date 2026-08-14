@@ -1,0 +1,88 @@
+{
+  "id": "de-a1-085",
+  "lang": "de",
+  "level": "A1",
+  "order": 85,
+  "title": "Welcher y was für ein",
+  "objectives": [
+    "Usar welcher/welche/welches para preguntar «¿cuál?» entre opciones conocidas",
+    "Usar was für ein/eine para preguntar «¿qué tipo de?» sin opciones concretas en mente",
+    "Declinar welcher como der/die/das, y was für ein como ein/eine"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "welcher: ¿cuál, de entre estos?",
+      "body": "Welcher (welche para femenino, welches para neutro) pregunta «¿cuál?» cuando ya hay un grupo conocido de opciones: «Welches Buch möchtest du?» (¿Cuál libro quieres?, entre los que hay aquí). Se declina exactamente como der/die/das, con las mismas terminaciones según género y caso.",
+      "examples": [
+        { "target": "Welcher Film gefällt dir?", "es": "¿Cuál película te gusta?", "note": "welcher, masculino nominativo" },
+        { "target": "Welches Buch möchtest du?", "es": "¿Cuál libro quieres?", "note": "welches, neutro acusativo" }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "was für ein: ¿qué tipo de?",
+      "body": "Was für ein/eine pregunta por el TIPO de cosa, sin opciones concretas en mente: «Was für ein Auto hast du?» (¿Qué tipo de coche tienes?) espera una respuesta como «un coche alemán» o «un coche pequeño», no una elección entre coches ya conocidos. Se declina como ein/eine.",
+      "examples": [
+        { "target": "Was für ein Auto hast du?", "es": "¿Qué tipo de coche tienes?" },
+        { "target": "Was für eine Musik hörst du?", "es": "¿Qué tipo de música escuchas?" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Diferencia clave: welcher = elegir entre opciones concretas ya conocidas; was für ein = describir un tipo o categoría, sin opciones concretas en mente."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "welcher", "es": "cuál (masculino)", "ipa": "/ˈvɛlçɐ/", "esApprox": "«VÉL-cher»", "pos": "pronombre interrogativo", "gender": null, "example": { "target": "Welcher Film gefällt dir?", "es": "¿Cuál película te gusta?" } },
+    { "id": "v2", "target": "welche", "es": "cuál (femenino/plural)", "ipa": "/ˈvɛlçə/", "esApprox": "«VÉL-che»", "pos": "pronombre interrogativo", "gender": null, "example": { "target": "Welche Farbe magst du?", "es": "¿Cuál color te gusta?" } },
+    { "id": "v3", "target": "welches", "es": "cuál (neutro)", "ipa": "/ˈvɛlçəs/", "esApprox": "«VÉL-ches»", "pos": "pronombre interrogativo", "gender": null, "example": { "target": "Welches Buch möchtest du?", "es": "¿Cuál libro quieres?" } },
+    { "id": "v4", "target": "was für ein", "es": "qué tipo de (masculino/neutro)", "ipa": "/vas fyːɐ̯ aɪ̯n/", "esApprox": "«vas für ain»", "pos": "expresión", "gender": null, "example": { "target": "Was für ein Auto hast du?", "es": "¿Qué tipo de coche tienes?" } },
+    { "id": "v5", "target": "was für eine", "es": "qué tipo de (femenino)", "ipa": "/vas fyːɐ̯ ˈaɪ̯nə/", "esApprox": "«vas für ÁI-ne»", "pos": "expresión", "gender": null, "example": { "target": "Was für eine Musik hörst du?", "es": "¿Qué tipo de música escuchas?" } },
+    { "id": "v5b", "target": "die Farbe", "es": "el color", "ipa": "/ˈfaʁbə/", "esApprox": "«FAR-be»", "pos": "sustantivo", "gender": "f", "example": { "target": "Welche Farbe magst du?", "es": "¿Cuál color te gusta?" } },
+    { "id": "v6", "target": "der Typ", "es": "el tipo, el modelo", "ipa": "/tyːp/", "esApprox": "«tüp»", "pos": "sustantivo", "gender": "m", "example": { "target": "Was für ein Typ Mensch ist er?", "es": "¿Qué tipo de persona es él?" } },
+    { "id": "v7", "target": "auswählen", "es": "elegir, seleccionar", "ipa": "/ˈaʊ̯svɛːlən/", "esApprox": "«ÁUS-vé-len»", "pos": "verbo", "gender": null, "example": { "target": "Ich wähle das rote Auto aus.", "es": "Elijo el coche rojo." } },
+    { "id": "v8", "target": "die Marke", "es": "la marca", "ipa": "/ˈmaʁkə/", "esApprox": "«MAR-ke»", "pos": "sustantivo", "gender": "f", "example": { "target": "Welche Marke ist das?", "es": "¿Cuál marca es esa?" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["welcher"], "difficulty": 1, "prompt": "¿Cuál se usa cuando ya hay opciones concretas conocidas?", "options": ["was für ein", "welcher", "wie", "wo"], "answer": 1, "explain": "welcher pregunta «¿cuál?» entre opciones ya conocidas." },
+    { "id": "e2", "type": "mcq", "tags": ["was-fuer-ein"], "difficulty": 2, "prompt": "¿Cómo se declina «was für ein»?", "options": ["Como der/die/das", "Como ein/eine", "No se declina", "Como welcher"], "answer": 1, "explain": "was für ein/eine se declina como el artículo indefinido ein/eine." },
+    { "id": "e3", "type": "true_false", "tags": ["welcher"], "difficulty": 2, "statement": "«welches» es la forma neutra de welcher.", "answer": true, "explain": "welcher (m), welche (f/pl), welches (n)." },
+    { "id": "e4", "type": "true_false", "tags": ["was-fuer-ein"], "difficulty": 2, "statement": "was für ein pregunta por una elección entre opciones concretas conocidas.", "answer": false, "explain": "was für ein pregunta por el TIPO o categoría, no por una elección concreta." },
+    { "id": "e5", "type": "match_pairs", "tags": ["welcher"], "difficulty": 2, "prompt": "Une cada forma con su género", "left": ["welcher", "welche", "welches", "was für eine"], "right": ["masculino", "femenino/plural", "neutro", "femenino (was für)"], "answer": [0, 1, 2, 3], "explain": "welcher se declina como der/die/das; was für ein/eine como ein/eine." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["welcher"], "difficulty": 2, "prompt": "¿Cuál película te gusta?", "accept": ["Welcher Film gefällt dir?", "Welcher Film gefällt dir"], "hintWords": ["welcher Film gefällt dir"], "strictAccents": false, "audio": "Welcher Film gefällt dir?", "explain": "welcher (masculino) + Film + gefallen (verbo con dativo, clase 45)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["was-fuer-ein"], "difficulty": 2, "prompt": "¿Qué tipo de coche tienes?", "accept": ["Was für ein Auto hast du?", "Was für ein Auto hast du"], "hintWords": ["was für ein Auto hast du"], "strictAccents": false, "audio": "Was für ein Auto hast du?", "explain": "was für ein: pregunta por el tipo, no por una elección concreta." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["was-fuer-ein"], "difficulty": 2, "prompt": "¿Qué tipo de música escuchas?", "accept": ["Was für eine Musik hörst du?", "Was für eine Musik hörst du"], "hintWords": ["was für eine Musik hörst du"], "strictAccents": false, "audio": "Was für eine Musik hörst du?", "explain": "was für eine: femenino, con Musik." },
+    { "id": "e9", "type": "fill_blank", "tags": ["welcher"], "difficulty": 2, "prompt": "Completa con welcher, welche o welches", "text": "___ Buch möchtest du? (neutro) ___ Farbe magst du? (femenino)", "blanks": [{ "accept": ["Welches"] }, { "accept": ["Welche"] }], "bank": ["Welches", "Welche", "Welcher"], "explain": "welches (Buch, neutro); welche (Farbe, femenino)." },
+    { "id": "e10", "type": "word_order", "tags": ["welcher"], "difficulty": 2, "prompt": "Ordena: «¿Cuál marca es esa?»", "tokens": ["das", "Marke", "ist", "Welche"], "answer": ["Welche", "Marke", "ist", "das"], "audio": "Welche Marke ist das?", "explain": "Welche Marke ist das?: pregunta con welche + sustantivo femenino." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["was-fuer-ein"], "difficulty": 2, "prompt": "Was für ein Typ Mensch ist er?", "accept": ["¿Qué tipo de persona es él?"], "strictAccents": false, "audio": "Was für ein Typ Mensch ist er?", "explain": "was für ein Typ: expresión para preguntar por el carácter de alguien." },
+    { "id": "e12", "type": "dialogue", "tags": ["welcher"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Emil", "text": "Wir haben drei Filme: welcher Film gefällt dir?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Der zweite Film gefällt mir."], "hint": "elige uno de los tres" },
+      { "who": "Emil", "text": "Gute Wahl!", "speak": true }
+    ], "explain": "welcher se usa cuando hay opciones concretas visibles, como aquí con tres películas." },
+    { "id": "e13", "type": "listening", "tags": ["welcher"], "difficulty": 1, "speak": "Welcher Film gefällt dir?", "mode": "write", "accept": ["Welcher Film gefällt dir"], "showTextAfter": true, "explain": "welcher: elección entre opciones concretas." },
+    { "id": "e14", "type": "listening", "tags": ["was-fuer-ein"], "difficulty": 2, "speak": "Was für ein Auto hast du?", "mode": "choose", "options": ["Was für ein Auto hast du?", "Welches Auto hast du?", "Wie ist dein Auto?"], "answer": 0, "showTextAfter": true, "explain": "was für ein pregunta por el tipo, no por una elección concreta como welches." },
+    { "id": "e15", "type": "shadowing", "tags": ["welcher"], "difficulty": 2, "speak": "Welches Buch möchtest du, und welche Farbe magst du?", "es": "¿Cuál libro quieres, y cuál color te gusta?", "ipa": "/ˈvɛlçəs buːx ˈmœçtəst duː ʊnt ˈvɛlçə ˈfaʁbə maːkst duː/", "esApprox": "«VÉL-ches buj MÖCH-test du, unt VÉL-che FAR-be makst du»", "focus": "welches (neutro, Buch) frente a welche (femenino, Farbe): mismo pronombre, distinta terminación.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["was-fuer-ein"], "difficulty": 2, "speak": "Was für ein Auto hast du, und was für eine Marke ist das?", "es": "¿Qué tipo de coche tienes, y qué marca es esa?", "ipa": "/vas fyːɐ̯ aɪ̯n ˈaʊ̯to hast duː ʊnt vas fyːɐ̯ ˈaɪ̯nə ˈmaʁkə ɪst das/", "esApprox": "«vas für ain ÁU-to jast du, unt vas für ÁI-ne MAR-ke ist das»", "focus": "was für ein (neutro, Auto) frente a was für eine (femenino, Marke).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["was-fuer-ein"], "difficulty": 2, "prompt": "Te preguntan qué tipo de música escuchas. Di que escuchas música alemana.", "modelAnswer": "Ich höre deutsche Musik.", "alsoValid": ["Was für eine Musik? Deutsche Musik."], "speak": "Ich höre deutsche Musik.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["welcher"], "difficulty": 2, "prompt": "Clasifica cada pregunta: welcher (elección) o was für ein (tipo)", "buckets": ["welcher (elección concreta)", "was für ein (tipo)"], "items": [
+      { "text": "Welcher Film gefällt dir?", "bucket": 0 },
+      { "text": "Was für ein Auto hast du?", "bucket": 1 },
+      { "text": "Welches Buch möchtest du?", "bucket": 0 },
+      { "text": "Was für eine Musik hörst du?", "bucket": 1 }
+    ], "explain": "welcher elige entre opciones concretas; was für ein pregunta por el tipo o categoría." },
+    { "id": "e19", "type": "error_correction", "tags": ["was-fuer-ein"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Was für ein Musik hörst du?", "accept": ["Was für eine Musik hörst du"], "audio": "Was für eine Musik hörst du?", "explain": "Musik es femenino: was für eine Musik, no «was für ein»." },
+    { "id": "e20", "type": "mcq", "tags": ["welcher"], "difficulty": 2, "prompt": "«Wir haben drei Autos im Geschäft. Welches Auto gefällt dir am besten? Und was für eine Farbe möchtest du?»  ¿Qué tipo de pregunta hace «welches Auto»?", "options": ["Pregunta por el tipo general", "Pregunta por una elección entre los tres coches", "Pregunta por el precio", "Pregunta por la marca"], "answer": 1, "explain": "welches Auto elige entre las opciones concretas ya mencionadas (los tres coches de la tienda)." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "welcher", "es": "cuál (masculino)", "esApprox": "«VÉL-cher»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "welche", "es": "cuál (femenino/plural)", "esApprox": "«VÉL-che»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "welches", "es": "cuál (neutro)", "esApprox": "«VÉL-ches»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "was für ein", "es": "qué tipo de (masculino/neutro)", "esApprox": "«vas für ain»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "was für eine", "es": "qué tipo de (femenino)", "esApprox": "«vas für ÁI-ne»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Marke", "es": "la marca", "esApprox": "«MAR-ke»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Welches Buch möchtest du, und welche Farbe magst du?", "es": "¿Cuál libro quieres, y cuál color te gusta?", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Was für ein Auto hast du, und was für eine Marke ist das?", "es": "¿Qué tipo de coche tienes, y qué marca es esa?", "from": "e16" }
+  ]
+}

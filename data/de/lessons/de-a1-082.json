@@ -1,0 +1,83 @@
+{
+  "id": "de-a1-082",
+  "lang": "de",
+  "level": "A1",
+  "order": 82,
+  "title": "Comparar: so… wie y als",
+  "objectives": [
+    "Comparar cosas iguales con so + adjetivo + wie (tan... como)",
+    "Negar la igualdad con nicht so + adjetivo + wie (no tan... como)",
+    "Reconocer als como «que» en comparaciones de desigualdad, preparando el comparativo de la clase 83"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "so... wie: tan... como",
+      "body": "Para decir que dos cosas son iguales en alguna cualidad, usa so + adjetivo + wie: «Mein Bruder ist so groß wie ich» (Mi hermano es tan alto como yo). Para negar la igualdad, basta con añadir nicht antes de so: «Er ist nicht so groß wie ich» (Él no es tan alto como yo).",
+      "examples": [
+        { "target": "Mein Bruder ist so groß wie ich.", "es": "Mi hermano es tan alto como yo." },
+        { "target": "Das Buch ist nicht so teuer wie der Film.", "es": "El libro no es tan caro como la película." }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "als: cuando las cosas NO son iguales",
+      "body": "Cuando dos cosas no son iguales, se usa el adjetivo en su forma comparativa (que verás en detalle en la clase 83, con la terminación -er) seguido de als (que): «Mein Bruder ist größer als ich» (Mi hermano es más alto que yo). Por ahora, basta con reconocer que als aparece junto a un comparativo, mientras que wie aparece junto a so."
+    },
+    {
+      "type": "tip",
+      "body": "Regla rápida: wie va con so (igualdad); als va con el comparativo en -er (desigualdad). No los mezcles: «so groß wie», nunca «so groß als»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "so... wie", "es": "tan... como", "ipa": "/zoː viː/", "esApprox": "«zo vi»", "pos": "expresión", "gender": null, "example": { "target": "Er ist so groß wie ich.", "es": "Él es tan alto como yo." } },
+    { "id": "v2", "target": "als", "es": "que (en comparaciones)", "ipa": "/als/", "esApprox": "«als»", "pos": "conjunción", "gender": null, "example": { "target": "Er ist größer als ich.", "es": "Él es más alto que yo." } },
+    { "id": "v3", "target": "genauso", "es": "exactamente igual", "ipa": "/ɡəˈnaʊ̯zoː/", "esApprox": "«ge-NÁU-zo»", "pos": "adverbio", "gender": null, "example": { "target": "Sie ist genauso nett wie du.", "es": "Ella es exactamente tan amable como tú." } },
+    { "id": "v3b", "target": "teuer", "es": "caro", "ipa": "/ˈtɔɪ̯ɐ/", "esApprox": "«TÓI-er»", "pos": "adjetivo", "gender": null, "example": { "target": "Das Buch ist teuer.", "es": "El libro es caro." } },
+    { "id": "v4", "target": "billig", "es": "barato", "ipa": "/ˈbɪlɪç/", "esApprox": "«BÍ-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das Hotel ist billig.", "es": "El hotel es barato." } },
+    { "id": "v5", "target": "vergleichen", "es": "comparar", "ipa": "/fɛɐ̯ˈɡlaɪ̯çn̩/", "esApprox": "«fer-GLÁI-chen»", "pos": "verbo", "gender": null, "example": { "target": "Wir vergleichen die Preise.", "es": "Comparamos los precios." } },
+    { "id": "v6", "target": "der Preis", "es": "el precio", "ipa": "/pʁaɪ̯s/", "esApprox": "«prais»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Preis ist hoch.", "es": "El precio es alto." } },
+    { "id": "v7", "target": "ähnlich", "es": "parecido, similar", "ipa": "/ˈɛːnlɪç/", "esApprox": "«ÉN-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Die beiden Städte sind ähnlich.", "es": "Las dos ciudades son parecidas." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["comparativo"], "difficulty": 1, "prompt": "¿Cómo se dice «tan grande como»?", "options": ["größer als", "so groß wie", "am größten", "groß als"], "answer": 1, "explain": "so groß wie: comparación de igualdad." },
+    { "id": "e2", "type": "mcq", "tags": ["comparativo"], "difficulty": 2, "prompt": "¿Qué palabra acompaña al comparativo en -er?", "options": ["wie", "als", "so", "genauso"], "answer": 1, "explain": "als va con el comparativo (desigualdad): größer als." },
+    { "id": "e3", "type": "true_false", "tags": ["comparativo"], "difficulty": 2, "statement": "«so groß wie» y «so groß als» significan lo mismo y se pueden usar indistintamente.", "answer": false, "explain": "Solo «so groß wie» es correcto; wie va con so, als va con el comparativo." },
+    { "id": "e4", "type": "true_false", "tags": ["comparativo"], "difficulty": 2, "statement": "Para negar la igualdad, se añade «nicht» antes de «so».", "answer": true, "explain": "nicht so groß wie = no tan grande como." },
+    { "id": "e5", "type": "match_pairs", "tags": ["comparativo"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["teuer", "billig", "vergleichen", "der Preis"], "right": ["caro", "barato", "comparar", "el precio"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave para comparar precios y cosas." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["comparativo"], "difficulty": 2, "prompt": "Mi hermano es tan alto como yo.", "accept": ["Mein Bruder ist so groß wie ich"], "hintWords": ["mein Bruder ist so groß wie ich"], "strictAccents": false, "audio": "Mein Bruder ist so groß wie ich.", "explain": "so groß wie: comparación de igualdad." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["comparativo"], "difficulty": 2, "prompt": "El libro no es tan caro como la película.", "accept": ["Das Buch ist nicht so teuer wie der Film"], "hintWords": ["das Buch ist nicht so teuer wie der Film"], "strictAccents": false, "audio": "Das Buch ist nicht so teuer wie der Film.", "explain": "nicht so teuer wie: negación de la igualdad." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["comparativo"], "difficulty": 2, "prompt": "Ella es exactamente tan amable como tú.", "accept": ["Sie ist genauso nett wie du"], "hintWords": ["sie ist genauso nett wie du"], "strictAccents": false, "audio": "Sie ist genauso nett wie du.", "explain": "genauso...wie: refuerza la igualdad." },
+    { "id": "e9", "type": "fill_blank", "tags": ["comparativo"], "difficulty": 2, "prompt": "Completa con wie o als", "text": "Er ist so groß ___ ich. Er ist größer ___ ich.", "blanks": [{ "accept": ["wie"] }, { "accept": ["als"] }], "bank": ["wie", "als", "so"], "explain": "wie va con so (igualdad); als va con el comparativo (desigualdad)." },
+    { "id": "e10", "type": "word_order", "tags": ["comparativo"], "difficulty": 2, "prompt": "Ordena: «Las dos ciudades son parecidas»", "tokens": ["sind", "Städte", "ähnlich", "Die beiden"], "answer": ["Die beiden", "Städte", "sind", "ähnlich"], "audio": "Die beiden Städte sind ähnlich.", "explain": "Die beiden Städte sind ähnlich: sujeto-verbo-adjetivo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["comparativo"], "difficulty": 2, "prompt": "Wir vergleichen die Preise.", "accept": ["Comparamos los precios."], "strictAccents": false, "audio": "Wir vergleichen die Preise.", "explain": "vergleichen = comparar." },
+    { "id": "e12", "type": "dialogue", "tags": ["comparativo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Nora", "text": "Ist das Hotel teuer?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nein, es ist nicht so teuer wie das andere.", "Es ist genauso teuer wie das andere."], "hint": "responde comparando el precio" },
+      { "who": "Nora", "text": "Gut, dann buchen wir es!", "speak": true }
+    ], "explain": "Uso natural de so...wie para comparar precios en una conversación." },
+    { "id": "e13", "type": "listening", "tags": ["comparativo"], "difficulty": 1, "speak": "Mein Bruder ist so groß wie ich.", "mode": "write", "accept": ["Mein Bruder ist so groß wie ich"], "showTextAfter": true, "explain": "so...wie: comparación de igualdad." },
+    { "id": "e14", "type": "listening", "tags": ["comparativo"], "difficulty": 2, "speak": "Das Buch ist nicht so teuer wie der Film.", "mode": "choose", "options": ["Das Buch ist nicht so teuer wie der Film.", "Das Buch ist so teuer wie der Film.", "Das Buch ist teurer als der Film."], "answer": 0, "showTextAfter": true, "explain": "nicht so teuer wie: negación de la igualdad, distinta de la afirmación y del comparativo." },
+    { "id": "e15", "type": "shadowing", "tags": ["comparativo"], "difficulty": 2, "speak": "Mein Bruder ist so groß wie ich, aber er ist nicht so schnell wie ich.", "es": "Mi hermano es tan alto como yo, pero no es tan rápido como yo.", "ipa": "/maɪ̯n ˈbʁuːdɐ ɪst zoː ɡʁoːs viː ɪç ˈaːbɐ eːɐ̯ ɪst nɪçt zoː ʃnɛl viː ɪç/", "esApprox": "«main BRÚ-der ist zo gros vi ich, Á-ber er ist nicht zo shnel vi ich»", "focus": "so groß wie (igualdad afirmativa) frente a nicht so schnell wie (igualdad negada).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["comparativo"], "difficulty": 2, "speak": "Wir vergleichen die Preise, weil das Hotel genauso teuer wie der Flug ist.", "es": "Comparamos los precios, porque el hotel es exactamente tan caro como el vuelo.", "ipa": "/viːɐ̯ fɛɐ̯ˈɡlaɪ̯çn̩ diː ˈpʁaɪ̯zə vaɪ̯l das hoˈtɛl ɡəˈnaʊ̯zoː ˈtɔɪ̯ɐ viː deːɐ̯ fluːk ɪst/", "esApprox": "«vir fer-GLÁI-chen di PRÁI-ze, vail das jo-TEL ge-NÁU-zo TÓI-er vi der fluk ist»", "focus": "genauso...wie con ist al final, por la conjunción weil de la clase 80.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["comparativo"], "difficulty": 2, "prompt": "Te preguntan si el hotel es caro. Di que no es tan caro como el otro.", "modelAnswer": "Nein, es ist nicht so teuer wie das andere.", "alsoValid": ["Es ist nicht so teuer."], "speak": "Nein, es ist nicht so teuer wie das andere.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["comparativo"], "difficulty": 2, "prompt": "Clasifica cada frase: igualdad o desigualdad", "buckets": ["Igualdad (so... wie)", "Desigualdad (comparativo + als)"], "items": [
+      { "text": "so groß wie", "bucket": 0 },
+      { "text": "größer als", "bucket": 1 },
+      { "text": "genauso teuer wie", "bucket": 0 },
+      { "text": "billiger als", "bucket": 1 }
+    ], "explain": "so...wie expresa igualdad; el comparativo en -er + als expresa desigualdad." },
+    { "id": "e19", "type": "error_correction", "tags": ["comparativo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Er ist so groß als ich.", "accept": ["Er ist so groß wie ich"], "audio": "Er ist so groß wie ich.", "explain": "so va con wie, no con als: so groß wie ich." },
+    { "id": "e20", "type": "mcq", "tags": ["comparativo"], "difficulty": 2, "prompt": "«Wir vergleichen zwei Hotels. Das erste ist billig, aber das zweite ist genauso billig wie das erste. Die Preise sind also sehr ähnlich.» ¿Cómo son los precios de los dos hoteles?", "options": ["Muy diferentes", "Muy parecidos", "El segundo es más caro", "El primero es más caro"], "answer": 1, "explain": "«die Preise sind also sehr ähnlich» = los precios son muy parecidos, porque ambos hoteles son igual de baratos." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "so... wie", "es": "tan... como", "esApprox": "«zo vi»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "als", "es": "que (en comparaciones)", "esApprox": "«als»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "genauso", "es": "exactamente igual", "esApprox": "«ge-NÁU-zo»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "teuer", "es": "caro", "esApprox": "«TÓI-er»", "from": "v3b" },
+    { "id": "s5", "kind": "word", "target": "billig", "es": "barato", "esApprox": "«BÍ-lich»", "from": "v4" },
+    { "id": "s6", "kind": "word", "target": "vergleichen", "es": "comparar", "esApprox": "«fer-GLÁI-chen»", "from": "v5" },
+    { "id": "s7", "kind": "phrase", "target": "Mein Bruder ist so groß wie ich, aber er ist nicht so schnell wie ich.", "es": "Mi hermano es tan alto como yo, pero no es tan rápido como yo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wir vergleichen die Preise, weil das Hotel genauso teuer wie der Flug ist.", "es": "Comparamos los precios, porque el hotel es exactamente tan caro como el vuelo.", "from": "e16" }
+  ]
+}

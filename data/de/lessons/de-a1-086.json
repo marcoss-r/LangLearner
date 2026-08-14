@@ -1,0 +1,84 @@
+{
+  "id": "de-a1-086",
+  "lang": "de",
+  "level": "A1",
+  "order": 86,
+  "title": "Invitar, aceptar y rechazar",
+  "objectives": [
+    "Invitar a alguien a hacer un plan usando Hast du Lust...? y Willst du...?",
+    "Aceptar una invitación con entusiasmo o con condiciones",
+    "Rechazar una invitación educadamente, dando una razón con weil"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Invitar: Hast du Lust...?",
+      "body": "La forma más natural de invitar a alguien es «Hast du Lust, ...?» (¿Tienes ganas de...?) seguida de zu + infinitivo, o simplemente «Willst du...?» (¿Quieres...?). Para aceptar, basta con «Ja, gerne!» (¡Sí, con gusto!) o «Klar, machen wir!» (¡Claro, hagámoslo!).",
+      "examples": [
+        { "target": "Hast du Lust, ins Kino zu gehen?", "es": "¿Tienes ganas de ir al cine?" },
+        { "target": "Ja, gerne! Wann treffen wir uns?", "es": "¡Sí, con gusto! ¿Cuándo quedamos?" }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "Rechazar educadamente con weil",
+      "body": "Para rechazar una invitación sin sonar brusco, se suele agradecer primero y dar una razón con weil (clase 80): «Danke, aber ich kann nicht, weil ich schon einen Termin habe» (Gracias, pero no puedo, porque ya tengo una cita). También es habitual proponer otro momento: «Vielleicht ein anderes Mal?» (¿Quizás otra vez?)."
+    },
+    {
+      "type": "tip",
+      "body": "Combina lo que ya sabes: Hast du Lust...? + zu + infinitivo para invitar, weil + verbo al final para explicar por qué aceptas o no puedes, y vielleicht para dejar la puerta abierta a otro plan."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Lust", "es": "las ganas", "ipa": "/lʊst/", "esApprox": "«lust»", "pos": "sustantivo", "gender": "f", "example": { "target": "Hast du Lust, ins Kino zu gehen?", "es": "¿Tienes ganas de ir al cine?" } },
+    { "id": "v2", "target": "einladen", "es": "invitar", "ipa": "/ˈaɪ̯nlaːdn̩/", "esApprox": "«ÁIN-la-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich lade dich ein.", "es": "Te invito." } },
+    { "id": "v3", "target": "gerne", "es": "con gusto", "ipa": "/ˈɡɛʁnə/", "esApprox": "«GUÉR-ne»", "pos": "adverbio", "gender": null, "example": { "target": "Ja, gerne!", "es": "¡Sí, con gusto!" } },
+    { "id": "v4", "target": "leider", "es": "por desgracia", "ipa": "/ˈlaɪ̯dɐ/", "esApprox": "«LÁI-der»", "pos": "adverbio", "gender": null, "example": { "target": "Leider kann ich nicht.", "es": "Por desgracia no puedo." } },
+    { "id": "v5", "target": "vielleicht", "es": "quizás", "ipa": "/fiˈlaɪ̯çt/", "esApprox": "«fi-LÁICHT»", "pos": "adverbio", "gender": null, "example": { "target": "Vielleicht ein anderes Mal.", "es": "Quizás otra vez." } },
+    { "id": "v5b", "target": "absagen", "es": "cancelar, rechazar (un plan)", "ipa": "/ˈapzaːɡn̩/", "esApprox": "«AP-za-guen»", "pos": "verbo", "gender": null, "example": { "target": "Ich muss leider absagen.", "es": "Tengo que cancelar, por desgracia." } },
+    { "id": "v6", "target": "die Party", "es": "la fiesta", "ipa": "/ˈpaʁti/", "esApprox": "«PÁR-ti»", "pos": "sustantivo", "gender": "f", "example": { "target": "Kommst du zur Party?", "es": "¿Vienes a la fiesta?" } },
+    { "id": "v7", "target": "klar", "es": "claro", "ipa": "/klaːɐ̯/", "esApprox": "«klar»", "pos": "adverbio", "gender": null, "example": { "target": "Klar, machen wir!", "es": "¡Claro, hagámoslo!" } },
+    { "id": "v8", "target": "das Angebot", "es": "la propuesta, la oferta", "ipa": "/ˈanɡəboːt/", "esApprox": "«ÁN-ge-bot»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das ist ein gutes Angebot.", "es": "Esa es una buena propuesta." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["invitaciones"], "difficulty": 1, "prompt": "¿Cómo se dice «¡Sí, con gusto!»?", "options": ["Ja, gerne!", "Nein, danke!", "Vielleicht!", "Leider nicht!"], "answer": 0, "explain": "Ja, gerne! es la forma más común de aceptar con entusiasmo." },
+    { "id": "e2", "type": "mcq", "tags": ["invitaciones"], "difficulty": 2, "prompt": "¿Qué significa «leider»?", "options": ["con gusto", "claro", "por desgracia", "quizás"], "answer": 2, "explain": "leider = por desgracia, se usa para suavizar un rechazo." },
+    { "id": "e3", "type": "true_false", "tags": ["invitaciones"], "difficulty": 2, "statement": "Para rechazar educadamente, es habitual dar una razón con weil.", "answer": true, "explain": "Danke, aber ich kann nicht, weil... es la estructura educada de rechazo." },
+    { "id": "e4", "type": "true_false", "tags": ["invitaciones"], "difficulty": 2, "statement": "«Hast du Lust...?» significa «¿Tienes tiempo...?».", "answer": false, "explain": "«Hast du Lust...?» significa «¿Tienes ganas de...?»; tiempo se dice «Hast du Zeit?»." },
+    { "id": "e5", "type": "match_pairs", "tags": ["invitaciones"], "difficulty": 2, "prompt": "Une cada expresión con su traducción", "left": ["gerne", "leider", "vielleicht", "klar"], "right": ["con gusto", "por desgracia", "quizás", "claro"], "answer": [0, 1, 2, 3], "explain": "Cuatro adverbios clave para aceptar, rechazar o dejar abierta una invitación." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["invitaciones"], "difficulty": 2, "prompt": "¿Tienes ganas de ir al cine?", "accept": ["Hast du Lust, ins Kino zu gehen?", "Hast du Lust, ins Kino zu gehen"], "hintWords": ["hast du Lust, ins Kino zu gehen"], "strictAccents": false, "audio": "Hast du Lust, ins Kino zu gehen?", "explain": "Hast du Lust, ... zu + infinitivo: la invitación más natural." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["invitaciones"], "difficulty": 2, "prompt": "Gracias, pero no puedo, porque ya tengo una cita.", "accept": ["Danke, aber ich kann nicht, weil ich schon einen Termin habe"], "hintWords": ["danke, aber ich kann nicht, weil ich schon einen Termin habe"], "strictAccents": false, "audio": "Danke, aber ich kann nicht, weil ich schon einen Termin habe.", "explain": "Rechazo educado: agradecer + aber + weil con el verbo al final." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["invitaciones"], "difficulty": 2, "prompt": "¿Quizás otra vez?", "accept": ["Vielleicht ein anderes Mal?", "Vielleicht ein anderes Mal"], "hintWords": ["vielleicht ein anderes Mal"], "strictAccents": false, "audio": "Vielleicht ein anderes Mal?", "explain": "vielleicht ein anderes Mal: propuesta de plan alternativo." },
+    { "id": "e9", "type": "fill_blank", "tags": ["invitaciones"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich muss ___ absagen. Kommst du zur ___?", "blanks": [{ "accept": ["leider"] }, { "accept": ["Party"] }], "bank": ["leider", "Party", "gerne"], "explain": "leider (por desgracia); die Party (la fiesta)." },
+    { "id": "e10", "type": "word_order", "tags": ["invitaciones"], "difficulty": 2, "prompt": "Ordena: «¡Claro, hagámoslo!»", "tokens": ["machen wir", "Klar,"], "answer": ["Klar,", "machen wir"], "audio": "Klar, machen wir!", "explain": "Klar, machen wir!: expresión fija de aceptación entusiasta." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["invitaciones"], "difficulty": 2, "prompt": "Das ist ein gutes Angebot.", "accept": ["Esa es una buena propuesta.", "Eso es una buena oferta."], "strictAccents": false, "audio": "Das ist ein gutes Angebot.", "explain": "das Angebot = la propuesta, la oferta." },
+    { "id": "e12", "type": "dialogue", "tags": ["invitaciones"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lena", "text": "Hast du Lust, am Samstag auf meine Party zu kommen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, gerne!", "Danke, aber ich kann nicht, weil ich schon einen Termin habe."], "hint": "acepta o rechaza educadamente" },
+      { "who": "Lena", "text": "Super, bis Samstag!", "speak": true }
+    ], "explain": "Invitación completa con posible aceptación o rechazo educado." },
+    { "id": "e13", "type": "listening", "tags": ["invitaciones"], "difficulty": 1, "speak": "Hast du Lust, ins Kino zu gehen?", "mode": "write", "accept": ["Hast du Lust, ins Kino zu gehen"], "showTextAfter": true, "explain": "Invitación clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["invitaciones"], "difficulty": 2, "speak": "Leider kann ich nicht.", "mode": "choose", "options": ["Leider kann ich nicht.", "Klar, ich kann.", "Vielleicht kann ich."], "answer": 0, "showTextAfter": true, "explain": "Leider kann ich nicht.: rechazo educado, distinto de la aceptación (klar) y la duda (vielleicht)." },
+    { "id": "e15", "type": "shadowing", "tags": ["invitaciones"], "difficulty": 2, "speak": "Hast du Lust, ins Kino zu gehen? Ja, gerne! Wann treffen wir uns?", "es": "¿Tienes ganas de ir al cine? ¡Sí, con gusto! ¿Cuándo quedamos?", "ipa": "/hast duː lʊst ɪns ˈkiːno tsuː ˈɡeːən jaː ˈɡɛʁnə van ˈtʁɛfn̩ viːɐ̯ ʊns/", "esApprox": "«jast du lust ins KÍ-no tsu GUÉ-en? ya, GUÉR-ne! van TRÉ-fen vir uns?»", "focus": "Invitación completa: pregunta con Lust, aceptación con gerne, y pregunta de seguimiento con wann.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["invitaciones"], "difficulty": 2, "speak": "Danke, aber ich kann nicht, weil ich schon einen Termin habe. Vielleicht ein anderes Mal?", "es": "Gracias, pero no puedo, porque ya tengo una cita. ¿Quizás otra vez?", "ipa": "/ˈdaŋkə ˈaːbɐ ɪç kan nɪçt vaɪ̯l ɪç ʃoːn ˈaɪ̯nən tɛʁˈmiːn ˈhaːbə fiˈlaɪ̯çt aɪ̯n ˈandəʁəs maːl/", "esApprox": "«DÁN-ke, Á-ber ich kan nicht, vail ich shon ÁI-nen ter-MÍN JÁ-be. fi-LÁICHT ain ÁN-de-res mal?»", "focus": "Rechazo educado completo: agradecer, weil con el verbo al final, y proponer otro momento.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["invitaciones"], "difficulty": 2, "prompt": "Te invitan a una fiesta, pero ya tienes una cita. Rechaza educadamente y propón otro momento.", "modelAnswer": "Danke, aber ich kann nicht, weil ich schon einen Termin habe. Vielleicht ein anderes Mal?", "alsoValid": ["Leider kann ich nicht kommen."], "speak": "Danke, aber ich kann nicht, weil ich schon einen Termin habe. Vielleicht ein anderes Mal?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["invitaciones"], "difficulty": 2, "prompt": "Clasifica cada expresión: aceptar o rechazar", "buckets": ["Aceptar", "Rechazar"], "items": [
+      { "text": "Ja, gerne!", "bucket": 0 },
+      { "text": "Leider kann ich nicht.", "bucket": 1 },
+      { "text": "Klar, machen wir!", "bucket": 0 },
+      { "text": "Ich muss leider absagen.", "bucket": 1 }
+    ], "explain": "gerne y klar aceptan; leider y absagen rechazan." },
+    { "id": "e19", "type": "error_correction", "tags": ["invitaciones"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Danke, aber ich kann nicht, weil ich habe schon einen Termin.", "accept": ["Danke, aber ich kann nicht, weil ich schon einen Termin habe"], "audio": "Danke, aber ich kann nicht, weil ich schon einen Termin habe.", "explain": "Con weil, el verbo conjugado (habe) va al final, no justo después del sujeto." },
+    { "id": "e20", "type": "mcq", "tags": ["invitaciones"], "difficulty": 2, "prompt": "«Lena lädt mich zur Party ein, aber ich muss leider absagen, weil ich schon einen Termin habe. Ich sage: Vielleicht ein anderes Mal?» ¿Por qué no puede ir la persona a la fiesta?", "options": ["No le gustan las fiestas", "Ya tiene una cita", "Está enferma", "No tiene tiempo libre nunca"], "answer": 1, "explain": "«weil ich schon einen Termin habe» = porque ya tengo una cita." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "die Lust", "es": "las ganas", "esApprox": "«lust»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "einladen", "es": "invitar", "esApprox": "«ÁIN-la-den»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "gerne", "es": "con gusto", "esApprox": "«GUÉR-ne»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "leider", "es": "por desgracia", "esApprox": "«LÁI-der»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "vielleicht", "es": "quizás", "esApprox": "«fi-LÁICHT»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "absagen", "es": "cancelar, rechazar (un plan)", "esApprox": "«AP-za-guen»", "from": "v5b" },
+    { "id": "s7", "kind": "phrase", "target": "Hast du Lust, ins Kino zu gehen? Ja, gerne! Wann treffen wir uns?", "es": "¿Tienes ganas de ir al cine? ¡Sí, con gusto! ¿Cuándo quedamos?", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Danke, aber ich kann nicht, weil ich schon einen Termin habe. Vielleicht ein anderes Mal?", "es": "Gracias, pero no puedo, porque ya tengo una cita. ¿Quizás otra vez?", "from": "e16" }
+  ]
+}
