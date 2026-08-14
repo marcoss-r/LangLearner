@@ -1,0 +1,91 @@
+{
+  "id": "de-a2-099",
+  "lang": "de",
+  "level": "A2",
+  "order": 99,
+  "title": "Narrar un día cualquiera de tu vida",
+  "objectives": [
+    "Narrar un día completo en Perfekt, desde que te levantas hasta que te acuestas",
+    "Combinar verbos separables (aufstehen, anrufen) e inseparables (bekommen, bezahlen) en una narración fluida",
+    "Usar bevor y nachdem de forma intuitiva para ordenar dos acciones (anticipando la clase 128)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un día completo, paso a paso",
+      "body": "Para narrar un día típico, combina los conectores de secuencia (clase 98) con el vocabulario de rutina diaria que ya conoces desde el A1: aufstehen, frühstücken, arbeiten, nach Hause kommen, zu Abend essen, ins Bett gehen. La clave es encadenar frases cortas en Perfekt sin repetir siempre el mismo patrón.",
+      "examples": [
+        { "target": "Ich bin um sieben aufgestanden und habe gefrühstückt.", "es": "Me levanté a las siete y desayuné." },
+        { "target": "Danach bin ich zur Arbeit gefahren.", "es": "Después de eso fui al trabajo." },
+        { "target": "Am Abend habe ich einen Anruf bekommen.", "es": "Por la noche recibí una llamada." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos de rutina diaria en Perfekt",
+      "headers": ["Infinitivo", "Perfekt", "Auxiliar"],
+      "rows": [
+        ["aufwachen", "ist aufgewacht", "sein"],
+        ["aufstehen", "ist aufgestanden", "sein"],
+        ["frühstücken", "hat gefrühstückt", "haben"],
+        ["zu Abend essen", "hat zu Abend gegessen", "haben"],
+        ["ins Bett gehen", "ist ins Bett gegangen", "sein"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Puedes usar dos palabras muy útiles para ordenar acciones sin necesitar toda la estructura de una subordinada: «vorher» (antes) y «nachher» (después), que funcionan como adverbios simples en posición 1, a diferencia de bevor/nachdem (que verás en la clase 128 con el verbo al final)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "aufwachen", "es": "despertarse", "ipa": "/ˈaʊ̯fvaxn̩/", "esApprox": "«ÁUF-va-jen»", "pos": "verbo", "gender": null, "example": { "target": "Ich bin um sechs aufgewacht.", "es": "Me desperté a las seis." } },
+    { "id": "v2", "target": "frühstücken", "es": "desayunar", "ipa": "/ˈfʁyːʃtʏkn̩/", "esApprox": "«FRÜ-shtü-ken»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe schnell gefrühstückt.", "es": "Desayuné rápido." } },
+    { "id": "v3", "target": "der Anruf", "es": "la llamada", "ipa": "/ˈanʁuːf/", "esApprox": "«ÁN-ruf»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe einen Anruf bekommen.", "es": "He recibido una llamada." } },
+    { "id": "v4", "target": "vorher", "es": "antes", "ipa": "/ˈfoːɐ̯heːɐ̯/", "esApprox": "«FOR-jer»", "pos": "adverbio", "gender": null, "example": { "target": "Vorher habe ich gefrühstückt.", "es": "Antes desayuné." } },
+    { "id": "v5", "target": "nachher", "es": "después", "ipa": "/ˈnaːxheːɐ̯/", "esApprox": "«NACH-jer»", "pos": "adverbio", "gender": null, "example": { "target": "Nachher bin ich ins Bett gegangen.", "es": "Después me fui a la cama." } },
+    { "id": "v6", "target": "zu Abend essen", "es": "cenar", "ipa": "/tsuː ˈaːbn̩t ˈɛsn̩/", "esApprox": "«tsu Á-bent É-sen»", "pos": "expresión", "gender": null, "example": { "target": "Wir haben spät zu Abend gegessen.", "es": "Cenamos tarde." } },
+    { "id": "v7", "target": "typisch", "es": "típico", "ipa": "/ˈtyːpɪʃ/", "esApprox": "«TÜ-pish»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist ein typischer Tag.", "es": "Ese es un día típico." } },
+    { "id": "v8", "target": "anstrengend", "es": "agotador", "ipa": "/ˈanʃtʁɛŋənt/", "esApprox": "«ÁN-shtren-guent»", "pos": "adjetivo", "gender": null, "example": { "target": "Der Tag war anstrengend.", "es": "El día fue agotador." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["narracion"], "difficulty": 1, "prompt": "¿Cómo se dice «desayunar»?", "options": ["aufwachen", "frühstücken", "zu Abend essen", "aufstehen"], "answer": 1, "explain": "frühstücken = desayunar." },
+    { "id": "e2", "type": "mcq", "tags": ["narracion"], "difficulty": 2, "prompt": "¿Qué significa «vorher»?", "options": ["después", "antes", "luego", "por último"], "answer": 1, "explain": "vorher = antes; nachher = después." },
+    { "id": "e3", "type": "true_false", "tags": ["narracion"], "difficulty": 2, "statement": "«nachher» funciona como un adverbio simple en posición 1.", "answer": true, "explain": "A diferencia de nachdem, nachher no necesita mandar el verbo al final." },
+    { "id": "e4", "type": "true_false", "tags": ["perfekt"], "difficulty": 2, "statement": "«aufwachen» usa haben como auxiliar en Perfekt.", "answer": false, "explain": "aufwachen es un verbo de cambio de estado: usa sein (ich bin aufgewacht)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["narracion"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["aufwachen", "frühstücken", "vorher", "nachher"], "right": ["despertarse", "desayunar", "antes", "después"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave para narrar un día cualquiera." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["narracion"], "difficulty": 2, "prompt": "Me levanté a las siete y desayuné.", "accept": ["Ich bin um sieben aufgestanden und habe gefrühstückt"], "hintWords": ["ich bin um sieben aufgestanden und habe gefrühstückt"], "strictAccents": false, "audio": "Ich bin um sieben aufgestanden und habe gefrühstückt.", "explain": "bin aufgestanden (sein) + habe gefrühstückt (haben): dos auxiliares distintos en la misma frase." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["narracion"], "difficulty": 2, "prompt": "Por la noche recibí una llamada.", "accept": ["Am Abend habe ich einen Anruf bekommen"], "hintWords": ["am Abend habe ich einen Anruf bekommen"], "strictAccents": false, "audio": "Am Abend habe ich einen Anruf bekommen.", "explain": "bekommen: participio idéntico al infinitivo (clase 94)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["narracion"], "difficulty": 2, "prompt": "Cenamos tarde.", "accept": ["Wir haben spät zu Abend gegessen"], "hintWords": ["wir haben spät zu Abend gegessen"], "strictAccents": false, "audio": "Wir haben spät zu Abend gegessen.", "explain": "zu Abend essen → zu Abend gegessen, con el participio irregular de essen." },
+    { "id": "e9", "type": "fill_blank", "tags": ["narracion"], "difficulty": 2, "prompt": "Completa con vorher o nachher", "text": "___ habe ich gefrühstückt. ___ bin ich ins Bett gegangen.", "blanks": [{ "accept": ["Vorher"] }, { "accept": ["Nachher"] }], "bank": ["Vorher", "Nachher", "Danach"], "explain": "Vorher (antes); Nachher (después)." },
+    { "id": "e10", "type": "word_order", "tags": ["narracion"], "difficulty": 2, "prompt": "Ordena: «El día fue agotador»", "tokens": ["war", "Der Tag", "anstrengend"], "answer": ["Der Tag", "war", "anstrengend"], "audio": "Der Tag war anstrengend.", "explain": "Der Tag war anstrengend: sujeto-verbo-adjetivo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["narracion"], "difficulty": 2, "prompt": "Das ist ein typischer Tag.", "accept": ["Ese es un día típico."], "strictAccents": false, "audio": "Das ist ein typischer Tag.", "explain": "typisch = típico." },
+    { "id": "e12", "type": "dialogue", "tags": ["narracion"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Tom", "text": "Erzähl mir von einem typischen Tag bei dir.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich bin um sieben aufgestanden und habe gefrühstückt.", "Zuerst bin ich aufgestanden, dann habe ich gefrühstückt."], "hint": "narra el inicio de tu día" },
+      { "who": "Tom", "text": "Klingt nach einem typischen Tag!", "speak": true }
+    ], "explain": "Práctica de narración de un día cualquiera con conectores." },
+    { "id": "e13", "type": "listening", "tags": ["narracion"], "difficulty": 1, "speak": "Ich bin um sieben aufgestanden und habe gefrühstückt.", "mode": "write", "accept": ["Ich bin um sieben aufgestanden und habe gefrühstückt"], "showTextAfter": true, "explain": "Narración típica de la mañana en Perfekt." },
+    { "id": "e14", "type": "listening", "tags": ["narracion"], "difficulty": 2, "speak": "Am Abend habe ich einen Anruf bekommen.", "mode": "choose", "options": ["Am Abend habe ich einen Anruf bekommen.", "Am Abend bin ich einen Anruf bekommen.", "Am Abend habe ich einen Anruf gebekommen."], "answer": 0, "showTextAfter": true, "explain": "bekommen usa haben y no lleva ge-: la única forma correcta." },
+    { "id": "e15", "type": "shadowing", "tags": ["narracion"], "difficulty": 2, "speak": "Ich bin um sieben aufgestanden, habe gefrühstückt, und danach bin ich zur Arbeit gefahren.", "es": "Me levanté a las siete, desayuné, y después de eso fui al trabajo.", "ipa": "/ɪç bɪn ʊm ˈziːbn̩ ˈaʊ̯fɡəʃtandn̩ ˈhaːbə ɡəˈfʁyːʃtʏkt ʊnt daˈnaːx bɪn ɪç tsuːɐ̯ ˈaʁbaɪ̯t ɡəˈfaːʁən/", "esApprox": "«ich bin um ZÍ-ben ÁUF-ge-shtan-den, JÁ-be ge-FRÜ-shtükt, unt da-NACH bin ich tsur AR-bait ge-FÁ-ren»", "focus": "Tres verbos en Perfekt encadenados (aufgestanden, gefrühstückt, gefahren), con sein y haben alternándose.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["narracion"], "difficulty": 2, "speak": "Am Abend habe ich einen Anruf bekommen, und nachher bin ich früh ins Bett gegangen, weil der Tag anstrengend war.", "es": "Por la noche recibí una llamada, y después me fui pronto a la cama, porque el día fue agotador.", "ipa": "/am ˈaːbn̩t ˈhaːbə ɪç ˈaɪ̯nən ˈanʁuːf bəˈkɔmən ʊnt ˈnaːxheːɐ̯ bɪn ɪç fʁyː ɪns bɛt ɡəˈɡaŋən vaɪ̯l deːɐ̯ taːk ˈanʃtʁɛŋənt vaːɐ̯/", "esApprox": "«am Á-bent JÁ-be ich ÁI-nen ÁN-ruf be-KÓ-men, unt NACH-jer bin ich frü ins bet ge-GÁN-guen, vail der tak ÁN-shtren-guent var»", "focus": "nachher (adverbio simple) frente a weil (con war al final): dos formas distintas de conectar ideas.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["narracion"], "difficulty": 2, "prompt": "Te piden que cuentes cómo fue tu día. Cuenta al menos tres cosas que hiciste, en orden.", "modelAnswer": "Ich bin um sieben aufgestanden, habe gefrühstückt, und danach bin ich zur Arbeit gefahren.", "alsoValid": ["Zuerst habe ich gefrühstückt, dann bin ich zur Arbeit gefahren."], "speak": "Ich bin um sieben aufgestanden, habe gefrühstückt, und danach bin ich zur Arbeit gefahren.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["perfekt"], "difficulty": 2, "prompt": "Clasifica cada verbo: usa haben o sein en Perfekt", "buckets": ["haben", "sein"], "items": [
+      { "text": "frühstücken", "bucket": 0 },
+      { "text": "aufwachen", "bucket": 1 },
+      { "text": "bekommen", "bucket": 0 },
+      { "text": "gehen", "bucket": 1 }
+    ], "explain": "frühstücken y bekommen usan haben; aufwachen y gehen (cambio de estado/movimiento) usan sein." },
+    { "id": "e19", "type": "error_correction", "tags": ["narracion"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe um sechs aufgewacht.", "accept": ["Ich bin um sechs aufgewacht"], "audio": "Ich bin um sechs aufgewacht.", "explain": "aufwachen usa sein, no haben, como auxiliar del Perfekt." },
+    { "id": "e20", "type": "mcq", "tags": ["narracion"], "difficulty": 2, "prompt": "«Ich bin um sieben aufgestanden und habe gefrühstückt. Danach bin ich zur Arbeit gefahren. Am Abend habe ich einen Anruf bekommen, und nachher bin ich früh ins Bett gegangen.» ¿Cuándo recibió la llamada la persona?", "options": ["Por la mañana", "Al mediodía", "Por la noche", "No se menciona"], "answer": 2, "explain": "«Am Abend habe ich einen Anruf bekommen» = por la noche recibí una llamada." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "aufwachen", "es": "despertarse", "esApprox": "«ÁUF-va-jen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "frühstücken", "es": "desayunar", "esApprox": "«FRÜ-shtü-ken»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Anruf", "es": "la llamada", "esApprox": "«ÁN-ruf»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "vorher", "es": "antes", "esApprox": "«FOR-jer»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "nachher", "es": "después", "esApprox": "«NACH-jer»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "anstrengend", "es": "agotador", "esApprox": "«ÁN-shtren-guent»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich bin um sieben aufgestanden, habe gefrühstückt, und danach bin ich zur Arbeit gefahren.", "es": "Me levanté a las siete, desayuné, y después de eso fui al trabajo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Am Abend habe ich einen Anruf bekommen, und nachher bin ich früh ins Bett gegangen, weil der Tag anstrengend war.", "es": "Por la noche recibí una llamada, y después me fui pronto a la cama, porque el día fue agotador.", "from": "e16" }
+  ]
+}

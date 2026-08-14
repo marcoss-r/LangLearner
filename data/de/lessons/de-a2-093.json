@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-093",
+  "lang": "de",
+  "level": "A2",
+  "order": 93,
+  "title": "Sustituir los objetos por pronombres: el orden correcto",
+  "objectives": [
+    "Sustituir objetos por pronombres personales en acusativo y dativo",
+    "Aplicar la regla inversa: cuando ambos son pronombres, el acusativo va antes que el dativo",
+    "Reconocer que un pronombre siempre va antes que un sustantivo, sea cual sea su caso"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Con pronombres, el orden se invierte",
+      "body": "En la clase 92 viste que con dos sustantivos, el dativo va antes que el acusativo. Pero cuando sustituyes AMBOS objetos por pronombres, el orden se invierte: el acusativo va antes que el dativo. Compara: «Ich gebe dem Kind das Buch» (sustantivos: dativo-acusativo) frente a «Ich gebe es ihm» (pronombres: acusativo-dativo).",
+      "examples": [
+        { "target": "Ich gebe es ihm.", "es": "Se lo doy (a él).", "note": "es (acusativo) antes de ihm (dativo)" },
+        { "target": "Sie zeigt sie ihr.", "es": "Ella se las muestra (a ella).", "note": "sie (acusativo) antes de ihr (dativo)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Regla general de los tres casos posibles",
+      "headers": ["Combinación", "Orden"],
+      "rows": [
+        ["sustantivo + sustantivo", "dativo antes que acusativo"],
+        ["pronombre + pronombre", "acusativo antes que dativo"],
+        ["pronombre + sustantivo", "el pronombre siempre va primero"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Regla de oro: un pronombre siempre va antes que un sustantivo, sin importar el caso. Solo cuando ambos son del mismo tipo (los dos sustantivos, o los dos pronombres) importa la regla dativo/acusativo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "es", "es": "lo (acusativo neutro)", "ipa": "/ɛs/", "esApprox": "«es»", "pos": "pronombre", "gender": null, "example": { "target": "Ich gebe es ihm.", "es": "Se lo doy (a él)." } },
+    { "id": "v2", "target": "ihm", "es": "le, a él (dativo)", "ipa": "/iːm/", "esApprox": "«im»", "pos": "pronombre", "gender": null, "example": { "target": "Ich gebe es ihm.", "es": "Se lo doy (a él)." } },
+    { "id": "v3", "target": "ihr", "es": "le, a ella (dativo)", "ipa": "/iːɐ̯/", "esApprox": "«ir»", "pos": "pronombre", "gender": null, "example": { "target": "Sie zeigt sie ihr.", "es": "Ella se las muestra (a ella)." } },
+    { "id": "v4", "target": "ihnen", "es": "les, a ellos (dativo)", "ipa": "/ˈiːnən/", "esApprox": "«Í-nen»", "pos": "pronombre", "gender": null, "example": { "target": "Ich erkläre es ihnen.", "es": "Se lo explico (a ellos)." } },
+    { "id": "v5", "target": "ersetzen", "es": "sustituir, reemplazar", "ipa": "/ɛɐ̯ˈzɛtsn̩/", "esApprox": "«er-ZÉ-tsen»", "pos": "verbo", "gender": null, "example": { "target": "Ich ersetze das Wort durch ein Pronomen.", "es": "Sustituyo la palabra por un pronombre." } },
+    { "id": "v6", "target": "das Pronomen", "es": "el pronombre", "ipa": "/pʁoˈnoːmən/", "esApprox": "«pro-NÓ-men»", "pos": "sustantivo", "gender": "n", "example": { "target": "«Es» ist ein Pronomen.", "es": "«Es» es un pronombre." } },
+    { "id": "v7", "target": "umgekehrt", "es": "al revés, invertido", "ipa": "/ˈʊmɡəkeːɐ̯t/", "esApprox": "«UM-ge-kert»", "pos": "adjetivo", "gender": null, "example": { "target": "Mit Pronomen ist die Reihenfolge umgekehrt.", "es": "Con pronombres, el orden está invertido." } },
+    { "id": "v8", "target": "die Reihenfolge", "es": "el orden, la secuencia", "ipa": "/ˈʁaɪ̯ənˌfɔlɡə/", "esApprox": "«RÁI-en-fol-gue»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Reihenfolge ist wichtig.", "es": "El orden es importante." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["orden-objetos"], "difficulty": 1, "prompt": "Cuando ambos objetos son pronombres, ¿cuál va primero?", "options": ["El dativo", "El acusativo", "Depende del verbo", "Da igual"], "answer": 1, "explain": "Con pronombres, el acusativo va antes que el dativo: lo contrario que con sustantivos." },
+    { "id": "e2", "type": "mcq", "tags": ["pronombres"], "difficulty": 2, "prompt": "En «Ich gebe es ihm», ¿qué es «es»?", "options": ["Dativo", "Acusativo", "Nominativo", "Sujeto"], "answer": 1, "explain": "es es el pronombre acusativo neutro (lo)." },
+    { "id": "e3", "type": "true_false", "tags": ["orden-objetos"], "difficulty": 2, "statement": "Un pronombre siempre va antes que un sustantivo, sea cual sea su caso.", "answer": true, "explain": "Regla de oro: pronombre antes que sustantivo, siempre." },
+    { "id": "e4", "type": "true_false", "tags": ["orden-objetos"], "difficulty": 2, "statement": "«Ich gebe dem Kind es» es el orden correcto.", "answer": false, "explain": "El pronombre (es) debe ir antes que el sustantivo (dem Kind): «Ich gebe es dem Kind»." },
+    { "id": "e5", "type": "match_pairs", "tags": ["pronombres"], "difficulty": 2, "prompt": "Une cada pronombre dativo con su significado", "left": ["ihm", "ihr", "ihnen", "es"], "right": ["a él", "a ella", "a ellos", "lo (acusativo)"], "answer": [0, 1, 2, 3], "explain": "Pronombres dativos frecuentes, más el acusativo neutro es." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Se lo doy (a él).", "accept": ["Ich gebe es ihm"], "hintWords": ["ich gebe es ihm"], "strictAccents": false, "audio": "Ich gebe es ihm.", "explain": "es (acusativo) antes de ihm (dativo): orden invertido con pronombres." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Ella se las muestra (a ella).", "accept": ["Sie zeigt sie ihr"], "hintWords": ["sie zeigt sie ihr"], "strictAccents": false, "audio": "Sie zeigt sie ihr.", "explain": "sie (acusativo plural) antes de ihr (dativo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Se lo explico (a ellos).", "accept": ["Ich erkläre es ihnen"], "hintWords": ["ich erkläre es ihnen"], "strictAccents": false, "audio": "Ich erkläre es ihnen.", "explain": "es (acusativo) antes de ihnen (dativo)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["orden-objetos"], "difficulty": 3, "prompt": "Sustituye «dem Kind das Buch» por pronombres: «Ich gebe ___ ___.»", "text": "Ich gebe ___ ___.", "blanks": [{ "accept": ["es"] }, { "accept": ["ihm"] }], "bank": ["es", "ihm", "sie"], "explain": "das Buch → es (acusativo); dem Kind → ihm (dativo). Orden: es ihm." },
+    { "id": "e10", "type": "word_order", "tags": ["orden-objetos"], "difficulty": 3, "prompt": "Ordena: «El orden es importante»", "tokens": ["ist", "Die Reihenfolge", "wichtig"], "answer": ["Die Reihenfolge", "ist", "wichtig"], "audio": "Die Reihenfolge ist wichtig.", "explain": "Die Reihenfolge ist wichtig: sujeto-verbo-adjetivo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Mit Pronomen ist die Reihenfolge umgekehrt.", "accept": ["Con pronombres, el orden está invertido."], "strictAccents": false, "audio": "Mit Pronomen ist die Reihenfolge umgekehrt.", "explain": "umgekehrt = al revés, invertido." },
+    { "id": "e12", "type": "dialogue", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Paul", "text": "Hast du dem Kunden die Rechnung geschickt?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich habe sie ihm geschickt."], "hint": "responde sustituyendo ambos objetos por pronombres" },
+      { "who": "Paul", "text": "Perfekt!", "speak": true }
+    ], "explain": "die Rechnung → sie (acusativo femenino); dem Kunden → ihm (dativo)." },
+    { "id": "e13", "type": "listening", "tags": ["orden-objetos"], "difficulty": 1, "speak": "Ich gebe es ihm.", "mode": "write", "accept": ["Ich gebe es ihm"], "showTextAfter": true, "explain": "Ejemplo clásico del orden acusativo-dativo con pronombres." },
+    { "id": "e14", "type": "listening", "tags": ["orden-objetos"], "difficulty": 2, "speak": "Ich erkläre es ihnen.", "mode": "choose", "options": ["Ich erkläre es ihnen.", "Ich erkläre ihnen es.", "Ich erkläre ihnen die es."], "answer": 0, "showTextAfter": true, "explain": "es (acusativo) antes de ihnen (dativo): el único orden correcto con dos pronombres." },
+    { "id": "e15", "type": "shadowing", "tags": ["orden-objetos"], "difficulty": 2, "speak": "Der Kunde braucht die Rechnung, also schicke ich sie ihm heute noch.", "es": "El cliente necesita la factura, así que se la envío hoy mismo.", "ipa": "/deːɐ̯ ˈkʊndə ˈbʁaʊ̯xt diː ˈʁɛçnʊŋ ˈalzoː ˈʃɪkə ɪç ziː iːm ˈhɔɪ̯tə nɔx/", "esApprox": "«der KÚN-de brauucht di RÉCH-nung, ÁL-zo SHÍ-ke ich zi im JÓI-te noch»", "focus": "sie (acusativo, sustituye die Rechnung) antes de ihm (dativo, sustituye dem Kunden).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["orden-objetos"], "difficulty": 2, "speak": "Die Schüler verstehen die Regel nicht, deshalb erkläre ich sie ihnen noch einmal.", "es": "Los alumnos no entienden la regla, por eso se la explico otra vez.", "ipa": "/diː ˈʃyːlɐ fɛɐ̯ˈʃteːən diː ˈʁeːɡl̩ nɪçt ˈdɛshalp ɛɐ̯ˈklɛːʁə ɪç ziː ˈiːnən nɔx ˈaɪ̯nmaːl/", "esApprox": "«di SHÜ-ler fer-SHTÉ-en di RÉ-guel nicht, DÉS-jalp er-KLÉ-re ich zi Í-nen noch ÁIN-mal»", "focus": "sie (acusativo, die Regel) antes de ihnen (dativo, den Schülern), con deshalb en posición 1.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Te preguntan si le enviaste la factura al cliente. Responde con pronombres: sí, se la envié.", "modelAnswer": "Ja, ich habe sie ihm geschickt.", "alsoValid": ["Ja, ich schicke sie ihm."], "speak": "Ja, ich habe sie ihm geschickt.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Clasifica cada frase: orden con sustantivos o con pronombres", "buckets": ["Sustantivo + sustantivo (dativo primero)", "Pronombre + pronombre (acusativo primero)"], "items": [
+      { "text": "Ich gebe dem Kind das Buch.", "bucket": 0 },
+      { "text": "Ich gebe es ihm.", "bucket": 1 },
+      { "text": "Sie zeigt der Frau die Fotos.", "bucket": 0 },
+      { "text": "Sie zeigt sie ihr.", "bucket": 1 }
+    ], "explain": "Con sustantivos, dativo primero; con pronombres, acusativo primero." },
+    { "id": "e19", "type": "error_correction", "tags": ["orden-objetos"], "difficulty": 3, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich gebe ihm es.", "accept": ["Ich gebe es ihm"], "audio": "Ich gebe es ihm.", "explain": "Con dos pronombres, el acusativo (es) va antes que el dativo (ihm)." },
+    { "id": "e20", "type": "mcq", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "«Die Lehrerin erklärt den Schülern die Regel. Sie erklärt sie ihnen sehr geduldig.» ¿Qué sustituye «sie ihnen»?", "options": ["den Schülern die Regel", "die Regel den Schülern", "die Lehrerin den Schülern", "nada, son sujetos"], "answer": 1, "explain": "sie (die Regel, acusativo) e ihnen (den Schülern, dativo): sustituyen a los dos objetos en el orden invertido de los pronombres." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "es", "es": "lo (acusativo neutro)", "esApprox": "«es»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "ihm", "es": "le, a él (dativo)", "esApprox": "«im»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ihr", "es": "le, a ella (dativo)", "esApprox": "«ir»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "ihnen", "es": "les, a ellos (dativo)", "esApprox": "«Í-nen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "ersetzen", "es": "sustituir, reemplazar", "esApprox": "«er-ZÉ-tsen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Reihenfolge", "es": "el orden, la secuencia", "esApprox": "«RÁI-en-fol-gue»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Der Kunde braucht die Rechnung, also schicke ich sie ihm heute noch.", "es": "El cliente necesita la factura, así que se la envío hoy mismo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Schüler verstehen die Regel nicht, deshalb erkläre ich sie ihnen noch einmal.", "es": "Los alumnos no entienden la regla, por eso se la explico otra vez.", "from": "e16" }
+  ]
+}

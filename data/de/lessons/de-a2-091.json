@@ -1,0 +1,95 @@
+{
+  "id": "de-a2-091",
+  "lang": "de",
+  "level": "A2",
+  "order": 91,
+  "title": "Repaso a fondo: nominativo, acusativo y dativo juntos",
+  "objectives": [
+    "Repasar la tabla completa de der/die/das/die(pl) en nominativo, acusativo y dativo",
+    "Repasar ein/eine/kein en los mismos tres casos",
+    "Reconocer de un vistazo qué caso corresponde a cada función: sujeto, objeto directo, objeto indirecto"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Bienvenido al A2: los tres casos, todos juntos",
+      "body": "En el A1 aprendiste el nominativo (clase 23), el acusativo (clase 24) y el dativo (clase 37), cada uno por separado. Ahora que empiezas el A2, esta clase los junta en una sola tabla de referencia. Recuerda la lógica: nominativo = sujeto (quién hace la acción), acusativo = objeto directo (a quién/qué afecta directamente), dativo = objeto indirecto (para quién/a quién beneficia)."
+    },
+    {
+      "type": "table",
+      "title": "der/die/das/die(pl) en los tres casos",
+      "headers": ["Caso", "Masculino", "Femenino", "Neutro", "Plural"],
+      "rows": [
+        ["Nominativ", "der", "die", "das", "die"],
+        ["Akkusativ", "den", "die", "das", "die"],
+        ["Dativ", "dem", "der", "dem", "den (+n)"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "ein/eine/kein en los tres casos",
+      "headers": ["Caso", "Masculino", "Femenino", "Neutro"],
+      "rows": [
+        ["Nominativ", "ein", "eine", "ein"],
+        ["Akkusativ", "einen", "eine", "ein"],
+        ["Dativ", "einem", "einer", "einem"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Solo el masculino cambia entre nominativo y acusativo (der→den, ein→einen). El dativo, en cambio, cambia las CUATRO formas: dem, der, dem, den(+n). Memorizar esta asimetría te ahorra muchos errores."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "das Subjekt", "es": "el sujeto", "ipa": "/ˈzʊpjɛkt/", "esApprox": "«ZUP-yekt»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Subjekt steht im Nominativ.", "es": "El sujeto va en nominativo." } },
+    { "id": "v2", "target": "das Objekt", "es": "el objeto (gramatical)", "ipa": "/ˈɔpjɛkt/", "esApprox": "«ÓP-yekt»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das direkte Objekt steht im Akkusativ.", "es": "El objeto directo va en acusativo." } },
+    { "id": "v3", "target": "direkt", "es": "directo", "ipa": "/diˈʁɛkt/", "esApprox": "«di-REKT»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist das direkte Objekt.", "es": "Ese es el objeto directo." } },
+    { "id": "v4", "target": "indirekt", "es": "indirecto", "ipa": "/ˈɪndiʁɛkt/", "esApprox": "«ÍN-di-rekt»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist das indirekte Objekt.", "es": "Ese es el objeto indirecto." } },
+    { "id": "v5", "target": "der Fall", "es": "el caso (gramatical)", "ipa": "/fal/", "esApprox": "«fal»", "pos": "sustantivo", "gender": "m", "example": { "target": "Deutsch hat vier Fälle.", "es": "El alemán tiene cuatro casos." } },
+    { "id": "v6", "target": "betreffen", "es": "afectar", "ipa": "/bəˈtʁɛfn̩/", "esApprox": "«be-TRÉ-fen»", "pos": "verbo", "gender": null, "example": { "target": "Das betrifft dich direkt.", "es": "Eso te afecta directamente." } },
+    { "id": "v7", "target": "die Funktion", "es": "la función", "ipa": "/fʊŋkˈtsi̯oːn/", "esApprox": "«funk-tsi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Jeder Fall hat eine Funktion.", "es": "Cada caso tiene una función." } },
+    { "id": "v8", "target": "erkennen", "es": "reconocer", "ipa": "/ɛɐ̯ˈkɛnən/", "esApprox": "«er-KÉ-nen»", "pos": "verbo", "gender": null, "example": { "target": "Ich erkenne den Fall.", "es": "Reconozco el caso." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["repaso-casos"], "difficulty": 1, "prompt": "¿Qué caso marca el sujeto de la frase?", "options": ["Akkusativ", "Nominativ", "Dativ", "Genitiv"], "answer": 1, "explain": "Nominativ = sujeto, el que hace la acción." },
+    { "id": "e2", "type": "mcq", "tags": ["casos"], "difficulty": 2, "prompt": "¿Cuál es la forma dativa masculina de «der»?", "options": ["den", "dem", "der", "des"], "answer": 1, "explain": "der → dem en dativo masculino." },
+    { "id": "e3", "type": "true_false", "tags": ["casos"], "difficulty": 2, "statement": "Solo el masculino cambia entre nominativo y acusativo.", "answer": true, "explain": "der→den, ein→einen; femenino y neutro no cambian entre estos dos casos." },
+    { "id": "e4", "type": "true_false", "tags": ["casos"], "difficulty": 2, "statement": "En dativo, las cuatro formas (m/f/n/pl) cambian respecto al nominativo.", "answer": true, "explain": "dem, der, dem, den(+n): todas distintas del nominativo der, die, das, die." },
+    { "id": "e5", "type": "match_pairs", "tags": ["casos"], "difficulty": 2, "prompt": "Une cada caso con su forma masculina", "left": ["Nominativ", "Akkusativ", "Dativ"], "right": ["der", "den", "dem"], "answer": [0, 1, 2], "explain": "der, den, dem: las tres formas masculinas de los tres casos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["casos"], "difficulty": 2, "prompt": "El sujeto va en nominativo.", "accept": ["Das Subjekt steht im Nominativ"], "hintWords": ["das Subjekt steht im Nominativ"], "strictAccents": false, "audio": "Das Subjekt steht im Nominativ.", "explain": "stehen + im (in + dem, dativo) + Nominativ." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["casos"], "difficulty": 2, "prompt": "El alemán tiene cuatro casos.", "accept": ["Deutsch hat vier Fälle"], "hintWords": ["deutsch hat vier Fälle"], "strictAccents": false, "audio": "Deutsch hat vier Fälle.", "explain": "der Fall → die Fälle en plural, con Umlaut." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["casos"], "difficulty": 2, "prompt": "Reconozco el caso.", "accept": ["Ich erkenne den Fall"], "hintWords": ["ich erkenne den Fall"], "strictAccents": false, "audio": "Ich erkenne den Fall.", "explain": "erkennen + acusativo (den Fall)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["casos"], "difficulty": 2, "prompt": "Completa con el artículo correcto en dativo", "text": "Ich gebe ___ Mann das Buch. (der, dativo) Ich helfe ___ Frau. (die, dativo)", "blanks": [{ "accept": ["dem"] }, { "accept": ["der"] }], "bank": ["dem", "der", "den"], "explain": "dem Mann (masculino dativo); der Frau (femenino dativo)." },
+    { "id": "e10", "type": "word_order", "tags": ["casos"], "difficulty": 2, "prompt": "Ordena: «El objeto directo va en acusativo»", "tokens": ["im Akkusativ", "Das direkte Objekt", "steht"], "answer": ["Das direkte Objekt", "steht", "im Akkusativ"], "audio": "Das direkte Objekt steht im Akkusativ.", "explain": "Das direkte Objekt steht im Akkusativ: sujeto-verbo-complemento." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["casos"], "difficulty": 2, "prompt": "Das betrifft dich direkt.", "accept": ["Eso te afecta directamente."], "strictAccents": false, "audio": "Das betrifft dich direkt.", "explain": "betreffen + acusativo (dich)." },
+    { "id": "e12", "type": "dialogue", "tags": ["casos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lehrer", "text": "Welchen Fall braucht das direkte Objekt?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Den Akkusativ.", "Das direkte Objekt braucht den Akkusativ."], "hint": "responde con el caso correcto" },
+      { "who": "Lehrer", "text": "Genau, sehr gut!", "speak": true }
+    ], "explain": "Práctica de identificar el caso según la función gramatical." },
+    { "id": "e13", "type": "listening", "tags": ["casos"], "difficulty": 1, "speak": "Deutsch hat vier Fälle.", "mode": "write", "accept": ["Deutsch hat vier Fälle"], "showTextAfter": true, "explain": "Frase clave de introducción al repaso de casos." },
+    { "id": "e14", "type": "listening", "tags": ["casos"], "difficulty": 2, "speak": "Ich gebe dem Mann das Buch.", "mode": "choose", "options": ["Ich gebe dem Mann das Buch.", "Ich gebe den Mann das Buch.", "Ich gebe der Mann das Buch."], "answer": 0, "showTextAfter": true, "explain": "dem Mann: dativo masculino, correcto tras geben (objeto indirecto)." },
+    { "id": "e15", "type": "shadowing", "tags": ["casos"], "difficulty": 2, "speak": "Der Mann gibt der Frau den Schlüssel, und das Kind sieht das Buch.", "es": "El hombre le da la llave a la mujer, y el niño ve el libro.", "ipa": "/deːɐ̯ man ɡiːpt deːɐ̯ fʁaʊ̯ deːn ˈʃlʏsl̩ ʊnt das kɪnt ziːt das buːx/", "esApprox": "«der man gipt der frau den SHLÜ-sel, unt das kint zit das buj»", "focus": "Nominativo (der Mann, das Kind), dativo (der Frau) y acusativo (den Schlüssel, das Buch) en dos frases seguidas.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["casos"], "difficulty": 2, "speak": "Ich erkenne den Fall, weil das Subjekt immer im Nominativ steht.", "es": "Reconozco el caso, porque el sujeto siempre va en nominativo.", "ipa": "/ɪç ɛɐ̯ˈkɛnə deːn fal vaɪ̯l das ˈzʊpjɛkt ˈɪmɐ ɪm noˈmiːnaˌtiːf ʃteːt/", "esApprox": "«ich er-KÉ-ne den fal, vail das ZUP-yekt Í-mer im no-mi-na-TIF shtet»", "focus": "weil manda steht al final; erkenne + acusativo (den Fall).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["casos"], "difficulty": 2, "prompt": "Te preguntan qué caso necesita el objeto directo. Responde que el acusativo.", "modelAnswer": "Das direkte Objekt braucht den Akkusativ.", "alsoValid": ["Den Akkusativ."], "speak": "Das direkte Objekt braucht den Akkusativ.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["casos"], "difficulty": 2, "prompt": "Clasifica cada forma: nominativo, acusativo o dativo (masculino)", "buckets": ["Nominativ", "Akkusativ", "Dativ"], "items": [
+      { "text": "der", "bucket": 0 },
+      { "text": "den", "bucket": 1 },
+      { "text": "dem", "bucket": 2 },
+      { "text": "ein", "bucket": 0 },
+      { "text": "einen", "bucket": 1 }
+    ], "explain": "Las formas masculinas de los tres casos, con der/die/das y ein/eine." },
+    { "id": "e19", "type": "error_correction", "tags": ["casos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich gebe den Mann das Buch.", "accept": ["Ich gebe dem Mann das Buch"], "audio": "Ich gebe dem Mann das Buch.", "explain": "geben + objeto indirecto en dativo (dem Mann), no acusativo." },
+    { "id": "e20", "type": "mcq", "tags": ["casos"], "difficulty": 2, "prompt": "«Der Lehrer erklärt den Schülern die Regel. Die Schüler verstehen die Erklärung gut.» ¿Qué caso es «den Schülern»?", "options": ["Nominativ", "Akkusativ", "Dativ", "No es un caso"], "answer": 2, "explain": "den Schülern es el objeto indirecto (a quién se explica), por eso va en dativo plural." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Subjekt", "es": "el sujeto", "esApprox": "«ZUP-yekt»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Objekt", "es": "el objeto (gramatical)", "esApprox": "«ÓP-yekt»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "direkt", "es": "directo", "esApprox": "«di-REKT»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "indirekt", "es": "indirecto", "esApprox": "«ÍN-di-rekt»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Fall", "es": "el caso (gramatical)", "esApprox": "«fal»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "erkennen", "es": "reconocer", "esApprox": "«er-KÉ-nen»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Der Mann gibt der Frau den Schlüssel, und das Kind sieht das Buch.", "es": "El hombre le da la llave a la mujer, y el niño ve el libro.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich erkenne den Fall, weil das Subjekt immer im Nominativ steht.", "es": "Reconozco el caso, porque el sujeto siempre va en nominativo.", "from": "e16" }
+  ]
+}
