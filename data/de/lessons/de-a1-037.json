@@ -1,0 +1,327 @@
+{
+  "id": "de-a1-037",
+  "lang": "de",
+  "level": "A1",
+  "order": 37,
+  "title": "El dativo: a quién le pasa la cosa",
+  "objectives": [
+    "Reconocer el dativo como el tercer caso: el objeto indirecto, a quién o para quién ocurre algo",
+    "Aplicar los cambios: der→dem, die→der, das→dem, die(plural)→den (+n en el sustantivo)",
+    "Reconocer que der también puede ser dativo femenino, no solo nominativo masculino"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El tercer caso: quién recibe el objeto directo",
+      "body": "El Dativ marca el objeto indirecto: la persona a quien o para quien ocurre algo. En «Doy un regalo al niño», «un regalo» es el objeto directo (acusativo) y «al niño» es el objeto indirecto (dativo). El dativo cambia los cuatro artículos de forma distinta al acusativo, así que hay que aprender una tabla nueva.",
+      "examples": [
+        { "target": "Ich gebe dem Kind ein Geschenk.", "es": "Le doy un regalo al niño.", "note": "dem Kind = dativo (a quién); ein Geschenk = acusativo (qué)" },
+        { "target": "Ich gebe der Mutter ein Geschenk.", "es": "Le doy un regalo a la madre.", "note": "der Mutter = dativo femenino" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los tres casos, uno al lado del otro",
+      "headers": ["Género", "Nominativ", "Akkusativ", "Dativ"],
+      "rows": [
+        ["masculino", "der / ein", "den / einen", "dem / einem"],
+        ["femenino", "die / eine", "die / eine", "der / einer"],
+        ["neutro", "das / ein", "das / ein", "dem / einem"],
+        ["plural", "die", "die", "den (+n en el sustantivo)"]
+      ],
+      "note": "En dativo plural, si el sustantivo no termina ya en -n o -s, se le añade una -n: die Kinder → den Kindern."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: der no es solo el nominativo masculino",
+      "items": [
+        { "wrong": "pensar que der siempre significa «nominativo masculino»", "right": "der Mann (nominativo, «el hombre») frente a der Frau (dativo femenino, «a la mujer»)", "why": "La palabra der aparece dos veces en la tabla de casos: como nominativo masculino y como dativo femenino. Para saber cuál es, mira el sustantivo que acompaña: si es femenino, der solo puede ser dativo." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Pregúntate «¿a quién?» o «¿para quién?» después del verbo: la respuesta va en dativo. Es distinto de «¿qué?», que va en acusativo. Muchas frases tienen las dos preguntas a la vez, como en «Doy (¿qué?) un regalo (¿a quién?) al niño»."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "geben",
+      "es": "dar",
+      "ipa": "/ˈɡeːbən/",
+      "esApprox": "«GUÉ-ben»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich gebe dem Kind ein Geschenk.", "es": "Le doy un regalo al niño." }
+    },
+    {
+      "id": "v2",
+      "target": "das Geschenk",
+      "es": "el regalo",
+      "ipa": "/ɡəˈʃɛŋk/",
+      "esApprox": "«gue-SHENK»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Geschenke",
+      "example": { "target": "Das Geschenk ist schön.", "es": "El regalo es bonito." }
+    },
+    {
+      "id": "v3",
+      "target": "der Lehrer",
+      "es": "el profesor",
+      "ipa": "/ˈleːʁɐ/",
+      "esApprox": "«LÉ-rer»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Lehrer",
+      "example": { "target": "Ich gebe dem Lehrer ein Geschenk.", "es": "Le doy un regalo al profesor." }
+    },
+    {
+      "id": "v4",
+      "target": "das Kind",
+      "es": "el niño, la niña",
+      "ipa": "/kɪnt/",
+      "esApprox": "«kint»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Kinder",
+      "example": { "target": "Ich gebe dem Kind ein Geschenk.", "es": "Le doy un regalo al niño." }
+    },
+    {
+      "id": "v5",
+      "target": "die Mutter",
+      "es": "la madre",
+      "ipa": "/ˈmʊtɐ/",
+      "esApprox": "«MU-ter»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Mütter",
+      "example": { "target": "Ich gebe der Mutter ein Geschenk.", "es": "Le doy un regalo a la madre." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["dativo", "casos"],
+      "difficulty": 2,
+      "prompt": "¿Qué caso corresponde al objeto indirecto (a quién le pasa algo)?",
+      "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"],
+      "answer": 2,
+      "explain": "Dativ es el caso del objeto indirecto."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el dativo de «der Mann»?",
+      "options": ["den Mann", "dem Mann", "des Mannes", "der Mann"],
+      "answer": 1,
+      "explain": "der → dem en dativo masculino."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "statement": "En dativo, die (femenino) cambia a der.",
+      "answer": true,
+      "explain": "die Frau → der Frau en dativo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "statement": "En dativo plural, el sustantivo añade una -n si no la tiene ya.",
+      "answer": true,
+      "explain": "die Kinder → den Kindern, con -n añadida."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos NO es un dativo correcto?",
+      "options": ["dem Mann", "der Frau", "dem Kind", "den Mann"],
+      "answer": 3,
+      "explain": "den Mann es acusativo, no dativo; el dativo de der Mann es dem Mann."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Une cada sustantivo en nominativo con su forma en dativo",
+      "left": ["der Mann", "die Frau", "das Kind", "die Kinder"],
+      "right": ["dem Mann", "der Frau", "dem Kind", "den Kindern"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Los cuatro cambios del dativo, uno por género."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Doy un regalo al niño.",
+      "accept": ["Ich gebe dem Kind ein Geschenk"],
+      "hintWords": ["ich gebe dem Kind", "ein Geschenk"],
+      "strictAccents": false,
+      "audio": "Ich gebe dem Kind ein Geschenk.",
+      "explain": "dem Kind (dativo, a quién) + ein Geschenk (acusativo, qué)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Doy un regalo a la madre.",
+      "accept": ["Ich gebe der Mutter ein Geschenk"],
+      "hintWords": ["ich gebe der Mutter", "ein Geschenk"],
+      "strictAccents": false,
+      "audio": "Ich gebe der Mutter ein Geschenk.",
+      "explain": "der Mutter: dativo femenino."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo en dativo",
+      "text": "Ich gebe ___ Kind ein Geschenk. Ich gebe ___ Mutter ein Geschenk.",
+      "blanks": [{ "accept": ["dem"] }, { "accept": ["der"] }],
+      "bank": ["dem", "der", "den"],
+      "explain": "dem para el neutro (Kind); der para el femenino (Mutter)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Doy un regalo al profesor»",
+      "tokens": ["Geschenk", "Ich", "dem", "gebe", "Lehrer", "ein"],
+      "answer": ["Ich", "gebe", "dem", "Lehrer", "ein", "Geschenk"],
+      "audio": "Ich gebe dem Lehrer ein Geschenk.",
+      "explain": "Ich gebe + dem Lehrer (dativo) + ein Geschenk (acusativo)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Ich gebe der Frau ein Buch.",
+      "accept": ["Le doy un libro a la mujer."],
+      "strictAccents": false,
+      "audio": "Ich gebe der Frau ein Buch.",
+      "explain": "der Frau: dativo femenino, no confundir con el nominativo der Mann."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Gibst du dem Kind ein Geschenk?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich gebe dem Kind ein Geschenk."], "hint": "responde que sí" },
+        { "who": "Anna", "text": "Wie nett!", "speak": true }
+      ],
+      "explain": "gibst (du, con cambio de vocal e→i, como sprechen)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "speak": "Ich gebe dem Kind ein Geschenk.",
+      "mode": "write",
+      "accept": ["Ich gebe dem Kind ein Geschenk"],
+      "showTextAfter": true,
+      "explain": "Ich gebe dem Kind ein Geschenk = le doy un regalo al niño."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "speak": "Ich gebe der Mutter ein Geschenk.",
+      "mode": "choose",
+      "options": ["Ich gebe der Mutter ein Geschenk.", "Ich gebe dem Mutter ein Geschenk.", "Ich gebe die Mutter ein Geschenk."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Solo der Mutter es el dativo femenino correcto."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "speak": "Ich gebe dem Kind ein Geschenk.",
+      "es": "Le doy un regalo al niño.",
+      "ipa": "/ɪç ˈɡeːbə deːm kɪnt aɪ̯n ɡəˈʃɛŋk/",
+      "esApprox": "«ich GUÉ-be dem kint ain gue-SHENK»",
+      "focus": "dem se pronuncia con una e cerrada y clara: no lo confundas con den (acusativo).",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "speak": "Ich gebe der Frau ein Buch.",
+      "es": "Le doy un libro a la mujer.",
+      "ipa": "/ɪç ˈɡeːbə deːɐ̯ fʁaʊ̯ aɪ̯n buːx/",
+      "esApprox": "«ich GUÉ-be der frau ain buj»",
+      "focus": "Aquí der es dativo femenino, no nominativo masculino: fíjate en Frau, que es femenino.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si le das un regalo al niño. Responde que sí.",
+      "modelAnswer": "Ja, ich gebe dem Kind ein Geschenk.",
+      "alsoValid": ["Ich gebe dem Kind ein Geschenk."],
+      "speak": "Ja, ich gebe dem Kind ein Geschenk.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada forma: ¿nominativo o dativo?",
+      "buckets": ["Nominativ", "Dativ"],
+      "items": [
+        { "text": "der Mann", "bucket": 0 },
+        { "text": "der Frau", "bucket": 1 },
+        { "text": "das Kind", "bucket": 0 },
+        { "text": "dem Kind", "bucket": 1 }
+      ],
+      "explain": "der Frau es dativo, aunque der se parezca al nominativo masculino."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich gebe der Kind ein Geschenk.",
+      "accept": ["Ich gebe dem Kind ein Geschenk"],
+      "audio": "Ich gebe dem Kind ein Geschenk.",
+      "explain": "Kind es neutro: su dativo es dem, no der (que es solo para femenino)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "geben", "es": "dar", "esApprox": "«GUÉ-ben»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Geschenk", "es": "el regalo", "esApprox": "«gue-SHENK»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Lehrer", "es": "el profesor", "esApprox": "«LÉ-rer»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Kind", "es": "el niño, la niña", "esApprox": "«kint»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Mutter", "es": "la madre", "esApprox": "«MU-ter»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Ich gebe dem Kind ein Geschenk.", "es": "Le doy un regalo al niño.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Ich gebe der Frau ein Buch.", "es": "Le doy un libro a la mujer.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Ich gebe der Mutter ein Geschenk.", "es": "Le doy un regalo a la madre.", "from": "e8" }
+  ]
+}

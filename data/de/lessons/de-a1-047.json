@@ -1,0 +1,369 @@
+{
+  "id": "de-a1-047",
+  "lang": "de",
+  "level": "A1",
+  "order": 47,
+  "title": "Pedir y dar direcciones",
+  "objectives": [
+    "Preguntar dónde está un lugar: Entschuldigung, wo ist...?",
+    "Dar indicaciones básicas: geradeaus, links, rechts, an der Ecke, an der Ampel",
+    "Combinar las indicaciones con el vocabulario de lugares de la clase 46"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Preguntar y responder sobre direcciones",
+      "body": "Con Entschuldigung (clase 5) y wo (clase 14) ya sabes preguntar dónde está algo. Esta clase añade las palabras para responder: geradeaus (recto), links (izquierda), rechts (derecha), y las referencias an der Ecke (en la esquina) y an der Ampel (en el semáforo).",
+      "examples": [
+        { "target": "Entschuldigung, wo ist der Bahnhof?", "es": "Perdón, ¿dónde está la estación?", "note": "pregunta" },
+        { "target": "Der Bahnhof ist geradeaus.", "es": "La estación está todo recto.", "note": "respuesta directa" },
+        { "target": "An der Ecke rechts.", "es": "En la esquina, a la derecha.", "note": "indicación con referencia" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario para dar indicaciones",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["geradeaus", "recto, todo derecho"],
+        ["links", "a la izquierda"],
+        ["rechts", "a la derecha"],
+        ["die Ampel", "el semáforo"],
+        ["die Ecke", "la esquina"],
+        ["die Straße", "la calle"],
+        ["dort", "allí"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En las indicaciones reales, los alemanes suelen usar frases cortas y fragmentadas, como «An der Ampel links» (en el semáforo, a la izquierda), en vez de una frase completa con verbo. No hace falta un verbo para dar una indicación clara."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "geradeaus",
+      "es": "recto, todo derecho",
+      "ipa": "/ɡəˈʁaːdəaʊ̯s/",
+      "esApprox": "«gue-RÁ-de-aus»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Der Bahnhof ist geradeaus.", "es": "La estación está todo recto." }
+    },
+    {
+      "id": "v2",
+      "target": "links",
+      "es": "a la izquierda",
+      "ipa": "/lɪŋks/",
+      "esApprox": "«links»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Die Bibliothek ist links.", "es": "La biblioteca está a la izquierda." }
+    },
+    {
+      "id": "v3",
+      "target": "rechts",
+      "es": "a la derecha",
+      "ipa": "/ʁɛçts/",
+      "esApprox": "«rechts»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Das Kino ist rechts.", "es": "El cine está a la derecha." }
+    },
+    {
+      "id": "v4",
+      "target": "die Ampel",
+      "es": "el semáforo",
+      "ipa": "/ˈampl̩/",
+      "esApprox": "«AM-pel»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Ampeln",
+      "example": { "target": "An der Ampel links.", "es": "En el semáforo, a la izquierda." }
+    },
+    {
+      "id": "v5",
+      "target": "die Ecke",
+      "es": "la esquina",
+      "ipa": "/ˈɛkə/",
+      "esApprox": "«E-ke»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Ecken",
+      "example": { "target": "An der Ecke rechts.", "es": "En la esquina, a la derecha." }
+    },
+    {
+      "id": "v6",
+      "target": "die Straße",
+      "es": "la calle",
+      "ipa": "/ˈʃtʁaːsə/",
+      "esApprox": "«SHTRA-se»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Straßen",
+      "example": { "target": "Die Straße ist lang.", "es": "La calle es larga." }
+    },
+    {
+      "id": "v7",
+      "target": "dort",
+      "es": "allí",
+      "ipa": "/dɔʁt/",
+      "esApprox": "«dort»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Der Bahnhof ist dort.", "es": "La estación está allí." }
+    },
+    {
+      "id": "v8",
+      "target": "hier",
+      "es": "aquí",
+      "ipa": "/hiːɐ̯/",
+      "esApprox": "«jir»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Die Bibliothek ist hier.", "es": "La biblioteca está aquí." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «recto, todo derecho» en alemán?",
+      "options": ["links", "rechts", "geradeaus", "dort"],
+      "answer": 2,
+      "explain": "geradeaus = recto, todo derecho."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «a la izquierda»?",
+      "options": ["links", "rechts", "geradeaus", "Ecke"],
+      "answer": 0,
+      "explain": "links = a la izquierda."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "statement": "Die Ampel significa «el semáforo».",
+      "answer": true,
+      "explain": "die Ampel = el semáforo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "statement": "Rechts significa «izquierda».",
+      "answer": false,
+      "explain": "Rechts significa «derecha»; «izquierda» es links."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas NO es una indicación de dirección?",
+      "options": ["links", "rechts", "geradeaus", "Kirche"],
+      "answer": 3,
+      "explain": "Kirche es un lugar (la iglesia), no una indicación de dirección."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["links", "rechts", "geradeaus", "Ecke"],
+      "right": ["esquina", "recto", "derecha", "izquierda"],
+      "answer": [3, 2, 1, 0],
+      "explain": "Cuatro palabras clave para dar indicaciones."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "prompt": "¿Dónde está la estación?",
+      "accept": ["Wo ist der Bahnhof?"],
+      "hintWords": ["wo ist der Bahnhof"],
+      "strictAccents": false,
+      "audio": "Wo ist der Bahnhof?",
+      "explain": "Wo ist...? es la pregunta directa para pedir una dirección."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "La biblioteca está a la izquierda.",
+      "accept": ["Die Bibliothek ist links"],
+      "hintWords": ["die Bibliothek ist links"],
+      "strictAccents": false,
+      "audio": "Die Bibliothek ist links.",
+      "explain": "links no cambia de forma, es un adverbio."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Der Bahnhof ist ___. Das Kino ist ___.",
+      "blanks": [{ "accept": ["geradeaus"] }, { "accept": ["rechts"] }],
+      "bank": ["geradeaus", "rechts", "links"],
+      "explain": "geradeaus para todo recto; rechts para la derecha."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «El cine está a la derecha»",
+      "tokens": ["rechts", "Das", "ist", "Kino"],
+      "answer": ["Das", "Kino", "ist", "rechts"],
+      "audio": "Das Kino ist rechts.",
+      "explain": "Das Kino + ist + rechts."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "An der Ampel links.",
+      "accept": ["En el semáforo, a la izquierda."],
+      "strictAccents": false,
+      "audio": "An der Ampel links.",
+      "explain": "an der Ampel: dativo femenino, sin verbo, típico de las indicaciones reales."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Entschuldigung, wo ist der Bahnhof?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Der Bahnhof ist geradeaus."], "hint": "dile que la estación está todo recto" },
+        { "who": "Anna", "text": "Danke schön!", "speak": true }
+      ],
+      "explain": "Entschuldigung, wo ist...? es la forma más natural de pedir una dirección."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "speak": "Der Bahnhof ist geradeaus.",
+      "mode": "write",
+      "accept": ["Der Bahnhof ist geradeaus"],
+      "showTextAfter": true,
+      "explain": "Der Bahnhof ist geradeaus = la estación está todo recto."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "speak": "Die Bibliothek ist links.",
+      "mode": "choose",
+      "options": ["Die Bibliothek ist links.", "Die Bibliothek ist rechts.", "Die Bibliothek ist geradeaus."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "links, rechts y geradeaus cambian completamente la indicación."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "speak": "Der Bahnhof ist geradeaus, und die Bibliothek ist links.",
+      "es": "La estación está todo recto, y la biblioteca está a la izquierda.",
+      "ipa": "/deːɐ̯ ˈbaːnhoːf ɪst ɡəˈʁaːdəaʊ̯s ʊnt diː biblioˈteːk ɪst lɪŋks/",
+      "esApprox": "«der BÁN-hof ist gue-RÁ-de-aus unt di bi-blio-TÉK ist links»",
+      "focus": "geradeaus es una palabra larga: practica su ritmo entero, sin pausas en medio.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "speak": "An der Ecke rechts, an der Ampel links.",
+      "es": "En la esquina, a la derecha; en el semáforo, a la izquierda.",
+      "ipa": "/an deːɐ̯ ˈɛkə ʁɛçts an deːɐ̯ ˈampl̩ lɪŋks/",
+      "esApprox": "«an der E-ke rechts, an der AM-pel links»",
+      "focus": "an der se repite igual las dos veces: Ecke y Ampel son las dos femeninas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Alguien te pregunta dónde está el cine. Dile que está a la derecha.",
+      "modelAnswer": "Das Kino ist rechts.",
+      "alsoValid": ["Das Kino ist dort, rechts."],
+      "speak": "Das Kino ist rechts.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada sustantivo según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Ampel", "bucket": 1 },
+        { "text": "Ecke", "bucket": 1 },
+        { "text": "Straße", "bucket": 1 },
+        { "text": "Bahnhof", "bucket": 0 },
+        { "text": "Kino", "bucket": 2 }
+      ],
+      "explain": "Ampel, Ecke y Straße son femeninas; Bahnhof, masculino; Kino, neutro."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Der Bahnhof ist Geradeaus.",
+      "accept": ["Der Bahnhof ist geradeaus"],
+      "audio": "Der Bahnhof ist geradeaus.",
+      "explain": "geradeaus es un adverbio: va en minúscula, no en mayúscula."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Ampel", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Ecke", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Straße", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Bahnhof", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" }
+      ],
+      "explain": "Ampel, Ecke y Straße son femeninas; Bahnhof es masculino."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "geradeaus", "es": "recto, todo derecho", "esApprox": "«gue-RÁ-de-aus»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "links", "es": "a la izquierda", "esApprox": "«links»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "rechts", "es": "a la derecha", "esApprox": "«rechts»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Ampel", "es": "el semáforo", "esApprox": "«AM-pel»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Ecke", "es": "la esquina", "esApprox": "«E-ke»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Straße", "es": "la calle", "esApprox": "«SHTRA-se»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "dort", "es": "allí", "esApprox": "«dort»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "hier", "es": "aquí", "esApprox": "«jir»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Der Bahnhof ist geradeaus, und die Bibliothek ist links.", "es": "La estación está todo recto, y la biblioteca está a la izquierda.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "An der Ecke rechts, an der Ampel links.", "es": "En la esquina, a la derecha; en el semáforo, a la izquierda.", "from": "e16" }
+  ]
+}

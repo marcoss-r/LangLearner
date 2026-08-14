@@ -1,0 +1,350 @@
+{
+  "id": "de-a1-042",
+  "lang": "de",
+  "level": "A1",
+  "order": 42,
+  "title": "Las preposiciones de dos casos (Wechselpräpositionen)",
+  "objectives": [
+    "Aprender las nueve preposiciones de dos casos: an, auf, hinter, in, neben, über, unter, vor, zwischen",
+    "Distinguir cuándo rigen dativo (ubicación, wo?) y cuándo rigen acusativo (dirección, wohin?)",
+    "Aplicar la contracción in + dem = im, muy frecuente en el habla cotidiana"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Las preposiciones que cambian de caso según la pregunta",
+      "body": "Hay nueve preposiciones alemanas que no tienen un caso fijo: rigen dativo O acusativo, según lo que expresen. Si respondes a la pregunta wo? (¿dónde?, ubicación estática), usan dativo. Si respondes a wohin? (¿hacia dónde?, dirección o movimiento), usan acusativo.",
+      "examples": [
+        { "target": "Das Buch ist auf dem Tisch.", "es": "El libro está sobre la mesa.", "note": "wo? → dativo (ubicación)" },
+        { "target": "Ich fahre in den Park.", "es": "Voy al parque.", "note": "wohin? → acusativo (dirección)" },
+        { "target": "Ich bin im Park.", "es": "Estoy en el parque.", "note": "wo? → dativo (im = in + dem)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las nueve preposiciones de dos casos",
+      "headers": ["Preposición", "Significado"],
+      "rows": [
+        ["an", "junto a, en (contacto vertical)"],
+        ["auf", "sobre, en (contacto horizontal)"],
+        ["hinter", "detrás de"],
+        ["in", "en, dentro de"],
+        ["neben", "al lado de"],
+        ["über", "sobre, encima de (sin contacto)"],
+        ["unter", "debajo de"],
+        ["vor", "delante de"],
+        ["zwischen", "entre"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Wo? (dativo) frente a wohin? (acusativo)",
+      "headers": ["Wo? → Dativ (ubicación)", "Wohin? → Akkusativ (dirección)"],
+      "rows": [
+        ["Das Buch ist auf dem Tisch.", "(no aplica: auf sin movimiento)"],
+        ["Der Hund ist unter dem Tisch.", "(no aplica: unter sin movimiento)"],
+        ["Ich bin im Park.", "Ich fahre in den Park."]
+      ],
+      "note": "in + dem se contrae en im; an + dem se contrae en am. Ambas contracciones son casi obligatorias en el habla."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: mismo lugar, caso distinto según haya movimiento o no",
+      "items": [
+        { "wrong": "Ich fahre in dem Park. (usando dativo con un verbo de movimiento hacia un destino)", "right": "Ich fahre in den Park.", "why": "fahren indica movimiento HACIA el parque: es dirección, así que rige acusativo. Si dijeras «estoy dando vueltas dentro del parque» (sin llegar desde fuera), sí sería dativo: Ich fahre im Park (herum)." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco rápido: si puedes responder «¿adónde voy?», es acusativo. Si respondes «¿dónde estoy/está algo?», es dativo. Fíjate en el verbo: los verbos de movimiento con destino (fahren, en este sentido) piden acusativo; los verbos de estado (sein) piden dativo."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "in",
+      "es": "en, dentro de",
+      "ipa": "/ɪn/",
+      "esApprox": "«in»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Ich bin im Park.", "es": "Estoy en el parque." }
+    },
+    {
+      "id": "v2",
+      "target": "auf",
+      "es": "sobre, en",
+      "ipa": "/aʊ̯f/",
+      "esApprox": "«auf»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Das Buch ist auf dem Tisch.", "es": "El libro está sobre la mesa." }
+    },
+    {
+      "id": "v3",
+      "target": "unter",
+      "es": "debajo de",
+      "ipa": "/ˈʊntɐ/",
+      "esApprox": "«UN-ter»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Der Hund ist unter dem Tisch.", "es": "El perro está debajo de la mesa." }
+    },
+    {
+      "id": "v4",
+      "target": "vor",
+      "es": "delante de",
+      "ipa": "/foːɐ̯/",
+      "esApprox": "«for»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Der Bus ist vor der Schule.", "es": "El autobús está delante del colegio." }
+    },
+    {
+      "id": "v5",
+      "target": "hinter",
+      "es": "detrás de",
+      "ipa": "/ˈhɪntɐ/",
+      "esApprox": "«JIN-ter»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Die Katze ist hinter dem Auto.", "es": "El gato está detrás del coche." }
+    },
+    {
+      "id": "v6",
+      "target": "der Tisch",
+      "es": "la mesa",
+      "ipa": "/tɪʃ/",
+      "esApprox": "«tish»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Tische",
+      "example": { "target": "Das Buch ist auf dem Tisch.", "es": "El libro está sobre la mesa." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "¿Qué caso rige una preposición de dos caras cuando indica UBICACIÓN (wo?)?",
+      "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"],
+      "answer": 2,
+      "explain": "wo? (dónde, ubicación estática) → dativo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "¿Qué caso rige cuando indica DIRECCIÓN (wohin?)?",
+      "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"],
+      "answer": 1,
+      "explain": "wohin? (hacia dónde, dirección) → acusativo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 1,
+      "statement": "«In + dem» se contrae en «im».",
+      "answer": true,
+      "explain": "in + dem = im, muy frecuente."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "statement": "«Das Buch ist auf dem Tisch» usa acusativo, porque hay movimiento.",
+      "answer": false,
+      "explain": "No hay movimiento: es ubicación (wo?), así que usa dativo (dem Tisch)."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases indica DIRECCIÓN (wohin), no ubicación?",
+      "options": ["Das Buch ist auf dem Tisch.", "Der Hund ist unter dem Tisch.", "Ich fahre in den Park.", "Ich bin im Park."],
+      "answer": 2,
+      "explain": "Ich fahre in den Park indica movimiento hacia el parque: dirección, acusativo."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "Une cada preposición con su significado",
+      "left": ["auf", "hinter", "unter", "vor"],
+      "right": ["sobre", "detrás de", "debajo de", "delante de"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro de las nueve preposiciones de dos casos."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "El libro está sobre la mesa.",
+      "accept": ["Das Buch ist auf dem Tisch"],
+      "hintWords": ["das Buch ist auf dem Tisch"],
+      "strictAccents": false,
+      "audio": "Das Buch ist auf dem Tisch.",
+      "explain": "Ubicación (wo?): auf + dativo (dem Tisch)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "Voy al parque.",
+      "accept": ["Ich fahre in den Park"],
+      "hintWords": ["ich fahre in den Park"],
+      "strictAccents": false,
+      "audio": "Ich fahre in den Park.",
+      "explain": "Dirección (wohin?): in + acusativo (den Park)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Ich bin ___ Park. Ich fahre ___ den Park.",
+      "blanks": [{ "accept": ["im"] }, { "accept": ["in"] }],
+      "bank": ["im", "in", "auf"],
+      "explain": "im (ubicación, dativo) frente a in + den (dirección, acusativo)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El perro está debajo de la mesa»",
+      "tokens": ["Tisch", "Der", "ist", "Hund", "dem", "unter"],
+      "answer": ["Der", "Hund", "ist", "unter", "dem", "Tisch"],
+      "audio": "Der Hund ist unter dem Tisch.",
+      "explain": "unter + dativo (dem Tisch), ubicación."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 1,
+      "prompt": "Ich bin im Park.",
+      "accept": ["Estoy en el parque."],
+      "strictAccents": false,
+      "audio": "Ich bin im Park.",
+      "explain": "im = in + dem, ubicación."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Ist das Buch auf dem Tisch?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, das Buch ist auf dem Tisch."], "hint": "responde que sí" },
+        { "who": "Anna", "text": "Danke!", "speak": true }
+      ],
+      "explain": "auf dem Tisch: ubicación, dativo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "speak": "Das Buch ist auf dem Tisch.",
+      "mode": "write",
+      "accept": ["Das Buch ist auf dem Tisch"],
+      "showTextAfter": true,
+      "explain": "Das Buch ist auf dem Tisch = el libro está sobre la mesa."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "speak": "Ich fahre in den Park.",
+      "mode": "choose",
+      "options": ["Ich fahre in den Park.", "Ich bin im Park.", "Ich fahre um den Park."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "in den Park (dirección) frente a im Park (ubicación): dos casos distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "speak": "Das Buch ist auf dem Tisch, und der Hund ist unter dem Tisch.",
+      "es": "El libro está sobre la mesa, y el perro está debajo de la mesa.",
+      "ipa": "/das buːx ɪst aʊ̯f deːm tɪʃ ʊnt deːɐ̯ hʊnt ɪst ˈʊntɐ deːm tɪʃ/",
+      "esApprox": "«das buj ist auf dem tish unt der junt ist UN-ter dem tish»",
+      "focus": "dem Tisch se repite igual en las dos frases: las dos son ubicación, dativo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "speak": "Ich bin im Park. Ich fahre in den Park.",
+      "es": "Estoy en el parque. Voy al parque.",
+      "ipa": "/ɪç bɪn ɪm paʁk ɪç ˈfaːʁə ɪn deːn paʁk/",
+      "esApprox": "«ich bin im park, ich FÁ-re in den park»",
+      "focus": "im (dativo, contracción) frente a in den (acusativo, sin contracción): compara las dos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si el libro está sobre la mesa. Responde que sí.",
+      "modelAnswer": "Ja, das Buch ist auf dem Tisch.",
+      "alsoValid": ["Das Buch ist auf dem Tisch."],
+      "speak": "Ja, das Buch ist auf dem Tisch.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada frase: ¿wo? (dativo) o wohin? (acusativo)?",
+      "buckets": ["Wo? (Dativ)", "Wohin? (Akkusativ)"],
+      "items": [
+        { "text": "Das Buch ist auf dem Tisch.", "bucket": 0 },
+        { "text": "Der Hund ist unter dem Tisch.", "bucket": 0 },
+        { "text": "Ich fahre in den Park.", "bucket": 1 },
+        { "text": "Ich bin im Park.", "bucket": 0 }
+      ],
+      "explain": "Solo la frase con fahre + destino es dirección; el resto son ubicaciones."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["wechselpraepositionen"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich fahre in dem Park.",
+      "accept": ["Ich fahre in den Park"],
+      "audio": "Ich fahre in den Park.",
+      "explain": "fahre + destino es dirección (wohin?): rige acusativo, no dativo."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "in", "es": "en, dentro de", "esApprox": "«in»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "auf", "es": "sobre, en", "esApprox": "«auf»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "unter", "es": "debajo de", "esApprox": "«UN-ter»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "vor", "es": "delante de", "esApprox": "«for»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "hinter", "es": "detrás de", "esApprox": "«JIN-ter»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Tisch", "es": "la mesa", "esApprox": "«tish»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Das Buch ist auf dem Tisch, und der Hund ist unter dem Tisch.", "es": "El libro está sobre la mesa, y el perro está debajo de la mesa.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich bin im Park. Ich fahre in den Park.", "es": "Estoy en el parque. Voy al parque.", "from": "e16" }
+  ]
+}

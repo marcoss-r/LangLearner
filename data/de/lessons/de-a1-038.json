@@ -1,0 +1,326 @@
+{
+  "id": "de-a1-038",
+  "lang": "de",
+  "level": "A1",
+  "order": 38,
+  "title": "Verbos que rigen dativo (helfen, danken, gefallen…)",
+  "objectives": [
+    "Reconocer verbos que rigen dativo en vez de acusativo: helfen, danken, gefallen, antworten",
+    "Aplicar el dativo con estos verbos, sin ningún acusativo de por medio",
+    "Entender que gefallen funciona como «gustar» en español: el sujeto es la cosa que gusta, y el dativo es la persona"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un grupo de verbos que no sigue la regla general",
+      "body": "La mayoría de los verbos alemanes rigen acusativo, como viste en la clase 25. Pero un grupo de verbos frecuentes rige dativo directamente, sin ningún acusativo: helfen (ayudar), danken (agradecer), gefallen (gustar) y antworten (responder). No hay ninguna lógica que lo explique: hay que memorizar estos verbos como una lista especial.",
+      "examples": [
+        { "target": "Ich helfe dem Mann.", "es": "Ayudo al hombre.", "note": "helfen + dativo, no acusativo" },
+        { "target": "Ich danke der Frau.", "es": "Le doy las gracias a la mujer.", "note": "danken + dativo" },
+        { "target": "Das gefällt mir.", "es": "Eso me gusta.", "note": "gefallen: el sujeto es «das», mir es dativo (a mí)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cuatro verbos frecuentes que rigen dativo",
+      "headers": ["Verbo", "Significado"],
+      "rows": [
+        ["helfen", "ayudar"],
+        ["danken", "agradecer, dar las gracias"],
+        ["gefallen", "gustar"],
+        ["antworten", "responder"]
+      ],
+      "note": "gefallen funciona igual que «gustar» en español: lo que gusta es el sujeto, y a quién le gusta va en dativo. No es una construcción extraña para un hispanohablante."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: no uses acusativo con estos verbos",
+      "items": [
+        { "wrong": "Ich helfe den Mann. (aplicando la regla general del acusativo)", "right": "Ich helfe dem Mann.", "why": "helfen es uno de los verbos que rompe la regla general: aunque la mayoría de verbos usan acusativo, helfen, danken, gefallen y antworten van siempre con dativo." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Memoriza estos cuatro verbos juntos, como un grupo especial: helfen, danken, gefallen, antworten. Cuando dudes si un verbo nuevo rige dativo, busca si está en esta lista o en una parecida; si no, lo más probable es que rija acusativo."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "helfen",
+      "es": "ayudar",
+      "ipa": "/ˈhɛlfən/",
+      "esApprox": "«JEL-fen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich helfe dem Kind.", "es": "Ayudo al niño." }
+    },
+    {
+      "id": "v2",
+      "target": "danken",
+      "es": "agradecer, dar las gracias",
+      "ipa": "/ˈdaŋkən/",
+      "esApprox": "«DAN-ken»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich danke der Mutter.", "es": "Le doy las gracias a la madre." }
+    },
+    {
+      "id": "v3",
+      "target": "gefallen",
+      "es": "gustar",
+      "ipa": "/ɡəˈfalən/",
+      "esApprox": "«gue-FA-len»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Das gefällt mir.", "es": "Eso me gusta." }
+    },
+    {
+      "id": "v4",
+      "target": "antworten",
+      "es": "responder",
+      "ipa": "/ˈantvɔʁtən/",
+      "esApprox": "«ANT-vor-ten»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich antworte dem Lehrer.", "es": "Le respondo al profesor." }
+    },
+    {
+      "id": "v5",
+      "target": "die Frage",
+      "es": "la pregunta",
+      "ipa": "/ˈfʁaːɡə/",
+      "esApprox": "«FRÁ-gue»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Fragen",
+      "example": { "target": "Ich antworte auf die Frage.", "es": "Respondo a la pregunta." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "¿Qué caso rige «helfen» (ayudar)?",
+      "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"],
+      "answer": 2,
+      "explain": "helfen rige dativo: ich helfe dem Mann."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["dativo"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «gefallen»?",
+      "options": ["ayudar", "agradecer", "gustar", "responder"],
+      "answer": 2,
+      "explain": "gefallen = gustar."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["dativo"],
+      "difficulty": 1,
+      "statement": "Helfen rige dativo, no acusativo.",
+      "answer": true,
+      "explain": "Es uno de los verbos que rompe la regla general del acusativo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "statement": "«Ich helfe den Mann» es correcto.",
+      "answer": false,
+      "explain": "Debería ser Ich helfe dem Mann: helfen rige dativo, no acusativo."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["regimen-preposicional"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos verbos NO rige dativo?",
+      "options": ["helfen", "danken", "gefallen", "kennen"],
+      "answer": 3,
+      "explain": "kennen rige acusativo (clase 25), no dativo."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["dativo"],
+      "difficulty": 1,
+      "prompt": "Une cada verbo con su significado",
+      "left": ["helfen", "danken", "gefallen", "antworten"],
+      "right": ["ayudar", "agradecer", "gustar", "responder"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro verbos que rigen dativo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Ayudo al hombre.",
+      "accept": ["Ich helfe dem Mann"],
+      "hintWords": ["ich helfe dem Mann"],
+      "strictAccents": false,
+      "audio": "Ich helfe dem Mann.",
+      "explain": "helfe + dem Mann (dativo)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Le doy las gracias a la mujer.",
+      "accept": ["Ich danke der Frau"],
+      "hintWords": ["ich danke der Frau"],
+      "strictAccents": false,
+      "audio": "Ich danke der Frau.",
+      "explain": "danke + der Frau (dativo femenino)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo en dativo",
+      "text": "Ich helfe ___ Kind. Ich danke ___ Lehrer.",
+      "blanks": [{ "accept": ["dem"] }, { "accept": ["dem"] }],
+      "bank": ["dem", "den", "der"],
+      "explain": "Kind y Lehrer, neutro y masculino, usan dem en dativo."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Le respondo al profesor»",
+      "tokens": ["Lehrer", "Ich", "dem", "antworte"],
+      "answer": ["Ich", "antworte", "dem", "Lehrer"],
+      "audio": "Ich antworte dem Lehrer.",
+      "explain": "Ich antworte + dem Lehrer (dativo)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Das gefällt mir.",
+      "accept": ["Eso me gusta."],
+      "strictAccents": false,
+      "audio": "Das gefällt mir.",
+      "explain": "mir es el pronombre en dativo para «a mí»; lo verás con calma en la próxima clase."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hilfst du dem Kind?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich helfe dem Kind."], "hint": "responde que sí, que ayudas al niño" },
+        { "who": "Anna", "text": "Danke!", "speak": true }
+      ],
+      "explain": "hilfst (du, con cambio de vocal e→i, como sprechen)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "speak": "Ich helfe dem Mann.",
+      "mode": "write",
+      "accept": ["Ich helfe dem Mann"],
+      "showTextAfter": true,
+      "explain": "Ich helfe dem Mann = ayudo al hombre."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "speak": "Ich danke der Frau.",
+      "mode": "choose",
+      "options": ["Ich danke der Frau.", "Ich helfe der Frau.", "Ich antworte der Frau."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "danke, helfe y antworte son verbos distintos: escucha bien cuál es."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "speak": "Ich helfe dem Kind, und ich danke der Mutter.",
+      "es": "Ayudo al niño, y le doy las gracias a la madre.",
+      "ipa": "/ɪç ˈhɛlfə deːm kɪnt ʊnt ɪç ˈdaŋkə deːɐ̯ ˈmʊtɐ/",
+      "esApprox": "«ich JEL-fe dem kint unt ich DAN-ke der MU-ter»",
+      "focus": "helfe lleva el sonido gutural suave de la h aspirada, y luego una f clara.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "speak": "Ich antworte dem Lehrer.",
+      "es": "Le respondo al profesor.",
+      "ipa": "/ɪç ˈantvɔʁtə deːm ˈleːʁɐ/",
+      "esApprox": "«ich ANT-vor-te dem LÉ-rer»",
+      "focus": "antworte lleva una e extra al final, igual que arbeitest, porque la raíz termina en t.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si ayudas al niño. Responde que sí, que lo ayudas.",
+      "modelAnswer": "Ja, ich helfe dem Kind.",
+      "alsoValid": ["Ich helfe dem Kind."],
+      "speak": "Ja, ich helfe dem Kind.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada verbo: ¿rige dativo o acusativo?",
+      "buckets": ["Rige dativo", "Rige acusativo"],
+      "items": [
+        { "text": "helfen", "bucket": 0 },
+        { "text": "danken", "bucket": 0 },
+        { "text": "gefallen", "bucket": 0 },
+        { "text": "kennen", "bucket": 1 },
+        { "text": "sehen", "bucket": 1 }
+      ],
+      "explain": "kennen y sehen rigen acusativo (clases 24-25); los otros cuatro, dativo."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich helfe den Mann.",
+      "accept": ["Ich helfe dem Mann"],
+      "audio": "Ich helfe dem Mann.",
+      "explain": "helfen rige dativo: den debe ser dem."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "helfen", "es": "ayudar", "esApprox": "«JEL-fen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "danken", "es": "agradecer", "esApprox": "«DAN-ken»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "gefallen", "es": "gustar", "esApprox": "«gue-FA-len»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "antworten", "es": "responder", "esApprox": "«ANT-vor-ten»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Frage", "es": "la pregunta", "esApprox": "«FRÁ-gue»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Ich helfe dem Kind, und ich danke der Mutter.", "es": "Ayudo al niño, y le doy las gracias a la madre.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Ich antworte dem Lehrer.", "es": "Le respondo al profesor.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Das gefällt mir.", "es": "Eso me gusta.", "from": "e11" }
+  ]
+}
