@@ -1,0 +1,87 @@
+{
+  "id": "de-a2-108",
+  "lang": "de",
+  "level": "A2",
+  "order": 108,
+  "title": "Practicar la declinación describiendo fotos y objetos",
+  "objectives": [
+    "Describir personas y objetos en una foto usando varios adjetivos declinados",
+    "Combinar dos o más adjetivos ante el mismo sustantivo, cada uno con la misma terminación",
+    "Usar frases completas de descripción en un contexto comunicativo real"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Describir con varios adjetivos",
+      "body": "Cuando describes una foto o un objeto, es habitual usar dos o más adjetivos seguidos: todos llevan la MISMA terminación, según el patrón que corresponda (der/die/das, ein/mein, o sin artículo). «Ich sehe eine junge, freundliche Frau» (Veo a una mujer joven y amable): junge y freundliche llevan la misma -e, porque los dos describen a Frau (femenino, nominativo/acusativo tras eine).",
+      "examples": [
+        { "target": "Auf dem Foto sehe ich einen kleinen, süßen Hund.", "es": "En la foto veo a un perro pequeño y mono." },
+        { "target": "Das ist eine moderne, helle Wohnung.", "es": "Ese es un piso moderno y luminoso." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Estructura para describir una foto",
+      "headers": ["Paso", "Ejemplo"],
+      "rows": [
+        ["Situar la imagen", "Auf dem Foto sehe ich..."],
+        ["Describir con adjetivos", "...einen kleinen, süßen Hund..."],
+        ["Dar tu opinión", "Ich glaube, dass das Foto alt ist."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para describir fotos con naturalidad, combina lo que ya sabes: «Auf dem Foto sehe ich...» (En la foto veo...) + artículo + adjetivo(s) declinado(s) + sustantivo. Añade una frase con weil o dass para dar tu opinión: «Ich glaube, dass das Foto alt ist» (Creo que la foto es antigua)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "auf dem Foto", "es": "en la foto", "ipa": "/aʊ̯f deːm ˈfoːto/", "esApprox": "«auf dem FÓ-to»", "pos": "expresión", "gender": null, "example": { "target": "Auf dem Foto sehe ich einen Hund.", "es": "En la foto veo un perro." } },
+    { "id": "v2", "target": "der Hund", "es": "el perro", "ipa": "/hʊnt/", "esApprox": "«junt»", "pos": "sustantivo", "gender": "m", "example": { "target": "ein kleiner, süßer Hund", "es": "un perro pequeño y mono" } },
+    { "id": "v3", "target": "süß", "es": "mono, dulce", "ipa": "/zyːs/", "esApprox": "«züs»", "pos": "adjetivo", "gender": null, "example": { "target": "Der Hund ist süß.", "es": "El perro es mono." } },
+    { "id": "v4", "target": "hell", "es": "luminoso, claro", "ipa": "/hɛl/", "esApprox": "«jel»", "pos": "adjetivo", "gender": null, "example": { "target": "eine helle Wohnung", "es": "un piso luminoso" } },
+    { "id": "v5", "target": "modern", "es": "moderno", "ipa": "/moˈdɛʁn/", "esApprox": "«mo-DERN»", "pos": "adjetivo", "gender": null, "example": { "target": "eine moderne Wohnung", "es": "un piso moderno" } },
+    { "id": "v6", "target": "freundlich", "es": "amable", "ipa": "/ˈfʁɔɪ̯ntlɪç/", "esApprox": "«FRÓINT-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "eine freundliche Frau", "es": "una mujer amable" } },
+    { "id": "v7", "target": "das Bild", "es": "la imagen, el cuadro", "ipa": "/bɪlt/", "esApprox": "«bilt»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das ist ein schönes Bild.", "es": "Esa es una imagen bonita." } },
+    { "id": "v8", "target": "beschreiben", "es": "describir", "ipa": "/bəˈʃʁaɪ̯bn̩/", "esApprox": "«be-SHRÁI-ben»", "pos": "verbo", "gender": null, "example": { "target": "Beschreib das Foto!", "es": "¡Describe la foto!" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 1, "prompt": "En «eine junge, freundliche Frau», ¿qué terminación comparten los dos adjetivos?", "options": ["-e", "-er", "-en", "distintas"], "answer": 0, "explain": "Los dos adjetivos describen a Frau (femenino) y llevan la misma terminación: -e." },
+    { "id": "e2", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "¿Cómo se dice «en la foto»?", "options": ["im Foto", "auf dem Foto", "an dem Foto", "bei dem Foto"], "answer": 1, "explain": "auf dem Foto: expresión fija para «en la foto»." },
+    { "id": "e3", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "Cuando hay dos adjetivos ante el mismo sustantivo, cada uno puede llevar una terminación distinta.", "answer": false, "explain": "Ambos adjetivos llevan la MISMA terminación, según el patrón correspondiente." },
+    { "id": "e4", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "«süß» solo se usa para describir sabores dulces.", "answer": false, "explain": "süß también significa «mono, adorable» al describir personas o animales." },
+    { "id": "e5", "type": "match_pairs", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Une cada adjetivo con su traducción", "left": ["süß", "hell", "modern", "freundlich"], "right": ["mono, dulce", "luminoso", "moderno", "amable"], "answer": [0, 1, 2, 3], "explain": "Cuatro adjetivos frecuentes para describir fotos y objetos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "En la foto veo a un perro pequeño y mono.", "accept": ["Auf dem Foto sehe ich einen kleinen, süßen Hund"], "hintWords": ["auf dem Foto sehe ich einen kleinen, süßen Hund"], "strictAccents": false, "audio": "Auf dem Foto sehe ich einen kleinen, süßen Hund.", "explain": "einen kleinen, süßen Hund: dos adjetivos, ambos con -en (acusativo masculino tras ein)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Ese es un piso moderno y luminoso.", "accept": ["Das ist eine moderne, helle Wohnung"], "hintWords": ["das ist eine moderne, helle Wohnung"], "strictAccents": false, "audio": "Das ist eine moderne, helle Wohnung.", "explain": "eine moderne, helle Wohnung: dos adjetivos, ambos con -e (femenino tras eine)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "¡Describe la foto!", "accept": ["Beschreib das Foto!", "Beschreib das Foto"], "hintWords": ["beschreib das Foto"], "strictAccents": false, "audio": "Beschreib das Foto!", "explain": "Imperativo du de beschreiben, verbo inseparable." },
+    { "id": "e9", "type": "fill_blank", "tags": ["declinacion-adjetivo"], "difficulty": 3, "prompt": "Completa con la terminación correcta (ambos adjetivos iguales)", "text": "Ich sehe eine jung___, freundlich___ Frau.", "blanks": [{ "accept": ["e"] }, { "accept": ["e"] }], "bank": ["e", "en", "er"], "explain": "jung y freundlich comparten la misma terminación -e (femenino tras eine)." },
+    { "id": "e10", "type": "word_order", "tags": ["declinacion-adjetivo"], "difficulty": 3, "prompt": "Ordena: «En la foto veo a un perro pequeño y mono»", "tokens": ["einen kleinen,", "sehe ich", "süßen Hund", "Auf dem Foto"], "answer": ["Auf dem Foto", "sehe ich", "einen kleinen,", "süßen Hund"], "audio": "Auf dem Foto sehe ich einen kleinen, süßen Hund.", "explain": "Auf dem Foto (posición 1) + sehe (posición 2) + ich + objeto con dos adjetivos." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Das ist ein schönes Bild.", "accept": ["Esa es una imagen bonita."], "strictAccents": false, "audio": "Das ist ein schönes Bild.", "explain": "das Bild = la imagen, el cuadro." },
+    { "id": "e12", "type": "dialogue", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lehrerin", "text": "Beschreib das Foto, bitte.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Auf dem Foto sehe ich einen kleinen, süßen Hund.", "Ich sehe eine junge, freundliche Frau."], "hint": "describe con dos adjetivos" },
+      { "who": "Lehrerin", "text": "Sehr schön beschrieben!", "speak": true }
+    ], "explain": "Práctica de describir fotos con adjetivos declinados, en un contexto de clase." },
+    { "id": "e13", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 1, "speak": "Auf dem Foto sehe ich einen kleinen, süßen Hund.", "mode": "write", "accept": ["Auf dem Foto sehe ich einen kleinen, süßen Hund"], "showTextAfter": true, "explain": "Descripción con dos adjetivos, misma terminación." },
+    { "id": "e14", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Das ist eine moderne, helle Wohnung.", "mode": "choose", "options": ["Das ist eine moderne, helle Wohnung.", "Das ist eine moderner, heller Wohnung.", "Das ist ein moderne, helle Wohnung."], "answer": 0, "showTextAfter": true, "explain": "Solo la primera opción combina correctamente eine con -e en ambos adjetivos." },
+    { "id": "e15", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Auf dem Foto sehe ich einen kleinen, süßen Hund und eine junge, freundliche Frau.", "es": "En la foto veo a un perro pequeño y mono, y a una mujer joven y amable.", "ipa": "/aʊ̯f deːm ˈfoːto ˈzeːə ɪç ˈaɪ̯nən ˈklaɪ̯nən ˈzyːsn̩ hʊnt ʊnt ˈaɪ̯nə ˈjʊŋə ˈfʁɔɪ̯ntlɪçə fʁaʊ̯/", "esApprox": "«auf dem FÓ-to zé-e ich ÁI-nen KLÁI-nen ZÜ-sen junt unt ÁI-ne YÚN-ge FRÓINT-li-che frau»", "focus": "einen kleinen, süßen Hund (-en, masculino acusativo) y eine junge, freundliche Frau (-e, femenino), ambos con doble adjetivo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Ich glaube, dass das Foto alt ist, denn die Wohnung sieht nicht mehr so modern aus.", "es": "Creo que la foto es antigua, porque el piso ya no parece tan moderno.", "ipa": "/ɪç ˈɡlaʊ̯bə das das ˈfoːto alt ɪst dɛn diː ˈvoːnʊŋ ziːt nɪçt meːɐ̯ zoː moˈdɛʁn aʊ̯s/", "esApprox": "«ich GLÁU-be, das das FÓ-to alt ist, den di VÓ-nung zit nicht mer zo mo-DERN aus»", "focus": "dass con ist al final, y denn con la frase en orden normal: dos formas de dar razones.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Te piden que describas una foto de tu casa. Usa al menos dos adjetivos declinados.", "modelAnswer": "Das ist eine moderne, helle Wohnung.", "alsoValid": ["Auf dem Foto sehe ich eine schöne, große Wohnung."], "speak": "Das ist eine moderne, helle Wohnung.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Clasifica cada frase según el género del sustantivo descrito", "buckets": ["Masculino", "Femenino"], "items": [
+      { "text": "einen kleinen, süßen Hund", "bucket": 0 },
+      { "text": "eine junge, freundliche Frau", "bucket": 1 },
+      { "text": "eine moderne, helle Wohnung", "bucket": 1 }
+    ], "explain": "der Hund es masculino; die Frau y die Wohnung son femeninas." },
+    { "id": "e19", "type": "error_correction", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich sehe eine junge, freundlicher Frau.", "accept": ["Ich sehe eine junge, freundliche Frau"], "audio": "Ich sehe eine junge, freundliche Frau.", "explain": "Los dos adjetivos deben llevar la misma terminación: junge y freundliche, ambos -e." },
+    { "id": "e20", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "«Auf dem Foto sehe ich einen kleinen, süßen Hund und eine moderne, helle Wohnung. Ich glaube, dass das Foto neu ist.» ¿Qué cree la persona sobre la foto?", "options": ["Que es antigua", "Que es nueva", "Que está borrosa", "Que es en blanco y negro"], "answer": 1, "explain": "«Ich glaube, dass das Foto neu ist» = creo que la foto es nueva." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "auf dem Foto", "es": "en la foto", "esApprox": "«auf dem FÓ-to»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Hund", "es": "el perro", "esApprox": "«junt»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "süß", "es": "mono, dulce", "esApprox": "«züs»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "hell", "es": "luminoso, claro", "esApprox": "«jel»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "modern", "es": "moderno", "esApprox": "«mo-DERN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "beschreiben", "es": "describir", "esApprox": "«be-SHRÁI-ben»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Auf dem Foto sehe ich einen kleinen, süßen Hund und eine junge, freundliche Frau.", "es": "En la foto veo a un perro pequeño y mono, y a una mujer joven y amable.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich glaube, dass das Foto alt ist, denn die Wohnung sieht nicht mehr so modern aus.", "es": "Creo que la foto es antigua, porque el piso ya no parece tan moderno.", "from": "e16" }
+  ]
+}

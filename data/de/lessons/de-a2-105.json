@@ -1,0 +1,87 @@
+{
+  "id": "de-a2-105",
+  "lang": "de",
+  "level": "A2",
+  "order": 105,
+  "title": "El adjetivo sin artículo: nominativo y acusativo",
+  "objectives": [
+    "Añadir la terminación correcta al adjetivo cuando no hay ningún artículo delante",
+    "Reconocer que, sin artículo, el adjetivo toma las terminaciones que normalmente lleva der/die/das",
+    "Usar este patrón con sustantivos incontables (Wein, Milch, Wasser) y plurales sin artículo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Sin artículo, el adjetivo hace todo el trabajo",
+      "body": "Cuando no hay ningún artículo (ni der/die/das ni ein/mein), como con sustantivos incontables (Wein, Milch, Wasser) o plurales generales (Kinder, Bücher), el adjetivo tiene que marcar el género y el caso él solo. Por eso toma casi las mismas terminaciones que normalmente lleva der/die/das: guter Wein, frische Milch, kaltes Wasser, kleine Kinder.",
+      "examples": [
+        { "target": "Ich trinke gerne guten Wein.", "es": "Me gusta beber buen vino.", "note": "acusativo masculino sin artículo: -en" },
+        { "target": "Ich trinke kaltes Wasser.", "es": "Bebo agua fría.", "note": "acusativo neutro sin artículo: -es" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Terminaciones sin artículo (Nominativ y Akkusativ)",
+      "headers": ["Caso", "Masculino", "Femenino", "Neutro", "Plural"],
+      "rows": [
+        ["Nominativ", "guter Wein", "frische Milch", "kaltes Wasser", "kleine Kinder"],
+        ["Akkusativ", "guten Wein", "frische Milch", "kaltes Wasser", "kleine Kinder"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Compara: der Wein → guter Wein (mismo -er); die Milch → frische Milch (mismo -e); das Wasser → kaltes Wasser (mismo -es); die Kinder → kleine Kinder (aquí SÍ hay diferencia: der/die/das usa -en en plural, sin artículo usa -e)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Wein", "es": "el vino", "ipa": "/vaɪ̯n/", "esApprox": "«vain»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich trinke gerne guten Wein.", "es": "Me gusta beber buen vino." } },
+    { "id": "v2", "target": "die Milch", "es": "la leche", "ipa": "/mɪlç/", "esApprox": "«milch»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich brauche frische Milch.", "es": "Necesito leche fresca." } },
+    { "id": "v3", "target": "das Wasser", "es": "el agua", "ipa": "/ˈvasɐ/", "esApprox": "«VÁ-ser»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich trinke kaltes Wasser.", "es": "Bebo agua fría." } },
+    { "id": "v4", "target": "frisch", "es": "fresco", "ipa": "/fʁɪʃ/", "esApprox": "«frish»", "pos": "adjetivo", "gender": null, "example": { "target": "frische Milch", "es": "leche fresca" } },
+    { "id": "v5", "target": "kalt", "es": "frío", "ipa": "/kalt/", "esApprox": "«kalt»", "pos": "adjetivo", "gender": null, "example": { "target": "kaltes Wasser", "es": "agua fría" } },
+    { "id": "v6", "target": "warm", "es": "cálido, caliente", "ipa": "/vaʁm/", "esApprox": "«varm»", "pos": "adjetivo", "gender": null, "example": { "target": "warmes Essen", "es": "comida caliente" } },
+    { "id": "v7", "target": "das Brot", "es": "el pan", "ipa": "/bʁoːt/", "esApprox": "«brot»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich esse frisches Brot.", "es": "Como pan fresco." } },
+    { "id": "v8", "target": "gesund", "es": "sano, saludable", "ipa": "/ɡəˈzʊnt/", "esApprox": "«ge-ZUNT»", "pos": "adjetivo", "gender": null, "example": { "target": "gesundes Essen", "es": "comida sana" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 1, "prompt": "¿Qué terminación lleva el adjetivo en «gut_ Wein» (nominativo, sin artículo)?", "options": ["-e", "-er", "-en", "-es"], "answer": 1, "explain": "guter Wein: -er, como der Wein." },
+    { "id": "e2", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "¿Qué terminación lleva el adjetivo en «kalt_ Wasser» (acusativo, sin artículo)?", "options": ["-e", "-en", "-es", "-er"], "answer": 2, "explain": "kaltes Wasser: -es, igual en nominativo y acusativo neutro." },
+    { "id": "e3", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "Sin artículo, el adjetivo toma casi las mismas terminaciones que der/die/das.", "answer": true, "explain": "guter Wein, frische Milch, kaltes Wasser: mismas terminaciones que der, die, das." },
+    { "id": "e4", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "En plural sin artículo, el adjetivo lleva -en, igual que tras der/die/das.", "answer": false, "explain": "Sin artículo, el plural lleva -e (kleine Kinder), no -en como tras der/die/das." },
+    { "id": "e5", "type": "match_pairs", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Une cada frase con su terminación", "left": ["gut_ Wein (nom.)", "frisch_ Milch (nom.)", "kalt_ Wasser (nom.)", "klein_ Kinder (nom. pl.)"], "right": ["-er", "-e", "-es", "-e"], "answer": [0, 1, 2, 3], "explain": "Masculino -er, femenino -e, neutro -es, plural -e (sin artículo)." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Me gusta beber buen vino.", "accept": ["Ich trinke gerne guten Wein"], "hintWords": ["ich trinke gerne guten Wein"], "strictAccents": false, "audio": "Ich trinke gerne guten Wein.", "explain": "guten Wein: acusativo masculino sin artículo, -en." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Necesito leche fresca.", "accept": ["Ich brauche frische Milch"], "hintWords": ["ich brauche frische Milch"], "strictAccents": false, "audio": "Ich brauche frische Milch.", "explain": "frische Milch: acusativo femenino sin artículo, -e." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Bebo agua fría.", "accept": ["Ich trinke kaltes Wasser"], "hintWords": ["ich trinke kaltes Wasser"], "strictAccents": false, "audio": "Ich trinke kaltes Wasser.", "explain": "kaltes Wasser: acusativo neutro sin artículo, -es." },
+    { "id": "e9", "type": "fill_blank", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa con la terminación correcta", "text": "Ich esse frisch___ Brot. Ich mag gesund___ Essen.", "blanks": [{ "accept": ["es"] }, { "accept": ["es"] }], "bank": ["es", "e", "er"], "explain": "frisches Brot y gesundes Essen: ambos neutros, -es." },
+    { "id": "e10", "type": "word_order", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Ordena: «Como pan fresco»", "tokens": ["frisches Brot", "Ich esse"], "answer": ["Ich esse", "frisches Brot"], "audio": "Ich esse frisches Brot.", "explain": "frisches Brot: acusativo neutro sin artículo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Ich mag warmes Essen.", "accept": ["Me gusta la comida caliente."], "strictAccents": false, "audio": "Ich mag warmes Essen.", "explain": "warmes Essen: neutro sin artículo, -es." },
+    { "id": "e12", "type": "dialogue", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Kellner", "text": "Möchten Sie Wein?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich trinke gerne guten Wein.", "Ja, gerne guten Wein."], "hint": "responde con el adjetivo declinado" },
+      { "who": "Kellner", "text": "Sehr gerne!", "speak": true }
+    ], "explain": "Práctica de la declinación sin artículo en el restaurante." },
+    { "id": "e13", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 1, "speak": "Ich trinke gerne guten Wein.", "mode": "write", "accept": ["Ich trinke gerne guten Wein"], "showTextAfter": true, "explain": "guten Wein: acusativo masculino sin artículo, -en." },
+    { "id": "e14", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Ich trinke kaltes Wasser.", "mode": "choose", "options": ["Ich trinke kaltes Wasser.", "Ich trinke kalte Wasser.", "Ich trinke kalten Wasser."], "answer": 0, "showTextAfter": true, "explain": "Solo «kaltes Wasser» es correcto: neutro, -es, sin artículo." },
+    { "id": "e15", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Ich trinke gerne guten Wein und esse frisches Brot mit frischer Milch.", "es": "Me gusta beber buen vino y comer pan fresco con leche fresca.", "ipa": "/ɪç ˈtʁɪŋkə ˈɡɛʁnə ˈɡuːtn̩ vaɪ̯n ʊnt ˈɛsə ˈfʁɪʃəs bʁoːt mɪt ˈfʁɪʃɐ mɪlç/", "esApprox": "«ich TRÍN-ke GUÉR-ne GÚ-ten vain unt É-se FRÍ-shes brot mit FRÍ-sher milch»", "focus": "guten Wein (acusativo masc.), frisches Brot (acusativo neutro), frischer Milch (dativo femenino, tras mit).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Kleine Kinder brauchen warmes Essen und kaltes Wasser.", "es": "Los niños pequeños necesitan comida caliente y agua fría.", "ipa": "/ˈklaɪ̯nə ˈkɪndɐ ˈbʁaʊ̯xn̩ ˈvaʁməs ˈɛsn̩ ʊnt ˈkaltəs ˈvasɐ/", "esApprox": "«KLÁI-ne KÍN-der BRÁU-jen VÁR-mes É-sen unt KÁL-tes VÁ-ser»", "focus": "Kleine Kinder: plural sin artículo, -e; warmes Essen y kaltes Wasser: neutro, -es.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Te preguntan qué te gusta beber. Di que te gusta beber buen vino.", "modelAnswer": "Ich trinke gerne guten Wein.", "alsoValid": ["Ich mag guten Wein."], "speak": "Ich trinke gerne guten Wein.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Clasifica cada frase según su terminación sin artículo", "buckets": ["-er (masc. nom.)", "-e (fem. nom./akk., o plural)", "-es (neutro nom./akk.)"], "items": [
+      { "text": "guter Wein", "bucket": 0 },
+      { "text": "frische Milch", "bucket": 1 },
+      { "text": "kaltes Wasser", "bucket": 2 },
+      { "text": "kleine Kinder", "bucket": 1 }
+    ], "explain": "Masculino nominativo -er; femenino y plural -e; neutro -es." },
+    { "id": "e19", "type": "error_correction", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich trinke kalte Wasser.", "accept": ["Ich trinke kaltes Wasser"], "audio": "Ich trinke kaltes Wasser.", "explain": "Wasser es neutro: sin artículo, el adjetivo necesita -es, no -e." },
+    { "id": "e20", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "«Kleine Kinder brauchen warmes Essen. Ich trinke gerne guten Wein, aber Kinder brauchen kaltes Wasser oder frische Milch.» ¿Qué necesitan los niños según el texto?", "options": ["Vino y agua fría", "Comida caliente y agua fría o leche fresca", "Solo pan fresco", "Solo leche fresca"], "answer": 1, "explain": "«brauchen warmes Essen... kaltes Wasser oder frische Milch» = necesitan comida caliente, agua fría o leche fresca." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Wein", "es": "el vino", "esApprox": "«vain»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Milch", "es": "la leche", "esApprox": "«milch»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Wasser", "es": "el agua", "esApprox": "«VÁ-ser»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "frisch", "es": "fresco", "esApprox": "«frish»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "kalt", "es": "frío", "esApprox": "«kalt»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "warm", "es": "cálido, caliente", "esApprox": "«varm»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich trinke gerne guten Wein und esse frisches Brot mit frischer Milch.", "es": "Me gusta beber buen vino y comer pan fresco con leche fresca.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Kleine Kinder brauchen warmes Essen und kaltes Wasser.", "es": "Los niños pequeños necesitan comida caliente y agua fría.", "from": "e16" }
+  ]
+}

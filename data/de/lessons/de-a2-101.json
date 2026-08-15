@@ -1,0 +1,87 @@
+{
+  "id": "de-a2-101",
+  "lang": "de",
+  "level": "A2",
+  "order": 101,
+  "title": "El adjetivo tras el artículo definido: nominativo y acusativo",
+  "objectives": [
+    "Añadir la terminación correcta al adjetivo cuando va delante de un sustantivo, tras der/die/das",
+    "Aplicar las terminaciones -e y -en en nominativo y acusativo según género y caso",
+    "Entender por qué el adjetivo necesita una terminación cuando antes solo usabas la forma base"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El adjetivo antes de un sustantivo necesita terminación",
+      "body": "Hasta ahora usaste adjetivos como «Das Auto ist groß» (el adjetivo va solo, tras sein: sin terminación). Pero cuando el adjetivo va DELANTE del sustantivo, como en «das große Auto» (el coche grande), necesita una terminación que depende del género, el caso, y de si hay artículo. Esta clase empieza con el patrón más simple: adjetivo tras der/die/das, en nominativo y acusativo.",
+      "examples": [
+        { "target": "der große Mann", "es": "el hombre grande", "note": "nominativo masculino: -e" },
+        { "target": "ich sehe den großen Mann", "es": "veo al hombre grande", "note": "acusativo masculino: -en" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Terminaciones tras der/die/das (Nominativ y Akkusativ)",
+      "headers": ["Caso", "Masculino", "Femenino", "Neutro", "Plural"],
+      "rows": [
+        ["Nominativ", "der große Mann", "die große Frau", "das große Kind", "die großen Kinder"],
+        ["Akkusativ", "den großen Mann", "die große Frau", "das große Kind", "die großen Kinder"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Solo el masculino cambia entre nominativo y acusativo: -e → -en. Los demás géneros mantienen -e en singular, y el plural siempre es -en, en los dos casos. Este patrón es exactamente el mismo que ya conoces de der/den (clase 24): solo el masculino se mueve."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "groß", "es": "grande", "ipa": "/ɡʁoːs/", "esApprox": "«gros»", "pos": "adjetivo", "gender": null, "example": { "target": "der große Mann", "es": "el hombre grande" } },
+    { "id": "v2", "target": "klein", "es": "pequeño", "ipa": "/klaɪ̯n/", "esApprox": "«klain»", "pos": "adjetivo", "gender": null, "example": { "target": "die kleine Frau", "es": "la mujer pequeña" } },
+    { "id": "v3", "target": "neu", "es": "nuevo", "ipa": "/nɔɪ̯/", "esApprox": "«noi»", "pos": "adjetivo", "gender": null, "example": { "target": "das neue Auto", "es": "el coche nuevo" } },
+    { "id": "v4", "target": "alt", "es": "viejo, antiguo", "ipa": "/alt/", "esApprox": "«alt»", "pos": "adjetivo", "gender": null, "example": { "target": "der alte Mann", "es": "el hombre viejo" } },
+    { "id": "v5", "target": "schön", "es": "bonito, guapo", "ipa": "/ʃøːn/", "esApprox": "«shön»", "pos": "adjetivo", "gender": null, "example": { "target": "die schöne Stadt", "es": "la ciudad bonita" } },
+    { "id": "v6", "target": "die Terminierung", "es": "la terminación (gramatical)", "ipa": "/tɛʁmiˈniːʁʊŋ/", "esApprox": "«ter-mi-NÍ-rung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Terminierung ändert sich.", "es": "La terminación cambia." } },
+    { "id": "v7", "target": "sich ändern", "es": "cambiar (intransitivo)", "ipa": "/zɪç ˈɛndɐn/", "esApprox": "«zich ÉN-dern»", "pos": "verbo", "gender": null, "example": { "target": "Die Endung ändert sich.", "es": "La terminación cambia." } },
+    { "id": "v8", "target": "abhängen von", "es": "depender de", "ipa": "/ˈaphɛŋən fɔn/", "esApprox": "«AP-jen-guen fon»", "pos": "verbo", "gender": null, "example": { "target": "Das hängt vom Kasus ab.", "es": "Eso depende del caso." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 1, "prompt": "¿Qué terminación lleva el adjetivo en «der groß_ Mann» (nominativo)?", "options": ["-e", "-en", "-er", "-es"], "answer": 0, "explain": "der große Mann: -e en nominativo tras der/die/das." },
+    { "id": "e2", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "¿Qué terminación lleva el adjetivo en «den groß_ Mann» (acusativo)?", "options": ["-e", "-en", "-es", "-er"], "answer": 1, "explain": "den großen Mann: -en en acusativo masculino." },
+    { "id": "e3", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "En femenino y neutro, el adjetivo lleva la misma terminación en nominativo y acusativo.", "answer": true, "explain": "die große Frau / die große Frau (acusativo); das große Kind / das große Kind: sin cambio." },
+    { "id": "e4", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "El plural siempre lleva -en tras der/die/das, en nominativo y acusativo.", "answer": true, "explain": "die großen Kinder, en ambos casos." },
+    { "id": "e5", "type": "match_pairs", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Une cada frase con su terminación en nominativo", "left": ["der groß_ Mann", "die klein_ Frau", "das neu_ Auto", "die schön_ Städte"], "right": ["-e", "-e", "-e", "-en"], "answer": [0, 1, 2, 3], "explain": "Singular: -e en los tres géneros; plural: -en." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "El hombre grande está aquí.", "accept": ["Der große Mann ist hier"], "hintWords": ["der große Mann ist hier"], "strictAccents": false, "audio": "Der große Mann ist hier.", "explain": "der große Mann: nominativo masculino, -e." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Veo al hombre grande.", "accept": ["Ich sehe den großen Mann"], "hintWords": ["ich sehe den großen Mann"], "strictAccents": false, "audio": "Ich sehe den großen Mann.", "explain": "den großen Mann: acusativo masculino, -en." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "El coche nuevo es caro.", "accept": ["Das neue Auto ist teuer"], "hintWords": ["das neue Auto ist teuer"], "strictAccents": false, "audio": "Das neue Auto ist teuer.", "explain": "das neue Auto: nominativo neutro, -e." },
+    { "id": "e9", "type": "fill_blank", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa con la terminación correcta", "text": "Ich sehe die schön___ Stadt. (acusativo, femenino) Ich sehe den alt___ Mann. (acusativo, masculino)", "blanks": [{ "accept": ["e"] }, { "accept": ["en"] }], "bank": ["e", "en", "es"], "explain": "schöne Stadt (femenino, -e); alten Mann (masculino acusativo, -en)." },
+    { "id": "e10", "type": "word_order", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Ordena: «La ciudad bonita es grande»", "tokens": ["ist", "Stadt", "groß", "Die schöne"], "answer": ["Die schöne", "Stadt", "ist", "groß"], "audio": "Die schöne Stadt ist groß.", "explain": "die schöne Stadt (adjetivo con terminación) + ist + groß (adjetivo predicativo, sin terminación)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Das hängt vom Kasus ab.", "accept": ["Eso depende del caso."], "strictAccents": false, "audio": "Das hängt vom Kasus ab.", "explain": "abhängen von + dativo (vom = von + dem)." },
+    { "id": "e12", "type": "dialogue", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie findest du das neue Auto?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich finde das neue Auto schön.", "Das neue Auto ist toll."], "hint": "responde con una opinión, usando el adjetivo declinado" },
+      { "who": "Lea", "text": "Ja, ich mag es auch!", "speak": true }
+    ], "explain": "Práctica de la declinación del adjetivo en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 1, "speak": "Der große Mann ist hier.", "mode": "write", "accept": ["Der große Mann ist hier"], "showTextAfter": true, "explain": "der große Mann: nominativo masculino con -e." },
+    { "id": "e14", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Ich sehe den großen Mann.", "mode": "choose", "options": ["Ich sehe den großen Mann.", "Ich sehe der große Mann.", "Ich sehe den große Mann."], "answer": 0, "showTextAfter": true, "explain": "Solo «den großen Mann» combina correctamente el artículo acusativo con la terminación -en." },
+    { "id": "e15", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Der große Mann sieht die kleine Frau, und die kleine Frau sieht den großen Mann.", "es": "El hombre grande ve a la mujer pequeña, y la mujer pequeña ve al hombre grande.", "ipa": "/deːɐ̯ ˈɡʁoːsə man ziːt diː ˈklaɪ̯nə fʁaʊ̯ ʊnt diː ˈklaɪ̯nə fʁaʊ̯ ziːt deːn ˈɡʁoːsn̩ man/", "esApprox": "«der GRÓ-se man zit di KLÁI-ne frau, unt di KLÁI-ne frau zit den GRÓ-sen man»", "focus": "der große Mann (nominativo) frente a den großen Mann (acusativo): el mismo sustantivo, dos terminaciones distintas.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Das neue Auto ist teuer, aber ich mag das alte Auto mehr.", "es": "El coche nuevo es caro, pero me gusta más el coche viejo.", "ipa": "/das ˈnɔɪ̯ə ˈaʊ̯to ɪst ˈtɔɪ̯ɐ ˈaːbɐ ɪç maːk das ˈaltə ˈaʊ̯to meːɐ̯/", "esApprox": "«das NÓI-e ÁU-to ist TÓI-er, Á-ber ich mak das ÁL-te ÁU-to mer»", "focus": "das neue Auto y das alte Auto: ambos neutros, con -e en nominativo y acusativo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Te preguntan qué te parece el coche nuevo. Di que el coche nuevo te parece bonito.", "modelAnswer": "Ich finde das neue Auto schön.", "alsoValid": ["Das neue Auto ist schön."], "speak": "Ich finde das neue Auto schön.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Clasifica cada terminación: nominativo/acusativo femenino-neutro (-e) o acusativo masculino (-en)", "buckets": ["-e (fem./neutro, ambos casos)", "-en (masc. acusativo)"], "items": [
+      { "text": "die große Frau", "bucket": 0 },
+      { "text": "den großen Mann", "bucket": 1 },
+      { "text": "das neue Auto", "bucket": 0 },
+      { "text": "den alten Mann", "bucket": 1 }
+    ], "explain": "Femenino y neutro siempre -e; masculino acusativo siempre -en." },
+    { "id": "e19", "type": "error_correction", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich sehe den große Mann.", "accept": ["Ich sehe den großen Mann"], "audio": "Ich sehe den großen Mann.", "explain": "Tras «den» (acusativo masculino), el adjetivo necesita -en, no -e." },
+    { "id": "e20", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "«Der große Mann kauft das neue Auto. Er sieht auch die schöne Stadt und die kleinen Häuser.» ¿Qué terminación tiene «kleinen» y por qué?", "options": ["-en, porque es plural", "-e, porque es singular", "-es, porque es neutro", "-er, porque es masculino"], "answer": 0, "explain": "die kleinen Häuser: plural, siempre -en tras der/die/das." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "groß", "es": "grande", "esApprox": "«gros»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "klein", "es": "pequeño", "esApprox": "«klain»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "neu", "es": "nuevo", "esApprox": "«noi»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "alt", "es": "viejo, antiguo", "esApprox": "«alt»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "schön", "es": "bonito, guapo", "esApprox": "«shön»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "abhängen von", "es": "depender de", "esApprox": "«AP-jen-guen fon»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Der große Mann sieht die kleine Frau, und die kleine Frau sieht den großen Mann.", "es": "El hombre grande ve a la mujer pequeña, y la mujer pequeña ve al hombre grande.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Das neue Auto ist teuer, aber ich mag das alte Auto mehr.", "es": "El coche nuevo es caro, pero me gusta más el coche viejo.", "from": "e16" }
+  ]
+}

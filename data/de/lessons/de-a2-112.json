@@ -1,0 +1,82 @@
+{
+  "id": "de-a2-112",
+  "lang": "de",
+  "level": "A2",
+  "order": 112,
+  "title": "Repaso activo VIII: la declinación del adjetivo a fondo (clases 101–111)",
+  "objectives": [
+    "Repasar las tres declinaciones del adjetivo: der/die/das, ein/mein, y sin artículo",
+    "Consolidar que dativo y genitivo son casi siempre -en (con artículo) o -em/-er (sin artículo)",
+    "Repasar los adjetivos sustantivados, el comparativo declinado y el superlativo declinado"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Sin gramática nueva: cierre del bloque de declinación",
+      "body": "Esta clase no introduce ningún contenido nuevo. La declinación del adjetivo es uno de los temas más densos del alemán, pero ya tienes las tres tablas completas y sabes aplicar el mismo patrón a comparativos, superlativos y adjetivos sustantivados."
+    },
+    {
+      "type": "table",
+      "title": "Resumen del bloque",
+      "headers": ["Clases", "Contenido clave"],
+      "rows": [
+        ["101-102", "der/die/das + adjetivo: -e/-en en nominativo/acusativo, -en fijo en dativo/genitivo"],
+        ["103-104", "ein/mein + adjetivo: -er/-e/-es en nominativo, -en fijo en dativo/genitivo"],
+        ["105-106", "Sin artículo: -er/-e/-es/-e en nominativo/acusativo, -em/-er en dativo"],
+        ["107-108", "Las tres declinaciones juntas, y practicarlas describiendo fotos"],
+        ["109-111", "Adjetivos sustantivados (der Deutsche), comparativo declinado (besserer) y superlativo declinado (der beste)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El siguiente bloque introduce el genitivo como caso activo (no solo como terminación de adjetivo) y los verbos con preposición fija. Ya tienes toda la base de declinación que necesitas para ese bloque."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "groß", "es": "grande", "ipa": "/ɡʁoːs/", "esApprox": "«gros»", "pos": "adjetivo", "gender": null, "example": { "target": "der große Mann", "es": "el hombre grande" } },
+    { "id": "v2", "target": "der Wein", "es": "el vino", "ipa": "/vaɪ̯n/", "esApprox": "«vain»", "pos": "sustantivo", "gender": "m", "example": { "target": "guter Wein", "es": "buen vino" } },
+    { "id": "v3", "target": "der/die Deutsche", "es": "el alemán, la alemana", "ipa": "/deːɐ̯ ˈdɔɪ̯tʃə/", "esApprox": "«der DÓICH-e»", "pos": "sustantivo (adjetivo sustantivado)", "gender": null, "example": { "target": "Der Deutsche wohnt in Berlin.", "es": "El alemán vive en Berlín." } },
+    { "id": "v4", "target": "ein besserer Tag", "es": "un día mejor", "ipa": "/aɪ̯n ˈbɛsəʁɐ taːk/", "esApprox": "«ain BÉ-se-rer tak»", "pos": "expresión", "gender": null, "example": { "target": "Heute war ein besserer Tag.", "es": "Hoy fue un día mejor." } },
+    { "id": "v5", "target": "der beste Tag", "es": "el mejor día", "ipa": "/deːɐ̯ ˈbɛstə taːk/", "esApprox": "«der BÉS-te tak»", "pos": "expresión", "gender": null, "example": { "target": "Das war der beste Tag.", "es": "Ese fue el mejor día." } },
+    { "id": "v6", "target": "die Deklination", "es": "la declinación", "ipa": "/deklinaˈtsi̯oːn/", "esApprox": "«de-kli-na-tsi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Deklination ist komplex.", "es": "La declinación es compleja." } },
+    { "id": "v7", "target": "beschreiben", "es": "describir", "ipa": "/bəˈʃʁaɪ̯bn̩/", "esApprox": "«be-SHRÁI-ben»", "pos": "verbo", "gender": null, "example": { "target": "Beschreib das Foto!", "es": "¡Describe la foto!" } },
+    { "id": "v8", "target": "auswählen", "es": "elegir, seleccionar", "ipa": "/ˈaʊ̯svɛːlən/", "esApprox": "«ÁUS-vé-len»", "pos": "verbo", "gender": null, "example": { "target": "Ich wähle die beste Option aus.", "es": "Elijo la mejor opción." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["repaso"], "difficulty": 1, "prompt": "¿Qué terminación lleva el adjetivo en «der groß_ Mann» (nominativo)?", "options": ["-e", "-er", "-en", "-es"], "answer": 0, "explain": "Repaso de la clase 101." },
+    { "id": "e2", "type": "mcq", "tags": ["repaso"], "difficulty": 2, "prompt": "¿Qué terminación lleva el adjetivo en «ein groß_ Mann» (nominativo)?", "options": ["-e", "-er", "-en", "-es"], "answer": 1, "explain": "Repaso de la clase 103." },
+    { "id": "e3", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "En dativo, tras der/die/das o ein/mein, el adjetivo siempre lleva -en.", "answer": true, "explain": "Repaso de las clases 102 y 104." },
+    { "id": "e4", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "El superlativo declinado ante sustantivo suele usar ein, no der/die/das.", "answer": false, "explain": "Repaso de la clase 111: casi siempre der/die/das, porque implica algo único." },
+    { "id": "e5", "type": "match_pairs", "tags": ["repaso"], "difficulty": 2, "prompt": "Une cada frase con su tipo de declinación", "left": ["der große Mann", "ein großer Mann", "guter Wein", "der Deutsche"], "right": ["der/die/das", "ein/mein", "sin artículo", "sustantivado"], "answer": [0, 1, 2, 3], "explain": "Repaso de las clases 101-109." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "Veo al hombre grande.", "accept": ["Ich sehe den großen Mann"], "hintWords": ["ich sehe den großen Mann"], "strictAccents": false, "audio": "Ich sehe den großen Mann.", "explain": "Repaso de la clase 101." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "Busco un piso más grande.", "accept": ["Ich suche eine größere Wohnung"], "hintWords": ["ich suche eine größere Wohnung"], "strictAccents": false, "audio": "Ich suche eine größere Wohnung.", "explain": "Repaso de la clase 110." },
+    { "id": "e8", "type": "fill_blank", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa con la terminación correcta", "text": "Ich trinke gut___ Wein. Das war der best___ Tag.", "blanks": [{ "accept": ["en"] }, { "accept": ["e"] }], "bank": ["en", "e", "er"], "explain": "guten Wein (acusativo sin artículo, -en); der beste Tag (superlativo declinado, -e)." },
+    { "id": "e9", "type": "word_order", "tags": ["repaso"], "difficulty": 2, "prompt": "Ordena: «El alemán vive en Berlín»", "tokens": ["wohnt", "Der Deutsche", "in Berlin"], "answer": ["Der Deutsche", "wohnt", "in Berlin"], "audio": "Der Deutsche wohnt in Berlin.", "explain": "Repaso de la clase 109." },
+    { "id": "e10", "type": "translate_to_es", "tags": ["repaso"], "difficulty": 2, "prompt": "Das war der beste Tag meines Lebens.", "accept": ["Ese fue el mejor día de mi vida."], "strictAccents": false, "audio": "Das war der beste Tag meines Lebens.", "explain": "Repaso de la clase 111." },
+    { "id": "e11", "type": "dialogue", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Mia", "text": "Beschreib das Foto, bitte.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Auf dem Foto sehe ich einen kleinen, süßen Hund."], "hint": "describe con dos adjetivos" },
+      { "who": "Mia", "text": "Süß!", "speak": true }
+    ], "explain": "Repaso de la clase 108." },
+    { "id": "e12", "type": "listening", "tags": ["repaso"], "difficulty": 1, "speak": "Ich helfe dem großen Mann.", "mode": "write", "accept": ["Ich helfe dem großen Mann"], "showTextAfter": true, "explain": "Repaso de la clase 102." },
+    { "id": "e13", "type": "listening", "tags": ["repaso"], "difficulty": 2, "speak": "Ein Deutscher hat mir geholfen.", "mode": "choose", "options": ["Ein Deutscher hat mir geholfen.", "Ein Deutsche hat mir geholfen.", "Der Deutscher hat mir geholfen."], "answer": 0, "showTextAfter": true, "explain": "Repaso de la clase 109." },
+    { "id": "e14", "type": "shadowing", "tags": ["repaso"], "difficulty": 2, "speak": "Der große Mann trinkt guten Wein, und der Deutsche wohnt in Berlin.", "es": "El hombre grande bebe buen vino, y el alemán vive en Berlín.", "ipa": "/deːɐ̯ ˈɡʁoːsə man ˈtʁɪŋkt ˈɡuːtn̩ vaɪ̯n ʊnt deːɐ̯ ˈdɔɪ̯tʃə ˈvoːnt ɪn bɛʁˈliːn/", "esApprox": "«der GRÓ-se man TRINKT GÚ-ten vain, unt der DÓICH-e VÓ-nt in ber-LÍN»", "focus": "Repaso de las clases 101, 105 y 109: tres tipos de declinación en una sola frase.", "selfAssess": true },
+    { "id": "e15", "type": "speak_prompt", "tags": ["repaso"], "difficulty": 2, "prompt": "Te preguntan cómo fue tu día. Di que fue un día mejor.", "modelAnswer": "Heute war ein besserer Tag.", "alsoValid": ["Es war ein besserer Tag."], "speak": "Heute war ein besserer Tag.", "selfAssess": true },
+    { "id": "e16", "type": "categorize", "tags": ["repaso"], "difficulty": 2, "prompt": "Clasifica cada frase según su tipo de declinación", "buckets": ["der/die/das", "ein/mein", "sin artículo"], "items": [
+      { "text": "die kleine Frau", "bucket": 0 },
+      { "text": "eine kleine Frau", "bucket": 1 },
+      { "text": "kleine Kinder", "bucket": 2 }
+    ], "explain": "Repaso de las clases 101, 103 y 105." },
+    { "id": "e17", "type": "error_correction", "tags": ["repaso"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich sehe den große Mann.", "accept": ["Ich sehe den großen Mann"], "audio": "Ich sehe den großen Mann.", "explain": "Repaso de la clase 101: tras den (acusativo masculino), el adjetivo necesita -en." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "groß", "es": "grande", "esApprox": "«gros»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Wein", "es": "el vino", "esApprox": "«vain»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "der/die Deutsche", "es": "el alemán, la alemana", "esApprox": "«der DÓICH-e»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "ein besserer Tag", "es": "un día mejor", "esApprox": "«ain BÉ-se-rer tak»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "der beste Tag", "es": "el mejor día", "esApprox": "«der BÉS-te tak»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Deklination", "es": "la declinación", "esApprox": "«de-kli-na-tsi-ÓN»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Der große Mann trinkt guten Wein, und der Deutsche wohnt in Berlin.", "es": "El hombre grande bebe buen vino, y el alemán vive en Berlín.", "from": "e14" },
+    { "id": "s8", "kind": "phrase", "target": "Das war der beste Tag meines Lebens.", "es": "Ese fue el mejor día de mi vida.", "from": "v5" }
+  ]
+}

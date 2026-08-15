@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-104",
+  "lang": "de",
+  "level": "A2",
+  "order": 104,
+  "title": "El adjetivo tras el artículo indefinido: dativo y genitivo",
+  "objectives": [
+    "Confirmar que, tras ein/eine/mein/dein, el adjetivo también lleva siempre -en en dativo y genitivo",
+    "Ver que este patrón es idéntico al de der/die/das (clase 102) en estos dos casos",
+    "Practicar con posesivos (mein, dein, sein...), que se declinan exactamente como ein"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El mismo patrón simple: -en en dativo y genitivo",
+      "body": "La buena noticia es que en dativo y genitivo, ein/eine se comporta exactamente igual que der/die/das (clase 102): el adjetivo siempre lleva -en, sin importar el género. Esto también aplica a los posesivos (mein, dein, sein, ihr, unser, euer, Ihr), que se declinan como ein-words (clase 43).",
+      "examples": [
+        { "target": "Ich helfe meinem kleinen Bruder.", "es": "Ayudo a mi hermano pequeño.", "note": "dativo masculino: -en" },
+        { "target": "die Tasche meiner besten Freundin", "es": "el bolso de mi mejor amiga", "note": "genitivo femenino: -en" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Terminaciones tras ein/mein... (Dativ y Genitiv)",
+      "headers": ["Caso", "Masculino", "Femenino", "Neutro"],
+      "rows": [
+        ["Dativ", "meinem kleinen Bruder", "meiner kleinen Schwester", "meinem kleinen Kind"],
+        ["Genitiv", "meines kleinen Bruders", "meiner kleinen Schwester", "meines kleinen Kindes"]
+      ],
+      "note": "El adjetivo es siempre -en, exactamente igual que tras der/die/das."
+    },
+    {
+      "type": "tip",
+      "body": "Resumen de las clases 101-104: en dativo y genitivo, sea cual sea el artículo (der/die/das o ein/mein/kein), el adjetivo siempre lleva -en. Solo el nominativo y el acusativo tienen variación real entre los dos tipos de artículo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Bruder", "es": "el hermano", "ipa": "/ˈbʁuːdɐ/", "esApprox": "«BRÚ-der»", "pos": "sustantivo", "gender": "m", "plural": "die Brüder", "example": { "target": "Ich helfe meinem kleinen Bruder.", "es": "Ayudo a mi hermano pequeño." } },
+    { "id": "v2", "target": "die Freundin", "es": "la amiga", "ipa": "/ˈfʁɔɪ̯ndɪn/", "esApprox": "«FRÓIN-din»", "pos": "sustantivo", "gender": "f", "plural": "die Freundinnen", "example": { "target": "die Tasche meiner besten Freundin", "es": "el bolso de mi mejor amiga" } },
+    { "id": "v3", "target": "die Tasche", "es": "el bolso, la bolsa", "ipa": "/ˈtaʃə/", "esApprox": "«TÁ-she»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist ihre Tasche.", "es": "Ese es su bolso." } },
+    { "id": "v4", "target": "beste", "es": "mejor (superlativo)", "ipa": "/ˈbɛstə/", "esApprox": "«BÉS-te»", "pos": "adjetivo", "gender": null, "example": { "target": "meine beste Freundin", "es": "mi mejor amiga" } },
+    { "id": "v5", "target": "dankbar", "es": "agradecido", "ipa": "/ˈdaŋkbaːɐ̯/", "esApprox": "«DANK-bar»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich bin meinem guten Freund dankbar.", "es": "Estoy agradecido a mi buen amigo." } },
+    { "id": "v6", "target": "die Meinung", "es": "la opinión", "ipa": "/ˈmaɪ̯nʊŋ/", "esApprox": "«MÁI-nung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist die Meinung meines besten Freundes.", "es": "Esa es la opinión de mi mejor amigo." } },
+    { "id": "v7", "target": "das Geschenk", "es": "el regalo", "ipa": "/ɡəˈʃɛŋk/", "esApprox": "«ge-SHENK»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich gebe meiner kleinen Schwester ein Geschenk.", "es": "Le doy un regalo a mi hermana pequeña." } },
+    { "id": "v8", "target": "die Schwester", "es": "la hermana", "ipa": "/ˈʃvɛstɐ/", "esApprox": "«SHVÉS-ter»", "pos": "sustantivo", "gender": "f", "plural": "die Schwestern", "example": { "target": "meine kleine Schwester", "es": "mi hermana pequeña" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 1, "prompt": "¿Qué terminación lleva el adjetivo tras «meinem» (dativo masculino)?", "options": ["-e", "-er", "-en", "-es"], "answer": 2, "explain": "meinem kleinen Bruder: -en, igual que tras dem." },
+    { "id": "e2", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "¿Qué terminación lleva el adjetivo tras «meiner» (genitivo femenino)?", "options": ["-e", "-en", "-es", "-er"], "answer": 1, "explain": "meiner besten Freundin: -en en genitivo, como en dativo." },
+    { "id": "e3", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "En dativo y genitivo, ein/mein se comporta igual que der/die/das: el adjetivo lleva siempre -en.", "answer": true, "explain": "Es la misma regla en ambos tipos de artículo." },
+    { "id": "e4", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "Los posesivos (mein, dein, sein...) se declinan de forma distinta a ein.", "answer": false, "explain": "Los posesivos son ein-words: se declinan exactamente igual que ein." },
+    { "id": "e5", "type": "match_pairs", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Une cada frase con su caso", "left": ["meinem kleinen Bruder", "meiner kleinen Schwester", "meines kleinen Kindes", "meiner besten Freundin"], "right": ["dativo masculino", "dativo femenino", "genitivo neutro", "genitivo femenino"], "answer": [0, 1, 2, 3], "explain": "Todas con -en en el adjetivo, cambia solo el artículo posesivo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Ayudo a mi hermano pequeño.", "accept": ["Ich helfe meinem kleinen Bruder"], "hintWords": ["ich helfe meinem kleinen Bruder"], "strictAccents": false, "audio": "Ich helfe meinem kleinen Bruder.", "explain": "meinem kleinen Bruder: dativo masculino, -en." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "El bolso de mi mejor amiga es bonito.", "accept": ["Die Tasche meiner besten Freundin ist schön"], "hintWords": ["die Tasche meiner besten Freundin ist schön"], "strictAccents": false, "audio": "Die Tasche meiner besten Freundin ist schön.", "explain": "meiner besten Freundin: genitivo femenino, -en." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Le doy un regalo a mi hermana pequeña.", "accept": ["Ich gebe meiner kleinen Schwester ein Geschenk"], "hintWords": ["ich gebe meiner kleinen Schwester ein Geschenk"], "strictAccents": false, "audio": "Ich gebe meiner kleinen Schwester ein Geschenk.", "explain": "meiner kleinen Schwester: dativo femenino, -en." },
+    { "id": "e9", "type": "fill_blank", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa con la terminación correcta", "text": "Ich bin meinem gut___ Freund dankbar. Das ist die Meinung meines best___ Freundes.", "blanks": [{ "accept": ["en"] }, { "accept": ["en"] }], "bank": ["en", "e", "es"], "explain": "En dativo y genitivo, siempre -en, sea cual sea el género." },
+    { "id": "e10", "type": "word_order", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Ordena: «Estoy agradecido a mi buen amigo»", "tokens": ["dankbar", "Ich bin", "meinem guten Freund"], "answer": ["Ich bin", "meinem guten Freund", "dankbar"], "audio": "Ich bin meinem guten Freund dankbar.", "explain": "sein + dativo + dankbar: adjetivo predicativo al final." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Das ist die Meinung meines besten Freundes.", "accept": ["Esa es la opinión de mi mejor amigo."], "strictAccents": false, "audio": "Das ist die Meinung meines besten Freundes.", "explain": "meines besten Freundes: genitivo masculino, -en." },
+    { "id": "e12", "type": "dialogue", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Ben", "text": "Wem hilfst du?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich helfe meinem kleinen Bruder."], "hint": "responde con dativo y el adjetivo en -en" },
+      { "who": "Ben", "text": "Das ist lieb von dir!", "speak": true }
+    ], "explain": "Práctica de helfen + dativo con adjetivo posesivo declinado." },
+    { "id": "e13", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 1, "speak": "Ich helfe meinem kleinen Bruder.", "mode": "write", "accept": ["Ich helfe meinem kleinen Bruder"], "showTextAfter": true, "explain": "meinem kleinen Bruder: dativo con -en." },
+    { "id": "e14", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Die Tasche meiner besten Freundin ist schön.", "mode": "choose", "options": ["Die Tasche meiner besten Freundin ist schön.", "Die Tasche meine beste Freundin ist schön.", "Die Tasche meiner beste Freundin ist schön."], "answer": 0, "showTextAfter": true, "explain": "Solo «meiner besten Freundin» combina correctamente el genitivo con -en." },
+    { "id": "e15", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Ich helfe meinem kleinen Bruder und meiner kleinen Schwester, weil ich sie sehr liebe.", "es": "Ayudo a mi hermano pequeño y a mi hermana pequeña, porque los quiero mucho.", "ipa": "/ɪç ˈhɛlfə ˈmaɪ̯nəm ˈklaɪ̯nən ˈbʁuːdɐ ʊnt ˈmaɪ̯nɐ ˈklaɪ̯nən ˈʃvɛstɐ vaɪ̯l ɪç ziː zeːɐ̯ ˈliːbə/", "esApprox": "«ich JÉL-fe MÁI-nem KLÁI-nen BRÚ-der unt MÁI-ner KLÁI-nen SHVÉS-ter, vail ich zi zer LÍ-be»", "focus": "meinem kleinen Bruder (masculino) y meiner kleinen Schwester (femenino): ambos con -en en dativo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Die Tasche meiner besten Freundin und die Meinung meines besten Freundes sind mir wichtig.", "es": "El bolso de mi mejor amiga y la opinión de mi mejor amigo son importantes para mí.", "ipa": "/diː ˈtaʃə ˈmaɪ̯nɐ ˈbɛstn̩ ˈfʁɔɪ̯ndɪn ʊnt diː ˈmaɪ̯nʊŋ ˈmaɪ̯nəs ˈbɛstn̩ ˈfʁɔɪ̯ndəs zɪnt miːɐ̯ ˈvɪçtɪç/", "esApprox": "«di TÁ-she MÁI-ner BÉS-ten FRÓIN-din unt di MÁI-nung MÁI-nes BÉS-ten FRÓIN-des zint mir VICH-tich»", "focus": "meiner besten Freundin (genitivo femenino) y meines besten Freundes (genitivo masculino): ambos -en.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Te preguntan a quién ayudas. Di que ayudas a tu hermano pequeño.", "modelAnswer": "Ich helfe meinem kleinen Bruder.", "alsoValid": ["Ich helfe meinem Bruder."], "speak": "Ich helfe meinem kleinen Bruder.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Clasifica cada frase: dativo o genitivo", "buckets": ["Dativo", "Genitivo"], "items": [
+      { "text": "meinem kleinen Bruder", "bucket": 0 },
+      { "text": "meines kleinen Bruders", "bucket": 1 },
+      { "text": "meiner kleinen Schwester", "bucket": 0 },
+      { "text": "meiner besten Freundin (posesión)", "bucket": 1 }
+    ], "explain": "El artículo (meinem/meines, meiner con -er o con posesión) distingue el caso; el adjetivo siempre es -en." },
+    { "id": "e19", "type": "error_correction", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich helfe meinem kleine Bruder.", "accept": ["Ich helfe meinem kleinen Bruder"], "audio": "Ich helfe meinem kleinen Bruder.", "explain": "Tras «meinem» (dativo), el adjetivo necesita -en, no -e." },
+    { "id": "e20", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "«Ich helfe meinem kleinen Bruder und meiner kleinen Schwester. Die Meinung meines besten Freundes ist mir wichtig.» ¿Qué terminación lleva «besten» en «meines besten Freundes» y por qué?", "options": ["-en, porque es genitivo tras mein", "-e, porque es nominativo", "-er, porque es masculino nominativo", "-es, porque es neutro"], "answer": 0, "explain": "meines besten Freundes: genitivo masculino, siempre -en tras mein/ein." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Bruder", "es": "el hermano", "esApprox": "«BRÚ-der»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Freundin", "es": "la amiga", "esApprox": "«FRÓIN-din»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Tasche", "es": "el bolso, la bolsa", "esApprox": "«TÁ-she»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "beste", "es": "mejor (superlativo)", "esApprox": "«BÉS-te»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "dankbar", "es": "agradecido", "esApprox": "«DANK-bar»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Schwester", "es": "la hermana", "esApprox": "«SHVÉS-ter»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich helfe meinem kleinen Bruder und meiner kleinen Schwester, weil ich sie sehr liebe.", "es": "Ayudo a mi hermano pequeño y a mi hermana pequeña, porque los quiero mucho.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Tasche meiner besten Freundin und die Meinung meines besten Freundes sind mir wichtig.", "es": "El bolso de mi mejor amiga y la opinión de mi mejor amigo son importantes para mí.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-103",
+  "lang": "de",
+  "level": "A2",
+  "order": 103,
+  "title": "El adjetivo tras el artículo indefinido: nominativo y acusativo",
+  "objectives": [
+    "Añadir la terminación correcta al adjetivo tras ein/eine/kein/mein en nominativo y acusativo",
+    "Reconocer que el adjetivo «rellena» la información de género que ein/eine no siempre muestra",
+    "Distinguir este patrón del patrón der/die/das de la clase 101"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El adjetivo compensa lo que ein/eine no dice",
+      "body": "Recuerda que ein (masculino) y ein (neutro) son idénticos en nominativo, sin ninguna terminación que indique el género (clase 12). Con adjetivo, el adjetivo SÍ marca esa diferencia: «ein großer Mann» (masculino, -er) frente a «ein großes Kind» (neutro, -es). El adjetivo «rellena» la información que el artículo ein no puede dar por sí solo.",
+      "examples": [
+        { "target": "ein großer Mann", "es": "un hombre grande", "note": "masculino nominativo: -er" },
+        { "target": "ein großes Kind", "es": "un niño grande", "note": "neutro nominativo: -es" },
+        { "target": "ich sehe einen großen Mann", "es": "veo a un hombre grande", "note": "masculino acusativo: -en" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Terminaciones tras ein/eine (Nominativ y Akkusativ)",
+      "headers": ["Caso", "Masculino", "Femenino", "Neutro"],
+      "rows": [
+        ["Nominativ", "ein großer Mann", "eine große Frau", "ein großes Kind"],
+        ["Akkusativ", "einen großen Mann", "eine große Frau", "ein großes Kind"]
+      ],
+      "note": "Plural: solo con kein/mein/dein... (ein no tiene plural): keine großen Kinder, en ambos casos."
+    },
+    {
+      "type": "tip",
+      "body": "Compara con der/die/das (clase 101): en nominativo masculino, der lleva -e (der große Mann) pero ein lleva -er (ein großer Mann); en neutro, das lleva -e (das große Kind) pero ein lleva -es (ein großes Kind). El adjetivo copia la terminación que le falta al artículo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "interessant", "es": "interesante", "ipa": "/ɪntəʁɛˈsant/", "esApprox": "«in-te-re-SANT»", "pos": "adjetivo", "gender": null, "example": { "target": "ein interessantes Buch", "es": "un libro interesante" } },
+    { "id": "v2", "target": "wichtig", "es": "importante", "ipa": "/ˈvɪçtɪç/", "esApprox": "«VICH-tich»", "pos": "adjetivo", "gender": null, "example": { "target": "eine wichtige Entscheidung", "es": "una decisión importante" } },
+    { "id": "v3", "target": "die Entscheidung", "es": "la decisión", "ipa": "/ɛntˈʃaɪ̯dʊŋ/", "esApprox": "«ent-SHÁI-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das war eine wichtige Entscheidung.", "es": "Esa fue una decisión importante." } },
+    { "id": "v4", "target": "das Buch", "es": "el libro", "ipa": "/buːx/", "esApprox": "«buj»", "pos": "sustantivo", "gender": "n", "plural": "die Bücher", "example": { "target": "Ich lese ein interessantes Buch.", "es": "Leo un libro interesante." } },
+    { "id": "v5", "target": "der Vorschlag", "es": "la propuesta, la sugerencia", "ipa": "/ˈfoːɐ̯ʃlaːk/", "esApprox": "«FOR-shlak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein guter Vorschlag.", "es": "Esa es una buena propuesta." } },
+    { "id": "v6", "target": "praktisch", "es": "práctico", "ipa": "/ˈpʁaktɪʃ/", "esApprox": "«PRÁK-tish»", "pos": "adjetivo", "gender": null, "example": { "target": "eine praktische Lösung", "es": "una solución práctica" } },
+    { "id": "v7", "target": "die Lösung", "es": "la solución", "ipa": "/ˈløːzʊŋ/", "esApprox": "«LÖ-zung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wir brauchen eine praktische Lösung.", "es": "Necesitamos una solución práctica." } },
+    { "id": "v8", "target": "auffallen", "es": "llamar la atención, destacar", "ipa": "/ˈaʊ̯ffalən/", "esApprox": "«ÁUF-fa-len»", "pos": "verbo", "gender": null, "example": { "target": "Das fällt sofort auf.", "es": "Eso llama la atención enseguida." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 1, "prompt": "¿Qué terminación lleva el adjetivo en «ein groß_ Mann» (nominativo)?", "options": ["-e", "-er", "-en", "-es"], "answer": 1, "explain": "ein großer Mann: -er en nominativo masculino tras ein." },
+    { "id": "e2", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "¿Qué terminación lleva el adjetivo en «ein groß_ Kind» (nominativo)?", "options": ["-e", "-er", "-es", "-en"], "answer": 2, "explain": "ein großes Kind: -es en nominativo neutro tras ein." },
+    { "id": "e3", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "En acusativo masculino, tras ein, el adjetivo lleva -en, igual que tras den.", "answer": true, "explain": "einen großen Mann: -en, como den großen Mann (clase 101)." },
+    { "id": "e4", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "En nominativo, der/die/das y ein/eine llevan siempre la misma terminación de adjetivo.", "answer": false, "explain": "der große Mann (-e) frente a ein großer Mann (-er): distintas terminaciones en masculino y neutro." },
+    { "id": "e5", "type": "match_pairs", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Une cada frase con su terminación", "left": ["ein groß_ Mann (nom.)", "eine groß_ Frau (nom.)", "ein groß_ Kind (nom.)", "einen groß_ Mann (akk.)"], "right": ["-er", "-e", "-es", "-en"], "answer": [0, 1, 2, 3], "explain": "Nominativo masculino -er, femenino -e, neutro -es; acusativo masculino -en." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Leo un libro interesante.", "accept": ["Ich lese ein interessantes Buch"], "hintWords": ["ich lese ein interessantes Buch"], "strictAccents": false, "audio": "Ich lese ein interessantes Buch.", "explain": "ein interessantes Buch: acusativo neutro, -es." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Esa fue una decisión importante.", "accept": ["Das war eine wichtige Entscheidung"], "hintWords": ["das war eine wichtige Entscheidung"], "strictAccents": false, "audio": "Das war eine wichtige Entscheidung.", "explain": "eine wichtige Entscheidung: femenino, -e en nominativo." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Esa es una buena propuesta.", "accept": ["Das ist ein guter Vorschlag"], "hintWords": ["das ist ein guter Vorschlag"], "strictAccents": false, "audio": "Das ist ein guter Vorschlag.", "explain": "ein guter Vorschlag: masculino nominativo, -er." },
+    { "id": "e9", "type": "fill_blank", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa con la terminación correcta", "text": "Wir brauchen eine praktisch___ Lösung. Das ist ein wichtig___ Buch.", "blanks": [{ "accept": ["e"] }, { "accept": ["es"] }], "bank": ["e", "es", "er"], "explain": "praktische Lösung (femenino, -e); wichtiges Buch (neutro, -es)." },
+    { "id": "e10", "type": "word_order", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Ordena: «Veo a un hombre grande»", "tokens": ["großen Mann", "Ich sehe", "einen"], "answer": ["Ich sehe", "einen", "großen Mann"], "audio": "Ich sehe einen großen Mann.", "explain": "einen großen Mann: acusativo masculino, -en." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Das fällt sofort auf.", "accept": ["Eso llama la atención enseguida."], "strictAccents": false, "audio": "Das fällt sofort auf.", "explain": "auffallen: verbo separable, llamar la atención." },
+    { "id": "e12", "type": "dialogue", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Nora", "text": "Was liest du gerade?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich lese ein interessantes Buch."], "hint": "responde con un adjetivo declinado, neutro acusativo" },
+      { "who": "Nora", "text": "Klingt gut!", "speak": true }
+    ], "explain": "Práctica de la declinación del adjetivo neutro tras ein." },
+    { "id": "e13", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 1, "speak": "Das ist ein guter Vorschlag.", "mode": "write", "accept": ["Das ist ein guter Vorschlag"], "showTextAfter": true, "explain": "ein guter Vorschlag: masculino, -er en nominativo." },
+    { "id": "e14", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Ich lese ein interessantes Buch.", "mode": "choose", "options": ["Ich lese ein interessantes Buch.", "Ich lese ein interessanter Buch.", "Ich lese ein interessante Buch."], "answer": 0, "showTextAfter": true, "explain": "Solo «ein interessantes Buch» combina correctamente el neutro acusativo con -es." },
+    { "id": "e15", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Ein großer Mann und eine kleine Frau haben ein interessantes Buch gelesen.", "es": "Un hombre grande y una mujer pequeña han leído un libro interesante.", "ipa": "/aɪ̯n ˈɡʁoːsɐ man ʊnt ˈaɪ̯nə ˈklaɪ̯nə fʁaʊ̯ ˈhaːbn̩ aɪ̯n ɪntəʁɛˈsantəs buːx ɡəˈleːzn̩/", "esApprox": "«ain GRÓ-ser man unt ÁI-ne KLÁI-ne frau JÁ-ben ain in-te-re-SÁN-tes buj ge-LÉ-zen»", "focus": "ein großer Mann (-er) y eine kleine Frau (-e) en nominativo, ein interessantes Buch (-es) en acusativo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Wir brauchen eine praktische Lösung, denn das ist eine wichtige Entscheidung.", "es": "Necesitamos una solución práctica, porque esa es una decisión importante.", "ipa": "/viːɐ̯ ˈbʁaʊ̯xn̩ ˈaɪ̯nə ˈpʁaktɪʃə ˈløːzʊŋ dɛn das ɪst ˈaɪ̯nə ˈvɪçtɪɡə ɛntˈʃaɪ̯dʊŋ/", "esApprox": "«vir BRÁU-jen ÁI-ne PRÁK-ti-she LÖ-zung, den das ist ÁI-ne VICH-ti-ge ent-SHÁI-dung»", "focus": "eine praktische Lösung y eine wichtige Entscheidung: dos femeninos con -e, en acusativo y nominativo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Te preguntan qué opinas de la propuesta. Di que es una buena propuesta.", "modelAnswer": "Das ist ein guter Vorschlag.", "alsoValid": ["Ich finde es einen guten Vorschlag."], "speak": "Das ist ein guter Vorschlag.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Clasifica cada frase según su terminación", "buckets": ["-er (masc. nom.)", "-es (neutro nom./akk.)", "-en (masc. akk.)"], "items": [
+      { "text": "ein guter Vorschlag", "bucket": 0 },
+      { "text": "ein interessantes Buch", "bucket": 1 },
+      { "text": "einen großen Mann", "bucket": 2 },
+      { "text": "ein wichtiges Buch", "bucket": 1 }
+    ], "explain": "Masculino nominativo -er; neutro -es (en ambos casos); masculino acusativo -en." },
+    { "id": "e19", "type": "error_correction", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das ist ein gute Vorschlag.", "accept": ["Das ist ein guter Vorschlag"], "audio": "Das ist ein guter Vorschlag.", "explain": "Tras «ein» (masculino nominativo), el adjetivo necesita -er, no -e." },
+    { "id": "e20", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "«Ein großer Mann hat einen guten Vorschlag gemacht: eine praktische Lösung für ein wichtiges Problem.» ¿Qué terminación lleva «praktische» y por qué?", "options": ["-e, porque Lösung es femenino nominativo/acusativo", "-er, porque es masculino", "-es, porque es neutro", "-en, porque es plural"], "answer": 0, "explain": "eine praktische Lösung: femenino, siempre -e en nominativo y acusativo tras ein/eine." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "interessant", "es": "interesante", "esApprox": "«in-te-re-SANT»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "wichtig", "es": "importante", "esApprox": "«VICH-tich»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Entscheidung", "es": "la decisión", "esApprox": "«ent-SHÁI-dung»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Vorschlag", "es": "la propuesta, la sugerencia", "esApprox": "«FOR-shlak»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "praktisch", "es": "práctico", "esApprox": "«PRÁK-tish»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "die Lösung", "es": "la solución", "esApprox": "«LÖ-zung»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ein großer Mann und eine kleine Frau haben ein interessantes Buch gelesen.", "es": "Un hombre grande y una mujer pequeña han leído un libro interesante.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wir brauchen eine praktische Lösung, denn das ist eine wichtige Entscheidung.", "es": "Necesitamos una solución práctica, porque esa es una decisión importante.", "from": "e16" }
+  ]
+}
