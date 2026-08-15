@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-130",
+  "lang": "de",
+  "level": "A2",
+  "order": 130,
+  "title": "Las preguntas indirectas con W-Fragen",
+  "objectives": [
+    "Convertir una W-Frage directa en una pregunta indirecta, con la palabra interrogativa como conjunción",
+    "Mandar el verbo al final, como con ob",
+    "Combinar preguntas indirectas con verbos como wissen, fragen y sich erinnern"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La palabra interrogativa funciona como conjunción",
+      "body": "Igual que con ob (clase 129), puedes convertir una W-Frage directa en indirecta. La palabra interrogativa (was, wann, wo, wer, warum...) se mantiene, pero pasa a funcionar como una conjunción subordinante: manda el verbo al final. «Wo wohnst du?» (¿Dónde vives?) se convierte en «Ich weiß nicht, wo du wohnst» (No sé dónde vives).",
+      "examples": [
+        { "target": "Wo wohnst du? → Ich weiß nicht, wo du wohnst.", "es": "¿Dónde vives? → No sé dónde vives." },
+        { "target": "Wann kommt der Bus? → Weißt du, wann der Bus kommt?", "es": "¿Cuándo llega el autobús? → ¿Sabes cuándo llega el autobús?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "W-Fragen: de directa a indirecta",
+      "headers": ["Directa", "Indirecta"],
+      "rows": [
+        ["Wo wohnst du?", "Ich weiß nicht, wo du wohnst."],
+        ["Wann kommt der Bus?", "Weißt du, wann der Bus kommt?"],
+        ["Wo ist die Toilette?", "Können Sie mir sagen, wo die Toilette ist?"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Las preguntas indirectas (con ob o con W-Fragen) son muy útiles para sonar más educado: en vez de preguntar directamente «Wo ist die Toilette?», puedes decir «Können Sie mir sagen, wo die Toilette ist?» (¿Puede decirme dónde está el baño?), mucho más cortés."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "können Sie mir sagen...?", "es": "¿puede decirme...?", "ipa": "/ˈkœnən ziː miːɐ̯ ˈzaːɡn̩/", "esApprox": "«KÖ-nen zi mir ZÁ-guen»", "pos": "expresión", "gender": null, "example": { "target": "Können Sie mir sagen, wo die Toilette ist?", "es": "¿Puede decirme dónde está el baño?" } },
+    { "id": "v2", "target": "sich erinnern", "es": "acordarse, recordar", "ipa": "/zɪç ɛɐ̯ˈʔɪnɐn/", "esApprox": "«zich er-Í-nern»", "pos": "verbo", "gender": null, "example": { "target": "Ich erinnere mich nicht, wo ich das gelassen habe.", "es": "No me acuerdo de dónde lo dejé." } },
+    { "id": "v3", "target": "die Toilette", "es": "el baño, el aseo", "ipa": "/toaˈlɛtə/", "esApprox": "«to-a-LÉ-te»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wo ist die Toilette?", "es": "¿Dónde está el baño?" } },
+    { "id": "v4", "target": "verraten", "es": "revelar, contar (un secreto)", "ipa": "/fɛɐ̯ˈʁaːtn̩/", "esApprox": "«fer-RÁ-ten»", "pos": "verbo", "gender": null, "example": { "target": "Verrate mir, wer das war!", "es": "¡Cuéntame quién fue eso!" } },
+    { "id": "v5", "target": "ahnen", "es": "sospechar, intuir", "ipa": "/ˈaːnən/", "esApprox": "«Á-nen»", "pos": "verbo", "gender": null, "example": { "target": "Ich ahne nicht, warum sie das gesagt hat.", "es": "No tengo ni idea de por qué dijo eso." } },
+    { "id": "v6", "target": "keine Ahnung", "es": "ni idea", "ipa": "/ˈkaɪ̯nə ˈaːnʊŋ/", "esApprox": "«KÁI-ne Á-nung»", "pos": "expresión", "gender": null, "example": { "target": "Keine Ahnung, wo er ist.", "es": "Ni idea de dónde está." } },
+    { "id": "v7", "target": "der Grund", "es": "el motivo, la razón", "ipa": "/ɡʁʊnt/", "esApprox": "«grunt»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich kenne den Grund nicht.", "es": "No conozco el motivo." } },
+    { "id": "v8", "target": "sich Sorgen machen", "es": "preocuparse", "ipa": "/zɪç ˈzɔʁɡn̩ ˈmaxn̩/", "esApprox": "«zich ZOR-guen MÁ-jen»", "pos": "verbo", "gender": null, "example": { "target": "Ich mache mir Sorgen, wann sie ankommt.", "es": "Me preocupo por cuándo llega ella." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["preguntas-indirectas"], "difficulty": 1, "prompt": "¿Cómo se convierte «Wo wohnst du?» en indirecta?", "options": ["Ich weiß nicht, wo wohnst du.", "Ich weiß nicht, wo du wohnst.", "Ich weiß nicht, du wo wohnst.", "Ich weiß nicht, wohnst du wo."], "answer": 1, "explain": "wo + du + wohnst (verbo al final)." },
+    { "id": "e2", "type": "mcq", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "¿Qué palabra funciona como conjunción en una W-Frage indirecta?", "options": ["Solo ob", "La palabra interrogativa (wo, wann...)", "dass siempre", "Ninguna, se queda igual"], "answer": 1, "explain": "La palabra interrogativa se convierte en conjunción subordinante." },
+    { "id": "e3", "type": "true_false", "tags": ["preguntas-indirectas"], "difficulty": 2, "statement": "Las preguntas indirectas suenan más educadas que las directas.", "answer": true, "explain": "Können Sie mir sagen, wo...? es más cortés que preguntar directamente." },
+    { "id": "e4", "type": "true_false", "tags": ["preguntas-indirectas"], "difficulty": 2, "statement": "En una W-Frage indirecta, el verbo se queda en posición 2, igual que en la pregunta directa.", "answer": false, "explain": "El verbo pasa al final, como con ob y cualquier subordinada." },
+    { "id": "e5", "type": "match_pairs", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["sich erinnern", "verraten", "keine Ahnung", "sich Sorgen machen"], "right": ["acordarse", "revelar, contar", "ni idea", "preocuparse"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave para preguntas indirectas y sus respuestas." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "No sé dónde vives.", "accept": ["Ich weiß nicht, wo du wohnst"], "hintWords": ["ich weiß nicht, wo du wohnst"], "strictAccents": false, "audio": "Ich weiß nicht, wo du wohnst.", "explain": "wo + du + wohnst (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "¿Puede decirme dónde está el baño?", "accept": ["Können Sie mir sagen, wo die Toilette ist?", "Können Sie mir sagen, wo die Toilette ist"], "hintWords": ["können Sie mir sagen, wo die Toilette ist"], "strictAccents": false, "audio": "Können Sie mir sagen, wo die Toilette ist?", "explain": "wo + die Toilette + ist (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Ni idea de dónde está.", "accept": ["Keine Ahnung, wo er ist"], "hintWords": ["keine Ahnung, wo er ist"], "strictAccents": false, "audio": "Keine Ahnung, wo er ist.", "explain": "wo + er + ist (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["preguntas-indirectas"], "difficulty": 3, "prompt": "Completa con la palabra interrogativa correcta", "text": "Weißt du, ___ der Bus kommt? Ich weiß nicht, ___ sie wohnt.", "blanks": [{ "accept": ["wann"] }, { "accept": ["wo"] }], "bank": ["wann", "wo", "wer"], "explain": "wann (cuándo llega); wo (dónde vive)." },
+    { "id": "e10", "type": "word_order", "tags": ["preguntas-indirectas"], "difficulty": 3, "prompt": "Ordena: «No me acuerdo de dónde lo dejé»", "tokens": ["das gelassen habe", "wo ich", "Ich erinnere mich nicht,"], "answer": ["Ich erinnere mich nicht,", "wo ich", "das gelassen habe"], "audio": "Ich erinnere mich nicht, wo ich das gelassen habe.", "explain": "wo + ich + das + gelassen habe (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Ich mache mir Sorgen, wann sie ankommt.", "accept": ["Me preocupo por cuándo llega ella."], "strictAccents": false, "audio": "Ich mache mir Sorgen, wann sie ankommt.", "explain": "wann + sie + ankommt (final)." },
+    { "id": "e12", "type": "dialogue", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Ben", "text": "Weißt du, wann der Bus kommt?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Keine Ahnung, wann er kommt.", "Ich weiß nicht, wann der Bus kommt."], "hint": "responde con una W-Frage indirecta" },
+      { "who": "Ben", "text": "Okay, warten wir einfach.", "speak": true }
+    ], "explain": "Práctica de una W-Frage indirecta en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["preguntas-indirectas"], "difficulty": 1, "speak": "Ich weiß nicht, wo du wohnst.", "mode": "write", "accept": ["Ich weiß nicht, wo du wohnst"], "showTextAfter": true, "explain": "wo manda wohnst al final." },
+    { "id": "e14", "type": "listening", "tags": ["preguntas-indirectas"], "difficulty": 2, "speak": "Können Sie mir sagen, wo die Toilette ist?", "mode": "choose", "options": ["Können Sie mir sagen, wo die Toilette ist?", "Können Sie mir sagen, wo ist die Toilette?", "Können Sie mir sagen, die Toilette wo ist?"], "answer": 0, "showTextAfter": true, "explain": "Solo la primera respeta el orden correcto: wo + sujeto + verbo al final." },
+    { "id": "e15", "type": "shadowing", "tags": ["preguntas-indirectas"], "difficulty": 2, "speak": "Ich weiß nicht, wo du wohnst, und ich erinnere mich nicht, wann wir uns kennengelernt haben.", "es": "No sé dónde vives, y no me acuerdo de cuándo nos conocimos.", "ipa": "/ɪç vaɪ̯s nɪçt voː duː ˈvoːnst ʊnt ɪç ɛɐ̯ˈʔɪnɐə mɪç nɪçt van viːɐ̯ ʊns ˈkɛnənɡəlɛʁnt ˈhaːbən/", "esApprox": "«ich vais nicht vo du vonst, unt ich er-Í-ne-re mich nicht, van vir uns KÉ-nen-ge-lernt JÁ-ben»", "focus": "wo y wann: dos W-Fragen indirectas seguidas, cada una con su propio verbo al final.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["preguntas-indirectas"], "difficulty": 2, "speak": "Ich mache mir Sorgen, wann sie ankommt, und ich habe keine Ahnung, warum sie so spät ist.", "es": "Me preocupo por cuándo llega ella, y no tengo ni idea de por qué llega tan tarde.", "ipa": "/ɪç ˈmaxə miːɐ̯ ˈzɔʁɡn̩ van ziː ˈankɔmt ʊnt ɪç ˈhaːbə ˈkaɪ̯nə ˈaːnʊŋ vaʁˈʊm ziː zoː ʃpɛːt ɪst/", "esApprox": "«ich MÁ-je mir ZOR-guen, van zi ÁN-komt, unt ich JÁ-be KÁI-ne Á-nung, va-RUM zi zo shpét ist»", "focus": "wann y warum: dos W-Fragen indirectas más, con ankommt e ist al final.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Te preguntan si sabes dónde está el baño. Pregunta con cortesía usando können Sie mir sagen.", "modelAnswer": "Können Sie mir sagen, wo die Toilette ist?", "alsoValid": ["Wissen Sie, wo die Toilette ist?"], "speak": "Können Sie mir sagen, wo die Toilette ist?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Clasifica cada frase: pregunta directa o indirecta", "buckets": ["Directa", "Indirecta"], "items": [
+      { "text": "Wo wohnst du?", "bucket": 0 },
+      { "text": "Ich weiß nicht, wo du wohnst.", "bucket": 1 },
+      { "text": "Wann kommt der Bus?", "bucket": 0 },
+      { "text": "Weißt du, wann der Bus kommt?", "bucket": 1 }
+    ], "explain": "La directa tiene el verbo en posición 2; la indirecta lo manda al final." },
+    { "id": "e19", "type": "error_correction", "tags": ["preguntas-indirectas"], "difficulty": 3, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich weiß nicht, wo wohnst du.", "accept": ["Ich weiß nicht, wo du wohnst"], "audio": "Ich weiß nicht, wo du wohnst.", "explain": "En la pregunta indirecta, el verbo (wohnst) va al final, no en posición 2." },
+    { "id": "e20", "type": "mcq", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "«Ich weiß nicht, wo du wohnst, und ich erinnere mich nicht, wann wir uns kennengelernt haben. Ich mache mir Sorgen, wann sie ankommt.» ¿Por qué se preocupa la persona?", "options": ["Por dónde vive alguien", "Por cuándo llega ella", "Por cuándo se conocieron", "No se preocupa por nada"], "answer": 1, "explain": "«Ich mache mir Sorgen, wann sie ankommt» = me preocupo por cuándo llega ella." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "können Sie mir sagen...?", "es": "¿puede decirme...?", "esApprox": "«KÖ-nen zi mir ZÁ-guen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "sich erinnern", "es": "acordarse, recordar", "esApprox": "«zich er-Í-nern»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Toilette", "es": "el baño, el aseo", "esApprox": "«to-a-LÉ-te»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "keine Ahnung", "es": "ni idea", "esApprox": "«KÁI-ne Á-nung»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "der Grund", "es": "el motivo, la razón", "esApprox": "«grunt»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "sich Sorgen machen", "es": "preocuparse", "esApprox": "«zich ZOR-guen MÁ-jen»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich weiß nicht, wo du wohnst, und ich erinnere mich nicht, wann wir uns kennengelernt haben.", "es": "No sé dónde vives, y no me acuerdo de cuándo nos conocimos.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich mache mir Sorgen, wann sie ankommt, und ich habe keine Ahnung, warum sie so spät ist.", "es": "Me preocupo por cuándo llega ella, y no tengo ni idea de por qué llega tan tarde.", "from": "e16" }
+  ]
+}

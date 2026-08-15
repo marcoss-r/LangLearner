@@ -1,0 +1,86 @@
+{
+  "id": "de-a2-129",
+  "lang": "de",
+  "level": "A2",
+  "order": 129,
+  "title": "Ob: preguntas indirectas de sí o no",
+  "objectives": [
+    "Convertir una pregunta de sí/no directa en una pregunta indirecta con ob",
+    "Mandar el verbo al final, como en cualquier subordinada",
+    "Usar preguntas indirectas para sonar más educado o para reportar lo que alguien pregunta"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "De pregunta directa a pregunta indirecta con ob",
+      "body": "Cuando quieres preguntar algo de forma más indirecta o educada, o contar lo que alguien preguntó, convierte una pregunta de sí/no en una frase con ob (si). La pregunta directa «Kommst du morgen?» (¿Vienes mañana?) se convierte en «Ich frage mich, ob du morgen kommst» (Me pregunto si vienes mañana). El verbo conjugado va al final, como en cualquier subordinada.",
+      "examples": [
+        { "target": "Kommst du morgen? → Ich frage mich, ob du morgen kommst.", "es": "¿Vienes mañana? → Me pregunto si vienes mañana." },
+        { "target": "Weißt du, ob er da ist?", "es": "¿Sabes si él está ahí?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "De pregunta directa a indirecta",
+      "headers": ["Directa", "Indirecta"],
+      "rows": [
+        ["Kommst du morgen?", "Ich frage mich, ob du morgen kommst."],
+        ["Ist er da?", "Weißt du, ob er da ist?"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "ob (si, en preguntas indirectas) no debe confundirse con wenn (si, en condicionales: «wenn du kommst» = si vienes). ob solo aparece en preguntas indirectas de sí/no; wenn aparece en condiciones."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "ob", "es": "si (en preguntas indirectas)", "ipa": "/ɔp/", "esApprox": "«op»", "pos": "conjunción", "gender": null, "example": { "target": "Ich weiß nicht, ob er kommt.", "es": "No sé si él viene." } },
+    { "id": "v2", "target": "sich fragen", "es": "preguntarse", "ipa": "/zɪç ˈfʁaːɡn̩/", "esApprox": "«zich FRÁ-guen»", "pos": "verbo", "gender": null, "example": { "target": "Ich frage mich, ob das stimmt.", "es": "Me pregunto si eso es verdad." } },
+    { "id": "v3", "target": "stimmen", "es": "ser correcto, ser verdad", "ipa": "/ˈʃtɪmən/", "esApprox": "«SHTÍ-men»", "pos": "verbo", "gender": null, "example": { "target": "Das stimmt.", "es": "Eso es verdad." } },
+    { "id": "v4", "target": "weißt du, ob...?", "es": "¿sabes si...?", "ipa": "/vaɪ̯st duː ɔp/", "esApprox": "«vaist du op»", "pos": "expresión", "gender": null, "example": { "target": "Weißt du, ob er da ist?", "es": "¿Sabes si él está ahí?" } },
+    { "id": "v5", "target": "die Unsicherheit", "es": "la incertidumbre", "ipa": "/ˈʊnzɪçɐhaɪ̯t/", "esApprox": "«ÚN-zi-cher-hait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das zeigt Unsicherheit.", "es": "Eso muestra incertidumbre." } },
+    { "id": "v6", "target": "höflich", "es": "educado, cortés", "ipa": "/ˈhøːflɪç/", "esApprox": "«JÖF-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das klingt höflicher.", "es": "Eso suena más educado." } },
+    { "id": "v7", "target": "prüfen", "es": "comprobar, verificar", "ipa": "/ˈpʁyːfn̩/", "esApprox": "«PRÜ-fen»", "pos": "verbo", "gender": null, "example": { "target": "Ich prüfe, ob alles stimmt.", "es": "Compruebo si todo es correcto." } },
+    { "id": "v8", "target": "unklar", "es": "poco claro, dudoso", "ipa": "/ˈʊnklaːɐ̯/", "esApprox": "«UN-klar»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist noch unklar.", "es": "Eso todavía no está claro." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["preguntas-indirectas"], "difficulty": 1, "prompt": "¿Qué conjunción se usa para convertir una pregunta de sí/no en indirecta?", "options": ["dass", "wenn", "ob", "weil"], "answer": 2, "explain": "ob: convierte preguntas de sí/no en indirectas." },
+    { "id": "e2", "type": "mcq", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "¿Dónde va el verbo en una pregunta indirecta con ob?", "options": ["Posición 1", "Posición 2", "Al final", "No cambia"], "answer": 2, "explain": "ob manda el verbo al final, como cualquier subordinada." },
+    { "id": "e3", "type": "true_false", "tags": ["preguntas-indirectas"], "difficulty": 2, "statement": "ob y wenn significan exactamente lo mismo y se pueden intercambiar.", "answer": false, "explain": "ob se usa en preguntas indirectas; wenn en condicionales. No son intercambiables." },
+    { "id": "e4", "type": "true_false", "tags": ["preguntas-indirectas"], "difficulty": 2, "statement": "«Kommst du morgen?» se convierte en «Ich frage mich, ob du morgen kommst.»", "answer": true, "explain": "Pregunta directa → indirecta con ob, verbo al final." },
+    { "id": "e5", "type": "match_pairs", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["ob", "sich fragen", "stimmen", "prüfen"], "right": ["si (indirecta)", "preguntarse", "ser correcto", "comprobar"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave para preguntas indirectas." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Me pregunto si vienes mañana.", "accept": ["Ich frage mich, ob du morgen kommst"], "hintWords": ["ich frage mich, ob du morgen kommst"], "strictAccents": false, "audio": "Ich frage mich, ob du morgen kommst.", "explain": "ob + kommst (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "¿Sabes si él está ahí?", "accept": ["Weißt du, ob er da ist?", "Weißt du, ob er da ist"], "hintWords": ["weißt du, ob er da ist"], "strictAccents": false, "audio": "Weißt du, ob er da ist?", "explain": "ob + ist (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "No sé si él viene.", "accept": ["Ich weiß nicht, ob er kommt"], "hintWords": ["ich weiß nicht, ob er kommt"], "strictAccents": false, "audio": "Ich weiß nicht, ob er kommt.", "explain": "ob + kommt (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Completa con la forma correcta", "text": "Ich frage mich, ob das ___. (stimmen) Ich prüfe, ob alles ___. (stimmen)", "blanks": [{ "accept": ["stimmt"] }, { "accept": ["stimmt"] }], "bank": ["stimmt", "stimmen", "stimme"], "explain": "stimmt va al final: er/es (das/alles) + stimmt." },
+    { "id": "e10", "type": "word_order", "tags": ["preguntas-indirectas"], "difficulty": 3, "prompt": "Ordena: «Compruebo si todo es correcto»", "tokens": ["alles stimmt", "Ich prüfe,", "ob"], "answer": ["Ich prüfe,", "ob", "alles stimmt"], "audio": "Ich prüfe, ob alles stimmt.", "explain": "ob + alles + stimmt (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Das ist noch unklar.", "accept": ["Eso todavía no está claro."], "strictAccents": false, "audio": "Das ist noch unklar.", "explain": "unklar = poco claro, dudoso." },
+    { "id": "e12", "type": "dialogue", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Tom", "text": "Weißt du, ob Anna morgen kommt?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich weiß nicht, ob sie kommt.", "Ich frage mich das auch."], "hint": "responde con ob" },
+      { "who": "Tom", "text": "Okay, ich frage sie.", "speak": true }
+    ], "explain": "Práctica de ob en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["preguntas-indirectas"], "difficulty": 1, "speak": "Ich frage mich, ob du morgen kommst.", "mode": "write", "accept": ["Ich frage mich, ob du morgen kommst"], "showTextAfter": true, "explain": "ob manda kommst al final." },
+    { "id": "e14", "type": "listening", "tags": ["preguntas-indirectas"], "difficulty": 2, "speak": "Weißt du, ob er da ist?", "mode": "choose", "options": ["Weißt du, ob er da ist?", "Weißt du, wenn er da ist?", "Weißt du, dass er da ist?"], "answer": 0, "showTextAfter": true, "explain": "ob es la única conjunción correcta para preguntas indirectas de sí/no." },
+    { "id": "e15", "type": "shadowing", "tags": ["preguntas-indirectas"], "difficulty": 2, "speak": "Ich frage mich, ob du morgen kommst, denn ich weiß es noch nicht.", "es": "Me pregunto si vienes mañana, porque todavía no lo sé.", "ipa": "/ɪç ˈfʁaːɡə mɪç ɔp duː ˈmɔʁɡn̩ kɔmst dɛn ɪç vaɪ̯s ɛs nɔx nɪçt/", "esApprox": "«ich FRÁ-ge mich, op du MOR-guen komst, den ich vais es noch nicht»", "focus": "ob manda kommst al final; denn no mueve el verbo (weiß en posición normal).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["preguntas-indirectas"], "difficulty": 2, "speak": "Ich prüfe, ob alles stimmt, weil ich Unsicherheit vermeiden will.", "es": "Compruebo si todo es correcto, porque quiero evitar la incertidumbre.", "ipa": "/ɪç ˈpʁyːfə ɔp ˈalɛs ˈʃtɪmt vaɪ̯l ɪç ˈʊnzɪçɐhaɪ̯t fɛɐ̯ˈmaɪ̯dn̩ vɪl/", "esApprox": "«ich PRÜ-fe, op Á-les shtimt, vail ich ÚN-zi-cher-hait fer-MÁI-den vil»", "focus": "ob y weil, ambas subordinantes, cada una con su propio verbo al final.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Te preguntan si sabes si Anna viene mañana. Di que no sabes si ella viene.", "modelAnswer": "Ich weiß nicht, ob sie kommt.", "alsoValid": ["Ich weiß nicht, ob Anna morgen kommt."], "speak": "Ich weiß nicht, ob sie kommt.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Clasifica cada frase: ob (pregunta indirecta) o wenn (condicional)", "buckets": ["ob (pregunta indirecta)", "wenn (condicional)"], "items": [
+      { "text": "Ich weiß nicht, ob er kommt.", "bucket": 0 },
+      { "text": "Wenn er kommt, freue ich mich.", "bucket": 1 },
+      { "text": "Weißt du, ob sie da ist?", "bucket": 0 }
+    ], "explain": "ob pregunta si algo es cierto; wenn expresa una condición." },
+    { "id": "e19", "type": "error_correction", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich weiß nicht, wenn er kommt.", "accept": ["Ich weiß nicht, ob er kommt"], "audio": "Ich weiß nicht, ob er kommt.", "explain": "Para preguntas indirectas de sí/no se usa ob, no wenn." },
+    { "id": "e20", "type": "mcq", "tags": ["preguntas-indirectas"], "difficulty": 2, "prompt": "«Ich frage mich, ob du morgen kommst. Ich weiß es noch nicht, aber ich prüfe, ob alles stimmt.» ¿Qué comprueba la persona?", "options": ["Si Anna viene", "Si todo es correcto", "El clima", "El horario del tren"], "answer": 1, "explain": "«ich prüfe, ob alles stimmt» = compruebo si todo es correcto." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "ob", "es": "si (en preguntas indirectas)", "esApprox": "«op»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "sich fragen", "es": "preguntarse", "esApprox": "«zich FRÁ-guen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "stimmen", "es": "ser correcto, ser verdad", "esApprox": "«SHTÍ-men»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Unsicherheit", "es": "la incertidumbre", "esApprox": "«ÚN-zi-cher-hait»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "prüfen", "es": "comprobar, verificar", "esApprox": "«PRÜ-fen»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "unklar", "es": "poco claro, dudoso", "esApprox": "«UN-klar»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich frage mich, ob du morgen kommst, denn ich weiß es noch nicht.", "es": "Me pregunto si vienes mañana, porque todavía no lo sé.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich prüfe, ob alles stimmt, weil ich Unsicherheit vermeiden will.", "es": "Compruebo si todo es correcto, porque quiero evitar la incertidumbre.", "from": "e16" }
+  ]
+}

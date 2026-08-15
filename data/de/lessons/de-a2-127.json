@@ -1,0 +1,85 @@
+{
+  "id": "de-a2-127",
+  "lang": "de",
+  "level": "A2",
+  "order": 127,
+  "title": "Damit y um...zu: las dos formas de expresar finalidad",
+  "objectives": [
+    "Usar um...zu + infinitivo cuando el sujeto de las dos partes de la frase es el mismo",
+    "Usar damit + verbo al final cuando los sujetos son distintos",
+    "Distinguir esta damit (finalidad, «para que») del compuesto damit visto en la clase 118 (con eso)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "um...zu: mismo sujeto",
+      "body": "Cuando el sujeto de la razón y el de la acción principal es EL MISMO, usa um...zu + infinitivo (sin conjugar, al final): «Ich lerne Deutsch, um in Berlin zu arbeiten» (Aprendo alemán para trabajar en Berlín — yo aprendo, yo trabajo).",
+      "examples": [
+        { "target": "Ich lerne Deutsch, um in Berlin zu arbeiten.", "es": "Aprendo alemán para trabajar en Berlín." }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "damit: sujetos distintos",
+      "body": "Cuando los dos sujetos son DIFERENTES, no puedes usar um...zu: necesitas damit + una frase completa con el verbo conjugado al final, como cualquier subordinada: «Ich spreche langsam, damit du mich verstehst» (Hablo despacio para que tú me entiendas — yo hablo, tú entiendes).",
+      "examples": [
+        { "target": "Ich spreche langsam, damit du mich verstehst.", "es": "Hablo despacio para que tú me entiendas." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Prueba rápida: si el sujeto es el mismo en las dos partes, usa um...zu (más corto, con infinitivo). Si son sujetos distintos, usa damit (frase completa, con verbo conjugado al final). No confundas esta damit (finalidad) con el compuesto da- + mit de la clase 118 («con eso»): se escriben igual pero tienen funciones distintas."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "um... zu", "es": "para (+ infinitivo)", "ipa": "/ʊm tsuː/", "esApprox": "«um tsu»", "pos": "expresión", "gender": null, "example": { "target": "Ich lerne Deutsch, um in Berlin zu arbeiten.", "es": "Aprendo alemán para trabajar en Berlín." } },
+    { "id": "v2", "target": "damit (finalidad)", "es": "para que", "ipa": "/daˈmɪt/", "esApprox": "«da-MIT»", "pos": "conjunción", "gender": null, "example": { "target": "Ich spreche langsam, damit du mich verstehst.", "es": "Hablo despacio para que tú me entiendas." } },
+    { "id": "v3", "target": "der Zweck", "es": "el propósito, la finalidad", "ipa": "/tsvɛk/", "esApprox": "«tsvek»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist der Zweck.", "es": "Ese es el propósito." } },
+    { "id": "v4", "target": "das Ziel", "es": "el objetivo, la meta", "ipa": "/tsiːl/", "esApprox": "«tsil»", "pos": "sustantivo", "gender": "n", "example": { "target": "Mein Ziel ist klar.", "es": "Mi objetivo está claro." } },
+    { "id": "v5", "target": "erreichen", "es": "alcanzar, lograr", "ipa": "/ɛɐ̯ˈʁaɪ̯çn̩/", "esApprox": "«er-RÁI-chen»", "pos": "verbo", "gender": null, "example": { "target": "Ich arbeite hart, um mein Ziel zu erreichen.", "es": "Trabajo duro para alcanzar mi objetivo." } },
+    { "id": "v6", "target": "einzeln", "es": "individualmente, por separado", "ipa": "/ˈaɪ̯ntsl̩n/", "esApprox": "«ÁIN-tseln»", "pos": "adjetivo", "gender": null, "example": { "target": "Wir üben einzeln.", "es": "Practicamos por separado." } },
+    { "id": "v7", "target": "unterstützen", "es": "apoyar", "ipa": "/ˌʊntɐˈʃtʏtsn̩/", "esApprox": "«un-ter-SHTÜ-tsen»", "pos": "verbo", "gender": null, "example": { "target": "Ich helfe dir, damit du erfolgreich bist.", "es": "Te ayudo para que tengas éxito." } },
+    { "id": "v8", "target": "verstehen", "es": "entender", "ipa": "/fɛɐ̯ˈʃteːən/", "esApprox": "«fer-SHTÉ-en»", "pos": "verbo", "gender": null, "example": { "target": "Damit du mich verstehst.", "es": "Para que tú me entiendas." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["finalidad"], "difficulty": 1, "prompt": "¿Cuándo se usa «um...zu»?", "options": ["Cuando los sujetos son distintos", "Cuando el sujeto es el mismo", "Solo en preguntas", "Nunca con infinitivo"], "answer": 1, "explain": "um...zu se usa cuando el sujeto es el mismo en ambas partes." },
+    { "id": "e2", "type": "mcq", "tags": ["finalidad"], "difficulty": 2, "prompt": "¿Cuándo se usa «damit» (finalidad)?", "options": ["Cuando el sujeto es el mismo", "Cuando los sujetos son distintos", "Solo con verbos modales", "Nunca en subordinadas"], "answer": 1, "explain": "damit se usa cuando los sujetos de las dos partes son diferentes." },
+    { "id": "e3", "type": "true_false", "tags": ["finalidad"], "difficulty": 2, "statement": "um...zu usa el infinitivo, sin conjugar, al final de la frase.", "answer": true, "explain": "um in Berlin zu arbeiten: infinitivo (arbeiten) al final, precedido de zu." },
+    { "id": "e4", "type": "true_false", "tags": ["finalidad"], "difficulty": 2, "statement": "damit siempre significa «con eso», como en la clase 118.", "answer": false, "explain": "damit tiene dos usos distintos: «con eso» (compuesto da-) y «para que» (conjunción de finalidad)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["finalidad"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Zweck", "das Ziel", "erreichen", "unterstützen"], "right": ["el propósito", "el objetivo", "alcanzar, lograr", "apoyar"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave para hablar de finalidad." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["finalidad"], "difficulty": 2, "prompt": "Aprendo alemán para trabajar en Berlín.", "accept": ["Ich lerne Deutsch, um in Berlin zu arbeiten"], "hintWords": ["ich lerne Deutsch, um in Berlin zu arbeiten"], "strictAccents": false, "audio": "Ich lerne Deutsch, um in Berlin zu arbeiten.", "explain": "um...zu + infinitivo, mismo sujeto (ich)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["finalidad"], "difficulty": 2, "prompt": "Hablo despacio para que tú me entiendas.", "accept": ["Ich spreche langsam, damit du mich verstehst"], "hintWords": ["ich spreche langsam, damit du mich verstehst"], "strictAccents": false, "audio": "Ich spreche langsam, damit du mich verstehst.", "explain": "damit + verstehst (final), sujetos distintos (ich/du)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["finalidad"], "difficulty": 2, "prompt": "Trabajo duro para alcanzar mi objetivo.", "accept": ["Ich arbeite hart, um mein Ziel zu erreichen"], "hintWords": ["ich arbeite hart, um mein Ziel zu erreichen"], "strictAccents": false, "audio": "Ich arbeite hart, um mein Ziel zu erreichen.", "explain": "um mein Ziel zu erreichen: mismo sujeto (ich)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["finalidad"], "difficulty": 3, "prompt": "Completa con um...zu o damit", "text": "Ich lerne Deutsch, ___ in Berlin ___ arbeiten.", "blanks": [{ "accept": ["um"] }, { "accept": ["zu"] }], "bank": ["um", "zu", "damit"], "explain": "um...zu: mismo sujeto (ich lerne, ich arbeite)." },
+    { "id": "e10", "type": "word_order", "tags": ["finalidad"], "difficulty": 3, "prompt": "Ordena: «Te ayudo para que tengas éxito»", "tokens": ["dir,", "erfolgreich bist", "Ich helfe", "damit du"], "answer": ["Ich helfe", "dir,", "damit du", "erfolgreich bist"], "audio": "Ich helfe dir, damit du erfolgreich bist.", "explain": "damit + du + erfolgreich + bist (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["finalidad"], "difficulty": 2, "prompt": "Wir üben einzeln.", "accept": ["Practicamos por separado."], "strictAccents": false, "audio": "Wir üben einzeln.", "explain": "einzeln = individualmente, por separado." },
+    { "id": "e12", "type": "dialogue", "tags": ["finalidad"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lena", "text": "Warum lernst du Deutsch?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich lerne Deutsch, um in Berlin zu arbeiten."], "hint": "responde con um...zu" },
+      { "who": "Lena", "text": "Tolles Ziel!", "speak": true }
+    ], "explain": "Práctica de um...zu para explicar una finalidad." },
+    { "id": "e13", "type": "listening", "tags": ["finalidad"], "difficulty": 1, "speak": "Ich lerne Deutsch, um in Berlin zu arbeiten.", "mode": "write", "accept": ["Ich lerne Deutsch, um in Berlin zu arbeiten"], "showTextAfter": true, "explain": "um...zu + infinitivo, mismo sujeto." },
+    { "id": "e14", "type": "listening", "tags": ["finalidad"], "difficulty": 2, "speak": "Ich spreche langsam, damit du mich verstehst.", "mode": "choose", "options": ["Ich spreche langsam, damit du mich verstehst.", "Ich spreche langsam, um du mich zu verstehen.", "Ich spreche langsam, damit du mich zu verstehen."], "answer": 0, "showTextAfter": true, "explain": "Con sujetos distintos, solo damit + verbo conjugado es correcto; um...zu no funciona aquí." },
+    { "id": "e15", "type": "shadowing", "tags": ["finalidad"], "difficulty": 2, "speak": "Ich lerne Deutsch, um in Berlin zu arbeiten, und ich spreche langsam, damit meine Kollegen mich verstehen.", "es": "Aprendo alemán para trabajar en Berlín, y hablo despacio para que mis compañeros me entiendan.", "ipa": "/ɪç ˈlɛʁnə dɔɪ̯tʃ ʊm ɪn bɛʁˈliːn tsuː ˈaʁbaɪ̯tn̩ ʊnt ɪç ˈʃpʁɛçə ˈlaŋzaːm daˈmɪt ˈmaɪ̯nə kɔˈleːɡn̩ mɪç fɛɐ̯ˈʃteːən/", "esApprox": "«ich LÉR-ne doich, um in ber-LÍN tsu AR-bai-ten, unt ich SHPRÉ-je LANG-zam, da-MIT MÁI-ne ko-LÉ-guen mich fer-SHTÉ-en»", "focus": "um...zu (mismo sujeto: ich) frente a damit (sujetos distintos: ich/meine Kollegen).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["finalidad"], "difficulty": 2, "speak": "Ich arbeite hart, um mein Ziel zu erreichen, denn ich möchte meine Familie unterstützen.", "es": "Trabajo duro para alcanzar mi objetivo, porque quiero apoyar a mi familia.", "ipa": "/ɪç ˈaʁbaɪ̯tə haʁt ʊm maɪ̯n tsiːl tsuː ɛɐ̯ˈʁaɪ̯çn̩ dɛn ɪç ˈmœçtə ˈmaɪ̯nə familiə ˌʊntɐˈʃtʏtsn̩/", "esApprox": "«ich AR-bai-te jart, um main tsil tsu er-RÁI-chen, den ich MÖCH-te MÁI-ne fa-MÍ-lie un-ter-SHTÜ-tsen»", "focus": "um mein Ziel zu erreichen: finalidad con mismo sujeto, seguida de denn (causal, sin mover el verbo).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["finalidad"], "difficulty": 2, "prompt": "Te preguntan por qué aprendes alemán. Di que es para trabajar en Berlín.", "modelAnswer": "Ich lerne Deutsch, um in Berlin zu arbeiten.", "alsoValid": ["Um in Berlin zu arbeiten."], "speak": "Ich lerne Deutsch, um in Berlin zu arbeiten.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["finalidad"], "difficulty": 2, "prompt": "Clasifica cada frase: um...zu (mismo sujeto) o damit (sujetos distintos)", "buckets": ["um...zu", "damit"], "items": [
+      { "text": "Ich lerne Deutsch, um in Berlin zu arbeiten.", "bucket": 0 },
+      { "text": "Ich spreche langsam, damit du mich verstehst.", "bucket": 1 },
+      { "text": "Ich arbeite hart, um mein Ziel zu erreichen.", "bucket": 0 },
+      { "text": "Ich helfe dir, damit du erfolgreich bist.", "bucket": 1 }
+    ], "explain": "Mismo sujeto: um...zu; sujetos distintos: damit." },
+    { "id": "e19", "type": "error_correction", "tags": ["finalidad"], "difficulty": 3, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich spreche langsam, um du mich zu verstehen.", "accept": ["Ich spreche langsam, damit du mich verstehst"], "audio": "Ich spreche langsam, damit du mich verstehst.", "explain": "Con sujetos distintos (ich/du), no se puede usar um...zu; hay que usar damit." },
+    { "id": "e20", "type": "mcq", "tags": ["finalidad"], "difficulty": 2, "prompt": "«Ich lerne Deutsch, um in Berlin zu arbeiten. Ich spreche langsam, damit meine Kollegen mich verstehen. Mein Ziel ist klar.» ¿Por qué habla despacio la persona?", "options": ["Porque es tímida", "Para que sus compañeros la entiendan", "Porque no sabe alemán bien", "Porque está cansada"], "answer": 1, "explain": "«damit meine Kollegen mich verstehen» = para que mis compañeros me entiendan." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "um... zu", "es": "para (+ infinitivo)", "esApprox": "«um tsu»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "damit (finalidad)", "es": "para que", "esApprox": "«da-MIT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Zweck", "es": "el propósito, la finalidad", "esApprox": "«tsvek»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Ziel", "es": "el objetivo, la meta", "esApprox": "«tsil»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "erreichen", "es": "alcanzar, lograr", "esApprox": "«er-RÁI-chen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "unterstützen", "es": "apoyar", "esApprox": "«un-ter-SHTÜ-tsen»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich lerne Deutsch, um in Berlin zu arbeiten, und ich spreche langsam, damit meine Kollegen mich verstehen.", "es": "Aprendo alemán para trabajar en Berlín, y hablo despacio para que mis compañeros me entiendan.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich arbeite hart, um mein Ziel zu erreichen, denn ich möchte meine Familie unterstützen.", "es": "Trabajo duro para alcanzar mi objetivo, porque quiero apoyar a mi familia.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "de-a2-133",
+  "lang": "de",
+  "level": "A2",
+  "order": 133,
+  "title": "Frases con dos verbos al final: cuando modal y subordinada se juntan",
+  "objectives": [
+    "Colocar correctamente el infinitivo y el verbo modal conjugado al final de una subordinada",
+    "Colocar correctamente el participio y haben/sein conjugados al final de una subordinada en Perfekt",
+    "Recordar que el verbo CONJUGADO siempre cierra la frase, siendo el último de los dos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Modal + infinitivo en una subordinada",
+      "body": "Ya sabes que los modales mandan el infinitivo al final en una frase principal (clase 51: «Ich muss das machen»). En una subordinada, el modal conjugado se junta con ese infinitivo, y el orden es: infinitivo + modal conjugado (el modal, que es el verbo conjugado, cierra la frase): «..., weil ich das machen muss» (porque tengo que hacer eso).",
+      "examples": [
+        { "target": "Ich bin müde, weil ich das machen muss.", "es": "Estoy cansado, porque tengo que hacer eso." },
+        { "target": "Ich weiß, dass du das nicht kannst.", "es": "Sé que no puedes hacer eso." }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "Perfekt en una subordinada: participio + haben/sein",
+      "body": "Lo mismo pasa con el Perfekt: el participio y el auxiliar conjugado (haben/sein) van juntos al final, con el auxiliar en último lugar, porque es el verbo conjugado: «..., weil ich das gemacht habe» (porque he hecho eso).",
+      "examples": [
+        { "target": "Ich bin müde, weil ich viel gearbeitet habe.", "es": "Estoy cansado, porque he trabajado mucho." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Regla de oro para recordar el orden dentro del final de la subordinada: la parte NO conjugada (infinitivo o participio) va primero, y el verbo CONJUGADO (modal o haben/sein) va en último lugar, cerrando la frase."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "machen müssen", "es": "tener que hacer", "ipa": "/ˈmaxn̩ ˈmʏsn̩/", "esApprox": "«MÁ-jen MÜ-sen»", "pos": "expresión", "gender": null, "example": { "target": "Ich muss das machen.", "es": "Tengo que hacer eso." } },
+    { "id": "v2", "target": "gearbeitet haben", "es": "haber trabajado", "ipa": "/ɡəˈʔaʁbaɪ̯tət ˈhaːbn̩/", "esApprox": "«ge-AR-bai-tet JÁ-ben»", "pos": "expresión", "gender": null, "example": { "target": "Ich habe viel gearbeitet.", "es": "He trabajado mucho." } },
+    { "id": "v3", "target": "können", "es": "poder, saber", "ipa": "/ˈkœnən/", "esApprox": "«KÖ-nen»", "pos": "verbo", "gender": null, "example": { "target": "Ich weiß, dass du das kannst.", "es": "Sé que puedes hacer eso." } },
+    { "id": "v4", "target": "die Reihenfolge", "es": "el orden, la secuencia", "ipa": "/ˈʁaɪ̯ənˌfɔlɡə/", "esApprox": "«RÁI-en-fol-gue»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Reihenfolge ist fest.", "es": "El orden es fijo." } },
+    { "id": "v5", "target": "der Nebensatz", "es": "la frase subordinada", "ipa": "/ˈneːbn̩zats/", "esApprox": "«NÉ-ben-zats»", "pos": "sustantivo", "gender": "m", "example": { "target": "Im Nebensatz stehen zwei Verben.", "es": "En la subordinada hay dos verbos." } },
+    { "id": "v6", "target": "schließen", "es": "cerrar, concluir", "ipa": "/ˈʃliːsn̩/", "esApprox": "«SHLÍ-sen»", "pos": "verbo", "gender": null, "example": { "target": "Das konjugierte Verb schließt den Satz.", "es": "El verbo conjugado cierra la frase." } },
+    { "id": "v7", "target": "der Infinitiv", "es": "el infinitivo", "ipa": "/ˈɪnfiniˌtiːf/", "esApprox": "«IN-fi-ni-tif»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Infinitiv steht vor dem Modalverb.", "es": "El infinitivo va antes del verbo modal." } },
+    { "id": "v8", "target": "das Partizip", "es": "el participio", "ipa": "/paʁtiˈtsiːp/", "esApprox": "«par-ti-TSIP»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Partizip steht vor haben.", "es": "El participio va antes de haben." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 1, "prompt": "En «..., weil ich das machen muss», ¿cuál va último?", "options": ["machen", "muss", "das", "weil"], "answer": 1, "explain": "muss (el verbo conjugado) cierra la frase, después de machen." },
+    { "id": "e2", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "En «..., weil ich das gemacht habe», ¿cuál va último?", "options": ["gemacht", "habe", "das", "ich"], "answer": 1, "explain": "habe (el verbo conjugado, auxiliar) cierra la frase, después de gemacht." },
+    { "id": "e3", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "En una subordinada con dos verbos al final, el verbo conjugado siempre va en último lugar.", "answer": true, "explain": "La parte no conjugada (infinitivo/participio) va primero, el conjugado (modal/haben/sein) al final." },
+    { "id": "e4", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "El orden de los dos verbos es libre y se puede intercambiar.", "answer": false, "explain": "El orden es fijo: no conjugado + conjugado, siempre en ese orden." },
+    { "id": "e5", "type": "match_pairs", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Infinitiv", "das Partizip", "schließen", "die Reihenfolge"], "right": ["el infinitivo", "el participio", "cerrar", "el orden"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave de gramática para esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Estoy cansado, porque tengo que hacer eso.", "accept": ["Ich bin müde, weil ich das machen muss"], "hintWords": ["ich bin müde, weil ich das machen muss"], "strictAccents": false, "audio": "Ich bin müde, weil ich das machen muss.", "explain": "machen (infinitivo) + muss (modal conjugado, al final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Sé que no puedes hacer eso.", "accept": ["Ich weiß, dass du das nicht kannst"], "hintWords": ["ich weiß, dass du das nicht kannst"], "strictAccents": false, "audio": "Ich weiß, dass du das nicht kannst.", "explain": "kannst: único verbo aquí, modal conjugado al final (sin infinitivo explícito, sobreentendido «hacer»)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Estoy cansado, porque he trabajado mucho.", "accept": ["Ich bin müde, weil ich viel gearbeitet habe"], "hintWords": ["ich bin müde, weil ich viel gearbeitet habe"], "strictAccents": false, "audio": "Ich bin müde, weil ich viel gearbeitet habe.", "explain": "gearbeitet (participio) + habe (auxiliar conjugado, al final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["orden-palabras"], "difficulty": 3, "prompt": "Completa con el orden correcto", "text": "Ich bin müde, weil ich das machen ___. (müssen) Ich weiß, dass du das ___ kannst. (nicht)", "blanks": [{ "accept": ["muss"] }, { "accept": ["nicht"] }], "bank": ["muss", "nicht", "müssen"], "explain": "muss cierra la frase; nicht va antes de kannst." },
+    { "id": "e10", "type": "word_order", "tags": ["orden-palabras"], "difficulty": 3, "prompt": "Ordena: «El verbo conjugado cierra la frase»", "tokens": ["den Satz", "Verb", "schließt", "Das konjugierte"], "answer": ["Das konjugierte", "Verb", "schließt", "den Satz"], "audio": "Das konjugierte Verb schließt den Satz.", "explain": "Das konjugierte Verb schließt den Satz: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Im Nebensatz stehen zwei Verben.", "accept": ["En la subordinada hay dos verbos."], "strictAccents": false, "audio": "Im Nebensatz stehen zwei Verben.", "explain": "der Nebensatz = la frase subordinada." },
+    { "id": "e12", "type": "dialogue", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Chefin", "text": "Warum bist du müde?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich bin müde, weil ich viel gearbeitet habe.", "Ich bin müde, weil ich das machen muss."], "hint": "responde con dos verbos al final" },
+      { "who": "Chefin", "text": "Ruh dich aus!", "speak": true }
+    ], "explain": "Práctica de dos verbos al final en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["orden-palabras"], "difficulty": 1, "speak": "Ich bin müde, weil ich das machen muss.", "mode": "write", "accept": ["Ich bin müde, weil ich das machen muss"], "showTextAfter": true, "explain": "machen muss: infinitivo + modal conjugado al final." },
+    { "id": "e14", "type": "listening", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Ich bin müde, weil ich viel gearbeitet habe.", "mode": "choose", "options": ["Ich bin müde, weil ich viel gearbeitet habe.", "Ich bin müde, weil ich habe viel gearbeitet.", "Ich bin müde, weil ich viel habe gearbeitet."], "answer": 0, "showTextAfter": true, "explain": "Solo la primera respeta el orden: participio (gearbeitet) + auxiliar conjugado (habe) al final." },
+    { "id": "e15", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Ich bin müde, weil ich das machen muss, obwohl ich das nicht machen will.", "es": "Estoy cansado, porque tengo que hacer eso, aunque no quiero hacerlo.", "ipa": "/ɪç bɪn ˈmyːdə vaɪ̯l ɪç das ˈmaxn̩ mʊs ɔpˈvoːl ɪç das nɪçt ˈmaxn̩ vɪl/", "esApprox": "«ich bin MÜ-de, vail ich das MÁ-jen mus, op-VOL ich das nicht MÁ-jen vil»", "focus": "machen muss y machen will: dos modales distintos, ambos con el mismo orden infinitivo + modal.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Ich weiß, dass du das nicht kannst, aber ich bin sicher, dass du es versucht hast.", "es": "Sé que no puedes hacer eso, pero estoy seguro de que lo has intentado.", "ipa": "/ɪç vaɪ̯s das duː das nɪçt kanst ˈaːbɐ ɪç bɪn ˈzɪçɐ das duː ɛs fɛɐ̯ˈzuːxt hast/", "esApprox": "«ich vais, das du das nicht kanst, Á-ber ich bin ZÍ-cher, das du es fer-ZÚCHT jast»", "focus": "kannst (solo modal) frente a versucht hast (participio + auxiliar): dos patrones de dos verbos al final.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Te preguntan por qué estás cansado. Di que es porque has trabajado mucho.", "modelAnswer": "Ich bin müde, weil ich viel gearbeitet habe.", "alsoValid": ["Weil ich viel gearbeitet habe."], "speak": "Ich bin müde, weil ich viel gearbeitet habe.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Clasifica cada final de frase: modal + infinitivo, o auxiliar + participio", "buckets": ["Infinitivo + modal", "Participio + auxiliar"], "items": [
+      { "text": "machen muss", "bucket": 0 },
+      { "text": "gearbeitet habe", "bucket": 1 },
+      { "text": "machen will", "bucket": 0 },
+      { "text": "gemacht habe", "bucket": 1 }
+    ], "explain": "Ambos patrones terminan con el verbo conjugado (modal o auxiliar) en último lugar." },
+    { "id": "e19", "type": "error_correction", "tags": ["orden-palabras"], "difficulty": 3, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich bin müde, weil ich muss das machen.", "accept": ["Ich bin müde, weil ich das machen muss"], "audio": "Ich bin müde, weil ich das machen muss.", "explain": "El orden correcto es infinitivo (machen) + modal conjugado (muss), ambos al final." },
+    { "id": "e20", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "«Ich bin müde, weil ich viel gearbeitet habe und weil ich das noch machen muss. Ich weiß, dass du das verstehst.» ¿Cuántos verbos hay al final de la primera subordinada («weil ich viel gearbeitet habe»)?", "options": ["Uno", "Dos", "Tres", "Ninguno"], "answer": 1, "explain": "gearbeitet (participio) + habe (auxiliar conjugado): dos verbos al final." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "machen müssen", "es": "tener que hacer", "esApprox": "«MÁ-jen MÜ-sen»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "gearbeitet haben", "es": "haber trabajado", "esApprox": "«ge-AR-bai-tet JÁ-ben»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Reihenfolge", "es": "el orden, la secuencia", "esApprox": "«RÁI-en-fol-gue»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "der Nebensatz", "es": "la frase subordinada", "esApprox": "«NÉ-ben-zats»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "der Infinitiv", "es": "el infinitivo", "esApprox": "«IN-fi-ni-tif»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "das Partizip", "es": "el participio", "esApprox": "«par-ti-TSIP»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich bin müde, weil ich das machen muss, obwohl ich das nicht machen will.", "es": "Estoy cansado, porque tengo que hacer eso, aunque no quiero hacerlo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich weiß, dass du das nicht kannst, aber ich bin sicher, dass du es versucht hast.", "es": "Sé que no puedes hacer eso, pero estoy seguro de que lo has intentado.", "from": "e16" }
+  ]
+}

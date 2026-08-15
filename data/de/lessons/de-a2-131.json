@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-131",
+  "lang": "de",
+  "level": "A2",
+  "order": 131,
+  "title": "Deshalb, trotzdem, außerdem: conectar frases sin subordinar",
+  "objectives": [
+    "Usar deshalb (por eso), trotzdem (a pesar de eso) y außerdem (además) para conectar dos frases",
+    "Reconocer que estos adverbios SÍ ocupan la posición 1, a diferencia de und/aber/denn (clase 79)",
+    "Distinguir estos conectores de las conjunciones subordinantes como weil, obwohl y trotz + genitivo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Adverbios conectores: ocupan la posición 1",
+      "body": "Deshalb, trotzdem y außerdem no son conjunciones como und/aber/denn (que no ocupan ninguna posición, clase 79): son ADVERBIOS que sí ocupan la posición 1 de su frase, empujando el verbo a la posición 2 y el sujeto después. Conectan dos frases independientes, sin subordinar ninguna.",
+      "examples": [
+        { "target": "Es regnet. Deshalb bleiben wir zu Hause.", "es": "Llueve. Por eso nos quedamos en casa." },
+        { "target": "Es regnet. Trotzdem gehen wir raus.", "es": "Llueve. Aun así, salimos." },
+        { "target": "Ich lerne Deutsch. Außerdem lerne ich Französisch.", "es": "Aprendo alemán. Además, aprendo francés." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Tres adverbios conectores frecuentes",
+      "headers": ["Alemán", "Español", "Función"],
+      "rows": [
+        ["deshalb", "por eso", "consecuencia"],
+        ["trotzdem", "a pesar de eso", "contraste"],
+        ["außerdem", "además", "suma de información"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Compara: weil/obwohl (subordinantes, verbo al final) frente a deshalb/trotzdem (adverbios, verbo en posición 2, sujeto después del verbo). Ambos expresan ideas similares, pero con estructuras distintas: «..., weil es regnet» frente a «Es regnet, deshalb...»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "deshalb", "es": "por eso", "ipa": "/dɛsˈhalp/", "esApprox": "«des-JALP»", "pos": "adverbio", "gender": null, "example": { "target": "Es regnet. Deshalb bleiben wir zu Hause.", "es": "Llueve. Por eso nos quedamos en casa." } },
+    { "id": "v2", "target": "trotzdem", "es": "a pesar de eso", "ipa": "/ˈtʁɔtsdeːm/", "esApprox": "«TROTS-dem»", "pos": "adverbio", "gender": null, "example": { "target": "Es regnet. Trotzdem gehen wir raus.", "es": "Llueve. Aun así, salimos." } },
+    { "id": "v3", "target": "außerdem", "es": "además", "ipa": "/ˈaʊ̯sɐdeːm/", "esApprox": "«ÁU-ser-dem»", "pos": "adverbio", "gender": null, "example": { "target": "Ich lerne Deutsch. Außerdem lerne ich Französisch.", "es": "Aprendo alemán. Además, aprendo francés." } },
+    { "id": "v4", "target": "die Konsequenz", "es": "la consecuencia", "ipa": "/kɔnzekvɛnts/", "esApprox": "«kon-ze-kvents»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das hat Konsequenzen.", "es": "Eso tiene consecuencias." } },
+    { "id": "v5", "target": "das Französisch", "es": "el francés (idioma)", "ipa": "/fʁanˈtsøːzɪʃ/", "esApprox": "«fran-TSÖ-zish»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich lerne Französisch.", "es": "Aprendo francés." } },
+    { "id": "v6", "target": "der Verkehr", "es": "el tráfico", "ipa": "/fɛɐ̯ˈkeːɐ̯/", "esApprox": "«fer-KER»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Verkehr ist stark.", "es": "El tráfico es intenso." } },
+    { "id": "v7", "target": "die Bedingung", "es": "la condición", "ipa": "/bəˈdɪŋʊŋ/", "esApprox": "«be-DIN-gung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine wichtige Bedingung.", "es": "Esa es una condición importante." } },
+    { "id": "v8", "target": "die Verbindung", "es": "la conexión", "ipa": "/fɛɐ̯ˈbɪndʊŋ/", "esApprox": "«fer-BÍN-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine logische Verbindung.", "es": "Esa es una conexión lógica." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["conectores"], "difficulty": 1, "prompt": "¿Cómo se dice «por eso»?", "options": ["trotzdem", "deshalb", "außerdem", "obwohl"], "answer": 1, "explain": "deshalb = por eso, indica consecuencia." },
+    { "id": "e2", "type": "mcq", "tags": ["conectores"], "difficulty": 2, "prompt": "¿Qué posición ocupa deshalb en su frase?", "options": ["No ocupa ninguna", "Posición 1", "Al final", "Posición 3"], "answer": 1, "explain": "deshalb ocupa la posición 1, empujando el verbo a la posición 2." },
+    { "id": "e3", "type": "true_false", "tags": ["conectores"], "difficulty": 2, "statement": "deshalb, trotzdem y außerdem son adverbios, no conjunciones como und/aber.", "answer": true, "explain": "A diferencia de und/aber/denn, sí ocupan una posición en la frase." },
+    { "id": "e4", "type": "true_false", "tags": ["conectores"], "difficulty": 2, "statement": "Tras deshalb, el sujeto va justo antes del verbo.", "answer": false, "explain": "Tras deshalb (posición 1), el verbo va en posición 2 y el sujeto justo DESPUÉS del verbo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["conectores"], "difficulty": 2, "prompt": "Une cada conector con su función", "left": ["deshalb", "trotzdem", "außerdem"], "right": ["consecuencia", "contraste", "suma de información"], "answer": [0, 1, 2], "explain": "Tres funciones distintas para tres conectores frecuentes." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["conectores"], "difficulty": 2, "prompt": "Llueve. Por eso nos quedamos en casa.", "accept": ["Es regnet. Deshalb bleiben wir zu Hause"], "hintWords": ["es regnet. Deshalb bleiben wir zu Hause"], "strictAccents": false, "audio": "Es regnet. Deshalb bleiben wir zu Hause.", "explain": "Deshalb (posición 1) + bleiben (posición 2) + wir." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["conectores"], "difficulty": 2, "prompt": "Llueve. Aun así, salimos.", "accept": ["Es regnet. Trotzdem gehen wir raus"], "hintWords": ["es regnet. Trotzdem gehen wir raus"], "strictAccents": false, "audio": "Es regnet. Trotzdem gehen wir raus.", "explain": "Trotzdem (posición 1) + gehen (posición 2) + wir." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["conectores"], "difficulty": 2, "prompt": "Aprendo alemán. Además, aprendo francés.", "accept": ["Ich lerne Deutsch. Außerdem lerne ich Französisch"], "hintWords": ["ich lerne Deutsch. Außerdem lerne ich Französisch"], "strictAccents": false, "audio": "Ich lerne Deutsch. Außerdem lerne ich Französisch.", "explain": "Außerdem (posición 1) + lerne (posición 2) + ich." },
+    { "id": "e9", "type": "fill_blank", "tags": ["conectores"], "difficulty": 2, "prompt": "Completa con el conector correcto", "text": "Der Verkehr ist stark. ___ komme ich spät. Es regnet. ___ bleiben wir drinnen.", "blanks": [{ "accept": ["Deshalb"] }, { "accept": ["Deshalb"] }], "bank": ["Deshalb", "Trotzdem", "Außerdem"], "explain": "Deshalb en ambos casos indica consecuencia lógica." },
+    { "id": "e10", "type": "word_order", "tags": ["conectores"], "difficulty": 2, "prompt": "Ordena: «Esa es una condición importante»", "tokens": ["Bedingung", "eine wichtige", "Das ist"], "answer": ["Das ist", "eine wichtige", "Bedingung"], "audio": "Das ist eine wichtige Bedingung.", "explain": "Das ist eine wichtige Bedingung: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["conectores"], "difficulty": 2, "prompt": "Das ist eine logische Verbindung.", "accept": ["Esa es una conexión lógica."], "strictAccents": false, "audio": "Das ist eine logische Verbindung.", "explain": "die Verbindung = la conexión." },
+    { "id": "e12", "type": "dialogue", "tags": ["conectores"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Warum bleibst du zu Hause?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Es regnet. Deshalb bleibe ich zu Hause."], "hint": "responde con deshalb" },
+      { "who": "Lea", "text": "Ah, verständlich!", "speak": true }
+    ], "explain": "Práctica de deshalb en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["conectores"], "difficulty": 1, "speak": "Es regnet. Deshalb bleiben wir zu Hause.", "mode": "write", "accept": ["Es regnet. Deshalb bleiben wir zu Hause"], "showTextAfter": true, "explain": "deshalb en posición 1, verbo en posición 2." },
+    { "id": "e14", "type": "listening", "tags": ["conectores"], "difficulty": 2, "speak": "Ich lerne Deutsch. Außerdem lerne ich Französisch.", "mode": "choose", "options": ["Ich lerne Deutsch. Außerdem lerne ich Französisch.", "Ich lerne Deutsch. Außerdem ich lerne Französisch.", "Ich lerne Deutsch. Ich außerdem lerne Französisch."], "answer": 0, "showTextAfter": true, "explain": "Solo la primera respeta el orden: außerdem (1) + lerne (2) + ich." },
+    { "id": "e15", "type": "shadowing", "tags": ["conectores"], "difficulty": 2, "speak": "Der Verkehr ist stark, deshalb komme ich spät, aber trotzdem versuche ich pünktlich zu sein.", "es": "El tráfico es intenso, por eso llego tarde, pero aun así intento ser puntual.", "ipa": "/deːɐ̯ fɛɐ̯ˈkeːɐ̯ ɪst ʃtaʁk dɛsˈhalp ˈkɔmə ɪç ʃpɛːt ˈaːbɐ ˈtʁɔtsdeːm fɛɐ̯ˈzuːxə ɪç ˈpʏŋktlɪç tsuː zaɪ̯n/", "esApprox": "«der fer-KER ist shtark, des-JALP KÓ-me ich shpét, Á-ber TROTS-dem fer-ZÚ-je ich PÜNKT-lich tsu zain»", "focus": "deshalb y trotzdem, ambos en posición 1, con el verbo justo después en cada frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["conectores"], "difficulty": 2, "speak": "Ich lerne Deutsch, und außerdem lerne ich Französisch, weil ich beide Sprachen liebe.", "es": "Aprendo alemán, y además aprendo francés, porque me encantan los dos idiomas.", "ipa": "/ɪç ˈlɛʁnə dɔɪ̯tʃ ʊnt ˈaʊ̯sɐdeːm ˈlɛʁnə ɪç fʁanˈtsøːzɪʃ vaɪ̯l ɪç ˈbaɪ̯də ˈʃpʁaːxən ˈliːbə/", "esApprox": "«ich LÉR-ne doich, unt ÁU-ser-dem LÉR-ne ich fran-TSÖ-zish, vail ich BÁI-de SHPRÁ-jen LÍ-be»", "focus": "außerdem (posición 1, tras und que no cuenta como posición) y weil (subordinante, liebe al final).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["conectores"], "difficulty": 2, "prompt": "Te preguntan por qué llegas tarde. Di que el tráfico es intenso, por eso llegas tarde.", "modelAnswer": "Der Verkehr ist stark, deshalb komme ich spät.", "alsoValid": ["Deshalb komme ich spät."], "speak": "Der Verkehr ist stark, deshalb komme ich spät.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["conectores"], "difficulty": 2, "prompt": "Clasifica cada conector según su función", "buckets": ["Consecuencia", "Contraste", "Suma"], "items": [
+      { "text": "deshalb", "bucket": 0 },
+      { "text": "trotzdem", "bucket": 1 },
+      { "text": "außerdem", "bucket": 2 }
+    ], "explain": "deshalb (consecuencia), trotzdem (contraste), außerdem (suma de información)." },
+    { "id": "e19", "type": "error_correction", "tags": ["conectores"], "difficulty": 2, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Es regnet. Deshalb wir bleiben zu Hause.", "accept": ["Es regnet. Deshalb bleiben wir zu Hause"], "audio": "Es regnet. Deshalb bleiben wir zu Hause.", "explain": "Tras deshalb (posición 1), el verbo va en posición 2, antes del sujeto." },
+    { "id": "e20", "type": "mcq", "tags": ["conectores"], "difficulty": 2, "prompt": "«Der Verkehr ist stark, deshalb komme ich spät. Ich lerne Deutsch, und außerdem lerne ich Französisch. Trotzdem finde ich beide Sprachen einfach.» ¿Qué idiomas aprende la persona?", "options": ["Solo alemán", "Alemán y francés", "Solo francés", "Ninguno, solo los estudia en el pasado"], "answer": 1, "explain": "«Ich lerne Deutsch, und außerdem lerne ich Französisch» = aprendo alemán, y además aprendo francés." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "deshalb", "es": "por eso", "esApprox": "«des-JALP»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "trotzdem", "es": "a pesar de eso", "esApprox": "«TROTS-dem»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "außerdem", "es": "además", "esApprox": "«ÁU-ser-dem»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Konsequenz", "es": "la consecuencia", "esApprox": "«kon-ze-kvents»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Verkehr", "es": "el tráfico", "esApprox": "«fer-KER»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "die Bedingung", "es": "la condición", "esApprox": "«be-DIN-gung»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Der Verkehr ist stark, deshalb komme ich spät, aber trotzdem versuche ich pünktlich zu sein.", "es": "El tráfico es intenso, por eso llego tarde, pero aun así intento ser puntual.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich lerne Deutsch, und außerdem lerne ich Französisch, weil ich beide Sprachen liebe.", "es": "Aprendo alemán, y además aprendo francés, porque me encantan los dos idiomas.", "from": "e16" }
+  ]
+}

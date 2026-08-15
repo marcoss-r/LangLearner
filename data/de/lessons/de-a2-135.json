@@ -1,0 +1,85 @@
+{
+  "id": "de-a2-135",
+  "lang": "de",
+  "level": "A2",
+  "order": 135,
+  "title": "Cuenta un plan con condiciones: wenn... dann",
+  "objectives": [
+    "Construir frases condicionales con wenn... dann (si... entonces)",
+    "Colocar dann en la frase principal cuando esta va después de la subordinada con wenn",
+    "Contar planes con varias condiciones encadenadas de forma natural"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "wenn... dann: la estructura condicional básica",
+      "body": "Ya conoces wenn para condiciones (clase 125). Cuando la frase con wenn va PRIMERO, es muy común añadir dann (entonces) al principio de la frase principal, para marcar claramente la consecuencia: «Wenn ich Zeit habe, dann gehe ich ins Kino» (Si tengo tiempo, entonces voy al cine). Dann ocupa la posición 1 de la frase principal, y el verbo va justo después, en posición 2.",
+      "examples": [
+        { "target": "Wenn ich Zeit habe, dann gehe ich ins Kino.", "es": "Si tengo tiempo, entonces voy al cine." },
+        { "target": "Wenn es regnet, dann bleiben wir zu Hause.", "es": "Si llueve, entonces nos quedamos en casa." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Con dann o sin dann",
+      "headers": ["Con dann", "Sin dann"],
+      "rows": [
+        ["Wenn ich Zeit habe, dann gehe ich ins Kino.", "Wenn ich Zeit habe, gehe ich ins Kino."],
+        ["Wenn es regnet, dann bleiben wir zu Hause.", "Wenn es regnet, bleiben wir zu Hause."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "dann es opcional: «Wenn ich Zeit habe, gehe ich ins Kino» también es correcto (como ya viste con weil/dass, la subordinada al principio empuja el verbo de la principal a la posición justo después de la coma). Pero dann ayuda a que la relación causa-efecto suene más clara, sobre todo al encadenar varias condiciones."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "dann", "es": "entonces", "ipa": "/dan/", "esApprox": "«dan»", "pos": "adverbio", "gender": null, "example": { "target": "Wenn ich Zeit habe, dann gehe ich ins Kino.", "es": "Si tengo tiempo, entonces voy al cine." } },
+    { "id": "v2", "target": "der Plan", "es": "el plan", "ipa": "/plaːn/", "esApprox": "«plan»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist mein Plan.", "es": "Ese es mi plan." } },
+    { "id": "v3", "target": "die Bedingung", "es": "la condición", "ipa": "/bəˈdɪŋʊŋ/", "esApprox": "«be-DIN-gung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist die Bedingung.", "es": "Esa es la condición." } },
+    { "id": "v4", "target": "je nachdem", "es": "según, dependiendo de", "ipa": "/jeː naːxˈdeːm/", "esApprox": "«ye nach-DEM»", "pos": "expresión", "gender": null, "example": { "target": "Je nachdem, was du willst.", "es": "Según lo que quieras." } },
+    { "id": "v5", "target": "vorhaben", "es": "tener planeado", "ipa": "/ˈfoːɐ̯haːbn̩/", "esApprox": "«FOR-ja-ben»", "pos": "verbo", "gender": null, "example": { "target": "Was hast du morgen vor?", "es": "¿Qué tienes planeado para mañana?" } },
+    { "id": "v6", "target": "eventuell", "es": "posiblemente, eventualmente", "ipa": "/evɛntuˈɛl/", "esApprox": "«e-ven-tu-EL»", "pos": "adverbio", "gender": null, "example": { "target": "Eventuell komme ich später.", "es": "Posiblemente llegue más tarde." } },
+    { "id": "v7", "target": "die Alternative", "es": "la alternativa", "ipa": "/altɛʁnaˈtiːvə/", "esApprox": "«al-ter-na-TÍ-ve»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wir haben eine Alternative.", "es": "Tenemos una alternativa." } },
+    { "id": "v8", "target": "sonst", "es": "si no, en caso contrario", "ipa": "/zɔnst/", "esApprox": "«zonst»", "pos": "adverbio", "gender": null, "example": { "target": "Sonst bleiben wir zu Hause.", "es": "Si no, nos quedamos en casa." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["wenn-als"], "difficulty": 1, "prompt": "¿Dónde va «dann» en la frase principal, tras una subordinada con wenn?", "options": ["Al final", "Posición 1", "Posición 3", "No se usa"], "answer": 1, "explain": "dann ocupa la posición 1 de la frase principal, con el verbo justo después." },
+    { "id": "e2", "type": "mcq", "tags": ["wenn-als"], "difficulty": 2, "prompt": "¿Es obligatorio usar dann tras una subordinada con wenn?", "options": ["Sí, siempre", "No, es opcional", "Solo en preguntas", "Solo con Perfekt"], "answer": 1, "explain": "dann es opcional, pero ayuda a marcar la consecuencia con claridad." },
+    { "id": "e3", "type": "true_false", "tags": ["wenn-als"], "difficulty": 2, "statement": "«Wenn ich Zeit habe, gehe ich ins Kino» (sin dann) es incorrecto.", "answer": false, "explain": "Es perfectamente correcto: dann es un añadido opcional, no obligatorio." },
+    { "id": "e4", "type": "true_false", "tags": ["wenn-als"], "difficulty": 2, "statement": "«je nachdem» significa «según, dependiendo de».", "answer": true, "explain": "je nachdem: expresión fija para indicar dependencia de una condición." },
+    { "id": "e5", "type": "match_pairs", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["dann", "der Plan", "eventuell", "sonst"], "right": ["entonces", "el plan", "posiblemente", "si no"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave para hablar de planes condicionales." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Si tengo tiempo, entonces voy al cine.", "accept": ["Wenn ich Zeit habe, dann gehe ich ins Kino"], "hintWords": ["wenn ich Zeit habe, dann gehe ich ins Kino"], "strictAccents": false, "audio": "Wenn ich Zeit habe, dann gehe ich ins Kino.", "explain": "wenn (final: habe) + dann (posición 1) + gehe (posición 2)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Si llueve, entonces nos quedamos en casa.", "accept": ["Wenn es regnet, dann bleiben wir zu Hause"], "hintWords": ["wenn es regnet, dann bleiben wir zu Hause"], "strictAccents": false, "audio": "Wenn es regnet, dann bleiben wir zu Hause.", "explain": "wenn (final: regnet) + dann (posición 1) + bleiben (posición 2)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["wenn-als"], "difficulty": 2, "prompt": "¿Qué tienes planeado para mañana?", "accept": ["Was hast du morgen vor?", "Was hast du morgen vor"], "hintWords": ["was hast du morgen vor"], "strictAccents": false, "audio": "Was hast du morgen vor?", "explain": "vorhaben: verbo separable, vor al final." },
+    { "id": "e9", "type": "fill_blank", "tags": ["wenn-als"], "difficulty": 3, "prompt": "Completa con la palabra correcta", "text": "Wenn es regnet, ___ bleiben wir zu Hause. ___ komme ich später.", "blanks": [{ "accept": ["dann"] }, { "accept": ["Eventuell"] }], "bank": ["dann", "Eventuell", "sonst"], "explain": "dann (consecuencia clara); Eventuell (posibilidad, incertidumbre)." },
+    { "id": "e10", "type": "word_order", "tags": ["wenn-als"], "difficulty": 3, "prompt": "Ordena: «Tenemos una alternativa»", "tokens": ["eine Alternative", "Wir haben"], "answer": ["Wir haben", "eine Alternative"], "audio": "Wir haben eine Alternative.", "explain": "Wir haben eine Alternative: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Sonst bleiben wir zu Hause.", "accept": ["Si no, nos quedamos en casa."], "strictAccents": false, "audio": "Sonst bleiben wir zu Hause.", "explain": "sonst = si no, en caso contrario." },
+    { "id": "e12", "type": "dialogue", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Paul", "text": "Was hast du am Wochenende vor?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Wenn ich Zeit habe, dann gehe ich ins Kino.", "Wenn das Wetter gut ist, dann mache ich einen Ausflug."], "hint": "cuenta un plan con condición" },
+      { "who": "Paul", "text": "Klingt gut!", "speak": true }
+    ], "explain": "Práctica de contar planes con wenn... dann en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["wenn-als"], "difficulty": 1, "speak": "Wenn ich Zeit habe, dann gehe ich ins Kino.", "mode": "write", "accept": ["Wenn ich Zeit habe, dann gehe ich ins Kino"], "showTextAfter": true, "explain": "wenn...dann: estructura condicional básica." },
+    { "id": "e14", "type": "listening", "tags": ["wenn-als"], "difficulty": 2, "speak": "Wenn es regnet, dann bleiben wir zu Hause.", "mode": "choose", "options": ["Wenn es regnet, dann bleiben wir zu Hause.", "Wenn es regnet, dann wir bleiben zu Hause.", "Wenn es regnet, wir dann bleiben zu Hause."], "answer": 0, "showTextAfter": true, "explain": "Solo la primera respeta el orden: dann (posición 1) + bleiben (posición 2) + wir." },
+    { "id": "e15", "type": "shadowing", "tags": ["wenn-als"], "difficulty": 2, "speak": "Wenn ich Zeit habe, dann gehe ich ins Kino. Wenn nicht, dann bleibe ich zu Hause.", "es": "Si tengo tiempo, entonces voy al cine. Si no, entonces me quedo en casa.", "ipa": "/vɛn ɪç tsaɪ̯t ˈhaːbə dan ˈɡeːə ɪç ɪns ˈkiːno vɛn nɪçt dan ˈblaɪ̯bə ɪç tsuː ˈhaʊ̯zə/", "esApprox": "«ven ich tsait JÁ-be, dan GUÉ-e ich ins KÍ-no. ven nicht, dan BLÁI-be ich tsu JÁU-ze»", "focus": "Dos condiciones encadenadas (wenn ich Zeit habe / wenn nicht), cada una con su propio dann.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["wenn-als"], "difficulty": 2, "speak": "Je nachdem, wie das Wetter ist, machen wir einen Ausflug, oder sonst bleiben wir einfach zu Hause.", "es": "Según cómo esté el tiempo, hacemos una excursión, o si no, simplemente nos quedamos en casa.", "ipa": "/jeː naːxˈdeːm viː das ˈvɛtɐ ɪst ˈmaxn̩ viːɐ̯ ˈaɪ̯nən ˈaʊ̯sfluːk ˈoːdɐ zɔnst ˈblaɪ̯bn̩ viːɐ̯ ˈaɪ̯nfax tsuː ˈhaʊ̯zə/", "esApprox": "«ye nach-DEM vi das VÉ-ter ist, MÁ-jen vir ÁI-nen ÁUS-fluk, Ó-der zonst BLÁI-ben vir ÁIN-fach tsu JÁU-ze»", "focus": "je nachdem con una W-Frage indirecta (wie das Wetter ist), y sonst como alternativa.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Te preguntan tus planes para el fin de semana. Cuenta un plan con una condición usando wenn... dann.", "modelAnswer": "Wenn ich Zeit habe, dann gehe ich ins Kino.", "alsoValid": ["Wenn das Wetter gut ist, dann mache ich einen Ausflug."], "speak": "Wenn ich Zeit habe, dann gehe ich ins Kino.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Clasifica cada palabra: marca consecuencia clara o alternativa", "buckets": ["Consecuencia (dann)", "Alternativa (sonst)"], "items": [
+      { "text": "dann gehe ich ins Kino", "bucket": 0 },
+      { "text": "sonst bleiben wir zu Hause", "bucket": 1 }
+    ], "explain": "dann marca la consecuencia directa; sonst marca lo que pasa si la condición NO se cumple." },
+    { "id": "e19", "type": "error_correction", "tags": ["wenn-als"], "difficulty": 3, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Wenn es regnet, dann wir bleiben zu Hause.", "accept": ["Wenn es regnet, dann bleiben wir zu Hause"], "audio": "Wenn es regnet, dann bleiben wir zu Hause.", "explain": "Tras dann (posición 1), el verbo va en posición 2, antes del sujeto." },
+    { "id": "e20", "type": "mcq", "tags": ["wenn-als"], "difficulty": 2, "prompt": "«Wenn ich Zeit habe, dann gehe ich ins Kino. Wenn nicht, dann bleibe ich zu Hause. Je nachdem, wie das Wetter ist, machen wir eventuell einen Ausflug.» ¿De qué depende la excursión?", "options": ["Del tiempo libre", "Del tiempo meteorológico", "Del dinero", "No se dice"], "answer": 1, "explain": "«Je nachdem, wie das Wetter ist» = según cómo esté el tiempo (meteorológico)." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "dann", "es": "entonces", "esApprox": "«dan»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Plan", "es": "el plan", "esApprox": "«plan»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je nachdem", "es": "según, dependiendo de", "esApprox": "«ye nach-DEM»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "vorhaben", "es": "tener planeado", "esApprox": "«FOR-ja-ben»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "eventuell", "es": "posiblemente, eventualmente", "esApprox": "«e-ven-tu-EL»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "sonst", "es": "si no, en caso contrario", "esApprox": "«zonst»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Wenn ich Zeit habe, dann gehe ich ins Kino. Wenn nicht, dann bleibe ich zu Hause.", "es": "Si tengo tiempo, entonces voy al cine. Si no, entonces me quedo en casa.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Je nachdem, wie das Wetter ist, machen wir einen Ausflug, oder sonst bleiben wir einfach zu Hause.", "es": "Según cómo esté el tiempo, hacemos una excursión, o si no, simplemente nos quedamos en casa.", "from": "e16" }
+  ]
+}
