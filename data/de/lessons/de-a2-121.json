@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-121",
+  "lang": "de",
+  "level": "A2",
+  "order": 121,
+  "title": "Preposiciones temporales: vor, seit, ab, bis",
+  "objectives": [
+    "Usar vor con el significado de «antes de» (además de «hace», ya visto en la clase 96)",
+    "Usar seit para expresar desde cuándo dura algo, con presente en alemán (a diferencia del español)",
+    "Usar ab (a partir de) y bis (hasta) para marcar el inicio o el final de un periodo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuatro preposiciones temporales clave",
+      "body": "Vor + dativo también significa «antes de» (no solo «hace», clase 96): «vor dem Essen» (antes de comer). Seit + dativo expresa desde cuándo dura una acción que sigue en el presente: «Ich lerne seit zwei Jahren Deutsch» (Aprendo alemán desde hace dos años) — fíjate que el alemán usa PRESENTE, no como el español, que a veces usa pretérito perfecto. Ab + dativo (a partir de) y bis + acusativo (hasta) marcan el inicio y el final de un periodo.",
+      "examples": [
+        { "target": "Vor dem Essen wasche ich mir die Hände.", "es": "Antes de comer, me lavo las manos." },
+        { "target": "Ich lerne seit zwei Jahren Deutsch.", "es": "Aprendo alemán desde hace dos años." },
+        { "target": "Ab Montag arbeite ich hier.", "es": "A partir del lunes trabajo aquí." },
+        { "target": "Ich bleibe bis Freitag.", "es": "Me quedo hasta el viernes." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las cuatro preposiciones temporales",
+      "headers": ["Alemán", "Caso", "Español"],
+      "rows": [
+        ["vor", "Dativ", "antes de / hace"],
+        ["seit", "Dativ", "desde (hace)"],
+        ["ab", "Dativ", "a partir de"],
+        ["bis", "Akkusativ (o sin caso con fecha)", "hasta"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El error más común de hispanohablantes: decir «Ich habe seit zwei Jahren Deutsch gelernt» (Perfekt) en vez de «Ich lerne seit zwei Jahren Deutsch» (presente). Con seit + acción que continúa, el alemán usa presente, no pasado."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "seit", "es": "desde (hace)", "ipa": "/zaɪ̯t/", "esApprox": "«zait»", "pos": "preposición", "gender": null, "example": { "target": "Ich lerne seit zwei Jahren Deutsch.", "es": "Aprendo alemán desde hace dos años." } },
+    { "id": "v2", "target": "ab", "es": "a partir de", "ipa": "/ap/", "esApprox": "«ap»", "pos": "preposición", "gender": null, "example": { "target": "Ab Montag arbeite ich hier.", "es": "A partir del lunes trabajo aquí." } },
+    { "id": "v3", "target": "bis", "es": "hasta", "ipa": "/bɪs/", "esApprox": "«bis»", "pos": "preposición", "gender": null, "example": { "target": "Ich bleibe bis Freitag.", "es": "Me quedo hasta el viernes." } },
+    { "id": "v4", "target": "das Essen", "es": "la comida", "ipa": "/ˈɛsn̩/", "esApprox": "«É-sen»", "pos": "sustantivo", "gender": "n", "example": { "target": "Vor dem Essen wasche ich mir die Hände.", "es": "Antes de comer, me lavo las manos." } },
+    { "id": "v5", "target": "die Hand", "es": "la mano", "ipa": "/hant/", "esApprox": "«jant»", "pos": "sustantivo", "gender": "f", "plural": "die Hände", "example": { "target": "Ich wasche mir die Hände.", "es": "Me lavo las manos." } },
+    { "id": "v6", "target": "der Montag", "es": "el lunes", "ipa": "/ˈmoːntaːk/", "esApprox": "«MÓN-tak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ab Montag arbeite ich hier.", "es": "A partir del lunes trabajo aquí." } },
+    { "id": "v7", "target": "der Freitag", "es": "el viernes", "ipa": "/ˈfʁaɪ̯taːk/", "esApprox": "«FRÁI-tak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich bleibe bis Freitag.", "es": "Me quedo hasta el viernes." } },
+    { "id": "v8", "target": "dauern", "es": "durar", "ipa": "/ˈdaʊ̯ɐn/", "esApprox": "«DÁU-ern»", "pos": "verbo", "gender": null, "example": { "target": "Wie lange dauert das?", "es": "¿Cuánto dura eso?" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["preposiciones-temporales"], "difficulty": 1, "prompt": "¿Cómo se dice «a partir de»?", "options": ["seit", "ab", "bis", "vor"], "answer": 1, "explain": "ab = a partir de." },
+    { "id": "e2", "type": "mcq", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "¿Qué tiempo verbal usa el alemán con seit + acción que continúa?", "options": ["Perfekt", "Präteritum", "Presente", "Futuro"], "answer": 2, "explain": "Ich lerne seit zwei Jahren Deutsch: presente, no Perfekt como en español." },
+    { "id": "e3", "type": "true_false", "tags": ["preposiciones-temporales"], "difficulty": 2, "statement": "«vor» puede significar tanto «antes de» como «hace».", "answer": true, "explain": "vor dem Essen (antes de comer); vor zwei Tagen (hace dos días, clase 96)." },
+    { "id": "e4", "type": "true_false", "tags": ["preposiciones-temporales"], "difficulty": 2, "statement": "«bis» siempre rige dativo, igual que seit y ab.", "answer": false, "explain": "bis rige acusativo (o va sin caso con una fecha/día concreto)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Une cada preposición con su traducción", "left": ["seit", "ab", "bis", "vor"], "right": ["desde (hace)", "a partir de", "hasta", "antes de / hace"], "answer": [0, 1, 2, 3], "explain": "Las cuatro preposiciones temporales de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Antes de comer, me lavo las manos.", "accept": ["Vor dem Essen wasche ich mir die Hände"], "hintWords": ["vor dem Essen wasche ich mir die Hände"], "strictAccents": false, "audio": "Vor dem Essen wasche ich mir die Hände.", "explain": "vor dem Essen: vor + dativo, «antes de»." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Aprendo alemán desde hace dos años.", "accept": ["Ich lerne seit zwei Jahren Deutsch"], "hintWords": ["ich lerne seit zwei Jahren Deutsch"], "strictAccents": false, "audio": "Ich lerne seit zwei Jahren Deutsch.", "explain": "seit + dativo, con el verbo en presente (lerne)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Me quedo hasta el viernes.", "accept": ["Ich bleibe bis Freitag"], "hintWords": ["ich bleibe bis Freitag"], "strictAccents": false, "audio": "Ich bleibe bis Freitag.", "explain": "bis Freitag: bis + día, sin artículo aquí." },
+    { "id": "e9", "type": "fill_blank", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Completa con la preposición correcta", "text": "___ Montag arbeite ich hier. Ich bleibe ___ Freitag.", "blanks": [{ "accept": ["Ab"] }, { "accept": ["bis"] }], "bank": ["Ab", "bis", "seit"], "explain": "Ab (inicio); bis (final)." },
+    { "id": "e10", "type": "word_order", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Ordena: «¿Cuánto dura eso?»", "tokens": ["das", "dauert", "Wie lange"], "answer": ["Wie lange", "dauert", "das"], "audio": "Wie lange dauert das?", "explain": "Wie lange dauert das?: pregunta clave para hablar de duración." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Ab Montag arbeite ich hier.", "accept": ["A partir del lunes trabajo aquí."], "strictAccents": false, "audio": "Ab Montag arbeite ich hier.", "explain": "ab Montag: a partir del lunes." },
+    { "id": "e12", "type": "dialogue", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Chef", "text": "Seit wann lernst du Deutsch?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich lerne seit zwei Jahren Deutsch."], "hint": "responde con seit + presente" },
+      { "who": "Chef", "text": "Sehr gut, das merkt man!", "speak": true }
+    ], "explain": "Práctica de seit + presente en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["preposiciones-temporales"], "difficulty": 1, "speak": "Ich lerne seit zwei Jahren Deutsch.", "mode": "write", "accept": ["Ich lerne seit zwei Jahren Deutsch"], "showTextAfter": true, "explain": "seit + dativo, con verbo en presente." },
+    { "id": "e14", "type": "listening", "tags": ["preposiciones-temporales"], "difficulty": 2, "speak": "Ab Montag arbeite ich hier.", "mode": "choose", "options": ["Ab Montag arbeite ich hier.", "Seit Montag arbeite ich hier.", "Bis Montag arbeite ich hier."], "answer": 0, "showTextAfter": true, "explain": "ab Montag (futuro, a partir de ahora) es distinto de seit Montag (ya empezó) y bis Montag (hasta)." },
+    { "id": "e15", "type": "shadowing", "tags": ["preposiciones-temporales"], "difficulty": 2, "speak": "Ich lerne seit zwei Jahren Deutsch, und ab nächstem Monat arbeite ich in Berlin.", "es": "Aprendo alemán desde hace dos años, y a partir del mes que viene trabajo en Berlín.", "ipa": "/ɪç ˈlɛʁnə zaɪ̯t tsvaɪ̯ ˈjaːʁən dɔɪ̯tʃ ʊnt ap ˈneːçstm̩ ˈmoːnaːt ˈaʁbaɪ̯tə ɪç ɪn bɛʁˈliːn/", "esApprox": "«ich LÉR-ne zait tsvai YÁ-ren doich, unt ap NÉCH-stem MÓ-nat AR-bai-te ich in ber-LÍN»", "focus": "seit + presente (lerne) frente a ab + presente con sentido de futuro cercano (arbeite).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["preposiciones-temporales"], "difficulty": 2, "speak": "Vor dem Essen wasche ich mir die Hände, und ich bleibe bis Freitag bei meiner Familie.", "es": "Antes de comer, me lavo las manos, y me quedo hasta el viernes con mi familia.", "ipa": "/foːɐ̯ deːm ˈɛsn̩ ˈvaʃə ɪç miːɐ̯ diː ˈhɛndə ʊnt ɪç ˈblaɪ̯bə bɪs ˈfʁaɪ̯taːk baɪ̯ ˈmaɪ̯nɐ familiə/", "esApprox": "«for dem É-sen VÁ-she ich mir di JÉN-de, unt ich BLÁI-be bis FRÁI-tak bai MÁI-ner fa-MÍ-lie»", "focus": "vor dem Essen (antes de) y bis Freitag (hasta): dos límites temporales, uno de inicio y otro de fin.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Te preguntan desde cuándo aprendes alemán. Responde que desde hace dos años.", "modelAnswer": "Ich lerne seit zwei Jahren Deutsch.", "alsoValid": ["Seit zwei Jahren."], "speak": "Ich lerne seit zwei Jahren Deutsch.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Clasifica cada preposición: inicio, fin, o duración desde el pasado", "buckets": ["Inicio (ab)", "Fin (bis)", "Duración (seit)"], "items": [
+      { "text": "ab Montag", "bucket": 0 },
+      { "text": "bis Freitag", "bucket": 1 },
+      { "text": "seit zwei Jahren", "bucket": 2 }
+    ], "explain": "ab marca el inicio; bis marca el final; seit marca desde cuándo dura algo." },
+    { "id": "e19", "type": "error_correction", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe seit zwei Jahren Deutsch gelernt.", "accept": ["Ich lerne seit zwei Jahren Deutsch"], "audio": "Ich lerne seit zwei Jahren Deutsch.", "explain": "Con seit + acción que continúa, el alemán usa presente, no Perfekt." },
+    { "id": "e20", "type": "mcq", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "«Ich lerne seit zwei Jahren Deutsch. Ab nächstem Monat arbeite ich in Berlin, und ich bleibe dort bis Ende des Jahres.» ¿Hasta cuándo se queda la persona en Berlín?", "options": ["Hasta el mes que viene", "Hasta finales de año", "Solo una semana", "No se dice"], "answer": 1, "explain": "«ich bleibe dort bis Ende des Jahres» = me quedo allí hasta finales de año." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "seit", "es": "desde (hace)", "esApprox": "«zait»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "ab", "es": "a partir de", "esApprox": "«ap»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "bis", "es": "hasta", "esApprox": "«bis»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Essen", "es": "la comida", "esApprox": "«É-sen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Hand", "es": "la mano", "esApprox": "«jant»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "dauern", "es": "durar", "esApprox": "«DÁU-ern»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich lerne seit zwei Jahren Deutsch, und ab nächstem Monat arbeite ich in Berlin.", "es": "Aprendo alemán desde hace dos años, y a partir del mes que viene trabajo en Berlín.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Vor dem Essen wasche ich mir die Hände, und ich bleibe bis Freitag bei meiner Familie.", "es": "Antes de comer, me lavo las manos, y me quedo hasta el viernes con mi familia.", "from": "e16" }
+  ]
+}

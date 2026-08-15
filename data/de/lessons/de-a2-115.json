@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-115",
+  "lang": "de",
+  "level": "A2",
+  "order": 115,
+  "title": "El genitivo en la lengua hablada: la alternativa con von",
+  "objectives": [
+    "Reconocer que en el alemán hablado, von + dativo sustituye a menudo al genitivo",
+    "Usar von + dativo obligatoriamente con nombres propios y pronombres",
+    "Reconocer wegen + dativo como variante coloquial, aunque wegen + genitivo sea la forma correcta por escrito"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "von + dativo: la alternativa hablada al genitivo",
+      "body": "En el alemán hablado cotidiano, es muy común sustituir el genitivo por von + dativo: en vez de «das Auto meines Vaters» (el coche de mi padre, genitivo), se suele decir «das Auto von meinem Vater» (con von + dativo). Esta alternativa es obligatoria con nombres propios sin artículo: no se dice «das Auto Annas» en el habla normal, sino «das Auto von Anna».",
+      "examples": [
+        { "target": "das Auto von meinem Vater", "es": "el coche de mi padre" },
+        { "target": "das Auto von Anna", "es": "el coche de Anna" },
+        { "target": "wegen dem Wetter (coloquial)", "es": "a causa del tiempo (informal)", "note": "en vez de wegen des Wetters" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Registro formal frente a registro hablado",
+      "headers": ["Formal (genitivo)", "Hablado (von + dativo)"],
+      "rows": [
+        ["das Auto meines Vaters", "das Auto von meinem Vater"],
+        ["wegen des Wetters", "wegen dem Wetter (coloquial)"],
+        ["(no se usa)", "das Auto von Anna (obligatorio con nombres propios)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para el examen o el registro escrito, usa siempre el genitivo correcto (des Vaters, des Wetters). Pero al hablar, especialmente con nombres propios, von + dativo es más natural y ampliamente aceptado, incluso entre hablantes nativos cultos."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "von", "es": "de (posesión, alternativa al genitivo)", "ipa": "/fɔn/", "esApprox": "«fon»", "pos": "preposición", "gender": null, "example": { "target": "das Auto von meinem Vater", "es": "el coche de mi padre" } },
+    { "id": "v2", "target": "der Vater", "es": "el padre", "ipa": "/ˈfaːtɐ/", "esApprox": "«FÁ-ter»", "pos": "sustantivo", "gender": "m", "plural": "die Väter", "example": { "target": "das Auto meines Vaters", "es": "el coche de mi padre" } },
+    { "id": "v3", "target": "eigentlich", "es": "en realidad, propiamente", "ipa": "/ˈaɪ̯ɡn̩tlɪç/", "esApprox": "«ÁI-guent-lich»", "pos": "adverbio", "gender": null, "example": { "target": "Eigentlich ist der Genitiv korrekter.", "es": "En realidad, el genitivo es más correcto." } },
+    { "id": "v4", "target": "die Umgangssprache", "es": "el lenguaje coloquial", "ipa": "/ˈʊmɡaŋsʃpʁaːxə/", "esApprox": "«UM-gangs-shpra-je»", "pos": "sustantivo", "gender": "f", "example": { "target": "In der Umgangssprache sagt man das anders.", "es": "En el lenguaje coloquial se dice de otra forma." } },
+    { "id": "v5", "target": "schriftlich", "es": "por escrito", "ipa": "/ˈʃʁɪftlɪç/", "esApprox": "«SHRIFT-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Schriftlich nutze ich den Genitiv.", "es": "Por escrito, uso el genitivo." } },
+    { "id": "v6", "target": "korrekt", "es": "correcto", "ipa": "/kɔˈʁɛkt/", "esApprox": "«ko-REKT»", "pos": "adjetivo", "gender": null, "example": { "target": "Beide Formen sind korrekt.", "es": "Ambas formas son correctas." } },
+    { "id": "v7", "target": "verbreitet", "es": "extendido, común", "ipa": "/fɛɐ̯ˈbʁaɪ̯tət/", "esApprox": "«fer-BRÁI-tet»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist sehr verbreitet.", "es": "Eso está muy extendido." } },
+    { "id": "v8", "target": "der Muttersprachler", "es": "el hablante nativo", "ipa": "/ˈmʊtɐʃpʁaːxlɐ/", "esApprox": "«MÚ-ter-shprach-ler»", "pos": "sustantivo", "gender": "m", "example": { "target": "Muttersprachler nutzen oft von.", "es": "Los hablantes nativos usan a menudo von." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["genitivo"], "difficulty": 1, "prompt": "¿Qué caso rige «von»?", "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"], "answer": 2, "explain": "von siempre rige dativo (clase 39)." },
+    { "id": "e2", "type": "mcq", "tags": ["genitivo"], "difficulty": 2, "prompt": "¿Cómo se dice «el coche de Anna» de forma natural en el habla?", "options": ["das Auto Annas", "das Auto von Anna", "das Auto Anna", "Annas das Auto"], "answer": 1, "explain": "Con nombres propios, von + dativo es lo más natural en el habla." },
+    { "id": "e3", "type": "true_false", "tags": ["genitivo"], "difficulty": 2, "statement": "En el habla cotidiana, von + dativo suele sustituir al genitivo.", "answer": true, "explain": "Es muy común, especialmente con nombres propios." },
+    { "id": "e4", "type": "true_false", "tags": ["genitivo"], "difficulty": 2, "statement": "El genitivo con des/der es incorrecto y ya no se usa en alemán.", "answer": false, "explain": "El genitivo sigue siendo correcto y necesario, sobre todo por escrito." },
+    { "id": "e5", "type": "match_pairs", "tags": ["genitivo"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["eigentlich", "die Umgangssprache", "schriftlich", "verbreitet"], "right": ["en realidad", "el lenguaje coloquial", "por escrito", "extendido, común"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave para hablar del registro del genitivo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["genitivo"], "difficulty": 2, "prompt": "El coche de mi padre es nuevo.", "accept": ["Das Auto von meinem Vater ist neu"], "hintWords": ["das Auto von meinem Vater ist neu"], "strictAccents": false, "audio": "Das Auto von meinem Vater ist neu.", "explain": "von meinem Vater: dativo, alternativa hablada al genitivo." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["genitivo"], "difficulty": 2, "prompt": "En realidad, el genitivo es más correcto.", "accept": ["Eigentlich ist der Genitiv korrekter"], "hintWords": ["eigentlich ist der Genitiv korrekter"], "strictAccents": false, "audio": "Eigentlich ist der Genitiv korrekter.", "explain": "eigentlich en posición 1." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["genitivo"], "difficulty": 2, "prompt": "Por escrito uso el genitivo.", "accept": ["Schriftlich nutze ich den Genitiv"], "hintWords": ["schriftlich nutze ich den Genitiv"], "strictAccents": false, "audio": "Schriftlich nutze ich den Genitiv.", "explain": "Schriftlich en posición 1, verbo en posición 2." },
+    { "id": "e9", "type": "fill_blank", "tags": ["genitivo"], "difficulty": 2, "prompt": "Completa con von o el genitivo", "text": "das Auto ___ Anna. das Auto meines ___. (Vater, genitivo)", "blanks": [{ "accept": ["von"] }, { "accept": ["Vaters"] }], "bank": ["von", "Vaters", "Vater"], "explain": "von Anna (con nombre propio); meines Vaters (genitivo)." },
+    { "id": "e10", "type": "word_order", "tags": ["genitivo"], "difficulty": 2, "prompt": "Ordena: «Los hablantes nativos usan a menudo von»", "tokens": ["oft von", "nutzen", "Muttersprachler"], "answer": ["Muttersprachler", "nutzen", "oft von"], "audio": "Muttersprachler nutzen oft von.", "explain": "Muttersprachler nutzen oft von: sujeto-verbo-complemento." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["genitivo"], "difficulty": 2, "prompt": "Beide Formen sind korrekt.", "accept": ["Ambas formas son correctas."], "strictAccents": false, "audio": "Beide Formen sind korrekt.", "explain": "beide + Formen: ambas formas." },
+    { "id": "e12", "type": "dialogue", "tags": ["genitivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Ben", "text": "Wessen Auto ist das?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das ist das Auto von Anna.", "Das ist das Auto meines Vaters."], "hint": "responde con von + nombre, o con genitivo" },
+      { "who": "Ben", "text": "Ah, verstehe!", "speak": true }
+    ], "explain": "Práctica de las dos formas de expresar posesión." },
+    { "id": "e13", "type": "listening", "tags": ["genitivo"], "difficulty": 1, "speak": "Das Auto von meinem Vater ist neu.", "mode": "write", "accept": ["Das Auto von meinem Vater ist neu"], "showTextAfter": true, "explain": "von + dativo: alternativa hablada al genitivo." },
+    { "id": "e14", "type": "listening", "tags": ["genitivo"], "difficulty": 2, "speak": "Das Auto von Anna ist neu.", "mode": "choose", "options": ["Das Auto von Anna ist neu.", "Das Auto Annas ist neu.", "Anna das Auto ist neu."], "answer": 0, "showTextAfter": true, "explain": "Ambas primeras son gramaticalmente posibles, pero «von Anna» es la más natural y común en el habla." },
+    { "id": "e15", "type": "shadowing", "tags": ["genitivo"], "difficulty": 2, "speak": "In der Umgangssprache sagt man oft das Auto von meinem Vater, aber schriftlich nutzt man den Genitiv.", "es": "En el lenguaje coloquial se suele decir «el coche de mi padre» con von, pero por escrito se usa el genitivo.", "ipa": "/ɪn deːɐ̯ ˈʊmɡaŋsʃpʁaːxə zaːkt man ɔft das ˈaʊ̯to fɔn ˈmaɪ̯nəm ˈfaːtɐ ˈaːbɐ ˈʃʁɪftlɪç ˈnʊtst man deːn ɡeˈniːtiːf/", "esApprox": "«in der UM-gangs-shpra-je zakt man oft das ÁU-to fon MÁI-nem FÁ-ter, Á-ber SHRIFT-lich nutst man den gue-NÍ-tif»", "focus": "Contraste directo entre el registro hablado (von + dativo) y el escrito (genitivo), en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["genitivo"], "difficulty": 2, "speak": "Beide Formen sind korrekt, und diese Variante ist unter Muttersprachlern sehr verbreitet.", "es": "Ambas formas son correctas, y esta variante está muy extendida entre los hablantes nativos.", "ipa": "/ˈbaɪ̯də ˈfɔʁmən zɪnt kɔˈʁɛkt ʊnt ˈdiːzə vaʁiˈantə ɪst ˈʊntɐ ˈmʊtɐʃpʁaːxlɐn zeːɐ̯ fɛɐ̯ˈbʁaɪ̯tət/", "esApprox": "«BÁI-de FÓR-men zint ko-REKT, unt DÍ-ze va-ri-ÁN-te ist ÚN-ter MÚ-ter-shprach-lern zer fer-BRÁI-tet»", "focus": "verbreitet: adjetivo clave para describir lo extendido de esta forma coloquial.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["genitivo"], "difficulty": 2, "prompt": "Te preguntan de quién es el coche. Di que es el coche de Anna, usando von.", "modelAnswer": "Das ist das Auto von Anna.", "alsoValid": ["Das Auto von Anna."], "speak": "Das ist das Auto von Anna.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["genitivo"], "difficulty": 2, "prompt": "Clasifica cada expresión: registro formal (genitivo) o coloquial (von + dativo)", "buckets": ["Formal (genitivo)", "Coloquial (von + dativo)"], "items": [
+      { "text": "das Auto meines Vaters", "bucket": 0 },
+      { "text": "das Auto von meinem Vater", "bucket": 1 },
+      { "text": "wegen des Wetters", "bucket": 0 },
+      { "text": "das Auto von Anna", "bucket": 1 }
+    ], "explain": "El genitivo con des/der es formal/escrito; von + dativo es más coloquial y hablado." },
+    { "id": "e19", "type": "error_correction", "tags": ["genitivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera (registro formal).", "wrong": "Schriftlich nutze ich von.", "accept": ["Schriftlich nutze ich den Genitiv"], "audio": "Schriftlich nutze ich den Genitiv.", "explain": "Por escrito se recomienda usar el genitivo, no von." },
+    { "id": "e20", "type": "mcq", "tags": ["genitivo"], "difficulty": 2, "prompt": "«In der Umgangssprache sagt man oft das Auto von meinem Vater. Schriftlich nutzt man den Genitiv: das Auto meines Vaters. Beide Formen sind korrekt.» ¿Qué forma se usa por escrito?", "options": ["von + dativo", "el genitivo", "ninguna, ambas son informales", "depende del hablante"], "answer": 1, "explain": "«Schriftlich nutzt man den Genitiv» = por escrito se usa el genitivo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "von", "es": "de (posesión, alternativa al genitivo)", "esApprox": "«fon»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Vater", "es": "el padre", "esApprox": "«FÁ-ter»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "eigentlich", "es": "en realidad, propiamente", "esApprox": "«ÁI-guent-lich»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Umgangssprache", "es": "el lenguaje coloquial", "esApprox": "«UM-gangs-shpra-je»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "schriftlich", "es": "por escrito", "esApprox": "«SHRIFT-lich»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "verbreitet", "es": "extendido, común", "esApprox": "«fer-BRÁI-tet»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "In der Umgangssprache sagt man oft das Auto von meinem Vater, aber schriftlich nutzt man den Genitiv.", "es": "En el lenguaje coloquial se suele decir «el coche de mi padre» con von, pero por escrito se usa el genitivo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Beide Formen sind korrekt, und diese Variante ist unter Muttersprachlern sehr verbreitet.", "es": "Ambas formas son correctas, y esta variante está muy extendida entre los hablantes nativos.", "from": "e16" }
+  ]
+}

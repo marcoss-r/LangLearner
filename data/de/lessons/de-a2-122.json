@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-122",
+  "lang": "de",
+  "level": "A2",
+  "order": 122,
+  "title": "Hablar de cuánto tiempo llevas haciendo algo",
+  "objectives": [
+    "Preguntar «¿desde cuándo?» y «¿cuánto tiempo?» con seit wann y wie lange",
+    "Responder combinando seit + dativo con el verbo en presente",
+    "Usar schon (ya) e immer noch (todavía) para matizar la duración"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Seit wann? y Wie lange?",
+      "body": "Para preguntar desde cuándo dura algo, usa «Seit wann...?» (¿Desde cuándo...?): «Seit wann wohnst du hier?» (¿Desde cuándo vives aquí?). Para preguntar la duración total, usa «Wie lange...?» (¿Cuánto tiempo...?): «Wie lange lernst du schon Deutsch?» (¿Cuánto tiempo llevas ya aprendiendo alemán?). Ambas se responden con seit + dativo y el verbo en presente.",
+      "examples": [
+        { "target": "Seit wann wohnst du hier?", "es": "¿Desde cuándo vives aquí?" },
+        { "target": "Ich wohne seit drei Jahren hier.", "es": "Vivo aquí desde hace tres años." },
+        { "target": "Wie lange lernst du schon Deutsch?", "es": "¿Cuánto tiempo llevas ya aprendiendo alemán?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Matices de duración",
+      "headers": ["Palabra", "Matiz"],
+      "rows": [
+        ["schon", "refuerza que algo lleva un tiempo notable"],
+        ["immer noch", "indica que algo sigue igual pese al tiempo pasado"],
+        ["mittlerweile", "señala un progreso ya visible con el tiempo"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "schon (ya) refuerza que algo lleva un tiempo notable: «Ich lerne schon seit zwei Jahren Deutsch» (Ya llevo dos años aprendiendo alemán). immer noch (todavía) indica que algo sigue igual pese al tiempo pasado: «Ich lerne immer noch Deutsch» (Todavía sigo aprendiendo alemán)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "seit wann?", "es": "¿desde cuándo?", "ipa": "/zaɪ̯t van/", "esApprox": "«zait van»", "pos": "expresión", "gender": null, "example": { "target": "Seit wann wohnst du hier?", "es": "¿Desde cuándo vives aquí?" } },
+    { "id": "v2", "target": "wie lange?", "es": "¿cuánto tiempo?", "ipa": "/viː ˈlaŋə/", "esApprox": "«vi LÁN-ge»", "pos": "expresión", "gender": null, "example": { "target": "Wie lange lernst du schon Deutsch?", "es": "¿Cuánto tiempo llevas ya aprendiendo alemán?" } },
+    { "id": "v3", "target": "immer noch", "es": "todavía", "ipa": "/ˈɪmɐ nɔx/", "esApprox": "«Í-mer noch»", "pos": "adverbio", "gender": null, "example": { "target": "Ich lerne immer noch Deutsch.", "es": "Todavía sigo aprendiendo alemán." } },
+    { "id": "v4", "target": "seitdem", "es": "desde entonces", "ipa": "/zaɪ̯tˈdeːm/", "esApprox": "«zait-DEM»", "pos": "adverbio", "gender": null, "example": { "target": "Seitdem wohne ich hier.", "es": "Desde entonces vivo aquí." } },
+    { "id": "v5", "target": "umziehen", "es": "mudarse", "ipa": "/ˈʊmtsiːən/", "esApprox": "«UM-tsi-en»", "pos": "verbo", "gender": null, "example": { "target": "Ich bin vor drei Jahren umgezogen.", "es": "Me mudé hace tres años." } },
+    { "id": "v6", "target": "der Zeitraum", "es": "el periodo de tiempo", "ipa": "/ˈtsaɪ̯tʁaʊ̯m/", "esApprox": "«TSÁIT-raum»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein langer Zeitraum.", "es": "Ese es un periodo largo." } },
+    { "id": "v7", "target": "die Dauer", "es": "la duración", "ipa": "/ˈdaʊ̯ɐ/", "esApprox": "«DÁU-er»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Dauer ist unbekannt.", "es": "La duración es desconocida." } },
+    { "id": "v8", "target": "mittlerweile", "es": "entretanto, ya", "ipa": "/mɪtlɐˈvaɪ̯lə/", "esApprox": "«mit-ler-VÁI-le»", "pos": "adverbio", "gender": null, "example": { "target": "Mittlerweile spreche ich gut Deutsch.", "es": "Ya hablo bien alemán." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["preposiciones-temporales"], "difficulty": 1, "prompt": "¿Cómo se pregunta «¿desde cuándo?»?", "options": ["Wie lange?", "Seit wann?", "Wann?", "Bis wann?"], "answer": 1, "explain": "Seit wann? = ¿desde cuándo?" },
+    { "id": "e2", "type": "mcq", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "¿Qué significa «immer noch»?", "options": ["nunca más", "todavía", "desde entonces", "a veces"], "answer": 1, "explain": "immer noch = todavía, algo que continúa." },
+    { "id": "e3", "type": "true_false", "tags": ["preposiciones-temporales"], "difficulty": 2, "statement": "«Wie lange lernst du schon Deutsch?» se responde con seit + dativo.", "answer": true, "explain": "Ich lerne seit zwei Jahren Deutsch: respuesta típica." },
+    { "id": "e4", "type": "true_false", "tags": ["preposiciones-temporales"], "difficulty": 2, "statement": "«seitdem» significa lo mismo que «seit», y se usan de la misma forma.", "answer": false, "explain": "seitdem es un adverbio («desde entonces»); seit es una preposición que necesita un complemento en dativo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["seit wann?", "wie lange?", "immer noch", "seitdem"], "right": ["¿desde cuándo?", "¿cuánto tiempo?", "todavía", "desde entonces"], "answer": [0, 1, 2, 3], "explain": "Cuatro expresiones clave para hablar de duración." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "¿Desde cuándo vives aquí?", "accept": ["Seit wann wohnst du hier?", "Seit wann wohnst du hier"], "hintWords": ["seit wann wohnst du hier"], "strictAccents": false, "audio": "Seit wann wohnst du hier?", "explain": "Seit wann...?: pregunta clave de esta clase." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Vivo aquí desde hace tres años.", "accept": ["Ich wohne seit drei Jahren hier"], "hintWords": ["ich wohne seit drei Jahren hier"], "strictAccents": false, "audio": "Ich wohne seit drei Jahren hier.", "explain": "seit drei Jahren + presente (wohne)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Todavía sigo aprendiendo alemán.", "accept": ["Ich lerne immer noch Deutsch"], "hintWords": ["ich lerne immer noch Deutsch"], "strictAccents": false, "audio": "Ich lerne immer noch Deutsch.", "explain": "immer noch: todavía, énfasis en la continuidad." },
+    { "id": "e9", "type": "fill_blank", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Completa la pregunta y respuesta", "text": "___ lernst du schon Deutsch? Ich lerne ___ zwei Jahren Deutsch.", "blanks": [{ "accept": ["Wie lange"] }, { "accept": ["seit"] }], "bank": ["Wie lange", "seit", "Seit wann"], "explain": "Wie lange (pregunta de duración); seit (respuesta con dativo)." },
+    { "id": "e10", "type": "word_order", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Ordena: «Ya hablo bien alemán»", "tokens": ["gut Deutsch", "Mittlerweile", "spreche ich"], "answer": ["Mittlerweile", "spreche ich", "gut Deutsch"], "audio": "Mittlerweile spreche ich gut Deutsch.", "explain": "Mittlerweile (posición 1) + spreche (posición 2) + ich + gut Deutsch." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Ich bin vor drei Jahren umgezogen.", "accept": ["Me mudé hace tres años."], "strictAccents": false, "audio": "Ich bin vor drei Jahren umgezogen.", "explain": "umziehen: Perfekt con sein, ist umgezogen." },
+    { "id": "e12", "type": "dialogue", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lena", "text": "Seit wann wohnst du hier?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich wohne seit drei Jahren hier."], "hint": "responde con seit + dativo + presente" },
+      { "who": "Lena", "text": "Ach, das wusste ich nicht!", "speak": true }
+    ], "explain": "Práctica de seit wann y su respuesta." },
+    { "id": "e13", "type": "listening", "tags": ["preposiciones-temporales"], "difficulty": 1, "speak": "Seit wann wohnst du hier?", "mode": "write", "accept": ["Seit wann wohnst du hier"], "showTextAfter": true, "explain": "Seit wann...?: pregunta sobre el inicio de una situación que continúa." },
+    { "id": "e14", "type": "listening", "tags": ["preposiciones-temporales"], "difficulty": 2, "speak": "Wie lange lernst du schon Deutsch?", "mode": "choose", "options": ["Wie lange lernst du schon Deutsch?", "Wann lernst du Deutsch?", "Seit wann lernst du Deutsch?"], "answer": 0, "showTextAfter": true, "explain": "Wie lange...schon...? pregunta por la duración total, con schon reforzando la continuidad." },
+    { "id": "e15", "type": "shadowing", "tags": ["preposiciones-temporales"], "difficulty": 2, "speak": "Seit wann wohnst du hier? Ich wohne seit drei Jahren hier, und seitdem lerne ich Deutsch.", "es": "¿Desde cuándo vives aquí? Vivo aquí desde hace tres años, y desde entonces aprendo alemán.", "ipa": "/zaɪ̯t van ˈvoːnst duː hiːɐ̯ ɪç ˈvoːnə zaɪ̯t dʁaɪ̯ ˈjaːʁən hiːɐ̯ ʊnt zaɪ̯tˈdeːm ˈlɛʁnə ɪç dɔɪ̯tʃ/", "esApprox": "«zait van vonst du jir? ich VÓ-ne zait drai YÁ-ren jir, unt zait-DEM LÉR-ne ich doich»", "focus": "seit wann (pregunta), seit drei Jahren (respuesta) y seitdem (adverbio): tres formas relacionadas, distintas funciones.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["preposiciones-temporales"], "difficulty": 2, "speak": "Wie lange lernst du schon Deutsch? Ich lerne immer noch, aber mittlerweile spreche ich ziemlich gut.", "es": "¿Cuánto tiempo llevas ya aprendiendo alemán? Todavía sigo aprendiendo, pero ya hablo bastante bien.", "ipa": "/viː ˈlaŋə ˈlɛʁnst duː ʃoːn dɔɪ̯tʃ ɪç ˈlɛʁnə ˈɪmɐ nɔx ˈaːbɐ mɪtlɐˈvaɪ̯lə ˈʃpʁɛçə ɪç ˈtsiːmlɪç ɡuːt/", "esApprox": "«vi LÁN-ge LÉRNST du shon doich? ich LÉR-ne Í-mer noch, Á-ber mit-ler-VÁI-le SHPRÉ-je ich TSÍM-lich gut»", "focus": "immer noch (continuidad) y mittlerweile (progreso ya notable): dos matices distintos sobre la misma situación.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Te preguntan desde cuándo vives en tu ciudad. Di que vives ahí desde hace tres años.", "modelAnswer": "Ich wohne seit drei Jahren hier.", "alsoValid": ["Seit drei Jahren."], "speak": "Ich wohne seit drei Jahren hier.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Clasifica cada expresión: pregunta o respuesta/matiz", "buckets": ["Pregunta", "Respuesta/matiz"], "items": [
+      { "text": "Seit wann...?", "bucket": 0 },
+      { "text": "seit drei Jahren", "bucket": 1 },
+      { "text": "Wie lange...?", "bucket": 0 },
+      { "text": "immer noch", "bucket": 1 }
+    ], "explain": "Seit wann y Wie lange son preguntas; seit + tiempo e immer noch son respuestas o matices." },
+    { "id": "e19", "type": "error_correction", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe seit drei Jahren hier gewohnt.", "accept": ["Ich wohne seit drei Jahren hier"], "audio": "Ich wohne seit drei Jahren hier.", "explain": "Con seit + acción que continúa, se usa presente, no Perfekt." },
+    { "id": "e20", "type": "mcq", "tags": ["preposiciones-temporales"], "difficulty": 2, "prompt": "«Seit wann wohnst du hier? Ich wohne seit drei Jahren hier, und seitdem lerne ich Deutsch. Mittlerweile spreche ich ziemlich gut.» ¿Cómo habla alemán la persona ahora?", "options": ["Muy mal", "Bastante bien", "Perfectamente", "No lo habla todavía"], "answer": 1, "explain": "«mittlerweile spreche ich ziemlich gut» = ya hablo bastante bien." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "seit wann?", "es": "¿desde cuándo?", "esApprox": "«zait van»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "wie lange?", "es": "¿cuánto tiempo?", "esApprox": "«vi LÁN-ge»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "immer noch", "es": "todavía", "esApprox": "«Í-mer noch»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "seitdem", "es": "desde entonces", "esApprox": "«zait-DEM»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "umziehen", "es": "mudarse", "esApprox": "«UM-tsi-en»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "mittlerweile", "es": "entretanto, ya", "esApprox": "«mit-ler-VÁI-le»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Seit wann wohnst du hier? Ich wohne seit drei Jahren hier, und seitdem lerne ich Deutsch.", "es": "¿Desde cuándo vives aquí? Vivo aquí desde hace tres años, y desde entonces aprendo alemán.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wie lange lernst du schon Deutsch? Ich lerne immer noch, aber mittlerweile spreche ich ziemlich gut.", "es": "¿Cuánto tiempo llevas ya aprendiendo alemán? Todavía sigo aprendiendo, pero ya hablo bastante bien.", "from": "e16" }
+  ]
+}

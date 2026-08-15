@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-114",
+  "lang": "de",
+  "level": "A2",
+  "order": 114,
+  "title": "Preposiciones de genitivo: wegen, trotz, während",
+  "objectives": [
+    "Usar wegen (a causa de), trotz (a pesar de) y während (durante) con genitivo",
+    "Reconocer estas tres preposiciones como las más frecuentes que rigen genitivo",
+    "Distinguir während como preposición (+ genitivo) de während como conjunción (+ verbo al final)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres preposiciones que exigen genitivo",
+      "body": "Wegen (a causa de), trotz (a pesar de) y während (durante) son las preposiciones de genitivo más frecuentes del alemán estándar. Funcionan como cualquier otra preposición, pero exigen el sustantivo en genitivo: «wegen des Wetters» (a causa del tiempo), «trotz der Kälte» (a pesar del frío), «während des Sommers» (durante el verano).",
+      "examples": [
+        { "target": "Wegen des Wetters bleiben wir zu Hause.", "es": "A causa del tiempo, nos quedamos en casa." },
+        { "target": "Trotz der Kälte gehen wir spazieren.", "es": "A pesar del frío, vamos a pasear." },
+        { "target": "Während des Sommers arbeite ich viel.", "es": "Durante el verano trabajo mucho." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las tres preposiciones de genitivo",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["wegen + genitivo", "a causa de"],
+        ["trotz + genitivo", "a pesar de"],
+        ["während + genitivo", "durante"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "während también puede funcionar como conjunción (no preposición), con el significado de «mientras»: «Während ich arbeite, hört sie Musik» (Mientras trabajo, ella escucha música). Como conjunción, manda el verbo al final, igual que weil o dass."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "wegen", "es": "a causa de", "ipa": "/ˈveːɡn̩/", "esApprox": "«VÉ-guen»", "pos": "preposición", "gender": null, "example": { "target": "Wegen des Wetters bleiben wir zu Hause.", "es": "A causa del tiempo, nos quedamos en casa." } },
+    { "id": "v2", "target": "trotz", "es": "a pesar de", "ipa": "/tʁɔts/", "esApprox": "«trots»", "pos": "preposición", "gender": null, "example": { "target": "Trotz der Kälte gehen wir spazieren.", "es": "A pesar del frío, vamos a pasear." } },
+    { "id": "v3", "target": "während", "es": "durante / mientras", "ipa": "/ˈvɛːʁənt/", "esApprox": "«VÉ-rent»", "pos": "preposición", "gender": null, "example": { "target": "Während des Sommers arbeite ich viel.", "es": "Durante el verano trabajo mucho." } },
+    { "id": "v4", "target": "das Wetter", "es": "el tiempo (meteorológico)", "ipa": "/ˈvɛtɐ/", "esApprox": "«VÉ-ter»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Wetter ist schlecht.", "es": "El tiempo está mal." } },
+    { "id": "v5", "target": "die Kälte", "es": "el frío", "ipa": "/ˈkɛltə/", "esApprox": "«KÉL-te»", "pos": "sustantivo", "gender": "f", "example": { "target": "Trotz der Kälte gehen wir raus.", "es": "A pesar del frío, salimos." } },
+    { "id": "v6", "target": "der Sommer", "es": "el verano", "ipa": "/ˈzɔmɐ/", "esApprox": "«ZÓ-mer»", "pos": "sustantivo", "gender": "m", "example": { "target": "Während des Sommers reise ich viel.", "es": "Durante el verano viajo mucho." } },
+    { "id": "v7", "target": "spazieren gehen", "es": "ir a pasear", "ipa": "/ʃpaˈtsiːʁən ˈɡeːən/", "esApprox": "«shpa-TSÍ-ren GUÉ-en»", "pos": "expresión", "gender": null, "example": { "target": "Wir gehen spazieren.", "es": "Vamos a pasear." } },
+    { "id": "v8", "target": "die Verspätung", "es": "el retraso", "ipa": "/fɛɐ̯ˈʃpɛːtʊŋ/", "esApprox": "«fer-SHPÉ-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wegen der Verspätung kommen wir spät.", "es": "A causa del retraso, llegamos tarde." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["preposiciones"], "difficulty": 1, "prompt": "¿Qué significa «wegen»?", "options": ["a pesar de", "a causa de", "durante", "mientras"], "answer": 1, "explain": "wegen = a causa de." },
+    { "id": "e2", "type": "mcq", "tags": ["genitivo"], "difficulty": 2, "prompt": "¿Qué caso rige «trotz»?", "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"], "answer": 3, "explain": "trotz + genitivo, igual que wegen y während." },
+    { "id": "e3", "type": "true_false", "tags": ["preposiciones"], "difficulty": 2, "statement": "«während» puede funcionar como preposición o como conjunción.", "answer": true, "explain": "Como preposición (+ genitivo) significa «durante»; como conjunción (+ verbo final) significa «mientras»." },
+    { "id": "e4", "type": "true_false", "tags": ["genitivo"], "difficulty": 2, "statement": "wegen, trotz y während son las tres preposiciones de dativo más frecuentes.", "answer": false, "explain": "Son las tres preposiciones de GENITIVO más frecuentes, no de dativo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["preposiciones"], "difficulty": 2, "prompt": "Une cada preposición con su traducción", "left": ["wegen", "trotz", "während", "die Kälte"], "right": ["a causa de", "a pesar de", "durante", "el frío"], "answer": [0, 1, 2, 3], "explain": "Tres preposiciones de genitivo, más un sustantivo relacionado." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["preposiciones"], "difficulty": 2, "prompt": "A causa del tiempo, nos quedamos en casa.", "accept": ["Wegen des Wetters bleiben wir zu Hause"], "hintWords": ["wegen des Wetters bleiben wir zu Hause"], "strictAccents": false, "audio": "Wegen des Wetters bleiben wir zu Hause.", "explain": "Wegen + genitivo neutro (des Wetters), en posición 1." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["preposiciones"], "difficulty": 2, "prompt": "A pesar del frío, vamos a pasear.", "accept": ["Trotz der Kälte gehen wir spazieren"], "hintWords": ["trotz der Kälte gehen wir spazieren"], "strictAccents": false, "audio": "Trotz der Kälte gehen wir spazieren.", "explain": "Trotz + genitivo femenino (der Kälte)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["preposiciones"], "difficulty": 2, "prompt": "Durante el verano trabajo mucho.", "accept": ["Während des Sommers arbeite ich viel"], "hintWords": ["während des Sommers arbeite ich viel"], "strictAccents": false, "audio": "Während des Sommers arbeite ich viel.", "explain": "Während + genitivo masculino (des Sommers)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["genitivo"], "difficulty": 2, "prompt": "Completa con la preposición correcta", "text": "___ der Verspätung kommen wir spät. ___ der Kälte gehen wir raus.", "blanks": [{ "accept": ["Wegen"] }, { "accept": ["Trotz"] }], "bank": ["Wegen", "Trotz", "Während"], "explain": "Wegen (causa); Trotz (a pesar de, contraste)." },
+    { "id": "e10", "type": "word_order", "tags": ["preposiciones"], "difficulty": 2, "prompt": "Ordena: «Durante el verano, viajo mucho»", "tokens": ["reise ich viel", "des Sommers", "Während"], "answer": ["Während", "des Sommers", "reise ich viel"], "audio": "Während des Sommers reise ich viel.", "explain": "Während des Sommers (posición 1) + reise (posición 2) + ich + viel." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["preposiciones"], "difficulty": 2, "prompt": "Wegen der Verspätung kommen wir spät.", "accept": ["A causa del retraso, llegamos tarde."], "strictAccents": false, "audio": "Wegen der Verspätung kommen wir spät.", "explain": "Wegen + genitivo femenino (der Verspätung)." },
+    { "id": "e12", "type": "dialogue", "tags": ["preposiciones"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Nils", "text": "Warum bleibt ihr zu Hause?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Wegen des Wetters bleiben wir zu Hause."], "hint": "responde con wegen + genitivo" },
+      { "who": "Nils", "text": "Ach so, verständlich!", "speak": true }
+    ], "explain": "Práctica de wegen en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["preposiciones"], "difficulty": 1, "speak": "Wegen des Wetters bleiben wir zu Hause.", "mode": "write", "accept": ["Wegen des Wetters bleiben wir zu Hause"], "showTextAfter": true, "explain": "Wegen + genitivo, la preposición de genitivo más frecuente." },
+    { "id": "e14", "type": "listening", "tags": ["preposiciones"], "difficulty": 2, "speak": "Trotz der Kälte gehen wir spazieren.", "mode": "choose", "options": ["Trotz der Kälte gehen wir spazieren.", "Wegen der Kälte gehen wir spazieren.", "Während der Kälte gehen wir spazieren."], "answer": 0, "showTextAfter": true, "explain": "Trotz (a pesar de) tiene sentido contrastivo, distinto de wegen (causa) y während (durante)." },
+    { "id": "e15", "type": "shadowing", "tags": ["preposiciones"], "difficulty": 2, "speak": "Wegen des Wetters bleiben wir zu Hause, aber trotz der Kälte gehen die Kinder raus.", "es": "A causa del tiempo, nos quedamos en casa, pero a pesar del frío, los niños salen.", "ipa": "/ˈveːɡn̩ dɛs ˈvɛtɐs ˈblaɪ̯bn̩ viːɐ̯ tsuː ˈhaʊ̯zə ˈaːbɐ tʁɔts deːɐ̯ ˈkɛltə ˈɡeːən diː ˈkɪndɐ ʁaʊ̯s/", "esApprox": "«VÉ-guen des VÉ-ters BLÁI-ben vir tsu JÁU-ze, Á-ber trots der KÉL-te GUÉ-en di KÍN-der raus»", "focus": "wegen des Wetters (neutro) y trotz der Kälte (femenino): dos preposiciones de genitivo contrastadas con aber.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["preposiciones"], "difficulty": 2, "speak": "Während des Sommers arbeite ich viel, aber während ich arbeite, höre ich immer Musik.", "es": "Durante el verano trabajo mucho, pero mientras trabajo, siempre escucho música.", "ipa": "/ˈvɛːʁənt dɛs ˈzɔmɐs ˈaʁbaɪ̯tə ɪç fiːl ˈaːbɐ ˈvɛːʁənt ɪç ˈaʁbaɪ̯tə ˈhøːʁə ɪç ˈɪmɐ muˈziːk/", "esApprox": "«VÉ-rent des ZÓ-mers AR-bai-te ich fil, Á-ber VÉ-rent ich AR-bai-te, JÖ-re ich Í-mer mu-ZIK»", "focus": "während des Sommers (preposición + genitivo) frente a während ich arbeite (conjunción, sin cambiar el orden aquí).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["preposiciones"], "difficulty": 2, "prompt": "Te preguntan por qué os quedáis en casa. Di que es a causa del tiempo.", "modelAnswer": "Wegen des Wetters bleiben wir zu Hause.", "alsoValid": ["Wegen des Wetters."], "speak": "Wegen des Wetters bleiben wir zu Hause.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["preposiciones"], "difficulty": 2, "prompt": "Clasifica cada preposición según su significado", "buckets": ["Causa", "Contraste", "Tiempo"], "items": [
+      { "text": "wegen", "bucket": 0 },
+      { "text": "trotz", "bucket": 1 },
+      { "text": "während", "bucket": 2 }
+    ], "explain": "wegen (causa), trotz (contraste), während (tiempo/duración)." },
+    { "id": "e19", "type": "error_correction", "tags": ["genitivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wegen das Wetter bleiben wir zu Hause.", "accept": ["Wegen des Wetters bleiben wir zu Hause"], "audio": "Wegen des Wetters bleiben wir zu Hause.", "explain": "wegen exige genitivo: des Wetters, no das Wetter (nominativo/acusativo)." },
+    { "id": "e20", "type": "mcq", "tags": ["preposiciones"], "difficulty": 2, "prompt": "«Wegen des Wetters bleiben wir zu Hause. Trotz der Kälte gehen die Kinder raus, und während des Sommers reisen wir viel.» ¿Cuándo viaja la familia?", "options": ["Cuando hace frío", "Durante el verano", "Cuando llueve", "Nunca viajan"], "answer": 1, "explain": "«während des Sommers reisen wir viel» = durante el verano viajamos mucho." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "wegen", "es": "a causa de", "esApprox": "«VÉ-guen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "trotz", "es": "a pesar de", "esApprox": "«trots»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "während", "es": "durante / mientras", "esApprox": "«VÉ-rent»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Wetter", "es": "el tiempo (meteorológico)", "esApprox": "«VÉ-ter»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Kälte", "es": "el frío", "esApprox": "«KÉL-te»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Verspätung", "es": "el retraso", "esApprox": "«fer-SHPÉ-tung»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Wegen des Wetters bleiben wir zu Hause, aber trotz der Kälte gehen die Kinder raus.", "es": "A causa del tiempo, nos quedamos en casa, pero a pesar del frío, los niños salen.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Während des Sommers arbeite ich viel, aber während ich arbeite, höre ich immer Musik.", "es": "Durante el verano trabajo mucho, pero mientras trabajo, siempre escucho música.", "from": "e16" }
+  ]
+}

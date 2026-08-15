@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-118",
+  "lang": "de",
+  "level": "A2",
+  "order": 118,
+  "title": "Los compuestos da-: darauf, damit, dafür",
+  "objectives": [
+    "Formar compuestos da- (darauf, damit, dafür, daran...) para referirse a cosas, no a personas",
+    "Usar estos compuestos para sustituir «preposición + esto/eso» sin repetir el sustantivo",
+    "Distinguir cuándo usar da- (para cosas) y cuándo usar la preposición + pronombre normal (para personas)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "da- + preposición: sustituir cosas, no personas",
+      "body": "Cuando quieres referirte con un pronombre a una COSA o IDEA (no a una persona) tras una preposición, el alemán no dice «auf es» o «für es»: usa un compuesto da- + preposición. «Ich freue mich auf die Ferien» → «Ich freue mich darauf» (Tengo ganas de eso). Si la preposición empieza por vocal (auf, an, in...), se añade una -r-: darauf, daran, darin.",
+      "examples": [
+        { "target": "Ich interessiere mich für Musik. → Ich interessiere mich dafür.", "es": "Me interesa la música. → Me interesa eso." },
+        { "target": "Ich freue mich auf die Ferien. → Ich freue mich darauf.", "es": "Tengo ganas de las vacaciones. → Tengo ganas de eso." },
+        { "target": "Ich schreibe mit einem Stift. → Ich schreibe damit.", "es": "Escribo con un bolígrafo. → Escribo con eso." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Compuestos da- frecuentes",
+      "headers": ["Preposición", "Compuesto da-", "Español"],
+      "rows": [
+        ["auf", "darauf", "sobre eso, por eso (futuro)"],
+        ["für", "dafür", "por eso, para eso"],
+        ["mit", "damit", "con eso"],
+        ["an", "daran", "en eso"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Regla clave: da- (cosas/ideas) frente a preposición + pronombre normal (personas). «Ich denke an dich» (a una persona) NO se convierte en «daran»; solo «Ich denke an das Problem» → «Ich denke daran» (a una cosa)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "darauf", "es": "sobre eso, por eso (futuro)", "ipa": "/daˈʁaʊ̯f/", "esApprox": "«da-RAUF»", "pos": "adverbio", "gender": null, "example": { "target": "Ich freue mich darauf.", "es": "Tengo ganas de eso." } },
+    { "id": "v2", "target": "dafür", "es": "por eso, para eso", "ipa": "/daˈfyːɐ̯/", "esApprox": "«da-FÜR»", "pos": "adverbio", "gender": null, "example": { "target": "Ich interessiere mich dafür.", "es": "Me interesa eso." } },
+    { "id": "v3", "target": "damit", "es": "con eso", "ipa": "/daˈmɪt/", "esApprox": "«da-MIT»", "pos": "adverbio", "gender": null, "example": { "target": "Ich schreibe damit.", "es": "Escribo con eso." } },
+    { "id": "v4", "target": "daran", "es": "en eso, de eso", "ipa": "/daˈʁan/", "esApprox": "«da-RAN»", "pos": "adverbio", "gender": null, "example": { "target": "Ich denke daran.", "es": "Pienso en eso." } },
+    { "id": "v5", "target": "der Stift", "es": "el bolígrafo, el lápiz", "ipa": "/ʃtɪft/", "esApprox": "«shtift»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich schreibe mit einem Stift.", "es": "Escribo con un bolígrafo." } },
+    { "id": "v6", "target": "das Problem", "es": "el problema", "ipa": "/pʁoˈbleːm/", "esApprox": "«pro-BLÉM»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich denke an das Problem.", "es": "Pienso en el problema." } },
+    { "id": "v7", "target": "ersetzen", "es": "sustituir, reemplazar", "ipa": "/ɛɐ̯ˈzɛtsn̩/", "esApprox": "«er-ZÉ-tsen»", "pos": "verbo", "gender": null, "example": { "target": "Da- ersetzt eine Sache.", "es": "Da- sustituye a una cosa." } },
+    { "id": "v8", "target": "die Sache", "es": "la cosa, el asunto", "ipa": "/ˈzaxə/", "esApprox": "«ZÁ-je»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine wichtige Sache.", "es": "Ese es un asunto importante." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["da-compuestos"], "difficulty": 1, "prompt": "¿Cuándo se usa un compuesto da-?", "options": ["Para personas", "Para cosas o ideas", "Solo en preguntas", "Nunca en alemán"], "answer": 1, "explain": "da- + preposición sustituye a cosas o ideas, no a personas." },
+    { "id": "e2", "type": "mcq", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "¿Por qué «darauf» lleva una -r- extra?", "options": ["Porque auf empieza por vocal", "Porque es plural", "Porque es formal", "Sin razón, es irregular"], "answer": 0, "explain": "Cuando la preposición empieza por vocal, se inserta -r- para facilitar la pronunciación." },
+    { "id": "e3", "type": "true_false", "tags": ["da-compuestos"], "difficulty": 2, "statement": "«Ich denke an dich» se puede convertir en «Ich denke daran» sin cambiar el significado.", "answer": false, "explain": "daran solo sustituye cosas; dich (persona) no se sustituye por daran." },
+    { "id": "e4", "type": "true_false", "tags": ["da-compuestos"], "difficulty": 2, "statement": "damit sustituye a «mit + cosa».", "answer": true, "explain": "Ich schreibe mit einem Stift → Ich schreibe damit." },
+    { "id": "e5", "type": "match_pairs", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Une cada compuesto con su preposición base", "left": ["darauf", "dafür", "damit", "daran"], "right": ["auf", "für", "mit", "an"], "answer": [0, 1, 2, 3], "explain": "Cuatro compuestos da- frecuentes, con su preposición correspondiente." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Tengo ganas de eso.", "accept": ["Ich freue mich darauf"], "hintWords": ["ich freue mich darauf"], "strictAccents": false, "audio": "Ich freue mich darauf.", "explain": "darauf sustituye a «auf + cosa» (die Ferien)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Me interesa eso.", "accept": ["Ich interessiere mich dafür"], "hintWords": ["ich interessiere mich dafür"], "strictAccents": false, "audio": "Ich interessiere mich dafür.", "explain": "dafür sustituye a «für + cosa» (Musik)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Escribo con eso.", "accept": ["Ich schreibe damit"], "hintWords": ["ich schreibe damit"], "strictAccents": false, "audio": "Ich schreibe damit.", "explain": "damit sustituye a «mit + cosa» (ein Stift)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Completa con el compuesto da- correcto", "text": "Ich denke ___. (an das Problem) Ich schreibe ___. (mit dem Stift)", "blanks": [{ "accept": ["daran"] }, { "accept": ["damit"] }], "bank": ["daran", "damit", "darauf"], "explain": "daran (an); damit (mit)." },
+    { "id": "e10", "type": "word_order", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Ordena: «Da- sustituye a una cosa»", "tokens": ["eine Sache", "ersetzt", "Da-"], "answer": ["Da-", "ersetzt", "eine Sache"], "audio": "Da- ersetzt eine Sache.", "explain": "Da- ersetzt eine Sache: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Das ist eine wichtige Sache.", "accept": ["Ese es un asunto importante."], "strictAccents": false, "audio": "Das ist eine wichtige Sache.", "explain": "die Sache = la cosa, el asunto." },
+    { "id": "e12", "type": "dialogue", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Ben", "text": "Freust du dich auf die Ferien?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich freue mich darauf.", "Ja, ich freue mich sehr darauf."], "hint": "responde con el compuesto darauf" },
+      { "who": "Ben", "text": "Ich auch!", "speak": true }
+    ], "explain": "Práctica de sustituir «auf die Ferien» por darauf." },
+    { "id": "e13", "type": "listening", "tags": ["da-compuestos"], "difficulty": 1, "speak": "Ich freue mich darauf.", "mode": "write", "accept": ["Ich freue mich darauf"], "showTextAfter": true, "explain": "darauf: compuesto da- + auf." },
+    { "id": "e14", "type": "listening", "tags": ["da-compuestos"], "difficulty": 2, "speak": "Ich interessiere mich dafür.", "mode": "choose", "options": ["Ich interessiere mich dafür.", "Ich interessiere mich für es.", "Ich interessiere mich es für."], "answer": 0, "showTextAfter": true, "explain": "Solo «dafür» es correcto: no se puede decir «für es» para una cosa." },
+    { "id": "e15", "type": "shadowing", "tags": ["da-compuestos"], "difficulty": 2, "speak": "Ich freue mich auf die Ferien, und ich denke schon oft daran.", "es": "Tengo ganas de las vacaciones, y ya pienso a menudo en eso.", "ipa": "/ɪç ˈfʁɔɪ̯ə mɪç aʊ̯f diː ˈfeːʁi̯ən ʊnt ɪç ˈdɛŋkə ʃoːn ɔft daˈʁan/", "esApprox": "«ich FRÓI-e mich auf di FÉ-rien, unt ich DÉN-ke shon oft da-RAN»", "focus": "auf die Ferien (con sustantivo) frente a daran (con compuesto, cosa ya mencionada).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["da-compuestos"], "difficulty": 2, "speak": "Ich interessiere mich für Kunst, und ich schreibe oft darüber mit einem Stift.", "es": "Me interesa el arte, y a menudo escribo sobre eso con un bolígrafo.", "ipa": "/ɪç ɪntəʁɛˈsiːʁə mɪç fyːɐ̯ kʊnst ʊnt ɪç ˈʃʁaɪ̯bə ɔft daˈʁyːbɐ mɪt ˈaɪ̯nəm ʃtɪft/", "esApprox": "«ich in-te-re-SÍ-re mich für kunst, unt ich SHRÁI-be oft da-RÜ-ber mit ÁI-nem shtift»", "focus": "darüber (über eso): otro compuesto da- con -r-, junto a mit einem Stift (sin sustituir).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Te preguntan si tienes ganas de las vacaciones. Responde que sí, usando darauf.", "modelAnswer": "Ja, ich freue mich darauf.", "alsoValid": ["Ja, darauf freue ich mich."], "speak": "Ja, ich freue mich darauf.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Clasifica cada frase: sustituye una cosa (da-) o una persona (preposición + pronombre)", "buckets": ["Cosa (da-)", "Persona (preposición + pronombre)"], "items": [
+      { "text": "Ich freue mich darauf.", "bucket": 0 },
+      { "text": "Ich denke an dich.", "bucket": 1 },
+      { "text": "Ich interessiere mich dafür.", "bucket": 0 },
+      { "text": "Wir warten auf ihn.", "bucket": 1 }
+    ], "explain": "darauf y dafür sustituyen cosas; an dich y auf ihn se refieren a personas, sin compuesto da-." },
+    { "id": "e19", "type": "error_correction", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich interessiere mich für es.", "accept": ["Ich interessiere mich dafür"], "audio": "Ich interessiere mich dafür.", "explain": "Para cosas, se usa el compuesto dafür, no «für es»." },
+    { "id": "e20", "type": "mcq", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "«Ich interessiere mich für Kunst. Ich denke oft daran, und ich freue mich schon darauf, eine Ausstellung zu besuchen.» ¿A qué se refiere «daran» en este texto?", "options": ["A una persona", "Al arte (Kunst)", "A una fecha", "A un lugar"], "answer": 1, "explain": "daran sustituye a «an Kunst», retomando el tema mencionado antes." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "darauf", "es": "sobre eso, por eso (futuro)", "esApprox": "«da-RAUF»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "dafür", "es": "por eso, para eso", "esApprox": "«da-FÜR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "damit", "es": "con eso", "esApprox": "«da-MIT»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "daran", "es": "en eso, de eso", "esApprox": "«da-RAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Stift", "es": "el bolígrafo, el lápiz", "esApprox": "«shtift»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Sache", "es": "la cosa, el asunto", "esApprox": "«ZÁ-je»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich freue mich auf die Ferien, und ich denke schon oft daran.", "es": "Tengo ganas de las vacaciones, y ya pienso a menudo en eso.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich interessiere mich für Kunst, und ich schreibe oft darüber mit einem Stift.", "es": "Me interesa el arte, y a menudo escribo sobre eso con un bolígrafo.", "from": "e16" }
+  ]
+}
