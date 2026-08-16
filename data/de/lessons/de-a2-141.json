@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-141",
+  "lang": "de",
+  "level": "A2",
+  "order": 141,
+  "title": "La tecnología y el móvil",
+  "objectives": [
+    "Ampliar el vocabulario de tecnología y móvil: die App, das WLAN, der Akku, aufladen",
+    "Usar verbos separables frecuentes en tecnología: herunterladen, aufladen, anmachen",
+    "Describir problemas técnicos comunes con tu móvil u ordenador"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario esencial del móvil",
+      "body": "Para hablar de tecnología necesitas das Smartphone, die App (la aplicación), das WLAN (el wifi) y der Akku (la batería). Muchos verbos técnicos son separables: herunterladen (descargar), aufladen (cargar la batería), anmachen (encender).",
+      "examples": [
+        { "target": "Ich lade die App herunter.", "es": "Descargo la aplicación." },
+        { "target": "Mein Akku ist fast leer.", "es": "Mi batería está casi vacía." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos técnicos separables",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["herunterladen", "descargar"],
+        ["aufladen", "cargar (batería)"],
+        ["anmachen", "encender"],
+        ["ausmachen", "apagar"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "das WLAN se pronuncia «vé-lan» en alemán, no como en inglés. Es una palabra muy usada: «Gibt es hier WLAN?» (¿Hay wifi aquí?) es una pregunta que oirás y usarás constantemente."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die App", "es": "la aplicación", "ipa": "/ɛp/", "esApprox": "«ep»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich lade die App herunter.", "es": "Descargo la aplicación." } },
+    { "id": "v2", "target": "das WLAN", "es": "el wifi", "ipa": "/ˈveːlan/", "esApprox": "«VÉ-lan»", "pos": "sustantivo", "gender": "n", "example": { "target": "Gibt es hier WLAN?", "es": "¿Hay wifi aquí?" } },
+    { "id": "v3", "target": "der Akku", "es": "la batería", "ipa": "/ˈaku/", "esApprox": "«Á-ku»", "pos": "sustantivo", "gender": "m", "example": { "target": "Mein Akku ist fast leer.", "es": "Mi batería está casi vacía." } },
+    { "id": "v4", "target": "herunterladen", "es": "descargar", "ipa": "/hɛˈʁʊntɐˌlaːdn̩/", "esApprox": "«he-RÚN-ter-la-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich lade die App herunter.", "es": "Descargo la aplicación." } },
+    { "id": "v5", "target": "aufladen", "es": "cargar (batería)", "ipa": "/ˈaʊ̯flaːdn̩/", "esApprox": "«ÁUF-la-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich muss mein Handy aufladen.", "es": "Tengo que cargar mi móvil." } },
+    { "id": "v6", "target": "das Ladekabel", "es": "el cable de carga", "ipa": "/ˈlaːdəkaːbl̩/", "esApprox": "«LÁ-de-ka-bel»", "pos": "sustantivo", "gender": "n", "example": { "target": "Hast du ein Ladekabel?", "es": "¿Tienes un cable de carga?" } },
+    { "id": "v7", "target": "der Bildschirm", "es": "la pantalla", "ipa": "/ˈbɪltʃɪʁm/", "esApprox": "«BILT-shirm»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Bildschirm ist kaputt.", "es": "La pantalla está rota." } },
+    { "id": "v8", "target": "funktionieren", "es": "funcionar", "ipa": "/fʊŋktsi̯oˈniːʁən/", "esApprox": "«funk-tsi-o-NÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Das funktioniert nicht.", "es": "Eso no funciona." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["tecnologia"], "difficulty": 1, "prompt": "¿Cómo se dice «descargar»?", "options": ["aufladen", "herunterladen", "anmachen", "ausmachen"], "answer": 1, "explain": "herunterladen = descargar." },
+    { "id": "e2", "type": "mcq", "tags": ["tecnologia"], "difficulty": 2, "prompt": "¿Cómo se dice «la batería»?", "options": ["die App", "der Akku", "das WLAN", "der Bildschirm"], "answer": 1, "explain": "der Akku = la batería." },
+    { "id": "e3", "type": "true_false", "tags": ["tecnologia"], "difficulty": 2, "statement": "«das WLAN» se pronuncia igual que en inglés.", "answer": false, "explain": "Se pronuncia «vé-lan», no como en inglés." },
+    { "id": "e4", "type": "true_false", "tags": ["tecnologia"], "difficulty": 2, "statement": "«funktionieren» significa «funcionar».", "answer": true, "explain": "funktionieren = funcionar." },
+    { "id": "e5", "type": "match_pairs", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Une cada verbo con su traducción", "left": ["herunterladen", "aufladen", "anmachen", "ausmachen"], "right": ["descargar", "cargar", "encender", "apagar"], "answer": [0, 1, 2, 3], "explain": "Cuatro verbos técnicos separables muy frecuentes." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Descargo la aplicación.", "accept": ["Ich lade die App herunter"], "hintWords": ["ich lade die App herunter"], "strictAccents": false, "audio": "Ich lade die App herunter.", "explain": "lade...herunter: verbo separable." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Mi batería está casi vacía.", "accept": ["Mein Akku ist fast leer"], "hintWords": ["mein Akku ist fast leer"], "strictAccents": false, "audio": "Mein Akku ist fast leer.", "explain": "Akku (masculino) + ist + fast leer." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Tengo que cargar mi móvil.", "accept": ["Ich muss mein Handy aufladen"], "hintWords": ["ich muss mein Handy aufladen"], "strictAccents": false, "audio": "Ich muss mein Handy aufladen.", "explain": "muss + mein Handy + aufladen (infinitivo al final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Der ___ ist kaputt. Hast du ein ___?", "blanks": [{ "accept": ["Bildschirm"] }, { "accept": ["Ladekabel"] }], "bank": ["Bildschirm", "Ladekabel", "Akku"], "explain": "der Bildschirm (la pantalla); das Ladekabel (el cable de carga)." },
+    { "id": "e10", "type": "word_order", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Ordena: «¿Hay wifi aquí?»", "tokens": ["es hier", "Gibt", "WLAN"], "answer": ["Gibt", "es hier", "WLAN"], "audio": "Gibt es hier WLAN?", "explain": "Gibt es hier WLAN?: expresión fija con es gibt." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Das funktioniert nicht.", "accept": ["Eso no funciona."], "strictAccents": false, "audio": "Das funktioniert nicht.", "explain": "funktionieren = funcionar." },
+    { "id": "e12", "type": "dialogue", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Ben", "text": "Warum ist dein Handy aus?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Mein Akku ist fast leer.", "Ich muss mein Handy aufladen."], "hint": "responde sobre la batería" },
+      { "who": "Ben", "text": "Ich habe ein Ladekabel.", "speak": true }
+    ], "explain": "Práctica de vocabulario técnico en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["tecnologia"], "difficulty": 1, "speak": "Mein Akku ist fast leer.", "mode": "write", "accept": ["Mein Akku ist fast leer"], "showTextAfter": true, "explain": "Frase clave sobre la batería del móvil." },
+    { "id": "e14", "type": "listening", "tags": ["tecnologia"], "difficulty": 2, "speak": "Ich lade die App herunter.", "mode": "choose", "options": ["Ich lade die App herunter.", "Ich lade die App auf.", "Ich mache die App an."], "answer": 0, "showTextAfter": true, "explain": "herunterladen (descargar) es distinto de aufladen (cargar batería) y anmachen (encender)." },
+    { "id": "e15", "type": "shadowing", "tags": ["tecnologia"], "difficulty": 2, "speak": "Ich lade die App herunter, aber mein Akku ist fast leer, und ich habe kein Ladekabel dabei.", "es": "Descargo la aplicación, pero mi batería está casi vacía, y no llevo cable de carga.", "ipa": "/ɪç ˈlaːdə diː ɛp hɛˈʁʊntɐ ˈaːbɐ maɪ̯n ˈaku ɪst fast leːɐ̯ ʊnt ɪç ˈhaːbə kaɪ̯n ˈlaːdəkaːbl̩ daˈbaɪ̯/", "esApprox": "«ich LÁ-de di ep he-RÚN-ter, Á-ber main Á-ku ist fast ler, unt ich JÁ-be kain LÁ-de-ka-bel da-BÁI»", "focus": "herunterladen (separable) y kein Ladekabel: dos elementos técnicos en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["tecnologia"], "difficulty": 2, "speak": "Der Bildschirm ist kaputt, und das WLAN funktioniert auch nicht mehr.", "es": "La pantalla está rota, y el wifi tampoco funciona ya.", "ipa": "/deːɐ̯ ˈbɪltʃɪʁm ɪst kaˈpʊt ʊnt das ˈveːlan fʊŋktsi̯oˈniːʁt aʊ̯x nɪçt meːɐ̯/", "esApprox": "«der BILT-shirm ist ka-PUT, unt das VÉ-lan funk-tsi-o-NÍRT aух nicht mer»", "focus": "kaputt y funktioniert nicht: dos formas de describir problemas técnicos.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Te preguntan por qué tu móvil está apagado. Di que tu batería está casi vacía.", "modelAnswer": "Mein Akku ist fast leer.", "alsoValid": ["Ich muss mein Handy aufladen."], "speak": "Mein Akku ist fast leer.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Clasifica cada palabra: sustantivo o verbo", "buckets": ["Sustantivo", "Verbo"], "items": [
+      { "text": "der Akku", "bucket": 0 },
+      { "text": "aufladen", "bucket": 1 },
+      { "text": "der Bildschirm", "bucket": 0 },
+      { "text": "funktionieren", "bucket": 1 }
+    ], "explain": "Akku y Bildschirm son sustantivos; aufladen y funktionieren son verbos." },
+    { "id": "e19", "type": "error_correction", "tags": ["tecnologia"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich lade die App auf.", "accept": ["Ich lade die App herunter"], "audio": "Ich lade die App herunter.", "explain": "Para descargar una app se usa herunterladen, no aufladen (que es cargar la batería)." },
+    { "id": "e20", "type": "mcq", "tags": ["tecnologia"], "difficulty": 2, "prompt": "«Ich lade die App herunter, aber mein Akku ist fast leer. Der Bildschirm ist auch kaputt, und das WLAN funktioniert nicht.» ¿Cuántos problemas técnicos tiene la persona?", "options": ["Uno", "Dos", "Tres", "Ninguno"], "answer": 2, "explain": "Tres problemas: batería casi vacía, pantalla rota y wifi que no funciona." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die App", "es": "la aplicación", "esApprox": "«ep»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das WLAN", "es": "el wifi", "esApprox": "«VÉ-lan»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Akku", "es": "la batería", "esApprox": "«Á-ku»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "herunterladen", "es": "descargar", "esApprox": "«he-RÚN-ter-la-den»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "aufladen", "es": "cargar (batería)", "esApprox": "«ÁUF-la-den»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Bildschirm", "es": "la pantalla", "esApprox": "«BILT-shirm»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich lade die App herunter, aber mein Akku ist fast leer, und ich habe kein Ladekabel dabei.", "es": "Descargo la aplicación, pero mi batería está casi vacía, y no llevo cable de carga.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Bildschirm ist kaputt, und das WLAN funktioniert auch nicht mehr.", "es": "La pantalla está rota, y el wifi tampoco funciona ya.", "from": "e16" }
+  ]
+}

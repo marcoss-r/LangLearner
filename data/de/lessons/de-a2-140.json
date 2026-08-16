@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-140",
+  "lang": "de",
+  "level": "A2",
+  "order": 140,
+  "title": "La vivienda y la mudanza",
+  "objectives": [
+    "Ampliar el vocabulario de vivienda: die Miete, der Mietvertrag, die Kaution",
+    "Hablar de mudanzas: umziehen, der Umzug, einziehen, ausziehen",
+    "Reconocer expresiones típicas al buscar y alquilar un piso en Alemania"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Alquilar un piso: contrato, fianza y renta",
+      "body": "Al alquilar un piso necesitas entender der Mietvertrag (el contrato de alquiler), die Miete (el alquiler mensual) y die Kaution (la fianza, normalmente tres meses de alquiler en Alemania). Si quieres dejar el piso, tienes que kündigen (rescindir el contrato).",
+      "examples": [
+        { "target": "Die Miete beträgt 800 Euro im Monat.", "es": "El alquiler es de 800 euros al mes." },
+        { "target": "Ich muss den Vertrag kündigen.", "es": "Tengo que rescindir el contrato." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos de mudanza",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["umziehen", "mudarse"],
+        ["einziehen", "instalarse, entrar a vivir"],
+        ["ausziehen", "mudarse fuera, dejar el piso"],
+        ["kündigen", "rescindir (un contrato)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "einziehen y ausziehen son separables y opuestos: einziehen (entrar) frente a ausziehen (salir), ambos con sein en Perfekt (ist eingezogen, ist ausgezogen), porque describen un cambio de estado."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Miete", "es": "el alquiler", "ipa": "/ˈmiːtə/", "esApprox": "«MÍ-te»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Miete beträgt 800 Euro.", "es": "El alquiler es de 800 euros." } },
+    { "id": "v2", "target": "der Mietvertrag", "es": "el contrato de alquiler", "ipa": "/ˈmiːtfɛɐ̯tʁaːk/", "esApprox": "«MÍT-fer-trak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe den Mietvertrag unterschrieben.", "es": "He firmado el contrato de alquiler." } },
+    { "id": "v3", "target": "die Kaution", "es": "la fianza", "ipa": "/kaʊ̯tsi̯oːn/", "esApprox": "«kau-tsi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Kaution sind drei Monatsmieten.", "es": "La fianza son tres mensualidades de alquiler." } },
+    { "id": "v4", "target": "umziehen", "es": "mudarse", "ipa": "/ˈʊmtsiːən/", "esApprox": "«UM-tsi-en»", "pos": "verbo", "gender": null, "example": { "target": "Wir ziehen nächsten Monat um.", "es": "Nos mudamos el mes que viene." } },
+    { "id": "v5", "target": "einziehen", "es": "instalarse, entrar a vivir", "ipa": "/ˈaɪ̯ntsiːən/", "esApprox": "«ÁIN-tsi-en»", "pos": "verbo", "gender": null, "example": { "target": "Wir sind letzte Woche eingezogen.", "es": "Nos instalamos la semana pasada." } },
+    { "id": "v6", "target": "ausziehen", "es": "mudarse fuera, dejar el piso", "ipa": "/ˈaʊ̯stsiːən/", "esApprox": "«ÁUS-tsi-en»", "pos": "verbo", "gender": null, "example": { "target": "Ich ziehe nächsten Monat aus.", "es": "Dejo el piso el mes que viene." } },
+    { "id": "v7", "target": "kündigen", "es": "rescindir (un contrato)", "ipa": "/ˈkʏndɪɡn̩/", "esApprox": "«KÜN-di-guen»", "pos": "verbo", "gender": null, "example": { "target": "Ich muss den Vertrag kündigen.", "es": "Tengo que rescindir el contrato." } },
+    { "id": "v8", "target": "der Vermieter", "es": "el arrendador, el casero", "ipa": "/fɛɐ̯ˈmiːtɐ/", "esApprox": "«fer-MÍ-ter»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich rufe meinen Vermieter an.", "es": "Llamo a mi casero." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["vivienda"], "difficulty": 1, "prompt": "¿Cómo se dice «el alquiler»?", "options": ["die Kaution", "die Miete", "der Vermieter", "der Mietvertrag"], "answer": 1, "explain": "die Miete = el alquiler." },
+    { "id": "e2", "type": "mcq", "tags": ["mudanza"], "difficulty": 2, "prompt": "¿Qué significa «einziehen»?", "options": ["mudarse fuera", "instalarse", "rescindir", "alquilar"], "answer": 1, "explain": "einziehen = instalarse, entrar a vivir en un piso." },
+    { "id": "e3", "type": "true_false", "tags": ["vivienda"], "difficulty": 2, "statement": "En Alemania, la Kaution suele ser de tres meses de alquiler.", "answer": true, "explain": "Es una norma común: tres mensualidades de fianza." },
+    { "id": "e4", "type": "true_false", "tags": ["mudanza"], "difficulty": 2, "statement": "einziehen y ausziehen usan haben como auxiliar en Perfekt.", "answer": false, "explain": "Usan sein, porque describen un cambio de estado." },
+    { "id": "e5", "type": "match_pairs", "tags": ["mudanza"], "difficulty": 2, "prompt": "Une cada verbo con su traducción", "left": ["umziehen", "einziehen", "ausziehen", "kündigen"], "right": ["mudarse", "instalarse", "dejar el piso", "rescindir"], "answer": [0, 1, 2, 3], "explain": "Cuatro verbos clave de mudanza y contratos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["vivienda"], "difficulty": 2, "prompt": "El alquiler es de 800 euros al mes.", "accept": ["Die Miete beträgt 800 Euro im Monat"], "hintWords": ["die Miete beträgt 800 Euro im Monat"], "strictAccents": false, "audio": "Die Miete beträgt 800 Euro im Monat.", "explain": "betragen: ascender a, sumar (una cantidad)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["mudanza"], "difficulty": 2, "prompt": "Nos mudamos el mes que viene.", "accept": ["Wir ziehen nächsten Monat um"], "hintWords": ["wir ziehen nächsten Monat um"], "strictAccents": false, "audio": "Wir ziehen nächsten Monat um.", "explain": "umziehen: verbo separable, um al final." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["vivienda"], "difficulty": 2, "prompt": "Tengo que rescindir el contrato.", "accept": ["Ich muss den Vertrag kündigen"], "hintWords": ["ich muss den Vertrag kündigen"], "strictAccents": false, "audio": "Ich muss den Vertrag kündigen.", "explain": "muss + den Vertrag + kündigen (infinitivo al final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["mudanza"], "difficulty": 2, "prompt": "Completa con el verbo correcto", "text": "Wir sind letzte Woche ___. (einziehen) Ich ziehe nächsten Monat ___. (ausziehen)", "blanks": [{ "accept": ["eingezogen"] }, { "accept": ["aus"] }], "bank": ["eingezogen", "aus", "ein"], "explain": "eingezogen (Perfekt de einziehen); aus (presente de ausziehen, separable)." },
+    { "id": "e10", "type": "word_order", "tags": ["vivienda"], "difficulty": 2, "prompt": "Ordena: «He firmado el contrato de alquiler»", "tokens": ["den Mietvertrag", "unterschrieben", "Ich habe"], "answer": ["Ich habe", "den Mietvertrag", "unterschrieben"], "audio": "Ich habe den Mietvertrag unterschrieben.", "explain": "habe + den Mietvertrag + unterschrieben (participio al final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["vivienda"], "difficulty": 2, "prompt": "Ich rufe meinen Vermieter an.", "accept": ["Llamo a mi casero."], "strictAccents": false, "audio": "Ich rufe meinen Vermieter an.", "explain": "anrufen: verbo separable, an al final." },
+    { "id": "e12", "type": "dialogue", "tags": ["mudanza"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wann ziehst du um?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Wir ziehen nächsten Monat um."], "hint": "responde con umziehen" },
+      { "who": "Lea", "text": "Viel Erfolg mit dem Umzug!", "speak": true }
+    ], "explain": "Práctica de umziehen en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["vivienda"], "difficulty": 1, "speak": "Die Miete beträgt 800 Euro im Monat.", "mode": "write", "accept": ["Die Miete beträgt 800 Euro im Monat"], "showTextAfter": true, "explain": "betragen: expresión útil para hablar de precios." },
+    { "id": "e14", "type": "listening", "tags": ["mudanza"], "difficulty": 2, "speak": "Wir sind letzte Woche eingezogen.", "mode": "choose", "options": ["Wir sind letzte Woche eingezogen.", "Wir haben letzte Woche eingezogen.", "Wir sind letzte Woche ausgezogen."], "answer": 0, "showTextAfter": true, "explain": "einziehen usa sein en Perfekt, no haben." },
+    { "id": "e15", "type": "shadowing", "tags": ["mudanza"], "difficulty": 2, "speak": "Wir sind letzte Woche eingezogen, und ich habe schon den Mietvertrag unterschrieben.", "es": "Nos instalamos la semana pasada, y ya he firmado el contrato de alquiler.", "ipa": "/viːɐ̯ zɪnt ˈlɛtstə ˈvɔxə ˈaɪ̯nɡətsoːɡn̩ ʊnt ɪç ˈhaːbə ʃoːn deːn ˈmiːtfɛɐ̯tʁaːk ˌʊntɐˈʃʁiːbn̩/", "esApprox": "«vir zint LETS-te VÓ-je ÁIN-ge-tso-guen, unt ich JÁ-be shon den MÍT-fer-trak un-ter-SHRÍ-ben»", "focus": "eingezogen (sein) frente a unterschrieben (haben): dos auxiliares distintos según el tipo de verbo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["vivienda"], "difficulty": 2, "speak": "Ich muss den Vertrag kündigen, denn die Kaution ist zu hoch, und ich rufe meinen Vermieter an.", "es": "Tengo que rescindir el contrato, porque la fianza es demasiado alta, y llamo a mi casero.", "ipa": "/ɪç mʊs deːn fɛɐ̯ˈtʁaːk ˈkʏndɪɡn̩ dɛn diː kaʊ̯tsi̯oːn ɪst tsuː hoːx ʊnt ɪç ˈʁuːfə ˈmaɪ̯nən fɛɐ̯ˈmiːtɐ an/", "esApprox": "«ich mus den fer-TRAK KÜN-di-guen, den di kau-tsi-ÓN ist tsu joch, unt ich RÚ-fe MÁI-nen fer-MÍ-ter an»", "focus": "kündigen (verbo simple) frente a anrufen (separable, an al final).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["mudanza"], "difficulty": 2, "prompt": "Te preguntan cuándo os mudáis. Di que os mudáis el mes que viene.", "modelAnswer": "Wir ziehen nächsten Monat um.", "alsoValid": ["Nächsten Monat."], "speak": "Wir ziehen nächsten Monat um.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["mudanza"], "difficulty": 2, "prompt": "Clasifica cada verbo: sein o haben en Perfekt", "buckets": ["sein", "haben"], "items": [
+      { "text": "einziehen", "bucket": 0 },
+      { "text": "unterschreiben", "bucket": 1 },
+      { "text": "ausziehen", "bucket": 0 },
+      { "text": "kündigen", "bucket": 1 }
+    ], "explain": "einziehen y ausziehen (cambio de estado) usan sein; unterschreiben y kündigen usan haben." },
+    { "id": "e19", "type": "error_correction", "tags": ["mudanza"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wir haben letzte Woche eingezogen.", "accept": ["Wir sind letzte Woche eingezogen"], "audio": "Wir sind letzte Woche eingezogen.", "explain": "einziehen usa sein, no haben, como auxiliar del Perfekt." },
+    { "id": "e20", "type": "mcq", "tags": ["vivienda"], "difficulty": 2, "prompt": "«Wir sind letzte Woche eingezogen. Die Miete beträgt 800 Euro, und die Kaution sind drei Monatsmieten. Ich habe schon den Mietvertrag unterschrieben.» ¿Cuánto es la fianza?", "options": ["800 euros", "Tres mensualidades de alquiler", "Una mensualidad", "No se dice"], "answer": 1, "explain": "«die Kaution sind drei Monatsmieten» = la fianza son tres mensualidades de alquiler." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Miete", "es": "el alquiler", "esApprox": "«MÍ-te»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Mietvertrag", "es": "el contrato de alquiler", "esApprox": "«MÍT-fer-trak»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Kaution", "es": "la fianza", "esApprox": "«kau-tsi-ÓN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "umziehen", "es": "mudarse", "esApprox": "«UM-tsi-en»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "einziehen", "es": "instalarse, entrar a vivir", "esApprox": "«ÁIN-tsi-en»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "kündigen", "es": "rescindir (un contrato)", "esApprox": "«KÜN-di-guen»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Wir sind letzte Woche eingezogen, und ich habe schon den Mietvertrag unterschrieben.", "es": "Nos instalamos la semana pasada, y ya he firmado el contrato de alquiler.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich muss den Vertrag kündigen, denn die Kaution ist zu hoch, und ich rufe meinen Vermieter an.", "es": "Tengo que rescindir el contrato, porque la fianza es demasiado alta, y llamo a mi casero.", "from": "e16" }
+  ]
+}

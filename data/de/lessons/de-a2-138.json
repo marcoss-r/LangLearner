@@ -1,0 +1,83 @@
+{
+  "id": "de-a2-138",
+  "lang": "de",
+  "level": "A2",
+  "order": 138,
+  "title": "En el aeropuerto y en el tren",
+  "objectives": [
+    "Ampliar el vocabulario del aeropuerto: der Abflug, die Ankunft, das Gate, das Gepäck",
+    "Ampliar el vocabulario del tren: der Bahnsteig, der Anschluss, die Verspätung",
+    "Comprender anuncios y preguntar por retrasos o cambios de andén/puerta"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El aeropuerto: salidas, llegadas y equipaje",
+      "body": "En el aeropuerto necesitas der Abflug (la salida), die Ankunft (la llegada), das Gate (la puerta de embarque) y das Gepäck (el equipaje). Para preguntar por tu vuelo: «Von welchem Gate fliegt mein Flug?» (¿Desde qué puerta sale mi vuelo?).",
+      "examples": [
+        { "target": "Von welchem Gate fliegt mein Flug?", "es": "¿Desde qué puerta sale mi vuelo?" },
+        { "target": "Mein Gepäck ist noch nicht angekommen.", "es": "Mi equipaje todavía no ha llegado." }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "El tren: andenes, conexiones y retrasos",
+      "body": "En el tren, necesitas der Bahnsteig (el andén), der Anschluss (la conexión, el enlace) y die Verspätung (el retraso, ya visto en la clase 114). «Der Zug hat zehn Minuten Verspätung» (El tren lleva diez minutos de retraso) es un anuncio muy frecuente."
+    },
+    {
+      "type": "tip",
+      "body": "En los anuncios de estación y aeropuerto verás mucho el pasivo simplificado con «wird...gebeten» (se ruega): «Reisende werden gebeten, sich zu beeilen» (Se ruega a los pasajeros que se den prisa). No necesitas dominarlo todavía, solo reconocerlo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Abflug", "es": "la salida (de vuelo)", "ipa": "/ˈapfluːk/", "esApprox": "«AP-fluk»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Abflug ist um 10 Uhr.", "es": "La salida es a las 10." } },
+    { "id": "v2", "target": "das Gate", "es": "la puerta de embarque", "ipa": "/ɡeːt/", "esApprox": "«guet»", "pos": "sustantivo", "gender": "n", "example": { "target": "Von welchem Gate fliegt mein Flug?", "es": "¿Desde qué puerta sale mi vuelo?" } },
+    { "id": "v3", "target": "das Gepäck", "es": "el equipaje", "ipa": "/ɡəˈpɛk/", "esApprox": "«ge-PEK»", "pos": "sustantivo", "gender": "n", "example": { "target": "Mein Gepäck ist noch nicht angekommen.", "es": "Mi equipaje todavía no ha llegado." } },
+    { "id": "v4", "target": "der Bahnsteig", "es": "el andén", "ipa": "/ˈbaːnʃtaɪ̯k/", "esApprox": "«BÁN-shtaik»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Zug fährt auf Bahnsteig 3.", "es": "El tren sale del andén 3." } },
+    { "id": "v5", "target": "der Anschluss", "es": "la conexión, el enlace", "ipa": "/ˈanʃlʊs/", "esApprox": "«ÁN-shlus»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe meinen Anschluss verpasst.", "es": "He perdido mi conexión." } },
+    { "id": "v6", "target": "verpassen", "es": "perder (un tren, avión, ocasión)", "ipa": "/fɛɐ̯ˈpasn̩/", "esApprox": "«fer-PÁ-sen»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe den Zug verpasst.", "es": "He perdido el tren." } },
+    { "id": "v7", "target": "die Verspätung", "es": "el retraso", "ipa": "/fɛɐ̯ˈʃpɛːtʊŋ/", "esApprox": "«fer-SHPÉ-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Der Zug hat zehn Minuten Verspätung.", "es": "El tren lleva diez minutos de retraso." } },
+    { "id": "v8", "target": "einchecken", "es": "facturar, hacer el check-in", "ipa": "/ˈaɪ̯ntʃɛkn̩/", "esApprox": "«ÁIN-che-ken»", "pos": "verbo", "gender": null, "example": { "target": "Ich muss noch einchecken.", "es": "Todavía tengo que facturar." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["transporte"], "difficulty": 1, "prompt": "¿Cómo se dice «el andén»?", "options": ["das Gate", "der Bahnsteig", "der Abflug", "das Gepäck"], "answer": 1, "explain": "der Bahnsteig = el andén." },
+    { "id": "e2", "type": "mcq", "tags": ["transporte"], "difficulty": 2, "prompt": "¿Qué significa «verpassen»?", "options": ["esperar", "perder (un tren)", "reservar", "facturar"], "answer": 1, "explain": "verpassen = perder (un tren, avión, ocasión)." },
+    { "id": "e3", "type": "true_false", "tags": ["transporte"], "difficulty": 2, "statement": "«der Anschluss» significa «la conexión, el enlace».", "answer": true, "explain": "der Anschluss = la conexión de tren o vuelo." },
+    { "id": "e4", "type": "true_false", "tags": ["transporte"], "difficulty": 2, "statement": "«das Gepäck» se refiere a la puerta de embarque.", "answer": false, "explain": "das Gepäck = el equipaje; la puerta de embarque es das Gate." },
+    { "id": "e5", "type": "match_pairs", "tags": ["transporte"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Abflug", "das Gate", "das Gepäck", "die Verspätung"], "right": ["la salida (de vuelo)", "la puerta de embarque", "el equipaje", "el retraso"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario de aeropuerto." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["transporte"], "difficulty": 2, "prompt": "¿Desde qué puerta sale mi vuelo?", "accept": ["Von welchem Gate fliegt mein Flug?", "Von welchem Gate fliegt mein Flug"], "hintWords": ["von welchem Gate fliegt mein Flug"], "strictAccents": false, "audio": "Von welchem Gate fliegt mein Flug?", "explain": "Von welchem Gate...?: pregunta con welcher (clase 85) + dativo." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["transporte"], "difficulty": 2, "prompt": "Mi equipaje todavía no ha llegado.", "accept": ["Mein Gepäck ist noch nicht angekommen"], "hintWords": ["mein Gepäck ist noch nicht angekommen"], "strictAccents": false, "audio": "Mein Gepäck ist noch nicht angekommen.", "explain": "ankommen: Perfekt con sein (ist angekommen)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["transporte"], "difficulty": 2, "prompt": "El tren lleva diez minutos de retraso.", "accept": ["Der Zug hat zehn Minuten Verspätung"], "hintWords": ["der Zug hat zehn Minuten Verspätung"], "strictAccents": false, "audio": "Der Zug hat zehn Minuten Verspätung.", "explain": "haben + Verspätung: expresión fija para retrasos." },
+    { "id": "e9", "type": "fill_blank", "tags": ["transporte"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich habe meinen ___ verpasst. Der Zug fährt auf ___ 3.", "blanks": [{ "accept": ["Anschluss"] }, { "accept": ["Bahnsteig"] }], "bank": ["Anschluss", "Bahnsteig", "Gepäck"], "explain": "der Anschluss (la conexión); der Bahnsteig (el andén)." },
+    { "id": "e10", "type": "word_order", "tags": ["transporte"], "difficulty": 2, "prompt": "Ordena: «Todavía tengo que facturar»", "tokens": ["noch", "Ich muss", "einchecken"], "answer": ["Ich muss", "noch", "einchecken"], "audio": "Ich muss noch einchecken.", "explain": "muss + noch + einchecken (infinitivo, verbo separable, al final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["transporte"], "difficulty": 2, "prompt": "Ich habe den Zug verpasst.", "accept": ["He perdido el tren."], "strictAccents": false, "audio": "Ich habe den Zug verpasst.", "explain": "verpassen → verpasst: participio regular." },
+    { "id": "e12", "type": "dialogue", "tags": ["transporte"], "difficulty": 2, "prompt": "Completa la conversación en el aeropuerto", "turns": [
+      { "who": "Mitarbeiterin", "text": "Guten Tag, haben Sie schon eingecheckt?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nein, ich muss noch einchecken."], "hint": "responde que todavía no" },
+      { "who": "Mitarbeiterin", "text": "Kein Problem, hier entlang.", "speak": true }
+    ], "explain": "Diálogo típico al facturar en el aeropuerto." },
+    { "id": "e13", "type": "listening", "tags": ["transporte"], "difficulty": 1, "speak": "Von welchem Gate fliegt mein Flug?", "mode": "write", "accept": ["Von welchem Gate fliegt mein Flug"], "showTextAfter": true, "explain": "Pregunta clave en el aeropuerto." },
+    { "id": "e14", "type": "listening", "tags": ["transporte"], "difficulty": 2, "speak": "Der Zug hat zehn Minuten Verspätung.", "mode": "choose", "options": ["Der Zug hat zehn Minuten Verspätung.", "Der Zug hat zehn Minuten Verpassung.", "Der Zug hat zehn Minuten Anschluss."], "answer": 0, "showTextAfter": true, "explain": "Verspätung (retraso) es la palabra correcta, no «Verpassung» (que no existe)." },
+    { "id": "e15", "type": "shadowing", "tags": ["transporte"], "difficulty": 2, "speak": "Von welchem Gate fliegt mein Flug? Und ist mein Gepäck schon angekommen?", "es": "¿Desde qué puerta sale mi vuelo? ¿Y ha llegado ya mi equipaje?", "ipa": "/fɔn ˈvɛlçəm ɡeːt fliːkt maɪ̯n fluːk ʊnt ɪst maɪ̯n ɡəˈpɛk ʃoːn ˈankɔmən/", "esApprox": "«fon VÉL-chem guet flikt main fluk? unt ist main ge-PEK shon ÁN-ko-men?»", "focus": "Dos preguntas típicas de aeropuerto, la segunda con ankommen en Perfekt.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["transporte"], "difficulty": 2, "speak": "Ich habe meinen Anschluss verpasst, weil der Zug zehn Minuten Verspätung hatte.", "es": "He perdido mi conexión, porque el tren llevaba diez minutos de retraso.", "ipa": "/ɪç ˈhaːbə ˈmaɪ̯nən ˈanʃlʊs fɛɐ̯ˈpast vaɪ̯l deːɐ̯ tsuːk tsɛːn miˈnuːtn̩ fɛɐ̯ˈʃpɛːtʊŋ ˈhatə/", "esApprox": "«ich JÁ-be MÁI-nen ÁN-shlus fer-PAST, vail der tsuk tsen mi-NÚ-ten fer-SHPÉ-tung JÁ-te»", "focus": "verpasst (Perfekt) y hatte (Präteritum de haben): dos formas de pasado en la misma frase con weil.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["transporte"], "difficulty": 2, "prompt": "Te preguntan si has facturado ya. Di que todavía tienes que facturar.", "modelAnswer": "Nein, ich muss noch einchecken.", "alsoValid": ["Ich habe noch nicht eingecheckt."], "speak": "Nein, ich muss noch einchecken.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["transporte"], "difficulty": 2, "prompt": "Clasifica cada palabra: aeropuerto o tren", "buckets": ["Aeropuerto", "Tren"], "items": [
+      { "text": "das Gate", "bucket": 0 },
+      { "text": "der Bahnsteig", "bucket": 1 },
+      { "text": "der Abflug", "bucket": 0 },
+      { "text": "der Anschluss", "bucket": 1 }
+    ], "explain": "Gate y Abflug son de aeropuerto; Bahnsteig y Anschluss son más típicos del tren (aunque Anschluss también existe en aviones)." },
+    { "id": "e19", "type": "error_correction", "tags": ["transporte"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Mein Gepäck ist noch nicht angekommt.", "accept": ["Mein Gepäck ist noch nicht angekommen"], "audio": "Mein Gepäck ist noch nicht angekommen.", "explain": "ankommen → angekommen, no «angekommt»." },
+    { "id": "e20", "type": "mcq", "tags": ["transporte"], "difficulty": 2, "prompt": "«Ich habe meinen Anschluss verpasst, weil der Zug Verspätung hatte. Jetzt warte ich auf Bahnsteig 3 auf den nächsten Zug.» ¿Dónde espera la persona ahora?", "options": ["En el Gate", "En el andén 3", "En la recepción", "En el aeropuerto"], "answer": 1, "explain": "«Jetzt warte ich auf Bahnsteig 3» = ahora espero en el andén 3." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Abflug", "es": "la salida (de vuelo)", "esApprox": "«AP-fluk»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Gate", "es": "la puerta de embarque", "esApprox": "«guet»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Gepäck", "es": "el equipaje", "esApprox": "«ge-PEK»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Bahnsteig", "es": "el andén", "esApprox": "«BÁN-shtaik»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Anschluss", "es": "la conexión, el enlace", "esApprox": "«ÁN-shlus»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "verpassen", "es": "perder (un tren, avión, ocasión)", "esApprox": "«fer-PÁ-sen»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Von welchem Gate fliegt mein Flug? Und ist mein Gepäck schon angekommen?", "es": "¿Desde qué puerta sale mi vuelo? ¿Y ha llegado ya mi equipaje?", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich habe meinen Anschluss verpasst, weil der Zug zehn Minuten Verspätung hatte.", "es": "He perdido mi conexión, porque el tren llevaba diez minutos de retraso.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "de-a2-139",
+  "lang": "de",
+  "level": "A2",
+  "order": 139,
+  "title": "En el banco y con la burocracia alemana",
+  "objectives": [
+    "Abrir una cuenta bancaria y entender vocabulario básico de banca: das Konto, die IBAN, überweisen",
+    "Manejar trámites burocráticos frecuentes en Alemania: die Anmeldung, das Formular, der Termin",
+    "Pedir cita y rellenar formularios con el vocabulario adecuado"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "En el banco: abrir una cuenta",
+      "body": "Para abrir una cuenta necesitas das Konto (la cuenta), die IBAN (el número de cuenta internacional) y saber überweisen (transferir dinero). «Ich möchte ein Konto eröffnen» (Quiero abrir una cuenta) es la frase clave.",
+      "examples": [
+        { "target": "Ich möchte ein Konto eröffnen.", "es": "Quiero abrir una cuenta." },
+        { "target": "Wie lautet Ihre IBAN?", "es": "¿Cuál es su IBAN?" }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "La burocracia alemana: die Anmeldung",
+      "body": "Uno de los trámites más famosos (e inevitables) en Alemania es die Anmeldung: registrar tu domicilio en el Bürgeramt (oficina de registro) al mudarte. Necesitarás pedir un der Termin (una cita) y rellenar das Formular (el formulario) correspondiente."
+    },
+    {
+      "type": "tip",
+      "body": "En Alemania, muchos trámites requieren cita previa (Termin) reservada con antelación, a veces con semanas de espera. Llevar todos los Unterlagen (documentos) completos a la cita es esencial: si falta uno, normalmente hay que pedir otra cita."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "das Konto", "es": "la cuenta (bancaria)", "ipa": "/ˈkɔnto/", "esApprox": "«KÓN-to»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich möchte ein Konto eröffnen.", "es": "Quiero abrir una cuenta." } },
+    { "id": "v2", "target": "überweisen", "es": "transferir (dinero)", "ipa": "/yːbɐˈvaɪ̯zn̩/", "esApprox": "«ü-ber-VÁI-zen»", "pos": "verbo", "gender": null, "example": { "target": "Ich überweise das Geld.", "es": "Transfiero el dinero." } },
+    { "id": "v3", "target": "die Anmeldung", "es": "el registro de domicilio", "ipa": "/ˈanmɛldʊŋ/", "esApprox": "«ÁN-mel-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich brauche einen Termin für die Anmeldung.", "es": "Necesito una cita para el registro de domicilio." } },
+    { "id": "v4", "target": "das Formular", "es": "el formulario", "ipa": "/fɔʁmuˈlaːɐ̯/", "esApprox": "«for-mu-LAR»", "pos": "sustantivo", "gender": "n", "example": { "target": "Bitte füllen Sie das Formular aus.", "es": "Por favor, rellene el formulario." } },
+    { "id": "v5", "target": "der Termin", "es": "la cita", "ipa": "/tɛʁˈmiːn/", "esApprox": "«ter-MÍN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich brauche einen Termin.", "es": "Necesito una cita." } },
+    { "id": "v6", "target": "die Unterlagen", "es": "los documentos", "ipa": "/ˈʊntɐlaːɡn̩/", "esApprox": "«ÚN-ter-la-guen»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "Ich habe alle Unterlagen dabei.", "es": "Llevo todos los documentos." } },
+    { "id": "v7", "target": "ausfüllen", "es": "rellenar", "ipa": "/ˈaʊ̯sfʏlən/", "esApprox": "«ÁUS-fü-len»", "pos": "verbo", "gender": null, "example": { "target": "Bitte füllen Sie das Formular aus.", "es": "Por favor, rellene el formulario." } },
+    { "id": "v8", "target": "das Bürgeramt", "es": "la oficina de registro ciudadano", "ipa": "/ˈbʏʁɡɐʔamt/", "esApprox": "«BÜR-guer-amt»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Bürgeramt ist geschlossen.", "es": "La oficina de registro está cerrada." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["banco"], "difficulty": 1, "prompt": "¿Cómo se dice «la cuenta bancaria»?", "options": ["die IBAN", "das Konto", "das Formular", "der Termin"], "answer": 1, "explain": "das Konto = la cuenta." },
+    { "id": "e2", "type": "mcq", "tags": ["burocracia"], "difficulty": 2, "prompt": "¿Qué es «die Anmeldung»?", "options": ["Abrir una cuenta", "El registro de domicilio", "Un formulario de banco", "Una transferencia"], "answer": 1, "explain": "die Anmeldung: registrar el domicilio, trámite obligatorio al mudarte en Alemania." },
+    { "id": "e3", "type": "true_false", "tags": ["burocracia"], "difficulty": 2, "statement": "Muchos trámites en Alemania requieren cita previa (Termin).", "answer": true, "explain": "Es muy común necesitar cita, a veces con semanas de espera." },
+    { "id": "e4", "type": "true_false", "tags": ["banco"], "difficulty": 2, "statement": "«überweisen» significa «rellenar un formulario».", "answer": false, "explain": "überweisen = transferir dinero; rellenar es ausfüllen." },
+    { "id": "e5", "type": "match_pairs", "tags": ["burocracia"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Anmeldung", "das Formular", "der Termin", "die Unterlagen"], "right": ["el registro de domicilio", "el formulario", "la cita", "los documentos"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario burocrático." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["banco"], "difficulty": 2, "prompt": "Quiero abrir una cuenta.", "accept": ["Ich möchte ein Konto eröffnen"], "hintWords": ["ich möchte ein Konto eröffnen"], "strictAccents": false, "audio": "Ich möchte ein Konto eröffnen.", "explain": "möchte + ein Konto + eröffnen (infinitivo al final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["burocracia"], "difficulty": 2, "prompt": "Necesito una cita para el registro de domicilio.", "accept": ["Ich brauche einen Termin für die Anmeldung"], "hintWords": ["ich brauche einen Termin für die Anmeldung"], "strictAccents": false, "audio": "Ich brauche einen Termin für die Anmeldung.", "explain": "brauchen + acusativo (einen Termin) + für + die Anmeldung." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["burocracia"], "difficulty": 2, "prompt": "Por favor, rellene el formulario.", "accept": ["Bitte füllen Sie das Formular aus"], "hintWords": ["bitte füllen Sie das Formular aus"], "strictAccents": false, "audio": "Bitte füllen Sie das Formular aus.", "explain": "füllen Sie...aus: imperativo formal, verbo separable." },
+    { "id": "e9", "type": "fill_blank", "tags": ["burocracia"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich habe alle ___ dabei. Bitte füllen Sie das ___ aus.", "blanks": [{ "accept": ["Unterlagen"] }, { "accept": ["Formular"] }], "bank": ["Unterlagen", "Formular", "Termin"], "explain": "die Unterlagen (documentos); das Formular (formulario)." },
+    { "id": "e10", "type": "word_order", "tags": ["banco"], "difficulty": 2, "prompt": "Ordena: «Transfiero el dinero»", "tokens": ["das Geld", "Ich überweise"], "answer": ["Ich überweise", "das Geld"], "audio": "Ich überweise das Geld.", "explain": "Ich überweise das Geld: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["burocracia"], "difficulty": 2, "prompt": "Das Bürgeramt ist geschlossen.", "accept": ["La oficina de registro está cerrada."], "strictAccents": false, "audio": "Das Bürgeramt ist geschlossen.", "explain": "das Bürgeramt = la oficina de registro ciudadano." },
+    { "id": "e12", "type": "dialogue", "tags": ["burocracia"], "difficulty": 2, "prompt": "Completa la conversación en el Bürgeramt", "turns": [
+      { "who": "Beamter", "text": "Haben Sie einen Termin?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich habe einen Termin für die Anmeldung."], "hint": "responde que sí, con tu cita" },
+      { "who": "Beamter", "text": "Gut, bitte die Unterlagen.", "speak": true }
+    ], "explain": "Diálogo típico en un trámite burocrático alemán." },
+    { "id": "e13", "type": "listening", "tags": ["banco"], "difficulty": 1, "speak": "Ich möchte ein Konto eröffnen.", "mode": "write", "accept": ["Ich möchte ein Konto eröffnen"], "showTextAfter": true, "explain": "Frase clave para abrir una cuenta." },
+    { "id": "e14", "type": "listening", "tags": ["burocracia"], "difficulty": 2, "speak": "Ich brauche einen Termin für die Anmeldung.", "mode": "choose", "options": ["Ich brauche einen Termin für die Anmeldung.", "Ich brauche ein Konto für die Anmeldung.", "Ich brauche ein Formular für den Termin."], "answer": 0, "showTextAfter": true, "explain": "Termin für die Anmeldung: la combinación correcta para este trámite." },
+    { "id": "e15", "type": "shadowing", "tags": ["burocracia"], "difficulty": 2, "speak": "Ich brauche einen Termin für die Anmeldung, und ich habe alle Unterlagen dabei.", "es": "Necesito una cita para el registro de domicilio, y llevo todos los documentos.", "ipa": "/ɪç ˈbʁaʊ̯xə ˈaɪ̯nən tɛʁˈmiːn fyːɐ̯ diː ˈanmɛldʊŋ ʊnt ɪç ˈhaːbə ˈalə ˈʊntɐlaːɡn̩ daˈbaɪ̯/", "esApprox": "«ich BRÁU-je ÁI-nen ter-MÍN für di ÁN-mel-dung, unt ich JÁ-be Á-le ÚN-ter-la-guen da-BÁI»", "focus": "der Termin y die Unterlagen: los dos elementos clave de cualquier trámite alemán.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["banco"], "difficulty": 2, "speak": "Ich möchte ein Konto eröffnen, und ich möchte wissen, wie meine IBAN lautet.", "es": "Quiero abrir una cuenta, y me gustaría saber cuál es mi IBAN.", "ipa": "/ɪç ˈmœçtə aɪ̯n ˈkɔnto ɛɐ̯ˈʔœfnən ʊnt ɪç ˈmœçtə ˈvɪsn̩ viː ˈmaɪ̯nə iːban ˈlaʊ̯tət/", "esApprox": "«ich MÖCH-te ain KÓN-to er-ÖF-nen, unt ich MÖCH-te VÍ-sen, vi MÁI-ne í-ban LÁU-tet»", "focus": "möchte + eröffnen (infinitivo) y una W-Frage indirecta (wie... lautet), clase 130.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["burocracia"], "difficulty": 2, "prompt": "Te preguntan si tienes cita. Di que sí, para el registro de domicilio.", "modelAnswer": "Ja, ich habe einen Termin für die Anmeldung.", "alsoValid": ["Ja, einen Termin für die Anmeldung."], "speak": "Ja, ich habe einen Termin für die Anmeldung.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["burocracia"], "difficulty": 2, "prompt": "Clasifica cada palabra: banco o burocracia general", "buckets": ["Banco", "Burocracia general"], "items": [
+      { "text": "das Konto", "bucket": 0 },
+      { "text": "die Anmeldung", "bucket": 1 },
+      { "text": "überweisen", "bucket": 0 },
+      { "text": "das Bürgeramt", "bucket": 1 }
+    ], "explain": "Konto y überweisen son de banca; Anmeldung y Bürgeramt son de trámites generales." },
+    { "id": "e19", "type": "error_correction", "tags": ["burocracia"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Bitte füllen Sie das Formular an.", "accept": ["Bitte füllen Sie das Formular aus"], "audio": "Bitte füllen Sie das Formular aus.", "explain": "ausfüllen es el verbo correcto (rellenar), no «anfüllen»." },
+    { "id": "e20", "type": "mcq", "tags": ["burocracia"], "difficulty": 2, "prompt": "«Ich brauche einen Termin für die Anmeldung. Ich habe alle Unterlagen dabei, und ich muss auch ein Formular ausfüllen.» ¿Qué tres cosas necesita la persona para el trámite?", "options": ["Cita, documentos y rellenar un formulario", "Solo una cita", "Solo documentos", "Dinero y una cuenta bancaria"], "answer": 0, "explain": "El texto menciona los tres elementos: Termin, Unterlagen y Formular ausfüllen." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Konto", "es": "la cuenta (bancaria)", "esApprox": "«KÓN-to»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "überweisen", "es": "transferir (dinero)", "esApprox": "«ü-ber-VÁI-zen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Anmeldung", "es": "el registro de domicilio", "esApprox": "«ÁN-mel-dung»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Formular", "es": "el formulario", "esApprox": "«for-mu-LAR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Unterlagen", "es": "los documentos", "esApprox": "«ÚN-ter-la-guen»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "ausfüllen", "es": "rellenar", "esApprox": "«ÁUS-fü-len»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich brauche einen Termin für die Anmeldung, und ich habe alle Unterlagen dabei.", "es": "Necesito una cita para el registro de domicilio, y llevo todos los documentos.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich möchte ein Konto eröffnen, und ich möchte wissen, wie meine IBAN lautet.", "es": "Quiero abrir una cuenta, y me gustaría saber cuál es mi IBAN.", "from": "e16" }
+  ]
+}

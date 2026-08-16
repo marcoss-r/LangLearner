@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-137",
+  "lang": "de",
+  "level": "A2",
+  "order": 137,
+  "title": "Viajes y alojamiento",
+  "objectives": [
+    "Ampliar el vocabulario de viajes y alojamiento: die Unterkunft, die Übernachtung, das Einzelzimmer",
+    "Reservar y describir un alojamiento con soltura",
+    "Usar frases típicas para pedir información en la recepción de un hotel"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Reservar y describir un alojamiento",
+      "body": "Además del vocabulario básico de viajes (clase 74), ahora amplías con palabras más específicas de alojamiento: die Unterkunft (el alojamiento, término general), die Übernachtung (la pernoctación, la noche de hotel), das Einzelzimmer/Doppelzimmer (habitación individual/doble), die Rezeption (la recepción). Con esto puedes reservar, preguntar por disponibilidad y describir tus necesidades.",
+      "examples": [
+        { "target": "Ich hätte gern ein Einzelzimmer für zwei Nächte.", "es": "Quisiera una habitación individual para dos noches." },
+        { "target": "Ist Frühstück im Preis inbegriffen?", "es": "¿Está el desayuno incluido en el precio?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de alojamiento",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["die Unterkunft", "el alojamiento"],
+        ["die Übernachtung", "la pernoctación"],
+        ["das Einzelzimmer", "la habitación individual"],
+        ["das Doppelzimmer", "la habitación doble"],
+        ["die Rezeption", "la recepción"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "«Ich hätte gern...» (quisiera) es una forma educada y muy usada para pedir cosas, más suave que «Ich möchte». La verás con más profundidad en la clase 159 (Konjunktiv II)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Unterkunft", "es": "el alojamiento", "ipa": "/ˈʊntɐkʊnft/", "esApprox": "«ÚN-ter-kunft»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wir suchen eine Unterkunft.", "es": "Buscamos alojamiento." } },
+    { "id": "v2", "target": "die Übernachtung", "es": "la pernoctación", "ipa": "/yːbɐˈnaxtʊŋ/", "esApprox": "«ü-ber-NACH-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Was kostet eine Übernachtung?", "es": "¿Cuánto cuesta una noche?" } },
+    { "id": "v3", "target": "das Einzelzimmer", "es": "la habitación individual", "ipa": "/ˈaɪ̯ntsl̩tsɪmɐ/", "esApprox": "«ÁIN-tsel-tsi-mer»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich hätte gern ein Einzelzimmer.", "es": "Quisiera una habitación individual." } },
+    { "id": "v4", "target": "das Doppelzimmer", "es": "la habitación doble", "ipa": "/ˈdɔpl̩tsɪmɐ/", "esApprox": "«DÓ-pel-tsi-mer»", "pos": "sustantivo", "gender": "n", "example": { "target": "Wir brauchen ein Doppelzimmer.", "es": "Necesitamos una habitación doble." } },
+    { "id": "v5", "target": "die Rezeption", "es": "la recepción", "ipa": "/ʁetsɛpˈtsi̯oːn/", "esApprox": "«re-tsep-tsi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Rezeption ist im Erdgeschoss.", "es": "La recepción está en la planta baja." } },
+    { "id": "v6", "target": "inbegriffen", "es": "incluido", "ipa": "/ˈɪnbəɡʁɪfn̩/", "esApprox": "«IN-be-gri-fen»", "pos": "adjetivo", "gender": null, "example": { "target": "Frühstück ist inbegriffen.", "es": "El desayuno está incluido." } },
+    { "id": "v7", "target": "buchen", "es": "reservar", "ipa": "/ˈbuːxn̩/", "esApprox": "«BÚ-jen»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe ein Zimmer gebucht.", "es": "He reservado una habitación." } },
+    { "id": "v8", "target": "die Bestätigung", "es": "la confirmación", "ipa": "/bəˈʃtɛːtɪɡʊŋ/", "esApprox": "«be-SHTÉ-ti-gung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich habe die Bestätigung bekommen.", "es": "He recibido la confirmación." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["viajes"], "difficulty": 1, "prompt": "¿Cómo se dice «la habitación individual»?", "options": ["das Doppelzimmer", "das Einzelzimmer", "die Unterkunft", "die Rezeption"], "answer": 1, "explain": "das Einzelzimmer = la habitación individual." },
+    { "id": "e2", "type": "mcq", "tags": ["viajes"], "difficulty": 2, "prompt": "¿Qué significa «inbegriffen»?", "options": ["excluido", "incluido", "opcional", "caro"], "answer": 1, "explain": "inbegriffen = incluido." },
+    { "id": "e3", "type": "true_false", "tags": ["viajes"], "difficulty": 2, "statement": "«die Übernachtung» significa «la pernoctación».", "answer": true, "explain": "die Übernachtung = la pernoctación, la noche de hotel." },
+    { "id": "e4", "type": "true_false", "tags": ["viajes"], "difficulty": 2, "statement": "«die Unterkunft» es un término específico solo para hoteles.", "answer": false, "explain": "die Unterkunft es el término general: hotel, apartamento, hostal, etc." },
+    { "id": "e5", "type": "match_pairs", "tags": ["viajes"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Unterkunft", "die Rezeption", "buchen", "die Bestätigung"], "right": ["el alojamiento", "la recepción", "reservar", "la confirmación"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario de alojamiento." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["viajes"], "difficulty": 2, "prompt": "Quisiera una habitación individual para dos noches.", "accept": ["Ich hätte gern ein Einzelzimmer für zwei Nächte"], "hintWords": ["ich hätte gern ein Einzelzimmer für zwei Nächte"], "strictAccents": false, "audio": "Ich hätte gern ein Einzelzimmer für zwei Nächte.", "explain": "Ich hätte gern...: fórmula educada para pedir algo." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["viajes"], "difficulty": 2, "prompt": "¿Está el desayuno incluido en el precio?", "accept": ["Ist Frühstück im Preis inbegriffen?", "Ist Frühstück im Preis inbegriffen"], "hintWords": ["ist Frühstück im Preis inbegriffen"], "strictAccents": false, "audio": "Ist Frühstück im Preis inbegriffen?", "explain": "im Preis inbegriffen: expresión fija muy usada en hoteles." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["viajes"], "difficulty": 2, "prompt": "He recibido la confirmación.", "accept": ["Ich habe die Bestätigung bekommen"], "hintWords": ["ich habe die Bestätigung bekommen"], "strictAccents": false, "audio": "Ich habe die Bestätigung bekommen.", "explain": "bekommen: participio idéntico al infinitivo (clase 94)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["viajes"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Die ___ ist im Erdgeschoss. Was kostet eine ___?", "blanks": [{ "accept": ["Rezeption"] }, { "accept": ["Übernachtung"] }], "bank": ["Rezeption", "Übernachtung", "Unterkunft"], "explain": "die Rezeption (la recepción); die Übernachtung (la pernoctación)." },
+    { "id": "e10", "type": "word_order", "tags": ["viajes"], "difficulty": 2, "prompt": "Ordena: «Necesitamos una habitación doble»", "tokens": ["ein Doppelzimmer", "brauchen", "Wir"], "answer": ["Wir", "brauchen", "ein Doppelzimmer"], "audio": "Wir brauchen ein Doppelzimmer.", "explain": "Wir brauchen ein Doppelzimmer: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["viajes"], "difficulty": 2, "prompt": "Ich habe ein Zimmer gebucht.", "accept": ["He reservado una habitación."], "strictAccents": false, "audio": "Ich habe ein Zimmer gebucht.", "explain": "buchen → gebucht: participio regular." },
+    { "id": "e12", "type": "dialogue", "tags": ["viajes"], "difficulty": 2, "prompt": "Completa la conversación en la recepción", "turns": [
+      { "who": "Rezeptionist", "text": "Guten Tag, kann ich Ihnen helfen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich hätte gern ein Einzelzimmer für zwei Nächte."], "hint": "pide una habitación" },
+      { "who": "Rezeptionist", "text": "Kein Problem, einen Moment bitte.", "speak": true }
+    ], "explain": "Diálogo típico en la recepción de un hotel." },
+    { "id": "e13", "type": "listening", "tags": ["viajes"], "difficulty": 1, "speak": "Ich hätte gern ein Einzelzimmer für zwei Nächte.", "mode": "write", "accept": ["Ich hätte gern ein Einzelzimmer für zwei Nächte"], "showTextAfter": true, "explain": "Frase clave para reservar una habitación." },
+    { "id": "e14", "type": "listening", "tags": ["viajes"], "difficulty": 2, "speak": "Ist Frühstück im Preis inbegriffen?", "mode": "choose", "options": ["Ist Frühstück im Preis inbegriffen?", "Ist Frühstück im Preis teuer?", "Ist Frühstück im Preis fertig?"], "answer": 0, "showTextAfter": true, "explain": "inbegriffen (incluido) suena distinto de teuer (caro) y fertig (listo)." },
+    { "id": "e15", "type": "shadowing", "tags": ["viajes"], "difficulty": 2, "speak": "Ich hätte gern ein Einzelzimmer für zwei Nächte, und ich möchte wissen, ob Frühstück inbegriffen ist.", "es": "Quisiera una habitación individual para dos noches, y me gustaría saber si el desayuno está incluido.", "ipa": "/ɪç ˈhɛtə ɡɛʁn aɪ̯n ˈaɪ̯ntsl̩tsɪmɐ fyːɐ̯ tsvaɪ̯ ˈnɛçtə ʊnt ɪç ˈmœçtə ˈvɪsn̩ ɔp ˈfʁyːʃtʏk ˈɪnbəɡʁɪfn̩ ɪst/", "esApprox": "«ich JÉ-te guern ain ÁIN-tsel-tsi-mer für tsvai NECH-te, unt ich MÖCH-te VÍ-sen, op FRÜ-shtük IN-be-gri-fen ist»", "focus": "Ich hätte gern + ob (pregunta indirecta, clase 129): dos estructuras combinadas de forma natural.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["viajes"], "difficulty": 2, "speak": "Ich habe eine Unterkunft gebucht, und ich habe die Bestätigung schon bekommen.", "es": "He reservado un alojamiento, y ya he recibido la confirmación.", "ipa": "/ɪç ˈhaːbə ˈaɪ̯nə ˈʊntɐkʊnft ɡəˈbuːxt ʊnt ɪç ˈhaːbə diː bəˈʃtɛːtɪɡʊŋ ʃoːn bəˈkɔmən/", "esApprox": "«ich JÁ-be ÁI-ne ÚN-ter-kunft ge-BUCHT, unt ich JÁ-be di be-SHTÉ-ti-gung shon be-KÓ-men»", "focus": "gebucht (participio regular) y bekommen (idéntico al infinitivo): dos tipos distintos de Perfekt.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["viajes"], "difficulty": 2, "prompt": "Te preguntan si necesitas ayuda en la recepción. Pide una habitación individual para dos noches.", "modelAnswer": "Ich hätte gern ein Einzelzimmer für zwei Nächte.", "alsoValid": ["Ich brauche ein Einzelzimmer für zwei Nächte."], "speak": "Ich hätte gern ein Einzelzimmer für zwei Nächte.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["viajes"], "difficulty": 2, "prompt": "Clasifica cada palabra: lugar o tipo de habitación", "buckets": ["Lugar", "Tipo de habitación"], "items": [
+      { "text": "die Rezeption", "bucket": 0 },
+      { "text": "das Einzelzimmer", "bucket": 1 },
+      { "text": "die Unterkunft", "bucket": 0 },
+      { "text": "das Doppelzimmer", "bucket": 1 }
+    ], "explain": "Rezeption y Unterkunft son lugares; Einzelzimmer y Doppelzimmer son tipos de habitación." },
+    { "id": "e19", "type": "error_correction", "tags": ["viajes"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe die Bestätigung gebekommen.", "accept": ["Ich habe die Bestätigung bekommen"], "audio": "Ich habe die Bestätigung bekommen.", "explain": "bekommen no lleva ge-: su participio es idéntico al infinitivo." },
+    { "id": "e20", "type": "mcq", "tags": ["viajes"], "difficulty": 2, "prompt": "«Ich habe eine Unterkunft gebucht und die Bestätigung bekommen. Ich hätte gern ein Doppelzimmer, weil ich mit meiner Frau reise.» ¿Con quién viaja la persona?", "options": ["Sola", "Con su esposa", "Con amigos", "No se dice"], "answer": 1, "explain": "«weil ich mit meiner Frau reise» = porque viajo con mi esposa." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Unterkunft", "es": "el alojamiento", "esApprox": "«ÚN-ter-kunft»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Übernachtung", "es": "la pernoctación", "esApprox": "«ü-ber-NACH-tung»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Einzelzimmer", "es": "la habitación individual", "esApprox": "«ÁIN-tsel-tsi-mer»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Doppelzimmer", "es": "la habitación doble", "esApprox": "«DÓ-pel-tsi-mer»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Rezeption", "es": "la recepción", "esApprox": "«re-tsep-tsi-ÓN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "inbegriffen", "es": "incluido", "esApprox": "«IN-be-gri-fen»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich hätte gern ein Einzelzimmer für zwei Nächte, und ich möchte wissen, ob Frühstück inbegriffen ist.", "es": "Quisiera una habitación individual para dos noches, y me gustaría saber si el desayuno está incluido.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich habe eine Unterkunft gebucht, und ich habe die Bestätigung schon bekommen.", "es": "He reservado un alojamiento, y ya he recibido la confirmación.", "from": "e16" }
+  ]
+}
