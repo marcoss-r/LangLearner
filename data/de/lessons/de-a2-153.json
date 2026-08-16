@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-153",
+  "lang": "de",
+  "level": "A2",
+  "order": 153,
+  "title": "El Futur I: werden + infinitivo",
+  "objectives": [
+    "Conjugar werden en presente para formar el Futur I",
+    "Colocar el infinitivo al final de la frase, como con los verbos modales",
+    "Reconocer que el presente + marcador de tiempo es más frecuente que el Futur I en el habla cotidiana"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "werden + infinitivo: la estructura del futuro",
+      "body": "El Futur I se forma con werden conjugado (posición 2) + el infinitivo del verbo principal, que va al final de la frase, exactamente igual que con los modales (clase 51). «Ich werde nach Berlin fahren» (Voy a ir/Iré a Berlín).",
+      "examples": [
+        { "target": "Ich werde nach Berlin fahren.", "es": "Iré a Berlín." },
+        { "target": "Es wird morgen regnen.", "es": "Mañana lloverá." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "werden en presente (auxiliar del futuro)",
+      "headers": ["Persona", "werden"],
+      "rows": [
+        ["ich", "werde"],
+        ["du", "wirst"],
+        ["er / sie / es", "wird"],
+        ["wir", "werden"],
+        ["ihr", "werdet"],
+        ["sie / Sie", "werden"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En alemán hablado, el presente + un marcador de tiempo futuro («Ich fahre morgen nach Berlin») es más común que el Futur I para planes ya decididos. El Futur I se usa más para predicciones, promesas o suposiciones sobre el futuro."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "werden", "es": "(auxiliar del futuro), convertirse en", "ipa": "/ˈveːɐ̯dn̩/", "esApprox": "«VÉR-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich werde nach Berlin fahren.", "es": "Iré a Berlín." } },
+    { "id": "v2", "target": "die Zukunft", "es": "el futuro", "ipa": "/ˈtsuːkʊnft/", "esApprox": "«TSÚ-kunft»", "pos": "sustantivo", "gender": "f", "example": { "target": "Niemand kennt die Zukunft.", "es": "Nadie conoce el futuro." } },
+    { "id": "v3", "target": "vorhersagen", "es": "predecir", "ipa": "/foːɐ̯ˈheːɐ̯zaːɡn̩/", "esApprox": "«for-JÉR-za-guen»", "pos": "verbo", "gender": null, "example": { "target": "Niemand kann das vorhersagen.", "es": "Nadie puede predecir eso." } },
+    { "id": "v4", "target": "versprechen", "es": "prometer", "ipa": "/fɛɐ̯ˈʃpʁɛçn̩/", "esApprox": "«fer-SHPRÉ-chen»", "pos": "verbo", "gender": null, "example": { "target": "Ich verspreche, dass ich komme.", "es": "Prometo que vendré." } },
+    { "id": "v5", "target": "vermutlich", "es": "probablemente", "ipa": "/fɛɐ̯ˈmuːtlɪç/", "esApprox": "«fer-MÚT-lich»", "pos": "adverbio", "gender": null, "example": { "target": "Es wird vermutlich regnen.", "es": "Probablemente lloverá." } },
+    { "id": "v6", "target": "die Vorhersage", "es": "la predicción", "ipa": "/ˈfoːɐ̯heːɐ̯zaːɡə/", "esApprox": "«FOR-jer-za-ge»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Wettervorhersage sagt Regen.", "es": "El pronóstico del tiempo dice lluvia." } },
+    { "id": "v7", "target": "bald", "es": "pronto", "ipa": "/balt/", "esApprox": "«balt»", "pos": "adverbio", "gender": null, "example": { "target": "Ich werde bald fertig sein.", "es": "Estaré listo pronto." } },
+    { "id": "v8", "target": "irgendwann", "es": "algún día, en algún momento", "ipa": "/ˈɪʁɡn̩tvan/", "esApprox": "«ÍR-guent-van»", "pos": "adverbio", "gender": null, "example": { "target": "Ich werde irgendwann nach Japan reisen.", "es": "Algún día viajaré a Japón." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["futuro"], "difficulty": 1, "prompt": "¿Cuál es la forma de werden para «ich»?", "options": ["wird", "werde", "wirst", "werden"], "answer": 1, "explain": "ich werde." },
+    { "id": "e2", "type": "mcq", "tags": ["futuro"], "difficulty": 2, "prompt": "¿Dónde va el infinitivo en el Futur I?", "options": ["Posición 1", "Posición 2", "Al final", "No se usa"], "answer": 2, "explain": "werden (posición 2) + infinitivo al final, como con los modales." },
+    { "id": "e3", "type": "true_false", "tags": ["futuro"], "difficulty": 2, "statement": "En el habla cotidiana, el presente + marcador de tiempo es más frecuente que el Futur I.", "answer": true, "explain": "Para planes decididos, el alemán prefiere el presente con un marcador de tiempo." },
+    { "id": "e4", "type": "true_false", "tags": ["futuro"], "difficulty": 2, "statement": "werden solo se usa para formar el futuro, nunca significa otra cosa.", "answer": false, "explain": "werden también significa «convertirse en» (Er wird Arzt = Él se hace médico)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["futuro"], "difficulty": 2, "prompt": "Une cada forma de werden con su persona", "left": ["ich", "du", "er/sie/es", "wir"], "right": ["werde", "wirst", "wird", "werden"], "answer": [0, 1, 2, 3], "explain": "Conjugación irregular de werden en presente." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["futuro"], "difficulty": 2, "prompt": "Iré a Berlín.", "accept": ["Ich werde nach Berlin fahren"], "hintWords": ["ich werde nach Berlin fahren"], "strictAccents": false, "audio": "Ich werde nach Berlin fahren.", "explain": "werde + nach Berlin + fahren (infinitivo al final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["futuro"], "difficulty": 2, "prompt": "Mañana lloverá.", "accept": ["Es wird morgen regnen"], "hintWords": ["es wird morgen regnen"], "strictAccents": false, "audio": "Es wird morgen regnen.", "explain": "wird + morgen + regnen (infinitivo al final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["futuro"], "difficulty": 2, "prompt": "Algún día viajaré a Japón.", "accept": ["Ich werde irgendwann nach Japan reisen"], "hintWords": ["ich werde irgendwann nach Japan reisen"], "strictAccents": false, "audio": "Ich werde irgendwann nach Japan reisen.", "explain": "werde + irgendwann + nach Japan + reisen (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["futuro"], "difficulty": 2, "prompt": "Completa con la forma correcta de werden", "text": "Du ___ das schaffen. Wir ___ pünktlich sein.", "blanks": [{ "accept": ["wirst"] }, { "accept": ["werden"] }], "bank": ["wirst", "werden", "wird"], "explain": "du wirst; wir werden." },
+    { "id": "e10", "type": "word_order", "tags": ["futuro"], "difficulty": 2, "prompt": "Ordena: «Prometo que vendré»", "tokens": ["dass ich komme", "Ich verspreche,"], "answer": ["Ich verspreche,", "dass ich komme"], "audio": "Ich verspreche, dass ich komme.", "explain": "dass + komme (final): repaso de la clase 81." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["futuro"], "difficulty": 2, "prompt": "Die Wettervorhersage sagt Regen.", "accept": ["El pronóstico del tiempo dice lluvia."], "strictAccents": false, "audio": "Die Wettervorhersage sagt Regen.", "explain": "die Vorhersage = la predicción." },
+    { "id": "e12", "type": "dialogue", "tags": ["futuro"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was wirst du morgen machen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich werde nach Berlin fahren."], "hint": "responde con Futur I" },
+      { "who": "Lea", "text": "Klingt gut!", "speak": true }
+    ], "explain": "Práctica del Futur I en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["futuro"], "difficulty": 1, "speak": "Ich werde nach Berlin fahren.", "mode": "write", "accept": ["Ich werde nach Berlin fahren"], "showTextAfter": true, "explain": "werde + fahren: Futur I completo." },
+    { "id": "e14", "type": "listening", "tags": ["futuro"], "difficulty": 2, "speak": "Es wird vermutlich regnen.", "mode": "choose", "options": ["Es wird vermutlich regnen.", "Es wird vermutlich geregnet.", "Es wurde vermutlich regnen."], "answer": 0, "showTextAfter": true, "explain": "wird + regnen (infinitivo): la única forma correcta del Futur I." },
+    { "id": "e15", "type": "shadowing", "tags": ["futuro"], "difficulty": 2, "speak": "Ich werde irgendwann nach Japan reisen, und ich verspreche, dass ich es bald plane.", "es": "Algún día viajaré a Japón, y prometo que lo planeo pronto.", "ipa": "/ɪç ˈveːɐ̯də ˈɪʁɡn̩tvan naːx ˈjaːpan ˈʁaɪ̯zn̩ ʊnt ɪç fɛɐ̯ˈʃpʁɛçə das ɪç ɛs balt ˈplaːnə/", "esApprox": "«ich VÉR-de ÍR-guent-van nach YÁ-pan RÁI-zen, unt ich fer-SHPRÉ-che, das ich es balt PLÁ-ne»", "focus": "werde...reisen (Futur I) y dass...plane (subordinada): dos estructuras con verbo al final.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["futuro"], "difficulty": 2, "speak": "Die Wettervorhersage sagt, dass es morgen regnen wird, aber vermutlich wird es nicht so schlimm.", "es": "El pronóstico dice que mañana lloverá, pero probablemente no será tan grave.", "ipa": "/diː ˈvɛtɐfoːɐ̯heːɐ̯zaːɡə zaːkt das ɛs ˈmɔʁɡn̩ ˈʁeːɡnən vɪʁt ˈaːbɐ fɛɐ̯ˈmuːtlɪç vɪʁt ɛs nɪçt zoː ʃlɪm/", "esApprox": "«di VÉ-ter-for-jer-za-ge zakt, das es MOR-guen RÉG-nen virt, Á-ber fer-MÚT-lich virt es nicht zo shlim»", "focus": "dass...regnen wird: el Futur I dentro de una subordinada, con werden al final junto al infinitivo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["futuro"], "difficulty": 2, "prompt": "Te preguntan tus planes para mañana. Di que irás a Berlín.", "modelAnswer": "Ich werde nach Berlin fahren.", "alsoValid": ["Ich fahre morgen nach Berlin."], "speak": "Ich werde nach Berlin fahren.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["futuro"], "difficulty": 2, "prompt": "Clasifica cada uso: predicción o plan ya decidido", "buckets": ["Predicción (Futur I típico)", "Plan decidido (presente + marcador)"], "items": [
+      { "text": "Es wird morgen regnen.", "bucket": 0 },
+      { "text": "Ich fahre morgen nach Berlin.", "bucket": 1 },
+      { "text": "Die Zukunft wird besser sein.", "bucket": 0 }
+    ], "explain": "El Futur I es típico de predicciones; el presente es más común para planes ya decididos." },
+    { "id": "e19", "type": "error_correction", "tags": ["futuro"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich werde nach Berlin fahre.", "accept": ["Ich werde nach Berlin fahren"], "audio": "Ich werde nach Berlin fahren.", "explain": "Tras werden va el infinitivo (fahren), no una forma conjugada (fahre)." },
+    { "id": "e20", "type": "mcq", "tags": ["futuro"], "difficulty": 2, "prompt": "«Ich werde irgendwann nach Japan reisen. Die Wettervorhersage sagt, dass es morgen regnen wird, aber ich verspreche, dass ich meine Pläne nicht ändere.» ¿Qué promete la persona?", "options": ["Que va a Japón mañana", "Que no cambia sus planes", "Que no lloverá", "Que se queda en casa"], "answer": 1, "explain": "«ich verspreche, dass ich meine Pläne nicht ändere» = prometo que no cambio mis planes." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "werden", "es": "(auxiliar del futuro), convertirse en", "esApprox": "«VÉR-den»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Zukunft", "es": "el futuro", "esApprox": "«TSÚ-kunft»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "versprechen", "es": "prometer", "esApprox": "«fer-SHPRÉ-chen»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "vermutlich", "es": "probablemente", "esApprox": "«fer-MÚT-lich»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "bald", "es": "pronto", "esApprox": "«balt»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "irgendwann", "es": "algún día, en algún momento", "esApprox": "«ÍR-guent-van»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich werde irgendwann nach Japan reisen, und ich verspreche, dass ich es bald plane.", "es": "Algún día viajaré a Japón, y prometo que lo planeo pronto.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Wettervorhersage sagt, dass es morgen regnen wird, aber vermutlich wird es nicht so schlimm.", "es": "El pronóstico dice que mañana lloverá, pero probablemente no será tan grave.", "from": "e16" }
+  ]
+}

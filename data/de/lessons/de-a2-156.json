@@ -1,0 +1,95 @@
+{
+  "id": "de-a2-156",
+  "lang": "de",
+  "level": "A2",
+  "order": 156,
+  "title": "El Präteritum de los verbos más frecuentes",
+  "objectives": [
+    "Reconocer el Präteritum de los verbos fuertes (irregulares) más comunes: ging, kam, sah, gab, nahm...",
+    "Notar que estos Präteritum cambian la raíz por completo, sin seguir el patrón -te",
+    "Reconocer estas formas al leer, aunque en el habla sigas prefiriendo el Perfekt"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los verbos fuertes: raíz completamente distinta",
+      "body": "A diferencia de los verbos regulares (clase 155, raíz + -te), los verbos fuertes cambian la vocal de la raíz (y a veces más) en el Präteritum, sin ningún patrón añadido: gehen → ging, kommen → kam, sehen → sah. Estas formas hay que memorizarlas una por una, igual que ya memorizaste sus participios de Perfekt (gegangen, gekommen, gesehen).",
+      "examples": [
+        { "target": "Sie ging langsam durch den Wald.", "es": "Ella caminaba despacio por el bosque." },
+        { "target": "Er kam spät nach Hause.", "es": "Él llegó tarde a casa." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Präteritum de verbos fuertes frecuentes (ich/er)",
+      "headers": ["Infinitivo", "Präteritum", "Participio (repaso)"],
+      "rows": [
+        ["gehen", "ging", "gegangen"],
+        ["kommen", "kam", "gekommen"],
+        ["sehen", "sah", "gesehen"],
+        ["geben", "gab", "gegeben"],
+        ["nehmen", "nahm", "genommen"],
+        ["sprechen", "sprach", "gesprochen"],
+        ["finden", "fand", "gefunden"],
+        ["bleiben", "blieb", "geblieben"],
+        ["essen", "aß", "gegessen"],
+        ["trinken", "trank", "getrunken"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Buena noticia: la vocal del Präteritum suele coincidir con la del participio (kommen → kam → gekommen; trinken → trank → getrunken), aunque no siempre (gehen → ging → gegangen, muy distinto). Aprender las dos formas juntas ayuda a fijarlas."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "ging", "es": "iba, fue (Präteritum de gehen)", "ipa": "/ɡɪŋ/", "esApprox": "«guing»", "pos": "verbo", "gender": null, "example": { "target": "Sie ging langsam durch den Wald.", "es": "Ella caminaba despacio por el bosque." } },
+    { "id": "v2", "target": "kam", "es": "vino, llegó (Präteritum de kommen)", "ipa": "/kaːm/", "esApprox": "«kam»", "pos": "verbo", "gender": null, "example": { "target": "Er kam spät nach Hause.", "es": "Él llegó tarde a casa." } },
+    { "id": "v3", "target": "sah", "es": "vio (Präteritum de sehen)", "ipa": "/zaː/", "esApprox": "«za»", "pos": "verbo", "gender": null, "example": { "target": "Sie sah ihn nicht.", "es": "Ella no lo vio." } },
+    { "id": "v4", "target": "nahm", "es": "tomó, cogió (Präteritum de nehmen)", "ipa": "/naːm/", "esApprox": "«nam»", "pos": "verbo", "gender": null, "example": { "target": "Er nahm das Buch.", "es": "Él tomó el libro." } },
+    { "id": "v5", "target": "sprach", "es": "habló (Präteritum de sprechen)", "ipa": "/ʃpʁaːx/", "esApprox": "«shprach»", "pos": "verbo", "gender": null, "example": { "target": "Sie sprach sehr leise.", "es": "Ella hablaba muy bajito." } },
+    { "id": "v6", "target": "fand", "es": "encontró (Präteritum de finden)", "ipa": "/fant/", "esApprox": "«fant»", "pos": "verbo", "gender": null, "example": { "target": "Er fand den Schlüssel.", "es": "Él encontró la llave." } },
+    { "id": "v7", "target": "der Wald", "es": "el bosque", "ipa": "/valt/", "esApprox": "«valt»", "pos": "sustantivo", "gender": "m", "example": { "target": "Sie ging durch den Wald.", "es": "Ella caminaba por el bosque." } },
+    { "id": "v8", "target": "blieb", "es": "se quedó (Präteritum de bleiben)", "ipa": "/blaɪ̯p/", "esApprox": "«blaip»", "pos": "verbo", "gender": null, "example": { "target": "Er blieb zu Hause.", "es": "Él se quedó en casa." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["irregulares"], "difficulty": 1, "prompt": "¿Cuál es el Präteritum de «gehen»?", "options": ["gegangen", "ging", "geht", "gehte"], "answer": 1, "explain": "gehen → ging: Präteritum irregular." },
+    { "id": "e2", "type": "mcq", "tags": ["irregulares"], "difficulty": 2, "prompt": "¿Cuál es el Präteritum de «kommen»?", "options": ["gekommen", "kommte", "kam", "kommst"], "answer": 2, "explain": "kommen → kam: Präteritum irregular." },
+    { "id": "e3", "type": "true_false", "tags": ["irregulares"], "difficulty": 2, "statement": "El Präteritum de los verbos fuertes sigue el patrón raíz + -te.", "answer": false, "explain": "Los verbos fuertes cambian la vocal de la raíz, sin el patrón -te de los regulares." },
+    { "id": "e4", "type": "true_false", "tags": ["irregulares"], "difficulty": 2, "statement": "La vocal del Präteritum a veces coincide con la del participio, pero no siempre.", "answer": true, "explain": "kommen: kam/gekommen (misma vocal); gehen: ging/gegangen (distinta)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["irregulares"], "difficulty": 2, "prompt": "Une cada infinitivo con su Präteritum", "left": ["gehen", "kommen", "sehen", "nehmen"], "right": ["ging", "kam", "sah", "nahm"], "answer": [0, 1, 2, 3], "explain": "Cuatro verbos fuertes frecuentes, con su forma de Präteritum." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["irregulares"], "difficulty": 2, "prompt": "Ella caminaba despacio por el bosque.", "accept": ["Sie ging langsam durch den Wald"], "hintWords": ["sie ging langsam durch den Wald"], "strictAccents": false, "audio": "Sie ging langsam durch den Wald.", "explain": "ging: Präteritum de gehen." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["irregulares"], "difficulty": 2, "prompt": "Él llegó tarde a casa.", "accept": ["Er kam spät nach Hause"], "hintWords": ["er kam spät nach Hause"], "strictAccents": false, "audio": "Er kam spät nach Hause.", "explain": "kam: Präteritum de kommen." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["irregulares"], "difficulty": 2, "prompt": "Él encontró la llave.", "accept": ["Er fand den Schlüssel"], "hintWords": ["er fand den Schlüssel"], "strictAccents": false, "audio": "Er fand den Schlüssel.", "explain": "fand: Präteritum de finden." },
+    { "id": "e9", "type": "fill_blank", "tags": ["irregulares"], "difficulty": 2, "prompt": "Completa con el Präteritum correcto", "text": "Sie ___ ihn nicht. (sehen) Er ___ das Buch. (nehmen)", "blanks": [{ "accept": ["sah"] }, { "accept": ["nahm"] }], "bank": ["sah", "nahm", "sieht"], "explain": "sah (sehen); nahm (nehmen)." },
+    { "id": "e10", "type": "word_order", "tags": ["irregulares"], "difficulty": 2, "prompt": "Ordena: «Ella hablaba muy bajito»", "tokens": ["sehr leise", "sprach", "Sie"], "answer": ["Sie", "sprach", "sehr leise"], "audio": "Sie sprach sehr leise.", "explain": "Sie sprach sehr leise: sujeto-verbo-adverbio." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["irregulares"], "difficulty": 2, "prompt": "Er blieb zu Hause.", "accept": ["Él se quedó en casa."], "strictAccents": false, "audio": "Er blieb zu Hause.", "explain": "blieb: Präteritum de bleiben." },
+    { "id": "e12", "type": "dialogue", "tags": ["irregulares"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lehrerin", "text": "Was ist das Präteritum von «kommen»?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["kam", "Es ist kam."], "hint": "responde con la forma correcta" },
+      { "who": "Lehrerin", "text": "Richtig!", "speak": true }
+    ], "explain": "Práctica de identificar formas de Präteritum irregulares." },
+    { "id": "e13", "type": "listening", "tags": ["irregulares"], "difficulty": 1, "speak": "Sie ging langsam durch den Wald.", "mode": "write", "accept": ["Sie ging langsam durch den Wald"], "showTextAfter": true, "explain": "ging: Präteritum irregular de gehen." },
+    { "id": "e14", "type": "listening", "tags": ["irregulares"], "difficulty": 2, "speak": "Er kam spät nach Hause.", "mode": "choose", "options": ["Er kam spät nach Hause.", "Er kommt spät nach Hause.", "Er ist spät nach Hause gekommen."], "answer": 0, "showTextAfter": true, "explain": "kam es la forma de Präteritum, distinta del presente (kommt) y del Perfekt (ist gekommen)." },
+    { "id": "e15", "type": "shadowing", "tags": ["irregulares"], "difficulty": 2, "speak": "Sie ging durch den Wald, sah einen Fuchs, und fand später einen alten Schlüssel.", "es": "Ella caminaba por el bosque, vio un zorro, y encontró más tarde una llave antigua.", "ipa": "/ziː ɡɪŋ dʊʁç deːn valt zaː ˈaɪ̯nən fʊks ʊnt fant ˈspɛːtɐ ˈaɪ̯nən ˈaltn̩ ˈʃlʏsl̩/", "esApprox": "«zi guing durch den valt, za ÁI-nen fuks, unt fant SHPÉ-ter ÁI-nen ÁL-ten SHLÜ-sel»", "focus": "Tres Präteritum irregulares encadenados (ging, sah, fand), típicos de un relato.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["irregulares"], "difficulty": 2, "speak": "Er kam spät nach Hause, sprach kurz mit seiner Familie, und blieb dann den ganzen Abend still.", "es": "Él llegó tarde a casa, habló brevemente con su familia, y luego se quedó callado toda la tarde.", "ipa": "/eːɐ̯ kaːm ʃpɛːt naːx ˈhaʊ̯zə ʃpʁaːx kʊʁts mɪt ˈzaɪ̯nɐ familiə ʊnt blaɪ̯p dan deːn ˈɡantsn̩ ˈaːbn̩t ʃtɪl/", "esApprox": "«er kam shpét nach JÁU-ze, shprach kurts mit ZÁI-ner fa-MÍ-lie, unt blaip dan den GÁN-tsen Á-bent shtil»", "focus": "kam, sprach y blieb: tres verbos fuertes más en Präteritum, en secuencia narrativa.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["irregulares"], "difficulty": 2, "prompt": "Te piden el Präteritum de «sehen». Responde con la forma correcta.", "modelAnswer": "sah", "alsoValid": ["Das Präteritum von sehen ist sah."], "speak": "sah", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["irregulares"], "difficulty": 2, "prompt": "Clasifica cada forma: Präteritum o participio", "buckets": ["Präteritum", "Participio"], "items": [
+      { "text": "ging", "bucket": 0 },
+      { "text": "gegangen", "bucket": 1 },
+      { "text": "kam", "bucket": 0 },
+      { "text": "gekommen", "bucket": 1 }
+    ], "explain": "ging y kam son Präteritum; gegangen y gekommen son participios (Perfekt)." },
+    { "id": "e19", "type": "error_correction", "tags": ["irregulares"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Er komte spät nach Hause.", "accept": ["Er kam spät nach Hause"], "audio": "Er kam spät nach Hause.", "explain": "kommen es irregular: su Präteritum es kam, no «komte» (que seguiría el patrón regular, incorrecto aquí)." },
+    { "id": "e20", "type": "mcq", "tags": ["irregulares"], "difficulty": 2, "prompt": "«Sie ging durch den Wald, sah einen Fuchs, und fand später einen alten Schlüssel. Sie nahm ihn mit und kam spät nach Hause.» ¿Qué hizo con la llave que encontró?", "options": ["La dejó en el bosque", "Se la llevó consigo", "La escondió", "La tiró"], "answer": 1, "explain": "«Sie nahm ihn mit» = se la llevó consigo (mitnehmen)." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "ging", "es": "iba, fue (Präteritum de gehen)", "esApprox": "«guing»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "kam", "es": "vino, llegó (Präteritum de kommen)", "esApprox": "«kam»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "sah", "es": "vio (Präteritum de sehen)", "esApprox": "«za»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "nahm", "es": "tomó, cogió (Präteritum de nehmen)", "esApprox": "«nam»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "sprach", "es": "habló (Präteritum de sprechen)", "esApprox": "«shprach»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "fand", "es": "encontró (Präteritum de finden)", "esApprox": "«fant»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Sie ging durch den Wald, sah einen Fuchs, und fand später einen alten Schlüssel.", "es": "Ella caminaba por el bosque, vio un zorro, y encontró más tarde una llave antigua.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Er kam spät nach Hause, sprach kurz mit seiner Familie, und blieb dann den ganzen Abend still.", "es": "Él llegó tarde a casa, habló brevemente con su familia, y luego se quedó callado toda la tarde.", "from": "e16" }
+  ]
+}

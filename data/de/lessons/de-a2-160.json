@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-160",
+  "lang": "de",
+  "level": "A2",
+  "order": 160,
+  "title": "Pedir las cosas con educación: könnte ich, hätten Sie",
+  "objectives": [
+    "Usar el Konjunktiv II de los modales (könnte, dürfte) para pedir cosas con cortesía",
+    "Formular peticiones educadas con hätten Sie y wären Sie so nett",
+    "Comparar el nivel de cortesía entre kann/können y könnte/könnten"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El Konjunktiv II para pedir las cosas con educación",
+      "body": "Los modales también tienen Konjunktiv II, y se usan constantemente para sonar más educado: könnte (de können), dürfte (de dürfen). «Könnte ich bitte das Fenster öffnen?» suena mucho más cortés que «Kann ich das Fenster öffnen?». También se usa hätten Sie para preguntar si alguien tiene algo: «Hätten Sie einen Moment Zeit?» (¿Tendría usted un momento?).",
+      "examples": [
+        { "target": "Könnte ich bitte das Fenster öffnen?", "es": "¿Podría abrir la ventana, por favor?" },
+        { "target": "Hätten Sie einen Moment Zeit?", "es": "¿Tendría usted un momento?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "können en Konjunktiv II (cortesía)",
+      "headers": ["Persona", "können (presente)", "können → könnte (cortés)"],
+      "rows": [
+        ["ich", "kann", "könnte"],
+        ["du", "kannst", "könntest"],
+        ["er / sie / es", "kann", "könnte"],
+        ["wir", "können", "könnten"],
+        ["ihr", "könnt", "könntet"],
+        ["sie / Sie", "können", "könnten"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "«Wären Sie so nett...?» (¿Sería usted tan amable...?) es una fórmula muy educada para pedir favores: «Wären Sie so nett, mir zu helfen?» (¿Sería usted tan amable de ayudarme?)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "könnte", "es": "podría", "ipa": "/ˈkœntə/", "esApprox": "«KÖN-te»", "pos": "verbo (Konjunktiv II de können)", "gender": null, "example": { "target": "Könnte ich bitte das Fenster öffnen?", "es": "¿Podría abrir la ventana, por favor?" } },
+    { "id": "v2", "target": "dürfte", "es": "podría (permiso)", "ipa": "/ˈdʏʁftə/", "esApprox": "«DÚRF-te»", "pos": "verbo (Konjunktiv II de dürfen)", "gender": null, "example": { "target": "Dürfte ich kurz stören?", "es": "¿Podría molestar un momento?" } },
+    { "id": "v3", "target": "hätten Sie...?", "es": "¿tendría usted...?", "ipa": "/ˈhɛtn̩ ziː/", "esApprox": "«JÉ-ten zi»", "pos": "locución", "gender": null, "example": { "target": "Hätten Sie einen Moment Zeit?", "es": "¿Tendría usted un momento?" } },
+    { "id": "v4", "target": "so nett sein", "es": "ser tan amable", "ipa": "/zoː nɛt zaɪ̯n/", "esApprox": "«zo net zain»", "pos": "locución verbal", "gender": null, "example": { "target": "Wären Sie so nett, mir zu helfen?", "es": "¿Sería usted tan amable de ayudarme?" } },
+    { "id": "v5", "target": "stören", "es": "molestar", "ipa": "/ˈʃtøːʁən/", "esApprox": "«SHTÖ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Dürfte ich kurz stören?", "es": "¿Podría molestar un momento?" } },
+    { "id": "v6", "target": "der Moment", "es": "el momento", "ipa": "/moˈmɛnt/", "esApprox": "«mo-MENT»", "pos": "sustantivo", "gender": "m", "example": { "target": "Hätten Sie einen Moment Zeit?", "es": "¿Tendría usted un momento?" } },
+    { "id": "v7", "target": "die Rechnung", "es": "la cuenta", "ipa": "/ˈʁɛçnʊŋ/", "esApprox": "«RÉCH-nung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Könnten wir bitte die Rechnung haben?", "es": "¿Podríamos tener la cuenta, por favor?" } },
+    { "id": "v8", "target": "höflich", "es": "cortés, educado", "ipa": "/ˈhøːflɪç/", "esApprox": "«JÖF-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das klingt viel höflicher.", "es": "Eso suena mucho más cortés." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["cortesia"], "difficulty": 1, "prompt": "¿Cuál es la forma más educada de pedir algo?", "options": ["Kann ich...?", "Könnte ich...?", "Ich kann...", "Ich will..."], "answer": 1, "explain": "Könnte ich...? (Konjunktiv II) suena más cortés que Kann ich...?" },
+    { "id": "e2", "type": "mcq", "tags": ["cortesia"], "difficulty": 2, "prompt": "¿Qué modal se usa en «Könnte ich bitte das Fenster öffnen?»?", "options": ["dürfen", "müssen", "können", "sollen"], "answer": 2, "explain": "können → könnte." },
+    { "id": "e3", "type": "true_false", "tags": ["cortesia"], "difficulty": 2, "statement": "«Hätten Sie einen Moment Zeit?» es una pregunta educada.", "answer": true, "explain": "hätten Sie...? es una fórmula de cortesía muy común." },
+    { "id": "e4", "type": "true_false", "tags": ["cortesia"], "difficulty": 2, "statement": "«Wären Sie so nett...?» significa lo mismo que «Kannst du...?».", "answer": false, "explain": "Wären Sie so nett...? es mucho más formal y educado que Kannst du...?" },
+    { "id": "e5", "type": "match_pairs", "tags": ["cortesia"], "difficulty": 2, "prompt": "Une el modal con su Konjunktiv II", "left": ["können", "dürfen", "haben (Sie)", "können (wir)"], "right": ["könnte", "dürfte", "hätten Sie", "könnten"], "answer": [0, 1, 2, 3], "explain": "können → könnte; dürfen → dürfte." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["cortesia"], "difficulty": 2, "prompt": "¿Podría abrir la ventana, por favor?", "accept": ["Könnte ich bitte das Fenster öffnen?"], "hintWords": ["könnte ich bitte das fenster öffnen"], "strictAccents": false, "audio": "Könnte ich bitte das Fenster öffnen?", "explain": "Könnte + ich + bitte + das Fenster + öffnen (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["cortesia"], "difficulty": 2, "prompt": "¿Tendría usted un momento?", "accept": ["Hätten Sie einen Moment Zeit?"], "hintWords": ["hätten sie einen moment zeit"], "strictAccents": false, "audio": "Hätten Sie einen Moment Zeit?", "explain": "Hätten Sie + einen Moment Zeit." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["cortesia"], "difficulty": 2, "prompt": "¿Podríamos tener la cuenta, por favor?", "accept": ["Könnten wir bitte die Rechnung haben?"], "hintWords": ["könnten wir bitte die rechnung haben"], "strictAccents": false, "audio": "Könnten wir bitte die Rechnung haben?", "explain": "Könnten wir + bitte + die Rechnung + haben (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["cortesia"], "difficulty": 2, "prompt": "Completa con könnte o dürfte", "text": "___ ich kurz stören? ___ ich bitte das Fenster öffnen?", "blanks": [{ "accept": ["Dürfte"] }, { "accept": ["Könnte"] }], "bank": ["Dürfte", "Könnte", "Kann"], "explain": "Dürfte ich stören? y Könnte ich öffnen? son ambas correctas y educadas." },
+    { "id": "e10", "type": "word_order", "tags": ["cortesia"], "difficulty": 2, "prompt": "Ordena: «¿Sería usted tan amable de ayudarme?»", "tokens": ["mir zu helfen", "Wären Sie so nett,"], "answer": ["Wären Sie so nett,", "mir zu helfen"], "audio": "Wären Sie so nett, mir zu helfen?", "explain": "Wären Sie so nett, + zu + infinitivo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["cortesia"], "difficulty": 2, "prompt": "Das klingt viel höflicher.", "accept": ["Eso suena mucho más cortés."], "strictAccents": false, "audio": "Das klingt viel höflicher.", "explain": "höflich = cortés; höflicher = comparativo." },
+    { "id": "e12", "type": "dialogue", "tags": ["cortesia"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Kellner", "text": "Was kann ich für Sie tun?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Könnten wir bitte die Rechnung haben?"], "hint": "pide la cuenta con cortesía" },
+      { "who": "Kellner", "text": "Sofort!", "speak": true }
+    ], "explain": "Könnten wir...? es la forma educada para pedir en un restaurante." },
+    { "id": "e13", "type": "listening", "tags": ["cortesia"], "difficulty": 1, "speak": "Könnte ich bitte das Fenster öffnen?", "mode": "write", "accept": ["Könnte ich bitte das Fenster öffnen?"], "showTextAfter": true, "explain": "Könnte + bitte + öffnen (final)." },
+    { "id": "e14", "type": "listening", "tags": ["cortesia"], "difficulty": 2, "speak": "Dürfte ich kurz stören?", "mode": "choose", "options": ["Dürfte ich kurz stören?", "Darf ich kurz stören?", "Durfte ich kurz stören?"], "answer": 0, "showTextAfter": true, "explain": "Dürfte (Konjunktiv II) es la forma cortés; darf es el presente normal, durfte el Präteritum." },
+    { "id": "e15", "type": "shadowing", "tags": ["cortesia"], "difficulty": 2, "speak": "Könnte ich bitte das Fenster öffnen? Hätten Sie auch einen Moment Zeit für mich?", "es": "¿Podría abrir la ventana, por favor? ¿Tendría también un momento para mí?", "ipa": "/ˈkœntə ɪç ˈbɪtə das ˈfɛnstɐ ˈœfnən ˈhɛtn̩ ziː aʊ̯x ˈaɪ̯nən moˈmɛnt tsaɪ̯t fyːɐ̯ mɪç/", "esApprox": "«KÖN-te ich BI-te das FÉNS-ter ÖF-nen, JÉ-ten zi aoj ÁI-nen mo-MENT tsait fiur mich»", "focus": "Könnte ich...? y Hätten Sie...?: dos fórmulas de cortesía con Konjunktiv II.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["cortesia"], "difficulty": 2, "speak": "Wären Sie so nett, mir zu helfen? Das wäre sehr höflich von Ihnen.", "es": "¿Sería usted tan amable de ayudarme? Eso sería muy cortés de su parte.", "ipa": "/ˈvɛːʁən ziː zoː nɛt miːɐ̯ tsuː ˈhɛlfn̩ das ˈvɛːʁə zeːɐ̯ ˈhøːflɪç fɔn ˈiːnən/", "esApprox": "«VÉ-ren zi zo net mir tsu JÉL-fen, das VÉ-re zer JÖF-lich fon Í-nen»", "focus": "Wären Sie so nett: la fórmula de cortesía más elevada del alemán conversacional.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["cortesia"], "difficulty": 2, "prompt": "Estás en un restaurante y quieres pedir la cuenta educadamente.", "modelAnswer": "Könnten wir bitte die Rechnung haben?", "alsoValid": ["Könnte ich bitte die Rechnung haben?"], "speak": "Könnten wir bitte die Rechnung haben?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["cortesia"], "difficulty": 2, "prompt": "Clasifica: directo o educado (Konjunktiv II)", "buckets": ["Directo", "Educado (Konjunktiv II)"], "items": [
+      { "text": "Kann ich das Fenster öffnen?", "bucket": 0 },
+      { "text": "Könnte ich das Fenster öffnen?", "bucket": 1 },
+      { "text": "Hätten Sie einen Moment Zeit?", "bucket": 1 }
+    ], "explain": "kann = directo; könnte/hätten Sie = educado." },
+    { "id": "e19", "type": "error_correction", "tags": ["cortesia"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Könnte ich bitte das Fenster öffne?", "accept": ["Könnte ich bitte das Fenster öffnen?"], "audio": "Könnte ich bitte das Fenster öffnen?", "explain": "Tras el modal en Konjunktiv II va el infinitivo (öffnen), no una forma conjugada (öffne)." },
+    { "id": "e20", "type": "mcq", "tags": ["cortesia"], "difficulty": 2, "prompt": "«Entschuldigung, dürfte ich kurz stören? Hätten Sie einen Moment Zeit? Wären Sie so nett, mir bei einer Frage zu helfen?» ¿Qué pide la persona?", "options": ["Dinero", "Un momento de tiempo y ayuda", "La cuenta", "Abrir la ventana"], "answer": 1, "explain": "«Hätten Sie einen Moment Zeit?» y «mir... zu helfen» piden tiempo y ayuda." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "könnte", "es": "podría", "esApprox": "«KÖN-te»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "dürfte", "es": "podría (permiso)", "esApprox": "«DÚRF-te»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "hätten Sie...?", "es": "¿tendría usted...?", "esApprox": "«JÉ-ten zi»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "so nett sein", "es": "ser tan amable", "esApprox": "«zo net zain»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "stören", "es": "molestar", "esApprox": "«SHTÖ-ren»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "höflich", "es": "cortés, educado", "esApprox": "«JÖF-lich»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Könnte ich bitte das Fenster öffnen? Hätten Sie auch einen Moment Zeit für mich?", "es": "¿Podría abrir la ventana, por favor? ¿Tendría también un momento para mí?", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wären Sie so nett, mir zu helfen? Das wäre sehr höflich von Ihnen.", "es": "¿Sería usted tan amable de ayudarme? Eso sería muy cortés de su parte.", "from": "e16" }
+  ]
+}

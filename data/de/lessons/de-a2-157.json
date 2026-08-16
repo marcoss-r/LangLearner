@@ -1,0 +1,87 @@
+{
+  "id": "de-a2-157",
+  "lang": "de",
+  "level": "A2",
+  "order": 157,
+  "title": "Leer un cuento corto en Präteritum",
+  "objectives": [
+    "Leer y comprender un cuento corto completo escrito en Präteritum",
+    "Reconocer en contexto los verbos regulares e irregulares de las clases 155-156",
+    "Practicar la comprensión lectora con un texto narrativo auténtico"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un cuento corto: Der Fuchs und die Katze",
+      "body": "Lee este breve cuento tradicional adaptado, fijándote en los verbos en Präteritum: «Es war einmal ein Fuchs. Er lebte im Wald und war sehr stolz auf seine vielen Tricks. Eines Tages traf er eine Katze. Der Fuchs fragte: „Wie viele Tricks kennst du?“ Die Katze antwortete: „Nur einen, aber er funktioniert immer.“ Der Fuchs lachte. Dann kamen Jäger mit Hunden. Die Katze kletterte schnell auf einen Baum. Der Fuchs versuchte seine hundert Tricks, aber keiner funktionierte. Die Hunde fingen ihn.»",
+      "examples": [
+        { "target": "Er lebte im Wald und war sehr stolz.", "es": "Él vivía en el bosque y estaba muy orgulloso." },
+        { "target": "Die Katze kletterte schnell auf einen Baum.", "es": "El gato trepó rápidamente a un árbol." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos clave del cuento en Präteritum",
+      "headers": ["Infinitivo", "Präteritum", "Traducción"],
+      "rows": [
+        ["treffen", "traf", "se encontró con"],
+        ["klettern", "kletterte", "trepó"],
+        ["fangen", "fingen", "atraparon"],
+        ["kommen", "kamen", "llegaron"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No necesitas entender cada palabra para seguir la historia: fíjate en los verbos en Präteritum (war, lebte, traf, fragte, antwortete, lachte, kamen, kletterte, versuchte, funktionierte, fingen) como el hilo conductor de la acción."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Fuchs", "es": "el zorro", "ipa": "/fʊks/", "esApprox": "«fuks»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Fuchs lebte im Wald.", "es": "El zorro vivía en el bosque." } },
+    { "id": "v2", "target": "die Katze", "es": "el gato", "ipa": "/ˈkatsə/", "esApprox": "«KÁ-tse»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Katze kletterte auf einen Baum.", "es": "El gato trepó a un árbol." } },
+    { "id": "v3", "target": "der Trick", "es": "el truco", "ipa": "/tʁɪk/", "esApprox": "«trik»", "pos": "sustantivo", "gender": "m", "plural": "die Tricks", "example": { "target": "Er kannte hundert Tricks.", "es": "Él conocía cien trucos." } },
+    { "id": "v4", "target": "treffen", "es": "encontrarse con", "ipa": "/ˈtʁɛfn̩/", "esApprox": "«TRÉ-fen»", "pos": "verbo", "gender": null, "example": { "target": "Eines Tages traf er eine Katze.", "es": "Un día se encontró con un gato." } },
+    { "id": "v5", "target": "der Jäger", "es": "el cazador", "ipa": "/ˈjɛːɡɐ/", "esApprox": "«YÉ-guer»", "pos": "sustantivo", "gender": "m", "example": { "target": "Die Jäger kamen mit Hunden.", "es": "Los cazadores llegaron con perros." } },
+    { "id": "v6", "target": "klettern", "es": "trepar", "ipa": "/ˈklɛtɐn/", "esApprox": "«KLÉ-tern»", "pos": "verbo", "gender": null, "example": { "target": "Die Katze kletterte auf einen Baum.", "es": "El gato trepó a un árbol." } },
+    { "id": "v7", "target": "der Baum", "es": "el árbol", "ipa": "/baʊ̯m/", "esApprox": "«baum»", "pos": "sustantivo", "gender": "m", "example": { "target": "Sie kletterte auf einen Baum.", "es": "Ella trepó a un árbol." } },
+    { "id": "v8", "target": "fangen", "es": "atrapar, capturar", "ipa": "/ˈfaŋən/", "esApprox": "«FÁN-guen»", "pos": "verbo", "gender": null, "example": { "target": "Die Hunde fingen den Fuchs.", "es": "Los perros atraparon al zorro." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["lectura"], "difficulty": 1, "prompt": "¿Dónde vivía el zorro del cuento?", "options": ["En una granja", "En el bosque", "En una ciudad", "En una cueva"], "answer": 1, "explain": "«Er lebte im Wald» = él vivía en el bosque." },
+    { "id": "e2", "type": "mcq", "tags": ["lectura"], "difficulty": 2, "prompt": "¿Cuántos trucos conocía la gata?", "options": ["Cien", "Ninguno", "Solo uno", "Diez"], "answer": 2, "explain": "«Nur einen» = solo uno." },
+    { "id": "e3", "type": "true_false", "tags": ["lectura"], "difficulty": 2, "statement": "El zorro estaba orgulloso de sus muchos trucos.", "answer": true, "explain": "«war sehr stolz auf seine vielen Tricks» = estaba muy orgulloso de sus muchos trucos." },
+    { "id": "e4", "type": "true_false", "tags": ["lectura"], "difficulty": 2, "statement": "Al final, ninguno de los trucos del zorro funcionó.", "answer": true, "explain": "«keiner funktionierte» = ninguno funcionó." },
+    { "id": "e5", "type": "match_pairs", "tags": ["lectura"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Fuchs", "der Jäger", "klettern", "fangen"], "right": ["el zorro", "el cazador", "trepar", "atrapar"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del cuento." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["lectura"], "difficulty": 2, "prompt": "Él vivía en el bosque y estaba muy orgulloso.", "accept": ["Er lebte im Wald und war sehr stolz"], "hintWords": ["er lebte im Wald und war sehr stolz"], "strictAccents": false, "audio": "Er lebte im Wald und war sehr stolz.", "explain": "lebte y war: dos Präteritum coordinados." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["lectura"], "difficulty": 2, "prompt": "El gato trepó rápidamente a un árbol.", "accept": ["Die Katze kletterte schnell auf einen Baum"], "hintWords": ["die Katze kletterte schnell auf einen Baum"], "strictAccents": false, "audio": "Die Katze kletterte schnell auf einen Baum.", "explain": "kletterte: Präteritum regular de klettern." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["lectura"], "difficulty": 2, "prompt": "Los perros atraparon al zorro.", "accept": ["Die Hunde fingen den Fuchs"], "hintWords": ["die Hunde fingen den Fuchs"], "strictAccents": false, "audio": "Die Hunde fingen den Fuchs.", "explain": "fingen: Präteritum irregular de fangen." },
+    { "id": "e9", "type": "fill_blank", "tags": ["lectura"], "difficulty": 2, "prompt": "Completa con el verbo correcto del cuento", "text": "Eines Tages ___ er eine Katze. (treffen) Der Fuchs ___. (lachen)", "blanks": [{ "accept": ["traf"] }, { "accept": ["lachte"] }], "bank": ["traf", "lachte", "trifft"], "explain": "traf (Präteritum irregular de treffen); lachte (Präteritum regular de lachen)." },
+    { "id": "e10", "type": "word_order", "tags": ["lectura"], "difficulty": 3, "prompt": "Ordena: «Los cazadores llegaron con perros»", "tokens": ["mit Hunden", "kamen", "Die Jäger"], "answer": ["Die Jäger", "kamen", "mit Hunden"], "audio": "Die Jäger kamen mit Hunden.", "explain": "Die Jäger kamen mit Hunden: sujeto-verbo-complemento." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["lectura"], "difficulty": 2, "prompt": "Der Fuchs versuchte seine hundert Tricks, aber keiner funktionierte.", "accept": ["El zorro intentó sus cien trucos, pero ninguno funcionó."], "strictAccents": false, "audio": "Der Fuchs versuchte seine hundert Tricks, aber keiner funktionierte.", "explain": "versuchte y funktionierte: dos verbos regulares en Präteritum." },
+    { "id": "e12", "type": "dialogue", "tags": ["lectura"], "difficulty": 2, "prompt": "Completa la conversación entre el zorro y la gata", "turns": [
+      { "who": "Fuchs", "text": "Wie viele Tricks kennst du?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nur einen, aber er funktioniert immer.", "Nur einen."], "hint": "responde como la gata del cuento" },
+      { "who": "Fuchs", "text": "Nur einen? Ich kenne hundert!", "speak": true }
+    ], "explain": "Diálogo clave del cuento, reconstruido." },
+    { "id": "e13", "type": "listening", "tags": ["lectura"], "difficulty": 1, "speak": "Es war einmal ein Fuchs.", "mode": "write", "accept": ["Es war einmal ein Fuchs"], "showTextAfter": true, "explain": "Primera frase del cuento." },
+    { "id": "e14", "type": "listening", "tags": ["lectura"], "difficulty": 2, "speak": "Die Hunde fingen den Fuchs.", "mode": "choose", "options": ["Die Hunde fingen den Fuchs.", "Die Hunde fangen den Fuchs.", "Der Fuchs fing die Hunde."], "answer": 0, "showTextAfter": true, "explain": "fingen (Präteritum) es la forma correcta, y el zorro es quien es atrapado, no al revés." },
+    { "id": "e15", "type": "shadowing", "tags": ["lectura"], "difficulty": 2, "speak": "Der Fuchs fragte: Wie viele Tricks kennst du? Die Katze antwortete: Nur einen, aber er funktioniert immer.", "es": "El zorro preguntó: ¿Cuántos trucos conoces? El gato respondió: Solo uno, pero siempre funciona.", "ipa": "/deːɐ̯ fʊks ˈfʁaːktə viː ˈfiːlə tʁɪks ˈkɛnst duː diː ˈkatsə ˈantvɔʁtətə nuːɐ̯ ˈaɪ̯nən ˈaːbɐ eːɐ̯ fʊŋktsi̯oˈniːɐ̯t ˈɪmɐ/", "esApprox": "«der fuks FRÁK-te: vi FÍ-le triks kenst du? di KÁ-tse ÁNT-vor-te-te: nur ÁI-nen, Á-ber er funk-tsi-o-NIRT Í-mer»", "focus": "fragte y antwortete: dos verbos regulares en Präteritum, en un diálogo dentro del cuento.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["lectura"], "difficulty": 2, "speak": "Die Katze kletterte schnell auf einen Baum, aber der Fuchs versuchte seine hundert Tricks vergeblich.", "es": "El gato trepó rápidamente a un árbol, pero el zorro intentó sus cien trucos en vano.", "ipa": "/diː ˈkatsə ˈklɛtɐtə ʃnɛl aʊ̯f ˈaɪ̯nən baʊ̯m ˈaːbɐ deːɐ̯ fʊks fɛɐ̯ˈzuːxtə ˈzaɪ̯nə ˈhʊndɐt tʁɪks fɛɐ̯ˈɡeːplɪç/", "esApprox": "«di KÁ-tse KLÉ-ter-te shnel auf ÁI-nen baum, Á-ber der fuks fer-ZÚCH-te ZÁI-ne JÚN-dert triks fer-GUÉP-lich»", "focus": "kletterte y versuchte: el clímax del cuento, con el contraste entre el éxito del gato y el fracaso del zorro.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["lectura"], "difficulty": 2, "prompt": "Te piden que resumas el final del cuento. Di que los perros atraparon al zorro.", "modelAnswer": "Die Hunde fingen den Fuchs.", "alsoValid": ["Am Ende fingen die Hunde den Fuchs."], "speak": "Die Hunde fingen den Fuchs.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["lectura"], "difficulty": 2, "prompt": "Clasifica cada personaje según su destino en el cuento", "buckets": ["Se salvó", "Fue atrapado"], "items": [
+      { "text": "die Katze", "bucket": 0 },
+      { "text": "der Fuchs", "bucket": 1 }
+    ], "explain": "La gata se salvó trepando al árbol; el zorro fue atrapado por los perros." },
+    { "id": "e19", "type": "error_correction", "tags": ["lectura"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Die Katze fingen den Fuchs.", "accept": ["Die Hunde fingen den Fuchs"], "audio": "Die Hunde fingen den Fuchs.", "explain": "Según el cuento, fueron los perros (die Hunde) quienes atraparon al zorro, no la gata." },
+    { "id": "e20", "type": "mcq", "tags": ["lectura"], "difficulty": 2, "prompt": "«Es war einmal ein Fuchs, der sehr stolz auf seine vielen Tricks war. Die Katze kannte nur einen Trick, aber er funktionierte immer: sie kletterte auf einen Baum. Am Ende fingen die Hunde den Fuchs, weil keiner seiner hundert Tricks funktionierte.» ¿Cuál es la moraleja del cuento?", "options": ["Es mejor tener muchos trucos que uno solo", "A veces un truco simple y fiable vale más que muchos complicados", "Los zorros son más listos que los gatos", "Los cazadores siempre ganan"], "answer": 1, "explain": "El cuento clásico enseña que un truco simple y fiable (el de la gata) puede salvar la vida, mientras que muchos trucos complicados (los del zorro) pueden fallar todos." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Fuchs", "es": "el zorro", "esApprox": "«fuks»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Katze", "es": "el gato", "esApprox": "«KÁ-tse»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Trick", "es": "el truco", "esApprox": "«trik»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "treffen", "es": "encontrarse con", "esApprox": "«TRÉ-fen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "klettern", "es": "trepar", "esApprox": "«KLÉ-tern»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "fangen", "es": "atrapar, capturar", "esApprox": "«FÁN-guen»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Der Fuchs fragte: Wie viele Tricks kennst du? Die Katze antwortete: Nur einen, aber er funktioniert immer.", "es": "El zorro preguntó: ¿Cuántos trucos conoces? El gato respondió: Solo uno, pero siempre funciona.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Katze kletterte schnell auf einen Baum, aber der Fuchs versuchte seine hundert Tricks vergeblich.", "es": "El gato trepó rápidamente a un árbol, pero el zorro intentó sus cien trucos en vano.", "from": "e16" }
+  ]
+}

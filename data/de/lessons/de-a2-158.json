@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-158",
+  "lang": "de",
+  "level": "A2",
+  "order": 158,
+  "title": "El Konjunktiv II de haben, sein y werden",
+  "objectives": [
+    "Conjugar el Konjunktiv II de sein (wäre), haben (hätte) y werden (würde)",
+    "Reconocer el Konjunktiv II como el modo de lo irreal, lo hipotético y lo educado",
+    "Distinguir el Konjunktiv II del Präteritum, aunque comparten la raíz"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El Konjunktiv II: lo irreal, lo hipotético, lo educado",
+      "body": "El Konjunktiv II expresa cosas que no son reales: deseos, hipótesis, condiciones irreales, o peticiones educadas. Las tres formas más importantes y más frecuentes son las de sein, haben y werden, que se usan constantemente en la conversación diaria: «Ich wäre gern zu Hause» (Me gustaría estar en casa), «Ich hätte gern einen Kaffee» (Quisiera un café), «Ich würde das gern machen» (Me gustaría hacerlo).",
+      "examples": [
+        { "target": "Ich wäre gern reich.", "es": "Me gustaría ser rico." },
+        { "target": "Ich hätte gern mehr Zeit.", "es": "Quisiera tener más tiempo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Konjunktiv II de sein, haben y werden",
+      "headers": ["Persona", "sein → wäre", "haben → hätte", "werden → würde"],
+      "rows": [
+        ["ich", "wäre", "hätte", "würde"],
+        ["du", "wärst", "hättest", "würdest"],
+        ["er / sie / es", "wäre", "hätte", "würde"],
+        ["wir", "wären", "hätten", "würden"],
+        ["ihr", "wärt", "hättet", "würdet"],
+        ["sie / Sie", "wären", "hätten", "würden"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Estas formas nacen del Präteritum (war → wäre, hatte → hätte) con una diéresis (Umlaut) añadida, salvo werden → würde, que ya tiene su propia forma. No confundas «ich war» (Präteritum: yo era/estaba) con «ich wäre» (Konjunktiv II: yo sería/estaría, algo hipotético)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "wäre", "es": "sería, estaría", "ipa": "/ˈvɛːʁə/", "esApprox": "«VÉ-re»", "pos": "verbo (Konjunktiv II de sein)", "gender": null, "example": { "target": "Ich wäre gern zu Hause.", "es": "Me gustaría estar en casa." } },
+    { "id": "v2", "target": "hätte", "es": "tendría", "ipa": "/ˈhɛtə/", "esApprox": "«JÉ-te»", "pos": "verbo (Konjunktiv II de haben)", "gender": null, "example": { "target": "Ich hätte gern einen Kaffee.", "es": "Quisiera un café." } },
+    { "id": "v3", "target": "würde", "es": "haría, sería (auxiliar del condicional)", "ipa": "/ˈvʏʁdə/", "esApprox": "«VUR-de»", "pos": "verbo (Konjunktiv II de werden)", "gender": null, "example": { "target": "Ich würde das gern machen.", "es": "Me gustaría hacerlo." } },
+    { "id": "v4", "target": "gern", "es": "con gusto", "ipa": "/ɡɛʁn/", "esApprox": "«guern»", "pos": "adverbio", "gender": null, "example": { "target": "Ich hätte gern mehr Zeit.", "es": "Quisiera tener más tiempo." } },
+    { "id": "v5", "target": "reich", "es": "rico", "ipa": "/ʁaɪ̯ç/", "esApprox": "«raij»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich wäre gern reich.", "es": "Me gustaría ser rico." } },
+    { "id": "v6", "target": "eigentlich", "es": "en realidad", "ipa": "/ˈaɪ̯gn̩tlɪç/", "esApprox": "«ÁI-guent-lich»", "pos": "adverbio", "gender": null, "example": { "target": "Eigentlich hätte ich gern mehr Urlaub.", "es": "En realidad, quisiera tener más vacaciones." } },
+    { "id": "v7", "target": "die Möglichkeit", "es": "la posibilidad", "ipa": "/ˈmøːklɪçkaɪ̯t/", "esApprox": "«MÖ-glich-kait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Es gäbe eine Möglichkeit.", "es": "Habría una posibilidad." } },
+    { "id": "v8", "target": "der Fall", "es": "el caso", "ipa": "/fal/", "esApprox": "«fal»", "pos": "sustantivo", "gender": "m", "example": { "target": "In diesem Fall wäre es besser.", "es": "En este caso, sería mejor." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["konjunktiv-ii"], "difficulty": 1, "prompt": "¿Cuál es el Konjunktiv II de sein para «ich»?", "options": ["war", "wäre", "sei", "bin"], "answer": 1, "explain": "ich wäre = yo sería/estaría." },
+    { "id": "e2", "type": "mcq", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "¿Cuál es el Konjunktiv II de haben para «du»?", "options": ["hattest", "hast", "hättest", "habest"], "answer": 2, "explain": "du hättest = tú tendrías." },
+    { "id": "e3", "type": "true_false", "tags": ["konjunktiv-ii"], "difficulty": 2, "statement": "«Ich war müde» y «Ich wäre müde» significan lo mismo.", "answer": false, "explain": "«Ich war müde» (Präteritum) = estaba cansado (real, pasado); «Ich wäre müde» (Konjunktiv II) = estaría cansado (hipotético)." },
+    { "id": "e4", "type": "true_false", "tags": ["konjunktiv-ii"], "difficulty": 2, "statement": "würde es el Konjunktiv II de werden.", "answer": true, "explain": "werden → würde." },
+    { "id": "e5", "type": "match_pairs", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Une el verbo con su Konjunktiv II (ich)", "left": ["sein", "haben", "werden", "sein (wir)"], "right": ["wäre", "hätte", "würde", "wären"], "answer": [0, 1, 2, 3], "explain": "wäre, hätte, würde: las tres formas base del Konjunktiv II." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Me gustaría estar en casa.", "accept": ["Ich wäre gern zu Hause"], "hintWords": ["ich wäre gern zu hause"], "strictAccents": false, "audio": "Ich wäre gern zu Hause.", "explain": "wäre + gern + zu Hause." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Quisiera un café.", "accept": ["Ich hätte gern einen Kaffee"], "hintWords": ["ich hätte gern einen kaffee"], "strictAccents": false, "audio": "Ich hätte gern einen Kaffee.", "explain": "hätte gern + acusativo: fórmula fija para pedir algo." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Quisiera tener más tiempo.", "accept": ["Ich hätte gern mehr Zeit"], "hintWords": ["ich hätte gern mehr zeit"], "strictAccents": false, "audio": "Ich hätte gern mehr Zeit.", "explain": "hätte gern mehr Zeit." },
+    { "id": "e9", "type": "fill_blank", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Completa con wäre, hätte o würde", "text": "Ich ___ gern reich. Er ___ gern mehr Zeit.", "blanks": [{ "accept": ["wäre"] }, { "accept": ["hätte"] }], "bank": ["wäre", "hätte", "würde"], "explain": "wäre (sein) y hätte (haben)." },
+    { "id": "e10", "type": "word_order", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Ordena: «En este caso, sería mejor»", "tokens": ["wäre es besser", "In diesem Fall"], "answer": ["In diesem Fall", "wäre es besser"], "audio": "In diesem Fall wäre es besser.", "explain": "In diesem Fall (posición 1) + wäre (posición 2)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Es gäbe eine Möglichkeit.", "accept": ["Habría una posibilidad."], "strictAccents": false, "audio": "Es gäbe eine Möglichkeit.", "explain": "die Möglichkeit = la posibilidad; gäbe es el Konjunktiv II de geben (es gibt → es gäbe)." },
+    { "id": "e12", "type": "dialogue", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was hättest du gern?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich hätte gern einen Kaffee."], "hint": "pide un café con Konjunktiv II" },
+      { "who": "Lea", "text": "Kommt sofort!", "speak": true }
+    ], "explain": "hätte gern: fórmula de cortesía muy frecuente." },
+    { "id": "e13", "type": "listening", "tags": ["konjunktiv-ii"], "difficulty": 1, "speak": "Ich wäre gern reich.", "mode": "write", "accept": ["Ich wäre gern reich"], "showTextAfter": true, "explain": "wäre + gern + reich." },
+    { "id": "e14", "type": "listening", "tags": ["konjunktiv-ii"], "difficulty": 2, "speak": "Eigentlich hätte ich gern mehr Urlaub.", "mode": "choose", "options": ["Eigentlich hätte ich gern mehr Urlaub.", "Eigentlich habe ich gern mehr Urlaub.", "Eigentlich hatte ich gern mehr Urlaub."], "answer": 0, "showTextAfter": true, "explain": "hätte (Konjunktiv II) expresa un deseo, no un hecho." },
+    { "id": "e15", "type": "shadowing", "tags": ["konjunktiv-ii"], "difficulty": 2, "speak": "Eigentlich hätte ich gern mehr Zeit, und ich wäre auch gern öfter zu Hause.", "es": "En realidad quisiera tener más tiempo, y también me gustaría estar en casa más a menudo.", "ipa": "/ˈaɪ̯gn̩tlɪç ˈhɛtə ɪç ɡɛʁn meːɐ̯ tsaɪ̯t ʊnt ɪç ˈvɛːʁə aʊ̯x ɡɛʁn ˈøfɐ tsuː ˈhaʊ̯zə/", "esApprox": "«ÁI-guent-lich JÉ-te ich guern mer tsait, unt ich VÉ-re aoj guern ÖF-er tsu JÁO-ze»", "focus": "hätte gern y wäre gern: las dos fórmulas de deseo más usadas del alemán cotidiano.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["konjunktiv-ii"], "difficulty": 2, "speak": "In diesem Fall wäre es besser, und es gäbe auch eine andere Möglichkeit.", "es": "En este caso sería mejor, y también habría otra posibilidad.", "ipa": "/ɪn ˈdiːzn̩ fal ˈvɛːʁə ɛs ˈbɛsɐ ʊnt ɛs ˈɡɛːbə aʊ̯x ˈaɪ̯nə ˈandʁə ˈmøːklɪçkaɪ̯t/", "esApprox": "«in DÍ-zen fal VÉ-re es BÉ-ser, unt es GUÉ-be aoj ÁI-ne AN-dre MÖ-glich-kait»", "focus": "wäre es besser y es gäbe: dos usos hipotéticos del Konjunktiv II.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Alguien te pregunta qué te gustaría tener. Di que quisieras tener más tiempo.", "modelAnswer": "Ich hätte gern mehr Zeit.", "alsoValid": ["Ich hätte gerne mehr Zeit."], "speak": "Ich hätte gern mehr Zeit.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Clasifica: Präteritum (real) o Konjunktiv II (hipotético)", "buckets": ["Präteritum (real)", "Konjunktiv II (hipotético)"], "items": [
+      { "text": "Ich war müde.", "bucket": 0 },
+      { "text": "Ich wäre gern reich.", "bucket": 1 },
+      { "text": "Ich hätte gern einen Kaffee.", "bucket": 1 }
+    ], "explain": "war = estaba (real); wäre/hätte = sería/tendría (hipotético)." },
+    { "id": "e19", "type": "error_correction", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich hätte gern ein Kaffee.", "accept": ["Ich hätte gern einen Kaffee"], "audio": "Ich hätte gern einen Kaffee.", "explain": "der Kaffee es masculino: acusativo einen Kaffee, no ein Kaffee." },
+    { "id": "e20", "type": "mcq", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "«Eigentlich hätte ich gern mehr Zeit. Ich wäre auch gern öfter zu Hause. In diesem Fall wäre es besser, weniger zu arbeiten.» ¿Qué desea la persona?", "options": ["Trabajar más", "Tener más tiempo y estar más en casa", "Viajar más", "Ganar más dinero"], "answer": 1, "explain": "«hätte ich gern mehr Zeit» y «wäre auch gern öfter zu Hause» expresan ambos deseos." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "wäre", "es": "sería, estaría", "esApprox": "«VÉ-re»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "hätte", "es": "tendría", "esApprox": "«JÉ-te»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "würde", "es": "haría, sería (auxiliar del condicional)", "esApprox": "«VUR-de»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "eigentlich", "es": "en realidad", "esApprox": "«ÁI-guent-lich»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "die Möglichkeit", "es": "la posibilidad", "esApprox": "«MÖ-glich-kait»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "der Fall", "es": "el caso", "esApprox": "«fal»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Eigentlich hätte ich gern mehr Zeit, und ich wäre auch gern öfter zu Hause.", "es": "En realidad quisiera tener más tiempo, y también me gustaría estar en casa más a menudo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "In diesem Fall wäre es besser, und es gäbe auch eine andere Möglichkeit.", "es": "En este caso sería mejor, y también habría otra posibilidad.", "from": "e16" }
+  ]
+}
