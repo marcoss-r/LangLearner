@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-170",
+  "lang": "de",
+  "level": "A2",
+  "order": 170,
+  "title": "Pronunciación general V: la reducción de -en al final de palabra",
+  "objectives": [
+    "Reconocer que la terminación -en al final de palabra casi nunca se pronuncia como «en» completo",
+    "Pronunciar la -en final como una n silábica, sin vocal intermedia",
+    "Aplicar esta reducción a infinitivos, plurales y formas verbales muy frecuentes"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La -en final: una n silábica, no «en»",
+      "body": "Has visto la transcripción /n̩/ en muchísimas palabras de este curso (haben, machen, sprechen, kommen...). Esa marca significa que la e desaparece casi por completo: la n se convierte en el núcleo de la sílaba, como el sonido final de «botton» en inglés americano, no como «en» en español. «Machen» no suena «MA-jen» con una e clara, sino «MAJN», con la n vibrando sola.",
+      "examples": [
+        { "target": "haben", "es": "tener", "note": "/ˈhaːbn̩/, no /ˈhaːbɛn/" },
+        { "target": "sprechen", "es": "hablar", "note": "/ˈʃpʁɛçn̩/, no /ˈʃpʁɛçɛn/" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Ejemplos de reducción de -en",
+      "headers": ["Palabra", "Transcripción reducida", "Contexto"],
+      "rows": [
+        ["machen", "/ˈmaxn̩/", "infinitivo"],
+        ["die Frauen", "/ˈfʁaʊ̯n̩/", "plural de sustantivo"],
+        ["wir kommen", "/viːɐ̯ ˈkɔmən~ˈkɔmn̩/", "verbo conjugado (wir)"],
+        ["die Kinder haben", "/hn̩/ tras consonante labial", "auxiliar haben"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Esta reducción es tan frecuente en el habla natural que, si pronuncias siempre la e completa de -en, sonarás correcto pero muy artificial. No es un error decirlo con la e clara al principio, pero acostúmbrate a oír la versión reducida, porque es la que escucharás constantemente en alemán real."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Endung", "es": "la terminación", "ipa": "/ˈɛndʊŋ/", "esApprox": "«ÉN-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Endung -en ist sehr häufig.", "es": "La terminación -en es muy frecuente." } },
+    { "id": "v2", "target": "reduzieren", "es": "reducir", "ipa": "/ʁeduˈtsiːʁən/", "esApprox": "«re-du-TSÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Man reduziert die Endung im Sprechen.", "es": "Se reduce la terminación al hablar." } },
+    { "id": "v3", "target": "die Silbe", "es": "la sílaba", "ipa": "/ˈzɪlbə/", "esApprox": "«ZÍL-be»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das n bildet eine eigene Silbe.", "es": "La n forma su propia sílaba." } },
+    { "id": "v4", "target": "deutlich", "es": "claro, con claridad", "ipa": "/ˈdɔɪ̯tlɪç/", "esApprox": "«DÓIT-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Anfänger sprechen oft zu deutlich.", "es": "Los principiantes hablan a menudo con demasiada claridad." } },
+    { "id": "v5", "target": "natürlich klingen", "es": "sonar natural", "ipa": "/naˈtyːɐ̯lɪç ˈklɪŋən/", "esApprox": "«na-TIÚR-lich KLÍN-guen»", "pos": "locución verbal", "gender": null, "example": { "target": "So klingt es natürlicher.", "es": "Así suena más natural." } },
+    { "id": "v6", "target": "das Sprechtempo", "es": "el ritmo del habla", "ipa": "/ˈʃpʁɛçtɛmpo/", "esApprox": "«SHPRÉCH-tem-po»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Sprechtempo ist hier schnell.", "es": "El ritmo del habla es rápido aquí." } },
+    { "id": "v7", "target": "der Muttersprachler", "es": "el hablante nativo", "ipa": "/ˈmʊtɐʃpʁaːxlɐ/", "esApprox": "«MÚ-ter-shpraj-ler»", "pos": "sustantivo", "gender": "m", "example": { "target": "Muttersprachler reduzieren oft die Endung.", "es": "Los hablantes nativos reducen a menudo la terminación." } },
+    { "id": "v8", "target": "üben", "es": "practicar", "ipa": "/ˈyːbn̩/", "esApprox": "«ÍU-ben»", "pos": "verbo", "gender": null, "example": { "target": "Du musst die Aussprache üben.", "es": "Tienes que practicar la pronunciación." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["pronunciacion-general"], "difficulty": 1, "prompt": "¿Cómo suena normalmente la -en final en alemán hablado?", "options": ["Como «en» completo", "Como una n silábica, sin vocal clara", "No se pronuncia nunca", "Como «an»"], "answer": 1, "explain": "La e se reduce y la n se convierte en el núcleo de la sílaba." },
+    { "id": "e2", "type": "mcq", "tags": ["reduccion-en"], "difficulty": 2, "prompt": "¿En cuál de estas palabras se reduce la -en final?", "options": ["machen", "die Frau", "der Mann", "das Kind"], "answer": 0, "explain": "machen termina en -en y se pronuncia /ˈmaxn̩/." },
+    { "id": "e3", "type": "true_false", "tags": ["pronunciacion-general"], "difficulty": 2, "statement": "Pronunciar la e completa en -en es siempre un error grave.", "answer": false, "explain": "No es un error, solo suena más artificial; los hablantes nativos suelen reducirla." },
+    { "id": "e4", "type": "true_false", "tags": ["reduccion-en"], "difficulty": 2, "statement": "Esta reducción solo afecta a los infinitivos, no a los sustantivos en plural.", "answer": false, "explain": "También afecta a plurales como die Frauen /ˈfʁaʊ̯n̩/." },
+    { "id": "e5", "type": "match_pairs", "tags": ["reduccion-en"], "difficulty": 2, "prompt": "Une cada palabra con su transcripción reducida", "left": ["machen", "haben", "sprechen", "kommen"], "right": ["/ˈmaxn̩/", "/ˈhaːbn̩/", "/ˈʃpʁɛçn̩/", "/ˈkɔmn̩/"], "answer": [0, 1, 2, 3], "explain": "En todas estas palabras, la -en final se reduce a una n silábica." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Tienes que practicar la pronunciación.", "accept": ["Du musst die Aussprache üben"], "hintWords": ["du musst die Aussprache üben"], "strictAccents": false, "audio": "Du musst die Aussprache üben.", "explain": "üben también termina en -en reducida: /ˈyːbn̩/." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Los hablantes nativos reducen a menudo la terminación.", "accept": ["Muttersprachler reduzieren oft die Endung"], "hintWords": ["Muttersprachler reduzieren oft die Endung"], "strictAccents": false, "audio": "Muttersprachler reduzieren oft die Endung.", "explain": "reduzieren, aunque termina en -en, mantiene aquí la forma conjugada plural." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Así suena más natural.", "accept": ["So klingt es natürlicher"], "hintWords": ["so klingt es natürlicher"], "strictAccents": false, "audio": "So klingt es natürlicher.", "explain": "So (posición 1) + klingt (posición 2) + es + natürlicher." },
+    { "id": "e9", "type": "fill_blank", "tags": ["reduccion-en"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Die ___ -en ist sehr häufig. Das n bildet eine eigene ___.", "blanks": [{ "accept": ["Endung"] }, { "accept": ["Silbe"] }], "bank": ["Endung", "Silbe", "Frage"], "explain": "die Endung y die Silbe." },
+    { "id": "e10", "type": "word_order", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Ordena: «El ritmo del habla es rápido aquí»", "tokens": ["ist hier schnell", "Das Sprechtempo"], "answer": ["Das Sprechtempo", "ist hier schnell"], "audio": "Das Sprechtempo ist hier schnell.", "explain": "Das Sprechtempo (sujeto) + ist (posición 2) + hier + schnell." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Anfänger sprechen oft zu deutlich.", "accept": ["Los principiantes hablan a menudo con demasiada claridad."], "strictAccents": false, "audio": "Anfänger sprechen oft zu deutlich.", "explain": "zu deutlich = con demasiada claridad (más de lo natural)." },
+    { "id": "e12", "type": "dialogue", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lehrerin", "text": "Wie klingt «machen» bei Muttersprachlern?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Es klingt wie MAJN, ohne klare e."], "hint": "explica la reducción de -en" },
+      { "who": "Lehrerin", "text": "Genau, sehr gut!", "speak": true }
+    ], "explain": "Reflexión sobre la reducción de -en en la conversación." },
+    { "id": "e13", "type": "listening", "tags": ["reduccion-en"], "difficulty": 1, "speak": "machen, haben, sprechen", "mode": "write", "accept": ["machen, haben, sprechen"], "showTextAfter": true, "explain": "Tres infinitivos con -en reducida." },
+    { "id": "e14", "type": "listening", "tags": ["reduccion-en"], "difficulty": 2, "speak": "Muttersprachler reduzieren oft die Endung.", "mode": "choose", "options": ["Muttersprachler reduzieren oft die Endung.", "Muttersprachler reduzieren oft die Endungen.", "Muttersprachler reduziert oft die Endung."], "answer": 0, "showTextAfter": true, "explain": "die Endung (singular): la terminación en general, no las terminaciones concretas." },
+    { "id": "e15", "type": "shadowing", "tags": ["reduccion-en"], "difficulty": 2, "speak": "Muttersprachler reduzieren oft die Endung -en, deshalb klingt «machen» eher wie MAJN.", "es": "Los hablantes nativos reducen a menudo la terminación -en, por eso «machen» suena más bien como MAJN.", "ipa": "/ˈmʊtɐʃpʁaːxlɐ ʁeduˈtsiːʁən ɔft diː ˈɛndʊŋ eːn dɛsˈhalp klɪŋt ˈmaxn̩ ˈeːɐ̯ viː maxn̩/", "esApprox": "«MÚ-ter-shpraj-ler re-du-TSÍ-ren oft di ÉN-dung en, des-JALP klingt MAJN É-er vi majn»", "focus": "reduzieren y klingt: vocabulario para describir el fenómeno de la reducción de -en.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["pronunciacion-general"], "difficulty": 2, "speak": "Anfänger sprechen oft zu deutlich, aber wenn man die Aussprache übt, klingt man mit der Zeit natürlicher.", "es": "Los principiantes hablan a menudo con demasiada claridad, pero si se practica la pronunciación, con el tiempo se suena más natural.", "ipa": "/ˈanfɛŋɐ ˈʃpʁɛçn̩ ɔft tsuː ˈdɔɪ̯tlɪç ˈaːbɐ vɛn man diː ˈaʊ̯sʃpʁaːxə yːpt klɪŋt man mɪt deːɐ̯ tsaɪ̯t naˈtyːɐ̯lɪçɐ/", "esApprox": "«ÁN-fen-guer SHPRÉ-jen oft tsu DÓIT-lich, Á-ber ven man di ÁUS-shpra-je iupt, klingt man mit der tsait na-TIÚR-li-jer»", "focus": "übt y klingt: el proceso de practicar la pronunciación hasta sonar natural.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["reduccion-en"], "difficulty": 2, "prompt": "Explica que tienes que practicar la pronunciación.", "modelAnswer": "Ich muss die Aussprache üben.", "alsoValid": ["Du musst die Aussprache üben."], "speak": "Ich muss die Aussprache üben.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["reduccion-en"], "difficulty": 2, "prompt": "Clasifica cada palabra según si su -en final se reduce", "buckets": ["Se reduce (-en → n̩)", "No aplica (no termina en -en)"], "items": [
+      { "text": "machen", "bucket": 0 },
+      { "text": "sprechen", "bucket": 0 },
+      { "text": "der Tisch", "bucket": 1 },
+      { "text": "die Frauen", "bucket": 0 }
+    ], "explain": "La reducción afecta a cualquier palabra que termine en -en, sea verbo o sustantivo." },
+    { "id": "e19", "type": "error_correction", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Hay un error en la descripción. Corrígela.", "wrong": "La terminación -en se pronuncia siempre con una e muy clara en alemán hablado.", "accept": ["La terminación -en se reduce a una n silábica en alemán hablado", "La terminación -en no se pronuncia con una e clara, sino como una n silábica"], "explain": "En el habla natural, la e casi desaparece y la n se convierte en el núcleo de la sílaba." },
+    { "id": "e20", "type": "mcq", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "«Muttersprachler reduzieren oft die Endung -en. Wörter wie machen oder haben klingen dann eher wie MAJN oder HABN. Das ist kein Fehler, sondern völlig normal.» ¿Qué se dice sobre esta reducción?", "options": ["Es un error que hay que evitar", "Es completamente normal en el habla nativa", "Solo ocurre en el sur de Alemania", "Solo afecta a los verbos modales"], "answer": 1, "explain": "«Das ist kein Fehler, sondern völlig normal» = no es un error, es completamente normal." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Endung", "es": "la terminación", "esApprox": "«ÉN-dung»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "reduzieren", "es": "reducir", "esApprox": "«re-du-TSÍ-ren»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Silbe", "es": "la sílaba", "esApprox": "«ZÍL-be»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "natürlich klingen", "es": "sonar natural", "esApprox": "«na-TIÚR-lich KLÍN-guen»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "der Muttersprachler", "es": "el hablante nativo", "esApprox": "«MÚ-ter-shpraj-ler»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "üben", "es": "practicar", "esApprox": "«ÍU-ben»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Muttersprachler reduzieren oft die Endung -en, deshalb klingt «machen» eher wie MAJN.", "es": "Los hablantes nativos reducen a menudo la terminación -en, por eso «machen» suena más bien como MAJN.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Anfänger sprechen oft zu deutlich, aber wenn man die Aussprache übt, klingt man mit der Zeit natürlicher.", "es": "Los principiantes hablan a menudo con demasiada claridad, pero si se practica la pronunciación, con el tiempo se suena más natural.", "from": "e16" }
+  ]
+}

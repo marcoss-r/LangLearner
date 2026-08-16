@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-171",
+  "lang": "de",
+  "level": "A2",
+  "order": 171,
+  "title": "Pronunciación general VI: la r vocalizada y la entonación de las subordinadas",
+  "objectives": [
+    "Reconocer que la r al final de sílaba se vocaliza, como en mir, der, Uhr",
+    "Distinguir la r consonántica (al inicio de sílaba) de la r vocalizada (al final)",
+    "Aplicar la entonación suspendida típica de las frases subordinadas, que no baja hasta el verbo final"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La r vocalizada: cuando la r casi no suena como r",
+      "body": "Al final de sílaba, tras vocal larga, la r alemana no se pronuncia como consonante: se convierte en un sonido vocálico parecido a una a débil, transcrito /ɐ/ o /ɐ̯/. «mir» no suena «mir» con r fuerte, sino algo como «mía» corto; «der» suena casi como «dea». En cambio, al inicio de sílaba (rot, Rad, fahren) la r sí se pronuncia como consonante.",
+      "examples": [
+        { "target": "mir", "es": "a mí, me", "note": "/miːɐ̯/, la r suena como una vocal débil" },
+        { "target": "die Uhr", "es": "el reloj", "note": "/uːɐ̯/, r final vocalizada" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "r consonántica vs. r vocalizada",
+      "headers": ["Posición", "Tipo de r", "Ejemplo"],
+      "rows": [
+        ["Inicio de sílaba (rot, fahren)", "Consonántica", "/ʁ/"],
+        ["Final de sílaba tras vocal larga (mir, der, Uhr)", "Vocalizada", "/ɐ/ o /ɐ̯/"],
+        ["Terminación -er átona (Mutter, besser)", "Vocalizada", "/ɐ/"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En las frases subordinadas (mit dass, weil, wenn...), la entonación queda «suspendida», sin bajar del todo, hasta llegar al verbo conjugado al final de la frase. Esto refleja que la frase gramaticalmente no está completa hasta ese verbo final."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Aussprache", "es": "la pronunciación", "ipa": "/ˈaʊ̯sʃpʁaːxə/", "esApprox": "«ÁUS-shpra-je»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Aussprache des r ist speziell.", "es": "La pronunciación de la r es especial." } },
+    { "id": "v2", "target": "vokalisieren", "es": "vocalizar", "ipa": "/vokaliˈziːʁən/", "esApprox": "«vo-ka-li-ZÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Am Silbenende wird das r vokalisiert.", "es": "Al final de sílaba, la r se vocaliza." } },
+    { "id": "v3", "target": "hängen", "es": "quedar suspendido, colgar", "ipa": "/ˈhɛŋən/", "esApprox": "«JÉN-guen»", "pos": "verbo", "gender": null, "example": { "target": "Die Stimme hängt bis zum Verb.", "es": "La voz queda suspendida hasta el verbo." } },
+    { "id": "v4", "target": "vollständig", "es": "completo", "ipa": "/ˈfɔlʃtɛndɪç/", "esApprox": "«FOL-shten-dich»", "pos": "adjetivo", "gender": null, "example": { "target": "Der Satz ist erst am Ende vollständig.", "es": "La frase está completa solo al final." } },
+    { "id": "v5", "target": "der Nebensatz", "es": "la oración subordinada", "ipa": "/ˈneːbn̩zats/", "esApprox": "«NÉ-ben-zats»", "pos": "sustantivo", "gender": "m", "example": { "target": "Im Nebensatz steht das Verb am Ende.", "es": "En la subordinada, el verbo va al final." } },
+    { "id": "v6", "target": "genau", "es": "exacto, exactamente", "ipa": "/ɡəˈnaʊ̯/", "esApprox": "«ge-NAU»", "pos": "adverbio", "gender": null, "example": { "target": "Das ist genau der Unterschied.", "es": "Esa es exactamente la diferencia." } },
+    { "id": "v7", "target": "der Unterschied", "es": "la diferencia", "ipa": "/ˈʊntɐʃiːt/", "esApprox": "«ÚN-ter-shit»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein großer Unterschied.", "es": "Esa es una gran diferencia." } },
+    { "id": "v8", "target": "achten auf", "es": "prestar atención a (+ acusativo)", "ipa": "/ˈaxtn̩ aʊ̯f/", "esApprox": "«AJ-ten auf»", "pos": "verbo", "gender": null, "example": { "target": "Achte auf die Aussprache des r.", "es": "Presta atención a la pronunciación de la r." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["r-vocalizada"], "difficulty": 1, "prompt": "¿Cómo suena la r en «mir»?", "options": ["Como consonante fuerte", "Como vocal débil", "No se pronuncia", "Como l"], "answer": 1, "explain": "Al final de sílaba tras vocal larga, la r se vocaliza: /miːɐ̯/." },
+    { "id": "e2", "type": "mcq", "tags": ["r-vocalizada"], "difficulty": 2, "prompt": "¿En cuál de estas palabras la r es consonántica?", "options": ["mir", "der", "rot", "Uhr"], "answer": 2, "explain": "rot empieza con r al inicio de sílaba: se pronuncia como consonante." },
+    { "id": "e3", "type": "true_false", "tags": ["r-vocalizada"], "difficulty": 2, "statement": "La terminación átona -er (Mutter, besser) también vocaliza la r.", "answer": true, "explain": "Mutter suena /ˈmʊtɐ/, con la r final vocalizada." },
+    { "id": "e4", "type": "true_false", "tags": ["pronunciacion-general"], "difficulty": 2, "statement": "En las frases subordinadas, la entonación baja completamente antes del verbo final.", "answer": false, "explain": "La entonación queda suspendida hasta el verbo final, porque la frase no está gramaticalmente completa antes." },
+    { "id": "e5", "type": "match_pairs", "tags": ["r-vocalizada"], "difficulty": 2, "prompt": "Une cada palabra con el tipo de r que tiene", "left": ["rot", "mir", "fahren (empieza fa-)", "Uhr"], "right": ["consonántica", "vocalizada", "consonántica", "vocalizada"], "answer": [0, 1, 2, 3], "explain": "rot y fahren tienen r al inicio de sílaba (consonántica); mir y Uhr, al final (vocalizada)." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["r-vocalizada"], "difficulty": 2, "prompt": "Presta atención a la pronunciación de la r.", "accept": ["Achte auf die Aussprache des r"], "hintWords": ["achte auf die Aussprache des r"], "strictAccents": false, "audio": "Achte auf die Aussprache des r.", "explain": "Achte (imperativo) + auf + die Aussprache des r." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "En la subordinada, el verbo va al final.", "accept": ["Im Nebensatz steht das Verb am Ende"], "hintWords": ["im Nebensatz steht das Verb am Ende"], "strictAccents": false, "audio": "Im Nebensatz steht das Verb am Ende.", "explain": "Im Nebensatz (posición 1) + steht (posición 2) + das Verb + am Ende." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "La frase está completa solo al final.", "accept": ["Der Satz ist erst am Ende vollständig"], "hintWords": ["der Satz ist erst am Ende vollständig"], "strictAccents": false, "audio": "Der Satz ist erst am Ende vollständig.", "explain": "erst am Ende = solo al final." },
+    { "id": "e9", "type": "fill_blank", "tags": ["r-vocalizada"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Am Silbenende wird das r ___. Das ist genau der ___.", "blanks": [{ "accept": ["vokalisiert"] }, { "accept": ["Unterschied"] }], "bank": ["vokalisiert", "Unterschied", "Nebensatz"], "explain": "vokalisiert (vocalizada) y der Unterschied (la diferencia)." },
+    { "id": "e10", "type": "word_order", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Ordena: «La voz queda suspendida hasta el verbo»", "tokens": ["bis zum Verb", "Die Stimme hängt"], "answer": ["Die Stimme hängt", "bis zum Verb"], "audio": "Die Stimme hängt bis zum Verb.", "explain": "Die Stimme (sujeto) + hängt (posición 2) + bis zum Verb." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["r-vocalizada"], "difficulty": 2, "prompt": "Die Aussprache des r ist speziell.", "accept": ["La pronunciación de la r es especial."], "strictAccents": false, "audio": "Die Aussprache des r ist speziell.", "explain": "die Aussprache = la pronunciación." },
+    { "id": "e12", "type": "dialogue", "tags": ["r-vocalizada"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lehrerin", "text": "Wie klingt das r in «mir» und «der»?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Es klingt wie eine vokalisierte r, fast wie ein a."], "hint": "explica la r vocalizada" },
+      { "who": "Lehrerin", "text": "Genau richtig!", "speak": true }
+    ], "explain": "Reflexión sobre la r vocalizada al final de sílaba." },
+    { "id": "e13", "type": "listening", "tags": ["r-vocalizada"], "difficulty": 1, "speak": "mir, der, Uhr", "mode": "write", "accept": ["mir, der, Uhr"], "showTextAfter": true, "explain": "Tres palabras con r vocalizada al final de sílaba." },
+    { "id": "e14", "type": "listening", "tags": ["r-vocalizada"], "difficulty": 2, "speak": "Am Silbenende wird das r vokalisiert.", "mode": "choose", "options": ["Am Silbenende wird das r vokalisiert.", "Am Silbenanfang wird das r vokalisiert.", "Am Silbenende wird das r betont."], "answer": 0, "showTextAfter": true, "explain": "La vocalización ocurre al final de sílaba (Silbenende), no al principio." },
+    { "id": "e15", "type": "shadowing", "tags": ["r-vocalizada"], "difficulty": 2, "speak": "Achte auf die Aussprache des r: am Silbenanfang ist es eine Konsonante, am Silbenende wird es vokalisiert.", "es": "Presta atención a la pronunciación de la r: al principio de sílaba es una consonante, al final se vocaliza.", "ipa": "/ˈaxtə aʊ̯f diː ˈaʊ̯sʃpʁaːxə dɛs ɛʁ am ˈzɪlbn̩anfaŋ ɪst ɛs ˈaɪ̯nə kɔnzoˈnantə am ˈzɪlbn̩ɛndə vɪʁt ɛs vokaliˈziːɐ̯t/", "esApprox": "«AJ-te auf di ÁUS-shpra-je des er, am ZÍL-ben-an-fang ist es ÁI-ne kon-zo-NÁN-te, am ZÍL-ben-en-de virt es vo-ka-li-ZIRT»", "focus": "Contraste directo entre r consonántica (Silbenanfang) y r vocalizada (Silbenende).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["pronunciacion-general"], "difficulty": 2, "speak": "Im Nebensatz hängt die Stimme, bis das Verb am Ende kommt, denn der Satz ist erst dann vollständig.", "es": "En la subordinada, la voz queda suspendida hasta que el verbo llega al final, porque la frase solo entonces está completa.", "ipa": "/ɪm ˈneːbn̩zats hɛŋt diː ˈʃtɪmə bɪs das vɛʁp am ˈɛndə ˈkɔmt dɛn deːɐ̯ zats ɪst eːɐ̯st dan fɔlˈʃtɛndɪç/", "esApprox": "«im NÉ-ben-zats jengt di SHTÍ-me, bis das verp am ÉN-de komt, den der zats ist erst dan fol-SHTÉN-dich»", "focus": "hängt...bis: la entonación suspendida típica de las subordinadas alemanas.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["r-vocalizada"], "difficulty": 2, "prompt": "Le pides a alguien que preste atención a la pronunciación de la r.", "modelAnswer": "Achte auf die Aussprache des r.", "alsoValid": ["Achten Sie auf die Aussprache des r."], "speak": "Achte auf die Aussprache des r.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["r-vocalizada"], "difficulty": 2, "prompt": "Clasifica cada palabra según el tipo de r", "buckets": ["r consonántica (inicio)", "r vocalizada (final)"], "items": [
+      { "text": "rot", "bucket": 0 },
+      { "text": "mir", "bucket": 1 },
+      { "text": "Rad", "bucket": 0 },
+      { "text": "Mutter", "bucket": 1 }
+    ], "explain": "Al inicio de sílaba la r es consonántica; al final tras vocal larga o en -er átona, se vocaliza." },
+    { "id": "e19", "type": "error_correction", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Hay un error en la descripción. Corrígela.", "wrong": "En las frases subordinadas, la entonación baja tan pronto como aparece la conjunción.", "accept": ["En las frases subordinadas, la entonación queda suspendida hasta el verbo final", "La entonación baja solo al llegar al verbo final de la subordinada"], "explain": "La voz queda suspendida hasta el verbo conjugado al final, porque hasta entonces la frase no está completa." },
+    { "id": "e20", "type": "mcq", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "«Am Silbenanfang ist das r eine Konsonante, wie in rot. Am Silbenende, wie in mir oder der, wird es vokalisiert. Das ist ein genau der Unterschied, auf den man achten muss.» ¿Qué diferencia se explica en el texto?", "options": ["Entre r larga y r corta", "Entre r consonántica y r vocalizada según su posición", "Entre r alemana y r española", "Entre r mayúscula y minúscula"], "answer": 1, "explain": "El texto contrasta la r consonántica al inicio de sílaba con la r vocalizada al final." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Aussprache", "es": "la pronunciación", "esApprox": "«ÁUS-shpra-je»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "vokalisieren", "es": "vocalizar", "esApprox": "«vo-ka-li-ZÍ-ren»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "hängen", "es": "quedar suspendido, colgar", "esApprox": "«JÉN-guen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Nebensatz", "es": "la oración subordinada", "esApprox": "«NÉ-ben-zats»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "der Unterschied", "es": "la diferencia", "esApprox": "«ÚN-ter-shit»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "achten auf", "es": "prestar atención a (+ acusativo)", "esApprox": "«AJ-ten auf»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Achte auf die Aussprache des r: am Silbenanfang ist es eine Konsonante, am Silbenende wird es vokalisiert.", "es": "Presta atención a la pronunciación de la r: al principio de sílaba es una consonante, al final se vocaliza.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Im Nebensatz hängt die Stimme, bis das Verb am Ende kommt, denn der Satz ist erst dann vollständig.", "es": "En la subordinada, la voz queda suspendida hasta que el verbo llega al final, porque la frase solo entonces está completa.", "from": "e16" }
+  ]
+}
