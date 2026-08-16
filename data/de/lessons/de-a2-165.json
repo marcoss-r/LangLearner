@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-165",
+  "lang": "de",
+  "level": "A2",
+  "order": 165,
+  "title": "El imperativo en las tres formas: du, ihr, Sie",
+  "objectives": [
+    "Repasar las tres formas del imperativo (du, ihr, Sie) vistas en la clase 54",
+    "Formar el imperativo de verbos reflexivos, manteniendo el pronombre reflexivo",
+    "Formar el imperativo negativo con nicht y kein"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El imperativo con verbos reflexivos",
+      "body": "Ya conoces las tres formas del imperativo (Komm!, Kommt!, Kommen Sie!, clase 54). Ahora que conoces los verbos reflexivos (clases 163-164), puedes combinarlos: el pronombre reflexivo se mantiene, pero el sujeto desaparece (salvo en Sie). «Beeil dich!» (¡Date prisa!), «Setzt euch!» (¡Sentaos!), «Waschen Sie sich die Hände!» (¡Lávese las manos!).",
+      "examples": [
+        { "target": "Beeil dich!", "es": "¡Date prisa!" },
+        { "target": "Setzen Sie sich, bitte!", "es": "Siéntese, por favor." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Imperativo de verbos reflexivos (sich beeilen, sich setzen)",
+      "headers": ["Persona", "sich beeilen", "sich setzen"],
+      "rows": [
+        ["du", "Beeil dich!", "Setz dich!"],
+        ["ihr", "Beeilt euch!", "Setzt euch!"],
+        ["Sie", "Beeilen Sie sich!", "Setzen Sie sich!"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El imperativo negativo se forma simplemente con nicht (para verbos ya mencionados) o kein (con un sustantivo nuevo): «Beeil dich nicht!» (¡No te des prisa!), «Iss keine Süßigkeiten!» (¡No comas dulces!)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sich setzen", "es": "sentarse", "ipa": "/zɪç ˈzɛtsn̩/", "esApprox": "«zich ZÉ-tsen»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Setzen Sie sich, bitte!", "es": "Siéntese, por favor." } },
+    { "id": "v2", "target": "sich hinlegen", "es": "tumbarse, acostarse", "ipa": "/zɪç ˈhɪnleːɡn̩/", "esApprox": "«zich JÍN-le-guen»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Leg dich hin, wenn du müde bist.", "es": "Túmbate si estás cansado." } },
+    { "id": "v3", "target": "sich keine Sorgen machen", "es": "no preocuparse", "ipa": "/zɪç ˈkaɪ̯nə ˈzɔʁɡn̩ ˈmaxn̩/", "esApprox": "«zich KÁI-ne ZÓR-guen MA-jen»", "pos": "locución verbal", "gender": null, "example": { "target": "Mach dir keine Sorgen!", "es": "¡No te preocupes!" } },
+    { "id": "v4", "target": "die Süßigkeit", "es": "el dulce, la golosina", "ipa": "/ˈzyːsɪçkaɪ̯t/", "esApprox": "«ZÍU-sich-kait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Iss keine Süßigkeiten vor dem Essen!", "es": "¡No comas dulces antes de comer!" } },
+    { "id": "v5", "target": "aufpassen", "es": "tener cuidado, prestar atención", "ipa": "/ˈaʊ̯fpasn̩/", "esApprox": "«ÁUF-pa-sen»", "pos": "verbo", "gender": null, "example": { "target": "Pass auf dich auf!", "es": "¡Cuídate!" } },
+    { "id": "v6", "target": "ruhig", "es": "tranquilo", "ipa": "/ˈʁuːɪç/", "esApprox": "«RÚ-ich»", "pos": "adjetivo", "gender": null, "example": { "target": "Bleib ruhig!", "es": "¡Quédate tranquilo!" } },
+    { "id": "v7", "target": "sofort", "es": "inmediatamente", "ipa": "/zoˈfɔʁt/", "esApprox": "«zo-FORT»", "pos": "adverbio", "gender": null, "example": { "target": "Komm sofort her!", "es": "¡Ven aquí inmediatamente!" } },
+    { "id": "v8", "target": "die Ruhe", "es": "la calma", "ipa": "/ˈʁuːə/", "esApprox": "«RÚ-e»", "pos": "sustantivo", "gender": "f", "example": { "target": "Bewahren Sie die Ruhe!", "es": "¡Mantenga la calma!" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["imperativo"], "difficulty": 1, "prompt": "¿Cómo se dice «¡Date prisa!»?", "options": ["Beeile dich!", "Beeil dich!", "Beeilst dich!", "Beeilen dich!"], "answer": 1, "explain": "du beeilst dich → Beeil dich! (se quita -st)." },
+    { "id": "e2", "type": "mcq", "tags": ["imperativo"], "difficulty": 2, "prompt": "¿Qué pasa con el pronombre reflexivo en el imperativo?", "options": ["Desaparece", "Se mantiene", "Cambia siempre a sich", "Va antes del verbo"], "answer": 1, "explain": "El sujeto desaparece, pero el pronombre reflexivo se mantiene: Beeil dich!, Setzen Sie sich!" },
+    { "id": "e3", "type": "true_false", "tags": ["imperativo"], "difficulty": 2, "statement": "El imperativo negativo con un sustantivo nuevo usa kein.", "answer": true, "explain": "Iss keine Süßigkeiten! usa kein porque introduce un sustantivo (die Süßigkeiten)." },
+    { "id": "e4", "type": "true_false", "tags": ["imperativo"], "difficulty": 2, "statement": "En el imperativo de Sie, el pronombre Sie desaparece.", "answer": false, "explain": "Solo con du e ihr desaparece el sujeto; con Sie se mantiene, detrás del verbo: Setzen Sie sich!" },
+    { "id": "e5", "type": "match_pairs", "tags": ["imperativo"], "difficulty": 2, "prompt": "Une cada imperativo con su forma", "left": ["Beeil dich!", "Beeilt euch!", "Beeilen Sie sich!", "Setz dich!"], "right": ["du", "ihr", "Sie", "du (sich setzen)"], "answer": [0, 1, 2, 3], "explain": "Las tres formas del imperativo con verbos reflexivos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["imperativo"], "difficulty": 2, "prompt": "¡Date prisa!", "accept": ["Beeil dich!"], "hintWords": ["beeil dich"], "strictAccents": false, "audio": "Beeil dich!", "explain": "Beeil (imperativo de du) + dich (reflexivo, se mantiene)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["imperativo"], "difficulty": 2, "prompt": "Siéntese, por favor.", "accept": ["Setzen Sie sich, bitte!"], "hintWords": ["setzen sie sich bitte"], "strictAccents": false, "audio": "Setzen Sie sich, bitte!", "explain": "Setzen Sie (imperativo de Sie) + sich (reflexivo) + bitte." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["imperativo"], "difficulty": 2, "prompt": "¡No te preocupes!", "accept": ["Mach dir keine Sorgen!"], "hintWords": ["mach dir keine Sorgen"], "strictAccents": false, "audio": "Mach dir keine Sorgen!", "explain": "Mach (imperativo) + dir (reflexivo dativo) + keine Sorgen (negación con kein)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["imperativo"], "difficulty": 2, "prompt": "Completa el imperativo con el pronombre reflexivo correcto", "text": "Setzt ___, bitte! Beeilen Sie ___!", "blanks": [{ "accept": ["euch"] }, { "accept": ["sich"] }], "bank": ["euch", "sich", "dich"], "explain": "ihr → euch; Sie → sich." },
+    { "id": "e10", "type": "word_order", "tags": ["imperativo"], "difficulty": 2, "prompt": "Ordena: «¡No comas dulces antes de comer!»", "tokens": ["vor dem Essen", "Iss keine Süßigkeiten"], "answer": ["Iss keine Süßigkeiten", "vor dem Essen"], "audio": "Iss keine Süßigkeiten vor dem Essen!", "explain": "Iss (imperativo) + keine Süßigkeiten (objeto negado) + vor dem Essen." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["imperativo"], "difficulty": 2, "prompt": "Bewahren Sie die Ruhe!", "accept": ["¡Mantenga la calma!"], "strictAccents": false, "audio": "Bewahren Sie die Ruhe!", "explain": "die Ruhe = la calma." },
+    { "id": "e12", "type": "dialogue", "tags": ["imperativo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Der Bus kommt gleich!", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Beeil dich!"], "hint": "usa el imperativo de sich beeilen" },
+      { "who": "Lea", "text": "Ich komme!", "speak": true }
+    ], "explain": "Beeil dich!: imperativo reflexivo muy frecuente." },
+    { "id": "e13", "type": "listening", "tags": ["imperativo"], "difficulty": 1, "speak": "Beeil dich!", "mode": "write", "accept": ["Beeil dich!"], "showTextAfter": true, "explain": "Beeil + dich (reflexivo)." },
+    { "id": "e14", "type": "listening", "tags": ["imperativo"], "difficulty": 2, "speak": "Mach dir keine Sorgen!", "mode": "choose", "options": ["Mach dir keine Sorgen!", "Mach dich keine Sorgen!", "Mache dir kein Sorgen!"], "answer": 0, "showTextAfter": true, "explain": "dir (dativo, con el objeto directo Sorgen) + keine (negación de sustantivo plural)." },
+    { "id": "e15", "type": "shadowing", "tags": ["imperativo"], "difficulty": 2, "speak": "Beeil dich, der Bus kommt sofort! Aber mach dir keine Sorgen, wir schaffen es bestimmt.", "es": "¡Date prisa, el bus llega enseguida! Pero no te preocupes, seguro que lo conseguimos.", "ipa": "/bəˈʔaɪ̯l dɪç deːɐ̯ bʊs kɔmt zoˈfɔʁt ˈaːbɐ max diːɐ̯ ˈkaɪ̯nə ˈzɔʁɡn̩ viːɐ̯ ˈʃafn̩ ɛs bəˈʃtɪmt/", "esApprox": "«be-ÁIL dich, der bus komt zo-FORT, Á-ber maj dir KÁI-ne ZÓR-guen, vir SHÁ-fen es be-SHTIMT»", "focus": "Beeil dich y mach dir keine Sorgen: dos imperativos reflexivos, uno en acusativo y otro en dativo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["imperativo"], "difficulty": 2, "speak": "Setzen Sie sich bitte, und bewahren Sie die Ruhe: der Arzt kommt sofort.", "es": "Siéntese por favor, y mantenga la calma: el médico llega enseguida.", "ipa": "/ˈzɛtsn̩ ziː zɪç ˈbɪtə ʊnt bəˈvaːʁən ziː diː ˈʁuːə deːɐ̯ ˈaːɐ̯tst kɔmt zoˈfɔʁt/", "esApprox": "«ZÉ-tsen zi zich BI-te, unt be-VÁ-ren zi di RÚ-e, der ARTST komt zo-FORT»", "focus": "Setzen Sie sich: la forma más formal y educada del imperativo reflexivo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["imperativo"], "difficulty": 2, "prompt": "Le pides a un amigo que se dé prisa porque el bus llega.", "modelAnswer": "Beeil dich!", "alsoValid": ["Beeil dich, der Bus kommt!"], "speak": "Beeil dich!", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["imperativo"], "difficulty": 2, "prompt": "Clasifica cada imperativo según su forma", "buckets": ["du", "Sie"], "items": [
+      { "text": "Beeil dich!", "bucket": 0 },
+      { "text": "Setzen Sie sich!", "bucket": 1 },
+      { "text": "Mach dir keine Sorgen!", "bucket": 0 },
+      { "text": "Bewahren Sie die Ruhe!", "bucket": 1 }
+    ], "explain": "El imperativo de du no lleva pronombre de sujeto; el de Sie sí, detrás del verbo." },
+    { "id": "e19", "type": "error_correction", "tags": ["imperativo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Beeile sich!", "accept": ["Beeil dich!"], "audio": "Beeil dich!", "explain": "Con la forma de du, el reflexivo es dich, no sich; y el imperativo de beeilen pierde la -st (no la -e)." },
+    { "id": "e20", "type": "mcq", "tags": ["imperativo"], "difficulty": 2, "prompt": "«Beeil dich, der Bus kommt sofort! Setz dich schnell hin, und mach dir keine Sorgen, wir schaffen es.» ¿Qué le dice la persona a su amigo?", "options": ["Que se relaje en casa", "Que se dé prisa y no se preocupe", "Que pierda el bus", "Que llame al médico"], "answer": 1, "explain": "«Beeil dich» y «mach dir keine Sorgen» son los dos imperativos centrales del mensaje." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "sich setzen", "es": "sentarse", "esApprox": "«zich ZÉ-tsen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "sich hinlegen", "es": "tumbarse, acostarse", "esApprox": "«zich JÍN-le-guen»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "sich keine Sorgen machen", "es": "no preocuparse", "esApprox": "«zich KÁI-ne ZÓR-guen MA-jen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Süßigkeit", "es": "el dulce, la golosina", "esApprox": "«ZÍU-sich-kait»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "aufpassen", "es": "tener cuidado, prestar atención", "esApprox": "«ÁUF-pa-sen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Ruhe", "es": "la calma", "esApprox": "«RÚ-e»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Beeil dich, der Bus kommt sofort! Aber mach dir keine Sorgen, wir schaffen es bestimmt.", "es": "¡Date prisa, el bus llega enseguida! Pero no te preocupes, seguro que lo conseguimos.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Setzen Sie sich bitte, und bewahren Sie die Ruhe: der Arzt kommt sofort.", "es": "Siéntese por favor, y mantenga la calma: el médico llega enseguida.", "from": "e16" }
+  ]
+}

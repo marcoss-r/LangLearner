@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-167",
+  "lang": "de",
+  "level": "A2",
+  "order": 167,
+  "title": "Sonar natural con las partículas modales en una conversación",
+  "objectives": [
+    "Combinar varias partículas modales en una conversación real",
+    "Reconocer la diferencia de tono entre una frase con y sin partículas",
+    "Elegir la partícula adecuada según la situación comunicativa"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "De la gramática a la conversación natural",
+      "body": "Las partículas modales son la diferencia entre sonar «correcto» y sonar «natural». Compara: «Ist das dein Ernst?» (¿Hablas en serio?) suena neutro, pero «Ist das denn dein Ernst?» añade sorpresa genuina. Cuantas más partículas domines en contexto, más natural sonará tu alemán, aunque no cambien el significado literal de la frase.",
+      "examples": [
+        { "target": "Ist das denn dein Ernst?", "es": "¿Pero hablas en serio?" },
+        { "target": "Das war ja nicht so schwer!", "es": "¡Pues no era tan difícil!" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Partículas según la situación",
+      "headers": ["Situación", "Partícula típica", "Ejemplo"],
+      "rows": [
+        ["Sorpresa", "denn / ja", "Was machst du denn hier?"],
+        ["Invitar con calidez", "doch (mal)", "Komm doch mal vorbei!"],
+        ["Tranquilizar a alguien", "doch", "Das ist doch nicht so schlimm."],
+        ["Pedir algo con calma", "mal", "Zeig mir das mal."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No te preocupes si al principio no usas partículas modales: la frase sigue siendo correcta sin ellas. Pero si escuchas con atención a hablantes nativos, notarás que casi nunca faltan en la conversación cotidiana."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Ernst", "es": "la seriedad", "ipa": "/ɛʁnst/", "esApprox": "«ernst»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ist das denn dein Ernst?", "es": "¿Pero hablas en serio?" } },
+    { "id": "v2", "target": "vorbeikommen", "es": "pasarse (por un sitio)", "ipa": "/foːɐ̯ˈbaɪ̯kɔmən/", "esApprox": "«for-BÁI-ko-men»", "pos": "verbo", "gender": null, "example": { "target": "Komm doch mal vorbei!", "es": "¡Pásate por aquí, anda!" } },
+    { "id": "v3", "target": "schlimm", "es": "grave, malo", "ipa": "/ʃlɪm/", "esApprox": "«shlim»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist doch nicht so schlimm.", "es": "Eso no es tan grave, hombre." } },
+    { "id": "v4", "target": "zeigen", "es": "mostrar", "ipa": "/ˈtsaɪ̯gn̩/", "esApprox": "«TSÁI-guen»", "pos": "verbo", "gender": null, "example": { "target": "Zeig mir das mal.", "es": "Muéstrame eso." } },
+    { "id": "v5", "target": "überrascht", "es": "sorprendido", "ipa": "/yːbɐˈʁaʃt/", "esApprox": "«iu-ber-RASHT»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich bin ja überrascht!", "es": "¡Vaya, estoy sorprendido!" } },
+    { "id": "v6", "target": "unbedingt", "es": "sin falta, absolutamente", "ipa": "/ˈʊnbədɪŋt/", "esApprox": "«ÚN-be-dingt»", "pos": "adverbio", "gender": null, "example": { "target": "Das musst du dir unbedingt ansehen!", "es": "¡Eso tienes que verlo sin falta!" } },
+    { "id": "v7", "target": "der Zufall", "es": "la casualidad", "ipa": "/ˈtsuːfal/", "esApprox": "«TSÚ-fal»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ja ein Zufall!", "es": "¡Vaya casualidad!" } },
+    { "id": "v8", "target": "wirklich", "es": "de verdad, realmente", "ipa": "/ˈvɪʁklɪç/", "esApprox": "«VIRK-lich»", "pos": "adverbio", "gender": null, "example": { "target": "Ist das wirklich wahr?", "es": "¿Eso es verdad de verdad?" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["particulas-modales"], "difficulty": 1, "prompt": "¿Qué partícula se usa típicamente para expresar sorpresa?", "options": ["mal", "denn/ja", "einfach", "eigentlich"], "answer": 1, "explain": "denn y ja son las partículas típicas de la sorpresa." },
+    { "id": "e2", "type": "mcq", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "¿Qué partícula se usa para tranquilizar a alguien?", "options": ["denn", "doch", "mal", "ja"], "answer": 1, "explain": "Das ist doch nicht so schlimm: doch suaviza y tranquiliza." },
+    { "id": "e3", "type": "true_false", "tags": ["particulas-modales"], "difficulty": 2, "statement": "Una frase sin partículas modales sigue siendo gramaticalmente correcta.", "answer": true, "explain": "Las partículas son opcionales para el significado, aunque frecuentes para el tono natural." },
+    { "id": "e4", "type": "true_false", "tags": ["particulas-modales"], "difficulty": 2, "statement": "«Das ist ja ein Zufall!» expresa sorpresa ante una coincidencia.", "answer": true, "explain": "ja + Zufall: sorpresa típica ante una casualidad." },
+    { "id": "e5", "type": "match_pairs", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Une la situación con la partícula típica", "left": ["Sorpresa", "Invitar con calidez", "Tranquilizar", "Pedir con calma"], "right": ["denn/ja", "doch (mal)", "doch", "mal"], "answer": [0, 1, 2, 3], "explain": "Cada situación tiene una partícula más típica, aunque puede haber combinaciones." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "¿Pero hablas en serio?", "accept": ["Ist das denn dein Ernst?"], "hintWords": ["ist das denn dein ernst"], "strictAccents": false, "audio": "Ist das denn dein Ernst?", "explain": "denn añade sorpresa genuina a la pregunta." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Eso no es tan grave, hombre.", "accept": ["Das ist doch nicht so schlimm"], "hintWords": ["das ist doch nicht so schlimm"], "strictAccents": false, "audio": "Das ist doch nicht so schlimm.", "explain": "doch tranquiliza y suaviza la afirmación." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "¡Vaya casualidad!", "accept": ["Das ist ja ein Zufall!"], "hintWords": ["das ist ja ein zufall"], "strictAccents": false, "audio": "Das ist ja ein Zufall!", "explain": "ja + der Zufall: sorpresa ante una coincidencia." },
+    { "id": "e9", "type": "fill_blank", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Completa con la partícula correcta", "text": "Zeig mir das ___. Komm ___ mal vorbei!", "blanks": [{ "accept": ["mal"] }, { "accept": ["doch"] }], "bank": ["mal", "doch", "denn"], "explain": "mal (petición con calma); doch mal (invitación cálida)." },
+    { "id": "e10", "type": "word_order", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Ordena: «Eso tienes que verlo sin falta»", "tokens": ["musst du dir unbedingt ansehen", "Das"], "answer": ["Das", "musst du dir unbedingt ansehen"], "audio": "Das musst du dir unbedingt ansehen!", "explain": "Das (posición 1) + musst (posición 2) + du + dir + unbedingt + ansehen (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Ich bin ja überrascht!", "accept": ["¡Vaya, estoy sorprendido!"], "strictAccents": false, "audio": "Ich bin ja überrascht!", "explain": "ja añade el matiz de sorpresa a la afirmación." },
+    { "id": "e12", "type": "dialogue", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Ich habe die Prüfung bestanden!", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das ist ja toll!"], "hint": "expresa sorpresa/alegría con ja" },
+      { "who": "Lea", "text": "Danke, ich bin auch überrascht!", "speak": true }
+    ], "explain": "ja: matiz de sorpresa agradable ante una buena noticia." },
+    { "id": "e13", "type": "listening", "tags": ["particulas-modales"], "difficulty": 1, "speak": "Das ist ja ein Zufall!", "mode": "write", "accept": ["Das ist ja ein Zufall!"], "showTextAfter": true, "explain": "ja + Zufall: sorpresa ante una coincidencia." },
+    { "id": "e14", "type": "listening", "tags": ["particulas-modales"], "difficulty": 2, "speak": "Das ist doch nicht so schlimm.", "mode": "choose", "options": ["Das ist doch nicht so schlimm.", "Das ist denn nicht so schlimm.", "Das ist mal nicht so schlimm."], "answer": 0, "showTextAfter": true, "explain": "doch es la partícula típica para tranquilizar." },
+    { "id": "e15", "type": "shadowing", "tags": ["particulas-modales"], "difficulty": 2, "speak": "Das ist ja ein Zufall, dich hier zu treffen! Komm doch mal vorbei, wenn du Zeit hast.", "es": "¡Vaya casualidad encontrarte aquí! Pásate por casa, anda, cuando tengas tiempo.", "ipa": "/das ɪst jaː aɪ̯n ˈtsuːfal dɪç hiːɐ̯ tsuː ˈtʁɛfn̩ kɔm dɔx maːl foːɐ̯ˈbaɪ̯ vɛn duː tsaɪ̯t hast/", "esApprox": "«das ist ya ain TSÚ-fal, dich jir tsu TRÉ-fen, kom doj mal for-BÁI, ven du tsait jast»", "focus": "ja (sorpresa) y doch mal (invitación cálida): dos partículas en un saludo casual.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["particulas-modales"], "difficulty": 2, "speak": "Ist das wirklich wahr? Das musst du mir unbedingt zeigen, ich bin ja total überrascht!", "es": "¿Eso es verdad de verdad? Eso tienes que enseñármelo sin falta, ¡estoy que no me lo creo!", "ipa": "/ɪst das ˈvɪʁklɪç vaːɐ̯ das mʊst duː miːɐ̯ ˈʊnbədɪŋt ˈtsaɪ̯gn̩ ɪç bɪn jaː toˈtaːl yːbɐˈʁaʃt/", "esApprox": "«ist das VIRK-lich var, das must du mir ÚN-be-dingt TSÁI-guen, ich bin ya to-TAL iu-ber-RASHT»", "focus": "wirklich (énfasis), unbedingt (insistencia) y ja (sorpresa): tres matices reforzando la emoción.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Un amigo te cuenta algo que te sorprende mucho. Reacciona con ja para expresar la sorpresa.", "modelAnswer": "Das ist ja unglaublich!", "alsoValid": ["Ich bin ja überrascht!"], "speak": "Das ist ja unglaublich!", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Clasifica cada frase según su matiz", "buckets": ["Sorpresa", "Tranquilizar/invitar"], "items": [
+      { "text": "Das ist ja ein Zufall!", "bucket": 0 },
+      { "text": "Das ist doch nicht so schlimm.", "bucket": 1 },
+      { "text": "Ich bin ja überrascht!", "bucket": 0 },
+      { "text": "Komm doch mal vorbei!", "bucket": 1 }
+    ], "explain": "ja marca sorpresa; doch tranquiliza o invita con calidez." },
+    { "id": "e19", "type": "error_correction", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Hay un error de posición. Corrige la frase entera.", "wrong": "Ja das ist ein Zufall!", "accept": ["Das ist ja ein Zufall!"], "audio": "Das ist ja ein Zufall!", "explain": "La partícula ja va después del verbo conjugado, no al principio de la frase." },
+    { "id": "e20", "type": "mcq", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "«Das ist ja ein Zufall, dich hier zu treffen! Komm doch mal vorbei, das musst du mir unbedingt erzählen.» ¿Qué tono predomina en esta frase?", "options": ["Formal y distante", "Sorpresa alegre y cercanía", "Enfado", "Tristeza"], "answer": 1, "explain": "El uso combinado de ja, doch mal y unbedingt crea un tono de sorpresa alegre y cercanía." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Ernst", "es": "la seriedad", "esApprox": "«ernst»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "vorbeikommen", "es": "pasarse (por un sitio)", "esApprox": "«for-BÁI-ko-men»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "schlimm", "es": "grave, malo", "esApprox": "«shlim»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "überrascht", "es": "sorprendido", "esApprox": "«iu-ber-RASHT»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "unbedingt", "es": "sin falta, absolutamente", "esApprox": "«ÚN-be-dingt»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Zufall", "es": "la casualidad", "esApprox": "«TSÚ-fal»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Das ist ja ein Zufall, dich hier zu treffen! Komm doch mal vorbei, wenn du Zeit hast.", "es": "¡Vaya casualidad encontrarte aquí! Pásate por casa, anda, cuando tengas tiempo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ist das wirklich wahr? Das musst du mir unbedingt zeigen, ich bin ja total überrascht!", "es": "¿Eso es verdad de verdad? Eso tienes que enseñármelo sin falta, ¡estoy que no me lo creo!", "from": "e16" }
+  ]
+}

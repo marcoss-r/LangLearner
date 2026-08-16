@@ -1,0 +1,91 @@
+{
+  "id": "de-a2-164",
+  "lang": "de",
+  "level": "A2",
+  "order": 164,
+  "title": "Los verbos reflexivos con dativo",
+  "objectives": [
+    "Conjugar los pronombres reflexivos en dativo (mir, dir, sich, uns, euch, sich)",
+    "Usar reflexivos de dativo con partes del cuerpo: sich die Hände waschen",
+    "Distinguir cuándo el reflexivo va en acusativo y cuándo en dativo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El reflexivo en dativo: cuando hay otro objeto en acusativo",
+      "body": "Cuando la frase reflexiva tiene además un objeto directo (acusativo), el pronombre reflexivo pasa a dativo: «Ich wasche mir die Hände» (Me lavo las manos, literalmente: lavo a mí las manos). Ya usaste esta estructura en la clase 118 con mir die Hände waschen; ahora ves la regla completa: el reflexivo en dativo es el «beneficiario» de la acción sobre otra cosa.",
+      "examples": [
+        { "target": "Ich wasche mir die Hände.", "es": "Me lavo las manos." },
+        { "target": "Ich putze mir die Zähne.", "es": "Me lavo los dientes." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Pronombres reflexivos: acusativo vs. dativo",
+      "headers": ["Persona", "Acusativo (sin otro objeto)", "Dativo (con objeto directo)"],
+      "rows": [
+        ["ich", "mich", "mir"],
+        ["du", "dich", "dir"],
+        ["er / sie / es", "sich", "sich"],
+        ["wir", "uns", "uns"],
+        ["ihr", "euch", "euch"],
+        ["sie / Sie", "sich", "sich"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Solo ich y du cambian de forma (mich→mir, dich→dir); el resto de personas (sich, uns, euch) es idéntico en acusativo y dativo, así que el cambio real solo afecta a la primera y segunda persona del singular."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sich waschen", "es": "lavarse", "ipa": "/zɪç ˈvaʃn̩/", "esApprox": "«zich VÁ-shen»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich wasche mir die Hände.", "es": "Me lavo las manos." } },
+    { "id": "v2", "target": "sich die Zähne putzen", "es": "lavarse los dientes", "ipa": "/zɪç diː ˈtsɛːnə ˈpʊtsn̩/", "esApprox": "«zich di TSÉ-ne PÚ-tsen»", "pos": "locución verbal", "gender": null, "example": { "target": "Ich putze mir die Zähne.", "es": "Me lavo los dientes." } },
+    { "id": "v3", "target": "sich kämmen", "es": "peinarse", "ipa": "/zɪç ˈkɛmən/", "esApprox": "«zich KÉ-men»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich kämme mir die Haare.", "es": "Me peino el pelo." } },
+    { "id": "v4", "target": "sich vorstellen", "es": "imaginarse (algo)", "ipa": "/zɪç ˈfoːɐ̯ʃtɛlən/", "esApprox": "«zich FOR-shte-len»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich kann mir das gut vorstellen.", "es": "Puedo imaginármelo bien." } },
+    { "id": "v5", "target": "sich merken", "es": "memorizar, tener en cuenta", "ipa": "/zɪç ˈmɛʁkn̩/", "esApprox": "«zich MÉR-ken»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich merke mir deinen Namen.", "es": "Memorizo tu nombre." } },
+    { "id": "v6", "target": "sich anziehen", "es": "vestirse (ponerse algo)", "ipa": "/zɪç ˈantsiːən/", "esApprox": "«zich ÁN-tsi-en»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich ziehe mir eine Jacke an.", "es": "Me pongo una chaqueta." } },
+    { "id": "v7", "target": "die Hand", "es": "la mano", "ipa": "/hant/", "esApprox": "«jant»", "pos": "sustantivo", "gender": "f", "plural": "die Hände", "example": { "target": "Ich wasche mir die Hände.", "es": "Me lavo las manos." } },
+    { "id": "v8", "target": "der Zahn", "es": "el diente", "ipa": "/tsaːn/", "esApprox": "«tsan»", "pos": "sustantivo", "gender": "m", "plural": "die Zähne", "example": { "target": "Ich putze mir die Zähne.", "es": "Me lavo los dientes." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["reflexivos"], "difficulty": 1, "prompt": "¿Cuál es el reflexivo en dativo para «ich»?", "options": ["mich", "mir", "dich", "dir"], "answer": 1, "explain": "ich wasche mir (dativo)." },
+    { "id": "e2", "type": "mcq", "tags": ["reflexivos"], "difficulty": 2, "prompt": "¿Cuándo se usa el reflexivo en dativo?", "options": ["Siempre", "Nunca", "Cuando hay otro objeto en acusativo", "Solo con Sie"], "answer": 2, "explain": "El dativo aparece cuando la frase ya tiene un objeto directo (die Hände, die Zähne)." },
+    { "id": "e3", "type": "true_false", "tags": ["reflexivos"], "difficulty": 2, "statement": "«sich» es igual en acusativo y en dativo.", "answer": true, "explain": "Solo ich (mich/mir) y du (dich/dir) cambian; sich, uns y euch son iguales en ambos casos." },
+    { "id": "e4", "type": "true_false", "tags": ["reflexivos"], "difficulty": 2, "statement": "«Ich wasche mich» y «Ich wasche mir die Hände» significan exactamente lo mismo.", "answer": false, "explain": "Ich wasche mich = me lavo (todo el cuerpo); Ich wasche mir die Hände = me lavo las manos (parte concreta)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Une la persona con su reflexivo en dativo", "left": ["ich", "du", "wir", "er"], "right": ["mir", "dir", "uns", "sich"], "answer": [0, 1, 2, 3], "explain": "Pronombres reflexivos en dativo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Me lavo las manos.", "accept": ["Ich wasche mir die Hände"], "hintWords": ["ich wasche mir die Hände"], "strictAccents": false, "audio": "Ich wasche mir die Hände.", "explain": "wasche + mir (dativo) + die Hände (acusativo)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Me lavo los dientes.", "accept": ["Ich putze mir die Zähne"], "hintWords": ["ich putze mir die Zähne"], "strictAccents": false, "audio": "Ich putze mir die Zähne.", "explain": "putze + mir + die Zähne." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Puedo imaginármelo bien.", "accept": ["Ich kann mir das gut vorstellen"], "hintWords": ["ich kann mir das gut vorstellen"], "strictAccents": false, "audio": "Ich kann mir das gut vorstellen.", "explain": "kann + mir + das + gut + vorstellen (infinitivo al final, con el modal)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Completa con el reflexivo en dativo correcto", "text": "Ich kämme ___ die Haare. Du ziehst ___ eine Jacke an.", "blanks": [{ "accept": ["mir"] }, { "accept": ["dir"] }], "bank": ["mir", "dir", "mich"], "explain": "ich → mir; du → dir." },
+    { "id": "e10", "type": "word_order", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Ordena: «Memorizo tu nombre»", "tokens": ["deinen Namen", "Ich merke mir"], "answer": ["Ich merke mir", "deinen Namen"], "audio": "Ich merke mir deinen Namen.", "explain": "merke (posición 2) + mir (dativo) + deinen Namen (acusativo)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Ich ziehe mir eine Jacke an.", "accept": ["Me pongo una chaqueta."], "strictAccents": false, "audio": "Ich ziehe mir eine Jacke an.", "explain": "sich anziehen: verbo reflexivo separable, con partícula an al final." },
+    { "id": "e12", "type": "dialogue", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Kannst du dir das vorstellen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich kann mir das gut vorstellen."], "hint": "responde con sich vorstellen" },
+      { "who": "Lea", "text": "Genau!", "speak": true }
+    ], "explain": "sich vorstellen: pregunta y respuesta con reflexivo en dativo." },
+    { "id": "e13", "type": "listening", "tags": ["reflexivos"], "difficulty": 1, "speak": "Ich wasche mir die Hände.", "mode": "write", "accept": ["Ich wasche mir die Hände"], "showTextAfter": true, "explain": "wasche + mir + die Hände." },
+    { "id": "e14", "type": "listening", "tags": ["reflexivos"], "difficulty": 2, "speak": "Ich putze mir die Zähne.", "mode": "choose", "options": ["Ich putze mir die Zähne.", "Ich putze mich die Zähne.", "Ich putze dir die Zähne."], "answer": 0, "showTextAfter": true, "explain": "mir (dativo, primera persona) + die Zähne (acusativo)." },
+    { "id": "e15", "type": "shadowing", "tags": ["reflexivos"], "difficulty": 2, "speak": "Ich wasche mir die Hände und putze mir die Zähne, bevor ich mir eine Jacke anziehe.", "es": "Me lavo las manos y me lavo los dientes, antes de ponerme una chaqueta.", "ipa": "/ɪç ˈvaʃə miːɐ̯ diː ˈhɛndə ʊnt ˈpʊtsə miːɐ̯ diː ˈtsɛːnə bəˈfoːɐ̯ ɪç miːɐ̯ ˈaɪ̯nə ˈjakə ˈantsiːə/", "esApprox": "«ich VÁ-she mir di JÉN-de unt PÚ-tse mir di TSÉ-ne be-FOR ich mir ÁI-ne YÁ-ke ÁN-tsi-e»", "focus": "wasche mir, putze mir, ziehe mir...an: tres reflexivos en dativo seguidos.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["reflexivos"], "difficulty": 2, "speak": "Ich kann mir das gut vorstellen, und ich merke mir immer die wichtigsten Namen.", "es": "Puedo imaginármelo bien, y siempre memorizo los nombres más importantes.", "ipa": "/ɪç kan miːɐ̯ das ɡuːt ˈfoːɐ̯ʃtɛlən ʊnt ɪç ˈmɛʁkə miːɐ̯ ˈɪmɐ diː ˈvɪçtɪçstn̩ ˈnaːmən/", "esApprox": "«ich kan mir das gut FOR-shte-len, unt ich MÉR-ke mir Í-mer di VICH-tich-sten NÁ-men»", "focus": "vorstellen y merke mir: dos reflexivos en dativo con sentido más abstracto.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Alguien te pregunta qué haces antes de desayunar. Di que te lavas las manos.", "modelAnswer": "Ich wasche mir die Hände.", "alsoValid": ["Zuerst wasche ich mir die Hände."], "speak": "Ich wasche mir die Hände.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Clasifica: reflexivo en acusativo o en dativo", "buckets": ["Acusativo (sin otro objeto)", "Dativo (con objeto directo)"], "items": [
+      { "text": "Ich freue mich.", "bucket": 0 },
+      { "text": "Ich wasche mir die Hände.", "bucket": 1 },
+      { "text": "Ich putze mir die Zähne.", "bucket": 1 },
+      { "text": "Ich fühle mich gut.", "bucket": 0 }
+    ], "explain": "Sin objeto directo: acusativo; con objeto directo (die Hände, die Zähne): dativo." },
+    { "id": "e19", "type": "error_correction", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich wasche mich die Hände.", "accept": ["Ich wasche mir die Hände"], "audio": "Ich wasche mir die Hände.", "explain": "Con el objeto directo die Hände, el reflexivo va en dativo (mir), no en acusativo (mich)." },
+    { "id": "e20", "type": "mcq", "tags": ["reflexivos"], "difficulty": 2, "prompt": "«Jeden Morgen wasche ich mir die Hände und putze mir die Zähne. Dann ziehe ich mir schnell etwas an, weil ich mich beeilen muss.» ¿Qué hace la persona con prisa?", "options": ["Lavarse las manos", "Vestirse", "Peinarse", "Desayunar"], "answer": 1, "explain": "«ziehe ich mir schnell etwas an, weil ich mich beeilen muss» = se viste con prisa." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "sich waschen", "es": "lavarse", "esApprox": "«zich VÁ-shen»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "sich die Zähne putzen", "es": "lavarse los dientes", "esApprox": "«zich di TSÉ-ne PÚ-tsen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "sich kämmen", "es": "peinarse", "esApprox": "«zich KÉ-men»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "sich vorstellen", "es": "imaginarse (algo)", "esApprox": "«zich FOR-shte-len»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "sich merken", "es": "memorizar, tener en cuenta", "esApprox": "«zich MÉR-ken»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "sich anziehen", "es": "vestirse (ponerse algo)", "esApprox": "«zich ÁN-tsi-en»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich wasche mir die Hände und putze mir die Zähne, bevor ich mir eine Jacke anziehe.", "es": "Me lavo las manos y me lavo los dientes, antes de ponerme una chaqueta.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich kann mir das gut vorstellen, und ich merke mir immer die wichtigsten Namen.", "es": "Puedo imaginármelo bien, y siempre memorizo los nombres más importantes.", "from": "e16" }
+  ]
+}

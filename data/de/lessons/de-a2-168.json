@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-168",
+  "lang": "de",
+  "level": "A2",
+  "order": 168,
+  "title": "Expresiones con es: es gibt, es geht mir gut, es regnet",
+  "objectives": [
+    "Reconocer el es impersonal en expresiones fijas de clima, existencia y estado",
+    "Usar es gibt + acusativo para expresar existencia",
+    "Diferenciar el es impersonal del es que sustituye a un sustantivo neutro"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El es impersonal: sin sujeto real",
+      "body": "En muchas expresiones fijas, es no se refiere a nada concreto: solo ocupa la posición de sujeto porque el alemán siempre necesita uno. Ya has usado varias: es gibt (hay), es regnet (llueve), es geht mir gut (estoy bien). Este es no tiene género ni número real: es puramente gramatical.",
+      "examples": [
+        { "target": "Es gibt viele Cafés hier.", "es": "Hay muchos cafés aquí." },
+        { "target": "Wie geht es dir?", "es": "¿Cómo estás?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Expresiones fijas con es impersonal",
+      "headers": ["Expresión", "Significado", "Ejemplo"],
+      "rows": [
+        ["es gibt + Akkusativ", "hay", "Es gibt kein Brot mehr."],
+        ["es geht (jemandem)", "estar (de salud/ánimo)", "Es geht mir gut."],
+        ["es regnet / schneit", "llover / nevar", "Es regnet seit Stunden."],
+        ["es ist + adjetivo", "el clima o la hora", "Es ist kalt. / Es ist spät."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "es gibt rige acusativo, aunque describa algo que «existe» y no algo que se «tiene»: «Es gibt einen Park in der Nähe» (Hay un parque cerca), no «ein Park»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "es gibt", "es": "hay", "ipa": "/ɛs ɡɪpt/", "esApprox": "«es guipt»", "pos": "locución impersonal", "gender": null, "example": { "target": "Es gibt viele Cafés hier.", "es": "Hay muchos cafés aquí." } },
+    { "id": "v2", "target": "es geht mir gut", "es": "estoy bien", "ipa": "/ɛs ɡeːt miːɐ̯ ɡuːt/", "esApprox": "«es guet mir gut»", "pos": "locución impersonal", "gender": null, "example": { "target": "Danke, es geht mir gut.", "es": "Gracias, estoy bien." } },
+    { "id": "v3", "target": "es regnet", "es": "llueve", "ipa": "/ɛs ˈʁeːɡnət/", "esApprox": "«es RÉG-net»", "pos": "locución impersonal", "gender": null, "example": { "target": "Es regnet seit Stunden.", "es": "Llueve desde hace horas." } },
+    { "id": "v4", "target": "es schneit", "es": "nieva", "ipa": "/ɛs ʃnaɪ̯t/", "esApprox": "«es shnait»", "pos": "locución impersonal", "gender": null, "example": { "target": "Im Winter schneit es oft.", "es": "En invierno nieva a menudo." } },
+    { "id": "v5", "target": "es ist spät", "es": "es tarde", "ipa": "/ɛs ɪst ʃpɛːt/", "esApprox": "«es ist shpet»", "pos": "locución impersonal", "gender": null, "example": { "target": "Es ist schon spät.", "es": "Ya es tarde." } },
+    { "id": "v6", "target": "es tut mir leid", "es": "lo siento", "ipa": "/ɛs tuːt miːɐ̯ laɪ̯t/", "esApprox": "«es tut mir lait»", "pos": "locución impersonal", "gender": null, "example": { "target": "Es tut mir leid, ich kann nicht.", "es": "Lo siento, no puedo." } },
+    { "id": "v7", "target": "das Wetter", "es": "el tiempo (clima)", "ipa": "/ˈvɛtɐ/", "esApprox": "«VÉ-ter»", "pos": "sustantivo", "gender": "n", "example": { "target": "Wie ist das Wetter heute?", "es": "¿Qué tiempo hace hoy?" } },
+    { "id": "v8", "target": "der Mangel", "es": "la escasez, la falta", "ipa": "/ˈmaŋl̩/", "esApprox": "«MÁN-guel»", "pos": "sustantivo", "gender": "m", "example": { "target": "Es gibt einen Mangel an Wasser.", "es": "Hay una escasez de agua." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["expresiones-es"], "difficulty": 1, "prompt": "¿Qué caso rige «es gibt»?", "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"], "answer": 1, "explain": "es gibt + acusativo: Es gibt einen Park." },
+    { "id": "e2", "type": "mcq", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "¿Qué significa «es schneit»?", "options": ["Llueve", "Nieva", "Hace sol", "Hace frío"], "answer": 1, "explain": "es schneit = nieva." },
+    { "id": "e3", "type": "true_false", "tags": ["expresiones-es"], "difficulty": 2, "statement": "El es en «es regnet» se refiere a algo concreto.", "answer": false, "explain": "Es un es impersonal: no sustituye a ningún sustantivo, solo ocupa la posición de sujeto." },
+    { "id": "e4", "type": "true_false", "tags": ["expresiones-es"], "difficulty": 2, "statement": "«Es geht mir gut» usa el pronombre en dativo (mir).", "answer": true, "explain": "es geht + dativo de persona: mir, dir, ihm, ihr..." },
+    { "id": "e5", "type": "match_pairs", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Une cada expresión con su significado", "left": ["es gibt", "es regnet", "es tut mir leid", "es ist spät"], "right": ["hay", "llueve", "lo siento", "es tarde"], "answer": [0, 1, 2, 3], "explain": "Expresiones fijas con es impersonal." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Hay muchos cafés aquí.", "accept": ["Es gibt viele Cafés hier"], "hintWords": ["es gibt viele Cafés hier"], "strictAccents": false, "audio": "Es gibt viele Cafés hier.", "explain": "Es gibt + viele Cafés (acusativo plural)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Llueve desde hace horas.", "accept": ["Es regnet seit Stunden"], "hintWords": ["es regnet seit Stunden"], "strictAccents": false, "audio": "Es regnet seit Stunden.", "explain": "Es regnet + seit Stunden (repaso de la clase 84)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Lo siento, no puedo.", "accept": ["Es tut mir leid, ich kann nicht"], "hintWords": ["es tut mir leid ich kann nicht"], "strictAccents": false, "audio": "Es tut mir leid, ich kann nicht.", "explain": "Es tut mir leid: fórmula fija para disculparse." },
+    { "id": "e9", "type": "fill_blank", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Completa con la expresión correcta", "text": "___ einen Mangel an Wasser. ___ schon spät.", "blanks": [{ "accept": ["Es gibt"] }, { "accept": ["Es ist"] }], "bank": ["Es gibt", "Es ist", "Es geht"], "explain": "Es gibt + acusativo; Es ist + adjetivo." },
+    { "id": "e10", "type": "word_order", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Ordena: «¿Qué tiempo hace hoy?»", "tokens": ["das Wetter heute?", "Wie ist"], "answer": ["Wie ist", "das Wetter heute?"], "audio": "Wie ist das Wetter heute?", "explain": "Wie (posición 1) + ist (posición 2) + das Wetter + heute." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Im Winter schneit es oft.", "accept": ["En invierno nieva a menudo."], "strictAccents": false, "audio": "Im Winter schneit es oft.", "explain": "Im Winter (posición 1) + schneit (posición 2) + es (sujeto impersonal, posición 3)." },
+    { "id": "e12", "type": "dialogue", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie geht es dir?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Danke, es geht mir gut."], "hint": "responde con es geht mir gut" },
+      { "who": "Lea", "text": "Freut mich!", "speak": true }
+    ], "explain": "es geht mir gut: respuesta estándar sobre el estado." },
+    { "id": "e13", "type": "listening", "tags": ["expresiones-es"], "difficulty": 1, "speak": "Es gibt viele Cafés hier.", "mode": "write", "accept": ["Es gibt viele Cafés hier"], "showTextAfter": true, "explain": "Es gibt + acusativo plural." },
+    { "id": "e14", "type": "listening", "tags": ["expresiones-es"], "difficulty": 2, "speak": "Es tut mir leid, ich kann nicht.", "mode": "choose", "options": ["Es tut mir leid, ich kann nicht.", "Es tut mich leid, ich kann nicht.", "Es tut mir leid, ich kann nichts."], "answer": 0, "showTextAfter": true, "explain": "Es tut mir leid: mir en dativo, fórmula fija." },
+    { "id": "e15", "type": "shadowing", "tags": ["expresiones-es"], "difficulty": 2, "speak": "Es regnet seit Stunden, und es ist auch schon spät, aber es gibt noch viel zu tun.", "es": "Llueve desde hace horas, y ya es tarde también, pero todavía hay mucho que hacer.", "ipa": "/ɛs ˈʁeːɡnət zaɪ̯t ˈʃtʊndn̩ ʊnt ɛs ɪst aʊ̯x ʃoːn ʃpɛːt ˈaːbɐ ɛs ɡɪpt nɔx fiːl tsuː tuːn/", "esApprox": "«es RÉG-net zait SHTÚN-den, unt es ist aoj shon shpet, Á-ber es guipt noj fil tsu tun»", "focus": "es regnet, es ist y es gibt: tres expresiones impersonales distintas en una sola frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["expresiones-es"], "difficulty": 2, "speak": "Es tut mir leid, aber es gibt einen Mangel an Zeit, und es geht mir heute nicht so gut.", "es": "Lo siento, pero hay una falta de tiempo, y hoy no estoy tan bien.", "ipa": "/ɛs tuːt miːɐ̯ laɪ̯t ˈaːbɐ ɛs ɡɪpt ˈaɪ̯nən ˈmaŋl̩ an tsaɪ̯t ʊnt ɛs ɡeːt miːɐ̯ ˈhɔɪ̯tə nɪçt zoː ɡuːt/", "esApprox": "«es tut mir lait, Á-ber es guipt ÁI-nen MÁN-guel an tsait, unt es guet mir JÓI-te nicht zo gut»", "focus": "es tut mir leid, es gibt y es geht: tres construcciones distintas con es impersonal.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Alguien te pregunta cómo estás. Responde que estás bien, gracias.", "modelAnswer": "Danke, es geht mir gut.", "alsoValid": ["Mir geht es gut, danke."], "speak": "Danke, es geht mir gut.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Clasifica cada expresión según su tema", "buckets": ["Clima", "Estado/existencia"], "items": [
+      { "text": "Es regnet.", "bucket": 0 },
+      { "text": "Es schneit.", "bucket": 0 },
+      { "text": "Es geht mir gut.", "bucket": 1 },
+      { "text": "Es gibt viele Cafés.", "bucket": 1 }
+    ], "explain": "regnet/schneit son clima; geht/gibt son estado y existencia." },
+    { "id": "e19", "type": "error_correction", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Es gibt ein Park in der Nähe.", "accept": ["Es gibt einen Park in der Nähe"], "audio": "Es gibt einen Park in der Nähe.", "explain": "es gibt rige acusativo: einen Park (masculino), no ein Park." },
+    { "id": "e20", "type": "mcq", "tags": ["expresiones-es"], "difficulty": 2, "prompt": "«Es regnet seit Stunden, und es ist schon spät. Es tut mir leid, aber es geht mir heute nicht so gut.» ¿Cómo se siente la persona?", "options": ["Muy bien", "No demasiado bien", "Feliz", "Sin cambios"], "answer": 1, "explain": "«es geht mir heute nicht so gut» = hoy no estoy tan bien." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "es gibt", "es": "hay", "esApprox": "«es guipt»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "es geht mir gut", "es": "estoy bien", "esApprox": "«es guet mir gut»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "es regnet", "es": "llueve", "esApprox": "«es RÉG-net»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "es schneit", "es": "nieva", "esApprox": "«es shnait»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "es tut mir leid", "es": "lo siento", "esApprox": "«es tut mir lait»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Mangel", "es": "la escasez, la falta", "esApprox": "«MÁN-guel»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Es regnet seit Stunden, und es ist auch schon spät, aber es gibt noch viel zu tun.", "es": "Llueve desde hace horas, y ya es tarde también, pero todavía hay mucho que hacer.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Es tut mir leid, aber es gibt einen Mangel an Zeit, und es geht mir heute nicht so gut.", "es": "Lo siento, pero hay una falta de tiempo, y hoy no estoy tan bien.", "from": "e16" }
+  ]
+}
