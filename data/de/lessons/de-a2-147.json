@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-147",
+  "lang": "de",
+  "level": "A2",
+  "order": 147,
+  "title": "Los medios: prensa, televisión, cine y música",
+  "objectives": [
+    "Ampliar el vocabulario de medios de comunicación: die Zeitung, die Nachrichten, die Sendung",
+    "Hablar de cine y música con más precisión: der Regisseur, die Schauspielerin, das Album",
+    "Dar tu opinión sobre una película, programa o canción"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Prensa y televisión",
+      "body": "Die Zeitung (el periódico), die Nachrichten (las noticias) y die Sendung (el programa de televisión) son palabras clave para hablar de medios. «Ich schaue jeden Abend die Nachrichten» (Veo las noticias cada noche) es una frase muy común.",
+      "examples": [
+        { "target": "Ich lese die Zeitung online.", "es": "Leo el periódico en línea." },
+        { "target": "Diese Sendung ist sehr interessant.", "es": "Este programa es muy interesante." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de cine y música",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["der Regisseur", "el director (de cine)"],
+        ["der Schauspieler / die Schauspielerin", "el actor / la actriz"],
+        ["das Album", "el álbum"],
+        ["die Kritik", "la crítica"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para dar tu opinión de forma matizada, combina lo que ya sabes: «Ich finde, dass der Film gut ist, obwohl die Kritik schlecht war» (Creo que la película es buena, aunque la crítica fue mala)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Zeitung", "es": "el periódico", "ipa": "/ˈtsaɪ̯tʊŋ/", "esApprox": "«TSÁI-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich lese die Zeitung online.", "es": "Leo el periódico en línea." } },
+    { "id": "v2", "target": "die Nachrichten", "es": "las noticias", "ipa": "/ˈnaːxʁɪçtn̩/", "esApprox": "«NACH-rich-ten»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "Ich schaue jeden Abend die Nachrichten.", "es": "Veo las noticias cada noche." } },
+    { "id": "v3", "target": "die Sendung", "es": "el programa (de televisión)", "ipa": "/ˈzɛndʊŋ/", "esApprox": "«ZÉN-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Diese Sendung ist sehr interessant.", "es": "Este programa es muy interesante." } },
+    { "id": "v4", "target": "der Regisseur", "es": "el director (de cine)", "ipa": "/ʁeʒɪˈsøːɐ̯/", "esApprox": "«re-shi-SÖR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Regisseur ist sehr bekannt.", "es": "El director es muy conocido." } },
+    { "id": "v5", "target": "der Schauspieler", "es": "el actor", "ipa": "/ˈʃaʊ̯ʃpiːlɐ/", "esApprox": "«SHÁU-shpi-ler»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Schauspieler spielt gut.", "es": "El actor actúa bien." } },
+    { "id": "v6", "target": "das Album", "es": "el álbum", "ipa": "/ˈalbʊm/", "esApprox": "«ÁL-bum»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ihr neues Album ist toll.", "es": "Su nuevo álbum es genial." } },
+    { "id": "v7", "target": "die Kritik", "es": "la crítica", "ipa": "/kʁiˈtiːk/", "esApprox": "«kri-TIK»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Kritik war schlecht.", "es": "La crítica fue mala." } },
+    { "id": "v8", "target": "die Schlagzeile", "es": "el titular", "ipa": "/ˈʃlaːktsaɪ̯lə/", "esApprox": "«SHLÁK-tsai-le»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Schlagzeile ist schockierend.", "es": "El titular es impactante." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["medios"], "difficulty": 1, "prompt": "¿Cómo se dice «el periódico»?", "options": ["die Sendung", "die Zeitung", "die Nachrichten", "die Kritik"], "answer": 1, "explain": "die Zeitung = el periódico." },
+    { "id": "e2", "type": "mcq", "tags": ["cine"], "difficulty": 2, "prompt": "¿Cómo se dice «el director de cine»?", "options": ["der Schauspieler", "der Regisseur", "der Autor", "der Sänger"], "answer": 1, "explain": "der Regisseur = el director de cine." },
+    { "id": "e3", "type": "true_false", "tags": ["medios"], "difficulty": 2, "statement": "«die Nachrichten» es siempre plural.", "answer": true, "explain": "die Nachrichten (las noticias) se usa siempre en plural." },
+    { "id": "e4", "type": "true_false", "tags": ["musica"], "difficulty": 2, "statement": "«die Schlagzeile» significa «la canción».", "answer": false, "explain": "die Schlagzeile = el titular (de prensa), no una canción." },
+    { "id": "e5", "type": "match_pairs", "tags": ["medios"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Sendung", "der Schauspieler", "das Album", "die Kritik"], "right": ["el programa", "el actor", "el álbum", "la crítica"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave de medios y entretenimiento." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["medios"], "difficulty": 2, "prompt": "Veo las noticias cada noche.", "accept": ["Ich schaue jeden Abend die Nachrichten"], "hintWords": ["ich schaue jeden Abend die Nachrichten"], "strictAccents": false, "audio": "Ich schaue jeden Abend die Nachrichten.", "explain": "jeden Abend + die Nachrichten (acusativo plural)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["cine"], "difficulty": 2, "prompt": "El director es muy conocido.", "accept": ["Der Regisseur ist sehr bekannt"], "hintWords": ["der Regisseur ist sehr bekannt"], "strictAccents": false, "audio": "Der Regisseur ist sehr bekannt.", "explain": "der Regisseur + ist + sehr bekannt." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["musica"], "difficulty": 2, "prompt": "Su nuevo álbum es genial.", "accept": ["Ihr neues Album ist toll"], "hintWords": ["ihr neues Album ist toll"], "strictAccents": false, "audio": "Ihr neues Album ist toll.", "explain": "ihr neues Album: posesivo + adjetivo declinado, neutro nominativo." },
+    { "id": "e9", "type": "fill_blank", "tags": ["medios"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Die ___ ist schockierend. Die ___ war schlecht.", "blanks": [{ "accept": ["Schlagzeile"] }, { "accept": ["Kritik"] }], "bank": ["Schlagzeile", "Kritik", "Sendung"], "explain": "die Schlagzeile (el titular); die Kritik (la crítica)." },
+    { "id": "e10", "type": "word_order", "tags": ["medios"], "difficulty": 2, "prompt": "Ordena: «Leo el periódico en línea»", "tokens": ["online", "Ich lese", "die Zeitung"], "answer": ["Ich lese", "die Zeitung", "online"], "audio": "Ich lese die Zeitung online.", "explain": "Ich lese die Zeitung online: sujeto-verbo-objeto-modo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["cine"], "difficulty": 2, "prompt": "Der Schauspieler spielt gut.", "accept": ["El actor actúa bien."], "strictAccents": false, "audio": "Der Schauspieler spielt gut.", "explain": "der Schauspieler = el actor." },
+    { "id": "e12", "type": "dialogue", "tags": ["cine"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Tom", "text": "Wie fandest du den Film?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich finde, dass der Film gut ist, obwohl die Kritik schlecht war."], "hint": "da tu opinión combinando dass y obwohl" },
+      { "who": "Tom", "text": "Interessant, ich sehe das anders!", "speak": true }
+    ], "explain": "Práctica de dar una opinión matizada sobre una película." },
+    { "id": "e13", "type": "listening", "tags": ["medios"], "difficulty": 1, "speak": "Ich schaue jeden Abend die Nachrichten.", "mode": "write", "accept": ["Ich schaue jeden Abend die Nachrichten"], "showTextAfter": true, "explain": "Frase clave sobre hábitos de consumo de noticias." },
+    { "id": "e14", "type": "listening", "tags": ["cine"], "difficulty": 2, "speak": "Der Regisseur ist sehr bekannt.", "mode": "choose", "options": ["Der Regisseur ist sehr bekannt.", "Der Regisseur ist sehr bekennen.", "Der Regisseur ist sehr Bekanntheit."], "answer": 0, "showTextAfter": true, "explain": "bekannt (conocido, adjetivo) es la forma correcta aquí." },
+    { "id": "e15", "type": "shadowing", "tags": ["cine"], "difficulty": 2, "speak": "Ich finde, dass der Film gut ist, obwohl die Kritik schlecht war, denn der Schauspieler spielt sehr gut.", "es": "Creo que la película es buena, aunque la crítica fue mala, porque el actor actúa muy bien.", "ipa": "/ɪç ˈfɪndə das deːɐ̯ fɪlm ɡuːt ɪst ɔpˈvoːl diː kʁiˈtiːk ʃlɛçt vaːɐ̯ dɛn deːɐ̯ ˈʃaʊ̯ʃpiːlɐ ˈʃpiːlt zeːɐ̯ ɡuːt/", "esApprox": "«ich FÍN-de, das der film gut ist, op-VOL di kri-TIK shlecht var, den der SHÁU-shpi-ler SHPILT zer gut»", "focus": "dass, obwohl y denn: tres conjunciones distintas combinadas en una opinión matizada.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["medios"], "difficulty": 2, "speak": "Ich lese die Zeitung online, und die Schlagzeile heute ist wirklich schockierend.", "es": "Leo el periódico en línea, y el titular de hoy es realmente impactante.", "ipa": "/ɪç ˈleːzə diː ˈtsaɪ̯tʊŋ ɔnˈlaɪ̯n ʊnt diː ˈʃlaːktsaɪ̯lə ˈhɔɪ̯tə ɪst ˈvɪʁklɪç ʃɔˈkiːʁənt/", "esApprox": "«ich LÉ-ze di TSÁI-tung on-LÁIN, unt di SHLÁK-tsai-le JÓI-te ist VIRK-lich sho-KÍ-rent»", "focus": "die Zeitung online (leer en línea) y die Schlagzeile (el titular): vocabulario clave de prensa.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["cine"], "difficulty": 2, "prompt": "Te preguntan qué te pareció una película. Di que crees que es buena, aunque la crítica fue mala.", "modelAnswer": "Ich finde, dass der Film gut ist, obwohl die Kritik schlecht war.", "alsoValid": ["Ich finde den Film gut."], "speak": "Ich finde, dass der Film gut ist, obwohl die Kritik schlecht war.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["medios"], "difficulty": 2, "prompt": "Clasifica cada palabra: prensa/TV o cine/música", "buckets": ["Prensa/TV", "Cine/música"], "items": [
+      { "text": "die Zeitung", "bucket": 0 },
+      { "text": "der Regisseur", "bucket": 1 },
+      { "text": "die Sendung", "bucket": 0 },
+      { "text": "das Album", "bucket": 1 }
+    ], "explain": "Zeitung y Sendung son de prensa/TV; Regisseur y Album son de cine/música." },
+    { "id": "e19", "type": "error_correction", "tags": ["medios"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich schaue jeden Abend das Nachrichten.", "accept": ["Ich schaue jeden Abend die Nachrichten"], "audio": "Ich schaue jeden Abend die Nachrichten.", "explain": "die Nachrichten es plural, con el artículo die, no das." },
+    { "id": "e20", "type": "mcq", "tags": ["medios"], "difficulty": 2, "prompt": "«Ich lese die Zeitung online und schaue jeden Abend die Nachrichten. Ich finde, dass der neue Film gut ist, obwohl die Kritik schlecht war.» ¿Qué opina la persona sobre la película?", "options": ["Que es mala, como dice la crítica", "Que es buena, a pesar de la crítica negativa", "No tiene opinión", "Que no la ha visto"], "answer": 1, "explain": "«Ich finde, dass der neue Film gut ist, obwohl die Kritik schlecht war» = creo que la película es buena, aunque la crítica fue mala." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Zeitung", "es": "el periódico", "esApprox": "«TSÁI-tung»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Nachrichten", "es": "las noticias", "esApprox": "«NACH-rich-ten»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Sendung", "es": "el programa (de televisión)", "esApprox": "«ZÉN-dung»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Regisseur", "es": "el director (de cine)", "esApprox": "«re-shi-SÖR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Kritik", "es": "la crítica", "esApprox": "«kri-TIK»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "die Schlagzeile", "es": "el titular", "esApprox": "«SHLÁK-tsai-le»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich finde, dass der Film gut ist, obwohl die Kritik schlecht war, denn der Schauspieler spielt sehr gut.", "es": "Creo que la película es buena, aunque la crítica fue mala, porque el actor actúa muy bien.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich lese die Zeitung online, und die Schlagzeile heute ist wirklich schockierend.", "es": "Leo el periódico en línea, y el titular de hoy es realmente impactante.", "from": "e16" }
+  ]
+}
