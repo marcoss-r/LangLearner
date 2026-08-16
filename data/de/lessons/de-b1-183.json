@@ -1,0 +1,87 @@
+{
+  "id": "de-b1-183",
+  "lang": "de",
+  "level": "B1",
+  "order": 183,
+  "title": "Wenn-Sätze sin wenn: invertir el orden para condicionar",
+  "objectives": [
+    "Formar condicionales irreales sin wenn, moviendo el verbo conjugado a la posición 1",
+    "Aplicar esta inversión tanto a la condicional del presente como a la del pasado",
+    "Reconocer este registro como más formal y literario que la wenn-frase estándar"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Sin wenn: el verbo al principio hace de conjunción",
+      "body": "En un registro más formal o escrito, se puede omitir wenn y colocar el verbo conjugado en Konjunktiv II directamente en la posición 1: «Hätte ich Zeit, würde ich reisen» en vez de «Wenn ich Zeit hätte, würde ich reisen». El significado es idéntico; solo cambia el registro, que se vuelve más elegante y compacto.",
+      "examples": [
+        { "target": "Hätte ich Zeit, würde ich reisen.", "es": "Si tuviera tiempo, viajaría." },
+        { "target": "Wäre ich reich, würde ich ein Haus kaufen.", "es": "Si fuera rico, compraría una casa." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Con wenn vs. sin wenn",
+      "headers": ["Con wenn (estándar)", "Sin wenn (formal/literario)"],
+      "rows": [
+        ["Wenn ich Zeit hätte, würde ich reisen.", "Hätte ich Zeit, würde ich reisen."],
+        ["Wenn ich reich wäre, würde ich reisen.", "Wäre ich reich, würde ich reisen."],
+        ["Wenn ich das gewusst hätte, wäre ich nicht gekommen.", "Hätte ich das gewusst, wäre ich nicht gekommen."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Esta inversión también se usa en el pasado hipotético (clase 179): «Hätte ich das gewusst, wäre ich nicht gekommen» (De haberlo sabido, no habría venido). Es un recurso muy usado en textos formales, artículos de opinión y discursos, pero también aparece en la conversación cuidada."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "hätte ich Zeit", "es": "si tuviera tiempo (sin wenn)", "ipa": "/ˈhɛtə ɪç tsaɪ̯t/", "esApprox": "«JÉ-te ich tsait»", "pos": "locución condicional (inversión)", "gender": null, "example": { "target": "Hätte ich Zeit, würde ich reisen.", "es": "Si tuviera tiempo, viajaría." } },
+    { "id": "v2", "target": "wäre ich reich", "es": "si fuera rico (sin wenn)", "ipa": "/ˈvɛːʁə ɪç ʁaɪ̯ç/", "esApprox": "«VÉ-re ich raij»", "pos": "locución condicional (inversión)", "gender": null, "example": { "target": "Wäre ich reich, würde ich ein Haus kaufen.", "es": "Si fuera rico, compraría una casa." } },
+    { "id": "v3", "target": "das Register", "es": "el registro (lingüístico)", "ipa": "/ʁeˈɡɪstɐ/", "esApprox": "«re-GUÍS-ter»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das ist ein formelles Register.", "es": "Ese es un registro formal." } },
+    { "id": "v4", "target": "formell", "es": "formal", "ipa": "/fɔʁˈmɛl/", "esApprox": "«for-MEL»", "pos": "adjetivo", "gender": null, "example": { "target": "Diese Form klingt formeller.", "es": "Esta forma suena más formal." } },
+    { "id": "v5", "target": "auslassen", "es": "omitir", "ipa": "/ˈaʊ̯slasn̩/", "esApprox": "«ÁUS-la-sen»", "pos": "verbo", "gender": null, "example": { "target": "Man lässt wenn einfach aus.", "es": "Se omite wenn sin más." } },
+    { "id": "v6", "target": "der Diskurs", "es": "el discurso", "ipa": "/dɪsˈkʊʁs/", "esApprox": "«dis-KURS»", "pos": "sustantivo", "gender": "m", "example": { "target": "In diesem Diskurs klingt es elegant.", "es": "En este discurso suena elegante." } },
+    { "id": "v7", "target": "die Zeitung", "es": "el periódico", "ipa": "/ˈtsaɪ̯tʊŋ/", "esApprox": "«TSÁI-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "In der Zeitung liest man das oft.", "es": "En el periódico se lee eso a menudo." } },
+    { "id": "v8", "target": "kompakt", "es": "compacto", "ipa": "/kɔmˈpakt/", "esApprox": "«kom-PAKT»", "pos": "adjetivo", "gender": null, "example": { "target": "Diese Form ist kompakter.", "es": "Esta forma es más compacta." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["konjunktiv-ii", "wenn", "orden-palabras"], "difficulty": 1, "prompt": "¿Qué posición ocupa el verbo en «Hätte ich Zeit, würde ich reisen»?", "options": ["Posición 2", "Al final", "Posición 1", "No lleva verbo"], "answer": 2, "explain": "Sin wenn, el verbo conjugado se mueve a la posición 1." },
+    { "id": "e2", "type": "mcq", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "¿Qué cambia entre «Wenn ich Zeit hätte» y «Hätte ich Zeit»?", "options": ["El significado", "Solo el registro, no el significado", "El tiempo verbal", "El caso"], "answer": 1, "explain": "Ambas formas significan lo mismo; solo cambia el registro (más formal sin wenn)." },
+    { "id": "e3", "type": "true_false", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "statement": "Esta inversión también funciona en el pasado hipotético.", "answer": true, "explain": "Hätte ich das gewusst, wäre ich nicht gekommen: inversión en pasado." },
+    { "id": "e4", "type": "true_false", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "statement": "Sin wenn, la frase principal también pierde su würde/wäre.", "answer": false, "explain": "La frase principal mantiene su forma normal (würde/wäre + resto); solo cambia la primera parte." },
+    { "id": "e5", "type": "match_pairs", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Une cada frase con wenn con su versión sin wenn", "left": ["Wenn ich Zeit hätte,", "Wenn ich reich wäre,", "Wenn ich das gewusst hätte,"], "right": ["Hätte ich Zeit,", "Wäre ich reich,", "Hätte ich das gewusst,"], "answer": [0, 1, 2], "explain": "El verbo se mueve a la posición 1 y wenn desaparece." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Si tuviera tiempo, viajaría. (sin wenn)", "accept": ["Hätte ich Zeit, würde ich reisen"], "hintWords": ["hätte ich Zeit würde ich reisen"], "strictAccents": false, "audio": "Hätte ich Zeit, würde ich reisen.", "explain": "Hätte (posición 1) + ich + Zeit, (coma) + würde ich reisen." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Si fuera rico, compraría una casa. (sin wenn)", "accept": ["Wäre ich reich, würde ich ein Haus kaufen"], "hintWords": ["wäre ich reich würde ich ein Haus kaufen"], "strictAccents": false, "audio": "Wäre ich reich, würde ich ein Haus kaufen.", "explain": "Wäre (posición 1) + ich + reich, (coma) + würde ich ein Haus kaufen." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "De haberlo sabido, no habría venido.", "accept": ["Hätte ich das gewusst, wäre ich nicht gekommen"], "hintWords": ["hätte ich das gewusst wäre ich nicht gekommen"], "strictAccents": false, "audio": "Hätte ich das gewusst, wäre ich nicht gekommen.", "explain": "Hätte (posición 1) + ich + das + gewusst, (coma) + wäre ich nicht gekommen." },
+    { "id": "e9", "type": "fill_blank", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Completa la condicional invertida", "text": "___ ich Zeit, würde ich reisen. ___ ich reich, würde ich ein Haus kaufen.", "blanks": [{ "accept": ["Hätte"] }, { "accept": ["Wäre"] }], "bank": ["Hätte", "Wäre", "Wenn"], "explain": "Hätte y Wäre: el verbo conjugado ocupa la posición 1 sin wenn." },
+    { "id": "e10", "type": "word_order", "tags": ["konjunktiv-ii", "orden-palabras"], "difficulty": 2, "prompt": "Ordena: «Esta forma es más compacta»", "tokens": ["ist kompakter", "Diese Form"], "answer": ["Diese Form", "ist kompakter"], "audio": "Diese Form ist kompakter.", "explain": "Diese Form (sujeto) + ist (posición 2) + kompakter." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "In der Zeitung liest man das oft.", "accept": ["En el periódico se lee eso a menudo."], "strictAccents": false, "audio": "In der Zeitung liest man das oft.", "explain": "die Zeitung y man (repaso de la clase 169)." },
+    { "id": "e12", "type": "dialogue", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was würdest du machen, wenn du reich wärst?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Wäre ich reich, würde ich ein Haus kaufen."], "hint": "responde usando la inversión sin wenn" },
+      { "who": "Lea", "text": "Guter Plan!", "speak": true }
+    ], "explain": "Práctica de la inversión condicional en un registro más elaborado." },
+    { "id": "e13", "type": "listening", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 1, "speak": "Hätte ich Zeit, würde ich reisen.", "mode": "write", "accept": ["Hätte ich Zeit, würde ich reisen"], "showTextAfter": true, "explain": "Condicional invertida sin wenn." },
+    { "id": "e14", "type": "listening", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "speak": "Hätte ich das gewusst, wäre ich nicht gekommen.", "mode": "choose", "options": ["Hätte ich das gewusst, wäre ich nicht gekommen.", "Wenn hätte ich das gewusst, wäre ich nicht gekommen.", "Ich hätte das gewusst, wäre ich nicht gekommen."], "answer": 0, "showTextAfter": true, "explain": "Sin wenn, el verbo va directamente en posición 1, sin repetir wenn ni el sujeto antes." },
+    { "id": "e15", "type": "shadowing", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "speak": "Hätte ich Zeit, würde ich reisen; wäre ich reich, würde ich sogar ein Haus kaufen.", "es": "Si tuviera tiempo, viajaría; si fuera rico, incluso compraría una casa.", "ipa": "/ˈhɛtə ɪç tsaɪ̯t ˈvʏʁdə ɪç ˈʁaɪ̯zn̩ ˈvɛːʁə ɪç ʁaɪ̯ç ˈvʏʁdə ɪç ˈzoːɡaɐ̯ aɪ̯n haʊ̯s ˈkaʊ̯fn̩/", "esApprox": "«JÉ-te ich tsait, VUR-de ich RÁI-zen; VÉ-re ich raij, VUR-de ich ZÓ-gar ain jaus KÁUF-en»", "focus": "Hätte ich y wäre ich: dos condicionales invertidas seguidas, un registro elegante y compacto.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "speak": "Hätte ich das gewusst, wäre ich nicht gekommen; in der Zeitung liest man solche Formen oft.", "es": "De haberlo sabido, no habría venido; en el periódico se leen a menudo formas así.", "ipa": "/ˈhɛtə ɪç das ɡəˈvʊst ˈvɛːʁə ɪç nɪçt ɡəˈkɔmən ɪn deːɐ̯ ˈtsaɪ̯tʊŋ liːst man ˈzɔlçə ˈfɔʁmən ɔft/", "esApprox": "«JÉ-te ich das ge-VUST, VÉ-re ich nicht ge-KÓ-men; in der TSÁI-tung list man ZÓL-che FOR-men oft»", "focus": "Hätte ich...gewusst: la inversión en el pasado hipotético, típica de textos escritos.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Te preguntan qué harías si tuvieras tiempo. Responde con la forma invertida sin wenn.", "modelAnswer": "Hätte ich Zeit, würde ich reisen.", "alsoValid": ["Wenn ich Zeit hätte, würde ich reisen."], "speak": "Hätte ich Zeit, würde ich reisen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Clasifica cada frase: con wenn o sin wenn", "buckets": ["Con wenn", "Sin wenn (inversión)"], "items": [
+      { "text": "Wenn ich Zeit hätte, würde ich reisen.", "bucket": 0 },
+      { "text": "Hätte ich Zeit, würde ich reisen.", "bucket": 1 },
+      { "text": "Wäre ich reich, würde ich reisen.", "bucket": 1 }
+    ], "explain": "Sin wenn, el verbo conjugado abre la frase directamente." },
+    { "id": "e19", "type": "error_correction", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wenn hätte ich Zeit, würde ich reisen.", "accept": ["Hätte ich Zeit, würde ich reisen"], "audio": "Hätte ich Zeit, würde ich reisen.", "explain": "No se puede combinar wenn con la inversión: o se usa wenn, o se invierte el verbo, nunca ambos." },
+    { "id": "e20", "type": "mcq", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "«Hätte ich das gewusst, wäre ich nicht gekommen. In der Zeitung liest man solche Formen oft, weil sie kompakter und formeller klingen.» ¿Por qué se usan estas formas en el periódico?", "options": ["Porque son más largas", "Porque suenan más compactas y formales", "Porque son incorrectas pero comunes", "Porque son más fáciles de leer en voz alta"], "answer": 1, "explain": "«kompakter und formeller klingen» explica por qué se prefieren en textos escritos." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "hätte ich Zeit", "es": "si tuviera tiempo (sin wenn)", "esApprox": "«JÉ-te ich tsait»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "wäre ich reich", "es": "si fuera rico (sin wenn)", "esApprox": "«VÉ-re ich raij»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Register", "es": "el registro (lingüístico)", "esApprox": "«re-GUÍS-ter»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "formell", "es": "formal", "esApprox": "«for-MEL»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "auslassen", "es": "omitir", "esApprox": "«ÁUS-la-sen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "kompakt", "es": "compacto", "esApprox": "«kom-PAKT»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Hätte ich Zeit, würde ich reisen; wäre ich reich, würde ich sogar ein Haus kaufen.", "es": "Si tuviera tiempo, viajaría; si fuera rico, incluso compraría una casa.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Hätte ich das gewusst, wäre ich nicht gekommen; in der Zeitung liest man solche Formen oft.", "es": "De haberlo sabido, no habría venido; en el periódico se leen a menudo formas así.", "from": "e16" }
+  ]
+}

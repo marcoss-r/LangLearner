@@ -1,0 +1,87 @@
+{
+  "id": "de-b1-182",
+  "lang": "de",
+  "level": "B1",
+  "order": 182,
+  "title": "La cortesía avanzada: peticiones y preguntas indirectas corteses",
+  "objectives": [
+    "Combinar el Konjunktiv II con preguntas indirectas (ob, W-Fragen) para pedir información con máxima cortesía",
+    "Usar fórmulas introductorias como «Könnten Sie mir sagen...» y «Ich wollte fragen...»",
+    "Reconocer wüssten Sie como una alternativa muy educada a wissen Sie"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Preguntas dentro de preguntas: la cortesía máxima",
+      "body": "Ya sabes preguntar con cortesía usando könnte y hätten Sie (clase 160), y ya sabes formar preguntas indirectas con ob y W-Fragen (clases 129-130). El B1 combina ambos recursos: en vez de preguntar directamente «Wo ist der Bahnhof?», puedes envolver la pregunta dentro de una fórmula educada: «Könnten Sie mir sagen, wo der Bahnhof ist?» (¿Podría decirme dónde está la estación?), con el verbo de la pregunta indirecta al final, como en cualquier subordinada.",
+      "examples": [
+        { "target": "Könnten Sie mir sagen, wo der Bahnhof ist?", "es": "¿Podría decirme dónde está la estación?" },
+        { "target": "Ich wollte fragen, ob Sie mir helfen könnten.", "es": "Quería preguntar si podría ayudarme." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas de cortesía con pregunta indirecta",
+      "headers": ["Fórmula", "Ejemplo"],
+      "rows": [
+        ["Könnten Sie mir sagen, + W-Frage/ob...?", "Könnten Sie mir sagen, wie das funktioniert?"],
+        ["Ich wollte fragen, ob...", "Ich wollte fragen, ob Sie Zeit hätten."],
+        ["Wüssten Sie vielleicht, + W-Frage?", "Wüssten Sie vielleicht, wann der Zug kommt?"],
+        ["Dürfte ich fragen, + W-Frage?", "Dürfte ich fragen, warum Sie das denken?"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Fíjate en que estas preguntas «envueltas» ya no llevan el orden de pregunta directa (verbo-sujeto), sino el orden de subordinada (verbo al final), exactamente igual que aprendiste con ob y las W-Fragen indirectas en el A2."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "könnten Sie mir sagen", "es": "podría decirme", "ipa": "/ˈkœntn̩ ziː miːɐ̯ ˈzaːɡn̩/", "esApprox": "«KÖN-ten zi mir ZÁ-guen»", "pos": "locución cortés", "gender": null, "example": { "target": "Könnten Sie mir sagen, wo der Bahnhof ist?", "es": "¿Podría decirme dónde está la estación?" } },
+    { "id": "v2", "target": "ich wollte fragen", "es": "quería preguntar", "ipa": "/ɪç ˈvɔltə ˈfʁaːɡn̩/", "esApprox": "«ich VÓL-te FRÁ-guen»", "pos": "locución cortés", "gender": null, "example": { "target": "Ich wollte fragen, ob Sie mir helfen könnten.", "es": "Quería preguntar si podría ayudarme." } },
+    { "id": "v3", "target": "wüssten Sie", "es": "sabría usted", "ipa": "/ˈvʏstn̩ ziː/", "esApprox": "«VÜS-ten zi»", "pos": "locución cortés", "gender": null, "example": { "target": "Wüssten Sie vielleicht, wann der Zug kommt?", "es": "¿Sabría usted quizás cuándo llega el tren?" } },
+    { "id": "v4", "target": "dürfte ich fragen", "es": "podría preguntar (permiso)", "ipa": "/ˈdʏʁftə ɪç ˈfʁaːɡn̩/", "esApprox": "«DÚRF-te ich FRÁ-guen»", "pos": "locución cortés", "gender": null, "example": { "target": "Dürfte ich fragen, warum Sie das denken?", "es": "¿Podría preguntar por qué piensa eso?" } },
+    { "id": "v5", "target": "die Auskunft", "es": "la información", "ipa": "/ˈaʊ̯skʊnft/", "esApprox": "«ÁUS-kunft»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich brauche eine Auskunft.", "es": "Necesito información." } },
+    { "id": "v6", "target": "der Bahnhof", "es": "la estación de tren", "ipa": "/ˈbaːnhoːf/", "esApprox": "«BÁN-jof»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wo ist der Bahnhof?", "es": "¿Dónde está la estación?" } },
+    { "id": "v7", "target": "funktionieren", "es": "funcionar", "ipa": "/fʊŋktsi̯oˈniːʁən/", "esApprox": "«funk-tsio-NÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Könnten Sie mir sagen, wie das funktioniert?", "es": "¿Podría decirme cómo funciona esto?" } },
+    { "id": "v8", "target": "unverbindlich", "es": "sin compromiso", "ipa": "/ˈʊnfɛɐ̯bɪntlɪç/", "esApprox": "«ÚN-fer-bint-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist nur eine unverbindliche Frage.", "es": "Es solo una pregunta sin compromiso." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 1, "prompt": "¿Qué orden lleva el verbo en «Könnten Sie mir sagen, wo der Bahnhof ist?»?", "options": ["Verbo-sujeto, como en pregunta directa", "Verbo al final, como en subordinada", "No hay verbo", "Verbo en posición 1"], "answer": 1, "explain": "wo der Bahnhof ist: pregunta indirecta, verbo al final." },
+    { "id": "e2", "type": "mcq", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "¿Qué conjunción se usa para preguntas indirectas de sí/no dentro de una fórmula cortés?", "options": ["dass", "ob", "wenn", "weil"], "answer": 1, "explain": "Ich wollte fragen, ob Sie Zeit hätten: ob introduce la pregunta indirecta de sí/no." },
+    { "id": "e3", "type": "true_false", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "statement": "«wüssten Sie» es más educado que «wissen Sie».", "answer": true, "explain": "wüssten (Konjunktiv II) es más cortés que wissen (presente)." },
+    { "id": "e4", "type": "true_false", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "statement": "Estas fórmulas de cortesía solo funcionan con preguntas de sí/no, nunca con W-Fragen.", "answer": false, "explain": "Funcionan tanto con ob como con W-Fragen (wo, wann, warum...)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "Une cada fórmula con su ejemplo", "left": ["Könnten Sie mir sagen...?", "Ich wollte fragen...", "Wüssten Sie vielleicht...?", "Dürfte ich fragen...?"], "right": ["wie das funktioniert?", "ob Sie Zeit hätten.", "wann der Zug kommt?", "warum Sie das denken?"], "answer": [0, 1, 2, 3], "explain": "Cuatro fórmulas de cortesía avanzada con pregunta indirecta." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "¿Podría decirme dónde está la estación?", "accept": ["Könnten Sie mir sagen, wo der Bahnhof ist?"], "hintWords": ["könnten sie mir sagen wo der Bahnhof ist"], "strictAccents": false, "audio": "Könnten Sie mir sagen, wo der Bahnhof ist?", "explain": "Könnten Sie mir sagen, + wo + der Bahnhof + ist (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "Quería preguntar si podría ayudarme.", "accept": ["Ich wollte fragen, ob Sie mir helfen könnten"], "hintWords": ["ich wollte fragen ob sie mir helfen könnten"], "strictAccents": false, "audio": "Ich wollte fragen, ob Sie mir helfen könnten.", "explain": "Ich wollte fragen, + ob + Sie + mir + helfen + könnten (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "¿Sabría usted quizás cuándo llega el tren?", "accept": ["Wüssten Sie vielleicht, wann der Zug kommt?"], "hintWords": ["wüssten sie vielleicht wann der Zug kommt"], "strictAccents": false, "audio": "Wüssten Sie vielleicht, wann der Zug kommt?", "explain": "Wüssten Sie vielleicht, + wann + der Zug + kommt (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "___ Sie mir sagen, wie das funktioniert? Ich wollte fragen, ___ Sie Zeit hätten.", "blanks": [{ "accept": ["Könnten"] }, { "accept": ["ob"] }], "bank": ["Könnten", "ob", "dass"], "explain": "Könnten Sie...? y ob para la pregunta indirecta de sí/no." },
+    { "id": "e10", "type": "word_order", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "Ordena: «¿Podría preguntar por qué piensa eso?»", "tokens": ["warum Sie das denken?", "Dürfte ich fragen,"], "answer": ["Dürfte ich fragen,", "warum Sie das denken?"], "audio": "Dürfte ich fragen, warum Sie das denken?", "explain": "Dürfte ich fragen, + warum + Sie + das + denken (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "Ich brauche eine Auskunft.", "accept": ["Necesito información."], "strictAccents": false, "audio": "Ich brauche eine Auskunft.", "explain": "die Auskunft = la información." },
+    { "id": "e12", "type": "dialogue", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Toi", "blank": true, "accept": ["Könnten Sie mir sagen, wo der Bahnhof ist?"], "hint": "pregunta con cortesía dónde está la estación" },
+      { "who": "Passant", "text": "Ja, gerne! Gehen Sie hier links.", "speak": true }
+    ], "explain": "Könnten Sie mir sagen...?: la fórmula más natural para pedir información en la calle." },
+    { "id": "e13", "type": "listening", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 1, "speak": "Könnten Sie mir sagen, wo der Bahnhof ist?", "mode": "write", "accept": ["Könnten Sie mir sagen, wo der Bahnhof ist?"], "showTextAfter": true, "explain": "Fórmula cortés con pregunta indirecta." },
+    { "id": "e14", "type": "listening", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "speak": "Ich wollte fragen, ob Sie mir helfen könnten.", "mode": "choose", "options": ["Ich wollte fragen, ob Sie mir helfen könnten.", "Ich wollte fragen, ob Sie mir helfen können.", "Ich wollte fragen, dass Sie mir helfen könnten."], "answer": 0, "showTextAfter": true, "explain": "könnten (Konjunktiv II) es más educado que können, y la pregunta indirecta va con ob, no dass." },
+    { "id": "e15", "type": "shadowing", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "speak": "Entschuldigung, könnten Sie mir sagen, wo der Bahnhof ist? Ich wollte auch fragen, wann der nächste Zug fährt.", "es": "Disculpe, ¿podría decirme dónde está la estación? También quería preguntar cuándo sale el próximo tren.", "ipa": "/ɛntˈʃʊldɪɡʊŋ ˈkœntn̩ ziː miːɐ̯ ˈzaːɡn̩ voː deːɐ̯ ˈbaːnhoːf ɪst ɪç ˈvɔltə aʊ̯x ˈfʁaːɡn̩ van deːɐ̯ ˈneːçstə tsuːk ˈfɛːʁt/", "esApprox": "«ent-SHÚL-di-gung, KÖN-ten zi mir ZÁ-guen, vo der BÁN-jof ist? ich VÓL-te aoj FRÁ-guen, van der NÉCH-ste tsuk fert»", "focus": "Könnten Sie mir sagen y ich wollte fragen: dos fórmulas de cortesía encadenadas en una situación real.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "speak": "Wüssten Sie vielleicht, wie das funktioniert? Dürfte ich fragen, ob Sie mir eine kurze Auskunft geben könnten?", "es": "¿Sabría usted quizás cómo funciona esto? ¿Podría preguntar si podría darme una breve información?", "ipa": "/ˈvʏstn̩ ziː fiˈlaɪ̯çt viː das fʊŋktsi̯oˈniːʁt ˈdʏʁftə ɪç ˈfʁaːɡn̩ ɔp ziː miːɐ̯ ˈaɪ̯nə ˈkʊʁtsə ˈaʊ̯skʊnft ˈɡeːbn̩ ˈkœntn̩/", "esApprox": "«VÜS-ten zi fi-LÁICHT, vi das funk-tsio-NIRT? DÚRF-te ich FRÁ-guen, op zi mir ÁI-ne KUR-tse ÁUS-kunft GUÉ-ben KÖN-ten?»", "focus": "wüssten Sie y dürfte ich fragen: el nivel más alto de cortesía con doble pregunta indirecta.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "Estás perdido en la calle. Pregunta con máxima cortesía dónde está la estación.", "modelAnswer": "Könnten Sie mir sagen, wo der Bahnhof ist?", "alsoValid": ["Wüssten Sie vielleicht, wo der Bahnhof ist?"], "speak": "Könnten Sie mir sagen, wo der Bahnhof ist?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "Clasifica cada pregunta según su tipo", "buckets": ["Pregunta indirecta con ob", "Pregunta indirecta con W-Frage"], "items": [
+      { "text": "Ich wollte fragen, ob Sie Zeit hätten.", "bucket": 0 },
+      { "text": "Könnten Sie mir sagen, wo der Bahnhof ist?", "bucket": 1 },
+      { "text": "Wüssten Sie vielleicht, wann der Zug kommt?", "bucket": 1 }
+    ], "explain": "ob introduce preguntas de sí/no; las W-Fragen (wo, wann...) introducen preguntas con palabra interrogativa." },
+    { "id": "e19", "type": "error_correction", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Könnten Sie mir sagen, wo ist der Bahnhof?", "accept": ["Könnten Sie mir sagen, wo der Bahnhof ist?"], "audio": "Könnten Sie mir sagen, wo der Bahnhof ist?", "explain": "En la pregunta indirecta, el verbo va al final (ist), no en posición 2 como en la pregunta directa." },
+    { "id": "e20", "type": "mcq", "tags": ["konjunktiv-ii", "cortesia"], "difficulty": 2, "prompt": "«Entschuldigung, könnten Sie mir sagen, wo der Bahnhof ist? Ich wollte auch fragen, ob es von hier weit ist.» ¿Qué busca la persona?", "options": ["Comprar un billete", "Encontrar la estación y saber si está lejos", "Preguntar la hora", "Pedir un café"], "answer": 1, "explain": "«wo der Bahnhof ist» y «ob es von hier weit ist» son las dos preguntas indirectas." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "könnten Sie mir sagen", "es": "podría decirme", "esApprox": "«KÖN-ten zi mir ZÁ-guen»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "ich wollte fragen", "es": "quería preguntar", "esApprox": "«ich VÓL-te FRÁ-guen»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "wüssten Sie", "es": "sabría usted", "esApprox": "«VÜS-ten zi»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "dürfte ich fragen", "es": "podría preguntar (permiso)", "esApprox": "«DÚRF-te ich FRÁ-guen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Auskunft", "es": "la información", "esApprox": "«ÁUS-kunft»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Bahnhof", "es": "la estación de tren", "esApprox": "«BÁN-jof»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Entschuldigung, könnten Sie mir sagen, wo der Bahnhof ist? Ich wollte auch fragen, wann der nächste Zug fährt.", "es": "Disculpe, ¿podría decirme dónde está la estación? También quería preguntar cuándo sale el próximo tren.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wüssten Sie vielleicht, wie das funktioniert? Dürfte ich fragen, ob Sie mir eine kurze Auskunft geben könnten?", "es": "¿Sabría usted quizás cómo funciona esto? ¿Podría preguntar si podría darme una breve información?", "from": "e16" }
+  ]
+}

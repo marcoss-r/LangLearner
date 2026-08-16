@@ -1,0 +1,91 @@
+{
+  "id": "de-b1-176",
+  "lang": "de",
+  "level": "B1",
+  "order": 176,
+  "title": "El Konjunktiv II con forma propia: ich käme, ich wüsste",
+  "objectives": [
+    "Formar el Konjunktiv II propio de verbos fuertes frecuentes (kommen, wissen, gehen, geben...)",
+    "Reconocer que se construye a partir del Präteritum + Umlaut (si es posible) + terminaciones -e/-est/-e/-en/-et/-en",
+    "Distinguir estas formas propias de las conjugaciones del Präteritum, que comparten raíz pero no significado"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El Konjunktiv II propio: más allá de wäre, hätte, würde",
+      "body": "En el A2 aprendiste el Konjunktiv II de sein, haben y werden, y la construcción würde + infinitivo para el resto de verbos (clases 158-159). Algunos verbos fuertes muy frecuentes conservan además su propia forma de Konjunktiv II, formada a partir de la raíz del Präteritum, con Umlaut cuando la vocal lo permite, y las terminaciones -e, -est, -e, -en, -et, -en. «Ich käme gern» (Vendría con gusto) suena más elegante y literario que «Ich würde gern kommen».",
+      "examples": [
+        { "target": "Ich käme gern, aber ich habe keine Zeit.", "es": "Vendría con gusto, pero no tengo tiempo." },
+        { "target": "Ich wüsste gern, wie das funktioniert.", "es": "Me gustaría saber cómo funciona eso." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos fuertes con Konjunktiv II propio",
+      "headers": ["Infinitivo", "Präteritum", "Konjunktiv II (ich)"],
+      "rows": [
+        ["kommen", "kam", "käme"],
+        ["wissen", "wusste", "wüsste"],
+        ["gehen", "ging", "ginge"],
+        ["geben", "gab", "gäbe"],
+        ["lassen", "ließ", "ließe"],
+        ["finden", "fand", "fände"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No confundas «ich kam» (Präteritum: yo vine, un hecho real y pasado) con «ich käme» (Konjunktiv II: yo vendría, algo hipotético): la diferencia está en el Umlaut y en el contexto de la frase."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "käme", "es": "vendría", "ipa": "/ˈkɛːmə/", "esApprox": "«KÉ-me»", "pos": "verbo (Konjunktiv II de kommen)", "gender": null, "example": { "target": "Ich käme gern, aber ich habe keine Zeit.", "es": "Vendría con gusto, pero no tengo tiempo." } },
+    { "id": "v2", "target": "wüsste", "es": "sabría", "ipa": "/ˈvʏstə/", "esApprox": "«VÜS-te»", "pos": "verbo (Konjunktiv II de wissen)", "gender": null, "example": { "target": "Ich wüsste gern, wie das funktioniert.", "es": "Me gustaría saber cómo funciona eso." } },
+    { "id": "v3", "target": "ginge", "es": "iría", "ipa": "/ˈɡɪŋə/", "esApprox": "«GUÍN-ge»", "pos": "verbo (Konjunktiv II de gehen)", "gender": null, "example": { "target": "Das ginge auch anders.", "es": "Eso también podría hacerse de otra manera." } },
+    { "id": "v4", "target": "gäbe", "es": "daría, habría", "ipa": "/ˈɡɛːbə/", "esApprox": "«GUÉ-be»", "pos": "verbo (Konjunktiv II de geben)", "gender": null, "example": { "target": "Es gäbe eine bessere Lösung.", "es": "Habría una solución mejor." } },
+    { "id": "v5", "target": "ließe", "es": "dejaría", "ipa": "/ˈliːsə/", "esApprox": "«LÍ-se»", "pos": "verbo (Konjunktiv II de lassen)", "gender": null, "example": { "target": "Ich ließe das lieber sein.", "es": "Preferiría dejarlo estar." } },
+    { "id": "v6", "target": "fände", "es": "encontraría", "ipa": "/ˈfɛndə/", "esApprox": "«FÉN-de»", "pos": "verbo (Konjunktiv II de finden)", "gender": null, "example": { "target": "Ich fände das schade.", "es": "Me parecería una pena." } },
+    { "id": "v7", "target": "die Lösung", "es": "la solución", "ipa": "/ˈløːzʊŋ/", "esApprox": "«LÖ-zung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Es gäbe eine bessere Lösung.", "es": "Habría una solución mejor." } },
+    { "id": "v8", "target": "schade", "es": "una pena, una lástima", "ipa": "/ˈʃaːdə/", "esApprox": "«SHÁ-de»", "pos": "adjetivo predicativo", "gender": null, "example": { "target": "Ich fände das schade.", "es": "Me parecería una pena." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["konjunktiv-ii"], "difficulty": 1, "prompt": "¿Cuál es el Konjunktiv II propio de «kommen» para «ich»?", "options": ["kam", "käme", "komme", "würde kommen"], "answer": 1, "explain": "kommen → kam (Präteritum) → käme (Konjunktiv II, con Umlaut)." },
+    { "id": "e2", "type": "mcq", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "¿A partir de qué tiempo se forma el Konjunktiv II propio?", "options": ["Presente", "Perfekt", "Präteritum", "Infinitivo"], "answer": 2, "explain": "Se forma sobre la raíz del Präteritum, añadiendo Umlaut (si es posible) y las terminaciones propias." },
+    { "id": "e3", "type": "true_false", "tags": ["konjunktiv-ii"], "difficulty": 2, "statement": "«Ich kam» y «Ich käme» significan lo mismo.", "answer": false, "explain": "Ich kam (Präteritum) = vine, un hecho real; Ich käme (Konjunktiv II) = vendría, algo hipotético." },
+    { "id": "e4", "type": "true_false", "tags": ["konjunktiv-ii"], "difficulty": 2, "statement": "Todos los verbos fuertes con Umlaut posible lo añaden en el Konjunktiv II.", "answer": true, "explain": "kam→käme, gab→gäbe, fand→fände: el Umlaut aparece siempre que la vocal del Präteritum lo permite." },
+    { "id": "e5", "type": "match_pairs", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Une cada infinitivo con su Konjunktiv II (ich)", "left": ["kommen", "wissen", "gehen", "geben"], "right": ["käme", "wüsste", "ginge", "gäbe"], "answer": [0, 1, 2, 3], "explain": "Formas propias del Konjunktiv II de estos cuatro verbos frecuentes." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Vendría con gusto, pero no tengo tiempo.", "accept": ["Ich käme gern, aber ich habe keine Zeit"], "hintWords": ["ich käme gern aber ich habe keine Zeit"], "strictAccents": false, "audio": "Ich käme gern, aber ich habe keine Zeit.", "explain": "käme + gern: forma propia de kommen en Konjunktiv II." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Me gustaría saber cómo funciona eso.", "accept": ["Ich wüsste gern, wie das funktioniert"], "hintWords": ["ich wüsste gern wie das funktioniert"], "strictAccents": false, "audio": "Ich wüsste gern, wie das funktioniert.", "explain": "wüsste gern + subordinada con wie." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Habría una solución mejor.", "accept": ["Es gäbe eine bessere Lösung"], "hintWords": ["es gäbe eine bessere Lösung"], "strictAccents": false, "audio": "Es gäbe eine bessere Lösung.", "explain": "es gäbe: forma propia de geben en Konjunktiv II, con el es impersonal (repaso de la clase 168)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Completa con la forma correcta", "text": "Ich ___ das lieber sein. Ich ___ das schade.", "blanks": [{ "accept": ["ließe"] }, { "accept": ["fände"] }], "bank": ["ließe", "fände", "ging"], "explain": "ließe (lassen) y fände (finden)." },
+    { "id": "e10", "type": "word_order", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Ordena: «Eso también podría hacerse de otra manera»", "tokens": ["auch anders", "Das ginge"], "answer": ["Das ginge", "auch anders"], "audio": "Das ginge auch anders.", "explain": "Das (sujeto) + ginge (posición 2) + auch anders." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Ich fände das schade.", "accept": ["Me parecería una pena."], "strictAccents": false, "audio": "Ich fände das schade.", "explain": "fände + das + schade: opinión hipotética con finden." },
+    { "id": "e12", "type": "dialogue", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Kommst du morgen zur Party?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich käme gern, aber ich habe keine Zeit."], "hint": "usa el Konjunktiv II propio de kommen" },
+      { "who": "Lea", "text": "Schade!", "speak": true }
+    ], "explain": "käme gern: forma propia muy natural para rechazar una invitación con cortesía." },
+    { "id": "e13", "type": "listening", "tags": ["konjunktiv-ii"], "difficulty": 1, "speak": "Ich käme gern, aber ich habe keine Zeit.", "mode": "write", "accept": ["Ich käme gern, aber ich habe keine Zeit"], "showTextAfter": true, "explain": "käme + gern + aber + ich habe keine Zeit." },
+    { "id": "e14", "type": "listening", "tags": ["konjunktiv-ii"], "difficulty": 2, "speak": "Es gäbe eine bessere Lösung.", "mode": "choose", "options": ["Es gäbe eine bessere Lösung.", "Es gibt eine bessere Lösung.", "Es gab eine bessere Lösung."], "answer": 0, "showTextAfter": true, "explain": "gäbe (Konjunktiv II, hipotético) frente a gibt (presente, real) y gab (Präteritum, pasado real)." },
+    { "id": "e15", "type": "shadowing", "tags": ["konjunktiv-ii"], "difficulty": 2, "speak": "Ich käme gern zur Party, aber ich wüsste nicht, wie ich pünktlich fertig würde.", "es": "Vendría con gusto a la fiesta, pero no sabría cómo terminar a tiempo.", "ipa": "/ɪç ˈkɛːmə ɡɛʁn tsuːɐ̯ ˈpaʁti ˈaːbɐ ɪç ˈvʏstə nɪçt viː ɪç ˈpʏŋktlɪç ˈfɛʁtɪç ˈvʏʁdə/", "esApprox": "«ich KÉ-me guern tsur PÁR-ti, Á-ber ich VÜS-te nicht vi ich PÜNKT-lich FÉR-tich VUR-de»", "focus": "käme y wüsste: dos formas propias del Konjunktiv II en la misma frase, con matiz de disculpa.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["konjunktiv-ii"], "difficulty": 2, "speak": "Es gäbe eine bessere Lösung, und ich fände es schade, sie nicht zu versuchen.", "es": "Habría una solución mejor, y me parecería una pena no intentarla.", "ipa": "/ɛs ˈɡɛːbə ˈaɪ̯nə ˈbɛsɐʁə ˈløːzʊŋ ʊnt ɪç ˈfɛndə ɛs ˈʃaːdə ziː nɪçt tsuː fɛɐ̯ˈzuːxn̩/", "esApprox": "«es GUÉ-be ÁI-ne BÉ-se-re LÖ-zung, unt ich FÉN-de es SHÁ-de, zi nicht tsu fer-ZÚ-jen»", "focus": "gäbe y fände: dos formas propias que expresan una valoración hipotética.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Te invitan a una fiesta pero no puedes ir. Rechaza la invitación con cortesía usando käme.", "modelAnswer": "Ich käme gern, aber ich habe keine Zeit.", "alsoValid": ["Ich käme gern, aber ich kann nicht."], "speak": "Ich käme gern, aber ich habe keine Zeit.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Clasifica cada forma: Präteritum (real) o Konjunktiv II (hipotético)", "buckets": ["Präteritum (real)", "Konjunktiv II (hipotético)"], "items": [
+      { "text": "Ich kam gestern.", "bucket": 0 },
+      { "text": "Ich käme gern.", "bucket": 1 },
+      { "text": "Es gäbe eine Lösung.", "bucket": 1 },
+      { "text": "Es gab ein Problem.", "bucket": 0 }
+    ], "explain": "El Umlaut marca la diferencia: käme/gäbe (hipotético) frente a kam/gab (real, pasado)." },
+    { "id": "e19", "type": "error_correction", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich kame gern, aber ich habe keine Zeit.", "accept": ["Ich käme gern, aber ich habe keine Zeit"], "audio": "Ich käme gern, aber ich habe keine Zeit.", "explain": "El Konjunktiv II de kommen lleva Umlaut: käme, no kame." },
+    { "id": "e20", "type": "mcq", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "«Ich käme gern zur Party, aber ich wüsste nicht, wie ich pünktlich fertig würde. Es gäbe bestimmt eine Lösung, aber ich fände es stressig.» ¿Por qué duda la persona en ir?", "options": ["No le gusta la fiesta", "No sabe si llegaría a tiempo y le parece estresante", "No conoce a nadie", "No tiene invitación"], "answer": 1, "explain": "«wüsste nicht, wie ich pünktlich fertig würde» y «fände es stressig» explican la duda." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "käme", "es": "vendría", "esApprox": "«KÉ-me»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "wüsste", "es": "sabría", "esApprox": "«VÜS-te»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ginge", "es": "iría", "esApprox": "«GUÍN-ge»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "gäbe", "es": "daría, habría", "esApprox": "«GUÉ-be»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "ließe", "es": "dejaría", "esApprox": "«LÍ-se»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "fände", "es": "encontraría", "esApprox": "«FÉN-de»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich käme gern zur Party, aber ich wüsste nicht, wie ich pünktlich fertig würde.", "es": "Vendría con gusto a la fiesta, pero no sabría cómo terminar a tiempo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Es gäbe eine bessere Lösung, und ich fände es schade, sie nicht zu versuchen.", "es": "Habría una solución mejor, y me parecería una pena no intentarla.", "from": "e16" }
+  ]
+}
