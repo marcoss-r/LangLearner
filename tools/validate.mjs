@@ -354,7 +354,6 @@ function validateExam(exam, file, expectedLevel, lessonLevelById) {
     } else if (lessonLevelById.get(ex.sourceLesson) !== expectedLevel) {
       err(file, `${p}.sourceLesson`, `sourceLesson "${ex.sourceLesson}" pertenece al nivel ${lessonLevelById.get(ex.sourceLesson)}, no a ${expectedLevel}.`);
     }
-    if (!isArr(ex.tags)) err(file, `${p}.tags`, 'falta tags[].');
     validateExercise(ex, file, p);
   });
 }
