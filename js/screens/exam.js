@@ -18,7 +18,7 @@ import * as store from '../store.js';
 import { asyncScreen, emptyState, navigate, pct, formatDuration } from './parts.js';
 import {
   buildCtx, sessionShell, watchCanCheck, familyBreakdown, scoreHeadline,
-  statRow, resultActions, scrollToTop,
+  statRow, resultActions, scrollToTop, withReportFooter,
 } from './session.js';
 import { renderExercise } from '../exercises/index.js';
 
@@ -111,8 +111,18 @@ function buildExam(exam, examId, lang) {
 
   function step() {
     const instance = instanceAt(position);
+    const exercise = exercises[position];
     shell.setProgress(position + 1, exercises.length, 'Preguntas de la prueba');
-    shell.setBody(instance.el);
+    // Sin corrección inmediata (SPEC-DATOS §9) no hay `result.userAnswer`
+    // todavía: el botón de reporte copia `tuRespuesta: null` mientras se
+    // navega. `sourceLesson` es más útil aquí que `examId` para localizar qué
+    // JSON de contenido corregir.
+    shell.setBody(withReportFooter(instance.el, {
+      sourceId: exercise.sourceLesson,
+      exercise,
+      getAnswer: () => null,
+      extra: { examId },
+    }));
 
     const prevBtn = h('button', {
       type: 'button',
@@ -217,7 +227,7 @@ function buildExam(exam, examId, lang) {
       // ejercicio pintado con su corrección para el informe de abajo.
       const result = instance.check();
       const correct = !!result?.correct;
-      answers.push({ type: exercise.type, correct, exercise, instance });
+      answers.push({ type: exercise.type, correct, exercise, instance, userAnswer: result?.userAnswer ?? null });
 
       store.recordAnswer(lang, { type: exercise.type, tags: exercise.tags || [], correct });
 
@@ -255,7 +265,7 @@ function buildExam(exam, examId, lang) {
    Informe final
    ============================================================ */
 
-function buildReport({ exam, lang, answers, score, correct, total, byTag, durationMs }) {
+function buildReport({ exam, examId, lang, answers, score, correct, total, byTag, durationMs }) {
   const passScore = Number(exam.passScore ?? 0.7);
   const passed = score >= passScore;
 
@@ -273,7 +283,12 @@ function buildReport({ exam, lang, answers, score, correct, total, byTag, durati
   const detail = h('div', { class: 'exam-detail', hidden: true }, answers.map((answer, i) =>
     h('div', { class: `exam-detail__item${answer.correct ? '' : ' is-wrong'}` }, [
       h('div', { class: 'exam-detail__head' }, [`${i + 1}. ${answer.correct ? '✓' : '✗'}`]),
-      answer.instance.el,
+      withReportFooter(answer.instance.el, {
+        sourceId: answer.exercise.sourceLesson,
+        exercise: answer.exercise,
+        getAnswer: () => answer.userAnswer,
+        extra: { examId },
+      }),
     ])
   ));
 
