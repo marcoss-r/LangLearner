@@ -1,0 +1,87 @@
+{
+  "id": "de-b1-216",
+  "lang": "de",
+  "level": "B1",
+  "order": 216,
+  "title": "Las conjunciones dobles: sowohl...als auch, entweder...oder, weder...noch",
+  "objectives": [
+    "Usar sowohl...als auch para unir dos elementos afirmativos (tanto... como...)",
+    "Usar entweder...oder para presentar una alternativa exclusiva (o bien... o bien...)",
+    "Usar weder...noch para negar dos elementos a la vez (ni... ni...)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres conjunciones que van en pareja",
+      "body": "Estas tres conjunciones dobles unen dos elementos del mismo tipo (dos sustantivos, dos verbos, dos frases) con un matiz preciso: «sowohl...als auch» (tanto... como...) suma dos cosas afirmativas; «entweder...oder» (o bien... o bien...) presenta una alternativa; «weder...noch» (ni... ni...) niega ambos elementos a la vez, sin necesitar nicht ni kein adicional.",
+      "examples": [
+        { "target": "Ich spreche sowohl Deutsch als auch Englisch.", "es": "Hablo tanto alemán como inglés." },
+        { "target": "Weder er noch sie kommt heute.", "es": "Ni él ni ella vienen hoy." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las tres conjunciones dobles",
+      "headers": ["Conjunción", "Significado", "Ejemplo"],
+      "rows": [
+        ["sowohl...als auch", "tanto... como...", "sowohl Deutsch als auch Englisch"],
+        ["entweder...oder", "o bien... o bien...", "entweder heute oder morgen"],
+        ["weder...noch", "ni... ni...", "weder er noch sie"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "weder...noch ya incluye la negación: nunca añadas nicht o kein junto a esta conjunción. «Weder er noch sie kommt» es correcto; «Weder er noch sie kommt nicht» sería una doble negación incorrecta."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sowohl...als auch", "es": "tanto... como...", "ipa": "/zoˈvoːl als aʊ̯x/", "esApprox": "«zo-VOL als aoj»", "pos": "conjunción doble", "gender": null, "example": { "target": "Ich spreche sowohl Deutsch als auch Englisch.", "es": "Hablo tanto alemán como inglés." } },
+    { "id": "v2", "target": "entweder...oder", "es": "o bien... o bien...", "ipa": "/ɛntˈveːdɐ ˈoːdɐ/", "esApprox": "«ent-VÉ-der Ó-der»", "pos": "conjunción doble", "gender": null, "example": { "target": "Wir treffen uns entweder heute oder morgen.", "es": "Nos vemos o bien hoy o bien mañana." } },
+    { "id": "v3", "target": "weder...noch", "es": "ni... ni...", "ipa": "/ˈveːdɐ nɔx/", "esApprox": "«VÉ-der noj»", "pos": "conjunción doble", "gender": null, "example": { "target": "Weder er noch sie kommt heute.", "es": "Ni él ni ella vienen hoy." } },
+    { "id": "v4", "target": "der Fremdsprache", "es": "la lengua extranjera", "ipa": "/ˈfʁɛmtʃpʁaːxə/", "esApprox": "«FREMT-shpra-je»", "pos": "sustantivo", "gender": "f", "example": { "target": "Englisch ist eine Fremdsprache.", "es": "El inglés es una lengua extranjera." } },
+    { "id": "v5", "target": "sich entscheiden", "es": "decidirse", "ipa": "/zɪç ɛntˈʃaɪ̯dn̩/", "esApprox": "«zich ent-SHÁI-den»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich muss mich entscheiden.", "es": "Tengo que decidirme." } },
+    { "id": "v6", "target": "die Option", "es": "la opción", "ipa": "/ɔpˈtsi̯oːn/", "esApprox": "«op-TSIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Es gibt zwei Optionen.", "es": "Hay dos opciones." } },
+    { "id": "v7", "target": "kombinieren", "es": "combinar", "ipa": "/kɔmbiˈniːʁən/", "esApprox": "«kom-bi-NÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Man kann beide Optionen kombinieren.", "es": "Se pueden combinar ambas opciones." } },
+    { "id": "v8", "target": "verneinen", "es": "negar", "ipa": "/fɛɐ̯ˈnaɪ̯nən/", "esApprox": "«fer-NÁI-nen»", "pos": "verbo", "gender": null, "example": { "target": "Diese Konjunktion verneint beide Teile.", "es": "Esta conjunción niega ambas partes." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["conjunciones-dobles"], "difficulty": 1, "prompt": "¿Qué significa «sowohl...als auch»?", "options": ["ni... ni...", "tanto... como...", "o bien... o bien...", "aunque"], "answer": 1, "explain": "sowohl...als auch = tanto... como..." },
+    { "id": "e2", "type": "mcq", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "¿Qué conjunción niega ambos elementos sin necesitar nicht?", "options": ["sowohl...als auch", "entweder...oder", "weder...noch", "sondern"], "answer": 2, "explain": "weder...noch ya incluye la negación." },
+    { "id": "e3", "type": "true_false", "tags": ["conjunciones-dobles"], "difficulty": 2, "statement": "«Weder er noch sie kommt nicht» es una frase correcta.", "answer": false, "explain": "weder...noch ya niega; añadir nicht crearía una doble negación incorrecta." },
+    { "id": "e4", "type": "true_false", "tags": ["conjunciones-dobles"], "difficulty": 2, "statement": "entweder...oder presenta una alternativa entre dos opciones.", "answer": true, "explain": "entweder...oder = o bien... o bien..." },
+    { "id": "e5", "type": "match_pairs", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Une cada conjunción con su significado", "left": ["sowohl...als auch", "entweder...oder", "weder...noch"], "right": ["tanto... como...", "o bien... o bien...", "ni... ni..."], "answer": [0, 1, 2], "explain": "Las tres conjunciones dobles de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Hablo tanto alemán como inglés.", "accept": ["Ich spreche sowohl Deutsch als auch Englisch"], "hintWords": ["ich spreche sowohl Deutsch als auch Englisch"], "strictAccents": false, "audio": "Ich spreche sowohl Deutsch als auch Englisch.", "explain": "spreche + sowohl Deutsch + als auch Englisch." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Nos vemos o bien hoy o bien mañana.", "accept": ["Wir treffen uns entweder heute oder morgen"], "hintWords": ["wir treffen uns entweder heute oder morgen"], "strictAccents": false, "audio": "Wir treffen uns entweder heute oder morgen.", "explain": "treffen uns + entweder heute + oder morgen." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Ni él ni ella vienen hoy.", "accept": ["Weder er noch sie kommt heute"], "hintWords": ["weder er noch sie kommt heute"], "strictAccents": false, "audio": "Weder er noch sie kommt heute.", "explain": "Weder er + noch sie + kommt (verbo en singular, concuerda con el sujeto más cercano)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Completa con la conjunción doble correcta", "text": "Es gibt zwei Optionen: ___ heute oder morgen. Ich spreche ___ Deutsch als auch Englisch.", "blanks": [{ "accept": ["entweder"] }, { "accept": ["sowohl"] }], "bank": ["entweder", "sowohl", "weder"], "explain": "entweder...oder (alternativa) y sowohl...als auch (suma)." },
+    { "id": "e10", "type": "word_order", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Ordena: «Se pueden combinar ambas opciones»", "tokens": ["beide Optionen kombinieren", "Man kann"], "answer": ["Man kann", "beide Optionen kombinieren"], "audio": "Man kann beide Optionen kombinieren.", "explain": "Man kann (posición normal) + beide Optionen + kombinieren (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Diese Konjunktion verneint beide Teile.", "accept": ["Esta conjunción niega ambas partes."], "strictAccents": false, "audio": "Diese Konjunktion verneint beide Teile.", "explain": "verneinen = negar." },
+    { "id": "e12", "type": "dialogue", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Sprichst du auch Englisch?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich spreche sowohl Deutsch als auch Englisch."], "hint": "usa sowohl...als auch" },
+      { "who": "Lea", "text": "Beeindruckend!", "speak": true }
+    ], "explain": "sowohl...als auch: sumar dos idiomas en una respuesta natural." },
+    { "id": "e13", "type": "listening", "tags": ["conjunciones-dobles"], "difficulty": 1, "speak": "Ich spreche sowohl Deutsch als auch Englisch.", "mode": "write", "accept": ["Ich spreche sowohl Deutsch als auch Englisch"], "showTextAfter": true, "explain": "sowohl...als auch: repaso." },
+    { "id": "e14", "type": "listening", "tags": ["conjunciones-dobles"], "difficulty": 2, "speak": "Weder er noch sie kommt heute.", "mode": "choose", "options": ["Weder er noch sie kommt heute.", "Weder er noch sie kommt nicht heute.", "Nicht weder er noch sie kommt heute."], "answer": 0, "showTextAfter": true, "explain": "weder...noch ya niega; no se añade nicht." },
+    { "id": "e15", "type": "shadowing", "tags": ["conjunciones-dobles"], "difficulty": 2, "speak": "Ich spreche sowohl Deutsch als auch Englisch, aber weder Französisch noch Italienisch.", "es": "Hablo tanto alemán como inglés, pero ni francés ni italiano.", "ipa": "/ɪç ˈʃpʁɛçə zoˈvoːl ˈdɔɪ̯tʃ als aʊ̯x ˈɛŋlɪʃ ˈaːbɐ ˈveːdɐ fʁanˈtsøːzɪʃ nɔx ɪtaˈljeːnɪʃ/", "esApprox": "«ich SHPRÉ-je zo-VOL DÓICH als aoj ÉNG-lish, Á-ber VÉ-der fran-TSÖ-zish noj i-ta-LIÉ-nish»", "focus": "sowohl...als auch y weder...noch juntas, contrastando lo que se habla y lo que no.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["conjunciones-dobles"], "difficulty": 2, "speak": "Wir treffen uns entweder heute oder morgen; ich muss mich noch entscheiden, welche Option besser passt.", "es": "Nos vemos o bien hoy o bien mañana; todavía tengo que decidir qué opción encaja mejor.", "ipa": "/viːɐ̯ ˈtʁɛfn̩ ʊns ɛntˈveːdɐ ˈhɔɪ̯tə ˈoːdɐ ˈmɔʁɡn̩ ɪç mʊs mɪç nɔx ɛntˈʃaɪ̯dn̩ ˈvɛlçə ɔpˈtsi̯oːn ˈbɛsɐ past/", "esApprox": "«vir TRÉ-fen uns ent-VÉ-der JÓI-te Ó-der MOR-guen; ich mus mich noj ent-SHÁI-den, VÉL-che op-TSIÓN BÉ-ser past»", "focus": "entweder...oder combinado con sich entscheiden: decidir entre dos alternativas.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Te preguntan si hablas inglés. Di que hablas tanto alemán como inglés.", "modelAnswer": "Ich spreche sowohl Deutsch als auch Englisch.", "alsoValid": ["Ich spreche Deutsch und auch Englisch."], "speak": "Ich spreche sowohl Deutsch als auch Englisch.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Clasifica cada frase según su conjunción doble", "buckets": ["sowohl...als auch / entweder...oder", "weder...noch"], "items": [
+      { "text": "Ich spreche sowohl Deutsch als auch Englisch.", "bucket": 0 },
+      { "text": "Wir treffen uns entweder heute oder morgen.", "bucket": 0 },
+      { "text": "Weder er noch sie kommt heute.", "bucket": 1 }
+    ], "explain": "sowohl...als auch y entweder...oder son afirmativas; weder...noch es negativa." },
+    { "id": "e19", "type": "error_correction", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Weder er noch sie kommt nicht heute.", "accept": ["Weder er noch sie kommt heute"], "audio": "Weder er noch sie kommt heute.", "explain": "weder...noch ya incluye la negación; añadir nicht sería una doble negación incorrecta." },
+    { "id": "e20", "type": "mcq", "tags": ["conjunciones-dobles"], "difficulty": 2, "prompt": "«Ich spreche sowohl Deutsch als auch Englisch, aber weder Französisch noch Italienisch. Ich muss mich entscheiden, welche Sprache ich als Nächstes lerne.» ¿Qué idiomas NO habla la persona?", "options": ["Alemán e inglés", "Francés e italiano", "Solo alemán", "Ninguno, los habla todos"], "answer": 1, "explain": "«weder Französisch noch Italienisch» indica que no habla ninguno de esos dos idiomas." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "sowohl...als auch", "es": "tanto... como...", "esApprox": "«zo-VOL als aoj»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "entweder...oder", "es": "o bien... o bien...", "esApprox": "«ent-VÉ-der Ó-der»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "weder...noch", "es": "ni... ni...", "esApprox": "«VÉ-der noj»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "sich entscheiden", "es": "decidirse", "esApprox": "«zich ent-SHÁI-den»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "die Option", "es": "la opción", "esApprox": "«op-TSIÓN»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "kombinieren", "es": "combinar", "esApprox": "«kom-bi-NÍ-ren»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich spreche sowohl Deutsch als auch Englisch, aber weder Französisch noch Italienisch.", "es": "Hablo tanto alemán como inglés, pero ni francés ni italiano.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wir treffen uns entweder heute oder morgen; ich muss mich noch entscheiden, welche Option besser passt.", "es": "Nos vemos o bien hoy o bien mañana; todavía tengo que decidir qué opción encaja mejor.", "from": "e16" }
+  ]
+}

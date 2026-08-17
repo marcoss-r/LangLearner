@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-223",
+  "lang": "de",
+  "level": "B1",
+  "order": 223,
+  "title": "El medioambiente y el clima",
+  "objectives": [
+    "Aprender vocabulario sobre el cambio climático: der Klimawandel, die Erderwärmung, der CO2-Ausstoß",
+    "Hablar de energías renovables y del efecto invernadero",
+    "Expresar opiniones sobre medidas medioambientales con vocabulario preciso"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario del cambio climático",
+      "body": "Más allá del vocabulario básico de medioambiente (clase 145), el B1 añade términos clave para debatir sobre el clima: «der Klimawandel» (el cambio climático), «die Erderwärmung» (el calentamiento global), «der CO2-Ausstoß» (las emisiones de CO2) y «erneuerbare Energien» (las energías renovables). El «Treibhauseffekt» (efecto invernadero) es la causa científica detrás de estos fenómenos.",
+      "examples": [
+        { "target": "Der Klimawandel betrifft uns alle.", "es": "El cambio climático nos afecta a todos." },
+        { "target": "Wir müssen den CO2-Ausstoß reduzieren.", "es": "Tenemos que reducir las emisiones de CO2." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario clave del cambio climático",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["der Klimawandel", "el cambio climático"],
+        ["die Erderwärmung", "el calentamiento global"],
+        ["der CO2-Ausstoß", "las emisiones de CO2"],
+        ["erneuerbare Energien", "las energías renovables"],
+        ["der Treibhauseffekt", "el efecto invernadero"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "die Naturkatastrophe (la catástrofe natural) y das Aussterben (la extinción) son dos palabras frecuentes en noticias sobre medioambiente: «Viele Arten sind vom Aussterben bedroht» (Muchas especies están amenazadas de extinción)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Klimawandel", "es": "el cambio climático", "ipa": "/ˈkliːmavandl̩/", "esApprox": "«KLÍ-ma-van-del»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Klimawandel betrifft uns alle.", "es": "El cambio climático nos afecta a todos." } },
+    { "id": "v2", "target": "die Erderwärmung", "es": "el calentamiento global", "ipa": "/ˈeːɐ̯dɛɐ̯vɛʁmʊŋ/", "esApprox": "«ER-der-ver-mung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Erderwärmung ist ein globales Problem.", "es": "El calentamiento global es un problema global." } },
+    { "id": "v3", "target": "der CO2-Ausstoß", "es": "las emisiones de CO2", "ipa": "/tseːoˈtsvaɪ̯ ˈaʊ̯sʃtoːs/", "esApprox": "«tse-o-TSVAI ÁUS-shtos»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wir müssen den CO2-Ausstoß reduzieren.", "es": "Tenemos que reducir las emisiones de CO2." } },
+    { "id": "v4", "target": "erneuerbare Energien", "es": "las energías renovables", "ipa": "/ɛɐ̯ˈnɔɪ̯ɐbaːʁə ɛnɛʁˈɡiːən/", "esApprox": "«er-NÓI-er-ba-re e-ner-GUÍ-en»", "pos": "sustantivo (locución)", "gender": null, "example": { "target": "Erneuerbare Energien sind die Zukunft.", "es": "Las energías renovables son el futuro." } },
+    { "id": "v5", "target": "der Treibhauseffekt", "es": "el efecto invernadero", "ipa": "/ˈtʁaɪ̯phaʊ̯sʔɛfɛkt/", "esApprox": "«TRÁIP-jaus-e-fekt»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Treibhauseffekt erwärmt die Erde.", "es": "El efecto invernadero calienta la Tierra." } },
+    { "id": "v6", "target": "die Naturkatastrophe", "es": "la catástrofe natural", "ipa": "/naˈtuːɐ̯katastʁoːfə/", "esApprox": "«na-TÚR-ka-tas-tro-fe»", "pos": "sustantivo", "gender": "f", "example": { "target": "Naturkatastrophen nehmen zu.", "es": "Las catástrofes naturales aumentan." } },
+    { "id": "v7", "target": "das Aussterben", "es": "la extinción", "ipa": "/das ˈaʊ̯sʃtɛʁbn̩/", "esApprox": "«das ÁUS-shter-ben»", "pos": "sustantivo", "gender": "n", "example": { "target": "Viele Arten sind vom Aussterben bedroht.", "es": "Muchas especies están amenazadas de extinción." } },
+    { "id": "v8", "target": "reduzieren", "es": "reducir", "ipa": "/ʁeduˈtsiːʁən/", "esApprox": "«re-du-TSÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Wir müssen den CO2-Ausstoß reduzieren.", "es": "Tenemos que reducir las emisiones de CO2." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["medioambiente", "clima"], "difficulty": 1, "prompt": "¿Cómo se dice «el cambio climático»?", "options": ["die Erderwärmung", "der Klimawandel", "der Treibhauseffekt", "das Aussterben"], "answer": 1, "explain": "der Klimawandel = el cambio climático." },
+    { "id": "e2", "type": "mcq", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "¿Qué causa el calentamiento global según el texto?", "options": ["Las energías renovables", "El efecto invernadero", "Las catástrofes naturales", "La extinción de especies"], "answer": 1, "explain": "der Treibhauseffekt es la causa científica del calentamiento global." },
+    { "id": "e3", "type": "true_false", "tags": ["medioambiente", "clima"], "difficulty": 2, "statement": "erneuerbare Energien son energías como el carbón y el petróleo.", "answer": false, "explain": "erneuerbare Energien son renovables, como la solar o la eólica, no combustibles fósiles." },
+    { "id": "e4", "type": "true_false", "tags": ["medioambiente", "clima"], "difficulty": 2, "statement": "das Aussterben se refiere a la desaparición de especies.", "answer": true, "explain": "das Aussterben = la extinción." },
+    { "id": "e5", "type": "match_pairs", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Klimawandel", "der CO2-Ausstoß", "die Naturkatastrophe", "reduzieren"], "right": ["el cambio climático", "las emisiones de CO2", "la catástrofe natural", "reducir"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "El cambio climático nos afecta a todos.", "accept": ["Der Klimawandel betrifft uns alle"], "hintWords": ["der Klimawandel betrifft uns alle"], "strictAccents": false, "audio": "Der Klimawandel betrifft uns alle.", "explain": "Der Klimawandel (sujeto) + betrifft (posición 2) + uns alle." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "Tenemos que reducir las emisiones de CO2.", "accept": ["Wir müssen den CO2-Ausstoß reduzieren"], "hintWords": ["wir müssen den CO2-Ausstoß reduzieren"], "strictAccents": false, "audio": "Wir müssen den CO2-Ausstoß reduzieren.", "explain": "müssen + den CO2-Ausstoß + reduzieren (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "Las energías renovables son el futuro.", "accept": ["Erneuerbare Energien sind die Zukunft"], "hintWords": ["erneuerbare Energien sind die Zukunft"], "strictAccents": false, "audio": "Erneuerbare Energien sind die Zukunft.", "explain": "Erneuerbare Energien (sujeto) + sind (posición 2) + die Zukunft." },
+    { "id": "e9", "type": "fill_blank", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Viele Arten sind vom ___ bedroht. ___ nehmen zu.", "blanks": [{ "accept": ["Aussterben"] }, { "accept": ["Naturkatastrophen"] }], "bank": ["Aussterben", "Naturkatastrophen", "Erderwärmung"], "explain": "das Aussterben y die Naturkatastrophen." },
+    { "id": "e10", "type": "word_order", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "Ordena: «El efecto invernadero calienta la Tierra»", "tokens": ["erwärmt die Erde", "Der Treibhauseffekt"], "answer": ["Der Treibhauseffekt", "erwärmt die Erde"], "audio": "Der Treibhauseffekt erwärmt die Erde.", "explain": "Der Treibhauseffekt (sujeto) + erwärmt (posición 2) + die Erde." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "Die Erderwärmung ist ein globales Problem.", "accept": ["El calentamiento global es un problema global."], "strictAccents": false, "audio": "Die Erderwärmung ist ein globales Problem.", "explain": "die Erderwärmung = el calentamiento global." },
+    { "id": "e12", "type": "dialogue", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was können wir gegen den Klimawandel tun?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Wir müssen den CO2-Ausstoß reduzieren und erneuerbare Energien nutzen."], "hint": "responde con propuestas concretas" },
+      { "who": "Lea", "text": "Genau, das ist wichtig!", "speak": true }
+    ], "explain": "Conversación típica sobre soluciones al cambio climático." },
+    { "id": "e13", "type": "listening", "tags": ["medioambiente", "clima"], "difficulty": 1, "speak": "Der Klimawandel betrifft uns alle.", "mode": "write", "accept": ["Der Klimawandel betrifft uns alle"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["medioambiente", "clima"], "difficulty": 2, "speak": "Erneuerbare Energien sind die Zukunft.", "mode": "choose", "options": ["Erneuerbare Energien sind die Zukunft.", "Erneuerbare Energien sind der Treibhauseffekt.", "Erneuerbare Energien sind das Aussterben."], "answer": 0, "showTextAfter": true, "explain": "erneuerbare Energien se asocia con soluciones, no con problemas como Treibhauseffekt." },
+    { "id": "e15", "type": "shadowing", "tags": ["medioambiente", "clima"], "difficulty": 2, "speak": "Der Klimawandel und die Erderwärmung betreffen uns alle, deshalb müssen wir den CO2-Ausstoß dringend reduzieren.", "es": "El cambio climático y el calentamiento global nos afectan a todos, por eso tenemos que reducir urgentemente las emisiones de CO2.", "ipa": "/deːɐ̯ ˈkliːmavandl̩ ʊnt diː ˈeːɐ̯dɛɐ̯vɛʁmʊŋ bəˈtʁɛfn̩ ʊns ˈalə dɛsˈhalp ˈmʏsn̩ viːɐ̯ deːn tseːoˈtsvaɪ̯ ˈaʊ̯sʃtoːs ˈdʁɪŋənt ʁeduˈtsiːʁən/", "esApprox": "«der KLÍ-ma-van-del unt di ER-der-ver-mung be-TRÉ-fen uns Á-le, des-JALP MÜ-sen vir den TSE-o-TSVAI ÁUS-shtos DRÍN-guent re-du-TSÍ-ren»", "focus": "Klimawandel, Erderwärmung y CO2-Ausstoß: tres términos centrales del debate climático en una frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["medioambiente", "clima"], "difficulty": 2, "speak": "Naturkatastrophen nehmen zu, und viele Arten sind vom Aussterben bedroht, wenn wir nicht auf erneuerbare Energien umsteigen.", "es": "Las catástrofes naturales aumentan, y muchas especies están amenazadas de extinción si no cambiamos a energías renovables.", "ipa": "/naˈtuːɐ̯katastʁoːfn̩ ˈneːmən tsuː ʊnt ˈfiːlə ˈaʁtn̩ zɪnt fɔm ˈaʊ̯sʃtɛʁbn̩ bəˈdʁoːt vɛn viːɐ̯ nɪçt aʊ̯f ɛɐ̯ˈnɔɪ̯ɐbaːʁə ɛnɛʁˈɡiːən ˈʊmʃtaɪ̯ɡn̩/", "esApprox": "«na-TÚR-ka-tas-tró-fen NÉ-men tsu, unt FÍ-le ÁR-ten zint fom ÁUS-shter-ben be-DROT, ven vir nicht auf er-NÓI-er-ba-re e-ner-GUÍ-en ÚM-shtai-guen»", "focus": "Naturkatastrophen, Aussterben y erneuerbare Energien: una advertencia completa sobre las consecuencias del cambio climático.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "Te preguntan qué se puede hacer contra el cambio climático. Menciona reducir las emisiones de CO2.", "modelAnswer": "Wir müssen den CO2-Ausstoß reduzieren.", "alsoValid": ["Man muss den CO2-Ausstoß reduzieren."], "speak": "Wir müssen den CO2-Ausstoß reduzieren.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "Clasifica cada palabra según si es problema o solución", "buckets": ["Problema", "Solución"], "items": [
+      { "text": "der Klimawandel", "bucket": 0 },
+      { "text": "der CO2-Ausstoß", "bucket": 0 },
+      { "text": "erneuerbare Energien", "bucket": 1 },
+      { "text": "reduzieren", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario de esta clase, dividido en problemas y soluciones." },
+    { "id": "e19", "type": "error_correction", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wir müssen den CO2-Ausstoß erhöhen.", "accept": ["Wir müssen den CO2-Ausstoß reduzieren"], "audio": "Wir müssen den CO2-Ausstoß reduzieren.", "explain": "El objetivo es reducir (reduzieren) las emisiones, no aumentarlas (erhöhen)." },
+    { "id": "e20", "type": "mcq", "tags": ["medioambiente", "clima"], "difficulty": 2, "prompt": "«Naturkatastrophen nehmen zu, und viele Arten sind vom Aussterben bedroht, wenn wir nicht auf erneuerbare Energien umsteigen.» ¿Qué se propone para evitar estos problemas?", "options": ["No hacer nada", "Cambiar a energías renovables", "Aumentar las emisiones", "Ignorar las catástrofes"], "answer": 1, "explain": "«wenn wir nicht auf erneuerbare Energien umsteigen» indica que la solución propuesta es cambiar a energías renovables." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Klimawandel", "es": "el cambio climático", "esApprox": "«KLÍ-ma-van-del»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Erderwärmung", "es": "el calentamiento global", "esApprox": "«ER-der-ver-mung»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der CO2-Ausstoß", "es": "las emisiones de CO2", "esApprox": "«tse-o-TSVAI ÁUS-shtos»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "erneuerbare Energien", "es": "las energías renovables", "esApprox": "«er-NÓI-er-ba-re e-ner-GUÍ-en»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Naturkatastrophe", "es": "la catástrofe natural", "esApprox": "«na-TÚR-ka-tas-tro-fe»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "das Aussterben", "es": "la extinción", "esApprox": "«das ÁUS-shter-ben»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Der Klimawandel und die Erderwärmung betreffen uns alle, deshalb müssen wir den CO2-Ausstoß dringend reduzieren.", "es": "El cambio climático y el calentamiento global nos afectan a todos, por eso tenemos que reducir urgentemente las emisiones de CO2.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Naturkatastrophen nehmen zu, und viele Arten sind vom Aussterben bedroht, wenn wir nicht auf erneuerbare Energien umsteigen.", "es": "Las catástrofes naturales aumentan, y muchas especies están amenazadas de extinción si no cambiamos a energías renovables.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-218",
+  "lang": "de",
+  "level": "B1",
+  "order": 218,
+  "title": "Escribir un texto con estructuras cultas",
+  "objectives": [
+    "Combinar nominalización e infinitivo con zu para escribir con un registro más formal",
+    "Transformar frases sencillas en versiones más compactas y cultas",
+    "Redactar un párrafo corto usando estas estructuras de forma natural"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "De la frase sencilla al registro culto",
+      "body": "Nominalizar (clase 214) y usar zu + infinitivo (clase 215) son los dos recursos más eficaces para dar a un texto un tono formal y compacto, típico de cartas, informes o redacciones. «Wenn man das Problem löst, verbessert sich die Situation» se vuelve más culto como «Durch die Lösung des Problems verbessert sich die Situation» (Mediante la solución del problema, la situación mejora).",
+      "examples": [
+        { "target": "Durch die Lösung des Problems verbessert sich die Situation.", "es": "Mediante la solución del problema, la situación mejora." },
+        { "target": "Es ist wichtig, sich gut vorzubereiten.", "es": "Es importante prepararse bien." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "De la frase simple a la culta",
+      "headers": ["Registro simple", "Registro culto"],
+      "rows": [
+        ["Wenn man das Problem löst, ...", "Durch die Lösung des Problems, ..."],
+        ["Man muss sich gut vorbereiten.", "Es ist wichtig, sich gut vorzubereiten."],
+        ["Weil sich die Stadt entwickelt, ...", "Aufgrund der Entwicklung der Stadt, ..."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No abuses de estas estructuras en la conversación oral: son ideales para cartas formales, informes o redacciones, pero en el habla cotidiana suenan artificiales. Cada registro tiene su momento."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "durch", "es": "mediante, a través de (+ acusativo)", "ipa": "/dʊʁç/", "esApprox": "«durch»", "pos": "preposición", "gender": null, "example": { "target": "Durch die Lösung des Problems verbessert sich die Situation.", "es": "Mediante la solución del problema, la situación mejora." } },
+    { "id": "v2", "target": "aufgrund", "es": "debido a, a causa de (+ genitivo)", "ipa": "/aʊ̯fˈɡʁʊnt/", "esApprox": "«auf-GRUNT»", "pos": "preposición", "gender": null, "example": { "target": "Aufgrund der Entwicklung der Stadt gibt es mehr Verkehr.", "es": "Debido al desarrollo de la ciudad, hay más tráfico." } },
+    { "id": "v3", "target": "sich vorbereiten", "es": "prepararse", "ipa": "/zɪç ˈfoːɐ̯bəʁaɪ̯tn̩/", "esApprox": "«zich FOR-be-rai-ten»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Es ist wichtig, sich gut vorzubereiten.", "es": "Es importante prepararse bien." } },
+    { "id": "v4", "target": "der Bericht", "es": "el informe", "ipa": "/bəˈʁɪçt/", "esApprox": "«be-RICHT»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich schreibe einen Bericht.", "es": "Escribo un informe." } },
+    { "id": "v5", "target": "gehoben", "es": "elevado, formal (registro)", "ipa": "/ɡəˈhoːbn̩/", "esApprox": "«ge-JÓ-ben»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist ein gehobenes Register.", "es": "Ese es un registro elevado." } },
+    { "id": "v6", "target": "künstlich", "es": "artificial", "ipa": "/ˈkʏnstlɪç/", "esApprox": "«KÜNST-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das klingt künstlich in einem Gespräch.", "es": "Eso suena artificial en una conversación." } },
+    { "id": "v7", "target": "umformulieren", "es": "reformular", "ipa": "/ˈʊmfɔʁmuliːʁən/", "esApprox": "«UM-for-mu-lí-ren»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe den Satz umformuliert.", "es": "He reformulado la frase." } },
+    { "id": "v8", "target": "der Absatz", "es": "el párrafo", "ipa": "/ˈapzats/", "esApprox": "«AP-zats»", "pos": "sustantivo", "gender": "m", "example": { "target": "Schreib einen kurzen Absatz.", "es": "Escribe un párrafo corto." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 1, "prompt": "¿Qué dos recursos dan un tono formal al texto?", "options": ["El Präteritum y el Perfekt", "La nominalización y el infinitivo con zu", "Los modales y el Futur I", "Las conjunciones dobles"], "answer": 1, "explain": "Nominalizar y usar zu + infinitivo son los recursos centrales de esta clase." },
+    { "id": "e2", "type": "mcq", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "¿Qué preposición rige genitivo y se usa para dar causas en un registro formal?", "options": ["durch", "aufgrund", "trotz", "seit"], "answer": 1, "explain": "aufgrund + genitivo, para expresar causa en un registro elevado." },
+    { "id": "e3", "type": "true_false", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "statement": "Estas estructuras cultas son ideales para la conversación oral cotidiana.", "answer": false, "explain": "Son propias de cartas formales, informes y redacciones, no de la conversación diaria." },
+    { "id": "e4", "type": "true_false", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "statement": "durch rige acusativo.", "answer": true, "explain": "durch + acusativo (repaso general de preposiciones de acusativo)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Une cada frase simple con su versión culta", "left": ["Wenn man das Problem löst, ...", "Man muss sich gut vorbereiten.", "Weil sich die Stadt entwickelt, ..."], "right": ["Durch die Lösung des Problems, ...", "Es ist wichtig, sich gut vorzubereiten.", "Aufgrund der Entwicklung der Stadt, ..."], "answer": [0, 1, 2], "explain": "Transformación de frases simples a un registro culto." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Mediante la solución del problema, la situación mejora.", "accept": ["Durch die Lösung des Problems verbessert sich die Situation"], "hintWords": ["durch die Lösung des Problems verbessert sich die Situation"], "strictAccents": false, "audio": "Durch die Lösung des Problems verbessert sich die Situation.", "explain": "Durch die Lösung des Problems (posición 1) + verbessert (posición 2) + sich + die Situation." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Es importante prepararse bien.", "accept": ["Es ist wichtig, sich gut vorzubereiten"], "hintWords": ["es ist wichtig sich gut vorzubereiten"], "strictAccents": false, "audio": "Es ist wichtig, sich gut vorzubereiten.", "explain": "Es ist wichtig, + sich + gut + vorzubereiten (verbo separable con zu en medio)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Debido al desarrollo de la ciudad, hay más tráfico.", "accept": ["Aufgrund der Entwicklung der Stadt gibt es mehr Verkehr"], "hintWords": ["aufgrund der Entwicklung der Stadt gibt es mehr Verkehr"], "strictAccents": false, "audio": "Aufgrund der Entwicklung der Stadt gibt es mehr Verkehr.", "explain": "Aufgrund der Entwicklung der Stadt (genitivo, posición 1) + gibt es + mehr Verkehr." },
+    { "id": "e9", "type": "fill_blank", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich schreibe einen ___. Schreib einen kurzen ___.", "blanks": [{ "accept": ["Bericht"] }, { "accept": ["Absatz"] }], "bank": ["Bericht", "Absatz", "Nomen"], "explain": "der Bericht (el informe) y der Absatz (el párrafo)." },
+    { "id": "e10", "type": "word_order", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Ordena: «He reformulado la frase»", "tokens": ["den Satz umformuliert", "Ich habe"], "answer": ["Ich habe", "den Satz umformuliert"], "audio": "Ich habe den Satz umformuliert.", "explain": "Ich habe (posición normal) + den Satz + umformuliert (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Das klingt künstlich in einem Gespräch.", "accept": ["Eso suena artificial en una conversación."], "strictAccents": false, "audio": "Das klingt künstlich in einem Gespräch.", "explain": "künstlich = artificial." },
+    { "id": "e12", "type": "dialogue", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie kann ich diesen Satz eleganter schreiben?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Du könntest ihn mit einer Nominalisierung umformulieren."], "hint": "sugiere usar la nominalización" },
+      { "who": "Lea", "text": "Gute Idee, danke!", "speak": true }
+    ], "explain": "Consejo práctico sobre cómo mejorar un texto formal." },
+    { "id": "e13", "type": "listening", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 1, "speak": "Durch die Lösung des Problems verbessert sich die Situation.", "mode": "write", "accept": ["Durch die Lösung des Problems verbessert sich die Situation"], "showTextAfter": true, "explain": "Durch + genitivo/acusativo nominalizado + verbo." },
+    { "id": "e14", "type": "listening", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "speak": "Es ist wichtig, sich gut vorzubereiten.", "mode": "choose", "options": ["Es ist wichtig, sich gut vorzubereiten.", "Es ist wichtig, sich gut vorbereiten.", "Es ist wichtig, sich gut vorbereitet."], "answer": 0, "showTextAfter": true, "explain": "vorzubereiten: zu se coloca entre el prefijo (vor-) y la raíz (bereiten)." },
+    { "id": "e15", "type": "shadowing", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "speak": "Durch die Lösung des Problems verbessert sich die Situation, aber es ist trotzdem wichtig, sich gut vorzubereiten.", "es": "Mediante la solución del problema, la situación mejora, pero de todas formas es importante prepararse bien.", "ipa": "/dʊʁç diː ˈløːzʊŋ dɛs ˈpʁoːbleːms fɛɐ̯ˈbɛsɐt zɪç diː zituaˈtsi̯oːn ˈaːbɐ ɛs ɪst ˈtʁɔtsdeːm ˈvɪçtɪç zɪç ɡuːt ˈfoːɐ̯tsuːbəʁaɪ̯tn̩/", "esApprox": "«durch di LÖ-zung des PRO-blems fer-BÉ-sert zich di zi-tua-TSIÓN, Á-ber es ist TROTS-dem VICH-tich, zich gut FOR-tsu-be-rai-ten»", "focus": "Durch die Lösung y zu vorzubereiten: nominalización e infinitivo con zu combinados en un registro culto.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "speak": "Aufgrund der Entwicklung der Stadt gibt es mehr Verkehr; deshalb ist es notwendig, neue Buslinien einzuführen.", "es": "Debido al desarrollo de la ciudad, hay más tráfico; por eso es necesario introducir nuevas líneas de autobús.", "ipa": "/aʊ̯fˈɡʁʊnt deːɐ̯ ɛntˈvɪklʊŋ deːɐ̯ ʃtat ɡɪpt ɛs meːɐ̯ fɛɐ̯ˈkeːɐ̯ dɛsˈhalp ɪst ɛs ˈnoːtvɛndɪç ˈnɔɪ̯ə ˈbʊslinjən ˈaɪ̯ntsuːfyːʁən/", "esApprox": "«auf-GRUNT der ent-VÍK-lung der shtat guipt es mer fer-KER, des-JALP ist es NOT-ven-dich, NÓI-e BÚS-li-nien ÁIN-tsu-fiu-ren»", "focus": "Aufgrund + genitivo y einzuführen (infinitivo con zu): dos estructuras cultas en una explicación causal.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Explicas por qué es importante prepararse bien para un examen.", "modelAnswer": "Es ist wichtig, sich gut vorzubereiten.", "alsoValid": ["Man muss sich gut vorbereiten."], "speak": "Es ist wichtig, sich gut vorzubereiten.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Clasifica cada frase según su registro", "buckets": ["Registro simple", "Registro culto"], "items": [
+      { "text": "Wenn man das Problem löst, ...", "bucket": 0 },
+      { "text": "Durch die Lösung des Problems, ...", "bucket": 1 },
+      { "text": "Man muss sich gut vorbereiten.", "bucket": 0 },
+      { "text": "Es ist wichtig, sich gut vorzubereiten.", "bucket": 1 }
+    ], "explain": "El registro culto usa nominalización e infinitivo con zu; el simple usa frases más directas." },
+    { "id": "e19", "type": "error_correction", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Es ist wichtig, sich gut vorbereiten.", "accept": ["Es ist wichtig, sich gut vorzubereiten"], "audio": "Es ist wichtig, sich gut vorzubereiten.", "explain": "Falta zu: con verbos separables, zu se inserta entre el prefijo y la raíz: vorzubereiten." },
+    { "id": "e20", "type": "mcq", "tags": ["nominalizacion", "infinitivo-zu"], "difficulty": 2, "prompt": "«Aufgrund der Entwicklung der Stadt gibt es mehr Verkehr; deshalb ist es notwendig, neue Buslinien einzuführen.» ¿Por qué es necesario introducir nuevas líneas de autobús?", "options": ["Porque hay menos tráfico", "Por el desarrollo de la ciudad y el aumento del tráfico", "Porque es más barato", "No se explica el motivo"], "answer": 1, "explain": "«Aufgrund der Entwicklung der Stadt gibt es mehr Verkehr» explica el motivo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "durch", "es": "mediante, a través de (+ acusativo)", "esApprox": "«durch»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "aufgrund", "es": "debido a, a causa de (+ genitivo)", "esApprox": "«auf-GRUNT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "sich vorbereiten", "es": "prepararse", "esApprox": "«zich FOR-be-rai-ten»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Bericht", "es": "el informe", "esApprox": "«be-RICHT»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "gehoben", "es": "elevado, formal (registro)", "esApprox": "«ge-JÓ-ben»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "umformulieren", "es": "reformular", "esApprox": "«UM-for-mu-lí-ren»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Durch die Lösung des Problems verbessert sich die Situation, aber es ist trotzdem wichtig, sich gut vorzubereiten.", "es": "Mediante la solución del problema, la situación mejora, pero de todas formas es importante prepararse bien.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Aufgrund der Entwicklung der Stadt gibt es mehr Verkehr; deshalb ist es notwendig, neue Buslinien einzuführen.", "es": "Debido al desarrollo de la ciudad, hay más tráfico; por eso es necesario introducir nuevas líneas de autobús.", "from": "e16" }
+  ]
+}

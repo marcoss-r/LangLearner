@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-217",
+  "lang": "de",
+  "level": "B1",
+  "order": 217,
+  "title": "Leer una noticia y entender el discurso indirecto",
+  "objectives": [
+    "Leer una noticia corta adaptada, identificando las formas de Konjunktiv I",
+    "Distinguir en el texto lo que el periodista afirma y lo que solo reporta de una fuente",
+    "Reformular frases del texto en discurso directo para comprobar la comprensión"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una noticia corta: Neue Buslinie für die Innenstadt",
+      "body": "Lee esta noticia adaptada, fijándote en las formas de Konjunktiv I: «Die Stadt plant eine neue Buslinie für die Innenstadt. Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet. Laut einer Sprecherin sei das Projekt bereits finanziert. Einige Bürger meinen, die Stadt brauche dringend bessere Verbindungen. Andere behaupten, das Geld könnte besser für Schulen verwendet werden.»",
+      "examples": [
+        { "target": "Der Bürgermeister sagte, die Linie werde eröffnet.", "es": "El alcalde dijo que la línea sería inaugurada." },
+        { "target": "Laut einer Sprecherin sei das Projekt finanziert.", "es": "Según una portavoz, el proyecto está financiado." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Quién dice qué en la noticia",
+      "headers": ["Fuente", "Afirmación (Konjunktiv I)"],
+      "rows": [
+        ["Der Bürgermeister", "die Linie werde im nächsten Jahr eröffnet"],
+        ["Eine Sprecherin", "das Projekt sei bereits finanziert"],
+        ["Einige Bürger", "die Stadt brauche bessere Verbindungen"],
+        ["Andere (Bürger)", "das Geld könnte besser verwendet werden"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Al leer una noticia, busca primero quién habla (el alcalde, una portavoz, los ciudadanos) y luego qué forma verbal marca esa cita (werde, sei, brauche...): así separas los hechos de las opiniones reportadas."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Buslinie", "es": "la línea de autobús", "ipa": "/ˈbʊslinjə/", "esApprox": "«BÚS-li-nie»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Stadt plant eine neue Buslinie.", "es": "La ciudad planea una nueva línea de autobús." } },
+    { "id": "v2", "target": "der Bürgermeister", "es": "el alcalde", "ipa": "/ˈbʏʁɡɐmaɪ̯stɐ/", "esApprox": "«BÜR-guer-mais-ter»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Bürgermeister sagte etwas Wichtiges.", "es": "El alcalde dijo algo importante." } },
+    { "id": "v3", "target": "eröffnen", "es": "inaugurar", "ipa": "/ɛɐ̯ˈʔœfnən/", "esApprox": "«er-ÖF-nen»", "pos": "verbo", "gender": null, "example": { "target": "Die Linie werde im nächsten Jahr eröffnet.", "es": "La línea sería inaugurada el año que viene." } },
+    { "id": "v4", "target": "die Sprecherin", "es": "la portavoz", "ipa": "/ˈʃpʁɛçəʁɪn/", "esApprox": "«SHPRÉ-che-rin»", "pos": "sustantivo", "gender": "f", "example": { "target": "Laut einer Sprecherin sei das Projekt finanziert.", "es": "Según una portavoz, el proyecto está financiado." } },
+    { "id": "v5", "target": "finanzieren", "es": "financiar", "ipa": "/finanˈtsiːʁən/", "esApprox": "«fi-nan-TSÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Das Projekt sei bereits finanziert.", "es": "El proyecto ya estaría financiado." } },
+    { "id": "v6", "target": "die Verbindung", "es": "la conexión", "ipa": "/fɛɐ̯ˈbɪndʊŋ/", "esApprox": "«fer-BÍN-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Stadt brauche bessere Verbindungen.", "es": "La ciudad necesitaría mejores conexiones." } },
+    { "id": "v7", "target": "behaupten", "es": "afirmar, sostener", "ipa": "/bəˈhaʊ̯ptn̩/", "esApprox": "«be-JÁUP-ten»", "pos": "verbo", "gender": null, "example": { "target": "Andere behaupten das Gegenteil.", "es": "Otros afirman lo contrario." } },
+    { "id": "v8", "target": "der Bürger", "es": "el ciudadano", "ipa": "/ˈbʏʁɡɐ/", "esApprox": "«BÜR-guer»", "pos": "sustantivo", "gender": "m", "example": { "target": "Einige Bürger meinen etwas anderes.", "es": "Algunos ciudadanos opinan algo distinto." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["discurso-indirecto", "lectura"], "difficulty": 1, "prompt": "¿Quién dijo que la línea sería inaugurada el año que viene?", "options": ["Una portavoz", "El alcalde", "Los ciudadanos", "Nadie en concreto"], "answer": 1, "explain": "«Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet.»" },
+    { "id": "e2", "type": "mcq", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "¿Qué forma verbal marca la cita de la portavoz?", "options": ["ist", "sei", "war", "wäre"], "answer": 1, "explain": "«Laut einer Sprecherin sei das Projekt bereits finanziert» usa sei (Konjunktiv I)." },
+    { "id": "e3", "type": "true_false", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "statement": "Todos los ciudadanos mencionados en la noticia opinan lo mismo.", "answer": false, "explain": "«Einige Bürger meinen...» frente a «Andere behaupten...»: hay opiniones distintas." },
+    { "id": "e4", "type": "true_false", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "statement": "El periodista confirma personalmente que el proyecto está financiado.", "answer": false, "explain": "El uso de sei (Konjunktiv I) indica que es una afirmación reportada, no confirmada por el periodista." },
+    { "id": "e5", "type": "match_pairs", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "Une cada fuente con su afirmación", "left": ["Der Bürgermeister", "Eine Sprecherin", "Einige Bürger", "Andere Bürger"], "right": ["die Linie werde eröffnet", "das Projekt sei finanziert", "die Stadt brauche bessere Verbindungen", "das Geld könnte besser verwendet werden"], "answer": [0, 1, 2, 3], "explain": "Cuatro fuentes distintas dentro de la misma noticia." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "La ciudad planea una nueva línea de autobús.", "accept": ["Die Stadt plant eine neue Buslinie"], "hintWords": ["die Stadt plant eine neue Buslinie"], "strictAccents": false, "audio": "Die Stadt plant eine neue Buslinie.", "explain": "plant (presente normal, información del periodista, no discurso indirecto)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "El alcalde dijo que la línea sería inaugurada el año que viene.", "accept": ["Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet"], "hintWords": ["der Bürgermeister sagte die Linie werde im nächsten Jahr eröffnet"], "strictAccents": false, "audio": "Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet.", "explain": "sagte + die Linie + werde (Konjunktiv I) + im nächsten Jahr + eröffnet (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "Algunos ciudadanos opinan algo distinto.", "accept": ["Einige Bürger meinen etwas anderes"], "hintWords": ["einige Bürger meinen etwas anderes"], "strictAccents": false, "audio": "Einige Bürger meinen etwas anderes.", "explain": "meinen + etwas anderes." },
+    { "id": "e9", "type": "fill_blank", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "Completa con la forma correcta del Konjunktiv I", "text": "Der Bürgermeister sagte, die Linie ___ eröffnet. Laut einer Sprecherin ___ das Projekt finanziert.", "blanks": [{ "accept": ["werde"] }, { "accept": ["sei"] }], "bank": ["werde", "sei", "wird"], "explain": "werde (werden) y sei (sein), ambos Konjunktiv I." },
+    { "id": "e10", "type": "word_order", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "Ordena: «Otros afirman lo contrario»", "tokens": ["das Gegenteil", "Andere behaupten"], "answer": ["Andere behaupten", "das Gegenteil"], "audio": "Andere behaupten das Gegenteil.", "explain": "Andere behaupten (posición normal) + das Gegenteil." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "Die Stadt brauche bessere Verbindungen.", "accept": ["La ciudad necesitaría mejores conexiones."], "strictAccents": false, "audio": "Die Stadt brauche bessere Verbindungen.", "explain": "brauche (Konjunktiv I de brauchen), dentro del discurso indirecto." },
+    { "id": "e12", "type": "dialogue", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was hat der Bürgermeister über die Buslinie gesagt?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Er sagte, die Linie werde im nächsten Jahr eröffnet."], "hint": "reformula la noticia con discurso indirecto" },
+      { "who": "Lea", "text": "Das klingt gut!", "speak": true }
+    ], "explain": "Reformular una noticia con discurso indirecto para comprobar la comprensión." },
+    { "id": "e13", "type": "listening", "tags": ["discurso-indirecto", "lectura"], "difficulty": 1, "speak": "Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet.", "mode": "write", "accept": ["Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet"], "showTextAfter": true, "explain": "sagte + Konjunktiv I (werde)." },
+    { "id": "e14", "type": "listening", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "speak": "Laut einer Sprecherin sei das Projekt bereits finanziert.", "mode": "choose", "options": ["Laut einer Sprecherin sei das Projekt bereits finanziert.", "Laut einer Sprecherin ist das Projekt bereits finanziert.", "Laut einer Sprecherin war das Projekt bereits finanziert."], "answer": 0, "showTextAfter": true, "explain": "sei (Konjunktiv I) marca que es una cita reportada, típico del registro periodístico." },
+    { "id": "e15", "type": "shadowing", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "speak": "Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet, und laut einer Sprecherin sei das Projekt bereits finanziert.", "es": "El alcalde dijo que la línea sería inaugurada el año que viene, y según una portavoz el proyecto ya estaría financiado.", "ipa": "/deːɐ̯ ˈbʏʁɡɐmaɪ̯stɐ ˈzaːktə diː ˈlɪniə ˈveːʁdə ɪm ˈneːçstn̩ jaːɐ̯ ɛɐ̯ˈʔœfnət ʊnt laʊ̯t ˈaɪ̯nɐ ˈʃpʁɛçəʁɪn zaɪ̯ das pʁoˈjɛkt bəˈʁaɪ̯ts finanˈtsiːɐ̯t/", "esApprox": "«der BÜR-guer-mais-ter ZAK-te, di LÍ-nie VÉR-de im NÉCH-sten yar er-ÖF-net, unt laut ÁI-ner SHPRÉ-che-rin zai das pro-YEKT be-RÁITS fi-nan-TSIRT»", "focus": "werde y sei: dos formas distintas de Konjunktiv I citando a dos fuentes distintas.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "speak": "Einige Bürger meinen, die Stadt brauche dringend bessere Verbindungen, während andere behaupten, das Geld könnte besser für Schulen verwendet werden.", "es": "Algunos ciudadanos opinan que la ciudad necesita urgentemente mejores conexiones, mientras que otros afirman que el dinero podría emplearse mejor en escuelas.", "ipa": "/ˈaɪ̯nɪɡə ˈbʏʁɡɐ ˈmaɪ̯nən diː ʃtat ˈbʁaʊ̯xə ˈdʁɪŋənt ˈbɛsɐ fɛɐ̯ˈbɪndʊŋən ˈvɛːʁənt ˈandəʁə bəˈhaʊ̯ptn̩ das ɡɛlt ˈkœntə ˈbɛsɐ fyːɐ̯ ˈʃuːlən fɛɐ̯ˈvɛndət ˈveːʁdn̩/", "esApprox": "«ÁI-ni-ge BÜR-guer MÁI-nen, di shtat BRÁU-je DRÍN-guent BÉ-ser fer-BÍN-dun-guen, VÉ-rent ÁN-de-re be-JÁUP-ten, das guelt KÖN-te BÉ-ser fiur SHÚ-len fer-VÉN-det VÉR-den»", "focus": "brauche y das Geld könnte: dos opiniones ciudadanas contrapuestas en el mismo texto.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "Te preguntan qué dijo el alcalde sobre la línea de autobús. Responde reformulando la noticia.", "modelAnswer": "Er sagte, die Linie werde im nächsten Jahr eröffnet.", "alsoValid": ["Der Bürgermeister sagte, die Linie werde eröffnet."], "speak": "Er sagte, die Linie werde im nächsten Jahr eröffnet.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "Clasifica cada afirmación según quién la hizo", "buckets": ["A favor del proyecto", "Con reservas sobre el proyecto"], "items": [
+      { "text": "Die Linie werde im nächsten Jahr eröffnet.", "bucket": 0 },
+      { "text": "Die Stadt brauche bessere Verbindungen.", "bucket": 0 },
+      { "text": "Das Geld könnte besser für Schulen verwendet werden.", "bucket": 1 }
+    ], "explain": "Repaso de las distintas posturas dentro de la misma noticia." },
+    { "id": "e19", "type": "error_correction", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "Hay un error de registro. Corrige la frase para el estilo periodístico formal.", "wrong": "Der Bürgermeister sagte, die Linie wird im nächsten Jahr eröffnet.", "accept": ["Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet"], "audio": "Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet.", "explain": "En el registro periodístico formal se usa werde (Konjunktiv I), no wird (indicativo)." },
+    { "id": "e20", "type": "mcq", "tags": ["discurso-indirecto", "lectura"], "difficulty": 2, "prompt": "«Die Stadt plant eine neue Buslinie für die Innenstadt. Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet. Laut einer Sprecherin sei das Projekt bereits finanziert. Einige Bürger meinen, die Stadt brauche dringend bessere Verbindungen. Andere behaupten, das Geld könnte besser für Schulen verwendet werden.» ¿Están todos de acuerdo con el proyecto?", "options": ["Sí, todos están de acuerdo", "No, algunos ciudadanos prefieren usar el dinero en escuelas", "No, el alcalde está en contra", "No se menciona ninguna opinión ciudadana"], "answer": 1, "explain": "«Andere behaupten, das Geld könnte besser für Schulen verwendet werden» muestra que no todos están de acuerdo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Buslinie", "es": "la línea de autobús", "esApprox": "«BÚS-li-nie»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Bürgermeister", "es": "el alcalde", "esApprox": "«BÜR-guer-mais-ter»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "eröffnen", "es": "inaugurar", "esApprox": "«er-ÖF-nen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Sprecherin", "es": "la portavoz", "esApprox": "«SHPRÉ-che-rin»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Verbindung", "es": "la conexión", "esApprox": "«fer-BÍN-dung»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "behaupten", "es": "afirmar, sostener", "esApprox": "«be-JÁUP-ten»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Der Bürgermeister sagte, die Linie werde im nächsten Jahr eröffnet, und laut einer Sprecherin sei das Projekt bereits finanziert.", "es": "El alcalde dijo que la línea sería inaugurada el año que viene, y según una portavoz el proyecto ya estaría financiado.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Einige Bürger meinen, die Stadt brauche dringend bessere Verbindungen, während andere behaupten, das Geld könnte besser für Schulen verwendet werden.", "es": "Algunos ciudadanos opinan que la ciudad necesita urgentemente mejores conexiones, mientras que otros afirman que el dinero podría emplearse mejor en escuelas.", "from": "e16" }
+  ]
+}
