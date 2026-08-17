@@ -1,0 +1,87 @@
+{
+  "id": "de-b1-198",
+  "lang": "de",
+  "level": "B1",
+  "order": 198,
+  "title": "Frases de varios niveles: subordinada dentro de subordinada",
+  "objectives": [
+    "Insertar una oración de relativo dentro de una subordinada con dass/weil/wenn",
+    "Aplicar la regla del verbo al final en cada nivel de la frase, de dentro hacia fuera",
+    "Leer y construir frases largas sin perder el hilo de qué verbo pertenece a qué nivel"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una subordinada dentro de otra: dos verbos al final, en dos niveles",
+      "body": "Puedes insertar una oración de relativo justo en medio de una subordinada con dass, weil o wenn. Cada subordinada mantiene su propia regla de verbo al final, pero en su propio nivel: «Ich glaube, dass der Mann, der hier wohnt, nett ist» — la relativa (der hier wohnt) se cierra con su verbo (wohnt) antes de que continúe la frase con dass (nett ist, verbo de la frase con dass, al final de todo).",
+      "examples": [
+        { "target": "Ich glaube, dass der Mann, der hier wohnt, nett ist.", "es": "Creo que el hombre que vive aquí es simpático." },
+        { "target": "Ich weiß, dass die Frau, die ich kenne, dort arbeitet.", "es": "Sé que la mujer a la que conozco trabaja allí." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cómo leer una frase de dos niveles",
+      "headers": ["Nivel", "Fragmento", "Verbo de ese nivel"],
+      "rows": [
+        ["Principal", "Ich glaube,", "glaube"],
+        ["Subordinada con dass", "dass der Mann [...] nett ist", "ist (al final de todo)"],
+        ["Relativa insertada", "der hier wohnt,", "wohnt (cierra la relativa)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "La coma es tu mejor guía: cada coma marca el inicio o el final de un nivel. Al leer una frase larga, localiza primero las comas y verás con claridad dónde empieza y termina cada subordinada."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "ich glaube, dass...", "es": "creo que...", "ipa": "/ɪç ˈɡlaʊ̯bə das/", "esApprox": "«ich GLÁU-be das»", "pos": "locución", "gender": null, "example": { "target": "Ich glaube, dass der Mann nett ist.", "es": "Creo que el hombre es simpático." } },
+    { "id": "v2", "target": "die Ebene", "es": "el nivel", "ipa": "/ˈeːbənə/", "esApprox": "«É-be-ne»", "pos": "sustantivo", "gender": "f", "example": { "target": "Der Satz hat zwei Ebenen.", "es": "La frase tiene dos niveles." } },
+    { "id": "v3", "target": "einfügen", "es": "insertar", "ipa": "/ˈaɪ̯nfyːɡn̩/", "esApprox": "«ÁIN-fiu-guen»", "pos": "verbo", "gender": null, "example": { "target": "Man kann einen Relativsatz einfügen.", "es": "Se puede insertar una relativa." } },
+    { "id": "v4", "target": "der Faden", "es": "el hilo (conductor)", "ipa": "/ˈfaːdn̩/", "esApprox": "«FÁ-den»", "pos": "sustantivo", "gender": "m", "example": { "target": "Verliere nicht den Faden!", "es": "¡No pierdas el hilo!" } },
+    { "id": "v5", "target": "das Komma", "es": "la coma", "ipa": "/ˈkɔma/", "esApprox": "«KÓ-ma»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Komma markiert die Ebene.", "es": "La coma marca el nivel." } },
+    { "id": "v6", "target": "komplex", "es": "complejo", "ipa": "/kɔmˈplɛks/", "esApprox": "«kom-PLEKS»", "pos": "adjetivo", "gender": null, "example": { "target": "Der Satz ist komplex, aber logisch.", "es": "La frase es compleja, pero lógica." } },
+    { "id": "v7", "target": "logisch", "es": "lógico", "ipa": "/ˈloːɡɪʃ/", "esApprox": "«LÓ-guish»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist ganz logisch.", "es": "Eso es del todo lógico." } },
+    { "id": "v8", "target": "der Nebensatz", "es": "la oración subordinada", "ipa": "/ˈneːbn̩zats/", "esApprox": "«NÉ-ben-zats»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Nebensatz enthält einen weiteren Nebensatz.", "es": "La subordinada contiene otra subordinada." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["orden-palabras", "subordinadas"], "difficulty": 1, "prompt": "¿Qué marca el inicio y el final de cada nivel en una frase compleja?", "options": ["El sujeto", "La coma", "El artículo", "El adjetivo"], "answer": 1, "explain": "Las comas separan cada subordinada del resto de la frase." },
+    { "id": "e2", "type": "mcq", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "En «Ich glaube, dass der Mann, der hier wohnt, nett ist», ¿qué verbo cierra la relativa?", "options": ["glaube", "wohnt", "ist", "kennt"], "answer": 1, "explain": "der hier wohnt: la relativa se cierra con wohnt, antes de que siga la subordinada con dass." },
+    { "id": "e3", "type": "true_false", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "statement": "Cada subordinada, aunque esté anidada, mantiene su propia regla de verbo al final.", "answer": true, "explain": "La relativa se cierra con su verbo antes de continuar con el resto de la subordinada principal." },
+    { "id": "e4", "type": "true_false", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "statement": "En una frase de dos niveles, todos los verbos van juntos al final de toda la frase.", "answer": false, "explain": "Cada nivel cierra su propio verbo en su propio punto, no todos juntos al final absoluto." },
+    { "id": "e5", "type": "match_pairs", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "Une cada fragmento con su nivel", "left": ["Ich glaube,", "dass der Mann [...] nett ist", "der hier wohnt,"], "right": ["Principal", "Subordinada con dass", "Relativa insertada"], "answer": [0, 1, 2], "explain": "Tres niveles distintos dentro de la misma frase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "Creo que el hombre que vive aquí es simpático.", "accept": ["Ich glaube, dass der Mann, der hier wohnt, nett ist"], "hintWords": ["ich glaube dass der Mann der hier wohnt nett ist"], "strictAccents": false, "audio": "Ich glaube, dass der Mann, der hier wohnt, nett ist.", "explain": "dass...nett ist (subordinada) con der...wohnt (relativa) insertada en medio." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "Sé que la mujer a la que conozco trabaja allí.", "accept": ["Ich weiß, dass die Frau, die ich kenne, dort arbeitet"], "hintWords": ["ich weiß dass die Frau die ich kenne dort arbeitet"], "strictAccents": false, "audio": "Ich weiß, dass die Frau, die ich kenne, dort arbeitet.", "explain": "dass...dort arbeitet con die...kenne insertada." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "La frase es compleja, pero lógica.", "accept": ["Der Satz ist komplex, aber logisch"], "hintWords": ["der Satz ist komplex aber logisch"], "strictAccents": false, "audio": "Der Satz ist komplex, aber logisch.", "explain": "komplex y logisch: adjetivos predicativos." },
+    { "id": "e9", "type": "fill_blank", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Verliere nicht den ___! Der ___ enthält einen weiteren Nebensatz.", "blanks": [{ "accept": ["Faden"] }, { "accept": ["Nebensatz"] }], "bank": ["Faden", "Nebensatz", "Ebene"], "explain": "der Faden (el hilo) y der Nebensatz (la subordinada)." },
+    { "id": "e10", "type": "word_order", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "Ordena: «La coma marca el nivel»", "tokens": ["markiert die Ebene", "Das Komma"], "answer": ["Das Komma", "markiert die Ebene"], "audio": "Das Komma markiert die Ebene.", "explain": "Das Komma (sujeto) + markiert (posición 2) + die Ebene." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "Man kann einen Relativsatz einfügen.", "accept": ["Se puede insertar una oración de relativo."], "strictAccents": false, "audio": "Man kann einen Relativsatz einfügen.", "explain": "einfügen = insertar." },
+    { "id": "e12", "type": "dialogue", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was denkst du über den neuen Nachbarn?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich glaube, dass der Mann, der hier wohnt, nett ist."], "hint": "combina dass con una relativa insertada" },
+      { "who": "Lea", "text": "Das denke ich auch!", "speak": true }
+    ], "explain": "Combinar dass y una relativa en una sola frase de dos niveles." },
+    { "id": "e13", "type": "listening", "tags": ["orden-palabras", "subordinadas"], "difficulty": 1, "speak": "Ich glaube, dass der Mann, der hier wohnt, nett ist.", "mode": "write", "accept": ["Ich glaube, dass der Mann, der hier wohnt, nett ist"], "showTextAfter": true, "explain": "Frase de dos niveles: dass + relativa insertada." },
+    { "id": "e14", "type": "listening", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "speak": "Ich weiß, dass die Frau, die ich kenne, dort arbeitet.", "mode": "choose", "options": ["Ich weiß, dass die Frau, die ich kenne, dort arbeitet.", "Ich weiß, dass die Frau, die ich kenne, arbeitet dort.", "Ich weiß, die Frau, die ich kenne, dass dort arbeitet."], "answer": 0, "showTextAfter": true, "explain": "dort arbeitet: el verbo de la subordinada con dass va al final de todo, tras la relativa insertada." },
+    { "id": "e15", "type": "shadowing", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "speak": "Ich glaube, dass der Mann, der hier wohnt, nett ist, obwohl ich ihn kaum kenne.", "es": "Creo que el hombre que vive aquí es simpático, aunque apenas lo conozco.", "ipa": "/ɪç ˈɡlaʊ̯bə das deːɐ̯ man deːɐ̯ hiːɐ̯ voːnt nɛt ɪst ɔpˈvoːl ɪç iːn kaʊ̯m ˈkɛnə/", "esApprox": "«ich GLÁU-be das der man der jir vont net ist, op-VOL ich in kaum KÉ-ne»", "focus": "dass...ist con der...wohnt insertada, y una tercera subordinada (obwohl) añadida al final: tres niveles en total.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "speak": "Der Satz ist komplex, aber logisch: das Komma markiert immer, wo eine Ebene beginnt oder endet.", "es": "La frase es compleja, pero lógica: la coma siempre marca dónde empieza o termina un nivel.", "ipa": "/deːɐ̯ zats ɪst kɔmˈplɛks ˈaːbɐ ˈloːɡɪʃ das ˈkɔma maʁˈkiːɐ̯t ˈɪmɐ voː ˈaɪ̯nə ˈeːbənə bəˈɡɪnt ˈoːdɐ ˈɛndət/", "esApprox": "«der zats ist kom-PLEKS, Á-ber LÓ-guish: das KÓ-ma mar-KIRT Í-mer, vo ÁI-ne É-be-ne be-GUINT Ó-der EN-det»", "focus": "markiert, wo...beginnt oder endet: explicación de cómo leer frases de varios niveles.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "Te preguntan qué opinas de tu vecino. Responde con una frase de dos niveles: crees que el hombre que vive aquí es simpático.", "modelAnswer": "Ich glaube, dass der Mann, der hier wohnt, nett ist.", "alsoValid": ["Ich denke, dass der Mann, der hier wohnt, nett ist."], "speak": "Ich glaube, dass der Mann, der hier wohnt, nett ist.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "Clasifica cada fragmento según su nivel en la frase «Ich glaube, dass der Mann, der hier wohnt, nett ist»", "buckets": ["Principal", "Subordinada/relativa"], "items": [
+      { "text": "Ich glaube,", "bucket": 0 },
+      { "text": "dass der Mann [...] nett ist", "bucket": 1 },
+      { "text": "der hier wohnt,", "bucket": 1 }
+    ], "explain": "Solo Ich glaube es la frase principal; el resto son subordinadas anidadas." },
+    { "id": "e19", "type": "error_correction", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich glaube, dass der Mann, der hier wohnt nett, ist.", "accept": ["Ich glaube, dass der Mann, der hier wohnt, nett ist"], "audio": "Ich glaube, dass der Mann, der hier wohnt, nett ist.", "explain": "La relativa (der hier wohnt) debe cerrarse con su propia coma antes de que continúe la subordinada con dass (nett ist)." },
+    { "id": "e20", "type": "mcq", "tags": ["orden-palabras", "subordinadas"], "difficulty": 2, "prompt": "«Ich glaube, dass der Mann, der hier wohnt, nett ist, obwohl ich ihn kaum kenne.» ¿Cuántos niveles tiene esta frase?", "options": ["Uno", "Dos", "Tres", "Cuatro"], "answer": 2, "explain": "Tres niveles: la principal (Ich glaube), la subordinada con dass, la relativa insertada y la subordinada con obwohl — en total, tres subordinadas dentro de la frase." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "ich glaube, dass...", "es": "creo que...", "esApprox": "«ich GLÁU-be das»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Ebene", "es": "el nivel", "esApprox": "«É-be-ne»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "einfügen", "es": "insertar", "esApprox": "«ÁIN-fiu-guen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Faden", "es": "el hilo (conductor)", "esApprox": "«FÁ-den»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Komma", "es": "la coma", "esApprox": "«KÓ-ma»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "komplex", "es": "complejo", "esApprox": "«kom-PLEKS»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich glaube, dass der Mann, der hier wohnt, nett ist, obwohl ich ihn kaum kenne.", "es": "Creo que el hombre que vive aquí es simpático, aunque apenas lo conozco.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Satz ist komplex, aber logisch: das Komma markiert immer, wo eine Ebene beginnt oder endet.", "es": "La frase es compleja, pero lógica: la coma siempre marca dónde empieza o termina un nivel.", "from": "e16" }
+  ]
+}

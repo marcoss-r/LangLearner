@@ -1,0 +1,87 @@
+{
+  "id": "de-b1-197",
+  "lang": "de",
+  "level": "B1",
+  "order": 197,
+  "title": "El participio como adjetivo: der lachende Mann",
+  "objectives": [
+    "Formar el Partizip I (infinitivo + d) y usarlo como adjetivo declinado",
+    "Usar el Partizip II (ya conocido del Perfekt) como adjetivo declinado",
+    "Reconocer el participio-adjetivo como una alternativa compacta a una oración de relativo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El participio como adjetivo: una relativa comprimida en una palabra",
+      "body": "El Partizip I (infinitivo + -d: lachen → lachend) funciona como adjetivo y se declina como cualquier otro (clases 101-107): «der lachende Mann» (el hombre que ríe/riendo) es una forma compacta de decir «der Mann, der lacht». El Partizip II, que ya conoces del Perfekt, también funciona como adjetivo: «der reparierte Wagen» (el coche reparado) equivale a «der Wagen, der repariert wurde».",
+      "examples": [
+        { "target": "der lachende Mann", "es": "el hombre que ríe / riendo" },
+        { "target": "der reparierte Wagen", "es": "el coche reparado" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Partizip I vs. Partizip II como adjetivo",
+      "headers": ["Tipo", "Formación", "Significado", "Ejemplo"],
+      "rows": [
+        ["Partizip I (activo)", "infinitivo + d", "algo que hace la acción", "der lachende Mann (que ríe)"],
+        ["Partizip II (pasivo)", "el participio normal", "algo que recibe la acción", "der reparierte Wagen (reparado)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El Partizip I se declina exactamente igual que cualquier adjetivo, según el artículo que lo acompañe: «der lachende Mann» (definido), «ein lachender Mann» (indefinido), «lachende Männer» (sin artículo, plural) — repaso completo de las clases 101-107."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "lachend", "es": "riendo, que ríe", "ipa": "/ˈlaxn̩t/", "esApprox": "«LÁ-chent»", "pos": "verbo (Partizip I de lachen)", "gender": null, "example": { "target": "der lachende Mann", "es": "el hombre que ríe" } },
+    { "id": "v2", "target": "schlafend", "es": "durmiendo, que duerme", "ipa": "/ˈʃlaːfn̩t/", "esApprox": "«SHLÁ-fent»", "pos": "verbo (Partizip I de schlafen)", "gender": null, "example": { "target": "das schlafende Kind", "es": "el niño que duerme" } },
+    { "id": "v3", "target": "spielend", "es": "jugando, que juega", "ipa": "/ˈʃpiːlənt/", "esApprox": "«SHPÍ-lent»", "pos": "verbo (Partizip I de spielen)", "gender": null, "example": { "target": "die spielenden Kinder", "es": "los niños que juegan" } },
+    { "id": "v4", "target": "reparierte", "es": "reparado (declinado)", "ipa": "/ʁepaˈʁiːɐ̯tə/", "esApprox": "«re-pa-RIR-te»", "pos": "verbo (Partizip II de reparieren, usado como adjetivo)", "gender": null, "example": { "target": "der reparierte Wagen", "es": "el coche reparado" } },
+    { "id": "v5", "target": "der Wagen", "es": "el coche, el vagón", "ipa": "/ˈvaːɡn̩/", "esApprox": "«VÁ-guen»", "pos": "sustantivo", "gender": "m", "example": { "target": "der reparierte Wagen", "es": "el coche reparado" } },
+    { "id": "v6", "target": "steigend", "es": "creciente, que sube", "ipa": "/ˈʃtaɪ̯ɡn̩t/", "esApprox": "«SHTÁI-guent»", "pos": "verbo (Partizip I de steigen)", "gender": null, "example": { "target": "die steigenden Preise", "es": "los precios crecientes" } },
+    { "id": "v7", "target": "der Preis", "es": "el precio", "ipa": "/pʁaɪ̯s/", "esApprox": "«prais»", "pos": "sustantivo", "gender": "m", "example": { "target": "die steigenden Preise", "es": "los precios crecientes" } },
+    { "id": "v8", "target": "geschlossen", "es": "cerrado (declinado)", "ipa": "/ɡəˈʃlɔsn̩/", "esApprox": "«ge-SHLÓ-sen»", "pos": "verbo (Partizip II de schließen, usado como adjetivo)", "gender": null, "example": { "target": "das geschlossene Geschäft", "es": "la tienda cerrada" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["participio-adjetivo"], "difficulty": 1, "prompt": "¿Cómo se forma el Partizip I?", "options": ["infinitivo + t", "infinitivo + d", "ge- + raíz", "raíz + en"], "answer": 1, "explain": "lachen → lachend: infinitivo + d." },
+    { "id": "e2", "type": "mcq", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "¿Qué significa «der lachende Mann»?", "options": ["El hombre que fue hecho reír", "El hombre que ríe", "El hombre reído", "El hombre sin reír"], "answer": 1, "explain": "El Partizip I es activo: el sujeto hace la acción (reír)." },
+    { "id": "e3", "type": "true_false", "tags": ["participio-adjetivo"], "difficulty": 2, "statement": "El Partizip I se declina como cualquier otro adjetivo.", "answer": true, "explain": "der lachende Mann, ein lachender Mann, lachende Männer: sigue las reglas de declinación normales." },
+    { "id": "e4", "type": "true_false", "tags": ["participio-adjetivo"], "difficulty": 2, "statement": "«der reparierte Wagen» equivale a «der Wagen, der repariert wurde».", "answer": true, "explain": "El Partizip II como adjetivo comprime una relativa pasiva." },
+    { "id": "e5", "type": "match_pairs", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "Une cada infinitivo con su Partizip I", "left": ["lachen", "schlafen", "spielen", "steigen"], "right": ["lachend", "schlafend", "spielend", "steigend"], "answer": [0, 1, 2, 3], "explain": "infinitivo + d, en todos los casos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "el hombre que ríe", "accept": ["der lachende Mann"], "hintWords": ["der lachende Mann"], "strictAccents": false, "audio": "der lachende Mann", "explain": "der (artículo definido) + lachende (terminación débil -e, clase 101)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "el niño que duerme", "accept": ["das schlafende Kind"], "hintWords": ["das schlafende Kind"], "strictAccents": false, "audio": "das schlafende Kind", "explain": "das + schlafende (terminación -e tras artículo definido neutro)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "el coche reparado", "accept": ["der reparierte Wagen"], "hintWords": ["der reparierte Wagen"], "strictAccents": false, "audio": "der reparierte Wagen", "explain": "der + reparierte (Partizip II declinado como adjetivo)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "Completa con el participio correcto", "text": "die ___ Kinder (spielen) die ___ Preise (steigen)", "blanks": [{ "accept": ["spielenden"] }, { "accept": ["steigenden"] }], "bank": ["spielenden", "steigenden", "gespielten"], "explain": "spielenden y steigenden: Partizip I + terminación de plural con artículo definido." },
+    { "id": "e10", "type": "word_order", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "Ordena: «La tienda cerrada está en el centro»", "tokens": ["ist im Zentrum", "Das geschlossene Geschäft"], "answer": ["Das geschlossene Geschäft", "ist im Zentrum"], "audio": "Das geschlossene Geschäft ist im Zentrum.", "explain": "Das geschlossene Geschäft (sujeto con participio-adjetivo) + ist (posición 2) + im Zentrum." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "die steigenden Preise", "accept": ["los precios crecientes"], "strictAccents": false, "audio": "die steigenden Preise", "explain": "steigend (Partizip I de steigen) = creciente." },
+    { "id": "e12", "type": "dialogue", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wer ist der Mann dort?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das ist der lachende Mann."], "hint": "usa el participio-adjetivo lachend" },
+      { "who": "Lea", "text": "Ah, er sieht glücklich aus!", "speak": true }
+    ], "explain": "der lachende Mann: identificar a alguien con un participio-adjetivo." },
+    { "id": "e13", "type": "listening", "tags": ["participio-adjetivo"], "difficulty": 1, "speak": "der lachende Mann", "mode": "write", "accept": ["der lachende Mann"], "showTextAfter": true, "explain": "Partizip I declinado como adjetivo." },
+    { "id": "e14", "type": "listening", "tags": ["participio-adjetivo"], "difficulty": 2, "speak": "der reparierte Wagen", "mode": "choose", "options": ["der reparierte Wagen", "der reparierende Wagen", "der reparieren Wagen"], "answer": 0, "showTextAfter": true, "explain": "reparierte (Partizip II) porque el coche recibe la acción, no la hace." },
+    { "id": "e15", "type": "shadowing", "tags": ["participio-adjetivo"], "difficulty": 2, "speak": "Die spielenden Kinder im Park sind sehr laut, aber das schlafende Baby stört das nicht.", "es": "Los niños que juegan en el parque son muy ruidosos, pero al bebé que duerme no le molesta.", "ipa": "/diː ˈʃpiːlndn̩ ˈkɪndɐ ɪm paʁk zɪnt zeːɐ̯ laʊ̯t ˈaːbɐ das ˈʃlaːfndə ˈbeːbi ʃtøːɐ̯t das nɪçt/", "esApprox": "«di SHPÍ-len-den KÍN-der im park zint zer laut, Á-ber das SHLÁ-fen-de BÉ-bi shtört das nicht»", "focus": "spielenden y schlafende: dos Partizip I declinados con géneros y números distintos.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["participio-adjetivo"], "difficulty": 2, "speak": "Der reparierte Wagen steht vor dem geschlossenen Geschäft, trotz der steigenden Preise.", "es": "El coche reparado está delante de la tienda cerrada, a pesar de los precios crecientes.", "ipa": "/deːɐ̯ ʁepaˈʁiːɐ̯tə ˈvaːɡn̩ ʃteːt foːɐ̯ deːm ɡəˈʃlɔsn̩ən ɡəˈʃɛft tʁɔts deːɐ̯ ˈʃtaɪ̯ɡn̩dn̩ ˈpʁaɪ̯zə/", "esApprox": "«der re-pa-RIR-te VÁ-guen shtet for dem ge-SHLÓ-se-nen ge-SHÉFT, trots der SHTÁI-guen-den PRÁI-ze»", "focus": "reparierte, geschlossenen y steigenden: tres participios-adjetivo, dos pasivos y uno activo, en una sola frase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "Te preguntan por los niños en el parque. Descríbelos como los niños que juegan.", "modelAnswer": "Das sind die spielenden Kinder.", "alsoValid": ["Die spielenden Kinder sind dort."], "speak": "Das sind die spielenden Kinder.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "Clasifica cada participio-adjetivo: Partizip I (activo) o Partizip II (pasivo)", "buckets": ["Partizip I (activo)", "Partizip II (pasivo)"], "items": [
+      { "text": "der lachende Mann", "bucket": 0 },
+      { "text": "der reparierte Wagen", "bucket": 1 },
+      { "text": "die spielenden Kinder", "bucket": 0 },
+      { "text": "das geschlossene Geschäft", "bucket": 1 }
+    ], "explain": "Partizip I: el sujeto hace la acción; Partizip II: el sujeto la recibe." },
+    { "id": "e19", "type": "error_correction", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "der lachen Mann", "accept": ["der lachende Mann"], "audio": "der lachende Mann", "explain": "El Partizip I necesita la -d (lachend) y la terminación de declinación (-e), no el infinitivo solo." },
+    { "id": "e20", "type": "mcq", "tags": ["participio-adjetivo"], "difficulty": 2, "prompt": "«Die spielenden Kinder im Park sind laut, aber das schlafende Baby stört das nicht. Der reparierte Wagen steht daneben.» ¿Qué no molesta al bebé?", "options": ["El coche reparado", "El ruido de los niños que juegan", "La tienda cerrada", "Los precios"], "answer": 1, "explain": "«das schlafende Baby stört das nicht» se refiere al ruido de los niños jugando." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "lachend", "es": "riendo, que ríe", "esApprox": "«LÁ-chent»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "schlafend", "es": "durmiendo, que duerme", "esApprox": "«SHLÁ-fent»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "spielend", "es": "jugando, que juega", "esApprox": "«SHPÍ-lent»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Wagen", "es": "el coche, el vagón", "esApprox": "«VÁ-guen»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "steigend", "es": "creciente, que sube", "esApprox": "«SHTÁI-guent»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Preis", "es": "el precio", "esApprox": "«prais»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Die spielenden Kinder im Park sind sehr laut, aber das schlafende Baby stört das nicht.", "es": "Los niños que juegan en el parque son muy ruidosos, pero al bebé que duerme no le molesta.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der reparierte Wagen steht vor dem geschlossenen Geschäft, trotz der steigenden Preise.", "es": "El coche reparado está delante de la tienda cerrada, a pesar de los precios crecientes.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-205",
+  "lang": "de",
+  "level": "B1",
+  "order": 205,
+  "title": "Preguntar y responder con da- y wo- compuestos en una conversación",
+  "objectives": [
+    "Aplicar los compuestos wo- y da- (clases 119-120) a los nuevos verbos con preposición fija de trabajo y sentimientos",
+    "Preguntar con naturalidad usando woran, worauf, wonach, worunter",
+    "Responder con daran, darauf, danach, darunter, evitando repetir todo el sustantivo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "wo- y da- con el vocabulario nuevo del bloque",
+      "body": "Recuerdas de la clase 119-120 que los compuestos wo- preguntan por una cosa (no una persona) tras una preposición, y los compuestos da- la sustituyen en la respuesta. Ahora puedes aplicarlos a los verbos de este bloque: «Woran arbeitest du?» (¿En qué trabajas?) — «Ich arbeite daran» (Trabajo en eso); «Worauf kannst du dich verlassen?» (¿En qué puedes confiar?) — «Ich verlasse mich darauf» (Confío en eso).",
+      "examples": [
+        { "target": "Woran arbeitest du gerade?", "es": "¿En qué trabajas ahora mismo?" },
+        { "target": "Ich arbeite gerade daran.", "es": "Estoy trabajando en eso ahora mismo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "wo-/da- con los verbos de este bloque",
+      "headers": ["Verbo + preposición", "Pregunta (wo-)", "Respuesta (da-)"],
+      "rows": [
+        ["arbeiten an", "Woran arbeitest du?", "Ich arbeite daran."],
+        ["sich verlassen auf", "Worauf verlässt du dich?", "Ich verlasse mich darauf."],
+        ["sich sehnen nach", "Wonach sehnst du dich?", "Ich sehne mich danach."],
+        ["leiden unter", "Worunter leidest du?", "Ich leide darunter."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Recuerda que wo-/da- solo funcionan cuando hablas de cosas o ideas, nunca de personas: para personas usas la preposición + pronombre normal («An wen denkst du?» / «An ihn») o preposición + relativo (clase 195)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "woran", "es": "¿en qué? (con verbos que rigen an)", "ipa": "/voˈʁan/", "esApprox": "«vo-RAN»", "pos": "adverbio pronominal interrogativo", "gender": null, "example": { "target": "Woran arbeitest du gerade?", "es": "¿En qué trabajas ahora mismo?" } },
+    { "id": "v2", "target": "daran", "es": "en eso (con verbos que rigen an)", "ipa": "/daˈʁan/", "esApprox": "«da-RAN»", "pos": "adverbio pronominal", "gender": null, "example": { "target": "Ich arbeite gerade daran.", "es": "Estoy trabajando en eso ahora mismo." } },
+    { "id": "v3", "target": "worauf", "es": "¿en qué? (con verbos que rigen auf)", "ipa": "/voˈʁaʊ̯f/", "esApprox": "«vo-RAUF»", "pos": "adverbio pronominal interrogativo", "gender": null, "example": { "target": "Worauf verlässt du dich?", "es": "¿En qué confías?" } },
+    { "id": "v4", "target": "darauf", "es": "en eso (con verbos que rigen auf)", "ipa": "/daˈʁaʊ̯f/", "esApprox": "«da-RAUF»", "pos": "adverbio pronominal", "gender": null, "example": { "target": "Ich verlasse mich darauf.", "es": "Confío en eso." } },
+    { "id": "v5", "target": "wonach", "es": "¿por qué? (con verbos que rigen nach)", "ipa": "/voˈnaːx/", "esApprox": "«vo-NACH»", "pos": "adverbio pronominal interrogativo", "gender": null, "example": { "target": "Wonach sehnst du dich?", "es": "¿Qué añoras?" } },
+    { "id": "v6", "target": "danach", "es": "eso, aquello (con verbos que rigen nach)", "ipa": "/daˈnaːx/", "esApprox": "«da-NACH»", "pos": "adverbio pronominal", "gender": null, "example": { "target": "Ich sehne mich danach.", "es": "Añoro eso." } },
+    { "id": "v7", "target": "worunter", "es": "¿por qué? (con verbos que rigen unter)", "ipa": "/voˈʁʊntɐ/", "esApprox": "«vo-RÚN-ter»", "pos": "adverbio pronominal interrogativo", "gender": null, "example": { "target": "Worunter leidest du?", "es": "¿Por qué sufres?" } },
+    { "id": "v8", "target": "darunter", "es": "por eso (con verbos que rigen unter)", "ipa": "/daˈʁʊntɐ/", "esApprox": "«da-RÚN-ter»", "pos": "adverbio pronominal", "gender": null, "example": { "target": "Ich leide darunter.", "es": "Sufro por eso." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["wo-compuestos"], "difficulty": 1, "prompt": "¿Qué compuesto pregunta por «en qué» con arbeiten an?", "options": ["daran", "woran", "worauf", "wonach"], "answer": 1, "explain": "Woran arbeitest du? = ¿En qué trabajas?" },
+    { "id": "e2", "type": "mcq", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "¿Qué compuesto responde a «Worauf verlässt du dich?»?", "options": ["daran", "darauf", "danach", "darunter"], "answer": 1, "explain": "Ich verlasse mich darauf: darauf responde a worauf." },
+    { "id": "e3", "type": "true_false", "tags": ["wo-compuestos", "da-compuestos"], "difficulty": 2, "statement": "Los compuestos wo-/da- se pueden usar para preguntar por personas.", "answer": false, "explain": "Solo para cosas o ideas; para personas se usa preposición + pronombre normal." },
+    { "id": "e4", "type": "true_false", "tags": ["wo-compuestos"], "difficulty": 2, "statement": "worunter se usa con verbos que rigen la preposición unter.", "answer": true, "explain": "leiden unter → Worunter leidest du?" },
+    { "id": "e5", "type": "match_pairs", "tags": ["wo-compuestos", "da-compuestos"], "difficulty": 2, "prompt": "Une cada pregunta con su respuesta", "left": ["Woran arbeitest du?", "Worauf verlässt du dich?", "Wonach sehnst du dich?", "Worunter leidest du?"], "right": ["Ich arbeite daran.", "Ich verlasse mich darauf.", "Ich sehne mich danach.", "Ich leide darunter."], "answer": [0, 1, 2, 3], "explain": "Cada wo- se responde con su da- correspondiente." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "¿En qué trabajas ahora mismo?", "accept": ["Woran arbeitest du gerade?"], "hintWords": ["woran arbeitest du gerade"], "strictAccents": false, "audio": "Woran arbeitest du gerade?", "explain": "Woran + arbeitest + du + gerade." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Estoy trabajando en eso ahora mismo.", "accept": ["Ich arbeite gerade daran"], "hintWords": ["ich arbeite gerade daran"], "strictAccents": false, "audio": "Ich arbeite gerade daran.", "explain": "arbeite + gerade + daran (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "¿Qué añoras?", "accept": ["Wonach sehnst du dich?"], "hintWords": ["wonach sehnst du dich"], "strictAccents": false, "audio": "Wonach sehnst du dich?", "explain": "Wonach + sehnst + du + dich." },
+    { "id": "e9", "type": "fill_blank", "tags": ["wo-compuestos", "da-compuestos"], "difficulty": 2, "prompt": "Completa con el compuesto correcto", "text": "___ leidest du? Ich leide ___.", "blanks": [{ "accept": ["Worunter"] }, { "accept": ["darunter"] }], "bank": ["Worunter", "darunter", "woran"], "explain": "Worunter (pregunta) y darunter (respuesta), ambos con unter." },
+    { "id": "e10", "type": "word_order", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Ordena: «Confío en eso»", "tokens": ["mich darauf", "Ich verlasse"], "answer": ["Ich verlasse", "mich darauf"], "audio": "Ich verlasse mich darauf.", "explain": "verlasse (posición 2) + mich (reflexivo) + darauf." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Worauf verlässt du dich?", "accept": ["¿En qué confías?"], "strictAccents": false, "audio": "Worauf verlässt du dich?", "explain": "Worauf + verlässt + du + dich." },
+    { "id": "e12", "type": "dialogue", "tags": ["wo-compuestos", "da-compuestos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Woran arbeitest du gerade?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich arbeite gerade an einem neuen Projekt."], "hint": "responde mencionando el proyecto (no con daran, para dar más detalle)" },
+      { "who": "Lea", "text": "Klingt interessant!", "speak": true }
+    ], "explain": "Se puede responder con daran o con la información completa, según el contexto." },
+    { "id": "e13", "type": "listening", "tags": ["wo-compuestos"], "difficulty": 1, "speak": "Woran arbeitest du gerade?", "mode": "write", "accept": ["Woran arbeitest du gerade?"], "showTextAfter": true, "explain": "Woran + arbeitest + du + gerade." },
+    { "id": "e14", "type": "listening", "tags": ["da-compuestos"], "difficulty": 2, "speak": "Ich sehne mich danach.", "mode": "choose", "options": ["Ich sehne mich danach.", "Ich sehne mich daran.", "Ich sehne mich darauf."], "answer": 0, "showTextAfter": true, "explain": "sich sehnen nach → danach, no daran ni darauf." },
+    { "id": "e15", "type": "shadowing", "tags": ["wo-compuestos", "da-compuestos"], "difficulty": 2, "speak": "Woran arbeitest du gerade? Ich arbeite daran, mich zu spezialisieren, und ich verlasse mich darauf, dass es klappt.", "es": "¿En qué trabajas ahora mismo? Estoy trabajando en especializarme, y confío en que salga bien.", "ipa": "/voˈʁan ˈaʁbaɪ̯təst duː ɡəˈʁaːdə ɪç ˈaʁbaɪ̯tə daˈʁan mɪç tsuː ʃpetsi̯aliˈziːʁən ʊnt ɪç fɛɐ̯ˈlasə mɪç daˈʁaʊ̯f das ɛs ˈklapt/", "esApprox": "«vo-RAN ÁR-bai-test du ge-RÁ-de? ich ÁR-bai-te da-RAN, mich tsu shpe-tsia-li-ZÍ-ren, unt ich fer-LÁ-se mich da-RAUF, das es klapt»", "focus": "woran, daran y darauf: pregunta y dos respuestas con distintos compuestos en la misma conversación.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["wo-compuestos", "da-compuestos"], "difficulty": 2, "speak": "Wonach sehnst du dich am meisten? Ich sehne mich danach, wieder bei meiner Familie zu sein.", "es": "¿Qué añoras más? Añoro volver a estar con mi familia.", "ipa": "/voˈnaːx zeːnst duː dɪç am ˈmaɪ̯stn̩ ɪç ˈzeːnə mɪç daˈnaːx ˈviːdɐ baɪ̯ ˈmaɪ̯nɐ faˈmiːliə tsuː zaɪ̯n/", "esApprox": "«vo-NACH zenst du dich am MÁI-sten? ich ZÉ-ne mich da-NACH, VÍ-der bai MÁI-ner fa-MÍ-lie tsu zain»", "focus": "wonach y danach: pregunta y respuesta sobre algo que se añora, con zu + infinitivo tras danach.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Le preguntas a un amigo en qué está trabajando ahora mismo.", "modelAnswer": "Woran arbeitest du gerade?", "alsoValid": ["Woran arbeitest du im Moment?"], "speak": "Woran arbeitest du gerade?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["wo-compuestos", "da-compuestos"], "difficulty": 2, "prompt": "Clasifica cada palabra: pregunta (wo-) o respuesta (da-)", "buckets": ["Pregunta (wo-)", "Respuesta (da-)"], "items": [
+      { "text": "woran", "bucket": 0 },
+      { "text": "daran", "bucket": 1 },
+      { "text": "worunter", "bucket": 0 },
+      { "text": "darunter", "bucket": 1 }
+    ], "explain": "wo- siempre pregunta; da- siempre sustituye en la respuesta." },
+    { "id": "e19", "type": "error_correction", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "An was arbeitest du gerade?", "accept": ["Woran arbeitest du gerade?"], "audio": "Woran arbeitest du gerade?", "explain": "Con cosas, se usa el compuesto woran, no an was (que suena poco natural en alemán estándar)." },
+    { "id": "e20", "type": "mcq", "tags": ["wo-compuestos", "da-compuestos"], "difficulty": 2, "prompt": "«Woran arbeitest du gerade? Ich arbeite daran, mich zu spezialisieren, und ich verlasse mich darauf, dass es klappt.» ¿En qué confía la persona?", "options": ["En que no funcione", "En que su especialización salga bien", "En su familia", "En nada en concreto"], "answer": 1, "explain": "«ich verlasse mich darauf, dass es klappt» se refiere a que su proceso de especialización salga bien." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "woran", "es": "¿en qué? (con verbos que rigen an)", "esApprox": "«vo-RAN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "daran", "es": "en eso (con verbos que rigen an)", "esApprox": "«da-RAN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "worauf", "es": "¿en qué? (con verbos que rigen auf)", "esApprox": "«vo-RAUF»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "darauf", "es": "en eso (con verbos que rigen auf)", "esApprox": "«da-RAUF»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "wonach", "es": "¿por qué? (con verbos que rigen nach)", "esApprox": "«vo-NACH»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "danach", "es": "eso, aquello (con verbos que rigen nach)", "esApprox": "«da-NACH»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Woran arbeitest du gerade? Ich arbeite daran, mich zu spezialisieren, und ich verlasse mich darauf, dass es klappt.", "es": "¿En qué trabajas ahora mismo? Estoy trabajando en especializarme, y confío en que salga bien.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wonach sehnst du dich am meisten? Ich sehne mich danach, wieder bei meiner Familie zu sein.", "es": "¿Qué añoras más? Añoro volver a estar con mi familia.", "from": "e16" }
+  ]
+}
