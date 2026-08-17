@@ -14,7 +14,7 @@
   /* Texto */
   --text:        #E8EDF7;
   --text-dim:    #97A3BE;
-  --text-faint:  #667390;
+  --text-faint:  #8291B5;
 
   /* Acento */
   --accent:      #6FB3FF;
@@ -257,6 +257,18 @@ input, textarea, select{
 input:focus, textarea:focus, select:focus{
   outline: 2px solid var(--accent);
   outline-offset: 1px;
+}
+
+/* Foco visible en todo lo pulsable (botones, enlaces, filas, chips de tab)
+   con teclado o Switch Control. :focus-visible evita que aparezca al pulsar
+   con el dedo/ratón, solo con navegación por teclado o accesibilidad. */
+button:focus-visible,
+a:focus-visible,
+.tap-target:focus-visible,
+[tabindex]:focus-visible{
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
 }
 
 /* Los inputs de respuesta en francés/alemán deben llevar además, en el HTML:
