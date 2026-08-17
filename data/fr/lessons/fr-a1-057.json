@@ -47,7 +47,7 @@
     { "id": "v2", "target": "de la", "es": "(partitivo femenino singular)", "ipa": "/də la/", "esApprox": "«de la»", "pos": "artículo", "gender": null, "example": { "target": "Je mange de la viande.", "es": "Como carne." } },
     { "id": "v3", "target": "de l'", "es": "(partitivo ante vocal o h muda)", "ipa": "/də l/", "esApprox": "«de l»", "pos": "artículo", "gender": null, "example": { "target": "Je bois de l'eau.", "es": "Bebo agua." } },
     { "id": "v4", "target": "des", "es": "(partitivo plural)", "ipa": "/de/", "esApprox": "«de»", "pos": "artículo", "gender": null, "example": { "target": "Je mange des pâtes.", "es": "Como pasta." } },
-    { "id": "v5", "target": "de l'argent", "es": "dinero", "ipa": "/də laʁ.ʒɑ̃/", "esApprox": "«de lar-YAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai besoin de l'argent.", "es": "Necesito dinero." } },
+    { "id": "v5", "target": "de l'argent", "es": "dinero", "ipa": "/də laʁ.ʒɑ̃/", "esApprox": "«de lar-YAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai besoin d'argent.", "es": "Necesito dinero." } },
     { "id": "v6", "target": "de l'eau", "es": "agua", "ipa": "/də lo/", "esApprox": "«de LO»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je bois de l'eau tous les jours.", "es": "Bebo agua todos los días." } }
   ],
   "exercises": [
@@ -163,10 +163,10 @@
       "tags": ["partitivos"],
       "difficulty": 2,
       "prompt": "Ordena para formar la frase: «Necesito dinero»",
-      "tokens": ["besoin", "de l'argent", "J'ai"],
-      "answer": ["J'ai", "besoin", "de l'argent"],
-      "audio": "J'ai besoin de l'argent.",
-      "explain": "Avoir besoin de + sustantivo: aquí el sustantivo empieza por vocal, de l'argent."
+      "tokens": ["besoin", "d'argent", "J'ai"],
+      "answer": ["J'ai", "besoin", "d'argent"],
+      "audio": "J'ai besoin d'argent.",
+      "explain": "Avoir besoin de + sustantivo sin artículo: tras avoir besoin de no se usa el partitivo (de l'), se dice simplemente d'argent, igual que tras una negación."
     },
     {
       "id": "e12",

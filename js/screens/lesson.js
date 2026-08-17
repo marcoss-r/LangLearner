@@ -236,6 +236,7 @@ function buildLesson({ lesson, course, lessonId, lang }) {
       mountExerciseStep(shell, item.exercise, ctx, {
         checkLabel: 'Comprobar',
         nextLabel: position + 1 >= plan.length ? 'Ver resultados' : 'Siguiente',
+        sourceId: lessonId,
         onDone: (result, instance) => {
           handleResult(item, result, instance);
           position += 1;

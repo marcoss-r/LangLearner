@@ -180,6 +180,45 @@ export function sessionShell({ title, exitLabel = 'Salir', onExit, confirmExit =
 }
 
 /* ============================================================
+   Botón "Reportar error" (PLAN.md §10, Fase 7)
+   ============================================================ */
+
+/**
+ * Envuelve el elemento de un ejercicio con un pie discreto "Reportar error":
+ * copia `{lessonId, exerciseId, tuRespuesta, ...extra}` al portapapeles para
+ * poder localizar y corregir después el JSON de contenido. `getAnswer()` se
+ * evalúa en el momento del clic, no al construir el botón, así recoge el
+ * resultado más reciente si el ejercicio ya se ha comprobado (o `null` si
+ * todavía no, como en el examen, que no corrige hasta entregar).
+ */
+export function withReportFooter(el, { sourceId, exercise, getAnswer, extra = {} } = {}) {
+  const btn = h(
+    'button',
+    { type: 'button', class: 'btn btn--ghost session__report' },
+    ['🚩 Reportar un error en este ejercicio']
+  );
+
+  btn.addEventListener('click', async () => {
+    const payload = {
+      lessonId: sourceId || null,
+      exerciseId: exercise?.id || null,
+      tuRespuesta: (getAnswer ? getAnswer() : null) ?? null,
+      ...extra,
+    };
+    const text = JSON.stringify(payload, null, 2);
+    try {
+      if (!navigator.clipboard?.writeText) throw new Error('Clipboard no disponible');
+      await navigator.clipboard.writeText(text);
+      toast('Copiado al portapapeles. Pégalo donde quieras guardarlo.', 'ok');
+    } catch {
+      toast('No se pudo copiar automáticamente.', 'err');
+    }
+  });
+
+  return h('div', { class: 'session__exercise-wrap' }, [el, btn]);
+}
+
+/* ============================================================
    Máquina "Comprobar → Siguiente"
    ============================================================ */
 
@@ -190,6 +229,8 @@ export function sessionShell({ title, exitLabel = 'Salir', onExit, confirmExit =
  * `immediateFeedback: false` (examen) no llama a `check()`: el ejercicio no se
  * corrige, solo se avanza, y el resultado se calcula al entregar.
  *
+ * `sourceId` (lessonId) alimenta el botón "Reportar error" de `withReportFooter`.
+ *
  * Devuelve la instancia del renderer para que el caller pueda guardarla.
  */
 export function mountExerciseStep(shell, exercise, ctx, {
@@ -197,16 +238,22 @@ export function mountExerciseStep(shell, exercise, ctx, {
   nextLabel = 'Siguiente',
   extraActions = [],
   onDone,
+  sourceId = null,
 } = {}) {
   const instance = renderExercise(exercise, ctx);
-  shell.setBody(instance.el);
-
-  const primary = h('button', { type: 'button', class: 'btn btn--primary btn--block' }, [checkLabel]);
-  shell.setActions([...extraActions, primary]);
 
   let stop = null;
   let phase = 'check';
   let result = null;
+
+  shell.setBody(withReportFooter(instance.el, {
+    sourceId,
+    exercise,
+    getAnswer: () => result?.userAnswer ?? null,
+  }));
+
+  const primary = h('button', { type: 'button', class: 'btn btn--primary btn--block' }, [checkLabel]);
+  shell.setActions([...extraActions, primary]);
 
   const finishWatch = () => {
     if (stop) { stop(); stop = null; }

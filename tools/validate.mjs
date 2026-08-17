@@ -323,6 +323,41 @@ function validateLesson(lesson, file, courseLessonMeta) {
   });
 }
 
+/* ---------- Validación de un examen (data/<lang>/exams/<lang>-<level>.json) ---------- */
+
+function validateExam(exam, file, expectedLevel, lessonLevelById) {
+  if (!isStr(exam.id)) err(file, 'id', 'falta id.');
+  if (!isStr(exam.lang)) err(file, 'lang', 'falta lang.');
+  if (exam.level !== expectedLevel) {
+    err(file, 'level', `level ("${exam.level}") no coincide con el nivel esperado "${expectedLevel}".`);
+  }
+  if (!isStr(exam.title)) err(file, 'title', 'falta title.');
+  if (typeof exam.passScore !== 'number' || exam.passScore <= 0 || exam.passScore > 1) {
+    err(file, 'passScore', 'passScore debe ser un número entre 0 y 1.');
+  }
+  if (typeof exam.estimatedMinutes !== 'number') err(file, 'estimatedMinutes', 'falta estimatedMinutes.');
+  if (!isArr(exam.exercises) || exam.exercises.length < 70) {
+    err(file, 'exercises', `hay ${exam.exercises?.length ?? 0}, se necesitan al menos 70.`);
+  }
+
+  const exerciseIds = new Set();
+  (exam.exercises || []).forEach((ex, i) => {
+    const p = `exercises[${i}]`;
+    if (isStr(ex.id)) {
+      if (exerciseIds.has(ex.id)) err(file, `${p}.id`, `id de ejercicio duplicado: "${ex.id}".`);
+      exerciseIds.add(ex.id);
+    }
+    if (!isStr(ex.sourceLesson)) {
+      err(file, `${p}.sourceLesson`, 'falta sourceLesson.');
+    } else if (!lessonLevelById.has(ex.sourceLesson)) {
+      err(file, `${p}.sourceLesson`, `sourceLesson "${ex.sourceLesson}" no existe en el curso.`);
+    } else if (lessonLevelById.get(ex.sourceLesson) !== expectedLevel) {
+      err(file, `${p}.sourceLesson`, `sourceLesson "${ex.sourceLesson}" pertenece al nivel ${lessonLevelById.get(ex.sourceLesson)}, no a ${expectedLevel}.`);
+    }
+    validateExercise(ex, file, p);
+  });
+}
+
 /* ---------- Validación de un curso (data/<lang>/course.json) ---------- */
 
 function validateCourse(lang, coursePath) {
@@ -399,6 +434,34 @@ function validateCourse(lang, coursePath) {
       }
     }
   }
+
+  // Exámenes de nivel (Fase 6): data/<lang>/exams/<lang>-<level>.json
+  const lessonLevelById = new Map();
+  course.lessons.forEach((l) => {
+    if (isStr(l.id) && isStr(l.level)) lessonLevelById.set(l.id, l.level);
+  });
+
+  (course.levels || []).forEach((lvl, i) => {
+    const p = `levels[${i}]`;
+    if (!isStr(lvl.exam)) {
+      err(file, `${p}.exam`, 'falta exam.');
+      return;
+    }
+    const examRelPath = `data/${lang}/exams/${lvl.exam}.json`;
+    const examAbsPath = path.join(ROOT, examRelPath);
+    if (!existsSync(examAbsPath)) {
+      err(file, `${p}.exam`, `no existe el fichero de examen "${examRelPath}".`);
+      return;
+    }
+    let examJson;
+    try {
+      examJson = readJson(examRelPath);
+    } catch (e) {
+      err(examRelPath, '(raíz)', `JSON inválido: ${e.message}`);
+      return;
+    }
+    validateExam(examJson, examRelPath, lvl.id, lessonLevelById);
+  });
 }
 
 /* ---------- Arranque ---------- */

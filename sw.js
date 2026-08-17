@@ -2,7 +2,7 @@
 // Sube CACHE_VERSION en cada despliegue que cambie ficheros del app shell:
 // con estrategia cache-first, un CACHE_VERSION sin cambios deja a los usuarios
 // atrapados en la versión antigua de HTML/CSS/JS.
-const CACHE_VERSION = 'll-v5';
+const CACHE_VERSION = 'll-v6';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
 

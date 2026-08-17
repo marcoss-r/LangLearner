@@ -98,6 +98,27 @@
   min-height: 0;
 }
 
+/* Ejercicio + pie "Reportar error" (Fase 7). Discreto a propósito: es una
+   acción secundaria, no compite con "Comprobar"/"Siguiente" de la barra. */
+.session__exercise-wrap{
+  display: flex;
+  flex-direction: column;
+}
+
+.session__report{
+  align-self: center;
+  margin-top: var(--sp-4);
+  padding: var(--sp-2) var(--sp-3);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-faint);
+  text-align: center;
+}
+
+.session__report:active{
+  color: var(--accent);
+}
+
 /* Barra de acción inferior. La tab bar se oculta en #/lesson y #/exam
    (tab:null en app.js), así que este espacio es nuestro; el padding inferior
    respeta siempre el indicador de inicio del iPhone. */

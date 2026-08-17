@@ -12,15 +12,17 @@ decisiones de producto.
 
 ## Estado actual
 
-Las **Fases 0 a 5** están completas: el esqueleto de la app y la capa PWA,
-el núcleo de datos y servicios, el motor de ejercicios, las pantallas, y el
+Las **Fases 0 a 6** están completas: el esqueleto de la app y la capa PWA,
+el núcleo de datos y servicios, el motor de ejercicios, las pantallas, el
 currículo y contenido completo de los dos idiomas — **francés y alemán,
-250 clases cada uno (A1, A2 y B1)** — en `data/fr/` y `data/de/`, validados
-contra `docs/SPEC-DATOS.md` con `node tools/validate.mjs`.
+250 clases cada uno (A1, A2 y B1)** — en `data/fr/` y `data/de/`, y las
+**6 pruebas de nivel** (70 ejercicios cada una) en `data/fr/exams/` y
+`data/de/exams/`. Todo validado contra `docs/SPEC-DATOS.md` con
+`node tools/validate.mjs`.
 
-Queda pendiente la **Fase 6** (pruebas de nivel: 6 ficheros de examen, uno
-por idioma y nivel, en `data/<lang>/exams/`) y la **Fase 7** (pulido, QA
-lingüística y despliegue). Ver `PLAN.md` §10 para el detalle de cada fase.
+Queda pendiente la **Fase 7**: pulido, QA lingüística sobre una muestra de
+clases, accesibilidad, rendimiento, botón de "Reportar error" y
+exportar/importar copia de seguridad. Ver `PLAN.md` §10 para el detalle.
 
 ## Cómo probar en local
 
