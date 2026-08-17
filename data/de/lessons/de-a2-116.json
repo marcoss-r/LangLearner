@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-116",
+  "lang": "de",
+  "level": "A2",
+  "order": 116,
+  "title": "Verbos con preposición fija I: warten auf, sich freuen auf",
+  "objectives": [
+    "Reconocer que muchos verbos alemanes van siempre con una preposición fija y un caso concreto",
+    "Usar warten auf + acusativo (esperar a/algo) correctamente",
+    "Usar sich freuen auf + acusativo (alegrarse por algo futuro) como expresión fija"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Verbos que exigen una preposición concreta",
+      "body": "Algunos verbos alemanes van siempre acompañados de la misma preposición, con un significado que no siempre coincide con el uso «normal» de esa preposición. Warten auf (esperar a algo/alguien) usa auf + acusativo, aunque no haya ningún movimiento real: «Ich warte auf den Bus» (Espero el autobús). Sich freuen auf + acusativo significa «alegrarse por algo que va a pasar» (ilusión anticipada): «Ich freue mich auf die Ferien» (Tengo ganas de las vacaciones).",
+      "examples": [
+        { "target": "Ich warte auf den Bus.", "es": "Espero el autobús." },
+        { "target": "Ich freue mich auf die Ferien.", "es": "Tengo ganas de las vacaciones." },
+        { "target": "Wir freuen uns auf dich!", "es": "¡Tenemos ganas de verte!" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "sich freuen auf, en distintas personas",
+      "headers": ["Persona", "Forma"],
+      "rows": [
+        ["ich", "freue mich"],
+        ["du", "freust dich"],
+        ["wir", "freuen uns"]
+      ],
+      "note": "«Sich» es un pronombre reflexivo (mich, dich, sich, uns, euch, sich), que verás en detalle en la clase 163."
+    },
+    {
+      "type": "tip",
+      "body": "Por ahora, memoriza «sich freuen auf» como una expresión fija: solo cambia el pronombre reflexivo según quién se alegra."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "warten auf", "es": "esperar a/algo", "ipa": "/ˈvaʁtn̩ aʊ̯f/", "esApprox": "«VAR-ten auf»", "pos": "verbo", "gender": null, "example": { "target": "Ich warte auf den Bus.", "es": "Espero el autobús." } },
+    { "id": "v2", "target": "sich freuen auf", "es": "alegrarse por algo futuro, tener ganas de", "ipa": "/zɪç ˈfʁɔɪ̯ən aʊ̯f/", "esApprox": "«zich FRÓI-en auf»", "pos": "verbo", "gender": null, "example": { "target": "Ich freue mich auf die Ferien.", "es": "Tengo ganas de las vacaciones." } },
+    { "id": "v3", "target": "der Bus", "es": "el autobús", "ipa": "/bʊs/", "esApprox": "«bus»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Bus kommt gleich.", "es": "El autobús llega enseguida." } },
+    { "id": "v4", "target": "die Ferien", "es": "las vacaciones (escolares/largas)", "ipa": "/ˈfeːʁi̯ən/", "esApprox": "«FÉ-rien»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "Ich freue mich auf die Ferien.", "es": "Tengo ganas de las vacaciones." } },
+    { "id": "v5", "target": "geduldig", "es": "paciente", "ipa": "/ɡəˈdʊldɪç/", "esApprox": "«ge-DÚL-dich»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich bin geduldig.", "es": "Soy paciente." } },
+    { "id": "v6", "target": "die Ankunft", "es": "la llegada", "ipa": "/ˈankʊnft/", "esApprox": "«ÁN-kunft»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wir warten auf die Ankunft.", "es": "Esperamos la llegada." } },
+    { "id": "v7", "target": "endlich", "es": "por fin", "ipa": "/ˈɛntlɪç/", "esApprox": "«ÉNT-lich»", "pos": "adverbio", "gender": null, "example": { "target": "Endlich kommt der Bus.", "es": "Por fin llega el autobús." } },
+    { "id": "v8", "target": "die Verabredung", "es": "la cita, el plan quedado", "ipa": "/fɛɐ̯ˈʔapʁeːdʊŋ/", "esApprox": "«fer-Á-bre-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich freue mich auf unsere Verabredung.", "es": "Tengo ganas de nuestra cita." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["regimen-preposicional"], "difficulty": 1, "prompt": "¿Qué preposición usa «warten»?", "options": ["für", "auf", "an", "mit"], "answer": 1, "explain": "warten auf + acusativo: esperar algo/a alguien." },
+    { "id": "e2", "type": "mcq", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "¿Qué significa «sich freuen auf»?", "options": ["estar triste por algo pasado", "alegrarse por algo futuro", "esperar a alguien", "olvidar algo"], "answer": 1, "explain": "sich freuen auf: ilusión por algo que va a pasar." },
+    { "id": "e3", "type": "true_false", "tags": ["regimen-preposicional"], "difficulty": 2, "statement": "warten auf rige acusativo.", "answer": true, "explain": "Ich warte auf den Bus: den Bus en acusativo." },
+    { "id": "e4", "type": "true_false", "tags": ["regimen-preposicional"], "difficulty": 2, "statement": "El pronombre en «sich freuen» nunca cambia, es siempre «sich».", "answer": false, "explain": "Cambia según la persona: ich freue mich, du freust dich, wir freuen uns..." },
+    { "id": "e5", "type": "match_pairs", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["warten auf", "sich freuen auf", "die Ferien", "geduldig"], "right": ["esperar a/algo", "tener ganas de", "las vacaciones", "paciente"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Espero el autobús.", "accept": ["Ich warte auf den Bus"], "hintWords": ["ich warte auf den Bus"], "strictAccents": false, "audio": "Ich warte auf den Bus.", "explain": "warte auf + den Bus (acusativo)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Tengo ganas de las vacaciones.", "accept": ["Ich freue mich auf die Ferien"], "hintWords": ["ich freue mich auf die Ferien"], "strictAccents": false, "audio": "Ich freue mich auf die Ferien.", "explain": "freue mich auf + die Ferien (acusativo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "¡Tenemos ganas de verte!", "accept": ["Wir freuen uns auf dich!", "Wir freuen uns auf dich"], "hintWords": ["wir freuen uns auf dich"], "strictAccents": false, "audio": "Wir freuen uns auf dich!", "explain": "freuen uns auf + dich (acusativo): wir → uns." },
+    { "id": "e9", "type": "fill_blank", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Completa con la preposición correcta", "text": "Ich warte ___ den Bus. Ich freue mich ___ die Ferien.", "blanks": [{ "accept": ["auf"] }, { "accept": ["auf"] }], "bank": ["auf", "an", "für"], "explain": "Ambos verbos usan auf + acusativo." },
+    { "id": "e10", "type": "word_order", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Ordena: «Por fin llega el autobús»", "tokens": ["der Bus", "kommt", "Endlich"], "answer": ["Endlich", "kommt", "der Bus"], "audio": "Endlich kommt der Bus.", "explain": "Endlich (posición 1) + kommt (posición 2) + der Bus." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Wir warten auf die Ankunft.", "accept": ["Esperamos la llegada."], "strictAccents": false, "audio": "Wir warten auf die Ankunft.", "explain": "warten auf + die Ankunft (acusativo)." },
+    { "id": "e12", "type": "dialogue", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Worauf wartest du?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich warte auf den Bus."], "hint": "responde con warten auf" },
+      { "who": "Lea", "text": "Ach so, der kommt bald!", "speak": true }
+    ], "explain": "Práctica de warten auf en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["regimen-preposicional"], "difficulty": 1, "speak": "Ich warte auf den Bus.", "mode": "write", "accept": ["Ich warte auf den Bus"], "showTextAfter": true, "explain": "warten auf + acusativo: verbo con preposición fija." },
+    { "id": "e14", "type": "listening", "tags": ["regimen-preposicional"], "difficulty": 2, "speak": "Ich freue mich auf die Ferien.", "mode": "choose", "options": ["Ich freue mich auf die Ferien.", "Ich freue mich für die Ferien.", "Ich freue mich an die Ferien."], "answer": 0, "showTextAfter": true, "explain": "sich freuen auf, siempre con auf, nunca con für ni an." },
+    { "id": "e15", "type": "shadowing", "tags": ["regimen-preposicional"], "difficulty": 2, "speak": "Ich warte geduldig auf den Bus, und ich freue mich schon auf die Ferien.", "es": "Espero pacientemente el autobús, y ya tengo ganas de las vacaciones.", "ipa": "/ɪç ˈvaʁtə ɡəˈdʊldɪç aʊ̯f deːn bʊs ʊnt ɪç ˈfʁɔɪ̯ə mɪç ʃoːn aʊ̯f diː ˈfeːʁi̯ən/", "esApprox": "«ich VAR-te ge-DÚL-dich auf den bus, unt ich FRÓI-e mich shon auf di FÉ-rien»", "focus": "warten auf y sich freuen auf: dos verbos de preposición fija, ambos con auf + acusativo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["regimen-preposicional"], "difficulty": 2, "speak": "Wir warten auf die Ankunft, und wir freuen uns schon auf unsere Verabredung.", "es": "Esperamos la llegada, y ya tenemos ganas de nuestra cita.", "ipa": "/viːɐ̯ ˈvaʁtn̩ aʊ̯f diː ˈankʊnft ʊnt viːɐ̯ ˈfʁɔɪ̯ən ʊns ʃoːn aʊ̯f ˈʊnzəʁə fɛɐ̯ˈʔapʁeːdʊŋ/", "esApprox": "«vir VAR-ten auf di ÁN-kunft, unt vir FRÓI-en uns shon auf ÚN-ze-re fer-Á-bre-dung»", "focus": "freuen uns: la forma wir de sich freuen, con el pronombre reflexivo uns.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Te preguntan qué esperas. Di que esperas el autobús.", "modelAnswer": "Ich warte auf den Bus.", "alsoValid": ["Ich warte auf den Bus."], "speak": "Ich warte auf den Bus.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Clasifica cada frase: warten auf o sich freuen auf", "buckets": ["warten auf", "sich freuen auf"], "items": [
+      { "text": "Ich warte auf den Bus.", "bucket": 0 },
+      { "text": "Ich freue mich auf die Ferien.", "bucket": 1 },
+      { "text": "Wir warten auf die Ankunft.", "bucket": 0 },
+      { "text": "Wir freuen uns auf dich.", "bucket": 1 }
+    ], "explain": "warten auf = esperar; sich freuen auf = tener ganas de, alegrarse por algo futuro." },
+    { "id": "e19", "type": "error_correction", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich freue mich für die Ferien.", "accept": ["Ich freue mich auf die Ferien"], "audio": "Ich freue mich auf die Ferien.", "explain": "sich freuen va siempre con auf, no con für." },
+    { "id": "e20", "type": "mcq", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "«Ich warte geduldig auf den Bus. Endlich kommt er, und ich freue mich schon auf die Ferien.» ¿Qué espera la persona con paciencia?", "options": ["Las vacaciones", "El autobús", "Un regalo", "Una llamada"], "answer": 1, "explain": "«Ich warte geduldig auf den Bus» = espero pacientemente el autobús." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "warten auf", "es": "esperar a/algo", "esApprox": "«VAR-ten auf»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "sich freuen auf", "es": "alegrarse por algo futuro, tener ganas de", "esApprox": "«zich FRÓI-en auf»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Bus", "es": "el autobús", "esApprox": "«bus»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Ferien", "es": "las vacaciones (escolares/largas)", "esApprox": "«FÉ-rien»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Ankunft", "es": "la llegada", "esApprox": "«ÁN-kunft»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "endlich", "es": "por fin", "esApprox": "«ÉNT-lich»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich warte geduldig auf den Bus, und ich freue mich schon auf die Ferien.", "es": "Espero pacientemente el autobús, y ya tengo ganas de las vacaciones.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wir warten auf die Ankunft, und wir freuen uns schon auf unsere Verabredung.", "es": "Esperamos la llegada, y ya tenemos ganas de nuestra cita.", "from": "e16" }
+  ]
+}

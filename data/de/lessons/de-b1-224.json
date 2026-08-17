@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-224",
+  "lang": "de",
+  "level": "B1",
+  "order": 224,
+  "title": "La política y las instituciones",
+  "objectives": [
+    "Aprender vocabulario político básico: die Wahl, die Partei, die Regierung, der Bundestag",
+    "Hablar de elecciones y del sistema político con precisión",
+    "Usar wählen y abstimmen correctamente, distinguiendo votar en elecciones de votar una decisión"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario básico de la política alemana",
+      "body": "Para hablar de política necesitas: «die Wahl» (la elección), «die Partei» (el partido), «die Regierung» (el gobierno) y «der Bundestag» (el parlamento federal alemán). wählen significa «votar» en unas elecciones; abstimmen significa «votar» una decisión concreta, como en una votación parlamentaria o una asamblea.",
+      "examples": [
+        { "target": "Am Sonntag ist die Wahl.", "es": "El domingo son las elecciones." },
+        { "target": "Der Bundestag hat über das Gesetz abgestimmt.", "es": "El Bundestag votó sobre la ley." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario político clave",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["die Wahl", "la elección"],
+        ["die Partei", "el partido"],
+        ["die Regierung", "el gobierno"],
+        ["der Bundestag", "el parlamento federal alemán"],
+        ["die Demokratie", "la democracia"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "die Verfassung (la Constitución) es la ley fundamental de un país; en Alemania se llama oficialmente das Grundgesetz. Ambos términos aparecen a menudo en debates sobre derechos y política."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Wahl", "es": "la elección", "ipa": "/diː vaːl/", "esApprox": "«di val»", "pos": "sustantivo", "gender": "f", "example": { "target": "Am Sonntag ist die Wahl.", "es": "El domingo son las elecciones." } },
+    { "id": "v2", "target": "die Partei", "es": "el partido (político)", "ipa": "/paʁˈtaɪ̯/", "esApprox": "«par-TÁI»", "pos": "sustantivo", "gender": "f", "example": { "target": "Welche Partei wählst du?", "es": "¿Qué partido votas?" } },
+    { "id": "v3", "target": "die Regierung", "es": "el gobierno", "ipa": "/ʁeˈɡiːʁʊŋ/", "esApprox": "«re-GUÍ-rung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Regierung hat neue Pläne.", "es": "El gobierno tiene nuevos planes." } },
+    { "id": "v4", "target": "der Bundestag", "es": "el parlamento federal alemán", "ipa": "/ˈbʊndəstaːk/", "esApprox": "«BÚN-des-tak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Bundestag hat über das Gesetz abgestimmt.", "es": "El Bundestag votó sobre la ley." } },
+    { "id": "v5", "target": "die Demokratie", "es": "la democracia", "ipa": "/demokʁaˈtiː/", "esApprox": "«de-mo-kra-TÍ»", "pos": "sustantivo", "gender": "f", "example": { "target": "Deutschland ist eine Demokratie.", "es": "Alemania es una democracia." } },
+    { "id": "v6", "target": "wählen", "es": "votar (en elecciones)", "ipa": "/ˈvɛːlən/", "esApprox": "«VÉ-len»", "pos": "verbo", "gender": null, "example": { "target": "Ich wähle bei jeder Wahl.", "es": "Voto en todas las elecciones." } },
+    { "id": "v7", "target": "abstimmen", "es": "votar (una decisión, en asamblea o parlamento)", "ipa": "/ˈapʃtɪmən/", "esApprox": "«AP-shti-men»", "pos": "verbo", "gender": null, "example": { "target": "Wir stimmen morgen darüber ab.", "es": "Votamos eso mañana." } },
+    { "id": "v8", "target": "die Verfassung", "es": "la Constitución", "ipa": "/fɛɐ̯ˈfasʊŋ/", "esApprox": "«fer-FÁ-sung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das steht in der Verfassung.", "es": "Eso está en la Constitución." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["politica"], "difficulty": 1, "prompt": "¿Cómo se dice «el gobierno»?", "options": ["die Wahl", "die Partei", "die Regierung", "der Bundestag"], "answer": 2, "explain": "die Regierung = el gobierno." },
+    { "id": "e2", "type": "mcq", "tags": ["politica"], "difficulty": 2, "prompt": "¿Qué diferencia hay entre wählen y abstimmen?", "options": ["Ninguna", "wählen es en elecciones; abstimmen es una decisión concreta", "wählen es formal; abstimmen es informal", "Son sinónimos exactos"], "answer": 1, "explain": "wählen = votar en elecciones; abstimmen = votar una decisión concreta." },
+    { "id": "e3", "type": "true_false", "tags": ["politica"], "difficulty": 2, "statement": "der Bundestag es el parlamento federal alemán.", "answer": true, "explain": "der Bundestag = el parlamento federal alemán." },
+    { "id": "e4", "type": "true_false", "tags": ["politica"], "difficulty": 2, "statement": "die Verfassung y das Grundgesetz se refieren a la misma idea en Alemania.", "answer": true, "explain": "das Grundgesetz es el nombre oficial de la Constitución alemana." },
+    { "id": "e5", "type": "match_pairs", "tags": ["politica"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Wahl", "die Partei", "die Demokratie", "die Verfassung"], "right": ["la elección", "el partido", "la democracia", "la Constitución"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["politica"], "difficulty": 2, "prompt": "El domingo son las elecciones.", "accept": ["Am Sonntag ist die Wahl"], "hintWords": ["am Sonntag ist die Wahl"], "strictAccents": false, "audio": "Am Sonntag ist die Wahl.", "explain": "Am Sonntag (posición 1) + ist (posición 2) + die Wahl." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["politica"], "difficulty": 2, "prompt": "¿Qué partido votas?", "accept": ["Welche Partei wählst du?"], "hintWords": ["welche Partei wählst du"], "strictAccents": false, "audio": "Welche Partei wählst du?", "explain": "Welche Partei (acusativo) + wählst + du." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["politica"], "difficulty": 2, "prompt": "El Bundestag votó sobre la ley.", "accept": ["Der Bundestag hat über das Gesetz abgestimmt"], "hintWords": ["der Bundestag hat über das Gesetz abgestimmt"], "strictAccents": false, "audio": "Der Bundestag hat über das Gesetz abgestimmt.", "explain": "hat + über das Gesetz + abgestimmt (final, verbo separable)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["politica"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Deutschland ist eine ___. Ich ___ bei jeder Wahl.", "blanks": [{ "accept": ["Demokratie"] }, { "accept": ["wähle"] }], "bank": ["Demokratie", "wähle", "Regierung"], "explain": "die Demokratie y wählen." },
+    { "id": "e10", "type": "word_order", "tags": ["politica"], "difficulty": 2, "prompt": "Ordena: «El gobierno tiene nuevos planes»", "tokens": ["hat neue Pläne", "Die Regierung"], "answer": ["Die Regierung", "hat neue Pläne"], "audio": "Die Regierung hat neue Pläne.", "explain": "Die Regierung (sujeto) + hat (posición 2) + neue Pläne." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["politica"], "difficulty": 2, "prompt": "Das steht in der Verfassung.", "accept": ["Eso está en la Constitución."], "strictAccents": false, "audio": "Das steht in der Verfassung.", "explain": "die Verfassung = la Constitución." },
+    { "id": "e12", "type": "dialogue", "tags": ["politica"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Gehst du am Sonntag wählen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich wähle bei jeder Wahl."], "hint": "responde afirmativamente con wählen" },
+      { "who": "Lea", "text": "Gut, das ist wichtig!", "speak": true }
+    ], "explain": "wählen: conversación típica sobre participación electoral." },
+    { "id": "e13", "type": "listening", "tags": ["politica"], "difficulty": 1, "speak": "Am Sonntag ist die Wahl.", "mode": "write", "accept": ["Am Sonntag ist die Wahl"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["politica"], "difficulty": 2, "speak": "Wir stimmen morgen darüber ab.", "mode": "choose", "options": ["Wir stimmen morgen darüber ab.", "Wir wählen morgen darüber ab.", "Wir stimmen morgen darüber."], "answer": 0, "showTextAfter": true, "explain": "abstimmen (con la partícula ab al final) para votar una decisión concreta." },
+    { "id": "e15", "type": "shadowing", "tags": ["politica"], "difficulty": 2, "speak": "Am Sonntag ist die Wahl, und ich wähle immer, weil ich glaube, dass jede Stimme in einer Demokratie zählt.", "es": "El domingo son las elecciones, y siempre voto, porque creo que cada voto cuenta en una democracia.", "ipa": "/am ˈzɔntaːk ɪst diː vaːl ʊnt ɪç ˈvɛːlə ˈɪmɐ vaɪ̯l ɪç ˈɡlaʊ̯bə das ˈjeːdə ˈʃtɪmə ɪn ˈaɪ̯nɐ demokʁaˈtiː tsɛːlt/", "esApprox": "«am ZÓN-tak ist di val, unt ich VÉ-le Í-mer, vail ich GLÁU-be, das YÉ-de SHTÍ-me in ÁI-ner de-mo-kra-TÍ tselt»", "focus": "die Wahl, wähle y Demokratie: el vocabulario central de la participación electoral.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["politica"], "difficulty": 2, "speak": "Der Bundestag hat gestern über das neue Gesetz abgestimmt, und die Regierung hat das Ergebnis akzeptiert.", "es": "El Bundestag votó ayer sobre la nueva ley, y el gobierno aceptó el resultado.", "ipa": "/deːɐ̯ ˈbʊndəstaːk hat ˈɡɛstɐn yːbɐ das ˈnɔɪ̯ə ɡəˈzɛts ˈapɡəʃtɪmt ʊnt diː ʁeˈɡiːʁʊŋ hat das ˈɛɐ̯ɡeːpnɪs akˌtsɛpˈtiːɐ̯t/", "esApprox": "«der BÚN-des-tak jat GUÉS-tern iu-ber das NÓI-e ge-ZETS AP-ge-shtimt, unt di re-GUÍ-rung jat das ER-guep-nis ak-tsep-TIRT»", "focus": "Bundestag, abgestimmt y Regierung: el proceso legislativo completo en una sola frase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["politica"], "difficulty": 2, "prompt": "Te preguntan si vas a votar el domingo. Responde que sí, siempre votas.", "modelAnswer": "Ja, ich wähle immer.", "alsoValid": ["Ja, ich wähle bei jeder Wahl."], "speak": "Ja, ich wähle immer.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["politica"], "difficulty": 2, "prompt": "Clasifica cada palabra según su categoría", "buckets": ["Institución/concepto", "Verbo"], "items": [
+      { "text": "der Bundestag", "bucket": 0 },
+      { "text": "die Demokratie", "bucket": 0 },
+      { "text": "wählen", "bucket": 1 },
+      { "text": "abstimmen", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario político de esta clase." },
+    { "id": "e19", "type": "error_correction", "tags": ["politica"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Der Bundestag hat über das Gesetz gewählt.", "accept": ["Der Bundestag hat über das Gesetz abgestimmt"], "audio": "Der Bundestag hat über das Gesetz abgestimmt.", "explain": "Para una decisión parlamentaria concreta se usa abstimmen, no wählen (que es para elecciones)." },
+    { "id": "e20", "type": "mcq", "tags": ["politica"], "difficulty": 2, "prompt": "«Der Bundestag hat gestern über das neue Gesetz abgestimmt, und die Regierung hat das Ergebnis akzeptiert.» ¿Qué hizo la Regierung con el resultado de la votación?", "options": ["Lo rechazó", "Lo aceptó", "No dijo nada", "Pidió otra votación"], "answer": 1, "explain": "«die Regierung hat das Ergebnis akzeptiert» indica que el gobierno aceptó el resultado." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Wahl", "es": "la elección", "esApprox": "«di val»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Partei", "es": "el partido (político)", "esApprox": "«par-TÁI»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Regierung", "es": "el gobierno", "esApprox": "«re-GUÍ-rung»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Bundestag", "es": "el parlamento federal alemán", "esApprox": "«BÚN-des-tak»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "wählen", "es": "votar (en elecciones)", "esApprox": "«VÉ-len»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "abstimmen", "es": "votar (una decisión, en asamblea o parlamento)", "esApprox": "«AP-shti-men»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Am Sonntag ist die Wahl, und ich wähle immer, weil ich glaube, dass jede Stimme in einer Demokratie zählt.", "es": "El domingo son las elecciones, y siempre voto, porque creo que cada voto cuenta en una democracia.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Bundestag hat gestern über das neue Gesetz abgestimmt, und die Regierung hat das Ergebnis akzeptiert.", "es": "El Bundestag votó ayer sobre la nueva ley, y el gobierno aceptó el resultado.", "from": "e16" }
+  ]
+}

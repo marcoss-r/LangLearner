@@ -1,0 +1,259 @@
+{
+  "id": "fr-a2-129",
+  "lang": "fr",
+  "level": "A2",
+  "order": 129,
+  "title": "El condicional presente: formación",
+  "objectives": [
+    "Formar el condicional: el mismo radical del futuro (clases A2-125, A2-126) + terminaciones del imparfait (clase A2-101)",
+    "Reconocer que el condicional combina dos cosas que ya conoces, sin radicales nuevos",
+    "Practicar el condicional con verbos regulares e irregulares"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos piezas que ya tienes",
+      "body": "El condicional no tiene nada nuevo que memorizar: usa exactamente el mismo radical que el futuro (parler-, ser-, ir-...) y las mismas terminaciones que el imparfait (-ais, -ais, -ait, -ions, -iez, -aient, clase A2-101).",
+      "examples": [
+        { "target": "Je voudrais un café, et j'aimerais aussi un croissant.", "es": "Querría un café, y me gustaría también un cruasán.", "note": "voudr- + ais, aimer- + ais" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El condicional de parler",
+      "headers": ["Persona", "Forma"],
+      "rows": [
+        ["je", "parlerais"],
+        ["tu", "parlerais"],
+        ["il / elle", "parlerait"],
+        ["nous", "parlerions"],
+        ["vous", "parleriez"],
+        ["ils / elles", "parleraient"]
+      ],
+      "note": "Radical del futuro (parler-) + terminaciones del imparfait (-ais, -ais, -ait, -ions, -iez, -aient)."
+    },
+    {
+      "type": "table",
+      "title": "Con radicales irregulares (clase A2-126)",
+      "headers": ["Infinitivo", "Condicional"],
+      "rows": [
+        ["être", "je serais"],
+        ["avoir", "j'aurais"],
+        ["aller", "j'irais"],
+        ["vouloir", "je voudrais"],
+        ["pouvoir", "je pourrais"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je voudrais", "es": "yo querría", "ipa": "/ʒə vu.dʁɛ/", "esApprox": "«ye vu-DRE»", "pos": "verbo", "gender": null, "example": { "target": "Je voudrais un café.", "es": "Querría un café." } },
+    { "id": "v2", "target": "j'aimerais", "es": "me gustaría", "ipa": "/ʒɛ.mə.ʁɛ/", "esApprox": "«yem-me-RE»", "pos": "verbo", "gender": null, "example": { "target": "J'aimerais visiter Paris.", "es": "Me gustaría visitar París." } },
+    { "id": "v3", "target": "je serais", "es": "yo sería/estaría", "ipa": "/ʒə sə.ʁɛ/", "esApprox": "«ye se-RE»", "pos": "verbo", "gender": null, "example": { "target": "Je serais content de t'aider.", "es": "Estaría contento de ayudarte." } },
+    { "id": "v4", "target": "je pourrais", "es": "yo podría", "ipa": "/ʒə pu.ʁɛ/", "esApprox": "«ye pu-RE»", "pos": "verbo", "gender": null, "example": { "target": "Je pourrais t'aider.", "es": "Podría ayudarte." } },
+    { "id": "v5", "target": "nous aimerions", "es": "nosotros querríamos, nos gustaría", "ipa": "/nu.z‿ɛ.mə.ʁjɔ̃/", "esApprox": "«nu-zem-me-RIÓN»", "pos": "verbo", "gender": null, "example": { "target": "Nous aimerions venir.", "es": "Nos gustaría venir." } },
+    { "id": "v6", "target": "ils voudraient", "es": "ellos querrían", "ipa": "/il vu.dʁɛ/", "esApprox": "«il vu-DRE»", "pos": "verbo", "gender": null, "example": { "target": "Ils voudraient partir tôt.", "es": "Querrían salir pronto." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se forma el condicional de parler para je?",
+      "options": ["je parlais", "je parlerai", "je parlerais", "je parlerait"],
+      "answer": 2,
+      "explain": "Radical del futuro (parler-) + terminación del imparfait (-ais) = parlerais."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el condicional de être para je?",
+      "options": ["je serai", "j'étais", "je serais", "j'aurais"],
+      "answer": 2,
+      "explain": "Ser- (radical del futuro de être) + ais = je serais."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "statement": "El condicional usa el mismo radical que el futuro.",
+      "answer": true,
+      "explain": "Es la clave para formarlo sin memorizar nada nuevo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "statement": "El condicional usa las mismas terminaciones que el futur simple.",
+      "answer": false,
+      "explain": "Usa las terminaciones del imparfait (-ais, -ais, -ait, -ions, -iez, -aient), no las del futuro."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Une cada persona con su forma de vouloir en condicional",
+      "left": ["je", "nous", "ils", "tu"],
+      "right": ["voudrais (tú)", "voudrions", "voudraient", "voudrais (yo)"],
+      "answer": [3, 1, 2, 0],
+      "explain": "Je voudrais, nous voudrions, ils voudraient, tu voudrais."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Querría un café, y me gustaría también un cruasán.",
+      "accept": ["Je voudrais un café, et j'aimerais aussi un croissant"],
+      "hintWords": ["je voudrais un café", "j'aimerais aussi un croissant"],
+      "strictAccents": true,
+      "audio": "Je voudrais un café, et j'aimerais aussi un croissant.",
+      "explain": "Voudr- + ais, aimer- + ais: dos condicionales."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Podría ayudarte, y estaría contento de hacerlo.",
+      "accept": ["Je pourrais t'aider, et je serais content de le faire"],
+      "hintWords": ["je pourrais t'aider", "je serais content de le faire"],
+      "strictAccents": true,
+      "audio": "Je pourrais t'aider, et je serais content de le faire.",
+      "explain": "Pourr- + ais, ser- + ais."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Completa con el condicional correcto",
+      "text": "Nous ___ venir, et ils ___ partir tôt.",
+      "blanks": [{ "accept": ["aimerions"] }, { "accept": ["voudraient"] }],
+      "bank": ["aimerions", "voudraient", "aimons"],
+      "explain": "Nous aimerions, ils voudraient."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Me gustaría visitar París»",
+      "tokens": ["visiter Paris", "J'aimerais"],
+      "answer": ["J'aimerais", "visiter Paris"],
+      "audio": "J'aimerais visiter Paris.",
+      "explain": "J'aimerais + visiter Paris."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Nous aimerions venir, mais nous ne pourrions pas rester longtemps.",
+      "accept": ["Nos gustaría venir, pero no podríamos quedarnos mucho tiempo."],
+      "strictAccents": false,
+      "audio": "Nous aimerions venir, mais nous ne pourrions pas rester longtemps.",
+      "explain": "Aimerions + pourrions, dos condicionales con nous."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre lo que te gustaría hacer",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu aimerais faire ce week-end ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["J'aimerais visiter Paris.", "Je voudrais me reposer."], "hint": "usa el condicional" },
+        { "who": "Léa", "text": "Ah, bonne idée !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu aimerais...? se responde con el condicional."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "speak": "Je voudrais un café, j'aimerais aussi un croissant, et je serais content si tu venais.",
+      "mode": "write",
+      "accept": ["Je voudrais un café, j'aimerais aussi un croissant, et je serais content si tu venais"],
+      "showTextAfter": true,
+      "explain": "Tres condicionales seguidos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["condicional"],
+      "difficulty": 1,
+      "speak": "je serais",
+      "mode": "choose",
+      "options": ["je serai", "je serais", "j'étais", "j'ai été"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Je serais = yo sería/estaría (condicional)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["condicional"],
+      "difficulty": 3,
+      "speak": "Je voudrais un café, j'aimerais un croissant, et je serais très content si tu pouvais venir.",
+      "es": "Querría un café, me gustaría un cruasán, y estaría muy contento si pudieras venir.",
+      "ipa": "/ʒə vu.dʁɛ œ̃ ka.fe ʒɛ.mə.ʁɛ œ̃ kʁwa.sɑ̃ e ʒə sə.ʁɛ tʁɛ kɔ̃.tɑ̃ si ty pu.vɛ və.niʁ/",
+      "esApprox": "«ye vu-DRE un ka-FÉ yem-me-RE un kruá-SAN e ye se-RE tre kon-TAN si tü pu-VE ve-NIR»",
+      "focus": "Tres condicionales seguidos en una petición cortés.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Di qué te gustaría hacer este fin de semana, usando j'aimerais o je voudrais.",
+      "modelAnswer": "J'aimerais visiter Paris, et je voudrais aussi me reposer.",
+      "alsoValid": ["Nous aimerions venir avec vous."],
+      "speak": "J'aimerais visiter Paris, et je voudrais aussi me reposer.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "¿Es futuro o condicional?",
+      "buckets": ["Futuro", "Condicional"],
+      "items": [
+        { "text": "je parlerai", "bucket": 0 },
+        { "text": "je parlerais", "bucket": 1 },
+        { "text": "nous irons", "bucket": 0 },
+        { "text": "nous irions", "bucket": 1 }
+      ],
+      "explain": "El futuro usa las terminaciones -ai/-as/-a/-ons/-ez/-ont; el condicional usa -ais/-ais/-ait/-ions/-iez/-aient."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "Hay un error de terminación. Corrige la frase entera.",
+      "wrong": "Je voudrai un café.",
+      "accept": ["Je voudrais un café"],
+      "audio": "Je voudrais un café.",
+      "explain": "El condicional necesita la terminación -ais, no -ai (que es del futuro)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "je voudrais", "es": "yo querría", "esApprox": "«ye vu-DRE»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "j'aimerais", "es": "me gustaría", "esApprox": "«yem-me-RE»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "je serais", "es": "yo sería/estaría", "esApprox": "«ye se-RE»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "je pourrais", "es": "yo podría", "esApprox": "«ye pu-RE»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "nous aimerions", "es": "nosotros querríamos, nos gustaría", "esApprox": "«nu-zem-me-RIÓN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je voudrais un café, et j'aimerais aussi un croissant.", "es": "Querría un café, y me gustaría también un cruasán.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je pourrais t'aider, et je serais content de le faire.", "es": "Podría ayudarte, y estaría contento de hacerlo.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "J'aimerais visiter Paris.", "es": "Me gustaría visitar París.", "from": "e9" }
+  ]
+}

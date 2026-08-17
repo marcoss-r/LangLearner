@@ -1,0 +1,365 @@
+{
+  "id": "fr-a1-006",
+  "lang": "fr",
+  "level": "A1",
+  "order": 6,
+  "title": "Tú o usted: tu y vous",
+  "objectives": [
+    "Elegir entre tu y vous según la confianza, la edad y el contexto de la conversación",
+    "Reconocer que vous es también el plural (vosotros/ustedes), incluso entre amigos a los que tutearías uno a uno",
+    "Pedir permiso para tutear a alguien con on peut se tutoyer ?"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tu y vous no son exactamente como tú y usted",
+      "body": "La distinción tu/vous se parece a la del español tú/usted, pero el francés la usa en más situaciones y con menos margen de duda: con desconocidos adultos, en tiendas, en el trabajo (sobre todo al principio) y con cualquier persona mayor que no conozcas, se usa **vous** por defecto. Se pasa a **tu** cuando hay confianza real: familia, amigos, niños, compañeros de estudios. Además, **vous** cumple una segunda función que no tiene el «usted» español: es también el plural de tu, es decir, «vosotros» o «ustedes», da igual el grado de confianza.",
+      "examples": [
+        { "target": "Tu habites où ?", "es": "¿Dónde vives?", "note": "a un amigo o a un niño" },
+        { "target": "Vous habitez où ?", "es": "¿Dónde vive usted? / ¿Dónde vivís?", "note": "a un desconocido, o a varias personas" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "¿Tu o vous?",
+      "headers": ["Situación", "Pronombre"],
+      "rows": [
+        ["Familia y amigos", "tu"],
+        ["Niños, aunque no los conozcas", "tu"],
+        ["Un desconocido adulto por la calle", "vous"],
+        ["En una tienda, un banco, la administración", "vous"],
+        ["Con el jefe o en una entrevista de trabajo", "vous"],
+        ["Un grupo de amigos a los que tutearías uno a uno", "vous (es el plural de tu)"]
+      ],
+      "note": "Ante la duda, empieza siempre por vous: pasar de vous a tu está bien visto; hacerlo al revés, no."
+    },
+    {
+      "type": "contrast",
+      "title": "Vous no es solo «usted»",
+      "items": [
+        { "wrong": "Pensar que vous solo sirve para hablar de usted, formal", "right": "vous es también «vosotros/ustedes», sea cual sea la confianza", "why": "Si hablas con dos amigos a la vez, aunque a cada uno lo tutearías por separado, el verbo se conjuga en vous: «Vous venez ce soir ?» (¿Venís esta noche?), no «tu venez»." },
+        { "wrong": "Tutear automáticamente a un adulto desconocido, como en español informal", "right": "empezar con vous y esperar a que la otra persona proponga tutearse", "why": "En francés el paso de vous a tu suele ser explícito: alguien lo propone con «on peut se tutoyer ?» antes de cambiar." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Los verbos **tutoyer** (tutear) y **vouvoyer** (tratar de usted) sirven para hablar de esto en francés: «On se tutoie ?» o «On peut se tutoyer ?» es la fórmula para proponer pasar a tu. La respuesta típica es «Oui, avec plaisir !» (¡sí, con mucho gusto!)."
+    },
+    {
+      "type": "culture",
+      "title": "El vous que dura años",
+      "body": "En muchas empresas francesas, sobre todo las más tradicionales, dos compañeros pueden tratarse de vous durante años, incluso siendo amigables. No es frialdad: es una costumbre de respeto profesional que convive perfectamente con una buena relación. Si tu interlocutor no te ha propuesto tutearte, mantener el vous no es exagerado ni raro."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "tu",
+      "es": "tú",
+      "ipa": "/ty/",
+      "esApprox": "«tü»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Tu es français ?", "es": "¿Eres francés?" }
+    },
+    {
+      "id": "v2",
+      "target": "vous",
+      "es": "usted / vosotros / ustedes",
+      "ipa": "/vu/",
+      "esApprox": "«vu»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Vous êtes français ?", "es": "¿Es usted francés? / ¿Sois franceses?" }
+    },
+    {
+      "id": "v3",
+      "target": "tutoyer",
+      "es": "tutear",
+      "ipa": "/ty.twa.je/",
+      "esApprox": "«tü-tua-YÉ»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "On peut se tutoyer, si tu veux.", "es": "Nos podemos tutear, si quieres." }
+    },
+    {
+      "id": "v4",
+      "target": "vouvoyer",
+      "es": "tratar de usted",
+      "ipa": "/vu.vwa.je/",
+      "esApprox": "«vu-vua-YÉ»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Je préfère vous vouvoyer, si ça ne vous dérange pas.", "es": "Prefiero tratarle de usted, si no le importa." }
+    },
+    {
+      "id": "v5",
+      "target": "on peut se tutoyer ?",
+      "es": "¿nos podemos tutear?",
+      "ipa": "/ɔ̃ pø sə ty.twa.je/",
+      "esApprox": "«on peu se tü-tua-YÉ»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "On peut se tutoyer ? On a le même âge !", "es": "¿Nos podemos tutear? ¡Tenemos la misma edad!" }
+    },
+    {
+      "id": "v6",
+      "target": "avec plaisir",
+      "es": "con mucho gusto",
+      "ipa": "/a.vɛk plɛ.ziʁ/",
+      "esApprox": "«a-VEK ple-SIR»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "— On se tutoie ? — Avec plaisir !", "es": "—¿Nos tuteamos? —¡Con mucho gusto!" }
+    },
+    {
+      "id": "v7",
+      "target": "un collègue / une collègue",
+      "es": "un compañero, una compañera de trabajo",
+      "ipa": "/œ̃ kɔ.lɛɡ/",
+      "esApprox": "«un ko-LEG»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des collègues",
+      "example": { "target": "C'est un collègue de bureau.", "es": "Es un compañero de la oficina." }
+    },
+    {
+      "id": "v8",
+      "target": "un inconnu / une inconnue",
+      "es": "un desconocido, una desconocida",
+      "ipa": "/œ̃.n‿ɛ̃.kɔ.ny/",
+      "esApprox": "«un-nen-ko-NÜ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des inconnus",
+      "example": { "target": "Ne parle pas à des inconnus.", "es": "No hables con desconocidos." }
+    },
+    {
+      "id": "v9",
+      "target": "poli / polie",
+      "es": "educado, educada",
+      "ipa": "/pɔ.li/",
+      "esApprox": "«po-LI»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "C'est plus poli de dire vous.", "es": "Es más educado decir usted." }
+    },
+    {
+      "id": "v10",
+      "target": "familier / familière",
+      "es": "familiar, informal (registro)",
+      "ipa": "/fa.mi.lje / fa.mi.ljɛʁ/",
+      "esApprox": "«fa-mi-LIÉ» / «fa-mi-LIER»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Tu, c'est plus familier que vous.", "es": "Tu es más informal que vous." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["tu-vous"],
+      "difficulty": 1,
+      "prompt": "Estás en una tienda hablando con la dependienta, a quien no conoces. ¿Qué usas?",
+      "options": ["tu", "vous"],
+      "answer": 1,
+      "explain": "Con desconocidos adultos, en tiendas y comercios, se usa vous."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["tu-vous"],
+      "difficulty": 1,
+      "prompt": "Le hablas a tu sobrino de ocho años. ¿Qué usas?",
+      "options": ["tu", "vous"],
+      "answer": 0,
+      "explain": "Con niños se usa tu, aunque no los conozcas de nada."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "statement": "Vous se usa también para hablar con varios amigos a la vez, aunque a cada uno lo tutees por separado.",
+      "answer": true,
+      "explain": "Vous es el plural de tu: da igual la confianza, el plural siempre es vous."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "prompt": "¿En cuál de estas situaciones NO empezarías con vous?",
+      "options": ["una entrevista de trabajo", "preguntar una dirección a un desconocido", "hablar con tu prima pequeña", "hablar con el médico"],
+      "answer": 2,
+      "explain": "Con familia, aunque sea pequeña, se usa tu desde el principio."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["tutoyer", "vouvoyer", "un inconnu", "un collègue"],
+      "right": ["un compañero de trabajo", "tutear", "un desconocido", "tratar de usted"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Tutoyer = tutear, vouvoyer = tratar de usted, un inconnu = un desconocido, un collègue = un compañero."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "prompt": "¿Nos podemos tutear?",
+      "accept": ["On peut se tutoyer ?", "On se tutoie ?"],
+      "hintWords": ["on peut", "se tutoyer"],
+      "strictAccents": false,
+      "audio": "On peut se tutoyer ?",
+      "explain": "On peut se tutoyer ? es la fórmula estándar para proponer pasar a tu."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "prompt": "Prefiero tratarle de usted, si no le importa.",
+      "accept": ["Je préfère vous vouvoyer, si ça ne vous dérange pas"],
+      "hintWords": ["je préfère", "vous vouvoyer"],
+      "strictAccents": false,
+      "audio": "Je préfère vous vouvoyer, si ça ne vous dérange pas.",
+      "explain": "Vouvoyer = tratar de usted a alguien. Es perfectamente normal preferir mantener el vous."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "prompt": "Completa la respuesta a la propuesta de tutearse",
+      "text": "— On se tutoie ? — Oui, avec ___ !",
+      "blanks": [{ "accept": ["plaisir"] }],
+      "bank": ["plaisir", "collègue", "poli"],
+      "explain": "Avec plaisir = con mucho gusto, la respuesta habitual a on se tutoie ?."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la pregunta: «¿Sois franceses?» (a un grupo)",
+      "tokens": ["français", "êtes", "Vous", "?"],
+      "answer": ["Vous", "êtes", "français", "?"],
+      "audio": "Vous êtes français ?",
+      "explain": "Al preguntar a un grupo, se usa vous aunque a cada uno lo tutees por separado."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["tu-vous"],
+      "difficulty": 1,
+      "prompt": "C'est plus poli de dire vous à un inconnu.",
+      "accept": ["Es más educado decir usted a un desconocido."],
+      "strictAccents": false,
+      "audio": "C'est plus poli de dire vous à un inconnu.",
+      "explain": "Poli = educado; un inconnu = un desconocido."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación: dos personas de tu misma edad se conocen",
+      "turns": [
+        { "who": "Julien", "text": "On a le même âge, on peut se tutoyer ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, avec plaisir !", "Oui, bien sûr !"], "hint": "acepta con «avec plaisir»" },
+        { "who": "Julien", "text": "Super, alors... tu habites où ?", "speak": true }
+      ],
+      "explain": "Tras aceptar tutearse, el resto de la conversación sigue en tu."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["tu-vous"],
+      "difficulty": 1,
+      "speak": "On peut se tutoyer ?",
+      "mode": "write",
+      "accept": ["On peut se tutoyer ?"],
+      "showTextAfter": true,
+      "explain": "On peut se tutoyer ? propone pasar del vous al tu."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["tu-vous"],
+      "difficulty": 1,
+      "speak": "un collègue",
+      "mode": "choose",
+      "options": ["un collègue", "un inconnu", "un enfant", "un ami"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Un collègue = un compañero de trabajo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "speak": "Excusez-moi, vous êtes français ? On peut se tutoyer, si vous voulez.",
+      "es": "Disculpe, ¿es usted francés? Nos podemos tutear, si quiere.",
+      "ipa": "/ɛk.sky.ze mwa vu.z‿ɛt fʁɑ̃.sɛ ɔ̃ pø sə ty.twa.je si vu vu.le/",
+      "esApprox": "«eks-kü-ZÉ MUÁ vu-ZET fran-SÉ on peu se tü-tua-YÉ si vu vu-LÉ»",
+      "focus": "Vous êtes se enlaza: «vu-ZET», la s de vous suena como z antes de vocal.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "prompt": "Conoces a alguien de tu misma edad en una fiesta y quieres proponerle tutearos.",
+      "modelAnswer": "On peut se tutoyer, si tu veux ?",
+      "alsoValid": ["On se tutoie ?"],
+      "speak": "On peut se tutoyer, si tu veux ?",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["tu-vous"],
+      "difficulty": 1,
+      "prompt": "¿Con esta persona usarías tu o vous, por defecto?",
+      "buckets": ["tu", "vous"],
+      "items": [
+        { "text": "tu hermana", "bucket": 0 },
+        { "text": "el médico", "bucket": 1 },
+        { "text": "un niño de seis años", "bucket": 0 },
+        { "text": "un desconocido por la calle", "bucket": 1 },
+        { "text": "tu mejor amigo", "bucket": 0 },
+        { "text": "el entrevistador de un trabajo", "bucket": 1 }
+      ],
+      "explain": "Familia, amigos y niños: tu. Desconocidos adultos y contextos formales: vous."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["tu-vous"],
+      "difficulty": 2,
+      "prompt": "Hay un error de registro. Corrige la frase entera.",
+      "wrong": "Bonjour madame, tu vas bien ?",
+      "accept": ["Bonjour madame, vous allez bien ?"],
+      "audio": "Bonjour madame, vous allez bien ?",
+      "explain": "Con «madame», desconocida y en registro formal, se usa vous, no tu."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "tutoyer", "es": "tutear", "esApprox": "«tü-tua-YÉ»", "from": "v3" },
+    { "id": "s2", "kind": "word", "target": "vouvoyer", "es": "tratar de usted", "esApprox": "«vu-vua-YÉ»", "from": "v4" },
+    { "id": "s3", "kind": "word", "target": "on peut se tutoyer ?", "es": "¿nos podemos tutear?", "esApprox": "«on peu se tü-tua-YÉ»", "from": "v5" },
+    { "id": "s4", "kind": "word", "target": "avec plaisir", "es": "con mucho gusto", "esApprox": "«a-VEK ple-SIR»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "un collègue", "es": "un compañero de trabajo", "esApprox": "«un ko-LEG»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "un inconnu", "es": "un desconocido", "esApprox": "«un-nen-ko-NÜ»", "from": "v8" },
+    { "id": "s7", "kind": "word", "target": "poli / polie", "es": "educado, educada", "esApprox": "«po-LI»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "On peut se tutoyer ?", "es": "¿Nos podemos tutear?", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Excusez-moi, vous êtes français ? On peut se tutoyer, si vous voulez.", "es": "Disculpe, ¿es usted francés? Nos podemos tutear, si quiere.", "from": "e14" }
+  ]
+}

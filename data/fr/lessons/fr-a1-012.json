@@ -1,0 +1,357 @@
+{
+  "id": "fr-a1-012",
+  "lang": "fr",
+  "level": "A1",
+  "order": 12,
+  "title": "Los artículos indefinidos: un, une, des",
+  "objectives": [
+    "Elegir entre un, une y des según el género y el número del sustantivo",
+    "Diferenciar el artículo indefinido (algo no concreto) del definido ya visto (algo concreto)",
+    "Reconocer que, a diferencia del español, el francés casi nunca deja un sustantivo contable sin artículo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un, une, des: algo no concreto",
+      "body": "El artículo indefinido se usa para algo no determinado, la primera vez que se menciona o cuando no importa cuál exactamente: **un** (masculino singular), **une** (femenino singular), **des** (plural, masculino o femenino). Es el equivalente a «un/una/unos/unas» en español.",
+      "examples": [
+        { "target": "J'ai un frère.", "es": "Tengo un hermano.", "note": "no se sabe cuál en concreto, solo que tienes uno" },
+        { "target": "J'ai une sœur.", "es": "Tengo una hermana.", "note": "femenino" },
+        { "target": "J'ai des amis à Paris.", "es": "Tengo unos amigos en París.", "note": "plural" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Definido frente a indefinido",
+      "headers": ["", "Indefinido (algo no concreto)", "Definido (algo concreto)"],
+      "rows": [
+        ["Masculino sg.", "un livre", "le livre"],
+        ["Femenino sg.", "une maison", "la maison"],
+        ["Plural", "des livres / des maisons", "les livres / les maisons"]
+      ],
+      "note": "Un/une/des se usa la primera vez que hablas de algo; le/la/les cuando ya se sabe de qué hablas."
+    },
+    {
+      "type": "contrast",
+      "title": "El francés casi nunca deja un sustantivo desnudo",
+      "items": [
+        { "wrong": "J'ai chat.", "right": "J'ai un chat.", "why": "A diferencia del español, que a veces omite el artículo indefinido («tengo perro»), el francés casi siempre necesita un/une/des delante de un sustantivo contable." },
+        { "wrong": "Pensar que «je suis étudiant» necesita un artículo, como «j'ai un frère»", "right": "je suis étudiant (sin artículo), pero j'ai un frère (con artículo)", "why": "Después de être + profesión o nacionalidad, el francés no usa artículo (je suis étudiant, il est français). Con avoir + sustantivo sí hace falta: j'ai un frère. Es una excepción que solo afecta a être + profesión/nacionalidad." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco para recordar cuándo usar cada uno: la primera vez que mencionas algo, usa un/une/des; si vuelves a hablar de lo mismo, cambia a le/la/les. «J'ai un chat. Le chat s'appelle Milo» (Tengo un gato. El gato se llama Milo)."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "un frère",
+      "es": "un hermano",
+      "ipa": "/œ̃ fʁɛʁ/",
+      "esApprox": "«un FRER»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des frères",
+      "example": { "target": "J'ai un frère et une sœur.", "es": "Tengo un hermano y una hermana." }
+    },
+    {
+      "id": "v2",
+      "target": "une sœur",
+      "es": "una hermana",
+      "ipa": "/yn sœʁ/",
+      "esApprox": "«ün SEUR»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "des sœurs",
+      "example": { "target": "Ma sœur est étudiante.", "es": "Mi hermana es estudiante." }
+    },
+    {
+      "id": "v3",
+      "target": "un stylo",
+      "es": "un bolígrafo",
+      "ipa": "/œ̃ sti.lo/",
+      "esApprox": "«un sti-LÓ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des stylos",
+      "example": { "target": "J'ai un stylo dans le sac.", "es": "Tengo un bolígrafo en el bolso." }
+    },
+    {
+      "id": "v4",
+      "target": "une chaise",
+      "es": "una silla",
+      "ipa": "/yn ʃɛz/",
+      "esApprox": "«ün SHEZ»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "des chaises",
+      "example": { "target": "Il y a une chaise dans la chambre.", "es": "Hay una silla en la habitación." }
+    },
+    {
+      "id": "v5",
+      "target": "un chat",
+      "es": "un gato",
+      "ipa": "/œ̃ ʃa/",
+      "esApprox": "«un SHÁ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des chats",
+      "example": { "target": "J'ai un chat, il s'appelle Milo.", "es": "Tengo un gato, se llama Milo." }
+    },
+    {
+      "id": "v6",
+      "target": "une chose",
+      "es": "una cosa",
+      "ipa": "/yn ʃoz/",
+      "esApprox": "«ün SHÓZ»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "des choses",
+      "example": { "target": "J'ai une chose importante à dire.", "es": "Tengo una cosa importante que decir." }
+    },
+    {
+      "id": "v7",
+      "target": "des amis",
+      "es": "unos amigos",
+      "ipa": "/de.z‿ami/",
+      "esApprox": "«de-za-MÍ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des amis",
+      "example": { "target": "J'ai des amis à Paris.", "es": "Tengo unos amigos en París." }
+    },
+    {
+      "id": "v8",
+      "target": "des livres",
+      "es": "unos libros",
+      "ipa": "/de livʁ/",
+      "esApprox": "«de LIVR»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des livres",
+      "example": { "target": "J'ai des livres en français.", "es": "Tengo unos libros en francés." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "prompt": "¿Qué artículo indefinido lleva «frère» (hermano, masculino)?",
+      "options": ["un", "une", "des", "le"],
+      "answer": 0,
+      "explain": "Frère es masculino singular: un frère."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "¿Qué artículo lleva «amis» en plural indefinido?",
+      "options": ["un", "une", "des", "les"],
+      "answer": 2,
+      "explain": "En plural indefinido, tanto masculino como femenino usan des."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "statement": "Después de «je suis» + profesión, el francés no usa artículo: je suis étudiant.",
+      "answer": true,
+      "explain": "Être + profesión/nacionalidad no lleva artículo, a diferencia de avoir + sustantivo."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos artículos con sustantivo es femenino, a diferencia de los demás?",
+      "options": ["un frère", "un stylo", "une chaise", "un chat"],
+      "answer": 2,
+      "explain": "Une chaise es femenino; frère, stylo y chat son masculinos."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "prompt": "Une cada frase con su traducción",
+      "left": ["un frère", "une sœur", "des amis", "un chat"],
+      "right": ["un gato", "un hermano", "una hermana", "unos amigos"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Un frère = un hermano, une sœur = una hermana, des amis = unos amigos, un chat = un gato."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Tengo un hermano y una hermana.",
+      "accept": ["J'ai un frère et une sœur"],
+      "hintWords": ["un frère", "une sœur"],
+      "strictAccents": false,
+      "audio": "J'ai un frère et une sœur.",
+      "explain": "Un frère (masculino) y une sœur (femenino), cada uno con su artículo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Tengo unos libros en francés.",
+      "accept": ["J'ai des livres en français"],
+      "hintWords": ["des livres"],
+      "strictAccents": false,
+      "audio": "J'ai des livres en français.",
+      "explain": "Des livres: plural indefinido, sin distinguir género."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo correcto",
+      "text": "J'ai ___ chat et ___ chaise dans la chambre.",
+      "blanks": [{ "accept": ["un"] }, { "accept": ["une"] }],
+      "bank": ["un", "une", "des"],
+      "explain": "Un chat (masculino), une chaise (femenino)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tengo una cosa importante»",
+      "tokens": ["importante", "J'ai", "chose", "une"],
+      "answer": ["J'ai", "une", "chose", "importante"],
+      "audio": "J'ai une chose importante.",
+      "explain": "J'ai + une + sustantivo + adjetivo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "prompt": "J'ai un chat, il s'appelle Milo.",
+      "accept": ["Tengo un gato, se llama Milo."],
+      "strictAccents": false,
+      "audio": "J'ai un chat, il s'appelle Milo.",
+      "explain": "Un chat = un gato; una vez presentado, se puede sustituir por il."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre la familia",
+      "turns": [
+        { "who": "Léa", "text": "Tu as des frères et sœurs ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai un frère et une sœur.", "Oui, j'ai une sœur."], "hint": "di si tienes un hermano y/o una hermana" },
+        { "who": "Léa", "text": "Super, moi j'ai des amis, mais pas de frères.", "speak": true }
+      ],
+      "explain": "Des frères et sœurs es el plural indefinido para hablar de hermanos en general."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["articulos"],
+      "difficulty": 1,
+      "speak": "J'ai un frère et une sœur.",
+      "mode": "write",
+      "accept": ["J'ai un frère et une sœur"],
+      "showTextAfter": true,
+      "explain": "Un frère (masculino) y une sœur (femenino)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "speak": "des amis",
+      "mode": "choose",
+      "options": ["des amis", "un ami", "les amis", "l'ami"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Des amis, con la liaison «de-za-MÍ», es el plural indefinido."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "speak": "J'ai un frère, une sœur, un chat et des amis à Paris.",
+      "es": "Tengo un hermano, una hermana, un gato y unos amigos en París.",
+      "ipa": "/ʒe œ̃ fʁɛʁ yn sœʁ œ̃ ʃa e de.z‿ami a pa.ʁi/",
+      "esApprox": "«ye un FRER ün SEUR un SHÁ e de-za-MÍ a pa-RÍ»",
+      "focus": "Des amis se enlaza: «de-za-MÍ», con la s de des sonando como z.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Di en voz alta que tienes un hermano, un gato y unos amigos en París.",
+      "modelAnswer": "J'ai un frère, un chat et des amis à Paris.",
+      "alsoValid": ["J'ai une sœur, un chat et des amis à Paris."],
+      "speak": "J'ai un frère, un chat et des amis à Paris.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "gender_article",
+      "tags": ["articulos", "genero"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo indefinido correcto",
+      "items": [
+        { "word": "frère", "options": ["un", "une"], "answer": 0 },
+        { "word": "sœur", "options": ["un", "une"], "answer": 1 },
+        { "word": "stylo", "options": ["un", "une"], "answer": 0 },
+        { "word": "chaise", "options": ["un", "une"], "answer": 1 }
+      ],
+      "explain": "Un para masculino (frère, stylo), une para femenino (sœur, chaise)."
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "¿Esta frase usa el artículo definido (algo concreto) o el indefinido (algo no concreto)?",
+      "buckets": ["Definido", "Indefinido"],
+      "items": [
+        { "text": "j'ai un chat", "bucket": 1 },
+        { "text": "le chat est content", "bucket": 0 },
+        { "text": "j'ai une sœur", "bucket": 1 },
+        { "text": "la sœur de Léa", "bucket": 0 },
+        { "text": "des amis", "bucket": 1 }
+      ],
+      "explain": "Un/une/des presentan algo no concreto; le/la/les se refieren a algo ya conocido."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "J'ai chat.",
+      "accept": ["J'ai un chat"],
+      "audio": "J'ai un chat.",
+      "explain": "El francés casi nunca deja un sustantivo contable sin artículo: hace falta un chat, no chat a secas."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "un frère", "es": "un hermano", "esApprox": "«un FRER»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "une sœur", "es": "una hermana", "esApprox": "«ün SEUR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un stylo", "es": "un bolígrafo", "esApprox": "«un sti-LÓ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "une chaise", "es": "una silla", "esApprox": "«ün SHEZ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un chat", "es": "un gato", "esApprox": "«un SHÁ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "une chose", "es": "una cosa", "esApprox": "«ün SHÓZ»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "des amis", "es": "unos amigos", "esApprox": "«de-za-MÍ»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai un frère et une sœur.", "es": "Tengo un hermano y una hermana.", "from": "e6" },
+    { "id": "s9", "kind": "phrase", "target": "J'ai un frère, une sœur, un chat et des amis à Paris.", "es": "Tengo un hermano, una hermana, un gato y unos amigos en París.", "from": "e14" }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-102",
+  "lang": "de",
+  "level": "A2",
+  "order": 102,
+  "title": "El adjetivo tras el artículo definido: dativo y genitivo",
+  "objectives": [
+    "Aprender que, tras der/die/das, el adjetivo lleva siempre -en en dativo y genitivo",
+    "Reconocer que dativo y genitivo comparten la misma terminación de adjetivo en este patrón",
+    "Aplicar -en en los tres géneros y el plural sin distinción"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dativo y genitivo: siempre -en",
+      "body": "Después de der/die/das, el dativo y el genitivo son los dos casos más fáciles de recordar para el adjetivo: SIEMPRE llevan -en, sin importar el género ni el número. Esto es coherente con lo que ya sabes: en dativo, el artículo también cambia mucho (dem, der, dem, den), y el adjetivo simplemente copia esa terminación -en.",
+      "examples": [
+        { "target": "Ich helfe dem großen Mann.", "es": "Ayudo al hombre grande.", "note": "dativo masculino: -en" },
+        { "target": "die Farbe des neuen Autos", "es": "el color del coche nuevo", "note": "genitivo neutro: -en" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Terminaciones tras der/die/das (Dativ y Genitiv)",
+      "headers": ["Caso", "Masculino", "Femenino", "Neutro", "Plural"],
+      "rows": [
+        ["Dativ", "dem großen Mann", "der großen Frau", "dem großen Kind", "den großen Kindern"],
+        ["Genitiv", "des großen Mannes", "der großen Frau", "des großen Kindes", "der großen Kinder"]
+      ],
+      "note": "El adjetivo es siempre -en; lo que cambia es el artículo (dem/der/dem/den, des/der/des/der)."
+    },
+    {
+      "type": "tip",
+      "body": "No necesitas usar el genitivo activamente todavía (lo verás en la clase 113); por ahora, memoriza solo que la terminación del adjetivo es -en en dativo y en genitivo, tras der/die/das, sin excepciones."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Farbe", "es": "el color", "ipa": "/ˈfaʁbə/", "esApprox": "«FAR-be»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Farbe des Autos ist rot.", "es": "El color del coche es rojo." } },
+    { "id": "v2", "target": "helfen", "es": "ayudar", "ipa": "/ˈhɛlfn̩/", "esApprox": "«JÉL-fen»", "pos": "verbo", "gender": null, "example": { "target": "Ich helfe dem großen Mann.", "es": "Ayudo al hombre grande." } },
+    { "id": "v3", "target": "gehören", "es": "pertenecer", "ipa": "/ɡəˈhøːʁən/", "esApprox": "«ge-JÖ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Das gehört der alten Dame.", "es": "Eso pertenece a la señora mayor." } },
+    { "id": "v4", "target": "die Dame", "es": "la señora, la dama", "ipa": "/ˈdaːmə/", "esApprox": "«DÁ-me»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die alte Dame ist freundlich.", "es": "La señora mayor es amable." } },
+    { "id": "v5", "target": "immer", "es": "siempre", "ipa": "/ˈɪmɐ/", "esApprox": "«Í-mer»", "pos": "adverbio", "gender": null, "example": { "target": "Nach der/dem ist die Endung immer -en.", "es": "Tras der/dem, la terminación es siempre -en." } },
+    { "id": "v6", "target": "ausnahmslos", "es": "sin excepción", "ipa": "/ˈaʊ̯snaːmsloːs/", "esApprox": "«ÁUS-nams-los»", "pos": "adverbio", "gender": null, "example": { "target": "Das gilt ausnahmslos.", "es": "Eso vale sin excepción." } },
+    { "id": "v7", "target": "der Besitzer", "es": "el propietario", "ipa": "/bəˈzɪtsɐ/", "esApprox": "«be-ZÍT-tser»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wer ist der Besitzer des Autos?", "es": "¿Quién es el propietario del coche?" } },
+    { "id": "v8", "target": "gleich", "es": "igual", "ipa": "/ɡlaɪ̯ç/", "esApprox": "«glaich»", "pos": "adjetivo", "gender": null, "example": { "target": "Die Endung ist gleich.", "es": "La terminación es igual." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 1, "prompt": "¿Qué terminación lleva el adjetivo en dativo, tras der/die/das?", "options": ["-e", "-en", "-er", "-es"], "answer": 1, "explain": "Siempre -en en dativo, tras der/die/das." },
+    { "id": "e2", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "¿Qué terminación lleva el adjetivo en genitivo, tras der/die/das?", "options": ["-en", "-e", "-es", "-er"], "answer": 0, "explain": "Igual que en dativo: siempre -en." },
+    { "id": "e3", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "En dativo y genitivo, tras der/die/das, la terminación del adjetivo es siempre -en, sin importar el género.", "answer": true, "explain": "Es la regla más simple de toda la declinación del adjetivo." },
+    { "id": "e4", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "El sustantivo masculino y neutro añaden -s o -es en genitivo singular.", "answer": true, "explain": "des großen Mannes, des großen Kindes: el sustantivo mismo también cambia en genitivo (repaso de la clase 113)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Une cada frase con su caso", "left": ["dem großen Mann", "der großen Frau", "des großen Mannes", "den großen Kindern"], "right": ["dativo masculino", "dativo femenino", "genitivo masculino", "dativo plural"], "answer": [0, 1, 2, 3], "explain": "Todas terminan en -en en el adjetivo, cambia solo el artículo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Ayudo al hombre grande.", "accept": ["Ich helfe dem großen Mann"], "hintWords": ["ich helfe dem großen Mann"], "strictAccents": false, "audio": "Ich helfe dem großen Mann.", "explain": "helfen + dativo (dem großen Mann), con -en en el adjetivo." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Eso pertenece a la señora mayor.", "accept": ["Das gehört der alten Dame"], "hintWords": ["das gehört der alten Dame"], "strictAccents": false, "audio": "Das gehört der alten Dame.", "explain": "gehören + dativo (der alten Dame), con -en en el adjetivo." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "El color del coche nuevo es rojo.", "accept": ["Die Farbe des neuen Autos ist rot"], "hintWords": ["die Farbe des neuen Autos ist rot"], "strictAccents": false, "audio": "Die Farbe des neuen Autos ist rot.", "explain": "des neuen Autos: genitivo neutro, con -en en el adjetivo." },
+    { "id": "e9", "type": "fill_blank", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa con la terminación correcta", "text": "Ich helfe der alt___ Dame. (dativo, femenino) Das gehört dem klein___ Kind. (dativo, neutro)", "blanks": [{ "accept": ["en"] }, { "accept": ["en"] }], "bank": ["en", "e", "es"], "explain": "En dativo, siempre -en, sea cual sea el género." },
+    { "id": "e10", "type": "word_order", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Ordena: «¿Quién es el propietario del coche nuevo?»", "tokens": ["ist", "des neuen Autos", "der Besitzer", "Wer"], "answer": ["Wer", "ist", "der Besitzer", "des neuen Autos"], "audio": "Wer ist der Besitzer des neuen Autos?", "explain": "Wer ist der Besitzer des neuen Autos?: pregunta con genitivo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Das gilt ausnahmslos.", "accept": ["Eso vale sin excepción."], "strictAccents": false, "audio": "Das gilt ausnahmslos.", "explain": "ausnahmslos = sin excepción." },
+    { "id": "e12", "type": "dialogue", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Tom", "text": "Wem gehört das Auto?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das gehört der alten Dame."], "hint": "responde con dativo y el adjetivo en -en" },
+      { "who": "Tom", "text": "Achso, verstehe!", "speak": true }
+    ], "explain": "Práctica de gehören + dativo con adjetivo declinado." },
+    { "id": "e13", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 1, "speak": "Ich helfe dem großen Mann.", "mode": "write", "accept": ["Ich helfe dem großen Mann"], "showTextAfter": true, "explain": "dem großen Mann: dativo con -en." },
+    { "id": "e14", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Das gehört der alten Dame.", "mode": "choose", "options": ["Das gehört der alten Dame.", "Das gehört die alte Dame.", "Das gehört der alte Dame."], "answer": 0, "showTextAfter": true, "explain": "Solo «der alten Dame» combina correctamente el dativo femenino con -en." },
+    { "id": "e15", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Ich helfe dem großen Mann und der alten Dame, weil sie meine Nachbarn sind.", "es": "Ayudo al hombre grande y a la señora mayor, porque son mis vecinos.", "ipa": "/ɪç ˈhɛlfə deːm ˈɡʁoːsn̩ man ʊnt deːɐ̯ ˈaltn̩ ˈdaːmə vaɪ̯l ziː ˈmaɪ̯nə ˈnaːxbaʁn̩ zɪnt/", "esApprox": "«ich JÉL-fe dem GRÓ-sen man unt der ÁL-ten DÁ-me, vail zi MÁI-ne NACH-bar-n zint»", "focus": "dem großen Mann (masculino) y der alten Dame (femenino): ambos con -en en dativo, aunque el artículo cambie.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Die Farbe des neuen Autos gefällt mir, und der Besitzer des alten Hauses ist mein Nachbar.", "es": "Me gusta el color del coche nuevo, y el propietario de la casa vieja es mi vecino.", "ipa": "/diː ˈfaʁbə dɛs ˈnɔɪ̯ən ˈaʊ̯tos ɡəˈfɛlt miːɐ̯ ʊnt deːɐ̯ bəˈzɪtsɐ dɛs ˈaltn̩ ˈhaʊ̯zəs ɪst maɪ̯n ˈnaːxbaʁ/", "esApprox": "«di FAR-be des NÓI-en ÁU-tos ge-FÉLT mir, unt der be-ZÍT-tser des ÁL-ten JÁU-zes ist main NACH-bar»", "focus": "des neuen Autos y des alten Hauses: genitivo neutro, ambos con -en en el adjetivo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Te preguntan a quién pertenece el coche. Di que pertenece a la señora mayor.", "modelAnswer": "Das gehört der alten Dame.", "alsoValid": ["Es gehört der alten Dame."], "speak": "Das gehört der alten Dame.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Clasifica cada frase: nominativo/acusativo (con -e) o dativo/genitivo (con -en)", "buckets": ["Nominativ/Akkusativ (-e)", "Dativ/Genitiv (-en)"], "items": [
+      { "text": "die große Frau", "bucket": 0 },
+      { "text": "der großen Frau", "bucket": 1 },
+      { "text": "das neue Auto", "bucket": 0 },
+      { "text": "dem neuen Auto", "bucket": 1 }
+    ], "explain": "Nominativo/acusativo femenino-neutro llevan -e; dativo y genitivo siempre -en." },
+    { "id": "e19", "type": "error_correction", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich helfe dem große Mann.", "accept": ["Ich helfe dem großen Mann"], "audio": "Ich helfe dem großen Mann.", "explain": "Tras «dem» (dativo), el adjetivo siempre lleva -en, no -e." },
+    { "id": "e20", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "«Ich helfe dem großen Mann und der alten Dame. Die Farbe des neuen Autos gefällt mir sehr.» ¿Qué terminación tiene el adjetivo en «des neuen Autos» y por qué?", "options": ["-en, porque es genitivo", "-e, porque es nominativo", "-es, porque es neutro nominativo", "-er, porque es masculino"], "answer": 0, "explain": "des neuen Autos: genitivo, siempre -en tras der/die/das (aquí des, la forma genitiva)." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Farbe", "es": "el color", "esApprox": "«FAR-be»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "helfen", "es": "ayudar", "esApprox": "«JÉL-fen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "gehören", "es": "pertenecer", "esApprox": "«ge-JÖ-ren»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Dame", "es": "la señora, la dama", "esApprox": "«DÁ-me»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "ausnahmslos", "es": "sin excepción", "esApprox": "«ÁUS-nams-los»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Besitzer", "es": "el propietario", "esApprox": "«be-ZÍT-tser»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich helfe dem großen Mann und der alten Dame, weil sie meine Nachbarn sind.", "es": "Ayudo al hombre grande y a la señora mayor, porque son mis vecinos.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Farbe des neuen Autos gefällt mir, und der Besitzer des alten Hauses ist mein Nachbar.", "es": "Me gusta el color del coche nuevo, y el propietario de la casa vieja es mi vecino.", "from": "e16" }
+  ]
+}

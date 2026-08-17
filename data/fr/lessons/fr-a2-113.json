@@ -1,0 +1,254 @@
+{
+  "id": "fr-a2-113",
+  "lang": "fr",
+  "level": "A2",
+  "order": 113,
+  "title": "El pronombre en: para cantidades y para \"de eso\"",
+  "objectives": [
+    "Usar en para sustituir du/de la/de l'/des + sustantivo (clase A1-57)",
+    "Usar en con cantidades y números: j'en ai trois, je n'en ai pas",
+    "Usar en para sustituir de + sustantivo con verbos como parler de, avoir besoin de"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "En: un pronombre muy útil",
+      "body": "En sustituye a du/de la/de l'/des + sustantivo (el partitivo, clase A1-57), o a de + sustantivo con verbos como parler de o avoir besoin de. Va siempre antes del verbo, como le/la/les (clase A1-82).",
+      "examples": [
+        { "target": "Tu veux du café ? Oui, j'en veux bien.", "es": "¿Quieres café? Sí, quiero (un poco).", "note": "du café → en" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "En con cantidades",
+      "headers": ["Pregunta", "Respuesta"],
+      "rows": [
+        ["Tu as des frères ?", "Oui, j'en ai deux. / Non, je n'en ai pas."],
+        ["Tu veux du café ?", "Oui, j'en veux. / Non, merci, je n'en veux pas."],
+        ["Combien de livres as-tu ?", "J'en ai beaucoup."]
+      ],
+      "note": "Cuando hay un número o una cantidad (deux, beaucoup...), esa cantidad se mantiene después del verbo: j'en ai deux."
+    },
+    {
+      "type": "table",
+      "title": "En con verbos + de",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["parler de + cosa → en parler", "Il parle de son travail. → Il en parle."],
+        ["avoir besoin de + cosa → en avoir besoin", "J'ai besoin de ce livre. → J'en ai besoin."]
+      ],
+      "note": "En solo sustituye a de + cosa, nunca a de + persona (para personas se usa de lui/d'elle)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "en", "es": "de eso, de ello (pronombre)", "ipa": "/ɑ̃/", "esApprox": "«AN»", "pos": "pronombre", "gender": null, "example": { "target": "J'en veux bien.", "es": "Quiero (un poco)." } },
+    { "id": "v2", "target": "j'en ai besoin", "es": "lo necesito", "ipa": "/ʒɑ̃.n‿e bə.zwɛ̃/", "esApprox": "«yan-ne be-ZUEN»", "pos": "expresión", "gender": null, "example": { "target": "J'en ai besoin pour mon travail.", "es": "Lo necesito para mi trabajo." } },
+    { "id": "v3", "target": "j'en parle", "es": "hablo de eso", "ipa": "/ʒɑ̃ paʁl/", "esApprox": "«yan PARL»", "pos": "expresión", "gender": null, "example": { "target": "J'en parle souvent avec mes amis.", "es": "Hablo de eso a menudo con mis amigos." } },
+    { "id": "v4", "target": "combien de", "es": "cuántos/as de", "ipa": "/kɔ̃.bjɛ̃ də/", "esApprox": "«kon-BIEN de»", "pos": "expresión", "gender": null, "example": { "target": "Combien de frères as-tu ?", "es": "¿Cuántos hermanos tienes?" } },
+    { "id": "v5", "target": "avoir besoin de", "es": "necesitar", "ipa": "/a.vwaʁ bə.zwɛ̃ də/", "esApprox": "«a-VUÁR be-ZUEN de»", "pos": "expresión", "gender": null, "example": { "target": "J'ai besoin de temps.", "es": "Necesito tiempo." } },
+    { "id": "v6", "target": "beaucoup", "es": "mucho (cantidad)", "ipa": "/bo.ku/", "esApprox": "«bo-KÚ»", "pos": "adverbio", "gender": null, "example": { "target": "J'en ai beaucoup.", "es": "Tengo mucho(s)." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "¿Cómo respondes «sí, quiero (café)» a «tu veux du café ?»?",
+      "options": ["Oui, je le veux.", "Oui, j'en veux.", "Oui, j'y veux.", "Oui, je veux ça."],
+      "answer": 1,
+      "explain": "Du café → en."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «tengo dos» (hermanos)?",
+      "options": ["J'ai en deux.", "J'en ai deux.", "J'en deux ai.", "J'ai deux en."],
+      "answer": 1,
+      "explain": "En va antes del verbo; el número va después: j'en ai deux."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "statement": "En puede sustituir a de + cosa con verbos como parler de o avoir besoin de.",
+      "answer": true,
+      "explain": "Il parle de son travail → il en parle."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "statement": "En puede sustituir a de + persona.",
+      "answer": false,
+      "explain": "Para personas se usa de lui/d'elle, no en."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Une cada pregunta con su respuesta",
+      "left": ["Tu as des frères ?", "Tu veux du café ?", "Tu as besoin de ce livre ?", "Combien de livres as-tu ?"],
+      "right": ["J'en ai beaucoup.", "Oui, j'en ai deux.", "Oui, j'en veux bien.", "Oui, j'en ai besoin."],
+      "answer": [1, 2, 3, 0],
+      "explain": "En sustituye des frères, du café, de ce livre, y de livres."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "¿Tienes hermanos? Sí, tengo dos.",
+      "accept": ["Tu as des frères ? Oui, j'en ai deux"],
+      "hintWords": ["tu as des frères", "j'en ai deux"],
+      "strictAccents": true,
+      "audio": "Tu as des frères ? Oui, j'en ai deux.",
+      "explain": "Des frères → en, con el número deux después del verbo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Necesito este libro. Lo necesito para mi trabajo.",
+      "accept": ["J'ai besoin de ce livre. J'en ai besoin pour mon travail"],
+      "hintWords": ["j'ai besoin de ce livre", "j'en ai besoin pour mon travail"],
+      "strictAccents": true,
+      "audio": "J'ai besoin de ce livre. J'en ai besoin pour mon travail.",
+      "explain": "De ce livre → en, con avoir besoin."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto",
+      "text": "Tu veux du café ? Non merci, je n'___ veux pas.",
+      "blanks": [{ "accept": ["en"] }],
+      "bank": ["en", "y", "le"],
+      "explain": "Du café → en, incluso en la negación."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hablo de eso a menudo con mis amigos»",
+      "tokens": ["avec mes amis", "souvent", "J'en parle"],
+      "answer": ["J'en parle", "souvent", "avec mes amis"],
+      "audio": "J'en parle souvent avec mes amis.",
+      "explain": "J'en parle + souvent + avec mes amis."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Combien de livres as-tu ? — J'en ai beaucoup, mais je n'en ai pas lu la moitié.",
+      "accept": ["¿Cuántos libros tienes? —Tengo muchos, pero no he leído la mitad."],
+      "strictAccents": false,
+      "audio": "Combien de livres as-tu ? — J'en ai beaucoup, mais je n'en ai pas lu la moitié.",
+      "explain": "En, usado dos veces con matices distintos."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus hermanos",
+      "turns": [
+        { "who": "Léa", "text": "Tu as des frères et sœurs ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'en ai deux.", "Non, je n'en ai pas."], "hint": "usa en" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Tu as des frères et sœurs ? se responde con en."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "speak": "J'en ai besoin pour mon travail, et j'en parle souvent avec mon patron.",
+      "mode": "write",
+      "accept": ["J'en ai besoin pour mon travail, et j'en parle souvent avec mon patron"],
+      "showTextAfter": true,
+      "explain": "En, usado dos veces con verbos distintos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronombres", "en"],
+      "difficulty": 1,
+      "speak": "j'en ai deux",
+      "mode": "choose",
+      "options": ["je l'ai deux", "j'en ai deux", "j'y ai deux", "j'ai en deux"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'en ai deux = tengo dos."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronombres", "en"],
+      "difficulty": 3,
+      "speak": "Tu veux du café ? Oui, j'en veux bien. Tu as des frères ? Oui, j'en ai deux. J'en parle souvent avec eux.",
+      "es": "¿Quieres café? Sí, quiero un poco. ¿Tienes hermanos? Sí, tengo dos. Hablo de eso a menudo con ellos.",
+      "ipa": "/ty vø dy ka.fe wi ʒɑ̃ vø bjɛ̃ ty a de fʁɛʁ wi ʒɑ̃.n‿e dø ʒɑ̃ paʁl su.vɑ̃ a.vɛk ø/",
+      "esApprox": "«tü veu dü ka-FÉ UÍ yan veu BIEN tü a de FRER UÍ yan-ne DEU yan PARL su-VAN a-VEK EU»",
+      "focus": "El pronombre en usado tres veces con matices distintos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Di cuántos hermanos tienes y si necesitas algo hoy, usando en.",
+      "modelAnswer": "J'ai des frères, j'en ai deux, et j'ai besoin de temps aujourd'hui, j'en ai vraiment besoin.",
+      "alsoValid": ["Je n'ai pas de frères, je n'en ai pas."],
+      "speak": "J'ai des frères, j'en ai deux, et j'ai besoin de temps aujourd'hui, j'en ai vraiment besoin.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "¿En sustituye a una cantidad o a de + cosa?",
+      "buckets": ["Cantidad", "De + cosa"],
+      "items": [
+        { "text": "J'en ai deux. (des frères)", "bucket": 0 },
+        { "text": "J'en parle. (de mon travail)", "bucket": 1 },
+        { "text": "J'en veux beaucoup. (du café)", "bucket": 0 },
+        { "text": "J'en ai besoin. (de ce livre)", "bucket": 1 }
+      ],
+      "explain": "En sustituye tanto cantidades partitivas como de + cosa con ciertos verbos."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Hay un error de posición. Corrige la frase entera.",
+      "wrong": "J'ai en deux.",
+      "accept": ["J'en ai deux"],
+      "audio": "J'en ai deux.",
+      "explain": "En va antes del verbo, no después."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "en", "es": "de eso, de ello (pronombre)", "esApprox": "«AN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'en ai besoin", "es": "lo necesito", "esApprox": "«yan-ne be-ZUEN»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "j'en parle", "es": "hablo de eso", "esApprox": "«yan PARL»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "combien de", "es": "cuántos/as de", "esApprox": "«kon-BIEN de»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "avoir besoin de", "es": "necesitar", "esApprox": "«a-VUÁR be-ZUEN de»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Tu as des frères ? Oui, j'en ai deux.", "es": "¿Tienes hermanos? Sí, tengo dos.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai besoin de ce livre. J'en ai besoin pour mon travail.", "es": "Necesito este libro. Lo necesito para mi trabajo.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "J'en parle souvent avec mes amis.", "es": "Hablo de eso a menudo con mis amigos.", "from": "e9" }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-154",
+  "lang": "de",
+  "level": "A2",
+  "order": 154,
+  "title": "Hacer planes y promesas para el futuro",
+  "objectives": [
+    "Combinar el Futur I con expresiones de intención y planificación",
+    "Distinguir entre planes firmes (vorhaben) y promesas (versprechen)",
+    "Mantener una conversación completa sobre proyectos futuros"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar de planes: vorhaben, planen, versprechen",
+      "body": "Además del Futur I y el presente con marcador de tiempo, puedes usar verbos específicos: vorhaben (tener planeado, ya visto en la clase 135), planen (planear) y versprechen (prometer). «Ich habe vor, umzuziehen» (Tengo planeado mudarme) y «Ich verspreche, dass ich dich anrufe» (Prometo que te llamaré) son estructuras muy naturales.",
+      "examples": [
+        { "target": "Ich habe vor, umzuziehen.", "es": "Tengo planeado mudarme." },
+        { "target": "Ich verspreche, dass ich dich anrufe.", "es": "Prometo que te llamaré." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Tres formas de hablar de planes",
+      "headers": ["Verbo", "Uso", "Ejemplo"],
+      "rows": [
+        ["vorhaben", "plan concreto (+ zu + infinitivo)", "Ich habe vor, zu reisen."],
+        ["planen", "planear algo (+ acusativo)", "Wir planen eine Reise."],
+        ["versprechen", "prometer (+ dass)", "Ich verspreche, dass ich komme."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "vorhaben (tener planeado) rige zu + infinitivo cuando el objeto es un verbo: «Ich habe vor, zu reisen» (Tengo planeado viajar). Si el objeto es un sustantivo, se usa directamente: «Was hast du vor?» (¿Qué tienes planeado?)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "vorhaben", "es": "tener planeado", "ipa": "/ˈfoːɐ̯haːbn̩/", "esApprox": "«FOR-ja-ben»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe vor, umzuziehen.", "es": "Tengo planeado mudarme." } },
+    { "id": "v2", "target": "planen", "es": "planear", "ipa": "/ˈplaːnən/", "esApprox": "«PLÁ-nen»", "pos": "verbo", "gender": null, "example": { "target": "Wir planen eine Reise.", "es": "Planeamos un viaje." } },
+    { "id": "v3", "target": "das Versprechen", "es": "la promesa", "ipa": "/fɛɐ̯ˈʃpʁɛçn̩/", "esApprox": "«fer-SHPRÉ-chen»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das ist ein Versprechen.", "es": "Eso es una promesa." } },
+    { "id": "v4", "target": "vor allem", "es": "sobre todo", "ipa": "/foːɐ̯ ˈalɛm/", "esApprox": "«for Á-lem»", "pos": "adverbio", "gender": null, "example": { "target": "Ich möchte vor allem reisen.", "es": "Quiero sobre todo viajar." } },
+    { "id": "v5", "target": "das Ziel", "es": "el objetivo", "ipa": "/tsiːl/", "esApprox": "«tsil»", "pos": "sustantivo", "gender": "n", "example": { "target": "Mein Ziel für dieses Jahr ist klar.", "es": "Mi objetivo para este año está claro." } },
+    { "id": "v6", "target": "verwirklichen", "es": "realizar, hacer realidad", "ipa": "/fɛɐ̯ˈvɪʁklɪçn̩/", "esApprox": "«fer-VIRK-li-chen»", "pos": "verbo", "gender": null, "example": { "target": "Ich möchte meinen Traum verwirklichen.", "es": "Quiero hacer realidad mi sueño." } },
+    { "id": "v7", "target": "der Traum", "es": "el sueño", "ipa": "/tʁaʊ̯m/", "esApprox": "«traum»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist mein größter Traum.", "es": "Ese es mi mayor sueño." } },
+    { "id": "v8", "target": "auf jeden Fall", "es": "sin falta, de todas formas", "ipa": "/aʊ̯f ˈjeːdn̩ fal/", "esApprox": "«auf YÉ-den fal»", "pos": "expresión", "gender": null, "example": { "target": "Ich komme auf jeden Fall.", "es": "Vengo sin falta." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["futuro"], "difficulty": 1, "prompt": "¿Cómo se dice «tener planeado»?", "options": ["planen", "vorhaben", "versprechen", "verwirklichen"], "answer": 1, "explain": "vorhaben = tener planeado." },
+    { "id": "e2", "type": "mcq", "tags": ["futuro"], "difficulty": 2, "prompt": "¿Qué estructura sigue «vorhaben» cuando el objeto es un verbo?", "options": ["um...zu", "zu + infinitivo", "dass + verbo final", "nada especial"], "answer": 1, "explain": "Ich habe vor, zu reisen: vorhaben + zu + infinitivo." },
+    { "id": "e3", "type": "true_false", "tags": ["futuro"], "difficulty": 2, "statement": "«das Versprechen» es un sustantivo derivado del verbo versprechen.", "answer": true, "explain": "versprechen (verbo) → das Versprechen (sustantivo, la promesa)." },
+    { "id": "e4", "type": "true_false", "tags": ["futuro"], "difficulty": 2, "statement": "«auf jeden Fall» significa «tal vez».", "answer": false, "explain": "auf jeden Fall = sin falta, de todas formas (certeza, no duda)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["futuro"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["vorhaben", "planen", "verwirklichen", "der Traum"], "right": ["tener planeado", "planear", "realizar", "el sueño"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave para hablar de planes y proyectos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["futuro"], "difficulty": 2, "prompt": "Tengo planeado mudarme.", "accept": ["Ich habe vor, umzuziehen"], "hintWords": ["ich habe vor, umzuziehen"], "strictAccents": false, "audio": "Ich habe vor, umzuziehen.", "explain": "habe vor, zu + umziehen (verbo separable: umzuziehen)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["futuro"], "difficulty": 2, "prompt": "Prometo que te llamaré.", "accept": ["Ich verspreche, dass ich dich anrufe"], "hintWords": ["ich verspreche, dass ich dich anrufe"], "strictAccents": false, "audio": "Ich verspreche, dass ich dich anrufe.", "explain": "dass + dich + anrufe (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["futuro"], "difficulty": 2, "prompt": "Quiero hacer realidad mi sueño.", "accept": ["Ich möchte meinen Traum verwirklichen"], "hintWords": ["ich möchte meinen Traum verwirklichen"], "strictAccents": false, "audio": "Ich möchte meinen Traum verwirklichen.", "explain": "möchte + meinen Traum + verwirklichen (infinitivo al final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["futuro"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Wir ___ eine Reise. Mein ___ für dieses Jahr ist klar.", "blanks": [{ "accept": ["planen"] }, { "accept": ["Ziel"] }], "bank": ["planen", "Ziel", "Traum"], "explain": "planen (planear); das Ziel (el objetivo)." },
+    { "id": "e10", "type": "word_order", "tags": ["futuro"], "difficulty": 2, "prompt": "Ordena: «Vengo sin falta»", "tokens": ["auf jeden Fall", "Ich komme"], "answer": ["Ich komme", "auf jeden Fall"], "audio": "Ich komme auf jeden Fall.", "explain": "Ich komme auf jeden Fall: sujeto-verbo-expresión de certeza." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["futuro"], "difficulty": 2, "prompt": "Ich möchte vor allem reisen.", "accept": ["Quiero sobre todo viajar."], "strictAccents": false, "audio": "Ich möchte vor allem reisen.", "explain": "vor allem = sobre todo." },
+    { "id": "e12", "type": "dialogue", "tags": ["futuro"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Nils", "text": "Was hast du für die Zukunft vor?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich habe vor, umzuziehen und zu reisen.", "Ich möchte vor allem reisen."], "hint": "cuenta tus planes de futuro" },
+      { "who": "Nils", "text": "Klingt spannend!", "speak": true }
+    ], "explain": "Práctica de hablar sobre planes de futuro." },
+    { "id": "e13", "type": "listening", "tags": ["futuro"], "difficulty": 1, "speak": "Ich habe vor, umzuziehen.", "mode": "write", "accept": ["Ich habe vor, umzuziehen"], "showTextAfter": true, "explain": "habe vor + zu + infinitivo separable." },
+    { "id": "e14", "type": "listening", "tags": ["futuro"], "difficulty": 2, "speak": "Ich verspreche, dass ich dich anrufe.", "mode": "choose", "options": ["Ich verspreche, dass ich dich anrufe.", "Ich verspreche, dass ich dich rufe an.", "Ich verspreche, dich anzurufen."], "answer": 0, "showTextAfter": true, "explain": "dass + dich + anrufe (final): la forma correcta con dass." },
+    { "id": "e15", "type": "shadowing", "tags": ["futuro"], "difficulty": 2, "speak": "Ich habe vor, umzuziehen, und ich möchte vor allem meinen Traum verwirklichen.", "es": "Tengo planeado mudarme, y quiero sobre todo hacer realidad mi sueño.", "ipa": "/ɪç ˈhaːbə foːɐ̯ ˈʊmtsiːən ʊnt ɪç ˈmœçtə foːɐ̯ ˈalɛm ˈmaɪ̯nən tʁaʊ̯m fɛɐ̯ˈvɪʁklɪçn̩/", "esApprox": "«ich JÁ-be for UM-tsi-en, unt ich MÖCH-te for Á-lem MÁI-nen traum fer-VIRK-li-chen»", "focus": "habe vor (planeado) y vor allem (sobre todo): dos usos distintos de vor en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["futuro"], "difficulty": 2, "speak": "Ich verspreche, dass ich dich anrufe, und ich komme auf jeden Fall zu deiner Feier.", "es": "Prometo que te llamaré, y voy sin falta a tu fiesta.", "ipa": "/ɪç fɛɐ̯ˈʃpʁɛçə das ɪç dɪç ˈanʁuːfə ʊnt ɪç ˈkɔmə aʊ̯f ˈjeːdn̩ fal tsuː ˈdaɪ̯nɐ ˈfaɪ̯ɐ/", "esApprox": "«ich fer-SHPRÉ-che, das ich dich ÁN-ru-fe, unt ich KÓ-me auf YÉ-den fal tsu DÁI-ner FÁI-er»", "focus": "dass...anrufe y auf jeden Fall: una promesa reforzada con una expresión de certeza.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["futuro"], "difficulty": 2, "prompt": "Te preguntan qué planes tienes para el futuro. Di que tienes planeado mudarte y viajar.", "modelAnswer": "Ich habe vor, umzuziehen und zu reisen.", "alsoValid": ["Ich plane, umzuziehen."], "speak": "Ich habe vor, umzuziehen und zu reisen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["futuro"], "difficulty": 2, "prompt": "Clasifica cada palabra: plan o promesa", "buckets": ["Plan", "Promesa"], "items": [
+      { "text": "vorhaben", "bucket": 0 },
+      { "text": "versprechen", "bucket": 1 },
+      { "text": "planen", "bucket": 0 },
+      { "text": "das Versprechen", "bucket": 1 }
+    ], "explain": "vorhaben y planen son planes; versprechen y das Versprechen son promesas." },
+    { "id": "e19", "type": "error_correction", "tags": ["futuro"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe vor umziehen.", "accept": ["Ich habe vor, umzuziehen"], "audio": "Ich habe vor, umzuziehen.", "explain": "vorhaben + zu + infinitivo: falta el zu (umzuziehen)." },
+    { "id": "e20", "type": "mcq", "tags": ["futuro"], "difficulty": 2, "prompt": "«Ich habe vor, umzuziehen, und ich möchte vor allem meinen Traum verwirklichen. Ich verspreche, dass ich dich anrufe, sobald ich dort bin.» ¿Cuándo promete llamar la persona?", "options": ["Nunca", "En cuanto llegue allí", "Solo si tiene tiempo", "Mañana"], "answer": 1, "explain": "«sobald ich dort bin» = en cuanto esté allí (llegue)." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "vorhaben", "es": "tener planeado", "esApprox": "«FOR-ja-ben»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "planen", "es": "planear", "esApprox": "«PLÁ-nen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Versprechen", "es": "la promesa", "esApprox": "«fer-SHPRÉ-chen»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "vor allem", "es": "sobre todo", "esApprox": "«for Á-lem»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "verwirklichen", "es": "realizar, hacer realidad", "esApprox": "«fer-VIRK-li-chen»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Traum", "es": "el sueño", "esApprox": "«traum»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe vor, umzuziehen, und ich möchte vor allem meinen Traum verwirklichen.", "es": "Tengo planeado mudarme, y quiero sobre todo hacer realidad mi sueño.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich verspreche, dass ich dich anrufe, und ich komme auf jeden Fall zu deiner Feier.", "es": "Prometo que te llamaré, y voy sin falta a tu fiesta.", "from": "e16" }
+  ]
+}

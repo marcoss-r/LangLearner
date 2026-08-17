@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-127",
+  "lang": "fr",
+  "level": "A2",
+  "order": 127,
+  "title": "Hacer planes y promesas para el futuro",
+  "objectives": [
+    "Hablar de planes futuros con el futur simple (clases A2-125, A2-126)",
+    "Hacer promesas con je te promets de/que",
+    "Usar marcadores de futuro: dans + duración, l'année prochaine, un jour"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Planes y promesas",
+      "body": "Para hacer planes, combina el futur simple con marcadores de tiempo. Para prometer algo, usa je te promets de + infinitivo o je te promets que + frase.",
+      "examples": [
+        { "target": "Dans un an, je finirai mes études. Je te promets que je viendrai te voir.", "es": "Dentro de un año, terminaré mis estudios. Te prometo que vendré a verte.", "note": "dans + duración + futur simple, je te promets que" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Marcadores de futuro",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["dans + durée", "dentro de..."],
+        ["l'année prochaine / le mois prochain", "el año/mes que viene"],
+        ["un jour", "algún día"],
+        ["à l'avenir", "en el futuro"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Hacer promesas",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["je te promets de + infinitif", "Je te promets d'être à l'heure."],
+        ["je te promets que + frase", "Je te promets que je viendrai."]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "promettre", "es": "prometer", "ipa": "/pʁɔ.mɛtʁ/", "esApprox": "«pro-METR»", "pos": "verbo", "gender": null, "example": { "target": "Je te promets de venir.", "es": "Te prometo venir." } },
+    { "id": "v2", "target": "dans + durée", "es": "dentro de + tiempo", "ipa": "/dɑ̃/", "esApprox": "«DAN»", "pos": "preposición", "gender": null, "example": { "target": "Dans un an, je parlerai bien français.", "es": "Dentro de un año, hablaré bien francés." } },
+    { "id": "v3", "target": "l'année prochaine", "es": "el año que viene", "ipa": "/la.ne pʁɔ.ʃɛn/", "esApprox": "«la-NÉ pro-SHEN»", "pos": "expresión", "gender": null, "example": { "target": "L'année prochaine, j'irai en France.", "es": "El año que viene, iré a Francia." } },
+    { "id": "v4", "target": "un jour", "es": "algún día", "ipa": "/œ̃ ʒuʁ/", "esApprox": "«un YUR»", "pos": "expresión", "gender": null, "example": { "target": "Un jour, je serai médecin.", "es": "Algún día, seré médico." } },
+    { "id": "v5", "target": "à l'avenir", "es": "en el futuro", "ipa": "/a lav.niʁ/", "esApprox": "«a lav-NIR»", "pos": "expresión", "gender": null, "example": { "target": "À l'avenir, je ferai plus attention.", "es": "En el futuro, tendré más cuidado." } },
+    { "id": "v6", "target": "être à l'heure", "es": "llegar puntual", "ipa": "/ɛtʁ a lœʁ/", "esApprox": "«ETR a LEUR»", "pos": "expresión", "gender": null, "example": { "target": "Je te promets d'être à l'heure.", "es": "Te prometo llegar puntual." } },
+    { "id": "v7", "target": "rester en contact", "es": "mantener el contacto", "ipa": "/ʁɛs.te ɑ̃ kɔ̃.takt/", "esApprox": "«res-TÉ an kon-TAKT»", "pos": "expresión", "gender": null, "example": { "target": "Je te promets de rester en contact.", "es": "Te prometo mantener el contacto." } },
+    { "id": "v8", "target": "écrire", "es": "escribir", "ipa": "/e.kʁiʁ/", "esApprox": "«e-KRIR»", "pos": "verbo", "gender": null, "example": { "target": "Je te promets que je t'écrirai souvent.", "es": "Te prometo que te escribiré a menudo." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «te prometo venir»?",
+      "options": ["Je te promets venir.", "Je te promets de venir.", "Je te promets que venir.", "Je promets te venir."],
+      "answer": 1,
+      "explain": "Promettre de + infinitivo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «dentro de un año»?",
+      "options": ["dans un an", "un an dans", "il y a un an", "l'année dans"],
+      "answer": 0,
+      "explain": "Dans + duración = dentro de."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "statement": "Dans + duración se refiere al futuro; il y a + duración (clase A2-095) se refiere al pasado.",
+      "answer": true,
+      "explain": "Dans un an (futuro) frente a il y a un an (pasado)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "statement": "Promettre que va seguido de un infinitivo.",
+      "answer": false,
+      "explain": "Promettre que va seguido de una frase completa; promettre de va seguido de infinitivo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["dans un an", "un jour", "à l'avenir", "être à l'heure"],
+      "right": ["llegar puntual", "dentro de un año", "en el futuro", "algún día"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Dans un an = dentro de un año, un jour = algún día, à l'avenir = en el futuro, être à l'heure = llegar puntual."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Dentro de un año, terminaré mis estudios. Te prometo que vendré a verte.",
+      "accept": ["Dans un an, je finirai mes études. Je te promets que je viendrai te voir"],
+      "hintWords": ["dans un an, je finirai mes études", "je te promets que je viendrai te voir"],
+      "strictAccents": true,
+      "audio": "Dans un an, je finirai mes études. Je te promets que je viendrai te voir.",
+      "explain": "Dans + duración + je te promets que + futuro."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Te prometo llegar puntual, y en el futuro, tendré más cuidado.",
+      "accept": ["Je te promets d'être à l'heure, et à l'avenir, je ferai plus attention"],
+      "hintWords": ["je te promets d'être à l'heure", "à l'avenir, je ferai plus attention"],
+      "strictAccents": true,
+      "audio": "Je te promets d'être à l'heure, et à l'avenir, je ferai plus attention.",
+      "explain": "Promettre de + infinitivo, seguido de à l'avenir + futuro."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "___ prochaine, j'irai en France, et ___, je parlerai bien français.",
+      "blanks": [{ "accept": ["L'année"] }, { "accept": ["un jour"] }],
+      "bank": ["L'année", "un jour", "dans"],
+      "explain": "L'année prochaine + un jour, dos marcadores de futuro."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Algún día, seré médico»",
+      "tokens": ["je serai médecin", "Un jour,"],
+      "answer": ["Un jour,", "je serai médecin"],
+      "audio": "Un jour, je serai médecin.",
+      "explain": "Un jour + je serai médecin."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Dans deux ans, j'aurai un nouveau travail. Je te promets de rester en contact.",
+      "accept": ["Dentro de dos años, tendré un nuevo trabajo. Te prometo mantener el contacto."],
+      "strictAccents": false,
+      "audio": "Dans deux ans, j'aurai un nouveau travail. Je te promets de rester en contact.",
+      "explain": "Dans deux ans + je te promets de + infinitivo."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus planes",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu feras dans un an ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Dans un an, je finirai mes études.", "L'année prochaine, j'irai en France."], "hint": "usa un marcador de futuro" },
+        { "who": "Léa", "text": "Ah, super !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu feras...? se responde con un plan en futuro."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "speak": "L'année prochaine, j'irai en France, et je te promets que je t'écrirai souvent.",
+      "mode": "write",
+      "accept": ["L'année prochaine, j'irai en France, et je te promets que je t'écrirai souvent"],
+      "showTextAfter": true,
+      "explain": "L'année prochaine + je te promets que."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["futuro"],
+      "difficulty": 1,
+      "speak": "je te promets",
+      "mode": "choose",
+      "options": ["je t'ai promis", "je te promets", "je promettrai", "je promettais"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Je te promets = te prometo (presente)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["futuro"],
+      "difficulty": 3,
+      "speak": "Dans un an, je finirai mes études, et je te promets que je viendrai te voir. Un jour, nous voyagerons ensemble.",
+      "es": "Dentro de un año, terminaré mis estudios, y te prometo que vendré a verte. Algún día, viajaremos juntos.",
+      "ipa": "/dɑ̃.z‿œ̃.n‿ɑ̃ ʒo.ʁe fi mɛ.z‿e.tyd e ʒə tə pʁɔ.mɛ kə ʒə vjɛ̃.dʁe tə vwaʁ œ̃ ʒuʁ nu vwa.ja.ʒə.ʁɔ̃.z‿ɑ̃.sɑ̃bl/",
+      "esApprox": "«dan-zun-NAN yo-RÉ FI me-ze-TÜD e ye te pro-ME ke ye vien-DRÉ te VUÁR un YUR nu vuá-ya-she-RON-an-SANBL»",
+      "focus": "Una promesa completa combinando futuro simple y marcadores de tiempo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Haz una promesa a un amigo, usando je te promets de/que.",
+      "modelAnswer": "Je te promets d'être à l'heure la prochaine fois.",
+      "alsoValid": ["Je te promets que je t'écrirai souvent."],
+      "speak": "Je te promets d'être à l'heure la prochaine fois.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "¿Va seguido de infinitivo o de una frase completa?",
+      "buckets": ["Infinitivo (de)", "Frase completa (que)"],
+      "items": [
+        { "text": "je te promets d'être à l'heure", "bucket": 0 },
+        { "text": "je te promets que je viendrai", "bucket": 1 },
+        { "text": "je te promets de venir", "bucket": 0 },
+        { "text": "je te promets que tout ira bien", "bucket": 1 }
+      ],
+      "explain": "Promettre de + infinitivo frente a promettre que + frase."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["futuro"],
+      "difficulty": 2,
+      "prompt": "Hay un error de estructura. Corrige la frase entera.",
+      "wrong": "Je te promets que venir.",
+      "accept": ["Je te promets de venir"],
+      "audio": "Je te promets de venir.",
+      "explain": "Con un infinitivo, se usa promettre de, no promettre que."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "promettre", "es": "prometer", "esApprox": "«pro-METR»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "dans + durée", "es": "dentro de + tiempo", "esApprox": "«DAN»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "l'année prochaine", "es": "el año que viene", "esApprox": "«la-NÉ pro-SHEN»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "à l'avenir", "es": "en el futuro", "esApprox": "«a lav-NIR»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "être à l'heure", "es": "llegar puntual", "esApprox": "«ETR a LEUR»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "Dans un an, je finirai mes études. Je te promets que je viendrai te voir.", "es": "Dentro de un año, terminaré mis estudios. Te prometo que vendré a verte.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je te promets d'être à l'heure, et à l'avenir, je ferai plus attention.", "es": "Te prometo llegar puntual, y en el futuro, tendré más cuidado.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Un jour, je serai médecin.", "es": "Algún día, seré médico.", "from": "e9" }
+  ]
+}

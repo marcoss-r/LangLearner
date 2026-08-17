@@ -1,0 +1,253 @@
+{
+  "id": "fr-a2-114",
+  "lang": "fr",
+  "level": "A2",
+  "order": 114,
+  "title": "El pronombre y: para lugares y para \"en eso\"",
+  "objectives": [
+    "Usar y para sustituir à/au/à la/à l'/aux + lugar (clase A1-36)",
+    "Usar y para sustituir à + cosa con verbos como penser à",
+    "Colocar y en la misma posición que en (clase A2-113): antes del verbo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Y: el pronombre de los lugares",
+      "body": "Y sustituye a un lugar introducido por à/au/à la/à l'/aux (clase A1-36), o a à + cosa con verbos como penser à. Va antes del verbo, igual que en (clase A2-113).",
+      "examples": [
+        { "target": "Tu vas au travail ? Oui, j'y vais tous les jours.", "es": "¿Vas al trabajo? Sí, voy todos los días.", "note": "au travail → y" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Y con lugares",
+      "headers": ["Pregunta", "Respuesta"],
+      "rows": [
+        ["Tu vas à Paris ?", "Oui, j'y vais la semaine prochaine."],
+        ["Tu habites en France ?", "Oui, j'y habite depuis deux ans."],
+        ["Tu es allé au marché ?", "Oui, j'y suis allé ce matin."]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Y con verbos + à",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["penser à + cosa → y penser", "Je pense à mon examen. → J'y pense."],
+        ["s'intéresser à + cosa → s'y intéresser", "Je m'intéresse à la musique. → Je m'y intéresse."]
+      ],
+      "note": "Como en, y solo sustituye a cosas, nunca a personas. Para personas se usa à lui/à elle."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "y", "es": "allí, a eso (pronombre)", "ipa": "/i/", "esApprox": "«I»", "pos": "pronombre", "gender": null, "example": { "target": "J'y vais.", "es": "Voy allí." } },
+    { "id": "v2", "target": "j'y pense", "es": "pienso en eso", "ipa": "/ʒi pɑ̃s/", "esApprox": "«yi PANS»", "pos": "expresión", "gender": null, "example": { "target": "J'y pense souvent.", "es": "Pienso en eso a menudo." } },
+    { "id": "v3", "target": "j'y suis allé(e)", "es": "fui allí", "ipa": "/ʒi sɥi.z‿a.le/", "esApprox": "«yi süí-a-LÉ»", "pos": "expresión", "gender": null, "example": { "target": "J'y suis allé hier.", "es": "Fui allí ayer." } },
+    { "id": "v4", "target": "penser à", "es": "pensar en", "ipa": "/pɑ̃.se a/", "esApprox": "«pan-SÉ a»", "pos": "verbo", "gender": null, "example": { "target": "Je pense à mon examen.", "es": "Pienso en mi examen." } },
+    { "id": "v5", "target": "s'intéresser à", "es": "interesarse por", "ipa": "/sɛ̃.te.ʁe.se a/", "esApprox": "«sen-te-re-SÉ a»", "pos": "verbo", "gender": null, "example": { "target": "Je m'intéresse à la musique.", "es": "Me intereso por la música." } },
+    { "id": "v6", "target": "depuis deux ans", "es": "desde hace dos años", "ipa": "/də.pɥi dø.z‿ɑ̃/", "esApprox": "«de-PÜÍ deu-ZAN»", "pos": "expresión", "gender": null, "example": { "target": "J'y habite depuis deux ans.", "es": "Vivo allí desde hace dos años." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "¿Cómo respondes «sí, voy» a «tu vas au travail ?»?",
+      "options": ["Oui, je le vais.", "Oui, j'y vais.", "Oui, j'en vais.", "Oui, je vais ça."],
+      "answer": 1,
+      "explain": "Au travail → y."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «pienso en eso a menudo»?",
+      "options": ["J'en pense souvent.", "J'y pense souvent.", "Je le pense souvent.", "Je pense y souvent."],
+      "answer": 1,
+      "explain": "Penser à + cosa → y penser."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "statement": "Y sustituye a à/au/à la/à l'/aux + lugar.",
+      "answer": true,
+      "explain": "Y es el pronombre de los lugares."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronombres", "y", "en"],
+      "difficulty": 2,
+      "statement": "Y y en van en posiciones distintas dentro de la frase.",
+      "answer": false,
+      "explain": "Ambos van antes del verbo, en la misma posición (clase A2-113)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "Une cada pregunta con su respuesta",
+      "left": ["Tu vas à Paris ?", "Tu habites en France ?", "Tu es allé au marché ?", "Tu penses à ton examen ?"],
+      "right": ["Oui, j'y pense.", "Oui, j'y suis allé.", "Oui, j'y vais.", "Oui, j'y habite."],
+      "answer": [2, 3, 1, 0],
+      "explain": "Y sustituye à Paris, en France, au marché, y à ton examen."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "¿Vas al trabajo? Sí, voy todos los días.",
+      "accept": ["Tu vas au travail ? Oui, j'y vais tous les jours"],
+      "hintWords": ["tu vas au travail", "j'y vais tous les jours"],
+      "strictAccents": true,
+      "audio": "Tu vas au travail ? Oui, j'y vais tous les jours.",
+      "explain": "Au travail → y, delante de vais."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "Me intereso por la música. Pienso en eso a menudo.",
+      "accept": ["Je m'intéresse à la musique. J'y pense souvent"],
+      "hintWords": ["je m'intéresse à la musique", "j'y pense souvent"],
+      "strictAccents": true,
+      "audio": "Je m'intéresse à la musique. J'y pense souvent.",
+      "explain": "S'intéresser à + à la musique → j'y pense (con penser à)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto",
+      "text": "Tu habites en France ? Oui, j'___ habite depuis deux ans.",
+      "blanks": [{ "accept": ["y"] }],
+      "bank": ["y", "en", "le"],
+      "explain": "En France → y."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Fui allí ayer»",
+      "tokens": ["hier", "J'y suis allé"],
+      "answer": ["J'y suis allé", "hier"],
+      "audio": "J'y suis allé hier.",
+      "explain": "J'y suis allé (y + être) + hier."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "Tu vas au marché ce week-end ? — Oui, j'y vais tous les samedis, je m'y intéresse beaucoup.",
+      "accept": ["¿Vas al mercado este fin de semana? —Sí, voy todos los sábados, me interesa mucho."],
+      "strictAccents": false,
+      "audio": "Tu vas au marché ce week-end ? — Oui, j'y vais tous les samedis, je m'y intéresse beaucoup.",
+      "explain": "Y, usado dos veces con verbos distintos."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre un lugar",
+      "turns": [
+        { "who": "Léa", "text": "Tu es déjà allé à Paris ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'y suis allé.", "Non, je n'y suis jamais allé."], "hint": "usa y" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Tu es déjà allé à...? se responde con y."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "speak": "J'y vais tous les jours, et j'y pense même le week-end.",
+      "mode": "write",
+      "accept": ["J'y vais tous les jours, et j'y pense même le week-end"],
+      "showTextAfter": true,
+      "explain": "Y, usado dos veces con verbos distintos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronombres", "y"],
+      "difficulty": 1,
+      "speak": "j'y vais",
+      "mode": "choose",
+      "options": ["j'en vais", "j'y vais", "je le vais", "j'y suis"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'y vais = voy allí."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronombres", "y"],
+      "difficulty": 3,
+      "speak": "Tu vas au travail ? Oui, j'y vais tous les jours. Tu penses souvent à ton examen ? Oui, j'y pense beaucoup.",
+      "es": "¿Vas al trabajo? Sí, voy todos los días. ¿Piensas a menudo en tu examen? Sí, pienso mucho en eso.",
+      "ipa": "/ty va o tʁa.vaj wi ʒi vɛ tu le ʒuʁ ty pɑ̃s su.vɑ̃ a tɔ̃.n‿ɛɡ.za.mɛ̃ wi ʒi pɑ̃s bo.ku/",
+      "esApprox": "«tü va o tra-VÁY UÍ yi VE tu le YUR tü PANS su-VAN a ton-neg-za-MEN UÍ yi PANS bo-KÚ»",
+      "focus": "El pronombre y usado dos veces, con lugar y con verbo + à.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "Di si vas a menudo a un lugar y si piensas en algo, usando y.",
+      "modelAnswer": "Je vais au travail tous les jours, j'y vais à pied.",
+      "alsoValid": ["Je pense souvent à mes vacances, j'y pense chaque jour."],
+      "speak": "Je vais au travail tous les jours, j'y vais à pied.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "¿Y sustituye a un lugar o a à + cosa?",
+      "buckets": ["Lugar", "à + cosa"],
+      "items": [
+        { "text": "J'y vais. (au travail)", "bucket": 0 },
+        { "text": "J'y pense. (à mon examen)", "bucket": 1 },
+        { "text": "J'y suis allé. (à Paris)", "bucket": 0 },
+        { "text": "Je m'y intéresse. (à la musique)", "bucket": 1 }
+      ],
+      "explain": "Y sustituye tanto lugares como à + cosa con ciertos verbos."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "Hay un error de pronombre. Corrige la frase entera.",
+      "wrong": "J'en vais tous les jours.",
+      "accept": ["J'y vais tous les jours"],
+      "audio": "J'y vais tous les jours.",
+      "explain": "Un lugar se sustituye con y, no con en."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "y", "es": "allí, a eso (pronombre)", "esApprox": "«I»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'y pense", "es": "pienso en eso", "esApprox": "«yi PANS»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "j'y suis allé(e)", "es": "fui allí", "esApprox": "«yi süí-a-LÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "penser à", "es": "pensar en", "esApprox": "«pan-SÉ a»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "s'intéresser à", "es": "interesarse por", "esApprox": "«sen-te-re-SÉ a»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Tu vas au travail ? Oui, j'y vais tous les jours.", "es": "¿Vas al trabajo? Sí, voy todos los días.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je m'intéresse à la musique. J'y pense souvent.", "es": "Me intereso por la música. Pienso en eso a menudo.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "J'y suis allé hier.", "es": "Fui allí ayer.", "from": "e9" }
+  ]
+}

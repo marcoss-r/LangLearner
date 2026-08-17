@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-244",
+  "lang": "de",
+  "level": "B1",
+  "order": 244,
+  "title": "Pronunciación general VII: el habla muy rápida",
+  "objectives": [
+    "Reconocer contracciones habituales del alemán hablado rápido: haste, biste, kommste, hamma",
+    "Identificar la elisión de -e final y la fusión de palabras funcionales en la conversación informal",
+    "Entender frases coloquiales muy contraídas sin perder el sentido"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuando las palabras se pegan: contracciones del habla rápida",
+      "body": "En la conversación informal y rápida, el alemán fusiona pronombres y verbos de forma parecida a como el español dice «pa'» por «para». «Hast du» se convierte en «haste», «bist du» en «biste», «kommst du» en «kommste», «haben wir» en «hamma». Estas formas NO se escriben en textos formales, pero se oyen constantemente en la calle, series y música. También cae la -e final de muchas palabras: «ich hab'» por «ich habe», «ein bisschen» suena «'n bisschen».",
+      "examples": [
+        { "target": "Haste Zeit?", "es": "¿Tienes tiempo? (de: Hast du Zeit?)", "note": "contracción de hast + du" },
+        { "target": "Ich hab' keine Ahnung.", "es": "No tengo ni idea.", "note": "hab' = habe, sin la -e final" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Contracciones frecuentes del habla rápida",
+      "headers": ["Forma completa", "Forma contraída", "Ejemplo"],
+      "rows": [
+        ["hast du", "haste", "Haste Lust?"],
+        ["bist du", "biste", "Biste fertig?"],
+        ["kommst du", "kommste", "Kommste mit?"],
+        ["haben wir", "hamma / ham wa", "Hamma noch Zeit?"],
+        ["ich habe", "ich hab'", "Ich hab' keine Zeit."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Estas contracciones son solo para RECONOCER al oído: no las uses al escribir ni en un examen formal. Su función es entrenar tu comprensión oral, porque en la vida real casi nadie dice «hast du» completo en una conversación relajada."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Umgangssprache", "es": "el lenguaje coloquial", "ipa": "/ˈʊmɡaŋsʃpʁaːxə/", "esApprox": "«ÚM-gangs-shpra-je»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist typisch für die Umgangssprache.", "es": "Eso es típico del lenguaje coloquial." } },
+    { "id": "v2", "target": "verschleifen", "es": "contraer, fusionar (al hablar)", "ipa": "/fɛɐ̯ˈʃlaɪ̯fn̩/", "esApprox": "«fer-SHLÁI-fen»", "pos": "verbo", "gender": null, "example": { "target": "Im schnellen Sprechen werden Wörter verschleift.", "es": "Al hablar rápido, las palabras se fusionan." } },
+    { "id": "v3", "target": "die Kontraktion", "es": "la contracción", "ipa": "/kɔntʁakˈtsi̯oːn/", "esApprox": "«kon-trak-tsi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "«Haste» ist eine Kontraktion von «hast du».", "es": "«Haste» es una contracción de «hast du»." } },
+    { "id": "v4", "target": "wegfallen", "es": "desaparecer, caerse (un sonido)", "ipa": "/ˈveːkfalən/", "esApprox": "«VEK-fa-len»", "pos": "verbo", "gender": null, "example": { "target": "Das End-e fällt oft weg.", "es": "La -e final a menudo desaparece." } },
+    { "id": "v5", "target": "zusammenziehen", "es": "juntar, contraer", "ipa": "/tsuˈzamənˌtsiːən/", "esApprox": "«tsu-ZÁ-men-tsí-en»", "pos": "verbo", "gender": null, "example": { "target": "Man zieht die Wörter zusammen.", "es": "Se juntan las palabras." } },
+    { "id": "v6", "target": "typisch für", "es": "típico de", "ipa": "/ˈtyːpɪʃ fyːɐ̯/", "esApprox": "«TÜ-pish für»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist typisch für lockere Gespräche.", "es": "Eso es típico de las conversaciones relajadas." } },
+    { "id": "v7", "target": "locker", "es": "relajado, informal", "ipa": "/ˈlɔkɐ/", "esApprox": "«LÓ-ker»", "pos": "adjetivo", "gender": null, "example": { "target": "Unter Freunden spricht man locker.", "es": "Entre amigos se habla de forma relajada." } },
+    { "id": "v8", "target": "der Alltag", "es": "la vida cotidiana", "ipa": "/ˈalˌtaːk/", "esApprox": "«ÁL-tak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Im Alltag hört man solche Formen ständig.", "es": "En la vida cotidiana se oyen estas formas constantemente." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["habla-rapida"], "difficulty": 1, "prompt": "¿Qué significa «haste»?", "options": ["hast du", "habe ich", "hat er", "hatten wir"], "answer": 0, "explain": "«Haste» es la contracción coloquial de «hast du»." },
+    { "id": "e2", "type": "mcq", "tags": ["habla-rapida"], "difficulty": 2, "prompt": "¿Qué significa «biste fertig?»", "options": ["¿Bist du fertig?", "¿Bin ich fertig?", "¿Sind sie fertig?", "¿Seid ihr fertig?"], "answer": 0, "explain": "«Biste» = «bist du»." },
+    { "id": "e3", "type": "true_false", "tags": ["habla-rapida"], "difficulty": 2, "statement": "Las contracciones como «haste» o «biste» se usan normalmente en textos formales.", "answer": false, "explain": "Son propias del habla rápida e informal, no de textos formales." },
+    { "id": "e4", "type": "true_false", "tags": ["pronunciacion-general"], "difficulty": 1, "statement": "En el habla rápida, la -e final de «ich habe» a menudo desaparece: «ich hab'».", "answer": true, "explain": "La elisión de -e final es muy frecuente en el alemán hablado." },
+    { "id": "e5", "type": "match_pairs", "tags": ["habla-rapida"], "difficulty": 2, "prompt": "Une cada forma contraída con su forma completa", "left": ["haste", "biste", "kommste", "hamma"], "right": ["hast du", "bist du", "kommst du", "haben wir"], "answer": [0, 1, 2, 3], "explain": "Contracciones típicas del habla rápida alemana." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Eso es típico del lenguaje coloquial.", "accept": ["Das ist typisch für die Umgangssprache"], "hintWords": ["das ist typisch für die Umgangssprache"], "strictAccents": false, "audio": "Das ist typisch für die Umgangssprache.", "explain": "typisch für + acusativo." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Al hablar rápido, las palabras se fusionan.", "accept": ["Im schnellen Sprechen werden Wörter verschleift"], "hintWords": ["im schnellen Sprechen werden Wörter verschleift"], "strictAccents": false, "audio": "Im schnellen Sprechen werden Wörter verschleift.", "explain": "verschleifen = fusionar sonidos al hablar." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "En la vida cotidiana se oyen estas formas constantemente.", "accept": ["Im Alltag hört man solche Formen ständig"], "hintWords": ["im Alltag hört man solche Formen ständig"], "strictAccents": false, "audio": "Im Alltag hört man solche Formen ständig.", "explain": "im Alltag = en la vida cotidiana." },
+    { "id": "e9", "type": "fill_blank", "tags": ["habla-rapida"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "«Haste» ist eine ___ von «hast du». Das End-e fällt oft ___.", "blanks": [{ "accept": ["Kontraktion"] }, { "accept": ["weg"] }], "bank": ["Kontraktion", "weg", "Umgangssprache"], "explain": "Kontraktion (contracción) y wegfallen (desaparecer)." },
+    { "id": "e10", "type": "word_order", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Ordena: «Entre amigos se habla de forma relajada»", "tokens": ["spricht man locker", "Unter Freunden"], "answer": ["Unter Freunden", "spricht man locker"], "audio": "Unter Freunden spricht man locker.", "explain": "Unter Freunden (posición 1) + spricht (posición 2) + man locker." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["habla-rapida"], "difficulty": 2, "prompt": "Man zieht die Wörter zusammen.", "accept": ["Se juntan las palabras.", "Uno junta las palabras."], "strictAccents": false, "audio": "Man zieht die Wörter zusammen.", "explain": "zusammenziehen = contraer, juntar." },
+    { "id": "e12", "type": "dialogue", "tags": ["habla-rapida"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Freund", "text": "Haste morgen Zeit?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich hab' morgen frei."], "hint": "responde que sí, mañana tienes libre" },
+      { "who": "Freund", "text": "Super, dann treffen wir uns!", "speak": true }
+    ], "explain": "Haste = hast du; ich hab' = ich habe, con la -e final caída." },
+    { "id": "e13", "type": "listening", "tags": ["habla-rapida"], "difficulty": 2, "speak": "Haste Zeit? Biste fertig? Kommste mit?", "mode": "write", "accept": ["Haste Zeit? Biste fertig? Kommste mit?"], "showTextAfter": true, "explain": "Tres contracciones típicas del habla rápida." },
+    { "id": "e14", "type": "listening", "tags": ["pronunciacion-general"], "difficulty": 2, "speak": "Im Alltag hört man solche Formen ständig.", "mode": "choose", "options": ["Im Alltag hört man solche Formen ständig.", "Im Alltag schreibt man solche Formen ständig.", "Im Alltag lernt man solche Formen selten."], "answer": 0, "showTextAfter": true, "explain": "hört man = se oyen; ständig = constantemente." },
+    { "id": "e15", "type": "shadowing", "tags": ["habla-rapida"], "difficulty": 2, "speak": "Haste Lust, mitzukommen? Ich hab' noch keine Pläne, und hamma nicht sowieso frei heute?", "es": "¿Tienes ganas de venir? Yo todavía no tengo planes, ¿y no tenemos libre hoy de todas formas?", "ipa": "/ˈhastə lʊst ˈmɪttsuːkɔmən ɪç hap noːx ˈkaɪ̯nə plɛːnə ʊnt ˈhama nɪçt zoˈviːzo faɪ̯ ˈhɔɪ̯tə/", "esApprox": "«HÁS-te lust MIT-tsu-ko-men, ish hap noj KÁI-ne PLÉ-ne, unt HÁ-ma nisht zo-VÍ-zo frai HÓI-te»", "focus": "Encadenamiento natural de varias contracciones coloquiales en una sola frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["pronunciacion-general"], "difficulty": 2, "speak": "Das ist typisch für die Umgangssprache: im schnellen Sprechen werden Wörter verschleift, und das End-e fällt oft weg.", "es": "Eso es típico del lenguaje coloquial: al hablar rápido, las palabras se fusionan y la -e final a menudo desaparece.", "ipa": "/das ɪst ˈtyːpɪʃ fyːɐ̯ diː ˈʊmɡaŋsʃpʁaːxə ɪm ˈʃnɛlən ˈʃpʁɛçən ˈveːɐ̯dn̩ ˈvœɐ̯tɐ fɛɐ̯ˈʃlaɪ̯ft ʊnt das ˈɛntə fɛlt ɔft vɛk/", "esApprox": "«das ist TÜ-pish für di ÚM-gangs-shpra-je, im SHNÉ-len SHPRÉ-jen VÉR-den VÖR-ter fer-SHLÁIFT, unt das ÉN-te felt oft vek»", "focus": "Estructura explicativa con vocabulario técnico sobre el fenómeno del habla rápida.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["habla-rapida"], "difficulty": 2, "prompt": "Le preguntas a un amigo, de forma coloquial, si tiene tiempo.", "modelAnswer": "Haste Zeit?", "alsoValid": ["Hast du Zeit?"], "speak": "Haste Zeit?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["habla-rapida"], "difficulty": 2, "prompt": "Clasifica cada forma según su registro", "buckets": ["Habla rápida / coloquial", "Forma escrita / formal"], "items": [
+      { "text": "haste", "bucket": 0 },
+      { "text": "hast du", "bucket": 1 },
+      { "text": "ich hab'", "bucket": 0 },
+      { "text": "ich habe", "bucket": 1 }
+    ], "explain": "Las formas contraídas pertenecen al habla informal; las completas, al registro escrito o formal." },
+    { "id": "e19", "type": "error_correction", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Hay un error en la explicación. Corrígela.", "wrong": "Las contracciones como «haste» o «biste» deben usarse siempre al escribir un correo formal.", "accept": ["Las contracciones como «haste» o «biste» son propias del habla informal y no deben usarse en textos formales", "«Haste» y «biste» son formas coloquiales, no formales"], "explain": "Estas contracciones son exclusivamente orales e informales." },
+    { "id": "e20", "type": "mcq", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "«Im Alltag verschleift man viele Wörter: aus \"hast du\" wird \"haste\", aus \"bist du\" wird \"biste\". Das End-e fällt auch oft weg, wie in \"ich hab'\" statt \"ich habe\".» ¿De qué trata el texto?", "options": ["De reglas ortográficas formales", "De contracciones y elisiones típicas del habla rápida cotidiana", "De la conjugación del verbo haben", "De la pronunciación de la r"], "answer": 1, "explain": "El texto describe contracciones y la caída de la -e final en el habla rápida." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Umgangssprache", "es": "el lenguaje coloquial", "esApprox": "«ÚM-gangs-shpra-je»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "verschleifen", "es": "contraer, fusionar (al hablar)", "esApprox": "«fer-SHLÁI-fen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Kontraktion", "es": "la contracción", "esApprox": "«kon-trak-tsi-ÓN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "wegfallen", "es": "desaparecer, caerse (un sonido)", "esApprox": "«VEK-fa-len»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "locker", "es": "relajado, informal", "esApprox": "«LÓ-ker»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "Haste Zeit?", "es": "¿Tienes tiempo?", "esApprox": "«HÁS-te tsait»", "from": "e17" },
+    { "id": "s7", "kind": "phrase", "target": "Haste Lust, mitzukommen? Ich hab' noch keine Pläne, und hamma nicht sowieso frei heute?", "es": "¿Tienes ganas de venir? Todavía no tengo planes, ¿y no tenemos libre hoy de todas formas?", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Das ist typisch für die Umgangssprache: im schnellen Sprechen werden Wörter verschleift, und das End-e fällt oft weg.", "es": "Eso es típico del lenguaje coloquial: al hablar rápido, las palabras se fusionan y la -e final a menudo desaparece.", "from": "e16" }
+  ]
+}

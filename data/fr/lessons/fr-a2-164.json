@@ -1,0 +1,252 @@
+{
+  "id": "fr-a2-164",
+  "lang": "fr",
+  "level": "A2",
+  "order": 164,
+  "title": "Pronunciación general VII: la e caduca en el habla rápida",
+  "objectives": [
+    "Reconocer la e caduca (e muda): la e sin acento que puede desaparecer al hablar rápido",
+    "Aplicar la regla general: la e caduca cae, salvo que su caída junte demasiadas consonantes seguidas",
+    "Practicar palabras y frases comunes donde la e caduca desaparece"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una e que casi no se oye",
+      "body": "La e sin acento (como en le, de, je, petit, samedi) se llama e caduca o e muda. En el habla cuidada se pronuncia un poco; en el habla rápida y cotidiana, tiende a desaparecer del todo.",
+      "examples": [
+        { "target": "je ne sais pas", "es": "no sé", "note": "en habla rápida: /ʒə.nsɛ.pa/, la e de ne casi desaparece" },
+        { "target": "samedi", "es": "sábado", "note": "en habla rápida: «sam'di», la e de la segunda sílaba cae" }
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "La regla de las tres consonantes",
+      "body": "La e caduca cae siempre que pueda, pero se mantiene si su caída juntaría demasiadas consonantes seguidas y haría la palabra imposible de pronunciar. Por eso vendredi mantiene más su e que samedi: vendr(e)di ya tiene el grupo ndr, y quitar la e sería muy difícil de pronunciar.",
+      "drills": [
+        { "target": "petit", "ipa": "/pti/", "esApprox": "«PTI», sin apenas e", "hint": "en habla rápida, casi ptit" },
+        { "target": "samedi", "ipa": "/sam.di/", "esApprox": "«SAM-di»", "hint": "la e de la segunda sílaba cae" },
+        { "target": "je ne sais pas", "ipa": "/ʒən.sɛ.pa/", "esApprox": "«shen-se-PA»", "hint": "ne pierde su e, pero je la mantiene un poco" },
+        { "target": "vendredi", "ipa": "/vɑ̃.dʁə.di/", "esApprox": "«van-dre-DÍ»", "hint": "aquí la e se mantiene más: ndr sería difícil de pronunciar sin ella" }
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "No te obsesiones con la regla",
+      "body": "No necesitas calcular la regla en tiempo real al hablar. Basta con escuchar mucho francés real y acostumbrar el oído a que estas e's desaparecen; con la práctica, tu propia pronunciación se ajustará sola."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "petit / petite", "es": "pequeño/a", "ipa": "/pti ptit/", "esApprox": "«PTI PTIT»", "pos": "adjetivo", "gender": null, "example": { "target": "C'est un petit village.", "es": "Es un pueblo pequeño." } },
+    { "id": "v2", "target": "samedi", "es": "sábado", "ipa": "/sam.di/", "esApprox": "«SAM-di»", "pos": "sustantivo", "gender": "m", "example": { "target": "On se voit samedi.", "es": "Nos vemos el sábado." } },
+    { "id": "v3", "target": "je ne sais pas", "es": "no sé", "ipa": "/ʒən.sɛ.pa/", "esApprox": "«shen-se-PA»", "pos": "expresión", "gender": null, "example": { "target": "Je ne sais pas où il est.", "es": "No sé dónde está." } },
+    { "id": "v4", "target": "vendredi", "es": "viernes", "ipa": "/vɑ̃.dʁə.di/", "esApprox": "«van-dre-DÍ»", "pos": "sustantivo", "gender": "m", "example": { "target": "On part vendredi.", "es": "Nos vamos el viernes." } },
+    { "id": "v5", "target": "ce que", "es": "lo que", "ipa": "/skə/", "esApprox": "«SKE»", "pos": "expresión", "gender": null, "example": { "target": "Ce que tu dis est vrai.", "es": "Lo que dices es verdad." } },
+    { "id": "v6", "target": "le week-end", "es": "el fin de semana", "ipa": "/lwi.kɛnd/", "esApprox": "«luí-KEND»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je travaille le week-end.", "es": "Trabajo el fin de semana." } },
+    { "id": "v7", "target": "je te dis", "es": "te digo", "ipa": "/ʒət.di/", "esApprox": "«shet-DI»", "pos": "expresión", "gender": null, "example": { "target": "Je te dis la vérité.", "es": "Te digo la verdad." } },
+    { "id": "v8", "target": "rapidement", "es": "rápidamente", "ipa": "/ʁa.pid.mɑ̃/", "esApprox": "«ra-pid-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "Il parle très rapidement.", "es": "Habla muy rápido." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "e-caduca"],
+      "difficulty": 2,
+      "prompt": "¿Qué es la e caduca?",
+      "options": ["Una e con acento", "Una e sin acento que puede desaparecer al hablar rápido", "Una e que siempre se pronuncia fuerte", "Una e que nunca aparece escrita"],
+      "answer": 1,
+      "explain": "La e caduca es la e sin acento (le, de, petit) que tiende a desaparecer en el habla rápida."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "e-caduca"],
+      "difficulty": 2,
+      "prompt": "¿Por qué vendredi mantiene más su e que samedi?",
+      "options": ["Porque vendredi es más larga", "Porque quitarla juntaría demasiadas consonantes (ndr)", "Porque vendredi lleva acento", "No hay ninguna razón, es al azar"],
+      "answer": 1,
+      "explain": "La regla de las tres consonantes: la e se mantiene si su caída hace la palabra muy difícil de pronunciar."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "e-caduca"],
+      "difficulty": 2,
+      "statement": "En habla rápida, «petit» se pronuncia casi como «pti».",
+      "answer": true,
+      "explain": "La e caduca de petit tiende a desaparecer: /pti/."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "e-caduca"],
+      "difficulty": 2,
+      "statement": "La e caduca siempre se pronuncia igual, sin importar la velocidad del habla.",
+      "answer": false,
+      "explain": "En habla cuidada se pronuncia un poco; en habla rápida tiende a desaparecer."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronunciacion-general", "e-caduca"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su pronunciación en habla rápida",
+      "left": ["petit", "samedi", "je ne sais pas", "ce que"],
+      "right": ["skə", "pti", "sam.di", "ʒən.sɛ.pa"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Petit → pti, samedi → sam.di, je ne sais pas → ʒən.sɛ.pa, ce que → skə."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "No sé dónde está. Nos vemos el sábado.",
+      "accept": ["Je ne sais pas où il est. On se voit samedi"],
+      "hintWords": ["je ne sais pas où il est", "on se voit samedi"],
+      "strictAccents": false,
+      "audio": "Je ne sais pas où il est. On se voit samedi.",
+      "explain": "Je ne sais pas y samedi, dos palabras con e caduca frecuente."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Te digo la verdad. Es un pueblo pequeño.",
+      "accept": ["Je te dis la vérité. C'est un petit village"],
+      "hintWords": ["je te dis la vérité", "c'est un petit village"],
+      "strictAccents": false,
+      "audio": "Je te dis la vérité. C'est un petit village.",
+      "explain": "Je te dis y petit, ambas con e caduca."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa con el día correcto",
+      "text": "On part ___, et on rentre ___.",
+      "blanks": [{ "accept": ["vendredi"] }, { "accept": ["samedi"] }],
+      "bank": ["vendredi", "samedi", "dimanche"],
+      "explain": "Vendredi mantiene más su e que samedi."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Trabajo el fin de semana»",
+      "tokens": ["le week-end", "Je travaille"],
+      "answer": ["Je travaille", "le week-end"],
+      "audio": "Je travaille le week-end.",
+      "explain": "Je travaille + le week-end."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Je ne sais pas ce que tu veux faire ce week-end, mais on se voit vendredi.",
+      "accept": ["No sé qué quieres hacer este fin de semana, pero nos vemos el viernes."],
+      "strictAccents": false,
+      "audio": "Je ne sais pas ce que tu veux faire ce week-end, mais on se voit vendredi.",
+      "explain": "Je ne sais pas + ce que, dos ejemplos de e caduca en una frase."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre los planes del fin de semana",
+      "turns": [
+        { "who": "Léa", "text": "On se voit ce week-end ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, samedi ça me va.", "Je ne sais pas encore, je te dis demain."], "hint": "usa samedi o je ne sais pas" },
+        { "who": "Léa", "text": "D'accord, à bientôt !", "speak": true }
+      ],
+      "explain": "Samedi y je ne sais pas son muy frecuentes en conversación."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "speak": "Je ne sais pas ce que tu veux faire samedi, mais je te dis rapidement.",
+      "mode": "write",
+      "accept": ["Je ne sais pas ce que tu veux faire samedi, mais je te dis rapidement"],
+      "showTextAfter": true,
+      "explain": "Varias e caducas en una frase con habla natural."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "e-caduca"],
+      "difficulty": 2,
+      "speak": "petit",
+      "mode": "choose",
+      "options": ["petit", "petite", "samedi", "vendredi"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Petit, con la e caduca casi desaparecida: /pti/."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general", "e-caduca"],
+      "difficulty": 3,
+      "speak": "Je ne sais pas ce que tu veux faire ce petit week-end, on se voit samedi ou vendredi ?",
+      "es": "No sé qué quieres hacer este pequeño fin de semana, ¿nos vemos el sábado o el viernes?",
+      "ipa": "/ʒən.sɛ.pa skə ty vø fɛʁ sə pti wi.kɛnd ɔ̃ sə vwa sam.di u vɑ̃.dʁə.di/",
+      "esApprox": "«shen-se-PA ske tü vö fer se PTI uí-KEND on se VUÁ SAM-di u van-dre-DÍ»",
+      "focus": "Muchas e caducas seguidas, en una frase típica de conversación rápida.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Propón quedar un día de la semana, hablando rápido y dejando caer las e caducas.",
+      "modelAnswer": "On se voit samedi ? Je ne sais pas encore l'heure, je te dis demain.",
+      "alsoValid": ["On se voit vendredi, ça te va ?"],
+      "speak": "On se voit samedi ? Je ne sais pas encore l'heure, je te dis demain.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronunciacion-general", "e-caduca"],
+      "difficulty": 2,
+      "prompt": "¿La e caduca cae con más o menos facilidad?",
+      "buckets": ["Cae fácil", "Se mantiene más"],
+      "items": [
+        { "text": "petit", "bucket": 0 },
+        { "text": "vendredi", "bucket": 1 },
+        { "text": "samedi", "bucket": 0 },
+        { "text": "je ne sais pas (la de ne)", "bucket": 0 }
+      ],
+      "explain": "Petit, samedi y la e de ne caen fácilmente; vendredi mantiene más su e por el grupo ndr."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "On se voit le petit.",
+      "accept": ["On se voit samedi"],
+      "audio": "On se voit samedi.",
+      "explain": "Para proponer un día, se dice samedi (un día de la semana), no le petit (que no tiene sentido aquí)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "petit / petite", "es": "pequeño/a", "esApprox": "«PTI PTIT»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "samedi", "es": "sábado", "esApprox": "«SAM-di»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je ne sais pas", "es": "no sé", "esApprox": "«shen-se-PA»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "vendredi", "es": "viernes", "esApprox": "«van-dre-DÍ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "ce que", "es": "lo que", "esApprox": "«SKE»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "je te dis", "es": "te digo", "esApprox": "«shet-DI»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Je ne sais pas où il est. On se voit samedi.", "es": "No sé dónde está. Nos vemos el sábado.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je te dis la vérité. C'est un petit village.", "es": "Te digo la verdad. Es un pueblo pequeño.", "from": "e7" }
+  ]
+}

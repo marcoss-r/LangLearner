@@ -1,0 +1,251 @@
+{
+  "id": "fr-a1-069",
+  "lang": "fr",
+  "level": "A1",
+  "order": 69,
+  "title": "Hablar del clima y de las estaciones",
+  "objectives": [
+    "Combinar las estaciones (clase 38) con el vocabulario del tiempo (clase 68)",
+    "Hablar de tu estación preferida y por qué",
+    "Mantener una conversación completa sobre el clima de tu país"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El clima según la estación",
+      "body": "Combina en/au + estación (clase 38) con il fait/il pleut/il neige (clase 68) para describir el clima típico de cada estación.",
+      "examples": [
+        { "target": "En été, il fait chaud et il y a du soleil. En hiver, il fait froid et il neige.", "es": "En verano, hace calor y hay sol. En invierno, hace frío y nieva.", "note": "en été / en hiver + expresión del tiempo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Preguntas sobre el clima",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["Quelle est ta saison préférée ?", "¿Cuál es tu estación preferida?"],
+        ["Ma saison préférée, c'est...", "Mi estación preferida es..."],
+        ["Quel temps fait-il en été/en hiver ?", "¿Qué tiempo hace en verano/en invierno?"],
+        ["J'aime le printemps parce qu'il fait doux.", "Me gusta la primavera porque hace un tiempo suave."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Parce que se convierte en parce qu' delante de vocal, igual que ne se convierte en n' (clase 19): j'aime l'été parce qu'il fait chaud."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la saison", "es": "la estación (del año)", "ipa": "/la sɛ.zɔ̃/", "esApprox": "«la se-ZÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Quelle est ta saison préférée ?", "es": "¿Cuál es tu estación preferida?" } },
+    { "id": "v2", "target": "parce que / parce qu'", "es": "porque", "ipa": "/paʁs kə/", "esApprox": "«PARS ke»", "pos": "conjunción", "gender": null, "example": { "target": "J'aime l'hiver parce qu'il neige.", "es": "Me gusta el invierno porque nieva." } },
+    { "id": "v3", "target": "doux / douce", "es": "suave, templado/a", "ipa": "/du dus/", "esApprox": "«DÚ DUS»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Au printemps, il fait doux.", "es": "En primavera hace un tiempo suave." } },
+    { "id": "v4", "target": "préféré(e)", "es": "preferido/a", "ipa": "/pʁe.fe.ʁe/", "esApprox": "«pre-fe-RE»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "L'été, c'est ma saison préférée.", "es": "El verano es mi estación preferida." } },
+    { "id": "v5", "target": "les vacances", "es": "las vacaciones", "ipa": "/le va.kɑ̃s/", "esApprox": "«le va-KANS»", "pos": "sustantivo", "gender": "f", "example": { "target": "En été, je vais en vacances.", "es": "En verano, voy de vacaciones." } },
+    { "id": "v6", "target": "Quelle est ta saison préférée ?", "es": "¿Cuál es tu estación preferida?", "ipa": "/kɛl ɛ ta sɛ.zɔ̃ pʁe.fe.ʁe/", "esApprox": "«kel e ta se-ZÓN pre-fe-RE»", "pos": "expresión", "gender": null, "example": { "target": "Quelle est ta saison préférée ? — L'été.", "es": "¿Cuál es tu estación preferida? —El verano." } },
+    { "id": "v7", "target": "les fleurs", "es": "las flores", "ipa": "/le flœʁ/", "esApprox": "«le FLEUR»", "pos": "sustantivo", "gender": "f", "example": { "target": "Au printemps, il y a des fleurs.", "es": "En primavera hay flores." } },
+    { "id": "v8", "target": "les couleurs", "es": "los colores", "ipa": "/le ku.lœʁ/", "esApprox": "«le ku-LEUR»", "pos": "sustantivo", "gender": "f", "example": { "target": "En automne, il y a de belles couleurs.", "es": "En otoño hay colores bonitos." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se pregunta «¿cuál es tu estación preferida?»?",
+      "options": ["Quel temps fait-il ?", "Quelle est ta saison préférée ?", "Quelle heure est-il ?", "Quel âge as-tu ?"],
+      "answer": 1,
+      "explain": "Quelle est ta saison préférée ? = ¿cuál es tu estación preferida?"
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «porque» delante de una vocal?",
+      "options": ["parce que", "parce qu'", "pourquoi", "parce"],
+      "answer": 1,
+      "explain": "Parce que se convierte en parce qu' delante de vocal."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "statement": "Au printemps es una excepción: las demás estaciones usan en.",
+      "answer": true,
+      "explain": "Repaso de la clase 38: au printemps, pero en été/automne/hiver."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras no es una estación?",
+      "options": ["l'été", "l'automne", "les vacances", "l'hiver"],
+      "answer": 2,
+      "explain": "Les vacances (las vacaciones) no es una estación del año."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "Une cada estación con su clima típico",
+      "left": ["l'été", "l'hiver", "le printemps", "l'automne"],
+      "right": ["il fait doux et il pleut souvent", "il fait chaud et il y a du soleil", "il y a du vent et des nuages", "il fait froid et il neige"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Été = calor/sol, hiver = frío/nieve, printemps = suave/lluvia, automne = viento/nubes."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "Mi estación preferida es el verano, porque hace calor y hay sol.",
+      "accept": ["Ma saison préférée, c'est l'été, parce qu'il fait chaud et il y a du soleil"],
+      "hintWords": ["ma saison préférée, c'est l'été", "parce qu'il fait chaud"],
+      "strictAccents": false,
+      "audio": "Ma saison préférée, c'est l'été, parce qu'il fait chaud et il y a du soleil.",
+      "explain": "C'est + estación + parce que + il fait/il y a."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "En invierno hace frío y nieva, pero en primavera hace un tiempo suave.",
+      "accept": ["En hiver, il fait froid et il neige, mais au printemps, il fait doux"],
+      "hintWords": ["en hiver, il fait froid", "au printemps, il fait doux"],
+      "strictAccents": false,
+      "audio": "En hiver, il fait froid et il neige, mais au printemps, il fait doux.",
+      "explain": "En hiver frente a au printemps (excepción, clase 38)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "Completa con la conjunción correcta",
+      "text": "J'aime l'automne ___ il fait doux et il y a de belles couleurs.",
+      "blanks": [{ "accept": ["parce qu'"] }],
+      "bank": ["parce que", "parce qu'", "et"],
+      "explain": "Parce qu' delante de il (vocal)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «En verano voy de vacaciones»",
+      "tokens": ["en vacances", "En été", "je vais"],
+      "answer": ["En été", "je vais", "en vacances"],
+      "audio": "En été, je vais en vacances.",
+      "explain": "En été + je vais (aller, clase 35) + en vacances."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "Quelle est ta saison préférée ? — L'hiver, parce que j'adore la neige.",
+      "accept": ["¿Cuál es tu estación preferida? —El invierno, porque me encanta la nieve."],
+      "strictAccents": false,
+      "audio": "Quelle est ta saison préférée ? — L'hiver, parce que j'adore la neige.",
+      "explain": "Pregunta y respuesta completa sobre la estación preferida."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre las estaciones",
+      "turns": [
+        { "who": "Léa", "text": "Quelle est ta saison préférée ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ma saison préférée, c'est l'été.", "J'aime l'automne parce qu'il fait doux."], "hint": "di tu estación preferida y por qué" },
+        { "who": "Léa", "text": "Moi, j'aime l'hiver.", "speak": true }
+      ],
+      "explain": "Quelle est ta saison préférée ? se responde con ma saison préférée, c'est... o j'aime..."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "speak": "Ma saison préférée, c'est le printemps, parce qu'il fait doux et il y a des fleurs.",
+      "mode": "write",
+      "accept": ["Ma saison préférée, c'est le printemps, parce qu'il fait doux et il y a des fleurs"],
+      "showTextAfter": true,
+      "explain": "Opinión completa con parce que."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["clima"],
+      "difficulty": 1,
+      "speak": "les vacances",
+      "mode": "choose",
+      "options": ["la saison", "les vacances", "le temps", "les nuages"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Les vacances = las vacaciones."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["clima"],
+      "difficulty": 3,
+      "speak": "Ma saison préférée, c'est l'été, parce qu'il fait chaud, il y a du soleil et je vais en vacances.",
+      "es": "Mi estación preferida es el verano, porque hace calor, hay sol y voy de vacaciones.",
+      "ipa": "/ma sɛ.zɔ̃ pʁe.fe.ʁe sɛ.t‿e.te paʁs.kil fɛ ʃo il i a dy sɔ.lɛj e ʒə vɛ ɑ̃ va.kɑ̃s/",
+      "esApprox": "«ma se-ZÓN pre-fe-RE se-te-TÉ pars-KIL fe SHÓ il i a dü so-LEY e ye VE an va-KANS»",
+      "focus": "Opinión completa sobre la estación preferida con tres razones.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "Di cuál es tu estación preferida y por qué.",
+      "modelAnswer": "Ma saison préférée, c'est l'automne, parce qu'il fait doux.",
+      "alsoValid": ["J'aime l'hiver parce qu'il neige."],
+      "speak": "Ma saison préférée, c'est l'automne, parce qu'il fait doux.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "¿Se usa en o au con esta estación?",
+      "buckets": ["en", "au"],
+      "items": [
+        { "text": "été", "bucket": 0 },
+        { "text": "printemps", "bucket": 1 },
+        { "text": "automne", "bucket": 0 },
+        { "text": "hiver", "bucket": 0 }
+      ],
+      "explain": "Repaso de la clase 38: solo printemps usa au; las demás usan en."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "Hay un error de preposición. Corrige la frase entera.",
+      "wrong": "En printemps, il fait doux.",
+      "accept": ["Au printemps, il fait doux"],
+      "audio": "Au printemps, il fait doux.",
+      "explain": "Printemps es la excepción: se usa au, no en."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la saison", "es": "la estación (del año)", "esApprox": "«la se-ZÓN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "parce que / parce qu'", "es": "porque", "esApprox": "«PARS ke»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "doux / douce", "es": "suave, templado/a", "esApprox": "«DÚ DUS»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "les vacances", "es": "las vacaciones", "esApprox": "«le va-KANS»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "Quelle est ta saison préférée ?", "es": "¿Cuál es tu estación preferida?", "from": "e1" },
+    { "id": "s6", "kind": "phrase", "target": "Ma saison préférée, c'est l'été, parce qu'il fait chaud et il y a du soleil.", "es": "Mi estación preferida es el verano, porque hace calor y hay sol.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "En hiver, il fait froid et il neige, mais au printemps, il fait doux.", "es": "En invierno hace frío y nieva, pero en primavera hace un tiempo suave.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "En été, je vais en vacances.", "es": "En verano voy de vacaciones.", "from": "e9" }
+  ]
+}

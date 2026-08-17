@@ -1,0 +1,251 @@
+{
+  "id": "fr-b1-180",
+  "lang": "fr",
+  "level": "B1",
+  "order": 180,
+  "title": "El subjuntivo tras expresar duda: je ne pense pas que, il est possible que",
+  "objectives": [
+    "Distinguir cuándo penser/croire que llevan indicativo (afirmativo) y cuándo subjonctif (negado)",
+    "Usar il est possible que (subjonctif) frente a il est probable que (indicativo)",
+    "Practicar frases que contrastan certeza y duda"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Certeza frente a duda",
+      "body": "Penser que y croire que en afirmativo expresan certeza y llevan indicativo. En negativo (je ne pense pas que, je ne crois pas que) expresan duda y llevan subjonctif, porque niegan la certeza de lo que sigue."
+    },
+    {
+      "type": "table",
+      "title": "Afirmativo (indicativo) frente a negado (subjonctif)",
+      "headers": ["Estructura", "Modo", "Ejemplo"],
+      "rows": [
+        ["je pense que / je crois que", "indicativo", "je pense qu'il a raison"],
+        ["je ne pense pas que / je ne crois pas que", "subjonctif", "je ne pense pas que ce soit vrai"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Possible (subjonctif) frente a probable (indicativo)",
+      "headers": ["Expresión", "Modo", "Ejemplo"],
+      "rows": [
+        ["il est possible que", "subjonctif", "il est possible que tu aies raison"],
+        ["il est probable que", "indicativo", "il est probable qu'il est tard"]
+      ],
+      "note": "Aunque parezcan similares, possible exige subjonctif y probable exige indicativo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je ne pense pas que", "es": "no pienso que", "ipa": "/ʒə nə pɑ̃s pa kə/", "esApprox": "«ye ne PANS pa ke»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je ne crois pas que", "es": "no creo que", "ipa": "/ʒə nə kʁwa pa kə/", "esApprox": "«ye ne kruá pa ke»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "il est possible que", "es": "es posible que", "ipa": "/i.l‿ɛ pɔ.sibl kə/", "esApprox": "«il e po-SIBL ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "il est probable que", "es": "es probable que", "ipa": "/i.l‿ɛ pʁɔ.babl kə/", "esApprox": "«il e pro-BABL ke»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "je doute que", "es": "dudo que", "ipa": "/ʒə dut kə/", "esApprox": "«ye DUT ke»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "que ce soit vrai", "es": "que sea verdad", "ipa": "/kə sə swa vʁɛ/", "esApprox": "«ke se suá VRE»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "que tu aies raison", "es": "que tengas razón", "ipa": "/kə ty‿ɛ ʁɛ.zɔ̃/", "esApprox": "«ke tü E re-ZÓN»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "il n'est pas sûr que", "es": "no es seguro que", "ipa": "/il nɛ pa syʁ kə/", "esApprox": "«il ne pa SÜR ke»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "¿Qué modo usa je pense que en afirmativo?",
+      "options": ["indicativo", "subjonctif", "infinitivo", "conditionnel"],
+      "answer": 0,
+      "explain": "Je pense que + indicativo, porque expresa certeza."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "¿Qué modo usa je ne pense pas que?",
+      "options": ["indicativo", "subjonctif", "infinitivo", "conditionnel"],
+      "answer": 1,
+      "explain": "Al negar la certeza, je ne pense pas que exige subjonctif."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "statement": "Il est possible que va seguido de subjonctif.",
+      "answer": true,
+      "explain": "Il est possible que tu aies raison: subjonctif."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "statement": "Il est probable que va seguido de subjonctif.",
+      "answer": false,
+      "explain": "Il est probable que va seguido de indicativo: il est probable qu'il est tard."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su modo",
+      "left": ["je pense que", "je ne pense pas que", "il est probable que", "il est possible que"],
+      "right": ["subjonctif (negación)", "indicativo (probabilidad)", "subjonctif (posibilidad)", "indicativo (afirmación)"],
+      "answer": [3, 0, 1, 2],
+      "explain": "Je pense que y il est probable que van con indicativo; je ne pense pas que y il est possible que van con subjonctif."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "No pienso que sea una buena idea.",
+      "accept": ["Je ne pense pas que ce soit une bonne idée"],
+      "hintWords": ["je ne pense pas que ce soit", "une bonne idée"],
+      "strictAccents": true,
+      "audio": "Je ne pense pas que ce soit une bonne idée.",
+      "explain": "Je ne pense pas que + subjonctif de être (ce soit)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "Es posible que tengas razón, pero es probable que sea tarde.",
+      "accept": ["Il est possible que tu aies raison, mais il est probable qu'il est tard"],
+      "hintWords": ["il est possible que tu aies raison", "mais il est probable qu'il est tard"],
+      "strictAccents": true,
+      "audio": "Il est possible que tu aies raison, mais il est probable qu'il est tard.",
+      "explain": "Possible + subjonctif (que tu aies raison) frente a probable + indicativo (qu'il est tard)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Je pense qu'il ___ raison, mais je ne pense pas que ce ___ une bonne idée.",
+      "blanks": [{ "accept": ["a"] }, { "accept": ["soit"] }],
+      "bank": ["a", "soit", "est"],
+      "explain": "Je pense que + indicativo (a) frente a je ne pense pas que + subjonctif (soit)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Dudo que sea verdad»",
+      "tokens": ["que ce soit vrai", "Je doute"],
+      "answer": ["Je doute", "que ce soit vrai"],
+      "audio": "Je doute que ce soit vrai.",
+      "explain": "Je doute que + subjonctif de être (que ce soit)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "Je pense que tu as raison, mais je ne suis pas sûr que ce soit la meilleure solution.",
+      "accept": ["Pienso que tienes razón, pero no estoy seguro de que sea la mejor solución."],
+      "strictAccents": false,
+      "audio": "Je pense que tu as raison, mais je ne suis pas sûr que ce soit la meilleure solution.",
+      "explain": "Contraste entre certeza (indicativo) y duda (subjonctif) en la misma frase."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación expresando duda o certeza",
+      "turns": [
+        { "who": "Léa", "text": "Tu penses que c'est une bonne idée ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je ne pense pas que ce soit une bonne idée.", "Il est possible que tu aies raison."], "hint": "usa duda + subjonctif o certeza + indicativo" },
+        { "who": "Léa", "text": "D'accord, je vais réfléchir.", "speak": true }
+      ],
+      "explain": "Repaso combinado de duda y certeza."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "speak": "Je ne pense pas que ce soit vrai, mais il est possible que tu aies raison.",
+      "mode": "write",
+      "accept": ["Je ne pense pas que ce soit vrai, mais il est possible que tu aies raison"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de duda con je ne pense pas que e il est possible que."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["duda"],
+      "difficulty": 1,
+      "speak": "il est probable que",
+      "mode": "choose",
+      "options": ["il est probable que", "il est possible que", "je doute que", "je ne pense pas que"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Il est probable que es la única expresión de esta lista que va con indicativo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["duda"],
+      "difficulty": 3,
+      "speak": "Je pense que tu as raison, mais je ne pense pas que ce soit facile, et il est possible que nous ayons tort.",
+      "es": "Pienso que tienes razón, pero no pienso que sea fácil, y es posible que nos equivoquemos.",
+      "ipa": "/ʒə pɑ̃s kə ty a ʁɛ.zɔ̃ mɛ ʒə nə pɑ̃s pa kə sə swa fa.sil e i.l‿ɛ pɔ.sibl kə nu.z‿ɛ.jɔ̃ tɔʁ/",
+      "esApprox": "«ye PANS ke tü a re-ZÓN me ye ne PANS pa ke se suá fa-SIL e il e po-SIBL ke nu-ze-YON TOR»",
+      "focus": "Contraste de indicativo y subjonctif en una misma narración larga.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "Expresa una duda y una certeza sobre el mismo tema, contrastando indicativo y subjonctif.",
+      "modelAnswer": "Je pense que tu as raison, mais je ne pense pas que ce soit si simple.",
+      "alsoValid": ["Il est possible que tu aies raison, mais il est probable que ce n'est pas facile."],
+      "speak": "Je pense que tu as raison, mais je ne pense pas que ce soit si simple.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "¿Es indicativo o subjonctif?",
+      "buckets": ["Indicativo", "Subjonctif"],
+      "items": [
+        { "text": "je pense que", "bucket": 0 },
+        { "text": "je ne pense pas que", "bucket": 1 },
+        { "text": "il est probable que", "bucket": 0 },
+        { "text": "il est possible que", "bucket": 1 }
+      ],
+      "explain": "Je pense que y il est probable que van con indicativo; je ne pense pas que y il est possible que van con subjonctif."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["duda"],
+      "difficulty": 2,
+      "prompt": "Hay un error: la negación de penser exige subjonctif. Corrige la frase entera.",
+      "wrong": "Je ne pense pas que c'est une bonne idée.",
+      "accept": ["Je ne pense pas que ce soit une bonne idée"],
+      "audio": "Je ne pense pas que ce soit une bonne idée.",
+      "explain": "Je ne pense pas que exige subjonctif (ce soit), no indicativo (c'est)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je ne pense pas que", "es": "no pienso que", "esApprox": "«ye ne PANS pa ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je ne crois pas que", "es": "no creo que", "esApprox": "«ye ne kruá pa ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "il est possible que", "es": "es posible que", "esApprox": "«il e po-SIBL ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "il est probable que", "es": "es probable que", "esApprox": "«il e pro-BABL ke»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "je doute que", "es": "dudo que", "esApprox": "«ye DUT ke»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "il n'est pas sûr que", "es": "no es seguro que", "esApprox": "«il ne pa SÜR ke»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je ne pense pas que ce soit une bonne idée.", "es": "No pienso que sea una buena idea.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Il est possible que tu aies raison, mais il est probable qu'il est tard.", "es": "Es posible que tengas razón, pero es probable que sea tarde.", "from": "e7" }
+  ]
+}

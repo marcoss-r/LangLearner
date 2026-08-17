@@ -1,0 +1,89 @@
+{
+  "id": "de-a1-084",
+  "lang": "de",
+  "level": "A1",
+  "order": 84,
+  "title": "El superlativo",
+  "objectives": [
+    "Formar el superlativo con am + adjetivo + -sten",
+    "Reconocer que los mismos adjetivos con Umlaut en comparativo lo mantienen en superlativo",
+    "Usar los superlativos irregulares am besten, am liebsten y am meisten"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "am + adjetivo + -sten",
+      "body": "El superlativo (el más...) se forma con am + adjetivo + -sten: «Im Winter ist es am kältesten» (En invierno es cuando hace más frío). Si el adjetivo termina en -d, -t, -s, -z o una vocal, se añade -esten en vez de -sten para poder pronunciarlo: am ältesten, am größten (excepción: groß no añade -e-). Los adjetivos con Umlaut en comparativo lo mantienen aquí: älter → am ältesten.",
+      "examples": [
+        { "target": "Im Winter ist es am kältesten.", "es": "En invierno es cuando hace más frío." },
+        { "target": "Mein Bruder ist am größten in der Familie.", "es": "Mi hermano es el más alto de la familia." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Superlativos irregulares clave",
+      "headers": ["Comparativo", "Superlativo", "Español"],
+      "rows": [
+        ["besser (gut)", "am besten", "lo mejor"],
+        ["lieber (gern)", "am liebsten", "lo que más prefiero"],
+        ["mehr (viel)", "am meisten", "lo que más (cantidad)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "am liebsten es muy útil para hablar de tus preferencias favoritas: «Ich spiele am liebsten Tennis» (Lo que más me gusta es jugar al tenis / prefiero el tenis sobre todo)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "am kältesten", "es": "lo más frío", "ipa": "/am ˈkɛltəstn̩/", "esApprox": "«am KÉL-tes-ten»", "pos": "expresión", "gender": null, "example": { "target": "Im Winter ist es am kältesten.", "es": "En invierno hace más frío." } },
+    { "id": "v2", "target": "am größten", "es": "el más grande, el más alto", "ipa": "/am ˈɡʁøːstn̩/", "esApprox": "«am GRÖS-ten»", "pos": "expresión", "gender": null, "example": { "target": "Er ist am größten.", "es": "Él es el más alto." } },
+    { "id": "v3", "target": "am besten", "es": "lo mejor", "ipa": "/am ˈbɛstn̩/", "esApprox": "«am BÉS-ten»", "pos": "expresión", "gender": null, "example": { "target": "Das schmeckt am besten.", "es": "Eso es lo que mejor sabe." } },
+    { "id": "v4", "target": "am liebsten", "es": "lo que más prefiero", "ipa": "/am ˈliːpstn̩/", "esApprox": "«am LIP-sten»", "pos": "expresión", "gender": null, "example": { "target": "Ich spiele am liebsten Tennis.", "es": "Prefiero el tenis sobre todo." } },
+    { "id": "v5", "target": "am meisten", "es": "lo que más (cantidad)", "ipa": "/am ˈmaɪ̯stn̩/", "esApprox": "«am MÁIS-ten»", "pos": "expresión", "gender": null, "example": { "target": "Er arbeitet am meisten.", "es": "Él es quien más trabaja." } },
+    { "id": "v6", "target": "schmecken", "es": "saber (a algo, sabor)", "ipa": "/ˈʃmɛkn̩/", "esApprox": "«SHMÉ-ken»", "pos": "verbo", "gender": null, "example": { "target": "Das schmeckt gut.", "es": "Eso sabe bien." } },
+    { "id": "v7", "target": "die Familie", "es": "la familia", "ipa": "/faˈmiːliə/", "esApprox": "«fa-MÍ-lie»", "pos": "sustantivo", "gender": "f", "example": { "target": "Meine Familie ist groß.", "es": "Mi familia es grande." } },
+    { "id": "v8", "target": "am schnellsten", "es": "lo más rápido", "ipa": "/am ˈʃnɛlstn̩/", "esApprox": "«am SHNÉL-sten»", "pos": "expresión", "gender": null, "example": { "target": "Er läuft am schnellsten.", "es": "Él es quien corre más rápido." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["superlativo"], "difficulty": 1, "prompt": "¿Cómo se forma el superlativo regular?", "options": ["adjetivo + -er", "am + adjetivo + -sten", "so + adjetivo + wie", "mehr + adjetivo"], "answer": 1, "explain": "am + adjetivo + -sten: patrón regular del superlativo." },
+    { "id": "e2", "type": "mcq", "tags": ["superlativo"], "difficulty": 2, "prompt": "¿Cuál es el superlativo de «gut»?", "options": ["am guttesten", "am besten", "am gutsten", "besser"], "answer": 1, "explain": "gut → besser → am besten: irregular en las tres formas." },
+    { "id": "e3", "type": "true_false", "tags": ["superlativo"], "difficulty": 2, "statement": "«am liebsten» sirve para hablar de tu preferencia favorita.", "answer": true, "explain": "am liebsten: superlativo irregular de gern, para la preferencia máxima." },
+    { "id": "e4", "type": "true_false", "tags": ["superlativo"], "difficulty": 2, "statement": "Los adjetivos con Umlaut en comparativo lo pierden en el superlativo.", "answer": false, "explain": "Lo mantienen: älter → am ältesten, größer → am größten." },
+    { "id": "e5", "type": "match_pairs", "tags": ["superlativo"], "difficulty": 2, "prompt": "Une cada comparativo con su superlativo", "left": ["besser", "lieber", "mehr", "kälter"], "right": ["am besten", "am liebsten", "am meisten", "am kältesten"], "answer": [0, 1, 2, 3], "explain": "Tres irregulares y uno regular con Umlaut, en su forma de superlativo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["superlativo"], "difficulty": 2, "prompt": "En invierno hace más frío.", "accept": ["Im Winter ist es am kältesten"], "hintWords": ["im Winter ist es am kältesten"], "strictAccents": false, "audio": "Im Winter ist es am kältesten.", "explain": "am kältesten: superlativo con -esten porque el adjetivo termina en -t." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["superlativo"], "difficulty": 2, "prompt": "Prefiero el tenis sobre todo.", "accept": ["Ich spiele am liebsten Tennis"], "hintWords": ["ich spiele am liebsten Tennis"], "strictAccents": false, "audio": "Ich spiele am liebsten Tennis.", "explain": "am liebsten: superlativo irregular de gern." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["superlativo"], "difficulty": 2, "prompt": "Mi hermano es el más alto de la familia.", "accept": ["Mein Bruder ist am größten in der Familie"], "hintWords": ["mein Bruder ist am größten in der Familie"], "strictAccents": false, "audio": "Mein Bruder ist am größten in der Familie.", "explain": "am größten: superlativo de groß, sin -e- extra." },
+    { "id": "e9", "type": "fill_blank", "tags": ["superlativo"], "difficulty": 2, "prompt": "Completa con el superlativo correcto", "text": "Das schmeckt ___. (gut) Er läuft ___. (schnell)", "blanks": [{ "accept": ["am besten"] }, { "accept": ["am schnellsten"] }], "bank": ["am besten", "am schnellsten", "besser"], "explain": "am besten (irregular); am schnellsten (regular)." },
+    { "id": "e10", "type": "word_order", "tags": ["superlativo"], "difficulty": 2, "prompt": "Ordena: «Él es quien más trabaja»", "tokens": ["am meisten", "Er", "arbeitet"], "answer": ["Er", "arbeitet", "am meisten"], "audio": "Er arbeitet am meisten.", "explain": "Er arbeitet am meisten: sujeto-verbo-superlativo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["superlativo"], "difficulty": 2, "prompt": "Er läuft am schnellsten.", "accept": ["Él es quien corre más rápido."], "strictAccents": false, "audio": "Er läuft am schnellsten.", "explain": "am schnellsten: superlativo regular de schnell." },
+    { "id": "e12", "type": "dialogue", "tags": ["superlativo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Ida", "text": "Was spielst du am liebsten?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich spiele am liebsten Tennis.", "Am liebsten spiele ich Fußball."], "hint": "responde con tu actividad favorita" },
+      { "who": "Ida", "text": "Cool, ich auch!", "speak": true }
+    ], "explain": "am liebsten: la pregunta más natural para hablar de preferencias favoritas." },
+    { "id": "e13", "type": "listening", "tags": ["superlativo"], "difficulty": 1, "speak": "Ich spiele am liebsten Tennis.", "mode": "write", "accept": ["Ich spiele am liebsten Tennis"], "showTextAfter": true, "explain": "am liebsten: superlativo irregular de gern." },
+    { "id": "e14", "type": "listening", "tags": ["superlativo"], "difficulty": 2, "speak": "Im Winter ist es am kältesten.", "mode": "choose", "options": ["Im Winter ist es am kältesten.", "Im Winter ist es kälter.", "Im Winter ist es so kalt wie im Herbst."], "answer": 0, "showTextAfter": true, "explain": "am kältesten: superlativo, distinto del comparativo (kälter) y de la igualdad (so kalt wie)." },
+    { "id": "e15", "type": "shadowing", "tags": ["superlativo"], "difficulty": 2, "speak": "Mein Bruder ist am größten in der Familie, aber ich laufe am schnellsten.", "es": "Mi hermano es el más alto de la familia, pero yo soy quien corre más rápido.", "ipa": "/maɪ̯n ˈbʁuːdɐ ɪst am ˈɡʁøːstn̩ ɪn deːɐ̯ faˈmiːliə ˈaːbɐ ɪç ˈlaʊ̯fə am ˈʃnɛlstn̩/", "esApprox": "«main BRÚ-der ist am GRÖS-ten in der fa-MÍ-lie, Á-ber ich LÁU-fe am SHNÉL-sten»", "focus": "am größten y am schnellsten: dos superlativos, uno irregular en la raíz (groß) y otro regular.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["superlativo"], "difficulty": 2, "speak": "Ich esse am liebsten Pizza, aber diese hier schmeckt am besten.", "es": "Lo que más me gusta comer es pizza, pero esta de aquí sabe mejor que ninguna.", "ipa": "/ɪç ˈɛsə am ˈliːpstn̩ ˈpɪtsa ˈaːbɐ ˈdiːzə hiːɐ̯ ʃmɛkt am ˈbɛstn̩/", "esApprox": "«ich É-se am LIP-sten PÍ-tsa, Á-ber DÍ-ze jir shmekt am BÉS-ten»", "focus": "am liebsten y am besten: los dos superlativos irregulares más frecuentes, juntos.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["superlativo"], "difficulty": 2, "prompt": "Te preguntan qué es lo que más te gusta jugar. Di que lo que más te gusta es el tenis.", "modelAnswer": "Ich spiele am liebsten Tennis.", "alsoValid": ["Am liebsten spiele ich Tennis."], "speak": "Ich spiele am liebsten Tennis.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["superlativo"], "difficulty": 2, "prompt": "Clasifica cada superlativo: regular o irregular", "buckets": ["Regular (am...-sten/-esten)", "Irregular"], "items": [
+      { "text": "am schnellsten", "bucket": 0 },
+      { "text": "am besten", "bucket": 1 },
+      { "text": "am kältesten", "bucket": 0 },
+      { "text": "am liebsten", "bucket": 1 },
+      { "text": "am meisten", "bucket": 1 }
+    ], "explain": "am schnellsten y am kältesten siguen el patrón regular; am besten, am liebsten y am meisten son irregulares." },
+    { "id": "e19", "type": "error_correction", "tags": ["superlativo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das schmeckt am guttesten.", "accept": ["Das schmeckt am besten"], "audio": "Das schmeckt am besten.", "explain": "gut es irregular: su superlativo es am besten, no «am guttesten»." },
+    { "id": "e20", "type": "mcq", "tags": ["superlativo"], "difficulty": 2, "prompt": "«In meiner Familie ist mein Bruder am größten, aber ich laufe am schnellsten. Meine Schwester arbeitet am meisten, und sie kocht auch am besten.» ¿Quién trabaja más?", "options": ["El hermano", "Yo", "La hermana", "Los padres"], "answer": 2, "explain": "«Meine Schwester arbeitet am meisten» = mi hermana es quien más trabaja." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "am kältesten", "es": "lo más frío", "esApprox": "«am KÉL-tes-ten»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "am größten", "es": "el más grande, el más alto", "esApprox": "«am GRÖS-ten»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "am besten", "es": "lo mejor", "esApprox": "«am BÉS-ten»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "am liebsten", "es": "lo que más prefiero", "esApprox": "«am LIP-sten»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "am meisten", "es": "lo que más (cantidad)", "esApprox": "«am MÁIS-ten»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "schmecken", "es": "saber (a algo, sabor)", "esApprox": "«SHMÉ-ken»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Mein Bruder ist am größten in der Familie, aber ich laufe am schnellsten.", "es": "Mi hermano es el más alto de la familia, pero yo soy quien corre más rápido.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich esse am liebsten Pizza, aber diese hier schmeckt am besten.", "es": "Lo que más me gusta comer es pizza, pero esta de aquí sabe mejor que ninguna.", "from": "e16" }
+  ]
+}

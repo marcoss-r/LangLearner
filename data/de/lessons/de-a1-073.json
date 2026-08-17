@@ -1,0 +1,93 @@
+{
+  "id": "de-a1-073",
+  "lang": "de",
+  "level": "A1",
+  "order": 73,
+  "title": "Los deportes y el tiempo libre",
+  "objectives": [
+    "Nombrar deportes y actividades de ocio comunes",
+    "Usar Sport treiben, spielen y machen con distintas actividades",
+    "Hablar de tus aficiones usando el Perfekt y el presente"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Sport treiben, spielen, machen",
+      "body": "En alemán, algunos deportes usan spielen (jugar): Fußball spielen, Tennis spielen. Otros usan machen (hacer): Yoga machen, Sport machen. Y la expresión general «hacer deporte» es Sport treiben, más formal que Sport machen pero igual de común.",
+      "examples": [
+        { "target": "Ich spiele Tennis.", "es": "Juego al tenis." },
+        { "target": "Wir machen Yoga.", "es": "Hacemos yoga." },
+        { "target": "Er treibt viel Sport.", "es": "Él hace mucho deporte." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Deportes y actividades de ocio",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["Fußball spielen", "jugar al fútbol"],
+        ["schwimmen", "nadar"],
+        ["Rad fahren", "montar en bici"],
+        ["wandern", "hacer senderismo"],
+        ["laufen", "correr"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Rad fahren y laufen se conjugan como fahren y laufen normales (du fährst Rad, du läufst): recuerda el cambio de vocal a→ä y au→äu que ya conoces."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Sport", "es": "el deporte", "ipa": "/ʃpɔʁt/", "esApprox": "«shport»", "pos": "sustantivo", "gender": "m", "example": { "target": "Er treibt viel Sport.", "es": "Él hace mucho deporte." } },
+    { "id": "v2", "target": "schwimmen", "es": "nadar", "ipa": "/ˈʃvɪmən/", "esApprox": "«SHVÍ-men»", "pos": "verbo", "gender": null, "example": { "target": "Wir schwimmen im Sommer.", "es": "Nadamos en verano." } },
+    { "id": "v3", "target": "Rad fahren", "es": "montar en bici", "ipa": "/ʁaːt ˈfaːʁən/", "esApprox": "«rat FÁ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Sie fährt gern Rad.", "es": "A ella le gusta montar en bici." } },
+    { "id": "v4", "target": "wandern", "es": "hacer senderismo", "ipa": "/ˈvandɐn/", "esApprox": "«VÁN-dern»", "pos": "verbo", "gender": null, "example": { "target": "Wir wandern am Wochenende.", "es": "Hacemos senderismo el fin de semana." } },
+    { "id": "v5", "target": "laufen", "es": "correr", "ipa": "/ˈlaʊ̯fn̩/", "esApprox": "«LÁU-fen»", "pos": "verbo", "gender": null, "example": { "target": "Ich laufe jeden Morgen.", "es": "Corro cada mañana." } },
+    { "id": "v6", "target": "der Verein", "es": "el club", "ipa": "/fɛɐ̯ˈaɪ̯n/", "esApprox": "«fer-ÁIN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich bin in einem Verein.", "es": "Estoy en un club." } },
+    { "id": "v7", "target": "die Mannschaft", "es": "el equipo", "ipa": "/ˈmanʃaft/", "esApprox": "«MÁN-shaft»", "pos": "sustantivo", "gender": "f", "example": { "target": "Unsere Mannschaft ist gut.", "es": "Nuestro equipo es bueno." } },
+    { "id": "v8", "target": "das Hobby", "es": "el hobby, la afición", "ipa": "/ˈhɔbi/", "esApprox": "«JÓ-bi»", "pos": "sustantivo", "gender": "n", "example": { "target": "Mein Hobby ist Schwimmen.", "es": "Mi afición es la natación." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["deporte"], "difficulty": 1, "prompt": "¿Cómo se dice «hacer senderismo»?", "options": ["schwimmen", "wandern", "laufen", "Rad fahren"], "answer": 1, "explain": "wandern = hacer senderismo." },
+    { "id": "e2", "type": "mcq", "tags": ["deporte"], "difficulty": 2, "prompt": "¿Qué verbo se usa con «Fußball»?", "options": ["machen", "treiben", "spielen", "fahren"], "answer": 2, "explain": "Fußball spielen: los deportes de pelota usan spielen." },
+    { "id": "e3", "type": "true_false", "tags": ["deporte"], "difficulty": 2, "statement": "«die Mannschaft» significa «el equipo».", "answer": true, "explain": "die Mannschaft = el equipo (deportivo)." },
+    { "id": "e4", "type": "true_false", "tags": ["deporte"], "difficulty": 2, "statement": "«laufen» tiene un cambio de vocal en du/er, igual que fahren.", "answer": true, "explain": "du läufst, er läuft: au → äu, como fahren cambia a → ä." },
+    { "id": "e5", "type": "match_pairs", "tags": ["deporte"], "difficulty": 2, "prompt": "Une cada actividad con su traducción", "left": ["schwimmen", "Rad fahren", "wandern", "laufen"], "right": ["nadar", "montar en bici", "hacer senderismo", "correr"], "answer": [0, 1, 2, 3], "explain": "Cuatro actividades físicas frecuentes." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["deporte"], "difficulty": 2, "prompt": "Juego al tenis.", "accept": ["Ich spiele Tennis"], "hintWords": ["ich spiele Tennis"], "strictAccents": false, "audio": "Ich spiele Tennis.", "explain": "spielen para deportes de pelota/raqueta." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["deporte"], "difficulty": 2, "prompt": "Corro cada mañana.", "accept": ["Ich laufe jeden Morgen"], "hintWords": ["ich laufe jeden Morgen"], "strictAccents": false, "audio": "Ich laufe jeden Morgen.", "explain": "laufe: forma ich, sin cambio de vocal." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["deporte"], "difficulty": 2, "prompt": "Mi afición es la natación.", "accept": ["Mein Hobby ist Schwimmen"], "hintWords": ["mein Hobby ist Schwimmen"], "strictAccents": false, "audio": "Mein Hobby ist Schwimmen.", "explain": "Schwimmen como sustantivo (infinitivo sustantivado, con mayúscula)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["deporte"], "difficulty": 2, "prompt": "Completa con el verbo correcto", "text": "Er ___ viel Sport. Sie ___ gern Rad.", "blanks": [{ "accept": ["treibt"] }, { "accept": ["fährt"] }], "bank": ["treibt", "fährt", "spielt"], "explain": "Sport treiben; Rad fahren (fährt con cambio de vocal)." },
+    { "id": "e10", "type": "word_order", "tags": ["deporte"], "difficulty": 2, "prompt": "Ordena: «Hacemos senderismo el fin de semana»", "tokens": ["am Wochenende", "Wir", "wandern"], "answer": ["Wir", "wandern", "am Wochenende"], "audio": "Wir wandern am Wochenende.", "explain": "Wir wandern am Wochenende: sujeto-verbo-tiempo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["deporte"], "difficulty": 2, "prompt": "Unsere Mannschaft ist gut.", "accept": ["Nuestro equipo es bueno."], "strictAccents": false, "audio": "Unsere Mannschaft ist gut.", "explain": "die Mannschaft = el equipo." },
+    { "id": "e12", "type": "dialogue", "tags": ["deporte"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Jonas", "text": "Was ist dein Hobby?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Mein Hobby ist Schwimmen.", "Mein Hobby ist Fußball."], "hint": "di cuál es tu afición" },
+      { "who": "Jonas", "text": "Bist du in einem Verein?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich bin in einem Verein."], "hint": "responde que sí, que estás en un club" }
+    ], "explain": "Conversación típica sobre aficiones y clubes deportivos." },
+    { "id": "e13", "type": "listening", "tags": ["deporte"], "difficulty": 1, "speak": "Ich laufe jeden Morgen.", "mode": "write", "accept": ["Ich laufe jeden Morgen"], "showTextAfter": true, "explain": "laufe: correr, sin cambio de vocal en ich." },
+    { "id": "e14", "type": "listening", "tags": ["deporte"], "difficulty": 2, "speak": "Sie fährt gern Rad.", "mode": "choose", "options": ["Sie fährt gern Rad.", "Sie fahrt gern Rad.", "Sie fährst gern Rad."], "answer": 0, "showTextAfter": true, "explain": "fährt: er/sie/es, con cambio de vocal a→ä." },
+    { "id": "e15", "type": "shadowing", "tags": ["deporte"], "difficulty": 2, "speak": "Mein Hobby ist Schwimmen, aber ich spiele auch gern Tennis.", "es": "Mi afición es la natación, pero también me gusta jugar al tenis.", "ipa": "/maɪ̯n ˈhɔbi ɪst ˈʃvɪmən ˈaːbɐ ɪç ˈʃpiːlə aʊ̯x ɡɛʁn ˈtɛnɪs/", "esApprox": "«main JÓ-bi ist SHVÍ-men, Á-ber ich SHPÍ-le aух guern TÉ-nis»", "focus": "Schwimmen como sustantivo con mayúscula frente a spiele (verbo conjugado).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["deporte"], "difficulty": 2, "speak": "Am Wochenende wandern wir oft in den Bergen.", "es": "El fin de semana hacemos senderismo a menudo en las montañas.", "ipa": "/am ˈvɔxn̩ˌʔɛndə ˈvandɐn viːɐ̯ ɔft ɪn deːn ˈbɛʁɡn̩/", "esApprox": "«am VO-jen-en-de VÁN-dern vir oft in den BÉR-guen»", "focus": "am Wochenende (tiempo) - oft (modo/frecuencia) - in den Bergen (lugar): orden TeKaMoLo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["deporte"], "difficulty": 2, "prompt": "Te preguntan cuál es tu afición. Di que es el fútbol y que juegas en un club.", "modelAnswer": "Mein Hobby ist Fußball, und ich spiele in einem Verein.", "alsoValid": ["Mein Hobby ist Fußball. Ich spiele in einem Verein."], "speak": "Mein Hobby ist Fußball, und ich spiele in einem Verein.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["deporte"], "difficulty": 2, "prompt": "Clasifica cada actividad: ¿usa spielen o no?", "buckets": ["spielen", "otro verbo"], "items": [
+      { "text": "Fußball", "bucket": 0 },
+      { "text": "Tennis", "bucket": 0 },
+      { "text": "schwimmen", "bucket": 1 },
+      { "text": "wandern", "bucket": 1 },
+      { "text": "Rad fahren", "bucket": 1 }
+    ], "explain": "Fußball y Tennis van con spielen; schwimmen, wandern y Rad fahren tienen su propio verbo." },
+    { "id": "e19", "type": "error_correction", "tags": ["deporte"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich spiele Schwimmen.", "accept": ["Ich schwimme", "Mein Hobby ist Schwimmen"], "audio": "Ich schwimme.", "explain": "Nadar no usa spielen; se dice schwimmen como verbo propio." },
+    { "id": "e20", "type": "mcq", "tags": ["deporte"], "difficulty": 2, "prompt": "«Mein Hobby ist Sport. Ich spiele Fußball in einem Verein, und unsere Mannschaft ist sehr gut. Am Wochenende laufe ich oder ich fahre Rad. Manchmal wandern wir auch in den Bergen.» ¿Dónde juega la persona al fútbol?", "options": ["En casa", "En un club", "En el parque", "En la montaña"], "answer": 1, "explain": "«Ich spiele Fußball in einem Verein» = juego al fútbol en un club." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Sport", "es": "el deporte", "esApprox": "«shport»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "schwimmen", "es": "nadar", "esApprox": "«SHVÍ-men»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "Rad fahren", "es": "montar en bici", "esApprox": "«rat FÁ-ren»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "wandern", "es": "hacer senderismo", "esApprox": "«VÁN-dern»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "laufen", "es": "correr", "esApprox": "«LÁU-fen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "das Hobby", "es": "el hobby, la afición", "esApprox": "«JÓ-bi»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Mein Hobby ist Schwimmen, aber ich spiele auch gern Tennis.", "es": "Mi afición es la natación, pero también me gusta jugar al tenis.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Am Wochenende wandern wir oft in den Bergen.", "es": "El fin de semana hacemos senderismo a menudo en las montañas.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "fr-a2-155",
+  "lang": "fr",
+  "level": "A2",
+  "order": 155,
+  "title": "Quedar con alguien: día, hora y lugar",
+  "objectives": [
+    "Aprender fórmulas para proponer una cita: on se voit, on se retrouve",
+    "Confirmar día, hora y lugar de una quedada",
+    "Practicar una conversación completa para quedar con alguien"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Organizar una quedada",
+      "body": "Sin gramática nueva. Vocabulario para quedar: on se voit, on se retrouve, ça te va ?, confirmar día, hora y lugar.",
+      "examples": [
+        { "target": "On se retrouve devant le cinéma à dix-neuf heures. Ça te va ?", "es": "Nos vemos delante del cine a las siete de la tarde. ¿Te va bien?", "note": "on se retrouve + lugar + hora + ça te va ?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario para quedar",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["on se voit", "nos vemos"],
+        ["on se retrouve", "quedamos, nos encontramos"],
+        ["ça te va ?", "¿te va bien?"],
+        ["devant / en face de", "delante de / enfrente de"],
+        ["être en retard / en avance", "llegar tarde / llegar antes de tiempo"],
+        ["confirmer", "confirmar"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Las horas oficiales",
+      "body": "En francés, sobre todo por escrito o en contextos formales, se usa el formato de 24 horas: dix-neuf heures (19:00) en vez de sept heures du soir. Ambos son correctos, pero el primero es más frecuente para quedar."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "on se voit", "es": "nos vemos", "ipa": "/ɔ̃ sə vwa/", "esApprox": "«on se VUÁ»", "pos": "expresión", "gender": null, "example": { "target": "On se voit demain ?", "es": "¿Nos vemos mañana?" } },
+    { "id": "v2", "target": "on se retrouve", "es": "quedamos, nos encontramos", "ipa": "/ɔ̃ sə ʁə.tʁuv/", "esApprox": "«on se re-TRUV»", "pos": "expresión", "gender": null, "example": { "target": "On se retrouve devant le cinéma.", "es": "Nos vemos delante del cine." } },
+    { "id": "v3", "target": "ça te va ?", "es": "¿te va bien?", "ipa": "/sa tə va/", "esApprox": "«sa te VA»", "pos": "expresión", "gender": null, "example": { "target": "Dix-neuf heures, ça te va ?", "es": "Las siete de la tarde, ¿te va bien?" } },
+    { "id": "v4", "target": "devant", "es": "delante de", "ipa": "/də.vɑ̃/", "esApprox": "«de-VAN»", "pos": "preposición", "gender": null, "example": { "target": "On se retrouve devant la gare.", "es": "Nos vemos delante de la estación." } },
+    { "id": "v5", "target": "en face de", "es": "enfrente de", "ipa": "/ɑ̃ fas də/", "esApprox": "«an FAS de»", "pos": "preposición", "gender": null, "example": { "target": "Le café est en face de la banque.", "es": "El café está enfrente del banco." } },
+    { "id": "v6", "target": "être en retard", "es": "llegar tarde", "ipa": "/ɛtʁ ɑ̃ ʁə.taʁ/", "esApprox": "«ETR an re-TAR»", "pos": "expresión", "gender": null, "example": { "target": "Désolé, je suis en retard.", "es": "Lo siento, llego tarde." } },
+    { "id": "v7", "target": "être en avance", "es": "llegar antes de tiempo", "ipa": "/ɛtʁ ɑ̃ n‿a.vɑ̃s/", "esApprox": "«ETR an-na-VANS»", "pos": "expresión", "gender": null, "example": { "target": "Je suis un peu en avance.", "es": "Llego un poco antes de tiempo." } },
+    { "id": "v8", "target": "confirmer", "es": "confirmar", "ipa": "/kɔ̃.fiʁ.me/", "esApprox": "«kon-fir-MÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je confirme pour samedi.", "es": "Confirmo para el sábado." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «nos vemos delante del cine»?",
+      "options": ["On se retrouve devant le cinéma.", "On se voit dans le cinéma.", "On se confirme au cinéma.", "On se va au cinéma."],
+      "answer": 0,
+      "explain": "On se retrouve devant + lugar."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «être en avance»?",
+      "options": ["llegar tarde", "llegar antes de tiempo", "confirmar", "llegar puntual"],
+      "answer": 1,
+      "explain": "Être en avance = llegar antes de tiempo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "statement": "Devant y en face de significan exactamente lo mismo.",
+      "answer": false,
+      "explain": "Devant = delante de (justo enfrente, tocando); en face de = enfrente de (al otro lado)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "statement": "Être en retard es lo contrario de être en avance.",
+      "answer": true,
+      "explain": "Être en retard (llegar tarde) es lo contrario de être en avance (llegar antes de tiempo)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["on se voit", "confirmer", "ça te va ?", "en face de"],
+      "right": ["enfrente de", "nos vemos", "confirmar", "¿te va bien?"],
+      "answer": [1, 2, 3, 0],
+      "explain": "On se voit = nos vemos, confirmer = confirmar, ça te va = ¿te va bien?, en face de = enfrente de."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "Nos vemos delante del cine a las siete de la tarde. ¿Te va bien?",
+      "accept": ["On se retrouve devant le cinéma à dix-neuf heures. Ça te va"],
+      "hintWords": ["on se retrouve devant le cinéma à dix-neuf heures", "ça te va"],
+      "strictAccents": true,
+      "audio": "On se retrouve devant le cinéma à dix-neuf heures. Ça te va ?",
+      "explain": "On se retrouve + lugar + hora + ça te va ?"
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "Lo siento, llego tarde. Confirmo para el sábado.",
+      "accept": ["Désolé, je suis en retard. Je confirme pour samedi"],
+      "hintWords": ["désolé, je suis en retard", "je confirme pour samedi"],
+      "strictAccents": true,
+      "audio": "Désolé, je suis en retard. Je confirme pour samedi.",
+      "explain": "Être en retard + confirmer."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "On se retrouve ___ la gare, ou ___ face du café ?",
+      "blanks": [{ "accept": ["devant"] }, { "accept": ["en"] }],
+      "bank": ["devant", "en", "avec"],
+      "explain": "Devant + en face de, dos formas de indicar el lugar."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Nos vemos mañana?»",
+      "tokens": ["demain", "On se voit"],
+      "answer": ["On se voit", "demain"],
+      "audio": "On se voit demain ?",
+      "explain": "On se voit + demain."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "On se retrouve en face de la banque à quinze heures, je confirme, je ne serai pas en retard cette fois.",
+      "accept": ["Nos vemos enfrente del banco a las tres de la tarde, confirmo, no llegaré tarde esta vez."],
+      "strictAccents": false,
+      "audio": "On se retrouve en face de la banque à quinze heures, je confirme, je ne serai pas en retard cette fois.",
+      "explain": "On se retrouve + confirmer + être en retard."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación para quedar con un amigo",
+      "turns": [
+        { "who": "Léa", "text": "On se voit ce week-end ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, on se retrouve devant le cinéma à dix-neuf heures.", "Ça te va samedi après-midi ?"], "hint": "propón lugar y hora" },
+        { "who": "Léa", "text": "Parfait, je confirme !", "speak": true }
+      ],
+      "explain": "On se voit...? se responde proponiendo lugar y hora."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "speak": "On se retrouve devant la gare à dix-huit heures, ça te va ? Je confirme pour samedi.",
+      "mode": "write",
+      "accept": ["On se retrouve devant la gare à dix-huit heures, ça te va ? Je confirme pour samedi"],
+      "showTextAfter": true,
+      "explain": "Frase completa típica para organizar una quedada."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["quedar"],
+      "difficulty": 1,
+      "speak": "en avance",
+      "mode": "choose",
+      "options": ["en retard", "en avance", "en face", "devant"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "En avance = antes de tiempo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["quedar"],
+      "difficulty": 3,
+      "speak": "On se retrouve devant le cinéma à dix-neuf heures, ça te va ? Je confirme, je ne serai pas en retard.",
+      "es": "Nos vemos delante del cine a las siete de la tarde, ¿te va bien? Confirmo, no llegaré tarde.",
+      "ipa": "/ɔ̃ sə ʁə.tʁuv də.vɑ̃ lə si.ne.ma a di.znœ.v‿œʁ sa tə va ʒə kɔ̃.fiʁm ʒə nə sə.ʁɛ pa ɑ̃ ʁə.taʁ/",
+      "esApprox": "«on se re-TRUV de-VAN le si-ne-MA a diz-nö-VÖR sa te VA ye kon-FIRM ye ne se-RE pa an re-TAR»",
+      "focus": "Organizar una quedada completa: lugar, hora y confirmación.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "Propón quedar con un amigo: día, hora y lugar.",
+      "modelAnswer": "On se retrouve devant le cinéma samedi à dix-neuf heures, ça te va ?",
+      "alsoValid": ["On se voit dimanche en face de la gare ?"],
+      "speak": "On se retrouve devant le cinéma samedi à dix-neuf heures, ça te va ?",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "¿Es sobre el lugar o sobre el tiempo?",
+      "buckets": ["Lugar", "Tiempo"],
+      "items": [
+        { "text": "devant", "bucket": 0 },
+        { "text": "être en retard", "bucket": 1 },
+        { "text": "en face de", "bucket": 0 },
+        { "text": "être en avance", "bucket": 1 }
+      ],
+      "explain": "Devant y en face de son sobre el lugar; être en retard y être en avance, sobre el tiempo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["quedar"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "On se retrouve en retard du cinéma.",
+      "accept": ["On se retrouve devant le cinéma"],
+      "audio": "On se retrouve devant le cinéma.",
+      "explain": "Se queda devant (delante de) un lugar, no en retard (que significa llegar tarde)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "on se voit", "es": "nos vemos", "esApprox": "«on se VUÁ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "on se retrouve", "es": "quedamos, nos encontramos", "esApprox": "«on se re-TRUV»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "ça te va ?", "es": "¿te va bien?", "esApprox": "«sa te VA»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "devant", "es": "delante de", "esApprox": "«de-VAN»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "en face de", "es": "enfrente de", "esApprox": "«an FAS de»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "être en retard / en avance", "es": "llegar tarde / antes de tiempo", "esApprox": "«ETR an re-TAR / an-na-VANS»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "On se retrouve devant le cinéma à dix-neuf heures. Ça te va ?", "es": "Nos vemos delante del cine a las siete de la tarde. ¿Te va bien?", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Désolé, je suis en retard. Je confirme pour samedi.", "es": "Lo siento, llego tarde. Confirmo para el sábado.", "from": "e7" }
+  ]
+}

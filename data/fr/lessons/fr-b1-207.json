@@ -1,0 +1,247 @@
+{
+  "id": "fr-b1-207",
+  "lang": "fr",
+  "level": "B1",
+  "order": 207,
+  "title": "La trilogía de los pasados: imparfait, passé composé y plus-que-parfait juntos",
+  "objectives": [
+    "Repasar el papel de cada uno de los tres pasados en una narración",
+    "Practicar narraciones que combinan los tres tiempos en una misma línea temporal",
+    "Reconocer marcadores típicos de cada tiempo (comme d'habitude, tout à coup, depuis longtemps)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres capas de una narración",
+      "body": "Una buena narración en francés combina tres capas: el imparfait para el fondo (descripción, hábito), el passé composé para los hechos puntuales que hacen avanzar la historia, y el plus-que-parfait para lo que ya había pasado antes."
+    },
+    {
+      "type": "table",
+      "title": "El papel de cada tiempo",
+      "headers": ["Tiempo", "Función", "Ejemplo"],
+      "rows": [
+        ["imparfait", "descripción, fondo, hábito", "il faisait beau, comme d'habitude"],
+        ["passé composé", "hechos puntuales que avanzan la historia", "tout à coup, j'ai vu un accident"],
+        ["plus-que-parfait", "lo que ya había pasado antes", "j'avais déjà vu cette voiture"]
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "Ejemplo completo",
+      "body": "Il faisait beau (imparfait, fondo). J'avais déjà pris mon café (plus-que-parfait, antes de salir). Tout à coup, j'ai vu un accident (passé composé, hecho puntual)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il faisait beau", "es": "hacía buen tiempo", "ipa": "/il fə.zɛ bo/", "esApprox": "«il fe-ZE BO»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "j'ai vu", "es": "vi", "ipa": "/ʒe vy/", "esApprox": "«ye VÜ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "j'avais déjà vu", "es": "ya había visto", "ipa": "/ʒa.vɛ de.ʒa vy/", "esApprox": "«sha-VE de-SHA VÜ»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "comme d'habitude", "es": "como de costumbre", "ipa": "/kɔm da.bi.tyd/", "esApprox": "«KOM da-bi-TÜD»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "tout à coup", "es": "de repente", "ipa": "/tu.t‿a ku/", "esApprox": "«tu-ta KU»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "depuis longtemps", "es": "desde hacía mucho tiempo", "ipa": "/də.pɥi lɔ̃.tɑ̃/", "esApprox": "«de-püí lon-TAN»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "ce jour-là", "es": "aquel día", "ipa": "/sə ʒuʁ la/", "esApprox": "«se YUR LA»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "enfin", "es": "finalmente", "ipa": "/ɑ̃.fɛ̃/", "esApprox": "«an-FIN»", "pos": "adverbio", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Qué tiempo describe el fondo de una narración (tiempo, hábito)?",
+      "options": ["passé composé", "imparfait", "plus-que-parfait", "futur simple"],
+      "answer": 1,
+      "explain": "El imparfait describe el fondo, no hace avanzar la historia."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Qué tiempo muestra algo que ya había pasado antes del momento narrado?",
+      "options": ["passé composé", "imparfait", "plus-que-parfait", "futur simple"],
+      "answer": 2,
+      "explain": "El plus-que-parfait retrocede aún más en el pasado."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "statement": "Tout à coup suele introducir un passé composé, porque marca un hecho puntual.",
+      "answer": true,
+      "explain": "Tout à coup marca una interrupción puntual, típica del passé composé."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "statement": "Comme d'habitude suele introducir un plus-que-parfait.",
+      "answer": false,
+      "explain": "Comme d'habitude (hábito) suele introducir un imparfait, no un plus-que-parfait."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Une cada marcador con su tiempo típico",
+      "left": ["comme d'habitude", "tout à coup", "depuis longtemps", "ce jour-là"],
+      "right": ["passé composé (hecho puntual)", "imparfait (hábito)", "situación anterior (a menudo plus-que-parfait)", "introduce la escena"],
+      "answer": [1, 0, 2, 3],
+      "explain": "Comme d'habitude = imparfait, tout à coup = passé composé, depuis longtemps = situación anterior, ce jour-là = introduce la escena."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Hacía buen tiempo, como de costumbre, y de repente vi un accidente.",
+      "accept": ["Il faisait beau, comme d'habitude, et tout à coup j'ai vu un accident"],
+      "hintWords": ["il faisait beau, comme d'habitude", "et tout à coup j'ai vu un accident"],
+      "strictAccents": true,
+      "audio": "Il faisait beau, comme d'habitude, et tout à coup j'ai vu un accident.",
+      "explain": "Imparfait (fondo) + passé composé (hecho puntual)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Ya había visto esa película, así que sabía cómo terminaba.",
+      "accept": ["J'avais déjà vu ce film, donc je savais comment ça finissait"],
+      "hintWords": ["j'avais déjà vu ce film", "donc je savais comment ça finissait"],
+      "strictAccents": true,
+      "audio": "J'avais déjà vu ce film, donc je savais comment ça finissait.",
+      "explain": "Plus-que-parfait (avais vu) + imparfait (savais)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Completa con el tiempo correcto",
+      "text": "Ce jour-là, il ___ beau. J'___ déjà pris mon café, et tout à coup, j'___ vu un accident.",
+      "blanks": [{ "accept": ["faisait"] }, { "accept": ["avais"] }, { "accept": ["ai"] }],
+      "bank": ["faisait", "avais", "ai"],
+      "explain": "Imparfait (faisait) + plus-que-parfait (avais pris) + passé composé (ai vu)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Ese día, ya había terminado mi trabajo»",
+      "tokens": ["j'avais déjà fini mon travail", "Ce jour-là,"],
+      "answer": ["Ce jour-là,", "j'avais déjà fini mon travail"],
+      "audio": "Ce jour-là, j'avais déjà fini mon travail.",
+      "explain": "Ce jour-là introduce la escena; el plus-que-parfait muestra algo anterior."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Il faisait beau, comme d'habitude. J'avais déjà pris mon café, et tout à coup, j'ai vu un accident.",
+      "accept": ["Hacía buen tiempo, como de costumbre. Ya había tomado mi café, y de repente, vi un accidente."],
+      "strictAccents": false,
+      "audio": "Il faisait beau, comme d'habitude. J'avais déjà pris mon café, et tout à coup, j'ai vu un accident.",
+      "explain": "Los tres pasados combinados: imparfait, plus-que-parfait y passé composé."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación contando lo que pasó",
+      "turns": [
+        { "who": "Léa", "text": "Raconte-moi ce qui s'est passé.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il faisait beau, et tout à coup j'ai vu un accident.", "J'avais déjà fini quand elle est arrivée."], "hint": "combina los tres pasados" },
+        { "who": "Léa", "text": "Incroyable !", "speak": true }
+      ],
+      "explain": "Repaso combinado de la trilogía de los pasados."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "speak": "Il faisait beau, comme d'habitude. J'avais déjà pris mon café, et tout à coup, j'ai vu un accident.",
+      "mode": "write",
+      "accept": ["Il faisait beau, comme d'habitude. J'avais déjà pris mon café, et tout à coup, j'ai vu un accident"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de la trilogía de los pasados."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["contraste-pasados"],
+      "difficulty": 1,
+      "speak": "j'avais déjà vu",
+      "mode": "choose",
+      "options": ["j'ai vu", "j'avais déjà vu", "je voyais", "je verrais"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'avais déjà vu es el plus-que-parfait, mostrando anterioridad."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["contraste-pasados"],
+      "difficulty": 3,
+      "speak": "Ce jour-là, il faisait beau, comme d'habitude. J'avais déjà pris mon café, et tout à coup, j'ai vu un accident.",
+      "es": "Aquel día, hacía buen tiempo, como de costumbre. Ya había tomado mi café, y de repente, vi un accidente.",
+      "ipa": "/sə ʒuʁ la il fə.zɛ bo kɔm da.bi.tyd ʒa.vɛ de.ʒa pʁi mɔ̃ ka.fe e tu.t‿a ku ʒe vy œ̃.n‿ak.si.dɑ̃/",
+      "esApprox": "«se YUR LA il fe-ZE BO KOM da-bi-TÜD sha-VE de-SHA PRI mon ka-FÉ e tu-ta KU ye VÜ un-nak-si-DAN»",
+      "focus": "Los tres pasados combinados en una narración completa.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Cuenta una anécdota combinando los tres pasados: imparfait, passé composé y plus-que-parfait.",
+      "modelAnswer": "Il faisait beau, j'avais déjà pris mon café, et tout à coup, j'ai vu un accident.",
+      "alsoValid": ["Ce jour-là, j'avais déjà fini mon travail quand elle est arrivée."],
+      "speak": "Il faisait beau, j'avais déjà pris mon café, et tout à coup, j'ai vu un accident.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Es imparfait, passé composé o plus-que-parfait?",
+      "buckets": ["Imparfait/passé composé", "Plus-que-parfait"],
+      "items": [
+        { "text": "il faisait beau", "bucket": 0 },
+        { "text": "j'avais déjà vu", "bucket": 1 },
+        { "text": "j'ai vu un accident", "bucket": 0 },
+        { "text": "elle avait oublié", "bucket": 1 }
+      ],
+      "explain": "Il faisait beau y j'ai vu un accident son imparfait/passé composé; j'avais déjà vu y elle avait oublié son plus-que-parfait."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Hay un error: lo anterior al momento narrado exige plus-que-parfait. Corrige la frase entera.",
+      "wrong": "J'ai déjà pris mon café quand tout à coup j'ai vu un accident.",
+      "accept": ["J'avais déjà pris mon café quand tout à coup j'ai vu un accident"],
+      "audio": "J'avais déjà pris mon café quand tout à coup j'ai vu un accident.",
+      "explain": "Tomar el café ocurrió antes de ver el accidente, así que exige plus-que-parfait, no passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il faisait beau", "es": "hacía buen tiempo", "esApprox": "«il fe-ZE BO»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'ai vu", "es": "vi", "esApprox": "«ye VÜ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "j'avais déjà vu", "es": "ya había visto", "esApprox": "«sha-VE de-SHA VÜ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "comme d'habitude", "es": "como de costumbre", "esApprox": "«KOM da-bi-TÜD»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "tout à coup", "es": "de repente", "esApprox": "«tu-ta KU»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "depuis longtemps", "es": "desde hacía mucho tiempo", "esApprox": "«de-püí lon-TAN»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Il faisait beau, comme d'habitude, et tout à coup j'ai vu un accident.", "es": "Hacía buen tiempo, como de costumbre, y de repente vi un accidente.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'avais déjà vu ce film, donc je savais comment ça finissait.", "es": "Ya había visto esa película, así que sabía cómo terminaba.", "from": "e7" }
+  ]
+}

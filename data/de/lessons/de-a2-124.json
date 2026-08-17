@@ -1,0 +1,82 @@
+{
+  "id": "de-a2-124",
+  "lang": "de",
+  "level": "A2",
+  "order": 124,
+  "title": "Repaso activo IX (clases 113–123)",
+  "objectives": [
+    "Repasar el genitivo como cuarto caso y las preposiciones wegen/trotz/während de las clases 113 a 115",
+    "Consolidar los verbos con preposición fija y los compuestos da-/wo- de las clases 116 a 120",
+    "Repasar las preposiciones temporales seit/ab/bis/vor y la combinación posesivo+genitivo de las clases 121 a 123"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Sin gramática nueva: cierre del bloque de genitivo y preposiciones",
+      "body": "Esta clase no introduce ningún contenido nuevo. Con el genitivo, las preposiciones fijas y los compuestos da-/wo-, ya tienes las herramientas para construir frases mucho más precisas y naturales que en el A1."
+    },
+    {
+      "type": "table",
+      "title": "Lo que has aprendido en este bloque",
+      "headers": ["Clases", "Contenido clave"],
+      "rows": [
+        ["113-115", "El genitivo (des/der + -s/-es), wegen/trotz/während + genitivo, y la alternativa hablada con von + dativo"],
+        ["116-117", "Verbos con preposición fija: warten auf, sich freuen auf, sich interessieren für, denken an"],
+        ["118-120", "Los compuestos da- (para respuestas) y wo- (para preguntas), y su uso conversacional"],
+        ["121-123", "Las preposiciones temporales seit/ab/bis/vor, wie lange/seit wann, y el posesivo combinado con genitivo"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El siguiente bloque del A2 se centra en vocabulario temático extenso (viajes, tecnología, salud, emociones...). Vas a poder aplicar directamente toda la gramática de este bloque para hablar de esos temas con más precisión."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Name", "es": "el nombre", "ipa": "/ˈnaːmə/", "esApprox": "«NÁ-me»", "pos": "sustantivo", "gender": "m", "example": { "target": "der Name des Kindes", "es": "el nombre del niño" } },
+    { "id": "v2", "target": "wegen", "es": "a causa de", "ipa": "/ˈveːɡn̩/", "esApprox": "«VÉ-guen»", "pos": "preposición", "gender": null, "example": { "target": "Wegen des Wetters bleiben wir zu Hause.", "es": "A causa del tiempo, nos quedamos en casa." } },
+    { "id": "v3", "target": "warten auf", "es": "esperar a/algo", "ipa": "/ˈvaʁtn̩ aʊ̯f/", "esApprox": "«VAR-ten auf»", "pos": "verbo", "gender": null, "example": { "target": "Ich warte auf den Bus.", "es": "Espero el autobús." } },
+    { "id": "v4", "target": "darauf", "es": "sobre eso, por eso", "ipa": "/daˈʁaʊ̯f/", "esApprox": "«da-RAUF»", "pos": "adverbio", "gender": null, "example": { "target": "Ich freue mich darauf.", "es": "Tengo ganas de eso." } },
+    { "id": "v5", "target": "wofür", "es": "¿por qué?, ¿para qué?", "ipa": "/voˈfyːɐ̯/", "esApprox": "«vo-FÜR»", "pos": "adverbio interrogativo", "gender": null, "example": { "target": "Wofür interessierst du dich?", "es": "¿Por qué te interesas?" } },
+    { "id": "v6", "target": "seit", "es": "desde (hace)", "ipa": "/zaɪ̯t/", "esApprox": "«zait»", "pos": "preposición", "gender": null, "example": { "target": "Ich lerne seit zwei Jahren Deutsch.", "es": "Aprendo alemán desde hace dos años." } },
+    { "id": "v7", "target": "der Nachbar", "es": "el vecino", "ipa": "/ˈnaːxbaːɐ̯/", "esApprox": "«NACH-bar»", "pos": "sustantivo", "gender": "m", "plural": "die Nachbarn", "example": { "target": "die Katze meines Nachbarn", "es": "el gato de mi vecino" } },
+    { "id": "v8", "target": "die Eltern", "es": "los padres", "ipa": "/ˈɛltɐn/", "esApprox": "«ÉL-tern»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "das Haus meiner Eltern", "es": "la casa de mis padres" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["repaso"], "difficulty": 1, "prompt": "¿Cuál es el artículo genitivo masculino?", "options": ["der", "den", "dem", "des"], "answer": 3, "explain": "Repaso de la clase 113." },
+    { "id": "e2", "type": "mcq", "tags": ["repaso"], "difficulty": 2, "prompt": "¿Qué caso rige «wegen»?", "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"], "answer": 3, "explain": "Repaso de la clase 114." },
+    { "id": "e3", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "Con seit + acción que continúa, el alemán usa presente.", "answer": true, "explain": "Repaso de la clase 121." },
+    { "id": "e4", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "Los compuestos wo- se usan para preguntar por personas.", "answer": false, "explain": "Repaso de la clase 119: solo para cosas, no personas." },
+    { "id": "e5", "type": "match_pairs", "tags": ["repaso"], "difficulty": 2, "prompt": "Une cada verbo con su preposición fija", "left": ["warten", "sich freuen", "sich interessieren", "denken"], "right": ["auf", "auf", "für", "an"], "answer": [0, 1, 2, 3], "explain": "Repaso de las clases 116-117." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "El libro del hombre está aquí.", "accept": ["Das Buch des Mannes ist hier"], "hintWords": ["das Buch des Mannes ist hier"], "strictAccents": false, "audio": "Das Buch des Mannes ist hier.", "explain": "Repaso de la clase 113." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "Aprendo alemán desde hace dos años.", "accept": ["Ich lerne seit zwei Jahren Deutsch"], "hintWords": ["ich lerne seit zwei Jahren Deutsch"], "strictAccents": false, "audio": "Ich lerne seit zwei Jahren Deutsch.", "explain": "Repaso de la clase 121." },
+    { "id": "e8", "type": "fill_blank", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa con el compuesto correcto", "text": "___ interessierst du dich? Ich interessiere mich ___.", "blanks": [{ "accept": ["Wofür"] }, { "accept": ["dafür"] }], "bank": ["Wofür", "dafür", "Woran"], "explain": "Repaso de las clases 118-119." },
+    { "id": "e9", "type": "word_order", "tags": ["repaso"], "difficulty": 2, "prompt": "Ordena: «La casa de mis padres es grande»", "tokens": ["ist groß", "meiner Eltern", "Das Haus"], "answer": ["Das Haus", "meiner Eltern", "ist groß"], "audio": "Das Haus meiner Eltern ist groß.", "explain": "Repaso de la clase 123." },
+    { "id": "e10", "type": "translate_to_es", "tags": ["repaso"], "difficulty": 2, "prompt": "Trotz der Kälte gehen wir spazieren.", "accept": ["A pesar del frío, vamos a pasear."], "strictAccents": false, "audio": "Trotz der Kälte gehen wir spazieren.", "explain": "Repaso de la clase 114." },
+    { "id": "e11", "type": "dialogue", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Nina", "text": "Seit wann wohnst du hier?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich wohne seit drei Jahren hier."], "hint": "responde con seit + presente" },
+      { "who": "Nina", "text": "Ach, interessant!", "speak": true }
+    ], "explain": "Repaso de la clase 122." },
+    { "id": "e12", "type": "listening", "tags": ["repaso"], "difficulty": 1, "speak": "Ich warte auf den Bus.", "mode": "write", "accept": ["Ich warte auf den Bus"], "showTextAfter": true, "explain": "Repaso de la clase 116." },
+    { "id": "e13", "type": "listening", "tags": ["repaso"], "difficulty": 2, "speak": "Woran denkst du?", "mode": "choose", "options": ["Woran denkst du?", "An was denkst du?", "Wo denkst du?"], "answer": 0, "showTextAfter": true, "explain": "Repaso de la clase 119." },
+    { "id": "e14", "type": "shadowing", "tags": ["repaso"], "difficulty": 2, "speak": "Das Buch des Mannes und das Haus meiner Eltern sind hier in der Nähe.", "es": "El libro del hombre y la casa de mis padres están aquí cerca.", "ipa": "/das buːx dɛs ˈmanəs ʊnt das haʊ̯s ˈmaɪ̯nɐ ˈɛltɐn zɪnt hiːɐ̯ ɪn deːɐ̯ ˈneːə/", "esApprox": "«das buj des MÁ-nes unt das jaus MÁI-ner ÉL-tern zint jir in der NÉ-e»", "focus": "Repaso de las clases 113 y 123: dos genitivos, uno simple y otro con posesivo.", "selfAssess": true },
+    { "id": "e15", "type": "speak_prompt", "tags": ["repaso"], "difficulty": 2, "prompt": "Te preguntan por qué te interesas por el arte. Responde usando sich interessieren für.", "modelAnswer": "Ich interessiere mich für Kunst.", "alsoValid": ["Ich interessiere mich dafür."], "speak": "Ich interessiere mich für Kunst.", "selfAssess": true },
+    { "id": "e16", "type": "categorize", "tags": ["repaso"], "difficulty": 2, "prompt": "Clasifica cada preposición: rige genitivo o dativo", "buckets": ["Genitivo", "Dativo"], "items": [
+      { "text": "wegen", "bucket": 0 },
+      { "text": "seit", "bucket": 1 },
+      { "text": "trotz", "bucket": 0 },
+      { "text": "ab", "bucket": 1 }
+    ], "explain": "Repaso de las clases 114 y 121." },
+    { "id": "e17", "type": "error_correction", "tags": ["repaso"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe seit zwei Jahren Deutsch gelernt.", "accept": ["Ich lerne seit zwei Jahren Deutsch"], "audio": "Ich lerne seit zwei Jahren Deutsch.", "explain": "Repaso de la clase 121: con seit + acción continua, se usa presente." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Name", "es": "el nombre", "esApprox": "«NÁ-me»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "wegen", "es": "a causa de", "esApprox": "«VÉ-guen»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "warten auf", "es": "esperar a/algo", "esApprox": "«VAR-ten auf»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "darauf", "es": "sobre eso, por eso", "esApprox": "«da-RAUF»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "wofür", "es": "¿por qué?, ¿para qué?", "esApprox": "«vo-FÜR»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "seit", "es": "desde (hace)", "esApprox": "«zait»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "der Nachbar", "es": "el vecino", "esApprox": "«NACH-bar»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "Das Buch des Mannes und das Haus meiner Eltern sind hier in der Nähe.", "es": "El libro del hombre y la casa de mis padres están aquí cerca.", "from": "e14" }
+  ]
+}

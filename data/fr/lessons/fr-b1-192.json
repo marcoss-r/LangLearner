@@ -1,0 +1,255 @@
+{
+  "id": "fr-b1-192",
+  "lang": "fr",
+  "level": "B1",
+  "order": 192,
+  "title": "Expresar probabilidad: il se peut que, ça se pourrait",
+  "objectives": [
+    "Usar il se peut que, ça se pourrait que e il y a des chances que con subjonctif",
+    "Distinguir il semble que (subjonctif) de il me semble que (indicativo)",
+    "Usar il paraît que, peut-être que y sans doute, que llevan indicativo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Distintos grados de probabilidad",
+      "body": "Algunas expresiones de probabilidad llevan subjonctif (posibilidad incierta) y otras llevan indicativo (rumor, opinión personal con pronombre). Fíjate especialmente en il semble que frente a il me semble que."
+    },
+    {
+      "type": "table",
+      "title": "Probabilidad con subjonctif",
+      "headers": ["Expresión", "Ejemplo"],
+      "rows": [
+        ["il se peut que", "il se peut qu'il pleuve"],
+        ["ça se pourrait que", "ça se pourrait qu'elle vienne"],
+        ["il y a des chances que", "il y a des chances qu'elle gagne"],
+        ["il semble que (sin pronombre)", "il semble qu'il soit tard"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Probabilidad con indicativo",
+      "headers": ["Expresión", "Ejemplo"],
+      "rows": [
+        ["il paraît que", "il paraît qu'il va pleuvoir"],
+        ["il me semble que (con pronombre)", "il me semble qu'il est tard"],
+        ["peut-être que", "peut-être qu'il pleut"],
+        ["sans doute", "il va sans doute pleuvoir"]
+      ],
+      "note": "Il semble que (sin pronombre) lleva subjonctif, pero il me semble que (con pronombre, opinión personal) lleva indicativo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il se peut que", "es": "puede que", "ipa": "/il sə pø kə/", "esApprox": "«il se PÖ ke»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "ça se pourrait que", "es": "podría ser que", "ipa": "/sa sə pu.ʁɛ kə/", "esApprox": "«sa se pu-RE ke»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "il y a des chances que", "es": "hay posibilidades de que", "ipa": "/i.li.a de ʃɑ̃s kə/", "esApprox": "«il-i-a de SHANS ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "il paraît que", "es": "parece que, se dice que", "ipa": "/il pa.ʁɛ kə/", "esApprox": "«il pa-RE ke»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "il semble que", "es": "parece que", "ipa": "/il sɑ̃bl kə/", "esApprox": "«il SANBL ke»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "il me semble que", "es": "me parece que", "ipa": "/il mə sɑ̃bl kə/", "esApprox": "«il me SANBL ke»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "sans doute", "es": "sin duda, probablemente", "ipa": "/sɑ̃ dut/", "esApprox": "«san DUT»", "pos": "adverbio", "gender": null },
+    { "id": "v8", "target": "peut-être que", "es": "quizás, a lo mejor", "ipa": "/pø.t‿ɛtʁ kə/", "esApprox": "«pö-TETR ke»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "¿Qué modo sigue a il se peut que?",
+      "options": ["subjonctif", "indicativo", "infinitivo", "conditionnel"],
+      "answer": 0,
+      "explain": "Il se peut que expresa posibilidad incierta y exige subjonctif."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "¿Qué modo sigue a il me semble que?",
+      "options": ["subjonctif", "indicativo", "infinitivo", "conditionnel"],
+      "answer": 1,
+      "explain": "Il me semble que (con pronombre) expresa una opinión personal y lleva indicativo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "statement": "Il semble que (sin pronombre) suele llevar subjonctif.",
+      "answer": true,
+      "explain": "Il semble que, sin pronombre, va con subjonctif."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "statement": "Peut-être que lleva subjonctif.",
+      "answer": false,
+      "explain": "Peut-être que lleva indicativo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su modo",
+      "left": ["il se peut que", "il paraît que", "il y a des chances que", "il me semble que"],
+      "right": ["indicativo (opinión personal)", "subjonctif (posibilidad)", "indicativo (rumor)", "subjonctif (probabilidad)"],
+      "answer": [3, 2, 1, 0],
+      "explain": "Il se peut que y il y a des chances que llevan subjonctif; il paraît que e il me semble que llevan indicativo."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "Puede que llueva mañana.",
+      "accept": ["Il se peut qu'il pleuve demain"],
+      "hintWords": ["il se peut qu'il pleuve", "demain"],
+      "strictAccents": true,
+      "audio": "Il se peut qu'il pleuve demain.",
+      "explain": "Il se peut que + subjonctif de pleuvoir (il pleuve)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "Parece que va a llover, pero no estoy segura.",
+      "accept": ["Il paraît qu'il va pleuvoir, mais je ne suis pas sûre"],
+      "hintWords": ["il paraît qu'il va pleuvoir", "mais je ne suis pas sûre"],
+      "strictAccents": true,
+      "audio": "Il paraît qu'il va pleuvoir, mais je ne suis pas sûre.",
+      "explain": "Il paraît que + indicativo (il va pleuvoir)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Il se peut qu'il ___ demain, mais il me ___ que le temps va s'améliorer.",
+      "blanks": [{ "accept": ["pleuve"] }, { "accept": ["semble"] }],
+      "bank": ["pleuve", "semble", "pleut"],
+      "explain": "Il se peut que + subjonctif (pleuve) frente a il me semble que + indicativo."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hay posibilidades de que gane»",
+      "tokens": ["qu'elle gagne", "Il y a des chances"],
+      "answer": ["Il y a des chances", "qu'elle gagne"],
+      "audio": "Il y a des chances qu'elle gagne.",
+      "explain": "Il y a des chances que + subjonctif (qu'elle gagne)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "Il paraît qu'il va pleuvoir, mais il se peut aussi que le temps change.",
+      "accept": ["Parece que va a llover, pero también puede que el tiempo cambie."],
+      "strictAccents": false,
+      "audio": "Il paraît qu'il va pleuvoir, mais il se peut aussi que le temps change.",
+      "explain": "Rumor (il paraît que, indicativo) frente a posibilidad (il se peut que, subjonctif)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el tiempo",
+      "turns": [
+        { "who": "Léa", "text": "Il va pleuvoir ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il se peut qu'il pleuve.", "Il paraît qu'il va pleuvoir."], "hint": "usa una expresión de probabilidad" },
+        { "who": "Léa", "text": "Je vais prendre un parapluie.", "speak": true }
+      ],
+      "explain": "Repaso combinado de las expresiones de probabilidad."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "speak": "Il se peut qu'il pleuve, mais il me semble que le temps va s'améliorer.",
+      "mode": "write",
+      "accept": ["Il se peut qu'il pleuve, mais il me semble que le temps va s'améliorer"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de subjonctif (probabilidad) e indicativo (opinión)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["probabilidad"],
+      "difficulty": 1,
+      "speak": "il paraît que",
+      "mode": "choose",
+      "options": ["il paraît que", "il se peut que", "il semble que", "ça se pourrait que"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Il paraît que es la única de esta lista que lleva indicativo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["probabilidad"],
+      "difficulty": 3,
+      "speak": "Il se peut qu'il pleuve, il paraît que le temps va changer, et il me semble que nous devrions prendre un parapluie.",
+      "es": "Puede que llueva, parece que el tiempo va a cambiar, y me parece que deberíamos coger un paraguas.",
+      "ipa": "/il sə pø kil plœv il pa.ʁɛ kə lə tɑ̃ va ʃɑ̃.ʒe e il mə sɑ̃bl kə nu də.vʁjɔ̃ pʁɑ̃dʁ œ̃ pa.ʁa.plɥi/",
+      "esApprox": "«il se PÖ kil PLÖV il pa-RE ke le TAN va shan-YÉ e il me SANBL ke nu de-VRION PRANDR un pa-ra-PLÜÍ»",
+      "focus": "Tres niveles de probabilidad encadenados: subjonctif, indicativo (rumor) e indicativo (opinión).",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "Expresa una probabilidad usando il se peut que (subjonctif) y otra usando il me semble que (indicativo).",
+      "modelAnswer": "Il se peut qu'il pleuve, mais il me semble que le temps va s'améliorer.",
+      "alsoValid": ["Il y a des chances qu'elle vienne, il paraît qu'elle est libre."],
+      "speak": "Il se peut qu'il pleuve, mais il me semble que le temps va s'améliorer.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "¿Es subjonctif o indicativo?",
+      "buckets": ["Subjonctif", "Indicativo"],
+      "items": [
+        { "text": "il se peut que", "bucket": 0 },
+        { "text": "il paraît que", "bucket": 1 },
+        { "text": "il y a des chances que", "bucket": 0 },
+        { "text": "il me semble que", "bucket": 1 }
+      ],
+      "explain": "Il se peut que e il y a des chances que llevan subjonctif; il paraît que e il me semble que llevan indicativo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["probabilidad"],
+      "difficulty": 2,
+      "prompt": "Hay un error: il se peut que exige subjonctif. Corrige la frase entera.",
+      "wrong": "Il se peut qu'il pleut demain.",
+      "accept": ["Il se peut qu'il pleuve demain"],
+      "audio": "Il se peut qu'il pleuve demain.",
+      "explain": "Il se peut que exige subjonctif (pleuve), no indicativo (pleut)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il se peut que", "es": "puede que", "esApprox": "«il se PÖ ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "ça se pourrait que", "es": "podría ser que", "esApprox": "«sa se pu-RE ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "il y a des chances que", "es": "hay posibilidades de que", "esApprox": "«il-i-a de SHANS ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "il paraît que", "es": "parece que, se dice que", "esApprox": "«il pa-RE ke»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "il me semble que", "es": "me parece que", "esApprox": "«il me SANBL ke»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "sans doute", "es": "sin duda, probablemente", "esApprox": "«san DUT»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Il se peut qu'il pleuve demain.", "es": "Puede que llueva mañana.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Il paraît qu'il va pleuvoir, mais je ne suis pas sûre.", "es": "Parece que va a llover, pero no estoy segura.", "from": "e7" }
+  ]
+}

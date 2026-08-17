@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-142",
+  "lang": "de",
+  "level": "A2",
+  "order": 142,
+  "title": "Las redes sociales",
+  "objectives": [
+    "Ampliar el vocabulario de redes sociales: posten, teilen, kommentieren, folgen",
+    "Usar folgen con dativo (seguir a alguien), un verbo con régimen especial",
+    "Hablar de tus hábitos en redes sociales con soltura"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Verbos de redes sociales, muchos prestados del inglés",
+      "body": "El vocabulario de redes sociales en alemán mezcla palabras propias y anglicismos adaptados: posten (publicar), teilen (compartir), kommentieren (comentar), liken (dar «me gusta»). Un caso especial es folgen (seguir): rige DATIVO, no acusativo, como muchos verbos de la clase 45: «Ich folge dir» (Te sigo).",
+      "examples": [
+        { "target": "Ich habe ein Foto gepostet.", "es": "He publicado una foto." },
+        { "target": "Ich folge dir schon lange.", "es": "Te sigo desde hace tiempo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos de redes sociales",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["posten", "publicar"],
+        ["teilen", "compartir"],
+        ["kommentieren", "comentar"],
+        ["folgen (+ Dativ)", "seguir"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Recuerda de la clase 45 que folgen, helfen, gefallen y danken son verbos dativo-exclusivos: no funcionan como el español «seguir a alguien» (acusativo), sino como «seguir a alguien» en dativo alemán."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "posten", "es": "publicar (en redes)", "ipa": "/ˈpoːstn̩/", "esApprox": "«PÓS-ten»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe ein Foto gepostet.", "es": "He publicado una foto." } },
+    { "id": "v2", "target": "teilen", "es": "compartir", "ipa": "/ˈtaɪ̯lən/", "esApprox": "«TÁI-len»", "pos": "verbo", "gender": null, "example": { "target": "Ich teile den Beitrag.", "es": "Comparto la publicación." } },
+    { "id": "v3", "target": "kommentieren", "es": "comentar", "ipa": "/kɔmɛnˈtiːʁən/", "esApprox": "«ko-men-TÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Ich kommentiere den Beitrag.", "es": "Comento la publicación." } },
+    { "id": "v4", "target": "folgen", "es": "seguir (+ dativo)", "ipa": "/ˈfɔlɡn̩/", "esApprox": "«FÓL-guen»", "pos": "verbo", "gender": null, "example": { "target": "Ich folge dir schon lange.", "es": "Te sigo desde hace tiempo." } },
+    { "id": "v5", "target": "der Beitrag", "es": "la publicación", "ipa": "/ˈbaɪ̯tʁaːk/", "esApprox": "«BÁI-trak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein interessanter Beitrag.", "es": "Esa es una publicación interesante." } },
+    { "id": "v6", "target": "der Follower", "es": "el seguidor", "ipa": "/ˈfɔloʊ̯ɐ/", "esApprox": "«FÓ-lo-uer»", "pos": "sustantivo", "gender": "m", "example": { "target": "Sie hat viele Follower.", "es": "Ella tiene muchos seguidores." } },
+    { "id": "v7", "target": "das Profil", "es": "el perfil", "ipa": "/pʁoˈfiːl/", "esApprox": "«pro-FIL»", "pos": "sustantivo", "gender": "n", "example": { "target": "Mein Profil ist privat.", "es": "Mi perfil es privado." } },
+    { "id": "v8", "target": "süchtig", "es": "adicto", "ipa": "/ˈzʏçtɪç/", "esApprox": "«ZÜCH-tich»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich bin süchtig nach Social Media.", "es": "Soy adicto a las redes sociales." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["redes-sociales"], "difficulty": 1, "prompt": "¿Cómo se dice «compartir»?", "options": ["posten", "teilen", "folgen", "kommentieren"], "answer": 1, "explain": "teilen = compartir." },
+    { "id": "e2", "type": "mcq", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "¿Qué caso rige «folgen»?", "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"], "answer": 2, "explain": "folgen + dativo, como helfen y gefallen (clase 45)." },
+    { "id": "e3", "type": "true_false", "tags": ["redes-sociales"], "difficulty": 2, "statement": "«der Beitrag» significa «la publicación».", "answer": true, "explain": "der Beitrag = la publicación, el post." },
+    { "id": "e4", "type": "true_false", "tags": ["redes-sociales"], "difficulty": 2, "statement": "«folgen» funciona con acusativo, como en español «seguir a alguien».", "answer": false, "explain": "folgen rige dativo, no acusativo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["posten", "kommentieren", "der Follower", "das Profil"], "right": ["publicar", "comentar", "el seguidor", "el perfil"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario de redes sociales." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "He publicado una foto.", "accept": ["Ich habe ein Foto gepostet"], "hintWords": ["ich habe ein Foto gepostet"], "strictAccents": false, "audio": "Ich habe ein Foto gepostet.", "explain": "posten → gepostet: participio regular." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "Te sigo desde hace tiempo.", "accept": ["Ich folge dir schon lange"], "hintWords": ["ich folge dir schon lange"], "strictAccents": false, "audio": "Ich folge dir schon lange.", "explain": "folge + dir (dativo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "Ella tiene muchos seguidores.", "accept": ["Sie hat viele Follower"], "hintWords": ["sie hat viele Follower"], "strictAccents": false, "audio": "Sie hat viele Follower.", "explain": "hat + viele Follower (acusativo plural)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich ___ den Beitrag. Mein ___ ist privat.", "blanks": [{ "accept": ["kommentiere"] }, { "accept": ["Profil"] }], "bank": ["kommentiere", "Profil", "Follower"], "explain": "kommentiere (comento); Profil (perfil)." },
+    { "id": "e10", "type": "word_order", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "Ordena: «Comparto la publicación»", "tokens": ["den Beitrag", "Ich teile"], "answer": ["Ich teile", "den Beitrag"], "audio": "Ich teile den Beitrag.", "explain": "Ich teile den Beitrag: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "Ich bin süchtig nach Social Media.", "accept": ["Soy adicto a las redes sociales."], "strictAccents": false, "audio": "Ich bin süchtig nach Social Media.", "explain": "süchtig nach: adicto a." },
+    { "id": "e12", "type": "dialogue", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Folgst du mir schon?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich folge dir schon lange."], "hint": "responde con folgen + dativo" },
+      { "who": "Lea", "text": "Super, danke!", "speak": true }
+    ], "explain": "Práctica de folgen + dativo en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["redes-sociales"], "difficulty": 1, "speak": "Ich folge dir schon lange.", "mode": "write", "accept": ["Ich folge dir schon lange"], "showTextAfter": true, "explain": "folgen + dativo (dir)." },
+    { "id": "e14", "type": "listening", "tags": ["redes-sociales"], "difficulty": 2, "speak": "Ich habe ein Foto gepostet.", "mode": "choose", "options": ["Ich habe ein Foto gepostet.", "Ich bin ein Foto gepostet.", "Ich habe ein Foto posten."], "answer": 0, "showTextAfter": true, "explain": "posten usa haben, y su participio es gepostet." },
+    { "id": "e15", "type": "shadowing", "tags": ["redes-sociales"], "difficulty": 2, "speak": "Ich habe ein Foto gepostet, und viele Leute haben es schon kommentiert und geteilt.", "es": "He publicado una foto, y mucha gente ya la ha comentado y compartido.", "ipa": "/ɪç ˈhaːbə aɪ̯n ˈfoːto ɡəˈpoːstət ʊnt ˈfiːlə ˈlɔɪ̯tə ˈhaːbən ɛs ʃoːn kɔmɛnˈtiːɐ̯t ʊnt ɡəˈtaɪ̯lt/", "esApprox": "«ich JÁ-be ain FÓ-to ge-PÓS-tet, unt FÍ-le LÓI-te JÁ-ben es shon ko-men-TIRT unt ge-TÁILT»", "focus": "Tres participios encadenados: gepostet, kommentiert, geteilt, todos con haben.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["redes-sociales"], "difficulty": 2, "speak": "Ich folge vielen Leuten, aber manchmal bin ich süchtig nach Social Media.", "es": "Sigo a mucha gente, pero a veces soy adicto a las redes sociales.", "ipa": "/ɪç ˈfɔlɡə ˈfiːlən ˈlɔɪ̯tn̩ ˈaːbɐ ˈmançmaːl bɪn ɪç ˈzʏçtɪç naːx ˈsoːʃl̩ ˈmiːdi̯a/", "esApprox": "«ich FÓL-gue FÍ-len LÓI-ten, Á-ber MANCH-mal bin ich ZÜCH-tich nach SÓ-shal MÍ-di-a»", "focus": "folgen + vielen Leuten (dativo plural), y süchtig nach (adicto a).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "Te preguntan si le sigues en redes sociales. Di que sí, que le sigues desde hace tiempo.", "modelAnswer": "Ja, ich folge dir schon lange.", "alsoValid": ["Ich folge dir."], "speak": "Ja, ich folge dir schon lange.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "Clasifica cada verbo: rige dativo o acusativo", "buckets": ["Dativo", "Acusativo"], "items": [
+      { "text": "folgen", "bucket": 0 },
+      { "text": "posten", "bucket": 1 },
+      { "text": "teilen", "bucket": 1 },
+      { "text": "kommentieren", "bucket": 1 }
+    ], "explain": "folgen es dativo-exclusivo; posten, teilen y kommentieren rigen acusativo normal." },
+    { "id": "e19", "type": "error_correction", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich folge dich schon lange.", "accept": ["Ich folge dir schon lange"], "audio": "Ich folge dir schon lange.", "explain": "folgen rige dativo (dir), no acusativo (dich)." },
+    { "id": "e20", "type": "mcq", "tags": ["redes-sociales"], "difficulty": 2, "prompt": "«Ich habe ein Foto gepostet, und viele Leute haben es kommentiert und geteilt. Ich folge auch vielen Leuten, aber manchmal bin ich süchtig nach Social Media.» ¿Qué reconoce la persona sobre sí misma?", "options": ["Que no usa redes sociales", "Que a veces es adicta a las redes sociales", "Que tiene pocos seguidores", "Que nunca comparte fotos"], "answer": 1, "explain": "«manchmal bin ich süchtig nach Social Media» = a veces soy adicto a las redes sociales." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "posten", "es": "publicar (en redes)", "esApprox": "«PÓS-ten»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "teilen", "es": "compartir", "esApprox": "«TÁI-len»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "kommentieren", "es": "comentar", "esApprox": "«ko-men-TÍ-ren»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "folgen", "es": "seguir (+ dativo)", "esApprox": "«FÓL-guen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Beitrag", "es": "la publicación", "esApprox": "«BÁI-trak»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Follower", "es": "el seguidor", "esApprox": "«FÓ-lo-uer»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe ein Foto gepostet, und viele Leute haben es schon kommentiert und geteilt.", "es": "He publicado una foto, y mucha gente ya la ha comentado y compartido.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich folge vielen Leuten, aber manchmal bin ich süchtig nach Social Media.", "es": "Sigo a mucha gente, pero a veces soy adicto a las redes sociales.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "fr-b1-182",
+  "lang": "fr",
+  "level": "B1",
+  "order": 182,
+  "title": "El subjuntivo tras conjunciones: bien que, pour que, avant que",
+  "objectives": [
+    "Usar bien que (aunque), pour que (para que) y avant que (antes de que) con subjonctif",
+    "Distinguir pour/avant de + infinitivo (mismo sujeto) de pour que/avant que + subjonctif (sujeto distinto)",
+    "Reconocer que bien que siempre lleva subjonctif, sin alternativa de infinitivo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Conjunciones que exigen subjonctif",
+      "body": "Bien que, pour que y avant que introducen una subordinada en subjonctif. Pour que y avant que tienen una alternativa con infinitivo cuando el sujeto es el mismo; bien que no la tiene, y siempre lleva subjonctif."
+    },
+    {
+      "type": "table",
+      "title": "Las tres conjunciones",
+      "headers": ["Conjunción", "Significado", "Ejemplo"],
+      "rows": [
+        ["bien que", "aunque", "bien que ce soit difficile"],
+        ["pour que", "para que", "pour que tu comprennes"],
+        ["avant que", "antes de que", "avant que tu partes"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Mismo sujeto: infinitivo",
+      "headers": ["Sujeto distinto (subjonctif)", "Mismo sujeto (infinitivo)"],
+      "rows": [
+        ["pour que tu comprennes", "pour comprendre"],
+        ["avant que tu partes", "avant de partir"]
+      ],
+      "note": "Bien que no tiene alternativa de infinitivo: siempre es bien que + subjonctif, aunque el sujeto sea el mismo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "bien que", "es": "aunque", "ipa": "/bjɛ̃ kə/", "esApprox": "«BIEN ke»", "pos": "conjunción", "gender": null },
+    { "id": "v2", "target": "pour que", "es": "para que", "ipa": "/puʁ kə/", "esApprox": "«PUR ke»", "pos": "conjunción", "gender": null },
+    { "id": "v3", "target": "avant que", "es": "antes de que", "ipa": "/a.vɑ̃ kə/", "esApprox": "«a-VAN ke»", "pos": "conjunción", "gender": null },
+    { "id": "v4", "target": "avant de", "es": "antes de", "ipa": "/a.vɑ̃ də/", "esApprox": "«a-VAN de»", "pos": "preposición", "gender": null },
+    { "id": "v5", "target": "pour", "es": "para", "ipa": "/puʁ/", "esApprox": "«PUR»", "pos": "preposición", "gender": null },
+    { "id": "v6", "target": "que tu comprennes", "es": "que tú entiendas", "ipa": "/kə ty kɔ̃.pʁɛn/", "esApprox": "«ke tü kon-PREN»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "que nous puissions", "es": "que nosotros podamos", "ipa": "/kə nu pɥi.sjɔ̃/", "esApprox": "«ke nu püi-SIÓN»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "que ce soit difficile", "es": "que sea difícil", "ipa": "/kə sə swa di.fi.sil/", "esApprox": "«ke se suá di-fi-SIL»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "¿Qué conjunción significa «aunque»?",
+      "options": ["bien que", "pour que", "avant que", "après que"],
+      "answer": 0,
+      "explain": "Bien que significa aunque y siempre lleva subjonctif."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "¿Cuál usas si el sujeto es el mismo: pour o pour que?",
+      "options": ["pour + infinitivo", "pour que + subjonctif", "los dos son iguales", "ninguno de los dos"],
+      "answer": 0,
+      "explain": "Mismo sujeto → pour + infinitivo; sujeto distinto → pour que + subjonctif."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "statement": "Bien que siempre lleva subjonctif, sin alternativa de infinitivo.",
+      "answer": true,
+      "explain": "A diferencia de pour que y avant que, bien que no tiene forma con infinitivo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "statement": "Après que lleva subjonctif, igual que avant que.",
+      "answer": false,
+      "explain": "Après que lleva indicativo; solo avant que lleva subjonctif."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su función",
+      "left": ["bien que", "pour que", "avant que", "avant de + infinitivo"],
+      "right": ["antes de que (sujeto distinto)", "aunque (siempre subjonctif)", "para que (sujeto distinto)", "antes de (mismo sujeto)"],
+      "answer": [1, 2, 0, 3],
+      "explain": "Bien que = aunque, pour que = para que (sujeto distinto), avant que = antes de que (sujeto distinto), avant de = antes de (mismo sujeto)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "Aunque sea difícil, hace falta que lo entiendas.",
+      "accept": ["Bien que ce soit difficile, il faut que tu comprennes"],
+      "hintWords": ["bien que ce soit difficile", "il faut que tu comprennes"],
+      "strictAccents": true,
+      "audio": "Bien que ce soit difficile, il faut que tu comprennes.",
+      "explain": "Bien que + subjonctif (ce soit) e il faut que + subjonctif (tu comprennes)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "Te lo explico para que lo entiendas antes de que te vayas.",
+      "accept": ["Je te l'explique pour que tu comprennes avant que tu partes"],
+      "hintWords": ["je te l'explique pour que tu comprennes", "avant que tu partes"],
+      "strictAccents": true,
+      "audio": "Je te l'explique pour que tu comprennes avant que tu partes.",
+      "explain": "Pour que + subjonctif (finalidad) y avant que + subjonctif (anterioridad), ambos con sujeto distinto."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "Completa con avant de o avant que",
+      "text": "Je veux partir ___ manger, mais je reste ___ tu partes.",
+      "blanks": [{ "accept": ["avant de"] }, { "accept": ["avant que"] }],
+      "bank": ["avant de", "avant que", "avant"],
+      "explain": "Mismo sujeto (avant de manger, infinitivo) frente a sujeto distinto (avant que tu partes, subjonctif)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Aunque sea difícil, podemos hacerlo»",
+      "tokens": ["nous pouvons le faire", "Bien que ce soit difficile"],
+      "answer": ["Bien que ce soit difficile", "nous pouvons le faire"],
+      "audio": "Bien que ce soit difficile, nous pouvons le faire.",
+      "explain": "Bien que + subjonctif, siempre, aunque el sujeto sea el mismo en ambas partes."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "Bien que ce soit tard, je reste pour que nous puissions finir avant que tu partes.",
+      "accept": ["Aunque sea tarde, me quedo para que podamos terminar antes de que te vayas."],
+      "strictAccents": false,
+      "audio": "Bien que ce soit tard, je reste pour que nous puissions finir avant que tu partes.",
+      "explain": "Tres conjunciones combinadas: bien que, pour que y avant que."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación usando una conjunción con subjonctif",
+      "turns": [
+        { "who": "Léa", "text": "Tu restes ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, bien que ce soit tard.", "Je reste pour que nous puissions finir."], "hint": "usa bien que o pour que + subjonctif" },
+        { "who": "Léa", "text": "D'accord, merci !", "speak": true }
+      ],
+      "explain": "Repaso combinado de bien que y pour que."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "speak": "Bien que ce soit difficile, il faut que tu comprennes avant que je parte.",
+      "mode": "write",
+      "accept": ["Bien que ce soit difficile, il faut que tu comprennes avant que je parte"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de bien que, il faut que y avant que."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["conjunciones"],
+      "difficulty": 1,
+      "speak": "avant que",
+      "mode": "choose",
+      "options": ["avant que", "avant de", "après que", "pour que"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Avant que + subjonctif, con sujeto distinto de la frase principal."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["conjunciones"],
+      "difficulty": 3,
+      "speak": "Bien que ce soit difficile, je t'explique pour que tu comprennes, avant que nous partions.",
+      "es": "Aunque sea difícil, te lo explico para que lo entiendas, antes de que nos vayamos.",
+      "ipa": "/bjɛ̃ kə sə swa di.fi.sil ʒə tɛk.spli kə ty kɔ̃.pʁɛn a.vɑ̃ kə nu paʁ.tjɔ̃/",
+      "esApprox": "«BIEN ke se suá di-fi-SIL ye tek-SPLIK pur ke tü kon-PREN a-VAN ke nu par-TIÓN»",
+      "focus": "Tres conjunciones con subjonctif encadenadas en una sola frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "Combina bien que, pour que y avant que en una sola explicación.",
+      "modelAnswer": "Bien que ce soit tard, je t'explique pour que tu comprennes avant que je parte.",
+      "alsoValid": ["Avant de partir, je veux que tu comprennes."],
+      "speak": "Bien que ce soit tard, je t'explique pour que tu comprennes avant que je parte.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "¿Es mismo sujeto (infinitivo) o sujeto distinto (subjonctif)?",
+      "buckets": ["Mismo sujeto (infinitivo)", "Sujeto distinto (subjonctif)"],
+      "items": [
+        { "text": "avant de partir", "bucket": 0 },
+        { "text": "avant que tu partes", "bucket": 1 },
+        { "text": "pour comprendre", "bucket": 0 },
+        { "text": "pour que tu comprennes", "bucket": 1 }
+      ],
+      "explain": "Avant de partir y pour comprendre tienen el mismo sujeto; avant que tu partes y pour que tu comprennes tienen sujeto distinto."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["conjunciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error: bien que exige subjonctif siempre. Corrige la frase entera.",
+      "wrong": "Bien que c'est difficile, nous pouvons le faire.",
+      "accept": ["Bien que ce soit difficile, nous pouvons le faire"],
+      "audio": "Bien que ce soit difficile, nous pouvons le faire.",
+      "explain": "Bien que exige subjonctif (ce soit), no indicativo (c'est)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "bien que", "es": "aunque", "esApprox": "«BIEN ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "pour que", "es": "para que", "esApprox": "«PUR ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "avant que", "es": "antes de que", "esApprox": "«a-VAN ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "avant de", "es": "antes de", "esApprox": "«a-VAN de»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "que tu comprennes", "es": "que tú entiendas", "esApprox": "«ke tü kon-PREN»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "que nous puissions", "es": "que nosotros podamos", "esApprox": "«ke nu püi-SIÓN»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Bien que ce soit difficile, il faut que tu comprennes.", "es": "Aunque sea difícil, hace falta que lo entiendas.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je te l'explique pour que tu comprennes avant que tu partes.", "es": "Te lo explico para que lo entiendas antes de que te vayas.", "from": "e7" }
+  ]
+}

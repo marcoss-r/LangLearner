@@ -1,0 +1,336 @@
+{
+  "id": "fr-a1-025",
+  "lang": "fr",
+  "level": "A1",
+  "order": 25,
+  "title": "Los adjetivos: género y número",
+  "objectives": [
+    "Formar el femenino de los adjetivos con la regla general (+e) y los patrones más frecuentes (-eux→-euse, -if→-ive)",
+    "Formar el plural de los adjetivos añadiendo -s, con las mismas excepciones que los sustantivos",
+    "Reconocer los adjetivos invariables (ya acabados en -e) y los irregulares más comunes: beau, nouveau, vieux"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una regla general y varios patrones fijos",
+      "body": "Ya has visto muchos adjetivos concordando: content/contente, actif/active, bleu/bleue... Ahora ves el sistema completo. La regla general es simple: **femenino = masculino + e**, **plural = singular + s**. Sobre esa base hay patrones que se repiten mucho y un puñado de irregulares que hay que memorizar aparte.",
+      "examples": [
+        { "target": "content → contente", "es": "contento → contenta", "note": "regla general: +e" },
+        { "target": "heureux → heureuse", "es": "feliz (masc./fem.)", "note": "-eux → -euse" },
+        { "target": "actif → active", "es": "activo → activa", "note": "-if → -ive" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Patrones de femenino más frecuentes",
+      "headers": ["Terminación masculina", "Terminación femenina", "Ejemplo"],
+      "rows": [
+        ["consonante (regla general)", "+ e", "content → contente"],
+        ["-eux", "-euse", "heureux → heureuse"],
+        ["-if", "-ive", "actif → active"],
+        ["-e (ya acaba en e)", "no cambia", "malade → malade"],
+        ["irregular", "irregular", "beau → belle, nouveau → nouvelle, vieux → vieille"]
+      ],
+      "note": "El plural, en casi todos los casos, añade -s al final: contents, heureuses, actifs."
+    },
+    {
+      "type": "contrast",
+      "title": "Si ya acaba en -e, no se añade nada más",
+      "items": [
+        { "wrong": "malade → maladee", "right": "malade (masculino) = malade (femenino), sin cambios", "why": "Cuando el adjetivo ya termina en -e en masculino, el femenino es idéntico: no se dobla la e ni se añade nada. Malade, jeune, rouge... todos funcionan así." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Beau, nouveau y vieux son de los adjetivos más irregulares y más usados: **beau → belle** (guapo/bonito), **nouveau → nouvelle** (nuevo), **vieux → vieille** (viejo). No siguen ningún patrón: tócalos como excepciones sueltas que memorizar, no como una regla que aplicar."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "heureux / heureuse",
+      "es": "feliz",
+      "ipa": "/œ.ʁø / œ.ʁøz/",
+      "esApprox": "«eu-REU» / «eu-REUZ»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Je suis heureux de te voir.", "es": "Estoy feliz de verte." }
+    },
+    {
+      "id": "v2",
+      "target": "sérieux / sérieuse",
+      "es": "serio, seria",
+      "ipa": "/se.ʁjø / se.ʁjøz/",
+      "esApprox": "«se-RIEU» / «se-RIEUZ»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Elle est très sérieuse.", "es": "Es muy seria." }
+    },
+    {
+      "id": "v3",
+      "target": "actif / active",
+      "es": "activo, activa",
+      "ipa": "/ak.tif / ak.tiv/",
+      "esApprox": "«ak-TIF» / «ak-TIV»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Mon frère est actif.", "es": "Mi hermano es activo." }
+    },
+    {
+      "id": "v4",
+      "target": "malade",
+      "es": "enfermo, enferma",
+      "ipa": "/ma.lad/",
+      "esApprox": "«ma-LAD»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Je suis malade aujourd'hui.", "es": "Estoy enfermo hoy." }
+    },
+    {
+      "id": "v5",
+      "target": "nouveau / nouvelle",
+      "es": "nuevo, nueva",
+      "ipa": "/nu.vo / nu.vɛl/",
+      "esApprox": "«nu-VÓ» / «nu-VEL»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "J'ai une nouvelle voiture.", "es": "Tengo un coche nuevo." }
+    },
+    {
+      "id": "v6",
+      "target": "vieux / vieille",
+      "es": "viejo, vieja",
+      "ipa": "/vjø / vjɛj/",
+      "esApprox": "«VIEU» / «VIEY»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "C'est un vieux village.", "es": "Es un pueblo viejo." }
+    },
+    {
+      "id": "v7",
+      "target": "beau / belle",
+      "es": "guapo, guapa; bonito, bonita",
+      "ipa": "/bo / bɛl/",
+      "esApprox": "«BÓ» / «BEL»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Elle est très belle.", "es": "Es muy guapa." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["adjetivos"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es el femenino de «heureux» (feliz)?",
+      "options": ["heureuxe", "heureuse", "heureuxse", "heureux"],
+      "answer": 1,
+      "explain": "-eux se convierte en -euse: heureux → heureuse."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el femenino de «beau» (guapo)?",
+      "options": ["beaue", "beause", "belle", "beauxe"],
+      "answer": 2,
+      "explain": "Beau es muy irregular: su femenino es belle."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "statement": "«Malade» es igual en masculino y en femenino.",
+      "answer": true,
+      "explain": "Como ya acaba en -e, no cambia: malade / malade."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos adjetivos sigue la regla general (+e), a diferencia de los demás?",
+      "options": ["content", "heureux", "actif", "beau"],
+      "answer": 0,
+      "explain": "Content sigue la regla general (content → contente); los otros tres tienen patrones especiales."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Une cada adjetivo masculino con su femenino",
+      "left": ["heureux", "actif", "vieux", "nouveau"],
+      "right": ["nouvelle", "heureuse", "active", "vieille"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Heureux → heureuse, actif → active, vieux → vieille, nouveau → nouvelle."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Estoy feliz y muy activa.",
+      "accept": ["Je suis heureuse et très active"],
+      "hintWords": ["heureuse", "active"],
+      "strictAccents": false,
+      "audio": "Je suis heureuse et très active.",
+      "explain": "Heureuse y active: dos patrones distintos de femenino en la misma frase."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Tengo un coche nuevo y un gato viejo.",
+      "accept": ["J'ai une nouvelle voiture et un vieux chat"],
+      "hintWords": ["nouvelle", "vieux"],
+      "strictAccents": false,
+      "audio": "J'ai une nouvelle voiture et un vieux chat.",
+      "explain": "Nouvelle (femenino, voiture) y vieux (masculino, chat)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Elle est ___ (seria), mais elle est ___ (feliz).",
+      "blanks": [{ "accept": ["sérieuse"] }, { "accept": ["heureuse"] }],
+      "bank": ["sérieuse", "sérieux", "heureuse", "heureux"],
+      "explain": "Elle necesita las formas femeninas: sérieuse, heureuse."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Estoy enfermo hoy»",
+      "tokens": ["aujourd'hui", "malade", "Je suis"],
+      "answer": ["Je suis", "malade", "aujourd'hui"],
+      "audio": "Je suis malade aujourd'hui.",
+      "explain": "Malade no cambia: sirve igual en masculino que en femenino."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["adjetivos"],
+      "difficulty": 1,
+      "prompt": "C'est un vieux village, mais les maisons sont belles.",
+      "accept": ["Es un pueblo viejo, pero las casas son bonitas."],
+      "strictAccents": false,
+      "audio": "C'est un vieux village, mais les maisons sont belles.",
+      "explain": "Belles es el plural femenino de beau/belle."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu nuevo coche",
+      "turns": [
+        { "who": "Léa", "text": "Elle est nouvelle, ta voiture ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, elle est nouvelle.", "Non, elle est vieille."], "hint": "di si tu coche es nuevo o viejo" },
+        { "who": "Léa", "text": "Elle est belle en tout cas !", "speak": true }
+      ],
+      "explain": "Nouvelle y vieille concuerdan con voiture (femenino)."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "speak": "Je suis malade et un peu fatiguée.",
+      "mode": "write",
+      "accept": ["Je suis malade et un peu fatiguée"],
+      "showTextAfter": true,
+      "explain": "Malade (invariable) y fatiguée (femenino regular)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "speak": "heureuse",
+      "mode": "choose",
+      "options": ["heureuse", "heureux", "sérieuse", "active"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Heureuse es la forma femenina, con el sonido -euse al final."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["adjetivos"],
+      "difficulty": 3,
+      "speak": "Ma nouvelle amie est belle, active et très sérieuse.",
+      "es": "Mi nueva amiga es guapa, activa y muy seria.",
+      "ipa": "/ma nu.vɛl a.mi ɛ bɛl ak.tiv e tʁɛ se.ʁjøz/",
+      "esApprox": "«ma nu-VEL a-MÍ e BEL ak-TIV e tré se-RIEUZ»",
+      "focus": "Cuatro adjetivos femeninos seguidos: nouvelle, belle, active, sérieuse.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Describe a una amiga: di que es guapa, activa y feliz.",
+      "modelAnswer": "Elle est belle, active et heureuse.",
+      "alsoValid": ["Mon amie est belle, active et heureuse."],
+      "speak": "Elle est belle, active et heureuse.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "¿Qué patrón de femenino sigue este adjetivo?",
+      "buckets": ["+ e (regular)", "-eux → -euse", "-if → -ive", "irregular"],
+      "items": [
+        { "text": "content", "bucket": 0 },
+        { "text": "heureux", "bucket": 1 },
+        { "text": "actif", "bucket": 2 },
+        { "text": "beau", "bucket": 3 },
+        { "text": "sérieux", "bucket": 1 },
+        { "text": "vieux", "bucket": 3 }
+      ],
+      "explain": "Cuatro patrones distintos: la mayoría de adjetivos sigue uno de los tres primeros; solo un puñado es irregular."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de concordancia. Corrige la frase entera.",
+      "wrong": "Elle est actif.",
+      "accept": ["Elle est active"],
+      "audio": "Elle est active.",
+      "explain": "Con elle hace falta el femenino: active, no actif."
+    },
+    {
+      "id": "e18",
+      "type": "true_false",
+      "tags": ["adjetivos"],
+      "difficulty": 2,
+      "statement": "El plural de los adjetivos añade -s, igual que el de los sustantivos.",
+      "answer": true,
+      "explain": "Content → contents, heureuse → heureuses, con las mismas excepciones que ya viste en la clase 14."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "heureux / heureuse", "es": "feliz", "esApprox": "«eu-REU» / «eu-REUZ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "sérieux / sérieuse", "es": "serio, seria", "esApprox": "«se-RIEU» / «se-RIEUZ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "malade", "es": "enfermo, enferma", "esApprox": "«ma-LAD»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "nouveau / nouvelle", "es": "nuevo, nueva", "esApprox": "«nu-VÓ» / «nu-VEL»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "vieux / vieille", "es": "viejo, vieja", "esApprox": "«VIEU» / «VIEY»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "beau / belle", "es": "guapo, guapa", "esApprox": "«BÓ» / «BEL»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Je suis heureuse et très active.", "es": "Estoy feliz y muy activa.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je suis malade et un peu fatiguée.", "es": "Estoy enferma y un poco cansada.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Ma nouvelle amie est belle, active et très sérieuse.", "es": "Mi nueva amiga es guapa, activa y muy seria.", "from": "e14" }
+  ]
+}

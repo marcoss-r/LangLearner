@@ -1,0 +1,265 @@
+{
+  "id": "fr-a2-101",
+  "lang": "fr",
+  "level": "A2",
+  "order": 101,
+  "title": "El imparfait: cómo se forma",
+  "objectives": [
+    "Formar el imparfait: radical de nous en presente (sin -ons) + terminaciones -ais, -ais, -ait, -ions, -iez, -aient",
+    "Memorizar être, el único verbo con un radical irregular: ét-",
+    "Reconocer que todos los verbos, regulares e irregulares, usan las mismas seis terminaciones"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un tiempo nuevo, muy fácil de formar",
+      "body": "El imparfait es otro tiempo del pasado, distinto del passé composé. Para formarlo, coge la forma de nous en presente, quita -ons, y añade las terminaciones del imparfait: -ais, -ais, -ait, -ions, -iez, -aient.",
+      "examples": [
+        { "target": "nous parlons → je parlais, tu parlais, il parlait...", "es": "hablábamos → yo hablaba, tú hablabas, él hablaba...", "note": "parl- (radical) + terminaciones" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las terminaciones del imparfait",
+      "headers": ["Persona", "Terminación", "Parler"],
+      "rows": [
+        ["je", "-ais", "je parlais"],
+        ["tu", "-ais", "tu parlais"],
+        ["il / elle", "-ait", "il parlait"],
+        ["nous", "-ions", "nous parlions"],
+        ["vous", "-iez", "vous parliez"],
+        ["ils / elles", "-aient", "ils parlaient"]
+      ],
+      "note": "Las cuatro primeras personas (je, tu, il, ils) suenan igual: /pɑʁlɛ/."
+    },
+    {
+      "type": "table",
+      "title": "El radical de otros verbos",
+      "headers": ["Verbo", "Nous en presente", "Radical del imparfait"],
+      "rows": [
+        ["finir", "nous finissons", "finiss-"],
+        ["avoir", "nous avons", "av-"],
+        ["aller", "nous allons", "all-"],
+        ["faire", "nous faisons", "fais-"],
+        ["être (excepción)", "nous sommes", "ét- (irregular)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Être es el único verbo que no sigue la regla: su radical es ét-, no viene de nous sommes. J'étais, tu étais, il était..."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "j'étais", "es": "yo era/estaba", "ipa": "/ʒe.tɛ/", "esApprox": "«ye-TE»", "pos": "verbo", "gender": null, "example": { "target": "J'étais fatigué hier soir.", "es": "Estaba cansado anoche." } },
+    { "id": "v2", "target": "je parlais", "es": "yo hablaba", "ipa": "/ʒə paʁ.lɛ/", "esApprox": "«ye par-LE»", "pos": "verbo", "gender": null, "example": { "target": "Je parlais avec Léa.", "es": "Estaba hablando con Léa." } },
+    { "id": "v3", "target": "j'avais", "es": "yo tenía", "ipa": "/ʒa.vɛ/", "esApprox": "«ya-VE»", "pos": "verbo", "gender": null, "example": { "target": "J'avais dix ans.", "es": "Tenía diez años." } },
+    { "id": "v4", "target": "je faisais", "es": "yo hacía", "ipa": "/ʒə fə.zɛ/", "esApprox": "«ye fe-ZE»", "pos": "verbo", "gender": null, "example": { "target": "Je faisais du sport tous les jours.", "es": "Hacía deporte todos los días." } },
+    { "id": "v5", "target": "j'allais", "es": "yo iba", "ipa": "/ʒa.lɛ/", "esApprox": "«ya-LE»", "pos": "verbo", "gender": null, "example": { "target": "J'allais à l'école à pied.", "es": "Iba a la escuela a pie." } },
+    { "id": "v6", "target": "nous finissions", "es": "nosotros terminábamos", "ipa": "/nu fi.ni.sjɔ̃/", "esApprox": "«nu fi-ni-SIÓN»", "pos": "verbo", "gender": null, "example": { "target": "Nous finissions tard le vendredi.", "es": "Terminábamos tarde los viernes." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el radical del imparfait de parler?",
+      "options": ["parl-", "parle-", "parlai-", "parlons-"],
+      "answer": 0,
+      "explain": "Nous parlons → parl- (se quita -ons)."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la única excepción a la regla del radical?",
+      "options": ["avoir", "aller", "être", "faire"],
+      "answer": 2,
+      "explain": "Être tiene el radical irregular ét-, no viene de nous sommes."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "statement": "Je, tu, il e ils suenan igual en el imparfait.",
+      "answer": true,
+      "explain": "Je parlais, tu parlais, il parlait, ils parlaient: las cuatro suenan /paʁlɛ/."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "statement": "Todos los verbos usan las mismas seis terminaciones del imparfait.",
+      "answer": true,
+      "explain": "-ais, -ais, -ait, -ions, -iez, -aient: iguales para todos los verbos, regulares e irregulares."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su radical del imparfait",
+      "left": ["finir", "avoir", "aller", "faire"],
+      "right": ["all-", "fais-", "finiss-", "av-"],
+      "answer": [2, 3, 0, 1],
+      "explain": "Finiss-, av-, all-, fais-: todos vienen de la forma de nous en presente."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Yo tenía diez años y hacía deporte todos los días.",
+      "accept": ["J'avais dix ans et je faisais du sport tous les jours"],
+      "hintWords": ["j'avais dix ans", "je faisais du sport tous les jours"],
+      "strictAccents": true,
+      "audio": "J'avais dix ans et je faisais du sport tous les jours.",
+      "explain": "Avais (avoir) + faisais (faire), ambos en imparfait."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Estaba cansado, e iba a la escuela a pie.",
+      "accept": ["J'étais fatigué, et j'allais à l'école à pied"],
+      "hintWords": ["j'étais fatigué", "j'allais à l'école à pied"],
+      "strictAccents": true,
+      "audio": "J'étais fatigué, et j'allais à l'école à pied.",
+      "explain": "Étais (être, irregular) + allais (aller, regular)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Completa con el imparfait correcto",
+      "text": "Nous ___ tard le vendredi, et vous ___ tôt le lundi.",
+      "blanks": [{ "accept": ["finissions"] }, { "accept": ["finissiez"] }],
+      "bank": ["finissions", "finissiez", "finissaient"],
+      "explain": "Nous finissions, vous finissiez."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hablaba con Léa todos los días»",
+      "tokens": ["tous les jours", "avec Léa", "Je parlais"],
+      "answer": ["Je parlais", "avec Léa", "tous les jours"],
+      "audio": "Je parlais avec Léa tous les jours.",
+      "explain": "Je parlais + avec Léa + tous les jours."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Quand j'étais petit, j'allais à l'école à pied et j'avais beaucoup d'amis.",
+      "accept": ["Cuando era pequeño, iba a la escuela a pie y tenía muchos amigos."],
+      "strictAccents": false,
+      "audio": "Quand j'étais petit, j'allais à l'école à pied et j'avais beaucoup d'amis.",
+      "explain": "Tres verbos en imparfait: étais, allais, avais."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre cuando eras niño",
+      "turns": [
+        { "who": "Léa", "text": "Tu allais à l'école comment, quand tu étais petit ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["J'allais à l'école à pied.", "J'allais à l'école en bus."], "hint": "usa j'allais + medio de transporte" },
+        { "who": "Léa", "text": "Ah, comme moi !", "speak": true }
+      ],
+      "explain": "Quand tu étais petit...? se responde con verbos en imparfait."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "speak": "J'avais dix ans, j'allais à l'école à pied, et je faisais du sport le mercredi.",
+      "mode": "write",
+      "accept": ["J'avais dix ans, j'allais à l'école à pied, et je faisais du sport le mercredi"],
+      "showTextAfter": true,
+      "explain": "Tres verbos en imparfait seguidos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["imparfait"],
+      "difficulty": 1,
+      "speak": "j'étais",
+      "mode": "choose",
+      "options": ["j'ai été", "j'étais", "je suis", "j'ai était"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'étais = yo era/estaba (imparfait)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["imparfait"],
+      "difficulty": 3,
+      "speak": "Quand j'étais petit, j'avais un chien, j'allais à l'école à pied, et je faisais du sport tous les jours.",
+      "es": "Cuando era pequeño, tenía un perro, iba a la escuela a pie, y hacía deporte todos los días.",
+      "ipa": "/kɑ̃ ʒe.tɛ pə.ti ʒa.vɛ œ̃ ʃjɛ̃ ʒa.lɛ a lə.kɔl a pje e ʒə fə.zɛ dy spɔʁ tu le ʒuʁ/",
+      "esApprox": "«kan ye-TE pe-TÍ ya-VE un SHIEN ya-LE a le-KOL a PIÉ e ye fe-ZE dü SPOR tu le YUR»",
+      "focus": "Cuatro imparfaits seguidos, incluyendo el irregular étais.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Di cómo eras y qué hacías cuando eras niño.",
+      "modelAnswer": "Quand j'étais petit, j'avais un chien et j'allais à l'école à pied.",
+      "alsoValid": ["J'étais très sportif et je faisais du sport tous les jours."],
+      "speak": "Quand j'étais petit, j'avais un chien et j'allais à l'école à pied.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "¿Es presente o imparfait?",
+      "buckets": ["Presente", "Imparfait"],
+      "items": [
+        { "text": "je parle", "bucket": 0 },
+        { "text": "je parlais", "bucket": 1 },
+        { "text": "j'ai", "bucket": 0 },
+        { "text": "j'avais", "bucket": 1 },
+        { "text": "je suis", "bucket": 0 },
+        { "text": "j'étais", "bucket": 1 }
+      ],
+      "explain": "El imparfait añade las terminaciones -ais/-ait/-ions/-iez/-aient al radical de nous."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["imparfait"],
+      "difficulty": 2,
+      "prompt": "Hay un error de radical. Corrige la frase entera.",
+      "wrong": "J'sommais fatigué.",
+      "accept": ["J'étais fatigué"],
+      "audio": "J'étais fatigué.",
+      "explain": "Être tiene el radical irregular ét-, no viene de nous sommes."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "j'étais", "es": "yo era/estaba", "esApprox": "«ye-TE»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "je parlais", "es": "yo hablaba", "esApprox": "«ye par-LE»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "j'avais", "es": "yo tenía", "esApprox": "«ya-VE»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "je faisais", "es": "yo hacía", "esApprox": "«ye fe-ZE»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "j'allais", "es": "yo iba", "esApprox": "«ya-LE»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "J'avais dix ans et je faisais du sport tous les jours.", "es": "Tenía diez años y hacía deporte todos los días.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "J'étais fatigué, et j'allais à l'école à pied.", "es": "Estaba cansado, e iba a la escuela a pie.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Quand j'étais petit, j'avais un chien, j'allais à l'école à pied, et je faisais du sport tous les jours.", "es": "Cuando era pequeño, tenía un perro, iba a la escuela a pie, y hacía deporte todos los días.", "from": "e14" }
+  ]
+}

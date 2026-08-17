@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-232",
+  "lang": "de",
+  "level": "B1",
+  "order": 232,
+  "title": "La burocracia alemana: papeles, plazos y oficinas",
+  "objectives": [
+    "Aprender vocabulario burocrático avanzado: die Behörde, das Formular, die Frist",
+    "Usar zuständig sein für para preguntar quién es responsable de un trámite",
+    "Hablar de plazos y documentos oficiales con precisión"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de la burocracia alemana",
+      "body": "«Die Behörde» (la autoridad, el organismo oficial) y «das Amt» (la oficina, la agencia) gestionan trámites que empiezan con «das Formular» (el formulario) y tienen «eine Frist» (un plazo) que cumplir. A veces necesitas «beglaubigen» (autenticar, certificar) un documento antes de entregarlo.",
+      "examples": [
+        { "target": "Ich muss dieses Formular ausfüllen.", "es": "Tengo que rellenar este formulario." },
+        { "target": "Die Frist läuft in zwei Wochen ab.", "es": "El plazo vence en dos semanas." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario burocrático clave",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["die Behörde", "la autoridad, el organismo oficial"],
+        ["das Amt", "la oficina, la agencia"],
+        ["das Formular", "el formulario"],
+        ["die Frist", "el plazo"],
+        ["beglaubigen", "autenticar, certificar"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para preguntar quién gestiona un trámite, usa «zuständig sein für» (ser responsable de): «Welche Behörde ist dafür zuständig?» (¿Qué autoridad es responsable de esto?)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Behörde", "es": "la autoridad, el organismo oficial", "ipa": "/bəˈhøːɐ̯də/", "esApprox": "«be-JÖR-de»", "pos": "sustantivo", "gender": "f", "example": { "target": "Welche Behörde ist dafür zuständig?", "es": "¿Qué autoridad es responsable de esto?" } },
+    { "id": "v2", "target": "das Amt", "es": "la oficina, la agencia (administrativa)", "ipa": "/amt/", "esApprox": "«amt»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich muss zum Amt gehen.", "es": "Tengo que ir a la oficina administrativa." } },
+    { "id": "v3", "target": "das Formular", "es": "el formulario", "ipa": "/fɔʁmuˈlaːɐ̯/", "esApprox": "«for-mu-LAR»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich muss dieses Formular ausfüllen.", "es": "Tengo que rellenar este formulario." } },
+    { "id": "v4", "target": "die Frist", "es": "el plazo", "ipa": "/fʁɪst/", "esApprox": "«frist»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Frist läuft in zwei Wochen ab.", "es": "El plazo vence en dos semanas." } },
+    { "id": "v5", "target": "beglaubigen", "es": "autenticar, certificar", "ipa": "/bəˈɡlaʊ̯bɪɡn̩/", "esApprox": "«be-GLÁU-bi-guen»", "pos": "verbo", "gender": null, "example": { "target": "Ich muss die Kopie beglaubigen lassen.", "es": "Tengo que hacer autenticar la copia." } },
+    { "id": "v6", "target": "zuständig sein für", "es": "ser responsable de", "ipa": "/ˈtsuːʃtɛndɪç zaɪ̯n fyːɐ̯/", "esApprox": "«TSU-shten-dich zain fiur»", "pos": "locución con preposición fija", "gender": null, "example": { "target": "Wer ist für diesen Antrag zuständig?", "es": "¿Quién es responsable de esta solicitud?" } },
+    { "id": "v7", "target": "ausfüllen", "es": "rellenar (un formulario)", "ipa": "/ˈaʊ̯sfʏlən/", "esApprox": "«ÁUS-fü-len»", "pos": "verbo separable", "gender": null, "example": { "target": "Bitte füllen Sie das Formular aus.", "es": "Por favor, rellene el formulario." } },
+    { "id": "v8", "target": "ablaufen", "es": "vencer, expirar (un plazo)", "ipa": "/ˈaplaʊ̯fn̩/", "esApprox": "«AP-lau-fen»", "pos": "verbo separable", "gender": null, "example": { "target": "Die Frist läuft morgen ab.", "es": "El plazo vence mañana." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["burocracia"], "difficulty": 1, "prompt": "¿Cómo se dice «el plazo»?", "options": ["das Formular", "die Frist", "das Amt", "die Behörde"], "answer": 1, "explain": "die Frist = el plazo." },
+    { "id": "e2", "type": "mcq", "tags": ["burocracia"], "difficulty": 2, "prompt": "¿Qué significa «beglaubigen»?", "options": ["Rellenar", "Autenticar, certificar", "Enviar", "Perder"], "answer": 1, "explain": "beglaubigen = autenticar, certificar un documento." },
+    { "id": "e3", "type": "true_false", "tags": ["burocracia"], "difficulty": 2, "statement": "zuständig sein für significa ser responsable de algo.", "answer": true, "explain": "zuständig sein für = ser responsable de." },
+    { "id": "e4", "type": "true_false", "tags": ["burocracia"], "difficulty": 2, "statement": "ablaufen significa empezar un plazo.", "answer": false, "explain": "ablaufen significa que un plazo vence o expira, no que empieza." },
+    { "id": "e5", "type": "match_pairs", "tags": ["burocracia"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Behörde", "das Formular", "beglaubigen", "ausfüllen"], "right": ["la autoridad", "el formulario", "autenticar", "rellenar"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["burocracia"], "difficulty": 2, "prompt": "Tengo que rellenar este formulario.", "accept": ["Ich muss dieses Formular ausfüllen"], "hintWords": ["ich muss dieses Formular ausfüllen"], "strictAccents": false, "audio": "Ich muss dieses Formular ausfüllen.", "explain": "muss + dieses Formular + ausfüllen (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["burocracia"], "difficulty": 2, "prompt": "El plazo vence en dos semanas.", "accept": ["Die Frist läuft in zwei Wochen ab"], "hintWords": ["die Frist läuft in zwei Wochen ab"], "strictAccents": false, "audio": "Die Frist läuft in zwei Wochen ab.", "explain": "Die Frist (sujeto) + läuft (posición 2) + in zwei Wochen + ab (final, verbo separable)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["burocracia"], "difficulty": 2, "prompt": "¿Qué autoridad es responsable de esto?", "accept": ["Welche Behörde ist dafür zuständig?"], "hintWords": ["welche Behörde ist dafür zuständig"], "strictAccents": false, "audio": "Welche Behörde ist dafür zuständig?", "explain": "Welche Behörde (sujeto) + ist (posición 2) + dafür + zuständig." },
+    { "id": "e9", "type": "fill_blank", "tags": ["burocracia"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich muss zum ___ gehen. Bitte füllen Sie das ___ aus.", "blanks": [{ "accept": ["Amt"] }, { "accept": ["Formular"] }], "bank": ["Amt", "Formular", "Frist"], "explain": "das Amt (la oficina) y das Formular (el formulario)." },
+    { "id": "e10", "type": "word_order", "tags": ["burocracia"], "difficulty": 2, "prompt": "Ordena: «Tengo que hacer autenticar la copia»", "tokens": ["die Kopie beglaubigen lassen", "Ich muss"], "answer": ["Ich muss", "die Kopie beglaubigen lassen"], "audio": "Ich muss die Kopie beglaubigen lassen.", "explain": "Ich muss (posición normal) + die Kopie + beglaubigen lassen (final, causativo con lassen)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["burocracia"], "difficulty": 2, "prompt": "Wer ist für diesen Antrag zuständig?", "accept": ["¿Quién es responsable de esta solicitud?"], "strictAccents": false, "audio": "Wer ist für diesen Antrag zuständig?", "explain": "zuständig sein für + acusativo." },
+    { "id": "e12", "type": "dialogue", "tags": ["burocracia"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Beamter", "text": "Sie müssen dieses Formular ausfüllen.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Bis wann läuft die Frist ab?"], "hint": "pregunta cuándo vence el plazo" },
+      { "who": "Beamter", "text": "In zwei Wochen.", "speak": true }
+    ], "explain": "die Frist: conversación típica en una oficina administrativa." },
+    { "id": "e13", "type": "listening", "tags": ["burocracia"], "difficulty": 1, "speak": "Ich muss dieses Formular ausfüllen.", "mode": "write", "accept": ["Ich muss dieses Formular ausfüllen"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["burocracia"], "difficulty": 2, "speak": "Die Frist läuft in zwei Wochen ab.", "mode": "choose", "options": ["Die Frist läuft in zwei Wochen ab.", "Die Frist beginnt in zwei Wochen.", "Das Formular läuft in zwei Wochen ab."], "answer": 0, "showTextAfter": true, "explain": "die Frist es lo que vence (abläuft), no das Formular." },
+    { "id": "e15", "type": "shadowing", "tags": ["burocracia"], "difficulty": 2, "speak": "Ich muss dieses Formular ausfüllen, und die Frist läuft schon in zwei Wochen ab.", "es": "Tengo que rellenar este formulario, y el plazo ya vence en dos semanas.", "ipa": "/ɪç mʊs ˈdiːzəs fɔʁmuˈlaːɐ̯ ˈaʊ̯sfʏlən ʊnt diː fʁɪst lɔɪ̯ft ʃoːn ɪn tsvaɪ̯ ˈvɔxn̩ ap/", "esApprox": "«ich mus DÍ-zes for-mu-LAR ÁUS-fü-len, unt di frist loift shon in tsvai VÓ-jen ap»", "focus": "Formular ausfüllen y Frist...ab (ablaufen): dos elementos centrales de un trámite con plazo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["burocracia"], "difficulty": 2, "speak": "Welche Behörde ist dafür zuständig? Ich brauche auch eine beglaubigte Kopie meiner Dokumente.", "es": "¿Qué autoridad es responsable de esto? También necesito una copia autenticada de mis documentos.", "ipa": "/ˈvɛlçə bəˈhøːɐ̯də ɪst daˈfyːɐ̯ ˈtsuːʃtɛndɪç ɪç ˈbʁaʊ̯xə aʊ̯x ˈaɪ̯nə bəˈɡlaʊ̯bɪçtə ˈkɔpiː ˈmaɪ̯nɐ dokuˈmɛntə/", "esApprox": "«VÉL-che be-JÖR-de ist da-FIUR TSU-shten-dich? ich BRÁU-je aoj ÁI-ne be-GLÁU-bich-te KÓ-pi MÁI-ner do-ku-MÉN-te»", "focus": "zuständig y beglaubigte Kopie: dos elementos clave de un trámite burocrático complejo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["burocracia"], "difficulty": 2, "prompt": "Preguntas en una oficina cuándo vence el plazo para tu trámite.", "modelAnswer": "Bis wann läuft die Frist ab?", "alsoValid": ["Wann läuft die Frist ab?"], "speak": "Bis wann läuft die Frist ab?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["burocracia"], "difficulty": 2, "prompt": "Clasifica cada palabra según su función", "buckets": ["Institución", "Documento/proceso"], "items": [
+      { "text": "die Behörde", "bucket": 0 },
+      { "text": "das Amt", "bucket": 0 },
+      { "text": "das Formular", "bucket": 1 },
+      { "text": "die Frist", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario burocrático de esta clase." },
+    { "id": "e19", "type": "error_correction", "tags": ["burocracia"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Die Frist beginnt in zwei Wochen ab.", "accept": ["Die Frist läuft in zwei Wochen ab"], "audio": "Die Frist läuft in zwei Wochen ab.", "explain": "ablaufen (con la partícula ab) es el verbo correcto para «vencer», no beginnen." },
+    { "id": "e20", "type": "mcq", "tags": ["burocracia"], "difficulty": 2, "prompt": "«Welche Behörde ist dafür zuständig? Ich muss dieses Formular ausfüllen, und die Frist läuft schon in zwei Wochen ab.» ¿Qué urgencia tiene la persona?", "options": ["Ninguna, tiene mucho tiempo", "El plazo vence pronto", "Ya ha entregado todo", "No necesita ningún formulario"], "answer": 1, "explain": "«die Frist läuft schon in zwei Wochen ab» indica que el plazo vence pronto." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Behörde", "es": "la autoridad, el organismo oficial", "esApprox": "«be-JÖR-de»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Amt", "es": "la oficina, la agencia (administrativa)", "esApprox": "«amt»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Formular", "es": "el formulario", "esApprox": "«for-mu-LAR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Frist", "es": "el plazo", "esApprox": "«frist»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "beglaubigen", "es": "autenticar, certificar", "esApprox": "«be-GLÁU-bi-guen»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "zuständig sein für", "es": "ser responsable de", "esApprox": "«TSU-shten-dich zain fiur»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich muss dieses Formular ausfüllen, und die Frist läuft schon in zwei Wochen ab.", "es": "Tengo que rellenar este formulario, y el plazo ya vence en dos semanas.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Welche Behörde ist dafür zuständig? Ich brauche auch eine beglaubigte Kopie meiner Dokumente.", "es": "¿Qué autoridad es responsable de esto? También necesito una copia autenticada de mis documentos.", "from": "e16" }
+  ]
+}

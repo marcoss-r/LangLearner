@@ -1,0 +1,373 @@
+{
+  "id": "de-a1-058",
+  "lang": "de",
+  "level": "A1",
+  "order": 58,
+  "title": "La escuela y los estudios",
+  "objectives": [
+    "Aprender el vocabulario de la escuela: Unterricht, Prüfung, Hausaufgabe, Note",
+    "Aprender los objetos escolares: Stift, Heft, además de das Buch, ya conocido",
+    "Combinar este vocabulario con lernen (clase 11) y müssen (clase 51)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de la escuela, con verbos ya conocidos",
+      "body": "Con lernen, haben y müssen, ya puedes hablar de tu vida escolar: solo hace falta el vocabulario específico de esta clase.",
+      "examples": [
+        { "target": "Ich habe eine Prüfung.", "es": "Tengo un examen.", "note": "haben + Prüfung" },
+        { "target": "Ich muss Hausaufgaben machen.", "es": "Tengo que hacer deberes.", "note": "müssen + machen (infinitivo, final)" },
+        { "target": "Ich brauche einen Stift.", "es": "Necesito un bolígrafo.", "note": "brauchen + acusativo masculino" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la escuela",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["der Unterricht", "la clase, la lección"],
+        ["die Prüfung", "el examen"],
+        ["die Hausaufgabe", "los deberes"],
+        ["der Stift", "el bolígrafo, el lápiz"],
+        ["das Heft", "el cuaderno"],
+        ["die Note", "la nota, la calificación"],
+        ["die Schule", "el colegio"],
+        ["das Buch", "el libro"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Hausaufgabe es literalmente Haus (casa) + Aufgabe (tarea): «tarea de casa». Se usa casi siempre en plural, die Hausaufgaben, porque normalmente hay más de una."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "der Unterricht",
+      "es": "la clase, la lección",
+      "ipa": "/ˈʊntɐˌʁɪçt/",
+      "esApprox": "«UN-ter-richt»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": null,
+      "example": { "target": "Der Unterricht ist um acht Uhr.", "es": "La clase es a las ocho." }
+    },
+    {
+      "id": "v2",
+      "target": "die Prüfung",
+      "es": "el examen",
+      "ipa": "/ˈpʁyːfʊŋ/",
+      "esApprox": "«PRÜ-fung»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Prüfungen",
+      "example": { "target": "Ich habe eine Prüfung.", "es": "Tengo un examen." }
+    },
+    {
+      "id": "v3",
+      "target": "die Hausaufgabe",
+      "es": "los deberes",
+      "ipa": "/ˈhaʊ̯sˌʔaʊ̯fɡaːbə/",
+      "esApprox": "«JAUS-auf-ga-be»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Hausaufgaben",
+      "example": { "target": "Ich muss Hausaufgaben machen.", "es": "Tengo que hacer deberes." }
+    },
+    {
+      "id": "v4",
+      "target": "der Stift",
+      "es": "el bolígrafo, el lápiz",
+      "ipa": "/ʃtɪft/",
+      "esApprox": "«shtift»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Stifte",
+      "example": { "target": "Ich brauche einen Stift.", "es": "Necesito un bolígrafo." }
+    },
+    {
+      "id": "v5",
+      "target": "das Heft",
+      "es": "el cuaderno",
+      "ipa": "/hɛft/",
+      "esApprox": "«jeft»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Hefte",
+      "example": { "target": "Das Heft ist neu.", "es": "El cuaderno es nuevo." }
+    },
+    {
+      "id": "v6",
+      "target": "die Note",
+      "es": "la nota, la calificación",
+      "ipa": "/ˈnoːtə/",
+      "esApprox": "«NÓ-te»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Noten",
+      "example": { "target": "Die Note ist gut.", "es": "La nota es buena." }
+    },
+    {
+      "id": "v7",
+      "target": "die Schule",
+      "es": "el colegio",
+      "ipa": "/ˈʃuːlə/",
+      "esApprox": "«SHU-le»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Schulen",
+      "example": { "target": "Die Schule ist modern.", "es": "El colegio es moderno." }
+    },
+    {
+      "id": "v8",
+      "target": "das Buch",
+      "es": "el libro",
+      "ipa": "/buːx/",
+      "esApprox": "«buj»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Bücher",
+      "example": { "target": "Ich brauche das Buch.", "es": "Necesito el libro." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «examen» en alemán?",
+      "options": ["Note", "Prüfung", "Heft", "Stift"],
+      "answer": 1,
+      "explain": "die Prüfung = el examen."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["estudios"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «deberes» en alemán?",
+      "options": ["Unterricht", "Hausaufgabe", "Note", "Stift"],
+      "answer": 1,
+      "explain": "die Hausaufgabe = los deberes."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "statement": "Der Stift significa «el bolígrafo».",
+      "answer": true,
+      "explain": "der Stift = el bolígrafo, el lápiz."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "statement": "Das Heft significa «el examen».",
+      "answer": false,
+      "explain": "Das Heft es el cuaderno; «el examen» es die Prüfung."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas palabras NO está relacionada con la escuela?",
+      "options": ["Prüfung", "Hausaufgabe", "Flasche", "Note"],
+      "answer": 2,
+      "explain": "Flasche es la botella, no está relacionada con la escuela."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["Unterricht", "Prüfung", "Hausaufgabe", "Note"],
+      "right": ["examen", "clase", "nota", "deberes"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro palabras clave de la vida escolar."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Tengo un examen.",
+      "accept": ["Ich habe eine Prüfung"],
+      "hintWords": ["ich habe eine Prüfung"],
+      "strictAccents": false,
+      "audio": "Ich habe eine Prüfung.",
+      "explain": "eine Prüfung: Prüfung es femenino, acusativo sin cambio."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "Necesito un bolígrafo.",
+      "accept": ["Ich brauche einen Stift"],
+      "hintWords": ["ich brauche einen Stift"],
+      "strictAccents": false,
+      "audio": "Ich brauche einen Stift.",
+      "explain": "einen Stift: Stift es masculino, acusativo einen."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Ich habe eine ___. Ich brauche einen ___.",
+      "blanks": [{ "accept": ["Prüfung"] }, { "accept": ["Stift"] }],
+      "bank": ["Prüfung", "Stift", "Note"],
+      "explain": "eine Prüfung (femenino); einen Stift (masculino)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tengo que hacer deberes»",
+      "tokens": ["machen", "Ich", "muss", "Hausaufgaben"],
+      "answer": ["Ich", "muss", "Hausaufgaben", "machen"],
+      "audio": "Ich muss Hausaufgaben machen.",
+      "explain": "muss + Hausaufgaben + machen (infinitivo, final)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "prompt": "Die Note ist gut.",
+      "accept": ["La nota es buena."],
+      "strictAccents": false,
+      "audio": "Die Note ist gut.",
+      "explain": "die Note = la nota."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du eine Prüfung?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich habe eine Prüfung."], "hint": "responde que sí, que tienes un examen" },
+        { "who": "Anna", "text": "Viel Erfolg!", "speak": true }
+      ],
+      "explain": "eine Prüfung haben = tener un examen."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["escuela"],
+      "difficulty": 1,
+      "speak": "Ich habe eine Prüfung.",
+      "mode": "write",
+      "accept": ["Ich habe eine Prüfung"],
+      "showTextAfter": true,
+      "explain": "Ich habe eine Prüfung = tengo un examen."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "speak": "Ich muss Hausaufgaben machen.",
+      "mode": "choose",
+      "options": ["Ich muss Hausaufgaben machen.", "Ich habe eine Prüfung.", "Ich brauche einen Stift."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Las tres frases suenan claramente distintas."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "speak": "Ich habe eine Prüfung, und ich muss Hausaufgaben machen.",
+      "es": "Tengo un examen, y tengo que hacer deberes.",
+      "ipa": "/ɪç ˈhaːbə ˈaɪ̯nə ˈpʁyːfʊŋ ʊnt ɪç mʊs ˈhaʊ̯sˌʔaʊ̯fɡaːbən ˈmaxən/",
+      "esApprox": "«ich HÁ-be AI-ne PRÜ-fung unt ich mus JAUS-auf-ga-ben MA-jen»",
+      "focus": "Prüfung lleva la ü labializada, y Hausaufgaben es una palabra compuesta larga: descompónla en Haus-auf-gaben.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["estudios"],
+      "difficulty": 2,
+      "speak": "Ich brauche einen Stift und ein Heft.",
+      "es": "Necesito un bolígrafo y un cuaderno.",
+      "ipa": "/ɪç ˈbʁaʊ̯xə ˈaɪ̯nən ʃtɪft ʊnt aɪ̯n hɛft/",
+      "esApprox": "«ich BRAU-je AI-nen shtift unt ain jeft»",
+      "focus": "Stift y Heft: dos palabras cortas, pronunciadas con la consonante final clara.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si tienes un examen. Responde que sí, que tienes un examen.",
+      "modelAnswer": "Ja, ich habe eine Prüfung.",
+      "alsoValid": ["Ich habe eine Prüfung."],
+      "speak": "Ja, ich habe eine Prüfung.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Unterricht", "bucket": 0 },
+        { "text": "Prüfung", "bucket": 1 },
+        { "text": "Stift", "bucket": 0 },
+        { "text": "Heft", "bucket": 2 },
+        { "text": "Note", "bucket": 1 }
+      ],
+      "explain": "Unterricht y Stift son masculinos; Prüfung y Note, femeninas; Heft, neutro."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich brauche der Stift.",
+      "accept": ["Ich brauche einen Stift"],
+      "audio": "Ich brauche einen Stift.",
+      "explain": "brauchen rige acusativo: Stift es masculino, así que necesita einen, no der."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Unterricht", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Prüfung", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Stift", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Heft", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" }
+      ],
+      "explain": "Unterricht y Stift son masculinos, Prüfung femenina, Heft neutro."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Unterricht", "es": "la clase, la lección", "esApprox": "«UN-ter-richt»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Prüfung", "es": "el examen", "esApprox": "«PRÜ-fung»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Hausaufgabe", "es": "los deberes", "esApprox": "«JAUS-auf-ga-be»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Stift", "es": "el bolígrafo, el lápiz", "esApprox": "«shtift»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Heft", "es": "el cuaderno", "esApprox": "«jeft»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Note", "es": "la nota, la calificación", "esApprox": "«NÓ-te»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe eine Prüfung, und ich muss Hausaufgaben machen.", "es": "Tengo un examen, y tengo que hacer deberes.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich brauche einen Stift und ein Heft.", "es": "Necesito un bolígrafo y un cuaderno.", "from": "e16" }
+  ]
+}

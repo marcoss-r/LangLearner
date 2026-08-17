@@ -1,0 +1,81 @@
+{
+  "id": "de-a2-172",
+  "lang": "de",
+  "level": "A2",
+  "order": 172,
+  "title": "Repaso activo XIII: casos, declinación del adjetivo y genitivo",
+  "objectives": [
+    "Repasar el orden de los dos objetos (acusativo y dativo) y su sustitución por pronombres",
+    "Consolidar la declinación del adjetivo en los tres patrones (definido, indefinido, sin artículo)",
+    "Repasar el genitivo como caso, sus preposiciones y su alternativa hablada con von"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Sin gramática nueva: gran repaso de los tres primeros bloques del A2",
+      "body": "Esta clase no introduce ningún contenido nuevo. Repasa de forma intensiva tres bloques completos: el orden de los objetos y el Perfekt (clases 91-100), la declinación completa del adjetivo en sus tres patrones (clases 101-112), y el genitivo con sus preposiciones y verbos con preposición fija (clases 113-124). Es la base gramatical más densa de todo el curso A2."
+    },
+    {
+      "type": "table",
+      "title": "Los tres bloques repasados",
+      "headers": ["Clases", "Contenido clave"],
+      "rows": [
+        ["91-100", "Los tres casos juntos, orden de objetos (dativo antes que acusativo, salvo con pronombres), Perfekt completo"],
+        ["101-112", "Declinación del adjetivo: definido (der/die/das), indefinido (ein/mein), sin artículo; comparativo y superlativo declinados"],
+        ["113-124", "El genitivo (wegen, trotz, während), la alternativa con von, verbos con preposición fija, compuestos da-/wo-, preposiciones temporales"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Si tienes dudas sobre la declinación del adjetivo, recuerda la regla general: cuando el artículo ya marca claramente el género y caso, el adjetivo lleva una terminación débil (-e o -en); cuando no hay artículo o el artículo es ambiguo, el adjetivo «compensa» con una terminación fuerte, casi igual a la del artículo definido."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Deutsche", "es": "el alemán (persona)", "ipa": "/deːɐ̯ ˈdɔɪ̯tʃə/", "esApprox": "«der DÓI-che»", "pos": "sustantivo (adjetivo sustantivado)", "gender": "m", "example": { "target": "Der Deutsche kommt aus Berlin.", "es": "El alemán viene de Berlín." } },
+    { "id": "v2", "target": "besser", "es": "mejor", "ipa": "/ˈbɛsɐ/", "esApprox": "«BÉ-ser»", "pos": "adjetivo (comparativo)", "gender": null, "example": { "target": "Das ist ein besserer Tag.", "es": "Ese es un día mejor." } },
+    { "id": "v3", "target": "wegen", "es": "a causa de, por (+ genitivo)", "ipa": "/ˈveːɡn̩/", "esApprox": "«VÉ-guen»", "pos": "preposición", "gender": null, "example": { "target": "Wegen des Wetters bleiben wir zu Hause.", "es": "A causa del tiempo, nos quedamos en casa." } },
+    { "id": "v4", "target": "sich freuen auf", "es": "alegrarse por (algo futuro)", "ipa": "/zɪç ˈfʁɔɪ̯ən aʊ̯f/", "esApprox": "«zich FRÓI-en auf»", "pos": "verbo reflexivo con preposición fija", "gender": null, "example": { "target": "Ich freue mich auf die Ferien.", "es": "Me alegro por las vacaciones." } },
+    { "id": "v5", "target": "darauf", "es": "sobre eso, en eso", "ipa": "/daˈʁaʊ̯f/", "esApprox": "«da-RAUF»", "pos": "adverbio pronominal", "gender": null, "example": { "target": "Ich freue mich darauf.", "es": "Me alegro por eso." } },
+    { "id": "v6", "target": "seit", "es": "desde (+ dativo)", "ipa": "/zaɪ̯t/", "esApprox": "«zait»", "pos": "preposición", "gender": null, "example": { "target": "Ich lerne seit drei Jahren Deutsch.", "es": "Aprendo alemán desde hace tres años." } },
+    { "id": "v7", "target": "der Genitiv", "es": "el genitivo", "ipa": "/ˈɡeːnitiːf/", "esApprox": "«GUÉ-ni-tif»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Genitiv ist der vierte Fall.", "es": "El genitivo es el cuarto caso." } },
+    { "id": "v8", "target": "die Deklination", "es": "la declinación", "ipa": "/deklinaˈtsi̯oːn/", "esApprox": "«de-kli-na-TSIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Deklination des Adjektivs ist komplex.", "es": "La declinación del adjetivo es compleja." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["repaso"], "difficulty": 1, "prompt": "¿Qué objeto va primero cuando ambos son sustantivos: acusativo o dativo?", "options": ["Acusativo", "Dativo", "Da igual", "Depende del verbo"], "answer": 1, "explain": "Repaso de la clase 92: dativo antes que acusativo, salvo cuando uno de los dos es pronombre." },
+    { "id": "e2", "type": "mcq", "tags": ["repaso"], "difficulty": 2, "prompt": "¿Qué terminación lleva el adjetivo tras «der» en nominativo masculino?", "options": ["-e", "-en", "-er", "-es"], "answer": 0, "explain": "Repaso de la clase 101: der gute Mann." },
+    { "id": "e3", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "wegen, trotz y während rigen genitivo.", "answer": true, "explain": "Repaso de la clase 114." },
+    { "id": "e4", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "En alemán hablado, von + dativo es una alternativa frecuente al genitivo.", "answer": true, "explain": "Repaso de la clase 115." },
+    { "id": "e5", "type": "match_pairs", "tags": ["repaso"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Genitiv", "die Deklination", "besser", "wegen"], "right": ["el genitivo", "la declinación", "mejor", "a causa de"], "answer": [0, 1, 2, 3], "explain": "Repaso de vocabulario gramatical de las clases 101-114." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "A causa del tiempo, nos quedamos en casa.", "accept": ["Wegen des Wetters bleiben wir zu Hause"], "hintWords": ["wegen des Wetters bleiben wir zu Hause"], "strictAccents": false, "audio": "Wegen des Wetters bleiben wir zu Hause.", "explain": "Repaso de la clase 114." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "Aprendo alemán desde hace tres años.", "accept": ["Ich lerne seit drei Jahren Deutsch"], "hintWords": ["ich lerne seit drei Jahren Deutsch"], "strictAccents": false, "audio": "Ich lerne seit drei Jahren Deutsch.", "explain": "Repaso de la clase 121." },
+    { "id": "e8", "type": "fill_blank", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa con la terminación correcta del adjetivo", "text": "Das ist ein besser___ Tag. Der Deutsch___ kommt aus Berlin.", "blanks": [{ "accept": ["er"] }, { "accept": ["e"] }], "bank": ["er", "e", "en"], "explain": "Repaso de las clases 109-110: comparativo declinado y adjetivo sustantivado." },
+    { "id": "e9", "type": "word_order", "tags": ["repaso"], "difficulty": 2, "prompt": "Ordena: «Me alegro por eso»", "tokens": ["mich darauf", "Ich freue"], "answer": ["Ich freue", "mich darauf"], "audio": "Ich freue mich darauf.", "explain": "Repaso de las clases 116 y 118." },
+    { "id": "e10", "type": "translate_to_es", "tags": ["repaso"], "difficulty": 2, "prompt": "Die Deklination des Adjektivs ist komplex.", "accept": ["La declinación del adjetivo es compleja."], "strictAccents": false, "audio": "Die Deklination des Adjektivs ist komplex.", "explain": "Repaso general del bloque 101-112." },
+    { "id": "e11", "type": "dialogue", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Worauf freust du dich?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich freue mich auf die Ferien."], "hint": "responde combinando reflexivo + preposición fija" },
+      { "who": "Lea", "text": "Ich auch!", "speak": true }
+    ], "explain": "Repaso de los compuestos wo- (clase 119) y los verbos con preposición fija (clase 116)." },
+    { "id": "e12", "type": "listening", "tags": ["repaso"], "difficulty": 1, "speak": "Wegen des Wetters bleiben wir zu Hause.", "mode": "write", "accept": ["Wegen des Wetters bleiben wir zu Hause"], "showTextAfter": true, "explain": "Repaso de la clase 114." },
+    { "id": "e13", "type": "listening", "tags": ["repaso"], "difficulty": 2, "speak": "Der Deutsche kommt aus Berlin.", "mode": "choose", "options": ["Der Deutsche kommt aus Berlin.", "Der Deutsch kommt aus Berlin.", "Der Deutscher kommt aus Berlin."], "answer": 0, "showTextAfter": true, "explain": "Repaso de la clase 109: der Deutsche, con terminación de adjetivo sustantivado." },
+    { "id": "e14", "type": "shadowing", "tags": ["repaso"], "difficulty": 2, "speak": "Wegen des Wetters bleiben wir zu Hause, aber ich freue mich schon auf die Ferien im Sommer.", "es": "A causa del tiempo, nos quedamos en casa, pero ya me alegro por las vacaciones de verano.", "ipa": "/ˈveːɡn̩ dɛs ˈvɛtɐs ˈblaɪ̯bn̩ viːɐ̯ tsuː ˈhaʊ̯zə ˈaːbɐ ɪç ˈfʁɔɪ̯ə mɪç ʃoːn aʊ̯f diː ˈfeːʁiən ɪm ˈzɔmɐ/", "esApprox": "«VÉ-guen des VÉ-ters BLÁI-ben vir tsu JÁO-ze, Á-ber ich FRÓI-e mich shon auf di FÉ-rien im ZÓ-mer»", "focus": "Repaso de las clases 114 y 116: genitivo con wegen y reflexivo con preposición fija.", "selfAssess": true },
+    { "id": "e15", "type": "speak_prompt", "tags": ["repaso"], "difficulty": 2, "prompt": "Te preguntan desde cuándo aprendes alemán. Responde que desde hace tres años.", "modelAnswer": "Ich lerne seit drei Jahren Deutsch.", "alsoValid": ["Seit drei Jahren."], "speak": "Ich lerne seit drei Jahren Deutsch.", "selfAssess": true },
+    { "id": "e16", "type": "categorize", "tags": ["repaso"], "difficulty": 2, "prompt": "Clasifica cada palabra según su bloque temático", "buckets": ["Declinación del adjetivo", "Genitivo y preposición fija"], "items": [
+      { "text": "besser", "bucket": 0 },
+      { "text": "der Deutsche", "bucket": 0 },
+      { "text": "wegen", "bucket": 1 },
+      { "text": "sich freuen auf", "bucket": 1 }
+    ], "explain": "Repaso general de los tres bloques gramaticales de esta clase." },
+    { "id": "e17", "type": "error_correction", "tags": ["repaso"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wegen der Wetters bleiben wir zu Hause.", "accept": ["Wegen des Wetters bleiben wir zu Hause"], "audio": "Wegen des Wetters bleiben wir zu Hause.", "explain": "Repaso de la clase 114: wegen + genitivo neutro es des Wetters, no der Wetters." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Deutsche", "es": "el alemán (persona)", "esApprox": "«der DÓI-che»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "wegen", "es": "a causa de, por (+ genitivo)", "esApprox": "«VÉ-guen»", "from": "v3" },
+    { "id": "s3", "kind": "phrase", "target": "sich freuen auf", "es": "alegrarse por (algo futuro)", "esApprox": "«zich FRÓI-en auf»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "darauf", "es": "sobre eso, en eso", "esApprox": "«da-RAUF»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "seit", "es": "desde (+ dativo)", "esApprox": "«zait»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Genitiv", "es": "el genitivo", "esApprox": "«GUÉ-ni-tif»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "die Deklination", "es": "la declinación", "esApprox": "«de-kli-na-TSIÓN»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Wegen des Wetters bleiben wir zu Hause, aber ich freue mich schon auf die Ferien im Sommer.", "es": "A causa del tiempo, nos quedamos en casa, pero ya me alegro por las vacaciones de verano.", "from": "e14" }
+  ]
+}

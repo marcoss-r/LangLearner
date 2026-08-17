@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-119",
+  "lang": "de",
+  "level": "A2",
+  "order": 119,
+  "title": "Los compuestos wo-: worauf, womit, wofür",
+  "objectives": [
+    "Formar compuestos wo- (worauf, womit, wofür, woran...) para preguntar por cosas, no por personas",
+    "Usar estos compuestos en vez de «preposición + was», que no es gramatical",
+    "Responder a estas preguntas con el compuesto da- correspondiente (clase 118)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "wo- + preposición: preguntar por cosas",
+      "body": "Así como da- sustituye «preposición + cosa» en una respuesta (clase 118), wo- + preposición se usa para PREGUNTAR por una cosa. El alemán no dice «Für was interessierst du dich?»: dice «Wofür interessierst du dich?» (¿Por qué te interesa/qué te interesa?). Igual que con da-, si la preposición empieza por vocal, se añade una -r-: worauf, woran, worüber.",
+      "examples": [
+        { "target": "Wofür interessierst du dich?", "es": "¿Por qué te interesas?" },
+        { "target": "Worauf freust du dich?", "es": "¿De qué tienes ganas?" },
+        { "target": "Woran denkst du?", "es": "¿En qué piensas?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Pregunta con wo- y respuesta con da-",
+      "headers": ["Pregunta (wo-)", "Respuesta (da-)"],
+      "rows": [
+        ["Wofür interessierst du dich?", "Ich interessiere mich dafür."],
+        ["Worauf freust du dich?", "Ich freue mich darauf."],
+        ["Woran denkst du?", "Ich denke daran."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Regla de oro, igual que con da-: wo- + preposición es solo para cosas o ideas. Si preguntas por una persona, usas la preposición normal + wen/wem: «An wen denkst du?» (¿En quién piensas?), nunca «Woran denkst du?» si te refieres a una persona."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "wofür", "es": "¿por qué?, ¿para qué? (cosa)", "ipa": "/voˈfyːɐ̯/", "esApprox": "«vo-FÜR»", "pos": "adverbio interrogativo", "gender": null, "example": { "target": "Wofür interessierst du dich?", "es": "¿Por qué te interesas?" } },
+    { "id": "v2", "target": "worauf", "es": "¿sobre qué?, ¿de qué?", "ipa": "/voˈʁaʊ̯f/", "esApprox": "«vo-RAUF»", "pos": "adverbio interrogativo", "gender": null, "example": { "target": "Worauf freust du dich?", "es": "¿De qué tienes ganas?" } },
+    { "id": "v3", "target": "womit", "es": "¿con qué?", "ipa": "/voˈmɪt/", "esApprox": "«vo-MIT»", "pos": "adverbio interrogativo", "gender": null, "example": { "target": "Womit schreibst du?", "es": "¿Con qué escribes?" } },
+    { "id": "v4", "target": "woran", "es": "¿en qué?, ¿de qué?", "ipa": "/voˈʁan/", "esApprox": "«vo-RAN»", "pos": "adverbio interrogativo", "gender": null, "example": { "target": "Woran denkst du?", "es": "¿En qué piensas?" } },
+    { "id": "v5", "target": "worüber", "es": "¿sobre qué?", "ipa": "/voˈʁyːbɐ/", "esApprox": "«vo-RÜ-ber»", "pos": "adverbio interrogativo", "gender": null, "example": { "target": "Worüber sprecht ihr?", "es": "¿Sobre qué habláis?" } },
+    { "id": "v6", "target": "wovon", "es": "¿de qué?", "ipa": "/voˈfɔn/", "esApprox": "«vo-FON»", "pos": "adverbio interrogativo", "gender": null, "example": { "target": "Wovon redest du?", "es": "¿De qué hablas?" } },
+    { "id": "v7", "target": "reden", "es": "hablar (de algo)", "ipa": "/ˈʁeːdn̩/", "esApprox": "«RÉ-den»", "pos": "verbo", "gender": null, "example": { "target": "Wovon redest du?", "es": "¿De qué hablas?" } },
+    { "id": "v8", "target": "genau", "es": "exactamente", "ipa": "/ɡəˈnaʊ̯/", "esApprox": "«ge-NAU»", "pos": "adverbio", "gender": null, "example": { "target": "Genau darüber rede ich.", "es": "Exactamente de eso hablo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["wo-compuestos"], "difficulty": 1, "prompt": "¿Cómo se pregunta «¿por qué te interesas?» (por una cosa)?", "options": ["Für was interessierst du dich?", "Wofür interessierst du dich?", "Was für interessierst du dich?", "Wo interessierst du dich?"], "answer": 1, "explain": "Wofür interessierst du dich?: la única forma gramatical correcta." },
+    { "id": "e2", "type": "mcq", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "¿Cómo se pregunta «¿en qué piensas?»?", "options": ["An was denkst du?", "Woran denkst du?", "Wo denkst du an?", "Was denkst du an?"], "answer": 1, "explain": "Woran denkst du?: compuesto wo- + an." },
+    { "id": "e3", "type": "true_false", "tags": ["wo-compuestos"], "difficulty": 2, "statement": "«Für was...?» es una alternativa gramaticalmente correcta a «Wofür...?».", "answer": false, "explain": "«Für was» no es gramatical en alemán estándar; se usa siempre wofür." },
+    { "id": "e4", "type": "true_false", "tags": ["wo-compuestos"], "difficulty": 2, "statement": "Los compuestos wo- se usan también para preguntar por personas.", "answer": false, "explain": "Solo para cosas o ideas; para personas se usa la preposición + wen/wem." },
+    { "id": "e5", "type": "match_pairs", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Une cada pregunta con su respuesta", "left": ["Wofür interessierst du dich?", "Worauf freust du dich?", "Woran denkst du?"], "right": ["Ich interessiere mich dafür.", "Ich freue mich darauf.", "Ich denke daran."], "answer": [0, 1, 2], "explain": "Cada pregunta wo- se responde con el compuesto da- correspondiente." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "¿Por qué te interesas?", "accept": ["Wofür interessierst du dich?", "Wofür interessierst du dich"], "hintWords": ["wofür interessierst du dich"], "strictAccents": false, "audio": "Wofür interessierst du dich?", "explain": "Wofür: compuesto wo- + für." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "¿De qué tienes ganas?", "accept": ["Worauf freust du dich?", "Worauf freust du dich"], "hintWords": ["worauf freust du dich"], "strictAccents": false, "audio": "Worauf freust du dich?", "explain": "Worauf: compuesto wo- + auf." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "¿Con qué escribes?", "accept": ["Womit schreibst du?", "Womit schreibst du"], "hintWords": ["womit schreibst du"], "strictAccents": false, "audio": "Womit schreibst du?", "explain": "Womit: compuesto wo- + mit." },
+    { "id": "e9", "type": "fill_blank", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Completa con el compuesto wo- correcto", "text": "___ denkst du? (an) ___ sprecht ihr? (über)", "blanks": [{ "accept": ["Woran"] }, { "accept": ["Worüber"] }], "bank": ["Woran", "Worüber", "Womit"], "explain": "Woran (an); Worüber (über)." },
+    { "id": "e10", "type": "word_order", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Ordena: «¿De qué hablas?»", "tokens": ["redest du", "Wovon"], "answer": ["Wovon", "redest du"], "audio": "Wovon redest du?", "explain": "Wovon redest du?: compuesto wo- + von." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Genau darüber rede ich.", "accept": ["Exactamente de eso hablo."], "strictAccents": false, "audio": "Genau darüber rede ich.", "explain": "genau + darüber: refuerzo del compuesto da-." },
+    { "id": "e12", "type": "dialogue", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Tim", "text": "Wovon redest du?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich rede von der Prüfung.", "Ich rede davon."], "hint": "responde con un tema o con davon" },
+      { "who": "Tim", "text": "Ach so, verstehe!", "speak": true }
+    ], "explain": "Práctica de una pregunta wo- con su respuesta." },
+    { "id": "e13", "type": "listening", "tags": ["wo-compuestos"], "difficulty": 1, "speak": "Wofür interessierst du dich?", "mode": "write", "accept": ["Wofür interessierst du dich"], "showTextAfter": true, "explain": "Wofür: pregunta clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["wo-compuestos"], "difficulty": 2, "speak": "Woran denkst du?", "mode": "choose", "options": ["Woran denkst du?", "An was denkst du?", "Wo denkst du?"], "answer": 0, "showTextAfter": true, "explain": "Woran es la única forma gramatical correcta para preguntar por una cosa." },
+    { "id": "e15", "type": "shadowing", "tags": ["wo-compuestos"], "difficulty": 2, "speak": "Wofür interessierst du dich, und worauf freust du dich am meisten?", "es": "¿Por qué te interesas, y de qué tienes más ganas?", "ipa": "/voˈfyːɐ̯ ɪntəʁɛˈsiːɐ̯st duː dɪç ʊnt voˈʁaʊ̯f fʁɔɪ̯st duː dɪç am ˈmaɪ̯stn̩/", "esApprox": "«vo-FÜR in-te-re-SÍRST du dich, unt vo-RAUF froist du dich am MÁIS-ten»", "focus": "wofür y worauf: dos compuestos wo- en la misma pregunta doble.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["wo-compuestos"], "difficulty": 2, "speak": "Woran denkst du gerade, und worüber sprecht ihr so viel?", "es": "¿En qué piensas ahora mismo, y sobre qué habláis tanto?", "ipa": "/voˈʁan dɛŋkst duː ɡəˈʁaːdə ʊnt voˈʁyːbɐ ʃpʁɛçt iːɐ̯ zoː fiːl/", "esApprox": "«vo-RAN denkst du ge-RÁ-de, unt vo-RÜ-ber shprecht ir zo fil»", "focus": "woran y worüber: dos compuestos wo- más, ambos con -r- por empezar la preposición en vocal.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Le preguntas a un amigo en qué piensa. Usa el compuesto wo- correcto.", "modelAnswer": "Woran denkst du?", "alsoValid": ["Woran denkst du gerade?"], "speak": "Woran denkst du?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Clasifica cada pregunta: correcta o incorrecta", "buckets": ["Correcta", "Incorrecta"], "items": [
+      { "text": "Wofür interessierst du dich?", "bucket": 0 },
+      { "text": "Für was interessierst du dich?", "bucket": 1 },
+      { "text": "Woran denkst du?", "bucket": 0 },
+      { "text": "An was denkst du?", "bucket": 1 }
+    ], "explain": "Los compuestos wo- son la forma estándar correcta; «für was», «an was» son coloquiales/no estándar." },
+    { "id": "e19", "type": "error_correction", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Für was interessierst du dich?", "accept": ["Wofür interessierst du dich?"], "audio": "Wofür interessierst du dich?", "explain": "En alemán estándar se usa wofür, no «für was»." },
+    { "id": "e20", "type": "mcq", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "«Wofür interessierst du dich? Ich interessiere mich für Kunst. Und worauf freust du dich am meisten? Auf die Ferien!» ¿De qué tiene más ganas la persona?", "options": ["Del arte", "De las vacaciones", "De un examen", "No se dice"], "answer": 1, "explain": "«Auf die Ferien!» = ¡de las vacaciones! responde a worauf freust du dich am meisten." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "wofür", "es": "¿por qué?, ¿para qué? (cosa)", "esApprox": "«vo-FÜR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "worauf", "es": "¿sobre qué?, ¿de qué?", "esApprox": "«vo-RAUF»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "womit", "es": "¿con qué?", "esApprox": "«vo-MIT»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "woran", "es": "¿en qué?, ¿de qué?", "esApprox": "«vo-RAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "worüber", "es": "¿sobre qué?", "esApprox": "«vo-RÜ-ber»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "reden", "es": "hablar (de algo)", "esApprox": "«RÉ-den»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Wofür interessierst du dich, und worauf freust du dich am meisten?", "es": "¿Por qué te interesas, y de qué tienes más ganas?", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Woran denkst du gerade, und worüber sprecht ihr so viel?", "es": "¿En qué piensas ahora mismo, y sobre qué habláis tanto?", "from": "e16" }
+  ]
+}

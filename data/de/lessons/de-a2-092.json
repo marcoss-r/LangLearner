@@ -1,0 +1,91 @@
+{
+  "id": "de-a2-092",
+  "lang": "de",
+  "level": "A2",
+  "order": 92,
+  "title": "El orden de los dos objetos: acusativo y dativo en la misma frase",
+  "objectives": [
+    "Ordenar correctamente dos objetos sustantivo (uno en dativo, otro en acusativo) en la misma frase",
+    "Aplicar la regla: cuando ambos son sustantivos, el dativo va antes que el acusativo",
+    "Reconocer verbos frecuentes con doble objeto: geben, zeigen, schicken, erklären, schreiben"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dativo antes que acusativo, cuando ambos son sustantivos",
+      "body": "Ya usaste verbos como geben (clase 38) con dos objetos: uno en dativo (para quién) y otro en acusativo (qué cosa). Cuando ambos objetos son sustantivos (no pronombres), el orden fijo es: verbo + objeto en DATIVO + objeto en ACUSATIVO.",
+      "examples": [
+        { "target": "Ich gebe dem Kind das Buch.", "es": "Le doy el libro al niño.", "note": "dem Kind (dativo) antes de das Buch (acusativo)" },
+        { "target": "Sie zeigt der Frau die Fotos.", "es": "Ella le muestra las fotos a la mujer.", "note": "der Frau (dativo) antes de die Fotos (acusativo)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos frecuentes con doble objeto",
+      "headers": ["Verbo", "Español"],
+      "rows": [
+        ["geben", "dar"],
+        ["zeigen", "mostrar"],
+        ["schicken", "enviar"],
+        ["erklären", "explicar"],
+        ["schreiben", "escribir (a alguien)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco para recordar el orden: en español decimos «le doy EL LIBRO al niño» (acusativo antes), pero en alemán es al revés cuando ambos son sustantivos: «dem Kind das Buch» (dativo antes). No traduzcas palabra por palabra."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "zeigen", "es": "mostrar", "ipa": "/ˈtsaɪ̯ɡn̩/", "esApprox": "«TSÁI-guen»", "pos": "verbo", "gender": null, "example": { "target": "Sie zeigt der Frau die Fotos.", "es": "Ella le muestra las fotos a la mujer." } },
+    { "id": "v2", "target": "schicken", "es": "enviar", "ipa": "/ˈʃɪkn̩/", "esApprox": "«SHÍ-ken»", "pos": "verbo", "gender": null, "example": { "target": "Ich schicke dem Kunden die Rechnung.", "es": "Le envío la factura al cliente." } },
+    { "id": "v3", "target": "erklären", "es": "explicar", "ipa": "/ɛɐ̯ˈklɛːʁən/", "esApprox": "«er-KLÉ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Der Lehrer erklärt den Schülern die Regel.", "es": "El profesor les explica la regla a los alumnos." } },
+    { "id": "v4", "target": "die Rechnung", "es": "la factura", "ipa": "/ˈʁɛçnʊŋ/", "esApprox": "«RÉCH-nung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist die Rechnung.", "es": "Esta es la factura." } },
+    { "id": "v5", "target": "der Kunde", "es": "el cliente", "ipa": "/ˈkʊndə/", "esApprox": "«KÚN-de»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Kunde wartet.", "es": "El cliente espera." } },
+    { "id": "v6", "target": "das Foto", "es": "la foto", "ipa": "/ˈfoːto/", "esApprox": "«FÓ-to»", "pos": "sustantivo", "gender": "n", "plural": "die Fotos", "example": { "target": "Ich zeige dir das Foto.", "es": "Te muestro la foto." } },
+    { "id": "v7", "target": "der Schüler", "es": "el alumno", "ipa": "/ˈʃyːlɐ/", "esApprox": "«SHÜ-ler»", "pos": "sustantivo", "gender": "m", "plural": "die Schüler", "example": { "target": "Die Schüler hören zu.", "es": "Los alumnos escuchan." } },
+    { "id": "v8", "target": "die Regel", "es": "la regla", "ipa": "/ˈʁeːɡl̩/", "esApprox": "«RÉ-guel»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine wichtige Regel.", "es": "Esa es una regla importante." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["orden-objetos"], "difficulty": 1, "prompt": "Cuando ambos objetos son sustantivos, ¿cuál va primero?", "options": ["El acusativo", "El dativo", "Depende del verbo", "Da igual"], "answer": 1, "explain": "Dativo antes que acusativo, cuando ambos son sustantivos." },
+    { "id": "e2", "type": "mcq", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "En «Ich gebe dem Kind das Buch», ¿qué función tiene «das Buch»?", "options": ["Sujeto", "Objeto directo (acusativo)", "Objeto indirecto (dativo)", "Ninguna"], "answer": 1, "explain": "das Buch es lo que se da: objeto directo, acusativo." },
+    { "id": "e3", "type": "true_false", "tags": ["orden-objetos"], "difficulty": 2, "statement": "«zeigen» puede llevar un objeto en dativo y otro en acusativo.", "answer": true, "explain": "zeigen (mostrar algo a alguien) es un verbo típico de doble objeto." },
+    { "id": "e4", "type": "true_false", "tags": ["orden-objetos"], "difficulty": 2, "statement": "En español el orden de los objetos es igual que en alemán.", "answer": false, "explain": "En español solemos decir el objeto directo antes; en alemán el dativo va primero (con sustantivos)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Une cada verbo con su traducción", "left": ["zeigen", "schicken", "erklären", "schreiben"], "right": ["mostrar", "enviar", "explicar", "escribir (a alguien)"], "answer": [0, 1, 2, 3], "explain": "Cinco verbos frecuentes con doble objeto (dativo + acusativo)." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Le doy el libro al niño.", "accept": ["Ich gebe dem Kind das Buch"], "hintWords": ["ich gebe dem Kind das Buch"], "strictAccents": false, "audio": "Ich gebe dem Kind das Buch.", "explain": "dem Kind (dativo) antes de das Buch (acusativo)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Ella le muestra las fotos a la mujer.", "accept": ["Sie zeigt der Frau die Fotos"], "hintWords": ["sie zeigt der Frau die Fotos"], "strictAccents": false, "audio": "Sie zeigt der Frau die Fotos.", "explain": "der Frau (dativo) antes de die Fotos (acusativo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "El profesor les explica la regla a los alumnos.", "accept": ["Der Lehrer erklärt den Schülern die Regel"], "hintWords": ["der Lehrer erklärt den Schülern die Regel"], "strictAccents": false, "audio": "Der Lehrer erklärt den Schülern die Regel.", "explain": "den Schülern (dativo plural) antes de die Regel (acusativo)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Completa con el orden correcto", "text": "Ich schicke ___ Kunden ___ Rechnung. (der Kunde dativo, die Rechnung acusativo)", "blanks": [{ "accept": ["dem"] }, { "accept": ["die"] }], "bank": ["dem", "die", "den"], "explain": "dem Kunden (dativo) antes de die Rechnung (acusativo)." },
+    { "id": "e10", "type": "word_order", "tags": ["orden-objetos"], "difficulty": 3, "prompt": "Ordena: «Te muestro la foto»", "tokens": ["das Foto", "dir", "Ich zeige"], "answer": ["Ich zeige", "dir", "das Foto"], "audio": "Ich zeige dir das Foto.", "explain": "dir (dativo, pronombre) antes de das Foto (acusativo, sustantivo)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Der Kunde wartet auf die Rechnung.", "accept": ["El cliente espera la factura."], "strictAccents": false, "audio": "Der Kunde wartet auf die Rechnung.", "explain": "warten auf + acusativo: verbo con preposición fija." },
+    { "id": "e12", "type": "dialogue", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Chefin", "text": "Hast du dem Kunden die Rechnung geschickt?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich habe dem Kunden die Rechnung geschickt."], "hint": "responde que sí, con el orden dativo-acusativo" },
+      { "who": "Chefin", "text": "Perfekt, danke!", "speak": true }
+    ], "explain": "Práctica del orden dativo-acusativo en una situación laboral." },
+    { "id": "e13", "type": "listening", "tags": ["orden-objetos"], "difficulty": 1, "speak": "Ich gebe dem Kind das Buch.", "mode": "write", "accept": ["Ich gebe dem Kind das Buch"], "showTextAfter": true, "explain": "Ejemplo clásico del orden dativo-acusativo." },
+    { "id": "e14", "type": "listening", "tags": ["orden-objetos"], "difficulty": 2, "speak": "Der Lehrer erklärt den Schülern die Regel.", "mode": "choose", "options": ["Der Lehrer erklärt den Schülern die Regel.", "Der Lehrer erklärt die Regel den Schülern.", "Der Lehrer erklärt die Schüler der Regel."], "answer": 0, "showTextAfter": true, "explain": "Solo la primera respeta el orden dativo antes que acusativo con sustantivos." },
+    { "id": "e15", "type": "shadowing", "tags": ["orden-objetos"], "difficulty": 2, "speak": "Der Lehrer erklärt den Schülern die Regel, und die Schüler verstehen sie gut.", "es": "El profesor les explica la regla a los alumnos, y los alumnos la entienden bien.", "ipa": "/deːɐ̯ ˈleːʁɐ ɛɐ̯ˈklɛːɐ̯t deːn ˈʃyːlɐn diː ˈʁeːɡl̩ ʊnt diː ˈʃyːlɐ fɛɐ̯ˈʃteːən ziː ɡuːt/", "esApprox": "«der LÉ-rer er-KLÉRT den SHÜ-lern di RÉ-guel, unt di SHÜ-ler fer-SHTÉ-en zi gut»", "focus": "den Schülern (dativo) antes de die Regel (acusativo): el orden fijo con sustantivos.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["orden-objetos"], "difficulty": 2, "speak": "Ich schicke dem Kunden die Rechnung, weil er sie noch nicht hat.", "es": "Le envío la factura al cliente, porque todavía no la tiene.", "ipa": "/ɪç ˈʃɪkə deːm ˈkʊndən diː ˈʁɛçnʊŋ vaɪ̯l eːɐ̯ ziː nɔx nɪçt hat/", "esApprox": "«ich SHÍ-ke dem KÚN-den di RÉCH-nung, vail er zi noch nicht jat»", "focus": "dem Kunden (dativo) antes de die Rechnung (acusativo), con weil mandando hat al final.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Te preguntan si le enviaste la factura al cliente. Di que sí, respetando el orden dativo-acusativo.", "modelAnswer": "Ja, ich habe dem Kunden die Rechnung geschickt.", "alsoValid": ["Ja, ich habe die Rechnung dem Kunden geschickt."], "speak": "Ja, ich habe dem Kunden die Rechnung geschickt.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Clasifica cada objeto: dativo o acusativo", "buckets": ["Dativo", "Acusativo"], "items": [
+      { "text": "dem Kind", "bucket": 0 },
+      { "text": "das Buch", "bucket": 1 },
+      { "text": "der Frau", "bucket": 0 },
+      { "text": "die Fotos", "bucket": 1 },
+      { "text": "den Schülern", "bucket": 0 }
+    ], "explain": "dem Kind, der Frau y den Schülern son dativo; das Buch y die Fotos son acusativo." },
+    { "id": "e19", "type": "error_correction", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich gebe das Buch dem Kind.", "accept": ["Ich gebe dem Kind das Buch"], "audio": "Ich gebe dem Kind das Buch.", "explain": "Con dos sustantivos, el dativo (dem Kind) va antes que el acusativo (das Buch)." },
+    { "id": "e20", "type": "mcq", "tags": ["orden-objetos"], "difficulty": 2, "prompt": "«Die Lehrerin zeigt den Schülern die Fotos und erklärt ihnen die Geschichte dahinter.» ¿En qué orden aparecen los objetos?", "options": ["Acusativo antes que dativo", "Dativo antes que acusativo", "No hay objetos", "Solo hay un objeto"], "answer": 1, "explain": "den Schülern (dativo) va antes de die Fotos (acusativo), como es la regla con sustantivos." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "zeigen", "es": "mostrar", "esApprox": "«TSÁI-guen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "schicken", "es": "enviar", "esApprox": "«SHÍ-ken»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "erklären", "es": "explicar", "esApprox": "«er-KLÉ-ren»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Rechnung", "es": "la factura", "esApprox": "«RÉCH-nung»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Kunde", "es": "el cliente", "esApprox": "«KÚN-de»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Schüler", "es": "el alumno", "esApprox": "«SHÜ-ler»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Der Lehrer erklärt den Schülern die Regel, und die Schüler verstehen sie gut.", "es": "El profesor les explica la regla a los alumnos, y los alumnos la entienden bien.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich schicke dem Kunden die Rechnung, weil er sie noch nicht hat.", "es": "Le envío la factura al cliente, porque todavía no la tiene.", "from": "e16" }
+  ]
+}

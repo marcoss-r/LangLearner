@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-143",
+  "lang": "de",
+  "level": "A2",
+  "order": 143,
+  "title": "En la farmacia y hablar de salud",
+  "objectives": [
+    "Pedir medicamentos y describir síntomas en la farmacia",
+    "Ampliar el vocabulario de salud: das Medikament, das Rezept, die Nebenwirkung",
+    "Mantener una conversación completa sobre un resfriado u otra dolencia común"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "En la farmacia: pedir algo para un síntoma",
+      "body": "En la farmacia (die Apotheke), puedes describir tus síntomas y pedir consejo: «Haben Sie etwas gegen Kopfschmerzen?» (¿Tiene algo para el dolor de cabeza?). Algunos medicamentos necesitan das Rezept (la receta médica); otros están rezeptfrei (sin receta).",
+      "examples": [
+        { "target": "Haben Sie etwas gegen Kopfschmerzen?", "es": "¿Tiene algo para el dolor de cabeza?" },
+        { "target": "Ich habe eine Erkältung und huste viel.", "es": "Tengo un resfriado y toso mucho." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de farmacia y salud",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["das Medikament", "el medicamento"],
+        ["das Rezept", "la receta médica"],
+        ["die Nebenwirkung", "el efecto secundario"],
+        ["die Erkältung", "el resfriado"],
+        ["husten", "toser"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "gegen + acusativo se usa para «un medicamento contra algo»: «etwas gegen Husten» (algo para la tos), «etwas gegen Fieber» (algo para la fiebre). Es una construcción muy útil en la farmacia."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Apotheke", "es": "la farmacia", "ipa": "/apoˈteːkə/", "esApprox": "«a-po-TÉ-ke»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wo ist die nächste Apotheke?", "es": "¿Dónde está la farmacia más cercana?" } },
+    { "id": "v2", "target": "das Medikament", "es": "el medicamento", "ipa": "/medikaˈmɛnt/", "esApprox": "«me-di-ka-MENT»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich brauche ein Medikament.", "es": "Necesito un medicamento." } },
+    { "id": "v3", "target": "das Rezept", "es": "la receta médica", "ipa": "/ʁeˈtsɛpt/", "esApprox": "«re-TSEPT»", "pos": "sustantivo", "gender": "n", "example": { "target": "Brauche ich ein Rezept?", "es": "¿Necesito una receta?" } },
+    { "id": "v4", "target": "die Nebenwirkung", "es": "el efecto secundario", "ipa": "/ˈneːbn̩vɪʁkʊŋ/", "esApprox": "«NÉ-ben-vir-kung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Hat das Nebenwirkungen?", "es": "¿Tiene eso efectos secundarios?" } },
+    { "id": "v5", "target": "die Erkältung", "es": "el resfriado", "ipa": "/ɛɐ̯ˈkɛltʊŋ/", "esApprox": "«er-KÉL-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich habe eine Erkältung.", "es": "Tengo un resfriado." } },
+    { "id": "v6", "target": "husten", "es": "toser", "ipa": "/ˈhuːstn̩/", "esApprox": "«JÚS-ten»", "pos": "verbo", "gender": null, "example": { "target": "Ich huste viel.", "es": "Toso mucho." } },
+    { "id": "v7", "target": "das Fieber", "es": "la fiebre", "ipa": "/ˈfiːbɐ/", "esApprox": "«FÍ-ber»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich habe Fieber.", "es": "Tengo fiebre." } },
+    { "id": "v8", "target": "die Kopfschmerzen", "es": "el dolor de cabeza", "ipa": "/ˈkɔpfʃmɛʁtsn̩/", "esApprox": "«KOPF-shmer-tsen»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "Haben Sie etwas gegen Kopfschmerzen?", "es": "¿Tiene algo para el dolor de cabeza?" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["farmacia"], "difficulty": 1, "prompt": "¿Cómo se dice «la receta médica»?", "options": ["das Medikament", "das Rezept", "die Apotheke", "die Erkältung"], "answer": 1, "explain": "das Rezept = la receta médica." },
+    { "id": "e2", "type": "mcq", "tags": ["salud"], "difficulty": 2, "prompt": "¿Qué preposición se usa para «un medicamento contra algo»?", "options": ["für", "gegen", "mit", "ohne"], "answer": 1, "explain": "etwas gegen + acusativo: algo para/contra un síntoma." },
+    { "id": "e3", "type": "true_false", "tags": ["salud"], "difficulty": 2, "statement": "«die Nebenwirkung» significa «el efecto secundario».", "answer": true, "explain": "die Nebenwirkung = el efecto secundario de un medicamento." },
+    { "id": "e4", "type": "true_false", "tags": ["farmacia"], "difficulty": 2, "statement": "Todos los medicamentos en Alemania necesitan receta médica.", "answer": false, "explain": "Algunos son rezeptfrei (sin receta), como muchos analgésicos comunes." },
+    { "id": "e5", "type": "match_pairs", "tags": ["salud"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Erkältung", "husten", "das Fieber", "die Kopfschmerzen"], "right": ["el resfriado", "toser", "la fiebre", "el dolor de cabeza"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave de salud y síntomas." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["farmacia"], "difficulty": 2, "prompt": "¿Tiene algo para el dolor de cabeza?", "accept": ["Haben Sie etwas gegen Kopfschmerzen?", "Haben Sie etwas gegen Kopfschmerzen"], "hintWords": ["haben Sie etwas gegen Kopfschmerzen"], "strictAccents": false, "audio": "Haben Sie etwas gegen Kopfschmerzen?", "explain": "etwas gegen + acusativo (Kopfschmerzen)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["salud"], "difficulty": 2, "prompt": "Tengo un resfriado y toso mucho.", "accept": ["Ich habe eine Erkältung und huste viel"], "hintWords": ["ich habe eine Erkältung und huste viel"], "strictAccents": false, "audio": "Ich habe eine Erkältung und huste viel.", "explain": "haben + eine Erkältung; husten (verbo simple)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["farmacia"], "difficulty": 2, "prompt": "¿Necesito una receta?", "accept": ["Brauche ich ein Rezept?", "Brauche ich ein Rezept"], "hintWords": ["brauche ich ein Rezept"], "strictAccents": false, "audio": "Brauche ich ein Rezept?", "explain": "brauchen + acusativo (ein Rezept)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["salud"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich habe ___. (fiebre) Hat das ___? (efectos secundarios)", "blanks": [{ "accept": ["Fieber"] }, { "accept": ["Nebenwirkungen"] }], "bank": ["Fieber", "Nebenwirkungen", "Rezept"], "explain": "Fieber (fiebre); Nebenwirkungen (efectos secundarios)." },
+    { "id": "e10", "type": "word_order", "tags": ["farmacia"], "difficulty": 2, "prompt": "Ordena: «¿Dónde está la farmacia más cercana?»", "tokens": ["ist", "die nächste Apotheke", "Wo"], "answer": ["Wo", "ist", "die nächste Apotheke"], "audio": "Wo ist die nächste Apotheke?", "explain": "Wo ist die nächste Apotheke?: pregunta clave para encontrar una farmacia." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["salud"], "difficulty": 2, "prompt": "Hat das Nebenwirkungen?", "accept": ["¿Tiene eso efectos secundarios?"], "strictAccents": false, "audio": "Hat das Nebenwirkungen?", "explain": "die Nebenwirkung = el efecto secundario." },
+    { "id": "e12", "type": "dialogue", "tags": ["farmacia"], "difficulty": 2, "prompt": "Completa la conversación en la farmacia", "turns": [
+      { "who": "Apotheker", "text": "Guten Tag, was kann ich für Sie tun?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Haben Sie etwas gegen Kopfschmerzen?", "Ich habe eine Erkältung."], "hint": "describe tu síntoma o pide algo" },
+      { "who": "Apotheker", "text": "Natürlich, einen Moment bitte.", "speak": true }
+    ], "explain": "Diálogo típico en la farmacia." },
+    { "id": "e13", "type": "listening", "tags": ["farmacia"], "difficulty": 1, "speak": "Haben Sie etwas gegen Kopfschmerzen?", "mode": "write", "accept": ["Haben Sie etwas gegen Kopfschmerzen"], "showTextAfter": true, "explain": "Pregunta clave en la farmacia." },
+    { "id": "e14", "type": "listening", "tags": ["salud"], "difficulty": 2, "speak": "Ich habe eine Erkältung und huste viel.", "mode": "choose", "options": ["Ich habe eine Erkältung und huste viel.", "Ich habe eine Erkältung und höre viel.", "Ich habe eine Erkältung und heiße viel."], "answer": 0, "showTextAfter": true, "explain": "husten (toser) suena distinto de hören (oír) y heißen (llamarse)." },
+    { "id": "e15", "type": "shadowing", "tags": ["salud"], "difficulty": 2, "speak": "Ich habe eine Erkältung, ich huste viel, und ich habe auch Fieber.", "es": "Tengo un resfriado, toso mucho, y también tengo fiebre.", "ipa": "/ɪç ˈhaːbə ˈaɪ̯nə ɛɐ̯ˈkɛltʊŋ ɪç ˈhuːstə fiːl ʊnt ɪç ˈhaːbə aʊ̯x ˈfiːbɐ/", "esApprox": "«ich JÁ-be ÁI-ne er-KÉL-tung, ich JÚS-te fil, unt ich JÁ-be aух FÍ-ber»", "focus": "Tres síntomas encadenados con und: Erkältung, husten, Fieber.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["farmacia"], "difficulty": 2, "speak": "Haben Sie etwas gegen Kopfschmerzen? Brauche ich dafür ein Rezept, oder hat es Nebenwirkungen?", "es": "¿Tiene algo para el dolor de cabeza? ¿Necesito receta para eso, o tiene efectos secundarios?", "ipa": "/ˈhaːbn̩ ziː ˈɛtvas ˈɡeːɡn̩ ˈkɔpfʃmɛʁtsn̩ ˈbʁaʊ̯xə ɪç daˈfyːɐ̯ aɪ̯n ʁeˈtsɛpt ˈoːdɐ hat ɛs ˈneːbn̩vɪʁkʊŋən/", "esApprox": "«JÁ-ben zi ÉT-vas GUÉ-guen KOPF-shmer-tsen? BRÁU-je ich da-FÜR ain re-TSEPT, Ó-der jat es NÉ-ben-vir-kun-guen»", "focus": "gegen Kopfschmerzen y dafür (compuesto da-, clase 118): dos preguntas típicas de farmacia.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["farmacia"], "difficulty": 2, "prompt": "Estás en la farmacia. Pregunta si tienen algo para el dolor de cabeza.", "modelAnswer": "Haben Sie etwas gegen Kopfschmerzen?", "alsoValid": ["Ich brauche etwas gegen Kopfschmerzen."], "speak": "Haben Sie etwas gegen Kopfschmerzen?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["salud"], "difficulty": 2, "prompt": "Clasifica cada palabra: síntoma o lugar/objeto", "buckets": ["Síntoma", "Lugar/objeto"], "items": [
+      { "text": "die Erkältung", "bucket": 0 },
+      { "text": "die Apotheke", "bucket": 1 },
+      { "text": "das Fieber", "bucket": 0 },
+      { "text": "das Rezept", "bucket": 1 }
+    ], "explain": "Erkältung y Fieber son síntomas; Apotheke y Rezept son lugar y documento." },
+    { "id": "e19", "type": "error_correction", "tags": ["farmacia"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Haben Sie etwas für Kopfschmerzen?", "accept": ["Haben Sie etwas gegen Kopfschmerzen?"], "audio": "Haben Sie etwas gegen Kopfschmerzen?", "explain": "«etwas gegen» es la expresión correcta para un medicamento contra un síntoma, no «etwas für»." },
+    { "id": "e20", "type": "mcq", "tags": ["salud"], "difficulty": 2, "prompt": "«Ich habe eine Erkältung, ich huste viel, und ich habe Fieber. Ich gehe in die Apotheke und frage, ob ich ein Rezept brauche.» ¿Qué va a hacer la persona?", "options": ["Ir al médico", "Ir a la farmacia", "Quedarse en casa sin hacer nada", "Llamar a un amigo"], "answer": 1, "explain": "«Ich gehe in die Apotheke» = voy a la farmacia." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Apotheke", "es": "la farmacia", "esApprox": "«a-po-TÉ-ke»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Medikament", "es": "el medicamento", "esApprox": "«me-di-ka-MENT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Rezept", "es": "la receta médica", "esApprox": "«re-TSEPT»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Erkältung", "es": "el resfriado", "esApprox": "«er-KÉL-tung»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "husten", "es": "toser", "esApprox": "«JÚS-ten»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "das Fieber", "es": "la fiebre", "esApprox": "«FÍ-ber»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe eine Erkältung, ich huste viel, und ich habe auch Fieber.", "es": "Tengo un resfriado, toso mucho, y también tengo fiebre.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Haben Sie etwas gegen Kopfschmerzen? Brauche ich dafür ein Rezept, oder hat es Nebenwirkungen?", "es": "¿Tiene algo para el dolor de cabeza? ¿Necesito receta para eso, o tiene efectos secundarios?", "from": "e16" }
+  ]
+}

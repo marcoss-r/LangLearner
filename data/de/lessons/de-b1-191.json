@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-191",
+  "lang": "de",
+  "level": "B1",
+  "order": 191,
+  "title": "Describir un proceso o unas instrucciones con la pasiva",
+  "objectives": [
+    "Encadenar varias frases en pasiva para describir un proceso paso a paso",
+    "Usar marcadores de secuencia (zuerst, dann, danach, zum Schluss) con la pasiva",
+    "Redactar o explicar oralmente una receta o unas instrucciones sencillas en voz pasiva"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La pasiva encadenada: el contexto donde brilla de verdad",
+      "body": "Las instrucciones y recetas son el contexto perfecto para la pasiva: el proceso importa, no quién lo hace. Se encadenan varias frases en pasiva con marcadores de secuencia: «Zuerst wird das Gemüse geschnitten. Dann wird es gekocht. Zum Schluss wird es serviert» (Primero se corta la verdura. Luego se cocina. Por último se sirve).",
+      "examples": [
+        { "target": "Zuerst wird das Gemüse geschnitten.", "es": "Primero se corta la verdura." },
+        { "target": "Zum Schluss wird alles serviert.", "es": "Por último, se sirve todo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Marcadores de secuencia para instrucciones",
+      "headers": ["Marcador", "Significado"],
+      "rows": [
+        ["zuerst", "primero"],
+        ["dann / danach", "luego / después"],
+        ["währenddessen", "mientras tanto"],
+        ["zum Schluss", "por último"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Cada marcador de secuencia ocupa la posición 1, y el verbo (wird/werden) va justo detrás en posición 2, como en cualquier frase alemana: «Zuerst wird...», «Dann wird...», nunca «Zuerst das Gemüse wird...»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "zuerst", "es": "primero", "ipa": "/tsuˈʔeːɐ̯st/", "esApprox": "«tsu-ÉRST»", "pos": "adverbio", "gender": null, "example": { "target": "Zuerst wird das Gemüse geschnitten.", "es": "Primero se corta la verdura." } },
+    { "id": "v2", "target": "danach", "es": "después", "ipa": "/daˈnaːx/", "esApprox": "«da-NACH»", "pos": "adverbio", "gender": null, "example": { "target": "Danach wird alles gemischt.", "es": "Después se mezcla todo." } },
+    { "id": "v3", "target": "währenddessen", "es": "mientras tanto", "ipa": "/ˈvɛːʁənddɛsn̩/", "esApprox": "«VÉ-rend-de-sen»", "pos": "adverbio", "gender": null, "example": { "target": "Währenddessen wird der Ofen vorgeheizt.", "es": "Mientras tanto, se precalienta el horno." } },
+    { "id": "v4", "target": "zum Schluss", "es": "por último", "ipa": "/tsʊm ʃlʊs/", "esApprox": "«tsum shlus»", "pos": "locución adverbial", "gender": null, "example": { "target": "Zum Schluss wird alles serviert.", "es": "Por último, se sirve todo." } },
+    { "id": "v5", "target": "schneiden", "es": "cortar", "ipa": "/ˈʃnaɪ̯dn̩/", "esApprox": "«SHNÁI-den»", "pos": "verbo", "gender": null, "example": { "target": "Das Gemüse wird klein geschnitten.", "es": "La verdura se corta en trozos pequeños." } },
+    { "id": "v6", "target": "mischen", "es": "mezclar", "ipa": "/ˈmɪʃn̩/", "esApprox": "«MÍ-shen»", "pos": "verbo", "gender": null, "example": { "target": "Alles wird gut gemischt.", "es": "Todo se mezcla bien." } },
+    { "id": "v7", "target": "vorheizen", "es": "precalentar", "ipa": "/ˈfoːɐ̯haɪ̯tsn̩/", "esApprox": "«FOR-jait-sen»", "pos": "verbo", "gender": null, "example": { "target": "Der Ofen wird vorgeheizt.", "es": "El horno se precalienta." } },
+    { "id": "v8", "target": "servieren", "es": "servir", "ipa": "/zɛɐ̯ˈviːʁən/", "esApprox": "«zer-VÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Zum Schluss wird alles serviert.", "es": "Por último, se sirve todo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 1, "prompt": "¿Qué posición ocupa el marcador de secuencia (zuerst, dann...)?", "options": ["Posición 2", "Al final", "Posición 1", "No tiene posición fija"], "answer": 2, "explain": "El marcador ocupa la posición 1, y el verbo (wird) va justo detrás." },
+    { "id": "e2", "type": "mcq", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "¿Cuál de estas frases está bien ordenada?", "options": ["Zuerst das Gemüse wird geschnitten.", "Zuerst wird das Gemüse geschnitten.", "Das Gemüse zuerst wird geschnitten.", "Wird zuerst das Gemüse geschnitten."], "answer": 1, "explain": "Zuerst (posición 1) + wird (posición 2) + das Gemüse + geschnitten." },
+    { "id": "e3", "type": "true_false", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "statement": "Las recetas son un contexto típico para encadenar frases en pasiva.", "answer": true, "explain": "El proceso importa más que quién cocina, así que la pasiva es muy natural." },
+    { "id": "e4", "type": "true_false", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "statement": "währenddessen significa «por último».", "answer": false, "explain": "währenddessen significa «mientras tanto»; «por último» es zum Schluss." },
+    { "id": "e5", "type": "match_pairs", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Une cada marcador con su traducción", "left": ["zuerst", "danach", "währenddessen", "zum Schluss"], "right": ["primero", "después", "mientras tanto", "por último"], "answer": [0, 1, 2, 3], "explain": "Cuatro marcadores de secuencia típicos de instrucciones." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Primero se corta la verdura.", "accept": ["Zuerst wird das Gemüse geschnitten"], "hintWords": ["zuerst wird das Gemüse geschnitten"], "strictAccents": false, "audio": "Zuerst wird das Gemüse geschnitten.", "explain": "Zuerst + wird + das Gemüse + geschnitten (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Mientras tanto, se precalienta el horno.", "accept": ["Währenddessen wird der Ofen vorgeheizt"], "hintWords": ["währenddessen wird der Ofen vorgeheizt"], "strictAccents": false, "audio": "Währenddessen wird der Ofen vorgeheizt.", "explain": "Währenddessen + wird + der Ofen + vorgeheizt (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Por último, se sirve todo.", "accept": ["Zum Schluss wird alles serviert"], "hintWords": ["zum Schluss wird alles serviert"], "strictAccents": false, "audio": "Zum Schluss wird alles serviert.", "explain": "Zum Schluss + wird + alles + serviert (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Completa la secuencia de instrucciones", "text": "Zuerst wird das Gemüse geschnitten. ___ wird alles gemischt. ___ wird alles serviert.", "blanks": [{ "accept": ["Danach"] }, { "accept": ["Zum Schluss"] }], "bank": ["Danach", "Zum Schluss", "Zuerst"], "explain": "Danach (segundo paso) y Zum Schluss (último paso)." },
+    { "id": "e10", "type": "word_order", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Ordena: «Todo se mezcla bien»", "tokens": ["gut gemischt", "Alles wird"], "answer": ["Alles wird", "gut gemischt"], "audio": "Alles wird gut gemischt.", "explain": "Alles (sujeto) + wird (posición 2) + gut + gemischt (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Das Gemüse wird klein geschnitten.", "accept": ["La verdura se corta en trozos pequeños."], "strictAccents": false, "audio": "Das Gemüse wird klein geschnitten.", "explain": "wird + klein + geschnitten (final)." },
+    { "id": "e12", "type": "dialogue", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie kocht man dieses Gericht?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Zuerst wird das Gemüse geschnitten, dann wird alles gemischt."], "hint": "describe el proceso con la pasiva y marcadores de secuencia" },
+      { "who": "Lea", "text": "Klingt lecker!", "speak": true }
+    ], "explain": "Uso natural de la pasiva encadenada para explicar una receta." },
+    { "id": "e13", "type": "listening", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 1, "speak": "Zuerst wird das Gemüse geschnitten.", "mode": "write", "accept": ["Zuerst wird das Gemüse geschnitten"], "showTextAfter": true, "explain": "Zuerst + wird + geschnitten." },
+    { "id": "e14", "type": "listening", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "speak": "Danach wird alles gemischt.", "mode": "choose", "options": ["Danach wird alles gemischt.", "Danach alles wird gemischt.", "Alles danach wird gemischt."], "answer": 0, "showTextAfter": true, "explain": "Danach (posición 1) + wird (posición 2) + alles + gemischt." },
+    { "id": "e15", "type": "shadowing", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "speak": "Zuerst wird das Gemüse geschnitten, danach wird alles gemischt, und zum Schluss wird alles serviert.", "es": "Primero se corta la verdura, después se mezcla todo, y por último se sirve todo.", "ipa": "/tsuˈʔeːɐ̯st vɪʁt das ɡəˈmyːzə ɡəˈʃnɪtn̩ daˈnaːx vɪʁt ˈaləs ɡəˈmɪʃt ʊnt tsʊm ʃlʊs vɪʁt ˈaləs zɛɐ̯ˈviːɐ̯t/", "esApprox": "«tsu-ÉRST virt das ge-MIU-ze ge-SHNÍ-ten, da-NACH virt Á-les ge-MISHT, unt tsum shlus virt Á-les zer-VIRT»", "focus": "Tres pasivas encadenadas con marcadores de secuencia: la estructura típica de una receta.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "speak": "Währenddessen wird der Ofen vorgeheizt, damit alles pünktlich fertig wird.", "es": "Mientras tanto, se precalienta el horno, para que todo esté listo puntualmente.", "ipa": "/ˈvɛːʁənddɛsn̩ vɪʁt deːɐ̯ ˈoːfn̩ ˈfoːɐ̯ɡəhaɪ̯tst daˈmɪt ˈaləs ˈpʏŋktlɪç ˈfɛʁtɪç vɪʁt/", "esApprox": "«VÉ-rend-de-sen virt der Ó-fen FOR-ge-jaitst, da-MIT Á-les PÜNKT-lich FÉR-tich virt»", "focus": "währenddessen y damit (repaso de la clase 127): un paso paralelo con su finalidad.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Te piden que expliques cómo se prepara un plato. Empieza con «Primero se corta la verdura».", "modelAnswer": "Zuerst wird das Gemüse geschnitten.", "alsoValid": ["Zuerst wird das Gemüse klein geschnitten."], "speak": "Zuerst wird das Gemüse geschnitten.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Clasifica cada marcador según el momento de la secuencia", "buckets": ["Inicio/paralelo", "Final"], "items": [
+      { "text": "zuerst", "bucket": 0 },
+      { "text": "währenddessen", "bucket": 0 },
+      { "text": "zum Schluss", "bucket": 1 },
+      { "text": "danach", "bucket": 0 }
+    ], "explain": "zuerst, währenddessen y danach marcan pasos intermedios; zum Schluss marca el final." },
+    { "id": "e19", "type": "error_correction", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Zuerst das Gemüse wird geschnitten.", "accept": ["Zuerst wird das Gemüse geschnitten"], "audio": "Zuerst wird das Gemüse geschnitten.", "explain": "wird debe ir justo después de zuerst, en posición 2, antes de das Gemüse." },
+    { "id": "e20", "type": "mcq", "tags": ["voz-pasiva", "instrucciones"], "difficulty": 2, "prompt": "«Zuerst wird das Gemüse geschnitten. Währenddessen wird der Ofen vorgeheizt. Danach wird alles gemischt, und zum Schluss wird alles serviert.» ¿Qué se hace mientras se precalienta el horno?", "options": ["Se sirve la comida", "Se corta la verdura", "Nada, se espera", "Se mezcla todo"], "answer": 1, "explain": "«Zuerst wird das Gemüse geschnitten. Währenddessen...» indica que cortar la verdura ocurre a la vez que se precalienta el horno." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "zuerst", "es": "primero", "esApprox": "«tsu-ÉRST»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "danach", "es": "después", "esApprox": "«da-NACH»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "währenddessen", "es": "mientras tanto", "esApprox": "«VÉ-rend-de-sen»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "zum Schluss", "es": "por último", "esApprox": "«tsum shlus»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "schneiden", "es": "cortar", "esApprox": "«SHNÁI-den»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "mischen", "es": "mezclar", "esApprox": "«MÍ-shen»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Zuerst wird das Gemüse geschnitten, danach wird alles gemischt, und zum Schluss wird alles serviert.", "es": "Primero se corta la verdura, después se mezcla todo, y por último se sirve todo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Währenddessen wird der Ofen vorgeheizt, damit alles pünktlich fertig wird.", "es": "Mientras tanto, se precalienta el horno, para que todo esté listo puntualmente.", "from": "e16" }
+  ]
+}

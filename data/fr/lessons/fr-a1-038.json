@@ -1,0 +1,269 @@
+{
+  "id": "fr-a1-038",
+  "lang": "fr",
+  "level": "A1",
+  "order": 38,
+  "title": "Los días de la semana, los meses y las estaciones",
+  "objectives": [
+    "Nombrar los siete días de la semana y los doce meses del año",
+    "Nombrar las cuatro estaciones y usar en/au según la estación (excepción: au printemps)",
+    "Usar le + día para expresar habitualidad: le lundi = los lunes"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El calendario, palabra a palabra",
+      "body": "En francés, los días de la semana y los meses se escriben en **minúscula**, a diferencia del inglés. La semana empieza el lunes (lundi), no el domingo.",
+      "examples": [
+        { "target": "lundi", "es": "lunes", "note": "minúscula" },
+        { "target": "le lundi, je travaille.", "es": "Los lunes, trabajo.", "note": "le + día = habitualidad" },
+        { "target": "au printemps", "es": "en primavera", "note": "excepción: printemps usa au, no en" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los días, los meses y las estaciones",
+      "headers": ["Categoría", "Francés"],
+      "rows": [
+        ["Días", "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche"],
+        ["Meses", "janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre"],
+        ["Estaciones", "le printemps, l'été, l'automne, l'hiver"]
+      ],
+      "note": "Con las estaciones: au printemps, pero en été, en automne, en hiver. Solo printemps es la excepción."
+    },
+    {
+      "type": "contrast",
+      "title": "Lundi frente a le lundi",
+      "items": [
+        { "wrong": "Confundir lundi (este lunes concreto) con le lundi (los lunes, en general)", "right": "je travaille lundi (este lunes) frente a je travaille le lundi (todos los lunes)", "why": "Sin artículo, el día se refiere a una fecha concreta próxima. Con le delante, se refiere a un hábito que se repite cada semana." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para preguntar qué día es, se dice **Quel jour sommes-nous ?** o, más coloquial, **On est quel jour ?**. Para el mes, **On est en quel mois ?**."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "lundi", "es": "lunes", "ipa": "/lœ̃.di/", "esApprox": "«len-DÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v2", "target": "mardi", "es": "martes", "ipa": "/maʁ.di/", "esApprox": "«mar-DÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v3", "target": "mercredi", "es": "miércoles", "ipa": "/mɛʁ.kʁə.di/", "esApprox": "«mer-kre-DÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v4", "target": "jeudi", "es": "jueves", "ipa": "/ʒø.di/", "esApprox": "«yeu-DÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v5", "target": "vendredi", "es": "viernes", "ipa": "/vɑ̃.dʁə.di/", "esApprox": "«van-dre-DÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v6", "target": "samedi", "es": "sábado", "ipa": "/sam.di/", "esApprox": "«sam-DÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v7", "target": "dimanche", "es": "domingo", "ipa": "/di.mɑ̃ʃ/", "esApprox": "«di-MANSH»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v8", "target": "janvier", "es": "enero", "ipa": "/ʒɑ̃.vje/", "esApprox": "«yan-VIÉ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v9", "target": "juillet", "es": "julio", "ipa": "/ʒɥi.jɛ/", "esApprox": "«yüi-YÉ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v10", "target": "décembre", "es": "diciembre", "ipa": "/de.sɑ̃bʁ/", "esApprox": "«de-SANBR»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v11", "target": "le printemps", "es": "la primavera", "ipa": "/lə pʁɛ̃.tɑ̃/", "esApprox": "«le pren-TAN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v12", "target": "l'été", "es": "el verano", "ipa": "/le.te/", "esApprox": "«le-TÉ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v13", "target": "l'automne", "es": "el otoño", "ipa": "/lo.tɔn/", "esApprox": "«lo-TON»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v14", "target": "l'hiver", "es": "el invierno", "ipa": "/li.vɛʁ/", "esApprox": "«li-VER»", "pos": "sustantivo", "gender": "m" }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["calendario"],
+      "difficulty": 1,
+      "prompt": "¿Qué día es «mercredi»?",
+      "options": ["martes", "miércoles", "jueves", "viernes"],
+      "answer": 1,
+      "explain": "Mercredi = miércoles."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "prompt": "¿Qué estación usa «au» en vez de «en»?",
+      "options": ["l'été", "l'automne", "l'hiver", "le printemps"],
+      "answer": 3,
+      "explain": "Au printemps es la única excepción."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["calendario"],
+      "difficulty": 1,
+      "statement": "En francés, los días de la semana se escriben con mayúscula.",
+      "answer": false,
+      "explain": "Se escriben en minúscula: lundi, mardi..."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO es un día de la semana, a diferencia de las demás?",
+      "options": ["lundi", "janvier", "mardi", "jeudi"],
+      "answer": 1,
+      "explain": "Janvier es un mes; las otras tres son días."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["calendario"],
+      "difficulty": 1,
+      "prompt": "Une cada estación con su preposición",
+      "left": ["le printemps", "l'été", "l'automne", "l'hiver"],
+      "right": ["en hiver", "au printemps", "en été", "en automne"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Au printemps es la excepción; las demás usan en."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "prompt": "Los lunes trabajo, pero los sábados hago deporte.",
+      "accept": ["Le lundi, je travaille, mais le samedi, je fais du sport"],
+      "hintWords": ["le lundi", "le samedi"],
+      "strictAccents": false,
+      "audio": "Le lundi, je travaille, mais le samedi, je fais du sport.",
+      "explain": "Le + día = hábito repetido cada semana."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "prompt": "Prefiero el verano, pero mi hermano prefiere el invierno.",
+      "accept": ["Je préfère l'été, mais mon frère préfère l'hiver"],
+      "hintWords": ["l'été", "l'hiver"],
+      "strictAccents": false,
+      "audio": "Je préfère l'été, mais mon frère préfère l'hiver.",
+      "explain": "L'été y l'hiver, dos estaciones que empiezan por vocal."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "prompt": "Completa con la estación correcta",
+      "text": "Il fait beau ___ printemps.",
+      "blanks": [{ "accept": ["au"] }],
+      "bank": ["au", "en", "à la"],
+      "explain": "Au printemps: la única excepción entre las estaciones."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Trabajo los lunes y los miércoles»",
+      "tokens": ["mercredi", "Je", "le lundi", "et le", "travaille"],
+      "answer": ["Je", "travaille", "le lundi", "et le", "mercredi"],
+      "audio": "Je travaille le lundi et le mercredi.",
+      "explain": "Le lundi et le mercredi, dos días con hábito."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["calendario"],
+      "difficulty": 1,
+      "prompt": "Mon anniversaire est en décembre, en hiver.",
+      "accept": ["Mi cumpleaños es en diciembre, en invierno."],
+      "strictAccents": false,
+      "audio": "Mon anniversaire est en décembre, en hiver.",
+      "explain": "En + mes y en + estación (salvo printemps)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu horario",
+      "turns": [
+        { "who": "Léa", "text": "Tu travailles le samedi ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, je travaille le lundi.", "Oui, le samedi et le dimanche."], "hint": "di qué días trabajas" },
+        { "who": "Léa", "text": "D'accord, et tu préfères quelle saison ?", "speak": true }
+      ],
+      "explain": "Le + día para hablar de tu horario habitual."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "speak": "Je préfère l'été, mais mon frère préfère l'automne.",
+      "mode": "write",
+      "accept": ["Je préfère l'été, mais mon frère préfère l'automne"],
+      "showTextAfter": true,
+      "explain": "L'été y l'automne, ambos con l' delante de vocal."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["calendario"],
+      "difficulty": 1,
+      "speak": "dimanche",
+      "mode": "choose",
+      "options": ["dimanche", "samedi", "lundi", "vendredi"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Dimanche = domingo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["calendario"],
+      "difficulty": 3,
+      "speak": "Lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche.",
+      "es": "Lunes, martes, miércoles, jueves, viernes, sábado, domingo.",
+      "ipa": "/lœ̃.di maʁ.di mɛʁ.kʁə.di ʒø.di vɑ̃.dʁə.di sam.di di.mɑ̃ʃ/",
+      "esApprox": "«len-DÍ mar-DÍ mer-kre-DÍ yeu-DÍ van-dre-DÍ sam-DÍ di-MANSH»",
+      "focus": "Los siete días seguidos, con el mismo ritmo: casi todos acaban en «-di».",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "prompt": "Di qué días trabajas y qué estación prefieres.",
+      "modelAnswer": "Je travaille le lundi et je préfère l'été.",
+      "alsoValid": ["Je travaille le samedi, je préfère le printemps."],
+      "speak": "Je travaille le lundi et je préfère l'été.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["calendario"],
+      "difficulty": 1,
+      "prompt": "¿Es un día, un mes o una estación?",
+      "buckets": ["Día", "Mes", "Estación"],
+      "items": [
+        { "text": "lundi", "bucket": 0 },
+        { "text": "janvier", "bucket": 1 },
+        { "text": "l'été", "bucket": 2 },
+        { "text": "jeudi", "bucket": 0 },
+        { "text": "décembre", "bucket": 1 },
+        { "text": "l'hiver", "bucket": 2 }
+      ],
+      "explain": "Días, meses y estaciones: tres categorías del calendario."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "prompt": "Hay un error de preposición. Corrige la frase entera.",
+      "wrong": "Il fait froid en printemps.",
+      "accept": ["Il fait froid au printemps"],
+      "audio": "Il fait froid au printemps.",
+      "explain": "Printemps es la única estación que usa au, no en."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "lundi", "es": "lunes", "esApprox": "«len-DÍ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "mercredi", "es": "miércoles", "esApprox": "«mer-kre-DÍ»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "dimanche", "es": "domingo", "esApprox": "«di-MANSH»", "from": "v7" },
+    { "id": "s4", "kind": "word", "target": "janvier", "es": "enero", "esApprox": "«yan-VIÉ»", "from": "v8" },
+    { "id": "s5", "kind": "word", "target": "le printemps", "es": "la primavera", "esApprox": "«le pren-TAN»", "from": "v11" },
+    { "id": "s6", "kind": "word", "target": "l'été", "es": "el verano", "esApprox": "«le-TÉ»", "from": "v12" },
+    { "id": "s7", "kind": "word", "target": "l'hiver", "es": "el invierno", "esApprox": "«li-VER»", "from": "v14" },
+    { "id": "s8", "kind": "phrase", "target": "Le lundi, je travaille, mais le samedi, je fais du sport.", "es": "Los lunes trabajo, pero los sábados hago deporte.", "from": "e6" },
+    { "id": "s9", "kind": "phrase", "target": "Lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche.", "es": "Lunes, martes, miércoles, jueves, viernes, sábado, domingo.", "from": "e14" }
+  ]
+}

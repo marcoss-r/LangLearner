@@ -1,0 +1,80 @@
+{
+  "id": "de-a2-174",
+  "lang": "de",
+  "level": "A2",
+  "order": 174,
+  "title": "Repaso activo XV: tiempos verbales y partículas modales",
+  "objectives": [
+    "Repasar el Futur I, el Präteritum narrativo y el Konjunktiv II de las clases 153-162",
+    "Consolidar los verbos reflexivos y el imperativo ampliado de las clases 163-165",
+    "Repasar las partículas modales, las expresiones con es y el pronombre man de las clases 166-169"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Sin gramática nueva: repaso de los dos últimos bloques del A2",
+      "body": "Esta clase no introduce ningún contenido nuevo. Repasa todo lo que da riqueza y naturalidad a tu alemán: los tres registros temporales (futuro, pasado narrativo, condicional), los reflexivos, el imperativo aplicado a ellos, y los recursos que hacen sonar natural una conversación: partículas modales, es impersonal y man."
+    },
+    {
+      "type": "table",
+      "title": "Los dos bloques repasados",
+      "headers": ["Clases", "Contenido clave"],
+      "rows": [
+        ["153-162", "Futur I, Präteritum narrativo y sus verbos frecuentes, Konjunktiv II (wäre/hätte/würde), cortesía y deseos irreales"],
+        ["163-169", "Reflexivos con acusativo y dativo, imperativo con reflexivos, partículas modales (doch/mal/ja/denn), es impersonal, man"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Estos dos bloques son los que más «suenan a nativo»: dominar el Konjunktiv II para pedir las cosas con educación y usar partículas modales como doch o denn es lo que distingue un alemán correcto de un alemán natural."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "werden", "es": "(auxiliar del futuro), convertirse en", "ipa": "/ˈveːɐ̯dn̩/", "esApprox": "«VÉR-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich werde nach Berlin fahren.", "es": "Iré a Berlín." } },
+    { "id": "v2", "target": "hätte", "es": "tendría", "ipa": "/ˈhɛtə/", "esApprox": "«JÉ-te»", "pos": "verbo (Konjunktiv II de haben)", "gender": null, "example": { "target": "Ich hätte gern einen Kaffee.", "es": "Quisiera un café." } },
+    { "id": "v3", "target": "könnte", "es": "podría", "ipa": "/ˈkœntə/", "esApprox": "«KÖN-te»", "pos": "verbo (Konjunktiv II de können)", "gender": null, "example": { "target": "Könnte ich bitte das Fenster öffnen?", "es": "¿Podría abrir la ventana, por favor?" } },
+    { "id": "v4", "target": "sich freuen", "es": "alegrarse", "ipa": "/zɪç ˈfʁɔɪ̯ən/", "esApprox": "«zich FRÓI-en»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich freue mich auf die Ferien.", "es": "Me alegro por las vacaciones." } },
+    { "id": "v5", "target": "sich waschen", "es": "lavarse", "ipa": "/zɪç ˈvaʃn̩/", "esApprox": "«zich VÁ-shen»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich wasche mir die Hände.", "es": "Me lavo las manos." } },
+    { "id": "v6", "target": "doch", "es": "(partícula: insistencia, contradicción)", "ipa": "/dɔx/", "esApprox": "«doj»", "pos": "partícula modal", "gender": null, "example": { "target": "Komm doch mit!", "es": "¡Ven ya, anda!" } },
+    { "id": "v7", "target": "es gibt", "es": "hay", "ipa": "/ɛs ɡɪpt/", "esApprox": "«es guipt»", "pos": "locución impersonal", "gender": null, "example": { "target": "Es gibt viele Cafés hier.", "es": "Hay muchos cafés aquí." } },
+    { "id": "v8", "target": "man", "es": "se, uno (impersonal)", "ipa": "/man/", "esApprox": "«man»", "pos": "pronombre indefinido", "gender": null, "example": { "target": "Man darf hier nicht rauchen.", "es": "No se puede fumar aquí." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["repaso"], "difficulty": 1, "prompt": "¿Cuál es la forma de werden para «du»?", "options": ["werde", "wirst", "wird", "werdet"], "answer": 1, "explain": "Repaso de la clase 153." },
+    { "id": "e2", "type": "mcq", "tags": ["repaso"], "difficulty": 2, "prompt": "¿Qué pasa con el pronombre reflexivo en el imperativo de du?", "options": ["Desaparece", "Se mantiene", "Cambia a sich", "Va antes del verbo"], "answer": 1, "explain": "Repaso de la clase 165: Beeil dich!" },
+    { "id": "e3", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "man se conjuga siempre como er/sie/es.", "answer": true, "explain": "Repaso de la clase 169." },
+    { "id": "e4", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "«Könnte ich...?» es menos educado que «Kann ich...?».", "answer": false, "explain": "Repaso de la clase 160: könnte es más educado que kann." },
+    { "id": "e5", "type": "match_pairs", "tags": ["repaso"], "difficulty": 2, "prompt": "Une cada verbo con su Konjunktiv II", "left": ["sein", "haben", "werden", "können"], "right": ["wäre", "hätte", "würde", "könnte"], "answer": [0, 1, 2, 3], "explain": "Repaso de las clases 158 y 160." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "Me alegro por las vacaciones.", "accept": ["Ich freue mich auf die Ferien"], "hintWords": ["ich freue mich auf die Ferien"], "strictAccents": false, "audio": "Ich freue mich auf die Ferien.", "explain": "Repaso de la clase 163." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "Me lavo las manos.", "accept": ["Ich wasche mir die Hände"], "hintWords": ["ich wasche mir die Hände"], "strictAccents": false, "audio": "Ich wasche mir die Hände.", "explain": "Repaso de la clase 164." },
+    { "id": "e8", "type": "fill_blank", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "___ ich bitte das Fenster öffnen? ___ hier nicht rauchen. (man)", "blanks": [{ "accept": ["Könnte"] }, { "accept": ["Man darf"] }], "bank": ["Könnte", "Man darf", "Kann"], "explain": "Repaso de las clases 160 y 169." },
+    { "id": "e9", "type": "word_order", "tags": ["repaso"], "difficulty": 2, "prompt": "Ordena: «¡Date prisa!»", "tokens": ["dich!", "Beeil"], "answer": ["Beeil", "dich!"], "audio": "Beeil dich!", "explain": "Repaso de la clase 165: imperativo reflexivo." },
+    { "id": "e10", "type": "translate_to_es", "tags": ["repaso"], "difficulty": 2, "prompt": "Es gibt viele Cafés hier.", "accept": ["Hay muchos cafés aquí."], "strictAccents": false, "audio": "Es gibt viele Cafés hier.", "explain": "Repaso de la clase 168." },
+    { "id": "e11", "type": "dialogue", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Kellner", "text": "Was hätten Sie gern?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich hätte gern einen Kaffee."], "hint": "pide algo con Konjunktiv II" },
+      { "who": "Kellner", "text": "Kommt sofort!", "speak": true }
+    ], "explain": "Repaso de la clase 158." },
+    { "id": "e12", "type": "listening", "tags": ["repaso"], "difficulty": 1, "speak": "Ich werde nach Berlin fahren.", "mode": "write", "accept": ["Ich werde nach Berlin fahren"], "showTextAfter": true, "explain": "Repaso de la clase 153." },
+    { "id": "e13", "type": "listening", "tags": ["repaso"], "difficulty": 2, "speak": "Komm doch mit!", "mode": "choose", "options": ["Komm doch mit!", "Doch komm mit!", "Komm mal doch mit!"], "answer": 0, "showTextAfter": true, "explain": "Repaso de la clase 166: doch va después del verbo, no al principio." },
+    { "id": "e14", "type": "shadowing", "tags": ["repaso"], "difficulty": 2, "speak": "Ich werde irgendwann nach Japan reisen, aber ich wünschte, ich hätte schon jetzt mehr Zeit dafür.", "es": "Algún día viajaré a Japón, pero ojalá ya tuviera ahora más tiempo para ello.", "ipa": "/ɪç ˈveːɐ̯də ˈɪʁɡn̩tvan naːx ˈjaːpan ˈʁaɪ̯zn̩ ˈaːbɐ ɪç ˈvʏnʃtə ɪç ˈhɛtə ʃoːn jɛtst meːɐ̯ tsaɪ̯t daˈfyːɐ̯/", "esApprox": "«ich VÉR-de ÍR-guent-van nach YÁ-pan RÁI-zen, Á-ber ich VÜNSH-te ich JÉ-te shon yetst mer tsait da-FIUR»", "focus": "Repaso de las clases 153 y 161: werde (Futur I) junto a wünschte...hätte (deseo irreal).", "selfAssess": true },
+    { "id": "e15", "type": "speak_prompt", "tags": ["repaso"], "difficulty": 2, "prompt": "Alguien te pregunta cómo te sientes hoy. Responde que te sientes bien.", "modelAnswer": "Ich fühle mich gut.", "alsoValid": ["Mir geht es gut."], "speak": "Ich fühle mich gut.", "selfAssess": true },
+    { "id": "e16", "type": "categorize", "tags": ["repaso"], "difficulty": 2, "prompt": "Clasifica cada frase según su bloque", "buckets": ["Tiempos verbales", "Reflexivos/naturalidad"], "items": [
+      { "text": "Ich werde nach Berlin fahren.", "bucket": 0 },
+      { "text": "Ich hätte gern einen Kaffee.", "bucket": 0 },
+      { "text": "Ich freue mich auf die Ferien.", "bucket": 1 },
+      { "text": "Man darf hier nicht rauchen.", "bucket": 1 }
+    ], "explain": "Repaso general de los dos bloques de esta clase." },
+    { "id": "e17", "type": "error_correction", "tags": ["repaso"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Er interessiert dich für Musik.", "accept": ["Er interessiert sich für Musik"], "audio": "Er interessiert sich für Musik.", "explain": "Repaso de la clase 163: con er, el reflexivo es sich, no dich." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "werden", "es": "(auxiliar del futuro), convertirse en", "esApprox": "«VÉR-den»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "hätte", "es": "tendría", "esApprox": "«JÉ-te»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "könnte", "es": "podría", "esApprox": "«KÖN-te»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "sich freuen", "es": "alegrarse", "esApprox": "«zich FRÓI-en»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "sich waschen", "es": "lavarse", "esApprox": "«zich VÁ-shen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "doch", "es": "(partícula: insistencia, contradicción)", "esApprox": "«doj»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "man", "es": "se, uno (impersonal)", "esApprox": "«man»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Ich werde irgendwann nach Japan reisen, aber ich wünschte, ich hätte schon jetzt mehr Zeit dafür.", "es": "Algún día viajaré a Japón, pero ojalá ya tuviera ahora más tiempo para ello.", "from": "e14" }
+  ]
+}

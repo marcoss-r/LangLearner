@@ -1,0 +1,260 @@
+{
+  "id": "fr-a1-065",
+  "lang": "fr",
+  "level": "A1",
+  "order": 65,
+  "title": "El cuerpo humano",
+  "objectives": [
+    "Nombrar las partes del cuerpo: la tête, les mains, les jambes, le dos, le ventre",
+    "Usar avoir + parte del cuerpo para describir (clase 27)",
+    "Preparar el vocabulario necesario para hablar de dolores en la clase 66"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario del cuerpo",
+      "body": "Ya conoces les yeux y les cheveux (clase 27) para describir a una persona. Ahora amplías el vocabulario a todo el cuerpo.",
+      "examples": [
+        { "target": "J'ai les mains froides et les pieds froids aussi.", "es": "Tengo las manos frías y los pies fríos también.", "note": "avoir + parte del cuerpo + adjetivo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del cuerpo",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["la tête", "la cabeza"],
+        ["le nez", "la nariz"],
+        ["la bouche", "la boca"],
+        ["les oreilles", "las orejas"],
+        ["les mains", "las manos"],
+        ["les bras", "los brazos"],
+        ["les jambes", "las piernas"],
+        ["les pieds", "los pies"],
+        ["le dos", "la espalda"],
+        ["le ventre", "el vientre, la barriga"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En la clase 66 verás cómo usar avoir mal à + parte del cuerpo para decir que algo te duele: j'ai mal à la tête (me duele la cabeza)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la tête", "es": "la cabeza", "ipa": "/la tɛt/", "esApprox": "«la TET»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'ai mal à la tête.", "es": "Me duele la cabeza." } },
+    { "id": "v2", "target": "le nez", "es": "la nariz", "ipa": "/lə ne/", "esApprox": "«le NÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il a un grand nez.", "es": "Tiene una nariz grande." } },
+    { "id": "v3", "target": "la bouche", "es": "la boca", "ipa": "/la buʃ/", "esApprox": "«la BUSH»", "pos": "sustantivo", "gender": "f", "example": { "target": "Elle a une petite bouche.", "es": "Tiene una boca pequeña." } },
+    { "id": "v4", "target": "les oreilles", "es": "las orejas", "ipa": "/le.z‿ɔ.ʁɛj/", "esApprox": "«le-zo-REY»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'ai mal aux oreilles.", "es": "Me duelen los oídos." } },
+    { "id": "v5", "target": "les mains", "es": "las manos", "ipa": "/le mɛ̃/", "esApprox": "«le MEN»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'ai les mains froides.", "es": "Tengo las manos frías." } },
+    { "id": "v6", "target": "les jambes", "es": "las piernas", "ipa": "/le ʒɑ̃b/", "esApprox": "«le YAMB»", "pos": "sustantivo", "gender": "f", "example": { "target": "Il a de longues jambes.", "es": "Tiene las piernas largas." } },
+    { "id": "v7", "target": "les pieds", "es": "los pies", "ipa": "/le pje/", "esApprox": "«le PIÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai les pieds froids.", "es": "Tengo los pies fríos." } },
+    { "id": "v8", "target": "le dos", "es": "la espalda", "ipa": "/lə do/", "esApprox": "«le DÓ»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai mal au dos.", "es": "Me duele la espalda." } },
+    { "id": "v9", "target": "le ventre", "es": "el vientre, la barriga", "ipa": "/lə vɑ̃tʁ/", "esApprox": "«le VANTR»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai mal au ventre.", "es": "Me duele la barriga." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «la cabeza»?",
+      "options": ["le dos", "la tête", "le ventre", "les mains"],
+      "answer": 1,
+      "explain": "La tête = la cabeza."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «las piernas»?",
+      "options": ["les bras", "les pieds", "les jambes", "les mains"],
+      "answer": 2,
+      "explain": "Les jambes = las piernas."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "statement": "Le nez y la bouche están en la tête.",
+      "answer": true,
+      "explain": "El nez (nariz) y la bouche (boca) forman parte de la tête."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas partes no está en la cara?",
+      "options": ["le nez", "la bouche", "les oreilles", "les pieds"],
+      "answer": 3,
+      "explain": "Les pieds (los pies) no están en la cara."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["le dos", "le ventre", "les mains", "les oreilles"],
+      "right": ["las orejas", "las manos", "la espalda", "el vientre"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Dos = espalda, ventre = vientre, mains = manos, oreilles = orejas."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Tengo las manos y los pies fríos.",
+      "accept": ["J'ai les mains et les pieds froids"],
+      "hintWords": ["j'ai les mains", "les pieds froids"],
+      "strictAccents": false,
+      "audio": "J'ai les mains et les pieds froids.",
+      "explain": "Avoir + partes del cuerpo + adjetivo (clase 27)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Tiene la nariz grande y las orejas pequeñas.",
+      "accept": ["Il a un grand nez et de petites oreilles"],
+      "hintWords": ["il a un grand nez", "de petites oreilles"],
+      "strictAccents": false,
+      "audio": "Il a un grand nez et de petites oreilles.",
+      "explain": "Avoir + un/une + adjetivo antes del sustantivo (grand, petit, clase 27)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Completa con la parte del cuerpo correcta",
+      "text": "Pour marcher, j'utilise mes ___ et mes ___.",
+      "blanks": [{ "accept": ["jambes"] }, { "accept": ["pieds"] }],
+      "bank": ["jambes", "pieds", "mains"],
+      "explain": "Para caminar se usan las piernas y los pies."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tiene la espalda y el vientre grandes»",
+      "tokens": ["grands", "le dos et le ventre", "Il a"],
+      "answer": ["Il a", "le dos et le ventre", "grands"],
+      "audio": "Il a le dos et le ventre grands.",
+      "explain": "Il a + dos sustantivos + adjetivo plural al final."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "prompt": "Elle a une petite bouche et un petit nez.",
+      "accept": ["Tiene una boca pequeña y una nariz pequeña."],
+      "strictAccents": false,
+      "audio": "Elle a une petite bouche et un petit nez.",
+      "explain": "Avoir + une/un + petit(e) + sustantivo."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el cuerpo",
+      "turns": [
+        { "who": "Léa", "text": "Tu as froid ? Tes mains sont froides ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai les mains froides.", "Non, j'ai les mains chaudes."], "hint": "responde sobre tus manos" },
+        { "who": "Léa", "text": "D'accord, on rentre.", "speak": true }
+      ],
+      "explain": "Avoir + parte del cuerpo + adjetivo, en preguntas y respuestas."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "speak": "J'ai les yeux bleus, les cheveux longs et de grandes mains.",
+      "mode": "write",
+      "accept": ["J'ai les yeux bleus, les cheveux longs et de grandes mains"],
+      "showTextAfter": true,
+      "explain": "Descripción física combinando la clase 27 con las nuevas partes del cuerpo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "speak": "les jambes",
+      "mode": "choose",
+      "options": ["les bras", "les jambes", "les pieds", "les mains"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Les jambes = las piernas."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["cuerpo"],
+      "difficulty": 3,
+      "speak": "J'ai une grande tête, un petit nez, de grandes oreilles et de longues jambes.",
+      "es": "Tengo la cabeza grande, la nariz pequeña, las orejas grandes y las piernas largas.",
+      "ipa": "/ʒe yn ɡʁɑ̃d tɛt œ̃ pə.ti ne də ɡʁɑ̃.dz‿ɔ.ʁɛj e də lɔ̃.ɡ ʒɑ̃b/",
+      "esApprox": "«ye ün GRAND TET un peti NÉ de GRAND-zo-REY e de LONG YAMB»",
+      "focus": "Descripción del cuerpo completa con varios adjetivos y partes.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Describe tu cuerpo: tu cabeza, tus manos, tus piernas.",
+      "modelAnswer": "J'ai une petite tête, de grandes mains et de longues jambes.",
+      "alsoValid": ["J'ai les pieds froids et les mains chaudes."],
+      "speak": "J'ai une petite tête, de grandes mains et de longues jambes.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "prompt": "¿Está en la cabeza o en el resto del cuerpo?",
+      "buckets": ["Cabeza", "Resto del cuerpo"],
+      "items": [
+        { "text": "le nez", "bucket": 0 },
+        { "text": "les jambes", "bucket": 1 },
+        { "text": "la bouche", "bucket": 0 },
+        { "text": "le dos", "bucket": 1 },
+        { "text": "les oreilles", "bucket": 0 },
+        { "text": "les pieds", "bucket": 1 }
+      ],
+      "explain": "Nez, bouche y oreilles están en la cabeza; jambes, dos y pieds están en el resto del cuerpo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Hay un error de género. Corrige la frase entera.",
+      "wrong": "J'ai un grande tête.",
+      "accept": ["J'ai une grande tête"],
+      "audio": "J'ai une grande tête.",
+      "explain": "Tête es femenino: une grande tête."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la tête", "es": "la cabeza", "esApprox": "«la TET»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le nez", "es": "la nariz", "esApprox": "«le NÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "la bouche", "es": "la boca", "esApprox": "«la BUSH»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "les mains", "es": "las manos", "esApprox": "«le MEN»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "les jambes", "es": "las piernas", "esApprox": "«le YAMB»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "le dos", "es": "la espalda", "esApprox": "«le DÓ»", "from": "v8" },
+    { "id": "s7", "kind": "word", "target": "le ventre", "es": "el vientre, la barriga", "esApprox": "«le VANTR»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai les mains et les pieds froids.", "es": "Tengo las manos y los pies fríos.", "from": "e6" }
+  ]
+}

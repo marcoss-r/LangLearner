@@ -1,0 +1,359 @@
+{
+  "id": "de-a1-029",
+  "lang": "de",
+  "level": "A1",
+  "order": 29,
+  "title": "Los verbos separables",
+  "objectives": [
+    "Reconocer los verbos separables: en una oración principal, el prefijo se separa y va al final de la frase",
+    "Aplicar el patrón con cuatro verbos frecuentes: aufstehen, einkaufen, fernsehen, anrufen",
+    "Identificar un verbo separable por su acento tónico, que recae siempre en el prefijo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un verbo que se parte en dos, con el prefijo al final",
+      "body": "Muchos verbos alemanes se forman añadiendo un prefijo a un verbo base: aufstehen (auf + stehen), einkaufen (ein + kaufen), fernsehen (fern + sehen), anrufen (an + rufen). En el infinitivo van pegados, pero al conjugarlos en una oración principal, el prefijo se separa y salta al final de la frase, mientras que la parte conjugada se queda en su sitio, en segunda posición.",
+      "examples": [
+        { "target": "aufstehen → Ich stehe auf.", "es": "levantarse → Me levanto.", "note": "auf salta al final" },
+        { "target": "einkaufen → Ich kaufe ein.", "es": "ir de compras → Voy de compras.", "note": "ein salta al final" },
+        { "target": "anrufen → Er ruft dich an.", "es": "llamar por teléfono → Él te llama.", "note": "an salta al final, después incluso de dich" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cuatro verbos separables frecuentes",
+      "headers": ["Infinitivo", "Prefijo", "Ejemplo en frase"],
+      "rows": [
+        ["aufstehen (levantarse)", "auf-", "Ich stehe auf."],
+        ["einkaufen (ir de compras)", "ein-", "Ich kaufe ein."],
+        ["fernsehen (ver la tele)", "fern-", "Ich sehe fern."],
+        ["anrufen (llamar por teléfono)", "an-", "Ich rufe an."]
+      ],
+      "note": "El verbo conjugado (stehe, kaufe, sehe, rufe) sigue en segunda posición; solo el prefijo se mueve al final."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: no dejes el prefijo pegado al conjugar",
+      "items": [
+        { "wrong": "Ich aufstehe früh. (dejando el verbo entero sin separar)", "right": "Ich stehe früh auf.", "why": "En una oración principal, el prefijo SIEMPRE se separa y va al final. Dejarlo pegado, como en el infinitivo, es uno de los errores más comunes de quien empieza con verbos separables." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco para reconocer un verbo separable: en el diccionario o al escucharlo aislado, el acento tónico cae siempre en el prefijo: AUFstehen, EINkaufen, FERNsehen, ANrufen. Si el acento va al principio, es señal de que ese prefijo se va a separar."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "aufstehen",
+      "es": "levantarse",
+      "ipa": "/ˈaʊ̯fˌʃteːən/",
+      "esApprox": "«AUF-shte-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich stehe früh auf.", "es": "Me levanto temprano." }
+    },
+    {
+      "id": "v2",
+      "target": "einkaufen",
+      "es": "ir de compras, comprar",
+      "ipa": "/ˈaɪ̯nˌkaʊ̯fən/",
+      "esApprox": "«AIN-kau-fen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich kaufe ein.", "es": "Voy de compras." }
+    },
+    {
+      "id": "v3",
+      "target": "fernsehen",
+      "es": "ver la televisión",
+      "ipa": "/ˈfɛʁnˌzeːən/",
+      "esApprox": "«FERN-ze-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Er sieht fern.", "es": "Él ve la televisión." }
+    },
+    {
+      "id": "v4",
+      "target": "anrufen",
+      "es": "llamar por teléfono",
+      "ipa": "/ˈanˌʁuːfən/",
+      "esApprox": "«AN-ru-fen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Sie ruft an.", "es": "Ella llama por teléfono." }
+    },
+    {
+      "id": "v5",
+      "target": "der Supermarkt",
+      "es": "el supermercado",
+      "ipa": "/ˈzuːpɐmaʁkt/",
+      "esApprox": "«ZÚ-per-markt»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Supermärkte",
+      "example": { "target": "Der Supermarkt ist modern.", "es": "El supermercado es moderno." }
+    },
+    {
+      "id": "v6",
+      "target": "der Fernseher",
+      "es": "el televisor",
+      "ipa": "/ˈfɛʁnˌzeːɐ/",
+      "esApprox": "«FERN-ze-er»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Fernseher",
+      "example": { "target": "Der Fernseher ist neu.", "es": "El televisor es nuevo." }
+    },
+    {
+      "id": "v7",
+      "target": "früh",
+      "es": "temprano",
+      "ipa": "/fʁyː/",
+      "esApprox": "«frü»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Ich stehe früh auf.", "es": "Me levanto temprano." }
+    },
+    {
+      "id": "v8",
+      "target": "spät",
+      "es": "tarde",
+      "ipa": "/ʃpɛːt/",
+      "esApprox": "«shpet»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Ich stehe spät auf.", "es": "Me levanto tarde." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "¿Dónde va el prefijo de un verbo separable en una oración principal?",
+      "options": ["Antes del verbo", "Pegado al verbo", "Al final de la frase", "Desaparece"],
+      "answer": 2,
+      "explain": "El prefijo se separa y salta al final: Ich stehe auf."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["separables"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma correcta de «aufstehen» con «ich»?",
+      "options": ["Ich aufstehe.", "Ich stehe auf.", "Ich aufstehe hier.", "Ich stehe."],
+      "answer": 1,
+      "explain": "Ich stehe auf: verbo en segunda posición, prefijo al final."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["separables"],
+      "difficulty": 1,
+      "statement": "En los verbos separables, el prefijo lleva el acento tónico.",
+      "answer": true,
+      "explain": "AUFstehen, EINkaufen: el acento va siempre en el prefijo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["separables"],
+      "difficulty": 1,
+      "statement": "«Einkaufen» significa «ver la televisión».",
+      "answer": false,
+      "explain": "Einkaufen significa «ir de compras»; «ver la televisión» es fernsehen."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases NO separa correctamente el prefijo?",
+      "options": ["Ich stehe auf.", "Ich kaufe ein.", "Ich anrufe dich.", "Ich sehe fern."],
+      "answer": 2,
+      "explain": "Debería ser Ich rufe dich an: el prefijo an- tiene que ir al final."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["separables"],
+      "difficulty": 1,
+      "prompt": "Une cada verbo con su significado",
+      "left": ["aufstehen", "einkaufen", "fernsehen", "anrufen"],
+      "right": ["levantarse", "ir de compras", "ver la tele", "llamar por teléfono"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro verbos separables muy frecuentes en el día a día."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "Me levanto.",
+      "accept": ["Ich stehe auf"],
+      "hintWords": ["ich stehe", "auf"],
+      "strictAccents": false,
+      "audio": "Ich stehe auf.",
+      "explain": "aufstehen se separa: stehe (posición 2) + auf (final)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "Voy de compras.",
+      "accept": ["Ich kaufe ein"],
+      "hintWords": ["ich kaufe", "ein"],
+      "strictAccents": false,
+      "audio": "Ich kaufe ein.",
+      "explain": "einkaufen se separa: kaufe (posición 2) + ein (final)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "Completa con el prefijo correcto",
+      "text": "Ich stehe früh ___. Ich rufe dich ___.",
+      "blanks": [{ "accept": ["auf"] }, { "accept": ["an"] }],
+      "bank": ["auf", "an", "ein"],
+      "explain": "auf- de aufstehen; an- de anrufen."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Veo la tele»",
+      "tokens": ["fern", "Ich", "sehe"],
+      "answer": ["Ich", "sehe", "fern"],
+      "audio": "Ich sehe fern.",
+      "explain": "fernsehen se separa: sehe (posición 2) + fern (final)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["separables"],
+      "difficulty": 1,
+      "prompt": "Er ruft dich an.",
+      "accept": ["Él te llama.", "Él te llama por teléfono."],
+      "strictAccents": false,
+      "audio": "Er ruft dich an.",
+      "explain": "an- salta al final, incluso después del pronombre dich."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Stehst du früh auf?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich stehe früh auf."], "hint": "responde que sí, que te levantas temprano" },
+        { "who": "Anna", "text": "Ich auch!", "speak": true }
+      ],
+      "explain": "stehst...auf: el prefijo se separa también en la pregunta."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["separables"],
+      "difficulty": 1,
+      "speak": "Ich stehe auf.",
+      "mode": "write",
+      "accept": ["Ich stehe auf"],
+      "showTextAfter": true,
+      "explain": "Ich stehe auf = me levanto."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "speak": "Ich kaufe ein.",
+      "mode": "choose",
+      "options": ["Ich kaufe ein.", "Ich sehe fern.", "Ich rufe an."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "kaufe, sehe y rufe son verbos distintos: escucha bien el verbo conjugado."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "speak": "Ich stehe früh auf, und ich kaufe ein.",
+      "es": "Me levanto temprano, y voy de compras.",
+      "ipa": "/ɪç ˈʃteːə fʁyː aʊ̯f ʊnt ɪç ˈkaʊ̯fə aɪ̯n/",
+      "esApprox": "«ich SHTÉ-e frü auf unt ich KAU-fe ain»",
+      "focus": "Los prefijos auf y ein llevan una pequeña pausa antes, como si fueran casi otra palabra.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "speak": "Er sieht fern, und sie ruft an.",
+      "es": "Él ve la tele, y ella llama por teléfono.",
+      "ipa": "/eːɐ̯ ziːt fɛʁn ʊnt ziː ʁuːft an/",
+      "esApprox": "«er zit fern unt zi ruft an»",
+      "focus": "sieht y ruft llevan el acento en la sílaba conjugada; fern y an, al final, también se pronuncian con claridad.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si te levantas temprano. Responde que sí, que te levantas temprano.",
+      "modelAnswer": "Ja, ich stehe früh auf.",
+      "alsoValid": ["Ich stehe früh auf."],
+      "speak": "Ja, ich stehe früh auf.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada verbo: ¿es separable o no?",
+      "buckets": ["Verbo separable", "Verbo no separable"],
+      "items": [
+        { "text": "aufstehen", "bucket": 0 },
+        { "text": "einkaufen", "bucket": 0 },
+        { "text": "fernsehen", "bucket": 0 },
+        { "text": "sprechen", "bucket": 1 },
+        { "text": "haben", "bucket": 1 }
+      ],
+      "explain": "sprechen y haben no tienen prefijo separable: se conjugan enteros, sin partirse."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["separables"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich aufstehe früh.",
+      "accept": ["Ich stehe früh auf"],
+      "audio": "Ich stehe früh auf.",
+      "explain": "El prefijo auf tiene que separarse e ir al final de la frase."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "aufstehen", "es": "levantarse", "esApprox": "«AUF-shte-en»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "einkaufen", "es": "ir de compras", "esApprox": "«AIN-kau-fen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "fernsehen", "es": "ver la televisión", "esApprox": "«FERN-ze-en»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "anrufen", "es": "llamar por teléfono", "esApprox": "«AN-ru-fen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Supermarkt", "es": "el supermercado", "esApprox": "«ZÚ-per-markt»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Fernseher", "es": "el televisor", "esApprox": "«FERN-ze-er»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "früh", "es": "temprano", "esApprox": "«frü»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "spät", "es": "tarde", "esApprox": "«shpet»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich stehe früh auf, und ich kaufe ein.", "es": "Me levanto temprano, y voy de compras.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Er sieht fern, und sie ruft an.", "es": "Él ve la tele, y ella llama por teléfono.", "from": "e16" }
+  ]
+}

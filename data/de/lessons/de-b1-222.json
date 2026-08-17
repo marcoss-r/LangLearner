@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-222",
+  "lang": "de",
+  "level": "B1",
+  "order": 222,
+  "title": "La salud y el sistema sanitario",
+  "objectives": [
+    "Aprender vocabulario sobre el sistema sanitario alemán: die Krankenkasse, der Facharzt, die Überweisung",
+    "Hablar de bajas laborales y citas médicas con precisión",
+    "Distinguir der Hausarzt (médico de cabecera) de der Facharzt (especialista)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El sistema sanitario alemán: vocabulario clave",
+      "body": "En Alemania, «die Krankenkasse» (la caja del seguro médico) gestiona «die Krankenversicherung» (el seguro de enfermedad), obligatorio para todos. Normalmente vas primero al «Hausarzt» (médico de cabecera), y si hace falta, te da «eine Überweisung» (una derivación) al «Facharzt» (médico especialista). Si estás enfermo para trabajar, necesitas «eine Krankmeldung» (un parte de baja).",
+      "examples": [
+        { "target": "Ich brauche eine Überweisung zum Facharzt.", "es": "Necesito una derivación al especialista." },
+        { "target": "Der Arzt hat mich krankgeschrieben.", "es": "El médico me ha dado de baja." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario clave del sistema sanitario",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["die Krankenkasse", "la caja del seguro médico"],
+        ["die Krankenversicherung", "el seguro de enfermedad"],
+        ["der Hausarzt", "el médico de cabecera"],
+        ["der Facharzt", "el médico especialista"],
+        ["die Überweisung", "la derivación (a un especialista)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "sich krankschreiben lassen (hacerse dar de baja) es un verbo reflexivo separable muy útil: «Ich habe mich krankschreiben lassen» (Me he hecho dar de baja). El sustantivo relacionado es die Krankmeldung (el parte de baja)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Krankenkasse", "es": "la caja del seguro médico", "ipa": "/ˈkʁaŋkn̩kasə/", "esApprox": "«KRÁN-ken-ka-se»", "pos": "sustantivo", "gender": "f", "example": { "target": "Meine Krankenkasse übernimmt die Kosten.", "es": "Mi caja del seguro médico cubre los costes." } },
+    { "id": "v2", "target": "die Krankenversicherung", "es": "el seguro de enfermedad", "ipa": "/ˈkʁaŋkn̩fɛɐ̯zɪçəʁʊŋ/", "esApprox": "«KRÁN-ken-fer-zi-che-rung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Krankenversicherung ist Pflicht.", "es": "El seguro de enfermedad es obligatorio." } },
+    { "id": "v3", "target": "der Hausarzt", "es": "el médico de cabecera", "ipa": "/ˈhaʊ̯sʔaːɐ̯tst/", "esApprox": "«JÁUS-artst»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe einen Termin beim Hausarzt.", "es": "Tengo una cita con el médico de cabecera." } },
+    { "id": "v4", "target": "der Facharzt", "es": "el médico especialista", "ipa": "/ˈfaxʔaːɐ̯tst/", "esApprox": "«FACH-artst»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich brauche eine Überweisung zum Facharzt.", "es": "Necesito una derivación al especialista." } },
+    { "id": "v5", "target": "die Überweisung", "es": "la derivación (a un especialista)", "ipa": "/ˈyːbɐvaɪ̯zʊŋ/", "esApprox": "«IU-ber-vai-zung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Der Hausarzt gibt mir eine Überweisung.", "es": "El médico de cabecera me da una derivación." } },
+    { "id": "v6", "target": "sich krankschreiben lassen", "es": "hacerse dar de baja", "ipa": "/zɪç ˈkʁaŋkʃʁaɪ̯bn̩ ˈlasn̩/", "esApprox": "«zich KRÁNK-shrai-ben LÁ-sen»", "pos": "locución verbal", "gender": null, "example": { "target": "Ich habe mich krankschreiben lassen.", "es": "Me he hecho dar de baja." } },
+    { "id": "v7", "target": "die Krankmeldung", "es": "el parte de baja", "ipa": "/ˈkʁaŋkmɛldʊŋ/", "esApprox": "«KRANK-mel-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich schicke die Krankmeldung an meine Firma.", "es": "Envío el parte de baja a mi empresa." } },
+    { "id": "v8", "target": "der Notfall", "es": "la urgencia, la emergencia", "ipa": "/ˈnoːtfal/", "esApprox": "«NOT-fal»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein medizinischer Notfall.", "es": "Eso es una urgencia médica." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["salud"], "difficulty": 1, "prompt": "¿Cómo se dice «el médico de cabecera»?", "options": ["der Facharzt", "der Hausarzt", "die Krankenkasse", "die Überweisung"], "answer": 1, "explain": "der Hausarzt = el médico de cabecera." },
+    { "id": "e2", "type": "mcq", "tags": ["salud"], "difficulty": 2, "prompt": "¿Qué necesitas para ir a un especialista sin pagar de más?", "options": ["Una Krankmeldung", "Una Überweisung", "Un Notfall", "Una Krankenkasse"], "answer": 1, "explain": "die Überweisung: la derivación del médico de cabecera al especialista." },
+    { "id": "e3", "type": "true_false", "tags": ["salud"], "difficulty": 2, "statement": "die Krankenversicherung es obligatoria en Alemania.", "answer": true, "explain": "Pflicht = obligatoria; el seguro de enfermedad es obligatorio para todos." },
+    { "id": "e4", "type": "true_false", "tags": ["salud"], "difficulty": 2, "statement": "die Krankmeldung es lo mismo que die Krankenkasse.", "answer": false, "explain": "die Krankmeldung es el parte de baja; die Krankenkasse es la entidad del seguro médico." },
+    { "id": "e5", "type": "match_pairs", "tags": ["salud"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Krankenkasse", "der Facharzt", "die Krankmeldung", "der Notfall"], "right": ["la caja del seguro médico", "el médico especialista", "el parte de baja", "la urgencia"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["salud"], "difficulty": 2, "prompt": "Necesito una derivación al especialista.", "accept": ["Ich brauche eine Überweisung zum Facharzt"], "hintWords": ["ich brauche eine Überweisung zum Facharzt"], "strictAccents": false, "audio": "Ich brauche eine Überweisung zum Facharzt.", "explain": "brauche + eine Überweisung + zum Facharzt." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["salud"], "difficulty": 2, "prompt": "El médico me ha dado de baja.", "accept": ["Der Arzt hat mich krankgeschrieben"], "hintWords": ["der Arzt hat mich krankgeschrieben"], "strictAccents": false, "audio": "Der Arzt hat mich krankgeschrieben.", "explain": "hat + mich + krankgeschrieben (final, Perfekt de krankschreiben)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["salud"], "difficulty": 2, "prompt": "Eso es una urgencia médica.", "accept": ["Das ist ein medizinischer Notfall"], "hintWords": ["das ist ein medizinischer Notfall"], "strictAccents": false, "audio": "Das ist ein medizinischer Notfall.", "explain": "ein medizinischer Notfall (masculino, declinado)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["salud"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich habe einen Termin beim ___. Ich schicke die ___ an meine Firma.", "blanks": [{ "accept": ["Hausarzt"] }, { "accept": ["Krankmeldung"] }], "bank": ["Hausarzt", "Krankmeldung", "Facharzt"], "explain": "der Hausarzt y die Krankmeldung." },
+    { "id": "e10", "type": "word_order", "tags": ["salud"], "difficulty": 2, "prompt": "Ordena: «Mi caja del seguro médico cubre los costes»", "tokens": ["übernimmt die Kosten", "Meine Krankenkasse"], "answer": ["Meine Krankenkasse", "übernimmt die Kosten"], "audio": "Meine Krankenkasse übernimmt die Kosten.", "explain": "Meine Krankenkasse (sujeto) + übernimmt (posición 2) + die Kosten." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["salud"], "difficulty": 2, "prompt": "Die Krankenversicherung ist Pflicht.", "accept": ["El seguro de enfermedad es obligatorio."], "strictAccents": false, "audio": "Die Krankenversicherung ist Pflicht.", "explain": "Pflicht = obligatorio, obligación." },
+    { "id": "e12", "type": "dialogue", "tags": ["salud"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Arzt", "text": "Sie brauchen eine Überweisung zum Facharzt.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Okay, und können Sie mich auch krankschreiben?"], "hint": "pide también un parte de baja" },
+      { "who": "Arzt", "text": "Natürlich, kein Problem.", "speak": true }
+    ], "explain": "sich krankschreiben lassen: petición típica en una consulta médica." },
+    { "id": "e13", "type": "listening", "tags": ["salud"], "difficulty": 1, "speak": "Ich brauche eine Überweisung zum Facharzt.", "mode": "write", "accept": ["Ich brauche eine Überweisung zum Facharzt"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["salud"], "difficulty": 2, "speak": "Der Arzt hat mich krankgeschrieben.", "mode": "choose", "options": ["Der Arzt hat mich krankgeschrieben.", "Der Arzt hat mich krank geschrieben Notfall.", "Der Arzt hat mich Krankmeldung."], "answer": 0, "showTextAfter": true, "explain": "krankschreiben es un verbo separable: hat...krankgeschrieben." },
+    { "id": "e15", "type": "shadowing", "tags": ["salud"], "difficulty": 2, "speak": "Der Hausarzt hat mir eine Überweisung zum Facharzt gegeben, und meine Krankenkasse übernimmt die Kosten.", "es": "El médico de cabecera me ha dado una derivación al especialista, y mi caja del seguro médico cubre los costes.", "ipa": "/deːɐ̯ ˈhaʊ̯sʔaːɐ̯tst hat miːɐ̯ ˈaɪ̯nə ˈyːbɐvaɪ̯zʊŋ tsʊm ˈfaxʔaːɐ̯tst ɡəˈɡeːbn̩ ʊnt ˈmaɪ̯nə ˈkʁaŋkn̩kasə ˈyːbɐnɪmt diː ˈkɔstn̩/", "esApprox": "«der JÁUS-artst jat mir ÁI-ne IU-ber-vai-zung tsum FACH-artst ge-GUÉ-ben, unt MÁI-ne KRÁN-ken-ka-se IU-ber-nimt di KÓS-ten»", "focus": "Hausarzt, Facharzt y Krankenkasse: el recorrido completo por el sistema sanitario alemán.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["salud"], "difficulty": 2, "speak": "Ich habe mich krankschreiben lassen, und ich schicke die Krankmeldung noch heute an meine Firma.", "es": "Me he hecho dar de baja, y envío el parte de baja hoy mismo a mi empresa.", "ipa": "/ɪç ˈhaːbə mɪç ˈkʁaŋkʃʁaɪ̯bn̩ ˈlasn̩ ʊnt ɪç ˈʃɪkə diː ˈkʁaŋkmɛldʊŋ nɔx ˈhɔɪ̯tə an ˈmaɪ̯nə ˈfɪʁma/", "esApprox": "«ich JÁ-be mich KRÁNK-shrai-ben LÁ-sen, unt ich SHÍ-ke di KRANK-mel-dung noj JÓI-te an MÁI-ne FIR-ma»", "focus": "krankschreiben lassen y die Krankmeldung: los dos pasos del proceso de baja laboral.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["salud"], "difficulty": 2, "prompt": "Le explicas al médico que necesitas una derivación al especialista.", "modelAnswer": "Ich brauche eine Überweisung zum Facharzt.", "alsoValid": ["Ich bräuchte eine Überweisung zum Facharzt."], "speak": "Ich brauche eine Überweisung zum Facharzt.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["salud"], "difficulty": 2, "prompt": "Clasifica cada palabra según su función", "buckets": ["Persona (médico/entidad)", "Documento/proceso"], "items": [
+      { "text": "der Hausarzt", "bucket": 0 },
+      { "text": "die Krankenkasse", "bucket": 0 },
+      { "text": "die Überweisung", "bucket": 1 },
+      { "text": "die Krankmeldung", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario del sistema sanitario." },
+    { "id": "e19", "type": "error_correction", "tags": ["salud"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich brauche eine Krankmeldung zum Facharzt.", "accept": ["Ich brauche eine Überweisung zum Facharzt"], "audio": "Ich brauche eine Überweisung zum Facharzt.", "explain": "Para ir a un especialista se necesita eine Überweisung (derivación), no eine Krankmeldung (parte de baja)." },
+    { "id": "e20", "type": "mcq", "tags": ["salud"], "difficulty": 2, "prompt": "«Der Hausarzt hat mir eine Überweisung zum Facharzt gegeben. Ich habe mich außerdem krankschreiben lassen und schicke die Krankmeldung heute an meine Firma.» ¿Qué dos trámites hizo la persona en la consulta?", "options": ["Solo pedir una derivación", "Pedir una derivación y hacerse dar de baja", "Solo darse de baja", "Cambiar de caja del seguro médico"], "answer": 1, "explain": "El texto menciona ambos trámites: la Überweisung y krankschreiben lassen." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Krankenkasse", "es": "la caja del seguro médico", "esApprox": "«KRÁN-ken-ka-se»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Krankenversicherung", "es": "el seguro de enfermedad", "esApprox": "«KRÁN-ken-fer-zi-che-rung»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Hausarzt", "es": "el médico de cabecera", "esApprox": "«JÁUS-artst»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Facharzt", "es": "el médico especialista", "esApprox": "«FACH-artst»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Überweisung", "es": "la derivación (a un especialista)", "esApprox": "«IU-ber-vai-zung»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "sich krankschreiben lassen", "es": "hacerse dar de baja", "esApprox": "«zich KRÁNK-shrai-ben LÁ-sen»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Der Hausarzt hat mir eine Überweisung zum Facharzt gegeben, und meine Krankenkasse übernimmt die Kosten.", "es": "El médico de cabecera me ha dado una derivación al especialista, y mi caja del seguro médico cubre los costes.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich habe mich krankschreiben lassen, und ich schicke die Krankmeldung noch heute an meine Firma.", "es": "Me he hecho dar de baja, y envío el parte de baja hoy mismo a mi empresa.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-169",
+  "lang": "de",
+  "level": "A2",
+  "order": 169,
+  "title": "El pronombre man: hablar en general sin decir quién",
+  "objectives": [
+    "Conjugar verbos con man como si fuera una tercera persona del singular",
+    "Usar man para generalizaciones, instrucciones y normas sociales",
+    "Distinguir man (pronombre) de der Mann (el hombre), aunque suenan igual"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "man: «se» o «uno», sin especificar quién",
+      "body": "Ya usaste man de forma puntual desde la clase 61. Ahora formalizas su uso: man es un pronombre indefinido que se traduce como «se» o «uno», y se usa para hablar en general, sin decir exactamente quién hace la acción: reglas, costumbres, instrucciones. Se conjuga siempre como er/sie/es. «In Deutschland isst man pünktlich zu Abend» (En Alemania se cena puntualmente).",
+      "examples": [
+        { "target": "Man darf hier nicht rauchen.", "es": "No se puede fumar aquí." },
+        { "target": "Wie sagt man das auf Deutsch?", "es": "¿Cómo se dice eso en alemán?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "man con distintos verbos (siempre como er/sie/es)",
+      "headers": ["Verbo", "Con man"],
+      "rows": [
+        ["sagen", "man sagt"],
+        ["dürfen", "man darf"],
+        ["können", "man kann"],
+        ["muss (müssen)", "man muss"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "man nunca lleva mayúscula salvo al inicio de frase, y no debe confundirse con der Mann (el hombre): «Man sagt...» (Se dice...) frente a «Der Mann sagt...» (El hombre dice...)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "man", "es": "se, uno (impersonal)", "ipa": "/man/", "esApprox": "«man»", "pos": "pronombre indefinido", "gender": null, "example": { "target": "Man darf hier nicht rauchen.", "es": "No se puede fumar aquí." } },
+    { "id": "v2", "target": "rauchen", "es": "fumar", "ipa": "/ˈʁaʊ̯xn̩/", "esApprox": "«RÁU-jen»", "pos": "verbo", "gender": null, "example": { "target": "Man darf hier nicht rauchen.", "es": "No se puede fumar aquí." } },
+    { "id": "v3", "target": "die Regel", "es": "la regla", "ipa": "/ˈʁeːɡl̩/", "esApprox": "«RÉ-guel»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine wichtige Regel.", "es": "Esa es una regla importante." } },
+    { "id": "v4", "target": "üblich", "es": "habitual, común", "ipa": "/ˈyːplɪç/", "esApprox": "«IÚP-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist hier üblich.", "es": "Eso es habitual aquí." } },
+    { "id": "v5", "target": "die Gewohnheit", "es": "la costumbre", "ipa": "/ɡəˈvoːnhaɪ̯t/", "esApprox": "«ge-VÓN-jait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine deutsche Gewohnheit.", "es": "Esa es una costumbre alemana." } },
+    { "id": "v6", "target": "pünktlich", "es": "puntual", "ipa": "/ˈpʏŋktlɪç/", "esApprox": "«PÜNKT-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "In Deutschland isst man pünktlich zu Abend.", "es": "En Alemania se cena puntualmente." } },
+    { "id": "v7", "target": "verboten", "es": "prohibido", "ipa": "/fɛɐ̯ˈboːtn̩/", "esApprox": "«fer-BÓ-ten»", "pos": "adjetivo", "gender": null, "example": { "target": "Rauchen ist hier verboten.", "es": "Fumar está prohibido aquí." } },
+    { "id": "v8", "target": "erlaubt", "es": "permitido", "ipa": "/ɛɐ̯ˈlaʊ̯pt/", "esApprox": "«er-LAUPT»", "pos": "adjetivo", "gender": null, "example": { "target": "Hier ist das nicht erlaubt.", "es": "Aquí eso no está permitido." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["man"], "difficulty": 1, "prompt": "¿Cómo se conjuga el verbo con «man»?", "options": ["como ich", "como du", "como er/sie/es", "como wir"], "answer": 2, "explain": "man se conjuga siempre como la tercera persona del singular." },
+    { "id": "e2", "type": "mcq", "tags": ["man"], "difficulty": 2, "prompt": "¿Qué significa «man»?", "options": ["El hombre", "Se, uno (impersonal)", "Ellos", "Nosotros"], "answer": 1, "explain": "man es un pronombre indefinido, no debe confundirse con der Mann." },
+    { "id": "e3", "type": "true_false", "tags": ["man"], "difficulty": 2, "statement": "«man» se escribe con mayúscula en medio de la frase.", "answer": false, "explain": "man se escribe siempre en minúscula, salvo al inicio de frase (por ser la primera palabra)." },
+    { "id": "e4", "type": "true_false", "tags": ["man"], "difficulty": 2, "statement": "«Man sagt...» y «Der Mann sagt...» significan lo mismo.", "answer": false, "explain": "Man sagt = se dice (impersonal); Der Mann sagt = el hombre dice (persona concreta)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["man"], "difficulty": 2, "prompt": "Une cada verbo con su forma con man", "left": ["sagen", "dürfen", "können", "müssen"], "right": ["man sagt", "man darf", "man kann", "man muss"], "answer": [0, 1, 2, 3], "explain": "man se conjuga como er/sie/es en cada verbo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["man"], "difficulty": 2, "prompt": "No se puede fumar aquí.", "accept": ["Man darf hier nicht rauchen"], "hintWords": ["man darf hier nicht rauchen"], "strictAccents": false, "audio": "Man darf hier nicht rauchen.", "explain": "Man darf + hier + nicht + rauchen (infinitivo al final, con el modal)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["man"], "difficulty": 2, "prompt": "¿Cómo se dice eso en alemán?", "accept": ["Wie sagt man das auf Deutsch?"], "hintWords": ["wie sagt man das auf Deutsch"], "strictAccents": false, "audio": "Wie sagt man das auf Deutsch?", "explain": "Wie (posición 1) + sagt (posición 2) + man + das + auf Deutsch." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["man"], "difficulty": 2, "prompt": "En Alemania se cena puntualmente.", "accept": ["In Deutschland isst man pünktlich zu Abend"], "hintWords": ["in Deutschland isst man pünktlich zu Abend"], "strictAccents": false, "audio": "In Deutschland isst man pünktlich zu Abend.", "explain": "In Deutschland (posición 1) + isst (posición 2) + man + pünktlich + zu Abend." },
+    { "id": "e9", "type": "fill_blank", "tags": ["man"], "difficulty": 2, "prompt": "Completa con la forma correcta de man + verbo", "text": "___ hier nicht rauchen. (dürfen) Wie ___ das auf Deutsch? (sagen)", "blanks": [{ "accept": ["Man darf"] }, { "accept": ["sagt man"] }], "bank": ["Man darf", "sagt man", "man sagt"], "explain": "Man darf (posición 1+2); Wie sagt man...? (pregunta con W-Frage)." },
+    { "id": "e10", "type": "word_order", "tags": ["man"], "difficulty": 2, "prompt": "Ordena: «Fumar está prohibido aquí»", "tokens": ["ist hier verboten", "Rauchen"], "answer": ["Rauchen", "ist hier verboten"], "audio": "Rauchen ist hier verboten.", "explain": "Rauchen (sustantivo verbal, sujeto) + ist + hier + verboten." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["man"], "difficulty": 2, "prompt": "Das ist eine deutsche Gewohnheit.", "accept": ["Esa es una costumbre alemana."], "strictAccents": false, "audio": "Das ist eine deutsche Gewohnheit.", "explain": "die Gewohnheit = la costumbre." },
+    { "id": "e12", "type": "dialogue", "tags": ["man"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Darf man hier rauchen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nein, man darf hier nicht rauchen."], "hint": "responde con man y darf" },
+      { "who": "Lea", "text": "Ah, verstanden!", "speak": true }
+    ], "explain": "man darf + nicht: norma impersonal." },
+    { "id": "e13", "type": "listening", "tags": ["man"], "difficulty": 1, "speak": "Man darf hier nicht rauchen.", "mode": "write", "accept": ["Man darf hier nicht rauchen"], "showTextAfter": true, "explain": "Man darf + nicht + rauchen." },
+    { "id": "e14", "type": "listening", "tags": ["man"], "difficulty": 2, "speak": "Wie sagt man das auf Deutsch?", "mode": "choose", "options": ["Wie sagt man das auf Deutsch?", "Wie sagt der Mann das auf Deutsch?", "Wie sagen man das auf Deutsch?"], "answer": 0, "showTextAfter": true, "explain": "sagt (tercera persona singular) + man: la forma correcta, no confundir con der Mann." },
+    { "id": "e15", "type": "shadowing", "tags": ["man"], "difficulty": 2, "speak": "In Deutschland isst man pünktlich zu Abend, und man darf in vielen Restaurants nicht rauchen.", "es": "En Alemania se cena puntualmente, y en muchos restaurantes no se puede fumar.", "ipa": "/ɪn ˈdɔɪ̯tʃlant ɪst man ˈpʏŋktlɪç tsuː ˈaːbn̩t ʊnt man daʁf ɪn ˈfiːlən ʁɛstoˈʁaːs nɪçt ˈʁaʊ̯xn̩/", "esApprox": "«in DÓICH-lant ist man PÜNKT-lich tsu Á-bent, unt man darf in FÍ-len res-to-RAS nicht RÁU-jen»", "focus": "isst man y man darf: dos usos de man con verbos distintos en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["man"], "difficulty": 2, "speak": "Wie sagt man das auf Deutsch? Das ist eine wichtige Regel, die man sich merken muss.", "es": "¿Cómo se dice eso en alemán? Esa es una regla importante que hay que memorizar.", "ipa": "/viː zaːkt man das aʊ̯f ˈdɔɪ̯tʃ das ɪst ˈaɪ̯nə ˈvɪçtɪɡə ˈʁeːɡl̩ diː man zɪç ˈmɛʁkn̩ mʊs/", "esApprox": "«vi zakt man das auf DÓICH, das ist ÁI-ne VICH-ti-ge RÉ-guel, di man zich MÉR-ken mus»", "focus": "sagt man y die man sich merken muss: man combinado con un reflexivo (clase 164).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["man"], "difficulty": 2, "prompt": "Alguien te pregunta si se puede fumar aquí. Responde que no está permitido.", "modelAnswer": "Nein, man darf hier nicht rauchen.", "alsoValid": ["Nein, das ist hier verboten."], "speak": "Nein, man darf hier nicht rauchen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["man"], "difficulty": 2, "prompt": "Clasifica: man (impersonal) o der Mann (persona)", "buckets": ["man (impersonal)", "der Mann (persona)"], "items": [
+      { "text": "Man sagt, dass...", "bucket": 0 },
+      { "text": "Der Mann arbeitet hier.", "bucket": 1 },
+      { "text": "Wie sagt man das?", "bucket": 0 }
+    ], "explain": "man es un pronombre indefinido; der Mann es un sustantivo concreto (el hombre)." },
+    { "id": "e19", "type": "error_correction", "tags": ["man"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Man dürfen hier nicht rauchen.", "accept": ["Man darf hier nicht rauchen"], "audio": "Man darf hier nicht rauchen.", "explain": "man se conjuga como er/sie/es: man darf, no man dürfen." },
+    { "id": "e20", "type": "mcq", "tags": ["man"], "difficulty": 2, "prompt": "«In Deutschland isst man pünktlich zu Abend. Man darf in vielen Restaurants nicht rauchen, und das ist eine übliche Regel.» ¿Qué describe esta frase?", "options": ["Reglas personales de alguien", "Costumbres y normas generales en Alemania", "Una orden concreta", "Una opinión personal"], "answer": 1, "explain": "El uso de man describe costumbres y normas generales, sin referirse a nadie en particular." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "man", "es": "se, uno (impersonal)", "esApprox": "«man»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "rauchen", "es": "fumar", "esApprox": "«RÁU-jen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Regel", "es": "la regla", "esApprox": "«RÉ-guel»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Gewohnheit", "es": "la costumbre", "esApprox": "«ge-VÓN-jait»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "verboten", "es": "prohibido", "esApprox": "«fer-BÓ-ten»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "erlaubt", "es": "permitido", "esApprox": "«er-LAUPT»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "In Deutschland isst man pünktlich zu Abend, und man darf in vielen Restaurants nicht rauchen.", "es": "En Alemania se cena puntualmente, y en muchos restaurantes no se puede fumar.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wie sagt man das auf Deutsch? Das ist eine wichtige Regel, die man sich merken muss.", "es": "¿Cómo se dice eso en alemán? Esa es una regla importante que hay que memorizar.", "from": "e16" }
+  ]
+}

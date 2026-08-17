@@ -1,0 +1,265 @@
+{
+  "id": "fr-a1-053",
+  "lang": "fr",
+  "level": "A1",
+  "order": 53,
+  "title": "Los medios de transporte",
+  "objectives": [
+    "Nombrar los medios de transporte más frecuentes: bus, métro, train, vélo, voiture",
+    "Usar en + medio de transporte (en bus, en voiture) frente a à pied",
+    "Preguntar y decir cómo te desplazas normalmente"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "En bus, en voiture... pero à pied",
+      "body": "Para decir cómo te desplazas, casi todos los medios de transporte usan **en**: en bus, en métro, en voiture. La excepción es ir caminando: **à pied** (a pie), no «en pied».",
+      "examples": [
+        { "target": "Je vais au travail en métro.", "es": "Voy al trabajo en metro.", "note": "en + transporte" },
+        { "target": "J'habite près, je vais à pied.", "es": "Vivo cerca, voy a pie.", "note": "à pied, excepción" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los medios de transporte",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["le bus", "el autobús"],
+        ["le métro", "el metro"],
+        ["le train", "el tren"],
+        ["le vélo", "la bicicleta"],
+        ["la voiture", "el coche"],
+        ["à pied", "a pie"],
+        ["l'arrêt de bus", "la parada de autobús"]
+      ],
+      "note": "Ya conoces la gare (estación de tren, clase 51). L'arrêt de bus es la parada de autobús, distinta de la gare."
+    },
+    {
+      "type": "contrast",
+      "title": "En vélo o à vélo: las dos existen",
+      "items": [
+        { "wrong": "Pensar que solo hay una forma correcta", "right": "en vélo y à vélo se usan las dos en francés hablado", "why": "A diferencia de otros medios de transporte, con vélo (y moto) el francés acepta tanto en como à: je vais en vélo / à vélo, las dos son correctas y muy usadas." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para preguntar cómo se desplaza alguien, se usa comment: «Comment tu vas au travail ?» (¿Cómo vas al trabajo?) se responde con en + medio de transporte o à pied."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le bus", "es": "el autobús", "ipa": "/lə bys/", "esApprox": "«le BÜS»", "pos": "sustantivo", "gender": "m", "plural": "les bus", "example": { "target": "Je prends le bus le matin.", "es": "Cojo el autobús por la mañana." } },
+    { "id": "v2", "target": "le métro", "es": "el metro", "ipa": "/lə me.tʁo/", "esApprox": "«le me-TRÓ»", "pos": "sustantivo", "gender": "m", "plural": "les métros", "example": { "target": "Je vais au travail en métro.", "es": "Voy al trabajo en metro." } },
+    { "id": "v3", "target": "le train", "es": "el tren", "ipa": "/lə tʁɛ̃/", "esApprox": "«le TREN»", "pos": "sustantivo", "gender": "m", "plural": "les trains", "example": { "target": "Le train arrive à la gare.", "es": "El tren llega a la estación." } },
+    { "id": "v4", "target": "le vélo", "es": "la bicicleta", "ipa": "/lə ve.lo/", "esApprox": "«le ve-LÓ»", "pos": "sustantivo", "gender": "m", "plural": "les vélos", "example": { "target": "Je vais à l'école en vélo.", "es": "Voy al colegio en bici." } },
+    { "id": "v5", "target": "la voiture", "es": "el coche", "ipa": "/la vwa.tyʁ/", "esApprox": "«la vuá-TÜR»", "pos": "sustantivo", "gender": "f", "plural": "les voitures", "example": { "target": "Nous allons en voiture.", "es": "Vamos en coche." } },
+    { "id": "v6", "target": "à pied", "es": "a pie", "ipa": "/a pje/", "esApprox": "«a PIÉ»", "pos": "expresión", "gender": null, "example": { "target": "J'habite près, je vais à pied.", "es": "Vivo cerca, voy a pie." } },
+    { "id": "v7", "target": "l'arrêt de bus", "es": "la parada de autobús", "ipa": "/la.ʁɛ də bys/", "esApprox": "«la-RÉ de BÜS»", "pos": "sustantivo", "gender": "m", "plural": "les arrêts de bus", "example": { "target": "L'arrêt de bus est devant l'école.", "es": "La parada de autobús está delante del colegio." } },
+    { "id": "v8", "target": "comment (tu vas...) ?", "es": "¿cómo (vas...)?", "ipa": "/kɔ.mɑ̃/", "esApprox": "«ko-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "Comment tu vas au travail ?", "es": "¿Cómo vas al trabajo?" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «a pie»?",
+      "options": ["en pied", "à pied", "en marche", "à marche"],
+      "answer": 1,
+      "explain": "À pied es la excepción: no se dice en pied."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «en coche»?",
+      "options": ["à voiture", "en voiture", "de voiture", "sur voiture"],
+      "answer": 1,
+      "explain": "En voiture: la mayoría de transportes usan en."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "statement": "En vélo y à vélo son las dos correctas.",
+      "answer": true,
+      "explain": "Vélo (y moto) aceptan las dos preposiciones."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones NO usa «en», a diferencia de las demás?",
+      "options": ["en bus", "en métro", "à pied", "en voiture"],
+      "answer": 2,
+      "explain": "À pied es la única excepción entre estas cuatro."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["le train", "le vélo", "l'arrêt de bus", "à pied"],
+      "right": ["a pie", "el tren", "la bicicleta", "la parada de autobús"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Train = tren, vélo = bicicleta, arrêt de bus = parada, à pied = a pie."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Voy al trabajo en metro y vuelvo a pie.",
+      "accept": ["Je vais au travail en métro et je rentre à pied"],
+      "hintWords": ["en métro", "à pied"],
+      "strictAccents": false,
+      "audio": "Je vais au travail en métro et je rentre à pied.",
+      "explain": "En métro frente a à pied, dos formas de desplazarse."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "¿Cómo vas al colegio? En bicicleta o en autobús.",
+      "accept": ["Comment tu vas à l'école ? En vélo ou en bus."],
+      "hintWords": ["comment", "en vélo"],
+      "strictAccents": false,
+      "audio": "Comment tu vas à l'école ? En vélo ou en bus.",
+      "explain": "Comment + aller para preguntar el medio de transporte."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Completa con la preposición correcta",
+      "text": "Je vais au travail ___ métro, mais je rentre ___ pied.",
+      "blanks": [{ "accept": ["en"] }, { "accept": ["à"] }],
+      "bank": ["en", "à", "de"],
+      "explain": "En métro frente a à pied."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El tren llega a la estación»",
+      "tokens": ["la gare", "arrive", "Le train", "à"],
+      "answer": ["Le train", "arrive", "à", "la gare"],
+      "audio": "Le train arrive à la gare.",
+      "explain": "Arriver à + lugar."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "prompt": "L'arrêt de bus est devant l'école, à côté du parc.",
+      "accept": ["La parada de autobús está delante del colegio, al lado del parque."],
+      "strictAccents": false,
+      "audio": "L'arrêt de bus est devant l'école, à côté du parc.",
+      "explain": "Repaso de preposiciones de lugar (clase 50)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre cómo vas al trabajo",
+      "turns": [
+        { "who": "Léa", "text": "Comment tu vas au travail ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je vais en métro.", "Je vais à pied."], "hint": "di cómo te desplazas" },
+        { "who": "Léa", "text": "Moi, je préfère le vélo !", "speak": true }
+      ],
+      "explain": "Comment tu vas...? se responde con en + transporte o à pied."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "speak": "Je prends le bus, puis le métro pour aller au travail.",
+      "mode": "write",
+      "accept": ["Je prends le bus, puis le métro pour aller au travail"],
+      "showTextAfter": true,
+      "explain": "Dos transportes combinados en un trayecto."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "speak": "à pied",
+      "mode": "choose",
+      "options": ["à pied", "en vélo", "en voiture", "en bus"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "À pied es la única forma que no usa en."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["transporte"],
+      "difficulty": 3,
+      "speak": "D'abord le bus, ensuite le métro, et enfin à pied jusqu'au bureau.",
+      "es": "Primero el autobús, luego el metro, y por último a pie hasta la oficina.",
+      "ipa": "/da.bɔʁ lə bys ɑ̃.sɥit lə me.tʁo e ɑ̃.fɛ̃ a pje ʒys.ko by.ʁo/",
+      "esApprox": "«da-BOR le BÜS an-SÜÍT le me-TRÓ e an-FEN a PIÉ yüs-ko bü-RÓ»",
+      "focus": "D'abord, ensuite, enfin (clase 40) aplicados a un trayecto con varios transportes.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Di cómo vas normalmente al trabajo o al colegio.",
+      "modelAnswer": "Je vais au travail en métro, puis à pied.",
+      "alsoValid": ["Je vais à l'école en vélo tous les jours."],
+      "speak": "Je vais au travail en métro, puis à pied.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "¿Esta forma usa «en» o es la excepción?",
+      "buckets": ["Usa en", "Excepción (à pied)"],
+      "items": [
+        { "text": "bus", "bucket": 0 },
+        { "text": "pied", "bucket": 1 },
+        { "text": "métro", "bucket": 0 },
+        { "text": "voiture", "bucket": 0 },
+        { "text": "train", "bucket": 0 }
+      ],
+      "explain": "Solo pied es la excepción: à pied, no en pied."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Hay un error de preposición. Corrige la frase entera.",
+      "wrong": "Je vais à l'école en pied.",
+      "accept": ["Je vais à l'école à pied"],
+      "audio": "Je vais à l'école à pied.",
+      "explain": "Se dice à pied, no en pied."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "le bus", "es": "el autobús", "esApprox": "«le BÜS»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le métro", "es": "el metro", "esApprox": "«le me-TRÓ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "le train", "es": "el tren", "esApprox": "«le TREN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le vélo", "es": "la bicicleta", "esApprox": "«le ve-LÓ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "à pied", "es": "a pie", "esApprox": "«a PIÉ»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "l'arrêt de bus", "es": "la parada de autobús", "esApprox": "«la-RÉ de BÜS»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Comment tu vas au travail ?", "es": "¿Cómo vas al trabajo?", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Je prends le bus, puis le métro pour aller au travail.", "es": "Cojo el autobús, luego el metro para ir al trabajo.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "D'abord le bus, ensuite le métro, et enfin à pied jusqu'au bureau.", "es": "Primero el autobús, luego el metro, y por último a pie hasta la oficina.", "from": "e14" }
+  ]
+}

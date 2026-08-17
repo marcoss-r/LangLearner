@@ -1,0 +1,260 @@
+{
+  "id": "fr-a1-058",
+  "lang": "fr",
+  "level": "A1",
+  "order": 58,
+  "title": "En el restaurante: pedir, preguntar y pagar",
+  "objectives": [
+    "Pedir comida y bebida en un restaurante con je voudrais (clase 43) y el partitivo (clase 57)",
+    "Preguntar el precio y pedir la cuenta",
+    "Mantener una conversación completa en un restaurante, de la reserva al pago"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Frases clave del restaurante",
+      "body": "Con je voudrais (clase 43) puedes pedir cualquier plato o bebida. Añade el partitivo (du, de la, de l', des, clase 57) o el artículo indefinido (un, une) según lo que pidas.",
+      "examples": [
+        { "target": "Je voudrais du poulet et une salade, s'il vous plaît.", "es": "Querría pollo y una ensalada, por favor.", "note": "je voudrais + partitivo/indefinido" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del restaurante",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["la carte", "la carta, el menú"],
+        ["l'addition", "la cuenta"],
+        ["une table pour deux", "una mesa para dos"],
+        ["Je voudrais réserver une table.", "Querría reservar una mesa."],
+        ["L'addition, s'il vous plaît.", "La cuenta, por favor."],
+        ["C'est pour moi.", "Es para mí (al repartir el pedido)."]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Combien coûte frente a c'est combien",
+      "items": [
+        { "wrong": "Preguntar el precio de un plato de forma distinta a la de una prenda", "right": "L'addition, c'est combien ? / Ça coûte combien, le menu ?", "why": "Se usan las mismas estructuras que aprendiste en la clase 55 para preguntar precios: c'est combien ? o coûter + combien." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En un restaurante formal se usa vous; con amigos, en un bar informal, puedes oír tu. Recuerda la diferencia de la clase 6."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la carte", "es": "la carta, el menú", "ipa": "/la kaʁt/", "esApprox": "«la KART»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je peux voir la carte, s'il vous plaît ?", "es": "¿Puedo ver la carta, por favor?" } },
+    { "id": "v2", "target": "l'addition", "es": "la cuenta", "ipa": "/la.di.sjɔ̃/", "esApprox": "«la-di-SIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "L'addition, s'il vous plaît.", "es": "La cuenta, por favor." } },
+    { "id": "v3", "target": "réserver", "es": "reservar", "ipa": "/ʁe.zɛʁ.ve/", "esApprox": "«re-zer-VE»", "pos": "verbo", "gender": null, "example": { "target": "Je voudrais réserver une table pour deux.", "es": "Querría reservar una mesa para dos." } },
+    { "id": "v4", "target": "commander", "es": "pedir (en un restaurante)", "ipa": "/kɔ.mɑ̃.de/", "esApprox": "«ko-man-DE»", "pos": "verbo", "gender": null, "example": { "target": "Vous voulez commander ?", "es": "¿Quieren pedir?" } },
+    { "id": "v5", "target": "l'entrée / le plat / le dessert", "es": "el entrante / el plato principal / el postre", "ipa": "/lɑ̃.tʁe lə pla lə de.sɛʁ/", "esApprox": "«lan-TRE le PLA le de-SER»", "pos": "sustantivo", "gender": "f", "example": { "target": "Comme entrée, je voudrais une salade.", "es": "De entrante, querría una ensalada." } },
+    { "id": "v6", "target": "C'est pour moi.", "es": "Es para mí.", "ipa": "/sɛ puʁ mwa/", "esApprox": "«se pur MUÁ»", "pos": "expresión", "gender": null, "example": { "target": "Le poulet, c'est pour moi.", "es": "El pollo es para mí." } },
+    { "id": "v7", "target": "une table pour deux", "es": "una mesa para dos", "ipa": "/yn tabl puʁ dø/", "esApprox": "«ün TABL pur DEU»", "pos": "expresión", "gender": "f", "example": { "target": "Bonsoir, une table pour deux, s'il vous plaît.", "es": "Buenas noches, una mesa para dos, por favor." } },
+    { "id": "v8", "target": "l'addition, c'est combien ?", "es": "¿cuánto es la cuenta?", "ipa": "/la.di.sjɔ̃ sɛ kɔ̃.bjɛ̃/", "esApprox": "«la-di-SIÓN se kon-BIÉN»", "pos": "expresión", "gender": null, "example": { "target": "Excusez-moi, l'addition, c'est combien ?", "es": "Perdone, ¿cuánto es la cuenta?" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «la cuenta»?",
+      "options": ["la carte", "l'addition", "le plat", "le dessert"],
+      "answer": 1,
+      "explain": "L'addition = la cuenta."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "¿Qué dices para reservar una mesa?",
+      "options": ["L'addition, s'il vous plaît.", "Je voudrais réserver une table.", "C'est pour moi.", "C'est combien ?"],
+      "answer": 1,
+      "explain": "Je voudrais réserver une table = querría reservar una mesa."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "statement": "La carte es el documento con la lista de platos del restaurante.",
+      "answer": true,
+      "explain": "La carte = la carta, el menú."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras no forma parte de una comida?",
+      "options": ["l'entrée", "le plat", "le dessert", "l'addition"],
+      "answer": 3,
+      "explain": "L'addition es la cuenta, no un plato."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["réserver", "commander", "l'addition", "la carte"],
+      "right": ["la carta", "reservar", "pedir", "la cuenta"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Réserver = reservar, commander = pedir, l'addition = la cuenta, la carte = la carta."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Querría reservar una mesa para dos, por favor.",
+      "accept": ["Je voudrais réserver une table pour deux, s'il vous plaît"],
+      "hintWords": ["je voudrais réserver", "une table pour deux"],
+      "strictAccents": false,
+      "audio": "Je voudrais réserver une table pour deux, s'il vous plaît.",
+      "explain": "Je voudrais (clase 43) + réserver + une table pour deux."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "De entrante, querría una ensalada, y de plato, pollo.",
+      "accept": ["Comme entrée, je voudrais une salade, et comme plat, du poulet"],
+      "hintWords": ["comme entrée", "je voudrais une salade", "comme plat"],
+      "strictAccents": false,
+      "audio": "Comme entrée, je voudrais une salade, et comme plat, du poulet.",
+      "explain": "Comme entrée/plat = de entrante/plato; du poulet, partitivo (clase 57)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Completa la petición al final de la comida",
+      "text": "___, s'il vous plaît.",
+      "blanks": [{ "accept": ["L'addition"] }],
+      "bank": ["L'addition", "La carte", "Le dessert"],
+      "explain": "L'addition, s'il vous plaît = la cuenta, por favor."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Cuánto es la cuenta?»",
+      "tokens": ["c'est combien", "L'addition", "?"],
+      "answer": ["L'addition", "c'est combien", "?"],
+      "audio": "L'addition, c'est combien ?",
+      "explain": "L'addition + c'est combien (clase 55)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Bonsoir, une table pour deux, s'il vous plaît. Nous voudrions voir la carte.",
+      "accept": ["Buenas noches, una mesa para dos, por favor. Querríamos ver la carta."],
+      "strictAccents": false,
+      "audio": "Bonsoir, une table pour deux, s'il vous plaît. Nous voudrions voir la carte.",
+      "explain": "Nous voudrions = querríamos (plural de je voudrais, clase 43)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en el restaurante",
+      "turns": [
+        { "who": "Serveur", "text": "Bonsoir, vous voulez commander ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je voudrais du poulet et une salade.", "Oui, je voudrais un menu, s'il vous plaît."], "hint": "pide un plato con je voudrais" },
+        { "who": "Serveur", "text": "Très bien, merci.", "speak": true }
+      ],
+      "explain": "Vous voulez commander ? se responde con je voudrais + plato."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "speak": "Je voudrais réserver une table pour deux, ce soir.",
+      "mode": "write",
+      "accept": ["Je voudrais réserver une table pour deux, ce soir"],
+      "showTextAfter": true,
+      "explain": "Reservar mesa: je voudrais réserver une table."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["restaurante"],
+      "difficulty": 1,
+      "speak": "l'addition",
+      "mode": "choose",
+      "options": ["la carte", "l'addition", "le dessert", "l'entrée"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "L'addition = la cuenta."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["restaurante"],
+      "difficulty": 3,
+      "speak": "Bonsoir, une table pour deux, s'il vous plaît. Je voudrais voir la carte, puis commander une entrée et un plat.",
+      "es": "Buenas noches, una mesa para dos, por favor. Querría ver la carta, y luego pedir un entrante y un plato.",
+      "ipa": "/bɔ̃.swaʁ yn tabl puʁ dø sil vu plɛ ʒə vu.dʁɛ vwaʁ la kaʁt pɥi kɔ.mɑ̃.de yn ɑ̃.tʁe e œ̃ pla/",
+      "esApprox": "«bon-SUÁR ün TABL pur DEU sil vu PLE ye vu-DRE vuár la KART püí ko-man-DE ün an-TRE e un PLA»",
+      "focus": "Frases completas de la llegada al restaurante, con je voudrais y commander.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Pide una mesa y luego un plato con bebida, como en un restaurante real.",
+      "modelAnswer": "Bonsoir, une table pour deux, s'il vous plaît. Je voudrais du poulet et de l'eau.",
+      "alsoValid": ["Je voudrais une salade et un café, s'il vous plaît."],
+      "speak": "Bonsoir, une table pour deux, s'il vous plaît. Je voudrais du poulet et de l'eau.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "¿Es para pedir o para pagar?",
+      "buckets": ["Pedir", "Pagar"],
+      "items": [
+        { "text": "Je voudrais du poulet.", "bucket": 0 },
+        { "text": "L'addition, s'il vous plaît.", "bucket": 1 },
+        { "text": "Comme entrée, une salade.", "bucket": 0 },
+        { "text": "C'est combien ?", "bucket": 1 }
+      ],
+      "explain": "Pedir usa je voudrais/comme; pagar usa l'addition/c'est combien."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["restaurante"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "La carte, s'il vous plaît, à la fin du repas.",
+      "accept": ["L'addition, s'il vous plaît, à la fin du repas"],
+      "audio": "L'addition, s'il vous plaît, à la fin du repas.",
+      "explain": "Al final de la comida se pide l'addition (la cuenta), no la carte (el menú)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la carte", "es": "la carta, el menú", "esApprox": "«la KART»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "l'addition", "es": "la cuenta", "esApprox": "«la-di-SIÓN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "réserver", "es": "reservar", "esApprox": "«re-zer-VE»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "commander", "es": "pedir (en un restaurante)", "esApprox": "«ko-man-DE»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "l'entrée / le plat / le dessert", "es": "el entrante / el plato principal / el postre", "esApprox": "«lan-TRE le PLA le de-SER»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "une table pour deux", "es": "una mesa para dos", "esApprox": "«ün TABL pur DEU»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Je voudrais réserver une table pour deux, s'il vous plaît.", "es": "Querría reservar una mesa para dos, por favor.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "L'addition, c'est combien ?", "es": "¿Cuánto es la cuenta?", "from": "e9" }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "id": "fr-a1-017",
+  "lang": "fr",
+  "level": "A1",
+  "order": 17,
+  "title": "Los números del 21 al 69",
+  "objectives": [
+    "Formar los números del 21 al 69 combinando las decenas (vingt, trente, quarante, cinquante, soixante) con las unidades",
+    "Usar et un en los números acabados en 1 (vingt et un) y el guion en el resto (vingt-deux, vingt-trois...)",
+    "Contar de diez en diez del 20 al 60"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Decena + unidad, con una excepción en el 1",
+      "body": "A partir del 21, el francés funciona como el español: decena + unidad. La única particularidad es el número acabado en 1: en vez de un guion, se usa la palabra **et** (y): vingt **et** un, trente **et** un, quarante **et** un... Para el resto de unidades (2 a 9), se usa un guion: vingt-**deux**, vingt-**trois**.",
+      "examples": [
+        { "target": "vingt et un", "es": "veintiuno", "note": "con et, no con guion" },
+        { "target": "vingt-deux", "es": "veintidós", "note": "con guion" },
+        { "target": "soixante-neuf", "es": "sesenta y nueve", "note": "el límite de este patrón: a partir de 70 cambia todo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las decenas del 20 al 60",
+      "headers": ["Decena", "Francés", "Aproximación"],
+      "rows": [
+        ["20", "vingt", "«VEN»"],
+        ["30", "trente", "«TRANT»"],
+        ["40", "quarante", "«ka-RANT»"],
+        ["50", "cinquante", "«sen-KANT»"],
+        ["60", "soixante", "«suá-SANT»"]
+      ],
+      "note": "A partir de aquí, cada decena se combina igual: decena + (et) + unidad."
+    },
+    {
+      "type": "contrast",
+      "title": "Et un: la única excepción",
+      "items": [
+        { "wrong": "vingt-un", "right": "vingt et un", "why": "Con la unidad 1, el francés siempre inserta et: vingt et un, trente et un, quarante et un, cinquante et un, soixante et un. Con las demás unidades (2-9), va siempre con guion, sin et: vingt-deux, vingt-trois..." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Ya conoces vingt y trente de la clase 5. Ahora solo tienes que aprender tres decenas nuevas (quarante, cinquante, soixante) y aplicar el mismo patrón de siempre."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "vingt",
+      "es": "veinte",
+      "ipa": "/vɛ̃/",
+      "esApprox": "«VEN»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v2",
+      "target": "vingt et un",
+      "es": "veintiuno",
+      "ipa": "/vɛ̃t‿e œ̃/",
+      "esApprox": "«ven-te-UN»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v3",
+      "target": "trente",
+      "es": "treinta",
+      "ipa": "/tʁɑ̃t/",
+      "esApprox": "«TRANT»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v4",
+      "target": "trente et un",
+      "es": "treinta y uno",
+      "ipa": "/tʁɑ̃t‿e œ̃/",
+      "esApprox": "«tran-te-UN»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v5",
+      "target": "quarante",
+      "es": "cuarenta",
+      "ipa": "/ka.ʁɑ̃t/",
+      "esApprox": "«ka-RANT»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v6",
+      "target": "cinquante",
+      "es": "cincuenta",
+      "ipa": "/sɛ̃.kɑ̃t/",
+      "esApprox": "«sen-KANT»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v7",
+      "target": "soixante",
+      "es": "sesenta",
+      "ipa": "/swa.sɑ̃t/",
+      "esApprox": "«suá-SANT»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v8",
+      "target": "quarante-cinq",
+      "es": "cuarenta y cinco",
+      "ipa": "/ka.ʁɑ̃t sɛ̃k/",
+      "esApprox": "«ka-RANT SENK»",
+      "pos": "número",
+      "gender": null
+    },
+    {
+      "id": "v9",
+      "target": "soixante-neuf",
+      "es": "sesenta y nueve",
+      "ipa": "/swa.sɑ̃t nœf/",
+      "esApprox": "«suá-SANT NEUF»",
+      "pos": "número",
+      "gender": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «45» en francés?",
+      "options": ["quarante-cinq", "cinquante-quatre", "quarante et cinq", "cinquante-cinq"],
+      "answer": 0,
+      "explain": "45 = quarante-cinq, decena + guion + unidad."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «31» en francés?",
+      "options": ["trente-un", "trente et un", "trente-et-un", "un et trente"],
+      "answer": 1,
+      "explain": "Con la unidad 1, siempre va et: trente et un."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "statement": "Vingt-deux se escribe con guion, sin et.",
+      "answer": true,
+      "explain": "Solo el 1 usa et; el resto de unidades usan guion."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos números usa «et», a diferencia de los demás?",
+      "options": ["vingt-deux", "trente et un", "quarante-cinq", "soixante-neuf"],
+      "answer": 1,
+      "explain": "Trente et un es el único acabado en 1; los demás usan guion."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "Une cada número con su cifra",
+      "left": ["quarante", "cinquante", "soixante", "trente"],
+      "right": ["30", "60", "40", "50"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Quarante = 40, cinquante = 50, soixante = 60, trente = 30."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Tengo cuarenta y cinco años.",
+      "accept": ["J'ai quarante-cinq ans"],
+      "hintWords": ["quarante-cinq"],
+      "strictAccents": false,
+      "audio": "J'ai quarante-cinq ans.",
+      "explain": "45 = quarante-cinq."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Tengo veintiún libros.",
+      "accept": ["J'ai vingt et un livres"],
+      "hintWords": ["vingt et un"],
+      "strictAccents": false,
+      "audio": "J'ai vingt et un livres.",
+      "explain": "21 = vingt et un, con et."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Completa con la unidad correcta para decir «55»",
+      "text": "Elle a cinquante-___ ans.",
+      "blanks": [{ "accept": ["cinq"] }],
+      "bank": ["cinq", "six", "sept"],
+      "explain": "55 = cinquante-cinq: la decena cinquante más la unidad cinq."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tengo cincuenta y nueve libros»",
+      "tokens": ["livres", "cinquante-neuf", "J'ai"],
+      "answer": ["J'ai", "cinquante-neuf", "livres"],
+      "audio": "J'ai cinquante-neuf livres.",
+      "explain": "Cinquante-neuf = 59, decena + guion + unidad."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "Nous avons trente et un chats !",
+      "accept": ["¡Tenemos treinta y un gatos!"],
+      "strictAccents": false,
+      "audio": "Nous avons trente et un chats !",
+      "explain": "Trente et un = 31."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre la edad de un familiar",
+      "turns": [
+        { "who": "Léa", "text": "Ta mère, elle a quel âge ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Elle a cinquante ans.", "Elle a quarante-cinq ans."], "hint": "di la edad de tu madre con un número entre 21 y 69" },
+        { "who": "Léa", "text": "Ah, comme la mienne !", "speak": true }
+      ],
+      "explain": "Elle a + número + ans, igual que con il a."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "J'ai quarante ans.",
+      "mode": "write",
+      "accept": ["J'ai quarante ans"],
+      "showTextAfter": true,
+      "explain": "40 = quarante."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "soixante",
+      "mode": "choose",
+      "options": ["soixante", "soixante-dix", "cinquante", "quarante"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Soixante = 60."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["numeros"],
+      "difficulty": 3,
+      "speak": "Vingt, trente, quarante, cinquante, soixante.",
+      "es": "Veinte, treinta, cuarenta, cincuenta, sesenta.",
+      "ipa": "/vɛ̃ tʁɑ̃t ka.ʁɑ̃t sɛ̃.kɑ̃t swa.sɑ̃t/",
+      "esApprox": "«VEN TRANT ka-RANT sen-KANT suá-SANT»",
+      "focus": "Todas las decenas de 30 a 60 acaban en el mismo sonido nasal -ante.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Cuenta en voz alta de diez en diez, del veinte al sesenta.",
+      "modelAnswer": "Vingt, trente, quarante, cinquante, soixante.",
+      "alsoValid": ["Vingt, trente, quarante, cinquante, soixante !"],
+      "speak": "Vingt, trente, quarante, cinquante, soixante.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Este número se escribe con «et» o con guion?",
+      "buckets": ["Con et", "Con guion"],
+      "items": [
+        { "text": "vingt et un", "bucket": 0 },
+        { "text": "vingt-deux", "bucket": 1 },
+        { "text": "trente et un", "bucket": 0 },
+        { "text": "quarante-cinq", "bucket": 1 },
+        { "text": "soixante et un", "bucket": 0 },
+        { "text": "soixante-neuf", "bucket": 1 }
+      ],
+      "explain": "Solo los números acabados en 1 usan et; el resto usa guion."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "J'ai vingt-un ans.",
+      "accept": ["J'ai vingt et un ans"],
+      "audio": "J'ai vingt et un ans.",
+      "explain": "21 se escribe vingt et un, con et, no con guion."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "vingt et un", "es": "veintiuno", "esApprox": "«ven-te-UN»", "from": "v2" },
+    { "id": "s2", "kind": "word", "target": "trente", "es": "treinta", "esApprox": "«TRANT»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "quarante", "es": "cuarenta", "esApprox": "«ka-RANT»", "from": "v5" },
+    { "id": "s4", "kind": "word", "target": "cinquante", "es": "cincuenta", "esApprox": "«sen-KANT»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "soixante", "es": "sesenta", "esApprox": "«suá-SANT»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "quarante-cinq", "es": "cuarenta y cinco", "esApprox": "«ka-RANT SENK»", "from": "v8" },
+    { "id": "s7", "kind": "word", "target": "soixante-neuf", "es": "sesenta y nueve", "esApprox": "«suá-SANT NEUF»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai quarante-cinq ans.", "es": "Tengo cuarenta y cinco años.", "from": "e6" },
+    { "id": "s9", "kind": "phrase", "target": "Vingt, trente, quarante, cinquante, soixante.", "es": "Veinte, treinta, cuarenta, cincuenta, sesenta.", "from": "e14" }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "id": "de-a1-045",
+  "lang": "de",
+  "level": "A1",
+  "order": 45,
+  "title": "Es gibt: hablar de lo que hay",
+  "objectives": [
+    "Usar es gibt + acusativo para decir qué hay en un lugar",
+    "Reconocer que es gibt es invariable: no cambia a «es geben» ni en plural",
+    "Combinar es gibt con sustantivos y cantidades (viel, viele, wenig, nichts)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Es gibt: la fórmula fija para «hay»",
+      "body": "Para decir que algo existe o está disponible en un lugar, el alemán usa es gibt, siempre seguido de acusativo. La forma es fija: no cambia nunca, ni en singular ni en plural, exactamente como «hay» en español, que tampoco se convierte en «hayn» cuando hablas de varias cosas.",
+      "examples": [
+        { "target": "Es gibt einen Park.", "es": "Hay un parque.", "note": "es gibt + acusativo singular" },
+        { "target": "Es gibt viele Bücher.", "es": "Hay muchos libros.", "note": "es gibt + acusativo plural, sin cambiar la forma del verbo" },
+        { "target": "Es gibt keine Zeit.", "es": "No hay tiempo.", "note": "es gibt + keine (negación)" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: es gibt NO se vuelve plural",
+      "items": [
+        { "wrong": "Es geben viele Bücher. (pensando que el verbo concuerda con el plural, como en inglés «there ARE»)", "right": "Es gibt viele Bücher.", "why": "A diferencia del inglés («there is» / «there are»), el alemán usa siempre gibt, tanto en singular como en plural. Es una fórmula fija, no una conjugación normal que cambie con el número." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Puedes combinar es gibt con palabras de cantidad para matizar: viel (mucho, con sustantivos incontables), viele (muchos, con plurales), wenig (poco), nichts (nada). Todas van después de gibt, antes del sustantivo."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "es gibt",
+      "es": "hay",
+      "ipa": "/ɛs ɡɪpt/",
+      "esApprox": "«es gipt»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Es gibt einen Park.", "es": "Hay un parque." }
+    },
+    {
+      "id": "v2",
+      "target": "viel",
+      "es": "mucho",
+      "ipa": "/fiːl/",
+      "esApprox": "«fil»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Es gibt viel Zeit.", "es": "Hay mucho tiempo." }
+    },
+    {
+      "id": "v3",
+      "target": "viele",
+      "es": "muchos, muchas",
+      "ipa": "/ˈfiːlə/",
+      "esApprox": "«FÍ-le»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Es gibt viele Bücher.", "es": "Hay muchos libros." }
+    },
+    {
+      "id": "v4",
+      "target": "wenig",
+      "es": "poco",
+      "ipa": "/ˈveːnɪç/",
+      "esApprox": "«VÉ-nich»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Es gibt wenig Zeit.", "es": "Hay poco tiempo." }
+    },
+    {
+      "id": "v5",
+      "target": "nichts",
+      "es": "nada",
+      "ipa": "/nɪçts/",
+      "esApprox": "«nichts»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Es gibt nichts.", "es": "No hay nada." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["es-gibt"],
+      "difficulty": 1,
+      "prompt": "¿Qué caso rige «es gibt»?",
+      "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"],
+      "answer": 1,
+      "explain": "es gibt siempre va seguido de acusativo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «hay muchos libros» en alemán?",
+      "options": ["Es gibt viel Bücher.", "Es gibt viele Bücher.", "Es gibt vieles Bücher.", "Es geben viele Bücher."],
+      "answer": 1,
+      "explain": "viele concuerda con el plural Bücher; gibt no cambia nunca."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["es-gibt"],
+      "difficulty": 1,
+      "statement": "Es gibt cambia a «es geben» cuando hablas en plural.",
+      "answer": false,
+      "explain": "Es gibt es siempre invariable, en singular y en plural."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["es-gibt"],
+      "difficulty": 1,
+      "statement": "«Es gibt einen Park» significa «hay un parque».",
+      "answer": true,
+      "explain": "es gibt + acusativo (einen Park) = hay un parque."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases usa mal «es gibt»?",
+      "options": ["Es gibt einen Park.", "Es geben viele Bücher.", "Es gibt viele Bücher.", "Es gibt keine Zeit."],
+      "answer": 1,
+      "explain": "Debería ser Es gibt viele Bücher: gibt no cambia nunca a geben."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "Une cada frase con su significado",
+      "left": ["Es gibt viel Zeit.", "Es gibt wenig Zeit.", "Es gibt keine Zeit.", "Es gibt viele Bücher."],
+      "right": ["Hay muchos libros.", "No hay tiempo.", "Hay poco tiempo.", "Hay mucho tiempo."],
+      "answer": [3, 2, 1, 0],
+      "explain": "viel, wenig, keine y viele matizan la cantidad de forma distinta."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "Hay un parque.",
+      "accept": ["Es gibt einen Park"],
+      "hintWords": ["es gibt einen Park"],
+      "strictAccents": false,
+      "audio": "Es gibt einen Park.",
+      "explain": "einen Park: Park es masculino, acusativo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "Hay muchos libros.",
+      "accept": ["Es gibt viele Bücher"],
+      "hintWords": ["es gibt viele Bücher"],
+      "strictAccents": false,
+      "audio": "Es gibt viele Bücher.",
+      "explain": "viele + plural, sin cambiar gibt."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Es gibt ___ Zeit. Es gibt ___ Bücher.",
+      "blanks": [{ "accept": ["viel"] }, { "accept": ["viele"] }],
+      "bank": ["viel", "viele", "wenig"],
+      "explain": "viel con Zeit (incontable); viele con Bücher (plural contable)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hay poco tiempo»",
+      "tokens": ["wenig", "Es", "Zeit", "gibt"],
+      "answer": ["Es", "gibt", "wenig", "Zeit"],
+      "audio": "Es gibt wenig Zeit.",
+      "explain": "Es gibt + wenig + Zeit."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["es-gibt"],
+      "difficulty": 1,
+      "prompt": "Es gibt nichts.",
+      "accept": ["No hay nada."],
+      "strictAccents": false,
+      "audio": "Es gibt nichts.",
+      "explain": "nichts = nada."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Gibt es einen Park hier?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, es gibt einen Park."], "hint": "responde que sí, que hay un parque" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "Gibt es...? es la pregunta de sí o no con es gibt: el verbo se adelanta como siempre."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["es-gibt"],
+      "difficulty": 1,
+      "speak": "Es gibt einen Park.",
+      "mode": "write",
+      "accept": ["Es gibt einen Park"],
+      "showTextAfter": true,
+      "explain": "Es gibt einen Park = hay un parque."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "speak": "Es gibt viele Bücher.",
+      "mode": "choose",
+      "options": ["Es gibt viele Bücher.", "Es gibt viel Bücher.", "Es geben viele Bücher."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Solo Es gibt viele Bücher es correcto: viele concuerda con el plural, y gibt nunca cambia."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "speak": "Es gibt einen Park, und es gibt viele Bücher.",
+      "es": "Hay un parque, y hay muchos libros.",
+      "ipa": "/ɛs ɡɪpt aɪ̯nən paʁk ʊnt ɛs ɡɪpt ˈfiːlə ˈbyːçɐ/",
+      "esApprox": "«es gipt AI-nen park unt es gipt FÍ-le BÜ-cher»",
+      "focus": "gibt suena igual las dos veces, aunque una frase esté en singular y la otra en plural.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "speak": "Es gibt wenig Zeit. Es gibt keine Zeit.",
+      "es": "Hay poco tiempo. No hay tiempo.",
+      "ipa": "/ɛs ɡɪpt ˈveːnɪç tsaɪ̯t ɛs ɡɪpt ˈkaɪ̯nə tsaɪ̯t/",
+      "esApprox": "«es gipt VÉ-nich tsait, es gipt KAI-ne tsait»",
+      "focus": "wenig (poco) frente a keine (ninguno): dos grados distintos de escasez.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si hay un parque aquí. Responde que sí, que hay un parque.",
+      "modelAnswer": "Ja, es gibt einen Park.",
+      "alsoValid": ["Es gibt einen Park."],
+      "speak": "Ja, es gibt einen Park.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra: ¿indica mucha cantidad o poca/ninguna?",
+      "buckets": ["Mucho", "Poco o nada"],
+      "items": [
+        { "text": "viel", "bucket": 0 },
+        { "text": "viele", "bucket": 0 },
+        { "text": "wenig", "bucket": 1 },
+        { "text": "keine", "bucket": 1 },
+        { "text": "nichts", "bucket": 1 }
+      ],
+      "explain": "viel y viele indican abundancia; wenig, keine y nichts indican escasez o ausencia."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["es-gibt"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Es geben viele Bücher.",
+      "accept": ["Es gibt viele Bücher"],
+      "audio": "Es gibt viele Bücher.",
+      "explain": "es gibt es invariable: nunca se convierte en es geben, ni en plural."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "es gibt", "es": "hay", "esApprox": "«es gipt»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "viel", "es": "mucho", "esApprox": "«fil»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "viele", "es": "muchos, muchas", "esApprox": "«FÍ-le»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "wenig", "es": "poco", "esApprox": "«VÉ-nich»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "nichts", "es": "nada", "esApprox": "«nichts»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Es gibt einen Park, und es gibt viele Bücher.", "es": "Hay un parque, y hay muchos libros.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Es gibt wenig Zeit. Es gibt keine Zeit.", "es": "Hay poco tiempo. No hay tiempo.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Es gibt einen Park.", "es": "Hay un parque.", "from": "e7" }
+  ]
+}

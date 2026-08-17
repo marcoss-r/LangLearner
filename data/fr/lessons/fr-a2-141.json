@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-141",
+  "lang": "fr",
+  "level": "A2",
+  "order": 141,
+  "title": "En la farmacia: pedir un medicamento y explicar síntomas",
+  "objectives": [
+    "Aprender vocabulario para explicar síntomas y pedir un medicamento",
+    "Usar avoir mal à + parte del cuerpo para describir dolores",
+    "Practicar una conversación completa en la farmacia"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Explicar cómo te sientes",
+      "body": "Para hablar de dolores, se usa avoir mal à + la parte del cuerpo: j'ai mal à la tête, j'ai mal au ventre. Para pedir algo con educación, usas je voudrais o pourriez-vous (clase A2-130).",
+      "examples": [
+        { "target": "J'ai mal à la tête depuis ce matin. Je voudrais un médicament, s'il vous plaît.", "es": "Me duele la cabeza desde esta mañana. Querría un medicamento, por favor.", "note": "avoir mal à + depuis (clase A2-097) + je voudrais" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la farmacia",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["avoir mal à la tête", "tener dolor de cabeza"],
+        ["avoir mal au ventre", "tener dolor de barriga"],
+        ["avoir de la fièvre", "tener fiebre"],
+        ["un médicament", "un medicamento"],
+        ["une ordonnance", "una receta médica"],
+        ["tousser", "toser"],
+        ["se sentir mal", "sentirse mal"],
+        ["un cachet / un comprimé", "una pastilla"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Con o sin receta",
+      "body": "Muchos medicamentos se venden sans ordonnance (sin receta) en Francia, pero otros necesitan avec ordonnance (con receta). Si no lo sabes, pregunta: «Est-ce que j'ai besoin d'une ordonnance ?»"
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "avoir mal à la tête", "es": "tener dolor de cabeza", "ipa": "/a.vwaʁ mal a la tɛt/", "esApprox": "«a-VUÁR mal a la TET»", "pos": "expresión", "gender": null, "example": { "target": "J'ai mal à la tête depuis ce matin.", "es": "Me duele la cabeza desde esta mañana." } },
+    { "id": "v2", "target": "avoir mal au ventre", "es": "tener dolor de barriga", "ipa": "/a.vwaʁ mal o vɑ̃tʁ/", "esApprox": "«a-VUÁR mal o VANTR»", "pos": "expresión", "gender": null, "example": { "target": "J'ai mal au ventre depuis hier.", "es": "Me duele la barriga desde ayer." } },
+    { "id": "v3", "target": "avoir de la fièvre", "es": "tener fiebre", "ipa": "/a.vwaʁ də la fjɛvʁ/", "esApprox": "«a-VUÁR de la FIEVR»", "pos": "expresión", "gender": null, "example": { "target": "J'ai de la fièvre, trente-huit degrés.", "es": "Tengo fiebre, treinta y ocho grados." } },
+    { "id": "v4", "target": "un médicament", "es": "un medicamento", "ipa": "/œ̃ me.di.ka.mɑ̃/", "esApprox": "«un me-di-ka-MAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je voudrais un médicament, s'il vous plaît.", "es": "Querría un medicamento, por favor." } },
+    { "id": "v5", "target": "une ordonnance", "es": "una receta médica", "ipa": "/yn ɔʁ.dɔ.nɑ̃s/", "esApprox": "«ün or-do-NANS»", "pos": "sustantivo", "gender": "f", "example": { "target": "Est-ce que j'ai besoin d'une ordonnance ?", "es": "¿Necesito receta médica?" } },
+    { "id": "v6", "target": "tousser", "es": "toser", "ipa": "/tu.se/", "esApprox": "«tu-SÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je tousse beaucoup depuis trois jours.", "es": "Toso mucho desde hace tres días." } },
+    { "id": "v7", "target": "se sentir mal", "es": "sentirse mal", "ipa": "/sə sɑ̃.tiʁ mal/", "esApprox": "«se san-TIR mal»", "pos": "verbo", "gender": null, "example": { "target": "Je me sens mal depuis ce matin.", "es": "Me siento mal desde esta mañana." } },
+    { "id": "v8", "target": "un cachet / un comprimé", "es": "una pastilla", "ipa": "/œ̃ ka.ʃɛ œ̃ kɔ̃.pʁi.me/", "esApprox": "«un ka-SHE un kon-pri-MÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Prenez un comprimé trois fois par jour.", "es": "Tome una pastilla tres veces al día." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me duele la cabeza»?",
+      "options": ["J'ai mal à la tête.", "Je suis mal la tête.", "J'ai la tête mal.", "Je me sens la tête."],
+      "answer": 0,
+      "explain": "Avoir mal à + parte del cuerpo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "¿Qué es «une ordonnance»?",
+      "options": ["una pastilla", "una receta médica", "un medicamento", "una fiebre"],
+      "answer": 1,
+      "explain": "Une ordonnance = una receta médica."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "statement": "Avoir de la fièvre significa tener fiebre.",
+      "answer": true,
+      "explain": "Avoir de la fièvre = tener fiebre."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "statement": "Un cachet y un comprimé significan cosas distintas.",
+      "answer": false,
+      "explain": "Son sinónimos: los dos significan «una pastilla»."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "Une cada síntoma con su significado",
+      "left": ["avoir mal à la tête", "avoir mal au ventre", "tousser", "se sentir mal"],
+      "right": ["sentirse mal", "toser", "dolor de barriga", "dolor de cabeza"],
+      "answer": [3, 2, 1, 0],
+      "explain": "Cada síntoma con su traducción."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "Me duele la cabeza desde esta mañana. Querría un medicamento, por favor.",
+      "accept": ["J'ai mal à la tête depuis ce matin. Je voudrais un médicament, s'il vous plaît"],
+      "hintWords": ["j'ai mal à la tête depuis ce matin", "je voudrais un médicament, s'il vous plaît"],
+      "strictAccents": true,
+      "audio": "J'ai mal à la tête depuis ce matin. Je voudrais un médicament, s'il vous plaît.",
+      "explain": "Avoir mal à + depuis + je voudrais."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "Tengo fiebre y toso mucho desde hace tres días.",
+      "accept": ["J'ai de la fièvre et je tousse beaucoup depuis trois jours"],
+      "hintWords": ["j'ai de la fièvre", "je tousse beaucoup depuis trois jours"],
+      "strictAccents": true,
+      "audio": "J'ai de la fièvre et je tousse beaucoup depuis trois jours.",
+      "explain": "Avoir de la fièvre + tousser + depuis."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Prenez un ___ trois fois par jour, sans ___.",
+      "blanks": [{ "accept": ["comprimé"] }, { "accept": ["ordonnance"] }],
+      "bank": ["comprimé", "ordonnance", "fièvre"],
+      "explain": "Un comprimé + sans ordonnance."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Me siento mal desde esta mañana»",
+      "tokens": ["depuis ce matin", "Je me sens mal"],
+      "answer": ["Je me sens mal", "depuis ce matin"],
+      "audio": "Je me sens mal depuis ce matin.",
+      "explain": "Je me sens mal + depuis ce matin."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "J'ai de la fièvre et mal au ventre, est-ce que j'ai besoin d'une ordonnance pour ce médicament ?",
+      "accept": ["Tengo fiebre y dolor de barriga, ¿necesito receta médica para este medicamento?"],
+      "strictAccents": false,
+      "audio": "J'ai de la fièvre et mal au ventre, est-ce que j'ai besoin d'une ordonnance pour ce médicament ?",
+      "explain": "Síntomas combinados con una pregunta sobre la receta."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en la farmacia",
+      "turns": [
+        { "who": "Pharmacien", "text": "Bonjour, qu'est-ce qui vous arrive ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["J'ai mal à la tête et de la fièvre.", "Je tousse beaucoup depuis trois jours."], "hint": "explica tus síntomas" },
+        { "who": "Pharmacien", "text": "Je vous conseille ce médicament.", "speak": true }
+      ],
+      "explain": "En la farmacia, se explican los síntomas con avoir mal à o tousser."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "speak": "J'ai mal à la tête, j'ai de la fièvre, et je tousse depuis trois jours.",
+      "mode": "write",
+      "accept": ["J'ai mal à la tête, j'ai de la fièvre, et je tousse depuis trois jours"],
+      "showTextAfter": true,
+      "explain": "Tres síntomas encadenados."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 1,
+      "speak": "une ordonnance",
+      "mode": "choose",
+      "options": ["un médicament", "une ordonnance", "un comprimé", "la fièvre"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Une ordonnance = una receta médica."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 3,
+      "speak": "J'ai mal à la tête et au ventre depuis ce matin, j'ai de la fièvre, et je voudrais un médicament sans ordonnance.",
+      "es": "Me duele la cabeza y la barriga desde esta mañana, tengo fiebre, y querría un medicamento sin receta.",
+      "ipa": "/ʒe mal a la tɛt e o vɑ̃tʁ də.pɥi sə ma.tɛ̃ ʒe də la fjɛvʁ e ʒə vu.dʁɛ œ̃ me.di.ka.mɑ̃ sɑ̃.z‿ɔʁ.dɔ.nɑ̃s/",
+      "esApprox": "«ye mal a la TET e o VANTR de-pü-Í se ma-TEN ye de la FIEVR e ye vu-DRE un me-di-ka-MAN san-zor-do-NANS»",
+      "focus": "Varios síntomas seguidos de una petición cortés en la farmacia.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "Explica tus síntomas en la farmacia y pide un medicamento con educación.",
+      "modelAnswer": "J'ai mal à la tête et de la fièvre. Je voudrais un médicament, s'il vous plaît.",
+      "alsoValid": ["Je tousse beaucoup, pourriez-vous m'aider ?"],
+      "speak": "J'ai mal à la tête et de la fièvre. Je voudrais un médicament, s'il vous plaît.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "¿Es un síntoma o algo relacionado con el medicamento?",
+      "buckets": ["Síntoma", "Medicamento"],
+      "items": [
+        { "text": "avoir mal à la tête", "bucket": 0 },
+        { "text": "un comprimé", "bucket": 1 },
+        { "text": "tousser", "bucket": 0 },
+        { "text": "une ordonnance", "bucket": 1 }
+      ],
+      "explain": "Avoir mal y tousser son síntomas; comprimé y ordonnance, relacionados con el medicamento."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["salud", "farmacia"],
+      "difficulty": 2,
+      "prompt": "Hay un error de estructura. Corrige la frase entera.",
+      "wrong": "J'ai mal la tête.",
+      "accept": ["J'ai mal à la tête"],
+      "audio": "J'ai mal à la tête.",
+      "explain": "Avoir mal necesita la preposición à antes de la parte del cuerpo: avoir mal à la tête."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "avoir mal à la tête", "es": "tener dolor de cabeza", "esApprox": "«a-VUÁR mal a la TET»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "avoir mal au ventre", "es": "tener dolor de barriga", "esApprox": "«a-VUÁR mal o VANTR»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "avoir de la fièvre", "es": "tener fiebre", "esApprox": "«a-VUÁR de la FIEVR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "un médicament", "es": "un medicamento", "esApprox": "«un me-di-ka-MAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "une ordonnance", "es": "una receta médica", "esApprox": "«ün or-do-NANS»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "tousser", "es": "toser", "esApprox": "«tu-SÉ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai mal à la tête depuis ce matin. Je voudrais un médicament, s'il vous plaît.", "es": "Me duele la cabeza desde esta mañana. Querría un medicamento, por favor.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai de la fièvre et je tousse beaucoup depuis trois jours.", "es": "Tengo fiebre y toso mucho desde hace tres días.", "from": "e7" }
+  ]
+}

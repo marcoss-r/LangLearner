@@ -1,0 +1,250 @@
+{
+  "id": "fr-b1-179",
+  "lang": "fr",
+  "level": "B1",
+  "order": 179,
+  "title": "El subjuntivo tras expresar emoción: je suis content que, j'ai peur que",
+  "objectives": [
+    "Usar je suis content(e) que, j'ai peur que, c'est dommage que y ça m'énerve que con subjonctif",
+    "Distinguir de + infinitivo (mismo sujeto) frente a que + subjonctif (sujeto distinto)",
+    "Practicar frases de emoción sobre situaciones o sobre otra persona"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Expresar cómo te hace sentir algo",
+      "body": "Las expresiones de emoción (alegría, miedo, sorpresa, pena, enfado) van seguidas de que + subjonctif cuando el sujeto es distinto. Cuando el sujeto es el mismo, se usa de + infinitivo."
+    },
+    {
+      "type": "table",
+      "title": "Expresiones de emoción",
+      "headers": ["Expresión", "Emoción"],
+      "rows": [
+        ["je suis content(e) que", "alegría"],
+        ["j'ai peur que", "miedo"],
+        ["je suis surpris(e) que", "sorpresa"],
+        ["c'est dommage que", "pena"],
+        ["ça m'énerve que", "enfado"],
+        ["je suis triste que", "tristeza"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Mismo sujeto: de + infinitivo",
+      "body": "Je suis content de partir (mismo sujeto: yo estoy contento, yo parto) frente a je suis content que tu partes (sujetos distintos). No confundas de + infinitivo con que + subjonctif."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je suis content(e) que", "es": "estoy contento/a de que", "ipa": "/ʒə sɥi kɔ̃.tɑ̃ kə/", "esApprox": "«ye süí kon-TAN ke»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "j'ai peur que", "es": "tengo miedo de que", "ipa": "/ʒe pœʁ kə/", "esApprox": "«ye PÖR ke»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "je suis surpris(e) que", "es": "estoy sorprendido/a de que", "ipa": "/ʒə sɥi syʁ.pʁi kə/", "esApprox": "«ye süí sür-PRÍ ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "c'est dommage que", "es": "es una pena que", "ipa": "/sɛ dɔ.maʒ kə/", "esApprox": "«se do-MAJ ke»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "ça m'énerve que", "es": "me molesta que", "ipa": "/sa me.nɛʁv kə/", "esApprox": "«sa me-NERV ke»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "je suis triste que", "es": "estoy triste de que", "ipa": "/ʒə sɥi tʁist kə/", "esApprox": "«ye süí TRIST ke»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "que ce soit", "es": "que sea", "ipa": "/kə sə swa/", "esApprox": "«ke se SUÁ»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "être en retard", "es": "llegar tarde", "ipa": "/ɛtʁ ɑ̃ ʁə.taʁ/", "esApprox": "«ETR an re-TAR»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "¿Qué estructura usas si el sujeto es el mismo tras una expresión de emoción?",
+      "options": ["que + subjonctif", "de + infinitivo", "que + indicativo", "à + infinitivo"],
+      "answer": 1,
+      "explain": "Mismo sujeto → de + infinitivo (je suis content de partir)."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «tengo miedo de que llegues tarde»?",
+      "options": ["J'ai peur que tu sois en retard.", "J'ai peur d'être en retard.", "J'ai peur que je suis en retard.", "J'ai peur tu es en retard."],
+      "answer": 0,
+      "explain": "Sujeto distinto (yo tengo miedo / tú llegas tarde) → j'ai peur que tu sois en retard."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "statement": "C'est dommage que va seguido de subjonctif.",
+      "answer": true,
+      "explain": "C'est dommage que exige subjonctif: c'est dommage que tu partes."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "statement": "Je suis content de partir usa subjonctif porque el sujeto es distinto.",
+      "answer": false,
+      "explain": "Je suis content de partir usa infinitivo porque el sujeto es el mismo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su emoción",
+      "left": ["je suis content que", "j'ai peur que", "c'est dommage que", "ça m'énerve que"],
+      "right": ["enfado", "alegría", "miedo", "pena"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Je suis content que = alegría, j'ai peur que = miedo, c'est dommage que = pena, ça m'énerve que = enfado."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "Estoy contento de que estés aquí.",
+      "accept": ["Je suis content que tu sois là"],
+      "hintWords": ["je suis content que tu sois", "là"],
+      "strictAccents": true,
+      "audio": "Je suis content que tu sois là.",
+      "explain": "Je suis content que + subjonctif de être (sujeto distinto)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "Tengo miedo de que sea demasiado tarde.",
+      "accept": ["J'ai peur que ce soit trop tard"],
+      "hintWords": ["j'ai peur que ce soit", "trop tard"],
+      "strictAccents": true,
+      "audio": "J'ai peur que ce soit trop tard.",
+      "explain": "J'ai peur que + subjonctif de être (que ce soit)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "Completa con de o que",
+      "text": "Je suis content ___ partir demain, mais j'ai peur ___ nous soyons en retard.",
+      "blanks": [{ "accept": ["de"] }, { "accept": ["que"] }],
+      "bank": ["de", "que", "à"],
+      "explain": "Mismo sujeto (de partir) frente a sujeto distinto (que nous soyons)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es una pena que estés triste»",
+      "tokens": ["que tu sois triste", "C'est dommage"],
+      "answer": ["C'est dommage", "que tu sois triste"],
+      "audio": "C'est dommage que tu sois triste.",
+      "explain": "C'est dommage que + subjonctif de être (sujeto distinto)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "Je suis surpris que tu sois là, mais je suis content de te voir.",
+      "accept": ["Estoy sorprendido de que estés aquí, pero estoy contento de verte."],
+      "strictAccents": false,
+      "audio": "Je suis surpris que tu sois là, mais je suis content de te voir.",
+      "explain": "Sujeto distinto (que tu sois) frente a mismo sujeto (de te voir)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación expresando una emoción",
+      "turns": [
+        { "who": "Léa", "text": "Tu es content ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je suis content que tu sois là.", "Oui, mais j'ai peur que ce soit trop tard."], "hint": "usa una expresión de emoción + subjonctif" },
+        { "who": "Léa", "text": "Moi aussi !", "speak": true }
+      ],
+      "explain": "Repaso combinado de las expresiones de emoción con subjonctif."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "speak": "Je suis content que tu sois là, mais j'ai peur que nous soyons en retard.",
+      "mode": "write",
+      "accept": ["Je suis content que tu sois là, mais j'ai peur que nous soyons en retard"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de alegría y miedo con subjonctif."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["emocion"],
+      "difficulty": 1,
+      "speak": "c'est dommage que",
+      "mode": "choose",
+      "options": ["c'est dommage que", "ça m'énerve que", "j'ai peur que", "je suis triste que"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "C'est dommage que expresa pena."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["emocion"],
+      "difficulty": 3,
+      "speak": "Je suis content que tu sois là, j'ai peur que nous soyons en retard, et c'est dommage que tu partes si tôt.",
+      "es": "Estoy contento de que estés aquí, tengo miedo de que lleguemos tarde, y es una pena que te vayas tan pronto.",
+      "ipa": "/ʒə sɥi kɔ̃.tɑ̃ kə ty swa la ʒe pœʁ kə nu swa.jɔ̃.z‿ɑ̃ ʁə.taʁ e sɛ dɔ.maʒ kə ty paʁt si to/",
+      "esApprox": "«ye süí kon-TAN ke tü suá LA ye PÖR ke nu suá-yon-zan re-TAR e se do-MAJ ke tü PART si TO»",
+      "focus": "Tres expresiones de emoción encadenadas, todas con sujeto distinto y subjonctif.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "Expresa una emoción sobre algo que le pasa a otra persona, usando que + subjonctif.",
+      "modelAnswer": "Je suis content que tu sois là, et c'est dommage que tu partes si tôt.",
+      "alsoValid": ["J'ai peur que ce soit trop tard."],
+      "speak": "Je suis content que tu sois là, et c'est dommage que tu partes si tôt.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "¿Es una emoción positiva o negativa?",
+      "buckets": ["Positiva", "Negativa"],
+      "items": [
+        { "text": "je suis content que", "bucket": 0 },
+        { "text": "j'ai peur que", "bucket": 1 },
+        { "text": "c'est dommage que", "bucket": 1 },
+        { "text": "je suis surpris que", "bucket": 0 }
+      ],
+      "explain": "Content y surpris son emociones positivas o neutras; peur y dommage son negativas."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["emocion"],
+      "difficulty": 2,
+      "prompt": "Hay un error: mismo sujeto exige de + infinitivo. Corrige la frase entera.",
+      "wrong": "Je suis content que je sois là.",
+      "accept": ["Je suis content d'être là"],
+      "audio": "Je suis content d'être là.",
+      "explain": "Mismo sujeto: de + infinitivo (d'être là), no que + subjonctif."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je suis content(e) que", "es": "estoy contento/a de que", "esApprox": "«ye süí kon-TAN ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'ai peur que", "es": "tengo miedo de que", "esApprox": "«ye PÖR ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je suis surpris(e) que", "es": "estoy sorprendido/a de que", "esApprox": "«ye süí sür-PRÍ ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "c'est dommage que", "es": "es una pena que", "esApprox": "«se do-MAJ ke»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "ça m'énerve que", "es": "me molesta que", "esApprox": "«sa me-NERV ke»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "je suis triste que", "es": "estoy triste de que", "esApprox": "«ye süí TRIST ke»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je suis content que tu sois là.", "es": "Estoy contento de que estés aquí.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai peur que ce soit trop tard.", "es": "Tengo miedo de que sea demasiado tarde.", "from": "e7" }
+  ]
+}

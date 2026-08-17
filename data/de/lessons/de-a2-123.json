@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-123",
+  "lang": "de",
+  "level": "A2",
+  "order": 123,
+  "title": "Los posesivos y el genitivo en la misma frase",
+  "objectives": [
+    "Combinar un posesivo (mein, dein, sein...) con un sustantivo en genitivo dentro de la misma frase",
+    "Ampliar el vocabulario de relaciones familiares y de vecindad con construcciones de posesión",
+    "Practicar frases como «das Haus meiner Eltern» o «die Katze meines Nachbarn»"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Doble posesión: mi + genitivo",
+      "body": "Puedes combinar un posesivo con un sustantivo en genitivo para expresar posesión «anidada»: «das Haus meiner Eltern» (la casa de mis padres) — meiner Eltern está en genitivo plural (siempre der en plural, clase 113), y describe de quién es das Haus. Es la misma lógica que «das Buch des Mannes» (clase 113), solo que ahora el poseedor lleva también un posesivo.",
+      "examples": [
+        { "target": "das Haus meiner Eltern", "es": "la casa de mis padres" },
+        { "target": "die Katze meines Nachbarn", "es": "el gato de mi vecino" },
+        { "target": "der Beruf ihres Mannes", "es": "la profesión del marido de ella" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Sustantivos con n-Deklination",
+      "headers": ["Nominativ", "Akk./Dat./Genitiv"],
+      "rows": [
+        ["der Nachbar", "den/dem/des Nachbarn"],
+        ["der Junge", "den/dem/des Jungen"],
+        ["der Kunde", "den/dem/des Kunden"]
+      ],
+      "note": "Estos sustantivos añaden -n en todos los casos excepto nominativo singular."
+    },
+    {
+      "type": "tip",
+      "body": "Nachbar, Junge y Kunde son sustantivos especiales (n-Deklination): recuerda añadirles -n siempre que no estén en nominativo singular."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Eltern", "es": "los padres", "ipa": "/ˈɛltɐn/", "esApprox": "«ÉL-tern»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "das Haus meiner Eltern", "es": "la casa de mis padres" } },
+    { "id": "v2", "target": "der Nachbar", "es": "el vecino", "ipa": "/ˈnaːxbaːɐ̯/", "esApprox": "«NACH-bar»", "pos": "sustantivo", "gender": "m", "plural": "die Nachbarn", "example": { "target": "die Katze meines Nachbarn", "es": "el gato de mi vecino" } },
+    { "id": "v3", "target": "die Katze", "es": "el gato", "ipa": "/ˈkatsə/", "esApprox": "«KÁ-tse»", "pos": "sustantivo", "gender": "f", "example": { "target": "die Katze meines Nachbarn", "es": "el gato de mi vecino" } },
+    { "id": "v4", "target": "der Ehemann", "es": "el marido", "ipa": "/ˈeːəman/", "esApprox": "«É-e-man»", "pos": "sustantivo", "gender": "m", "example": { "target": "der Beruf ihres Ehemanns", "es": "la profesión de su marido" } },
+    { "id": "v5", "target": "die Ehefrau", "es": "la esposa", "ipa": "/ˈeːəfʁaʊ̯/", "esApprox": "«É-e-frau»", "pos": "sustantivo", "gender": "f", "example": { "target": "der Beruf seiner Ehefrau", "es": "la profesión de su esposa" } },
+    { "id": "v6", "target": "die Kollegin", "es": "la compañera de trabajo", "ipa": "/kɔˈleːɡɪn/", "esApprox": "«ko-LÉ-guin»", "pos": "sustantivo", "gender": "f", "example": { "target": "das Büro meiner Kollegin", "es": "la oficina de mi compañera" } },
+    { "id": "v7", "target": "der Chef", "es": "el jefe", "ipa": "/ʃɛf/", "esApprox": "«shef»", "pos": "sustantivo", "gender": "m", "example": { "target": "die Entscheidung meines Chefs", "es": "la decisión de mi jefe" } },
+    { "id": "v8", "target": "verwandt sein mit", "es": "ser pariente de", "ipa": "/fɛɐ̯ˈvant zaɪ̯n mɪt/", "esApprox": "«fer-VANT zain mit»", "pos": "expresión", "gender": null, "example": { "target": "Ich bin mit ihr verwandt.", "es": "Soy pariente de ella." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["genitivo"], "difficulty": 1, "prompt": "¿Cómo se dice «la casa de mis padres»?", "options": ["das Haus mein Eltern", "das Haus meiner Eltern", "das Haus meine Eltern", "das Haus meinen Eltern"], "answer": 1, "explain": "meiner Eltern: genitivo plural, siempre -er en el posesivo." },
+    { "id": "e2", "type": "mcq", "tags": ["genitivo"], "difficulty": 2, "prompt": "¿Cómo se declina «Nachbar» en genitivo singular?", "options": ["des Nachbar", "des Nachbars", "des Nachbarn", "des Nachbare"], "answer": 2, "explain": "Nachbar sigue la n-Deklination: des Nachbarn." },
+    { "id": "e3", "type": "true_false", "tags": ["genitivo"], "difficulty": 2, "statement": "El posesivo en genitivo plural es siempre -er (meiner, deiner, ihrer...).", "answer": true, "explain": "meiner Eltern, deiner Freunde: el plural genitivo siempre usa -er." },
+    { "id": "e4", "type": "true_false", "tags": ["genitivo"], "difficulty": 2, "statement": "Junge y Kunde siguen el mismo patrón de declinación que Nachbar.", "answer": true, "explain": "Todos son n-Deklination: añaden -n en acusativo, dativo y genitivo singular." },
+    { "id": "e5", "type": "match_pairs", "tags": ["genitivo"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Eltern", "der Nachbar", "der Ehemann", "die Kollegin"], "right": ["los padres", "el vecino", "el marido", "la compañera de trabajo"], "answer": [0, 1, 2, 3], "explain": "Vocabulario de relaciones familiares y laborales." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["genitivo"], "difficulty": 2, "prompt": "La casa de mis padres es grande.", "accept": ["Das Haus meiner Eltern ist groß"], "hintWords": ["das Haus meiner Eltern ist groß"], "strictAccents": false, "audio": "Das Haus meiner Eltern ist groß.", "explain": "meiner Eltern: genitivo plural." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["genitivo"], "difficulty": 2, "prompt": "El gato de mi vecino es negro.", "accept": ["Die Katze meines Nachbarn ist schwarz"], "hintWords": ["die Katze meines Nachbarn ist schwarz"], "strictAccents": false, "audio": "Die Katze meines Nachbarn ist schwarz.", "explain": "meines Nachbarn: genitivo masculino, n-Deklination." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["genitivo"], "difficulty": 2, "prompt": "La decisión de mi jefe es importante.", "accept": ["Die Entscheidung meines Chefs ist wichtig"], "hintWords": ["die Entscheidung meines Chefs ist wichtig"], "strictAccents": false, "audio": "Die Entscheidung meines Chefs ist wichtig.", "explain": "meines Chefs: genitivo masculino, con -s." },
+    { "id": "e9", "type": "fill_blank", "tags": ["genitivo"], "difficulty": 3, "prompt": "Completa con la terminación correcta", "text": "die Katze mein___ Nachbar___.", "blanks": [{ "accept": ["es"] }, { "accept": ["n"] }], "bank": ["es", "n", "er"], "explain": "meines (posesivo genitivo masculino); Nachbarn (n-Deklination)." },
+    { "id": "e10", "type": "word_order", "tags": ["genitivo"], "difficulty": 2, "prompt": "Ordena: «Soy pariente de ella»", "tokens": ["mit ihr", "Ich bin", "verwandt"], "answer": ["Ich bin", "mit ihr", "verwandt"], "audio": "Ich bin mit ihr verwandt.", "explain": "sein + mit + dativo + verwandt: expresión fija." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["genitivo"], "difficulty": 2, "prompt": "Der Beruf ihres Ehemanns ist interessant.", "accept": ["La profesión de su marido es interesante."], "strictAccents": false, "audio": "Der Beruf ihres Ehemanns ist interessant.", "explain": "ihres Ehemanns: genitivo masculino con posesivo ihr." },
+    { "id": "e12", "type": "dialogue", "tags": ["genitivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Paul", "text": "Wessen Katze ist das?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das ist die Katze meines Nachbarn."], "hint": "responde con genitivo y posesivo" },
+      { "who": "Paul", "text": "Ach so, die kenne ich!", "speak": true }
+    ], "explain": "Práctica de wessen + genitivo con posesivo." },
+    { "id": "e13", "type": "listening", "tags": ["genitivo"], "difficulty": 1, "speak": "Das Haus meiner Eltern ist groß.", "mode": "write", "accept": ["Das Haus meiner Eltern ist groß"], "showTextAfter": true, "explain": "meiner Eltern: posesivo + genitivo plural." },
+    { "id": "e14", "type": "listening", "tags": ["genitivo"], "difficulty": 2, "speak": "Die Katze meines Nachbarn ist schwarz.", "mode": "choose", "options": ["Die Katze meines Nachbarn ist schwarz.", "Die Katze mein Nachbar ist schwarz.", "Die Katze meines Nachbar ist schwarz."], "answer": 0, "showTextAfter": true, "explain": "Solo la primera combina correctamente meines con la n-Deklination de Nachbarn." },
+    { "id": "e15", "type": "shadowing", "tags": ["genitivo"], "difficulty": 2, "speak": "Das Haus meiner Eltern ist groß, und die Katze meines Nachbarn spielt oft im Garten.", "es": "La casa de mis padres es grande, y el gato de mi vecino juega a menudo en el jardín.", "ipa": "/das haʊ̯s ˈmaɪ̯nɐ ˈɛltɐn ɪst ɡʁoːs ʊnt diː ˈkatsə ˈmaɪ̯nəs ˈnaːxbaːɐ̯n ˈʃpiːlt ɔft ɪm ˈɡaʁtn̩/", "esApprox": "«das jaus MÁI-ner ÉL-tern ist gros, unt di KÁ-tse MÁI-nes NACH-barn SHPILT oft im GAR-ten»", "focus": "meiner Eltern (plural genitivo) y meines Nachbarn (n-Deklination masculina): dos genitivos con posesivo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["genitivo"], "difficulty": 2, "speak": "Der Beruf ihres Ehemanns ist interessant, und das Büro meiner Kollegin ist sehr modern.", "es": "La profesión del marido de ella es interesante, y la oficina de mi compañera es muy moderna.", "ipa": "/deːɐ̯ bəˈʁuːf ˈiːʁəs ˈeːəmans ɪst ɪntəʁɛˈsant ʊnt das ˈbyːʁo ˈmaɪ̯nɐ kɔˈleːɡɪn ɪst zeːɐ̯ moˈdɛʁn/", "esApprox": "«der be-RUF Í-res É-e-mans ist in-te-re-SANT, unt das BÜ-ro MÁI-ner ko-LÉ-guin ist zer mo-DERN»", "focus": "ihres Ehemanns (posesivo ihr + genitivo) y meiner Kollegin (posesivo mein + genitivo femenino, sin cambio).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["genitivo"], "difficulty": 2, "prompt": "Te preguntan de quién es el gato. Di que es el gato de tu vecino.", "modelAnswer": "Das ist die Katze meines Nachbarn.", "alsoValid": ["Die Katze gehört meinem Nachbarn."], "speak": "Das ist die Katze meines Nachbarn.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["genitivo"], "difficulty": 2, "prompt": "Clasifica cada genitivo: sigue la n-Deklination o el patrón normal", "buckets": ["n-Deklination (-n)", "Patrón normal (-s/-es)"], "items": [
+      { "text": "des Nachbarn", "bucket": 0 },
+      { "text": "des Chefs", "bucket": 1 },
+      { "text": "des Jungen", "bucket": 0 },
+      { "text": "des Ehemanns", "bucket": 1 }
+    ], "explain": "Nachbar y Junge siguen la n-Deklination; Chef y Ehemann siguen el patrón normal con -s." },
+    { "id": "e19", "type": "error_correction", "tags": ["genitivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Die Katze meines Nachbar ist schwarz.", "accept": ["Die Katze meines Nachbarn ist schwarz"], "audio": "Die Katze meines Nachbarn ist schwarz.", "explain": "Nachbar sigue la n-Deklination: en genitivo, es Nachbarn, no Nachbar." },
+    { "id": "e20", "type": "mcq", "tags": ["genitivo"], "difficulty": 2, "prompt": "«Das Haus meiner Eltern ist groß. Die Katze meines Nachbarn spielt oft im Garten meiner Eltern. Der Beruf ihres Ehemanns ist interessant.» ¿Dónde juega el gato del vecino?", "options": ["En su propia casa", "En el jardín de los padres del hablante", "En la oficina", "No se dice"], "answer": 1, "explain": "«spielt oft im Garten meiner Eltern» = juega a menudo en el jardín de mis padres." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Eltern", "es": "los padres", "esApprox": "«ÉL-tern»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Nachbar", "es": "el vecino", "esApprox": "«NACH-bar»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Katze", "es": "el gato", "esApprox": "«KÁ-tse»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Ehemann", "es": "el marido", "esApprox": "«É-e-man»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Kollegin", "es": "la compañera de trabajo", "esApprox": "«ko-LÉ-guin»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Chef", "es": "el jefe", "esApprox": "«shef»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Das Haus meiner Eltern ist groß, und die Katze meines Nachbarn spielt oft im Garten.", "es": "La casa de mis padres es grande, y el gato de mi vecino juega a menudo en el jardín.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Beruf ihres Ehemanns ist interessant, und das Büro meiner Kollegin ist sehr modern.", "es": "La profesión del marido de ella es interesante, y la oficina de mi compañera es muy moderna.", "from": "e16" }
+  ]
+}

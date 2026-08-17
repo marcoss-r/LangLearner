@@ -1,0 +1,340 @@
+{
+  "id": "fr-a1-023",
+  "lang": "fr",
+  "level": "A1",
+  "order": 23,
+  "title": "Pronunciación general IV: la liaison",
+  "objectives": [
+    "Reconocer cuándo se produce la liaison obligatoria: tras determinantes, pronombres sujeto y adjetivos antepuestos + vocal",
+    "Pronunciar correctamente las liaisons más frecuentes: les amis, vous êtes, ils ont, un ami",
+    "Reconocer que la liaison está prohibida después de et"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuando una consonante muda vuelve a sonar",
+      "body": "Ya te has encontrado la liaison muchas veces sin nombrarla: les amis, vous êtes, ils ont. Es el fenómeno por el que una consonante final normalmente muda **sí se pronuncia** cuando la palabra siguiente empieza por vocal (o h muda), enlazando las dos palabras. No es opcional en los casos más frecuentes: es obligatoria.",
+      "examples": [
+        { "target": "les amis", "es": "los amigos", "note": "s → z" },
+        { "target": "vous êtes", "es": "usted es / sois", "note": "s → z" },
+        { "target": "un grand homme", "es": "un gran hombre", "note": "d → t" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Dónde es obligatoria la liaison",
+      "headers": ["Contexto", "Ejemplo", "Sonido de enlace"],
+      "rows": [
+        ["Artículo/determinante + vocal", "les amis, un ami, mes amis", "s/n → z/n"],
+        ["Pronombre sujeto + verbo en vocal", "vous êtes, ils ont, on habite", "s/n → z/n"],
+        ["Número + sustantivo en vocal", "deux enfants, neuf ans, dix ans", "s/f/x → z/v/z"],
+        ["Adjetivo antepuesto + sustantivo en vocal", "un grand homme, un petit ami", "d/t → t"]
+      ],
+      "note": "Neuf ans es especial: la f de neuf suena como una v delante de vocal: «neuv-AN»."
+    },
+    {
+      "type": "contrast",
+      "title": "Después de et, nunca hay liaison",
+      "items": [
+        { "wrong": "un garçon et_un chien (enlazando et con la palabra siguiente)", "right": "un garçon et un chien, sin enlazar et", "why": "Et (y) es una de las pocas palabras que **prohíbe** la liaison: se hace una pausa breve después, nunca se enlaza con la palabra siguiente, aunque empiece por vocal." }
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "Los cuatro cambios de sonido más frecuentes",
+      "body": "La consonante de enlace no siempre suena como se escribe.",
+      "drills": [
+        { "target": "les amis", "ipa": "/le.z‿ami/", "esApprox": "«le-za-MÍ»", "hint": "s suena como z" },
+        { "target": "un ami", "ipa": "/œ̃.n‿ami/", "esApprox": "«un-na-MÍ»", "hint": "n suena como n, pegada a la vocal" },
+        { "target": "neuf ans", "ipa": "/nœ.v‿ɑ̃/", "esApprox": "«neu-VAN»", "hint": "f suena como v: caso especial" },
+        { "target": "un grand homme", "ipa": "/œ̃ɡʁɑ̃.t‿ɔm/", "esApprox": "«un-gran-TOM»", "hint": "d suena como t" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No todas las liaisons son obligatorias: hay muchas que son opcionales (más propias de un registro formal o de un discurso cuidado) y otras que están prohibidas en más casos de los que parece. De momento, céntrate solo en las obligatorias de la tabla: son las que se usan siempre, en cualquier registro."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "les amis",
+      "es": "los amigos",
+      "ipa": "/le.z‿ami/",
+      "esApprox": "«le-za-MÍ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les amis"
+    },
+    {
+      "id": "v2",
+      "target": "vous êtes",
+      "es": "usted es / sois",
+      "ipa": "/vu.z‿ɛt/",
+      "esApprox": "«vu-ZET»",
+      "pos": "expresión",
+      "gender": null
+    },
+    {
+      "id": "v3",
+      "target": "ils ont",
+      "es": "ellos tienen",
+      "ipa": "/il.z‿ɔ̃/",
+      "esApprox": "«il-ZON»",
+      "pos": "expresión",
+      "gender": null
+    },
+    {
+      "id": "v4",
+      "target": "un ami",
+      "es": "un amigo",
+      "ipa": "/œ̃.n‿ami/",
+      "esApprox": "«un-na-MÍ»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des amis"
+    },
+    {
+      "id": "v5",
+      "target": "un grand homme",
+      "es": "un gran hombre",
+      "ipa": "/œ̃ɡʁɑ̃.t‿ɔm/",
+      "esApprox": "«un-gran-TOM»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "des grands hommes"
+    },
+    {
+      "id": "v6",
+      "target": "neuf ans",
+      "es": "nueve años",
+      "ipa": "/nœ.v‿ɑ̃/",
+      "esApprox": "«neu-VAN»",
+      "pos": "expresión",
+      "gender": null
+    },
+    {
+      "id": "v7",
+      "target": "dix ans",
+      "es": "diez años",
+      "ipa": "/di.z‿ɑ̃/",
+      "esApprox": "«di-ZAN»",
+      "pos": "expresión",
+      "gender": null
+    },
+    {
+      "id": "v8",
+      "target": "deux enfants",
+      "es": "dos niños",
+      "ipa": "/dø.z‿ɑ̃.fɑ̃/",
+      "esApprox": "«deu-zan-FAN»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "deux enfants"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "En «neuf ans», ¿cómo suena la f?",
+      "options": ["como f", "como v", "muda, no suena", "como s"],
+      "answer": 1,
+      "explain": "Neuf ans es un caso especial: la f suena como v, «neu-VAN»."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["liaison"],
+      "difficulty": 1,
+      "statement": "La liaison después de «et» está prohibida.",
+      "answer": true,
+      "explain": "Et nunca se enlaza con la palabra siguiente, aunque empiece por vocal."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "statement": "En «un grand homme», la d de grand suena como t.",
+      "answer": true,
+      "explain": "Es uno de los cambios de sonido típicos de la liaison: d → t."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones NO tiene liaison, a diferencia de las demás?",
+      "options": ["les amis", "vous êtes", "un garçon et une fille", "ils ont"],
+      "answer": 2,
+      "explain": "Después de et nunca hay liaison, aunque une empiece por vocal."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con el sonido de su liaison",
+      "left": ["les amis", "neuf ans", "un grand homme", "ils ont"],
+      "right": ["d → t", "s → z (ils)", "f → v", "s → z (les)"],
+      "answer": [3, 2, 0, 1],
+      "explain": "Les amis y ils ont enlazan con z; neuf ans con v; un grand homme con t."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "Tiene nueve años.",
+      "accept": ["Il a neuf ans", "Elle a neuf ans"],
+      "hintWords": ["neuf ans"],
+      "strictAccents": false,
+      "audio": "Il a neuf ans.",
+      "explain": "Neuf ans: la f suena como v."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "Tengo dos niños y un amigo.",
+      "accept": ["J'ai deux enfants et un ami"],
+      "hintWords": ["deux enfants", "un ami"],
+      "strictAccents": false,
+      "audio": "J'ai deux enfants et un ami.",
+      "explain": "Deux enfants y un ami llevan liaison; et no lleva ninguna."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "___ amis sont contents.",
+      "blanks": [{ "accept": ["Les"] }],
+      "bank": ["Les", "Des", "Un"],
+      "explain": "Les amis: la s de les enlaza con la vocal de amis."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Ustedes son estudiantes»",
+      "tokens": ["étudiants", "Vous", "êtes"],
+      "answer": ["Vous", "êtes", "étudiants"],
+      "audio": "Vous êtes étudiants.",
+      "explain": "Vous êtes: la s de vous enlaza con la e de êtes."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["liaison"],
+      "difficulty": 1,
+      "prompt": "Ils ont un grand homme comme ami.",
+      "accept": ["Tienen a un gran hombre como amigo."],
+      "strictAccents": false,
+      "audio": "Ils ont un grand homme comme ami.",
+      "explain": "Ils ont y un grand homme llevan las dos liaisons de esta clase."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus amigos",
+      "turns": [
+        { "who": "Léa", "text": "Tu as des amis ici ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai des amis ici.", "Oui, j'ai un ami ici."], "hint": "confirma que tienes amigos" },
+        { "who": "Léa", "text": "Super, moi aussi !", "speak": true }
+      ],
+      "explain": "Des amis lleva liaison: «de-za-MÍ»."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "speak": "Vous êtes des amis ?",
+      "mode": "write",
+      "accept": ["Vous êtes des amis ?"],
+      "showTextAfter": true,
+      "explain": "Dos liaisons seguidas: vous êtes y des amis."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "speak": "un garçon et une fille",
+      "mode": "choose",
+      "options": ["un garçon et une fille", "les amis", "vous êtes", "ils ont"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Es la única sin liaison entre et y une: la pausa se nota."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["liaison"],
+      "difficulty": 3,
+      "speak": "Les amis ont neuf ans et ils sont contents.",
+      "es": "Los amigos tienen nueve años y están contentos.",
+      "ipa": "/le.z‿ami ɔ̃ nœ.v‿ɑ̃ e il sɔ̃ kɔ̃.tɑ̃/",
+      "esApprox": "«le-za-MÍ on neu-VAN e il son kon-TAN»",
+      "focus": "Tres liaisons distintas en una frase: les amis, ont neuf, y ninguna después de et.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "Di en voz alta que tienes dos amigos y que tienen nueve años.",
+      "modelAnswer": "J'ai deux amis et ils ont neuf ans.",
+      "alsoValid": ["J'ai deux amis, ils ont neuf ans."],
+      "speak": "J'ai deux amis et ils ont neuf ans.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "¿Esta expresión lleva liaison o no?",
+      "buckets": ["Con liaison", "Sin liaison"],
+      "items": [
+        { "text": "les amis", "bucket": 0 },
+        { "text": "un garçon et une fille", "bucket": 1 },
+        { "text": "vous êtes", "bucket": 0 },
+        { "text": "neuf ans", "bucket": 0 },
+        { "text": "le chat et le chien", "bucket": 1 }
+      ],
+      "explain": "La liaison es obligatoria tras determinantes, pronombres y ciertos adjetivos, pero nunca después de et."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["liaison"],
+      "difficulty": 2,
+      "prompt": "Hay un error: han enlazado después de et. Corrige explicando la pausa.",
+      "wrong": "un garçon et_un chien (enlazado)",
+      "accept": ["un garçon et un chien, sin enlazar et"],
+      "explain": "Et nunca lleva liaison: se hace una pequeña pausa después, no se enlaza con la vocal siguiente."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "les amis", "es": "los amigos", "esApprox": "«le-za-MÍ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "vous êtes", "es": "usted es / sois", "esApprox": "«vu-ZET»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ils ont", "es": "ellos tienen", "esApprox": "«il-ZON»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "un ami", "es": "un amigo", "esApprox": "«un-na-MÍ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un grand homme", "es": "un gran hombre", "esApprox": "«un-gran-TOM»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "neuf ans", "es": "nueve años", "esApprox": "«neu-VAN»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "deux enfants", "es": "dos niños", "esApprox": "«deu-zan-FAN»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Vous êtes des amis ?", "es": "¿Sois amigos?", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Les amis ont neuf ans et ils sont contents.", "es": "Los amigos tienen nueve años y están contentos.", "from": "e14" }
+  ]
+}

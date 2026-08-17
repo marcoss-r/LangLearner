@@ -1,0 +1,252 @@
+{
+  "id": "fr-b1-206",
+  "lang": "fr",
+  "level": "B1",
+  "order": 206,
+  "title": "El plus-que-parfait: el pasado del pasado",
+  "objectives": [
+    "Repasar la formación del plus-que-parfait: imparfait de avoir/être + participio",
+    "Usar el plus-que-parfait para mostrar que una acción pasada ocurrió antes que otra",
+    "Practicar frases que combinan passé composé y plus-que-parfait"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una acción antes de otra acción pasada",
+      "body": "Ya usaste el plus-que-parfait en la hipótesis irreal del pasado (si j'avais su...). Ahora lo usas fuera de esa estructura, para mostrar que algo ya había pasado cuando ocurrió otra cosa en el pasado."
+    },
+    {
+      "type": "table",
+      "title": "Formación",
+      "headers": ["Verbo", "Ejemplo"],
+      "rows": [
+        ["manger (avoir)", "j'avais déjà mangé"],
+        ["partir (être)", "il était déjà parti"],
+        ["oublier (avoir)", "elle avait oublié"]
+      ],
+      "note": "Imparfait del auxiliar + participio pasado, igual que en el conditionnel passé pero con el auxiliar en imparfait."
+    },
+    {
+      "type": "table",
+      "title": "Dos acciones pasadas, una antes que otra",
+      "headers": ["Acción anterior (plus-que-parfait)", "Acción posterior (passé composé)"],
+      "rows": [
+        ["il était déjà parti", "quand je suis arrivé"],
+        ["elle avait oublié ses clés", "elle est revenue les chercher"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il était déjà parti", "es": "ya se había ido", "ipa": "/i.l‿e.tɛ de.ʒa paʁ.ti/", "esApprox": "«il e-TE de-SHA par-TÍ»", "pos": "verbo", "gender": null },
+    { "id": "v2", "target": "j'avais déjà mangé", "es": "ya había comido", "ipa": "/ʒa.vɛ de.ʒa mɑ̃.ʒe/", "esApprox": "«sha-VE de-SHA man-SHÉ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "elle avait oublié", "es": "se había olvidado", "ipa": "/ɛ.l‿a.vɛ u.bli.je/", "esApprox": "«e-la-VE u-bli-YÉ»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "nous avions fini", "es": "habíamos terminado", "ipa": "/nu.z‿a.vjɔ̃ fi.ni/", "esApprox": "«nu-za-VIÓN fi-NÍ»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "quand je suis arrivé, il était parti", "es": "cuando llegué, se había ido", "ipa": "/kɑ̃ ʒə sɥi.z‿a.ʁi.ve i.l‿e.tɛ paʁ.ti/", "esApprox": "«kan ye süí-za-ri-VÉ il e-TE par-TÍ»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "j'avais déjà vu ce film", "es": "ya había visto esta película", "ipa": "/ʒa.vɛ de.ʒa vy sə film/", "esApprox": "«sha-VE de-SHA VÜ se FILM»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "ils étaient partis avant nous", "es": "se habían ido antes que nosotros", "ipa": "/il.z‿e.tɛ paʁ.ti a.vɑ̃ nu/", "esApprox": "«il-ze-TE par-TÍ a-VAN nu»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "tu avais oublié tes clés", "es": "habías olvidado tus llaves", "ipa": "/ty a.vɛ u.bli.je te kle/", "esApprox": "«tü a-VE u-bli-YÉ te KLÉ»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se forma el plus-que-parfait?",
+      "options": ["imparfait de avoir/être + participio", "conditionnel de avoir/être + participio", "presente de avoir/être + participio", "futur de avoir/être + participio"],
+      "answer": 0,
+      "explain": "El plus-que-parfait usa el auxiliar en imparfait."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "¿Qué tiempo muestra que algo ya había pasado antes de otra acción del pasado?",
+      "options": ["passé composé", "imparfait", "plus-que-parfait", "futur simple"],
+      "answer": 2,
+      "explain": "El plus-que-parfait es el «pasado del pasado»."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "statement": "Partir usa être en el plus-que-parfait, igual que en el passé composé.",
+      "answer": true,
+      "explain": "El auxiliar es el mismo en todos los tiempos compuestos."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "statement": "El plus-que-parfait solo se usa en la hipótesis con si.",
+      "answer": false,
+      "explain": "También se usa fuera de las hipótesis, para mostrar anterioridad entre dos acciones pasadas."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su auxiliar en plus-que-parfait",
+      "left": ["j'avais mangé", "il était parti", "elle avait oublié", "ils étaient partis"],
+      "right": ["avoir", "être", "avoir", "être"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Manger y oublier usan avoir; partir usa être."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "Cuando llegué, ya se había ido.",
+      "accept": ["Quand je suis arrivé, il était déjà parti"],
+      "hintWords": ["quand je suis arrivé", "il était déjà parti"],
+      "strictAccents": true,
+      "audio": "Quand je suis arrivé, il était déjà parti.",
+      "explain": "Passé composé (je suis arrivé) + plus-que-parfait (il était déjà parti)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "Había olvidado sus llaves, así que volvió a buscarlas.",
+      "accept": ["Elle avait oublié ses clés, donc elle est revenue les chercher"],
+      "hintWords": ["elle avait oublié ses clés", "donc elle est revenue les chercher"],
+      "strictAccents": true,
+      "audio": "Elle avait oublié ses clés, donc elle est revenue les chercher.",
+      "explain": "Plus-que-parfait (avait oublié) + passé composé (est revenue)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Quand nous ___ arrivés, ils ___ déjà partis.",
+      "blanks": [{ "accept": ["sommes"] }, { "accept": ["étaient"] }],
+      "bank": ["sommes", "étaient", "avions"],
+      "explain": "Passé composé (sommes arrivés) + plus-que-parfait (étaient partis)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Ya había visto esta película antes»",
+      "tokens": ["avant", "J'avais déjà vu ce film"],
+      "answer": ["J'avais déjà vu ce film", "avant"],
+      "audio": "J'avais déjà vu ce film avant.",
+      "explain": "Plus-que-parfait mostrando anterioridad."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "Ils étaient partis avant nous, donc nous avons dû prendre un taxi.",
+      "accept": ["Se habían ido antes que nosotros, así que tuvimos que coger un taxi."],
+      "strictAccents": false,
+      "audio": "Ils étaient partis avant nous, donc nous avons dû prendre un taxi.",
+      "explain": "Plus-que-parfait (étaient partis) + passé composé (avons dû)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando lo que había pasado antes",
+      "turns": [
+        { "who": "Léa", "text": "Il était encore là quand tu es arrivé ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, il était déjà parti.", "Non, il avait déjà fini son travail."], "hint": "usa el plus-que-parfait" },
+        { "who": "Léa", "text": "Ah, dommage !", "speak": true }
+      ],
+      "explain": "Repaso combinado del plus-que-parfait."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "speak": "Quand je suis arrivé, il était déjà parti, et elle avait oublié ses clés.",
+      "mode": "write",
+      "accept": ["Quand je suis arrivé, il était déjà parti, et elle avait oublié ses clés"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de passé composé y plus-que-parfait."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 1,
+      "speak": "il était déjà parti",
+      "mode": "choose",
+      "options": ["il est déjà parti", "il était déjà parti", "il sera déjà parti", "il serait déjà parti"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Il était déjà parti es el plus-que-parfait de partir."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 3,
+      "speak": "Quand je suis arrivé, il était déjà parti. Elle avait oublié ses clés, donc elle est revenue les chercher. Nous avions déjà fini quand ils sont arrivés.",
+      "es": "Cuando llegué, ya se había ido. Había olvidado sus llaves, así que volvió a buscarlas. Ya habíamos terminado cuando llegaron.",
+      "ipa": "/kɑ̃ ʒə sɥi.z‿a.ʁi.ve i.l‿e.tɛ de.ʒa paʁ.ti ɛ.l‿a.vɛ u.bli.je se kle dɔ̃k ɛ.l‿ɛ ʁə.və.ny le ʃɛʁ.ʃe nu.z‿a.vjɔ̃ de.ʒa fi.ni kɑ̃.t‿il sɔ̃.t‿a.ʁi.ve/",
+      "esApprox": "«kan ye süí-za-ri-VÉ il e-TE de-SHA par-TÍ e-la-VE u-bli-YÉ se KLÉ donk e-le re-ve-NÜ le sher-SHÉ nu-za-VIÓN de-SHA fi-NÍ kan-til son-ta-ri-VÉ»",
+      "focus": "Tres frases combinando passé composé y plus-que-parfait.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "Cuenta algo que ya había pasado antes de otro momento del pasado, usando plus-que-parfait.",
+      "modelAnswer": "Quand je suis arrivé, il était déjà parti.",
+      "alsoValid": ["J'avais déjà mangé quand elle est arrivée."],
+      "speak": "Quand je suis arrivé, il était déjà parti.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "¿Es passé composé o plus-que-parfait?",
+      "buckets": ["Passé composé", "Plus-que-parfait"],
+      "items": [
+        { "text": "je suis arrivé", "bucket": 0 },
+        { "text": "il était parti", "bucket": 1 },
+        { "text": "elle est revenue", "bucket": 0 },
+        { "text": "elle avait oublié", "bucket": 1 }
+      ],
+      "explain": "Je suis arrivé y elle est revenue son passé composé; il était parti y elle avait oublié son plus-que-parfait."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["plus-que-parfait"],
+      "difficulty": 2,
+      "prompt": "Hay un error: la acción anterior exige plus-que-parfait. Corrige la frase entera.",
+      "wrong": "Quand je suis arrivé, il est déjà parti.",
+      "accept": ["Quand je suis arrivé, il était déjà parti"],
+      "audio": "Quand je suis arrivé, il était déjà parti.",
+      "explain": "La acción anterior (irse) exige plus-que-parfait (il était parti), no presente."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il était déjà parti", "es": "ya se había ido", "esApprox": "«il e-TE de-SHA par-TÍ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'avais déjà mangé", "es": "ya había comido", "esApprox": "«sha-VE de-SHA man-SHÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "elle avait oublié", "es": "se había olvidado", "esApprox": "«e-la-VE u-bli-YÉ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "nous avions fini", "es": "habíamos terminado", "esApprox": "«nu-za-VIÓN fi-NÍ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "j'avais déjà vu ce film", "es": "ya había visto esta película", "esApprox": "«sha-VE de-SHA VÜ se FILM»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "tu avais oublié tes clés", "es": "habías olvidado tus llaves", "esApprox": "«tü a-VE u-bli-YÉ te KLÉ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Quand je suis arrivé, il était déjà parti.", "es": "Cuando llegué, ya se había ido.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Elle avait oublié ses clés, donc elle est revenue les chercher.", "es": "Había olvidado sus llaves, así que volvió a buscarlas.", "from": "e7" }
+  ]
+}

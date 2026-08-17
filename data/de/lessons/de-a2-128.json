@@ -1,0 +1,85 @@
+{
+  "id": "de-a2-128",
+  "lang": "de",
+  "level": "A2",
+  "order": 128,
+  "title": "Bevor y nachdem: antes de y después de",
+  "objectives": [
+    "Usar bevor (antes de que) para introducir la acción que ocurre después en el tiempo",
+    "Usar nachdem (después de que) para introducir la acción que ocurre primero, normalmente en Perfekt",
+    "Aplicar el orden de subordinada (verbo al final) en ambas conjunciones"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "bevor: lo que pasa DESPUÉS en el tiempo",
+      "body": "Bevor (antes de que) introduce la acción que, en el tiempo real, ocurre MÁS TARDE: «Ich wasche mir die Hände, bevor ich esse» (Me lavo las manos antes de comer — primero lavo, luego como). El verbo de la frase con bevor va al final, como cualquier subordinada.",
+      "examples": [
+        { "target": "Ich wasche mir die Hände, bevor ich esse.", "es": "Me lavo las manos antes de comer." }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "nachdem: lo que pasa PRIMERO, normalmente en Perfekt",
+      "body": "Nachdem (después de que) introduce la acción que ocurre PRIMERO. Como esa acción ya está terminada cuando pasa la siguiente, la frase con nachdem suele ir en Perfekt, aunque el resto de la frase esté en presente: «Nachdem ich gegessen habe, gehe ich spazieren» (Después de comer, voy a pasear — primero como, luego paseo).",
+      "examples": [
+        { "target": "Nachdem ich gegessen habe, gehe ich spazieren.", "es": "Después de comer, voy a pasear." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Trucó: bevor + acción que pasa después; nachdem + acción que ya pasó (por eso casi siempre en Perfekt). Ambas mandan el verbo al final de su propia frase, como weil, dass, wenn, als y obwohl."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "bevor", "es": "antes de que", "ipa": "/bəˈfoːɐ̯/", "esApprox": "«be-FOR»", "pos": "conjunción", "gender": null, "example": { "target": "Ich wasche mir die Hände, bevor ich esse.", "es": "Me lavo las manos antes de comer." } },
+    { "id": "v2", "target": "nachdem", "es": "después de que", "ipa": "/naːxˈdeːm/", "esApprox": "«nach-DEM»", "pos": "conjunción", "gender": null, "example": { "target": "Nachdem ich gegessen habe, gehe ich spazieren.", "es": "Después de comer, voy a pasear." } },
+    { "id": "v3", "target": "zuerst", "es": "primero", "ipa": "/tsuˈeːɐ̯st/", "esApprox": "«tsu-ÉRST»", "pos": "adverbio", "gender": null, "example": { "target": "Zuerst esse ich.", "es": "Primero como." } },
+    { "id": "v4", "target": "die Reihenfolge", "es": "el orden, la secuencia", "ipa": "/ˈʁaɪ̯ənˌfɔlɡə/", "esApprox": "«RÁI-en-fol-gue»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Reihenfolge ist wichtig.", "es": "El orden es importante." } },
+    { "id": "v5", "target": "das Zähneputzen", "es": "el cepillado de dientes", "ipa": "/ˈtsɛːnəpʊtsn̩/", "esApprox": "«TSÉ-ne-pu-tsen»", "pos": "sustantivo", "gender": "n", "example": { "target": "Bevor ich schlafe, putze ich mir die Zähne.", "es": "Antes de dormir, me cepillo los dientes." } },
+    { "id": "v6", "target": "duschen", "es": "ducharse", "ipa": "/ˈduːʃn̩/", "esApprox": "«DÚ-shen»", "pos": "verbo", "gender": null, "example": { "target": "Ich dusche, bevor ich frühstücke.", "es": "Me ducho antes de desayunar." } },
+    { "id": "v7", "target": "danach", "es": "después de eso", "ipa": "/daˈnaːx/", "esApprox": "«da-NACH»", "pos": "adverbio", "gender": null, "example": { "target": "Danach gehe ich raus.", "es": "Después de eso salgo." } },
+    { "id": "v8", "target": "abschließen", "es": "terminar, concluir", "ipa": "/ˈapʃliːsn̩/", "esApprox": "«AP-shli-sen»", "pos": "verbo", "gender": null, "example": { "target": "Nachdem ich die Arbeit abgeschlossen habe, gehe ich nach Hause.", "es": "Después de terminar el trabajo, voy a casa." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["tiempo"], "difficulty": 1, "prompt": "¿Qué significa «bevor»?", "options": ["después de que", "antes de que", "mientras", "cuando"], "answer": 1, "explain": "bevor = antes de que." },
+    { "id": "e2", "type": "mcq", "tags": ["tiempo"], "difficulty": 2, "prompt": "¿En qué tiempo suele ir la frase con «nachdem»?", "options": ["Futuro", "Perfekt", "Imperativo", "Ninguno en especial"], "answer": 1, "explain": "nachdem suele ir en Perfekt, porque describe algo ya terminado." },
+    { "id": "e3", "type": "true_false", "tags": ["tiempo"], "difficulty": 2, "statement": "bevor introduce la acción que ocurre DESPUÉS en el tiempo real.", "answer": true, "explain": "«Me lavo las manos antes de comer»: primero lavo (bevor), luego como." },
+    { "id": "e4", "type": "true_false", "tags": ["tiempo"], "difficulty": 2, "statement": "nachdem manda el verbo al final, igual que bevor.", "answer": true, "explain": "Ambas son subordinantes: mismo patrón de orden de palabras." },
+    { "id": "e5", "type": "match_pairs", "tags": ["tiempo"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["bevor", "nachdem", "zuerst", "danach"], "right": ["antes de que", "después de que", "primero", "después de eso"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave sobre secuencia temporal." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["tiempo"], "difficulty": 2, "prompt": "Me lavo las manos antes de comer.", "accept": ["Ich wasche mir die Hände, bevor ich esse"], "hintWords": ["ich wasche mir die Hände, bevor ich esse"], "strictAccents": false, "audio": "Ich wasche mir die Hände, bevor ich esse.", "explain": "bevor + esse (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["tiempo"], "difficulty": 2, "prompt": "Después de comer, voy a pasear.", "accept": ["Nachdem ich gegessen habe, gehe ich spazieren"], "hintWords": ["nachdem ich gegessen habe, gehe ich spazieren"], "strictAccents": false, "audio": "Nachdem ich gegessen habe, gehe ich spazieren.", "explain": "nachdem + gegessen habe (Perfekt, con habe al final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["tiempo"], "difficulty": 2, "prompt": "Antes de dormir, me cepillo los dientes.", "accept": ["Bevor ich schlafe, putze ich mir die Zähne"], "hintWords": ["bevor ich schlafe, putze ich mir die Zähne"], "strictAccents": false, "audio": "Bevor ich schlafe, putze ich mir die Zähne.", "explain": "bevor + schlafe (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["tiempo"], "difficulty": 3, "prompt": "Completa con bevor o nachdem", "text": "Ich dusche, ___ ich frühstücke. ___ ich die Arbeit abgeschlossen habe, gehe ich nach Hause.", "blanks": [{ "accept": ["bevor"] }, { "accept": ["Nachdem"] }], "bank": ["bevor", "Nachdem"], "explain": "bevor (lo que pasa después: frühstücken); Nachdem (lo que ya pasó: abgeschlossen)." },
+    { "id": "e10", "type": "word_order", "tags": ["tiempo"], "difficulty": 3, "prompt": "Ordena: «El orden es importante»", "tokens": ["ist", "Die Reihenfolge", "wichtig"], "answer": ["Die Reihenfolge", "ist", "wichtig"], "audio": "Die Reihenfolge ist wichtig.", "explain": "Die Reihenfolge ist wichtig: sujeto-verbo-adjetivo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["tiempo"], "difficulty": 2, "prompt": "Danach gehe ich raus.", "accept": ["Después de eso salgo."], "strictAccents": false, "audio": "Danach gehe ich raus.", "explain": "danach: adverbio simple, distinto de nachdem (conjunción)." },
+    { "id": "e12", "type": "dialogue", "tags": ["tiempo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Mama", "text": "Wäschst du dir die Hände vor dem Essen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich wasche mir die Hände, bevor ich esse."], "hint": "responde con bevor" },
+      { "who": "Mama", "text": "Sehr gut!", "speak": true }
+    ], "explain": "Práctica de bevor en una conversación cotidiana." },
+    { "id": "e13", "type": "listening", "tags": ["tiempo"], "difficulty": 1, "speak": "Ich wasche mir die Hände, bevor ich esse.", "mode": "write", "accept": ["Ich wasche mir die Hände, bevor ich esse"], "showTextAfter": true, "explain": "bevor con el verbo (esse) al final." },
+    { "id": "e14", "type": "listening", "tags": ["tiempo"], "difficulty": 2, "speak": "Nachdem ich gegessen habe, gehe ich spazieren.", "mode": "choose", "options": ["Nachdem ich gegessen habe, gehe ich spazieren.", "Bevor ich gegessen habe, gehe ich spazieren.", "Nachdem ich esse, gehe ich spazieren."], "answer": 0, "showTextAfter": true, "explain": "nachdem + Perfekt (gegessen habe): la combinación correcta para «después de comer»." },
+    { "id": "e15", "type": "shadowing", "tags": ["tiempo"], "difficulty": 2, "speak": "Ich dusche, bevor ich frühstücke, und nachdem ich gegessen habe, gehe ich zur Arbeit.", "es": "Me ducho antes de desayunar, y después de comer, voy al trabajo.", "ipa": "/ɪç ˈduːʃə bəˈfoːɐ̯ ɪç ˈfʁyːʃtʏkə ʊnt naːxˈdeːm ɪç ɡəˈɡɛsn̩ ˈhaːbə ˈɡeːə ɪç tsuːɐ̯ ˈaʁbaɪ̯t/", "esApprox": "«ich DÚ-she, be-FOR ich FRÜ-shtü-ke, unt nach-DEM ich ge-GUÉ-sen JÁ-be, GUÉ-e ich tsur AR-bait»", "focus": "bevor (presente, lo que viene después) frente a nachdem + Perfekt (lo que ya pasó).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["tiempo"], "difficulty": 2, "speak": "Bevor ich schlafe, putze ich mir die Zähne, und danach lese ich noch ein bisschen.", "es": "Antes de dormir, me cepillo los dientes, y después de eso leo un poco más.", "ipa": "/bəˈfoːɐ̯ ɪç ˈʃlaːfə ˈpʊtsə ɪç miːɐ̯ diː ˈtsɛːnə ʊnt daˈnaːx ˈleːzə ɪç nɔx aɪ̯n ˈbɪsçən/", "esApprox": "«be-FOR ich SHLÁ-fe, PÚ-tse ich mir di TSÉ-ne, unt da-NACH LÉ-ze ich noch ain BÍS-chen»", "focus": "bevor (subordinante) frente a danach (adverbio simple, sin mover el verbo).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["tiempo"], "difficulty": 2, "prompt": "Te preguntan qué haces antes de comer. Di que te lavas las manos antes de comer.", "modelAnswer": "Ich wasche mir die Hände, bevor ich esse.", "alsoValid": ["Bevor ich esse, wasche ich mir die Hände."], "speak": "Ich wasche mir die Hände, bevor ich esse.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["tiempo"], "difficulty": 2, "prompt": "Clasifica cada frase: bevor (después en el tiempo) o nachdem (antes en el tiempo, con Perfekt)", "buckets": ["bevor", "nachdem"], "items": [
+      { "text": "..., bevor ich esse.", "bucket": 0 },
+      { "text": "Nachdem ich gegessen habe, ...", "bucket": 1 },
+      { "text": "..., bevor ich schlafe.", "bucket": 0 },
+      { "text": "Nachdem ich die Arbeit abgeschlossen habe, ...", "bucket": 1 }
+    ], "explain": "bevor introduce lo que pasa después; nachdem (con Perfekt) introduce lo que ya pasó." },
+    { "id": "e19", "type": "error_correction", "tags": ["tiempo"], "difficulty": 3, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich wasche mir die Hände, bevor esse ich.", "accept": ["Ich wasche mir die Hände, bevor ich esse"], "audio": "Ich wasche mir die Hände, bevor ich esse.", "explain": "Con bevor, el verbo conjugado (esse) va al final, no justo después de bevor." },
+    { "id": "e20", "type": "mcq", "tags": ["tiempo"], "difficulty": 2, "prompt": "«Ich dusche, bevor ich frühstücke. Nachdem ich gegessen habe, gehe ich zur Arbeit. Danach lese ich noch ein bisschen.» ¿Qué hace la persona justo antes de desayunar?", "options": ["Trabaja", "Se ducha", "Lee un poco", "Va a pasear"], "answer": 1, "explain": "«Ich dusche, bevor ich frühstücke» = me ducho antes de desayunar." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "bevor", "es": "antes de que", "esApprox": "«be-FOR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "nachdem", "es": "después de que", "esApprox": "«nach-DEM»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "zuerst", "es": "primero", "esApprox": "«tsu-ÉRST»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Reihenfolge", "es": "el orden, la secuencia", "esApprox": "«RÁI-en-fol-gue»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "duschen", "es": "ducharse", "esApprox": "«DÚ-shen»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "abschließen", "es": "terminar, concluir", "esApprox": "«AP-shli-sen»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich dusche, bevor ich frühstücke, und nachdem ich gegessen habe, gehe ich zur Arbeit.", "es": "Me ducho antes de desayunar, y después de comer, voy al trabajo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Bevor ich schlafe, putze ich mir die Zähne, und danach lese ich noch ein bisschen.", "es": "Antes de dormir, me cepillo los dientes, y después de eso leo un poco más.", "from": "e16" }
+  ]
+}

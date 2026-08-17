@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-123",
+  "lang": "fr",
+  "level": "A2",
+  "order": 123,
+  "title": "Describir objetos sin nombrarlos dos veces: un juego de adivinanzas",
+  "objectives": [
+    "Describir un objeto usando pronombres y demostrativos (clases A2-113 a A2-120), sin repetir su nombre",
+    "Usar servir à + infinitivo para explicar la función de un objeto",
+    "Jugar a adivinar objetos con pistas cortas y naturales"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El juego de las adivinanzas",
+      "body": "Para describir un objeto sin decir su nombre, combina lo que ya sabes: c'est + adjetivo, ça sert à + infinitivo, on l'utilise pour..., y los pronombres en/y/le/la/les cuando haga falta.",
+      "examples": [
+        { "target": "C'est petit, on l'utilise pour écrire, et ça sert aussi à dessiner.", "es": "Es pequeño, se usa para escribir, y también sirve para dibujar.", "note": "adivinanza: le crayon" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para describir sin nombrar",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["Ça sert à + infinitif", "Sirve para..."],
+        ["On l'utilise pour + infinitif", "Se usa para..."],
+        ["On le/la trouve dans...", "Se encuentra en..."],
+        ["C'est fait en...", "Está hecho de..."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Un buen truco: empieza por lo más general (tamaño, forma, material) y termina por la función, para que la adivinanza no sea demasiado fácil ni demasiado difícil."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "servir à", "es": "servir para", "ipa": "/sɛʁ.viʁ a/", "esApprox": "«ser-VIR a»", "pos": "verbo", "gender": null, "example": { "target": "Ça sert à couper.", "es": "Sirve para cortar." } },
+    { "id": "v2", "target": "utiliser", "es": "usar, utilizar", "ipa": "/y.ti.li.ze/", "esApprox": "«ü-ti-li-ZÉ»", "pos": "verbo", "gender": null, "example": { "target": "On l'utilise pour écrire.", "es": "Se usa para escribir." } },
+    { "id": "v3", "target": "c'est fait en", "es": "está hecho de", "ipa": "/sɛ fɛ ɑ̃/", "esApprox": "«se fe AN»", "pos": "expresión", "gender": null, "example": { "target": "C'est fait en métal.", "es": "Está hecho de metal." } },
+    { "id": "v4", "target": "couper", "es": "cortar", "ipa": "/ku.pe/", "esApprox": "«ku-PÉ»", "pos": "verbo", "gender": null, "example": { "target": "Ça sert à couper le pain.", "es": "Sirve para cortar el pan." } },
+    { "id": "v5", "target": "dessiner", "es": "dibujar", "ipa": "/de.si.ne/", "esApprox": "«de-si-NÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'aime dessiner.", "es": "Me gusta dibujar." } },
+    { "id": "v6", "target": "en métal / en bois / en plastique", "es": "de metal / de madera / de plástico", "ipa": "/ɑ̃ me.tal ɑ̃ bwa ɑ̃ plas.tik/", "esApprox": "«an me-TAL an BUÁ an plas-TIK»", "pos": "expresión", "gender": null, "example": { "target": "C'est fait en bois.", "es": "Está hecho de madera." } },
+    { "id": "v7", "target": "deviner", "es": "adivinar", "ipa": "/də.vi.ne/", "esApprox": "«de-vi-NÉ»", "pos": "verbo", "gender": null, "example": { "target": "Tu peux deviner ce que c'est ?", "es": "¿Puedes adivinar qué es?" } },
+    { "id": "v8", "target": "un objet", "es": "un objeto", "ipa": "/œ̃.n‿ɔb.ʒɛ/", "esApprox": "«un-nob-YÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Devine cet objet !", "es": "¡Adivina este objeto!" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["demostrativos", "pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «sirve para cortar»?",
+      "options": ["Ça utilise couper.", "Ça sert à couper.", "Ça fait couper.", "Ça devine couper."],
+      "answer": 1,
+      "explain": "Servir à + infinitivo: expresar la función de un objeto."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["demostrativos", "pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «está hecho de madera»?",
+      "options": ["C'est en bois.", "C'est fait en bois.", "C'est de bois.", "C'est bois."],
+      "answer": 1,
+      "explain": "C'est fait en + material."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "statement": "Ça sert à y on l'utilise pour tienen un significado muy parecido.",
+      "answer": true,
+      "explain": "Ambas expresiones describen la función de un objeto."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "statement": "En las adivinanzas, es mejor empezar por la función antes que por el tamaño o el material.",
+      "answer": false,
+      "explain": "Es mejor empezar por lo general (tamaño, material) y terminar por la función."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["servir à", "utiliser", "deviner", "un objet"],
+      "right": ["adivinar", "un objeto", "servir para", "usar"],
+      "answer": [2, 3, 0, 1],
+      "explain": "Servir à = servir para, utiliser = usar, deviner = adivinar, objet = objeto."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["demostrativos", "pronombres"],
+      "difficulty": 2,
+      "prompt": "Es pequeño, se usa para escribir, y también sirve para dibujar.",
+      "accept": ["C'est petit, on l'utilise pour écrire, et ça sert aussi à dessiner"],
+      "hintWords": ["c'est petit", "on l'utilise pour écrire", "ça sert aussi à dessiner"],
+      "strictAccents": true,
+      "audio": "C'est petit, on l'utilise pour écrire, et ça sert aussi à dessiner.",
+      "explain": "On l'utilise pour + ça sert à, dos formas de explicar la función."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Está hecho de metal. Sirve para cortar el pan.",
+      "accept": ["C'est fait en métal. Ça sert à couper le pain"],
+      "hintWords": ["c'est fait en métal", "ça sert à couper le pain"],
+      "strictAccents": true,
+      "audio": "C'est fait en métal. Ça sert à couper le pain.",
+      "explain": "C'est fait en + material, seguido de la función."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Completa la adivinanza",
+      "text": "C'est fait en bois, et ça ___ à manger.",
+      "blanks": [{ "accept": ["sert"] }],
+      "bank": ["sert", "utilise", "fait"],
+      "explain": "Ça sert à + infinitivo: la table."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Puedes adivinar qué es?»",
+      "tokens": ["ce que c'est", "Tu peux deviner", "?"],
+      "answer": ["Tu peux deviner", "ce que c'est", "?"],
+      "audio": "Tu peux deviner ce que c'est ?",
+      "explain": "Tu peux deviner + ce que c'est."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "C'est petit, c'est fait en plastique, et ça sert à écrire. On le trouve dans un sac ou sur une table.",
+      "accept": ["Es pequeño, está hecho de plástico, y sirve para escribir. Se encuentra en un bolso o en una mesa."],
+      "strictAccents": false,
+      "audio": "C'est petit, c'est fait en plastique, et ça sert à écrire. On le trouve dans un sac ou sur une table.",
+      "explain": "Una adivinanza completa: le stylo."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Completa el juego de adivinanzas",
+      "turns": [
+        { "who": "Léa", "text": "C'est petit, c'est fait en métal, et ça sert à ouvrir une porte. Tu devines ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'est une clé !", "Une clé ?"], "hint": "adivina el objeto" },
+        { "who": "Léa", "text": "Bravo, c'est ça !", "speak": true }
+      ],
+      "explain": "El juego de adivinanzas se juega con pistas y una respuesta final."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "speak": "C'est fait en bois, ça sert à manger, et on le trouve dans la cuisine.",
+      "mode": "write",
+      "accept": ["C'est fait en bois, ça sert à manger, et on le trouve dans la cuisine"],
+      "showTextAfter": true,
+      "explain": "Una adivinanza completa: la chaise."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["vocabulario"],
+      "difficulty": 1,
+      "speak": "ça sert à",
+      "mode": "choose",
+      "options": ["c'est fait en", "ça sert à", "on utilise", "tu devines"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Ça sert à = sirve para."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["vocabulario"],
+      "difficulty": 3,
+      "speak": "C'est petit, c'est fait en métal, on l'utilise pour ouvrir une porte, et ça sert aussi à fermer. Tu devines ce que c'est ?",
+      "es": "Es pequeño, está hecho de metal, se usa para abrir una puerta, y también sirve para cerrar. ¿Adivinas qué es?",
+      "ipa": "/sɛ pə.ti sɛ fɛ.t‿ɑ̃ me.tal ɔ.n‿y.ti.liz puʁ u.vʁiʁ yn pɔʁt e sa sɛʁ o.si a fɛʁ.me ty də.vin sə kə sɛ/",
+      "esApprox": "«se pe-TÍ se fe-tan me-TAL on-nü-ti-LIZ pur u-VRIR ün PORT e sa SER o-SÍ a fer-MÉ tü de-VIN se ke SE»",
+      "focus": "Una adivinanza completa de cuatro pistas: la clé.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Describe un objeto de tu casa sin decir su nombre, para que alguien lo adivine.",
+      "modelAnswer": "C'est petit, c'est fait en plastique, et ça sert à écrire.",
+      "alsoValid": ["C'est fait en bois, et ça sert à manger."],
+      "speak": "C'est petit, c'est fait en plastique, et ça sert à écrire.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "¿Es una descripción de material o de función?",
+      "buckets": ["Material", "Función"],
+      "items": [
+        { "text": "c'est fait en bois", "bucket": 0 },
+        { "text": "ça sert à couper", "bucket": 1 },
+        { "text": "c'est fait en métal", "bucket": 0 },
+        { "text": "on l'utilise pour écrire", "bucket": 1 }
+      ],
+      "explain": "Material (fait en) frente a función (sert à, utilise pour)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Hay un error de expresión. Corrige la frase entera.",
+      "wrong": "Ça utilise à couper.",
+      "accept": ["Ça sert à couper"],
+      "audio": "Ça sert à couper.",
+      "explain": "La función se expresa con servir à, no con utiliser à."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "servir à", "es": "servir para", "esApprox": "«ser-VIR a»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "utiliser", "es": "usar, utilizar", "esApprox": "«ü-ti-li-ZÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "c'est fait en", "es": "está hecho de", "esApprox": "«se fe AN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "couper", "es": "cortar", "esApprox": "«ku-PÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "deviner", "es": "adivinar", "esApprox": "«de-vi-NÉ»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "C'est petit, on l'utilise pour écrire, et ça sert aussi à dessiner.", "es": "Es pequeño, se usa para escribir, y también sirve para dibujar.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "C'est fait en métal. Ça sert à couper le pain.", "es": "Está hecho de metal. Sirve para cortar el pan.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Tu peux deviner ce que c'est ?", "es": "¿Puedes adivinar qué es?", "from": "e9" }
+  ]
+}

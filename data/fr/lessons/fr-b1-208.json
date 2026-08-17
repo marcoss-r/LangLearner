@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-208",
+  "lang": "fr",
+  "level": "B1",
+  "order": 208,
+  "title": "Practicar la trilogía con relatos reales",
+  "objectives": [
+    "Narrar una anécdota real combinando imparfait, passé composé y plus-que-parfait con naturalidad",
+    "Usar marcadores de relato: un jour, à ce moment-là, au bout d'un moment",
+    "Practicar una historia con introducción, desarrollo y desenlace"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "De la gramática a la anécdota",
+      "body": "Ya conoces el papel de cada pasado. Hoy los combinas en un relato real, con marcadores que dan estructura a la historia: un inicio, un desarrollo y un desenlace."
+    },
+    {
+      "type": "table",
+      "title": "Marcadores de relato",
+      "headers": ["Momento", "Expresión"],
+      "rows": [
+        ["inicio", "un jour"],
+        ["desarrollo", "à ce moment-là, au bout d'un moment"],
+        ["giro inesperado", "sans prévenir, peu de temps après"],
+        ["desenlace", "au final, tout s'est bien terminé"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Ce qui s'est passé, c'est que...",
+      "body": "Esta fórmula es muy útil para empezar a contar el núcleo de una anécdota, después de la introducción: un jour... ce qui s'est passé, c'est que..."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "un jour", "es": "un día", "ipa": "/œ̃ ʒuʁ/", "esApprox": "«un YUR»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "à ce moment-là", "es": "en ese momento", "ipa": "/a sə mɔ.mɑ̃ la/", "esApprox": "«a se mo-MAN LA»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "au bout d'un moment", "es": "al cabo de un rato", "ipa": "/o bu dœ̃ mɔ.mɑ̃/", "esApprox": "«o BU dun mo-MAN»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "sans prévenir", "es": "sin avisar", "ipa": "/sɑ̃ pʁe.və.niʁ/", "esApprox": "«san pre-ve-NIR»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "peu de temps après", "es": "poco después", "ipa": "/pø də tɑ̃ a.pʁɛ/", "esApprox": "«pö de TAN a-PRE»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "au final", "es": "al final", "ipa": "/o fi.nal/", "esApprox": "«o fi-NAL»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "ce qui s'est passé, c'est que", "es": "lo que pasó fue que", "ipa": "/sə ki sɛ pa.se sɛ kə/", "esApprox": "«se ki se pa-SÉ se ke»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "tout s'est bien terminé", "es": "todo terminó bien", "ipa": "/tu sɛ bjɛ̃ tɛʁ.mi.ne/", "esApprox": "«tu se bien ter-mi-NÉ»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "¿Cuál usas para empezar una anécdota?",
+      "options": ["au final", "un jour", "peu de temps après", "sans prévenir"],
+      "answer": 1,
+      "explain": "Un jour es el clásico inicio de una anécdota."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "¿Cuál usas para cerrar una anécdota con final feliz?",
+      "options": ["un jour", "à ce moment-là", "tout s'est bien terminé", "sans prévenir"],
+      "answer": 2,
+      "explain": "Tout s'est bien terminé cierra una historia con final feliz."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "statement": "Sans prévenir se usa para introducir algo inesperado.",
+      "answer": true,
+      "explain": "Sans prévenir (sin avisar) marca un giro inesperado en la historia."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "statement": "Au bout d'un moment se usa para empezar una anécdota, antes de un jour.",
+      "answer": false,
+      "explain": "Au bout d'un moment se usa en el desarrollo, no al principio."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su momento del relato",
+      "left": ["un jour", "à ce moment-là", "sans prévenir", "au final"],
+      "right": ["desenlace", "giro inesperado", "inicio", "desarrollo"],
+      "answer": [2, 3, 0, 1],
+      "explain": "Un jour = inicio, à ce moment-là = desarrollo, sans prévenir = giro inesperado, au final = desenlace."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Un día, sin avisar, se fue.",
+      "accept": ["Un jour, sans prévenir, il est parti"],
+      "hintWords": ["un jour, sans prévenir", "il est parti"],
+      "strictAccents": true,
+      "audio": "Un jour, sans prévenir, il est parti.",
+      "explain": "Un jour (inicio) + sans prévenir (giro inesperado)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Lo que pasó fue que ya habíamos terminado cuando llegó.",
+      "accept": ["Ce qui s'est passé, c'est que nous avions déjà fini quand il est arrivé"],
+      "hintWords": ["ce qui s'est passé, c'est que", "nous avions déjà fini quand il est arrivé"],
+      "strictAccents": true,
+      "audio": "Ce qui s'est passé, c'est que nous avions déjà fini quand il est arrivé.",
+      "explain": "Ce qui s'est passé, c'est que + plus-que-parfait (avions fini) + passé composé (est arrivé)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "___, j'ai reçu un appel étrange. ___, j'ai compris ce qui se passait.",
+      "blanks": [{ "accept": ["Un jour"] }, { "accept": ["Au bout d'un moment"] }],
+      "bank": ["Un jour", "Au bout d'un moment", "Au final"],
+      "explain": "Un jour (inicio) y au bout d'un moment (desarrollo)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Al final, todo terminó bien»",
+      "tokens": ["tout s'est bien terminé", "Au final,"],
+      "answer": ["Au final,", "tout s'est bien terminé"],
+      "audio": "Au final, tout s'est bien terminé.",
+      "explain": "Au final cierra la anécdota."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Un jour, sans prévenir, il a frappé à la porte. À ce moment-là, j'ai eu peur, mais au final, tout s'est bien terminé.",
+      "accept": ["Un día, sin avisar, llamó a la puerta. En ese momento, tuve miedo, pero al final, todo terminó bien."],
+      "strictAccents": false,
+      "audio": "Un jour, sans prévenir, il a frappé à la porte. À ce moment-là, j'ai eu peur, mais au final, tout s'est bien terminé.",
+      "explain": "Un relato completo con inicio, giro y desenlace."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación contando una anécdota",
+      "turns": [
+        { "who": "Léa", "text": "Raconte-moi ce qui t'est arrivé.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Un jour, sans prévenir, il est parti.", "Ce qui s'est passé, c'est que j'avais déjà fini."], "hint": "usa un marcador de relato" },
+        { "who": "Léa", "text": "Incroyable !", "speak": true }
+      ],
+      "explain": "Repaso combinado de los marcadores de relato."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "speak": "Un jour, sans prévenir, il a frappé à la porte. À ce moment-là, j'ai eu peur, mais au final, tout s'est bien terminé.",
+      "mode": "write",
+      "accept": ["Un jour, sans prévenir, il a frappé à la porte. À ce moment-là, j'ai eu peur, mais au final, tout s'est bien terminé"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de los marcadores de relato."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["narracion"],
+      "difficulty": 1,
+      "speak": "au bout d'un moment",
+      "mode": "choose",
+      "options": ["un jour", "au bout d'un moment", "au final", "sans prévenir"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Au bout d'un moment marca el desarrollo del relato."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["narracion"],
+      "difficulty": 3,
+      "speak": "Un jour, sans prévenir, il a frappé à la porte. Ce qui s'est passé, c'est que j'avais déjà fini de dîner. Au bout d'un moment, on a compris, et au final, tout s'est bien terminé.",
+      "es": "Un día, sin avisar, llamó a la puerta. Lo que pasó fue que ya había terminado de cenar. Al cabo de un rato, lo entendimos, y al final, todo terminó bien.",
+      "ipa": "/œ̃ ʒuʁ sɑ̃ pʁe.və.niʁ i.l‿a fʁa.pe a la pɔʁt sə ki sɛ pa.se sɛ kə ʒa.vɛ de.ʒa fi.ni də di.ne o bu dœ̃ mɔ.mɑ̃ ɔ.n‿a kɔ̃.pʁi e o fi.nal tu sɛ bjɛ̃ tɛʁ.mi.ne/",
+      "esApprox": "«un YUR san pre-ve-NIR il-a fra-PÉ a la PORT se ki se pa-SÉ se ke sha-VE de-SHA fi-NÍ de di-NÉ o BU dun mo-MAN on-a kon-PRÍ e o fi-NAL tu se bien ter-mi-NÉ»",
+      "focus": "Un relato completo con los cuatro momentos: inicio, núcleo, desarrollo y desenlace.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Cuenta una anécdota real con inicio (un jour), un giro (sans prévenir) y un desenlace (au final).",
+      "modelAnswer": "Un jour, sans prévenir, il a frappé à la porte. Au final, tout s'est bien terminé.",
+      "alsoValid": ["Ce qui s'est passé, c'est que j'avais déjà fini quand elle est arrivée."],
+      "speak": "Un jour, sans prévenir, il a frappé à la porte. Au final, tout s'est bien terminé.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "¿Es inicio o desenlace?",
+      "buckets": ["Inicio", "Desenlace"],
+      "items": [
+        { "text": "un jour", "bucket": 0 },
+        { "text": "au final", "bucket": 1 },
+        { "text": "ce qui s'est passé, c'est que", "bucket": 0 },
+        { "text": "tout s'est bien terminé", "bucket": 1 }
+      ],
+      "explain": "Un jour y ce qui s'est passé, c'est que abren el relato; au final y tout s'est bien terminé lo cierran."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Hay un error: au final cierra el relato, no lo empieza. Corrige la frase entera.",
+      "wrong": "Au final, il a frappé à la porte, et un jour, tout s'est bien terminé.",
+      "accept": ["Un jour, il a frappé à la porte, et au final, tout s'est bien terminé"],
+      "audio": "Un jour, il a frappé à la porte, et au final, tout s'est bien terminé.",
+      "explain": "Un jour abre el relato; au final lo cierra, no al revés."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "un jour", "es": "un día", "esApprox": "«un YUR»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "à ce moment-là", "es": "en ese momento", "esApprox": "«a se mo-MAN LA»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "au bout d'un moment", "es": "al cabo de un rato", "esApprox": "«o BU dun mo-MAN»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "sans prévenir", "es": "sin avisar", "esApprox": "«san pre-ve-NIR»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "au final", "es": "al final", "esApprox": "«o fi-NAL»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "ce qui s'est passé, c'est que", "es": "lo que pasó fue que", "esApprox": "«se ki se pa-SÉ se ke»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Un jour, sans prévenir, il est parti.", "es": "Un día, sin avisar, se fue.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Ce qui s'est passé, c'est que nous avions déjà fini quand il est arrivé.", "es": "Lo que pasó fue que ya habíamos terminado cuando llegó.", "from": "e7" }
+  ]
+}

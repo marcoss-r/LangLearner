@@ -1,0 +1,251 @@
+{
+  "id": "fr-a2-147",
+  "lang": "fr",
+  "level": "A2",
+  "order": 147,
+  "title": "Las fiestas francesas: qué se celebra y cómo",
+  "objectives": [
+    "Conocer las fiestas más importantes del calendario francés",
+    "Aprender vocabulario cultural relacionado con cada celebración",
+    "Practicar frases para hablar de tradiciones y celebraciones"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El calendario festivo francés",
+      "body": "Sin gramática nueva. Francia tiene fiestas propias, además de Navidad y Año Nuevo: le 14 juillet (fiesta nacional), la Chandeleur (crêpes), le Réveillon (Nochevieja).",
+      "examples": [
+        { "target": "Le 14 juillet, il y a un feu d'artifice à Paris. C'est la fête nationale.", "es": "El 14 de julio hay fuegos artificiales en París. Es la fiesta nacional.", "note": "il y a + un feu d'artifice, presente para describir tradiciones" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las fiestas francesas",
+      "headers": ["Fiesta", "Qué se hace"],
+      "rows": [
+        ["le 14 juillet (fête nationale)", "feu d'artifice, défilé militaire"],
+        ["la Chandeleur (2 février)", "on mange des crêpes"],
+        ["le Réveillon (31 décembre)", "on fête le Nouvel An en famille ou entre amis"],
+        ["le Poisson d'avril (1er avril)", "on fait des blagues, on colle des poissons en papier"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Vocabulario útil",
+      "body": "Un feu d'artifice (fuegos artificiales), un défilé (un desfile), une blague (una broma), fêter (celebrar)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "la fête nationale", "es": "la fiesta nacional", "ipa": "/la fɛt na.sjɔ.nal/", "esApprox": "«la FET na-sio-NAL»", "pos": "sustantivo", "gender": "f", "example": { "target": "Le 14 juillet, c'est la fête nationale.", "es": "El 14 de julio es la fiesta nacional." } },
+    { "id": "v2", "target": "un feu d'artifice", "es": "fuegos artificiales", "ipa": "/œ̃ fø daʁ.ti.fis/", "esApprox": "«un FÖ dar-ti-FIS»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il y a un feu d'artifice à Paris.", "es": "Hay fuegos artificiales en París." } },
+    { "id": "v3", "target": "un défilé", "es": "un desfile", "ipa": "/œ̃ de.fi.le/", "esApprox": "«un de-fi-LÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il y a un défilé militaire le matin.", "es": "Hay un desfile militar por la mañana." } },
+    { "id": "v4", "target": "la Chandeleur", "es": "la Candelaria (fiesta de las crêpes)", "ipa": "/la ʃɑ̃d.lœʁ/", "esApprox": "«la shand-LÖR»", "pos": "sustantivo", "gender": "f", "example": { "target": "Pour la Chandeleur, on mange des crêpes.", "es": "Para la Chandeleur, se comen crêpes." } },
+    { "id": "v5", "target": "le Réveillon", "es": "la Nochevieja / la Nochebuena", "ipa": "/lə ʁe.vɛ.jɔ̃/", "esApprox": "«le re-ve-YÓN»", "pos": "sustantivo", "gender": "m", "example": { "target": "On fête le Réveillon en famille.", "es": "Celebramos la Nochevieja en familia." } },
+    { "id": "v6", "target": "le Poisson d'avril", "es": "el Día de los Inocentes francés (1 de abril)", "ipa": "/lə pwa.sɔ̃ da.vʁil/", "esApprox": "«le puá-SON da-VRIL»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le 1er avril, c'est le Poisson d'avril.", "es": "El 1 de abril es el Poisson d'avril." } },
+    { "id": "v7", "target": "une blague", "es": "una broma", "ipa": "/yn blaɡ/", "esApprox": "«ün BLAG»", "pos": "sustantivo", "gender": "f", "example": { "target": "On fait des blagues ce jour-là.", "es": "Se hacen bromas ese día." } },
+    { "id": "v8", "target": "fêter", "es": "celebrar", "ipa": "/fɛ.te/", "esApprox": "«fe-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Nous fêtons le Nouvel An entre amis.", "es": "Celebramos el Año Nuevo entre amigos." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "¿Qué se celebra el 14 de julio en Francia?",
+      "options": ["la Chandeleur", "la fête nationale", "le Réveillon", "le Poisson d'avril"],
+      "answer": 1,
+      "explain": "El 14 de julio es la fête nationale francesa."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "¿Qué se come tradicionalmente en la Chandeleur?",
+      "options": ["des crêpes", "des blagues", "un feu d'artifice", "un défilé"],
+      "answer": 0,
+      "explain": "En la Chandeleur, se comen crêpes."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "statement": "El Poisson d'avril se celebra el 1 de abril.",
+      "answer": true,
+      "explain": "Le Poisson d'avril = 1er avril."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "statement": "Le Réveillon se refiere solo a la Navidad, nunca al Año Nuevo.",
+      "answer": false,
+      "explain": "Le Réveillon puede referirse tanto a la Nochebuena como a la Nochevieja, según el contexto."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Une cada fiesta con lo que se hace",
+      "left": ["la fête nationale", "la Chandeleur", "le Poisson d'avril", "le Réveillon"],
+      "right": ["se hacen bromas", "se celebra en familia", "hay fuegos artificiales", "se comen crêpes"],
+      "answer": [2, 3, 0, 1],
+      "explain": "Cada fiesta francesa con su tradición."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "El 14 de julio hay fuegos artificiales en París. Es la fiesta nacional.",
+      "accept": ["Le 14 juillet, il y a un feu d'artifice à Paris. C'est la fête nationale"],
+      "hintWords": ["le 14 juillet, il y a un feu d'artifice à paris", "c'est la fête nationale"],
+      "strictAccents": true,
+      "audio": "Le 14 juillet, il y a un feu d'artifice à Paris. C'est la fête nationale.",
+      "explain": "Il y a + un feu d'artifice, presente para describir tradiciones."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Para la Chandeleur, se comen crêpes. Celebramos la Nochevieja en familia.",
+      "accept": ["Pour la Chandeleur, on mange des crêpes. On fête le Réveillon en famille"],
+      "hintWords": ["pour la chandeleur, on mange des crêpes", "on fête le réveillon en famille"],
+      "strictAccents": true,
+      "audio": "Pour la Chandeleur, on mange des crêpes. On fête le Réveillon en famille.",
+      "explain": "On mange des crêpes + fêter le Réveillon."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Le 1er avril, c'est le ___, on fait des ___.",
+      "blanks": [{ "accept": ["Poisson d'avril"] }, { "accept": ["blagues"] }],
+      "bank": ["Poisson d'avril", "blagues", "défilé"],
+      "explain": "Le Poisson d'avril + on fait des blagues."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hay un desfile militar por la mañana»",
+      "tokens": ["un défilé militaire", "Il y a", "le matin"],
+      "answer": ["Il y a", "un défilé militaire", "le matin"],
+      "audio": "Il y a un défilé militaire le matin.",
+      "explain": "Il y a + un défilé militaire + le matin."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Pour la fête nationale, il y a un feu d'artifice le soir et un défilé militaire le matin sur les Champs-Élysées.",
+      "accept": ["Para la fiesta nacional, hay fuegos artificiales por la noche y un desfile militar por la mañana en los Campos Elíseos."],
+      "strictAccents": false,
+      "audio": "Pour la fête nationale, il y a un feu d'artifice le soir et un défilé militaire le matin sur les Champs-Élysées.",
+      "explain": "Descripción completa de la fête nationale francesa."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre las fiestas francesas",
+      "turns": [
+        { "who": "Léa", "text": "Tu connais la Chandeleur ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, on mange des crêpes ce jour-là.", "Non, qu'est-ce qu'on fait ?"], "hint": "usa des crêpes o pregunta" },
+        { "who": "Léa", "text": "On mange des crêpes en famille, c'est très sympa !", "speak": true }
+      ],
+      "explain": "Tu connais...? se responde explicando la tradición o preguntando más."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "speak": "Le 14 juillet, c'est la fête nationale, il y a un feu d'artifice, et pour la Chandeleur, on mange des crêpes.",
+      "mode": "write",
+      "accept": ["Le 14 juillet, c'est la fête nationale, il y a un feu d'artifice, et pour la Chandeleur, on mange des crêpes"],
+      "showTextAfter": true,
+      "explain": "Dos fiestas francesas combinadas en una frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 1,
+      "speak": "le Poisson d'avril",
+      "mode": "choose",
+      "options": ["la Chandeleur", "le Poisson d'avril", "le Réveillon", "la fête nationale"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Le Poisson d'avril = el 1 de abril."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 3,
+      "speak": "Le 14 juillet, il y a un feu d'artifice et un défilé militaire, et pour la Chandeleur, on mange des crêpes en famille.",
+      "es": "El 14 de julio, hay fuegos artificiales y un desfile militar, y para la Chandeleur, se comen crêpes en familia.",
+      "ipa": "/lə ka.tɔʁz ʒɥi.jɛ il i a œ̃ fø daʁ.ti.fis e œ̃ de.fi.le mi.li.tɛʁ e puʁ la ʃɑ̃d.lœʁ ɔ̃ mɑ̃ʒ de kʁɛp ɑ̃ fa.mij/",
+      "esApprox": "«le ka-TORZ süí-YÉ il i a un FÖ dar-ti-FIS e un de-fi-LÉ mi-li-TER e pur la shand-LÖR on MANSH de KREP an fa-MIY»",
+      "focus": "Dos tradiciones francesas descritas en presente.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Habla de una fiesta francesa que conoces: qué se celebra y qué se hace.",
+      "modelAnswer": "Le 14 juillet, c'est la fête nationale, il y a un feu d'artifice le soir.",
+      "alsoValid": ["Pour la Chandeleur, on mange des crêpes."],
+      "speak": "Le 14 juillet, c'est la fête nationale, il y a un feu d'artifice le soir.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "¿Es una fiesta o una tradición asociada a una fiesta?",
+      "buckets": ["Fiesta", "Tradición"],
+      "items": [
+        { "text": "la fête nationale", "bucket": 0 },
+        { "text": "un feu d'artifice", "bucket": 1 },
+        { "text": "la Chandeleur", "bucket": 0 },
+        { "text": "manger des crêpes", "bucket": 1 }
+      ],
+      "explain": "Fête nationale y Chandeleur son fiestas; feu d'artifice y manger des crêpes, tradiciones asociadas."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["fiestas", "cultura-francesa"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "Pour la fête nationale, on mange des crêpes.",
+      "accept": ["Pour la Chandeleur, on mange des crêpes"],
+      "audio": "Pour la Chandeleur, on mange des crêpes.",
+      "explain": "Las crêpes se asocian a la Chandeleur, no a la fête nationale (que tiene feu d'artifice y défilé)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "la fête nationale", "es": "la fiesta nacional", "esApprox": "«la FET na-sio-NAL»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "un feu d'artifice", "es": "fuegos artificiales", "esApprox": "«un FÖ dar-ti-FIS»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "la Chandeleur", "es": "la Candelaria (fiesta de las crêpes)", "esApprox": "«la shand-LÖR»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "le Réveillon", "es": "la Nochevieja / la Nochebuena", "esApprox": "«le re-ve-YÓN»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "une blague", "es": "una broma", "esApprox": "«ün BLAG»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "fêter", "es": "celebrar", "esApprox": "«fe-TÉ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Le 14 juillet, il y a un feu d'artifice à Paris. C'est la fête nationale.", "es": "El 14 de julio hay fuegos artificiales en París. Es la fiesta nacional.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Pour la Chandeleur, on mange des crêpes. On fête le Réveillon en famille.", "es": "Para la Chandeleur, se comen crêpes. Celebramos la Nochevieja en familia.", "from": "e7" }
+  ]
+}

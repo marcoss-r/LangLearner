@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-222",
+  "lang": "fr",
+  "level": "B1",
+  "order": 222,
+  "title": "El trabajo: buscar empleo y la entrevista",
+  "objectives": [
+    "Usar el vocabulario de la búsqueda de empleo: chercher un emploi, postuler à un poste",
+    "Usar el vocabulario de la entrevista: un entretien d'embauche, les points forts et les points faibles",
+    "Practicar frases sobre contratos y la negociación del salario"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El proceso de buscar trabajo",
+      "body": "Desde enviar el CV hasta firmar el contrato, este vocabulario cubre todo el proceso de búsqueda de empleo en francés."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del trabajo",
+      "headers": ["Etapa", "Expresión"],
+      "rows": [
+        ["búsqueda", "chercher un emploi, postuler à un poste"],
+        ["candidatura", "le CV, la lettre de motivation"],
+        ["entrevista", "un entretien d'embauche, les points forts et les points faibles"],
+        ["contrato", "un contrat à durée indéterminée (CDI), négocier son salaire"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "La pregunta clásica de entrevista",
+      "body": "Quels sont vos points forts et vos points faibles ? es una de las preguntas más habituales en una entrevista de trabajo francesa. Prepárala con antelación."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "chercher un emploi", "es": "buscar un empleo", "ipa": "/ʃɛʁ.ʃe œ̃.n‿ɑ̃.plwa/", "esApprox": "«sher-SHÉ un-nan-PLUÁ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "postuler à un poste", "es": "postular a un puesto", "ipa": "/pɔs.ty.le a œ̃ pɔst/", "esApprox": "«pos-tü-LÉ a un POST»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "un entretien d'embauche", "es": "una entrevista de trabajo", "ipa": "/œ̃.n‿ɑ̃.tʁə.tjɛ̃ dɑ̃.boʃ/", "esApprox": "«un-nan-tre-TIEN dan-BOSH»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v4", "target": "le CV", "es": "el currículum", "ipa": "/lə se.ve/", "esApprox": "«le se-VÉ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v5", "target": "la lettre de motivation", "es": "la carta de presentación", "ipa": "/la lɛtʁ də mo.ti.va.sjɔ̃/", "esApprox": "«la LETR de mo-ti-va-SIÓN»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v6", "target": "les points forts et les points faibles", "es": "los puntos fuertes y débiles", "ipa": "/le pwɛ̃ fɔʁ e le pwɛ̃ fɛbl/", "esApprox": "«le puín FOR e le puín FEBL»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "un contrat à durée indéterminée", "es": "un contrato indefinido", "ipa": "/œ̃ kɔ̃.tʁa a dy.ʁe ɛ̃.de.tɛʁ.mi.ne/", "esApprox": "«un kon-TRA a dü-RÉ in-de-ter-mi-NÉ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v8", "target": "négocier son salaire", "es": "negociar el salario", "ipa": "/ne.gɔ.sje sɔ̃ sa.lɛʁ/", "esApprox": "«ne-go-SIÉ son sa-LER»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «buscar un empleo»?",
+      "options": ["chercher un emploi", "postuler à un poste", "négocier un salaire", "signer un contrat"],
+      "answer": 0,
+      "explain": "Chercher un emploi es buscar trabajo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "¿Qué es un entretien d'embauche?",
+      "options": ["una entrevista de trabajo", "un contrato", "un currículum", "una carta"],
+      "answer": 0,
+      "explain": "Un entretien d'embauche es una entrevista de trabajo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "statement": "Un contrat à durée indéterminée es un contrato indefinido.",
+      "answer": true,
+      "explain": "CDI significa contrato indefinido, sin fecha de fin."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "statement": "La lettre de motivation es lo mismo que el CV.",
+      "answer": false,
+      "explain": "Son documentos distintos: el CV resume tu experiencia, la lettre de motivation explica por qué quieres el puesto."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su etapa",
+      "left": ["chercher un emploi", "postuler à un poste", "un entretien d'embauche", "négocier son salaire"],
+      "right": ["la búsqueda", "la solicitud", "la entrevista", "la negociación"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Chercher = búsqueda, postuler = solicitud, entretien = entrevista, négocier = negociación."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Busco un empleo, así que postulé a varios puestos.",
+      "accept": ["Je cherche un emploi, donc j'ai postulé à plusieurs postes"],
+      "hintWords": ["je cherche un emploi", "donc j'ai postulé à plusieurs postes"],
+      "strictAccents": true,
+      "audio": "Je cherche un emploi, donc j'ai postulé à plusieurs postes.",
+      "explain": "Chercher un emploi + postuler à un poste."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "En la entrevista, me preguntaron mis puntos fuertes y débiles.",
+      "accept": ["Pendant l'entretien, on m'a demandé mes points forts et mes points faibles"],
+      "hintWords": ["pendant l'entretien, on m'a demandé", "mes points forts et mes points faibles"],
+      "strictAccents": true,
+      "audio": "Pendant l'entretien, on m'a demandé mes points forts et mes points faibles.",
+      "explain": "La pregunta clásica de entrevista."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "J'ai envoyé mon ___ et ma ___ pour ce poste.",
+      "blanks": [{ "accept": ["CV"] }, { "accept": ["lettre de motivation"] }],
+      "bank": ["CV", "lettre de motivation", "contrat"],
+      "explain": "Envoyer un CV y una lettre de motivation para postular."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Negocié mi salario durante la entrevista»",
+      "tokens": ["pendant l'entretien", "J'ai négocié mon salaire"],
+      "answer": ["J'ai négocié mon salaire", "pendant l'entretien"],
+      "audio": "J'ai négocié mon salaire pendant l'entretien.",
+      "explain": "Négocier son salaire durante la entrevista."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "J'ai postulé à un poste, j'ai eu un entretien d'embauche, et j'ai signé un contrat à durée indéterminée.",
+      "accept": ["Postulé a un puesto, tuve una entrevista de trabajo, y firmé un contrato indefinido."],
+      "strictAccents": false,
+      "audio": "J'ai postulé à un poste, j'ai eu un entretien d'embauche, et j'ai signé un contrat à durée indéterminée.",
+      "explain": "El proceso completo de búsqueda de empleo."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación contando tu entrevista",
+      "turns": [
+        { "who": "Léa", "text": "Comment s'est passé ton entretien ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Bien, on m'a demandé mes points forts et mes points faibles.", "J'ai réussi à négocier mon salaire."], "hint": "usa vocabulario de la entrevista" },
+        { "who": "Léa", "text": "Génial, félicitations !", "speak": true }
+      ],
+      "explain": "Repaso combinado del vocabulario del trabajo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "speak": "Je cherche un emploi, j'ai postulé à plusieurs postes, et j'ai un entretien d'embauche demain.",
+      "mode": "write",
+      "accept": ["Je cherche un emploi, j'ai postulé à plusieurs postes, et j'ai un entretien d'embauche demain"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario de búsqueda de empleo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["trabajo"],
+      "difficulty": 1,
+      "speak": "un entretien d'embauche",
+      "mode": "choose",
+      "options": ["un CV", "une lettre de motivation", "un entretien d'embauche", "un contrat"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Un entretien d'embauche es una entrevista de trabajo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["trabajo"],
+      "difficulty": 3,
+      "speak": "J'ai envoyé mon CV et ma lettre de motivation, j'ai eu un entretien d'embauche, et j'ai réussi à négocier mon salaire.",
+      "es": "Envié mi currículum y mi carta de presentación, tuve una entrevista de trabajo, y logré negociar mi salario.",
+      "ipa": "/ʒe.z‿ɑ̃.vwa.je mɔ̃ se.ve e ma lɛtʁ də mo.ti.va.sjɔ̃ ʒe.z‿y œ̃.n‿ɑ̃.tʁə.tjɛ̃ dɑ̃.boʃ e ʒe ʁe.y.si a ne.gɔ.sje mɔ̃ sa.lɛʁ/",
+      "esApprox": "«she-zan-vua-YÉ mon se-VÉ e ma LETR de mo-ti-va-SIÓN she-zü un-nan-tre-TIEN dan-BOSH e ye re-ü-SÍ a ne-go-SIÉ mon sa-LER»",
+      "focus": "El proceso completo de búsqueda de empleo, de principio a fin.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Cuenta el proceso de buscar trabajo, desde el CV hasta la negociación del salario.",
+      "modelAnswer": "J'ai envoyé mon CV et ma lettre de motivation, j'ai eu un entretien d'embauche, et j'ai signé un contrat.",
+      "alsoValid": ["J'ai postulé à plusieurs postes avant de trouver un emploi."],
+      "speak": "J'ai envoyé mon CV et ma lettre de motivation, j'ai eu un entretien d'embauche, et j'ai signé un contrat.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "¿Es antes de la entrevista o durante/después?",
+      "buckets": ["Antes de la entrevista", "Durante/después"],
+      "items": [
+        { "text": "le CV", "bucket": 0 },
+        { "text": "négocier son salaire", "bucket": 1 },
+        { "text": "postuler à un poste", "bucket": 0 },
+        { "text": "un entretien d'embauche", "bucket": 1 }
+      ],
+      "explain": "Le CV y postuler à un poste son antes de la entrevista; négocier son salaire y un entretien d'embauche son durante/después."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Hay un error: postuler exige la preposición à. Corrige la frase entera.",
+      "wrong": "J'ai postulé un poste.",
+      "accept": ["J'ai postulé à un poste"],
+      "audio": "J'ai postulé à un poste.",
+      "explain": "Postuler à un poste exige la preposición à."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "chercher un emploi", "es": "buscar un empleo", "esApprox": "«sher-SHÉ un-nan-PLUÁ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "postuler à un poste", "es": "postular a un puesto", "esApprox": "«pos-tü-LÉ a un POST»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un entretien d'embauche", "es": "una entrevista de trabajo", "esApprox": "«un-nan-tre-TIEN dan-BOSH»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le CV", "es": "el currículum", "esApprox": "«le se-VÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "la lettre de motivation", "es": "la carta de presentación", "esApprox": "«la LETR de mo-ti-va-SIÓN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "négocier son salaire", "es": "negociar el salario", "esApprox": "«ne-go-SIÉ son sa-LER»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je cherche un emploi, donc j'ai postulé à plusieurs postes.", "es": "Busco un empleo, así que postulé a varios puestos.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Pendant l'entretien, on m'a demandé mes points forts et mes points faibles.", "es": "En la entrevista, me preguntaron mis puntos fuertes y débiles.", "from": "e7" }
+  ]
+}

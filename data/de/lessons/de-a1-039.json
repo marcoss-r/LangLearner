@@ -1,0 +1,331 @@
+{
+  "id": "de-a1-039",
+  "lang": "de",
+  "level": "A1",
+  "order": 39,
+  "title": "Los pronombres personales en dativo",
+  "objectives": [
+    "Aprender los pronombres personales en dativo: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen",
+    "Usarlos con los verbos que rigen dativo ya conocidos: helfen, danken, gefallen",
+    "Distinguir las tres funciones de ihr: vosotros (nominativo), su/de ella (posesivo) y a ella (dativo)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los pronombres, con su propia forma de dativo",
+      "body": "Igual que los pronombres tenían una forma especial en acusativo (mich, dich, ihn), también tienen una forma en dativo. Muchas coinciden con formas que ya conoces de otros usos, así que hay que estar atento al contexto.",
+      "examples": [
+        { "target": "Er hilft mir.", "es": "Me ayuda.", "note": "ich → mir" },
+        { "target": "Ich danke dir.", "es": "Te doy las gracias.", "note": "du → dir" },
+        { "target": "Das gefällt mir.", "es": "Eso me gusta.", "note": "gefallen + mir" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los tres casos de los pronombres personales",
+      "headers": ["Nominativ", "Akkusativ", "Dativ"],
+      "rows": [
+        ["ich", "mich", "mir"],
+        ["du", "dich", "dir"],
+        ["er", "ihn", "ihm"],
+        ["sie (ella)", "sie", "ihr"],
+        ["es", "es", "ihm"],
+        ["wir", "uns", "uns"],
+        ["ihr", "euch", "euch"],
+        ["sie (ellos)", "sie", "ihnen"],
+        ["Sie (formal)", "Sie", "Ihnen"]
+      ],
+      "note": "wir y ihr comparten la misma forma en acusativo y dativo: uns y euch, respectivamente."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: ihr tiene tres significados distintos",
+      "items": [
+        { "wrong": "pensar que ihr solo significa «vosotros»", "right": "ihr = vosotros (nominativo) / su, de ella (posesivo, clase 27) / a ella (dativo)", "why": "Es una de las palabras más sobrecargadas del alemán. Hay que fijarse en el contexto completo de la frase para saber cuál de los tres significados es: si hay un verbo conjugado en plural informal, es «vosotros»; si va delante de un sustantivo, es posesivo; si va después de un verbo que rige dativo, es «a ella»." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Ihnen (con mayúscula) es el dativo formal de Sie, paralelo a Sie mismo: «Ich danke Ihnen» (le doy las gracias, formal) frente a «Ich danke euch» (os doy las gracias, informal plural)."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "mir",
+      "es": "me, a mí",
+      "ipa": "/miːɐ̯/",
+      "esApprox": "«mir»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Er hilft mir.", "es": "Me ayuda." }
+    },
+    {
+      "id": "v2",
+      "target": "dir",
+      "es": "te, a ti",
+      "ipa": "/diːɐ̯/",
+      "esApprox": "«dir»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Ich danke dir.", "es": "Te doy las gracias." }
+    },
+    {
+      "id": "v3",
+      "target": "ihm",
+      "es": "le, a él",
+      "ipa": "/iːm/",
+      "esApprox": "«im»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Ich helfe ihm.", "es": "Lo ayudo (a él)." }
+    },
+    {
+      "id": "v4",
+      "target": "uns",
+      "es": "nos, a nosotros",
+      "ipa": "/ʊns/",
+      "esApprox": "«uns»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Er hilft uns.", "es": "Nos ayuda." }
+    },
+    {
+      "id": "v5",
+      "target": "euch",
+      "es": "os, a vosotros",
+      "ipa": "/ɔɪ̯ç/",
+      "esApprox": "«oich»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Ich danke euch.", "es": "Os doy las gracias." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres", "dativo"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es el dativo de «ich»?",
+      "options": ["mich", "mir", "mein", "ich"],
+      "answer": 1,
+      "explain": "ich → mir en dativo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres", "dativo"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es el dativo de «er»?",
+      "options": ["ihn", "ihm", "ihr", "er"],
+      "answer": 1,
+      "explain": "er → ihm en dativo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres"],
+      "difficulty": 1,
+      "statement": "El dativo de «wir» es «uns», igual que el acusativo.",
+      "answer": true,
+      "explain": "wir comparte la misma forma en acusativo y dativo: uns."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "statement": "Ihnen (con mayúscula) es el dativo formal de Sie.",
+      "answer": true,
+      "explain": "Ihnen es a Sie lo que ihm es a er: la forma de dativo."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos NO es un pronombre en dativo?",
+      "options": ["mir", "dir", "ihm", "mich"],
+      "answer": 3,
+      "explain": "mich es acusativo, no dativo."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Une cada pronombre nominativo con su forma en dativo",
+      "left": ["ich", "du", "er", "wir"],
+      "right": ["dir", "mir", "uns", "ihm"],
+      "answer": [1, 0, 3, 2],
+      "explain": "mir, dir, ihm, uns: cuatro formas de dativo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Me ayuda.",
+      "accept": ["Er hilft mir"],
+      "hintWords": ["er hilft mir"],
+      "strictAccents": false,
+      "audio": "Er hilft mir.",
+      "explain": "hilft (helfen, con cambio de vocal) + mir (dativo)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Te doy las gracias.",
+      "accept": ["Ich danke dir"],
+      "hintWords": ["ich danke dir"],
+      "strictAccents": false,
+      "audio": "Ich danke dir.",
+      "explain": "danke + dir (dativo)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto en dativo",
+      "text": "Er hilft ___ (a mí). Ich danke ___ (a ti).",
+      "blanks": [{ "accept": ["mir"] }, { "accept": ["dir"] }],
+      "bank": ["mir", "dir", "ihm"],
+      "explain": "mir para «a mí»; dir para «a ti»."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["pronombres"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «Eso me gusta»",
+      "tokens": ["gefällt", "Das", "mir"],
+      "answer": ["Das", "gefällt", "mir"],
+      "audio": "Das gefällt mir.",
+      "explain": "Das gefällt mir: la construcción de gustar en alemán."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["pronombres"],
+      "difficulty": 1,
+      "prompt": "Es gefällt ihm.",
+      "accept": ["Le gusta (a él)."],
+      "strictAccents": false,
+      "audio": "Es gefällt ihm.",
+      "explain": "ihm es el dativo de er/es: a él."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hilfst du mir?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich helfe dir."], "hint": "responde que sí, que la ayudas" },
+        { "who": "Anna", "text": "Danke!", "speak": true }
+      ],
+      "explain": "mir (a mí) en la pregunta, dir (a ti) en la respuesta."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronombres"],
+      "difficulty": 1,
+      "speak": "Das gefällt mir.",
+      "mode": "write",
+      "accept": ["Das gefällt mir"],
+      "showTextAfter": true,
+      "explain": "Das gefällt mir = eso me gusta."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "speak": "Er hilft mir.",
+      "mode": "choose",
+      "options": ["Er hilft mir.", "Er hilft dir.", "Er hilft ihm."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "mir, dir e ihm suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "speak": "Das gefällt mir, und das gefällt dir.",
+      "es": "Eso me gusta, y eso te gusta.",
+      "ipa": "/das ɡəˈfɛlt miːɐ̯ ʊnt das ɡəˈfɛlt diːɐ̯/",
+      "esApprox": "«das gue-FELT mir unt das gue-FELT dir»",
+      "focus": "mir y dir riman, pero suenan claramente distintos: la m frente a la d inicial.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "speak": "Ich helfe ihm, und er hilft mir.",
+      "es": "Yo lo ayudo a él, y él me ayuda a mí.",
+      "ipa": "/ɪç ˈhɛlfə iːm ʊnt eːɐ̯ hɪlft miːɐ̯/",
+      "esApprox": "«ich JEL-fe im unt er jilft mir»",
+      "focus": "ihm suena «im», muy parecido a ihn: escucha con cuidado la m final frente a la n.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si algo te gusta. Responde que sí, que te gusta.",
+      "modelAnswer": "Ja, das gefällt mir.",
+      "alsoValid": ["Das gefällt mir."],
+      "speak": "Ja, das gefällt mir.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada pronombre: ¿nominativo o dativo?",
+      "buckets": ["Nominativ", "Dativ"],
+      "items": [
+        { "text": "ich", "bucket": 0 },
+        { "text": "mir", "bucket": 1 },
+        { "text": "er", "bucket": 0 },
+        { "text": "ihm", "bucket": 1 },
+        { "text": "du", "bucket": 0 },
+        { "text": "dir", "bucket": 1 }
+      ],
+      "explain": "Tres pares de nominativo y dativo."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Er hilft mich.",
+      "accept": ["Er hilft mir"],
+      "audio": "Er hilft mir.",
+      "explain": "helfen rige dativo: mich (acusativo) debe ser mir (dativo)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "mir", "es": "me, a mí", "esApprox": "«mir»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "dir", "es": "te, a ti", "esApprox": "«dir»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ihm", "es": "le, a él", "esApprox": "«im»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "uns", "es": "nos, a nosotros", "esApprox": "«uns»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "euch", "es": "os, a vosotros", "esApprox": "«oich»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Das gefällt mir, und das gefällt dir.", "es": "Eso me gusta, y eso te gusta.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Ich helfe ihm, und er hilft mir.", "es": "Yo lo ayudo a él, y él me ayuda a mí.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Das gefällt mir.", "es": "Eso me gusta.", "from": "e13" }
+  ]
+}

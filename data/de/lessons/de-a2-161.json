@@ -1,0 +1,87 @@
+{
+  "id": "de-a2-161",
+  "lang": "de",
+  "level": "A2",
+  "order": 161,
+  "title": "Expresar deseos irreales sencillos: ich wäre gern...",
+  "objectives": [
+    "Expresar deseos irreales o poco probables con wäre gern, hätte gern y würde gern",
+    "Usar wenn + Konjunktiv II para condicionales irreales sencillas",
+    "Formular la fórmula «Ich wünschte, ich...» para deseos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Deseos irreales: wenn + Konjunktiv II",
+      "body": "El Konjunktiv II también sirve para expresar deseos que no son reales o son poco probables: «Ich wäre gern Astronaut» (Me gustaría ser astronauta, aunque no lo soy), «Wenn ich mehr Geld hätte, würde ich reisen» (Si tuviera más dinero, viajaría). La estructura wenn + Konjunktiv II (verbo al final) + coma + würde/wäre/hätte + resto es el patrón básico de la condicional irreal.",
+      "examples": [
+        { "target": "Wenn ich mehr Geld hätte, würde ich reisen.", "es": "Si tuviera más dinero, viajaría." },
+        { "target": "Ich wünschte, ich hätte mehr Zeit.", "es": "Ojalá tuviera más tiempo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "wenn + Konjunktiv II, würde/wäre/hätte + resto",
+      "headers": ["wenn-frase (verbo final)", "frase principal (würde/wäre/hätte en posición 2)"],
+      "rows": [
+        ["Wenn ich mehr Zeit hätte,", "würde ich mehr lesen."],
+        ["Wenn ich reich wäre,", "würde ich ein Haus kaufen."],
+        ["Wenn er hier wäre,", "wäre ich glücklicher."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "«Ich wünschte, ich...» (Ojalá yo...) es otra fórmula muy útil para deseos irreales, seguida siempre de Konjunktiv II: «Ich wünschte, ich könnte fliegen» (Ojalá pudiera volar)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "wenn", "es": "si (condicional)", "ipa": "/vɛn/", "esApprox": "«ven»", "pos": "conjunción", "gender": null, "example": { "target": "Wenn ich mehr Geld hätte, würde ich reisen.", "es": "Si tuviera más dinero, viajaría." } },
+    { "id": "v2", "target": "ich wünschte", "es": "ojalá (yo)", "ipa": "/ɪç ˈvʏnʃtə/", "esApprox": "«ich VÜNSH-te»", "pos": "locución verbal", "gender": null, "example": { "target": "Ich wünschte, ich hätte mehr Zeit.", "es": "Ojalá tuviera más tiempo." } },
+    { "id": "v3", "target": "der Astronaut", "es": "el astronauta", "ipa": "/astʁoˈnaʊ̯t/", "esApprox": "«as-tro-NAUT»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich wäre gern Astronaut.", "es": "Me gustaría ser astronauta." } },
+    { "id": "v4", "target": "fliegen", "es": "volar", "ipa": "/ˈfliːɡn̩/", "esApprox": "«FLÍ-guen»", "pos": "verbo", "gender": null, "example": { "target": "Ich wünschte, ich könnte fliegen.", "es": "Ojalá pudiera volar." } },
+    { "id": "v5", "target": "glücklich", "es": "feliz", "ipa": "/ˈɡlʏklɪç/", "esApprox": "«GLÜK-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Wenn er hier wäre, wäre ich glücklicher.", "es": "Si él estuviera aquí, sería más feliz." } },
+    { "id": "v6", "target": "leider", "es": "desgraciadamente", "ipa": "/ˈlaɪ̯dɐ/", "esApprox": "«LÁI-der»", "pos": "adverbio", "gender": null, "example": { "target": "Leider habe ich nicht so viel Geld.", "es": "Desgraciadamente no tengo tanto dinero." } },
+    { "id": "v7", "target": "das Haus", "es": "la casa", "ipa": "/haʊ̯s/", "esApprox": "«jaus»", "pos": "sustantivo", "gender": "n", "example": { "target": "Wenn ich reich wäre, würde ich ein Haus kaufen.", "es": "Si fuera rico, compraría una casa." } },
+    { "id": "v8", "target": "erfüllen", "es": "cumplir, realizar", "ipa": "/ɛɐ̯ˈfʏlən/", "esApprox": "«er-FÜ-len»", "pos": "verbo", "gender": null, "example": { "target": "Ich wünschte, ich könnte meinen Traum erfüllen.", "es": "Ojalá pudiera cumplir mi sueño." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["deseos"], "difficulty": 1, "prompt": "¿Dónde va el verbo en la frase con wenn?", "options": ["Posición 1", "Posición 2", "Al final", "No hay verbo"], "answer": 2, "explain": "wenn es una conjunción subordinante (repaso de la clase 82): el verbo va al final." },
+    { "id": "e2", "type": "mcq", "tags": ["deseos"], "difficulty": 2, "prompt": "¿Qué sigue siempre a «Ich wünschte,...»?", "options": ["Indicativo", "Konjunktiv II", "Imperativo", "Infinitivo solo"], "answer": 1, "explain": "Ich wünschte, ich hätte/wäre/könnte...: siempre Konjunktiv II." },
+    { "id": "e3", "type": "true_false", "tags": ["deseos"], "difficulty": 2, "statement": "«Wenn ich mehr Geld hätte, würde ich reisen» expresa una condición real y probable.", "answer": false, "explain": "El Konjunktiv II expresa algo irreal o poco probable, no la realidad actual." },
+    { "id": "e4", "type": "true_false", "tags": ["deseos"], "difficulty": 2, "statement": "En la frase principal tras la coma, el verbo conjugado (würde/wäre) va en posición 2.", "answer": true, "explain": "Wenn..., würde ich...: la coma cuenta como posición 1, y würde ocupa la posición 2." },
+    { "id": "e5", "type": "match_pairs", "tags": ["deseos"], "difficulty": 2, "prompt": "Une cada inicio con su final lógico", "left": ["Wenn ich reich wäre,", "Wenn ich mehr Zeit hätte,", "Ich wünschte,", "Wenn er hier wäre,"], "right": ["würde ich ein Haus kaufen.", "würde ich mehr lesen.", "ich könnte fliegen.", "wäre ich glücklicher."], "answer": [0, 1, 2, 3], "explain": "Condicionales irreales: wenn + Konjunktiv II, coma, würde/wäre + resto." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["deseos"], "difficulty": 2, "prompt": "Si tuviera más dinero, viajaría.", "accept": ["Wenn ich mehr Geld hätte, würde ich reisen"], "hintWords": ["wenn ich mehr geld hätte würde ich reisen"], "strictAccents": false, "audio": "Wenn ich mehr Geld hätte, würde ich reisen.", "explain": "Wenn... hätte, (coma) würde ich reisen." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["deseos"], "difficulty": 2, "prompt": "Ojalá tuviera más tiempo.", "accept": ["Ich wünschte, ich hätte mehr Zeit"], "hintWords": ["ich wünschte ich hätte mehr zeit"], "strictAccents": false, "audio": "Ich wünschte, ich hätte mehr Zeit.", "explain": "Ich wünschte, + ich hätte mehr Zeit (Konjunktiv II)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["deseos"], "difficulty": 2, "prompt": "Me gustaría ser astronauta.", "accept": ["Ich wäre gern Astronaut"], "hintWords": ["ich wäre gern astronaut"], "strictAccents": false, "audio": "Ich wäre gern Astronaut.", "explain": "wäre gern + profesión (sin artículo, como en presente)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["deseos"], "difficulty": 2, "prompt": "Completa la condicional irreal", "text": "Wenn ich reich ___, ___ ich ein Haus kaufen.", "blanks": [{ "accept": ["wäre"] }, { "accept": ["würde"] }], "bank": ["wäre", "würde", "bin"], "explain": "Wenn ich reich wäre, würde ich ein Haus kaufen." },
+    { "id": "e10", "type": "word_order", "tags": ["deseos"], "difficulty": 2, "prompt": "Ordena: «Ojalá pudiera volar»", "tokens": ["ich könnte fliegen", "Ich wünschte,"], "answer": ["Ich wünschte,", "ich könnte fliegen"], "audio": "Ich wünschte, ich könnte fliegen.", "explain": "Ich wünschte, + Konjunktiv II (könnte fliegen)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["deseos"], "difficulty": 2, "prompt": "Leider habe ich nicht so viel Geld.", "accept": ["Desgraciadamente no tengo tanto dinero."], "strictAccents": false, "audio": "Leider habe ich nicht so viel Geld.", "explain": "leider = desgraciadamente." },
+    { "id": "e12", "type": "dialogue", "tags": ["deseos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was wärst du gern von Beruf?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich wäre gern Astronaut."], "hint": "expresa un deseo irreal de profesión" },
+      { "who": "Lea", "text": "Das ist ein schöner Traum!", "speak": true }
+    ], "explain": "wäre gern + profesión: deseo irreal sencillo." },
+    { "id": "e13", "type": "listening", "tags": ["deseos"], "difficulty": 1, "speak": "Ich wünschte, ich hätte mehr Zeit.", "mode": "write", "accept": ["Ich wünschte, ich hätte mehr Zeit"], "showTextAfter": true, "explain": "Ich wünschte, + Konjunktiv II." },
+    { "id": "e14", "type": "listening", "tags": ["deseos"], "difficulty": 2, "speak": "Wenn er hier wäre, wäre ich glücklicher.", "mode": "choose", "options": ["Wenn er hier wäre, wäre ich glücklicher.", "Wenn er hier ist, bin ich glücklicher.", "Wenn er hier war, war ich glücklicher."], "answer": 0, "showTextAfter": true, "explain": "wäre...wäre: ambos verbos en Konjunktiv II para el deseo irreal." },
+    { "id": "e15", "type": "shadowing", "tags": ["deseos"], "difficulty": 2, "speak": "Wenn ich mehr Geld hätte, würde ich reisen, und ich wünschte, ich hätte auch mehr Zeit dafür.", "es": "Si tuviera más dinero, viajaría, y ojalá tuviera también más tiempo para ello.", "ipa": "/vɛn ɪç meːɐ̯ ɡɛlt ˈhɛtə ˈvʏʁdə ɪç ˈʁaɪ̯zn̩ ʊnt ɪç ˈvʏnʃtə ɪç ˈhɛtə aʊ̯x meːɐ̯ tsaɪ̯t daˈfyːɐ̯/", "esApprox": "«ven ich mer guelt JÉ-te VUR-de ich RÁI-zen, unt ich VÜNSH-te ich JÉ-te aoj mer tsait da-FIUR»", "focus": "wenn...hätte, würde y ich wünschte...hätte: dos estructuras de deseo irreal juntas.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["deseos"], "difficulty": 2, "speak": "Ich wäre gern Astronaut, aber leider ist das nur ein Traum, den ich nie erfüllen werde.", "es": "Me gustaría ser astronauta, pero desgraciadamente eso es solo un sueño que nunca cumpliré.", "ipa": "/ɪç ˈvɛːʁə ɡɛʁn astʁoˈnaʊ̯t ˈaːbɐ ˈlaɪ̯dɐ ɪst das nuːɐ̯ aɪ̯n tʁaʊ̯m deːn ɪç niː ɛɐ̯ˈfʏlən ˈveːɐ̯də/", "esApprox": "«ich VÉ-re guern as-tro-NAUT, Á-ber LÁI-der ist das nur ain traum, den ich ni er-FÜ-len VÉR-de»", "focus": "wäre gern y werde erfüllen: un deseo irreal seguido de una predicción con Futur I.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["deseos"], "difficulty": 2, "prompt": "Alguien te pregunta qué harías si tuvieras más tiempo. Di que leerías más.", "modelAnswer": "Wenn ich mehr Zeit hätte, würde ich mehr lesen.", "alsoValid": ["Ich würde mehr lesen, wenn ich mehr Zeit hätte."], "speak": "Wenn ich mehr Zeit hätte, würde ich mehr lesen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["deseos"], "difficulty": 2, "prompt": "Clasifica: hecho real o deseo irreal", "buckets": ["Hecho real", "Deseo irreal (Konjunktiv II)"], "items": [
+      { "text": "Ich habe wenig Zeit.", "bucket": 0 },
+      { "text": "Ich wünschte, ich hätte mehr Zeit.", "bucket": 1 },
+      { "text": "Wenn ich reich wäre, würde ich reisen.", "bucket": 1 }
+    ], "explain": "El presente indicativo describe hechos; wenn/wünschte + Konjunktiv II describe deseos irreales." },
+    { "id": "e19", "type": "error_correction", "tags": ["deseos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wenn ich reich wäre, ich würde ein Haus kaufen.", "accept": ["Wenn ich reich wäre, würde ich ein Haus kaufen"], "audio": "Wenn ich reich wäre, würde ich ein Haus kaufen.", "explain": "Tras la coma, el verbo conjugado (würde) va en posición 2, antes de ich." },
+    { "id": "e20", "type": "mcq", "tags": ["deseos"], "difficulty": 2, "prompt": "«Ich wünschte, ich hätte mehr Zeit. Wenn ich mehr Zeit hätte, würde ich mehr reisen. Ich wäre gern Astronaut, aber das ist nur ein Traum.» ¿Qué desea la persona en realidad?", "options": ["Ser astronauta de verdad", "Tener más tiempo para viajar", "Trabajar más", "Quedarse en casa"], "answer": 1, "explain": "«Wenn ich mehr Zeit hätte, würde ich mehr reisen» es el deseo central; ser astronauta se describe como «nur ein Traum»." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "wenn", "es": "si (condicional)", "esApprox": "«ven»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "ich wünschte", "es": "ojalá (yo)", "esApprox": "«ich VÜNSH-te»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "fliegen", "es": "volar", "esApprox": "«FLÍ-guen»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "glücklich", "es": "feliz", "esApprox": "«GLÜK-lich»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "leider", "es": "desgraciadamente", "esApprox": "«LÁI-der»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "erfüllen", "es": "cumplir, realizar", "esApprox": "«er-FÜ-len»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Wenn ich mehr Geld hätte, würde ich reisen, und ich wünschte, ich hätte auch mehr Zeit dafür.", "es": "Si tuviera más dinero, viajaría, y ojalá tuviera también más tiempo para ello.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich wäre gern Astronaut, aber leider ist das nur ein Traum, den ich nie erfüllen werde.", "es": "Me gustaría ser astronauta, pero desgraciadamente eso es solo un sueño que nunca cumpliré.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-206",
+  "lang": "de",
+  "level": "B1",
+  "order": 206,
+  "title": "Sustantivos con preposición fija: die Angst vor, die Freude über",
+  "objectives": [
+    "Reconocer que muchos sustantivos abstractos llevan una preposición fija, igual que los verbos",
+    "Usar die Angst vor, die Freude über/auf, das Interesse an y die Sorge um con su caso correcto",
+    "Distinguir die Freude über (algo ya ocurrido) de die Freude auf (algo que va a ocurrir)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Sustantivos con preposición fija: la misma lógica que los verbos",
+      "body": "Igual que los verbos (clases 116-117, 203-204), muchos sustantivos abstractos exigen una preposición concreta: «die Angst vor» (el miedo a) + dativo, «das Interesse an» (el interés por) + dativo, «die Sorge um» (la preocupación por) + acusativo. Es la misma unidad fija que ya conoces, solo que ahora la palabra principal es un sustantivo, no un verbo.",
+      "examples": [
+        { "target": "Ich habe Angst vor Spinnen.", "es": "Tengo miedo a las arañas." },
+        { "target": "Sie hat großes Interesse an Kunst.", "es": "Ella tiene gran interés por el arte." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Sustantivos con preposición fija frecuentes",
+      "headers": ["Sustantivo", "Preposición + caso", "Significado"],
+      "rows": [
+        ["die Angst", "vor + dativo", "el miedo a"],
+        ["die Freude", "über + acusativo (ya ocurrido)", "la alegría por"],
+        ["die Freude", "auf + acusativo (aún por llegar)", "la ilusión por"],
+        ["das Interesse", "an + dativo", "el interés por"],
+        ["die Sorge", "um + acusativo", "la preocupación por"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "die Freude über algo que ya pasó («Freude über das Geschenk», la alegría por el regalo recibido) se distingue de die Freude auf algo futuro («Freude auf die Ferien», la ilusión por las vacaciones que vienen), un matiz temporal muy típico del alemán."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Angst vor", "es": "el miedo a (+ dativo)", "ipa": "/diː aŋst foːɐ̯/", "esApprox": "«di angst for»", "pos": "sustantivo con preposición fija", "gender": "f", "example": { "target": "Ich habe Angst vor Spinnen.", "es": "Tengo miedo a las arañas." } },
+    { "id": "v2", "target": "die Freude über", "es": "la alegría por (algo ya ocurrido, + acusativo)", "ipa": "/diː ˈfʁɔɪ̯də yːbɐ/", "esApprox": "«di FRÓI-de IU-ber»", "pos": "sustantivo con preposición fija", "gender": "f", "example": { "target": "Die Freude über das Geschenk war groß.", "es": "La alegría por el regalo fue grande." } },
+    { "id": "v3", "target": "die Freude auf", "es": "la ilusión por (algo futuro, + acusativo)", "ipa": "/diː ˈfʁɔɪ̯də aʊ̯f/", "esApprox": "«di FRÓI-de auf»", "pos": "sustantivo con preposición fija", "gender": "f", "example": { "target": "Die Freude auf die Ferien ist groß.", "es": "La ilusión por las vacaciones es grande." } },
+    { "id": "v4", "target": "das Interesse an", "es": "el interés por (+ dativo)", "ipa": "/das ɪntəˈʁɛsə an/", "esApprox": "«das in-te-RÉ-se an»", "pos": "sustantivo con preposición fija", "gender": "n", "example": { "target": "Sie hat großes Interesse an Kunst.", "es": "Ella tiene gran interés por el arte." } },
+    { "id": "v5", "target": "die Sorge um", "es": "la preocupación por (+ acusativo)", "ipa": "/diː ˈzɔʁɡə ʊm/", "esApprox": "«di ZÓR-gue um»", "pos": "sustantivo con preposición fija", "gender": "f", "example": { "target": "Die Sorge um die Familie ist normal.", "es": "La preocupación por la familia es normal." } },
+    { "id": "v6", "target": "die Spinne", "es": "la araña", "ipa": "/ˈʃpɪnə/", "esApprox": "«SHPÍ-ne»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich habe Angst vor Spinnen.", "es": "Tengo miedo a las arañas." } },
+    { "id": "v7", "target": "die Kunst", "es": "el arte", "ipa": "/kʊnst/", "esApprox": "«kunst»", "pos": "sustantivo", "gender": "f", "example": { "target": "Sie interessiert sich für Kunst.", "es": "Ella se interesa por el arte." } },
+    { "id": "v8", "target": "das Geschenk", "es": "el regalo", "ipa": "/ɡəˈʃɛŋk/", "esApprox": "«ge-SHENK»", "pos": "sustantivo", "gender": "n", "example": { "target": "Die Freude über das Geschenk war groß.", "es": "La alegría por el regalo fue grande." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 1, "prompt": "¿Qué caso rige «die Angst vor»?", "options": ["Acusativo", "Dativo", "Genitivo", "Nominativo"], "answer": 1, "explain": "die Angst vor + dativo." },
+    { "id": "e2", "type": "mcq", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "¿Qué preposición se usa para algo que ya ocurrió, con die Freude?", "options": ["auf", "über", "vor", "um"], "answer": 1, "explain": "die Freude über: alegría por algo ya ocurrido." },
+    { "id": "e3", "type": "true_false", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "statement": "die Freude auf se usa para algo que aún no ha pasado.", "answer": true, "explain": "die Freude auf die Ferien = la ilusión por unas vacaciones futuras." },
+    { "id": "e4", "type": "true_false", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "statement": "das Interesse an rige acusativo.", "answer": false, "explain": "das Interesse an rige dativo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "Une cada sustantivo con su preposición", "left": ["die Angst", "das Interesse", "die Sorge", "die Freude (ya ocurrido)"], "right": ["vor", "an", "um", "über"], "answer": [0, 1, 2, 3], "explain": "Preposiciones fijas de estos sustantivos abstractos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "Tengo miedo a las arañas.", "accept": ["Ich habe Angst vor Spinnen"], "hintWords": ["ich habe Angst vor Spinnen"], "strictAccents": false, "audio": "Ich habe Angst vor Spinnen.", "explain": "habe + Angst + vor + Spinnen (dativo)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "Ella tiene gran interés por el arte.", "accept": ["Sie hat großes Interesse an Kunst"], "hintWords": ["sie hat großes Interesse an Kunst"], "strictAccents": false, "audio": "Sie hat großes Interesse an Kunst.", "explain": "hat + großes Interesse + an + Kunst (dativo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "La preocupación por la familia es normal.", "accept": ["Die Sorge um die Familie ist normal"], "hintWords": ["die Sorge um die Familie ist normal"], "strictAccents": false, "audio": "Die Sorge um die Familie ist normal.", "explain": "Die Sorge + um + die Familie (acusativo)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "Completa con la preposición correcta", "text": "Die Freude ___ das Geschenk war groß. Die Freude ___ die Ferien ist groß.", "blanks": [{ "accept": ["über"] }, { "accept": ["auf"] }], "bank": ["über", "auf", "vor"], "explain": "über (ya ocurrido) y auf (futuro)." },
+    { "id": "e10", "type": "word_order", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "Ordena: «La araña me da miedo»", "tokens": ["macht mir Angst", "Die Spinne"], "answer": ["Die Spinne", "macht mir Angst"], "audio": "Die Spinne macht mir Angst.", "explain": "Die Spinne (sujeto) + macht (posición 2) + mir + Angst." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "Sie interessiert sich für Kunst.", "accept": ["Ella se interesa por el arte."], "strictAccents": false, "audio": "Sie interessiert sich für Kunst.", "explain": "die Kunst = el arte." },
+    { "id": "e12", "type": "dialogue", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wovor hast du Angst?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich habe Angst vor Spinnen."], "hint": "responde con die Angst vor" },
+      { "who": "Lea", "text": "Ich auch, ehrlich gesagt!", "speak": true }
+    ], "explain": "die Angst vor: miedo típico en una conversación casual." },
+    { "id": "e13", "type": "listening", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 1, "speak": "Ich habe Angst vor Spinnen.", "mode": "write", "accept": ["Ich habe Angst vor Spinnen"], "showTextAfter": true, "explain": "Angst + vor + dativo." },
+    { "id": "e14", "type": "listening", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "speak": "Die Freude auf die Ferien ist groß.", "mode": "choose", "options": ["Die Freude auf die Ferien ist groß.", "Die Freude über die Ferien ist groß.", "Die Freude vor die Ferien ist groß."], "answer": 0, "showTextAfter": true, "explain": "auf, porque las vacaciones aún no han llegado." },
+    { "id": "e15", "type": "shadowing", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "speak": "Ich habe Angst vor Spinnen, aber meine Freude auf die Ferien ist trotzdem größer als diese Angst.", "es": "Tengo miedo a las arañas, pero mi ilusión por las vacaciones es de todas formas mayor que ese miedo.", "ipa": "/ɪç ˈhaːbə aŋst foːɐ̯ ˈʃpɪnən ˈaːbɐ ˈmaɪ̯nə ˈfʁɔɪ̯də aʊ̯f diː ˈfeːʁiən ɪst ˈtʁɔtsdeːm ˈɡʁøːsɐ als ˈdiːzə aŋst/", "esApprox": "«ich JÁ-be angst for SHPÍ-nen, Á-ber MÁI-ne FRÓI-de auf di FÉ-rien ist TROTS-dem GRÖ-ser als DÍ-ze angst»", "focus": "Angst vor y Freude auf: dos sustantivos con preposición fija contrastados en una sola frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "speak": "Sie hat großes Interesse an Kunst, und die Sorge um ihre Zukunft als Künstlerin beschäftigt sie oft.", "es": "Ella tiene gran interés por el arte, y la preocupación por su futuro como artista la ocupa a menudo.", "ipa": "/ziː hat ˈɡʁoːsəs ɪntəˈʁɛsə an kʊnst ʊnt diː ˈzɔʁɡə ʊm ˈiːʁə ˈtsuːkʊnft als ˈkʏnstlɐɪ̯n bəˈʃɛftɪkt ziː ɔft/", "esApprox": "«zi jat GRÓ-ses in-te-RÉ-se an kunst, unt di ZÓR-gue um Í-re TSÚ-kunft als KÜNST-le-rin be-SHÉF-tikt zi oft»", "focus": "Interesse an y Sorge um: dos sustantivos con preposición fija, uno positivo y otro de preocupación.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "Te preguntan a qué le tienes miedo. Responde que a las arañas.", "modelAnswer": "Ich habe Angst vor Spinnen.", "alsoValid": ["Ich habe große Angst vor Spinnen."], "speak": "Ich habe Angst vor Spinnen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "Clasifica cada expresión según su preposición", "buckets": ["vor/über (algo pasado/temido)", "auf/an/um (futuro/interés/preocupación)"], "items": [
+      { "text": "die Angst vor Spinnen", "bucket": 0 },
+      { "text": "die Freude über das Geschenk", "bucket": 0 },
+      { "text": "die Freude auf die Ferien", "bucket": 1 },
+      { "text": "das Interesse an Kunst", "bucket": 1 }
+    ], "explain": "vor y über se usan para miedos y cosas ya ocurridas; auf, an y um para lo futuro, el interés y la preocupación." },
+    { "id": "e19", "type": "error_correction", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Die Freude über die Ferien ist groß. (las vacaciones aún no han llegado)", "accept": ["Die Freude auf die Ferien ist groß"], "audio": "Die Freude auf die Ferien ist groß.", "explain": "Para algo futuro (las vacaciones que vienen), se usa auf, no über." },
+    { "id": "e20", "type": "mcq", "tags": ["regimen-preposicional", "sustantivos"], "difficulty": 2, "prompt": "«Sie hat großes Interesse an Kunst, und die Sorge um ihre Zukunft als Künstlerin beschäftigt sie oft.» ¿Qué le preocupa a la persona?", "options": ["El arte en general", "Su futuro como artista", "Sus amigos", "El dinero"], "answer": 1, "explain": "«die Sorge um ihre Zukunft als Künstlerin» indica que le preocupa su futuro como artista." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "die Angst vor", "es": "el miedo a (+ dativo)", "esApprox": "«di angst for»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "die Freude über", "es": "la alegría por (algo ya ocurrido, + acusativo)", "esApprox": "«di FRÓI-de IU-ber»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "die Freude auf", "es": "la ilusión por (algo futuro, + acusativo)", "esApprox": "«di FRÓI-de auf»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "das Interesse an", "es": "el interés por (+ dativo)", "esApprox": "«das in-te-RÉ-se an»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "die Sorge um", "es": "la preocupación por (+ acusativo)", "esApprox": "«di ZÓR-gue um»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Kunst", "es": "el arte", "esApprox": "«kunst»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe Angst vor Spinnen, aber meine Freude auf die Ferien ist trotzdem größer als diese Angst.", "es": "Tengo miedo a las arañas, pero mi ilusión por las vacaciones es de todas formas mayor que ese miedo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Sie hat großes Interesse an Kunst, und die Sorge um ihre Zukunft als Künstlerin beschäftigt sie oft.", "es": "Ella tiene gran interés por el arte, y la preocupación por su futuro como artista la ocupa a menudo.", "from": "e16" }
+  ]
+}

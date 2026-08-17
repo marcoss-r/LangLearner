@@ -1,0 +1,257 @@
+{
+  "id": "fr-a1-082",
+  "lang": "fr",
+  "level": "A1",
+  "order": 82,
+  "title": "Los pronombres COD: le, la, les",
+  "objectives": [
+    "Usar le, la, les para sustituir un complemento directo ya mencionado",
+    "Colocar el pronombre COD antes del verbo conjugado",
+    "Colocar el pronombre COD antes del infinitivo cuando hay dos verbos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Evitar repetir el sustantivo",
+      "body": "Cuando ya sabes de qué sustantivo se habla, puedes sustituirlo por le (masculino), la (femenino) o les (plural), para no repetirlo. En francés, este pronombre va siempre delante del verbo, al contrario que en español, donde también puede ir así (lo veo) pero con otras reglas de posición en el infinitivo.",
+      "examples": [
+        { "target": "Tu vois le chat ? Oui, je le vois.", "es": "¿Ves el gato? Sí, lo veo.", "note": "le chat → le, delante del verbo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Le, la, les",
+      "headers": ["Pronombre", "Sustituye a...", "Ejemplo"],
+      "rows": [
+        ["le", "sustantivo masculino singular", "Je le vois (le chat)."],
+        ["la", "sustantivo femenino singular", "Je la vois (la voiture)."],
+        ["les", "sustantivo plural", "Je les vois (les enfants)."],
+        ["l'", "singular + vocal o h muda", "Je l'aime (l'histoire)."]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Con un solo verbo frente a con dos verbos"
+      ,
+      "items": [
+        { "wrong": "Je vais voir le le film.", "right": "Je le vois. / Je vais le voir.", "why": "Con un solo verbo conjugado, el pronombre va justo antes: je le vois. Con dos verbos (uno conjugado + infinitivo), el pronombre va delante del infinitivo, no del verbo conjugado: je vais le voir." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En la negación, ne...pas rodea el pronombre y el verbo juntos: je ne le vois pas, igual que con los verbos pronominales (clase 41)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le / la / les", "es": "lo/la/los/las (pronombre COD)", "ipa": "/lə la le/", "esApprox": "«le la LE»", "pos": "pronombre", "gender": null, "example": { "target": "Je le vois.", "es": "Lo veo." } },
+    { "id": "v2", "target": "voir", "es": "ver", "ipa": "/vwaʁ/", "esApprox": "«VUÁR»", "pos": "verbo", "gender": null, "example": { "target": "Je vois mes amis.", "es": "Veo a mis amigos." } },
+    { "id": "v3", "target": "connaître", "es": "conocer", "ipa": "/kɔ.nɛtʁ/", "esApprox": "«ko-NETR»", "pos": "verbo", "gender": null, "example": { "target": "Je connais ce restaurant.", "es": "Conozco este restaurante." } },
+    { "id": "v4", "target": "prendre", "es": "coger, tomar", "ipa": "/pʁɑ̃dʁ/", "esApprox": "«PRANDR»", "pos": "verbo", "gender": null, "example": { "target": "Je prends le bus.", "es": "Cojo el autobús." } },
+    { "id": "v5", "target": "attendre", "es": "esperar", "ipa": "/a.tɑ̃dʁ/", "esApprox": "«a-TANDR»", "pos": "verbo", "gender": null, "example": { "target": "Je t'attends.", "es": "Te espero." } },
+    { "id": "v6", "target": "appeler", "es": "llamar", "ipa": "/a.ple/", "esApprox": "«a-PLÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je l'appelle ce soir.", "es": "Lo llamo esta noche." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "¿Cómo sustituyes «le chat» (masculino)?",
+      "options": ["la", "les", "le", "l'"],
+      "answer": 2,
+      "explain": "Le chat → le, sustantivo masculino singular."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "¿Dónde va el pronombre COD con un solo verbo conjugado?",
+      "options": ["Después del verbo", "Antes del verbo", "Al final de la frase", "No cambia de posición"],
+      "answer": 1,
+      "explain": "Je le vois: el pronombre va justo antes del verbo conjugado."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "statement": "Con dos verbos (uno conjugado + infinitivo), el pronombre COD va delante del infinitivo.",
+      "answer": true,
+      "explain": "Je vais le voir: le va delante de voir, no delante de vais."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "statement": "Le se convierte en l' delante de un verbo que empieza por vocal.",
+      "answer": true,
+      "explain": "Je l'appelle: le + appelle (vocal) → l'appelle."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "Une cada sustantivo con su pronombre correcto",
+      "left": ["le chat (m.)", "la voiture (f.)", "les enfants (pl.)", "l'histoire (vocal)"],
+      "right": ["l'", "les", "le", "la"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Le chat → le, la voiture → la, les enfants → les, l'histoire → l'."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "¿Ves el gato? Sí, lo veo todos los días.",
+      "accept": ["Tu vois le chat ? Oui, je le vois tous les jours"],
+      "hintWords": ["tu vois le chat", "je le vois tous les jours"],
+      "strictAccents": false,
+      "audio": "Tu vois le chat ? Oui, je le vois tous les jours.",
+      "explain": "Le chat → le, delante de vois."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "Conozco este libro. Voy a leerlo.",
+      "accept": ["Je connais ce livre. Je vais le lire"],
+      "hintWords": ["je connais ce livre", "je vais le lire"],
+      "strictAccents": false,
+      "audio": "Je connais ce livre. Je vais le lire.",
+      "explain": "Con dos verbos (vais + lire), le va delante del infinitivo."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto",
+      "text": "Tu connais Léa ? Oui, je ___ connais bien.",
+      "blanks": [{ "accept": ["la"] }],
+      "bank": ["le", "la", "les"],
+      "explain": "Léa (femenino) → la."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Te espero delante de la gare»",
+      "tokens": ["devant la gare", "Je t'", "attends"],
+      "answer": ["Je t'", "attends", "devant la gare"],
+      "audio": "Je t'attends devant la gare.",
+      "explain": "Je t'attends: pronombre COD te (t') delante de attends."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "Je ne le vois pas, mais je l'entends.",
+      "accept": ["No lo veo, pero lo oigo."],
+      "strictAccents": false,
+      "audio": "Je ne le vois pas, mais je l'entends.",
+      "explain": "Ne...pas rodea el pronombre y el verbo: je ne le vois pas."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre a quién conoces",
+      "turns": [
+        { "who": "Léa", "text": "Tu connais mon frère ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je le connais bien.", "Non, je ne le connais pas."], "hint": "usa el pronombre le" },
+        { "who": "Léa", "text": "Ah, super !", "speak": true }
+      ],
+      "explain": "Tu connais...? se responde con le/la/les + connais."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "speak": "Je connais ce livre, j'aime beaucoup le lire.",
+      "mode": "write",
+      "accept": ["Je connais ce livre, j'aime beaucoup le lire"],
+      "showTextAfter": true,
+      "explain": "Le sustituye a ce livre, delante del infinitivo lire."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 1,
+      "speak": "je l'appelle",
+      "mode": "choose",
+      "options": ["je le vois", "je la vois", "je l'appelle", "je les vois"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Je l'appelle = lo/la llamo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 3,
+      "speak": "Tu connais Léa ? Oui, je la connais bien, je l'appelle souvent, et je vais la voir ce soir.",
+      "es": "¿Conoces a Léa? Sí, la conozco bien, la llamo a menudo, y voy a verla esta noche.",
+      "ipa": "/ty kɔ.nɛ le.a wi ʒə la kɔ.nɛ bjɛ̃ ʒə la.pɛl su.vɑ̃ e ʒə vɛ la vwaʁ sə swaʁ/",
+      "esApprox": "«tü ko-NE LE-a UÍ ye la ko-NE bien ye la-PEL su-VAN e ye ve la VUÁR se SUAR»",
+      "focus": "El pronombre la usado tres veces con verbos distintos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "Di si conoces a un amigo tuyo y si lo/la vas a ver pronto.",
+      "modelAnswer": "Je connais bien mon ami, je vais le voir demain.",
+      "alsoValid": ["Je connais ma sœur, je la vois souvent."],
+      "speak": "Je connais bien mon ami, je vais le voir demain.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "¿Qué pronombre corresponde?",
+      "buckets": ["le", "la", "les"],
+      "items": [
+        { "text": "le chat", "bucket": 0 },
+        { "text": "la voiture", "bucket": 1 },
+        { "text": "les enfants", "bucket": 2 },
+        { "text": "le travail", "bucket": 0 },
+        { "text": "la musique", "bucket": 1 }
+      ],
+      "explain": "Le (masc. sing.), la (fem. sing.), les (plural)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "Hay un error de posición del pronombre. Corrige la frase entera.",
+      "wrong": "Je vois le.",
+      "accept": ["Je le vois"],
+      "audio": "Je le vois.",
+      "explain": "El pronombre COD va antes del verbo, no después."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "le / la / les", "es": "lo/la/los/las (pronombre COD)", "esApprox": "«le la LE»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "voir", "es": "ver", "esApprox": "«VUÁR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "connaître", "es": "conocer", "esApprox": "«ko-NETR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "attendre", "es": "esperar", "esApprox": "«a-TANDR»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "appeler", "es": "llamar", "esApprox": "«a-PLÉ»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "Tu vois le chat ? Oui, je le vois tous les jours.", "es": "¿Ves el gato? Sí, lo veo todos los días.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je connais ce livre. Je vais le lire.", "es": "Conozco este libro. Voy a leerlo.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Je t'attends devant la gare.", "es": "Te espero delante de la estación.", "from": "e9" }
+  ]
+}

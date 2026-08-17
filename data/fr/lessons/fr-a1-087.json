@@ -1,0 +1,252 @@
+{
+  "id": "fr-a1-087",
+  "lang": "fr",
+  "level": "A1",
+  "order": 87,
+  "title": "Escribir un correo o un mensaje sencillo",
+  "objectives": [
+    "Abrir y cerrar un correo o mensaje según el registro: formal o informal",
+    "Escribir un correo corto combinando saludos, cuerpo y despedida",
+    "Reconocer las fórmulas fijas más habituales de un correo francés"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Formal frente a informal",
+      "body": "Igual que con tu/vous (clase 6), un correo o mensaje cambia de fórmulas según sea formal o informal. Un correo formal empieza con Madame/Monsieur y termina con Cordialement; un mensaje informal empieza con Salut y termina con Bisous o À bientôt.",
+      "examples": [
+        { "target": "Salut Léa, comment vas-tu ? À bientôt !", "es": "Hola Léa, ¿cómo estás? ¡Hasta pronto!", "note": "registro informal" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas de correo/mensaje",
+      "headers": ["Formal", "Informal"],
+      "rows": [
+        ["Madame, Monsieur,", "Salut [prénom],"],
+        ["Cher Monsieur / Chère Madame,", "Coucou !"],
+        ["Cordialement,", "À bientôt !"],
+        ["Je vous remercie.", "Bisous !"]
+      ],
+      "note": "Cher/Chère significa «querido/a», y se usa tanto en correos formales educados como en cartas más personales."
+    },
+    {
+      "type": "tip",
+      "body": "En un correo formal, se tutea nunca: siempre vous. En un mensaje informal a un amigo, se usa siempre tu."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "Madame, Monsieur,", "es": "Estimados señores,", "ipa": "/ma.dam mə.sjø/", "esApprox": "«ma-DAM me-SIEU»", "pos": "expresión", "gender": null, "example": { "target": "Madame, Monsieur, je vous écris pour...", "es": "Estimados señores, les escribo para..." } },
+    { "id": "v2", "target": "cher / chère", "es": "querido/a", "ipa": "/ʃɛʁ/", "esApprox": "«SHER»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Chère Léa,", "es": "Querida Léa," } },
+    { "id": "v3", "target": "Cordialement,", "es": "Cordialmente,", "ipa": "/kɔʁ.djal.mɑ̃/", "esApprox": "«kor-dial-MAN»", "pos": "expresión", "gender": null, "example": { "target": "Cordialement, Marc Dubois", "es": "Cordialmente, Marc Dubois" } },
+    { "id": "v4", "target": "Je vous remercie.", "es": "Le/Les agradezco.", "ipa": "/ʒə vu ʁə.mɛʁ.si/", "esApprox": "«ye vu re-mer-SÍ»", "pos": "expresión", "gender": null, "example": { "target": "Je vous remercie pour votre réponse.", "es": "Le agradezco su respuesta." } },
+    { "id": "v5", "target": "Coucou !", "es": "¡Hola! (muy informal)", "ipa": "/ku.ku/", "esApprox": "«ku-KÚ»", "pos": "expresión", "gender": null, "example": { "target": "Coucou ! Ça va ?", "es": "¡Hola! ¿Qué tal?" } },
+    { "id": "v6", "target": "un e-mail / un mail", "es": "un correo electrónico", "ipa": "/œ̃ i.mɛl/", "esApprox": "«un i-MEL»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je t'écris un e-mail.", "es": "Te escribo un correo." } },
+    { "id": "v7", "target": "veuillez", "es": "por favor, tenga la amabilidad de (formal)", "ipa": "/vø.je/", "esApprox": "«veu-YÉ»", "pos": "expresión", "gender": null, "example": { "target": "Veuillez trouver ci-joint le document.", "es": "Le adjunto el documento." } },
+    { "id": "v8", "target": "dans l'attente de votre réponse", "es": "a la espera de su respuesta", "ipa": "/dɑ̃ la.tɑ̃t də vɔtʁ ʁe.pɔ̃s/", "esApprox": "«dan la-TANT de votr re-PONS»", "pos": "expresión", "gender": null, "example": { "target": "Dans l'attente de votre réponse, cordialement.", "es": "A la espera de su respuesta, cordialmente." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "¿Con qué se cierra un correo formal?",
+      "options": ["Bisous !", "Cordialement,", "Coucou !", "À bientôt !"],
+      "answer": 1,
+      "explain": "Cordialement, es la despedida formal habitual."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "¿Cómo empieza un mensaje muy informal a un amigo?",
+      "options": ["Madame, Monsieur,", "Cher Monsieur,", "Coucou !", "Cordialement,"],
+      "answer": 2,
+      "explain": "Coucou ! es un saludo muy informal, típico entre amigos."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "statement": "En un correo formal, se usa siempre vous, nunca tu.",
+      "answer": true,
+      "explain": "Repaso de la clase 6: vous para el registro formal."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas fórmulas no es de cierre?",
+      "options": ["Cordialement,", "À bientôt !", "Bisous !", "Madame, Monsieur,"],
+      "answer": 3,
+      "explain": "Madame, Monsieur, es de apertura, no de cierre."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "Une cada fórmula con su registro",
+      "left": ["Madame, Monsieur,", "Coucou !", "Cordialement,", "Bisous !"],
+      "right": ["cierre informal", "apertura formal", "apertura informal", "cierre formal"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Madame/Monsieur (apertura formal), Coucou (apertura informal), Cordialement (cierre formal), Bisous (cierre informal)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "Estimados señores, les agradezco su respuesta. Cordialmente,",
+      "accept": ["Madame, Monsieur, je vous remercie pour votre réponse. Cordialement,"],
+      "hintWords": ["madame, monsieur", "je vous remercie", "cordialement"],
+      "strictAccents": false,
+      "audio": "Madame, Monsieur, je vous remercie pour votre réponse. Cordialement,",
+      "explain": "Fórmulas de apertura y cierre formal."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "Hola Léa, ¿cómo estás? ¡Hasta pronto!",
+      "accept": ["Salut Léa, comment vas-tu ? À bientôt !"],
+      "hintWords": ["salut Léa", "comment vas-tu", "à bientôt"],
+      "strictAccents": false,
+      "audio": "Salut Léa, comment vas-tu ? À bientôt !",
+      "explain": "Fórmulas de apertura y cierre informal."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "Completa el correo formal",
+      "text": "___, Monsieur, je vous écris pour poser une question. ___,",
+      "blanks": [{ "accept": ["Madame"] }, { "accept": ["Cordialement"] }],
+      "bank": ["Madame", "Coucou", "Cordialement", "Bisous"],
+      "explain": "Madame, Monsieur, (apertura) ... Cordialement, (cierre)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Le agradezco su respuesta»",
+      "tokens": ["pour votre réponse", "Je vous remercie"],
+      "answer": ["Je vous remercie", "pour votre réponse"],
+      "audio": "Je vous remercie pour votre réponse.",
+      "explain": "Je vous remercie + pour votre réponse."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "Coucou ! Ça te dit de manger ensemble demain ? Bisous !",
+      "accept": ["¡Hola! ¿Te apetece comer juntos mañana? ¡Besos!"],
+      "strictAccents": false,
+      "audio": "Coucou ! Ça te dit de manger ensemble demain ? Bisous !",
+      "explain": "Ça te dit de (clase 85) en un mensaje informal."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "Completa el mensaje informal a un amigo",
+      "turns": [
+        { "who": "Léa", "text": "Coucou ! Ça va ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Coucou ! Oui, ça va bien.", "Salut ! Ça va, et toi ?"], "hint": "responde de forma informal" },
+        { "who": "Léa", "text": "À bientôt !", "speak": true }
+      ],
+      "explain": "Un mensaje informal se responde con el mismo registro."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "speak": "Chère Léa, je t'envoie un e-mail pour te dire bonjour. À bientôt !",
+      "mode": "write",
+      "accept": ["Chère Léa, je t'envoie un e-mail pour te dire bonjour. À bientôt !"],
+      "showTextAfter": true,
+      "explain": "Un correo corto, personal pero educado."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["escritura"],
+      "difficulty": 1,
+      "speak": "Cordialement",
+      "mode": "choose",
+      "options": ["Bisous", "Coucou", "Cordialement", "Salut"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Cordialement es el cierre formal."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["escritura"],
+      "difficulty": 3,
+      "speak": "Madame, Monsieur, je vous écris pour poser une question. Je vous remercie pour votre réponse. Cordialement.",
+      "es": "Estimados señores, les escribo para hacer una pregunta. Les agradezco su respuesta. Cordialmente.",
+      "ipa": "/ma.dam mə.sjø ʒə vu.z‿e.kʁi puʁ po.ze yn kɛs.tjɔ̃ ʒə vu ʁə.mɛʁ.si puʁ vɔtʁ ʁe.pɔ̃s kɔʁ.djal.mɑ̃/",
+      "esApprox": "«ma-DAM me-SIEU ye vu-ze-KRI pur po-ZÉ ün kes-TIÓN ye vu re-mer-SÍ pur votr re-PONS kor-dial-MAN»",
+      "focus": "Un correo formal completo: apertura, cuerpo y cierre.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "Escribe (en voz alta) el principio y el final de un mensaje a un amigo.",
+      "modelAnswer": "Coucou ! Comment vas-tu ? Bisous !",
+      "alsoValid": ["Salut ! Ça te dit de manger ensemble ? À bientôt !"],
+      "speak": "Coucou ! Comment vas-tu ? Bisous !",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "¿Es formal o informal?",
+      "buckets": ["Formal", "Informal"],
+      "items": [
+        { "text": "Madame, Monsieur,", "bucket": 0 },
+        { "text": "Coucou !", "bucket": 1 },
+        { "text": "Cordialement,", "bucket": 0 },
+        { "text": "Bisous !", "bucket": 1 }
+      ],
+      "explain": "Madame/Monsieur y Cordialement son formales; Coucou y Bisous son informales."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "Hay un error de registro. Corrige la frase entera.",
+      "wrong": "Madame, Monsieur, coucou !",
+      "accept": ["Madame, Monsieur, bonjour"],
+      "audio": "Madame, Monsieur, bonjour.",
+      "explain": "Coucou es demasiado informal para un correo que empieza con Madame, Monsieur."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "Madame, Monsieur,", "es": "Estimados señores,", "esApprox": "«ma-DAM me-SIEU»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "cher / chère", "es": "querido/a", "esApprox": "«SHER»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "Cordialement,", "es": "Cordialmente,", "esApprox": "«kor-dial-MAN»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "Je vous remercie.", "es": "Le/Les agradezco.", "esApprox": "«ye vu re-mer-SÍ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "Coucou !", "es": "¡Hola! (muy informal)", "esApprox": "«ku-KÚ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Madame, Monsieur, je vous remercie pour votre réponse. Cordialement,", "es": "Estimados señores, les agradezco su respuesta. Cordialmente,", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Salut Léa, comment vas-tu ? À bientôt !", "es": "Hola Léa, ¿cómo estás? ¡Hasta pronto!", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Dans l'attente de votre réponse, cordialement.", "es": "A la espera de su respuesta, cordialmente.", "from": "v8" }
+  ]
+}

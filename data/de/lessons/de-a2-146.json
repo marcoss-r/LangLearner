@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-146",
+  "lang": "de",
+  "level": "A2",
+  "order": 146,
+  "title": "El medioambiente y el reciclaje",
+  "objectives": [
+    "Ampliar el vocabulario de medioambiente: die Umwelt, der Klimawandel, nachhaltig",
+    "Retomar y ampliar el reciclaje (clase 77) con más detalle: der Müll trennen, die Mülltrennung",
+    "Hablar de hábitos sostenibles en tu vida diaria"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El medioambiente: vocabulario esencial",
+      "body": "Die Umwelt (el medioambiente), der Klimawandel (el cambio climático) y nachhaltig (sostenible) son palabras centrales para hablar de estos temas en A2. Ya viste en la clase 77 los conceptos básicos de reciclaje en Alemania; ahora amplías con más detalle práctico.",
+      "examples": [
+        { "target": "Wir müssen die Umwelt schützen.", "es": "Tenemos que proteger el medioambiente." },
+        { "target": "Ich versuche, nachhaltig zu leben.", "es": "Intento vivir de forma sostenible." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario ampliado de reciclaje",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["die Mülltrennung", "la separación de basura"],
+        ["der Restmüll", "la basura restante (no reciclable)"],
+        ["das Altpapier", "el papel para reciclar"],
+        ["wiederverwenden", "reutilizar"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "schützen (proteger) rige acusativo normal: «die Umwelt schützen» (proteger el medioambiente). No lo confundas con vertrauen o helfen, que van con dativo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Umwelt", "es": "el medioambiente", "ipa": "/ˈʊmvɛlt/", "esApprox": "«UM-velt»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wir müssen die Umwelt schützen.", "es": "Tenemos que proteger el medioambiente." } },
+    { "id": "v2", "target": "der Klimawandel", "es": "el cambio climático", "ipa": "/ˈkliːmavandl̩/", "esApprox": "«KLÍ-ma-van-del»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Klimawandel ist real.", "es": "El cambio climático es real." } },
+    { "id": "v3", "target": "nachhaltig", "es": "sostenible", "ipa": "/ˈnaːxhaltɪç/", "esApprox": "«NACH-jal-tich»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich versuche, nachhaltig zu leben.", "es": "Intento vivir de forma sostenible." } },
+    { "id": "v4", "target": "schützen", "es": "proteger", "ipa": "/ˈʃʏtsn̩/", "esApprox": "«SHÜ-tsen»", "pos": "verbo", "gender": null, "example": { "target": "Wir schützen die Natur.", "es": "Protegemos la naturaleza." } },
+    { "id": "v5", "target": "die Mülltrennung", "es": "la separación de basura", "ipa": "/ˈmʏltʁɛnʊŋ/", "esApprox": "«MÜL-tre-nung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Mülltrennung ist in Deutschland wichtig.", "es": "La separación de basura es importante en Alemania." } },
+    { "id": "v6", "target": "wiederverwenden", "es": "reutilizar", "ipa": "/ˈviːdɐfɛɐ̯vɛndn̩/", "esApprox": "«VÍ-der-fer-ven-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich verwende die Tasche wieder.", "es": "Reutilizo la bolsa." } },
+    { "id": "v7", "target": "die Natur", "es": "la naturaleza", "ipa": "/naˈtuːɐ̯/", "esApprox": "«na-TUR»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich liebe die Natur.", "es": "Amo la naturaleza." } },
+    { "id": "v8", "target": "der Plastikmüll", "es": "los residuos de plástico", "ipa": "/ˈplastɪkmʏl/", "esApprox": "«PLÁS-tik-mül»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wir sollten weniger Plastikmüll produzieren.", "es": "Deberíamos producir menos residuos de plástico." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["medioambiente"], "difficulty": 1, "prompt": "¿Cómo se dice «el medioambiente»?", "options": ["die Natur", "die Umwelt", "der Klimawandel", "der Müll"], "answer": 1, "explain": "die Umwelt = el medioambiente." },
+    { "id": "e2", "type": "mcq", "tags": ["reciclaje"], "difficulty": 2, "prompt": "¿Cómo se dice «sostenible»?", "options": ["natürlich", "nachhaltig", "umweltfreundlich", "grün"], "answer": 1, "explain": "nachhaltig = sostenible." },
+    { "id": "e3", "type": "true_false", "tags": ["medioambiente"], "difficulty": 2, "statement": "«schützen» rige acusativo normal.", "answer": true, "explain": "die Umwelt schützen: acusativo normal, no dativo." },
+    { "id": "e4", "type": "true_false", "tags": ["reciclaje"], "difficulty": 2, "statement": "«wiederverwenden» significa «tirar a la basura».", "answer": false, "explain": "wiederverwenden = reutilizar, no tirar." },
+    { "id": "e5", "type": "match_pairs", "tags": ["medioambiente"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Umwelt", "der Klimawandel", "die Natur", "der Plastikmüll"], "right": ["el medioambiente", "el cambio climático", "la naturaleza", "los residuos de plástico"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario medioambiental." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["medioambiente"], "difficulty": 2, "prompt": "Tenemos que proteger el medioambiente.", "accept": ["Wir müssen die Umwelt schützen"], "hintWords": ["wir müssen die Umwelt schützen"], "strictAccents": false, "audio": "Wir müssen die Umwelt schützen.", "explain": "müssen + die Umwelt + schützen (infinitivo al final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["medioambiente"], "difficulty": 2, "prompt": "Intento vivir de forma sostenible.", "accept": ["Ich versuche, nachhaltig zu leben"], "hintWords": ["ich versuche, nachhaltig zu leben"], "strictAccents": false, "audio": "Ich versuche, nachhaltig zu leben.", "explain": "versuchen + zu + infinitivo (leben)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["reciclaje"], "difficulty": 2, "prompt": "Reutilizo la bolsa.", "accept": ["Ich verwende die Tasche wieder"], "hintWords": ["ich verwende die Tasche wieder"], "strictAccents": false, "audio": "Ich verwende die Tasche wieder.", "explain": "verwende...wieder: verbo separable wiederverwenden." },
+    { "id": "e9", "type": "fill_blank", "tags": ["reciclaje"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Die ___ ist in Deutschland wichtig. Wir sollten weniger ___ produzieren.", "blanks": [{ "accept": ["Mülltrennung"] }, { "accept": ["Plastikmüll"] }], "bank": ["Mülltrennung", "Plastikmüll", "Umwelt"], "explain": "Mülltrennung (separación de basura); Plastikmüll (residuos de plástico)." },
+    { "id": "e10", "type": "word_order", "tags": ["medioambiente"], "difficulty": 2, "prompt": "Ordena: «Amo la naturaleza»", "tokens": ["die Natur", "Ich liebe"], "answer": ["Ich liebe", "die Natur"], "audio": "Ich liebe die Natur.", "explain": "Ich liebe die Natur: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["medioambiente"], "difficulty": 2, "prompt": "Der Klimawandel ist real.", "accept": ["El cambio climático es real."], "strictAccents": false, "audio": "Der Klimawandel ist real.", "explain": "der Klimawandel = el cambio climático." },
+    { "id": "e12", "type": "dialogue", "tags": ["reciclaje"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Nils", "text": "Trennst du deinen Müll?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, die Mülltrennung ist mir wichtig.", "Ja, ich trenne den Müll immer."], "hint": "responde sobre reciclaje" },
+      { "who": "Nils", "text": "Gut so!", "speak": true }
+    ], "explain": "Práctica de la Mülltrennung en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["medioambiente"], "difficulty": 1, "speak": "Wir müssen die Umwelt schützen.", "mode": "write", "accept": ["Wir müssen die Umwelt schützen"], "showTextAfter": true, "explain": "schützen: acusativo normal." },
+    { "id": "e14", "type": "listening", "tags": ["reciclaje"], "difficulty": 2, "speak": "Ich verwende die Tasche wieder.", "mode": "choose", "options": ["Ich verwende die Tasche wieder.", "Ich verwende die Tasche weg.", "Ich verwende die Tasche wenig."], "answer": 0, "showTextAfter": true, "explain": "wiederverwenden es la forma correcta de «reutilizar»." },
+    { "id": "e15", "type": "shadowing", "tags": ["medioambiente"], "difficulty": 2, "speak": "Wir müssen die Umwelt schützen, weil der Klimawandel real ist, und deshalb versuche ich, nachhaltig zu leben.", "es": "Tenemos que proteger el medioambiente, porque el cambio climático es real, y por eso intento vivir de forma sostenible.", "ipa": "/viːɐ̯ ˈmʏsn̩ diː ˈʊmvɛlt ˈʃʏtsn̩ vaɪ̯l deːɐ̯ ˈkliːmavandl̩ ʁeˈaːl ɪst ʊnt dɛsˈhalp fɛɐ̯ˈzuːxə ɪç ˈnaːxhaltɪç tsuː ˈleːbn̩/", "esApprox": "«vir MÜ-sen di UM-velt SHÜ-tsen, vail der KLÍ-ma-van-del re-AL ist, unt des-JALP fer-ZÚ-je ich NACH-jal-tich tsu LÉ-ben»", "focus": "weil (causa, verbo al final) y deshalb (consecuencia, posición 1): dos conectores distintos, clases 80 y 131.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["reciclaje"], "difficulty": 2, "speak": "Die Mülltrennung ist mir wichtig, und ich verwende Taschen und Flaschen wieder, um weniger Plastikmüll zu produzieren.", "es": "La separación de basura es importante para mí, y reutilizo bolsas y botellas para producir menos residuos de plástico.", "ipa": "/diː ˈmʏltʁɛnʊŋ ɪst miːɐ̯ ˈvɪçtɪç ʊnt ɪç fɛɐ̯ˈvɛndə ˈtaʃn̩ ʊnt ˈflaʃn̩ ˈviːdɐ ʊm ˈveːnɪɡɐ ˈplastɪkmʏl tsuː pʁoduˈtsiːʁən/", "esApprox": "«di MÜL-tre-nung ist mir VICH-tich, unt ich fer-VEN-de TÁ-shen unt FLÁ-shen VÍ-der, um VÉ-ni-guer PLÁS-tik-mül tsu pro-du-TSÍ-ren»", "focus": "um...zu (finalidad, mismo sujeto, clase 127) para explicar por qué reutiliza cosas.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["medioambiente"], "difficulty": 2, "prompt": "Te preguntan si intentas vivir de forma sostenible. Di que sí, que lo intentas.", "modelAnswer": "Ja, ich versuche, nachhaltig zu leben.", "alsoValid": ["Ja, ich versuche es."], "speak": "Ja, ich versuche, nachhaltig zu leben.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["reciclaje"], "difficulty": 2, "prompt": "Clasifica cada palabra: concepto general o acción concreta", "buckets": ["Concepto general", "Acción concreta"], "items": [
+      { "text": "die Umwelt", "bucket": 0 },
+      { "text": "wiederverwenden", "bucket": 1 },
+      { "text": "der Klimawandel", "bucket": 0 },
+      { "text": "die Mülltrennung", "bucket": 1 }
+    ], "explain": "Umwelt y Klimawandel son conceptos generales; wiederverwenden y Mülltrennung son acciones/prácticas concretas." },
+    { "id": "e19", "type": "error_correction", "tags": ["medioambiente"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wir müssen der Umwelt schützen.", "accept": ["Wir müssen die Umwelt schützen"], "audio": "Wir müssen die Umwelt schützen.", "explain": "schützen rige acusativo (die Umwelt), no dativo (der Umwelt)." },
+    { "id": "e20", "type": "mcq", "tags": ["medioambiente"], "difficulty": 2, "prompt": "«Wir müssen die Umwelt schützen, weil der Klimawandel real ist. Die Mülltrennung ist mir wichtig, und ich verwende Taschen wieder, um weniger Plastikmüll zu produzieren.» ¿Qué hace la persona para producir menos plástico?", "options": ["Compra más bolsas", "Reutiliza bolsas", "No hace nada", "Solo separa la basura"], "answer": 1, "explain": "«ich verwende Taschen... wieder, um weniger Plastikmüll zu produzieren» = reutilizo bolsas para producir menos plástico." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Umwelt", "es": "el medioambiente", "esApprox": "«UM-velt»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Klimawandel", "es": "el cambio climático", "esApprox": "«KLÍ-ma-van-del»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "nachhaltig", "es": "sostenible", "esApprox": "«NACH-jal-tich»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "schützen", "es": "proteger", "esApprox": "«SHÜ-tsen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Mülltrennung", "es": "la separación de basura", "esApprox": "«MÜL-tre-nung»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "wiederverwenden", "es": "reutilizar", "esApprox": "«VÍ-der-fer-ven-den»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Wir müssen die Umwelt schützen, weil der Klimawandel real ist, und deshalb versuche ich, nachhaltig zu leben.", "es": "Tenemos que proteger el medioambiente, porque el cambio climático es real, y por eso intento vivir de forma sostenible.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Mülltrennung ist mir wichtig, und ich verwende Taschen und Flaschen wieder, um weniger Plastikmüll zu produzieren.", "es": "La separación de basura es importante para mí, y reutilizo bolsas y botellas para producir menos residuos de plástico.", "from": "e16" }
+  ]
+}

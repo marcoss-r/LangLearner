@@ -1,0 +1,254 @@
+{
+  "id": "fr-a2-166",
+  "lang": "fr",
+  "level": "A2",
+  "order": 166,
+  "title": "Las contracciones del francés hablado: j'sais pas, t'as, y'a",
+  "objectives": [
+    "Reconocer las contracciones más frecuentes del francés hablado informal",
+    "Entender frases contraídas al escuchar, aunque no las escribas así en un examen",
+    "Practicar el reconocimiento auditivo de je ne sais pas → j'sais pas, tu as → t'as, il y a → y'a"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Lo que se oye no siempre es lo que se escribe",
+      "body": "En la conversación real, muchos franceses contraen palabras muy frecuentes aún más de lo habitual: je ne sais pas se convierte en j'sais pas (o incluso chais pas), tu as en t'as, il y a en y'a. Esto es puramente oral e informal: en un examen escrito o un texto formal, se escriben las formas completas.",
+      "examples": [
+        { "target": "j'sais pas", "es": "no sé (forma oral contraída de je ne sais pas)", "note": "muy frecuente al hablar, nunca en escritura formal" },
+        { "target": "t'as vu ça ?", "es": "¿has visto eso? (forma oral de tu as vu ça)", "note": "t'as = tu as, contracción muy común" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Contracciones frecuentes",
+      "headers": ["Forma estándar", "Forma oral contraída"],
+      "rows": [
+        ["je ne sais pas", "j'sais pas / chais pas"],
+        ["tu as", "t'as"],
+        ["tu es", "t'es"],
+        ["il y a", "y'a"],
+        ["je ne veux pas", "j'veux pas"]
+      ],
+      "note": "Estas formas son solo para reconocerlas al escuchar. Para hablar y escribir con corrección, sigue usando las formas completas: je ne sais pas, tu as, il y a."
+    },
+    {
+      "type": "tip",
+      "title": "Por qué es importante reconocerlas",
+      "body": "Si solo aprendes las formas «de libro», te costará entender a los franceses en la calle o en una serie. Reconocer j'sais pas, t'as, y'a te prepara para el francés real, aunque tú sigas escribiendo y hablando con las formas completas."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "j'sais pas", "es": "no sé (oral)", "ipa": "/ʃɛ.pa/", "esApprox": "«SHE-pa»", "pos": "expresión", "gender": null, "example": { "target": "J'sais pas où il est.", "es": "No sé dónde está." } },
+    { "id": "v2", "target": "t'as", "es": "tienes / has (oral, de tu as)", "ipa": "/ta/", "esApprox": "«TA»", "pos": "expresión", "gender": null, "example": { "target": "T'as vu ça ?", "es": "¿Has visto eso?" } },
+    { "id": "v3", "target": "t'es", "es": "eres/estás (oral, de tu es)", "ipa": "/tɛ/", "esApprox": "«TE»", "pos": "expresión", "gender": null, "example": { "target": "T'es fatigué ?", "es": "¿Estás cansado?" } },
+    { "id": "v4", "target": "y'a", "es": "hay (oral, de il y a)", "ipa": "/ja/", "esApprox": "«YA»", "pos": "expresión", "gender": null, "example": { "target": "Y'a du monde ici.", "es": "Hay mucha gente aquí." } },
+    { "id": "v5", "target": "j'veux pas", "es": "no quiero (oral)", "ipa": "/ʒvø.pa/", "esApprox": "«shvö-PA»", "pos": "expresión", "gender": null, "example": { "target": "J'veux pas y aller.", "es": "No quiero ir allí." } },
+    { "id": "v6", "target": "forme orale", "es": "forma oral", "ipa": "/fɔʁm ɔ.ʁal/", "esApprox": "«FORM o-RAL»", "pos": "sustantivo", "gender": "f", "example": { "target": "C'est une forme orale, pas écrite.", "es": "Es una forma oral, no escrita." } },
+    { "id": "v7", "target": "du monde", "es": "gente, mucha gente", "ipa": "/dy mɔ̃d/", "esApprox": "«dü MOND»", "pos": "expresión", "gender": null, "example": { "target": "Il y a du monde ce soir.", "es": "Hay mucha gente esta noche." } },
+    { "id": "v8", "target": "à l'écrit", "es": "por escrito", "ipa": "/a le.kʁi/", "esApprox": "«a le-KRÍ»", "pos": "expresión", "gender": null, "example": { "target": "À l'écrit, on écrit la forme complète.", "es": "Por escrito, se escribe la forma completa." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["frances-hablado", "contracciones"],
+      "difficulty": 2,
+      "prompt": "¿A qué forma estándar corresponde «j'sais pas»?",
+      "options": ["je sais pas", "je ne sais pas", "je ne suis pas", "je n'ai pas"],
+      "answer": 1,
+      "explain": "J'sais pas = forma oral contraída de je ne sais pas."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["frances-hablado", "contracciones"],
+      "difficulty": 2,
+      "prompt": "¿A qué forma estándar corresponde «y'a»?",
+      "options": ["il y a", "il a", "je vais", "il y est"],
+      "answer": 0,
+      "explain": "Y'a = forma oral contraída de il y a."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["frances-hablado", "contracciones"],
+      "difficulty": 2,
+      "statement": "Estas contracciones son correctas para escribir en un examen formal.",
+      "answer": false,
+      "explain": "Son formas puramente orales e informales; en escritura formal se usan las formas completas."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["frances-hablado", "contracciones"],
+      "difficulty": 2,
+      "statement": "T'as es la contracción oral de tu as.",
+      "answer": true,
+      "explain": "T'as = tu as, contracción muy frecuente en el habla."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["frances-hablado", "contracciones"],
+      "difficulty": 2,
+      "prompt": "Une cada forma oral con su forma estándar",
+      "left": ["t'es", "y'a", "j'veux pas", "j'sais pas"],
+      "right": ["je ne sais pas", "tu es", "il y a", "je ne veux pas"],
+      "answer": [1, 2, 3, 0],
+      "explain": "T'es = tu es, y'a = il y a, j'veux pas = je ne veux pas, j'sais pas = je ne sais pas."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["frances-hablado"],
+      "difficulty": 2,
+      "prompt": "No sé dónde está. ¿Has visto eso?",
+      "accept": ["Je ne sais pas où il est. Tu as vu ça"],
+      "hintWords": ["je ne sais pas où il est", "tu as vu ça"],
+      "strictAccents": false,
+      "audio": "Je ne sais pas où il est. Tu as vu ça ?",
+      "explain": "Escribimos la forma estándar; al escuchar, reconoce j'sais pas y t'as."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["frances-hablado"],
+      "difficulty": 2,
+      "prompt": "Hay mucha gente esta noche. No quiero ir allí.",
+      "accept": ["Il y a du monde ce soir. Je ne veux pas y aller"],
+      "hintWords": ["il y a du monde ce soir", "je ne veux pas y aller"],
+      "strictAccents": false,
+      "audio": "Il y a du monde ce soir. Je ne veux pas y aller.",
+      "explain": "Forma estándar de y'a y j'veux pas."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["frances-hablado"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma oral correcta",
+      "text": "___ vu ça ? ___ du monde ici.",
+      "blanks": [{ "accept": ["T'as"] }, { "accept": ["Y'a"] }],
+      "bank": ["T'as", "Y'a", "J'sais"],
+      "explain": "T'as vu ça ? + y'a du monde."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["frances-hablado"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase estándar: «No sé dónde está»",
+      "tokens": ["où il est", "Je ne sais pas"],
+      "answer": ["Je ne sais pas", "où il est"],
+      "audio": "Je ne sais pas où il est.",
+      "explain": "En forma oral: j'sais pas où il est."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["frances-hablado"],
+      "difficulty": 2,
+      "prompt": "T'es fatigué ? Y'a du monde, j'sais pas si on va trouver une table.",
+      "accept": ["¿Estás cansado? Hay mucha gente, no sé si vamos a encontrar mesa."],
+      "strictAccents": false,
+      "audio": "T'es fatigué ? Y'a du monde, j'sais pas si on va trouver une table.",
+      "explain": "Tres contracciones orales en una conversación real."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["frances-hablado"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación reconociendo las formas orales",
+      "turns": [
+        { "who": "Léa", "text": "T'as vu ce film ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, je ne l'ai pas vu.", "Oui, j'ai adoré."], "hint": "responde con una forma estándar" },
+        { "who": "Léa", "text": "Ah, j'sais pas si tu vas aimer.", "speak": true }
+      ],
+      "explain": "T'as vu = tu as vu; j'sais pas = je ne sais pas."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["frances-hablado"],
+      "difficulty": 2,
+      "speak": "J'sais pas si t'as vu, mais y'a du monde ce soir au restaurant.",
+      "mode": "write",
+      "accept": ["Je ne sais pas si tu as vu, mais il y a du monde ce soir au restaurant"],
+      "showTextAfter": true,
+      "explain": "Al escribir la respuesta, usa la forma estándar aunque escuches la forma oral."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["frances-hablado", "contracciones"],
+      "difficulty": 2,
+      "speak": "j'sais pas",
+      "mode": "choose",
+      "options": ["je sais", "j'sais pas", "je suis", "j'ai su"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'sais pas = forma oral de je ne sais pas."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["frances-hablado", "contracciones"],
+      "difficulty": 3,
+      "speak": "T'as vu ça ? Y'a du monde ce soir, j'sais pas si on va trouver une table, j'veux pas attendre trop longtemps.",
+      "es": "¿Has visto eso? Hay mucha gente esta noche, no sé si vamos a encontrar mesa, no quiero esperar demasiado.",
+      "ipa": "/ta vy sa ja dy mɔ̃d sə swaʁ ʃɛ.pa si ɔ̃ va tʁu.ve yn tabl ʒvø.pa a.tɑ̃dʁ tʁo lɔ̃.tɑ̃/",
+      "esApprox": "«ta VÜ sa ya dü MOND se SUAR SHE-pa si on va tru-VÉ ün TABL shvö-PA a-TANDR tro lon-TAN»",
+      "focus": "Varias contracciones orales seguidas, como sonaría en una conversación real rápida.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["frances-hablado"],
+      "difficulty": 2,
+      "prompt": "Usa las formas estándar (je ne sais pas, tu as, il y a) para decir lo mismo que dirías con contracciones orales.",
+      "modelAnswer": "Je ne sais pas, mais il y a du monde ce soir.",
+      "alsoValid": ["Tu as vu ce film ?"],
+      "speak": "Je ne sais pas, mais il y a du monde ce soir.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["frances-hablado", "contracciones"],
+      "difficulty": 2,
+      "prompt": "¿Es forma estándar o forma oral contraída?",
+      "buckets": ["Forma estándar", "Forma oral contraída"],
+      "items": [
+        { "text": "je ne sais pas", "bucket": 0 },
+        { "text": "j'sais pas", "bucket": 1 },
+        { "text": "il y a", "bucket": 0 },
+        { "text": "y'a", "bucket": 1 }
+      ],
+      "explain": "Je ne sais pas e il y a son estándar; j'sais pas e y'a, orales."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["frances-hablado"],
+      "difficulty": 2,
+      "prompt": "Hay un error: esta forma es oral, no se escribe así en un texto formal. Corrige la frase entera.",
+      "wrong": "J'sais pas où il est.",
+      "accept": ["Je ne sais pas où il est"],
+      "audio": "Je ne sais pas où il est.",
+      "explain": "En escritura formal, se usa la forma completa: je ne sais pas, no j'sais pas."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "j'sais pas", "es": "no sé (oral)", "esApprox": "«SHE-pa»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "t'as", "es": "tienes / has (oral)", "esApprox": "«TA»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "t'es", "es": "eres/estás (oral)", "esApprox": "«TE»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "y'a", "es": "hay (oral)", "esApprox": "«YA»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "j'veux pas", "es": "no quiero (oral)", "esApprox": "«shvö-PA»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "du monde", "es": "gente, mucha gente", "esApprox": "«dü MOND»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Je ne sais pas où il est. Tu as vu ça ?", "es": "No sé dónde está. ¿Has visto eso?", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Il y a du monde ce soir. Je ne veux pas y aller.", "es": "Hay mucha gente esta noche. No quiero ir allí.", "from": "e7" }
+  ]
+}

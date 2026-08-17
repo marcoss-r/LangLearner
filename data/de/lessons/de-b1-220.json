@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-220",
+  "lang": "de",
+  "level": "B1",
+  "order": 220,
+  "title": "La formación y la universidad",
+  "objectives": [
+    "Aprender vocabulario universitario: die Vorlesung, das Seminar, die Klausur, der Abschluss",
+    "Hablar de tu carrera y tu formación académica con precisión",
+    "Usar palabras clave para describir el sistema universitario alemán"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de la vida universitaria",
+      "body": "El sistema universitario alemán tiene su propio vocabulario: «die Vorlesung» (la clase magistral) y «das Seminar» (el seminario, más participativo) son los dos tipos de clase más comunes; «die Klausur» (el examen escrito) y «die Hausarbeit» (el trabajo escrito) son las formas típicas de evaluación. Al terminar, se obtiene «der Abschluss» (el título).",
+      "examples": [
+        { "target": "Ich habe heute eine Vorlesung.", "es": "Hoy tengo una clase magistral." } ,
+        { "target": "Meine Klausur ist nächste Woche.", "es": "Mi examen es la semana que viene." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario universitario clave",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["die Vorlesung", "la clase magistral"],
+        ["das Seminar", "el seminario"],
+        ["die Klausur", "el examen escrito"],
+        ["die Hausarbeit", "el trabajo escrito"],
+        ["der Abschluss", "el título"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "das Stipendium (la beca) y sich immatrikulieren (matricularse) son dos palabras clave al empezar la universidad: «Ich habe mich an der Universität immatrikuliert» (Me he matriculado en la universidad)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Vorlesung", "es": "la clase magistral", "ipa": "/ˈfoːɐ̯leːzʊŋ/", "esApprox": "«FOR-le-zung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich habe heute eine Vorlesung.", "es": "Hoy tengo una clase magistral." } },
+    { "id": "v2", "target": "das Seminar", "es": "el seminario", "ipa": "/zemiˈnaːɐ̯/", "esApprox": "«ze-mi-NAR»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Seminar ist sehr interaktiv.", "es": "El seminario es muy interactivo." } },
+    { "id": "v3", "target": "die Klausur", "es": "el examen escrito", "ipa": "/klaʊ̯ˈzuːɐ̯/", "esApprox": "«klau-ZUR»", "pos": "sustantivo", "gender": "f", "example": { "target": "Meine Klausur ist nächste Woche.", "es": "Mi examen es la semana que viene." } },
+    { "id": "v4", "target": "die Hausarbeit", "es": "el trabajo escrito (académico)", "ipa": "/ˈhaʊ̯sʔaʁbaɪ̯t/", "esApprox": "«JÁUS-ar-bait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich schreibe eine Hausarbeit.", "es": "Estoy escribiendo un trabajo académico." } },
+    { "id": "v5", "target": "der Abschluss", "es": "el título", "ipa": "/ˈapʃlʊs/", "esApprox": "«AP-shlus»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe meinen Abschluss gemacht.", "es": "He obtenido mi título." } },
+    { "id": "v6", "target": "das Stipendium", "es": "la beca", "ipa": "/ʃtiˈpɛndi̯ʊm/", "esApprox": "«shti-PÉN-dium»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich habe ein Stipendium bekommen.", "es": "He recibido una beca." } },
+    { "id": "v7", "target": "sich immatrikulieren", "es": "matricularse", "ipa": "/zɪç ɪmatʁikuˈliːʁən/", "esApprox": "«zich i-ma-tri-ku-LÍ-ren»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich habe mich an der Universität immatrikuliert.", "es": "Me he matriculado en la universidad." } },
+    { "id": "v8", "target": "der Studiengang", "es": "la carrera, el plan de estudios", "ipa": "/ˈʃtuːdi̯əŋɡaŋ/", "esApprox": "«SHTÚ-dien-gang»", "pos": "sustantivo", "gender": "m", "example": { "target": "Welchen Studiengang machst du?", "es": "¿Qué carrera estás haciendo?" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["educacion"], "difficulty": 1, "prompt": "¿Cómo se dice «el examen escrito»?", "options": ["die Vorlesung", "das Seminar", "die Klausur", "der Abschluss"], "answer": 2, "explain": "die Klausur = el examen escrito." },
+    { "id": "e2", "type": "mcq", "tags": ["educacion"], "difficulty": 2, "prompt": "¿Qué diferencia hay entre die Vorlesung y das Seminar?", "options": ["Ninguna", "Vorlesung es magistral, Seminar es más participativo", "Vorlesung es examen, Seminar es clase", "Son sinónimos exactos"], "answer": 1, "explain": "die Vorlesung es una clase magistral; das Seminar es más participativo, con discusión." },
+    { "id": "e3", "type": "true_false", "tags": ["educacion"], "difficulty": 2, "statement": "das Stipendium es una beca.", "answer": true, "explain": "das Stipendium = la beca." },
+    { "id": "e4", "type": "true_false", "tags": ["educacion"], "difficulty": 2, "statement": "sich immatrikulieren significa graduarse.", "answer": false, "explain": "sich immatrikulieren significa matricularse, al empezar los estudios, no al terminarlos." },
+    { "id": "e5", "type": "match_pairs", "tags": ["educacion"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Vorlesung", "die Hausarbeit", "der Abschluss", "der Studiengang"], "right": ["la clase magistral", "el trabajo escrito", "el título", "la carrera"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["educacion"], "difficulty": 2, "prompt": "Hoy tengo una clase magistral.", "accept": ["Ich habe heute eine Vorlesung"], "hintWords": ["ich habe heute eine Vorlesung"], "strictAccents": false, "audio": "Ich habe heute eine Vorlesung.", "explain": "habe + heute + eine Vorlesung." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["educacion"], "difficulty": 2, "prompt": "He obtenido mi título.", "accept": ["Ich habe meinen Abschluss gemacht"], "hintWords": ["ich habe meinen Abschluss gemacht"], "strictAccents": false, "audio": "Ich habe meinen Abschluss gemacht.", "explain": "habe + meinen Abschluss + gemacht (final, Perfekt)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["educacion"], "difficulty": 2, "prompt": "¿Qué carrera estás haciendo?", "accept": ["Welchen Studiengang machst du?"], "hintWords": ["welchen Studiengang machst du"], "strictAccents": false, "audio": "Welchen Studiengang machst du?", "explain": "Welchen Studiengang (acusativo) + machst + du." },
+    { "id": "e9", "type": "fill_blank", "tags": ["educacion"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich schreibe eine ___. Ich habe ein ___ bekommen.", "blanks": [{ "accept": ["Hausarbeit"] }, { "accept": ["Stipendium"] }], "bank": ["Hausarbeit", "Stipendium", "Klausur"], "explain": "die Hausarbeit y das Stipendium." },
+    { "id": "e10", "type": "word_order", "tags": ["educacion"], "difficulty": 2, "prompt": "Ordena: «Me he matriculado en la universidad»", "tokens": ["an der Universität immatrikuliert", "Ich habe mich"], "answer": ["Ich habe mich", "an der Universität immatrikuliert"], "audio": "Ich habe mich an der Universität immatrikuliert.", "explain": "Ich habe mich (posición normal) + an der Universität + immatrikuliert (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["educacion"], "difficulty": 2, "prompt": "Das Seminar ist sehr interaktiv.", "accept": ["El seminario es muy interactivo."], "strictAccents": false, "audio": "Das Seminar ist sehr interaktiv.", "explain": "interaktiv = interactivo." },
+    { "id": "e12", "type": "dialogue", "tags": ["educacion"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Welchen Studiengang machst du?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich studiere Medizin und habe morgen eine Klausur."], "hint": "responde con tu carrera y un examen próximo" },
+      { "who": "Lea", "text": "Viel Erfolg!", "speak": true }
+    ], "explain": "Conversación típica sobre estudios universitarios." },
+    { "id": "e13", "type": "listening", "tags": ["educacion"], "difficulty": 1, "speak": "Meine Klausur ist nächste Woche.", "mode": "write", "accept": ["Meine Klausur ist nächste Woche"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["educacion"], "difficulty": 2, "speak": "Ich habe ein Stipendium bekommen.", "mode": "choose", "options": ["Ich habe ein Stipendium bekommen.", "Ich habe einen Abschluss bekommen.", "Ich habe eine Klausur bekommen."], "answer": 0, "showTextAfter": true, "explain": "das Stipendium = la beca, lo que se recibe." },
+    { "id": "e15", "type": "shadowing", "tags": ["educacion"], "difficulty": 2, "speak": "Ich habe mich an der Universität immatrikuliert, und meine erste Vorlesung beginnt nächste Woche.", "es": "Me he matriculado en la universidad, y mi primera clase magistral empieza la semana que viene.", "ipa": "/ɪç ˈhaːbə mɪç an deːɐ̯ univɛʁziˈtɛːt ɪmatʁikuˈliːɐ̯t ʊnt ˈmaɪ̯nə ˈeːɐ̯stə ˈfoːɐ̯leːzʊŋ bəˈɡɪnt ˈnɛçstə ˈvɔxə/", "esApprox": "«ich JÁ-be mich an der u-ni-ver-zi-TET i-ma-tri-ku-LIRT, unt MÁI-ne ÉRS-te FOR-le-zung be-GUINT NÉCH-ste VÓ-je»", "focus": "immatrikuliert y Vorlesung: el vocabulario clave del arranque de la vida universitaria.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["educacion"], "difficulty": 2, "speak": "Ich schreibe gerade eine Hausarbeit, und meine Klausur ist auch schon nächste Woche; das wird stressig.", "es": "Estoy escribiendo un trabajo académico, y mi examen también es ya la semana que viene; va a ser estresante.", "ipa": "/ɪç ˈʃʁaɪ̯bə ɡəˈʁaːdə ˈaɪ̯nə ˈhaʊ̯sʔaʁbaɪ̯t ʊnt ˈmaɪ̯nə klaʊ̯ˈzuːɐ̯ ɪst aʊ̯x ʃoːn ˈnɛçstə ˈvɔxə das vɪʁt ˈʃtʁɛsɪç/", "esApprox": "«ich SHRÁI-be ge-RÁ-de ÁI-ne JÁUS-ar-bait, unt MÁI-ne klau-ZUR ist aoj shon NÉCH-ste VÓ-je; das virt SHTRÉ-sich»", "focus": "Hausarbeit y Klausur: dos formas de evaluación universitaria juntas en la misma frase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["educacion"], "difficulty": 2, "prompt": "Te preguntan qué carrera estudias. Di que estudias medicina.", "modelAnswer": "Ich studiere Medizin.", "alsoValid": ["Mein Studiengang ist Medizin."], "speak": "Ich studiere Medizin.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["educacion"], "difficulty": 2, "prompt": "Clasifica cada palabra según su categoría", "buckets": ["Tipo de clase", "Tipo de evaluación"], "items": [
+      { "text": "die Vorlesung", "bucket": 0 },
+      { "text": "das Seminar", "bucket": 0 },
+      { "text": "die Klausur", "bucket": 1 },
+      { "text": "die Hausarbeit", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario universitario." },
+    { "id": "e19", "type": "error_correction", "tags": ["educacion"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe meinen Abschluss geschrieben.", "accept": ["Ich habe meinen Abschluss gemacht"], "audio": "Ich habe meinen Abschluss gemacht.", "explain": "Con Abschluss se usa machen (obtener un título), no schreiben." },
+    { "id": "e20", "type": "mcq", "tags": ["educacion"], "difficulty": 2, "prompt": "«Ich habe mich an der Universität immatrikuliert. Ich schreibe gerade eine Hausarbeit, und meine Klausur ist auch schon nächste Woche.» ¿Qué tiene que hacer la persona la semana que viene?", "options": ["Matricularse", "Un examen", "Recibir una beca", "Graduarse"], "answer": 1, "explain": "«meine Klausur ist auch schon nächste Woche» indica que tiene un examen la semana que viene." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Vorlesung", "es": "la clase magistral", "esApprox": "«FOR-le-zung»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Seminar", "es": "el seminario", "esApprox": "«ze-mi-NAR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Klausur", "es": "el examen escrito", "esApprox": "«klau-ZUR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Hausarbeit", "es": "el trabajo escrito (académico)", "esApprox": "«JÁUS-ar-bait»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Abschluss", "es": "el título", "esApprox": "«AP-shlus»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "das Stipendium", "es": "la beca", "esApprox": "«shti-PÉN-dium»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe mich an der Universität immatrikuliert, und meine erste Vorlesung beginnt nächste Woche.", "es": "Me he matriculado en la universidad, y mi primera clase magistral empieza la semana que viene.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich schreibe gerade eine Hausarbeit, und meine Klausur ist auch schon nächste Woche; das wird stressig.", "es": "Estoy escribiendo un trabajo académico, y mi examen también es ya la semana que viene; va a ser estresante.", "from": "e16" }
+  ]
+}

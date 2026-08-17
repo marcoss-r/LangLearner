@@ -1,0 +1,376 @@
+{
+  "id": "de-a1-060",
+  "lang": "de",
+  "level": "A1",
+  "order": 60,
+  "title": "El cuerpo humano",
+  "objectives": [
+    "Aprender las partes del cuerpo: Kopf, Arm, Bein, Hand, Fuß, Bauch, Auge, Rücken",
+    "Practicar el plural de estas palabras, muchas con Umlaut",
+    "Preparar el vocabulario necesario para la clase 61, sobre ir al médico"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Las partes del cuerpo, con sus plurales",
+      "body": "Esta clase introduce el vocabulario del cuerpo humano, que vas a necesitar en la próxima clase para hablar de dolores y visitas al médico. Fíjate en los plurales: varios añaden Umlaut, como ya viste con Vater → Väter.",
+      "examples": [
+        { "target": "der Kopf → die Köpfe", "es": "la cabeza → las cabezas", "note": "con Umlaut" },
+        { "target": "die Hand → die Hände", "es": "la mano → las manos", "note": "con Umlaut" },
+        { "target": "das Auge → die Augen", "es": "el ojo → los ojos", "note": "sin Umlaut, con -n" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las partes del cuerpo",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["der Kopf", "la cabeza"],
+        ["der Arm", "el brazo"],
+        ["das Bein", "la pierna"],
+        ["die Hand", "la mano"],
+        ["der Fuß", "el pie"],
+        ["der Bauch", "la barriga"],
+        ["das Auge", "el ojo"],
+        ["der Rücken", "la espalda"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Der Fuß (el pie) y das Bein (la pierna) son palabras distintas, a diferencia del español, que a veces usa «pierna» de forma más amplia. Igual que der Arm (el brazo) y die Hand (la mano) son partes separadas."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "der Kopf",
+      "es": "la cabeza",
+      "ipa": "/kɔpf/",
+      "esApprox": "«kopf»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Köpfe",
+      "example": { "target": "Der Kopf ist wichtig.", "es": "La cabeza es importante." }
+    },
+    {
+      "id": "v2",
+      "target": "der Arm",
+      "es": "el brazo",
+      "ipa": "/aʁm/",
+      "esApprox": "«arm»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Arme",
+      "example": { "target": "Der Arm ist stark.", "es": "El brazo es fuerte." }
+    },
+    {
+      "id": "v3",
+      "target": "das Bein",
+      "es": "la pierna",
+      "ipa": "/baɪ̯n/",
+      "esApprox": "«bain»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Beine",
+      "example": { "target": "Das Bein ist lang.", "es": "La pierna es larga." }
+    },
+    {
+      "id": "v4",
+      "target": "die Hand",
+      "es": "la mano",
+      "ipa": "/hant/",
+      "esApprox": "«jant»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Hände",
+      "example": { "target": "Die Hand ist klein.", "es": "La mano es pequeña." }
+    },
+    {
+      "id": "v5",
+      "target": "der Fuß",
+      "es": "el pie",
+      "ipa": "/fuːs/",
+      "esApprox": "«fus»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Füße",
+      "example": { "target": "Der Fuß tut weh.", "es": "El pie duele." }
+    },
+    {
+      "id": "v6",
+      "target": "der Bauch",
+      "es": "la barriga",
+      "ipa": "/baʊ̯x/",
+      "esApprox": "«bauj», con ach-Laut",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Bäuche",
+      "example": { "target": "Der Bauch tut weh.", "es": "La barriga duele." }
+    },
+    {
+      "id": "v7",
+      "target": "das Auge",
+      "es": "el ojo",
+      "ipa": "/ˈaʊ̯ɡə/",
+      "esApprox": "«AU-gue»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Augen",
+      "example": { "target": "Das Auge ist blau.", "es": "El ojo es azul." }
+    },
+    {
+      "id": "v8",
+      "target": "der Rücken",
+      "es": "la espalda",
+      "ipa": "/ˈʁʏkən/",
+      "esApprox": "«RÜ-ken»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Rücken",
+      "example": { "target": "Der Rücken tut weh.", "es": "La espalda duele." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «cabeza» en alemán?",
+      "options": ["Arm", "Kopf", "Bein", "Hand"],
+      "answer": 1,
+      "explain": "der Kopf = la cabeza."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «mano» en alemán?",
+      "options": ["Fuß", "Hand", "Auge", "Rücken"],
+      "answer": 1,
+      "explain": "die Hand = la mano."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "statement": "Das Auge significa «el ojo».",
+      "answer": true,
+      "explain": "das Auge = el ojo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "statement": "Der Bauch significa «la espalda».",
+      "answer": false,
+      "explain": "Der Bauch es la barriga; «la espalda» es der Rücken."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas palabras NO es una parte del cuerpo?",
+      "options": ["Kopf", "Arm", "Firma", "Bein"],
+      "answer": 2,
+      "explain": "Firma es la empresa, no una parte del cuerpo."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "prompt": "Une cada parte del cuerpo con su significado",
+      "left": ["Kopf", "Arm", "Bein", "Hand"],
+      "right": ["brazo", "cabeza", "mano", "pierna"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro partes del cuerpo básicas."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "La cabeza es importante.",
+      "accept": ["Der Kopf ist wichtig"],
+      "hintWords": ["der Kopf ist wichtig"],
+      "strictAccents": false,
+      "audio": "Der Kopf ist wichtig.",
+      "explain": "der Kopf = la cabeza."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "El pie duele.",
+      "accept": ["Der Fuß tut weh"],
+      "hintWords": ["der Fuß tut weh"],
+      "strictAccents": false,
+      "audio": "Der Fuß tut weh.",
+      "explain": "tut weh = duele; lo verás con calma en la próxima clase."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Der ___ ist stark. Die ___ ist klein.",
+      "blanks": [{ "accept": ["Arm"] }, { "accept": ["Hand"] }],
+      "bank": ["Arm", "Hand", "Fuß"],
+      "explain": "Arm (masculino) es fuerte; Hand (femenino) es pequeña."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El ojo es azul»",
+      "tokens": ["blau", "Das", "ist", "Auge"],
+      "answer": ["Das", "Auge", "ist", "blau"],
+      "audio": "Das Auge ist blau.",
+      "explain": "Das Auge + ist + blau."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "prompt": "Der Rücken tut weh.",
+      "accept": ["La espalda duele."],
+      "strictAccents": false,
+      "audio": "Der Rücken tut weh.",
+      "explain": "der Rücken = la espalda."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Tut der Kopf weh?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, der Bauch tut weh."], "hint": "responde que no, que te duele la barriga" },
+        { "who": "Anna", "text": "Ah, okay!", "speak": true }
+      ],
+      "explain": "tut weh = duele; lo aprenderás formalmente en la clase 61."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cuerpo"],
+      "difficulty": 1,
+      "speak": "Der Kopf ist wichtig.",
+      "mode": "write",
+      "accept": ["Der Kopf ist wichtig"],
+      "showTextAfter": true,
+      "explain": "Der Kopf ist wichtig = la cabeza es importante."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "speak": "Der Fuß tut weh.",
+      "mode": "choose",
+      "options": ["Der Fuß tut weh.", "Der Bauch tut weh.", "Der Rücken tut weh."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Fuß, Bauch y Rücken suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "speak": "Der Kopf, der Arm und das Bein.",
+      "es": "La cabeza, el brazo y la pierna.",
+      "ipa": "/deːɐ̯ kɔpf deːɐ̯ aʁm ʊnt das baɪ̯n/",
+      "esApprox": "«der kopf, der arm unt das bain»",
+      "focus": "Tres palabras cortas y masculinas/neutras, sin ninguna sorpresa de pronunciación.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "speak": "Die Hand, der Fuß und das Auge.",
+      "es": "La mano, el pie y el ojo.",
+      "ipa": "/diː hant deːɐ̯ fuːs ʊnt das ˈaʊ̯ɡə/",
+      "esApprox": "«di jant, der fus unt das AU-gue»",
+      "focus": "Fuß lleva la ß tras vocal larga: fus, con una s fuerte al final.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si te duele la cabeza. Responde que no, que te duele la espalda.",
+      "modelAnswer": "Nein, der Rücken tut weh.",
+      "alsoValid": ["Der Rücken tut weh."],
+      "speak": "Nein, der Rücken tut weh.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada parte del cuerpo según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Kopf", "bucket": 0 },
+        { "text": "Hand", "bucket": 1 },
+        { "text": "Bein", "bucket": 2 },
+        { "text": "Fuß", "bucket": 0 },
+        { "text": "Auge", "bucket": 2 },
+        { "text": "Rücken", "bucket": 0 }
+      ],
+      "explain": "Kopf, Fuß y Rücken son masculinos; Hand, femenina; Bein y Auge, neutros."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Die Kopf ist wichtig.",
+      "accept": ["Der Kopf ist wichtig"],
+      "audio": "Der Kopf ist wichtig.",
+      "explain": "Kopf es masculino (der), no femenino."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["cuerpo"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Kopf", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Hand", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Bein", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Auge", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" }
+      ],
+      "explain": "Kopf masculino, Hand femenino, Bein y Auge neutros."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Kopf", "es": "la cabeza", "esApprox": "«kopf»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Arm", "es": "el brazo", "esApprox": "«arm»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Bein", "es": "la pierna", "esApprox": "«bain»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Hand", "es": "la mano", "esApprox": "«jant»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Fuß", "es": "el pie", "esApprox": "«fus»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Bauch", "es": "la barriga", "esApprox": "«bauj»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "das Auge", "es": "el ojo", "esApprox": "«AU-gue»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "der Rücken", "es": "la espalda", "esApprox": "«RÜ-ken»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Der Kopf, der Arm und das Bein.", "es": "La cabeza, el brazo y la pierna.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Die Hand, der Fuß und das Auge.", "es": "La mano, el pie y el ojo.", "from": "e16" }
+  ]
+}

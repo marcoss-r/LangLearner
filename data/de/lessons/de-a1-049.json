@@ -1,0 +1,375 @@
+{
+  "id": "de-a1-049",
+  "lang": "de",
+  "level": "A1",
+  "order": 49,
+  "title": "La ropa y las compras",
+  "objectives": [
+    "Aprender el vocabulario de la ropa: Hose, Hemd, Rock, Jacke, Schuh, Kleid",
+    "Usar kosten para preguntar y decir el precio de algo",
+    "Combinar la ropa con kaufen (clase 11) y los números (clases 19-20)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "De compras: vocabulario y precios",
+      "body": "Con el vocabulario de la ropa y el verbo kosten (costar) puedes desenvolverte en una tienda. Kosten es un verbo regular, como lernen: es kostet (cuesta), sin ninguna sorpresa.",
+      "examples": [
+        { "target": "Ich kaufe eine Hose.", "es": "Compro un pantalón.", "note": "Hose es femenino: eine, sin cambio en acusativo" },
+        { "target": "Die Hose kostet zwanzig Euro.", "es": "El pantalón cuesta veinte euros.", "note": "kosten + cantidad" },
+        { "target": "Das Hemd ist billig.", "es": "La camisa es barata.", "note": "billig, ya conocido de la clase 18" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la ropa",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["die Hose", "el pantalón"],
+        ["das Hemd", "la camisa"],
+        ["der Rock", "la falda"],
+        ["die Jacke", "la chaqueta"],
+        ["der Schuh", "el zapato"],
+        ["das Kleid", "el vestido"],
+        ["der Preis", "el precio"]
+      ],
+      "note": "die Hose es siempre singular en alemán para «un pantalón», a diferencia del español, que a veces usa plural («los pantalones»)."
+    },
+    {
+      "type": "tip",
+      "body": "Para preguntar el precio, usa Was kostet...? (¿cuánto cuesta...?) con singular, o Was kosten...? con plural: «Was kostet die Hose?» frente a «Was kosten die Schuhe?»."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "die Hose",
+      "es": "el pantalón",
+      "ipa": "/ˈhoːzə/",
+      "esApprox": "«JÓ-se»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Hosen",
+      "example": { "target": "Ich kaufe eine Hose.", "es": "Compro un pantalón." }
+    },
+    {
+      "id": "v2",
+      "target": "das Hemd",
+      "es": "la camisa",
+      "ipa": "/hɛmt/",
+      "esApprox": "«jemt»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Hemden",
+      "example": { "target": "Das Hemd ist billig.", "es": "La camisa es barata." }
+    },
+    {
+      "id": "v3",
+      "target": "der Rock",
+      "es": "la falda",
+      "ipa": "/ʁɔk/",
+      "esApprox": "«rok»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Röcke",
+      "example": { "target": "Der Rock ist teuer.", "es": "La falda es cara." }
+    },
+    {
+      "id": "v4",
+      "target": "die Jacke",
+      "es": "la chaqueta",
+      "ipa": "/ˈjakə/",
+      "esApprox": "«YA-ke»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Jacken",
+      "example": { "target": "Ich kaufe eine Jacke.", "es": "Compro una chaqueta." }
+    },
+    {
+      "id": "v5",
+      "target": "der Schuh",
+      "es": "el zapato",
+      "ipa": "/ʃuː/",
+      "esApprox": "«shu»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Schuhe",
+      "example": { "target": "Was kosten die Schuhe?", "es": "¿Cuánto cuestan los zapatos?" }
+    },
+    {
+      "id": "v6",
+      "target": "das Kleid",
+      "es": "el vestido",
+      "ipa": "/klaɪ̯t/",
+      "esApprox": "«klait»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Kleider",
+      "example": { "target": "Das Kleid ist schön.", "es": "El vestido es bonito." }
+    },
+    {
+      "id": "v7",
+      "target": "kosten",
+      "es": "costar",
+      "ipa": "/ˈkɔstən/",
+      "esApprox": "«KOS-ten»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Was kostet die Hose?", "es": "¿Cuánto cuesta el pantalón?" }
+    },
+    {
+      "id": "v8",
+      "target": "der Preis",
+      "es": "el precio",
+      "ipa": "/pʁaɪ̯s/",
+      "esApprox": "«prais»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Preise",
+      "example": { "target": "Der Preis ist gut.", "es": "El precio es bueno." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["ropa"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «pantalón» en alemán?",
+      "options": ["Hemd", "Hose", "Rock", "Kleid"],
+      "answer": 1,
+      "explain": "die Hose = el pantalón."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["compras"],
+      "difficulty": 1,
+      "prompt": "¿Cómo preguntas el precio de algo?",
+      "options": ["Wie heißt es?", "Was kostet es?", "Wo ist es?", "Wann ist es?"],
+      "answer": 1,
+      "explain": "Was kostet...? es la pregunta para el precio."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["ropa"],
+      "difficulty": 1,
+      "statement": "Das Kleid significa «el vestido».",
+      "answer": true,
+      "explain": "das Kleid = el vestido."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["ropa"],
+      "difficulty": 1,
+      "statement": "Der Schuh significa «la chaqueta».",
+      "answer": false,
+      "explain": "Der Schuh es el zapato; «la chaqueta» es die Jacke."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["ropa"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas NO es una prenda de ropa?",
+      "options": ["Hose", "Hemd", "Preis", "Rock"],
+      "answer": 2,
+      "explain": "Preis significa precio, no es una prenda de ropa."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["ropa"],
+      "difficulty": 1,
+      "prompt": "Une cada prenda con su significado",
+      "left": ["Hose", "Hemd", "Rock", "Jacke"],
+      "right": ["camisa", "pantalón", "chaqueta", "falda"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro prendas básicas."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Compro un pantalón.",
+      "accept": ["Ich kaufe eine Hose"],
+      "hintWords": ["ich kaufe eine Hose"],
+      "strictAccents": false,
+      "audio": "Ich kaufe eine Hose.",
+      "explain": "Hose es femenino: eine, sin cambio en acusativo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "¿Cuánto cuesta el pantalón?",
+      "accept": ["Was kostet die Hose?"],
+      "hintWords": ["was kostet die Hose"],
+      "strictAccents": false,
+      "audio": "Was kostet die Hose?",
+      "explain": "Was kostet + sustantivo en singular."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Was ___ die Hose? Was ___ die Schuhe?",
+      "blanks": [{ "accept": ["kostet"] }, { "accept": ["kosten"] }],
+      "bank": ["kostet", "kosten", "kostest"],
+      "explain": "kostet con singular (die Hose); kosten con plural (die Schuhe)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La camisa es barata»",
+      "tokens": ["billig", "Das", "ist", "Hemd"],
+      "answer": ["Das", "Hemd", "ist", "billig"],
+      "audio": "Das Hemd ist billig.",
+      "explain": "Das Hemd + ist + billig."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["compras"],
+      "difficulty": 1,
+      "prompt": "Der Preis ist gut.",
+      "accept": ["El precio es bueno."],
+      "strictAccents": false,
+      "audio": "Der Preis ist gut.",
+      "explain": "der Preis = el precio."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en una tienda",
+      "turns": [
+        { "who": "Verkäuferin", "text": "Was kostet die Jacke?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Die Jacke kostet zwanzig Euro."], "hint": "dile que la chaqueta cuesta veinte euros" },
+        { "who": "Verkäuferin", "text": "Das ist billig!", "speak": true }
+      ],
+      "explain": "kostet + número + Euro: la estructura fija para dar un precio."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["compras"],
+      "difficulty": 1,
+      "speak": "Die Hose kostet zwanzig Euro.",
+      "mode": "write",
+      "accept": ["Die Hose kostet zwanzig Euro"],
+      "showTextAfter": true,
+      "explain": "Die Hose kostet zwanzig Euro = el pantalón cuesta veinte euros."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "speak": "Das Kleid ist schön.",
+      "mode": "choose",
+      "options": ["Das Kleid ist schön.", "Der Rock ist schön.", "Die Jacke ist schön."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Kleid, Rock y Jacke suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "speak": "Die Hose kostet zwanzig Euro, und das Hemd ist billig.",
+      "es": "El pantalón cuesta veinte euros, y la camisa es barata.",
+      "ipa": "/diː ˈhoːzə ˈkɔstət ˈtsvantsɪç ˈɔɪ̯ʁo ʊnt das hɛmt ɪst ˈbɪlɪç/",
+      "esApprox": "«di JÓ-se KOS-tet TSVAN-tsich OI-ro unt das jemt ist BI-lich»",
+      "focus": "kostet lleva la e extra de los verbos con raíz en -t, como arbeitet.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "speak": "Der Rock ist teuer, aber das Kleid ist billig.",
+      "es": "La falda es cara, pero el vestido es barato.",
+      "ipa": "/deːɐ̯ ʁɔk ɪst ˈtɔɪ̯ɐ aːbɐ das klaɪ̯t ɪst ˈbɪlɪç/",
+      "esApprox": "«der rok ist TOI-er, aber das klait ist BI-lich»",
+      "focus": "teuer y billig, dos adjetivos opuestos ya conocidos de la clase 18.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Te preguntan cuánto cuesta la chaqueta. Responde que cuesta veinte euros.",
+      "modelAnswer": "Die Jacke kostet zwanzig Euro.",
+      "alsoValid": ["Sie kostet zwanzig Euro."],
+      "speak": "Die Jacke kostet zwanzig Euro.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada prenda según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Hose", "bucket": 1 },
+        { "text": "Hemd", "bucket": 2 },
+        { "text": "Rock", "bucket": 0 },
+        { "text": "Jacke", "bucket": 1 },
+        { "text": "Schuh", "bucket": 0 },
+        { "text": "Kleid", "bucket": 2 }
+      ],
+      "explain": "Hose y Jacke son femeninas; Hemd y Kleid, neutros; Rock y Schuh, masculinos."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Was kostet die Schuhe?",
+      "accept": ["Was kosten die Schuhe?"],
+      "audio": "Was kosten die Schuhe?",
+      "explain": "Schuhe es plural: el verbo debe concordar, kosten en vez de kostet."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["ropa"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Hose", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Hemd", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Rock", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Jacke", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" }
+      ],
+      "explain": "Hose y Jacke son femeninas, Hemd neutro, Rock masculino."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Hose", "es": "el pantalón", "esApprox": "«JÓ-se»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Hemd", "es": "la camisa", "esApprox": "«jemt»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Rock", "es": "la falda", "esApprox": "«rok»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Jacke", "es": "la chaqueta", "esApprox": "«YA-ke»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Schuh", "es": "el zapato", "esApprox": "«shu»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "das Kleid", "es": "el vestido", "esApprox": "«klait»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "kosten", "es": "costar", "esApprox": "«KOS-ten»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "der Preis", "es": "el precio", "esApprox": "«prais»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Die Hose kostet zwanzig Euro, und das Hemd ist billig.", "es": "El pantalón cuesta veinte euros, y la camisa es barata.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Der Rock ist teuer, aber das Kleid ist billig.", "es": "La falda es cara, pero el vestido es barato.", "from": "e16" }
+  ]
+}

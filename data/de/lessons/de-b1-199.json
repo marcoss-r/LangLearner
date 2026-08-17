@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-199",
+  "lang": "de",
+  "level": "B1",
+  "order": 199,
+  "title": "El orden de palabras avanzado: cuando todo se junta",
+  "objectives": [
+    "Aplicar la regla TeKaMoLo (temporal-causal-modal-local) para ordenar varios complementos en la misma frase",
+    "Combinar TeKaMoLo con el orden de objetos (dativo antes que acusativo) en frases largas",
+    "Construir frases con muchos elementos sin perder la claridad ni el orden correcto"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "TeKaMoLo: el orden cuando hay varios complementos",
+      "body": "Cuando una frase tiene varios complementos (de tiempo, causa, modo y lugar), el alemán sigue un orden bastante fijo, resumido con la regla TeKaMoLo: Temporal (cuándo) → Kausal (por qué) → Modal (cómo) → Lokal (dónde). «Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin» (Voy mañana, por trabajo, en coche, a Berlín) sigue exactamente ese orden.",
+      "examples": [
+        { "target": "Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin.", "es": "Voy mañana, por trabajo, en coche, a Berlín." },
+        { "target": "Er kommt heute wegen des Wetters leider nicht.", "es": "Hoy, por el tiempo, desgraciadamente no viene." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "TeKaMoLo: el orden de los complementos",
+      "headers": ["Orden", "Tipo", "Pregunta", "Ejemplo"],
+      "rows": [
+        ["1", "Temporal", "¿Cuándo?", "morgen"],
+        ["2", "Kausal", "¿Por qué?", "wegen der Arbeit"],
+        ["3", "Modal", "¿Cómo?", "mit dem Auto"],
+        ["4", "Lokal", "¿Dónde/adónde?", "nach Berlin"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Si además hay objetos (dativo/acusativo), estos van antes de los complementos TeKaMoLo, siguiendo la regla dativo-antes-que-acusativo (clase 92): «Ich gebe ihm morgen wegen des Geburtstags mit Freude das Geschenk» — objetos primero, luego TeKaMoLo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "TeKaMoLo", "es": "regla de orden: temporal-causal-modal-local", "ipa": "/teːkaːmoːloː/", "esApprox": "«te-ka-mo-lo»", "pos": "regla mnemotécnica", "gender": null, "example": { "target": "TeKaMoLo hilft, den Satz richtig zu ordnen.", "es": "TeKaMoLo ayuda a ordenar la frase correctamente." } },
+    { "id": "v2", "target": "die Reihenfolge", "es": "el orden, la secuencia", "ipa": "/ˈʁaɪ̯ənfɔlɡə/", "esApprox": "«RÁI-en-fol-gue»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Reihenfolge ist wichtig.", "es": "El orden es importante." } },
+    { "id": "v3", "target": "die Angabe", "es": "el complemento, el dato", "ipa": "/ˈanɡaːbə/", "esApprox": "«ÁN-ga-be»", "pos": "sustantivo", "gender": "f", "example": { "target": "Es gibt mehrere Angaben im Satz.", "es": "Hay varios complementos en la frase." } },
+    { "id": "v4", "target": "der Geburtstag", "es": "el cumpleaños", "ipa": "/ɡəˈbuːɐ̯tstaːk/", "esApprox": "«ge-BÚRTS-tak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wegen des Geburtstags feiern wir.", "es": "Por el cumpleaños, celebramos." } },
+    { "id": "v5", "target": "die Freude", "es": "la alegría", "ipa": "/ˈfʁɔɪ̯də/", "esApprox": "«FRÓI-de»", "pos": "sustantivo", "gender": "f", "example": { "target": "Mit Freude gebe ich dir das Geschenk.", "es": "Con alegría te doy el regalo." } },
+    { "id": "v6", "target": "das Geschenk", "es": "el regalo", "ipa": "/ɡəˈʃɛŋk/", "esApprox": "«ge-SHENK»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Geschenk ist für dich.", "es": "El regalo es para ti." } },
+    { "id": "v7", "target": "übersichtlich", "es": "claro, ordenado", "ipa": "/ˈyːbɐzɪçtlɪç/", "esApprox": "«IU-ber-zicht-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Der Satz bleibt übersichtlich.", "es": "La frase se mantiene ordenada." } },
+    { "id": "v8", "target": "die Klarheit", "es": "la claridad", "ipa": "/ˈklaːɐ̯haɪ̯t/", "esApprox": "«KLÁR-jait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das sorgt für Klarheit.", "es": "Eso aporta claridad." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 1, "prompt": "¿Qué significa la K de TeKaMoLo?", "options": ["Konjunktiv", "Kausal", "Kasus", "Kommunikation"], "answer": 1, "explain": "TeKaMoLo = Temporal, Kausal, Modal, Lokal." },
+    { "id": "e2", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "¿Qué va primero según TeKaMoLo: el complemento de modo o el de lugar?", "options": ["El de lugar", "El de modo", "Da igual", "Depende del verbo"], "answer": 1, "explain": "Modal va antes que Lokal en la secuencia TeKaMoLo." },
+    { "id": "e3", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "Los objetos (dativo/acusativo) van antes que los complementos TeKaMoLo.", "answer": true, "explain": "Primero los objetos, siguiendo la regla dativo-antes-acusativo, y después TeKaMoLo." },
+    { "id": "e4", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "TeKaMoLo es una regla estricta que nunca admite excepciones.", "answer": false, "explain": "Es una guía general muy útil, pero el énfasis puede alterar el orden en casos concretos." },
+    { "id": "e5", "type": "match_pairs", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Une cada complemento con su tipo TeKaMoLo", "left": ["morgen", "wegen der Arbeit", "mit dem Auto", "nach Berlin"], "right": ["Temporal", "Kausal", "Modal", "Lokal"], "answer": [0, 1, 2, 3], "explain": "Cuatro tipos de complemento en el orden TeKaMoLo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Voy mañana, por trabajo, en coche, a Berlín.", "accept": ["Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin"], "hintWords": ["ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin"], "strictAccents": false, "audio": "Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin.", "explain": "morgen (temporal) + wegen der Arbeit (causal) + mit dem Auto (modal) + nach Berlin (local)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Con alegría te doy el regalo.", "accept": ["Mit Freude gebe ich dir das Geschenk"], "hintWords": ["mit Freude gebe ich dir das Geschenk"], "strictAccents": false, "audio": "Mit Freude gebe ich dir das Geschenk.", "explain": "Mit Freude (posición 1, modal) + gebe (posición 2) + ich + dir (dativo) + das Geschenk (acusativo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Eso aporta claridad.", "accept": ["Das sorgt für Klarheit"], "hintWords": ["das sorgt für Klarheit"], "strictAccents": false, "audio": "Das sorgt für Klarheit.", "explain": "sorgen für = aportar, procurar." },
+    { "id": "e9", "type": "fill_blank", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Ordena los complementos según TeKaMoLo (temporal-causal-modal-local)", "text": "Er kommt ___ wegen des Wetters ___ nicht.", "blanks": [{ "accept": ["heute"] }, { "accept": ["leider"] }], "bank": ["heute", "leider", "morgen"], "explain": "heute (temporal, primero) y leider (modal, tras la causa)." },
+    { "id": "e10", "type": "word_order", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Ordena según TeKaMoLo: «Voy mañana, por trabajo, en coche, a Berlín»", "tokens": ["wegen der Arbeit", "morgen", "mit dem Auto", "nach Berlin", "Ich fahre"], "answer": ["Ich fahre", "morgen", "wegen der Arbeit", "mit dem Auto", "nach Berlin"], "audio": "Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin.", "explain": "Temporal, Kausal, Modal, Lokal, en ese orden exacto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Der Satz bleibt übersichtlich.", "accept": ["La frase se mantiene ordenada."], "strictAccents": false, "audio": "Der Satz bleibt übersichtlich.", "explain": "übersichtlich = claro, ordenado." },
+    { "id": "e12", "type": "dialogue", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie fährst du morgen nach Berlin?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin."], "hint": "responde con los cuatro complementos en orden TeKaMoLo" },
+      { "who": "Lea", "text": "Gute Fahrt!", "speak": true }
+    ], "explain": "Práctica de TeKaMoLo en una respuesta completa." },
+    { "id": "e13", "type": "listening", "tags": ["orden-palabras"], "difficulty": 1, "speak": "Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin.", "mode": "write", "accept": ["Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin"], "showTextAfter": true, "explain": "Los cuatro complementos en su orden TeKaMoLo." },
+    { "id": "e14", "type": "listening", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Er kommt heute wegen des Wetters leider nicht.", "mode": "choose", "options": ["Er kommt heute wegen des Wetters leider nicht.", "Er kommt wegen des Wetters heute leider nicht.", "Er kommt leider heute wegen des Wetters nicht."], "answer": 0, "showTextAfter": true, "explain": "heute (temporal) antes que wegen des Wetters (causal), y luego leider (modal)." },
+    { "id": "e15", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin, und die Reihenfolge der Angaben sorgt für Klarheit.", "es": "Voy mañana, por trabajo, en coche, a Berlín, y el orden de los complementos aporta claridad.", "ipa": "/ɪç ˈfaːʁə ˈmɔʁɡn̩ ˈveːɡn̩ deːɐ̯ ˈaʁbaɪ̯t mɪt deːm ˈaʊ̯to naːx bɛʁˈliːn ʊnt diː ˈʁaɪ̯ənfɔlɡə deːɐ̯ ˈanɡaːbən zɔʁkt fyːɐ̯ ˈklaːɐ̯haɪ̯t/", "esApprox": "«ich FÁ-re MOR-guen VÉ-guen der ÁR-bait mit dem ÁU-to nach ber-LÍN, unt di RÁI-en-fol-gue der ÁN-ga-ben zorkt fiur KLÁR-jait»", "focus": "morgen, wegen der Arbeit, mit dem Auto, nach Berlin: los cuatro complementos TeKaMoLo en una sola frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Mit Freude gebe ich dir das Geschenk, das ich wegen deines Geburtstags gekauft habe.", "es": "Con alegría te doy el regalo que he comprado por tu cumpleaños.", "ipa": "/mɪt ˈfʁɔɪ̯də ˈɡeːbə ɪç diːɐ̯ das ɡəˈʃɛŋk das ɪç ˈveːɡn̩ ˈdaɪ̯nəs ɡəˈbuːɐ̯tstaːks ɡəˈkaʊ̯ft ˈhaːbə/", "esApprox": "«mit FRÓI-de GUÉ-be ich dir das ge-SHENK, das ich VÉ-guen DÁI-nes ge-BÚRTS-taks ge-KÁUFT JÁ-be»", "focus": "Mit Freude (modal, posición 1) combinado con una relativa (das...gekauft habe) para dar un contexto completo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Te preguntan cómo vas a ir a Berlín mañana. Responde con los cuatro complementos en orden TeKaMoLo.", "modelAnswer": "Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin.", "alsoValid": ["Morgen fahre ich wegen der Arbeit mit dem Auto nach Berlin."], "speak": "Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Clasifica cada complemento según su tipo TeKaMoLo", "buckets": ["Temporal/Kausal", "Modal/Lokal"], "items": [
+      { "text": "morgen", "bucket": 0 },
+      { "text": "wegen der Arbeit", "bucket": 0 },
+      { "text": "mit dem Auto", "bucket": 1 },
+      { "text": "nach Berlin", "bucket": 1 }
+    ], "explain": "Temporal y Kausal van primero; Modal y Lokal van después." },
+    { "id": "e19", "type": "error_correction", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich fahre nach Berlin morgen wegen der Arbeit mit dem Auto.", "accept": ["Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin"], "audio": "Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin.", "explain": "El orden correcto según TeKaMoLo es temporal-causal-modal-local, no local al principio." },
+    { "id": "e20", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "«Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin. Die Reihenfolge der Angaben sorgt für Klarheit, auch wenn der Satz lang ist.» ¿Qué asegura la claridad de una frase larga?", "options": ["Usar pocas palabras", "Seguir el orden TeKaMoLo de los complementos", "Evitar los complementos", "Usar solo el presente"], "answer": 1, "explain": "«Die Reihenfolge der Angaben sorgt für Klarheit» resume la idea central." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "TeKaMoLo", "es": "regla de orden: temporal-causal-modal-local", "esApprox": "«te-ka-mo-lo»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Reihenfolge", "es": "el orden, la secuencia", "esApprox": "«RÁI-en-fol-gue»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Angabe", "es": "el complemento, el dato", "esApprox": "«ÁN-ga-be»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Geburtstag", "es": "el cumpleaños", "esApprox": "«ge-BÚRTS-tak»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "übersichtlich", "es": "claro, ordenado", "esApprox": "«IU-ber-zicht-lich»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "die Klarheit", "es": "la claridad", "esApprox": "«KLÁR-jait»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich fahre morgen wegen der Arbeit mit dem Auto nach Berlin, und die Reihenfolge der Angaben sorgt für Klarheit.", "es": "Voy mañana, por trabajo, en coche, a Berlín, y el orden de los complementos aporta claridad.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Mit Freude gebe ich dir das Geschenk, das ich wegen deines Geburtstags gekauft habe.", "es": "Con alegría te doy el regalo que he comprado por tu cumpleaños.", "from": "e16" }
+  ]
+}

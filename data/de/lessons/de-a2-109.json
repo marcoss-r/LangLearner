@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-109",
+  "lang": "de",
+  "level": "A2",
+  "order": 109,
+  "title": "Los adjetivos sustantivados: der Deutsche, das Neue",
+  "objectives": [
+    "Reconocer adjetivos que funcionan como sustantivos: der Deutsche, die Deutsche, das Neue",
+    "Aplicar las mismas terminaciones de la declinación del adjetivo (clases 101-107) a estos sustantivos especiales",
+    "Distinguir ein Deutscher (sin artículo definido, -er) de der Deutsche (con artículo definido, -e)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Adjetivos que se convierten en sustantivos",
+      "body": "En alemán, algunos adjetivos funcionan como sustantivos, escritos con mayúscula pero declinados EXACTAMENTE como adjetivos normales, según las reglas que ya conoces. «der Deutsche» (el alemán, la persona) se declina como cualquier adjetivo tras der/die/das: nominativo -e. Pero sin artículo, «ein Deutscher» necesita -er (patrón de ein/mein, clase 103), porque nadie más marca el masculino.",
+      "examples": [
+        { "target": "Der Deutsche wohnt in Berlin.", "es": "El alemán vive en Berlín." },
+        { "target": "Ein Deutscher hat mir geholfen.", "es": "Un alemán me ayudó." },
+        { "target": "Das Neue an dieser Regel ist einfach.", "es": "Lo nuevo de esta regla es sencillo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "der Deutsche / ein Deutscher, en los tres géneros",
+      "headers": ["Con der/die/das", "Con ein/kein", "Español"],
+      "rows": [
+        ["der Deutsche", "ein Deutscher", "el alemán"],
+        ["die Deutsche", "eine Deutsche", "la alemana"],
+        ["die Deutschen", "keine Deutschen", "los/las alemanes/alemanas"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Otros adjetivos sustantivados frecuentes: der/die Kranke (el/la enfermo/a), der/die Verwandte (el/la pariente), das Gute (lo bueno), das Neue (lo nuevo), das Wichtigste (lo más importante). Todos siguen exactamente el mismo patrón que un adjetivo normal."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der/die Deutsche", "es": "el alemán, la alemana", "ipa": "/deːɐ̯ ˈdɔɪ̯tʃə/", "esApprox": "«der DÓICH-e»", "pos": "sustantivo (adjetivo sustantivado)", "gender": null, "example": { "target": "Der Deutsche wohnt in Berlin.", "es": "El alemán vive en Berlín." } },
+    { "id": "v2", "target": "der/die Kranke", "es": "el enfermo, la enferma", "ipa": "/deːɐ̯ ˈkʁaŋkə/", "esApprox": "«der KRÁN-ke»", "pos": "sustantivo (adjetivo sustantivado)", "gender": null, "example": { "target": "Der Kranke braucht Ruhe.", "es": "El enfermo necesita descanso." } },
+    { "id": "v3", "target": "der/die Verwandte", "es": "el pariente, la parienta", "ipa": "/deːɐ̯ fɛɐ̯ˈvandtə/", "esApprox": "«der fer-VÁN-te»", "pos": "sustantivo (adjetivo sustantivado)", "gender": null, "example": { "target": "Sie ist eine Verwandte von mir.", "es": "Ella es una parienta mía." } },
+    { "id": "v4", "target": "das Neue", "es": "lo nuevo", "ipa": "/das ˈnɔɪ̯ə/", "esApprox": "«das NÓI-e»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Neue an der Regel ist einfach.", "es": "Lo nuevo de la regla es sencillo." } },
+    { "id": "v5", "target": "das Gute", "es": "lo bueno", "ipa": "/das ˈɡuːtə/", "esApprox": "«das GÚ-te»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Gute daran ist...", "es": "Lo bueno de eso es..." } },
+    { "id": "v6", "target": "das Wichtigste", "es": "lo más importante", "ipa": "/das ˈvɪçtɪçstə/", "esApprox": "«das VÍCH-tich-ste»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Wichtigste zuerst.", "es": "Lo más importante primero." } },
+    { "id": "v7", "target": "die Ruhe", "es": "el descanso, la tranquilidad", "ipa": "/ˈʁuːə/", "esApprox": "«RÚ-e»", "pos": "sustantivo", "gender": "f", "example": { "target": "Der Kranke braucht Ruhe.", "es": "El enfermo necesita descanso." } },
+    { "id": "v8", "target": "einfach", "es": "sencillo, simple", "ipa": "/ˈaɪ̯nfax/", "esApprox": "«ÁIN-fach»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist einfach.", "es": "Eso es sencillo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["sustantivados"], "difficulty": 1, "prompt": "¿Cómo se dice «el alemán» (persona) con artículo definido?", "options": ["der Deutscher", "der Deutsche", "ein Deutsche", "das Deutsche"], "answer": 1, "explain": "der Deutsche: nominativo tras der, terminación débil -e." },
+    { "id": "e2", "type": "mcq", "tags": ["sustantivados"], "difficulty": 2, "prompt": "¿Cómo se dice «un alemán» sin artículo definido?", "options": ["ein Deutsche", "ein Deutscher", "der Deutscher", "einen Deutsche"], "answer": 1, "explain": "ein Deutscher: nominativo masculino tras ein, terminación -er." },
+    { "id": "e3", "type": "true_false", "tags": ["sustantivados"], "difficulty": 2, "statement": "Los adjetivos sustantivados se declinan exactamente como los adjetivos normales.", "answer": true, "explain": "Siguen las mismas reglas de las clases 101-107, solo que funcionan como sustantivo." },
+    { "id": "e4", "type": "true_false", "tags": ["sustantivados"], "difficulty": 2, "statement": "«das Neue» siempre se escribe en minúscula, como un adjetivo normal.", "answer": false, "explain": "Los adjetivos sustantivados se escriben con mayúscula, como cualquier sustantivo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["sustantivados"], "difficulty": 2, "prompt": "Une cada sustantivado con su traducción", "left": ["der Kranke", "der Verwandte", "das Gute", "das Wichtigste"], "right": ["el enfermo", "el pariente", "lo bueno", "lo más importante"], "answer": [0, 1, 2, 3], "explain": "Cuatro adjetivos sustantivados frecuentes." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["sustantivados"], "difficulty": 2, "prompt": "El alemán vive en Berlín.", "accept": ["Der Deutsche wohnt in Berlin"], "hintWords": ["der Deutsche wohnt in Berlin"], "strictAccents": false, "audio": "Der Deutsche wohnt in Berlin.", "explain": "der Deutsche: nominativo, -e, tras der." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["sustantivados"], "difficulty": 2, "prompt": "Un alemán me ayudó.", "accept": ["Ein Deutscher hat mir geholfen"], "hintWords": ["ein Deutscher hat mir geholfen"], "strictAccents": false, "audio": "Ein Deutscher hat mir geholfen.", "explain": "Ein Deutscher: nominativo, -er, sin artículo definido." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["sustantivados"], "difficulty": 2, "prompt": "El enfermo necesita descanso.", "accept": ["Der Kranke braucht Ruhe"], "hintWords": ["der Kranke braucht Ruhe"], "strictAccents": false, "audio": "Der Kranke braucht Ruhe.", "explain": "der Kranke: nominativo, -e, tras der." },
+    { "id": "e9", "type": "fill_blank", "tags": ["sustantivados"], "difficulty": 3, "prompt": "Completa con la terminación correcta", "text": "der Deutsch___ (con der) ein Deutsch___ (sin artículo)", "blanks": [{ "accept": ["e"] }, { "accept": ["er"] }], "bank": ["e", "er"], "explain": "der Deutsche (-e, débil); ein Deutscher (-er, fuerte porque ein no marca género)." },
+    { "id": "e10", "type": "word_order", "tags": ["sustantivados"], "difficulty": 2, "prompt": "Ordena: «Lo más importante primero»", "tokens": ["zuerst", "Das Wichtigste"], "answer": ["Das Wichtigste", "zuerst"], "audio": "Das Wichtigste zuerst.", "explain": "Das Wichtigste zuerst: expresión fija muy común." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["sustantivados"], "difficulty": 2, "prompt": "Sie ist eine Verwandte von mir.", "accept": ["Ella es una parienta mía."], "strictAccents": false, "audio": "Sie ist eine Verwandte von mir.", "explain": "eine Verwandte: femenino, -e, tras eine." },
+    { "id": "e12", "type": "dialogue", "tags": ["sustantivados"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Tim", "text": "Wer hat dir geholfen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ein Deutscher hat mir geholfen."], "hint": "responde usando el sustantivado sin artículo definido" },
+      { "who": "Tim", "text": "Nett von ihm!", "speak": true }
+    ], "explain": "Práctica de ein Deutscher, con -er por la ausencia de artículo definido." },
+    { "id": "e13", "type": "listening", "tags": ["sustantivados"], "difficulty": 1, "speak": "Der Deutsche wohnt in Berlin.", "mode": "write", "accept": ["Der Deutsche wohnt in Berlin"], "showTextAfter": true, "explain": "der Deutsche: adjetivo sustantivado, -e tras der." },
+    { "id": "e14", "type": "listening", "tags": ["sustantivados"], "difficulty": 2, "speak": "Ein Deutscher hat mir geholfen.", "mode": "choose", "options": ["Ein Deutscher hat mir geholfen.", "Ein Deutsche hat mir geholfen.", "Der Deutscher hat mir geholfen."], "answer": 0, "showTextAfter": true, "explain": "Solo «Ein Deutscher» combina correctamente ein con -er (masculino nominativo, sin artículo definido)." },
+    { "id": "e15", "type": "shadowing", "tags": ["sustantivados"], "difficulty": 2, "speak": "Der Deutsche wohnt in Berlin, aber ein Deutscher hat mir in München geholfen.", "es": "El alemán vive en Berlín, pero un alemán me ayudó en Múnich.", "ipa": "/deːɐ̯ ˈdɔɪ̯tʃə ˈvoːnt ɪn bɛʁˈliːn ˈaːbɐ aɪ̯n ˈdɔɪ̯tʃɐ hat miːɐ̯ ɪn ˈmʏnçn̩ ɡəˈhɔlfn̩/", "esApprox": "«der DÓICH-e VÓ-nt in ber-LÍN, Á-ber ain DÓICH-er jat mir in MÜN-jen ge-JÓL-fen»", "focus": "der Deutsche (-e) frente a ein Deutscher (-er): el mismo sustantivado, dos terminaciones según el artículo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["sustantivados"], "difficulty": 2, "speak": "Der Kranke braucht Ruhe, und das Wichtigste ist, dass er sich erholt.", "es": "El enfermo necesita descanso, y lo más importante es que se recupere.", "ipa": "/deːɐ̯ ˈkʁaŋkə ˈbʁaʊ̯xt ˈʁuːə ʊnt das ˈvɪçtɪçstə ɪst das eːɐ̯ zɪç ɛɐ̯ˈhoːlt/", "esApprox": "«der KRÁN-ke BRÁU-jt RÚ-e, unt das VÍCH-tich-ste ist, das er zich er-JÓLT»", "focus": "der Kranke (adjetivo sustantivado) y das Wichtigste (neutro sustantivado), con dass mandando erholt al final.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["sustantivados"], "difficulty": 2, "prompt": "Te preguntan quién te ayudó. Di que fue un alemán.", "modelAnswer": "Ein Deutscher hat mir geholfen.", "alsoValid": ["Ein Deutscher."], "speak": "Ein Deutscher hat mir geholfen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["sustantivados"], "difficulty": 2, "prompt": "Clasifica cada forma: con artículo definido (-e) o sin él (-er)", "buckets": ["Con der (-e)", "Con ein / sin artículo (-er)"], "items": [
+      { "text": "der Deutsche", "bucket": 0 },
+      { "text": "ein Deutscher", "bucket": 1 },
+      { "text": "der Kranke", "bucket": 0 },
+      { "text": "ein Kranker", "bucket": 1 }
+    ], "explain": "Con der/die/das, el adjetivo sustantivado lleva -e; con ein o sin artículo, -er." },
+    { "id": "e19", "type": "error_correction", "tags": ["sustantivados"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ein Deutsche hat mir geholfen.", "accept": ["Ein Deutscher hat mir geholfen"], "audio": "Ein Deutscher hat mir geholfen.", "explain": "Sin artículo definido, el masculino nominativo necesita -er, no -e." },
+    { "id": "e20", "type": "mcq", "tags": ["sustantivados"], "difficulty": 2, "prompt": "«Der Deutsche wohnt in Berlin, aber ein Deutscher hat mir in München geholfen. Das Gute daran ist, dass beide sehr freundlich waren.» ¿Qué es «das Gute» en esta frase?", "options": ["Un adjetivo normal", "Un adjetivo sustantivado neutro", "Un artículo", "Un verbo"], "answer": 1, "explain": "das Gute: adjetivo sustantivado neutro, «lo bueno», declinado tras das." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "der/die Deutsche", "es": "el alemán, la alemana", "esApprox": "«der DÓICH-e»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "der/die Kranke", "es": "el enfermo, la enferma", "esApprox": "«der KRÁN-ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "der/die Verwandte", "es": "el pariente, la parienta", "esApprox": "«der fer-VÁN-te»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "das Neue", "es": "lo nuevo", "esApprox": "«das NÓI-e»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "das Gute", "es": "lo bueno", "esApprox": "«das GÚ-te»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "das Wichtigste", "es": "lo más importante", "esApprox": "«das VÍCH-tich-ste»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Der Deutsche wohnt in Berlin, aber ein Deutscher hat mir in München geholfen.", "es": "El alemán vive en Berlín, pero un alemán me ayudó en Múnich.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Kranke braucht Ruhe, und das Wichtigste ist, dass er sich erholt.", "es": "El enfermo necesita descanso, y lo más importante es que se recupere.", "from": "e16" }
+  ]
+}

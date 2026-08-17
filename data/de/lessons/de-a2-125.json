@@ -1,0 +1,92 @@
+{
+  "id": "de-a2-125",
+  "lang": "de",
+  "level": "A2",
+  "order": 125,
+  "title": "Wenn y als: dos formas de decir \"cuando\"",
+  "objectives": [
+    "Usar wenn para «cuando» en presente/futuro o para acciones repetidas en el pasado",
+    "Usar als para «cuando» en un único momento del pasado",
+    "Aplicar el orden de subordinada (verbo al final) en ambos casos, como ya conoces de weil y dass"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "wenn: presente/futuro, o repetición en el pasado",
+      "body": "Wenn se usa para «cuando» en presente o futuro («Wenn ich Zeit habe, rufe ich dich an» = Cuando tenga tiempo, te llamo) y también para acciones que se repiten en el pasado («Wenn ich klein war, habe ich oft gespielt» = Cuando era pequeño, jugaba a menudo, muchas veces). Como cualquier subordinada, manda el verbo conjugado al final.",
+      "examples": [
+        { "target": "Wenn ich Zeit habe, rufe ich dich an.", "es": "Cuando tenga tiempo, te llamo." },
+        { "target": "Wenn ich klein war, habe ich oft im Park gespielt.", "es": "Cuando era pequeño, jugaba a menudo en el parque." }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "als: un único momento del pasado",
+      "body": "Als se usa SOLO para «cuando» en un momento ÚNICO y concreto del pasado, que no se repite: «Als ich acht Jahre alt war, sind wir nach Berlin gezogen» (Cuando tenía ocho años, nos mudamos a Berlín — pasó una sola vez)."
+    },
+    {
+      "type": "table",
+      "title": "wenn frente a als",
+      "headers": ["Conjunción", "Uso"],
+      "rows": [
+        ["wenn", "presente/futuro, o repetición en el pasado"],
+        ["als", "un único momento concreto del pasado"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco rápido: si puedes añadir «siempre que» o «cada vez que» sin cambiar el sentido, es wenn. Si es un momento único e irrepetible («el día en que...»), es als."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "wenn", "es": "cuando (presente/futuro, o repetición)", "ipa": "/vɛn/", "esApprox": "«ven»", "pos": "conjunción", "gender": null, "example": { "target": "Wenn ich Zeit habe, rufe ich dich an.", "es": "Cuando tenga tiempo, te llamo." } },
+    { "id": "v2", "target": "als", "es": "cuando (momento único del pasado)", "ipa": "/als/", "esApprox": "«als»", "pos": "conjunción", "gender": null, "example": { "target": "Als ich acht war, sind wir umgezogen.", "es": "Cuando tenía ocho años, nos mudamos." } },
+    { "id": "v3", "target": "immer wenn", "es": "siempre que", "ipa": "/ˈɪmɐ vɛn/", "esApprox": "«Í-mer ven»", "pos": "expresión", "gender": null, "example": { "target": "Immer wenn es regnet, bleibe ich zu Hause.", "es": "Siempre que llueve, me quedo en casa." } },
+    { "id": "v4", "target": "damals", "es": "en aquella época", "ipa": "/ˈdaːmaːls/", "esApprox": "«DÁ-mals»", "pos": "adverbio", "gender": null, "example": { "target": "Damals war alles anders.", "es": "En aquella época todo era diferente." } },
+    { "id": "v5", "target": "die Kindheit", "es": "la infancia", "ipa": "/ˈkɪnthaɪ̯t/", "esApprox": "«KÍNT-jait»", "pos": "sustantivo", "gender": "f", "example": { "target": "In meiner Kindheit habe ich viel gespielt.", "es": "En mi infancia jugué mucho." } },
+    { "id": "v6", "target": "der Moment", "es": "el momento", "ipa": "/moˈmɛnt/", "esApprox": "«mo-MENT»", "pos": "sustantivo", "gender": "m", "example": { "target": "In dem Moment war ich glücklich.", "es": "En ese momento fui feliz." } },
+    { "id": "v7", "target": "wiederholt", "es": "repetido, en repetidas ocasiones", "ipa": "/ˌviːdɐˈhoːlt/", "esApprox": "«vi-der-JÓLT»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist ein wiederholtes Ereignis.", "es": "Ese es un suceso repetido." } },
+    { "id": "v8", "target": "einmalig", "es": "único, irrepetible", "ipa": "/ˈaɪ̯nmaːlɪç/", "esApprox": "«ÁIN-ma-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das war ein einmaliges Erlebnis.", "es": "Esa fue una experiencia única." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["wenn-als"], "difficulty": 1, "prompt": "¿Cuándo se usa «als»?", "options": ["Presente y futuro", "Un único momento del pasado", "Acciones repetidas", "Nunca en pasado"], "answer": 1, "explain": "als: momento único y concreto del pasado." },
+    { "id": "e2", "type": "mcq", "tags": ["wenn-als"], "difficulty": 2, "prompt": "¿Cuándo se usa «wenn» en pasado?", "options": ["Solo una vez", "Para acciones repetidas", "Nunca en pasado", "Solo con el Perfekt"], "answer": 1, "explain": "wenn en pasado indica repetición: «cada vez que»." },
+    { "id": "e3", "type": "true_false", "tags": ["wenn-als"], "difficulty": 2, "statement": "wenn y als mandan el verbo conjugado al final, como weil y dass.", "answer": true, "explain": "Ambas son conjunciones subordinantes: mismo patrón de orden de palabras." },
+    { "id": "e4", "type": "true_false", "tags": ["wenn-als"], "difficulty": 2, "statement": "«Als ich klein war, habe ich oft gespielt» es correcto porque describe algo repetido.", "answer": false, "explain": "Para algo repetido en el pasado se usa wenn, no als." },
+    { "id": "e5", "type": "match_pairs", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Une cada frase con su conjunción correcta", "left": ["Cuando tenga tiempo, te llamo.", "Cuando tenía ocho años, nos mudamos.", "Cuando llovía, me quedaba en casa."], "right": ["Wenn ich Zeit habe, rufe ich dich an.", "Als ich acht war, sind wir umgezogen.", "Wenn es regnete, blieb ich zu Hause."], "answer": [0, 1, 2], "explain": "Futuro (wenn), momento único pasado (als), repetición pasada (wenn)." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Cuando tenga tiempo, te llamo.", "accept": ["Wenn ich Zeit habe, rufe ich dich an"], "hintWords": ["wenn ich Zeit habe, rufe ich dich an"], "strictAccents": false, "audio": "Wenn ich Zeit habe, rufe ich dich an.", "explain": "wenn + habe (final) para presente/futuro." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Cuando tenía ocho años, nos mudamos a Berlín.", "accept": ["Als ich acht Jahre alt war, sind wir nach Berlin gezogen"], "hintWords": ["als ich acht Jahre alt war, sind wir nach Berlin gezogen"], "strictAccents": false, "audio": "Als ich acht Jahre alt war, sind wir nach Berlin gezogen.", "explain": "als + war (final): momento único del pasado." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Siempre que llueve, me quedo en casa.", "accept": ["Immer wenn es regnet, bleibe ich zu Hause"], "hintWords": ["immer wenn es regnet, bleibe ich zu Hause"], "strictAccents": false, "audio": "Immer wenn es regnet, bleibe ich zu Hause.", "explain": "Immer wenn: refuerza la repetición." },
+    { "id": "e9", "type": "fill_blank", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Completa con wenn o als", "text": "___ ich klein war, habe ich oft gespielt. ___ ich acht war, sind wir umgezogen.", "blanks": [{ "accept": ["Wenn"] }, { "accept": ["Als"] }], "bank": ["Wenn", "Als"], "explain": "Wenn (repetición: oft); Als (momento único)." },
+    { "id": "e10", "type": "word_order", "tags": ["wenn-als"], "difficulty": 3, "prompt": "Ordena: «En aquella época todo era diferente»", "tokens": ["anders", "war", "alles", "Damals"], "answer": ["Damals", "war", "alles", "anders"], "audio": "Damals war alles anders.", "explain": "Damals (posición 1) + war (posición 2) + alles + anders." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Das war ein einmaliges Erlebnis.", "accept": ["Esa fue una experiencia única."], "strictAccents": false, "audio": "Das war ein einmaliges Erlebnis.", "explain": "einmalig = único, irrepetible." },
+    { "id": "e12", "type": "dialogue", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Anna", "text": "Wann seid ihr nach Berlin gezogen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Als ich acht Jahre alt war, sind wir nach Berlin gezogen."], "hint": "responde con als, momento único" },
+      { "who": "Anna", "text": "Ach, interessant!", "speak": true }
+    ], "explain": "Práctica de als para un momento único del pasado." },
+    { "id": "e13", "type": "listening", "tags": ["wenn-als"], "difficulty": 1, "speak": "Wenn ich Zeit habe, rufe ich dich an.", "mode": "write", "accept": ["Wenn ich Zeit habe, rufe ich dich an"], "showTextAfter": true, "explain": "wenn para presente/futuro." },
+    { "id": "e14", "type": "listening", "tags": ["wenn-als"], "difficulty": 2, "speak": "Als ich acht war, sind wir umgezogen.", "mode": "choose", "options": ["Als ich acht war, sind wir umgezogen.", "Wenn ich acht war, sind wir umgezogen.", "Als ich acht bin, sind wir umgezogen."], "answer": 0, "showTextAfter": true, "explain": "als (momento único del pasado) + war (Präteritum): la combinación correcta." },
+    { "id": "e15", "type": "shadowing", "tags": ["wenn-als"], "difficulty": 2, "speak": "Als ich klein war, habe ich in meiner Kindheit oft im Park gespielt, wenn die Sonne schien.", "es": "Cuando era pequeño, en mi infancia jugaba a menudo en el parque, cuando salía el sol.", "ipa": "/als ɪç klaɪ̯n vaːɐ̯ ˈhaːbə ɪç ɪn ˈmaɪ̯nɐ ˈkɪnthaɪ̯t ɔft ɪm paʁk ɡəˈʃpiːlt vɛn diː ˈzɔnə ʃiːn/", "esApprox": "«als ich klain var, JÁ-be ich in MÁI-ner KÍNT-jait oft im park ge-SHPILT, ven di ZÓ-ne shin»", "focus": "als (momento de la infancia en general) frente a wenn (repetición: cada vez que salía el sol).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["wenn-als"], "difficulty": 2, "speak": "Wenn ich Zeit habe, rufe ich dich an, aber damals hatte ich nie Zeit.", "es": "Cuando tenga tiempo, te llamo, pero en aquella época nunca tenía tiempo.", "ipa": "/vɛn ɪç tsaɪ̯t ˈhaːbə ˈʁuːfə ɪç dɪç an ˈaːbɐ ˈdaːmaːls ˈhatə ɪç niː tsaɪ̯t/", "esApprox": "«ven ich tsait JÁ-be, RÚ-fe ich dich an, Á-ber DÁ-mals JÁ-te ich ni tsait»", "focus": "wenn (futuro) contrastado con damals (adverbio de pasado lejano, sin conjunción als aquí).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Te preguntan cuándo os mudasteis a Berlín. Di que fue cuando tenías ocho años, usando als.", "modelAnswer": "Als ich acht Jahre alt war, sind wir nach Berlin gezogen.", "alsoValid": ["Als ich acht war."], "speak": "Als ich acht Jahre alt war, sind wir nach Berlin gezogen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Clasifica cada frase: wenn o als", "buckets": ["wenn", "als"], "items": [
+      { "text": "Cuando llovía, me quedaba en casa (repetido).", "bucket": 0 },
+      { "text": "Cuando tenía ocho años, nos mudamos (único).", "bucket": 1 },
+      { "text": "Cuando tenga tiempo, te llamo (futuro).", "bucket": 0 },
+      { "text": "Cuando nací (único, pasado).", "bucket": 1 }
+    ], "explain": "wenn para futuro/repetición; als para un momento único del pasado." },
+    { "id": "e19", "type": "error_correction", "tags": ["wenn-als"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wenn ich acht Jahre alt war, sind wir nach Berlin gezogen.", "accept": ["Als ich acht Jahre alt war, sind wir nach Berlin gezogen"], "audio": "Als ich acht Jahre alt war, sind wir nach Berlin gezogen.", "explain": "Es un momento único del pasado (mudarse una sola vez): se usa als, no wenn." },
+    { "id": "e20", "type": "mcq", "tags": ["wenn-als"], "difficulty": 2, "prompt": "«Als ich klein war, sind wir nach Berlin gezogen. Wenn ich heute an meine Kindheit denke, war es eine schöne Zeit.» ¿Qué palabra se usa para el recuerdo repetido de pensar en la infancia?", "options": ["als", "wenn", "damals", "einmalig"], "answer": 1, "explain": "«Wenn ich... denke» = cada vez que pienso: acción que se repite, con wenn." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "wenn", "es": "cuando (presente/futuro, o repetición)", "esApprox": "«ven»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "als", "es": "cuando (momento único del pasado)", "esApprox": "«als»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "immer wenn", "es": "siempre que", "esApprox": "«Í-mer ven»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "damals", "es": "en aquella época", "esApprox": "«DÁ-mals»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Kindheit", "es": "la infancia", "esApprox": "«KÍNT-jait»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "einmalig", "es": "único, irrepetible", "esApprox": "«ÁIN-ma-lich»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Als ich klein war, habe ich in meiner Kindheit oft im Park gespielt, wenn die Sonne schien.", "es": "Cuando era pequeño, en mi infancia jugaba a menudo en el parque, cuando salía el sol.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wenn ich Zeit habe, rufe ich dich an, aber damals hatte ich nie Zeit.", "es": "Cuando tenga tiempo, te llamo, pero en aquella época nunca tenía tiempo.", "from": "e16" }
+  ]
+}

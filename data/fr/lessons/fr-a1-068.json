@@ -1,0 +1,255 @@
+{
+  "id": "fr-a1-068",
+  "lang": "fr",
+  "level": "A1",
+  "order": 68,
+  "title": "El tiempo meteorológico",
+  "objectives": [
+    "Usar il fait + adjetivo para describir el tiempo: il fait beau, il fait froid",
+    "Usar il pleut, il neige y il y a du vent/soleil (clases 1, 49)",
+    "Ampliar el vocabulario meteorológico con nuevas expresiones"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar del tiempo",
+      "body": "Ya conoces il pleut e il fait beau (clase 1) como ejemplos de verbos impersonales. Ahora aprendes todo el vocabulario para describir el tiempo con detalle.",
+      "examples": [
+        { "target": "Aujourd'hui, il fait beau et il y a du soleil.", "es": "Hoy hace buen tiempo y hay sol.", "note": "il fait + adjetivo, il y a + du/de la" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del tiempo",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["il fait beau / il fait mauvais", "hace buen tiempo / hace mal tiempo"],
+        ["il fait chaud / il fait froid", "hace calor / hace frío"],
+        ["il pleut", "llueve"],
+        ["il neige", "nieva"],
+        ["il y a du soleil", "hay sol"],
+        ["il y a du vent", "hay viento"],
+        ["il y a des nuages", "hay nubes"],
+        ["le temps", "el tiempo (meteorológico)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Il y a du soleil / il y a du vent usan el partitivo (clase 57): du soleil, du vent, porque son cantidades incontables, como du pain o de l'eau."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il fait beau", "es": "hace buen tiempo", "ipa": "/il fɛ bo/", "esApprox": "«il fe BÓ»", "pos": "expresión", "gender": null, "example": { "target": "Aujourd'hui, il fait beau.", "es": "Hoy hace buen tiempo." } },
+    { "id": "v2", "target": "il fait chaud / il fait froid", "es": "hace calor / hace frío", "ipa": "/il fɛ ʃo il fɛ fʁwa/", "esApprox": "«il fe SHÓ il fe FRUÁ»", "pos": "expresión", "gender": null, "example": { "target": "En été, il fait chaud.", "es": "En verano, hace calor." } },
+    { "id": "v3", "target": "il pleut", "es": "llueve", "ipa": "/il plø/", "esApprox": "«il PLEU»", "pos": "expresión", "gender": null, "example": { "target": "Il pleut beaucoup en Bretagne.", "es": "Llueve mucho en Bretaña." } },
+    { "id": "v4", "target": "il neige", "es": "nieva", "ipa": "/il nɛʒ/", "esApprox": "«il NEZH»", "pos": "expresión", "gender": null, "example": { "target": "En hiver, il neige souvent.", "es": "En invierno, nieva a menudo." } },
+    { "id": "v5", "target": "il y a du soleil", "es": "hay sol", "ipa": "/il i a dy sɔ.lɛj/", "esApprox": "«il i a dü so-LEY»", "pos": "expresión", "gender": null, "example": { "target": "Il y a du soleil aujourd'hui.", "es": "Hay sol hoy." } },
+    { "id": "v6", "target": "il y a du vent", "es": "hay viento", "ipa": "/il i a dy vɑ̃/", "esApprox": "«il i a dü VAN»", "pos": "expresión", "gender": null, "example": { "target": "Il y a beaucoup de vent.", "es": "Hay mucho viento." } },
+    { "id": "v7", "target": "les nuages", "es": "las nubes", "ipa": "/le nɥaʒ/", "esApprox": "«le NÜÁZH»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il y a des nuages, mais pas de pluie.", "es": "Hay nubes, pero no lluvia." } },
+    { "id": "v8", "target": "le temps", "es": "el tiempo (meteorológico)", "ipa": "/lə tɑ̃/", "esApprox": "«le TAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Quel temps fait-il ?", "es": "¿Qué tiempo hace?" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «hace frío»?",
+      "options": ["il fait beau", "il fait chaud", "il fait froid", "il pleut"],
+      "answer": 2,
+      "explain": "Il fait froid = hace frío."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "¿Qué estructura se usa para decir «hay sol»?",
+      "options": ["il fait du soleil", "il y a du soleil", "il est du soleil", "il pleut du soleil"],
+      "answer": 1,
+      "explain": "Il y a + partitivo (clase 57): il y a du soleil."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "statement": "Il neige significa «llueve».",
+      "answer": false,
+      "explain": "Il neige = nieva. Il pleut = llueve."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones no describe el tiempo?",
+      "options": ["il pleut", "il neige", "il fait beau", "il est étudiant"],
+      "answer": 3,
+      "explain": "Il est étudiant (clase 63) es una profesión, no el tiempo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["il pleut", "il neige", "il y a du vent", "les nuages"],
+      "right": ["hay viento", "llueve", "las nubes", "nieva"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Pleut = llueve, neige = nieva, du vent = viento, nuages = nubes."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Hoy hace buen tiempo y hay sol, pero mañana llueve.",
+      "accept": ["Aujourd'hui, il fait beau et il y a du soleil, mais demain il pleut"],
+      "hintWords": ["il fait beau", "il y a du soleil", "il pleut"],
+      "strictAccents": false,
+      "audio": "Aujourd'hui, il fait beau et il y a du soleil, mais demain il pleut.",
+      "explain": "Il fait + adjetivo, il y a + partitivo, il pleut."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "En invierno hace frío y nieva mucho, pero en verano hace calor.",
+      "accept": ["En hiver, il fait froid et il neige beaucoup, mais en été, il fait chaud"],
+      "hintWords": ["en hiver, il fait froid", "il neige beaucoup", "en été, il fait chaud"],
+      "strictAccents": false,
+      "audio": "En hiver, il fait froid et il neige beaucoup, mais en été, il fait chaud.",
+      "explain": "En hiver/en été (clase 38) + expresiones de tiempo."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "Aujourd'hui, il y a des ___ mais il ne ___ pas.",
+      "blanks": [{ "accept": ["nuages"] }, { "accept": ["pleut"] }],
+      "bank": ["nuages", "pleut", "neige"],
+      "explain": "Il y a des nuages (hay nubes) frente a il ne pleut pas (no llueve)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Qué tiempo hace hoy?»",
+      "tokens": ["fait-il", "aujourd'hui", "Quel temps", "?"],
+      "answer": ["Quel temps", "fait-il", "aujourd'hui", "?"],
+      "audio": "Quel temps fait-il aujourd'hui ?",
+      "explain": "Quel temps fait-il ? es la pregunta habitual sobre el tiempo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "prompt": "Il y a du vent et il fait mauvais aujourd'hui.",
+      "accept": ["Hay viento y hace mal tiempo hoy."],
+      "strictAccents": false,
+      "audio": "Il y a du vent et il fait mauvais aujourd'hui.",
+      "explain": "Il y a du vent + il fait mauvais."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el tiempo",
+      "turns": [
+        { "who": "Léa", "text": "Quel temps fait-il aujourd'hui ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il fait beau.", "Il pleut.", "Il fait froid."], "hint": "describe el tiempo de hoy" },
+        { "who": "Léa", "text": "D'accord, merci !", "speak": true }
+      ],
+      "explain": "Quel temps fait-il ? se responde con il fait/il pleut/il neige."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "speak": "Il fait froid et il y a du vent, mais il ne pleut pas.",
+      "mode": "write",
+      "accept": ["Il fait froid et il y a du vent, mais il ne pleut pas"],
+      "showTextAfter": true,
+      "explain": "Tres elementos del tiempo combinados con negación."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "speak": "il neige",
+      "mode": "choose",
+      "options": ["il pleut", "il neige", "il fait chaud", "il fait beau"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Il neige = nieva."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 3,
+      "speak": "En été, il fait chaud et il y a du soleil ; en hiver, il fait froid et il neige souvent.",
+      "es": "En verano, hace calor y hay sol; en invierno, hace frío y nieva a menudo.",
+      "ipa": "/ɑ̃.n‿e.te il fɛ ʃo e il i a dy sɔ.lɛj ɑ̃.n‿i.vɛʁ il fɛ fʁwa e il nɛʒ su.vɑ̃/",
+      "esApprox": "«an-ne-TÉ il fe SHÓ e il i a dü so-LEY an-ni-VER il fe FRUÁ e il NEZH su-VAN»",
+      "focus": "Contraste completo entre el tiempo de verano y de invierno.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Describe el tiempo que hace hoy donde vives.",
+      "modelAnswer": "Aujourd'hui, il fait beau et il y a du soleil.",
+      "alsoValid": ["Il pleut et il fait froid aujourd'hui."],
+      "speak": "Aujourd'hui, il fait beau et il y a du soleil.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 1,
+      "prompt": "¿Es tiempo bueno o tiempo malo?",
+      "buckets": ["Bueno", "Malo"],
+      "items": [
+        { "text": "il fait beau", "bucket": 0 },
+        { "text": "il pleut", "bucket": 1 },
+        { "text": "il y a du soleil", "bucket": 0 },
+        { "text": "il fait mauvais", "bucket": 1 }
+      ],
+      "explain": "Beau y soleil son buen tiempo; pleut y mauvais son mal tiempo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["tiempo-meteorologico"],
+      "difficulty": 2,
+      "prompt": "Hay un error de estructura. Corrige la frase entera.",
+      "wrong": "Il fait du soleil.",
+      "accept": ["Il y a du soleil"],
+      "audio": "Il y a du soleil.",
+      "explain": "Con soleil, vent y nuages se usa il y a, no il fait."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il fait beau", "es": "hace buen tiempo", "esApprox": "«il fe BÓ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "il fait chaud / il fait froid", "es": "hace calor / hace frío", "esApprox": "«il fe SHÓ il fe FRUÁ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "il neige", "es": "nieva", "esApprox": "«il NEZH»", "from": "v4" },
+    { "id": "s4", "kind": "phrase", "target": "il y a du soleil", "es": "hay sol", "esApprox": "«il i a dü so-LEY»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "il y a du vent", "es": "hay viento", "esApprox": "«il i a dü VAN»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "les nuages", "es": "las nubes", "esApprox": "«le NÜÁZH»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "le temps", "es": "el tiempo (meteorológico)", "esApprox": "«le TAN»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Aujourd'hui, il fait beau et il y a du soleil, mais demain il pleut.", "es": "Hoy hace buen tiempo y hay sol, pero mañana llueve.", "from": "e6" }
+  ]
+}

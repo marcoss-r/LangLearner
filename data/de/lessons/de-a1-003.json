@@ -1,0 +1,381 @@
+{
+  "id": "de-a1-003",
+  "lang": "de",
+  "level": "A1",
+  "order": 3,
+  "title": "Pronunciación general I: vocales largas y cortas",
+  "objectives": [
+    "Distinguir de oído una vocal larga de una vocal corta en alemán",
+    "Reconocer en la escritura las señales que anuncian una vocal larga o corta",
+    "Practicar pares mínimos donde la duración de la vocal cambia el significado de la palabra (Staat/Stadt, Ofen/offen)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "En alemán, la duración de la vocal cambia el significado",
+      "body": "En español, una a dura lo mismo en «pata» que en «para». En alemán, no: las vocales pueden ser **largas** o **cortas**, y esa diferencia puede cambiar completamente el significado de una palabra. Staat (con a larga) es «estado» o «país»; Stadt (con a corta) es «ciudad». Ofen (con o larga) es «horno»; offen (con o corta) es «abierto». No es un matiz opcional: si confundes las dos, puedes decir una palabra por otra.",
+      "examples": [
+        { "target": "der Staat", "es": "el estado", "note": "a larga" },
+        { "target": "die Stadt", "es": "la ciudad", "note": "a corta" },
+        { "target": "der Ofen", "es": "el horno", "note": "o larga" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cómo saber si una vocal es larga o corta con solo mirarla",
+      "headers": ["Señal en la escritura", "Vocal", "Ejemplo"],
+      "rows": [
+        ["Vocal doble (aa, ee, oo)", "larga", "Staat (estado)"],
+        ["Vocal + h", "larga", "Bahn (vía, tren)"],
+        ["Vocal seguida de una sola consonante", "larga (a menudo)", "Ofen (horno)"],
+        ["Vocal seguida de consonante doble (ff, tt, ss...)", "corta", "offen (abierto)"],
+        ["ie", "siempre larga, suena «í»", "Miete (alquiler)"]
+      ],
+      "note": "No es una regla infalible al 100%, pero acierta la inmensa mayoría de las veces: es la mejor pista que tienes al leer una palabra nueva."
+    },
+    {
+      "type": "phonetics",
+      "title": "Pares mínimos: la misma palabra casi, significados distintos",
+      "body": "La mejor forma de entrenar el oído es comparar dos palabras casi idénticas que solo se diferencian en la duración de la vocal.",
+      "drills": [
+        { "target": "Staat", "ipa": "/ʃtaːt/", "esApprox": "«SHTAT», con la a bien alargada", "hint": "a larga = estado" },
+        { "target": "Stadt", "ipa": "/ʃtat/", "esApprox": "«SHTAT», con la a corta y seca", "hint": "a corta = ciudad" },
+        { "target": "Ofen", "ipa": "/ˈoːfən/", "esApprox": "«Ó-fen», con la o bien alargada", "hint": "o larga = horno" },
+        { "target": "offen", "ipa": "/ˈɔfən/", "esApprox": "«Ó-fen», con la o corta y la ff marcada", "hint": "o corta = abierto" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco rápido: si ves la vocal seguida de DOS consonantes iguales seguidas (ff, tt, ss, mm...), casi seguro que es corta. Si ves la vocal seguida de una h muda o duplicada (aa, ee, oo), casi seguro que es larga."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "der Staat",
+      "es": "el estado, el país",
+      "ipa": "/ʃtaːt/",
+      "esApprox": "«SHTAT», a larga",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Staaten",
+      "example": { "target": "Deutschland ist ein moderner Staat.", "es": "Alemania es un estado moderno." }
+    },
+    {
+      "id": "v2",
+      "target": "die Stadt",
+      "es": "la ciudad",
+      "ipa": "/ʃtat/",
+      "esApprox": "«SHTAT», a corta",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Städte",
+      "example": { "target": "Die Stadt ist sehr modern.", "es": "La ciudad es muy moderna." }
+    },
+    {
+      "id": "v3",
+      "target": "der Ofen",
+      "es": "el horno",
+      "ipa": "/ˈoːfən/",
+      "esApprox": "«Ó-fen», o larga",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Öfen",
+      "example": { "target": "Der Ofen ist offen.", "es": "El horno está abierto." }
+    },
+    {
+      "id": "v4",
+      "target": "offen",
+      "es": "abierto, abierta",
+      "ipa": "/ˈɔfən/",
+      "esApprox": "«Ó-fen», o corta",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Der Ofen ist offen.", "es": "El horno está abierto." }
+    },
+    {
+      "id": "v5",
+      "target": "die Miete",
+      "es": "el alquiler",
+      "ipa": "/ˈmiːtə/",
+      "esApprox": "«MI-te», ie siempre suena í larga",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Mieten",
+      "example": { "target": "Die Miete ist sehr lang.", "es": "El alquiler es a largo plazo." }
+    },
+    {
+      "id": "v6",
+      "target": "die Mitte",
+      "es": "el centro, el medio",
+      "ipa": "/ˈmɪtə/",
+      "esApprox": "«MI-te», i corta",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Mitten",
+      "example": { "target": "Die Mitte ist modern.", "es": "El centro es moderno." }
+    },
+    {
+      "id": "v7",
+      "target": "lang",
+      "es": "largo, larga",
+      "ipa": "/laŋ/",
+      "esApprox": "«LANG»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Die Miete ist sehr lang.", "es": "El alquiler es a largo plazo." }
+    },
+    {
+      "id": "v8",
+      "target": "kurz",
+      "es": "corto, corta",
+      "ipa": "/kʊʁts/",
+      "esApprox": "«KURTS»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Die Mitte der Stadt ist kurz.", "es": "El centro de la ciudad queda cerca (lit. es corto)." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["vocales", "pronunciacion-general"],
+      "difficulty": 1,
+      "prompt": "¿Qué diferencia a «Staat» de «Stadt» en la pronunciación?",
+      "options": ["Staat tiene la a larga, Stadt corta", "se pronuncian exactamente igual", "Stadt tiene la a larga", "solo cambian las consonantes"],
+      "answer": 0,
+      "explain": "Staat (estado) tiene la a larga; Stadt (ciudad) la tiene corta. Es la única diferencia entre las dos palabras."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["vocales"],
+      "difficulty": 1,
+      "prompt": "¿Qué señal en la escritura indica casi siempre una vocal larga?",
+      "options": ["consonante doble después", "vocal + h, o vocal doble", "no hay ninguna señal fiable", "siempre son cortas"],
+      "answer": 1,
+      "explain": "Vocal + h (Bahn) o vocal doble (Staat) son las señales más fiables de vocal larga."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["vocales"],
+      "difficulty": 1,
+      "statement": "La combinación «ie» en alemán siempre se pronuncia como una i larga.",
+      "answer": true,
+      "explain": "ie suena siempre «í» larga: Miete se pronuncia «MI-te»."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["vocales"],
+      "difficulty": 1,
+      "statement": "Cuando una vocal va seguida de una consonante doble, como en «offen», la vocal es larga.",
+      "answer": false,
+      "explain": "Al contrario: consonante doble después de la vocal casi siempre señala vocal corta."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras tiene la vocal CORTA?",
+      "options": ["Staat", "Ofen", "offen", "Miete"],
+      "answer": 2,
+      "explain": "offen tiene la o corta (marcada por la ff doble); las otras tres tienen vocal larga."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra alemana con su significado",
+      "left": ["Staat", "Stadt", "Ofen", "offen"],
+      "right": ["el estado", "la ciudad", "el horno", "abierto"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro palabras casi idénticas por escrito, distinguidas solo por la duración de la vocal."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "prompt": "El horno está abierto.",
+      "accept": ["Der Ofen ist offen"],
+      "hintWords": ["der Ofen", "ist", "offen"],
+      "strictAccents": false,
+      "audio": "Der Ofen ist offen.",
+      "explain": "Fíjate en el contraste: Ofen (o larga) y offen (o corta) en la misma frase."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "prompt": "El estado es moderno.",
+      "accept": ["Der Staat ist modern"],
+      "hintWords": ["der Staat", "ist", "modern"],
+      "strictAccents": false,
+      "audio": "Der Staat ist modern.",
+      "explain": "der Staat (a larga) + ist + modern, el mismo orden que en la clase anterior."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra que falta",
+      "text": "Der Ofen ist ___. Die Stadt ist sehr modern.",
+      "blanks": [{ "accept": ["offen"] }],
+      "bank": ["offen", "kurz", "lang"],
+      "explain": "offen (o corta) = abierto; contrasta con Ofen (o larga) = horno."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La ciudad es muy moderna»",
+      "tokens": ["ist", "Stadt", "sehr", "modern", "Die"],
+      "answer": ["Die", "Stadt", "ist", "sehr", "modern"],
+      "audio": "Die Stadt ist sehr modern.",
+      "explain": "Die Stadt (a corta) + ist + sehr modern: mismo orden que ya conoces."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["vocales"],
+      "difficulty": 1,
+      "prompt": "Der Staat ist modern.",
+      "accept": ["El estado es moderno."],
+      "strictAccents": false,
+      "audio": "Der Staat ist modern.",
+      "explain": "Staat con a larga es «estado»; no lo confundas con Stadt (a corta), «ciudad»."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre la ciudad",
+      "turns": [
+        { "who": "Anna", "text": "Ist die Stadt modern?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, die Stadt ist sehr modern."], "hint": "dile que sí, que es muy moderna" },
+        { "who": "Anna", "text": "Und der Staat?", "speak": true }
+      ],
+      "explain": "Fíjate en que Stadt y Staat aparecen juntas en el mismo diálogo: es la mejor forma de entrenar el oído."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "speak": "Die Stadt ist modern.",
+      "mode": "write",
+      "accept": ["Die Stadt ist modern"],
+      "showTextAfter": true,
+      "explain": "Die Stadt ist modern = la ciudad es moderna."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "speak": "Der Ofen ist offen.",
+      "mode": "choose",
+      "options": ["Der Ofen ist offen.", "Der Staat ist offen.", "Die Stadt ist offen."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Escucha bien la primera palabra: Ofen, Staat y Stadt suenan de forma distinta."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "speak": "Der Staat ist modern.",
+      "es": "El estado es moderno.",
+      "ipa": "/deːɐ̯ ʃtaːt ɪst moˈdɛʁn/",
+      "esApprox": "«der SHTAT ist mo-DERN»",
+      "focus": "Alarga bien la a de Staat: si la acortas, dices Stadt (ciudad) por error.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "speak": "Der Ofen ist offen.",
+      "es": "El horno está abierto.",
+      "ipa": "/deːɐ̯ ˈoːfən ɪst ˈɔfən/",
+      "esApprox": "«der Ó-fen ist Ó-fen»",
+      "focus": "La primera o (Ofen, horno) es larga; la segunda (offen, abierto) es corta y con la ff marcada.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "prompt": "Alguien te pregunta si el horno está abierto. Responde que sí.",
+      "modelAnswer": "Ja, der Ofen ist offen.",
+      "alsoValid": ["Der Ofen ist offen."],
+      "speak": "Ja, der Ofen ist offen.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "gender_article",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Staat", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Stadt", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Ofen", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Miete", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" }
+      ],
+      "explain": "Staat y Ofen son masculinos (der); Stadt y Miete son femeninos (die)."
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["vocales"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra según su género: der, die o das",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Staat", "bucket": 0 },
+        { "text": "Stadt", "bucket": 1 },
+        { "text": "Ofen", "bucket": 0 },
+        { "text": "Miete", "bucket": 1 },
+        { "text": "Mitte", "bucket": 1 }
+      ],
+      "explain": "Todavía no ha aparecido ninguna palabra neutra (das) en esta clase."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["mayuscula-sustantivos", "vocales"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Der stadt ist modern.",
+      "accept": ["Die Stadt ist modern"],
+      "audio": "Die Stadt ist modern.",
+      "explain": "Dos errores: Stadt es femenino (die, no der) y todo sustantivo lleva mayúscula inicial."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Staat", "es": "el estado, el país", "esApprox": "«SHTAT», a larga", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Stadt", "es": "la ciudad", "esApprox": "«SHTAT», a corta", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Ofen", "es": "el horno", "esApprox": "«Ó-fen», o larga", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "offen", "es": "abierto, abierta", "esApprox": "«Ó-fen», o corta", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Miete", "es": "el alquiler", "esApprox": "«MI-te»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Mitte", "es": "el centro, el medio", "esApprox": "«MI-te», i corta", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "lang", "es": "largo, larga", "esApprox": "«LANG»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "kurz", "es": "corto, corta", "esApprox": "«KURTS»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Der Staat ist modern.", "es": "El estado es moderno.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Der Ofen ist offen.", "es": "El horno está abierto.", "from": "e16" }
+  ]
+}

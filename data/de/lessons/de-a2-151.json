@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-151",
+  "lang": "de",
+  "level": "A2",
+  "order": 151,
+  "title": "El dinero y el trabajo",
+  "objectives": [
+    "Ampliar el vocabulario de dinero: verdienen, das Gehalt, sparen, ausgeben",
+    "Ampliar el vocabulario de trabajo: sich bewerben, die Bewerbung, das Vorstellungsgespräch",
+    "Hablar de tu situación laboral y económica con soltura"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar de dinero",
+      "body": "Verdienen (ganar dinero), das Gehalt (el sueldo), sparen (ahorrar) y ausgeben (gastar) son las palabras clave para hablar de tu economía personal. «Ich verdiene gut, aber ich gebe auch viel aus» (Gano bien, pero también gasto mucho).",
+      "examples": [
+        { "target": "Ich verdiene gut, aber ich gebe auch viel aus.", "es": "Gano bien, pero también gasto mucho." },
+        { "target": "Ich versuche, jeden Monat zu sparen.", "es": "Intento ahorrar cada mes." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de búsqueda de empleo",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["sich bewerben", "postularse, solicitar un empleo"],
+        ["die Bewerbung", "la solicitud de empleo"],
+        ["das Vorstellungsgespräch", "la entrevista de trabajo"],
+        ["arbeitslos", "desempleado"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "sich bewerben rige um + acusativo: «Ich bewerbe mich um die Stelle» (Me postulo para el puesto). Es un ejemplo más de verbo con preposición fija, como los de las clases 116-117."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "verdienen", "es": "ganar (dinero)", "ipa": "/fɛɐ̯ˈdiːnən/", "esApprox": "«fer-DÍ-nen»", "pos": "verbo", "gender": null, "example": { "target": "Ich verdiene gut.", "es": "Gano bien." } },
+    { "id": "v2", "target": "das Gehalt", "es": "el sueldo", "ipa": "/ɡəˈhalt/", "esApprox": "«ge-JALT»", "pos": "sustantivo", "gender": "n", "example": { "target": "Mein Gehalt ist gestiegen.", "es": "Mi sueldo ha subido." } },
+    { "id": "v3", "target": "sparen", "es": "ahorrar", "ipa": "/ˈʃpaːʁən/", "esApprox": "«SHPÁ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Ich versuche, zu sparen.", "es": "Intento ahorrar." } },
+    { "id": "v4", "target": "ausgeben", "es": "gastar (dinero)", "ipa": "/ˈaʊ̯sɡeːbn̩/", "esApprox": "«ÁUS-gue-ben»", "pos": "verbo", "gender": null, "example": { "target": "Ich gebe zu viel aus.", "es": "Gasto demasiado." } },
+    { "id": "v5", "target": "sich bewerben", "es": "postularse, solicitar un empleo", "ipa": "/zɪç bəˈvɛʁbn̩/", "esApprox": "«zich be-VÉR-ben»", "pos": "verbo", "gender": null, "example": { "target": "Ich bewerbe mich um die Stelle.", "es": "Me postulo para el puesto." } },
+    { "id": "v6", "target": "die Bewerbung", "es": "la solicitud de empleo", "ipa": "/bəˈvɛʁbʊŋ/", "esApprox": "«be-VÉR-bung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich schicke meine Bewerbung.", "es": "Envío mi solicitud." } },
+    { "id": "v7", "target": "das Vorstellungsgespräch", "es": "la entrevista de trabajo", "ipa": "/ˈfoːɐ̯ʃtɛlʊŋsɡəʃpʁɛːç/", "esApprox": "«FOR-shte-lungs-ge-shprech»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich habe ein Vorstellungsgespräch.", "es": "Tengo una entrevista de trabajo." } },
+    { "id": "v8", "target": "arbeitslos", "es": "desempleado", "ipa": "/ˈaʁbaɪ̯tsloːs/", "esApprox": "«AR-baits-los»", "pos": "adjetivo", "gender": null, "example": { "target": "Er ist seit einem Monat arbeitslos.", "es": "Está desempleado desde hace un mes." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["dinero"], "difficulty": 1, "prompt": "¿Cómo se dice «ahorrar»?", "options": ["ausgeben", "sparen", "verdienen", "kündigen"], "answer": 1, "explain": "sparen = ahorrar." },
+    { "id": "e2", "type": "mcq", "tags": ["trabajo"], "difficulty": 2, "prompt": "¿Qué preposición usa «sich bewerben»?", "options": ["für", "um", "an", "auf"], "answer": 1, "explain": "sich bewerben um + acusativo." },
+    { "id": "e3", "type": "true_false", "tags": ["trabajo"], "difficulty": 2, "statement": "«das Vorstellungsgespräch» significa «la entrevista de trabajo».", "answer": true, "explain": "das Vorstellungsgespräch = la entrevista de trabajo." },
+    { "id": "e4", "type": "true_false", "tags": ["dinero"], "difficulty": 2, "statement": "«ausgeben» significa «ahorrar».", "answer": false, "explain": "ausgeben = gastar; ahorrar es sparen." },
+    { "id": "e5", "type": "match_pairs", "tags": ["trabajo"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["sich bewerben", "die Bewerbung", "arbeitslos", "das Gehalt"], "right": ["postularse", "la solicitud", "desempleado", "el sueldo"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario de trabajo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["dinero"], "difficulty": 2, "prompt": "Gano bien, pero también gasto mucho.", "accept": ["Ich verdiene gut, aber ich gebe auch viel aus"], "hintWords": ["ich verdiene gut, aber ich gebe auch viel aus"], "strictAccents": false, "audio": "Ich verdiene gut, aber ich gebe auch viel aus.", "explain": "gebe...aus: verbo separable ausgeben." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["trabajo"], "difficulty": 2, "prompt": "Me postulo para el puesto.", "accept": ["Ich bewerbe mich um die Stelle"], "hintWords": ["ich bewerbe mich um die Stelle"], "strictAccents": false, "audio": "Ich bewerbe mich um die Stelle.", "explain": "bewerbe mich um + die Stelle (acusativo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["trabajo"], "difficulty": 2, "prompt": "Tengo una entrevista de trabajo.", "accept": ["Ich habe ein Vorstellungsgespräch"], "hintWords": ["ich habe ein Vorstellungsgespräch"], "strictAccents": false, "audio": "Ich habe ein Vorstellungsgespräch.", "explain": "haben + ein Vorstellungsgespräch." },
+    { "id": "e9", "type": "fill_blank", "tags": ["dinero"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Mein ___ ist gestiegen. Ich versuche, jeden Monat zu ___.", "blanks": [{ "accept": ["Gehalt"] }, { "accept": ["sparen"] }], "bank": ["Gehalt", "sparen", "Bewerbung"], "explain": "das Gehalt (el sueldo); sparen (ahorrar)." },
+    { "id": "e10", "type": "word_order", "tags": ["trabajo"], "difficulty": 2, "prompt": "Ordena: «Envío mi solicitud»", "tokens": ["meine Bewerbung", "Ich schicke"], "answer": ["Ich schicke", "meine Bewerbung"], "audio": "Ich schicke meine Bewerbung.", "explain": "Ich schicke meine Bewerbung: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["trabajo"], "difficulty": 2, "prompt": "Er ist seit einem Monat arbeitslos.", "accept": ["Está desempleado desde hace un mes."], "strictAccents": false, "audio": "Er ist seit einem Monat arbeitslos.", "explain": "seit + dativo (einem Monat): repaso de la clase 121." },
+    { "id": "e12", "type": "dialogue", "tags": ["trabajo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Hast du eine neue Arbeit gefunden?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich habe mich um eine Stelle beworben.", "Ich habe ein Vorstellungsgespräch."], "hint": "responde sobre tu búsqueda de empleo" },
+      { "who": "Lea", "text": "Viel Erfolg!", "speak": true }
+    ], "explain": "Práctica de vocabulario de búsqueda de empleo." },
+    { "id": "e13", "type": "listening", "tags": ["dinero"], "difficulty": 1, "speak": "Ich versuche, jeden Monat zu sparen.", "mode": "write", "accept": ["Ich versuche, jeden Monat zu sparen"], "showTextAfter": true, "explain": "versuchen + zu + infinitivo (sparen)." },
+    { "id": "e14", "type": "listening", "tags": ["trabajo"], "difficulty": 2, "speak": "Ich bewerbe mich um die Stelle.", "mode": "choose", "options": ["Ich bewerbe mich um die Stelle.", "Ich bewerbe mich für die Stelle.", "Ich bewerbe mich an die Stelle."], "answer": 0, "showTextAfter": true, "explain": "sich bewerben va siempre con um, no für ni an." },
+    { "id": "e15", "type": "shadowing", "tags": ["trabajo"], "difficulty": 2, "speak": "Ich habe mich um die Stelle beworben, und nächste Woche habe ich ein Vorstellungsgespräch.", "es": "Me he postulado para el puesto, y la semana que viene tengo una entrevista de trabajo.", "ipa": "/ɪç ˈhaːbə mɪç ʊm diː ˈʃtɛlə bəˈvɔʁbn̩ ʊnt ˈnɛːçstə ˈvɔxə ˈhaːbə ɪç aɪ̯n ˈfoːɐ̯ʃtɛlʊŋsɡəʃpʁɛːç/", "esApprox": "«ich JÁ-be mich um di SHTÉ-le be-VOR-ben, unt NÉCH-ste VÓ-je JÁ-be ich ain FOR-shte-lungs-ge-shprech»", "focus": "sich bewerben um (Perfekt) y das Vorstellungsgespräch: dos pasos del proceso de búsqueda de empleo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["dinero"], "difficulty": 2, "speak": "Mein Gehalt ist gestiegen, deshalb kann ich jetzt mehr sparen, obwohl ich auch mehr ausgebe.", "es": "Mi sueldo ha subido, por eso ahora puedo ahorrar más, aunque también gasto más.", "ipa": "/maɪ̯n ɡəˈhalt ɪst ɡəˈʃtiːɡn̩ dɛsˈhalp kan ɪç jɛtst meːɐ̯ ˈʃpaːʁən ɔpˈvoːl ɪç aʊ̯x meːɐ̯ ˈaʊ̯sɡeːbə/", "esApprox": "«main ge-JALT ist ge-SHTÍ-guen, des-JALP kan ich yetst mer SHPÁ-ren, op-VOL ich aух mer ÁUS-gue-be»", "focus": "deshalb (consecuencia) y obwohl (contraste): dos conectores en la misma frase sobre el sueldo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["trabajo"], "difficulty": 2, "prompt": "Te preguntan si has encontrado trabajo nuevo. Di que te has postulado para un puesto.", "modelAnswer": "Ich habe mich um eine Stelle beworben.", "alsoValid": ["Ich habe ein Vorstellungsgespräch."], "speak": "Ich habe mich um eine Stelle beworben.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["trabajo"], "difficulty": 2, "prompt": "Clasifica cada palabra: dinero o trabajo", "buckets": ["Dinero", "Trabajo"], "items": [
+      { "text": "sparen", "bucket": 0 },
+      { "text": "die Bewerbung", "bucket": 1 },
+      { "text": "das Gehalt", "bucket": 0 },
+      { "text": "arbeitslos", "bucket": 1 }
+    ], "explain": "sparen y Gehalt son de dinero; Bewerbung y arbeitslos son de trabajo (aunque relacionados)." },
+    { "id": "e19", "type": "error_correction", "tags": ["trabajo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich bewerbe mich für die Stelle.", "accept": ["Ich bewerbe mich um die Stelle"], "audio": "Ich bewerbe mich um die Stelle.", "explain": "sich bewerben rige um, no für." },
+    { "id": "e20", "type": "mcq", "tags": ["trabajo"], "difficulty": 2, "prompt": "«Ich habe mich um die Stelle beworben, und nächste Woche habe ich ein Vorstellungsgespräch. Mein Gehalt bei der neuen Firma wäre höher.» ¿Qué tiene la persona la próxima semana?", "options": ["Un aumento de sueldo", "Una entrevista de trabajo", "Vacaciones", "Un día libre"], "answer": 1, "explain": "«nächste Woche habe ich ein Vorstellungsgespräch» = la semana que viene tengo una entrevista de trabajo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "verdienen", "es": "ganar (dinero)", "esApprox": "«fer-DÍ-nen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Gehalt", "es": "el sueldo", "esApprox": "«ge-JALT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "sparen", "es": "ahorrar", "esApprox": "«SHPÁ-ren»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "sich bewerben", "es": "postularse, solicitar un empleo", "esApprox": "«zich be-VÉR-ben»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "die Bewerbung", "es": "la solicitud de empleo", "esApprox": "«be-VÉR-bung»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "arbeitslos", "es": "desempleado", "esApprox": "«AR-baits-los»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe mich um die Stelle beworben, und nächste Woche habe ich ein Vorstellungsgespräch.", "es": "Me he postulado para el puesto, y la semana que viene tengo una entrevista de trabajo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Mein Gehalt ist gestiegen, deshalb kann ich jetzt mehr sparen, obwohl ich auch mehr ausgebe.", "es": "Mi sueldo ha subido, por eso ahora puedo ahorrar más, aunque también gasto más.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "de-a2-163",
+  "lang": "de",
+  "level": "A2",
+  "order": 163,
+  "title": "Los verbos reflexivos con acusativo",
+  "objectives": [
+    "Conjugar los pronombres reflexivos en acusativo (mich, dich, sich, uns, euch, sich)",
+    "Reconocer los verbos reflexivos más frecuentes: sich freuen, sich interessieren, sich fühlen, sich erinnern",
+    "Formular correctamente la posición del pronombre reflexivo en la frase"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los verbos reflexivos: el sujeto recibe su propia acción",
+      "body": "Un verbo reflexivo lleva un pronombre que se refiere al mismo sujeto: «Ich freue mich» (Me alegro, literalmente: yo alegro a mí mismo). Ya has usado algunas expresiones reflexivas fijas (sich freuen auf, sich interessieren für, sich fühlen), y ahora ves la regla completa: el pronombre reflexivo en acusativo va justo después del verbo conjugado, en posición 3.",
+      "examples": [
+        { "target": "Ich freue mich auf die Ferien.", "es": "Me alegro por las vacaciones." },
+        { "target": "Er interessiert sich für Musik.", "es": "Él se interesa por la música." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Pronombres reflexivos en acusativo",
+      "headers": ["Persona", "Pronombre reflexivo"],
+      "rows": [
+        ["ich", "mich"],
+        ["du", "dich"],
+        ["er / sie / es", "sich"],
+        ["wir", "uns"],
+        ["ihr", "euch"],
+        ["sie / Sie", "sich"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Solo la tercera persona (er/sie/es/sie/Sie) usa sich; el resto de personas coincide con los pronombres personales normales en acusativo (mich, dich, uns, euch), que ya conoces de la clase 25."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sich freuen", "es": "alegrarse", "ipa": "/zɪç ˈfʁɔɪ̯ən/", "esApprox": "«zich FRÓI-en»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich freue mich auf die Ferien.", "es": "Me alegro por las vacaciones." } },
+    { "id": "v2", "target": "sich interessieren", "es": "interesarse", "ipa": "/zɪç ɪntəʁɛˈsiːʁən/", "esApprox": "«zich in-te-re-SÍ-ren»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Er interessiert sich für Musik.", "es": "Él se interesa por la música." } },
+    { "id": "v3", "target": "sich fühlen", "es": "sentirse", "ipa": "/zɪç ˈfyːlən/", "esApprox": "«zich FÍU-len»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich fühle mich gut.", "es": "Me siento bien." } },
+    { "id": "v4", "target": "sich erinnern", "es": "acordarse", "ipa": "/zɪç ɛɐ̯ˈʔɪnɐn/", "esApprox": "«zich er-Í-nern»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich erinnere mich an dich.", "es": "Me acuerdo de ti." } },
+    { "id": "v5", "target": "sich beeilen", "es": "darse prisa", "ipa": "/zɪç bəˈʔaɪ̯lən/", "esApprox": "«zich be-ÁI-len»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Wir müssen uns beeilen.", "es": "Tenemos que darnos prisa." } },
+    { "id": "v6", "target": "sich entspannen", "es": "relajarse", "ipa": "/zɪç ɛntˈʃpanən/", "esApprox": "«zich ent-SHPÁ-nen»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Am Wochenende entspanne ich mich.", "es": "El fin de semana me relajo." } },
+    { "id": "v7", "target": "sich ärgern", "es": "enfadarse", "ipa": "/zɪç ˈɛʁɡɐn/", "esApprox": "«zich ÉR-guern»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Er ärgert sich über den Verkehr.", "es": "Él se enfada por el tráfico." } },
+    { "id": "v8", "target": "sich verlieben", "es": "enamorarse", "ipa": "/zɪç fɛɐ̯ˈliːbn̩/", "esApprox": "«zich fer-LÍ-ben»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich habe mich in ihn verliebt.", "es": "Me he enamorado de él." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["reflexivos"], "difficulty": 1, "prompt": "¿Cuál es el pronombre reflexivo para «ich»?", "options": ["dich", "mich", "sich", "uns"], "answer": 1, "explain": "ich freue mich." },
+    { "id": "e2", "type": "mcq", "tags": ["reflexivos"], "difficulty": 2, "prompt": "¿Qué persona usa siempre «sich»?", "options": ["ich, du", "wir, ihr", "er/sie/es y sie/Sie", "solo Sie"], "answer": 2, "explain": "sich se usa para toda la tercera persona (singular y plural) y para Sie de cortesía." },
+    { "id": "e3", "type": "true_false", "tags": ["reflexivos"], "difficulty": 2, "statement": "El pronombre reflexivo en acusativo va justo después del verbo conjugado.", "answer": true, "explain": "Ich freue mich: freue (verbo) + mich (reflexivo), en posición 3." },
+    { "id": "e4", "type": "true_false", "tags": ["reflexivos"], "difficulty": 2, "statement": "«dich» y «euch» son iguales a los pronombres personales normales en acusativo.", "answer": true, "explain": "Salvo la tercera persona (sich), los reflexivos coinciden con los pronombres personales en acusativo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Une la persona con su pronombre reflexivo", "left": ["du", "wir", "ihr", "sie (plural)"], "right": ["dich", "uns", "euch", "sich"], "answer": [0, 1, 2, 3], "explain": "Pronombres reflexivos en acusativo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Me alegro por las vacaciones.", "accept": ["Ich freue mich auf die Ferien"], "hintWords": ["ich freue mich auf die Ferien"], "strictAccents": false, "audio": "Ich freue mich auf die Ferien.", "explain": "freue + mich + auf (preposición fija) + acusativo." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Tenemos que darnos prisa.", "accept": ["Wir müssen uns beeilen"], "hintWords": ["wir müssen uns beeilen"], "strictAccents": false, "audio": "Wir müssen uns beeilen.", "explain": "müssen + uns + beeilen (infinitivo al final, con el modal)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Me siento bien.", "accept": ["Ich fühle mich gut"], "hintWords": ["ich fühle mich gut"], "strictAccents": false, "audio": "Ich fühle mich gut.", "explain": "fühle + mich + gut." },
+    { "id": "e9", "type": "fill_blank", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Completa con el pronombre reflexivo correcto", "text": "Er interessiert ___ für Musik. Ich erinnere ___ an dich.", "blanks": [{ "accept": ["sich"] }, { "accept": ["mich"] }], "bank": ["sich", "mich", "dich"], "explain": "er → sich; ich → mich." },
+    { "id": "e10", "type": "word_order", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Ordena: «El fin de semana me relajo»", "tokens": ["entspanne ich mich", "Am Wochenende"], "answer": ["Am Wochenende", "entspanne ich mich"], "audio": "Am Wochenende entspanne ich mich.", "explain": "Am Wochenende (posición 1) + entspanne (posición 2) + ich + mich." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Er ärgert sich über den Verkehr.", "accept": ["Él se enfada por el tráfico."], "strictAccents": false, "audio": "Er ärgert sich über den Verkehr.", "explain": "sich ärgern über + acusativo = enfadarse por." },
+    { "id": "e12", "type": "dialogue", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie fühlst du dich heute?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich fühle mich gut."], "hint": "responde con sich fühlen" },
+      { "who": "Lea", "text": "Schön zu hören!", "speak": true }
+    ], "explain": "sich fühlen: pregunta y respuesta muy frecuentes." },
+    { "id": "e13", "type": "listening", "tags": ["reflexivos"], "difficulty": 1, "speak": "Ich freue mich auf die Ferien.", "mode": "write", "accept": ["Ich freue mich auf die Ferien"], "showTextAfter": true, "explain": "freue + mich + auf die Ferien." },
+    { "id": "e14", "type": "listening", "tags": ["reflexivos"], "difficulty": 2, "speak": "Ich habe mich in ihn verliebt.", "mode": "choose", "options": ["Ich habe mich in ihn verliebt.", "Ich habe mich in ihm verliebt.", "Ich habe sich in ihn verliebt."], "answer": 0, "showTextAfter": true, "explain": "mich (reflexivo, primera persona) + in ihn (acusativo, preposición fija)." },
+    { "id": "e15", "type": "shadowing", "tags": ["reflexivos"], "difficulty": 2, "speak": "Ich freue mich auf die Ferien, aber ich muss mich zuerst beeilen, weil ich noch viel zu tun habe.", "es": "Me alegro por las vacaciones, pero primero tengo que darme prisa, porque todavía tengo mucho que hacer.", "ipa": "/ɪç ˈfʁɔɪ̯ə mɪç aʊ̯f diː ˈfeːʁiən ˈaːbɐ ɪç mʊs mɪç ˈtsuːɐ̯st bəˈʔaɪ̯lən vaɪ̯l ɪç nɔx fiːl tsuː tuːn ˈhaːbə/", "esApprox": "«ich FRÓI-e mich auf di FÉ-rien, Á-ber ich mus mich TSU-erst be-ÁI-len, vail ich noj fil tsu tun JÁ-be»", "focus": "freue mich y muss mich beeilen: dos reflexivos con el pronombre en posición 3.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["reflexivos"], "difficulty": 2, "speak": "Er interessiert sich für Musik, und er ärgert sich manchmal, wenn er keine Zeit dafür hat.", "es": "Él se interesa por la música, y a veces se enfada cuando no tiene tiempo para ello.", "ipa": "/eːɐ̯ ɪntəʁɛˈsiːɐ̯t zɪç fyːɐ̯ muˈziːk ʊnt eːɐ̯ ˈɛʁɡɐt zɪç ˈmançmaːl vɛn eːɐ̯ ˈkaɪ̯nə tsaɪ̯t daˈfyːɐ̯ hat/", "esApprox": "«er in-te-re-SIRT zich fiur mu-ZIK, unt er ÉR-guert zich MANCH-mal, ven er KÁI-ne tsait da-FIUR jat»", "focus": "interessiert sich y ärgert sich: reflexivos con preposiciones fijas (für, über).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Alguien te pregunta cómo te sientes hoy. Di que te sientes bien.", "modelAnswer": "Ich fühle mich gut.", "alsoValid": ["Mir geht es gut."], "speak": "Ich fühle mich gut.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Clasifica el pronombre reflexivo correcto para cada sujeto", "buckets": ["mich/dich/uns/euch", "sich"], "items": [
+      { "text": "ich", "bucket": 0 },
+      { "text": "er", "bucket": 1 },
+      { "text": "wir", "bucket": 0 },
+      { "text": "Sie (cortesía)", "bucket": 1 }
+    ], "explain": "Solo la tercera persona (y Sie) usa sich; el resto coincide con el acusativo normal." },
+    { "id": "e19", "type": "error_correction", "tags": ["reflexivos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Er interessiert dich für Musik.", "accept": ["Er interessiert sich für Musik"], "audio": "Er interessiert sich für Musik.", "explain": "Con «er» el pronombre reflexivo es sich, no dich." },
+    { "id": "e20", "type": "mcq", "tags": ["reflexivos"], "difficulty": 2, "prompt": "«Ich freue mich auf die Ferien. Ich fühle mich schon jetzt entspannt, und ich erinnere mich gern an den letzten Urlaub.» ¿Cómo se siente la persona?", "options": ["Enfadada", "Ya relajada por las vacaciones", "Preocupada", "Cansada"], "answer": 1, "explain": "«Ich fühle mich schon jetzt entspannt» = ya me siento relajado." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "sich freuen", "es": "alegrarse", "esApprox": "«zich FRÓI-en»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "sich interessieren", "es": "interesarse", "esApprox": "«zich in-te-re-SÍ-ren»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "sich fühlen", "es": "sentirse", "esApprox": "«zich FÍU-len»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "sich erinnern", "es": "acordarse", "esApprox": "«zich er-Í-nern»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "sich beeilen", "es": "darse prisa", "esApprox": "«zich be-ÁI-len»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "sich ärgern", "es": "enfadarse", "esApprox": "«zich ÉR-guern»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich freue mich auf die Ferien, aber ich muss mich zuerst beeilen, weil ich noch viel zu tun habe.", "es": "Me alegro por las vacaciones, pero primero tengo que darme prisa, porque todavía tengo mucho que hacer.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Er interessiert sich für Musik, und er ärgert sich manchmal, wenn er keine Zeit dafür hat.", "es": "Él se interesa por la música, y a veces se enfada cuando no tiene tiempo para ello.", "from": "e16" }
+  ]
+}

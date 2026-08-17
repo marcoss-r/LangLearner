@@ -1,0 +1,378 @@
+{
+  "id": "de-a1-011",
+  "lang": "de",
+  "level": "A1",
+  "order": 11,
+  "title": "El presente de los verbos regulares",
+  "objectives": [
+    "Conjugar cualquier verbo regular en presente añadiendo las terminaciones -e, -st, -t, -en, -t, -en a la raíz",
+    "Reconocer que ich heiße, du kommst y wir wohnen (clase 6) ya seguían exactamente este patrón",
+    "Aplicar el patrón a verbos nuevos: lernen, spielen, machen, kaufen, arbeiten"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un solo patrón para casi todos los verbos alemanes",
+      "body": "En la clase 6 aprendiste ich heiße, du kommst, wir wohnen como fórmulas fijas. Ahora descubres que no eran fórmulas sueltas: todas seguían el mismo patrón, el de los verbos regulares (también llamados «débiles»). Para conjugarlos, quitas la terminación -en del infinitivo para quedarte con la raíz, y le añades una terminación distinta según la persona: -e, -st, -t, -en, -t, -en.",
+      "examples": [
+        { "target": "lernen → ich lerne", "es": "aprender → yo aprendo", "note": "raíz lern- + e" },
+        { "target": "lernen → du lernst", "es": "aprender → tú aprendes", "note": "raíz lern- + st" },
+        { "target": "lernen → wir lernen", "es": "aprender → nosotros aprendemos", "note": "raíz lern- + en, igual que el infinitivo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las seis terminaciones del presente regular",
+      "headers": ["Persona", "Terminación", "Ejemplo (lernen)"],
+      "rows": [
+        ["ich", "-e", "ich lerne"],
+        ["du", "-st", "du lernst"],
+        ["er / sie / es", "-t", "er lernt"],
+        ["wir", "-en", "wir lernen"],
+        ["ihr", "-t", "ihr lernt"],
+        ["sie / Sie", "-en", "sie lernen"]
+      ],
+      "note": "wir y sie/Sie usan la misma terminación que el infinitivo; er/sie/es e ihr comparten la terminación -t."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: si la raíz termina en -t o -d, se cuela una e extra",
+      "items": [
+        { "wrong": "du arbeitst, er arbeitt", "right": "du arbeitest, er arbeitet", "why": "La raíz de arbeiten (trabajar) es arbeit-, que ya termina en t. Para no juntar dos consonantes impronunciables (arbeitst, arbeitt), el alemán inserta una e extra: arbeitest, arbeitet." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para conjugar un verbo regular nuevo, solo necesitas dos cosas: el infinitivo (para saber la raíz) y esta tabla de seis terminaciones. Funciona con la inmensa mayoría de los verbos alemanes."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "lernen",
+      "es": "aprender",
+      "ipa": "/ˈlɛʁnən/",
+      "esApprox": "«LER-nen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich lerne Deutsch.", "es": "Aprendo alemán." }
+    },
+    {
+      "id": "v2",
+      "target": "spielen",
+      "es": "jugar",
+      "ipa": "/ˈʃpiːlən/",
+      "esApprox": "«SHPI-len»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Wir spielen.", "es": "Nosotros jugamos." }
+    },
+    {
+      "id": "v3",
+      "target": "machen",
+      "es": "hacer",
+      "ipa": "/ˈmaxən/",
+      "esApprox": "«MA-jen», con ach-Laut",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Was machst du?", "es": "¿Qué haces?" }
+    },
+    {
+      "id": "v4",
+      "target": "kaufen",
+      "es": "comprar",
+      "ipa": "/ˈkaʊ̯fən/",
+      "esApprox": "«KAU-fen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Sie kauft ein Buch.", "es": "Ella compra un libro." }
+    },
+    {
+      "id": "v5",
+      "target": "sagen",
+      "es": "decir",
+      "ipa": "/ˈzaːɡən/",
+      "esApprox": "«ZÁ-guen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Was sagst du?", "es": "¿Qué dices?" }
+    },
+    {
+      "id": "v6",
+      "target": "arbeiten",
+      "es": "trabajar",
+      "ipa": "/ˈaʁbaɪ̯tən/",
+      "esApprox": "«AR-bai-ten»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich arbeite.", "es": "Trabajo." }
+    },
+    {
+      "id": "v7",
+      "target": "suchen",
+      "es": "buscar",
+      "ipa": "/ˈzuːxən/",
+      "esApprox": "«ZÚ-jen», con ach-Laut",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Sie sucht die Straße.", "es": "Ella busca la calle." }
+    },
+    {
+      "id": "v8",
+      "target": "brauchen",
+      "es": "necesitar",
+      "ipa": "/ˈbʁaʊ̯xən/",
+      "esApprox": "«BRAU-jen», con ach-Laut",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich brauche Zeit.", "es": "Necesito tiempo." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["presente"],
+      "difficulty": 1,
+      "prompt": "¿Qué terminación lleva la forma de «du» en un verbo regular?",
+      "options": ["-e", "-st", "-t", "-en"],
+      "answer": 1,
+      "explain": "du lernst, du kommst, du wohnst: siempre -st."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["presente"],
+      "difficulty": 1,
+      "prompt": "¿Qué terminación comparten wir y sie/Sie?",
+      "options": ["-e", "-st", "-t", "-en"],
+      "answer": 3,
+      "explain": "wir lernen, sie lernen: ambos usan -en, igual que el infinitivo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["presente"],
+      "difficulty": 1,
+      "statement": "El verbo heißen que aprendiste en la clase 6 sigue este mismo patrón de terminaciones.",
+      "answer": true,
+      "explain": "ich heiße, du heißt, wir heißen: exactamente las mismas terminaciones -e, -st, -en."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "statement": "Arbeiten (trabajar) añade directamente -st a la raíz para «du», igual que lernen.",
+      "answer": false,
+      "explain": "Como la raíz arbeit- ya termina en t, se inserta una e extra: du arbeitest, no du arbeitst."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas NO sería correcta para «er» de un verbo regular?",
+      "options": ["lernt", "spielt", "macht", "lernen"],
+      "answer": 3,
+      "explain": "er lernt, no er lernen: -en es la terminación de wir y sie/Sie, no de er."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["presente"],
+      "difficulty": 1,
+      "prompt": "Une cada pronombre con su terminación en presente",
+      "left": ["ich", "du", "er", "wir"],
+      "right": ["-e", "-st", "-t", "-en"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Las cuatro terminaciones básicas del presente regular."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "prompt": "Yo aprendo alemán.",
+      "accept": ["Ich lerne Deutsch"],
+      "hintWords": ["ich lerne", "Deutsch"],
+      "strictAccents": false,
+      "audio": "Ich lerne Deutsch.",
+      "explain": "lernen + ich → lerne, quitando -en y añadiendo -e."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "prompt": "Tú juegas.",
+      "accept": ["Du spielst"],
+      "hintWords": ["du spielst"],
+      "strictAccents": false,
+      "audio": "Du spielst.",
+      "explain": "spielen + du → spielst, con la terminación -st."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de lernen",
+      "text": "Ich ___ Deutsch. Er ___ Deutsch.",
+      "blanks": [{ "accept": ["lerne"] }, { "accept": ["lernt"] }],
+      "bank": ["lerne", "lernt", "lernst"],
+      "explain": "ich → lerne (-e); er → lernt (-t)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Nosotros aprendemos alemán»",
+      "tokens": ["Deutsch", "Wir", "lernen"],
+      "answer": ["Wir", "lernen", "Deutsch"],
+      "audio": "Wir lernen Deutsch.",
+      "explain": "Wir + lernen (-en) + Deutsch."
+    },
+    {
+      "id": "e11",
+      "type": "conjugation",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "verb": "lernen",
+      "tense": "Präsens",
+      "prompt": "Conjuga «lernen» (aprender) en presente",
+      "rows": [
+        { "person": "ich", "accept": ["lerne"] },
+        { "person": "du", "accept": ["lernst"] },
+        { "person": "er / sie / es", "accept": ["lernt"] },
+        { "person": "wir", "accept": ["lernen"] },
+        { "person": "ihr", "accept": ["lernt"] },
+        { "person": "sie / Sie", "accept": ["lernen"] }
+      ],
+      "explain": "lernen es un verbo regular perfecto para practicar el patrón: raíz lern- + terminación."
+    },
+    {
+      "id": "e12",
+      "type": "translate_to_es",
+      "tags": ["presente"],
+      "difficulty": 1,
+      "prompt": "Sie arbeitet.",
+      "accept": ["Ella trabaja."],
+      "strictAccents": false,
+      "audio": "Sie arbeitet.",
+      "explain": "arbeitet, con la e extra por la raíz arbeit- terminada en t."
+    },
+    {
+      "id": "e13",
+      "type": "dialogue",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre aprender alemán",
+      "turns": [
+        { "who": "Anna", "text": "Lernst du Deutsch?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich lerne Deutsch."], "hint": "responde que sí, que aprendes alemán" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "Lernst du...? es la pregunta de sí o no formada con el verbo en segunda posición: lo verás formalmente en la clase 13."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["presente"],
+      "difficulty": 1,
+      "speak": "Ich lerne Deutsch.",
+      "mode": "write",
+      "accept": ["Ich lerne Deutsch"],
+      "showTextAfter": true,
+      "explain": "Ich lerne Deutsch = aprendo alemán."
+    },
+    {
+      "id": "e15",
+      "type": "listening",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "speak": "Wir spielen.",
+      "mode": "choose",
+      "options": ["Wir spielen.", "Ihr spielt.", "Sie spielen."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "spielen, spielt y spielen (sie) suenan parecido pero no igual: escucha la vocal final."
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "speak": "Ich arbeite und ich lerne.",
+      "es": "Trabajo y aprendo.",
+      "ipa": "/ɪç ˈaʁbaɪ̯tə ʊnt ɪç ˈlɛʁnə/",
+      "esApprox": "«ich AR-bai-te unt ich LER-ne»",
+      "focus": "La terminación -e final se pronuncia siempre, breve pero clara, nunca muda como en francés.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "shadowing",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "speak": "Sie sucht die Straße.",
+      "es": "Ella busca la calle.",
+      "ipa": "/ziː zuːxt diː ˈʃtʁaːsə/",
+      "esApprox": "«zi zujt di SHTRA-se»",
+      "focus": "sucht lleva el ach-Laut gutural de la u: no lo suavices demasiado.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "speak_prompt",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si trabajas. Responde que sí, que trabajas.",
+      "modelAnswer": "Ja, ich arbeite.",
+      "alsoValid": ["Ich arbeite."],
+      "speak": "Ja, ich arbeite.",
+      "selfAssess": true
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada forma verbal: ¿singular o plural?",
+      "buckets": ["Singular", "Plural"],
+      "items": [
+        { "text": "ich lerne", "bucket": 0 },
+        { "text": "du lernst", "bucket": 0 },
+        { "text": "er lernt", "bucket": 0 },
+        { "text": "wir lernen", "bucket": 1 },
+        { "text": "ihr lernt", "bucket": 1 },
+        { "text": "sie lernen", "bucket": 1 }
+      ],
+      "explain": "Fíjate en que «lernt» aparece en las dos columnas: la única forma de distinguirlas es el pronombre que la acompaña, er o ihr."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["presente"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Er lernen Deutsch.",
+      "accept": ["Er lernt Deutsch"],
+      "audio": "Er lernt Deutsch.",
+      "explain": "Er va con la terminación -t (lernt), no con -en, que es de wir y sie/Sie."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "lernen", "es": "aprender", "esApprox": "«LER-nen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "spielen", "es": "jugar", "esApprox": "«SHPI-len»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "machen", "es": "hacer", "esApprox": "«MA-jen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "kaufen", "es": "comprar", "esApprox": "«KAU-fen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "sagen", "es": "decir", "esApprox": "«ZÁ-guen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "arbeiten", "es": "trabajar", "esApprox": "«AR-bai-ten»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "suchen", "es": "buscar", "esApprox": "«ZÚ-jen»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "brauchen", "es": "necesitar", "esApprox": "«BRAU-jen»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich arbeite und ich lerne.", "es": "Trabajo y aprendo.", "from": "e16" },
+    { "id": "s10", "kind": "phrase", "target": "Sie sucht die Straße.", "es": "Ella busca la calle.", "from": "e17" }
+  ]
+}

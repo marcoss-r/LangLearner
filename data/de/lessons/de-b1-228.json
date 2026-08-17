@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-228",
+  "lang": "de",
+  "level": "B1",
+  "order": 228,
+  "title": "El arte y la literatura",
+  "objectives": [
+    "Aprender vocabulario sobre arte y literatura: das Kunstwerk, der Roman, der Schriftsteller",
+    "Hablar de la trama de un libro con die Handlung y dar tu opinión con die Kritik",
+    "Distinguir das Meisterwerk (obra maestra) de una obra cualquiera"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario del arte y la literatura",
+      "body": "Para hablar de arte necesitas «das Kunstwerk» (la obra de arte) y, si es excepcional, «das Meisterwerk» (la obra maestra). En literatura, «der Roman» (la novela) tiene «die Handlung» (la trama), escrita por «der Schriftsteller / die Schriftstellerin» (el/la escritor/a). «Die Kritik» (la crítica) es lo que se escribe para valorar una obra.",
+      "examples": [
+        { "target": "Dieser Roman hat eine spannende Handlung.", "es": "Esta novela tiene una trama emocionante." },
+        { "target": "Das Kunstwerk hängt im Museum.", "es": "La obra de arte está colgada en el museo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario clave del arte y la literatura",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["das Kunstwerk", "la obra de arte"],
+        ["der Roman", "la novela"],
+        ["die Handlung", "la trama"],
+        ["der Schriftsteller", "el escritor"],
+        ["die Kritik", "la crítica"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "die Interpretation (la interpretación) es una palabra clave al hablar de arte: distintas personas pueden tener «unterschiedliche Interpretationen» (interpretaciones diferentes) de la misma obra, y eso es parte de lo que hace interesante el arte."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "das Kunstwerk", "es": "la obra de arte", "ipa": "/ˈkʊnstvɛʁk/", "esApprox": "«KUNST-verk»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Kunstwerk hängt im Museum.", "es": "La obra de arte está colgada en el museo." } },
+    { "id": "v2", "target": "der Roman", "es": "la novela", "ipa": "/ʁoˈmaːn/", "esApprox": "«ro-MAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Dieser Roman hat eine spannende Handlung.", "es": "Esta novela tiene una trama emocionante." } },
+    { "id": "v3", "target": "die Handlung", "es": "la trama", "ipa": "/ˈhandlʊŋ/", "esApprox": "«JÁND-lung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Handlung ist sehr komplex.", "es": "La trama es muy compleja." } },
+    { "id": "v4", "target": "der Schriftsteller", "es": "el escritor", "ipa": "/ˈʃʁɪftʃtɛlɐ/", "esApprox": "«SHRIFT-shte-ler»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Schriftsteller lebt in Berlin.", "es": "El escritor vive en Berlín." } },
+    { "id": "v5", "target": "die Kritik", "es": "la crítica", "ipa": "/kʁiˈtiːk/", "esApprox": "«kri-TIK»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Kritik war sehr positiv.", "es": "La crítica fue muy positiva." } },
+    { "id": "v6", "target": "das Meisterwerk", "es": "la obra maestra", "ipa": "/ˈmaɪ̯stɐvɛʁk/", "esApprox": "«MÁIS-ter-verk»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das gilt als sein Meisterwerk.", "es": "Eso se considera su obra maestra." } },
+    { "id": "v7", "target": "die Interpretation", "es": "la interpretación", "ipa": "/ɪntɛʁpʁetaˈtsi̯oːn/", "esApprox": "«in-ter-pre-ta-TSIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Es gibt viele Interpretationen.", "es": "Hay muchas interpretaciones." } },
+    { "id": "v8", "target": "die Ausstellung", "es": "la exposición", "ipa": "/ˈaʊ̯sʃtɛlʊŋ/", "esApprox": "«ÁUS-shte-lung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Ausstellung ist noch bis Sonntag.", "es": "La exposición dura hasta el domingo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["arte", "literatura"], "difficulty": 1, "prompt": "¿Cómo se dice «la trama»?", "options": ["das Kunstwerk", "die Handlung", "die Kritik", "der Roman"], "answer": 1, "explain": "die Handlung = la trama." },
+    { "id": "e2", "type": "mcq", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "¿Cómo se dice «la obra maestra»?", "options": ["das Kunstwerk", "der Roman", "das Meisterwerk", "die Ausstellung"], "answer": 2, "explain": "das Meisterwerk = la obra maestra (frente a das Kunstwerk, una obra de arte en general)." },
+    { "id": "e3", "type": "true_false", "tags": ["arte", "literatura"], "difficulty": 2, "statement": "der Schriftsteller es quien escribe libros.", "answer": true, "explain": "der Schriftsteller = el escritor." },
+    { "id": "e4", "type": "true_false", "tags": ["arte", "literatura"], "difficulty": 2, "statement": "die Kritik siempre es negativa.", "answer": false, "explain": "die Kritik puede ser positiva o negativa; es simplemente la valoración de una obra." },
+    { "id": "e5", "type": "match_pairs", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["das Kunstwerk", "der Roman", "der Schriftsteller", "die Interpretation"], "right": ["la obra de arte", "la novela", "el escritor", "la interpretación"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "Esta novela tiene una trama emocionante.", "accept": ["Dieser Roman hat eine spannende Handlung"], "hintWords": ["dieser Roman hat eine spannende Handlung"], "strictAccents": false, "audio": "Dieser Roman hat eine spannende Handlung.", "explain": "Dieser Roman (sujeto) + hat (posición 2) + eine spannende Handlung." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "La obra de arte está colgada en el museo.", "accept": ["Das Kunstwerk hängt im Museum"], "hintWords": ["das Kunstwerk hängt im Museum"], "strictAccents": false, "audio": "Das Kunstwerk hängt im Museum.", "explain": "Das Kunstwerk (sujeto) + hängt (posición 2) + im Museum." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "La crítica fue muy positiva.", "accept": ["Die Kritik war sehr positiv"], "hintWords": ["die Kritik war sehr positiv"], "strictAccents": false, "audio": "Die Kritik war sehr positiv.", "explain": "Die Kritik (sujeto) + war (posición 2) + sehr positiv." },
+    { "id": "e9", "type": "fill_blank", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Das gilt als sein ___. Es gibt viele ___.", "blanks": [{ "accept": ["Meisterwerk"] }, { "accept": ["Interpretationen"] }], "bank": ["Meisterwerk", "Interpretationen", "Kritiken"], "explain": "das Meisterwerk y die Interpretationen." },
+    { "id": "e10", "type": "word_order", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "Ordena: «La exposición dura hasta el domingo»", "tokens": ["ist noch bis Sonntag", "Die Ausstellung"], "answer": ["Die Ausstellung", "ist noch bis Sonntag"], "audio": "Die Ausstellung ist noch bis Sonntag.", "explain": "Die Ausstellung (sujeto) + ist (posición 2) + noch bis Sonntag." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "Der Schriftsteller lebt in Berlin.", "accept": ["El escritor vive en Berlín."], "strictAccents": false, "audio": "Der Schriftsteller lebt in Berlin.", "explain": "der Schriftsteller = el escritor." },
+    { "id": "e12", "type": "dialogue", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie findest du diesen Roman?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich finde die Handlung sehr spannend."], "hint": "opina sobre la trama" },
+      { "who": "Lea", "text": "Ich auch, ich kann nicht aufhören zu lesen!", "speak": true }
+    ], "explain": "die Handlung: conversación típica sobre un libro." },
+    { "id": "e13", "type": "listening", "tags": ["arte", "literatura"], "difficulty": 1, "speak": "Dieser Roman hat eine spannende Handlung.", "mode": "write", "accept": ["Dieser Roman hat eine spannende Handlung"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["arte", "literatura"], "difficulty": 2, "speak": "Das Kunstwerk hängt im Museum.", "mode": "choose", "options": ["Das Kunstwerk hängt im Museum.", "Der Roman hängt im Museum.", "Die Kritik hängt im Museum."], "answer": 0, "showTextAfter": true, "explain": "das Kunstwerk es lo que se cuelga en un museo, no der Roman ni die Kritik." },
+    { "id": "e15", "type": "shadowing", "tags": ["arte", "literatura"], "difficulty": 2, "speak": "Dieser Roman hat eine spannende Handlung, und die Kritik war sehr positiv.", "es": "Esta novela tiene una trama emocionante, y la crítica fue muy positiva.", "ipa": "/ˈdiːzɐ ʁoˈmaːn hat ˈaɪ̯nə ˈʃpanəndə ˈhandlʊŋ ʊnt diː kʁiˈtiːk vaːɐ̯ zeːɐ̯ poziˈtiːf/", "esApprox": "«DÍ-zer ro-MAN jat ÁI-ne SHPÁ-nen-de JÁND-lung, unt di kri-TIK var zer po-zi-TIF»", "focus": "Handlung y Kritik: dos elementos clave para valorar una novela.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["arte", "literatura"], "difficulty": 2, "speak": "Das Kunstwerk gilt als sein Meisterwerk, aber es gibt viele unterschiedliche Interpretationen davon.", "es": "La obra de arte se considera su obra maestra, pero hay muchas interpretaciones diferentes de ella.", "ipa": "/das ˈkʊnstvɛʁk ɡɪlt als zaɪ̯n ˈmaɪ̯stɐvɛʁk ˈaːbɐ ɛs ɡɪpt ˈfiːlə ʊntɐˈʃiːtlɪçə ɪntɛʁpʁetaˈtsi̯oːnən daˈfɔn/", "esApprox": "«das KUNST-verk guilt als zain MÁIS-ter-verk, Á-ber es guipt FÍ-le un-ter-SHIT-li-che in-ter-pre-ta-TSIÓ-nen da-FON»", "focus": "Meisterwerk e Interpretationen: la ambigüedad interpretativa de una gran obra de arte.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "Te preguntan qué opinas de un libro. Di que su trama es muy interesante.", "modelAnswer": "Ich finde die Handlung sehr spannend.", "alsoValid": ["Die Handlung des Romans ist sehr spannend."], "speak": "Ich finde die Handlung sehr spannend.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "Clasifica cada palabra según su ámbito", "buckets": ["Arte visual", "Literatura"], "items": [
+      { "text": "das Kunstwerk", "bucket": 0 },
+      { "text": "die Ausstellung", "bucket": 0 },
+      { "text": "der Roman", "bucket": 1 },
+      { "text": "der Schriftsteller", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario de arte y literatura de esta clase." },
+    { "id": "e19", "type": "error_correction", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Die Ausstellung hat eine spannende Handlung.", "accept": ["Der Roman hat eine spannende Handlung"], "audio": "Der Roman hat eine spannende Handlung.", "explain": "die Handlung (la trama) se usa con obras narrativas como der Roman, no con die Ausstellung (una exposición de arte)." },
+    { "id": "e20", "type": "mcq", "tags": ["arte", "literatura"], "difficulty": 2, "prompt": "«Das Kunstwerk gilt als sein Meisterwerk, aber es gibt viele unterschiedliche Interpretationen davon. Die Kritik war trotzdem sehr positiv.» ¿Cómo fue recibida la obra a pesar de las distintas interpretaciones?", "options": ["Con críticas muy negativas", "Con una crítica muy positiva", "Con indiferencia total", "No se menciona"], "answer": 1, "explain": "«Die Kritik war trotzdem sehr positiv» indica una recepción muy positiva a pesar de las interpretaciones distintas." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Kunstwerk", "es": "la obra de arte", "esApprox": "«KUNST-verk»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Roman", "es": "la novela", "esApprox": "«ro-MAN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Handlung", "es": "la trama", "esApprox": "«JÁND-lung»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Schriftsteller", "es": "el escritor", "esApprox": "«SHRIFT-shte-ler»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Kritik", "es": "la crítica", "esApprox": "«kri-TIK»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "das Meisterwerk", "es": "la obra maestra", "esApprox": "«MÁIS-ter-verk»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Dieser Roman hat eine spannende Handlung, und die Kritik war sehr positiv.", "es": "Esta novela tiene una trama emocionante, y la crítica fue muy positiva.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Das Kunstwerk gilt als sein Meisterwerk, aber es gibt viele unterschiedliche Interpretationen davon.", "es": "La obra de arte se considera su obra maestra, pero hay muchas interpretaciones diferentes de ella.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "fr-a2-167",
+  "lang": "fr",
+  "level": "A2",
+  "order": 167,
+  "title": "Pronunciación general IX: los pares mínimos u/ou y é/è",
+  "objectives": [
+    "Distinguir el sonido u francés (/y/, sin equivalente en español) del sonido ou (/u/, como la u española)",
+    "Distinguir é cerrada (/e/) de è abierta (/ɛ/), dos sonidos distintos aunque parezcan la misma vocal",
+    "Practicar pares mínimos donde un solo sonido cambia el significado de la palabra"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un solo sonido, un significado distinto",
+      "body": "Un par mínimo es un par de palabras que solo se diferencian en un sonido, pero significan cosas distintas. En francés, u/ou y é/è son las trampas más comunes para hispanohablantes, porque en español no existen o no se distinguen igual.",
+      "examples": [
+        { "target": "tu / tout", "es": "tú / todo", "note": "u francesa /y/ (labios redondeados, lengua adelante) frente a ou /u/ (como la u española)" },
+        { "target": "des / dès", "es": "unos/as / desde", "note": "é cerrada /e/ frente a è abierta /ɛ/" }
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "Cómo distinguirlos",
+      "body": "Para la u francesa (/y/), pon la boca como para decir «u» española, pero con la lengua en posición de «i»: el sonido resultante no existe en español. Ou (/u/) es simplemente la u española normal. Para é/è: é es más cerrada y tensa (como en «bebé»), è es más abierta, como una e relajada.",
+      "drills": [
+        { "target": "tu", "ipa": "/ty/", "esApprox": "«TÜ», boca de u, lengua de i", "hint": "sonido nuevo, no existe en español" },
+        { "target": "tout", "ipa": "/tu/", "esApprox": "«TU», como la u española normal", "hint": "u normal, como en español" },
+        { "target": "des", "ipa": "/de/", "esApprox": "«DE», cerrada y tensa", "hint": "é cerrada, como en bebé" },
+        { "target": "dès", "ipa": "/dɛ/", "esApprox": "«DE», más abierta y relajada", "hint": "è abierta, un poco como la e de perro" }
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Practica en parejas",
+      "body": "La mejor forma de entrenar el oído es escuchar los dos sonidos de un par mínimo, uno detrás del otro: tu/tout, dessus/dessous, des/dès. Al principio parecerán casi iguales; con práctica, la diferencia se vuelve clara."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "tu", "es": "tú", "ipa": "/ty/", "esApprox": "«TÜ»", "pos": "pronombre", "gender": null, "example": { "target": "Tu es prêt ?", "es": "¿Estás listo?" } },
+    { "id": "v2", "target": "tout", "es": "todo", "ipa": "/tu/", "esApprox": "«TU»", "pos": "pronombre", "gender": null, "example": { "target": "J'ai tout compris.", "es": "Lo he entendido todo." } },
+    { "id": "v3", "target": "des", "es": "unos/as (artículo)", "ipa": "/de/", "esApprox": "«DE»", "pos": "artículo", "gender": null, "example": { "target": "J'ai des amis à Paris.", "es": "Tengo amigos en París." } },
+    { "id": "v4", "target": "dès", "es": "desde, a partir de", "ipa": "/dɛ/", "esApprox": "«DE» abierta", "pos": "preposición", "gender": null, "example": { "target": "Dès demain, je commence.", "es": "A partir de mañana, empiezo." } },
+    { "id": "v5", "target": "rue", "es": "calle", "ipa": "/ʁy/", "esApprox": "«RÜ»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'habite dans cette rue.", "es": "Vivo en esta calle." } },
+    { "id": "v6", "target": "roue", "es": "rueda", "ipa": "/ʁu/", "esApprox": "«RU»", "pos": "sustantivo", "gender": "f", "example": { "target": "La roue de la voiture est cassée.", "es": "La rueda del coche está rota." } },
+    { "id": "v7", "target": "les", "es": "los/las (artículo)", "ipa": "/le/", "esApprox": "«LE»", "pos": "artículo", "gender": null, "example": { "target": "J'aime les livres.", "es": "Me gustan los libros." } },
+    { "id": "v8", "target": "lait", "es": "leche", "ipa": "/lɛ/", "esApprox": "«LE» abierta", "pos": "sustantivo", "gender": "m", "example": { "target": "Je bois du lait.", "es": "Bebo leche." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "pares-minimos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la diferencia entre tu y tout?",
+      "options": ["Ninguna, se pronuncian igual", "Tu es /y/ (sonido nuevo), tout es /u/ (como la u española)", "Tu es /u/, tout es /y/", "Solo cambia el acento"],
+      "answer": 1,
+      "explain": "Tu tiene el sonido u francés /y/, que no existe en español; tout tiene /u/, como la u española normal."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "pares-minimos"],
+      "difficulty": 2,
+      "prompt": "¿Qué diferencia hay entre des y dès?",
+      "options": ["Ninguna diferencia de sonido", "Des es é cerrada, dès es è abierta", "Des es è abierta, dès es é cerrada", "Solo cambia el significado, no el sonido"],
+      "answer": 1,
+      "explain": "Des tiene é cerrada /e/; dès tiene è abierta /ɛ/."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "pares-minimos"],
+      "difficulty": 2,
+      "statement": "El sonido u francés (/y/) no existe en español.",
+      "answer": true,
+      "explain": "Es un sonido nuevo para hispanohablantes: boca de u, lengua de i."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "pares-minimos"],
+      "difficulty": 2,
+      "statement": "Un par mínimo es un par de palabras que se diferencian en varios sonidos.",
+      "answer": false,
+      "explain": "Un par mínimo se diferencia en un solo sonido, no en varios."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronunciacion-general", "pares-minimos"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su sonido",
+      "left": ["tu", "tout", "des", "dès"],
+      "right": ["è abierta", "u francesa /y/", "é cerrada", "u española /u/"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Tu = /y/, tout = /u/, des = /e/, dès = /ɛ/."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "¿Estás listo? Lo he entendido todo.",
+      "accept": ["Tu es prêt ? J'ai tout compris"],
+      "hintWords": ["tu es prêt", "j'ai tout compris"],
+      "strictAccents": false,
+      "audio": "Tu es prêt ? J'ai tout compris.",
+      "explain": "Tu (/y/) frente a tout (/u/), par mínimo clásico."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Tengo amigos en París. A partir de mañana, empiezo.",
+      "accept": ["J'ai des amis à Paris. Dès demain, je commence"],
+      "hintWords": ["j'ai des amis à paris", "dès demain, je commence"],
+      "strictAccents": false,
+      "audio": "J'ai des amis à Paris. Dès demain, je commence.",
+      "explain": "Des (/e/) frente a dès (/ɛ/), otro par mínimo."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "J'habite dans cette ___, et la ___ de ma voiture est cassée.",
+      "blanks": [{ "accept": ["rue"] }, { "accept": ["roue"] }],
+      "bank": ["rue", "roue", "tout"],
+      "explain": "Rue (/y/, calle) frente a roue (/u/, rueda)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Bebo leche»",
+      "tokens": ["du lait", "Je bois"],
+      "answer": ["Je bois", "du lait"],
+      "audio": "Je bois du lait.",
+      "explain": "Lait, con è abierta."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "J'aime les livres, et je bois du lait tous les matins.",
+      "accept": ["Me gustan los libros, y bebo leche todas las mañanas."],
+      "strictAccents": false,
+      "audio": "J'aime les livres, et je bois du lait tous les matins.",
+      "explain": "Les (/e/) frente a lait (/ɛ/), un par mínimo más."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Léa", "text": "Tu es prêt à partir ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai tout préparé.", "Presque, dès que je finis ça."], "hint": "usa tout o dès que" },
+        { "who": "Léa", "text": "Parfait, on y va !", "speak": true }
+      ],
+      "explain": "Tu es prêt...? se responde usando tout o dès."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "speak": "Tu habites dans cette rue, et tout le monde a des amis ici.",
+      "mode": "write",
+      "accept": ["Tu habites dans cette rue, et tout le monde a des amis ici"],
+      "showTextAfter": true,
+      "explain": "Tu, rue, tout y des, cuatro sonidos distintos en una frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "pares-minimos"],
+      "difficulty": 2,
+      "speak": "tu",
+      "mode": "choose",
+      "options": ["tu", "tout", "toux", "tôt"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Tu tiene el sonido u francés /y/, distinto de los demás."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general", "pares-minimos"],
+      "difficulty": 3,
+      "speak": "Tu es prêt ? J'ai tout compris, dès demain j'habite dans cette rue avec des amis.",
+      "es": "¿Estás listo? Lo he entendido todo, a partir de mañana vivo en esta calle con amigos.",
+      "ipa": "/ty ɛ pʁɛ ʒe tu kɔ̃.pʁi dɛ də.mɛ̃ ʒa.bit dɑ̃ sɛt ʁy a.vɛk de.z‿a.mi/",
+      "esApprox": "«tü e PRE ye tu kon-PRÍ de de-MEN sha-BIT dan set RÜ a-VEK de-za-MÍ»",
+      "focus": "Los cuatro sonidos en contraste, dentro de una sola frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Di una frase con tu y tout, prestando atención a la diferencia de sonido.",
+      "modelAnswer": "Tu es prêt ? J'ai tout compris.",
+      "alsoValid": ["J'ai des amis dans cette rue."],
+      "speak": "Tu es prêt ? J'ai tout compris.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronunciacion-general", "pares-minimos"],
+      "difficulty": 2,
+      "prompt": "¿Es u francesa /y/ o u española /u/?",
+      "buckets": ["u francesa /y/", "u española /u/"],
+      "items": [
+        { "text": "tu", "bucket": 0 },
+        { "text": "tout", "bucket": 1 },
+        { "text": "rue", "bucket": 0 },
+        { "text": "roue", "bucket": 1 }
+      ],
+      "explain": "Tu y rue tienen /y/; tout y roue tienen /u/."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "Je bois des tous les matins.",
+      "accept": ["Je bois du lait tous les matins"],
+      "audio": "Je bois du lait tous les matins.",
+      "explain": "Se bebe du lait (leche), no des (artículo indefinido plural, que no tiene sentido aquí)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "tu", "es": "tú", "esApprox": "«TÜ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "tout", "es": "todo", "esApprox": "«TU»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "des", "es": "unos/as (artículo)", "esApprox": "«DE»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "dès", "es": "desde, a partir de", "esApprox": "«DE» abierta", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "rue", "es": "calle", "esApprox": "«RÜ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "roue", "es": "rueda", "esApprox": "«RU»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Tu es prêt ? J'ai tout compris.", "es": "¿Estás listo? Lo he entendido todo.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai des amis à Paris. Dès demain, je commence.", "es": "Tengo amigos en París. A partir de mañana, empiezo.", "from": "e7" }
+  ]
+}

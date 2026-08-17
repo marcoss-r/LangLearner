@@ -1,0 +1,370 @@
+{
+  "id": "de-a1-065",
+  "lang": "de",
+  "level": "A1",
+  "order": 65,
+  "title": "El Perfekt I: haben + participio de los verbos regulares",
+  "objectives": [
+    "Formar el Perfekt de verbos regulares: haben (conjugado) + participio (ge-...-t) al final de la frase",
+    "Reconocer que el Perfekt es el tiempo de pasado más usado en el alemán hablado, no un tiempo «formal»",
+    "Aplicar el mismo marco verbal que ya conoces de los modales: verbo conjugado en posición 2, el resto al final"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El pasado hablado del alemán: haben + participio",
+      "body": "A diferencia del español, donde el pretérito perfecto («he hablado») y el indefinido («hablé») compiten, en el alemán hablado casi todo el pasado se dice con el Perfekt: haben (o sein, que verás en la clase 67) conjugado, más un participio al final de la frase. Para los verbos regulares, el participio se forma con ge- delante de la raíz y -t al final: machen → gemacht.",
+      "examples": [
+        { "target": "Ich habe Deutsch gelernt.", "es": "He aprendido alemán. / Aprendí alemán.", "note": "habe (posición 2) + gelernt (final)" },
+        { "target": "Du hast einen Apfel gekauft.", "es": "Compraste una manzana.", "note": "hast + gekauft" },
+        { "target": "Wir haben gearbeitet.", "es": "Trabajamos.", "note": "gearbeitet lleva la e extra, como en presente" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Participios de verbos regulares",
+      "headers": ["Infinitivo", "Participio (Partizip II)"],
+      "rows": [
+        ["machen", "gemacht"],
+        ["lernen", "gelernt"],
+        ["kaufen", "gekauft"],
+        ["spielen", "gespielt"],
+        ["arbeiten", "gearbeitet"],
+        ["hören", "gehört"],
+        ["kochen", "gekocht"],
+        ["tanzen", "getanzt"]
+      ],
+      "note": "arbeiten añade una e extra (gearbeitet), igual que en presente, porque su raíz termina en t."
+    },
+    {
+      "type": "tip",
+      "body": "El Perfekt no es un tiempo «culto» ni especial: es el pasado normal del alemán hablado, el que usarías para contar qué hiciste ayer. El Präteritum (que verás con sein, haben y los modales en la clase 69) se reserva casi siempre para la escritura."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "machen",
+      "es": "hacer",
+      "ipa": "/ˈmaxən/",
+      "esApprox": "«MA-jen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe die Hausaufgaben gemacht.", "es": "Hice los deberes." }
+    },
+    {
+      "id": "v2",
+      "target": "lernen",
+      "es": "aprender",
+      "ipa": "/ˈlɛʁnən/",
+      "esApprox": "«LER-nen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe Deutsch gelernt.", "es": "Aprendí alemán." }
+    },
+    {
+      "id": "v3",
+      "target": "kaufen",
+      "es": "comprar",
+      "ipa": "/ˈkaʊ̯fən/",
+      "esApprox": "«KAU-fen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Du hast einen Apfel gekauft.", "es": "Compraste una manzana." }
+    },
+    {
+      "id": "v4",
+      "target": "spielen",
+      "es": "jugar",
+      "ipa": "/ˈʃpiːlən/",
+      "esApprox": "«SHPI-len»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Wir haben gespielt.", "es": "Jugamos." }
+    },
+    {
+      "id": "v5",
+      "target": "arbeiten",
+      "es": "trabajar",
+      "ipa": "/ˈaʁbaɪ̯tən/",
+      "esApprox": "«AR-bai-ten»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Wir haben gearbeitet.", "es": "Trabajamos." }
+    },
+    {
+      "id": "v6",
+      "target": "hören",
+      "es": "escuchar, oír",
+      "ipa": "/ˈhøːʁən/",
+      "esApprox": "«JÖ-ren»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe Musik gehört.", "es": "Escuché música." }
+    },
+    {
+      "id": "v7",
+      "target": "kochen",
+      "es": "cocinar",
+      "ipa": "/ˈkɔxən/",
+      "esApprox": "«KO-chen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Sie hat Reis gekocht.", "es": "Ella cocinó arroz." }
+    },
+    {
+      "id": "v8",
+      "target": "tanzen",
+      "es": "bailar",
+      "ipa": "/ˈtantsən/",
+      "esApprox": "«TAN-tsen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Sie haben getanzt.", "es": "Ellos bailaron." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el participio de «machen»?",
+      "options": ["machen", "gemacht", "machte", "gemachen"],
+      "answer": 1,
+      "explain": "machen → gemacht: ge- + raíz + -t."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "¿Dónde va el participio en el Perfekt?",
+      "options": ["Justo después de haben", "Al final de la frase", "Al principio", "No se usa participio"],
+      "answer": 1,
+      "explain": "El participio va siempre al final, igual que el infinitivo con los modales."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["perfekt"],
+      "difficulty": 1,
+      "statement": "El Perfekt es el pasado normal del alemán hablado.",
+      "answer": true,
+      "explain": "El Perfekt se usa constantemente al hablar; el Präteritum es más de la escritura."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "statement": "El participio de arbeiten es gearbeit, sin ninguna e extra.",
+      "answer": false,
+      "explain": "El participio correcto es gearbeitet, con la e extra, igual que en presente."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos NO es un participio correcto?",
+      "options": ["gemacht", "gelernt", "gekauft", "spielt"],
+      "answer": 3,
+      "explain": "El participio de spielen es gespielt, no spielt."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Une cada infinitivo con su participio",
+      "left": ["machen", "lernen", "kaufen", "hören"],
+      "right": ["gelernt", "gemacht", "gehört", "gekauft"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro participios de verbos regulares."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Aprendí alemán.",
+      "accept": ["Ich habe Deutsch gelernt"],
+      "hintWords": ["ich habe Deutsch gelernt"],
+      "strictAccents": false,
+      "audio": "Ich habe Deutsch gelernt.",
+      "explain": "habe (posición 2) + gelernt (participio, final)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Compraste una manzana.",
+      "accept": ["Du hast einen Apfel gekauft"],
+      "hintWords": ["du hast einen Apfel gekauft"],
+      "strictAccents": false,
+      "audio": "Du hast einen Apfel gekauft.",
+      "explain": "hast + einen Apfel + gekauft (participio, final)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Completa con el participio correcto",
+      "text": "Ich habe Musik ___. Wir haben viel ___.",
+      "blanks": [{ "accept": ["gehört"] }, { "accept": ["gearbeitet"] }],
+      "bank": ["gehört", "gearbeitet", "gemacht"],
+      "explain": "gehört (hören); gearbeitet (arbeiten, con e extra)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Ella cocinó arroz»",
+      "tokens": ["gekocht", "Sie", "Reis", "hat"],
+      "answer": ["Sie", "hat", "Reis", "gekocht"],
+      "audio": "Sie hat Reis gekocht.",
+      "explain": "Sie hat + Reis + gekocht (participio, final)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["perfekt"],
+      "difficulty": 1,
+      "prompt": "Sie haben getanzt.",
+      "accept": ["Ellos bailaron.", "Ellas bailaron."],
+      "strictAccents": false,
+      "audio": "Sie haben getanzt.",
+      "explain": "getanzt: participio de tanzen."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du die Hausaufgaben gemacht?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich habe die Hausaufgaben gemacht."], "hint": "responde que sí, que hiciste los deberes" },
+        { "who": "Anna", "text": "Super!", "speak": true }
+      ],
+      "explain": "hast...gemacht: pregunta en Perfekt, con el participio al final."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["perfekt"],
+      "difficulty": 1,
+      "speak": "Ich habe Deutsch gelernt.",
+      "mode": "write",
+      "accept": ["Ich habe Deutsch gelernt"],
+      "showTextAfter": true,
+      "explain": "Ich habe Deutsch gelernt = aprendí alemán."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "speak": "Wir haben gearbeitet.",
+      "mode": "choose",
+      "options": ["Wir haben gearbeitet.", "Wir haben gespielt.", "Wir haben gekocht."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "gearbeitet, gespielt y gekocht suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "speak": "Ich habe Deutsch gelernt, und ich habe Musik gehört.",
+      "es": "Aprendí alemán, y escuché música.",
+      "ipa": "/ɪç ˈhaːbə dɔɪ̯tʃ ɡəˈlɛʁnt ʊnt ɪç ˈhaːbə muˈziːk ɡəˈhøːɐ̯t/",
+      "esApprox": "«ich HÁ-be doich gue-LERNT unt ich HÁ-be mu-ZIK gue-JÖRT»",
+      "focus": "gelernt y gehört empiezan igual, con ge-, pero terminan de forma distinta.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "speak": "Wir haben gearbeitet, und sie haben getanzt.",
+      "es": "Trabajamos, y ellos bailaron.",
+      "ipa": "/viːɐ̯ ˈhaːbən ɡəˈaʁbaɪ̯tət ʊnt ziː ˈhaːbən ɡəˈtantst/",
+      "esApprox": "«vir HÁ-ben gue-AR-bai-tet unt zi HÁ-ben gue-TANTST»",
+      "focus": "gearbeitet es un participio largo: practica sus cuatro sílabas con calma.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si hiciste los deberes. Responde que sí, que los hiciste.",
+      "modelAnswer": "Ja, ich habe die Hausaufgaben gemacht.",
+      "alsoValid": ["Ich habe sie gemacht."],
+      "speak": "Ja, ich habe die Hausaufgaben gemacht.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "conjugation",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "verb": "lernen (Perfekt)",
+      "tense": "Perfekt",
+      "prompt": "Completa el Perfekt de «lernen» (aprender) con haben",
+      "rows": [
+        { "person": "ich", "accept": ["habe gelernt"] },
+        { "person": "du", "accept": ["hast gelernt"] },
+        { "person": "er / sie / es", "accept": ["hat gelernt"] },
+        { "person": "wir", "accept": ["haben gelernt"] },
+        { "person": "ihr", "accept": ["habt gelernt"] },
+        { "person": "sie / Sie", "accept": ["haben gelernt"] }
+      ],
+      "explain": "El participio gelernt no cambia nunca; solo cambia haben, según la persona."
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra: ¿es un participio correcto o no?",
+      "buckets": ["Participio correcto", "Participio incorrecto"],
+      "items": [
+        { "text": "gemacht", "bucket": 0 },
+        { "text": "gelernt", "bucket": 0 },
+        { "text": "spielt", "bucket": 1 },
+        { "text": "kaufen", "bucket": 1 },
+        { "text": "gekocht", "bucket": 0 }
+      ],
+      "explain": "El participio siempre lleva ge- al principio y -t al final, en los verbos regulares."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich habe Deutsch lernt.",
+      "accept": ["Ich habe Deutsch gelernt"],
+      "audio": "Ich habe Deutsch gelernt.",
+      "explain": "Falta el prefijo ge- del participio: gelernt, no lernt."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "gemacht", "es": "hecho (participio de machen)", "esApprox": "«gue-MAJT»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "gelernt", "es": "aprendido (participio de lernen)", "esApprox": "«gue-LERNT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "gekauft", "es": "comprado (participio de kaufen)", "esApprox": "«gue-KAUFT»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "gespielt", "es": "jugado (participio de spielen)", "esApprox": "«gue-SHPILT»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "gearbeitet", "es": "trabajado (participio de arbeiten)", "esApprox": "«gue-AR-bai-tet»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "gehört", "es": "escuchado (participio de hören)", "esApprox": "«gue-JÖRT»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe Deutsch gelernt, und ich habe Musik gehört.", "es": "Aprendí alemán, y escuché música.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wir haben gearbeitet, und sie haben getanzt.", "es": "Trabajamos, y ellos bailaron.", "from": "e16" }
+  ]
+}

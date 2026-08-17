@@ -1,0 +1,78 @@
+{
+  "id": "de-a2-148",
+  "lang": "de",
+  "level": "A2",
+  "order": 148,
+  "title": "Las fiestas alemanas: qué se celebra y cómo",
+  "objectives": [
+    "Conocer las fiestas alemanas más importantes: Weihnachten, Ostern, Karneval, Oktoberfest",
+    "Ampliar vocabulario relacionado con estas celebraciones",
+    "Comparar estas tradiciones con las de tu propio país"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Weihnachten: la fiesta más importante del año",
+      "body": "Weihnachten (Navidad) es la fiesta más importante en Alemania. Se celebra especialmente en la noche del 24 de diciembre (Heiligabend), cuando las familias se reúnen, cenan e intercambian regalos. Antes, durante todo diciembre, son típicos los Weihnachtsmärkte (mercados navideños), con Glühwein (vino caliente especiado) y puestos de artesanía."
+    },
+    {
+      "type": "explanation",
+      "title": "Ostern, Karneval y Oktoberfest",
+      "body": "Ostern (Semana Santa/Pascua) incluye la tradición de pintar y esconder huevos (Ostereier) para que los niños los busquen. Karneval (o Fasching, según la región) se celebra sobre todo en el oeste y sur de Alemania con disfraces y desfiles, especialmente en Colonia. El Oktoberfest de Múnich, pese a su nombre, empieza en septiembre y es la fiesta de la cerveza más famosa del mundo."
+    },
+    {
+      "type": "tip",
+      "body": "Muchas fiestas alemanas varían mucho según la región (Bundesland): algunas son solo festivos en ciertos estados. Esto refleja la fuerte identidad regional e histórica de Alemania, con influencias tanto católicas como protestantes."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "Weihnachten", "es": "la Navidad", "ipa": "/ˈvaɪ̯naxtn̩/", "esApprox": "«VÁI-nach-ten»", "pos": "sustantivo", "gender": "n", "example": { "target": "Frohe Weihnachten!", "es": "¡Feliz Navidad!" } },
+    { "id": "v2", "target": "der Weihnachtsmarkt", "es": "el mercado navideño", "ipa": "/ˈvaɪ̯naxtsmaʁkt/", "esApprox": "«VÁI-nachts-markt»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wir gehen auf den Weihnachtsmarkt.", "es": "Vamos al mercado navideño." } },
+    { "id": "v3", "target": "Ostern", "es": "la Pascua", "ipa": "/ˈoːstɐn/", "esApprox": "«ÓS-tern»", "pos": "sustantivo", "gender": "n", "example": { "target": "Frohe Ostern!", "es": "¡Felices Pascuas!" } },
+    { "id": "v4", "target": "der Karneval", "es": "el carnaval", "ipa": "/ˈkaʁnəval/", "esApprox": "«KAR-ne-val»", "pos": "sustantivo", "gender": "m", "example": { "target": "In Köln feiert man Karneval groß.", "es": "En Colonia se celebra el carnaval a lo grande." } },
+    { "id": "v5", "target": "das Kostüm", "es": "el disfraz", "ipa": "/kɔsˈtyːm/", "esApprox": "«kos-TÜM»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich trage ein Kostüm.", "es": "Llevo un disfraz." } },
+    { "id": "v6", "target": "das Oktoberfest", "es": "el Oktoberfest", "ipa": "/ɔkˈtoːbɐfɛst/", "esApprox": "«ok-TÓ-ber-fest»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Oktoberfest beginnt im September.", "es": "El Oktoberfest empieza en septiembre." } },
+    { "id": "v7", "target": "der Feiertag", "es": "el día festivo", "ipa": "/ˈfaɪ̯ɐtaːk/", "esApprox": "«FÁI-er-tak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Morgen ist ein Feiertag.", "es": "Mañana es festivo." } },
+    { "id": "v8", "target": "die Tradition", "es": "la tradición", "ipa": "/tʁadiˈtsi̯oːn/", "esApprox": "«tra-di-tsi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine alte Tradition.", "es": "Esa es una tradición antigua." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["fiestas"], "difficulty": 1, "prompt": "¿Cuál es la fiesta más importante del año en Alemania?", "options": ["Karneval", "Weihnachten", "Oktoberfest", "Ostern"], "answer": 1, "explain": "Weihnachten (Navidad) es la fiesta más importante." },
+    { "id": "e2", "type": "mcq", "tags": ["cultura-alemana"], "difficulty": 2, "prompt": "¿Cuándo empieza realmente el Oktoberfest?", "options": ["En octubre", "En septiembre", "En diciembre", "En verano"], "answer": 1, "explain": "Pese a su nombre, el Oktoberfest empieza en septiembre." },
+    { "id": "e3", "type": "true_false", "tags": ["fiestas"], "difficulty": 2, "statement": "El Karneval se celebra especialmente en Colonia.", "answer": true, "explain": "Colonia es una de las ciudades más famosas por su Karneval." },
+    { "id": "e4", "type": "true_false", "tags": ["cultura-alemana"], "difficulty": 2, "statement": "Todos los festivos son iguales en toda Alemania, sin variación regional.", "answer": false, "explain": "Muchos festivos varían según el Bundesland (estado federado)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["fiestas"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["Weihnachten", "Ostern", "der Karneval", "der Feiertag"], "right": ["la Navidad", "la Pascua", "el carnaval", "el día festivo"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave de las fiestas alemanas." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["fiestas"], "difficulty": 2, "prompt": "Vamos al mercado navideño.", "accept": ["Wir gehen auf den Weihnachtsmarkt"], "hintWords": ["wir gehen auf den Weihnachtsmarkt"], "strictAccents": false, "audio": "Wir gehen auf den Weihnachtsmarkt.", "explain": "auf + den Weihnachtsmarkt (acusativo, dirección)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["fiestas"], "difficulty": 2, "prompt": "¡Feliz Navidad!", "accept": ["Frohe Weihnachten!", "Frohe Weihnachten"], "hintWords": ["frohe Weihnachten"], "strictAccents": false, "audio": "Frohe Weihnachten!", "explain": "Frohe Weihnachten: expresión fija de felicitación." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["fiestas"], "difficulty": 2, "prompt": "El Oktoberfest empieza en septiembre.", "accept": ["Das Oktoberfest beginnt im September"], "hintWords": ["das Oktoberfest beginnt im September"], "strictAccents": false, "audio": "Das Oktoberfest beginnt im September.", "explain": "beginnt + im September (dativo, mes)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["fiestas"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich trage ein ___. (disfraz) Das ist eine alte ___. (tradición)", "blanks": [{ "accept": ["Kostüm"] }, { "accept": ["Tradition"] }], "bank": ["Kostüm", "Tradition", "Feiertag"], "explain": "das Kostüm (disfraz); die Tradition (tradición)." },
+    { "id": "e10", "type": "word_order", "tags": ["fiestas"], "difficulty": 2, "prompt": "Ordena: «Mañana es festivo»", "tokens": ["ein Feiertag", "ist", "Morgen"], "answer": ["Morgen", "ist", "ein Feiertag"], "audio": "Morgen ist ein Feiertag.", "explain": "Morgen ist ein Feiertag: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["fiestas"], "difficulty": 2, "prompt": "In Köln feiert man Karneval groß.", "accept": ["En Colonia se celebra el carnaval a lo grande."], "strictAccents": false, "audio": "In Köln feiert man Karneval groß.", "explain": "man + feiert: forma impersonal (clase 61)." },
+    { "id": "e12", "type": "dialogue", "tags": ["fiestas"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Anna", "text": "Feierst du Weihnachten mit deiner Familie?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, wir feiern Weihnachten zusammen.", "Ja, immer mit meiner Familie."], "hint": "responde sobre tus planes de Navidad" },
+      { "who": "Anna", "text": "Schön!", "speak": true }
+    ], "explain": "Práctica de hablar sobre celebrar la Navidad." },
+    { "id": "e13", "type": "listening", "tags": ["fiestas"], "difficulty": 1, "speak": "Frohe Weihnachten!", "mode": "write", "accept": ["Frohe Weihnachten"], "showTextAfter": true, "explain": "Frohe Weihnachten: felicitación navideña clave." },
+    { "id": "e14", "type": "listening", "tags": ["fiestas"], "difficulty": 2, "speak": "Das Oktoberfest beginnt im September.", "mode": "choose", "options": ["Das Oktoberfest beginnt im September.", "Das Oktoberfest beginnt im Oktober.", "Das Oktoberfest beginnt im Dezember."], "answer": 0, "showTextAfter": true, "explain": "A pesar de su nombre, el Oktoberfest empieza en septiembre." },
+    { "id": "e15", "type": "shadowing", "tags": ["fiestas"], "difficulty": 2, "speak": "Wir gehen auf den Weihnachtsmarkt, trinken Glühwein, und danach feiern wir Weihnachten mit der ganzen Familie.", "es": "Vamos al mercado navideño, tomamos vino caliente, y después celebramos la Navidad con toda la familia.", "ipa": "/viːɐ̯ ˈɡeːən aʊ̯f deːn ˈvaɪ̯naxtsmaʁkt ˈtʁɪŋkn̩ ˈɡlyːvaɪ̯n ʊnt daˈnaːx ˈfaɪ̯ɐn viːɐ̯ ˈvaɪ̯naxtn̩ mɪt deːɐ̯ ˈɡantsn̩ familiə/", "esApprox": "«vir GUÉ-en auf den VÁI-nachts-markt, TRIN-ken GLÜ-vain, unt da-NACH FÁI-ern vir VÁI-nach-ten mit der GÁN-tsen fa-MÍ-lie»", "focus": "Tres acciones típicas de la Navidad alemana, encadenadas con danach (clase 128).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["fiestas"], "difficulty": 2, "speak": "In Köln feiert man Karneval groß, mit bunten Kostümen, während in München im September das Oktoberfest beginnt.", "es": "En Colonia se celebra el carnaval a lo grande, con disfraces coloridos, mientras que en Múnich en septiembre empieza el Oktoberfest.", "ipa": "/ɪn kœln ˈfaɪ̯ɐt man ˈkaʁnəval ɡʁoːs mɪt ˈbʊntn̩ kɔsˈtyːmən ˈvɛːʁənt ɪn ˈmʏnçn̩ ɪm zɛpˈtɛmbɐ das ɔkˈtoːbɐfɛst bəˈɡɪnt/", "esApprox": "«in köln FÁI-ert man KAR-ne-val gros, mit BÚN-ten kos-TÜ-men, VÉ-rent in MÜN-jen im zep-TEM-ber das ok-TÓ-ber-fest be-GUINT»", "focus": "während como preposición de genitivo (clase 114) comparando dos tradiciones regionales.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["fiestas"], "difficulty": 2, "prompt": "Te preguntan si celebras la Navidad con tu familia. Responde que sí, siempre con tu familia.", "modelAnswer": "Ja, ich feiere Weihnachten immer mit meiner Familie.", "alsoValid": ["Ja, immer mit meiner Familie."], "speak": "Ja, ich feiere Weihnachten immer mit meiner Familie.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["fiestas"], "difficulty": 2, "prompt": "Clasifica cada fiesta según su temporada", "buckets": ["Invierno", "Primavera", "Otoño"], "items": [
+      { "text": "Weihnachten", "bucket": 0 },
+      { "text": "Ostern", "bucket": 1 },
+      { "text": "Oktoberfest", "bucket": 2 }
+    ], "explain": "Weihnachten es en invierno; Ostern en primavera; Oktoberfest empieza en otoño (septiembre)." },
+    { "id": "e19", "type": "error_correction", "tags": ["fiestas"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das Oktoberfest beginnt im Oktober.", "accept": ["Das Oktoberfest beginnt im September"], "audio": "Das Oktoberfest beginnt im September.", "explain": "Pese a su nombre, el Oktoberfest empieza en septiembre, no en octubre." },
+    { "id": "e20", "type": "mcq", "tags": ["fiestas"], "difficulty": 2, "prompt": "«In Köln feiert man Karneval groß, mit bunten Kostümen. Weihnachten ist die wichtigste Fiesta des Jahres, und im September beginnt in München das Oktoberfest.» ¿Qué se lleva durante el Karneval?", "options": ["Ropa formal", "Disfraces coloridos", "Uniformes", "No se menciona"], "answer": 1, "explain": "«mit bunten Kostümen» = con disfraces coloridos." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "Weihnachten", "es": "la Navidad", "esApprox": "«VÁI-nach-ten»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Weihnachtsmarkt", "es": "el mercado navideño", "esApprox": "«VÁI-nachts-markt»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "Ostern", "es": "la Pascua", "esApprox": "«ÓS-tern»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Karneval", "es": "el carnaval", "esApprox": "«KAR-ne-val»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Oktoberfest", "es": "el Oktoberfest", "esApprox": "«ok-TÓ-ber-fest»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Feiertag", "es": "el día festivo", "esApprox": "«FÁI-er-tak»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Wir gehen auf den Weihnachtsmarkt, trinken Glühwein, und danach feiern wir Weihnachten mit der ganzen Familie.", "es": "Vamos al mercado navideño, tomamos vino caliente, y después celebramos la Navidad con toda la familia.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "In Köln feiert man Karneval groß, mit bunten Kostümen, während in München im September das Oktoberfest beginnt.", "es": "En Colonia se celebra el carnaval a lo grande, con disfraces coloridos, mientras que en Múnich en septiembre empieza el Oktoberfest.", "from": "e16" }
+  ]
+}

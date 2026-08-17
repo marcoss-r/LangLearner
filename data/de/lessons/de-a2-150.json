@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-150",
+  "lang": "de",
+  "level": "A2",
+  "order": 150,
+  "title": "El deporte",
+  "objectives": [
+    "Ampliar el vocabulario deportivo: der Wettkampf, gewinnen, verlieren, die Meisterschaft",
+    "Hablar de resultados y competiciones con soltura",
+    "Usar trainieren y sich fit halten para hablar de entrenamiento"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Competiciones y resultados",
+      "body": "Más allá del vocabulario básico de deportes del A1 (clase 73), ahora hablas de competiciones: der Wettkampf (la competición), die Meisterschaft (el campeonato), gewinnen (ganar) y verlieren (perder). «Wir haben das Spiel gewonnen» (Hemos ganado el partido).",
+      "examples": [
+        { "target": "Wir haben das Spiel gewonnen.", "es": "Hemos ganado el partido." },
+        { "target": "Unsere Mannschaft hat verloren.", "es": "Nuestro equipo ha perdido." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de competición",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["der Wettkampf", "la competición"],
+        ["die Meisterschaft", "el campeonato"],
+        ["gewinnen", "ganar"],
+        ["verlieren", "perder"],
+        ["das Unentschieden", "el empate"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "trainieren (entrenar) es un verbo regular, distinto de üben (practicar/estudiar, más general). Para hablar de mantenerte en forma, usa sich fit halten: «Ich trainiere, um mich fit zu halten» (Entreno para mantenerme en forma)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Wettkampf", "es": "la competición", "ipa": "/ˈvɛtkampf/", "esApprox": "«VÉT-kampf»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Wettkampf beginnt bald.", "es": "La competición empieza pronto." } },
+    { "id": "v2", "target": "die Meisterschaft", "es": "el campeonato", "ipa": "/ˈmaɪ̯stɐʃaft/", "esApprox": "«MÁIS-ter-shaft»", "pos": "sustantivo", "gender": "f", "example": { "target": "Sie hat die Meisterschaft gewonnen.", "es": "Ella ganó el campeonato." } },
+    { "id": "v3", "target": "gewinnen", "es": "ganar", "ipa": "/ɡəˈvɪnən/", "esApprox": "«ge-VÍ-nen»", "pos": "verbo", "gender": null, "example": { "target": "Wir haben das Spiel gewonnen.", "es": "Hemos ganado el partido." } },
+    { "id": "v4", "target": "verlieren", "es": "perder", "ipa": "/fɛɐ̯ˈliːʁən/", "esApprox": "«fer-LÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Unsere Mannschaft hat verloren.", "es": "Nuestro equipo ha perdido." } },
+    { "id": "v5", "target": "das Unentschieden", "es": "el empate", "ipa": "/ˈʊnʔɛntʃiːdn̩/", "esApprox": "«UN-ent-shi-den»", "pos": "sustantivo", "gender": "n", "example": { "target": "Es endete mit einem Unentschieden.", "es": "Terminó en empate." } },
+    { "id": "v6", "target": "trainieren", "es": "entrenar", "ipa": "/tʁɛˈniːʁən/", "esApprox": "«tre-NÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Ich trainiere dreimal die Woche.", "es": "Entreno tres veces por semana." } },
+    { "id": "v7", "target": "sich fit halten", "es": "mantenerse en forma", "ipa": "/zɪç fɪt ˈhaltn̩/", "esApprox": "«zich fit JÁL-ten»", "pos": "expresión", "gender": null, "example": { "target": "Ich trainiere, um mich fit zu halten.", "es": "Entreno para mantenerme en forma." } },
+    { "id": "v8", "target": "der Sieg", "es": "la victoria", "ipa": "/ziːk/", "esApprox": "«zik»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das war ein toller Sieg.", "es": "Fue una gran victoria." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["deporte"], "difficulty": 1, "prompt": "¿Cómo se dice «ganar»?", "options": ["verlieren", "gewinnen", "trainieren", "spielen"], "answer": 1, "explain": "gewinnen = ganar." },
+    { "id": "e2", "type": "mcq", "tags": ["deporte"], "difficulty": 2, "prompt": "¿Cómo se dice «el empate»?", "options": ["der Sieg", "die Niederlage", "das Unentschieden", "die Meisterschaft"], "answer": 2, "explain": "das Unentschieden = el empate." },
+    { "id": "e3", "type": "true_false", "tags": ["deporte"], "difficulty": 2, "statement": "«die Meisterschaft» significa «el campeonato».", "answer": true, "explain": "die Meisterschaft = el campeonato." },
+    { "id": "e4", "type": "true_false", "tags": ["deporte"], "difficulty": 2, "statement": "«trainieren» y «üben» significan exactamente lo mismo en todos los contextos.", "answer": false, "explain": "trainieren es específico de deporte; üben es más general (practicar, estudiar)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["deporte"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Wettkampf", "gewinnen", "verlieren", "der Sieg"], "right": ["la competición", "ganar", "perder", "la victoria"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario de competición deportiva." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["deporte"], "difficulty": 2, "prompt": "Hemos ganado el partido.", "accept": ["Wir haben das Spiel gewonnen"], "hintWords": ["wir haben das Spiel gewonnen"], "strictAccents": false, "audio": "Wir haben das Spiel gewonnen.", "explain": "gewinnen → gewonnen: participio irregular." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["deporte"], "difficulty": 2, "prompt": "Nuestro equipo ha perdido.", "accept": ["Unsere Mannschaft hat verloren"], "hintWords": ["unsere Mannschaft hat verloren"], "strictAccents": false, "audio": "Unsere Mannschaft hat verloren.", "explain": "verlieren → verloren: participio irregular (clase 94)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["deporte"], "difficulty": 2, "prompt": "Entreno para mantenerme en forma.", "accept": ["Ich trainiere, um mich fit zu halten"], "hintWords": ["ich trainiere, um mich fit zu halten"], "strictAccents": false, "audio": "Ich trainiere, um mich fit zu halten.", "explain": "um...zu + halten (infinitivo, finalidad, mismo sujeto)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["deporte"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Sie hat die ___ gewonnen. Das war ein toller ___.", "blanks": [{ "accept": ["Meisterschaft"] }, { "accept": ["Sieg"] }], "bank": ["Meisterschaft", "Sieg", "Wettkampf"], "explain": "die Meisterschaft (el campeonato); der Sieg (la victoria)." },
+    { "id": "e10", "type": "word_order", "tags": ["deporte"], "difficulty": 2, "prompt": "Ordena: «Entreno tres veces por semana»", "tokens": ["dreimal die Woche", "trainiere", "Ich"], "answer": ["Ich", "trainiere", "dreimal die Woche"], "audio": "Ich trainiere dreimal die Woche.", "explain": "Ich trainiere dreimal die Woche: sujeto-verbo-frecuencia." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["deporte"], "difficulty": 2, "prompt": "Es endete mit einem Unentschieden.", "accept": ["Terminó en empate."], "strictAccents": false, "audio": "Es endete mit einem Unentschieden.", "explain": "mit einem Unentschieden = con un empate." },
+    { "id": "e12", "type": "dialogue", "tags": ["deporte"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Ben", "text": "Habt ihr das Spiel gewonnen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nein, wir haben verloren.", "Ja, wir haben gewonnen!"], "hint": "responde sobre el resultado" },
+      { "who": "Ben", "text": "Schade!", "speak": true }
+    ], "explain": "Práctica de hablar de resultados deportivos." },
+    { "id": "e13", "type": "listening", "tags": ["deporte"], "difficulty": 1, "speak": "Wir haben das Spiel gewonnen.", "mode": "write", "accept": ["Wir haben das Spiel gewonnen"], "showTextAfter": true, "explain": "gewonnen: participio irregular de gewinnen." },
+    { "id": "e14", "type": "listening", "tags": ["deporte"], "difficulty": 2, "speak": "Unsere Mannschaft hat verloren.", "mode": "choose", "options": ["Unsere Mannschaft hat verloren.", "Unsere Mannschaft hat gewonnen.", "Unsere Mannschaft ist verloren."], "answer": 0, "showTextAfter": true, "explain": "verlieren usa haben, no sein, como auxiliar del Perfekt." },
+    { "id": "e15", "type": "shadowing", "tags": ["deporte"], "difficulty": 2, "speak": "Wir haben das Spiel gewonnen, und jetzt trainieren wir hart für die Meisterschaft.", "es": "Hemos ganado el partido, y ahora entrenamos duro para el campeonato.", "ipa": "/viːɐ̯ ˈhaːbən das ʃpiːl ɡəˈvɔnən ʊnt jɛtst tʁɛˈniːʁən viːɐ̯ haʁt fyːɐ̯ diː ˈmaɪ̯stɐʃaft/", "esApprox": "«vir JÁ-ben das shpil ge-VÓ-nen, unt yetst tre-NÍ-ren vir jart für di MÁIS-ter-shaft»", "focus": "gewonnen (participio irregular) y trainieren (verbo regular), en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["deporte"], "difficulty": 2, "speak": "Das Spiel endete mit einem Unentschieden, obwohl wir sehr gut trainiert hatten.", "es": "El partido terminó en empate, aunque habíamos entrenado muy bien.", "ipa": "/das ʃpiːl ˈɛndətə mɪt ˈaɪ̯nəm ˈʊnʔɛntʃiːdn̩ ɔpˈvoːl viːɐ̯ zeːɐ̯ ɡuːt tʁɛˈniːɐ̯t ˈhatn̩/", "esApprox": "«das shpil ÉN-de-te mit ÁI-nem UN-ent-shi-den, op-VOL vir zer gut tre-NIRT JÁ-ten»", "focus": "obwohl con hatten al final: el contraste entre el buen entrenamiento y el resultado de empate.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["deporte"], "difficulty": 2, "prompt": "Te preguntan si ganasteis el partido. Di que no, que perdisteis.", "modelAnswer": "Nein, wir haben verloren.", "alsoValid": ["Wir haben leider verloren."], "speak": "Nein, wir haben verloren.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["deporte"], "difficulty": 2, "prompt": "Clasifica cada resultado: positivo, negativo o neutro", "buckets": ["Positivo", "Negativo", "Neutro"], "items": [
+      { "text": "der Sieg", "bucket": 0 },
+      { "text": "verlieren", "bucket": 1 },
+      { "text": "das Unentschieden", "bucket": 2 },
+      { "text": "gewinnen", "bucket": 0 }
+    ], "explain": "Sieg y gewinnen son positivos; verlieren es negativo; Unentschieden es neutro." },
+    { "id": "e19", "type": "error_correction", "tags": ["deporte"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Unsere Mannschaft ist verloren.", "accept": ["Unsere Mannschaft hat verloren"], "audio": "Unsere Mannschaft hat verloren.", "explain": "verlieren usa haben, no sein, como auxiliar." },
+    { "id": "e20", "type": "mcq", "tags": ["deporte"], "difficulty": 2, "prompt": "«Wir haben das Spiel gewonnen, und jetzt trainieren wir hart für die Meisterschaft. Letztes Jahr haben wir sie verloren.» ¿Qué pasó el año pasado?", "options": ["Ganaron el campeonato", "Perdieron el campeonato", "No participaron", "Empataron"], "answer": 1, "explain": "«Letztes Jahr haben wir sie verloren» = el año pasado la perdimos (la Meisterschaft)." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Wettkampf", "es": "la competición", "esApprox": "«VÉT-kampf»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Meisterschaft", "es": "el campeonato", "esApprox": "«MÁIS-ter-shaft»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "gewinnen", "es": "ganar", "esApprox": "«ge-VÍ-nen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "verlieren", "es": "perder", "esApprox": "«fer-LÍ-ren»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "trainieren", "es": "entrenar", "esApprox": "«tre-NÍ-ren»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Sieg", "es": "la victoria", "esApprox": "«zik»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Wir haben das Spiel gewonnen, und jetzt trainieren wir hart für die Meisterschaft.", "es": "Hemos ganado el partido, y ahora entrenamos duro para el campeonato.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Das Spiel endete mit einem Unentschieden, obwohl wir sehr gut trainiert hatten.", "es": "El partido terminó en empate, aunque habíamos entrenado muy bien.", "from": "e16" }
+  ]
+}

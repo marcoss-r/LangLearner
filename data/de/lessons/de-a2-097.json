@@ -1,0 +1,84 @@
+{
+  "id": "de-a2-097",
+  "lang": "de",
+  "level": "A2",
+  "order": 97,
+  "title": "Preguntas y negación en Perfekt",
+  "objectives": [
+    "Formar preguntas de sí/no en Perfekt: haben/sein en posición 1, participio al final",
+    "Formar preguntas con W-Fragen en Perfekt: was, wann, wo + haben/sein en posición 2",
+    "Colocar correctamente nicht y kein en frases con Perfekt"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Preguntas en Perfekt",
+      "body": "Para preguntas de sí/no en Perfekt, haben o sein va en posición 1 (como en presente, clase 19), y el participio se queda al final: «Hast du das gemacht?» (¿Has hecho eso?). Para preguntas con palabra interrogativa, la W-Frage va en posición 1, haben/sein en posición 2, y el participio al final: «Was hast du gemacht?» (¿Qué has hecho?).",
+      "examples": [
+        { "target": "Hast du das gemacht?", "es": "¿Has hecho eso?" },
+        { "target": "Was hast du gemacht?", "es": "¿Qué has hecho?" },
+        { "target": "Bist du gestern gekommen?", "es": "¿Viniste ayer?" }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "nicht y kein en Perfekt",
+      "body": "La negación con nicht suele ir justo antes del participio, al final de la frase: «Ich habe das nicht gemacht» (No he hecho eso). Kein sigue negando sustantivos con artículo indefinido o sin artículo, y también se coloca justo antes del sustantivo que niega, que a su vez precede al participio: «Ich habe kein Geld bekommen» (No he recibido dinero)."
+    },
+    {
+      "type": "tip",
+      "body": "Regla práctica: en una frase con Perfekt, todo lo que se coloca normalmente al final (nicht, complementos) sigue yendo antes del participio; el participio SIEMPRE cierra la frase, pase lo que pase."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "hast du... gemacht?", "es": "¿has hecho...?", "ipa": "/hast duː ɡəˈmaxt/", "esApprox": "«jast du ge-MACHT»", "pos": "expresión", "gender": null, "example": { "target": "Hast du das gemacht?", "es": "¿Has hecho eso?" } },
+    { "id": "v2", "target": "nicht", "es": "no", "ipa": "/nɪçt/", "esApprox": "«nicht»", "pos": "adverbio", "gender": null, "example": { "target": "Ich habe das nicht gemacht.", "es": "No he hecho eso." } },
+    { "id": "v3", "target": "kein", "es": "ningún, ninguna", "ipa": "/kaɪ̯n/", "esApprox": "«kain»", "pos": "determinante", "gender": null, "example": { "target": "Ich habe kein Geld bekommen.", "es": "No he recibido dinero." } },
+    { "id": "v4", "target": "noch nicht", "es": "todavía no", "ipa": "/nɔx nɪçt/", "esApprox": "«noch nicht»", "pos": "expresión", "gender": null, "example": { "target": "Ich habe es noch nicht gemacht.", "es": "Todavía no lo he hecho." } },
+    { "id": "v5", "target": "schon", "es": "ya", "ipa": "/ʃoːn/", "esApprox": "«shon»", "pos": "adverbio", "gender": null, "example": { "target": "Hast du schon gegessen?", "es": "¿Ya has comido?" } },
+    { "id": "v6", "target": "das Geld", "es": "el dinero", "ipa": "/ɡɛlt/", "esApprox": "«guelt»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich habe kein Geld bekommen.", "es": "No he recibido dinero." } },
+    { "id": "v7", "target": "niemand", "es": "nadie", "ipa": "/ˈniːmant/", "esApprox": "«NÍ-mant»", "pos": "pronombre", "gender": null, "example": { "target": "Ich habe niemanden gesehen.", "es": "No he visto a nadie." } },
+    { "id": "v8", "target": "nie", "es": "nunca", "ipa": "/niː/", "esApprox": "«ni»", "pos": "adverbio", "gender": null, "example": { "target": "Ich habe das nie gemacht.", "es": "Nunca he hecho eso." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["perfekt"], "difficulty": 1, "prompt": "¿Dónde va haben/sein en una pregunta de sí/no en Perfekt?", "options": ["Al final", "Posición 2", "Posición 1", "No aparece"], "answer": 2, "explain": "Hast du...?, Bist du...?: haben/sein en posición 1." },
+    { "id": "e2", "type": "mcq", "tags": ["negacion"], "difficulty": 2, "prompt": "¿Dónde va normalmente «nicht» en una frase con Perfekt?", "options": ["Al principio", "Justo antes del participio", "Después del participio", "No se puede usar"], "answer": 1, "explain": "nicht va justo antes del participio, que siempre cierra la frase." },
+    { "id": "e3", "type": "true_false", "tags": ["perfekt"], "difficulty": 2, "statement": "En «Was hast du gemacht?», hast está en posición 2.", "answer": true, "explain": "Was (posición 1) + hast (posición 2) + du + gemacht (final)." },
+    { "id": "e4", "type": "true_false", "tags": ["negacion"], "difficulty": 2, "statement": "«kein» se usa para negar verbos, igual que «nicht».", "answer": false, "explain": "kein niega sustantivos (con artículo indefinido o sin artículo); nicht niega verbos, adjetivos y el resto." },
+    { "id": "e5", "type": "match_pairs", "tags": ["perfekt"], "difficulty": 2, "prompt": "Une cada expresión con su traducción", "left": ["noch nicht", "schon", "niemand", "nie"], "right": ["todavía no", "ya", "nadie", "nunca"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave para preguntas y negación en Perfekt." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["perfekt"], "difficulty": 2, "prompt": "¿Has hecho eso?", "accept": ["Hast du das gemacht?", "Hast du das gemacht"], "hintWords": ["hast du das gemacht"], "strictAccents": false, "audio": "Hast du das gemacht?", "explain": "Hast (posición 1) + du + das + gemacht (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["negacion"], "difficulty": 2, "prompt": "No he hecho eso.", "accept": ["Ich habe das nicht gemacht"], "hintWords": ["ich habe das nicht gemacht"], "strictAccents": false, "audio": "Ich habe das nicht gemacht.", "explain": "nicht justo antes de gemacht, que cierra la frase." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["negacion"], "difficulty": 2, "prompt": "No he recibido dinero.", "accept": ["Ich habe kein Geld bekommen"], "hintWords": ["ich habe kein Geld bekommen"], "strictAccents": false, "audio": "Ich habe kein Geld bekommen.", "explain": "kein Geld (niega el sustantivo) + bekommen (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["perfekt"], "difficulty": 2, "prompt": "Completa con la pregunta correcta", "text": "___ hast du gemacht? ___ du schon gegessen?", "blanks": [{ "accept": ["Was"] }, { "accept": ["Hast"] }], "bank": ["Was", "Hast", "Wo"], "explain": "Was (W-Frage) + hast (posición 2); Hast (posición 1, pregunta sí/no)." },
+    { "id": "e10", "type": "word_order", "tags": ["negacion"], "difficulty": 2, "prompt": "Ordena: «Todavía no lo he hecho»", "tokens": ["gemacht", "noch nicht", "Ich habe es"], "answer": ["Ich habe es", "noch nicht", "gemacht"], "audio": "Ich habe es noch nicht gemacht.", "explain": "noch nicht va justo antes del participio, al final." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["perfekt"], "difficulty": 2, "prompt": "Ich habe niemanden gesehen.", "accept": ["No he visto a nadie."], "strictAccents": false, "audio": "Ich habe niemanden gesehen.", "explain": "niemanden: acusativo de niemand, objeto de sehen." },
+    { "id": "e12", "type": "dialogue", "tags": ["perfekt"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Papa", "text": "Hast du schon gegessen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nein, ich habe noch nicht gegessen.", "Ja, ich habe schon gegessen."], "hint": "responde con schon o noch nicht" },
+      { "who": "Papa", "text": "Okay, dann komm essen!", "speak": true }
+    ], "explain": "schon frente a noch nicht: contraste típico en preguntas cotidianas." },
+    { "id": "e13", "type": "listening", "tags": ["perfekt"], "difficulty": 1, "speak": "Was hast du gemacht?", "mode": "write", "accept": ["Was hast du gemacht"], "showTextAfter": true, "explain": "W-Frage en Perfekt: Was (1) + hast (2) + du + gemacht (final)." },
+    { "id": "e14", "type": "listening", "tags": ["negacion"], "difficulty": 2, "speak": "Ich habe kein Geld bekommen.", "mode": "choose", "options": ["Ich habe kein Geld bekommen.", "Ich habe nicht Geld bekommen.", "Ich habe keine Geld bekommen."], "answer": 0, "showTextAfter": true, "explain": "kein Geld: Geld es neutro, así que es «kein», no «keine»." },
+    { "id": "e15", "type": "shadowing", "tags": ["perfekt"], "difficulty": 2, "speak": "Hast du das schon gemacht? Nein, ich habe es noch nicht gemacht.", "es": "¿Ya has hecho eso? No, todavía no lo he hecho.", "ipa": "/hast duː das ʃoːn ɡəˈmaxt naɪ̯n ɪç ˈhaːbə ɛs nɔx nɪçt ɡəˈmaxt/", "esApprox": "«jast du das shon ge-MACHT? nain, ich JÁ-be es noch nicht ge-MACHT»", "focus": "schon frente a noch nicht, ambos justo antes del participio gemacht.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["negacion"], "difficulty": 2, "speak": "Ich habe niemanden gesehen und kein Geld bekommen.", "es": "No he visto a nadie y no he recibido dinero.", "ipa": "/ɪç ˈhaːbə ˈniːmandn̩ ɡəˈzeːən ʊnt kaɪ̯n ɡɛlt bəˈkɔmən/", "esApprox": "«ich JÁ-be NÍ-man-den ge-ZÉ-en unt kain guelt be-KÓ-men»", "focus": "niemanden (pronombre negativo) y kein Geld (negación de sustantivo), ambos antes de sus participios.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["perfekt"], "difficulty": 2, "prompt": "Te preguntan si ya has comido. Di que no, que todavía no has comido.", "modelAnswer": "Nein, ich habe noch nicht gegessen.", "alsoValid": ["Ich habe noch nicht gegessen."], "speak": "Nein, ich habe noch nicht gegessen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["negacion"], "difficulty": 2, "prompt": "Clasifica cada negación: nicht o kein", "buckets": ["nicht (verbos/adjetivos)", "kein (sustantivos)"], "items": [
+      { "text": "Ich habe das nicht gemacht.", "bucket": 0 },
+      { "text": "Ich habe kein Geld bekommen.", "bucket": 1 },
+      { "text": "Ich bin nicht gekommen.", "bucket": 0 },
+      { "text": "Ich habe keine Zeit gehabt.", "bucket": 1 }
+    ], "explain": "nicht niega verbos y adjetivos; kein niega sustantivos." },
+    { "id": "e19", "type": "error_correction", "tags": ["perfekt"], "difficulty": 2, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Gemacht hast du das?", "accept": ["Hast du das gemacht?"], "audio": "Hast du das gemacht?", "explain": "En preguntas sí/no, haben/sein va en posición 1, no el participio." },
+    { "id": "e20", "type": "mcq", "tags": ["perfekt"], "difficulty": 2, "prompt": "«Hast du das Geld schon bekommen? Nein, ich habe noch kein Geld bekommen, und ich habe auch niemanden gesehen.» ¿Ha recibido el dinero la persona?", "options": ["Sí, ya lo recibió", "No, todavía no", "No se sabe", "Lo recibió parcialmente"], "answer": 1, "explain": "«ich habe noch kein Geld bekommen» = todavía no he recibido dinero." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "nicht", "es": "no", "esApprox": "«nicht»", "from": "v2" },
+    { "id": "s2", "kind": "word", "target": "kein", "es": "ningún, ninguna", "esApprox": "«kain»", "from": "v3" },
+    { "id": "s3", "kind": "phrase", "target": "noch nicht", "es": "todavía no", "esApprox": "«noch nicht»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "schon", "es": "ya", "esApprox": "«shon»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "das Geld", "es": "el dinero", "esApprox": "«guelt»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "niemand", "es": "nadie", "esApprox": "«NÍ-mant»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Hast du das schon gemacht? Nein, ich habe es noch nicht gemacht.", "es": "¿Ya has hecho eso? No, todavía no lo he hecho.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich habe niemanden gesehen und kein Geld bekommen.", "es": "No he visto a nadie y no he recibido dinero.", "from": "e16" }
+  ]
+}

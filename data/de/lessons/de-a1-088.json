@@ -1,0 +1,90 @@
+{
+  "id": "de-a1-088",
+  "lang": "de",
+  "level": "A1",
+  "order": 88,
+  "title": "Escribir un correo o un mensaje sencillo",
+  "objectives": [
+    "Estructurar un correo sencillo: saludo, cuerpo y despedida",
+    "Distinguir el registro formal (Sehr geehrte/r...) del informal (Liebe/r...)",
+    "Escribir un mensaje corto pidiendo información o confirmando un plan"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Saludo y despedida: formal vs. informal",
+      "body": "Un correo formal en alemán empieza con «Sehr geehrte Frau...» o «Sehr geehrter Herr...» (Estimada señora.../Estimado señor...) y termina con «Mit freundlichen Grüßen» (Atentamente). Un correo o mensaje informal empieza con «Liebe...» (femenino) o «Lieber...» (masculino) y termina con «Viele Grüße» o «Liebe Grüße».",
+      "examples": [
+        { "target": "Sehr geehrte Frau Schmidt, ...", "es": "Estimada señora Schmidt, ..." },
+        { "target": "Liebe Anna, ...", "es": "Querida Anna, ..." },
+        { "target": "Mit freundlichen Grüßen", "es": "Atentamente" },
+        { "target": "Viele Grüße", "es": "Saludos" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Estructura de un correo sencillo",
+      "headers": ["Parte", "Formal", "Informal"],
+      "rows": [
+        ["Saludo", "Sehr geehrte/r Frau/Herr...,", "Liebe/r...,"],
+        ["Cuerpo", "Ich schreibe Ihnen, weil...", "Ich schreibe dir, weil..."],
+        ["Despedida", "Mit freundlichen Grüßen", "Viele Grüße / Liebe Grüße"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Fíjate en el paralelismo con el teléfono (clase 87): el correo formal usa Sie/Ihnen, el informal usa du/dir. La estructura saludo-cuerpo-despedida es siempre la misma, solo cambia el registro."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sehr geehrte/r", "es": "estimado/a", "ipa": "/zeːɐ̯ ɡəˈeːɐ̯tə/", "esApprox": "«zer ge-É-er-te»", "pos": "expresión", "gender": null, "example": { "target": "Sehr geehrte Frau Schmidt,", "es": "Estimada señora Schmidt," } },
+    { "id": "v2", "target": "liebe/r", "es": "querido/a", "ipa": "/ˈliːbə/", "esApprox": "«LÍ-be»", "pos": "expresión", "gender": null, "example": { "target": "Liebe Anna,", "es": "Querida Anna," } },
+    { "id": "v3", "target": "mit freundlichen Grüßen", "es": "atentamente", "ipa": "/mɪt ˈfʁɔɪ̯ntlɪçən ˈɡʁyːsn̩/", "esApprox": "«mit FROIND-li-jen GRÜ-sen»", "pos": "expresión", "gender": null, "example": { "target": "Mit freundlichen Grüßen, Anna Müller", "es": "Atentamente, Anna Müller" } },
+    { "id": "v4", "target": "viele Grüße", "es": "saludos", "ipa": "/ˈfiːlə ˈɡʁyːsə/", "esApprox": "«FÍ-le GRÜ-se»", "pos": "expresión", "gender": null, "example": { "target": "Viele Grüße, Tom", "es": "Saludos, Tom" } },
+    { "id": "v5", "target": "schreiben", "es": "escribir", "ipa": "/ˈʃʁaɪ̯bn̩/", "esApprox": "«SHRÁI-ben»", "pos": "verbo", "gender": null, "example": { "target": "Ich schreibe Ihnen.", "es": "Le escribo." } },
+    { "id": "v6", "target": "die E-Mail", "es": "el correo electrónico", "ipa": "/ˈiːmeːl/", "esApprox": "«Í-mel»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich schicke eine E-Mail.", "es": "Envío un correo." } },
+    { "id": "v7", "target": "schicken", "es": "enviar", "ipa": "/ˈʃɪkn̩/", "esApprox": "«SHÍ-ken»", "pos": "verbo", "gender": null, "example": { "target": "Ich schicke dir die Information.", "es": "Te envío la información." } },
+    { "id": "v8", "target": "bestätigen", "es": "confirmar", "ipa": "/bəˈʃtɛːtɪɡn̩/", "esApprox": "«be-SHTÉ-ti-guen»", "pos": "verbo", "gender": null, "example": { "target": "Ich bestätige den Termin.", "es": "Confirmo la cita." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["escritura"], "difficulty": 1, "prompt": "¿Cómo empieza un correo formal a una mujer desconocida?", "options": ["Liebe Frau Schmidt,", "Sehr geehrte Frau Schmidt,", "Hallo Frau Schmidt,", "Hi Frau Schmidt,"], "answer": 1, "explain": "Sehr geehrte Frau... es el saludo formal correcto." },
+    { "id": "e2", "type": "mcq", "tags": ["escritura"], "difficulty": 2, "prompt": "¿Cómo se despide un correo formal?", "options": ["Viele Grüße", "Tschüss!", "Mit freundlichen Grüßen", "Bis bald!"], "answer": 2, "explain": "Mit freundlichen Grüßen = atentamente, despedida formal." },
+    { "id": "e3", "type": "true_false", "tags": ["escritura"], "difficulty": 2, "statement": "«Liebe Anna,» es un saludo informal.", "answer": true, "explain": "Liebe/r + nombre es informal, para personas conocidas." },
+    { "id": "e4", "type": "true_false", "tags": ["escritura"], "difficulty": 2, "statement": "En un correo formal se usa «dir» en vez de «Ihnen».", "answer": false, "explain": "Es al revés: el correo formal usa Ihnen (Sie); el informal usa dir (du)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["escritura"], "difficulty": 2, "prompt": "Une cada expresión con su traducción", "left": ["sehr geehrte/r", "liebe/r", "mit freundlichen Grüßen", "viele Grüße"], "right": ["estimado/a", "querido/a", "atentamente", "saludos"], "answer": [0, 1, 2, 3], "explain": "Cuatro fórmulas fijas para saludos y despedidas de correo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["escritura"], "difficulty": 2, "prompt": "Estimada señora Schmidt,", "accept": ["Sehr geehrte Frau Schmidt,", "Sehr geehrte Frau Schmidt"], "hintWords": ["sehr geehrte Frau Schmidt"], "strictAccents": false, "audio": "Sehr geehrte Frau Schmidt.", "explain": "Sehr geehrte + Frau + apellido: saludo formal." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["escritura"], "difficulty": 2, "prompt": "Le escribo porque tengo una pregunta.", "accept": ["Ich schreibe Ihnen, weil ich eine Frage habe"], "hintWords": ["ich schreibe Ihnen, weil ich eine Frage habe"], "strictAccents": false, "audio": "Ich schreibe Ihnen, weil ich eine Frage habe.", "explain": "schreibe Ihnen (dativo formal) + weil con el verbo al final." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["escritura"], "difficulty": 2, "prompt": "Confirmo la cita.", "accept": ["Ich bestätige den Termin"], "hintWords": ["ich bestätige den Termin"], "strictAccents": false, "audio": "Ich bestätige den Termin.", "explain": "bestätigen + acusativo (den Termin)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["escritura"], "difficulty": 2, "prompt": "Completa el correo formal", "text": "___ Frau Schmidt, ich schreibe Ihnen, weil ich eine Frage habe. ___", "blanks": [{ "accept": ["Sehr geehrte"] }, { "accept": ["Mit freundlichen Grüßen"] }], "bank": ["Sehr geehrte", "Mit freundlichen Grüßen", "Liebe"], "explain": "Saludo y despedida formales, con el mismo registro (Ihnen)." },
+    { "id": "e10", "type": "word_order", "tags": ["escritura"], "difficulty": 2, "prompt": "Ordena: «Te envío la información»", "tokens": ["die Information", "dir", "Ich schicke"], "answer": ["Ich schicke", "dir", "die Information"], "audio": "Ich schicke dir die Information.", "explain": "schicke + dativo (dir) + acusativo (die Information)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["escritura"], "difficulty": 2, "prompt": "Ich schicke eine E-Mail.", "accept": ["Envío un correo electrónico.", "Envío un correo."], "strictAccents": false, "audio": "Ich schicke eine E-Mail.", "explain": "die E-Mail = el correo electrónico." },
+    { "id": "e12", "type": "dialogue", "tags": ["escritura"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Kollege", "text": "Kannst du dem Kunden eine E-Mail schreiben?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich schreibe ihm eine E-Mail.", "Ja, ich schicke die E-Mail sofort."], "hint": "responde que sí, que vas a escribir el correo" },
+      { "who": "Kollege", "text": "Super, danke!", "speak": true }
+    ], "explain": "Situación de trabajo típica sobre escribir y enviar un correo." },
+    { "id": "e13", "type": "listening", "tags": ["escritura"], "difficulty": 1, "speak": "Mit freundlichen Grüßen.", "mode": "write", "accept": ["Mit freundlichen Grüßen"], "showTextAfter": true, "explain": "Despedida formal, la más común en correos alemanes." },
+    { "id": "e14", "type": "listening", "tags": ["escritura"], "difficulty": 2, "speak": "Ich schreibe Ihnen, weil ich eine Frage habe.", "mode": "choose", "options": ["Ich schreibe Ihnen, weil ich eine Frage habe.", "Ich schreibe dir, weil ich eine Frage habe.", "Ich schreibe Ihnen, weil ich eine Frage hast."], "answer": 0, "showTextAfter": true, "explain": "Ihnen (formal) + habe (ich): la única combinación correcta." },
+    { "id": "e15", "type": "shadowing", "tags": ["escritura"], "difficulty": 2, "speak": "Sehr geehrte Frau Schmidt, ich schreibe Ihnen, weil ich eine Frage habe. Mit freundlichen Grüßen.", "es": "Estimada señora Schmidt, le escribo porque tengo una pregunta. Atentamente.", "ipa": "/zeːɐ̯ ɡəˈeːɐ̯tə fʁaʊ̯ ʃmɪt ɪç ˈʃʁaɪ̯bə ˈiːnən vaɪ̯l ɪç ˈaɪ̯nə ˈfʁaːɡə ˈhaːbə mɪt ˈfʁɔɪ̯ntlɪçən ˈɡʁyːsn̩/", "esApprox": "«zer ge-É-er-te frau shmit, ich SHRÁI-be Í-nen, vail ich ÁI-ne FRÁ-ge JÁ-be. mit FROIND-li-jen GRÜ-sen»", "focus": "Un correo formal completo: saludo, cuerpo con weil, y despedida.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["escritura"], "difficulty": 2, "speak": "Liebe Anna, ich schicke dir die Information und bestätige den Termin. Viele Grüße.", "es": "Querida Anna, te envío la información y confirmo la cita. Saludos.", "ipa": "/ˈliːbə ˈana ɪç ˈʃɪkə diːɐ̯ diː ɪnfoʁmatsiˈoːn ʊnt bəˈʃtɛːtɪɡə deːn tɛʁˈmiːn ˈfiːlə ˈɡʁyːsə/", "esApprox": "«LÍ-be Á-na, ich SHÍ-ke dir di in-for-ma-tsi-ÓN unt be-SHTÉ-ti-ge den ter-MÍN. FÍ-le GRÜ-se»", "focus": "Un correo informal completo: Liebe + nombre, dir en vez de Ihnen, y viele Grüße al final.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["escritura"], "difficulty": 2, "prompt": "Escribes un correo informal a tu amiga Anna. Dile que le envías la información.", "modelAnswer": "Liebe Anna, ich schicke dir die Information.", "alsoValid": ["Ich schicke dir die Information."], "speak": "Liebe Anna, ich schicke dir die Information.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["escritura"], "difficulty": 2, "prompt": "Clasifica cada expresión: formal o informal", "buckets": ["Formal", "Informal"], "items": [
+      { "text": "Sehr geehrte Frau Schmidt,", "bucket": 0 },
+      { "text": "Liebe Anna,", "bucket": 1 },
+      { "text": "Mit freundlichen Grüßen", "bucket": 0 },
+      { "text": "Viele Grüße", "bucket": 1 }
+    ], "explain": "El registro formal usa sehr geehrte y mit freundlichen Grüßen; el informal usa liebe y viele Grüße." },
+    { "id": "e19", "type": "error_correction", "tags": ["escritura"], "difficulty": 2, "prompt": "Hay un error de registro. Corrige la frase entera.", "wrong": "Sehr geehrte Frau Schmidt, ich schreibe dir, weil ich eine Frage habe.", "accept": ["Sehr geehrte Frau Schmidt, ich schreibe Ihnen, weil ich eine Frage habe"], "audio": "Sehr geehrte Frau Schmidt, ich schreibe Ihnen, weil ich eine Frage habe.", "explain": "Con «sehr geehrte» (formal), debe usarse Ihnen, no dir." },
+    { "id": "e20", "type": "mcq", "tags": ["escritura"], "difficulty": 2, "prompt": "«Sehr geehrte Frau Schmidt, ich schreibe Ihnen, weil ich den Termin bestätigen möchte. Mit freundlichen Grüßen, Tom Weber.» ¿Por qué escribe Tom?", "options": ["Para cancelar una cita", "Para confirmar una cita", "Para pedir información", "Para saludar"], "answer": 1, "explain": "«weil ich den Termin bestätigen möchte» = porque quiero confirmar la cita." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "sehr geehrte/r", "es": "estimado/a", "esApprox": "«zer ge-É-er-te»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "liebe/r", "es": "querido/a", "esApprox": "«LÍ-be»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "mit freundlichen Grüßen", "es": "atentamente", "esApprox": "«mit FROIND-li-jen GRÜ-sen»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "viele Grüße", "es": "saludos", "esApprox": "«FÍ-le GRÜ-se»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "schicken", "es": "enviar", "esApprox": "«SHÍ-ken»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "bestätigen", "es": "confirmar", "esApprox": "«be-SHTÉ-ti-guen»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Sehr geehrte Frau Schmidt, ich schreibe Ihnen, weil ich eine Frage habe. Mit freundlichen Grüßen.", "es": "Estimada señora Schmidt, le escribo porque tengo una pregunta. Atentamente.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Liebe Anna, ich schicke dir die Information und bestätige den Termin. Viele Grüße.", "es": "Querida Anna, te envío la información y confirmo la cita. Saludos.", "from": "e16" }
+  ]
+}

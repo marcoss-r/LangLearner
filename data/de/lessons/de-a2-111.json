@@ -1,0 +1,87 @@
+{
+  "id": "de-a2-111",
+  "lang": "de",
+  "level": "A2",
+  "order": 111,
+  "title": "El superlativo declinado: der beste Tag",
+  "objectives": [
+    "Combinar el superlativo (am...-sten, clase 84) con la declinación del adjetivo cuando va ante un sustantivo",
+    "Reconocer que el superlativo declinado casi siempre usa der/die/das, porque «el mejor» ya implica algo único y definido",
+    "Distinguir am besten (predicativo, invariable) de der beste (declinado, ante sustantivo)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El superlativo ante sustantivo: casi siempre con der/die/das",
+      "body": "Recuerda el superlativo predicativo con am (clase 84): «Das schmeckt am besten» (Eso es lo que mejor sabe). Cuando el superlativo va delante de un sustantivo, se usa la forma sin am, con la raíz -st- (best-, größt-, teuerst-) y la declinación normal de der/die/das, porque «el mejor día» ya es algo único: «der beste Tag» (el mejor día).",
+      "examples": [
+        { "target": "Das war der beste Tag meines Lebens.", "es": "Ese fue el mejor día de mi vida." },
+        { "target": "Ich kaufe die billigste Option.", "es": "Compro la opción más barata." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El superlativo declinado, en los tres géneros",
+      "headers": ["Masculino", "Femenino", "Neutro"],
+      "rows": [
+        ["der beste Tag", "die beste Option", "das beste Angebot"]
+      ],
+      "note": "Todos con -e en nominativo, porque van tras der/die/das (declinación débil, como en la clase 101)."
+    },
+    {
+      "type": "tip",
+      "body": "Compara con el comparativo declinado (clase 110): mientras el comparativo puede ir con ein (ein besserer Tag), el superlativo casi siempre va con der/die/das, porque decir «un mejor día» (superlativo) no tiene mucho sentido: solo puede haber UN mejor día."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der beste Tag", "es": "el mejor día", "ipa": "/deːɐ̯ ˈbɛstə taːk/", "esApprox": "«der BÉS-te tak»", "pos": "expresión", "gender": null, "example": { "target": "Das war der beste Tag meines Lebens.", "es": "Ese fue el mejor día de mi vida." } },
+    { "id": "v2", "target": "die billigste Option", "es": "la opción más barata", "ipa": "/diː ˈbɪlɪçstə ɔpˈtsi̯oːn/", "esApprox": "«di BÍ-lich-ste op-tsi-ÓN»", "pos": "expresión", "gender": null, "example": { "target": "Ich kaufe die billigste Option.", "es": "Compro la opción más barata." } },
+    { "id": "v3", "target": "das Leben", "es": "la vida", "ipa": "/ˈleːbn̩/", "esApprox": "«LÉ-ben»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das ist mein Leben.", "es": "Esa es mi vida." } },
+    { "id": "v4", "target": "das teuerste Auto", "es": "el coche más caro", "ipa": "/das ˈtɔɪ̯ɐstə ˈaʊ̯to/", "esApprox": "«das TÓI-ers-te ÁU-to»", "pos": "expresión", "gender": null, "example": { "target": "Das ist das teuerste Auto im Geschäft.", "es": "Ese es el coche más caro de la tienda." } },
+    { "id": "v5", "target": "das Geschäft", "es": "la tienda", "ipa": "/ɡəˈʃɛft/", "esApprox": "«ge-SHEFT»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Geschäft ist groß.", "es": "La tienda es grande." } },
+    { "id": "v6", "target": "die Erinnerung", "es": "el recuerdo", "ipa": "/ɛɐ̯ˈʔɪnəʁʊŋ/", "esApprox": "«er-Í-ne-rung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine schöne Erinnerung.", "es": "Ese es un bonito recuerdo." } },
+    { "id": "v7", "target": "unvergesslich", "es": "inolvidable", "ipa": "/ʊnfɛɐ̯ˈɡɛslɪç/", "esApprox": "«un-fer-GUÉS-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das war ein unvergesslicher Tag.", "es": "Ese fue un día inolvidable." } },
+    { "id": "v8", "target": "auswählen", "es": "elegir, seleccionar", "ipa": "/ˈaʊ̯svɛːlən/", "esApprox": "«ÁUS-vé-len»", "pos": "verbo", "gender": null, "example": { "target": "Ich wähle die beste Option aus.", "es": "Elijo la mejor opción." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["superlativo"], "difficulty": 1, "prompt": "¿Cómo se dice «el mejor día» (ante sustantivo)?", "options": ["am besten Tag", "der beste Tag", "der bester Tag", "das beste Tag"], "answer": 1, "explain": "der beste Tag: best- + -e (declinación débil tras der)." },
+    { "id": "e2", "type": "mcq", "tags": ["superlativo"], "difficulty": 2, "prompt": "¿Con qué artículo suele ir el superlativo ante sustantivo?", "options": ["ein/eine", "der/die/das", "sin artículo", "kein"], "answer": 1, "explain": "Casi siempre con der/die/das, porque «el mejor» implica algo único." },
+    { "id": "e3", "type": "true_false", "tags": ["superlativo"], "difficulty": 2, "statement": "«am besten» y «der beste» se usan exactamente igual, en las mismas posiciones.", "answer": false, "explain": "am besten es predicativo (tras el verbo); der beste va ante un sustantivo, declinado." },
+    { "id": "e4", "type": "true_false", "tags": ["superlativo"], "difficulty": 2, "statement": "El superlativo declinado usa la misma terminación débil que cualquier adjetivo tras der/die/das.", "answer": true, "explain": "der beste Tag, die beste Option, das beste Angebot: todos con -e, como en la clase 101." },
+    { "id": "e5", "type": "match_pairs", "tags": ["superlativo"], "difficulty": 2, "prompt": "Une cada frase con su traducción", "left": ["der beste Tag", "die billigste Option", "das teuerste Auto", "eine unvergessliche Erinnerung"], "right": ["el mejor día", "la opción más barata", "el coche más caro", "un recuerdo inolvidable"], "answer": [0, 1, 2, 3], "explain": "Cuatro ejemplos de superlativo declinado, más un adjetivo relacionado." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["superlativo"], "difficulty": 2, "prompt": "Ese fue el mejor día de mi vida.", "accept": ["Das war der beste Tag meines Lebens"], "hintWords": ["das war der beste Tag meines Lebens"], "strictAccents": false, "audio": "Das war der beste Tag meines Lebens.", "explain": "der beste Tag + meines Lebens (genitivo)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["superlativo"], "difficulty": 2, "prompt": "Compro la opción más barata.", "accept": ["Ich kaufe die billigste Option"], "hintWords": ["ich kaufe die billigste Option"], "strictAccents": false, "audio": "Ich kaufe die billigste Option.", "explain": "die billigste Option: superlativo declinado femenino, -e." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["superlativo"], "difficulty": 2, "prompt": "Ese es el coche más caro de la tienda.", "accept": ["Das ist das teuerste Auto im Geschäft"], "hintWords": ["das ist das teuerste Auto im Geschäft"], "strictAccents": false, "audio": "Das ist das teuerste Auto im Geschäft.", "explain": "das teuerste Auto: superlativo declinado neutro, -e." },
+    { "id": "e9", "type": "fill_blank", "tags": ["superlativo"], "difficulty": 2, "prompt": "Completa con la terminación correcta", "text": "Ich wähle die best___ Option aus. Das war ein unvergesslich___ Tag.", "blanks": [{ "accept": ["e"] }, { "accept": ["er"] }], "bank": ["e", "er", "es"], "explain": "beste (femenino, tras die, -e); unvergesslicher (masculino, tras ein, -er)." },
+    { "id": "e10", "type": "word_order", "tags": ["superlativo"], "difficulty": 2, "prompt": "Ordena: «Elijo la mejor opción»", "tokens": ["die beste Option", "wähle", "Ich", "aus"], "answer": ["Ich", "wähle", "die beste Option", "aus"], "audio": "Ich wähle die beste Option aus.", "explain": "wähle...aus: verbo separable (auswählen), con die beste Option en medio." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["superlativo"], "difficulty": 2, "prompt": "Das ist eine unvergessliche Erinnerung.", "accept": ["Ese es un recuerdo inolvidable."], "strictAccents": false, "audio": "Das ist eine unvergessliche Erinnerung.", "explain": "unvergesslich = inolvidable." },
+    { "id": "e12", "type": "dialogue", "tags": ["superlativo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Emma", "text": "War die Reise schön?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, das war der beste Tag meines Lebens."], "hint": "responde con el superlativo declinado" },
+      { "who": "Emma", "text": "Wie schön!", "speak": true }
+    ], "explain": "Práctica del superlativo declinado en una conversación sobre recuerdos." },
+    { "id": "e13", "type": "listening", "tags": ["superlativo"], "difficulty": 1, "speak": "Das war der beste Tag meines Lebens.", "mode": "write", "accept": ["Das war der beste Tag meines Lebens"], "showTextAfter": true, "explain": "der beste Tag: superlativo declinado masculino." },
+    { "id": "e14", "type": "listening", "tags": ["superlativo"], "difficulty": 2, "speak": "Ich kaufe die billigste Option.", "mode": "choose", "options": ["Ich kaufe die billigste Option.", "Ich kaufe die billiger Option.", "Ich kaufe die billigsten Option."], "answer": 0, "showTextAfter": true, "explain": "die billigste Option: femenino singular, -e, la única forma correcta." },
+    { "id": "e15", "type": "shadowing", "tags": ["superlativo"], "difficulty": 2, "speak": "Das war der beste Tag meines Lebens, und es ist eine unvergessliche Erinnerung.", "es": "Ese fue el mejor día de mi vida, y es un recuerdo inolvidable.", "ipa": "/das vaːɐ̯ deːɐ̯ ˈbɛstə taːk ˈmaɪ̯nəs ˈleːbn̩s ʊnt ɛs ɪst ˈaɪ̯nə ʊnfɛɐ̯ˈɡɛslɪçə ɛɐ̯ˈʔɪnəʁʊŋ/", "esApprox": "«das var der BÉS-te tak MÁI-nes LÉ-bens, unt es ist ÁI-ne un-fer-GUÉS-li-che er-Í-ne-rung»", "focus": "der beste Tag (superlativo declinado masculino) y eine unvergessliche Erinnerung (adjetivo normal femenino).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["superlativo"], "difficulty": 2, "speak": "Ich wähle immer die beste Option aus, auch wenn es nicht die billigste ist.", "es": "Siempre elijo la mejor opción, aunque no sea la más barata.", "ipa": "/ɪç ˈveːlə ˈɪmɐ diː ˈbɛstə ɔpˈtsi̯oːn aʊ̯s aʊ̯x vɛn ɛs nɪçt diː ˈbɪlɪçstə ɪst/", "esApprox": "«ich VÉ-le Í-mer di BÉS-te op-tsi-ÓN aus, aух ven es nicht di BÍ-lich-ste ist»", "focus": "die beste Option y die billigste: dos superlativos declinados, el segundo usado como adjetivo sustantivado.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["superlativo"], "difficulty": 2, "prompt": "Te preguntan cómo fue tu viaje. Di que fue el mejor día de tu vida.", "modelAnswer": "Das war der beste Tag meines Lebens.", "alsoValid": ["Es war unvergesslich."], "speak": "Das war der beste Tag meines Lebens.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["superlativo"], "difficulty": 2, "prompt": "Clasifica cada forma: predicativa (am...) o declinada (ante sustantivo)", "buckets": ["Predicativa (am...)", "Declinada (der/die/das...)"], "items": [
+      { "text": "am besten", "bucket": 0 },
+      { "text": "der beste Tag", "bucket": 1 },
+      { "text": "am billigsten", "bucket": 0 },
+      { "text": "die billigste Option", "bucket": 1 }
+    ], "explain": "am + -sten es predicativo; der/die/das + -e es declinado, ante sustantivo." },
+    { "id": "e19", "type": "error_correction", "tags": ["superlativo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das war am beste Tag meines Lebens.", "accept": ["Das war der beste Tag meines Lebens"], "audio": "Das war der beste Tag meines Lebens.", "explain": "Ante sustantivo, se usa der beste (declinado), no am besten (predicativo)." },
+    { "id": "e20", "type": "mcq", "tags": ["superlativo"], "difficulty": 2, "prompt": "«Das war der beste Tag meines Lebens. Ich wähle immer die beste Option aus, aber diesmal war es auch die billigste.» ¿Qué característica tenía la opción elegida, además de ser la mejor?", "options": ["Era la más cara", "Era la más barata", "Era la más rápida", "No se menciona otra característica"], "answer": 1, "explain": "«diesmal war es auch die billigste» = esta vez también era la más barata." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "der beste Tag", "es": "el mejor día", "esApprox": "«der BÉS-te tak»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "die billigste Option", "es": "la opción más barata", "esApprox": "«di BÍ-lich-ste op-tsi-ÓN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Leben", "es": "la vida", "esApprox": "«LÉ-ben»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Geschäft", "es": "la tienda", "esApprox": "«ge-SHEFT»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "die Erinnerung", "es": "el recuerdo", "esApprox": "«er-Í-ne-rung»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "unvergesslich", "es": "inolvidable", "esApprox": "«un-fer-GUÉS-lich»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Das war der beste Tag meines Lebens, und es ist eine unvergessliche Erinnerung.", "es": "Ese fue el mejor día de mi vida, y es un recuerdo inolvidable.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich wähle immer die beste Option aus, auch wenn es nicht die billigste ist.", "es": "Siempre elijo la mejor opción, aunque no sea la más barata.", "from": "e16" }
+  ]
+}

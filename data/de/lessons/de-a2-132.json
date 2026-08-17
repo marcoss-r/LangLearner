@@ -1,0 +1,92 @@
+{
+  "id": "de-a2-132",
+  "lang": "de",
+  "level": "A2",
+  "order": 132,
+  "title": "El orden de la frase subordinada: el verbo al final",
+  "objectives": [
+    "Repasar de un vistazo todas las conjunciones subordinantes vistas hasta ahora",
+    "Confirmar que TODAS mandan el verbo conjugado al final de su propia frase",
+    "Practicar identificar rápidamente si una conjunción es subordinante o no"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una sola regla para diez conjunciones",
+      "body": "Has aprendido diez conjunciones subordinantes: weil, dass, wenn, als, obwohl, damit, bevor, nachdem, ob, y las W-Fragen indirectas. TODAS comparten exactamente la misma regla: el verbo conjugado va al final de su propia frase. Esta clase no añade ninguna conjunción nueva: solo consolida el patrón que ya dominas."
+    },
+    {
+      "type": "table",
+      "title": "Las diez conjunciones subordinantes, todas juntas",
+      "headers": ["Conjunción", "Significado"],
+      "rows": [
+        ["weil", "porque"],
+        ["dass", "que"],
+        ["wenn", "cuando (futuro/repetición) / si (condicional)"],
+        ["als", "cuando (momento único, pasado)"],
+        ["obwohl", "aunque"],
+        ["damit", "para que"],
+        ["bevor", "antes de que"],
+        ["nachdem", "después de que"],
+        ["ob", "si (pregunta indirecta)"],
+        ["wo/wann/was...", "W-Frage indirecta"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Contraste rápido con las coordinantes de la clase 79 (und, aber, oder, denn): esas NO mueven el verbo. Todo lo demás que has visto en las clases 80-130 SÍ lo manda al final. Si dudas, pregúntate: ¿esta palabra empieza una frase que podría funcionar sola? Si no puede funcionar sola, es subordinante."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Nebensatz", "es": "la frase subordinada", "ipa": "/ˈneːbn̩zats/", "esApprox": "«NÉ-ben-zats»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Nebensatz hat das Verb am Ende.", "es": "La frase subordinada tiene el verbo al final." } },
+    { "id": "v2", "target": "der Hauptsatz", "es": "la frase principal", "ipa": "/ˈhaʊ̯ptzats/", "esApprox": "«JÁUPT-zats»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Hauptsatz steht meistens zuerst.", "es": "La frase principal suele ir primero." } },
+    { "id": "v3", "target": "das Verb", "es": "el verbo", "ipa": "/vɛʁp/", "esApprox": "«verp»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Verb steht am Ende.", "es": "El verbo va al final." } },
+    { "id": "v4", "target": "die Regel", "es": "la regla", "ipa": "/ˈʁeːɡl̩/", "esApprox": "«RÉ-guel»", "pos": "sustantivo", "gender": "f", "example": { "target": "Diese Regel gilt immer.", "es": "Esta regla siempre se aplica." } },
+    { "id": "v5", "target": "erkennen", "es": "reconocer", "ipa": "/ɛɐ̯ˈkɛnən/", "esApprox": "«er-KÉ-nen»", "pos": "verbo", "gender": null, "example": { "target": "Ich erkenne die Struktur.", "es": "Reconozco la estructura." } },
+    { "id": "v6", "target": "die Struktur", "es": "la estructura", "ipa": "/ʃtʁʊkˈtuːɐ̯/", "esApprox": "«shtruk-TÚR»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Struktur ist immer gleich.", "es": "La estructura es siempre la misma." } },
+    { "id": "v7", "target": "das Muster", "es": "el patrón", "ipa": "/ˈmʊstɐ/", "esApprox": "«MÚS-ter»", "pos": "sustantivo", "gender": "n", "example": { "target": "Alle folgen dem gleichen Muster.", "es": "Todas siguen el mismo patrón." } },
+    { "id": "v8", "target": "unterscheiden", "es": "distinguir", "ipa": "/ˌʊntɐˈʃaɪ̯dn̩/", "esApprox": "«un-ter-SHÁI-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich kann sie unterscheiden.", "es": "Puedo distinguirlas." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 1, "prompt": "¿Dónde va el verbo conjugado en una frase subordinada?", "options": ["Posición 1", "Posición 2", "Al final", "No cambia"], "answer": 2, "explain": "Todas las conjunciones subordinantes mandan el verbo al final." },
+    { "id": "e2", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "¿Cuál de estas conjunciones NO es subordinante?", "options": ["weil", "obwohl", "aber", "dass"], "answer": 2, "explain": "aber es coordinante (clase 79): no mueve el verbo." },
+    { "id": "e3", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "wenn, als, ob y las W-Fragen indirectas siguen todas la misma regla de orden.", "answer": true, "explain": "Todas mandan el verbo al final, aunque tengan significados distintos." },
+    { "id": "e4", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "El Hauptsatz (frase principal) también manda su verbo al final.", "answer": false, "explain": "Solo el Nebensatz (subordinada) manda el verbo al final; el Hauptsatz mantiene el verbo en posición 2." },
+    { "id": "e5", "type": "match_pairs", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Nebensatz", "der Hauptsatz", "die Struktur", "unterscheiden"], "right": ["la frase subordinada", "la frase principal", "la estructura", "distinguir"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave de gramática para esta clase de síntesis." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "La frase subordinada tiene el verbo al final.", "accept": ["Der Nebensatz hat das Verb am Ende"], "hintWords": ["der Nebensatz hat das Verb am Ende"], "strictAccents": false, "audio": "Der Nebensatz hat das Verb am Ende.", "explain": "der Nebensatz + hat + das Verb + am Ende." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Esta regla siempre se aplica.", "accept": ["Diese Regel gilt immer"], "hintWords": ["diese Regel gilt immer"], "strictAccents": false, "audio": "Diese Regel gilt immer.", "explain": "Diese Regel gilt immer: sujeto-verbo-adverbio." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Puedo distinguirlas.", "accept": ["Ich kann sie unterscheiden"], "hintWords": ["ich kann sie unterscheiden"], "strictAccents": false, "audio": "Ich kann sie unterscheiden.", "explain": "kann + sie + unterscheiden (infinitivo al final, modal)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Completa con el verbo en la posición correcta", "text": "Ich bleibe zu Hause, weil es ___. (regnen) Ich weiß nicht, ob er ___. (kommen)", "blanks": [{ "accept": ["regnet"] }, { "accept": ["kommt"] }], "bank": ["regnet", "kommt", "regnen"], "explain": "Ambos verbos van al final de su frase subordinada." },
+    { "id": "e10", "type": "word_order", "tags": ["orden-palabras"], "difficulty": 3, "prompt": "Ordena: «Todas siguen el mismo patrón»", "tokens": ["dem gleichen Muster", "Alle folgen"], "answer": ["Alle folgen", "dem gleichen Muster"], "audio": "Alle folgen dem gleichen Muster.", "explain": "Alle folgen dem gleichen Muster: sujeto-verbo-dativo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Ich erkenne die Struktur.", "accept": ["Reconozco la estructura."], "strictAccents": false, "audio": "Ich erkenne die Struktur.", "explain": "erkennen + acusativo (die Struktur)." },
+    { "id": "e12", "type": "dialogue", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lehrer", "text": "Wo steht das Verb im Nebensatz?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Am Ende.", "Das Verb steht am Ende."], "hint": "responde con la regla clave" },
+      { "who": "Lehrer", "text": "Genau, sehr gut!", "speak": true }
+    ], "explain": "Práctica de identificar la regla central de las subordinadas." },
+    { "id": "e13", "type": "listening", "tags": ["orden-palabras"], "difficulty": 1, "speak": "Der Nebensatz hat das Verb am Ende.", "mode": "write", "accept": ["Der Nebensatz hat das Verb am Ende"], "showTextAfter": true, "explain": "Frase clave de esta clase de síntesis." },
+    { "id": "e14", "type": "listening", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Diese Regel gilt immer.", "mode": "choose", "options": ["Diese Regel gilt immer.", "Diese Regel gilt manchmal.", "Diese Regel gilt nie."], "answer": 0, "showTextAfter": true, "explain": "gilt immer: la regla del verbo al final no tiene excepciones entre las conjunciones subordinantes." },
+    { "id": "e15", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Ob es weil, dass, wenn oder obwohl ist: der Nebensatz hat immer das Verb am Ende.", "es": "Ya sea weil, dass, wenn u obwohl: la subordinada siempre tiene el verbo al final.", "ipa": "/ɔp ɛs vaɪ̯l das vɛn ˈoːdɐ ɔpˈvoːl ɪst deːɐ̯ ˈneːbn̩zats hat ˈɪmɐ das vɛʁp am ˈɛndə/", "esApprox": "«op es vail, das, ven Ó-der op-VOL ist: der NÉ-ben-zats jat Í-mer das verp am ÉN-de»", "focus": "Frase de síntesis que agrupa cuatro conjunciones subordinantes bajo la misma regla.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Ich kann die Struktur jetzt gut unterscheiden, denn ich habe das Muster erkannt.", "es": "Ahora puedo distinguir bien la estructura, porque he reconocido el patrón.", "ipa": "/ɪç kan diː ʃtʁʊkˈtuːɐ̯ jɛtst ɡuːt ˌʊntɐˈʃaɪ̯dn̩ dɛn ɪç ˈhaːbə das ˈmʊstɐ ɛɐ̯ˈkant/", "esApprox": "«ich kan di shtruk-TÚR yetst gut un-ter-SHÁI-den, den ich JÁ-be das MÚS-ter er-KANT»", "focus": "kann...unterscheiden (modal, infinitivo al final) frente a denn (coordinante, sin mover habe).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Te preguntan dónde va el verbo en una frase subordinada. Responde que va al final.", "modelAnswer": "Das Verb steht am Ende.", "alsoValid": ["Am Ende."], "speak": "Das Verb steht am Ende.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Clasifica cada conjunción: subordinante o coordinante", "buckets": ["Subordinante (verbo al final)", "Coordinante (no mueve el verbo)"], "items": [
+      { "text": "weil", "bucket": 0 },
+      { "text": "und", "bucket": 1 },
+      { "text": "obwohl", "bucket": 0 },
+      { "text": "aber", "bucket": 1 },
+      { "text": "damit", "bucket": 0 }
+    ], "explain": "weil, obwohl y damit son subordinantes; und y aber son coordinantes." },
+    { "id": "e19", "type": "error_correction", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich bleibe zu Hause, weil regnet es.", "accept": ["Ich bleibe zu Hause, weil es regnet"], "audio": "Ich bleibe zu Hause, weil es regnet.", "explain": "Con weil (y cualquier subordinante), el verbo conjugado va al final, no justo después de la conjunción." },
+    { "id": "e20", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "«Ob es weil, dass, wenn oder obwohl ist: der Nebensatz hat immer das Verb am Ende. Das ist die wichtigste Regel der deutschen Grammatik für Anfänger.» ¿Cuál es, según el texto, la regla más importante para principiantes?", "options": ["El género de los sustantivos", "El verbo al final en la subordinada", "La declinación del adjetivo", "El uso de ser/estar"], "answer": 1, "explain": "«das Verb am Ende» = el verbo al final, presentada como la regla más importante." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Nebensatz", "es": "la frase subordinada", "esApprox": "«NÉ-ben-zats»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Hauptsatz", "es": "la frase principal", "esApprox": "«JÁUPT-zats»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Verb", "es": "el verbo", "esApprox": "«verp»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Regel", "es": "la regla", "esApprox": "«RÉ-guel»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Struktur", "es": "la estructura", "esApprox": "«shtruk-TÚR»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "unterscheiden", "es": "distinguir", "esApprox": "«un-ter-SHÁI-den»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ob es weil, dass, wenn oder obwohl ist: der Nebensatz hat immer das Verb am Ende.", "es": "Ya sea weil, dass, wenn u obwohl: la subordinada siempre tiene el verbo al final.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich kann die Struktur jetzt gut unterscheiden, denn ich habe das Muster erkannt.", "es": "Ahora puedo distinguir bien la estructura, porque he reconocido el patrón.", "from": "e16" }
+  ]
+}

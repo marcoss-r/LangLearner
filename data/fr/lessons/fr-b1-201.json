@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-201",
+  "lang": "fr",
+  "level": "B1",
+  "order": 201,
+  "title": "Sacar conclusiones: par conséquent, donc, ainsi",
+  "objectives": [
+    "Usar par conséquent, ainsi y c'est pourquoi para sacar conclusiones",
+    "Usar en conclusion y pour toutes ces raisons para cerrar un texto o discurso",
+    "Distinguir el registro formal de du coup, muy coloquial"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "De la causa a la consecuencia",
+      "body": "Ya conoces donc y car. Ahora amplías el repertorio para sacar conclusiones con más precisión, sobre todo en textos o discursos más formales."
+    },
+    {
+      "type": "table",
+      "title": "Conectores de conclusión",
+      "headers": ["Conector", "Uso"],
+      "rows": [
+        ["par conséquent", "formal, consecuencia lógica"],
+        ["ainsi", "formal, «así, de este modo»"],
+        ["c'est pourquoi", "neutro, «por eso»"],
+        ["du coup", "muy informal, oral"],
+        ["en conclusion / pour toutes ces raisons", "cierre de un texto o discurso entero"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "En conclusion no es para cualquier consecuencia",
+      "body": "En conclusion y pour toutes ces raisons cierran un texto o discurso completo, no una simple consecuencia puntual dentro de una frase. Para eso, usa par conséquent o donc."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "par conséquent", "es": "por consiguiente", "ipa": "/paʁ kɔ̃.se.kɑ̃/", "esApprox": "«par kon-se-KAN»", "pos": "conjunción", "gender": null },
+    { "id": "v2", "target": "ainsi", "es": "así, de este modo", "ipa": "/ɛ̃.si/", "esApprox": "«in-SÍ»", "pos": "adverbio", "gender": null },
+    { "id": "v3", "target": "c'est pourquoi", "es": "por eso", "ipa": "/sɛ puʁ.kwa/", "esApprox": "«se pur-KUÁ»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "de ce fait", "es": "por ese motivo", "ipa": "/də sə fɛ/", "esApprox": "«de se FE»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "du coup", "es": "así pues, entonces (informal)", "ipa": "/dy ku/", "esApprox": "«dü KU»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "en conclusion", "es": "en conclusión", "ipa": "/ɑ̃ kɔ̃.kly.zjɔ̃/", "esApprox": "«an kon-klü-SIÓN»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "pour toutes ces raisons", "es": "por todas estas razones", "ipa": "/puʁ tut se ʁɛ.zɔ̃/", "esApprox": "«pur TUT se re-ZÓN»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "donc", "es": "así que, por lo tanto", "ipa": "/dɔ̃k/", "esApprox": "«DONK»", "pos": "conjunción", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es más formal para sacar una conclusión?",
+      "options": ["du coup", "par conséquent", "donc", "ainsi"],
+      "answer": 1,
+      "explain": "Par conséquent es el más formal de esta lista."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «por eso» de forma directa?",
+      "options": ["c'est pourquoi", "ainsi", "en conclusion", "malgré cela"],
+      "answer": 0,
+      "explain": "C'est pourquoi es la forma más directa de decir «por eso»."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "statement": "Du coup es muy informal, típico del habla oral.",
+      "answer": true,
+      "explain": "Du coup se usa mucho al hablar, pero se evita en textos formales."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "statement": "En conclusion se usa para empezar una explicación.",
+      "answer": false,
+      "explain": "En conclusion cierra un texto o discurso, no lo empieza."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "Une cada conector con su característica",
+      "left": ["par conséquent", "du coup", "en conclusion", "pour toutes ces raisons"],
+      "right": ["formal", "informal", "cierre de un texto", "resumen final"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Par conséquent = formal, du coup = informal, en conclusion y pour toutes ces raisons = cierre de un texto."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "Llovía mucho; por consiguiente, decidimos quedarnos en casa.",
+      "accept": ["Il pleuvait beaucoup, par conséquent nous avons décidé de rester à la maison"],
+      "hintWords": ["il pleuvait beaucoup", "par conséquent nous avons décidé de rester à la maison"],
+      "strictAccents": true,
+      "audio": "Il pleuvait beaucoup, par conséquent nous avons décidé de rester à la maison.",
+      "explain": "Par conséquent, un conector formal de consecuencia."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "Por todas estas razones, pienso que es una buena idea.",
+      "accept": ["Pour toutes ces raisons, je pense que c'est une bonne idée"],
+      "hintWords": ["pour toutes ces raisons", "je pense que c'est une bonne idée"],
+      "strictAccents": true,
+      "audio": "Pour toutes ces raisons, je pense que c'est une bonne idée.",
+      "explain": "Pour toutes ces raisons resume varios argumentos anteriores."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "Completa con el conector correcto",
+      "text": "Il n'y avait plus de billets, ___ nous sommes restés, et ___ nous avons raté le concert.",
+      "blanks": [{ "accept": ["donc"] }, { "accept": ["ainsi"] }],
+      "bank": ["donc", "ainsi", "mais"],
+      "explain": "Donc (consecuencia directa) y ainsi (así, de este modo)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «En conclusión, este proyecto es un éxito»",
+      "tokens": ["ce projet est une réussite", "En conclusion"],
+      "answer": ["En conclusion", "ce projet est une réussite"],
+      "audio": "En conclusion, ce projet est une réussite.",
+      "explain": "En conclusion cierra un discurso o texto entero."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "Il n'y avait plus de place, du coup nous sommes rentrés plus tôt.",
+      "accept": ["Ya no había sitio, así que volvimos antes."],
+      "strictAccents": false,
+      "audio": "Il n'y avait plus de place, du coup nous sommes rentrés plus tôt.",
+      "explain": "Du coup, un conector muy informal de consecuencia."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando por qué volviste temprano",
+      "turns": [
+        { "who": "Léa", "text": "Pourquoi tu es rentré tôt ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il n'y avait plus de place, du coup je suis rentré.", "Il pleuvait, par conséquent je suis rentré tôt."], "hint": "usa un conector de conclusión" },
+        { "who": "Léa", "text": "Ah, je comprends.", "speak": true }
+      ],
+      "explain": "Repaso combinado de los conectores de conclusión."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "speak": "Il pleuvait beaucoup, par conséquent nous sommes restés à la maison, et ainsi nous avons pu nous reposer.",
+      "mode": "write",
+      "accept": ["Il pleuvait beaucoup, par conséquent nous sommes restés à la maison, et ainsi nous avons pu nous reposer"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de par conséquent y ainsi."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 1,
+      "speak": "par conséquent",
+      "mode": "choose",
+      "options": ["du coup", "par conséquent", "ainsi", "donc"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Par conséquent es el conector de consecuencia más formal."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 3,
+      "speak": "Il pleuvait beaucoup, par conséquent nous sommes restés à la maison. C'est pourquoi nous avons raté le concert. Pour toutes ces raisons, je préfère rester prudent.",
+      "es": "Llovía mucho, por consiguiente nos quedamos en casa. Por eso nos perdimos el concierto. Por todas estas razones, prefiero ser prudente.",
+      "ipa": "/il plœ.vɛ bo.ku paʁ kɔ̃.se.kɑ̃ nu sɔm ʁɛs.te a la mɛ.zɔ̃ sɛ puʁ.kwa nu.z‿a.vɔ̃ ʁa.te lə kɔ̃.sɛʁ puʁ tut se ʁɛ.zɔ̃ ʒə pʁe.fɛʁ ʁɛs.te pʁy.dɑ̃/",
+      "esApprox": "«il plö-VE bo-KÚ par kon-se-KAN nu som res-TÉ a la me-ZÓN se pur-KUÁ nu-za-VON ra-TÉ le kon-SER pur TUT se re-ZÓN ye pre-FER res-TÉ prü-DAN»",
+      "focus": "Tres conectores de conclusión encadenados, de mayor a menor formalidad.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "Saca una conclusión de una situación, usando par conséquent o donc.",
+      "modelAnswer": "Il pleuvait beaucoup, par conséquent nous sommes restés à la maison.",
+      "alsoValid": ["Il n'y avait plus de place, du coup nous sommes rentrés."],
+      "speak": "Il pleuvait beaucoup, par conséquent nous sommes restés à la maison.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "¿Es formal o coloquial (oral)?",
+      "buckets": ["Formal", "Coloquial"],
+      "items": [
+        { "text": "par conséquent", "bucket": 0 },
+        { "text": "du coup", "bucket": 1 },
+        { "text": "en conclusion", "bucket": 0 },
+        { "text": "donc", "bucket": 1 }
+      ],
+      "explain": "Par conséquent y en conclusion son formales; du coup y donc son más habituales en el habla cotidiana."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["conectores", "consecuencia"],
+      "difficulty": 2,
+      "prompt": "Hay un error: en conclusion cierra un texto entero, no una consecuencia puntual. Corrige la frase entera.",
+      "wrong": "Il pleuvait, en conclusion nous sommes restés à la maison.",
+      "accept": ["Il pleuvait, par conséquent nous sommes restés à la maison"],
+      "audio": "Il pleuvait, par conséquent nous sommes restés à la maison.",
+      "explain": "En conclusion cierra un texto o discurso entero; para una consecuencia puntual se usa par conséquent o donc."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "par conséquent", "es": "por consiguiente", "esApprox": "«par kon-se-KAN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "ainsi", "es": "así, de este modo", "esApprox": "«in-SÍ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "c'est pourquoi", "es": "por eso", "esApprox": "«se pur-KUÁ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "du coup", "es": "así pues, entonces (informal)", "esApprox": "«dü KU»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "en conclusion", "es": "en conclusión", "esApprox": "«an kon-klü-SIÓN»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "pour toutes ces raisons", "es": "por todas estas razones", "esApprox": "«pur TUT se re-ZÓN»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Il pleuvait beaucoup, par conséquent nous avons décidé de rester à la maison.", "es": "Llovía mucho; por consiguiente, decidimos quedarnos en casa.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Pour toutes ces raisons, je pense que c'est une bonne idée.", "es": "Por todas estas razones, pienso que es una buena idea.", "from": "e7" }
+  ]
+}

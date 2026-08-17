@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-245",
+  "lang": "de",
+  "level": "B1",
+  "order": 245,
+  "title": "Pronunciación general VIII: las variantes del sur (Baviera y Austria, lo básico para reconocerlas)",
+  "objectives": [
+    "Reconocer rasgos básicos del alemán del sur (Baviera, Austria): saludo Grüß Gott, servus, pronunciación de -ig como -ik",
+    "Identificar el diminutivo -erl como marca típica del sur frente a -chen del alemán estándar",
+    "Entender que estas variantes son solo para RECONOCER al oído, no para producir en un examen estándar"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El alemán no suena igual en todas partes",
+      "body": "El alemán estándar (Hochdeutsch) que has aprendido es el que se usa en medios y educación, pero en Baviera y Austria se oyen rasgos propios. El saludo cambia: en vez de «Hallo» se usa «Grüß Gott» (formal) o «Servus» (informal, también para despedirse). La terminación -ig, que en el norte suena /ɪç/ (como «ich»), en el sur suena /ɪk/ (como «ick»): «richtig» se oye «richtik». El diminutivo también cambia: donde el estándar usa -chen (Mädchen), el sur usa -erl (Mäderl, Hunderl).",
+      "examples": [
+        { "target": "Grüß Gott!", "es": "¡Buenos días/tardes! (saludo formal del sur)", "note": "literalmente «que Dios te salude», muy común en Baviera y Austria" },
+        { "target": "Servus!", "es": "¡Hola!/¡Adiós! (informal)", "note": "se usa tanto para saludar como para despedirse" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Alemán estándar vs. rasgos del sur",
+      "headers": ["Rasgo", "Alemán estándar", "Sur (Baviera/Austria)"],
+      "rows": [
+        ["Saludo", "Hallo, Guten Tag", "Grüß Gott, Servus"],
+        ["Terminación -ig", "/ɪç/ (richtich)", "/ɪk/ (richtik)"],
+        ["Diminutivo", "-chen (Mädchen)", "-erl (Mäderl)"],
+        ["Afirmación", "ja", "jo / eh"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No necesitas producir estas formas: para un examen estándar de alemán usa siempre Hochdeutsch (Hallo, richtig, Mädchen). Esta clase es solo para que, si viajas a Múnich o Viena, no te sorprenda oír «Grüß Gott» o «richtik» y sepas que es la misma lengua, con acento regional."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Dialekt", "es": "el dialecto", "ipa": "/diaˈlɛkt/", "esApprox": "«di-a-LÉKT»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der bayerische Dialekt klingt anders.", "es": "El dialecto bávaro suena diferente." } },
+    { "id": "v2", "target": "die Region", "es": "la región", "ipa": "/ʁeˈɡi̯oːn/", "esApprox": "«re-gi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "In dieser Region spricht man anders.", "es": "En esta región se habla diferente." } },
+    { "id": "v3", "target": "Grüß Gott", "es": "buenos días/tardes (saludo del sur)", "ipa": "/ɡʁyːs ɡɔt/", "esApprox": "«grüs got»", "pos": "expresión", "gender": null, "example": { "target": "In Bayern sagt man oft «Grüß Gott».", "es": "En Baviera se dice a menudo «Grüß Gott»." } },
+    { "id": "v4", "target": "servus", "es": "hola/adiós (informal, sur)", "ipa": "/ˈzɛʁvʊs/", "esApprox": "«ZÉR-vus»", "pos": "expresión", "gender": null, "example": { "target": "Servus, wie geht's?", "es": "Hola, ¿qué tal?" } },
+    { "id": "v5", "target": "klingen", "es": "sonar", "ipa": "/ˈklɪŋən/", "esApprox": "«KLÍN-guen»", "pos": "verbo", "gender": null, "example": { "target": "Das klingt ganz anders als Hochdeutsch.", "es": "Eso suena muy diferente al alemán estándar." } },
+    { "id": "v6", "target": "das Hochdeutsch", "es": "el alemán estándar", "ipa": "/ˈhoːxdɔɪ̯tʃ/", "esApprox": "«JOJ-doich»", "pos": "sustantivo", "gender": "n", "example": { "target": "In der Schule lernt man Hochdeutsch.", "es": "En la escuela se aprende alemán estándar." } },
+    { "id": "v7", "target": "erkennen", "es": "reconocer", "ipa": "/ɛɐ̯ˈkɛnən/", "esApprox": "«er-KÉ-nen»", "pos": "verbo", "gender": null, "example": { "target": "Kannst du den Akzent erkennen?", "es": "¿Puedes reconocer el acento?" } },
+    { "id": "v8", "target": "je nach", "es": "según, dependiendo de", "ipa": "/jeː naːx/", "esApprox": "«ye naj»", "pos": "preposición", "gender": null, "example": { "target": "Je nach Region klingt das Deutsch anders.", "es": "Según la región, el alemán suena diferente." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["variantes-regionales"], "difficulty": 1, "prompt": "¿Qué significa «Grüß Gott»?", "options": ["Adiós", "Un saludo formal usado en el sur", "Buenas noches", "Perdón"], "answer": 1, "explain": "«Grüß Gott» es el saludo típico de Baviera y Austria, equivalente a «buenos días/buenas tardes»." },
+    { "id": "e2", "type": "mcq", "tags": ["variantes-regionales"], "difficulty": 2, "prompt": "En el sur, la terminación -ig de «richtig» suele sonar como...", "options": ["/ɪç/", "/ɪk/", "/ɪs/", "/ɪt/"], "answer": 1, "explain": "En el sur, -ig se pronuncia /ɪk/ (richtik) en vez de /ɪç/ (richtich) del norte." },
+    { "id": "e3", "type": "true_false", "tags": ["variantes-regionales"], "difficulty": 2, "statement": "«Servus» se usa tanto para saludar como para despedirse.", "answer": true, "explain": "Servus funciona en ambos sentidos, como «ciao» en italiano." },
+    { "id": "e4", "type": "true_false", "tags": ["pronunciacion-general"], "difficulty": 1, "statement": "Para un examen estándar de alemán, debes usar «Grüß Gott» y «richtik» en vez de «Hallo» y «richtig».", "answer": false, "explain": "Estas formas son solo para reconocer; en un contexto estándar se usa Hochdeutsch." },
+    { "id": "e5", "type": "match_pairs", "tags": ["variantes-regionales"], "difficulty": 2, "prompt": "Une cada forma del sur con su equivalente estándar", "left": ["Grüß Gott", "Servus", "Mäderl", "richtik"], "right": ["Hallo/Guten Tag", "Hallo/Tschüss", "Mädchen", "richtig"], "answer": [0, 1, 2, 3], "explain": "Formas regionales del sur frente a sus equivalentes en Hochdeutsch." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "El dialecto bávaro suena diferente.", "accept": ["Der bayerische Dialekt klingt anders"], "hintWords": ["der bayerische Dialekt klingt anders"], "strictAccents": false, "audio": "Der bayerische Dialekt klingt anders.", "explain": "klingen = sonar." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "En la escuela se aprende alemán estándar.", "accept": ["In der Schule lernt man Hochdeutsch"], "hintWords": ["in der Schule lernt man Hochdeutsch"], "strictAccents": false, "audio": "In der Schule lernt man Hochdeutsch.", "explain": "das Hochdeutsch = el alemán estándar." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Según la región, el alemán suena diferente.", "accept": ["Je nach Region klingt das Deutsch anders"], "hintWords": ["je nach Region klingt das Deutsch anders"], "strictAccents": false, "audio": "Je nach Region klingt das Deutsch anders.", "explain": "je nach + dativo = según, dependiendo de." },
+    { "id": "e9", "type": "fill_blank", "tags": ["variantes-regionales"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "In Bayern sagt man oft «___». Das ist typisch für diese ___.", "blanks": [{ "accept": ["Grüß Gott"] }, { "accept": ["Region"] }], "bank": ["Grüß Gott", "Region", "Dialekt"], "explain": "Grüß Gott (saludo del sur) y die Region (la región)." },
+    { "id": "e10", "type": "word_order", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Ordena: «¿Puedes reconocer el acento?»", "tokens": ["den Akzent", "Kannst du", "erkennen"], "answer": ["Kannst du", "den Akzent", "erkennen"], "audio": "Kannst du den Akzent erkennen?", "explain": "Kannst du (posición 1-2) + den Akzent (objeto) + erkennen (infinitivo final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["variantes-regionales"], "difficulty": 2, "prompt": "Servus, wie geht's?", "accept": ["Hola, ¿qué tal?", "Hola/adiós, ¿cómo estás?"], "strictAccents": false, "audio": "Servus, wie geht's?", "explain": "Servus = saludo informal del sur, equivalente a hola o adiós." },
+    { "id": "e12", "type": "dialogue", "tags": ["variantes-regionales"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Bayer", "text": "Grüß Gott! Wie geht's Ihnen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Grüß Gott! Danke, gut."], "hint": "responde al saludo del sur" },
+      { "who": "Bayer", "text": "Servus, bis bald!", "speak": true }
+    ], "explain": "Grüß Gott es un saludo formal del sur; Servus se usa para despedirse." },
+    { "id": "e13", "type": "listening", "tags": ["variantes-regionales"], "difficulty": 2, "speak": "Grüß Gott, servus, richtik.", "mode": "write", "accept": ["Grüß Gott, servus, richtik."], "showTextAfter": true, "explain": "Tres formas típicas del sur: saludo formal, saludo informal y la pronunciación de -ig." },
+    { "id": "e14", "type": "listening", "tags": ["pronunciacion-general"], "difficulty": 2, "speak": "Je nach Region klingt das Deutsch anders.", "mode": "choose", "options": ["Je nach Region klingt das Deutsch anders.", "Je nach Region schreibt man das Deutsch anders.", "Je nach Region gibt es kein Deutsch."], "answer": 0, "showTextAfter": true, "explain": "klingt anders = suena diferente, hablando de pronunciación regional." },
+    { "id": "e15", "type": "shadowing", "tags": ["variantes-regionales"], "difficulty": 2, "speak": "In Bayern und Österreich sagt man oft Grüß Gott statt Hallo, und Servus zum Abschied statt Tschüss.", "es": "En Baviera y Austria se dice a menudo Grüß Gott en vez de Hallo, y Servus para despedirse en vez de Tschüss.", "ipa": "/ɪn ˈbaɪ̯ɐn ʊnt ˈøːstɐʁaɪ̯ç zaːkt man ɔft ɡʁyːs ɡɔt ʃtat ˈhalo ʊnt ˈzɛʁvʊs tsʊm ˈapʃiːt ʃtat tʃʏs/", "esApprox": "«in BÁI-ern unt ÖS-ter-raij zakt man oft grüs got shtat JÁ-lo, unt ZÉR-vus tsum AP-shit shtat chüs»", "focus": "Contraste directo entre los saludos regionales y sus equivalentes estándar.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["pronunciacion-general"], "difficulty": 2, "speak": "Der bayerische Dialekt klingt ganz anders als Hochdeutsch, aber je nach Region gibt es viele solche Unterschiede.", "es": "El dialecto bávaro suena muy diferente al alemán estándar, pero según la región hay muchas diferencias así.", "ipa": "/deːɐ̯ ˈbaɪ̯əʁɪʃə diaˈlɛkt klɪŋt ɡants ˈandɐs als ˈhoːxdɔɪ̯tʃ aːbɐ jeː naːx ʁeˈɡi̯oːn ɡiːpt ɛs ˈfiːlə ˈzɔlçə ˈʊntɐʃiːdə/", "esApprox": "«der BÁI-e-ri-she di-a-LÉKT klingt gants ÁN-ders als JOJ-doich, ÁBer ye naj re-gi-ÓN gipt es FÍ-le ZÓL-je ÚN-ter-shí-de»", "focus": "Frase larga con vocabulario técnico sobre variación dialectal.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["variantes-regionales"], "difficulty": 2, "prompt": "Saludas de forma formal a alguien en Baviera.", "modelAnswer": "Grüß Gott!", "alsoValid": ["Grüß Gott, wie geht's Ihnen?"], "speak": "Grüß Gott!", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["variantes-regionales"], "difficulty": 2, "prompt": "Clasifica cada forma según su origen", "buckets": ["Alemán estándar (Hochdeutsch)", "Variante del sur"], "items": [
+      { "text": "Hallo", "bucket": 0 },
+      { "text": "Grüß Gott", "bucket": 1 },
+      { "text": "Mädchen", "bucket": 0 },
+      { "text": "Mäderl", "bucket": 1 }
+    ], "explain": "Hallo y Mädchen son formas estándar; Grüß Gott y Mäderl son propias del sur." },
+    { "id": "e19", "type": "error_correction", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "Hay un error en la explicación. Corrígela.", "wrong": "Debes usar siempre «Grüß Gott» y el diminutivo -erl en un examen estándar de alemán.", "accept": ["Para un examen estándar se debe usar Hochdeutsch: Hallo y el diminutivo -chen", "En un examen estándar se usa el alemán estándar, no las formas regionales del sur"], "explain": "Las formas del sur son solo para reconocer al oído; en contextos formales o de examen se usa Hochdeutsch." },
+    { "id": "e20", "type": "mcq", "tags": ["pronunciacion-general"], "difficulty": 2, "prompt": "«In Bayern und Österreich klingt das Deutsch anders: man sagt Grüß Gott statt Hallo, und die Endung -ig klingt oft wie -ik. Das sind Merkmale des Südens, aber im Unterricht lernt man Hochdeutsch.» ¿Qué se explica en el texto?", "options": ["Que el alemán del sur es incorrecto", "Que hay rasgos regionales del sur que conviene reconocer, aunque en clase se enseña el estándar", "Que en Austria no se habla alemán", "Que el Hochdeutsch ya no se usa"], "answer": 1, "explain": "El texto contrasta rasgos regionales del sur con el Hochdeutsch enseñado en clase." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Dialekt", "es": "el dialecto", "esApprox": "«di-a-LÉKT»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "Grüß Gott", "es": "buenos días/tardes (saludo del sur)", "esApprox": "«grüs got»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "servus", "es": "hola/adiós (informal, sur)", "esApprox": "«ZÉR-vus»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "klingen", "es": "sonar", "esApprox": "«KLÍN-guen»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "das Hochdeutsch", "es": "el alemán estándar", "esApprox": "«JOJ-doich»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "je nach", "es": "según, dependiendo de", "esApprox": "«ye naj»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "In Bayern und Österreich sagt man oft Grüß Gott statt Hallo, und Servus zum Abschied statt Tschüss.", "es": "En Baviera y Austria se dice a menudo Grüß Gott en vez de Hallo, y Servus para despedirse en vez de Tschüss.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der bayerische Dialekt klingt ganz anders als Hochdeutsch, aber je nach Region gibt es viele solche Unterschiede.", "es": "El dialecto bávaro suena muy diferente al alemán estándar, pero según la región hay muchas diferencias así.", "from": "e16" }
+  ]
+}

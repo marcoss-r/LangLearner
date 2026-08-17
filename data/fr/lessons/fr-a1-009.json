@@ -1,0 +1,375 @@
+{
+  "id": "fr-a1-009",
+  "lang": "fr",
+  "level": "A1",
+  "order": 9,
+  "title": "El verbo être",
+  "objectives": [
+    "Conjugar être (ser/estar) en las seis personas del presente",
+    "Usar être para decir profesión, nacionalidad y estado de ánimo",
+    "Preguntar con entonación usando être: Tu es...? "
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El verbo más irregular y más usado del francés",
+      "body": "**Être** significa a la vez «ser» y «estar»: el francés no distingue entre los dos como el español. Es el verbo más irregular de la lengua (no se parece nada a su infinitivo en casi ninguna forma), pero también el más usado, así que merece la pena memorizarlo bien desde ya. Ya lo viste de pasada en la clase 1; ahora lo aprendes entero y con calma.",
+      "examples": [
+        { "target": "Je suis fatigué.", "es": "Estoy cansado.", "note": "estado" },
+        { "target": "Il est étudiant.", "es": "Es estudiante.", "note": "profesión" },
+        { "target": "Nous sommes français.", "es": "Somos franceses.", "note": "nacionalidad" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Être en presente",
+      "headers": ["Persona", "Forma", "Aproximación"],
+      "rows": [
+        ["je", "suis", "«sü-í»"],
+        ["tu", "es", "«e»"],
+        ["il / elle / on", "est", "«e»"],
+        ["nous", "sommes", "«som»"],
+        ["vous", "êtes", "«et»"],
+        ["ils / elles", "sont", "«son»"]
+      ],
+      "note": "Tu es, il est y vous êtes suenan parecido (todas con «e»), pero se escriben distinto. Fíate del contexto, no solo del oído."
+    },
+    {
+      "type": "phonetics",
+      "title": "Las liaisons de être",
+      "body": "Delante de una palabra que empieza por vocal, varias formas de être se enlazan con una consonante que, sola, no se oiría.",
+      "drills": [
+        { "target": "vous êtes", "ipa": "/vu.z‿ɛt/", "esApprox": "«vu-ZET»", "hint": "la s de vous suena como z, pegada a êtes" },
+        { "target": "ils sont", "ipa": "/il sɔ̃/", "esApprox": "«il SON»", "hint": "aquí no hay enlace especial: sont ya empieza por consonante" },
+        { "target": "nous sommes", "ipa": "/nu sɔm/", "esApprox": "«nu SOM»", "hint": "sin enlace especial" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Être no distingue ser de estar",
+      "items": [
+        { "wrong": "Buscar dos verbos distintos, como en español, para «ser» y «estar»", "right": "être sirve para los dos: je suis fatigué (estoy cansado), je suis étudiant (soy estudiante)", "why": "El francés no tiene el equivalente de «estar»: todo pasa por être. No busques una segunda opción, no existe." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Cuando être va seguido de un adjetivo, el adjetivo concuerda en género con el sujeto: normalmente se añade una **-e** en femenino (content → contente, fatigué → fatiguée). Esta -e final no se pronuncia, pero a veces cambia el sonido de la consonante anterior. Verás la regla completa en la clase 25; de momento, fíjate en el patrón cuando lo veas en el vocabulario."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "être",
+      "es": "ser, estar",
+      "ipa": "/ɛtʁ/",
+      "esApprox": "«ETR»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Être ou ne pas être.", "es": "Ser o no ser." }
+    },
+    {
+      "id": "v2",
+      "target": "content / contente",
+      "es": "contento, contenta",
+      "ipa": "/kɔ̃.tɑ̃ / kɔ̃.tɑ̃t/",
+      "esApprox": "«kon-TAN» / «kon-TANT»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Je suis content de te voir.", "es": "Estoy contento de verte." }
+    },
+    {
+      "id": "v3",
+      "target": "fatigué / fatiguée",
+      "es": "cansado, cansada",
+      "ipa": "/fa.ti.ɡe/",
+      "esApprox": "«fa-ti-GHÉ»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Je suis fatigué aujourd'hui.", "es": "Estoy cansado hoy." }
+    },
+    {
+      "id": "v4",
+      "target": "étudiant / étudiante",
+      "es": "estudiante",
+      "ipa": "/e.ty.djɑ̃ / e.ty.djɑ̃t/",
+      "esApprox": "«e-tü-DIAN» / «e-tü-DIANT»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les étudiants / les étudiantes",
+      "example": { "target": "Nous sommes étudiants.", "es": "Somos estudiantes." }
+    },
+    {
+      "id": "v5",
+      "target": "français / française",
+      "es": "francés, francesa",
+      "ipa": "/fʁɑ̃.sɛ / fʁɑ̃.sɛz/",
+      "esApprox": "«fran-SÉ» / «fran-SEZ»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Elle est française.", "es": "Es francesa." }
+    },
+    {
+      "id": "v6",
+      "target": "espagnol / espagnole",
+      "es": "español, española",
+      "ipa": "/ɛs.pa.ɲɔl/",
+      "esApprox": "«es-pa-ÑOL»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Vous êtes espagnol ?", "es": "¿Es usted español?" }
+    },
+    {
+      "id": "v7",
+      "target": "célibataire",
+      "es": "soltero, soltera",
+      "ipa": "/se.li.ba.tɛʁ/",
+      "esApprox": "«se-li-ba-TER»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Ils sont célibataires.", "es": "Están solteros." }
+    },
+    {
+      "id": "v8",
+      "target": "marié / mariée",
+      "es": "casado, casada",
+      "ipa": "/ma.ʁje/",
+      "esApprox": "«ma-RIÉ»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Elle est mariée.", "es": "Está casada." }
+    },
+    {
+      "id": "v9",
+      "target": "grand / grande",
+      "es": "alto, alta; grande",
+      "ipa": "/ɡʁɑ̃ / ɡʁɑ̃d/",
+      "esApprox": "«GRAN» / «GRAND»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Il est très grand.", "es": "Es muy alto." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["etre"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma de être para «nous»?",
+      "options": ["sommes", "êtes", "sont", "est"],
+      "answer": 0,
+      "explain": "Nous sommes es la forma correcta para nous."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "prompt": "«Vous êtes espagnol ?» puede significar...",
+      "options": ["sois español", "¿es usted español? / ¿sois españoles?", "son españoles", "somos españoles"],
+      "answer": 1,
+      "explain": "Vous puede ser formal singular o plural: es usted español / sois españoles."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["etre"],
+      "difficulty": 1,
+      "statement": "Être sirve tanto para «ser» como para «estar» en español.",
+      "answer": true,
+      "explain": "El francés no distingue ser/estar: todo pasa por être."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas de être es plural, a diferencia de las demás?",
+      "options": ["suis", "es", "sont", "est"],
+      "answer": 2,
+      "explain": "Sont es la forma de ils/elles, plural; las otras tres son singulares."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["etre"],
+      "difficulty": 1,
+      "prompt": "Une cada pronombre con su forma de être",
+      "left": ["je", "tu", "nous", "ils"],
+      "right": ["sont", "suis", "es", "sommes"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Je suis, tu es, nous sommes, ils sont."
+    },
+    {
+      "id": "e6",
+      "type": "conjugation",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "verb": "être",
+      "tense": "présent",
+      "prompt": "Conjuga «être» en presente",
+      "rows": [
+        { "person": "je", "accept": ["suis"] },
+        { "person": "tu", "accept": ["es"] },
+        { "person": "il / elle", "accept": ["est"] },
+        { "person": "nous", "accept": ["sommes"] },
+        { "person": "vous", "accept": ["êtes"] },
+        { "person": "ils / elles", "accept": ["sont"] }
+      ],
+      "explain": "Être no se parece a su infinitivo en casi ninguna forma: hay que memorizarlo entero."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "prompt": "Estoy cansado.",
+      "accept": ["Je suis fatigué", "Je suis fatiguée"],
+      "hintWords": ["je suis", "fatigué"],
+      "strictAccents": false,
+      "audio": "Je suis fatigué.",
+      "explain": "Je suis + adjetivo, con la e final de fatiguée si hablas en femenino."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "prompt": "Somos estudiantes.",
+      "accept": ["Nous sommes étudiants", "Nous sommes étudiantes"],
+      "hintWords": ["nous sommes", "étudiants"],
+      "strictAccents": false,
+      "audio": "Nous sommes étudiants.",
+      "explain": "Nous sommes + profesión, sin artículo (a diferencia del español «somos unos estudiantes»)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["etre"],
+      "difficulty": 1,
+      "prompt": "Completa con la forma correcta de être",
+      "text": "Elle ___ française, et vous, vous ___ espagnols ?",
+      "blanks": [{ "accept": ["est"] }, { "accept": ["êtes"] }],
+      "bank": ["est", "es", "êtes", "sont"],
+      "explain": "Elle est (singular), vous êtes (formal o plural)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["etre"],
+      "difficulty": 1,
+      "prompt": "Ils sont célibataires, mais elle est mariée.",
+      "accept": ["Están solteros, pero ella está casada."],
+      "strictAccents": false,
+      "audio": "Ils sont célibataires, mais elle est mariée.",
+      "explain": "Ils sont (plural) frente a elle est (singular femenino)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación: te preguntan si eres estudiante",
+      "turns": [
+        { "who": "Julie", "text": "Tu es étudiant ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je suis étudiant.", "Oui, je suis étudiante."], "hint": "responde que sí eres estudiante" },
+        { "who": "Julie", "text": "D'accord, et tu es français ?", "speak": true }
+      ],
+      "explain": "Tu es étudiant ? se responde con je suis étudiant(e), sin repetir el verbo de otra forma."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["etre"],
+      "difficulty": 1,
+      "speak": "Nous sommes fatigués.",
+      "mode": "write",
+      "accept": ["Nous sommes fatigués"],
+      "showTextAfter": true,
+      "explain": "Nous sommes + adjetivo en plural."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "speak": "Vous êtes espagnol ?",
+      "mode": "choose",
+      "options": ["Vous êtes espagnol ?", "Tu es espagnol ?", "Ils sont espagnols ?", "Elle est espagnole ?"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Vous êtes con la liaison «vu-ZET» es la clave para reconocer esta frase."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "speak": "Je suis content, mais un peu fatigué aujourd'hui.",
+      "es": "Estoy contento, pero un poco cansado hoy.",
+      "ipa": "/ʒə sɥi kɔ̃.tɑ̃ mɛ.z‿œ̃ pø fa.ti.ɡe o.ʒuʁ.dɥi/",
+      "esApprox": "«ye süí kon-TAN me-ZUN peu fa-ti-GHÉ o-yur-DÜÍ»",
+      "focus": "Je suis se pronuncia casi pegado: «ye-süí», sin pausa entre las dos palabras.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "prompt": "Preséntate diciendo que eres estudiante y que estás contento.",
+      "modelAnswer": "Je suis étudiant et je suis content.",
+      "alsoValid": ["Je suis étudiante et je suis contente."],
+      "speak": "Je suis étudiant et je suis content.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "prompt": "¿Esta forma de être es singular o plural?",
+      "buckets": ["Singular", "Plural"],
+      "items": [
+        { "text": "suis", "bucket": 0 },
+        { "text": "sommes", "bucket": 1 },
+        { "text": "es", "bucket": 0 },
+        { "text": "sont", "bucket": 1 },
+        { "text": "est", "bucket": 0 },
+        { "text": "êtes", "bucket": 1 }
+      ],
+      "explain": "Suis, es y est son singulares (je, tu, il/elle); sommes, êtes y sont son plurales (nous, vous, ils/elles)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "prompt": "Hay un error de conjugación. Corrige la frase entera.",
+      "wrong": "Je es fatigué.",
+      "accept": ["Je suis fatigué"],
+      "audio": "Je suis fatigué.",
+      "explain": "Con je siempre va suis, nunca es (que es la forma de tu)."
+    },
+    {
+      "id": "e18",
+      "type": "true_false",
+      "tags": ["etre"],
+      "difficulty": 1,
+      "statement": "Ils y elles usan la misma forma de être: sont.",
+      "answer": true,
+      "explain": "Ils sont y elles sont comparten exactamente la misma forma verbal."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "être", "es": "ser, estar", "esApprox": "«ETR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "content / contente", "es": "contento, contenta", "esApprox": "«kon-TAN» / «kon-TANT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "fatigué / fatiguée", "es": "cansado, cansada", "esApprox": "«fa-ti-GHÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "étudiant / étudiante", "es": "estudiante", "esApprox": "«e-tü-DIAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "célibataire", "es": "soltero, soltera", "esApprox": "«se-li-ba-TER»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "marié / mariée", "es": "casado, casada", "esApprox": "«ma-RIÉ»", "from": "v8" },
+    { "id": "s7", "kind": "word", "target": "grand / grande", "es": "alto, alta; grande", "esApprox": "«GRAN» / «GRAND»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "Nous sommes fatigués.", "es": "Estamos cansados.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Je suis content, mais un peu fatigué aujourd'hui.", "es": "Estoy contento, pero un poco cansado hoy.", "from": "e14" }
+  ]
+}

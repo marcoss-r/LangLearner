@@ -1,0 +1,254 @@
+{
+  "id": "fr-a2-131",
+  "lang": "fr",
+  "level": "A2",
+  "order": 131,
+  "title": "El condicional para expresar deseos: j'aimerais, je voudrais",
+  "objectives": [
+    "Usar j'aimerais y je voudrais para expresar deseos, no solo peticiones",
+    "Comparar deseos con j'aimerais mieux... que...",
+    "Distinguir un deseo (condicional) de una realidad (presente)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El condicional también sirve para desear",
+      "body": "Ya usaste j'aimerais y je voudrais para pedir cosas con educación (clase A2-130). También sirven, sin pedir nada a nadie, para expresar un deseo general: lo que te gustaría que pasara, aunque no dependa de otra persona.",
+      "examples": [
+        { "target": "J'aimerais vivre à Paris un jour. Je voudrais avoir plus de temps libre.", "es": "Me gustaría vivir en París algún día. Querría tener más tiempo libre.", "note": "deseo general, no una petición a alguien" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Petición frente a deseo",
+      "headers": ["Petición (a alguien)", "Deseo (general)"],
+      "rows": [
+        ["Pourriez-vous m'aider ?", "J'aimerais avoir plus de temps libre."],
+        ["Je voudrais l'addition, s'il vous plaît.", "Je voudrais vivre à la campagne."]
+      ],
+      "note": "La forma es la misma; lo que cambia es si te diriges a alguien para pedir algo, o si simplemente expresas lo que te gustaría."
+    },
+    {
+      "type": "table",
+      "title": "Comparar deseos",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["j'aimerais mieux... que...", "J'aimerais mieux voyager que travailler."],
+        ["je préférerais... à...", "Je préférerais le calme à la ville."]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "j'aimerais mieux", "es": "preferiría", "ipa": "/ʒɛ.mə.ʁɛ mjø/", "esApprox": "«yem-me-RE mie-Ö»", "pos": "verbo", "gender": null, "example": { "target": "J'aimerais mieux voyager que travailler.", "es": "Preferiría viajar que trabajar." } },
+    { "id": "v2", "target": "je préférerais", "es": "yo preferiría", "ipa": "/ʒə pʁe.fe.ʁə.ʁɛ/", "esApprox": "«ye pre-fe-re-RE»", "pos": "verbo", "gender": null, "example": { "target": "Je préférerais le calme à la ville.", "es": "Preferiría la tranquilidad a la ciudad." } },
+    { "id": "v3", "target": "vivre à la campagne", "es": "vivir en el campo", "ipa": "/vivʁ a la kɑ̃.paɲ/", "esApprox": "«VIVR a la kan-PAN»", "pos": "expresión", "gender": null, "example": { "target": "Je voudrais vivre à la campagne.", "es": "Querría vivir en el campo." } },
+    { "id": "v4", "target": "le temps libre", "es": "el tiempo libre", "ipa": "/lə tɑ̃ libʁ/", "esApprox": "«le TAN LIBR»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'aimerais avoir plus de temps libre.", "es": "Me gustaría tener más tiempo libre." } },
+    { "id": "v5", "target": "un rêve", "es": "un sueño", "ipa": "/œ̃ ʁɛv/", "esApprox": "«un REV»", "pos": "sustantivo", "gender": "m", "example": { "target": "Vivre à Paris, c'est mon rêve.", "es": "Vivir en París es mi sueño." } },
+    { "id": "v6", "target": "le calme", "es": "la tranquilidad", "ipa": "/lə kalm/", "esApprox": "«le KALM»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je préférerais le calme à la ville.", "es": "Preferiría la tranquilidad a la ciudad." } },
+    { "id": "v7", "target": "un jour ou l'autre", "es": "tarde o temprano", "ipa": "/œ̃ ʒuʁ u lotʁ/", "esApprox": "«un YUR u LOTR»", "pos": "expresión", "gender": null, "example": { "target": "J'aimerais y aller un jour ou l'autre.", "es": "Me gustaría ir allí tarde o temprano." } },
+    { "id": "v8", "target": "changer de vie", "es": "cambiar de vida", "ipa": "/ʃɑ̃.ʒe də vi/", "esApprox": "«shan-YÉ de VI»", "pos": "expresión", "gender": null, "example": { "target": "J'aimerais changer de vie.", "es": "Me gustaría cambiar de vida." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me gustaría vivir en París algún día»?",
+      "options": ["J'aime vivre à Paris un jour.", "J'aimerais vivre à Paris un jour.", "J'ai aimé vivre à Paris un jour.", "J'aimais vivre à Paris un jour."],
+      "answer": 1,
+      "explain": "J'aimerais (condicional) expresa un deseo, no una realidad."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «preferiría viajar que trabajar»?",
+      "options": ["Je préfère voyager que travailler.", "J'aimerais mieux voyager que travailler.", "Je voudrais voyager plus que travailler.", "J'aime voyager plus que travailler."],
+      "answer": 1,
+      "explain": "J'aimerais mieux... que... es la forma habitual de comparar deseos."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "statement": "J'aimerais y je voudrais pueden expresar un deseo general, sin pedir nada a nadie.",
+      "answer": true,
+      "explain": "El condicional no siempre implica una petición; también expresa deseos."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "statement": "J'aime vivre à la campagne y j'aimerais vivre à la campagne significan exactamente lo mismo.",
+      "answer": false,
+      "explain": "J'aime (presente) describe algo que ya te gusta; j'aimerais (condicional) es un deseo, algo que aún no tienes."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["j'aimerais mieux", "un rêve", "le temps libre", "changer de vie"],
+      "right": ["cambiar de vida", "preferiría", "un sueño", "el tiempo libre"],
+      "answer": [1, 2, 3, 0],
+      "explain": "J'aimerais mieux = preferiría, un rêve = un sueño, le temps libre = el tiempo libre, changer de vie = cambiar de vida."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "Me gustaría vivir en París algún día. Querría tener más tiempo libre.",
+      "accept": ["J'aimerais vivre à Paris un jour. Je voudrais avoir plus de temps libre"],
+      "hintWords": ["j'aimerais vivre à paris un jour", "je voudrais avoir plus de temps libre"],
+      "strictAccents": true,
+      "audio": "J'aimerais vivre à Paris un jour. Je voudrais avoir plus de temps libre.",
+      "explain": "Dos deseos generales con el condicional, sin pedir nada a nadie."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "Preferiría la tranquilidad a la ciudad. Me gustaría cambiar de vida.",
+      "accept": ["Je préférerais le calme à la ville. J'aimerais changer de vie"],
+      "hintWords": ["je préférerais le calme à la ville", "j'aimerais changer de vie"],
+      "strictAccents": true,
+      "audio": "Je préférerais le calme à la ville. J'aimerais changer de vie.",
+      "explain": "Préférerais + à, y aimerais + changer de vie."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "Completa con el condicional correcto",
+      "text": "J'___ mieux voyager que travailler, et je ___ avoir plus de temps libre.",
+      "blanks": [{ "accept": ["aimerais"] }, { "accept": ["voudrais"] }],
+      "bank": ["aimerais", "voudrais", "aime"],
+      "explain": "J'aimerais mieux + je voudrais, dos deseos en condicional."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Me gustaría vivir en el campo»",
+      "tokens": ["vivre à la campagne", "J'aimerais"],
+      "answer": ["J'aimerais", "vivre à la campagne"],
+      "audio": "J'aimerais vivre à la campagne.",
+      "explain": "J'aimerais + vivre à la campagne."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "Vivre à Paris, c'est mon rêve. J'aimerais y aller un jour ou l'autre.",
+      "accept": ["Vivir en París es mi sueño. Me gustaría ir allí tarde o temprano."],
+      "strictAccents": false,
+      "audio": "Vivre à Paris, c'est mon rêve. J'aimerais y aller un jour ou l'autre.",
+      "explain": "Un rêve + j'aimerais y aller (con el pronombre y, clase A2-114)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus deseos",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu aimerais faire dans la vie ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["J'aimerais vivre à la campagne.", "Je voudrais changer de vie."], "hint": "usa el condicional para un deseo general" },
+        { "who": "Léa", "text": "Ah, c'est un beau rêve !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu aimerais...? se responde con un deseo en condicional."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "speak": "J'aimerais vivre à la campagne, j'aimerais mieux le calme que la ville, et je voudrais changer de vie un jour ou l'autre.",
+      "mode": "write",
+      "accept": ["J'aimerais vivre à la campagne, j'aimerais mieux le calme que la ville, et je voudrais changer de vie un jour ou l'autre"],
+      "showTextAfter": true,
+      "explain": "Tres deseos encadenados con el condicional."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 1,
+      "speak": "je préférerais",
+      "mode": "choose",
+      "options": ["je préfère", "je préférerais", "j'ai préféré", "je préférais"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Je préférerais = yo preferiría (condicional)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 3,
+      "speak": "J'aimerais vivre à Paris un jour, je voudrais avoir plus de temps libre, et je préférerais le calme à la ville.",
+      "es": "Me gustaría vivir en París algún día, querría tener más tiempo libre, y preferiría la tranquilidad a la ciudad.",
+      "ipa": "/ʒɛ.mə.ʁɛ vivʁ a pa.ʁi œ̃ ʒuʁ ʒə vu.dʁɛ a.vwaʁ ply də tɑ̃ libʁ e ʒə pʁe.fe.ʁə.ʁɛ lə kalm a la vil/",
+      "esApprox": "«yem-me-RE VIVR a pa-RÍ un YUR ye vu-DRE a-VUÁR plü de tan LIBR e ye pre-fe-re-RE le KALM a la VIL»",
+      "focus": "Tres deseos con condicional, encadenados con conjunciones ya conocidas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "Di dos cosas que te gustaría hacer o cambiar en tu vida, usando j'aimerais o je voudrais.",
+      "modelAnswer": "J'aimerais avoir plus de temps libre, et je voudrais vivre à la campagne.",
+      "alsoValid": ["Je préférerais le calme à la ville."],
+      "speak": "J'aimerais avoir plus de temps libre, et je voudrais vivre à la campagne.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "¿Es una realidad (presente) o un deseo (condicional)?",
+      "buckets": ["Realidad", "Deseo"],
+      "items": [
+        { "text": "j'aime vivre en ville", "bucket": 0 },
+        { "text": "j'aimerais vivre à la campagne", "bucket": 1 },
+        { "text": "je préfère le calme", "bucket": 0 },
+        { "text": "je préférerais changer de vie", "bucket": 1 }
+      ],
+      "explain": "El presente describe lo que ya es así; el condicional expresa un deseo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["condicional", "deseos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "J'aime mieux voyager que travailler, mais je n'ai pas le temps.",
+      "accept": ["J'aimerais mieux voyager que travailler, mais je n'ai pas le temps"],
+      "audio": "J'aimerais mieux voyager que travailler, mais je n'ai pas le temps.",
+      "explain": "Para expresar un deseo (algo que no es la realidad), se usa el condicional: j'aimerais mieux."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "j'aimerais mieux", "es": "preferiría", "esApprox": "«yem-me-RE mie-Ö»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "je préférerais", "es": "yo preferiría", "esApprox": "«ye pre-fe-re-RE»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "vivre à la campagne", "es": "vivir en el campo", "esApprox": "«VIVR a la kan-PAN»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "le temps libre", "es": "el tiempo libre", "esApprox": "«le TAN LIBR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un rêve", "es": "un sueño", "esApprox": "«un REV»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "J'aimerais vivre à Paris un jour. Je voudrais avoir plus de temps libre.", "es": "Me gustaría vivir en París algún día. Querría tener más tiempo libre.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je préférerais le calme à la ville. J'aimerais changer de vie.", "es": "Preferiría la tranquilidad a la ciudad. Me gustaría cambiar de vida.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "J'aimerais vivre à la campagne.", "es": "Me gustaría vivir en el campo.", "from": "e9" }
+  ]
+}

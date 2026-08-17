@@ -1,0 +1,257 @@
+{
+  "id": "fr-a2-093",
+  "lang": "fr",
+  "level": "A2",
+  "order": 93,
+  "title": "El acuerdo del participio pasado con el COD antepuesto",
+  "objectives": [
+    "Aplicar el acuerdo del participio con avoir cuando el COD va antes del verbo (le/la/les, clase A2-92)",
+    "Reconocer que sin pronombre antepuesto, el participio con avoir no se acuerda nunca",
+    "Distinguir esta regla del acuerdo con être (clase A1-80), que depende siempre del sujeto"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una excepción importante a la clase A1-78",
+      "body": "En A1 aprendiste que el participio con avoir no cambia nunca (j'ai mangé, elle a mangé). Eso sigue siendo cierto... salvo cuando el COD (le/la/les) va antes del verbo: en ese caso, el participio se acuerda con ese COD, igual que con être.",
+      "examples": [
+        { "target": "J'ai mangé la pomme. → Je l'ai mangée.", "es": "Comí la manzana. → La comí.", "note": "sin pronombre: mangé; con la (COD antepuesto): mangée" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El acuerdo con el COD antepuesto",
+      "headers": ["COD antepuesto", "Acuerdo", "Ejemplo"],
+      "rows": [
+        ["le (masc. sing.)", "sin cambio", "Je l'ai vu (le film)."],
+        ["la (fem. sing.)", "+ e", "Je l'ai vue (la pomme → vue)."],
+        ["les (masc. pl.)", "+ s", "Je les ai vus (les films)."],
+        ["les (fem. pl.)", "+ es", "Je les ai vues (les pommes)."]
+      ],
+      "note": "Es el mismo patrón de -e/-s/-es que ya conoces del acuerdo con être (clase A1-80)."
+    },
+    {
+      "type": "contrast",
+      "title": "Con COD antepuesto frente a sin COD antepuesto"
+      ,
+      "items": [
+        { "wrong": "J'ai mangée la pomme.", "right": "J'ai mangé la pomme. / Je l'ai mangée.", "why": "Cuando el COD va después del verbo (la pomme), el participio no se acuerda: mangé. Solo se acuerda cuando el COD va antes, sustituido por un pronombre: je l'ai mangée." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Esta regla solo afecta al COD (le/la/les). El COI (lui/leur, clase A1-83) nunca provoca acuerdo: je lui ai parlé, ils leur ai parlé... siempre invariable."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "Je l'ai vue.", "es": "La vi (acordado, femenino).", "ipa": "/ʒə le vy/", "esApprox": "«ye le VÜ»", "pos": "expresión", "gender": null, "example": { "target": "La pomme ? Je l'ai vue sur la table.", "es": "¿La manzana? La vi en la mesa." } },
+    { "id": "v2", "target": "Je les ai vus.", "es": "Los vi (acordado, masculino plural).", "ipa": "/ʒə le.z‿e vy/", "esApprox": "«ye le-ze VÜ»", "pos": "expresión", "gender": null, "example": { "target": "Mes amis ? Je les ai vus hier.", "es": "¿Mis amigos? Los vi ayer." } },
+    { "id": "v3", "target": "Je les ai vues.", "es": "Las vi (acordado, femenino plural).", "ipa": "/ʒə le.z‿e vy/", "esApprox": "«ye le-ze VÜ»", "pos": "expresión", "gender": null, "example": { "target": "Mes clés ? Je les ai vues sur le lit.", "es": "¿Mis llaves? Las vi en la cama." } },
+    { "id": "v4", "target": "acheter", "es": "comprar", "ipa": "/aʃ.te/", "esApprox": "«ash-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Cette voiture, je l'ai achetée l'année dernière.", "es": "Este coche, lo compré el año pasado." } },
+    { "id": "v5", "target": "prendre", "es": "coger, tomar", "ipa": "/pʁɑ̃dʁ/", "esApprox": "«PRANDR»", "pos": "verbo", "gender": null, "example": { "target": "Cette photo, je l'ai prise à Paris.", "es": "Esta foto la hice en París." } },
+    { "id": "v6", "target": "les devoirs", "es": "los deberes", "ipa": "/le də.vwaʁ/", "esApprox": "«le de-VUÁR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Les devoirs, je les ai faits ce matin.", "es": "Los deberes, los hice esta mañana." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «la vi» (la pomme)?",
+      "options": ["Je l'ai vu.", "Je l'ai vue.", "Je l'ai vus.", "Je l'ai vues."],
+      "answer": 1,
+      "explain": "La pomme (fem. sing.) → l'ai vue, con -e."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta?",
+      "options": ["J'ai mangée la pomme.", "J'ai mangé la pomme.", "J'ai mangées la pomme.", "J'ai mangés la pomme."],
+      "answer": 1,
+      "explain": "Sin pronombre antepuesto (la pomme va después del verbo), el participio no se acuerda: mangé."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "statement": "El participio con avoir se acuerda con el COD solo cuando ese COD va antes del verbo.",
+      "answer": true,
+      "explain": "Si el COD va después (sin pronombre), el participio no se acuerda."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "statement": "Lui y leur (COI) también provocan el acuerdo del participio.",
+      "answer": false,
+      "explain": "Solo el COD (le/la/les) provoca acuerdo; el COI (lui/leur) nunca."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Une cada COD con la forma correcta del participio de voir",
+      "left": ["le film (m. sing.)", "la pomme (f. sing.)", "les films (m. pl.)", "les pommes (f. pl.)"],
+      "right": ["vues", "vu", "vus", "vue"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Vu, vue, vus, vues: el mismo patrón que con être."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "¿La manzana? La comí esta mañana.",
+      "accept": ["La pomme ? Je l'ai mangée ce matin"],
+      "hintWords": ["la pomme", "je l'ai mangée ce matin"],
+      "strictAccents": true,
+      "audio": "La pomme ? Je l'ai mangée ce matin.",
+      "explain": "La pomme (fem.) → l'ai mangée, con -e."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "¿Mis amigos? Los vi ayer, pero no les hablé.",
+      "accept": ["Mes amis ? Je les ai vus hier, mais je ne leur ai pas parlé"],
+      "hintWords": ["mes amis", "je les ai vus hier", "je ne leur ai pas parlé"],
+      "strictAccents": true,
+      "audio": "Mes amis ? Je les ai vus hier, mais je ne leur ai pas parlé.",
+      "explain": "Les (COD, acordado en vus) frente a leur (COI, invariable)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Completa con el participio correcto",
+      "text": "Cette voiture, je l'ai achet___ l'année dernière.",
+      "blanks": [{ "accept": ["ée"] }],
+      "bank": ["ée", "é", "és"],
+      "explain": "Cette voiture (fem. sing.) → achetée, con -e."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Los deberes, los hice esta mañana»",
+      "tokens": ["ce matin", "je les ai faits", "Les devoirs,"],
+      "answer": ["Les devoirs,", "je les ai faits", "ce matin"],
+      "audio": "Les devoirs, je les ai faits ce matin.",
+      "explain": "Les devoirs (masc. pl.) → les ai faits, con -s."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Cette photo, je l'ai prise à Paris, et ces photos, je les ai prises à Lyon.",
+      "accept": ["Esta foto la hice en París, y estas fotos las hice en Lyon."],
+      "strictAccents": false,
+      "audio": "Cette photo, je l'ai prise à Paris, et ces photos, je les ai prises à Lyon.",
+      "explain": "Prise (fem. sing.) frente a prises (fem. pl.)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre los deberes",
+      "turns": [
+        { "who": "Léa", "text": "Tu as fait tes devoirs ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je les ai faits.", "Non, je ne les ai pas faits."], "hint": "les devoirs (masc. pl.) → les ai faits" },
+        { "who": "Léa", "text": "Très bien !", "speak": true }
+      ],
+      "explain": "Les devoirs (masc. pl.) → les ai faits, con -s."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "speak": "La pomme, je l'ai mangée, mais les pommes, je ne les ai pas mangées.",
+      "mode": "write",
+      "accept": ["La pomme, je l'ai mangée, mais les pommes, je ne les ai pas mangées"],
+      "showTextAfter": true,
+      "explain": "Singular (mangée) frente a plural (mangées), ambos femeninos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 1,
+      "speak": "je les ai vues",
+      "mode": "choose",
+      "options": ["je l'ai vu", "je l'ai vue", "je les ai vus", "je les ai vues"],
+      "answer": 3,
+      "showTextAfter": true,
+      "explain": "Je les ai vues = femenino plural."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 3,
+      "speak": "La pomme, je l'ai mangée. Les photos, je les ai prises. La voiture, je l'ai achetée.",
+      "es": "La manzana, la comí. Las fotos, las hice. El coche, lo compré.",
+      "ipa": "/la pɔm ʒə le mɑ̃.ʒe le fɔ.to ʒə le.z‿e pʁiz la vwa.tyʁ ʒə le a.ʃə.te/",
+      "esApprox": "«la POM ye le man-YÉ le fo-TÓ ye le-ze PRIZ la vuá-TÜR ye le a-she-TÉ»",
+      "focus": "Tres acuerdos distintos: femenino singular, femenino plural, femenino singular otra vez.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Di algo que compraste el año pasado, usando el pronombre COD.",
+      "modelAnswer": "Ma voiture, je l'ai achetée l'année dernière.",
+      "alsoValid": ["Mon téléphone, je l'ai acheté le mois dernier."],
+      "speak": "Ma voiture, je l'ai achetée l'année dernière.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "¿Qué forma del participio corresponde?",
+      "buckets": ["sin cambio", "+ e", "+ s", "+ es"],
+      "items": [
+        { "text": "le film (visto)", "bucket": 0 },
+        { "text": "la pomme (comida)", "bucket": 1 },
+        { "text": "les films (vistos)", "bucket": 2 },
+        { "text": "les pommes (comidas)", "bucket": 3 }
+      ],
+      "explain": "Le (sin cambio), la (+e), les masc. (+s), les fem. (+es)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-compose", "acuerdo-participio"],
+      "difficulty": 2,
+      "prompt": "Hay un error de acuerdo. Corrige la frase entera.",
+      "wrong": "La pomme, je l'ai mangé.",
+      "accept": ["La pomme, je l'ai mangée"],
+      "audio": "La pomme, je l'ai mangée.",
+      "explain": "La pomme es femenino: el participio se acuerda, mangée."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "Je l'ai vue.", "es": "La vi (acordado, femenino).", "esApprox": "«ye le VÜ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "Je les ai vus.", "es": "Los vi (acordado, masculino plural).", "esApprox": "«ye le-ze VÜ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "Je les ai vues.", "es": "Las vi (acordado, femenino plural).", "esApprox": "«ye le-ze VÜ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "acheter", "es": "comprar", "esApprox": "«ash-TÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "les devoirs", "es": "los deberes", "esApprox": "«le de-VUÁR»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "La pomme ? Je l'ai mangée ce matin.", "es": "¿La manzana? La comí esta mañana.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Mes amis ? Je les ai vus hier, mais je ne leur ai pas parlé.", "es": "¿Mis amigos? Los vi ayer, pero no les hablé.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Les devoirs, je les ai faits ce matin.", "es": "Los deberes, los hice esta mañana.", "from": "e9" }
+  ]
+}

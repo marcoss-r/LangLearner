@@ -1,0 +1,251 @@
+{
+  "id": "fr-a2-163",
+  "lang": "fr",
+  "level": "A2",
+  "order": 163,
+  "title": "Pronunciación general VI: el enchaînement",
+  "objectives": [
+    "Reconocer el enchaînement: una consonante final ya pronunciada se desplaza a la sílaba siguiente si empieza por vocal",
+    "Distinguir el enchaînement (consonante ya pronunciada) de la liaison (consonante normalmente muda que aparece)",
+    "Practicar frases con enchaînement para sonar más natural y fluido"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Las palabras se pegan entre sí",
+      "body": "En francés hablado, casi nunca hay una pausa entre palabras. Cuando una palabra termina en una consonante que ya se pronuncia (como elle, avec, une) y la siguiente empieza por vocal, esa consonante se desplaza para formar sílaba con la vocal siguiente: esto es el enchaînement.",
+      "examples": [
+        { "target": "elle est", "es": "ella es/está", "note": "se pronuncia /ɛ.lɛ/, la l de elle se une a est" },
+        { "target": "avec elle", "es": "con ella", "note": "se pronuncia /a.vɛ.kɛl/, la c de avec (sonido k) se une a elle" }
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "Enchaînement frente a liaison",
+      "body": "El enchaînement mueve una consonante que YA se pronuncia siempre (avec, elle, une, sept). La liaison (que ya viste con les, un, des) hace sonar una consonante que normalmente es MUDA, solo delante de vocal. Son dos fenómenos distintos, pero ambos hacen que el francés suene fluido.",
+      "drills": [
+        { "target": "elle est là", "ipa": "/ɛ.lɛ la/", "esApprox": "«e-le-LA»", "hint": "enchaînement: la l de elle ya se pronuncia siempre" },
+        { "target": "une amie", "ipa": "/y.n‿a.mi/", "esApprox": "«ü-na-MÍ»", "hint": "enchaînement: la n de une ya se pronuncia siempre" },
+        { "target": "avec elle", "ipa": "/a.vɛ.kɛl/", "esApprox": "«a-ve-KEL»", "hint": "enchaînement: avec siempre termina en el sonido k" },
+        { "target": "les amis", "ipa": "/le.z‿a.mi/", "esApprox": "«le-za-MÍ»", "hint": "esto es liaison, no enchaînement: la s de les normalmente es muda" }
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Por qué importa",
+      "body": "Si separas cada palabra al hablar, sonarás robótico y te costará más entender el francés hablado real, donde las palabras se encadenan constantemente."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "elle est", "es": "ella es/está", "ipa": "/ɛ.lɛ/", "esApprox": "«e-LE»", "pos": "expresión", "gender": null, "example": { "target": "Elle est fatiguée.", "es": "Está cansada." } },
+    { "id": "v2", "target": "avec elle", "es": "con ella", "ipa": "/a.vɛ.kɛl/", "esApprox": "«a-ve-KEL»", "pos": "expresión", "gender": null, "example": { "target": "Je pars avec elle.", "es": "Me voy con ella." } },
+    { "id": "v3", "target": "une amie", "es": "una amiga", "ipa": "/y.n‿a.mi/", "esApprox": "«ü-na-MÍ»", "pos": "sustantivo", "gender": "f", "example": { "target": "C'est une amie de Léa.", "es": "Es una amiga de Léa." } },
+    { "id": "v4", "target": "sept heures", "es": "las siete", "ipa": "/sɛ.t‿œʁ/", "esApprox": "«se-TÖR»", "pos": "expresión", "gender": null, "example": { "target": "Il est sept heures.", "es": "Son las siete." } },
+    { "id": "v5", "target": "quelle heure", "es": "qué hora", "ipa": "/kɛ.l‿œʁ/", "esApprox": "«ke-LÖR»", "pos": "expresión", "gender": null, "example": { "target": "Quelle heure est-il ?", "es": "¿Qué hora es?" } },
+    { "id": "v6", "target": "il arrive", "es": "él llega", "ipa": "/i.la.ʁiv/", "esApprox": "«i-la-RIV»", "pos": "expresión", "gender": null, "example": { "target": "Il arrive dans dix minutes.", "es": "Llega en diez minutos." } },
+    { "id": "v7", "target": "elle habite", "es": "ella vive", "ipa": "/ɛ.la.bit/", "esApprox": "«e-la-BIT»", "pos": "expresión", "gender": null, "example": { "target": "Elle habite à Paris.", "es": "Vive en París." } },
+    { "id": "v8", "target": "notre ami", "es": "nuestro amigo", "ipa": "/nɔ.tʁa.mi/", "esApprox": "«no-tra-MÍ»", "pos": "expresión", "gender": null, "example": { "target": "C'est notre ami Marc.", "es": "Es nuestro amigo Marc." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "enchainement"],
+      "difficulty": 2,
+      "prompt": "¿Qué es el enchaînement?",
+      "options": ["Una consonante muda que aparece solo delante de vocal", "Una consonante ya pronunciada que se desplaza a la sílaba siguiente", "Una vocal que desaparece", "Un acento que cambia de sílaba"],
+      "answer": 1,
+      "explain": "El enchaînement mueve una consonante que ya se pronuncia siempre, no una que aparece solo a veces."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "enchainement"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se pronuncia «elle est» con enchaînement?",
+      "options": ["/ɛl ɛ/, con pausa", "/ɛ.lɛ/, unido", "/ɛl/, sin la e", "/ɛ/, sin la l"],
+      "answer": 1,
+      "explain": "La l de elle se une a la vocal de est: /ɛ.lɛ/."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "enchainement"],
+      "difficulty": 2,
+      "statement": "El enchaînement y la liaison son exactamente el mismo fenómeno.",
+      "answer": false,
+      "explain": "El enchaînement mueve consonantes ya pronunciadas; la liaison hace sonar consonantes normalmente mudas."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "enchainement"],
+      "difficulty": 2,
+      "statement": "Avec siempre termina con el sonido k, incluso delante de consonante.",
+      "answer": true,
+      "explain": "Avec siempre se pronuncia con k al final, se una o no a la palabra siguiente."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["pronunciacion-general", "enchainement"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases NO tiene enchaînement, a diferencia de las demás?",
+      "options": ["elle est là", "avec elle", "une amie", "les livres"],
+      "answer": 3,
+      "explain": "Les livres no tiene enchaînement ni liaison, porque livres empieza por consonante."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Está cansada, se va con ella.",
+      "accept": ["Elle est fatiguée, elle part avec elle"],
+      "hintWords": ["elle est fatiguée", "elle part avec elle"],
+      "strictAccents": false,
+      "audio": "Elle est fatiguée, elle part avec elle.",
+      "explain": "Dos enchaînements: elle est y avec elle."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Es una amiga de Léa, vive en París.",
+      "accept": ["C'est une amie de Léa, elle habite à Paris"],
+      "hintWords": ["c'est une amie de léa", "elle habite à paris"],
+      "strictAccents": false,
+      "audio": "C'est une amie de Léa, elle habite à Paris.",
+      "explain": "Une amie y elle habite, dos ejemplos de enchaînement."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa con la hora correcta",
+      "text": "___ heure est-il ? Il est ___ heures.",
+      "blanks": [{ "accept": ["Quelle"] }, { "accept": ["sept"] }],
+      "bank": ["Quelle", "sept", "Quel"],
+      "explain": "Quelle heure + sept heures, ambos con enchaînement."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Llega en diez minutos»",
+      "tokens": ["dans dix minutes", "Il arrive"],
+      "answer": ["Il arrive", "dans dix minutes"],
+      "audio": "Il arrive dans dix minutes.",
+      "explain": "Il arrive, con enchaînement entre il y arrive."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "C'est notre ami Marc, il arrive dans dix minutes avec elle.",
+      "accept": ["Es nuestro amigo Marc, llega en diez minutos con ella."],
+      "strictAccents": false,
+      "audio": "C'est notre ami Marc, il arrive dans dix minutes avec elle.",
+      "explain": "Notre ami, il arrive, avec elle: tres enchaînements en una frase."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre la hora",
+      "turns": [
+        { "who": "Léa", "text": "Quelle heure est-il ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il est sept heures.", "Il est sept heures et demie."], "hint": "usa il est + heures, con enchaînement" },
+        { "who": "Léa", "text": "Ah, il arrive bientôt alors.", "speak": true }
+      ],
+      "explain": "Quelle heure y sept heures se pronuncian con enchaînement."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "speak": "Elle est fatiguée, elle habite avec une amie, et il arrive dans sept heures.",
+      "mode": "write",
+      "accept": ["Elle est fatiguée, elle habite avec une amie, et il arrive dans sept heures"],
+      "showTextAfter": true,
+      "explain": "Varios enchaînements combinados."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "enchainement"],
+      "difficulty": 2,
+      "speak": "elle est",
+      "mode": "choose",
+      "options": ["elle est", "elles sont", "il est", "ils sont"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Elle est se pronuncia /ɛ.lɛ/, unido por enchaînement."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general", "enchainement"],
+      "difficulty": 3,
+      "speak": "Elle est avec une amie, elle habite avec elle, et notre ami arrive dans sept heures.",
+      "es": "Está con una amiga, vive con ella, y nuestro amigo llega dentro de siete horas.",
+      "ipa": "/ɛ.lɛ.t‿a.vɛ.ky.n‿a.mi ɛ.la.bi.ta.vɛ.kɛl e nɔ.tʁa.mi a.ʁiv dɑ̃ sɛ.t‿œʁ/",
+      "esApprox": "«e-le-ta-VEK-ü-na-MÍ e-la-bi-ta-ve-KEL e no-tra-MÍ a-RIV dan se-TÖR»",
+      "focus": "Una frase larga con muchos enchaînements seguidos, sin pausas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Di una frase con elle est o avec elle, prestando atención al enchaînement.",
+      "modelAnswer": "Elle est fatiguée, elle habite avec une amie.",
+      "alsoValid": ["Notre ami arrive avec elle."],
+      "speak": "Elle est fatiguée, elle habite avec une amie.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronunciacion-general", "enchainement"],
+      "difficulty": 2,
+      "prompt": "¿Es enchaînement o liaison?",
+      "buckets": ["Enchaînement", "Liaison"],
+      "items": [
+        { "text": "elle est", "bucket": 0 },
+        { "text": "les amis", "bucket": 1 },
+        { "text": "avec elle", "bucket": 0 },
+        { "text": "un ami", "bucket": 1 }
+      ],
+      "explain": "Elle est y avec elle son enchaînement (consonante ya pronunciada); les amis y un ami son liaison (consonante normalmente muda)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "C'est notre amie Marc.",
+      "accept": ["C'est notre ami Marc"],
+      "audio": "C'est notre ami Marc.",
+      "explain": "Marc es un nombre masculino: notre ami, no notre amie."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "elle est", "es": "ella es/está", "esApprox": "«e-LE»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "avec elle", "es": "con ella", "esApprox": "«a-ve-KEL»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "une amie", "es": "una amiga", "esApprox": "«ü-na-MÍ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "sept heures", "es": "las siete", "esApprox": "«se-TÖR»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "quelle heure", "es": "qué hora", "esApprox": "«ke-LÖR»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "elle habite", "es": "ella vive", "esApprox": "«e-la-BIT»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Elle est fatiguée, elle part avec elle.", "es": "Está cansada, se va con ella.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "C'est une amie de Léa, elle habite à Paris.", "es": "Es una amiga de Léa, vive en París.", "from": "e7" }
+  ]
+}

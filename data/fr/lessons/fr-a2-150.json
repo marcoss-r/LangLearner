@@ -1,0 +1,249 @@
+{
+  "id": "fr-a2-150",
+  "lang": "fr",
+  "level": "A2",
+  "order": 150,
+  "title": "Repaso activo XI (clases 135–149)",
+  "objectives": [
+    "Repasar el vocabulario de viajes, tecnología y gestiones cotidianas",
+    "Repasar el vocabulario de emociones, carácter y relaciones personales",
+    "Repasar el vocabulario de medios, cultura, compras y deporte"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque L (vocabulario temático ampliado)",
+      "body": "Sin gramática nueva. Este bloque ha ampliado mucho tu vocabulario: viajes, tecnología, salud, emociones, medios, cultura, compras y deporte. Repasa las palabras clave antes de seguir."
+    },
+    {
+      "type": "table",
+      "title": "Resumen de expresiones útiles",
+      "headers": ["Tema", "Expresión clave"],
+      "rows": [
+        ["viajes", "j'ai une réservation, avoir du retard"],
+        ["salud", "avoir mal à, je voudrais un médicament"],
+        ["emociones", "je suis déçu, soulagé, fier"],
+        ["compras", "en solde, payer par carte"],
+        ["deporte", "être essoufflé, avoir mal aux jambes"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Sigue repasando con la app",
+      "body": "El bloque L ha sido muy denso en vocabulario nuevo. Usa las tarjetas de repaso espaciado (SRS) para consolidar todas las palabras antes de seguir con el bloque M."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "avoir du retard", "es": "tener retraso", "ipa": "/a.vwaʁ dy ʁə.taʁ/", "esApprox": "«a-VUÁR dü re-TAR»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "ça ne marche pas", "es": "no funciona", "ipa": "/sa nə maʁʃ pa/", "esApprox": "«sa ne MARSH pa»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "avoir mal à la tête", "es": "tener dolor de cabeza", "ipa": "/a.vwaʁ mal a la tɛt/", "esApprox": "«a-VUÁR mal a la TET»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "déçu / déçue", "es": "decepcionado/a", "ipa": "/de.sy/", "esApprox": "«de-SÜ»", "pos": "adjetivo", "gender": null },
+    { "id": "v5", "target": "s'entendre bien avec", "es": "llevarse bien con", "ipa": "/sɑ̃.tɑ̃dʁ bjɛ̃ a.vɛk/", "esApprox": "«san-TANDR bien a-VEK»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "recycler", "es": "reciclar", "ipa": "/ʁə.si.kle/", "esApprox": "«re-si-KLÉ»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "en solde", "es": "rebajado, de rebajas", "ipa": "/ɑ̃ sɔld/", "esApprox": "«an SOLD»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "être essoufflé", "es": "estar sin aliento", "ipa": "/ɛtʁ e.su.fle/", "esApprox": "«ETR e-su-FLÉ»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «el vuelo tiene retraso»?",
+      "options": ["Le vol est à l'heure.", "Le vol a du retard.", "Le vol est complet.", "Le vol a une correspondance."],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-136."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me duele la cabeza»?",
+      "options": ["Je suis malade.", "J'ai mal à la tête.", "Je me sens fatigué.", "J'ai de la fièvre."],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-141."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["emociones"],
+      "difficulty": 2,
+      "statement": "Soulagé significa aliviado.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-142."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "statement": "En solde significa que algo está más caro de lo normal.",
+      "answer": false,
+      "explain": "Repaso de la clase A2-148: en solde significa que algo está rebajado, más barato."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su tema",
+      "left": ["une correspondance", "un colis", "un abonné", "un réalisateur"],
+      "right": ["cine", "viajes", "redes sociales", "correos"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Correspondance = viajes, colis = correos, abonné = redes sociales, réalisateur = cine."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "Tengo una reserva a nombre de Martin. El vuelo tiene retraso.",
+      "accept": ["J'ai une réservation au nom de Martin. Le vol a du retard"],
+      "hintWords": ["j'ai une réservation au nom de martin", "le vol a du retard"],
+      "strictAccents": true,
+      "audio": "J'ai une réservation au nom de Martin. Le vol a du retard.",
+      "explain": "Repaso de las clases A2-135 y A2-136."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["salud", "emociones"],
+      "difficulty": 2,
+      "prompt": "Me duele la cabeza, estoy decepcionado, pero me siento aliviado de que sea viernes.",
+      "accept": ["J'ai mal à la tête, je suis déçu, mais je me sens soulagé que c'est vendredi"],
+      "hintWords": ["j'ai mal à la tête, je suis déçu", "je me sens soulagé que c'est vendredi"],
+      "strictAccents": true,
+      "audio": "J'ai mal à la tête, je suis déçu, mais je me sens soulagé que c'est vendredi.",
+      "explain": "Repaso de las clases A2-141 y A2-142."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["compras"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "C'est en ___, je vais payer par ___.",
+      "blanks": [{ "accept": ["solde"] }, { "accept": ["carte"] }],
+      "bank": ["solde", "carte", "espèces"],
+      "explain": "Repaso de la clase A2-148."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["deporte"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Estoy sin aliento y me duelen las piernas»",
+      "tokens": ["j'ai mal aux jambes", "Je suis essoufflé et"],
+      "answer": ["Je suis essoufflé et", "j'ai mal aux jambes"],
+      "audio": "Je suis essoufflé et j'ai mal aux jambes.",
+      "explain": "Repaso de la clase A2-149."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "Je recycle mes déchets, et j'essaie d'économiser l'eau pour protéger la planète.",
+      "accept": ["Reciclo mi basura, e intento ahorrar agua para proteger el planeta."],
+      "strictAccents": false,
+      "audio": "Je recycle mes déchets, et j'essaie d'économiser l'eau pour protéger la planète.",
+      "explain": "Repaso de la clase A2-144."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["caracter"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre un amigo",
+      "turns": [
+        { "who": "Léa", "text": "Comment est ton nouveau collègue ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il est têtu, mais très franc.", "Je m'entends bien avec lui."], "hint": "usa un adjetivo de carácter" },
+        { "who": "Léa", "text": "Ah, ça a l'air d'aller !", "speak": true }
+      ],
+      "explain": "Repaso de la clase A2-143."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "speak": "Je fais de l'exercice tous les matins, je recycle mes déchets, et je regarde les informations le soir.",
+      "mode": "write",
+      "accept": ["Je fais de l'exercice tous les matins, je recycle mes déchets, et je regarde les informations le soir"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de varios temas del bloque L."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["vocabulario"],
+      "difficulty": 1,
+      "speak": "une ordonnance",
+      "mode": "choose",
+      "options": ["un médicament", "une ordonnance", "un comprimé", "une fièvre"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-141."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["vocabulario"],
+      "difficulty": 3,
+      "speak": "J'ai déménagé le mois dernier, mon téléphone est tombé en panne, et je suis allé à un concert de mon chanteur préféré.",
+      "es": "Me mudé el mes pasado, mi teléfono se ha estropeado, y fui a un concierto de mi cantante favorito.",
+      "ipa": "/ʒe de.me.na.ʒe lə mwa dɛʁ.nje mɔ̃ te.le.fɔn ɛ tɔ̃.be ɑ̃ pan e ʒə sɥi.z‿a.le a œ̃ kɔ̃.sɛʁ də mɔ̃ ʃɑ̃.tœʁ pʁe.fe.ʁe/",
+      "esApprox": "«ye de-me-na-YÉ le muá der-NIÉ mon te-le-FON e ton-BÉ an PAN e ye süí-za-LÉ a un kon-SER de mon shan-TÖR pre-fe-RÉ»",
+      "focus": "Repaso combinado de mudanza, tecnología y música.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Habla de tres cosas de tu vida: un viaje, una emoción reciente, y algo cultural (película, canción).",
+      "modelAnswer": "J'ai réservé un hôtel pour mes vacances, je suis content, et j'ai vu un film génial.",
+      "alsoValid": ["Je suis fier de mon travail."],
+      "speak": "J'ai réservé un hôtel pour mes vacances, je suis content, et j'ai vu un film génial.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "¿A qué tema pertenece cada palabra?",
+      "buckets": ["Salud", "Tecnología"],
+      "items": [
+        { "text": "avoir mal à la tête", "bucket": 0 },
+        { "text": "télécharger", "bucket": 1 },
+        { "text": "une ordonnance", "bucket": 0 },
+        { "text": "ça ne marche pas", "bucket": 1 }
+      ],
+      "explain": "Repaso combinado de las clases A2-139 y A2-141."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "J'ai mal les jambes après le sport.",
+      "accept": ["J'ai mal aux jambes après le sport"],
+      "audio": "J'ai mal aux jambes après le sport.",
+      "explain": "Repaso de la clase A2-149: avoir mal aux + parte del cuerpo en plural."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "avoir du retard", "es": "tener retraso", "esApprox": "«a-VUÁR dü re-TAR»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "ça ne marche pas", "es": "no funciona", "esApprox": "«sa ne MARSH pa»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "avoir mal à la tête", "es": "tener dolor de cabeza", "esApprox": "«a-VUÁR mal a la TET»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "déçu / déçue", "es": "decepcionado/a", "esApprox": "«de-SÜ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "s'entendre bien avec", "es": "llevarse bien con", "esApprox": "«san-TANDR bien a-VEK»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "en solde", "es": "rebajado, de rebajas", "esApprox": "«an SOLD»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai une réservation au nom de Martin. Le vol a du retard.", "es": "Tengo una reserva a nombre de Martin. El vuelo tiene retraso.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai mal à la tête, je suis déçu, mais je me sens soulagé que c'est vendredi.", "es": "Me duele la cabeza, estoy decepcionado, pero me siento aliviado de que sea viernes.", "from": "e7" }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "id": "fr-a2-165",
+  "lang": "fr",
+  "level": "A2",
+  "order": 165,
+  "title": "Pronunciación general VIII: la entonación de una pregunta real",
+  "objectives": [
+    "Reconocer que en francés hablado, una simple entonación ascendente convierte una afirmación en pregunta",
+    "Distinguir esta pregunta por entonación de las preguntas con est-ce que o inversión",
+    "Practicar la entonación ascendente en preguntas cotidianas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Preguntar sin cambiar nada, solo la voz",
+      "body": "En francés hablado, la forma más frecuente de preguntar es no cambiar el orden de las palabras: basta con subir la voz al final de la frase. Tu viens ? con entonación ascendente es una pregunta perfectamente natural, tan válida como Est-ce que tu viens ?",
+      "examples": [
+        { "target": "Tu viens ?", "es": "¿Vienes?", "note": "misma estructura que una afirmación, solo cambia la entonación" },
+        { "target": "Tu viens.", "es": "Vienes.", "note": "afirmación, con entonación descendente al final" }
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "Tres formas de preguntar, mismo significado",
+      "body": "Est-ce que tu viens ? (más formal/neutra), Viens-tu ? (formal, con inversión, poco frecuente en el habla), y Tu viens ? (informal y muy frecuente, solo con entonación). Las tres son correctas; en la conversación cotidiana, la entonación es la más usada con diferencia.",
+      "drills": [
+        { "target": "Tu viens ?", "ipa": "/ty vjɛ̃ ↗/", "esApprox": "«tü VIEN?», subiendo la voz al final", "hint": "pregunta informal, solo entonación" },
+        { "target": "Est-ce que tu viens ?", "ipa": "/ɛs.kə ty vjɛ̃/", "esApprox": "«es-ke tü VIEN»", "hint": "pregunta neutra, con est-ce que" },
+        { "target": "Ça te plaît ?", "ipa": "/sa tə plɛ ↗/", "esApprox": "«sa te PLE?»", "hint": "misma frase que una afirmación, con entonación ascendente" }
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Escucha la diferencia",
+      "body": "En texto escrito, el signo de interrogación (?) te avisa. Al escuchar francés hablado, entrena el oído para captar esa subida de tono al final: es la señal de que es una pregunta, aunque la estructura sea idéntica a una afirmación."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "tu viens ?", "es": "¿vienes?", "ipa": "/ty vjɛ̃/", "esApprox": "«tü VIEN»", "pos": "expresión", "gender": null, "example": { "target": "Tu viens ce soir ?", "es": "¿Vienes esta noche?" } },
+    { "id": "v2", "target": "ça te plaît ?", "es": "¿te gusta?", "ipa": "/sa tə plɛ/", "esApprox": "«sa te PLE»", "pos": "expresión", "gender": null, "example": { "target": "Ça te plaît, ce film ?", "es": "¿Te gusta esta película?" } },
+    { "id": "v3", "target": "tu es sûr ?", "es": "¿estás seguro?", "ipa": "/ty ɛ syʁ/", "esApprox": "«tü e SÜR»", "pos": "expresión", "gender": null, "example": { "target": "Tu es sûr de ça ?", "es": "¿Estás seguro de eso?" } },
+    { "id": "v4", "target": "c'est vrai ?", "es": "¿es verdad?", "ipa": "/sɛ vʁɛ/", "esApprox": "«se VRE»", "pos": "expresión", "gender": null, "example": { "target": "C'est vrai, ce que tu dis ?", "es": "¿Es verdad lo que dices?" } },
+    { "id": "v5", "target": "tout va bien ?", "es": "¿todo va bien?", "ipa": "/tu va bjɛ̃/", "esApprox": "«tu va BIEN»", "pos": "expresión", "gender": null, "example": { "target": "Tout va bien chez toi ?", "es": "¿Todo va bien en tu casa?" } },
+    { "id": "v6", "target": "tu as fini ?", "es": "¿has terminado?", "ipa": "/ty a fi.ni/", "esApprox": "«tü a fi-NÍ»", "pos": "expresión", "gender": null, "example": { "target": "Tu as fini tes devoirs ?", "es": "¿Has terminado tus deberes?" } },
+    { "id": "v7", "target": "il est parti ?", "es": "¿se ha ido?", "ipa": "/i.lɛ paʁ.ti/", "esApprox": "«i-le par-TÍ»", "pos": "expresión", "gender": null, "example": { "target": "Il est déjà parti ?", "es": "¿Ya se ha ido?" } },
+    { "id": "v8", "target": "monter la voix", "es": "subir la voz", "ipa": "/mɔ̃.te la vwa/", "esApprox": "«mon-TÉ la VUÁ»", "pos": "expresión", "gender": null, "example": { "target": "Il faut monter la voix à la fin.", "es": "Hay que subir la voz al final." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "entonacion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se convierte «tu viens» en pregunta, sin cambiar palabras?",
+      "options": ["Añadiendo est-ce que", "Con una entonación ascendente al final", "Cambiando el orden a viens-tu", "Añadiendo un signo antes"],
+      "answer": 1,
+      "explain": "La entonación ascendente convierte la afirmación en pregunta, sin cambiar la estructura."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "entonacion"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas tres formas de preguntar es la más usada en la conversación cotidiana?",
+      "options": ["Viens-tu ?", "Est-ce que tu viens ?", "Tu viens ? (solo entonación)", "Las tres se usan igual"],
+      "answer": 2,
+      "explain": "En el habla cotidiana, la pregunta por entonación es, con diferencia, la más frecuente."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "entonacion"],
+      "difficulty": 2,
+      "statement": "Tu viens. (afirmación) y Tu viens ? (pregunta) tienen exactamente las mismas palabras.",
+      "answer": true,
+      "explain": "Solo cambia la entonación, no las palabras ni el orden."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "entonacion"],
+      "difficulty": 2,
+      "statement": "Viens-tu ? (con inversión) es la forma más habitual en la conversación oral.",
+      "answer": false,
+      "explain": "La inversión es más formal y poco frecuente en el habla cotidiana; la entonación es mucho más habitual."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronunciacion-general", "entonacion"],
+      "difficulty": 2,
+      "prompt": "Une cada pregunta con su significado",
+      "left": ["tu es sûr ?", "c'est vrai ?", "tout va bien ?", "tu as fini ?"],
+      "right": ["¿has terminado?", "¿estás seguro?", "¿es verdad?", "¿todo va bien?"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Cada pregunta con su traducción."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "¿Vienes esta noche? ¿Todo va bien?",
+      "accept": ["Tu viens ce soir ? Tout va bien"],
+      "hintWords": ["tu viens ce soir", "tout va bien"],
+      "strictAccents": false,
+      "audio": "Tu viens ce soir ? Tout va bien ?",
+      "explain": "Dos preguntas formadas solo con entonación."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "¿Estás seguro de eso? ¿Es verdad?",
+      "accept": ["Tu es sûr de ça ? C'est vrai"],
+      "hintWords": ["tu es sûr de ça", "c'est vrai"],
+      "strictAccents": false,
+      "audio": "Tu es sûr de ça ? C'est vrai ?",
+      "explain": "Preguntas por entonación, sin est-ce que ni inversión."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa con la pregunta correcta",
+      "text": "Tu as ___ tes devoirs ? Il est déjà ___ ?",
+      "blanks": [{ "accept": ["fini"] }, { "accept": ["parti"] }],
+      "bank": ["fini", "parti", "sûr"],
+      "explain": "Tu as fini + il est parti, ambas preguntas por entonación."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la pregunta: «¿Te gusta esta película?»",
+      "tokens": ["ce film", "Ça te plaît,"],
+      "answer": ["Ça te plaît,", "ce film"],
+      "audio": "Ça te plaît, ce film ?",
+      "explain": "Ça te plaît, con entonación ascendente al final."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Tu es sûr de ça ? C'est vrai, ce que tu dis ? Il est déjà parti ?",
+      "accept": ["¿Estás seguro de eso? ¿Es verdad lo que dices? ¿Ya se ha ido?"],
+      "strictAccents": false,
+      "audio": "Tu es sûr de ça ? C'est vrai, ce que tu dis ? Il est déjà parti ?",
+      "explain": "Tres preguntas por entonación seguidas."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación con una pregunta por entonación",
+      "turns": [
+        { "who": "Léa", "text": "J'ai fini mon travail.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'est vrai ?", "Tu es sûre ?"], "hint": "pregunta con entonación, sin est-ce que" },
+        { "who": "Léa", "text": "Oui, complètement fini !", "speak": true }
+      ],
+      "explain": "Ante una afirmación, se pregunta con entonación ascendente."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "speak": "Tu viens ce soir ? Tu es sûr ? C'est vrai, tout va bien ?",
+      "mode": "write",
+      "accept": ["Tu viens ce soir ? Tu es sûr ? C'est vrai, tout va bien ?"],
+      "showTextAfter": true,
+      "explain": "Varias preguntas por entonación combinadas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "entonacion"],
+      "difficulty": 2,
+      "speak": "tu viens ?",
+      "mode": "choose",
+      "options": ["tu viens.", "tu viens ?", "tu es venu.", "tu vas venir."],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "La entonación ascendente marca la pregunta, aunque las palabras sean las mismas que en la afirmación."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general", "entonacion"],
+      "difficulty": 3,
+      "speak": "Tu viens ce soir ? Tout va bien ? Tu es sûr de ça ? C'est vrai ?",
+      "es": "¿Vienes esta noche? ¿Todo va bien? ¿Estás seguro de eso? ¿Es verdad?",
+      "ipa": "/ty vjɛ̃ sə swaʁ tu va bjɛ̃ ty ɛ syʁ də sa sɛ vʁɛ/",
+      "esApprox": "«tü VIEN se SUAR tu va BIEN tü e SÜR de sa se VRE»",
+      "focus": "Cuatro preguntas seguidas, todas con entonación ascendente final.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Haz dos preguntas usando solo la entonación, sin est-ce que.",
+      "modelAnswer": "Tu viens ce soir ? Tout va bien ?",
+      "alsoValid": ["Tu es sûr de ça ?"],
+      "speak": "Tu viens ce soir ? Tout va bien ?",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronunciacion-general", "entonacion"],
+      "difficulty": 2,
+      "prompt": "¿Es afirmación o pregunta por entonación?",
+      "buckets": ["Afirmación", "Pregunta (entonación)"],
+      "items": [
+        { "text": "tu viens.", "bucket": 0 },
+        { "text": "tu viens ?", "bucket": 1 },
+        { "text": "c'est vrai.", "bucket": 0 },
+        { "text": "c'est vrai ?", "bucket": 1 }
+      ],
+      "explain": "Las mismas palabras cambian de función según la entonación."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "Tu es fini tes devoirs ?",
+      "accept": ["Tu as fini tes devoirs"],
+      "audio": "Tu as fini tes devoirs ?",
+      "explain": "Finir se conjuga con avoir en passé composé: tu as fini, no tu es fini."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "tu viens ?", "es": "¿vienes?", "esApprox": "«tü VIEN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "ça te plaît ?", "es": "¿te gusta?", "esApprox": "«sa te PLE»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "tu es sûr ?", "es": "¿estás seguro?", "esApprox": "«tü e SÜR»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "c'est vrai ?", "es": "¿es verdad?", "esApprox": "«se VRE»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "tout va bien ?", "es": "¿todo va bien?", "esApprox": "«tu va BIEN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "tu as fini ?", "es": "¿has terminado?", "esApprox": "«tü a fi-NÍ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Tu viens ce soir ? Tout va bien ?", "es": "¿Vienes esta noche? ¿Todo va bien?", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Tu es sûr de ça ? C'est vrai ?", "es": "¿Estás seguro de eso? ¿Es verdad?", "from": "e7" }
+  ]
+}

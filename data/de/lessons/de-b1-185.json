@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-185",
+  "lang": "de",
+  "level": "B1",
+  "order": 185,
+  "title": "El Vorgangspassiv en presente: werden + participio",
+  "objectives": [
+    "Formar la voz pasiva de proceso (Vorgangspassiv) en presente: werden + participio",
+    "Usar von + dativo para mencionar quién realiza la acción, cuando es relevante",
+    "Reconocer cuándo el alemán prefiere la voz pasiva a la activa"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La voz pasiva: cuando la acción importa más que quién la hace",
+      "body": "En una frase activa, el sujeto hace la acción: «Der Koch kocht das Essen» (El cocinero cocina la comida). En la voz pasiva, el objeto de la activa se convierte en el sujeto, y lo importante es la acción en sí, no quién la realiza: «Das Essen wird gekocht» (La comida es cocinada / se cocina). Se forma con werden conjugado (posición 2) + el participio del verbo principal, al final, exactamente igual que el Futur I y los modales.",
+      "examples": [
+        { "target": "Das Essen wird gekocht.", "es": "La comida es cocinada / se cocina." },
+        { "target": "Das Auto wird von einem Mechaniker repariert.", "es": "El coche es reparado por un mecánico." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "werden (presente) + participio",
+      "headers": ["Persona", "werden", "+ participio (final)"],
+      "rows": [
+        ["das Essen (es)", "wird", "gekocht"],
+        ["die Autos (sie)", "werden", "repariert"],
+        ["ich", "werde", "gefragt"],
+        ["wir", "werden", "eingeladen"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Si quieres mencionar quién realiza la acción, usa von + dativo (persona) o durch + acusativo (causa impersonal, como una máquina o un fenómeno): «Das Auto wird von einem Mechaniker repariert» frente a «Der Wald wurde durch den Sturm zerstört» (El bosque fue destruido por la tormenta)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "werden + participio", "es": "ser + participio (voz pasiva)", "ipa": "/ˈveːɐ̯dn̩/", "esApprox": "«VÉR-den»", "pos": "estructura verbal", "gender": null, "example": { "target": "Das Essen wird gekocht.", "es": "La comida es cocinada." } },
+    { "id": "v2", "target": "reparieren", "es": "reparar", "ipa": "/ʁepaˈʁiːʁən/", "esApprox": "«re-pa-RÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Das Auto wird repariert.", "es": "El coche está siendo reparado." } },
+    { "id": "v3", "target": "der Mechaniker", "es": "el mecánico", "ipa": "/meˈçaːnikɐ/", "esApprox": "«me-CHÁ-ni-ker»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das Auto wird von einem Mechaniker repariert.", "es": "El coche es reparado por un mecánico." } },
+    { "id": "v4", "target": "einladen", "es": "invitar", "ipa": "/ˈaɪ̯nlaːdn̩/", "esApprox": "«ÁIN-la-den»", "pos": "verbo", "gender": null, "example": { "target": "Wir werden zur Party eingeladen.", "es": "Somos invitados a la fiesta." } },
+    { "id": "v5", "target": "bauen", "es": "construir", "ipa": "/ˈbaʊ̯ən/", "esApprox": "«BÁU-en»", "pos": "verbo", "gender": null, "example": { "target": "Das Haus wird gebaut.", "es": "La casa está siendo construida." } },
+    { "id": "v6", "target": "die Handlung", "es": "la acción", "ipa": "/ˈhandlʊŋ/", "esApprox": "«JÁND-lung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Bei der Passivform steht die Handlung im Zentrum.", "es": "En la voz pasiva, la acción está en el centro." } },
+    { "id": "v7", "target": "der Täter", "es": "el autor (de la acción, agente)", "ipa": "/ˈtɛːtɐ/", "esApprox": "«TÉ-ter»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Täter ist oft nicht wichtig.", "es": "El agente a menudo no es importante." } },
+    { "id": "v8", "target": "der Prozess", "es": "el proceso", "ipa": "/pʁoˈtsɛs/", "esApprox": "«pro-TSÉS»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein langer Prozess.", "es": "Ese es un proceso largo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["voz-pasiva"], "difficulty": 1, "prompt": "¿Cómo se forma el Vorgangspassiv en presente?", "options": ["sein + participio", "werden + participio", "haben + participio", "würde + infinitivo"], "answer": 1, "explain": "werden (posición 2) + participio (final)." },
+    { "id": "e2", "type": "mcq", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "¿Qué preposición se usa para mencionar a la persona que realiza la acción?", "options": ["durch + acusativo", "von + dativo", "mit + dativo", "für + acusativo"], "answer": 1, "explain": "von + dativo para personas; durch + acusativo para causas impersonales." },
+    { "id": "e3", "type": "true_false", "tags": ["voz-pasiva"], "difficulty": 2, "statement": "En la voz pasiva, el objeto de la frase activa se convierte en el sujeto.", "answer": true, "explain": "«Der Koch kocht das Essen» → «Das Essen wird gekocht»: das Essen pasa a ser sujeto." },
+    { "id": "e4", "type": "true_false", "tags": ["voz-pasiva"], "difficulty": 2, "statement": "Es obligatorio mencionar siempre quién realiza la acción en una frase pasiva.", "answer": false, "explain": "Muchas veces se omite, precisamente porque lo importante es la acción, no el agente." },
+    { "id": "e5", "type": "match_pairs", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Une cada sujeto con su forma de werden", "left": ["das Essen", "die Autos", "ich", "wir"], "right": ["wird", "werden", "werde", "werden"], "answer": [0, 1, 2, 3], "explain": "werden se conjuga según el sujeto de la frase pasiva." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "La comida es cocinada.", "accept": ["Das Essen wird gekocht"], "hintWords": ["das Essen wird gekocht"], "strictAccents": false, "audio": "Das Essen wird gekocht.", "explain": "Das Essen (sujeto) + wird (posición 2) + gekocht (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "El coche es reparado por un mecánico.", "accept": ["Das Auto wird von einem Mechaniker repariert"], "hintWords": ["das Auto wird von einem Mechaniker repariert"], "strictAccents": false, "audio": "Das Auto wird von einem Mechaniker repariert.", "explain": "wird + von einem Mechaniker (dativo) + repariert (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Somos invitados a la fiesta.", "accept": ["Wir werden zur Party eingeladen"], "hintWords": ["wir werden zur Party eingeladen"], "strictAccents": false, "audio": "Wir werden zur Party eingeladen.", "explain": "werden + zur Party + eingeladen (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Completa con la forma correcta de werden", "text": "Das Haus ___ gebaut. Die Autos ___ repariert.", "blanks": [{ "accept": ["wird"] }, { "accept": ["werden"] }], "bank": ["wird", "werden", "wurde"], "explain": "das Haus (singular) → wird; die Autos (plural) → werden." },
+    { "id": "e10", "type": "word_order", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Ordena: «En la voz pasiva, la acción está en el centro»", "tokens": ["steht die Handlung im Zentrum", "Bei der Passivform"], "answer": ["Bei der Passivform", "steht die Handlung im Zentrum"], "audio": "Bei der Passivform steht die Handlung im Zentrum.", "explain": "Bei der Passivform (posición 1) + steht (posición 2) + die Handlung + im Zentrum." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Der Täter ist oft nicht wichtig.", "accept": ["El agente a menudo no es importante."], "strictAccents": false, "audio": "Der Täter ist oft nicht wichtig.", "explain": "der Täter = el autor de la acción, el agente." },
+    { "id": "e12", "type": "dialogue", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wo ist dein Auto?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Es wird gerade repariert."], "hint": "responde con la voz pasiva" },
+      { "who": "Lea", "text": "Ah, verstanden!", "speak": true }
+    ], "explain": "wird...repariert: uso natural de la voz pasiva para describir un proceso en curso." },
+    { "id": "e13", "type": "listening", "tags": ["voz-pasiva"], "difficulty": 1, "speak": "Das Essen wird gekocht.", "mode": "write", "accept": ["Das Essen wird gekocht"], "showTextAfter": true, "explain": "wird + gekocht (participio)." },
+    { "id": "e14", "type": "listening", "tags": ["voz-pasiva"], "difficulty": 2, "speak": "Das Auto wird von einem Mechaniker repariert.", "mode": "choose", "options": ["Das Auto wird von einem Mechaniker repariert.", "Das Auto wird von einen Mechaniker repariert.", "Das Auto wird von einem Mechaniker reparieren."], "answer": 0, "showTextAfter": true, "explain": "von + dativo (einem Mechaniker) + participio (repariert) al final." },
+    { "id": "e15", "type": "shadowing", "tags": ["voz-pasiva"], "difficulty": 2, "speak": "Das Essen wird gerade gekocht, und das Auto wird von einem Mechaniker repariert.", "es": "La comida se está cocinando ahora mismo, y el coche está siendo reparado por un mecánico.", "ipa": "/das ˈɛsn̩ vɪʁt ɡəˈʁaːdə ɡəˈkɔxt ʊnt das ˈaʊ̯to vɪʁt fɔn ˈaɪ̯nəm meˈçaːnikɐ ʁepaˈʁiːɐ̯t/", "esApprox": "«das É-sen virt ge-RÁ-de ge-KOJT, unt das ÁU-to virt fon ÁI-nem me-CHÁ-ni-ker re-pa-RIRT»", "focus": "wird gekocht y wird...repariert: dos ejemplos de Vorgangspassiv, uno sin agente y otro con von + dativo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["voz-pasiva"], "difficulty": 2, "speak": "Bei der Passivform steht die Handlung im Zentrum, denn der Täter ist oft nicht wichtig.", "es": "En la voz pasiva, la acción está en el centro, porque el agente a menudo no es importante.", "ipa": "/baɪ̯ deːɐ̯ paˈsiːffɔʁm ʃteːt diː ˈhandlʊŋ ɪm ˈtsɛntʁʊm dɛn deːɐ̯ ˈtɛːtɐ ɪst ɔft nɪçt ˈvɪçtɪç/", "esApprox": "«bai der pa-SIF-form shtet di JÁND-lung im TSEN-trum, den der TÉ-ter ist oft nicht VICH-tich»", "focus": "steht im Zentrum y der Täter: vocabulario clave para explicar por qué se usa la voz pasiva.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Te preguntan dónde está tu coche. Responde que está siendo reparado.", "modelAnswer": "Es wird gerade repariert.", "alsoValid": ["Mein Auto wird gerade repariert."], "speak": "Es wird gerade repariert.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Clasifica cada frase: activa o pasiva", "buckets": ["Activa", "Pasiva (Vorgangspassiv)"], "items": [
+      { "text": "Der Koch kocht das Essen.", "bucket": 0 },
+      { "text": "Das Essen wird gekocht.", "bucket": 1 },
+      { "text": "Ein Mechaniker repariert das Auto.", "bucket": 0 },
+      { "text": "Das Auto wird repariert.", "bucket": 1 }
+    ], "explain": "En la pasiva, el objeto de la activa se convierte en sujeto, y werden + participio sustituye al verbo conjugado normal." },
+    { "id": "e19", "type": "error_correction", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das Auto wird von ein Mechaniker repariert.", "accept": ["Das Auto wird von einem Mechaniker repariert"], "audio": "Das Auto wird von einem Mechaniker repariert.", "explain": "von rige dativo: von einem Mechaniker, no von ein Mechaniker." },
+    { "id": "e20", "type": "mcq", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "«Das Essen wird gerade gekocht. Das Auto wird von einem Mechaniker repariert. Bei der Passivform steht die Handlung im Zentrum, nicht der Täter.» ¿Qué característica define a la voz pasiva según el texto?", "options": ["Siempre menciona quién hace la acción", "La acción es más importante que quién la realiza", "Solo se usa con verbos irregulares", "Es idéntica a la voz activa"], "answer": 1, "explain": "«steht die Handlung im Zentrum, nicht der Täter» resume la idea central de la voz pasiva." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "werden + participio", "es": "ser + participio (voz pasiva)", "esApprox": "«VÉR-den»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "reparieren", "es": "reparar", "esApprox": "«re-pa-RÍ-ren»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Mechaniker", "es": "el mecánico", "esApprox": "«me-CHÁ-ni-ker»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "einladen", "es": "invitar", "esApprox": "«ÁIN-la-den»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "bauen", "es": "construir", "esApprox": "«BÁU-en»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Handlung", "es": "la acción", "esApprox": "«JÁND-lung»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Das Essen wird gerade gekocht, und das Auto wird von einem Mechaniker repariert.", "es": "La comida se está cocinando ahora mismo, y el coche está siendo reparado por un mecánico.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Bei der Passivform steht die Handlung im Zentrum, denn der Täter ist oft nicht wichtig.", "es": "En la voz pasiva, la acción está en el centro, porque el agente a menudo no es importante.", "from": "e16" }
+  ]
+}

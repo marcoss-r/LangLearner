@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-239",
+  "lang": "de",
+  "level": "B1",
+  "order": 239,
+  "title": "Negociar: pedir, ceder y llegar a un acuerdo",
+  "objectives": [
+    "Hacer una oferta o petición con vocabulario de negociación: das Angebot, der Vorschlag",
+    "Ceder con educación usando nachgeben y ein Zugeständnis machen",
+    "Cerrar una negociación con sich in der Mitte treffen (llegar a un punto medio)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de la negociación",
+      "body": "Negociar empieza con «ein Angebot» (una oferta) o «ein Vorschlag» (una propuesta). Si la otra parte no acepta del todo, puedes «nachgeben» (ceder) o «ein Zugeständnis machen» (hacer una concesión). Cuando ambas partes ceden algo, «sich in der Mitte treffen» (encontrarse a medio camino) describe el acuerdo final.",
+      "examples": [
+        { "target": "Ich mache Ihnen ein besseres Angebot.", "es": "Le hago una oferta mejor." },
+        { "target": "Wir haben uns in der Mitte getroffen.", "es": "Hemos llegado a un punto medio." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario clave de la negociación",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["das Angebot", "la oferta"],
+        ["der Vorschlag", "la propuesta"],
+        ["nachgeben", "ceder"],
+        ["das Zugeständnis", "la concesión"],
+        ["sich in der Mitte treffen", "encontrarse a medio camino"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "akzeptieren (aceptar) y ablehnen (rechazar) son los dos verbos que cierran cualquier negociación: «Ich akzeptiere Ihren Vorschlag» (Acepto su propuesta) o «Ich lehne das Angebot ab» (Rechazo la oferta)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "das Angebot", "es": "la oferta", "ipa": "/das ˈanɡəboːt/", "esApprox": "«das ÁN-ge-bot»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich mache Ihnen ein besseres Angebot.", "es": "Le hago una oferta mejor." } },
+    { "id": "v2", "target": "der Vorschlag", "es": "la propuesta", "ipa": "/ˈfoːɐ̯ʃlaːk/", "esApprox": "«FOR-shlak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein guter Vorschlag.", "es": "Esa es una buena propuesta." } },
+    { "id": "v3", "target": "nachgeben", "es": "ceder", "ipa": "/ˈnaːxɡeːbn̩/", "esApprox": "«NACH-gue-ben»", "pos": "verbo separable", "gender": null, "example": { "target": "Am Ende habe ich nachgegeben.", "es": "Al final cedí." } },
+    { "id": "v4", "target": "das Zugeständnis", "es": "la concesión", "ipa": "/ˈtsuːɡəʃtɛntnɪs/", "esApprox": "«TSU-ge-shtent-nis»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich mache Ihnen ein Zugeständnis.", "es": "Le hago una concesión." } },
+    { "id": "v5", "target": "sich in der Mitte treffen", "es": "encontrarse a medio camino", "ipa": "/zɪç ɪn deːɐ̯ ˈmɪtə ˈtʁɛfn̩/", "esApprox": "«zich in der MI-te TRÉ-fen»", "pos": "locución verbal", "gender": null, "example": { "target": "Wir haben uns in der Mitte getroffen.", "es": "Hemos llegado a un punto medio." } },
+    { "id": "v6", "target": "akzeptieren", "es": "aceptar", "ipa": "/aktsɛpˈtiːʁən/", "esApprox": "«ak-tsep-TÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Ich akzeptiere Ihren Vorschlag.", "es": "Acepto su propuesta." } },
+    { "id": "v7", "target": "ablehnen", "es": "rechazar", "ipa": "/ˈaploːnən/", "esApprox": "«AP-le-nen»", "pos": "verbo separable", "gender": null, "example": { "target": "Ich lehne das Angebot ab.", "es": "Rechazo la oferta." } },
+    { "id": "v8", "target": "verhandeln", "es": "negociar", "ipa": "/fɛɐ̯ˈhandl̩n/", "esApprox": "«fer-JÁN-deln»", "pos": "verbo", "gender": null, "example": { "target": "Können wir noch verhandeln?", "es": "¿Podemos negociar aún?" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["negociacion"], "difficulty": 1, "prompt": "¿Cómo se dice «la oferta»?", "options": ["der Vorschlag", "das Angebot", "das Zugeständnis", "der Kompromiss"], "answer": 1, "explain": "das Angebot = la oferta." },
+    { "id": "e2", "type": "mcq", "tags": ["negociacion"], "difficulty": 2, "prompt": "¿Cómo se dice «ceder»?", "options": ["ablehnen", "akzeptieren", "nachgeben", "verhandeln"], "answer": 2, "explain": "nachgeben = ceder." },
+    { "id": "e3", "type": "true_false", "tags": ["negociacion"], "difficulty": 2, "statement": "sich in der Mitte treffen describe un acuerdo donde ambas partes ceden algo.", "answer": true, "explain": "sich in der Mitte treffen = encontrarse a medio camino." },
+    { "id": "e4", "type": "true_false", "tags": ["negociacion"], "difficulty": 2, "statement": "ablehnen significa aceptar una oferta.", "answer": false, "explain": "ablehnen significa rechazar, lo opuesto a akzeptieren." },
+    { "id": "e5", "type": "match_pairs", "tags": ["negociacion"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["das Angebot", "der Vorschlag", "das Zugeständnis", "verhandeln"], "right": ["la oferta", "la propuesta", "la concesión", "negociar"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["negociacion"], "difficulty": 2, "prompt": "Le hago una oferta mejor.", "accept": ["Ich mache Ihnen ein besseres Angebot"], "hintWords": ["ich mache Ihnen ein besseres Angebot"], "strictAccents": false, "audio": "Ich mache Ihnen ein besseres Angebot.", "explain": "mache + Ihnen + ein besseres Angebot." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["negociacion"], "difficulty": 2, "prompt": "Hemos llegado a un punto medio.", "accept": ["Wir haben uns in der Mitte getroffen"], "hintWords": ["wir haben uns in der Mitte getroffen"], "strictAccents": false, "audio": "Wir haben uns in der Mitte getroffen.", "explain": "haben + uns + in der Mitte + getroffen (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["negociacion"], "difficulty": 2, "prompt": "Acepto su propuesta.", "accept": ["Ich akzeptiere Ihren Vorschlag"], "hintWords": ["ich akzeptiere Ihren Vorschlag"], "strictAccents": false, "audio": "Ich akzeptiere Ihren Vorschlag.", "explain": "akzeptiere + Ihren Vorschlag (acusativo)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["negociacion"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Am Ende habe ich ___. Ich lehne das Angebot ___.", "blanks": [{ "accept": ["nachgegeben"] }, { "accept": ["ab"] }], "bank": ["nachgegeben", "ab", "akzeptiert"], "explain": "nachgegeben (Perfekt de nachgeben) y ab (de ablehnen)." },
+    { "id": "e10", "type": "word_order", "tags": ["negociacion"], "difficulty": 2, "prompt": "Ordena: «¿Podemos negociar aún?»", "tokens": ["noch verhandeln?", "Können wir"], "answer": ["Können wir", "noch verhandeln?"], "audio": "Können wir noch verhandeln?", "explain": "Können + wir + noch + verhandeln (final, con el modal)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["negociacion"], "difficulty": 2, "prompt": "Das ist ein guter Vorschlag.", "accept": ["Esa es una buena propuesta."], "strictAccents": false, "audio": "Das ist ein guter Vorschlag.", "explain": "der Vorschlag = la propuesta." },
+    { "id": "e12", "type": "dialogue", "tags": ["negociacion"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Verkäufer", "text": "Das kostet 100 Euro.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Können wir noch verhandeln? Ich mache Ihnen ein Angebot von 80 Euro."], "hint": "propón negociar el precio" },
+      { "who": "Verkäufer", "text": "Gut, wir treffen uns in der Mitte: 90 Euro.", "speak": true }
+    ], "explain": "verhandeln y sich in der Mitte treffen: una negociación completa de precio." },
+    { "id": "e13", "type": "listening", "tags": ["negociacion"], "difficulty": 1, "speak": "Ich mache Ihnen ein besseres Angebot.", "mode": "write", "accept": ["Ich mache Ihnen ein besseres Angebot"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["negociacion"], "difficulty": 2, "speak": "Wir haben uns in der Mitte getroffen.", "mode": "choose", "options": ["Wir haben uns in der Mitte getroffen.", "Wir haben das Angebot abgelehnt.", "Wir haben nicht verhandelt."], "answer": 0, "showTextAfter": true, "explain": "sich in der Mitte treffen describe un acuerdo, no un rechazo." },
+    { "id": "e15", "type": "shadowing", "tags": ["negociacion"], "difficulty": 2, "speak": "Ich mache Ihnen ein besseres Angebot, aber Sie müssen auch ein kleines Zugeständnis machen.", "es": "Le hago una oferta mejor, pero usted también tiene que hacer una pequeña concesión.", "ipa": "/ɪç ˈmaxə ˈiːnən aɪ̯n ˈbɛsəʁəs ˈanɡəboːt ˈaːbɐ ziː ˈmʏsn̩ aʊ̯x aɪ̯n ˈklaɪ̯nəs ˈtsuːɡəʃtɛntnɪs ˈmaxn̩/", "esApprox": "«ich MA-je Í-nen ain BÉ-se-res ÁN-ge-bot, Á-ber zi MÜ-sen aoj ain KLÁI-nes TSU-ge-shtent-nis MA-jen»", "focus": "Angebot y Zugeständnis: la lógica de dar y recibir en una negociación.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["negociacion"], "difficulty": 2, "speak": "Am Ende habe ich ein bisschen nachgegeben, und wir haben uns in der Mitte getroffen.", "es": "Al final cedí un poco, y llegamos a un punto medio.", "ipa": "/am ˈɛndə ˈhaːbə ɪç aɪ̯n ˈbɪsçən ˈnaːxɡəɡeːbn̩ ʊnt viːɐ̯ ˈhaːbn̩ ʊns ɪn deːɐ̯ ˈmɪtə ɡəˈtʁɔfn̩/", "esApprox": "«am EN-de JÁ-be ich ain BIS-chen NACH-ge-gué-ben, unt vir JÁ-ben uns in der MI-te ge-TRÓ-fen»", "focus": "nachgegeben y in der Mitte getroffen: el resultado exitoso de una negociación con concesiones mutuas.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["negociacion"], "difficulty": 2, "prompt": "Estás negociando un precio. Propón encontrarse a medio camino.", "modelAnswer": "Vielleicht können wir uns in der Mitte treffen.", "alsoValid": ["Wir könnten uns in der Mitte treffen."], "speak": "Vielleicht können wir uns in der Mitte treffen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["negociacion"], "difficulty": 2, "prompt": "Clasifica cada palabra según su función en la negociación", "buckets": ["Proponer/ofrecer", "Ceder/cerrar"], "items": [
+      { "text": "das Angebot", "bucket": 0 },
+      { "text": "der Vorschlag", "bucket": 0 },
+      { "text": "nachgeben", "bucket": 1 },
+      { "text": "sich in der Mitte treffen", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario de negociación de esta clase." },
+    { "id": "e19", "type": "error_correction", "tags": ["negociacion"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich lehne das Angebot akzeptiert.", "accept": ["Ich lehne das Angebot ab"], "audio": "Ich lehne das Angebot ab.", "explain": "ablehnen (rechazar) es el verbo correcto; akzeptiert no combina con lehnen." },
+    { "id": "e20", "type": "mcq", "tags": ["negociacion"], "difficulty": 2, "prompt": "«Ich mache Ihnen ein besseres Angebot, aber Sie müssen auch ein kleines Zugeständnis machen. Am Ende haben wir uns in der Mitte getroffen.» ¿Cómo terminó la negociación?", "options": ["Sin acuerdo", "Con un acuerdo intermedio", "Con el rechazo total de la oferta", "Con la aceptación total sin cambios"], "answer": 1, "explain": "«Am Ende haben wir uns in der Mitte getroffen» indica un acuerdo intermedio." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Angebot", "es": "la oferta", "esApprox": "«das ÁN-ge-bot»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Vorschlag", "es": "la propuesta", "esApprox": "«FOR-shlak»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "nachgeben", "es": "ceder", "esApprox": "«NACH-gue-ben»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Zugeständnis", "es": "la concesión", "esApprox": "«TSU-ge-shtent-nis»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "sich in der Mitte treffen", "es": "encontrarse a medio camino", "esApprox": "«zich in der MI-te TRÉ-fen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "verhandeln", "es": "negociar", "esApprox": "«fer-JÁN-deln»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich mache Ihnen ein besseres Angebot, aber Sie müssen auch ein kleines Zugeständnis machen.", "es": "Le hago una oferta mejor, pero usted también tiene que hacer una pequeña concesión.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Am Ende habe ich ein bisschen nachgegeben, und wir haben uns in der Mitte getroffen.", "es": "Al final cedí un poco, y llegamos a un punto medio.", "from": "e16" }
+  ]
+}

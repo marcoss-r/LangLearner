@@ -1,0 +1,254 @@
+{
+  "id": "fr-a1-079",
+  "lang": "fr",
+  "level": "A1",
+  "order": 79,
+  "title": "El passé composé II: los participios irregulares que más se usan",
+  "objectives": [
+    "Memorizar los participios irregulares de avoir, être, faire, pouvoir, vouloir y devoir",
+    "Usar estos participios en frases completas con avoir (clase 78)",
+    "Reconocer que los verbos más frecuentes suelen tener participios irregulares"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Participios que no siguen la regla",
+      "body": "Los verbos más usados del francés (avoir, être, faire, pouvoir, vouloir, devoir) tienen participios irregulares que hay que memorizar, ya que no siguen la regla -er → -é / -ir → -i de la clase 78.",
+      "examples": [
+        { "target": "J'ai eu de la chance, et j'ai été content.", "es": "Tuve suerte, y estuve contento.", "note": "eu (avoir) + été (être)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los participios irregulares más frecuentes",
+      "headers": ["Infinitivo", "Participio", "Ejemplo"],
+      "rows": [
+        ["avoir", "eu", "J'ai eu un problème."],
+        ["être", "été", "J'ai été malade."],
+        ["faire", "fait", "J'ai fait du sport."],
+        ["pouvoir", "pu", "J'ai pu finir à temps."],
+        ["vouloir", "voulu", "J'ai voulu partir tôt."],
+        ["devoir", "dû", "J'ai dû travailler."]
+      ],
+      "note": "Todos estos participios se combinan con avoir, como en la clase 78."
+    },
+    {
+      "type": "tip",
+      "body": "Fíjate en que incluso avoir y être, aunque son auxiliares en passé composé, también tienen su propio participio cuando son el verbo principal: j'ai eu, j'ai été."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "eu", "es": "tenido (de avoir)", "ipa": "/y/", "esApprox": "«Ü»", "pos": "verbo", "gender": null, "example": { "target": "J'ai eu un problème.", "es": "Tuve un problema." } },
+    { "id": "v2", "target": "été", "es": "sido, estado (de être)", "ipa": "/e.te/", "esApprox": "«e-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai été malade la semaine dernière.", "es": "Estuve enfermo la semana pasada." } },
+    { "id": "v3", "target": "fait", "es": "hecho (de faire)", "ipa": "/fɛ/", "esApprox": "«FE»", "pos": "verbo", "gender": null, "example": { "target": "J'ai fait du sport hier.", "es": "Hice deporte ayer." } },
+    { "id": "v4", "target": "pu", "es": "podido (de pouvoir)", "ipa": "/py/", "esApprox": "«PÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai pu finir à temps.", "es": "Pude terminar a tiempo." } },
+    { "id": "v5", "target": "voulu", "es": "querido (de vouloir)", "ipa": "/vu.ly/", "esApprox": "«vu-LÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai voulu partir tôt.", "es": "Quise salir pronto." } },
+    { "id": "v6", "target": "dû", "es": "debido, tenido que (de devoir)", "ipa": "/dy/", "esApprox": "«DÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai dû travailler ce week-end.", "es": "Tuve que trabajar este fin de semana." } },
+    { "id": "v7", "target": "l'année dernière", "es": "el año pasado", "ipa": "/la.ne dɛʁ.njɛʁ/", "esApprox": "«la-NÉ der-NIER»", "pos": "expresión", "gender": null, "example": { "target": "J'ai eu vingt ans l'année dernière.", "es": "Cumplí veinte años el año pasado." } },
+    { "id": "v8", "target": "le mois dernier", "es": "el mes pasado", "ipa": "/lə mwa dɛʁ.nje/", "esApprox": "«le MUÁ der-NIÉ»", "pos": "expresión", "gender": null, "example": { "target": "J'ai été à Paris le mois dernier.", "es": "Estuve en París el mes pasado." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el participio de avoir?",
+      "options": ["avu", "eu", "avé", "eus"],
+      "answer": 1,
+      "explain": "Avoir → eu, un participio irregular."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «hice deporte»?",
+      "options": ["J'ai faire du sport.", "J'ai fait du sport.", "J'ai faisé du sport.", "Je fais eu du sport."],
+      "answer": 1,
+      "explain": "Faire → fait: j'ai fait du sport."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "statement": "Être tiene su propio participio (été), diferente del de avoir (eu).",
+      "answer": true,
+      "explain": "Cada verbo tiene su propio participio irregular: être → été, avoir → eu."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos participios sigue la regla regular de la clase 78?",
+      "options": ["eu", "été", "fait", "fini"],
+      "answer": 3,
+      "explain": "Fini (de finir, -ir → -i) es regular; los otros tres son irregulares."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Une cada infinitivo con su participio",
+      "left": ["pouvoir", "vouloir", "devoir", "être"],
+      "right": ["été", "dû", "pu", "voulu"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Pouvoir → pu, vouloir → voulu, devoir → dû, être → été."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Tuve que trabajar y no pude descansar el mes pasado.",
+      "accept": ["J'ai dû travailler et je n'ai pas pu me reposer le mois dernier"],
+      "hintWords": ["j'ai dû travailler", "je n'ai pas pu me reposer", "le mois dernier"],
+      "strictAccents": false,
+      "audio": "J'ai dû travailler et je n'ai pas pu me reposer le mois dernier.",
+      "explain": "Dû (devoir) + pu (pouvoir) en negación, con le mois dernier."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Tuve un problema, pero estuve contento el año pasado.",
+      "accept": ["J'ai eu un problème, mais j'ai été content l'année dernière"],
+      "hintWords": ["j'ai eu un problème", "j'ai été content l'année dernière"],
+      "strictAccents": false,
+      "audio": "J'ai eu un problème, mais j'ai été content l'année dernière.",
+      "explain": "Eu (avoir) + été (être), con l'année dernière."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Completa con el participio correcto",
+      "text": "J'ai ___ un problème, mais j'ai ___ travailler.",
+      "blanks": [{ "accept": ["eu"] }, { "accept": ["pu"] }],
+      "bank": ["eu", "pu", "voulu"],
+      "explain": "J'ai eu un problème, j'ai pu travailler."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Estuve en París el mes pasado»",
+      "tokens": ["à Paris", "le mois dernier", "J'ai été"],
+      "answer": ["J'ai été", "à Paris", "le mois dernier"],
+      "audio": "J'ai été à Paris le mois dernier.",
+      "explain": "J'ai été + à Paris + le mois dernier."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Nous avons voulu partir, mais nous avons dû rester.",
+      "accept": ["Quisimos salir, pero tuvimos que quedarnos."],
+      "strictAccents": false,
+      "audio": "Nous avons voulu partir, mais nous avons dû rester.",
+      "explain": "Voulu (vouloir) frente a dû (devoir)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el año pasado",
+      "turns": [
+        { "who": "Léa", "text": "Tu as eu une bonne année l'année dernière ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai eu une bonne année.", "Non, j'ai eu des problèmes."], "hint": "responde con avoir eu" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Tu as eu...? se responde con avoir + eu."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "speak": "J'ai fait du sport, j'ai eu faim, et j'ai dû manger à midi.",
+      "mode": "write",
+      "accept": ["J'ai fait du sport, j'ai eu faim, et j'ai dû manger à midi"],
+      "showTextAfter": true,
+      "explain": "Tres participios irregulares en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 1,
+      "speak": "j'ai été",
+      "mode": "choose",
+      "options": ["j'ai eu", "j'ai été", "j'ai fait", "j'ai pu"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'ai été = fui/estuve."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 3,
+      "speak": "L'année dernière, j'ai eu un nouveau travail, j'ai dû beaucoup travailler, mais j'ai été content.",
+      "es": "El año pasado, tuve un trabajo nuevo, tuve que trabajar mucho, pero estuve contento.",
+      "ipa": "/la.ne dɛʁ.njɛʁ ʒe y œ̃ nu.vo tʁa.vaj ʒe dy bo.ku tʁa.vaj.e mɛ ʒe e.te kɔ̃.tɑ̃/",
+      "esApprox": "«la-NÉ der-NIER ye Ü un nu-VÓ tra-VÁY ye DÜ bo-KÚ tra-va-YÉ me ye e-TÉ kon-TAN»",
+      "focus": "Tres participios irregulares (eu, dû, été) en una historia breve.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Cuenta algo que tuviste que hacer y algo que pudiste hacer el mes pasado.",
+      "modelAnswer": "J'ai dû travailler, mais j'ai pu me reposer le week-end.",
+      "alsoValid": ["J'ai eu beaucoup de travail le mois dernier."],
+      "speak": "J'ai dû travailler, mais j'ai pu me reposer le week-end.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿A qué infinitivo pertenece este participio?",
+      "buckets": ["avoir", "être", "faire", "devoir"],
+      "items": [
+        { "text": "eu", "bucket": 0 },
+        { "text": "été", "bucket": 1 },
+        { "text": "fait", "bucket": 2 },
+        { "text": "dû", "bucket": 3 }
+      ],
+      "explain": "Eu (avoir), été (être), fait (faire), dû (devoir)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Hay un error de participio. Corrige la frase entera.",
+      "wrong": "J'ai avoir un problème.",
+      "accept": ["J'ai eu un problème"],
+      "audio": "J'ai eu un problème.",
+      "explain": "El participio de avoir es eu, no avoir."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "eu", "es": "tenido (de avoir)", "esApprox": "«Ü»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "été", "es": "sido, estado (de être)", "esApprox": "«e-TÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "fait", "es": "hecho (de faire)", "esApprox": "«FE»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "pu", "es": "podido (de pouvoir)", "esApprox": "«PÜ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "voulu", "es": "querido (de vouloir)", "esApprox": "«vu-LÜ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "dû", "es": "debido, tenido que (de devoir)", "esApprox": "«DÜ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai dû travailler et je n'ai pas pu me reposer le mois dernier.", "es": "Tuve que trabajar y no pude descansar el mes pasado.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai eu un problème, mais j'ai été content l'année dernière.", "es": "Tuve un problema, pero estuve contento el año pasado.", "from": "e7" }
+  ]
+}

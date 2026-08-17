@@ -1,0 +1,87 @@
+{
+  "id": "de-a1-080",
+  "lang": "de",
+  "level": "A1",
+  "order": 80,
+  "title": "Weil: la conjunción que manda el verbo al final",
+  "objectives": [
+    "Usar weil para dar una razón, mandando el verbo conjugado al final de su frase",
+    "Distinguir weil (verbo al final) de denn (verbo en su lugar normal), ambos con el significado «porque»",
+    "Responder a la pregunta warum? con una frase completa introducida por weil"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "weil manda el verbo conjugado al final",
+      "body": "A diferencia de denn (clase 79), weil es una conjunción subordinante: la frase que introduce se convierte en una frase secundaria, y su verbo conjugado se va al final de esa frase. Esto es el mismo patrón que ya conoces del Perfekt y de los modales (el verbo conjugado se separa del resto), solo que aquí es la conjunción weil la que provoca el movimiento.",
+      "examples": [
+        { "target": "Ich bin müde, weil ich viel gearbeitet habe.", "es": "Estoy cansado, porque he trabajado mucho.", "note": "habe va al final, no en posición 2" },
+        { "target": "Ich lerne Deutsch, weil ich in Berlin arbeite.", "es": "Aprendo alemán, porque trabajo en Berlín.", "note": "arbeite va al final" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "denn vs. weil: mismo significado, orden distinto",
+      "headers": ["Conjunción", "Orden del verbo", "Ejemplo"],
+      "rows": [
+        ["denn", "posición normal (2)", "..., denn ich habe viel gearbeitet."],
+        ["weil", "al final de la frase", "..., weil ich viel gearbeitet habe."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Trucó práctico: en una frase con weil, busca el verbo conjugado (el que cambia según el sujeto) y ponlo al final. Si hay un participio o infinitivo, va justo antes; el verbo conjugado siempre cierra la frase."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "weil", "es": "porque", "ipa": "/vaɪ̯l/", "esApprox": "«vail»", "pos": "conjunción", "gender": null, "example": { "target": "Ich bin müde, weil ich viel gearbeitet habe.", "es": "Estoy cansado, porque he trabajado mucho." } },
+    { "id": "v2", "target": "warum", "es": "¿por qué?", "ipa": "/vaˈʁʊm/", "esApprox": "«va-RUM»", "pos": "pronombre interrogativo", "gender": null, "example": { "target": "Warum bist du müde?", "es": "¿Por qué estás cansado?" } },
+    { "id": "v3", "target": "der Grund", "es": "el motivo, la razón", "ipa": "/ɡʁʊnt/", "esApprox": "«grunt»", "pos": "sustantivo", "gender": "m", "example": { "target": "Was ist der Grund?", "es": "¿Cuál es el motivo?" } },
+    { "id": "v4", "target": "krank sein", "es": "estar enfermo", "ipa": "/kʁaŋk zaɪ̯n/", "esApprox": "«krank zain»", "pos": "expresión", "gender": null, "example": { "target": "Ich bleibe zu Hause, weil ich krank bin.", "es": "Me quedo en casa, porque estoy enfermo." } },
+    { "id": "v5", "target": "bleiben", "es": "quedarse", "ipa": "/ˈblaɪ̯bn̩/", "esApprox": "«BLÁI-ben»", "pos": "verbo", "gender": null, "example": { "target": "Ich bleibe zu Hause.", "es": "Me quedo en casa." } },
+    { "id": "v6", "target": "wichtig", "es": "importante", "ipa": "/ˈvɪçtɪç/", "esApprox": "«VÍCH-tich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist wichtig, weil es mein Beruf ist.", "es": "Eso es importante, porque es mi profesión." } },
+    { "id": "v7", "target": "der Termin", "es": "la cita", "ipa": "/tɛʁˈmiːn/", "esApprox": "«ter-MÍN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe einen Termin.", "es": "Tengo una cita." } },
+    { "id": "v8", "target": "sofort", "es": "enseguida", "ipa": "/zoˈfɔʁt/", "esApprox": "«zo-FORT»", "pos": "adverbio", "gender": null, "example": { "target": "Ich komme sofort.", "es": "Vengo enseguida." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["weil"], "difficulty": 1, "prompt": "¿Dónde va el verbo conjugado en una frase con weil?", "options": ["Posición 1", "Posición 2", "Al final", "No cambia"], "answer": 2, "explain": "weil manda el verbo conjugado al final de su frase." },
+    { "id": "e2", "type": "mcq", "tags": ["weil"], "difficulty": 2, "prompt": "¿Cuál es la pregunta que responde weil?", "options": ["Wo?", "Wann?", "Warum?", "Wie?"], "answer": 2, "explain": "warum? = ¿por qué?, y se responde con weil." },
+    { "id": "e3", "type": "true_false", "tags": ["weil"], "difficulty": 2, "statement": "denn y weil tienen el mismo orden de palabras.", "answer": false, "explain": "denn deja el verbo en su lugar normal; weil lo manda al final." },
+    { "id": "e4", "type": "true_false", "tags": ["weil"], "difficulty": 2, "statement": "En «Ich lerne Deutsch, weil ich in Berlin arbeite», el verbo «arbeite» va al final porque weil es subordinante.", "answer": true, "explain": "weil convierte la frase en subordinada y manda el verbo conjugado al final." },
+    { "id": "e5", "type": "match_pairs", "tags": ["weil"], "difficulty": 2, "prompt": "Une cada pregunta con su respuesta correcta", "left": ["Warum bist du müde?", "Warum lernst du Deutsch?", "Warum bleibst du zu Hause?"], "right": ["Weil ich viel gearbeitet habe.", "Weil ich in Berlin arbeite.", "Weil ich krank bin."], "answer": [0, 1, 2], "explain": "weil siempre responde a warum?, con el verbo al final." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["weil"], "difficulty": 2, "prompt": "Estoy cansado, porque he trabajado mucho.", "accept": ["Ich bin müde, weil ich viel gearbeitet habe"], "hintWords": ["ich bin müde, weil ich viel gearbeitet habe"], "strictAccents": false, "audio": "Ich bin müde, weil ich viel gearbeitet habe.", "explain": "habe va al final: es el verbo conjugado de la frase con weil." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["weil"], "difficulty": 2, "prompt": "Me quedo en casa, porque estoy enfermo.", "accept": ["Ich bleibe zu Hause, weil ich krank bin"], "hintWords": ["ich bleibe zu Hause, weil ich krank bin"], "strictAccents": false, "audio": "Ich bleibe zu Hause, weil ich krank bin.", "explain": "bin va al final de la frase con weil." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["weil"], "difficulty": 2, "prompt": "Aprendo alemán, porque trabajo en Berlín.", "accept": ["Ich lerne Deutsch, weil ich in Berlin arbeite"], "hintWords": ["ich lerne Deutsch, weil ich in Berlin arbeite"], "strictAccents": false, "audio": "Ich lerne Deutsch, weil ich in Berlin arbeite.", "explain": "arbeite va al final: verbo conjugado de la frase subordinada." },
+    { "id": "e9", "type": "fill_blank", "tags": ["weil"], "difficulty": 2, "prompt": "Completa moviendo el verbo al final", "text": "Ich komme sofort, weil der Termin wichtig ___.", "blanks": [{ "accept": ["ist"] }], "bank": ["ist", "sein", "bin"], "explain": "ist va al final: es el verbo conjugado de la frase con weil." },
+    { "id": "e10", "type": "word_order", "tags": ["weil"], "difficulty": 3, "prompt": "Ordena: «Vengo enseguida, porque la cita es importante»", "tokens": ["ist", "sofort", "der Termin", "weil", "Ich komme", "wichtig"], "answer": ["Ich komme", "sofort", "weil", "der Termin", "wichtig", "ist"], "audio": "Ich komme sofort, weil der Termin wichtig ist.", "explain": "ist va al final: el verbo conjugado cierra la frase con weil." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["weil"], "difficulty": 2, "prompt": "Was ist der Grund?", "accept": ["¿Cuál es el motivo?", "¿Cuál es la razón?"], "strictAccents": false, "audio": "Was ist der Grund?", "explain": "der Grund = el motivo, la razón." },
+    { "id": "e12", "type": "dialogue", "tags": ["weil"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Sara", "text": "Warum bist du müde?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich bin müde, weil ich viel gearbeitet habe."], "hint": "responde con weil y el verbo al final" },
+      { "who": "Sara", "text": "Ach so, das tut mir leid.", "speak": true }
+    ], "explain": "Práctica de warum + weil, la pareja pregunta-respuesta más importante de esta clase." },
+    { "id": "e13", "type": "listening", "tags": ["weil"], "difficulty": 1, "speak": "Ich bin müde, weil ich viel gearbeitet habe.", "mode": "write", "accept": ["Ich bin müde, weil ich viel gearbeitet habe"], "showTextAfter": true, "explain": "weil manda el verbo conjugado (habe) al final." },
+    { "id": "e14", "type": "listening", "tags": ["weil"], "difficulty": 2, "speak": "Warum lernst du Deutsch?", "mode": "choose", "options": ["Warum lernst du Deutsch?", "Wann lernst du Deutsch?", "Wo lernst du Deutsch?"], "answer": 0, "showTextAfter": true, "explain": "Warum (por qué) suena distinto de wann (cuándo) y wo (dónde)." },
+    { "id": "e15", "type": "shadowing", "tags": ["weil"], "difficulty": 2, "speak": "Ich bleibe zu Hause, weil ich krank bin und weil ich mich schlecht fühle.", "es": "Me quedo en casa, porque estoy enfermo y porque me siento mal.", "ipa": "/ɪç ˈblaɪ̯bə tsuː ˈhaʊ̯zə vaɪ̯l ɪç kʁaŋk bɪn ʊnt vaɪ̯l ɪç mɪç ʃlɛçt ˈfyːlə/", "esApprox": "«ich BLÁI-be tsu JÁU-ze, vail ich krank bin unt vail ich mich shlecht FÜ-le»", "focus": "Dos frases con weil encadenadas, cada una con su propio verbo al final (bin, fühle).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["weil"], "difficulty": 2, "speak": "Ich lerne Deutsch, weil ich in Berlin arbeite und weil ich die Sprache liebe.", "es": "Aprendo alemán, porque trabajo en Berlín y porque me encanta el idioma.", "ipa": "/ɪç ˈlɛʁnə dɔɪ̯tʃ vaɪ̯l ɪç ɪn bɛʁˈliːn ˈaʁbaɪ̯tə ʊnt vaɪ̯l ɪç diː ˈʃpʁaːxə ˈliːbə/", "esApprox": "«ich LÉR-ne doich, vail ich in ber-LÍN AR-bai-te unt vail ich di SHPRÁ-je LÍ-be»", "focus": "arbeite y liebe: ambos verbos conjugados van al final de su frase con weil.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["weil"], "difficulty": 2, "prompt": "Te preguntan por qué aprendes alemán. Di que es porque trabajas en Berlín.", "modelAnswer": "Ich lerne Deutsch, weil ich in Berlin arbeite.", "alsoValid": ["Weil ich in Berlin arbeite."], "speak": "Ich lerne Deutsch, weil ich in Berlin arbeite.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["weil"], "difficulty": 2, "prompt": "Clasifica cada frase: ¿el verbo va en posición normal o al final?", "buckets": ["Posición normal (denn)", "Al final (weil)"], "items": [
+      { "text": "..., denn ich habe viel gearbeitet.", "bucket": 0 },
+      { "text": "..., weil ich viel gearbeitet habe.", "bucket": 1 },
+      { "text": "..., weil ich krank bin.", "bucket": 1 },
+      { "text": "..., denn ich bin krank.", "bucket": 0 }
+    ], "explain": "denn no mueve el verbo; weil lo manda al final." },
+    { "id": "e19", "type": "error_correction", "tags": ["weil"], "difficulty": 3, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich bin müde, weil ich habe viel gearbeitet.", "accept": ["Ich bin müde, weil ich viel gearbeitet habe"], "audio": "Ich bin müde, weil ich viel gearbeitet habe.", "explain": "Con weil, el verbo conjugado (habe) va al final, no justo después del sujeto." },
+    { "id": "e20", "type": "mcq", "tags": ["weil"], "difficulty": 2, "prompt": "«Ich bleibe heute zu Hause, weil ich krank bin. Ich habe einen Termin, aber ich rufe an, weil ich nicht kommen kann.» ¿Por qué llama por teléfono la persona?", "options": ["Para cancelar la cita", "Para pedir otra cita", "Para saludar", "Para preguntar la hora"], "answer": 0, "explain": "«ich rufe an, weil ich nicht kommen kann» = llamo porque no puedo ir: está avisando que no puede acudir a la cita." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "weil", "es": "porque", "esApprox": "«vail»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "warum", "es": "¿por qué?", "esApprox": "«va-RUM»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Grund", "es": "el motivo, la razón", "esApprox": "«grunt»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "bleiben", "es": "quedarse", "esApprox": "«BLÁI-ben»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "wichtig", "es": "importante", "esApprox": "«VÍCH-tich»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Termin", "es": "la cita", "esApprox": "«ter-MÍN»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich bleibe zu Hause, weil ich krank bin und weil ich mich schlecht fühle.", "es": "Me quedo en casa, porque estoy enfermo y porque me siento mal.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich lerne Deutsch, weil ich in Berlin arbeite und weil ich die Sprache liebe.", "es": "Aprendo alemán, porque trabajo en Berlín y porque me encanta el idioma.", "from": "e16" }
+  ]
+}

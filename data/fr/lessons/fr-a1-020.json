@@ -1,0 +1,424 @@
+{
+  "id": "fr-a1-020",
+  "lang": "fr",
+  "level": "A1",
+  "order": 20,
+  "title": "Repaso activo I (clases 1–19)",
+  "objectives": [
+    "Repasar y consolidar saludos, presentarte, tu/vous, être, avoir, artículos, género, plural y negación",
+    "Combinar todo lo anterior en frases completas, sin apoyo de teoría nueva",
+    "Detectar tus propios puntos débiles del bloque A antes de seguir avanzando"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque A",
+      "body": "Esta clase no trae gramática nueva. Es un repaso a fondo de las clases 1 a 19: el alfabeto y la pronunciación general, saludos y presentarte, tu/vous, los verbos être y avoir, los artículos, el género y el plural de los sustantivos, los números del 0 al 100 y la negación. Repasa las tablas y lánzate a los ejercicios: son más que en una clase normal, a propósito."
+    },
+    {
+      "type": "table",
+      "title": "Être y avoir, lado a lado",
+      "headers": ["Persona", "être", "avoir"],
+      "rows": [
+        ["je", "suis", "ai"],
+        ["tu", "es", "as"],
+        ["il / elle / on", "est", "a"],
+        ["nous", "sommes", "avons"],
+        ["vous", "êtes", "avez"],
+        ["ils / elles", "sont", "ont"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Artículos: definidos e indefinidos",
+      "headers": ["", "Definido", "Indefinido"],
+      "rows": [
+        ["Masculino sg.", "le", "un"],
+        ["Femenino sg.", "la", "une"],
+        ["Ante vocal/h muda", "l'", "un / une"],
+        ["Plural (m. y f.)", "les", "des"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Números clave del 0 al 100",
+      "headers": ["Número", "Francés"],
+      "rows": [
+        ["10", "dix"],
+        ["20", "vingt"],
+        ["30-60", "trente, quarante, cinquante, soixante"],
+        ["70", "soixante-dix"],
+        ["80", "quatre-vingts"],
+        ["90", "quatre-vingt-dix"],
+        ["100", "cent"]
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "Recordatorio de pronunciación",
+      "body": "Tres reflejos que ya deberías tener automatizados.",
+      "drills": [
+        { "target": "beaucoup", "ipa": "/bo.ku/", "esApprox": "«bo-KÚ»", "hint": "regla CaReFuL: la p final no suena" },
+        { "target": "le café", "ipa": "/lə ka.fe/", "esApprox": "«le ka-FÉ»", "hint": "é cerrada, distinta de è/ê" },
+        { "target": "bon / bonne", "ipa": "/bɔ̃ / bɔn/", "esApprox": "«BON» nasal / «BON» sin nasalizar", "hint": "el femenino con nn pierde la nasal" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "bonjour", "es": "hola, buenos días", "ipa": "/bɔ̃.ʒuʁ/", "esApprox": "«bon-YUR»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je m'appelle", "es": "me llamo", "ipa": "/ʒə ma.pɛl/", "esApprox": "«ye ma-PEL»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "être", "es": "ser, estar", "ipa": "/ɛtʁ/", "esApprox": "«ETR»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "avoir", "es": "tener", "ipa": "/a.vwaʁ/", "esApprox": "«a-VUÁR»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "le livre", "es": "el libro", "ipa": "/lə livʁ/", "esApprox": "«le LIVR»", "pos": "sustantivo", "gender": "m", "plural": "les livres" },
+    { "id": "v6", "target": "un chat", "es": "un gato", "ipa": "/œ̃ ʃa/", "esApprox": "«un SHÁ»", "pos": "sustantivo", "gender": "m", "plural": "des chats" },
+    { "id": "v7", "target": "les chevaux", "es": "los caballos", "ipa": "/le ʃə.vo/", "esApprox": "«le she-VÓ»", "pos": "sustantivo", "gender": "m", "plural": "les chevaux" },
+    { "id": "v8", "target": "ne... pas", "es": "no (negación)", "ipa": "/nə...pa/", "esApprox": "«ne...pa»", "pos": "expresión", "gender": null },
+    { "id": "v9", "target": "vingt", "es": "veinte", "ipa": "/vɛ̃/", "esApprox": "«VEN»", "pos": "número", "gender": null },
+    { "id": "v10", "target": "quatre-vingts", "es": "ochenta", "ipa": "/katʁ.vɛ̃/", "esApprox": "«katr-VEN»", "pos": "número", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "conjugation",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "verb": "être",
+      "tense": "présent",
+      "prompt": "Conjuga «être» en presente",
+      "rows": [
+        { "person": "je", "accept": ["suis"] },
+        { "person": "tu", "accept": ["es"] },
+        { "person": "il / elle", "accept": ["est"] },
+        { "person": "nous", "accept": ["sommes"] },
+        { "person": "vous", "accept": ["êtes"] },
+        { "person": "ils / elles", "accept": ["sont"] }
+      ],
+      "explain": "Être: el verbo más irregular y más usado."
+    },
+    {
+      "id": "e2",
+      "type": "conjugation",
+      "tags": ["avoir"],
+      "difficulty": 2,
+      "verb": "avoir",
+      "tense": "présent",
+      "prompt": "Conjuga «avoir» en presente",
+      "rows": [
+        { "person": "je", "accept": ["ai"] },
+        { "person": "tu", "accept": ["as"] },
+        { "person": "il / elle", "accept": ["a"] },
+        { "person": "nous", "accept": ["avons"] },
+        { "person": "vous", "accept": ["avez"] },
+        { "person": "ils / elles", "accept": ["ont"] }
+      ],
+      "explain": "Avoir: tan irregular y tan frecuente como être."
+    },
+    {
+      "id": "e3",
+      "type": "translate_to_target",
+      "tags": ["saludos", "cortesia"],
+      "difficulty": 2,
+      "prompt": "Buenos días, ¿cómo está usted?",
+      "accept": ["Bonjour, comment allez-vous ?"],
+      "hintWords": ["bonjour", "comment allez-vous"],
+      "strictAccents": false,
+      "audio": "Bonjour, comment allez-vous ?",
+      "explain": "Repaso de la clase 4: saludo formal."
+    },
+    {
+      "id": "e4",
+      "type": "translate_to_target",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "prompt": "Me llamo Ana y tengo treinta años.",
+      "accept": ["Je m'appelle Ana et j'ai trente ans"],
+      "hintWords": ["je m'appelle", "j'ai trente ans"],
+      "strictAccents": false,
+      "audio": "Je m'appelle Ana et j'ai trente ans.",
+      "explain": "Repaso de la clase 5: presentarse."
+    },
+    {
+      "id": "e5",
+      "type": "translate_to_target",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "Tengo un hermano y una hermana.",
+      "accept": ["J'ai un frère et une sœur"],
+      "hintWords": ["un frère", "une sœur"],
+      "strictAccents": false,
+      "audio": "J'ai un frère et une sœur.",
+      "explain": "Repaso de la clase 12: artículos indefinidos."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "No tengo gato.",
+      "accept": ["Je n'ai pas de chat"],
+      "hintWords": ["je n'ai pas de"],
+      "strictAccents": false,
+      "audio": "Je n'ai pas de chat.",
+      "explain": "Repaso de la clase 19: un → de tras la negación."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "Tengo diecisiete años.",
+      "accept": ["J'ai dix-sept ans"],
+      "hintWords": ["dix-sept"],
+      "strictAccents": false,
+      "audio": "J'ai dix-sept ans.",
+      "explain": "Repaso de la clase 16: números del 0 al 20."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["etre", "avoir"],
+      "difficulty": 2,
+      "prompt": "Completa con être o avoir",
+      "text": "Nous ___ étudiants et nous ___ vingt ans.",
+      "blanks": [{ "accept": ["sommes"] }, { "accept": ["avons"] }],
+      "bank": ["sommes", "avons", "sont", "ont"],
+      "explain": "Nous sommes (être) + nous avons (avoir): dos verbos distintos, no los mezcles."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["articulos", "plural"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo correcto",
+      "text": "___ chevaux sont grands.",
+      "blanks": [{ "accept": ["Les"] }],
+      "bank": ["Les", "Le", "La"],
+      "explain": "Chevaux es plural: les chevaux."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El coche es grande»",
+      "tokens": ["grande", "voiture", "La", "est"],
+      "answer": ["La", "voiture", "est", "grande"],
+      "audio": "La voiture est grande.",
+      "explain": "Repaso de la clase 13: voiture es femenino."
+    },
+    {
+      "id": "e11",
+      "type": "listening",
+      "tags": ["presentarse"],
+      "difficulty": 1,
+      "speak": "J'habite à Madrid.",
+      "mode": "write",
+      "accept": ["J'habite à Madrid"],
+      "showTextAfter": true,
+      "explain": "Repaso de la clase 5."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "speak": "J'ai quarante-cinq ans.",
+      "mode": "write",
+      "accept": ["J'ai quarante-cinq ans"],
+      "showTextAfter": true,
+      "explain": "Repaso de la clase 17."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "vocales-nasales"],
+      "difficulty": 2,
+      "speak": "bonne",
+      "mode": "choose",
+      "options": ["bonne", "bon", "brun", "grand"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Bonne es la única sin nasalizar de las cuatro."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["plural"],
+      "difficulty": 2,
+      "speak": "les chats",
+      "mode": "choose",
+      "options": ["les chats", "le chat", "les chevaux", "le journal"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Le chat y les chats suenan casi igual: la diferencia está en el artículo."
+    },
+    {
+      "id": "e15",
+      "type": "mcq",
+      "tags": ["saludos"],
+      "difficulty": 1,
+      "prompt": "Son las 22:00 y llegas a una fiesta. ¿Qué dices?",
+      "options": ["Bonjour", "Bonsoir", "Bonne nuit", "Salut"],
+      "answer": 1,
+      "explain": "De noche, al llegar, se dice bonsoir."
+    },
+    {
+      "id": "e16",
+      "type": "mcq",
+      "tags": ["articulos"],
+      "difficulty": 2,
+      "prompt": "¿Qué artículo lleva «école» (empieza por vocal)?",
+      "options": ["le", "la", "l'", "les"],
+      "answer": 2,
+      "explain": "Delante de vocal, le y la se convierten en l'."
+    },
+    {
+      "id": "e17",
+      "type": "mcq",
+      "tags": ["numeros"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «80» en francés?",
+      "options": ["quatre-vingts", "soixante-dix", "quatre-vingt-dix", "cent"],
+      "answer": 0,
+      "explain": "80 = quatre-vingts."
+    },
+    {
+      "id": "e18",
+      "type": "true_false",
+      "tags": ["tu-vous"],
+      "difficulty": 1,
+      "statement": "Vous es también el plural de tu.",
+      "answer": true,
+      "explain": "Vous sirve como formal singular y como plural, sea cual sea la confianza."
+    },
+    {
+      "id": "e19",
+      "type": "true_false",
+      "tags": ["tu-vous"],
+      "difficulty": 1,
+      "statement": "Salut es apropiado para hablar con tu jefe en una reunión formal.",
+      "answer": false,
+      "explain": "Salut es informal; con el jefe, mejor bonjour."
+    },
+    {
+      "id": "e20",
+      "type": "odd_one_out",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras tiene una é cerrada, a diferencia de las demás?",
+      "options": ["le café", "la mère", "la tête", "la fenêtre"],
+      "answer": 0,
+      "explain": "Le café lleva é cerrada; las otras tres llevan è/ê, abiertas."
+    },
+    {
+      "id": "e21",
+      "type": "match_pairs",
+      "tags": ["numeros"],
+      "difficulty": 1,
+      "prompt": "Une cada número con su cifra",
+      "left": ["cinq", "dix", "vingt", "cent"],
+      "right": ["100", "5", "20", "10"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Cinq = 5, dix = 10, vingt = 20, cent = 100."
+    },
+    {
+      "id": "e22",
+      "type": "gender_article",
+      "tags": ["genero"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo definido correcto",
+      "items": [
+        { "word": "maison", "options": ["le", "la"], "answer": 1 },
+        { "word": "livre", "options": ["le", "la"], "answer": 0 },
+        { "word": "homme", "options": ["le", "la", "l'"], "answer": 2, "hint": "empieza por vocal" }
+      ],
+      "explain": "Maison es femenino, livre es masculino, homme empieza por vocal (l')."
+    },
+    {
+      "id": "e23",
+      "type": "translate_to_es",
+      "tags": ["etre", "avoir"],
+      "difficulty": 1,
+      "prompt": "Ils sont fatigués et ils ont faim.",
+      "accept": ["Están cansados y tienen hambre."],
+      "strictAccents": false,
+      "audio": "Ils sont fatigués et ils ont faim.",
+      "explain": "Sont (être) y ont (avoir): dos verbos distintos en la misma frase."
+    },
+    {
+      "id": "e24",
+      "type": "dialogue",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación: conoces a alguien nuevo",
+      "turns": [
+        { "who": "Camille", "text": "Bonjour ! Comment tu t'appelles ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je m'appelle Marco.", "Je m'appelle Ana."], "hint": "preséntate con tu nombre" },
+        { "who": "Camille", "text": "Enchantée ! Tu as des frères et sœurs ?", "speak": true }
+      ],
+      "explain": "Repaso combinado de presentarse (clase 5) y artículos indefinidos (clase 12)."
+    },
+    {
+      "id": "e25",
+      "type": "shadowing",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "speak": "Bonjour, je m'appelle Léa, j'ai vingt ans et j'habite à Lyon.",
+      "es": "Hola, me llamo Léa, tengo veinte años y vivo en Lyon.",
+      "ipa": "/bɔ̃.ʒuʁ ʒə ma.pɛl le.a ʒe vɛ̃t ɑ̃ e ʒa.bit a ljɔ̃/",
+      "esApprox": "«bon-YUR ye ma-PEL le-Á ye vén AN e ya-BIT a li-ÓN»",
+      "focus": "Repasa la frase de presentación completa de la clase 5.",
+      "selfAssess": true
+    },
+    {
+      "id": "e26",
+      "type": "speak_prompt",
+      "tags": ["presentarse"],
+      "difficulty": 2,
+      "prompt": "Preséntate del todo: tu nombre, tu edad, dónde vives y si tienes hermanos.",
+      "modelAnswer": "Je m'appelle Marco, j'ai trente ans, j'habite à Madrid et j'ai un frère.",
+      "alsoValid": ["Je m'appelle Ana, j'ai vingt ans, j'habite à Barcelone et je n'ai pas de frère."],
+      "speak": "Je m'appelle Marco, j'ai trente ans, j'habite à Madrid et j'ai un frère.",
+      "selfAssess": true
+    },
+    {
+      "id": "e27",
+      "type": "error_correction",
+      "tags": ["etre"],
+      "difficulty": 2,
+      "prompt": "Hay un error de conjugación. Corrige la frase entera.",
+      "wrong": "Je es fatigué.",
+      "accept": ["Je suis fatigué"],
+      "audio": "Je suis fatigué.",
+      "explain": "Con je siempre va suis, no es (que es la forma de tu)."
+    },
+    {
+      "id": "e28",
+      "type": "categorize",
+      "tags": ["etre", "avoir"],
+      "difficulty": 2,
+      "prompt": "¿Esta forma es singular o plural?",
+      "buckets": ["Singular", "Plural"],
+      "items": [
+        { "text": "suis", "bucket": 0 },
+        { "text": "avons", "bucket": 1 },
+        { "text": "a", "bucket": 0 },
+        { "text": "sont", "bucket": 1 },
+        { "text": "as", "bucket": 0 },
+        { "text": "êtes", "bucket": 1 }
+      ],
+      "explain": "Suis, a y as son singulares; avons, sont y êtes son plurales."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "être", "es": "ser, estar", "esApprox": "«ETR»", "from": "v3" },
+    { "id": "s2", "kind": "word", "target": "avoir", "es": "tener", "esApprox": "«a-VUÁR»", "from": "v4" },
+    { "id": "s3", "kind": "word", "target": "ne... pas", "es": "no (negación)", "esApprox": "«ne...pa»", "from": "v8" },
+    { "id": "s4", "kind": "word", "target": "les chevaux", "es": "los caballos", "esApprox": "«le she-VÓ»", "from": "v7" },
+    { "id": "s5", "kind": "word", "target": "quatre-vingts", "es": "ochenta", "esApprox": "«katr-VEN»", "from": "v10" },
+    { "id": "s6", "kind": "phrase", "target": "Bonjour, comment allez-vous ?", "es": "Buenos días, ¿cómo está usted?", "from": "e3" },
+    { "id": "s7", "kind": "phrase", "target": "Je m'appelle Ana et j'ai trente ans.", "es": "Me llamo Ana y tengo treinta años.", "from": "e4" },
+    { "id": "s8", "kind": "phrase", "target": "Je n'ai pas de chat.", "es": "No tengo gato.", "from": "e6" },
+    { "id": "s9", "kind": "phrase", "target": "Je m'appelle Marco, j'ai trente ans, j'habite à Madrid et j'ai un frère.", "es": "Me llamo Marco, tengo treinta años, vivo en Madrid y tengo un hermano.", "from": "e26" }
+  ]
+}

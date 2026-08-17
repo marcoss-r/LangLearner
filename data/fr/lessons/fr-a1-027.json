@@ -1,0 +1,342 @@
+{
+  "id": "fr-a1-027",
+  "lang": "fr",
+  "level": "A1",
+  "order": 27,
+  "title": "Describir el físico de una persona",
+  "objectives": [
+    "Describir la altura y la complexión de alguien con être + adjetivo",
+    "Describir el pelo y los ojos con avoir + les + parte del cuerpo + adjetivo",
+    "Aplicar los adjetivos ya vistos (grand/petit, jeune/vieux) a la descripción física de una persona"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Être para cualidades generales, avoir para rasgos concretos",
+      "body": "Para describir a alguien físicamente, el francés usa dos estructuras distintas según lo que describas. Para cualidades generales (altura, complexión), se usa **être + adjetivo**, igual que ya conoces: il est grand. Pero para el pelo y los ojos, se usa **avoir + les + parte del cuerpo + adjetivo**: elle a les yeux bleus. No se dice «elle est bleue» (¡eso significaría que toda ella es azul!).",
+      "examples": [
+        { "target": "Il est grand et mince.", "es": "Es alto y delgado.", "note": "être + adjetivo, cualidad general" },
+        { "target": "Elle a les yeux verts.", "es": "Tiene los ojos verdes.", "note": "avoir + les yeux + adjetivo" },
+        { "target": "Il a les cheveux courts.", "es": "Tiene el pelo corto.", "note": "avoir + les cheveux + adjetivo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del físico",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["grand / petit", "alto / bajo"],
+        ["mince / gros", "delgado / grueso"],
+        ["les cheveux longs / courts", "el pelo largo / corto"],
+        ["blond / brun", "rubio / moreno"],
+        ["les yeux bleus / verts / marron", "los ojos azules / verdes / marrones"],
+        ["la barbe", "la barba"],
+        ["les lunettes", "las gafas"],
+        ["chauve", "calvo"]
+      ],
+      "note": "Les yeux es el plural irregular de un œil (un ojo): un œil → des yeux."
+    },
+    {
+      "type": "contrast",
+      "title": "No digas «je suis bleu» para los ojos",
+      "items": [
+        { "wrong": "Elle est bleue.", "right": "Elle a les yeux bleus.", "why": "Être + color describiría a toda la persona (¡como si fuera azul entera!). Para un rasgo concreto como el color de ojos o de pelo, siempre avoir + les + parte + adjetivo." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Recuerda de la clase 14: les cheveux es siempre plural en francés, aunque hables del pelo como conjunto. Lo mismo pasa con les yeux (los ojos, plural de un œil) y les lunettes (las gafas, que no tiene singular natural en este uso)."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "mince",
+      "es": "delgado, delgada",
+      "ipa": "/mɛ̃s/",
+      "esApprox": "«MENS»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Elle est grande et mince.", "es": "Es alta y delgada." }
+    },
+    {
+      "id": "v2",
+      "target": "les cheveux longs",
+      "es": "el pelo largo",
+      "ipa": "/le ʃə.vø lɔ̃/",
+      "esApprox": "«le she-VEU LON»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Elle a les cheveux longs.", "es": "Tiene el pelo largo." }
+    },
+    {
+      "id": "v3",
+      "target": "les cheveux courts",
+      "es": "el pelo corto",
+      "ipa": "/le ʃə.vø kuʁ/",
+      "esApprox": "«le she-VEU KUR»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Il a les cheveux courts.", "es": "Tiene el pelo corto." }
+    },
+    {
+      "id": "v4",
+      "target": "les yeux",
+      "es": "los ojos",
+      "ipa": "/le zjø/",
+      "esApprox": "«le ZIEU»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les yeux",
+      "example": { "target": "Il a les yeux marron.", "es": "Tiene los ojos marrones." }
+    },
+    {
+      "id": "v5",
+      "target": "blond / blonde",
+      "es": "rubio, rubia",
+      "ipa": "/blɔ̃ / blɔ̃d/",
+      "esApprox": "«BLON» / «BLOND»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Elle est blonde.", "es": "Es rubia." }
+    },
+    {
+      "id": "v6",
+      "target": "la barbe",
+      "es": "la barba",
+      "ipa": "/la baʁb/",
+      "esApprox": "«la BARB»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les barbes",
+      "example": { "target": "Il a une grande barbe.", "es": "Tiene una barba grande." }
+    },
+    {
+      "id": "v7",
+      "target": "les lunettes",
+      "es": "las gafas",
+      "ipa": "/le ly.nɛt/",
+      "esApprox": "«le lü-NET»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "les lunettes",
+      "example": { "target": "Elle a des lunettes.", "es": "Lleva gafas." }
+    },
+    {
+      "id": "v8",
+      "target": "chauve",
+      "es": "calvo, calva",
+      "ipa": "/ʃov/",
+      "esApprox": "«SHOV»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Mon grand frère est chauve.", "es": "Mi hermano mayor es calvo." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "Para describir el color de ojos, ¿qué estructura usas?",
+      "options": ["être + color", "avoir + les yeux + color", "avoir + color", "être + les yeux + color"],
+      "answer": 1,
+      "explain": "Avoir les yeux + adjetivo: elle a les yeux bleus."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "statement": "«Elle est bleue» es la forma correcta de decir que tiene los ojos azules.",
+      "answer": false,
+      "explain": "Elle est bleue significaría que toda ella es azul. Lo correcto es elle a les yeux bleus."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["fisico"],
+      "difficulty": 1,
+      "statement": "Les yeux es el plural irregular de un œil.",
+      "answer": true,
+      "explain": "Un œil (un ojo) → des yeux (unos ojos), un plural muy irregular."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases usa être, a diferencia de las demás?",
+      "options": ["Il a les cheveux longs.", "Elle a les yeux verts.", "Il est grand et mince.", "Il a une barbe."],
+      "answer": 2,
+      "explain": "Il est grand et mince usa être (cualidad general); las otras tres usan avoir (rasgo concreto)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["fisico"],
+      "difficulty": 1,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["mince", "chauve", "les lunettes", "la barbe"],
+      "right": ["la barba", "delgado", "calvo", "las gafas"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Mince = delgado, chauve = calvo, les lunettes = las gafas, la barbe = la barba."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "Es alta y tiene el pelo largo.",
+      "accept": ["Elle est grande et elle a les cheveux longs"],
+      "hintWords": ["elle est grande", "les cheveux longs"],
+      "strictAccents": false,
+      "audio": "Elle est grande et elle a les cheveux longs.",
+      "explain": "Être para la altura, avoir para el pelo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "Tiene los ojos marrones y lleva gafas.",
+      "accept": ["Il a les yeux marron et il a des lunettes"],
+      "hintWords": ["les yeux marron", "des lunettes"],
+      "strictAccents": false,
+      "audio": "Il a les yeux marron et il a des lunettes.",
+      "explain": "Marron no cambia (invariable); lunettes es siempre plural."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "Completa con être o avoir",
+      "text": "Il ___ grand et il ___ les cheveux courts.",
+      "blanks": [{ "accept": ["est"] }, { "accept": ["a"] }],
+      "bank": ["est", "a", "es"],
+      "explain": "Il est grand (être) y il a les cheveux courts (avoir): dos estructuras distintas."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es rubia y delgada»",
+      "tokens": ["mince", "Elle", "et", "est", "blonde"],
+      "answer": ["Elle", "est", "blonde", "et", "mince"],
+      "audio": "Elle est blonde et mince.",
+      "explain": "Blonde y mince son cualidades generales: être + adjetivo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["fisico"],
+      "difficulty": 1,
+      "prompt": "Mon grand frère est chauve et il a une barbe blanche.",
+      "accept": ["Mi hermano mayor es calvo y tiene una barba blanca."],
+      "strictAccents": false,
+      "audio": "Mon grand frère est chauve et il a une barbe blanche.",
+      "explain": "Chauve (être) y avoir une barbe (avoir)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación describiendo a un amigo",
+      "turns": [
+        { "who": "Léa", "text": "Il est comment, ton ami ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il est grand et il a les cheveux courts.", "Il est petit et il a les yeux bleus."], "hint": "describe su altura y su pelo o sus ojos" },
+        { "who": "Léa", "text": "D'accord, je vois !", "speak": true }
+      ],
+      "explain": "Combina être (altura) y avoir (pelo/ojos) para describir a alguien."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "speak": "Elle a les yeux verts et les cheveux longs.",
+      "mode": "write",
+      "accept": ["Elle a les yeux verts et les cheveux longs"],
+      "showTextAfter": true,
+      "explain": "Avoir + les yeux/cheveux + adjetivo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "speak": "chauve",
+      "mode": "choose",
+      "options": ["chauve", "blond", "mince", "gros"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Chauve = calvo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["fisico"],
+      "difficulty": 3,
+      "speak": "Il est grand et mince, il a les cheveux courts et les yeux bleus.",
+      "es": "Es alto y delgado, tiene el pelo corto y los ojos azules.",
+      "ipa": "/il ɛ ɡʁɑ̃ e mɛ̃s il a le ʃə.vø kuʁ e le zjø blø/",
+      "esApprox": "«il e gran e MENS il a le she-VEU KUR e le ZIEU BLEU»",
+      "focus": "Cuatro rasgos seguidos, alternando être (grand, mince) y avoir (cheveux, yeux).",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "Descríbete físicamente: altura, pelo y ojos.",
+      "modelAnswer": "Je suis grand, j'ai les cheveux bruns et les yeux marron.",
+      "alsoValid": ["Je suis petite, j'ai les cheveux blonds et les yeux verts."],
+      "speak": "Je suis grand, j'ai les cheveux bruns et les yeux marron.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "¿Se describe con être o con avoir?",
+      "buckets": ["être", "avoir"],
+      "items": [
+        { "text": "grand", "bucket": 0 },
+        { "text": "les yeux bleus", "bucket": 1 },
+        { "text": "mince", "bucket": 0 },
+        { "text": "les cheveux longs", "bucket": 1 },
+        { "text": "chauve", "bucket": 0 },
+        { "text": "une barbe", "bucket": 1 }
+      ],
+      "explain": "Être para cualidades generales; avoir para rasgos concretos del cuerpo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["fisico"],
+      "difficulty": 2,
+      "prompt": "Hay un error de estructura. Corrige la frase entera.",
+      "wrong": "Elle est les yeux verts.",
+      "accept": ["Elle a les yeux verts"],
+      "audio": "Elle a les yeux verts.",
+      "explain": "El color de ojos siempre va con avoir, no con être."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "mince", "es": "delgado, delgada", "esApprox": "«MENS»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "les cheveux longs", "es": "el pelo largo", "esApprox": "«le she-VEU LON»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "les yeux", "es": "los ojos", "esApprox": "«le ZIEU»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "blond / blonde", "es": "rubio, rubia", "esApprox": "«BLON» / «BLOND»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "la barbe", "es": "la barba", "esApprox": "«la BARB»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "les lunettes", "es": "las gafas", "esApprox": "«le lü-NET»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "chauve", "es": "calvo, calva", "esApprox": "«SHOV»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Elle a les yeux verts et les cheveux longs.", "es": "Tiene los ojos verdes y el pelo largo.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Il est grand et mince, il a les cheveux courts et les yeux bleus.", "es": "Es alto y delgado, tiene el pelo corto y los ojos azules.", "from": "e14" }
+  ]
+}

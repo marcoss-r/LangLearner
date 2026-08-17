@@ -1,0 +1,253 @@
+{
+  "id": "fr-b1-220",
+  "lang": "fr",
+  "level": "B1",
+  "order": 220,
+  "title": "El infinitivo con preposición: verbos que piden à y verbos que piden de",
+  "objectives": [
+    "Reconocer verbos que piden à + infinitivo (commencer à, apprendre à, réussir à)",
+    "Reconocer verbos que piden de + infinitivo (essayer de, décider de, arrêter de, oublier de)",
+    "Practicar frases combinando ambos grupos de verbos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "No hay una regla fija",
+      "body": "Muchos verbos franceses van seguidos de un infinitivo con preposición, pero no hay una regla que prediga si es à o de: hay que memorizar cada verbo con su preposición."
+    },
+    {
+      "type": "table",
+      "title": "Verbos con à",
+      "headers": ["Verbo", "Ejemplo"],
+      "rows": [
+        ["commencer à", "il a commencé à travailler"],
+        ["réussir à", "il a réussi à finir"],
+        ["apprendre à", "il apprend à conduire"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos con de",
+      "headers": ["Verbo", "Ejemplo"],
+      "rows": [
+        ["essayer de", "il a essayé de finir"],
+        ["décider de", "il a décidé de partir"],
+        ["arrêter de", "il a arrêté de fumer"],
+        ["oublier de", "il a oublié de venir"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "commencer à", "es": "empezar a", "ipa": "/kɔ.mɑ̃.se a/", "esApprox": "«ko-man-SÉ a»", "pos": "verbo", "gender": null },
+    { "id": "v2", "target": "réussir à", "es": "conseguir, lograr", "ipa": "/ʁe.y.siʁ a/", "esApprox": "«re-ü-SIR a»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "apprendre à", "es": "aprender a", "ipa": "/a.pʁɑ̃dʁ a/", "esApprox": "«a-PRANDR a»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "essayer de", "es": "intentar", "ipa": "/ɛ.sɛ.je də/", "esApprox": "«e-se-YÉ de»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "décider de", "es": "decidir", "ipa": "/de.si.de də/", "esApprox": "«de-si-DÉ de»", "pos": "verbo", "gender": null },
+    { "id": "v6", "target": "arrêter de", "es": "dejar de", "ipa": "/a.ʁɛ.te də/", "esApprox": "«a-re-TÉ de»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "oublier de", "es": "olvidarse de", "ipa": "/u.bli.je də/", "esApprox": "«u-bli-YÉ de»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "finir de", "es": "terminar de", "ipa": "/fi.niʁ də/", "esApprox": "«fi-NIR de»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "¿Qué preposición pide commencer?",
+      "options": ["à", "de", "sin preposición", "pour"],
+      "answer": 0,
+      "explain": "Commencer à + infinitivo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "¿Qué preposición pide essayer?",
+      "options": ["à", "de", "sin preposición", "pour"],
+      "answer": 1,
+      "explain": "Essayer de + infinitivo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "statement": "Réussir à + infinitivo significa lograr hacer algo.",
+      "answer": true,
+      "explain": "Réussir à finir = lograr terminar."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "statement": "Décider pide à + infinitivo.",
+      "answer": false,
+      "explain": "Décider pide de + infinitivo, no à."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su preposición",
+      "left": ["commencer", "essayer", "apprendre", "arrêter"],
+      "right": ["à", "de", "à", "de"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Commencer y apprendre piden à; essayer y arrêter piden de."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "Empezó a estudiar francés y aprendió a hablarlo rápido.",
+      "accept": ["Il a commencé à étudier le français et il a appris à le parler vite"],
+      "hintWords": ["il a commencé à étudier le français", "et il a appris à le parler vite"],
+      "strictAccents": true,
+      "audio": "Il a commencé à étudier le français et il a appris à le parler vite.",
+      "explain": "Commencer à y apprendre à, ambos con à."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "Intentó dejar de fumar, pero se olvidó de terminar el paquete.",
+      "accept": ["Il a essayé d'arrêter de fumer, mais il a oublié de finir le paquet"],
+      "hintWords": ["il a essayé d'arrêter de fumer", "mais il a oublié de finir le paquet"],
+      "strictAccents": true,
+      "audio": "Il a essayé d'arrêter de fumer, mais il a oublié de finir le paquet.",
+      "explain": "Essayer de, arrêter de, oublier de y finir de, todos con de."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "Completa con à o de",
+      "text": "Il a commencé ___ travailler, et il a essayé ___ finir à temps.",
+      "blanks": [{ "accept": ["à"] }, { "accept": ["de"] }],
+      "bank": ["à", "de", "pour"],
+      "explain": "Commencer à frente a essayer de."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Consiguió terminar el proyecto»",
+      "tokens": ["finir le projet", "Il a réussi à"],
+      "answer": ["Il a réussi à", "finir le projet"],
+      "audio": "Il a réussi à finir le projet.",
+      "explain": "Réussir à + infinitivo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "Il a décidé d'arrêter de fumer, et il a réussi à tenir sa promesse.",
+      "accept": ["Decidió dejar de fumar, y logró cumplir su promesa."],
+      "strictAccents": false,
+      "audio": "Il a décidé d'arrêter de fumer, et il a réussi à tenir sa promesse.",
+      "explain": "Décider de, arrêter de (con de) y réussir à (con à)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre si terminaste algo",
+      "turns": [
+        { "who": "Léa", "text": "Tu as réussi à finir ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai réussi à tout finir.", "J'ai essayé, mais j'ai oublié de terminer une partie."], "hint": "usa un verbo + à o de + infinitivo" },
+        { "who": "Léa", "text": "Pas mal !", "speak": true }
+      ],
+      "explain": "Repaso combinado de verbos con à y de."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "speak": "Il a commencé à étudier, il a essayé de finir à temps, et il a réussi à tout terminer.",
+      "mode": "write",
+      "accept": ["Il a commencé à étudier, il a essayé de finir à temps, et il a réussi à tout terminer"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de verbos con à y de."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 1,
+      "speak": "essayer de",
+      "mode": "choose",
+      "options": ["commencer à", "essayer de", "apprendre à", "réussir à"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Essayer de es el único verbo con de de esta lista."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 3,
+      "speak": "Il a commencé à apprendre le français, il a essayé de pratiquer chaque jour, et il a réussi à bien parler.",
+      "es": "Empezó a aprender francés, intentó practicar cada día, y logró hablar bien.",
+      "ipa": "/i.l‿a kɔ.mɑ̃.se a.pʁɑ̃dʁ lə fʁɑ̃.sɛ i.l‿a ɛ.sɛ.je pʁa.ti.ke ʃak ʒuʁ e i.l‿a ʁe.y.si a bjɛ̃ paʁ.le/",
+      "esApprox": "«il-a ko-man-SÉ a-PRANDR le fran-SÉ il-a e-se-YÉ pra-ti-KÉ shak YUR e il-a re-ü-SÍ a bien par-LÉ»",
+      "focus": "Tres verbos encadenados: uno con à, uno con de, y otro con à.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "Cuenta algo que empezaste, intentaste y lograste, usando verbos con à y de.",
+      "modelAnswer": "J'ai commencé à apprendre le français, j'ai essayé de pratiquer chaque jour, et j'ai réussi à bien parler.",
+      "alsoValid": ["J'ai décidé d'arrêter de fumer."],
+      "speak": "J'ai commencé à apprendre le français, j'ai essayé de pratiquer chaque jour, et j'ai réussi à bien parler.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "¿El verbo pide à o de?",
+      "buckets": ["Verbo + à", "Verbo + de"],
+      "items": [
+        { "text": "commencer", "bucket": 0 },
+        { "text": "essayer", "bucket": 1 },
+        { "text": "apprendre", "bucket": 0 },
+        { "text": "décider", "bucket": 1 }
+      ],
+      "explain": "Commencer y apprendre piden à; essayer y décider piden de."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["infinitivo", "preposiciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error: décider pide de, no à. Corrige la frase entera.",
+      "wrong": "Il a décidé à partir.",
+      "accept": ["Il a décidé de partir"],
+      "audio": "Il a décidé de partir.",
+      "explain": "Décider de + infinitivo, no décider à."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "commencer à", "es": "empezar a", "esApprox": "«ko-man-SÉ a»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "réussir à", "es": "conseguir, lograr", "esApprox": "«re-ü-SIR a»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "apprendre à", "es": "aprender a", "esApprox": "«a-PRANDR a»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "essayer de", "es": "intentar", "esApprox": "«e-se-YÉ de»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "décider de", "es": "decidir", "esApprox": "«de-si-DÉ de»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "arrêter de", "es": "dejar de", "esApprox": "«a-re-TÉ de»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Il a commencé à étudier le français et il a appris à le parler vite.", "es": "Empezó a estudiar francés y aprendió a hablarlo rápido.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Il a essayé d'arrêter de fumer, mais il a oublié de finir le paquet.", "es": "Intentó dejar de fumar, pero se olvidó de terminar el paquete.", "from": "e7" }
+  ]
+}

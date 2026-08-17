@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-201",
+  "lang": "de",
+  "level": "B1",
+  "order": 201,
+  "title": "Explicar algo complejo sin perder al oyente",
+  "objectives": [
+    "Usar fórmulas para reformular y aclarar (das heißt, mit anderen Worten, anders gesagt)",
+    "Estructurar una explicación larga en pasos claros con conectores",
+    "Comprobar que el oyente sigue la explicación y resumir al final"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Explicar sin perder al oyente: reformular y estructurar",
+      "body": "Cuando explicas algo complejo, es normal necesitar reformular: «das heißt» (es decir), «mit anderen Worten» (dicho de otro modo), «anders gesagt» (dicho de otra forma) ayudan a aclarar una idea sin sonar repetitivo. Combinado con marcadores de estructura (zuerst, dann, zum Schluss, clase 191) y frases cortas de comprobación («Verstehst du, was ich meine?»), tu explicación se vuelve mucho más fácil de seguir.",
+      "examples": [
+        { "target": "Das heißt, dass wir mehr Zeit brauchen.", "es": "Es decir, que necesitamos más tiempo." },
+        { "target": "Verstehst du, was ich meine?", "es": "¿Entiendes lo que quiero decir?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para reformular y comprobar",
+      "headers": ["Función", "Fórmula"],
+      "rows": [
+        ["Reformular", "das heißt / mit anderen Worten / anders gesagt"],
+        ["Resumir", "kurz gesagt / zusammengefasst"],
+        ["Comprobar comprensión", "Verstehst du, was ich meine? / Ist das klar?"],
+        ["Dar un ejemplo", "zum Beispiel"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Una buena explicación compleja sigue tres pasos: primero la idea general, después el detalle con ejemplos, y al final un resumen breve («Kurz gesagt: ...») que recuerda el punto principal."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "das heißt", "es": "es decir", "ipa": "/das haɪ̯st/", "esApprox": "«das haist»", "pos": "locución", "gender": null, "example": { "target": "Das heißt, dass wir mehr Zeit brauchen.", "es": "Es decir, que necesitamos más tiempo." } },
+    { "id": "v2", "target": "mit anderen Worten", "es": "dicho de otro modo", "ipa": "/mɪt ˈandəʁən ˈvɔʁtn̩/", "esApprox": "«mit ÁN-de-ren VOR-ten»", "pos": "locución", "gender": null, "example": { "target": "Mit anderen Worten: es ist kompliziert.", "es": "Dicho de otro modo: es complicado." } },
+    { "id": "v3", "target": "kurz gesagt", "es": "en resumen, brevemente", "ipa": "/kʊʁts ɡəˈzaːkt/", "esApprox": "«kurts ge-ZAKT»", "pos": "locución", "gender": null, "example": { "target": "Kurz gesagt: wir müssen uns beeilen.", "es": "En resumen: tenemos que darnos prisa." } },
+    { "id": "v4", "target": "verstehst du, was ich meine?", "es": "¿entiendes lo que quiero decir?", "ipa": "/fɛɐ̯ˈʃteːst duː vas ɪç ˈmaɪ̯nə/", "esApprox": "«fer-SHTÉST du vas ich MÁI-ne»", "pos": "locución", "gender": null, "example": { "target": "Verstehst du, was ich meine?", "es": "¿Entiendes lo que quiero decir?" } },
+    { "id": "v5", "target": "zum Beispiel", "es": "por ejemplo", "ipa": "/tsʊm ˈbaɪ̯ʃpiːl/", "esApprox": "«tsum BÁI-shpil»", "pos": "locución", "gender": null, "example": { "target": "Zum Beispiel könnten wir früher anfangen.", "es": "Por ejemplo, podríamos empezar antes." } },
+    { "id": "v6", "target": "kompliziert", "es": "complicado", "ipa": "/kɔmpliˈtsiːɐ̯t/", "esApprox": "«kom-pli-TSIRT»", "pos": "adjetivo", "gender": null, "example": { "target": "Das klingt kompliziert.", "es": "Eso suena complicado." } },
+    { "id": "v7", "target": "zusammenfassen", "es": "resumir", "ipa": "/tsuˈzamənfasn̩/", "esApprox": "«tsu-ZÁ-men-fa-sen»", "pos": "verbo", "gender": null, "example": { "target": "Ich fasse kurz zusammen.", "es": "Resumo brevemente." } },
+    { "id": "v8", "target": "die Erklärung", "es": "la explicación", "ipa": "/ɛɐ̯ˈklɛːʁʊŋ/", "esApprox": "«er-KLÉ-rung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Danke für die Erklärung.", "es": "Gracias por la explicación." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 1, "prompt": "¿Qué fórmula sirve para reformular una idea?", "options": ["zum Beispiel", "das heißt", "kurz gesagt", "verstehst du"], "answer": 1, "explain": "das heißt = es decir, para reformular." },
+    { "id": "e2", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "¿Qué fórmula sirve para comprobar si el oyente entiende?", "options": ["mit anderen Worten", "Verstehst du, was ich meine?", "zum Beispiel", "das heißt"], "answer": 1, "explain": "Verstehst du, was ich meine?: pregunta de comprobación." },
+    { "id": "e3", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "Una buena explicación termina con un resumen breve.", "answer": true, "explain": "Kurz gesagt: ... al final ayuda a recordar el punto principal." },
+    { "id": "e4", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "«mit anderen Worten» significa lo mismo que «zum Beispiel».", "answer": false, "explain": "mit anderen Worten reformula; zum Beispiel da un ejemplo concreto." },
+    { "id": "e5", "type": "match_pairs", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Une cada función con su fórmula", "left": ["Reformular", "Resumir", "Comprobar comprensión", "Dar un ejemplo"], "right": ["das heißt", "kurz gesagt", "Verstehst du, was ich meine?", "zum Beispiel"], "answer": [0, 1, 2, 3], "explain": "Cuatro funciones distintas para estructurar una explicación." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Es decir, que necesitamos más tiempo.", "accept": ["Das heißt, dass wir mehr Zeit brauchen"], "hintWords": ["das heißt dass wir mehr Zeit brauchen"], "strictAccents": false, "audio": "Das heißt, dass wir mehr Zeit brauchen.", "explain": "Das heißt, + dass + wir + mehr Zeit + brauchen (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "¿Entiendes lo que quiero decir?", "accept": ["Verstehst du, was ich meine?"], "hintWords": ["verstehst du was ich meine"], "strictAccents": false, "audio": "Verstehst du, was ich meine?", "explain": "Verstehst du, + was + ich + meine (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "En resumen: tenemos que darnos prisa.", "accept": ["Kurz gesagt: wir müssen uns beeilen"], "hintWords": ["kurz gesagt wir müssen uns beeilen"], "strictAccents": false, "audio": "Kurz gesagt: wir müssen uns beeilen.", "explain": "Kurz gesagt + wir + müssen + uns + beeilen (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Completa con la fórmula correcta", "text": "___, könnten wir früher anfangen. ___, es ist kompliziert.", "blanks": [{ "accept": ["Zum Beispiel"] }, { "accept": ["Mit anderen Worten"] }], "bank": ["Zum Beispiel", "Mit anderen Worten", "Kurz gesagt"], "explain": "Zum Beispiel (ejemplo) y Mit anderen Worten (reformulación)." },
+    { "id": "e10", "type": "word_order", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Ordena: «Gracias por la explicación»", "tokens": ["für die Erklärung", "Danke"], "answer": ["Danke", "für die Erklärung"], "audio": "Danke für die Erklärung.", "explain": "Danke + für + die Erklärung." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Das klingt kompliziert.", "accept": ["Eso suena complicado."], "strictAccents": false, "audio": "Das klingt kompliziert.", "explain": "kompliziert = complicado." },
+    { "id": "e12", "type": "dialogue", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Das habe ich nicht ganz verstanden.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Mit anderen Worten: es ist kompliziert, aber wichtig."], "hint": "reformula con mit anderen Worten" },
+      { "who": "Lea", "text": "Ah, jetzt verstehe ich!", "speak": true }
+    ], "explain": "mit anderen Worten: reformular cuando el oyente no ha entendido." },
+    { "id": "e13", "type": "listening", "tags": ["orden-palabras"], "difficulty": 1, "speak": "Das heißt, dass wir mehr Zeit brauchen.", "mode": "write", "accept": ["Das heißt, dass wir mehr Zeit brauchen"], "showTextAfter": true, "explain": "Das heißt + dass + verbo final." },
+    { "id": "e14", "type": "listening", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Ich fasse kurz zusammen.", "mode": "choose", "options": ["Ich fasse kurz zusammen.", "Ich fasse zusammen kurz.", "Ich zusammenfasse kurz."], "answer": 0, "showTextAfter": true, "explain": "zusammenfassen es separable: fasse...zusammen." },
+    { "id": "e15", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Das heißt, dass wir mehr Zeit brauchen; mit anderen Worten, der Plan muss sich ändern.", "es": "Es decir, que necesitamos más tiempo; dicho de otro modo, el plan tiene que cambiar.", "ipa": "/das haɪ̯st das viːɐ̯ meːɐ̯ tsaɪ̯t ˈbʁaʊ̯xn̩ mɪt ˈandəʁən ˈvɔʁtn̩ deːɐ̯ plaːn mʊs zɪç ˈɛndɐn/", "esApprox": "«das haist, das vir mer tsait BRÁU-jen; mit ÁN-de-ren VOR-ten, der plan mus zich ÉN-dern»", "focus": "das heißt y mit anderen Worten: dos reformulaciones encadenadas en la misma explicación.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Zum Beispiel könnten wir früher anfangen. Verstehst du, was ich meine? Kurz gesagt: wir müssen uns beeilen.", "es": "Por ejemplo, podríamos empezar antes. ¿Entiendes lo que quiero decir? En resumen: tenemos que darnos prisa.", "ipa": "/tsʊm ˈbaɪ̯ʃpiːl ˈkœntn̩ viːɐ̯ ˈfʁyːɐ ˈanfaŋən fɛɐ̯ˈʃteːst duː vas ɪç ˈmaɪ̯nə kʊʁts ɡəˈzaːkt viːɐ̯ ˈmʏsn̩ ʊns bəˈʔaɪ̯lən/", "esApprox": "«tsum BÁI-shpil KÖN-ten vir FRÍU-er ÁN-fan-guen, fer-SHTÉST du vas ich MÁI-ne? kurts ge-ZAKT: vir MÜ-sen uns be-ÁI-len»", "focus": "zum Beispiel, Verstehst du y kurz gesagt: tres fórmulas seguidas para estructurar una explicación completa.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Terminas una explicación larga. Resume brevemente diciendo que tenéis que daros prisa.", "modelAnswer": "Kurz gesagt: wir müssen uns beeilen.", "alsoValid": ["Zusammengefasst: wir müssen uns beeilen."], "speak": "Kurz gesagt: wir müssen uns beeilen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Clasifica cada fórmula según su función", "buckets": ["Reformular/dar ejemplo", "Comprobar/resumir"], "items": [
+      { "text": "das heißt", "bucket": 0 },
+      { "text": "zum Beispiel", "bucket": 0 },
+      { "text": "Verstehst du, was ich meine?", "bucket": 1 },
+      { "text": "kurz gesagt", "bucket": 1 }
+    ], "explain": "das heißt y zum Beispiel aclaran; Verstehst du y kurz gesagt comprueban o cierran la explicación." },
+    { "id": "e19", "type": "error_correction", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich fasse zusammen kurz.", "accept": ["Ich fasse kurz zusammen"], "audio": "Ich fasse kurz zusammen.", "explain": "zusammenfassen es separable: la partícula zusammen va al final, tras kurz." },
+    { "id": "e20", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "«Das heißt, dass wir mehr Zeit brauchen. Zum Beispiel könnten wir früher anfangen. Kurz gesagt: wir müssen uns beeilen.» ¿Cuál es la conclusión final?", "options": ["Hay que empezar más tarde", "Hay que darse prisa", "No hay solución", "Todo está bien así"], "answer": 1, "explain": "«Kurz gesagt: wir müssen uns beeilen» es el resumen final." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "das heißt", "es": "es decir", "esApprox": "«das haist»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "mit anderen Worten", "es": "dicho de otro modo", "esApprox": "«mit ÁN-de-ren VOR-ten»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "kurz gesagt", "es": "en resumen, brevemente", "esApprox": "«kurts ge-ZAKT»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "verstehst du, was ich meine?", "es": "¿entiendes lo que quiero decir?", "esApprox": "«fer-SHTÉST du vas ich MÁI-ne»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "zum Beispiel", "es": "por ejemplo", "esApprox": "«tsum BÁI-shpil»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "zusammenfassen", "es": "resumir", "esApprox": "«tsu-ZÁ-men-fa-sen»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Das heißt, dass wir mehr Zeit brauchen; mit anderen Worten, der Plan muss sich ändern.", "es": "Es decir, que necesitamos más tiempo; dicho de otro modo, el plan tiene que cambiar.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Zum Beispiel könnten wir früher anfangen. Verstehst du, was ich meine? Kurz gesagt: wir müssen uns beeilen.", "es": "Por ejemplo, podríamos empezar antes. ¿Entiendes lo que quiero decir? En resumen: tenemos que darnos prisa.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "de-a2-106",
+  "lang": "de",
+  "level": "A2",
+  "order": 106,
+  "title": "El adjetivo sin artículo: dativo y genitivo",
+  "objectives": [
+    "Añadir la terminación correcta al adjetivo en dativo sin artículo: -em, -er, -em, -en",
+    "Reconocer que el genitivo sin artículo es poco frecuente y suele sustituirse por von + dativo",
+    "Completar así las cuatro combinaciones de la declinación del adjetivo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dativo sin artículo: -em, -er, -em, -en",
+      "body": "En dativo sin artículo, el adjetivo copia las terminaciones de dem/der/dem/den: -em (masculino), -er (femenino), -em (neutro), -en (plural). Es la única combinación de esta clase que NO coincide con el patrón nominativo/acusativo de la clase 105.",
+      "examples": [
+        { "target": "mit gutem Wein", "es": "con buen vino", "note": "dativo masculino: -em" },
+        { "target": "mit frischer Milch", "es": "con leche fresca", "note": "dativo femenino: -er" },
+        { "target": "mit kaltem Wasser", "es": "con agua fría", "note": "dativo neutro: -em" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Terminaciones sin artículo (Dativ)",
+      "headers": ["Masculino", "Femenino", "Neutro", "Plural"],
+      "rows": [
+        ["gutem Wein", "frischer Milch", "kaltem Wasser", "kleinen Kindern"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El genitivo sin artículo es raro y algo formal (frischer Milch neutro/masculino: frischen/frischer). En la práctica, casi siempre se evita usando von + dativo: en vez de «der Geschmack frischer Milch», se suele decir «der Geschmack von frischer Milch» (el sabor de la leche fresca)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "mit gutem Wein", "es": "con buen vino", "ipa": "/mɪt ˈɡuːtəm vaɪ̯n/", "esApprox": "«mit GÚ-tem vain»", "pos": "expresión", "gender": null, "example": { "target": "Wir feiern mit gutem Wein.", "es": "Celebramos con buen vino." } },
+    { "id": "v2", "target": "mit frischer Milch", "es": "con leche fresca", "ipa": "/mɪt ˈfʁɪʃɐ mɪlç/", "esApprox": "«mit FRÍ-sher milch»", "pos": "expresión", "gender": null, "example": { "target": "Ich koche mit frischer Milch.", "es": "Cocino con leche fresca." } },
+    { "id": "v3", "target": "mit kaltem Wasser", "es": "con agua fría", "ipa": "/mɪt ˈkaltəm ˈvasɐ/", "esApprox": "«mit KÁL-tem VÁ-ser»", "pos": "expresión", "gender": null, "example": { "target": "Wasch das mit kaltem Wasser.", "es": "Lava eso con agua fría." } },
+    { "id": "v4", "target": "der Geschmack", "es": "el sabor, el gusto", "ipa": "/ɡəˈʃmak/", "esApprox": "«ge-SHMAK»", "pos": "sustantivo", "gender": "m", "example": { "target": "der Geschmack von frischer Milch", "es": "el sabor de la leche fresca" } },
+    { "id": "v5", "target": "feiern", "es": "celebrar", "ipa": "/ˈfaɪ̯ɐn/", "esApprox": "«FÁI-ern»", "pos": "verbo", "gender": null, "example": { "target": "Wir feiern mit gutem Wein.", "es": "Celebramos con buen vino." } },
+    { "id": "v6", "target": "waschen", "es": "lavar", "ipa": "/ˈvaʃn̩/", "esApprox": "«VÁ-shen»", "pos": "verbo", "gender": null, "example": { "target": "Wasch das mit kaltem Wasser.", "es": "Lava eso con agua fría." } },
+    { "id": "v7", "target": "kochen", "es": "cocinar", "ipa": "/ˈkɔxn̩/", "esApprox": "«KÓ-jen»", "pos": "verbo", "gender": null, "example": { "target": "Ich koche mit frischer Milch.", "es": "Cocino con leche fresca." } },
+    { "id": "v8", "target": "selten", "es": "raro, poco frecuente", "ipa": "/ˈzɛltn̩/", "esApprox": "«ZEL-ten»", "pos": "adjetivo", "gender": null, "example": { "target": "Der Genitiv ohne Artikel ist selten.", "es": "El genitivo sin artículo es raro." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 1, "prompt": "¿Qué terminación lleva el adjetivo en dativo masculino sin artículo?", "options": ["-e", "-er", "-em", "-en"], "answer": 2, "explain": "mit gutem Wein: -em, como dem Wein." },
+    { "id": "e2", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "¿Qué terminación lleva el adjetivo en dativo femenino sin artículo?", "options": ["-e", "-er", "-em", "-en"], "answer": 1, "explain": "mit frischer Milch: -er, como der Milch." },
+    { "id": "e3", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "En dativo sin artículo, la terminación es distinta de la de nominativo/acusativo sin artículo.", "answer": true, "explain": "Nominativo/acusativo usan -er/-e/-es; dativo usa -em/-er/-em/-en." },
+    { "id": "e4", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "El genitivo sin artículo es muy común en el habla cotidiana.", "answer": false, "explain": "Es raro; se suele evitar usando von + dativo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Une cada frase con su traducción", "left": ["mit gutem Wein", "mit frischer Milch", "mit kaltem Wasser", "der Geschmack"], "right": ["con buen vino", "con leche fresca", "con agua fría", "el sabor"], "answer": [0, 1, 2, 3], "explain": "Cuatro expresiones clave del dativo sin artículo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Celebramos con buen vino.", "accept": ["Wir feiern mit gutem Wein"], "hintWords": ["wir feiern mit gutem Wein"], "strictAccents": false, "audio": "Wir feiern mit gutem Wein.", "explain": "mit gutem Wein: dativo masculino sin artículo, -em." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Cocino con leche fresca.", "accept": ["Ich koche mit frischer Milch"], "hintWords": ["ich koche mit frischer Milch"], "strictAccents": false, "audio": "Ich koche mit frischer Milch.", "explain": "mit frischer Milch: dativo femenino sin artículo, -er." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Lava eso con agua fría.", "accept": ["Wasch das mit kaltem Wasser"], "hintWords": ["wasch das mit kaltem Wasser"], "strictAccents": false, "audio": "Wasch das mit kaltem Wasser.", "explain": "mit kaltem Wasser: dativo neutro sin artículo, -em." },
+    { "id": "e9", "type": "fill_blank", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa con la terminación correcta", "text": "Wir feiern mit gut___ Wein. Ich koche mit frisch___ Milch.", "blanks": [{ "accept": ["em"] }, { "accept": ["er"] }], "bank": ["em", "er", "es"], "explain": "gutem (dativo masculino, -em); frischer (dativo femenino, -er)." },
+    { "id": "e10", "type": "word_order", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Ordena: «El sabor de la leche fresca es bueno»", "tokens": ["ist gut", "von frischer Milch", "Der Geschmack"], "answer": ["Der Geschmack", "von frischer Milch", "ist gut"], "audio": "Der Geschmack von frischer Milch ist gut.", "explain": "von frischer Milch: alternativa al genitivo sin artículo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Der Genitiv ohne Artikel ist selten.", "accept": ["El genitivo sin artículo es raro."], "strictAccents": false, "audio": "Der Genitiv ohne Artikel ist selten.", "explain": "selten = raro, poco frecuente." },
+    { "id": "e12", "type": "dialogue", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Anna", "text": "Womit feiert ihr?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Wir feiern mit gutem Wein."], "hint": "responde con dativo sin artículo" },
+      { "who": "Anna", "text": "Klingt gut!", "speak": true }
+    ], "explain": "Práctica del dativo sin artículo tras mit." },
+    { "id": "e13", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 1, "speak": "Wir feiern mit gutem Wein.", "mode": "write", "accept": ["Wir feiern mit gutem Wein"], "showTextAfter": true, "explain": "mit gutem Wein: dativo sin artículo, -em." },
+    { "id": "e14", "type": "listening", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Ich koche mit frischer Milch.", "mode": "choose", "options": ["Ich koche mit frischer Milch.", "Ich koche mit frisches Milch.", "Ich koche mit frischen Milch."], "answer": 0, "showTextAfter": true, "explain": "Solo «mit frischer Milch» combina correctamente el dativo femenino con -er." },
+    { "id": "e15", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Wir feiern mit gutem Wein, und ich koche mit frischer Milch.", "es": "Celebramos con buen vino, y cocino con leche fresca.", "ipa": "/viːɐ̯ ˈfaɪ̯ɐn mɪt ˈɡuːtəm vaɪ̯n ʊnt ɪç ˈkɔxə mɪt ˈfʁɪʃɐ mɪlç/", "esApprox": "«vir FÁI-ern mit GÚ-tem vain, unt ich KÓ-je mit FRÍ-sher milch»", "focus": "mit gutem Wein (-em, masculino) frente a mit frischer Milch (-er, femenino): dativo sin artículo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["declinacion-adjetivo"], "difficulty": 2, "speak": "Wasch das mit kaltem Wasser, denn der Geschmack von frischer Milch ist besser mit kaltem Wasser.", "es": "Lava eso con agua fría, porque el sabor de la leche fresca es mejor con agua fría.", "ipa": "/vaʃ das mɪt ˈkaltəm ˈvasɐ dɛn deːɐ̯ ɡəˈʃmak fɔn ˈfʁɪʃɐ mɪlç ɪst ˈbɛsɐ mɪt ˈkaltəm ˈvasɐ/", "esApprox": "«vash das mit KÁL-tem VÁ-ser, den der ge-SHMAK fon FRÍ-sher milch ist BÉ-ser mit KÁL-tem VÁ-ser»", "focus": "mit kaltem Wasser (-em, neutro) y von frischer Milch: la alternativa al genitivo sin artículo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Te preguntan con qué celebráis. Di que celebráis con buen vino.", "modelAnswer": "Wir feiern mit gutem Wein.", "alsoValid": ["Mit gutem Wein."], "speak": "Wir feiern mit gutem Wein.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Clasifica cada terminación de dativo sin artículo: masculino/neutro (-em) o femenino (-er)", "buckets": ["-em (masc./neutro)", "-er (femenino)"], "items": [
+      { "text": "mit gutem Wein", "bucket": 0 },
+      { "text": "mit frischer Milch", "bucket": 1 },
+      { "text": "mit kaltem Wasser", "bucket": 0 }
+    ], "explain": "Masculino y neutro comparten -em; femenino usa -er en dativo sin artículo." },
+    { "id": "e19", "type": "error_correction", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wir feiern mit guten Wein.", "accept": ["Wir feiern mit gutem Wein"], "audio": "Wir feiern mit gutem Wein.", "explain": "En dativo masculino sin artículo, el adjetivo lleva -em, no -en." },
+    { "id": "e20", "type": "mcq", "tags": ["declinacion-adjetivo"], "difficulty": 2, "prompt": "«Wir feiern mit gutem Wein und frischer Milch für die Kinder. Wasch die Gläser danach mit kaltem Wasser.» ¿Con qué se lavan los vasos?", "options": ["Con vino", "Con leche", "Con agua fría", "No se dice"], "answer": 2, "explain": "«Wasch die Gläser... mit kaltem Wasser» = lava los vasos con agua fría." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "mit gutem Wein", "es": "con buen vino", "esApprox": "«mit GÚ-tem vain»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "mit frischer Milch", "es": "con leche fresca", "esApprox": "«mit FRÍ-sher milch»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "mit kaltem Wasser", "es": "con agua fría", "esApprox": "«mit KÁL-tem VÁ-ser»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Geschmack", "es": "el sabor, el gusto", "esApprox": "«ge-SHMAK»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "feiern", "es": "celebrar", "esApprox": "«FÁI-ern»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "waschen", "es": "lavar", "esApprox": "«VÁ-shen»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Wir feiern mit gutem Wein, und ich koche mit frischer Milch.", "es": "Celebramos con buen vino, y cocino con leche fresca.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wasch das mit kaltem Wasser, denn der Geschmack von frischer Milch ist besser mit kaltem Wasser.", "es": "Lava eso con agua fría, porque el sabor de la leche fresca es mejor con agua fría.", "from": "e16" }
+  ]
+}

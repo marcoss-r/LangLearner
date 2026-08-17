@@ -1,0 +1,250 @@
+{
+  "id": "fr-b1-232",
+  "lang": "fr",
+  "level": "B1",
+  "order": 232,
+  "title": "La gastronomía: más allá de pedir en un restaurante",
+  "objectives": [
+    "Usar vocabulario culinario: une recette, mijoter, assaisonner",
+    "Hablar de especialidades regionales y maridajes: une spécialité régionale, un accord mets-vin",
+    "Practicar frases para describir sabores y platos con precisión"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar de comida como un experto",
+      "body": "Ya sabes pedir en un restaurante. Ahora vas más allá: describir una receta, hablar de sabores, y comentar especialidades regionales francesas."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario gastronómico",
+      "headers": ["Expresión", "Significado"],
+      "rows": [
+        ["une recette", "una receta"],
+        ["mijoter", "cocer a fuego lento"],
+        ["assaisonner", "aliñar, sazonar"],
+        ["les saveurs", "los sabores"],
+        ["un accord mets-vin", "un maridaje de comida y vino"],
+        ["une spécialité régionale", "una especialidad regional"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Se régaler",
+      "body": "Se régaler significa disfrutar mucho comiendo algo delicioso. Es una expresión muy natural para elogiar un plato: je me suis régalé !"
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "une recette", "es": "una receta", "ipa": "/yn ʁə.sɛt/", "esApprox": "«ün re-SET»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v2", "target": "mijoter", "es": "cocer a fuego lento", "ipa": "/mi.ʒɔ.te/", "esApprox": "«mi-sho-TÉ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "un plat typique", "es": "un plato típico", "ipa": "/œ̃ pla ti.pik/", "esApprox": "«un PLA ti-PIK»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v4", "target": "les saveurs", "es": "los sabores", "ipa": "/le sa.vœʁ/", "esApprox": "«le sa-VÖR»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v5", "target": "un accord mets-vin", "es": "un maridaje de comida y vino", "ipa": "/œ̃.n‿a.kɔʁ mɛ vɛ̃/", "esApprox": "«un-na-KOR me VIN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v6", "target": "une spécialité régionale", "es": "una especialidad regional", "ipa": "/yn spe.sja.li.te ʁe.ʒjɔ.nal/", "esApprox": "«ün spe-sia-li-TÉ re-shio-NAL»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v7", "target": "assaisonner", "es": "aliñar, sazonar", "ipa": "/a.sɛ.zɔ.ne/", "esApprox": "«a-se-zo-NÉ»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "se régaler", "es": "disfrutar comiendo", "ipa": "/sə ʁe.ga.le/", "esApprox": "«se re-ga-LÉ»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «cocer a fuego lento»?",
+      "options": ["assaisonner", "mijoter", "se régaler", "goûter"],
+      "answer": 1,
+      "explain": "Mijoter es cocer a fuego lento."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa se régaler?",
+      "options": ["cocinar mal", "disfrutar comiendo", "tener hambre", "pedir la cuenta"],
+      "answer": 1,
+      "explain": "Se régaler es disfrutar mucho comiendo algo delicioso."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "statement": "Un accord mets-vin combina un plato con un vino que le va bien.",
+      "answer": true,
+      "explain": "Un accord mets-vin es un maridaje."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "statement": "Une recette es lo mismo que un plat typique.",
+      "answer": false,
+      "explain": "Une recette es las instrucciones para cocinar; un plat typique es el plato en sí."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["une recette", "les saveurs", "assaisonner", "se régaler"],
+      "right": ["una receta", "los sabores", "sazonar", "disfrutar comiendo"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Vocabulario clave de gastronomía."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "Esta receta combina sabores dulces y salados.",
+      "accept": ["Cette recette combine des saveurs sucrées et salées"],
+      "hintWords": ["cette recette combine", "des saveurs sucrées et salées"],
+      "strictAccents": true,
+      "audio": "Cette recette combine des saveurs sucrées et salées.",
+      "explain": "Une recette + les saveurs."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "Este plato típico se cuece a fuego lento durante horas.",
+      "accept": ["Ce plat typique mijote pendant des heures"],
+      "hintWords": ["ce plat typique mijote", "pendant des heures"],
+      "strictAccents": true,
+      "audio": "Ce plat typique mijote pendant des heures.",
+      "explain": "Un plat typique + mijoter."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Il faut ___ la viande avant de la faire cuire, et je me suis vraiment ___ avec ce repas.",
+      "blanks": [{ "accept": ["assaisonner"] }, { "accept": ["régalé"] }],
+      "bank": ["assaisonner", "régalé", "mijoté"],
+      "explain": "Assaisonner la viande + se régaler."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es una especialidad regional muy famosa»",
+      "tokens": ["très célèbre", "C'est une spécialité régionale"],
+      "answer": ["C'est une spécialité régionale", "très célèbre"],
+      "audio": "C'est une spécialité régionale très célèbre.",
+      "explain": "Une spécialité régionale."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "Le chef nous a expliqué l'accord mets-vin parfait pour cette spécialité régionale.",
+      "accept": ["El chef nos explicó el maridaje perfecto para esta especialidad regional."],
+      "strictAccents": false,
+      "audio": "Le chef nous a expliqué l'accord mets-vin parfait pour cette spécialité régionale.",
+      "explain": "Un accord mets-vin + une spécialité régionale."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre un plato",
+      "turns": [
+        { "who": "Léa", "text": "C'était bon, ce plat ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je me suis vraiment régalé.", "Les saveurs étaient incroyables."], "hint": "usa vocabulario de gastronomía" },
+        { "who": "Léa", "text": "Il faut y retourner !", "speak": true }
+      ],
+      "explain": "Repaso combinado del vocabulario gastronómico."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "speak": "Cette recette combine des saveurs sucrées et salées, et je me suis vraiment régalé.",
+      "mode": "write",
+      "accept": ["Cette recette combine des saveurs sucrées et salées, et je me suis vraiment régalé"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario gastronómico."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["gastronomia"],
+      "difficulty": 1,
+      "speak": "un accord mets-vin",
+      "mode": "choose",
+      "options": ["une recette", "un accord mets-vin", "un plat typique", "une saveur"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un accord mets-vin es un maridaje de comida y vino."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["gastronomia"],
+      "difficulty": 3,
+      "speak": "Cette spécialité régionale mijote pendant des heures, on l'assaisonne avec soin, et les saveurs sont incroyables. Je me suis vraiment régalé.",
+      "es": "Esta especialidad regional se cuece a fuego lento durante horas, se sazona con cuidado, y los sabores son increíbles. Disfruté muchísimo comiendo.",
+      "ipa": "/sɛt spe.sja.li.te ʁe.ʒjɔ.nal mi.ʒɔt pɑ̃.dɑ̃ de.z‿œʁ ɔ.n‿la.sɛ.zɔn a.vɛk swɛ̃ e le sa.vœʁ sɔ̃.t‿ɛ̃.kʁwajabl ʒə mə sɥi vʁɛ.mɑ̃ ʁe.ga.le/",
+      "esApprox": "«set spe-sia-li-TÉ re-shio-NAL mi-SHOT pan-DAN de-ZÖR on-la-se-ZON a-VEK SUIN e le sa-VÖR son-tin-krua-YABL ye me süí vre-MAN re-ga-LÉ»",
+      "focus": "Vocabulario gastronómico encadenado en una descripción completa.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "Describe un plato típico o una receta, usando al menos tres expresiones del vocabulario.",
+      "modelAnswer": "C'est un plat typique qui mijote pendant des heures, et les saveurs sont incroyables. Je me régale à chaque fois.",
+      "alsoValid": ["Cette recette combine des saveurs sucrées et salées."],
+      "speak": "C'est un plat typique qui mijote pendant des heures, et les saveurs sont incroyables. Je me régale à chaque fois.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "¿Es sobre cocinar o sobre disfrutar la comida?",
+      "buckets": ["Cocinar", "Disfrutar"],
+      "items": [
+        { "text": "mijoter", "bucket": 0 },
+        { "text": "se régaler", "bucket": 1 },
+        { "text": "assaisonner", "bucket": 0 },
+        { "text": "les saveurs incroyables", "bucket": 1 }
+      ],
+      "explain": "Mijoter y assaisonner son de cocinar; se régaler y les saveurs incroyables son de disfrutar la comida."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["gastronomia"],
+      "difficulty": 2,
+      "prompt": "Hay un error: se régaler es un verbo pronominal. Corrige la frase entera.",
+      "wrong": "J'ai régalé avec ce repas.",
+      "accept": ["Je me suis régalé avec ce repas"],
+      "audio": "Je me suis régalé avec ce repas.",
+      "explain": "Se régaler es pronominal: je me suis régalé, no j'ai régalé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "une recette", "es": "una receta", "esApprox": "«ün re-SET»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "mijoter", "es": "cocer a fuego lento", "esApprox": "«mi-sho-TÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un plat typique", "es": "un plato típico", "esApprox": "«un PLA ti-PIK»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "les saveurs", "es": "los sabores", "esApprox": "«le sa-VÖR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "une spécialité régionale", "es": "una especialidad regional", "esApprox": "«ün spe-sia-li-TÉ re-shio-NAL»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "se régaler", "es": "disfrutar comiendo", "esApprox": "«se re-ga-LÉ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Cette recette combine des saveurs sucrées et salées.", "es": "Esta receta combina sabores dulces y salados.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Ce plat typique mijote pendant des heures.", "es": "Este plato típico se cuece a fuego lento durante horas.", "from": "e7" }
+  ]
+}

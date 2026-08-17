@@ -1,0 +1,262 @@
+{
+  "id": "fr-a1-063",
+  "lang": "fr",
+  "level": "A1",
+  "order": 63,
+  "title": "Las profesiones",
+  "objectives": [
+    "Nombrar las profesiones más comunes: médecin, professeur, ingénieur, avocat, cuisinier",
+    "Usar être + profesión sin artículo: il est médecin (no «il est un médecin»)",
+    "Distinguir il est + profesión de c'est un/une + profesión"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Decir la profesión de alguien",
+      "body": "Con être (clase 9), la profesión va sin artículo: je suis professeur, il est médecin. Es diferente del español, donde a veces sí usamos artículo.",
+      "examples": [
+        { "target": "Je suis professeur. Elle est médecin.", "es": "Soy profesor. Ella es médica.", "note": "être + profesión, sin un/une" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de las profesiones",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["le médecin", "el/la médico/a"],
+        ["le professeur / la professeure", "el profesor / la profesora"],
+        ["l'ingénieur / l'ingénieure", "el/la ingeniero/a"],
+        ["l'avocat / l'avocate", "el/la abogado/a"],
+        ["le cuisinier / la cuisinière", "el/la cocinero/a"],
+        ["le/la commerçant(e)", "el/la comerciante"],
+        ["l'infirmier / l'infirmière", "el/la enfermero/a"],
+        ["l'étudiant / l'étudiante", "el/la estudiante"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Il est médecin frente a c'est un médecin",
+      "items": [
+        { "wrong": "Il est un médecin.", "right": "Il est médecin. / C'est un médecin.", "why": "Con il/elle est, la profesión va sin artículo. Con c'est (clase 49), sí hace falta el artículo: c'est un médecin. Las dos formas son correctas, pero no se mezclan." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Muchas profesiones tienen forma femenina añadiendo -e (avocat → avocate) o cambiando -eur por -euse/-rice (infirmier → infirmière). Otras, como médecin y professeur, tradicionalmente no cambian, aunque professeure se usa cada vez más."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le médecin", "es": "el/la médico/a", "ipa": "/lə med.sɛ̃/", "esApprox": "«le med-SEN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Elle est médecin.", "es": "Ella es médica." } },
+    { "id": "v2", "target": "l'ingénieur / l'ingénieure", "es": "el/la ingeniero/a", "ipa": "/lɛ̃.ʒe.njœʁ/", "esApprox": "«len-ye-NIEUR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il est ingénieur.", "es": "Él es ingeniero." } },
+    { "id": "v3", "target": "l'avocat / l'avocate", "es": "el/la abogado/a", "ipa": "/la.vɔ.ka/", "esApprox": "«la-vo-KA»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ma sœur est avocate.", "es": "Mi hermana es abogada." } },
+    { "id": "v4", "target": "le cuisinier / la cuisinière", "es": "el/la cocinero/a", "ipa": "/lə kɥi.zi.nje/", "esApprox": "«le küí-zi-NIÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Mon père est cuisinier.", "es": "Mi padre es cocinero." } },
+    { "id": "v5", "target": "l'infirmier / l'infirmière", "es": "el/la enfermero/a", "ipa": "/lɛ̃.fiʁ.mje/", "esApprox": "«len-fir-MIÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Elle est infirmière.", "es": "Ella es enfermera." } },
+    { "id": "v6", "target": "le/la commerçant(e)", "es": "el/la comerciante", "ipa": "/lə kɔ.mɛʁ.sɑ̃/", "esApprox": "«le ko-mer-SAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il est commerçant.", "es": "Él es comerciante." } },
+    { "id": "v7", "target": "l'étudiant / l'étudiante", "es": "el/la estudiante", "ipa": "/le.ty.djɑ̃/", "esApprox": "«le-tü-DIAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je suis étudiant.", "es": "Soy estudiante." } },
+    { "id": "v8", "target": "sans emploi", "es": "en paro, sin empleo", "ipa": "/sɑ̃.z‿ɑ̃.plwa/", "esApprox": "«san-nan-PLUÁ»", "pos": "expresión", "gender": null, "example": { "target": "Il est sans emploi en ce moment.", "es": "Está en paro en este momento." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["profesiones"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «el/la médico/a»?",
+      "options": ["le professeur", "le médecin", "l'avocat", "l'ingénieur"],
+      "answer": 1,
+      "explain": "Le médecin = el/la médico/a."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta?",
+      "options": ["Il est un médecin.", "Il est médecin.", "Il un médecin.", "Il est le médecin."],
+      "answer": 1,
+      "explain": "Être + profesión va sin artículo: il est médecin."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "statement": "C'est un médecin también es correcto, a diferencia de il est un médecin.",
+      "answer": true,
+      "explain": "Con c'est sí hace falta el artículo: c'est un médecin."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras no es una profesión?",
+      "options": ["le médecin", "l'avocat", "l'élève", "l'ingénieur"],
+      "answer": 2,
+      "explain": "L'élève (clase 61) es un alumno, no una profesión."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["profesiones"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["l'avocat", "le cuisinier", "l'infirmière", "l'ingénieur"],
+      "right": ["el ingeniero", "la enfermera", "el abogado", "el cocinero"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Avocat = abogado, cuisinier = cocinero, infirmière = enfermera, ingénieur = ingeniero."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Soy profesor y mi hermana es abogada.",
+      "accept": ["Je suis professeur et ma sœur est avocate"],
+      "hintWords": ["je suis professeur", "ma sœur est avocate"],
+      "strictAccents": false,
+      "audio": "Je suis professeur et ma sœur est avocate.",
+      "explain": "Être + profesión, sin artículo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Mi padre es cocinero, y mi madre es médica.",
+      "accept": ["Mon père est cuisinier, et ma mère est médecin"],
+      "hintWords": ["mon père est cuisinier", "ma mère est médecin"],
+      "strictAccents": false,
+      "audio": "Mon père est cuisinier, et ma mère est médecin.",
+      "explain": "Être + profesión, para el padre y la madre."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Completa con la estructura correcta",
+      "text": "Elle ___ infirmière, et c'___ une bonne infirmière.",
+      "blanks": [{ "accept": ["est"] }, { "accept": ["est"] }],
+      "bank": ["est", "es", "suis"],
+      "explain": "Elle est infirmière (sin artículo) frente a c'est une bonne infirmière (con artículo, hay adjetivo)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Está en paro en este momento»",
+      "tokens": ["en ce moment", "sans emploi", "Il est"],
+      "answer": ["Il est", "sans emploi", "en ce moment"],
+      "audio": "Il est sans emploi en ce moment.",
+      "explain": "Il est + sans emploi + en ce moment."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["profesiones"],
+      "difficulty": 1,
+      "prompt": "Je suis étudiant, mais je travaille aussi comme commerçant.",
+      "accept": ["Soy estudiante, pero también trabajo como comerciante."],
+      "strictAccents": false,
+      "audio": "Je suis étudiant, mais je travaille aussi comme commerçant.",
+      "explain": "Travailler comme + profesión (clase 33, verbo -er)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre profesiones",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu fais dans la vie ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je suis étudiant.", "Je suis professeur.", "Je suis ingénieur."], "hint": "di tu profesión con je suis" },
+        { "who": "Léa", "text": "Ah, super !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu fais dans la vie ? es una forma habitual de preguntar la profesión."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "speak": "Mon frère est ingénieur et ma sœur est médecin.",
+      "mode": "write",
+      "accept": ["Mon frère est ingénieur et ma sœur est médecin"],
+      "showTextAfter": true,
+      "explain": "Dos profesiones con être, sin artículo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["profesiones"],
+      "difficulty": 1,
+      "speak": "le cuisinier",
+      "mode": "choose",
+      "options": ["le médecin", "le cuisinier", "l'avocat", "l'ingénieur"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Le cuisinier = el cocinero."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["profesiones"],
+      "difficulty": 3,
+      "speak": "Je suis étudiant, mon père est cuisinier, ma mère est médecin et ma sœur est avocate.",
+      "es": "Soy estudiante, mi padre es cocinero, mi madre es médica y mi hermana es abogada.",
+      "ipa": "/ʒə sɥi.z‿e.ty.djɑ̃ mɔ̃ pɛʁ ɛ kɥi.zi.nje ma mɛʁ ɛ med.sɛ̃ e ma sœʁ ɛ a.vɔ.kat/",
+      "esApprox": "«ye süí-e-tü-DIAN mon PER e küí-zi-NIÉ ma MER e med-SEN e ma SEUR e a-vo-KAT»",
+      "focus": "Cuatro profesiones de la familia seguidas, todas con être sin artículo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Di tu profesión y la de dos personas de tu familia.",
+      "modelAnswer": "Je suis étudiant, mon père est ingénieur et ma mère est professeure.",
+      "alsoValid": ["Je suis médecin, mon frère est avocat."],
+      "speak": "Je suis étudiant, mon père est ingénieur et ma mère est professeure.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "¿Se dice con o sin cambio de forma en femenino?",
+      "buckets": ["Cambia (-e, -euse, -rice)", "No cambia tradicionalmente"],
+      "items": [
+        { "text": "avocat → avocate", "bucket": 0 },
+        { "text": "infirmier → infirmière", "bucket": 0 },
+        { "text": "médecin", "bucket": 1 },
+        { "text": "professeur", "bucket": 1 }
+      ],
+      "explain": "Avocat e infirmier cambian de forma; médecin y professeur tradicionalmente no."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Hay un error de artículo. Corrige la frase entera.",
+      "wrong": "Je suis un professeur.",
+      "accept": ["Je suis professeur"],
+      "audio": "Je suis professeur.",
+      "explain": "Être + profesión no lleva artículo: je suis professeur."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "le médecin", "es": "el/la médico/a", "esApprox": "«le med-SEN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "l'ingénieur / l'ingénieure", "es": "el/la ingeniero/a", "esApprox": "«len-ye-NIEUR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "l'avocat / l'avocate", "es": "el/la abogado/a", "esApprox": "«la-vo-KA»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le cuisinier / la cuisinière", "es": "el/la cocinero/a", "esApprox": "«le küí-zi-NIÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "l'infirmier / l'infirmière", "es": "el/la enfermero/a", "esApprox": "«len-fir-MIÉ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "l'étudiant / l'étudiante", "es": "el/la estudiante", "esApprox": "«le-tü-DIAN»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Je suis professeur et ma sœur est avocate.", "es": "Soy profesor y mi hermana es abogada.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Qu'est-ce que tu fais dans la vie ?", "es": "¿A qué te dedicas?", "from": "e11" }
+  ]
+}

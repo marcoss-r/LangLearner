@@ -1,0 +1,93 @@
+{
+  "id": "de-a1-076",
+  "lang": "de",
+  "level": "A1",
+  "order": 76,
+  "title": "Los números ordinales y las fechas",
+  "objectives": [
+    "Formar los números ordinales con -te (2-19) y -ste (20 en adelante)",
+    "Decir la fecha completa: día, mes y año",
+    "Preguntar y responder «¿Qué día es hoy?» y «¿Cuándo es tu cumpleaños?»"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Formar los ordinales: -te y -ste",
+      "body": "Los números ordinales (primero, segundo, tercero...) se forman añadiendo -te a los números del 2 al 19, y -ste a partir del 20. Hay algunas formas irregulares: erste (primero), dritte (tercero), siebte (séptimo). Para la fecha, usas «der» + ordinal + mes: «der erste Mai» (el primero de mayo). Al escribir la fecha con número, se usa un punto: 1. Mai.",
+      "examples": [
+        { "target": "der erste Januar", "es": "el uno de enero", "note": "erste, irregular" },
+        { "target": "der dritte März", "es": "el tres de marzo", "note": "dritte, irregular" },
+        { "target": "der zwanzigste Juni", "es": "el veinte de junio", "note": "zwanzig + -ste" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Ordinales clave",
+      "headers": ["Cardinal", "Ordinal", "Español"],
+      "rows": [
+        ["eins", "erste", "primero"],
+        ["zwei", "zweite", "segundo"],
+        ["drei", "dritte", "tercero"],
+        ["sieben", "siebte", "séptimo"],
+        ["zwanzig", "zwanzigste", "vigésimo"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para preguntar la fecha se dice «Der Wievielte ist heute?» (¿A qué día estamos hoy?), y para el cumpleaños «Wann hast du Geburtstag?» (¿Cuándo es tu cumpleaños?)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "erste", "es": "primero", "ipa": "/ˈeːɐ̯stə/", "esApprox": "«ÉRS-te»", "pos": "adjetivo", "gender": null, "example": { "target": "Heute ist der erste Mai.", "es": "Hoy es el uno de mayo." } },
+    { "id": "v2", "target": "zweite", "es": "segundo", "ipa": "/ˈtsvaɪ̯tə/", "esApprox": "«TSVÁI-te»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist mein zweiter Urlaub.", "es": "Estas son mis segundas vacaciones." } },
+    { "id": "v3", "target": "dritte", "es": "tercero", "ipa": "/ˈdʁɪtə/", "esApprox": "«DRÍ-te»", "pos": "adjetivo", "gender": null, "example": { "target": "Der dritte März ist mein Geburtstag.", "es": "El tres de marzo es mi cumpleaños." } },
+    { "id": "v4", "target": "das Datum", "es": "la fecha", "ipa": "/ˈdaːtʊm/", "esApprox": "«DÁ-tum»", "pos": "sustantivo", "gender": "n", "example": { "target": "Welches Datum ist heute?", "es": "¿Qué fecha es hoy?" } },
+    { "id": "v5", "target": "der Geburtstag", "es": "el cumpleaños", "ipa": "/ɡəˈbuːɐ̯tstaːk/", "esApprox": "«ge-BÚRTS-tak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wann hast du Geburtstag?", "es": "¿Cuándo es tu cumpleaños?" } },
+    { "id": "v6", "target": "das Jahr", "es": "el año", "ipa": "/jaːɐ̯/", "esApprox": "«yar»", "pos": "sustantivo", "gender": "n", "example": { "target": "Im Jahr 2020.", "es": "En el año 2020." } },
+    { "id": "v7", "target": "der Monat", "es": "el mes", "ipa": "/ˈmoːnaːt/", "esApprox": "«MÓ-nat»", "pos": "sustantivo", "gender": "m", "example": { "target": "Welcher Monat ist das?", "es": "¿Qué mes es este?" } },
+    { "id": "v8", "target": "geboren", "es": "nacido", "ipa": "/ɡəˈboːʁən/", "esApprox": "«ge-BÓ-ren»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich bin 1995 geboren.", "es": "Nací en 1995." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["ordinales"], "difficulty": 1, "prompt": "¿Cómo se dice «primero» en alemán?", "options": ["einte", "erste", "eins", "ersteste"], "answer": 1, "explain": "erste es la forma irregular de «primero»." },
+    { "id": "e2", "type": "mcq", "tags": ["ordinales"], "difficulty": 2, "prompt": "¿Qué terminación llevan los ordinales a partir de 20?", "options": ["-te", "-ste", "-ten", "-er"], "answer": 1, "explain": "A partir de 20 se usa -ste: zwanzigste, dreißigste." },
+    { "id": "e3", "type": "true_false", "tags": ["ordinales"], "difficulty": 2, "statement": "«dritte» es una forma irregular de «tercero».", "answer": true, "explain": "drei → dritte, no «dreite»: es irregular." },
+    { "id": "e4", "type": "true_false", "tags": ["fechas"], "difficulty": 2, "statement": "En alemán, la fecha escrita con número lleva un punto después: 1. Mai.", "answer": true, "explain": "1. Mai = der erste Mai, con punto tras el número." },
+    { "id": "e5", "type": "match_pairs", "tags": ["ordinales"], "difficulty": 2, "prompt": "Une cada cardinal con su ordinal", "left": ["eins", "zwei", "drei", "sieben"], "right": ["erste", "zweite", "dritte", "siebte"], "answer": [0, 1, 2, 3], "explain": "erste, zweite, dritte y siebte son las formas irregulares más comunes." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["fechas"], "difficulty": 2, "prompt": "Hoy es el uno de mayo.", "accept": ["Heute ist der erste Mai"], "hintWords": ["heute ist der erste Mai"], "strictAccents": false, "audio": "Heute ist der erste Mai.", "explain": "der erste Mai: ordinal + mes." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["fechas"], "difficulty": 2, "prompt": "¿Cuándo es tu cumpleaños?", "accept": ["Wann hast du Geburtstag?", "Wann hast du Geburtstag"], "hintWords": ["wann hast du Geburtstag"], "strictAccents": false, "audio": "Wann hast du Geburtstag?", "explain": "Wann + haben + Geburtstag: pregunta clave de esta clase." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["fechas"], "difficulty": 2, "prompt": "Nací en 1995.", "accept": ["Ich bin 1995 geboren"], "hintWords": ["ich bin 1995 geboren"], "strictAccents": false, "audio": "Ich bin 1995 geboren.", "explain": "bin...geboren: expresión fija para decir cuándo naciste." },
+    { "id": "e9", "type": "fill_blank", "tags": ["ordinales"], "difficulty": 2, "prompt": "Completa con el ordinal correcto", "text": "Der ___ März ist mein Geburtstag. (tercero)", "blanks": [{ "accept": ["dritte"] }], "bank": ["dritte", "drei", "dritter"], "explain": "der dritte März: ordinal tras der." },
+    { "id": "e10", "type": "word_order", "tags": ["fechas"], "difficulty": 2, "prompt": "Ordena: «¿Qué fecha es hoy?»", "tokens": ["ist", "heute", "Welches Datum"], "answer": ["Welches Datum", "ist", "heute"], "audio": "Welches Datum ist heute?", "explain": "Welches Datum ist heute?: pregunta con welches + Datum." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["fechas"], "difficulty": 2, "prompt": "Im Jahr 2020 war ich in Berlin.", "accept": ["En el año 2020 estuve en Berlín."], "strictAccents": false, "audio": "Im Jahr 2020 war ich in Berlin.", "explain": "im Jahr + número: expresión para el año." },
+    { "id": "e12", "type": "dialogue", "tags": ["fechas"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Tim", "text": "Wann hast du Geburtstag?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich habe am dritten März Geburtstag.", "Mein Geburtstag ist der dritte März."], "hint": "responde con una fecha de cumpleaños" },
+      { "who": "Tim", "text": "In welchem Jahr bist du geboren?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich bin 1995 geboren."], "hint": "responde con tu año de nacimiento" }
+    ], "explain": "Práctica de preguntar y responder sobre fechas y cumpleaños." },
+    { "id": "e13", "type": "listening", "tags": ["fechas"], "difficulty": 1, "speak": "Wann hast du Geburtstag?", "mode": "write", "accept": ["Wann hast du Geburtstag"], "showTextAfter": true, "explain": "Pregunta clave sobre el cumpleaños." },
+    { "id": "e14", "type": "listening", "tags": ["ordinales"], "difficulty": 2, "speak": "Heute ist der erste Mai.", "mode": "choose", "options": ["Heute ist der erste Mai.", "Heute ist der eins Mai.", "Heute ist der ersten Mai."], "answer": 0, "showTextAfter": true, "explain": "der erste Mai, con la forma ordinal correcta tras der." },
+    { "id": "e15", "type": "shadowing", "tags": ["fechas"], "difficulty": 2, "speak": "Ich bin am dritten März 1995 geboren.", "es": "Nací el tres de marzo de 1995.", "ipa": "/ɪç bɪn am ˈdʁɪtn̩ mɛʁts ˈnɔɪ̯ntsɛnhʊndɐtfʏnfʊntnɔɪ̯ntsɪç ɡəˈboːʁən/", "esApprox": "«ich bin am DRÍ-ten merts NOIN-tsen-jun-dert-fünf-unt-noin-tsich ge-BÓ-ren»", "focus": "am dritten März: fecha con dativo (am + ordinal con -n), y geboren al final.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["ordinales"], "difficulty": 2, "speak": "Heute ist der erste Mai, und morgen ist der zweite Mai.", "es": "Hoy es el uno de mayo, y mañana es el dos de mayo.", "ipa": "/ˈhɔɪ̯tə ɪst deːɐ̯ ˈeːɐ̯stə maɪ̯ ʊnt ˈmɔʁɡn̩ ɪst deːɐ̯ ˈtsvaɪ̯tə maɪ̯/", "esApprox": "«JÓI-te ist der ÉRS-te mai, unt MOR-guen ist der TSVÁI-te mai»", "focus": "erste y zweite: los dos primeros ordinales, ambos irregulares.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["fechas"], "difficulty": 2, "prompt": "Te preguntan cuándo es tu cumpleaños. Di que es el tres de marzo.", "modelAnswer": "Mein Geburtstag ist der dritte März.", "alsoValid": ["Ich habe am dritten März Geburtstag."], "speak": "Mein Geburtstag ist der dritte März.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["ordinales"], "difficulty": 2, "prompt": "Clasifica cada ordinal: regular o irregular", "buckets": ["Regular (-te/-ste)", "Irregular"], "items": [
+      { "text": "erste", "bucket": 1 },
+      { "text": "vierte", "bucket": 0 },
+      { "text": "dritte", "bucket": 1 },
+      { "text": "siebte", "bucket": 1 },
+      { "text": "zwanzigste", "bucket": 0 }
+    ], "explain": "erste, dritte y siebte son irregulares; vierte y zwanzigste siguen el patrón regular." },
+    { "id": "e19", "type": "error_correction", "tags": ["ordinales"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Heute ist der dreite März.", "accept": ["Heute ist der dritte März"], "audio": "Heute ist der dritte März.", "explain": "El ordinal de drei es dritte, no «dreite»: es irregular." },
+    { "id": "e20", "type": "mcq", "tags": ["fechas"], "difficulty": 2, "prompt": "«Heute ist der erste Mai. Mein Geburtstag ist der dritte März, aber der Geburtstag meiner Schwester ist der zwanzigste Juni. Sie ist 1998 geboren, und ich bin 1995 geboren.» ¿Cuándo es el cumpleaños de la hermana?", "options": ["El uno de mayo", "El tres de marzo", "El veinte de junio", "En 1995"], "answer": 2, "explain": "«der Geburtstag meiner Schwester ist der zwanzigste Juni» = el cumpleaños de mi hermana es el veinte de junio." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "erste", "es": "primero", "esApprox": "«ÉRS-te»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "zweite", "es": "segundo", "esApprox": "«TSVÁI-te»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "dritte", "es": "tercero", "esApprox": "«DRÍ-te»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Datum", "es": "la fecha", "esApprox": "«DÁ-tum»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Geburtstag", "es": "el cumpleaños", "esApprox": "«ge-BÚRTS-tak»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "geboren", "es": "nacido", "esApprox": "«ge-BÓ-ren»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich bin am dritten März 1995 geboren.", "es": "Nací el tres de marzo de 1995.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Heute ist der erste Mai, und morgen ist der zweite Mai.", "es": "Hoy es el uno de mayo, y mañana es el dos de mayo.", "from": "e16" }
+  ]
+}

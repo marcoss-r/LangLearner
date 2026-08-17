@@ -1,0 +1,272 @@
+{
+  "id": "fr-a1-034",
+  "lang": "fr",
+  "level": "A1",
+  "order": 34,
+  "title": "Verbos en -er con cambios ortográficos (acheter, appeler, préférer)",
+  "objectives": [
+    "Conjugar acheter y préférer, que cambian é/e por è en las formas donde la terminación es muda",
+    "Conjugar appeler, que dobla la l en esas mismas formas (igual que ya viste en s'appeler)",
+    "Reconocer que el cambio nunca afecta a nous/vous, porque ahí la terminación sí se pronuncia"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Casi regulares, con un pequeño ajuste",
+      "body": "Algunos verbos -er cambian una letra en ciertas personas para que la pronunciación quede bien. Ya lo viste sin saberlo en s'appeler: je m'appelle dobla la l. El patrón se repite en muchos verbos frecuentes.",
+      "examples": [
+        { "target": "acheter → j'achète, mais nous achetons", "es": "comprar → compro, pero compramos", "note": "e → è solo donde la terminación es muda" },
+        { "target": "préférer → je préfère, mais vous préférez", "es": "preferir → prefiero, pero preferís", "note": "é → è, mismo patrón" },
+        { "target": "appeler → j'appelle, mais nous appelons", "es": "llamar → llamo, pero llamamos", "note": "l → ll, mismo patrón" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Tres verbos, un mismo patrón",
+      "headers": ["Persona", "acheter", "préférer", "appeler"],
+      "rows": [
+        ["je", "achète", "préfère", "appelle"],
+        ["tu", "achètes", "préfères", "appelles"],
+        ["il / elle", "achète", "préfère", "appelle"],
+        ["nous", "achetons", "préférons", "appelons"],
+        ["vous", "achetez", "préférez", "appelez"],
+        ["ils / elles", "achètent", "préfèrent", "appellent"]
+      ],
+      "note": "Jeter (tirar) también dobla la consonante como appeler: je jette, nous jetons."
+    },
+    {
+      "type": "contrast",
+      "title": "Nous y vous nunca cambian",
+      "items": [
+        { "wrong": "nous achètons, vous préfèrez", "right": "nous achetons, vous préférez", "why": "En nous y vous, la terminación (-ons, -ez) sí se pronuncia con fuerza, así que la vocal de la raíz no necesita el cambio: se queda como en el infinitivo." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Payer (pagar) y essayer (probar/intentar) tienen un patrón parecido pero distinto: la y puede cambiar a i (je paie / je paye, las dos formas son correctas hoy en día) en las mismas personas que acheter y appeler."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "acheter", "es": "comprar", "ipa": "/aʃ.te/", "esApprox": "«ash-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'achète un livre.", "es": "Compro un libro." } },
+    { "id": "v2", "target": "préférer", "es": "preferir", "ipa": "/pʁe.fe.ʁe/", "esApprox": "«pre-fe-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je préfère le café.", "es": "Prefiero el café." } },
+    { "id": "v3", "target": "appeler", "es": "llamar", "ipa": "/ap.le/", "esApprox": "«ap-LÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'appelle mon frère.", "es": "Llamo a mi hermano." } },
+    { "id": "v4", "target": "espérer", "es": "esperar, desear (que algo pase)", "ipa": "/ɛs.pe.ʁe/", "esApprox": "«es-pe-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'espère que oui.", "es": "Espero que sí." } },
+    { "id": "v5", "target": "jeter", "es": "tirar, lanzar", "ipa": "/ʒə.te/", "esApprox": "«ye-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Il jette le papier.", "es": "Tira el papel." } },
+    { "id": "v6", "target": "lever", "es": "levantar", "ipa": "/lə.ve/", "esApprox": "«le-VÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je lève la main.", "es": "Levanto la mano." } },
+    { "id": "v7", "target": "payer", "es": "pagar", "ipa": "/pɛ.je/", "esApprox": "«pe-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je paie l'addition.", "es": "Pago la cuenta." } },
+    { "id": "v8", "target": "essayer", "es": "probar, intentar", "ipa": "/e.sɛ.je/", "esApprox": "«e-se-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'essaie de comprendre.", "es": "Intento entender." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["verbos-er", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma correcta de acheter para «je»?",
+      "options": ["achete", "achète", "achette", "acheter"],
+      "answer": 1,
+      "explain": "J'achète, con e → è."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["verbos-er", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma correcta de appeler para «nous»?",
+      "options": ["nous appellons", "nous appelons", "nous appèlons", "nous appelent"],
+      "answer": 1,
+      "explain": "Nous appelons: con nous nunca se dobla la l."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["verbos-er", "irregulares"],
+      "difficulty": 2,
+      "statement": "El cambio ortográfico de acheter y appeler afecta también a nous y vous.",
+      "answer": false,
+      "explain": "Nous y vous nunca cambian: ahí la terminación ya se pronuncia con fuerza."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas NO tiene el cambio ortográfico, a diferencia de las demás?",
+      "options": ["j'achète", "tu préfères", "nous appelons", "il jette"],
+      "answer": 2,
+      "explain": "Nous appelons no cambia; las otras tres sí tienen el cambio (é/e→è, l→ll)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su significado",
+      "left": ["acheter", "jeter", "lever", "payer"],
+      "right": ["levantar", "comprar", "pagar", "tirar"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Acheter = comprar, jeter = tirar, lever = levantar, payer = pagar."
+    },
+    {
+      "id": "e6",
+      "type": "conjugation",
+      "tags": ["verbos-er", "irregulares"],
+      "difficulty": 2,
+      "verb": "préférer",
+      "tense": "présent",
+      "prompt": "Conjuga «préférer» en presente",
+      "rows": [
+        { "person": "je", "accept": ["préfère"] },
+        { "person": "tu", "accept": ["préfères"] },
+        { "person": "il / elle", "accept": ["préfère"] },
+        { "person": "nous", "accept": ["préférons"] },
+        { "person": "vous", "accept": ["préférez"] },
+        { "person": "ils / elles", "accept": ["préfèrent"] }
+      ],
+      "explain": "Préférer: é → è, salvo en nous y vous."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Compro un coche nuevo. Prefiero los coches grises.",
+      "accept": ["J'achète une nouvelle voiture. Je préfère les voitures grises."],
+      "hintWords": ["j'achète", "je préfère"],
+      "strictAccents": false,
+      "audio": "J'achète une nouvelle voiture. Je préfère les voitures grises.",
+      "explain": "J'achète (e→è) y je préfère (é→è)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["verbos-er", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de appeler",
+      "text": "J'___ mon frère, mais nous ___ aussi ma sœur.",
+      "blanks": [{ "accept": ["appelle"] }, { "accept": ["appelons"] }],
+      "bank": ["appelle", "appelons", "appellent"],
+      "explain": "J'appelle (doble l) frente a nous appelons (sin doblar)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Espero que sí»",
+      "tokens": ["que", "J'espère", "oui"],
+      "answer": ["J'espère", "que", "oui"],
+      "audio": "J'espère que oui.",
+      "explain": "J'espère: é → è."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["verbos-er"],
+      "difficulty": 1,
+      "prompt": "Elle essaie de comprendre, mais elle préfère demander de l'aide.",
+      "accept": ["Intenta entender, pero prefiere pedir ayuda."],
+      "strictAccents": false,
+      "audio": "Elle essaie de comprendre, mais elle préfère demander de l'aide.",
+      "explain": "Essaie (essayer) y préfère (préférer), dos verbos con cambio ortográfico."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre qué comprar",
+      "turns": [
+        { "who": "Léa", "text": "Tu achètes du pain ou du fromage ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je préfère le pain.", "J'achète du pain."], "hint": "di qué prefieres" },
+        { "who": "Léa", "text": "D'accord, j'achète le fromage alors !", "speak": true }
+      ],
+      "explain": "Tu achètes / je préfère / j'achète: tres formas con el mismo cambio ortográfico."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "speak": "Nous préférons acheter ici.",
+      "mode": "write",
+      "accept": ["Nous préférons acheter ici"],
+      "showTextAfter": true,
+      "explain": "Nous préférons: sin cambio, se pronuncia con fuerza."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "speak": "j'appelle",
+      "mode": "choose",
+      "options": ["j'appelle", "nous appelons", "vous appelez", "ils appellent"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "J'appelle: forma singular con la l doblada."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["verbos-er", "irregulares"],
+      "difficulty": 3,
+      "speak": "J'achète, tu préfères, il appelle, nous achetons, vous préférez, ils appellent.",
+      "es": "Compro, prefieres, llama, compramos, preferís, llaman.",
+      "ipa": "/ʒa.ʃɛt ty pʁe.fɛʁ i.l‿a.pɛl nu.z‿aʃ.tɔ̃ vu pʁe.fe.ʁe i.l‿a.pɛl/",
+      "esApprox": "«ya-SHET tü pre-FER i-la-PEL nu-zash-TÓN vu pre-fe-RÉ il-za-PEL»",
+      "focus": "Compara las formas con cambio (je, tu, il, ils) y sin cambio (nous, vous).",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Di qué prefieres comprar: un libro o un bolígrafo nuevo.",
+      "modelAnswer": "Je préfère acheter un livre.",
+      "alsoValid": ["J'achète un nouveau stylo, je préfère ça."],
+      "speak": "Je préfère acheter un livre.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["verbos-er", "irregulares"],
+      "difficulty": 2,
+      "prompt": "¿Esta forma tiene el cambio ortográfico o no?",
+      "buckets": ["Con cambio", "Sin cambio"],
+      "items": [
+        { "text": "j'achète", "bucket": 0 },
+        { "text": "nous achetons", "bucket": 1 },
+        { "text": "il appelle", "bucket": 0 },
+        { "text": "vous appelez", "bucket": 1 },
+        { "text": "ils préfèrent", "bucket": 0 },
+        { "text": "nous préférons", "bucket": 1 }
+      ],
+      "explain": "El cambio afecta a je/tu/il-elle/ils-elles; nous y vous se quedan como el infinitivo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["verbos-er", "irregulares"],
+      "difficulty": 2,
+      "prompt": "Hay un error ortográfico. Corrige la frase entera.",
+      "wrong": "Nous achètons un livre.",
+      "accept": ["Nous achetons un livre"],
+      "audio": "Nous achetons un livre.",
+      "explain": "Con nous nunca hay cambio: achetons, sin acento grave."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "acheter", "es": "comprar", "esApprox": "«ash-TÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "préférer", "es": "preferir", "esApprox": "«pre-fe-RÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "appeler", "es": "llamar", "esApprox": "«ap-LÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "espérer", "es": "esperar, desear", "esApprox": "«es-pe-RÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "jeter", "es": "tirar, lanzar", "esApprox": "«ye-TÉ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "payer", "es": "pagar", "esApprox": "«pe-YÉ»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "essayer", "es": "probar, intentar", "esApprox": "«e-se-YÉ»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "J'espère que oui.", "es": "Espero que sí.", "from": "e9" },
+    { "id": "s9", "kind": "phrase", "target": "J'achète, tu préfères, il appelle, nous achetons, vous préférez, ils appellent.", "es": "Compro, prefieres, llama, compramos, preferís, llaman.", "from": "e14" }
+  ]
+}

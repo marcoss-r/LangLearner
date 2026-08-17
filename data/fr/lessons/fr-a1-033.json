@@ -1,0 +1,292 @@
+{
+  "id": "fr-a1-033",
+  "lang": "fr",
+  "level": "A1",
+  "order": 33,
+  "title": "Los verbos en -er: presente",
+  "objectives": [
+    "Conjugar un verbo regular en -er en las seis personas, usando parler como modelo",
+    "Reconocer que je/tu/il-elle/ils-elles suenan igual en la mayoría de verbos -er, aunque se escriban distinto",
+    "Usar verbos -er muy frecuentes: aimer, adorer, détester, regarder, écouter, travailler, chanter, danser"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El grupo más grande de verbos del francés",
+      "body": "Ya has usado parler y habiter como fórmulas fijas. Ahora ves el patrón completo: son verbos en **-er**, el grupo más numeroso del francés (unos 9 de cada 10 verbos franceses son -er). Una vez memorizas el patrón, lo puedes aplicar a cientos de verbos nuevos.",
+      "examples": [
+        { "target": "parler → je parle, tu parles, il parle", "es": "hablar → hablo, hablas, habla", "note": "quita -er, añade la terminación de cada persona" },
+        { "target": "j'aime le café", "es": "me gusta el café", "note": "aimer, mismo patrón" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Parler en presente (modelo de los verbos -er)",
+      "headers": ["Persona", "Forma", "Aproximación"],
+      "rows": [
+        ["je", "parle", "«PARL»"],
+        ["tu", "parles", "«PARL»"],
+        ["il / elle / on", "parle", "«PARL»"],
+        ["nous", "parlons", "«par-LÓN»"],
+        ["vous", "parlez", "«par-LÉ»"],
+        ["ils / elles", "parlent", "«PARL»"]
+      ],
+      "note": "Je, tu, il/elle y ils/elles se pronuncian todos «PARL»: la diferencia está solo en la escritura y en el pronombre."
+    },
+    {
+      "type": "phonetics",
+      "title": "Cuatro formas, un solo sonido",
+      "body": "Es la trampa más grande de los verbos -er: parle, parles, parle y parlent se pronuncian exactamente igual. Solo nous y vous suenan distinto de verdad.",
+      "drills": [
+        { "target": "il parle", "ipa": "/il paʁl/", "esApprox": "«il PARL»", "hint": "igual que je parle, tu parles, ils parlent" },
+        { "target": "nous parlons", "ipa": "/nu paʁ.lɔ̃/", "esApprox": "«nu par-LÓN»", "hint": "aquí sí se distingue" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Aimer no siempre es «amar»",
+      "items": [
+        { "wrong": "Traducir aimer siempre como «amar», con la intensidad del español", "right": "aimer = gustar (con cosas y actividades) o querer (con personas)", "why": "J'aime le café no es «amo el café», es «me gusta el café». Aimer es más suave que el español «amar»: para el amor de pareja intenso se usa igual, pero para gustos cotidianos no suena exagerado como sonaría «amar» en español." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para matizar cuánto te gusta algo, hay una escalera muy útil: **détester** (odiar/detestar) < **ne pas aimer** (no gustar) < **aimer** (gustar) < **aimer bien** < **adorer** (encantar). Adorer es el más fuerte de todos para gustos, más que aimer."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "aimer", "es": "gustar; querer", "ipa": "/ɛ.me/", "esApprox": "«e-MÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'aime le chocolat.", "es": "Me gusta el chocolate." } },
+    { "id": "v2", "target": "adorer", "es": "encantar", "ipa": "/a.dɔ.ʁe/", "esApprox": "«a-do-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'adore le café.", "es": "Me encanta el café." } },
+    { "id": "v3", "target": "détester", "es": "detestar, odiar", "ipa": "/de.tɛs.te/", "esApprox": "«de-tes-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je déteste le silence.", "es": "Detesto el silencio." } },
+    { "id": "v4", "target": "regarder", "es": "mirar, ver", "ipa": "/ʁə.ɡaʁ.de/", "esApprox": "«re-gar-DÉ»", "pos": "verbo", "gender": null, "example": { "target": "Tu regardes la télévision ?", "es": "¿Ves la televisión?" } },
+    { "id": "v5", "target": "écouter", "es": "escuchar", "ipa": "/e.ku.te/", "esApprox": "«e-ku-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'écoute la musique.", "es": "Escucho música." } },
+    { "id": "v6", "target": "travailler", "es": "trabajar", "ipa": "/tʁa.va.je/", "esApprox": "«tra-va-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Nous travaillons ensemble.", "es": "Trabajamos juntos." } },
+    { "id": "v7", "target": "chanter", "es": "cantar", "ipa": "/ʃɑ̃.te/", "esApprox": "«shan-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Elle chante très bien.", "es": "Canta muy bien." } },
+    { "id": "v8", "target": "danser", "es": "bailar", "ipa": "/dɑ̃.se/", "esApprox": "«dan-SÉ»", "pos": "verbo", "gender": null, "example": { "target": "Ils dansent ce soir.", "es": "Bailan esta noche." } },
+    { "id": "v9", "target": "habiter", "es": "vivir", "ipa": "/a.bi.te/", "esApprox": "«a-bi-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Vous habitez où ?", "es": "¿Dónde vive usted?" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["verbos-er"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma de parler para «nous»?",
+      "options": ["parle", "parles", "parlons", "parlent"],
+      "answer": 2,
+      "explain": "Nous parlons."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "statement": "Je parle, tu parles, il parle e ils parlent suenan todos igual.",
+      "answer": true,
+      "explain": "Es la trampa principal de los verbos -er: se escriben distinto pero suenan igual."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "statement": "Aimer siempre significa «amar» con la misma intensidad que en español.",
+      "answer": false,
+      "explain": "Aimer se usa mucho para gustos cotidianos, más suave que «amar»."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas de parler NO suena igual que las demás?",
+      "options": ["parle", "parles", "parlons", "parlent"],
+      "answer": 2,
+      "explain": "Parlons (nous) suena distinto; las otras tres suenan igual."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["verbos-er"],
+      "difficulty": 1,
+      "prompt": "Une cada verbo con su significado",
+      "left": ["détester", "écouter", "travailler", "danser"],
+      "right": ["bailar", "detestar", "trabajar", "escuchar"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Détester = detestar, écouter = escuchar, travailler = trabajar, danser = bailar."
+    },
+    {
+      "id": "e6",
+      "type": "conjugation",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "verb": "aimer",
+      "tense": "présent",
+      "prompt": "Conjuga «aimer» en presente",
+      "rows": [
+        { "person": "je", "accept": ["aime"] },
+        { "person": "tu", "accept": ["aimes"] },
+        { "person": "il / elle", "accept": ["aime"] },
+        { "person": "nous", "accept": ["aimons"] },
+        { "person": "vous", "accept": ["aimez"] },
+        { "person": "ils / elles", "accept": ["aiment"] }
+      ],
+      "explain": "Aimer sigue exactamente el mismo patrón que parler."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Me encanta la música y detesto el silencio.",
+      "accept": ["J'adore la musique et je déteste le silence"],
+      "hintWords": ["j'adore", "je déteste"],
+      "strictAccents": false,
+      "audio": "J'adore la musique et je déteste le silence.",
+      "explain": "Adorer y détester, dos extremos de la misma escalera de gustos."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de travailler",
+      "text": "Nous ___ ensemble, mais vous ___ seuls.",
+      "blanks": [{ "accept": ["travaillons"] }, { "accept": ["travaillez"] }],
+      "bank": ["travaillons", "travaillez", "travaille"],
+      "explain": "Nous travaillons, vous travaillez: las dos formas que sí suenan distinto."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Escuchan música y bailan»",
+      "tokens": ["dansent", "la musique", "Ils", "et", "écoutent"],
+      "answer": ["Ils", "écoutent", "la musique", "et", "dansent"],
+      "audio": "Ils écoutent la musique et dansent.",
+      "explain": "Ils + verbo -er en -ent."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["verbos-er"],
+      "difficulty": 1,
+      "prompt": "Elle regarde la télévision et il écoute la musique.",
+      "accept": ["Ella ve la televisión y él escucha música."],
+      "strictAccents": false,
+      "audio": "Elle regarde la télévision et il écoute la musique.",
+      "explain": "Regarder (mirar/ver) y écouter (escuchar), dos verbos -er muy frecuentes."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre gustos musicales",
+      "turns": [
+        { "who": "Léa", "text": "Tu aimes la musique française ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'adore la musique française.", "Non, je préfère la musique espagnole."], "hint": "di si te gusta" },
+        { "who": "Léa", "text": "Moi aussi, j'écoute beaucoup !", "speak": true }
+      ],
+      "explain": "Tu aimes...? se responde con j'aime / j'adore / je n'aime pas."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "speak": "Nous parlons français et nous travaillons ensemble.",
+      "mode": "write",
+      "accept": ["Nous parlons français et nous travaillons ensemble"],
+      "showTextAfter": true,
+      "explain": "Las dos formas de nous se distinguen bien al oído."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "speak": "elle chante",
+      "mode": "choose",
+      "options": ["elle chante", "elle danse", "elle travaille", "elle écoute"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Elle chante = ella canta."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["verbos-er"],
+      "difficulty": 3,
+      "speak": "J'aime écouter la musique, je déteste travailler le week-end.",
+      "es": "Me gusta escuchar música, detesto trabajar el fin de semana.",
+      "ipa": "/ʒɛm e.ku.te la my.zik ʒə de.tɛst tʁa.va.je lə wik.ɛnd/",
+      "esApprox": "«yem e-ku-TÉ la mü-ZIK ye de-TEST tra-va-YÉ le uík-END»",
+      "focus": "Aimer y détester delante de un infinitivo: j'aime écouter, je déteste travailler.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Di qué te gusta y qué detestas.",
+      "modelAnswer": "J'aime la musique et je déteste le silence.",
+      "alsoValid": ["J'adore danser et je déteste travailler."],
+      "speak": "J'aime la musique et je déteste le silence.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "¿Esta forma de un verbo -er es singular o plural?",
+      "buckets": ["Singular", "Plural"],
+      "items": [
+        { "text": "parle", "bucket": 0 },
+        { "text": "parlons", "bucket": 1 },
+        { "text": "aimes", "bucket": 0 },
+        { "text": "aiment", "bucket": 1 },
+        { "text": "travaille", "bucket": 0 },
+        { "text": "travaillez", "bucket": 1 }
+      ],
+      "explain": "Parle, aimes y travaille son singulares; parlons, aiment y travaillez son plurales."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "Hay un error de conjugación. Corrige la frase entera.",
+      "wrong": "Nous parle français.",
+      "accept": ["Nous parlons français"],
+      "audio": "Nous parlons français.",
+      "explain": "Con nous, la terminación es -ons: parlons, no parle."
+    },
+    {
+      "id": "e18",
+      "type": "gender_article",
+      "tags": ["verbos-er"],
+      "difficulty": 1,
+      "prompt": "Elige el artículo correcto para el sustantivo derivado",
+      "items": [
+        { "word": "musique", "options": ["le", "la"], "answer": 1 },
+        { "word": "silence", "options": ["le", "la"], "answer": 0 }
+      ],
+      "explain": "La musique es femenino; le silence es masculino (ya visto en la clase 13)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "aimer", "es": "gustar; querer", "esApprox": "«e-MÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "adorer", "es": "encantar", "esApprox": "«a-do-RÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "détester", "es": "detestar", "esApprox": "«de-tes-TÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "regarder", "es": "mirar, ver", "esApprox": "«re-gar-DÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "écouter", "es": "escuchar", "esApprox": "«e-ku-TÉ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "travailler", "es": "trabajar", "esApprox": "«tra-va-YÉ»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "chanter", "es": "cantar", "esApprox": "«shan-TÉ»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "J'adore la musique et je déteste le silence.", "es": "Me encanta la música y detesto el silencio.", "from": "e7" },
+    { "id": "s9", "kind": "phrase", "target": "J'aime écouter la musique, je déteste travailler le week-end.", "es": "Me gusta escuchar música, detesto trabajar el fin de semana.", "from": "e14" }
+  ]
+}

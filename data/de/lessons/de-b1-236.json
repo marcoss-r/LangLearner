@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-236",
+  "lang": "de",
+  "level": "B1",
+  "order": 236,
+  "title": "Matizar y usar las partículas modales para sonar natural",
+  "objectives": [
+    "Ampliar el repertorio de partículas modales con schon, wohl, halt y eben",
+    "Usar schon para tranquilizar (Das wird schon klappen) y wohl para expresar suposición",
+    "Reconocer halt y eben como partículas coloquiales que aceptan un hecho como es"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuatro partículas más para sonar natural",
+      "body": "Ya conoces doch, mal, ja y denn (clases 166-167). El B1 añade cuatro más: «schon» como partícula (no como adverbio temporal) tranquiliza: «Das wird schon klappen» (Ya verás que saldrá bien); «wohl» expresa una suposición: «Er ist wohl schon zu Hause» (Probablemente ya está en casa); «halt» y «eben» (casi intercambiables, muy coloquiales) aceptan un hecho tal como es: «Das ist halt so» (Así son las cosas, sin más).",
+      "examples": [
+        { "target": "Das wird schon klappen.", "es": "Ya verás que saldrá bien." },
+        { "target": "Das ist eben so.", "es": "Así son las cosas." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cuatro partículas modales más",
+      "headers": ["Partícula", "Matiz", "Ejemplo"],
+      "rows": [
+        ["schon", "tranquilizar", "Das wird schon klappen."],
+        ["wohl", "suposición", "Er ist wohl schon zu Hause."],
+        ["halt", "aceptar un hecho (coloquial)", "Das ist halt so."],
+        ["eben", "aceptar un hecho (coloquial, similar a halt)", "Das ist eben so."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "halt es más frecuente en el sur de Alemania y Austria; eben se usa en todas las regiones sin ese matiz geográfico. Ambas comunican la misma resignación tranquila ante un hecho que no se puede cambiar."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "schon", "es": "(partícula: tranquiliza)", "ipa": "/ʃoːn/", "esApprox": "«shon»", "pos": "partícula modal", "gender": null, "example": { "target": "Das wird schon klappen.", "es": "Ya verás que saldrá bien." } },
+    { "id": "v2", "target": "wohl", "es": "(partícula: suposición)", "ipa": "/voːl/", "esApprox": "«vol»", "pos": "partícula modal", "gender": null, "example": { "target": "Er ist wohl schon zu Hause.", "es": "Probablemente ya está en casa." } },
+    { "id": "v3", "target": "halt", "es": "(partícula: acepta un hecho, coloquial)", "ipa": "/halt/", "esApprox": "«jalt»", "pos": "partícula modal", "gender": null, "example": { "target": "Das ist halt so.", "es": "Así son las cosas, sin más." } },
+    { "id": "v4", "target": "eben", "es": "(partícula: acepta un hecho, similar a halt)", "ipa": "/ˈeːbn̩/", "esApprox": "«É-ben»", "pos": "partícula modal", "gender": null, "example": { "target": "Das ist eben so.", "es": "Así son las cosas." } },
+    { "id": "v5", "target": "klappen", "es": "salir bien, funcionar", "ipa": "/ˈklapn̩/", "esApprox": "«KLÁ-pen»", "pos": "verbo", "gender": null, "example": { "target": "Das wird schon klappen.", "es": "Ya verás que saldrá bien." } },
+    { "id": "v6", "target": "vermuten", "es": "suponer", "ipa": "/fɛɐ̯ˈmuːtn̩/", "esApprox": "«fer-MÚ-ten»", "pos": "verbo", "gender": null, "example": { "target": "Ich vermute, er ist zu Hause.", "es": "Supongo que está en casa." } },
+    { "id": "v7", "target": "die Nuance", "es": "el matiz", "ipa": "/nyˈãːs/", "esApprox": "«niu-ANS»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine wichtige Nuance.", "es": "Ese es un matiz importante." } },
+    { "id": "v8", "target": "sich beruhigen", "es": "tranquilizarse", "ipa": "/zɪç bəˈʁuːɪɡn̩/", "esApprox": "«zich be-RÚ-i-guen»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Beruhig dich, das wird schon klappen.", "es": "Tranquilízate, ya verás que saldrá bien." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["matizar", "particulas-modales"], "difficulty": 1, "prompt": "¿Qué partícula se usa para tranquilizar?", "options": ["wohl", "schon", "halt", "eben"], "answer": 1, "explain": "schon: Das wird schon klappen = tranquiliza sobre el resultado." },
+    { "id": "e2", "type": "mcq", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "¿Qué partícula expresa una suposición?", "options": ["schon", "wohl", "halt", "eben"], "answer": 1, "explain": "wohl: Er ist wohl zu Hause = probablemente está en casa." },
+    { "id": "e3", "type": "true_false", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "statement": "halt y eben tienen un matiz muy parecido: aceptar un hecho sin más.", "answer": true, "explain": "Ambas partículas comunican resignación tranquila ante un hecho." },
+    { "id": "e4", "type": "true_false", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "statement": "schon como partícula siempre significa «ya» en sentido temporal.", "answer": false, "explain": "Como partícula, schon tranquiliza sobre el resultado, sin sentido temporal." },
+    { "id": "e5", "type": "match_pairs", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Une cada partícula con su matiz", "left": ["schon", "wohl", "halt", "eben"], "right": ["tranquilizar", "suposición", "aceptar un hecho", "aceptar un hecho"], "answer": [0, 1, 2, 3], "explain": "Cuatro partículas modales más allá de doch, mal, ja y denn." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Ya verás que saldrá bien.", "accept": ["Das wird schon klappen"], "hintWords": ["das wird schon klappen"], "strictAccents": false, "audio": "Das wird schon klappen.", "explain": "Das wird + schon + klappen (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Probablemente ya está en casa.", "accept": ["Er ist wohl schon zu Hause"], "hintWords": ["er ist wohl schon zu Hause"], "strictAccents": false, "audio": "Er ist wohl schon zu Hause.", "explain": "ist + wohl + schon + zu Hause." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Así son las cosas, sin más.", "accept": ["Das ist halt so"], "hintWords": ["das ist halt so"], "strictAccents": false, "audio": "Das ist halt so.", "explain": "Das ist + halt + so." },
+    { "id": "e9", "type": "fill_blank", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Completa con la partícula correcta", "text": "Das wird ___ klappen. Er ist ___ schon zu Hause.", "blanks": [{ "accept": ["schon"] }, { "accept": ["wohl"] }], "bank": ["schon", "wohl", "halt"], "explain": "schon (tranquiliza) y wohl (suposición)." },
+    { "id": "e10", "type": "word_order", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Ordena: «Tranquilízate, ya verás que saldrá bien»", "tokens": ["das wird schon klappen", "Beruhig dich,"], "answer": ["Beruhig dich,", "das wird schon klappen"], "audio": "Beruhig dich, das wird schon klappen.", "explain": "Beruhig dich (imperativo) + das wird schon klappen." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Ich vermute, er ist zu Hause.", "accept": ["Supongo que está en casa."], "strictAccents": false, "audio": "Ich vermute, er ist zu Hause.", "explain": "vermuten = suponer." },
+    { "id": "e12", "type": "dialogue", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Ich bin so nervös wegen der Prüfung.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Beruhig dich, das wird schon klappen."], "hint": "tranquilízala usando schon" },
+      { "who": "Lea", "text": "Danke, das hilft.", "speak": true }
+    ], "explain": "schon: partícula clave para tranquilizar a alguien." },
+    { "id": "e13", "type": "listening", "tags": ["matizar", "particulas-modales"], "difficulty": 1, "speak": "Das wird schon klappen.", "mode": "write", "accept": ["Das wird schon klappen"], "showTextAfter": true, "explain": "schon: partícula de tranquilidad." },
+    { "id": "e14", "type": "listening", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "speak": "Das ist eben so.", "mode": "choose", "options": ["Das ist eben so.", "Das ist wohl so.", "Das ist schon so."], "answer": 0, "showTextAfter": true, "explain": "eben: aceptar un hecho sin más, distinto de wohl (suposición) o schon (tranquilizar)." },
+    { "id": "e15", "type": "shadowing", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "speak": "Beruhig dich, das wird schon klappen; er ist wohl nur ein bisschen spät dran.", "es": "Tranquilízate, ya verás que saldrá bien; probablemente solo llega un poco tarde.", "ipa": "/bəˈʁuːɪç dɪç das vɪʁt ʃoːn ˈklapn̩ eːɐ̯ ɪst voːl nuːɐ̯ aɪ̯n ˈbɪsçən ʃpɛːt dʁan/", "esApprox": "«be-RÚ-ich dich, das virt shon KLÁ-pen; er ist vol nur ain BIS-chen shpet dran»", "focus": "schon (tranquilizar) y wohl (suposición): dos partículas en la misma frase de consuelo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "speak": "Das ist halt so im Leben; man kann eben nicht alles kontrollieren.", "es": "Así son las cosas en la vida; sencillamente no se puede controlar todo.", "ipa": "/das ɪst halt zoː ɪm ˈleːbn̩ man kan ˈeːbn̩ nɪçt ˈaləs kɔntʁoˈliːʁən/", "esApprox": "«das ist jalt zo im LÉ-ben; man kan É-ben nicht Á-les kon-tro-LÍ-ren»", "focus": "halt y eben: dos partículas coloquiales casi intercambiables para aceptar un hecho.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Un amigo está nervioso por un examen. Tranquilízalo diciendo que saldrá bien.", "modelAnswer": "Das wird schon klappen.", "alsoValid": ["Beruhig dich, das wird schon klappen."], "speak": "Das wird schon klappen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Clasifica cada frase según su partícula y matiz", "buckets": ["Tranquilizar/suponer", "Aceptar un hecho"], "items": [
+      { "text": "Das wird schon klappen.", "bucket": 0 },
+      { "text": "Er ist wohl zu Hause.", "bucket": 0 },
+      { "text": "Das ist halt so.", "bucket": 1 },
+      { "text": "Das ist eben so.", "bucket": 1 }
+    ], "explain": "schon/wohl tranquilizan o suponen; halt/eben aceptan un hecho tal cual." },
+    { "id": "e19", "type": "error_correction", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "Hay un error de posición. Corrige la frase entera.", "wrong": "Schon das wird klappen.", "accept": ["Das wird schon klappen"], "audio": "Das wird schon klappen.", "explain": "Las partículas modales van después del verbo conjugado, no al principio de la frase." },
+    { "id": "e20", "type": "mcq", "tags": ["matizar", "particulas-modales"], "difficulty": 2, "prompt": "«Beruhig dich, das wird schon klappen; er ist wohl nur ein bisschen spät dran. Das ist halt so im Leben.» ¿Qué tono tiene esta frase?", "options": ["Alarmante", "Tranquilizador y resignado", "Enfadado", "Indiferente"], "answer": 1, "explain": "El uso combinado de schon, wohl y halt crea un tono tranquilizador y de aceptación resignada." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "schon", "es": "(partícula: tranquiliza)", "esApprox": "«shon»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "wohl", "es": "(partícula: suposición)", "esApprox": "«vol»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "halt", "es": "(partícula: acepta un hecho, coloquial)", "esApprox": "«jalt»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "eben", "es": "(partícula: acepta un hecho, similar a halt)", "esApprox": "«É-ben»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "klappen", "es": "salir bien, funcionar", "esApprox": "«KLÁ-pen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "vermuten", "es": "suponer", "esApprox": "«fer-MÚ-ten»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Beruhig dich, das wird schon klappen; er ist wohl nur ein bisschen spät dran.", "es": "Tranquilízate, ya verás que saldrá bien; probablemente solo llega un poco tarde.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Das ist halt so im Leben; man kann eben nicht alles kontrollieren.", "es": "Así son las cosas en la vida; sencillamente no se puede controlar todo.", "from": "e16" }
+  ]
+}

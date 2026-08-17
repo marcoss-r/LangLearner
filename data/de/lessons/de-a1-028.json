@@ -1,0 +1,361 @@
+{
+  "id": "de-a1-028",
+  "lang": "de",
+  "level": "A1",
+  "order": 28,
+  "title": "Verbos con cambio de vocal: fahren, sprechen, sehen, lesen",
+  "objectives": [
+    "Reconocer que algunos verbos cambian la vocal de la raíz solo en las formas de du y er/sie/es",
+    "Aplicar los tres patrones de cambio: a→ä (fahren), e→i (sprechen), e→ie (sehen, lesen)",
+    "Confirmar que ich, wir, ihr y sie/Sie NO cambian: el cambio afecta solo a du y er/sie/es"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un grupo de verbos que cambia de vocal, pero solo en dos personas",
+      "body": "Algunos de los verbos más frecuentes del alemán cambian la vocal de la raíz, pero únicamente en las formas de du y er/sie/es. El resto de personas (ich, wir, ihr, sie/Sie) sigue el patrón regular que ya conoces de la clase 11. Hay tres patrones de cambio: a→ä (fahren), e→i (sprechen) y e→ie (sehen, lesen).",
+      "examples": [
+        { "target": "ich fahre → du fährst", "es": "yo conduzco/voy → tú conduces/vas", "note": "a → ä" },
+        { "target": "ich spreche → du sprichst", "es": "yo hablo → tú hablas", "note": "e → i" },
+        { "target": "ich sehe → du siehst", "es": "yo veo → tú ves", "note": "e → ie" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cuatro verbos con cambio de vocal",
+      "headers": ["Verbo", "ich", "du", "er / sie / es"],
+      "rows": [
+        ["fahren (conducir, ir en vehículo)", "fahre", "fährst", "fährt"],
+        ["sprechen (hablar)", "spreche", "sprichst", "spricht"],
+        ["sehen (ver)", "sehe", "siehst", "sieht"],
+        ["lesen (leer)", "lese", "liest", "liest"]
+      ],
+      "note": "wir, ihr y sie/Sie no cambian nunca la vocal: wir fahren, ihr sprecht, sie sehen, todos regulares."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: el cambio solo afecta a du y a er/sie/es",
+      "items": [
+        { "wrong": "wir fährt (aplicando el cambio de vocal a wir)", "right": "wir fahren", "why": "El cambio de vocal es exclusivo de du y er/sie/es. wir, ihr y sie/Sie siguen exactamente el patrón regular con la vocal sin cambiar." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No hay una regla que prediga qué verbos cambian de vocal: hay que aprenderlos junto a su conjugación de du, como si fuera parte del vocabulario. Estos cuatro (fahren, sprechen, sehen, lesen) son de los más frecuentes, así que merece la pena memorizarlos bien desde ya."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "fahren",
+      "es": "conducir, ir (en vehículo)",
+      "ipa": "/ˈfaːʁən/",
+      "esApprox": "«FÁ-ren»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich fahre Fahrrad.", "es": "Voy en bicicleta." }
+    },
+    {
+      "id": "v2",
+      "target": "sprechen",
+      "es": "hablar",
+      "ipa": "/ˈʃpʁɛçən/",
+      "esApprox": "«SHPRE-chen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Du sprichst Deutsch.", "es": "Tú hablas alemán." }
+    },
+    {
+      "id": "v3",
+      "target": "sehen",
+      "es": "ver",
+      "ipa": "/ˈzeːən/",
+      "esApprox": "«ZÉ-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Er sieht den Film.", "es": "Él ve la película." }
+    },
+    {
+      "id": "v4",
+      "target": "lesen",
+      "es": "leer",
+      "ipa": "/ˈleːzən/",
+      "esApprox": "«LÉ-zen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Sie liest die Zeitung.", "es": "Ella lee el periódico." }
+    },
+    {
+      "id": "v5",
+      "target": "der Bus",
+      "es": "el autobús",
+      "ipa": "/bʊs/",
+      "esApprox": "«bus»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Busse",
+      "example": { "target": "Der Bus ist modern.", "es": "El autobús es moderno." }
+    },
+    {
+      "id": "v6",
+      "target": "die Zeitung",
+      "es": "el periódico",
+      "ipa": "/ˈtsaɪ̯tʊŋ/",
+      "esApprox": "«TSAI-tung»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Zeitungen",
+      "example": { "target": "Er liest die Zeitung.", "es": "Él lee el periódico." }
+    },
+    {
+      "id": "v7",
+      "target": "der Film",
+      "es": "la película",
+      "ipa": "/fɪlm/",
+      "esApprox": "«film»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Filme",
+      "example": { "target": "Ich sehe den Film.", "es": "Veo la película." }
+    },
+    {
+      "id": "v8",
+      "target": "das Fahrrad",
+      "es": "la bicicleta",
+      "ipa": "/ˈfaːʁaːt/",
+      "esApprox": "«FÁ-rat»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Fahrräder",
+      "example": { "target": "Ich fahre Fahrrad.", "es": "Voy en bicicleta." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "¿Qué cambio de vocal sufre «fahren» en la forma de «du»?",
+      "options": ["e → i", "a → ä", "e → ie", "no cambia"],
+      "answer": 1,
+      "explain": "fahren: ich fahre → du fährst, con a → ä."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma correcta de «du» para «sehen»?",
+      "options": ["du sehst", "du siehst", "du seht", "du sehen"],
+      "answer": 1,
+      "explain": "sehen: ich sehe → du siehst, con e → ie."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["cambio-vocal"],
+      "difficulty": 1,
+      "statement": "Los verbos con cambio de vocal cambian también en «wir» y «ihr».",
+      "answer": false,
+      "explain": "El cambio afecta solo a du y er/sie/es; wir, ihr y sie/Sie son regulares."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["cambio-vocal"],
+      "difficulty": 1,
+      "statement": "Lesen y sehen comparten el mismo patrón de cambio: e → ie.",
+      "answer": true,
+      "explain": "du liest, du siehst: ambos con e → ie."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas de «du» NO tiene cambio de vocal?",
+      "options": ["du fährst", "du sprichst", "du siehst", "du kommst"],
+      "answer": 3,
+      "explain": "kommen es un verbo regular: du kommst, sin ningún cambio de vocal."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su forma de «du»",
+      "left": ["fahren", "sprechen", "sehen", "lesen"],
+      "right": ["fährst", "sprichst", "siehst", "liest"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Los cuatro patrones de cambio de vocal de esta clase."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "Tú hablas alemán.",
+      "accept": ["Du sprichst Deutsch"],
+      "hintWords": ["du sprichst"],
+      "strictAccents": false,
+      "audio": "Du sprichst Deutsch.",
+      "explain": "sprechen: du sprichst, con e → i."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "Él ve la película.",
+      "accept": ["Er sieht den Film"],
+      "hintWords": ["er sieht", "den Film"],
+      "strictAccents": false,
+      "audio": "Er sieht den Film.",
+      "explain": "sehen: er sieht, con e → ie; Film es masculino: den Film en acusativo."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta del verbo",
+      "text": "Du ___ Fahrrad. Er ___ die Zeitung.",
+      "blanks": [{ "accept": ["fährst"] }, { "accept": ["liest"] }],
+      "bank": ["fährst", "liest", "fährt"],
+      "explain": "du → fährst (a → ä); er → liest (e → ie)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Ella lee el periódico»",
+      "tokens": ["Zeitung", "liest", "Sie", "die"],
+      "answer": ["Sie", "liest", "die", "Zeitung"],
+      "audio": "Sie liest die Zeitung.",
+      "explain": "Sie + liest (e → ie) + die Zeitung."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["cambio-vocal"],
+      "difficulty": 1,
+      "prompt": "Du fährst Fahrrad.",
+      "accept": ["Tú vas en bicicleta.", "Vas en bicicleta."],
+      "strictAccents": false,
+      "audio": "Du fährst Fahrrad.",
+      "explain": "fahren Fahrrad es una expresión fija para «ir en bici»."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Sprichst du Deutsch?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich spreche Deutsch."], "hint": "responde que sí, que hablas alemán" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "sprichst (du, con cambio) frente a spreche (ich, sin cambio)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "speak": "Er spricht Deutsch.",
+      "mode": "write",
+      "accept": ["Er spricht Deutsch"],
+      "showTextAfter": true,
+      "explain": "Er spricht Deutsch = él habla alemán."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "speak": "Du siehst den Film.",
+      "mode": "choose",
+      "options": ["Du siehst den Film.", "Du siehst die Zeitung.", "Du liest den Film."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "sehen y lesen no se pueden intercambiar: cada uno tiene su propio significado."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "speak": "Ich fahre Fahrrad. Du fährst Auto.",
+      "es": "Yo voy en bici. Tú vas en coche.",
+      "ipa": "/ɪç ˈfaːʁə ˈfaːʁaːt duː fɛːɐ̯st ˈaʊ̯to/",
+      "esApprox": "«ich FÁ-re FÁ-rat, du fest AU-to»",
+      "focus": "fahre (ich) suena con a clara; fährst (du) cambia a una ä más abierta, casi como una e.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "speak": "Er spricht Deutsch, und sie liest die Zeitung.",
+      "es": "Él habla alemán, y ella lee el periódico.",
+      "ipa": "/eːɐ̯ ʃpʁɪçt dɔɪ̯tʃ ʊnt ziː liːst diː ˈtsaɪ̯tʊŋ/",
+      "esApprox": "«er shpricht doich unt zi list di TSAI-tung»",
+      "focus": "spricht (e→i, vocal corta) frente a liest (e→ie, vocal larga): dos patrones distintos en la misma frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si ves la película. Responde que sí, que la ves.",
+      "modelAnswer": "Ja, ich sehe den Film.",
+      "alsoValid": ["Ich sehe den Film."],
+      "speak": "Ja, ich sehe den Film.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada forma según su patrón de cambio de vocal",
+      "buckets": ["a → ä", "e → i", "e → ie"],
+      "items": [
+        { "text": "fährst", "bucket": 0 },
+        { "text": "sprichst", "bucket": 1 },
+        { "text": "siehst", "bucket": 2 },
+        { "text": "liest", "bucket": 2 },
+        { "text": "fährt", "bucket": 0 }
+      ],
+      "explain": "Tres patrones distintos, repartidos entre los cuatro verbos de esta clase."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["cambio-vocal"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Du sehst den Film.",
+      "accept": ["Du siehst den Film"],
+      "audio": "Du siehst den Film.",
+      "explain": "sehen cambia e → ie en la forma de du: siehst, no sehst."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "fahren", "es": "conducir, ir (en vehículo)", "esApprox": "«FÁ-ren»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "sprechen", "es": "hablar", "esApprox": "«SHPRE-chen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "sehen", "es": "ver", "esApprox": "«ZÉ-en»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "lesen", "es": "leer", "esApprox": "«LÉ-zen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Bus", "es": "el autobús", "esApprox": "«bus»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Zeitung", "es": "el periódico", "esApprox": "«TSAI-tung»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "der Film", "es": "la película", "esApprox": "«film»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "das Fahrrad", "es": "la bicicleta", "esApprox": "«FÁ-rat»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich fahre Fahrrad. Du fährst Auto.", "es": "Yo voy en bici. Tú vas en coche.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Er spricht Deutsch, und sie liest die Zeitung.", "es": "Él habla alemán, y ella lee el periódico.", "from": "e16" }
+  ]
+}

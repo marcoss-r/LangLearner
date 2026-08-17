@@ -1,0 +1,265 @@
+{
+  "id": "fr-a1-072",
+  "lang": "fr",
+  "level": "A1",
+  "order": 72,
+  "title": "Jouer à, jouer de y faire de",
+  "objectives": [
+    "Usar jouer à + sport o juego (con las contracciones au/à la/à l'/aux)",
+    "Usar jouer de + instrumento musical (con el partitivo du/de la/de l')",
+    "Distinguir jouer à/de de faire de, ya usado en la clase 71"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Jouer, un verbo -er regular",
+      "body": "Jouer sigue el patrón regular de los verbos -er (clase 33): je joue, tu joues, il joue, nous jouons, vous jouez, ils jouent. Se combina con à (deportes, juegos) o de (instrumentos musicales).",
+      "examples": [
+        { "target": "Je joue au football et je joue de la guitare.", "es": "Juego al fútbol y toco la guitarra.", "note": "jouer à + deporte, jouer de + instrumento" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Jouer à + deportes y juegos",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["jouer au + m. sing.", "jouer au football, au tennis"],
+        ["jouer à la + f. sing.", "jouer à la pétanque"],
+        ["jouer à l' + vocal", "jouer à l'ordinateur"],
+        ["jouer aux + plural", "jouer aux cartes"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Jouer de + instrumentos musicales",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["jouer du + m. sing.", "jouer du piano, du violon"],
+        ["jouer de la + f. sing.", "jouer de la guitare"],
+        ["jouer de l' + vocal", "jouer de l'accordéon"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Jouer à/de frente a faire de",
+      "items": [
+        { "wrong": "Usar faire de para todo, incluidos deportes con jouer", "right": "Je joue au football. / Je fais de la danse.", "why": "Con deportes de equipo o juegos concretos, se prefiere jouer à. Con actividades que no se «juegan» (danza, yoga, ciclismo...), se usa faire de, como ya viste en la clase 71: faire du vélo, faire de la natation." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "jouer", "es": "jugar, tocar (un instrumento)", "ipa": "/ʒwe/", "esApprox": "«YUÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je joue au tennis.", "es": "Juego al tenis." } },
+    { "id": "v2", "target": "jouer aux cartes", "es": "jugar a las cartas", "ipa": "/ʒwe o kaʁt/", "esApprox": "«YUÉ o KART»", "pos": "expresión", "gender": null, "example": { "target": "Nous jouons aux cartes le soir.", "es": "Jugamos a las cartas por la noche." } },
+    { "id": "v3", "target": "le piano", "es": "el piano", "ipa": "/lə pja.no/", "esApprox": "«le PIA-nó»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je joue du piano.", "es": "Toco el piano." } },
+    { "id": "v4", "target": "la guitare", "es": "la guitarra", "ipa": "/la ɡi.taʁ/", "esApprox": "«la gi-TAR»", "pos": "sustantivo", "gender": "f", "example": { "target": "Elle joue de la guitare.", "es": "Ella toca la guitarra." } },
+    { "id": "v5", "target": "le violon", "es": "el violín", "ipa": "/lə vjɔ.lɔ̃/", "esApprox": "«le vio-LÓN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il joue du violon.", "es": "Él toca el violín." } },
+    { "id": "v6", "target": "un instrument de musique", "es": "un instrumento musical", "ipa": "/œ̃.n‿ɛ̃s.tʁy.mɑ̃ də my.zik/", "esApprox": "«un-nens-trü-MAN de mü-ZIK»", "pos": "sustantivo", "gender": "m", "example": { "target": "Tu joues d'un instrument de musique ?", "es": "¿Tocas algún instrumento musical?" } },
+    { "id": "v7", "target": "la danse", "es": "la danza, el baile", "ipa": "/la dɑ̃s/", "esApprox": "«la DANS»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je fais de la danse le mardi.", "es": "Hago danza los martes." } },
+    { "id": "v8", "target": "la pétanque", "es": "la petanca", "ipa": "/la pe.tɑ̃k/", "esApprox": "«la pe-TANK»", "pos": "sustantivo", "gender": "f", "example": { "target": "En France, on joue souvent à la pétanque.", "es": "En Francia, se juega a menudo a la petanca." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «juego al fútbol»?",
+      "options": ["Je joue le football.", "Je joue au football.", "Je joue de football.", "Je fais au football."],
+      "answer": 1,
+      "explain": "Jouer à + le se contrae en au: jouer au football."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «toco la guitarra»?",
+      "options": ["Je joue à la guitare.", "Je joue de la guitare.", "Je joue guitare.", "Je fais la guitare."],
+      "answer": 1,
+      "explain": "Con instrumentos musicales se usa jouer de: jouer de la guitare."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "statement": "Jouer es un verbo -er regular, como aimer o détester.",
+      "answer": true,
+      "explain": "Jouer sigue el patrón de la clase 33: je joue, tu joues, il joue..."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["jouer", "faire-de"],
+      "difficulty": 2,
+      "statement": "Con actividades como la danse, se prefiere faire de en vez de jouer à.",
+      "answer": true,
+      "explain": "Faire de la danse, no jouer à la danse."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "prompt": "Une cada estructura con su forma correcta",
+      "left": ["piano (m.)", "guitare (f.)", "cartes (pl.)", "football (m.)"],
+      "right": ["jouer au football", "jouer aux cartes", "jouer du piano", "jouer de la guitare"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Jouer du piano, jouer de la guitare, jouer aux cartes, jouer au football."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "prompt": "Juego al tenis y toco el piano.",
+      "accept": ["Je joue au tennis et je joue du piano"],
+      "hintWords": ["je joue au tennis", "je joue du piano"],
+      "strictAccents": false,
+      "audio": "Je joue au tennis et je joue du piano.",
+      "explain": "Jouer au + deporte, jouer du + instrumento."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["jouer", "faire-de"],
+      "difficulty": 2,
+      "prompt": "Toco la guitarra, pero hago danza, no juego a las cartas.",
+      "accept": ["Je joue de la guitare, mais je fais de la danse, je ne joue pas aux cartes"],
+      "hintWords": ["je joue de la guitare", "je fais de la danse", "je ne joue pas aux cartes"],
+      "strictAccents": false,
+      "audio": "Je joue de la guitare, mais je fais de la danse, je ne joue pas aux cartes.",
+      "explain": "Jouer de (instrumento), faire de (danza), jouer à (cartas), con la negación (clase 19)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de jouer",
+      "text": "Nous ___ aux cartes, et vous, vous ___ du violon ?",
+      "blanks": [{ "accept": ["jouons"] }, { "accept": ["jouez"] }],
+      "bank": ["jouons", "jouez", "joue"],
+      "explain": "Nous jouons, vous jouez: verbo -er regular."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Tocas algún instrumento musical?»",
+      "tokens": ["d'un instrument de musique", "Tu joues", "?"],
+      "answer": ["Tu joues", "d'un instrument de musique", "?"],
+      "audio": "Tu joues d'un instrument de musique ?",
+      "explain": "Tu joues + de + un instrument (jouer de + instrumento indefinido)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "prompt": "Elle joue du violon et il joue au football.",
+      "accept": ["Ella toca el violín y él juega al fútbol."],
+      "strictAccents": false,
+      "audio": "Elle joue du violon et il joue au football.",
+      "explain": "Jouer de (instrumento) frente a jouer à (deporte)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre música y deporte",
+      "turns": [
+        { "who": "Léa", "text": "Tu joues d'un instrument de musique ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je joue du piano.", "Non, mais je joue au tennis."], "hint": "responde con jouer de o jouer à" },
+        { "who": "Léa", "text": "Cool !", "speak": true }
+      ],
+      "explain": "Tu joues...? se responde con jouer de/à."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "speak": "Je joue de la guitare et du piano, et je joue aussi au tennis.",
+      "mode": "write",
+      "accept": ["Je joue de la guitare et du piano, et je joue aussi au tennis"],
+      "showTextAfter": true,
+      "explain": "Dos instrumentos y un deporte con jouer."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["jouer"],
+      "difficulty": 1,
+      "speak": "jouer aux cartes",
+      "mode": "choose",
+      "options": ["jouer au football", "jouer aux cartes", "jouer du piano", "jouer de la guitare"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Jouer aux cartes = jugar a las cartas."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["jouer", "faire-de"],
+      "difficulty": 3,
+      "speak": "Je joue au football le samedi, je joue du piano le dimanche, et je fais de la danse le mardi.",
+      "es": "Juego al fútbol los sábados, toco el piano los domingos, y hago danza los martes.",
+      "ipa": "/ʒə ʒu o fut.bɔl lə sam.di ʒə ʒu dy pja.no lə di.mɑ̃ʃ e ʒə fɛ də la dɑ̃s lə maʁ.di/",
+      "esApprox": "«ye YU o fut-BÓL le sam-DÍ ye YU dü PIA-nó le di-MANSH e ye fe de la DANS le mar-DÍ»",
+      "focus": "Tres estructuras diferentes en la misma frase: jouer à, jouer de, faire de.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "prompt": "Di a qué juegas y qué instrumento tocas, si tocas alguno.",
+      "modelAnswer": "Je joue au tennis et je joue de la guitare.",
+      "alsoValid": ["Je ne joue pas d'instrument, mais je joue au football."],
+      "speak": "Je joue au tennis et je joue de la guitare.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["jouer", "faire-de"],
+      "difficulty": 2,
+      "prompt": "¿Se usa jouer à, jouer de o faire de?",
+      "buckets": ["jouer à", "jouer de", "faire de"],
+      "items": [
+        { "text": "football", "bucket": 0 },
+        { "text": "piano", "bucket": 1 },
+        { "text": "danse", "bucket": 2 },
+        { "text": "cartes", "bucket": 0 },
+        { "text": "guitare", "bucket": 1 },
+        { "text": "natation", "bucket": 2 }
+      ],
+      "explain": "Jouer à (deportes/juegos), jouer de (instrumentos), faire de (otras actividades)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "prompt": "Hay un error de preposición. Corrige la frase entera.",
+      "wrong": "Je joue à la guitare.",
+      "accept": ["Je joue de la guitare"],
+      "audio": "Je joue de la guitare.",
+      "explain": "Con instrumentos musicales se usa jouer de, no jouer à."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "jouer", "es": "jugar, tocar (un instrumento)", "esApprox": "«YUÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le piano", "es": "el piano", "esApprox": "«le PIA-nó»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "la guitare", "es": "la guitarra", "esApprox": "«la gi-TAR»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "le violon", "es": "el violín", "esApprox": "«le vio-LÓN»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "la danse", "es": "la danza, el baile", "esApprox": "«la DANS»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "Je joue au tennis et je joue du piano.", "es": "Juego al tenis y toco el piano.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Tu joues d'un instrument de musique ?", "es": "¿Tocas algún instrumento musical?", "from": "e9" },
+    { "id": "s8", "kind": "phrase", "target": "Je joue de la guitare, mais je fais de la danse, je ne joue pas aux cartes.", "es": "Toco la guitarra, pero hago danza, no juego a las cartas.", "from": "e7" }
+  ]
+}

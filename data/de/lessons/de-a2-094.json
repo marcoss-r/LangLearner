@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-094",
+  "lang": "de",
+  "level": "A2",
+  "order": 94,
+  "title": "El Perfekt de los verbos fuertes que aún fallan",
+  "objectives": [
+    "Aprender el participio de verbos fuertes frecuentes aún no vistos: helfen, finden, beginnen, verlieren, tragen",
+    "Reconocer bekommen como un caso especial: participio idéntico al infinitivo, sin ge-",
+    "Reforzar la elección de haben como auxiliar en todos estos verbos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Más participios irregulares con haben",
+      "body": "Ya conoces el patrón general del Perfekt (clases 65-68): participios en ge-...-en con cambio de vocal. Esta clase amplía tu lista con verbos muy frecuentes que aún no habías usado en pasado: helfen→geholfen, finden→gefunden, beginnen→begonnen, verlieren→verloren, tragen→getragen. Todos usan haben como auxiliar, porque no son verbos de movimiento ni de cambio de estado.",
+      "examples": [
+        { "target": "Ich habe dir geholfen.", "es": "Te he ayudado." },
+        { "target": "Ich habe meinen Schlüssel verloren.", "es": "He perdido mi llave." },
+        { "target": "Der Film hat um acht begonnen.", "es": "La película empezó a las ocho." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "bekommen: el caso especial",
+      "headers": ["Infinitivo", "Participio", "Nota"],
+      "rows": [
+        ["bekommen", "bekommen", "idéntico al infinitivo: be- (inseparable) + kommen ya termina en -en"]
+      ],
+      "note": "bekommen no añade ge- (por el prefijo inseparable be-, clase 68) y su terminación ya es -en, así que el participio es idéntico al infinitivo."
+    },
+    {
+      "type": "tip",
+      "body": "bekommen significa «recibir», no «convertirse en» (ese es werden). Es un error muy común para hispanohablantes por parecido con «become» en inglés: «Ich bekomme ein Geschenk» = Recibo un regalo, no «me convierto en un regalo»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "geholfen", "es": "ayudado (participio de helfen)", "ipa": "/ɡəˈhɔlfn̩/", "esApprox": "«ge-JÓL-fen»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe dir geholfen.", "es": "Te he ayudado." } },
+    { "id": "v2", "target": "gefunden", "es": "encontrado (participio de finden)", "ipa": "/ɡəˈfʊndn̩/", "esApprox": "«ge-FÚN-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe den Schlüssel gefunden.", "es": "He encontrado la llave." } },
+    { "id": "v3", "target": "begonnen", "es": "empezado (participio de beginnen)", "ipa": "/bəˈɡɔnən/", "esApprox": "«be-GÓ-nen»", "pos": "verbo", "gender": null, "example": { "target": "Der Film hat begonnen.", "es": "La película ha empezado." } },
+    { "id": "v4", "target": "verloren", "es": "perdido (participio de verlieren)", "ipa": "/fɛɐ̯ˈloːʁən/", "esApprox": "«fer-LÓ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe meinen Schlüssel verloren.", "es": "He perdido mi llave." } },
+    { "id": "v5", "target": "getragen", "es": "llevado, cargado (participio de tragen)", "ipa": "/ɡəˈtʁaːɡn̩/", "esApprox": "«ge-TRÁ-guen»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe die Tasche getragen.", "es": "He llevado la bolsa." } },
+    { "id": "v6", "target": "bekommen", "es": "recibido (participio de bekommen)", "ipa": "/bəˈkɔmən/", "esApprox": "«be-KÓ-men»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe ein Geschenk bekommen.", "es": "He recibido un regalo." } },
+    { "id": "v7", "target": "das Geschenk", "es": "el regalo", "ipa": "/ɡəˈʃɛŋk/", "esApprox": "«ge-SHENK»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das ist ein schönes Geschenk.", "es": "Ese es un bonito regalo." } },
+    { "id": "v8", "target": "der Schlüssel", "es": "la llave", "ipa": "/ˈʃlʏsl̩/", "esApprox": "«SHLÜ-sel»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe meinen Schlüssel verloren.", "es": "He perdido mi llave." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["irregulares"], "difficulty": 1, "prompt": "¿Cuál es el participio de «helfen»?", "options": ["gehilft", "geholfen", "gehalfen", "helft"], "answer": 1, "explain": "helfen → geholfen, con cambio de vocal." },
+    { "id": "e2", "type": "mcq", "tags": ["irregulares"], "difficulty": 2, "prompt": "¿Cuál es el participio de «bekommen»?", "options": ["gebekommen", "bekommen", "bekommt", "bekamen"], "answer": 1, "explain": "bekommen es idéntico al infinitivo: sin ge-, por el prefijo inseparable be-." },
+    { "id": "e3", "type": "true_false", "tags": ["irregulares"], "difficulty": 2, "statement": "«bekommen» significa «convertirse en».", "answer": false, "explain": "bekommen = recibir; convertirse en es werden." },
+    { "id": "e4", "type": "true_false", "tags": ["perfekt"], "difficulty": 2, "statement": "Todos los verbos de esta clase usan haben como auxiliar.", "answer": true, "explain": "Ninguno es de movimiento o cambio de estado, así que todos usan haben." },
+    { "id": "e5", "type": "match_pairs", "tags": ["irregulares"], "difficulty": 2, "prompt": "Une cada infinitivo con su participio", "left": ["helfen", "finden", "beginnen", "verlieren"], "right": ["geholfen", "gefunden", "begonnen", "verloren"], "answer": [0, 1, 2, 3], "explain": "Cuatro participios irregulares frecuentes." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["perfekt"], "difficulty": 2, "prompt": "Te he ayudado.", "accept": ["Ich habe dir geholfen"], "hintWords": ["ich habe dir geholfen"], "strictAccents": false, "audio": "Ich habe dir geholfen.", "explain": "helfen + dativo (dir): habe geholfen." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["perfekt"], "difficulty": 2, "prompt": "He perdido mi llave.", "accept": ["Ich habe meinen Schlüssel verloren"], "hintWords": ["ich habe meinen Schlüssel verloren"], "strictAccents": false, "audio": "Ich habe meinen Schlüssel verloren.", "explain": "verlieren → verloren, participio irregular." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["irregulares"], "difficulty": 2, "prompt": "He recibido un regalo.", "accept": ["Ich habe ein Geschenk bekommen"], "hintWords": ["ich habe ein Geschenk bekommen"], "strictAccents": false, "audio": "Ich habe ein Geschenk bekommen.", "explain": "bekommen: participio idéntico al infinitivo." },
+    { "id": "e9", "type": "fill_blank", "tags": ["perfekt"], "difficulty": 2, "prompt": "Completa con el participio correcto", "text": "Ich habe den Schlüssel ___. (finden) Der Film hat um acht ___. (beginnen)", "blanks": [{ "accept": ["gefunden"] }, { "accept": ["begonnen"] }], "bank": ["gefunden", "begonnen", "gehabt"], "explain": "gefunden (finden); begonnen (beginnen)." },
+    { "id": "e10", "type": "word_order", "tags": ["perfekt"], "difficulty": 2, "prompt": "Ordena: «He llevado la bolsa»", "tokens": ["getragen", "die Tasche", "Ich habe"], "answer": ["Ich habe", "die Tasche", "getragen"], "audio": "Ich habe die Tasche getragen.", "explain": "habe + die Tasche + getragen (participio al final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["perfekt"], "difficulty": 2, "prompt": "Der Film hat um acht begonnen.", "accept": ["La película empezó a las ocho."], "strictAccents": false, "audio": "Der Film hat um acht begonnen.", "explain": "hat begonnen: Perfekt de beginnen." },
+    { "id": "e12", "type": "dialogue", "tags": ["perfekt"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Nina", "text": "Hast du deinen Schlüssel gefunden?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nein, ich habe ihn verloren.", "Ja, ich habe ihn gefunden."], "hint": "responde sobre tu llave" },
+      { "who": "Nina", "text": "Oh nein, das tut mir leid!", "speak": true }
+    ], "explain": "Práctica de finden y verlieren en Perfekt, en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["perfekt"], "difficulty": 1, "speak": "Ich habe dir geholfen.", "mode": "write", "accept": ["Ich habe dir geholfen"], "showTextAfter": true, "explain": "habe geholfen: Perfekt de helfen (con dativo)." },
+    { "id": "e14", "type": "listening", "tags": ["irregulares"], "difficulty": 2, "speak": "Ich habe ein Geschenk bekommen.", "mode": "choose", "options": ["Ich habe ein Geschenk bekommen.", "Ich habe ein Geschenk gebekommen.", "Ich bin ein Geschenk bekommen."], "answer": 0, "showTextAfter": true, "explain": "bekommen no lleva ge- y usa haben, no sein." },
+    { "id": "e15", "type": "shadowing", "tags": ["irregulares"], "difficulty": 2, "speak": "Ich habe meinen Schlüssel verloren, aber ein Freund hat ihn gefunden.", "es": "He perdido mi llave, pero un amigo la ha encontrado.", "ipa": "/ɪç ˈhaːbə ˈmaɪ̯nən ˈʃlʏsl̩ fɛɐ̯ˈloːʁən ˈaːbɐ aɪ̯n fʁɔɪ̯nt hat iːn ɡəˈfʊndn̩/", "esApprox": "«ich JÁ-be MÁI-nen SHLÜ-sel fer-LÓ-ren, Á-ber ain froint jat in ge-FÚN-den»", "focus": "verloren y gefunden: dos participios irregulares de uso muy frecuente, en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["perfekt"], "difficulty": 2, "speak": "Der Film hat um acht begonnen, und ich habe dir schon geholfen, einen Platz zu finden.", "es": "La película empezó a las ocho, y ya te he ayudado a encontrar un sitio.", "ipa": "/deːɐ̯ fɪlm hat ʊm axt bəˈɡɔnən ʊnt ɪç ˈhaːbə diːɐ̯ ʃoːn ɡəˈhɔlfn̩ ˈaɪ̯nən plats tsuː ˈfɪndn̩/", "esApprox": "«der film jat um acht be-GÓ-nen, unt ich JÁ-be dir shon ge-JÓL-fen, ÁI-nen plats tsu FÍN-den»", "focus": "begonnen y geholfen: dos participios más de esta clase, con zu + infinitivo tras helfen.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["perfekt"], "difficulty": 2, "prompt": "Te preguntan si encontraste tu llave. Di que no, que la perdiste.", "modelAnswer": "Nein, ich habe sie verloren.", "alsoValid": ["Ich habe meinen Schlüssel verloren."], "speak": "Nein, ich habe sie verloren.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["irregulares"], "difficulty": 2, "prompt": "Clasifica cada participio: con ge- o sin ge-", "buckets": ["Con ge-", "Sin ge- (bekommen)"], "items": [
+      { "text": "geholfen", "bucket": 0 },
+      { "text": "bekommen", "bucket": 1 },
+      { "text": "gefunden", "bucket": 0 },
+      { "text": "begonnen", "bucket": 0 },
+      { "text": "verloren", "bucket": 0 }
+    ], "explain": "Todos llevan ge- (o begonnen/verloren, con prefijo be-/ver- pero de otro tipo), excepto bekommen, idéntico al infinitivo." },
+    { "id": "e19", "type": "error_correction", "tags": ["irregulares"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe ein Geschenk gebekommen.", "accept": ["Ich habe ein Geschenk bekommen"], "audio": "Ich habe ein Geschenk bekommen.", "explain": "bekommen no lleva ge-: su participio es idéntico al infinitivo." },
+    { "id": "e20", "type": "mcq", "tags": ["irregulares"], "difficulty": 2, "prompt": "«Ich habe meinen Schlüssel verloren, aber ein Freund hat ihn gefunden und ihn mir gegeben. Ich habe ihm sehr geholfen, als er umgezogen ist.» ¿Quién encontró la llave?", "options": ["Yo mismo", "Un amigo", "Nadie la encontró", "La vecina"], "answer": 1, "explain": "«ein Freund hat ihn gefunden» = un amigo la encontró." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "geholfen", "es": "ayudado (participio de helfen)", "esApprox": "«ge-JÓL-fen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "gefunden", "es": "encontrado (participio de finden)", "esApprox": "«ge-FÚN-den»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "begonnen", "es": "empezado (participio de beginnen)", "esApprox": "«be-GÓ-nen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "verloren", "es": "perdido (participio de verlieren)", "esApprox": "«fer-LÓ-ren»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "bekommen", "es": "recibido (participio de bekommen)", "esApprox": "«be-KÓ-men»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Schlüssel", "es": "la llave", "esApprox": "«SHLÜ-sel»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe meinen Schlüssel verloren, aber ein Freund hat ihn gefunden.", "es": "He perdido mi llave, pero un amigo la ha encontrado.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Film hat um acht begonnen, und ich habe dir schon geholfen, einen Platz zu finden.", "es": "La película empezó a las ocho, y ya te he ayudado a encontrar un sitio.", "from": "e16" }
+  ]
+}

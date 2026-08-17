@@ -1,0 +1,262 @@
+{
+  "id": "fr-b1-187",
+  "lang": "fr",
+  "level": "B1",
+  "order": 187,
+  "title": "El condicional pasado: formación",
+  "objectives": [
+    "Formar el conditionnel passé: conditionnel présent de avoir/être + participio pasado",
+    "Reconocer que sigue las mismas reglas de auxiliar y concordancia que el passé composé",
+    "Practicar frases con conditionnel passé para oportunidades perdidas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un pasado que no ocurrió",
+      "body": "El conditionnel passé se forma igual que el passé composé, pero con el auxiliar en conditionnel présent en lugar de en presente. Expresa algo que habría pasado, pero no pasó."
+    },
+    {
+      "type": "table",
+      "title": "Formación con avoir: parler",
+      "headers": ["Persona", "Forma"],
+      "rows": [
+        ["j'", "aurais parlé"],
+        ["tu", "aurais parlé"],
+        ["il / elle", "aurait parlé"],
+        ["nous", "aurions parlé"],
+        ["vous", "auriez parlé"],
+        ["ils / elles", "auraient parlé"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Formación con être: partir y pronominales",
+      "headers": ["Verbo", "Ejemplo"],
+      "rows": [
+        ["partir (être)", "je serais parti(e)"],
+        ["se lever (être pronominal)", "je me serais levé(e)"]
+      ],
+      "note": "El auxiliar (avoir o être) es el mismo que ya usas en passé composé, y el participio concuerda igual con los verbos de être."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "j'aurais parlé", "es": "habría hablado", "ipa": "/ʒo.ʁɛ paʁ.le/", "esApprox": "«sho-RE par-LÉ»", "pos": "verbo", "gender": null },
+    { "id": "v2", "target": "je serais parti(e)", "es": "habría partido, me habría ido", "ipa": "/ʒə sə.ʁɛ paʁ.ti/", "esApprox": "«ye se-RE par-TÍ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "tu aurais fini", "es": "habrías terminado", "ipa": "/ty o.ʁɛ fi.ni/", "esApprox": "«tü o-RE fi-NÍ»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "nous aurions voulu", "es": "habríamos querido", "ipa": "/nu.z‿o.ʁjɔ̃ vu.ly/", "esApprox": "«nu-zo-RIÓN vu-LÜ»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "je me serais levé(e)", "es": "me habría levantado", "ipa": "/ʒə mə sə.ʁɛ lə.ve/", "esApprox": "«ye me se-RE le-VÉ»", "pos": "verbo", "gender": null },
+    { "id": "v6", "target": "ils auraient pu", "es": "habrían podido", "ipa": "/il.z‿o.ʁɛ py/", "esApprox": "«il-zo-RE PÜ»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "elle serait allée", "es": "habría ido", "ipa": "/ɛl sə.ʁɛ a.le/", "esApprox": "«el se-RE a-LÉ»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "j'aurais aimé", "es": "me habría gustado", "ipa": "/ʒo.ʁɛ.z‿ɛ.me/", "esApprox": "«sho-RE-ze-MÉ»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se forma el conditionnel passé?",
+      "options": ["conditionnel présent de avoir/être + participio pasado", "imparfait + participio pasado", "futur + participio pasado", "subjonctif + participio pasado"],
+      "answer": 0,
+      "explain": "El conditionnel passé usa el auxiliar en conditionnel présent."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el conditionnel passé de parler para je?",
+      "options": ["j'ai parlé", "je parlais", "j'aurais parlé", "je parlerais"],
+      "answer": 2,
+      "explain": "J'aurais parlé: conditionnel présent de avoir (aurais) + participio (parlé)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "statement": "El conditionnel passé de partir usa être como auxiliar, igual que en passé composé.",
+      "answer": true,
+      "explain": "Partir siempre usa être, en passé composé y en conditionnel passé."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "statement": "Los verbos pronominales en conditionnel passé usan avoir.",
+      "answer": false,
+      "explain": "Los pronominales siempre usan être: je me serais levé(e)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "Une cada forma con su auxiliar",
+      "left": ["j'aurais parlé", "je serais parti(e)", "je me serais levé(e)", "ils auraient pu"],
+      "right": ["avoir + participio", "être pronominal + participio", "avoir + participio (modal)", "être + participio"],
+      "answer": [2, 3, 1, 0],
+      "explain": "J'aurais parlé = avoir, je serais parti = être, je me serais levé = être pronominal, ils auraient pu = avoir."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "Habría hablado contigo, pero no tuve tiempo.",
+      "accept": ["J'aurais parlé avec toi, mais je n'ai pas eu le temps"],
+      "hintWords": ["j'aurais parlé avec toi", "mais je n'ai pas eu le temps"],
+      "strictAccents": true,
+      "audio": "J'aurais parlé avec toi, mais je n'ai pas eu le temps.",
+      "explain": "Conditionnel passé con avoir (j'aurais parlé)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "Habrías terminado a tiempo, pero llegaste tarde.",
+      "accept": ["Tu aurais fini à temps, mais tu es arrivé en retard"],
+      "hintWords": ["tu aurais fini à temps", "mais tu es arrivé en retard"],
+      "strictAccents": true,
+      "audio": "Tu aurais fini à temps, mais tu es arrivé en retard.",
+      "explain": "Conditionnel passé con avoir (tu aurais fini) frente a passé composé (tu es arrivé)."
+    },
+    {
+      "id": "e8",
+      "type": "conjugation",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "verb": "parler",
+      "tense": "conditionnel passé",
+      "prompt": "Conjuga «parler» en conditionnel passé",
+      "rows": [
+        { "person": "j'", "accept": ["aurais parlé"] },
+        { "person": "tu", "accept": ["aurais parlé"] },
+        { "person": "il / elle", "accept": ["aurait parlé"] },
+        { "person": "nous", "accept": ["aurions parlé"] },
+        { "person": "vous", "accept": ["auriez parlé"] },
+        { "person": "ils / elles", "accept": ["auraient parlé"] }
+      ],
+      "explain": "Conditionnel présent de avoir + participio pasado invariable (parler es un verbo de avoir)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Habría querido venir»",
+      "tokens": ["venir", "J'aurais voulu"],
+      "answer": ["J'aurais voulu", "venir"],
+      "audio": "J'aurais voulu venir.",
+      "explain": "Conditionnel passé de vouloir + infinitivo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "Elle serait allée à la fête, mais elle était malade.",
+      "accept": ["Habría ido a la fiesta, pero estaba enferma."],
+      "strictAccents": false,
+      "audio": "Elle serait allée à la fête, mais elle était malade.",
+      "explain": "Conditionnel passé con être (elle serait allée)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre algo que no hiciste",
+      "turns": [
+        { "who": "Léa", "text": "Tu es venu à la fête ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, mais j'aurais aimé venir.", "J'aurais voulu venir, mais j'étais malade."], "hint": "usa el conditionnel passé" },
+        { "who": "Léa", "text": "Dommage, tu as manqué une belle soirée.", "speak": true }
+      ],
+      "explain": "Repaso combinado del conditionnel passé."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "speak": "J'aurais parlé avec toi, mais je n'ai pas eu le temps. Elle aurait aimé venir aussi.",
+      "mode": "write",
+      "accept": ["J'aurais parlé avec toi, mais je n'ai pas eu le temps. Elle aurait aimé venir aussi"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del conditionnel passé con avoir."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["condicional-pasado"],
+      "difficulty": 1,
+      "speak": "je serais parti",
+      "mode": "choose",
+      "options": ["je suis parti", "je serais parti", "je partirais", "j'étais parti"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Je serais parti es el conditionnel passé de partir."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["condicional-pasado"],
+      "difficulty": 3,
+      "speak": "J'aurais parlé avec toi, tu aurais fini à temps, et elle serait allée à la fête, mais nous n'avons pas eu le temps.",
+      "es": "Habría hablado contigo, habrías terminado a tiempo, y ella habría ido a la fiesta, pero no tuvimos tiempo.",
+      "ipa": "/ʒo.ʁɛ paʁ.le a.vɛk twa ty o.ʁɛ fi.ni a tɑ̃ e ɛl sə.ʁɛ.t‿a.le a la fɛt mɛ nu.z‿a.vɔ̃ pa.z‿y lə tɑ̃/",
+      "esApprox": "«sho-RE par-LÉ a-VEK tuá tü o-RE fi-NÍ a TAN e el se-RE-ta-LÉ a la FET me nu-za-VON pa-zü le TAN»",
+      "focus": "Tres conditionnels passés encadenados: dos con avoir y uno con être.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "Di algo que habrías hecho de otra manera, usando el conditionnel passé.",
+      "modelAnswer": "J'aurais aimé venir, mais je n'ai pas eu le temps.",
+      "alsoValid": ["Je serais parti plus tôt si j'avais pu."],
+      "speak": "J'aurais aimé venir, mais je n'ai pas eu le temps.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "¿Usa avoir o être como auxiliar?",
+      "buckets": ["avoir", "être"],
+      "items": [
+        { "text": "j'aurais parlé", "bucket": 0 },
+        { "text": "je serais parti", "bucket": 1 },
+        { "text": "tu aurais fini", "bucket": 0 },
+        { "text": "elle serait allée", "bucket": 1 }
+      ],
+      "explain": "J'aurais parlé y tu aurais fini usan avoir; je serais parti y elle serait allée usan être."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["condicional-pasado"],
+      "difficulty": 2,
+      "prompt": "Hay un error: partir usa être, no avoir. Corrige la frase entera.",
+      "wrong": "J'aurais parti hier.",
+      "accept": ["Je serais parti hier", "Je serais partie hier"],
+      "audio": "Je serais parti hier.",
+      "explain": "Partir usa être en el conditionnel passé, igual que en passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "j'aurais parlé", "es": "habría hablado", "esApprox": "«sho-RE par-LÉ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je serais parti(e)", "es": "habría partido, me habría ido", "esApprox": "«ye se-RE par-TÍ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "tu aurais fini", "es": "habrías terminado", "esApprox": "«tü o-RE fi-NÍ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "je me serais levé(e)", "es": "me habría levantado", "esApprox": "«ye me se-RE le-VÉ»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "ils auraient pu", "es": "habrían podido", "esApprox": "«il-zo-RE PÜ»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "j'aurais aimé", "es": "me habría gustado", "esApprox": "«sho-RE-ze-MÉ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "J'aurais parlé avec toi, mais je n'ai pas eu le temps.", "es": "Habría hablado contigo, pero no tuve tiempo.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Tu aurais fini à temps, mais tu es arrivé en retard.", "es": "Habrías terminado a tiempo, pero llegaste tarde.", "from": "e7" }
+  ]
+}

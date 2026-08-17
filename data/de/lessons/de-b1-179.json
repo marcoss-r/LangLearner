@@ -1,0 +1,87 @@
+{
+  "id": "de-b1-179",
+  "lang": "de",
+  "level": "B1",
+  "order": 179,
+  "title": "Condicionales irreales: wenn ich Zeit hätte, würde ich...",
+  "objectives": [
+    "Repasar y ampliar la condicional irreal del presente (wenn + Konjunktiv II, würde/wäre/hätte...)",
+    "Formar la condicional irreal del pasado, combinando wenn + hätte/wäre + participio con hätte/wäre + participio en la principal",
+    "Distinguir cuándo una condicional irreal se refiere al presente y cuándo al pasado"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "De la condicional del presente a la del pasado",
+      "body": "Ya conoces la condicional irreal del presente (clase 161): «Wenn ich Zeit hätte, würde ich reisen» (Si tuviera tiempo, viajaría), sobre algo que no es verdad ahora. La condicional irreal del pasado usa el Konjunktiv II del pasado en ambas partes: «Wenn ich Zeit gehabt hätte, wäre ich gereist» (Si hubiera tenido tiempo, habría viajado), sobre algo que ya no se puede cambiar.",
+      "examples": [
+        { "target": "Wenn ich Zeit hätte, würde ich reisen.", "es": "Si tuviera tiempo, viajaría." },
+        { "target": "Wenn ich Zeit gehabt hätte, wäre ich gereist.", "es": "Si hubiera tenido tiempo, habría viajado." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Condicional irreal: presente vs. pasado",
+      "headers": ["Tiempo", "wenn-frase", "Frase principal"],
+      "rows": [
+        ["Presente (algo que no es así ahora)", "wenn ich Zeit hätte", "würde ich reisen"],
+        ["Pasado (algo que ya no se puede cambiar)", "wenn ich Zeit gehabt hätte", "wäre ich gereist"],
+        ["Pasado con sein", "wenn ich hier gewesen wäre", "hätte ich dich gesehen"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En la condicional del pasado, ambas partes casi siempre usan hätte/wäre + participio; würde + infinitivo no se usa para el pasado, porque el pasado hipotético no tiene esa forma (repaso de la clase 178)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "wenn ich Zeit hätte", "es": "si tuviera tiempo", "ipa": "/vɛn ɪç tsaɪ̯t ˈhɛtə/", "esApprox": "«ven ich tsait JÉ-te»", "pos": "locución condicional", "gender": null, "example": { "target": "Wenn ich Zeit hätte, würde ich reisen.", "es": "Si tuviera tiempo, viajaría." } },
+    { "id": "v2", "target": "gereist", "es": "viajado", "ipa": "/ɡəˈʁaɪ̯st/", "esApprox": "«ge-RÁIST»", "pos": "verbo (participio de reisen)", "gender": null, "example": { "target": "Ich wäre gereist.", "es": "Habría viajado." } },
+    { "id": "v3", "target": "die Möglichkeit", "es": "la posibilidad", "ipa": "/ˈmøːklɪçkaɪ̯t/", "esApprox": "«MÖ-glich-kait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Es hätte eine Möglichkeit gegeben.", "es": "Habría habido una posibilidad." } },
+    { "id": "v4", "target": "anders verlaufen", "es": "transcurrir de otra manera", "ipa": "/ˈandɐs fɛɐ̯ˈlaʊ̯fn̩/", "esApprox": "«ÁN-ders fer-LÁU-fen»", "pos": "locución verbal", "gender": null, "example": { "target": "Alles wäre anders verlaufen.", "es": "Todo habría transcurrido de otra manera." } },
+    { "id": "v5", "target": "vielleicht", "es": "quizás", "ipa": "/fiˈlaɪ̯çt/", "esApprox": "«fi-LÁICHT»", "pos": "adverbio", "gender": null, "example": { "target": "Vielleicht wäre alles anders gewesen.", "es": "Quizás todo habría sido diferente." } },
+    { "id": "v6", "target": "die Entscheidung", "es": "la decisión", "ipa": "/ɛntˈʃaɪ̯dʊŋ/", "esApprox": "«ent-SHÁI-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das wäre eine andere Entscheidung gewesen.", "es": "Esa habría sido una decisión diferente." } },
+    { "id": "v7", "target": "sich ändern", "es": "cambiar (uno mismo o algo)", "ipa": "/zɪç ˈɛndɐn/", "esApprox": "«zich ÉN-dern»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Vieles hätte sich geändert.", "es": "Muchas cosas habrían cambiado." } },
+    { "id": "v8", "target": "sowieso", "es": "de todas formas", "ipa": "/zoviˈzoː/", "esApprox": "«zo-vi-ZÓ»", "pos": "adverbio", "gender": null, "example": { "target": "Ich wäre sowieso gekommen.", "es": "Habría venido de todas formas." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 1, "prompt": "¿Cómo se forma la condicional irreal del pasado en la wenn-frase?", "options": ["wenn + Präteritum", "wenn + hätte/wäre + participio", "wenn + würde + infinitivo", "wenn + Perfekt normal"], "answer": 1, "explain": "wenn + hätte/wäre + participio: la wenn-frase en Konjunktiv II del pasado." },
+    { "id": "e2", "type": "mcq", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "¿Qué diferencia hay entre «Wenn ich Zeit hätte» y «Wenn ich Zeit gehabt hätte»?", "options": ["Ninguna", "La primera es presente, la segunda pasado", "La primera es pasado, la segunda presente", "Ambas son iguales pero formales"], "answer": 1, "explain": "hätte (presente hipotético) frente a gehabt hätte (pasado hipotético)." },
+    { "id": "e3", "type": "true_false", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "statement": "En la condicional irreal del pasado, se puede usar würde + infinitivo en la frase principal.", "answer": false, "explain": "El pasado hipotético siempre usa hätte/wäre + participio, no würde." },
+    { "id": "e4", "type": "true_false", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "statement": "«Wenn ich Zeit gehabt hätte, wäre ich gereist» describe algo que ya no se puede cambiar.", "answer": true, "explain": "La condicional irreal del pasado siempre habla de algo que ya pasó (o no pasó) y no tiene remedio." },
+    { "id": "e5", "type": "match_pairs", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Une cada wenn-frase con su frase principal correcta", "left": ["Wenn ich Zeit hätte,", "Wenn ich Zeit gehabt hätte,", "Wenn ich hier gewesen wäre,", "Wenn ich reich wäre,"], "right": ["würde ich reisen.", "wäre ich gereist.", "hätte ich dich gesehen.", "würde ich ein Haus kaufen."], "answer": [0, 1, 2, 3], "explain": "Presente irreal con würde; pasado irreal con hätte/wäre + participio." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Si hubiera tenido tiempo, habría viajado.", "accept": ["Wenn ich Zeit gehabt hätte, wäre ich gereist"], "hintWords": ["wenn ich Zeit gehabt hätte wäre ich gereist"], "strictAccents": false, "audio": "Wenn ich Zeit gehabt hätte, wäre ich gereist.", "explain": "wenn + gehabt hätte, (coma) + wäre + ich + gereist (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Muchas cosas habrían cambiado.", "accept": ["Vieles hätte sich geändert"], "hintWords": ["vieles hätte sich geändert"], "strictAccents": false, "audio": "Vieles hätte sich geändert.", "explain": "hätte + sich + geändert (participio de un verbo reflexivo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Habría venido de todas formas.", "accept": ["Ich wäre sowieso gekommen"], "hintWords": ["ich wäre sowieso gekommen"], "strictAccents": false, "audio": "Ich wäre sowieso gekommen.", "explain": "wäre + sowieso + gekommen." },
+    { "id": "e9", "type": "fill_blank", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Completa la condicional irreal del pasado", "text": "Wenn ich hier ___ wäre, ___ ich dich gesehen.", "blanks": [{ "accept": ["gewesen"] }, { "accept": ["hätte"] }], "bank": ["gewesen", "hätte", "würde"], "explain": "wenn ich hier gewesen wäre, hätte ich dich gesehen." },
+    { "id": "e10", "type": "word_order", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Ordena: «Todo habría transcurrido de otra manera»", "tokens": ["anders verlaufen", "Alles wäre"], "answer": ["Alles wäre", "anders verlaufen"], "audio": "Alles wäre anders verlaufen.", "explain": "Alles (sujeto) + wäre (posición 2) + anders + verlaufen (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Das wäre eine andere Entscheidung gewesen.", "accept": ["Esa habría sido una decisión diferente."], "strictAccents": false, "audio": "Das wäre eine andere Entscheidung gewesen.", "explain": "wäre...gewesen: Konjunktiv II del pasado de sein." },
+    { "id": "e12", "type": "dialogue", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Warum bist du nicht gereist?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Wenn ich Zeit gehabt hätte, wäre ich gereist."], "hint": "usa la condicional irreal del pasado" },
+      { "who": "Lea", "text": "Nächstes Mal vielleicht!", "speak": true }
+    ], "explain": "Condicional irreal del pasado para explicar algo que ya no se puede cambiar." },
+    { "id": "e13", "type": "listening", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 1, "speak": "Wenn ich Zeit gehabt hätte, wäre ich gereist.", "mode": "write", "accept": ["Wenn ich Zeit gehabt hätte, wäre ich gereist"], "showTextAfter": true, "explain": "Condicional irreal completa del pasado." },
+    { "id": "e14", "type": "listening", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "speak": "Ich wäre sowieso gekommen.", "mode": "choose", "options": ["Ich wäre sowieso gekommen.", "Ich würde sowieso gekommen.", "Ich hätte sowieso gekommen."], "answer": 0, "showTextAfter": true, "explain": "kommen usa sein: wäre gekommen, no hätte ni würde." },
+    { "id": "e15", "type": "shadowing", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "speak": "Wenn ich Zeit gehabt hätte, wäre ich gereist, und vielleicht wäre alles anders verlaufen.", "es": "Si hubiera tenido tiempo, habría viajado, y quizás todo habría transcurrido de otra manera.", "ipa": "/vɛn ɪç tsaɪ̯t ɡəˈhaːpt ˈhɛtə ˈvɛːʁə ɪç ɡəˈʁaɪ̯st ʊnt fiˈlaɪ̯çt ˈvɛːʁə ˈaləs ˈandɐs fɛɐ̯ˈlaʊ̯fn̩/", "esApprox": "«ven ich tsait ge-JAPT JÉ-te, VÉ-re ich ge-RÁIST, unt fi-LÁICHT VÉ-re Á-les ÁN-ders fer-LÁU-fen»", "focus": "gehabt hätte, wäre gereist y wäre verlaufen: tres construcciones del Konjunktiv II del pasado.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "speak": "Wenn ich hier gewesen wäre, hätte ich dich gesehen, aber ich wäre sowieso zu spät gekommen.", "es": "Si hubiera estado aquí, te habría visto, pero de todas formas habría llegado tarde.", "ipa": "/vɛn ɪç hiːɐ̯ ɡəˈveːzn̩ ˈvɛːʁə ˈhɛtə ɪç dɪç ɡəˈzeːən ˈaːbɐ ɪç ˈvɛːʁə zoviˈzoː tsuː ʃpɛːt ɡəˈkɔmən/", "esApprox": "«ven ich jir ge-VÉ-zen VÉ-re, JÉ-te ich dich ge-ZÉ-en, Á-ber ich VÉ-re zo-vi-ZÓ tsu shpet ge-KÓ-men»", "focus": "gewesen wäre y hätte gesehen: los dos verbos de la condicional irreal del pasado combinados.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Te preguntan por qué no viajaste. Explica que si hubieras tenido tiempo, habrías viajado.", "modelAnswer": "Wenn ich Zeit gehabt hätte, wäre ich gereist.", "alsoValid": ["Ich wäre gereist, wenn ich Zeit gehabt hätte."], "speak": "Wenn ich Zeit gehabt hätte, wäre ich gereist.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Clasifica: condicional irreal del presente o del pasado", "buckets": ["Presente (hätte + würde)", "Pasado (gehabt hätte + wäre/hätte + participio)"], "items": [
+      { "text": "Wenn ich Zeit hätte, würde ich reisen.", "bucket": 0 },
+      { "text": "Wenn ich Zeit gehabt hätte, wäre ich gereist.", "bucket": 1 },
+      { "text": "Wenn ich hier gewesen wäre, hätte ich dich gesehen.", "bucket": 1 }
+    ], "explain": "El presente usa hätte + würde; el pasado usa siempre hätte/wäre + participio en ambas partes." },
+    { "id": "e19", "type": "error_correction", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wenn ich Zeit gehabt hätte, würde ich gereist.", "accept": ["Wenn ich Zeit gehabt hätte, wäre ich gereist"], "audio": "Wenn ich Zeit gehabt hätte, wäre ich gereist.", "explain": "En el pasado hipotético no se usa würde: reisen usa sein, así que es wäre gereist." },
+    { "id": "e20", "type": "mcq", "tags": ["konjunktiv-ii", "wenn"], "difficulty": 2, "prompt": "«Wenn ich Zeit gehabt hätte, wäre ich gereist. Vielleicht wäre alles anders verlaufen, aber ich wäre sowieso irgendwann zurückgekommen.» ¿Qué expresa esta frase?", "options": ["Un plan futuro seguro", "Un lamento sobre algo que ya no se puede cambiar", "Una orden", "Una pregunta"], "answer": 1, "explain": "El uso del Konjunktiv II del pasado (gehabt hätte, wäre gereist) expresa un hecho hipotético sobre el pasado, ya irremediable." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "wenn ich Zeit hätte", "es": "si tuviera tiempo", "esApprox": "«ven ich tsait JÉ-te»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "gereist", "es": "viajado", "esApprox": "«ge-RÁIST»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Möglichkeit", "es": "la posibilidad", "esApprox": "«MÖ-glich-kait»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "anders verlaufen", "es": "transcurrir de otra manera", "esApprox": "«ÁN-ders fer-LÁU-fen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "vielleicht", "es": "quizás", "esApprox": "«fi-LÁICHT»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "sowieso", "es": "de todas formas", "esApprox": "«zo-vi-ZÓ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Wenn ich Zeit gehabt hätte, wäre ich gereist, und vielleicht wäre alles anders verlaufen.", "es": "Si hubiera tenido tiempo, habría viajado, y quizás todo habría transcurrido de otra manera.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wenn ich hier gewesen wäre, hätte ich dich gesehen, aber ich wäre sowieso zu spät gekommen.", "es": "Si hubiera estado aquí, te habría visto, pero de todas formas habría llegado tarde.", "from": "e16" }
+  ]
+}

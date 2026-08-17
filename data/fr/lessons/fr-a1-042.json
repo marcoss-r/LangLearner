@@ -1,0 +1,270 @@
+{
+  "id": "fr-a1-042",
+  "lang": "fr",
+  "level": "A1",
+  "order": 42,
+  "title": "Los verbos en -ir tipo finir",
+  "objectives": [
+    "Conjugar finir (terminar) como modelo de los verbos regulares en -ir",
+    "Reconocer el patrón con el infijo -iss- en las formas de plural: nous finissons, ils finissent",
+    "Usar verbos -ir frecuentes: choisir, réussir, grandir, remplir"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El segundo grupo de verbos regulares",
+      "body": "Después de los verbos -er (clase 33), el segundo grupo más regular del francés son los verbos -ir tipo finir. Se reconocen porque en plural meten un trozo extra: **-iss-**, entre la raíz y la terminación.",
+      "examples": [
+        { "target": "finir → je finis, nous finissons", "es": "terminar → termino, terminamos", "note": "-iss- solo aparece en el plural" },
+        { "target": "je choisis le bleu.", "es": "Elijo el azul.", "note": "choisir, mismo patrón" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Finir en presente",
+      "headers": ["Persona", "Forma", "Aproximación"],
+      "rows": [
+        ["je", "finis", "«fi-NÍ»"],
+        ["tu", "finis", "«fi-NÍ»"],
+        ["il / elle / on", "finit", "«fi-NÍ»"],
+        ["nous", "finissons", "«fi-ni-SÓN»"],
+        ["vous", "finissez", "«fi-ni-SÉ»"],
+        ["ils / elles", "finissent", "«fi-NIS»"]
+      ],
+      "note": "Je, tu e il suenan igual, «fi-NÍ»; el plural añade -iss- y sí se distingue con claridad."
+    },
+    {
+      "type": "contrast",
+      "title": "No confundas -ir tipo finir con otros -ir",
+      "items": [
+        { "wrong": "Aplicar el patrón -iss- a todos los verbos acabados en -ir", "right": "solo los -ir «regulares» (finir, choisir, réussir, grandir, remplir...) llevan -iss-", "why": "Hay otro grupo de verbos en -ir muy distinto e irregular (como venir, que ya viste, o partir, dormir...) que no sigue este patrón. Los aprenderás por separado; de momento, fíjate en que finir, choisir y réussir sí comparten este patrón regular." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Réussir se usa mucho para exámenes: réussir un examen (aprobar un examen). También existe réussir à + infinitivo: je réussis à comprendre (consigo entender)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "finir", "es": "terminar, acabar", "ipa": "/fi.niʁ/", "esApprox": "«fi-NIR»", "pos": "verbo", "gender": null, "example": { "target": "Je finis à cinq heures.", "es": "Termino a las cinco." } },
+    { "id": "v2", "target": "choisir", "es": "elegir", "ipa": "/ʃwa.ziʁ/", "esApprox": "«shuá-ZIR»", "pos": "verbo", "gender": null, "example": { "target": "Je choisis le bleu.", "es": "Elijo el azul." } },
+    { "id": "v3", "target": "réussir", "es": "conseguir, lograr; aprobar", "ipa": "/ʁe.y.siʁ/", "esApprox": "«re-ü-SIR»", "pos": "verbo", "gender": null, "example": { "target": "Tu réussis toujours.", "es": "Siempre lo consigues." } },
+    { "id": "v4", "target": "grandir", "es": "crecer", "ipa": "/ɡʁɑ̃.diʁ/", "esApprox": "«gran-DIR»", "pos": "verbo", "gender": null, "example": { "target": "Les enfants grandissent vite.", "es": "Los niños crecen rápido." } },
+    { "id": "v5", "target": "remplir", "es": "rellenar, llenar", "ipa": "/ʁɑ̃.pliʁ/", "esApprox": "«ran-PLIR»", "pos": "verbo", "gender": null, "example": { "target": "Nous remplissons le formulaire.", "es": "Rellenamos el formulario." } },
+    { "id": "v6", "target": "réfléchir", "es": "reflexionar, pensarlo", "ipa": "/ʁe.fle.ʃiʁ/", "esApprox": "«re-fle-SHIR»", "pos": "verbo", "gender": null, "example": { "target": "Je réfléchis avant de répondre.", "es": "Lo pienso antes de responder." } },
+    { "id": "v7", "target": "obéir", "es": "obedecer", "ipa": "/ɔ.be.iʁ/", "esApprox": "«o-be-ÍR»", "pos": "verbo", "gender": null, "example": { "target": "Le chien obéit bien.", "es": "El perro obedece bien." } },
+    { "id": "v8", "target": "bâtir", "es": "construir", "ipa": "/bɑ.tiʁ/", "esApprox": "«ba-TIR»", "pos": "verbo", "gender": null, "example": { "target": "Ils bâtissent une maison.", "es": "Construyen una casa." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma de finir para «nous»?",
+      "options": ["finis", "finit", "finissons", "finissent"],
+      "answer": 2,
+      "explain": "Nous finissons, con el infijo -iss-."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "statement": "Je, tu e il de finir suenan todos igual.",
+      "answer": true,
+      "explain": "Los tres suenan «fi-NÍ»: la misma trampa que ya viste con los verbos -er."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "statement": "Todos los verbos acabados en -ir siguen el patrón de finir.",
+      "answer": false,
+      "explain": "Solo un grupo (finir, choisir, réussir...) lleva -iss-; otros -ir son distintos e irregulares."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas lleva el infijo -iss-, a diferencia de las demás?",
+      "options": ["finis", "finit", "finissez", "finis"],
+      "answer": 2,
+      "explain": "Finissez (vous) lleva -iss-; las formas de singular no."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["verbos-ir"],
+      "difficulty": 1,
+      "prompt": "Une cada verbo con su significado",
+      "left": ["choisir", "réussir", "grandir", "remplir"],
+      "right": ["rellenar", "elegir", "conseguir", "crecer"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Choisir = elegir, réussir = conseguir, grandir = crecer, remplir = rellenar."
+    },
+    {
+      "id": "e6",
+      "type": "conjugation",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "verb": "choisir",
+      "tense": "présent",
+      "prompt": "Conjuga «choisir» en presente",
+      "rows": [
+        { "person": "je", "accept": ["choisis"] },
+        { "person": "tu", "accept": ["choisis"] },
+        { "person": "il / elle", "accept": ["choisit"] },
+        { "person": "nous", "accept": ["choisissons"] },
+        { "person": "vous", "accept": ["choisissez"] },
+        { "person": "ils / elles", "accept": ["choisissent"] }
+      ],
+      "explain": "Choisir sigue exactamente el patrón de finir."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "prompt": "Termino a las cinco y elijo el libro azul.",
+      "accept": ["Je finis à cinq heures et je choisis le livre bleu"],
+      "hintWords": ["je finis", "je choisis"],
+      "strictAccents": false,
+      "audio": "Je finis à cinq heures et je choisis le livre bleu.",
+      "explain": "Finis y choisis, dos verbos -ir en singular."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de finir",
+      "text": "Nous ___ à midi, mais vous ___ à une heure.",
+      "blanks": [{ "accept": ["finissons"] }, { "accept": ["finissez"] }],
+      "bank": ["finissons", "finissez", "finit"],
+      "explain": "Nous finissons, vous finissez: las dos formas con -iss-."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Los niños crecen rápido»",
+      "tokens": ["grandissent", "Les enfants", "vite"],
+      "answer": ["Les enfants", "grandissent", "vite"],
+      "audio": "Les enfants grandissent vite.",
+      "explain": "Les enfants (plural) + grandissent (con -iss-)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["verbos-ir"],
+      "difficulty": 1,
+      "prompt": "Nous remplissons le formulaire ensemble.",
+      "accept": ["Rellenamos el formulario juntos."],
+      "strictAccents": false,
+      "audio": "Nous remplissons le formulaire ensemble.",
+      "explain": "Remplir, otro verbo -ir tipo finir."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre elegir un color",
+      "turns": [
+        { "who": "Léa", "text": "Tu choisis quelle couleur ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je choisis le bleu.", "Je choisis le rouge."], "hint": "elige un color con je choisis" },
+        { "who": "Léa", "text": "Bon choix !", "speak": true }
+      ],
+      "explain": "Tu choisis / je choisis: mismo verbo, distinto sujeto."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "speak": "Ils finissent le travail et ils choisissent un restaurant.",
+      "mode": "write",
+      "accept": ["Ils finissent le travail et ils choisissent un restaurant"],
+      "showTextAfter": true,
+      "explain": "Finissent y choisissent, ambos en ils/elles."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "speak": "nous finissons",
+      "mode": "choose",
+      "options": ["nous finissons", "vous finissez", "ils finissent", "je finis"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Nous finissons se distingue bien al oído."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["verbos-ir"],
+      "difficulty": 3,
+      "speak": "Je choisis, tu choisis, il choisit, nous choisissons, vous choisissez, ils choisissent.",
+      "es": "Elijo, eliges, elige, elegimos, elegís, eligen.",
+      "ipa": "/ʒə ʃwa.zi ty ʃwa.zi il ʃwa.zi nu ʃwa.zi.sɔ̃ vu ʃwa.zi.se il ʃwa.zis/",
+      "esApprox": "«ye shuá-ZÍ tü shuá-ZÍ il shuá-ZÍ nu shuá-zi-SÓN vu shuá-zi-SÉ il shuá-ZIS»",
+      "focus": "Las seis personas seguidas: compara el singular (sin -iss-) con el plural (con -iss-).",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "prompt": "Di a qué hora terminas de trabajar y qué color eliges para tu habitación.",
+      "modelAnswer": "Je finis à six heures et je choisis le vert.",
+      "alsoValid": ["Je finis à cinq heures et je choisis le blanc."],
+      "speak": "Je finis à six heures et je choisis le vert.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "prompt": "¿Esta forma lleva el infijo -iss- o no?",
+      "buckets": ["Con -iss-", "Sin -iss-"],
+      "items": [
+        { "text": "finis", "bucket": 1 },
+        { "text": "finissons", "bucket": 0 },
+        { "text": "choisit", "bucket": 1 },
+        { "text": "choisissez", "bucket": 0 },
+        { "text": "réussis", "bucket": 1 },
+        { "text": "réussissent", "bucket": 0 }
+      ],
+      "explain": "El infijo -iss- solo aparece en nous, vous, ils/elles."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "prompt": "Hay un error de conjugación. Corrige la frase entera.",
+      "wrong": "Nous finit à midi.",
+      "accept": ["Nous finissons à midi"],
+      "audio": "Nous finissons à midi.",
+      "explain": "Con nous, la forma es finissons, con -iss-, no finit (que es de il/elle)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "finir", "es": "terminar, acabar", "esApprox": "«fi-NIR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "choisir", "es": "elegir", "esApprox": "«shuá-ZIR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "réussir", "es": "conseguir, aprobar", "esApprox": "«re-ü-SIR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "grandir", "es": "crecer", "esApprox": "«gran-DIR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "remplir", "es": "rellenar", "esApprox": "«ran-PLIR»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je finis à cinq heures et je choisis le livre bleu.", "es": "Termino a las cinco y elijo el libro azul.", "from": "e7" },
+    { "id": "s7", "kind": "phrase", "target": "Les enfants grandissent vite.", "es": "Los niños crecen rápido.", "from": "e9" },
+    { "id": "s8", "kind": "phrase", "target": "Nous remplissons le formulaire ensemble.", "es": "Rellenamos el formulario juntos.", "from": "e10" },
+    { "id": "s9", "kind": "phrase", "target": "Je choisis, tu choisis, il choisit, nous choisissons, vous choisissez, ils choisissent.", "es": "Elijo, eliges, elige, elegimos, elegís, eligen.", "from": "e14" }
+  ]
+}

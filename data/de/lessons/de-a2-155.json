@@ -1,0 +1,92 @@
+{
+  "id": "de-a2-155",
+  "lang": "de",
+  "level": "A2",
+  "order": 155,
+  "title": "El Präteritum: el pasado de los cuentos y las noticias",
+  "objectives": [
+    "Entender cuándo se usa el Präteritum en vez del Perfekt: narración escrita, cuentos y noticias",
+    "Formar el Präteritum de los verbos regulares (débiles): raíz + -te + terminación",
+    "Reconocer que en el habla, sein/haben/modales prefieren Präteritum (clase 69), pero el resto prefiere Perfekt"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un registro distinto: el pasado que se escribe, no se habla",
+      "body": "Ya conoces el Perfekt como el pasado normal del alemán hablado (clase 65) y el Präteritum de sein/haben/modales, que se usan en Präteritum incluso al hablar (clase 69). El resto de verbos también tiene Präteritum, pero se usa sobre todo por ESCRITO: en periódicos, noticias, cuentos y literatura. «Es war einmal ein König» (Érase una vez un rey) es el típico comienzo de cuento en Präteritum.",
+      "examples": [
+        { "target": "Es war einmal ein König, der in einem großen Schloss lebte.", "es": "Érase una vez un rey que vivía en un castillo grande." },
+        { "target": "Der Präsident besuchte gestern Berlin.", "es": "El presidente visitó Berlín ayer." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El Präteritum regular: raíz + -te + terminación",
+      "headers": ["Persona", "machen (Präteritum)"],
+      "rows": [
+        ["ich", "machte"],
+        ["du", "machtest"],
+        ["er / sie / es", "machte"],
+        ["wir", "machten"],
+        ["ihr", "machtet"],
+        ["sie / Sie", "machten"]
+      ],
+      "note": "ich y er/sie/es comparten la misma forma, sin terminación extra, igual que en el Perfekt con haben/sein."
+    },
+    {
+      "type": "tip",
+      "body": "Como lector, reconocer el Präteritum es más importante que producirlo activamente en el A2: lo verás constantemente en periódicos, cuentos y libros, aunque en una conversación normal sigas usando el Perfekt para la mayoría de los verbos."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "es war einmal", "es": "érase una vez", "ipa": "/ɛs vaːɐ̯ ˈaɪ̯nmaːl/", "esApprox": "«es var ÁIN-mal»", "pos": "expresión", "gender": null, "example": { "target": "Es war einmal ein König.", "es": "Érase una vez un rey." } },
+    { "id": "v2", "target": "der König", "es": "el rey", "ipa": "/ˈkøːnɪç/", "esApprox": "«KÖ-nich»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der König lebte in einem Schloss.", "es": "El rey vivía en un castillo." } },
+    { "id": "v3", "target": "das Schloss", "es": "el castillo", "ipa": "/ʃlɔs/", "esApprox": "«shlos»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Schloss war sehr groß.", "es": "El castillo era muy grande." } },
+    { "id": "v4", "target": "die Zeitung", "es": "el periódico", "ipa": "/ˈtsaɪ̯tʊŋ/", "esApprox": "«TSÁI-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Zeitung berichtete darüber.", "es": "El periódico informó de eso." } },
+    { "id": "v5", "target": "berichten", "es": "informar, reportar", "ipa": "/bəˈʁɪçtn̩/", "esApprox": "«be-RÍCH-ten»", "pos": "verbo", "gender": null, "example": { "target": "Die Zeitung berichtete darüber.", "es": "El periódico informó de eso." } },
+    { "id": "v6", "target": "der Präsident", "es": "el presidente", "ipa": "/pʁɛziˈdɛnt/", "esApprox": "«pre-zi-DENT»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Präsident besuchte Berlin.", "es": "El presidente visitó Berlín." } },
+    { "id": "v7", "target": "leben", "es": "vivir", "ipa": "/ˈleːbn̩/", "esApprox": "«LÉ-ben»", "pos": "verbo", "gender": null, "example": { "target": "Er lebte in einem Schloss.", "es": "Él vivía en un castillo." } },
+    { "id": "v8", "target": "die Erzählung", "es": "el relato, el cuento", "ipa": "/ɛɐ̯ˈtsɛːlʊŋ/", "esApprox": "«er-TSÉ-lung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine schöne Erzählung.", "es": "Ese es un relato bonito." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["prateritum"], "difficulty": 1, "prompt": "¿Dónde se usa sobre todo el Präteritum de los verbos regulares?", "options": ["En el habla cotidiana", "Por escrito: noticias, cuentos", "Solo en preguntas", "Nunca se usa"], "answer": 1, "explain": "El Präteritum es el registro escrito habitual para narrar el pasado." },
+    { "id": "e2", "type": "mcq", "tags": ["prateritum"], "difficulty": 2, "prompt": "¿Cómo se forma el Präteritum regular?", "options": ["raíz + -t", "raíz + -te + terminación", "ge- + raíz + -t", "haben + participio"], "answer": 1, "explain": "machte, machtest, machte...: raíz + -te + terminación." },
+    { "id": "e3", "type": "true_false", "tags": ["prateritum"], "difficulty": 2, "statement": "ich y er/sie/es comparten la misma forma en el Präteritum regular.", "answer": true, "explain": "ich machte, er machte: idénticas, sin terminación extra." },
+    { "id": "e4", "type": "true_false", "tags": ["prateritum"], "difficulty": 2, "statement": "«Es war einmal» es el típico comienzo de un cuento en alemán.", "answer": true, "explain": "Es war einmal = érase una vez." },
+    { "id": "e5", "type": "match_pairs", "tags": ["prateritum"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der König", "das Schloss", "berichten", "die Erzählung"], "right": ["el rey", "el castillo", "informar", "el relato"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario narrativo." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["prateritum"], "difficulty": 2, "prompt": "Érase una vez un rey que vivía en un castillo grande.", "accept": ["Es war einmal ein König, der in einem großen Schloss lebte"], "hintWords": ["es war einmal ein König, der in einem großen Schloss lebte"], "strictAccents": false, "audio": "Es war einmal ein König, der in einem großen Schloss lebte.", "explain": "Es war einmal: fórmula clásica de cuento." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["prateritum"], "difficulty": 2, "prompt": "El presidente visitó Berlín ayer.", "accept": ["Der Präsident besuchte gestern Berlin"], "hintWords": ["der Präsident besuchte gestern Berlin"], "strictAccents": false, "audio": "Der Präsident besuchte gestern Berlin.", "explain": "besuchte: Präteritum regular de besuchen." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["prateritum"], "difficulty": 2, "prompt": "El periódico informó de eso.", "accept": ["Die Zeitung berichtete darüber"], "hintWords": ["die Zeitung berichtete darüber"], "strictAccents": false, "audio": "Die Zeitung berichtete darüber.", "explain": "berichtete: Präteritum regular de berichten." },
+    { "id": "e9", "type": "fill_blank", "tags": ["prateritum"], "difficulty": 2, "prompt": "Completa con la forma correcta del Präteritum", "text": "Er ___ in einem Schloss. (leben) Die Zeitung ___ darüber. (berichten)", "blanks": [{ "accept": ["lebte"] }, { "accept": ["berichtete"] }], "bank": ["lebte", "berichtete", "lebt"], "explain": "lebte (leben); berichtete (berichten)." },
+    { "id": "e10", "type": "word_order", "tags": ["prateritum"], "difficulty": 2, "prompt": "Ordena: «El castillo era muy grande»", "tokens": ["sehr groß", "Das Schloss", "war"], "answer": ["Das Schloss", "war", "sehr groß"], "audio": "Das Schloss war sehr groß.", "explain": "war: Präteritum de sein, repaso de la clase 69." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["prateritum"], "difficulty": 2, "prompt": "Das ist eine schöne Erzählung.", "accept": ["Ese es un relato bonito."], "strictAccents": false, "audio": "Das ist eine schöne Erzählung.", "explain": "die Erzählung = el relato, el cuento." },
+    { "id": "e12", "type": "dialogue", "tags": ["prateritum"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lehrerin", "text": "Wie beginnen deutsche Märchen normalerweise?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Sie beginnen mit «Es war einmal».", "Es war einmal..."], "hint": "responde con la fórmula clásica" },
+      { "who": "Lehrerin", "text": "Genau richtig!", "speak": true }
+    ], "explain": "Práctica de reconocer la fórmula narrativa del Präteritum." },
+    { "id": "e13", "type": "listening", "tags": ["prateritum"], "difficulty": 1, "speak": "Es war einmal ein König.", "mode": "write", "accept": ["Es war einmal ein König"], "showTextAfter": true, "explain": "Fórmula clásica de cuento en Präteritum." },
+    { "id": "e14", "type": "listening", "tags": ["prateritum"], "difficulty": 2, "speak": "Der Präsident besuchte gestern Berlin.", "mode": "choose", "options": ["Der Präsident besuchte gestern Berlin.", "Der Präsident hat gestern Berlin besucht.", "Der Präsident besucht gestern Berlin."], "answer": 0, "showTextAfter": true, "explain": "besuchte (Präteritum) es la forma típica de una noticia escrita, aunque «hat besucht» (Perfekt) también sería posible al hablar." },
+    { "id": "e15", "type": "shadowing", "tags": ["prateritum"], "difficulty": 2, "speak": "Es war einmal ein König, der in einem großen Schloss lebte und viele Abenteuer erlebte.", "es": "Érase una vez un rey que vivía en un castillo grande y vivía muchas aventuras.", "ipa": "/ɛs vaːɐ̯ ˈaɪ̯nmaːl aɪ̯n ˈkøːnɪç deːɐ̯ ɪn ˈaɪ̯nəm ˈɡʁoːsn̩ ʃlɔs ˈleːptə ʊnt ˈfiːlə aˈbɛntɔɪ̯ɐ ɛɐ̯ˈleːptə/", "esApprox": "«es var ÁIN-mal ain KÖ-nich, der in ÁI-nem GRÓ-sen shlos LÉP-te unt FÍ-le a-ben-TÓI-er er-LÉP-te»", "focus": "lebte y erlebte: dos verbos regulares en Präteritum, típicos del estilo de cuento.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["prateritum"], "difficulty": 2, "speak": "Der Präsident besuchte gestern Berlin, und die Zeitung berichtete ausführlich darüber.", "es": "El presidente visitó Berlín ayer, y el periódico informó extensamente sobre ello.", "ipa": "/deːɐ̯ pʁɛziˈdɛnt bəˈzuːxtə ˈɡɛstɐn bɛʁˈliːn ʊnt diː ˈtsaɪ̯tʊŋ bəˈʁɪçtətə ˈaʊ̯sfyːɐ̯lɪç daˈʁyːbɐ/", "esApprox": "«der pre-zi-DENT be-ZÚCH-te GUÉS-tern ber-LÍN, unt di TSÁI-tung be-RÍCH-te-te ÁUS-für-lich da-RÜ-ber»", "focus": "besuchte y berichtete: dos Präteritum regulares, típicos de una noticia de periódico.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["prateritum"], "difficulty": 2, "prompt": "Te piden que empieces un cuento en alemán. Usa la fórmula clásica.", "modelAnswer": "Es war einmal ein König.", "alsoValid": ["Es war einmal..."], "speak": "Es war einmal ein König.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["prateritum"], "difficulty": 2, "prompt": "Clasifica cada contexto: hablado (Perfekt) o escrito (Präteritum)", "buckets": ["Hablado (Perfekt)", "Escrito (Präteritum)"], "items": [
+      { "text": "Contar tu fin de semana a un amigo", "bucket": 0 },
+      { "text": "Un cuento de hadas", "bucket": 1 },
+      { "text": "Una conversación informal", "bucket": 0 },
+      { "text": "Una noticia de periódico", "bucket": 1 }
+    ], "explain": "El habla cotidiana prefiere el Perfekt; la narración escrita prefiere el Präteritum." },
+    { "id": "e19", "type": "error_correction", "tags": ["prateritum"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Er lebt in einem Schloss, als er jung war.", "accept": ["Er lebte in einem Schloss, als er jung war"], "audio": "Er lebte in einem Schloss, als er jung war.", "explain": "Con als (pasado, clase 125) el verbo principal debe ir en pasado también: lebte, no lebt." },
+    { "id": "e20", "type": "mcq", "tags": ["prateritum"], "difficulty": 2, "prompt": "«Es war einmal ein König, der in einem großen Schloss lebte. Eines Tages besuchte ihn der Präsident eines anderen Landes, und die Zeitung berichtete darüber.» ¿Quién visitó al rey?", "options": ["Un periodista", "El presidente de otro país", "Otro rey", "Nadie" ], "answer": 1, "explain": "«besuchte ihn der Präsident eines anderen Landes» = lo visitó el presidente de otro país." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "es war einmal", "es": "érase una vez", "esApprox": "«es var ÁIN-mal»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der König", "es": "el rey", "esApprox": "«KÖ-nich»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Schloss", "es": "el castillo", "esApprox": "«shlos»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "berichten", "es": "informar, reportar", "esApprox": "«be-RÍCH-ten»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "leben", "es": "vivir", "esApprox": "«LÉ-ben»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "die Erzählung", "es": "el relato, el cuento", "esApprox": "«er-TSÉ-lung»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Es war einmal ein König, der in einem großen Schloss lebte und viele Abenteuer erlebte.", "es": "Érase una vez un rey que vivía en un castillo grande y vivía muchas aventuras.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Präsident besuchte gestern Berlin, und die Zeitung berichtete ausführlich darüber.", "es": "El presidente visitó Berlín ayer, y el periódico informó extensamente sobre ello.", "from": "e16" }
+  ]
+}

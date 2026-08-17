@@ -1,0 +1,284 @@
+{
+  "id": "fr-a1-041",
+  "lang": "fr",
+  "level": "A1",
+  "order": 41,
+  "title": "Los verbos pronominales: se lever, se coucher, s'appeler",
+  "objectives": [
+    "Conjugar un verbo pronominal completo (se lever) en las seis personas, con su pronombre reflexivo",
+    "Reconocer que el pronombre reflexivo cambia con cada persona: me, te, se, nous, vous, se",
+    "Formar la negación de un verbo pronominal: je ne me lève pas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un pronombre extra delante del verbo",
+      "body": "Ya usaste je m'appelle, je me lève y je me couche como fórmulas fijas. Ahora ves el sistema completo: los verbos pronominales llevan un **pronombre reflexivo** (me, te, se...) delante del verbo, que concuerda con el sujeto. El pronombre cambia en cada persona, aunque el verbo se conjugue igual que un -er normal.",
+      "examples": [
+        { "target": "je me lève, tu te lèves, il se lève", "es": "me levanto, te levantas, se levanta", "note": "el pronombre cambia con cada persona" },
+        { "target": "nous nous levons, vous vous levez", "es": "nos levantamos, os levantáis", "note": "nous y vous se repiten (pronombre + sujeto)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Se lever completo",
+      "headers": ["Persona", "Pronombre + verbo", "Aproximación"],
+      "rows": [
+        ["je", "me lève", "«me LEV»"],
+        ["tu", "te lèves", "«te LEV»"],
+        ["il / elle / on", "se lève", "«se LEV»"],
+        ["nous", "nous levons", "«nu le-VÓN»"],
+        ["vous", "vous levez", "«vu le-VÉ»"],
+        ["ils / elles", "se lèvent", "«se LEV»"]
+      ],
+      "note": "Lever cambia e→è en las mismas personas que acheter (clase 34): je me lève, pero nous nous levons."
+    },
+    {
+      "type": "contrast",
+      "title": "La negación rodea el pronombre Y el verbo",
+      "items": [
+        { "wrong": "Je ne lève pas.", "right": "Je ne me lève pas.", "why": "Con un verbo pronominal, ne va antes del pronombre reflexivo, no entre el pronombre y el verbo: ne + me + lève + pas, todo junto en ese orden." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Me, te y se se convierten en **m', t', s'** delante de vocal: je m'appelle, tu t'habilles, il s'appelle. Es la misma regla de elisión que ya conoces de le/la → l' y je → j'."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "se lever", "es": "levantarse", "ipa": "/sə lə.ve/", "esApprox": "«se le-VÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je me lève tôt.", "es": "Me levanto temprano." } },
+    { "id": "v2", "target": "se coucher", "es": "acostarse", "ipa": "/sə ku.ʃe/", "esApprox": "«se ku-SHÉ»", "pos": "verbo", "gender": null, "example": { "target": "Tu te couches tard.", "es": "Te acuestas tarde." } },
+    { "id": "v3", "target": "se laver", "es": "lavarse", "ipa": "/sə la.ve/", "esApprox": "«se la-VÉ»", "pos": "verbo", "gender": null, "example": { "target": "Elle se lave le matin.", "es": "Se lava por la mañana." } },
+    { "id": "v4", "target": "s'appeler", "es": "llamarse", "ipa": "/sap.le/", "esApprox": "«sap-LÉ»", "pos": "verbo", "gender": null, "example": { "target": "Il s'appelle Thomas.", "es": "Se llama Thomas." } },
+    { "id": "v5", "target": "se doucher", "es": "ducharse", "ipa": "/sə du.ʃe/", "esApprox": "«se du-SHÉ»", "pos": "verbo", "gender": null, "example": { "target": "Nous nous douchons le soir.", "es": "Nos duchamos por la noche." } },
+    { "id": "v6", "target": "se réveiller", "es": "despertarse", "ipa": "/sə ʁe.vɛ.je/", "esApprox": "«se re-ve-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je me réveille à six heures.", "es": "Me despierto a las seis." } },
+    { "id": "v7", "target": "s'habiller", "es": "vestirse", "ipa": "/sa.bi.je/", "esApprox": "«sa-bi-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Vous vous habillez vite.", "es": "Os vestís rápido." } },
+    { "id": "v8", "target": "se reposer", "es": "descansar", "ipa": "/sə ʁə.po.ze/", "esApprox": "«se re-po-ZÉ»", "pos": "verbo", "gender": null, "example": { "target": "Ils se reposent le dimanche.", "es": "Descansan los domingos." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "¿Qué pronombre acompaña a «nous» en un verbo pronominal?",
+      "options": ["me", "te", "se", "nous"],
+      "answer": 3,
+      "explain": "Nous nous levons: el pronombre nous se repite."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se niega «je me lève»?",
+      "options": ["je ne lève pas", "je ne me lève pas", "je me ne lève pas", "ne je me lève pas"],
+      "answer": 1,
+      "explain": "Ne va antes del pronombre: je ne me lève pas."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronominales"],
+      "difficulty": 1,
+      "statement": "El pronombre reflexivo cambia según la persona del sujeto.",
+      "answer": true,
+      "explain": "Me, te, se, nous, vous, se: uno por cada persona."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas NO es de un verbo pronominal, a diferencia de las demás?",
+      "options": ["je me lève", "tu te couches", "il regarde", "elle s'appelle"],
+      "answer": 2,
+      "explain": "Il regarde no lleva pronombre reflexivo; las otras tres sí."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronominales"],
+      "difficulty": 1,
+      "prompt": "Une cada verbo con su significado",
+      "left": ["se réveiller", "s'habiller", "se doucher", "se reposer"],
+      "right": ["descansar", "despertarse", "vestirse", "ducharse"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Se réveiller = despertarse, s'habiller = vestirse, se doucher = ducharse, se reposer = descansar."
+    },
+    {
+      "id": "e6",
+      "type": "conjugation",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "verb": "se lever",
+      "tense": "présent",
+      "prompt": "Conjuga «se lever» en presente",
+      "rows": [
+        { "person": "je", "accept": ["me lève"] },
+        { "person": "tu", "accept": ["te lèves"] },
+        { "person": "il / elle", "accept": ["se lève"] },
+        { "person": "nous", "accept": ["nous levons"] },
+        { "person": "vous", "accept": ["vous levez"] },
+        { "person": "ils / elles", "accept": ["se lèvent"] }
+      ],
+      "explain": "El pronombre cambia con cada persona; el verbo sigue el patrón de acheter (clase 34)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "Me despierto a las seis y me levanto a las siete.",
+      "accept": ["Je me réveille à six heures et je me lève à sept heures"],
+      "hintWords": ["je me réveille", "je me lève"],
+      "strictAccents": false,
+      "audio": "Je me réveille à six heures et je me lève à sept heures.",
+      "explain": "Dos verbos pronominales seguidos, cada uno con su pronombre je me."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto",
+      "text": "Nous ___ levons tôt, mais vous ___ levez tard.",
+      "blanks": [{ "accept": ["nous"] }, { "accept": ["vous"] }],
+      "bank": ["nous", "vous", "se"],
+      "explain": "Nous nous levons, vous vous levez: el pronombre repite el sujeto."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «No me acuesto tarde»",
+      "tokens": ["couche", "Je", "pas", "tard", "ne", "me"],
+      "answer": ["Je", "ne", "me", "couche", "pas", "tard"],
+      "audio": "Je ne me couche pas tard.",
+      "explain": "Ne + me + couche + pas: la negación rodea el pronombre y el verbo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronominales"],
+      "difficulty": 1,
+      "prompt": "Il s'habille vite, mais il ne se douche pas le matin.",
+      "accept": ["Se viste rápido, pero no se ducha por la mañana."],
+      "strictAccents": false,
+      "audio": "Il s'habille vite, mais il ne se douche pas le matin.",
+      "explain": "S'habille (afirmativo) frente a ne se douche pas (negativo)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu rutina",
+      "turns": [
+        { "who": "Léa", "text": "Tu te lèves à quelle heure le week-end ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je me lève tard le week-end.", "Je ne me lève pas tôt le week-end."], "hint": "usa je me lève" },
+        { "who": "Léa", "text": "Moi aussi, je me repose bien le week-end !", "speak": true }
+      ],
+      "explain": "Tu te lèves / je me lève: dos personas, dos pronombres."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "speak": "Elle se lève, elle se lave et elle s'habille vite.",
+      "mode": "write",
+      "accept": ["Elle se lève, elle se lave et elle s'habille vite"],
+      "showTextAfter": true,
+      "explain": "Tres verbos pronominales seguidos, todos en il/elle: se."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "speak": "nous nous levons",
+      "mode": "choose",
+      "options": ["nous nous levons", "vous vous levez", "ils se lèvent", "je me lève"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Nous nous levons: el pronombre nous se repite dos veces."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronominales"],
+      "difficulty": 3,
+      "speak": "Je me réveille, je me lève, je me lave, je m'habille et je ne me couche jamais tard.",
+      "es": "Me despierto, me levanto, me lavo, me visto y nunca me acuesto tarde.",
+      "ipa": "/ʒə mə ʁe.vɛj ʒə mə lɛv ʒə mə lav ʒə ma.bij e ʒə nə mə kuʃ ʒa.mɛ taʁ/",
+      "esApprox": "«ye me re-VEY ye me LEV ye me LAV ye ma-BIY e ye ne me KUSH ya-MÉ TAR»",
+      "focus": "Cinco verbos pronominales seguidos, todos con je me / je m': un buen repaso de memoria muscular.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "Cuenta tu rutina de la mañana con al menos tres verbos pronominales.",
+      "modelAnswer": "Je me réveille, je me lave et je m'habille.",
+      "alsoValid": ["Je me lève tôt, je me douche et je m'habille vite."],
+      "speak": "Je me réveille, je me lave et je m'habille.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "¿Qué pronombre reflexivo corresponde a este sujeto?",
+      "buckets": ["me / te", "se", "nous / vous"],
+      "items": [
+        { "text": "je", "bucket": 0 },
+        { "text": "il", "bucket": 1 },
+        { "text": "nous", "bucket": 2 },
+        { "text": "elles", "bucket": 1 },
+        { "text": "tu", "bucket": 0 },
+        { "text": "vous", "bucket": 2 }
+      ],
+      "explain": "Je/tu → me/te; il/elle/ils/elles → se; nous/vous → nous/vous."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "Hay un error: falta el pronombre reflexivo. Corrige la frase entera.",
+      "wrong": "Je lève à sept heures.",
+      "accept": ["Je me lève à sept heures"],
+      "audio": "Je me lève à sept heures.",
+      "explain": "Lever es pronominal en este sentido: hace falta je me lève, no je lève."
+    },
+    {
+      "id": "e18",
+      "type": "gender_article",
+      "tags": ["pronominales"],
+      "difficulty": 1,
+      "prompt": "Elige el pronombre correcto",
+      "items": [
+        { "word": "je ___ lève", "options": ["me", "te"], "answer": 0 },
+        { "word": "tu ___ couches", "options": ["me", "te"], "answer": 1 },
+        { "word": "elle ___ habille", "options": ["se", "nous"], "answer": 0 }
+      ],
+      "explain": "Cada sujeto tiene su propio pronombre reflexivo."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "se lever", "es": "levantarse", "esApprox": "«se le-VÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "se coucher", "es": "acostarse", "esApprox": "«se ku-SHÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "se doucher", "es": "ducharse", "esApprox": "«se du-SHÉ»", "from": "v5" },
+    { "id": "s4", "kind": "word", "target": "se réveiller", "es": "despertarse", "esApprox": "«se re-ve-YÉ»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "s'habiller", "es": "vestirse", "esApprox": "«sa-bi-YÉ»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "se reposer", "es": "descansar", "esApprox": "«se re-po-ZÉ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je me réveille à six heures et je me lève à sept heures.", "es": "Me despierto a las seis y me levanto a las siete.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Je ne me couche pas tard.", "es": "No me acuesto tarde.", "from": "e9" },
+    { "id": "s9", "kind": "phrase", "target": "Je me réveille, je me lève, je me lave, je m'habille et je ne me couche jamais tard.", "es": "Me despierto, me levanto, me lavo, me visto y nunca me acuesto tarde.", "from": "e14" }
+  ]
+}

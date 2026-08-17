@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-145",
+  "lang": "de",
+  "level": "A2",
+  "order": 145,
+  "title": "El carácter y las relaciones personales",
+  "objectives": [
+    "Describir el carácter de una persona con adjetivos más allá de lo básico: zuverlässig, ehrlich, egoistisch",
+    "Hablar de relaciones personales: die Freundschaft, das Vertrauen, sich streiten",
+    "Combinar adjetivos de carácter con la declinación del adjetivo (clases 101-107)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Describir el carácter con precisión",
+      "body": "Además de nett y freundlich (A1), ahora puedes describir el carácter con más matiz: zuverlässig (fiable), ehrlich (honesto), egoistisch (egoísta), großzügig (generoso). Estos adjetivos se declinan igual que cualquier otro (clases 101-107): «ein zuverlässiger Freund» (un amigo fiable).",
+      "examples": [
+        { "target": "Er ist ein sehr zuverlässiger Freund.", "es": "Él es un amigo muy fiable." },
+        { "target": "Sie ist ehrlich, aber manchmal etwas egoistisch.", "es": "Ella es honesta, pero a veces algo egoísta." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de relaciones personales",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["die Freundschaft", "la amistad"],
+        ["das Vertrauen", "la confianza"],
+        ["sich streiten", "pelearse, discutir"],
+        ["sich versöhnen", "reconciliarse"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "vertrauen (confiar) rige dativo, como helfen y folgen: «Ich vertraue dir» (Confío en ti), no «ich vertraue dich»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "zuverlässig", "es": "fiable", "ipa": "/ˈtsuːfɛɐ̯lɛsɪç/", "esApprox": "«TSÚ-fer-lé-sich»", "pos": "adjetivo", "gender": null, "example": { "target": "Er ist ein zuverlässiger Freund.", "es": "Él es un amigo fiable." } },
+    { "id": "v2", "target": "ehrlich", "es": "honesto", "ipa": "/ˈeːɐ̯lɪç/", "esApprox": "«ÉR-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Sie ist immer ehrlich.", "es": "Ella siempre es honesta." } },
+    { "id": "v3", "target": "egoistisch", "es": "egoísta", "ipa": "/eɡoˈɪstɪʃ/", "esApprox": "«e-go-ÍS-tish»", "pos": "adjetivo", "gender": null, "example": { "target": "Manchmal ist er egoistisch.", "es": "A veces él es egoísta." } },
+    { "id": "v4", "target": "großzügig", "es": "generoso", "ipa": "/ˈɡʁoːstsyːɡɪç/", "esApprox": "«GROS-tsü-guich»", "pos": "adjetivo", "gender": null, "example": { "target": "Sie ist sehr großzügig.", "es": "Ella es muy generosa." } },
+    { "id": "v5", "target": "die Freundschaft", "es": "la amistad", "ipa": "/ˈfʁɔɪ̯ntʃaft/", "esApprox": "«FRÓINT-shaft»", "pos": "sustantivo", "gender": "f", "example": { "target": "Unsere Freundschaft ist wichtig.", "es": "Nuestra amistad es importante." } },
+    { "id": "v6", "target": "das Vertrauen", "es": "la confianza", "ipa": "/fɛɐ̯ˈtʁaʊ̯ən/", "esApprox": "«fer-TRÁU-en»", "pos": "sustantivo", "gender": "n", "example": { "target": "Vertrauen ist wichtig.", "es": "La confianza es importante." } },
+    { "id": "v7", "target": "sich streiten", "es": "pelearse, discutir", "ipa": "/zɪç ˈʃtʁaɪ̯tn̩/", "esApprox": "«zich SHTRÁI-ten»", "pos": "verbo", "gender": null, "example": { "target": "Wir streiten uns selten.", "es": "Rara vez discutimos." } },
+    { "id": "v8", "target": "vertrauen", "es": "confiar (+ dativo)", "ipa": "/fɛɐ̯ˈtʁaʊ̯ən/", "esApprox": "«fer-TRÁU-en»", "pos": "verbo", "gender": null, "example": { "target": "Ich vertraue dir.", "es": "Confío en ti." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["caracter"], "difficulty": 1, "prompt": "¿Cómo se dice «fiable»?", "options": ["ehrlich", "zuverlässig", "egoistisch", "großzügig"], "answer": 1, "explain": "zuverlässig = fiable." },
+    { "id": "e2", "type": "mcq", "tags": ["relaciones"], "difficulty": 2, "prompt": "¿Qué caso rige «vertrauen»?", "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"], "answer": 2, "explain": "vertrauen + dativo, como helfen y folgen." },
+    { "id": "e3", "type": "true_false", "tags": ["caracter"], "difficulty": 2, "statement": "«großzügig» significa «generoso».", "answer": true, "explain": "großzügig = generoso." },
+    { "id": "e4", "type": "true_false", "tags": ["relaciones"], "difficulty": 2, "statement": "«sich versöhnen» significa «pelearse».", "answer": false, "explain": "sich versöhnen = reconciliarse; pelearse es sich streiten." },
+    { "id": "e5", "type": "match_pairs", "tags": ["caracter"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["zuverlässig", "ehrlich", "egoistisch", "großzügig"], "right": ["fiable", "honesto", "egoísta", "generoso"], "answer": [0, 1, 2, 3], "explain": "Cuatro adjetivos de carácter frecuentes." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["caracter"], "difficulty": 2, "prompt": "Él es un amigo muy fiable.", "accept": ["Er ist ein sehr zuverlässiger Freund"], "hintWords": ["er ist ein sehr zuverlässiger Freund"], "strictAccents": false, "audio": "Er ist ein sehr zuverlässiger Freund.", "explain": "ein zuverlässiger Freund: masculino nominativo tras ein, -er." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["relaciones"], "difficulty": 2, "prompt": "Confío en ti.", "accept": ["Ich vertraue dir"], "hintWords": ["ich vertraue dir"], "strictAccents": false, "audio": "Ich vertraue dir.", "explain": "vertrauen + dativo (dir)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["relaciones"], "difficulty": 2, "prompt": "Nuestra amistad es importante.", "accept": ["Unsere Freundschaft ist wichtig"], "hintWords": ["unsere Freundschaft ist wichtig"], "strictAccents": false, "audio": "Unsere Freundschaft ist wichtig.", "explain": "unsere Freundschaft: femenino, -e tras unser." },
+    { "id": "e9", "type": "fill_blank", "tags": ["caracter"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Sie ist immer ___. (honesta) Manchmal ist er ___. (egoísta)", "blanks": [{ "accept": ["ehrlich"] }, { "accept": ["egoistisch"] }], "bank": ["ehrlich", "egoistisch", "großzügig"], "explain": "ehrlich (honesta); egoistisch (egoísta)." },
+    { "id": "e10", "type": "word_order", "tags": ["relaciones"], "difficulty": 2, "prompt": "Ordena: «Rara vez discutimos»", "tokens": ["selten", "streiten uns", "Wir"], "answer": ["Wir", "streiten uns", "selten"], "audio": "Wir streiten uns selten.", "explain": "Wir streiten uns selten: sujeto-verbo reflexivo-adverbio." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["relaciones"], "difficulty": 2, "prompt": "Vertrauen ist wichtig.", "accept": ["La confianza es importante."], "strictAccents": false, "audio": "Vertrauen ist wichtig.", "explain": "das Vertrauen = la confianza." },
+    { "id": "e12", "type": "dialogue", "tags": ["caracter"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie ist dein bester Freund?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Er ist sehr zuverlässig und ehrlich.", "Er ist ein zuverlässiger Freund."], "hint": "describe su carácter" },
+      { "who": "Lea", "text": "Klingt nach einem guten Freund!", "speak": true }
+    ], "explain": "Práctica de describir el carácter de alguien." },
+    { "id": "e13", "type": "listening", "tags": ["caracter"], "difficulty": 1, "speak": "Er ist ein sehr zuverlässiger Freund.", "mode": "write", "accept": ["Er ist ein sehr zuverlässiger Freund"], "showTextAfter": true, "explain": "ein zuverlässiger Freund: declinación tras ein." },
+    { "id": "e14", "type": "listening", "tags": ["relaciones"], "difficulty": 2, "speak": "Ich vertraue dir.", "mode": "choose", "options": ["Ich vertraue dir.", "Ich vertraue dich.", "Ich vertraue du."], "answer": 0, "showTextAfter": true, "explain": "vertrauen rige dativo (dir), no acusativo." },
+    { "id": "e15", "type": "shadowing", "tags": ["caracter"], "difficulty": 2, "speak": "Sie ist ehrlich und großzügig, aber manchmal ist sie auch etwas egoistisch.", "es": "Ella es honesta y generosa, pero a veces también es algo egoísta.", "ipa": "/ziː ɪst ˈeːɐ̯lɪç ʊnt ˈɡʁoːstsyːɡɪç ˈaːbɐ ˈmançmaːl ɪst ziː aʊ̯x ˈɛtvas eɡoˈɪstɪʃ/", "esApprox": "«zi ist ÉR-lich unt GROS-tsü-guich, Á-ber MANCH-mal ist zi aух ÉT-vas e-go-ÍS-tish»", "focus": "Tres adjetivos de carácter coordinados, todos en posición predicativa (sin declinar).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["relaciones"], "difficulty": 2, "speak": "Wir streiten uns selten, denn unsere Freundschaft basiert auf Vertrauen.", "es": "Rara vez discutimos, porque nuestra amistad se basa en la confianza.", "ipa": "/viːɐ̯ ˈʃtʁaɪ̯tn̩ ʊns ˈzɛltn̩ dɛn ˈʊnzəʁə ˈfʁɔɪ̯ntʃaft baˈziːɐ̯t aʊ̯f fɛɐ̯ˈtʁaʊ̯ən/", "esApprox": "«vir SHTRÁI-ten uns ZEL-ten, den ÚN-ze-re FRÓINT-shaft ba-ZÍRT auf fer-TRÁU-en»", "focus": "sich streiten (reflexivo) y basiert auf (verbo con preposición fija).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["caracter"], "difficulty": 2, "prompt": "Te preguntan cómo es tu mejor amigo. Di que es fiable y honesto.", "modelAnswer": "Er ist zuverlässig und ehrlich.", "alsoValid": ["Sie ist zuverlässig und ehrlich."], "speak": "Er ist zuverlässig und ehrlich.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["caracter"], "difficulty": 2, "prompt": "Clasifica cada adjetivo: positivo o negativo", "buckets": ["Positivo", "Negativo"], "items": [
+      { "text": "zuverlässig", "bucket": 0 },
+      { "text": "egoistisch", "bucket": 1 },
+      { "text": "großzügig", "bucket": 0 },
+      { "text": "ehrlich", "bucket": 0 }
+    ], "explain": "zuverlässig, großzügig y ehrlich son positivos; egoistisch es negativo." },
+    { "id": "e19", "type": "error_correction", "tags": ["relaciones"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich vertraue dich.", "accept": ["Ich vertraue dir"], "audio": "Ich vertraue dir.", "explain": "vertrauen rige dativo, no acusativo." },
+    { "id": "e20", "type": "mcq", "tags": ["relaciones"], "difficulty": 2, "prompt": "«Er ist ein zuverlässiger Freund, und ich vertraue ihm sehr. Wir streiten uns selten, denn unsere Freundschaft basiert auf Vertrauen.» ¿Con qué frecuencia discuten?", "options": ["A menudo", "Rara vez", "Nunca han discutido", "Todos los días"], "answer": 1, "explain": "«Wir streiten uns selten» = rara vez discutimos." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "zuverlässig", "es": "fiable", "esApprox": "«TSÚ-fer-lé-sich»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "ehrlich", "es": "honesto", "esApprox": "«ÉR-lich»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "egoistisch", "es": "egoísta", "esApprox": "«e-go-ÍS-tish»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "großzügig", "es": "generoso", "esApprox": "«GROS-tsü-guich»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Freundschaft", "es": "la amistad", "esApprox": "«FRÓINT-shaft»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "vertrauen", "es": "confiar (+ dativo)", "esApprox": "«fer-TRÁU-en»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Sie ist ehrlich und großzügig, aber manchmal ist sie auch etwas egoistisch.", "es": "Ella es honesta y generosa, pero a veces también es algo egoísta.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wir streiten uns selten, denn unsere Freundschaft basiert auf Vertrauen.", "es": "Rara vez discutimos, porque nuestra amistad se basa en la confianza.", "from": "e16" }
+  ]
+}

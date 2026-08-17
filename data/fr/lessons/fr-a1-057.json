@@ -1,0 +1,269 @@
+{
+  "id": "fr-a1-057",
+  "lang": "fr",
+  "level": "A1",
+  "order": 57,
+  "title": "Los artículos partitivos: du, de la, de l', des",
+  "objectives": [
+    "Usar du, de la, de l' y des para hablar de una cantidad indeterminada de algo",
+    "Distinguir el artículo partitivo del artículo definido (le/la/les) y del indefinido (un/une/des)",
+    "Convertir el partitivo en de/d' después de una negación con ne...pas (clase 19)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "¿Qué es el artículo partitivo?",
+      "body": "El artículo partitivo se usa para hablar de **una parte o cantidad indeterminada** de algo que no se puede contar (comida, bebida, ideas...). En español no suele traducirse, o se traduce como «un poco de»: je mange du pain = como pan (una cantidad de pan, no todo el pan del mundo).",
+      "examples": [
+        { "target": "Je mange du pain et je bois de l'eau.", "es": "Como pan y bebo agua.", "note": "du pain (masculino) + de l'eau (empieza por vocal)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las cuatro formas del partitivo",
+      "headers": ["Forma", "Se usa con...", "Ejemplo"],
+      "rows": [
+        ["du", "masculino singular", "du pain, du fromage, du riz"],
+        ["de la", "femenino singular", "de la viande, de la salade"],
+        ["de l'", "singular + vocal o h muda (m. o f.)", "de l'eau, de l'argent"],
+        ["des", "plural (masculino o femenino)", "des légumes, des pâtes"]
+      ],
+      "note": "Du y de la se contraen a de l' delante de una vocal, igual que le/la se contraían a l' en la clase 11."
+    },
+    {
+      "type": "contrast",
+      "title": "Partitivo (du/de la) frente a definido (le/la) y a indefinido (un/une)",
+      "items": [
+        { "wrong": "Usar el mismo artículo para el gusto general y para comer una cantidad", "right": "J'aime le fromage (gusto general) / Je mange du fromage (una cantidad de queso) / Je mange un fromage (una unidad, un queso entero)", "why": "Le/la = la categoría en general (con aimer, détester, clase 33 y 56). Du/de la = una cantidad indeterminada (con manger, boire). Un/une = una unidad contable entera." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Después de una negación con ne...pas (clase 19), du/de la/de l'/des se convierten en de (d' delante de vocal): je mange du pain → je ne mange pas de pain; je bois de l'eau → je ne bois pas d'eau."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "du", "es": "(partitivo masculino singular)", "ipa": "/dy/", "esApprox": "«dü»", "pos": "artículo", "gender": null, "example": { "target": "Je mange du pain.", "es": "Como pan." } },
+    { "id": "v2", "target": "de la", "es": "(partitivo femenino singular)", "ipa": "/də la/", "esApprox": "«de la»", "pos": "artículo", "gender": null, "example": { "target": "Je mange de la viande.", "es": "Como carne." } },
+    { "id": "v3", "target": "de l'", "es": "(partitivo ante vocal o h muda)", "ipa": "/də l/", "esApprox": "«de l»", "pos": "artículo", "gender": null, "example": { "target": "Je bois de l'eau.", "es": "Bebo agua." } },
+    { "id": "v4", "target": "des", "es": "(partitivo plural)", "ipa": "/de/", "esApprox": "«de»", "pos": "artículo", "gender": null, "example": { "target": "Je mange des pâtes.", "es": "Como pasta." } },
+    { "id": "v5", "target": "de l'argent", "es": "dinero", "ipa": "/də laʁ.ʒɑ̃/", "esApprox": "«de lar-YAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai besoin de l'argent.", "es": "Necesito dinero." } },
+    { "id": "v6", "target": "de l'eau", "es": "agua", "ipa": "/də lo/", "esApprox": "«de LO»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je bois de l'eau tous les jours.", "es": "Bebo agua todos los días." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "¿Qué forma del partitivo va con «pain» (masculino)?",
+      "options": ["de la pain", "du pain", "des pain", "de l'pain"],
+      "answer": 1,
+      "explain": "Du + sustantivo masculino singular: du pain."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "¿Qué forma del partitivo va con «eau» (empieza por vocal)?",
+      "options": ["de la eau", "du eau", "de l'eau", "des eau"],
+      "answer": 2,
+      "explain": "Delante de vocal, du y de la se contraen siempre a de l'."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "statement": "El artículo partitivo se usa para hablar de una cantidad indeterminada, no de una categoría en general.",
+      "answer": true,
+      "explain": "Para la categoría en general se usa le/la/les (aimer le fromage); para una cantidad, du/de la (manger du fromage)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "statement": "Después de ne...pas, du/de la/des se mantienen igual.",
+      "answer": false,
+      "explain": "Se convierten en de/d': je ne mange pas de pain."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "Une cada sustantivo con su forma partitiva correcta",
+      "left": ["pain (m.)", "viande (f.)", "eau (vocal)", "pâtes (pl.)"],
+      "right": ["de l'eau", "des pâtes", "du pain", "de la viande"],
+      "answer": [2, 3, 0, 1],
+      "explain": "du pain, de la viande, de l'eau, des pâtes."
+    },
+    {
+      "id": "e6",
+      "type": "fill_blank",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "Completa con el partitivo correcto",
+      "text": "Le matin, je mange ___ pain et je bois ___ eau.",
+      "blanks": [{ "accept": ["du"] }, { "accept": ["de l'"] }],
+      "bank": ["du", "de la", "de l'", "des"],
+      "explain": "Du pain (masculino) y de l'eau (vocal)."
+    },
+    {
+      "id": "e7",
+      "type": "fill_blank",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "Completa con el partitivo correcto",
+      "text": "Je mange ___ viande et ___ légumes.",
+      "blanks": [{ "accept": ["de la"] }, { "accept": ["des"] }],
+      "bank": ["du", "de la", "des"],
+      "explain": "De la viande (femenino) y des légumes (plural)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "Como pan y bebo agua.",
+      "accept": ["Je mange du pain et je bois de l'eau"],
+      "hintWords": ["je mange du pain", "je bois de l'eau"],
+      "strictAccents": false,
+      "audio": "Je mange du pain et je bois de l'eau.",
+      "explain": "Du pain (masc.) y de l'eau (vocal)."
+    },
+    {
+      "id": "e9",
+      "type": "translate_to_target",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "No como carne, pero como pasta.",
+      "accept": ["Je ne mange pas de viande, mais je mange des pâtes"],
+      "hintWords": ["je ne mange pas de viande", "je mange des pâtes"],
+      "strictAccents": false,
+      "audio": "Je ne mange pas de viande, mais je mange des pâtes.",
+      "explain": "Tras la negación, de la viande se convierte en pas de viande."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "Je bois du café le matin, mais je ne bois pas d'alcool.",
+      "accept": ["Bebo café por la mañana, pero no bebo alcohol."],
+      "strictAccents": false,
+      "audio": "Je bois du café le matin, mais je ne bois pas d'alcool.",
+      "explain": "Du café (masc.) frente a pas d'alcool (negación + vocal)."
+    },
+    {
+      "id": "e11",
+      "type": "word_order",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Necesito dinero»",
+      "tokens": ["besoin", "de l'argent", "J'ai"],
+      "answer": ["J'ai", "besoin", "de l'argent"],
+      "audio": "J'ai besoin de l'argent.",
+      "explain": "Avoir besoin de + sustantivo: aquí el sustantivo empieza por vocal, de l'argent."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en la mesa",
+      "turns": [
+        { "who": "Léa", "text": "Tu veux du fromage ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je veux du fromage.", "Non, je ne veux pas de fromage."], "hint": "acepta o rechaza el queso" },
+        { "who": "Léa", "text": "D'accord !", "speak": true }
+      ],
+      "explain": "Vouloir + partitivo: tu veux du fromage ?"
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "speak": "Je mange du riz et de la viande, mais je ne bois pas d'eau.",
+      "mode": "write",
+      "accept": ["Je mange du riz et de la viande, mais je ne bois pas d'eau"],
+      "showTextAfter": true,
+      "explain": "Du riz, de la viande, y pas d'eau tras la negación."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["partitivos"],
+      "difficulty": 1,
+      "speak": "de l'eau",
+      "mode": "choose",
+      "options": ["du eau", "de la eau", "de l'eau", "des eau"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Solo de l'eau es correcto delante de vocal."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["partitivos"],
+      "difficulty": 3,
+      "speak": "Le matin, je mange du pain et je bois de l'eau, mais je ne mange pas de viande.",
+      "es": "Por la mañana, como pan y bebo agua, pero no como carne.",
+      "ipa": "/lə ma.tɛ̃ ʒə mɑ̃ʒ dy pɛ̃ e ʒə bwa də lo mɛ ʒə nə mɑ̃ʒ pa də vjɑ̃d/",
+      "esApprox": "«le ma-TEN ye MANY dü PEN e ye BUÁ de LO me ye ne MANY pa de VIAND»",
+      "focus": "Du, de l' y pas de en la misma frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "speak_prompt",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "Di qué comes y bebes normalmente por la mañana.",
+      "modelAnswer": "Je mange du pain et je bois du café.",
+      "alsoValid": ["Je bois de l'eau et je mange des fruits."],
+      "speak": "Je mange du pain et je bois du café.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de artículo. Corrige la frase entera.",
+      "wrong": "Je bois du eau.",
+      "accept": ["Je bois de l'eau"],
+      "audio": "Je bois de l'eau.",
+      "explain": "Delante de vocal, du se convierte en de l': de l'eau."
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["partitivos"],
+      "difficulty": 2,
+      "prompt": "¿Qué forma partitiva corresponde?",
+      "buckets": ["du", "de la", "de l'", "des"],
+      "items": [
+        { "text": "pain", "bucket": 0 },
+        { "text": "viande", "bucket": 1 },
+        { "text": "eau", "bucket": 2 },
+        { "text": "légumes", "bucket": 3 },
+        { "text": "riz", "bucket": 0 },
+        { "text": "argent", "bucket": 2 }
+      ],
+      "explain": "Du pain/riz (masc.), de la viande (fem.), de l'eau/argent (vocal), des légumes (plural)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "du", "es": "(partitivo masc. sing.)", "esApprox": "«dü»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "de la", "es": "(partitivo fem. sing.)", "esApprox": "«de la»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "de l'", "es": "(partitivo ante vocal)", "esApprox": "«de l»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "des", "es": "(partitivo plural)", "esApprox": "«de»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "de l'argent", "es": "dinero", "esApprox": "«de lar-YAN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "des", "es": "(partitivo plural)", "esApprox": "«de»", "from": "v4" },
+    { "id": "s7", "kind": "phrase", "target": "Je mange du pain et je bois de l'eau.", "es": "Como pan y bebo agua.", "from": "e8" },
+    { "id": "s8", "kind": "phrase", "target": "Je ne mange pas de viande, mais je mange des pâtes.", "es": "No como carne, pero como pasta.", "from": "e9" }
+  ]
+}

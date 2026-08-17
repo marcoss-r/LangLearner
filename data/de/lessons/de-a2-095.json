@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-095",
+  "lang": "de",
+  "level": "A2",
+  "order": 95,
+  "title": "El Perfekt de los verbos separables e inseparables juntos",
+  "objectives": [
+    "Repasar y ampliar el Perfekt de verbos separables (aufräumen→aufgeräumt, mitkommen→mitgekommen)",
+    "Repasar y ampliar el Perfekt de verbos inseparables (verstehen→verstanden, bezahlen→bezahlt)",
+    "Combinar ambos tipos en la misma frase sin confundirlos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso combinado: separables e inseparables",
+      "body": "Recuerda la regla de la clase 68: los verbos separables (auf-, mit-, ein-, an-...) insertan ge- ENTRE el prefijo y la raíz: aufräumen → aufgeräumt. Los verbos inseparables (be-, ver-, ent-, er-, ge-, zer-, emp-, miss-) NUNCA llevan ge-: verstehen → verstanden, bezahlen → bezahlt.",
+      "examples": [
+        { "target": "Ich habe die Küche aufgeräumt.", "es": "He recogido la cocina.", "note": "separable: ge- en medio" },
+        { "target": "Ich habe die Rechnung bezahlt.", "es": "He pagado la factura.", "note": "inseparable: sin ge-" },
+        { "target": "Bist du mitgekommen?", "es": "¿Has venido con nosotros?", "note": "separable: ge- en medio" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Comparación rápida",
+      "headers": ["Tipo", "Prefijos típicos", "¿Lleva ge-?", "Ejemplo"],
+      "rows": [
+        ["Separable", "auf-, mit-, ein-, an-, aus-", "Sí, en medio", "aufgeräumt"],
+        ["Inseparable", "be-, ver-, ent-, er-, zer-", "No, nunca", "verstanden"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Truco de la clase 75: los prefijos separables llevan el acento tónico (AUFräumen), los inseparables no (verSTEHen). Si dudas si un verbo es separable o inseparable, pronúncialo y fíjate dónde cae el énfasis."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "aufgeräumt", "es": "recogido, ordenado (participio de aufräumen)", "ipa": "/ˈaʊ̯fɡəʁɔɪ̯mt/", "esApprox": "«ÁUF-ge-roimt»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe die Küche aufgeräumt.", "es": "He recogido la cocina." } },
+    { "id": "v2", "target": "verstanden", "es": "entendido (participio de verstehen)", "ipa": "/fɛɐ̯ˈʃtandn̩/", "esApprox": "«fer-SHTÁN-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe alles verstanden.", "es": "Lo he entendido todo." } },
+    { "id": "v3", "target": "bezahlt", "es": "pagado (participio de bezahlen)", "ipa": "/bəˈtsaːlt/", "esApprox": "«be-TSALT»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe die Rechnung bezahlt.", "es": "He pagado la factura." } },
+    { "id": "v4", "target": "mitgekommen", "es": "venido (con alguien) (participio de mitkommen)", "ipa": "/ˈmɪtɡəkɔmən/", "esApprox": "«MIT-ge-ko-men»", "pos": "verbo", "gender": null, "example": { "target": "Bist du mitgekommen?", "es": "¿Has venido con nosotros?" } },
+    { "id": "v5", "target": "die Küche", "es": "la cocina", "ipa": "/ˈkʏçə/", "esApprox": "«KÜ-je»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Küche ist sauber.", "es": "La cocina está limpia." } },
+    { "id": "v6", "target": "sauber", "es": "limpio", "ipa": "/ˈzaʊ̯bɐ/", "esApprox": "«ZÁU-ber»", "pos": "adjetivo", "gender": null, "example": { "target": "Die Wohnung ist sauber.", "es": "El piso está limpio." } },
+    { "id": "v7", "target": "die Aufgabe", "es": "la tarea", "ipa": "/ˈaʊ̯fɡaːbə/", "esApprox": "«ÁUF-ga-be»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich habe die Aufgabe verstanden.", "es": "He entendido la tarea." } },
+    { "id": "v8", "target": "alles", "es": "todo", "ipa": "/ˈalɛs/", "esApprox": "«Á-les»", "pos": "pronombre", "gender": null, "example": { "target": "Ich habe alles verstanden.", "es": "Lo he entendido todo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["separables"], "difficulty": 1, "prompt": "¿Cuál es el participio de «aufräumen»?", "options": ["geaufräumt", "aufgeräumt", "aufräumt", "geräumt"], "answer": 1, "explain": "aufräumen (separable) → aufgeräumt, con ge- en medio." },
+    { "id": "e2", "type": "mcq", "tags": ["perfekt"], "difficulty": 2, "prompt": "¿Cuál es el participio de «verstehen»?", "options": ["geverstanden", "verstanden", "verstehet", "geverstehen"], "answer": 1, "explain": "verstehen (inseparable) → verstanden, sin ge-." },
+    { "id": "e3", "type": "true_false", "tags": ["separables"], "difficulty": 2, "statement": "Los verbos separables insertan ge- entre el prefijo y la raíz.", "answer": true, "explain": "aufräumen → aufgeräumt: ge- va justo después del prefijo separable." },
+    { "id": "e4", "type": "true_false", "tags": ["perfekt"], "difficulty": 2, "statement": "Los verbos inseparables llevan ge- al principio del participio, igual que los regulares.", "answer": false, "explain": "Los inseparables (be-, ver-, ent-...) nunca llevan ge-." },
+    { "id": "e5", "type": "match_pairs", "tags": ["perfekt"], "difficulty": 2, "prompt": "Une cada infinitivo con su participio", "left": ["aufräumen", "verstehen", "bezahlen", "mitkommen"], "right": ["aufgeräumt", "verstanden", "bezahlt", "mitgekommen"], "answer": [0, 1, 2, 3], "explain": "Dos separables (aufräumen, mitkommen) y dos inseparables (verstehen, bezahlen)." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["separables"], "difficulty": 2, "prompt": "He recogido la cocina.", "accept": ["Ich habe die Küche aufgeräumt"], "hintWords": ["ich habe die Küche aufgeräumt"], "strictAccents": false, "audio": "Ich habe die Küche aufgeräumt.", "explain": "aufgeräumt: ge- insertado en medio del verbo separable." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["perfekt"], "difficulty": 2, "prompt": "Lo he entendido todo.", "accept": ["Ich habe alles verstanden"], "hintWords": ["ich habe alles verstanden"], "strictAccents": false, "audio": "Ich habe alles verstanden.", "explain": "verstanden: sin ge-, verbo inseparable." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["perfekt"], "difficulty": 2, "prompt": "He pagado la factura.", "accept": ["Ich habe die Rechnung bezahlt"], "hintWords": ["ich habe die Rechnung bezahlt"], "strictAccents": false, "audio": "Ich habe die Rechnung bezahlt.", "explain": "bezahlt: sin ge-, verbo inseparable." },
+    { "id": "e9", "type": "fill_blank", "tags": ["separables"], "difficulty": 2, "prompt": "Completa con el participio correcto", "text": "Bist du ___? (mitkommen) Ich habe die Aufgabe ___. (verstehen)", "blanks": [{ "accept": ["mitgekommen"] }, { "accept": ["verstanden"] }], "bank": ["mitgekommen", "verstanden", "gekommen"], "explain": "mitgekommen (separable, ge- en medio); verstanden (inseparable, sin ge-)." },
+    { "id": "e10", "type": "word_order", "tags": ["perfekt"], "difficulty": 2, "prompt": "Ordena: «El piso está limpio, porque he recogido la cocina»", "tokens": ["aufgeräumt", "weil ich die Küche", "habe", "Die Wohnung ist sauber,"], "answer": ["Die Wohnung ist sauber,", "weil ich die Küche", "habe", "aufgeräumt"], "audio": "Die Wohnung ist sauber, weil ich die Küche aufgeräumt habe.", "explain": "weil manda habe al final, después del participio aufgeräumt." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["perfekt"], "difficulty": 2, "prompt": "Die Wohnung ist sauber.", "accept": ["El piso está limpio."], "strictAccents": false, "audio": "Die Wohnung ist sauber.", "explain": "sauber = limpio." },
+    { "id": "e12", "type": "dialogue", "tags": ["perfekt"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Mama", "text": "Hast du die Küche aufgeräumt?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich habe die Küche aufgeräumt."], "hint": "responde que sí, con el participio correcto" },
+      { "who": "Mama", "text": "Danke, sehr gut!", "speak": true }
+    ], "explain": "Práctica de aufräumen en Perfekt, en una conversación cotidiana." },
+    { "id": "e13", "type": "listening", "tags": ["separables"], "difficulty": 1, "speak": "Ich habe die Küche aufgeräumt.", "mode": "write", "accept": ["Ich habe die Küche aufgeräumt"], "showTextAfter": true, "explain": "aufgeräumt: participio de un verbo separable." },
+    { "id": "e14", "type": "listening", "tags": ["perfekt"], "difficulty": 2, "speak": "Ich habe die Rechnung bezahlt.", "mode": "choose", "options": ["Ich habe die Rechnung bezahlt.", "Ich habe die Rechnung gebezahlt.", "Ich bin die Rechnung bezahlt."], "answer": 0, "showTextAfter": true, "explain": "bezahlt: sin ge- (inseparable) y con haben, no sein." },
+    { "id": "e15", "type": "shadowing", "tags": ["separables"], "difficulty": 2, "speak": "Ich habe die Küche aufgeräumt, und ich habe auch die Rechnung bezahlt.", "es": "He recogido la cocina, y también he pagado la factura.", "ipa": "/ɪç ˈhaːbə diː ˈkʏçə ˈaʊ̯fɡəʁɔɪ̯mt ʊnt ɪç ˈhaːbə aʊ̯x diː ˈʁɛçnʊŋ bəˈtsaːlt/", "esApprox": "«ich JÁ-be di KÜ-je ÁUF-ge-roimt, unt ich JÁ-be aух di RÉCH-nung be-TSALT»", "focus": "aufgeräumt (separable, ge- en medio) frente a bezahlt (inseparable, sin ge-), en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["perfekt"], "difficulty": 2, "speak": "Bist du mitgekommen? Nein, aber ich habe alles verstanden, was ihr gemacht habt.", "es": "¿Has venido con nosotros? No, pero he entendido todo lo que hicisteis.", "ipa": "/bɪst duː ˈmɪtɡəkɔmən naɪ̯n ˈaːbɐ ɪç ˈhaːbə ˈalɛs fɛɐ̯ˈʃtandn̩ vas iːɐ̯ ɡəˈmaxt hapt/", "esApprox": "«bist du MIT-ge-ko-men? nain, Á-ber ich JÁ-be Á-les fer-SHTÁN-den, vas ir ge-MACHT japt»", "focus": "mitgekommen (separable) y verstanden (inseparable), dos tipos de Perfekt en la misma conversación.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["perfekt"], "difficulty": 2, "prompt": "Te preguntan si recogiste la cocina. Di que sí, y que también pagaste la factura.", "modelAnswer": "Ja, ich habe die Küche aufgeräumt, und ich habe auch die Rechnung bezahlt.", "alsoValid": ["Ja, ich habe aufgeräumt und bezahlt."], "speak": "Ja, ich habe die Küche aufgeräumt, und ich habe auch die Rechnung bezahlt.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["perfekt"], "difficulty": 2, "prompt": "Clasifica cada participio: separable o inseparable", "buckets": ["Separable (ge- en medio)", "Inseparable (sin ge-)"], "items": [
+      { "text": "aufgeräumt", "bucket": 0 },
+      { "text": "verstanden", "bucket": 1 },
+      { "text": "mitgekommen", "bucket": 0 },
+      { "text": "bezahlt", "bucket": 1 }
+    ], "explain": "aufgeräumt y mitgekommen son separables; verstanden y bezahlt son inseparables." },
+    { "id": "e19", "type": "error_correction", "tags": ["perfekt"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe die Rechnung gebezahlt.", "accept": ["Ich habe die Rechnung bezahlt"], "audio": "Ich habe die Rechnung bezahlt.", "explain": "bezahlen es inseparable (prefijo be-): su participio nunca lleva ge-." },
+    { "id": "e20", "type": "mcq", "tags": ["perfekt"], "difficulty": 2, "prompt": "«Ich habe die Küche aufgeräumt und die Rechnung bezahlt. Mein Bruder ist leider nicht mitgekommen, aber er hat alles am Telefon verstanden.» ¿Quién no vino?", "options": ["Yo", "Mi hermano", "Nadie, todos vinieron", "No se menciona"], "answer": 1, "explain": "«Mein Bruder ist leider nicht mitgekommen» = mi hermano por desgracia no vino." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "aufgeräumt", "es": "recogido, ordenado (participio de aufräumen)", "esApprox": "«ÁUF-ge-roimt»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "verstanden", "es": "entendido (participio de verstehen)", "esApprox": "«fer-SHTÁN-den»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "bezahlt", "es": "pagado (participio de bezahlen)", "esApprox": "«be-TSALT»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "mitgekommen", "es": "venido (con alguien) (participio de mitkommen)", "esApprox": "«MIT-ge-ko-men»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Küche", "es": "la cocina", "esApprox": "«KÜ-je»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "sauber", "es": "limpio", "esApprox": "«ZÁU-ber»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe die Küche aufgeräumt, und ich habe auch die Rechnung bezahlt.", "es": "He recogido la cocina, y también he pagado la factura.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Bist du mitgekommen? Nein, aber ich habe alles verstanden, was ihr gemacht habt.", "es": "¿Has venido con nosotros? No, pero he entendido todo lo que hicisteis.", "from": "e16" }
+  ]
+}

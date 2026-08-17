@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-200",
+  "lang": "de",
+  "level": "B1",
+  "order": 200,
+  "title": "Describir a una persona o un objeto con precisión",
+  "objectives": [
+    "Combinar relativas, participios-adjetivo y adjetivos declinados para describir con detalle",
+    "Encadenar varias características de una persona u objeto en una descripción fluida",
+    "Practicar descripciones completas de personas y objetos cotidianos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Todo lo aprendido, junto: describir con precisión",
+      "body": "Ahora puedes combinar todo lo visto en este bloque para describir con mucho detalle: adjetivos declinados (clases 101-111), relativas (clases 193-196) y participios-adjetivo (clase 197). «Die Frau, die dort sitzt, trägt eine rote Jacke und liest ein spannendes Buch, das gerade sehr bekannt ist» combina varias capas de descripción en una sola frase fluida.",
+      "examples": [
+        { "target": "Die Frau, die dort sitzt, trägt eine rote Jacke.", "es": "La mujer que está sentada allí lleva una chaqueta roja." },
+        { "target": "Das ist ein spannendes Buch, das gerade sehr bekannt ist.", "es": "Ese es un libro emocionante que ahora mismo es muy conocido." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Tres recursos para describir con precisión",
+      "headers": ["Recurso", "Ejemplo"],
+      "rows": [
+        ["Adjetivo declinado", "eine rote Jacke"],
+        ["Oración de relativo", "die Frau, die dort sitzt"],
+        ["Participio como adjetivo", "ein bekanntes Buch"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para describir con fluidez, empieza con el sustantivo y su adjetivo (eine rote Jacke), añade una relativa si necesitas más detalle (die ich letzte Woche gekauft habe), y usa participios-adjetivo para dar matices compactos (die gerade sehr beliebte Jacke)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "tragen", "es": "llevar (puesto)", "ipa": "/ˈtʁaːɡn̩/", "esApprox": "«TRÁ-guen»", "pos": "verbo", "gender": null, "example": { "target": "Sie trägt eine rote Jacke.", "es": "Ella lleva una chaqueta roja." } },
+    { "id": "v2", "target": "bekannt", "es": "conocido", "ipa": "/bəˈkant/", "esApprox": "«be-KANT»", "pos": "adjetivo", "gender": null, "example": { "target": "Das Buch ist sehr bekannt.", "es": "El libro es muy conocido." } },
+    { "id": "v3", "target": "die Jacke", "es": "la chaqueta", "ipa": "/ˈjakə/", "esApprox": "«YÁ-ke»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Jacke ist rot.", "es": "La chaqueta es roja." } },
+    { "id": "v4", "target": "beliebt", "es": "popular, querido", "ipa": "/bəˈliːpt/", "esApprox": "«be-LIPT»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist ein beliebtes Restaurant.", "es": "Ese es un restaurante popular." } },
+    { "id": "v5", "target": "die Eigenschaft", "es": "la característica, la cualidad", "ipa": "/ˈaɪ̯gn̩ʃaft/", "esApprox": "«ÁI-guen-shaft»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine gute Eigenschaft.", "es": "Esa es una buena cualidad." } },
+    { "id": "v6", "target": "auffällig", "es": "llamativo", "ipa": "/ˈaʊ̯ffɛlɪç/", "esApprox": "«ÁUF-fe-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Die Farbe ist sehr auffällig.", "es": "El color es muy llamativo." } },
+    { "id": "v7", "target": "beschreiben", "es": "describir", "ipa": "/bəˈʃʁaɪ̯bn̩/", "esApprox": "«be-SHRÁI-ben»", "pos": "verbo", "gender": null, "example": { "target": "Kannst du das genauer beschreiben?", "es": "¿Puedes describir eso con más precisión?" } },
+    { "id": "v8", "target": "die Beschreibung", "es": "la descripción", "ipa": "/bəˈʃʁaɪ̯bʊŋ/", "esApprox": "«be-SHRÁI-bung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine genaue Beschreibung.", "es": "Esa es una descripción precisa." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["relativas"], "difficulty": 1, "prompt": "¿Qué recurso es «eine rote Jacke»?", "options": ["Una relativa", "Un adjetivo declinado", "Un participio-adjetivo", "Un verbo modal"], "answer": 1, "explain": "rote es un adjetivo declinado normal." },
+    { "id": "e2", "type": "mcq", "tags": ["relativas"], "difficulty": 2, "prompt": "¿Qué recurso es «ein bekanntes Buch»?", "options": ["Una relativa", "Un adjetivo normal", "Un participio como adjetivo", "Una preposición"], "answer": 2, "explain": "bekannt viene del participio de kennen (bekannt), usado como adjetivo." },
+    { "id": "e3", "type": "true_false", "tags": ["relativas"], "difficulty": 2, "statement": "Se pueden combinar relativas, adjetivos y participios-adjetivo en la misma descripción.", "answer": true, "explain": "Combinar estos recursos da descripciones ricas y fluidas." },
+    { "id": "e4", "type": "true_false", "tags": ["relativas"], "difficulty": 2, "statement": "Una buena descripción debe evitar por completo las oraciones de relativo.", "answer": false, "explain": "Las relativas son uno de los recursos más útiles para describir con precisión." },
+    { "id": "e5", "type": "match_pairs", "tags": ["relativas"], "difficulty": 2, "prompt": "Une cada ejemplo con su recurso", "left": ["eine rote Jacke", "die Frau, die dort sitzt", "ein bekanntes Buch", "ein beliebtes Restaurant"], "right": ["Adjetivo declinado", "Relativa", "Participio-adjetivo", "Participio-adjetivo"], "answer": [0, 1, 2, 3], "explain": "Tres recursos combinados en distintos ejemplos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["relativas"], "difficulty": 2, "prompt": "La mujer que está sentada allí lleva una chaqueta roja.", "accept": ["Die Frau, die dort sitzt, trägt eine rote Jacke"], "hintWords": ["die Frau die dort sitzt trägt eine rote Jacke"], "strictAccents": false, "audio": "Die Frau, die dort sitzt, trägt eine rote Jacke.", "explain": "Relativa (die dort sitzt) + verbo principal (trägt) + adjetivo declinado (eine rote Jacke)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["relativas"], "difficulty": 2, "prompt": "Ese es un libro emocionante que ahora mismo es muy conocido.", "accept": ["Das ist ein spannendes Buch, das gerade sehr bekannt ist"], "hintWords": ["das ist ein spannendes Buch das gerade sehr bekannt ist"], "strictAccents": false, "audio": "Das ist ein spannendes Buch, das gerade sehr bekannt ist.", "explain": "ein spannendes Buch (adjetivo) + das...bekannt ist (relativa)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["relativas"], "difficulty": 2, "prompt": "¿Puedes describir eso con más precisión?", "accept": ["Kannst du das genauer beschreiben?"], "hintWords": ["kannst du das genauer beschreiben"], "strictAccents": false, "audio": "Kannst du das genauer beschreiben?", "explain": "Kannst + du + das + genauer + beschreiben (final, con el modal)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["relativas"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Das ist eine ___ Eigenschaft. Die Farbe ist sehr ___.", "blanks": [{ "accept": ["gute"] }, { "accept": ["auffällig"] }], "bank": ["gute", "auffällig", "schlechte"], "explain": "gute Eigenschaft (buena cualidad) y auffällig (llamativo)." },
+    { "id": "e10", "type": "word_order", "tags": ["relativas"], "difficulty": 2, "prompt": "Ordena: «Esa es una descripción precisa»", "tokens": ["ist eine genaue Beschreibung", "Das"], "answer": ["Das", "ist eine genaue Beschreibung"], "audio": "Das ist eine genaue Beschreibung.", "explain": "Das (sujeto) + ist (posición 2) + eine genaue Beschreibung." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["relativas"], "difficulty": 2, "prompt": "Das ist ein beliebtes Restaurant.", "accept": ["Ese es un restaurante popular."], "strictAccents": false, "audio": "Das ist ein beliebtes Restaurant.", "explain": "beliebt = popular, querido." },
+    { "id": "e12", "type": "dialogue", "tags": ["relativas"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Kannst du die Frau dort beschreiben?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Die Frau, die dort sitzt, trägt eine rote Jacke."], "hint": "combina una relativa con un adjetivo declinado" },
+      { "who": "Lea", "text": "Ah, jetzt sehe ich sie!", "speak": true }
+    ], "explain": "Combinar relativa y adjetivo para una descripción precisa." },
+    { "id": "e13", "type": "listening", "tags": ["relativas"], "difficulty": 1, "speak": "Die Frau, die dort sitzt, trägt eine rote Jacke.", "mode": "write", "accept": ["Die Frau, die dort sitzt, trägt eine rote Jacke"], "showTextAfter": true, "explain": "Relativa + adjetivo declinado en una sola descripción." },
+    { "id": "e14", "type": "listening", "tags": ["relativas"], "difficulty": 2, "speak": "Das ist ein spannendes Buch, das gerade sehr bekannt ist.", "mode": "choose", "options": ["Das ist ein spannendes Buch, das gerade sehr bekannt ist.", "Das ist ein spannendes Buch, was gerade sehr bekannt ist.", "Das ist ein spannendes Buch, der gerade sehr bekannt ist."], "answer": 0, "showTextAfter": true, "explain": "das Buch es neutro, así que el relativo correcto es das, no was ni der." },
+    { "id": "e15", "type": "shadowing", "tags": ["relativas"], "difficulty": 2, "speak": "Die Frau, die dort sitzt, trägt eine auffällige rote Jacke und liest ein spannendes Buch, das gerade sehr bekannt ist.", "es": "La mujer que está sentada allí lleva una chaqueta roja llamativa y lee un libro emocionante que ahora mismo es muy conocido.", "ipa": "/diː fʁaʊ̯ diː dɔʁt zɪtst ˈtʁɛːkt ˈaɪ̯nə ˈaʊ̯ffɛlɪɡə ʁoːtə ˈjakə ʊnt liːst aɪ̯n ˈʃpanəndəs buːx das ɡəˈʁaːdə zeːɐ̯ bəˈkant ɪst/", "esApprox": "«di frau di dort zitst TRÉKT ÁI-ne ÁUF-fe-li-ge RÓ-te YÁ-ke unt list ain SHPÁ-nen-des buj, das ge-RÁ-de zer be-KANT ist»", "focus": "Descripción completa combinando relativa, adjetivo declinado y participio-adjetivo en una sola frase larga.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["relativas"], "difficulty": 2, "speak": "Kannst du das genauer beschreiben? Ich brauche eine Beschreibung mit den wichtigsten Eigenschaften.", "es": "¿Puedes describir eso con más precisión? Necesito una descripción con las características más importantes.", "ipa": "/kanst duː das ɡəˈnaʊ̯ɐ bəˈʃʁaɪ̯bn̩ ɪç ˈbʁaʊ̯xə ˈaɪ̯nə bəˈʃʁaɪ̯bʊŋ mɪt deːn ˈvɪçtɪçstn̩ ˈaɪ̯gn̩ʃaftn̩/", "esApprox": "«kanst du das ge-NAU-er be-SHRÁI-ben? ich BRÁU-je ÁI-ne be-SHRÁI-bung mit den VICH-tich-sten ÁI-guen-shaf-ten»", "focus": "beschreiben y die Beschreibung: pedir y dar una descripción precisa.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["relativas"], "difficulty": 2, "prompt": "Te piden que describas a una mujer sentada allí, con una chaqueta roja.", "modelAnswer": "Die Frau, die dort sitzt, trägt eine rote Jacke.", "alsoValid": ["Die Frau dort trägt eine rote Jacke."], "speak": "Die Frau, die dort sitzt, trägt eine rote Jacke.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["relativas"], "difficulty": 2, "prompt": "Clasifica cada expresión según su recurso", "buckets": ["Relativa", "Adjetivo/participio declinado"], "items": [
+      { "text": "die dort sitzt", "bucket": 0 },
+      { "text": "eine rote Jacke", "bucket": 1 },
+      { "text": "das gerade sehr bekannt ist", "bucket": 0 },
+      { "text": "ein beliebtes Restaurant", "bucket": 1 }
+    ], "explain": "Las relativas añaden información con su propio verbo; los adjetivos/participios se declinan directamente sobre el sustantivo." },
+    { "id": "e19", "type": "error_correction", "tags": ["relativas"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Die Frau, die dort sitzt, trägt eine rot Jacke.", "accept": ["Die Frau, die dort sitzt, trägt eine rote Jacke"], "audio": "Die Frau, die dort sitzt, trägt eine rote Jacke.", "explain": "Tras eine (femenino acusativo), el adjetivo lleva la terminación -e: eine rote Jacke." },
+    { "id": "e20", "type": "mcq", "tags": ["relativas"], "difficulty": 2, "prompt": "«Die Frau, die dort sitzt, trägt eine auffällige rote Jacke und liest ein spannendes Buch, das gerade sehr bekannt ist.» ¿Qué hace la mujer?", "options": ["Escribe un libro", "Lee un libro conocido", "Compra una chaqueta", "Habla con alguien"], "answer": 1, "explain": "«liest ein spannendes Buch, das gerade sehr bekannt ist» indica que lee un libro conocido." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "tragen", "es": "llevar (puesto)", "esApprox": "«TRÁ-guen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "bekannt", "es": "conocido", "esApprox": "«be-KANT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Jacke", "es": "la chaqueta", "esApprox": "«YÁ-ke»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "beliebt", "es": "popular, querido", "esApprox": "«be-LIPT»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Eigenschaft", "es": "la característica, la cualidad", "esApprox": "«ÁI-guen-shaft»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "beschreiben", "es": "describir", "esApprox": "«be-SHRÁI-ben»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Die Frau, die dort sitzt, trägt eine auffällige rote Jacke und liest ein spannendes Buch, das gerade sehr bekannt ist.", "es": "La mujer que está sentada allí lleva una chaqueta roja llamativa y lee un libro emocionante que ahora mismo es muy conocido.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Kannst du das genauer beschreiben? Ich brauche eine Beschreibung mit den wichtigsten Eigenschaften.", "es": "¿Puedes describir eso con más precisión? Necesito una descripción con las características más importantes.", "from": "e16" }
+  ]
+}

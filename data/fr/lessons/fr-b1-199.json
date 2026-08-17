@@ -1,0 +1,247 @@
+{
+  "id": "fr-b1-199",
+  "lang": "fr",
+  "level": "B1",
+  "order": 199,
+  "title": "Conectar ideas: d'abord, ensuite, enfin",
+  "objectives": [
+    "Usar d'abord, ensuite, puis y enfin para organizar una secuencia de ideas",
+    "Usar variantes más formales: en premier lieu, tout d'abord, pour finir",
+    "Practicar explicaciones ordenadas paso a paso"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Poner las ideas en orden",
+      "body": "Para explicar algo paso a paso, o estructurar una opinión, el francés usa conectores de secuencia: d'abord (inicio), ensuite/puis (medio) y enfin (final)."
+    },
+    {
+      "type": "table",
+      "title": "Conectores de secuencia",
+      "headers": ["Momento", "Conector"],
+      "rows": [
+        ["inicio", "d'abord, tout d'abord, en premier lieu"],
+        ["medio", "ensuite, puis, après cela"],
+        ["final", "enfin, pour finir"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Registro formal frente a informal",
+      "body": "En premier lieu y tout d'abord son más formales que d'abord solo; pour finir es un poco más formal que enfin. Ambos registros son correctos, pero elige según el contexto."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "d'abord", "es": "primero", "ipa": "/da.bɔʁ/", "esApprox": "«da-BOR»", "pos": "adverbio", "gender": null },
+    { "id": "v2", "target": "ensuite", "es": "luego, después", "ipa": "/ɑ̃.sɥit/", "esApprox": "«an-SÜÍT»", "pos": "adverbio", "gender": null },
+    { "id": "v3", "target": "puis", "es": "después, entonces", "ipa": "/pɥi/", "esApprox": "«PÜÍ»", "pos": "adverbio", "gender": null },
+    { "id": "v4", "target": "enfin", "es": "finalmente", "ipa": "/ɑ̃.fɛ̃/", "esApprox": "«an-FIN»", "pos": "adverbio", "gender": null },
+    { "id": "v5", "target": "en premier lieu", "es": "en primer lugar", "ipa": "/ɑ̃ pʁə.mje ljø/", "esApprox": "«an pre-MIÉ LIÖ»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "pour finir", "es": "para terminar", "ipa": "/puʁ fi.niʁ/", "esApprox": "«pur fi-NIR»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "après cela", "es": "después de eso", "ipa": "/a.pʁɛ sə.la/", "esApprox": "«a-PRE se-LA»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "tout d'abord", "es": "antes que nada, para empezar", "ipa": "/tu da.bɔʁ/", "esApprox": "«tu da-BOR»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "¿Cuál se usa para empezar una secuencia?",
+      "options": ["enfin", "d'abord", "ensuite", "puis"],
+      "answer": 1,
+      "explain": "D'abord marca el inicio de una secuencia."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "¿Cuál se usa para terminar?",
+      "options": ["d'abord", "ensuite", "enfin", "puis"],
+      "answer": 2,
+      "explain": "Enfin marca el final de una secuencia."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "statement": "Ensuite y puis pueden ser sinónimos en una secuencia.",
+      "answer": true,
+      "explain": "Ambos marcan un paso intermedio y son intercambiables en muchos contextos."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "statement": "En premier lieu es menos formal que d'abord.",
+      "answer": false,
+      "explain": "En premier lieu es más formal que d'abord, no menos."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Une cada conector con su momento",
+      "left": ["d'abord", "ensuite", "puis", "enfin"],
+      "right": ["inicio", "medio", "medio", "final"],
+      "answer": [0, 1, 2, 3],
+      "explain": "D'abord = inicio, ensuite y puis = medio, enfin = final."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Primero preparo la comida, luego pongo la mesa, y finalmente cenamos.",
+      "accept": ["D'abord je prépare le repas, ensuite je mets la table, et enfin nous dînons"],
+      "hintWords": ["d'abord je prépare le repas", "ensuite je mets la table, et enfin nous dînons"],
+      "strictAccents": true,
+      "audio": "D'abord je prépare le repas, ensuite je mets la table, et enfin nous dînons.",
+      "explain": "D'abord, ensuite y enfin marcando los tres momentos."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Para empezar, escucha con atención; después, toma notas; para terminar, haz un resumen.",
+      "accept": ["Tout d'abord, écoute attentivement, ensuite, prends des notes, pour finir, fais un résumé"],
+      "hintWords": ["tout d'abord, écoute attentivement", "ensuite, prends des notes, pour finir, fais un résumé"],
+      "strictAccents": true,
+      "audio": "Tout d'abord, écoute attentivement, ensuite, prends des notes, pour finir, fais un résumé.",
+      "explain": "Variante más formal: tout d'abord y pour finir."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Completa con el conector correcto",
+      "text": "___ je me lève, et ___ je pars travailler.",
+      "blanks": [{ "accept": ["D'abord"] }, { "accept": ["enfin"] }],
+      "bank": ["D'abord", "enfin", "ensuite"],
+      "explain": "D'abord (inicio) y enfin (final) de la secuencia."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Para terminar, muchas gracias»",
+      "tokens": ["merci beaucoup", "Pour finir"],
+      "answer": ["Pour finir", "merci beaucoup"],
+      "audio": "Pour finir, merci beaucoup.",
+      "explain": "Pour finir cierra una explicación o presentación."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Tout d'abord, je voudrais vous remercier, ensuite je vais présenter le projet, et pour finir, nous répondrons aux questions.",
+      "accept": ["Antes que nada, querría agradecerles, luego voy a presentar el proyecto, y para terminar, responderemos a las preguntas."],
+      "strictAccents": false,
+      "audio": "Tout d'abord, je voudrais vous remercier, ensuite je vais présenter le projet, et pour finir, nous répondrons aux questions.",
+      "explain": "Estructura típica de una presentación formal."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando tu rutina",
+      "turns": [
+        { "who": "Léa", "text": "Comment tu organises ta journée ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["D'abord je travaille, ensuite je me repose.", "Tout d'abord, je me lève tôt."], "hint": "usa un conector de secuencia" },
+        { "who": "Léa", "text": "Ça a l'air bien organisé !", "speak": true }
+      ],
+      "explain": "Repaso combinado de los conectores de secuencia."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "speak": "D'abord je prépare le repas, ensuite je mets la table, et enfin nous dînons.",
+      "mode": "write",
+      "accept": ["D'abord je prépare le repas, ensuite je mets la table, et enfin nous dînons"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de los tres conectores de secuencia."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["conectores"],
+      "difficulty": 1,
+      "speak": "enfin",
+      "mode": "choose",
+      "options": ["d'abord", "ensuite", "enfin", "puis"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Enfin marca el final de la secuencia."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["conectores"],
+      "difficulty": 3,
+      "speak": "Tout d'abord, écoute attentivement, ensuite, prends des notes, et pour finir, fais un résumé.",
+      "es": "Para empezar, escucha con atención, después, toma notas, y para terminar, haz un resumen.",
+      "ipa": "/tu da.bɔʁ e.kut a.tɑ̃.ti.vmɑ̃ ɑ̃.sɥit pʁɑ̃ de nɔt e puʁ fi.niʁ fɛ œ̃ ʁe.zy.me/",
+      "esApprox": "«tu da-BOR e-KÚT a-tan-tiv-MAN an-SÜÍT PRAN de NOT e pur fi-NIR FE un re-zü-MÉ»",
+      "focus": "Tres conectores de secuencia estructurando una explicación completa.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Explica los pasos de una tarea usando d'abord, ensuite y enfin.",
+      "modelAnswer": "D'abord je prépare le repas, ensuite je mets la table, et enfin nous dînons.",
+      "alsoValid": ["Tout d'abord, je me lève, puis je pars travailler."],
+      "speak": "D'abord je prépare le repas, ensuite je mets la table, et enfin nous dînons.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "¿Es un conector de inicio o de final?",
+      "buckets": ["Inicio", "Final"],
+      "items": [
+        { "text": "d'abord", "bucket": 0 },
+        { "text": "enfin", "bucket": 1 },
+        { "text": "tout d'abord", "bucket": 0 },
+        { "text": "pour finir", "bucket": 1 }
+      ],
+      "explain": "D'abord y tout d'abord marcan el inicio; enfin y pour finir marcan el final."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "prompt": "Hay un error: el orden lógico es d'abord antes que enfin. Corrige la frase entera.",
+      "wrong": "Enfin je me lève, d'abord je pars travailler.",
+      "accept": ["D'abord je me lève, enfin je pars travailler"],
+      "audio": "D'abord je me lève, enfin je pars travailler.",
+      "explain": "D'abord señala el inicio y enfin el final; no puede ir al revés."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "d'abord", "es": "primero", "esApprox": "«da-BOR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "ensuite", "es": "luego, después", "esApprox": "«an-SÜÍT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "puis", "es": "después, entonces", "esApprox": "«PÜÍ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "enfin", "es": "finalmente", "esApprox": "«an-FIN»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "en premier lieu", "es": "en primer lugar", "esApprox": "«an pre-MIÉ LIÖ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "pour finir", "es": "para terminar", "esApprox": "«pur fi-NIR»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "D'abord je prépare le repas, ensuite je mets la table, et enfin nous dînons.", "es": "Primero preparo la comida, luego pongo la mesa, y finalmente cenamos.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Tout d'abord, écoute attentivement, ensuite, prends des notes, pour finir, fais un résumé.", "es": "Para empezar, escucha con atención; después, toma notas; para terminar, haz un resumen.", "from": "e7" }
+  ]
+}

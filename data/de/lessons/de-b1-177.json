@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-177",
+  "lang": "de",
+  "level": "B1",
+  "order": 177,
+  "title": "Cuándo usar la forma propia y cuándo würde + infinitivo",
+  "objectives": [
+    "Entender por qué los verbos débiles casi nunca usan su propio Konjunktiv II",
+    "Reconocer qué verbos fuertes frecuentes conservan una forma propia natural (sein, haben, wissen, kommen, gehen, geben...)",
+    "Preferir würde + infinitivo con el resto de verbos fuertes, cuya forma propia suena anticuada"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Por qué los verbos débiles evitan su propia forma",
+      "body": "En los verbos débiles (regulares), el Konjunktiv II propio sería idéntico al Präteritum: «ich machte» significaría a la vez «yo hacía» (real) e «yo haría» (hipotético), lo cual sería ambiguo. Por eso, con verbos débiles siempre se usa würde + infinitivo: «Ich würde das machen», nunca «Ich machte das» con sentido hipotético.",
+      "examples": [
+        { "target": "Ich würde das kaufen.", "es": "Yo compraría eso." },
+        { "target": "Er würde mehr arbeiten, wenn er Zeit hätte.", "es": "Él trabajaría más si tuviera tiempo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Qué forma usar según el verbo",
+      "headers": ["Tipo de verbo", "Forma preferida", "Ejemplo"],
+      "rows": [
+        ["Verbos débiles (machen, kaufen, lernen...)", "würde + infinitivo", "Ich würde das machen."],
+        ["sein, haben, werden, los modales", "Forma propia (frecuente)", "Ich wäre, ich hätte, ich könnte..."],
+        ["wissen, kommen, gehen, geben, lassen, finden", "Forma propia (aún natural)", "Ich wüsste, ich käme, ich ginge..."],
+        ["Otros verbos fuertes (helfen, schwimmen...)", "würde + infinitivo (más natural)", "Ich würde ihm helfen."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Formas propias como «hülfe» (de helfen) o «schwömme» (de schwimmen) existen gramaticalmente, pero suenan anticuadas o muy literarias; en alemán actual casi nadie las usa en la conversación. Ante la duda, würde + infinitivo siempre es una opción segura y natural."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "eindeutig", "es": "inequívoco, claro", "ipa": "/ˈaɪ̯ndɔɪ̯tɪç/", "esApprox": "«ÁIN-doi-tich»", "pos": "adjetivo", "gender": null, "example": { "target": "Die Bedeutung ist nicht eindeutig.", "es": "El significado no es inequívoco." } },
+    { "id": "v2", "target": "veraltet", "es": "anticuado", "ipa": "/fɛɐ̯ˈʔaltət/", "esApprox": "«fer-ÁL-tet»", "pos": "adjetivo", "gender": null, "example": { "target": "Diese Form klingt veraltet.", "es": "Esta forma suena anticuada." } },
+    { "id": "v3", "target": "vermeiden", "es": "evitar", "ipa": "/fɛɐ̯ˈmaɪ̯dn̩/", "esApprox": "«fer-MÁI-den»", "pos": "verbo", "gender": null, "example": { "target": "Man vermeidet diese Formen im Alltag.", "es": "Se evitan estas formas en el día a día." } },
+    { "id": "v4", "target": "die Zweideutigkeit", "es": "la ambigüedad", "ipa": "/ˈtsvaɪ̯dɔɪ̯tɪçkaɪ̯t/", "esApprox": "«TSVÁI-doi-tich-kait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das führt zu Zweideutigkeit.", "es": "Eso lleva a la ambigüedad." } },
+    { "id": "v5", "target": "der Alltag", "es": "el día a día, la vida cotidiana", "ipa": "/ˈalˌtaːk/", "esApprox": "«AL-tak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Im Alltag benutzt man meistens würde.", "es": "En el día a día se usa mayoritariamente würde." } },
+    { "id": "v6", "target": "üblicherweise", "es": "normalmente, habitualmente", "ipa": "/ˈyːplɪçɐˌvaɪ̯zə/", "esApprox": "«IÚP-li-cher-vai-ze»", "pos": "adverbio", "gender": null, "example": { "target": "Üblicherweise sagt man würde.", "es": "Normalmente se dice würde." } },
+    { "id": "v7", "target": "die Sicherheit", "es": "la seguridad", "ipa": "/ˈzɪçɐhaɪ̯t/", "esApprox": "«ZÍ-cher-jait»", "pos": "sustantivo", "gender": "f", "example": { "target": "würde gibt dir immer Sicherheit.", "es": "würde siempre te da seguridad." } },
+    { "id": "v8", "target": "literarisch", "es": "literario", "ipa": "/lɪtəˈʁaːʁɪʃ/", "esApprox": "«li-te-RÁ-rish»", "pos": "adjetivo", "gender": null, "example": { "target": "Diese Form ist eher literarisch.", "es": "Esta forma es más bien literaria." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["konjunktiv-ii", "wurde"], "difficulty": 1, "prompt": "¿Por qué los verbos débiles usan würde + infinitivo?", "options": ["Porque no tienen Konjunktiv II", "Porque su forma propia sería igual al Präteritum", "Por tradición sin razón", "Porque es más corto"], "answer": 1, "explain": "El Konjunktiv II propio de un verbo débil sería idéntico al Präteritum: ambiguo." },
+    { "id": "e2", "type": "mcq", "tags": ["konjunktiv-ii", "wurde"], "difficulty": 2, "prompt": "¿Qué verbos fuertes conservan aún una forma propia natural?", "options": ["helfen, schwimmen", "wissen, kommen, gehen, geben", "kaufen, lernen", "spielen, machen"], "answer": 1, "explain": "wissen, kommen, gehen, geben, lassen, finden son muy frecuentes con forma propia." },
+    { "id": "e3", "type": "true_false", "tags": ["konjunktiv-ii"], "difficulty": 2, "statement": "«hülfe» (de helfen) es una forma muy usada en la conversación actual.", "answer": false, "explain": "Suena anticuada; en alemán actual se prefiere würde helfen." },
+    { "id": "e4", "type": "true_false", "tags": ["wurde"], "difficulty": 2, "statement": "würde + infinitivo siempre es una opción segura, aunque no sea la más elegante.", "answer": true, "explain": "würde da siempre seguridad y suena natural, incluso con verbos que tienen forma propia." },
+    { "id": "e5", "type": "match_pairs", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Une cada verbo con la forma que se prefiere en la conversación", "left": ["machen", "sein", "helfen", "wissen"], "right": ["würde machen", "wäre", "würde helfen", "wüsste"], "answer": [0, 1, 2, 3], "explain": "Débiles y verbos fuertes menos frecuentes usan würde; sein y wissen conservan forma propia." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["wurde"], "difficulty": 2, "prompt": "Yo compraría eso.", "accept": ["Ich würde das kaufen"], "hintWords": ["ich würde das kaufen"], "strictAccents": false, "audio": "Ich würde das kaufen.", "explain": "kaufen es débil: siempre würde + infinitivo." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "En el día a día se usa mayoritariamente würde.", "accept": ["Im Alltag benutzt man meistens würde"], "hintWords": ["im Alltag benutzt man meistens würde"], "strictAccents": false, "audio": "Im Alltag benutzt man meistens würde.", "explain": "Im Alltag (posición 1) + benutzt (posición 2) + man + meistens + würde." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Esta forma suena anticuada.", "accept": ["Diese Form klingt veraltet"], "hintWords": ["diese Form klingt veraltet"], "strictAccents": false, "audio": "Diese Form klingt veraltet.", "explain": "klingt + veraltet: verbo de percepción con adjetivo predicativo." },
+    { "id": "e9", "type": "fill_blank", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Completa con la forma correcta", "text": "Ich ___ ihm helfen, wenn ich Zeit hätte. Ich ___ das gern.", "blanks": [{ "accept": ["würde"] }, { "accept": ["wüsste"] }], "bank": ["würde", "wüsste", "hülfe"], "explain": "würde helfen (helfen ya casi no usa forma propia); wüsste (forma propia natural de wissen)." },
+    { "id": "e10", "type": "word_order", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Ordena: «Eso lleva a la ambigüedad»", "tokens": ["zu Zweideutigkeit", "Das führt"], "answer": ["Das führt", "zu Zweideutigkeit"], "audio": "Das führt zu Zweideutigkeit.", "explain": "Das (sujeto) + führt (posición 2) + zu Zweideutigkeit." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Man vermeidet diese Formen im Alltag.", "accept": ["Se evitan estas formas en el día a día."], "strictAccents": false, "audio": "Man vermeidet diese Formen im Alltag.", "explain": "man vermeidet: repaso de man (clase 169)." },
+    { "id": "e12", "type": "dialogue", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Würdest du das kaufen, oder kauftest du das?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich würde das kaufen, denn kauftest hätte keinen Sinn."], "hint": "explica por qué se usa würde con verbos débiles" },
+      { "who": "Lea", "text": "Genau, gute Erklärung!", "speak": true }
+    ], "explain": "Con verbos débiles, la forma propia sería idéntica al Präteritum y sin sentido de condicional." },
+    { "id": "e13", "type": "listening", "tags": ["wurde"], "difficulty": 1, "speak": "Ich würde das kaufen.", "mode": "write", "accept": ["Ich würde das kaufen"], "showTextAfter": true, "explain": "würde + infinitivo con un verbo débil." },
+    { "id": "e14", "type": "listening", "tags": ["konjunktiv-ii"], "difficulty": 2, "speak": "Diese Form klingt veraltet.", "mode": "choose", "options": ["Diese Form klingt veraltet.", "Diese Form klingt eindeutig.", "Diese Form klingt üblich."], "answer": 0, "showTextAfter": true, "explain": "veraltet = anticuado, el matiz clave de esta clase." },
+    { "id": "e15", "type": "shadowing", "tags": ["konjunktiv-ii"], "difficulty": 2, "speak": "Im Alltag benutzt man meistens würde, weil die eigene Form der schwachen Verben zu Zweideutigkeit führen würde.", "es": "En el día a día se usa mayoritariamente würde, porque la forma propia de los verbos débiles llevaría a la ambigüedad.", "ipa": "/ɪm ˈaltaːk bəˈnʊtst man ˈmaɪ̯stns̩ ˈvʏʁdə vaɪ̯l diː ˈaɪ̯gənə fɔʁm deːɐ̯ ˈʃvaxn̩ ˈvɛʁbn̩ tsuː ˈtsvaɪ̯dɔɪ̯tɪçkaɪ̯t ˈfyːʁən ˈvʏʁdə/", "esApprox": "«im AL-tak be-NUTST man MÁI-stens VUR-de, vail di ÁI-ge-ne form der SHVA-jen VER-ben tsu TSVÁI-doi-tich-kait FÍU-ren VUR-de»", "focus": "die eigene Form...führen würde: una subordinada con würde dentro de una explicación gramatical.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["konjunktiv-ii"], "difficulty": 2, "speak": "Formen wie hülfe oder schwömme klingen veraltet und literarisch; man vermeidet sie üblicherweise im Alltag.", "es": "Formas como hülfe o schwömme suenan anticuadas y literarias; normalmente se evitan en el día a día.", "ipa": "/ˈfɔʁmən viː ˈhʏlfə ˈoːdɐ ˈʃvœmə klɪŋən fɛɐ̯ˈʔaltət ʊnt lɪtəˈʁaːʁɪʃ man fɛɐ̯ˈmaɪ̯dət ziː ˈyːplɪçɐvaɪ̯zə ɪm ˈaltaːk/", "esApprox": "«FOR-men vi JÜL-fe Ó-der SHVÖ-me KLÍN-guen fer-ÁL-tet unt li-te-RÁ-rish, man fer-MÁI-det zi IÚP-li-cher-vai-ze im AL-tak»", "focus": "veraltet, literarisch y vermeidet: el vocabulario para describir formas gramaticales en desuso.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["wurde"], "difficulty": 2, "prompt": "Alguien te pregunta si comprarías algo. Responde con würde, porque kaufen es un verbo débil.", "modelAnswer": "Ich würde das kaufen.", "alsoValid": ["Ja, ich würde es kaufen."], "speak": "Ich würde das kaufen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Clasifica cada verbo según la forma preferida en la conversación", "buckets": ["Forma propia (natural)", "würde + infinitivo (preferido)"], "items": [
+      { "text": "sein", "bucket": 0 },
+      { "text": "kaufen", "bucket": 1 },
+      { "text": "wissen", "bucket": 0 },
+      { "text": "helfen", "bucket": 1 }
+    ], "explain": "sein y wissen conservan forma propia natural; kaufen (débil) y helfen (poco frecuente en forma propia) prefieren würde." },
+    { "id": "e19", "type": "error_correction", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich hülfe dir gern morgen.", "accept": ["Ich würde dir gern morgen helfen"], "audio": "Ich würde dir gern morgen helfen.", "explain": "hülfe suena muy anticuado; en la conversación actual se prefiere würde helfen." },
+    { "id": "e20", "type": "mcq", "tags": ["konjunktiv-ii"], "difficulty": 2, "prompt": "«Im Alltag benutzt man meistens würde, weil die eigene Form der schwachen Verben zu Zweideutigkeit führen würde. Formen wie hülfe klingen veraltet.» ¿Por qué se prefiere würde con los verbos débiles?", "options": ["Porque suena más formal", "Porque su forma propia sería ambigua con el Präteritum", "Porque es más corto de escribir", "Porque no tienen Präteritum"], "answer": 1, "explain": "«zu Zweideutigkeit führen würde» explica que la forma propia sería ambigua." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "eindeutig", "es": "inequívoco, claro", "esApprox": "«ÁIN-doi-tich»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "veraltet", "es": "anticuado", "esApprox": "«fer-ÁL-tet»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "vermeiden", "es": "evitar", "esApprox": "«fer-MÁI-den»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Zweideutigkeit", "es": "la ambigüedad", "esApprox": "«TSVÁI-doi-tich-kait»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Alltag", "es": "el día a día, la vida cotidiana", "esApprox": "«AL-tak»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "üblicherweise", "es": "normalmente, habitualmente", "esApprox": "«IÚP-li-cher-vai-ze»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Im Alltag benutzt man meistens würde, weil die eigene Form der schwachen Verben zu Zweideutigkeit führen würde.", "es": "En el día a día se usa mayoritariamente würde, porque la forma propia de los verbos débiles llevaría a la ambigüedad.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Formen wie hülfe oder schwömme klingen veraltet und literarisch; man vermeidet sie üblicherweise im Alltag.", "es": "Formas como hülfe o schwömme suenan anticuadas y literarias; normalmente se evitan en el día a día.", "from": "e16" }
+  ]
+}

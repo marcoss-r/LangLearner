@@ -1,0 +1,266 @@
+{
+  "id": "fr-a1-078",
+  "lang": "fr",
+  "level": "A1",
+  "order": 78,
+  "title": "El passé composé I: con avoir",
+  "objectives": [
+    "Formar el passé composé de los verbos -er y -ir regulares: avoir (presente) + participio pasado",
+    "Formar el participio pasado regular: -er → -é, -ir → -i",
+    "Usar el passé composé para hablar de acciones terminadas en el pasado"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El passé composé: el pasado más usado en francés",
+      "body": "El passé composé es el tiempo más habitual para hablar del pasado en francés hablado. Se forma con avoir (presente, clase 10) + el participio pasado del verbo principal.",
+      "examples": [
+        { "target": "J'ai parlé avec mon professeur hier.", "es": "Hablé con mi profesor ayer.", "note": "avoir (ai) + participio (parlé)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El participio pasado regular",
+      "headers": ["Terminación del infinitivo", "Terminación del participio", "Ejemplo"],
+      "rows": [
+        ["-er (parler)", "-é", "parlé"],
+        ["-ir (finir)", "-i", "fini"]
+      ],
+      "note": "La mayoría de los verbos -er y -ir siguen esta regla sin excepción."
+    },
+    {
+      "type": "table",
+      "title": "Passé composé de parler, todas las personas",
+      "headers": ["Persona", "Forma"],
+      "rows": [
+        ["j'", "ai parlé"],
+        ["tu", "as parlé"],
+        ["il / elle", "a parlé"],
+        ["nous", "avons parlé"],
+        ["vous", "avez parlé"],
+        ["ils / elles", "ont parlé"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "La negación del passé composé"
+      ,
+      "items": [
+        { "wrong": "Je ai pas parlé.", "right": "Je n'ai pas parlé.", "why": "Ne...pas (clase 19) rodea el verbo conjugado avoir, no el participio: ne + ai + pas + parlé." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "parlé", "es": "hablado", "ipa": "/paʁ.le/", "esApprox": "«par-LÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai parlé avec elle.", "es": "Hablé con ella." } },
+    { "id": "v2", "target": "mangé", "es": "comido", "ipa": "/mɑ̃.ʒe/", "esApprox": "«man-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Nous avons mangé à midi.", "es": "Comimos al mediodía." } },
+    { "id": "v3", "target": "fini", "es": "terminado", "ipa": "/fi.ni/", "esApprox": "«fi-NÍ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai fini mon travail.", "es": "Terminé mi trabajo." } },
+    { "id": "v4", "target": "choisi", "es": "elegido", "ipa": "/ʃwa.zi/", "esApprox": "«shuá-ZÍ»", "pos": "verbo", "gender": null, "example": { "target": "Tu as choisi un livre ?", "es": "¿Has elegido un libro?" } },
+    { "id": "v5", "target": "hier", "es": "ayer", "ipa": "/jɛʁ/", "esApprox": "«IER»", "pos": "adverbio", "gender": null, "example": { "target": "J'ai travaillé hier.", "es": "Trabajé ayer." } },
+    { "id": "v6", "target": "la semaine dernière", "es": "la semana pasada", "ipa": "/la sə.mɛn dɛʁ.njɛʁ/", "esApprox": "«la se-MEN der-NIER»", "pos": "expresión", "gender": null, "example": { "target": "J'ai étudié la semaine dernière.", "es": "Estudié la semana pasada." } },
+    { "id": "v7", "target": "déjà", "es": "ya", "ipa": "/de.ʒa/", "esApprox": "«de-YA»", "pos": "adverbio", "gender": null, "example": { "target": "J'ai déjà mangé.", "es": "Ya he comido." } },
+    { "id": "v8", "target": "pas encore", "es": "todavía no", "ipa": "/pa.z‿ɑ̃.kɔʁ/", "esApprox": "«pa-zan-KOR»", "pos": "expresión", "gender": null, "example": { "target": "Je n'ai pas encore fini.", "es": "Todavía no he terminado." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "avoir"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se forma el participio de un verbo -er regular?",
+      "options": ["radical + -i", "radical + -é", "radical + -u", "no cambia"],
+      "answer": 1,
+      "explain": "Parler → parlé: -er se convierte en -é."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose", "avoir"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «hablé con mi profesor»?",
+      "options": ["J'ai parlé avec mon professeur.", "Je parle avec mon professeur.", "J'ai parler avec mon professeur.", "Je suis parlé avec mon professeur."],
+      "answer": 0,
+      "explain": "Avoir (ai) + participio (parlé)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "statement": "El participio de un verbo -ir regular termina en -i.",
+      "answer": true,
+      "explain": "Finir → fini, choisir → choisi."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "statement": "La negación del passé composé rodea el participio pasado, no avoir.",
+      "answer": false,
+      "explain": "Ne...pas rodea avoir (el verbo conjugado): je n'ai pas parlé."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Une cada persona con su forma de avoir en passé composé",
+      "left": ["j'", "tu", "nous", "ils"],
+      "right": ["ont", "ai", "as", "avons"],
+      "answer": [1, 2, 3, 0],
+      "explain": "J'ai, tu as, nous avons, ils ont."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "avoir"],
+      "difficulty": 2,
+      "prompt": "Comí a mediodía y terminé mi trabajo ayer.",
+      "accept": ["J'ai mangé à midi et j'ai fini mon travail hier"],
+      "hintWords": ["j'ai mangé à midi", "j'ai fini mon travail hier"],
+      "strictAccents": false,
+      "audio": "J'ai mangé à midi et j'ai fini mon travail hier.",
+      "explain": "Avoir + participio (-é y -i) para dos acciones pasadas."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Ya he comido, pero todavía no he terminado.",
+      "accept": ["J'ai déjà mangé, mais je n'ai pas encore fini"],
+      "hintWords": ["j'ai déjà mangé", "je n'ai pas encore fini"],
+      "strictAccents": false,
+      "audio": "J'ai déjà mangé, mais je n'ai pas encore fini.",
+      "explain": "Déjà (ya) frente a pas encore (todavía no), con passé composé."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de avoir",
+      "text": "Tu ___ choisi un livre, et nous ___ mangé ensemble.",
+      "blanks": [{ "accept": ["as"] }, { "accept": ["avons"] }],
+      "bank": ["as", "avons", "ont"],
+      "explain": "Tu as choisi, nous avons mangé."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Estudié la semana pasada»",
+      "tokens": ["la semaine dernière", "étudié", "J'ai"],
+      "answer": ["J'ai", "étudié", "la semaine dernière"],
+      "audio": "J'ai étudié la semaine dernière.",
+      "explain": "J'ai + étudié + la semaine dernière."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Ils ont parlé et elles ont choisi un restaurant.",
+      "accept": ["Ellos hablaron y ellas eligieron un restaurante."],
+      "strictAccents": false,
+      "audio": "Ils ont parlé et elles ont choisi un restaurant.",
+      "explain": "Ils ont parlé (-er) et elles ont choisi (-ir)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre lo que hiciste ayer",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu as fait hier ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["J'ai travaillé.", "J'ai mangé avec des amis.", "J'ai étudié."], "hint": "usa el passé composé" },
+        { "who": "Léa", "text": "Ah, super !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu as fait...? se responde con avoir + participio."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "speak": "J'ai parlé avec mon professeur et j'ai choisi mes cours hier.",
+      "mode": "write",
+      "accept": ["J'ai parlé avec mon professeur et j'ai choisi mes cours hier"],
+      "showTextAfter": true,
+      "explain": "Dos verbos en passé composé en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-compose"],
+      "difficulty": 1,
+      "speak": "nous avons mangé",
+      "mode": "choose",
+      "options": ["j'ai mangé", "nous avons mangé", "ils ont mangé", "vous avez mangé"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Nous avons mangé = comimos."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose"],
+      "difficulty": 3,
+      "speak": "Hier, j'ai travaillé, j'ai mangé avec des amis, et j'ai fini très fatigué.",
+      "es": "Ayer, trabajé, comí con amigos, y terminé muy cansado.",
+      "ipa": "/jɛʁ ʒe tʁa.vaj.e ʒe mɑ̃.ʒe a.vɛk de.z‿a.mi e ʒe fi.ni tʁɛ fa.ti.ɡe/",
+      "esApprox": "«IER ye tra-va-YÉ ye man-YÉ a-VEK de-za-MÍ e ye fi-NÍ tre fa-ti-GUÉ»",
+      "focus": "Tres acciones seguidas en passé composé, con avoir.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Di tres cosas que hiciste ayer.",
+      "modelAnswer": "Hier, j'ai travaillé, j'ai mangé avec des amis et j'ai étudié le français.",
+      "alsoValid": ["J'ai fini mon travail et j'ai choisi un livre."],
+      "speak": "Hier, j'ai travaillé, j'ai mangé avec des amis et j'ai étudié le français.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Es un participio de un verbo -er o de un verbo -ir?",
+      "buckets": ["Verbo -er", "Verbo -ir"],
+      "items": [
+        { "text": "parlé", "bucket": 0 },
+        { "text": "fini", "bucket": 1 },
+        { "text": "mangé", "bucket": 0 },
+        { "text": "choisi", "bucket": 1 }
+      ],
+      "explain": "Parlé y mangé son -er (→ -é); fini y choisi son -ir (→ -i)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Hay un error de posición de la negación. Corrige la frase entera.",
+      "wrong": "Je ai pas parlé.",
+      "accept": ["Je n'ai pas parlé"],
+      "audio": "Je n'ai pas parlé.",
+      "explain": "Ne...pas rodea avoir: je n'ai pas parlé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "parlé", "es": "hablado", "esApprox": "«par-LÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "mangé", "es": "comido", "esApprox": "«man-YÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "fini", "es": "terminado", "esApprox": "«fi-NÍ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "hier", "es": "ayer", "esApprox": "«IER»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "déjà", "es": "ya", "esApprox": "«de-YA»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "pas encore", "es": "todavía no", "esApprox": "«pa-zan-KOR»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai mangé à midi et j'ai fini mon travail hier.", "es": "Comí a mediodía y terminé mi trabajo ayer.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai déjà mangé, mais je n'ai pas encore fini.", "es": "Ya he comido, pero todavía no he terminado.", "from": "e7" }
+  ]
+}

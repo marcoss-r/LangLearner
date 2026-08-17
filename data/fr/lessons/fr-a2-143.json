@@ -1,0 +1,257 @@
+{
+  "id": "fr-a2-143",
+  "lang": "fr",
+  "level": "A2",
+  "order": 143,
+  "title": "El carácter y las relaciones personales",
+  "objectives": [
+    "Ampliar el vocabulario del carácter más allá de gentil/sympa (clase A1-028)",
+    "Aprender vocabulario para hablar de relaciones personales",
+    "Practicar frases para describir a alguien y su relación contigo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Describir a las personas y sus relaciones",
+      "body": "Sin gramática nueva. Vocabulario más rico para el carácter: têtu, généreux, franc, and vocabulario de relaciones: faire confiance à, se disputer, s'entendre bien.",
+      "examples": [
+        { "target": "Il est têtu, mais très franc. Je m'entends bien avec lui.", "es": "Es terco, pero muy sincero. Me llevo bien con él.", "note": "être + adjetivo + s'entendre bien avec" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del carácter",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["têtu / têtue", "terco/a"],
+        ["généreux / généreuse", "generoso/a"],
+        ["franc / franche", "sincero/a"],
+        ["timide", "tímido/a"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de las relaciones",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["faire confiance à quelqu'un", "confiar en alguien"],
+        ["se disputer", "pelearse, discutir"],
+        ["s'entendre bien / mal avec", "llevarse bien / mal con"],
+        ["se réconcilier", "reconciliarse"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "têtu / têtue", "es": "terco/a", "ipa": "/tɛ.ty/", "esApprox": "«te-TÜ»", "pos": "adjetivo", "gender": null, "example": { "target": "Il est têtu, il ne change jamais d'avis.", "es": "Es terco, nunca cambia de opinión." } },
+    { "id": "v2", "target": "franc / franche", "es": "sincero/a", "ipa": "/fʁɑ̃ fʁɑ̃ʃ/", "esApprox": "«FRAN FRANSH»", "pos": "adjetivo", "gender": null, "example": { "target": "Elle est très franche avec moi.", "es": "Es muy sincera conmigo." } },
+    { "id": "v3", "target": "timide", "es": "tímido/a", "ipa": "/ti.mid/", "esApprox": "«ti-MID»", "pos": "adjetivo", "gender": null, "example": { "target": "Il est timide au début.", "es": "Es tímido al principio." } },
+    { "id": "v4", "target": "faire confiance à quelqu'un", "es": "confiar en alguien", "ipa": "/fɛʁ kɔ̃.fjɑ̃s a kɛl.kœ̃/", "esApprox": "«fer kon-FIANS a kel-KUN»", "pos": "expresión", "gender": null, "example": { "target": "Je fais confiance à mes amis.", "es": "Confío en mis amigos." } },
+    { "id": "v5", "target": "se disputer", "es": "pelearse, discutir", "ipa": "/sə dis.py.te/", "esApprox": "«se dis-pü-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "On s'est disputés hier soir.", "es": "Nos peleamos anoche." } },
+    { "id": "v6", "target": "s'entendre bien avec", "es": "llevarse bien con", "ipa": "/sɑ̃.tɑ̃dʁ bjɛ̃ a.vɛk/", "esApprox": "«san-TANDR bien a-VEK»", "pos": "expresión", "gender": null, "example": { "target": "Je m'entends bien avec lui.", "es": "Me llevo bien con él." } },
+    { "id": "v7", "target": "se réconcilier", "es": "reconciliarse", "ipa": "/sə ʁe.kɔ̃.si.lje/", "esApprox": "«se re-kon-si-LIÉ»", "pos": "verbo", "gender": null, "example": { "target": "On s'est réconciliés ce matin.", "es": "Nos reconciliamos esta mañana." } },
+    { "id": "v8", "target": "un(e) meilleur(e) ami(e)", "es": "un(a) mejor amigo/a", "ipa": "/œ̃ mɛ.jœʁ a.mi/", "esApprox": "«un me-YÖR a-MÍ»", "pos": "sustantivo", "gender": "m", "example": { "target": "C'est ma meilleure amie.", "es": "Es mi mejor amiga." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me llevo bien con él»?",
+      "options": ["Je m'entends bien avec lui.", "Je fais confiance à lui.", "Je me dispute avec lui.", "Je suis franc avec lui."],
+      "answer": 0,
+      "explain": "S'entendre bien avec = llevarse bien con."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «têtu»?",
+      "options": ["generoso", "terco", "tímido", "sincero"],
+      "answer": 1,
+      "explain": "Têtu = terco."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "statement": "Se disputer y se réconcilier son opuestos.",
+      "answer": true,
+      "explain": "Se disputer = pelearse; se réconcilier = reconciliarse."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "statement": "Faire confiance à quelqu'un significa desconfiar de alguien.",
+      "answer": false,
+      "explain": "Faire confiance à quelqu'un significa confiar en alguien, no desconfiar."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["franc", "timide", "se disputer", "se réconcilier"],
+      "right": ["reconciliarse", "sincero", "tímido", "pelearse"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Franc = sincero, timide = tímido, se disputer = pelearse, se réconcilier = reconciliarse."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "Es terco, pero muy sincero. Me llevo bien con él.",
+      "accept": ["Il est têtu, mais très franc. Je m'entends bien avec lui"],
+      "hintWords": ["il est têtu, mais très franc", "je m'entends bien avec lui"],
+      "strictAccents": true,
+      "audio": "Il est têtu, mais très franc. Je m'entends bien avec lui.",
+      "explain": "Être têtu/franc + s'entendre bien avec."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "Nos peleamos anoche, pero nos reconciliamos esta mañana.",
+      "accept": ["On s'est disputés hier soir, mais on s'est réconciliés ce matin"],
+      "hintWords": ["on s'est disputés hier soir", "on s'est réconciliés ce matin"],
+      "strictAccents": true,
+      "audio": "On s'est disputés hier soir, mais on s'est réconciliés ce matin.",
+      "explain": "Se disputer + se réconcilier, ambos en passé composé pronominal."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Je ___ confiance à mes amis, je m'___ bien avec eux.",
+      "blanks": [{ "accept": ["fais"] }, { "accept": ["entends"] }],
+      "bank": ["fais", "entends", "dispute"],
+      "explain": "Faire confiance à + s'entendre bien avec."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es tímido al principio»",
+      "tokens": ["au début", "Il est timide"],
+      "answer": ["Il est timide", "au début"],
+      "audio": "Il est timide au début.",
+      "explain": "Il est timide + au début."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "C'est ma meilleure amie, elle est généreuse et très franche, je lui fais totalement confiance.",
+      "accept": ["Es mi mejor amiga, es generosa y muy sincera, confío totalmente en ella."],
+      "strictAccents": false,
+      "audio": "C'est ma meilleure amie, elle est généreuse et très franche, je lui fais totalement confiance.",
+      "explain": "Meilleure amie + généreuse/franche + faire confiance."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre un amigo",
+      "turns": [
+        { "who": "Léa", "text": "Comment est ton nouveau collègue ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il est un peu têtu, mais très franc.", "Je m'entends bien avec lui."], "hint": "describe su carácter" },
+        { "who": "Léa", "text": "Ah, ça a l'air d'aller alors !", "speak": true }
+      ],
+      "explain": "Comment est...? se responde con adjetivos de carácter."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "speak": "Il est têtu et un peu timide, mais je fais confiance à lui, et on s'entend très bien.",
+      "mode": "write",
+      "accept": ["Il est têtu et un peu timide, mais je fais confiance à lui, et on s'entend très bien"],
+      "showTextAfter": true,
+      "explain": "Carácter + relación, combinados en una frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 1,
+      "speak": "se réconcilier",
+      "mode": "choose",
+      "options": ["se disputer", "se réconcilier", "faire confiance", "s'entendre bien"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Se réconcilier = reconciliarse."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 3,
+      "speak": "On s'est disputés hier, mais on s'est réconciliés ce matin, parce que je lui fais confiance et on s'entend bien.",
+      "es": "Nos peleamos ayer, pero nos reconciliamos esta mañana, porque confío en él/ella y nos llevamos bien.",
+      "ipa": "/ɔ̃ sɛ dis.py.te i.jɛʁ mɛ ɔ̃ sɛ ʁe.kɔ̃.si.lje sə ma.tɛ̃ paʁs.kə ʒə lɥi fɛ kɔ̃.fjɑ̃s e ɔ̃ sɑ̃.tɑ̃dʁ bjɛ̃/",
+      "esApprox": "«on se dis-pü-TÉ ier me on se re-kon-si-LIÉ se ma-TEN par-ske ye lüí fe kon-FIANS e on san-TANDR bien»",
+      "focus": "Una pequeña historia de relación con varios verbos pronominales.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "Describe el carácter de tu mejor amigo o amiga y tu relación con él/ella.",
+      "modelAnswer": "Ma meilleure amie est généreuse et franche, on s'entend très bien.",
+      "alsoValid": ["Il est têtu, mais je lui fais confiance."],
+      "speak": "Ma meilleure amie est généreuse et franche, on s'entend très bien.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "¿Es un rasgo de carácter o una acción en una relación?",
+      "buckets": ["Carácter", "Acción en una relación"],
+      "items": [
+        { "text": "têtu", "bucket": 0 },
+        { "text": "se disputer", "bucket": 1 },
+        { "text": "franc", "bucket": 0 },
+        { "text": "se réconcilier", "bucket": 1 }
+      ],
+      "explain": "Têtu y franc son rasgos de carácter; se disputer y se réconcilier, acciones en una relación."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["caracter", "relaciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error de acuerdo. Corrige la frase entera.",
+      "wrong": "Elle est très franc avec moi.",
+      "accept": ["Elle est très franche avec moi"],
+      "audio": "Elle est très franche avec moi.",
+      "explain": "Elle (femenino) necesita franche, no franc (masculino)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "têtu / têtue", "es": "terco/a", "esApprox": "«te-TÜ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "franc / franche", "es": "sincero/a", "esApprox": "«FRAN FRANSH»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "timide", "es": "tímido/a", "esApprox": "«ti-MID»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "faire confiance à quelqu'un", "es": "confiar en alguien", "esApprox": "«fer kon-FIANS a kel-KUN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "se disputer", "es": "pelearse, discutir", "esApprox": "«se dis-pü-TÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "s'entendre bien avec", "es": "llevarse bien con", "esApprox": "«san-TANDR bien a-VEK»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Il est têtu, mais très franc. Je m'entends bien avec lui.", "es": "Es terco, pero muy sincero. Me llevo bien con él.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "On s'est disputés hier soir, mais on s'est réconciliés ce matin.", "es": "Nos peleamos anoche, pero nos reconciliamos esta mañana.", "from": "e7" }
+  ]
+}

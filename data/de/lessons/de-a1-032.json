@@ -1,0 +1,384 @@
+{
+  "id": "de-a1-032",
+  "lang": "de",
+  "level": "A1",
+  "order": 32,
+  "title": "La rutina diaria",
+  "objectives": [
+    "Describir tu rutina diaria combinando verbos ya conocidos (aufstehen, arbeiten) con otros nuevos (duschen, frühstücken, schlafen)",
+    "Combinar la rutina con la hora usando um + hora + verbo",
+    "Practicar schlafen, un verbo con cambio de vocal a → ä, dentro de frases completas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Contar tu día, paso a paso",
+      "body": "Con lo que ya sabes (los verbos separables, la hora, el presente) puedes describir tu rutina diaria entera. Solo hace falta un puñado de verbos nuevos: duschen (ducharse), frühstücken (desayunar) y schlafen (dormir, con cambio de vocal a → ä).",
+      "examples": [
+        { "target": "Ich stehe um sieben Uhr auf.", "es": "Me levanto a las siete.", "note": "aufstehen + hora" },
+        { "target": "Ich dusche.", "es": "Me ducho.", "note": "duschen" },
+        { "target": "Ich frühstücke um acht Uhr.", "es": "Desayuno a las ocho.", "note": "frühstücken + hora" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los verbos de la rutina diaria",
+      "headers": ["Verbo", "Significado"],
+      "rows": [
+        ["aufstehen", "levantarse"],
+        ["duschen", "ducharse"],
+        ["frühstücken", "desayunar"],
+        ["arbeiten", "trabajar"],
+        ["schlafen", "dormir"]
+      ],
+      "note": "Todos siguen el orden hora + verbo o verbo + hora, dependiendo de qué quieras destacar primero en la frase."
+    },
+    {
+      "type": "table",
+      "title": "Schlafen: recordatorio del cambio de vocal",
+      "headers": ["Persona", "Forma"],
+      "rows": [
+        ["ich", "schlafe"],
+        ["du", "schläfst"],
+        ["er / sie / es", "schläft"],
+        ["wir", "schlafen"],
+        ["ihr", "schlaft"],
+        ["sie / Sie", "schlafen"]
+      ],
+      "note": "Mismo patrón que fahren (clase 28): a → ä solo en du y er/sie/es."
+    },
+    {
+      "type": "tip",
+      "body": "Para contar tu rutina en orden, encadena frases cortas con la misma estructura: hora + verbo, o verbo + hora. No hace falta ninguna conjunción especial todavía: basta con poner una frase detrás de otra."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "duschen",
+      "es": "ducharse",
+      "ipa": "/ˈduːʃən/",
+      "esApprox": "«DÚ-shen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich dusche um sieben Uhr.", "es": "Me ducho a las siete." }
+    },
+    {
+      "id": "v2",
+      "target": "frühstücken",
+      "es": "desayunar",
+      "ipa": "/ˈfʁyːʃtʏkən/",
+      "esApprox": "«FRÜ-shtü-ken»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich frühstücke um acht Uhr.", "es": "Desayuno a las ocho." }
+    },
+    {
+      "id": "v3",
+      "target": "schlafen",
+      "es": "dormir",
+      "ipa": "/ˈʃlaːfən/",
+      "esApprox": "«SHLÁ-fen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Er schläft um zehn Uhr.", "es": "Él duerme a las diez." }
+    },
+    {
+      "id": "v4",
+      "target": "das Frühstück",
+      "es": "el desayuno",
+      "ipa": "/ˈfʁyːʃtʏk/",
+      "esApprox": "«FRÜ-shtük»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Frühstücke",
+      "example": { "target": "Das Frühstück ist um acht Uhr.", "es": "El desayuno es a las ocho." }
+    },
+    {
+      "id": "v5",
+      "target": "das Mittagessen",
+      "es": "el almuerzo",
+      "ipa": "/ˈmɪtaːkˌʔɛsn̩/",
+      "esApprox": "«MI-tak-e-sen»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Mittagessen",
+      "example": { "target": "Das Mittagessen ist um zwölf Uhr.", "es": "El almuerzo es a las doce." }
+    },
+    {
+      "id": "v6",
+      "target": "das Abendessen",
+      "es": "la cena",
+      "ipa": "/ˈaːbn̩tˌʔɛsn̩/",
+      "esApprox": "«Á-bent-e-sen»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Abendessen",
+      "example": { "target": "Das Abendessen ist um sieben Uhr.", "es": "La cena es a las siete." }
+    },
+    {
+      "id": "v7",
+      "target": "die Dusche",
+      "es": "la ducha",
+      "ipa": "/ˈduːʃə/",
+      "esApprox": "«DÚ-she»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Duschen",
+      "example": { "target": "Die Dusche ist modern.", "es": "La ducha es moderna." }
+    },
+    {
+      "id": "v8",
+      "target": "der Wecker",
+      "es": "el despertador",
+      "ipa": "/ˈvɛkɐ/",
+      "esApprox": "«VE-ker»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Wecker",
+      "example": { "target": "Der Wecker ist laut.", "es": "El despertador es ruidoso." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «duschen»?",
+      "options": ["dormir", "ducharse", "desayunar", "trabajar"],
+      "answer": 1,
+      "explain": "duschen = ducharse."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma de «du» para «schlafen»?",
+      "options": ["du schlafst", "du schläfst", "du schlaft", "du schlafen"],
+      "answer": 1,
+      "explain": "schlafen cambia a → ä en du: du schläfst."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "statement": "Frühstücken significa «desayunar».",
+      "answer": true,
+      "explain": "frühstücken = desayunar."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "statement": "Schlafen es un verbo regular sin cambio de vocal.",
+      "answer": false,
+      "explain": "Schlafen cambia a → ä en du y er/sie/es, igual que fahren."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos NO es un verbo de rutina?",
+      "options": ["aufstehen", "duschen", "frühstücken", "die Uhr"],
+      "answer": 3,
+      "explain": "die Uhr es un sustantivo (el reloj/la hora), no un verbo."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "prompt": "Une cada verbo con su significado",
+      "left": ["duschen", "frühstücken", "schlafen", "arbeiten"],
+      "right": ["ducharse", "desayunar", "dormir", "trabajar"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro verbos clave de la rutina diaria."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "prompt": "Me ducho.",
+      "accept": ["Ich dusche"],
+      "hintWords": ["ich dusche"],
+      "strictAccents": false,
+      "audio": "Ich dusche.",
+      "explain": "duschen es un verbo regular: ich dusche."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Él duerme.",
+      "accept": ["Er schläft"],
+      "hintWords": ["er schläft"],
+      "strictAccents": false,
+      "audio": "Er schläft.",
+      "explain": "schlafen: er schläft, con cambio a → ä."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Completa con el verbo correcto",
+      "text": "Ich ___ um sieben Uhr auf. Ich ___ um zehn Uhr.",
+      "blanks": [{ "accept": ["stehe"] }, { "accept": ["schlafe"] }],
+      "bank": ["stehe", "schlafe", "dusche"],
+      "explain": "stehe...auf (aufstehen); schlafe (schlafen)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Desayuno a las ocho»",
+      "tokens": ["Uhr", "Ich", "acht", "frühstücke", "um"],
+      "answer": ["Ich", "frühstücke", "um", "acht", "Uhr"],
+      "audio": "Ich frühstücke um acht Uhr.",
+      "explain": "Ich + frühstücke + um acht Uhr."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "prompt": "Er schläft um zehn Uhr.",
+      "accept": ["Él duerme a las diez."],
+      "strictAccents": false,
+      "audio": "Er schläft um zehn Uhr.",
+      "explain": "schläft (con cambio de vocal) + um zehn Uhr."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Frühstückst du um sieben Uhr?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich frühstücke um sieben Uhr."], "hint": "responde que sí, que desayunas a las siete" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "frühstücken es regular: frühstückst du, ich frühstücke."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "speak": "Ich dusche um sieben Uhr.",
+      "mode": "write",
+      "accept": ["Ich dusche um sieben Uhr"],
+      "showTextAfter": true,
+      "explain": "Ich dusche um sieben Uhr = me ducho a las siete."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "speak": "Er schläft um zehn Uhr.",
+      "mode": "choose",
+      "options": ["Er schläft um zehn Uhr.", "Er schläft um elf Uhr.", "Er arbeitet um zehn Uhr."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Presta atención al número y al verbo: los tres cambian algo distinto."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "speak": "Ich stehe auf, ich dusche, und ich frühstücke.",
+      "es": "Me levanto, me ducho, y desayuno.",
+      "ipa": "/ɪç ˈʃteːə aʊ̯f ɪç ˈduːʃə ʊnt ɪç ˈfʁyːʃtʏkə/",
+      "esApprox": "«ich SHTÉ-e auf, ich DÚ-she unt ich FRÜ-shtü-ke»",
+      "focus": "Encadena las tres frases con un ritmo natural, como si contaras tu mañana en voz alta.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "speak": "Er schläft um zehn Uhr, und ich schlafe um elf Uhr.",
+      "es": "Él duerme a las diez, y yo duermo a las once.",
+      "ipa": "/eːɐ̯ ʃlɛːft ʊm tseːn uːɐ̯ ʊnt ɪç ˈʃlaːfə ʊm ɛlf uːɐ̯/",
+      "esApprox": "«er shleft um tsén ur unt ich SHLÁ-fe um elf ur»",
+      "focus": "schläft (er, con ä) frente a schlafe (ich, sin cambio): compáralas de oído.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Te preguntan a qué hora desayunas. Responde que desayunas a las ocho.",
+      "modelAnswer": "Ich frühstücke um acht Uhr.",
+      "alsoValid": ["Um acht Uhr frühstücke ich."],
+      "speak": "Ich frühstücke um acht Uhr.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Wecker", "bucket": 0 },
+        { "text": "Dusche", "bucket": 1 },
+        { "text": "Frühstück", "bucket": 2 },
+        { "text": "Mittagessen", "bucket": 2 },
+        { "text": "Abendessen", "bucket": 2 }
+      ],
+      "explain": "Las tres comidas del día (Frühstück, Mittagessen, Abendessen) son neutras."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Er schlaft um zehn Uhr.",
+      "accept": ["Er schläft um zehn Uhr"],
+      "audio": "Er schläft um zehn Uhr.",
+      "explain": "schlafen cambia a → ä en er: schläft, no schlaft."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Wecker", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Dusche", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Frühstück", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Abendessen", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" }
+      ],
+      "explain": "Wecker es masculino, Dusche femenino, y las comidas son neutras."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "duschen", "es": "ducharse", "esApprox": "«DÚ-shen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "frühstücken", "es": "desayunar", "esApprox": "«FRÜ-shtü-ken»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "schlafen", "es": "dormir", "esApprox": "«SHLÁ-fen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Frühstück", "es": "el desayuno", "esApprox": "«FRÜ-shtük»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Mittagessen", "es": "el almuerzo", "esApprox": "«MI-tak-e-sen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "das Abendessen", "es": "la cena", "esApprox": "«Á-bent-e-sen»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "die Dusche", "es": "la ducha", "esApprox": "«DÚ-she»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "der Wecker", "es": "el despertador", "esApprox": "«VE-ker»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich stehe auf, ich dusche, und ich frühstücke.", "es": "Me levanto, me ducho, y desayuno.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Er schläft um zehn Uhr, und ich schlafe um elf Uhr.", "es": "Él duerme a las diez, y yo duermo a las once.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "id": "fr-a1-070",
+  "lang": "fr",
+  "level": "A1",
+  "order": 70,
+  "title": "Los números ordinales y las fechas",
+  "objectives": [
+    "Formar los números ordinales: premier, deuxième, troisième...",
+    "Decir la fecha completa: le + número + mois",
+    "Usar le premier como única excepción a la regla general"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los números ordinales",
+      "body": "La mayoría de los ordinales se forman añadiendo -ième al número cardinal (clases 16-18): deux → deuxième, trois → troisième. La única excepción es premier/première (primero/a), que no sigue esta regla.",
+      "examples": [
+        { "target": "C'est mon premier jour de travail.", "es": "Es mi primer día de trabajo.", "note": "premier, la excepción" },
+        { "target": "J'habite au deuxième étage.", "es": "Vivo en el segundo piso.", "note": "deux + ième = deuxième" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los ordinales más usados",
+      "headers": ["Cardinal", "Ordinal"],
+      "rows": [
+        ["un/une", "premier/première"],
+        ["deux", "deuxième"],
+        ["trois", "troisième"],
+        ["quatre", "quatrième"],
+        ["cinq", "cinquième"],
+        ["neuf", "neuvième"],
+        ["vingt", "vingtième"]
+      ],
+      "note": "Cinq añade una u antes de -ième (cinquième); neuf cambia la f por v (neuvième)."
+    },
+    {
+      "type": "table",
+      "title": "Decir la fecha",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["le premier + mois", "le premier janvier (el uno de enero)"],
+        ["le + número + mois", "le trois mars (el tres de marzo)"],
+        ["Quelle est la date aujourd'hui ?", "¿Qué fecha es hoy?"],
+        ["On est le + fecha", "On est le quinze mai (estamos a quince de mayo)"]
+      ],
+      "note": "Solo el día 1 usa el ordinal (le premier); los demás días usan el número cardinal: le deux, le trois, le quatre..."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "premier / première", "es": "primero/a", "ipa": "/pʁə.mje pʁə.mjɛʁ/", "esApprox": "«pre-MIÉ pre-MIER»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "C'est le premier janvier.", "es": "Es el uno de enero." } },
+    { "id": "v2", "target": "deuxième", "es": "segundo/a", "ipa": "/dø.zjɛm/", "esApprox": "«deu-ZIEM»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "J'habite au deuxième étage.", "es": "Vivo en el segundo piso." } },
+    { "id": "v3", "target": "troisième", "es": "tercero/a", "ipa": "/tʁwa.zjɛm/", "esApprox": "«truá-ZIEM»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "C'est ma troisième leçon de français.", "es": "Es mi tercera lección de francés." } },
+    { "id": "v4", "target": "quatrième", "es": "cuarto/a", "ipa": "/ka.tʁi.jɛm/", "esApprox": "«ka-tri-YEM»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Nous habitons au quatrième étage.", "es": "Vivimos en el cuarto piso." } },
+    { "id": "v5", "target": "la date", "es": "la fecha", "ipa": "/la dat/", "esApprox": "«la DAT»", "pos": "sustantivo", "gender": "f", "example": { "target": "Quelle est la date aujourd'hui ?", "es": "¿Qué fecha es hoy?" } },
+    { "id": "v6", "target": "on est le...", "es": "estamos a... (fecha)", "ipa": "/ɔ̃.n‿ɛ lə/", "esApprox": "«on-ne le»", "pos": "expresión", "gender": null, "example": { "target": "On est le quinze mai.", "es": "Estamos a quince de mayo." } },
+    { "id": "v7", "target": "l'étage", "es": "el piso, la planta", "ipa": "/le.taʒ/", "esApprox": "«le-TAZH»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'habite au troisième étage.", "es": "Vivo en el tercer piso." } },
+    { "id": "v8", "target": "cinquième", "es": "quinto/a", "ipa": "/sɛ̃.kjɛm/", "esApprox": "«sen-KIEM»", "pos": "adjetivo", "gender": "m", "example": { "target": "C'est mon cinquième jour de vacances.", "es": "Es mi quinto día de vacaciones." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["ordinales"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «primero»?",
+      "options": ["unième", "premier", "primer", "unier"],
+      "answer": 1,
+      "explain": "Premier es la única excepción, no sigue la regla de -ième."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["ordinales"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el ordinal de «cinq»?",
+      "options": ["cinqième", "cinquième", "cinqèieme", "cinquièmme"],
+      "answer": 1,
+      "explain": "Cinq añade una u: cinquième."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["fechas"],
+      "difficulty": 2,
+      "statement": "Solo el día 1 del mes usa el ordinal (le premier); los demás usan el número cardinal.",
+      "answer": true,
+      "explain": "Le premier janvier, pero le deux, le trois, le quatre janvier..."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["ordinales"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos ordinales no sigue la regla general de -ième?",
+      "options": ["deuxième", "troisième", "premier", "quatrième"],
+      "answer": 2,
+      "explain": "Premier es la única excepción."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["ordinales"],
+      "difficulty": 2,
+      "prompt": "Une cada cardinal con su ordinal",
+      "left": ["deux", "trois", "neuf", "vingt"],
+      "right": ["vingtième", "neuvième", "deuxième", "troisième"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Deux → deuxième, trois → troisième, neuf → neuvième (cambia f por v), vingt → vingtième."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["fechas"],
+      "difficulty": 2,
+      "prompt": "Hoy es el uno de enero.",
+      "accept": ["Aujourd'hui, c'est le premier janvier", "On est le premier janvier"],
+      "hintWords": ["c'est le premier janvier"],
+      "strictAccents": false,
+      "audio": "Aujourd'hui, c'est le premier janvier.",
+      "explain": "Le premier + mes, para el día 1."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["fechas"],
+      "difficulty": 2,
+      "prompt": "Estamos a quince de mayo. Es mi cumpleaños.",
+      "accept": ["On est le quinze mai. C'est mon anniversaire"],
+      "hintWords": ["on est le quinze mai", "c'est mon anniversaire"],
+      "strictAccents": false,
+      "audio": "On est le quinze mai. C'est mon anniversaire.",
+      "explain": "On est le + número cardinal + mes."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["ordinales"],
+      "difficulty": 2,
+      "prompt": "Completa con el ordinal correcto",
+      "text": "J'habite au ___ étage, et mon frère habite au ___ étage.",
+      "blanks": [{ "accept": ["deuxième"] }, { "accept": ["troisième"] }],
+      "bank": ["deuxième", "troisième", "premier"],
+      "explain": "Deuxième (segundo) y troisième (tercero)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["fechas"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Qué fecha es hoy?»",
+      "tokens": ["aujourd'hui", "la date", "Quelle est", "?"],
+      "answer": ["Quelle est", "la date", "aujourd'hui", "?"],
+      "audio": "Quelle est la date aujourd'hui ?",
+      "explain": "Quelle est + la date + aujourd'hui."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["fechas"],
+      "difficulty": 1,
+      "prompt": "Quelle est la date aujourd'hui ? — On est le trois mars.",
+      "accept": ["¿Qué fecha es hoy? —Estamos a tres de marzo."],
+      "strictAccents": false,
+      "audio": "Quelle est la date aujourd'hui ? — On est le trois mars.",
+      "explain": "Pregunta y respuesta habitual sobre la fecha."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["fechas"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre la fecha",
+      "turns": [
+        { "who": "Léa", "text": "Quelle est la date aujourd'hui ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["On est le premier janvier.", "On est le douze juillet."], "hint": "di la fecha de hoy" },
+        { "who": "Léa", "text": "Ah, merci !", "speak": true }
+      ],
+      "explain": "Quelle est la date...? se responde con on est le + fecha."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["fechas"],
+      "difficulty": 2,
+      "speak": "Aujourd'hui, on est le premier décembre. C'est mon troisième jour de travail.",
+      "mode": "write",
+      "accept": ["Aujourd'hui, on est le premier décembre. C'est mon troisième jour de travail"],
+      "showTextAfter": true,
+      "explain": "Fecha y ordinal en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["ordinales"],
+      "difficulty": 1,
+      "speak": "troisième",
+      "mode": "choose",
+      "options": ["deuxième", "troisième", "quatrième", "premier"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Troisième = tercero/a."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["fechas", "ordinales"],
+      "difficulty": 3,
+      "speak": "Aujourd'hui, c'est le premier janvier. J'habite au deuxième étage, et c'est mon troisième jour ici.",
+      "es": "Hoy es el uno de enero. Vivo en el segundo piso, y es mi tercer día aquí.",
+      "ipa": "/o.ʒuʁ.dɥi sɛ lə pʁə.mje ʒɑ̃.vje ʒa.bit o dø.zjɛ.m‿e.taʒ e sɛ mɔ̃ tʁwa.zjɛm ʒuʁ i.si/",
+      "esApprox": "«o-yur-DÜÍ se le pre-MIÉ yan-VIÉ ya-BIT o deu-ZIEM-e-TAZH e se mon truá-ZIEM YUR i-SI»",
+      "focus": "Combinación de fecha, ordinal de piso y ordinal de días.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["fechas"],
+      "difficulty": 2,
+      "prompt": "Di la fecha de hoy y en qué piso vives.",
+      "modelAnswer": "On est le douze juillet. J'habite au deuxième étage.",
+      "alsoValid": ["C'est le premier mai. J'habite au troisième étage."],
+      "speak": "On est le douze juillet. J'habite au deuxième étage.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["ordinales"],
+      "difficulty": 2,
+      "prompt": "¿Es cardinal u ordinal?",
+      "buckets": ["Cardinal", "Ordinal"],
+      "items": [
+        { "text": "deux", "bucket": 0 },
+        { "text": "deuxième", "bucket": 1 },
+        { "text": "cinq", "bucket": 0 },
+        { "text": "cinquième", "bucket": 1 },
+        { "text": "premier", "bucket": 1 },
+        { "text": "vingt", "bucket": 0 }
+      ],
+      "explain": "Los ordinales terminan en -ième (o son premier); los cardinales son los números normales."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["fechas"],
+      "difficulty": 2,
+      "prompt": "Hay un error de fecha. Corrige la frase entera.",
+      "wrong": "C'est le deuxième janvier.",
+      "accept": ["C'est le deux janvier"],
+      "audio": "C'est le deux janvier.",
+      "explain": "Solo el día 1 usa el ordinal (le premier); los demás usan el número cardinal: le deux."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "premier / première", "es": "primero/a", "esApprox": "«pre-MIÉ pre-MIER»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "deuxième", "es": "segundo/a", "esApprox": "«deu-ZIEM»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "troisième", "es": "tercero/a", "esApprox": "«truá-ZIEM»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "la date", "es": "la fecha", "esApprox": "«la DAT»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "l'étage", "es": "el piso, la planta", "esApprox": "«le-TAZH»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "Quelle est la date aujourd'hui ?", "es": "¿Qué fecha es hoy?", "from": "v5" },
+    { "id": "s7", "kind": "phrase", "target": "On est le quinze mai. C'est mon anniversaire.", "es": "Estamos a quince de mayo. Es mi cumpleaños.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Aujourd'hui, c'est le premier janvier.", "es": "Hoy es el uno de enero.", "from": "e6" }
+  ]
+}

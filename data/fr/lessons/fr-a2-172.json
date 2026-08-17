@@ -1,0 +1,252 @@
+{
+  "id": "fr-a2-172",
+  "lang": "fr",
+  "level": "A2",
+  "order": 172,
+  "title": "Repaso activo XVI: vocabulario temático A2",
+  "objectives": [
+    "Repasar vocabulario de viajes, tecnología, salud y emociones del Bloque L",
+    "Repasar vocabulario de relaciones, medioambiente, compras y noticias del Bloque L",
+    "Practicar frases que combinan varios campos temáticos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso del vocabulario temático ampliado",
+      "body": "Sin gramática nueva. El Bloque L cubrió muchos campos temáticos: viajes, banca, mudanza, tecnología, redes sociales, salud, emociones, carácter, medioambiente, prensa, cine, fiestas, compras y deporte. Hoy repasas una muestra de cada campo."
+    },
+    {
+      "type": "table",
+      "title": "Resumen por campo temático",
+      "headers": ["Campo", "Expresión clave"],
+      "rows": [
+        ["viajes", "une valise"],
+        ["tecnología", "télécharger"],
+        ["salud", "avoir mal à la tête"],
+        ["emociones", "déçu / déçue"],
+        ["relaciones", "se disputer"],
+        ["medioambiente", "recycler"],
+        ["compras", "les soldes"],
+        ["noticias", "les informations"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Sigue repasando con el SRS",
+      "body": "Con tanto vocabulario nuevo en el Bloque L, el sistema de repetición espaciada (SRS) es tu mejor aliado: revisa las tarjetas todos los días para que estas palabras no se te olviden antes de la prueba de nivel A2."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "une valise", "es": "una maleta", "ipa": "/yn va.liz/", "esApprox": "«ün va-LIZ»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v2", "target": "télécharger", "es": "descargar", "ipa": "/te.le.ʃaʁ.ʒe/", "esApprox": "«te-le-shar-YÉ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "avoir mal à la tête", "es": "tener dolor de cabeza", "ipa": "/a.vwaʁ mal a la tɛt/", "esApprox": "«a-VUÁR mal a la TET»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "déçu / déçue", "es": "decepcionado/a", "ipa": "/de.sy dɛs/", "esApprox": "«de-SÜ»", "pos": "adjetivo", "gender": null },
+    { "id": "v5", "target": "se disputer", "es": "pelearse, discutir", "ipa": "/sə dis.py.te/", "esApprox": "«se dis-pü-TÉ»", "pos": "verbo", "gender": null },
+    { "id": "v6", "target": "recycler", "es": "reciclar", "ipa": "/ʁə.si.kle/", "esApprox": "«re-si-KLÉ»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "les soldes", "es": "las rebajas", "ipa": "/le sɔld/", "esApprox": "«le SOLD»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v8", "target": "les informations / les infos", "es": "las noticias", "ipa": "/le.z‿ɛ̃.fɔʁ.ma.sjɔ̃/", "esApprox": "«le-zen-for-ma-SIÓN»", "pos": "sustantivo", "gender": "f" }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["viajes"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «he perdido mi maleta»?",
+      "options": ["J'ai perdu ma valise.", "J'ai perdu mon vol.", "J'ai perdu mon quai.", "J'ai perdu mon billet."],
+      "answer": 0,
+      "explain": "Repaso de la clase A2-136."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["tecnologia"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «descargué una aplicación nueva»?",
+      "options": ["J'ai envoyé une nouvelle application.", "J'ai téléchargé une nouvelle application.", "J'ai publié une nouvelle application.", "J'ai recyclé une nouvelle application."],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-139."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "statement": "Avoir mal à la tête significa tener dolor de cabeza.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-141."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["emociones"],
+      "difficulty": 2,
+      "statement": "Déçu significa sorprendido de forma positiva.",
+      "answer": false,
+      "explain": "Repaso de la clase A2-142: déçu significa decepcionado, no sorprendido."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su campo temático",
+      "left": ["une valise", "recycler", "se disputer", "les soldes"],
+      "right": ["compras", "relaciones", "viajes", "medioambiente"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Une valise = viajes, recycler = medioambiente, se disputer = relaciones, les soldes = compras."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["viajes", "salud"],
+      "difficulty": 2,
+      "prompt": "He perdido mi maleta y además tengo dolor de cabeza.",
+      "accept": ["J'ai perdu ma valise et en plus j'ai mal à la tête"],
+      "hintWords": ["j'ai perdu ma valise", "et en plus j'ai mal à la tête"],
+      "strictAccents": true,
+      "audio": "J'ai perdu ma valise et en plus j'ai mal à la tête.",
+      "explain": "Combina vocabulario de viajes y de salud."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["relaciones", "emociones"],
+      "difficulty": 2,
+      "prompt": "Nos peleamos anoche y todavía estoy decepcionado.",
+      "accept": ["On s'est disputés hier soir et je suis encore déçu"],
+      "hintWords": ["on s'est disputés hier soir", "et je suis encore déçu"],
+      "strictAccents": true,
+      "audio": "On s'est disputés hier soir et je suis encore déçu.",
+      "explain": "Combina vocabulario de relaciones y de emociones."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["compras", "medioambiente"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Pendant les ___, j'ai acheté beaucoup de choses, mais après je ___ tous les emballages.",
+      "blanks": [{ "accept": ["soldes"] }, { "accept": ["recycle"] }],
+      "bank": ["soldes", "recycle", "valises"],
+      "explain": "Repaso de las clases A2-148 y A2-144."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["noticias"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Veo las noticias todas las noches»",
+      "tokens": ["tous les soirs", "Je regarde les informations"],
+      "answer": ["Je regarde les informations", "tous les soirs"],
+      "audio": "Je regarde les informations tous les soirs.",
+      "explain": "Repaso de la clase A2-145."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["tecnologia", "compras"],
+      "difficulty": 2,
+      "prompt": "J'ai téléchargé une application pour comparer les prix, et pendant les soldes, elle m'a beaucoup aidé.",
+      "accept": ["Descargué una aplicación para comparar los precios, y durante las rebajas, me ayudó mucho."],
+      "strictAccents": false,
+      "audio": "J'ai téléchargé une application pour comparer les prix, et pendant les soldes, elle m'a beaucoup aidé.",
+      "explain": "Combina vocabulario de tecnología y de compras."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["salud", "emociones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando cómo te sientes",
+      "turns": [
+        { "who": "Léa", "text": "Ça va ? Tu as l'air fatigué.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["J'ai mal à la tête et je suis un peu déçu.", "Je suis fatigué et j'ai mal à la tête."], "hint": "usa avoir mal à la tête o déçu" },
+        { "who": "Léa", "text": "Repose-toi bien.", "speak": true }
+      ],
+      "explain": "Repaso combinado de las clases A2-141 y A2-142."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "speak": "J'ai perdu ma valise, j'ai mal à la tête, et en plus les soldes sont déjà finis.",
+      "mode": "write",
+      "accept": ["J'ai perdu ma valise, j'ai mal à la tête, et en plus les soldes sont déjà finis"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de viajes, salud y compras."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["vocabulario"],
+      "difficulty": 1,
+      "speak": "recycler",
+      "mode": "choose",
+      "options": ["télécharger", "recycler", "se disputer", "publier"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-144."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["vocabulario"],
+      "difficulty": 3,
+      "speak": "J'ai téléchargé une application, j'ai perdu ma valise à l'aéroport, et en plus, on s'est disputés au téléphone.",
+      "es": "Descargué una aplicación, perdí mi maleta en el aeropuerto, y además, nos peleamos por teléfono.",
+      "ipa": "/ʒe te.le.ʃaʁ.ʒe yn a.pli.ka.sjɔ̃ ʒe pɛʁ.dy ma va.liz a la.e.ʁo.pɔʁ e ɑ̃ plys ɔ̃ sɛ dis.py.te o te.le.fɔn/",
+      "esApprox": "«ye te-le-shar-YÉ ün a-pli-ka-SIÓN ye per-DÜ ma va-LIZ a la-e-ro-POR e an PLÜS on se dis-pü-TÉ o te-le-FON»",
+      "focus": "Narración combinando tecnología, viajes y relaciones en una sola historia.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Cuenta algo que te pasó usando vocabulario de al menos tres campos temáticos distintos.",
+      "modelAnswer": "J'ai perdu ma valise, j'étais déçu, et en plus j'avais mal à la tête.",
+      "alsoValid": ["Pendant les soldes, j'ai téléchargé une application pour comparer les prix."],
+      "speak": "J'ai perdu ma valise, j'étais déçu, et en plus j'avais mal à la tête.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "¿Es sobre tecnología/noticias o sobre viajes/compras?",
+      "buckets": ["Tecnología/noticias", "Viajes/compras"],
+      "items": [
+        { "text": "télécharger", "bucket": 0 },
+        { "text": "une valise", "bucket": 1 },
+        { "text": "les informations", "bucket": 0 },
+        { "text": "les soldes", "bucket": 1 }
+      ],
+      "explain": "Télécharger y les informations son de tecnología/noticias; une valise y les soldes son de viajes/compras."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["salud"],
+      "difficulty": 2,
+      "prompt": "Hay un error: el dolor de cabeza usa à la, no au. Corrige la frase entera.",
+      "wrong": "J'ai mal au tête depuis ce matin.",
+      "accept": ["J'ai mal à la tête depuis ce matin"],
+      "audio": "J'ai mal à la tête depuis ce matin.",
+      "explain": "La tête es femenino, así que se dice à la tête, no au tête."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "une valise", "es": "una maleta", "esApprox": "«ün va-LIZ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "télécharger", "es": "descargar", "esApprox": "«te-le-shar-YÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "avoir mal à la tête", "es": "tener dolor de cabeza", "esApprox": "«a-VUÁR mal a la TET»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "déçu / déçue", "es": "decepcionado/a", "esApprox": "«de-SÜ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "se disputer", "es": "pelearse, discutir", "esApprox": "«se dis-pü-TÉ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "recycler", "es": "reciclar", "esApprox": "«re-si-KLÉ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai perdu ma valise et en plus j'ai mal à la tête.", "es": "He perdido mi maleta y además tengo dolor de cabeza.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "On s'est disputés hier soir et je suis encore déçu.", "es": "Nos peleamos anoche y todavía estoy decepcionado.", "from": "e7" }
+  ]
+}

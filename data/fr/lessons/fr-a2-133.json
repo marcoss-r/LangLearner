@@ -1,0 +1,252 @@
+{
+  "id": "fr-a2-133",
+  "lang": "fr",
+  "level": "A2",
+  "order": 133,
+  "title": "Dar consejos con si yo fuera tú",
+  "objectives": [
+    "Dar consejos con la fórmula si j'étais toi / à ta place (clase A2-132)",
+    "Usar devoir en condicional (je devrais, tu devrais) para aconsejar",
+    "Practicar consejos en situaciones cotidianas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos formas de aconsejar",
+      "body": "Para dar un consejo en francés, la fórmula más natural es si j'étais toi / à ta place, seguida del condicional (clase A2-132). También puedes usar devoir en condicional: tu devrais + infinitivo, más directo y muy usado.",
+      "examples": [
+        { "target": "Si j'étais toi, je me reposerais. Tu devrais dormir plus.", "es": "Si fuera tú, descansaría. Deberías dormir más.", "note": "si j'étais toi + condicional, y tu devrais + infinitivo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para aconsejar",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["si j'étais toi, + condicional", "Si j'étais toi, je me reposerais."],
+        ["à ta place, + condicional", "À ta place, je changerais de travail."],
+        ["tu devrais + infinitivo", "Tu devrais dormir plus."],
+        ["tu ne devrais pas + infinitivo", "Tu ne devrais pas travailler autant."]
+      ],
+      "note": "Devoir en condicional (je devrais, tu devrais) es más suave que devoir en presente (tu dois), que suena a orden."
+    },
+    {
+      "type": "tip",
+      "title": "À ta place = si j'étais toi",
+      "body": "À ta place (literalmente «en tu lugar») es un sinónimo muy frecuente de si j'étais toi. Ambos van seguidos del condicional, nunca del presente ni del futuro."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "à ta place", "es": "en tu lugar", "ipa": "/a ta plas/", "esApprox": "«a ta PLAS»", "pos": "expresión", "gender": null, "example": { "target": "À ta place, je changerais de travail.", "es": "En tu lugar, cambiaría de trabajo." } },
+    { "id": "v2", "target": "tu devrais", "es": "deberías", "ipa": "/ty də.vʁɛ/", "esApprox": "«tü de-VRE»", "pos": "verbo", "gender": null, "example": { "target": "Tu devrais dormir plus.", "es": "Deberías dormir más." } },
+    { "id": "v3", "target": "tu ne devrais pas", "es": "no deberías", "ipa": "/ty nə də.vʁɛ pa/", "esApprox": "«tü ne de-VRE pa»", "pos": "expresión", "gender": null, "example": { "target": "Tu ne devrais pas travailler autant.", "es": "No deberías trabajar tanto." } },
+    { "id": "v4", "target": "se reposer", "es": "descansar", "ipa": "/sə ʁə.po.ze/", "esApprox": "«se re-po-SÉ»", "pos": "verbo", "gender": null, "example": { "target": "Si j'étais toi, je me reposerais.", "es": "Si fuera tú, descansaría." } },
+    { "id": "v5", "target": "un conseil", "es": "un consejo", "ipa": "/œ̃ kɔ̃.sɛj/", "esApprox": "«un kon-SEY»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je peux te donner un conseil ?", "es": "¿Puedo darte un consejo?" } },
+    { "id": "v6", "target": "autant", "es": "tanto", "ipa": "/o.tɑ̃/", "esApprox": "«o-TAN»", "pos": "adverbio", "gender": null, "example": { "target": "Tu ne devrais pas travailler autant.", "es": "No deberías trabajar tanto." } },
+    { "id": "v7", "target": "un médecin", "es": "un médico", "ipa": "/œ̃ mɛd.sɛ̃/", "esApprox": "«un med-SEN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Tu devrais voir un médecin.", "es": "Deberías ver a un médico." } },
+    { "id": "v8", "target": "changer de travail", "es": "cambiar de trabajo", "ipa": "/ʃɑ̃.ʒe də tʁa.vaj/", "esApprox": "«shan-YÉ de tra-VAY»", "pos": "expresión", "gender": null, "example": { "target": "À ta place, je changerais de travail.", "es": "En tu lugar, cambiaría de trabajo." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «deberías dormir más»?",
+      "options": ["Tu dois dormir plus.", "Tu devrais dormir plus.", "Tu devras dormir plus.", "Tu devais dormir plus."],
+      "answer": 1,
+      "explain": "Tu devrais (condicional) es el consejo suave; tu dois (presente) suena a orden."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es sinónimo de si j'étais toi?",
+      "options": ["à ta place", "chez toi", "avec toi", "pour toi"],
+      "answer": 0,
+      "explain": "À ta place = si j'étais toi, ambos seguidos del condicional."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "statement": "À ta place va seguido del condicional, igual que si j'étais toi.",
+      "answer": true,
+      "explain": "Ambas fórmulas de consejo usan el condicional (clase A2-132)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "statement": "Tu devrais es más brusco que tu dois.",
+      "answer": false,
+      "explain": "Es al revés: tu devrais (condicional) es más suave que tu dois (presente)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "Une cada consejo con su significado",
+      "left": ["tu devrais dormir plus", "à ta place, je me reposerais", "tu ne devrais pas travailler autant", "tu devrais voir un médecin"],
+      "right": ["no deberías trabajar tanto", "deberías dormir más", "deberías ver a un médico", "en tu lugar, descansaría"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Cada consejo en condicional con su traducción."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "Si fuera tú, descansaría. Deberías dormir más.",
+      "accept": ["Si j'étais toi, je me reposerais. Tu devrais dormir plus"],
+      "hintWords": ["si j'étais toi, je me reposerais", "tu devrais dormir plus"],
+      "strictAccents": true,
+      "audio": "Si j'étais toi, je me reposerais. Tu devrais dormir plus.",
+      "explain": "Si j'étais toi + condicional, seguido de tu devrais + infinitivo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "En tu lugar, cambiaría de trabajo. No deberías trabajar tanto.",
+      "accept": ["À ta place, je changerais de travail. Tu ne devrais pas travailler autant"],
+      "hintWords": ["à ta place, je changerais de travail", "tu ne devrais pas travailler autant"],
+      "strictAccents": true,
+      "audio": "À ta place, je changerais de travail. Tu ne devrais pas travailler autant.",
+      "explain": "À ta place + condicional, seguido de tu ne devrais pas + infinitivo."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de devoir",
+      "text": "Tu ___ voir un médecin, et tu ne ___ pas travailler autant.",
+      "blanks": [{ "accept": ["devrais"] }, { "accept": ["devrais"] }],
+      "bank": ["devrais", "dois"],
+      "explain": "Tu devrais... y tu ne devrais pas..., ambos en condicional."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «En tu lugar, cambiaría de trabajo»",
+      "tokens": ["je changerais de travail", "À ta place,"],
+      "answer": ["À ta place,", "je changerais de travail"],
+      "audio": "À ta place, je changerais de travail.",
+      "explain": "À ta place + je changerais de travail."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "Je peux te donner un conseil ? Tu devrais voir un médecin, tu ne dors pas assez.",
+      "accept": ["¿Puedo darte un consejo? Deberías ver a un médico, no duermes suficiente."],
+      "strictAccents": false,
+      "audio": "Je peux te donner un conseil ? Tu devrais voir un médecin, tu ne dors pas assez.",
+      "explain": "Un conseil + tu devrais + infinitivo, un consejo típico entre amigos."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación dando un consejo",
+      "turns": [
+        { "who": "Léa", "text": "Je suis fatiguée, je travaille trop.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Tu devrais te reposer.", "À ta place, je me reposerais."], "hint": "usa tu devrais o à ta place + condicional" },
+        { "who": "Léa", "text": "Tu as raison, merci.", "speak": true }
+      ],
+      "explain": "Ante un problema, se aconseja con tu devrais o à ta place + condicional."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "speak": "Tu devrais te reposer, et à ta place, je changerais de travail.",
+      "mode": "write",
+      "accept": ["Tu devrais te reposer, et à ta place, je changerais de travail"],
+      "showTextAfter": true,
+      "explain": "Dos consejos combinados con devoir y à ta place."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 1,
+      "speak": "tu devrais",
+      "mode": "choose",
+      "options": ["tu dois", "tu devais", "tu devrais", "tu devras"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Tu devrais = deberías (condicional de devoir, consejo suave)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 3,
+      "speak": "Si j'étais toi, je me reposerais. Tu devrais voir un médecin, et tu ne devrais pas travailler autant.",
+      "es": "Si fuera tú, descansaría. Deberías ver a un médico, y no deberías trabajar tanto.",
+      "ipa": "/si ʒe.tɛ twa ʒə mə ʁə.po.zə.ʁɛ ty də.vʁɛ vwaʁ œ̃ mɛd.sɛ̃ e ty nə də.vʁɛ pa tʁa.va.je o.tɑ̃/",
+      "esApprox": "«si ye-TE tuá ye me re-po-ze-RE tü de-VRE VUÁR un med-SEN e tü ne de-VRE pa tra-va-YÉ o-TAN»",
+      "focus": "Tres consejos encadenados con condicional y devoir.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "Da un consejo a un amigo cansado, usando tu devrais o à ta place.",
+      "modelAnswer": "Tu devrais te reposer, et à ta place, je changerais de travail.",
+      "alsoValid": ["Si j'étais toi, je verrais un médecin."],
+      "speak": "Tu devrais te reposer, et à ta place, je changerais de travail.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "¿Es un consejo suave (condicional) o una orden directa (presente)?",
+      "buckets": ["Consejo suave", "Orden directa"],
+      "items": [
+        { "text": "tu devrais dormir plus", "bucket": 0 },
+        { "text": "tu dois dormir plus", "bucket": 1 },
+        { "text": "à ta place, je me reposerais", "bucket": 0 },
+        { "text": "repose-toi maintenant", "bucket": 1 }
+      ],
+      "explain": "El condicional (devrais, à ta place + condicional) es suave; el presente/imperativo es directo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["consejos", "condicional"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "Tu dois te reposer, à ta place je me repose.",
+      "accept": ["Tu devrais te reposer, à ta place je me reposerais"],
+      "audio": "Tu devrais te reposer, à ta place je me reposerais.",
+      "explain": "Para un consejo suave se usa el condicional: tu devrais, je me reposerais."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "à ta place", "es": "en tu lugar", "esApprox": "«a ta PLAS»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "tu devrais", "es": "deberías", "esApprox": "«tü de-VRE»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "tu ne devrais pas", "es": "no deberías", "esApprox": "«tü ne de-VRE pa»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "se reposer", "es": "descansar", "esApprox": "«se re-po-SÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un conseil", "es": "un consejo", "esApprox": "«un kon-SEY»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Si j'étais toi, je me reposerais. Tu devrais dormir plus.", "es": "Si fuera tú, descansaría. Deberías dormir más.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "À ta place, je changerais de travail. Tu ne devrais pas travailler autant.", "es": "En tu lugar, cambiaría de trabajo. No deberías trabajar tanto.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "À ta place, je changerais de travail.", "es": "En tu lugar, cambiaría de trabajo.", "from": "e9" }
+  ]
+}

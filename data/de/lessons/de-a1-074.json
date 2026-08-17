@@ -1,0 +1,93 @@
+{
+  "id": "de-a1-074",
+  "lang": "de",
+  "level": "A1",
+  "order": 74,
+  "title": "Las vacaciones y los viajes",
+  "objectives": [
+    "Nombrar vocabulario de vacaciones y viajes: der Urlaub, das Ausland, der Koffer, die Reise",
+    "Hablar de planes e intenciones de viaje con el presente y el futuro con werden",
+    "Contar un viaje pasado combinando Perfekt y expresiones de lugar"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar de vacaciones: presente, futuro y pasado",
+      "body": "Para planes de vacaciones, el alemán suele usar el presente con un adverbio de tiempo futuro: «Ich fahre nächstes Jahr nach Italien» (Voy a Italia el año que viene). También existe el futuro con werden + infinitivo, que verás con más detalle más adelante; por ahora, basta con reconocerlo: «Ich werde nach Spanien fahren» (Voy a ir a España / iré a España).",
+      "examples": [
+        { "target": "Ich mache Urlaub in Italien.", "es": "Estoy de vacaciones en Italia." },
+        { "target": "Wir fahren nächstes Jahr ins Ausland.", "es": "El año que viene vamos al extranjero." },
+        { "target": "Ich werde eine Reise machen.", "es": "Voy a hacer un viaje." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de viajes",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["der Urlaub", "las vacaciones (del trabajo)"],
+        ["die Reise", "el viaje"],
+        ["der Koffer", "la maleta"],
+        ["das Ausland", "el extranjero"],
+        ["das Hotel", "el hotel"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Distingue der Urlaub (vacaciones/permiso laboral: «Ich habe Urlaub») de die Ferien (vacaciones escolares). En A1 usarás sobre todo Urlaub, la palabra general para «estar de vacaciones»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Urlaub", "es": "las vacaciones", "ipa": "/ˈuːɐ̯laʊ̯p/", "esApprox": "«ÚR-laup»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe zwei Wochen Urlaub.", "es": "Tengo dos semanas de vacaciones." } },
+    { "id": "v2", "target": "die Reise", "es": "el viaje", "ipa": "/ˈʁaɪ̯zə/", "esApprox": "«RÁI-ze»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Reise war lang.", "es": "El viaje fue largo." } },
+    { "id": "v3", "target": "der Koffer", "es": "la maleta", "ipa": "/ˈkɔfɐ/", "esApprox": "«KÓ-fer»", "pos": "sustantivo", "gender": "m", "example": { "target": "Mein Koffer ist schwer.", "es": "Mi maleta pesa." } },
+    { "id": "v4", "target": "das Ausland", "es": "el extranjero", "ipa": "/ˈaʊ̯slant/", "esApprox": "«ÁUS-lant»", "pos": "sustantivo", "gender": "n", "example": { "target": "Wir fahren ins Ausland.", "es": "Vamos al extranjero." } },
+    { "id": "v5", "target": "das Hotel", "es": "el hotel", "ipa": "/hoˈtɛl/", "esApprox": "«jo-TEL»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Hotel ist billig.", "es": "El hotel es barato." } },
+    { "id": "v6", "target": "buchen", "es": "reservar", "ipa": "/ˈbuːxn̩/", "esApprox": "«BÚ-jen»", "pos": "verbo", "gender": null, "example": { "target": "Ich buche ein Hotel.", "es": "Reservo un hotel." } },
+    { "id": "v7", "target": "der Strand", "es": "la playa", "ipa": "/ʃtʁant/", "esApprox": "«shtrant»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wir waren am Strand.", "es": "Estuvimos en la playa." } },
+    { "id": "v8", "target": "werden", "es": "convertirse en, (auxiliar de futuro) ir a", "ipa": "/ˈveːɐ̯dn̩/", "esApprox": "«VÉR-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich werde eine Reise machen.", "es": "Voy a hacer un viaje." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["viajes"], "difficulty": 1, "prompt": "¿Cómo se dice «la maleta»?", "options": ["die Reise", "der Koffer", "das Hotel", "der Urlaub"], "answer": 1, "explain": "der Koffer = la maleta." },
+    { "id": "e2", "type": "mcq", "tags": ["viajes"], "difficulty": 2, "prompt": "«Ich werde eine Reise machen» significa:", "options": ["Hice un viaje", "Hago un viaje", "Voy a hacer un viaje", "Haría un viaje"], "answer": 2, "explain": "werden + infinitivo = futuro: voy a hacer / haré." },
+    { "id": "e3", "type": "true_false", "tags": ["viajes"], "difficulty": 2, "statement": "«das Ausland» significa «el extranjero».", "answer": true, "explain": "das Ausland = el extranjero; ins Ausland fahren = ir al extranjero." },
+    { "id": "e4", "type": "true_false", "tags": ["viajes"], "difficulty": 2, "statement": "«der Urlaub» y «die Ferien» significan exactamente lo mismo y se usan siempre igual.", "answer": false, "explain": "Urlaub es sobre todo vacaciones laborales; Ferien son vacaciones escolares." },
+    { "id": "e5", "type": "match_pairs", "tags": ["viajes"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Urlaub", "die Reise", "der Koffer", "der Strand"], "right": ["las vacaciones", "el viaje", "la maleta", "la playa"], "answer": [0, 1, 2, 3], "explain": "Cuatro sustantivos clave del vocabulario de viajes." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["viajes"], "difficulty": 2, "prompt": "Tengo dos semanas de vacaciones.", "accept": ["Ich habe zwei Wochen Urlaub"], "hintWords": ["ich habe zwei Wochen Urlaub"], "strictAccents": false, "audio": "Ich habe zwei Wochen Urlaub.", "explain": "haben + Urlaub: expresión típica para vacaciones." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["viajes"], "difficulty": 2, "prompt": "El año que viene vamos al extranjero.", "accept": ["Wir fahren nächstes Jahr ins Ausland"], "hintWords": ["wir fahren nächstes Jahr ins Ausland"], "strictAccents": false, "audio": "Wir fahren nächstes Jahr ins Ausland.", "explain": "ins Ausland: al extranjero (dirección, acusativo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["viajes"], "difficulty": 2, "prompt": "Voy a hacer un viaje.", "accept": ["Ich werde eine Reise machen"], "hintWords": ["ich werde eine Reise machen"], "strictAccents": false, "audio": "Ich werde eine Reise machen.", "explain": "werde...machen: futuro con werden + infinitivo al final." },
+    { "id": "e9", "type": "fill_blank", "tags": ["viajes"], "difficulty": 2, "prompt": "Completa con el verbo correcto", "text": "Ich ___ ein Hotel. Mein ___ ist schwer.", "blanks": [{ "accept": ["buche"] }, { "accept": ["Koffer"] }], "bank": ["buche", "Koffer", "Reise"], "explain": "buche (reservar); Koffer (maleta)." },
+    { "id": "e10", "type": "word_order", "tags": ["viajes"], "difficulty": 2, "prompt": "Ordena: «Voy a hacer un viaje»", "tokens": ["machen", "werde", "Ich", "eine Reise"], "answer": ["Ich", "werde", "eine Reise", "machen"], "audio": "Ich werde eine Reise machen.", "explain": "werde (posición 2) + eine Reise + machen (infinitivo, final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["viajes"], "difficulty": 2, "prompt": "Wir waren am Strand, und das Hotel war billig.", "accept": ["Estuvimos en la playa, y el hotel era barato."], "strictAccents": false, "audio": "Wir waren am Strand, und das Hotel war billig.", "explain": "waren (Präteritum de sein) para describir el viaje pasado." },
+    { "id": "e12", "type": "dialogue", "tags": ["viajes"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Emma", "text": "Machst du dieses Jahr Urlaub im Ausland?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich werde eine Reise machen.", "Ja, wir fahren ins Ausland."], "hint": "responde que sí, con un plan de viaje" },
+      { "who": "Emma", "text": "Hast du schon ein Hotel gebucht?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich habe ein Hotel gebucht."], "hint": "responde que sí, que ya reservaste un hotel" }
+    ], "explain": "Conversación sobre planes de vacaciones, combinando futuro y Perfekt." },
+    { "id": "e13", "type": "listening", "tags": ["viajes"], "difficulty": 1, "speak": "Ich werde eine Reise machen.", "mode": "write", "accept": ["Ich werde eine Reise machen"], "showTextAfter": true, "explain": "werde...machen: futuro con werden." },
+    { "id": "e14", "type": "listening", "tags": ["viajes"], "difficulty": 2, "speak": "Wir fahren nächstes Jahr ins Ausland.", "mode": "choose", "options": ["Wir fahren nächstes Jahr ins Ausland.", "Wir fuhren nächstes Jahr ins Ausland.", "Wir fahren nächste Woche ins Ausland."], "answer": 0, "showTextAfter": true, "explain": "nächstes Jahr = el año que viene, distinto de nächste Woche." },
+    { "id": "e15", "type": "shadowing", "tags": ["viajes"], "difficulty": 2, "speak": "Ich habe zwei Wochen Urlaub, und ich werde eine Reise ins Ausland machen.", "es": "Tengo dos semanas de vacaciones, y voy a hacer un viaje al extranjero.", "ipa": "/ɪç ˈhaːbə tsvaɪ̯ ˈvɔxn̩ ˈuːɐ̯laʊ̯p ʊnt ɪç ˈveːɐ̯də ˈaɪ̯nə ˈʁaɪ̯zə ɪns ˈaʊ̯slant ˈmaxn̩/", "esApprox": "«ich JÁ-be tsvai VÓ-jen ÚR-laup unt ich VÉR-de ÁI-ne RÁI-ze ins ÁUS-lant MÁ-jen»", "focus": "werde...machen: el futuro con werden envuelve toda la frase, con el infinitivo al final.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["viajes"], "difficulty": 2, "speak": "Wir waren am Strand, das Hotel war billig, und der Koffer war schwer.", "es": "Estuvimos en la playa, el hotel era barato, y la maleta pesaba.", "ipa": "/viːɐ̯ ˈvaːʁən am ʃtʁant das hoˈtɛl vaːɐ̯ ˈbɪlɪç ʊnt deːɐ̯ ˈkɔfɐ vaːɐ̯ ʃveːɐ̯/", "esApprox": "«vir VÁ-ren am shtrant, das jo-TEL var BÍ-lich, unt der KÓ-fer var shver»", "focus": "waren y war: Präteritum de sein para describir un viaje pasado.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["viajes"], "difficulty": 2, "prompt": "Te preguntan tus planes de vacaciones. Di que vas a hacer un viaje al extranjero el año que viene.", "modelAnswer": "Ich werde nächstes Jahr eine Reise ins Ausland machen.", "alsoValid": ["Nächstes Jahr fahre ich ins Ausland."], "speak": "Ich werde nächstes Jahr eine Reise ins Ausland machen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["viajes"], "difficulty": 2, "prompt": "Clasifica cada palabra: sustantivo o verbo", "buckets": ["Sustantivo", "Verbo"], "items": [
+      { "text": "der Urlaub", "bucket": 0 },
+      { "text": "buchen", "bucket": 1 },
+      { "text": "der Koffer", "bucket": 0 },
+      { "text": "werden", "bucket": 1 },
+      { "text": "die Reise", "bucket": 0 }
+    ], "explain": "Urlaub, Koffer y Reise son sustantivos; buchen y werden son verbos." },
+    { "id": "e19", "type": "error_correction", "tags": ["viajes"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich werde eine Reise gemacht.", "accept": ["Ich werde eine Reise machen"], "audio": "Ich werde eine Reise machen.", "explain": "werden va con infinitivo (machen), no con participio." },
+    { "id": "e20", "type": "mcq", "tags": ["viajes"], "difficulty": 2, "prompt": "«Ich habe zwei Wochen Urlaub. Ich werde eine Reise ins Ausland machen und ein Hotel am Strand buchen. Letztes Jahr war die Reise sehr schön, aber der Koffer war zu schwer.» ¿Qué problema tuvo el viaje del año pasado?", "options": ["El hotel era caro", "La maleta pesaba demasiado", "No reservó hotel", "El viaje fue muy corto"], "answer": 1, "explain": "«der Koffer war zu schwer» = la maleta pesaba demasiado." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Urlaub", "es": "las vacaciones", "esApprox": "«ÚR-laup»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Reise", "es": "el viaje", "esApprox": "«RÁI-ze»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Koffer", "es": "la maleta", "esApprox": "«KÓ-fer»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Ausland", "es": "el extranjero", "esApprox": "«ÁUS-lant»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "buchen", "es": "reservar", "esApprox": "«BÚ-jen»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Strand", "es": "la playa", "esApprox": "«shtrant»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe zwei Wochen Urlaub, und ich werde eine Reise ins Ausland machen.", "es": "Tengo dos semanas de vacaciones, y voy a hacer un viaje al extranjero.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wir waren am Strand, das Hotel war billig, und der Koffer war schwer.", "es": "Estuvimos en la playa, el hotel era barato, y la maleta pesaba.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "id": "de-a1-046",
+  "lang": "de",
+  "level": "A1",
+  "order": 46,
+  "title": "La ciudad y los lugares públicos",
+  "objectives": [
+    "Aprender el vocabulario de los lugares públicos de una ciudad: Rathaus, Kirche, Bahnhof, Krankenhaus",
+    "Combinar estos lugares con in/an + dativo para decir dónde están o dónde estás",
+    "Practicar de nuevo la contracción in + dem = im con sustantivos neutros y masculinos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los lugares de una ciudad, con el dativo de ubicación",
+      "body": "Con el vocabulario de esta clase puedes decir dónde está cualquier lugar público de una ciudad, usando las preposiciones y el dativo que ya conoces.",
+      "examples": [
+        { "target": "Das Rathaus ist im Zentrum.", "es": "El ayuntamiento está en el centro.", "note": "im = in + dem" },
+        { "target": "Ich bin am Bahnhof.", "es": "Estoy en la estación.", "note": "am = an + dem" },
+        { "target": "Die Kirche ist neben dem Markt.", "es": "La iglesia está al lado del mercado.", "note": "neben + dativo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Lugares públicos de la ciudad",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["das Rathaus", "el ayuntamiento"],
+        ["die Kirche", "la iglesia"],
+        ["der Bahnhof", "la estación de tren"],
+        ["das Krankenhaus", "el hospital"],
+        ["die Bibliothek", "la biblioteca"],
+        ["der Markt", "el mercado"],
+        ["die Bäckerei", "la panadería"],
+        ["das Kino", "el cine"]
+      ],
+      "note": "Rathaus (Rat + Haus, «casa del consejo») y Krankenhaus (krank + Haus, «casa de los enfermos») son palabras compuestas fáciles de descomponer."
+    },
+    {
+      "type": "tip",
+      "body": "an + dem se contrae en am, igual que in + dem se contrae en im: «Ich bin am Bahnhof» (estoy en la estación) es mucho más natural que «an dem Bahnhof»."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "das Rathaus",
+      "es": "el ayuntamiento",
+      "ipa": "/ˈʁaːtˌhaʊ̯s/",
+      "esApprox": "«RÁT-jaus»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Rathäuser",
+      "example": { "target": "Das Rathaus ist im Zentrum.", "es": "El ayuntamiento está en el centro." }
+    },
+    {
+      "id": "v2",
+      "target": "die Kirche",
+      "es": "la iglesia",
+      "ipa": "/ˈkɪʁçə/",
+      "esApprox": "«KIR-che»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Kirchen",
+      "example": { "target": "Die Kirche ist alt.", "es": "La iglesia es antigua." }
+    },
+    {
+      "id": "v3",
+      "target": "der Bahnhof",
+      "es": "la estación de tren",
+      "ipa": "/ˈbaːnhoːf/",
+      "esApprox": "«BÁN-hof»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Bahnhöfe",
+      "example": { "target": "Ich bin am Bahnhof.", "es": "Estoy en la estación." }
+    },
+    {
+      "id": "v4",
+      "target": "das Krankenhaus",
+      "es": "el hospital",
+      "ipa": "/ˈkʁaŋkənˌhaʊ̯s/",
+      "esApprox": "«KRAN-ken-jaus»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Krankenhäuser",
+      "example": { "target": "Das Krankenhaus ist modern.", "es": "El hospital es moderno." }
+    },
+    {
+      "id": "v5",
+      "target": "die Bibliothek",
+      "es": "la biblioteca",
+      "ipa": "/biblioˈteːk/",
+      "esApprox": "«bi-blio-TÉK»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Bibliotheken",
+      "example": { "target": "Ich bin in der Bibliothek.", "es": "Estoy en la biblioteca." }
+    },
+    {
+      "id": "v6",
+      "target": "der Markt",
+      "es": "el mercado",
+      "ipa": "/maʁkt/",
+      "esApprox": "«markt»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Märkte",
+      "example": { "target": "Die Kirche ist neben dem Markt.", "es": "La iglesia está al lado del mercado." }
+    },
+    {
+      "id": "v7",
+      "target": "die Bäckerei",
+      "es": "la panadería",
+      "ipa": "/bɛkəˈʁaɪ̯/",
+      "esApprox": "«be-ke-RAI»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Bäckereien",
+      "example": { "target": "Ich bin in der Bäckerei.", "es": "Estoy en la panadería." }
+    },
+    {
+      "id": "v8",
+      "target": "das Kino",
+      "es": "el cine",
+      "ipa": "/ˈkiːno/",
+      "esApprox": "«KÍ-no»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Kinos",
+      "example": { "target": "Ich bin im Kino.", "es": "Estoy en el cine." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «ayuntamiento» en alemán?",
+      "options": ["Kirche", "Rathaus", "Bahnhof", "Kino"],
+      "answer": 1,
+      "explain": "das Rathaus = el ayuntamiento."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «hospital» en alemán?",
+      "options": ["Krankenhaus", "Bibliothek", "Markt", "Bäckerei"],
+      "answer": 0,
+      "explain": "das Krankenhaus = el hospital."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "statement": "Die Bibliothek significa «la biblioteca».",
+      "answer": true,
+      "explain": "die Bibliothek = la biblioteca."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "statement": "Der Markt significa «la iglesia».",
+      "answer": false,
+      "explain": "Der Markt es el mercado; «la iglesia» es die Kirche."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas palabras NO es un lugar público?",
+      "options": ["Rathaus", "Bahnhof", "Bett", "Kino"],
+      "answer": 2,
+      "explain": "Bett es un mueble (la cama), no un lugar público."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "prompt": "Une cada lugar con su significado",
+      "left": ["Rathaus", "Kirche", "Bahnhof", "Krankenhaus"],
+      "right": ["hospital", "ayuntamiento", "iglesia", "estación de tren"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Cuatro lugares públicos frecuentes."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "El ayuntamiento está en el centro.",
+      "accept": ["Das Rathaus ist im Zentrum"],
+      "hintWords": ["das Rathaus ist im Zentrum"],
+      "strictAccents": false,
+      "audio": "Das Rathaus ist im Zentrum.",
+      "explain": "im Zentrum: in + dem, neutro."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Estoy en la estación.",
+      "accept": ["Ich bin am Bahnhof"],
+      "hintWords": ["ich bin am Bahnhof"],
+      "strictAccents": false,
+      "audio": "Ich bin am Bahnhof.",
+      "explain": "am = an + dem, con Bahnhof (masculino)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Ich bin ___ Bahnhof. Ich bin ___ Bibliothek.",
+      "blanks": [{ "accept": ["am"] }, { "accept": ["in der"] }],
+      "bank": ["am", "in der", "im"],
+      "explain": "am Bahnhof (masculino, contraído); in der Bibliothek (femenino, sin contraer)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La iglesia está al lado del mercado»",
+      "tokens": ["Markt", "Die", "ist", "Kirche", "dem", "neben"],
+      "answer": ["Die", "Kirche", "ist", "neben", "dem", "Markt"],
+      "audio": "Die Kirche ist neben dem Markt.",
+      "explain": "Die Kirche + ist + neben dem Markt (dativo)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "prompt": "Ich bin in der Bäckerei.",
+      "accept": ["Estoy en la panadería."],
+      "strictAccents": false,
+      "audio": "Ich bin in der Bäckerei.",
+      "explain": "in der Bäckerei: femenino, sin contracción."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Bist du im Kino?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, ich bin in der Bibliothek."], "hint": "responde que no, que estás en la biblioteca" },
+        { "who": "Anna", "text": "Ah, okay!", "speak": true }
+      ],
+      "explain": "im Kino (neutro) frente a in der Bibliothek (femenino)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["ciudad"],
+      "difficulty": 1,
+      "speak": "Ich bin am Bahnhof.",
+      "mode": "write",
+      "accept": ["Ich bin am Bahnhof"],
+      "showTextAfter": true,
+      "explain": "Ich bin am Bahnhof = estoy en la estación."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "speak": "Ich bin im Kino.",
+      "mode": "choose",
+      "options": ["Ich bin im Kino.", "Ich bin am Bahnhof.", "Ich bin in der Kirche."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Kino, Bahnhof y Kirche suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "speak": "Das Rathaus ist im Zentrum, und die Kirche ist neben dem Markt.",
+      "es": "El ayuntamiento está en el centro, y la iglesia está al lado del mercado.",
+      "ipa": "/das ˈʁaːtˌhaʊ̯s ɪst ɪm ˈtsɛntʁʊm ʊnt diː ˈkɪʁçə ɪst ˈneːbn̩ deːm maʁkt/",
+      "esApprox": "«das RÁT-jaus ist im TSEN-trum unt di KIR-che ist NÉ-ben dem markt»",
+      "focus": "Rathaus combina Rat (consejo) y Haus (casa): dos piezas que ya reconoces por separado.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "speak": "Ich bin am Bahnhof, und du bist in der Bibliothek.",
+      "es": "Estoy en la estación, y tú estás en la biblioteca.",
+      "ipa": "/ɪç bɪn am ˈbaːnhoːf ʊnt duː bɪst ɪn deːɐ̯ biblioˈteːk/",
+      "esApprox": "«ich bin am BÁN-hof unt du bist in der bi-blio-TÉK»",
+      "focus": "am (contraído) frente a in der (sin contraer): compara las dos según el género.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si estás en el hospital. Responde que no, que estás en la panadería.",
+      "modelAnswer": "Nein, ich bin in der Bäckerei.",
+      "alsoValid": ["Ich bin in der Bäckerei."],
+      "speak": "Nein, ich bin in der Bäckerei.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada lugar según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Bahnhof", "bucket": 0 },
+        { "text": "Kirche", "bucket": 1 },
+        { "text": "Rathaus", "bucket": 2 },
+        { "text": "Bibliothek", "bucket": 1 },
+        { "text": "Markt", "bucket": 0 },
+        { "text": "Kino", "bucket": 2 }
+      ],
+      "explain": "Bahnhof y Markt son masculinos; Kirche y Bibliothek, femeninas; Rathaus y Kino, neutros."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich bin an dem Bahnhof.",
+      "accept": ["Ich bin am Bahnhof"],
+      "audio": "Ich bin am Bahnhof.",
+      "explain": "an + dem se contrae casi siempre en am en el habla cotidiana."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["ciudad"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Bahnhof", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Kirche", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Rathaus", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Bibliothek", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" }
+      ],
+      "explain": "Bahnhof es masculino, Kirche y Bibliothek femeninas, Rathaus neutro."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Rathaus", "es": "el ayuntamiento", "esApprox": "«RÁT-jaus»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Kirche", "es": "la iglesia", "esApprox": "«KIR-che»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Bahnhof", "es": "la estación de tren", "esApprox": "«BÁN-hof»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Krankenhaus", "es": "el hospital", "esApprox": "«KRAN-ken-jaus»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Bibliothek", "es": "la biblioteca", "esApprox": "«bi-blio-TÉK»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Markt", "es": "el mercado", "esApprox": "«markt»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "die Bäckerei", "es": "la panadería", "esApprox": "«be-ke-RAI»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "das Kino", "es": "el cine", "esApprox": "«KÍ-no»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Das Rathaus ist im Zentrum, und die Kirche ist neben dem Markt.", "es": "El ayuntamiento está en el centro, y la iglesia está al lado del mercado.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Ich bin am Bahnhof, und du bist in der Bibliothek.", "es": "Estoy en la estación, y tú estás en la biblioteca.", "from": "e16" }
+  ]
+}

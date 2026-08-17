@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-195",
+  "lang": "de",
+  "level": "B1",
+  "order": 195,
+  "title": "Las relativas con preposición: mit dem, für die...",
+  "objectives": [
+    "Formar relativas con preposición, colocando la preposición antes del pronombre relativo",
+    "Elegir el caso del relativo según la preposición (dativo, acusativo o genitivo)",
+    "Distinguir esta estructura de los compuestos wo- (clase 119), que no se usan con antecedentes de persona"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Preposición + relativo: el orden se mantiene",
+      "body": "Cuando el verbo de la subordinada rige una preposición, esta va justo antes del pronombre relativo, y el caso del relativo depende de esa preposición: «Der Freund, mit dem ich spreche, ist nett» (mit + dativo), «Das Projekt, für das ich arbeite, ist spannend» (für + acusativo). El resto de la frase de relativo funciona igual: verbo al final.",
+      "examples": [
+        { "target": "Der Freund, mit dem ich spreche, ist nett.", "es": "El amigo con quien hablo es simpático." },
+        { "target": "Das Projekt, für das ich arbeite, ist spannend.", "es": "El proyecto para el que trabajo es emocionante." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Preposición + relativo, según el caso que rige",
+      "headers": ["Preposición", "Caso", "Ejemplo"],
+      "rows": [
+        ["mit", "dativo", "der Freund, mit dem ich spreche"],
+        ["für", "acusativo", "das Projekt, für das ich arbeite"],
+        ["von", "dativo", "die Frau, von der ich das weiß"],
+        ["wegen", "genitivo", "der Grund, wegen dessen ich komme"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Los compuestos wo- (worauf, womit, clase 119) solo se usan cuando el antecedente es una cosa abstracta o toda una frase, nunca con personas: para personas, siempre preposición + relativo (mit dem, für die), nunca «womit» refiriéndose a un amigo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Freund, mit dem...", "es": "el amigo con quien... (mit + dativo)", "ipa": "/deːɐ̯ fʁɔɪ̯nt mɪt deːm/", "esApprox": "«der froint mit dem»", "pos": "estructura relativa", "gender": null, "example": { "target": "Der Freund, mit dem ich spreche, ist nett.", "es": "El amigo con quien hablo es simpático." } },
+    { "id": "v2", "target": "das Projekt, für das...", "es": "el proyecto para el que... (für + acusativo)", "ipa": "/das pʁoˈjɛkt fyːɐ̯ das/", "esApprox": "«das pro-YEKT fiur das»", "pos": "estructura relativa", "gender": null, "example": { "target": "Das Projekt, für das ich arbeite, ist spannend.", "es": "El proyecto para el que trabajo es emocionante." } },
+    { "id": "v3", "target": "die Frau, von der...", "es": "la mujer de quien... (von + dativo)", "ipa": "/diː fʁaʊ̯ fɔn deːɐ̯/", "esApprox": "«di frau fon der»", "pos": "estructura relativa", "gender": null, "example": { "target": "Die Frau, von der ich das weiß, ist meine Chefin.", "es": "La mujer de quien lo sé es mi jefa." } },
+    { "id": "v4", "target": "der Grund, wegen dessen...", "es": "el motivo por el cual... (wegen + genitivo)", "ipa": "/deːɐ̯ ɡʁʊnt ˈveːɡn̩ ˈdɛsn̩/", "esApprox": "«der grunt VÉ-guen DÉ-sen»", "pos": "estructura relativa", "gender": null, "example": { "target": "Der Grund, wegen dessen ich komme, ist einfach.", "es": "El motivo por el cual vengo es sencillo." } },
+    { "id": "v5", "target": "die Chefin", "es": "la jefa", "ipa": "/ˈʃɛfɪn/", "esApprox": "«SHÉ-fin»", "pos": "sustantivo", "gender": "f", "example": { "target": "Sie ist meine Chefin.", "es": "Ella es mi jefa." } },
+    { "id": "v6", "target": "das Projekt", "es": "el proyecto", "ipa": "/pʁoˈjɛkt/", "esApprox": "«pro-YEKT»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Projekt ist spannend.", "es": "El proyecto es emocionante." } },
+    { "id": "v7", "target": "der Grund", "es": "el motivo, la razón", "ipa": "/ɡʁʊnt/", "esApprox": "«grunt»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist der Grund.", "es": "Ese es el motivo." } },
+    { "id": "v8", "target": "einfach", "es": "sencillo", "ipa": "/ˈaɪ̯nfax/", "esApprox": "«ÁIN-fach»", "pos": "adjetivo", "gender": null, "example": { "target": "Der Grund ist einfach.", "es": "El motivo es sencillo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["relativas", "preposiciones"], "difficulty": 1, "prompt": "¿Dónde va la preposición en una relativa con preposición?", "options": ["Al final", "Justo antes del relativo", "Después del relativo", "No aparece"], "answer": 1, "explain": "mit dem, für das: la preposición va justo antes del pronombre relativo." },
+    { "id": "e2", "type": "mcq", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "¿Qué caso rige «für» en «das Projekt, für das ich arbeite»?", "options": ["Nominativo", "Acusativo", "Dativo", "Genitivo"], "answer": 1, "explain": "für rige siempre acusativo." },
+    { "id": "e3", "type": "true_false", "tags": ["relativas", "preposiciones"], "difficulty": 2, "statement": "Los compuestos wo- (womit, worauf) se pueden usar con personas.", "answer": false, "explain": "Los compuestos wo- solo funcionan con cosas o ideas abstractas, nunca con personas." },
+    { "id": "e4", "type": "true_false", "tags": ["relativas", "preposiciones"], "difficulty": 2, "statement": "wegen rige genitivo también en las relativas.", "answer": true, "explain": "wegen dessen: mantiene el genitivo, igual que en frases normales (clase 114)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "Une cada preposición con su caso", "left": ["mit", "für", "von", "wegen"], "right": ["dativo", "acusativo", "dativo", "genitivo"], "answer": [0, 1, 2, 3], "explain": "Cada preposición mantiene su régimen habitual también en las relativas." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "El amigo con quien hablo es simpático.", "accept": ["Der Freund, mit dem ich spreche, ist nett"], "hintWords": ["der Freund mit dem ich spreche ist nett"], "strictAccents": false, "audio": "Der Freund, mit dem ich spreche, ist nett.", "explain": "mit dem (dativo) + ich + spreche (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "El proyecto para el que trabajo es emocionante.", "accept": ["Das Projekt, für das ich arbeite, ist spannend"], "hintWords": ["das Projekt für das ich arbeite ist spannend"], "strictAccents": false, "audio": "Das Projekt, für das ich arbeite, ist spannend.", "explain": "für das (acusativo) + ich + arbeite (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "La mujer de quien lo sé es mi jefa.", "accept": ["Die Frau, von der ich das weiß, ist meine Chefin"], "hintWords": ["die Frau von der ich das weiß ist meine Chefin"], "strictAccents": false, "audio": "Die Frau, von der ich das weiß, ist meine Chefin.", "explain": "von der (dativo) + ich + das + weiß (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "Completa con la preposición y el relativo correctos", "text": "Der Freund, ___ ich spreche, ist nett. Das Projekt, ___ ich arbeite, ist spannend.", "blanks": [{ "accept": ["mit dem"] }, { "accept": ["für das"] }], "bank": ["mit dem", "für das", "von dem"], "explain": "mit dem (hablar con) y für das (trabajar para)." },
+    { "id": "e10", "type": "word_order", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "Ordena: «El motivo por el cual vengo es sencillo»", "tokens": ["ich komme, ist einfach.", "Der Grund, wegen dessen"], "answer": ["Der Grund, wegen dessen", "ich komme, ist einfach."], "audio": "Der Grund, wegen dessen ich komme, ist einfach.", "explain": "wegen dessen (genitivo) + ich + komme (final de la subordinada)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "Sie ist meine Chefin.", "accept": ["Ella es mi jefa."], "strictAccents": false, "audio": "Sie ist meine Chefin.", "explain": "die Chefin = la jefa." },
+    { "id": "e12", "type": "dialogue", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wer ist dieser Mann?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das ist der Freund, mit dem ich spreche."], "hint": "usa una relativa con preposición" },
+      { "who": "Lea", "text": "Ach, verstehe!", "speak": true }
+    ], "explain": "mit dem ich spreche: relativa con preposición mit." },
+    { "id": "e13", "type": "listening", "tags": ["relativas", "preposiciones"], "difficulty": 1, "speak": "Der Freund, mit dem ich spreche, ist nett.", "mode": "write", "accept": ["Der Freund, mit dem ich spreche, ist nett"], "showTextAfter": true, "explain": "mit dem: preposición + relativo en dativo." },
+    { "id": "e14", "type": "listening", "tags": ["relativas", "preposiciones"], "difficulty": 2, "speak": "Das Projekt, für das ich arbeite, ist spannend.", "mode": "choose", "options": ["Das Projekt, für das ich arbeite, ist spannend.", "Das Projekt, für dem ich arbeite, ist spannend.", "Das Projekt, wofür ich arbeite, ist spannend."], "answer": 0, "showTextAfter": true, "explain": "für rige acusativo: für das, no für dem." },
+    { "id": "e15", "type": "shadowing", "tags": ["relativas", "preposiciones"], "difficulty": 2, "speak": "Der Freund, mit dem ich spreche, arbeitet an dem Projekt, für das ich mich auch interessiere.", "es": "El amigo con quien hablo trabaja en el proyecto por el que yo también me intereso.", "ipa": "/deːɐ̯ fʁɔɪ̯nt mɪt deːm ɪç ˈʃpʁɛçə ˈaʁbaɪ̯tət an deːm pʁoˈjɛkt fyːɐ̯ das ɪç mɪç aʊ̯x ɪntəʁɛˈsiːʁə/", "esApprox": "«der froint mit dem ich SHPRÉ-je, ÁR-bai-tet an dem pro-YEKT, fiur das ich mich aoj in-te-re-ZÍ-re»", "focus": "mit dem y für das: dos relativas con preposición, con distintos casos, en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["relativas", "preposiciones"], "difficulty": 2, "speak": "Die Frau, von der ich das weiß, ist meine Chefin, und der Grund, wegen dessen ich komme, ist einfach.", "es": "La mujer de quien lo sé es mi jefa, y el motivo por el cual vengo es sencillo.", "ipa": "/diː fʁaʊ̯ fɔn deːɐ̯ ɪç das vaɪ̯s ɪst ˈmaɪ̯nə ˈʃɛfɪn ʊnt deːɐ̯ ɡʁʊnt ˈveːɡn̩ ˈdɛsn̩ ɪç ˈkɔmə ɪst ˈaɪ̯nfax/", "esApprox": "«di frau fon der ich das vais ist MÁI-ne SHÉ-fin, unt der grunt VÉ-guen DÉ-sen ich KÓ-me ist ÁIN-fach»", "focus": "von der (dativo) y wegen dessen (genitivo): dos preposiciones distintas con sus relativos correspondientes.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "Te preguntan por un proyecto. Descríbelo como el proyecto para el que trabajas.", "modelAnswer": "Das ist das Projekt, für das ich arbeite.", "alsoValid": ["Das Projekt, für das ich arbeite, ist spannend."], "speak": "Das ist das Projekt, für das ich arbeite.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "Clasifica cada relativa según su preposición", "buckets": ["mit/von (dativo)", "für (acusativo)"], "items": [
+      { "text": "der Freund, mit dem ich spreche", "bucket": 0 },
+      { "text": "das Projekt, für das ich arbeite", "bucket": 1 },
+      { "text": "die Frau, von der ich das weiß", "bucket": 0 }
+    ], "explain": "mit y von rigen dativo; für rige acusativo, también en las relativas." },
+    { "id": "e19", "type": "error_correction", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das Projekt, für dem ich arbeite, ist spannend.", "accept": ["Das Projekt, für das ich arbeite, ist spannend"], "audio": "Das Projekt, für das ich arbeite, ist spannend.", "explain": "für rige acusativo: für das, no für dem (que sería dativo)." },
+    { "id": "e20", "type": "mcq", "tags": ["relativas", "preposiciones"], "difficulty": 2, "prompt": "«Der Freund, mit dem ich spreche, arbeitet an dem Projekt, für das ich mich auch interessiere. Die Frau, von der ich das weiß, ist meine Chefin.» ¿Cómo se enteró la persona del proyecto?", "options": ["Por su amigo directamente", "Por su jefa", "Por internet", "No se sabe"], "answer": 1, "explain": "«Die Frau, von der ich das weiß, ist meine Chefin» indica que lo supo por su jefa." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "der Freund, mit dem...", "es": "el amigo con quien... (mit + dativo)", "esApprox": "«der froint mit dem»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "das Projekt, für das...", "es": "el proyecto para el que... (für + acusativo)", "esApprox": "«das pro-YEKT fiur das»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "die Frau, von der...", "es": "la mujer de quien... (von + dativo)", "esApprox": "«di frau fon der»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "der Grund, wegen dessen...", "es": "el motivo por el cual... (wegen + genitivo)", "esApprox": "«der grunt VÉ-guen DÉ-sen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Chefin", "es": "la jefa", "esApprox": "«SHÉ-fin»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Grund", "es": "el motivo, la razón", "esApprox": "«grunt»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Der Freund, mit dem ich spreche, arbeitet an dem Projekt, für das ich mich auch interessiere.", "es": "El amigo con quien hablo trabaja en el proyecto por el que yo también me intereso.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Frau, von der ich das weiß, ist meine Chefin, und der Grund, wegen dessen ich komme, ist einfach.", "es": "La mujer de quien lo sé es mi jefa, y el motivo por el cual vengo es sencillo.", "from": "e16" }
+  ]
+}

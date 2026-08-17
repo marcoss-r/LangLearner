@@ -1,0 +1,269 @@
+{
+  "id": "fr-a1-039",
+  "lang": "fr",
+  "level": "A1",
+  "order": 39,
+  "title": "La hora",
+  "objectives": [
+    "Preguntar y decir la hora: quelle heure est-il ?, il est... heure(s)",
+    "Usar et quart, et demie y moins le quart para las fracciones de hora más comunes",
+    "Distinguir el sistema de 12 horas (coloquial) del de 24 horas (horarios oficiales, trenes, tiendas)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Il est... heure(s)",
+      "body": "Para preguntar la hora se dice **Quelle heure est-il ?** y para responder, **il est** + número + **heure(s)**. Heure lleva -s a partir de las dos, igual que cualquier plural. A partir de la media hora, el francés hablado suele redondear hacia la hora siguiente con moins (menos).",
+      "examples": [
+        { "target": "Il est une heure.", "es": "Es la una.", "note": "une heure, sin -s (es solo una)" },
+        { "target": "Il est trois heures.", "es": "Son las tres.", "note": "heures con -s a partir de dos" },
+        { "target": "Il est trois heures et quart.", "es": "Son las tres y cuarto.", "note": "et quart = y cuarto" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las fracciones de hora",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["Il est ... heures.", "Son las ... en punto."],
+        ["... et quart", "... y cuarto"],
+        ["... et demie", "... y media"],
+        ["... moins le quart", "... menos cuarto"],
+        ["midi", "las doce del mediodía"],
+        ["minuit", "las doce de la noche"],
+        ["du matin / de l'après-midi / du soir", "de la mañana / de la tarde / de la noche"]
+      ],
+      "note": "Midi y minuit no llevan heure(s) detrás: il est midi, no il est midi heure."
+    },
+    {
+      "type": "contrast",
+      "title": "Horario de 24 horas: el que usan trenes y tiendas",
+      "items": [
+        { "wrong": "Pensar que el sistema de 24 horas es solo para relojes digitales", "right": "en Francia, horarios de trenes, tiendas y programas de TV usan el sistema de 24 horas por escrito", "why": "Aunque al hablar la gente suele usar el sistema de 12 horas con du matin/de l'après-midi/du soir, en horarios escritos es normal ver «14h30» en vez de «2h30 de l'après-midi». Acostúmbrate a leer los dos sistemas." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En el francés hablado, moins le quart (menos cuarto) es mucho más frecuente que decir «quarante-cinq» (cuarenta y cinco) para esa fracción de hora. Igual que en español decimos «las tres menos cuarto» en vez de «las dos cuarenta y cinco»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "quelle heure est-il ?", "es": "¿qué hora es?", "ipa": "/kɛl œʁ ɛ.til/", "esApprox": "«kel EUR e-TIL»", "pos": "expresión", "gender": null, "example": { "target": "Quelle heure est-il ? — Il est deux heures.", "es": "¿Qué hora es? —Son las dos." } },
+    { "id": "v2", "target": "il est... heure(s)", "es": "es la.../son las...", "ipa": "/il ɛ œʁ/", "esApprox": "«il e EUR»", "pos": "expresión", "gender": null, "example": { "target": "Il est cinq heures.", "es": "Son las cinco." } },
+    { "id": "v3", "target": "et quart", "es": "y cuarto", "ipa": "/e kaʁ/", "esApprox": "«e KAR»", "pos": "expresión", "gender": null, "example": { "target": "Il est six heures et quart.", "es": "Son las seis y cuarto." } },
+    { "id": "v4", "target": "et demie", "es": "y media", "ipa": "/e də.mi/", "esApprox": "«e de-MÍ»", "pos": "expresión", "gender": null, "example": { "target": "Il est sept heures et demie.", "es": "Son las siete y media." } },
+    { "id": "v5", "target": "moins le quart", "es": "menos cuarto", "ipa": "/mwɛ̃ lə kaʁ/", "esApprox": "«muén le KAR»", "pos": "expresión", "gender": null, "example": { "target": "Il est huit heures moins le quart.", "es": "Son las ocho menos cuarto." } },
+    { "id": "v6", "target": "midi", "es": "las doce del mediodía", "ipa": "/mi.di/", "esApprox": "«mi-DÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v7", "target": "minuit", "es": "las doce de la noche", "ipa": "/mi.nɥi/", "esApprox": "«mi-NÜÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v8", "target": "du matin", "es": "de la mañana", "ipa": "/dy ma.tɛ̃/", "esApprox": "«dü ma-TEN»", "pos": "expresión", "gender": null },
+    { "id": "v9", "target": "de l'après-midi", "es": "de la tarde", "ipa": "/də la.pʁɛ mi.di/", "esApprox": "«de la-pré mi-DÍ»", "pos": "expresión", "gender": null },
+    { "id": "v10", "target": "du soir", "es": "de la noche", "ipa": "/dy swaʁ/", "esApprox": "«dü SUAR»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["hora"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se pregunta la hora?",
+      "options": ["Quel jour sommes-nous ?", "Quelle heure est-il ?", "Quelle est la date ?", "Quel âge as-tu ?"],
+      "answer": 1,
+      "explain": "Quelle heure est-il ? = ¿qué hora es?"
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «las ocho menos cuarto»?",
+      "options": ["huit heures et quart", "huit heures moins le quart", "sept heures et quart", "sept heures moins le quart"],
+      "answer": 3,
+      "explain": "Las ocho menos cuarto es sept heures moins le quart (la hora anterior, menos cuarto)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "statement": "Midi y minuit llevan la palabra heure(s) detrás.",
+      "answer": false,
+      "explain": "Il est midi, il est minuit: sin heure(s)."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones NO es una fracción de hora, a diferencia de las demás?",
+      "options": ["et quart", "et demie", "moins le quart", "du matin"],
+      "answer": 3,
+      "explain": "Du matin indica el momento del día, no una fracción de hora."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["hora"],
+      "difficulty": 1,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["et quart", "et demie", "midi", "minuit"],
+      "right": ["las doce de la noche", "y cuarto", "las doce del mediodía", "y media"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Et quart = y cuarto, et demie = y media, midi = mediodía, minuit = medianoche."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Son las tres y cuarto de la tarde.",
+      "accept": ["Il est trois heures et quart de l'après-midi"],
+      "hintWords": ["trois heures et quart"],
+      "strictAccents": false,
+      "audio": "Il est trois heures et quart de l'après-midi.",
+      "explain": "Il est + hora + et quart + de l'après-midi."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Es la una y media.",
+      "accept": ["Il est une heure et demie"],
+      "hintWords": ["une heure et demie"],
+      "strictAccents": false,
+      "audio": "Il est une heure et demie.",
+      "explain": "Une heure, sin -s: solo hay una hora «una»."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Completa la hora",
+      "text": "Il est huit heures ___ le quart.",
+      "blanks": [{ "accept": ["moins"] }],
+      "bank": ["moins", "et", "de"],
+      "explain": "Moins le quart = menos cuarto."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Son las cinco de la mañana»",
+      "tokens": ["heures", "Il est", "du matin", "cinq"],
+      "answer": ["Il est", "cinq", "heures", "du matin"],
+      "audio": "Il est cinq heures du matin.",
+      "explain": "Il est + hora + heures + du matin."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["hora"],
+      "difficulty": 1,
+      "prompt": "Il est midi, on mange ?",
+      "accept": ["Es mediodía, ¿comemos?"],
+      "strictAccents": false,
+      "audio": "Il est midi, on mange ?",
+      "explain": "Midi = mediodía, sin heure(s)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación preguntando la hora",
+      "turns": [
+        { "who": "Léa", "text": "Quelle heure est-il ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il est trois heures et quart.", "Il est six heures moins le quart."], "hint": "di una hora con una fracción" },
+        { "who": "Léa", "text": "Merci, je vais être en retard !", "speak": true }
+      ],
+      "explain": "Quelle heure est-il ? se responde con il est + hora."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "speak": "Il est neuf heures et demie du soir.",
+      "mode": "write",
+      "accept": ["Il est neuf heures et demie du soir"],
+      "showTextAfter": true,
+      "explain": "Neuf heures et demie du soir = las nueve y media de la noche."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "speak": "minuit",
+      "mode": "choose",
+      "options": ["minuit", "midi", "une heure", "dix heures"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Minuit = medianoche."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["hora"],
+      "difficulty": 3,
+      "speak": "Il est trois heures et quart, puis trois heures et demie, puis quatre heures moins le quart.",
+      "es": "Son las tres y cuarto, luego las tres y media, luego las cuatro menos cuarto.",
+      "ipa": "/il ɛ tʁwa.z‿œʁ e kaʁ pɥi tʁwa.z‿œʁ e də.mi pɥi katʁ œʁ mwɛ̃ lə kaʁ/",
+      "esApprox": "«il e truá-ZEUR e KAR püí truá-ZEUR e de-MÍ püí katr EUR muén le KAR»",
+      "focus": "Practica el paso de una fracción a otra sin perder el ritmo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Di la hora que es ahora mismo, con una fracción si hace falta.",
+      "modelAnswer": "Il est quatre heures et quart de l'après-midi.",
+      "alsoValid": ["Il est dix heures du matin."],
+      "speak": "Il est quatre heures et quart de l'après-midi.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "¿Es una fracción de hora o un momento del día?",
+      "buckets": ["Fracción", "Momento del día"],
+      "items": [
+        { "text": "et quart", "bucket": 0 },
+        { "text": "du matin", "bucket": 1 },
+        { "text": "et demie", "bucket": 0 },
+        { "text": "du soir", "bucket": 1 },
+        { "text": "moins le quart", "bucket": 0 },
+        { "text": "de l'après-midi", "bucket": 1 }
+      ],
+      "explain": "Et quart, et demie y moins le quart son fracciones; du matin, du soir y de l'après-midi son momentos del día."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["hora"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Il est une heures.",
+      "accept": ["Il est une heure"],
+      "audio": "Il est une heure.",
+      "explain": "Une heure no lleva -s: solo se pone -s a partir de deux heures."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "quelle heure est-il ?", "es": "¿qué hora es?", "esApprox": "«kel EUR e-TIL»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "et quart", "es": "y cuarto", "esApprox": "«e KAR»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "et demie", "es": "y media", "esApprox": "«e de-MÍ»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "moins le quart", "es": "menos cuarto", "esApprox": "«muén le KAR»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "midi", "es": "mediodía", "esApprox": "«mi-DÍ»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "minuit", "es": "medianoche", "esApprox": "«mi-NÜÍ»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "du soir", "es": "de la noche", "esApprox": "«dü SUAR»", "from": "v10" },
+    { "id": "s8", "kind": "phrase", "target": "Il est neuf heures et demie du soir.", "es": "Son las nueve y media de la noche.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Il est trois heures et quart, puis trois heures et demie, puis quatre heures moins le quart.", "es": "Son las tres y cuarto, luego las tres y media, luego las cuatro menos cuarto.", "from": "e14" }
+  ]
+}

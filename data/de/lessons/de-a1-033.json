@@ -1,0 +1,356 @@
+{
+  "id": "de-a1-033",
+  "lang": "de",
+  "level": "A1",
+  "order": 33,
+  "title": "Los colores",
+  "objectives": [
+    "Aprender los colores básicos en alemán",
+    "Usar los colores como adjetivos después de sein: Das Auto ist rot",
+    "Combinar los colores con el vocabulario de sustantivos ya conocido"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los colores, después de sein, no cambian de forma",
+      "body": "Cuando el color va después de sein, como en «das Auto ist rot», se queda siempre igual, sin importar el género del sustantivo. Es la forma más sencilla de usarlos, y la que vas a practicar en esta clase. Cuando el color va delante del sustantivo (das rote Auto), sí cambia de forma, pero esa regla de declinación del adjetivo la verás más adelante, en A2.",
+      "examples": [
+        { "target": "Das Auto ist rot.", "es": "El coche es rojo.", "note": "rot no cambia" },
+        { "target": "Die Blume ist gelb.", "es": "La flor es amarilla.", "note": "gelb no cambia" },
+        { "target": "Der Hund ist schwarz.", "es": "El perro es negro.", "note": "schwarz no cambia" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los colores en alemán",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["rot", "rojo"],
+        ["orange", "naranja"],
+        ["gelb", "amarillo"],
+        ["grün", "verde"],
+        ["blau", "azul"],
+        ["braun", "marrón"],
+        ["schwarz", "negro"],
+        ["weiß", "blanco"],
+        ["grau", "gris"],
+        ["rosa", "rosa"],
+        ["bunt", "multicolor"]
+      ],
+      "note": "orange y rosa son invariables incluso cuando van delante del sustantivo: nunca cambian de forma."
+    },
+    {
+      "type": "tip",
+      "body": "Los adjetivos de color, como todos los adjetivos alemanes, se escriben SIEMPRE en minúscula, a diferencia de los sustantivos: rot, no Rot."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "rot",
+      "es": "rojo",
+      "ipa": "/ʁoːt/",
+      "esApprox": "«rot»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Das Auto ist rot.", "es": "El coche es rojo." }
+    },
+    {
+      "id": "v2",
+      "target": "blau",
+      "es": "azul",
+      "ipa": "/blaʊ̯/",
+      "esApprox": "«blau»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Das Buch ist blau.", "es": "El libro es azul." }
+    },
+    {
+      "id": "v3",
+      "target": "grün",
+      "es": "verde",
+      "ipa": "/ɡʁyːn/",
+      "esApprox": "«grün»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Die Blume ist grün.", "es": "La flor es verde." }
+    },
+    {
+      "id": "v4",
+      "target": "gelb",
+      "es": "amarillo",
+      "ipa": "/ɡɛlp/",
+      "esApprox": "«guelp»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Die Blume ist gelb.", "es": "La flor es amarilla." }
+    },
+    {
+      "id": "v5",
+      "target": "schwarz",
+      "es": "negro",
+      "ipa": "/ʃvaʁts/",
+      "esApprox": "«shvarts»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Die Katze ist schwarz.", "es": "El gato es negro." }
+    },
+    {
+      "id": "v6",
+      "target": "weiß",
+      "es": "blanco",
+      "ipa": "/vaɪ̯s/",
+      "esApprox": "«vais»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Das Haus ist weiß.", "es": "La casa es blanca." }
+    },
+    {
+      "id": "v7",
+      "target": "braun",
+      "es": "marrón",
+      "ipa": "/bʁaʊ̯n/",
+      "esApprox": "«braun»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Der Hund ist braun.", "es": "El perro es marrón." }
+    },
+    {
+      "id": "v8",
+      "target": "bunt",
+      "es": "multicolor, de muchos colores",
+      "ipa": "/bʊnt/",
+      "esApprox": "«bunt»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Die Blumen sind bunt.", "es": "Las flores son multicolores." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «rojo» en alemán?",
+      "options": ["blau", "rot", "grün", "gelb"],
+      "answer": 1,
+      "explain": "rot = rojo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «negro» en alemán?",
+      "options": ["weiß", "schwarz", "braun", "grau"],
+      "answer": 1,
+      "explain": "schwarz = negro."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "statement": "Weiß significa «blanco».",
+      "answer": true,
+      "explain": "weiß = blanco."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "statement": "Grün significa «azul».",
+      "answer": false,
+      "explain": "Grün significa «verde»; «azul» es blau."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas palabras NO es un color?",
+      "options": ["rot", "blau", "Montag", "grün"],
+      "answer": 2,
+      "explain": "Montag es un día de la semana, no un color."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "Une cada color con su significado",
+      "left": ["rot", "blau", "gelb", "schwarz"],
+      "right": ["amarillo", "rojo", "negro", "azul"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Cuatro colores básicos."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "El coche es rojo.",
+      "accept": ["Das Auto ist rot"],
+      "hintWords": ["das Auto ist rot"],
+      "strictAccents": false,
+      "audio": "Das Auto ist rot.",
+      "explain": "rot no cambia de forma después de sein."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "La flor es amarilla.",
+      "accept": ["Die Blume ist gelb"],
+      "hintWords": ["die Blume ist gelb"],
+      "strictAccents": false,
+      "audio": "Die Blume ist gelb.",
+      "explain": "gelb no cambia, aunque Blume sea femenino."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "Completa con el color correcto",
+      "text": "Das Auto ist ___. Die Katze ist ___.",
+      "blanks": [{ "accept": ["rot"] }, { "accept": ["schwarz"] }],
+      "bank": ["rot", "schwarz", "blau"],
+      "explain": "rot para el coche; schwarz para el gato, según el contexto de esta clase."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «El libro es azul»",
+      "tokens": ["ist", "Buch", "blau", "Das"],
+      "answer": ["Das", "Buch", "ist", "blau"],
+      "audio": "Das Buch ist blau.",
+      "explain": "Das Buch + ist + blau."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "Der Hund ist braun.",
+      "accept": ["El perro es marrón."],
+      "strictAccents": false,
+      "audio": "Der Hund ist braun.",
+      "explain": "braun = marrón."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Ist dein Auto rot?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, mein Auto ist blau."], "hint": "responde que no, que tu coche es azul" },
+        { "who": "Anna", "text": "Schön!", "speak": true }
+      ],
+      "explain": "mein Auto ist blau: repasa el posesivo de la clase 27."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "speak": "Das Auto ist rot.",
+      "mode": "write",
+      "accept": ["Das Auto ist rot"],
+      "showTextAfter": true,
+      "explain": "Das Auto ist rot = el coche es rojo."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "speak": "Die Katze ist schwarz.",
+      "mode": "choose",
+      "options": ["Die Katze ist schwarz.", "Die Katze ist weiß.", "Die Katze ist braun."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "schwarz, weiß y braun suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "speak": "Das Auto ist rot, und das Haus ist weiß.",
+      "es": "El coche es rojo, y la casa es blanca.",
+      "ipa": "/das ˈaʊ̯to ɪst ʁoːt ʊnt das haʊ̯s ɪst vaɪ̯s/",
+      "esApprox": "«das AU-to ist rot, unt das jaus ist vais»",
+      "focus": "weiß se pronuncia «vais», con la ß como una s fuerte al final.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "speak": "Die Blume ist gelb, und die Katze ist schwarz.",
+      "es": "La flor es amarilla, y el gato es negro.",
+      "ipa": "/diː ˈbluːmə ɪst ɡɛlp ʊnt diː ˈkatsə ɪst ʃvaʁts/",
+      "esApprox": "«di BLÚ-me ist guelp, unt di KAT-se ist shvarts»",
+      "focus": "gelb termina con una b que suena como p, siguiendo la regla general de las consonantes finales.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "Te preguntan de qué color es tu coche. Responde que es azul.",
+      "modelAnswer": "Mein Auto ist blau.",
+      "alsoValid": ["Mein Auto ist blau, glaube ich."],
+      "speak": "Mein Auto ist blau.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada color: ¿cálido o frío?",
+      "buckets": ["Colores cálidos", "Colores fríos"],
+      "items": [
+        { "text": "rot", "bucket": 0 },
+        { "text": "gelb", "bucket": 0 },
+        { "text": "blau", "bucket": 1 },
+        { "text": "grün", "bucket": 1 }
+      ],
+      "explain": "rot y gelb se consideran cálidos; blau y grün, fríos."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Das Auto ist Rot.",
+      "accept": ["Das Auto ist rot"],
+      "audio": "Das Auto ist rot.",
+      "explain": "Los adjetivos van siempre en minúscula: rot, no Rot."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "rot", "es": "rojo", "esApprox": "«rot»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "blau", "es": "azul", "esApprox": "«blau»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "grün", "es": "verde", "esApprox": "«grün»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "gelb", "es": "amarillo", "esApprox": "«guelp»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "schwarz", "es": "negro", "esApprox": "«shvarts»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "weiß", "es": "blanco", "esApprox": "«vais»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "braun", "es": "marrón", "esApprox": "«braun»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "bunt", "es": "multicolor", "esApprox": "«bunt»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Das Auto ist rot, und das Haus ist weiß.", "es": "El coche es rojo, y la casa es blanca.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Die Blume ist gelb, und die Katze ist schwarz.", "es": "La flor es amarilla, y el gato es negro.", "from": "e16" }
+  ]
+}

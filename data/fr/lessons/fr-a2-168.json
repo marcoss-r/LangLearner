@@ -1,0 +1,249 @@
+{
+  "id": "fr-a2-168",
+  "lang": "fr",
+  "level": "A2",
+  "order": 168,
+  "title": "El ritmo de las frases largas",
+  "objectives": [
+    "Entender que el francés no acentúa palabras sueltas, sino grupos rítmicos completos",
+    "Reconocer que el acento cae siempre en la última sílaba del grupo rítmico, nunca antes",
+    "Practicar la lectura de frases largas dividiéndolas en grupos rítmicos naturales"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El francés no acentúa palabras, acentúa grupos",
+      "body": "En español, cada palabra tiene su propio acento (ca-SA, ha-BLAN-do). En francés, las palabras dentro de una frase se agrupan en grupos rítmicos, y solo la última sílaba de cada grupo lleva un poco más de fuerza. El resto suena plano, sin acentos internos.",
+      "examples": [
+        { "target": "Je voudrais un café, / s'il vous plaît.", "es": "Querría un café, por favor.", "note": "dos grupos rítmicos: acento en café (última sílaba del primer grupo) y en plaît (última del segundo)" }
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "Dividir una frase larga en grupos",
+      "body": "Una frase larga se divide de forma natural en grupos rítmicos, normalmente donde harías una pausa lógica (antes de una coma, una conjunción, o un cambio de idea). Cada grupo se pronuncia de un tirón, plano, con un pequeño repunte solo al final.",
+      "drills": [
+        { "target": "Je voudrais un café, s'il vous plaît.", "ipa": "/ʒə vu.dʁɛ œ̃ ka.fe | sil vu plɛ/", "esApprox": "«ye vu-DRE un ka-FÉ, sil vu PLE»", "hint": "dos grupos: acento en café y en plaît" },
+        { "target": "J'habite à Paris depuis trois ans.", "ipa": "/ʒa.bit a pa.ʁi dpɥi tʁwa.z‿ɑ̃/", "esApprox": "«sha-BIT a pa-RÍ de-pü-Í truá-ZAN»", "hint": "un solo grupo, acento final en ans" }
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "No acentúes cada palabra",
+      "body": "Si acentúas cada palabra por separado, como en español, tu francés sonará entrecortado y poco natural. Practica leyendo frases largas de un tirón, sin pausas entre palabras, con el acento solo al final de cada grupo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "un groupe rythmique", "es": "un grupo rítmico", "ipa": "/œ̃ ɡʁup ʁit.mik/", "esApprox": "«un GRUP rit-MIK»", "pos": "sustantivo", "gender": "m", "example": { "target": "Chaque groupe rythmique a son propre accent.", "es": "Cada grupo rítmico tiene su propio acento." } },
+    { "id": "v2", "target": "l'accent final", "es": "el acento final", "ipa": "/lak.sɑ̃ fi.nal/", "esApprox": "«lak-SAN fi-NAL»", "pos": "sustantivo", "gender": "m", "example": { "target": "L'accent final tombe sur la dernière syllabe.", "es": "El acento final cae en la última sílaba." } },
+    { "id": "v3", "target": "d'un tirón (lire d'un trait)", "es": "de un tirón", "ipa": "/liʁ dœ̃ tʁɛ/", "esApprox": "«LIR dun TRE»", "pos": "expresión", "gender": null, "example": { "target": "Lis cette phrase d'un trait.", "es": "Lee esta frase de un tirón." } },
+    { "id": "v4", "target": "une pause", "es": "una pausa", "ipa": "/yn poz/", "esApprox": "«ün POZ»", "pos": "sustantivo", "gender": "f", "example": { "target": "Fais une pause avant la virgule.", "es": "Haz una pausa antes de la coma." } },
+    { "id": "v5", "target": "plat / plate", "es": "plano/a (en pronunciación)", "ipa": "/pla plat/", "esApprox": "«PLA PLAT»", "pos": "adjetivo", "gender": null, "example": { "target": "Le début du groupe reste plat.", "es": "El principio del grupo se mantiene plano." } },
+    { "id": "v6", "target": "depuis trois ans", "es": "desde hace tres años", "ipa": "/dpɥi tʁwa.z‿ɑ̃/", "esApprox": "«de-pü-Í truá-ZAN»", "pos": "expresión", "gender": null, "example": { "target": "J'habite ici depuis trois ans.", "es": "Vivo aquí desde hace tres años." } },
+    { "id": "v7", "target": "naturel / naturelle", "es": "natural", "ipa": "/na.ty.ʁɛl/", "esApprox": "«na-tü-REL»", "pos": "adjetivo", "gender": null, "example": { "target": "Ça sonne plus naturel.", "es": "Suena más natural." } },
+    { "id": "v8", "target": "s'entraîner", "es": "entrenarse, practicar", "ipa": "/sɑ̃.tʁɛ.ne/", "esApprox": "«san-tre-NÉ»", "pos": "verbo", "gender": null, "example": { "target": "Il faut s'entraîner à lire d'un trait.", "es": "Hay que practicar leer de un tirón." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 2,
+      "prompt": "¿Dónde cae el acento en un grupo rítmico francés?",
+      "options": ["En la primera sílaba de cada palabra", "En la última sílaba del grupo entero", "En cada sílaba por igual", "No hay ningún acento en francés"],
+      "answer": 1,
+      "explain": "El acento cae en la última sílaba del grupo rítmico completo, no en cada palabra."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 2,
+      "prompt": "¿Qué pasa si acentúas cada palabra por separado, como en español?",
+      "options": ["Suena más natural", "Suena entrecortado y poco natural", "No cambia nada", "Es obligatorio hacerlo así"],
+      "answer": 1,
+      "explain": "Acentuar cada palabra suena entrecortado; el francés fluye en grupos rítmicos."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 2,
+      "statement": "Una frase larga se divide en grupos rítmicos, normalmente donde harías una pausa lógica.",
+      "answer": true,
+      "explain": "Los grupos rítmicos suelen coincidir con comas o cambios de idea."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 2,
+      "statement": "El principio de un grupo rítmico suena tan marcado como el final.",
+      "answer": false,
+      "explain": "El principio del grupo se mantiene plano; solo el final tiene un pequeño repunte."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["un groupe rythmique", "une pause", "plat", "s'entraîner"],
+      "right": ["entrenarse", "un grupo rítmico", "una pausa", "plano"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Groupe rythmique = grupo rítmico, pause = pausa, plat = plano, s'entraîner = entrenarse."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Querría un café, por favor.",
+      "accept": ["Je voudrais un café, s'il vous plaît"],
+      "hintWords": ["je voudrais un café", "s'il vous plaît"],
+      "strictAccents": false,
+      "audio": "Je voudrais un café, s'il vous plaît.",
+      "explain": "Dos grupos rítmicos, con acento en café y en plaît."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Vivo aquí desde hace tres años.",
+      "accept": ["J'habite ici depuis trois ans"],
+      "hintWords": ["j'habite ici", "depuis trois ans"],
+      "strictAccents": false,
+      "audio": "J'habite ici depuis trois ans.",
+      "explain": "Un solo grupo rítmico largo, con acento final en ans."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Il faut s'___ à lire d'un ___.",
+      "blanks": [{ "accept": ["entraîner"] }, { "accept": ["trait"] }],
+      "bank": ["entraîner", "trait", "pause"],
+      "explain": "S'entraîner + lire d'un trait."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Suena más natural»",
+      "tokens": ["plus naturel", "Ça sonne"],
+      "answer": ["Ça sonne", "plus naturel"],
+      "audio": "Ça sonne plus naturel.",
+      "explain": "Ça sonne + plus naturel."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Chaque groupe rythmique a son propre accent, à la fin, et le début reste toujours plat.",
+      "accept": ["Cada grupo rítmico tiene su propio acento, al final, y el principio se mantiene siempre plano."],
+      "strictAccents": false,
+      "audio": "Chaque groupe rythmique a son propre accent, à la fin, et le début reste toujours plat.",
+      "explain": "Explicación completa del ritmo francés."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación pidiendo algo con buen ritmo",
+      "turns": [
+        { "who": "Serveur", "text": "Vous désirez ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je voudrais un café, s'il vous plaît.", "Un café, s'il vous plaît."], "hint": "usa dos grupos rítmicos con acento final" },
+        { "who": "Serveur", "text": "Tout de suite.", "speak": true }
+      ],
+      "explain": "Al pedir, mantén el ritmo: acento solo al final de cada grupo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "speak": "Je voudrais un café, s'il vous plaît, et j'habite ici depuis trois ans.",
+      "mode": "write",
+      "accept": ["Je voudrais un café, s'il vous plaît, et j'habite ici depuis trois ans"],
+      "showTextAfter": true,
+      "explain": "Tres grupos rítmicos combinados en una frase larga."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 2,
+      "speak": "un groupe rythmique",
+      "mode": "choose",
+      "options": ["un accent final", "un groupe rythmique", "une pause", "un trait"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un groupe rythmique = un grupo rítmico."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 3,
+      "speak": "Je voudrais un café, s'il vous plaît, j'habite ici depuis trois ans, et je m'entraîne à lire d'un trait.",
+      "es": "Querría un café, por favor, vivo aquí desde hace tres años, y practico leer de un tirón.",
+      "ipa": "/ʒə vu.dʁɛ œ̃ ka.fe sil vu plɛ ʒa.bit i.si dpɥi tʁwa.z‿ɑ̃ e ʒə mɑ̃.tʁɛn a liʁ dœ̃ tʁɛ/",
+      "esApprox": "«ye vu-DRE un ka-FÉ sil vu PLE sha-BIT i-SÍ de-pü-Í truá-ZAN e ye man-TREN a LIR dun TRE»",
+      "focus": "Una frase larga con varios grupos rítmicos, cada uno con su acento final.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Lee en voz alta una frase larga sobre ti, dividiéndola en grupos rítmicos naturales.",
+      "modelAnswer": "J'habite ici depuis trois ans, et je m'entraîne tous les jours.",
+      "alsoValid": ["Je voudrais un café, s'il vous plaît."],
+      "speak": "J'habite ici depuis trois ans, et je m'entraîne tous les jours.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronunciacion-general", "ritmo"],
+      "difficulty": 2,
+      "prompt": "¿Es el principio o el final de un grupo rítmico?",
+      "buckets": ["Principio (plano)", "Final (acento)"],
+      "items": [
+        { "text": "je voudrais un", "bucket": 0 },
+        { "text": "café", "bucket": 1 },
+        { "text": "j'habite ici", "bucket": 0 },
+        { "text": "trois ans", "bucket": 1 }
+      ],
+      "explain": "El principio del grupo se mantiene plano; el acento aparece al final."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "Il faut s'entraîner à lire d'une pause.",
+      "accept": ["Il faut s'entraîner à lire d'un trait"],
+      "audio": "Il faut s'entraîner à lire d'un trait.",
+      "explain": "Se lee d'un trait (de un tirón), no d'une pause (que es lo contrario: una pausa)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "un groupe rythmique", "es": "un grupo rítmico", "esApprox": "«un GRUP rit-MIK»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "l'accent final", "es": "el acento final", "esApprox": "«lak-SAN fi-NAL»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "lire d'un trait", "es": "leer de un tirón", "esApprox": "«LIR dun TRE»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "une pause", "es": "una pausa", "esApprox": "«ün POZ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "plat / plate", "es": "plano/a", "esApprox": "«PLA PLAT»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "s'entraîner", "es": "entrenarse, practicar", "esApprox": "«san-tre-NÉ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je voudrais un café, s'il vous plaît.", "es": "Querría un café, por favor.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'habite ici depuis trois ans.", "es": "Vivo aquí desde hace tres años.", "from": "e7" }
+  ]
+}

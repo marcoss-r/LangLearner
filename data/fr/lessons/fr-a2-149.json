@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-149",
+  "lang": "fr",
+  "level": "A2",
+  "order": 149,
+  "title": "El cuerpo en movimiento: deporte y sensaciones físicas",
+  "objectives": [
+    "Aprender vocabulario del deporte y las sensaciones físicas",
+    "Usar avoir mal à (clase A2-141) con partes del cuerpo relacionadas con el deporte",
+    "Practicar frases sobre hacer ejercicio y cómo se siente el cuerpo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Moverse y sentir el cuerpo",
+      "body": "Sin gramática nueva. Vocabulario del deporte: courir, transpirer, être en forme, être essoufflé.",
+      "examples": [
+        { "target": "J'ai couru pendant une heure, je suis essoufflé et j'ai mal aux jambes.", "es": "He corrido durante una hora, estoy sin aliento y me duelen las piernas.", "note": "courir (passé composé) + avoir mal à (clase A2-141)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del deporte",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["courir", "correr"],
+        ["transpirer", "sudar"],
+        ["être en forme", "estar en forma"],
+        ["être essoufflé", "estar sin aliento"],
+        ["s'étirer", "estirarse"],
+        ["avoir mal aux jambes", "dolerle las piernas"],
+        ["avoir mal au dos", "dolerle la espalda"],
+        ["faire de l'exercice", "hacer ejercicio"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Avoir mal aux + plural",
+      "body": "Cuando la parte del cuerpo va en plural (les jambes, les bras), à + les se contrae en aux: avoir mal aux jambes. En singular, se usa à la (avoir mal à la tête) o au (avoir mal au dos)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "courir", "es": "correr", "ipa": "/ku.ʁiʁ/", "esApprox": "«ku-RIR»", "pos": "verbo", "gender": null, "example": { "target": "J'ai couru pendant une heure.", "es": "He corrido durante una hora." } },
+    { "id": "v2", "target": "transpirer", "es": "sudar", "ipa": "/tʁɑ̃s.pi.ʁe/", "esApprox": "«trans-pi-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je transpire beaucoup quand je cours.", "es": "Sudo mucho cuando corro." } },
+    { "id": "v3", "target": "être en forme", "es": "estar en forma", "ipa": "/ɛtʁ ɑ̃ fɔʁm/", "esApprox": "«ETR an FORM»", "pos": "expresión", "gender": null, "example": { "target": "Je me sens en forme aujourd'hui.", "es": "Me siento en forma hoy." } },
+    { "id": "v4", "target": "être essoufflé", "es": "estar sin aliento", "ipa": "/ɛtʁ e.su.fle/", "esApprox": "«ETR e-su-FLÉ»", "pos": "expresión", "gender": null, "example": { "target": "Je suis essoufflé après avoir couru.", "es": "Estoy sin aliento después de correr." } },
+    { "id": "v5", "target": "s'étirer", "es": "estirarse", "ipa": "/se.ti.ʁe/", "esApprox": "«se-ti-RÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je m'étire avant de courir.", "es": "Me estiro antes de correr." } },
+    { "id": "v6", "target": "avoir mal aux jambes", "es": "dolerle las piernas", "ipa": "/a.vwaʁ mal o ʒɑ̃b/", "esApprox": "«a-VUÁR mal o SHANB»", "pos": "expresión", "gender": null, "example": { "target": "J'ai mal aux jambes après le sport.", "es": "Me duelen las piernas después del deporte." } },
+    { "id": "v7", "target": "avoir mal au dos", "es": "dolerle la espalda", "ipa": "/a.vwaʁ mal o do/", "esApprox": "«a-VUÁR mal o DO»", "pos": "expresión", "gender": null, "example": { "target": "J'ai mal au dos depuis hier.", "es": "Me duele la espalda desde ayer." } },
+    { "id": "v8", "target": "faire de l'exercice", "es": "hacer ejercicio", "ipa": "/fɛʁ də lɛɡ.zɛʁ.sis/", "esApprox": "«fer de lek-zer-SIS»", "pos": "expresión", "gender": null, "example": { "target": "Je fais de l'exercice tous les matins.", "es": "Hago ejercicio todas las mañanas." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «estoy sin aliento»?",
+      "options": ["Je suis en forme.", "Je suis essoufflé.", "Je transpire.", "Je m'étire."],
+      "answer": 1,
+      "explain": "Être essoufflé = estar sin aliento."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «s'étirer»?",
+      "options": ["sudar", "correr", "estirarse", "descansar"],
+      "answer": 2,
+      "explain": "S'étirer = estirarse."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "statement": "Avoir mal aux jambes usa la misma estructura que avoir mal à la tête (clase A2-141).",
+      "answer": true,
+      "explain": "Avoir mal à + parte del cuerpo, la estructura no cambia."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "statement": "Être en forme significa estar cansado.",
+      "answer": false,
+      "explain": "Être en forme significa estar en forma, no estar cansado."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["courir", "transpirer", "être en forme", "faire de l'exercice"],
+      "right": ["hacer ejercicio", "correr", "sudar", "estar en forma"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Courir = correr, transpirer = sudar, être en forme = estar en forma, faire de l'exercice = hacer ejercicio."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "He corrido durante una hora, estoy sin aliento y me duelen las piernas.",
+      "accept": ["J'ai couru pendant une heure, je suis essoufflé et j'ai mal aux jambes"],
+      "hintWords": ["j'ai couru pendant une heure", "je suis essoufflé et j'ai mal aux jambes"],
+      "strictAccents": true,
+      "audio": "J'ai couru pendant une heure, je suis essoufflé et j'ai mal aux jambes.",
+      "explain": "Courir (passé composé) + avoir mal à (clase A2-141)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "Me estiro antes de correr, y sudo mucho cuando hago ejercicio.",
+      "accept": ["Je m'étire avant de courir, et je transpire beaucoup quand je fais de l'exercice"],
+      "hintWords": ["je m'étire avant de courir", "je transpire beaucoup quand je fais de l'exercice"],
+      "strictAccents": true,
+      "audio": "Je m'étire avant de courir, et je transpire beaucoup quand je fais de l'exercice.",
+      "explain": "S'étirer + transpirer + faire de l'exercice."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "J'ai mal au ___ depuis hier, mais je me sens en ___ aujourd'hui.",
+      "blanks": [{ "accept": ["dos"] }, { "accept": ["forme"] }],
+      "bank": ["dos", "forme", "jambes"],
+      "explain": "Avoir mal au dos + être en forme."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hago ejercicio todas las mañanas»",
+      "tokens": ["tous les matins", "Je fais de l'exercice"],
+      "answer": ["Je fais de l'exercice", "tous les matins"],
+      "audio": "Je fais de l'exercice tous les matins.",
+      "explain": "Je fais de l'exercice + tous les matins."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "Je fais de l'exercice tous les matins, je transpire beaucoup, mais je me sens vraiment en forme après.",
+      "accept": ["Hago ejercicio todas las mañanas, sudo mucho, pero me siento realmente en forma después."],
+      "strictAccents": false,
+      "audio": "Je fais de l'exercice tous les matins, je transpire beaucoup, mais je me sens vraiment en forme après.",
+      "explain": "Faire de l'exercice + transpirer + être en forme."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación después de hacer deporte",
+      "turns": [
+        { "who": "Léa", "text": "Ça va ? Tu as l'air fatigué.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai couru une heure, je suis essoufflé.", "J'ai mal aux jambes après le sport."], "hint": "usa être essoufflé o avoir mal aux jambes" },
+        { "who": "Léa", "text": "Il faut t'étirer un peu.", "speak": true }
+      ],
+      "explain": "Tu as l'air fatigué...? se responde con sensaciones físicas después del deporte."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "speak": "J'ai couru pendant une heure, je transpire beaucoup, je suis essoufflé, et j'ai mal aux jambes.",
+      "mode": "write",
+      "accept": ["J'ai couru pendant une heure, je transpire beaucoup, je suis essoufflé, et j'ai mal aux jambes"],
+      "showTextAfter": true,
+      "explain": "Varias sensaciones físicas después de correr."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 1,
+      "speak": "être essoufflé",
+      "mode": "choose",
+      "options": ["être en forme", "être essoufflé", "s'étirer", "transpirer"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Être essoufflé = estar sin aliento."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 3,
+      "speak": "Je m'étire avant de courir, je transpire beaucoup pendant l'exercice, et après, je suis essoufflé mais en forme.",
+      "es": "Me estiro antes de correr, sudo mucho durante el ejercicio, y después, estoy sin aliento pero en forma.",
+      "ipa": "/ʒə me.ti.ʁ a.vɑ̃ də ku.ʁiʁ ʒə tʁɑ̃s.piʁ bo.ku pɑ̃.dɑ̃ lɛɡ.zɛʁ.sis e a.pʁɛ ʒə sɥi.z‿e.su.fle mɛ ɑ̃ fɔʁm/",
+      "esApprox": "«ye me-TIR a-VAN de ku-RIR ye trans-PIR bo-KU pan-DAN lek-zer-SIS e a-PRE ye süí-ze-su-FLÉ me an FORM»",
+      "focus": "Antes, durante y después del ejercicio, en tres momentos distintos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "Cuenta cómo te sientes después de hacer deporte.",
+      "modelAnswer": "Après le sport, je suis essoufflé, j'ai mal aux jambes, mais je me sens en forme.",
+      "alsoValid": ["Je transpire beaucoup quand je fais de l'exercice."],
+      "speak": "Après le sport, je suis essoufflé, j'ai mal aux jambes, mais je me sens en forme.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "¿Es una sensación positiva o un dolor/molestia?",
+      "buckets": ["Sensación positiva", "Dolor/molestia"],
+      "items": [
+        { "text": "être en forme", "bucket": 0 },
+        { "text": "avoir mal au dos", "bucket": 1 },
+        { "text": "être en pleine forme", "bucket": 0 },
+        { "text": "avoir mal aux jambes", "bucket": 1 }
+      ],
+      "explain": "Être en forme es positivo; avoir mal a + parte del cuerpo, un dolor."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["cuerpo", "deporte"],
+      "difficulty": 2,
+      "prompt": "Hay un error de estructura. Corrige la frase entera.",
+      "wrong": "J'ai mal les jambes après le sport.",
+      "accept": ["J'ai mal aux jambes après le sport"],
+      "audio": "J'ai mal aux jambes après le sport.",
+      "explain": "Avoir mal necesita à + artículo contraído (aux) antes de la parte del cuerpo en plural."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "courir", "es": "correr", "esApprox": "«ku-RIR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "transpirer", "es": "sudar", "esApprox": "«trans-pi-RÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "être en forme", "es": "estar en forma", "esApprox": "«ETR an FORM»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "être essoufflé", "es": "estar sin aliento", "esApprox": "«ETR e-su-FLÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "s'étirer", "es": "estirarse", "esApprox": "«se-ti-RÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "faire de l'exercice", "es": "hacer ejercicio", "esApprox": "«fer de lek-zer-SIS»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai couru pendant une heure, je suis essoufflé et j'ai mal aux jambes.", "es": "He corrido durante una hora, estoy sin aliento y me duelen las piernas.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je m'étire avant de courir, et je transpire beaucoup quand je fais de l'exercice.", "es": "Me estiro antes de correr, y sudo mucho cuando hago ejercicio.", "from": "e7" }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "fr-a2-103",
+  "lang": "fr",
+  "level": "A2",
+  "order": 103,
+  "title": "Imparfait frente a passé composé I: la foto fija y la acción",
+  "objectives": [
+    "Distinguir el imparfait (la foto fija, sin principio ni fin) del passé composé (la acción, con principio y/o fin)",
+    "Reconocer marcadores típicos de cada tiempo: toujours/souvent (imparfait) frente a soudain/un jour (passé composé)",
+    "Elegir el tiempo correcto según si describes o cuentas una acción concreta"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una imagen para entender la diferencia",
+      "body": "Piensa en el imparfait como una foto fija: describe cómo eran las cosas, sin que sepamos cuándo empezó o terminó. El passé composé es como un vídeo corto: cuenta una acción concreta, con un principio y/o un final claros.",
+      "examples": [
+        { "target": "Il faisait beau (foto fija) quand je suis sorti (acción con un momento concreto).", "es": "Hacía buen tiempo (foto fija) cuando salí (acción concreta).", "note": "imparfait = descripción; passé composé = acción puntual" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Marcadores típicos de cada tiempo",
+      "headers": ["Imparfait (foto fija)", "Passé composé (acción)"],
+      "rows": [
+        ["toujours, souvent, d'habitude", "soudain, tout à coup, un jour"],
+        ["tous les jours, chaque été", "hier, ce jour-là, une fois"],
+        ["pendant que (acción de fondo)", "quand (acción puntual)"]
+      ],
+      "note": "Estos marcadores no son una regla absoluta, pero ayudan mucho a decidir qué tiempo usar."
+    },
+    {
+      "type": "contrast",
+      "title": "La misma frase, dos tiempos, dos sentidos"
+      ,
+      "items": [
+        { "wrong": "Confundir hier je jouais con hier j'ai joué", "right": "Hier, je jouais au foot quand il a commencé à pleuvoir. / Hier, j'ai joué au foot pendant deux heures.", "why": "Jouais (imparfait) describe una acción en curso sin límites claros; j'ai joué (passé composé) cuenta la acción como un bloque completo, con una duración concreta (deux heures)." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "soudain", "es": "de repente", "ipa": "/su.dɛ̃/", "esApprox": "«su-DEN»", "pos": "adverbio", "gender": null, "example": { "target": "Soudain, il a commencé à pleuvoir.", "es": "De repente, empezó a llover." } },
+    { "id": "v2", "target": "tout à coup", "es": "de repente, de golpe", "ipa": "/tu.t‿a ku/", "esApprox": "«tu-ta KÚ»", "pos": "adverbio", "gender": null, "example": { "target": "Tout à coup, elle est partie.", "es": "De repente, se fue." } },
+    { "id": "v3", "target": "un jour", "es": "un día (en una narración)", "ipa": "/œ̃ ʒuʁ/", "esApprox": "«un YUR»", "pos": "expresión", "gender": null, "example": { "target": "Un jour, j'ai vu Léa au marché.", "es": "Un día, vi a Léa en el mercado." } },
+    { "id": "v4", "target": "d'habitude", "es": "habitualmente", "ipa": "/da.bi.tyd/", "esApprox": "«da-bi-TÜD»", "pos": "adverbio", "gender": null, "example": { "target": "D'habitude, je me levais tôt.", "es": "Habitualmente, me levantaba temprano." } },
+    { "id": "v5", "target": "pendant que", "es": "mientras", "ipa": "/pɑ̃.dɑ̃ kə/", "esApprox": "«pan-DAN ke»", "pos": "conjunción", "gender": null, "example": { "target": "Pendant que je travaillais, il dormait.", "es": "Mientras yo trabajaba, él dormía." } },
+    { "id": "v6", "target": "commencer à + infinitif", "es": "empezar a + infinitivo", "ipa": "/kɔ.mɑ̃.se a/", "esApprox": "«ko-man-SÉ a»", "pos": "expresión", "gender": null, "example": { "target": "Il a commencé à pleuvoir.", "es": "Empezó a llover." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imparfait", "passe-compose", "contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Qué tiempo funciona como «la foto fija», sin principio ni fin?",
+      "options": ["el passé composé", "el imparfait", "el futuro próximo", "el presente"],
+      "answer": 1,
+      "explain": "El imparfait es la foto fija; el passé composé es la acción."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Qué marcador suele ir con el passé composé?",
+      "options": ["toujours", "d'habitude", "soudain", "souvent"],
+      "answer": 2,
+      "explain": "Soudain marca una acción puntual: passé composé."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "statement": "Il faisait beau quand je suis sorti: faisait describe (imparfait) y suis sorti es la acción (passé composé).",
+      "answer": true,
+      "explain": "Es el ejemplo clásico de foto fija + acción."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "statement": "Si una acción tiene una duración concreta y contada (pendant deux heures), suele ir en passé composé.",
+      "answer": true,
+      "explain": "Una duración cerrada y contada trata la acción como un bloque completo."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Une cada marcador con su significado",
+      "left": ["toujours", "soudain", "d'habitude", "un jour"],
+      "right": ["un día (en una narración)", "siempre", "de repente", "habitualmente"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Toujours y d'habitude son típicos del imparfait; soudain y un jour, del passé composé."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Hacía buen tiempo cuando salí.",
+      "accept": ["Il faisait beau quand je suis sorti"],
+      "hintWords": ["il faisait beau", "quand je suis sorti"],
+      "strictAccents": true,
+      "audio": "Il faisait beau quand je suis sorti.",
+      "explain": "Faisait (foto fija) + suis sorti (acción puntual)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "De repente, empezó a llover, y todos entraron rápido.",
+      "accept": ["Soudain, il a commencé à pleuvoir, et tout le monde est entré vite"],
+      "hintWords": ["soudain, il a commencé à pleuvoir", "tout le monde est entré vite"],
+      "strictAccents": true,
+      "audio": "Soudain, il a commencé à pleuvoir, et tout le monde est entré vite.",
+      "explain": "Soudain marca una acción puntual: passé composé."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Completa con el tiempo correcto",
+      "text": "D'habitude, je ___ tôt (imparfait), mais un jour, je ___ très tard (passé composé).",
+      "blanks": [{ "accept": ["me levais"] }, { "accept": ["me suis levé"] }],
+      "bank": ["me levais", "me suis levé", "me lève"],
+      "explain": "D'habitude → imparfait (hábito); un jour → passé composé (excepción puntual)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Mientras yo trabajaba, él dormía»",
+      "tokens": ["il dormait", "je travaillais", "Pendant que"],
+      "answer": ["Pendant que", "je travaillais", "il dormait"],
+      "audio": "Pendant que je travaillais, il dormait.",
+      "explain": "Dos acciones de fondo, ambas en imparfait."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Un jour, j'ai vu Léa au marché ; d'habitude, je ne la voyais jamais là-bas.",
+      "accept": ["Un día, vi a Léa en el mercado; habitualmente, nunca la veía allí."],
+      "strictAccents": false,
+      "audio": "Un jour, j'ai vu Léa au marché ; d'habitude, je ne la voyais jamais là-bas.",
+      "explain": "Un jour + passé composé frente a d'habitude + imparfait."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre algo que pasó",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce qui s'est passé, tout à coup ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il a commencé à pleuvoir.", "Tout le monde est parti."], "hint": "usa passé composé para la acción puntual" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Tout à coup marca una pregunta sobre una acción puntual: se responde en passé composé."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "speak": "Il faisait beau, les enfants jouaient dans la rue, quand soudain il a commencé à pleuvoir.",
+      "mode": "write",
+      "accept": ["Il faisait beau, les enfants jouaient dans la rue, quand soudain il a commencé à pleuvoir"],
+      "showTextAfter": true,
+      "explain": "Foto fija (faisait, jouaient) + acción puntual (a commencé)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["contraste-pasados"],
+      "difficulty": 1,
+      "speak": "soudain",
+      "mode": "choose",
+      "options": ["toujours", "d'habitude", "soudain", "souvent"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Soudain = de repente, típico del passé composé."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 3,
+      "speak": "D'habitude, je me levais tôt, mais un jour, je me suis levé très tard, et j'ai raté le bus.",
+      "es": "Habitualmente, me levantaba temprano, pero un día, me levanté muy tarde, y perdí el autobús.",
+      "ipa": "/da.bi.tyd ʒə mə lə.ve to mɛ œ̃ ʒuʁ ʒə mə sɥi lə.ve tʁɛ taʁ e ʒe ʁa.te lə bys/",
+      "esApprox": "«da-bi-TÜD ye me le-VE TÓ me un YUR ye me süí le-VÉ tre TAR e ye ra-TÉ le BÜS»",
+      "focus": "Hábito en imparfait, roto por una acción puntual en passé composé.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Cuenta un hábito de antes (imparfait) y una vez que fue diferente (passé composé).",
+      "modelAnswer": "D'habitude, je me levais tôt, mais un jour, je me suis levé très tard.",
+      "alsoValid": ["Je jouais toujours au foot, mais un jour, il a commencé à pleuvoir."],
+      "speak": "D'habitude, je me levais tôt, mais un jour, je me suis levé très tard.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Es una foto fija (imparfait) o una acción (passé composé)?",
+      "buckets": ["Foto fija", "Acción"],
+      "items": [
+        { "text": "Il faisait beau.", "bucket": 0 },
+        { "text": "Je suis sorti.", "bucket": 1 },
+        { "text": "Les enfants jouaient.", "bucket": 0 },
+        { "text": "Il a commencé à pleuvoir.", "bucket": 1 }
+      ],
+      "explain": "Faisait/jouaient describen; suis sorti/a commencé cuentan una acción concreta."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "Il a fait beau quand je suis sorti.",
+      "accept": ["Il faisait beau quand je suis sorti"],
+      "audio": "Il faisait beau quand je suis sorti.",
+      "explain": "La descripción del tiempo (foto fija) va en imparfait, no en passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "soudain", "es": "de repente", "esApprox": "«su-DEN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "tout à coup", "es": "de repente, de golpe", "esApprox": "«tu-ta KÚ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "un jour", "es": "un día (en una narración)", "esApprox": "«un YUR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "d'habitude", "es": "habitualmente", "esApprox": "«da-bi-TÜD»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "pendant que", "es": "mientras", "esApprox": "«pan-DAN ke»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Il faisait beau quand je suis sorti.", "es": "Hacía buen tiempo cuando salí.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Soudain, il a commencé à pleuvoir, et tout le monde est entré vite.", "es": "De repente, empezó a llover, y todos entraron rápido.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Pendant que je travaillais, il dormait.", "es": "Mientras yo trabajaba, él dormía.", "from": "e9" }
+  ]
+}

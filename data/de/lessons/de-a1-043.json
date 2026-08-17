@@ -1,0 +1,376 @@
+{
+  "id": "de-a1-043",
+  "lang": "de",
+  "level": "A1",
+  "order": 43,
+  "title": "La casa y las habitaciones",
+  "objectives": [
+    "Aprender el vocabulario de las habitaciones de la casa: Küche, Wohnzimmer, Schlafzimmer, Badezimmer",
+    "Practicar la preposición in con ubicación (dativo), usando las habitaciones como ejemplo",
+    "Reforzar la contracción in + dem = im con sustantivos neutros"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Practicar el dativo de ubicación con las habitaciones de casa",
+      "body": "Esta clase es la excusa perfecta para practicar in + dativo (clase 42) diciendo en qué habitación estás. Recuerda: in + dem se contrae en im; in + der no se contrae.",
+      "examples": [
+        { "target": "Ich bin in der Küche.", "es": "Estoy en la cocina.", "note": "Küche es femenino: in der, sin contracción" },
+        { "target": "Ich bin im Wohnzimmer.", "es": "Estoy en el salón.", "note": "Wohnzimmer es neutro: in + dem = im" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las habitaciones de la casa",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["das Wohnzimmer", "el salón"],
+        ["die Küche", "la cocina"],
+        ["das Schlafzimmer", "el dormitorio"],
+        ["das Badezimmer", "el baño"],
+        ["der Flur", "el pasillo"],
+        ["der Balkon", "el balcón"],
+        ["die Garage", "el garaje"],
+        ["der Keller", "el sótano"]
+      ],
+      "note": "Muchos nombres de habitaciones son palabras compuestas: Wohnzimmer (Wohnen + Zimmer, «habitación para vivir»), Schlafzimmer (Schlafen + Zimmer, «habitación para dormir»)."
+    },
+    {
+      "type": "tip",
+      "body": "Fíjate en el patrón -zimmer (habitación): Wohnzimmer, Schlafzimmer, Badezimmer. Si aprendes esta pieza una vez, reconoces todas las palabras que la contienen."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "das Wohnzimmer",
+      "es": "el salón",
+      "ipa": "/ˈvoːnˌtsɪmɐ/",
+      "esApprox": "«VÓ-tsi-mer»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Wohnzimmer",
+      "example": { "target": "Ich bin im Wohnzimmer.", "es": "Estoy en el salón." }
+    },
+    {
+      "id": "v2",
+      "target": "die Küche",
+      "es": "la cocina",
+      "ipa": "/ˈkʏçə/",
+      "esApprox": "«KÜ-che»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Küchen",
+      "example": { "target": "Ich bin in der Küche.", "es": "Estoy en la cocina." }
+    },
+    {
+      "id": "v3",
+      "target": "das Schlafzimmer",
+      "es": "el dormitorio",
+      "ipa": "/ˈʃlaːfˌtsɪmɐ/",
+      "esApprox": "«SHLÁF-tsi-mer»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Schlafzimmer",
+      "example": { "target": "Ich bin im Schlafzimmer.", "es": "Estoy en el dormitorio." }
+    },
+    {
+      "id": "v4",
+      "target": "das Badezimmer",
+      "es": "el baño",
+      "ipa": "/ˈbaːdəˌtsɪmɐ/",
+      "esApprox": "«BÁ-de-tsi-mer»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Badezimmer",
+      "example": { "target": "Ich bin im Badezimmer.", "es": "Estoy en el baño." }
+    },
+    {
+      "id": "v5",
+      "target": "der Flur",
+      "es": "el pasillo",
+      "ipa": "/fluːɐ̯/",
+      "esApprox": "«flur»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Flure",
+      "example": { "target": "Ich bin im Flur.", "es": "Estoy en el pasillo." }
+    },
+    {
+      "id": "v6",
+      "target": "der Balkon",
+      "es": "el balcón",
+      "ipa": "/balˈkɔŋ/",
+      "esApprox": "«bal-KON»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Balkone",
+      "example": { "target": "Der Balkon ist schön.", "es": "El balcón es bonito." }
+    },
+    {
+      "id": "v7",
+      "target": "die Garage",
+      "es": "el garaje",
+      "ipa": "/ɡaˈʁaːʒə/",
+      "esApprox": "«ga-RÁ-she»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Garagen",
+      "example": { "target": "Ich bin in der Garage.", "es": "Estoy en el garaje." }
+    },
+    {
+      "id": "v8",
+      "target": "der Keller",
+      "es": "el sótano",
+      "ipa": "/ˈkɛlɐ/",
+      "esApprox": "«KE-ler»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Keller",
+      "example": { "target": "Ich bin im Keller.", "es": "Estoy en el sótano." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «cocina» en alemán?",
+      "options": ["Wohnzimmer", "Küche", "Schlafzimmer", "Badezimmer"],
+      "answer": 1,
+      "explain": "die Küche = la cocina."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «dormitorio» en alemán?",
+      "options": ["Küche", "Schlafzimmer", "Flur", "Keller"],
+      "answer": 1,
+      "explain": "das Schlafzimmer = el dormitorio."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "statement": "Das Badezimmer significa «el baño».",
+      "answer": true,
+      "explain": "das Badezimmer = el baño."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "statement": "Der Balkon significa «el sótano».",
+      "answer": false,
+      "explain": "Der Balkon es el balcón; «el sótano» es der Keller."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas palabras NO es una habitación de la casa?",
+      "options": ["Küche", "Wohnzimmer", "Park", "Schlafzimmer"],
+      "answer": 2,
+      "explain": "Park es un parque, no forma parte de la casa."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "prompt": "Une cada habitación con su significado",
+      "left": ["Küche", "Wohnzimmer", "Schlafzimmer", "Badezimmer"],
+      "right": ["baño", "cocina", "salón", "dormitorio"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Cuatro habitaciones básicas de la casa."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Estoy en la cocina.",
+      "accept": ["Ich bin in der Küche"],
+      "hintWords": ["ich bin in der Küche"],
+      "strictAccents": false,
+      "audio": "Ich bin in der Küche.",
+      "explain": "Küche es femenino: in der, sin contracción."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Estoy en el salón.",
+      "accept": ["Ich bin im Wohnzimmer"],
+      "hintWords": ["ich bin im Wohnzimmer"],
+      "strictAccents": false,
+      "audio": "Ich bin im Wohnzimmer.",
+      "explain": "Wohnzimmer es neutro: in + dem = im."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Ich bin in ___ Küche. Ich bin ___ Schlafzimmer.",
+      "blanks": [{ "accept": ["der"] }, { "accept": ["im"] }],
+      "bank": ["der", "im", "dem"],
+      "explain": "der Küche (femenino, sin contraer); im Schlafzimmer (neutro, contraído)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Estoy en el garaje»",
+      "tokens": ["Garage", "Ich", "der", "bin", "in"],
+      "answer": ["Ich", "bin", "in", "der", "Garage"],
+      "audio": "Ich bin in der Garage.",
+      "explain": "Garage es femenino: in der."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "prompt": "Der Balkon ist schön.",
+      "accept": ["El balcón es bonito."],
+      "strictAccents": false,
+      "audio": "Der Balkon ist schön.",
+      "explain": "der Balkon = el balcón."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Bist du in der Küche?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, ich bin im Wohnzimmer."], "hint": "responde que no, que estás en el salón" },
+        { "who": "Anna", "text": "Ah, okay!", "speak": true }
+      ],
+      "explain": "in der Küche (femenino) frente a im Wohnzimmer (neutro, contraído)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["casa"],
+      "difficulty": 1,
+      "speak": "Ich bin in der Küche.",
+      "mode": "write",
+      "accept": ["Ich bin in der Küche"],
+      "showTextAfter": true,
+      "explain": "Ich bin in der Küche = estoy en la cocina."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "speak": "Ich bin im Wohnzimmer.",
+      "mode": "choose",
+      "options": ["Ich bin im Wohnzimmer.", "Ich bin in der Küche.", "Ich bin im Schlafzimmer."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Wohnzimmer, Küche y Schlafzimmer suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "speak": "Ich bin in der Küche, und du bist im Wohnzimmer.",
+      "es": "Estoy en la cocina, y tú estás en el salón.",
+      "ipa": "/ɪç bɪn ɪn deːɐ̯ ˈkʏçə ʊnt duː bɪst ɪm ˈvoːnˌtsɪmɐ/",
+      "esApprox": "«ich bin in der KÜ-che unt du bist im VÓ-tsi-mer»",
+      "focus": "in der (femenino) frente a im (neutro): dos formas del mismo dativo de ubicación.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "speak": "Der Balkon und die Garage sind modern.",
+      "es": "El balcón y el garaje son modernos.",
+      "ipa": "/deːɐ̯ balˈkɔŋ ʊnt diː ɡaˈʁaːʒə zɪnt moˈdɛʁn/",
+      "esApprox": "«der bal-KON unt di ga-RÁ-she zint mo-DERN»",
+      "focus": "Garage lleva un sonido «sh» suave al final, prestado del francés.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si estás en la cocina. Responde que no, que estás en el dormitorio.",
+      "modelAnswer": "Nein, ich bin im Schlafzimmer.",
+      "alsoValid": ["Ich bin im Schlafzimmer."],
+      "speak": "Nein, ich bin im Schlafzimmer.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Flur", "bucket": 0 },
+        { "text": "Küche", "bucket": 1 },
+        { "text": "Wohnzimmer", "bucket": 2 },
+        { "text": "Garage", "bucket": 1 },
+        { "text": "Keller", "bucket": 0 },
+        { "text": "Schlafzimmer", "bucket": 2 }
+      ],
+      "explain": "Las palabras en -zimmer son neutras; Küche y Garage, femeninas; Flur y Keller, masculinos."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich bin in die Küche.",
+      "accept": ["Ich bin in der Küche"],
+      "audio": "Ich bin in der Küche.",
+      "explain": "Ubicación (wo?) con sein: rige dativo, así que die debe ser der."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["casa"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Küche", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Wohnzimmer", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Flur", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Garage", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" }
+      ],
+      "explain": "Küche y Garage son femeninas, Wohnzimmer neutro, Flur masculino."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Wohnzimmer", "es": "el salón", "esApprox": "«VÓ-tsi-mer»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Küche", "es": "la cocina", "esApprox": "«KÜ-che»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Schlafzimmer", "es": "el dormitorio", "esApprox": "«SHLÁF-tsi-mer»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Badezimmer", "es": "el baño", "esApprox": "«BÁ-de-tsi-mer»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Flur", "es": "el pasillo", "esApprox": "«flur»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Balkon", "es": "el balcón", "esApprox": "«bal-KON»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "die Garage", "es": "el garaje", "esApprox": "«ga-RÁ-she»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "der Keller", "es": "el sótano", "esApprox": "«KE-ler»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich bin in der Küche, und du bist im Wohnzimmer.", "es": "Estoy en la cocina, y tú estás en el salón.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Der Balkon und die Garage sind modern.", "es": "El balcón y el garaje son modernos.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "id": "fr-a1-084",
+  "lang": "fr",
+  "level": "A1",
+  "order": 84,
+  "title": "El imperativo",
+  "objectives": [
+    "Formar el imperativo de tu, nous y vous quitando el pronombre sujeto",
+    "Aplicar la regla especial de los verbos -er: se quita la -s final de tu",
+    "Reconocer los imperativos irregulares de être y avoir"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El imperativo: dar órdenes o consejos",
+      "body": "El imperativo se forma con el presente de tu, nous o vous, quitando el pronombre sujeto. Con los verbos -er, además se quita la -s final de la forma de tu.",
+      "examples": [
+        { "target": "Parle plus fort ! Écoutez bien !", "es": "¡Habla más fuerte! ¡Escuchad bien!", "note": "tu parles → parle (sin -s); vous écoutez → écoutez" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El imperativo de parler (-er)",
+      "headers": ["Presente", "Imperativo"],
+      "rows": [
+        ["tu parles", "parle !"],
+        ["nous parlons", "parlons !"],
+        ["vous parlez", "parlez !"]
+      ],
+      "note": "Solo los verbos -er pierden la -s de tu en el imperativo. Los verbos -ir la mantienen: tu finis → finis !"
+    },
+    {
+      "type": "table",
+      "title": "Être y avoir: imperativos irregulares",
+      "headers": ["Verbo", "Imperativo"],
+      "rows": [
+        ["être", "sois ! / soyons ! / soyez !"],
+        ["avoir", "aie ! / ayons ! / ayez !"]
+      ],
+      "note": "Être y avoir no siguen ninguna regla: hay que memorizar estas seis formas."
+    },
+    {
+      "type": "contrast",
+      "title": "El imperativo negativo"
+      ,
+      "items": [
+        { "wrong": "Ne parle pas pas.", "right": "Ne parle pas.", "why": "Ne...pas (clase 19) rodea el imperativo, igual que rodea cualquier verbo conjugado: ne + parle + pas." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "Parle ! / Parlons ! / Parlez !", "es": "¡Habla! / ¡Hablemos! / ¡Hablad!", "ipa": "/paʁl paʁ.lɔ̃ paʁ.le/", "esApprox": "«PARL par-LON par-LÉ»", "pos": "verbo", "gender": null, "example": { "target": "Parle plus fort, s'il te plaît.", "es": "Habla más fuerte, por favor." } },
+    { "id": "v2", "target": "Écoute ! / Écoutez !", "es": "¡Escucha! / ¡Escuchad!", "ipa": "/e.kut e.ku.te/", "esApprox": "«e-KÚT e-ku-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Écoutez bien la question.", "es": "Escuchad bien la pregunta." } },
+    { "id": "v3", "target": "Finis ! / Finissez !", "es": "¡Termina! / ¡Terminad!", "ipa": "/fi.ni fi.ni.se/", "esApprox": "«fi-NÍ fi-ni-SÉ»", "pos": "verbo", "gender": null, "example": { "target": "Finis ton travail !", "es": "¡Termina tu trabajo!" } },
+    { "id": "v4", "target": "Sois... ! / Soyez... !", "es": "¡Sé...! / ¡Sed...!", "ipa": "/swa swa.je/", "esApprox": "«SUÁ suá-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "Sois patient !", "es": "¡Sé paciente!" } },
+    { "id": "v5", "target": "N'aie pas peur !", "es": "¡No tengas miedo!", "ipa": "/nɛ pa pœʁ/", "esApprox": "«ne pa PEUR»", "pos": "expresión", "gender": null, "example": { "target": "N'aie pas peur, tout va bien.", "es": "No tengas miedo, todo va bien." } },
+    { "id": "v6", "target": "plus fort", "es": "más fuerte", "ipa": "/ply fɔʁ/", "esApprox": "«plü FOR»", "pos": "expresión", "gender": null, "example": { "target": "Parle plus fort, s'il te plaît.", "es": "Habla más fuerte, por favor." } },
+    { "id": "v7", "target": "Regarde ! / Regardez !", "es": "¡Mira! / ¡Mirad!", "ipa": "/ʁə.ɡaʁd ʁə.ɡaʁ.de/", "esApprox": "«re-GARD re-gar-DÉ»", "pos": "verbo", "gender": null, "example": { "target": "Regarde ! C'est magnifique.", "es": "¡Mira! Es precioso." } },
+    { "id": "v8", "target": "Attends ! / Attendez !", "es": "¡Espera! / ¡Esperad!", "ipa": "/a.tɑ̃ a.tɑ̃.de/", "esApprox": "«a-TAN a-tan-DÉ»", "pos": "verbo", "gender": null, "example": { "target": "Attends-moi, s'il te plaît !", "es": "Espérame, por favor." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el imperativo de «tu parles»?",
+      "options": ["Parles !", "Parle !", "Parler !", "Tu parle !"],
+      "answer": 1,
+      "explain": "Los verbos -er pierden la -s de tu en el imperativo: parle !"
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el imperativo de «tu finis» (-ir)?",
+      "options": ["Fini !", "Finis !", "Finisse !", "Finissez !"],
+      "answer": 1,
+      "explain": "Los verbos -ir mantienen la -s: finis !"
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "statement": "Être y avoir tienen imperativos irregulares que hay que memorizar.",
+      "answer": true,
+      "explain": "Sois/soyons/soyez y aie/ayons/ayez no siguen ninguna regla."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "statement": "El imperativo lleva siempre un pronombre sujeto delante.",
+      "answer": false,
+      "explain": "El imperativo se forma quitando el pronombre sujeto: parle !, no tu parle !"
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Une cada forma de presente con su imperativo",
+      "left": ["tu parles", "nous écoutons", "vous finissez", "tu es"],
+      "right": ["Sois !", "Finissez !", "Parle !", "Écoutons !"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Parle !, Écoutons !, Finissez !, Sois ! (irregular)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "¡Habla más fuerte y escucha bien!",
+      "accept": ["Parle plus fort et écoute bien"],
+      "hintWords": ["parle plus fort", "écoute bien"],
+      "strictAccents": false,
+      "audio": "Parle plus fort et écoute bien.",
+      "explain": "Dos imperativos -er, sin -s."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "No tengas miedo, sé paciente.",
+      "accept": ["N'aie pas peur, sois patient"],
+      "hintWords": ["n'aie pas peur", "sois patient"],
+      "strictAccents": false,
+      "audio": "N'aie pas peur, sois patient.",
+      "explain": "Imperativos irregulares de avoir y être, negación con ne...pas."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Completa con el imperativo correcto",
+      "text": "___ ton travail, puis nous ___ ensemble.",
+      "blanks": [{ "accept": ["Finis"] }, { "accept": ["parlons"] }],
+      "bank": ["Finis", "parlons", "parle"],
+      "explain": "Finis (tu, -ir) + parlons (nous, -er)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¡Escuchad bien la pregunta!»",
+      "tokens": ["la question", "bien", "Écoutez"],
+      "answer": ["Écoutez", "bien", "la question"],
+      "audio": "Écoutez bien la question.",
+      "explain": "Écoutez (vous) + bien + la question."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["imperativo"],
+      "difficulty": 1,
+      "prompt": "Ne parle pas si fort ! Sois plus calme.",
+      "accept": ["¡No hables tan fuerte! Sé más tranquilo."],
+      "strictAccents": false,
+      "audio": "Ne parle pas si fort ! Sois plus calme.",
+      "explain": "Imperativo negativo + imperativo irregular de être."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación con un consejo",
+      "turns": [
+        { "who": "Léa", "text": "J'ai un examen demain, j'ai peur !", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["N'aie pas peur !", "Sois patiente !"], "hint": "usa un imperativo con avoir o être" },
+        { "who": "Léa", "text": "Merci, tu as raison.", "speak": true }
+      ],
+      "explain": "El imperativo se usa mucho para dar consejos."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "speak": "Finis ton travail, parle plus fort, et sois patient.",
+      "mode": "write",
+      "accept": ["Finis ton travail, parle plus fort, et sois patient"],
+      "showTextAfter": true,
+      "explain": "Tres imperativos seguidos, regulares e irregulares."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["imperativo"],
+      "difficulty": 1,
+      "speak": "Parle !",
+      "mode": "choose",
+      "options": ["Parles !", "Parle !", "Parler !", "Tu parle !"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Parle ! (sin -s) es el imperativo correcto."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["imperativo"],
+      "difficulty": 3,
+      "speak": "Écoute bien, finis ton travail, et ne parle pas si fort !",
+      "es": "Escucha bien, termina tu trabajo, y no hables tan fuerte.",
+      "ipa": "/e.kut bjɛ̃ fi.ni tɔ̃ tʁa.vaj e nə paʁl pa si fɔʁ/",
+      "esApprox": "«e-KÚT bien fi-NÍ ton tra-VÁY e ne PARL pa si FOR»",
+      "focus": "Tres imperativos seguidos, dos afirmativos y uno negativo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Da dos consejos con el imperativo a un amigo nervioso.",
+      "modelAnswer": "N'aie pas peur, sois patient.",
+      "alsoValid": ["Écoute bien et parle plus fort."],
+      "speak": "N'aie pas peur, sois patient.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "¿Es un imperativo regular o irregular?",
+      "buckets": ["Regular", "Irregular"],
+      "items": [
+        { "text": "Parle !", "bucket": 0 },
+        { "text": "Sois !", "bucket": 1 },
+        { "text": "Finis !", "bucket": 0 },
+        { "text": "Aie !", "bucket": 1 }
+      ],
+      "explain": "Parle y finis siguen la regla; sois y aie son irregulares."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Hay un error: sobra la -s. Corrige la frase entera.",
+      "wrong": "Parles plus fort !",
+      "accept": ["Parle plus fort"],
+      "audio": "Parle plus fort !",
+      "explain": "Los verbos -er pierden la -s de tu en el imperativo."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "Parle ! / Parlons ! / Parlez !", "es": "¡Habla! / ¡Hablemos! / ¡Hablad!", "esApprox": "«PARL par-LON par-LÉ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "Écoute ! / Écoutez !", "es": "¡Escucha! / ¡Escuchad!", "esApprox": "«e-KÚT e-ku-TÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "Finis ! / Finissez !", "es": "¡Termina! / ¡Terminad!", "esApprox": "«fi-NÍ fi-ni-SÉ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "Sois... ! / Soyez... !", "es": "¡Sé...! / ¡Sed...!", "esApprox": "«SUÁ suá-YÉ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "N'aie pas peur !", "es": "¡No tengas miedo!", "esApprox": "«ne pa PEUR»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Parle plus fort et écoute bien.", "es": "Habla más fuerte y escucha bien.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "N'aie pas peur, sois patient.", "es": "No tengas miedo, sé paciente.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Attends-moi, s'il te plaît !", "es": "Espérame, por favor.", "from": "v8" }
+  ]
+}

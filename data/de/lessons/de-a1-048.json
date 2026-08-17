@@ -1,0 +1,377 @@
+{
+  "id": "de-a1-048",
+  "lang": "de",
+  "level": "A1",
+  "order": 48,
+  "title": "Los medios de transporte",
+  "objectives": [
+    "Aprender los medios de transporte: U-Bahn, Straßenbahn, Flugzeug, Taxi, Schiff",
+    "Usar mit + dativo para decir en qué medio de transporte vas: mit dem Zug, mit der U-Bahn",
+    "Reconocer zu Fuß como expresión fija para «a pie»"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Mit + dativo: la fórmula para decir cómo te desplazas",
+      "body": "Para decir en qué medio de transporte vas, el alemán usa mit + dativo (clase 40), sea cual sea el medio: mit dem Zug (en tren), mit der U-Bahn (en metro), mit dem Auto (en coche). La única excepción es ir a pie, que tiene su propia expresión fija: zu Fuß, sin verbo ni preposición mit.",
+      "examples": [
+        { "target": "Ich fahre mit dem Zug.", "es": "Voy en tren.", "note": "mit + dativo masculino" },
+        { "target": "Ich fahre mit der U-Bahn.", "es": "Voy en metro.", "note": "mit + dativo femenino" },
+        { "target": "Zu Fuß oder mit dem Bus?", "es": "¿A pie o en autobús?", "note": "zu Fuß, expresión fija" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los medios de transporte",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["der Zug", "el tren"],
+        ["das Auto", "el coche"],
+        ["der Bus", "el autobús"],
+        ["das Fahrrad", "la bicicleta"],
+        ["die U-Bahn", "el metro"],
+        ["die Straßenbahn", "el tranvía"],
+        ["das Flugzeug", "el avión"],
+        ["das Schiff", "el barco"],
+        ["das Taxi", "el taxi"],
+        ["zu Fuß", "a pie"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "U-Bahn es la abreviatura de Untergrundbahn (literalmente «tren subterráneo»); Straßenbahn es Straße + Bahn («tren de calle»). Reconocer -bahn como pieza de «tren/vía» te ayuda a entender palabras nuevas relacionadas con el transporte."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "die U-Bahn",
+      "es": "el metro",
+      "ipa": "/ˈuːbaːn/",
+      "esApprox": "«Ú-ban»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die U-Bahnen",
+      "example": { "target": "Ich fahre mit der U-Bahn.", "es": "Voy en metro." }
+    },
+    {
+      "id": "v2",
+      "target": "die Straßenbahn",
+      "es": "el tranvía",
+      "ipa": "/ˈʃtʁaːsn̩baːn/",
+      "esApprox": "«SHTRA-sen-ban»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Straßenbahnen",
+      "example": { "target": "Ich fahre mit der Straßenbahn.", "es": "Voy en tranvía." }
+    },
+    {
+      "id": "v3",
+      "target": "das Flugzeug",
+      "es": "el avión",
+      "ipa": "/ˈfluːktsɔɪ̯k/",
+      "esApprox": "«FLÚK-tsoik»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Flugzeuge",
+      "example": { "target": "Ich fahre mit dem Flugzeug.", "es": "Voy en avión." }
+    },
+    {
+      "id": "v4",
+      "target": "zu Fuß",
+      "es": "a pie",
+      "ipa": "/tsuː fuːs/",
+      "esApprox": "«tsu fus»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Zu Fuß oder mit dem Bus?", "es": "¿A pie o en autobús?" }
+    },
+    {
+      "id": "v5",
+      "target": "das Taxi",
+      "es": "el taxi",
+      "ipa": "/ˈtaksi/",
+      "esApprox": "«TAK-si»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Taxis",
+      "example": { "target": "Ich fahre mit dem Taxi.", "es": "Voy en taxi." }
+    },
+    {
+      "id": "v6",
+      "target": "das Schiff",
+      "es": "el barco",
+      "ipa": "/ʃɪf/",
+      "esApprox": "«shif»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Schiffe",
+      "example": { "target": "Ich fahre mit dem Schiff.", "es": "Voy en barco." }
+    },
+    {
+      "id": "v7",
+      "target": "der Zug",
+      "es": "el tren",
+      "ipa": "/tsuːk/",
+      "esApprox": "«tsuk»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Züge",
+      "example": { "target": "Ich fahre mit dem Zug.", "es": "Voy en tren." }
+    },
+    {
+      "id": "v8",
+      "target": "das Fahrrad",
+      "es": "la bicicleta",
+      "ipa": "/ˈfaːʁaːt/",
+      "esApprox": "«FÁ-rat»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Fahrräder",
+      "example": { "target": "Ich fahre mit dem Fahrrad.", "es": "Voy en bicicleta." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «metro» en alemán?",
+      "options": ["Straßenbahn", "U-Bahn", "Flugzeug", "Schiff"],
+      "answer": 1,
+      "explain": "die U-Bahn = el metro."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «avión» en alemán?",
+      "options": ["Taxi", "Schiff", "Flugzeug", "Zug"],
+      "answer": 2,
+      "explain": "das Flugzeug = el avión."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "statement": "Zu Fuß significa «a pie».",
+      "answer": true,
+      "explain": "zu Fuß = a pie."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "statement": "Das Schiff significa «el taxi».",
+      "answer": false,
+      "explain": "Das Schiff es el barco; «el taxi» es das Taxi."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas NO es un medio de transporte?",
+      "options": ["Zug", "Flugzeug", "Bibliothek", "Taxi"],
+      "answer": 2,
+      "explain": "Bibliothek es la biblioteca, un lugar, no un medio de transporte."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "prompt": "Une cada medio de transporte con su significado",
+      "left": ["Zug", "U-Bahn", "Flugzeug", "Schiff"],
+      "right": ["metro", "tren", "barco", "avión"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro medios de transporte frecuentes."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Voy en tren.",
+      "accept": ["Ich fahre mit dem Zug"],
+      "hintWords": ["ich fahre mit dem Zug"],
+      "strictAccents": false,
+      "audio": "Ich fahre mit dem Zug.",
+      "explain": "mit dem Zug: dativo masculino."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Voy en metro.",
+      "accept": ["Ich fahre mit der U-Bahn"],
+      "hintWords": ["ich fahre mit der U-Bahn"],
+      "strictAccents": false,
+      "audio": "Ich fahre mit der U-Bahn.",
+      "explain": "mit der U-Bahn: dativo femenino."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de mit + artículo",
+      "text": "Ich fahre ___ Zug. Ich fahre ___ U-Bahn.",
+      "blanks": [{ "accept": ["mit dem"] }, { "accept": ["mit der"] }],
+      "bank": ["mit dem", "mit der", "mit den"],
+      "explain": "mit dem (masculino, Zug); mit der (femenino, U-Bahn)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Voy en avión»",
+      "tokens": ["Flugzeug", "Ich", "dem", "fahre", "mit"],
+      "answer": ["Ich", "fahre", "mit", "dem", "Flugzeug"],
+      "audio": "Ich fahre mit dem Flugzeug.",
+      "explain": "Ich fahre + mit dem Flugzeug (dativo neutro)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "prompt": "Ich fahre mit dem Taxi.",
+      "accept": ["Voy en taxi."],
+      "strictAccents": false,
+      "audio": "Ich fahre mit dem Taxi.",
+      "explain": "mit dem Taxi = en taxi."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Fährst du mit dem Bus?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, ich fahre mit dem Fahrrad."], "hint": "responde que no, que vas en bicicleta" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "mit dem Fahrrad: dativo neutro."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["transporte"],
+      "difficulty": 1,
+      "speak": "Ich fahre mit dem Zug.",
+      "mode": "write",
+      "accept": ["Ich fahre mit dem Zug"],
+      "showTextAfter": true,
+      "explain": "Ich fahre mit dem Zug = voy en tren."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "speak": "Ich fahre mit der U-Bahn.",
+      "mode": "choose",
+      "options": ["Ich fahre mit der U-Bahn.", "Ich fahre mit dem Zug.", "Ich fahre mit dem Taxi."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "U-Bahn, Zug y Taxi suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "speak": "Ich fahre mit dem Zug, und du fährst mit der U-Bahn.",
+      "es": "Yo voy en tren, y tú vas en metro.",
+      "ipa": "/ɪç ˈfaːʁə mɪt deːm tsuːk ʊnt duː fɛːɐ̯st mɪt deːɐ̯ ˈuːbaːn/",
+      "esApprox": "«ich FÁ-re mit dem tsuk unt du ferst mit der Ú-ban»",
+      "focus": "mit dem (masculino) frente a mit der (femenino): el mismo patrón de siempre.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "speak": "Zu Fuß oder mit dem Bus?",
+      "es": "¿A pie o en autobús?",
+      "ipa": "/tsuː fuːs ˈoːdɐ mɪt deːm bʊs/",
+      "esApprox": "«tsu fus Ó-der mit dem bus»",
+      "focus": "zu Fuß no lleva ninguna preposición de transporte: es una excepción que hay que memorizar aparte.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si vas en avión. Responde que sí, que vas en avión.",
+      "modelAnswer": "Ja, ich fahre mit dem Flugzeug.",
+      "alsoValid": ["Ich fahre mit dem Flugzeug."],
+      "speak": "Ja, ich fahre mit dem Flugzeug.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada medio de transporte según su género",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Zug", "bucket": 0 },
+        { "text": "U-Bahn", "bucket": 1 },
+        { "text": "Flugzeug", "bucket": 2 },
+        { "text": "Straßenbahn", "bucket": 1 },
+        { "text": "Taxi", "bucket": 2 },
+        { "text": "Schiff", "bucket": 2 }
+      ],
+      "explain": "Zug es masculino; U-Bahn y Straßenbahn, femeninas; Flugzeug, Taxi y Schiff, neutros."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich fahre mit die U-Bahn.",
+      "accept": ["Ich fahre mit der U-Bahn"],
+      "audio": "Ich fahre mit der U-Bahn.",
+      "explain": "mit rige dativo siempre: die (nominativo/acusativo) debe ser der."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["transporte"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Zug", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "U-Bahn", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Flugzeug", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Taxi", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" }
+      ],
+      "explain": "Zug es masculino, U-Bahn femenina, Flugzeug y Taxi neutros."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die U-Bahn", "es": "el metro", "esApprox": "«Ú-ban»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Straßenbahn", "es": "el tranvía", "esApprox": "«SHTRA-sen-ban»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Flugzeug", "es": "el avión", "esApprox": "«FLÚK-tsoik»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "zu Fuß", "es": "a pie", "esApprox": "«tsu fus»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Taxi", "es": "el taxi", "esApprox": "«TAK-si»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "das Schiff", "es": "el barco", "esApprox": "«shif»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "der Zug", "es": "el tren", "esApprox": "«tsuk»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "das Fahrrad", "es": "la bicicleta", "esApprox": "«FÁ-rat»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich fahre mit dem Zug, und du fährst mit der U-Bahn.", "es": "Yo voy en tren, y tú vas en metro.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Zu Fuß oder mit dem Bus?", "es": "¿A pie o en autobús?", "from": "e16" }
+  ]
+}

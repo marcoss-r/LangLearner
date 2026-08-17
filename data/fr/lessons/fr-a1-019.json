@@ -1,0 +1,313 @@
+{
+  "id": "fr-a1-019",
+  "lang": "fr",
+  "level": "A1",
+  "order": 19,
+  "title": "La negación: ne… pas",
+  "objectives": [
+    "Formar la negación rodeando el verbo conjugado con ne (n') ... pas",
+    "Usar n' delante de vocal, en vez de ne",
+    "Convertir un/une/des en de (d') después de negar avoir: j'ai un chat → je n'ai pas de chat"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos piezas que rodean el verbo",
+      "body": "Para negar una frase en francés, el verbo conjugado se coloca **entre ne y pas**: ne + verbo + pas. Delante de vocal (o h muda), ne se convierte en **n'**, igual que le/la se convertían en l' en la clase 11.",
+      "examples": [
+        { "target": "Je suis fatigué. → Je ne suis pas fatigué.", "es": "Estoy cansado. → No estoy cansado.", "note": "ne + suis + pas" },
+        { "target": "Il a faim. → Il n'a pas faim.", "es": "Tiene hambre. → No tiene hambre.", "note": "n' delante de vocal (a)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Afirmativa frente a negativa",
+      "headers": ["Afirmativa", "Negativa"],
+      "rows": [
+        ["Je suis content.", "Je ne suis pas content."],
+        ["Tu as faim.", "Tu n'as pas faim."],
+        ["Il est français.", "Il n'est pas français."],
+        ["Nous sommes fatigués.", "Nous ne sommes pas fatigués."],
+        ["Ils ont un chat.", "Ils n'ont pas de chat."]
+      ],
+      "note": "Fíjate en la última fila: el artículo cambia. Lo explica la siguiente sección."
+    },
+    {
+      "type": "contrast",
+      "title": "Un/une/des se convierten en de tras la negación",
+      "items": [
+        { "wrong": "Je n'ai pas un chat.", "right": "Je n'ai pas de chat.", "why": "Cuando niegas avoir + un/une/des, el artículo indefinido casi siempre se convierte en de (d' delante de vocal): j'ai un chat → je n'ai pas de chat; j'ai des amis → je n'ai pas d'amis. No pasa con le/la/les (definidos), solo con un/une/des." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En el francés hablado informal, mucha gente **se come el ne** y solo dice pas: «je sais pas» en vez de «je ne sais pas». Es muy frecuente, pero de momento aprende y practica siempre la forma completa (ne...pas): es la que se espera en cualquier contexto escrito o cuidado, y la que te va a entender todo el mundo."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "ne / n'",
+      "es": "no (primera partícula de la negación)",
+      "ipa": "/nə/",
+      "esApprox": "«ne»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Je ne sais pas.", "es": "No sé." }
+    },
+    {
+      "id": "v2",
+      "target": "pas",
+      "es": "no (segunda partícula de la negación)",
+      "ipa": "/pa/",
+      "esApprox": "«pa»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Ce n'est pas grave.", "es": "No es grave." }
+    },
+    {
+      "id": "v3",
+      "target": "pas du tout",
+      "es": "para nada, en absoluto",
+      "ipa": "/pa dy tu/",
+      "esApprox": "«pa dü TÚ»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Je ne suis pas du tout fatigué.", "es": "No estoy nada cansado." }
+    },
+    {
+      "id": "v4",
+      "target": "non",
+      "es": "no (respuesta corta)",
+      "ipa": "/nɔ̃/",
+      "esApprox": "«non»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "— Tu as faim ? — Non.", "es": "—¿Tienes hambre? —No." }
+    },
+    {
+      "id": "v5",
+      "target": "si",
+      "es": "sí (para contradecir una pregunta negativa)",
+      "ipa": "/si/",
+      "esApprox": "«si»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "— Tu n'as pas faim ? — Si, un peu.", "es": "—¿No tienes hambre? —Sí, un poco." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["negacion"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es el orden correcto de la negación?",
+      "options": ["ne + verbo + pas", "pas + verbo + ne", "verbo + ne + pas", "ne + pas + verbo"],
+      "answer": 0,
+      "explain": "El verbo conjugado se coloca entre ne y pas: ne + verbo + pas."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["negacion"],
+      "difficulty": 1,
+      "statement": "Delante de vocal, ne se convierte en n'.",
+      "answer": true,
+      "explain": "Igual que le/la se convertían en l': n'ai, n'est, n'habite."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "statement": "Después de negar avoir + un/une/des, el artículo se convierte en de.",
+      "answer": true,
+      "explain": "J'ai un chat → je n'ai pas de chat."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["negacion"],
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas frases es afirmativa, a diferencia de las demás?",
+      "options": ["Je ne suis pas fatigué.", "Il n'a pas faim.", "Nous ne sommes pas contents.", "Je suis fatigué."],
+      "answer": 3,
+      "explain": "Je suis fatigué es la única afirmativa; las otras tres están negadas con ne...pas."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Une cada frase afirmativa con su versión negativa",
+      "left": ["Je suis content.", "Il a faim.", "Nous sommes fatigués.", "Elle a un chat."],
+      "right": ["Elle n'a pas de chat.", "Nous ne sommes pas fatigués.", "Il n'a pas faim.", "Je ne suis pas content."],
+      "answer": [3, 2, 1, 0],
+      "explain": "Fíjate en «elle a un chat» → «elle n'a pas de chat»: un se convierte en de."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "No tengo hambre.",
+      "accept": ["Je n'ai pas faim"],
+      "hintWords": ["je n'ai pas"],
+      "strictAccents": false,
+      "audio": "Je n'ai pas faim.",
+      "explain": "Faim no lleva artículo, así que la negación no cambia nada más: je n'ai pas faim."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "No tengo gato.",
+      "accept": ["Je n'ai pas de chat"],
+      "hintWords": ["je n'ai pas de"],
+      "strictAccents": false,
+      "audio": "Je n'ai pas de chat.",
+      "explain": "Un chat → pas de chat: el artículo indefinido se convierte en de tras la negación."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Completa la negación",
+      "text": "Il ___ est ___ content.",
+      "blanks": [{ "accept": ["n'"] }, { "accept": ["pas"] }],
+      "bank": ["n'", "pas", "ne"],
+      "explain": "Il n'est pas content: n' delante de vocal (est empieza por e)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «No somos estudiantes»",
+      "tokens": ["étudiants", "sommes", "Nous", "ne", "pas"],
+      "answer": ["Nous", "ne", "sommes", "pas", "étudiants"],
+      "audio": "Nous ne sommes pas étudiants.",
+      "explain": "Nous + ne + sommes + pas + étudiants."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["negacion"],
+      "difficulty": 1,
+      "prompt": "Elle n'a pas de sœur, mais elle a un frère.",
+      "accept": ["No tiene hermana, pero tiene un hermano."],
+      "strictAccents": false,
+      "audio": "Elle n'a pas de sœur, mais elle a un frère.",
+      "explain": "Pas de sœur (negado) frente a un frère (afirmativo, conserva el artículo)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación: te preguntan si tienes hambre",
+      "turns": [
+        { "who": "Léa", "text": "Tu as faim ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, je n'ai pas faim.", "Non, je n'ai pas faim, merci."], "hint": "di que no tienes hambre" },
+        { "who": "Léa", "text": "D'accord, pas de problème !", "speak": true }
+      ],
+      "explain": "Non, je n'ai pas faim: non para la respuesta corta, ne...pas para negar el verbo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["negacion"],
+      "difficulty": 1,
+      "speak": "Je ne suis pas fatigué.",
+      "mode": "write",
+      "accept": ["Je ne suis pas fatigué"],
+      "showTextAfter": true,
+      "explain": "Je ne suis pas + adjetivo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "speak": "Il n'a pas de chat.",
+      "mode": "choose",
+      "options": ["Il n'a pas de chat.", "Il a un chat.", "Il n'est pas content.", "Il a faim."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Il n'a pas de chat: negación de avoir + un chat."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "speak": "Je ne suis pas fatigué, je n'ai pas faim.",
+      "es": "No estoy cansado, no tengo hambre.",
+      "ipa": "/ʒə nə sɥi pa fa.ti.ɡe ʒə ne pa fɛ̃/",
+      "esApprox": "«ye ne süí pa fa-ti-GHÉ ye ne pa FEN»",
+      "focus": "Ne se pronuncia muy débil, casi tragado: el peso de la negación cae en pas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Dile a un amigo que no tienes gato ni hermano.",
+      "modelAnswer": "Je n'ai pas de chat et je n'ai pas de frère.",
+      "alsoValid": ["Je n'ai pas de chat ni de frère."],
+      "speak": "Je n'ai pas de chat et je n'ai pas de frère.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["negacion"],
+      "difficulty": 1,
+      "prompt": "¿Es una frase afirmativa o negativa?",
+      "buckets": ["Afirmativa", "Negativa"],
+      "items": [
+        { "text": "Je suis content.", "bucket": 0 },
+        { "text": "Il n'a pas faim.", "bucket": 1 },
+        { "text": "Nous sommes fatigués.", "bucket": 0 },
+        { "text": "Elle n'est pas française.", "bucket": 1 }
+      ],
+      "explain": "Ne...pas rodeando el verbo marca la negativa."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Falta una pieza de la negación. Corrige la frase entera.",
+      "wrong": "Je ne suis fatigué.",
+      "accept": ["Je ne suis pas fatigué"],
+      "audio": "Je ne suis pas fatigué.",
+      "explain": "La negación necesita las dos piezas: ne Y pas, no solo ne."
+    },
+    {
+      "id": "e18",
+      "type": "mcq",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Alguien te pregunta «Tu n'as pas faim ?» y sí tienes hambre. ¿Cómo contradices la pregunta negativa?",
+      "options": ["Oui", "Si", "Non", "Pas"],
+      "answer": 1,
+      "explain": "Para contradecir una pregunta negativa, se usa si en vez de oui."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "ne / n'", "es": "no (1ª partícula)", "esApprox": "«ne»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "pas", "es": "no (2ª partícula)", "esApprox": "«pa»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "pas du tout", "es": "para nada", "esApprox": "«pa dü TÚ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "non", "es": "no", "esApprox": "«non»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "si", "es": "sí (contradiciendo)", "esApprox": "«si»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je ne suis pas fatigué.", "es": "No estoy cansado.", "from": "e12" },
+    { "id": "s7", "kind": "phrase", "target": "Il n'a pas de chat.", "es": "No tiene gato.", "from": "e13" },
+    { "id": "s8", "kind": "phrase", "target": "Elle n'a pas de sœur, mais elle a un frère.", "es": "No tiene hermana, pero tiene un hermano.", "from": "e10" },
+    { "id": "s9", "kind": "phrase", "target": "Je ne suis pas fatigué, je n'ai pas faim.", "es": "No estoy cansado, no tengo hambre.", "from": "e14" }
+  ]
+}

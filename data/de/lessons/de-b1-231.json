@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-231",
+  "lang": "de",
+  "level": "B1",
+  "order": 231,
+  "title": "Las relaciones y la convivencia",
+  "objectives": [
+    "Aprender vocabulario sobre convivencia: der Mitbewohner, das Zusammenleben, die Rücksicht",
+    "Hablar de tareas domésticas compartidas y compromisos",
+    "Usar sich einigen (llegar a un acuerdo) y der Kompromiss en conversaciones sobre convivencia"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de la convivencia",
+      "body": "«Das Zusammenleben» (la convivencia) funciona mejor con «die Rücksicht» (la consideración hacia los demás) y una buena distribución de «die Haushaltsaufgaben» (las tareas domésticas). Cuando hay desacuerdos, lo importante es «sich einigen» (llegar a un acuerdo) y encontrar «einen Kompromiss» (un compromiso, una solución intermedia).",
+      "examples": [
+        { "target": "Wir müssen die Haushaltsaufgaben besser aufteilen.", "es": "Tenemos que repartir mejor las tareas domésticas." },
+        { "target": "Wir haben uns auf einen Kompromiss geeinigt.", "es": "Hemos llegado a un compromiso." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario clave de la convivencia",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["der Mitbewohner", "el compañero de piso"],
+        ["das Zusammenleben", "la convivencia"],
+        ["die Rücksicht", "la consideración hacia los demás"],
+        ["die Haushaltsaufgaben", "las tareas domésticas"],
+        ["der Kompromiss", "el compromiso, la solución intermedia"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "tolerant (tolerante) describe una cualidad clave para la buena convivencia: «Man muss tolerant und rücksichtsvoll sein» (Hay que ser tolerante y considerado)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Mitbewohner", "es": "el compañero de piso", "ipa": "/ˈmɪtbəvoːnɐ/", "esApprox": "«MIT-be-vo-ner»", "pos": "sustantivo", "gender": "m", "example": { "target": "Mein Mitbewohner ist sehr ordentlich.", "es": "Mi compañero de piso es muy ordenado." } },
+    { "id": "v2", "target": "das Zusammenleben", "es": "la convivencia", "ipa": "/tsuˈzamənleːbn̩/", "esApprox": "«tsu-ZÁ-men-le-ben»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Zusammenleben funktioniert gut.", "es": "La convivencia funciona bien." } },
+    { "id": "v3", "target": "die Rücksicht", "es": "la consideración hacia los demás", "ipa": "/ˈʁʏkzɪçt/", "esApprox": "«RÜK-zicht»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wir nehmen Rücksicht aufeinander.", "es": "Nos tenemos consideración mutuamente." } },
+    { "id": "v4", "target": "die Haushaltsaufgaben", "es": "las tareas domésticas", "ipa": "/ˈhaʊ̯shaltsʔaʊ̯fɡaːbn̩/", "esApprox": "«JÁUS-jalts-auf-ga-ben»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "Wir müssen die Haushaltsaufgaben besser aufteilen.", "es": "Tenemos que repartir mejor las tareas domésticas." } },
+    { "id": "v5", "target": "der Kompromiss", "es": "el compromiso, la solución intermedia", "ipa": "/kɔmpʁoˈmɪs/", "esApprox": "«kom-pro-MIS»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wir haben uns auf einen Kompromiss geeinigt.", "es": "Hemos llegado a un compromiso." } },
+    { "id": "v6", "target": "sich einigen", "es": "llegar a un acuerdo", "ipa": "/zɪç ˈaɪ̯nɪɡn̩/", "esApprox": "«zich ÁI-ni-guen»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Wir haben uns geeinigt.", "es": "Hemos llegado a un acuerdo." } },
+    { "id": "v7", "target": "tolerant", "es": "tolerante", "ipa": "/toleˈʁant/", "esApprox": "«to-le-RANT»", "pos": "adjetivo", "gender": null, "example": { "target": "Man muss tolerant sein.", "es": "Hay que ser tolerante." } },
+    { "id": "v8", "target": "aufteilen", "es": "repartir", "ipa": "/ˈaʊ̯ftaɪ̯lən/", "esApprox": "«ÁUF-tai-len»", "pos": "verbo separable", "gender": null, "example": { "target": "Wir teilen die Aufgaben auf.", "es": "Repartimos las tareas." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["relaciones", "convivencia"], "difficulty": 1, "prompt": "¿Cómo se dice «el compañero de piso»?", "options": ["der Nachbar", "der Mitbewohner", "der Freund", "der Vermieter"], "answer": 1, "explain": "der Mitbewohner = el compañero de piso." },
+    { "id": "e2", "type": "mcq", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "¿Cómo se dice «llegar a un acuerdo»?", "options": ["sich streiten", "sich einigen", "sich trennen", "sich verabreden"], "answer": 1, "explain": "sich einigen = llegar a un acuerdo." },
+    { "id": "e3", "type": "true_false", "tags": ["relaciones", "convivencia"], "difficulty": 2, "statement": "die Rücksicht significa tener en cuenta a los demás.", "answer": true, "explain": "die Rücksicht = la consideración hacia los demás." },
+    { "id": "e4", "type": "true_false", "tags": ["relaciones", "convivencia"], "difficulty": 2, "statement": "der Kompromiss significa imponer tu opinión sin ceder.", "answer": false, "explain": "der Kompromiss es una solución intermedia, que implica ceder por ambas partes." },
+    { "id": "e5", "type": "match_pairs", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["das Zusammenleben", "die Haushaltsaufgaben", "der Kompromiss", "tolerant"], "right": ["la convivencia", "las tareas domésticas", "el compromiso", "tolerante"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Tenemos que repartir mejor las tareas domésticas.", "accept": ["Wir müssen die Haushaltsaufgaben besser aufteilen"], "hintWords": ["wir müssen die Haushaltsaufgaben besser aufteilen"], "strictAccents": false, "audio": "Wir müssen die Haushaltsaufgaben besser aufteilen.", "explain": "müssen + die Haushaltsaufgaben + besser + aufteilen (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Hemos llegado a un compromiso.", "accept": ["Wir haben uns auf einen Kompromiss geeinigt"], "hintWords": ["wir haben uns auf einen Kompromiss geeinigt"], "strictAccents": false, "audio": "Wir haben uns auf einen Kompromiss geeinigt.", "explain": "haben + uns + auf einen Kompromiss + geeinigt (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Hay que ser tolerante.", "accept": ["Man muss tolerant sein"], "hintWords": ["man muss tolerant sein"], "strictAccents": false, "audio": "Man muss tolerant sein.", "explain": "Man muss + tolerant + sein (final, con el modal)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Mein ___ ist sehr ordentlich. Wir nehmen ___ aufeinander.", "blanks": [{ "accept": ["Mitbewohner"] }, { "accept": ["Rücksicht"] }], "bank": ["Mitbewohner", "Rücksicht", "Kompromiss"], "explain": "der Mitbewohner y die Rücksicht." },
+    { "id": "e10", "type": "word_order", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Ordena: «La convivencia funciona bien»", "tokens": ["funktioniert gut", "Das Zusammenleben"], "answer": ["Das Zusammenleben", "funktioniert gut"], "audio": "Das Zusammenleben funktioniert gut.", "explain": "Das Zusammenleben (sujeto) + funktioniert (posición 2) + gut." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Wir teilen die Aufgaben auf.", "accept": ["Repartimos las tareas."], "strictAccents": false, "audio": "Wir teilen die Aufgaben auf.", "explain": "aufteilen: verbo separable (teilen...auf)." },
+    { "id": "e12", "type": "dialogue", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Mitbewohner", "text": "Ich finde, wir putzen zu wenig zusammen.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Lass uns die Haushaltsaufgaben besser aufteilen."], "hint": "propón repartir mejor las tareas" },
+      { "who": "Mitbewohner", "text": "Gute Idee, lass uns einen Plan machen.", "speak": true }
+    ], "explain": "die Haushaltsaufgaben: conversación típica entre compañeros de piso." },
+    { "id": "e13", "type": "listening", "tags": ["relaciones", "convivencia"], "difficulty": 1, "speak": "Wir müssen die Haushaltsaufgaben besser aufteilen.", "mode": "write", "accept": ["Wir müssen die Haushaltsaufgaben besser aufteilen"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["relaciones", "convivencia"], "difficulty": 2, "speak": "Wir haben uns auf einen Kompromiss geeinigt.", "mode": "choose", "options": ["Wir haben uns auf einen Kompromiss geeinigt.", "Wir haben uns über einen Kompromiss gestritten.", "Wir haben einen Kompromiss aufgeteilt."], "answer": 0, "showTextAfter": true, "explain": "sich einigen auf + acusativo: llegar a un acuerdo sobre algo." },
+    { "id": "e15", "type": "shadowing", "tags": ["relaciones", "convivencia"], "difficulty": 2, "speak": "Mein Mitbewohner und ich nehmen viel Rücksicht aufeinander, deshalb funktioniert das Zusammenleben gut.", "es": "Mi compañero de piso y yo nos tenemos mucha consideración mutuamente, por eso la convivencia funciona bien.", "ipa": "/maɪ̯n ˈmɪtbəvoːnɐ ʊnt ɪç ˈneːmən fiːl ˈʁʏkzɪçt aʊ̯fˈaɪ̯nandɐ dɛsˈhalp fʊŋktsi̯oˈniːɐ̯t das tsuˈzamənleːbn̩ ɡuːt/", "esApprox": "«main MIT-be-vo-ner unt ich NÉ-men fil RÜK-zicht auf-ÁI-nan-der, des-JALP funk-tsio-NIRT das tsu-ZÁ-men-lé-ben gut»", "focus": "Mitbewohner, Rücksicht y Zusammenleben: la relación entre consideración mutua y buena convivencia.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["relaciones", "convivencia"], "difficulty": 2, "speak": "Wir haben uns lange gestritten, aber am Ende haben wir uns auf einen fairen Kompromiss geeinigt.", "es": "Discutimos durante mucho tiempo, pero al final llegamos a un compromiso justo.", "ipa": "/viːɐ̯ ˈhaːbn̩ ʊns ˈlaŋə ɡəˈʃtʁɪtn̩ ˈaːbɐ am ˈɛndə ˈhaːbn̩ viːɐ̯ ʊns aʊ̯f ˈaɪ̯nən ˈfɛːʁən kɔmpʁoˈmɪs ɡəˈaɪ̯nɪçt/", "esApprox": "«vir JÁ-ben uns LÁN-ge ge-SHTRI-ten, Á-ber am EN-de JÁ-ben vir uns auf ÁI-nen FÉ-ren kom-pro-MIS ge-ÁI-nicht»", "focus": "gestritten y geeinigt: el proceso completo desde el conflicto hasta el acuerdo.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Le propones a tu compañero de piso repartir mejor las tareas domésticas.", "modelAnswer": "Wir müssen die Haushaltsaufgaben besser aufteilen.", "alsoValid": ["Lass uns die Haushaltsaufgaben besser aufteilen."], "speak": "Wir müssen die Haushaltsaufgaben besser aufteilen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Clasifica cada palabra según su relación con el conflicto o el acuerdo", "buckets": ["Camino hacia el conflicto", "Camino hacia el acuerdo"], "items": [
+      { "text": "sich streiten", "bucket": 0 },
+      { "text": "sich einigen", "bucket": 1 },
+      { "text": "der Kompromiss", "bucket": 1 },
+      { "text": "die Rücksicht", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario de convivencia, distinguiendo conflicto de acuerdo." },
+    { "id": "e19", "type": "error_correction", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wir haben uns auf einen Kompromiss gestritten.", "accept": ["Wir haben uns auf einen Kompromiss geeinigt"], "audio": "Wir haben uns auf einen Kompromiss geeinigt.", "explain": "sich einigen auf (llegar a un acuerdo sobre algo) es el verbo correcto, no sich streiten (discutir)." },
+    { "id": "e20", "type": "mcq", "tags": ["relaciones", "convivencia"], "difficulty": 2, "prompt": "«Wir haben uns lange gestritten, aber am Ende haben wir uns auf einen fairen Kompromiss geeinigt.» ¿Cómo terminó la situación?", "options": ["Sin resolverse", "Con un acuerdo justo tras la discusión", "Con una pelea permanente", "Con la mudanza de uno de ellos"], "answer": 1, "explain": "«am Ende haben wir uns auf einen fairen Kompromiss geeinigt» indica que terminó con un acuerdo justo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Mitbewohner", "es": "el compañero de piso", "esApprox": "«MIT-be-vo-ner»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Zusammenleben", "es": "la convivencia", "esApprox": "«tsu-ZÁ-men-le-ben»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Rücksicht", "es": "la consideración hacia los demás", "esApprox": "«RÜK-zicht»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "die Haushaltsaufgaben", "es": "las tareas domésticas", "esApprox": "«JÁUS-jalts-auf-ga-ben»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Kompromiss", "es": "el compromiso, la solución intermedia", "esApprox": "«kom-pro-MIS»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "sich einigen", "es": "llegar a un acuerdo", "esApprox": "«zich ÁI-ni-guen»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Mein Mitbewohner und ich nehmen viel Rücksicht aufeinander, deshalb funktioniert das Zusammenleben gut.", "es": "Mi compañero de piso y yo nos tenemos mucha consideración mutuamente, por eso la convivencia funciona bien.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wir haben uns lange gestritten, aber am Ende haben wir uns auf einen fairen Kompromiss geeinigt.", "es": "Discutimos durante mucho tiempo, pero al final llegamos a un compromiso justo.", "from": "e16" }
+  ]
+}

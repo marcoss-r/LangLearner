@@ -1,0 +1,370 @@
+{
+  "id": "de-a1-035",
+  "lang": "de",
+  "level": "A1",
+  "order": 35,
+  "title": "Países, nacionalidades e idiomas",
+  "objectives": [
+    "Aprender los nombres de países europeos frecuentes: Frankreich, Italien, England, además de Spanien y Deutschland",
+    "Nombrar idiomas (Deutsch, Englisch, Französisch, Italienisch), usados sin artículo después de sprechen",
+    "Distinguir el sustantivo del idioma, con mayúscula (Deutsch), del adjetivo de nacionalidad, con minúscula (deutsch)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un mismo grupo de letras, dos usos distintos",
+      "body": "En alemán, la misma palabra sirve para el idioma y para el adjetivo de nacionalidad, pero con una diferencia clave: el idioma es un sustantivo y lleva mayúscula (Deutsch, Englisch); el adjetivo de nacionalidad va en minúscula, como todos los adjetivos (deutsch, englisch). Los países, como ya viste con Spanien y Deutschland, se usan normalmente sin artículo.",
+      "examples": [
+        { "target": "Ich spreche Deutsch.", "es": "Hablo alemán.", "note": "Deutsch, sustantivo, mayúscula" },
+        { "target": "Er ist deutsch.", "es": "Él es alemán.", "note": "deutsch, adjetivo, minúscula" },
+        { "target": "Ich komme aus Frankreich.", "es": "Vengo de Francia.", "note": "Frankreich, sin artículo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Países",
+      "headers": ["País", "Español"],
+      "rows": [
+        ["Spanien", "España"],
+        ["Deutschland", "Alemania"],
+        ["Frankreich", "Francia"],
+        ["Italien", "Italia"],
+        ["England", "Inglaterra"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Idiomas",
+      "headers": ["Idioma", "Español"],
+      "rows": [
+        ["Deutsch", "alemán"],
+        ["Englisch", "inglés"],
+        ["Französisch", "francés"],
+        ["Spanisch", "español"],
+        ["Italienisch", "italiano"]
+      ],
+      "note": "Todos se usan sin artículo después de sprechen: Ich spreche Deutsch, no die Deutsch."
+    },
+    {
+      "type": "tip",
+      "body": "Cuando dudes si mayúscula o minúscula, pregúntate: ¿estoy nombrando el idioma como cosa (sustantivo) o describiendo a alguien (adjetivo)? «Hablo alemán» → Deutsch, mayúscula. «Es alemán» → deutsch, minúscula."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "Frankreich",
+      "es": "Francia",
+      "ipa": "/ˈfʁaŋkʁaɪ̯ç/",
+      "esApprox": "«FRANK-raich», con ich-Laut al final",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Ich komme aus Frankreich.", "es": "Vengo de Francia." }
+    },
+    {
+      "id": "v2",
+      "target": "Italien",
+      "es": "Italia",
+      "ipa": "/iˈtaːli̯ən/",
+      "esApprox": "«i-TÁ-lien»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Ich komme aus Italien.", "es": "Vengo de Italia." }
+    },
+    {
+      "id": "v3",
+      "target": "England",
+      "es": "Inglaterra",
+      "ipa": "/ˈɛŋlant/",
+      "esApprox": "«ENG-lant»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Ich komme aus England.", "es": "Vengo de Inglaterra." }
+    },
+    {
+      "id": "v4",
+      "target": "Englisch",
+      "es": "el inglés (idioma)",
+      "ipa": "/ˈɛŋlɪʃ/",
+      "esApprox": "«ENG-lish»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Ich spreche Englisch.", "es": "Hablo inglés." }
+    },
+    {
+      "id": "v5",
+      "target": "Französisch",
+      "es": "el francés (idioma)",
+      "ipa": "/fʁanˈtsøːzɪʃ/",
+      "esApprox": "«fran-TSÖ-zish»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Ich spreche Französisch.", "es": "Hablo francés." }
+    },
+    {
+      "id": "v6",
+      "target": "Italienisch",
+      "es": "el italiano (idioma)",
+      "ipa": "/iˈtaːli̯eːnɪʃ/",
+      "esApprox": "«i-TÁ-lie-nish»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": null,
+      "example": { "target": "Ich spreche Italienisch.", "es": "Hablo italiano." }
+    },
+    {
+      "id": "v7",
+      "target": "deutsch",
+      "es": "alemán, alemana (adjetivo de nacionalidad)",
+      "ipa": "/dɔɪ̯tʃ/",
+      "esApprox": "«doich»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Er ist deutsch.", "es": "Él es alemán." }
+    },
+    {
+      "id": "v8",
+      "target": "englisch",
+      "es": "inglés, inglesa (adjetivo de nacionalidad)",
+      "ipa": "/ˈɛŋlɪʃ/",
+      "esApprox": "«ENG-lish»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Sie ist englisch.", "es": "Ella es inglesa." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["nacionalidades"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «Francia» en alemán?",
+      "options": ["Italien", "Frankreich", "England", "Spanien"],
+      "answer": 1,
+      "explain": "Frankreich = Francia."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["nacionalidades"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «inglés» (idioma) en alemán?",
+      "options": ["Deutsch", "Englisch", "Französisch", "Italienisch"],
+      "answer": 1,
+      "explain": "Englisch = inglés."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["nacionalidades"],
+      "difficulty": 1,
+      "statement": "Los nombres de idiomas, como Deutsch o Englisch, se usan normalmente sin artículo después de sprechen.",
+      "answer": true,
+      "explain": "Ich spreche Deutsch, sin die delante."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "statement": "El adjetivo de nacionalidad «deutsch» se escribe con mayúscula inicial.",
+      "answer": false,
+      "explain": "El adjetivo va en minúscula (deutsch); el sustantivo del idioma sí lleva mayúscula (Deutsch)."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO es un país?",
+      "options": ["Frankreich", "Italien", "Englisch", "England"],
+      "answer": 2,
+      "explain": "Englisch es el idioma inglés; England es el país."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Une cada país con su idioma principal",
+      "left": ["Frankreich", "Italien", "England", "Deutschland"],
+      "right": ["Deutsch", "Englisch", "Französisch", "Italienisch"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Cada país con el idioma que se habla mayoritariamente en él."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Hablo francés.",
+      "accept": ["Ich spreche Französisch"],
+      "hintWords": ["ich spreche Französisch"],
+      "strictAccents": false,
+      "audio": "Ich spreche Französisch.",
+      "explain": "Französisch, sustantivo, con mayúscula, sin artículo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Vengo de Italia.",
+      "accept": ["Ich komme aus Italien"],
+      "hintWords": ["ich komme aus Italien"],
+      "strictAccents": false,
+      "audio": "Ich komme aus Italien.",
+      "explain": "aus Italien, sin artículo, igual que aus Spanien."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Ich spreche ___. Ich komme aus ___.",
+      "blanks": [{ "accept": ["Englisch"] }, { "accept": ["Frankreich"] }],
+      "bank": ["Englisch", "Frankreich", "Italien"],
+      "explain": "Englisch para el idioma; Frankreich para el país."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Vengo de Inglaterra»",
+      "tokens": ["England", "Ich", "aus", "komme"],
+      "answer": ["Ich", "komme", "aus", "England"],
+      "audio": "Ich komme aus England.",
+      "explain": "Ich komme aus + país, sin artículo."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["nacionalidades"],
+      "difficulty": 1,
+      "prompt": "Er ist deutsch.",
+      "accept": ["Él es alemán."],
+      "strictAccents": false,
+      "audio": "Er ist deutsch.",
+      "explain": "deutsch, adjetivo, en minúscula."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Sprichst du Italienisch?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, ich spreche Englisch."], "hint": "responde que no, que hablas inglés" },
+        { "who": "Anna", "text": "Interessant!", "speak": true }
+      ],
+      "explain": "sprichst (du, con cambio de vocal) es del verbo sprechen, clase 28."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "speak": "Ich spreche Französisch.",
+      "mode": "write",
+      "accept": ["Ich spreche Französisch"],
+      "showTextAfter": true,
+      "explain": "Ich spreche Französisch = hablo francés."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "speak": "Ich komme aus Italien.",
+      "mode": "choose",
+      "options": ["Ich komme aus Italien.", "Ich komme aus England.", "Ich komme aus Frankreich."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Italien, England y Frankreich suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "speak": "Ich spreche Deutsch und Englisch.",
+      "es": "Hablo alemán e inglés.",
+      "ipa": "/ɪç ˈʃpʁɛçə dɔɪ̯tʃ ʊnt ˈɛŋlɪʃ/",
+      "esApprox": "«ich SHPRE-che doich unt ENG-lish»",
+      "focus": "Deutsch y Englisch se pronuncian con la sch final igual que sch de Schule: un solo sonido «sh».",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "speak": "Er kommt aus Frankreich, und er spricht Französisch.",
+      "es": "Él viene de Francia, y habla francés.",
+      "ipa": "/eːɐ̯ kɔmt aʊ̯s ˈfʁaŋkʁaɪ̯ç ʊnt eːɐ̯ ʃpʁɪçt fʁanˈtsøːzɪʃ/",
+      "esApprox": "«er komt aus FRANK-raich unt er shpricht fran-TSÖ-zish»",
+      "focus": "Frankreich termina en ich-Laut suave; Französisch lleva el sonido ö en su segunda sílaba.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Te preguntan de dónde vienes. Responde que vienes de Italia.",
+      "modelAnswer": "Ich komme aus Italien.",
+      "alsoValid": ["Ich komme aus Italien, und ich spreche Italienisch."],
+      "speak": "Ich komme aus Italien.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra: ¿es un país o un idioma?",
+      "buckets": ["País", "Idioma"],
+      "items": [
+        { "text": "Frankreich", "bucket": 0 },
+        { "text": "Englisch", "bucket": 1 },
+        { "text": "Italien", "bucket": 0 },
+        { "text": "Französisch", "bucket": 1 },
+        { "text": "England", "bucket": 0 },
+        { "text": "Italienisch", "bucket": 1 }
+      ],
+      "explain": "Tres países y sus tres idiomas correspondientes."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["nacionalidades"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich spreche deutsch.",
+      "accept": ["Ich spreche Deutsch"],
+      "audio": "Ich spreche Deutsch.",
+      "explain": "Como sustantivo (el idioma), Deutsch lleva mayúscula; en minúscula sería el adjetivo, que no encaja después de sprechen."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "Frankreich", "es": "Francia", "esApprox": "«FRANK-raich»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "Italien", "es": "Italia", "esApprox": "«i-TÁ-lien»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "England", "es": "Inglaterra", "esApprox": "«ENG-lant»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "Englisch", "es": "el inglés (idioma)", "esApprox": "«ENG-lish»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "Französisch", "es": "el francés (idioma)", "esApprox": "«fran-TSÖ-zish»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "Italienisch", "es": "el italiano (idioma)", "esApprox": "«i-TÁ-lie-nish»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "deutsch", "es": "alemán, alemana", "esApprox": "«doich»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "englisch", "es": "inglés, inglesa", "esApprox": "«ENG-lish»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich spreche Deutsch und Englisch.", "es": "Hablo alemán e inglés.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Er kommt aus Frankreich, und er spricht Französisch.", "es": "Él viene de Francia, y habla francés.", "from": "e16" }
+  ]
+}

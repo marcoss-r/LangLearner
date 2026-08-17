@@ -1,0 +1,268 @@
+{
+  "id": "fr-a1-056",
+  "lang": "fr",
+  "level": "A1",
+  "order": 56,
+  "title": "Las comidas y los alimentos",
+  "objectives": [
+    "Nombrar los alimentos más frecuentes: pain, fromage, viande, poisson, légumes, fruits",
+    "Usar aimer/adorer/détester (clase 33) para hablar de tus gustos con la comida",
+    "Reconocer que muchos alimentos son incontables y llevarán artículo partitivo (lo verás a fondo en la clase 57)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de la comida",
+      "body": "Con este vocabulario y los verbos de gustos que ya conoces (aimer, adorer, détester, clase 33) puedes hablar de qué comida te gusta.",
+      "examples": [
+        { "target": "J'aime le fromage, mais je déteste le poisson.", "es": "Me gusta el queso, pero detesto el pescado.", "note": "aimer/détester + artículo definido (gusto general)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de los alimentos",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["le pain", "el pan"],
+        ["le fromage", "el queso"],
+        ["la viande", "la carne"],
+        ["le poisson", "el pescado"],
+        ["les légumes", "las verduras"],
+        ["les fruits", "las frutas"],
+        ["le riz", "el arroz"],
+        ["les pâtes", "la pasta"],
+        ["un œuf / des œufs", "un huevo / unos huevos"]
+      ],
+      "note": "Œuf cambia de pronunciación en plural: un œuf suena «un-NEUF», pero des œufs suena «de-ZEU», sin la f final."
+    },
+    {
+      "type": "contrast",
+      "title": "Gusto general (le/la) frente a cantidad concreta (du/de la)",
+      "items": [
+        { "wrong": "Usar siempre el mismo artículo para hablar de comida", "right": "j'aime le fromage (gusto general) frente a je mange du fromage (una cantidad concreta)", "why": "Con verbos de gusto (aimer, détester), se usa el artículo definido para hablar de la categoría en general. Con verbos de consumo (manger, boire), hace falta el artículo partitivo (du, de la), que verás a fondo en la clase 57." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Les légumes y les fruits casi siempre se usan en plural cuando hablas en general: j'aime les légumes (me gustan las verduras), no «j'aime le légume»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le pain", "es": "el pan", "ipa": "/lə pɛ̃/", "esApprox": "«le PEN»", "pos": "sustantivo", "gender": "m", "plural": "les pains", "example": { "target": "J'aime le pain français.", "es": "Me gusta el pan francés." } },
+    { "id": "v2", "target": "le fromage", "es": "el queso", "ipa": "/lə fʁɔ.maʒ/", "esApprox": "«le fro-MAY»", "pos": "sustantivo", "gender": "m", "plural": "les fromages", "example": { "target": "J'adore le fromage.", "es": "Me encanta el queso." } },
+    { "id": "v3", "target": "la viande", "es": "la carne", "ipa": "/la vjɑ̃d/", "esApprox": "«la VIAND»", "pos": "sustantivo", "gender": "f", "plural": "les viandes", "example": { "target": "Je ne mange pas de viande.", "es": "No como carne." } },
+    { "id": "v4", "target": "le poisson", "es": "el pescado", "ipa": "/lə pwa.sɔ̃/", "esApprox": "«le puá-SÓN»", "pos": "sustantivo", "gender": "m", "plural": "les poissons", "example": { "target": "Je déteste le poisson.", "es": "Detesto el pescado." } },
+    { "id": "v5", "target": "les légumes", "es": "las verduras", "ipa": "/le le.ɡym/", "esApprox": "«le le-GÜM»", "pos": "sustantivo", "gender": "m", "plural": "les légumes", "example": { "target": "J'aime les légumes.", "es": "Me gustan las verduras." } },
+    { "id": "v6", "target": "les fruits", "es": "las frutas", "ipa": "/le fʁɥi/", "esApprox": "«le FRÜÍ»", "pos": "sustantivo", "gender": "m", "plural": "les fruits", "example": { "target": "Les fruits sont bons pour la santé.", "es": "Las frutas son buenas para la salud." } },
+    { "id": "v7", "target": "le riz", "es": "el arroz", "ipa": "/lə ʁi/", "esApprox": "«le RÍ»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'aime le riz.", "es": "Me gusta el arroz." } },
+    { "id": "v8", "target": "les pâtes", "es": "la pasta", "ipa": "/le pɑt/", "esApprox": "«le PAT»", "pos": "sustantivo", "gender": "f", "plural": "les pâtes", "example": { "target": "J'adore les pâtes.", "es": "Me encanta la pasta." } },
+    { "id": "v9", "target": "un œuf / des œufs", "es": "un huevo / unos huevos", "ipa": "/œ̃.n‿œf / de.z‿ø/", "esApprox": "«un-NEUF» / «de-ZEU»", "pos": "sustantivo", "gender": "m", "plural": "des œufs", "example": { "target": "Je mange un œuf le matin.", "es": "Como un huevo por la mañana." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «queso»?",
+      "options": ["le pain", "le fromage", "la viande", "le poisson"],
+      "answer": 1,
+      "explain": "Le fromage = el queso."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se pronuncia «des œufs» en plural?",
+      "options": ["de-ZEUF", "de-ZEU", "de-NEUF", "de-OEUF"],
+      "answer": 1,
+      "explain": "En plural, œufs pierde el sonido de la f final: «de-ZEU»."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "statement": "Les légumes y les fruits se usan casi siempre en plural.",
+      "answer": true,
+      "explain": "J'aime les légumes, no «le légume»."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras es femenina, a diferencia de las demás?",
+      "options": ["le pain", "le fromage", "la viande", "le poisson"],
+      "answer": 2,
+      "explain": "La viande es femenina; las otras tres son masculinas."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["le riz", "les pâtes", "les légumes", "les fruits"],
+      "right": ["las frutas", "el arroz", "la pasta", "las verduras"],
+      "answer": [1, 2, 0, 3],
+      "explain": "Riz = arroz, pâtes = pasta, légumes = verduras, fruits = frutas."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Me gusta el queso, pero detesto el pescado.",
+      "accept": ["J'aime le fromage, mais je déteste le poisson"],
+      "hintWords": ["j'aime le fromage", "je déteste le poisson"],
+      "strictAccents": false,
+      "audio": "J'aime le fromage, mais je déteste le poisson.",
+      "explain": "Aimer/détester + artículo definido, para el gusto en general."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Me encanta la pasta, pero no como carne.",
+      "accept": ["J'adore les pâtes, mais je ne mange pas de viande"],
+      "hintWords": ["j'adore les pâtes", "je ne mange pas de viande"],
+      "strictAccents": false,
+      "audio": "J'adore les pâtes, mais je ne mange pas de viande.",
+      "explain": "Pas de viande: el artículo cambia a de tras la negación (clase 19)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Completa con el alimento correcto",
+      "text": "Le matin, je mange un ___ et du pain.",
+      "blanks": [{ "accept": ["œuf"] }],
+      "bank": ["œuf", "poisson", "riz"],
+      "explain": "Un œuf le matin: un huevo por la mañana, muy típico."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Las frutas son buenas para la salud»",
+      "tokens": ["bons", "pour la santé", "Les fruits", "sont"],
+      "answer": ["Les fruits", "sont", "bons", "pour la santé"],
+      "audio": "Les fruits sont bons pour la santé.",
+      "explain": "Les fruits (plural masculino) + sont + bons."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "prompt": "J'aime les légumes et le riz, mais je déteste les œufs.",
+      "accept": ["Me gustan las verduras y el arroz, pero detesto los huevos."],
+      "strictAccents": false,
+      "audio": "J'aime les légumes et le riz, mais je déteste les œufs.",
+      "explain": "Tres alimentos, un mismo verbo de gusto para cada uno."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus gustos alimentarios",
+      "turns": [
+        { "who": "Léa", "text": "Tu aimes le poisson ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, je déteste le poisson.", "Oui, j'adore le poisson."], "hint": "di si te gusta o no el pescado" },
+        { "who": "Léa", "text": "D'accord, je note !", "speak": true }
+      ],
+      "explain": "Tu aimes...? se responde con aimer/adorer/détester."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "speak": "J'aime le fromage et les pâtes, mais je déteste les légumes.",
+      "mode": "write",
+      "accept": ["J'aime le fromage et les pâtes, mais je déteste les légumes"],
+      "showTextAfter": true,
+      "explain": "Tres alimentos con dos verbos de gusto distintos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "speak": "les fruits",
+      "mode": "choose",
+      "options": ["les fruits", "les légumes", "les œufs", "les pâtes"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Les fruits = las frutas."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["comida"],
+      "difficulty": 3,
+      "speak": "J'adore le fromage et le pain, j'aime les fruits, mais je déteste le poisson.",
+      "es": "Me encanta el queso y el pan, me gustan las frutas, pero detesto el pescado.",
+      "ipa": "/ʒa.dɔʁ lə fʁɔ.maʒ e lə pɛ̃ ʒɛm le fʁɥi mɛ ʒə de.tɛst lə pwa.sɔ̃/",
+      "esApprox": "«ya-DOR le fro-MAY e le PEN yem le FRÜÍ me ye de-TEST le puá-SÓN»",
+      "focus": "Cuatro alimentos con tres verbos de gusto distintos: adorer, aimer, détester.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Di qué alimentos te gustan y cuáles detestas.",
+      "modelAnswer": "J'aime le fromage et les fruits, mais je déteste le poisson.",
+      "alsoValid": ["J'adore les pâtes, je n'aime pas les légumes."],
+      "speak": "J'aime le fromage et les fruits, mais je déteste le poisson.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["comida"],
+      "difficulty": 1,
+      "prompt": "¿Es singular o plural en su uso más habitual?",
+      "buckets": ["Singular", "Plural"],
+      "items": [
+        { "text": "le pain", "bucket": 0 },
+        { "text": "les légumes", "bucket": 1 },
+        { "text": "le fromage", "bucket": 0 },
+        { "text": "les fruits", "bucket": 1 },
+        { "text": "le riz", "bucket": 0 },
+        { "text": "les pâtes", "bucket": 1 }
+      ],
+      "explain": "Pain, fromage y riz se usan en singular; légumes, fruits y pâtes en plural."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["comida"],
+      "difficulty": 2,
+      "prompt": "Hay un error de número. Corrige la frase entera.",
+      "wrong": "J'aime le légume.",
+      "accept": ["J'aime les légumes"],
+      "audio": "J'aime les légumes.",
+      "explain": "Légume casi siempre se usa en plural: les légumes."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "le pain", "es": "el pan", "esApprox": "«le PEN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le fromage", "es": "el queso", "esApprox": "«le fro-MAY»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "la viande", "es": "la carne", "esApprox": "«la VIAND»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le poisson", "es": "el pescado", "esApprox": "«le puá-SÓN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "les légumes", "es": "las verduras", "esApprox": "«le le-GÜM»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "les fruits", "es": "las frutas", "esApprox": "«le FRÜÍ»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "un œuf / des œufs", "es": "un huevo / unos huevos", "esApprox": "«un-NEUF» / «de-ZEU»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "J'aime le fromage, mais je déteste le poisson.", "es": "Me gusta el queso, pero detesto el pescado.", "from": "e6" },
+    { "id": "s9", "kind": "phrase", "target": "J'adore le fromage et le pain, j'aime les fruits, mais je déteste le poisson.", "es": "Me encanta el queso y el pan, me gustan las frutas, pero detesto el pescado.", "from": "e14" }
+  ]
+}

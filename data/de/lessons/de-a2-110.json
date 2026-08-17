@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-110",
+  "lang": "de",
+  "level": "A2",
+  "order": 110,
+  "title": "El comparativo declinado: ein besserer Tag",
+  "objectives": [
+    "Combinar el comparativo (-er, clase 83) con la terminación de declinación del adjetivo (clases 101-107)",
+    "Formar frases como «ein besserer Tag» o «der bessere Tag» delante de un sustantivo",
+    "Distinguir el comparativo declinado (ante sustantivo) del comparativo predicativo (tras sein, sin declinar)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Doble terminación: comparativo + declinación",
+      "body": "Ya sabes que gut → besser es el comparativo (clase 83). Cuando ese comparativo va DELANTE de un sustantivo, se le añade además la terminación de declinación normal: «ein besserer Tag» (un día mejor) = besser + -er (declinación de ein en masculino nominativo). Compara con el uso predicativo, sin declinar: «Der Tag ist besser» (El día es mejor).",
+      "examples": [
+        { "target": "Heute war ein besserer Tag.", "es": "Hoy fue un día mejor.", "note": "besser + -er: ein-declinación masculina" },
+        { "target": "Ich suche eine größere Wohnung.", "es": "Busco un piso más grande.", "note": "größer + -e: ein-declinación femenina" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El comparativo declinado, ejemplos",
+      "headers": ["Predicativo (sin declinar)", "Ante sustantivo (declinado)"],
+      "rows": [
+        ["Der Tag ist besser.", "ein besserer Tag / der bessere Tag"],
+        ["Die Wohnung ist größer.", "eine größere Wohnung / die größere Wohnung"],
+        ["Das Auto ist teurer.", "ein teureres Auto / das teurere Auto"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El proceso es simple: toma el comparativo ya formado (besser, größer, teurer...) y trátalo como cualquier otro adjetivo, aplicándole las reglas de las clases 101-107 según lleve der/die/das, ein/mein, o nada."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "ein besserer Tag", "es": "un día mejor", "ipa": "/aɪ̯n ˈbɛsɐʁɐ taːk/", "esApprox": "«ain BÉ-se-rer tak»", "pos": "expresión", "gender": null, "example": { "target": "Heute war ein besserer Tag.", "es": "Hoy fue un día mejor." } },
+    { "id": "v2", "target": "eine größere Wohnung", "es": "un piso más grande", "ipa": "/ˈaɪ̯nə ˈɡʁøːsəʁə ˈvoːnʊŋ/", "esApprox": "«ÁI-ne GRÖ-se-re VÓ-nung»", "pos": "expresión", "gender": null, "example": { "target": "Ich suche eine größere Wohnung.", "es": "Busco un piso más grande." } },
+    { "id": "v3", "target": "suchen", "es": "buscar", "ipa": "/ˈzuːxn̩/", "esApprox": "«ZÚ-jen»", "pos": "verbo", "gender": null, "example": { "target": "Ich suche eine neue Wohnung.", "es": "Busco un piso nuevo." } },
+    { "id": "v4", "target": "die Möglichkeit", "es": "la posibilidad", "ipa": "/ˈmøːklɪçkaɪ̯t/", "esApprox": "«MÖG-lich-kait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine bessere Möglichkeit.", "es": "Esa es una posibilidad mejor." } },
+    { "id": "v5", "target": "das Angebot", "es": "la oferta", "ipa": "/ˈanɡəboːt/", "esApprox": "«ÁN-ge-bot»", "pos": "sustantivo", "gender": "n", "example": { "target": "Wir haben ein besseres Angebot gefunden.", "es": "Hemos encontrado una oferta mejor." } },
+    { "id": "v6", "target": "der Job", "es": "el trabajo, el empleo", "ipa": "/dʒɔp/", "esApprox": "«dyob»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe einen besseren Job gefunden.", "es": "He encontrado un trabajo mejor." } },
+    { "id": "v7", "target": "vergleichbar", "es": "comparable", "ipa": "/fɛɐ̯ˈɡlaɪ̯çbaːɐ̯/", "esApprox": "«fer-GLÁICH-bar»", "pos": "adjetivo", "gender": null, "example": { "target": "Die zwei Optionen sind vergleichbar.", "es": "Las dos opciones son comparables." } },
+    { "id": "v8", "target": "die Option", "es": "la opción", "ipa": "/ɔpˈtsi̯oːn/", "esApprox": "«op-tsi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist die bessere Option.", "es": "Esa es la mejor opción de las dos." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["comparativo"], "difficulty": 1, "prompt": "¿Cómo se dice «un día mejor» (ante sustantivo, masculino)?", "options": ["ein besser Tag", "ein besserer Tag", "der besser Tag", "ein bessere Tag"], "answer": 1, "explain": "ein besserer Tag: besser + -er (declinación de ein en masculino)." },
+    { "id": "e2", "type": "mcq", "tags": ["comparativo"], "difficulty": 2, "prompt": "¿Cómo se dice «un piso más grande»?", "options": ["eine größer Wohnung", "eine größere Wohnung", "ein größere Wohnung", "eine größeren Wohnung"], "answer": 1, "explain": "eine größere Wohnung: größer + -e (femenino tras eine)." },
+    { "id": "e3", "type": "true_false", "tags": ["comparativo"], "difficulty": 2, "statement": "El comparativo declinado sigue las mismas reglas de las clases 101-107.", "answer": true, "explain": "Se trata como cualquier otro adjetivo, aplicando la terminación según der/ein/sin artículo." },
+    { "id": "e4", "type": "true_false", "tags": ["comparativo"], "difficulty": 2, "statement": "«Der Tag ist besser» y «der bessere Tag» significan exactamente lo mismo gramaticalmente.", "answer": false, "explain": "El primero es predicativo (sin declinar); el segundo va ante el sustantivo (declinado)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["comparativo"], "difficulty": 2, "prompt": "Une cada frase con su traducción", "left": ["ein besserer Tag", "eine größere Wohnung", "ein besseres Angebot", "die bessere Option"], "right": ["un día mejor", "un piso más grande", "una oferta mejor", "la mejor opción de las dos"], "answer": [0, 1, 2, 3], "explain": "Cuatro ejemplos del comparativo declinado en distintos géneros." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["comparativo"], "difficulty": 2, "prompt": "Hoy fue un día mejor.", "accept": ["Heute war ein besserer Tag"], "hintWords": ["heute war ein besserer Tag"], "strictAccents": false, "audio": "Heute war ein besserer Tag.", "explain": "ein besserer Tag: comparativo declinado, masculino, -er." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["comparativo"], "difficulty": 2, "prompt": "Busco un piso más grande.", "accept": ["Ich suche eine größere Wohnung"], "hintWords": ["ich suche eine größere Wohnung"], "strictAccents": false, "audio": "Ich suche eine größere Wohnung.", "explain": "eine größere Wohnung: comparativo declinado, femenino, -e." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["comparativo"], "difficulty": 2, "prompt": "He encontrado un trabajo mejor.", "accept": ["Ich habe einen besseren Job gefunden"], "hintWords": ["ich habe einen besseren Job gefunden"], "strictAccents": false, "audio": "Ich habe einen besseren Job gefunden.", "explain": "einen besseren Job: comparativo declinado, masculino acusativo, -en." },
+    { "id": "e9", "type": "fill_blank", "tags": ["comparativo"], "difficulty": 3, "prompt": "Completa con la terminación correcta", "text": "Das ist die besser___ Option. Wir haben ein besser___ Angebot gefunden.", "blanks": [{ "accept": ["e"] }, { "accept": ["es"] }], "bank": ["e", "es", "er"], "explain": "bessere (femenino, tras die, -e); besseres (neutro, tras ein, -es)." },
+    { "id": "e10", "type": "word_order", "tags": ["comparativo"], "difficulty": 2, "prompt": "Ordena: «Las dos opciones son comparables»", "tokens": ["sind", "vergleichbar", "Die zwei Optionen"], "answer": ["Die zwei Optionen", "sind", "vergleichbar"], "audio": "Die zwei Optionen sind vergleichbar.", "explain": "Die zwei Optionen sind vergleichbar: sujeto-verbo-adjetivo (predicativo, sin declinar)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["comparativo"], "difficulty": 2, "prompt": "Das ist eine bessere Möglichkeit.", "accept": ["Esa es una posibilidad mejor."], "strictAccents": false, "audio": "Das ist eine bessere Möglichkeit.", "explain": "eine bessere Möglichkeit: comparativo declinado, femenino, -e." },
+    { "id": "e12", "type": "dialogue", "tags": ["comparativo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lisa", "text": "Warum ziehst du um?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich suche eine größere Wohnung.", "Ich habe einen besseren Job gefunden."], "hint": "responde con un comparativo declinado" },
+      { "who": "Lisa", "text": "Verstehe, viel Glück!", "speak": true }
+    ], "explain": "Práctica del comparativo declinado en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["comparativo"], "difficulty": 1, "speak": "Heute war ein besserer Tag.", "mode": "write", "accept": ["Heute war ein besserer Tag"], "showTextAfter": true, "explain": "ein besserer Tag: comparativo declinado masculino." },
+    { "id": "e14", "type": "listening", "tags": ["comparativo"], "difficulty": 2, "speak": "Ich suche eine größere Wohnung.", "mode": "choose", "options": ["Ich suche eine größere Wohnung.", "Ich suche eine größer Wohnung.", "Ich suche eine größeren Wohnung."], "answer": 0, "showTextAfter": true, "explain": "eine größere Wohnung: femenino, -e, la única forma correcta." },
+    { "id": "e15", "type": "shadowing", "tags": ["comparativo"], "difficulty": 2, "speak": "Heute war ein besserer Tag, weil ich einen besseren Job gefunden habe.", "es": "Hoy fue un día mejor, porque he encontrado un trabajo mejor.", "ipa": "/ˈhɔɪ̯tə vaːɐ̯ aɪ̯n ˈbɛsəʁɐ taːk vaɪ̯l ɪç ˈaɪ̯nən ˈbɛsəʁən dʒɔp ɡəˈfʊndn̩ ˈhaːbə/", "esApprox": "«JÓI-te var ain BÉ-se-rer tak, vail ich ÁI-nen BÉ-se-ren dyob ge-FÚN-den JÁ-be»", "focus": "besserer (masculino nominativo) y besseren (masculino acusativo): el mismo comparativo, dos terminaciones distintas.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["comparativo"], "difficulty": 2, "speak": "Ich suche eine größere Wohnung, denn das ist eine bessere Möglichkeit für meine Familie.", "es": "Busco un piso más grande, porque esa es una mejor posibilidad para mi familia.", "ipa": "/ɪç ˈzuːxə ˈaɪ̯nə ˈɡʁøːsəʁə ˈvoːnʊŋ dɛn das ɪst ˈaɪ̯nə ˈbɛsəʁə ˈmøːklɪçkaɪ̯t fyːɐ̯ ˈmaɪ̯nə familiə/", "esApprox": "«ich ZÚ-je ÁI-ne GRÖ-se-re VÓ-nung, den das ist ÁI-ne BÉ-se-re MÖG-lich-kait für MÁI-ne fa-MÍ-lie»", "focus": "größere y bessere: dos comparativos declinados en femenino, ambos con -e.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["comparativo"], "difficulty": 2, "prompt": "Te preguntan por qué te mudas. Di que buscas un piso más grande.", "modelAnswer": "Ich suche eine größere Wohnung.", "alsoValid": ["Ich suche einen größeren Wohnung."], "speak": "Ich suche eine größere Wohnung.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["comparativo"], "difficulty": 2, "prompt": "Clasifica cada frase: comparativo predicativo (sin declinar) o comparativo declinado", "buckets": ["Predicativo", "Declinado (ante sustantivo)"], "items": [
+      { "text": "Der Tag ist besser.", "bucket": 0 },
+      { "text": "ein besserer Tag", "bucket": 1 },
+      { "text": "Die Wohnung ist größer.", "bucket": 0 },
+      { "text": "eine größere Wohnung", "bucket": 1 }
+    ], "explain": "Predicativo: sin terminación extra; declinado: ante sustantivo, con la terminación de la declinación." },
+    { "id": "e19", "type": "error_correction", "tags": ["comparativo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich suche eine größer Wohnung.", "accept": ["Ich suche eine größere Wohnung"], "audio": "Ich suche eine größere Wohnung.", "explain": "Ante sustantivo, el comparativo necesita la terminación de declinación: größere, no größer solo." },
+    { "id": "e20", "type": "mcq", "tags": ["comparativo"], "difficulty": 2, "prompt": "«Heute war ein besserer Tag. Ich habe einen besseren Job gefunden, und wir suchen jetzt eine größere Wohnung.» ¿Qué buscan ahora?", "options": ["Un trabajo mejor", "Un piso más grande", "Un día mejor", "Nada, ya lo tienen todo"], "answer": 1, "explain": "«wir suchen jetzt eine größere Wohnung» = ahora buscamos un piso más grande." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "ein besserer Tag", "es": "un día mejor", "esApprox": "«ain BÉ-se-rer tak»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "eine größere Wohnung", "es": "un piso más grande", "esApprox": "«ÁI-ne GRÖ-se-re VÓ-nung»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "suchen", "es": "buscar", "esApprox": "«ZÚ-jen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Möglichkeit", "es": "la posibilidad", "esApprox": "«MÖG-lich-kait»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Job", "es": "el trabajo, el empleo", "esApprox": "«dyob»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "die Option", "es": "la opción", "esApprox": "«op-tsi-ÓN»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Heute war ein besserer Tag, weil ich einen besseren Job gefunden habe.", "es": "Hoy fue un día mejor, porque he encontrado un trabajo mejor.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich suche eine größere Wohnung, denn das ist eine bessere Möglichkeit für meine Familie.", "es": "Busco un piso más grande, porque esa es una mejor posibilidad para mi familia.", "from": "e16" }
+  ]
+}

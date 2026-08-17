@@ -1,0 +1,252 @@
+{
+  "id": "fr-a2-110",
+  "lang": "fr",
+  "level": "A2",
+  "order": 110,
+  "title": "Verbos que cambian de significado según el pasado que uses (savoir, connaître, pouvoir, vouloir)",
+  "objectives": [
+    "Distinguir savoir en imparfait (sabía) de savoir en passé composé (supe, me enteré)",
+    "Distinguir connaître en imparfait (conocía) de connaître en passé composé (conocí por primera vez)",
+    "Distinguir pouvoir y vouloir en imparfait (podía, quería) de su passé composé (pude/logré, quise/intenté)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuatro verbos con un matiz especial",
+      "body": "Savoir, connaître, pouvoir y vouloir cambian de matiz según el tiempo del pasado que uses. En imparfait describen un estado continuo; en passé composé, describen el momento exacto en que algo cambió.",
+      "examples": [
+        { "target": "Je savais qu'elle habitait à Paris. → J'ai su qu'elle a déménagé.", "es": "Sabía que vivía en París. → Me enteré de que se mudó.", "note": "savais (estado) frente a su (el momento de enterarse)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El cambio de matiz",
+      "headers": ["Verbo", "Imparfait", "Passé composé"],
+      "rows": [
+        ["savoir", "sabía (un hecho)", "supe, me enteré (en un momento)"],
+        ["connaître", "conocía (ya, desde antes)", "conocí (por primera vez, en ese momento)"],
+        ["pouvoir", "podía (posibilidad general)", "pude, logré (en un caso concreto)"],
+        ["vouloir", "quería (deseo)", "quise, intenté (una vez, un esfuerzo concreto)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Vouloir en passé composé negativo (je n'ai pas voulu) significa «me negué a», no solo «no quise»: es un rechazo activo en un momento concreto."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "savoir", "es": "saber", "ipa": "/sa.vwaʁ/", "esApprox": "«sa-VUÁR»", "pos": "verbo", "gender": null, "example": { "target": "Je savais qu'elle habitait à Paris.", "es": "Sabía que vivía en París." } },
+    { "id": "v2", "target": "j'ai su", "es": "supe, me enteré", "ipa": "/ʒe sy/", "esApprox": "«ye SÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai su qu'elle a déménagé.", "es": "Me enteré de que se mudó." } },
+    { "id": "v3", "target": "je connaissais", "es": "yo conocía", "ipa": "/ʒə kɔ.nɛ.sɛ/", "esApprox": "«ye ko-ne-SE»", "pos": "verbo", "gender": null, "example": { "target": "Je connaissais déjà Léa.", "es": "Ya conocía a Léa." } },
+    { "id": "v4", "target": "j'ai connu", "es": "conocí (por primera vez)", "ipa": "/ʒe kɔ.ny/", "esApprox": "«ye ko-NÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai connu Marc à l'université.", "es": "Conocí a Marc en la universidad." } },
+    { "id": "v5", "target": "je pouvais", "es": "yo podía (posibilidad general)", "ipa": "/ʒə pu.vɛ/", "esApprox": "«ye pu-VE»", "pos": "verbo", "gender": null, "example": { "target": "Je pouvais nager quand j'étais jeune.", "es": "Podía nadar cuando era joven." } },
+    { "id": "v6", "target": "j'ai pu", "es": "pude, logré (en un caso concreto)", "ipa": "/ʒe py/", "esApprox": "«ye PÜ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai pu finir à temps.", "es": "Pude terminar a tiempo." } },
+    { "id": "v7", "target": "je voulais", "es": "yo quería (deseo)", "ipa": "/ʒə vu.lɛ/", "esApprox": "«ye vu-LE»", "pos": "verbo", "gender": null, "example": { "target": "Je voulais partir tôt.", "es": "Quería salir pronto." } },
+    { "id": "v8", "target": "je n'ai pas voulu", "es": "me negué a", "ipa": "/ʒə nɛ pa vu.ly/", "esApprox": "«ye ne pa vu-LÜ»", "pos": "verbo", "gender": null, "example": { "target": "Je n'ai pas voulu répondre.", "es": "Me negué a responder." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imparfait", "passe-compose", "verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me enteré de que se mudó»?",
+      "options": ["Je savais qu'elle a déménagé.", "J'ai su qu'elle a déménagé.", "Je sais qu'elle a déménagé.", "J'ai connu qu'elle a déménagé."],
+      "answer": 1,
+      "explain": "Savoir en passé composé = enterarse en un momento concreto."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «conocí a Marc en la universidad» (primera vez)?",
+      "options": ["Je connaissais Marc à l'université.", "J'ai connu Marc à l'université.", "Je sais Marc à l'université.", "J'ai su Marc à l'université."],
+      "answer": 1,
+      "explain": "Connaître en passé composé = conocer por primera vez."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "statement": "Pouvoir en passé composé (j'ai pu) indica que lograste algo en un caso concreto.",
+      "answer": true,
+      "explain": "J'ai pu finir a temps = lo lograste en esa ocasión."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "statement": "Je n'ai pas voulu significa lo mismo que je ne voulais pas.",
+      "answer": false,
+      "explain": "Je n'ai pas voulu es un rechazo activo puntual; je ne voulais pas es simplemente no querer, sin ese matiz de rechazo concreto."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Une cada forma con su significado",
+      "left": ["je savais", "j'ai su", "je connaissais", "j'ai connu"],
+      "right": ["conocí por primera vez", "sabía (estado)", "me enteré", "ya conocía"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Savais (estado) / su (enterarse); connaissais (ya conocía) / connu (conocer por primera vez)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["imparfait", "passe-compose", "verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Sabía que vivía en París, pero me enteré de que se mudó.",
+      "accept": ["Je savais qu'elle habitait à Paris, mais j'ai su qu'elle a déménagé"],
+      "hintWords": ["je savais qu'elle habitait à Paris", "j'ai su qu'elle a déménagé"],
+      "strictAccents": true,
+      "audio": "Je savais qu'elle habitait à Paris, mais j'ai su qu'elle a déménagé.",
+      "explain": "Savais (estado continuo) frente a ai su (momento de enterarse)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Ya conocía a Léa, pero conocí a Marc en la universidad.",
+      "accept": ["Je connaissais déjà Léa, mais j'ai connu Marc à l'université"],
+      "hintWords": ["je connaissais déjà Léa", "j'ai connu Marc à l'université"],
+      "strictAccents": true,
+      "audio": "Je connaissais déjà Léa, mais j'ai connu Marc à l'université.",
+      "explain": "Connaissais (ya conocía) frente a ai connu (primera vez)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Je ___ nager quand j'étais jeune, et hier, j'___ finir mon travail à temps.",
+      "blanks": [{ "accept": ["pouvais"] }, { "accept": ["ai pu"] }],
+      "bank": ["pouvais", "ai pu", "peux"],
+      "explain": "Pouvais (posibilidad general) frente a ai pu (caso concreto)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Me negué a responder»",
+      "tokens": ["répondre", "Je n'ai pas voulu"],
+      "answer": ["Je n'ai pas voulu", "répondre"],
+      "audio": "Je n'ai pas voulu répondre.",
+      "explain": "Je n'ai pas voulu + infinitivo: un rechazo activo puntual."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Je voulais partir tôt, mais je n'ai pas pu, parce que j'ai raté le bus.",
+      "accept": ["Quería salir pronto, pero no pude, porque perdí el autobús."],
+      "strictAccents": false,
+      "audio": "Je voulais partir tôt, mais je n'ai pas pu, parce que j'ai raté le bus.",
+      "explain": "Voulais (deseo) frente a n'ai pas pu (no lograr, caso concreto)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre cómo conociste a alguien",
+      "turns": [
+        { "who": "Léa", "text": "Tu connaissais déjà Marc avant la fête ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, je l'ai connu à la fête.", "Oui, je le connaissais déjà."], "hint": "usa connaissais o ai connu" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Tu connaissais déjà...? distingue el conocimiento previo del primer encuentro."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "speak": "Je savais qu'elle habitait à Paris, mais je ne connaissais pas son numéro.",
+      "mode": "write",
+      "accept": ["Je savais qu'elle habitait à Paris, mais je ne connaissais pas son numéro"],
+      "showTextAfter": true,
+      "explain": "Savais y connaissais, dos estados continuos en imparfait."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["verbos-especiales"],
+      "difficulty": 1,
+      "speak": "j'ai su",
+      "mode": "choose",
+      "options": ["je savais", "j'ai su", "je sais", "j'ai connu"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'ai su = supe, me enteré (momento concreto)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["imparfait", "passe-compose", "verbos-especiales"],
+      "difficulty": 3,
+      "speak": "Je savais qu'elle voulait déménager, mais j'ai su la nouvelle seulement hier, quand j'ai connu son nouvel appartement.",
+      "es": "Sabía que quería mudarse, pero me enteré de la noticia solo ayer, cuando conocí su nuevo apartamento.",
+      "ipa": "/ʒə sa.vɛ kɛl vu.lɛ de.me.na.ʒe mɛ ʒe sy la nu.vɛl sœl.mɑ̃ jɛʁ kɑ̃ ʒe kɔ.ny sɔ̃ nu.vɛl a.paʁ.tə.mɑ̃/",
+      "esApprox": "«ye sa-VE kel vu-LE de-me-na-ZHÉ me ye SÜ la nu-VEL seul-MAN IER kan ye ko-NÜ son nu-VEL a-par-te-MAN»",
+      "focus": "Savais, voulait, su, connu: cuatro matices distintos en la misma frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Cuenta algo que sabías desde antes y algo de lo que te enteraste hace poco.",
+      "modelAnswer": "Je savais qu'elle habitait à Paris, mais j'ai su récemment qu'elle a déménagé.",
+      "alsoValid": ["Je connaissais déjà ce restaurant, mais j'ai connu son nouveau menu hier."],
+      "speak": "Je savais qu'elle habitait à Paris, mais j'ai su récemment qu'elle a déménagé.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "¿Es un estado continuo (imparfait) o un momento concreto (passé composé)?",
+      "buckets": ["Estado continuo", "Momento concreto"],
+      "items": [
+        { "text": "je savais", "bucket": 0 },
+        { "text": "j'ai su", "bucket": 1 },
+        { "text": "je connaissais", "bucket": 0 },
+        { "text": "j'ai connu", "bucket": 1 },
+        { "text": "je pouvais", "bucket": 0 },
+        { "text": "j'ai pu", "bucket": 1 }
+      ],
+      "explain": "El imparfait describe un estado sin límite; el passé composé marca un momento concreto de cambio."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["verbos-especiales"],
+      "difficulty": 2,
+      "prompt": "Hay un error de matiz: se conocieron por primera vez, no ya se conocían. Corrige la frase entera.",
+      "wrong": "Je connaissais Marc à l'université.",
+      "accept": ["J'ai connu Marc à l'université"],
+      "audio": "J'ai connu Marc à l'université.",
+      "explain": "Para el primer encuentro, se usa connaître en passé composé: j'ai connu."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "savoir", "es": "saber", "esApprox": "«sa-VUÁR»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'ai su", "es": "supe, me enteré", "esApprox": "«ye SÜ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je connaissais", "es": "yo conocía", "esApprox": "«ye ko-ne-SE»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "j'ai connu", "es": "conocí (por primera vez)", "esApprox": "«ye ko-NÜ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "j'ai pu", "es": "pude, logré (en un caso concreto)", "esApprox": "«ye PÜ»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "je n'ai pas voulu", "es": "me negué a", "esApprox": "«ye ne pa vu-LÜ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je savais qu'elle habitait à Paris, mais j'ai su qu'elle a déménagé.", "es": "Sabía que vivía en París, pero me enteré de que se mudó.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je connaissais déjà Léa, mais j'ai connu Marc à l'université.", "es": "Ya conocía a Léa, pero conocí a Marc en la universidad.", "from": "e7" }
+  ]
+}

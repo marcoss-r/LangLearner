@@ -1,0 +1,365 @@
+{
+  "id": "de-a1-054",
+  "lang": "de",
+  "level": "A1",
+  "order": 54,
+  "title": "El imperativo",
+  "objectives": [
+    "Formar el imperativo informal singular (du): quitar -st, y añadir -e si la raíz termina en -t o -d",
+    "Formar el imperativo informal plural (ihr) e formal (Sie), reutilizando las formas de presente ya conocidas",
+    "Reconocer que los verbos con cambio e→i mantienen ese cambio en el imperativo de du: sprich!, no sprech!"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres imperativos, según a quién te dirijas",
+      "body": "El alemán tiene tres formas de imperativo, igual que tiene du/ihr/Sie para el presente. La de du es la más irregular: se parte de la forma de du del presente, se quita la -st, y a veces se añade una -e final. Las de ihr y Sie son mucho más fáciles: coinciden con el presente de esas personas.",
+      "examples": [
+        { "target": "Komm!", "es": "¡Ven!", "note": "du kommst → Komm! (se quita -st)" },
+        { "target": "Kommt!", "es": "¡Venid!", "note": "igual que ihr kommt, sin pronombre" },
+        { "target": "Kommen Sie!", "es": "¡Venga!", "note": "igual que Sie kommen, con Sie detrás del verbo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El imperativo de tres verbos",
+      "headers": ["Persona", "kommen", "warten", "aufstehen (separable)"],
+      "rows": [
+        ["du", "Komm!", "Warte!", "Steh auf!"],
+        ["ihr", "Kommt!", "Wartet!", "Steht auf!"],
+        ["Sie", "Kommen Sie!", "Warten Sie!", "Stehen Sie auf!"]
+      ],
+      "note": "Warte! lleva una -e obligatoria, porque la raíz warte- termina en t, igual que arbeitest necesitaba una e extra en presente. En los verbos separables, el prefijo sigue yendo al final: Steh auf!, no Aufsteh!"
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: los verbos con cambio e→i lo mantienen en el imperativo de du",
+      "items": [
+        { "wrong": "Sprech Deutsch! (usando la raíz sin cambiar, como en el infinitivo)", "right": "Sprich Deutsch!", "why": "sprechen cambia e→i en du (du sprichst), y ese cambio se mantiene en el imperativo: Sprich!, no Sprech!. En cambio, los verbos con cambio a→ä (como fahren) NO llevan el cambio en el imperativo: Fahr!, no Fähr!." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En el registro cotidiano, muchos hablantes añaden bitte al imperativo para suavizarlo: «Warte bitte!» (espera, por favor) suena mucho más amable que «Warte!» a secas."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "kommen",
+      "es": "venir",
+      "ipa": "/ˈkɔmən/",
+      "esApprox": "«KO-men»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Komm bitte!", "es": "¡Ven, por favor!" }
+    },
+    {
+      "id": "v2",
+      "target": "warten",
+      "es": "esperar",
+      "ipa": "/ˈvaʁtən/",
+      "esApprox": "«VAR-ten»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Warte bitte!", "es": "¡Espera, por favor!" }
+    },
+    {
+      "id": "v3",
+      "target": "hören",
+      "es": "escuchar, oír",
+      "ipa": "/ˈhøːʁən/",
+      "esApprox": "«JÖ-ren»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Hör bitte!", "es": "¡Escucha, por favor!" }
+    },
+    {
+      "id": "v4",
+      "target": "schauen",
+      "es": "mirar",
+      "ipa": "/ˈʃaʊ̯ən/",
+      "esApprox": "«SHAU-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Schau!", "es": "¡Mira!" }
+    },
+    {
+      "id": "v5",
+      "target": "langsam",
+      "es": "despacio, lento",
+      "ipa": "/ˈlaŋzaːm/",
+      "esApprox": "«LANG-zam»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Sprich langsam!", "es": "¡Habla despacio!" }
+    },
+    {
+      "id": "v6",
+      "target": "schnell",
+      "es": "rápido",
+      "ipa": "/ʃnɛl/",
+      "esApprox": "«shnel»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Komm schnell!", "es": "¡Ven rápido!" }
+    },
+    {
+      "id": "v7",
+      "target": "bitte",
+      "es": "por favor",
+      "ipa": "/ˈbɪtə/",
+      "esApprox": "«BI-te»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Warte bitte!", "es": "¡Espera, por favor!" }
+    },
+    {
+      "id": "v8",
+      "target": "aufstehen",
+      "es": "levantarse",
+      "ipa": "/ˈaʊ̯fˌʃteːən/",
+      "esApprox": "«AUF-shte-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Steh auf!", "es": "¡Levántate!" }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el imperativo de «du» para kommen?",
+      "options": ["Kommst!", "Komm!", "Kommen!", "Kommt!"],
+      "answer": 1,
+      "explain": "Se quita la -st de kommst: Komm!"
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el imperativo de «du» para warten?",
+      "options": ["Wart!", "Warte!", "Wartst!", "Wartet!"],
+      "answer": 1,
+      "explain": "warten necesita la -e obligatoria, porque su raíz termina en t: Warte!"
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["imperativo"],
+      "difficulty": 1,
+      "statement": "El imperativo de Sie coloca el pronombre Sie después del verbo.",
+      "answer": true,
+      "explain": "Kommen Sie!: el verbo va primero, Sie después."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "statement": "Sprechen mantiene el cambio e→i en el imperativo de du: Sprich!",
+      "answer": true,
+      "explain": "Los verbos con cambio e→i mantienen ese cambio en el imperativo de du."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas NO es un imperativo correcto de du?",
+      "options": ["Komm!", "Warte!", "Sprich!", "Kommst!"],
+      "answer": 3,
+      "explain": "Kommst! no es imperativo: hay que quitar la -st, dejando Komm!"
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Une cada persona con su imperativo de kommen",
+      "left": ["du", "ihr", "Sie"],
+      "right": ["Kommt!", "Komm!", "Kommen Sie!"],
+      "answer": [1, 0, 2],
+      "explain": "Los tres imperativos de kommen, cada uno con su persona."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "¡Ven, por favor! (a un amigo)",
+      "accept": ["Komm bitte!"],
+      "hintWords": ["komm", "bitte"],
+      "strictAccents": false,
+      "audio": "Komm bitte!",
+      "explain": "Komm bitte!: imperativo de du + bitte para suavizarlo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "¡Espere! (formal)",
+      "accept": ["Warten Sie!"],
+      "hintWords": ["warten Sie"],
+      "strictAccents": false,
+      "audio": "Warten Sie!",
+      "explain": "Warten Sie!: imperativo formal, igual que el presente de Sie."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Completa con el imperativo correcto",
+      "text": "___ langsam! (sprechen, a un amigo) ___ auf! (aufstehen, a un amigo)",
+      "blanks": [{ "accept": ["Sprich"] }, { "accept": ["Steh"] }],
+      "bank": ["Sprich", "Steh", "Sprech"],
+      "explain": "Sprich (con el cambio e→i mantenido); Steh auf (el prefijo se separa)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¡Levántate rápido!»",
+      "tokens": ["auf", "schnell", "Steh"],
+      "answer": ["Steh", "schnell", "auf"],
+      "audio": "Steh schnell auf!",
+      "explain": "Steh (imperativo) + schnell (adverbio) + auf (prefijo, al final)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["imperativo"],
+      "difficulty": 1,
+      "prompt": "Hör bitte!",
+      "accept": ["¡Escucha, por favor!"],
+      "strictAccents": false,
+      "audio": "Hör bitte!",
+      "explain": "Hör es el imperativo de du de hören."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Ich spreche zu schnell, oder?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Sprich bitte langsam!"], "hint": "pídele que hable despacio, por favor" },
+        { "who": "Anna", "text": "Okay, langsam!", "speak": true }
+      ],
+      "explain": "Sprich mantiene el cambio e→i del imperativo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["imperativo"],
+      "difficulty": 1,
+      "speak": "Komm bitte!",
+      "mode": "write",
+      "accept": ["Komm bitte!"],
+      "showTextAfter": true,
+      "explain": "Komm bitte! = ¡ven, por favor!"
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "speak": "Warten Sie!",
+      "mode": "choose",
+      "options": ["Warten Sie!", "Warte!", "Wartet!"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Los tres imperativos suenan claramente distintos: du, ihr y Sie."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "speak": "Komm bitte, und sprich langsam!",
+      "es": "Ven, por favor, y habla despacio.",
+      "ipa": "/kɔm ˈbɪtə ʊnt ʃpʁɪç ˈlaŋzaːm/",
+      "esApprox": "«kom BI-te unt shprich LANG-zam»",
+      "focus": "Komm y sprich son imperativos cortos y directos: pronúncialos con un tono firme pero amable.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "speak": "Steh schnell auf, und warte hier!",
+      "es": "Levántate rápido, y espera aquí.",
+      "ipa": "/ʃteː ʃnɛl aʊ̯f ʊnt ˈvaʁtə hiːɐ̯/",
+      "esApprox": "«shte shnel auf unt VAR-te jir»",
+      "focus": "Steh...auf mantiene el prefijo separado incluso en el imperativo; warte lleva su e obligatoria.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Le pides a un amigo que venga rápido.",
+      "modelAnswer": "Komm schnell!",
+      "alsoValid": ["Komm bitte schnell!"],
+      "speak": "Komm schnell!",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada imperativo según la persona a la que se dirige",
+      "buckets": ["du", "ihr", "Sie"],
+      "items": [
+        { "text": "Komm!", "bucket": 0 },
+        { "text": "Kommt!", "bucket": 1 },
+        { "text": "Kommen Sie!", "bucket": 2 },
+        { "text": "Warte!", "bucket": 0 },
+        { "text": "Wartet!", "bucket": 1 }
+      ],
+      "explain": "Cada imperativo tiene una forma distinta según a quién te dirijas."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Sprech Deutsch!",
+      "accept": ["Sprich Deutsch!"],
+      "audio": "Sprich Deutsch!",
+      "explain": "sprechen mantiene el cambio e→i en el imperativo de du: Sprich, no Sprech."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "prompt": "Hay otro error distinto. Corrige la frase entera.",
+      "wrong": "Wart bitte!",
+      "accept": ["Warte bitte!"],
+      "audio": "Warte bitte!",
+      "explain": "warten necesita la -e obligatoria, porque su raíz termina en t: Warte, no Wart."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "kommen", "es": "venir", "esApprox": "«KO-men»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "warten", "es": "esperar", "esApprox": "«VAR-ten»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "hören", "es": "escuchar, oír", "esApprox": "«JÖ-ren»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "schauen", "es": "mirar", "esApprox": "«SHAU-en»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "langsam", "es": "despacio, lento", "esApprox": "«LANG-zam»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "schnell", "es": "rápido", "esApprox": "«shnel»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Komm bitte, und sprich langsam!", "es": "Ven, por favor, y habla despacio.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Steh schnell auf, und warte hier!", "es": "Levántate rápido, y espera aquí.", "from": "e16" }
+  ]
+}

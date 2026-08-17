@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-113",
+  "lang": "de",
+  "level": "A2",
+  "order": 113,
+  "title": "El genitivo: el cuarto caso",
+  "objectives": [
+    "Formar el genitivo de der/die/das: des, der, des, der",
+    "Añadir -s o -es al sustantivo masculino y neutro en genitivo singular",
+    "Usar el genitivo para expresar posesión: «el libro del hombre»"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El cuarto y último caso: el genitivo",
+      "body": "El genitivo expresa posesión o pertenencia («de quién es algo»), como el «'s» del inglés o el «de» del español: «das Buch des Mannes» (el libro del hombre). Ya viste su terminación en el adjetivo (clase 102), pero ahora aprendes el caso completo: el artículo cambia a des (masculino/neutro) o der (femenino/plural), y el SUSTANTIVO masculino y neutro añade -s o -es.",
+      "examples": [
+        { "target": "das Buch des Mannes", "es": "el libro del hombre", "note": "des + -es (Mann termina en consonante + n)" },
+        { "target": "das Auto der Frau", "es": "el coche de la mujer", "note": "der, sin cambio en Frau" },
+        { "target": "der Name des Kindes", "es": "el nombre del niño", "note": "des + -es" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El artículo en genitivo",
+      "headers": ["Masculino", "Femenino", "Neutro", "Plural"],
+      "rows": [
+        ["des", "der", "des", "der"]
+      ],
+      "note": "des Mannes, der Frau, des Kindes, der Kinder."
+    },
+    {
+      "type": "tip",
+      "body": "Regla del sustantivo: los masculinos y neutros de una sílaba (o que terminan en -s, -ß, -x, -z) añaden -es (des Mannes, des Hauses); los de más sílabas suelen añadir solo -s (des Autos, des Computers). Femenino y plural nunca cambian."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Name", "es": "el nombre", "ipa": "/ˈnaːmə/", "esApprox": "«NÁ-me»", "pos": "sustantivo", "gender": "m", "example": { "target": "der Name des Kindes", "es": "el nombre del niño" } },
+    { "id": "v2", "target": "das Haus", "es": "la casa", "ipa": "/haʊ̯s/", "esApprox": "«jaus»", "pos": "sustantivo", "gender": "n", "plural": "die Häuser", "example": { "target": "die Tür des Hauses", "es": "la puerta de la casa" } },
+    { "id": "v3", "target": "die Tür", "es": "la puerta", "ipa": "/tyːɐ̯/", "esApprox": "«tür»", "pos": "sustantivo", "gender": "f", "example": { "target": "die Tür des Hauses", "es": "la puerta de la casa" } },
+    { "id": "v4", "target": "der Besitz", "es": "la posesión, la propiedad", "ipa": "/bəˈzɪts/", "esApprox": "«be-ZITS»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist mein Besitz.", "es": "Eso es de mi propiedad." } },
+    { "id": "v5", "target": "der Titel", "es": "el título", "ipa": "/ˈtiːtl̩/", "esApprox": "«TÍ-tel»", "pos": "sustantivo", "gender": "m", "example": { "target": "der Titel des Buches", "es": "el título del libro" } },
+    { "id": "v6", "target": "das Ende", "es": "el final", "ipa": "/ˈɛndə/", "esApprox": "«ÉN-de»", "pos": "sustantivo", "gender": "n", "example": { "target": "das Ende der Geschichte", "es": "el final de la historia" } },
+    { "id": "v7", "target": "die Geschichte", "es": "la historia", "ipa": "/ɡəˈʃɪçtə/", "esApprox": "«ge-SHÍCH-te»", "pos": "sustantivo", "gender": "f", "example": { "target": "das Ende der Geschichte", "es": "el final de la historia" } },
+    { "id": "v8", "target": "gehören", "es": "pertenecer", "ipa": "/ɡəˈhøːʁən/", "esApprox": "«ge-JÖ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Das Buch gehört dem Mann.", "es": "El libro pertenece al hombre." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["genitivo"], "difficulty": 1, "prompt": "¿Cuál es el artículo genitivo masculino?", "options": ["der", "den", "dem", "des"], "answer": 3, "explain": "des Mannes: des es el artículo genitivo masculino y neutro." },
+    { "id": "e2", "type": "mcq", "tags": ["genitivo"], "difficulty": 2, "prompt": "¿Qué le pasa al sustantivo masculino/neutro en genitivo singular?", "options": ["Nada cambia", "Añade -s o -es", "Añade -n", "Añade -e"], "answer": 1, "explain": "des Mannes, des Hauses: -s o -es según la terminación." },
+    { "id": "e3", "type": "true_false", "tags": ["genitivo"], "difficulty": 2, "statement": "El sustantivo femenino cambia en genitivo, igual que el masculino.", "answer": false, "explain": "Femenino y plural nunca cambian: der Frau, der Kinder." },
+    { "id": "e4", "type": "true_false", "tags": ["genitivo"], "difficulty": 2, "statement": "El genitivo expresa posesión o pertenencia.", "answer": true, "explain": "das Buch des Mannes = el libro del hombre." },
+    { "id": "e5", "type": "match_pairs", "tags": ["genitivo"], "difficulty": 2, "prompt": "Une cada género con su artículo genitivo", "left": ["Masculino", "Femenino", "Neutro", "Plural"], "right": ["des", "der", "des", "der"], "answer": [0, 1, 2, 3], "explain": "des para masculino y neutro; der para femenino y plural." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["genitivo"], "difficulty": 2, "prompt": "El libro del hombre está aquí.", "accept": ["Das Buch des Mannes ist hier"], "hintWords": ["das Buch des Mannes ist hier"], "strictAccents": false, "audio": "Das Buch des Mannes ist hier.", "explain": "des Mannes: genitivo masculino, con -es." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["genitivo"], "difficulty": 2, "prompt": "El coche de la mujer es nuevo.", "accept": ["Das Auto der Frau ist neu"], "hintWords": ["das Auto der Frau ist neu"], "strictAccents": false, "audio": "Das Auto der Frau ist neu.", "explain": "der Frau: genitivo femenino, sin cambio en Frau." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["genitivo"], "difficulty": 2, "prompt": "El nombre del niño es bonito.", "accept": ["Der Name des Kindes ist schön"], "hintWords": ["der Name des Kindes ist schön"], "strictAccents": false, "audio": "Der Name des Kindes ist schön.", "explain": "des Kindes: genitivo neutro, con -es." },
+    { "id": "e9", "type": "fill_blank", "tags": ["genitivo"], "difficulty": 2, "prompt": "Completa con el artículo y la terminación correctos", "text": "die Tür ___ Haus___.", "blanks": [{ "accept": ["des"] }, { "accept": ["es"] }], "bank": ["des", "es", "der"], "explain": "des Hauses: genitivo neutro, con -es." },
+    { "id": "e10", "type": "word_order", "tags": ["genitivo"], "difficulty": 2, "prompt": "Ordena: «El título del libro es interesante»", "tokens": ["des Buches", "ist interessant", "Der Titel"], "answer": ["Der Titel", "des Buches", "ist interessant"], "audio": "Der Titel des Buches ist interessant.", "explain": "Der Titel des Buches ist interessant: sujeto + genitivo + verbo + adjetivo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["genitivo"], "difficulty": 2, "prompt": "Das Buch gehört dem Mann.", "accept": ["El libro pertenece al hombre."], "strictAccents": false, "audio": "Das Buch gehört dem Mann.", "explain": "gehören + dativo: otra forma de expresar posesión, sin genitivo." },
+    { "id": "e12", "type": "dialogue", "tags": ["genitivo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Tom", "text": "Wessen Buch ist das?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das ist das Buch des Mannes.", "Das Buch gehört dem Mann."], "hint": "responde con genitivo o con gehören" },
+      { "who": "Tom", "text": "Ach so, danke!", "speak": true }
+    ], "explain": "Wessen (¿de quién?) es la pregunta clásica que responde el genitivo." },
+    { "id": "e13", "type": "listening", "tags": ["genitivo"], "difficulty": 1, "speak": "Das Buch des Mannes ist hier.", "mode": "write", "accept": ["Das Buch des Mannes ist hier"], "showTextAfter": true, "explain": "des Mannes: genitivo masculino con -es." },
+    { "id": "e14", "type": "listening", "tags": ["genitivo"], "difficulty": 2, "speak": "Das Auto der Frau ist neu.", "mode": "choose", "options": ["Das Auto der Frau ist neu.", "Das Auto des Frau ist neu.", "Das Auto die Frau ist neu."], "answer": 0, "showTextAfter": true, "explain": "der Frau: genitivo femenino, la única forma correcta." },
+    { "id": "e15", "type": "shadowing", "tags": ["genitivo"], "difficulty": 2, "speak": "Das Buch des Mannes und das Auto der Frau stehen vor dem Haus.", "es": "El libro del hombre y el coche de la mujer están delante de la casa.", "ipa": "/das buːx dɛs ˈmanəs ʊnt das ˈaʊ̯to deːɐ̯ fʁaʊ̯ ʃteːən foːɐ̯ deːm haʊ̯s/", "esApprox": "«das buj des MÁ-nes unt das ÁU-to der frau shté-en for dem jaus»", "focus": "des Mannes (masculino) y der Frau (femenino): las dos formas de genitivo, en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["genitivo"], "difficulty": 2, "speak": "Der Titel des Buches und das Ende der Geschichte sind sehr interessant.", "es": "El título del libro y el final de la historia son muy interesantes.", "ipa": "/deːɐ̯ ˈtiːtl̩ dɛs ˈbuːxəs ʊnt das ˈɛndə deːɐ̯ ɡəˈʃɪçtə zɪnt zeːɐ̯ ɪntəʁɛˈsant/", "esApprox": "«der TÍ-tel des BÚ-jes unt das ÉN-de der ge-SHÍCH-te zint zer in-te-re-SANT»", "focus": "des Buches (neutro, -es) y der Geschichte (femenino, sin cambio): dos genitivos más.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["genitivo"], "difficulty": 2, "prompt": "Te preguntan de quién es el libro. Di que es el libro del hombre.", "modelAnswer": "Das ist das Buch des Mannes.", "alsoValid": ["Das Buch gehört dem Mann."], "speak": "Das ist das Buch des Mannes.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["genitivo"], "difficulty": 2, "prompt": "Clasifica cada sustantivo: cambia en genitivo o no", "buckets": ["Cambia (masc./neutro sing.)", "No cambia (fem./plural)"], "items": [
+      { "text": "des Mannes", "bucket": 0 },
+      { "text": "der Frau", "bucket": 1 },
+      { "text": "des Kindes", "bucket": 0 },
+      { "text": "der Kinder", "bucket": 1 }
+    ], "explain": "Masculino y neutro singular añaden -s/-es; femenino y plural no cambian." },
+    { "id": "e19", "type": "error_correction", "tags": ["genitivo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das Buch des Mann ist hier.", "accept": ["Das Buch des Mannes ist hier"], "audio": "Das Buch des Mannes ist hier.", "explain": "En genitivo masculino, el sustantivo añade -es: des Mannes, no des Mann." },
+    { "id": "e20", "type": "mcq", "tags": ["genitivo"], "difficulty": 2, "prompt": "«Der Titel des Buches ist interessant, und das Ende der Geschichte ist unerwartet. Das Buch gehört der Frau meines Bruders.» ¿A quién pertenece el libro?", "options": ["A la mujer de mi hermano", "A mi hermano", "A la escritora", "No se dice"], "answer": 0, "explain": "«Das Buch gehört der Frau meines Bruders» = el libro pertenece a la mujer de mi hermano." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Name", "es": "el nombre", "esApprox": "«NÁ-me»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Haus", "es": "la casa", "esApprox": "«jaus»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Tür", "es": "la puerta", "esApprox": "«tür»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Titel", "es": "el título", "esApprox": "«TÍ-tel»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "das Ende", "es": "el final", "esApprox": "«ÉN-de»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "die Geschichte", "es": "la historia", "esApprox": "«ge-SHÍCH-te»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Das Buch des Mannes und das Auto der Frau stehen vor dem Haus.", "es": "El libro del hombre y el coche de la mujer están delante de la casa.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Titel des Buches und das Ende der Geschichte sind sehr interessant.", "es": "El título del libro y el final de la historia son muy interesantes.", "from": "e16" }
+  ]
+}

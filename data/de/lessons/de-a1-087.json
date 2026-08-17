@@ -1,0 +1,84 @@
+{
+  "id": "de-a1-087",
+  "lang": "de",
+  "level": "A1",
+  "order": 87,
+  "title": "Por teléfono y por mensaje",
+  "objectives": [
+    "Contestar y hacer una llamada telefónica con las fórmulas típicas alemanas",
+    "Escribir mensajes breves e informales con abreviaciones comunes",
+    "Pedir a alguien que se repita o hable más despacio por teléfono"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Al teléfono: fórmulas fijas",
+      "body": "En alemán, al contestar el teléfono se dice el propio nombre, no «¿Diga?»: «Schmidt» o «Hier spricht Anna» (Aquí habla Anna). Para preguntar quién llama: «Wer ist da, bitte?» (¿Quién es, por favor?). Para despedirse: «Bis bald!» o «Tschüss!».",
+      "examples": [
+        { "target": "Hier spricht Anna.", "es": "Aquí habla Anna." },
+        { "target": "Kann ich bitte mit Herrn Müller sprechen?", "es": "¿Puedo hablar con el señor Müller, por favor?" },
+        { "target": "Können Sie das bitte wiederholen?", "es": "¿Puede repetir eso, por favor?" }
+      ]
+    },
+    {
+      "type": "explanation",
+      "title": "Mensajes cortos: el estilo informal",
+      "body": "Al escribir mensajes (SMS, WhatsApp), el alemán informal usa frases cortas y abreviaciones como LG (liebe Grüße, saludos), VG (viele Grüße) y bin gleich da (llego enseguida). Se suele omitir el sujeto cuando es obvio: «Bin spät dran, sorry!» (Voy tarde, ¡perdón!)."
+    },
+    {
+      "type": "tip",
+      "body": "Diferencia clave: al teléfono, di tu nombre en vez de «Hallo»; en un mensaje escrito, puedes ser mucho más breve y directo que al hablar."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "das Telefon", "es": "el teléfono", "ipa": "/teleˈfoːn/", "esApprox": "«te-le-FON»", "pos": "sustantivo", "gender": "n", "example": { "target": "Mein Telefon klingelt.", "es": "Mi teléfono suena." } },
+    { "id": "v2", "target": "anrufen", "es": "llamar por teléfono", "ipa": "/ˈanʁuːfn̩/", "esApprox": "«ÁN-ru-fen»", "pos": "verbo", "gender": null, "example": { "target": "Ich rufe dich an.", "es": "Te llamo." } },
+    { "id": "v3", "target": "wiederholen", "es": "repetir", "ipa": "/ˌviːdɐˈhoːlən/", "esApprox": "«vi-der-JÓ-len»", "pos": "verbo", "gender": null, "example": { "target": "Können Sie das wiederholen?", "es": "¿Puede repetir eso?" } },
+    { "id": "v4", "target": "die Nachricht", "es": "el mensaje", "ipa": "/ˈnaːxʁɪçt/", "esApprox": "«NACH-richt»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich schreibe dir eine Nachricht.", "es": "Te escribo un mensaje." } },
+    { "id": "v5", "target": "verbinden", "es": "conectar, poner en comunicación", "ipa": "/fɛɐ̯ˈbɪndn̩/", "esApprox": "«fer-BÍN-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich verbinde Sie.", "es": "Le paso la llamada." } },
+    { "id": "v6", "target": "besetzt", "es": "ocupado (línea)", "ipa": "/bəˈzɛtst/", "esApprox": "«be-ZETST»", "pos": "adjetivo", "gender": null, "example": { "target": "Die Leitung ist besetzt.", "es": "La línea está ocupada." } },
+    { "id": "v7", "target": "zurückrufen", "es": "devolver la llamada", "ipa": "/tsuˈʁʏkʁuːfn̩/", "esApprox": "«tsu-RÜK-ru-fen»", "pos": "verbo", "gender": null, "example": { "target": "Ich rufe später zurück.", "es": "Devuelvo la llamada más tarde." } },
+    { "id": "v8", "target": "kurz", "es": "breve, corto", "ipa": "/kʊʁts/", "esApprox": "«kurts»", "pos": "adjetivo", "gender": null, "example": { "target": "Nur kurz: bin gleich da!", "es": "Solo breve: ¡llego enseguida!" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["telefono"], "difficulty": 1, "prompt": "¿Cómo se contesta el teléfono en alemán normalmente?", "options": ["Hallo?", "Diga?", "Con tu nombre", "Ja?"], "answer": 2, "explain": "En alemán se suele decir el propio nombre al contestar, no «Hallo»." },
+    { "id": "e2", "type": "mcq", "tags": ["telefono"], "difficulty": 2, "prompt": "¿Cómo se dice «La línea está ocupada»?", "options": ["Die Leitung ist frei.", "Die Leitung ist besetzt.", "Die Leitung ist kaputt.", "Die Leitung ist da."], "answer": 1, "explain": "besetzt = ocupado (referido a la línea telefónica)." },
+    { "id": "e3", "type": "true_false", "tags": ["telefono"], "difficulty": 2, "statement": "«zurückrufen» significa «devolver la llamada».", "answer": true, "explain": "zurückrufen: verbo separable, «llamar de vuelta»." },
+    { "id": "e4", "type": "true_false", "tags": ["telefono"], "difficulty": 2, "statement": "En los mensajes informales alemanes es habitual omitir el sujeto cuando es obvio.", "answer": true, "explain": "Ej.: «Bin spät dran, sorry!» sin «Ich» al principio." },
+    { "id": "e5", "type": "match_pairs", "tags": ["telefono"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["anrufen", "wiederholen", "die Nachricht", "besetzt"], "right": ["llamar por teléfono", "repetir", "el mensaje", "ocupado"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario telefónico." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["telefono"], "difficulty": 2, "prompt": "¿Puedo hablar con el señor Müller, por favor?", "accept": ["Kann ich bitte mit Herrn Müller sprechen?", "Kann ich bitte mit Herrn Müller sprechen"], "hintWords": ["kann ich bitte mit Herrn Müller sprechen"], "strictAccents": false, "audio": "Kann ich bitte mit Herrn Müller sprechen?", "explain": "kann + mit + dativo (Herrn) + sprechen: fórmula fija al teléfono." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["telefono"], "difficulty": 2, "prompt": "¿Puede repetir eso, por favor?", "accept": ["Können Sie das bitte wiederholen?", "Können Sie das bitte wiederholen"], "hintWords": ["können Sie das bitte wiederholen"], "strictAccents": false, "audio": "Können Sie das bitte wiederholen?", "explain": "können + Sie + wiederholen: pregunta formal muy útil al teléfono." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["telefono"], "difficulty": 2, "prompt": "Te escribo un mensaje.", "accept": ["Ich schreibe dir eine Nachricht"], "hintWords": ["ich schreibe dir eine Nachricht"], "strictAccents": false, "audio": "Ich schreibe dir eine Nachricht.", "explain": "schreiben + dativo (dir) + eine Nachricht (acusativo)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["telefono"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Die Leitung ist ___. Ich rufe später ___.", "blanks": [{ "accept": ["besetzt"] }, { "accept": ["zurück"] }], "bank": ["besetzt", "zurück", "frei"], "explain": "besetzt (ocupado); zurückrufen (devolver la llamada, verbo separable)." },
+    { "id": "e10", "type": "word_order", "tags": ["telefono"], "difficulty": 2, "prompt": "Ordena: «Mi teléfono suena»", "tokens": ["klingelt", "Telefon", "Mein"], "answer": ["Mein", "Telefon", "klingelt"], "audio": "Mein Telefon klingelt.", "explain": "Mein Telefon klingelt: sujeto-verbo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["telefono"], "difficulty": 2, "prompt": "Ich verbinde Sie.", "accept": ["Le paso la llamada.", "Le conecto."], "strictAccents": false, "audio": "Ich verbinde Sie.", "explain": "verbinden: conectar, usado al pasar una llamada." },
+    { "id": "e12", "type": "dialogue", "tags": ["telefono"], "difficulty": 2, "prompt": "Completa la conversación telefónica", "turns": [
+      { "who": "Herr Schmidt", "text": "Schmidt, guten Tag.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Guten Tag, kann ich bitte mit Herrn Müller sprechen?"], "hint": "pide hablar con el señor Müller" },
+      { "who": "Herr Schmidt", "text": "Einen Moment, ich verbinde Sie.", "speak": true }
+    ], "explain": "Estructura típica de una llamada telefónica formal." },
+    { "id": "e13", "type": "listening", "tags": ["telefono"], "difficulty": 1, "speak": "Kann ich bitte mit Herrn Müller sprechen?", "mode": "write", "accept": ["Kann ich bitte mit Herrn Müller sprechen"], "showTextAfter": true, "explain": "Fórmula fija para pedir hablar con alguien por teléfono." },
+    { "id": "e14", "type": "listening", "tags": ["telefono"], "difficulty": 2, "speak": "Die Leitung ist besetzt.", "mode": "choose", "options": ["Die Leitung ist besetzt.", "Die Leitung ist frei.", "Das Telefon ist kaputt."], "answer": 0, "showTextAfter": true, "explain": "besetzt: la línea está ocupada, distinto de frei (libre) o kaputt (roto)." },
+    { "id": "e15", "type": "shadowing", "tags": ["telefono"], "difficulty": 2, "speak": "Hier spricht Anna. Kann ich bitte mit Herrn Müller sprechen?", "es": "Aquí habla Anna. ¿Puedo hablar con el señor Müller, por favor?", "ipa": "/hiːɐ̯ ʃpʁɪçt ˈana kan ɪç ˈbɪtə mɪt hɛʁn ˈmʏlɐ ˈʃpʁɛçn̩/", "esApprox": "«jir shpricht Á-na. kan ich BÍ-te mit jern MÜ-ler SHPRÉ-chen?»", "focus": "Hier spricht + nombre: la fórmula alemana para identificarse al teléfono.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["telefono"], "difficulty": 2, "speak": "Die Leitung ist besetzt. Ich rufe später zurück.", "es": "La línea está ocupada. Llamo más tarde de vuelta.", "ipa": "/diː ˈlaɪ̯tʊŋ ɪst bəˈzɛtst ɪç ˈʁuːfə ˈʃpɛːtɐ tsuˈʁʏk/", "esApprox": "«di LÁI-tung ist be-ZETST. ich RÚ-fe SHPÉ-ter tsu-RÜK»", "focus": "zurückrufen: el verbo separable se divide, con zurück al final de la frase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["telefono"], "difficulty": 2, "prompt": "Alguien no te entiende bien por teléfono. Pídele que repita, por favor, de forma formal.", "modelAnswer": "Können Sie das bitte wiederholen?", "alsoValid": ["Kannst du das bitte wiederholen?"], "speak": "Können Sie das bitte wiederholen?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["telefono"], "difficulty": 2, "prompt": "Clasifica cada expresión: teléfono formal o mensaje informal", "buckets": ["Teléfono formal", "Mensaje informal"], "items": [
+      { "text": "Kann ich bitte mit Herrn Müller sprechen?", "bucket": 0 },
+      { "text": "Bin gleich da!", "bucket": 1 },
+      { "text": "Können Sie das bitte wiederholen?", "bucket": 0 },
+      { "text": "LG!", "bucket": 1 }
+    ], "explain": "El teléfono formal usa Sie y frases completas; los mensajes informales son breves y directos." },
+    { "id": "e19", "type": "error_correction", "tags": ["telefono"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Hallo, hier ist Herr Müller sprechen?", "accept": ["Kann ich bitte mit Herrn Müller sprechen?"], "audio": "Kann ich bitte mit Herrn Müller sprechen?", "explain": "Para pedir hablar con alguien se usa «Kann ich bitte mit + dativo + sprechen?», no «Hallo, hier ist...»." },
+    { "id": "e20", "type": "mcq", "tags": ["telefono"], "difficulty": 2, "prompt": "«Hier spricht Anna. Kann ich bitte mit Herrn Müller sprechen? Die Leitung ist besetzt. Ich rufe später zurück.» ¿Por qué llama Anna más tarde?", "options": ["Porque el señor Müller no está", "Porque la línea está ocupada", "Porque no tiene tiempo ahora", "Porque olvidó el número"], "answer": 1, "explain": "«Die Leitung ist besetzt» = la línea está ocupada, por eso vuelve a llamar más tarde." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "anrufen", "es": "llamar por teléfono", "esApprox": "«ÁN-ru-fen»", "from": "v2" },
+    { "id": "s2", "kind": "word", "target": "wiederholen", "es": "repetir", "esApprox": "«vi-der-JÓ-len»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "die Nachricht", "es": "el mensaje", "esApprox": "«NACH-richt»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "besetzt", "es": "ocupado (línea)", "esApprox": "«be-ZETST»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "zurückrufen", "es": "devolver la llamada", "esApprox": "«tsu-RÜK-ru-fen»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "kurz", "es": "breve, corto", "esApprox": "«kurts»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Hier spricht Anna. Kann ich bitte mit Herrn Müller sprechen?", "es": "Aquí habla Anna. ¿Puedo hablar con el señor Müller, por favor?", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Leitung ist besetzt. Ich rufe später zurück.", "es": "La línea está ocupada. Llamo más tarde de vuelta.", "from": "e16" }
+  ]
+}

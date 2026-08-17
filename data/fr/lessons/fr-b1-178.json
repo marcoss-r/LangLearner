@@ -1,0 +1,252 @@
+{
+  "id": "fr-b1-178",
+  "lang": "fr",
+  "level": "B1",
+  "order": 178,
+  "title": "El subjuntivo tras expresar deseo: je veux que, j'aimerais que",
+  "objectives": [
+    "Usar je veux que, j'aimerais que, je souhaite que y je préfère que con subjonctif",
+    "Distinguir cuándo usar el infinitivo (mismo sujeto) y cuándo el subjonctif (sujeto distinto)",
+    "Practicar frases de deseo sobre otra persona"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Expresar un deseo sobre otra persona",
+      "body": "Cuando el sujeto del deseo y el sujeto de la acción deseada son la misma persona, se usa el infinitivo: je veux partir. Cuando son personas distintas, se usa que + subjonctif: je veux que tu partes."
+    },
+    {
+      "type": "table",
+      "title": "Verbos de deseo",
+      "headers": ["Expresión", "Matiz"],
+      "rows": [
+        ["je veux que", "deseo directo, fuerte"],
+        ["j'aimerais que", "deseo cortés"],
+        ["je souhaite que", "deseo formal"],
+        ["je préfère que", "preferencia"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Mismo sujeto frente a sujeto distinto",
+      "headers": ["Sujeto", "Estructura", "Ejemplo"],
+      "rows": [
+        ["mismo sujeto", "verbo de deseo + infinitivo", "je veux partir"],
+        ["sujeto distinto", "verbo de deseo + que + subjonctif", "je veux que tu partes"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je veux que", "es": "quiero que", "ipa": "/ʒə vø kə/", "esApprox": "«ye VÖ ke»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "j'aimerais que", "es": "me gustaría que", "ipa": "/ʒɛ.mʁɛ kə/", "esApprox": "«she-me-RE ke»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "je souhaite que", "es": "deseo que", "ipa": "/ʒə swɛt kə/", "esApprox": "«ye suÉT ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "je préfère que", "es": "prefiero que", "ipa": "/ʒə pʁe.fɛʁ kə/", "esApprox": "«ye pre-FER ke»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "que tu partes", "es": "que te vayas", "ipa": "/kə ty paʁt/", "esApprox": "«ke tü PART»", "pos": "verbo", "gender": null },
+    { "id": "v6", "target": "que vous soyez", "es": "que estéis, que seáis", "ipa": "/kə vu swa.je/", "esApprox": "«ke vu suá-YÉ»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "que nous fassions", "es": "que nosotros hagamos", "ipa": "/kə nu fa.sjɔ̃/", "esApprox": "«ke nu fa-SIÓN»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "que je puisse", "es": "que yo pueda", "ipa": "/kə ʒə pɥis/", "esApprox": "«ke ye PÜIS»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "¿Cuándo usas el infinitivo en lugar de que + subjonctif?",
+      "options": ["cuando el sujeto es distinto", "cuando el sujeto es el mismo", "siempre", "nunca"],
+      "answer": 1,
+      "explain": "Mismo sujeto → infinitivo (je veux partir); sujeto distinto → que + subjonctif (je veux que tu partes)."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «quiero que te vayas»?",
+      "options": ["Je veux partir.", "Je veux que tu partes.", "Je veux que je parte.", "Je pars."],
+      "answer": 1,
+      "explain": "Sujetos distintos (yo quiero / tú te vas) → je veux que tu partes."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "statement": "Je veux partir y je veux que tu partes tienen el mismo sujeto.",
+      "answer": false,
+      "explain": "Je veux partir tiene un solo sujeto (yo); je veux que tu partes tiene dos sujetos distintos."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "statement": "J'aimerais que + sujeto distinto exige subjonctif.",
+      "answer": true,
+      "explain": "J'aimerais que tu restes: sujeto distinto, subjonctif obligatorio."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "Une cada frase con su estructura",
+      "left": ["je veux partir", "je veux que tu partes", "je préfère rester", "je préfère que nous restions"],
+      "right": ["sujeto distinto (subjonctif)", "mismo sujeto (infinitivo)", "sujeto distinto (subjonctif)", "mismo sujeto (infinitivo)"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Je veux partir y je préfère rester tienen el mismo sujeto (infinitivo); je veux que tu partes y je préfère que nous restions tienen sujeto distinto (subjonctif)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "Quiero que te vayas, pero preferiría quedarme yo.",
+      "accept": ["Je veux que tu partes, mais je préférerais rester"],
+      "hintWords": ["je veux que tu partes", "mais je préférerais rester"],
+      "strictAccents": true,
+      "audio": "Je veux que tu partes, mais je préférerais rester.",
+      "explain": "Sujeto distinto (subjonctif: que tu partes) frente a mismo sujeto (infinitivo: rester)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "Me gustaría que ellos esperaran, pero prefiero esperar yo mismo.",
+      "accept": ["J'aimerais qu'ils attendent, mais je préfère attendre moi-même"],
+      "hintWords": ["j'aimerais qu'ils attendent", "mais je préfère attendre moi-même"],
+      "strictAccents": true,
+      "audio": "J'aimerais qu'ils attendent, mais je préfère attendre moi-même.",
+      "explain": "Sujeto distinto (subjonctif: qu'ils attendent) frente a mismo sujeto (infinitivo: attendre)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Je veux que tu ___ ce soir, mais je préfère ___ avec toi.",
+      "blanks": [{ "accept": ["partes"] }, { "accept": ["rester"] }],
+      "bank": ["partes", "rester", "pars"],
+      "explain": "Sujeto distinto (que tu partes) frente a mismo sujeto (rester, infinitivo)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Prefiero que te quedes aquí»",
+      "tokens": ["ici", "Je préfère que tu restes"],
+      "answer": ["Je préfère que tu restes", "ici"],
+      "audio": "Je préfère que tu restes ici.",
+      "explain": "Je préfère que + subjonctif de rester (sujeto distinto)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "Je veux que tu partes tôt, mais j'aimerais aussi que nous restions un peu ensemble avant.",
+      "accept": ["Quiero que te vayas temprano, pero también me gustaría que nos quedáramos un poco juntos antes."],
+      "strictAccents": false,
+      "audio": "Je veux que tu partes tôt, mais j'aimerais aussi que nous restions un peu ensemble avant.",
+      "explain": "Dos deseos con sujetos distintos, ambos con subjonctif."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación expresando un deseo",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu veux que je fasse ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je veux que tu restes.", "J'aimerais que tu partes plus tard."], "hint": "usa je veux que o j'aimerais que + subjonctif" },
+        { "who": "Léa", "text": "D'accord, comme tu veux.", "speak": true }
+      ],
+      "explain": "Repaso combinado de los verbos de deseo con subjonctif."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "speak": "Je veux que tu partes tôt, et j'aimerais que nous restions ensemble avant.",
+      "mode": "write",
+      "accept": ["Je veux que tu partes tôt, et j'aimerais que nous restions ensemble avant"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de je veux que y j'aimerais que."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["deseo"],
+      "difficulty": 1,
+      "speak": "je préfère que",
+      "mode": "choose",
+      "options": ["je préfère que", "je veux", "j'aimerais", "je souhaite"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Je préfère que introduce una preferencia con subjonctif."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["deseo"],
+      "difficulty": 3,
+      "speak": "Je veux que tu partes tôt, j'aimerais que nous restions ensemble avant, et je préfère que tu attendes un peu.",
+      "es": "Quiero que te vayas temprano, me gustaría que nos quedáramos juntos antes, y prefiero que esperes un poco.",
+      "ipa": "/ʒə vø kə ty paʁt to ʒɛ.mʁɛ kə nu ʁɛs.tjɔ̃.z‿ɑ̃.sɑ̃bl a.vɑ̃ e ʒə pʁe.fɛʁ kə ty a.tɑ̃d œ̃ pø/",
+      "esApprox": "«ye VÖ ke tü PART TO she-me-RE ke nu res-tion-zan-SANBL a-VAN e ye pre-FER ke tü a-TAND un PÖ»",
+      "focus": "Tres verbos de deseo encadenados, todos con sujeto distinto y subjonctif.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "Expresa un deseo sobre otra persona usando je veux que o j'aimerais que + subjonctif.",
+      "modelAnswer": "Je veux que tu restes, et j'aimerais que nous partions ensemble.",
+      "alsoValid": ["Je préfère que vous soyez à l'heure."],
+      "speak": "Je veux que tu restes, et j'aimerais que nous partions ensemble.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "¿Es mismo sujeto (infinitivo) o sujeto distinto (subjonctif)?",
+      "buckets": ["Mismo sujeto (infinitivo)", "Sujeto distinto (subjonctif)"],
+      "items": [
+        { "text": "je veux partir", "bucket": 0 },
+        { "text": "je veux que tu partes", "bucket": 1 },
+        { "text": "je préfère rester", "bucket": 0 },
+        { "text": "je préfère que nous restions", "bucket": 1 }
+      ],
+      "explain": "Je veux partir y je préfère rester tienen el mismo sujeto; je veux que tu partes y je préfère que nous restions tienen sujeto distinto."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["deseo"],
+      "difficulty": 2,
+      "prompt": "Hay un error: si el sujeto es el mismo, se usa el infinitivo. Corrige la frase entera.",
+      "wrong": "Je veux que je parte tôt.",
+      "accept": ["Je veux partir tôt"],
+      "audio": "Je veux partir tôt.",
+      "explain": "Cuando el sujeto es el mismo, se usa el infinitivo, no que + subjonctif."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je veux que", "es": "quiero que", "esApprox": "«ye VÖ ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'aimerais que", "es": "me gustaría que", "esApprox": "«she-me-RE ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je souhaite que", "es": "deseo que", "esApprox": "«ye suÉT ke»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "je préfère que", "es": "prefiero que", "esApprox": "«ye pre-FER ke»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "que tu partes", "es": "que te vayas", "esApprox": "«ke tü PART»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "que nous fassions", "es": "que nosotros hagamos", "esApprox": "«ke nu fa-SIÓN»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Je veux que tu partes, mais je préférerais rester.", "es": "Quiero que te vayas, pero preferiría quedarme yo.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'aimerais qu'ils attendent, mais je préfère attendre moi-même.", "es": "Me gustaría que ellos esperaran, pero prefiero esperar yo mismo.", "from": "e7" }
+  ]
+}

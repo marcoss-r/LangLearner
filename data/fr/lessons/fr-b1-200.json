@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-200",
+  "lang": "fr",
+  "level": "B1",
+  "order": 200,
+  "title": "Contrastar ideas: cependant, en revanche, par contre",
+  "objectives": [
+    "Usar cependant, en revanche, par contre y néanmoins para contrastar ideas",
+    "Usar alors que y tandis que para contrastar dos hechos simultáneos",
+    "Distinguir el registro formal (néanmoins) del informal (par contre)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Más allá de mais",
+      "body": "Ya conoces mais para contrastar. Ahora amplías el repertorio con conectores más precisos, según el registro: cependant y néanmoins son más formales; par contre es más coloquial."
+    },
+    {
+      "type": "table",
+      "title": "Conectores de contraste",
+      "headers": ["Conector", "Registro"],
+      "rows": [
+        ["cependant", "formal"],
+        ["néanmoins", "formal"],
+        ["en revanche", "neutro"],
+        ["par contre", "informal"],
+        ["alors que / tandis que", "contraste simultáneo"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Malgré cela",
+      "body": "Malgré cela (a pesar de eso) también contrasta, pero mirando hacia atrás, hacia algo ya mencionado: il pleut ; malgré cela, nous sortons."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "cependant", "es": "sin embargo", "ipa": "/sə.pɑ̃.dɑ̃/", "esApprox": "«se-pan-DAN»", "pos": "conjunción", "gender": null },
+    { "id": "v2", "target": "en revanche", "es": "en cambio", "ipa": "/ɑ̃ ʁə.vɑ̃ʃ/", "esApprox": "«an re-VANSH»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "par contre", "es": "en cambio, por el contrario", "ipa": "/paʁ kɔ̃tʁ/", "esApprox": "«par KONTR»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "néanmoins", "es": "no obstante", "ipa": "/ne.ɑ̃.mwɛ̃/", "esApprox": "«ne-an-MUÍN»", "pos": "conjunción", "gender": null },
+    { "id": "v5", "target": "alors que", "es": "mientras que", "ipa": "/a.lɔʁ kə/", "esApprox": "«a-LOR ke»", "pos": "conjunción", "gender": null },
+    { "id": "v6", "target": "tandis que", "es": "mientras que", "ipa": "/tɑ̃.di kə/", "esApprox": "«tan-DÍ ke»", "pos": "conjunción", "gender": null },
+    { "id": "v7", "target": "malgré cela", "es": "a pesar de eso", "ipa": "/mal.gʁe sə.la/", "esApprox": "«mal-GRÉ se-LA»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "mais", "es": "pero", "ipa": "/mɛ/", "esApprox": "«ME»", "pos": "conjunción", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es más informal?",
+      "options": ["cependant", "néanmoins", "par contre", "en revanche"],
+      "answer": 2,
+      "explain": "Par contre es el más coloquial de esta lista."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «mientras que»?",
+      "options": ["cependant", "alors que", "par contre", "néanmoins"],
+      "answer": 1,
+      "explain": "Alors que contrasta dos hechos simultáneos."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "statement": "En revanche y par contre tienen un significado similar.",
+      "answer": true,
+      "explain": "Ambos expresan un contraste equivalente a «en cambio»."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "statement": "Néanmoins es una palabra informal, típica del habla coloquial.",
+      "answer": false,
+      "explain": "Néanmoins es formal, más propio de un texto escrito."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "Une cada conector con su característica",
+      "left": ["cependant", "par contre", "alors que", "malgré cela"],
+      "right": ["formal", "informal", "simultaneidad contrastada", "a pesar de eso"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cependant = formal, par contre = informal, alors que = simultaneidad, malgré cela = a pesar de eso."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "Me gusta el café; sin embargo, no bebo mucho.",
+      "accept": ["J'aime le café, cependant je n'en bois pas beaucoup"],
+      "hintWords": ["j'aime le café", "cependant je n'en bois pas beaucoup"],
+      "strictAccents": true,
+      "audio": "J'aime le café, cependant je n'en bois pas beaucoup.",
+      "explain": "Cependant, un conector formal de contraste."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "Ella es tímida, mientras que su hermano es muy extrovertido.",
+      "accept": ["Elle est timide, alors que son frère est très sociable"],
+      "hintWords": ["elle est timide", "alors que son frère est très sociable"],
+      "strictAccents": true,
+      "audio": "Elle est timide, alors que son frère est très sociable.",
+      "explain": "Alors que contrasta dos características al mismo tiempo."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "Completa con el conector correcto",
+      "text": "Il pleut, ___ je vais sortir quand même, ___ mon frère préfère rester à la maison.",
+      "blanks": [{ "accept": ["cependant"] }, { "accept": ["alors que"] }],
+      "bank": ["cependant", "alors que", "donc"],
+      "explain": "Cependant (contraste general) y alors que (contraste simultáneo)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «A pesar de eso, seguimos adelante»",
+      "tokens": ["nous continuons", "Malgré cela"],
+      "answer": ["Malgré cela", "nous continuons"],
+      "audio": "Malgré cela, nous continuons.",
+      "explain": "Malgré cela mira hacia algo ya mencionado antes."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "J'aime beaucoup ce restaurant, par contre les prix sont un peu élevés.",
+      "accept": ["Me gusta mucho este restaurante, pero los precios son un poco elevados."],
+      "strictAccents": false,
+      "audio": "J'aime beaucoup ce restaurant, par contre les prix sont un peu élevés.",
+      "explain": "Par contre, un conector informal de contraste."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación contrastando tu opinión",
+      "turns": [
+        { "who": "Léa", "text": "Tu aimes ce film ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, cependant la fin m'a déçu.", "J'aime bien, par contre c'est un peu long."], "hint": "usa un conector de contraste" },
+        { "who": "Léa", "text": "Je vois ce que tu veux dire.", "speak": true }
+      ],
+      "explain": "Repaso combinado de los conectores de contraste."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "speak": "J'aime le café, cependant je n'en bois pas beaucoup, et par contre je préfère le thé le soir.",
+      "mode": "write",
+      "accept": ["J'aime le café, cependant je n'en bois pas beaucoup, et par contre je préfère le thé le soir"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de cependant y par contre."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 1,
+      "speak": "néanmoins",
+      "mode": "choose",
+      "options": ["cependant", "néanmoins", "par contre", "alors que"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Néanmoins es un conector de contraste muy formal."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 3,
+      "speak": "J'aime le café, cependant je n'en bois pas beaucoup. Elle est timide, alors que son frère est très sociable. Malgré cela, ils s'entendent bien.",
+      "es": "Me gusta el café, sin embargo no bebo mucho. Ella es tímida, mientras que su hermano es muy extrovertido. A pesar de eso, se llevan bien.",
+      "ipa": "/ʒɛm lə ka.fe sə.pɑ̃.dɑ̃ ʒə nɑ̃ bwa pa bo.ku ɛl ɛ ti.mid a.lɔʁ kə sɔ̃ fʁɛʁ ɛ tʁɛ sɔ.sjabl mal.gʁe sə.la il.z‿ɑ̃.tɑ̃d bjɛ̃/",
+      "esApprox": "«sheM le ka-FÉ se-pan-DAN ye nan buá pa bo-KÚ el e ti-MÍD a-LOR ke son FRER e tre so-SIÁBL mal-GRÉ se-LA il-zan-TAND bien»",
+      "focus": "Tres conectores de contraste distintos en una narración encadenada.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "Contrasta dos ideas usando cependant o par contre.",
+      "modelAnswer": "J'aime le café, cependant je n'en bois pas beaucoup.",
+      "alsoValid": ["Elle est timide, alors que son frère est très sociable."],
+      "speak": "J'aime le café, cependant je n'en bois pas beaucoup.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "¿Es formal o informal?",
+      "buckets": ["Formal", "Informal"],
+      "items": [
+        { "text": "cependant", "bucket": 0 },
+        { "text": "par contre", "bucket": 1 },
+        { "text": "néanmoins", "bucket": 0 },
+        { "text": "mais", "bucket": 1 }
+      ],
+      "explain": "Cependant y néanmoins son formales; par contre y mais son más coloquiales."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["conectores", "contraste"],
+      "difficulty": 2,
+      "prompt": "Hay un error: para expresar contraste hace falta cependant, no donc. Corrige la frase entera.",
+      "wrong": "Il pleut, donc je vais sortir quand même.",
+      "accept": ["Il pleut, cependant je vais sortir quand même"],
+      "audio": "Il pleut, cependant je vais sortir quand même.",
+      "explain": "Salir a pesar de la lluvia es un contraste (cependant), no una consecuencia (donc)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "cependant", "es": "sin embargo", "esApprox": "«se-pan-DAN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "en revanche", "es": "en cambio", "esApprox": "«an re-VANSH»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "par contre", "es": "en cambio, por el contrario", "esApprox": "«par KONTR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "néanmoins", "es": "no obstante", "esApprox": "«ne-an-MUÍN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "alors que", "es": "mientras que", "esApprox": "«a-LOR ke»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "malgré cela", "es": "a pesar de eso", "esApprox": "«mal-GRÉ se-LA»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "J'aime le café, cependant je n'en bois pas beaucoup.", "es": "Me gusta el café; sin embargo, no bebo mucho.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Elle est timide, alors que son frère est très sociable.", "es": "Ella es tímida, mientras que su hermano es muy extrovertido.", "from": "e7" }
+  ]
+}

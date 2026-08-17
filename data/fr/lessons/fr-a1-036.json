@@ -1,0 +1,260 @@
+{
+  "id": "fr-a1-036",
+  "lang": "fr",
+  "level": "A1",
+  "order": 36,
+  "title": "Aller à: las contracciones au, à la, aux",
+  "objectives": [
+    "Contraer obligatoriamente à + le → au y à + les → aux",
+    "Reconocer que à + la y à + l' NO se contraen nunca",
+    "Usar aller à + lugar para decir a dónde vas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "À + le y à + les se funden en una palabra",
+      "body": "Cuando la preposición à (a) se encuentra con el artículo definido le o les, las dos palabras se funden en una sola: à + le = **au**, à + les = **aux**. Con la y l', no pasa nada especial: se quedan tal cual.",
+      "examples": [
+        { "target": "Je vais au travail.", "es": "Voy al trabajo.", "note": "à + le travail = au travail" },
+        { "target": "Je vais à la maison.", "es": "Voy a casa.", "note": "à + la maison: no se contrae" },
+        { "target": "Je vais à l'école.", "es": "Voy al colegio.", "note": "à + l'école: no se contrae" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cuándo se contrae y cuándo no",
+      "headers": ["à + artículo", "Resultado", "Ejemplo"],
+      "rows": [
+        ["à + le", "au (se contrae)", "au travail, au Japon"],
+        ["à + la", "à la (no cambia)", "à la maison, à la gare"],
+        ["à + l'", "à l' (no cambia)", "à l'école, à l'appartement"],
+        ["à + les", "aux (se contrae)", "aux États-Unis"]
+      ],
+      "note": "Es exactamente el mismo patrón que verás con de + artículo en la clase 37 (du, de la, de l', des)."
+    },
+    {
+      "type": "contrast",
+      "title": "«À la» nunca se contrae, aunque lo parezca",
+      "items": [
+        { "wrong": "à + la maison → «al maison»", "right": "à la maison, sin ningún cambio", "why": "Solo le y les se funden con à. La y l' se quedan exactamente igual: à la, à l'. Es un error muy tentador para un hispanohablante, que sí tiene la contracción «al» (a + el)." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "À la maison es la forma habitual de decir «en casa» o «a casa» en francés, mucho más que j'habite à la maison (que sonaría raro, como insistir en que vives «en la casa»). Aller à la maison = ir a casa; être à la maison = estar en casa."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "au (à + le)", "es": "al (contracción)", "ipa": "/o/", "esApprox": "«o»", "pos": "expresión", "gender": null, "example": { "target": "Je vais au travail.", "es": "Voy al trabajo." } },
+    { "id": "v2", "target": "à la", "es": "a la (sin contraer)", "ipa": "/a la/", "esApprox": "«a la»", "pos": "expresión", "gender": null, "example": { "target": "Je vais à la gare.", "es": "Voy a la estación." } },
+    { "id": "v3", "target": "à l'", "es": "a el/la (sin contraer, ante vocal)", "ipa": "/a l/", "esApprox": "«al»", "pos": "expresión", "gender": null, "example": { "target": "Je vais à l'école.", "es": "Voy al colegio." } },
+    { "id": "v4", "target": "aux (à + les)", "es": "a los/las (contracción)", "ipa": "/o/", "esApprox": "«o»", "pos": "expresión", "gender": null, "example": { "target": "Je pense aux vacances.", "es": "Pienso en las vacaciones." } },
+    { "id": "v5", "target": "le travail", "es": "el trabajo", "ipa": "/lə tʁa.vaj/", "esApprox": "«le tra-VÁY»", "pos": "sustantivo", "gender": "m", "plural": "les travaux", "example": { "target": "Le travail est intéressant.", "es": "El trabajo es interesante." } },
+    { "id": "v6", "target": "à la maison", "es": "en casa, a casa", "ipa": "/a la mɛ.zɔ̃/", "esApprox": "«a la me-ZÓN»", "pos": "expresión", "gender": null, "example": { "target": "Je reste à la maison.", "es": "Me quedo en casa." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["contracciones"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se contrae à + le?",
+      "options": ["au", "à le", "al", "aux"],
+      "answer": 0,
+      "explain": "À + le = au."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "¿Cómo queda à + la?",
+      "options": ["au", "à la", "al", "ala"],
+      "answer": 1,
+      "explain": "À + la no se contrae nunca: à la."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "statement": "À + les se contrae en aux.",
+      "answer": true,
+      "explain": "À + les = aux, igual que à + le = au."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones NO se contrae, a diferencia de las demás?",
+      "options": ["au travail", "à la maison", "aux États-Unis", "au Japon"],
+      "answer": 1,
+      "explain": "À la maison no se contrae; las otras tres sí (au, aux)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Une cada combinación con su resultado",
+      "left": ["à + le", "à + la", "à + l'", "à + les"],
+      "right": ["aux", "à l'", "au", "à la"],
+      "answer": [2, 3, 1, 0],
+      "explain": "À+le=au, à+la=à la, à+l'=à l', à+les=aux."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Voy al trabajo y después a casa.",
+      "accept": ["Je vais au travail et après à la maison"],
+      "hintWords": ["au travail", "à la maison"],
+      "strictAccents": false,
+      "audio": "Je vais au travail et après à la maison.",
+      "explain": "Au travail (contrae) frente a à la maison (no contrae)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Vamos al colegio y ella va a la estación.",
+      "accept": ["Nous allons à l'école et elle va à la gare"],
+      "hintWords": ["à l'école", "à la gare"],
+      "strictAccents": false,
+      "audio": "Nous allons à l'école et elle va à la gare.",
+      "explain": "À l'école y à la gare: ninguna de las dos se contrae."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Completa con au, à la, à l' o aux",
+      "text": "Je vais ___ travail, puis ___ école, puis ___ États-Unis.",
+      "blanks": [{ "accept": ["au"] }, { "accept": ["à l'"] }, { "accept": ["aux"] }],
+      "bank": ["au", "à la", "à l'", "aux"],
+      "explain": "Au travail (masc.), à l'école (vocal), aux États-Unis (plural)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Me quedo en casa»",
+      "tokens": ["maison", "Je", "reste", "à la"],
+      "answer": ["Je", "reste", "à la", "maison"],
+      "audio": "Je reste à la maison.",
+      "explain": "À la maison, sin contraer."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["contracciones"],
+      "difficulty": 1,
+      "prompt": "Le travail est intéressant, mais je préfère être à la maison.",
+      "accept": ["El trabajo es interesante, pero prefiero estar en casa."],
+      "strictAccents": false,
+      "audio": "Le travail est intéressant, mais je préfère être à la maison.",
+      "explain": "Être à la maison = estar en casa."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre a dónde vas",
+      "turns": [
+        { "who": "Léa", "text": "Tu vas où ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je vais au travail.", "Je vais à l'école."], "hint": "di a dónde vas" },
+        { "who": "Léa", "text": "D'accord, à ce soir !", "speak": true }
+      ],
+      "explain": "Aller + à/au/à la/à l' + lugar."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "speak": "Je vais au travail à pied.",
+      "mode": "write",
+      "accept": ["Je vais au travail à pied"],
+      "showTextAfter": true,
+      "explain": "Au travail: à+le contraído."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "speak": "à la maison",
+      "mode": "choose",
+      "options": ["à la maison", "au maison", "al maison", "aux maison"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "À la maison es la única forma correcta: la nunca se contrae."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["contracciones"],
+      "difficulty": 3,
+      "speak": "Je vais au travail, puis à l'école, puis à la maison.",
+      "es": "Voy al trabajo, luego al colegio, luego a casa.",
+      "ipa": "/ʒə vɛ o tʁa.vaj pɥi a le.kɔl pɥi a la mɛ.zɔ̃/",
+      "esApprox": "«ye vé o tra-VÁY püí a le-KOL püí a la me-ZÓN»",
+      "focus": "Au (contraído) frente a à l' y à la (sin contraer): tres destinos, tres formas distintas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Di que vas al trabajo y luego a casa.",
+      "modelAnswer": "Je vais au travail, puis à la maison.",
+      "alsoValid": ["Je vais au travail et après à la maison."],
+      "speak": "Je vais au travail, puis à la maison.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "¿Esta combinación se contrae o no?",
+      "buckets": ["Se contrae", "No se contrae"],
+      "items": [
+        { "text": "à + le", "bucket": 0 },
+        { "text": "à + la", "bucket": 1 },
+        { "text": "à + les", "bucket": 0 },
+        { "text": "à + l'", "bucket": 1 }
+      ],
+      "explain": "Solo le y les se funden con à; la y l' se quedan igual."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error de contracción. Corrige la frase entera.",
+      "wrong": "Je vais à le travail.",
+      "accept": ["Je vais au travail"],
+      "audio": "Je vais au travail.",
+      "explain": "À + le se contrae siempre en au: nunca se dice «à le»."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "au (à + le)", "es": "al", "esApprox": "«o»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "à la", "es": "a la", "esApprox": "«a la»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "à l'", "es": "a el/la", "esApprox": "«al»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "aux (à + les)", "es": "a los/las", "esApprox": "«o»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "le travail", "es": "el trabajo", "esApprox": "«le tra-VÁY»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "à la maison", "es": "en casa, a casa", "esApprox": "«a la me-ZÓN»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je vais au travail, puis à la maison.", "es": "Voy al trabajo, luego a casa.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Le travail est intéressant, mais je préfère être à la maison.", "es": "El trabajo es interesante, pero prefiero estar en casa.", "from": "e10" },
+    { "id": "s9", "kind": "phrase", "target": "Je vais au travail, puis à l'école, puis à la maison.", "es": "Voy al trabajo, luego al colegio, luego a casa.", "from": "e14" }
+  ]
+}

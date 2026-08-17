@@ -1,0 +1,256 @@
+{
+  "id": "fr-a2-115",
+  "lang": "fr",
+  "level": "A2",
+  "order": 115,
+  "title": "Combinar dos pronombres en la misma frase: el orden que no falla",
+  "objectives": [
+    "Aplicar el orden fijo de los pronombres: me/te/se/nous/vous, luego le/la/les, luego lui/leur, luego y, luego en",
+    "Combinar un COD con un COI en la misma frase: il le lui donne",
+    "Reconocer la expresión fija il y en a (hay de eso)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un orden que nunca cambia",
+      "body": "Cuando dos pronombres van juntos delante del verbo, siempre siguen este orden: me/te/se/nous/vous, luego le/la/les, luego lui/leur, luego y, luego en. Aprender el orden de memoria evita muchos errores.",
+      "examples": [
+        { "target": "Tu me donnes le livre ? Oui, je te le donne.", "es": "¿Me das el libro? Sí, te lo doy.", "note": "te (persona) + le (cosa)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El orden fijo de los pronombres",
+      "headers": ["1º", "2º", "3º", "4º", "5º"],
+      "rows": [
+        ["me/te/se/nous/vous", "le/la/les", "lui/leur", "y", "en"]
+      ],
+      "note": "Cuantos más pronombres uses juntos, más siguen este orden estricto, sin excepciones."
+    },
+    {
+      "type": "table",
+      "title": "Combinaciones más frecuentes",
+      "headers": ["Combinación", "Ejemplo"],
+      "rows": [
+        ["te + le/la/les", "Je te le donne."],
+        ["le/la/les + lui/leur", "Il le lui donne."],
+        ["y + en", "Il y en a beaucoup."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Il y en a es una expresión fijísima que verás constantemente: significa «hay (de eso)». Il y a du pain ? Oui, il y en a. (¿Hay pan? Sí, hay.)"
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je te le donne", "es": "te lo doy", "ipa": "/ʒə tə lə dɔn/", "esApprox": "«ye te le DON»", "pos": "expresión", "gender": null, "example": { "target": "Tu veux ce livre ? Je te le donne.", "es": "¿Quieres este libro? Te lo doy." } },
+    { "id": "v2", "target": "il le lui donne", "es": "se lo da (a él/ella)", "ipa": "/il lə lɥi dɔn/", "esApprox": "«il le lüí DON»", "pos": "expresión", "gender": null, "example": { "target": "Il le lui donne demain.", "es": "Se lo da mañana." } },
+    { "id": "v3", "target": "il y en a", "es": "hay (de eso)", "ipa": "/il i.ɑ̃.n‿a/", "esApprox": "«il yan-NA»", "pos": "expresión", "gender": null, "example": { "target": "Il y a du pain ? Oui, il y en a.", "es": "¿Hay pan? Sí, hay." } },
+    { "id": "v4", "target": "il n'y en a pas", "es": "no hay (de eso)", "ipa": "/il njɑ̃.n‿a pa/", "esApprox": "«il nian-na PA»", "pos": "expresión", "gender": null, "example": { "target": "Il n'y en a plus.", "es": "Ya no hay." } },
+    { "id": "v5", "target": "donner", "es": "dar", "ipa": "/dɔ.ne/", "esApprox": "«do-NÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je te le donne.", "es": "Te lo doy." } },
+    { "id": "v6", "target": "prêter", "es": "prestar", "ipa": "/pʁɛ.te/", "esApprox": "«pre-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je te le prête.", "es": "Te lo presto." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres", "doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el orden correcto de te y le?",
+      "options": ["le te", "te le", "les te", "y te"],
+      "answer": 1,
+      "explain": "Me/te/se/nous/vous va antes de le/la/les."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres", "doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «hay (de eso)»?",
+      "options": ["il en y a", "il y en a", "il a y en", "il y a en"],
+      "answer": 1,
+      "explain": "Il y en a: y antes de en, expresión fija."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "statement": "El orden me/te/se/nous/vous, le/la/les, lui/leur, y, en no tiene excepciones.",
+      "answer": true,
+      "explain": "Es un orden estricto que siempre se respeta."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "statement": "Le/la/les va antes de lui/leur cuando se combinan.",
+      "answer": true,
+      "explain": "Il le lui donne: le (COD) antes de lui (COI)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "Une cada combinación con su ejemplo",
+      "left": ["te + le", "le + lui", "y + en"],
+      "right": ["Il y en a.", "Je te le donne.", "Il le lui donne."],
+      "answer": [1, 2, 0],
+      "explain": "Te le, le lui, y en: tres combinaciones frecuentes."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "¿Me das el libro? Sí, te lo doy.",
+      "accept": ["Tu me donnes le livre ? Oui, je te le donne"],
+      "hintWords": ["tu me donnes le livre", "je te le donne"],
+      "strictAccents": true,
+      "audio": "Tu me donnes le livre ? Oui, je te le donne.",
+      "explain": "Te (persona) + le (cosa)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "¿Hay pan? Sí, hay.",
+      "accept": ["Il y a du pain ? Oui, il y en a"],
+      "hintWords": ["il y a du pain", "il y en a"],
+      "strictAccents": true,
+      "audio": "Il y a du pain ? Oui, il y en a.",
+      "explain": "Il y en a: expresión fija con y + en."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto",
+      "text": "Il donne le livre à Léa ? Oui, il ___ donne.",
+      "blanks": [{ "accept": ["le lui"] }],
+      "bank": ["le lui", "lui le", "la lui"],
+      "explain": "Le (COD, le livre) antes de lui (COI, à Léa): le lui donne."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Se lo da mañana»",
+      "tokens": ["demain", "Il le lui donne"],
+      "answer": ["Il le lui donne", "demain"],
+      "audio": "Il le lui donne demain.",
+      "explain": "Il le lui donne + demain."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "Tu veux ce livre ? Je te le prête, mais je n'en ai qu'un exemplaire.",
+      "accept": ["¿Quieres este libro? Te lo presto, pero solo tengo un ejemplar."],
+      "strictAccents": false,
+      "audio": "Tu veux ce livre ? Je te le prête, mais je n'en ai qu'un exemplaire.",
+      "explain": "Te le (préstamo) + en (cantidad limitada, ne...que)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre prestar algo",
+      "turns": [
+        { "who": "Léa", "text": "Tu me prêtes ton livre ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je te le prête.", "Non, je ne te le prête pas."], "hint": "usa te le" },
+        { "who": "Léa", "text": "Merci !", "speak": true }
+      ],
+      "explain": "Tu me prêtes...? se responde con te le (persona + cosa)."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "speak": "Je te le donne, et il y en a beaucoup, alors je t'en donne encore.",
+      "mode": "write",
+      "accept": ["Je te le donne, et il y en a beaucoup, alors je t'en donne encore"],
+      "showTextAfter": true,
+      "explain": "Te le y t'en, dos combinaciones distintas."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["doble-pronombre"],
+      "difficulty": 1,
+      "speak": "il y en a",
+      "mode": "choose",
+      "options": ["il en y a", "il y en a", "il y a en", "il a y en"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Il y en a = hay (de eso)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["doble-pronombre"],
+      "difficulty": 3,
+      "speak": "Tu veux du pain ? Il y en a. Tu veux ce livre ? Je te le donne. Il le lui donne aussi.",
+      "es": "¿Quieres pan? Hay. ¿Quieres este libro? Te lo doy. Se lo da a él también.",
+      "ipa": "/ty vø dy pɛ̃ i.li.ɑ̃.n‿a ty vø sə livʁ ʒə tə lə dɔn il lə lɥi dɔn o.si/",
+      "esApprox": "«tü veu dü PEN il-yan-NA tü veu se LIVR ye te le DON il le lüí DON o-SÍ»",
+      "focus": "Tres combinaciones de pronombres en una conversación breve.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "Di si prestas o das algo a alguien, usando dos pronombres juntos.",
+      "modelAnswer": "Je te le prête, mais je le lui donne aussi parfois.",
+      "alsoValid": ["Il y en a beaucoup, je te le donne."],
+      "speak": "Je te le prête, mais je le lui donne aussi parfois.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "¿Qué combinación de pronombres es?",
+      "buckets": ["persona + cosa", "y + en"],
+      "items": [
+        { "text": "je te le donne", "bucket": 0 },
+        { "text": "il y en a", "bucket": 1 },
+        { "text": "il le lui donne", "bucket": 0 },
+        { "text": "il n'y en a pas", "bucket": 1 }
+      ],
+      "explain": "Te le / le lui son persona + cosa; y en es la expresión de existencia."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["doble-pronombre"],
+      "difficulty": 2,
+      "prompt": "Hay un error de orden. Corrige la frase entera.",
+      "wrong": "Je le te donne.",
+      "accept": ["Je te le donne"],
+      "audio": "Je te le donne.",
+      "explain": "Te (persona) va antes de le (cosa), no al revés."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je te le donne", "es": "te lo doy", "esApprox": "«ye te le DON»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "il le lui donne", "es": "se lo da (a él/ella)", "esApprox": "«il le lüí DON»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "il y en a", "es": "hay (de eso)", "esApprox": "«il yan-NA»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "il n'y en a pas", "es": "no hay (de eso)", "esApprox": "«il nian-na PA»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "prêter", "es": "prestar", "esApprox": "«pre-TÉ»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "Tu me donnes le livre ? Oui, je te le donne.", "es": "¿Me das el libro? Sí, te lo doy.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Il y a du pain ? Oui, il y en a.", "es": "¿Hay pan? Sí, hay.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Il le lui donne demain.", "es": "Se lo da mañana.", "from": "e9" }
+  ]
+}

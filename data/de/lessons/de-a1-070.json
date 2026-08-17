@@ -1,0 +1,92 @@
+{
+  "id": "de-a1-070",
+  "lang": "de",
+  "level": "A1",
+  "order": 70,
+  "title": "Contar qué hiciste el fin de semana",
+  "objectives": [
+    "Preguntar y responder qué hizo alguien el fin de semana usando el Perfekt",
+    "Usar expresiones de tiempo pasado como am Wochenende, gestern, letzte Woche",
+    "Mantener una mini-conversación completa sobre planes pasados"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Was hast du am Wochenende gemacht?",
+      "body": "Ahora que conoces el Perfekt (clases 65-68) y el Präteritum de sein/haben (clase 69), puedes contar tu fin de semana. La pregunta típica es «Was hast du am Wochenende gemacht?» (¿Qué hiciste el fin de semana?). Para responder, combina expresiones de tiempo con el Perfekt: «Am Wochenende habe ich...» + participio al final.",
+      "examples": [
+        { "target": "Was hast du am Wochenende gemacht?", "es": "¿Qué hiciste el fin de semana?" },
+        { "target": "Am Wochenende habe ich Fußball gespielt.", "es": "El fin de semana jugué al fútbol." },
+        { "target": "Ich war zu Hause und habe ferngesehen.", "es": "Estuve en casa y vi la tele." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Expresiones de tiempo pasado útiles",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["am Wochenende", "el fin de semana"],
+        ["gestern", "ayer"],
+        ["letzte Woche", "la semana pasada"],
+        ["am Samstag / am Sonntag", "el sábado / el domingo"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Combina lo que ya sabes: sein-Perfekt para movimiento (ich bin gefahren), haben-Perfekt para el resto (ich habe gespielt), y war/hatte cuando describas tu estado (ich war müde, ich hatte Zeit)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "am Wochenende", "es": "el fin de semana", "ipa": "/am ˈvɔxn̩ˌʔɛndə/", "esApprox": "«am VO-jen-en-de»", "pos": "expresión", "gender": null, "example": { "target": "Was hast du am Wochenende gemacht?", "es": "¿Qué hiciste el fin de semana?" } },
+    { "id": "v2", "target": "gestern", "es": "ayer", "ipa": "/ˈɡɛstɐn/", "esApprox": "«GUÉS-tern»", "pos": "adverbio", "gender": null, "example": { "target": "Gestern habe ich gearbeitet.", "es": "Ayer trabajé." } },
+    { "id": "v3", "target": "letzte Woche", "es": "la semana pasada", "ipa": "/ˈlɛtstə ˈvɔxə/", "esApprox": "«LETS-te VO-je»", "pos": "expresión", "gender": null, "example": { "target": "Letzte Woche war ich in Berlin.", "es": "La semana pasada estuve en Berlín." } },
+    { "id": "v4", "target": "am Samstag", "es": "el sábado", "ipa": "/am ˈzamstaːk/", "esApprox": "«am ZÁMS-tak»", "pos": "expresión", "gender": null, "example": { "target": "Am Samstag habe ich eingekauft.", "es": "El sábado hice la compra." } },
+    { "id": "v5", "target": "das Wochenende", "es": "el fin de semana", "ipa": "/das ˈvɔxn̩ˌʔɛndə/", "esApprox": "«das VO-jen-en-de»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Wochenende war schön.", "es": "El fin de semana fue bonito." } },
+    { "id": "v6", "target": "treffen", "es": "quedar con, encontrarse con", "ipa": "/ˈtʁɛfn̩/", "esApprox": "«TRÉ-fen»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe Freunde getroffen.", "es": "Quedé con amigos." } },
+    { "id": "v7", "target": "spät", "es": "tarde", "ipa": "/ʃpɛːt/", "esApprox": "«shpét»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich bin spät aufgestanden.", "es": "Me levanté tarde." } },
+    { "id": "v8", "target": "entspannend", "es": "relajante", "ipa": "/ɛntˈʃpanənt/", "esApprox": "«ent-SHPÁ-nent»", "pos": "adjetivo", "gender": null, "example": { "target": "Das war entspannend.", "es": "Eso fue relajante." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["conversacion"], "difficulty": 1, "prompt": "¿Cómo se pregunta «¿Qué hiciste el fin de semana?»?", "options": ["Was machst du?", "Was hast du am Wochenende gemacht?", "Wo bist du?", "Wann kommst du?"], "answer": 1, "explain": "Was hast du am Wochenende gemacht? = Perfekt + expresión de tiempo." },
+    { "id": "e2", "type": "mcq", "tags": ["conversacion"], "difficulty": 2, "prompt": "«Ich habe Freunde getroffen» significa:", "options": ["Voy a quedar con amigos", "Quedé con amigos", "Tengo amigos", "Busco amigos"], "answer": 1, "explain": "getroffen: participio de treffen, en Perfekt = pasado." },
+    { "id": "e3", "type": "true_false", "tags": ["conversacion"], "difficulty": 1, "statement": "«letzte Woche» significa «la próxima semana».", "answer": false, "explain": "letzte Woche = la semana PASADA; la próxima es «nächste Woche»." },
+    { "id": "e4", "type": "true_false", "tags": ["conversacion"], "difficulty": 2, "statement": "«Ich bin spät aufgestanden» usa sein porque aufstehen es un verbo de cambio de estado.", "answer": true, "explain": "aufstehen (levantarse) va con sein en Perfekt, como los verbos de movimiento." },
+    { "id": "e5", "type": "match_pairs", "tags": ["conversacion"], "difficulty": 2, "prompt": "Une cada expresión con su traducción", "left": ["am Wochenende", "gestern", "letzte Woche", "am Samstag"], "right": ["el fin de semana", "ayer", "la semana pasada", "el sábado"], "answer": [0, 1, 2, 3], "explain": "Cuatro expresiones clave de tiempo pasado." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["conversacion"], "difficulty": 2, "prompt": "El fin de semana jugué al fútbol.", "accept": ["Am Wochenende habe ich Fußball gespielt"], "hintWords": ["am Wochenende habe ich Fußball gespielt"], "strictAccents": false, "audio": "Am Wochenende habe ich Fußball gespielt.", "explain": "am Wochenende (posición 1) + habe (posición 2) + ... + gespielt (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["conversacion"], "difficulty": 2, "prompt": "Quedé con amigos.", "accept": ["Ich habe Freunde getroffen"], "hintWords": ["ich habe Freunde getroffen"], "strictAccents": false, "audio": "Ich habe Freunde getroffen.", "explain": "habe...getroffen: Perfekt de treffen." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["conversacion"], "difficulty": 2, "prompt": "Me levanté tarde.", "accept": ["Ich bin spät aufgestanden"], "hintWords": ["ich bin spät aufgestanden"], "strictAccents": false, "audio": "Ich bin spät aufgestanden.", "explain": "bin...aufgestanden: Perfekt con sein, ge- en medio del verbo separable." },
+    { "id": "e9", "type": "fill_blank", "tags": ["conversacion"], "difficulty": 2, "prompt": "Completa: «El sábado hice la compra»", "text": "Am Samstag ___ ich ___.", "blanks": [{ "accept": ["habe"] }, { "accept": ["eingekauft"] }], "bank": ["habe", "eingekauft", "bin"], "explain": "Am Samstag habe ich eingekauft." },
+    { "id": "e10", "type": "word_order", "tags": ["conversacion"], "difficulty": 2, "prompt": "Ordena: «La semana pasada estuve en Berlín»", "tokens": ["war", "ich", "in Berlin", "Letzte Woche"], "answer": ["Letzte Woche", "war", "ich", "in Berlin"], "audio": "Letzte Woche war ich in Berlin.", "explain": "Expresión de tiempo en posición 1, war en posición 2." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["conversacion"], "difficulty": 2, "prompt": "Das war entspannend.", "accept": ["Eso fue relajante."], "strictAccents": false, "audio": "Das war entspannend.", "explain": "war + adjetivo: describir cómo fue algo." },
+    { "id": "e12", "type": "dialogue", "tags": ["conversacion"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lukas", "text": "Was hast du am Wochenende gemacht?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich habe Freunde getroffen.", "Ich habe Fußball gespielt."], "hint": "cuenta algo que hiciste" },
+      { "who": "Lukas", "text": "Klingt gut! Und war es entspannend?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, das war entspannend."], "hint": "responde que sí, que fue relajante" }
+    ], "explain": "Pregunta-respuesta típica sobre el fin de semana." },
+    { "id": "e13", "type": "listening", "tags": ["conversacion"], "difficulty": 1, "speak": "Was hast du am Wochenende gemacht?", "mode": "write", "accept": ["Was hast du am Wochenende gemacht"], "showTextAfter": true, "explain": "Pregunta clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["conversacion"], "difficulty": 2, "speak": "Ich bin spät aufgestanden.", "mode": "choose", "options": ["Ich bin spät aufgestanden.", "Ich habe spät aufgestanden.", "Ich war spät aufgestanden."], "answer": 0, "showTextAfter": true, "explain": "aufstehen va con sein, no con haben." },
+    { "id": "e15", "type": "shadowing", "tags": ["conversacion"], "difficulty": 2, "speak": "Am Wochenende habe ich Freunde getroffen und Fußball gespielt.", "es": "El fin de semana quedé con amigos y jugué al fútbol.", "ipa": "/am ˈvɔxn̩ˌʔɛndə ˈhaːbə ɪç ˈfʁɔʏ̯ndə ɡəˈtʁɔfn̩ ʊnt ˈfuːsbal ɡəˈʃpiːlt/", "esApprox": "«am VO-jen-en-de JÁ-be ich FROIN-de ge-TRO-fen unt FÚS-bal ge-SHPÍLT»", "focus": "Dos participios coordinados con und, ambos al final de la frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["conversacion"], "difficulty": 2, "speak": "Ich war zu Hause und habe ferngesehen.", "es": "Estuve en casa y vi la tele.", "ipa": "/ɪç vaːɐ̯ tsuː ˈhaʊ̯zə ʊnt ˈhaːbə ˈfɛʁnɡəzeːən/", "esApprox": "«ich var tsu JÁU-ze unt JÁ-be FERN-ge-zé-en»", "focus": "war (Präteritum de sein) combinado con habe...ferngesehen (Perfekt) en la misma frase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["conversacion"], "difficulty": 2, "prompt": "Te preguntan qué hiciste el fin de semana. Di que jugaste al fútbol y quedaste con amigos.", "modelAnswer": "Ich habe Fußball gespielt und Freunde getroffen.", "alsoValid": ["Am Wochenende habe ich Fußball gespielt und Freunde getroffen."], "speak": "Ich habe Fußball gespielt und Freunde getroffen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["conversacion"], "difficulty": 2, "prompt": "Clasifica: ¿usa haben o sein en Perfekt?", "buckets": ["haben", "sein"], "items": [
+      { "text": "getroffen", "bucket": 0 },
+      { "text": "aufgestanden", "bucket": 1 },
+      { "text": "gespielt", "bucket": 0 },
+      { "text": "ferngesehen", "bucket": 0 },
+      { "text": "gefahren", "bucket": 1 }
+    ], "explain": "treffen, spielen, fernsehen → haben; aufstehen, fahren → sein (movimiento/cambio de estado)." },
+    { "id": "e19", "type": "error_correction", "tags": ["conversacion"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe spät aufgestanden.", "accept": ["Ich bin spät aufgestanden"], "audio": "Ich bin spät aufgestanden.", "explain": "aufstehen usa sein, no haben." },
+    { "id": "e20", "type": "mcq", "tags": ["conversacion"], "difficulty": 2, "prompt": "«Am Wochenende bin ich spät aufgestanden. Ich habe Freunde getroffen und wir haben Fußball gespielt. Danach war ich müde und habe ferngesehen. Es war entspannend.» ¿Qué hizo la persona después de jugar al fútbol?", "options": ["Se acostó", "Vio la tele", "Salió otra vez", "Cocinó"], "answer": 1, "explain": "«habe ferngesehen» = vi la tele, después de estar cansado." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "am Wochenende", "es": "el fin de semana", "esApprox": "«am VO-jen-en-de»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "gestern", "es": "ayer", "esApprox": "«GUÉS-tern»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "letzte Woche", "es": "la semana pasada", "esApprox": "«LETS-te VO-je»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "treffen", "es": "quedar con, encontrarse con", "esApprox": "«TRÉ-fen»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "spät", "es": "tarde", "esApprox": "«shpét»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "Was hast du am Wochenende gemacht?", "es": "¿Qué hiciste el fin de semana?", "from": "e13" },
+    { "id": "s7", "kind": "phrase", "target": "Am Wochenende habe ich Freunde getroffen und Fußball gespielt.", "es": "El fin de semana quedé con amigos y jugué al fútbol.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich war zu Hause und habe ferngesehen.", "es": "Estuve en casa y vi la tele.", "from": "e16" }
+  ]
+}

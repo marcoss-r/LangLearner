@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-173",
+  "lang": "fr",
+  "level": "A2",
+  "order": 173,
+  "title": "Repaso activo XVII: expresarse con matices",
+  "objectives": [
+    "Repasar los adverbios de grado: un peu, assez, plutôt, presque, complètement, absolument",
+    "Combinar estos matices con las fórmulas de opinión y comparación del Bloque M",
+    "Practicar frases donde el matiz cambia el sentido completo de la opinión"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Matizar lo que dices",
+      "body": "Sin gramática nueva. Repasa los adverbios de grado y cómo, combinados con las fórmulas de opinión, acuerdo y comparación del Bloque M, cambian totalmente el matiz de una frase."
+    },
+    {
+      "type": "table",
+      "title": "Escala de matices",
+      "headers": ["Adverbio", "Fuerza", "Ejemplo"],
+      "rows": [
+        ["un peu", "matiz débil", "c'est un peu cher"],
+        ["assez", "matiz medio", "c'est assez intéressant"],
+        ["plutôt", "matiz de preferencia", "c'est plutôt bon"],
+        ["presque", "casi, no del todo", "c'est presque fini"],
+        ["complètement", "matiz total", "c'est complètement différent"],
+        ["absolument", "matiz de énfasis", "je suis absolument d'accord"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "El matiz cambia el sentido",
+      "body": "«C'est cher» y «c'est un peu cher» no dicen lo mismo: el segundo suaviza la crítica. Igual, «je suis d'accord» y «je suis absolument d'accord» no tienen la misma fuerza. Usa estos adverbios para sonar más natural."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "un peu", "es": "un poco", "ipa": "/œ̃ pø/", "esApprox": "«un PÖ»", "pos": "adverbio", "gender": null },
+    { "id": "v2", "target": "assez", "es": "bastante", "ipa": "/a.se/", "esApprox": "«a-SÉ»", "pos": "adverbio", "gender": null },
+    { "id": "v3", "target": "plutôt", "es": "más bien", "ipa": "/ply.to/", "esApprox": "«plü-TO»", "pos": "adverbio", "gender": null },
+    { "id": "v4", "target": "presque", "es": "casi", "ipa": "/pʁɛsk/", "esApprox": "«PRESK»", "pos": "adverbio", "gender": null },
+    { "id": "v5", "target": "complètement", "es": "completamente", "ipa": "/kɔ̃.plɛt.mɑ̃/", "esApprox": "«kon-plet-MAN»", "pos": "adverbio", "gender": null },
+    { "id": "v6", "target": "absolument", "es": "absolutamente", "ipa": "/ap.sɔ.ly.mɑ̃/", "esApprox": "«ap-so-lü-MAN»", "pos": "adverbio", "gender": null },
+    { "id": "v7", "target": "pas du tout", "es": "para nada", "ipa": "/pa dy tu/", "esApprox": "«pa dü TU»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "à mon avis", "es": "en mi opinión", "ipa": "/a mɔ̃.n‿a.vi/", "esApprox": "«a mon-na-VÍ»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "¿Cuál suaviza más la crítica: «c'est cher» o «c'est un peu cher»?",
+      "options": ["c'est cher", "c'est un peu cher", "las dos son iguales", "ninguna es una crítica"],
+      "answer": 1,
+      "explain": "Un peu suaviza el matiz de la crítica."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "¿Cuál expresa el acuerdo más fuerte?",
+      "options": ["je suis d'accord", "je suis absolument d'accord", "je suis un peu d'accord", "c'est presque d'accord"],
+      "answer": 1,
+      "explain": "Absolument añade el matiz de énfasis más fuerte."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "statement": "Presque significa que algo está completamente terminado.",
+      "answer": false,
+      "explain": "Presque significa casi, es decir, todavía no está completamente terminado."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "statement": "Pas du tout es una forma de decir que no, con más fuerza que simplemente non.",
+      "answer": true,
+      "explain": "Pas du tout refuerza la negación."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "Une cada adverbio con su fuerza",
+      "left": ["un peu", "complètement", "presque", "assez"],
+      "right": ["matiz medio", "casi, no del todo", "matiz total", "matiz débil"],
+      "answer": [3, 2, 1, 0],
+      "explain": "Un peu = débil, complètement = total, presque = casi, assez = medio."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["matices", "opinion"],
+      "difficulty": 2,
+      "prompt": "En mi opinión, este restaurante es más bien caro, pero la comida es bastante buena.",
+      "accept": ["À mon avis, ce restaurant est plutôt cher, mais la nourriture est assez bonne"],
+      "hintWords": ["à mon avis, ce restaurant est plutôt cher", "mais la nourriture est assez bonne"],
+      "strictAccents": true,
+      "audio": "À mon avis, ce restaurant est plutôt cher, mais la nourriture est assez bonne.",
+      "explain": "Combina à mon avis con dos matices distintos: plutôt y assez."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "No estoy de acuerdo para nada, esto es completamente diferente.",
+      "accept": ["Je ne suis pas du tout d'accord, c'est complètement différent"],
+      "hintWords": ["je ne suis pas du tout d'accord", "c'est complètement différent"],
+      "strictAccents": true,
+      "audio": "Je ne suis pas du tout d'accord, c'est complètement différent.",
+      "explain": "Pas du tout + complètement, dos matices de énfasis fuerte."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "Completa con el adverbio correcto",
+      "text": "Le film est ___ fini, il reste juste cinq minutes, et je suis ___ d'accord avec la critique.",
+      "blanks": [{ "accept": ["presque"] }, { "accept": ["absolument"] }],
+      "bank": ["presque", "absolument", "un peu"],
+      "explain": "Presque (casi terminado) + absolument (acuerdo fuerte)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Es bastante interesante, pero un poco largo»",
+      "tokens": ["mais un peu long", "C'est assez intéressant,"],
+      "answer": ["C'est assez intéressant,", "mais un peu long"],
+      "audio": "C'est assez intéressant, mais un peu long.",
+      "explain": "Assez y un peu combinados en una misma opinión matizada."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "À mon avis, ce livre est plutôt bon, mais la fin est presque décevante, donc je ne suis pas complètement satisfait.",
+      "accept": ["En mi opinión, este libro es más bien bueno, pero el final es casi decepcionante, así que no estoy completamente satisfecho."],
+      "strictAccents": false,
+      "audio": "À mon avis, ce livre est plutôt bon, mais la fin est presque décevante, donc je ne suis pas complètement satisfait.",
+      "explain": "Repaso combinado de varios matices en una opinión larga."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación dando una opinión matizada",
+      "turns": [
+        { "who": "Léa", "text": "Tu as aimé le film ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["C'était plutôt bon, mais un peu long.", "À mon avis, c'était assez intéressant."], "hint": "usa un adverbio de grado" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Repaso combinado de opinión y matices."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "speak": "À mon avis, c'est un peu cher, mais je suis presque d'accord avec toi, sauf que je ne suis pas du tout convaincu.",
+      "mode": "write",
+      "accept": ["À mon avis, c'est un peu cher, mais je suis presque d'accord avec toi, sauf que je ne suis pas du tout convaincu"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de varios matices en una sola frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["matices"],
+      "difficulty": 1,
+      "speak": "absolument",
+      "mode": "choose",
+      "options": ["assez", "absolument", "presque", "plutôt"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Absolument es el matiz de énfasis más fuerte."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["matices"],
+      "difficulty": 3,
+      "speak": "À mon avis, ce restaurant est plutôt bon, la nourriture est assez bonne, mais c'est un peu cher, donc je ne suis pas complètement convaincu.",
+      "es": "En mi opinión, este restaurante es más bien bueno, la comida es bastante buena, pero es un poco caro, así que no estoy completamente convencido.",
+      "ipa": "/a mɔ̃.n‿a.vi sə ʁɛs.to.ʁɑ̃ ɛ ply.to bɔ̃ la nu.ʁi.tyʁ ɛ.t‿a.se bɔn mɛ sɛ.t‿œ̃ pø ʃɛʁ dɔ̃k ʒə nə sɥi pa kɔ̃.plɛt.mɑ̃ kɔ̃.vɛ̃.ky/",
+      "esApprox": "«a mon-na-VÍ se res-to-RAN e plü-TO BON la nu-ri-TÜR e-ta-SÉ BON me se-tun PÖ SHER donk ye ne süí pa kon-plet-MAN kon-vin-KÜ»",
+      "focus": "Opinión larga con varios matices de grado encadenados.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "Da tu opinión sobre algo usando al menos tres adverbios de grado distintos.",
+      "modelAnswer": "À mon avis, ce film est plutôt bon, mais un peu long, et la fin est presque décevante.",
+      "alsoValid": ["Je suis absolument d'accord, mais ce n'est pas du tout parfait."],
+      "speak": "À mon avis, ce film est plutôt bon, mais un peu long, et la fin est presque décevante.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "¿Es un matiz débil/medio o un matiz fuerte/total?",
+      "buckets": ["Débil/medio", "Fuerte/total"],
+      "items": [
+        { "text": "un peu", "bucket": 0 },
+        { "text": "absolument", "bucket": 1 },
+        { "text": "assez", "bucket": 0 },
+        { "text": "complètement", "bucket": 1 }
+      ],
+      "explain": "Un peu y assez son matices débiles/medios; absolument y complètement son matices fuertes/totales."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "prompt": "Hay un error: presque no se usa igual que complètement. Corrige la frase entera.",
+      "wrong": "Le film est presque excellent, c'est le meilleur de l'année.",
+      "accept": ["Le film est complètement excellent, c'est le meilleur de l'année"],
+      "audio": "Le film est complètement excellent, c'est le meilleur de l'année.",
+      "explain": "Si es «el mejor del año», el matiz debe ser total (complètement), no parcial (presque)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "un peu", "es": "un poco", "esApprox": "«un PÖ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "assez", "es": "bastante", "esApprox": "«a-SÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "plutôt", "es": "más bien", "esApprox": "«plü-TO»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "presque", "es": "casi", "esApprox": "«PRESK»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "complètement", "es": "completamente", "esApprox": "«kon-plet-MAN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "absolument", "es": "absolutamente", "esApprox": "«ap-so-lü-MAN»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "À mon avis, ce restaurant est plutôt cher, mais la nourriture est assez bonne.", "es": "En mi opinión, este restaurante es más bien caro, pero la comida es bastante buena.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je ne suis pas du tout d'accord, c'est complètement différent.", "es": "No estoy de acuerdo para nada, esto es completamente diferente.", "from": "e7" }
+  ]
+}

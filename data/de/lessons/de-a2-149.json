@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-149",
+  "lang": "de",
+  "level": "A2",
+  "order": 149,
+  "title": "Ir de compras: consumo y precios",
+  "objectives": [
+    "Ampliar el vocabulario de compras: der Rabatt, reduziert, umtauschen, die Quittung",
+    "Probarte ropa y pedir una talla distinta: anprobieren, die Größe",
+    "Devolver o cambiar un artículo usando el vocabulario adecuado"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Rebajas y descuentos",
+      "body": "Der Rabatt (el descuento) y reduziert (rebajado) son palabras clave en las tiendas: «Dieser Pullover ist reduziert» (Este jersey está rebajado). Para probarte algo, usa anprobieren: «Kann ich das anprobieren?» (¿Puedo probármelo?).",
+      "examples": [
+        { "target": "Dieser Pullover ist reduziert.", "es": "Este jersey está rebajado." },
+        { "target": "Kann ich das anprobieren?", "es": "¿Puedo probármelo?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario para cambiar o devolver algo",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["umtauschen", "cambiar (un artículo)"],
+        ["zurückgeben", "devolver"],
+        ["die Quittung", "el recibo"],
+        ["die Größe", "la talla"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En Alemania, para devolver o cambiar un artículo casi siempre necesitas die Quittung (el recibo). Sin recibo, muchas tiendas no aceptan devoluciones, así que guárdalo siempre."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Rabatt", "es": "el descuento", "ipa": "/ʁaˈbat/", "esApprox": "«ra-BAT»", "pos": "sustantivo", "gender": "m", "example": { "target": "Gibt es Rabatt?", "es": "¿Hay descuento?" } },
+    { "id": "v2", "target": "reduziert", "es": "rebajado", "ipa": "/ʁeduˈtsiːɐ̯t/", "esApprox": "«re-du-TSIRT»", "pos": "adjetivo", "gender": null, "example": { "target": "Dieser Pullover ist reduziert.", "es": "Este jersey está rebajado." } },
+    { "id": "v3", "target": "anprobieren", "es": "probarse (ropa)", "ipa": "/ˈanpʁobiːʁən/", "esApprox": "«AN-pro-bí-ren»", "pos": "verbo", "gender": null, "example": { "target": "Kann ich das anprobieren?", "es": "¿Puedo probármelo?" } },
+    { "id": "v4", "target": "umtauschen", "es": "cambiar (un artículo)", "ipa": "/ˈʊmtaʊ̯ʃn̩/", "esApprox": "«UM-tau-shen»", "pos": "verbo", "gender": null, "example": { "target": "Ich möchte das umtauschen.", "es": "Quisiera cambiar esto." } },
+    { "id": "v5", "target": "die Quittung", "es": "el recibo", "ipa": "/ˈkvɪtʊŋ/", "esApprox": "«KVÍ-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Haben Sie die Quittung?", "es": "¿Tiene el recibo?" } },
+    { "id": "v6", "target": "die Größe", "es": "la talla", "ipa": "/ˈɡʁøːsə/", "esApprox": "«GRÖ-se»", "pos": "sustantivo", "gender": "f", "example": { "target": "Welche Größe brauchen Sie?", "es": "¿Qué talla necesita?" } },
+    { "id": "v7", "target": "zurückgeben", "es": "devolver", "ipa": "/tsuˈʁʏkɡeːbn̩/", "esApprox": "«tsu-RÜK-gue-ben»", "pos": "verbo", "gender": null, "example": { "target": "Ich möchte das zurückgeben.", "es": "Quisiera devolver esto." } },
+    { "id": "v8", "target": "passen", "es": "quedar bien, ir bien (talla)", "ipa": "/ˈpasn̩/", "esApprox": "«PÁ-sen»", "pos": "verbo", "gender": null, "example": { "target": "Das passt mir nicht.", "es": "Eso no me queda bien." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["compras"], "difficulty": 1, "prompt": "¿Cómo se dice «el descuento»?", "options": ["die Größe", "der Rabatt", "die Quittung", "reduziert"], "answer": 1, "explain": "der Rabatt = el descuento." },
+    { "id": "e2", "type": "mcq", "tags": ["compras"], "difficulty": 2, "prompt": "¿Cómo se dice «probarse (ropa)»?", "options": ["umtauschen", "anprobieren", "zurückgeben", "passen"], "answer": 1, "explain": "anprobieren = probarse ropa." },
+    { "id": "e3", "type": "true_false", "tags": ["compras"], "difficulty": 2, "statement": "En Alemania normalmente necesitas el recibo para cambiar un artículo.", "answer": true, "explain": "Die Quittung es casi siempre necesaria para devoluciones y cambios." },
+    { "id": "e4", "type": "true_false", "tags": ["compras"], "difficulty": 2, "statement": "«umtauschen» y «zurückgeben» significan exactamente lo mismo.", "answer": false, "explain": "umtauschen = cambiar (por otro artículo); zurückgeben = devolver (para que te reembolsen)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["compras"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Rabatt", "die Quittung", "die Größe", "passen"], "right": ["el descuento", "el recibo", "la talla", "quedar bien"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave del vocabulario de compras." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["compras"], "difficulty": 2, "prompt": "¿Puedo probármelo?", "accept": ["Kann ich das anprobieren?", "Kann ich das anprobieren"], "hintWords": ["kann ich das anprobieren"], "strictAccents": false, "audio": "Kann ich das anprobieren?", "explain": "kann + das + anprobieren (infinitivo al final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["compras"], "difficulty": 2, "prompt": "Quisiera cambiar esto.", "accept": ["Ich möchte das umtauschen"], "hintWords": ["ich möchte das umtauschen"], "strictAccents": false, "audio": "Ich möchte das umtauschen.", "explain": "möchte + das + umtauschen (infinitivo al final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["compras"], "difficulty": 2, "prompt": "Eso no me queda bien.", "accept": ["Das passt mir nicht"], "hintWords": ["das passt mir nicht"], "strictAccents": false, "audio": "Das passt mir nicht.", "explain": "passen + dativo (mir)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["compras"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Haben Sie die ___? Welche ___ brauchen Sie?", "blanks": [{ "accept": ["Quittung"] }, { "accept": ["Größe"] }], "bank": ["Quittung", "Größe", "Rabatt"], "explain": "die Quittung (el recibo); die Größe (la talla)." },
+    { "id": "e10", "type": "word_order", "tags": ["compras"], "difficulty": 2, "prompt": "Ordena: «Este jersey está rebajado»", "tokens": ["reduziert", "Dieser Pullover", "ist"], "answer": ["Dieser Pullover", "ist", "reduziert"], "audio": "Dieser Pullover ist reduziert.", "explain": "Dieser Pullover ist reduziert: sujeto-verbo-adjetivo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["compras"], "difficulty": 2, "prompt": "Ich möchte das zurückgeben.", "accept": ["Quisiera devolver esto."], "strictAccents": false, "audio": "Ich möchte das zurückgeben.", "explain": "zurückgeben = devolver." },
+    { "id": "e12", "type": "dialogue", "tags": ["compras"], "difficulty": 2, "prompt": "Completa la conversación en la tienda", "turns": [
+      { "who": "Verkäuferin", "text": "Kann ich Ihnen helfen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Kann ich das anprobieren?", "Ich möchte das umtauschen."], "hint": "pide probarte algo o cambiarlo" },
+      { "who": "Verkäuferin", "text": "Natürlich, hier entlang.", "speak": true }
+    ], "explain": "Diálogo típico en una tienda de ropa." },
+    { "id": "e13", "type": "listening", "tags": ["compras"], "difficulty": 1, "speak": "Kann ich das anprobieren?", "mode": "write", "accept": ["Kann ich das anprobieren"], "showTextAfter": true, "explain": "Pregunta clave para probarse ropa." },
+    { "id": "e14", "type": "listening", "tags": ["compras"], "difficulty": 2, "speak": "Ich möchte das umtauschen.", "mode": "choose", "options": ["Ich möchte das umtauschen.", "Ich möchte das anprobieren.", "Ich möchte das bezahlen."], "answer": 0, "showTextAfter": true, "explain": "umtauschen (cambiar) es distinto de anprobieren (probarse) y bezahlen (pagar)." },
+    { "id": "e15", "type": "shadowing", "tags": ["compras"], "difficulty": 2, "speak": "Dieser Pullover ist reduziert, aber ich muss die richtige Größe finden, bevor ich ihn kaufe.", "es": "Este jersey está rebajado, pero tengo que encontrar la talla correcta antes de comprarlo.", "ipa": "/ˈdiːzɐ ˈpʊlɔvɐ ɪst ʁeduˈtsiːɐ̯t ˈaːbɐ ɪç mʊs diː ˈʁɪçtɪɡə ˈɡʁøːsə ˈfɪndn̩ bəˈfoːɐ̯ ɪç iːn ˈkaʊ̯fə/", "esApprox": "«DÍ-zer PU-lo-ver ist re-du-TSIRT, Á-ber ich mus di RICH-ti-ge GRÖ-se FÍN-den, be-FOR ich in KÁU-fe»", "focus": "reduziert y bevor (clase 128, lo que pasa después: comprar).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["compras"], "difficulty": 2, "speak": "Das passt mir nicht, deshalb möchte ich es umtauschen, aber ich habe leider keine Quittung mehr.", "es": "Eso no me queda bien, por eso quisiera cambiarlo, pero por desgracia ya no tengo el recibo.", "ipa": "/das past miːɐ̯ nɪçt dɛsˈhalp ˈmœçtə ɪç ɛs ˈʊmtaʊ̯ʃn̩ ˈaːbɐ ɪç ˈhaːbə ˈlaɪ̯dɐ ˈkaɪ̯nə ˈkvɪtʊŋ meːɐ̯/", "esApprox": "«das past mir nicht, des-JALP MÖCH-te ich es UM-tau-shen, Á-ber ich JÁ-be LÁI-der KÁI-ne KVÍ-tung mer»", "focus": "deshalb (consecuencia, posición 1, clase 131) y keine Quittung mehr (ya no tengo recibo).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["compras"], "difficulty": 2, "prompt": "Estás en una tienda. Pregunta si puedes probarte algo.", "modelAnswer": "Kann ich das anprobieren?", "alsoValid": ["Darf ich das anprobieren?"], "speak": "Kann ich das anprobieren?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["compras"], "difficulty": 2, "prompt": "Clasifica cada palabra: en la tienda o después de comprar", "buckets": ["En la tienda", "Después de comprar"], "items": [
+      { "text": "anprobieren", "bucket": 0 },
+      { "text": "umtauschen", "bucket": 1 },
+      { "text": "die Größe", "bucket": 0 },
+      { "text": "zurückgeben", "bucket": 1 }
+    ], "explain": "anprobieren y die Größe ocurren en la tienda; umtauschen y zurückgeben ocurren después de comprar." },
+    { "id": "e19", "type": "error_correction", "tags": ["compras"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das passt mich nicht.", "accept": ["Das passt mir nicht"], "audio": "Das passt mir nicht.", "explain": "passen rige dativo (mir), no acusativo." },
+    { "id": "e20", "type": "mcq", "tags": ["compras"], "difficulty": 2, "prompt": "«Dieser Pullover ist reduziert, aber er passt mir nicht. Ich möchte ihn umtauschen, aber ich habe leider keine Quittung mehr.» ¿Qué problema tiene la persona?", "options": ["El jersey es muy caro", "No tiene el recibo para cambiarlo", "No le gusta el color", "No hay descuento"], "answer": 1, "explain": "«ich habe leider keine Quittung mehr» = por desgracia ya no tengo el recibo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Rabatt", "es": "el descuento", "esApprox": "«ra-BAT»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "reduziert", "es": "rebajado", "esApprox": "«re-du-TSIRT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "anprobieren", "es": "probarse (ropa)", "esApprox": "«AN-pro-bí-ren»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "umtauschen", "es": "cambiar (un artículo)", "esApprox": "«UM-tau-shen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Quittung", "es": "el recibo", "esApprox": "«KVÍ-tung»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Größe", "es": "la talla", "esApprox": "«GRÖ-se»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Dieser Pullover ist reduziert, aber ich muss die richtige Größe finden, bevor ich ihn kaufe.", "es": "Este jersey está rebajado, pero tengo que encontrar la talla correcta antes de comprarlo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Das passt mir nicht, deshalb möchte ich es umtauschen, aber ich habe leider keine Quittung mehr.", "es": "Eso no me queda bien, por eso quisiera cambiarlo, pero por desgracia ya no tengo el recibo.", "from": "e16" }
+  ]
+}

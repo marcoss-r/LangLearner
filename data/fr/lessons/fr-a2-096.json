@@ -1,0 +1,247 @@
+{
+  "id": "fr-a2-096",
+  "lang": "fr",
+  "level": "A2",
+  "order": 96,
+  "title": "Preguntas y negación en passé composé",
+  "objectives": [
+    "Combinar las palabras interrogativas (clase A1-22) con el passé composé",
+    "Aprender dos negaciones nuevas: ne...plus (ya no) y ne...que (solo)",
+    "Preguntar con qui, où, quand, pourquoi + passé composé, con est-ce que o inversión"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Preguntar en pasado con palabras interrogativas",
+      "body": "Ya sabes formar preguntas con qui, que, où, quand, comment, pourquoi (clase A1-22). En passé composé, estas palabras van al principio, seguidas de est-ce que o de la inversión con el auxiliar.",
+      "examples": [
+        { "target": "Où es-tu allé hier ? Qu'est-ce que tu as fait ?", "es": "¿Adónde fuiste ayer? ¿Qué hiciste?", "note": "où + inversión; qu'est-ce que + orden normal" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Dos negaciones nuevas",
+      "headers": ["Estructura", "Significado", "Ejemplo"],
+      "rows": [
+        ["ne...plus", "ya no", "Je n'ai plus faim."],
+        ["ne...que", "solo, solamente", "Je n'ai mangé qu'une pomme."]
+      ],
+      "note": "Como con ne...pas, ne...jamais y ne...rien (clases A1-19, A1-46, A1-81), estas negaciones rodean el auxiliar en passé composé."
+    },
+    {
+      "type": "tip",
+      "body": "Ne...que no es una negación real: no niega la frase, solo limita la cantidad. Je n'ai mangé qu'une pomme significa que comiste solo una manzana, no que no comiste nada."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "ne...plus", "es": "ya no", "ipa": "/nə ply/", "esApprox": "«ne PLÜ»", "pos": "expresión", "gender": null, "example": { "target": "Je n'ai plus faim.", "es": "Ya no tengo hambre." } },
+    { "id": "v2", "target": "ne...que", "es": "solo, solamente", "ipa": "/nə kə/", "esApprox": "«ne ke»", "pos": "expresión", "gender": null, "example": { "target": "Je n'ai mangé qu'une pomme.", "es": "Solo comí una manzana." } },
+    { "id": "v3", "target": "Où es-tu allé(e) ?", "es": "¿Adónde fuiste?", "ipa": "/u ɛ ty a.le/", "esApprox": "«u e tü a-LÉ»", "pos": "expresión", "gender": null, "example": { "target": "Où es-tu allé hier soir ?", "es": "¿Adónde fuiste anoche?" } },
+    { "id": "v4", "target": "Qu'est-ce que tu as fait ?", "es": "¿Qué hiciste?", "ipa": "/kɛs.kə ty a fɛ/", "esApprox": "«kes-ke tü a FE»", "pos": "expresión", "gender": null, "example": { "target": "Qu'est-ce que tu as fait ce week-end ?", "es": "¿Qué hiciste este fin de semana?" } },
+    { "id": "v5", "target": "Pourquoi n'as-tu pas... ?", "es": "¿Por qué no has...?", "ipa": "/puʁ.kwa na ty pa/", "esApprox": "«pur-KUÁ na tü pa»", "pos": "expresión", "gender": null, "example": { "target": "Pourquoi n'as-tu pas répondu ?", "es": "¿Por qué no has respondido?" } },
+    { "id": "v6", "target": "répondre", "es": "responder", "ipa": "/ʁe.pɔ̃dʁ/", "esApprox": "«re-PONDR»", "pos": "verbo", "gender": null, "example": { "target": "Je n'ai pas répondu.", "es": "No he respondido." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «ya no tengo hambre»?",
+      "options": ["Je n'ai pas faim.", "Je n'ai plus faim.", "Je n'ai que faim.", "Je n'ai jamais faim."],
+      "answer": 1,
+      "explain": "Ne...plus = ya no."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «solo comí una manzana»?",
+      "options": ["Je n'ai pas mangé une pomme.", "Je n'ai mangé qu'une pomme.", "Je n'ai plus mangé une pomme.", "Je n'ai jamais mangé une pomme."],
+      "answer": 1,
+      "explain": "Ne...que = solo, solamente."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "statement": "Ne...que no es una negación real: solo limita una cantidad.",
+      "answer": true,
+      "explain": "Ne...que indica «solamente», no niega la acción."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "statement": "Las palabras interrogativas van al principio de la pregunta en passé composé.",
+      "answer": true,
+      "explain": "Où es-tu allé ?, qu'est-ce que tu as fait ?: siempre al principio."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "Une cada negación con su significado",
+      "left": ["ne...pas", "ne...jamais", "ne...plus", "ne...que"],
+      "right": ["solo", "no", "nunca", "ya no"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Repaso de las negaciones ya conocidas más las dos nuevas de esta clase."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Adónde fuiste ayer? ¿Qué hiciste?",
+      "accept": ["Où es-tu allé hier ? Qu'est-ce que tu as fait ?"],
+      "hintWords": ["où es-tu allé hier", "qu'est-ce que tu as fait"],
+      "strictAccents": true,
+      "audio": "Où es-tu allé hier ? Qu'est-ce que tu as fait ?",
+      "explain": "Où + inversión, qu'est-ce que + orden normal."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "Ya no tengo hambre, solo comí una manzana.",
+      "accept": ["Je n'ai plus faim, je n'ai mangé qu'une pomme"],
+      "hintWords": ["je n'ai plus faim", "je n'ai mangé qu'une pomme"],
+      "strictAccents": true,
+      "audio": "Je n'ai plus faim, je n'ai mangé qu'une pomme.",
+      "explain": "Ne...plus + ne...que en la misma frase."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "Completa con la negación correcta",
+      "text": "Je n'ai ___ travaillé aujourd'hui, je suis fatigué.",
+      "blanks": [{ "accept": ["plus"] }],
+      "bank": ["plus", "que", "jamais"],
+      "explain": "Ne...plus travaillé = ya no he trabajado más."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la pregunta: «¿Por qué no has respondido?»",
+      "tokens": ["pas répondu", "Pourquoi n'as-tu", "?"],
+      "answer": ["Pourquoi n'as-tu", "pas répondu", "?"],
+      "audio": "Pourquoi n'as-tu pas répondu ?",
+      "explain": "Pourquoi + inversión negativa + participio."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Qu'est-ce que tu as fait ce week-end ? — Je n'ai fait que me reposer.",
+      "accept": ["¿Qué hiciste este fin de semana? —Solo descansé."],
+      "strictAccents": false,
+      "audio": "Qu'est-ce que tu as fait ce week-end ? — Je n'ai fait que me reposer.",
+      "explain": "Ne...que + infinitivo: solo descansar."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu fin de semana",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu as fait ce week-end ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je n'ai fait que me reposer.", "Je suis allé au cinéma."], "hint": "responde con passé composé" },
+        { "who": "Léa", "text": "Ah, sympa !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu as fait...? es la pregunta más habitual sobre el pasado reciente."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "speak": "Je n'ai plus faim, et je n'ai mangé qu'un fruit ce matin.",
+      "mode": "write",
+      "accept": ["Je n'ai plus faim, et je n'ai mangé qu'un fruit ce matin"],
+      "showTextAfter": true,
+      "explain": "Ne...plus y ne...que en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-compose"],
+      "difficulty": 1,
+      "speak": "Où es-tu allé ?",
+      "mode": "choose",
+      "options": ["Tu es allé où ?", "Où es-tu allé ?", "Où tu vas ?", "Es-tu où allé ?"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Où es-tu allé ? es la forma correcta con inversión."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 3,
+      "speak": "Qu'est-ce que tu as fait hier ? Je n'ai fait que travailler, et je n'ai plus le temps de sortir.",
+      "es": "¿Qué hiciste ayer? Solo trabajé, y ya no tengo tiempo de salir.",
+      "ipa": "/kɛs.kə ty a fɛ jɛʁ ʒə ne fɛ kə tʁa.vaj.e e ʒə nɛ ply lə tɑ̃ də sɔʁ.tiʁ/",
+      "esApprox": "«kes-ke tü a FE ier ye ne FE ke tra-va-YÉ e ye ne plü le TAN de sor-TIR»",
+      "focus": "Pregunta + dos negaciones nuevas (ne...que, ne...plus) en la misma respuesta.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Pregúntate a ti mismo qué hiciste ayer y respóndete.",
+      "modelAnswer": "Qu'est-ce que tu as fait hier ? Je n'ai fait que travailler.",
+      "alsoValid": ["Où es-tu allé ? Je suis allé au travail."],
+      "speak": "Qu'est-ce que tu as fait hier ? Je n'ai fait que travailler.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa esta negación?",
+      "buckets": ["No (niega)", "Ya no", "Solo (limita)"],
+      "items": [
+        { "text": "Je n'ai pas mangé.", "bucket": 0 },
+        { "text": "Je n'ai plus faim.", "bucket": 1 },
+        { "text": "Je n'ai mangé qu'une pomme.", "bucket": 2 },
+        { "text": "Je n'ai plus de temps.", "bucket": 1 }
+      ],
+      "explain": "Ne...pas niega, ne...plus indica «ya no», ne...que limita la cantidad."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "Hay un error de orden. Corrige la frase entera.",
+      "wrong": "Tu es allé où hier ?",
+      "accept": ["Où es-tu allé hier ?"],
+      "audio": "Où es-tu allé hier ?",
+      "explain": "Con inversión formal, la palabra interrogativa va al principio."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "ne...plus", "es": "ya no", "esApprox": "«ne PLÜ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "ne...que", "es": "solo, solamente", "esApprox": "«ne ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "Où es-tu allé(e) ?", "es": "¿Adónde fuiste?", "esApprox": "«u e tü a-LÉ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "Qu'est-ce que tu as fait ?", "es": "¿Qué hiciste?", "esApprox": "«kes-ke tü a FE»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "répondre", "es": "responder", "esApprox": "«re-PONDR»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "Où es-tu allé hier ? Qu'est-ce que tu as fait ?", "es": "¿Adónde fuiste ayer? ¿Qué hiciste?", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je n'ai plus faim, je n'ai mangé qu'une pomme.", "es": "Ya no tengo hambre, solo comí una manzana.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Pourquoi n'as-tu pas répondu ?", "es": "¿Por qué no has respondido?", "from": "e9" }
+  ]
+}

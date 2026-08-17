@@ -1,0 +1,254 @@
+{
+  "id": "fr-a2-119",
+  "lang": "fr",
+  "level": "A2",
+  "order": 119,
+  "title": "Los demostrativos ce, cet, cette, ces",
+  "objectives": [
+    "Usar ce, cet, cette y ces para señalar «este/esta/estos» delante de un sustantivo",
+    "Aplicar cet delante de un sustantivo masculino que empieza por vocal o h muda",
+    "Distinguir ce/cette/ces (adjetivo demostrativo) de c'est (clase A1-49)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Señalar con ce, cet, cette, ces",
+      "body": "Ce, cet, cette y ces son adjetivos demostrativos: van siempre delante de un sustantivo, como le/la/les (clase A1-11), pero significan «este/esta/estos» en vez de «el/la/los».",
+      "examples": [
+        { "target": "Ce livre est intéressant, mais cette histoire est un peu triste.", "es": "Este libro es interesante, pero esta historia es un poco triste.", "note": "ce (masc.) + cette (fem.)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las cuatro formas",
+      "headers": ["Forma", "Se usa con...", "Ejemplo"],
+      "rows": [
+        ["ce", "masculino singular (consonante)", "ce livre, ce quartier"],
+        ["cet", "masculino singular + vocal/h muda", "cet homme, cet ami"],
+        ["cette", "femenino singular", "cette histoire, cette femme"],
+        ["ces", "plural (masc. o fem.)", "ces livres, ces histoires"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Ce/cette/ces frente a c'est (clase A1-49)"
+      ,
+      "items": [
+        { "wrong": "Confundir cette (adjetivo) con c'est (identificación)", "right": "Cette histoire est triste. / C'est une histoire triste.", "why": "Cette va siempre delante de un sustantivo (cette histoire); c'est identifica algo, sin sustantivo justo después (c'est triste, c'est une histoire)." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "ce", "es": "este (masc. sing.)", "ipa": "/sə/", "esApprox": "«se»", "pos": "adjetivo", "gender": "m", "example": { "target": "Ce livre est intéressant.", "es": "Este libro es interesante." } },
+    { "id": "v2", "target": "cet", "es": "este (masc. sing. + vocal/h muda)", "ipa": "/sɛt/", "esApprox": "«SET»", "pos": "adjetivo", "gender": "m", "example": { "target": "Cet homme est mon voisin.", "es": "Este hombre es mi vecino." } },
+    { "id": "v3", "target": "cette", "es": "esta (fem. sing.)", "ipa": "/sɛt/", "esApprox": "«SET»", "pos": "adjetivo", "gender": "f", "example": { "target": "Cette histoire est triste.", "es": "Esta historia es triste." } },
+    { "id": "v4", "target": "ces", "es": "estos/estas (plural)", "ipa": "/se/", "esApprox": "«SE»", "pos": "adjetivo", "gender": null, "example": { "target": "Ces livres sont à moi.", "es": "Estos libros son míos." } },
+    { "id": "v5", "target": "un homme", "es": "un hombre", "ipa": "/œ̃.n‿ɔm/", "esApprox": "«un-NOM»", "pos": "sustantivo", "gender": "m", "example": { "target": "Cet homme travaille avec moi.", "es": "Este hombre trabaja conmigo." } },
+    { "id": "v6", "target": "une femme", "es": "una mujer", "ipa": "/yn fam/", "esApprox": "«ün FAM»", "pos": "sustantivo", "gender": "f", "example": { "target": "Cette femme est ma voisine.", "es": "Esta mujer es mi vecina." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta para «libro» (masculino, empieza por consonante)?",
+      "options": ["ce livre", "cet livre", "cette livre", "ces livre"],
+      "answer": 0,
+      "explain": "Ce + sustantivo masculino que empieza por consonante."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta para «hombre» (masculino, empieza por vocal)?",
+      "options": ["ce homme", "cet homme", "cette homme", "ces homme"],
+      "answer": 1,
+      "explain": "Cet + sustantivo masculino que empieza por vocal o h muda."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "statement": "Cet y cette se pronuncian igual, aunque se escriben distinto.",
+      "answer": true,
+      "explain": "Ambos suenan /sɛt/."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "statement": "Ces sirve tanto para plural masculino como para plural femenino.",
+      "answer": true,
+      "explain": "Ces no distingue género, solo número."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Une cada sustantivo con su demostrativo correcto",
+      "left": ["livre (m., consonante)", "homme (m., vocal)", "femme (f.)", "livres (pl.)"],
+      "right": ["ces", "ce", "cet", "cette"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Ce livre, cet homme, cette femme, ces livres."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Este libro es interesante, pero esta historia es un poco triste.",
+      "accept": ["Ce livre est intéressant, mais cette histoire est un peu triste"],
+      "hintWords": ["ce livre est intéressant", "cette histoire est un peu triste"],
+      "strictAccents": true,
+      "audio": "Ce livre est intéressant, mais cette histoire est un peu triste.",
+      "explain": "Ce (masc.) + cette (fem.)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Este hombre y esta mujer son mis vecinos.",
+      "accept": ["Cet homme et cette femme sont mes voisins"],
+      "hintWords": ["cet homme", "cette femme sont mes voisins"],
+      "strictAccents": true,
+      "audio": "Cet homme et cette femme sont mes voisins.",
+      "explain": "Cet (vocal) + cette (fem.)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Completa con el demostrativo correcto",
+      "text": "___ livres sont à moi, et ___ histoire est très intéressante.",
+      "blanks": [{ "accept": ["Ces"] }, { "accept": ["cette"] }],
+      "bank": ["Ces", "cette", "ce"],
+      "explain": "Ces (plural) + cette (fem. sing.)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Este hombre trabaja conmigo»",
+      "tokens": ["avec moi", "Cet homme travaille"],
+      "answer": ["Cet homme travaille", "avec moi"],
+      "audio": "Cet homme travaille avec moi.",
+      "explain": "Cet homme travaille + avec moi."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Ces livres sont intéressants, mais cet homme ne les aime pas.",
+      "accept": ["Estos libros son interesantes, pero este hombre no los quiere."],
+      "strictAccents": false,
+      "audio": "Ces livres sont intéressants, mais cet homme ne les aime pas.",
+      "explain": "Ces (plural) + cet (masc. + vocal)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre un libro",
+      "turns": [
+        { "who": "Léa", "text": "Tu connais ce livre ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, ce livre est très bon.", "Non, je ne connais pas ce livre."], "hint": "usa ce livre" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Ce livre? se responde con ce livre + opinión."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "speak": "Ce livre, cette histoire, et ces personnages sont vraiment intéressants.",
+      "mode": "write",
+      "accept": ["Ce livre, cette histoire, et ces personnages sont vraiment intéressants"],
+      "showTextAfter": true,
+      "explain": "Tres demostrativos distintos: ce, cette, ces."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["demostrativos"],
+      "difficulty": 1,
+      "speak": "cet homme",
+      "mode": "choose",
+      "options": ["ce homme", "cet homme", "cette homme", "ces homme"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Cet homme: masculino + vocal."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["demostrativos"],
+      "difficulty": 3,
+      "speak": "Ce livre est intéressant, cette histoire est triste, cet homme est mon voisin, et ces personnages sont drôles.",
+      "es": "Este libro es interesante, esta historia es triste, este hombre es mi vecino, y estos personajes son divertidos.",
+      "ipa": "/sə livʁ ɛ.t‿ɛ̃.te.ʁɛ.sɑ̃ sɛt is.twaʁ ɛ tʁist sɛ.t‿ɔm ɛ mɔ̃ vwa.zɛ̃ e se pɛʁ.sɔ.naʒ sɔ̃ dʁol/",
+      "esApprox": "«se LIVR e-ten-te-re-SAN SET is-TUÁR e TRIST se-TOM e mon vuá-ZEN e se per-so-NAZH son DROL»",
+      "focus": "Las cuatro formas del demostrativo en una sola frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Describe un libro, una persona y unos objetos usando ce/cette/ces.",
+      "modelAnswer": "Ce livre est intéressant, cette personne est sympa, et ces objets sont utiles.",
+      "alsoValid": ["Cet homme travaille avec moi, cette femme est ma voisine."],
+      "speak": "Ce livre est intéressant, cette personne est sympa, et ces objets sont utiles.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "¿Qué demostrativo corresponde?",
+      "buckets": ["ce", "cet", "cette", "ces"],
+      "items": [
+        { "text": "livre", "bucket": 0 },
+        { "text": "homme", "bucket": 1 },
+        { "text": "femme", "bucket": 2 },
+        { "text": "livres", "bucket": 3 },
+        { "text": "quartier", "bucket": 0 },
+        { "text": "amis", "bucket": 3 }
+      ],
+      "explain": "Ce (masc. consonante), cet (masc. vocal), cette (fem.), ces (plural)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Hay un error de forma. Corrige la frase entera.",
+      "wrong": "Ce homme est mon voisin.",
+      "accept": ["Cet homme est mon voisin"],
+      "audio": "Cet homme est mon voisin.",
+      "explain": "Delante de vocal, se usa cet, no ce."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "ce", "es": "este (masc. sing.)", "esApprox": "«se»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "cet", "es": "este (masc. sing. + vocal/h muda)", "esApprox": "«SET»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "cette", "es": "esta (fem. sing.)", "esApprox": "«SET»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "ces", "es": "estos/estas (plural)", "esApprox": "«SE»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un homme", "es": "un hombre", "esApprox": "«un-NOM»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Ce livre est intéressant, mais cette histoire est un peu triste.", "es": "Este libro es interesante, pero esta historia es un poco triste.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Cet homme et cette femme sont mes voisins.", "es": "Este hombre y esta mujer son mis vecinos.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Cet homme travaille avec moi.", "es": "Este hombre trabaja conmigo.", "from": "e9" }
+  ]
+}

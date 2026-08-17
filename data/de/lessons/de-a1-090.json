@@ -1,0 +1,86 @@
+{
+  "id": "de-a1-090",
+  "lang": "de",
+  "level": "A1",
+  "order": 90,
+  "title": "Preparación para la prueba de nivel A1",
+  "objectives": [
+    "Repasar los pilares gramaticales de todo el nivel A1: casos, verbos modales, Perfekt/Präteritum y conjunciones",
+    "Consolidar el vocabulario más frecuente de los siete bloques del curso",
+    "Sentirte preparado para la prueba de nivel A1 y para pasar al A2"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un repaso de todo el A1: sin gramática nueva",
+      "body": "Has recorrido siete bloques completos: los primeros pasos, cómo se monta una frase, el nominativo y el acusativo, el dativo, los verbos modales, el pasado (Perfekt y Präteritum), y las conjunciones con los comparativos. Esta última clase del nivel A1 repasa lo esencial de cada bloque antes de la prueba de nivel."
+    },
+    {
+      "type": "table",
+      "title": "Los siete bloques del A1",
+      "headers": ["Bloque", "Contenido esencial"],
+      "rows": [
+        ["A (1-10)", "Alfabeto, saludos, sein/haben, los primeros números"],
+        ["B (11-22)", "Artículos, plurales, negación, el orden de la frase (verbo en posición 2)"],
+        ["C (23-36)", "Nominativo y acusativo, verbos con cambio de vocal, la familia"],
+        ["D (37-50)", "El dativo, las preposiciones, la casa y la ciudad"],
+        ["E (51-64)", "Verbos modales, el imperativo, comida, profesiones, el cuerpo"],
+        ["F (65-78)", "El Perfekt y el Präteritum, contar el pasado, fechas y cultura"],
+        ["G (79-90)", "Conjunciones (und/aber/oder/denn/weil/dass), comparativos y comunicación práctica"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En la prueba de nivel A1 (70 ejercicios de todo el curso), no vas a ver ningún contenido nuevo: solo estructuras y vocabulario ya practicados. Confía en lo que ya sabes y repasa tus puntos más débiles antes de empezarla."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Akkusativ", "es": "el acusativo", "ipa": "/akuzaˈtiːf/", "esApprox": "«a-ku-za-TIF»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich sehe den Mann.", "es": "Veo al hombre." } },
+    { "id": "v2", "target": "der Dativ", "es": "el dativo", "ipa": "/ˈdaːtiːf/", "esApprox": "«DÁ-tif»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich gebe dem Kind das Buch.", "es": "Le doy el libro al niño." } },
+    { "id": "v3", "target": "das Perfekt", "es": "el pretérito perfecto compuesto", "ipa": "/ˈpɛʁfɛkt/", "esApprox": "«PER-fekt»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich habe gearbeitet.", "es": "He trabajado." } },
+    { "id": "v4", "target": "das Präteritum", "es": "el pretérito simple", "ipa": "/pʁɛˈteːʁitʊm/", "esApprox": "«pre-TÉ-ri-tum»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich war müde.", "es": "Estaba cansado." } },
+    { "id": "v5", "target": "der Modalverb", "es": "el verbo modal", "ipa": "/moˈdaːlvɛʁp/", "esApprox": "«mo-DAL-verp»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich kann schwimmen.", "es": "Sé nadar." } },
+    { "id": "v6", "target": "die Konjunktion", "es": "la conjunción", "ipa": "/kɔnjʊŋkˈtsi̯oːn/", "esApprox": "«kon-yunk-tsi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Weil ist eine Konjunktion.", "es": "Weil es una conjunción." } },
+    { "id": "v7", "target": "die Prüfung", "es": "el examen, la prueba", "ipa": "/ˈpʁyːfʊŋ/", "esApprox": "«PRÜ-fung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Prüfung ist morgen.", "es": "El examen es mañana." } },
+    { "id": "v8", "target": "bereit", "es": "preparado, listo", "ipa": "/bəˈʁaɪ̯t/", "esApprox": "«be-RÁIT»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich bin bereit für die Prüfung.", "es": "Estoy preparado para el examen." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["repaso"], "difficulty": 1, "prompt": "¿Qué caso responde a la pregunta wen? (¿a quién?, objeto directo)", "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"], "answer": 1, "explain": "Repaso del Bloque C: el acusativo marca el objeto directo." },
+    { "id": "e2", "type": "mcq", "tags": ["repaso"], "difficulty": 2, "prompt": "¿Qué verbo modal expresa capacidad o habilidad?", "options": ["müssen", "können", "dürfen", "sollen"], "answer": 1, "explain": "Repaso del Bloque E: können = poder/saber (capacidad)." },
+    { "id": "e3", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "El verbo conjugado siempre ocupa la posición 2 en una frase afirmativa alemana.", "answer": true, "explain": "Repaso del Bloque B: el orden verbo-segunda-posición es la regla central del alemán." },
+    { "id": "e4", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "sein, haben y los modales prefieren el Präteritum incluso al hablar.", "answer": true, "explain": "Repaso del Bloque F, clase 69." },
+    { "id": "e5", "type": "match_pairs", "tags": ["repaso"], "difficulty": 2, "prompt": "Une cada bloque con su contenido principal", "left": ["Bloque C", "Bloque D", "Bloque E", "Bloque F"], "right": ["nominativo y acusativo", "el dativo", "verbos modales", "el pasado"], "answer": [0, 1, 2, 3], "explain": "Repaso de la estructura completa del curso A1." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "Le doy el libro al niño.", "accept": ["Ich gebe dem Kind das Buch"], "hintWords": ["ich gebe dem Kind das Buch"], "strictAccents": false, "audio": "Ich gebe dem Kind das Buch.", "explain": "Repaso del Bloque D: geben + dativo (dem Kind) + acusativo (das Buch)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "Estoy preparado para el examen.", "accept": ["Ich bin bereit für die Prüfung"], "hintWords": ["ich bin bereit für die Prüfung"], "strictAccents": false, "audio": "Ich bin bereit für die Prüfung.", "explain": "für + acusativo (die Prüfung), preposición del Bloque C." },
+    { "id": "e8", "type": "fill_blank", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa con la forma correcta del Perfekt", "text": "Ich habe viel ___. (arbeiten) Ich bin nach Hause ___. (gehen)", "blanks": [{ "accept": ["gearbeitet"] }, { "accept": ["gegangen"] }], "bank": ["gearbeitet", "gegangen", "gemacht"], "explain": "Repaso del Bloque F: participios regulares e irregulares con haben/sein." },
+    { "id": "e9", "type": "word_order", "tags": ["repaso"], "difficulty": 3, "prompt": "Ordena: «Estoy cansado, porque he trabajado mucho»", "tokens": ["habe", "Ich bin müde,", "gearbeitet", "weil ich viel"], "answer": ["Ich bin müde,", "weil ich viel", "gearbeitet", "habe"], "audio": "Ich bin müde, weil ich viel gearbeitet habe.", "explain": "Repaso del Bloque G: weil manda el verbo conjugado al final." },
+    { "id": "e10", "type": "translate_to_es", "tags": ["repaso"], "difficulty": 2, "prompt": "Weil ist eine Konjunktion.", "accept": ["Weil es una conjunción."], "strictAccents": false, "audio": "Weil ist eine Konjunktion.", "explain": "Repaso del Bloque G." },
+    { "id": "e11", "type": "dialogue", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lehrerin", "text": "Bist du bereit für die Prüfung?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich bin bereit.", "Ja, ich glaube, dass ich bereit bin."], "hint": "responde que sí, que estás preparado" },
+      { "who": "Lehrerin", "text": "Super, viel Erfolg!", "speak": true }
+    ], "explain": "Práctica final de conversación antes del examen." },
+    { "id": "e12", "type": "listening", "tags": ["repaso"], "difficulty": 1, "speak": "Ich bin bereit für die Prüfung.", "mode": "write", "accept": ["Ich bin bereit für die Prüfung"], "showTextAfter": true, "explain": "Frase clave de cierre del nivel A1." },
+    { "id": "e13", "type": "listening", "tags": ["repaso"], "difficulty": 2, "speak": "Ich kann schwimmen.", "mode": "choose", "options": ["Ich kann schwimmen.", "Ich muss schwimmen.", "Ich soll schwimmen."], "answer": 0, "showTextAfter": true, "explain": "Repaso del Bloque E: können, müssen y sollen se distinguen con claridad al oído." },
+    { "id": "e14", "type": "shadowing", "tags": ["repaso"], "difficulty": 2, "speak": "Ich habe viel gelernt, und ich glaube, dass ich bereit für die Prüfung bin.", "es": "He aprendido mucho, y creo que estoy preparado para el examen.", "ipa": "/ɪç ˈhaːbə fiːl ɡəˈlɛʁnt ʊnt ɪç ˈɡlaʊ̯bə das ɪç bəˈʁaɪ̯t fyːɐ̯ diː ˈpʁyːfʊŋ bɪn/", "esApprox": "«ich JÁ-be fil ge-LERNT, unt ich GLÁU-be, das ich be-RÁIT für di PRÜ-fung bin»", "focus": "Combina el Perfekt (habe gelernt) con dass y el verbo al final (bin): dos pilares del curso juntos.", "selfAssess": true },
+    { "id": "e15", "type": "speak_prompt", "tags": ["repaso"], "difficulty": 2, "prompt": "Te preguntan si estás preparado para el examen de nivel A1. Responde que sí, con confianza.", "modelAnswer": "Ja, ich bin bereit für die Prüfung.", "alsoValid": ["Ja, ich glaube, dass ich bereit bin."], "speak": "Ja, ich bin bereit für die Prüfung.", "selfAssess": true },
+    { "id": "e16", "type": "categorize", "tags": ["repaso"], "difficulty": 2, "prompt": "Clasifica cada palabra según el bloque del curso al que pertenece principalmente", "buckets": ["Casos (C-D)", "Pasado (F)", "Conjunciones (G)"], "items": [
+      { "text": "der Akkusativ", "bucket": 0 },
+      { "text": "das Perfekt", "bucket": 1 },
+      { "text": "die Konjunktion", "bucket": 2 },
+      { "text": "der Dativ", "bucket": 0 },
+      { "text": "das Präteritum", "bucket": 1 }
+    ], "explain": "Repaso general de la estructura de los siete bloques del curso." },
+    { "id": "e17", "type": "error_correction", "tags": ["repaso"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe nach Hause gegangen.", "accept": ["Ich bin nach Hause gegangen"], "audio": "Ich bin nach Hause gegangen.", "explain": "Repaso del Bloque F: gehen usa sein, no haben, como auxiliar del Perfekt." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Akkusativ", "es": "el acusativo", "esApprox": "«a-ku-za-TIF»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Dativ", "es": "el dativo", "esApprox": "«DÁ-tif»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Perfekt", "es": "el pretérito perfecto compuesto", "esApprox": "«PER-fekt»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Präteritum", "es": "el pretérito simple", "esApprox": "«pre-TÉ-ri-tum»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Konjunktion", "es": "la conjunción", "esApprox": "«kon-yunk-tsi-ÓN»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "die Prüfung", "es": "el examen, la prueba", "esApprox": "«PRÜ-fung»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "bereit", "es": "preparado, listo", "esApprox": "«be-RÁIT»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Ich habe viel gelernt, und ich glaube, dass ich bereit für die Prüfung bin.", "es": "He aprendido mucho, y creo que estoy preparado para el examen.", "from": "e14" }
+  ]
+}

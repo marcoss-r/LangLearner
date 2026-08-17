@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-136",
+  "lang": "fr",
+  "level": "A2",
+  "order": 136,
+  "title": "En el aeropuerto y en la estación",
+  "objectives": [
+    "Aprender vocabulario del aeropuerto y de la estación de tren",
+    "Entender anuncios simples sobre vuelos y trenes",
+    "Practicar frases útiles para embarcar y facturar equipaje"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Moverse por el aeropuerto y la estación",
+      "body": "Sin gramática nueva. Vocabulario esencial para viajar: facturar equipaje, encontrar la puerta de embarque, saber si el tren llega a tiempo o con retraso.",
+      "examples": [
+        { "target": "Le vol pour Paris a du retard. L'embarquement commence dans une heure.", "es": "El vuelo a París tiene retraso. El embarque empieza dentro de una hora.", "note": "avoir du retard + dans + duración (futuro, clase A2-127)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del aeropuerto y la estación",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["un vol", "un vuelo"],
+        ["l'embarquement", "el embarque"],
+        ["une valise", "una maleta"],
+        ["enregistrer les bagages", "facturar el equipaje"],
+        ["un quai", "un andén"],
+        ["avoir du retard", "tener retraso"],
+        ["à l'heure", "puntual, a tiempo"],
+        ["une correspondance", "un transbordo, un enlace"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Anuncios típicos",
+      "body": "En un aeropuerto o estación oirás frases como «Le train à destination de Lyon partira du quai numéro 3» o «Dernier appel pour l'embarquement du vol AF 204». Fíjate en el futuro simple (partira) para anunciar horarios."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "un vol", "es": "un vuelo", "ipa": "/œ̃ vɔl/", "esApprox": "«un VOL»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le vol pour Paris a du retard.", "es": "El vuelo a París tiene retraso." } },
+    { "id": "v2", "target": "l'embarquement", "es": "el embarque", "ipa": "/lɑ̃.baʁ.kə.mɑ̃/", "esApprox": "«lan-bar-ke-MAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "L'embarquement commence dans une heure.", "es": "El embarque empieza dentro de una hora." } },
+    { "id": "v3", "target": "une valise", "es": "una maleta", "ipa": "/yn va.liz/", "esApprox": "«ün va-LIZ»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'ai perdu ma valise.", "es": "He perdido mi maleta." } },
+    { "id": "v4", "target": "enregistrer les bagages", "es": "facturar el equipaje", "ipa": "/ɑ̃.ʁə.ʒis.tʁe le ba.ɡaʒ/", "esApprox": "«an-re-yis-TRÉ le ba-GASH»", "pos": "expresión", "gender": null, "example": { "target": "Où est-ce qu'on enregistre les bagages ?", "es": "¿Dónde se factura el equipaje?" } },
+    { "id": "v5", "target": "un quai", "es": "un andén", "ipa": "/œ̃ kɛ/", "esApprox": "«un KE»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le train part du quai numéro trois.", "es": "El tren sale del andén número tres." } },
+    { "id": "v6", "target": "avoir du retard", "es": "tener retraso", "ipa": "/a.vwaʁ dy ʁə.taʁ/", "esApprox": "«a-VUÁR dü re-TAR»", "pos": "expresión", "gender": null, "example": { "target": "Le train a vingt minutes de retard.", "es": "El tren tiene veinte minutos de retraso." } },
+    { "id": "v7", "target": "à l'heure", "es": "puntual, a tiempo", "ipa": "/a lœʁ/", "esApprox": "«a LEUR»", "pos": "expresión", "gender": null, "example": { "target": "Le vol est à l'heure.", "es": "El vuelo está a tiempo." } },
+    { "id": "v8", "target": "une correspondance", "es": "un transbordo, un enlace", "ipa": "/yn kɔ.ʁɛs.pɔ̃.dɑ̃s/", "esApprox": "«ün ko-res-pon-DANS»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'ai une correspondance à Lyon.", "es": "Tengo un transbordo en Lyon." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «el vuelo tiene retraso»?",
+      "options": ["Le vol est à l'heure.", "Le vol a du retard.", "Le vol est en avance.", "Le vol a une correspondance."],
+      "answer": 1,
+      "explain": "Avoir du retard = tener retraso."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "¿Qué es «un quai»?",
+      "options": ["una maleta", "un andén", "un vuelo", "un billete"],
+      "answer": 1,
+      "explain": "Un quai = un andén (en la estación)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "statement": "Une correspondance es un transbordo, un cambio de tren o de avión.",
+      "answer": true,
+      "explain": "J'ai une correspondance à Lyon = tengo que hacer transbordo en Lyon."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "statement": "À l'heure significa lo mismo que avoir du retard.",
+      "answer": false,
+      "explain": "À l'heure = puntual; avoir du retard = con retraso. Son opuestos."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["un vol", "une valise", "l'embarquement", "un quai"],
+      "right": ["un andén", "un vuelo", "una maleta", "el embarque"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Vol = vuelo, valise = maleta, embarquement = embarque, quai = andén."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "El vuelo a París tiene retraso. El embarque empieza dentro de una hora.",
+      "accept": ["Le vol pour Paris a du retard. L'embarquement commence dans une heure"],
+      "hintWords": ["le vol pour paris a du retard", "l'embarquement commence dans une heure"],
+      "strictAccents": true,
+      "audio": "Le vol pour Paris a du retard. L'embarquement commence dans une heure.",
+      "explain": "Avoir du retard + dans + duración."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "¿Dónde se factura el equipaje? Tengo un transbordo en Lyon.",
+      "accept": ["Où est-ce qu'on enregistre les bagages ? J'ai une correspondance à Lyon"],
+      "hintWords": ["où est-ce qu'on enregistre les bagages", "j'ai une correspondance à lyon"],
+      "strictAccents": true,
+      "audio": "Où est-ce qu'on enregistre les bagages ? J'ai une correspondance à Lyon.",
+      "explain": "Enregistrer les bagages + une correspondance à + ciudad."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Le train part du ___ numéro trois, mais il a vingt minutes de ___.",
+      "blanks": [{ "accept": ["quai"] }, { "accept": ["retard"] }],
+      "bank": ["quai", "retard", "vol"],
+      "explain": "Un quai + avoir du retard."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «He perdido mi maleta»",
+      "tokens": ["ma valise", "J'ai perdu"],
+      "answer": ["J'ai perdu", "ma valise"],
+      "audio": "J'ai perdu ma valise.",
+      "explain": "J'ai perdu + ma valise."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "Le vol est à l'heure, mais j'ai une correspondance et je ne sais pas si j'aurai le temps.",
+      "accept": ["El vuelo está a tiempo, pero tengo un transbordo y no sé si tendré tiempo."],
+      "strictAccents": false,
+      "audio": "Le vol est à l'heure, mais j'ai une correspondance et je ne sais pas si j'aurai le temps.",
+      "explain": "À l'heure + une correspondance + futuro (j'aurai, clase A2-126)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en el mostrador de facturación",
+      "turns": [
+        { "who": "Agent", "text": "Bonjour, votre passeport et votre billet, s'il vous plaît.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Voici mon passeport. Je voudrais enregistrer ma valise.", "Où est-ce qu'on enregistre les bagages ?"], "hint": "usa enregistrer les bagages o une valise" },
+        { "who": "Agent", "text": "Très bien, votre vol est à l'heure.", "speak": true }
+      ],
+      "explain": "Al facturar, se habla de enregistrer les bagages y une valise."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "speak": "Le vol a du retard, l'embarquement commence dans une heure, et j'ai une correspondance à Lyon.",
+      "mode": "write",
+      "accept": ["Le vol a du retard, l'embarquement commence dans une heure, et j'ai une correspondance à Lyon"],
+      "showTextAfter": true,
+      "explain": "Frase completa típica en un aeropuerto."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 1,
+      "speak": "une correspondance",
+      "mode": "choose",
+      "options": ["une valise", "un quai", "une correspondance", "un embarquement"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Une correspondance = un transbordo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 3,
+      "speak": "Le train part du quai numéro trois, il a dix minutes de retard, et j'ai une correspondance à Lyon dans une heure.",
+      "es": "El tren sale del andén número tres, tiene diez minutos de retraso, y tengo un transbordo en Lyon dentro de una hora.",
+      "ipa": "/lə tʁɛ̃ paʁ dy kɛ ny.me.ʁo tʁwa il a di mi.nyt də ʁə.taʁ e ʒe yn kɔ.ʁɛs.pɔ̃.dɑ̃s a ljɔ̃ dɑ̃.z‿yn œʁ/",
+      "esApprox": "«le TREN par dü KE nü-me-RÓ truá il a di mi-NÜT de re-TAR e ye ün ko-res-pon-DANS a li-ON dan-zün EUR»",
+      "focus": "Vocabulario del tren combinado con marcadores de tiempo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "Cuenta un problema que tuviste en un aeropuerto o estación (retraso, maleta perdida, transbordo).",
+      "modelAnswer": "Mon vol a eu du retard, et j'ai perdu ma valise.",
+      "alsoValid": ["J'ai raté ma correspondance."],
+      "speak": "Mon vol a eu du retard, et j'ai perdu ma valise.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "¿Es del aeropuerto o de la estación de tren?",
+      "buckets": ["Aeropuerto", "Estación"],
+      "items": [
+        { "text": "l'embarquement", "bucket": 0 },
+        { "text": "un quai", "bucket": 1 },
+        { "text": "un vol", "bucket": 0 },
+        { "text": "une correspondance", "bucket": 1 }
+      ],
+      "explain": "Embarquement y vol son del aeropuerto; quai y correspondance, típicos de la estación (aunque correspondance también existe en avión)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["viajes", "transporte"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "Le train part du vol numéro trois.",
+      "accept": ["Le train part du quai numéro trois"],
+      "audio": "Le train part du quai numéro trois.",
+      "explain": "Un tren sale de un quai (andén), no de un vol (vuelo)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "un vol", "es": "un vuelo", "esApprox": "«un VOL»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "l'embarquement", "es": "el embarque", "esApprox": "«lan-bar-ke-MAN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "une valise", "es": "una maleta", "esApprox": "«ün va-LIZ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "enregistrer les bagages", "es": "facturar el equipaje", "esApprox": "«an-re-yis-TRÉ le ba-GASH»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un quai", "es": "un andén", "esApprox": "«un KE»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "avoir du retard", "es": "tener retraso", "esApprox": "«a-VUÁR dü re-TAR»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Le vol pour Paris a du retard. L'embarquement commence dans une heure.", "es": "El vuelo a París tiene retraso. El embarque empieza dentro de una hora.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Où est-ce qu'on enregistre les bagages ? J'ai une correspondance à Lyon.", "es": "¿Dónde se factura el equipaje? Tengo un transbordo en Lyon.", "from": "e7" }
+  ]
+}

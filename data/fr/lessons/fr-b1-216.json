@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-216",
+  "lang": "fr",
+  "level": "B1",
+  "order": 216,
+  "title": "El discurso indirecto en pasado: la concordancia de tiempos",
+  "objectives": [
+    "Aplicar la concordancia de tiempos cuando el verbo introductorio está en pasado (il a dit que...)",
+    "Retroceder el présent al imparfait, y el passé composé al plus-que-parfait",
+    "Retroceder el futur simple al conditionnel présent"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuando el verbo introductorio está en pasado",
+      "body": "Si dices il a dit que... (en pasado), los tiempos de lo reportado retroceden un paso: el présent se convierte en imparfait, el passé composé en plus-que-parfait, y el futur simple en conditionnel présent."
+    },
+    {
+      "type": "table",
+      "title": "La concordancia de tiempos",
+      "headers": ["Discurso directo", "Discurso indirecto (pasado)"],
+      "rows": [
+        ["présent → imparfait", "«je suis fatigué» → il a dit qu'il était fatigué"],
+        ["passé composé → plus-que-parfait", "«j'ai fini» → il a dit qu'il avait fini"],
+        ["futur simple → conditionnel présent", "«je viendrai» → il a dit qu'il viendrait"],
+        ["imparfait → imparfait (sin cambio)", "«j'habitais à Paris» → il a dit qu'il habitait à Paris"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Compara con el presente",
+      "body": "Recuerda: con il dit que (verbo introductorio en presente) no hay retroceso. El retroceso solo ocurre cuando el verbo introductorio está en pasado: il a dit que, il a expliqué que, elle a répondu que."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il a dit qu'il était", "es": "dijo que estaba", "ipa": "/i.l‿a di kil e.tɛ/", "esApprox": "«il-a DI kil e-TE»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "il a dit qu'il avait fini", "es": "dijo que había terminado", "ipa": "/i.l‿a di kil a.vɛ fi.ni/", "esApprox": "«il-a DI kil a-VE fi-NÍ»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "il a dit qu'il viendrait", "es": "dijo que vendría", "ipa": "/i.l‿a di kil vjɛ̃.dʁɛ/", "esApprox": "«il-a DI kil vien-DRE»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "il a expliqué que", "es": "explicó que", "ipa": "/i.l‿a ɛks.pli.ke kə/", "esApprox": "«il-a eks-pli-KÉ ke»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "elle a répondu que", "es": "respondió que", "ipa": "/ɛ.l‿a ʁe.pɔ̃.dy kə/", "esApprox": "«e-la re-pon-DÜ ke»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "il a demandé si", "es": "preguntó si", "ipa": "/i.l‿a də.mɑ̃.de si/", "esApprox": "«il-a de-man-DÉ si»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "il a demandé ce que", "es": "preguntó qué, lo que", "ipa": "/i.l‿a də.mɑ̃.de sə kə/", "esApprox": "«il-a de-man-DÉ se ke»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "il m'a dit de", "es": "me dijo que (+ infinitivo)", "ipa": "/il ma di də/", "esApprox": "«il ma DI de»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "¿En qué se convierte el présent cuando el verbo introductorio está en pasado?",
+      "options": ["imparfait", "passé composé", "plus-que-parfait", "futur"],
+      "answer": 0,
+      "explain": "Présent → imparfait en la concordancia de tiempos."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "¿En qué se convierte el futur simple?",
+      "options": ["conditionnel présent", "imparfait", "plus-que-parfait", "futur antérieur"],
+      "answer": 0,
+      "explain": "Futur simple → conditionnel présent en la concordancia de tiempos."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "statement": "El passé composé retrocede al plus-que-parfait.",
+      "answer": true,
+      "explain": "Passé composé → plus-que-parfait en la concordancia de tiempos."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "statement": "El imparfait cambia al retroceder en el discurso indirecto pasado.",
+      "answer": false,
+      "explain": "El imparfait no cambia: ya está en el pasado."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "Une cada tiempo directo con su forma indirecta",
+      "left": ["présent", "passé composé", "futur simple", "imparfait"],
+      "right": ["imparfait", "plus-que-parfait", "conditionnel présent", "sin cambio"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel, imparfait → sin cambio."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "Dijo que estaba cansado y que había terminado el trabajo.",
+      "accept": ["Il a dit qu'il était fatigué et qu'il avait fini le travail"],
+      "hintWords": ["il a dit qu'il était fatigué", "et qu'il avait fini le travail"],
+      "strictAccents": true,
+      "audio": "Il a dit qu'il était fatigué et qu'il avait fini le travail.",
+      "explain": "Présent → imparfait (était) y passé composé → plus-que-parfait (avait fini)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "Dijo que vendría mañana.",
+      "accept": ["Il a dit qu'il viendrait demain"],
+      "hintWords": ["il a dit qu'il viendrait", "demain"],
+      "strictAccents": true,
+      "audio": "Il a dit qu'il viendrait demain.",
+      "explain": "Futur simple → conditionnel présent (viendrait)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Il a dit qu'il ___ fatigué, et qu'il ___ son travail.",
+      "blanks": [{ "accept": ["était"] }, { "accept": ["avait fini"] }],
+      "bank": ["était", "avait fini", "est"],
+      "explain": "Était (imparfait, de est) y avait fini (plus-que-parfait, de a fini)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Dijo que vendría mañana»",
+      "tokens": ["qu'il viendrait demain", "Il a dit"],
+      "answer": ["Il a dit", "qu'il viendrait demain"],
+      "audio": "Il a dit qu'il viendrait demain.",
+      "explain": "Futur → conditionnel en el discurso indirecto pasado."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "Il a expliqué qu'il avait déménagé, et qu'il habitait maintenant à Lyon.",
+      "accept": ["Explicó que se había mudado, y que ahora vivía en Lyon."],
+      "strictAccents": false,
+      "audio": "Il a expliqué qu'il avait déménagé, et qu'il habitait maintenant à Lyon.",
+      "explain": "Plus-que-parfait (avait déménagé) e imparfait sin cambio (habitait)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación reportando lo que dijo alguien ayer",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce qu'il a dit hier ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il a dit qu'il était fatigué.", "Il a dit qu'il viendrait demain."], "hint": "usa la concordancia de tiempos" },
+        { "who": "Léa", "text": "Ah, d'accord.", "speak": true }
+      ],
+      "explain": "Repaso combinado de la concordancia de tiempos."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "speak": "Il a dit qu'il était fatigué, et qu'il avait fini son travail.",
+      "mode": "write",
+      "accept": ["Il a dit qu'il était fatigué, et qu'il avait fini son travail"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de la concordancia de tiempos."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 1,
+      "speak": "qu'il viendrait",
+      "mode": "choose",
+      "options": ["qu'il vient", "qu'il viendrait", "qu'il est venu", "qu'il venait"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Futur → conditionnel présent (viendrait)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 3,
+      "speak": "Il a dit qu'il était fatigué, qu'il avait fini son travail, et qu'il viendrait nous voir demain.",
+      "es": "Dijo que estaba cansado, que había terminado su trabajo, y que vendría a vernos mañana.",
+      "ipa": "/i.l‿a di kil e.tɛ fa.ti.ge kil a.vɛ fi.ni sɔ̃ tʁa.vaj e kil vjɛ̃.dʁɛ nu vwaʁ də.mɛ̃/",
+      "esApprox": "«il-a DI kil e-TE fa-ti-GÉ kil a-VE fi-NÍ son tra-VAY e kil vien-DRE nu VUÁR de-MIN»",
+      "focus": "Tres tiempos retrocedidos encadenados: imparfait, plus-que-parfait y conditionnel.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "Reporta algo que alguien te dijo ayer, aplicando la concordancia de tiempos.",
+      "modelAnswer": "Il a dit qu'il était fatigué, et qu'il viendrait demain.",
+      "alsoValid": ["Elle a expliqué qu'elle avait déménagé."],
+      "speak": "Il a dit qu'il était fatigué, et qu'il viendrait demain.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "¿Viene de un présent o de un futur simple?",
+      "buckets": ["Présent → imparfait", "Futur → conditionnel"],
+      "items": [
+        { "text": "il était", "bucket": 0 },
+        { "text": "il viendrait", "bucket": 1 },
+        { "text": "elle habitait", "bucket": 0 },
+        { "text": "elle partirait", "bucket": 1 }
+      ],
+      "explain": "Il était y elle habitait vienen de un présent; il viendrait y elle partirait vienen de un futur simple."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["discurso-indirecto", "concordancia-tiempos"],
+      "difficulty": 2,
+      "prompt": "Hay un error: con el verbo introductorio en pasado, el présent retrocede a imparfait. Corrige la frase entera.",
+      "wrong": "Il a dit qu'il est fatigué.",
+      "accept": ["Il a dit qu'il était fatigué"],
+      "audio": "Il a dit qu'il était fatigué.",
+      "explain": "Il a dit (pasado) exige que el présent retroceda a imparfait (était), no est."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il a dit qu'il était", "es": "dijo que estaba", "esApprox": "«il-a DI kil e-TE»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "il a dit qu'il avait fini", "es": "dijo que había terminado", "esApprox": "«il-a DI kil a-VE fi-NÍ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "il a dit qu'il viendrait", "es": "dijo que vendría", "esApprox": "«il-a DI kil vien-DRE»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "il a expliqué que", "es": "explicó que", "esApprox": "«il-a eks-pli-KÉ ke»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "elle a répondu que", "es": "respondió que", "esApprox": "«e-la re-pon-DÜ ke»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "il m'a dit de", "es": "me dijo que (+ infinitivo)", "esApprox": "«il ma DI de»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Il a dit qu'il était fatigué et qu'il avait fini le travail.", "es": "Dijo que estaba cansado y que había terminado el trabajo.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Il a expliqué qu'il avait déménagé, et qu'il habitait maintenant à Lyon.", "es": "Explicó que se había mudado, y que ahora vivía en Lyon.", "from": "e10" }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-219",
+  "lang": "de",
+  "level": "B1",
+  "order": 219,
+  "title": "El trabajo: buscar empleo y la entrevista",
+  "objectives": [
+    "Aprender vocabulario para buscar empleo: die Stellenanzeige, das Anschreiben, das Vorstellungsgespräch",
+    "Hablar de las condiciones de un contrato: befristet, unbefristet, die Probezeit",
+    "Responder con soltura a preguntas típicas de una entrevista de trabajo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de la búsqueda de empleo",
+      "body": "Buscar trabajo en alemán exige un vocabulario propio: «die Stellenanzeige» (el anuncio de empleo), «das Anschreiben» (la carta de presentación) y «das Vorstellungsgespräch» (la entrevista de trabajo) son las tres piezas del proceso. Una vez contratado, es útil conocer «die Probezeit» (el período de prueba) y la diferencia entre un contrato «befristet» (temporal) y «unbefristet» (indefinido).",
+      "examples": [
+        { "target": "Ich habe mich auf die Stellenanzeige beworben.", "es": "Me he postulado al anuncio de empleo." },
+        { "target": "Das Vorstellungsgespräch ist am Montag.", "es": "La entrevista de trabajo es el lunes." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario clave de la búsqueda de empleo",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["die Stellenanzeige", "el anuncio de empleo"],
+        ["das Anschreiben", "la carta de presentación"],
+        ["das Vorstellungsgespräch", "la entrevista de trabajo"],
+        ["befristet / unbefristet", "temporal / indefinido"],
+        ["die Probezeit", "el período de prueba"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Una pregunta típica de entrevista es «Was sind Ihre Stärken und Schwächen?» (¿Cuáles son sus puntos fuertes y débiles?). Prepara una respuesta honesta pero positiva, mencionando cómo trabajas en tus debilidades."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Stellenanzeige", "es": "el anuncio de empleo", "ipa": "/ˈʃtɛlənanˌtsaɪ̯ɡə/", "esApprox": "«SHTÉ-len-an-tsai-gue»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich habe mich auf die Stellenanzeige beworben.", "es": "Me he postulado al anuncio de empleo." } },
+    { "id": "v2", "target": "das Anschreiben", "es": "la carta de presentación", "ipa": "/ˈanʃʁaɪ̯bn̩/", "esApprox": "«ÁN-shrai-ben»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Anschreiben muss überzeugend sein.", "es": "La carta de presentación tiene que ser convincente." } },
+    { "id": "v3", "target": "das Vorstellungsgespräch", "es": "la entrevista de trabajo", "ipa": "/foːɐ̯ˈʃtɛlʊŋsɡəʃpʁɛːç/", "esApprox": "«for-SHTÉ-lungs-ge-shprech»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Vorstellungsgespräch ist am Montag.", "es": "La entrevista de trabajo es el lunes." } },
+    { "id": "v4", "target": "befristet", "es": "temporal (contrato)", "ipa": "/bəˈfʁɪstət/", "esApprox": "«be-FRÍS-tet»", "pos": "adjetivo", "gender": null, "example": { "target": "Mein Vertrag ist befristet.", "es": "Mi contrato es temporal." } },
+    { "id": "v5", "target": "unbefristet", "es": "indefinido (contrato)", "ipa": "/ˈʊnbəfʁɪstət/", "esApprox": "«ÚN-be-fris-tet»", "pos": "adjetivo", "gender": null, "example": { "target": "Ich möchte einen unbefristeten Vertrag.", "es": "Quiero un contrato indefinido." } },
+    { "id": "v6", "target": "die Probezeit", "es": "el período de prueba", "ipa": "/ˈpʁoːbətsaɪ̯t/", "esApprox": "«PRÓ-be-tsait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Probezeit dauert sechs Monate.", "es": "El período de prueba dura seis meses." } },
+    { "id": "v7", "target": "die Stärke", "es": "el punto fuerte", "ipa": "/ˈʃtɛʁkə/", "esApprox": "«SHTÉR-ke»", "pos": "sustantivo", "gender": "f", "example": { "target": "Was sind Ihre Stärken?", "es": "¿Cuáles son sus puntos fuertes?" } },
+    { "id": "v8", "target": "die Schwäche", "es": "el punto débil", "ipa": "/ˈʃvɛçə/", "esApprox": "«SHVÉ-che»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich arbeite an meinen Schwächen.", "es": "Trabajo en mis puntos débiles." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["trabajo"], "difficulty": 1, "prompt": "¿Cómo se dice «la entrevista de trabajo»?", "options": ["die Stellenanzeige", "das Anschreiben", "das Vorstellungsgespräch", "die Probezeit"], "answer": 2, "explain": "das Vorstellungsgespräch = la entrevista de trabajo." },
+    { "id": "e2", "type": "mcq", "tags": ["trabajo"], "difficulty": 2, "prompt": "¿Qué significa «befristet»?", "options": ["Indefinido", "Temporal", "Anulado", "Firmado"], "answer": 1, "explain": "befristet = temporal, con fecha de finalización." },
+    { "id": "e3", "type": "true_false", "tags": ["trabajo"], "difficulty": 2, "statement": "das Anschreiben es la carta de presentación que acompaña al currículum.", "answer": true, "explain": "das Anschreiben presenta al candidato antes de que se lea el Lebenslauf." },
+    { "id": "e4", "type": "true_false", "tags": ["trabajo"], "difficulty": 2, "statement": "die Probezeit es el tiempo que dura un contrato completo.", "answer": false, "explain": "die Probezeit es solo el período de prueba inicial, no todo el contrato." },
+    { "id": "e5", "type": "match_pairs", "tags": ["trabajo"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Stellenanzeige", "das Anschreiben", "befristet", "die Stärke"], "right": ["el anuncio de empleo", "la carta de presentación", "temporal", "el punto fuerte"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["trabajo"], "difficulty": 2, "prompt": "Me he postulado al anuncio de empleo.", "accept": ["Ich habe mich auf die Stellenanzeige beworben"], "hintWords": ["ich habe mich auf die Stellenanzeige beworben"], "strictAccents": false, "audio": "Ich habe mich auf die Stellenanzeige beworben.", "explain": "habe + mich + auf die Stellenanzeige + beworben (final, repaso de sich bewerben um/auf)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["trabajo"], "difficulty": 2, "prompt": "Quiero un contrato indefinido.", "accept": ["Ich möchte einen unbefristeten Vertrag"], "hintWords": ["ich möchte einen unbefristeten Vertrag"], "strictAccents": false, "audio": "Ich möchte einen unbefristeten Vertrag.", "explain": "möchte + einen unbefristeten Vertrag (acusativo declinado)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["trabajo"], "difficulty": 2, "prompt": "¿Cuáles son sus puntos fuertes?", "accept": ["Was sind Ihre Stärken?"], "hintWords": ["was sind Ihre Stärken"], "strictAccents": false, "audio": "Was sind Ihre Stärken?", "explain": "Was + sind + Ihre Stärken (pregunta de entrevista típica)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["trabajo"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Die ___ dauert sechs Monate. Ich arbeite an meinen ___.", "blanks": [{ "accept": ["Probezeit"] }, { "accept": ["Schwächen"] }], "bank": ["Probezeit", "Schwächen", "Stärken"], "explain": "die Probezeit y die Schwächen." },
+    { "id": "e10", "type": "word_order", "tags": ["trabajo"], "difficulty": 2, "prompt": "Ordena: «La entrevista de trabajo es el lunes»", "tokens": ["ist am Montag", "Das Vorstellungsgespräch"], "answer": ["Das Vorstellungsgespräch", "ist am Montag"], "audio": "Das Vorstellungsgespräch ist am Montag.", "explain": "Das Vorstellungsgespräch (sujeto) + ist (posición 2) + am Montag." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["trabajo"], "difficulty": 2, "prompt": "Das Anschreiben muss überzeugend sein.", "accept": ["La carta de presentación tiene que ser convincente."], "strictAccents": false, "audio": "Das Anschreiben muss überzeugend sein.", "explain": "überzeugend = convincente." },
+    { "id": "e12", "type": "dialogue", "tags": ["trabajo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Personalchefin", "text": "Was sind Ihre Stärken und Schwächen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Meine Stärke ist Teamarbeit, und ich arbeite an meiner Ungeduld."], "hint": "responde con un punto fuerte y uno débil" },
+      { "who": "Personalchefin", "text": "Danke für Ihre Ehrlichkeit.", "speak": true }
+    ], "explain": "Pregunta típica de entrevista de trabajo." },
+    { "id": "e13", "type": "listening", "tags": ["trabajo"], "difficulty": 1, "speak": "Das Vorstellungsgespräch ist am Montag.", "mode": "write", "accept": ["Das Vorstellungsgespräch ist am Montag"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["trabajo"], "difficulty": 2, "speak": "Mein Vertrag ist befristet.", "mode": "choose", "options": ["Mein Vertrag ist befristet.", "Mein Vertrag ist unbefristet.", "Mein Vertrag ist Probezeit."], "answer": 0, "showTextAfter": true, "explain": "befristet = temporal, con fecha de fin." },
+    { "id": "e15", "type": "shadowing", "tags": ["trabajo"], "difficulty": 2, "speak": "Ich habe mich auf die Stellenanzeige beworben, und mein Vorstellungsgespräch ist nächste Woche.", "es": "Me he postulado al anuncio de empleo, y mi entrevista de trabajo es la semana que viene.", "ipa": "/ɪç ˈhaːbə mɪç aʊ̯f diː ˈʃtɛlənantsaɪ̯ɡə bəˈvɔʁbn̩ ʊnt maɪ̯n foːɐ̯ˈʃtɛlʊŋsɡəʃpʁɛːç ɪst ˈnɛçstə ˈvɔxə/", "esApprox": "«ich JÁ-be mich auf di SHTÉ-len-an-tsai-gue be-VOR-ben, unt main for-SHTÉ-lungs-ge-shprech ist NÉCH-ste VÓ-je»", "focus": "beworben y Vorstellungsgespräch: el proceso completo de solicitar un empleo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["trabajo"], "difficulty": 2, "speak": "Meine größte Stärke ist Teamarbeit, aber ich arbeite noch an meiner Schwäche, zu ungeduldig zu sein.", "es": "Mi mayor punto fuerte es el trabajo en equipo, pero todavía trabajo en mi punto débil de ser demasiado impaciente.", "ipa": "/ˈmaɪ̯nə ˈɡʁøːstə ˈʃtɛʁkə ɪst ˈteːmʔaʁbaɪ̯t ˈaːbɐ ɪç ˈaʁbaɪ̯tə nɔx an ˈmaɪ̯nɐ ˈʃvɛçə tsuː ˈʊnɡəˌdʊltɪç tsuː zaɪ̯n/", "esApprox": "«MÁI-ne GRÖS-te SHTÉR-ke ist TÉAM-ar-bait, Á-ber ich ÁR-bai-te noj an MÁI-ner SHVÉ-che, tsu ÚN-ge-dul-tich tsu zain»", "focus": "Stärke y Schwäche: la respuesta clásica a la pregunta de entrevista sobre fortalezas y debilidades.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["trabajo"], "difficulty": 2, "prompt": "En una entrevista te preguntan tus puntos fuertes. Menciona el trabajo en equipo.", "modelAnswer": "Meine größte Stärke ist Teamarbeit.", "alsoValid": ["Ich bin gut im Team arbeiten."], "speak": "Meine größte Stärke ist Teamarbeit.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["trabajo"], "difficulty": 2, "prompt": "Clasifica cada palabra según la etapa del proceso", "buckets": ["Antes de la entrevista", "Después de ser contratado"], "items": [
+      { "text": "die Stellenanzeige", "bucket": 0 },
+      { "text": "das Anschreiben", "bucket": 0 },
+      { "text": "die Probezeit", "bucket": 1 },
+      { "text": "unbefristet", "bucket": 1 }
+    ], "explain": "Repaso general del proceso de búsqueda de empleo." },
+    { "id": "e19", "type": "error_correction", "tags": ["trabajo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe mich für die Stellenanzeige beworben.", "accept": ["Ich habe mich auf die Stellenanzeige beworben"], "audio": "Ich habe mich auf die Stellenanzeige beworben.", "explain": "sich bewerben auf + acusativo se usa con anuncios concretos; sich bewerben um se usa con el puesto en sí." },
+    { "id": "e20", "type": "mcq", "tags": ["trabajo"], "difficulty": 2, "prompt": "«Ich habe mich auf die Stellenanzeige beworben. Mein Vorstellungsgespräch ist nächste Woche, und ich hoffe auf einen unbefristeten Vertrag nach der Probezeit.» ¿Qué espera la persona después del período de prueba?", "options": ["Un contrato temporal", "Un contrato indefinido", "Ningún contrato", "Otra entrevista"], "answer": 1, "explain": "«ich hoffe auf einen unbefristeten Vertrag nach der Probezeit» indica que espera un contrato indefinido." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Stellenanzeige", "es": "el anuncio de empleo", "esApprox": "«SHTÉ-len-an-tsai-gue»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Anschreiben", "es": "la carta de presentación", "esApprox": "«ÁN-shrai-ben»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "das Vorstellungsgespräch", "es": "la entrevista de trabajo", "esApprox": "«for-SHTÉ-lungs-ge-shprech»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "befristet", "es": "temporal (contrato)", "esApprox": "«be-FRÍS-tet»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "unbefristet", "es": "indefinido (contrato)", "esApprox": "«ÚN-be-fris-tet»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Probezeit", "es": "el período de prueba", "esApprox": "«PRÓ-be-tsait»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe mich auf die Stellenanzeige beworben, und mein Vorstellungsgespräch ist nächste Woche.", "es": "Me he postulado al anuncio de empleo, y mi entrevista de trabajo es la semana que viene.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Meine größte Stärke ist Teamarbeit, aber ich arbeite noch an meiner Schwäche, zu ungeduldig zu sein.", "es": "Mi mayor punto fuerte es el trabajo en equipo, pero todavía trabajo en mi punto débil de ser demasiado impaciente.", "from": "e16" }
+  ]
+}

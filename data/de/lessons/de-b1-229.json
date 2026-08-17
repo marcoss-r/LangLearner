@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-229",
+  "lang": "de",
+  "level": "B1",
+  "order": 229,
+  "title": "La gastronomía alemana y más allá",
+  "objectives": [
+    "Aprender vocabulario para describir sabores y platos: deftig, würzig, hausgemacht",
+    "Hablar de especialidades regionales alemanas y de otras cocinas",
+    "Pedir recomendaciones y describir un plato con precisión en un restaurante"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Describir sabores y platos con precisión",
+      "body": "Más allá de «lecker» (rico), el B1 te da matices: «deftig» (contundente, copioso, típico de platos como el Schweinebraten), «würzig» (sabroso, especiado) y «hausgemacht» (casero). «Die Spezialität» (la especialidad) describe un plato típico de una región, y «die Zutaten» (los ingredientes) son la base de cualquier receta.",
+      "examples": [
+        { "target": "Das Gericht ist sehr deftig und würzig.", "es": "El plato es muy contundente y sabroso." },
+        { "target": "Das ist eine regionale Spezialität.", "es": "Esa es una especialidad regional." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario gastronómico clave",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["deftig", "contundente, copioso"],
+        ["würzig", "sabroso, especiado"],
+        ["hausgemacht", "casero"],
+        ["die Spezialität", "la especialidad"],
+        ["die Zutaten", "los ingredientes"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "die Beilage (la guarnición) es una palabra muy útil en un restaurante: «Welche Beilage möchten Sie?» (¿Qué guarnición desea?). Las respuestas típicas incluyen Kartoffeln, Sauerkraut o Salat."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "deftig", "es": "contundente, copioso", "ipa": "/ˈdɛftɪç/", "esApprox": "«DÉF-tich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das Gericht ist sehr deftig.", "es": "El plato es muy contundente." } },
+    { "id": "v2", "target": "würzig", "es": "sabroso, especiado", "ipa": "/ˈvʏʁtsɪç/", "esApprox": "«VÜR-tsich»", "pos": "adjetivo", "gender": null, "example": { "target": "Die Soße ist sehr würzig.", "es": "La salsa es muy sabrosa." } },
+    { "id": "v3", "target": "hausgemacht", "es": "casero", "ipa": "/ˈhaʊ̯sɡəmaxt/", "esApprox": "«JÁUS-ge-macht»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist hausgemachte Marmelade.", "es": "Esa es mermelada casera." } },
+    { "id": "v4", "target": "die Spezialität", "es": "la especialidad", "ipa": "/ʃpetsi̯aliˈtɛːt/", "esApprox": "«shpe-tsia-li-TET»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine regionale Spezialität.", "es": "Esa es una especialidad regional." } },
+    { "id": "v5", "target": "die Zutaten", "es": "los ingredientes", "ipa": "/diː ˈtsuːtaːtn̩/", "esApprox": "«di TSÚ-ta-ten»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "Welche Zutaten braucht man dafür?", "es": "¿Qué ingredientes hacen falta para eso?" } },
+    { "id": "v6", "target": "die Beilage", "es": "la guarnición", "ipa": "/ˈbaɪ̯laːɡə/", "esApprox": "«BÁI-la-gue»", "pos": "sustantivo", "gender": "f", "example": { "target": "Welche Beilage möchten Sie?", "es": "¿Qué guarnición desea?" } },
+    { "id": "v7", "target": "empfehlen", "es": "recomendar", "ipa": "/ɛmpˈfeːlən/", "esApprox": "«emp-FÉ-len»", "pos": "verbo", "gender": null, "example": { "target": "Was können Sie mir empfehlen?", "es": "¿Qué me puede recomendar?" } },
+    { "id": "v8", "target": "die Regionalküche", "es": "la cocina regional", "ipa": "/ʁeɡi̯oˈnaːlkʏçə/", "esApprox": "«re-guio-NAL-kü-che»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich mag die Regionalküche sehr.", "es": "Me gusta mucho la cocina regional." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["gastronomia"], "difficulty": 1, "prompt": "¿Cómo se dice «contundente, copioso»?", "options": ["würzig", "deftig", "hausgemacht", "lecker"], "answer": 1, "explain": "deftig = contundente, copioso." },
+    { "id": "e2", "type": "mcq", "tags": ["gastronomia"], "difficulty": 2, "prompt": "¿Cómo se dice «casero»?", "options": ["deftig", "würzig", "hausgemacht", "regional"], "answer": 2, "explain": "hausgemacht = casero." },
+    { "id": "e3", "type": "true_false", "tags": ["gastronomia"], "difficulty": 2, "statement": "die Zutaten son los ingredientes de una receta.", "answer": true, "explain": "die Zutaten = los ingredientes." },
+    { "id": "e4", "type": "true_false", "tags": ["gastronomia"], "difficulty": 2, "statement": "die Beilage es el plato principal.", "answer": false, "explain": "die Beilage es la guarnición, no el plato principal." },
+    { "id": "e5", "type": "match_pairs", "tags": ["gastronomia"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["deftig", "würzig", "die Spezialität", "die Beilage"], "right": ["contundente", "sabroso, especiado", "la especialidad", "la guarnición"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["gastronomia"], "difficulty": 2, "prompt": "El plato es muy contundente y sabroso.", "accept": ["Das Gericht ist sehr deftig und würzig"], "hintWords": ["das Gericht ist sehr deftig und würzig"], "strictAccents": false, "audio": "Das Gericht ist sehr deftig und würzig.", "explain": "Das Gericht (sujeto) + ist (posición 2) + sehr deftig und würzig." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["gastronomia"], "difficulty": 2, "prompt": "¿Qué me puede recomendar?", "accept": ["Was können Sie mir empfehlen?"], "hintWords": ["was können sie mir empfehlen"], "strictAccents": false, "audio": "Was können Sie mir empfehlen?", "explain": "Was + können + Sie + mir + empfehlen (final, con el modal)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["gastronomia"], "difficulty": 2, "prompt": "Esa es una especialidad regional.", "accept": ["Das ist eine regionale Spezialität"], "hintWords": ["das ist eine regionale Spezialität"], "strictAccents": false, "audio": "Das ist eine regionale Spezialität.", "explain": "Das ist + eine regionale Spezialität (adjetivo declinado)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["gastronomia"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Das ist ___ Marmelade. Welche ___ möchten Sie?", "blanks": [{ "accept": ["hausgemachte"] }, { "accept": ["Beilage"] }], "bank": ["hausgemachte", "Beilage", "würzige"], "explain": "hausgemachte (casera) y die Beilage (la guarnición)." },
+    { "id": "e10", "type": "word_order", "tags": ["gastronomia"], "difficulty": 2, "prompt": "Ordena: «¿Qué ingredientes hacen falta para eso?»", "tokens": ["braucht man dafür?", "Welche Zutaten"], "answer": ["Welche Zutaten", "braucht man dafür?"], "audio": "Welche Zutaten braucht man dafür?", "explain": "Welche Zutaten (acusativo) + braucht + man + dafür." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["gastronomia"], "difficulty": 2, "prompt": "Ich mag die Regionalküche sehr.", "accept": ["Me gusta mucho la cocina regional."], "strictAccents": false, "audio": "Ich mag die Regionalküche sehr.", "explain": "die Regionalküche = la cocina regional." },
+    { "id": "e12", "type": "dialogue", "tags": ["gastronomia"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Kellner", "text": "Was können Sie mir empfehlen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich empfehle Ihnen unsere regionale Spezialität."], "hint": "recomienda la especialidad de la casa" },
+      { "who": "Kellner", "text": "Perfekt, das nehme ich!", "speak": true }
+    ], "explain": "empfehlen: recomendar un plato en un restaurante." },
+    { "id": "e13", "type": "listening", "tags": ["gastronomia"], "difficulty": 1, "speak": "Das Gericht ist sehr deftig und würzig.", "mode": "write", "accept": ["Das Gericht ist sehr deftig und würzig"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["gastronomia"], "difficulty": 2, "speak": "Welche Beilage möchten Sie?", "mode": "choose", "options": ["Welche Beilage möchten Sie?", "Welche Zutaten möchten Sie?", "Welche Spezialität möchten Sie?"], "answer": 0, "showTextAfter": true, "explain": "Se pregunta por die Beilage al elegir un acompañamiento en un restaurante." },
+    { "id": "e15", "type": "shadowing", "tags": ["gastronomia"], "difficulty": 2, "speak": "Das Gericht ist sehr deftig und würzig, und die Zutaten sind alle regional und hausgemacht.", "es": "El plato es muy contundente y sabroso, y todos los ingredientes son regionales y caseros.", "ipa": "/das ɡəˈʁɪçt ɪst zeːɐ̯ ˈdɛftɪç ʊnt ˈvʏʁtsɪç ʊnt diː ˈtsuːtaːtn̩ zɪnt ˈalə ʁeɡi̯oˈnaːl ʊnt ˈhaʊ̯sɡəmaxt/", "esApprox": "«das ge-RICHT ist zer DÉF-tich unt VÜR-tsich, unt di TSÚ-ta-ten zint Á-le re-guio-NAL unt JÁUS-ge-macht»", "focus": "deftig, würzig y hausgemacht: tres adjetivos gastronómicos clave en una sola descripción.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["gastronomia"], "difficulty": 2, "speak": "Was können Sie mir empfehlen? Ich mag die Regionalküche sehr, vor allem deftige Spezialitäten.", "es": "¿Qué me puede recomendar? Me gusta mucho la cocina regional, sobre todo las especialidades contundentes.", "ipa": "/vas ˈkœnən ziː miːɐ̯ ɛmpˈfeːlən ɪç maːk diː ʁeɡi̯oˈnaːlkʏçə zeːɐ̯ foːɐ̯ ˈalɛm ˈdɛftɪɡə ʃpetsi̯aliˈtɛːtn̩/", "esApprox": "«vas KÖ-nen zi mir emp-FÉ-len? ich mak di re-guio-NAL-kü-che zer, for Á-lem DÉF-ti-gue shpe-tsia-li-TÉ-ten»", "focus": "empfehlen, Regionalküche y deftige Spezialitäten: una conversación completa en un restaurante.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["gastronomia"], "difficulty": 2, "prompt": "En un restaurante, pides una recomendación al camarero.", "modelAnswer": "Was können Sie mir empfehlen?", "alsoValid": ["Können Sie mir etwas empfehlen?"], "speak": "Was können Sie mir empfehlen?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["gastronomia"], "difficulty": 2, "prompt": "Clasifica cada palabra según su función", "buckets": ["Adjetivo (describe el plato)", "Sustantivo"], "items": [
+      { "text": "deftig", "bucket": 0 },
+      { "text": "würzig", "bucket": 0 },
+      { "text": "die Zutaten", "bucket": 1 },
+      { "text": "die Beilage", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario gastronómico de esta clase." },
+    { "id": "e19", "type": "error_correction", "tags": ["gastronomia"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das ist eine hausgemachte Spezialität aus dem Supermarkt.", "accept": ["Das ist eine hausgemachte Spezialität aus der eigenen Küche"], "explain": "hausgemacht (casero) contradice venir del supermercado; se corrige situando su origen en una cocina propia." },
+    { "id": "e20", "type": "mcq", "tags": ["gastronomia"], "difficulty": 2, "prompt": "«Was können Sie mir empfehlen? Ich mag die Regionalküche sehr, vor allem deftige Spezialitäten mit hausgemachten Zutaten.» ¿Qué tipo de comida prefiere la persona?", "options": ["Comida internacional ligera", "Especialidades regionales contundentes y caseras", "Comida rápida", "Postres únicamente"], "answer": 1, "explain": "«deftige Spezialitäten mit hausgemachten Zutaten» describe su preferencia." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "deftig", "es": "contundente, copioso", "esApprox": "«DÉF-tich»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "würzig", "es": "sabroso, especiado", "esApprox": "«VÜR-tsich»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "hausgemacht", "es": "casero", "esApprox": "«JÁUS-ge-macht»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Spezialität", "es": "la especialidad", "esApprox": "«shpe-tsia-li-TET»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Zutaten", "es": "los ingredientes", "esApprox": "«di TSÚ-ta-ten»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Beilage", "es": "la guarnición", "esApprox": "«BÁI-la-gue»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Das Gericht ist sehr deftig und würzig, und die Zutaten sind alle regional und hausgemacht.", "es": "El plato es muy contundente y sabroso, y todos los ingredientes son regionales y caseros.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Was können Sie mir empfehlen? Ich mag die Regionalküche sehr, vor allem deftige Spezialitäten.", "es": "¿Qué me puede recomendar? Me gusta mucho la cocina regional, sobre todo las especialidades contundentes.", "from": "e16" }
+  ]
+}

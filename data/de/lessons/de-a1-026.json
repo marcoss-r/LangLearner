@@ -1,0 +1,330 @@
+{
+  "id": "de-a1-026",
+  "lang": "de",
+  "level": "A1",
+  "order": 26,
+  "title": "Los pronombres personales en acusativo",
+  "objectives": [
+    "Aprender los pronombres personales en acusativo: mich, dich, ihn, sie, es, uns, euch, sie, Sie",
+    "Usarlos para sustituir un sustantivo ya mencionado que hace de objeto directo",
+    "Identificar que ich→mich, du→dich y er→ihn son los tres cambios que hay que memorizar; el resto se parece mucho al nominativo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los pronombres también cambian en acusativo, no solo los artículos",
+      "body": "Igual que der cambiaba a den, los pronombres personales también tienen una forma distinta cuando son objeto directo. La mayoría son fáciles: es, sie, Sie se quedan igual. Pero ich, du y er cambian a formas que hay que memorizar: mich, dich, ihn.",
+      "examples": [
+        { "target": "Ich sehe dich.", "es": "Te veo.", "note": "du → dich" },
+        { "target": "Ich kenne ihn.", "es": "Lo conozco (a él).", "note": "er → ihn" },
+        { "target": "Er kennt mich.", "es": "Me conoce.", "note": "ich → mich" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Pronombres personales: nominativo y acusativo",
+      "headers": ["Nominativ", "Akkusativ"],
+      "rows": [
+        ["ich", "mich"],
+        ["du", "dich"],
+        ["er", "ihn"],
+        ["sie (ella)", "sie"],
+        ["es", "es"],
+        ["wir", "uns"],
+        ["ihr", "euch"],
+        ["sie (ellos)", "sie"],
+        ["Sie (formal)", "Sie"]
+      ],
+      "note": "Solo tres formas cambian de verdad: mich, dich e ihn. El resto es idéntico al nominativo."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: ihn es el cambio menos intuitivo",
+      "items": [
+        { "wrong": "Ich sehe er. (dejando er sin cambiar)", "right": "Ich sehe ihn.", "why": "A diferencia de mich y dich, que se parecen bastante a ich y du, ihn no se parece nada a er. Es la forma que más cuesta recordar de toda la tabla." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Memoriza mich, dich, ihn como un trío, porque son las tres únicas formas que realmente hay que aprender de memoria: el resto (es, sie, Sie, uns, euch) es mucho más predecible o directamente igual que en nominativo."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "mich",
+      "es": "me, a mí",
+      "ipa": "/mɪç/",
+      "esApprox": "«mich», con ich-Laut",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Er kennt mich.", "es": "Me conoce." }
+    },
+    {
+      "id": "v2",
+      "target": "dich",
+      "es": "te, a ti",
+      "ipa": "/dɪç/",
+      "esApprox": "«dich», con ich-Laut",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Ich sehe dich.", "es": "Te veo." }
+    },
+    {
+      "id": "v3",
+      "target": "ihn",
+      "es": "lo, a él",
+      "ipa": "/iːn/",
+      "esApprox": "«in»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Ich kenne ihn.", "es": "Lo conozco." }
+    },
+    {
+      "id": "v4",
+      "target": "uns",
+      "es": "nos, a nosotros",
+      "ipa": "/ʊns/",
+      "esApprox": "«uns»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Er kennt uns.", "es": "Nos conoce." }
+    },
+    {
+      "id": "v5",
+      "target": "euch",
+      "es": "os, a vosotros",
+      "ipa": "/ɔɪ̯ç/",
+      "esApprox": "«oich», con ich-Laut",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Ich sehe euch.", "es": "Os veo." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres", "acusativo"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es el acusativo de «ich»?",
+      "options": ["mir", "mich", "mein", "ich"],
+      "answer": 1,
+      "explain": "ich → mich en acusativo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres", "acusativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el acusativo de «er»?",
+      "options": ["er", "ihm", "ihn", "sein"],
+      "answer": 2,
+      "explain": "er → ihn: el cambio menos intuitivo de la lista."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres"],
+      "difficulty": 1,
+      "statement": "Es y sie tienen la misma forma en nominativo y acusativo.",
+      "answer": true,
+      "explain": "Es y sie no cambian entre los dos casos."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronombres"],
+      "difficulty": 1,
+      "statement": "El acusativo de «wir» es «euch».",
+      "answer": false,
+      "explain": "El acusativo de wir es uns; euch es el de ihr."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos pronombres NO cambia entre nominativo y acusativo?",
+      "options": ["ich → mich", "du → dich", "er → ihn", "es → es"],
+      "answer": 3,
+      "explain": "es se queda igual en los dos casos."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Une cada pronombre nominativo con su forma en acusativo",
+      "left": ["ich", "du", "wir", "ihr"],
+      "right": ["dich", "mich", "euch", "uns"],
+      "answer": [1, 0, 3, 2],
+      "explain": "ich→mich, du→dich, wir→uns, ihr→euch."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Te veo.",
+      "accept": ["Ich sehe dich"],
+      "hintWords": ["ich sehe dich"],
+      "strictAccents": false,
+      "audio": "Ich sehe dich.",
+      "explain": "du → dich como objeto directo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Nos conoce.",
+      "accept": ["Er kennt uns"],
+      "hintWords": ["er kennt uns"],
+      "strictAccents": false,
+      "audio": "Er kennt uns.",
+      "explain": "wir → uns como objeto directo."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto en acusativo",
+      "text": "Ich sehe ___ (a ti). Er kennt ___ (a nosotros).",
+      "blanks": [{ "accept": ["dich"] }, { "accept": ["uns"] }],
+      "bank": ["dich", "uns", "euch"],
+      "explain": "dich para «a ti»; uns para «a nosotros»."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["pronombres"],
+      "difficulty": 1,
+      "prompt": "Ordena para formar la frase: «Te quiero»",
+      "tokens": ["liebe", "dich", "Ich"],
+      "answer": ["Ich", "liebe", "dich"],
+      "audio": "Ich liebe dich.",
+      "explain": "Ich liebe dich: una de las frases más famosas del alemán."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["pronombres"],
+      "difficulty": 1,
+      "prompt": "Ich sehe ihn.",
+      "accept": ["Lo veo.", "Lo veo a él."],
+      "strictAccents": false,
+      "audio": "Ich sehe ihn.",
+      "explain": "ihn sustituye a un sustantivo masculino ya mencionado."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Kennst du mich?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich kenne dich."], "hint": "responde que sí, que la conoces" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "mich (a mí) en la pregunta, dich (a ti) en la respuesta."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronombres"],
+      "difficulty": 1,
+      "speak": "Ich liebe dich.",
+      "mode": "write",
+      "accept": ["Ich liebe dich"],
+      "showTextAfter": true,
+      "explain": "Ich liebe dich = te quiero."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "speak": "Er kennt uns.",
+      "mode": "choose",
+      "options": ["Er kennt uns.", "Er kennt euch.", "Er kennt sie."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "uns, euch y sie suenan claramente distintos."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "speak": "Ich kenne dich, und ich liebe dich.",
+      "es": "Te conozco, y te quiero.",
+      "ipa": "/ɪç ˈkɛnə dɪç ʊnt ɪç ˈliːbə dɪç/",
+      "esApprox": "«ich KE-ne dich unt ich LÍ-be dich»",
+      "focus": "dich termina en ich-Laut suave: no lo conviertas en una jota.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "speak": "Er kennt uns, und wir kennen ihn.",
+      "es": "Él nos conoce, y nosotros lo conocemos a él.",
+      "ipa": "/eːɐ̯ kɛnt ʊns ʊnt viːɐ̯ ˈkɛnən iːn/",
+      "esApprox": "«er kent uns unt vir KE-nen in»",
+      "focus": "ihn se pronuncia «in», con una i larga y clara: nada que ver con er.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si conoces a tu amigo. Responde que sí, que lo conoces.",
+      "modelAnswer": "Ja, ich kenne ihn.",
+      "alsoValid": ["Ich kenne ihn."],
+      "speak": "Ja, ich kenne ihn.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada pronombre: ¿cambia de forma en acusativo o se queda igual?",
+      "buckets": ["Cambia de forma", "Igual que en nominativo"],
+      "items": [
+        { "text": "ich", "bucket": 0 },
+        { "text": "du", "bucket": 0 },
+        { "text": "er", "bucket": 0 },
+        { "text": "es", "bucket": 1 },
+        { "text": "sie (ella)", "bucket": 1 }
+      ],
+      "explain": "mich, dich e ihn son las tres formas que hay que memorizar de verdad."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich sehe er.",
+      "accept": ["Ich sehe ihn"],
+      "audio": "Ich sehe ihn.",
+      "explain": "Como objeto directo, er cambia a ihn."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "mich", "es": "me, a mí", "esApprox": "«mich»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "dich", "es": "te, a ti", "esApprox": "«dich»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ihn", "es": "lo, a él", "esApprox": "«in»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "uns", "es": "nos, a nosotros", "esApprox": "«uns»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "euch", "es": "os, a vosotros", "esApprox": "«oich»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Ich kenne dich, und ich liebe dich.", "es": "Te conozco, y te quiero.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Er kennt uns, und wir kennen ihn.", "es": "Él nos conoce, y nosotros lo conocemos a él.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Ich liebe dich.", "es": "Te quiero.", "from": "e10" }
+  ]
+}

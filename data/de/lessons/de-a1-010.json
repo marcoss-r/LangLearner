@@ -1,0 +1,391 @@
+{
+  "id": "de-a1-010",
+  "lang": "de",
+  "level": "A1",
+  "order": 10,
+  "title": "El verbo haben",
+  "objectives": [
+    "Conjugar el verbo haben (tener) en las seis personas: habe, hast, hat, haben, habt, haben",
+    "Usar haben en expresiones idiomáticas de estado: Hunger haben, Durst haben, Zeit haben",
+    "Distinguir hat (er/sie/es) de habt (ihr), dos formas muy parecidas que se confunden con facilidad"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Haben: el segundo verbo imprescindible, y buenas noticias para un hispanohablante",
+      "body": "Haben (tener) es, junto con sein, el otro verbo que necesitas dominar cuanto antes: se usa constantemente y aparece en construcciones que en otros idiomas se dicen de otra forma. La buena noticia es que el alemán, igual que el español, usa «tener» para hablar del hambre, la sed o el tiempo disponible: Ich habe Hunger es literalmente «tengo hambre», con la misma lógica que en español (a diferencia del inglés, que dice «estoy hambriento»).",
+      "examples": [
+        { "target": "Ich habe Hunger.", "es": "Tengo hambre.", "note": "ich → habe" },
+        { "target": "Du hast Durst.", "es": "Tienes sed.", "note": "du → hast" },
+        { "target": "Er hat Zeit.", "es": "Él tiene tiempo.", "note": "er/sie/es → hat" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El verbo haben en presente",
+      "headers": ["Persona", "Forma", "Ejemplo"],
+      "rows": [
+        ["ich", "habe", "Ich habe Hunger."],
+        ["du", "hast", "Du hast Durst."],
+        ["er / sie / es", "hat", "Er hat Zeit."],
+        ["wir", "haben", "Wir haben Hunger."],
+        ["ihr", "habt", "Ihr habt Durst."],
+        ["sie / Sie", "haben", "Sie haben Zeit."]
+      ],
+      "note": "Igual que con sein, wir y sie/Sie comparten forma (haben), que además coincide con el infinitivo."
+    },
+    {
+      "type": "phonetics",
+      "title": "La h alemana se pronuncia, aunque sea suave",
+      "body": "A diferencia de la h española, que es siempre muda, la h alemana al principio de palabra SÍ se pronuncia: es un soplo de aire suave, como al empañar un cristal. Haben, habe, hast y hat empiezan todas con ese soplo.",
+      "drills": [
+        { "target": "habe", "ipa": "/ˈhaːbə/", "esApprox": "«HÁ-be», con un soplo de aire al empezar", "hint": "h aspirada" },
+        { "target": "hast", "ipa": "/hast/", "esApprox": "«jast» suave», con h aspirada", "hint": "du" },
+        { "target": "hat", "ipa": "/hat/", "esApprox": "«jat» suave", "hint": "er/sie/es" },
+        { "target": "habt", "ipa": "/haːpt/", "esApprox": "«HÁPT», la b final suena como p", "hint": "ihr" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: hat (él/ella) y habt (vosotros) se confunden fácilmente",
+      "items": [
+        { "wrong": "Er habt Zeit.", "right": "Er hat Zeit.", "why": "hat es la forma de er/sie/es; habt es la forma de ihr. Son muy parecidas por escrito, así que hay que fijarse bien en la persona antes de elegir." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Memoriza juntas estas tres expresiones con haben, porque las vas a usar constantemente desde el primer día: Hunger haben (tener hambre), Durst haben (tener sed), Zeit haben (tener tiempo)."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "haben",
+      "es": "tener (infinitivo)",
+      "ipa": "/ˈhaːbn̩/",
+      "esApprox": "«HÁ-ben»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Wir haben Zeit.", "es": "Tenemos tiempo." }
+    },
+    {
+      "id": "v2",
+      "target": "habe",
+      "es": "(yo) tengo",
+      "ipa": "/ˈhaːbə/",
+      "esApprox": "«HÁ-be»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich habe Hunger.", "es": "Tengo hambre." }
+    },
+    {
+      "id": "v3",
+      "target": "hast",
+      "es": "(tú) tienes",
+      "ipa": "/hast/",
+      "esApprox": "«jast» suave",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Du hast Durst.", "es": "Tienes sed." }
+    },
+    {
+      "id": "v4",
+      "target": "hat",
+      "es": "(él/ella/ello, usted) tiene",
+      "ipa": "/hat/",
+      "esApprox": "«jat» suave",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Er hat Zeit.", "es": "Él tiene tiempo." }
+    },
+    {
+      "id": "v5",
+      "target": "habt",
+      "es": "(vosotros) tenéis",
+      "ipa": "/haːpt/",
+      "esApprox": "«HÁPT»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ihr habt Durst.", "es": "Tenéis sed." }
+    },
+    {
+      "id": "v6",
+      "target": "die Zeit",
+      "es": "el tiempo (disponible, no el meteorológico)",
+      "ipa": "/tsaɪ̯t/",
+      "esApprox": "«TSAIT»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Zeiten",
+      "example": { "target": "Hast du Zeit?", "es": "¿Tienes tiempo?" }
+    },
+    {
+      "id": "v7",
+      "target": "der Hunger",
+      "es": "el hambre",
+      "ipa": "/ˈhʊŋɐ/",
+      "esApprox": "«JUN-guer» suave",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": null,
+      "example": { "target": "Ich habe Hunger.", "es": "Tengo hambre." }
+    },
+    {
+      "id": "v8",
+      "target": "der Durst",
+      "es": "la sed",
+      "ipa": "/dʊʁst/",
+      "esApprox": "«DURST»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": null,
+      "example": { "target": "Habt ihr Durst?", "es": "¿Tenéis sed?" }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["haben"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma de haben para «ich»?",
+      "options": ["hast", "habe", "hat", "haben"],
+      "answer": 1,
+      "explain": "ich habe es la primera persona del singular de haben."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["haben"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma de haben para «wir»?",
+      "options": ["habt", "haben", "hat", "habe"],
+      "answer": 1,
+      "explain": "wir haben coincide con la forma del infinitivo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["haben"],
+      "difficulty": 1,
+      "statement": "En alemán, para decir que tienes hambre o sed se usa el verbo haben, igual que en español.",
+      "answer": true,
+      "explain": "Hunger haben, Durst haben: la misma lógica que «tener hambre», «tener sed» en español."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["haben"],
+      "difficulty": 1,
+      "statement": "La forma de haben para «ihr» es «hat».",
+      "answer": false,
+      "explain": "La forma de ihr es habt, no hat. Hat es de er/sie/es."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas NO pertenece al verbo haben?",
+      "options": ["habe", "hast", "seid", "habt"],
+      "answer": 2,
+      "explain": "Seid pertenece al verbo sein, no a haben."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "prompt": "Une cada pronombre con su forma de haben",
+      "left": ["ich", "du", "wir", "ihr"],
+      "right": ["habe", "hast", "haben", "habt"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Las cuatro formas de haben para ich, du, wir e ihr."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "prompt": "Tengo hambre.",
+      "accept": ["Ich habe Hunger"],
+      "hintWords": ["ich habe", "Hunger"],
+      "strictAccents": false,
+      "audio": "Ich habe Hunger.",
+      "explain": "Hunger haben = tener hambre, igual que en español."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "prompt": "Tienes sed.",
+      "accept": ["Du hast Durst"],
+      "hintWords": ["du hast", "Durst"],
+      "strictAccents": false,
+      "audio": "Du hast Durst.",
+      "explain": "Durst haben = tener sed."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de haben",
+      "text": "Ich ___ Hunger. Du ___ Durst.",
+      "blanks": [{ "accept": ["habe"] }, { "accept": ["hast"] }],
+      "bank": ["habe", "hast", "hat"],
+      "explain": "ich → habe; du → hast."
+    },
+    {
+      "id": "e10",
+      "type": "conjugation",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "verb": "haben",
+      "tense": "Präsens",
+      "prompt": "Conjuga «haben» (tener) en presente",
+      "rows": [
+        { "person": "ich", "accept": ["habe"] },
+        { "person": "du", "accept": ["hast"] },
+        { "person": "er / sie / es", "accept": ["hat"] },
+        { "person": "wir", "accept": ["haben"] },
+        { "person": "ihr", "accept": ["habt"] },
+        { "person": "sie / Sie", "accept": ["haben"] }
+      ],
+      "explain": "hast y hat rompen el patrón de habe/haben: son las dos formas que más hay que vigilar."
+    },
+    {
+      "id": "e11",
+      "type": "word_order",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tenemos tiempo»",
+      "tokens": ["Zeit", "Wir", "haben"],
+      "answer": ["Wir", "haben", "Zeit"],
+      "audio": "Wir haben Zeit.",
+      "explain": "Wir + haben + Zeit, el mismo orden que las demás frases con haben."
+    },
+    {
+      "id": "e12",
+      "type": "translate_to_es",
+      "tags": ["haben"],
+      "difficulty": 1,
+      "prompt": "Er hat Zeit.",
+      "accept": ["Él tiene tiempo."],
+      "strictAccents": false,
+      "audio": "Er hat Zeit.",
+      "explain": "Zeit haben = tener tiempo disponible."
+    },
+    {
+      "id": "e13",
+      "type": "dialogue",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación antes de comer",
+      "turns": [
+        { "who": "Anna", "text": "Hast du Hunger?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich habe Hunger."], "hint": "responde que sí, que tienes hambre" },
+        { "who": "Anna", "text": "Guten Appetit!", "speak": true }
+      ],
+      "explain": "Hast du Hunger? es la pregunta típica antes de comer."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["haben"],
+      "difficulty": 1,
+      "speak": "Ich habe Zeit.",
+      "mode": "write",
+      "accept": ["Ich habe Zeit"],
+      "showTextAfter": true,
+      "explain": "Ich habe Zeit = tengo tiempo."
+    },
+    {
+      "id": "e15",
+      "type": "listening",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "speak": "Wir haben Hunger.",
+      "mode": "choose",
+      "options": ["Wir haben Hunger.", "Ihr habt Hunger.", "Sie haben Hunger."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Wir, ihr y Sie llevan formas de haben distintas: haben, habt, haben."
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "speak": "Ich habe Hunger und Durst.",
+      "es": "Tengo hambre y sed.",
+      "ipa": "/ɪç ˈhaːbə ˈhʊŋɐ ʊnt dʊʁst/",
+      "esApprox": "«ich HÁ-be JUN-guer unt durst»",
+      "focus": "La h de habe se pronuncia con un soplo de aire suave, no como la h muda del español.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "shadowing",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "speak": "Sie haben Zeit.",
+      "es": "Ellos tienen tiempo. / Ustedes tienen tiempo.",
+      "ipa": "/ziː ˈhaːbn̩ tsaɪ̯t/",
+      "esApprox": "«zi HÁ-ben tsait»",
+      "focus": "Otra vez la ambigüedad sie/Sie: hablado, «ellos tienen» y «ustedes tienen» suenan exactamente igual.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "speak_prompt",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si tienes sed. Responde que sí, que tienes sed.",
+      "modelAnswer": "Ja, ich habe Durst.",
+      "alsoValid": ["Ich habe Durst."],
+      "speak": "Ja, ich habe Durst.",
+      "selfAssess": true
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada forma de haben: ¿singular o plural?",
+      "buckets": ["Singular", "Plural"],
+      "items": [
+        { "text": "habe", "bucket": 0 },
+        { "text": "hast", "bucket": 0 },
+        { "text": "hat", "bucket": 0 },
+        { "text": "haben", "bucket": 1 },
+        { "text": "habt", "bucket": 1 }
+      ],
+      "explain": "habe, hast y hat son formas del singular; haben y habt, del plural."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["haben"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Er habt Zeit.",
+      "accept": ["Er hat Zeit"],
+      "audio": "Er hat Zeit.",
+      "explain": "hat es la forma de er/sie/es; habt es la de ihr. Son las dos formas de haben que más se confunden."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "haben", "es": "tener (infinitivo)", "esApprox": "«HÁ-ben»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "habe", "es": "(yo) tengo", "esApprox": "«HÁ-be»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "hast", "es": "(tú) tienes", "esApprox": "«jast»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "hat", "es": "(él/ella) tiene", "esApprox": "«jat»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "habt", "es": "(vosotros) tenéis", "esApprox": "«HÁPT»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Zeit", "es": "el tiempo (disponible)", "esApprox": "«TSAIT»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "der Hunger", "es": "el hambre", "esApprox": "«JUN-guer»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "der Durst", "es": "la sed", "esApprox": "«DURST»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich habe Hunger und Durst.", "es": "Tengo hambre y sed.", "from": "e16" },
+    { "id": "s10", "kind": "phrase", "target": "Sie haben Zeit.", "es": "Ellos tienen tiempo.", "from": "e17" }
+  ]
+}

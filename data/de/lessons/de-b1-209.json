@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-209",
+  "lang": "de",
+  "level": "B1",
+  "order": 209,
+  "title": "Los verbos de régimen preposicional que más se confunden",
+  "objectives": [
+    "Distinguir sich interessieren für de interessiert sein an, que llevan preposiciones distintas",
+    "Distinguir denken an (pensar en alguien/algo, recordar) de denken über (opinar sobre algo)",
+    "Repasar sich freuen auf (futuro) frente a sich freuen über (pasado/presente)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Mismo campo semántico, preposición distinta",
+      "body": "Algunos pares de palabras casi sinónimas usan preposiciones distintas, y es fácil confundirlas: el verbo «sich interessieren für» (interesarse por) rige für + acusativo, pero el adjetivo «interessiert sein an» (estar interesado en) rige an + dativo, aunque signifiquen casi lo mismo. Del mismo modo, «denken an» (pensar en alguien, recordar) no es lo mismo que «denken über» (opinar sobre algo, reflexionar).",
+      "examples": [
+        { "target": "Ich interessiere mich für Musik. / Ich bin an Musik interessiert.", "es": "Me interesa la música. (dos formas, dos preposiciones)" },
+        { "target": "Ich denke oft an dich. / Was denkst du über das Buch?", "es": "Pienso a menudo en ti. / ¿Qué opinas del libro?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Pares que se confunden con frecuencia",
+      "headers": ["Expresión 1", "Expresión 2", "Diferencia"],
+      "rows": [
+        ["sich interessieren für + Akk.", "interessiert sein an + Dat.", "Mismo significado, verbo vs. adjetivo, distinta preposición"],
+        ["denken an + Akk.", "denken über + Akk.", "an = pensar en/recordar; über = opinar sobre"],
+        ["sich freuen auf + Akk.", "sich freuen über + Akk.", "auf = futuro; über = pasado/presente (repaso clase 206)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No hay un truco universal: la única forma fiable de dominar estos pares es memorizar cada expresión como una unidad completa (verbo/adjetivo + preposición + caso), tal como has hecho en todo este bloque."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sich interessieren für", "es": "interesarse por (+ acusativo)", "ipa": "/zɪç ɪntəʁɛˈsiːʁən fyːɐ̯/", "esApprox": "«zich in-te-re-SÍ-ren fiur»", "pos": "verbo con preposición fija", "gender": null, "example": { "target": "Ich interessiere mich für Musik.", "es": "Me interesa la música." } },
+    { "id": "v2", "target": "interessiert sein an", "es": "estar interesado en (+ dativo)", "ipa": "/ɪntəʁɛˈsiːɐ̯t zaɪ̯n an/", "esApprox": "«in-te-re-SIRT zain an»", "pos": "adjetivo con preposición fija", "gender": null, "example": { "target": "Ich bin an Musik interessiert.", "es": "Estoy interesado en la música." } },
+    { "id": "v3", "target": "denken an", "es": "pensar en, recordar (+ acusativo)", "ipa": "/ˈdɛŋkn̩ an/", "esApprox": "«DÉN-ken an»", "pos": "verbo con preposición fija", "gender": null, "example": { "target": "Ich denke oft an dich.", "es": "Pienso a menudo en ti." } },
+    { "id": "v4", "target": "denken über", "es": "opinar sobre, reflexionar sobre (+ acusativo)", "ipa": "/ˈdɛŋkn̩ yːbɐ/", "esApprox": "«DÉN-ken IU-ber»", "pos": "verbo con preposición fija", "gender": null, "example": { "target": "Was denkst du über das Buch?", "es": "¿Qué opinas del libro?" } },
+    { "id": "v5", "target": "sich freuen über", "es": "alegrarse por (algo ya ocurrido, + acusativo)", "ipa": "/zɪç ˈfʁɔɪ̯ən yːbɐ/", "esApprox": "«zich FRÓI-en IU-ber»", "pos": "verbo con preposición fija", "gender": null, "example": { "target": "Ich freue mich über dein Geschenk.", "es": "Me alegro por tu regalo." } },
+    { "id": "v6", "target": "verwechseln", "es": "confundir", "ipa": "/fɛɐ̯ˈvɛksl̩n/", "esApprox": "«fer-VÉK-seln»", "pos": "verbo", "gender": null, "example": { "target": "Man verwechselt diese Formen leicht.", "es": "Se confunden estas formas fácilmente." } },
+    { "id": "v7", "target": "der Unterschied", "es": "la diferencia", "ipa": "/ˈʊntɐʃiːt/", "esApprox": "«ÚN-ter-shit»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein wichtiger Unterschied.", "es": "Esa es una diferencia importante." } },
+    { "id": "v8", "target": "auswendig lernen", "es": "aprender de memoria", "ipa": "/ˈaʊ̯svɛndɪç ˈlɛʁnən/", "esApprox": "«ÁUS-ven-dich LÉR-nen»", "pos": "locución verbal", "gender": null, "example": { "target": "Man muss diese Kombinationen auswendig lernen.", "es": "Hay que aprender estas combinaciones de memoria." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["regimen-preposicional"], "difficulty": 1, "prompt": "¿Qué preposición rige el verbo «sich interessieren»?", "options": ["an", "für", "über", "auf"], "answer": 1, "explain": "sich interessieren für; interessiert sein usa an." },
+    { "id": "e2", "type": "mcq", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "¿Qué significa «denken über das Buch»?", "options": ["Pensar en el libro (recordarlo)", "Opinar sobre el libro", "Leer el libro", "Escribir el libro"], "answer": 1, "explain": "denken über = opinar sobre, reflexionar sobre." },
+    { "id": "e3", "type": "true_false", "tags": ["regimen-preposicional"], "difficulty": 2, "statement": "«denken an dich» y «denken über dich» significan lo mismo.", "answer": false, "explain": "denken an dich = pensar en ti (recordarte); denken über dich = opinar sobre ti (tener una valoración)." },
+    { "id": "e4", "type": "true_false", "tags": ["regimen-preposicional"], "difficulty": 2, "statement": "sich freuen über se usa para algo que va a pasar en el futuro.", "answer": false, "explain": "sich freuen über es para algo ya ocurrido; sich freuen auf es para el futuro." },
+    { "id": "e5", "type": "match_pairs", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Une cada expresión con su significado", "left": ["sich interessieren für", "interessiert sein an", "denken an", "denken über"], "right": ["interesarse por (verbo)", "estar interesado en (adjetivo)", "pensar en, recordar", "opinar sobre"], "answer": [0, 1, 2, 3], "explain": "Cuatro expresiones que se confunden con frecuencia." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Me interesa la música.", "accept": ["Ich interessiere mich für Musik"], "hintWords": ["ich interessiere mich für Musik"], "strictAccents": false, "audio": "Ich interessiere mich für Musik.", "explain": "interessiere + mich + für Musik (acusativo)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Pienso a menudo en ti.", "accept": ["Ich denke oft an dich"], "hintWords": ["ich denke oft an dich"], "strictAccents": false, "audio": "Ich denke oft an dich.", "explain": "denke + oft + an dich (acusativo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "¿Qué opinas del libro?", "accept": ["Was denkst du über das Buch?"], "hintWords": ["was denkst du über das Buch"], "strictAccents": false, "audio": "Was denkst du über das Buch?", "explain": "Was + denkst + du + über das Buch (acusativo)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Completa con la preposición correcta", "text": "Ich bin ___ Musik interessiert. Ich freue mich ___ dein Geschenk.", "blanks": [{ "accept": ["an"] }, { "accept": ["über"] }], "bank": ["an", "über", "auf"], "explain": "interessiert sein an; sich freuen über (algo ya recibido)." },
+    { "id": "e10", "type": "word_order", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Ordena: «Se confunden estas formas fácilmente»", "tokens": ["diese Formen leicht", "Man verwechselt"], "answer": ["Man verwechselt", "diese Formen leicht"], "audio": "Man verwechselt diese Formen leicht.", "explain": "Man verwechselt (posición 2) + diese Formen + leicht." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Das ist ein wichtiger Unterschied.", "accept": ["Esa es una diferencia importante."], "strictAccents": false, "audio": "Das ist ein wichtiger Unterschied.", "explain": "der Unterschied = la diferencia." },
+    { "id": "e12", "type": "dialogue", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Woran denkst du gerade?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich denke gerade an dich."], "hint": "responde con denken an" },
+      { "who": "Lea", "text": "Wie süß!", "speak": true }
+    ], "explain": "denken an: pensar en alguien, con el compuesto woran (repaso de la clase 205)." },
+    { "id": "e13", "type": "listening", "tags": ["regimen-preposicional"], "difficulty": 1, "speak": "Ich denke oft an dich.", "mode": "write", "accept": ["Ich denke oft an dich"], "showTextAfter": true, "explain": "denke + oft + an + acusativo." },
+    { "id": "e14", "type": "listening", "tags": ["regimen-preposicional"], "difficulty": 2, "speak": "Was denkst du über das Buch?", "mode": "choose", "options": ["Was denkst du über das Buch?", "Was denkst du an das Buch?", "Was denkst du für das Buch?"], "answer": 0, "showTextAfter": true, "explain": "denken über: para pedir una opinión, no an." },
+    { "id": "e15", "type": "shadowing", "tags": ["regimen-preposicional"], "difficulty": 2, "speak": "Ich interessiere mich für Musik, aber ich bin auch an Kunst interessiert; man verwechselt diese beiden Formen leicht.", "es": "Me interesa la música, pero también estoy interesado en el arte; se confunden fácilmente estas dos formas.", "ipa": "/ɪç ɪntəʁɛˈsiːʁə mɪç fyːɐ̯ muˈziːk ˈaːbɐ ɪç bɪn aʊ̯x an kʊnst ɪntəʁɛˈsiːɐ̯t man fɛɐ̯ˈvɛksl̩t ˈdiːzə ˈbaɪ̯dn̩ ˈfɔʁmən ˈlaɪ̯çt/", "esApprox": "«ich in-te-re-SÍ-re mich fiur mu-ZIK, Á-ber ich bin aoj an kunst in-te-re-SIRT; man fer-VÉK-selt DÍ-ze BÁI-den FOR-men laicht»", "focus": "sich interessieren für e interessiert sein an: las dos formas contrastadas en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["regimen-preposicional"], "difficulty": 2, "speak": "Ich denke oft an dich, und ich möchte wissen, was du über meine Idee denkst.", "es": "Pienso a menudo en ti, y quiero saber qué opinas de mi idea.", "ipa": "/ɪç ˈdɛŋkə ɔft an dɪç ʊnt ɪç ˈmœçtə ˈvɪsn̩ vas duː yːbɐ ˈmaɪ̯nə iˈdeː dɛŋkst/", "esApprox": "«ich DÉN-ke oft an dich, unt ich MÖCH-te VÍ-sen, vas du IU-ber MÁI-ne i-DÉ dénkst»", "focus": "denke an y denkst über: los dos significados de denken en la misma frase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Te preguntan en qué piensas. Di que piensas a menudo en esa persona.", "modelAnswer": "Ich denke oft an dich.", "alsoValid": ["Ich denke gerade an dich."], "speak": "Ich denke oft an dich.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Clasifica cada expresión según su preposición", "buckets": ["für/an (interés)", "an/über (denken)"], "items": [
+      { "text": "sich interessieren für", "bucket": 0 },
+      { "text": "interessiert sein an", "bucket": 0 },
+      { "text": "denken an", "bucket": 1 },
+      { "text": "denken über", "bucket": 1 }
+    ], "explain": "Repaso general de los pares que se confunden en esta clase." },
+    { "id": "e19", "type": "error_correction", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich interessiere mich an Musik.", "accept": ["Ich interessiere mich für Musik"], "audio": "Ich interessiere mich für Musik.", "explain": "El verbo sich interessieren rige für, no an (que es la preposición del adjetivo interessiert sein)." },
+    { "id": "e20", "type": "mcq", "tags": ["regimen-preposicional"], "difficulty": 2, "prompt": "«Ich interessiere mich für Musik, aber ich bin auch an Kunst interessiert. Man verwechselt diese Formen leicht, deshalb muss man sie auswendig lernen.» ¿Qué recomienda el texto para no confundir estas formas?", "options": ["Ignorarlas", "Aprenderlas de memoria como unidades", "Usar solo una de ellas", "Evitarlas siempre"], "answer": 1, "explain": "«deshalb muss man sie auswendig lernen» recomienda aprenderlas de memoria." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "sich interessieren für", "es": "interesarse por (+ acusativo)", "esApprox": "«zich in-te-re-SÍ-ren fiur»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "interessiert sein an", "es": "estar interesado en (+ dativo)", "esApprox": "«in-te-re-SIRT zain an»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "denken an", "es": "pensar en, recordar (+ acusativo)", "esApprox": "«DÉN-ken an»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "denken über", "es": "opinar sobre, reflexionar sobre (+ acusativo)", "esApprox": "«DÉN-ken IU-ber»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "sich freuen über", "es": "alegrarse por (algo ya ocurrido, + acusativo)", "esApprox": "«zich FRÓI-en IU-ber»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "verwechseln", "es": "confundir", "esApprox": "«fer-VÉK-seln»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich interessiere mich für Musik, aber ich bin auch an Kunst interessiert; man verwechselt diese beiden Formen leicht.", "es": "Me interesa la música, pero también estoy interesado en el arte; se confunden fácilmente estas dos formas.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich denke oft an dich, und ich möchte wissen, was du über meine Idee denkst.", "es": "Pienso a menudo en ti, y quiero saber qué opinas de mi idea.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "fr-a1-052",
+  "lang": "fr",
+  "level": "A1",
+  "order": 52,
+  "title": "Pedir y dar direcciones",
+  "objectives": [
+    "Pedir direcciones con educación: excusez-moi, pour aller à...?",
+    "Entender y dar instrucciones básicas: tout droit, à gauche, à droite, tournez",
+    "Preguntar y responder si un lugar está lejos: c'est loin ? c'est à... minutes"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Pour aller à...?",
+      "body": "Para pedir direcciones, la fórmula más natural es **excusez-moi** (clase 4) + **pour aller à...?** (para ir a...). Las respuestas suelen usar instrucciones cortas: tout droit, à gauche, à droite.",
+      "examples": [
+        { "target": "Excusez-moi, pour aller à la gare ?", "es": "Disculpe, ¿para ir a la estación?", "note": "fórmula estándar" },
+        { "target": "Tournez à gauche, puis continuez tout droit.", "es": "Gire a la izquierda, luego siga todo recto.", "note": "instrucciones con imperativo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Dar instrucciones",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["tout droit", "todo recto"],
+        ["à gauche", "a la izquierda"],
+        ["à droite", "a la derecha"],
+        ["tournez (vous) / tourne (tu)", "gire / gira"],
+        ["continuez (vous) / continue (tu)", "siga / sigue"],
+        ["c'est loin ?", "¿está lejos?"],
+        ["c'est à cinq minutes", "está a cinco minutos"],
+        ["au bout de la rue", "al final de la calle"]
+      ],
+      "note": "Tournez y continuez son imperativos: verás la forma completa en la clase 84, pero ya puedes usarlos como bloques fijos para dar instrucciones."
+    },
+    {
+      "type": "contrast",
+      "title": "Loin y près son opuestos, no confundirlos",
+      "items": [
+        { "wrong": "Usar loin para decir que algo está cerca", "right": "loin = lejos; près = cerca (clase 51: près d'ici)", "why": "Son dos palabras cortas y algo parecidas fonéticamente para un principiante, pero significan justo lo contrario. C'est loin (está lejos) frente a c'est près (está cerca)." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Au bout de la rue (al final de la calle) es una expresión muy típica en instrucciones: «c'est au bout de la rue, à droite» (está al final de la calle, a la derecha)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "pour aller à...?", "es": "¿para ir a...?", "ipa": "/puʁ a.le a/", "esApprox": "«pur a-LÉ a»", "pos": "expresión", "gender": null, "example": { "target": "Excusez-moi, pour aller à la gare ?", "es": "Disculpe, ¿para ir a la estación?" } },
+    { "id": "v2", "target": "tout droit", "es": "todo recto", "ipa": "/tu dʁwa/", "esApprox": "«tu DRUÁ»", "pos": "expresión", "gender": null, "example": { "target": "Continuez tout droit.", "es": "Siga todo recto." } },
+    { "id": "v3", "target": "à gauche", "es": "a la izquierda", "ipa": "/a ɡoʃ/", "esApprox": "«a GOSH»", "pos": "expresión", "gender": null, "example": { "target": "Tournez à gauche.", "es": "Gire a la izquierda." } },
+    { "id": "v4", "target": "à droite", "es": "a la derecha", "ipa": "/a dʁwat/", "esApprox": "«a DRUÁT»", "pos": "expresión", "gender": null, "example": { "target": "Tournez à droite.", "es": "Gire a la derecha." } },
+    { "id": "v5", "target": "tournez / tourne", "es": "gire / gira", "ipa": "/tuʁ.ne / tuʁn/", "esApprox": "«tur-NÉ» / «TURN»", "pos": "expresión", "gender": null, "example": { "target": "Tournez à droite ici.", "es": "Gire a la derecha aquí." } },
+    { "id": "v6", "target": "continuez / continue", "es": "siga / sigue", "ipa": "/kɔ̃.ti.nɥe / kɔ̃.ti.ny/", "esApprox": "«kon-ti-nüÉ» / «kon-ti-NÜ»", "pos": "expresión", "gender": null, "example": { "target": "Continuez tout droit.", "es": "Siga todo recto." } },
+    { "id": "v7", "target": "c'est loin ?", "es": "¿está lejos?", "ipa": "/sɛ lwɛ̃/", "esApprox": "«se LUÉN»", "pos": "expresión", "gender": null, "example": { "target": "C'est loin d'ici ?", "es": "¿Está lejos de aquí?" } },
+    { "id": "v8", "target": "au bout de la rue", "es": "al final de la calle", "ipa": "/o bu də la ʁy/", "esApprox": "«o bu de la RÜ»", "pos": "expresión", "gender": null, "example": { "target": "C'est au bout de la rue.", "es": "Está al final de la calle." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «a la izquierda»?",
+      "options": ["à droite", "à gauche", "tout droit", "au bout"],
+      "answer": 1,
+      "explain": "À gauche = a la izquierda."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "prompt": "¿Cómo empiezas a pedir una dirección con educación?",
+      "options": ["Tournez à droite.", "Excusez-moi, pour aller à...?", "C'est loin ?", "Tout droit."],
+      "answer": 1,
+      "explain": "Excusez-moi + pour aller à...? es la fórmula estándar."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "statement": "Loin y près significan lo mismo.",
+      "answer": false,
+      "explain": "Loin = lejos, près = cerca: son opuestos."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas expresiones NO es una instrucción de dirección, a diferencia de las demás?",
+      "options": ["tout droit", "à gauche", "c'est loin ?", "à droite"],
+      "answer": 2,
+      "explain": "C'est loin ? es una pregunta; las otras tres son instrucciones."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["tout droit", "à droite", "au bout de la rue", "c'est loin ?"],
+      "right": ["¿está lejos?", "todo recto", "al final de la calle", "a la derecha"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Tout droit = todo recto, à droite = a la derecha, au bout de la rue = al final de la calle, c'est loin ? = ¿está lejos?"
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Disculpe, ¿para ir a la estación?",
+      "accept": ["Excusez-moi, pour aller à la gare ?"],
+      "hintWords": ["pour aller à"],
+      "strictAccents": false,
+      "audio": "Excusez-moi, pour aller à la gare ?",
+      "explain": "Excusez-moi + pour aller à + lugar."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Gire a la izquierda, luego siga todo recto.",
+      "accept": ["Tournez à gauche, puis continuez tout droit"],
+      "hintWords": ["tournez à gauche", "continuez tout droit"],
+      "strictAccents": false,
+      "audio": "Tournez à gauche, puis continuez tout droit.",
+      "explain": "Dos instrucciones seguidas, con puis (luego)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Completa las instrucciones",
+      "text": "Continuez ___, puis tournez ___.",
+      "blanks": [{ "accept": ["tout droit"] }, { "accept": ["à droite"] }],
+      "bank": ["tout droit", "à droite", "loin"],
+      "explain": "Continuez tout droit, puis tournez à droite."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Está al final de la calle»",
+      "tokens": ["de la rue", "C'est", "au bout"],
+      "answer": ["C'est", "au bout", "de la rue"],
+      "audio": "C'est au bout de la rue.",
+      "explain": "C'est au bout de la rue: estructura fija."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["direcciones"],
+      "difficulty": 1,
+      "prompt": "C'est loin ? Non, c'est à cinq minutes à pied.",
+      "accept": ["¿Está lejos? No, está a cinco minutos a pie."],
+      "strictAccents": false,
+      "audio": "C'est loin ? Non, c'est à cinq minutes à pied.",
+      "explain": "C'est à + tiempo, para decir la distancia."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación pidiendo direcciones",
+      "turns": [
+        { "who": "Toi", "blank": true, "accept": ["Excusez-moi, pour aller à la banque ?"], "hint": "pregunta por el banco con educación" },
+        { "who": "Passant", "text": "Tournez à droite, puis c'est tout droit.", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Merci beaucoup !", "C'est loin ?"], "hint": "da las gracias o pregunta si está lejos" }
+      ],
+      "explain": "Pour aller à...? y tournez/continuez son las fórmulas clave de esta clase."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "speak": "Tournez à gauche, puis continuez tout droit jusqu'à la place.",
+      "mode": "write",
+      "accept": ["Tournez à gauche, puis continuez tout droit jusqu'à la place"],
+      "showTextAfter": true,
+      "explain": "Instrucciones completas con tournez y continuez."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "speak": "c'est loin ?",
+      "mode": "choose",
+      "options": ["c'est loin ?", "c'est près ?", "à droite", "tout droit"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "C'est loin ? = ¿está lejos?"
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["direcciones"],
+      "difficulty": 3,
+      "speak": "Excusez-moi, pour aller à la gare ? Tournez à gauche, continuez tout droit, c'est au bout de la rue.",
+      "es": "Disculpe, ¿para ir a la estación? Gire a la izquierda, siga todo recto, está al final de la calle.",
+      "ipa": "/ɛk.sky.ze mwa puʁ a.le a la ɡaʁ tuʁ.ne a ɡoʃ kɔ̃.ti.nɥe tu dʁwa sɛ.t‿o bu də la ʁy/",
+      "esApprox": "«eks-kü-ZÉ MUÁ pur a-LÉ a la GAR tur-NÉ a GOSH kon-ti-nüÉ tu DRUÁ se-to BU de la RÜ»",
+      "focus": "Una conversación completa de pedir y dar direcciones, de principio a fin.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Da instrucciones para ir desde tu casa hasta el parque más cercano.",
+      "modelAnswer": "Tournez à droite, continuez tout droit, c'est au bout de la rue.",
+      "alsoValid": ["C'est tout droit, puis à gauche, à cinq minutes à pied."],
+      "speak": "Tournez à droite, continuez tout droit, c'est au bout de la rue.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "¿Es una pregunta o una instrucción?",
+      "buckets": ["Pregunta", "Instrucción"],
+      "items": [
+        { "text": "Pour aller à la gare ?", "bucket": 0 },
+        { "text": "Tournez à gauche.", "bucket": 1 },
+        { "text": "C'est loin ?", "bucket": 0 },
+        { "text": "Continuez tout droit.", "bucket": 1 }
+      ],
+      "explain": "Dos preguntas para pedir información, dos instrucciones para responder."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["direcciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error: loin y près están cambiados. Corrige la frase entera.",
+      "wrong": "C'est loin, à cinq minutes à pied.",
+      "accept": ["C'est près, à cinq minutes à pied"],
+      "audio": "C'est près, à cinq minutes à pied.",
+      "explain": "A cinco minutos a pie está cerca (près), no lejos (loin)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "pour aller à...?", "es": "¿para ir a...?", "esApprox": "«pur a-LÉ a»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "tout droit", "es": "todo recto", "esApprox": "«tu DRUÁ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "à gauche", "es": "a la izquierda", "esApprox": "«a GOSH»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "à droite", "es": "a la derecha", "esApprox": "«a DRUÁT»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "tournez / tourne", "es": "gire / gira", "esApprox": "«tur-NÉ» / «TURN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "c'est loin ?", "es": "¿está lejos?", "esApprox": "«se LUÉN»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "au bout de la rue", "es": "al final de la calle", "esApprox": "«o bu de la RÜ»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "Excusez-moi, pour aller à la gare ?", "es": "Disculpe, ¿para ir a la estación?", "from": "e6" },
+    { "id": "s9", "kind": "phrase", "target": "Excusez-moi, pour aller à la gare ? Tournez à gauche, continuez tout droit, c'est au bout de la rue.", "es": "Disculpe, ¿para ir a la estación? Gire a la izquierda, siga todo recto, está al final de la calle.", "from": "e14" }
+  ]
+}

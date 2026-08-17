@@ -1,0 +1,94 @@
+{
+  "id": "de-a2-107",
+  "lang": "de",
+  "level": "A2",
+  "order": 107,
+  "title": "Los cuatro casos y los tres tipos de declinación, todos juntos",
+  "objectives": [
+    "Ver de un vistazo la tabla completa de los tres tipos de declinación del adjetivo (der-, ein-, sin artículo)",
+    "Identificar qué tipo de declinación corresponde a una frase según su artículo",
+    "Aplicar la regla general: el artículo o el adjetivo siempre marcan el género y el caso, nunca ambos redundantemente al máximo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres tablas en una sola idea",
+      "body": "Has visto tres patrones distintos en las clases 101-106: tras der/die/das (fuerte en el artículo, débil en el adjetivo, casi siempre -e/-en), tras ein/mein (el artículo no siempre marca género, así que el adjetivo ayuda con -er/-e/-es), y sin artículo (el adjetivo hace todo el trabajo, con las terminaciones más «fuertes»). La buena noticia: dativo y genitivo son casi siempre -en/-em/-er en los tres patrones, así que solo nominativo y acusativo requieren memorización real."
+    },
+    {
+      "type": "table",
+      "title": "Las tres declinaciones, lado a lado (Nominativ)",
+      "headers": ["Tipo", "Masculino", "Femenino", "Neutro", "Plural"],
+      "rows": [
+        ["der/die/das", "der große Mann", "die große Frau", "das große Kind", "die großen Kinder"],
+        ["ein/mein", "ein großer Mann", "eine große Frau", "ein großes Kind", "meine großen Kinder"],
+        ["sin artículo", "guter Wein", "frische Milch", "kaltes Wasser", "kleine Kinder"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las tres declinaciones, lado a lado (Akkusativ)",
+      "headers": ["Tipo", "Masculino", "Femenino", "Neutro", "Plural"],
+      "rows": [
+        ["der/die/das", "den großen Mann", "die große Frau", "das große Kind", "die großen Kinder"],
+        ["ein/mein", "einen großen Mann", "eine große Frau", "ein großes Kind", "meine großen Kinder"],
+        ["sin artículo", "guten Wein", "frische Milch", "kaltes Wasser", "kleine Kinder"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Solo tienes que memorizar de verdad el nominativo y el acusativo de los tres patrones (12 combinaciones, pero muchas se repiten). El dativo y el genitivo son casi siempre -en (con der/ein) o -em/-er (sin artículo): mucho menos que memorizar."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Deklination", "es": "la declinación", "ipa": "/deklinaˈtsi̯oːn/", "esApprox": "«de-kli-na-tsi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Deklination des Adjektivs ist komplex.", "es": "La declinación del adjetivo es compleja." } },
+    { "id": "v2", "target": "das Muster", "es": "el patrón, el modelo", "ipa": "/ˈmʊstɐ/", "esApprox": "«MÚS-ter»", "pos": "sustantivo", "gender": "n", "example": { "target": "Es gibt drei Muster.", "es": "Hay tres patrones." } },
+    { "id": "v3", "target": "stark", "es": "fuerte", "ipa": "/ʃtaʁk/", "esApprox": "«shtark»", "pos": "adjetivo", "gender": null, "example": { "target": "Ohne Artikel ist die Endung stark.", "es": "Sin artículo, la terminación es fuerte." } },
+    { "id": "v4", "target": "schwach", "es": "débil", "ipa": "/ʃvax/", "esApprox": "«shvach»", "pos": "adjetivo", "gender": null, "example": { "target": "Nach der/die/das ist die Endung schwach.", "es": "Tras der/die/das, la terminación es débil." } },
+    { "id": "v5", "target": "die Übersicht", "es": "el resumen, la vista general", "ipa": "/ˈyːbɐzɪçt/", "esApprox": "«Ü-ber-zicht»", "pos": "sustantivo", "gender": "f", "example": { "target": "Hier ist eine Übersicht.", "es": "Aquí hay un resumen." } },
+    { "id": "v6", "target": "vergleichen", "es": "comparar", "ipa": "/fɛɐ̯ˈɡlaɪ̯çn̩/", "esApprox": "«fer-GLÁI-chen»", "pos": "verbo", "gender": null, "example": { "target": "Wir vergleichen die drei Muster.", "es": "Comparamos los tres patrones." } },
+    { "id": "v7", "target": "komplex", "es": "complejo", "ipa": "/kɔmˈplɛks/", "esApprox": "«kom-PLEKS»", "pos": "adjetivo", "gender": null, "example": { "target": "Das System ist komplex.", "es": "El sistema es complejo." } },
+    { "id": "v8", "target": "das System", "es": "el sistema", "ipa": "/zʏsˈteːm/", "esApprox": "«züs-TEM»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das System hat eine Logik.", "es": "El sistema tiene una lógica." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["contraste"], "difficulty": 1, "prompt": "¿Qué patrón usa terminaciones «fuertes» (-er/-e/-es en nominativo)?", "options": ["der/die/das", "ein/mein", "sin artículo", "ninguno"], "answer": 2, "explain": "Sin artículo, el adjetivo lleva las terminaciones más fuertes, porque nadie más marca el género." },
+    { "id": "e2", "type": "mcq", "tags": ["contraste"], "difficulty": 2, "prompt": "¿Qué patrón usa casi siempre -e o -en (terminaciones «débiles»)?", "options": ["der/die/das", "sin artículo", "ein en nominativo masculino", "ninguno"], "answer": 0, "explain": "Tras der/die/das, el adjetivo es «débil»: -e o -en, porque el artículo ya marca el género." },
+    { "id": "e3", "type": "true_false", "tags": ["contraste"], "difficulty": 2, "statement": "Dativo y genitivo son casi siempre -en, con der/die/das y con ein/mein.", "answer": true, "explain": "Repaso de las clases 102 y 104: el patrón más simple de toda la declinación." },
+    { "id": "e4", "type": "true_false", "tags": ["declinacion-adjetivo"], "difficulty": 2, "statement": "«ein großer Mann» y «der große Mann» usan la misma terminación de adjetivo.", "answer": false, "explain": "ein großer Mann (-er) frente a der große Mann (-e): distintas, porque ein no marca el masculino por sí solo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["contraste"], "difficulty": 2, "prompt": "Une cada frase con su tipo de declinación", "left": ["der große Mann", "ein großer Mann", "guter Wein", "meine großen Kinder"], "right": ["der/die/das", "ein/mein (masc. nom.)", "sin artículo", "ein/mein (plural)"], "answer": [0, 1, 2, 3], "explain": "Los tres tipos de declinación, identificados por su artículo (o ausencia de él)." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["contraste"], "difficulty": 2, "prompt": "La declinación del adjetivo es compleja.", "accept": ["Die Deklination des Adjektivs ist komplex"], "hintWords": ["die Deklination des Adjektivs ist komplex"], "strictAccents": false, "audio": "Die Deklination des Adjektivs ist komplex.", "explain": "die Deklination + des Adjektivs (genitivo)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["contraste"], "difficulty": 2, "prompt": "Comparamos los tres patrones.", "accept": ["Wir vergleichen die drei Muster"], "hintWords": ["wir vergleichen die drei Muster"], "strictAccents": false, "audio": "Wir vergleichen die drei Muster.", "explain": "vergleichen + acusativo (die drei Muster)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["contraste"], "difficulty": 2, "prompt": "Sin artículo, la terminación es fuerte.", "accept": ["Ohne Artikel ist die Endung stark"], "hintWords": ["ohne Artikel ist die Endung stark"], "strictAccents": false, "audio": "Ohne Artikel ist die Endung stark.", "explain": "ohne + acusativo (Artikel); ist + adjetivo predicativo (stark)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["contraste"], "difficulty": 3, "prompt": "Completa según el tipo de declinación", "text": "der groß___ Mann (der/die/das) ein groß___ Mann (ein) gut___ Wein (sin artículo)", "blanks": [{ "accept": ["e"] }, { "accept": ["er"] }, { "accept": ["er"] }], "bank": ["e", "er"], "explain": "der große Mann (-e); ein großer Mann (-er); guter Wein (-er)." },
+    { "id": "e10", "type": "word_order", "tags": ["contraste"], "difficulty": 2, "prompt": "Ordena: «El sistema tiene una lógica»", "tokens": ["eine Logik", "hat", "Das System"], "answer": ["Das System", "hat", "eine Logik"], "audio": "Das System hat eine Logik.", "explain": "Das System hat eine Logik: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["contraste"], "difficulty": 2, "prompt": "Hier ist eine Übersicht.", "accept": ["Aquí hay un resumen."], "strictAccents": false, "audio": "Hier ist eine Übersicht.", "explain": "die Übersicht = el resumen, la vista general." },
+    { "id": "e12", "type": "dialogue", "tags": ["contraste"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lehrerin", "text": "Warum ist «ein großer Mann» anders als «der große Mann»?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Weil ein nicht das Geschlecht zeigt, deshalb hilft das Adjektiv.", "Weil ein nicht so klar ist wie der."], "hint": "explica la diferencia con tus palabras" },
+      { "who": "Lehrerin", "text": "Genau, sehr gut erklärt!", "speak": true }
+    ], "explain": "Práctica de explicar la lógica de la declinación del adjetivo." },
+    { "id": "e13", "type": "listening", "tags": ["contraste"], "difficulty": 1, "speak": "Die Deklination des Adjektivs ist komplex.", "mode": "write", "accept": ["Die Deklination des Adjektivs ist komplex"], "showTextAfter": true, "explain": "Frase clave de esta clase de síntesis." },
+    { "id": "e14", "type": "listening", "tags": ["contraste"], "difficulty": 2, "speak": "Ohne Artikel ist die Endung stark.", "mode": "choose", "options": ["Ohne Artikel ist die Endung stark.", "Mit Artikel ist die Endung stark.", "Ohne Artikel ist die Endung schwach."], "answer": 0, "showTextAfter": true, "explain": "Sin artículo, la terminación es fuerte (marca el género); con der/die/das, es débil." },
+    { "id": "e15", "type": "shadowing", "tags": ["contraste"], "difficulty": 2, "speak": "Der große Mann, ein großer Mann und guter Wein: drei Muster, eine Logik.", "es": "El hombre grande, un hombre grande y buen vino: tres patrones, una lógica.", "ipa": "/deːɐ̯ ˈɡʁoːsə man aɪ̯n ˈɡʁoːsɐ man ʊnt ˈɡuːtɐ vaɪ̯n dʁaɪ̯ ˈmʊstɐ ˈaɪ̯nə ˈloːɡɪk/", "esApprox": "«der GRÓ-se man, ain GRÓ-ser man unt GÚ-ter vain: drai MÚS-ter, ÁI-ne LÓ-guik»", "focus": "Tres terminaciones distintas (-e, -er, -er) para el mismo adjetivo groß/gut, según el tipo de declinación.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["contraste"], "difficulty": 2, "speak": "In Dativ und Genitiv ist fast immer -en, egal ob der, ein oder kein Artikel da ist.", "es": "En dativo y genitivo casi siempre es -en, sin importar si hay der, ein o ningún artículo.", "ipa": "/ɪn ˈdaːtiːf ʊnt ɡeˈniːtiːf ɪst fast ˈɪmɐ ɛn eˈɡaːl ɔp deːɐ̯ aɪ̯n ˈoːdɐ kaɪ̯n aʁˈtiːkl̩ daː ɪst/", "esApprox": "«in DÁ-tif unt gue-NÍ-tif ist fast Í-mer en, e-GAL op der, ain Ó-der kain ar-TÍ-kel da ist»", "focus": "El resumen clave de esta clase: dativo y genitivo son casi siempre -en (con artículo), simplificando mucho la regla.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["contraste"], "difficulty": 2, "prompt": "Te preguntan por qué «ein großer Mann» lleva -er. Explica que es porque ein no muestra el género por sí solo.", "modelAnswer": "Weil ein nicht das Geschlecht zeigt, deshalb hilft das Adjektiv.", "alsoValid": ["Weil ein nicht klar ist, braucht man -er."], "speak": "Weil ein nicht das Geschlecht zeigt, deshalb hilft das Adjektiv.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["contraste"], "difficulty": 2, "prompt": "Clasifica cada frase según su tipo de declinación", "buckets": ["der/die/das (débil)", "ein/mein (mixta)", "sin artículo (fuerte)"], "items": [
+      { "text": "die kleine Frau", "bucket": 0 },
+      { "text": "eine kleine Frau", "bucket": 1 },
+      { "text": "kleine Kinder", "bucket": 2 },
+      { "text": "der kleine Mann", "bucket": 0 }
+    ], "explain": "der/die/das es siempre débil; ein/mein es mixta (marca a veces, el adjetivo ayuda otras); sin artículo es fuerte." },
+    { "id": "e19", "type": "error_correction", "tags": ["contraste"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ein große Mann kommt.", "accept": ["Ein großer Mann kommt"], "audio": "Ein großer Mann kommt.", "explain": "Tras ein (masculino nominativo), el adjetivo necesita -er, no -e." },
+    { "id": "e20", "type": "mcq", "tags": ["contraste"], "difficulty": 2, "prompt": "«Der große Mann trinkt guten Wein. Ein großer Mann trinkt auch gerne Wein. Aber kleine Kinder trinken kaltes Wasser.» ¿Qué tipo de declinación tiene «kleine Kinder»?", "options": ["der/die/das", "ein/mein", "sin artículo (plural)", "ninguna, no es un adjetivo"], "answer": 2, "explain": "kleine Kinder: plural sin artículo, con -e (patrón fuerte, distinto del -en de der/die/das)." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Deklination", "es": "la declinación", "esApprox": "«de-kli-na-tsi-ÓN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Muster", "es": "el patrón, el modelo", "esApprox": "«MÚS-ter»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "stark", "es": "fuerte", "esApprox": "«shtark»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "schwach", "es": "débil", "esApprox": "«shvach»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Übersicht", "es": "el resumen, la vista general", "esApprox": "«Ü-ber-zicht»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "vergleichen", "es": "comparar", "esApprox": "«fer-GLÁI-chen»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Der große Mann, ein großer Mann und guter Wein: drei Muster, eine Logik.", "es": "El hombre grande, un hombre grande y buen vino: tres patrones, una lógica.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "In Dativ und Genitiv ist fast immer -en, egal ob der, ein oder kein Artikel da ist.", "es": "En dativo y genitivo casi siempre es -en, sin importar si hay der, ein o ningún artículo.", "from": "e16" }
+  ]
+}

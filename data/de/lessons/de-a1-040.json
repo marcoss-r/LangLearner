@@ -1,0 +1,345 @@
+{
+  "id": "de-a1-040",
+  "lang": "de",
+  "level": "A1",
+  "order": 40,
+  "title": "Preposiciones de dativo: aus, bei, mit, nach, seit, von, zu",
+  "objectives": [
+    "Aprender las siete preposiciones que rigen siempre dativo: aus, bei, mit, nach, seit, von, zu",
+    "Aplicar el dativo obligatoriamente después de estas preposiciones, sin excepción",
+    "Reconocer las contracciones más frecuentes: zu + dem = zum, zu + der = zur, bei + dem = beim, von + dem = vom"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Siete preposiciones que exigen dativo siempre",
+      "body": "Hay un grupo de preposiciones alemanas que rigen dativo en el 100% de los casos, sin excepción: aus, bei, mit, nach, seit, von y zu. Si ves una de estas siete palabras, el sustantivo que la sigue va obligatoriamente en dativo.",
+      "examples": [
+        { "target": "Ich spreche mit dem Mann.", "es": "Hablo con el hombre.", "note": "mit + dativo" },
+        { "target": "Ich fahre nach Deutschland.", "es": "Voy a Alemania.", "note": "nach + país, sin artículo" },
+        { "target": "Ich bin beim Arzt.", "es": "Estoy en el médico.", "note": "bei + dem = beim" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las siete preposiciones de dativo",
+      "headers": ["Preposición", "Significado", "Ejemplo"],
+      "rows": [
+        ["aus", "de, desde (origen)", "Ich komme aus Spanien."],
+        ["bei", "en casa de, junto a", "Ich bin beim Arzt."],
+        ["mit", "con", "Ich spreche mit dem Mann."],
+        ["nach", "hacia (destino); después de", "Ich fahre nach Deutschland."],
+        ["seit", "desde (tiempo)", "Seit einer Woche bin ich hier."],
+        ["von", "de, desde (procedencia, posesión)", "Das ist ein Geschenk vom Lehrer."],
+        ["zu", "a, hacia", "Ich fahre zur Schule."]
+      ],
+      "note": "nach y aus, delante de un país, no llevan artículo: nach Deutschland, aus Spanien."
+    },
+    {
+      "type": "table",
+      "title": "Las contracciones más frecuentes",
+      "headers": ["Preposición + artículo", "Contracción"],
+      "rows": [
+        ["zu + dem", "zum"],
+        ["zu + der", "zur"],
+        ["bei + dem", "beim"],
+        ["von + dem", "vom"]
+      ],
+      "note": "Estas contracciones son casi obligatorias en el habla cotidiana: decir «zu dem» suena forzado."
+    },
+    {
+      "type": "tip",
+      "body": "Memoriza las siete preposiciones de dativo en una frase o acrónimo que te resulte fácil: por ejemplo, «Ana Baila Mientras Nada Sucede Verdaderamente Zumbando» (aus, bei, mit, nach, seit, von, zu). Cualquier frase tonta que te ayude a recordarlas en orden vale."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "mit",
+      "es": "con",
+      "ipa": "/mɪt/",
+      "esApprox": "«mit»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Ich spreche mit dem Mann.", "es": "Hablo con el hombre." }
+    },
+    {
+      "id": "v2",
+      "target": "nach",
+      "es": "hacia (destino); después de",
+      "ipa": "/naːx/",
+      "esApprox": "«naj», con ach-Laut",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Ich fahre nach Deutschland.", "es": "Voy a Alemania." }
+    },
+    {
+      "id": "v3",
+      "target": "von",
+      "es": "de, desde (procedencia, posesión)",
+      "ipa": "/fɔn/",
+      "esApprox": "«fon»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Das ist ein Geschenk vom Lehrer.", "es": "Ese es un regalo del profesor." }
+    },
+    {
+      "id": "v4",
+      "target": "zu",
+      "es": "a, hacia",
+      "ipa": "/tsuː/",
+      "esApprox": "«tsu»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Ich fahre zur Schule.", "es": "Voy al colegio." }
+    },
+    {
+      "id": "v5",
+      "target": "seit",
+      "es": "desde (tiempo)",
+      "ipa": "/zaɪ̯t/",
+      "esApprox": "«zait»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Seit einer Woche bin ich hier.", "es": "Llevo aquí una semana." }
+    },
+    {
+      "id": "v6",
+      "target": "der Arzt",
+      "es": "el médico",
+      "ipa": "/aːɐ̯tst/",
+      "esApprox": "«artst»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Ärzte",
+      "example": { "target": "Ich bin beim Arzt.", "es": "Estoy en el médico." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["preposiciones", "dativo"],
+      "difficulty": 1,
+      "prompt": "¿Qué caso rige la preposición «mit»?",
+      "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"],
+      "answer": 2,
+      "explain": "mit siempre rige dativo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la contracción de «zu + der»?",
+      "options": ["zum", "zur", "zud", "zu der"],
+      "answer": 1,
+      "explain": "zu + der = zur."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["preposiciones"],
+      "difficulty": 1,
+      "statement": "Nach + país no lleva artículo, igual que aus + país.",
+      "answer": true,
+      "explain": "nach Deutschland, aus Spanien: los dos sin artículo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["preposiciones"],
+      "difficulty": 1,
+      "statement": "«Bei + dem» se contrae en «beim».",
+      "answer": true,
+      "explain": "bei + dem = beim, muy frecuente en el habla."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["dativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas NO es una preposición de dativo?",
+      "options": ["mit", "nach", "für", "von"],
+      "answer": 2,
+      "explain": "für rige acusativo; lo verás en la próxima clase."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Une cada preposición con su significado",
+      "left": ["mit", "nach", "von", "zu"],
+      "right": ["con", "hacia (destino)", "de, desde", "a, hacia"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro de las siete preposiciones de dativo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Hablo con el hombre.",
+      "accept": ["Ich spreche mit dem Mann"],
+      "hintWords": ["ich spreche mit dem Mann"],
+      "strictAccents": false,
+      "audio": "Ich spreche mit dem Mann.",
+      "explain": "mit + dem Mann (dativo)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Voy a Alemania.",
+      "accept": ["Ich fahre nach Deutschland"],
+      "hintWords": ["ich fahre nach Deutschland"],
+      "strictAccents": false,
+      "audio": "Ich fahre nach Deutschland.",
+      "explain": "nach + país, sin artículo."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Completa con la contracción correcta",
+      "text": "Ich fahre ___ Schule. Das ist ein Geschenk ___ Lehrer.",
+      "blanks": [{ "accept": ["zur"] }, { "accept": ["vom"] }],
+      "bank": ["zur", "vom", "zum"],
+      "explain": "zu + der = zur (Schule, femenino); von + dem = vom (Lehrer, masculino)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Estoy en el médico»",
+      "tokens": ["Arzt", "Ich", "beim", "bin"],
+      "answer": ["Ich", "bin", "beim", "Arzt"],
+      "audio": "Ich bin beim Arzt.",
+      "explain": "Ich bin + beim Arzt (bei + dem)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Seit einer Woche bin ich hier.",
+      "accept": ["Llevo aquí una semana.", "Estoy aquí desde hace una semana."],
+      "strictAccents": false,
+      "audio": "Seit einer Woche bin ich hier.",
+      "explain": "seit + dativo, para expresar desde cuándo."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Fährst du nach Deutschland?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich fahre nach Deutschland."], "hint": "responde que sí" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "fährst (du, con cambio de vocal a→ä, como en la clase 28)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "speak": "Ich spreche mit dem Mann.",
+      "mode": "write",
+      "accept": ["Ich spreche mit dem Mann"],
+      "showTextAfter": true,
+      "explain": "Ich spreche mit dem Mann = hablo con el hombre."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "speak": "Ich fahre zur Schule.",
+      "mode": "choose",
+      "options": ["Ich fahre zur Schule.", "Ich fahre zum Schule.", "Ich fahre zu Schule."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Solo zur Schule es correcto: Schule es femenino, así que zu + der = zur."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "speak": "Ich bin beim Arzt, und ich spreche mit dem Arzt.",
+      "es": "Estoy en el médico, y hablo con el médico.",
+      "ipa": "/ɪç bɪn baɪ̯m aːɐ̯tst ʊnt ɪç ˈʃpʁɛçə mɪt deːm aːɐ̯tst/",
+      "esApprox": "«ich bin baim artst unt ich SHPRE-che mit dem artst»",
+      "focus": "beim suena «baim», fusionando bei y dem en una sola sílaba tónica.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "speak": "Ich fahre nach Deutschland, und ich komme aus Spanien.",
+      "es": "Voy a Alemania, y vengo de España.",
+      "ipa": "/ɪç ˈfaːʁə naːx ˈdɔɪ̯tʃlant ʊnt ɪç ˈkɔmə aʊ̯s ˈʃpaːni̯ən/",
+      "esApprox": "«ich FÁ-re naj DOICH-lant unt ich KO-me aus SHPA-nien»",
+      "focus": "nach y aus, delante de un país, van siempre sin artículo: nach Deutschland, aus Spanien.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si vas a Alemania. Responde que sí.",
+      "modelAnswer": "Ja, ich fahre nach Deutschland.",
+      "alsoValid": ["Ich fahre nach Deutschland."],
+      "speak": "Ja, ich fahre nach Deutschland.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada preposición: ¿rige dativo o no?",
+      "buckets": ["Rige dativo", "No rige dativo"],
+      "items": [
+        { "text": "mit", "bucket": 0 },
+        { "text": "nach", "bucket": 0 },
+        { "text": "von", "bucket": 0 },
+        { "text": "zu", "bucket": 0 },
+        { "text": "für", "bucket": 1 }
+      ],
+      "explain": "für rige acusativo; las otras cuatro son de dativo."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich spreche mit den Mann.",
+      "accept": ["Ich spreche mit dem Mann"],
+      "audio": "Ich spreche mit dem Mann.",
+      "explain": "mit rige dativo siempre: den (acusativo) debe ser dem."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "mit", "es": "con", "esApprox": "«mit»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "nach", "es": "hacia (destino)", "esApprox": "«naj»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "von", "es": "de, desde", "esApprox": "«fon»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "zu", "es": "a, hacia", "esApprox": "«tsu»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "seit", "es": "desde (tiempo)", "esApprox": "«zait»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Arzt", "es": "el médico", "esApprox": "«artst»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich bin beim Arzt, und ich spreche mit dem Arzt.", "es": "Estoy en el médico, y hablo con el médico.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich fahre nach Deutschland, und ich komme aus Spanien.", "es": "Voy a Alemania, y vengo de España.", "from": "e16" },
+    { "id": "s9", "kind": "phrase", "target": "Ich fahre zur Schule.", "es": "Voy al colegio.", "from": "v4" }
+  ]
+}

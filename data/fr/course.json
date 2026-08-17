@@ -3,18 +3,242 @@
   "name": "Francés",
   "version": 1,
   "levels": [
-    { "id": "A1", "name": "A1 — Principiante", "range": [1, 90], "exam": "fr-a1" },
-    { "id": "A2", "name": "A2 — Elemental", "range": [91, 175], "exam": "fr-a2" },
-    { "id": "B1", "name": "B1 — Intermedio", "range": [176, 250], "exam": "fr-b1" }
+    {
+      "id": "A1",
+      "name": "A1 — Principiante",
+      "range": [
+        1,
+        90
+      ],
+      "exam": "fr-a1"
+    },
+    {
+      "id": "A2",
+      "name": "A2 — Elemental",
+      "range": [
+        91,
+        175
+      ],
+      "exam": "fr-a2"
+    },
+    {
+      "id": "B1",
+      "name": "B1 — Intermedio",
+      "range": [
+        176,
+        250
+      ],
+      "exam": "fr-b1"
+    }
   ],
   "blocks": [
-    { "id": "fr-a1-b1", "level": "A1", "name": "Primeros pasos", "range": [1, 10] },
-    { "id": "fr-a1-b2", "level": "A1", "name": "El sustantivo y el artículo", "range": [11, 20] },
-    { "id": "fr-a1-b3", "level": "A1", "name": "Preguntar y describir", "range": [21, 32] },
-    { "id": "fr-a1-b4", "level": "A1", "name": "Verbos y rutina", "range": [33, 46] },
-    { "id": "fr-a1-b5", "level": "A1", "name": "Vida cotidiana", "range": [47, 60] },
-    { "id": "fr-a1-b6", "level": "A1", "name": "Escuela, trabajo y cuerpo", "range": [61, 74] },
-    { "id": "fr-a1-b7", "level": "A1", "name": "El pasado y el futuro cercano", "range": [75, 90] }
+    {
+      "id": "fr-a1-b1",
+      "level": "A1",
+      "name": "Primeros pasos",
+      "range": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": "fr-a1-b2",
+      "level": "A1",
+      "name": "El sustantivo y el artículo",
+      "range": [
+        11,
+        20
+      ]
+    },
+    {
+      "id": "fr-a1-b3",
+      "level": "A1",
+      "name": "Preguntar y describir",
+      "range": [
+        21,
+        32
+      ]
+    },
+    {
+      "id": "fr-a1-b4",
+      "level": "A1",
+      "name": "Verbos y rutina",
+      "range": [
+        33,
+        46
+      ]
+    },
+    {
+      "id": "fr-a1-b5",
+      "level": "A1",
+      "name": "Vida cotidiana",
+      "range": [
+        47,
+        60
+      ]
+    },
+    {
+      "id": "fr-a1-b6",
+      "level": "A1",
+      "name": "Escuela, trabajo y cuerpo",
+      "range": [
+        61,
+        74
+      ]
+    },
+    {
+      "id": "fr-a1-b7",
+      "level": "A1",
+      "name": "El pasado y el futuro cercano",
+      "range": [
+        75,
+        90
+      ]
+    },
+    {
+      "id": "fr-a2-b1",
+      "level": "A2",
+      "name": "Consolidar el pasado",
+      "range": [
+        91,
+        100
+      ]
+    },
+    {
+      "id": "fr-a2-b2",
+      "level": "A2",
+      "name": "El imperfecto y la narración",
+      "range": [
+        101,
+        112
+      ]
+    },
+    {
+      "id": "fr-a2-b3",
+      "level": "A2",
+      "name": "Pronombres y sustitución",
+      "range": [
+        113,
+        124
+      ]
+    },
+    {
+      "id": "fr-a2-b4",
+      "level": "A2",
+      "name": "Futuro e hipótesis",
+      "range": [
+        125,
+        134
+      ]
+    },
+    {
+      "id": "fr-a2-b5",
+      "level": "A2",
+      "name": "Vocabulario temático ampliado",
+      "range": [
+        135,
+        150
+      ]
+    },
+    {
+      "id": "fr-a2-b6",
+      "level": "A2",
+      "name": "Expresarse",
+      "range": [
+        151,
+        162
+      ]
+    },
+    {
+      "id": "fr-a2-b7",
+      "level": "A2",
+      "name": "Fonética y oral II",
+      "range": [
+        163,
+        168
+      ]
+    },
+    {
+      "id": "fr-a2-b8",
+      "level": "A2",
+      "name": "Cierre A2",
+      "range": [
+        169,
+        175
+      ]
+    },
+    {
+      "id": "fr-b1-b1",
+      "level": "B1",
+      "name": "El subjuntivo",
+      "range": [
+        176,
+        186
+      ]
+    },
+    {
+      "id": "fr-b1-b2",
+      "level": "B1",
+      "name": "Condicional e hipótesis avanzada",
+      "range": [
+        187,
+        195
+      ]
+    },
+    {
+      "id": "fr-b1-b3",
+      "level": "B1",
+      "name": "Relativas y discurso",
+      "range": [
+        196,
+        205
+      ]
+    },
+    {
+      "id": "fr-b1-b4",
+      "level": "B1",
+      "name": "Los pasados en contraste",
+      "range": [
+        206,
+        213
+      ]
+    },
+    {
+      "id": "fr-b1-b5",
+      "level": "B1",
+      "name": "Estructuras complejas",
+      "range": [
+        214,
+        221
+      ]
+    },
+    {
+      "id": "fr-b1-b6",
+      "level": "B1",
+      "name": "Vocabulario B1",
+      "range": [
+        222,
+        236
+      ]
+    },
+    {
+      "id": "fr-b1-b7",
+      "level": "B1",
+      "name": "Conversación real",
+      "range": [
+        237,
+        244
+      ]
+    },
+    {
+      "id": "fr-b1-b8",
+      "level": "B1",
+      "name": "Cierre B1",
+      "range": [
+        245,
+        250
+      ]
+    }
   ],
   "lessons": [
     {
@@ -23,12 +247,4189 @@
       "level": "A1",
       "block": "fr-a1-b1",
       "title": "Bienvenido al francés: qué te va a regalar el español y qué te va a traicionar",
-      "subtitle": "Cognados, falsos amigos y las tres cosas que de verdad chocan a un hispanohablante",
       "kind": "cultura",
-      "tags": ["cognados", "falsos-amigos", "pronunciacion-general"],
+      "tags": [
+        "cognados",
+        "falsos-amigos",
+        "pronunciacion-general"
+      ],
       "estimatedMinutes": 15,
       "prerequisites": [],
-      "file": "./data/fr/lessons/fr-a1-001.json"
+      "file": "./data/fr/lessons/fr-a1-001.json",
+      "subtitle": "Cognados, falsos amigos y las tres cosas que de verdad chocan a un hispanohablante"
+    },
+    {
+      "id": "fr-a1-002",
+      "order": 2,
+      "level": "A1",
+      "block": "fr-a1-b1",
+      "title": "El alfabeto y deletrear tu nombre",
+      "kind": "fonetica",
+      "tags": [
+        "alfabeto"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a1-001"
+      ],
+      "file": "./data/fr/lessons/fr-a1-002.json"
+    },
+    {
+      "id": "fr-a1-003",
+      "order": 3,
+      "level": "A1",
+      "block": "fr-a1-b1",
+      "title": "Pronunciación general I: las letras que no se pronuncian",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "letras-mudas"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a1-002"
+      ],
+      "file": "./data/fr/lessons/fr-a1-003.json"
+    },
+    {
+      "id": "fr-a1-004",
+      "order": 4,
+      "level": "A1",
+      "block": "fr-a1-b1",
+      "title": "Saludos, despedidas y fórmulas de cortesía",
+      "kind": "comunicacion",
+      "tags": [
+        "saludos",
+        "cortesia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-003"
+      ],
+      "file": "./data/fr/lessons/fr-a1-004.json"
+    },
+    {
+      "id": "fr-a1-005",
+      "order": 5,
+      "level": "A1",
+      "block": "fr-a1-b1",
+      "title": "Presentarse: je m'appelle, j'ai… ans, j'habite à…",
+      "kind": "comunicacion",
+      "tags": [
+        "presentarse"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-004"
+      ],
+      "file": "./data/fr/lessons/fr-a1-005.json"
+    },
+    {
+      "id": "fr-a1-006",
+      "order": 6,
+      "level": "A1",
+      "block": "fr-a1-b1",
+      "title": "Tú o usted: tu y vous",
+      "kind": "comunicacion",
+      "tags": [
+        "tu-vous",
+        "cortesia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-005"
+      ],
+      "file": "./data/fr/lessons/fr-a1-006.json"
+    },
+    {
+      "id": "fr-a1-007",
+      "order": 7,
+      "level": "A1",
+      "block": "fr-a1-b1",
+      "title": "Pronunciación general II: é, è, ê y la e muda",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "e-muda"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a1-006"
+      ],
+      "file": "./data/fr/lessons/fr-a1-007.json"
+    },
+    {
+      "id": "fr-a1-008",
+      "order": 8,
+      "level": "A1",
+      "block": "fr-a1-b1",
+      "title": "Los pronombres personales sujeto",
+      "kind": "gramatica",
+      "tags": [
+        "pronombres-sujeto"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-007"
+      ],
+      "file": "./data/fr/lessons/fr-a1-008.json"
+    },
+    {
+      "id": "fr-a1-009",
+      "order": 9,
+      "level": "A1",
+      "block": "fr-a1-b1",
+      "title": "El verbo être",
+      "kind": "verbos",
+      "tags": [
+        "etre"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-008"
+      ],
+      "file": "./data/fr/lessons/fr-a1-009.json"
+    },
+    {
+      "id": "fr-a1-010",
+      "order": 10,
+      "level": "A1",
+      "block": "fr-a1-b1",
+      "title": "El verbo avoir",
+      "kind": "verbos",
+      "tags": [
+        "avoir"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-009"
+      ],
+      "file": "./data/fr/lessons/fr-a1-010.json"
+    },
+    {
+      "id": "fr-a1-011",
+      "order": 11,
+      "level": "A1",
+      "block": "fr-a1-b2",
+      "title": "Los artículos definidos: le, la, l', les",
+      "kind": "gramatica",
+      "tags": [
+        "articulos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-010"
+      ],
+      "file": "./data/fr/lessons/fr-a1-011.json"
+    },
+    {
+      "id": "fr-a1-012",
+      "order": 12,
+      "level": "A1",
+      "block": "fr-a1-b2",
+      "title": "Los artículos indefinidos: un, une, des",
+      "kind": "gramatica",
+      "tags": [
+        "articulos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-011"
+      ],
+      "file": "./data/fr/lessons/fr-a1-012.json"
+    },
+    {
+      "id": "fr-a1-013",
+      "order": 13,
+      "level": "A1",
+      "block": "fr-a1-b2",
+      "title": "El género de los sustantivos: pistas para acertar",
+      "kind": "gramatica",
+      "tags": [
+        "genero"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-012"
+      ],
+      "file": "./data/fr/lessons/fr-a1-013.json"
+    },
+    {
+      "id": "fr-a1-014",
+      "order": 14,
+      "level": "A1",
+      "block": "fr-a1-b2",
+      "title": "El plural de los sustantivos",
+      "kind": "gramatica",
+      "tags": [
+        "plural"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-013"
+      ],
+      "file": "./data/fr/lessons/fr-a1-014.json"
+    },
+    {
+      "id": "fr-a1-015",
+      "order": 15,
+      "level": "A1",
+      "block": "fr-a1-b2",
+      "title": "Pronunciación general III: las vocales nasales (an, on, in, un)",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "vocales-nasales"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a1-014"
+      ],
+      "file": "./data/fr/lessons/fr-a1-015.json"
+    },
+    {
+      "id": "fr-a1-016",
+      "order": 16,
+      "level": "A1",
+      "block": "fr-a1-b2",
+      "title": "Los números del 0 al 20",
+      "kind": "vocabulario",
+      "tags": [
+        "numeros"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-015"
+      ],
+      "file": "./data/fr/lessons/fr-a1-016.json"
+    },
+    {
+      "id": "fr-a1-017",
+      "order": 17,
+      "level": "A1",
+      "block": "fr-a1-b2",
+      "title": "Los números del 21 al 69",
+      "kind": "vocabulario",
+      "tags": [
+        "numeros"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-016"
+      ],
+      "file": "./data/fr/lessons/fr-a1-017.json"
+    },
+    {
+      "id": "fr-a1-018",
+      "order": 18,
+      "level": "A1",
+      "block": "fr-a1-b2",
+      "title": "Los números del 70 al 100: soixante-dix y quatre-vingts",
+      "kind": "vocabulario",
+      "tags": [
+        "numeros"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-017"
+      ],
+      "file": "./data/fr/lessons/fr-a1-018.json"
+    },
+    {
+      "id": "fr-a1-019",
+      "order": 19,
+      "level": "A1",
+      "block": "fr-a1-b2",
+      "title": "La negación: ne… pas",
+      "kind": "gramatica",
+      "tags": [
+        "negacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-018"
+      ],
+      "file": "./data/fr/lessons/fr-a1-019.json"
+    },
+    {
+      "id": "fr-a1-020",
+      "order": 20,
+      "level": "A1",
+      "block": "fr-a1-b2",
+      "title": "Repaso activo I (clases 1–19)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a1-019",
+        "fr-a1-018",
+        "fr-a1-017"
+      ],
+      "file": "./data/fr/lessons/fr-a1-020.json"
+    },
+    {
+      "id": "fr-a1-021",
+      "order": 21,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Preguntar I: entonación, est-ce que e inversión",
+      "kind": "gramatica",
+      "tags": [
+        "preguntas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-020"
+      ],
+      "file": "./data/fr/lessons/fr-a1-021.json"
+    },
+    {
+      "id": "fr-a1-022",
+      "order": 22,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Las palabras interrogativas: qui, que, où, quand, comment, pourquoi",
+      "kind": "gramatica",
+      "tags": [
+        "preguntas",
+        "interrogativos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-021"
+      ],
+      "file": "./data/fr/lessons/fr-a1-022.json"
+    },
+    {
+      "id": "fr-a1-023",
+      "order": 23,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Pronunciación general IV: la liaison",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "liaison"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a1-022"
+      ],
+      "file": "./data/fr/lessons/fr-a1-023.json"
+    },
+    {
+      "id": "fr-a1-024",
+      "order": 24,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Los colores",
+      "kind": "vocabulario",
+      "tags": [
+        "colores"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-023"
+      ],
+      "file": "./data/fr/lessons/fr-a1-024.json"
+    },
+    {
+      "id": "fr-a1-025",
+      "order": 25,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Los adjetivos: género y número",
+      "kind": "gramatica",
+      "tags": [
+        "adjetivos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-024"
+      ],
+      "file": "./data/fr/lessons/fr-a1-025.json"
+    },
+    {
+      "id": "fr-a1-026",
+      "order": 26,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Dónde va el adjetivo (y los que cambian de sitio)",
+      "kind": "gramatica",
+      "tags": [
+        "adjetivos",
+        "orden-palabras"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-025"
+      ],
+      "file": "./data/fr/lessons/fr-a1-026.json"
+    },
+    {
+      "id": "fr-a1-027",
+      "order": 27,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Describir el físico de una persona",
+      "kind": "vocabulario",
+      "tags": [
+        "fisico",
+        "descripcion"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-026"
+      ],
+      "file": "./data/fr/lessons/fr-a1-027.json"
+    },
+    {
+      "id": "fr-a1-028",
+      "order": 28,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Describir el carácter",
+      "kind": "vocabulario",
+      "tags": [
+        "caracter",
+        "descripcion"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-027"
+      ],
+      "file": "./data/fr/lessons/fr-a1-028.json"
+    },
+    {
+      "id": "fr-a1-029",
+      "order": 29,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "La familia",
+      "kind": "vocabulario",
+      "tags": [
+        "familia"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-028"
+      ],
+      "file": "./data/fr/lessons/fr-a1-029.json"
+    },
+    {
+      "id": "fr-a1-030",
+      "order": 30,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Los adjetivos posesivos: mon, ma, mes…",
+      "kind": "gramatica",
+      "tags": [
+        "posesivos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-029"
+      ],
+      "file": "./data/fr/lessons/fr-a1-030.json"
+    },
+    {
+      "id": "fr-a1-031",
+      "order": 31,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Países, nacionalidades e idiomas",
+      "kind": "vocabulario",
+      "tags": [
+        "nacionalidades"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-030"
+      ],
+      "file": "./data/fr/lessons/fr-a1-031.json"
+    },
+    {
+      "id": "fr-a1-032",
+      "order": 32,
+      "level": "A1",
+      "block": "fr-a1-b3",
+      "title": "Repaso activo II (clases 21–31)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a1-031",
+        "fr-a1-030",
+        "fr-a1-029"
+      ],
+      "file": "./data/fr/lessons/fr-a1-032.json"
+    },
+    {
+      "id": "fr-a1-033",
+      "order": 33,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Los verbos en -er: presente",
+      "kind": "verbos",
+      "tags": [
+        "verbos-er"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-032"
+      ],
+      "file": "./data/fr/lessons/fr-a1-033.json"
+    },
+    {
+      "id": "fr-a1-034",
+      "order": 34,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Verbos en -er con cambios ortográficos (acheter, appeler, préférer)",
+      "kind": "verbos",
+      "tags": [
+        "verbos-er",
+        "irregulares"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-033"
+      ],
+      "file": "./data/fr/lessons/fr-a1-034.json"
+    },
+    {
+      "id": "fr-a1-035",
+      "order": 35,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Los verbos aller y faire",
+      "kind": "verbos",
+      "tags": [
+        "aller",
+        "faire"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-034"
+      ],
+      "file": "./data/fr/lessons/fr-a1-035.json"
+    },
+    {
+      "id": "fr-a1-036",
+      "order": 36,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Aller à: las contracciones au, à la, aux",
+      "kind": "gramatica",
+      "tags": [
+        "contracciones",
+        "aller"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-035"
+      ],
+      "file": "./data/fr/lessons/fr-a1-036.json"
+    },
+    {
+      "id": "fr-a1-037",
+      "order": 37,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Venir y venir de: las contracciones du, de la, des",
+      "kind": "gramatica",
+      "tags": [
+        "contracciones",
+        "venir"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-036"
+      ],
+      "file": "./data/fr/lessons/fr-a1-037.json"
+    },
+    {
+      "id": "fr-a1-038",
+      "order": 38,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Los días de la semana, los meses y las estaciones",
+      "kind": "vocabulario",
+      "tags": [
+        "calendario"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-037"
+      ],
+      "file": "./data/fr/lessons/fr-a1-038.json"
+    },
+    {
+      "id": "fr-a1-039",
+      "order": 39,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "La hora",
+      "kind": "vocabulario",
+      "tags": [
+        "hora"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-038"
+      ],
+      "file": "./data/fr/lessons/fr-a1-039.json"
+    },
+    {
+      "id": "fr-a1-040",
+      "order": 40,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "La rutina diaria",
+      "kind": "vocabulario",
+      "tags": [
+        "rutina"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-039"
+      ],
+      "file": "./data/fr/lessons/fr-a1-040.json"
+    },
+    {
+      "id": "fr-a1-041",
+      "order": 41,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Los verbos pronominales: se lever, se coucher, s'appeler",
+      "kind": "verbos",
+      "tags": [
+        "pronominales"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-040"
+      ],
+      "file": "./data/fr/lessons/fr-a1-041.json"
+    },
+    {
+      "id": "fr-a1-042",
+      "order": 42,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Los verbos en -ir tipo finir",
+      "kind": "verbos",
+      "tags": [
+        "verbos-ir"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-041"
+      ],
+      "file": "./data/fr/lessons/fr-a1-042.json"
+    },
+    {
+      "id": "fr-a1-043",
+      "order": 43,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Pouvoir y vouloir",
+      "kind": "verbos",
+      "tags": [
+        "modales"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-042"
+      ],
+      "file": "./data/fr/lessons/fr-a1-043.json"
+    },
+    {
+      "id": "fr-a1-044",
+      "order": 44,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Devoir y cómo hablar de obligaciones",
+      "kind": "verbos",
+      "tags": [
+        "modales",
+        "obligacion"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-043"
+      ],
+      "file": "./data/fr/lessons/fr-a1-044.json"
+    },
+    {
+      "id": "fr-a1-045",
+      "order": 45,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "La frecuencia: souvent, toujours, jamais, parfois",
+      "kind": "gramatica",
+      "tags": [
+        "frecuencia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-044"
+      ],
+      "file": "./data/fr/lessons/fr-a1-045.json"
+    },
+    {
+      "id": "fr-a1-046",
+      "order": 46,
+      "level": "A1",
+      "block": "fr-a1-b4",
+      "title": "Repaso activo III (clases 33–45)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a1-045",
+        "fr-a1-044",
+        "fr-a1-043"
+      ],
+      "file": "./data/fr/lessons/fr-a1-046.json"
+    },
+    {
+      "id": "fr-a1-047",
+      "order": 47,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "La casa y las habitaciones",
+      "kind": "vocabulario",
+      "tags": [
+        "casa"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-046"
+      ],
+      "file": "./data/fr/lessons/fr-a1-047.json"
+    },
+    {
+      "id": "fr-a1-048",
+      "order": 48,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "Los muebles y los objetos cotidianos",
+      "kind": "vocabulario",
+      "tags": [
+        "muebles"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-047"
+      ],
+      "file": "./data/fr/lessons/fr-a1-048.json"
+    },
+    {
+      "id": "fr-a1-049",
+      "order": 49,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "Il y a, c'est y il est: tres formas que el español confunde",
+      "kind": "gramatica",
+      "tags": [
+        "il-y-a",
+        "cest-il-est"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-048"
+      ],
+      "file": "./data/fr/lessons/fr-a1-049.json"
+    },
+    {
+      "id": "fr-a1-050",
+      "order": 50,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "Las preposiciones de lugar",
+      "kind": "gramatica",
+      "tags": [
+        "preposiciones-lugar"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-049"
+      ],
+      "file": "./data/fr/lessons/fr-a1-050.json"
+    },
+    {
+      "id": "fr-a1-051",
+      "order": 51,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "La ciudad y los lugares públicos",
+      "kind": "vocabulario",
+      "tags": [
+        "ciudad"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-050"
+      ],
+      "file": "./data/fr/lessons/fr-a1-051.json"
+    },
+    {
+      "id": "fr-a1-052",
+      "order": 52,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "Pedir y dar direcciones",
+      "kind": "comunicacion",
+      "tags": [
+        "direcciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-051"
+      ],
+      "file": "./data/fr/lessons/fr-a1-052.json"
+    },
+    {
+      "id": "fr-a1-053",
+      "order": 53,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "Los medios de transporte",
+      "kind": "vocabulario",
+      "tags": [
+        "transporte"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-052"
+      ],
+      "file": "./data/fr/lessons/fr-a1-053.json"
+    },
+    {
+      "id": "fr-a1-054",
+      "order": 54,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "La ropa",
+      "kind": "vocabulario",
+      "tags": [
+        "ropa"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-053"
+      ],
+      "file": "./data/fr/lessons/fr-a1-054.json"
+    },
+    {
+      "id": "fr-a1-055",
+      "order": 55,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "En la tienda: comprar ropa y hablar de tallas y precios",
+      "kind": "comunicacion",
+      "tags": [
+        "compras",
+        "ropa"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-054"
+      ],
+      "file": "./data/fr/lessons/fr-a1-055.json"
+    },
+    {
+      "id": "fr-a1-056",
+      "order": 56,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "Las comidas y los alimentos",
+      "kind": "vocabulario",
+      "tags": [
+        "comida"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-055"
+      ],
+      "file": "./data/fr/lessons/fr-a1-056.json"
+    },
+    {
+      "id": "fr-a1-057",
+      "order": 57,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "Los artículos partitivos: du, de la, de l', des",
+      "kind": "gramatica",
+      "tags": [
+        "partitivos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-056"
+      ],
+      "file": "./data/fr/lessons/fr-a1-057.json"
+    },
+    {
+      "id": "fr-a1-058",
+      "order": 58,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "En el restaurante: pedir, preguntar y pagar",
+      "kind": "comunicacion",
+      "tags": [
+        "restaurante"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-057"
+      ],
+      "file": "./data/fr/lessons/fr-a1-058.json"
+    },
+    {
+      "id": "fr-a1-059",
+      "order": 59,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "Las bebidas y el desayuno francés",
+      "kind": "vocabulario",
+      "tags": [
+        "bebidas",
+        "desayuno"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-058"
+      ],
+      "file": "./data/fr/lessons/fr-a1-059.json"
+    },
+    {
+      "id": "fr-a1-060",
+      "order": 60,
+      "level": "A1",
+      "block": "fr-a1-b5",
+      "title": "Repaso activo IV (clases 47–59)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a1-059",
+        "fr-a1-058",
+        "fr-a1-057"
+      ],
+      "file": "./data/fr/lessons/fr-a1-060.json"
+    },
+    {
+      "id": "fr-a1-061",
+      "order": 61,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "La escuela y el aula",
+      "kind": "vocabulario",
+      "tags": [
+        "escuela"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-060"
+      ],
+      "file": "./data/fr/lessons/fr-a1-061.json"
+    },
+    {
+      "id": "fr-a1-062",
+      "order": 62,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "Las asignaturas y los estudios",
+      "kind": "vocabulario",
+      "tags": [
+        "estudios"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-061"
+      ],
+      "file": "./data/fr/lessons/fr-a1-062.json"
+    },
+    {
+      "id": "fr-a1-063",
+      "order": 63,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "Las profesiones",
+      "kind": "vocabulario",
+      "tags": [
+        "profesiones"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-062"
+      ],
+      "file": "./data/fr/lessons/fr-a1-063.json"
+    },
+    {
+      "id": "fr-a1-064",
+      "order": 64,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "Hablar de tu trabajo y de tus estudios",
+      "kind": "comunicacion",
+      "tags": [
+        "trabajo",
+        "estudios"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-063"
+      ],
+      "file": "./data/fr/lessons/fr-a1-064.json"
+    },
+    {
+      "id": "fr-a1-065",
+      "order": 65,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "El cuerpo humano",
+      "kind": "vocabulario",
+      "tags": [
+        "cuerpo"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-064"
+      ],
+      "file": "./data/fr/lessons/fr-a1-065.json"
+    },
+    {
+      "id": "fr-a1-066",
+      "order": 66,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "En el médico: decir que te duele algo",
+      "kind": "comunicacion",
+      "tags": [
+        "medico",
+        "salud"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-065"
+      ],
+      "file": "./data/fr/lessons/fr-a1-066.json"
+    },
+    {
+      "id": "fr-a1-067",
+      "order": 67,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "Los animales",
+      "kind": "vocabulario",
+      "tags": [
+        "animales"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-066"
+      ],
+      "file": "./data/fr/lessons/fr-a1-067.json"
+    },
+    {
+      "id": "fr-a1-068",
+      "order": 68,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "El tiempo meteorológico",
+      "kind": "vocabulario",
+      "tags": [
+        "tiempo-meteorologico"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-067"
+      ],
+      "file": "./data/fr/lessons/fr-a1-068.json"
+    },
+    {
+      "id": "fr-a1-069",
+      "order": 69,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "Hablar del clima y de las estaciones",
+      "kind": "comunicacion",
+      "tags": [
+        "clima"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-068"
+      ],
+      "file": "./data/fr/lessons/fr-a1-069.json"
+    },
+    {
+      "id": "fr-a1-070",
+      "order": 70,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "Los números ordinales y las fechas",
+      "kind": "vocabulario",
+      "tags": [
+        "ordinales",
+        "fechas"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-069"
+      ],
+      "file": "./data/fr/lessons/fr-a1-070.json"
+    },
+    {
+      "id": "fr-a1-071",
+      "order": 71,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "Los deportes y el tiempo libre",
+      "kind": "vocabulario",
+      "tags": [
+        "deporte",
+        "ocio"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a1-070"
+      ],
+      "file": "./data/fr/lessons/fr-a1-071.json"
+    },
+    {
+      "id": "fr-a1-072",
+      "order": 72,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "Jouer à, jouer de y faire de",
+      "kind": "gramatica",
+      "tags": [
+        "jouer",
+        "faire-de"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-071"
+      ],
+      "file": "./data/fr/lessons/fr-a1-072.json"
+    },
+    {
+      "id": "fr-a1-073",
+      "order": 73,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "Pronunciación general V: el ritmo y el acento del francés",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "ritmo"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a1-072"
+      ],
+      "file": "./data/fr/lessons/fr-a1-073.json"
+    },
+    {
+      "id": "fr-a1-074",
+      "order": 74,
+      "level": "A1",
+      "block": "fr-a1-b6",
+      "title": "Repaso activo V (clases 61–73)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a1-073",
+        "fr-a1-072",
+        "fr-a1-071"
+      ],
+      "file": "./data/fr/lessons/fr-a1-074.json"
+    },
+    {
+      "id": "fr-a1-075",
+      "order": 75,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "El futuro próximo: aller + infinitivo",
+      "kind": "verbos",
+      "tags": [
+        "futuro-proximo"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-074"
+      ],
+      "file": "./data/fr/lessons/fr-a1-075.json"
+    },
+    {
+      "id": "fr-a1-076",
+      "order": 76,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "El passé récent: venir de + infinitivo",
+      "kind": "verbos",
+      "tags": [
+        "passe-recent"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-075"
+      ],
+      "file": "./data/fr/lessons/fr-a1-076.json"
+    },
+    {
+      "id": "fr-a1-077",
+      "order": 77,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "Être en train de: la acción en curso",
+      "kind": "verbos",
+      "tags": [
+        "accion-en-curso"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-076"
+      ],
+      "file": "./data/fr/lessons/fr-a1-077.json"
+    },
+    {
+      "id": "fr-a1-078",
+      "order": 78,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "El passé composé I: con avoir",
+      "kind": "verbos",
+      "tags": [
+        "passe-compose",
+        "avoir"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-077"
+      ],
+      "file": "./data/fr/lessons/fr-a1-078.json"
+    },
+    {
+      "id": "fr-a1-079",
+      "order": 79,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "El passé composé II: los participios irregulares que más se usan",
+      "kind": "verbos",
+      "tags": [
+        "passe-compose",
+        "irregulares"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-078"
+      ],
+      "file": "./data/fr/lessons/fr-a1-079.json"
+    },
+    {
+      "id": "fr-a1-080",
+      "order": 80,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "El passé composé III: con être y el acuerdo del participio",
+      "kind": "verbos",
+      "tags": [
+        "passe-compose",
+        "etre",
+        "acuerdo-participio"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-079"
+      ],
+      "file": "./data/fr/lessons/fr-a1-080.json"
+    },
+    {
+      "id": "fr-a1-081",
+      "order": 81,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "El passé composé IV: negación y preguntas en pasado",
+      "kind": "verbos",
+      "tags": [
+        "passe-compose",
+        "negacion"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-080"
+      ],
+      "file": "./data/fr/lessons/fr-a1-081.json"
+    },
+    {
+      "id": "fr-a1-082",
+      "order": 82,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "Los pronombres COD: le, la, les",
+      "kind": "gramatica",
+      "tags": [
+        "pronombres",
+        "cod"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-081"
+      ],
+      "file": "./data/fr/lessons/fr-a1-082.json"
+    },
+    {
+      "id": "fr-a1-083",
+      "order": 83,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "Los pronombres COI: lui, leur",
+      "kind": "gramatica",
+      "tags": [
+        "pronombres",
+        "coi"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-082"
+      ],
+      "file": "./data/fr/lessons/fr-a1-083.json"
+    },
+    {
+      "id": "fr-a1-084",
+      "order": 84,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "El imperativo",
+      "kind": "verbos",
+      "tags": [
+        "imperativo"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-083"
+      ],
+      "file": "./data/fr/lessons/fr-a1-084.json"
+    },
+    {
+      "id": "fr-a1-085",
+      "order": 85,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "Invitar, aceptar y rechazar",
+      "kind": "comunicacion",
+      "tags": [
+        "invitaciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-084"
+      ],
+      "file": "./data/fr/lessons/fr-a1-085.json"
+    },
+    {
+      "id": "fr-a1-086",
+      "order": 86,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "Por teléfono y por mensaje",
+      "kind": "comunicacion",
+      "tags": [
+        "telefono"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-085"
+      ],
+      "file": "./data/fr/lessons/fr-a1-086.json"
+    },
+    {
+      "id": "fr-a1-087",
+      "order": 87,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "Escribir un correo o un mensaje sencillo",
+      "kind": "comunicacion",
+      "tags": [
+        "escritura"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a1-086"
+      ],
+      "file": "./data/fr/lessons/fr-a1-087.json"
+    },
+    {
+      "id": "fr-a1-088",
+      "order": 88,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "Cultura: el día a día en Francia (horarios, tuteo, cortesía)",
+      "kind": "cultura",
+      "tags": [
+        "cultura-francesa"
+      ],
+      "estimatedMinutes": 15,
+      "prerequisites": [
+        "fr-a1-087"
+      ],
+      "file": "./data/fr/lessons/fr-a1-088.json"
+    },
+    {
+      "id": "fr-a1-089",
+      "order": 89,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "Repaso activo VI (clases 75–88)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a1-088",
+        "fr-a1-087",
+        "fr-a1-086"
+      ],
+      "file": "./data/fr/lessons/fr-a1-089.json"
+    },
+    {
+      "id": "fr-a1-090",
+      "order": 90,
+      "level": "A1",
+      "block": "fr-a1-b7",
+      "title": "Preparación para la prueba de nivel A1",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "examen"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a1-089",
+        "fr-a1-088",
+        "fr-a1-087"
+      ],
+      "file": "./data/fr/lessons/fr-a1-090.json"
+    },
+    {
+      "id": "fr-a2-091",
+      "order": 91,
+      "level": "A2",
+      "block": "fr-a2-b1",
+      "title": "Repaso a fondo: cuándo va con avoir y cuándo con être",
+      "kind": "verbos",
+      "tags": [
+        "passe-compose",
+        "auxiliar"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a1-090"
+      ],
+      "file": "./data/fr/lessons/fr-a2-091.json"
+    },
+    {
+      "id": "fr-a2-092",
+      "order": 92,
+      "level": "A2",
+      "block": "fr-a2-b1",
+      "title": "El passé composé con los pronombres COD y COI",
+      "kind": "gramatica",
+      "tags": [
+        "passe-compose",
+        "pronombres"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-091"
+      ],
+      "file": "./data/fr/lessons/fr-a2-092.json"
+    },
+    {
+      "id": "fr-a2-093",
+      "order": 93,
+      "level": "A2",
+      "block": "fr-a2-b1",
+      "title": "El acuerdo del participio pasado con el COD antepuesto",
+      "kind": "gramatica",
+      "tags": [
+        "passe-compose",
+        "acuerdo-participio"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-092"
+      ],
+      "file": "./data/fr/lessons/fr-a2-093.json"
+    },
+    {
+      "id": "fr-a2-094",
+      "order": 94,
+      "level": "A2",
+      "block": "fr-a2-b1",
+      "title": "Los verbos pronominales en pasado",
+      "kind": "verbos",
+      "tags": [
+        "passe-compose",
+        "pronominales"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a2-093"
+      ],
+      "file": "./data/fr/lessons/fr-a2-094.json"
+    },
+    {
+      "id": "fr-a2-095",
+      "order": 95,
+      "level": "A2",
+      "block": "fr-a2-b1",
+      "title": "Marcadores de tiempo del pasado: hier, il y a, la semaine dernière",
+      "kind": "vocabulario",
+      "tags": [
+        "marcadores-tiempo"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-094"
+      ],
+      "file": "./data/fr/lessons/fr-a2-095.json"
+    },
+    {
+      "id": "fr-a2-096",
+      "order": 96,
+      "level": "A2",
+      "block": "fr-a2-b1",
+      "title": "Preguntas y negación en passé composé",
+      "kind": "gramatica",
+      "tags": [
+        "passe-compose",
+        "negacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-095"
+      ],
+      "file": "./data/fr/lessons/fr-a2-096.json"
+    },
+    {
+      "id": "fr-a2-097",
+      "order": 97,
+      "level": "A2",
+      "block": "fr-a2-b1",
+      "title": "Los participios irregulares que todavía se te resisten",
+      "kind": "verbos",
+      "tags": [
+        "passe-compose",
+        "irregulares"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a2-096"
+      ],
+      "file": "./data/fr/lessons/fr-a2-097.json"
+    },
+    {
+      "id": "fr-a2-098",
+      "order": 98,
+      "level": "A2",
+      "block": "fr-a2-b1",
+      "title": "Contar tu fin de semana con naturalidad",
+      "kind": "comunicacion",
+      "tags": [
+        "passe-compose",
+        "conversacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-097"
+      ],
+      "file": "./data/fr/lessons/fr-a2-098.json"
+    },
+    {
+      "id": "fr-a2-099",
+      "order": 99,
+      "level": "A2",
+      "block": "fr-a2-b1",
+      "title": "Narrar un día cualquiera de tu vida, paso a paso",
+      "kind": "comunicacion",
+      "tags": [
+        "narracion",
+        "passe-compose"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-098"
+      ],
+      "file": "./data/fr/lessons/fr-a2-099.json"
+    },
+    {
+      "id": "fr-a2-100",
+      "order": 100,
+      "level": "A2",
+      "block": "fr-a2-b1",
+      "title": "Repaso activo VII (clases 91–99)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-099",
+        "fr-a2-098",
+        "fr-a2-097"
+      ],
+      "file": "./data/fr/lessons/fr-a2-100.json"
+    },
+    {
+      "id": "fr-a2-101",
+      "order": 101,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "El imparfait: cómo se forma",
+      "kind": "gramatica",
+      "tags": [
+        "imparfait"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-100"
+      ],
+      "file": "./data/fr/lessons/fr-a2-101.json"
+    },
+    {
+      "id": "fr-a2-102",
+      "order": 102,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "El imparfait: para qué se usa (descripciones y fondo de la escena)",
+      "kind": "gramatica",
+      "tags": [
+        "imparfait"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-101"
+      ],
+      "file": "./data/fr/lessons/fr-a2-102.json"
+    },
+    {
+      "id": "fr-a2-103",
+      "order": 103,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "Imparfait frente a passé composé I: la foto fija y la acción",
+      "kind": "gramatica",
+      "tags": [
+        "imparfait",
+        "passe-compose",
+        "contraste-pasados"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-102"
+      ],
+      "file": "./data/fr/lessons/fr-a2-103.json"
+    },
+    {
+      "id": "fr-a2-104",
+      "order": 104,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "Imparfait frente a passé composé II: cuando los dos aparecen en la misma frase",
+      "kind": "gramatica",
+      "tags": [
+        "imparfait",
+        "passe-compose",
+        "contraste-pasados"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-103"
+      ],
+      "file": "./data/fr/lessons/fr-a2-104.json"
+    },
+    {
+      "id": "fr-a2-105",
+      "order": 105,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "Imparfait frente a passé composé III: casos que engañan a un hispanohablante",
+      "kind": "gramatica",
+      "tags": [
+        "imparfait",
+        "passe-compose",
+        "contraste-pasados"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-104"
+      ],
+      "file": "./data/fr/lessons/fr-a2-105.json"
+    },
+    {
+      "id": "fr-a2-106",
+      "order": 106,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "Describir un lugar o una persona en pasado",
+      "kind": "comunicacion",
+      "tags": [
+        "imparfait",
+        "descripcion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-105"
+      ],
+      "file": "./data/fr/lessons/fr-a2-106.json"
+    },
+    {
+      "id": "fr-a2-107",
+      "order": 107,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "Hábitos de cuando eras niño: hablar de \"solía\"",
+      "kind": "comunicacion",
+      "tags": [
+        "imparfait",
+        "habitos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-106"
+      ],
+      "file": "./data/fr/lessons/fr-a2-107.json"
+    },
+    {
+      "id": "fr-a2-108",
+      "order": 108,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "Contar una anécdota: estructura de un relato corto",
+      "kind": "comunicacion",
+      "tags": [
+        "narracion",
+        "imparfait"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-107"
+      ],
+      "file": "./data/fr/lessons/fr-a2-108.json"
+    },
+    {
+      "id": "fr-a2-109",
+      "order": 109,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "Los conectores del relato: d'abord, puis, ensuite, enfin",
+      "kind": "gramatica",
+      "tags": [
+        "conectores",
+        "narracion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-108"
+      ],
+      "file": "./data/fr/lessons/fr-a2-109.json"
+    },
+    {
+      "id": "fr-a2-110",
+      "order": 110,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "Verbos que cambian de significado según el pasado que uses (savoir, connaître, pouvoir, vouloir)",
+      "kind": "gramatica",
+      "tags": [
+        "imparfait",
+        "passe-compose",
+        "verbos-especiales"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-109"
+      ],
+      "file": "./data/fr/lessons/fr-a2-110.json"
+    },
+    {
+      "id": "fr-a2-111",
+      "order": 111,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "Cuenta la última película o libro que te gustó",
+      "kind": "comunicacion",
+      "tags": [
+        "narracion",
+        "opinion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-110"
+      ],
+      "file": "./data/fr/lessons/fr-a2-111.json"
+    },
+    {
+      "id": "fr-a2-112",
+      "order": 112,
+      "level": "A2",
+      "block": "fr-a2-b2",
+      "title": "Repaso activo VIII (clases 101–111)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-111",
+        "fr-a2-110",
+        "fr-a2-109"
+      ],
+      "file": "./data/fr/lessons/fr-a2-112.json"
+    },
+    {
+      "id": "fr-a2-113",
+      "order": 113,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "El pronombre en: para cantidades y para \"de eso\"",
+      "kind": "gramatica",
+      "tags": [
+        "pronombres",
+        "en"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-112"
+      ],
+      "file": "./data/fr/lessons/fr-a2-113.json"
+    },
+    {
+      "id": "fr-a2-114",
+      "order": 114,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "El pronombre y: para lugares y para \"en eso\"",
+      "kind": "gramatica",
+      "tags": [
+        "pronombres",
+        "y"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-113"
+      ],
+      "file": "./data/fr/lessons/fr-a2-114.json"
+    },
+    {
+      "id": "fr-a2-115",
+      "order": 115,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "Combinar dos pronombres en la misma frase: el orden que no falla",
+      "kind": "gramatica",
+      "tags": [
+        "pronombres",
+        "doble-pronombre"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-114"
+      ],
+      "file": "./data/fr/lessons/fr-a2-115.json"
+    },
+    {
+      "id": "fr-a2-116",
+      "order": 116,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "Los pronombres tónicos: moi, toi, lui, elle, nous…",
+      "kind": "gramatica",
+      "tags": [
+        "pronombres-tonicos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-115"
+      ],
+      "file": "./data/fr/lessons/fr-a2-116.json"
+    },
+    {
+      "id": "fr-a2-117",
+      "order": 117,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "Los relativos qui y que",
+      "kind": "gramatica",
+      "tags": [
+        "relativos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-116"
+      ],
+      "file": "./data/fr/lessons/fr-a2-117.json"
+    },
+    {
+      "id": "fr-a2-118",
+      "order": 118,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "El relativo où: lugar y tiempo",
+      "kind": "gramatica",
+      "tags": [
+        "relativos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-117"
+      ],
+      "file": "./data/fr/lessons/fr-a2-118.json"
+    },
+    {
+      "id": "fr-a2-119",
+      "order": 119,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "Los demostrativos ce, cet, cette, ces",
+      "kind": "gramatica",
+      "tags": [
+        "demostrativos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-118"
+      ],
+      "file": "./data/fr/lessons/fr-a2-119.json"
+    },
+    {
+      "id": "fr-a2-120",
+      "order": 120,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "Celui, celle, ceux, celles: el demostrativo que sustituye al nombre",
+      "kind": "gramatica",
+      "tags": [
+        "demostrativos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-119"
+      ],
+      "file": "./data/fr/lessons/fr-a2-120.json"
+    },
+    {
+      "id": "fr-a2-121",
+      "order": 121,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "Los indefinidos: tout, chaque, quelques, plusieurs",
+      "kind": "gramatica",
+      "tags": [
+        "indefinidos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-120"
+      ],
+      "file": "./data/fr/lessons/fr-a2-121.json"
+    },
+    {
+      "id": "fr-a2-122",
+      "order": 122,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "Hablar de cantidades sin repetir el sustantivo",
+      "kind": "comunicacion",
+      "tags": [
+        "pronombres",
+        "en"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-121"
+      ],
+      "file": "./data/fr/lessons/fr-a2-122.json"
+    },
+    {
+      "id": "fr-a2-123",
+      "order": 123,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "Describir objetos sin nombrarlos dos veces: un juego de adivinanzas",
+      "kind": "vocabulario",
+      "tags": [
+        "demostrativos",
+        "pronombres"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-122"
+      ],
+      "file": "./data/fr/lessons/fr-a2-123.json"
+    },
+    {
+      "id": "fr-a2-124",
+      "order": 124,
+      "level": "A2",
+      "block": "fr-a2-b3",
+      "title": "Repaso activo IX (clases 113–123)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-123",
+        "fr-a2-122",
+        "fr-a2-121"
+      ],
+      "file": "./data/fr/lessons/fr-a2-124.json"
+    },
+    {
+      "id": "fr-a2-125",
+      "order": 125,
+      "level": "A2",
+      "block": "fr-a2-b4",
+      "title": "El futur simple: formación regular",
+      "kind": "gramatica",
+      "tags": [
+        "futuro"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-124"
+      ],
+      "file": "./data/fr/lessons/fr-a2-125.json"
+    },
+    {
+      "id": "fr-a2-126",
+      "order": 126,
+      "level": "A2",
+      "block": "fr-a2-b4",
+      "title": "Los futuros irregulares más usados (être, avoir, aller, faire, venir…)",
+      "kind": "verbos",
+      "tags": [
+        "futuro",
+        "irregulares"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-a2-125"
+      ],
+      "file": "./data/fr/lessons/fr-a2-126.json"
+    },
+    {
+      "id": "fr-a2-127",
+      "order": 127,
+      "level": "A2",
+      "block": "fr-a2-b4",
+      "title": "Hacer planes y promesas para el futuro",
+      "kind": "comunicacion",
+      "tags": [
+        "futuro"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-126"
+      ],
+      "file": "./data/fr/lessons/fr-a2-127.json"
+    },
+    {
+      "id": "fr-a2-128",
+      "order": 128,
+      "level": "A2",
+      "block": "fr-a2-b4",
+      "title": "Si + presente + futuro: la condición realista",
+      "kind": "gramatica",
+      "tags": [
+        "condicional",
+        "si"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-127"
+      ],
+      "file": "./data/fr/lessons/fr-a2-128.json"
+    },
+    {
+      "id": "fr-a2-129",
+      "order": 129,
+      "level": "A2",
+      "block": "fr-a2-b4",
+      "title": "El condicional presente: formación",
+      "kind": "gramatica",
+      "tags": [
+        "condicional"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-128"
+      ],
+      "file": "./data/fr/lessons/fr-a2-129.json"
+    },
+    {
+      "id": "fr-a2-130",
+      "order": 130,
+      "level": "A2",
+      "block": "fr-a2-b4",
+      "title": "El condicional para pedir las cosas con educación",
+      "kind": "comunicacion",
+      "tags": [
+        "condicional",
+        "cortesia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-129"
+      ],
+      "file": "./data/fr/lessons/fr-a2-130.json"
+    },
+    {
+      "id": "fr-a2-131",
+      "order": 131,
+      "level": "A2",
+      "block": "fr-a2-b4",
+      "title": "El condicional para expresar deseos: j'aimerais, je voudrais",
+      "kind": "comunicacion",
+      "tags": [
+        "condicional",
+        "deseos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-130"
+      ],
+      "file": "./data/fr/lessons/fr-a2-131.json"
+    },
+    {
+      "id": "fr-a2-132",
+      "order": 132,
+      "level": "A2",
+      "block": "fr-a2-b4",
+      "title": "Si + imparfait + condicional: la condición hipotética",
+      "kind": "gramatica",
+      "tags": [
+        "condicional",
+        "si"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-131"
+      ],
+      "file": "./data/fr/lessons/fr-a2-132.json"
+    },
+    {
+      "id": "fr-a2-133",
+      "order": 133,
+      "level": "A2",
+      "block": "fr-a2-b4",
+      "title": "Dar consejos con si yo fuera tú",
+      "kind": "comunicacion",
+      "tags": [
+        "condicional",
+        "consejos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-132"
+      ],
+      "file": "./data/fr/lessons/fr-a2-133.json"
+    },
+    {
+      "id": "fr-a2-134",
+      "order": 134,
+      "level": "A2",
+      "block": "fr-a2-b4",
+      "title": "Repaso activo X (clases 125–133)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-133",
+        "fr-a2-132",
+        "fr-a2-131"
+      ],
+      "file": "./data/fr/lessons/fr-a2-134.json"
+    },
+    {
+      "id": "fr-a2-135",
+      "order": 135,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "Viajes y alojamiento: reservar y llegar",
+      "kind": "vocabulario",
+      "tags": [
+        "viajes"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-134"
+      ],
+      "file": "./data/fr/lessons/fr-a2-135.json"
+    },
+    {
+      "id": "fr-a2-136",
+      "order": 136,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "En el aeropuerto y en la estación",
+      "kind": "vocabulario",
+      "tags": [
+        "viajes",
+        "transporte"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-135"
+      ],
+      "file": "./data/fr/lessons/fr-a2-136.json"
+    },
+    {
+      "id": "fr-a2-137",
+      "order": 137,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "En el banco y en correos: hacer una gestión",
+      "kind": "comunicacion",
+      "tags": [
+        "banco",
+        "correos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-136"
+      ],
+      "file": "./data/fr/lessons/fr-a2-137.json"
+    },
+    {
+      "id": "fr-a2-138",
+      "order": 138,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "La casa y la mudanza",
+      "kind": "vocabulario",
+      "tags": [
+        "vivienda",
+        "mudanza"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-137"
+      ],
+      "file": "./data/fr/lessons/fr-a2-138.json"
+    },
+    {
+      "id": "fr-a2-139",
+      "order": 139,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "La tecnología y el móvil",
+      "kind": "vocabulario",
+      "tags": [
+        "tecnologia"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-138"
+      ],
+      "file": "./data/fr/lessons/fr-a2-139.json"
+    },
+    {
+      "id": "fr-a2-140",
+      "order": 140,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "Las redes sociales",
+      "kind": "vocabulario",
+      "tags": [
+        "redes-sociales"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-139"
+      ],
+      "file": "./data/fr/lessons/fr-a2-140.json"
+    },
+    {
+      "id": "fr-a2-141",
+      "order": 141,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "En la farmacia: pedir un medicamento y explicar síntomas",
+      "kind": "comunicacion",
+      "tags": [
+        "salud",
+        "farmacia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-140"
+      ],
+      "file": "./data/fr/lessons/fr-a2-141.json"
+    },
+    {
+      "id": "fr-a2-142",
+      "order": 142,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "Las emociones: cómo te sientes de verdad",
+      "kind": "vocabulario",
+      "tags": [
+        "emociones"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-141"
+      ],
+      "file": "./data/fr/lessons/fr-a2-142.json"
+    },
+    {
+      "id": "fr-a2-143",
+      "order": 143,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "El carácter y las relaciones personales",
+      "kind": "vocabulario",
+      "tags": [
+        "caracter",
+        "relaciones"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-142"
+      ],
+      "file": "./data/fr/lessons/fr-a2-143.json"
+    },
+    {
+      "id": "fr-a2-144",
+      "order": 144,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "El medioambiente: lo básico para hablar de él",
+      "kind": "vocabulario",
+      "tags": [
+        "medioambiente"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-143"
+      ],
+      "file": "./data/fr/lessons/fr-a2-144.json"
+    },
+    {
+      "id": "fr-a2-145",
+      "order": 145,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "La prensa y la televisión",
+      "kind": "vocabulario",
+      "tags": [
+        "medios"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-144"
+      ],
+      "file": "./data/fr/lessons/fr-a2-145.json"
+    },
+    {
+      "id": "fr-a2-146",
+      "order": 146,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "El cine y la música",
+      "kind": "vocabulario",
+      "tags": [
+        "cine",
+        "musica"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-145"
+      ],
+      "file": "./data/fr/lessons/fr-a2-146.json"
+    },
+    {
+      "id": "fr-a2-147",
+      "order": 147,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "Las fiestas francesas: qué se celebra y cómo",
+      "kind": "cultura",
+      "tags": [
+        "fiestas",
+        "cultura-francesa"
+      ],
+      "estimatedMinutes": 15,
+      "prerequisites": [
+        "fr-a2-146"
+      ],
+      "file": "./data/fr/lessons/fr-a2-147.json"
+    },
+    {
+      "id": "fr-a2-148",
+      "order": 148,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "Ir de compras: consumo, precios y dinero",
+      "kind": "vocabulario",
+      "tags": [
+        "compras",
+        "dinero"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-147"
+      ],
+      "file": "./data/fr/lessons/fr-a2-148.json"
+    },
+    {
+      "id": "fr-a2-149",
+      "order": 149,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "El cuerpo en movimiento: deporte y sensaciones físicas",
+      "kind": "vocabulario",
+      "tags": [
+        "cuerpo",
+        "deporte"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-a2-148"
+      ],
+      "file": "./data/fr/lessons/fr-a2-149.json"
+    },
+    {
+      "id": "fr-a2-150",
+      "order": 150,
+      "level": "A2",
+      "block": "fr-a2-b5",
+      "title": "Repaso activo XI (clases 135–149)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-149",
+        "fr-a2-148",
+        "fr-a2-147"
+      ],
+      "file": "./data/fr/lessons/fr-a2-150.json"
+    },
+    {
+      "id": "fr-a2-151",
+      "order": 151,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "Dar tu opinión: je pense que, à mon avis, selon moi",
+      "kind": "comunicacion",
+      "tags": [
+        "opinion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-150"
+      ],
+      "file": "./data/fr/lessons/fr-a2-151.json"
+    },
+    {
+      "id": "fr-a2-152",
+      "order": 152,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "Estar de acuerdo o no estarlo",
+      "kind": "comunicacion",
+      "tags": [
+        "opinion",
+        "acuerdo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-151"
+      ],
+      "file": "./data/fr/lessons/fr-a2-152.json"
+    },
+    {
+      "id": "fr-a2-153",
+      "order": 153,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "Expresar gustos con matices: j'aime bien, j'adore, ça ne me dit rien",
+      "kind": "comunicacion",
+      "tags": [
+        "gustos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-152"
+      ],
+      "file": "./data/fr/lessons/fr-a2-153.json"
+    },
+    {
+      "id": "fr-a2-154",
+      "order": 154,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "Hacer sugerencias y proponer planes",
+      "kind": "comunicacion",
+      "tags": [
+        "sugerencias"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-153"
+      ],
+      "file": "./data/fr/lessons/fr-a2-154.json"
+    },
+    {
+      "id": "fr-a2-155",
+      "order": 155,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "Quedar con alguien: día, hora y lugar",
+      "kind": "comunicacion",
+      "tags": [
+        "quedar"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-154"
+      ],
+      "file": "./data/fr/lessons/fr-a2-155.json"
+    },
+    {
+      "id": "fr-a2-156",
+      "order": 156,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "Quejarse con educación",
+      "kind": "comunicacion",
+      "tags": [
+        "quejas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-155"
+      ],
+      "file": "./data/fr/lessons/fr-a2-156.json"
+    },
+    {
+      "id": "fr-a2-157",
+      "order": 157,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "Pedir permiso y disculparte",
+      "kind": "comunicacion",
+      "tags": [
+        "permiso",
+        "disculpas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-156"
+      ],
+      "file": "./data/fr/lessons/fr-a2-157.json"
+    },
+    {
+      "id": "fr-a2-158",
+      "order": 158,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "El comparativo: plus... que, moins... que, aussi... que",
+      "kind": "gramatica",
+      "tags": [
+        "comparativo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-157"
+      ],
+      "file": "./data/fr/lessons/fr-a2-158.json"
+    },
+    {
+      "id": "fr-a2-159",
+      "order": 159,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "El superlativo: le plus, le moins",
+      "kind": "gramatica",
+      "tags": [
+        "superlativo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-158"
+      ],
+      "file": "./data/fr/lessons/fr-a2-159.json"
+    },
+    {
+      "id": "fr-a2-160",
+      "order": 160,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "Los adverbios en -ment",
+      "kind": "gramatica",
+      "tags": [
+        "adverbios"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-159"
+      ],
+      "file": "./data/fr/lessons/fr-a2-160.json"
+    },
+    {
+      "id": "fr-a2-161",
+      "order": 161,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "Expresar cantidad y causa: beaucoup de, parce que, donc, car",
+      "kind": "gramatica",
+      "tags": [
+        "cantidad",
+        "causa-consecuencia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-160"
+      ],
+      "file": "./data/fr/lessons/fr-a2-161.json"
+    },
+    {
+      "id": "fr-a2-162",
+      "order": 162,
+      "level": "A2",
+      "block": "fr-a2-b6",
+      "title": "Repaso activo XII (clases 151–161)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-161",
+        "fr-a2-160",
+        "fr-a2-159"
+      ],
+      "file": "./data/fr/lessons/fr-a2-162.json"
+    },
+    {
+      "id": "fr-a2-163",
+      "order": 163,
+      "level": "A2",
+      "block": "fr-a2-b7",
+      "title": "Pronunciación general VI: el enchaînement",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "enchainement"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a2-162"
+      ],
+      "file": "./data/fr/lessons/fr-a2-163.json"
+    },
+    {
+      "id": "fr-a2-164",
+      "order": 164,
+      "level": "A2",
+      "block": "fr-a2-b7",
+      "title": "Pronunciación general VII: la e caduca en el habla rápida",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "e-caduca"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a2-163"
+      ],
+      "file": "./data/fr/lessons/fr-a2-164.json"
+    },
+    {
+      "id": "fr-a2-165",
+      "order": 165,
+      "level": "A2",
+      "block": "fr-a2-b7",
+      "title": "Pronunciación general VIII: la entonación de una pregunta real",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "entonacion"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a2-164"
+      ],
+      "file": "./data/fr/lessons/fr-a2-165.json"
+    },
+    {
+      "id": "fr-a2-166",
+      "order": 166,
+      "level": "A2",
+      "block": "fr-a2-b7",
+      "title": "Las contracciones del francés hablado: j'sais pas, t'as, y'a",
+      "kind": "fonetica",
+      "tags": [
+        "frances-hablado",
+        "contracciones"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a2-165"
+      ],
+      "file": "./data/fr/lessons/fr-a2-166.json"
+    },
+    {
+      "id": "fr-a2-167",
+      "order": 167,
+      "level": "A2",
+      "block": "fr-a2-b7",
+      "title": "Pronunciación general IX: los pares mínimos u/ou y é/è",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "pares-minimos"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a2-166"
+      ],
+      "file": "./data/fr/lessons/fr-a2-167.json"
+    },
+    {
+      "id": "fr-a2-168",
+      "order": 168,
+      "level": "A2",
+      "block": "fr-a2-b7",
+      "title": "El ritmo de las frases largas",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "ritmo"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-a2-167"
+      ],
+      "file": "./data/fr/lessons/fr-a2-168.json"
+    },
+    {
+      "id": "fr-a2-169",
+      "order": 169,
+      "level": "A2",
+      "block": "fr-a2-b8",
+      "title": "Repaso activo XIII: el pasado a fondo (imparfait, passé composé, pronominales)",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "pasado"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-168",
+        "fr-a2-167",
+        "fr-a2-166"
+      ],
+      "file": "./data/fr/lessons/fr-a2-169.json"
+    },
+    {
+      "id": "fr-a2-170",
+      "order": 170,
+      "level": "A2",
+      "block": "fr-a2-b8",
+      "title": "Repaso activo XIV: pronombres y sustitución",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "pronombres"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-169",
+        "fr-a2-168",
+        "fr-a2-167"
+      ],
+      "file": "./data/fr/lessons/fr-a2-170.json"
+    },
+    {
+      "id": "fr-a2-171",
+      "order": 171,
+      "level": "A2",
+      "block": "fr-a2-b8",
+      "title": "Repaso activo XV: futuro y condicional",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "futuro",
+        "condicional"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-170",
+        "fr-a2-169",
+        "fr-a2-168"
+      ],
+      "file": "./data/fr/lessons/fr-a2-171.json"
+    },
+    {
+      "id": "fr-a2-172",
+      "order": 172,
+      "level": "A2",
+      "block": "fr-a2-b8",
+      "title": "Repaso activo XVI: vocabulario temático A2",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "vocabulario"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-171",
+        "fr-a2-170",
+        "fr-a2-169"
+      ],
+      "file": "./data/fr/lessons/fr-a2-172.json"
+    },
+    {
+      "id": "fr-a2-173",
+      "order": 173,
+      "level": "A2",
+      "block": "fr-a2-b8",
+      "title": "Repaso activo XVII: expresarse con matices",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "comunicacion"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-172",
+        "fr-a2-171",
+        "fr-a2-170"
+      ],
+      "file": "./data/fr/lessons/fr-a2-173.json"
+    },
+    {
+      "id": "fr-a2-174",
+      "order": 174,
+      "level": "A2",
+      "block": "fr-a2-b8",
+      "title": "Taller de conversación escrita: simula un intercambio real",
+      "kind": "comunicacion",
+      "tags": [
+        "taller",
+        "conversacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-173"
+      ],
+      "file": "./data/fr/lessons/fr-a2-174.json"
+    },
+    {
+      "id": "fr-a2-175",
+      "order": 175,
+      "level": "A2",
+      "block": "fr-a2-b8",
+      "title": "Preparación para la prueba de nivel A2",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "examen"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-a2-174",
+        "fr-a2-173",
+        "fr-a2-172"
+      ],
+      "file": "./data/fr/lessons/fr-a2-175.json"
+    },
+    {
+      "id": "fr-b1-176",
+      "order": 176,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "El subjonctif présent: cómo se forma",
+      "kind": "gramatica",
+      "tags": [
+        "subjuntivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-a2-175"
+      ],
+      "file": "./data/fr/lessons/fr-b1-176.json"
+    },
+    {
+      "id": "fr-b1-177",
+      "order": 177,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "Los subjuntivos irregulares más usados (être, avoir, aller, faire, pouvoir, savoir)",
+      "kind": "verbos",
+      "tags": [
+        "subjuntivo",
+        "irregulares"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "fr-b1-176"
+      ],
+      "file": "./data/fr/lessons/fr-b1-177.json"
+    },
+    {
+      "id": "fr-b1-178",
+      "order": 178,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "El subjuntivo tras expresar deseo: je veux que, j'aimerais que",
+      "kind": "gramatica",
+      "tags": [
+        "subjuntivo",
+        "deseo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-177"
+      ],
+      "file": "./data/fr/lessons/fr-b1-178.json"
+    },
+    {
+      "id": "fr-b1-179",
+      "order": 179,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "El subjuntivo tras expresar emoción: je suis content que, j'ai peur que",
+      "kind": "gramatica",
+      "tags": [
+        "subjuntivo",
+        "emocion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-178"
+      ],
+      "file": "./data/fr/lessons/fr-b1-179.json"
+    },
+    {
+      "id": "fr-b1-180",
+      "order": 180,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "El subjuntivo tras expresar duda: je ne pense pas que, il est possible que",
+      "kind": "gramatica",
+      "tags": [
+        "subjuntivo",
+        "duda"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-179"
+      ],
+      "file": "./data/fr/lessons/fr-b1-180.json"
+    },
+    {
+      "id": "fr-b1-181",
+      "order": 181,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "Il faut que: la obligación con subjuntivo",
+      "kind": "gramatica",
+      "tags": [
+        "subjuntivo",
+        "obligacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-180"
+      ],
+      "file": "./data/fr/lessons/fr-b1-181.json"
+    },
+    {
+      "id": "fr-b1-182",
+      "order": 182,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "El subjuntivo tras conjunciones: bien que, pour que, avant que",
+      "kind": "gramatica",
+      "tags": [
+        "subjuntivo",
+        "conjunciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-181"
+      ],
+      "file": "./data/fr/lessons/fr-b1-182.json"
+    },
+    {
+      "id": "fr-b1-183",
+      "order": 183,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "Subjuntivo o indicativo: cuándo el francés elige uno u otro",
+      "kind": "gramatica",
+      "tags": [
+        "subjuntivo",
+        "indicativo",
+        "contraste"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-182"
+      ],
+      "file": "./data/fr/lessons/fr-b1-183.json"
+    },
+    {
+      "id": "fr-b1-184",
+      "order": 184,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "Dar tu opinión con matices: creo que sí, pero no estoy seguro",
+      "kind": "comunicacion",
+      "tags": [
+        "subjuntivo",
+        "opinion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-183"
+      ],
+      "file": "./data/fr/lessons/fr-b1-184.json"
+    },
+    {
+      "id": "fr-b1-185",
+      "order": 185,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "Pedir algo formalmente usando el subjuntivo",
+      "kind": "comunicacion",
+      "tags": [
+        "subjuntivo",
+        "peticiones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-184"
+      ],
+      "file": "./data/fr/lessons/fr-b1-185.json"
+    },
+    {
+      "id": "fr-b1-186",
+      "order": 186,
+      "level": "B1",
+      "block": "fr-b1-b1",
+      "title": "Repaso activo XVIII (clases 176–185)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-b1-185",
+        "fr-b1-184",
+        "fr-b1-183"
+      ],
+      "file": "./data/fr/lessons/fr-b1-186.json"
+    },
+    {
+      "id": "fr-b1-187",
+      "order": 187,
+      "level": "B1",
+      "block": "fr-b1-b2",
+      "title": "El condicional pasado: formación",
+      "kind": "gramatica",
+      "tags": [
+        "condicional-pasado"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-186"
+      ],
+      "file": "./data/fr/lessons/fr-b1-187.json"
+    },
+    {
+      "id": "fr-b1-188",
+      "order": 188,
+      "level": "B1",
+      "block": "fr-b1-b2",
+      "title": "Si + plus-que-parfait + condicional pasado: la hipótesis irreal del pasado",
+      "kind": "gramatica",
+      "tags": [
+        "condicional-pasado",
+        "si"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-187"
+      ],
+      "file": "./data/fr/lessons/fr-b1-188.json"
+    },
+    {
+      "id": "fr-b1-189",
+      "order": 189,
+      "level": "B1",
+      "block": "fr-b1-b2",
+      "title": "Expresar reproche: tu aurais dû...",
+      "kind": "comunicacion",
+      "tags": [
+        "condicional-pasado",
+        "reproche"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-188"
+      ],
+      "file": "./data/fr/lessons/fr-b1-189.json"
+    },
+    {
+      "id": "fr-b1-190",
+      "order": 190,
+      "level": "B1",
+      "block": "fr-b1-b2",
+      "title": "Expresar arrepentimiento por algo que no hiciste",
+      "kind": "comunicacion",
+      "tags": [
+        "condicional-pasado",
+        "arrepentimiento"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-189"
+      ],
+      "file": "./data/fr/lessons/fr-b1-190.json"
+    },
+    {
+      "id": "fr-b1-191",
+      "order": 191,
+      "level": "B1",
+      "block": "fr-b1-b2",
+      "title": "La cortesía formal con el condicional",
+      "kind": "comunicacion",
+      "tags": [
+        "condicional",
+        "cortesia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-190"
+      ],
+      "file": "./data/fr/lessons/fr-b1-191.json"
+    },
+    {
+      "id": "fr-b1-192",
+      "order": 192,
+      "level": "B1",
+      "block": "fr-b1-b2",
+      "title": "Expresar probabilidad: il se peut que, ça se pourrait",
+      "kind": "gramatica",
+      "tags": [
+        "probabilidad"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-191"
+      ],
+      "file": "./data/fr/lessons/fr-b1-192.json"
+    },
+    {
+      "id": "fr-b1-193",
+      "order": 193,
+      "level": "B1",
+      "block": "fr-b1-b2",
+      "title": "Contrastar los tres niveles de hipótesis (si+presente, si+imparfait, si+plus-que-parfait)",
+      "kind": "gramatica",
+      "tags": [
+        "condicional",
+        "si",
+        "contraste"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-192"
+      ],
+      "file": "./data/fr/lessons/fr-b1-193.json"
+    },
+    {
+      "id": "fr-b1-194",
+      "order": 194,
+      "level": "B1",
+      "block": "fr-b1-b2",
+      "title": "Dar tu opinión sobre decisiones pasadas de otros",
+      "kind": "comunicacion",
+      "tags": [
+        "condicional-pasado",
+        "opinion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-193"
+      ],
+      "file": "./data/fr/lessons/fr-b1-194.json"
+    },
+    {
+      "id": "fr-b1-195",
+      "order": 195,
+      "level": "B1",
+      "block": "fr-b1-b2",
+      "title": "Repaso activo XIX (clases 187–194)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-b1-194",
+        "fr-b1-193",
+        "fr-b1-192"
+      ],
+      "file": "./data/fr/lessons/fr-b1-195.json"
+    },
+    {
+      "id": "fr-b1-196",
+      "order": 196,
+      "level": "B1",
+      "block": "fr-b1-b3",
+      "title": "El relativo dont",
+      "kind": "gramatica",
+      "tags": [
+        "relativos",
+        "dont"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-195"
+      ],
+      "file": "./data/fr/lessons/fr-b1-196.json"
+    },
+    {
+      "id": "fr-b1-197",
+      "order": 197,
+      "level": "B1",
+      "block": "fr-b1-b3",
+      "title": "Lequel, laquelle, lesquels, lesquelles",
+      "kind": "gramatica",
+      "tags": [
+        "relativos",
+        "lequel"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-196"
+      ],
+      "file": "./data/fr/lessons/fr-b1-197.json"
+    },
+    {
+      "id": "fr-b1-198",
+      "order": 198,
+      "level": "B1",
+      "block": "fr-b1-b3",
+      "title": "Ce qui, ce que, ce dont: el relativo sin antecedente",
+      "kind": "gramatica",
+      "tags": [
+        "relativos",
+        "ce-qui-ce-que"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-197"
+      ],
+      "file": "./data/fr/lessons/fr-b1-198.json"
+    },
+    {
+      "id": "fr-b1-199",
+      "order": 199,
+      "level": "B1",
+      "block": "fr-b1-b3",
+      "title": "Conectar ideas: d'abord, ensuite, enfin",
+      "kind": "gramatica",
+      "tags": [
+        "conectores"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-198"
+      ],
+      "file": "./data/fr/lessons/fr-b1-199.json"
+    },
+    {
+      "id": "fr-b1-200",
+      "order": 200,
+      "level": "B1",
+      "block": "fr-b1-b3",
+      "title": "Contrastar ideas: cependant, en revanche, par contre",
+      "kind": "gramatica",
+      "tags": [
+        "conectores",
+        "contraste"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-199"
+      ],
+      "file": "./data/fr/lessons/fr-b1-200.json"
+    },
+    {
+      "id": "fr-b1-201",
+      "order": 201,
+      "level": "B1",
+      "block": "fr-b1-b3",
+      "title": "Sacar conclusiones: par conséquent, donc, ainsi",
+      "kind": "gramatica",
+      "tags": [
+        "conectores",
+        "consecuencia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-200"
+      ],
+      "file": "./data/fr/lessons/fr-b1-201.json"
+    },
+    {
+      "id": "fr-b1-202",
+      "order": 202,
+      "level": "B1",
+      "block": "fr-b1-b3",
+      "title": "Estructurar una opinión argumentada de principio a fin",
+      "kind": "comunicacion",
+      "tags": [
+        "argumentacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-201"
+      ],
+      "file": "./data/fr/lessons/fr-b1-202.json"
+    },
+    {
+      "id": "fr-b1-203",
+      "order": 203,
+      "level": "B1",
+      "block": "fr-b1-b3",
+      "title": "Resumir un texto o una conversación con tus palabras",
+      "kind": "comunicacion",
+      "tags": [
+        "resumen"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-202"
+      ],
+      "file": "./data/fr/lessons/fr-b1-203.json"
+    },
+    {
+      "id": "fr-b1-204",
+      "order": 204,
+      "level": "B1",
+      "block": "fr-b1-b3",
+      "title": "Debatir un tema con estructura: a favor y en contra",
+      "kind": "comunicacion",
+      "tags": [
+        "argumentacion",
+        "debate"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-203"
+      ],
+      "file": "./data/fr/lessons/fr-b1-204.json"
+    },
+    {
+      "id": "fr-b1-205",
+      "order": 205,
+      "level": "B1",
+      "block": "fr-b1-b3",
+      "title": "Repaso activo XX (clases 196–204)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-b1-204",
+        "fr-b1-203",
+        "fr-b1-202"
+      ],
+      "file": "./data/fr/lessons/fr-b1-205.json"
+    },
+    {
+      "id": "fr-b1-206",
+      "order": 206,
+      "level": "B1",
+      "block": "fr-b1-b4",
+      "title": "El plus-que-parfait: el pasado del pasado",
+      "kind": "gramatica",
+      "tags": [
+        "plus-que-parfait"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-205"
+      ],
+      "file": "./data/fr/lessons/fr-b1-206.json"
+    },
+    {
+      "id": "fr-b1-207",
+      "order": 207,
+      "level": "B1",
+      "block": "fr-b1-b4",
+      "title": "La trilogía de los pasados: imparfait, passé composé y plus-que-parfait juntos",
+      "kind": "gramatica",
+      "tags": [
+        "contraste-pasados",
+        "plus-que-parfait"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-206"
+      ],
+      "file": "./data/fr/lessons/fr-b1-207.json"
+    },
+    {
+      "id": "fr-b1-208",
+      "order": 208,
+      "level": "B1",
+      "block": "fr-b1-b4",
+      "title": "Practicar la trilogía con relatos reales",
+      "kind": "comunicacion",
+      "tags": [
+        "contraste-pasados",
+        "narracion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-207"
+      ],
+      "file": "./data/fr/lessons/fr-b1-208.json"
+    },
+    {
+      "id": "fr-b1-209",
+      "order": 209,
+      "level": "B1",
+      "block": "fr-b1-b4",
+      "title": "El passé simple: reconocerlo al leer (sin usarlo tú)",
+      "kind": "gramatica",
+      "tags": [
+        "passe-simple",
+        "lectura"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-208"
+      ],
+      "file": "./data/fr/lessons/fr-b1-209.json"
+    },
+    {
+      "id": "fr-b1-210",
+      "order": 210,
+      "level": "B1",
+      "block": "fr-b1-b4",
+      "title": "Leer un cuento corto y entender los tiempos verbales",
+      "kind": "comunicacion",
+      "tags": [
+        "passe-simple",
+        "lectura"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-209"
+      ],
+      "file": "./data/fr/lessons/fr-b1-210.json"
+    },
+    {
+      "id": "fr-b1-211",
+      "order": 211,
+      "level": "B1",
+      "block": "fr-b1-b4",
+      "title": "Narrar un relato completo: de la introducción al desenlace",
+      "kind": "comunicacion",
+      "tags": [
+        "narracion",
+        "contraste-pasados"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-210"
+      ],
+      "file": "./data/fr/lessons/fr-b1-211.json"
+    },
+    {
+      "id": "fr-b1-212",
+      "order": 212,
+      "level": "B1",
+      "block": "fr-b1-b4",
+      "title": "Los matices que cambian una historia según el pasado elegido",
+      "kind": "gramatica",
+      "tags": [
+        "contraste-pasados"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-211"
+      ],
+      "file": "./data/fr/lessons/fr-b1-212.json"
+    },
+    {
+      "id": "fr-b1-213",
+      "order": 213,
+      "level": "B1",
+      "block": "fr-b1-b4",
+      "title": "Cuenta la historia de tu vida en cinco minutos",
+      "kind": "comunicacion",
+      "tags": [
+        "narracion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-212"
+      ],
+      "file": "./data/fr/lessons/fr-b1-213.json"
+    },
+    {
+      "id": "fr-b1-214",
+      "order": 214,
+      "level": "B1",
+      "block": "fr-b1-b5",
+      "title": "La voz pasiva: formación y cuándo usarla",
+      "kind": "gramatica",
+      "tags": [
+        "voz-pasiva"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-213"
+      ],
+      "file": "./data/fr/lessons/fr-b1-214.json"
+    },
+    {
+      "id": "fr-b1-215",
+      "order": 215,
+      "level": "B1",
+      "block": "fr-b1-b5",
+      "title": "El discurso indirecto en presente: decir lo que alguien dijo",
+      "kind": "gramatica",
+      "tags": [
+        "discurso-indirecto"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-214"
+      ],
+      "file": "./data/fr/lessons/fr-b1-215.json"
+    },
+    {
+      "id": "fr-b1-216",
+      "order": 216,
+      "level": "B1",
+      "block": "fr-b1-b5",
+      "title": "El discurso indirecto en pasado: la concordancia de tiempos",
+      "kind": "gramatica",
+      "tags": [
+        "discurso-indirecto",
+        "concordancia-tiempos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-215"
+      ],
+      "file": "./data/fr/lessons/fr-b1-216.json"
+    },
+    {
+      "id": "fr-b1-217",
+      "order": 217,
+      "level": "B1",
+      "block": "fr-b1-b5",
+      "title": "Contar un cotilleo o una noticia de segunda mano",
+      "kind": "comunicacion",
+      "tags": [
+        "discurso-indirecto"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-216"
+      ],
+      "file": "./data/fr/lessons/fr-b1-217.json"
+    },
+    {
+      "id": "fr-b1-218",
+      "order": 218,
+      "level": "B1",
+      "block": "fr-b1-b5",
+      "title": "El gerundio: en + participio presente (en mangeant, en parlant)",
+      "kind": "gramatica",
+      "tags": [
+        "gerundio"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-217"
+      ],
+      "file": "./data/fr/lessons/fr-b1-218.json"
+    },
+    {
+      "id": "fr-b1-219",
+      "order": 219,
+      "level": "B1",
+      "block": "fr-b1-b5",
+      "title": "El participio presente como adjetivo",
+      "kind": "gramatica",
+      "tags": [
+        "participio-presente"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-218"
+      ],
+      "file": "./data/fr/lessons/fr-b1-219.json"
+    },
+    {
+      "id": "fr-b1-220",
+      "order": 220,
+      "level": "B1",
+      "block": "fr-b1-b5",
+      "title": "El infinitivo con preposición: verbos que piden à y verbos que piden de",
+      "kind": "gramatica",
+      "tags": [
+        "infinitivo",
+        "preposiciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-219"
+      ],
+      "file": "./data/fr/lessons/fr-b1-220.json"
+    },
+    {
+      "id": "fr-b1-221",
+      "order": 221,
+      "level": "B1",
+      "block": "fr-b1-b5",
+      "title": "Explicar cómo se hace algo, paso a paso",
+      "kind": "comunicacion",
+      "tags": [
+        "gerundio",
+        "instrucciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-220"
+      ],
+      "file": "./data/fr/lessons/fr-b1-221.json"
+    },
+    {
+      "id": "fr-b1-222",
+      "order": 222,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "El trabajo: buscar empleo y la entrevista",
+      "kind": "comunicacion",
+      "tags": [
+        "trabajo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-221"
+      ],
+      "file": "./data/fr/lessons/fr-b1-222.json"
+    },
+    {
+      "id": "fr-b1-223",
+      "order": 223,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "La educación superior: la universidad y los estudios",
+      "kind": "vocabulario",
+      "tags": [
+        "educacion"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-222"
+      ],
+      "file": "./data/fr/lessons/fr-b1-223.json"
+    },
+    {
+      "id": "fr-b1-224",
+      "order": 224,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "La vivienda: alquilar, comprar y los contratos",
+      "kind": "vocabulario",
+      "tags": [
+        "vivienda",
+        "contratos"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-223"
+      ],
+      "file": "./data/fr/lessons/fr-b1-224.json"
+    },
+    {
+      "id": "fr-b1-225",
+      "order": 225,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "La salud y el sistema sanitario",
+      "kind": "vocabulario",
+      "tags": [
+        "salud"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-224"
+      ],
+      "file": "./data/fr/lessons/fr-b1-225.json"
+    },
+    {
+      "id": "fr-b1-226",
+      "order": 226,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "El medioambiente y el clima",
+      "kind": "vocabulario",
+      "tags": [
+        "medioambiente",
+        "clima"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-225"
+      ],
+      "file": "./data/fr/lessons/fr-b1-226.json"
+    },
+    {
+      "id": "fr-b1-227",
+      "order": 227,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "La política y las instituciones",
+      "kind": "vocabulario",
+      "tags": [
+        "politica"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-226"
+      ],
+      "file": "./data/fr/lessons/fr-b1-227.json"
+    },
+    {
+      "id": "fr-b1-228",
+      "order": 228,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "La economía personal: ahorrar, gastar, invertir",
+      "kind": "vocabulario",
+      "tags": [
+        "economia"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-227"
+      ],
+      "file": "./data/fr/lessons/fr-b1-228.json"
+    },
+    {
+      "id": "fr-b1-229",
+      "order": 229,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "La tecnología e internet",
+      "kind": "vocabulario",
+      "tags": [
+        "tecnologia",
+        "internet"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-228"
+      ],
+      "file": "./data/fr/lessons/fr-b1-229.json"
+    },
+    {
+      "id": "fr-b1-230",
+      "order": 230,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "Los medios de comunicación y las noticias",
+      "kind": "vocabulario",
+      "tags": [
+        "medios",
+        "noticias"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-229"
+      ],
+      "file": "./data/fr/lessons/fr-b1-230.json"
+    },
+    {
+      "id": "fr-b1-231",
+      "order": 231,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "El arte y la literatura",
+      "kind": "vocabulario",
+      "tags": [
+        "arte",
+        "literatura"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-230"
+      ],
+      "file": "./data/fr/lessons/fr-b1-231.json"
+    },
+    {
+      "id": "fr-b1-232",
+      "order": 232,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "La gastronomía: más allá de pedir en un restaurante",
+      "kind": "comunicacion",
+      "tags": [
+        "gastronomia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-231"
+      ],
+      "file": "./data/fr/lessons/fr-b1-232.json"
+    },
+    {
+      "id": "fr-b1-233",
+      "order": 233,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "Viajes largos e imprevistos",
+      "kind": "vocabulario",
+      "tags": [
+        "viajes",
+        "imprevistos"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-232"
+      ],
+      "file": "./data/fr/lessons/fr-b1-233.json"
+    },
+    {
+      "id": "fr-b1-234",
+      "order": 234,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "Las relaciones y la convivencia",
+      "kind": "vocabulario",
+      "tags": [
+        "relaciones",
+        "convivencia"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-233"
+      ],
+      "file": "./data/fr/lessons/fr-b1-234.json"
+    },
+    {
+      "id": "fr-b1-235",
+      "order": 235,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "Expresiones idiomáticas frecuentes y el registro familiar frente al formal",
+      "kind": "vocabulario",
+      "tags": [
+        "expresiones-idiomaticas",
+        "registro"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "fr-b1-234"
+      ],
+      "file": "./data/fr/lessons/fr-b1-235.json"
+    },
+    {
+      "id": "fr-b1-236",
+      "order": 236,
+      "level": "B1",
+      "block": "fr-b1-b6",
+      "title": "Repaso activo XXI (clases 222–235)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-b1-235",
+        "fr-b1-234",
+        "fr-b1-233"
+      ],
+      "file": "./data/fr/lessons/fr-b1-236.json"
+    },
+    {
+      "id": "fr-b1-237",
+      "order": 237,
+      "level": "B1",
+      "block": "fr-b1-b7",
+      "title": "Argumentar y rebatir un argumento",
+      "kind": "comunicacion",
+      "tags": [
+        "argumentacion",
+        "debate"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-236"
+      ],
+      "file": "./data/fr/lessons/fr-b1-237.json"
+    },
+    {
+      "id": "fr-b1-238",
+      "order": 238,
+      "level": "B1",
+      "block": "fr-b1-b7",
+      "title": "Matizar y suavizar lo que dices",
+      "kind": "comunicacion",
+      "tags": [
+        "matizar"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-237"
+      ],
+      "file": "./data/fr/lessons/fr-b1-238.json"
+    },
+    {
+      "id": "fr-b1-239",
+      "order": 239,
+      "level": "B1",
+      "block": "fr-b1-b7",
+      "title": "Interrumpir con educación y ceder el turno",
+      "kind": "comunicacion",
+      "tags": [
+        "turno-palabra"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-238"
+      ],
+      "file": "./data/fr/lessons/fr-b1-239.json"
+    },
+    {
+      "id": "fr-b1-240",
+      "order": 240,
+      "level": "B1",
+      "block": "fr-b1-b7",
+      "title": "Contar una historia con gracia",
+      "kind": "comunicacion",
+      "tags": [
+        "narracion",
+        "humor"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-239"
+      ],
+      "file": "./data/fr/lessons/fr-b1-240.json"
+    },
+    {
+      "id": "fr-b1-241",
+      "order": 241,
+      "level": "B1",
+      "block": "fr-b1-b7",
+      "title": "Negociar: pedir, ceder y llegar a un acuerdo",
+      "kind": "comunicacion",
+      "tags": [
+        "negociacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-240"
+      ],
+      "file": "./data/fr/lessons/fr-b1-241.json"
+    },
+    {
+      "id": "fr-b1-242",
+      "order": 242,
+      "level": "B1",
+      "block": "fr-b1-b7",
+      "title": "Expresar hipótesis y probabilidad en una charla informal",
+      "kind": "comunicacion",
+      "tags": [
+        "hipotesis",
+        "probabilidad"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-241"
+      ],
+      "file": "./data/fr/lessons/fr-b1-242.json"
+    },
+    {
+      "id": "fr-b1-243",
+      "order": 243,
+      "level": "B1",
+      "block": "fr-b1-b7",
+      "title": "Entender el francés hablado rápido: trucos para no perderte",
+      "kind": "comunicacion",
+      "tags": [
+        "comprension-oral"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-242"
+      ],
+      "file": "./data/fr/lessons/fr-b1-243.json"
+    },
+    {
+      "id": "fr-b1-244",
+      "order": 244,
+      "level": "B1",
+      "block": "fr-b1-b7",
+      "title": "Malentendidos: cómo darte cuenta y cómo salir de ellos",
+      "kind": "comunicacion",
+      "tags": [
+        "malentendidos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "fr-b1-243"
+      ],
+      "file": "./data/fr/lessons/fr-b1-244.json"
+    },
+    {
+      "id": "fr-b1-245",
+      "order": 245,
+      "level": "B1",
+      "block": "fr-b1-b8",
+      "title": "Pronunciación general X: el habla muy rápida",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "habla-rapida"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-b1-244"
+      ],
+      "file": "./data/fr/lessons/fr-b1-245.json"
+    },
+    {
+      "id": "fr-b1-246",
+      "order": 246,
+      "level": "B1",
+      "block": "fr-b1-b8",
+      "title": "Pronunciación general XI: acentos regionales del francés",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "acentos-regionales"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "fr-b1-245"
+      ],
+      "file": "./data/fr/lessons/fr-b1-246.json"
+    },
+    {
+      "id": "fr-b1-247",
+      "order": 247,
+      "level": "B1",
+      "block": "fr-b1-b8",
+      "title": "Repaso activo XXII: los pasados y el subjuntivo",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-b1-246",
+        "fr-b1-245",
+        "fr-b1-244"
+      ],
+      "file": "./data/fr/lessons/fr-b1-247.json"
+    },
+    {
+      "id": "fr-b1-248",
+      "order": 248,
+      "level": "B1",
+      "block": "fr-b1-b8",
+      "title": "Repaso activo XXIII: relativas, discurso indirecto y estructuras complejas",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-b1-247",
+        "fr-b1-246",
+        "fr-b1-245"
+      ],
+      "file": "./data/fr/lessons/fr-b1-248.json"
+    },
+    {
+      "id": "fr-b1-249",
+      "order": 249,
+      "level": "B1",
+      "block": "fr-b1-b8",
+      "title": "Repaso activo XXIV: vocabulario y conversación real B1",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-b1-248",
+        "fr-b1-247",
+        "fr-b1-246"
+      ],
+      "file": "./data/fr/lessons/fr-b1-249.json"
+    },
+    {
+      "id": "fr-b1-250",
+      "order": 250,
+      "level": "B1",
+      "block": "fr-b1-b8",
+      "title": "Preparación para la prueba de nivel B1",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "examen"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "fr-b1-249",
+        "fr-b1-248",
+        "fr-b1-247"
+      ],
+      "file": "./data/fr/lessons/fr-b1-250.json"
     }
   ]
 }

@@ -1,0 +1,256 @@
+{
+  "id": "fr-a1-083",
+  "lang": "fr",
+  "level": "A1",
+  "order": 83,
+  "title": "Los pronombres COI: lui, leur",
+  "objectives": [
+    "Usar lui (a él/a ella) y leur (a ellos/ellas) para sustituir un complemento indirecto",
+    "Reconocer los verbos que llevan à + persona: parler à, téléphoner à, donner à, écrire à",
+    "Colocar el pronombre COI en la misma posición que el COD (clase 82)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Lui y leur: a él, a ella, a ellos",
+      "body": "Algunos verbos van seguidos de à + persona: parler à quelqu'un, téléphoner à quelqu'un. Para no repetir esa persona, se usa lui (a él o a ella, sin distinguir género) o leur (a ellos o a ellas).",
+      "examples": [
+        { "target": "Je parle à Léa. Je lui parle tous les jours.", "es": "Hablo con Léa. Le hablo todos los días.", "note": "à Léa → lui, sin distinguir género" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos con à + persona",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["parler à quelqu'un", "hablar con alguien"],
+        ["téléphoner à quelqu'un", "llamar por teléfono a alguien"],
+        ["donner à quelqu'un", "dar a alguien"],
+        ["écrire à quelqu'un", "escribir a alguien"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Lui/leur (COI) frente a le/la/les (COD, clase 82)"
+      ,
+      "items": [
+        { "wrong": "Usar le/la/les para todo", "right": "Je le vois (COD, sin à) / Je lui parle (COI, con à)", "why": "Le/la/les sustituyen un complemento directo (sin preposición). Lui/leur sustituyen un complemento con à + persona. La diferencia está en si el verbo español o francés necesita «a» delante de la persona." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Lui no distingue género: sirve tanto para «a él» como para «a ella». El contexto de la frase indica de quién se habla."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "lui", "es": "le (a él/a ella)", "ipa": "/lɥi/", "esApprox": "«LÜÍ»", "pos": "pronombre", "gender": null, "example": { "target": "Je lui parle.", "es": "Le hablo (a él/ella)." } },
+    { "id": "v2", "target": "leur", "es": "les (a ellos/a ellas)", "ipa": "/lœʁ/", "esApprox": "«LEUR»", "pos": "pronombre", "gender": null, "example": { "target": "Je leur parle.", "es": "Les hablo (a ellos/ellas)." } },
+    { "id": "v3", "target": "téléphoner à", "es": "llamar por teléfono a", "ipa": "/te.le.fɔ.ne a/", "esApprox": "«te-le-fo-NÉ a»", "pos": "verbo", "gender": null, "example": { "target": "Je lui téléphone ce soir.", "es": "Le llamo esta noche." } },
+    { "id": "v4", "target": "donner à", "es": "dar a", "ipa": "/dɔ.ne a/", "esApprox": "«do-NÉ a»", "pos": "verbo", "gender": null, "example": { "target": "Je lui donne mon numéro.", "es": "Le doy mi número." } },
+    { "id": "v5", "target": "écrire à", "es": "escribir a", "ipa": "/e.kʁiʁ a/", "esApprox": "«e-KRIR a»", "pos": "verbo", "gender": null, "example": { "target": "Je leur écris souvent.", "es": "Les escribo a menudo." } },
+    { "id": "v6", "target": "un numéro", "es": "un número (de teléfono)", "ipa": "/œ̃ ny.me.ʁo/", "esApprox": "«un nü-me-RÓ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Voici mon numéro.", "es": "Aquí tienes mi número." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "¿Cómo sustituyes «à Léa» (una sola persona)?",
+      "options": ["le", "la", "lui", "leur"],
+      "answer": 2,
+      "explain": "Lui sustituye a una sola persona (à + singular), sin distinguir género."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «les hablo» (a varias personas)?",
+      "options": ["Je les parle.", "Je leur parle.", "Je lui parle.", "Je la parle."],
+      "answer": 1,
+      "explain": "Leur sustituye a varias personas con à: je leur parle."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "statement": "Lui puede significar «a él» o «a ella»: no distingue género.",
+      "answer": true,
+      "explain": "Lui es el mismo para masculino y femenino."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronombres", "coi", "cod"],
+      "difficulty": 2,
+      "statement": "Le/la/les (clase 82) y lui/leur (esta clase) se usan exactamente igual.",
+      "answer": false,
+      "explain": "Le/la/les son COD (sin à); lui/leur son COI (con à + persona)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "Une cada verbo con su significado",
+      "left": ["téléphoner à", "donner à", "écrire à", "parler à"],
+      "right": ["hablar con", "escribir a", "llamar por teléfono a", "dar a"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Téléphoner à = llamar, donner à = dar, écrire à = escribir, parler à = hablar."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "Hablo con Léa. Le hablo todos los días.",
+      "accept": ["Je parle à Léa. Je lui parle tous les jours"],
+      "hintWords": ["je parle à Léa", "je lui parle tous les jours"],
+      "strictAccents": false,
+      "audio": "Je parle à Léa. Je lui parle tous les jours.",
+      "explain": "À Léa → lui, delante de parle."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "Le llamo esta noche, y le doy mi número.",
+      "accept": ["Je lui téléphone ce soir, et je lui donne mon numéro"],
+      "hintWords": ["je lui téléphone ce soir", "je lui donne mon numéro"],
+      "strictAccents": false,
+      "audio": "Je lui téléphone ce soir, et je lui donne mon numéro.",
+      "explain": "Lui + téléphone, lui + donne."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto",
+      "text": "Tu écris à tes parents ? Oui, je ___ écris souvent.",
+      "blanks": [{ "accept": ["leur"] }],
+      "bank": ["lui", "leur", "les"],
+      "explain": "Tes parents (plural) → leur."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Aquí tienes mi número»",
+      "tokens": ["mon numéro", "Voici"],
+      "answer": ["Voici", "mon numéro"],
+      "audio": "Voici mon numéro.",
+      "explain": "Voici + mon numéro."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "Je ne leur téléphone pas souvent, mais je leur écris.",
+      "accept": ["No les llamo a menudo, pero les escribo."],
+      "strictAccents": false,
+      "audio": "Je ne leur téléphone pas souvent, mais je leur écris.",
+      "explain": "Ne...pas rodea leur y el verbo, igual que con le/la/les (clase 82)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre cómo hablas con tu familia",
+      "turns": [
+        { "who": "Léa", "text": "Tu téléphones souvent à tes parents ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je leur téléphone souvent.", "Non, je ne leur téléphone pas souvent."], "hint": "usa leur" },
+        { "who": "Léa", "text": "D'accord !", "speak": true }
+      ],
+      "explain": "Tu téléphones à tes parents ? se responde con leur + téléphone."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "speak": "Je lui parle tous les jours, et je leur écris une fois par semaine.",
+      "mode": "write",
+      "accept": ["Je lui parle tous les jours, et je leur écris une fois par semaine"],
+      "showTextAfter": true,
+      "explain": "Lui (singular) y leur (plural) en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 1,
+      "speak": "je lui téléphone",
+      "mode": "choose",
+      "options": ["je le vois", "je lui téléphone", "je leur parle", "je la connais"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Je lui téléphone = le llamo por teléfono."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 3,
+      "speak": "Je parle à Léa tous les jours, je lui téléphone le soir, et je lui donne des nouvelles.",
+      "es": "Hablo con Léa todos los días, la llamo por la noche, y le doy noticias.",
+      "ipa": "/ʒə paʁl a le.a tu le ʒuʁ ʒə lɥi te.le.fɔn lə swaʁ e ʒə lɥi dɔn de nu.vɛl/",
+      "esApprox": "«ye PARL a LE-a tu le YUR ye LÜÍ te-le-FON le SUAR e ye LÜÍ DON de nu-VEL»",
+      "focus": "El pronombre lui usado tres veces con verbos distintos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "Di si hablas o escribes a menudo a tu familia.",
+      "modelAnswer": "Je leur téléphone souvent et je leur écris parfois.",
+      "alsoValid": ["Je lui parle tous les jours."],
+      "speak": "Je leur téléphone souvent et je leur écris parfois.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronombres", "coi", "cod"],
+      "difficulty": 2,
+      "prompt": "¿Es COD (le/la/les) o COI (lui/leur)?",
+      "buckets": ["COD", "COI"],
+      "items": [
+        { "text": "Je le vois. (voir le chat)", "bucket": 0 },
+        { "text": "Je lui parle. (parler à Léa)", "bucket": 1 },
+        { "text": "Je les connais. (connaître mes voisins)", "bucket": 0 },
+        { "text": "Je leur téléphone. (téléphoner à mes parents)", "bucket": 1 }
+      ],
+      "explain": "Voir y connaître son COD (sin à); parler à y téléphoner à son COI (con à)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "Hay un error: se usó COD en vez de COI. Corrige la frase entera.",
+      "wrong": "Je le parle.",
+      "accept": ["Je lui parle"],
+      "audio": "Je lui parle.",
+      "explain": "Parler à es COI: hace falta lui, no le."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "lui", "es": "le (a él/a ella)", "esApprox": "«LÜÍ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "leur", "es": "les (a ellos/a ellas)", "esApprox": "«LEUR»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "téléphoner à", "es": "llamar por teléfono a", "esApprox": "«te-le-fo-NÉ a»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "donner à", "es": "dar a", "esApprox": "«do-NÉ a»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "écrire à", "es": "escribir a", "esApprox": "«e-KRIR a»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je parle à Léa. Je lui parle tous les jours.", "es": "Hablo con Léa. Le hablo todos los días.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je lui téléphone ce soir, et je lui donne mon numéro.", "es": "Le llamo esta noche, y le doy mi número.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Voici mon numéro.", "es": "Aquí tienes mi número.", "from": "e9" }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-217",
+  "lang": "fr",
+  "level": "B1",
+  "order": 217,
+  "title": "Contar un cotilleo o una noticia de segunda mano",
+  "objectives": [
+    "Usar il paraît que, j'ai entendu dire que y on raconte que para información de segunda mano",
+    "Usar apparemment y d'après ce qu'on m'a dit para atenuar tu responsabilidad sobre la información",
+    "Practicar contar un cotilleo o una noticia sin afirmar que es cierta"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Contar algo sin garantizarlo",
+      "body": "Cuando cuentas algo que no has confirmado tú mismo, el francés tiene fórmulas específicas para marcar que la información viene de otra parte, sin comprometerte con su veracidad."
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas de información de segunda mano",
+      "headers": ["Expresión", "Uso"],
+      "rows": [
+        ["il paraît que", "se dice que"],
+        ["j'ai entendu dire que", "he oído decir que"],
+        ["on raconte que", "se cuenta que"],
+        ["apparemment", "aparentemente"],
+        ["d'après ce qu'on m'a dit", "según me han dicho"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Marca tu duda",
+      "body": "Después de contar un cotilleo, es habitual añadir je ne sais pas si c'est vrai (no sé si es verdad), para dejar claro que no lo estás confirmando."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il paraît que", "es": "parece que, se dice que", "ipa": "/il pa.ʁɛ kə/", "esApprox": "«il pa-RE ke»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "j'ai entendu dire que", "es": "he oído decir que", "ipa": "/ʒe.z‿ɑ̃.tɑ̃.dy diʁ kə/", "esApprox": "«she-zan-tan-DÜ DIR ke»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "on raconte que", "es": "se cuenta que", "ipa": "/ɔ̃ ʁa.kɔ̃t kə/", "esApprox": "«on ra-KONT ke»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "apparemment", "es": "aparentemente", "ipa": "/a.pa.ʁa.mɑ̃/", "esApprox": "«a-pa-ra-MAN»", "pos": "adverbio", "gender": null },
+    { "id": "v5", "target": "d'après ce qu'on m'a dit", "es": "según me han dicho", "ipa": "/da.pʁɛ sə kɔ̃ ma di/", "esApprox": "«da-PRE se kon ma DI»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "une rumeur", "es": "un rumor", "ipa": "/yn ʁy.mœʁ/", "esApprox": "«ün rü-MÖR»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v7", "target": "elle a démissionné", "es": "ella dimitió", "ipa": "/ɛ.l‿a de.mi.sjɔ.ne/", "esApprox": "«e-la de-mi-sio-NÉ»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "je ne sais pas si c'est vrai", "es": "no sé si es verdad", "ipa": "/ʒə nə sɛ pa si sɛ vʁɛ/", "esApprox": "«ye ne SE pa si se VRE»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "¿Cómo dices «he oído decir que»?",
+      "options": ["il paraît que", "j'ai entendu dire que", "je pense que", "je sais que"],
+      "answer": 1,
+      "explain": "J'ai entendu dire que introduce información de segunda mano."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «aparentemente»?",
+      "options": ["évidemment", "apparemment", "vraiment", "certainement"],
+      "answer": 1,
+      "explain": "Apparemment marca que la información no está confirmada."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "statement": "On raconte que se usa para información de segunda mano.",
+      "answer": true,
+      "explain": "On raconte que introduce un rumor o cotilleo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "statement": "Je ne sais pas si c'est vrai confirma que la información es cierta.",
+      "answer": false,
+      "explain": "Al contrario: expresa duda sobre la veracidad de la información."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su traducción",
+      "left": ["il paraît que", "j'ai entendu dire que", "on raconte que", "d'après ce qu'on m'a dit"],
+      "right": ["se dice que", "he oído decir que", "se cuenta que", "según me han dicho"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Todas introducen información de segunda mano, con matices distintos."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "He oído decir que ella dimitió, pero no sé si es verdad.",
+      "accept": ["J'ai entendu dire qu'elle a démissionné, mais je ne sais pas si c'est vrai"],
+      "hintWords": ["j'ai entendu dire qu'elle a démissionné", "mais je ne sais pas si c'est vrai"],
+      "strictAccents": true,
+      "audio": "J'ai entendu dire qu'elle a démissionné, mais je ne sais pas si c'est vrai.",
+      "explain": "Información de segunda mano combinada con duda."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Según me han dicho, se cuenta un rumor sobre el proyecto.",
+      "accept": ["D'après ce qu'on m'a dit, on raconte une rumeur sur le projet"],
+      "hintWords": ["d'après ce qu'on m'a dit", "on raconte une rumeur sur le projet"],
+      "strictAccents": true,
+      "audio": "D'après ce qu'on m'a dit, on raconte une rumeur sur le projet.",
+      "explain": "Dos fórmulas de segunda mano combinadas."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "___ elle a démissionné, mais ___, ça n'est pas confirmé.",
+      "blanks": [{ "accept": ["Il paraît que"] }, { "accept": ["apparemment"] }],
+      "bank": ["Il paraît que", "apparemment", "je sais que"],
+      "explain": "Il paraît que (rumor) y apparemment (no confirmado)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «No sé si es verdad»",
+      "tokens": ["si c'est vrai", "Je ne sais pas"],
+      "answer": ["Je ne sais pas", "si c'est vrai"],
+      "audio": "Je ne sais pas si c'est vrai.",
+      "explain": "Fórmula de duda tras contar un cotilleo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Apparemment, elle a démissionné, mais je ne sais pas si c'est vrai.",
+      "accept": ["Aparentemente, dimitió, pero no sé si es verdad."],
+      "strictAccents": false,
+      "audio": "Apparemment, elle a démissionné, mais je ne sais pas si c'est vrai.",
+      "explain": "Apparemment + duda final."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación contando un cotilleo",
+      "turns": [
+        { "who": "Léa", "text": "Tu as entendu la nouvelle ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il paraît qu'elle a démissionné.", "J'ai entendu dire qu'elle a démissionné, mais je ne sais pas si c'est vrai."], "hint": "usa una fórmula de segunda mano" },
+        { "who": "Léa", "text": "Sérieux ? Je ne savais pas.", "speak": true }
+      ],
+      "explain": "Repaso combinado de las fórmulas de cotilleo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "speak": "Il paraît qu'elle a démissionné, mais je ne sais pas si c'est vrai.",
+      "mode": "write",
+      "accept": ["Il paraît qu'elle a démissionné, mais je ne sais pas si c'est vrai"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de las fórmulas de cotilleo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 1,
+      "speak": "apparemment",
+      "mode": "choose",
+      "options": ["évidemment", "apparemment", "vraiment", "certainement"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Apparemment marca que la información no está confirmada."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 3,
+      "speak": "J'ai entendu dire qu'elle a démissionné. On raconte une rumeur sur le projet. D'après ce qu'on m'a dit, ce n'est pas confirmé.",
+      "es": "He oído decir que dimitió. Se cuenta un rumor sobre el proyecto. Según me han dicho, no está confirmado.",
+      "ipa": "/ʒe.z‿ɑ̃.tɑ̃.dy diʁ kɛ.l‿a de.mi.sjɔ.ne ɔ̃ ʁa.kɔ̃t yn ʁy.mœʁ syʁ lə pʁɔ.ʒɛ da.pʁɛ sə kɔ̃ ma di sə nɛ pa kɔ̃.fiʁ.me/",
+      "esApprox": "«she-zan-tan-DÜ DIR ke-la de-mi-sio-NÉ on ra-KONT ün rü-MÖR sür le pro-YÉ da-PRE se kon ma DI se ne pa kon-fir-MÉ»",
+      "focus": "Tres fórmulas de información de segunda mano encadenadas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Cuenta un cotilleo o una noticia de segunda mano, marcando que no estás seguro de que sea verdad.",
+      "modelAnswer": "Il paraît qu'elle a démissionné, mais je ne sais pas si c'est vrai.",
+      "alsoValid": ["J'ai entendu dire qu'on va fermer le bureau."],
+      "speak": "Il paraît qu'elle a démissionné, mais je ne sais pas si c'est vrai.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "¿Es información de segunda mano o una confirmación segura?",
+      "buckets": ["Segunda mano", "Confirmación segura"],
+      "items": [
+        { "text": "il paraît que", "bucket": 0 },
+        { "text": "je suis sûr que", "bucket": 1 },
+        { "text": "on raconte que", "bucket": 0 },
+        { "text": "je sais que", "bucket": 1 }
+      ],
+      "explain": "Il paraît que y on raconte que son segunda mano; je suis sûr que y je sais que son confirmación segura."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["discurso-indirecto"],
+      "difficulty": 2,
+      "prompt": "Hay un error: si no estás seguro, no digas je sais que. Corrige la frase entera.",
+      "wrong": "Je sais qu'elle a démissionné, mais je ne suis pas sûr.",
+      "accept": ["Il paraît qu'elle a démissionné, mais je ne suis pas sûr"],
+      "audio": "Il paraît qu'elle a démissionné, mais je ne suis pas sûr.",
+      "explain": "Je sais que afirma certeza; si no estás seguro, usa il paraît que."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il paraît que", "es": "parece que, se dice que", "esApprox": "«il pa-RE ke»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'ai entendu dire que", "es": "he oído decir que", "esApprox": "«she-zan-tan-DÜ DIR ke»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "on raconte que", "es": "se cuenta que", "esApprox": "«on ra-KONT ke»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "apparemment", "es": "aparentemente", "esApprox": "«a-pa-ra-MAN»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "d'après ce qu'on m'a dit", "es": "según me han dicho", "esApprox": "«da-PRE se kon ma DI»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "je ne sais pas si c'est vrai", "es": "no sé si es verdad", "esApprox": "«ye ne SE pa si se VRE»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai entendu dire qu'elle a démissionné, mais je ne sais pas si c'est vrai.", "es": "He oído decir que ella dimitió, pero no sé si es verdad.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "D'après ce qu'on m'a dit, on raconte une rumeur sur le projet.", "es": "Según me han dicho, se cuenta un rumor sobre el proyecto.", "from": "e7" }
+  ]
+}

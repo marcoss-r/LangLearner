@@ -1,0 +1,364 @@
+{
+  "id": "fr-a1-015",
+  "lang": "fr",
+  "level": "A1",
+  "order": 15,
+  "title": "Pronunciación general III: las vocales nasales (an, on, in, un)",
+  "objectives": [
+    "Producir las cuatro vocales nasales del francés: an/en, on, in/ain/ein, un",
+    "Reconocer que una vocal se nasaliza cuando la n/m está al final de sílaba, pero no si va seguida de otra vocal o si la n/m se duplica",
+    "Distinguir pares como bon/bonne o grand/grande, donde el femenino pierde la nasalización"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuatro sonidos que no existen en español",
+      "body": "Ya viste en la clase 1 que ciertas vocales seguidas de -n o -m se pronuncian «por la nariz». En francés hay cuatro vocales nasales distintas: **an/en** (como en grand, le temps), **on** (como en bon, le nom), **in/ain/ein** (como en le vin, le pain) y **un** (como en brun). Cada una tiene un sonido propio: no son la misma nasal con distinta letra.",
+      "examples": [
+        { "target": "grand", "es": "alto, grande", "note": "an nasal" },
+        { "target": "bon", "es": "bueno", "note": "on nasal" },
+        { "target": "le vin", "es": "el vino", "note": "in nasal" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las cuatro nasales",
+      "headers": ["Escritura", "Aproximación", "Ejemplo"],
+      "rows": [
+        ["an, en", "«an», nasal abierta", "grand, le temps"],
+        ["on", "«on», nasal redonda", "bon, le nom"],
+        ["in, ain, ein", "«en», nasal cerrada", "le vin, le pain"],
+        ["un", "«un», nasal muy cerrada (casi como «en»)", "brun"]
+      ],
+      "note": "En el francés de hoy, mucha gente pronuncia un e in casi igual. No te obsesiones con la diferencia entre esos dos: el contexto ayuda."
+    },
+    {
+      "type": "phonetics",
+      "title": "Cuándo SÍ se nasaliza y cuándo NO",
+      "body": "La regla es sencilla una vez la ves clara: la vocal se nasaliza si la n/m está sola al final de sílaba. Si la n/m va seguida de otra vocal, o si se duplica (nn, mm), la vocal deja de ser nasal.",
+      "drills": [
+        { "target": "bon", "ipa": "/bɔ̃/", "esApprox": "«bon», nasal", "hint": "la n está sola al final: se nasaliza" },
+        { "target": "bonne", "ipa": "/bɔn/", "esApprox": "«BON», sin nasalizar, con la n sonando clara", "hint": "nn duplicada: ya no hay nasal, y la n sí se pronuncia" },
+        { "target": "grand", "ipa": "/ɡʁɑ̃/", "esApprox": "«GRAN», nasal", "hint": "masculino, nasal" },
+        { "target": "grande", "ipa": "/ɡʁɑ̃d/", "esApprox": "«GRAND», la a sigue nasal pero se oye la d", "hint": "femenino: la vocal sigue nasal, pero aparece la d final" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "El femenino a veces «desnasaliza»",
+      "items": [
+        { "wrong": "Pensar que bon y bonne suenan igual", "right": "bon es nasal («bon»); bonne no lo es («BON» con n sonora)", "why": "Cuando el femenino añade una -e, la n o m que antes cerraba la sílaba pasa a abrir la siguiente sílaba, y la vocal deja de nasalizarse. Es un patrón que se repite mucho: bon/bonne, brun/brune." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Practica escuchando pares como bon/bonne o grand/grande uno detrás de otro: es la mejor forma de entrenar el oído para notar cuándo desaparece la nasalización."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "grand / grande",
+      "es": "alto, alta; grande",
+      "ipa": "/ɡʁɑ̃ / ɡʁɑ̃d/",
+      "esApprox": "«GRAN» (nasal) / «GRAND» (nasal + d sonora)",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Il est grand, elle est grande aussi.", "es": "Él es alto, ella también es alta." }
+    },
+    {
+      "id": "v2",
+      "target": "bon / bonne",
+      "es": "bueno, buena",
+      "ipa": "/bɔ̃ / bɔn/",
+      "esApprox": "«BON» (nasal) / «BON» sin nasalizar, con n sonora",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "C'est un bon livre.", "es": "Es un buen libro." }
+    },
+    {
+      "id": "v3",
+      "target": "le vin",
+      "es": "el vino",
+      "ipa": "/lə vɛ̃/",
+      "esApprox": "«le VEN»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les vins",
+      "example": { "target": "Le vin français est connu.", "es": "El vino francés es conocido." }
+    },
+    {
+      "id": "v4",
+      "target": "le pain",
+      "es": "el pan",
+      "ipa": "/lə pɛ̃/",
+      "esApprox": "«le PEN»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les pains",
+      "example": { "target": "J'achète du pain.", "es": "Compro pan." }
+    },
+    {
+      "id": "v5",
+      "target": "brun / brune",
+      "es": "moreno, morena",
+      "ipa": "/bʁœ̃ / bʁyn/",
+      "esApprox": "«BREN» (nasal) / «BRÜN» sin nasalizar",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Elle est brune.", "es": "Es morena." }
+    },
+    {
+      "id": "v6",
+      "target": "le nom",
+      "es": "el nombre",
+      "ipa": "/lə nɔ̃/",
+      "esApprox": "«le NON»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les noms",
+      "example": { "target": "Quel est ton nom ?", "es": "¿Cuál es tu nombre?" }
+    },
+    {
+      "id": "v7",
+      "target": "le temps",
+      "es": "el tiempo",
+      "ipa": "/lə tɑ̃/",
+      "esApprox": "«le TAN»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les temps",
+      "example": { "target": "Je n'ai pas le temps.", "es": "No tengo tiempo." }
+    },
+    {
+      "id": "v8",
+      "target": "le pont",
+      "es": "el puente",
+      "ipa": "/lə pɔ̃/",
+      "esApprox": "«le PON»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "les ponts",
+      "example": { "target": "Le pont est grand.", "es": "El puente es grande." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "vocales-nasales"],
+      "difficulty": 1,
+      "prompt": "¿Cuántas vocales nasales distintas tiene el francés?",
+      "options": ["dos", "tres", "cuatro", "cinco"],
+      "answer": 2,
+      "explain": "Cuatro: an/en, on, in/ain/ein y un."
+    },
+    {
+      "id": "e2",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "vocales-nasales"],
+      "difficulty": 2,
+      "statement": "«Bon» y «bonne» se pronuncian exactamente igual.",
+      "answer": false,
+      "explain": "Bon es nasal; bonne no lo es, porque la n se duplica."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "vocales-nasales"],
+      "difficulty": 2,
+      "statement": "Una vocal se nasaliza cuando la n/m va seguida de otra vocal.",
+      "answer": false,
+      "explain": "Es justo lo contrario: se nasaliza cuando la n/m está sola al final de sílaba, no cuando sigue una vocal."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["pronunciacion-general", "vocales-nasales"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO es nasal, a diferencia de las demás?",
+      "options": ["grand", "bon", "bonne", "vin"],
+      "answer": 2,
+      "explain": "Bonne pierde la nasalización por la n duplicada; las otras tres son nasales."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronunciacion-general", "vocales-nasales"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su tipo de nasal",
+      "left": ["grand", "bon", "le vin", "brun"],
+      "right": ["un", "in", "on", "an"],
+      "answer": [3, 2, 1, 0],
+      "explain": "Grand → an, bon → on, vin → in, brun → un."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Es un buen vino.",
+      "accept": ["C'est un bon vin"],
+      "hintWords": ["un bon vin"],
+      "strictAccents": false,
+      "audio": "C'est un bon vin.",
+      "explain": "Un bon vin: dos nasales seguidas, on y in."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Es morena y alta.",
+      "accept": ["Elle est brune et grande"],
+      "hintWords": ["brune", "grande"],
+      "strictAccents": false,
+      "audio": "Elle est brune et grande.",
+      "explain": "En femenino, ni brune ni grande son nasales del todo: la e final cambia la pronunciación."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Le livre est ___ (bueno, masculino), mais la maison est ___ (buena, femenino).",
+      "blanks": [{ "accept": ["bon"] }, { "accept": ["bonne"] }],
+      "bank": ["bon", "bonne"],
+      "explain": "Bon (masculino, nasal) frente a bonne (femenino, sin nasalizar)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El puente es grande»",
+      "tokens": ["grand", "pont", "Le", "est"],
+      "answer": ["Le", "pont", "est", "grand"],
+      "audio": "Le pont est grand.",
+      "explain": "Le pont (on nasal) est grand (an nasal)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 1,
+      "prompt": "Quel est ton nom ? Le mien, c'est Léa.",
+      "accept": ["¿Cuál es tu nombre? El mío es Léa."],
+      "strictAccents": false,
+      "audio": "Quel est ton nom ? Le mien, c'est Léa.",
+      "explain": "Nom es on nasal."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en una panadería",
+      "turns": [
+        { "who": "Vendeur", "text": "Vous voulez du pain ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je voudrais du pain.", "Oui, s'il vous plaît."], "hint": "acepta el pan con educación" },
+        { "who": "Vendeur", "text": "Voilà, un bon pain !", "speak": true }
+      ],
+      "explain": "Pain es in nasal, igual que vin."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "speak": "Le vin et le pain sont bons.",
+      "mode": "write",
+      "accept": ["Le vin et le pain sont bons"],
+      "showTextAfter": true,
+      "explain": "Vin y pain comparten el mismo sonido nasal in."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "vocales-nasales"],
+      "difficulty": 2,
+      "speak": "bonne",
+      "mode": "choose",
+      "options": ["bonne", "bon", "brun", "grand"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Bonne es la única sin nasalizar de las cuatro opciones."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general", "vocales-nasales"],
+      "difficulty": 3,
+      "speak": "Un grand pont, un bon vin et un homme brun.",
+      "es": "Un puente grande, un buen vino y un hombre moreno.",
+      "ipa": "/œ̃ ɡʁɑ̃ pɔ̃ œ̃ bɔ̃ vɛ̃ e œ̃.n‿ɔm bʁœ̃/",
+      "esApprox": "«un GRAN PON un BON VEN e un-NOM BREN»",
+      "focus": "Cuatro nasales distintas en una sola frase: un (un), grand (an), pont (on), vin (in), brun (un otra vez).",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "prompt": "Describe a un amigo moreno y alto.",
+      "modelAnswer": "Il est brun et grand.",
+      "alsoValid": ["Il est grand et brun."],
+      "speak": "Il est brun et grand.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronunciacion-general", "vocales-nasales"],
+      "difficulty": 2,
+      "prompt": "¿Qué nasal tiene esta palabra?",
+      "buckets": ["an/en", "on", "in/ain", "un"],
+      "items": [
+        { "text": "grand", "bucket": 0 },
+        { "text": "bon", "bucket": 1 },
+        { "text": "le vin", "bucket": 2 },
+        { "text": "brun", "bucket": 3 },
+        { "text": "le temps", "bucket": 0 },
+        { "text": "le pain", "bucket": 2 }
+      ],
+      "explain": "Grand y le temps → an; bon → on; vin y pain → in/ain; brun → un."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronunciacion-general", "vocales-nasales"],
+      "difficulty": 2,
+      "prompt": "Hay un error de concordancia. Corrige la frase entera.",
+      "wrong": "Elle est brun.",
+      "accept": ["Elle est brune"],
+      "audio": "Elle est brune.",
+      "explain": "Con «elle» hace falta el femenino: brune, sin nasalizar."
+    },
+    {
+      "id": "e18",
+      "type": "gender_article",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 1,
+      "prompt": "Elige el artículo correcto",
+      "items": [
+        { "word": "vin", "options": ["le", "la"], "answer": 0 },
+        { "word": "pont", "options": ["le", "la"], "answer": 0 },
+        { "word": "nom", "options": ["le", "la"], "answer": 0 }
+      ],
+      "explain": "Vin, pont y nom son masculinos."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "grand / grande", "es": "alto, alta; grande", "esApprox": "«GRAN» / «GRAND»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "bon / bonne", "es": "bueno, buena", "esApprox": "«BON» nasal / «BON» sin nasalizar", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "le vin", "es": "el vino", "esApprox": "«le VEN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le pain", "es": "el pan", "esApprox": "«le PEN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "brun / brune", "es": "moreno, morena", "esApprox": "«BREN» / «BRÜN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "le nom", "es": "el nombre", "esApprox": "«le NON»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "le pont", "es": "el puente", "esApprox": "«le PON»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "C'est un bon vin.", "es": "Es un buen vino.", "from": "e6" },
+    { "id": "s9", "kind": "phrase", "target": "Un grand pont, un bon vin et un homme brun.", "es": "Un puente grande, un buen vino y un hombre moreno.", "from": "e14" }
+  ]
+}

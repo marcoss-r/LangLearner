@@ -1,0 +1,88 @@
+{
+  "id": "de-a2-134",
+  "lang": "de",
+  "level": "A2",
+  "order": 134,
+  "title": "Explica por qué haces las cosas, con subordinadas",
+  "objectives": [
+    "Combinar weil, obwohl y damit para dar explicaciones completas y matizadas",
+    "Responder a preguntas warum? con distintos tipos de subordinadas según el matiz",
+    "Ganar fluidez alternando entre razones (weil), contrastes (obwohl) y finalidades (damit/um...zu)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Explicar con matices: no todo es weil",
+      "body": "Ahora que conoces weil (causa), obwohl (contraste) y damit/um...zu (finalidad), puedes dar explicaciones mucho más ricas que con weil solo. Combina varias subordinadas en la misma respuesta para sonar más natural: «Ich lerne Deutsch, weil ich es brauche, obwohl es manchmal schwer ist, und ich übe jeden Tag, damit ich es nicht vergesse» (Aprendo alemán porque lo necesito, aunque a veces es difícil, y practico cada día para no olvidarlo).",
+      "examples": [
+        { "target": "Ich mache Sport, weil es mir guttut.", "es": "Hago deporte porque me sienta bien." },
+        { "target": "Ich mache Sport, obwohl ich keine Zeit habe.", "es": "Hago deporte aunque no tengo tiempo." },
+        { "target": "Ich mache Sport, um gesund zu bleiben.", "es": "Hago deporte para mantenerme sano." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Tres matices al explicar",
+      "headers": ["Conjunción", "Matiz"],
+      "rows": [
+        ["weil", "causa simple"],
+        ["obwohl", "contraste inesperado"],
+        ["um...zu / damit", "objetivo o finalidad"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Al responder a warum?, piensa qué matiz quieres dar: ¿es una causa simple (weil)? ¿un contraste inesperado (obwohl)? ¿un objetivo (um...zu o damit)? Elegir la subordinada correcta hace tu explicación mucho más precisa."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "guttun", "es": "sentar bien, hacer bien", "ipa": "/ˈɡuːtuːn/", "esApprox": "«GÚT-tun»", "pos": "verbo", "gender": null, "example": { "target": "Sport tut mir gut.", "es": "El deporte me sienta bien." } },
+    { "id": "v2", "target": "gesund bleiben", "es": "mantenerse sano", "ipa": "/ɡəˈzʊnt ˈblaɪ̯bn̩/", "esApprox": "«ge-ZUNT BLÁI-ben»", "pos": "expresión", "gender": null, "example": { "target": "Ich mache Sport, um gesund zu bleiben.", "es": "Hago deporte para mantenerme sano." } },
+    { "id": "v3", "target": "die Motivation", "es": "la motivación", "ipa": "/motivaˈtsi̯oːn/", "esApprox": "«mo-ti-va-tsi-ÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "Meine Motivation ist klar.", "es": "Mi motivación está clara." } },
+    { "id": "v4", "target": "der Grund", "es": "el motivo, la razón", "ipa": "/ɡʁʊnt/", "esApprox": "«grunt»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Grund ist einfach.", "es": "El motivo es sencillo." } },
+    { "id": "v5", "target": "sich entscheiden", "es": "decidirse", "ipa": "/zɪç ɛntˈʃaɪ̯dn̩/", "esApprox": "«zich ent-SHÁI-den»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe mich dafür entschieden.", "es": "Me he decidido por eso." } },
+    { "id": "v6", "target": "die Herausforderung", "es": "el desafío", "ipa": "/dəˈʁaʊ̯sfɔʁdəʁʊŋ/", "esApprox": "«he-RÁUS-for-de-rung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist eine gute Herausforderung.", "es": "Ese es un buen desafío." } },
+    { "id": "v7", "target": "sinnvoll", "es": "con sentido, útil", "ipa": "/ˈzɪnfɔl/", "esApprox": "«ZIN-fol»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist sinnvoll.", "es": "Eso tiene sentido." } },
+    { "id": "v8", "target": "vergessen", "es": "olvidar", "ipa": "/fɛɐ̯ˈɡɛsn̩/", "esApprox": "«fer-GUÉ-sen»", "pos": "verbo", "gender": null, "example": { "target": "Ich übe, damit ich es nicht vergesse.", "es": "Practico para no olvidarlo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["subordinadas"], "difficulty": 1, "prompt": "¿Qué conjunción usarías para dar una razón simple?", "options": ["obwohl", "weil", "damit", "bevor"], "answer": 1, "explain": "weil expresa una causa simple." },
+    { "id": "e2", "type": "mcq", "tags": ["subordinadas"], "difficulty": 2, "prompt": "¿Qué conjunción usarías para un contraste inesperado?", "options": ["weil", "damit", "obwohl", "ob"], "answer": 2, "explain": "obwohl expresa un contraste inesperado (aunque)." },
+    { "id": "e3", "type": "true_false", "tags": ["subordinadas"], "difficulty": 2, "statement": "Puedes combinar weil, obwohl y um...zu en la misma respuesta para dar una explicación más rica.", "answer": true, "explain": "Combinar subordinadas da matices distintos y suena más natural." },
+    { "id": "e4", "type": "true_false", "tags": ["subordinadas"], "difficulty": 2, "statement": "«um gesund zu bleiben» expresa una causa, no una finalidad.", "answer": false, "explain": "um...zu expresa finalidad (el objetivo de la acción), no la causa." },
+    { "id": "e5", "type": "match_pairs", "tags": ["subordinadas"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Motivation", "der Grund", "die Herausforderung", "sinnvoll"], "right": ["la motivación", "el motivo", "el desafío", "con sentido"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave para explicar razones y objetivos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["subordinadas"], "difficulty": 2, "prompt": "Hago deporte porque me sienta bien.", "accept": ["Ich mache Sport, weil es mir guttut"], "hintWords": ["ich mache Sport, weil es mir guttut"], "strictAccents": false, "audio": "Ich mache Sport, weil es mir guttut.", "explain": "weil + guttut (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["subordinadas"], "difficulty": 2, "prompt": "Hago deporte aunque no tengo tiempo.", "accept": ["Ich mache Sport, obwohl ich keine Zeit habe"], "hintWords": ["ich mache Sport, obwohl ich keine Zeit habe"], "strictAccents": false, "audio": "Ich mache Sport, obwohl ich keine Zeit habe.", "explain": "obwohl + habe (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["subordinadas"], "difficulty": 2, "prompt": "Hago deporte para mantenerme sano.", "accept": ["Ich mache Sport, um gesund zu bleiben"], "hintWords": ["ich mache Sport, um gesund zu bleiben"], "strictAccents": false, "audio": "Ich mache Sport, um gesund zu bleiben.", "explain": "um...zu + bleiben (infinitivo, mismo sujeto)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["subordinadas"], "difficulty": 2, "prompt": "Completa con la conjunción correcta", "text": "Ich lerne Deutsch, ___ ich es brauche. Ich übe jeden Tag, ___ ich es nicht vergesse.", "blanks": [{ "accept": ["weil"] }, { "accept": ["damit"] }], "bank": ["weil", "damit", "obwohl"], "explain": "weil (causa); damit (finalidad, sujetos distintos aquí ich/vergesse implícito)." },
+    { "id": "e10", "type": "word_order", "tags": ["subordinadas"], "difficulty": 3, "prompt": "Ordena: «Eso es un buen desafío»", "tokens": ["eine gute", "Das ist", "Herausforderung"], "answer": ["Das ist", "eine gute", "Herausforderung"], "audio": "Das ist eine gute Herausforderung.", "explain": "Das ist eine gute Herausforderung: sujeto-verbo-objeto." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["subordinadas"], "difficulty": 2, "prompt": "Ich habe mich dafür entschieden.", "accept": ["Me he decidido por eso."], "strictAccents": false, "audio": "Ich habe mich dafür entschieden.", "explain": "sich entscheiden + dafür (compuesto da-, clase 118)." },
+    { "id": "e12", "type": "dialogue", "tags": ["subordinadas"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Nina", "text": "Warum machst du Sport?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich mache Sport, weil es mir guttut, und um gesund zu bleiben.", "Ich mache Sport, weil es mir guttut."], "hint": "combina al menos dos razones/finalidades" },
+      { "who": "Nina", "text": "Tolle Motivation!", "speak": true }
+    ], "explain": "Práctica de combinar varias subordinadas en una respuesta natural." },
+    { "id": "e13", "type": "listening", "tags": ["subordinadas"], "difficulty": 1, "speak": "Ich mache Sport, weil es mir guttut.", "mode": "write", "accept": ["Ich mache Sport, weil es mir guttut"], "showTextAfter": true, "explain": "weil expresa la causa simple." },
+    { "id": "e14", "type": "listening", "tags": ["subordinadas"], "difficulty": 2, "speak": "Ich mache Sport, obwohl ich keine Zeit habe.", "mode": "choose", "options": ["Ich mache Sport, obwohl ich keine Zeit habe.", "Ich mache Sport, weil ich keine Zeit habe.", "Ich mache Sport, damit ich keine Zeit habe."], "answer": 0, "showTextAfter": true, "explain": "obwohl expresa el contraste: hacer deporte A PESAR de no tener tiempo." },
+    { "id": "e15", "type": "shadowing", "tags": ["subordinadas"], "difficulty": 2, "speak": "Ich lerne Deutsch, weil ich es brauche, obwohl es manchmal schwer ist, und ich übe jeden Tag, um es nicht zu vergessen.", "es": "Aprendo alemán porque lo necesito, aunque a veces es difícil, y practico cada día para no olvidarlo.", "ipa": "/ɪç ˈlɛʁnə dɔɪ̯tʃ vaɪ̯l ɪç ɛs ˈbʁaʊ̯xə ɔpˈvoːl ɛs ˈmançmaːl ʃveːɐ̯ ɪst ʊnt ɪç ˈyːbə jeːdn̩ taːk ʊm ɛs nɪçt tsuː fɛɐ̯ˈɡɛsn̩/", "esApprox": "«ich LÉR-ne doich, vail ich es BRÁU-je, op-VOL es MANCH-mal shver ist, unt ich Ü-be yé-den tak, um es nicht tsu fer-GUÉ-sen»", "focus": "weil, obwohl y um...zu, las tres subordinadas de esta clase, combinadas en una sola explicación fluida.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["subordinadas"], "difficulty": 2, "speak": "Sport ist eine Herausforderung, aber ich mache es, damit ich gesund bleibe, denn meine Motivation ist klar.", "es": "El deporte es un desafío, pero lo hago para mantenerme sano, porque mi motivación está clara.", "ipa": "/ʃpɔʁt ɪst ˈaɪ̯nə dəˈʁaʊ̯sfɔʁdəʁʊŋ ˈaːbɐ ɪç ˈmaxə ɛs daˈmɪt ɪç ɡəˈzʊnt ˈblaɪ̯bə dɛn ˈmaɪ̯nə motivaˈtsi̯oːn ɪst klaːɐ̯/", "esApprox": "«shport ist ÁI-ne he-RÁUS-for-de-rung, Á-ber ich MÁ-je es, da-MIT ich ge-ZUNT BLÁI-be, den MÁI-ne mo-ti-va-tsi-ÓN ist klar»", "focus": "damit (finalidad, sujeto igual: ich...bleibe) y denn (causa, coordinante, sin mover el verbo).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["subordinadas"], "difficulty": 2, "prompt": "Te preguntan por qué haces deporte. Combina una causa (weil) y una finalidad (um...zu).", "modelAnswer": "Ich mache Sport, weil es mir guttut, und um gesund zu bleiben.", "alsoValid": ["Ich mache Sport, weil es mir guttut."], "speak": "Ich mache Sport, weil es mir guttut, und um gesund zu bleiben.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["subordinadas"], "difficulty": 2, "prompt": "Clasifica cada frase: causa, contraste o finalidad", "buckets": ["Causa (weil)", "Contraste (obwohl)", "Finalidad (um...zu)"], "items": [
+      { "text": "..., weil es mir guttut.", "bucket": 0 },
+      { "text": "..., obwohl ich keine Zeit habe.", "bucket": 1 },
+      { "text": "..., um gesund zu bleiben.", "bucket": 2 }
+    ], "explain": "Tres matices distintos de explicación, cada uno con su propia subordinada." },
+    { "id": "e19", "type": "error_correction", "tags": ["subordinadas"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich mache Sport, weil gesund zu bleiben.", "accept": ["Ich mache Sport, um gesund zu bleiben"], "audio": "Ich mache Sport, um gesund zu bleiben.", "explain": "Para expresar finalidad con mismo sujeto, se usa um...zu, no weil." },
+    { "id": "e20", "type": "mcq", "tags": ["subordinadas"], "difficulty": 2, "prompt": "«Ich lerne Deutsch, weil ich es brauche, obwohl es manchmal schwer ist, und ich übe jeden Tag, um es nicht zu vergessen.» ¿Por qué practica todos los días?", "options": ["Porque es fácil", "Para no olvidarlo", "Porque se lo exigen", "No se dice"], "answer": 1, "explain": "«um es nicht zu vergessen» = para no olvidarlo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "guttun", "es": "sentar bien, hacer bien", "esApprox": "«GÚT-tun»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "gesund bleiben", "es": "mantenerse sano", "esApprox": "«ge-ZUNT BLÁI-ben»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Motivation", "es": "la motivación", "esApprox": "«mo-ti-va-tsi-ÓN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "sich entscheiden", "es": "decidirse", "esApprox": "«zich ent-SHÁI-den»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "die Herausforderung", "es": "el desafío", "esApprox": "«he-RÁUS-for-de-rung»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "sinnvoll", "es": "con sentido, útil", "esApprox": "«ZIN-fol»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich lerne Deutsch, weil ich es brauche, obwohl es manchmal schwer ist, und ich übe jeden Tag, um es nicht zu vergessen.", "es": "Aprendo alemán porque lo necesito, aunque a veces es difícil, y practico cada día para no olvidarlo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Sport ist eine Herausforderung, aber ich mache es, damit ich gesund bleibe, denn meine Motivation ist klar.", "es": "El deporte es un desafío, pero lo hago para mantenerme sano, porque mi motivación está clara.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "fr-a2-169",
+  "lang": "fr",
+  "level": "A2",
+  "order": 169,
+  "title": "Repaso activo XIII: el pasado a fondo (imparfait, passé composé, pronominales)",
+  "objectives": [
+    "Repasar la diferencia entre imparfait (descripción, hábito) y passé composé (acción puntual)",
+    "Repasar la conjugación de los verbos pronominales en passé composé (je me suis levé)",
+    "Practicar narraciones combinando los dos tiempos del pasado"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Empieza el cierre de A2",
+      "body": "Sin gramática nueva. Este es el primer repaso a fondo del Bloque O, que cierra el nivel A2. Hoy: todo lo que sabes sobre el pasado, combinado en narraciones completas."
+    },
+    {
+      "type": "table",
+      "title": "Imparfait frente a passé composé",
+      "headers": ["Uso", "Tiempo", "Ejemplo"],
+      "rows": [
+        ["Descripción, hábito, algo en curso", "imparfait", "il faisait beau, je regardais la télé"],
+        ["Acción puntual, completada", "passé composé", "il a fait beau samedi, j'ai regardé un film"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Pronominales en passé composé",
+      "headers": ["Persona", "Forma"],
+      "rows": [
+        ["je", "je me suis levé(e)"],
+        ["tu", "tu t'es levé(e)"],
+        ["il/elle", "il/elle s'est levé(e)"],
+        ["nous", "nous nous sommes levé(e)s"]
+      ],
+      "note": "Los verbos pronominales siempre usan être en passé composé, con acuerdo del participio."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il faisait beau", "es": "hacía buen tiempo", "ipa": "/il fə.zɛ bo/", "esApprox": "«il fe-ZE BO»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je me suis levé(e)", "es": "me levanté", "ipa": "/ʒə mə sɥi lə.ve/", "esApprox": "«ye me süí le-VÉ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "j'ai vu", "es": "vi", "ipa": "/ʒe vy/", "esApprox": "«ye VÜ»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "d'habitude", "es": "normalmente, de costumbre", "ipa": "/da.bi.tyd/", "esApprox": "«da-bi-TÜD»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "tout à coup", "es": "de repente", "ipa": "/tu.t‿a ku/", "esApprox": "«tu-ta KU»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "pendant que", "es": "mientras", "ipa": "/pɑ̃.dɑ̃ kə/", "esApprox": "«pan-DAN ke»", "pos": "conjunción", "gender": null },
+    { "id": "v7", "target": "il y a deux ans", "es": "hace dos años", "ipa": "/il i a dø.z‿ɑ̃/", "esApprox": "«il i a dö-ZAN»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "se réveiller", "es": "despertarse", "ipa": "/sə ʁe.vɛ.je/", "esApprox": "«se re-ve-YÉ»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "¿Qué tiempo se usa para describir el tiempo que hacía habitualmente?",
+      "options": ["passé composé", "imparfait", "futur simple", "conditionnel"],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-095: el imparfait para descripciones y hábitos."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me levanté» en passé composé?",
+      "options": ["Je me lève.", "Je me suis levé(e).", "Je me levais.", "Je me léverai."],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-094: los pronominales usan être en passé composé."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "statement": "Tout à coup introduce una acción puntual, así que va con passé composé.",
+      "answer": true,
+      "explain": "Tout à coup (de repente) marca una interrupción puntual, típica del passé composé."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "statement": "Los verbos pronominales en passé composé siempre usan avoir.",
+      "answer": false,
+      "explain": "Repaso de la clase A2-094: los pronominales siempre usan être, no avoir."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "Une cada marcador con su tiempo",
+      "left": ["d'habitude", "tout à coup", "il y a deux ans", "pendant que"],
+      "right": ["passé composé (puntual)", "imparfait (hábito)", "passé composé (fecha)", "imparfait (simultaneidad)"],
+      "answer": [1, 0, 2, 3],
+      "explain": "D'habitude (hábito, imparfait), tout à coup (puntual, passé composé), il y a (fecha, passé composé), pendant que (simultaneidad, imparfait)."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "Hacía buen tiempo, y de repente vi un accidente.",
+      "accept": ["Il faisait beau, et tout à coup j'ai vu un accident"],
+      "hintWords": ["il faisait beau", "et tout à coup j'ai vu un accident"],
+      "strictAccents": true,
+      "audio": "Il faisait beau, et tout à coup j'ai vu un accident.",
+      "explain": "Imparfait (descripción) + passé composé (acción puntual)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "Me levanté temprano mientras dormían todos los demás.",
+      "accept": ["Je me suis levé tôt pendant que tout le monde dormait"],
+      "hintWords": ["je me suis levé tôt", "pendant que tout le monde dormait"],
+      "strictAccents": true,
+      "audio": "Je me suis levé tôt pendant que tout le monde dormait.",
+      "explain": "Passé composé pronominal (je me suis levé) + imparfait (pendant que...dormait)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "Completa con el tiempo correcto",
+      "text": "D'habitude, je me ___ à sept heures, mais hier je me ___ à neuf heures.",
+      "blanks": [{ "accept": ["réveillais"] }, { "accept": ["suis réveillé"] }],
+      "bank": ["réveillais", "suis réveillé", "réveille"],
+      "explain": "D'habitude + imparfait (réveillais); hier + passé composé (suis réveillé)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hace dos años, vivía en Lyon»",
+      "tokens": ["j'habitais à Lyon", "Il y a deux ans,"],
+      "answer": ["Il y a deux ans,", "j'habitais à Lyon"],
+      "audio": "Il y a deux ans, j'habitais à Lyon.",
+      "explain": "Il y a deux ans + imparfait (situación pasada duradera)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "Il y a deux ans, j'habitais à Lyon, et pendant que je travaillais là-bas, j'ai rencontré ma meilleure amie.",
+      "accept": ["Hace dos años, vivía en Lyon, y mientras trabajaba allí, conocí a mi mejor amiga."],
+      "strictAccents": false,
+      "audio": "Il y a deux ans, j'habitais à Lyon, et pendant que je travaillais là-bas, j'ai rencontré ma meilleure amie.",
+      "explain": "Imparfait (situación duradera) + passé composé (acción puntual)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación contando algo del pasado",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce qui s'est passé hier ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Il faisait beau, et tout à coup j'ai vu un accident.", "Je me suis levé tôt et j'ai vu mon voisin."], "hint": "combina imparfait y passé composé" },
+        { "who": "Léa", "text": "Ah, incroyable !", "speak": true }
+      ],
+      "explain": "Qu'est-ce qui s'est passé...? se responde combinando ambos tiempos."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "speak": "Il faisait beau, je me suis levé tôt, et pendant que je marchais, j'ai vu un accident.",
+      "mode": "write",
+      "accept": ["Il faisait beau, je me suis levé tôt, et pendant que je marchais, j'ai vu un accident"],
+      "showTextAfter": true,
+      "explain": "Narración combinada de imparfait y passé composé."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pasado"],
+      "difficulty": 1,
+      "speak": "je me suis levé",
+      "mode": "choose",
+      "options": ["je me lève", "je me suis levé", "je me levais", "je me léverai"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-094: passé composé pronominal."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pasado"],
+      "difficulty": 3,
+      "speak": "Il y a deux ans, j'habitais à Lyon. D'habitude, je me levais tôt, et un jour, tout à coup, j'ai rencontré ma meilleure amie.",
+      "es": "Hace dos años, vivía en Lyon. Normalmente, me levantaba temprano, y un día, de repente, conocí a mi mejor amiga.",
+      "ipa": "/il i a dø.z‿ɑ̃ ʒa.bi.tɛ a ljɔ̃ da.bi.tyd ʒə mə lə.vɛ to e œ̃ ʒuʁ tu.t‿a ku ʒe ʁɑ̃.kɔ̃.tʁe ma mɛ.jœʁ a.mi/",
+      "esApprox": "«il i a dö-ZAN sha-bi-TE a li-ON da-bi-TÜD ye me le-VE TO e un YUR tu-ta KU ye ran-kon-TRÉ ma me-YÖR a-MÍ»",
+      "focus": "Narración completa combinando imparfait y passé composé, con varios marcadores de tiempo.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "Cuenta una anécdota del pasado, combinando descripción (imparfait) y acción puntual (passé composé).",
+      "modelAnswer": "Il faisait beau, je me promenais, et tout à coup j'ai vu mon ami.",
+      "alsoValid": ["Il y a deux ans, j'habitais à Lyon."],
+      "speak": "Il faisait beau, je me promenais, et tout à coup j'ai vu mon ami.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "¿Es imparfait o passé composé?",
+      "buckets": ["Imparfait", "Passé composé"],
+      "items": [
+        { "text": "il faisait beau", "bucket": 0 },
+        { "text": "j'ai vu un accident", "bucket": 1 },
+        { "text": "je me levais tôt", "bucket": 0 },
+        { "text": "je me suis levé tôt", "bucket": 1 }
+      ],
+      "explain": "Il faisait y je me levais describen hábito/situación (imparfait); j'ai vu y je me suis levé son acciones puntuales (passé composé)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "Hay un error de auxiliar. Corrige la frase entera.",
+      "wrong": "Je ai me levé tôt hier.",
+      "accept": ["Je me suis levé tôt hier"],
+      "audio": "Je me suis levé tôt hier.",
+      "explain": "Los pronominales usan être, no avoir: je me suis levé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il faisait beau", "es": "hacía buen tiempo", "esApprox": "«il fe-ZE BO»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je me suis levé(e)", "es": "me levanté", "esApprox": "«ye me süí le-VÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "d'habitude", "es": "normalmente, de costumbre", "esApprox": "«da-bi-TÜD»", "from": "v4" },
+    { "id": "s4", "kind": "phrase", "target": "tout à coup", "es": "de repente", "esApprox": "«tu-ta KU»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "pendant que", "es": "mientras", "esApprox": "«pan-DAN ke»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "il y a deux ans", "es": "hace dos años", "esApprox": "«il i a dö-ZAN»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Il faisait beau, et tout à coup j'ai vu un accident.", "es": "Hacía buen tiempo, y de repente vi un accidente.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je me suis levé tôt pendant que tout le monde dormait.", "es": "Me levanté temprano mientras dormían todos los demás.", "from": "e7" }
+  ]
+}

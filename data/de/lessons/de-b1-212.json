@@ -1,0 +1,86 @@
+{
+  "id": "de-b1-212",
+  "lang": "de",
+  "level": "B1",
+  "order": 212,
+  "title": "Nachdem y la secuencia de tiempos verbales",
+  "objectives": [
+    "Combinar nachdem con el Plusquamperfekt cuando la frase principal está en pasado",
+    "Combinar nachdem con el Perfekt cuando la frase principal está en presente",
+    "Aplicar la regla de secuencia: la acción de nachdem siempre va «un paso antes» que la principal"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "nachdem: la acción de la subordinada siempre va antes",
+      "body": "Ya conoces nachdem (clase 128) para decir «después de que». En el B1, la regla de secuencia de tiempos (Zeitenfolge) se vuelve exacta: si la frase principal está en pasado (Präteritum/Perfekt), la subordinada con nachdem va en Plusquamperfekt. Si la principal está en presente, la subordinada va en Perfekt. La lógica es siempre la misma: lo que pasó con nachdem, pasó un paso antes.",
+      "examples": [
+        { "target": "Nachdem ich gegessen hatte, ging ich aus.", "es": "Después de haber comido, salí." },
+        { "target": "Nachdem ich gegessen habe, gehe ich immer spazieren.", "es": "Después de comer, siempre voy a pasear." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "La regla de secuencia con nachdem",
+      "headers": ["Frase principal", "nachdem-Satz", "Ejemplo"],
+      "rows": [
+        ["Präteritum/Perfekt (pasado)", "Plusquamperfekt", "Nachdem ich gegessen hatte, ging ich aus."],
+        ["Präsens (presente/hábito)", "Perfekt", "Nachdem ich gegessen habe, gehe ich spazieren."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Un error muy típico es usar el mismo tiempo en las dos partes de la frase: «Nachdem ich aß, ging ich aus» sería incorrecto en un registro cuidado, porque no marca claramente que comer ocurrió antes; lo correcto es «Nachdem ich gegessen hatte, ging ich aus»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "nachdem", "es": "después de que", "ipa": "/naːxˈdeːm/", "esApprox": "«nach-DEM»", "pos": "conjunción", "gender": null, "example": { "target": "Nachdem ich gegessen hatte, ging ich aus.", "es": "Después de haber comido, salí." } },
+    { "id": "v2", "target": "die Zeitenfolge", "es": "la secuencia de tiempos verbales", "ipa": "/ˈtsaɪ̯tn̩fɔlɡə/", "esApprox": "«TSÁI-ten-fol-gue»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Zeitenfolge ist im Deutschen wichtig.", "es": "La secuencia de tiempos es importante en alemán." } },
+    { "id": "v3", "target": "ausgehen", "es": "salir (de fiesta, a la calle)", "ipa": "/ˈaʊ̯sɡeːən/", "esApprox": "«ÁUS-ge-en»", "pos": "verbo", "gender": null, "example": { "target": "Ich gehe heute Abend aus.", "es": "Salgo esta noche." } },
+    { "id": "v4", "target": "spazieren gehen", "es": "ir a pasear", "ipa": "/ʃpaˈtsiːʁən ˈɡeːən/", "esApprox": "«shpa-TSÍ-ren GUÉ-en»", "pos": "locución verbal", "gender": null, "example": { "target": "Ich gehe immer spazieren.", "es": "Siempre voy a pasear." } },
+    { "id": "v5", "target": "die Abfolge", "es": "la sucesión, el orden", "ipa": "/ˈapfɔlɡə/", "esApprox": "«AP-fol-gue»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Abfolge der Ereignisse ist klar.", "es": "El orden de los sucesos es claro." } },
+    { "id": "v6", "target": "vorher", "es": "antes (de eso)", "ipa": "/ˈfoːɐ̯heːɐ̯/", "esApprox": "«FOR-jer»", "pos": "adverbio", "gender": null, "example": { "target": "Vorher hatte ich schon gegessen.", "es": "Antes de eso, ya había comido." } },
+    { "id": "v7", "target": "aufräumen", "es": "ordenar, recoger", "ipa": "/ˈaʊ̯fʁɔɪ̯mən/", "esApprox": "«ÁUF-roi-men»", "pos": "verbo", "gender": null, "example": { "target": "Nachdem ich aufgeräumt hatte, war ich müde.", "es": "Después de haber ordenado, estaba cansado." } },
+    { "id": "v8", "target": "gewöhnlich", "es": "habitualmente", "ipa": "/ɡəˈvøːnlɪç/", "esApprox": "«ge-VÖN-lich»", "pos": "adverbio", "gender": null, "example": { "target": "Ich gehe gewöhnlich nach dem Essen spazieren.", "es": "Habitualmente voy a pasear después de comer." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 1, "prompt": "¿Qué tiempo usa la subordinada con nachdem si la principal está en Präteritum?", "options": ["Präsens", "Perfekt", "Plusquamperfekt", "Futur I"], "answer": 2, "explain": "Con la principal en pasado, la subordinada con nachdem va en Plusquamperfekt." },
+    { "id": "e2", "type": "mcq", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "¿Qué tiempo usa la subordinada con nachdem si la principal está en Präsens?", "options": ["Perfekt", "Präteritum", "Plusquamperfekt", "Futur I"], "answer": 0, "explain": "Con la principal en presente, la subordinada con nachdem va en Perfekt." },
+    { "id": "e3", "type": "true_false", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "statement": "Usar el mismo tiempo verbal en las dos partes de una frase con nachdem es el registro más correcto.", "answer": false, "explain": "Lo correcto es marcar la secuencia: la acción de nachdem va un paso antes que la principal." },
+    { "id": "e4", "type": "true_false", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "statement": "La acción de la subordinada con nachdem siempre ocurre antes que la de la frase principal.", "answer": true, "explain": "nachdem = después de que; la subordinada describe lo que ya había pasado." },
+    { "id": "e5", "type": "match_pairs", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Une cada tiempo de la principal con el de la subordinada con nachdem", "left": ["Präteritum (principal)", "Perfekt (principal)", "Präsens (principal)"], "right": ["Plusquamperfekt", "Plusquamperfekt", "Perfekt"], "answer": [0, 1, 2], "explain": "Tanto Präteritum como Perfekt en la principal piden Plusquamperfekt en la subordinada." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Después de haber comido, salí.", "accept": ["Nachdem ich gegessen hatte, ging ich aus"], "hintWords": ["nachdem ich gegessen hatte ging ich aus"], "strictAccents": false, "audio": "Nachdem ich gegessen hatte, ging ich aus.", "explain": "Nachdem + ich + gegessen hatte (final) + ging ich aus (principal, Präteritum)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Después de comer, siempre voy a pasear.", "accept": ["Nachdem ich gegessen habe, gehe ich immer spazieren"], "hintWords": ["nachdem ich gegessen habe gehe ich immer spazieren"], "strictAccents": false, "audio": "Nachdem ich gegessen habe, gehe ich immer spazieren.", "explain": "Nachdem + ich + gegessen habe (final, Perfekt) + gehe ich immer spazieren (principal, Präsens)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Después de haber ordenado, estaba cansado.", "accept": ["Nachdem ich aufgeräumt hatte, war ich müde"], "hintWords": ["nachdem ich aufgeräumt hatte war ich müde"], "strictAccents": false, "audio": "Nachdem ich aufgeräumt hatte, war ich müde.", "explain": "Nachdem + ich + aufgeräumt hatte (final) + war ich müde (principal, Präteritum)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Completa con la forma correcta", "text": "Nachdem ich gegessen ___, ging ich aus. Nachdem ich gegessen ___, gehe ich spazieren.", "blanks": [{ "accept": ["hatte"] }, { "accept": ["habe"] }], "bank": ["hatte", "habe", "hatte gehabt"], "explain": "hatte (con principal en pasado) y habe (con principal en presente)." },
+    { "id": "e10", "type": "word_order", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Ordena: «Habitualmente voy a pasear después de comer»", "tokens": ["nach dem Essen spazieren", "Ich gehe gewöhnlich"], "answer": ["Ich gehe gewöhnlich", "nach dem Essen spazieren"], "audio": "Ich gehe gewöhnlich nach dem Essen spazieren.", "explain": "Ich gehe gewöhnlich (posición normal) + nach dem Essen + spazieren." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Die Abfolge der Ereignisse ist klar.", "accept": ["El orden de los sucesos es claro."], "strictAccents": false, "audio": "Die Abfolge der Ereignisse ist klar.", "explain": "die Abfolge = la sucesión, el orden." },
+    { "id": "e12", "type": "dialogue", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was hast du gestern gemacht, nachdem du gegessen hattest?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nachdem ich gegessen hatte, ging ich aus."], "hint": "responde con nachdem + Plusquamperfekt" },
+      { "who": "Lea", "text": "Klingt schön!", "speak": true }
+    ], "explain": "nachdem + Plusquamperfekt: respuesta con la secuencia correcta." },
+    { "id": "e13", "type": "listening", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 1, "speak": "Nachdem ich gegessen hatte, ging ich aus.", "mode": "write", "accept": ["Nachdem ich gegessen hatte, ging ich aus"], "showTextAfter": true, "explain": "nachdem + Plusquamperfekt + principal en Präteritum." },
+    { "id": "e14", "type": "listening", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "speak": "Nachdem ich gegessen habe, gehe ich immer spazieren.", "mode": "choose", "options": ["Nachdem ich gegessen habe, gehe ich immer spazieren.", "Nachdem ich gegessen hatte, gehe ich immer spazieren.", "Nachdem ich esse, gehe ich immer spazieren."], "answer": 0, "showTextAfter": true, "explain": "Con la principal en presente (gehe), la subordinada va en Perfekt (habe gegessen), no en Plusquamperfekt." },
+    { "id": "e15", "type": "shadowing", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "speak": "Nachdem ich aufgeräumt hatte, war ich müde, aber danach ging ich trotzdem noch spazieren.", "es": "Después de haber ordenado, estaba cansado, pero de todas formas fui a pasear después.", "ipa": "/naːxˈdeːm ɪç ˈaʊ̯fɡəʁɔɪ̯mt ˈhatə vaːɐ̯ ɪç ˈmyːdə ˈaːbɐ daˈnaːx ɡɪŋ ɪç ˈtʁɔtsdeːm nɔx ʃpaˈtsiːʁən/", "esApprox": "«nach-DEM ich ÁUF-roimt JÁ-te, var ich MIU-de, Á-ber da-NACH gink ich TROTS-dem noj shpa-TSÍ-ren»", "focus": "Nachdem...hatte y war...ging: la secuencia completa de Plusquamperfekt seguida de Präteritum.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "speak": "Nachdem ich gegessen habe, gehe ich gewöhnlich spazieren; die Abfolge ist bei mir immer die gleiche.", "es": "Después de comer, habitualmente voy a pasear; la sucesión siempre es la misma para mí.", "ipa": "/naːxˈdeːm ɪç ɡəˈɡɛsn̩ ˈhaːbə ˈɡeːə ɪç ɡəˈvøːnlɪç ʃpaˈtsiːʁən diː ˈapfɔlɡə ɪst baɪ̯ miːɐ̯ ˈɪmɐ diː ˈɡlaɪ̯çə/", "esApprox": "«nach-DEM ich ge-GUÉ-sen JÁ-be, GUÉ-e ich ge-VÖN-lich shpa-TSÍ-ren; di AP-fol-gue ist bai mir Í-mer di GLÁI-che»", "focus": "Nachdem...habe con la principal en presente: el otro patrón de secuencia, para hábitos.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Te preguntan qué hiciste después de comer ayer. Responde que después de haber comido, saliste.", "modelAnswer": "Nachdem ich gegessen hatte, ging ich aus.", "alsoValid": ["Ich ging aus, nachdem ich gegessen hatte."], "speak": "Nachdem ich gegessen hatte, ging ich aus.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Clasifica cada frase según el tiempo de su nachdem-Satz", "buckets": ["Plusquamperfekt (principal en pasado)", "Perfekt (principal en presente)"], "items": [
+      { "text": "Nachdem ich gegessen hatte, ging ich aus.", "bucket": 0 },
+      { "text": "Nachdem ich gegessen habe, gehe ich spazieren.", "bucket": 1 },
+      { "text": "Nachdem ich aufgeräumt hatte, war ich müde.", "bucket": 0 }
+    ], "explain": "El tiempo de la subordinada con nachdem depende del tiempo de la frase principal." },
+    { "id": "e19", "type": "error_correction", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Nachdem ich aß, ging ich aus.", "accept": ["Nachdem ich gegessen hatte, ging ich aus"], "audio": "Nachdem ich gegessen hatte, ging ich aus.", "explain": "Con la principal en Präteritum, la subordinada con nachdem debe ir en Plusquamperfekt, no en Präteritum (aß)." },
+    { "id": "e20", "type": "mcq", "tags": ["plusquamperfekt", "nachdem"], "difficulty": 2, "prompt": "«Nachdem ich aufgeräumt hatte, war ich müde, aber danach ging ich trotzdem noch spazieren.» ¿Qué ocurrió primero?", "options": ["Ir a pasear", "Ordenar", "Estar cansado", "Nada en concreto"], "answer": 1, "explain": "«Nachdem ich aufgeräumt hatte» (Plusquamperfekt) indica que ordenar ocurrió antes que el resto." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "nachdem", "es": "después de que", "esApprox": "«nach-DEM»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Zeitenfolge", "es": "la secuencia de tiempos verbales", "esApprox": "«TSÁI-ten-fol-gue»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ausgehen", "es": "salir (de fiesta, a la calle)", "esApprox": "«ÁUS-ge-en»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "spazieren gehen", "es": "ir a pasear", "esApprox": "«shpa-TSÍ-ren GUÉ-en»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "vorher", "es": "antes (de eso)", "esApprox": "«FOR-jer»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "gewöhnlich", "es": "habitualmente", "esApprox": "«ge-VÖN-lich»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Nachdem ich aufgeräumt hatte, war ich müde, aber danach ging ich trotzdem noch spazieren.", "es": "Después de haber ordenado, estaba cansado, pero de todas formas fui a pasear después.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Nachdem ich gegessen habe, gehe ich gewöhnlich spazieren; die Abfolge ist bei mir immer die gleiche.", "es": "Después de comer, habitualmente voy a pasear; la sucesión siempre es la misma para mí.", "from": "e16" }
+  ]
+}

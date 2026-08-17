@@ -1,0 +1,90 @@
+{
+  "id": "de-a1-072",
+  "lang": "de",
+  "level": "A1",
+  "order": 72,
+  "title": "El orden de los complementos: tiempo, modo, lugar",
+  "objectives": [
+    "Aplicar la regla TeKaMoLo (tiempo - modo - lugar) para ordenar varios complementos en una frase",
+    "Distinguir un complemento de tiempo (wann?), uno de modo (wie?) y uno de lugar (wo?/wohin?)",
+    "Construir frases con varios complementos a la vez, dentro del segmento después del verbo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tiempo antes que modo, modo antes que lugar",
+      "body": "Cuando una frase alemana tiene varios complementos (además del verbo en posición 2), su orden dentro del segundo bloque de la frase sigue una regla fija: primero el tiempo (wann? - ¿cuándo?), después el modo (wie? - ¿cómo?), y al final el lugar (wo?/wohin? - ¿dónde?/¿adónde?). Se abrevia TeKaMoLo (Temporal-Kausal-Modal-Lokal); en A1 basta con recordar tiempo-modo-lugar.",
+      "examples": [
+        { "target": "Ich fahre morgen mit dem Zug nach Berlin.", "es": "Voy mañana en tren a Berlín.", "note": "morgen (tiempo) - mit dem Zug (modo) - nach Berlin (lugar)" },
+        { "target": "Wir sind gestern schnell nach Hause gegangen.", "es": "Ayer fuimos rápido a casa.", "note": "gestern (tiempo) - schnell (modo) - nach Hause (lugar)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las tres preguntas de TeKaMoLo",
+      "headers": ["Pregunta", "Tipo", "Ejemplo"],
+      "rows": [
+        ["Wann?", "Tiempo", "morgen, gestern, am Wochenende"],
+        ["Wie?", "Modo", "mit dem Zug, schnell, zu Fuß"],
+        ["Wo? / Wohin?", "Lugar", "in Berlin, nach Hause, im Park"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Si solo tienes un complemento (por ejemplo, solo lugar), puedes ponerlo donde quieras según el énfasis. La regla tiempo-modo-lugar importa sobre todo cuando hay dos o más complementos juntos en la misma frase."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "mit dem Zug", "es": "en tren", "ipa": "/mɪt deːm tsuːk/", "esApprox": "«mit dem tsuk»", "pos": "expresión", "gender": null, "example": { "target": "Ich fahre mit dem Zug.", "es": "Voy en tren." } },
+    { "id": "v2", "target": "zu Fuß", "es": "a pie", "ipa": "/tsuː fuːs/", "esApprox": "«tsu fus»", "pos": "expresión", "gender": null, "example": { "target": "Wir gehen zu Fuß.", "es": "Vamos a pie." } },
+    { "id": "v3", "target": "schnell", "es": "rápido", "ipa": "/ʃnɛl/", "esApprox": "«shnel»", "pos": "adjetivo", "gender": null, "example": { "target": "Sie läuft schnell.", "es": "Ella corre rápido." } },
+    { "id": "v4", "target": "langsam", "es": "lento, despacio", "ipa": "/ˈlaŋzaːm/", "esApprox": "«LANG-zam»", "pos": "adjetivo", "gender": null, "example": { "target": "Er spricht langsam.", "es": "Él habla despacio." } },
+    { "id": "v5", "target": "nach Hause", "es": "a casa (dirección)", "ipa": "/naːx ˈhaʊ̯zə/", "esApprox": "«nach JÁU-ze»", "pos": "expresión", "gender": null, "example": { "target": "Wir gehen nach Hause.", "es": "Vamos a casa." } },
+    { "id": "v6", "target": "zusammen", "es": "juntos", "ipa": "/tsuˈzamən/", "esApprox": "«tsu-ZÁ-men»", "pos": "adverbio", "gender": null, "example": { "target": "Wir fahren zusammen.", "es": "Vamos juntos." } },
+    { "id": "v7", "target": "allein", "es": "solo", "ipa": "/aˈlaɪ̯n/", "esApprox": "«a-LÁIN»", "pos": "adverbio", "gender": null, "example": { "target": "Ich reise allein.", "es": "Viajo solo." } },
+    { "id": "v8", "target": "mit dem Auto", "es": "en coche", "ipa": "/mɪt deːm ˈaʊ̯to/", "esApprox": "«mit dem ÁU-to»", "pos": "expresión", "gender": null, "example": { "target": "Er fährt mit dem Auto.", "es": "Él va en coche." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 1, "prompt": "Según TeKaMoLo, ¿qué va primero: tiempo o lugar?", "options": ["Lugar", "Tiempo", "Da igual", "Modo"], "answer": 1, "explain": "El orden es tiempo - modo - lugar." },
+    { "id": "e2", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "En «morgen mit dem Zug nach Berlin», ¿cuál es el complemento de modo?", "options": ["morgen", "mit dem Zug", "nach Berlin", "ninguno"], "answer": 1, "explain": "mit dem Zug responde a wie? (¿cómo?), es el complemento de modo." },
+    { "id": "e3", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "El orden correcto es: lugar, tiempo, modo.", "answer": false, "explain": "El orden correcto es tiempo, modo, lugar (TeKaMoLo)." },
+    { "id": "e4", "type": "true_false", "tags": ["orden-palabras"], "difficulty": 2, "statement": "«schnell» es un ejemplo de complemento de modo, porque responde a wie?", "answer": true, "explain": "schnell responde a ¿cómo?, así que es modo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Une cada expresión con su tipo", "left": ["morgen", "mit dem Zug", "nach Berlin", "schnell"], "right": ["tiempo", "modo", "lugar", "modo"], "answer": [0, 1, 2, 3], "explain": "morgen=tiempo; mit dem Zug y schnell=modo; nach Berlin=lugar." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Voy mañana en tren a Berlín.", "accept": ["Ich fahre morgen mit dem Zug nach Berlin"], "hintWords": ["ich fahre morgen mit dem Zug nach Berlin"], "strictAccents": false, "audio": "Ich fahre morgen mit dem Zug nach Berlin.", "explain": "Orden: verbo (2) + morgen (tiempo) + mit dem Zug (modo) + nach Berlin (lugar)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Ayer fuimos rápido a casa.", "accept": ["Wir sind gestern schnell nach Hause gegangen"], "hintWords": ["wir sind gestern schnell nach Hause gegangen"], "strictAccents": false, "audio": "Wir sind gestern schnell nach Hause gegangen.", "explain": "gestern (tiempo) - schnell (modo) - nach Hause (lugar), y gegangen al final (Perfekt)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Vamos juntos a pie a casa.", "accept": ["Wir gehen zusammen zu Fuß nach Hause"], "hintWords": ["wir gehen zusammen zu Fuß nach Hause"], "strictAccents": false, "audio": "Wir gehen zusammen zu Fuß nach Hause.", "explain": "zusammen y zu Fuß son ambos modo, van antes del lugar nach Hause." },
+    { "id": "e9", "type": "fill_blank", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Ordena los elementos: «Él va mañana en coche a Múnich»", "text": "Er fährt ___ ___ nach München.", "blanks": [{ "accept": ["morgen"] }, { "accept": ["mit dem Auto"] }], "bank": ["morgen", "mit dem Auto", "nach München"], "explain": "morgen (tiempo) antes de mit dem Auto (modo), y nach München (lugar) va al final." },
+    { "id": "e10", "type": "word_order", "tags": ["orden-palabras"], "difficulty": 3, "prompt": "Ordena: «Viajo mañana solo en tren a Hamburg»", "tokens": ["nach Hamburg", "morgen", "allein", "Ich reise", "mit dem Zug"], "answer": ["Ich reise", "morgen", "allein", "mit dem Zug", "nach Hamburg"], "audio": "Ich reise morgen allein mit dem Zug nach Hamburg.", "explain": "morgen (tiempo), allein + mit dem Zug (modo), nach Hamburg (lugar)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Er spricht langsam und deutlich im Unterricht.", "accept": ["Él habla despacio y claro en clase."], "strictAccents": false, "audio": "Er spricht langsam und deutlich im Unterricht.", "explain": "langsam und deutlich (modo) antes de im Unterricht (lugar)." },
+    { "id": "e12", "type": "dialogue", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Paul", "text": "Wie fährst du morgen nach Berlin?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich fahre morgen mit dem Zug nach Berlin."], "hint": "responde con tiempo-modo-lugar" },
+      { "who": "Paul", "text": "Fährst du allein?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nein, wir fahren zusammen."], "hint": "responde que no, que van juntos" }
+    ], "explain": "Práctica de tiempo-modo-lugar en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["orden-palabras"], "difficulty": 1, "speak": "Ich fahre morgen mit dem Zug nach Berlin.", "mode": "write", "accept": ["Ich fahre morgen mit dem Zug nach Berlin"], "showTextAfter": true, "explain": "Ejemplo clásico de TeKaMoLo: tiempo-modo-lugar." },
+    { "id": "e14", "type": "listening", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Wir gehen zusammen zu Fuß nach Hause.", "mode": "choose", "options": ["Wir gehen zusammen zu Fuß nach Hause.", "Wir gehen nach Hause zusammen zu Fuß.", "Wir gehen zu Fuß nach Hause zusammen."], "answer": 0, "showTextAfter": true, "explain": "Solo la primera respeta el orden modo antes de lugar." },
+    { "id": "e15", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Ich fahre morgen mit dem Zug nach Berlin, weil ich Freunde besuche.", "es": "Voy mañana en tren a Berlín, porque visito a amigos.", "ipa": "/ɪç ˈfaːʁə ˈmɔʁɡn̩ mɪt deːm tsuːk naːx bɛʁˈliːn vaɪ̯l ɪç ˈfʁɔʏ̯ndə bəˈzuːxə/", "esApprox": "«ich FÁ-re MOR-guen mit dem tsuk nach ber-LÍN, vail ich FROIN-de be-ZÚ-je»", "focus": "morgen (tiempo) - mit dem Zug (modo) - nach Berlin (lugar): el orden TeKaMoLo completo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["orden-palabras"], "difficulty": 2, "speak": "Wir sind gestern schnell nach Hause gegangen.", "es": "Ayer fuimos rápido a casa.", "ipa": "/viːɐ̯ zɪnt ˈɡɛstɐn ʃnɛl naːx ˈhaʊ̯zə ɡəˈɡaŋən/", "esApprox": "«vir zint GUÉS-tern shnel nach JÁU-ze ge-GÁN-guen»", "focus": "gestern (tiempo) - schnell (modo) - nach Hause (lugar), con gegangen (Perfekt con sein) al final.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Te preguntan cómo vas mañana a Múnich. Di que vas mañana en coche a Múnich.", "modelAnswer": "Ich fahre morgen mit dem Auto nach München.", "alsoValid": ["Morgen fahre ich mit dem Auto nach München."], "speak": "Ich fahre morgen mit dem Auto nach München.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "Clasifica cada complemento: tiempo, modo o lugar", "buckets": ["Tiempo", "Modo", "Lugar"], "items": [
+      { "text": "am Wochenende", "bucket": 0 },
+      { "text": "mit dem Auto", "bucket": 1 },
+      { "text": "nach Hause", "bucket": 2 },
+      { "text": "zu Fuß", "bucket": 1 },
+      { "text": "im Park", "bucket": 2 }
+    ], "explain": "am Wochenende=tiempo; mit dem Auto y zu Fuß=modo; nach Hause e im Park=lugar." },
+    { "id": "e19", "type": "error_correction", "tags": ["orden-palabras"], "difficulty": 3, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich fahre nach Berlin mit dem Zug morgen.", "accept": ["Ich fahre morgen mit dem Zug nach Berlin"], "audio": "Ich fahre morgen mit dem Zug nach Berlin.", "explain": "El orden correcto es tiempo (morgen) - modo (mit dem Zug) - lugar (nach Berlin), no al revés." },
+    { "id": "e20", "type": "mcq", "tags": ["orden-palabras"], "difficulty": 2, "prompt": "«Ich fahre morgen mit dem Zug nach München, weil ich meine Familie besuche. Meine Schwester fährt allein mit dem Auto. Wir treffen uns am Samstag zusammen im Park.» ¿Cómo viaja la hermana?", "options": ["En tren, sola", "En coche, sola", "En coche, con la familia", "A pie, sola"], "answer": 1, "explain": "«Meine Schwester fährt allein mit dem Auto» = mi hermana va sola en coche." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "mit dem Zug", "es": "en tren", "esApprox": "«mit dem tsuk»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "zu Fuß", "es": "a pie", "esApprox": "«tsu fus»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "schnell", "es": "rápido", "esApprox": "«shnel»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "langsam", "es": "lento, despacio", "esApprox": "«LANG-zam»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "nach Hause", "es": "a casa (dirección)", "esApprox": "«nach JÁU-ze»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "zusammen", "es": "juntos", "esApprox": "«tsu-ZÁ-men»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich fahre morgen mit dem Zug nach Berlin, weil ich Freunde besuche.", "es": "Voy mañana en tren a Berlín, porque visito a amigos.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wir sind gestern schnell nach Hause gegangen.", "es": "Ayer fuimos rápido a casa.", "from": "e16" }
+  ]
+}

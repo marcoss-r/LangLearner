@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-235",
+  "lang": "de",
+  "level": "B1",
+  "order": 235,
+  "title": "Argumentar y rebatir un argumento",
+  "objectives": [
+    "Estructurar un argumento con einerseits...andererseits (por un lado... por otro)",
+    "Expresar acuerdo y desacuerdo con zustimmen y widersprechen",
+    "Rebatir un argumento con educación usando fórmulas como «das stimmt zwar, aber...»"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Estructurar un argumento y rebatirlo con educación",
+      "body": "«Einerseits...andererseits» (por un lado... por otro) te permite presentar dos caras de un tema con orden. Para mostrar acuerdo, usa «zustimmen» (estar de acuerdo, + dativo); para mostrar desacuerdo, «widersprechen» (contradecir, + dativo). Rebatir con educación es clave: «Das stimmt zwar, aber...» (Eso es cierto, pero...) reconoce el argumento contrario antes de matizarlo.",
+      "examples": [
+        { "target": "Einerseits ist es teuer, andererseits spart man Zeit.", "es": "Por un lado es caro, por otro se ahorra tiempo." },
+        { "target": "Das stimmt zwar, aber es gibt auch Nachteile.", "es": "Eso es cierto, pero también hay desventajas." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para argumentar y rebatir",
+      "headers": ["Función", "Fórmula"],
+      "rows": [
+        ["Presentar dos caras", "einerseits...andererseits"],
+        ["Mostrar acuerdo", "Ich stimme dir zu."],
+        ["Mostrar desacuerdo", "Ich widerspreche dir."],
+        ["Rebatir con educación", "Das stimmt zwar, aber..."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "zustimmen y widersprechen rigen dativo, porque en el fondo significan «dar la razón a alguien» y «contradecir a alguien»: «Ich stimme dir zu» (Te doy la razón), «Ich widerspreche ihm» (Le contradigo a él)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "einerseits...andererseits", "es": "por un lado... por otro", "ipa": "/ˈaɪ̯nɐzaɪ̯ts ˈandəʁɐzaɪ̯ts/", "esApprox": "«ÁI-ner-zaits ÁN-de-rer-zaits»", "pos": "locución conjuntiva", "gender": null, "example": { "target": "Einerseits ist es teuer, andererseits spart man Zeit.", "es": "Por un lado es caro, por otro se ahorra tiempo." } },
+    { "id": "v2", "target": "zustimmen", "es": "estar de acuerdo (+ dativo)", "ipa": "/ˈtsuːʃtɪmən/", "esApprox": "«TSÚ-shti-men»", "pos": "verbo con preposición fija", "gender": null, "example": { "target": "Ich stimme dir zu.", "es": "Te doy la razón." } },
+    { "id": "v3", "target": "widersprechen", "es": "contradecir (+ dativo)", "ipa": "/ˈviːdɐʃpʁɛçn̩/", "esApprox": "«VÍ-der-shpre-chen»", "pos": "verbo con preposición fija", "gender": null, "example": { "target": "Ich widerspreche dir in diesem Punkt.", "es": "Te contradigo en este punto." } },
+    { "id": "v4", "target": "das stimmt zwar, aber...", "es": "eso es cierto, pero...", "ipa": "/das ʃtɪmt tsvaːɐ̯ ˈaːbɐ/", "esApprox": "«das shtimt tsvar Á-ber»", "pos": "locución", "gender": null, "example": { "target": "Das stimmt zwar, aber es gibt auch Nachteile.", "es": "Eso es cierto, pero también hay desventajas." } },
+    { "id": "v5", "target": "das Argument", "es": "el argumento", "ipa": "/aʁɡuˈmɛnt/", "esApprox": "«ar-gu-MENT»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das ist ein starkes Argument.", "es": "Ese es un argumento sólido." } },
+    { "id": "v6", "target": "der Standpunkt", "es": "el punto de vista", "ipa": "/ˈʃtantpʊŋkt/", "esApprox": "«SHTANT-punkt»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich verstehe deinen Standpunkt.", "es": "Entiendo tu punto de vista." } },
+    { "id": "v7", "target": "überzeugen", "es": "convencer", "ipa": "/yːbɐˈtsɔɪ̯ɡn̩/", "esApprox": "«iu-ber-TSÓI-guen»", "pos": "verbo", "gender": null, "example": { "target": "Das überzeugt mich nicht.", "es": "Eso no me convence." } },
+    { "id": "v8", "target": "der Nachteil", "es": "la desventaja", "ipa": "/ˈnaːxtaɪ̯l/", "esApprox": "«NACH-tail»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das hat auch Nachteile.", "es": "Eso también tiene desventajas." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["argumentacion", "debate"], "difficulty": 1, "prompt": "¿Qué caso rige «zustimmen»?", "options": ["Acusativo", "Dativo", "Genitivo", "Nominativo"], "answer": 1, "explain": "zustimmen + dativo: dar la razón a alguien." },
+    { "id": "e2", "type": "mcq", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "¿Qué fórmula reconoce un argumento antes de matizarlo?", "options": ["einerseits...andererseits", "Das stimmt zwar, aber...", "Ich widerspreche dir.", "der Standpunkt"], "answer": 1, "explain": "Das stimmt zwar, aber...: reconoce y luego matiza." },
+    { "id": "e3", "type": "true_false", "tags": ["argumentacion", "debate"], "difficulty": 2, "statement": "widersprechen significa dar la razón a alguien.", "answer": false, "explain": "widersprechen significa contradecir, lo opuesto a zustimmen." },
+    { "id": "e4", "type": "true_false", "tags": ["argumentacion", "debate"], "difficulty": 2, "statement": "einerseits...andererseits permite presentar dos caras de un tema.", "answer": true, "explain": "einerseits...andererseits = por un lado... por otro." },
+    { "id": "e5", "type": "match_pairs", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Une cada función con su fórmula", "left": ["Presentar dos caras", "Mostrar acuerdo", "Mostrar desacuerdo", "Rebatir con educación"], "right": ["einerseits...andererseits", "Ich stimme dir zu.", "Ich widerspreche dir.", "Das stimmt zwar, aber..."], "answer": [0, 1, 2, 3], "explain": "Cuatro fórmulas centrales para argumentar y rebatir." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Por un lado es caro, por otro se ahorra tiempo.", "accept": ["Einerseits ist es teuer, andererseits spart man Zeit"], "hintWords": ["einerseits ist es teuer andererseits spart man Zeit"], "strictAccents": false, "audio": "Einerseits ist es teuer, andererseits spart man Zeit.", "explain": "einerseits + ist (posición 2) + es + teuer, andererseits + spart (posición 2) + man + Zeit." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Te doy la razón.", "accept": ["Ich stimme dir zu"], "hintWords": ["ich stimme dir zu"], "strictAccents": false, "audio": "Ich stimme dir zu.", "explain": "stimme + dir + zu (verbo separable)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Eso es cierto, pero también hay desventajas.", "accept": ["Das stimmt zwar, aber es gibt auch Nachteile"], "hintWords": ["das stimmt zwar aber es gibt auch Nachteile"], "strictAccents": false, "audio": "Das stimmt zwar, aber es gibt auch Nachteile.", "explain": "Das stimmt zwar, aber + es gibt auch Nachteile." },
+    { "id": "e9", "type": "fill_blank", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich ___ dir zu. Ich ___ dir in diesem Punkt.", "blanks": [{ "accept": ["stimme"] }, { "accept": ["widerspreche"] }], "bank": ["stimme", "widerspreche", "überzeuge"], "explain": "stimme...zu (zustimmen) y widerspreche (widersprechen)." },
+    { "id": "e10", "type": "word_order", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Ordena: «Entiendo tu punto de vista»", "tokens": ["deinen Standpunkt", "Ich verstehe"], "answer": ["Ich verstehe", "deinen Standpunkt"], "audio": "Ich verstehe deinen Standpunkt.", "explain": "Ich verstehe (posición normal) + deinen Standpunkt (acusativo)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Das überzeugt mich nicht.", "accept": ["Eso no me convence."], "strictAccents": false, "audio": "Das überzeugt mich nicht.", "explain": "überzeugen = convencer." },
+    { "id": "e12", "type": "dialogue", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Ich finde, wir sollten mehr im Homeoffice arbeiten.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das stimmt zwar, aber es gibt auch Nachteile."], "hint": "rebate con educación" },
+      { "who": "Lea", "text": "Stimmt, das stimmt auch wieder.", "speak": true }
+    ], "explain": "Das stimmt zwar, aber...: rebatir un argumento sin ser brusco." },
+    { "id": "e13", "type": "listening", "tags": ["argumentacion", "debate"], "difficulty": 1, "speak": "Ich stimme dir zu.", "mode": "write", "accept": ["Ich stimme dir zu"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["argumentacion", "debate"], "difficulty": 2, "speak": "Das stimmt zwar, aber es gibt auch Nachteile.", "mode": "choose", "options": ["Das stimmt zwar, aber es gibt auch Nachteile.", "Das stimmt zwar, aber ich widerspreche.", "Das stimmt nicht, aber es gibt Nachteile."], "answer": 0, "showTextAfter": true, "explain": "Das stimmt zwar, aber...: primero se reconoce, después se matiza." },
+    { "id": "e15", "type": "shadowing", "tags": ["argumentacion", "debate"], "difficulty": 2, "speak": "Einerseits ist es teuer, andererseits spart man Zeit; ich verstehe also deinen Standpunkt.", "es": "Por un lado es caro, por otro se ahorra tiempo; entiendo entonces tu punto de vista.", "ipa": "/ˈaɪ̯nɐzaɪ̯ts ɪst ɛs ˈtɔɪ̯ɐ ˈandəʁɐzaɪ̯ts ʃpaʁt man tsaɪ̯t ɪç fɛɐ̯ˈʃteːə ˈalzoː ˈdaɪ̯nən ˈʃtantpʊŋkt/", "esApprox": "«ÁI-ner-zaits ist es TÓI-er, ÁN-de-rer-zaits shpart man tsait; ich fer-SHTÉ-e ÁL-zo DÁI-nen SHTANT-punkt»", "focus": "einerseits...andererseits y Standpunkt: presentar dos caras y reconocer el punto de vista ajeno.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["argumentacion", "debate"], "difficulty": 2, "speak": "Das stimmt zwar, aber dein Argument überzeugt mich nicht ganz; ich widerspreche dir in diesem einen Punkt.", "es": "Eso es cierto, pero tu argumento no me convence del todo; te contradigo en este único punto.", "ipa": "/das ʃtɪmt tsvaːɐ̯ ˈaːbɐ daɪ̯n aʁɡuˈmɛnt yːbɐˈtsɔɪ̯kt mɪç nɪçt ɡants ɪç ˈviːdɐʃpʁɛçə diːɐ̯ ɪn ˈdiːzn̩ ˈaɪ̯nən pʊŋkt/", "esApprox": "«das shtimt tsvar, Á-ber dain ar-gu-MENT iu-ber-TSÓIKT mich nicht gants; ich VÍ-der-shpre-che dir in DÍ-zen ÁI-nen punkt»", "focus": "das stimmt zwar, überzeugt y widerspreche: la secuencia completa de un rebatimiento educado.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Alguien te da un argumento con el que solo estás parcialmente de acuerdo. Rebátelo con educación.", "modelAnswer": "Das stimmt zwar, aber es gibt auch Nachteile.", "alsoValid": ["Das stimmt zwar, aber ich sehe das anders."], "speak": "Das stimmt zwar, aber es gibt auch Nachteile.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Clasifica cada frase según su función", "buckets": ["Acuerdo", "Desacuerdo/matiz"], "items": [
+      { "text": "Ich stimme dir zu.", "bucket": 0 },
+      { "text": "Ich widerspreche dir.", "bucket": 1 },
+      { "text": "Das stimmt zwar, aber...", "bucket": 1 }
+    ], "explain": "zustimmen expresa acuerdo; widersprechen y das stimmt zwar, aber expresan desacuerdo o matiz." },
+    { "id": "e19", "type": "error_correction", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich stimme dich zu.", "accept": ["Ich stimme dir zu"], "audio": "Ich stimme dir zu.", "explain": "zustimmen rige dativo: dir, no dich (que sería acusativo)." },
+    { "id": "e20", "type": "mcq", "tags": ["argumentacion", "debate"], "difficulty": 2, "prompt": "«Das stimmt zwar, aber dein Argument überzeugt mich nicht ganz; ich widerspreche dir in diesem einen Punkt.» ¿Está la persona totalmente en desacuerdo?", "options": ["Sí, en todo", "No, solo en un punto concreto", "No, está totalmente de acuerdo", "No se sabe"], "answer": 1, "explain": "«ich widerspreche dir in diesem einen Punkt» indica que el desacuerdo es solo parcial." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "einerseits...andererseits", "es": "por un lado... por otro", "esApprox": "«ÁI-ner-zaits ÁN-de-rer-zaits»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "zustimmen", "es": "estar de acuerdo (+ dativo)", "esApprox": "«TSÚ-shti-men»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "widersprechen", "es": "contradecir (+ dativo)", "esApprox": "«VÍ-der-shpre-chen»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "das stimmt zwar, aber...", "es": "eso es cierto, pero...", "esApprox": "«das shtimt tsvar Á-ber»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "der Standpunkt", "es": "el punto de vista", "esApprox": "«SHTANT-punkt»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "überzeugen", "es": "convencer", "esApprox": "«iu-ber-TSÓI-guen»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Einerseits ist es teuer, andererseits spart man Zeit; ich verstehe also deinen Standpunkt.", "es": "Por un lado es caro, por otro se ahorra tiempo; entiendo entonces tu punto de vista.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Das stimmt zwar, aber dein Argument überzeugt mich nicht ganz; ich widerspreche dir in diesem einen Punkt.", "es": "Eso es cierto, pero tu argumento no me convence del todo; te contradigo en este único punto.", "from": "e16" }
+  ]
+}

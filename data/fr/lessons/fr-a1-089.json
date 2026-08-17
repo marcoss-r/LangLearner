@@ -1,0 +1,271 @@
+{
+  "id": "fr-a1-089",
+  "lang": "fr",
+  "level": "A1",
+  "order": 89,
+  "title": "Repaso activo VI (clases 75–88)",
+  "objectives": [
+    "Repasar el futuro próximo, el passé récent, être en train de y el passé composé completo",
+    "Repasar los pronombres COD y COI, y el imperativo",
+    "Repasar cómo invitar, hablar por teléfono, escribir un correo y la cultura francesa"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque G (el pasado y la comunicación)",
+      "body": "Sin gramática nueva. Este bloque ha sido muy denso: tres formas de hablar del tiempo (futuro próximo, passé récent, acción en curso), todo el passé composé, y dos tipos de pronombres. Repasa las tablas con calma."
+    },
+    {
+      "type": "table",
+      "title": "Tres momentos, tres estructuras",
+      "headers": ["Estructura", "Momento", "Ejemplo"],
+      "rows": [
+        ["venir de + infinitif", "acción recién terminada", "Je viens de manger."],
+        ["être en train de + infinitif", "acción en curso", "Je suis en train de manger."],
+        ["aller + infinitif", "acción próxima", "Je vais manger."]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El passé composé, resumen",
+      "headers": ["Con avoir", "Con être"],
+      "rows": [
+        ["la mayoría de los verbos", "aller, venir, partir, arriver, rester"],
+        ["j'ai parlé, j'ai fini", "je suis allé(e), je suis venu(e)"],
+        ["participio invariable", "participio con acuerdo (-e, -s, -es)"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "COD frente a COI",
+      "headers": ["COD (le/la/les)", "COI (lui/leur)"],
+      "rows": [
+        ["sin à: voir, connaître", "con à + persona: parler à, téléphoner à"],
+        ["je le vois", "je lui parle"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "venir de + infinitif", "es": "acabar de + infinitivo", "ipa": "/və.niʁ də/", "esApprox": "«ve-NIR de»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "être en train de", "es": "estar + gerundio", "ipa": "/ɛtʁ ɑ̃ tʁɛ̃ də/", "esApprox": "«ETR an TREN de»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "allé / allée", "es": "ido/a (de aller)", "ipa": "/a.le/", "esApprox": "«a-LÉ»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "le / la / les", "es": "lo/la/los/las (pronombre COD)", "ipa": "/lə la le/", "esApprox": "«le la LE»", "pos": "pronombre", "gender": null },
+    { "id": "v5", "target": "lui / leur", "es": "le/les (pronombre COI)", "ipa": "/lɥi lœʁ/", "esApprox": "«LÜÍ LEUR»", "pos": "pronombre", "gender": null },
+    { "id": "v6", "target": "Sois... ! / Soyez... !", "es": "¡Sé...! / ¡Sed...!", "ipa": "/swa swa.je/", "esApprox": "«SUÁ suá-YÉ»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "désolé / désolée", "es": "lo siento", "ipa": "/de.zɔ.le/", "esApprox": "«de-zo-LÉ»", "pos": "adjetivo", "gender": "m/f" },
+    { "id": "v8", "target": "Allô ?", "es": "¿Diga? (al descolgar)", "ipa": "/a.lo/", "esApprox": "«a-LÓ»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «fui al trabajo» (hablante hombre)?",
+      "options": ["J'ai allé au travail.", "Je suis allé au travail.", "Je suis aller au travail.", "J'ai été au travail."],
+      "answer": 1,
+      "explain": "Repaso de la clase 80: aller usa être."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "¿Cómo sustituyes «le chat» (masculino)?",
+      "options": ["la", "les", "le", "l'"],
+      "answer": 2,
+      "explain": "Repaso de la clase 82."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "statement": "Lui puede significar «a él» o «a ella»: no distingue género.",
+      "answer": true,
+      "explain": "Repaso de la clase 83."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["imperativo"],
+      "difficulty": 2,
+      "statement": "Los verbos -er pierden la -s de tu en el imperativo.",
+      "answer": true,
+      "explain": "Repaso de la clase 84: parle !, no parles !"
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["passe-compose"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases NO es un passé récent?",
+      "options": ["Je viens de manger.", "Je viens du travail.", "Il vient de finir.", "Nous venons d'arriver."],
+      "answer": 1,
+      "explain": "Repaso de la clase 76: venir de + lugar es distinto de venir de + infinitivo."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["invitaciones", "telefono"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["Allô ?", "désolé", "avec plaisir", "Ça te dit de... ?"],
+      "right": ["¿te apetece...?", "¿diga?", "con mucho gusto", "lo siento"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Repaso de las clases 85 y 86."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "No he comido nada, y ella no ha venido.",
+      "accept": ["Je n'ai rien mangé, et elle n'est pas venue"],
+      "hintWords": ["je n'ai rien mangé", "elle n'est pas venue"],
+      "strictAccents": false,
+      "audio": "Je n'ai rien mangé, et elle n'est pas venue.",
+      "explain": "Repaso de la clase 81."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["pronombres", "coi"],
+      "difficulty": 2,
+      "prompt": "Le llamo esta noche, y le doy mi número.",
+      "accept": ["Je lui téléphone ce soir, et je lui donne mon numéro"],
+      "hintWords": ["je lui téléphone ce soir", "je lui donne mon numéro"],
+      "strictAccents": false,
+      "audio": "Je lui téléphone ce soir, et je lui donne mon numéro.",
+      "explain": "Repaso de la clase 83."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["escritura"],
+      "difficulty": 2,
+      "prompt": "Completa el correo formal",
+      "text": "___, Monsieur, je vous écris pour poser une question. ___,",
+      "blanks": [{ "accept": ["Madame"] }, { "accept": ["Cordialement"] }],
+      "bank": ["Madame", "Coucou", "Cordialement", "Bisous"],
+      "explain": "Repaso de la clase 87."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["invitaciones"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Otra vez, quizás?»",
+      "tokens": ["peut-être", "Une autre fois", "?"],
+      "answer": ["Une autre fois", "peut-être", "?"],
+      "audio": "Une autre fois, peut-être ?",
+      "explain": "Repaso de la clase 85."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["futuro-proximo", "passe-recent"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus planes",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu vas faire ce soir ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je vais manger avec ma famille.", "Je viens de finir mon travail, je vais me reposer."], "hint": "usa aller + infinitivo" },
+        { "who": "Léa", "text": "Super !", "speak": true }
+      ],
+      "explain": "Repaso combinado de las clases 75-77."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose", "irregulares"],
+      "difficulty": 2,
+      "speak": "J'ai fait du sport, j'ai eu faim, et j'ai dû manger à midi.",
+      "mode": "write",
+      "accept": ["J'ai fait du sport, j'ai eu faim, et j'ai dû manger à midi"],
+      "showTextAfter": true,
+      "explain": "Repaso de la clase 79."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cultura-francesa"],
+      "difficulty": 1,
+      "speak": "la bise",
+      "mode": "choose",
+      "options": ["serrer la main", "la bise", "les magasins", "les horaires"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase 88."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose", "etre"],
+      "difficulty": 3,
+      "speak": "Je suis allé au travail, ma sœur est venue avec moi, et nous sommes restés jusqu'au soir.",
+      "es": "Fui al trabajo, mi hermana vino conmigo, y nos quedamos hasta la noche.",
+      "ipa": "/ʒə sɥi.z‿a.le o tʁa.vaj ma sœʁ ɛ və.ny a.vɛk mwa e nu sɔm ʁɛs.te ʒys.ko swaʁ/",
+      "esApprox": "«ye süí-a-LÉ o tra-VÁY ma SEUR e ve-NÜ a-VEK MUÁ e nu som res-TÉ yüs-ko SUAR»",
+      "focus": "Repaso del acuerdo del participio con être (clase 80).",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["invitaciones", "telefono"],
+      "difficulty": 2,
+      "prompt": "Invita a un amigo por teléfono y responde si aceptas o rechazas.",
+      "modelAnswer": "Allô ? Ça te dit de manger ensemble ? Oui, avec plaisir !",
+      "alsoValid": ["Allô ? Désolé, je suis occupé ce soir."],
+      "speak": "Allô ? Ça te dit de manger ensemble ? Oui, avec plaisir !",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-compose", "futuro-proximo", "passe-recent"],
+      "difficulty": 2,
+      "prompt": "¿Es acción recién terminada, en curso o próxima?",
+      "buckets": ["Recién terminada", "En curso", "Próxima"],
+      "items": [
+        { "text": "Je viens de manger.", "bucket": 0 },
+        { "text": "Je suis en train de manger.", "bucket": 1 },
+        { "text": "Je vais manger.", "bucket": 2 }
+      ],
+      "explain": "Repaso de las clases 75-77."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronombres", "cod"],
+      "difficulty": 2,
+      "prompt": "Hay un error de posición del pronombre. Corrige la frase entera.",
+      "wrong": "Je vois le.",
+      "accept": ["Je le vois"],
+      "audio": "Je le vois.",
+      "explain": "Repaso de la clase 82: el pronombre COD va antes del verbo."
+    },
+    {
+      "id": "e18",
+      "type": "gender_article",
+      "tags": ["invitaciones"],
+      "difficulty": 2,
+      "prompt": "Elige el adjetivo correcto para una mujer",
+      "items": [
+        { "word": "occupé", "options": ["occupé", "occupée"], "answer": 1 },
+        { "word": "désolé", "options": ["désolé", "désolée"], "answer": 1 }
+      ],
+      "explain": "Léa est occupée, Léa est désolée: concordancia femenina."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "venir de + infinitif", "es": "acabar de + infinitivo", "esApprox": "«ve-NIR de»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "être en train de", "es": "estar + gerundio", "esApprox": "«ETR an TREN de»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "allé / allée", "es": "ido/a (de aller)", "esApprox": "«a-LÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "lui / leur", "es": "le/les (pronombre COI)", "esApprox": "«LÜÍ LEUR»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "désolé / désolée", "es": "lo siento", "esApprox": "«de-zo-LÉ»", "from": "v7" },
+    { "id": "s6", "kind": "phrase", "target": "Je n'ai rien mangé, et elle n'est pas venue.", "es": "No he comido nada, y ella no ha venido.", "from": "e7" },
+    { "id": "s7", "kind": "phrase", "target": "Je lui téléphone ce soir, et je lui donne mon numéro.", "es": "Le llamo esta noche, y le doy mi número.", "from": "e8" },
+    { "id": "s8", "kind": "phrase", "target": "Allô ?", "es": "¿Diga? (al descolgar)", "esApprox": "«a-LÓ»", "from": "v8" }
+  ]
+}

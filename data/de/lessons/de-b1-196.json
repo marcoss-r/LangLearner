@@ -1,0 +1,87 @@
+{
+  "id": "de-b1-196",
+  "lang": "de",
+  "level": "B1",
+  "order": 196,
+  "title": "Was y wo como relativos",
+  "objectives": [
+    "Usar was como relativo cuando el antecedente es alles, etwas, nichts, das o un superlativo neutro",
+    "Usar was para referirse a toda una frase anterior, no solo a una palabra",
+    "Usar wo como alternativa a preposición + relativo cuando el antecedente es un lugar"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "was: cuando no hay un sustantivo concreto de género fijo",
+      "body": "was se usa como relativo en vez de das/die/der en varios casos: tras alles, etwas, nichts, das, y tras superlativos neutros (das Beste, was...). También fuera de estos casos: cuando el relativo no se refiere a una palabra, sino a toda la frase anterior. «Alles, was du sagst, ist wahr» (Todo lo que dices es verdad); «Er kam zu spät, was mich ärgerte» (Llegó tarde, lo cual me molestó).",
+      "examples": [
+        { "target": "Alles, was du sagst, ist wahr.", "es": "Todo lo que dices es verdad." },
+        { "target": "Er kam zu spät, was mich ärgerte.", "es": "Llegó tarde, lo cual me molestó." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cuándo usar was y cuándo wo",
+      "headers": ["Relativo", "Se usa cuando...", "Ejemplo"],
+      "rows": [
+        ["was", "el antecedente es alles/etwas/nichts/das", "Alles, was du sagst, ist wahr."],
+        ["was", "el relativo se refiere a toda la frase anterior", "Er kam zu spät, was mich ärgerte."],
+        ["wo", "el antecedente es un lugar (alternativa a preposición + relativo)", "die Stadt, wo ich wohne"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "wo es una alternativa más sencilla a «in der/in dem»: «die Stadt, wo ich wohne» = «die Stadt, in der ich wohne» (clase 195). Es especialmente frecuente con nombres de ciudades y países, donde suena más natural que la preposición completa."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "alles, was...", "es": "todo lo que...", "ipa": "/ˈaləs vas/", "esApprox": "«Á-les vas»", "pos": "estructura relativa", "gender": null, "example": { "target": "Alles, was du sagst, ist wahr.", "es": "Todo lo que dices es verdad." } },
+    { "id": "v2", "target": "was mich ärgerte", "es": "lo cual me molestó", "ipa": "/vas mɪç ˈɛʁɡɐtə/", "esApprox": "«vas mich ÉR-guer-te»", "pos": "estructura relativa", "gender": null, "example": { "target": "Er kam zu spät, was mich ärgerte.", "es": "Llegó tarde, lo cual me molestó." } },
+    { "id": "v3", "target": "die Stadt, wo...", "es": "la ciudad donde...", "ipa": "/diː ʃtat voː/", "esApprox": "«di shtat vo»", "pos": "estructura relativa", "gender": null, "example": { "target": "Die Stadt, wo ich wohne, ist klein.", "es": "La ciudad donde vivo es pequeña." } },
+    { "id": "v4", "target": "wahr", "es": "verdadero", "ipa": "/vaːɐ̯/", "esApprox": "«var»", "pos": "adjetivo", "gender": null, "example": { "target": "Alles, was du sagst, ist wahr.", "es": "Todo lo que dices es verdad." } },
+    { "id": "v5", "target": "das Beste, was...", "es": "lo mejor que...", "ipa": "/das ˈbɛstə vas/", "esApprox": "«das BÉS-te vas»", "pos": "estructura relativa", "gender": null, "example": { "target": "Das ist das Beste, was ich je gegessen habe.", "es": "Eso es lo mejor que he comido nunca." } },
+    { "id": "v6", "target": "ärgern", "es": "molestar, enfadar", "ipa": "/ˈɛʁɡɐn/", "esApprox": "«ÉR-guern»", "pos": "verbo", "gender": null, "example": { "target": "Das ärgert mich.", "es": "Eso me molesta." } },
+    { "id": "v7", "target": "nichts, was...", "es": "nada que...", "ipa": "/nɪçts vas/", "esApprox": "«nichts vas»", "pos": "estructura relativa", "gender": null, "example": { "target": "Es gibt nichts, was ich ändern kann.", "es": "No hay nada que pueda cambiar." } },
+    { "id": "v8", "target": "je", "es": "jamás, alguna vez", "ipa": "/jeː/", "esApprox": "«ye»", "pos": "adverbio", "gender": null, "example": { "target": "Das ist das Beste, was ich je gegessen habe.", "es": "Eso es lo mejor que he comido nunca." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["relativas", "was-wo"], "difficulty": 1, "prompt": "¿Qué relativo se usa tras «alles»?", "options": ["das", "die", "was", "der"], "answer": 2, "explain": "alles, was...: was es el relativo obligatorio tras alles." },
+    { "id": "e2", "type": "mcq", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "¿Qué relativo se usa para un lugar, como alternativa a «in der»?", "options": ["was", "wo", "das", "wer"], "answer": 1, "explain": "wo: die Stadt, wo ich wohne = die Stadt, in der ich wohne." },
+    { "id": "e3", "type": "true_false", "tags": ["relativas", "was-wo"], "difficulty": 2, "statement": "was puede referirse a toda una frase anterior, no solo a una palabra.", "answer": true, "explain": "Er kam zu spät, was mich ärgerte: was se refiere al hecho completo de llegar tarde." },
+    { "id": "e4", "type": "true_false", "tags": ["relativas", "was-wo"], "difficulty": 2, "statement": "was se usa tras cualquier sustantivo neutro, como das Buch.", "answer": false, "explain": "Tras sustantivos neutros concretos como das Buch se usa das, no was; was se reserva para alles/etwas/nichts/das (pronombre) y superlativos." },
+    { "id": "e5", "type": "match_pairs", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "Une cada antecedente con su relativo", "left": ["alles,", "die Stadt,", "nichts,", "Er kam zu spät,"], "right": ["was du sagst", "wo ich wohne", "was ich ändern kann", "was mich ärgerte"], "answer": [0, 1, 2, 3], "explain": "was para pronombres indefinidos y frases completas; wo para lugares." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "Todo lo que dices es verdad.", "accept": ["Alles, was du sagst, ist wahr"], "hintWords": ["alles was du sagst ist wahr"], "strictAccents": false, "audio": "Alles, was du sagst, ist wahr.", "explain": "Alles, was + du + sagst (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "La ciudad donde vivo es pequeña.", "accept": ["Die Stadt, wo ich wohne, ist klein"], "hintWords": ["die Stadt wo ich wohne ist klein"], "strictAccents": false, "audio": "Die Stadt, wo ich wohne, ist klein.", "explain": "Die Stadt, wo + ich + wohne (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "Llegó tarde, lo cual me molestó.", "accept": ["Er kam zu spät, was mich ärgerte"], "hintWords": ["er kam zu spät was mich ärgerte"], "strictAccents": false, "audio": "Er kam zu spät, was mich ärgerte.", "explain": "was se refiere a toda la frase anterior (er kam zu spät)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "Completa con was o wo", "text": "Es gibt nichts, ___ ich ändern kann. Die Stadt, ___ ich wohne, ist klein.", "blanks": [{ "accept": ["was"] }, { "accept": ["wo"] }], "bank": ["was", "wo", "das"], "explain": "nichts, was (pronombre indefinido) y die Stadt, wo (lugar)." },
+    { "id": "e10", "type": "word_order", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "Ordena: «Eso es lo mejor que he comido nunca»", "tokens": ["was ich je gegessen habe", "Das ist das Beste,"], "answer": ["Das ist das Beste,", "was ich je gegessen habe"], "audio": "Das ist das Beste, was ich je gegessen habe.", "explain": "das Beste, was + ich + je + gegessen habe (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "Das ärgert mich.", "accept": ["Eso me molesta."], "strictAccents": false, "audio": "Das ärgert mich.", "explain": "ärgern = molestar, enfadar." },
+    { "id": "e12", "type": "dialogue", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie war das Essen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das ist das Beste, was ich je gegessen habe."], "hint": "usa das Beste, was..." },
+      { "who": "Lea", "text": "Wow, so gut?", "speak": true }
+    ], "explain": "das Beste, was...: superlativo con relativo was." },
+    { "id": "e13", "type": "listening", "tags": ["relativas", "was-wo"], "difficulty": 1, "speak": "Alles, was du sagst, ist wahr.", "mode": "write", "accept": ["Alles, was du sagst, ist wahr"], "showTextAfter": true, "explain": "Alles, was: relativo tras un pronombre indefinido." },
+    { "id": "e14", "type": "listening", "tags": ["relativas", "was-wo"], "difficulty": 2, "speak": "Die Stadt, wo ich wohne, ist klein.", "mode": "choose", "options": ["Die Stadt, wo ich wohne, ist klein.", "Die Stadt, was ich wohne, ist klein.", "Die Stadt, die ich wohne, ist klein."], "answer": 0, "showTextAfter": true, "explain": "wo es la forma natural para un lugar como antecedente." },
+    { "id": "e15", "type": "shadowing", "tags": ["relativas", "was-wo"], "difficulty": 2, "speak": "Alles, was du sagst, ist wahr, und es gibt nichts, was ich daran ändern kann.", "es": "Todo lo que dices es verdad, y no hay nada que yo pueda cambiar en eso.", "ipa": "/ˈaləs vas duː zaːkst ɪst vaːɐ̯ ʊnt ɛs ɡɪpt nɪçts vas ɪç daˈʁan ˈɛndɐn kan/", "esApprox": "«Á-les vas du zakst ist var, unt es guipt nichts vas ich da-RAN ÉN-dern kan»", "focus": "alles, was y nichts, was: dos usos de was tras pronombres indefinidos.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["relativas", "was-wo"], "difficulty": 2, "speak": "Die Stadt, wo ich wohne, ist klein, was mir eigentlich sehr gut gefällt.", "es": "La ciudad donde vivo es pequeña, lo cual en realidad me gusta mucho.", "ipa": "/diː ʃtat voː ɪç ˈvoːnə ɪst klaɪ̯n vas miːɐ̯ ˈaɪ̯gn̩tlɪç zeːɐ̯ ɡuːt ɡəˈfɛlt/", "esApprox": "«di shtat vo ich VÓ-ne ist klain, vas mir ÁI-guent-lich zer gut ge-FELT»", "focus": "wo (lugar) y was (referido a toda la frase anterior): dos usos distintos de los relativos especiales.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "Te preguntan cómo estaba la comida. Di que es lo mejor que has comido nunca.", "modelAnswer": "Das ist das Beste, was ich je gegessen habe.", "alsoValid": ["Das war das Beste, was ich je gegessen habe."], "speak": "Das ist das Beste, was ich je gegessen habe.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "Clasifica cada frase: was o wo", "buckets": ["was", "wo"], "items": [
+      { "text": "Alles, was du sagst, ist wahr.", "bucket": 0 },
+      { "text": "Die Stadt, wo ich wohne, ist klein.", "bucket": 1 },
+      { "text": "Er kam zu spät, was mich ärgerte.", "bucket": 0 }
+    ], "explain": "was para pronombres indefinidos y frases completas; wo para lugares." },
+    { "id": "e19", "type": "error_correction", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Alles, das du sagst, ist wahr.", "accept": ["Alles, was du sagst, ist wahr"], "audio": "Alles, was du sagst, ist wahr.", "explain": "Tras alles, el relativo obligatorio es was, no das." },
+    { "id": "e20", "type": "mcq", "tags": ["relativas", "was-wo"], "difficulty": 2, "prompt": "«Die Stadt, wo ich wohne, ist klein, was mir eigentlich sehr gut gefällt. Es gibt nichts, was ich daran ändern möchte.» ¿Qué opina la persona de su ciudad pequeña?", "options": ["Que le disgusta", "Que le gusta mucho", "Que es indiferente", "Que quiere mudarse"], "answer": 1, "explain": "«was mir eigentlich sehr gut gefällt» indica que le gusta mucho." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "alles, was...", "es": "todo lo que...", "esApprox": "«Á-les vas»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "was mich ärgerte", "es": "lo cual me molestó", "esApprox": "«vas mich ÉR-guer-te»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "die Stadt, wo...", "es": "la ciudad donde...", "esApprox": "«di shtat vo»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "wahr", "es": "verdadero", "esApprox": "«var»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "ärgern", "es": "molestar, enfadar", "esApprox": "«ÉR-guern»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "nichts, was...", "es": "nada que...", "esApprox": "«nichts vas»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Alles, was du sagst, ist wahr, und es gibt nichts, was ich daran ändern kann.", "es": "Todo lo que dices es verdad, y no hay nada que yo pueda cambiar en eso.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Stadt, wo ich wohne, ist klein, was mir eigentlich sehr gut gefällt.", "es": "La ciudad donde vivo es pequeña, lo cual en realidad me gusta mucho.", "from": "e16" }
+  ]
+}

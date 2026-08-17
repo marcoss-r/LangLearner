@@ -1,0 +1,330 @@
+{
+  "id": "de-a1-025",
+  "lang": "de",
+  "level": "A1",
+  "order": 25,
+  "title": "Verbos que rigen acusativo",
+  "objectives": [
+    "Reconocer que muchos verbos alemanes llevan su objeto directo en acusativo, sin preposición de por medio",
+    "Ampliar el vocabulario de verbos transitivos: kennen, lieben, finden, además de haben, brauchen, suchen, kaufen y sehen",
+    "Practicar frases completas combinando estos verbos con sustantivos masculinos en acusativo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los verbos «transitivos»: llevan objeto directo, y ese objeto va en acusativo",
+      "body": "Ya usaste el acusativo con sehen y kaufen en la clase anterior. La regla se extiende a muchísimos otros verbos: cualquier verbo que responda a la pregunta «¿qué?» o «¿a quién?» lleva su objeto en acusativo. Hoy amplías la lista con tres verbos muy frecuentes: kennen (conocer), lieben (querer, amar) y finden (encontrar).",
+      "examples": [
+        { "target": "Ich kenne den Mann.", "es": "Conozco al hombre.", "note": "kennen + acusativo" },
+        { "target": "Ich liebe die Stadt.", "es": "Quiero la ciudad.", "note": "lieben + acusativo" },
+        { "target": "Ich finde das Buch.", "es": "Encuentro el libro.", "note": "finden + acusativo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos frecuentes que rigen acusativo",
+      "headers": ["Verbo", "Significado"],
+      "rows": [
+        ["haben", "tener"],
+        ["brauchen", "necesitar"],
+        ["suchen", "buscar"],
+        ["kaufen", "comprar"],
+        ["sehen", "ver"],
+        ["kennen", "conocer"],
+        ["lieben", "querer, amar"],
+        ["finden", "encontrar"]
+      ],
+      "note": "Todos estos verbos comparten la misma estructura: sujeto (nominativo) + verbo + objeto (acusativo)."
+    },
+    {
+      "type": "contrast",
+      "title": "Aviso: no todos los verbos rigen acusativo",
+      "items": [
+        { "wrong": "pensar que todos los verbos alemanes llevan su objeto en acusativo", "right": "algunos verbos, como helfen (ayudar), rigen dativo en vez de acusativo", "why": "El dativo es el cuarto caso, y lo verás en el Bloque D. Por ahora, memoriza que haben, brauchen, suchen, kaufen, sehen, kennen, lieben y finden van con acusativo: es una lista segura." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para saber si un verbo lleva acusativo, pregúntale «¿qué?» o «¿a quién?» directamente: «Conozco... ¿a quién? Al hombre.» Esa respuesta va en acusativo, sin ninguna preposición de por medio."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "kennen",
+      "es": "conocer",
+      "ipa": "/ˈkɛnən/",
+      "esApprox": "«KE-nen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich kenne den Mann.", "es": "Conozco al hombre." }
+    },
+    {
+      "id": "v2",
+      "target": "lieben",
+      "es": "querer, amar",
+      "ipa": "/ˈliːbən/",
+      "esApprox": "«LÍ-ben»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich liebe die Stadt.", "es": "Quiero la ciudad." }
+    },
+    {
+      "id": "v3",
+      "target": "finden",
+      "es": "encontrar",
+      "ipa": "/ˈfɪndən/",
+      "esApprox": "«FIN-den»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich finde das Buch.", "es": "Encuentro el libro." }
+    },
+    {
+      "id": "v4",
+      "target": "der Roman",
+      "es": "la novela",
+      "ipa": "/ʁoˈmaːn/",
+      "esApprox": "«ro-MÁN»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Romane",
+      "example": { "target": "Ich kenne den Roman.", "es": "Conozco la novela." }
+    },
+    {
+      "id": "v5",
+      "target": "das Problem",
+      "es": "el problema",
+      "ipa": "/pʁoˈbleːm/",
+      "esApprox": "«pro-BLÉM»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Probleme",
+      "example": { "target": "Ich habe ein Problem.", "es": "Tengo un problema." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["acusativo"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «kennen»?",
+      "options": ["amar", "conocer", "buscar", "encontrar"],
+      "answer": 1,
+      "explain": "kennen = conocer."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["regimen-preposicional"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos verbos NO rige acusativo directamente?",
+      "options": ["sehen", "kaufen", "helfen", "kennen"],
+      "answer": 2,
+      "explain": "helfen (ayudar) rige dativo, no acusativo; lo verás en el Bloque D."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["acusativo"],
+      "difficulty": 1,
+      "statement": "Lieben es un verbo que rige acusativo.",
+      "answer": true,
+      "explain": "Ich liebe die Stadt: die Stadt es el objeto directo, en acusativo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["acusativo"],
+      "difficulty": 1,
+      "statement": "El objeto directo de «finden» va siempre en nominativo.",
+      "answer": false,
+      "explain": "El objeto directo va en acusativo, no en nominativo."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases NO tiene un objeto directo en acusativo?",
+      "options": ["Ich kenne den Mann.", "Ich liebe die Stadt.", "Der Hund ist müde.", "Ich finde das Buch."],
+      "answer": 2,
+      "explain": "Der Hund ist müde no tiene objeto directo: müde es un adjetivo que describe al sujeto."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["acusativo"],
+      "difficulty": 1,
+      "prompt": "Une cada verbo con su significado",
+      "left": ["kennen", "lieben", "finden", "brauchen"],
+      "right": ["conocer", "querer", "encontrar", "necesitar"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro verbos que rigen acusativo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Conozco al hombre.",
+      "accept": ["Ich kenne den Mann"],
+      "hintWords": ["ich kenne den Mann"],
+      "strictAccents": false,
+      "audio": "Ich kenne den Mann.",
+      "explain": "kennen + den Mann (acusativo masculino)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Quiero la ciudad.",
+      "accept": ["Ich liebe die Stadt"],
+      "hintWords": ["ich liebe die Stadt"],
+      "strictAccents": false,
+      "audio": "Ich liebe die Stadt.",
+      "explain": "die Stadt no cambia en acusativo, por ser femenino."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Completa con el verbo correcto",
+      "text": "Ich ___ den Roman. Ich ___ ein Problem.",
+      "blanks": [{ "accept": ["kenne"] }, { "accept": ["habe"] }],
+      "bank": ["kenne", "habe", "liebe"],
+      "explain": "kenne (conozco) con Roman; habe (tengo) con Problem."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Encuentro el libro»",
+      "tokens": ["Buch", "Ich", "das", "finde"],
+      "answer": ["Ich", "finde", "das", "Buch"],
+      "audio": "Ich finde das Buch.",
+      "explain": "das Buch no cambia en acusativo, por ser neutro."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["acusativo"],
+      "difficulty": 1,
+      "prompt": "Ich liebe den Roman.",
+      "accept": ["Quiero la novela.", "Amo la novela."],
+      "strictAccents": false,
+      "audio": "Ich liebe den Roman.",
+      "explain": "den Roman: Roman es masculino, así que cambia en acusativo."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Kennst du den Mann?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich kenne den Mann."], "hint": "responde que sí, que conoces al hombre" },
+        { "who": "Anna", "text": "Toll!", "speak": true }
+      ],
+      "explain": "kennen es un verbo regular: kennst du, ich kenne, sin cambio de vocal."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "speak": "Ich kenne den Mann.",
+      "mode": "write",
+      "accept": ["Ich kenne den Mann"],
+      "showTextAfter": true,
+      "explain": "Ich kenne den Mann = conozco al hombre."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "speak": "Ich liebe die Stadt.",
+      "mode": "choose",
+      "options": ["Ich liebe die Stadt.", "Ich kenne die Stadt.", "Ich finde die Stadt."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "lieben, kennen y finden suenan distintos: escucha bien el verbo."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "speak": "Ich kenne den Mann, und ich liebe die Stadt.",
+      "es": "Conozco al hombre, y quiero la ciudad.",
+      "ipa": "/ɪç ˈkɛnə deːn man ʊnt ɪç ˈliːbə diː ʃtat/",
+      "esApprox": "«ich KE-ne den man unt ich LÍ-be di shtat»",
+      "focus": "kennen y kaufen empiezan igual pero terminan distinto: no las confundas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "speak": "Ich finde das Buch, und ich habe ein Problem.",
+      "es": "Encuentro el libro, y tengo un problema.",
+      "ipa": "/ɪç ˈfɪndə das buːx ʊnt ɪç ˈhaːbə aɪ̯n pʁoˈbleːm/",
+      "esApprox": "«ich FIN-de das buj unt ich HÁ-be ain pro-BLÉM»",
+      "focus": "Problem lleva el acento en la última sílaba, igual que en español: pro-BLÉM.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si conoces al hombre. Responde que sí, que lo conoces.",
+      "modelAnswer": "Ja, ich kenne den Mann.",
+      "alsoValid": ["Ich kenne den Mann."],
+      "speak": "Ja, ich kenne den Mann.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada verbo: ¿rige acusativo directo o no?",
+      "buckets": ["Rige acusativo", "No rige acusativo directo"],
+      "items": [
+        { "text": "kennen", "bucket": 0 },
+        { "text": "lieben", "bucket": 0 },
+        { "text": "finden", "bucket": 0 },
+        { "text": "sein", "bucket": 1 }
+      ],
+      "explain": "sein no lleva objeto directo: es un verbo copulativo, no transitivo."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich kenne der Mann.",
+      "accept": ["Ich kenne den Mann"],
+      "audio": "Ich kenne den Mann.",
+      "explain": "Mann es el objeto directo de kennen: der debe cambiar a den."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "kennen", "es": "conocer", "esApprox": "«KE-nen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "lieben", "es": "querer, amar", "esApprox": "«LÍ-ben»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "finden", "es": "encontrar", "esApprox": "«FIN-den»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Roman", "es": "la novela", "esApprox": "«ro-MÁN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Problem", "es": "el problema", "esApprox": "«pro-BLÉM»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Ich kenne den Mann, und ich liebe die Stadt.", "es": "Conozco al hombre, y quiero la ciudad.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Ich finde das Buch, und ich habe ein Problem.", "es": "Encuentro el libro, y tengo un problema.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Ich kenne den Mann.", "es": "Conozco al hombre.", "from": "e7" }
+  ]
+}

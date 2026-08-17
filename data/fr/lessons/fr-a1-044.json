@@ -1,0 +1,271 @@
+{
+  "id": "fr-a1-044",
+  "lang": "fr",
+  "level": "A1",
+  "order": 44,
+  "title": "Devoir y cómo hablar de obligaciones",
+  "objectives": [
+    "Conjugar devoir (deber) en presente",
+    "Usar devoir + infinitivo para expresar una obligación personal",
+    "Usar il faut + infinitivo para expresar una obligación impersonal o general"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos formas de decir que hay que hacer algo",
+      "body": "Para una obligación **personal**, se usa **devoir** + infinitivo: je dois travailler (tengo que trabajar). Para una obligación **general o impersonal**, sin decir quién concretamente, se usa **il faut** + infinitivo (siempre invariable, no se conjuga en otras personas).",
+      "examples": [
+        { "target": "Je dois finir ce travail.", "es": "Tengo que terminar este trabajo.", "note": "obligación personal, devoir" },
+        { "target": "Il faut faire attention.", "es": "Hay que tener cuidado.", "note": "obligación general, il faut" },
+        { "target": "Il ne faut pas être en retard.", "es": "No hay que llegar tarde.", "note": "il ne faut pas + infinitivo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Devoir en presente",
+      "headers": ["Persona", "Forma", "Aproximación"],
+      "rows": [
+        ["je", "dois", "«DUÁ»"],
+        ["tu", "dois", "«DUÁ»"],
+        ["il / elle / on", "doit", "«DUÁ»"],
+        ["nous", "devons", "«de-VÓN»"],
+        ["vous", "devez", "«de-VÉ»"],
+        ["ils / elles", "doivent", "«DUÁV»"]
+      ],
+      "note": "Il faut nunca cambia de forma, sea quien sea el sujeto real de la obligación."
+    },
+    {
+      "type": "contrast",
+      "title": "Il faut no lleva sujeto personal",
+      "items": [
+        { "wrong": "Je faut travailler.", "right": "Il faut travailler.", "why": "Il faut es una expresión impersonal fija, como il pleut (clase 1). Il no se refiere a nadie en concreto; nunca se sustituye por je, tu, nous..." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Avoir besoin de (necesitar) es otra forma muy frecuente de hablar de necesidad, distinta de devoir: j'ai besoin de dormir (necesito dormir) se centra en la necesidad, mientras que je dois dormir se centra más en la obligación."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "devoir", "es": "deber, tener que", "ipa": "/də.vwaʁ/", "esApprox": "«de-VUÁR»", "pos": "verbo", "gender": null, "example": { "target": "Je dois finir ce travail.", "es": "Tengo que terminar este trabajo." } },
+    { "id": "v2", "target": "il faut", "es": "hay que, hace falta", "ipa": "/il fo/", "esApprox": "«il FÓ»", "pos": "expresión", "gender": null, "example": { "target": "Il faut faire attention.", "es": "Hay que tener cuidado." } },
+    { "id": "v3", "target": "il ne faut pas", "es": "no hay que, no se debe", "ipa": "/il nə fo pa/", "esApprox": "«il ne fo PA»", "pos": "expresión", "gender": null, "example": { "target": "Il ne faut pas être en retard.", "es": "No hay que llegar tarde." } },
+    { "id": "v4", "target": "je dois", "es": "debo, tengo que", "ipa": "/ʒə dwa/", "esApprox": "«ye DUÁ»", "pos": "expresión", "gender": null, "example": { "target": "Je dois partir.", "es": "Tengo que irme." } },
+    { "id": "v5", "target": "tu dois", "es": "debes, tienes que", "ipa": "/ty dwa/", "esApprox": "«tü DUÁ»", "pos": "expresión", "gender": null, "example": { "target": "Tu dois te reposer.", "es": "Tienes que descansar." } },
+    { "id": "v6", "target": "avoir besoin de", "es": "necesitar", "ipa": "/a.vwaʁ bə.zwɛ̃ də/", "esApprox": "«a-VUÁR be-ZUÉN de»", "pos": "expresión", "gender": null, "example": { "target": "J'ai besoin de dormir.", "es": "Necesito dormir." } },
+    { "id": "v7", "target": "c'est obligatoire", "es": "es obligatorio", "ipa": "/sɛ.t‿ɔ.bli.ɡa.twaʁ/", "esApprox": "«se-to-bli-ga-TUÁR»", "pos": "expresión", "gender": null, "example": { "target": "Ce n'est pas obligatoire.", "es": "No es obligatorio." } },
+    { "id": "v8", "target": "c'est interdit", "es": "está prohibido", "ipa": "/sɛ.t‿ɛ̃.tɛʁ.di/", "esApprox": "«se-ten-ter-DÍ»", "pos": "expresión", "gender": null, "example": { "target": "C'est interdit ici.", "es": "Está prohibido aquí." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["modales", "obligacion"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma de devoir para «nous»?",
+      "options": ["dois", "doit", "devons", "doivent"],
+      "answer": 2,
+      "explain": "Nous devons."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "¿Qué expresión usas para una obligación general, sin sujeto concreto?",
+      "options": ["je dois", "il faut", "tu dois", "nous devons"],
+      "answer": 1,
+      "explain": "Il faut es impersonal, no se refiere a nadie en concreto."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "statement": "Il faut se conjuga en otras personas, como je faux o tu fauts.",
+      "answer": false,
+      "explain": "Il faut es fijo: nunca cambia de forma."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas es de devoir, a diferencia de las demás?",
+      "options": ["dois", "peux", "veux", "dois"],
+      "answer": 1,
+      "explain": "Peux es de pouvoir; las otras son de devoir."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["avoir besoin de", "c'est obligatoire", "c'est interdit", "il ne faut pas"],
+      "right": ["no hay que", "necesitar", "es obligatorio", "está prohibido"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Avoir besoin de = necesitar, c'est obligatoire = es obligatorio, c'est interdit = está prohibido, il ne faut pas = no hay que."
+    },
+    {
+      "id": "e6",
+      "type": "conjugation",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "verb": "devoir",
+      "tense": "présent",
+      "prompt": "Conjuga «devoir» en presente",
+      "rows": [
+        { "person": "je", "accept": ["dois"] },
+        { "person": "tu", "accept": ["dois"] },
+        { "person": "il / elle", "accept": ["doit"] },
+        { "person": "nous", "accept": ["devons"] },
+        { "person": "vous", "accept": ["devez"] },
+        { "person": "ils / elles", "accept": ["doivent"] }
+      ],
+      "explain": "Devoir sigue un patrón parecido al de pouvoir."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Tengo que terminar este trabajo hoy.",
+      "accept": ["Je dois finir ce travail aujourd'hui"],
+      "hintWords": ["je dois", "finir"],
+      "strictAccents": false,
+      "audio": "Je dois finir ce travail aujourd'hui.",
+      "explain": "Je dois + infinitivo."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Completa con il faut o il ne faut pas",
+      "text": "___ faire attention, mais ___ avoir peur.",
+      "blanks": [{ "accept": ["Il faut"] }, { "accept": ["il ne faut pas"] }],
+      "bank": ["Il faut", "il ne faut pas", "il faut pas"],
+      "explain": "Il faut (obligación) frente a il ne faut pas (prohibición)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Necesito descansar»",
+      "tokens": ["besoin", "J'ai", "de", "me reposer"],
+      "answer": ["J'ai", "besoin", "de", "me reposer"],
+      "audio": "J'ai besoin de me reposer.",
+      "explain": "Avoir besoin de + infinitivo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["obligacion"],
+      "difficulty": 1,
+      "prompt": "Il faut faire attention, c'est interdit ici.",
+      "accept": ["Hay que tener cuidado, está prohibido aquí."],
+      "strictAccents": false,
+      "audio": "Il faut faire attention, c'est interdit ici.",
+      "explain": "Il faut y c'est interdit, dos expresiones de obligación/prohibición."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre lo que tienes que hacer",
+      "turns": [
+        { "who": "Léa", "text": "Tu dois travailler ce week-end ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je dois travailler.", "Non, je ne dois pas travailler."], "hint": "di si tienes que trabajar" },
+        { "who": "Léa", "text": "D'accord, on se voit après alors !", "speak": true }
+      ],
+      "explain": "Tu dois / je dois: la misma obligación, distinta persona."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "speak": "Il faut faire attention, ce n'est pas obligatoire mais c'est important.",
+      "mode": "write",
+      "accept": ["Il faut faire attention, ce n'est pas obligatoire mais c'est important"],
+      "showTextAfter": true,
+      "explain": "Il faut, obligatoire e important en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "speak": "vous devez",
+      "mode": "choose",
+      "options": ["vous devez", "vous pouvez", "vous voulez", "vous devons"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Vous devez es la forma correcta de devoir para vous."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["modales", "obligacion"],
+      "difficulty": 3,
+      "speak": "Je dois travailler, mais il faut aussi se reposer un peu.",
+      "es": "Tengo que trabajar, pero también hay que descansar un poco.",
+      "ipa": "/ʒə dwa tʁa.va.je mɛ il fo o.si sə ʁə.po.ze œ̃ pø/",
+      "esApprox": "«ye DUÁ tra-va-YÉ me il FÓ o-SÍ se re-po-ZÉ un PEU»",
+      "focus": "Devoir (obligación personal) frente a il faut (obligación general) en la misma frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Di algo que tienes que hacer hoy y algo que hay que hacer siempre (una regla general).",
+      "modelAnswer": "Je dois travailler et il faut toujours faire attention.",
+      "alsoValid": ["Je dois finir mon travail, il faut être patient."],
+      "speak": "Je dois travailler et il faut toujours faire attention.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "¿Es una obligación personal (devoir) o general (il faut)?",
+      "buckets": ["Personal", "General"],
+      "items": [
+        { "text": "je dois", "bucket": 0 },
+        { "text": "il faut", "bucket": 1 },
+        { "text": "tu dois", "bucket": 0 },
+        { "text": "il ne faut pas", "bucket": 1 },
+        { "text": "nous devons", "bucket": 0 }
+      ],
+      "explain": "Devoir cambia con el sujeto; il faut es siempre impersonal."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Hay un error: devoir no puede llevar sujeto «je» con la forma de il faut. Corrige la frase entera.",
+      "wrong": "Je faut travailler.",
+      "accept": ["Je dois travailler"],
+      "audio": "Je dois travailler.",
+      "explain": "Il faut es fijo; con je se usa devoir: je dois."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "devoir", "es": "deber, tener que", "esApprox": "«de-VUÁR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "il faut", "es": "hay que", "esApprox": "«il FÓ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "il ne faut pas", "es": "no hay que", "esApprox": "«il ne fo PA»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "avoir besoin de", "es": "necesitar", "esApprox": "«a-VUÁR be-ZUÉN de»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "c'est obligatoire", "es": "es obligatorio", "esApprox": "«se-to-bli-ga-TUÁR»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "c'est interdit", "es": "está prohibido", "esApprox": "«se-ten-ter-DÍ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je dois finir ce travail aujourd'hui.", "es": "Tengo que terminar este trabajo hoy.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai besoin de me reposer.", "es": "Necesito descansar.", "from": "e9" },
+    { "id": "s9", "kind": "phrase", "target": "Je dois travailler, mais il faut aussi se reposer un peu.", "es": "Tengo que trabajar, pero también hay que descansar un poco.", "from": "e14" }
+  ]
+}

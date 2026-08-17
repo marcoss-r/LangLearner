@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-106",
+  "lang": "fr",
+  "level": "A2",
+  "order": 106,
+  "title": "Describir un lugar o una persona en pasado",
+  "objectives": [
+    "Describir cómo era un lugar o una persona usando el imparfait (clases A2-101 a A2-105)",
+    "Combinar la descripción física (clase A1-27) con el imparfait",
+    "Mantener una descripción larga y coherente, toda en el mismo tiempo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Describir en pasado, con naturalidad",
+      "body": "Para describir un lugar o una persona que ya no es como era, usa el imparfait de principio a fin: es un solo bloque descriptivo, sin acciones puntuales que lo interrumpan.",
+      "examples": [
+        { "target": "Ma grand-mère était petite, elle avait les cheveux blancs, et elle portait toujours des lunettes.", "es": "Mi abuela era bajita, tenía el pelo blanco, y siempre llevaba gafas.", "note": "todo en imparfait: una sola foto fija" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Describir un lugar en pasado",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["Il y avait...", "Había..."],
+        ["C'était petit / grand / calme.", "Era pequeño / grande / tranquilo."],
+        ["On voyait...", "Se veía..."],
+        ["Ça sentait...", "Olía a..."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Il y avait es el imparfait de il y a (clase A1-49): funciona exactamente igual, pero en pasado. Il y avait un café au coin de la rue (había un café en la esquina)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "il y avait", "es": "había", "ipa": "/il i a.vɛ/", "esApprox": "«il i a-VE»", "pos": "expresión", "gender": null, "example": { "target": "Il y avait un café au coin de la rue.", "es": "Había un café en la esquina." } },
+    { "id": "v2", "target": "c'était", "es": "era, estaba", "ipa": "/sɛ.tɛ/", "esApprox": "«se-TE»", "pos": "expresión", "gender": null, "example": { "target": "C'était très calme.", "es": "Era muy tranquilo." } },
+    { "id": "v3", "target": "on voyait", "es": "se veía", "ipa": "/ɔ̃ vwa.jɛ/", "esApprox": "«on vuá-YE»", "pos": "expresión", "gender": null, "example": { "target": "On voyait la mer depuis la fenêtre.", "es": "Se veía el mar desde la ventana." } },
+    { "id": "v4", "target": "ça sentait", "es": "olía a", "ipa": "/sa sɑ̃.tɛ/", "esApprox": "«sa san-TE»", "pos": "expresión", "gender": null, "example": { "target": "Ça sentait le pain frais.", "es": "Olía a pan fresco." } },
+    { "id": "v5", "target": "des lunettes", "es": "unas gafas", "ipa": "/de ly.nɛt/", "esApprox": "«de lü-NET»", "pos": "sustantivo", "gender": "f", "example": { "target": "Il portait des lunettes.", "es": "Llevaba gafas." } },
+    { "id": "v6", "target": "blanc / blanche", "es": "blanco/a", "ipa": "/blɑ̃ blɑ̃ʃ/", "esApprox": "«BLAN BLANSH»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Elle avait les cheveux blancs.", "es": "Tenía el pelo blanco." } },
+    { "id": "v7", "target": "calme", "es": "tranquilo/a", "ipa": "/kalm/", "esApprox": "«KALM»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "Le quartier était très calme.", "es": "El barrio era muy tranquilo." } },
+    { "id": "v8", "target": "un quartier", "es": "un barrio", "ipa": "/œ̃ kaʁ.tje/", "esApprox": "«un kar-TIÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'habitais dans un petit quartier.", "es": "Vivía en un barrio pequeño." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["imparfait", "descripcion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «había un café en la esquina»?",
+      "options": ["Il y a un café au coin de la rue.", "Il y avait un café au coin de la rue.", "Il y a eu un café au coin de la rue.", "Il était un café au coin de la rue."],
+      "answer": 1,
+      "explain": "Il y avait: imparfait de il y a."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["descripcion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «se veía el mar desde la ventana»?",
+      "options": ["On a vu la mer depuis la fenêtre.", "On voyait la mer depuis la fenêtre.", "On voit la mer depuis la fenêtre.", "On va voir la mer depuis la fenêtre."],
+      "answer": 1,
+      "explain": "On voyait: imparfait, descripción continua."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["imparfait", "descripcion"],
+      "difficulty": 2,
+      "statement": "Una descripción larga de un lugar o una persona suele ir toda en imparfait.",
+      "answer": true,
+      "explain": "Es un solo bloque descriptivo, sin acciones puntuales."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["descripcion"],
+      "difficulty": 2,
+      "statement": "C'était es el imparfait de c'est.",
+      "answer": true,
+      "explain": "C'est → c'était, igual que il y a → il y avait."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["descripcion"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["il y avait", "on voyait", "ça sentait", "un quartier"],
+      "right": ["olía a", "había", "un barrio", "se veía"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Il y avait = había, on voyait = se veía, ça sentait = olía a, quartier = barrio."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["imparfait", "descripcion"],
+      "difficulty": 2,
+      "prompt": "Mi abuela era bajita, tenía el pelo blanco, y siempre llevaba gafas.",
+      "accept": ["Ma grand-mère était petite, elle avait les cheveux blancs, et elle portait toujours des lunettes"],
+      "hintWords": ["ma grand-mère était petite", "elle avait les cheveux blancs", "elle portait toujours des lunettes"],
+      "strictAccents": true,
+      "audio": "Ma grand-mère était petite, elle avait les cheveux blancs, et elle portait toujours des lunettes.",
+      "explain": "Una descripción completa, toda en imparfait."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["imparfait", "descripcion"],
+      "difficulty": 2,
+      "prompt": "Había un café en la esquina, y olía a pan fresco.",
+      "accept": ["Il y avait un café au coin de la rue, et ça sentait le pain frais"],
+      "hintWords": ["il y avait un café au coin de la rue", "ça sentait le pain frais"],
+      "strictAccents": true,
+      "audio": "Il y avait un café au coin de la rue, et ça sentait le pain frais.",
+      "explain": "Il y avait + ça sentait, dos descripciones en imparfait."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["descripcion"],
+      "difficulty": 2,
+      "prompt": "Completa con el imparfait correcto",
+      "text": "Le quartier ___ très calme, et on ___ la mer depuis la fenêtre.",
+      "blanks": [{ "accept": ["était"] }, { "accept": ["voyait"] }],
+      "bank": ["était", "voyait", "est"],
+      "explain": "Était (c'était) + voyait (on voyait), ambos en imparfait."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["descripcion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Vivía en un barrio pequeño y tranquilo»",
+      "tokens": ["dans un petit quartier calme", "J'habitais"],
+      "answer": ["J'habitais", "dans un petit quartier calme"],
+      "audio": "J'habitais dans un petit quartier calme.",
+      "explain": "J'habitais + dans un petit quartier calme."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["imparfait", "descripcion"],
+      "difficulty": 2,
+      "prompt": "C'était un petit village calme, il y avait une seule boulangerie, et ça sentait toujours le pain chaud.",
+      "accept": ["Era un pueblo pequeño y tranquilo, había una única panadería, y siempre olía a pan caliente."],
+      "strictAccents": false,
+      "audio": "C'était un petit village calme, il y avait une seule boulangerie, et ça sentait toujours le pain chaud.",
+      "explain": "Tres descripciones seguidas, todas en imparfait."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["descripcion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación describiendo a alguien",
+      "turns": [
+        { "who": "Léa", "text": "Elle était comment, ta grand-mère ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Elle était petite et elle portait des lunettes.", "Elle avait les cheveux blancs et elle était très gentille."], "hint": "describe con imparfait" },
+        { "who": "Léa", "text": "Ah, elle avait l'air adorable !", "speak": true }
+      ],
+      "explain": "Elle était comment...? se responde con una descripción en imparfait."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["imparfait", "descripcion"],
+      "difficulty": 2,
+      "speak": "Le quartier était calme, il y avait un café au coin de la rue, et ça sentait le pain frais.",
+      "mode": "write",
+      "accept": ["Le quartier était calme, il y avait un café au coin de la rue, et ça sentait le pain frais"],
+      "showTextAfter": true,
+      "explain": "Descripción completa de un barrio, toda en imparfait."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["descripcion"],
+      "difficulty": 1,
+      "speak": "il y avait",
+      "mode": "choose",
+      "options": ["il y a", "il y avait", "il y a eu", "il y aura"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Il y avait = había (imparfait)."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["imparfait", "descripcion"],
+      "difficulty": 3,
+      "speak": "Ma grand-mère était petite, elle avait les cheveux blancs, elle portait toujours des lunettes, et elle était toujours souriante.",
+      "es": "Mi abuela era bajita, tenía el pelo blanco, siempre llevaba gafas, y siempre estaba sonriente.",
+      "ipa": "/ma ɡʁɑ̃d.mɛʁ e.tɛ pə.tit ɛ.l‿a.vɛ le ʃə.vø blɑ̃ ɛl pɔʁ.tɛ tu.ʒuʁ de ly.nɛt e ɛ.l‿e.tɛ tu.ʒuʁ su.ʁjɑ̃t/",
+      "esApprox": "«ma GRAND-mer e-TE pe-TÍT e-la-VE le she-VEU BLAN el por-TE tu-YUR de lü-NET e-le-TE tu-YUR su-RIANT»",
+      "focus": "Una descripción física completa de cuatro rasgos, toda en imparfait.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["imparfait", "descripcion"],
+      "difficulty": 2,
+      "prompt": "Describe un lugar de tu infancia: cómo era y qué había.",
+      "modelAnswer": "C'était un petit quartier calme, et il y avait un parc près de chez moi.",
+      "alsoValid": ["Ma maison était grande, et on voyait la mer depuis ma chambre."],
+      "speak": "C'était un petit quartier calme, et il y avait un parc près de chez moi.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["descripcion"],
+      "difficulty": 2,
+      "prompt": "¿Es una descripción de lugar o de persona?",
+      "buckets": ["Lugar", "Persona"],
+      "items": [
+        { "text": "Il y avait un café au coin de la rue.", "bucket": 0 },
+        { "text": "Elle portait des lunettes.", "bucket": 1 },
+        { "text": "C'était très calme.", "bucket": 0 },
+        { "text": "Il avait les cheveux blancs.", "bucket": 1 }
+      ],
+      "explain": "Repaso combinado de descripciones de lugares y personas."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["imparfait", "descripcion"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal. Corrige la frase entera.",
+      "wrong": "Il y a eu un café au coin de la rue.",
+      "accept": ["Il y avait un café au coin de la rue"],
+      "audio": "Il y avait un café au coin de la rue.",
+      "explain": "Una descripción de fondo va en imparfait (il y avait), no en passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "il y avait", "es": "había", "esApprox": "«il i a-VE»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "c'était", "es": "era, estaba", "esApprox": "«se-TE»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "on voyait", "es": "se veía", "esApprox": "«on vuá-YE»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "ça sentait", "es": "olía a", "esApprox": "«sa san-TE»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "un quartier", "es": "un barrio", "esApprox": "«un kar-TIÉ»", "from": "v8" },
+    { "id": "s6", "kind": "phrase", "target": "Ma grand-mère était petite, elle avait les cheveux blancs, et elle portait toujours des lunettes.", "es": "Mi abuela era bajita, tenía el pelo blanco, y siempre llevaba gafas.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Il y avait un café au coin de la rue, et ça sentait le pain frais.", "es": "Había un café en la esquina, y olía a pan fresco.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "J'habitais dans un petit quartier calme.", "es": "Vivía en un barrio pequeño y tranquilo.", "from": "e9" }
+  ]
+}

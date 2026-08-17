@@ -1,0 +1,250 @@
+{
+  "id": "fr-a2-124",
+  "lang": "fr",
+  "level": "A2",
+  "order": 124,
+  "title": "Repaso activo IX (clases 113–123)",
+  "objectives": [
+    "Repasar los pronombres en, y, y su combinación, y los pronombres tónicos",
+    "Repasar los relativos qui, que, où, y los demostrativos ce/cet/cette/ces y celui/celle/ceux/celles",
+    "Repasar los indefinidos y las fórmulas para describir objetos sin repetir el sustantivo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque J (pronombres y sustitución)",
+      "body": "Sin gramática nueva. Este bloque ha sido muy denso en pronombres: en, y, tónicos, relativos, demostrativos. Repasa las tablas con calma antes de pasar al futuro."
+    },
+    {
+      "type": "table",
+      "title": "Resumen de pronombres",
+      "headers": ["Pronombre", "Sustituye a...", "Ejemplo"],
+      "rows": [
+        ["en", "du/de la/de l'/des + cosa, o de + cosa", "j'en ai deux, j'en parle"],
+        ["y", "à/au/à la/aux + lugar o cosa", "j'y vais, j'y pense"],
+        ["moi/toi/lui...", "sujeto tras preposición o énfasis", "avec moi, chez lui"],
+        ["qui/que", "sujeto/complemento de una frase relativa", "un ami qui..., un livre que..."],
+        ["où", "lugar o tiempo en una frase relativa", "le quartier où..., le jour où..."],
+        ["celui/celle/ceux/celles", "un sustantivo ya mencionado", "celui de Léa"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Truco para no confundir en / y",
+      "body": "En sustituye a de + cosa (cantidad, tema): j'en ai, j'en parle. Y sustituye a à + lugar o cosa (destino, pensamiento): j'y vais, j'y pense. Si dudas, piensa en la preposición que llevaría el verbo: parler de → en, penser à → y."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "en", "es": "de eso, de ello (pronombre)", "ipa": "/ɑ̃/", "esApprox": "«AN»", "pos": "pronombre", "gender": null },
+    { "id": "v2", "target": "y", "es": "allí, a eso (pronombre)", "ipa": "/i/", "esApprox": "«I»", "pos": "pronombre", "gender": null },
+    { "id": "v3", "target": "il y en a", "es": "hay (de eso)", "ipa": "/il i.ɑ̃.n‿a/", "esApprox": "«il yan-NA»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "chaque", "es": "cada", "ipa": "/ʃak/", "esApprox": "«SHAK»", "pos": "adjetivo", "gender": null },
+    { "id": "v5", "target": "quelques-uns / quelques-unes", "es": "algunos/algunas (de eso)", "ipa": "/kɛl.kə.zœ̃ kɛl.kə.zyn/", "esApprox": "«kel-ke-ZUN kel-ke-ZÜN»", "pos": "pronombre", "gender": null },
+    { "id": "v6", "target": "celui / celle", "es": "el (de) / la (de)", "ipa": "/sə.lɥi sɛl/", "esApprox": "«se-LÜÍ SEL»", "pos": "pronombre", "gender": null },
+    { "id": "v7", "target": "servir à", "es": "servir para", "ipa": "/sɛʁ.viʁ a/", "esApprox": "«ser-VIR a»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "aucun / aucune", "es": "ninguno/a", "ipa": "/o.kœ̃ o.kyn/", "esApprox": "«o-KUN o-KÜN»", "pos": "adjetivo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "¿Cómo respondes «sí, tengo dos» a «tu as des frères ?»?",
+      "options": ["Oui, je le veux.", "Oui, j'en ai deux.", "Oui, j'y ai deux.", "Oui, je veux ça."],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-113."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres", "y"],
+      "difficulty": 2,
+      "prompt": "¿Cómo respondes «sí, voy» a «tu vas au travail ?»?",
+      "options": ["Oui, je le vais.", "Oui, j'y vais.", "Oui, j'en vais.", "Oui, je vais ça."],
+      "answer": 1,
+      "explain": "Repaso de la clase A2-114."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "statement": "Después de qui va directamente un verbo, sin otro sujeto.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-117."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "statement": "Chaque puede llevar artículo delante del sustantivo.",
+      "answer": false,
+      "explain": "Repaso de la clase A2-121."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronombres-tonicos"],
+      "difficulty": 2,
+      "prompt": "Une cada sujeto con su pronombre tónico",
+      "left": ["je", "tu", "il", "ils"],
+      "right": ["toi", "eux", "moi", "lui"],
+      "answer": [2, 0, 3, 1],
+      "explain": "Repaso de la clase A2-116."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "prompt": "Este libro es interesante, pero prefiero el de Léa.",
+      "accept": ["Ce livre est intéressant, mais je préfère celui de Léa"],
+      "hintWords": ["ce livre est intéressant", "je préfère celui de Léa"],
+      "strictAccents": true,
+      "audio": "Ce livre est intéressant, mais je préfère celui de Léa.",
+      "explain": "Repaso de las clases A2-119 y A2-120."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Tengo un amigo que vive en el barrio donde nací.",
+      "accept": ["J'ai un ami qui habite dans le quartier où je suis né"],
+      "hintWords": ["j'ai un ami qui habite", "dans le quartier où je suis né"],
+      "strictAccents": true,
+      "audio": "J'ai un ami qui habite dans le quartier où je suis né.",
+      "explain": "Repaso de las clases A2-117 y A2-118."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de tout",
+      "text": "___ les jours, je lis ___ pages.",
+      "blanks": [{ "accept": ["Tous"] }, { "accept": ["quelques"] }],
+      "bank": ["Tous", "quelques", "chaque"],
+      "explain": "Repaso de la clase A2-121."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hay pan»",
+      "tokens": ["du pain", "il y en a"],
+      "answer": ["il y en a", "du pain"],
+      "audio": "Il y en a, du pain.",
+      "explain": "Repaso de la clase A2-115."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "C'est fait en métal, ça sert à couper le pain, et on le trouve dans la cuisine.",
+      "accept": ["Está hecho de metal, sirve para cortar el pan, y se encuentra en la cocina."],
+      "strictAccents": false,
+      "audio": "C'est fait en métal, ça sert à couper le pain, et on le trouve dans la cuisine.",
+      "explain": "Repaso de la clase A2-123."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronombres", "en"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus amigos",
+      "turns": [
+        { "who": "Léa", "text": "Tu as des amis à Paris ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'en ai quelques-uns.", "Non, je n'en ai aucun."], "hint": "usa en + quelques-uns o aucun" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Repaso de la clase A2-122."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "speak": "J'en ai besoin pour mon travail, et j'y pense souvent.",
+      "mode": "write",
+      "accept": ["J'en ai besoin pour mon travail, et j'y pense souvent"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de en e y."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["demostrativos"],
+      "difficulty": 1,
+      "speak": "cet homme",
+      "mode": "choose",
+      "options": ["ce homme", "cet homme", "cette homme", "ces homme"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-119."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["relativos", "demostrativos"],
+      "difficulty": 3,
+      "speak": "J'ai un ami qui habite à Paris, qui parle trois langues, et que je vois souvent.",
+      "es": "Tengo un amigo que vive en París, que habla tres idiomas, y que veo a menudo.",
+      "ipa": "/ʒe œ̃.n‿a.mi ki a.bit a pa.ʁi ki paʁl tʁwa lɑ̃ɡ e kə ʒə vwa su.vɑ̃/",
+      "esApprox": "«ye un-na-MÍ ki a-BIT a pa-RÍ ki PARL truá LANG e ke ye VUÁ su-VAN»",
+      "focus": "Repaso de qui/que en una descripción completa (clase A2-117).",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["vocabulario"],
+      "difficulty": 2,
+      "prompt": "Describe un objeto sin decir su nombre, para que alguien lo adivine.",
+      "modelAnswer": "C'est petit, c'est fait en plastique, et ça sert à écrire.",
+      "alsoValid": ["C'est fait en bois, et ça sert à manger."],
+      "speak": "C'est petit, c'est fait en plastique, et ça sert à écrire.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Y sustituye a un lugar o en sustituye a una cantidad?",
+      "buckets": ["y (lugar)", "en (cantidad)"],
+      "items": [
+        { "text": "j'y vais", "bucket": 0 },
+        { "text": "j'en ai deux", "bucket": 1 },
+        { "text": "j'y suis allé", "bucket": 0 },
+        { "text": "j'en veux", "bucket": 1 }
+      ],
+      "explain": "Repaso combinado de las clases A2-113 y A2-114."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "Hay un error: chaque no lleva artículo. Corrige la frase entera.",
+      "wrong": "Chaque les jours, je travaille.",
+      "accept": ["Chaque jour, je travaille"],
+      "audio": "Chaque jour, je travaille.",
+      "explain": "Repaso de la clase A2-121."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "en", "es": "de eso, de ello (pronombre)", "esApprox": "«AN»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "y", "es": "allí, a eso (pronombre)", "esApprox": "«I»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "il y en a", "es": "hay (de eso)", "esApprox": "«il yan-NA»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "chaque", "es": "cada", "esApprox": "«SHAK»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "quelques-uns / quelques-unes", "es": "algunos/algunas (de eso)", "esApprox": "«kel-ke-ZUN kel-ke-ZÜN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "celui / celle", "es": "el (de) / la (de)", "esApprox": "«se-LÜÍ SEL»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "servir à", "es": "servir para", "esApprox": "«ser-VIR a»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "aucun / aucune", "es": "ninguno/a", "esApprox": "«o-KUN o-KÜN»", "from": "v8" }
+  ]
+}

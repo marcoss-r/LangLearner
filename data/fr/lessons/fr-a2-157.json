@@ -1,0 +1,256 @@
+{
+  "id": "fr-a2-157",
+  "lang": "fr",
+  "level": "A2",
+  "order": 157,
+  "title": "Pedir permiso y disculparte",
+  "objectives": [
+    "Aprender fórmulas para pedir permiso: je peux, ça vous dérange si",
+    "Aprender fórmulas para disculparte: je suis désolé, je m'excuse",
+    "Practicar una conversación pidiendo permiso y disculpándote"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Pedir permiso y disculparse",
+      "body": "Sin gramática nueva. Je peux + infinitivo para pedir permiso directo; ça vous dérange si + presente, para preguntar con más cuidado. Para disculparte: je suis désolé, je m'excuse.",
+      "examples": [
+        { "target": "Ça vous dérange si j'ouvre la fenêtre ? Je suis désolé, il fait un peu chaud.", "es": "¿Le importa si abro la ventana? Lo siento, hace un poco de calor.", "note": "ça vous dérange si + presente" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Pedir permiso",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["je peux + infinitivo ?", "¿puedo...?"],
+        ["ça vous/te dérange si...", "¿le/te importa si...?"],
+        ["vous permettez ?", "¿me permite?"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Disculparse",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["je suis désolé(e)", "lo siento"],
+        ["je m'excuse", "me disculpo, perdón"],
+        ["c'est de ma faute", "es culpa mía"],
+        ["je ne l'ai pas fait exprès", "no lo hice a propósito"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je peux ?", "es": "¿puedo?", "ipa": "/ʒə pø/", "esApprox": "«ye PÖ»", "pos": "verbo", "gender": null, "example": { "target": "Je peux ouvrir la fenêtre ?", "es": "¿Puedo abrir la ventana?" } },
+    { "id": "v2", "target": "ça vous dérange si...", "es": "¿le importa si...?", "ipa": "/sa vu de.ʁɑ̃ʒ si/", "esApprox": "«sa vu de-RANSH si»", "pos": "expresión", "gender": null, "example": { "target": "Ça vous dérange si j'ouvre la fenêtre ?", "es": "¿Le importa si abro la ventana?" } },
+    { "id": "v3", "target": "vous permettez ?", "es": "¿me permite?", "ipa": "/vu pɛʁ.mɛ.te/", "esApprox": "«vu per-me-TÉ»", "pos": "expresión", "gender": null, "example": { "target": "Vous permettez que je m'assoie ?", "es": "¿Me permite que me siente?" } },
+    { "id": "v4", "target": "je suis désolé / désolée", "es": "lo siento", "ipa": "/ʒə sɥi de.zɔ.le/", "esApprox": "«ye süí de-zo-LÉ»", "pos": "expresión", "gender": null, "example": { "target": "Je suis désolé pour le retard.", "es": "Siento el retraso." } },
+    { "id": "v5", "target": "je m'excuse", "es": "me disculpo, perdón", "ipa": "/ʒə mɛks.kyz/", "esApprox": "«ye meks-KÜZ»", "pos": "expresión", "gender": null, "example": { "target": "Je m'excuse pour hier soir.", "es": "Me disculpo por lo de anoche." } },
+    { "id": "v6", "target": "c'est de ma faute", "es": "es culpa mía", "ipa": "/sɛ də ma fot/", "esApprox": "«se de ma FOT»", "pos": "expresión", "gender": null, "example": { "target": "C'est de ma faute, je suis désolé.", "es": "Es culpa mía, lo siento." } },
+    { "id": "v7", "target": "je ne l'ai pas fait exprès", "es": "no lo hice a propósito", "ipa": "/ʒə nə lɛ pa fɛ ɛks.pʁɛ/", "esApprox": "«ye ne le pa fe eks-PRE»", "pos": "expresión", "gender": null, "example": { "target": "Je ne l'ai pas fait exprès, je suis désolé.", "es": "No lo hice a propósito, lo siento." } },
+    { "id": "v8", "target": "ça ne fait rien", "es": "no pasa nada", "ipa": "/sa nə fɛ ʁjɛ̃/", "esApprox": "«sa ne fe RIEN»", "pos": "expresión", "gender": null, "example": { "target": "Ça ne fait rien, ce n'est pas grave.", "es": "No pasa nada, no es grave." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «¿le importa si abro la ventana?»?",
+      "options": ["Ça vous dérange si j'ouvre la fenêtre ?", "Je peux la fenêtre ?", "Vous permettez la fenêtre ?", "C'est de ma faute la fenêtre."],
+      "answer": 0,
+      "explain": "Ça vous dérange si + presente."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «je ne l'ai pas fait exprès»?",
+      "options": ["lo hice a propósito", "no lo hice a propósito", "no lo hice nunca", "lo haré pronto"],
+      "answer": 1,
+      "explain": "Je ne l'ai pas fait exprès = no lo hice a propósito."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "statement": "Ça ne fait rien se usa para aceptar una disculpa.",
+      "answer": true,
+      "explain": "Ça ne fait rien = no pasa nada, se usa para aceptar disculpas."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "statement": "Vous permettez ? es más formal que je peux ?",
+      "answer": true,
+      "explain": "Vous permettez ? es más formal y educado que je peux ?"
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["c'est de ma faute", "je m'excuse", "ça ne fait rien", "vous permettez ?"],
+      "right": ["¿me permite?", "es culpa mía", "me disculpo", "no pasa nada"],
+      "answer": [1, 2, 3, 0],
+      "explain": "C'est de ma faute = es culpa mía, je m'excuse = me disculpo, ça ne fait rien = no pasa nada, vous permettez = ¿me permite?"
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "¿Le importa si abro la ventana? Lo siento, hace un poco de calor.",
+      "accept": ["Ça vous dérange si j'ouvre la fenêtre ? Je suis désolé, il fait un peu chaud"],
+      "hintWords": ["ça vous dérange si j'ouvre la fenêtre", "je suis désolé, il fait un peu chaud"],
+      "strictAccents": true,
+      "audio": "Ça vous dérange si j'ouvre la fenêtre ? Je suis désolé, il fait un peu chaud.",
+      "explain": "Ça vous dérange si + presente."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "Es culpa mía, no lo hice a propósito.",
+      "accept": ["C'est de ma faute, je ne l'ai pas fait exprès"],
+      "hintWords": ["c'est de ma faute", "je ne l'ai pas fait exprès"],
+      "strictAccents": true,
+      "audio": "C'est de ma faute, je ne l'ai pas fait exprès.",
+      "explain": "C'est de ma faute + je ne l'ai pas fait exprès."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "Je suis ___ pour le retard. Ça ne ___ rien, ce n'est pas grave.",
+      "blanks": [{ "accept": ["désolé"] }, { "accept": ["fait"] }],
+      "bank": ["désolé", "fait", "excuse"],
+      "explain": "Je suis désolé + ça ne fait rien."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Puedo abrir la ventana?»",
+      "tokens": ["ouvrir la fenêtre", "Je peux"],
+      "answer": ["Je peux", "ouvrir la fenêtre"],
+      "audio": "Je peux ouvrir la fenêtre ?",
+      "explain": "Je peux + ouvrir la fenêtre."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "Je m'excuse pour hier soir, c'est de ma faute, je ne l'ai vraiment pas fait exprès.",
+      "accept": ["Me disculpo por lo de anoche, es culpa mía, de verdad no lo hice a propósito."],
+      "strictAccents": false,
+      "audio": "Je m'excuse pour hier soir, c'est de ma faute, je ne l'ai vraiment pas fait exprès.",
+      "explain": "Je m'excuse + c'est de ma faute + je ne l'ai pas fait exprès."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación pidiendo permiso",
+      "turns": [
+        { "who": "Léa", "text": "Tu veux quelque chose ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ça te dérange si j'ouvre la fenêtre ?", "Je peux ouvrir la fenêtre ?"], "hint": "usa je peux o ça te dérange si" },
+        { "who": "Léa", "text": "Non, pas du tout, vas-y.", "speak": true }
+      ],
+      "explain": "Para pedir permiso, se usa je peux o ça te dérange si."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "speak": "Ça vous dérange si j'ouvre la fenêtre ? Je suis désolé, et je m'excuse si je vous dérange.",
+      "mode": "write",
+      "accept": ["Ça vous dérange si j'ouvre la fenêtre ? Je suis désolé, et je m'excuse si je vous dérange"],
+      "showTextAfter": true,
+      "explain": "Petición de permiso combinada con disculpa."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 1,
+      "speak": "c'est de ma faute",
+      "mode": "choose",
+      "options": ["ça ne fait rien", "c'est de ma faute", "je m'excuse", "vous permettez"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "C'est de ma faute = es culpa mía."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 3,
+      "speak": "Ça vous dérange si j'ouvre la fenêtre ? Je suis désolé, c'est de ma faute, je ne l'ai pas fait exprès.",
+      "es": "¿Le importa si abro la ventana? Lo siento, es culpa mía, no lo hice a propósito.",
+      "ipa": "/sa vu de.ʁɑ̃ʒ si ʒuvʁ la fə.nɛtʁ ʒə sɥi de.zɔ.le sɛ də ma fot ʒə nə lɛ pa fɛ ɛks.pʁɛ/",
+      "esApprox": "«sa vu de-RANSH si SHUVR la fe-NETR ye süí de-zo-LÉ se de ma FOT ye ne le pa fe eks-PRE»",
+      "focus": "Pedir permiso y disculparse combinados en una situación.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "Pide permiso para hacer algo, y luego discúlpate por algo que hiciste.",
+      "modelAnswer": "Je peux ouvrir la fenêtre ? Et je suis désolé pour hier, c'était de ma faute.",
+      "alsoValid": ["Ça vous dérange si je m'assois ici ?"],
+      "speak": "Je peux ouvrir la fenêtre ? Et je suis désolé pour hier, c'était de ma faute.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "¿Es para pedir permiso o para disculparse?",
+      "buckets": ["Pedir permiso", "Disculparse"],
+      "items": [
+        { "text": "je peux ?", "bucket": 0 },
+        { "text": "je suis désolé", "bucket": 1 },
+        { "text": "vous permettez ?", "bucket": 0 },
+        { "text": "c'est de ma faute", "bucket": 1 }
+      ],
+      "explain": "Je peux y vous permettez son para pedir permiso; je suis désolé y c'est de ma faute, para disculparse."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["permiso", "disculpas"],
+      "difficulty": 2,
+      "prompt": "Hay un error de estructura. Corrige la frase entera.",
+      "wrong": "Ça vous dérange si j'ouvrirai la fenêtre ?",
+      "accept": ["Ça vous dérange si j'ouvre la fenêtre"],
+      "audio": "Ça vous dérange si j'ouvre la fenêtre ?",
+      "explain": "Ça vous dérange si necesita el presente (j'ouvre), no el futuro (j'ouvrirai)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je peux ?", "es": "¿puedo?", "esApprox": "«ye PÖ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "ça vous dérange si...", "es": "¿le importa si...?", "esApprox": "«sa vu de-RANSH si»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je suis désolé / désolée", "es": "lo siento", "esApprox": "«ye süí de-zo-LÉ»", "from": "v4" },
+    { "id": "s4", "kind": "phrase", "target": "je m'excuse", "es": "me disculpo, perdón", "esApprox": "«ye meks-KÜZ»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "c'est de ma faute", "es": "es culpa mía", "esApprox": "«se de ma FOT»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "je ne l'ai pas fait exprès", "es": "no lo hice a propósito", "esApprox": "«ye ne le pa fe eks-PRE»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ça vous dérange si j'ouvre la fenêtre ? Je suis désolé, il fait un peu chaud.", "es": "¿Le importa si abro la ventana? Lo siento, hace un poco de calor.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "C'est de ma faute, je ne l'ai pas fait exprès.", "es": "Es culpa mía, no lo hice a propósito.", "from": "e7" }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-166",
+  "lang": "de",
+  "level": "A2",
+  "order": 166,
+  "title": "Las partículas modales: doch, mal, ja, denn",
+  "objectives": [
+    "Reconocer las partículas modales doch, mal, ja y denn como palabras que matizan el tono, no el significado",
+    "Usar doch para insistir o contradecir, mal para suavizar una petición",
+    "Usar ja para expresar algo evidente y denn para preguntas con interés genuino"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Partículas modales: el condimento de la frase alemana",
+      "body": "Las partículas modales no tienen traducción fija: no añaden información, sino que matizan el tono de la frase (sorpresa, insistencia, suavidad, interés). Son una marca de fluidez, muy usadas por hablantes nativos: «Komm doch mit!» (¡Ven ya, anda!) suena mucho más natural que «Komm mit!» a secas.",
+      "examples": [
+        { "target": "Setz dich doch!", "es": "¡Siéntate, anda!" },
+        { "target": "Warum bist du denn so müde?", "es": "¿Y por qué estás tan cansado?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cuatro partículas modales frecuentes",
+      "headers": ["Partícula", "Matiz", "Ejemplo"],
+      "rows": [
+        ["doch", "insistencia o contradicción suave", "Komm doch mit! (¡Ven ya!)"],
+        ["mal", "suaviza una petición, como «un momento»", "Warte mal! (Espera un momento)"],
+        ["ja", "algo evidente, ya sabido", "Das ist ja klar! (¡Eso está claro, claro!)"],
+        ["denn", "interés genuino en preguntas", "Wie geht's dir denn? (¿Y qué tal estás?)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "doch y mal se combinan a menudo: «Komm doch mal her!» (¡Ven aquí un momento, anda!) suena muy natural y cercano, típico del alemán hablado."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "doch", "es": "(partícula: insistencia, contradicción)", "ipa": "/dɔx/", "esApprox": "«doj»", "pos": "partícula modal", "gender": null, "example": { "target": "Komm doch mit!", "es": "¡Ven ya, anda!" } },
+    { "id": "v2", "target": "mal", "es": "(partícula: suaviza una petición)", "ipa": "/maːl/", "esApprox": "«mal»", "pos": "partícula modal", "gender": null, "example": { "target": "Warte mal!", "es": "Espera un momento." } },
+    { "id": "v3", "target": "ja", "es": "(partícula: algo evidente)", "ipa": "/jaː/", "esApprox": "«ya»", "pos": "partícula modal", "gender": null, "example": { "target": "Das ist ja klar!", "es": "¡Eso está claro, claro!" } },
+    { "id": "v4", "target": "denn", "es": "(partícula: interés genuino en preguntas)", "ipa": "/dɛn/", "esApprox": "«den»", "pos": "partícula modal", "gender": null, "example": { "target": "Wie geht's dir denn?", "es": "¿Y qué tal estás?" } },
+    { "id": "v5", "target": "eigentlich", "es": "(partícula: por cierto, en realidad)", "ipa": "/ˈaɪ̯gn̩tlɪç/", "esApprox": "«ÁI-guent-lich»", "pos": "partícula modal", "gender": null, "example": { "target": "Wo warst du eigentlich?", "es": "¿Y dónde estabas, por cierto?" } },
+    { "id": "v6", "target": "einfach", "es": "(partícula: sin más, simplemente)", "ipa": "/ˈaɪ̯nfax/", "esApprox": "«ÁIN-fach»", "pos": "partícula modal", "gender": null, "example": { "target": "Sag es einfach!", "es": "¡Dilo sin más!" } },
+    { "id": "v7", "target": "der Ton", "es": "el tono", "ipa": "/toːn/", "esApprox": "«ton»", "pos": "sustantivo", "gender": "m", "example": { "target": "Die Partikel ändert den Ton.", "es": "La partícula cambia el tono." } },
+    { "id": "v8", "target": "betonen", "es": "enfatizar, subrayar", "ipa": "/bəˈtoːnən/", "esApprox": "«be-TÓ-nen»", "pos": "verbo", "gender": null, "example": { "target": "Das möchte ich besonders betonen.", "es": "Eso quiero subrayarlo especialmente." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["particulas-modales"], "difficulty": 1, "prompt": "¿Qué partícula se usa para insistir o suavizar una contradicción?", "options": ["mal", "doch", "denn", "ja"], "answer": 1, "explain": "doch: insistencia o contradicción suave." },
+    { "id": "e2", "type": "mcq", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "¿Qué partícula añade interés genuino a una pregunta?", "options": ["ja", "mal", "denn", "einfach"], "answer": 2, "explain": "denn: Wie geht's dir denn? = ¿Y qué tal estás? (con interés real)." },
+    { "id": "e3", "type": "true_false", "tags": ["particulas-modales"], "difficulty": 2, "statement": "Las partículas modales añaden información nueva a la frase.", "answer": false, "explain": "No añaden información: solo matizan el tono (sorpresa, insistencia, interés, evidencia)." },
+    { "id": "e4", "type": "true_false", "tags": ["particulas-modales"], "difficulty": 2, "statement": "«mal» en «Warte mal!» significa lo mismo que «einmal» (una vez).", "answer": false, "explain": "Aquí mal solo suaviza la petición, como decir «un momento» en español; no cuenta veces." },
+    { "id": "e5", "type": "match_pairs", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Une cada partícula con su matiz", "left": ["doch", "mal", "ja", "denn"], "right": ["insistencia", "suaviza la petición", "algo evidente", "interés genuino"], "answer": [0, 1, 2, 3], "explain": "Los cuatro matices principales de estas partículas." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "¡Ven ya, anda!", "accept": ["Komm doch mit!"], "hintWords": ["komm doch mit"], "strictAccents": false, "audio": "Komm doch mit!", "explain": "Komm + doch (insistencia) + mit." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Espera un momento.", "accept": ["Warte mal!"], "hintWords": ["warte mal"], "strictAccents": false, "audio": "Warte mal!", "explain": "Warte + mal (suaviza la petición)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "¿Y qué tal estás?", "accept": ["Wie geht's dir denn?"], "hintWords": ["wie geht's dir denn"], "strictAccents": false, "audio": "Wie geht's dir denn?", "explain": "Wie geht's dir + denn (interés genuino)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Completa con la partícula correcta", "text": "Das ist ___ klar! Komm ___ mit!", "blanks": [{ "accept": ["ja"] }, { "accept": ["doch"] }], "bank": ["ja", "doch", "denn"], "explain": "ja (evidente); doch (insistencia)." },
+    { "id": "e10", "type": "word_order", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Ordena: «¿Y dónde estabas, por cierto?»", "tokens": ["warst du", "eigentlich?", "Wo"], "answer": ["Wo", "warst du", "eigentlich?"], "audio": "Wo warst du eigentlich?", "explain": "Wo (posición 1) + warst du (verbo+sujeto) + eigentlich (partícula, casi al final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Sag es einfach!", "accept": ["¡Dilo sin más!"], "strictAccents": false, "audio": "Sag es einfach!", "explain": "einfach = sin más, simplemente." },
+    { "id": "e12", "type": "dialogue", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Kommst du mit ins Kino?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Komm doch mit!"], "hint": "usa doch para insistir (invierte el sentido a una invitación)" },
+      { "who": "Lea", "text": "Na gut, ich komme!", "speak": true }
+    ], "explain": "doch da un tono de insistencia amable a la invitación." },
+    { "id": "e13", "type": "listening", "tags": ["particulas-modales"], "difficulty": 1, "speak": "Komm doch mit!", "mode": "write", "accept": ["Komm doch mit!"], "showTextAfter": true, "explain": "doch: partícula de insistencia." },
+    { "id": "e14", "type": "listening", "tags": ["particulas-modales"], "difficulty": 2, "speak": "Wie geht's dir denn?", "mode": "choose", "options": ["Wie geht's dir denn?", "Wie geht's dir mal?", "Wie geht's dir ja?"], "answer": 0, "showTextAfter": true, "explain": "denn es la partícula típica para preguntas con interés genuino." },
+    { "id": "e15", "type": "shadowing", "tags": ["particulas-modales"], "difficulty": 2, "speak": "Komm doch mal her, und sag mir, wie es dir denn wirklich geht.", "es": "Ven aquí un momento, anda, y dime cómo estás de verdad.", "ipa": "/kɔm dɔx maːl heːɐ̯ ʊnt zaːk miːɐ̯ viː ɛs diːɐ̯ dɛn ˈvɪʁklɪç ɡeːt/", "esApprox": "«kom doj mal jer, unt zak mir, vi es dir den VIRK-lich guet»", "focus": "doch mal juntos y denn en la pregunta: dos usos combinados de las partículas modales.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["particulas-modales"], "difficulty": 2, "speak": "Das ist ja klar, aber sag es mir doch einfach direkt, wenn etwas nicht stimmt.", "es": "Eso está claro, claro, pero dímelo sin más directamente si algo no va bien.", "ipa": "/das ɪst jaː klaːɐ̯ ˈaːbɐ zaːk ɛs miːɐ̯ dɔx ˈaɪ̯nfax diˈʁɛkt vɛn ˈɛtvas nɪçt ˈʃtɪmt/", "esApprox": "«das ist ya klar, Á-ber zak es mir doj ÁIN-fach di-RÉKT, ven ET-vas nicht SHTIMT»", "focus": "ja, doch y einfach juntos: tres partículas dando matices distintos en una sola frase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Invitas a un amigo al cine con más insistencia y calidez que un simple «ven».", "modelAnswer": "Komm doch mit!", "alsoValid": ["Komm doch mal mit!"], "speak": "Komm doch mit!", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Clasifica cada frase según la partícula que usa", "buckets": ["doch (insistencia)", "denn (interés genuino)"], "items": [
+      { "text": "Komm doch mit!", "bucket": 0 },
+      { "text": "Wie geht's dir denn?", "bucket": 1 },
+      { "text": "Setz dich doch!", "bucket": 0 },
+      { "text": "Was machst du denn hier?", "bucket": 1 }
+    ], "explain": "doch para insistir, denn para preguntar con interés genuino." },
+    { "id": "e19", "type": "error_correction", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "Hay un error de posición. Corrige la frase entera.", "wrong": "Doch komm mit!", "accept": ["Komm doch mit!"], "audio": "Komm doch mit!", "explain": "Las partículas modales van después del verbo conjugado, no al principio de la frase." },
+    { "id": "e20", "type": "mcq", "tags": ["particulas-modales"], "difficulty": 2, "prompt": "«Komm doch mal her! Wie geht's dir denn? Das ist ja schön, dich zu sehen!» ¿Qué tono tiene esta frase?", "options": ["Frío y formal", "Cálido y cercano", "Enfadado", "Indiferente"], "answer": 1, "explain": "El uso combinado de doch, mal, denn y ja da un tono muy cálido y cercano, típico entre amigos." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "doch", "es": "(partícula: insistencia, contradicción)", "esApprox": "«doj»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "mal", "es": "(partícula: suaviza una petición)", "esApprox": "«mal»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ja", "es": "(partícula: algo evidente)", "esApprox": "«ya»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "denn", "es": "(partícula: interés genuino en preguntas)", "esApprox": "«den»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "eigentlich", "es": "(partícula: por cierto, en realidad)", "esApprox": "«ÁI-guent-lich»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "einfach", "es": "(partícula: sin más, simplemente)", "esApprox": "«ÁIN-fach»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Komm doch mal her, und sag mir, wie es dir denn wirklich geht.", "es": "Ven aquí un momento, anda, y dime cómo estás de verdad.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Das ist ja klar, aber sag es mir doch einfach direkt, wenn etwas nicht stimmt.", "es": "Eso está claro, claro, pero dímelo sin más directamente si algo no va bien.", "from": "e16" }
+  ]
+}

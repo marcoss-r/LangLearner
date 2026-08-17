@@ -1,0 +1,268 @@
+{
+  "id": "fr-a1-040",
+  "lang": "fr",
+  "level": "A1",
+  "order": 40,
+  "title": "La rutina diaria",
+  "objectives": [
+    "Describir tu rutina diaria combinando los verbos y expresiones que ya conoces",
+    "Adelantar je me lève, je me couche y je me lave como fórmulas fijas (se explican a fondo en la clase 41)",
+    "Ordenar las acciones del día con d'abord, ensuite y enfin"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un día completo, con lo que ya sabes (y tres adelantos)",
+      "body": "Para contar tu rutina necesitas tres verbos que todavía no has visto formalmente: **je me lève** (me levanto), **je me lave** (me lavo) y **je me couche** (me acuesto). Son verbos pronominales; los verás a fondo en la clase 41. Por ahora, apréndelos como bloques fijos, igual que hiciste con je m'appelle en la clase 5.",
+      "examples": [
+        { "target": "Je me lève à sept heures.", "es": "Me levanto a las siete.", "note": "adelanto, clase 41" },
+        { "target": "D'abord je me lave, ensuite je fais le petit-déjeuner.", "es": "Primero me lavo, luego desayuno.", "note": "d'abord... ensuite... para ordenar" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la rutina",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["je me lève", "me levanto"],
+        ["je me lave", "me lavo"],
+        ["je me couche", "me acuesto"],
+        ["le petit-déjeuner", "el desayuno"],
+        ["le déjeuner", "la comida, el almuerzo"],
+        ["le dîner", "la cena"],
+        ["d'abord", "primero"],
+        ["ensuite", "luego, después"],
+        ["enfin", "por último"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Le déjeuner no es «el desayuno»",
+      "items": [
+        { "wrong": "Traducir déjeuner como «desayuno», por parecido con «desayunar»", "right": "petit-déjeuner = desayuno; déjeuner = comida del mediodía; dîner = cena", "why": "Es un falso amigo clásico: déjeuner en francés es la comida del mediodía, no el desayuno. El desayuno es petit-déjeuner (literalmente «pequeño almuerzo»)." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "D'abord, ensuite y enfin son conectores muy útiles para contar cualquier secuencia de acciones, no solo la rutina: d'abord (primero) → ensuite (luego, se puede repetir varias veces) → enfin (por último)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je me lève (se lever)", "es": "me levanto (levantarse)", "ipa": "/ʒə mə lɛv/", "esApprox": "«ye me LEV»", "pos": "expresión", "gender": null, "example": { "target": "Je me lève à sept heures.", "es": "Me levanto a las siete." } },
+    { "id": "v2", "target": "je me lave (se laver)", "es": "me lavo (lavarse)", "ipa": "/ʒə mə lav/", "esApprox": "«ye me LAV»", "pos": "expresión", "gender": null, "example": { "target": "D'abord je me lave.", "es": "Primero me lavo." } },
+    { "id": "v3", "target": "je me couche (se coucher)", "es": "me acuesto (acostarse)", "ipa": "/ʒə mə kuʃ/", "esApprox": "«ye me KUSH»", "pos": "expresión", "gender": null, "example": { "target": "Je me couche à onze heures.", "es": "Me acuesto a las once." } },
+    { "id": "v4", "target": "le petit-déjeuner", "es": "el desayuno", "ipa": "/lə pə.ti de.ʒœ.ne/", "esApprox": "«le pe-ti de-yeu-NÉ»", "pos": "sustantivo", "gender": "m", "plural": "les petits-déjeuners", "example": { "target": "Je fais le petit-déjeuner à huit heures.", "es": "Desayuno a las ocho." } },
+    { "id": "v5", "target": "le déjeuner", "es": "la comida, el almuerzo", "ipa": "/lə de.ʒœ.ne/", "esApprox": "«le de-yeu-NÉ»", "pos": "sustantivo", "gender": "m", "plural": "les déjeuners", "example": { "target": "Le déjeuner est à midi.", "es": "La comida es a mediodía." } },
+    { "id": "v6", "target": "le dîner", "es": "la cena", "ipa": "/lə di.ne/", "esApprox": "«le di-NÉ»", "pos": "sustantivo", "gender": "m", "plural": "les dîners", "example": { "target": "Le dîner est à huit heures du soir.", "es": "La cena es a las ocho de la noche." } },
+    { "id": "v7", "target": "d'abord", "es": "primero", "ipa": "/da.bɔʁ/", "esApprox": "«da-BOR»", "pos": "adverbio", "gender": null, "example": { "target": "D'abord je me lève.", "es": "Primero me levanto." } },
+    { "id": "v8", "target": "ensuite", "es": "luego, después", "ipa": "/ɑ̃.sɥit/", "esApprox": "«an-SÜÍT»", "pos": "adverbio", "gender": null, "example": { "target": "Ensuite, je fais le petit-déjeuner.", "es": "Luego, desayuno." } },
+    { "id": "v9", "target": "enfin", "es": "por último, por fin", "ipa": "/ɑ̃.fɛ̃/", "esApprox": "«an-FEN»", "pos": "adverbio", "gender": null, "example": { "target": "Enfin, je me couche.", "es": "Por último, me acuesto." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «le déjeuner»?",
+      "options": ["el desayuno", "la comida del mediodía", "la cena", "el aperitivo"],
+      "answer": 1,
+      "explain": "Déjeuner es la comida del mediodía, no el desayuno."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «desayuno»?",
+      "options": ["le déjeuner", "le dîner", "le petit-déjeuner", "le matin"],
+      "answer": 2,
+      "explain": "Le petit-déjeuner = el desayuno."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "statement": "Déjeuner es un falso amigo: no significa «desayunar».",
+      "answer": true,
+      "explain": "Es la comida del mediodía, no el desayuno."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO es un conector de secuencia, a diferencia de las demás?",
+      "options": ["d'abord", "ensuite", "enfin", "le dîner"],
+      "answer": 3,
+      "explain": "Le dîner es una comida; las otras tres ordenan una secuencia."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["d'abord", "ensuite", "enfin", "le dîner"],
+      "right": ["la cena", "primero", "por último", "luego"],
+      "answer": [1, 3, 2, 0],
+      "explain": "D'abord = primero, ensuite = luego, enfin = por último, dîner = cena."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Primero me levanto, luego me lavo.",
+      "accept": ["D'abord je me lève, ensuite je me lave"],
+      "hintWords": ["d'abord", "ensuite"],
+      "strictAccents": false,
+      "audio": "D'abord je me lève, ensuite je me lave.",
+      "explain": "D'abord + acción 1, ensuite + acción 2."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Desayuno a las ocho y como a mediodía.",
+      "accept": ["Je fais le petit-déjeuner à huit heures et je fais le déjeuner à midi"],
+      "hintWords": ["le petit-déjeuner", "à midi"],
+      "strictAccents": false,
+      "audio": "Je fais le petit-déjeuner à huit heures et je fais le déjeuner à midi.",
+      "explain": "Petit-déjeuner (mañana) frente a déjeuner (mediodía)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Completa la secuencia",
+      "text": "___ je me lève, ___ je fais le petit-déjeuner, ___ je vais au travail.",
+      "blanks": [{ "accept": ["D'abord"] }, { "accept": ["ensuite"] }, { "accept": ["enfin"] }],
+      "bank": ["D'abord", "ensuite", "enfin"],
+      "explain": "Los tres conectores en orden: d'abord, ensuite, enfin."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Me acuesto a las once»",
+      "tokens": ["onze heures", "Je me couche", "à"],
+      "answer": ["Je me couche", "à", "onze heures"],
+      "audio": "Je me couche à onze heures.",
+      "explain": "Je me couche à + hora."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["rutina"],
+      "difficulty": 1,
+      "prompt": "D'abord je me lève, ensuite je me lave, enfin je fais le petit-déjeuner.",
+      "accept": ["Primero me levanto, luego me lavo, por último desayuno."],
+      "strictAccents": false,
+      "audio": "D'abord je me lève, ensuite je me lave, enfin je fais le petit-déjeuner.",
+      "explain": "Una rutina completa con los tres conectores."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu rutina",
+      "turns": [
+        { "who": "Léa", "text": "Tu te lèves à quelle heure ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je me lève à sept heures.", "Je me lève à huit heures."], "hint": "di a qué hora te levantas" },
+        { "who": "Léa", "text": "Et tu te couches tard ?", "speak": true }
+      ],
+      "explain": "Tu te lèves / je me lève: adelanto de los verbos pronominales."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "speak": "Je me lève à sept heures et je me couche à onze heures.",
+      "mode": "write",
+      "accept": ["Je me lève à sept heures et je me couche à onze heures"],
+      "showTextAfter": true,
+      "explain": "Dos verbos pronominales en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "speak": "le petit-déjeuner",
+      "mode": "choose",
+      "options": ["le petit-déjeuner", "le déjeuner", "le dîner", "le matin"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Le petit-déjeuner = el desayuno."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["rutina"],
+      "difficulty": 3,
+      "speak": "D'abord je me lève, ensuite je me lave, enfin je fais le petit-déjeuner et je vais au travail.",
+      "es": "Primero me levanto, luego me lavo, por último desayuno y voy al trabajo.",
+      "ipa": "/da.bɔʁ ʒə mə lɛv ɑ̃.sɥit ʒə mə lav ɑ̃.fɛ̃ ʒə fɛ lə pə.ti de.ʒœ.ne e ʒə vɛ o tʁa.vaj/",
+      "esApprox": "«da-BOR ye me LEV an-SÜÍT ye me LAV an-FEN ye fé le pe-ti de-yeu-NÉ e ye vé o tra-VÁY»",
+      "focus": "Una rutina completa, encadenando cinco acciones con tres conectores.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Cuenta tu rutina de la mañana con d'abord, ensuite y enfin.",
+      "modelAnswer": "D'abord je me lève, ensuite je me lave, enfin je fais le petit-déjeuner.",
+      "alsoValid": ["D'abord je me lève à sept heures, ensuite je vais au travail."],
+      "speak": "D'abord je me lève, ensuite je me lave, enfin je fais le petit-déjeuner.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "¿Es una comida o un momento de la rutina?",
+      "buckets": ["Comida", "Acción de la rutina"],
+      "items": [
+        { "text": "le petit-déjeuner", "bucket": 0 },
+        { "text": "je me lève", "bucket": 1 },
+        { "text": "le dîner", "bucket": 0 },
+        { "text": "je me couche", "bucket": 1 },
+        { "text": "le déjeuner", "bucket": 0 },
+        { "text": "je me lave", "bucket": 1 }
+      ],
+      "explain": "Petit-déjeuner, déjeuner y dîner son comidas; lever, laver y coucher son acciones."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "Je fais le déjeuner à sept heures du matin.",
+      "accept": ["Je fais le petit-déjeuner à sept heures du matin"],
+      "audio": "Je fais le petit-déjeuner à sept heures du matin.",
+      "explain": "A las siete de la mañana es petit-déjeuner (desayuno), no déjeuner (comida)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "je me lève", "es": "me levanto", "esApprox": "«ye me LEV»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "je me lave", "es": "me lavo", "esApprox": "«ye me LAV»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "je me couche", "es": "me acuesto", "esApprox": "«ye me KUSH»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le petit-déjeuner", "es": "el desayuno", "esApprox": "«le pe-ti de-yeu-NÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "le déjeuner", "es": "la comida", "esApprox": "«le de-yeu-NÉ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "d'abord", "es": "primero", "esApprox": "«da-BOR»", "from": "v7" },
+    { "id": "s7", "kind": "word", "target": "ensuite", "es": "luego, después", "esApprox": "«an-SÜÍT»", "from": "v8" },
+    { "id": "s8", "kind": "phrase", "target": "D'abord je me lève, ensuite je me lave, enfin je fais le petit-déjeuner.", "es": "Primero me levanto, luego me lavo, por último desayuno.", "from": "e10" },
+    { "id": "s9", "kind": "phrase", "target": "D'abord je me lève, ensuite je me lave, enfin je fais le petit-déjeuner et je vais au travail.", "es": "Primero me levanto, luego me lavo, por último desayuno y voy al trabajo.", "from": "e14" }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "fr-b1-194",
+  "lang": "fr",
+  "level": "B1",
+  "order": 194,
+  "title": "Dar tu opinión sobre decisiones pasadas de otros",
+  "objectives": [
+    "Usar je trouve que tu as bien fait de, je pense que tu as eu raison/tort de",
+    "Usar à ta place, j'aurais fait autrement para dar un consejo retrospectivo",
+    "Practicar opiniones combinadas sobre decisiones que ya se tomaron"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Opinar sobre lo que ya pasó",
+      "body": "Además del reproche (tu aurais dû), puedes valorar positiva o negativamente una decisión pasada con je trouve que, je pense que tu as eu raison/tort de, o dar tu alternativa con à ta place + conditionnel passé."
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas de opinión sobre el pasado",
+      "headers": ["Expresión", "Valoración"],
+      "rows": [
+        ["je trouve que tu as bien fait de", "positiva"],
+        ["je pense que tu as eu raison de", "positiva (acierto)"],
+        ["je pense que tu as eu tort de", "negativa (error)"],
+        ["à ta place, j'aurais fait autrement", "alternativa retrospectiva"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "À ta place + conditionnel passé",
+      "body": "Para una decisión pasada, à ta place va con conditionnel passé (j'aurais fait), no con conditionnel présent (je ferais). Je ferais autrement se usaría para una decisión futura, no pasada."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "à mon avis, tu aurais dû", "es": "en mi opinión, deberías haber", "ipa": "/a mɔ̃.n‿a.vi ty o.ʁɛ dy/", "esApprox": "«a mon-na-VÍ tü o-RE DÜ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "je trouve que tu as bien fait de", "es": "encuentro que hiciste bien en", "ipa": "/ʒə tʁuv kə ty a bjɛ̃ fɛ də/", "esApprox": "«ye TRUV ke tü a bien FE de»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "je pense que tu as eu raison de", "es": "pienso que tuviste razón en", "ipa": "/ʒə pɑ̃s kə ty a y ʁɛ.zɔ̃ də/", "esApprox": "«ye PANS ke tü a Ü re-ZÓN de»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "je pense que tu as eu tort de", "es": "pienso que te equivocaste en", "ipa": "/ʒə pɑ̃s kə ty a y tɔʁ də/", "esApprox": "«ye PANS ke tü a Ü TOR de»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "à ta place, j'aurais fait autrement", "es": "en tu lugar, habría hecho de otra manera", "ipa": "/a ta plas ʒo.ʁɛ fɛ ot.ʁə.mɑ̃/", "esApprox": "«a ta PLAS sho-RE FE otr-MAN»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "c'était une bonne décision", "es": "fue una buena decisión", "ipa": "/se.tɛ yn bɔn de.si.zjɔ̃/", "esApprox": "«se-TE ün BON de-si-SIÓN»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "ça n'a pas été facile", "es": "no fue fácil", "ipa": "/sa na pa.z‿e.te fa.sil/", "esApprox": "«sa na pa-ze-TÉ fa-SIL»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "avec le recul", "es": "mirando atrás, en retrospectiva", "ipa": "/a.vɛk lə ʁə.kyl/", "esApprox": "«a-VEK le re-KÜL»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "¿Cómo dices «en tu lugar, habría hecho de otra manera»?",
+      "options": ["À ta place, je ferai autrement.", "À ta place, j'aurais fait autrement.", "À ta place, je fais autrement.", "À ta place, je ferais autrement."],
+      "answer": 1,
+      "explain": "Sobre una decisión pasada, à ta place exige conditionnel passé."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "¿Cómo dices «pienso que tuviste razón en irte»?",
+      "options": ["Je pense que tu as eu raison de partir.", "Je pense que tu as raison de partir.", "Je pense que tu aurais raison de partir.", "Je pense que tu as eu tort de partir."],
+      "answer": 0,
+      "explain": "Je pense que tu as eu raison de + infinitivo: valoración positiva de una decisión pasada."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "statement": "Je trouve que tu as bien fait de expresa una opinión positiva sobre una decisión pasada.",
+      "answer": true,
+      "explain": "Je trouve que tu as bien fait de valora positivamente lo que hiciste."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "statement": "Avoir tort de significa lo mismo que avoir raison de.",
+      "answer": false,
+      "explain": "Avoir tort de (equivocarse) es lo contrario de avoir raison de (tener razón)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su valoración",
+      "left": ["tu as eu raison de", "tu as eu tort de", "tu as bien fait de", "tu aurais dû"],
+      "right": ["acierto", "error", "acierto (variante)", "reproche"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Tu as eu raison de y tu as bien fait de son acierto; tu as eu tort de es error; tu aurais dû es reproche."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "En mi opinión, deberías haber hablado antes; pienso que tuviste razón en intentarlo.",
+      "accept": ["À mon avis, tu aurais dû parler avant, je pense que tu as eu raison d'essayer"],
+      "hintWords": ["à mon avis, tu aurais dû parler avant", "je pense que tu as eu raison d'essayer"],
+      "strictAccents": true,
+      "audio": "À mon avis, tu aurais dû parler avant, je pense que tu as eu raison d'essayer.",
+      "explain": "Reproche (tu aurais dû) combinado con valoración positiva (tu as eu raison de)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "En tu lugar, habría hecho de otra manera, pero no fue una decisión fácil.",
+      "accept": ["À ta place, j'aurais fait autrement, mais ça n'a pas été facile"],
+      "hintWords": ["à ta place, j'aurais fait autrement", "mais ça n'a pas été facile"],
+      "strictAccents": true,
+      "audio": "À ta place, j'aurais fait autrement, mais ça n'a pas été facile.",
+      "explain": "À ta place + conditionnel passé (j'aurais fait autrement)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Je pense que tu as eu ___ de partir, mais à ta place, j' ___ attendu un peu.",
+      "blanks": [{ "accept": ["raison"] }, { "accept": ["aurais"] }],
+      "bank": ["raison", "tort", "aurais"],
+      "explain": "Avoir eu raison de (acierto) y à ta place + conditionnel passé (aurais attendu)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Encuentro que hiciste bien en intentarlo»",
+      "tokens": ["d'essayer", "Je trouve que tu as bien fait"],
+      "answer": ["Je trouve que tu as bien fait", "d'essayer"],
+      "audio": "Je trouve que tu as bien fait d'essayer.",
+      "explain": "Je trouve que tu as bien fait de + infinitivo."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "Avec le recul, je pense que tu as eu raison de partir, même si ça n'a pas été facile.",
+      "accept": ["Mirando atrás, pienso que tuviste razón en irte, aunque no fue fácil."],
+      "strictAccents": false,
+      "audio": "Avec le recul, je pense que tu as eu raison de partir, même si ça n'a pas été facile.",
+      "explain": "Reflexión (avec le recul) combinada con valoración positiva (tu as eu raison de)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación dando tu opinión sobre una decisión",
+      "turns": [
+        { "who": "Léa", "text": "Tu penses que j'ai bien fait de partir ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je pense que tu as eu raison de partir.", "À ta place, j'aurais fait pareil."], "hint": "usa una fórmula de opinión sobre el pasado" },
+        { "who": "Léa", "text": "Merci, ça me rassure.", "speak": true }
+      ],
+      "explain": "Repaso combinado de las fórmulas de opinión sobre el pasado."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "speak": "À mon avis, tu aurais dû parler avant, mais je trouve que tu as bien fait d'essayer.",
+      "mode": "write",
+      "accept": ["À mon avis, tu aurais dû parler avant, mais je trouve que tu as bien fait d'essayer"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de reproche y valoración positiva."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 1,
+      "speak": "tu as eu tort de",
+      "mode": "choose",
+      "options": ["tu as eu raison de", "tu as eu tort de", "tu as bien fait de", "tu aurais dû"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Tu as eu tort de expresa que alguien se equivocó."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 3,
+      "speak": "À mon avis, tu aurais dû parler avant, je pense que tu as eu raison d'essayer, et à ta place, j'aurais fait autrement.",
+      "es": "En mi opinión, deberías haber hablado antes, pienso que tuviste razón en intentarlo, y en tu lugar, habría hecho de otra manera.",
+      "ipa": "/a mɔ̃.n‿a.vi ty o.ʁɛ dy paʁ.le a.vɑ̃ ʒə pɑ̃s kə ty a y ʁɛ.zɔ̃ d‿e.sɛ.je e a ta plas ʒo.ʁɛ fɛ ot.ʁə.mɑ̃/",
+      "esApprox": "«a mon-na-VÍ tü o-RE DÜ par-LÉ a-VAN ye PANS ke tü a Ü re-ZÓN de-se-YÉ e a ta PLAS sho-RE FE otr-MAN»",
+      "focus": "Reproche, valoración positiva y alternativa retrospectiva encadenados.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "Da tu opinión sobre una decisión pasada de alguien, usando al menos dos fórmulas distintas.",
+      "modelAnswer": "Je pense que tu as eu raison de partir, mais à ta place, j'aurais attendu un peu.",
+      "alsoValid": ["Je trouve que tu as bien fait d'essayer."],
+      "speak": "Je pense que tu as eu raison de partir, mais à ta place, j'aurais attendu un peu.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "¿Es una opinión positiva o un reproche/error?",
+      "buckets": ["Opinión positiva", "Reproche/error"],
+      "items": [
+        { "text": "tu as eu raison de", "bucket": 0 },
+        { "text": "tu as eu tort de", "bucket": 1 },
+        { "text": "tu as bien fait de", "bucket": 0 },
+        { "text": "tu aurais dû", "bucket": 1 }
+      ],
+      "explain": "Tu as eu raison de y tu as bien fait de son positivas; tu as eu tort de y tu aurais dû son reproche o error."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["opinion", "reproche"],
+      "difficulty": 2,
+      "prompt": "Hay un error: sobre el pasado, à ta place exige conditionnel passé. Corrige la frase entera.",
+      "wrong": "Je pense que tu as eu raison de partir, mais à ta place, je ferais autrement.",
+      "accept": ["Je pense que tu as eu raison de partir, mais à ta place, j'aurais fait autrement"],
+      "audio": "Je pense que tu as eu raison de partir, mais à ta place, j'aurais fait autrement.",
+      "explain": "Sobre una decisión pasada, à ta place exige conditionnel passé (j'aurais fait), no conditionnel présent (je ferais)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "à mon avis, tu aurais dû", "es": "en mi opinión, deberías haber", "esApprox": "«a mon-na-VÍ tü o-RE DÜ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "je trouve que tu as bien fait de", "es": "encuentro que hiciste bien en", "esApprox": "«ye TRUV ke tü a bien FE de»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je pense que tu as eu raison de", "es": "pienso que tuviste razón en", "esApprox": "«ye PANS ke tü a Ü re-ZÓN de»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "je pense que tu as eu tort de", "es": "pienso que te equivocaste en", "esApprox": "«ye PANS ke tü a Ü TOR de»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "à ta place, j'aurais fait autrement", "es": "en tu lugar, habría hecho de otra manera", "esApprox": "«a ta PLAS sho-RE FE otr-MAN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "ça n'a pas été facile", "es": "no fue fácil", "esApprox": "«sa na pa-ze-TÉ fa-SIL»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "À mon avis, tu aurais dû parler avant, je pense que tu as eu raison d'essayer.", "es": "En mi opinión, deberías haber hablado antes; pienso que tuviste razón en intentarlo.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "À ta place, j'aurais fait autrement, mais ça n'a pas été facile.", "es": "En tu lugar, habría hecho de otra manera, pero no fue una decisión fácil.", "from": "e7" }
+  ]
+}

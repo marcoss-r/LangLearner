@@ -1,0 +1,259 @@
+{
+  "id": "fr-b1-246",
+  "lang": "fr",
+  "level": "B1",
+  "order": 246,
+  "title": "Pronunciación general XI: acentos regionales del francés",
+  "objectives": [
+    "Reconocer las características del accent du Midi (sur de Francia): vocales más abiertas, entonación cantarina",
+    "Reconocer vocabulario propio de Bélgica, Suiza y Quebec (septante, nonante, magasiner, un char)",
+    "Entender que no existe un único «francés correcto», sino variedades regionales igual de válidas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un idioma, muchos acentos",
+      "body": "El francés que has aprendido es el francés estándar de París, pero se habla con acentos y palabras distintas en el sur de Francia, Bélgica, Suiza y Quebec. Reconocerlos te ayuda a no perderte cuando lo oigas."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario regional",
+      "headers": ["Región", "Palabra regional", "Equivalente estándar"],
+      "rows": [
+        ["Bélgica/Suiza", "septante, nonante", "soixante-dix, quatre-vingt-dix"],
+        ["Quebec", "magasiner", "faire du shopping"],
+        ["Quebec", "un char", "une voiture"],
+        ["Quebec", "une blonde / un chum", "une copine / un copain"]
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "El accent du Midi",
+      "drills": [
+        { "target": "le pain", "ipa": "/lə pɛ̃/", "esApprox": "«le PIN» (Midi: «le PEN-e», más abierto)", "hint": "en el sur, las vocales nasales se abren más" },
+        { "target": "demain", "ipa": "/də.mɛ̃/", "esApprox": "«de-MIN» (Midi: «de-MEN-e»)", "hint": "el mismo patrón de apertura vocálica" },
+        { "target": "la maison", "ipa": "/la mɛ.zɔ̃/", "esApprox": "«la me-ZON» (Midi: entonación cantarina)", "hint": "el acento del Midi sube el tono en la última sílaba" },
+        { "target": "bonjour", "ipa": "/bɔ̃.ʒuʁ/", "esApprox": "«bon-YUR» (Midi: más melódico)", "hint": "compara la entonación plana de París con la melódica del sur" }
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Bonjour para despedirse",
+      "body": "En Bélgica, es común usar bonjour también para despedirse, no solo para saludar. No es un error: es una variante regional."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "septante", "es": "setenta (Bélgica, Suiza)", "ipa": "/sɛp.tɑ̃t/", "esApprox": "«sep-TANT»", "pos": "número", "gender": null },
+    { "id": "v2", "target": "nonante", "es": "noventa (Bélgica, Suiza)", "ipa": "/nɔ.nɑ̃t/", "esApprox": "«no-NANT»", "pos": "número", "gender": null },
+    { "id": "v3", "target": "magasiner", "es": "ir de compras (Quebec)", "ipa": "/ma.ga.zi.ne/", "esApprox": "«ma-ga-zi-NÉ»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "un char", "es": "un coche (Quebec)", "ipa": "/œ̃ ʃaʁ/", "esApprox": "«un SHAR»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v5", "target": "une blonde / un chum", "es": "novia / novio (Quebec)", "ipa": "/yn blɔ̃d œ̃ tʃɔm/", "esApprox": "«ün BLOND un CHOM»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "l'accent du Midi", "es": "el acento del sur de Francia", "ipa": "/lak.sɑ̃ dy mi.di/", "esApprox": "«lak-SAN dü mi-DÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v7", "target": "chanter les syllabes", "es": "cantar las sílabas", "ipa": "/ʃɑ̃.te le si.lab/", "esApprox": "«shan-TÉ le si-LAB»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "une variété régionale", "es": "una variedad regional", "ipa": "/yn va.ʁje.te ʁe.ʒjɔ.nal/", "esApprox": "«ün va-rie-TÉ re-shio-NAL»", "pos": "sustantivo", "gender": "f" }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «septante»?",
+      "options": ["setenta", "noventa", "sesenta", "ochenta"],
+      "answer": 0,
+      "explain": "Septante significa setenta, usado en Bélgica y Suiza en vez de soixante-dix."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «magasiner» en Quebec?",
+      "options": ["trabajar", "ir de compras", "cocinar", "viajar"],
+      "answer": 1,
+      "explain": "Magasiner es el equivalente quebequés de faire du shopping."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "statement": "El accent du Midi suele tener una entonación más cantarina que el francés de París.",
+      "answer": true,
+      "explain": "El acento del sur de Francia es reconocible por su melodía característica."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "statement": "Un char en Quebec significa un carro de guerra antiguo, no un coche.",
+      "answer": false,
+      "explain": "En el francés de Quebec, un char es simplemente un coche."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra regional con su equivalente estándar",
+      "left": ["septante", "un char", "magasiner", "une blonde"],
+      "right": ["soixante-dix", "une voiture", "faire du shopping", "une copine"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Vocabulario regional frente a su equivalente en francés estándar."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "En Bélgica, se dice septante y nonante en lugar de soixante-dix y quatre-vingt-dix.",
+      "accept": ["En Belgique, on dit septante et nonante au lieu de soixante-dix et quatre-vingt-dix"],
+      "hintWords": ["en Belgique, on dit septante et nonante", "au lieu de soixante-dix et quatre-vingt-dix"],
+      "strictAccents": true,
+      "audio": "En Belgique, on dit septante et nonante au lieu de soixante-dix et quatre-vingt-dix.",
+      "explain": "Septante y nonante son variantes regionales de los números."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "En Quebec, la gente va de compras (magasiner) en su coche (char)."
+      ,
+      "accept": ["Au Québec, les gens magasinent avec leur char"],
+      "hintWords": ["au Québec, les gens magasinent", "avec leur char"],
+      "strictAccents": true,
+      "audio": "Au Québec, les gens magasinent avec leur char.",
+      "explain": "Magasiner y un char, dos palabras propias del francés de Quebec."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "En Belgique, on dit ___ pour soixante-dix, et en France, on dit ___.",
+      "blanks": [{ "accept": ["septante"] }, { "accept": ["soixante-dix"] }],
+      "bank": ["septante", "soixante-dix", "nonante"],
+      "explain": "Septante (Bélgica) frente a soixante-dix (Francia)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El acento del sur es muy melódico»",
+      "tokens": ["est très mélodieux", "L'accent du Midi"],
+      "answer": ["L'accent du Midi", "est très mélodieux"],
+      "audio": "L'accent du Midi est très mélodieux.",
+      "explain": "L'accent du Midi describe el acento del sur de Francia."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "Il n'y a pas un seul français correct : il existe plusieurs variétés régionales, toutes aussi valables.",
+      "accept": ["No hay un único francés correcto: existen varias variedades regionales, todas igual de válidas."],
+      "strictAccents": false,
+      "audio": "Il n'y a pas un seul français correct : il existe plusieurs variétés régionales, toutes aussi valables.",
+      "explain": "Una variété régionale no es un error, es una forma válida del idioma."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre los acentos regionales",
+      "turns": [
+        { "who": "Léa", "text": "Tu as remarqué l'accent du Midi de mon collègue ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, il chante presque les syllabes !", "Oui, et il dit aussi des mots différents."], "hint": "usa vocabulario de acentos regionales" },
+        { "who": "Léa", "text": "C'est vrai, c'est joli à entendre.", "speak": true }
+      ],
+      "explain": "Repaso combinado del vocabulario de acentos regionales."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "speak": "En Belgique, on dit septante et nonante, et au Québec, on va magasiner avec son char.",
+      "mode": "write",
+      "accept": ["En Belgique, on dit septante et nonante, et au Québec, on va magasiner avec son char"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario regional."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 1,
+      "speak": "magasiner",
+      "mode": "choose",
+      "options": ["septante", "magasiner", "un char", "une blonde"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Magasiner es ir de compras, en el francés de Quebec."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 3,
+      "speak": "En Belgique, on dit septante et nonante. Au Québec, on magasine avec son char. Et dans le Midi, on chante presque les syllabes.",
+      "es": "En Bélgica, se dice septante y nonante. En Quebec, se va de compras con el coche. Y en el sur, casi se cantan las sílabas.",
+      "ipa": "/ɑ̃ bɛl.ʒik ɔ̃ di sɛp.tɑ̃t e nɔ.nɑ̃t o ke.bɛk ɔ̃ ma.ga.zin a.vɛk sɔ̃ ʃaʁ e dɑ̃ lə mi.di ɔ̃ ʃɑ̃t pʁɛs.k le si.lab/",
+      "esApprox": "«an bel-YIK on DI sep-TANT e no-NANT o ke-BEK on ma-ga-ZIN a-VEK son SHAR e dan le mi-DÍ on SHANT pres-ke le si-LAB»",
+      "focus": "Recorrido por tres variedades regionales del francés: Bélgica, Quebec y el Midi.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "Explica dos diferencias regionales del francés que hayas aprendido hoy.",
+      "modelAnswer": "En Belgique, on dit septante au lieu de soixante-dix, et au Québec, on dit magasiner au lieu de faire du shopping.",
+      "alsoValid": ["L'accent du Midi est plus mélodieux que celui de Paris."],
+      "speak": "En Belgique, on dit septante au lieu de soixante-dix, et au Québec, on dit magasiner au lieu de faire du shopping.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "¿Es de Bélgica/Suiza o de Quebec?",
+      "buckets": ["Bélgica/Suiza", "Quebec"],
+      "items": [
+        { "text": "septante", "bucket": 0 },
+        { "text": "un char", "bucket": 1 },
+        { "text": "nonante", "bucket": 0 },
+        { "text": "magasiner", "bucket": 1 }
+      ],
+      "explain": "Septante y nonante son de Bélgica/Suiza; un char y magasiner son de Quebec."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronunciacion-general", "acentos-regionales"],
+      "difficulty": 2,
+      "prompt": "Hay un error: en Francia estándar se dice soixante-dix, no septante. Corrige la frase entera.",
+      "wrong": "En France, on dit septante pour soixante-dix.",
+      "accept": ["En France, on dit soixante-dix"],
+      "audio": "En France, on dit soixante-dix.",
+      "explain": "Septante se usa en Bélgica y Suiza; en Francia estándar se dice soixante-dix."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "septante", "es": "setenta (Bélgica, Suiza)", "esApprox": "«sep-TANT»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "nonante", "es": "noventa (Bélgica, Suiza)", "esApprox": "«no-NANT»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "magasiner", "es": "ir de compras (Quebec)", "esApprox": "«ma-ga-zi-NÉ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "un char", "es": "un coche (Quebec)", "esApprox": "«un SHAR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "une blonde / un chum", "es": "novia / novio (Quebec)", "esApprox": "«ün BLOND un CHOM»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "l'accent du Midi", "es": "el acento del sur de Francia", "esApprox": "«lak-SAN dü mi-DÍ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "En Belgique, on dit septante et nonante au lieu de soixante-dix et quatre-vingt-dix.", "es": "En Bélgica, se dice septante y nonante en lugar de soixante-dix y quatre-vingt-dix.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Au Québec, les gens magasinent avec leur char.", "es": "En Quebec, la gente va de compras con su coche.", "from": "e7" }
+  ]
+}

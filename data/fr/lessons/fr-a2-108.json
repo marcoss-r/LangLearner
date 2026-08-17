@@ -1,0 +1,248 @@
+{
+  "id": "fr-a2-108",
+  "lang": "fr",
+  "level": "A2",
+  "order": 108,
+  "title": "Contar una anécdota: estructura de un relato corto",
+  "objectives": [
+    "Estructurar un relato corto: situación (imparfait) + acción (passé composé) + resolución",
+    "Combinar todo lo aprendido sobre imparfait y passé composé (clases A2-101 a A2-107) en una historia completa",
+    "Terminar una anécdota con una reacción o una conclusión"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Las tres partes de una anécdota",
+      "body": "Una anécdota corta tiene tres partes: la situación (el fondo, en imparfait), la acción (lo que pasó, en passé composé), y la resolución o reacción (normalmente en passé composé también).",
+      "examples": [
+        { "target": "Il faisait beau, j'étais tranquille chez moi. Soudain, quelqu'un a frappé à la porte : c'était mon voisin. Il a perdu ses clés !", "es": "Hacía buen tiempo, estaba tranquilo en casa. De repente, alguien llamó a la puerta: era mi vecino. ¡Ha perdido sus llaves!", "note": "situación (imparfait) + acción (passé composé) + resolución" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las tres partes de la anécdota",
+      "headers": ["Parte", "Tiempo", "Función"],
+      "rows": [
+        ["Situación", "imparfait", "describe el fondo antes de que pase algo"],
+        ["Acción", "passé composé", "cuenta lo que ocurrió, el momento clave"],
+        ["Resolución", "passé composé (o imparfait, si es una explicación de fondo)", "cómo terminó o qué se descubrió"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No hace falta que la anécdota sea muy larga: tres o cuatro frases bien estructuradas, con el contraste imparfait/passé composé, ya suenan naturales en francés."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "c'est arrivé", "es": "pasó, ocurrió", "ipa": "/sɛ.t‿a.ʁi.ve/", "esApprox": "«se-ta-ri-VÉ»", "pos": "expresión", "gender": null, "example": { "target": "C'est arrivé hier soir.", "es": "Pasó anoche." } },
+    { "id": "v2", "target": "il paraît que", "es": "parece que", "ipa": "/il pa.ʁɛ kə/", "esApprox": "«il pa-RE ke»", "pos": "expresión", "gender": null, "example": { "target": "Il paraît qu'il a perdu ses clés.", "es": "Parece que ha perdido sus llaves." } },
+    { "id": "v3", "target": "finalement", "es": "finalmente, al final", "ipa": "/fi.nal.mɑ̃/", "esApprox": "«fi-nal-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "Finalement, tout s'est bien passé.", "es": "Finalmente, todo salió bien." } },
+    { "id": "v4", "target": "heureusement", "es": "afortunadamente", "ipa": "/œ.ʁøz.mɑ̃/", "esApprox": "«eu-reuz-MAN»", "pos": "adverbio", "gender": null, "example": { "target": "Heureusement, j'avais un double des clés.", "es": "Afortunadamente, tenía una copia de las llaves." } },
+    { "id": "v5", "target": "se passer", "es": "pasar, ocurrir", "ipa": "/sə pa.se/", "esApprox": "«se pa-SÉ»", "pos": "verbo", "gender": null, "example": { "target": "Qu'est-ce qui s'est passé ?", "es": "¿Qué pasó?" } },
+    { "id": "v6", "target": "un double des clés", "es": "una copia de llaves", "ipa": "/œ̃ dubl de kle/", "esApprox": "«un DUBL de KLÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'avais un double des clés.", "es": "Tenía una copia de las llaves." } },
+    { "id": "v7", "target": "tranquille", "es": "tranquilo/a", "ipa": "/tʁɑ̃.kil/", "esApprox": "«tran-KIL»", "pos": "adjetivo", "gender": "m/f", "example": { "target": "J'étais tranquille chez moi.", "es": "Estaba tranquilo en casa." } },
+    { "id": "v8", "target": "une bonne nouvelle", "es": "una buena noticia", "ipa": "/yn bɔn nu.vɛl/", "esApprox": "«ün BON nu-VEL»", "pos": "sustantivo", "gender": "f", "example": { "target": "Finalement, c'était une bonne nouvelle.", "es": "Finalmente, era una buena noticia." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["narracion", "imparfait"],
+      "difficulty": 2,
+      "prompt": "¿En qué tiempo va normalmente la situación de una anécdota?",
+      "options": ["passé composé", "imparfait", "futuro próximo", "presente"],
+      "answer": 1,
+      "explain": "La situación (el fondo) va en imparfait."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «¿qué pasó?»?",
+      "options": ["Qu'est-ce qui se passe ?", "Qu'est-ce qui s'est passé ?", "Qu'est-ce qui va se passer ?", "Qu'est-ce que c'est passé ?"],
+      "answer": 1,
+      "explain": "Qu'est-ce qui s'est passé ? (passé composé del verbo pronominal se passer)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "statement": "Una anécdota tiene tres partes: situación, acción y resolución.",
+      "answer": true,
+      "explain": "Es la estructura básica de cualquier relato corto."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "statement": "La acción principal de una anécdota suele ir en passé composé.",
+      "answer": true,
+      "explain": "Es el momento clave, con principio y fin claros."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["c'est arrivé", "finalement", "heureusement", "il paraît que"],
+      "right": ["parece que", "pasó", "afortunadamente", "finalmente"],
+      "answer": [1, 3, 2, 0],
+      "explain": "C'est arrivé = pasó, finalement = finalmente, heureusement = afortunadamente, il paraît que = parece que."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["narracion", "imparfait", "passe-compose"],
+      "difficulty": 2,
+      "prompt": "Hacía buen tiempo, estaba tranquilo en casa. De repente, alguien llamó a la puerta.",
+      "accept": ["Il faisait beau, j'étais tranquille chez moi. Soudain, quelqu'un a frappé à la porte"],
+      "hintWords": ["il faisait beau, j'étais tranquille chez moi", "soudain, quelqu'un a frappé à la porte"],
+      "strictAccents": true,
+      "audio": "Il faisait beau, j'étais tranquille chez moi. Soudain, quelqu'un a frappé à la porte.",
+      "explain": "Situación en imparfait, interrumpida por la acción en passé composé."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Perdió sus llaves, pero afortunadamente yo tenía una copia.",
+      "accept": ["Il a perdu ses clés, mais heureusement j'avais un double"],
+      "hintWords": ["il a perdu ses clés", "heureusement j'avais un double"],
+      "strictAccents": true,
+      "audio": "Il a perdu ses clés, mais heureusement j'avais un double.",
+      "explain": "Heureusement + explicación de fondo (avais un double)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Completa el final de la anécdota",
+      "text": "___, tout s'est bien passé.",
+      "blanks": [{ "accept": ["Finalement"] }],
+      "bank": ["Finalement", "Soudain", "Pendant que"],
+      "explain": "Finalement introduce la resolución de una anécdota."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Qué pasó anoche?»",
+      "tokens": ["hier soir", "Qu'est-ce qui s'est passé", "?"],
+      "answer": ["Qu'est-ce qui s'est passé", "hier soir", "?"],
+      "audio": "Qu'est-ce qui s'est passé hier soir ?",
+      "explain": "Qu'est-ce qui s'est passé + hier soir."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Il paraît que c'est arrivé hier soir, mais finalement tout s'est bien passé.",
+      "accept": ["Parece que pasó anoche, pero finalmente todo salió bien."],
+      "strictAccents": false,
+      "audio": "Il paraît que c'est arrivé hier soir, mais finalement tout s'est bien passé.",
+      "explain": "Il paraît que + finalement, dos expresiones de narración."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre una anécdota",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce qui s'est passé hier soir ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Mon voisin a perdu ses clés.", "Il a frappé à ma porte."], "hint": "cuenta el momento clave en passé composé" },
+        { "who": "Léa", "text": "Oh non ! Et finalement ?", "speak": true }
+      ],
+      "explain": "Qu'est-ce qui s'est passé...? se responde con el momento clave de la anécdota."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["narracion", "imparfait", "passe-compose"],
+      "difficulty": 2,
+      "speak": "Il faisait beau, j'étais tranquille. Soudain, quelqu'un a frappé à la porte : il a perdu ses clés.",
+      "mode": "write",
+      "accept": ["Il faisait beau, j'étais tranquille. Soudain, quelqu'un a frappé à la porte : il a perdu ses clés"],
+      "showTextAfter": true,
+      "explain": "Anécdota completa: situación, acción, y explicación de fondo."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["narracion"],
+      "difficulty": 1,
+      "speak": "heureusement",
+      "mode": "choose",
+      "options": ["finalement", "heureusement", "soudain", "d'habitude"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Heureusement = afortunadamente."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["narracion", "imparfait", "passe-compose"],
+      "difficulty": 3,
+      "speak": "Il faisait beau, j'étais tranquille chez moi. Soudain, quelqu'un a frappé à la porte : c'était mon voisin. Il a perdu ses clés, mais heureusement j'avais un double. Finalement, tout s'est bien passé.",
+      "es": "Hacía buen tiempo, estaba tranquilo en casa. De repente, alguien llamó a la puerta: era mi vecino. Perdió sus llaves, pero afortunadamente yo tenía una copia. Finalmente, todo salió bien.",
+      "ipa": "/il fə.zɛ bo ʒe.tɛ tʁɑ̃.kil ʃe mwa su.dɛ̃ kɛl.kœ̃ a fʁa.pe a la pɔʁt sɛ.tɛ mɔ̃ vwa.zɛ̃ i.l‿a.vɛ pɛʁ.dy se kle mɛ œ.ʁøz.mɑ̃ ʒa.vɛ œ̃ dubl fi.nal.mɑ̃ tu sɛ bjɛ̃ pa.se/",
+      "esApprox": "«il fe-ZE bo ye-TE tran-KIL she MUÁ su-DEN kel-KUN a fra-PÉ a la PORT se-TE mon vuá-ZEN i-la-VE per-DÜ se KLÉ me eu-reuz-MAN ya-VE un DUBL fi-nal-MAN tu se bien pa-SÉ»",
+      "focus": "Una anécdota completa de cinco frases, con las tres partes: situación, acción y resolución.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Cuenta una pequeña anécdota con situación, acción y resolución.",
+      "modelAnswer": "Il faisait beau, j'étais tranquille. Soudain, le téléphone a sonné. Finalement, c'était une bonne nouvelle.",
+      "alsoValid": ["J'étais fatigué. Soudain, quelqu'un a frappé à la porte. Heureusement, c'était un ami."],
+      "speak": "Il faisait beau, j'étais tranquille. Soudain, le téléphone a sonné. Finalement, c'était une bonne nouvelle.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "¿Es situación, acción o resolución?",
+      "buckets": ["Situación", "Acción", "Resolución"],
+      "items": [
+        { "text": "Il faisait beau, j'étais tranquille.", "bucket": 0 },
+        { "text": "Quelqu'un a frappé à la porte.", "bucket": 1 },
+        { "text": "Finalement, tout s'est bien passé.", "bucket": 2 }
+      ],
+      "explain": "Las tres partes de la estructura de una anécdota."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["narracion"],
+      "difficulty": 2,
+      "prompt": "Hay un error de tiempo verbal en la situación. Corrige la frase entera.",
+      "wrong": "Il a fait beau, j'ai été tranquille chez moi.",
+      "accept": ["Il faisait beau, j'étais tranquille chez moi"],
+      "audio": "Il faisait beau, j'étais tranquille chez moi.",
+      "explain": "La situación de fondo va en imparfait, no en passé composé."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "c'est arrivé", "es": "pasó, ocurrió", "esApprox": "«se-ta-ri-VÉ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "il paraît que", "es": "parece que", "esApprox": "«il pa-RE ke»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "finalement", "es": "finalmente, al final", "esApprox": "«fi-nal-MAN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "heureusement", "es": "afortunadamente", "esApprox": "«eu-reuz-MAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "se passer", "es": "pasar, ocurrir", "esApprox": "«se pa-SÉ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Il faisait beau, j'étais tranquille chez moi. Soudain, quelqu'un a frappé à la porte.", "es": "Hacía buen tiempo, estaba tranquilo en casa. De repente, alguien llamó a la puerta.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Il a perdu ses clés, mais heureusement j'avais un double.", "es": "Perdió sus llaves, pero afortunadamente yo tenía una copia.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Qu'est-ce qui s'est passé hier soir ?", "es": "¿Qué pasó anoche?", "from": "e9" }
+  ]
+}

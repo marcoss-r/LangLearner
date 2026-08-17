@@ -1,0 +1,247 @@
+{
+  "id": "fr-b1-205",
+  "lang": "fr",
+  "level": "B1",
+  "order": 205,
+  "title": "Repaso activo XX (clases 196–204)",
+  "objectives": [
+    "Repasar los relativos dont, lequel y ce qui/ce que/ce dont",
+    "Repasar los conectores de secuencia, contraste y consecuencia",
+    "Practicar la estructura de una opinión argumentada y de un debate"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso del Bloque R: relativas y discurso",
+      "body": "Sin gramática nueva. El Bloque R ha cubierto los relativos avanzados y los conectores del discurso, todo orientado a estructurar una opinión, resumir y debatir. Hoy lo repasas todo junto."
+    },
+    {
+      "type": "table",
+      "title": "Resumen de relativos avanzados",
+      "headers": ["Relativo", "Uso", "Ejemplo"],
+      "rows": [
+        ["dont", "de + sustantivo", "le livre dont je parle"],
+        ["lequel/laquelle", "preposición + cosa", "la ville dans laquelle j'habite"],
+        ["ce qui/ce que/ce dont", "sin antecedente", "ce qui m'intéresse"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Estructura de discurso",
+      "body": "Con d'abord/ensuite/enfin para la secuencia, cependant para el matiz, y par conséquent/en conclusion para cerrar, ya puedes estructurar cualquier opinión o debate en francés."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le livre dont je parle", "es": "el libro del que hablo", "ipa": "/lə livʁ dɔ̃ ʒə paʁl/", "esApprox": "«le LIVR don ye PARL»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "la ville dans laquelle j'habite", "es": "la ciudad en la que vivo", "ipa": "/la vil dɑ̃ la.kɛl ʒa.bit/", "esApprox": "«la VIL dan la-KEL sha-BIT»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "ce qui m'intéresse", "es": "lo que me interesa", "ipa": "/sə ki mɛ̃.te.ʁɛs/", "esApprox": "«se KI min-te-RES»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "d'abord", "es": "primero", "ipa": "/da.bɔʁ/", "esApprox": "«da-BOR»", "pos": "adverbio", "gender": null },
+    { "id": "v5", "target": "cependant", "es": "sin embargo", "ipa": "/sə.pɑ̃.dɑ̃/", "esApprox": "«se-pan-DAN»", "pos": "conjunción", "gender": null },
+    { "id": "v6", "target": "par conséquent", "es": "por consiguiente", "ipa": "/paʁ kɔ̃.se.kɑ̃/", "esApprox": "«par kon-se-KAN»", "pos": "conjunción", "gender": null },
+    { "id": "v7", "target": "en résumé", "es": "en resumen", "ipa": "/ɑ̃ ʁe.zy.me/", "esApprox": "«an re-zü-MÉ»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "les partisans de", "es": "los partidarios de", "ipa": "/le paʁ.ti.zɑ̃ də/", "esApprox": "«le par-ti-ZAN de»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "¿Qué sustituye dont?",
+      "options": ["à + sustantivo", "de + sustantivo", "en + sustantivo", "pour + sustantivo"],
+      "answer": 1,
+      "explain": "Repaso de la clase B1-196."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál usas cuando «lo que» es el sujeto?",
+      "options": ["ce qui", "ce que", "ce dont", "qui"],
+      "answer": 0,
+      "explain": "Repaso de la clase B1-198."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["conectores"],
+      "difficulty": 2,
+      "statement": "En conclusion cierra un texto o discurso entero, no una consecuencia puntual.",
+      "answer": true,
+      "explain": "Repaso de la clase B1-201."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "statement": "À laquelle se contrae en alaquelle.",
+      "answer": false,
+      "explain": "Repaso de la clase B1-197: à laquelle no se contrae."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su función",
+      "left": ["dont", "ce qui", "cependant", "par conséquent"],
+      "right": ["consecuencia", "de + sustantivo", "contraste", "sujeto sin antecedente"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Dont = de + sustantivo, ce qui = sujeto sin antecedente, cependant = contraste, par conséquent = consecuencia."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "El libro del que hablo es el que me interesa más.",
+      "accept": ["Le livre dont je parle est celui qui m'intéresse le plus"],
+      "hintWords": ["le livre dont je parle", "est celui qui m'intéresse le plus"],
+      "strictAccents": true,
+      "audio": "Le livre dont je parle est celui qui m'intéresse le plus.",
+      "explain": "Repaso combinado de dont y qui."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["argumentacion"],
+      "difficulty": 2,
+      "prompt": "En mi opinión, primero hay que actuar; sin embargo, hace falta ser prudente.",
+      "accept": ["À mon avis, d'abord il faut agir, cependant il faut être prudent"],
+      "hintWords": ["à mon avis, d'abord il faut agir", "cependant il faut être prudent"],
+      "strictAccents": true,
+      "audio": "À mon avis, d'abord il faut agir, cependant il faut être prudent.",
+      "explain": "Repaso combinado de la estructura de opinión."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "___ compte, c'est ta santé, et ___, il faut en prendre soin.",
+      "blanks": [{ "accept": ["Ce qui"] }, { "accept": ["par conséquent"] }],
+      "bank": ["Ce qui", "par conséquent", "ce que"],
+      "explain": "Ce qui (sujeto) y par conséquent (consecuencia)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["resumen"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «En resumen, hay pros y contras»",
+      "tokens": ["il y a du pour et du contre", "En résumé"],
+      "answer": ["En résumé", "il y a du pour et du contre"],
+      "audio": "En résumé, il y a du pour et du contre.",
+      "explain": "Repaso de la clase B1-203 y B1-204."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Les partisans de cette idée pensent que c'est utile, mais en résumé, il y a du pour et du contre.",
+      "accept": ["Los partidarios de esta idea piensan que es útil, pero en resumen, hay pros y contras."],
+      "strictAccents": false,
+      "audio": "Les partisans de cette idée pensent que c'est utile, mais en résumé, il y a du pour et du contre.",
+      "explain": "Repaso combinado de debate y resumen."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación con una expresión del bloque",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu en penses ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["À mon avis, il y a du pour et du contre.", "En résumé, je suis plutôt pour."], "hint": "usa una expresión del Bloque R" },
+        { "who": "Léa", "text": "Merci pour ton avis.", "speak": true }
+      ],
+      "explain": "Repaso combinado del Bloque R."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "speak": "Le livre dont je parle est celui qui m'intéresse le plus, et en résumé, je le recommande.",
+      "mode": "write",
+      "accept": ["Le livre dont je parle est celui qui m'intéresse le plus, et en résumé, je le recommande"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de relativos y fórmulas de resumen."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["repaso"],
+      "difficulty": 1,
+      "speak": "cependant",
+      "mode": "choose",
+      "options": ["donc", "cependant", "d'abord", "ainsi"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Cependant es el único conector de contraste de esta lista."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["repaso"],
+      "difficulty": 3,
+      "speak": "Le livre dont je parle est celui qui m'intéresse le plus. À mon avis, d'abord il faut le lire, cependant il faut être critique. En résumé, je le recommande.",
+      "es": "El libro del que hablo es el que más me interesa. En mi opinión, primero hay que leerlo, sin embargo hay que ser crítico. En resumen, lo recomiendo.",
+      "ipa": "/lə livʁ dɔ̃ ʒə paʁl ɛ sə.lɥi ki mɛ̃.te.ʁɛs lə plys a mɔ̃.n‿a.vi da.bɔʁ il fo lə liʁ sə.pɑ̃.dɑ̃ il fo ɛtʁ kʁi.tik ɑ̃ ʁe.zy.me ʒə lə ʁə.kɔ.mɑ̃d/",
+      "esApprox": "«le LIVR don ye PARL e se-LÜÍ ki min-te-RES le PLÜS a mon-na-VÍ da-BOR il FO le LIR se-pan-DAN il FO ETR kri-TIK an re-zü-MÉ ye le re-ko-MAND»",
+      "focus": "Repaso final: relativos, opinión estructurada y resumen encadenados.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "Combina un relativo (dont, lequel o ce qui), un conector de contraste, y una fórmula de resumen.",
+      "modelAnswer": "Le livre dont je parle m'intéresse, cependant il est un peu long. En résumé, je le recommande quand même.",
+      "alsoValid": ["Ce qui compte, c'est ce que tu fais, pas ce que tu dis."],
+      "speak": "Le livre dont je parle m'intéresse, cependant il est un peu long. En résumé, je le recommande quand même.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["repaso"],
+      "difficulty": 2,
+      "prompt": "¿Es un relativo o un conector del discurso?",
+      "buckets": ["Relativo", "Conector del discurso"],
+      "items": [
+        { "text": "dont", "bucket": 0 },
+        { "text": "cependant", "bucket": 1 },
+        { "text": "ce qui", "bucket": 0 },
+        { "text": "par conséquent", "bucket": 1 }
+      ],
+      "explain": "Dont y ce qui son relativos; cependant y par conséquent son conectores del discurso."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "prompt": "Hay un error: parler de pide dont, no que. Corrige la frase entera.",
+      "wrong": "Voici le livre que je parle.",
+      "accept": ["Voici le livre dont je parle"],
+      "audio": "Voici le livre dont je parle.",
+      "explain": "Parler de pide dont, no que, en la frase relativa."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "le livre dont je parle", "es": "el libro del que hablo", "esApprox": "«le LIVR don ye PARL»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "la ville dans laquelle j'habite", "es": "la ciudad en la que vivo", "esApprox": "«la VIL dan la-KEL sha-BIT»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "ce qui m'intéresse", "es": "lo que me interesa", "esApprox": "«se KI min-te-RES»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "d'abord", "es": "primero", "esApprox": "«da-BOR»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "cependant", "es": "sin embargo", "esApprox": "«se-pan-DAN»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "en résumé", "es": "en resumen", "esApprox": "«an re-zü-MÉ»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Le livre dont je parle est celui qui m'intéresse le plus.", "es": "El libro del que hablo es el que me interesa más.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "À mon avis, d'abord il faut agir, cependant il faut être prudent.", "es": "En mi opinión, primero hay que actuar; sin embargo, hace falta ser prudente.", "from": "e7" }
+  ]
+}

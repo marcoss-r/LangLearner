@@ -1,0 +1,325 @@
+{
+  "id": "fr-a1-022",
+  "lang": "fr",
+  "level": "A1",
+  "order": 22,
+  "title": "Las palabras interrogativas: qui, que, où, quand, comment, pourquoi",
+  "objectives": [
+    "Usar qui, que, où, quand, comment y pourquoi para preguntar por información concreta",
+    "Combinar las interrogativas con est-ce que: qui est-ce que, qu'est-ce que...",
+    "Responder a pourquoi con parce que"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Seis palabras para seis preguntas básicas",
+      "body": "Además de las preguntas de sí/no de la clase anterior, el francés tiene palabras interrogativas para pedir información concreta: **qui** (quién), **que/qu'** (qué), **où** (dónde), **quand** (cuándo), **comment** (cómo) y **pourquoi** (por qué). Se combinan con est-ce que igual que en la clase 21.",
+      "examples": [
+        { "target": "Qui est-ce ?", "es": "¿Quién es?", "note": "qui, para personas" },
+        { "target": "Qu'est-ce que c'est ?", "es": "¿Qué es esto?", "note": "que → qu' delante de vocal" },
+        { "target": "Où est-ce que tu habites ?", "es": "¿Dónde vives?", "note": "où + est-ce que" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las seis interrogativas",
+      "headers": ["Francés", "Español", "Ejemplo"],
+      "rows": [
+        ["qui", "quién", "Qui est-ce ?"],
+        ["que / qu'", "qué", "Qu'est-ce que tu as ?"],
+        ["où", "dónde", "Où habites-tu ?"],
+        ["quand", "cuándo", "Quand est-ce que tu arrives ?"],
+        ["comment", "cómo", "Comment tu t'appelles ?"],
+        ["pourquoi", "por qué", "Pourquoi tu es fatigué ?"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Qui es para personas, que es para cosas",
+      "items": [
+        { "wrong": "Usar que para preguntar por una persona", "right": "qui c'est ? (para personas) frente a qu'est-ce que c'est ? (para cosas)", "why": "Igual que en español distinguimos «quién» de «qué», el francés distingue qui (personas) de que (cosas). No se mezclan." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para responder a una pregunta con pourquoi, se usa **parce que** (parce qu' delante de vocal): «Pourquoi tu es fatigué ? — Parce que je n'ai pas dormi.» (¿Por qué estás cansado? — Porque no he dormido)."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "qui",
+      "es": "quién",
+      "ipa": "/ki/",
+      "esApprox": "«ki»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Qui est-ce ?", "es": "¿Quién es?" }
+    },
+    {
+      "id": "v2",
+      "target": "que / qu'",
+      "es": "qué",
+      "ipa": "/kə/",
+      "esApprox": "«ke»",
+      "pos": "pronombre",
+      "gender": null,
+      "example": { "target": "Qu'est-ce que tu as ?", "es": "¿Qué te pasa?" }
+    },
+    {
+      "id": "v3",
+      "target": "où",
+      "es": "dónde",
+      "ipa": "/u/",
+      "esApprox": "«u»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Où habites-tu ?", "es": "¿Dónde vives?" }
+    },
+    {
+      "id": "v4",
+      "target": "quand",
+      "es": "cuándo",
+      "ipa": "/kɑ̃/",
+      "esApprox": "«kan»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Quand est-ce que tu arrives ?", "es": "¿Cuándo llegas?" }
+    },
+    {
+      "id": "v5",
+      "target": "comment",
+      "es": "cómo",
+      "ipa": "/kɔ.mɑ̃/",
+      "esApprox": "«ko-MAN»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Comment tu t'appelles ?", "es": "¿Cómo te llamas?" }
+    },
+    {
+      "id": "v6",
+      "target": "pourquoi",
+      "es": "por qué",
+      "ipa": "/puʁ.kwa/",
+      "esApprox": "«pur-KUÁ»",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Pourquoi tu es fatigué ?", "es": "¿Por qué estás cansado?" }
+    },
+    {
+      "id": "v7",
+      "target": "parce que / parce qu'",
+      "es": "porque",
+      "ipa": "/paʁs kə/",
+      "esApprox": "«pars-KE»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Parce que je n'ai pas dormi.", "es": "Porque no he dormido." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["interrogativos"],
+      "difficulty": 1,
+      "prompt": "¿Qué palabra usas para preguntar «¿dónde?»",
+      "options": ["quand", "où", "comment", "pourquoi"],
+      "answer": 1,
+      "explain": "Où = dónde."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "prompt": "Para preguntar por una persona («¿quién?»), usas...",
+      "options": ["que", "qui", "où", "quand"],
+      "answer": 1,
+      "explain": "Qui es para personas; que es para cosas."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["interrogativos"],
+      "difficulty": 1,
+      "statement": "Pourquoi se responde con parce que.",
+      "answer": true,
+      "explain": "Pourquoi (¿por qué?) → parce que (porque)."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO es una interrogativa?",
+      "options": ["comment", "quand", "parce que", "pourquoi"],
+      "answer": 2,
+      "explain": "Parce que es la respuesta a pourquoi, no una pregunta."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["interrogativos"],
+      "difficulty": 1,
+      "prompt": "Une cada interrogativa con su significado",
+      "left": ["qui", "que", "quand", "comment"],
+      "right": ["cómo", "quién", "qué", "cuándo"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Qui = quién, que = qué, quand = cuándo, comment = cómo."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "prompt": "¿Dónde vives?",
+      "accept": ["Où habites-tu ?", "Où est-ce que tu habites ?"],
+      "hintWords": ["où"],
+      "strictAccents": false,
+      "audio": "Où habites-tu ?",
+      "explain": "Où + inversión, o où + est-ce que + frase normal."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "prompt": "¿Por qué estás cansado?",
+      "accept": ["Pourquoi tu es fatigué ?", "Pourquoi es-tu fatigué ?"],
+      "hintWords": ["pourquoi"],
+      "strictAccents": false,
+      "audio": "Pourquoi tu es fatigué ?",
+      "explain": "Pourquoi + frase (entonación) o pourquoi + inversión."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "prompt": "Completa la pregunta",
+      "text": "___ tu t'appelles ?",
+      "blanks": [{ "accept": ["Comment"] }],
+      "bank": ["Comment", "Quand", "Pourquoi"],
+      "explain": "Comment tu t'appelles ? = ¿Cómo te llamas?"
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la pregunta: «¿Cuándo llegas?»",
+      "tokens": ["arrives", "tu", "Quand", "?"],
+      "answer": ["Quand", "tu", "arrives", "?"],
+      "audio": "Quand tu arrives ?",
+      "explain": "Quand + frase normal, en registro hablado."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["interrogativos"],
+      "difficulty": 1,
+      "prompt": "Pourquoi tu es fatigué ? Parce que je n'ai pas dormi.",
+      "accept": ["¿Por qué estás cansado? Porque no he dormido."],
+      "strictAccents": false,
+      "audio": "Pourquoi tu es fatigué ? Parce que je n'ai pas dormi.",
+      "explain": "Pourquoi / parce que: pregunta y respuesta van siempre juntas."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre dónde vives",
+      "turns": [
+        { "who": "Léa", "text": "Où est-ce que tu habites ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["J'habite à Madrid.", "J'habite à Barcelone."], "hint": "di dónde vives" },
+        { "who": "Léa", "text": "Ah, et depuis quand ?", "speak": true }
+      ],
+      "explain": "Où est-ce que tu habites ? es la forma neutra, útil en cualquier situación."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["interrogativos"],
+      "difficulty": 1,
+      "speak": "Comment tu t'appelles ?",
+      "mode": "write",
+      "accept": ["Comment tu t'appelles ?"],
+      "showTextAfter": true,
+      "explain": "Comment tu t'appelles ? = ¿Cómo te llamas?"
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "speak": "Qui est-ce ?",
+      "mode": "choose",
+      "options": ["Qui est-ce ?", "Qu'est-ce que c'est ?", "Où est-ce ?", "Comment est-ce ?"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Qui est-ce ? pregunta por una persona: ¿quién es?"
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["interrogativos"],
+      "difficulty": 3,
+      "speak": "Qui est-ce ? Où habite-t-il ? Pourquoi il est fatigué ?",
+      "es": "¿Quién es? ¿Dónde vive? ¿Por qué está cansado?",
+      "ipa": "/ki ɛs u a.bit il puʁ.kwa il ɛ fa.ti.ɡe/",
+      "esApprox": "«ki ES u a-BIT il pur-KUÁ il e fa-ti-GHÉ»",
+      "focus": "Tres interrogativas seguidas: mantén el ritmo sin pausas largas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "prompt": "Pregúntale a alguien nuevo cómo se llama y dónde vive.",
+      "modelAnswer": "Comment tu t'appelles ? Où habites-tu ?",
+      "alsoValid": ["Comment tu t'appelles, et où est-ce que tu habites ?"],
+      "speak": "Comment tu t'appelles ? Où habites-tu ?",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "prompt": "¿Pregunta por personas o por cosas?",
+      "buckets": ["Personas (qui)", "Cosas (que)"],
+      "items": [
+        { "text": "Qui est-ce ?", "bucket": 0 },
+        { "text": "Qu'est-ce que c'est ?", "bucket": 1 },
+        { "text": "Qui habite ici ?", "bucket": 0 },
+        { "text": "Qu'est-ce que tu as ?", "bucket": 1 }
+      ],
+      "explain": "Qui siempre pregunta por personas; que/qu' siempre pregunta por cosas."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["interrogativos"],
+      "difficulty": 2,
+      "prompt": "Hay un error: usan que en vez de qui. Corrige la frase entera.",
+      "wrong": "Que est-ce ?",
+      "accept": ["Qui est-ce ?"],
+      "audio": "Qui est-ce ?",
+      "explain": "Para preguntar por una persona, se usa qui, no que."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "qui", "es": "quién", "esApprox": "«ki»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "que / qu'", "es": "qué", "esApprox": "«ke»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "où", "es": "dónde", "esApprox": "«u»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "quand", "es": "cuándo", "esApprox": "«kan»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "comment", "es": "cómo", "esApprox": "«ko-MAN»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "pourquoi", "es": "por qué", "esApprox": "«pur-KUÁ»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "parce que / parce qu'", "es": "porque", "esApprox": "«pars-KE»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "Comment tu t'appelles ?", "es": "¿Cómo te llamas?", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "Qui est-ce ? Où habite-t-il ? Pourquoi il est fatigué ?", "es": "¿Quién es? ¿Dónde vive? ¿Por qué está cansado?", "from": "e14" }
+  ]
+}

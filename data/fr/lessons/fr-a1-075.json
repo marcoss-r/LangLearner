@@ -1,0 +1,260 @@
+{
+  "id": "fr-a1-075",
+  "lang": "fr",
+  "level": "A1",
+  "order": 75,
+  "title": "El futuro próximo: aller + infinitivo",
+  "objectives": [
+    "Formar el futuro próximo: aller (presente, clase 35) + infinitivo",
+    "Usar el futuro próximo para hablar de planes e intenciones cercanas",
+    "Negar el futuro próximo: ne + aller + pas + infinitivo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Aller + infinitivo",
+      "body": "Para hablar de algo que vas a hacer pronto, usa aller en presente (clase 35) seguido de un infinitivo. Es la forma más habitual de hablar del futuro cercano en francés, mucho más que el futuro simple.",
+      "examples": [
+        { "target": "Je vais manger, puis je vais travailler.", "es": "Voy a comer, luego voy a trabajar.", "note": "aller (presente) + infinitivo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Aller + infinitivo, todas las personas",
+      "headers": ["Persona", "Forma"],
+      "rows": [
+        ["je", "vais + infinitif"],
+        ["tu", "vas + infinitif"],
+        ["il / elle", "va + infinitif"],
+        ["nous", "allons + infinitif"],
+        ["vous", "allez + infinitif"],
+        ["ils / elles", "vont + infinitif"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "La negación del futuro próximo",
+      "items": [
+        { "wrong": "Je vais ne pas travailler.", "right": "Je ne vais pas travailler.", "why": "Ne...pas (clase 19) rodea el verbo conjugado (aller), no el infinitivo: ne + vais + pas + travailler." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Demain (mañana), ce soir (esta noche) y bientôt (pronto) son marcadores de tiempo muy habituales con el futuro próximo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "aller + infinitif", "es": "ir a + infinitivo (futuro próximo)", "ipa": "/a.le/", "esApprox": "«a-LÉ»", "pos": "expresión", "gender": null, "example": { "target": "Je vais partir demain.", "es": "Voy a salir mañana." } },
+    { "id": "v2", "target": "demain", "es": "mañana", "ipa": "/də.mɛ̃/", "esApprox": "«de-MEN»", "pos": "adverbio", "gender": null, "example": { "target": "Je vais travailler demain.", "es": "Voy a trabajar mañana." } },
+    { "id": "v3", "target": "ce soir", "es": "esta noche", "ipa": "/sə swaʁ/", "esApprox": "«se SUAR»", "pos": "expresión", "gender": null, "example": { "target": "Nous allons manger ce soir.", "es": "Vamos a comer esta noche." } },
+    { "id": "v4", "target": "bientôt", "es": "pronto", "ipa": "/bjɛ̃.to/", "esApprox": "«bien-TÓ»", "pos": "adverbio", "gender": null, "example": { "target": "Ça va commencer bientôt.", "es": "Va a empezar pronto." } },
+    { "id": "v5", "target": "partir", "es": "salir, marcharse", "ipa": "/paʁ.tiʁ/", "esApprox": "«par-TIR»", "pos": "verbo", "gender": null, "example": { "target": "Je vais partir dans dix minutes.", "es": "Voy a salir en diez minutos." } },
+    { "id": "v6", "target": "commencer", "es": "empezar", "ipa": "/kɔ.mɑ̃.se/", "esApprox": "«ko-man-SÉ»", "pos": "verbo", "gender": null, "example": { "target": "Le cours va commencer.", "es": "La clase va a empezar." } },
+    { "id": "v7", "target": "finir bientôt", "es": "terminar pronto", "ipa": "/fi.niʁ bjɛ̃.to/", "esApprox": "«fi-NIR bien-TÓ»", "pos": "expresión", "gender": null, "example": { "target": "Le film va finir bientôt.", "es": "La película va a terminar pronto." } },
+    { "id": "v8", "target": "Qu'est-ce que tu vas faire ?", "es": "¿Qué vas a hacer?", "ipa": "/kɛs.kə ty va fɛʁ/", "esApprox": "«kes-ke tü va FER»", "pos": "expresión", "gender": null, "example": { "target": "Qu'est-ce que tu vas faire ce soir ?", "es": "¿Qué vas a hacer esta noche?" } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «voy a trabajar»?",
+      "options": ["Je travaille aller.", "Je vais travailler.", "Je vais travaille.", "Je va travailler."],
+      "answer": 1,
+      "explain": "Aller (presente) + infinitivo: je vais travailler."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la negación correcta de «je vais manger»?",
+      "options": ["Je vais ne pas manger.", "Je ne vais pas manger.", "Je ne mange pas aller.", "Je vais pas manger ne."],
+      "answer": 1,
+      "explain": "Ne...pas rodea el verbo conjugado aller: je ne vais pas manger."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["futuro-proximo"],
+      "difficulty": 1,
+      "statement": "El futuro próximo se forma con aller en presente + infinitivo.",
+      "answer": true,
+      "explain": "Aller (presente, clase 35) + infinitivo."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas no es correcta para «nous»?",
+      "options": ["nous allons manger", "nous allons travailler", "nous vais partir", "nous allons finir"],
+      "answer": 2,
+      "explain": "Con nous se usa allons, no vais (que es de je)."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "Une cada persona con su forma de aller",
+      "left": ["je", "tu", "nous", "ils"],
+      "right": ["allons", "vais", "vont", "vas"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Je vais, tu vas, nous allons, ils vont."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "Voy a comer, y luego voy a trabajar.",
+      "accept": ["Je vais manger, et ensuite je vais travailler"],
+      "hintWords": ["je vais manger", "ensuite je vais travailler"],
+      "strictAccents": false,
+      "audio": "Je vais manger, et ensuite je vais travailler.",
+      "explain": "Aller + infinitivo, dos veces seguidas con ensuite (clase 40)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "No voy a trabajar mañana, voy a salir con mis amigos.",
+      "accept": ["Je ne vais pas travailler demain, je vais partir avec mes amis"],
+      "hintWords": ["je ne vais pas travailler demain", "je vais partir avec mes amis"],
+      "strictAccents": false,
+      "audio": "Je ne vais pas travailler demain, je vais partir avec mes amis.",
+      "explain": "Negación del futuro próximo + futuro próximo afirmativo."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de aller",
+      "text": "Vous ___ manger, et nous ___ regarder un film.",
+      "blanks": [{ "accept": ["allez"] }, { "accept": ["allons"] }],
+      "bank": ["allez", "allons", "vont"],
+      "explain": "Vous allez, nous allons."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La clase va a empezar pronto»",
+      "tokens": ["bientôt", "va commencer", "Le cours"],
+      "answer": ["Le cours", "va commencer", "bientôt"],
+      "audio": "Le cours va commencer bientôt.",
+      "explain": "Le cours + va (aller) + commencer + bientôt."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["futuro-proximo"],
+      "difficulty": 1,
+      "prompt": "Ils vont partir demain, mais elle va rester ce soir.",
+      "accept": ["Ellos van a salir mañana, pero ella va a quedarse esta noche."],
+      "strictAccents": false,
+      "audio": "Ils vont partir demain, mais elle va rester ce soir.",
+      "explain": "Ils vont (aller) + partir; elle va (aller) + rester."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus planes",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu vas faire ce soir ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je vais manger avec ma famille.", "Je vais travailler ce soir."], "hint": "usa aller + infinitivo" },
+        { "who": "Léa", "text": "Super, amuse-toi bien !", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu vas faire...? se responde con aller + infinitivo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "speak": "Je vais partir demain, et je ne vais pas travailler ce week-end.",
+      "mode": "write",
+      "accept": ["Je vais partir demain, et je ne vais pas travailler ce week-end"],
+      "showTextAfter": true,
+      "explain": "Futuro próximo afirmativo y negativo en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["futuro-proximo"],
+      "difficulty": 1,
+      "speak": "nous allons manger",
+      "mode": "choose",
+      "options": ["je vais manger", "nous allons manger", "ils vont manger", "vous allez manger"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Nous allons manger = vamos a comer."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["futuro-proximo"],
+      "difficulty": 3,
+      "speak": "Demain, je vais me lever tôt, je vais travailler, et le soir je vais me reposer.",
+      "es": "Mañana, voy a levantarme temprano, voy a trabajar, y por la noche voy a descansar.",
+      "ipa": "/də.mɛ̃ ʒə vɛ mə lə.ve to ʒə vɛ tʁa.vaj.e e lə swaʁ ʒə vɛ mə ʁə.po.ze/",
+      "esApprox": "«de-MEN ye ve me le-VÉ TÓ ye ve tra-va-YÉ e le SUAR ye ve me re-po-ZÉ»",
+      "focus": "Tres planes seguidos con aller + infinitivo, incluyendo un pronominal.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "Di tres cosas que vas a hacer mañana.",
+      "modelAnswer": "Demain, je vais travailler, je vais manger avec des amis et je vais me reposer.",
+      "alsoValid": ["Je vais faire du sport et je vais étudier."],
+      "speak": "Demain, je vais travailler, je vais manger avec des amis et je vais me reposer.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "¿Es afirmativo o negativo?",
+      "buckets": ["Afirmativo", "Negativo"],
+      "items": [
+        { "text": "Je vais travailler.", "bucket": 0 },
+        { "text": "Je ne vais pas travailler.", "bucket": 1 },
+        { "text": "Nous allons partir.", "bucket": 0 },
+        { "text": "Ils ne vont pas manger.", "bucket": 1 }
+      ],
+      "explain": "Ne...pas alrededor de aller marca la negación del futuro próximo."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["futuro-proximo"],
+      "difficulty": 2,
+      "prompt": "Hay un error de posición de la negación. Corrige la frase entera.",
+      "wrong": "Je vais ne pas manger.",
+      "accept": ["Je ne vais pas manger"],
+      "audio": "Je ne vais pas manger.",
+      "explain": "Ne...pas rodea el verbo conjugado (aller), no el infinitivo."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "aller + infinitif", "es": "ir a + infinitivo (futuro próximo)", "esApprox": "«a-LÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "demain", "es": "mañana", "esApprox": "«de-MEN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ce soir", "es": "esta noche", "esApprox": "«se SUAR»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "bientôt", "es": "pronto", "esApprox": "«bien-TÓ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "partir", "es": "salir, marcharse", "esApprox": "«par-TIR»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Je vais manger, et ensuite je vais travailler.", "es": "Voy a comer, y luego voy a trabajar.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "Je ne vais pas travailler demain, je vais partir avec mes amis.", "es": "No voy a trabajar mañana, voy a salir con mis amigos.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "Le cours va commencer bientôt.", "es": "La clase va a empezar pronto.", "from": "e9" }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-159",
+  "lang": "de",
+  "level": "A2",
+  "order": 159,
+  "title": "Würde + infinitivo: el condicional de todos los días",
+  "objectives": [
+    "Formar el condicional cotidiano con würde + infinitivo",
+    "Usar würde para casi cualquier verbo, en lugar del Konjunktiv II propio",
+    "Colocar el infinitivo al final de la frase, como con werden y los modales"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "würde + infinitivo: el condicional práctico",
+      "body": "Aunque cada verbo tiene teóricamente su propio Konjunktiv II, en la práctica casi todos los verbos (excepto sein, haben, werden y los modales) usan la construcción würde + infinitivo, igual que el Futur I pero con würde en vez de werden. «Ich würde das gern machen» (Me gustaría hacerlo), «Ich würde nicht so viel arbeiten» (Yo no trabajaría tanto).",
+      "examples": [
+        { "target": "Ich würde das gern machen.", "es": "Me gustaría hacerlo." },
+        { "target": "An deiner Stelle würde ich das nicht kaufen.", "es": "En tu lugar, yo no compraría eso." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "würde + infinitivo",
+      "headers": ["Persona", "würde", "+ infinitivo (final)"],
+      "rows": [
+        ["ich", "würde", "machen"],
+        ["du", "würdest", "machen"],
+        ["er / sie / es", "würde", "machen"],
+        ["wir", "würden", "machen"],
+        ["ihr", "würdet", "machen"],
+        ["sie / Sie", "würden", "machen"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "«An deiner/seiner/ihrer Stelle» (en tu/su lugar) es una fórmula muy usada con würde para dar consejos: «An deiner Stelle würde ich mehr schlafen» (En tu lugar, yo dormiría más)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "würde machen", "es": "haría", "ipa": "/ˈvʏʁdə ˈmaxn̩/", "esApprox": "«VUR-de MA-jen»", "pos": "verbo (Konjunktiv II perifrástico)", "gender": null, "example": { "target": "Ich würde das gern machen.", "es": "Me gustaría hacerlo." } },
+    { "id": "v2", "target": "an deiner Stelle", "es": "en tu lugar", "ipa": "/an ˈdaɪ̯nɐ ˈʃtɛlə/", "esApprox": "«an DÁI-ner SHTÉ-le»", "pos": "locución", "gender": null, "example": { "target": "An deiner Stelle würde ich das nicht kaufen.", "es": "En tu lugar, yo no compraría eso." } },
+    { "id": "v3", "target": "der Rat", "es": "el consejo", "ipa": "/ʁaːt/", "esApprox": "«rat»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich hätte einen Rat für dich.", "es": "Tendría un consejo para ti." } },
+    { "id": "v4", "target": "raten", "es": "aconsejar", "ipa": "/ˈʁaːtn̩/", "esApprox": "«RÁ-ten»", "pos": "verbo", "gender": null, "example": { "target": "Was würdest du mir raten?", "es": "¿Qué me aconsejarías?" } },
+    { "id": "v5", "target": "lieber", "es": "mejor, preferiblemente", "ipa": "/ˈliːbɐ/", "esApprox": "«LÍ-ber»", "pos": "adverbio", "gender": null, "example": { "target": "Ich würde lieber zu Hause bleiben.", "es": "Preferiría quedarme en casa." } },
+    { "id": "v6", "target": "an seiner Stelle", "es": "en su lugar", "ipa": "/an ˈzaɪ̯nɐ ˈʃtɛlə/", "esApprox": "«an ZÁI-ner SHTÉ-le»", "pos": "locución", "gender": null, "example": { "target": "An seiner Stelle würde ich mehr schlafen.", "es": "En su lugar, yo dormiría más." } },
+    { "id": "v7", "target": "die Entscheidung", "es": "la decisión", "ipa": "/ɛntˈʃaɪ̯dʊŋ/", "esApprox": "«ent-SHÁI-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das wäre eine gute Entscheidung.", "es": "Esa sería una buena decisión." } },
+    { "id": "v8", "target": "überlegen", "es": "reflexionar, pensárselo", "ipa": "/yːbɐˈleːɡn̩/", "esApprox": "«iu-ber-LÉ-guen»", "pos": "verbo", "gender": null, "example": { "target": "Ich würde das noch überlegen.", "es": "Todavía me lo pensaría." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["wurde"], "difficulty": 1, "prompt": "¿Qué verbos usan casi siempre würde + infinitivo en vez de su propio Konjunktiv II?", "options": ["sein y haben", "los modales", "casi todos los demás verbos", "werden"], "answer": 2, "explain": "sein, haben, werden y los modales tienen su propio Konjunktiv II; el resto usa würde + infinitivo." },
+    { "id": "e2", "type": "mcq", "tags": ["wurde"], "difficulty": 2, "prompt": "¿Dónde va el infinitivo con würde?", "options": ["Posición 1", "Posición 2", "Al final", "Después de würde"], "answer": 2, "explain": "würde (posición 2) + infinitivo al final, igual que werden." },
+    { "id": "e3", "type": "true_false", "tags": ["wurde"], "difficulty": 2, "statement": "«An deiner Stelle» se usa para dar consejos con würde.", "answer": true, "explain": "An deiner Stelle würde ich... es la fórmula típica del consejo." },
+    { "id": "e4", "type": "true_false", "tags": ["wurde"], "difficulty": 2, "statement": "würde solo puede usarse con verbos irregulares.", "answer": false, "explain": "würde + infinitivo funciona con casi cualquier verbo, regular o irregular." },
+    { "id": "e5", "type": "match_pairs", "tags": ["wurde"], "difficulty": 2, "prompt": "Une la persona con su forma de würde", "left": ["ich", "du", "wir", "ihr"], "right": ["würde", "würdest", "würden", "würdet"], "answer": [0, 1, 2, 3], "explain": "Conjugación de würde, idéntica a werden en Konjunktiv II." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["wurde"], "difficulty": 2, "prompt": "Me gustaría hacerlo.", "accept": ["Ich würde das gern machen"], "hintWords": ["ich würde das gern machen"], "strictAccents": false, "audio": "Ich würde das gern machen.", "explain": "würde + das gern + machen (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["wurde"], "difficulty": 2, "prompt": "En tu lugar, yo no compraría eso.", "accept": ["An deiner Stelle würde ich das nicht kaufen"], "hintWords": ["an deiner stelle würde ich das nicht kaufen"], "strictAccents": false, "audio": "An deiner Stelle würde ich das nicht kaufen.", "explain": "An deiner Stelle (posición 1) + würde (posición 2) + ich + das nicht + kaufen (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["wurde"], "difficulty": 2, "prompt": "Preferiría quedarme en casa.", "accept": ["Ich würde lieber zu Hause bleiben"], "hintWords": ["ich würde lieber zu hause bleiben"], "strictAccents": false, "audio": "Ich würde lieber zu Hause bleiben.", "explain": "würde lieber + zu Hause + bleiben (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["wurde"], "difficulty": 2, "prompt": "Completa con la forma correcta de würde", "text": "Was ___ du mir raten? Wir ___ das noch überlegen.", "blanks": [{ "accept": ["würdest"] }, { "accept": ["würden"] }], "bank": ["würdest", "würden", "würde"], "explain": "du würdest; wir würden." },
+    { "id": "e10", "type": "word_order", "tags": ["wurde"], "difficulty": 2, "prompt": "Ordena: «En su lugar, yo dormiría más»", "tokens": ["würde ich mehr schlafen", "An seiner Stelle"], "answer": ["An seiner Stelle", "würde ich mehr schlafen"], "audio": "An seiner Stelle würde ich mehr schlafen.", "explain": "An seiner Stelle (posición 1) + würde (posición 2)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["wurde"], "difficulty": 2, "prompt": "Das wäre eine gute Entscheidung.", "accept": ["Esa sería una buena decisión."], "strictAccents": false, "audio": "Das wäre eine gute Entscheidung.", "explain": "die Entscheidung = la decisión." },
+    { "id": "e12", "type": "dialogue", "tags": ["wurde"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was würdest du mir raten?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["An deiner Stelle würde ich das nicht kaufen."], "hint": "da un consejo con an deiner Stelle" },
+      { "who": "Lea", "text": "Guter Rat!", "speak": true }
+    ], "explain": "an deiner Stelle würde ich...: fórmula de consejo con würde." },
+    { "id": "e13", "type": "listening", "tags": ["wurde"], "difficulty": 1, "speak": "Ich würde das gern machen.", "mode": "write", "accept": ["Ich würde das gern machen"], "showTextAfter": true, "explain": "würde + gern + machen." },
+    { "id": "e14", "type": "listening", "tags": ["wurde"], "difficulty": 2, "speak": "Ich würde lieber zu Hause bleiben.", "mode": "choose", "options": ["Ich würde lieber zu Hause bleiben.", "Ich werde lieber zu Hause bleiben.", "Ich würde lieber zu Hause geblieben."], "answer": 0, "showTextAfter": true, "explain": "würde + infinitivo (bleiben): la forma correcta del condicional." },
+    { "id": "e15", "type": "shadowing", "tags": ["wurde"], "difficulty": 2, "speak": "An deiner Stelle würde ich das noch überlegen, denn das wäre eine wichtige Entscheidung.", "es": "En tu lugar, todavía me lo pensaría, porque esa sería una decisión importante.", "ipa": "/an ˈdaɪ̯nɐ ˈʃtɛlə ˈvʏʁdə ɪç das nɔx yːbɐˈleːɡn̩ dɛn das ˈvɛːʁə ˈaɪ̯nə ˈvɪçtɪɡə ɛntˈʃaɪ̯dʊŋ/", "esApprox": "«an DÁI-ner SHTÉ-le VUR-de ich das noj iu-ber-LÉ-guen, den das VÉ-re ÁI-ne VICH-ti-ge ent-SHÁI-dung»", "focus": "würde...überlegen y wäre: dos formas del Konjunktiv II en la misma frase de consejo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["wurde"], "difficulty": 2, "speak": "Was würdest du mir raten? Ich würde lieber zu Hause bleiben, aber ich würde das gern noch mit dir besprechen.", "es": "¿Qué me aconsejarías? Preferiría quedarme en casa, pero me gustaría hablarlo aún contigo.", "ipa": "/vas ˈvʏʁdəst duː miːɐ̯ ˈʁaːtn̩ ɪç ˈvʏʁdə ˈliːbɐ tsuː ˈhaʊ̯zə ˈblaɪ̯bn̩ ˈaːbɐ ɪç ˈvʏʁdə das ɡɛʁn nɔx mɪt diːɐ̯ bəˈʃpʁɛçn̩/", "esApprox": "«vas VUR-dest du mir RÁ-ten, ich VUR-de LÍ-ber tsu JÁO-ze BLÁI-ben, Á-ber ich VUR-de das guern noj mit dir be-SHPRÉ-jen»", "focus": "würdest, würde...bleiben, würde...besprechen: würde con distintos infinitivos.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["wurde"], "difficulty": 2, "prompt": "Un amigo te pide consejo. Dile que en su lugar tú no comprarías eso.", "modelAnswer": "An deiner Stelle würde ich das nicht kaufen.", "alsoValid": ["An deiner Stelle würde ich es nicht kaufen."], "speak": "An deiner Stelle würde ich das nicht kaufen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["wurde"], "difficulty": 2, "prompt": "Clasifica: forma propia del Konjunktiv II o würde + infinitivo", "buckets": ["Forma propia (wäre/hätte)", "würde + infinitivo"], "items": [
+      { "text": "Ich wäre gern reich.", "bucket": 0 },
+      { "text": "Ich würde das gern machen.", "bucket": 1 },
+      { "text": "Ich würde lieber bleiben.", "bucket": 1 }
+    ], "explain": "sein/haben tienen forma propia; el resto de verbos usa würde + infinitivo." },
+    { "id": "e19", "type": "error_correction", "tags": ["wurde"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich würde das gern gemacht.", "accept": ["Ich würde das gern machen"], "audio": "Ich würde das gern machen.", "explain": "Tras würde va el infinitivo (machen), no el participio (gemacht)." },
+    { "id": "e20", "type": "mcq", "tags": ["wurde"], "difficulty": 2, "prompt": "«Was würdest du mir raten? An deiner Stelle würde ich das noch überlegen. Ich würde lieber eine gute Entscheidung treffen als schnell zu handeln.» ¿Qué consejo se sugiere?", "options": ["Decidir rápido", "Pensárselo bien antes de decidir", "No decidir nunca", "Pedir más consejos"], "answer": 1, "explain": "«würde ich das noch überlegen» y «lieber eine gute Entscheidung treffen» sugieren pensárselo bien." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "würde machen", "es": "haría", "esApprox": "«VUR-de MA-jen»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "an deiner Stelle", "es": "en tu lugar", "esApprox": "«an DÁI-ner SHTÉ-le»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Rat", "es": "el consejo", "esApprox": "«rat»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "raten", "es": "aconsejar", "esApprox": "«RÁ-ten»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "lieber", "es": "mejor, preferiblemente", "esApprox": "«LÍ-ber»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Entscheidung", "es": "la decisión", "esApprox": "«ent-SHÁI-dung»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "An deiner Stelle würde ich das noch überlegen, denn das wäre eine wichtige Entscheidung.", "es": "En tu lugar, todavía me lo pensaría, porque esa sería una decisión importante.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Was würdest du mir raten? Ich würde lieber zu Hause bleiben, aber ich würde das gern noch mit dir besprechen.", "es": "¿Qué me aconsejarías? Preferiría quedarme en casa, pero me gustaría hablarlo aún contigo.", "from": "e16" }
+  ]
+}

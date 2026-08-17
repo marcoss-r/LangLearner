@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-221",
+  "lang": "de",
+  "level": "B1",
+  "order": 221,
+  "title": "La vivienda: alquilar, comprar y los contratos",
+  "objectives": [
+    "Aprender vocabulario sobre contratos de alquiler y compra de vivienda",
+    "Distinguir der Vermieter (el arrendador) de der Mieter (el inquilino)",
+    "Hablar de las condiciones de un contrato: die Kündigungsfrist, die Nebenkosten"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de los contratos de vivienda",
+      "body": "Más allá del vocabulario básico de vivienda (clase 140), el B1 añade el lenguaje de los contratos: «der Mietvertrag» (el contrato de alquiler), «der Vermieter» (el arrendador) y «der Mieter» (el inquilino), «die Kündigungsfrist» (el plazo de preaviso para rescindir) y «die Nebenkosten» (los gastos adicionales, como calefacción o comunidad).",
+      "examples": [
+        { "target": "Ich habe den Mietvertrag unterschrieben.", "es": "He firmado el contrato de alquiler." },
+        { "target": "Die Kündigungsfrist beträgt drei Monate.", "es": "El plazo de preaviso es de tres meses." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario clave de los contratos de vivienda",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["der Mietvertrag", "el contrato de alquiler"],
+        ["der Vermieter / die Mieterin", "el arrendador / la inquilina"],
+        ["die Kündigungsfrist", "el plazo de preaviso"],
+        ["die Nebenkosten", "los gastos adicionales"],
+        ["die Eigentumswohnung", "el piso en propiedad"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "kündigen significa «rescindir, dar de baja» (un contrato, un trabajo): «Ich möchte meinen Mietvertrag kündigen» (Quiero rescindir mi contrato de alquiler). No confundas kündigen con künden, que no existe en este sentido."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Mietvertrag", "es": "el contrato de alquiler", "ipa": "/ˈmiːtfɛɐ̯tʁaːk/", "esApprox": "«MIT-fer-trak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe den Mietvertrag unterschrieben.", "es": "He firmado el contrato de alquiler." } },
+    { "id": "v2", "target": "der Vermieter", "es": "el arrendador", "ipa": "/fɛɐ̯ˈmiːtɐ/", "esApprox": "«fer-MI-ter»", "pos": "sustantivo", "gender": "m", "example": { "target": "Mein Vermieter ist sehr freundlich.", "es": "Mi arrendador es muy amable." } },
+    { "id": "v3", "target": "der Mieter", "es": "el inquilino", "ipa": "/ˈmiːtɐ/", "esApprox": "«MÍ-ter»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich bin seit zwei Jahren Mieter.", "es": "Soy inquilino desde hace dos años." } },
+    { "id": "v4", "target": "die Kündigungsfrist", "es": "el plazo de preaviso", "ipa": "/ˈkʏndɪɡʊŋsfʁɪst/", "esApprox": "«KÜN-di-gungs-frist»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Kündigungsfrist beträgt drei Monate.", "es": "El plazo de preaviso es de tres meses." } },
+    { "id": "v5", "target": "die Nebenkosten", "es": "los gastos adicionales", "ipa": "/ˈneːbn̩kɔstn̩/", "esApprox": "«NÉ-ben-kos-ten»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "Die Nebenkosten sind hoch.", "es": "Los gastos adicionales son altos." } },
+    { "id": "v6", "target": "kündigen", "es": "rescindir, dar de baja", "ipa": "/ˈkʏndɪɡn̩/", "esApprox": "«KÜN-di-guen»", "pos": "verbo", "gender": null, "example": { "target": "Ich möchte meinen Mietvertrag kündigen.", "es": "Quiero rescindir mi contrato de alquiler." } },
+    { "id": "v7", "target": "die Eigentumswohnung", "es": "el piso en propiedad", "ipa": "/ˈaɪ̯gn̩tuːmsvoːnʊŋ/", "esApprox": "«ÁI-guen-tums-vo-nung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wir kaufen eine Eigentumswohnung.", "es": "Compramos un piso en propiedad." } },
+    { "id": "v8", "target": "der Immobilienmakler", "es": "el agente inmobiliario", "ipa": "/ɪmoˈbiːli̯ənˌmaklɐ/", "esApprox": "«i-mo-BÍ-lien-mak-ler»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Immobilienmakler hat uns geholfen.", "es": "El agente inmobiliario nos ayudó." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["vivienda", "contratos"], "difficulty": 1, "prompt": "¿Cómo se dice «el arrendador»?", "options": ["der Mieter", "der Vermieter", "der Makler", "der Nachbar"], "answer": 1, "explain": "der Vermieter = el arrendador; der Mieter = el inquilino." },
+    { "id": "e2", "type": "mcq", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "¿Qué significa «kündigen»?", "options": ["Firmar", "Rescindir, dar de baja", "Alquilar", "Comprar"], "answer": 1, "explain": "kündigen = rescindir un contrato." },
+    { "id": "e3", "type": "true_false", "tags": ["vivienda", "contratos"], "difficulty": 2, "statement": "die Nebenkosten son parte del alquiler mensual básico.", "answer": false, "explain": "die Nebenkosten son gastos adicionales aparte de la renta básica (calefacción, comunidad...)." },
+    { "id": "e4", "type": "true_false", "tags": ["vivienda", "contratos"], "difficulty": 2, "statement": "die Eigentumswohnung se refiere a un piso en propiedad, no de alquiler.", "answer": true, "explain": "die Eigentumswohnung = piso en propiedad (comprado), frente a la Mietwohnung (piso de alquiler)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Mietvertrag", "die Kündigungsfrist", "die Nebenkosten", "der Immobilienmakler"], "right": ["el contrato de alquiler", "el plazo de preaviso", "los gastos adicionales", "el agente inmobiliario"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "He firmado el contrato de alquiler.", "accept": ["Ich habe den Mietvertrag unterschrieben"], "hintWords": ["ich habe den Mietvertrag unterschrieben"], "strictAccents": false, "audio": "Ich habe den Mietvertrag unterschrieben.", "explain": "habe + den Mietvertrag + unterschrieben (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "El plazo de preaviso es de tres meses.", "accept": ["Die Kündigungsfrist beträgt drei Monate"], "hintWords": ["die Kündigungsfrist beträgt drei Monate"], "strictAccents": false, "audio": "Die Kündigungsfrist beträgt drei Monate.", "explain": "Die Kündigungsfrist (sujeto) + beträgt (posición 2) + drei Monate." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "Quiero rescindir mi contrato de alquiler.", "accept": ["Ich möchte meinen Mietvertrag kündigen"], "hintWords": ["ich möchte meinen Mietvertrag kündigen"], "strictAccents": false, "audio": "Ich möchte meinen Mietvertrag kündigen.", "explain": "möchte + meinen Mietvertrag + kündigen (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Die ___ sind hoch. Wir kaufen eine ___.", "blanks": [{ "accept": ["Nebenkosten"] }, { "accept": ["Eigentumswohnung"] }], "bank": ["Nebenkosten", "Eigentumswohnung", "Kündigungsfrist"], "explain": "die Nebenkosten y die Eigentumswohnung." },
+    { "id": "e10", "type": "word_order", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "Ordena: «El agente inmobiliario nos ayudó»", "tokens": ["hat uns geholfen", "Der Immobilienmakler"], "answer": ["Der Immobilienmakler", "hat uns geholfen"], "audio": "Der Immobilienmakler hat uns geholfen.", "explain": "Der Immobilienmakler (sujeto) + hat (posición 2) + uns + geholfen (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "Mein Vermieter ist sehr freundlich.", "accept": ["Mi arrendador es muy amable."], "strictAccents": false, "audio": "Mein Vermieter ist sehr freundlich.", "explain": "der Vermieter = el arrendador." },
+    { "id": "e12", "type": "dialogue", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Vermieter", "text": "Möchten Sie den Mietvertrag verlängern?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nein, ich möchte ihn kündigen."], "hint": "responde que quieres rescindirlo" },
+      { "who": "Vermieter", "text": "Verstanden, dann beachten Sie die Kündigungsfrist.", "speak": true }
+    ], "explain": "kündigen: conversación típica sobre un contrato de alquiler." },
+    { "id": "e13", "type": "listening", "tags": ["vivienda", "contratos"], "difficulty": 1, "speak": "Ich habe den Mietvertrag unterschrieben.", "mode": "write", "accept": ["Ich habe den Mietvertrag unterschrieben"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["vivienda", "contratos"], "difficulty": 2, "speak": "Die Kündigungsfrist beträgt drei Monate.", "mode": "choose", "options": ["Die Kündigungsfrist beträgt drei Monate.", "Die Nebenkosten betragen drei Monate.", "Der Mietvertrag beträgt drei Monate."], "answer": 0, "showTextAfter": true, "explain": "die Kündigungsfrist es lo que se mide en meses aquí." },
+    { "id": "e15", "type": "shadowing", "tags": ["vivienda", "contratos"], "difficulty": 2, "speak": "Ich habe den Mietvertrag unterschrieben, aber die Nebenkosten sind höher, als ich dachte.", "es": "He firmado el contrato de alquiler, pero los gastos adicionales son más altos de lo que pensaba.", "ipa": "/ɪç ˈhaːbə deːn ˈmiːtfɛɐ̯tʁaːk ˈʊntɐʃʁiːbn̩ ˈaːbɐ diː ˈneːbn̩kɔstn̩ zɪnt ˈhøːɐ̯ als ɪç ˈdaxtə/", "esApprox": "«ich JÁ-be den MIT-fer-trak ÚN-ter-shri-ben, Á-ber di NÉ-ben-kos-ten zint JÖR als ich DAJ-te»", "focus": "Mietvertrag y Nebenkosten: dos elementos clave de un contrato de alquiler real.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["vivienda", "contratos"], "difficulty": 2, "speak": "Der Immobilienmakler hat uns geholfen, eine Eigentumswohnung zu finden, und die Kündigungsfrist unseres alten Mietvertrags beträgt drei Monate.", "es": "El agente inmobiliario nos ayudó a encontrar un piso en propiedad, y el plazo de preaviso de nuestro antiguo contrato de alquiler es de tres meses.", "ipa": "/deːɐ̯ ɪmoˈbiːli̯ənmaklɐ hat ʊns ɡəˈhɔlfn̩ ˈaɪ̯nə ˈaɪ̯gn̩tuːmsvoːnʊŋ tsuː ˈfɪndn̩ ʊnt diː ˈkʏndɪɡʊŋsfʁɪst ˈʊnzəʁəs ˈaltn̩ ˈmiːtfɛɐ̯tʁaːks bəˈtʁɛːkt dʁaɪ̯ ˈmoːnatə/", "esApprox": "«der i-mo-BÍ-lien-mak-ler jat uns ge-JÓL-fen, ÁI-ne ÁI-guen-tums-vo-nung tsu FÍN-den, unt di KÜN-di-gungs-frist ÚN-ze-res ÁL-ten MIT-fer-traks be-TRECT drai MÓ-na-te»", "focus": "Immobilienmakler, Eigentumswohnung y Kündigungsfrist: vocabulario completo del proceso de cambio de vivienda.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "Le dices a tu casero que quieres rescindir el contrato de alquiler.", "modelAnswer": "Ich möchte meinen Mietvertrag kündigen.", "alsoValid": ["Ich möchte den Mietvertrag kündigen."], "speak": "Ich möchte meinen Mietvertrag kündigen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "Clasifica cada palabra según su relación con el alquiler o la compra", "buckets": ["Alquiler", "Compra"], "items": [
+      { "text": "der Vermieter", "bucket": 0 },
+      { "text": "die Kündigungsfrist", "bucket": 0 },
+      { "text": "die Eigentumswohnung", "bucket": 1 },
+      { "text": "der Immobilienmakler", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario de vivienda del B1, aunque el Immobilienmakler ayuda en ambos casos." },
+    { "id": "e19", "type": "error_correction", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Mein Mieter ist sehr freundlich. (hablando de quien te alquila el piso)", "accept": ["Mein Vermieter ist sehr freundlich"], "audio": "Mein Vermieter ist sehr freundlich.", "explain": "Quien alquila el piso (el propietario) es der Vermieter, no der Mieter (que es el inquilino)." },
+    { "id": "e20", "type": "mcq", "tags": ["vivienda", "contratos"], "difficulty": 2, "prompt": "«Der Immobilienmakler hat uns geholfen, eine Eigentumswohnung zu finden. Die Kündigungsfrist unseres alten Mietvertrags beträgt drei Monate.» ¿Qué van a hacer con el contrato antiguo?", "options": ["Renovarlo", "Rescindirlo, con un preaviso de tres meses", "Nada, seguirá igual", "Venderlo"], "answer": 1, "explain": "El contexto (comprar una vivienda nueva y mencionar la Kündigungsfrist) indica que van a rescindir el contrato de alquiler antiguo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Mietvertrag", "es": "el contrato de alquiler", "esApprox": "«MIT-fer-trak»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Vermieter", "es": "el arrendador", "esApprox": "«fer-MI-ter»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Mieter", "es": "el inquilino", "esApprox": "«MÍ-ter»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Kündigungsfrist", "es": "el plazo de preaviso", "esApprox": "«KÜN-di-gungs-frist»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Nebenkosten", "es": "los gastos adicionales", "esApprox": "«NÉ-ben-kos-ten»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "kündigen", "es": "rescindir, dar de baja", "esApprox": "«KÜN-di-guen»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Ich habe den Mietvertrag unterschrieben, aber die Nebenkosten sind höher, als ich dachte.", "es": "He firmado el contrato de alquiler, pero los gastos adicionales son más altos de lo que pensaba.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Immobilienmakler hat uns geholfen, eine Eigentumswohnung zu finden, und die Kündigungsfrist unseres alten Mietvertrags beträgt drei Monate.", "es": "El agente inmobiliario nos ayudó a encontrar un piso en propiedad, y el plazo de preaviso de nuestro antiguo contrato de alquiler es de tres meses.", "from": "e16" }
+  ]
+}

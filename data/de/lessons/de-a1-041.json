@@ -1,0 +1,331 @@
+{
+  "id": "de-a1-041",
+  "lang": "de",
+  "level": "A1",
+  "order": 41,
+  "title": "Preposiciones de acusativo: durch, für, gegen, ohne, um",
+  "objectives": [
+    "Aprender las cinco preposiciones que rigen siempre acusativo: durch, für, gegen, ohne, um",
+    "Aplicar el acusativo obligatoriamente después de estas preposiciones, sin excepción",
+    "Distinguirlas de las siete preposiciones de dativo ya conocidas (clase 40)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cinco preposiciones que exigen acusativo siempre",
+      "body": "Igual que aus, bei, mit, nach, seit, von y zu rigen siempre dativo, hay otro grupo de preposiciones que rige siempre acusativo: durch, für, gegen, ohne y um. Son solo cinco, más fáciles de memorizar que las siete de dativo.",
+      "examples": [
+        { "target": "Das Geschenk ist für den Mann.", "es": "El regalo es para el hombre.", "note": "für + acusativo" },
+        { "target": "Ich fahre ohne dich.", "es": "Voy sin ti.", "note": "ohne + acusativo (dich)" },
+        { "target": "Ich fahre durch den Park.", "es": "Paso a través del parque.", "note": "durch + acusativo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las cinco preposiciones de acusativo",
+      "headers": ["Preposición", "Significado", "Ejemplo"],
+      "rows": [
+        ["durch", "a través de", "Ich fahre durch den Park."],
+        ["für", "para", "Das Geschenk ist für den Mann."],
+        ["gegen", "contra", "Er spielt gegen den Mann."],
+        ["ohne", "sin", "Ich fahre ohne dich."],
+        ["um", "alrededor de", "Ich fahre um den Park."]
+      ],
+      "note": "Estas cinco preposiciones se conocen a veces con el acrónimo DOGUF (durch, ohne, gegen, um, für): todas exigen acusativo, sin excepción."
+    },
+    {
+      "type": "tip",
+      "body": "A diferencia de zu/bei/von, estas cinco preposiciones casi no se contraen en el habla cotidiana: se dice für den, durch den, sin acortar. Solo für das y um das tienen contracciones (fürs, ums), pero son menos frecuentes que zum o beim."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "durch",
+      "es": "a través de",
+      "ipa": "/dʊʁç/",
+      "esApprox": "«durch», con ich-Laut al final",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Ich fahre durch den Park.", "es": "Paso a través del parque." }
+    },
+    {
+      "id": "v2",
+      "target": "für",
+      "es": "para",
+      "ipa": "/fyːɐ̯/",
+      "esApprox": "«für»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Das Geschenk ist für den Mann.", "es": "El regalo es para el hombre." }
+    },
+    {
+      "id": "v3",
+      "target": "gegen",
+      "es": "contra",
+      "ipa": "/ˈɡeːɡn̩/",
+      "esApprox": "«GUÉ-guen»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Er spielt gegen den Mann.", "es": "Él juega contra el hombre." }
+    },
+    {
+      "id": "v4",
+      "target": "ohne",
+      "es": "sin",
+      "ipa": "/ˈoːnə/",
+      "esApprox": "«Ó-ne»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Ich fahre ohne dich.", "es": "Voy sin ti." }
+    },
+    {
+      "id": "v5",
+      "target": "um",
+      "es": "alrededor de",
+      "ipa": "/ʊm/",
+      "esApprox": "«um»",
+      "pos": "preposición",
+      "gender": null,
+      "example": { "target": "Ich fahre um den Park.", "es": "Doy la vuelta al parque." }
+    },
+    {
+      "id": "v6",
+      "target": "der Park",
+      "es": "el parque",
+      "ipa": "/paʁk/",
+      "esApprox": "«park»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Parks",
+      "example": { "target": "Der Park ist schön.", "es": "El parque es bonito." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["acusativo", "preposiciones"],
+      "difficulty": 1,
+      "prompt": "¿Qué caso rigen für, durch, gegen, ohne y um?",
+      "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"],
+      "answer": 1,
+      "explain": "Estas cinco preposiciones rigen siempre acusativo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["preposiciones"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «ohne»?",
+      "options": ["con", "sin", "contra", "para"],
+      "answer": 1,
+      "explain": "ohne = sin."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["preposiciones"],
+      "difficulty": 1,
+      "statement": "Für rige acusativo.",
+      "answer": true,
+      "explain": "für es una de las cinco preposiciones de acusativo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["preposiciones"],
+      "difficulty": 1,
+      "statement": "Durch, für, gegen, ohne y um rigen dativo.",
+      "answer": false,
+      "explain": "Rigen acusativo, no dativo; las de dativo son aus, bei, mit, nach, seit, von, zu."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas NO es una preposición de acusativo?",
+      "options": ["für", "durch", "mit", "um"],
+      "answer": 2,
+      "explain": "mit rige dativo (clase 40), no acusativo."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Une cada preposición con su significado",
+      "left": ["für", "gegen", "ohne", "durch"],
+      "right": ["para", "contra", "sin", "a través de"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Cuatro de las cinco preposiciones de acusativo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "El regalo es para el hombre.",
+      "accept": ["Das Geschenk ist für den Mann"],
+      "hintWords": ["das Geschenk ist für den Mann"],
+      "strictAccents": false,
+      "audio": "Das Geschenk ist für den Mann.",
+      "explain": "für + den Mann (acusativo)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Voy sin ti.",
+      "accept": ["Ich fahre ohne dich"],
+      "hintWords": ["ich fahre ohne dich"],
+      "strictAccents": false,
+      "audio": "Ich fahre ohne dich.",
+      "explain": "ohne + dich (pronombre en acusativo, clase 26)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Completa con la preposición correcta",
+      "text": "Das Geschenk ist ___ den Mann. Ich fahre ___ den Park.",
+      "blanks": [{ "accept": ["für"] }, { "accept": ["durch"] }],
+      "bank": ["für", "durch", "ohne"],
+      "explain": "für (para) y durch (a través de), ambas con acusativo."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Él juega contra el hombre»",
+      "tokens": ["Mann", "Er", "gegen", "spielt", "den"],
+      "answer": ["Er", "spielt", "gegen", "den", "Mann"],
+      "audio": "Er spielt gegen den Mann.",
+      "explain": "Er spielt + gegen den Mann (acusativo)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Ich fahre um den Park.",
+      "accept": ["Doy la vuelta al parque.", "Voy alrededor del parque."],
+      "strictAccents": false,
+      "audio": "Ich fahre um den Park.",
+      "explain": "um + acusativo, con el sentido de «alrededor de»."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Ist das Geschenk für mich?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, das Geschenk ist für dich."], "hint": "responde que sí, que el regalo es para ella (usa dich)" },
+        { "who": "Anna", "text": "Danke!", "speak": true }
+      ],
+      "explain": "für mich (para mí) en la pregunta, für dich (para ti) en la respuesta."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "speak": "Das Geschenk ist für den Mann.",
+      "mode": "write",
+      "accept": ["Das Geschenk ist für den Mann"],
+      "showTextAfter": true,
+      "explain": "Das Geschenk ist für den Mann = el regalo es para el hombre."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "speak": "Ich fahre durch den Park.",
+      "mode": "choose",
+      "options": ["Ich fahre durch den Park.", "Ich fahre um den Park.", "Ich fahre gegen den Park."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "durch, um y gegen cambian completamente el sentido de la frase."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "speak": "Das Geschenk ist für dich, nicht für mich.",
+      "es": "El regalo es para ti, no para mí.",
+      "ipa": "/das ɡəˈʃɛŋk ɪst fyːɐ̯ dɪç nɪçt fyːɐ̯ mɪç/",
+      "esApprox": "«das gue-SHENK ist für dich, nicht für mich»",
+      "focus": "für lleva la ü labializada: pon la boca de u y di i.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "speak": "Ich fahre durch den Park, und dann um den Park.",
+      "es": "Paso a través del parque, y luego alrededor del parque.",
+      "ipa": "/ɪç ˈfaːʁə dʊʁç deːn paʁk ʊnt dan ʊm deːn paʁk/",
+      "esApprox": "«ich FÁ-re durch den park unt dan um den park»",
+      "focus": "durch termina en ich-Laut suave; um es una sílaba corta y cerrada.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si el regalo es para ti. Responde que sí, que es para ti.",
+      "modelAnswer": "Ja, das Geschenk ist für mich.",
+      "alsoValid": ["Das Geschenk ist für mich."],
+      "speak": "Ja, das Geschenk ist für mich.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada preposición: ¿acusativo o dativo?",
+      "buckets": ["Acusativo", "Dativo"],
+      "items": [
+        { "text": "für", "bucket": 0 },
+        { "text": "durch", "bucket": 0 },
+        { "text": "mit", "bucket": 1 },
+        { "text": "von", "bucket": 1 },
+        { "text": "ohne", "bucket": 0 }
+      ],
+      "explain": "für, durch y ohne son de acusativo; mit y von, de dativo."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["preposiciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Das Geschenk ist für dem Mann.",
+      "accept": ["Das Geschenk ist für den Mann"],
+      "audio": "Das Geschenk ist für den Mann.",
+      "explain": "für rige acusativo, no dativo: dem debe ser den."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "durch", "es": "a través de", "esApprox": "«durch»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "für", "es": "para", "esApprox": "«für»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "gegen", "es": "contra", "esApprox": "«GUÉ-guen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "ohne", "es": "sin", "esApprox": "«Ó-ne»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "um", "es": "alrededor de", "esApprox": "«um»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Park", "es": "el parque", "esApprox": "«park»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Das Geschenk ist für dich, nicht für mich.", "es": "El regalo es para ti, no para mí.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich fahre durch den Park, und dann um den Park.", "es": "Paso a través del parque, y luego alrededor del parque.", "from": "e16" },
+    { "id": "s9", "kind": "phrase", "target": "Ich fahre ohne dich.", "es": "Voy sin ti.", "from": "e8" }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "fr-b1-224",
+  "lang": "fr",
+  "level": "B1",
+  "order": 224,
+  "title": "La vivienda: alquilar, comprar y los contratos",
+  "objectives": [
+    "Usar el vocabulario de alquilar: louer, signer un bail, verser une caution",
+    "Usar el vocabulario de comprar: acheter un bien immobilier, un prêt immobilier",
+    "Distinguir le propriétaire de le locataire"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Alquilar o comprar",
+      "body": "Este vocabulario cubre los trámites de vivienda en francés: desde firmar un contrato de alquiler hasta pedir un préstamo hipotecario para comprar."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de vivienda",
+      "headers": ["Expresión", "Significado"],
+      "rows": [
+        ["louer un appartement", "alquilar un piso"],
+        ["signer un bail", "firmar un contrato de alquiler"],
+        ["verser une caution", "pagar una fianza"],
+        ["un état des lieux", "un inventario del estado del piso"],
+        ["acheter un bien immobilier", "comprar un inmueble"],
+        ["un prêt immobilier", "un préstamo hipotecario"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Propriétaire frente a locataire",
+      "body": "Le propriétaire es el dueño de la vivienda; le locataire es quien la alquila. No los confundas: el locataire paga el loyer al propriétaire."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "louer un appartement", "es": "alquilar un piso", "ipa": "/lwe œ̃.n‿a.paʁ.tə.mɑ̃/", "esApprox": "«lu-É un-na-par-te-MAN»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "acheter un bien immobilier", "es": "comprar un inmueble", "ipa": "/aʃ.te œ̃ bjɛ̃.n‿i.mɔ.bi.lje/", "esApprox": "«ash-TÉ un BIEN-i-mo-bi-LIÉ»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "signer un bail", "es": "firmar un contrato de alquiler", "ipa": "/si.ɲe œ̃ baj/", "esApprox": "«si-ñÉ un BAY»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "payer un loyer", "es": "pagar un alquiler", "ipa": "/pe.je œ̃ lwa.je/", "esApprox": "«pe-YÉ un luá-YÉ»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "verser une caution", "es": "pagar una fianza", "ipa": "/vɛʁ.se yn ko.sjɔ̃/", "esApprox": "«ver-SÉ ün ko-SIÓN»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "un état des lieux", "es": "un inventario del estado del piso", "ipa": "/œ̃.n‿e.ta de ljø/", "esApprox": "«un-ne-TA de LIÖ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v7", "target": "un prêt immobilier", "es": "un préstamo hipotecario", "ipa": "/œ̃ pʁɛ i.mɔ.bi.lje/", "esApprox": "«un PRE i-mo-bi-LIÉ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v8", "target": "le propriétaire / le locataire", "es": "el propietario / el inquilino", "ipa": "/lə pʁɔ.pʁi.je.tɛʁ lə lɔ.ka.tɛʁ/", "esApprox": "«le pro-prie-TER le lo-ka-TER»", "pos": "sustantivo", "gender": "m" }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «firmar un contrato de alquiler»?",
+      "options": ["signer un bail", "payer un loyer", "verser une caution", "acheter un bien"],
+      "answer": 0,
+      "explain": "Signer un bail es firmar el contrato de alquiler."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "¿Qué es un état des lieux?",
+      "options": ["un préstamo", "un informe del estado del piso", "un contrato de compra", "una fianza"],
+      "answer": 1,
+      "explain": "Un état des lieux documenta el estado del piso al entrar o salir."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "statement": "El locataire es la persona que alquila (inquilino).",
+      "answer": true,
+      "explain": "Le locataire paga el loyer al propriétaire."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "statement": "Un prêt immobilier es lo mismo que un loyer.",
+      "answer": false,
+      "explain": "Un prêt immobilier es un préstamo para comprar; un loyer es el pago mensual del alquiler."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["louer", "acheter", "verser une caution", "payer un loyer"],
+      "right": ["alquilar", "comprar", "fianza", "alquiler mensual"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Louer = alquilar, acheter = comprar, verser une caution = fianza, payer un loyer = alquiler mensual."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "Alquilé un piso y firmé el contrato ayer.",
+      "accept": ["J'ai loué un appartement et j'ai signé le bail hier"],
+      "hintWords": ["j'ai loué un appartement", "et j'ai signé le bail hier"],
+      "strictAccents": true,
+      "audio": "J'ai loué un appartement et j'ai signé le bail hier.",
+      "explain": "Louer un appartement + signer un bail."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "Pagué una fianza y ahora pago el alquiler cada mes.",
+      "accept": ["J'ai versé une caution et maintenant je paie le loyer chaque mois"],
+      "hintWords": ["j'ai versé une caution", "et maintenant je paie le loyer chaque mois"],
+      "strictAccents": true,
+      "audio": "J'ai versé une caution et maintenant je paie le loyer chaque mois.",
+      "explain": "Verser une caution + payer un loyer."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Le ___ a signé le bail, et le ___ a versé la caution.",
+      "blanks": [{ "accept": ["propriétaire"] }, { "accept": ["locataire"] }],
+      "bank": ["propriétaire", "locataire", "banquier"],
+      "explain": "Le propriétaire y le locataire firman el contrato de alquiler."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Pedí un préstamo hipotecario para comprar»",
+      "tokens": ["pour acheter", "J'ai demandé un prêt immobilier"],
+      "answer": ["J'ai demandé un prêt immobilier", "pour acheter"],
+      "audio": "J'ai demandé un prêt immobilier pour acheter.",
+      "explain": "Un prêt immobilier para financiar la compra de una vivienda."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "Nous avons fait l'état des lieux avant de signer le bail, et j'ai versé la caution.",
+      "accept": ["Hicimos el inventario antes de firmar el contrato, y pagué la fianza."],
+      "strictAccents": false,
+      "audio": "Nous avons fait l'état des lieux avant de signer le bail, et j'ai versé la caution.",
+      "explain": "El proceso completo de alquilar un piso."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu vivienda",
+      "turns": [
+        { "who": "Léa", "text": "Tu loues ou tu achètes ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je loue un appartement pour l'instant.", "J'ai demandé un prêt immobilier pour acheter."], "hint": "usa vocabulario de vivienda" },
+        { "who": "Léa", "text": "Ah, d'accord.", "speak": true }
+      ],
+      "explain": "Repaso combinado del vocabulario de vivienda."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "speak": "J'ai loué un appartement, j'ai signé le bail, et j'ai versé la caution.",
+      "mode": "write",
+      "accept": ["J'ai loué un appartement, j'ai signé le bail, et j'ai versé la caution"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario de alquilar."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 1,
+      "speak": "un état des lieux",
+      "mode": "choose",
+      "options": ["un bail", "un état des lieux", "un prêt", "une caution"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un état des lieux documenta el estado del piso."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 3,
+      "speak": "J'ai loué un appartement, j'ai signé le bail, j'ai versé la caution, et le propriétaire a fait l'état des lieux.",
+      "es": "Alquilé un piso, firmé el contrato, pagué la fianza, y el propietario hizo el inventario.",
+      "ipa": "/ʒe lwe œ̃.n‿a.paʁ.tə.mɑ̃ ʒe si.ɲe lə baj ʒe vɛʁ.se la ko.sjɔ̃ e lə pʁɔ.pʁi.je.tɛʁ a fɛ le.ta de ljø/",
+      "esApprox": "«ye lu-É un-na-par-te-MAN ye si-ñÉ le BAY ye ver-SÉ la ko-SIÓN e le pro-prie-TER a FE le-TA de LIÖ»",
+      "focus": "El proceso completo de alquilar un piso, de principio a fin.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "Cuenta el proceso de alquilar o comprar una vivienda.",
+      "modelAnswer": "J'ai loué un appartement, j'ai signé le bail, et j'ai versé la caution.",
+      "alsoValid": ["J'ai demandé un prêt immobilier pour acheter un appartement."],
+      "speak": "J'ai loué un appartement, j'ai signé le bail, et j'ai versé la caution.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "¿Es de alquilar o de comprar?",
+      "buckets": ["Alquilar", "Comprar"],
+      "items": [
+        { "text": "louer", "bucket": 0 },
+        { "text": "acheter un bien immobilier", "bucket": 1 },
+        { "text": "signer un bail", "bucket": 0 },
+        { "text": "un prêt immobilier", "bucket": 1 }
+      ],
+      "explain": "Louer y signer un bail son de alquilar; acheter un bien immobilier y un prêt immobilier son de comprar."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["vivienda", "contratos"],
+      "difficulty": 2,
+      "prompt": "Hay un error: se firma (signer) un bail; lo que se paga es el loyer. Corrige la frase entera.",
+      "wrong": "J'ai payé un bail.",
+      "accept": ["J'ai signé un bail"],
+      "audio": "J'ai signé un bail.",
+      "explain": "Se dice signer un bail (firmar el contrato), no payer un bail."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "louer un appartement", "es": "alquilar un piso", "esApprox": "«lu-É un-na-par-te-MAN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "acheter un bien immobilier", "es": "comprar un inmueble", "esApprox": "«ash-TÉ un BIEN-i-mo-bi-LIÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "signer un bail", "es": "firmar un contrato de alquiler", "esApprox": "«si-ñÉ un BAY»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "verser une caution", "es": "pagar una fianza", "esApprox": "«ver-SÉ ün ko-SIÓN»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "un état des lieux", "es": "un inventario del estado del piso", "esApprox": "«un-ne-TA de LIÖ»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "un prêt immobilier", "es": "un préstamo hipotecario", "esApprox": "«un PRE i-mo-bi-LIÉ»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai loué un appartement et j'ai signé le bail hier.", "es": "Alquilé un piso y firmé el contrato ayer.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai versé une caution et maintenant je paie le loyer chaque mois.", "es": "Pagué una fianza y ahora pago el alquiler cada mes.", "from": "e7" }
+  ]
+}

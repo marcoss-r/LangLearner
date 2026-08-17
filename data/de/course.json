@@ -3,18 +3,4410 @@
   "name": "Alemán",
   "version": 1,
   "levels": [
-    { "id": "A1", "name": "A1 — Principiante", "range": [1, 90], "exam": "de-a1" },
-    { "id": "A2", "name": "A2 — Elemental", "range": [91, 175], "exam": "de-a2" },
-    { "id": "B1", "name": "B1 — Intermedio", "range": [176, 250], "exam": "de-b1" }
+    {
+      "id": "A1",
+      "name": "A1 — Principiante",
+      "range": [
+        1,
+        90
+      ],
+      "exam": "de-a1"
+    },
+    {
+      "id": "A2",
+      "name": "A2 — Elemental",
+      "range": [
+        91,
+        175
+      ],
+      "exam": "de-a2"
+    },
+    {
+      "id": "B1",
+      "name": "B1 — Intermedio",
+      "range": [
+        176,
+        250
+      ],
+      "exam": "de-b1"
+    }
   ],
   "blocks": [
-    { "id": "de-a1-b1", "level": "A1", "name": "Primeros pasos", "range": [1, 10] },
-    { "id": "de-a1-b2", "level": "A1", "name": "Cómo se monta una frase alemana", "range": [11, 22] },
-    { "id": "de-a1-b3", "level": "A1", "name": "Empiezan los casos", "range": [23, 36] },
-    { "id": "de-a1-b4", "level": "A1", "name": "El dativo y la vida cotidiana", "range": [37, 50] },
-    { "id": "de-a1-b5", "level": "A1", "name": "Verbos modales y comunicación", "range": [51, 64] },
-    { "id": "de-a1-b6", "level": "A1", "name": "El pasado", "range": [65, 78] },
-    { "id": "de-a1-b7", "level": "A1", "name": "Unir frases y cerrar A1", "range": [79, 90] }
+    {
+      "id": "de-a1-b1",
+      "level": "A1",
+      "name": "Primeros pasos",
+      "range": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": "de-a1-b2",
+      "level": "A1",
+      "name": "Cómo se monta una frase alemana",
+      "range": [
+        11,
+        22
+      ]
+    },
+    {
+      "id": "de-a1-b3",
+      "level": "A1",
+      "name": "Empiezan los casos",
+      "range": [
+        23,
+        36
+      ]
+    },
+    {
+      "id": "de-a1-b4",
+      "level": "A1",
+      "name": "El dativo y la vida cotidiana",
+      "range": [
+        37,
+        50
+      ]
+    },
+    {
+      "id": "de-a1-b5",
+      "level": "A1",
+      "name": "Verbos modales y comunicación",
+      "range": [
+        51,
+        64
+      ]
+    },
+    {
+      "id": "de-a1-b6",
+      "level": "A1",
+      "name": "El pasado",
+      "range": [
+        65,
+        78
+      ]
+    },
+    {
+      "id": "de-a1-b7",
+      "level": "A1",
+      "name": "Unir frases y cerrar A1",
+      "range": [
+        79,
+        90
+      ]
+    },
+    {
+      "id": "de-a2-b1",
+      "level": "A2",
+      "name": "Consolidar casos y Perfekt",
+      "range": [
+        91,
+        100
+      ]
+    },
+    {
+      "id": "de-a2-b2",
+      "level": "A2",
+      "name": "La declinación del adjetivo",
+      "range": [
+        101,
+        112
+      ]
+    },
+    {
+      "id": "de-a2-b3",
+      "level": "A2",
+      "name": "Genitivo y régimen preposicional",
+      "range": [
+        113,
+        124
+      ]
+    },
+    {
+      "id": "de-a2-b4",
+      "level": "A2",
+      "name": "Subordinadas y conectores",
+      "range": [
+        125,
+        136
+      ]
+    },
+    {
+      "id": "de-a2-b5",
+      "level": "A2",
+      "name": "Vocabulario temático ampliado",
+      "range": [
+        137,
+        152
+      ]
+    },
+    {
+      "id": "de-a2-b6",
+      "level": "A2",
+      "name": "Más tiempos verbales",
+      "range": [
+        153,
+        162
+      ]
+    },
+    {
+      "id": "de-a2-b7",
+      "level": "A2",
+      "name": "Reflexivos, imperativo y matices",
+      "range": [
+        163,
+        169
+      ]
+    },
+    {
+      "id": "de-a2-b8",
+      "level": "A2",
+      "name": "Cierre A2",
+      "range": [
+        170,
+        175
+      ]
+    },
+    {
+      "id": "de-b1-b1",
+      "level": "B1",
+      "name": "Konjunktiv II completo",
+      "range": [
+        176,
+        184
+      ]
+    },
+    {
+      "id": "de-b1-b2",
+      "level": "B1",
+      "name": "La voz pasiva",
+      "range": [
+        185,
+        192
+      ]
+    },
+    {
+      "id": "de-b1-b3",
+      "level": "B1",
+      "name": "Relativas y frases complejas",
+      "range": [
+        193,
+        202
+      ]
+    },
+    {
+      "id": "de-b1-b4",
+      "level": "B1",
+      "name": "Régimen preposicional avanzado",
+      "range": [
+        203,
+        210
+      ]
+    },
+    {
+      "id": "de-b1-b5",
+      "level": "B1",
+      "name": "Estructuras cultas",
+      "range": [
+        211,
+        218
+      ]
+    },
+    {
+      "id": "de-b1-b6",
+      "level": "B1",
+      "name": "Vocabulario B1",
+      "range": [
+        219,
+        234
+      ]
+    },
+    {
+      "id": "de-b1-b7",
+      "level": "B1",
+      "name": "Conversación real",
+      "range": [
+        235,
+        243
+      ]
+    },
+    {
+      "id": "de-b1-b8",
+      "level": "B1",
+      "name": "Cierre B1",
+      "range": [
+        244,
+        250
+      ]
+    }
   ],
-  "lessons": []
+  "lessons": [
+    {
+      "id": "de-a1-001",
+      "order": 1,
+      "level": "A1",
+      "block": "de-a1-b1",
+      "title": "Bienvenido al alemán: por qué es más lógico de lo que te han contado",
+      "kind": "cultura",
+      "tags": [
+        "cognados",
+        "pronunciacion-general"
+      ],
+      "estimatedMinutes": 15,
+      "prerequisites": [],
+      "file": "./data/de/lessons/de-a1-001.json"
+    },
+    {
+      "id": "de-a1-002",
+      "order": 2,
+      "level": "A1",
+      "block": "de-a1-b1",
+      "title": "El alfabeto y deletrear tu nombre",
+      "kind": "fonetica",
+      "tags": [
+        "alfabeto"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "de-a1-001"
+      ],
+      "file": "./data/de/lessons/de-a1-002.json"
+    },
+    {
+      "id": "de-a1-003",
+      "order": 3,
+      "level": "A1",
+      "block": "de-a1-b1",
+      "title": "Pronunciación general I: vocales largas y cortas",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "vocales"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "de-a1-002"
+      ],
+      "file": "./data/de/lessons/de-a1-003.json"
+    },
+    {
+      "id": "de-a1-004",
+      "order": 4,
+      "level": "A1",
+      "block": "de-a1-b1",
+      "title": "Pronunciación general II: ä, ö, ü y ß",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "umlaut"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "de-a1-003"
+      ],
+      "file": "./data/de/lessons/de-a1-004.json"
+    },
+    {
+      "id": "de-a1-005",
+      "order": 5,
+      "level": "A1",
+      "block": "de-a1-b1",
+      "title": "Saludos, despedidas y cortesía",
+      "kind": "comunicacion",
+      "tags": [
+        "saludos",
+        "cortesia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-004"
+      ],
+      "file": "./data/de/lessons/de-a1-005.json"
+    },
+    {
+      "id": "de-a1-006",
+      "order": 6,
+      "level": "A1",
+      "block": "de-a1-b1",
+      "title": "Presentarse: ich heiße, ich komme aus, ich wohne in",
+      "kind": "comunicacion",
+      "tags": [
+        "presentarse"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-005"
+      ],
+      "file": "./data/de/lessons/de-a1-006.json"
+    },
+    {
+      "id": "de-a1-007",
+      "order": 7,
+      "level": "A1",
+      "block": "de-a1-b1",
+      "title": "Du o Sie: el tuteo en alemán",
+      "kind": "comunicacion",
+      "tags": [
+        "du-sie",
+        "cortesia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-006"
+      ],
+      "file": "./data/de/lessons/de-a1-007.json"
+    },
+    {
+      "id": "de-a1-008",
+      "order": 8,
+      "level": "A1",
+      "block": "de-a1-b1",
+      "title": "Los pronombres personales sujeto",
+      "kind": "gramatica",
+      "tags": [
+        "pronombres-sujeto"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-007"
+      ],
+      "file": "./data/de/lessons/de-a1-008.json"
+    },
+    {
+      "id": "de-a1-009",
+      "order": 9,
+      "level": "A1",
+      "block": "de-a1-b1",
+      "title": "El verbo sein",
+      "kind": "verbos",
+      "tags": [
+        "sein"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-008"
+      ],
+      "file": "./data/de/lessons/de-a1-009.json"
+    },
+    {
+      "id": "de-a1-010",
+      "order": 10,
+      "level": "A1",
+      "block": "de-a1-b1",
+      "title": "El verbo haben",
+      "kind": "verbos",
+      "tags": [
+        "haben"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-009"
+      ],
+      "file": "./data/de/lessons/de-a1-010.json"
+    },
+    {
+      "id": "de-a1-011",
+      "order": 11,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "El presente de los verbos regulares",
+      "kind": "verbos",
+      "tags": [
+        "presente"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-010"
+      ],
+      "file": "./data/de/lessons/de-a1-011.json"
+    },
+    {
+      "id": "de-a1-012",
+      "order": 12,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "La regla de oro: el verbo conjugado en segunda posición",
+      "kind": "gramatica",
+      "tags": [
+        "orden-palabras",
+        "verbo-segunda-posicion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-011"
+      ],
+      "file": "./data/de/lessons/de-a1-012.json"
+    },
+    {
+      "id": "de-a1-013",
+      "order": 13,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "Preguntas I: preguntas de sí o no",
+      "kind": "gramatica",
+      "tags": [
+        "preguntas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-012"
+      ],
+      "file": "./data/de/lessons/de-a1-013.json"
+    },
+    {
+      "id": "de-a1-014",
+      "order": 14,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "Preguntas II: las W-Fragen (wer, was, wo, wann, wie, warum)",
+      "kind": "gramatica",
+      "tags": [
+        "preguntas",
+        "w-fragen"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-013"
+      ],
+      "file": "./data/de/lessons/de-a1-014.json"
+    },
+    {
+      "id": "de-a1-015",
+      "order": 15,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "Los tres géneros: der, die, das y cómo adivinarlos",
+      "kind": "gramatica",
+      "tags": [
+        "genero"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-014"
+      ],
+      "file": "./data/de/lessons/de-a1-015.json"
+    },
+    {
+      "id": "de-a1-016",
+      "order": 16,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "El plural de los sustantivos",
+      "kind": "gramatica",
+      "tags": [
+        "plural"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-015"
+      ],
+      "file": "./data/de/lessons/de-a1-016.json"
+    },
+    {
+      "id": "de-a1-017",
+      "order": 17,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "Los artículos indefinidos: ein, eine",
+      "kind": "gramatica",
+      "tags": [
+        "articulos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-016"
+      ],
+      "file": "./data/de/lessons/de-a1-017.json"
+    },
+    {
+      "id": "de-a1-018",
+      "order": 18,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "La negación: nicht y kein",
+      "kind": "gramatica",
+      "tags": [
+        "negacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-017"
+      ],
+      "file": "./data/de/lessons/de-a1-018.json"
+    },
+    {
+      "id": "de-a1-019",
+      "order": 19,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "Los números del 0 al 20",
+      "kind": "vocabulario",
+      "tags": [
+        "numeros"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-018"
+      ],
+      "file": "./data/de/lessons/de-a1-019.json"
+    },
+    {
+      "id": "de-a1-020",
+      "order": 20,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "Los números del 21 al 100 y el orden invertido (einundzwanzig)",
+      "kind": "vocabulario",
+      "tags": [
+        "numeros"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-019"
+      ],
+      "file": "./data/de/lessons/de-a1-020.json"
+    },
+    {
+      "id": "de-a1-021",
+      "order": 21,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "Pronunciación general III: ch, sch, sp, st, z, v, w",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "consonantes"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "de-a1-020"
+      ],
+      "file": "./data/de/lessons/de-a1-021.json"
+    },
+    {
+      "id": "de-a1-022",
+      "order": 22,
+      "level": "A1",
+      "block": "de-a1-b2",
+      "title": "Repaso activo I (clases 1–21)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a1-021",
+        "de-a1-020",
+        "de-a1-019"
+      ],
+      "file": "./data/de/lessons/de-a1-022.json"
+    },
+    {
+      "id": "de-a1-023",
+      "order": 23,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "El nominativo: quién hace la acción",
+      "kind": "gramatica",
+      "tags": [
+        "nominativo",
+        "casos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-022"
+      ],
+      "file": "./data/de/lessons/de-a1-023.json"
+    },
+    {
+      "id": "de-a1-024",
+      "order": 24,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "El acusativo: qué recibe la acción",
+      "kind": "gramatica",
+      "tags": [
+        "acusativo",
+        "casos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-023"
+      ],
+      "file": "./data/de/lessons/de-a1-024.json"
+    },
+    {
+      "id": "de-a1-025",
+      "order": 25,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "Verbos que rigen acusativo",
+      "kind": "gramatica",
+      "tags": [
+        "acusativo",
+        "regimen-preposicional"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-024"
+      ],
+      "file": "./data/de/lessons/de-a1-025.json"
+    },
+    {
+      "id": "de-a1-026",
+      "order": 26,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "Los pronombres personales en acusativo",
+      "kind": "gramatica",
+      "tags": [
+        "acusativo",
+        "pronombres"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-025"
+      ],
+      "file": "./data/de/lessons/de-a1-026.json"
+    },
+    {
+      "id": "de-a1-027",
+      "order": 27,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "Los posesivos: mein, dein, sein, ihr…",
+      "kind": "gramatica",
+      "tags": [
+        "posesivos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-026"
+      ],
+      "file": "./data/de/lessons/de-a1-027.json"
+    },
+    {
+      "id": "de-a1-028",
+      "order": 28,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "Verbos con cambio de vocal: fahren, sprechen, sehen, lesen",
+      "kind": "verbos",
+      "tags": [
+        "cambio-vocal"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-027"
+      ],
+      "file": "./data/de/lessons/de-a1-028.json"
+    },
+    {
+      "id": "de-a1-029",
+      "order": 29,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "Los verbos separables",
+      "kind": "verbos",
+      "tags": [
+        "separables"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-028"
+      ],
+      "file": "./data/de/lessons/de-a1-029.json"
+    },
+    {
+      "id": "de-a1-030",
+      "order": 30,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "Los días, los meses y las estaciones",
+      "kind": "vocabulario",
+      "tags": [
+        "calendario"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-029"
+      ],
+      "file": "./data/de/lessons/de-a1-030.json"
+    },
+    {
+      "id": "de-a1-031",
+      "order": 31,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "La hora, formal e informal",
+      "kind": "vocabulario",
+      "tags": [
+        "hora"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-030"
+      ],
+      "file": "./data/de/lessons/de-a1-031.json"
+    },
+    {
+      "id": "de-a1-032",
+      "order": 32,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "La rutina diaria",
+      "kind": "vocabulario",
+      "tags": [
+        "rutina"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-031"
+      ],
+      "file": "./data/de/lessons/de-a1-032.json"
+    },
+    {
+      "id": "de-a1-033",
+      "order": 33,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "Los colores",
+      "kind": "vocabulario",
+      "tags": [
+        "colores"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-032"
+      ],
+      "file": "./data/de/lessons/de-a1-033.json"
+    },
+    {
+      "id": "de-a1-034",
+      "order": 34,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "La familia",
+      "kind": "vocabulario",
+      "tags": [
+        "familia"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-033"
+      ],
+      "file": "./data/de/lessons/de-a1-034.json"
+    },
+    {
+      "id": "de-a1-035",
+      "order": 35,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "Países, nacionalidades e idiomas",
+      "kind": "vocabulario",
+      "tags": [
+        "nacionalidades"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-034"
+      ],
+      "file": "./data/de/lessons/de-a1-035.json"
+    },
+    {
+      "id": "de-a1-036",
+      "order": 36,
+      "level": "A1",
+      "block": "de-a1-b3",
+      "title": "Repaso activo II (clases 23–35)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a1-035",
+        "de-a1-034",
+        "de-a1-033"
+      ],
+      "file": "./data/de/lessons/de-a1-036.json"
+    },
+    {
+      "id": "de-a1-037",
+      "order": 37,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "El dativo: a quién le pasa la cosa",
+      "kind": "gramatica",
+      "tags": [
+        "dativo",
+        "casos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-036"
+      ],
+      "file": "./data/de/lessons/de-a1-037.json"
+    },
+    {
+      "id": "de-a1-038",
+      "order": 38,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "Verbos que rigen dativo (helfen, danken, gefallen…)",
+      "kind": "gramatica",
+      "tags": [
+        "dativo",
+        "regimen-preposicional"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-037"
+      ],
+      "file": "./data/de/lessons/de-a1-038.json"
+    },
+    {
+      "id": "de-a1-039",
+      "order": 39,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "Los pronombres personales en dativo",
+      "kind": "gramatica",
+      "tags": [
+        "dativo",
+        "pronombres"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-038"
+      ],
+      "file": "./data/de/lessons/de-a1-039.json"
+    },
+    {
+      "id": "de-a1-040",
+      "order": 40,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "Preposiciones de dativo: aus, bei, mit, nach, seit, von, zu",
+      "kind": "gramatica",
+      "tags": [
+        "dativo",
+        "preposiciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-039"
+      ],
+      "file": "./data/de/lessons/de-a1-040.json"
+    },
+    {
+      "id": "de-a1-041",
+      "order": 41,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "Preposiciones de acusativo: durch, für, gegen, ohne, um",
+      "kind": "gramatica",
+      "tags": [
+        "acusativo",
+        "preposiciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-040"
+      ],
+      "file": "./data/de/lessons/de-a1-041.json"
+    },
+    {
+      "id": "de-a1-042",
+      "order": 42,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "Las preposiciones de dos casos (Wechselpräpositionen)",
+      "kind": "gramatica",
+      "tags": [
+        "wechselpraepositionen"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-041"
+      ],
+      "file": "./data/de/lessons/de-a1-042.json"
+    },
+    {
+      "id": "de-a1-043",
+      "order": 43,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "La casa y las habitaciones",
+      "kind": "vocabulario",
+      "tags": [
+        "casa"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-042"
+      ],
+      "file": "./data/de/lessons/de-a1-043.json"
+    },
+    {
+      "id": "de-a1-044",
+      "order": 44,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "Los muebles y los objetos cotidianos",
+      "kind": "vocabulario",
+      "tags": [
+        "muebles"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-043"
+      ],
+      "file": "./data/de/lessons/de-a1-044.json"
+    },
+    {
+      "id": "de-a1-045",
+      "order": 45,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "Es gibt: hablar de lo que hay",
+      "kind": "gramatica",
+      "tags": [
+        "es-gibt"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-044"
+      ],
+      "file": "./data/de/lessons/de-a1-045.json"
+    },
+    {
+      "id": "de-a1-046",
+      "order": 46,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "La ciudad y los lugares públicos",
+      "kind": "vocabulario",
+      "tags": [
+        "ciudad"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-045"
+      ],
+      "file": "./data/de/lessons/de-a1-046.json"
+    },
+    {
+      "id": "de-a1-047",
+      "order": 47,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "Pedir y dar direcciones",
+      "kind": "comunicacion",
+      "tags": [
+        "direcciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-046"
+      ],
+      "file": "./data/de/lessons/de-a1-047.json"
+    },
+    {
+      "id": "de-a1-048",
+      "order": 48,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "Los medios de transporte",
+      "kind": "vocabulario",
+      "tags": [
+        "transporte"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-047"
+      ],
+      "file": "./data/de/lessons/de-a1-048.json"
+    },
+    {
+      "id": "de-a1-049",
+      "order": 49,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "La ropa y las compras",
+      "kind": "vocabulario",
+      "tags": [
+        "ropa",
+        "compras"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-048"
+      ],
+      "file": "./data/de/lessons/de-a1-049.json"
+    },
+    {
+      "id": "de-a1-050",
+      "order": 50,
+      "level": "A1",
+      "block": "de-a1-b4",
+      "title": "Repaso activo III (clases 37–49)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a1-049",
+        "de-a1-048",
+        "de-a1-047"
+      ],
+      "file": "./data/de/lessons/de-a1-050.json"
+    },
+    {
+      "id": "de-a1-051",
+      "order": 51,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "Verbos modales I: können y müssen",
+      "kind": "verbos",
+      "tags": [
+        "modales"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-050"
+      ],
+      "file": "./data/de/lessons/de-a1-051.json"
+    },
+    {
+      "id": "de-a1-052",
+      "order": 52,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "Verbos modales II: wollen y möchten",
+      "kind": "verbos",
+      "tags": [
+        "modales"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-051"
+      ],
+      "file": "./data/de/lessons/de-a1-052.json"
+    },
+    {
+      "id": "de-a1-053",
+      "order": 53,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "Verbos modales III: dürfen y sollen",
+      "kind": "verbos",
+      "tags": [
+        "modales"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-052"
+      ],
+      "file": "./data/de/lessons/de-a1-053.json"
+    },
+    {
+      "id": "de-a1-054",
+      "order": 54,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "El imperativo",
+      "kind": "verbos",
+      "tags": [
+        "imperativo"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-053"
+      ],
+      "file": "./data/de/lessons/de-a1-054.json"
+    },
+    {
+      "id": "de-a1-055",
+      "order": 55,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "Las comidas y los alimentos",
+      "kind": "vocabulario",
+      "tags": [
+        "comida"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-054"
+      ],
+      "file": "./data/de/lessons/de-a1-055.json"
+    },
+    {
+      "id": "de-a1-056",
+      "order": 56,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "En el restaurante: pedir y pagar",
+      "kind": "comunicacion",
+      "tags": [
+        "restaurante"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-055"
+      ],
+      "file": "./data/de/lessons/de-a1-056.json"
+    },
+    {
+      "id": "de-a1-057",
+      "order": 57,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "La compra, los precios y las cantidades",
+      "kind": "vocabulario",
+      "tags": [
+        "compras",
+        "precios"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-056"
+      ],
+      "file": "./data/de/lessons/de-a1-057.json"
+    },
+    {
+      "id": "de-a1-058",
+      "order": 58,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "La escuela y los estudios",
+      "kind": "vocabulario",
+      "tags": [
+        "escuela",
+        "estudios"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-057"
+      ],
+      "file": "./data/de/lessons/de-a1-058.json"
+    },
+    {
+      "id": "de-a1-059",
+      "order": 59,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "Las profesiones y el trabajo",
+      "kind": "vocabulario",
+      "tags": [
+        "profesiones",
+        "trabajo"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-058"
+      ],
+      "file": "./data/de/lessons/de-a1-059.json"
+    },
+    {
+      "id": "de-a1-060",
+      "order": 60,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "El cuerpo humano",
+      "kind": "vocabulario",
+      "tags": [
+        "cuerpo"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-059"
+      ],
+      "file": "./data/de/lessons/de-a1-060.json"
+    },
+    {
+      "id": "de-a1-061",
+      "order": 61,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "En el médico: decir que te duele algo",
+      "kind": "comunicacion",
+      "tags": [
+        "medico",
+        "salud"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-060"
+      ],
+      "file": "./data/de/lessons/de-a1-061.json"
+    },
+    {
+      "id": "de-a1-062",
+      "order": 62,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "Los animales",
+      "kind": "vocabulario",
+      "tags": [
+        "animales"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-061"
+      ],
+      "file": "./data/de/lessons/de-a1-062.json"
+    },
+    {
+      "id": "de-a1-063",
+      "order": 63,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "El tiempo meteorológico",
+      "kind": "vocabulario",
+      "tags": [
+        "tiempo-meteorologico"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-062"
+      ],
+      "file": "./data/de/lessons/de-a1-063.json"
+    },
+    {
+      "id": "de-a1-064",
+      "order": 64,
+      "level": "A1",
+      "block": "de-a1-b5",
+      "title": "Repaso activo IV (clases 51–63)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a1-063",
+        "de-a1-062",
+        "de-a1-061"
+      ],
+      "file": "./data/de/lessons/de-a1-064.json"
+    },
+    {
+      "id": "de-a1-065",
+      "order": 65,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "El Perfekt I: haben + participio de los verbos regulares",
+      "kind": "verbos",
+      "tags": [
+        "perfekt"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-064"
+      ],
+      "file": "./data/de/lessons/de-a1-065.json"
+    },
+    {
+      "id": "de-a1-066",
+      "order": 66,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "El Perfekt II: los participios irregulares más frecuentes",
+      "kind": "verbos",
+      "tags": [
+        "perfekt",
+        "irregulares"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-065"
+      ],
+      "file": "./data/de/lessons/de-a1-066.json"
+    },
+    {
+      "id": "de-a1-067",
+      "order": 67,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "El Perfekt III: los verbos que van con sein",
+      "kind": "verbos",
+      "tags": [
+        "perfekt",
+        "sein"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-066"
+      ],
+      "file": "./data/de/lessons/de-a1-067.json"
+    },
+    {
+      "id": "de-a1-068",
+      "order": 68,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "El Perfekt IV: verbos separables e inseparables",
+      "kind": "verbos",
+      "tags": [
+        "perfekt",
+        "separables"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-067"
+      ],
+      "file": "./data/de/lessons/de-a1-068.json"
+    },
+    {
+      "id": "de-a1-069",
+      "order": 69,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "El Präteritum de sein, haben y los modales",
+      "kind": "verbos",
+      "tags": [
+        "prateritum"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a1-068"
+      ],
+      "file": "./data/de/lessons/de-a1-069.json"
+    },
+    {
+      "id": "de-a1-070",
+      "order": 70,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "Contar qué hiciste el fin de semana",
+      "kind": "comunicacion",
+      "tags": [
+        "perfekt",
+        "conversacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-069"
+      ],
+      "file": "./data/de/lessons/de-a1-070.json"
+    },
+    {
+      "id": "de-a1-071",
+      "order": 71,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "Los adverbios de tiempo y dónde se colocan",
+      "kind": "gramatica",
+      "tags": [
+        "adverbios-tiempo",
+        "orden-palabras"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-070"
+      ],
+      "file": "./data/de/lessons/de-a1-071.json"
+    },
+    {
+      "id": "de-a1-072",
+      "order": 72,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "El orden de los complementos: tiempo, modo, lugar",
+      "kind": "gramatica",
+      "tags": [
+        "orden-palabras"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-071"
+      ],
+      "file": "./data/de/lessons/de-a1-072.json"
+    },
+    {
+      "id": "de-a1-073",
+      "order": 73,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "Los deportes y el tiempo libre",
+      "kind": "vocabulario",
+      "tags": [
+        "deporte",
+        "ocio"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-072"
+      ],
+      "file": "./data/de/lessons/de-a1-073.json"
+    },
+    {
+      "id": "de-a1-074",
+      "order": 74,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "Las vacaciones y los viajes",
+      "kind": "vocabulario",
+      "tags": [
+        "viajes"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-073"
+      ],
+      "file": "./data/de/lessons/de-a1-074.json"
+    },
+    {
+      "id": "de-a1-075",
+      "order": 75,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "Pronunciación general IV: acento tónico y entonación",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "entonacion"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "de-a1-074"
+      ],
+      "file": "./data/de/lessons/de-a1-075.json"
+    },
+    {
+      "id": "de-a1-076",
+      "order": 76,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "Los números ordinales y las fechas",
+      "kind": "vocabulario",
+      "tags": [
+        "ordinales",
+        "fechas"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a1-075"
+      ],
+      "file": "./data/de/lessons/de-a1-076.json"
+    },
+    {
+      "id": "de-a1-077",
+      "order": 77,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "Cultura: el día a día en Alemania (puntualidad, Sie, reciclaje)",
+      "kind": "cultura",
+      "tags": [
+        "cultura-alemana"
+      ],
+      "estimatedMinutes": 15,
+      "prerequisites": [
+        "de-a1-076"
+      ],
+      "file": "./data/de/lessons/de-a1-077.json"
+    },
+    {
+      "id": "de-a1-078",
+      "order": 78,
+      "level": "A1",
+      "block": "de-a1-b6",
+      "title": "Repaso activo V (clases 65–77)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a1-077",
+        "de-a1-076",
+        "de-a1-075"
+      ],
+      "file": "./data/de/lessons/de-a1-078.json"
+    },
+    {
+      "id": "de-a1-079",
+      "order": 79,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "Las conjunciones que no cambian nada: und, aber, oder, denn",
+      "kind": "gramatica",
+      "tags": [
+        "conjunciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-078"
+      ],
+      "file": "./data/de/lessons/de-a1-079.json"
+    },
+    {
+      "id": "de-a1-080",
+      "order": 80,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "Weil: la conjunción que manda el verbo al final",
+      "kind": "gramatica",
+      "tags": [
+        "weil",
+        "orden-palabras"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-079"
+      ],
+      "file": "./data/de/lessons/de-a1-080.json"
+    },
+    {
+      "id": "de-a1-081",
+      "order": 81,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "Dass: contar lo que alguien dice o piensa",
+      "kind": "gramatica",
+      "tags": [
+        "dass"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-080"
+      ],
+      "file": "./data/de/lessons/de-a1-081.json"
+    },
+    {
+      "id": "de-a1-082",
+      "order": 82,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "Comparar: so… wie y als",
+      "kind": "gramatica",
+      "tags": [
+        "comparativo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-081"
+      ],
+      "file": "./data/de/lessons/de-a1-082.json"
+    },
+    {
+      "id": "de-a1-083",
+      "order": 83,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "El comparativo",
+      "kind": "gramatica",
+      "tags": [
+        "comparativo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-082"
+      ],
+      "file": "./data/de/lessons/de-a1-083.json"
+    },
+    {
+      "id": "de-a1-084",
+      "order": 84,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "El superlativo",
+      "kind": "gramatica",
+      "tags": [
+        "superlativo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-083"
+      ],
+      "file": "./data/de/lessons/de-a1-084.json"
+    },
+    {
+      "id": "de-a1-085",
+      "order": 85,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "Welcher y was für ein",
+      "kind": "gramatica",
+      "tags": [
+        "welcher",
+        "was-fuer-ein"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-084"
+      ],
+      "file": "./data/de/lessons/de-a1-085.json"
+    },
+    {
+      "id": "de-a1-086",
+      "order": 86,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "Invitar, aceptar y rechazar",
+      "kind": "comunicacion",
+      "tags": [
+        "invitaciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-085"
+      ],
+      "file": "./data/de/lessons/de-a1-086.json"
+    },
+    {
+      "id": "de-a1-087",
+      "order": 87,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "Por teléfono y por mensaje",
+      "kind": "comunicacion",
+      "tags": [
+        "telefono"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-086"
+      ],
+      "file": "./data/de/lessons/de-a1-087.json"
+    },
+    {
+      "id": "de-a1-088",
+      "order": 88,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "Escribir un correo o un mensaje sencillo",
+      "kind": "comunicacion",
+      "tags": [
+        "escritura"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-087"
+      ],
+      "file": "./data/de/lessons/de-a1-088.json"
+    },
+    {
+      "id": "de-a1-089",
+      "order": 89,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "Repaso activo VI (clases 79–88)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a1-088",
+        "de-a1-087",
+        "de-a1-086"
+      ],
+      "file": "./data/de/lessons/de-a1-089.json"
+    },
+    {
+      "id": "de-a1-090",
+      "order": 90,
+      "level": "A1",
+      "block": "de-a1-b7",
+      "title": "Preparación para la prueba de nivel A1",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "examen"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a1-089",
+        "de-a1-088",
+        "de-a1-087"
+      ],
+      "file": "./data/de/lessons/de-a1-090.json"
+    },
+    {
+      "id": "de-a2-091",
+      "order": 91,
+      "level": "A2",
+      "block": "de-a2-b1",
+      "title": "Repaso a fondo: nominativo, acusativo y dativo juntos",
+      "kind": "gramatica",
+      "tags": [
+        "casos",
+        "repaso-casos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a1-090"
+      ],
+      "file": "./data/de/lessons/de-a2-091.json"
+    },
+    {
+      "id": "de-a2-092",
+      "order": 92,
+      "level": "A2",
+      "block": "de-a2-b1",
+      "title": "El orden de los dos objetos: acusativo y dativo en la misma frase",
+      "kind": "gramatica",
+      "tags": [
+        "casos",
+        "orden-objetos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-091"
+      ],
+      "file": "./data/de/lessons/de-a2-092.json"
+    },
+    {
+      "id": "de-a2-093",
+      "order": 93,
+      "level": "A2",
+      "block": "de-a2-b1",
+      "title": "Sustituir los objetos por pronombres: el orden correcto",
+      "kind": "gramatica",
+      "tags": [
+        "pronombres",
+        "orden-objetos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-092"
+      ],
+      "file": "./data/de/lessons/de-a2-093.json"
+    },
+    {
+      "id": "de-a2-094",
+      "order": 94,
+      "level": "A2",
+      "block": "de-a2-b1",
+      "title": "El Perfekt de los verbos fuertes que aún fallan",
+      "kind": "verbos",
+      "tags": [
+        "perfekt",
+        "irregulares"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a2-093"
+      ],
+      "file": "./data/de/lessons/de-a2-094.json"
+    },
+    {
+      "id": "de-a2-095",
+      "order": 95,
+      "level": "A2",
+      "block": "de-a2-b1",
+      "title": "El Perfekt de los verbos separables e inseparables juntos",
+      "kind": "verbos",
+      "tags": [
+        "perfekt",
+        "separables"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a2-094"
+      ],
+      "file": "./data/de/lessons/de-a2-095.json"
+    },
+    {
+      "id": "de-a2-096",
+      "order": 96,
+      "level": "A2",
+      "block": "de-a2-b1",
+      "title": "Marcadores de tiempo del pasado: gestern, letzte Woche, vor...",
+      "kind": "vocabulario",
+      "tags": [
+        "marcadores-tiempo"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-095"
+      ],
+      "file": "./data/de/lessons/de-a2-096.json"
+    },
+    {
+      "id": "de-a2-097",
+      "order": 97,
+      "level": "A2",
+      "block": "de-a2-b1",
+      "title": "Preguntas y negación en Perfekt",
+      "kind": "gramatica",
+      "tags": [
+        "perfekt",
+        "negacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-096"
+      ],
+      "file": "./data/de/lessons/de-a2-097.json"
+    },
+    {
+      "id": "de-a2-098",
+      "order": 98,
+      "level": "A2",
+      "block": "de-a2-b1",
+      "title": "Contar tu fin de semana con soltura",
+      "kind": "comunicacion",
+      "tags": [
+        "perfekt",
+        "conversacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-097"
+      ],
+      "file": "./data/de/lessons/de-a2-098.json"
+    },
+    {
+      "id": "de-a2-099",
+      "order": 99,
+      "level": "A2",
+      "block": "de-a2-b1",
+      "title": "Narrar un día cualquiera de tu vida",
+      "kind": "comunicacion",
+      "tags": [
+        "narracion",
+        "perfekt"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-098"
+      ],
+      "file": "./data/de/lessons/de-a2-099.json"
+    },
+    {
+      "id": "de-a2-100",
+      "order": 100,
+      "level": "A2",
+      "block": "de-a2-b1",
+      "title": "Repaso activo VII (clases 91–99)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a2-099",
+        "de-a2-098",
+        "de-a2-097"
+      ],
+      "file": "./data/de/lessons/de-a2-100.json"
+    },
+    {
+      "id": "de-a2-101",
+      "order": 101,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "El adjetivo tras el artículo definido: nominativo y acusativo",
+      "kind": "gramatica",
+      "tags": [
+        "declinacion-adjetivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-100"
+      ],
+      "file": "./data/de/lessons/de-a2-101.json"
+    },
+    {
+      "id": "de-a2-102",
+      "order": 102,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "El adjetivo tras el artículo definido: dativo y genitivo",
+      "kind": "gramatica",
+      "tags": [
+        "declinacion-adjetivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-101"
+      ],
+      "file": "./data/de/lessons/de-a2-102.json"
+    },
+    {
+      "id": "de-a2-103",
+      "order": 103,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "El adjetivo tras el artículo indefinido: nominativo y acusativo",
+      "kind": "gramatica",
+      "tags": [
+        "declinacion-adjetivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-102"
+      ],
+      "file": "./data/de/lessons/de-a2-103.json"
+    },
+    {
+      "id": "de-a2-104",
+      "order": 104,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "El adjetivo tras el artículo indefinido: dativo y genitivo",
+      "kind": "gramatica",
+      "tags": [
+        "declinacion-adjetivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-103"
+      ],
+      "file": "./data/de/lessons/de-a2-104.json"
+    },
+    {
+      "id": "de-a2-105",
+      "order": 105,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "El adjetivo sin artículo: nominativo y acusativo",
+      "kind": "gramatica",
+      "tags": [
+        "declinacion-adjetivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-104"
+      ],
+      "file": "./data/de/lessons/de-a2-105.json"
+    },
+    {
+      "id": "de-a2-106",
+      "order": 106,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "El adjetivo sin artículo: dativo y genitivo",
+      "kind": "gramatica",
+      "tags": [
+        "declinacion-adjetivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-105"
+      ],
+      "file": "./data/de/lessons/de-a2-106.json"
+    },
+    {
+      "id": "de-a2-107",
+      "order": 107,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "Los cuatro casos y los tres tipos de declinación, todos juntos",
+      "kind": "gramatica",
+      "tags": [
+        "declinacion-adjetivo",
+        "contraste"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-106"
+      ],
+      "file": "./data/de/lessons/de-a2-107.json"
+    },
+    {
+      "id": "de-a2-108",
+      "order": 108,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "Practicar la declinación describiendo fotos y objetos",
+      "kind": "comunicacion",
+      "tags": [
+        "declinacion-adjetivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-107"
+      ],
+      "file": "./data/de/lessons/de-a2-108.json"
+    },
+    {
+      "id": "de-a2-109",
+      "order": 109,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "Los adjetivos sustantivados: der Deutsche, das Neue",
+      "kind": "gramatica",
+      "tags": [
+        "declinacion-adjetivo",
+        "sustantivados"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-108"
+      ],
+      "file": "./data/de/lessons/de-a2-109.json"
+    },
+    {
+      "id": "de-a2-110",
+      "order": 110,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "El comparativo declinado: ein besserer Tag",
+      "kind": "gramatica",
+      "tags": [
+        "declinacion-adjetivo",
+        "comparativo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-109"
+      ],
+      "file": "./data/de/lessons/de-a2-110.json"
+    },
+    {
+      "id": "de-a2-111",
+      "order": 111,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "El superlativo declinado: der beste Tag",
+      "kind": "gramatica",
+      "tags": [
+        "declinacion-adjetivo",
+        "superlativo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-110"
+      ],
+      "file": "./data/de/lessons/de-a2-111.json"
+    },
+    {
+      "id": "de-a2-112",
+      "order": 112,
+      "level": "A2",
+      "block": "de-a2-b2",
+      "title": "Repaso activo VIII: la declinación del adjetivo a fondo (clases 101–111)",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "declinacion-adjetivo"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a2-111",
+        "de-a2-110",
+        "de-a2-109"
+      ],
+      "file": "./data/de/lessons/de-a2-112.json"
+    },
+    {
+      "id": "de-a2-113",
+      "order": 113,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "El genitivo: el cuarto caso",
+      "kind": "gramatica",
+      "tags": [
+        "genitivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-112"
+      ],
+      "file": "./data/de/lessons/de-a2-113.json"
+    },
+    {
+      "id": "de-a2-114",
+      "order": 114,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "Preposiciones de genitivo: wegen, trotz, während",
+      "kind": "gramatica",
+      "tags": [
+        "genitivo",
+        "preposiciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-113"
+      ],
+      "file": "./data/de/lessons/de-a2-114.json"
+    },
+    {
+      "id": "de-a2-115",
+      "order": 115,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "El genitivo en la lengua hablada: la alternativa con von",
+      "kind": "gramatica",
+      "tags": [
+        "genitivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-114"
+      ],
+      "file": "./data/de/lessons/de-a2-115.json"
+    },
+    {
+      "id": "de-a2-116",
+      "order": 116,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "Verbos con preposición fija I: warten auf, sich freuen auf",
+      "kind": "gramatica",
+      "tags": [
+        "regimen-preposicional"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-115"
+      ],
+      "file": "./data/de/lessons/de-a2-116.json"
+    },
+    {
+      "id": "de-a2-117",
+      "order": 117,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "Verbos con preposición fija II: sich interessieren für, denken an",
+      "kind": "gramatica",
+      "tags": [
+        "regimen-preposicional"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-116"
+      ],
+      "file": "./data/de/lessons/de-a2-117.json"
+    },
+    {
+      "id": "de-a2-118",
+      "order": 118,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "Los compuestos da-: darauf, damit, dafür",
+      "kind": "gramatica",
+      "tags": [
+        "da-compuestos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-117"
+      ],
+      "file": "./data/de/lessons/de-a2-118.json"
+    },
+    {
+      "id": "de-a2-119",
+      "order": 119,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "Los compuestos wo-: worauf, womit, wofür",
+      "kind": "gramatica",
+      "tags": [
+        "wo-compuestos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-118"
+      ],
+      "file": "./data/de/lessons/de-a2-119.json"
+    },
+    {
+      "id": "de-a2-120",
+      "order": 120,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "Preguntar y responder con compuestos wo- y da-",
+      "kind": "comunicacion",
+      "tags": [
+        "wo-compuestos",
+        "da-compuestos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-119"
+      ],
+      "file": "./data/de/lessons/de-a2-120.json"
+    },
+    {
+      "id": "de-a2-121",
+      "order": 121,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "Preposiciones temporales: vor, seit, ab, bis",
+      "kind": "gramatica",
+      "tags": [
+        "preposiciones-temporales"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-120"
+      ],
+      "file": "./data/de/lessons/de-a2-121.json"
+    },
+    {
+      "id": "de-a2-122",
+      "order": 122,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "Hablar de cuánto tiempo llevas haciendo algo",
+      "kind": "comunicacion",
+      "tags": [
+        "preposiciones-temporales"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-121"
+      ],
+      "file": "./data/de/lessons/de-a2-122.json"
+    },
+    {
+      "id": "de-a2-123",
+      "order": 123,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "Los posesivos y el genitivo en la misma frase",
+      "kind": "vocabulario",
+      "tags": [
+        "genitivo",
+        "posesivos"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-122"
+      ],
+      "file": "./data/de/lessons/de-a2-123.json"
+    },
+    {
+      "id": "de-a2-124",
+      "order": 124,
+      "level": "A2",
+      "block": "de-a2-b3",
+      "title": "Repaso activo IX (clases 113–123)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a2-123",
+        "de-a2-122",
+        "de-a2-121"
+      ],
+      "file": "./data/de/lessons/de-a2-124.json"
+    },
+    {
+      "id": "de-a2-125",
+      "order": 125,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Wenn y als: dos formas de decir \"cuando\"",
+      "kind": "gramatica",
+      "tags": [
+        "subordinadas",
+        "wenn-als"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-124"
+      ],
+      "file": "./data/de/lessons/de-a2-125.json"
+    },
+    {
+      "id": "de-a2-126",
+      "order": 126,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Obwohl: la subordinada de \"aunque\"",
+      "kind": "gramatica",
+      "tags": [
+        "subordinadas",
+        "obwohl"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-125"
+      ],
+      "file": "./data/de/lessons/de-a2-126.json"
+    },
+    {
+      "id": "de-a2-127",
+      "order": 127,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Damit y um...zu: las dos formas de expresar finalidad",
+      "kind": "gramatica",
+      "tags": [
+        "subordinadas",
+        "finalidad"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-126"
+      ],
+      "file": "./data/de/lessons/de-a2-127.json"
+    },
+    {
+      "id": "de-a2-128",
+      "order": 128,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Bevor y nachdem: antes de y después de",
+      "kind": "gramatica",
+      "tags": [
+        "subordinadas",
+        "tiempo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-127"
+      ],
+      "file": "./data/de/lessons/de-a2-128.json"
+    },
+    {
+      "id": "de-a2-129",
+      "order": 129,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Ob: preguntas indirectas de sí o no",
+      "kind": "gramatica",
+      "tags": [
+        "subordinadas",
+        "preguntas-indirectas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-128"
+      ],
+      "file": "./data/de/lessons/de-a2-129.json"
+    },
+    {
+      "id": "de-a2-130",
+      "order": 130,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Las preguntas indirectas con W-Fragen",
+      "kind": "gramatica",
+      "tags": [
+        "subordinadas",
+        "preguntas-indirectas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-129"
+      ],
+      "file": "./data/de/lessons/de-a2-130.json"
+    },
+    {
+      "id": "de-a2-131",
+      "order": 131,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Deshalb, trotzdem, außerdem: conectar frases sin subordinar",
+      "kind": "gramatica",
+      "tags": [
+        "conectores"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-130"
+      ],
+      "file": "./data/de/lessons/de-a2-131.json"
+    },
+    {
+      "id": "de-a2-132",
+      "order": 132,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "El orden de la frase subordinada: el verbo al final",
+      "kind": "gramatica",
+      "tags": [
+        "subordinadas",
+        "orden-palabras"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-131"
+      ],
+      "file": "./data/de/lessons/de-a2-132.json"
+    },
+    {
+      "id": "de-a2-133",
+      "order": 133,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Frases con dos verbos al final: cuando modal y subordinada se juntan",
+      "kind": "gramatica",
+      "tags": [
+        "subordinadas",
+        "orden-palabras"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-132"
+      ],
+      "file": "./data/de/lessons/de-a2-133.json"
+    },
+    {
+      "id": "de-a2-134",
+      "order": 134,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Explica por qué haces las cosas, con subordinadas",
+      "kind": "comunicacion",
+      "tags": [
+        "subordinadas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-133"
+      ],
+      "file": "./data/de/lessons/de-a2-134.json"
+    },
+    {
+      "id": "de-a2-135",
+      "order": 135,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Cuenta un plan con condiciones: wenn... dann",
+      "kind": "comunicacion",
+      "tags": [
+        "subordinadas",
+        "wenn-als"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-134"
+      ],
+      "file": "./data/de/lessons/de-a2-135.json"
+    },
+    {
+      "id": "de-a2-136",
+      "order": 136,
+      "level": "A2",
+      "block": "de-a2-b4",
+      "title": "Repaso activo X (clases 125–135)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a2-135",
+        "de-a2-134",
+        "de-a2-133"
+      ],
+      "file": "./data/de/lessons/de-a2-136.json"
+    },
+    {
+      "id": "de-a2-137",
+      "order": 137,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "Viajes y alojamiento",
+      "kind": "vocabulario",
+      "tags": [
+        "viajes"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-136"
+      ],
+      "file": "./data/de/lessons/de-a2-137.json"
+    },
+    {
+      "id": "de-a2-138",
+      "order": 138,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "En el aeropuerto y en el tren",
+      "kind": "vocabulario",
+      "tags": [
+        "viajes",
+        "transporte"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-137"
+      ],
+      "file": "./data/de/lessons/de-a2-138.json"
+    },
+    {
+      "id": "de-a2-139",
+      "order": 139,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "En el banco y con la burocracia alemana",
+      "kind": "comunicacion",
+      "tags": [
+        "banco",
+        "burocracia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-138"
+      ],
+      "file": "./data/de/lessons/de-a2-139.json"
+    },
+    {
+      "id": "de-a2-140",
+      "order": 140,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "La vivienda y la mudanza",
+      "kind": "vocabulario",
+      "tags": [
+        "vivienda",
+        "mudanza"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-139"
+      ],
+      "file": "./data/de/lessons/de-a2-140.json"
+    },
+    {
+      "id": "de-a2-141",
+      "order": 141,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "La tecnología y el móvil",
+      "kind": "vocabulario",
+      "tags": [
+        "tecnologia"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-140"
+      ],
+      "file": "./data/de/lessons/de-a2-141.json"
+    },
+    {
+      "id": "de-a2-142",
+      "order": 142,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "Las redes sociales",
+      "kind": "vocabulario",
+      "tags": [
+        "redes-sociales"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-141"
+      ],
+      "file": "./data/de/lessons/de-a2-142.json"
+    },
+    {
+      "id": "de-a2-143",
+      "order": 143,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "En la farmacia y hablar de salud",
+      "kind": "comunicacion",
+      "tags": [
+        "salud",
+        "farmacia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-142"
+      ],
+      "file": "./data/de/lessons/de-a2-143.json"
+    },
+    {
+      "id": "de-a2-144",
+      "order": 144,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "Las emociones: cómo te sientes de verdad",
+      "kind": "vocabulario",
+      "tags": [
+        "emociones"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-143"
+      ],
+      "file": "./data/de/lessons/de-a2-144.json"
+    },
+    {
+      "id": "de-a2-145",
+      "order": 145,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "El carácter y las relaciones personales",
+      "kind": "vocabulario",
+      "tags": [
+        "caracter",
+        "relaciones"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-144"
+      ],
+      "file": "./data/de/lessons/de-a2-145.json"
+    },
+    {
+      "id": "de-a2-146",
+      "order": 146,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "El medioambiente y el reciclaje",
+      "kind": "vocabulario",
+      "tags": [
+        "medioambiente",
+        "reciclaje"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-145"
+      ],
+      "file": "./data/de/lessons/de-a2-146.json"
+    },
+    {
+      "id": "de-a2-147",
+      "order": 147,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "Los medios: prensa, televisión, cine y música",
+      "kind": "vocabulario",
+      "tags": [
+        "medios",
+        "cine",
+        "musica"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-146"
+      ],
+      "file": "./data/de/lessons/de-a2-147.json"
+    },
+    {
+      "id": "de-a2-148",
+      "order": 148,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "Las fiestas alemanas: qué se celebra y cómo",
+      "kind": "cultura",
+      "tags": [
+        "fiestas",
+        "cultura-alemana"
+      ],
+      "estimatedMinutes": 15,
+      "prerequisites": [
+        "de-a2-147"
+      ],
+      "file": "./data/de/lessons/de-a2-148.json"
+    },
+    {
+      "id": "de-a2-149",
+      "order": 149,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "Ir de compras: consumo y precios",
+      "kind": "vocabulario",
+      "tags": [
+        "compras"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-148"
+      ],
+      "file": "./data/de/lessons/de-a2-149.json"
+    },
+    {
+      "id": "de-a2-150",
+      "order": 150,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "El deporte",
+      "kind": "vocabulario",
+      "tags": [
+        "deporte"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-149"
+      ],
+      "file": "./data/de/lessons/de-a2-150.json"
+    },
+    {
+      "id": "de-a2-151",
+      "order": 151,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "El dinero y el trabajo",
+      "kind": "vocabulario",
+      "tags": [
+        "dinero",
+        "trabajo"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-a2-150"
+      ],
+      "file": "./data/de/lessons/de-a2-151.json"
+    },
+    {
+      "id": "de-a2-152",
+      "order": 152,
+      "level": "A2",
+      "block": "de-a2-b5",
+      "title": "Repaso activo XI (clases 137–151)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a2-151",
+        "de-a2-150",
+        "de-a2-149"
+      ],
+      "file": "./data/de/lessons/de-a2-152.json"
+    },
+    {
+      "id": "de-a2-153",
+      "order": 153,
+      "level": "A2",
+      "block": "de-a2-b6",
+      "title": "El Futur I: werden + infinitivo",
+      "kind": "gramatica",
+      "tags": [
+        "futuro"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-152"
+      ],
+      "file": "./data/de/lessons/de-a2-153.json"
+    },
+    {
+      "id": "de-a2-154",
+      "order": 154,
+      "level": "A2",
+      "block": "de-a2-b6",
+      "title": "Hacer planes y promesas para el futuro",
+      "kind": "comunicacion",
+      "tags": [
+        "futuro"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-153"
+      ],
+      "file": "./data/de/lessons/de-a2-154.json"
+    },
+    {
+      "id": "de-a2-155",
+      "order": 155,
+      "level": "A2",
+      "block": "de-a2-b6",
+      "title": "El Präteritum: el pasado de los cuentos y las noticias",
+      "kind": "gramatica",
+      "tags": [
+        "prateritum"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-154"
+      ],
+      "file": "./data/de/lessons/de-a2-155.json"
+    },
+    {
+      "id": "de-a2-156",
+      "order": 156,
+      "level": "A2",
+      "block": "de-a2-b6",
+      "title": "El Präteritum de los verbos más frecuentes",
+      "kind": "verbos",
+      "tags": [
+        "prateritum",
+        "irregulares"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a2-155"
+      ],
+      "file": "./data/de/lessons/de-a2-156.json"
+    },
+    {
+      "id": "de-a2-157",
+      "order": 157,
+      "level": "A2",
+      "block": "de-a2-b6",
+      "title": "Leer un cuento corto en Präteritum",
+      "kind": "comunicacion",
+      "tags": [
+        "prateritum",
+        "lectura"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-156"
+      ],
+      "file": "./data/de/lessons/de-a2-157.json"
+    },
+    {
+      "id": "de-a2-158",
+      "order": 158,
+      "level": "A2",
+      "block": "de-a2-b6",
+      "title": "El Konjunktiv II de haben, sein y werden",
+      "kind": "gramatica",
+      "tags": [
+        "konjunktiv-ii"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-157"
+      ],
+      "file": "./data/de/lessons/de-a2-158.json"
+    },
+    {
+      "id": "de-a2-159",
+      "order": 159,
+      "level": "A2",
+      "block": "de-a2-b6",
+      "title": "Würde + infinitivo: el condicional de todos los días",
+      "kind": "gramatica",
+      "tags": [
+        "konjunktiv-ii",
+        "wurde"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-158"
+      ],
+      "file": "./data/de/lessons/de-a2-159.json"
+    },
+    {
+      "id": "de-a2-160",
+      "order": 160,
+      "level": "A2",
+      "block": "de-a2-b6",
+      "title": "Pedir las cosas con educación: könnte ich, hätten Sie",
+      "kind": "comunicacion",
+      "tags": [
+        "konjunktiv-ii",
+        "cortesia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-159"
+      ],
+      "file": "./data/de/lessons/de-a2-160.json"
+    },
+    {
+      "id": "de-a2-161",
+      "order": 161,
+      "level": "A2",
+      "block": "de-a2-b6",
+      "title": "Expresar deseos irreales sencillos: ich wäre gern...",
+      "kind": "comunicacion",
+      "tags": [
+        "konjunktiv-ii",
+        "deseos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-160"
+      ],
+      "file": "./data/de/lessons/de-a2-161.json"
+    },
+    {
+      "id": "de-a2-162",
+      "order": 162,
+      "level": "A2",
+      "block": "de-a2-b6",
+      "title": "Repaso activo XII (clases 153–161)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a2-161",
+        "de-a2-160",
+        "de-a2-159"
+      ],
+      "file": "./data/de/lessons/de-a2-162.json"
+    },
+    {
+      "id": "de-a2-163",
+      "order": 163,
+      "level": "A2",
+      "block": "de-a2-b7",
+      "title": "Los verbos reflexivos con acusativo",
+      "kind": "gramatica",
+      "tags": [
+        "reflexivos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-162"
+      ],
+      "file": "./data/de/lessons/de-a2-163.json"
+    },
+    {
+      "id": "de-a2-164",
+      "order": 164,
+      "level": "A2",
+      "block": "de-a2-b7",
+      "title": "Los verbos reflexivos con dativo",
+      "kind": "gramatica",
+      "tags": [
+        "reflexivos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-163"
+      ],
+      "file": "./data/de/lessons/de-a2-164.json"
+    },
+    {
+      "id": "de-a2-165",
+      "order": 165,
+      "level": "A2",
+      "block": "de-a2-b7",
+      "title": "El imperativo en las tres formas: du, ihr, Sie",
+      "kind": "verbos",
+      "tags": [
+        "imperativo"
+      ],
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "de-a2-164"
+      ],
+      "file": "./data/de/lessons/de-a2-165.json"
+    },
+    {
+      "id": "de-a2-166",
+      "order": 166,
+      "level": "A2",
+      "block": "de-a2-b7",
+      "title": "Las partículas modales: doch, mal, ja, denn",
+      "kind": "gramatica",
+      "tags": [
+        "particulas-modales"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-165"
+      ],
+      "file": "./data/de/lessons/de-a2-166.json"
+    },
+    {
+      "id": "de-a2-167",
+      "order": 167,
+      "level": "A2",
+      "block": "de-a2-b7",
+      "title": "Sonar natural con las partículas modales en una conversación",
+      "kind": "comunicacion",
+      "tags": [
+        "particulas-modales"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-166"
+      ],
+      "file": "./data/de/lessons/de-a2-167.json"
+    },
+    {
+      "id": "de-a2-168",
+      "order": 168,
+      "level": "A2",
+      "block": "de-a2-b7",
+      "title": "Expresiones con es: es gibt, es geht mir gut, es regnet",
+      "kind": "gramatica",
+      "tags": [
+        "expresiones-es"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-167"
+      ],
+      "file": "./data/de/lessons/de-a2-168.json"
+    },
+    {
+      "id": "de-a2-169",
+      "order": 169,
+      "level": "A2",
+      "block": "de-a2-b7",
+      "title": "El pronombre man: hablar en general sin decir quién",
+      "kind": "gramatica",
+      "tags": [
+        "man"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-168"
+      ],
+      "file": "./data/de/lessons/de-a2-169.json"
+    },
+    {
+      "id": "de-a2-170",
+      "order": 170,
+      "level": "A2",
+      "block": "de-a2-b8",
+      "title": "Pronunciación general V: la reducción de -en al final de palabra",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "reduccion-en"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "de-a2-169"
+      ],
+      "file": "./data/de/lessons/de-a2-170.json"
+    },
+    {
+      "id": "de-a2-171",
+      "order": 171,
+      "level": "A2",
+      "block": "de-a2-b8",
+      "title": "Pronunciación general VI: la r vocalizada y la entonación de las subordinadas",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "r-vocalizada"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "de-a2-170"
+      ],
+      "file": "./data/de/lessons/de-a2-171.json"
+    },
+    {
+      "id": "de-a2-172",
+      "order": 172,
+      "level": "A2",
+      "block": "de-a2-b8",
+      "title": "Repaso activo XIII: casos, declinación del adjetivo y genitivo",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a2-171",
+        "de-a2-170",
+        "de-a2-169"
+      ],
+      "file": "./data/de/lessons/de-a2-172.json"
+    },
+    {
+      "id": "de-a2-173",
+      "order": 173,
+      "level": "A2",
+      "block": "de-a2-b8",
+      "title": "Repaso activo XIV: subordinadas y vocabulario temático A2",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a2-172",
+        "de-a2-171",
+        "de-a2-170"
+      ],
+      "file": "./data/de/lessons/de-a2-173.json"
+    },
+    {
+      "id": "de-a2-174",
+      "order": 174,
+      "level": "A2",
+      "block": "de-a2-b8",
+      "title": "Repaso activo XV: tiempos verbales y partículas modales",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a2-173",
+        "de-a2-172",
+        "de-a2-171"
+      ],
+      "file": "./data/de/lessons/de-a2-174.json"
+    },
+    {
+      "id": "de-a2-175",
+      "order": 175,
+      "level": "A2",
+      "block": "de-a2-b8",
+      "title": "Preparación para la prueba de nivel A2",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "examen"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-a2-174",
+        "de-a2-173",
+        "de-a2-172"
+      ],
+      "file": "./data/de/lessons/de-a2-175.json"
+    },
+    {
+      "id": "de-b1-176",
+      "order": 176,
+      "level": "B1",
+      "block": "de-b1-b1",
+      "title": "El Konjunktiv II con forma propia: ich käme, ich wüsste",
+      "kind": "gramatica",
+      "tags": [
+        "konjunktiv-ii"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-a2-175"
+      ],
+      "file": "./data/de/lessons/de-b1-176.json"
+    },
+    {
+      "id": "de-b1-177",
+      "order": 177,
+      "level": "B1",
+      "block": "de-b1-b1",
+      "title": "Cuándo usar la forma propia y cuándo würde + infinitivo",
+      "kind": "gramatica",
+      "tags": [
+        "konjunktiv-ii",
+        "wurde"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-176"
+      ],
+      "file": "./data/de/lessons/de-b1-177.json"
+    },
+    {
+      "id": "de-b1-178",
+      "order": 178,
+      "level": "B1",
+      "block": "de-b1-b1",
+      "title": "El Konjunktiv II del pasado: hätte / wäre + participio",
+      "kind": "gramatica",
+      "tags": [
+        "konjunktiv-ii",
+        "pasado"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-177"
+      ],
+      "file": "./data/de/lessons/de-b1-178.json"
+    },
+    {
+      "id": "de-b1-179",
+      "order": 179,
+      "level": "B1",
+      "block": "de-b1-b1",
+      "title": "Condicionales irreales: wenn ich Zeit hätte, würde ich...",
+      "kind": "gramatica",
+      "tags": [
+        "konjunktiv-ii",
+        "wenn"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-178"
+      ],
+      "file": "./data/de/lessons/de-b1-179.json"
+    },
+    {
+      "id": "de-b1-180",
+      "order": 180,
+      "level": "B1",
+      "block": "de-b1-b1",
+      "title": "Hacer reproches: du hättest anrufen sollen",
+      "kind": "comunicacion",
+      "tags": [
+        "konjunktiv-ii",
+        "reproches"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-179"
+      ],
+      "file": "./data/de/lessons/de-b1-180.json"
+    },
+    {
+      "id": "de-b1-181",
+      "order": 181,
+      "level": "B1",
+      "block": "de-b1-b1",
+      "title": "Dar consejos con el Konjunktiv II: an deiner Stelle würde ich...",
+      "kind": "comunicacion",
+      "tags": [
+        "konjunktiv-ii",
+        "consejos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-180"
+      ],
+      "file": "./data/de/lessons/de-b1-181.json"
+    },
+    {
+      "id": "de-b1-182",
+      "order": 182,
+      "level": "B1",
+      "block": "de-b1-b1",
+      "title": "La cortesía avanzada: peticiones y preguntas indirectas corteses",
+      "kind": "comunicacion",
+      "tags": [
+        "konjunktiv-ii",
+        "cortesia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-181"
+      ],
+      "file": "./data/de/lessons/de-b1-182.json"
+    },
+    {
+      "id": "de-b1-183",
+      "order": 183,
+      "level": "B1",
+      "block": "de-b1-b1",
+      "title": "Wenn-Sätze sin wenn: invertir el orden para condicionar",
+      "kind": "gramatica",
+      "tags": [
+        "konjunktiv-ii",
+        "wenn",
+        "orden-palabras"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-182"
+      ],
+      "file": "./data/de/lessons/de-b1-183.json"
+    },
+    {
+      "id": "de-b1-184",
+      "order": 184,
+      "level": "B1",
+      "block": "de-b1-b1",
+      "title": "Repaso activo XVI (clases 176–183)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-183",
+        "de-b1-182",
+        "de-b1-181"
+      ],
+      "file": "./data/de/lessons/de-b1-184.json"
+    },
+    {
+      "id": "de-b1-185",
+      "order": 185,
+      "level": "B1",
+      "block": "de-b1-b2",
+      "title": "El Vorgangspassiv en presente: werden + participio",
+      "kind": "gramatica",
+      "tags": [
+        "voz-pasiva"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-184"
+      ],
+      "file": "./data/de/lessons/de-b1-185.json"
+    },
+    {
+      "id": "de-b1-186",
+      "order": 186,
+      "level": "B1",
+      "block": "de-b1-b2",
+      "title": "El Vorgangspassiv en pasado",
+      "kind": "gramatica",
+      "tags": [
+        "voz-pasiva"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-185"
+      ],
+      "file": "./data/de/lessons/de-b1-186.json"
+    },
+    {
+      "id": "de-b1-187",
+      "order": 187,
+      "level": "B1",
+      "block": "de-b1-b2",
+      "title": "La pasiva con verbos modales",
+      "kind": "gramatica",
+      "tags": [
+        "voz-pasiva",
+        "modales"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-186"
+      ],
+      "file": "./data/de/lessons/de-b1-187.json"
+    },
+    {
+      "id": "de-b1-188",
+      "order": 188,
+      "level": "B1",
+      "block": "de-b1-b2",
+      "title": "El Zustandspassiv: el resultado de la acción",
+      "kind": "gramatica",
+      "tags": [
+        "voz-pasiva",
+        "zustandspassiv"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-187"
+      ],
+      "file": "./data/de/lessons/de-b1-188.json"
+    },
+    {
+      "id": "de-b1-189",
+      "order": 189,
+      "level": "B1",
+      "block": "de-b1-b2",
+      "title": "Alternativas a la pasiva: man y sich lassen",
+      "kind": "gramatica",
+      "tags": [
+        "voz-pasiva",
+        "man"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-188"
+      ],
+      "file": "./data/de/lessons/de-b1-189.json"
+    },
+    {
+      "id": "de-b1-190",
+      "order": 190,
+      "level": "B1",
+      "block": "de-b1-b2",
+      "title": "Cuándo un alemán usa de verdad la pasiva (y cuándo no)",
+      "kind": "comunicacion",
+      "tags": [
+        "voz-pasiva"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-189"
+      ],
+      "file": "./data/de/lessons/de-b1-190.json"
+    },
+    {
+      "id": "de-b1-191",
+      "order": 191,
+      "level": "B1",
+      "block": "de-b1-b2",
+      "title": "Describir un proceso o unas instrucciones con la pasiva",
+      "kind": "comunicacion",
+      "tags": [
+        "voz-pasiva",
+        "instrucciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-190"
+      ],
+      "file": "./data/de/lessons/de-b1-191.json"
+    },
+    {
+      "id": "de-b1-192",
+      "order": 192,
+      "level": "B1",
+      "block": "de-b1-b2",
+      "title": "Repaso activo XVII (clases 185–191)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-191",
+        "de-b1-190",
+        "de-b1-189"
+      ],
+      "file": "./data/de/lessons/de-b1-192.json"
+    },
+    {
+      "id": "de-b1-193",
+      "order": 193,
+      "level": "B1",
+      "block": "de-b1-b3",
+      "title": "Las relativas en nominativo y acusativo",
+      "kind": "gramatica",
+      "tags": [
+        "relativas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-192"
+      ],
+      "file": "./data/de/lessons/de-b1-193.json"
+    },
+    {
+      "id": "de-b1-194",
+      "order": 194,
+      "level": "B1",
+      "block": "de-b1-b3",
+      "title": "Las relativas en dativo y genitivo",
+      "kind": "gramatica",
+      "tags": [
+        "relativas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-193"
+      ],
+      "file": "./data/de/lessons/de-b1-194.json"
+    },
+    {
+      "id": "de-b1-195",
+      "order": 195,
+      "level": "B1",
+      "block": "de-b1-b3",
+      "title": "Las relativas con preposición: mit dem, für die...",
+      "kind": "gramatica",
+      "tags": [
+        "relativas",
+        "preposiciones"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-194"
+      ],
+      "file": "./data/de/lessons/de-b1-195.json"
+    },
+    {
+      "id": "de-b1-196",
+      "order": 196,
+      "level": "B1",
+      "block": "de-b1-b3",
+      "title": "Was y wo como relativos",
+      "kind": "gramatica",
+      "tags": [
+        "relativas",
+        "was-wo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-195"
+      ],
+      "file": "./data/de/lessons/de-b1-196.json"
+    },
+    {
+      "id": "de-b1-197",
+      "order": 197,
+      "level": "B1",
+      "block": "de-b1-b3",
+      "title": "El participio como adjetivo: der lachende Mann",
+      "kind": "gramatica",
+      "tags": [
+        "participio-adjetivo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-196"
+      ],
+      "file": "./data/de/lessons/de-b1-197.json"
+    },
+    {
+      "id": "de-b1-198",
+      "order": 198,
+      "level": "B1",
+      "block": "de-b1-b3",
+      "title": "Frases de varios niveles: subordinada dentro de subordinada",
+      "kind": "gramatica",
+      "tags": [
+        "orden-palabras",
+        "subordinadas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-197"
+      ],
+      "file": "./data/de/lessons/de-b1-198.json"
+    },
+    {
+      "id": "de-b1-199",
+      "order": 199,
+      "level": "B1",
+      "block": "de-b1-b3",
+      "title": "El orden de palabras avanzado: cuando todo se junta",
+      "kind": "gramatica",
+      "tags": [
+        "orden-palabras"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-198"
+      ],
+      "file": "./data/de/lessons/de-b1-199.json"
+    },
+    {
+      "id": "de-b1-200",
+      "order": 200,
+      "level": "B1",
+      "block": "de-b1-b3",
+      "title": "Describir a una persona o un objeto con precisión",
+      "kind": "comunicacion",
+      "tags": [
+        "relativas"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-199"
+      ],
+      "file": "./data/de/lessons/de-b1-200.json"
+    },
+    {
+      "id": "de-b1-201",
+      "order": 201,
+      "level": "B1",
+      "block": "de-b1-b3",
+      "title": "Explicar algo complejo sin perder al oyente",
+      "kind": "comunicacion",
+      "tags": [
+        "orden-palabras"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-200"
+      ],
+      "file": "./data/de/lessons/de-b1-201.json"
+    },
+    {
+      "id": "de-b1-202",
+      "order": 202,
+      "level": "B1",
+      "block": "de-b1-b3",
+      "title": "Repaso activo XVIII (clases 193–201)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-201",
+        "de-b1-200",
+        "de-b1-199"
+      ],
+      "file": "./data/de/lessons/de-b1-202.json"
+    },
+    {
+      "id": "de-b1-203",
+      "order": 203,
+      "level": "B1",
+      "block": "de-b1-b4",
+      "title": "Verbos con preposición fija: trabajo y estudios",
+      "kind": "gramatica",
+      "tags": [
+        "regimen-preposicional"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-202"
+      ],
+      "file": "./data/de/lessons/de-b1-203.json"
+    },
+    {
+      "id": "de-b1-204",
+      "order": 204,
+      "level": "B1",
+      "block": "de-b1-b4",
+      "title": "Verbos con preposición fija: relaciones y sentimientos",
+      "kind": "gramatica",
+      "tags": [
+        "regimen-preposicional"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-203"
+      ],
+      "file": "./data/de/lessons/de-b1-204.json"
+    },
+    {
+      "id": "de-b1-205",
+      "order": 205,
+      "level": "B1",
+      "block": "de-b1-b4",
+      "title": "Preguntar y responder con da- y wo- compuestos en una conversación",
+      "kind": "comunicacion",
+      "tags": [
+        "da-compuestos",
+        "wo-compuestos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-204"
+      ],
+      "file": "./data/de/lessons/de-b1-205.json"
+    },
+    {
+      "id": "de-b1-206",
+      "order": 206,
+      "level": "B1",
+      "block": "de-b1-b4",
+      "title": "Sustantivos con preposición fija: die Angst vor, die Freude über",
+      "kind": "gramatica",
+      "tags": [
+        "regimen-preposicional",
+        "sustantivos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-205"
+      ],
+      "file": "./data/de/lessons/de-b1-206.json"
+    },
+    {
+      "id": "de-b1-207",
+      "order": 207,
+      "level": "B1",
+      "block": "de-b1-b4",
+      "title": "Adjetivos con preposición fija: stolz auf, zufrieden mit",
+      "kind": "gramatica",
+      "tags": [
+        "regimen-preposicional",
+        "adjetivos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-206"
+      ],
+      "file": "./data/de/lessons/de-b1-207.json"
+    },
+    {
+      "id": "de-b1-208",
+      "order": 208,
+      "level": "B1",
+      "block": "de-b1-b4",
+      "title": "Practicar el régimen preposicional hablando de tu vida",
+      "kind": "comunicacion",
+      "tags": [
+        "regimen-preposicional"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-207"
+      ],
+      "file": "./data/de/lessons/de-b1-208.json"
+    },
+    {
+      "id": "de-b1-209",
+      "order": 209,
+      "level": "B1",
+      "block": "de-b1-b4",
+      "title": "Los verbos de régimen preposicional que más se confunden",
+      "kind": "gramatica",
+      "tags": [
+        "regimen-preposicional"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-208"
+      ],
+      "file": "./data/de/lessons/de-b1-209.json"
+    },
+    {
+      "id": "de-b1-210",
+      "order": 210,
+      "level": "B1",
+      "block": "de-b1-b4",
+      "title": "Repaso activo XIX (clases 203–209)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-209",
+        "de-b1-208",
+        "de-b1-207"
+      ],
+      "file": "./data/de/lessons/de-b1-210.json"
+    },
+    {
+      "id": "de-b1-211",
+      "order": 211,
+      "level": "B1",
+      "block": "de-b1-b5",
+      "title": "El Plusquamperfekt: el pasado del pasado",
+      "kind": "gramatica",
+      "tags": [
+        "plusquamperfekt"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-210"
+      ],
+      "file": "./data/de/lessons/de-b1-211.json"
+    },
+    {
+      "id": "de-b1-212",
+      "order": 212,
+      "level": "B1",
+      "block": "de-b1-b5",
+      "title": "Nachdem y la secuencia de tiempos verbales",
+      "kind": "gramatica",
+      "tags": [
+        "plusquamperfekt",
+        "nachdem"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-211"
+      ],
+      "file": "./data/de/lessons/de-b1-212.json"
+    },
+    {
+      "id": "de-b1-213",
+      "order": 213,
+      "level": "B1",
+      "block": "de-b1-b5",
+      "title": "El discurso indirecto y el Konjunktiv I: reconocerlo al leer",
+      "kind": "gramatica",
+      "tags": [
+        "discurso-indirecto",
+        "konjunktiv-i"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-212"
+      ],
+      "file": "./data/de/lessons/de-b1-213.json"
+    },
+    {
+      "id": "de-b1-214",
+      "order": 214,
+      "level": "B1",
+      "block": "de-b1-b5",
+      "title": "La nominalización: convertir un verbo en sustantivo",
+      "kind": "gramatica",
+      "tags": [
+        "nominalizacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-213"
+      ],
+      "file": "./data/de/lessons/de-b1-214.json"
+    },
+    {
+      "id": "de-b1-215",
+      "order": 215,
+      "level": "B1",
+      "block": "de-b1-b5",
+      "title": "El infinitivo con zu",
+      "kind": "gramatica",
+      "tags": [
+        "infinitivo-zu"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-214"
+      ],
+      "file": "./data/de/lessons/de-b1-215.json"
+    },
+    {
+      "id": "de-b1-216",
+      "order": 216,
+      "level": "B1",
+      "block": "de-b1-b5",
+      "title": "Las conjunciones dobles: sowohl...als auch, entweder...oder, weder...noch",
+      "kind": "gramatica",
+      "tags": [
+        "conjunciones-dobles"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-215"
+      ],
+      "file": "./data/de/lessons/de-b1-216.json"
+    },
+    {
+      "id": "de-b1-217",
+      "order": 217,
+      "level": "B1",
+      "block": "de-b1-b5",
+      "title": "Leer una noticia y entender el discurso indirecto",
+      "kind": "comunicacion",
+      "tags": [
+        "discurso-indirecto",
+        "lectura"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-216"
+      ],
+      "file": "./data/de/lessons/de-b1-217.json"
+    },
+    {
+      "id": "de-b1-218",
+      "order": 218,
+      "level": "B1",
+      "block": "de-b1-b5",
+      "title": "Escribir un texto con estructuras cultas",
+      "kind": "comunicacion",
+      "tags": [
+        "nominalizacion",
+        "infinitivo-zu"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-217"
+      ],
+      "file": "./data/de/lessons/de-b1-218.json"
+    },
+    {
+      "id": "de-b1-219",
+      "order": 219,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "El trabajo: buscar empleo y la entrevista",
+      "kind": "comunicacion",
+      "tags": [
+        "trabajo"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-218"
+      ],
+      "file": "./data/de/lessons/de-b1-219.json"
+    },
+    {
+      "id": "de-b1-220",
+      "order": 220,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "La formación y la universidad",
+      "kind": "vocabulario",
+      "tags": [
+        "educacion"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-219"
+      ],
+      "file": "./data/de/lessons/de-b1-220.json"
+    },
+    {
+      "id": "de-b1-221",
+      "order": 221,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "La vivienda: alquilar, comprar y los contratos",
+      "kind": "vocabulario",
+      "tags": [
+        "vivienda",
+        "contratos"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-220"
+      ],
+      "file": "./data/de/lessons/de-b1-221.json"
+    },
+    {
+      "id": "de-b1-222",
+      "order": 222,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "La salud y el sistema sanitario",
+      "kind": "vocabulario",
+      "tags": [
+        "salud"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-221"
+      ],
+      "file": "./data/de/lessons/de-b1-222.json"
+    },
+    {
+      "id": "de-b1-223",
+      "order": 223,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "El medioambiente y el clima",
+      "kind": "vocabulario",
+      "tags": [
+        "medioambiente",
+        "clima"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-222"
+      ],
+      "file": "./data/de/lessons/de-b1-223.json"
+    },
+    {
+      "id": "de-b1-224",
+      "order": 224,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "La política y las instituciones",
+      "kind": "vocabulario",
+      "tags": [
+        "politica"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-223"
+      ],
+      "file": "./data/de/lessons/de-b1-224.json"
+    },
+    {
+      "id": "de-b1-225",
+      "order": 225,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "La economía personal: ahorrar, gastar, invertir",
+      "kind": "vocabulario",
+      "tags": [
+        "economia"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-224"
+      ],
+      "file": "./data/de/lessons/de-b1-225.json"
+    },
+    {
+      "id": "de-b1-226",
+      "order": 226,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "La tecnología e internet",
+      "kind": "vocabulario",
+      "tags": [
+        "tecnologia",
+        "internet"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-225"
+      ],
+      "file": "./data/de/lessons/de-b1-226.json"
+    },
+    {
+      "id": "de-b1-227",
+      "order": 227,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "Los medios de comunicación y las noticias",
+      "kind": "vocabulario",
+      "tags": [
+        "medios",
+        "noticias"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-226"
+      ],
+      "file": "./data/de/lessons/de-b1-227.json"
+    },
+    {
+      "id": "de-b1-228",
+      "order": 228,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "El arte y la literatura",
+      "kind": "vocabulario",
+      "tags": [
+        "arte",
+        "literatura"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-227"
+      ],
+      "file": "./data/de/lessons/de-b1-228.json"
+    },
+    {
+      "id": "de-b1-229",
+      "order": 229,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "La gastronomía alemana y más allá",
+      "kind": "comunicacion",
+      "tags": [
+        "gastronomia"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-228"
+      ],
+      "file": "./data/de/lessons/de-b1-229.json"
+    },
+    {
+      "id": "de-b1-230",
+      "order": 230,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "Viajes largos e imprevistos",
+      "kind": "vocabulario",
+      "tags": [
+        "viajes",
+        "imprevistos"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-229"
+      ],
+      "file": "./data/de/lessons/de-b1-230.json"
+    },
+    {
+      "id": "de-b1-231",
+      "order": 231,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "Las relaciones y la convivencia",
+      "kind": "vocabulario",
+      "tags": [
+        "relaciones",
+        "convivencia"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-230"
+      ],
+      "file": "./data/de/lessons/de-b1-231.json"
+    },
+    {
+      "id": "de-b1-232",
+      "order": 232,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "La burocracia alemana: papeles, plazos y oficinas",
+      "kind": "vocabulario",
+      "tags": [
+        "burocracia"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-231"
+      ],
+      "file": "./data/de/lessons/de-b1-232.json"
+    },
+    {
+      "id": "de-b1-233",
+      "order": 233,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "Expresiones idiomáticas frecuentes y el registro coloquial frente al formal",
+      "kind": "vocabulario",
+      "tags": [
+        "expresiones-idiomaticas",
+        "registro"
+      ],
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "de-b1-232"
+      ],
+      "file": "./data/de/lessons/de-b1-233.json"
+    },
+    {
+      "id": "de-b1-234",
+      "order": 234,
+      "level": "B1",
+      "block": "de-b1-b6",
+      "title": "Repaso activo XX (clases 219–233)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-233",
+        "de-b1-232",
+        "de-b1-231"
+      ],
+      "file": "./data/de/lessons/de-b1-234.json"
+    },
+    {
+      "id": "de-b1-235",
+      "order": 235,
+      "level": "B1",
+      "block": "de-b1-b7",
+      "title": "Argumentar y rebatir un argumento",
+      "kind": "comunicacion",
+      "tags": [
+        "argumentacion",
+        "debate"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-234"
+      ],
+      "file": "./data/de/lessons/de-b1-235.json"
+    },
+    {
+      "id": "de-b1-236",
+      "order": 236,
+      "level": "B1",
+      "block": "de-b1-b7",
+      "title": "Matizar y usar las partículas modales para sonar natural",
+      "kind": "comunicacion",
+      "tags": [
+        "matizar",
+        "particulas-modales"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-235"
+      ],
+      "file": "./data/de/lessons/de-b1-236.json"
+    },
+    {
+      "id": "de-b1-237",
+      "order": 237,
+      "level": "B1",
+      "block": "de-b1-b7",
+      "title": "Interrumpir con educación y ceder el turno",
+      "kind": "comunicacion",
+      "tags": [
+        "turno-palabra"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-236"
+      ],
+      "file": "./data/de/lessons/de-b1-237.json"
+    },
+    {
+      "id": "de-b1-238",
+      "order": 238,
+      "level": "B1",
+      "block": "de-b1-b7",
+      "title": "Contar una historia con gracia",
+      "kind": "comunicacion",
+      "tags": [
+        "narracion",
+        "humor"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-237"
+      ],
+      "file": "./data/de/lessons/de-b1-238.json"
+    },
+    {
+      "id": "de-b1-239",
+      "order": 239,
+      "level": "B1",
+      "block": "de-b1-b7",
+      "title": "Negociar: pedir, ceder y llegar a un acuerdo",
+      "kind": "comunicacion",
+      "tags": [
+        "negociacion"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-238"
+      ],
+      "file": "./data/de/lessons/de-b1-239.json"
+    },
+    {
+      "id": "de-b1-240",
+      "order": 240,
+      "level": "B1",
+      "block": "de-b1-b7",
+      "title": "Expresar hipótesis y probabilidad en una charla informal",
+      "kind": "comunicacion",
+      "tags": [
+        "hipotesis",
+        "probabilidad"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-239"
+      ],
+      "file": "./data/de/lessons/de-b1-240.json"
+    },
+    {
+      "id": "de-b1-241",
+      "order": 241,
+      "level": "B1",
+      "block": "de-b1-b7",
+      "title": "Entender el alemán hablado rápido: trucos para no perderte",
+      "kind": "comunicacion",
+      "tags": [
+        "comprension-oral"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-240"
+      ],
+      "file": "./data/de/lessons/de-b1-241.json"
+    },
+    {
+      "id": "de-b1-242",
+      "order": 242,
+      "level": "B1",
+      "block": "de-b1-b7",
+      "title": "Malentendidos: cómo darte cuenta y cómo salir de ellos",
+      "kind": "comunicacion",
+      "tags": [
+        "malentendidos"
+      ],
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "de-b1-241"
+      ],
+      "file": "./data/de/lessons/de-b1-242.json"
+    },
+    {
+      "id": "de-b1-243",
+      "order": 243,
+      "level": "B1",
+      "block": "de-b1-b7",
+      "title": "Repaso activo XXI (clases 235–242)",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-242",
+        "de-b1-241",
+        "de-b1-240"
+      ],
+      "file": "./data/de/lessons/de-b1-243.json"
+    },
+    {
+      "id": "de-b1-244",
+      "order": 244,
+      "level": "B1",
+      "block": "de-b1-b8",
+      "title": "Pronunciación general VII: el habla muy rápida",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "habla-rapida"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "de-b1-243"
+      ],
+      "file": "./data/de/lessons/de-b1-244.json"
+    },
+    {
+      "id": "de-b1-245",
+      "order": 245,
+      "level": "B1",
+      "block": "de-b1-b8",
+      "title": "Pronunciación general VIII: las variantes del sur (Baviera y Austria, lo básico para reconocerlas)",
+      "kind": "fonetica",
+      "tags": [
+        "pronunciacion-general",
+        "variantes-regionales"
+      ],
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "de-b1-244"
+      ],
+      "file": "./data/de/lessons/de-b1-245.json"
+    },
+    {
+      "id": "de-b1-246",
+      "order": 246,
+      "level": "B1",
+      "block": "de-b1-b8",
+      "title": "Repaso activo XXII: Konjunktiv II y voz pasiva",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-245",
+        "de-b1-244",
+        "de-b1-243"
+      ],
+      "file": "./data/de/lessons/de-b1-246.json"
+    },
+    {
+      "id": "de-b1-247",
+      "order": 247,
+      "level": "B1",
+      "block": "de-b1-b8",
+      "title": "Repaso activo XXIII: relativas y régimen preposicional",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-246",
+        "de-b1-245",
+        "de-b1-244"
+      ],
+      "file": "./data/de/lessons/de-b1-247.json"
+    },
+    {
+      "id": "de-b1-248",
+      "order": 248,
+      "level": "B1",
+      "block": "de-b1-b8",
+      "title": "Repaso activo XXIV: estructuras cultas",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-247",
+        "de-b1-246",
+        "de-b1-245"
+      ],
+      "file": "./data/de/lessons/de-b1-248.json"
+    },
+    {
+      "id": "de-b1-249",
+      "order": 249,
+      "level": "B1",
+      "block": "de-b1-b8",
+      "title": "Repaso activo XXV: vocabulario y conversación real B1",
+      "kind": "repaso",
+      "tags": [
+        "repaso"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-248",
+        "de-b1-247",
+        "de-b1-246"
+      ],
+      "file": "./data/de/lessons/de-b1-249.json"
+    },
+    {
+      "id": "de-b1-250",
+      "order": 250,
+      "level": "B1",
+      "block": "de-b1-b8",
+      "title": "Preparación para la prueba de nivel B1",
+      "kind": "repaso",
+      "tags": [
+        "repaso",
+        "examen"
+      ],
+      "estimatedMinutes": 20,
+      "prerequisites": [
+        "de-b1-249",
+        "de-b1-248",
+        "de-b1-247"
+      ],
+      "file": "./data/de/lessons/de-b1-250.json"
+    }
+  ]
 }

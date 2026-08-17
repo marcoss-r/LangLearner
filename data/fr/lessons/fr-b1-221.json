@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-221",
+  "lang": "fr",
+  "level": "B1",
+  "order": 221,
+  "title": "Explicar cómo se hace algo, paso a paso",
+  "objectives": [
+    "Usar pour commencer, il suffit de y pour finir para estructurar instrucciones",
+    "Usar étape par étape y une fois que para ordenar los pasos",
+    "Combinar el gérondif (en faisant attention à) con las instrucciones"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dar instrucciones claras",
+      "body": "Explicar cómo se hace algo combina los conectores de secuencia que ya conoces con fórmulas específicas de instrucciones: il suffit de (basta con), étape par étape (paso a paso), une fois que (una vez que)."
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas de instrucciones",
+      "headers": ["Momento", "Expresión"],
+      "rows": [
+        ["inicio", "pour commencer"],
+        ["acción sencilla", "il suffit de"],
+        ["orden de los pasos", "étape par étape, une fois que"],
+        ["advertencia", "il faut veiller à"],
+        ["cierre", "pour finir"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Combina con el gérondif",
+      "body": "En faisant attention à (teniendo cuidado con) combina el gérondif que ya conoces con las instrucciones: útil para dar una advertencia mientras describes un paso."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "pour commencer", "es": "para empezar", "ipa": "/puʁ kɔ.mɑ̃.se/", "esApprox": "«pur ko-man-SÉ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "il suffit de", "es": "basta con", "ipa": "/il sy.fi də/", "esApprox": "«il sü-FÍ de»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "en même temps", "es": "al mismo tiempo", "ipa": "/ɑ̃ mɛm tɑ̃/", "esApprox": "«an MEM TAN»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "une fois que", "es": "una vez que", "ipa": "/yn fwa kə/", "esApprox": "«ün FUÁ ke»", "pos": "conjunción", "gender": null },
+    { "id": "v5", "target": "il faut veiller à", "es": "hay que tener cuidado con", "ipa": "/il fo vɛ.je a/", "esApprox": "«il FO ve-YÉ a»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "étape par étape", "es": "paso a paso", "ipa": "/e.tap paʁ e.tap/", "esApprox": "«e-TAP par e-TAP»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "pour finir", "es": "para terminar", "ipa": "/puʁ fi.niʁ/", "esApprox": "«pur fi-NIR»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "en faisant attention à", "es": "teniendo cuidado con", "ipa": "/ɑ̃ fə.zɑ̃.t‿a.tɑ̃.sjɔ̃ a/", "esApprox": "«an fe-zan-ta-tan-SIÓN a»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "¿Cómo dices «basta con» + infinitivo?",
+      "options": ["il faut", "il suffit de", "il vaut", "il reste"],
+      "answer": 1,
+      "explain": "Il suffit de + infinitivo: basta con hacer algo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "¿Cómo dices «paso a paso»?",
+      "options": ["en même temps", "étape par étape", "une fois que", "pour finir"],
+      "answer": 1,
+      "explain": "Étape par étape ordena los pasos de una instrucción."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "statement": "Une fois que introduce algo que debe pasar primero.",
+      "answer": true,
+      "explain": "Une fois que marca una condición previa: una vez que ocurre X, haz Y."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "statement": "En même temps significa «paso a paso».",
+      "answer": false,
+      "explain": "En même temps significa «al mismo tiempo», no «paso a paso»."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su función",
+      "left": ["pour commencer", "il suffit de", "en même temps", "pour finir"],
+      "right": ["inicio", "basta con", "simultaneidad", "cierre"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Pour commencer = inicio, il suffit de = basta con, en même temps = simultaneidad, pour finir = cierre."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "Para empezar, basta con seguir las instrucciones.",
+      "accept": ["Pour commencer, il suffit de suivre les instructions"],
+      "hintWords": ["pour commencer, il suffit de suivre", "les instructions"],
+      "strictAccents": true,
+      "audio": "Pour commencer, il suffit de suivre les instructions.",
+      "explain": "Pour commencer + il suffit de + infinitivo."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "Una vez que hayas terminado, hay que tener cuidado con los detalles.",
+      "accept": ["Une fois que tu as fini, il faut veiller aux détails"],
+      "hintWords": ["une fois que tu as fini", "il faut veiller aux détails"],
+      "strictAccents": true,
+      "audio": "Une fois que tu as fini, il faut veiller aux détails.",
+      "explain": "Une fois que + indicativo, y il faut veiller à para la advertencia."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "___, il suffit de suivre les instructions ___.",
+      "blanks": [{ "accept": ["Pour commencer"] }, { "accept": ["étape par étape"] }],
+      "bank": ["Pour commencer", "étape par étape", "en même temps"],
+      "explain": "Pour commencer (inicio) y étape par étape (orden de los pasos)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Hay que tener cuidado con los detalles»",
+      "tokens": ["aux détails", "Il faut veiller"],
+      "answer": ["Il faut veiller", "aux détails"],
+      "audio": "Il faut veiller aux détails.",
+      "explain": "Il faut veiller à advierte sobre algo importante."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "Pour commencer, il suffit de suivre les instructions étape par étape, en faisant attention aux détails.",
+      "accept": ["Para empezar, basta con seguir las instrucciones paso a paso, teniendo cuidado con los detalles."],
+      "strictAccents": false,
+      "audio": "Pour commencer, il suffit de suivre les instructions étape par étape, en faisant attention aux détails.",
+      "explain": "Instrucciones completas combinando varias fórmulas y el gérondif."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando cómo hacer algo",
+      "turns": [
+        { "who": "Léa", "text": "Comment on fait ça ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Pour commencer, il suffit de suivre les instructions.", "Étape par étape, en faisant attention aux détails."], "hint": "usa una fórmula de instrucciones" },
+        { "who": "Léa", "text": "D'accord, je vais essayer.", "speak": true }
+      ],
+      "explain": "Repaso combinado de las fórmulas de instrucciones."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "speak": "Pour commencer, il suffit de suivre les instructions étape par étape.",
+      "mode": "write",
+      "accept": ["Pour commencer, il suffit de suivre les instructions étape par étape"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de las fórmulas de instrucciones."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 1,
+      "speak": "il suffit de",
+      "mode": "choose",
+      "options": ["il faut", "il suffit de", "il vaut", "il reste"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Il suffit de expresa que algo es suficiente."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 3,
+      "speak": "Pour commencer, il suffit de suivre les instructions étape par étape. Une fois que tu as fini, il faut veiller aux détails.",
+      "es": "Para empezar, basta con seguir las instrucciones paso a paso. Una vez que hayas terminado, hay que tener cuidado con los detalles.",
+      "ipa": "/puʁ kɔ.mɑ̃.se il sy.fi də sɥivʁ le.z‿ɛ̃s.tʁyk.sjɔ̃.z‿e.tap paʁ e.tap yn fwa kə ty a fi.ni il fo vɛ.je o de.taj/",
+      "esApprox": "«pur ko-man-SÉ il sü-FÍ de süívR le-zin-strük-sion-ze-TAP par e-TAP ün FUÁ ke tü a fi-NÍ il FO ve-YÉ o de-TAY»",
+      "focus": "Instrucciones completas: inicio, orden de pasos y advertencia final.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "Explica cómo se hace algo, paso a paso, usando pour commencer, il suffit de y pour finir.",
+      "modelAnswer": "Pour commencer, il suffit de suivre les instructions. Étape par étape, en faisant attention aux détails, et pour finir, vérifie le résultat.",
+      "alsoValid": ["Une fois que tu as fini, il faut veiller aux détails."],
+      "speak": "Pour commencer, il suffit de suivre les instructions. Étape par étape, en faisant attention aux détails, et pour finir, vérifie le résultat.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "¿Es inicio o cierre?",
+      "buckets": ["Inicio", "Cierre"],
+      "items": [
+        { "text": "pour commencer", "bucket": 0 },
+        { "text": "pour finir", "bucket": 1 },
+        { "text": "il suffit de", "bucket": 0 },
+        { "text": "une fois que tu as fini", "bucket": 1 }
+      ],
+      "explain": "Pour commencer e il suffit de abren las instrucciones; pour finir y une fois que tu as fini las cierran."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["gerundio", "instrucciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error: pour finir cierra las instrucciones, no las abre. Corrige la frase entera.",
+      "wrong": "Pour finir, il suffit de suivre les instructions.",
+      "accept": ["Pour commencer, il suffit de suivre les instructions"],
+      "audio": "Pour commencer, il suffit de suivre les instructions.",
+      "explain": "Pour commencer abre las instrucciones; pour finir las cierra."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "pour commencer", "es": "para empezar", "esApprox": "«pur ko-man-SÉ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "il suffit de", "es": "basta con", "esApprox": "«il sü-FÍ de»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "en même temps", "es": "al mismo tiempo", "esApprox": "«an MEM TAN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "une fois que", "es": "una vez que", "esApprox": "«ün FUÁ ke»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "il faut veiller à", "es": "hay que tener cuidado con", "esApprox": "«il FO ve-YÉ a»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "étape par étape", "es": "paso a paso", "esApprox": "«e-TAP par e-TAP»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Pour commencer, il suffit de suivre les instructions.", "es": "Para empezar, basta con seguir las instrucciones.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Une fois que tu as fini, il faut veiller aux détails.", "es": "Una vez que hayas terminado, hay que tener cuidado con los detalles.", "from": "e7" }
+  ]
+}

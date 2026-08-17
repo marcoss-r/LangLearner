@@ -1,0 +1,253 @@
+{
+  "id": "fr-a2-121",
+  "lang": "fr",
+  "level": "A2",
+  "order": 121,
+  "title": "Los indefinidos: tout, chaque, quelques, plusieurs",
+  "objectives": [
+    "Usar tout/toute/tous/toutes, que se acuerda en género y número",
+    "Usar chaque (invariable, siempre singular) para «cada»",
+    "Usar quelques y plusieurs (siempre plural) para cantidades indeterminadas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuatro palabras para hablar de cantidad sin ser exactos",
+      "body": "Tout, chaque, quelques y plusieurs son adjetivos indefinidos: se usan delante de un sustantivo para hablar de cantidad sin dar un número exacto. Cada uno tiene su propia regla de concordancia.",
+      "examples": [
+        { "target": "Tous les jours, je lis quelques pages, mais chaque livre est différent.", "es": "Todos los días, leo algunas páginas, pero cada libro es diferente.", "note": "tous (acuerdo) + quelques (invariable) + chaque (invariable)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los cuatro indefinidos",
+      "headers": ["Palabra", "Concordancia", "Ejemplo"],
+      "rows": [
+        ["tout / toute / tous / toutes", "se acuerda en género y número", "tout le jour, toute la nuit, tous les jours, toutes les nuits"],
+        ["chaque", "invariable, siempre singular", "chaque jour, chaque personne"],
+        ["quelques", "invariable, siempre plural", "quelques jours, quelques personnes"],
+        ["plusieurs", "invariable, siempre plural", "plusieurs jours, plusieurs personnes"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Chaque frente a tous les"
+      ,
+      "items": [
+        { "wrong": "Chaque les jours (con artículo)", "right": "Chaque jour (sin artículo) / Tous les jours (con artículo)", "why": "Chaque nunca lleva artículo delante del sustantivo. Tous/toutes sí llevan el artículo: tous les jours." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "tout / toute / tous / toutes", "es": "todo/a/os/as", "ipa": "/tu tut tus tut/", "esApprox": "«TÚ TUT TUS TUT»", "pos": "adjetivo", "gender": null, "example": { "target": "Tous les jours, je travaille.", "es": "Todos los días, trabajo." } },
+    { "id": "v2", "target": "chaque", "es": "cada", "ipa": "/ʃak/", "esApprox": "«SHAK»", "pos": "adjetivo", "gender": null, "example": { "target": "Chaque jour est différent.", "es": "Cada día es diferente." } },
+    { "id": "v3", "target": "quelques", "es": "algunos/as", "ipa": "/kɛl.kə/", "esApprox": "«kel-ke»", "pos": "adjetivo", "gender": null, "example": { "target": "J'ai quelques questions.", "es": "Tengo algunas preguntas." } },
+    { "id": "v4", "target": "plusieurs", "es": "varios/as", "ipa": "/ply.zjœʁ/", "esApprox": "«plü-ZIEUR»", "pos": "adjetivo", "gender": null, "example": { "target": "J'ai lu plusieurs livres.", "es": "He leído varios libros." } },
+    { "id": "v5", "target": "toute la nuit", "es": "toda la noche", "ipa": "/tut la nɥi/", "esApprox": "«tut la NÜÍ»", "pos": "expresión", "gender": null, "example": { "target": "J'ai travaillé toute la nuit.", "es": "Trabajé toda la noche." } },
+    { "id": "v6", "target": "une question", "es": "una pregunta", "ipa": "/yn kɛs.tjɔ̃/", "esApprox": "«ün kes-TIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "J'ai quelques questions.", "es": "Tengo algunas preguntas." } },
+    { "id": "v7", "target": "une page", "es": "una página", "ipa": "/yn paʒ/", "esApprox": "«ün PAZH»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je lis quelques pages chaque jour.", "es": "Leo algunas páginas cada día." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «cada día»?",
+      "options": ["chaque jour", "chaque les jours", "tous jour", "quelques jour"],
+      "answer": 0,
+      "explain": "Chaque + sustantivo, sin artículo, siempre singular."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta para «toda la noche»?",
+      "options": ["tout la nuit", "toute la nuit", "tous la nuit", "toutes la nuit"],
+      "answer": 1,
+      "explain": "Nuit es femenino singular: toute la nuit."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "statement": "Quelques y plusieurs son siempre invariables y siempre van con un sustantivo plural.",
+      "answer": true,
+      "explain": "No cambian de forma nunca."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "statement": "Chaque puede llevar artículo delante del sustantivo.",
+      "answer": false,
+      "explain": "Chaque nunca lleva artículo: chaque jour, no chaque le jour."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "Une cada indefinido con su significado",
+      "left": ["chaque", "quelques", "plusieurs", "toute"],
+      "right": ["varios/as", "cada", "toda (femenino)", "algunos/as"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Chaque = cada, quelques = algunos, plusieurs = varios, toute = toda."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "Todos los días, leo algunas páginas, pero cada libro es diferente.",
+      "accept": ["Tous les jours, je lis quelques pages, mais chaque livre est différent"],
+      "hintWords": ["tous les jours", "je lis quelques pages", "chaque livre est différent"],
+      "strictAccents": true,
+      "audio": "Tous les jours, je lis quelques pages, mais chaque livre est différent.",
+      "explain": "Tous (acuerdo) + quelques (invariable) + chaque (invariable)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "He leído varios libros, y tengo algunas preguntas.",
+      "accept": ["J'ai lu plusieurs livres, et j'ai quelques questions"],
+      "hintWords": ["j'ai lu plusieurs livres", "j'ai quelques questions"],
+      "strictAccents": true,
+      "audio": "J'ai lu plusieurs livres, et j'ai quelques questions.",
+      "explain": "Plusieurs + quelques, dos indefinidos invariables."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de tout",
+      "text": "___ le jour, il travaille, et ___ la nuit, il dort.",
+      "blanks": [{ "accept": ["Tout"] }, { "accept": ["toute"] }],
+      "bank": ["Tout", "toute", "tous"],
+      "explain": "Tout le jour (masc.), toute la nuit (fem.)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «He trabajado toda la noche»",
+      "tokens": ["toute la nuit", "J'ai travaillé"],
+      "answer": ["J'ai travaillé", "toute la nuit"],
+      "audio": "J'ai travaillé toute la nuit.",
+      "explain": "J'ai travaillé + toute la nuit."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "Chaque personne est différente, mais toutes les personnes ont besoin de repos.",
+      "accept": ["Cada persona es diferente, pero todas las personas necesitan descanso."],
+      "strictAccents": false,
+      "audio": "Chaque personne est différente, mais toutes les personnes ont besoin de repos.",
+      "explain": "Chaque (invariable) frente a toutes (acuerdo femenino plural)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu rutina de lectura",
+      "turns": [
+        { "who": "Léa", "text": "Tu lis tous les jours ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je lis quelques pages chaque jour.", "Non, je lis seulement quelques fois par semaine."], "hint": "usa quelques o chaque" },
+        { "who": "Léa", "text": "Ah, super !", "speak": true }
+      ],
+      "explain": "Tu lis tous les jours ? se responde con un indefinido."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "speak": "J'ai lu plusieurs livres cette année, et chaque livre était différent.",
+      "mode": "write",
+      "accept": ["J'ai lu plusieurs livres cette année, et chaque livre était différent"],
+      "showTextAfter": true,
+      "explain": "Plusieurs (invariable plural) + chaque (invariable singular)."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["indefinidos"],
+      "difficulty": 1,
+      "speak": "chaque jour",
+      "mode": "choose",
+      "options": ["chaque les jours", "chaque jour", "tous jour", "quelques jour"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Chaque jour = cada día, sin artículo."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["indefinidos"],
+      "difficulty": 3,
+      "speak": "Tous les jours, je lis quelques pages, chaque livre est différent, et j'ai lu plusieurs histoires cette année.",
+      "es": "Todos los días, leo algunas páginas, cada libro es diferente, y he leído varias historias este año.",
+      "ipa": "/tu le ʒuʁ ʒə li kɛl.kə paʒ ʃak livʁ ɛ di.fe.ʁɑ̃ e ʒe ly plyz.jœʁ is.twaʁ sɛt a.ne/",
+      "esApprox": "«tu le YUR ye LI kel-ke PAZH shak LIVR e di-fe-RAN e ye LÜ plü-ZIEUR is-TUÁR set a-NÉ»",
+      "focus": "Los cuatro indefinidos en una sola frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "Habla de tu rutina de lectura usando tout, chaque, quelques y plusieurs.",
+      "modelAnswer": "Chaque jour, je lis quelques pages, et j'ai lu plusieurs livres cette année.",
+      "alsoValid": ["Tous les jours, je lis un peu."],
+      "speak": "Chaque jour, je lis quelques pages, et j'ai lu plusieurs livres cette année.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "¿Es invariable o se acuerda en género y número?",
+      "buckets": ["Invariable", "Se acuerda"],
+      "items": [
+        { "text": "chaque", "bucket": 0 },
+        { "text": "tout / toute / tous / toutes", "bucket": 1 },
+        { "text": "quelques", "bucket": 0 },
+        { "text": "plusieurs", "bucket": 0 }
+      ],
+      "explain": "Solo tout se acuerda; chaque, quelques y plusieurs son invariables."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["indefinidos"],
+      "difficulty": 2,
+      "prompt": "Hay un error: chaque no lleva artículo. Corrige la frase entera.",
+      "wrong": "Chaque les jours, je travaille.",
+      "accept": ["Chaque jour, je travaille"],
+      "audio": "Chaque jour, je travaille.",
+      "explain": "Chaque nunca lleva artículo delante del sustantivo."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "tout / toute / tous / toutes", "es": "todo/a/os/as", "esApprox": "«TÚ TUT TUS TUT»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "chaque", "es": "cada", "esApprox": "«SHAK»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "quelques", "es": "algunos/as", "esApprox": "«kel-ke»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "plusieurs", "es": "varios/as", "esApprox": "«plü-ZIEUR»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "toute la nuit", "es": "toda la noche", "esApprox": "«tut la NÜÍ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Tous les jours, je lis quelques pages, mais chaque livre est différent.", "es": "Todos los días, leo algunas páginas, pero cada libro es diferente.", "from": "e6" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai lu plusieurs livres, et j'ai quelques questions.", "es": "He leído varios libros, y tengo algunas preguntas.", "from": "e7" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai travaillé toute la nuit.", "es": "Trabajé toda la noche.", "from": "e9" }
+  ]
+}

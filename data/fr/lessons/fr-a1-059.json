@@ -1,0 +1,266 @@
+{
+  "id": "fr-a1-059",
+  "lang": "fr",
+  "level": "A1",
+  "order": 59,
+  "title": "Las bebidas y el desayuno francés",
+  "objectives": [
+    "Nombrar las bebidas más frecuentes: eau, café, thé, jus, vin, bière",
+    "Describir un desayuno francés típico con el partitivo (clase 57)",
+    "Pedir una bebida usando je voudrais o je vais prendre"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Las bebidas y el desayuno",
+      "body": "El desayuno francés típico (le petit-déjeuner) suele ser dulce: pain, beurre, confiture y café ou chocolat chaud. Usa el partitivo (clase 57) para decir qué tomas.",
+      "examples": [
+        { "target": "Au petit-déjeuner, je mange du pain avec du beurre et de la confiture, et je bois du café.", "es": "En el desayuno, como pan con mantequilla y mermelada, y bebo café.", "note": "du pain, du beurre, de la confiture, du café: todos partitivos" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de las bebidas y el desayuno",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["l'eau", "el agua"],
+        ["le café", "el café"],
+        ["le thé", "el té"],
+        ["le jus d'orange", "el zumo de naranja"],
+        ["le vin", "el vino"],
+        ["la bière", "la cerveza"],
+        ["le beurre", "la mantequilla"],
+        ["la confiture", "la mermelada"],
+        ["le petit-déjeuner", "el desayuno"]
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Je vais prendre frente a je voudrais",
+      "items": [
+        { "wrong": "Pensar que solo existe una forma de pedir una bebida", "right": "Je voudrais un café. / Je vais prendre un café.", "why": "Je voudrais (clase 43) es más formal y educado. Je vais prendre (futuro próximo con aller, ya usado como fórmula fija, clase 43) también sirve para pedir, de forma un poco más directa. Las dos son correctas." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En Francia, pedir «un café» significa un café solo (espresso). Si lo quieres con leche, hay que pedir un café au lait o un café crème."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "l'eau", "es": "el agua", "ipa": "/lo/", "esApprox": "«LO»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je bois de l'eau à chaque repas.", "es": "Bebo agua en cada comida." } },
+    { "id": "v2", "target": "le café", "es": "el café", "ipa": "/lə ka.fe/", "esApprox": "«le ka-FE»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je voudrais un café, s'il vous plaît.", "es": "Querría un café, por favor." } },
+    { "id": "v3", "target": "le thé", "es": "el té", "ipa": "/lə te/", "esApprox": "«le TE»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le matin, je bois du thé.", "es": "Por la mañana, bebo té." } },
+    { "id": "v4", "target": "le jus d'orange", "es": "el zumo de naranja", "ipa": "/lə ʒy dɔ.ʁɑ̃ʒ/", "esApprox": "«le YÜ do-RANY»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je bois du jus d'orange le matin.", "es": "Bebo zumo de naranja por la mañana." } },
+    { "id": "v5", "target": "le vin", "es": "el vino", "ipa": "/lə vɛ̃/", "esApprox": "«le VEN»", "pos": "sustantivo", "gender": "m", "example": { "target": "Il boit du vin rouge.", "es": "Él bebe vino tinto." } },
+    { "id": "v6", "target": "la bière", "es": "la cerveza", "ipa": "/la bjɛʁ/", "esApprox": "«la BIER»", "pos": "sustantivo", "gender": "f", "example": { "target": "Nous buvons de la bière.", "es": "Bebemos cerveza." } },
+    { "id": "v7", "target": "le beurre", "es": "la mantequilla", "ipa": "/lə bœʁ/", "esApprox": "«le BEUR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je mange du pain avec du beurre.", "es": "Como pan con mantequilla." } },
+    { "id": "v8", "target": "la confiture", "es": "la mermelada", "ipa": "/la kɔ̃.fi.tyʁ/", "esApprox": "«la kon-fi-TÜR»", "pos": "sustantivo", "gender": "f", "example": { "target": "Je mange du pain avec de la confiture.", "es": "Como pan con mermelada." } },
+    { "id": "v9", "target": "le petit-déjeuner", "es": "el desayuno", "ipa": "/lə pə.ti de.ʒœ.ne/", "esApprox": "«le peti de-YEU-ne»", "pos": "sustantivo", "gender": "m", "example": { "target": "Au petit-déjeuner, je bois du café.", "es": "En el desayuno, bebo café." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["bebidas"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «el zumo de naranja»?",
+      "options": ["le café", "le jus d'orange", "le thé", "la bière"],
+      "answer": 1,
+      "explain": "Le jus d'orange = el zumo de naranja."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["desayuno"],
+      "difficulty": 2,
+      "prompt": "En Francia, pedir «un café» sin más significa...",
+      "options": ["un café con leche", "un café solo (espresso)", "un té", "un chocolate caliente"],
+      "answer": 1,
+      "explain": "Un café es un café solo; con leche se pide café au lait o café crème."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["bebidas"],
+      "difficulty": 1,
+      "statement": "La bière y le vin son bebidas alcohólicas.",
+      "answer": true,
+      "explain": "La bière (cerveza) y le vin (vino) son alcohólicos."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["desayuno"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras no es una bebida?",
+      "options": ["le café", "le thé", "le beurre", "l'eau"],
+      "answer": 2,
+      "explain": "Le beurre (la mantequilla) no es una bebida."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["bebidas", "desayuno"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["le beurre", "la confiture", "le petit-déjeuner", "le jus d'orange"],
+      "right": ["el zumo de naranja", "la mantequilla", "el desayuno", "la mermelada"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Beurre = mantequilla, confiture = mermelada, petit-déjeuner = desayuno, jus d'orange = zumo de naranja."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["desayuno"],
+      "difficulty": 2,
+      "prompt": "En el desayuno, como pan con mantequilla y mermelada.",
+      "accept": ["Au petit-déjeuner, je mange du pain avec du beurre et de la confiture"],
+      "hintWords": ["au petit-déjeuner", "du pain", "du beurre", "de la confiture"],
+      "strictAccents": false,
+      "audio": "Au petit-déjeuner, je mange du pain avec du beurre et de la confiture.",
+      "explain": "Du beurre (masc.) y de la confiture (fem.), partitivos de la clase 57."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["bebidas"],
+      "difficulty": 2,
+      "prompt": "Querría un café con leche, por favor.",
+      "accept": ["Je voudrais un café au lait, s'il vous plaît"],
+      "hintWords": ["je voudrais un café au lait"],
+      "strictAccents": false,
+      "audio": "Je voudrais un café au lait, s'il vous plaît.",
+      "explain": "Café au lait: café con leche."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["bebidas"],
+      "difficulty": 2,
+      "prompt": "Completa con la bebida correcta",
+      "text": "Le matin, je bois ___ jus d'orange et ___ café.",
+      "blanks": [{ "accept": ["du"] }, { "accept": ["du"] }],
+      "bank": ["du", "de la", "de l'"],
+      "explain": "Du jus d'orange y du café: ambos masculinos."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["desayuno"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Bebo té por la mañana»",
+      "tokens": ["le matin", "du thé", "Je bois"],
+      "answer": ["Je bois", "du thé", "le matin"],
+      "audio": "Je bois du thé le matin.",
+      "explain": "Je bois + du thé + le matin."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["bebidas"],
+      "difficulty": 1,
+      "prompt": "Il boit de la bière, mais je préfère le vin.",
+      "accept": ["Él bebe cerveza, pero yo prefiero el vino."],
+      "strictAccents": false,
+      "audio": "Il boit de la bière, mais je préfère le vin.",
+      "explain": "De la bière (partitivo) frente a le vin (gusto general con préférer)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["bebidas", "desayuno"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el desayuno",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu bois le matin, du café ou du thé ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je bois du café le matin.", "Je bois du thé le matin."], "hint": "di qué bebes por la mañana" },
+        { "who": "Léa", "text": "Moi, je préfère le thé.", "speak": true }
+      ],
+      "explain": "Qu'est-ce que tu bois...? se responde con je bois + partitivo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["desayuno"],
+      "difficulty": 2,
+      "speak": "Au petit-déjeuner, je mange du pain avec de la confiture et je bois du jus d'orange.",
+      "mode": "write",
+      "accept": ["Au petit-déjeuner, je mange du pain avec de la confiture et je bois du jus d'orange"],
+      "showTextAfter": true,
+      "explain": "Un desayuno completo con tres alimentos y una bebida."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["bebidas"],
+      "difficulty": 1,
+      "speak": "la bière",
+      "mode": "choose",
+      "options": ["le vin", "la bière", "le thé", "l'eau"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "La bière = la cerveza."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["desayuno"],
+      "difficulty": 3,
+      "speak": "Au petit-déjeuner, je mange du pain avec du beurre et de la confiture, et je bois du café au lait.",
+      "es": "En el desayuno, como pan con mantequilla y mermelada, y bebo café con leche.",
+      "ipa": "/o pə.ti de.ʒœ.ne ʒə mɑ̃ʒ dy pɛ̃ a.vɛk dy bœʁ e də la kɔ̃.fi.tyʁ e ʒə bwa dy ka.fe o lɛ/",
+      "esApprox": "«o peti de-YEU-ne ye MANY dü PEN a-VEK dü BEUR e de la kon-fi-TÜR e ye BUÁ dü ka-FE o LE»",
+      "focus": "Descripción completa de un desayuno francés con varios partitivos seguidos.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["desayuno"],
+      "difficulty": 2,
+      "prompt": "Describe tu desayuno típico: qué comes y qué bebes.",
+      "modelAnswer": "Au petit-déjeuner, je mange du pain et je bois du café.",
+      "alsoValid": ["Je bois du thé et je mange des fruits le matin."],
+      "speak": "Au petit-déjeuner, je mange du pain et je bois du café.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["bebidas"],
+      "difficulty": 1,
+      "prompt": "¿Es una bebida o un alimento del desayuno?",
+      "buckets": ["Bebida", "Alimento"],
+      "items": [
+        { "text": "le café", "bucket": 0 },
+        { "text": "le beurre", "bucket": 1 },
+        { "text": "le thé", "bucket": 0 },
+        { "text": "la confiture", "bucket": 1 },
+        { "text": "le vin", "bucket": 0 },
+        { "text": "le pain", "bucket": 1 }
+      ],
+      "explain": "Café, thé y vin son bebidas; beurre, confiture y pain son alimentos."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["bebidas"],
+      "difficulty": 2,
+      "prompt": "Hay un error de artículo. Corrige la frase entera.",
+      "wrong": "Je bois du eau tous les matins.",
+      "accept": ["Je bois de l'eau tous les matins"],
+      "audio": "Je bois de l'eau tous les matins.",
+      "explain": "Delante de vocal, du se convierte en de l': de l'eau."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "l'eau", "es": "el agua", "esApprox": "«LO»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le café", "es": "el café", "esApprox": "«le ka-FE»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "le thé", "es": "el té", "esApprox": "«le TE»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le vin", "es": "el vino", "esApprox": "«le VEN»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "le beurre", "es": "la mantequilla", "esApprox": "«le BEUR»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "la confiture", "es": "la mermelada", "esApprox": "«la kon-fi-TÜR»", "from": "v8" },
+    { "id": "s7", "kind": "word", "target": "le petit-déjeuner", "es": "el desayuno", "esApprox": "«le peti de-YEU-ne»", "from": "v9" },
+    { "id": "s8", "kind": "phrase", "target": "Au petit-déjeuner, je mange du pain avec du beurre et de la confiture.", "es": "En el desayuno, como pan con mantequilla y mermelada.", "from": "e6" }
+  ]
+}

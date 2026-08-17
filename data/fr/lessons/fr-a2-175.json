@@ -1,0 +1,248 @@
+{
+  "id": "fr-a2-175",
+  "lang": "fr",
+  "level": "A2",
+  "order": 175,
+  "title": "Preparación para la prueba de nivel A2",
+  "objectives": [
+    "Repasar los puntos clave de gramática de todo el nivel A2 antes del examen",
+    "Aprender vocabulario y estrategias útiles para el día de la prueba",
+    "Sentirte preparado para afrontar la prueba de nivel A2"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Último repaso antes del examen",
+      "body": "Sin gramática nueva. Esta es la última clase del nivel A2: un repaso general de los pilares gramaticales del curso, junto con vocabulario y estrategias para el día de la prueba."
+    },
+    {
+      "type": "table",
+      "title": "Pilares gramaticales de A2",
+      "headers": ["Bloque", "Contenido clave"],
+      "rows": [
+        ["H-I", "passé composé, imparfait y su combinación en narraciones"],
+        ["J", "pronombres en, y, tónicos, relativos qui/que/où y demostrativos"],
+        ["K", "futur simple, conditionnel présent e hipótesis con si"],
+        ["L-M", "vocabulario temático ampliado y fórmulas para expresarse con matices"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Estrategias para el día de la prueba",
+      "body": "En la comprensión oral, lee las preguntas antes de escuchar el audio. En la expresión escrita, relee tu respuesta antes de entregarla. Gestiona bien le temps imparti (el tiempo asignado) y no te quedes atascado en una sola pregunta."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "l'épreuve", "es": "la prueba, el examen", "ipa": "/le.pʁœv/", "esApprox": "«le-PRÖV»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v2", "target": "la compréhension orale", "es": "la comprensión oral", "ipa": "/la kɔ̃.pʁe.ɑ̃.sjɔ̃ ɔ.ʁal/", "esApprox": "«la kon-pre-an-SIÓN o-RAL»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v3", "target": "l'expression écrite", "es": "la expresión escrita", "ipa": "/lɛk.spʁɛ.sjɔ̃ e.kʁit/", "esApprox": "«lek-spre-SIÓN e-KRIT»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v4", "target": "le temps imparti", "es": "el tiempo asignado", "ipa": "/lə tɑ̃ ɛ̃.paʁ.ti/", "esApprox": "«le TAN in-par-TÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v5", "target": "relis ta réponse", "es": "relee tu respuesta", "ipa": "/ʁə.li ta ʁe.pɔ̃s/", "esApprox": "«re-LÍ ta re-PONS»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "à l'écrit", "es": "por escrito", "ipa": "/a le.kʁi/", "esApprox": "«a le-KRÍ»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "à l'oral", "es": "oralmente", "ipa": "/a lɔ.ʁal/", "esApprox": "«a lo-RAL»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "bonne chance", "es": "buena suerte", "ipa": "/bɔn ʃɑ̃s/", "esApprox": "«BON SHANS»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "¿Qué tiempo describe una situación duradera o un hábito en el pasado?",
+      "options": ["passé composé", "imparfait", "futur simple", "conditionnel"],
+      "answer": 1,
+      "explain": "Repaso general del Bloque H-I."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["condicional"],
+      "difficulty": 2,
+      "prompt": "¿Qué estructura expresa una hipótesis irreal en el presente?",
+      "options": ["si + présent + futur", "si + imparfait + conditionnel", "si + passé composé + présent", "si + futur + futur"],
+      "answer": 1,
+      "explain": "Repaso general del Bloque K."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "statement": "El pronombre en sustituye a de + cosa o cantidad.",
+      "answer": true,
+      "explain": "Repaso general del Bloque J."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["matices"],
+      "difficulty": 2,
+      "statement": "Absolument y un peu tienen la misma fuerza en una opinión.",
+      "answer": false,
+      "explain": "Repaso general del Bloque M-O: absolument es un matiz fuerte, un peu es débil."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["estrategias"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra del examen con su significado",
+      "left": ["l'épreuve", "la compréhension orale", "l'expression écrite", "le temps imparti"],
+      "right": ["el tiempo asignado", "la prueba", "escuchar y entender", "escribir una respuesta"],
+      "answer": [1, 2, 3, 0],
+      "explain": "L'épreuve = la prueba, la compréhension orale = escuchar y entender, l'expression écrite = escribir, le temps imparti = el tiempo asignado."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["estrategias"],
+      "difficulty": 2,
+      "prompt": "Antes de la comprensión oral, lee las preguntas, y gestiona bien el tiempo asignado.",
+      "accept": ["Avant la compréhension orale, lis les questions, et gère bien le temps imparti"],
+      "hintWords": ["avant la compréhension orale, lis les questions", "et gère bien le temps imparti"],
+      "strictAccents": true,
+      "audio": "Avant la compréhension orale, lis les questions, et gère bien le temps imparti.",
+      "explain": "Estrategia de examen combinada con vocabulario de la prueba."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["estrategias"],
+      "difficulty": 2,
+      "prompt": "Relee tu respuesta antes de entregarla, y buena suerte para la prueba.",
+      "accept": ["Relis ta réponse avant de la rendre, et bonne chance pour l'épreuve"],
+      "hintWords": ["relis ta réponse avant de la rendre", "et bonne chance pour l'épreuve"],
+      "strictAccents": true,
+      "audio": "Relis ta réponse avant de la rendre, et bonne chance pour l'épreuve.",
+      "explain": "Consejo final combinado con el deseo de buena suerte."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pasado", "condicional"],
+      "difficulty": 2,
+      "prompt": "Completa con el tiempo correcto",
+      "text": "D'habitude, je me ___ tôt, mais hier je me ___ à neuf heures, et si j'avais le temps demain, je ___ au lit plus longtemps.",
+      "blanks": [{ "accept": ["levais"] }, { "accept": ["suis levé"] }, { "accept": ["resterais"] }],
+      "bank": ["levais", "suis levé", "resterais", "lève"],
+      "explain": "Repaso combinado de imparfait, passé composé y conditionnel présent (si + imparfait + conditionnel)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Voy allí con él y tengo algunos»",
+      "tokens": ["avec lui, et j'en ai quelques-uns", "J'y vais"],
+      "answer": ["J'y vais", "avec lui, et j'en ai quelques-uns"],
+      "audio": "J'y vais avec lui, et j'en ai quelques-uns.",
+      "explain": "Repaso general del Bloque J: y, en y los tónicos combinados."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["estrategias"],
+      "difficulty": 2,
+      "prompt": "Pour la compréhension orale, écoute bien deux fois, et pour l'expression écrite, relis ta réponse avant la fin du temps imparti.",
+      "accept": ["Para la comprensión oral, escucha bien dos veces, y para la expresión escrita, relee tu respuesta antes del final del tiempo asignado."],
+      "strictAccents": false,
+      "audio": "Pour la compréhension orale, écoute bien deux fois, et pour l'expression écrite, relis ta réponse avant la fin du temps imparti.",
+      "explain": "Resumen de las estrategias clave para las dos pruebas."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["estrategias"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación antes del examen",
+      "turns": [
+        { "who": "Léa", "text": "Tu es prêt pour l'épreuve ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai bien révisé tout le programme.", "Presque, je révise encore un peu."], "hint": "usa el vocabulario del repaso" },
+        { "who": "Léa", "text": "Bonne chance !", "speak": true }
+      ],
+      "explain": "Simula una conversación real antes del examen."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["estrategias"],
+      "difficulty": 2,
+      "speak": "Pour l'épreuve, gère bien le temps imparti, relis ta réponse à l'écrit, et n'oublie pas de bien écouter à l'oral.",
+      "mode": "write",
+      "accept": ["Pour l'épreuve, gère bien le temps imparti, relis ta réponse à l'écrit, et n'oublie pas de bien écouter à l'oral"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario y las estrategias del examen."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["estrategias"],
+      "difficulty": 1,
+      "speak": "bonne chance",
+      "mode": "choose",
+      "options": ["bonne chance", "à l'écrit", "à l'oral", "l'épreuve"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Bonne chance significa buena suerte."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["estrategias"],
+      "difficulty": 3,
+      "speak": "Avant l'épreuve, révise bien la compréhension orale et l'expression écrite, gère le temps imparti, et relis toujours ta réponse. Bonne chance !",
+      "es": "Antes de la prueba, repasa bien la comprensión oral y la expresión escrita, gestiona el tiempo asignado, y relee siempre tu respuesta. ¡Buena suerte!",
+      "ipa": "/a.vɑ̃ le.pʁœv ʁe.viz bjɛ̃ la kɔ̃.pʁe.ɑ̃.sjɔ̃ ɔ.ʁal e lɛk.spʁɛ.sjɔ̃ e.kʁit ʒɛʁ lə tɑ̃ ɛ̃.paʁ.ti e ʁə.li tu.ʒuʁ ta ʁe.pɔ̃s bɔn ʃɑ̃s/",
+      "esApprox": "«a-VAN le-PRÖV re-VIZ bien la kon-pre-an-SIÓN o-RAL e lek-spre-SIÓN e-KRIT SHER le TAN in-par-TÍ e re-LÍ tu-YUR ta re-PONS BON SHANS»",
+      "focus": "Resumen final de todas las estrategias del examen en una sola narración.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["estrategias"],
+      "difficulty": 2,
+      "prompt": "Explica cómo te vas a preparar para la prueba de nivel A2, usando al menos dos estrategias del repaso.",
+      "modelAnswer": "Avant l'épreuve, je vais réviser la compréhension orale et l'expression écrite, et je vais gérer le temps imparti.",
+      "alsoValid": ["Je vais relire ma réponse avant de la rendre."],
+      "speak": "Avant l'épreuve, je vais réviser la compréhension orale et l'expression écrite, et je vais gérer le temps imparti.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["estrategias"],
+      "difficulty": 2,
+      "prompt": "¿Es sobre comprensión oral o sobre expresión escrita?",
+      "buckets": ["Comprensión oral", "Expresión escrita"],
+      "items": [
+        { "text": "écoute bien deux fois", "bucket": 0 },
+        { "text": "relis ta réponse", "bucket": 1 },
+        { "text": "à l'oral", "bucket": 0 },
+        { "text": "à l'écrit", "bucket": 1 }
+      ],
+      "explain": "Écoute bien deux fois y à l'oral son de comprensión oral; relis ta réponse y à l'écrit son de expresión escrita."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pasado"],
+      "difficulty": 2,
+      "prompt": "Hay un error de auxiliar en un verbo pronominal. Corrige la frase entera.",
+      "wrong": "Je ai me préparé pour l'épreuve toute la semaine.",
+      "accept": ["Je me suis préparé pour l'épreuve toute la semaine"],
+      "audio": "Je me suis préparé pour l'épreuve toute la semaine.",
+      "explain": "Repaso final: los pronominales usan être en passé composé, no avoir."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "l'épreuve", "es": "la prueba, el examen", "esApprox": "«le-PRÖV»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "la compréhension orale", "es": "la comprensión oral", "esApprox": "«la kon-pre-an-SIÓN o-RAL»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "l'expression écrite", "es": "la expresión escrita", "esApprox": "«lek-spre-SIÓN e-KRIT»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "le temps imparti", "es": "el tiempo asignado", "esApprox": "«le TAN in-par-TÍ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "relis ta réponse", "es": "relee tu respuesta", "esApprox": "«re-LÍ ta re-PONS»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "bonne chance", "es": "buena suerte", "esApprox": "«BON SHANS»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Avant la compréhension orale, lis les questions, et gère bien le temps imparti.", "es": "Antes de la comprensión oral, lee las preguntas, y gestiona bien el tiempo asignado.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Relis ta réponse avant de la rendre, et bonne chance pour l'épreuve.", "es": "Relee tu respuesta antes de entregarla, y buena suerte para la prueba.", "from": "e7" }
+  ]
+}

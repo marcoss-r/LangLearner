@@ -1,0 +1,87 @@
+{
+  "id": "de-a2-126",
+  "lang": "de",
+  "level": "A2",
+  "order": 126,
+  "title": "Obwohl: la subordinada de \"aunque\"",
+  "objectives": [
+    "Usar obwohl para expresar un contraste inesperado: aunque",
+    "Aplicar el orden de subordinada (verbo al final), igual que con weil, dass, wenn y als",
+    "Distinguir obwohl (subordinante) de aber (coordinante, clase 79), que no mueve el verbo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "obwohl: un contraste que sorprende",
+      "body": "Obwohl (aunque) introduce una razón que normalmente impediría algo, pero no lo impide: «Ich gehe raus, obwohl es regnet» (Salgo, aunque llueve). Como weil, dass, wenn y als, es una conjunción subordinante: manda el verbo conjugado al final de su frase.",
+      "examples": [
+        { "target": "Ich gehe raus, obwohl es regnet.", "es": "Salgo, aunque llueve." },
+        { "target": "Obwohl ich müde bin, arbeite ich weiter.", "es": "Aunque estoy cansado, sigo trabajando." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "obwohl (subordinante) frente a aber (coordinante)",
+      "headers": ["Conjunción", "Orden del verbo", "Ejemplo"],
+      "rows": [
+        ["aber", "posición normal (clase 79)", "Es regnet, aber ich gehe raus."],
+        ["obwohl", "al final de su frase", "..., obwohl es regnet."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "aber y obwohl pueden expresar una idea parecida de contraste, pero aber no mueve el verbo (coordinante) y obwohl sí (subordinante). Igual que denn/weil (clases 79-80), son parejas de significado similar pero estructura distinta."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "obwohl", "es": "aunque", "ipa": "/ɔpˈvoːl/", "esApprox": "«op-VOL»", "pos": "conjunción", "gender": null, "example": { "target": "Ich gehe raus, obwohl es regnet.", "es": "Salgo, aunque llueve." } },
+    { "id": "v2", "target": "weiterarbeiten", "es": "seguir trabajando", "ipa": "/ˈvaɪ̯tɐˌaʁbaɪ̯tn̩/", "esApprox": "«VÁI-ter-ar-bai-ten»", "pos": "verbo", "gender": null, "example": { "target": "Ich arbeite weiter.", "es": "Sigo trabajando." } },
+    { "id": "v3", "target": "trotzdem", "es": "a pesar de eso, aun así", "ipa": "/ˈtʁɔtsdeːm/", "esApprox": "«TROTS-dem»", "pos": "adverbio", "gender": null, "example": { "target": "Es regnet. Trotzdem gehe ich raus.", "es": "Llueve. Aun así, salgo." } },
+    { "id": "v4", "target": "erfolgreich", "es": "exitoso", "ipa": "/ɛɐ̯ˈfɔlkʁaɪ̯ç/", "esApprox": "«er-FÓLK-raich»", "pos": "adjetivo", "gender": null, "example": { "target": "Sie ist erfolgreich, obwohl sie wenig Zeit hat.", "es": "Ella tiene éxito, aunque tiene poco tiempo." } },
+    { "id": "v5", "target": "der Regenschirm", "es": "el paraguas", "ipa": "/ˈʁeːɡn̩ʃɪʁm/", "esApprox": "«RÉ-guen-shirm»", "pos": "sustantivo", "gender": "m", "example": { "target": "Ich habe keinen Regenschirm dabei.", "es": "No llevo paraguas." } },
+    { "id": "v6", "target": "unerwartet", "es": "inesperado", "ipa": "/ˈʊnɛɐ̯vaʁtət/", "esApprox": "«UN-er-var-tet»", "pos": "adjetivo", "gender": null, "example": { "target": "Das war unerwartet.", "es": "Eso fue inesperado." } },
+    { "id": "v7", "target": "der Gegensatz", "es": "el contraste, la contradicción", "ipa": "/ˈɡeːɡn̩zats/", "esApprox": "«GUÉ-guen-zats»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein Gegensatz.", "es": "Eso es un contraste." } },
+    { "id": "v8", "target": "durchhalten", "es": "aguantar, resistir", "ipa": "/ˈdʊʁçhaltn̩/", "esApprox": "«DURCH-jal-ten»", "pos": "verbo", "gender": null, "example": { "target": "Ich halte durch, obwohl es schwer ist.", "es": "Aguanto, aunque es difícil." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["obwohl"], "difficulty": 1, "prompt": "¿Qué significa «obwohl»?", "options": ["porque", "aunque", "cuando", "que"], "answer": 1, "explain": "obwohl = aunque, expresa un contraste inesperado." },
+    { "id": "e2", "type": "mcq", "tags": ["obwohl"], "difficulty": 2, "prompt": "¿Dónde va el verbo conjugado en una frase con obwohl?", "options": ["Posición 1", "Posición 2", "Al final", "No cambia"], "answer": 2, "explain": "obwohl es subordinante: manda el verbo al final." },
+    { "id": "e3", "type": "true_false", "tags": ["obwohl"], "difficulty": 2, "statement": "aber y obwohl tienen la misma estructura de orden de palabras.", "answer": false, "explain": "aber no mueve el verbo (coordinante); obwohl sí lo manda al final (subordinante)." },
+    { "id": "e4", "type": "true_false", "tags": ["obwohl"], "difficulty": 2, "statement": "obwohl introduce una razón que normalmente impediría algo, pero no lo impide.", "answer": true, "explain": "Es la esencia del contraste que expresa obwohl." },
+    { "id": "e5", "type": "match_pairs", "tags": ["obwohl"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["obwohl", "trotzdem", "erfolgreich", "unerwartet"], "right": ["aunque", "a pesar de eso", "exitoso", "inesperado"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras clave para expresar contraste." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["obwohl"], "difficulty": 2, "prompt": "Salgo, aunque llueve.", "accept": ["Ich gehe raus, obwohl es regnet"], "hintWords": ["ich gehe raus, obwohl es regnet"], "strictAccents": false, "audio": "Ich gehe raus, obwohl es regnet.", "explain": "obwohl + regnet (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["obwohl"], "difficulty": 2, "prompt": "Aunque estoy cansado, sigo trabajando.", "accept": ["Obwohl ich müde bin, arbeite ich weiter"], "hintWords": ["obwohl ich müde bin, arbeite ich weiter"], "strictAccents": false, "audio": "Obwohl ich müde bin, arbeite ich weiter.", "explain": "obwohl + bin (final); frase principal después con weiter." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["obwohl"], "difficulty": 2, "prompt": "Ella tiene éxito, aunque tiene poco tiempo.", "accept": ["Sie ist erfolgreich, obwohl sie wenig Zeit hat"], "hintWords": ["sie ist erfolgreich, obwohl sie wenig Zeit hat"], "strictAccents": false, "audio": "Sie ist erfolgreich, obwohl sie wenig Zeit hat.", "explain": "obwohl + hat (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["obwohl"], "difficulty": 3, "prompt": "Completa con la forma correcta", "text": "Ich gehe raus, obwohl es ___. (regnen) Ich halte durch, obwohl es schwer ___. (sein)", "blanks": [{ "accept": ["regnet"] }, { "accept": ["ist"] }], "bank": ["regnet", "ist", "regnete"], "explain": "regnet e ist van al final de sus frases con obwohl." },
+    { "id": "e10", "type": "word_order", "tags": ["obwohl"], "difficulty": 3, "prompt": "Ordena: «Llueve. Aun así, salgo»", "tokens": ["gehe ich raus", "Es regnet.", "Trotzdem"], "answer": ["Es regnet.", "Trotzdem", "gehe ich raus"], "audio": "Es regnet. Trotzdem gehe ich raus.", "explain": "Trotzdem en posición 1, gehe en posición 2." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["obwohl"], "difficulty": 2, "prompt": "Ich habe keinen Regenschirm dabei.", "accept": ["No llevo paraguas."], "strictAccents": false, "audio": "Ich habe keinen Regenschirm dabei.", "explain": "der Regenschirm = el paraguas." },
+    { "id": "e12", "type": "dialogue", "tags": ["obwohl"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Ben", "text": "Es regnet! Gehst du trotzdem raus?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, ich gehe raus, obwohl es regnet."], "hint": "responde con obwohl" },
+      { "who": "Ben", "text": "Mutig!", "speak": true }
+    ], "explain": "Práctica de obwohl en una conversación real." },
+    { "id": "e13", "type": "listening", "tags": ["obwohl"], "difficulty": 1, "speak": "Ich gehe raus, obwohl es regnet.", "mode": "write", "accept": ["Ich gehe raus, obwohl es regnet"], "showTextAfter": true, "explain": "obwohl manda el verbo (regnet) al final." },
+    { "id": "e14", "type": "listening", "tags": ["obwohl"], "difficulty": 2, "speak": "Obwohl ich müde bin, arbeite ich weiter.", "mode": "choose", "options": ["Obwohl ich müde bin, arbeite ich weiter.", "Obwohl ich bin müde, arbeite ich weiter.", "Obwohl müde ich bin, arbeite ich weiter."], "answer": 0, "showTextAfter": true, "explain": "Solo la primera respeta el orden correcto: obwohl + sujeto + ... + verbo al final." },
+    { "id": "e15", "type": "shadowing", "tags": ["obwohl"], "difficulty": 2, "speak": "Ich gehe raus, obwohl es regnet, denn ich habe keinen Regenschirm dabei, aber das ist mir egal.", "es": "Salgo, aunque llueve, porque no llevo paraguas, pero me da igual.", "ipa": "/ɪç ˈɡeːə ʁaʊ̯s ɔpˈvoːl ɛs ˈʁeːɡnət dɛn ɪç ˈhaːbə ˈkaɪ̯nən ˈʁeːɡn̩ʃɪʁm daˈbaɪ̯ ˈaːbɐ das ɪst miːɐ̯ eˈɡaːl/", "esApprox": "«ich GUÉ-e raus, op-VOL es RÉG-net, den ich JÁ-be KÁI-nen RÉ-guen-shirm da-BÁI, Á-ber das ist mir e-GAL»", "focus": "obwohl (subordinante, regnet al final) frente a denn y aber (coordinantes, sin mover el verbo).", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["obwohl"], "difficulty": 2, "speak": "Sie ist erfolgreich, obwohl sie wenig Zeit hat, und das finde ich unerwartet.", "es": "Ella tiene éxito, aunque tiene poco tiempo, y eso me parece inesperado.", "ipa": "/ziː ɪst ɛɐ̯ˈfɔlkʁaɪ̯ç ɔpˈvoːl ziː ˈveːnɪç tsaɪ̯t hat ʊnt das ˈfɪndə ɪç ˈʊnɛɐ̯vaʁtət/", "esApprox": "«zi ist er-FÓLK-raich, op-VOL zi VÉ-nich tsait jat, unt das FÍN-de ich UN-er-var-tet»", "focus": "obwohl con hat al final, seguido de una valoración con unerwartet.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["obwohl"], "difficulty": 2, "prompt": "Te preguntan si sales aunque llueve. Di que sí, aunque llueve.", "modelAnswer": "Ja, ich gehe raus, obwohl es regnet.", "alsoValid": ["Obwohl es regnet, gehe ich raus."], "speak": "Ja, ich gehe raus, obwohl es regnet.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["obwohl"], "difficulty": 2, "prompt": "Clasifica cada conjunción: coordinante (no mueve el verbo) o subordinante (verbo al final)", "buckets": ["Coordinante", "Subordinante"], "items": [
+      { "text": "aber", "bucket": 0 },
+      { "text": "obwohl", "bucket": 1 },
+      { "text": "denn", "bucket": 0 },
+      { "text": "weil", "bucket": 1 }
+    ], "explain": "aber y denn son coordinantes; obwohl y weil son subordinantes." },
+    { "id": "e19", "type": "error_correction", "tags": ["obwohl"], "difficulty": 3, "prompt": "Hay un error de orden. Corrige la frase entera.", "wrong": "Ich gehe raus, obwohl regnet es.", "accept": ["Ich gehe raus, obwohl es regnet"], "audio": "Ich gehe raus, obwohl es regnet.", "explain": "Con obwohl, el verbo conjugado (regnet) va al final, no justo después de obwohl." },
+    { "id": "e20", "type": "mcq", "tags": ["obwohl"], "difficulty": 2, "prompt": "«Ich gehe raus, obwohl es regnet, denn ich habe keinen Regenschirm dabei. Trotzdem finde ich das nicht schlimm.» ¿Por qué sale la persona a pesar de la lluvia?", "options": ["Porque tiene paraguas", "El texto no explica una razón concreta para salir, solo dice que no le importa", "Porque le encanta la lluvia", "Porque tiene prisa"], "answer": 1, "explain": "El texto dice «das finde ich nicht schlimm» (no me parece grave), pero no da una razón explícita para salir." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "obwohl", "es": "aunque", "esApprox": "«op-VOL»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "trotzdem", "es": "a pesar de eso, aun así", "esApprox": "«TROTS-dem»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "erfolgreich", "es": "exitoso", "esApprox": "«er-FÓLK-raich»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "der Regenschirm", "es": "el paraguas", "esApprox": "«RÉ-guen-shirm»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "unerwartet", "es": "inesperado", "esApprox": "«UN-er-var-tet»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "durchhalten", "es": "aguantar, resistir", "esApprox": "«DURCH-jal-ten»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich gehe raus, obwohl es regnet, denn ich habe keinen Regenschirm dabei, aber das ist mir egal.", "es": "Salgo, aunque llueve, porque no llevo paraguas, pero me da igual.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Sie ist erfolgreich, obwohl sie wenig Zeit hat, und das finde ich unerwartet.", "es": "Ella tiene éxito, aunque tiene poco tiempo, y eso me parece inesperado.", "from": "e16" }
+  ]
+}

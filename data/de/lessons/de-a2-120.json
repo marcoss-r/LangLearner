@@ -1,0 +1,89 @@
+{
+  "id": "de-a2-120",
+  "lang": "de",
+  "level": "A2",
+  "order": 120,
+  "title": "Preguntar y responder con compuestos wo- y da-",
+  "objectives": [
+    "Mantener una conversación completa combinando preguntas wo- y respuestas da-",
+    "Usar los verbos con preposición fija de las clases 116-117 en preguntas y respuestas naturales",
+    "Ganar fluidez combinando varios compuestos en el mismo intercambio"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Una conversación completa con wo- y da-",
+      "body": "Ahora que conoces los compuestos wo- (preguntar) y da- (responder), puedes mantener conversaciones completas sobre intereses, planes y pensamientos sin repetir el sustantivo una y otra vez. Es un patrón muy natural en alemán hablado.",
+      "examples": [
+        { "target": "Wofür interessierst du dich? – Ich interessiere mich für Kunst, und ich denke oft daran.", "es": "¿Por qué te interesas? – Me interesa el arte, y pienso en eso a menudo." },
+        { "target": "Worauf freust du dich? – Ich freue mich auf die Ferien. Freust du dich auch darauf?", "es": "¿De qué tienes ganas? – Tengo ganas de las vacaciones. ¿Tú también tienes ganas de eso?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Preguntar y responder, paso a paso",
+      "headers": ["Paso", "Ejemplo"],
+      "rows": [
+        ["Preguntar con wo-", "Wofür interessierst du dich?"],
+        ["Nombrar la cosa", "Ich interessiere mich für Kunst."],
+        ["Retomar con da-", "Ich denke oft daran."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "En una conversación real, alterna entre nombrar la cosa la primera vez («für Kunst») y usar el compuesto da- después («dafür», «daran») para no sonar repetitivo. Es exactamente lo mismo que haces en español con «eso» o «lo»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Leidenschaft", "es": "la pasión", "ipa": "/ˈlaɪ̯dn̩ʃaft/", "esApprox": "«LÁI-den-shaft»", "pos": "sustantivo", "gender": "f", "example": { "target": "Musik ist meine Leidenschaft.", "es": "La música es mi pasión." } },
+    { "id": "v2", "target": "das Hobby", "es": "el hobby, la afición", "ipa": "/ˈhɔbi/", "esApprox": "«JÓ-bi»", "pos": "sustantivo", "gender": "n", "example": { "target": "Was ist dein Hobby?", "es": "¿Cuál es tu afición?" } },
+    { "id": "v3", "target": "regelmäßig", "es": "regularmente, con regularidad", "ipa": "/ˈʁeːɡl̩mɛːsɪç/", "esApprox": "«RÉ-guel-mé-sich»", "pos": "adverbio", "gender": null, "example": { "target": "Ich denke regelmäßig daran.", "es": "Pienso en eso regularmente." } },
+    { "id": "v4", "target": "unbedingt", "es": "sin falta, sin duda", "ipa": "/ˈʊnbədɪŋt/", "esApprox": "«ÚN-be-dingt»", "pos": "adverbio", "gender": null, "example": { "target": "Ich freue mich unbedingt darauf.", "es": "Tengo muchísimas ganas de eso." } },
+    { "id": "v5", "target": "der Austausch", "es": "el intercambio", "ipa": "/ˈaʊ̯staʊ̯ʃ/", "esApprox": "«ÁUS-taush»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wir freuen uns auf den Austausch.", "es": "Tenemos ganas del intercambio." } },
+    { "id": "v6", "target": "sich beschäftigen mit", "es": "ocuparse de, dedicarse a", "ipa": "/zɪç bəˈʃɛftɪɡn̩ mɪt/", "esApprox": "«zich be-SHÉF-ti-guen mit»", "pos": "verbo", "gender": null, "example": { "target": "Ich beschäftige mich damit.", "es": "Me dedico a eso." } },
+    { "id": "v7", "target": "übrigens", "es": "por cierto", "ipa": "/ˈyːbʁɪɡn̩s/", "esApprox": "«Ü-bri-guens»", "pos": "adverbio", "gender": null, "example": { "target": "Übrigens, worauf freust du dich?", "es": "Por cierto, ¿de qué tienes ganas?" } },
+    { "id": "v8", "target": "ebenfalls", "es": "igualmente, también", "ipa": "/ˈeːbn̩fals/", "esApprox": "«É-ben-fals»", "pos": "adverbio", "gender": null, "example": { "target": "Ich freue mich ebenfalls darauf.", "es": "Yo también tengo ganas de eso." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["wo-compuestos"], "difficulty": 1, "prompt": "¿Cómo responderías a «Wofür interessierst du dich?»?", "options": ["Ich interessiere mich für es.", "Ich interessiere mich dafür.", "Ich interessiere mich es für.", "Für das interessiere ich mich."], "answer": 1, "explain": "dafür es la respuesta natural, aunque también puedes nombrar la cosa directamente." },
+    { "id": "e2", "type": "mcq", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "¿Qué significa «unbedingt»?", "options": ["nunca", "sin falta, sin duda", "a veces", "casi"], "answer": 1, "explain": "unbedingt = sin falta, con mucha intensidad." },
+    { "id": "e3", "type": "true_false", "tags": ["wo-compuestos"], "difficulty": 2, "statement": "En una conversación, es natural mezclar preguntas wo- y respuestas da-.", "answer": true, "explain": "Es el patrón más natural para hablar de intereses y planes sin repetir el sustantivo." },
+    { "id": "e4", "type": "true_false", "tags": ["da-compuestos"], "difficulty": 2, "statement": "«sich beschäftigen mit» significa «ocuparse de, dedicarse a».", "answer": true, "explain": "sich beschäftigen mit + dativo." },
+    { "id": "e5", "type": "match_pairs", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Leidenschaft", "regelmäßig", "unbedingt", "übrigens"], "right": ["la pasión", "regularmente", "sin falta", "por cierto"], "answer": [0, 1, 2, 3], "explain": "Cuatro palabras útiles para conversaciones con wo- y da-." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "La música es mi pasión.", "accept": ["Musik ist meine Leidenschaft"], "hintWords": ["Musik ist meine Leidenschaft"], "strictAccents": false, "audio": "Musik ist meine Leidenschaft.", "explain": "die Leidenschaft: la pasión." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Pienso en eso regularmente.", "accept": ["Ich denke regelmäßig daran"], "hintWords": ["ich denke regelmäßig daran"], "strictAccents": false, "audio": "Ich denke regelmäßig daran.", "explain": "regelmäßig + daran." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Tengo muchísimas ganas de eso.", "accept": ["Ich freue mich unbedingt darauf"], "hintWords": ["ich freue mich unbedingt darauf"], "strictAccents": false, "audio": "Ich freue mich unbedingt darauf.", "explain": "unbedingt + darauf: refuerza la intensidad." },
+    { "id": "e9", "type": "fill_blank", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Completa la conversación", "text": "___ interessierst du dich? Ich interessiere mich ___ Musik.", "blanks": [{ "accept": ["Wofür"] }, { "accept": ["für"] }], "bank": ["Wofür", "für", "Woran"], "explain": "Wofür (pregunta); für (respuesta con sustantivo)." },
+    { "id": "e10", "type": "word_order", "tags": ["da-compuestos"], "difficulty": 2, "prompt": "Ordena: «Yo también tengo ganas de eso»", "tokens": ["mich", "darauf", "Ich freue", "ebenfalls"], "answer": ["Ich freue", "mich", "ebenfalls", "darauf"], "audio": "Ich freue mich ebenfalls darauf.", "explain": "ebenfalls antes de darauf, ambos tras el verbo reflexivo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Übrigens, worauf freust du dich?", "accept": ["Por cierto, ¿de qué tienes ganas?"], "strictAccents": false, "audio": "Übrigens, worauf freust du dich?", "explain": "übrigens = por cierto." },
+    { "id": "e12", "type": "dialogue", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wofür interessierst du dich?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich interessiere mich für Musik.", "Ich interessiere mich dafür."], "hint": "responde con tu interés" },
+      { "who": "Lea", "text": "Und worauf freust du dich am meisten?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich freue mich am meisten auf die Ferien."], "hint": "responde con lo que más esperas" }
+    ], "explain": "Conversación completa combinando dos preguntas wo- y sus respuestas." },
+    { "id": "e13", "type": "listening", "tags": ["wo-compuestos"], "difficulty": 1, "speak": "Wofür interessierst du dich? Ich interessiere mich dafür.", "mode": "write", "accept": ["Wofür interessierst du dich? Ich interessiere mich dafür"], "showTextAfter": true, "explain": "Pregunta y respuesta completa con wo- y da-." },
+    { "id": "e14", "type": "listening", "tags": ["da-compuestos"], "difficulty": 2, "speak": "Ich freue mich ebenfalls darauf.", "mode": "choose", "options": ["Ich freue mich ebenfalls darauf.", "Ich freue mich ebenfalls für es.", "Ebenfalls freue ich mich es."], "answer": 0, "showTextAfter": true, "explain": "ebenfalls darauf: la única combinación correcta." },
+    { "id": "e15", "type": "shadowing", "tags": ["wo-compuestos"], "difficulty": 2, "speak": "Wofür interessierst du dich? Ich interessiere mich für Kunst, und ich denke regelmäßig daran.", "es": "¿Por qué te interesas? Me interesa el arte, y pienso en eso regularmente.", "ipa": "/voˈfyːɐ̯ ɪntəʁɛˈsiːɐ̯st duː dɪç ɪç ɪntəʁɛˈsiːʁə mɪç fyːɐ̯ kʊnst ʊnt ɪç ˈdɛŋkə ˈʁeːɡl̩mɛːsɪç daˈʁan/", "esApprox": "«vo-FÜR in-te-re-SÍRST du dich? ich in-te-re-SÍ-re mich für kunst, unt ich DÉN-ke RÉ-guel-mé-sich da-RAN»", "focus": "Pregunta wo- seguida de una respuesta completa con sustantivo y compuesto da-.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["da-compuestos"], "difficulty": 2, "speak": "Übrigens, worauf freust du dich? Ich freue mich unbedingt auf die Ferien, und du?", "es": "Por cierto, ¿de qué tienes ganas? Tengo muchísimas ganas de las vacaciones, ¿y tú?", "ipa": "/ˈyːbʁɪɡn̩s voˈʁaʊ̯f fʁɔɪ̯st duː dɪç ɪç ˈfʁɔɪ̯ə mɪç ˈʊnbədɪŋt aʊ̯f diː ˈfeːʁi̯ən ʊnt duː/", "esApprox": "«Ü-bri-guens, vo-RAUF froist du dich? ich FRÓI-e mich ÚN-be-dingt auf di FÉ-rien, unt du?»", "focus": "übrigens para cambiar de tema, seguido de worauf y una respuesta con unbedingt.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Un amigo te pregunta por qué te interesas por algo. Responde con Kunst y añade que piensas en eso a menudo.", "modelAnswer": "Ich interessiere mich für Kunst, und ich denke oft daran.", "alsoValid": ["Ich interessiere mich dafür."], "speak": "Ich interessiere mich für Kunst, und ich denke oft daran.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Clasifica cada palabra: pregunta (wo-) o respuesta (da-)", "buckets": ["Pregunta (wo-)", "Respuesta (da-)"], "items": [
+      { "text": "wofür", "bucket": 0 },
+      { "text": "dafür", "bucket": 1 },
+      { "text": "worauf", "bucket": 0 },
+      { "text": "darauf", "bucket": 1 }
+    ], "explain": "wo- introduce preguntas; da- introduce respuestas o retoma un tema ya mencionado." },
+    { "id": "e19", "type": "error_correction", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Wofür interessierst du dich? Ich interessiere mich für das.", "accept": ["Ich interessiere mich dafür"], "audio": "Ich interessiere mich dafür.", "explain": "Para retomar una cosa, se usa dafür, no «für das»." },
+    { "id": "e20", "type": "mcq", "tags": ["wo-compuestos"], "difficulty": 2, "prompt": "«Wofür interessierst du dich? Ich interessiere mich für Kunst, und ich denke regelmäßig daran. Worauf freust du dich? Ich freue mich unbedingt auf die Ferien.» ¿Con qué intensidad tiene ganas de las vacaciones?", "options": ["Un poco", "Muchísimo (unbedingt)", "Nada", "No se dice"], "answer": 1, "explain": "«unbedingt» refuerza mucho la intensidad de las ganas: muchísimo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Leidenschaft", "es": "la pasión", "esApprox": "«LÁI-den-shaft»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "regelmäßig", "es": "regularmente, con regularidad", "esApprox": "«RÉ-guel-mé-sich»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "unbedingt", "es": "sin falta, sin duda", "esApprox": "«ÚN-be-dingt»", "from": "v4" },
+    { "id": "s4", "kind": "phrase", "target": "sich beschäftigen mit", "es": "ocuparse de, dedicarse a", "esApprox": "«zich be-SHÉF-ti-guen mit»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "übrigens", "es": "por cierto", "esApprox": "«Ü-bri-guens»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "ebenfalls", "es": "igualmente, también", "esApprox": "«É-ben-fals»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Wofür interessierst du dich? Ich interessiere mich für Kunst, und ich denke regelmäßig daran.", "es": "¿Por qué te interesas? Me interesa el arte, y pienso en eso regularmente.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Übrigens, worauf freust du dich? Ich freue mich unbedingt auf die Ferien, und du?", "es": "Por cierto, ¿de qué tienes ganas? Tengo muchísimas ganas de las vacaciones, ¿y tú?", "from": "e16" }
+  ]
+}

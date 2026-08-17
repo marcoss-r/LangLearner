@@ -1,0 +1,249 @@
+{
+  "id": "fr-b1-212",
+  "lang": "fr",
+  "level": "B1",
+  "order": 212,
+  "title": "Los matices que cambian una historia según el pasado elegido",
+  "objectives": [
+    "Entender cómo cambia el significado de savoir, connaître, pouvoir y vouloir según el tiempo elegido",
+    "Distinguir un estado o capacidad general (imparfait) de un hecho puntual (passé composé)",
+    "Practicar frases donde el matiz depende del tiempo verbal"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El mismo verbo, dos significados",
+      "body": "Algunos verbos cambian de matiz, casi de significado, según el tiempo elegido. Saber esto te permite contar historias con mucha más precisión."
+    },
+    {
+      "type": "table",
+      "title": "Verbos que cambian de matiz",
+      "headers": ["Verbo", "Imparfait", "Passé composé"],
+      "rows": [
+        ["savoir", "je savais (sabía)", "j'ai su (supe, me enteré)"],
+        ["connaître", "je connaissais (conocía)", "j'ai connu (conocí, por primera vez)"],
+        ["pouvoir", "je pouvais (podía, en general)", "j'ai pu (pude, lo conseguí)"],
+        ["vouloir", "je voulais (quería)", "j'ai voulu (quise, lo intenté)"]
+      ],
+      "note": "Devoir también cambia: je devais (se suponía que debía) frente a j'ai dû (tuve que, y lo hice)."
+    },
+    {
+      "type": "tip",
+      "title": "En negativo cambia aún más",
+      "body": "Je n'ai pas voulu no significa «no quería», sino «me negué». Es un matiz de decisión puntual, no de deseo general."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "je savais", "es": "sabía", "ipa": "/ʒə sa.vɛ/", "esApprox": "«ye sa-VE»", "pos": "verbo", "gender": null },
+    { "id": "v2", "target": "j'ai su", "es": "supe, me enteré", "ipa": "/ʒe sy/", "esApprox": "«ye SÜ»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "je connaissais", "es": "conocía", "ipa": "/ʒə kɔ.nɛ.sɛ/", "esApprox": "«ye ko-ne-SE»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "j'ai connu", "es": "conocí (por primera vez)", "ipa": "/ʒe kɔ.ny/", "esApprox": "«ye ko-NÜ»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "je pouvais", "es": "podía (en general)", "ipa": "/ʒə pu.vɛ/", "esApprox": "«ye pu-VE»", "pos": "verbo", "gender": null },
+    { "id": "v6", "target": "j'ai pu", "es": "pude (lo conseguí)", "ipa": "/ʒe py/", "esApprox": "«ye PÜ»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "je voulais", "es": "quería", "ipa": "/ʒə vu.lɛ/", "esApprox": "«ye vu-LE»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "j'ai voulu", "es": "quise (lo intenté)", "ipa": "/ʒe vu.ly/", "esApprox": "«ye vu-LÜ»", "pos": "verbo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «j'ai su» (passé composé de savoir)?",
+      "options": ["sabía", "supe/me enteré", "sabré", "sabría"],
+      "answer": 1,
+      "explain": "J'ai su marca el momento puntual en que te enteraste de algo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «je connaissais» (imparfait de connaître)?",
+      "options": ["conocía", "conocí por primera vez", "conoceré", "habría conocido"],
+      "answer": 0,
+      "explain": "Je connaissais describe un estado o conocimiento previo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "statement": "J'ai pu significa que conseguiste hacer algo en una ocasión concreta.",
+      "answer": true,
+      "explain": "J'ai pu marca un logro puntual, no una capacidad general."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "statement": "Je pouvais y j'ai pu significan exactamente lo mismo.",
+      "answer": false,
+      "explain": "Je pouvais es una capacidad general; j'ai pu es un logro puntual."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Une cada forma con su traducción",
+      "left": ["je savais", "j'ai su", "je connaissais", "j'ai connu"],
+      "right": ["sabía", "supe/me enteré", "conocía", "conocí por primera vez"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Je savais = sabía, j'ai su = supe, je connaissais = conocía, j'ai connu = conocí."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "No sabía la verdad, pero al final me enteré.",
+      "accept": ["Je ne savais pas la vérité, mais finalement je l'ai su"],
+      "hintWords": ["je ne savais pas la vérité", "mais finalement je l'ai su"],
+      "strictAccents": true,
+      "audio": "Je ne savais pas la vérité, mais finalement je l'ai su.",
+      "explain": "Imparfait (savais, estado) + passé composé (ai su, momento puntual)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "La conocía de nombre desde hacía años, pero la conocí en persona ayer.",
+      "accept": ["Je la connaissais de nom depuis des années, mais je l'ai connue en personne hier"],
+      "hintWords": ["je la connaissais de nom depuis des années", "mais je l'ai connue en personne hier"],
+      "strictAccents": true,
+      "audio": "Je la connaissais de nom depuis des années, mais je l'ai connue en personne hier.",
+      "explain": "Imparfait (connaissais, estado) + passé composé (ai connue, primer encuentro)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Je ne ___ pas nager, mais un jour, j' ___ le faire.",
+      "blanks": [{ "accept": ["savais"] }, { "accept": ["ai su"] }],
+      "bank": ["savais", "ai su", "sais"],
+      "explain": "Estado previo (savais) frente al momento en que lo lograste (ai su)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Al final, pude terminar el proyecto»",
+      "tokens": ["finir le projet", "Finalement, j'ai pu"],
+      "answer": ["Finalement, j'ai pu", "finir le projet"],
+      "audio": "Finalement, j'ai pu finir le projet.",
+      "explain": "J'ai pu marca el logro puntual de haber terminado el proyecto."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Je voulais partir tôt, mais je n'ai pas pu, donc j'ai dû rester.",
+      "accept": ["Quería salir temprano, pero no pude, así que tuve que quedarme."],
+      "strictAccents": false,
+      "audio": "Je voulais partir tôt, mais je n'ai pas pu, donc j'ai dû rester.",
+      "explain": "Deseo general (voulais) frente a un logro fallido (n'ai pas pu) y una obligación cumplida (ai dû)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación usando savoir con el matiz correcto",
+      "turns": [
+        { "who": "Léa", "text": "Tu savais qu'il partait ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Non, je ne le savais pas, mais je l'ai su hier.", "Je le savais depuis longtemps."], "hint": "usa savoir en imparfait o passé composé" },
+        { "who": "Léa", "text": "Ah, d'accord.", "speak": true }
+      ],
+      "explain": "Repaso combinado del matiz de savoir."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "speak": "Je ne savais pas la vérité, mais finalement je l'ai su. Je la connaissais de nom, mais je l'ai connue en personne hier.",
+      "mode": "write",
+      "accept": ["Je ne savais pas la vérité, mais finalement je l'ai su. Je la connaissais de nom, mais je l'ai connue en personne hier"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del matiz de savoir y connaître."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["contraste-pasados"],
+      "difficulty": 1,
+      "speak": "j'ai pu",
+      "mode": "choose",
+      "options": ["je pouvais", "j'ai pu", "je pourrai", "je pourrais"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "J'ai pu marca un logro puntual en passé composé."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["contraste-pasados"],
+      "difficulty": 3,
+      "speak": "Je voulais partir tôt, mais je n'ai pas pu, donc j'ai dû rester. Je ne savais pas pourquoi, mais je l'ai su plus tard.",
+      "es": "Quería salir temprano, pero no pude, así que tuve que quedarme. No sabía por qué, pero me enteré más tarde.",
+      "ipa": "/ʒə vu.lɛ paʁ.tiʁ to mɛ ʒə nɛ pa py dɔ̃k ʒe dy ʁɛs.te ʒə nə sa.vɛ pa puʁ.kwa mɛ ʒə lɛ sy ply taʁ/",
+      "esApprox": "«ye vu-LE par-TIR TO me ye NE pa PÜ donk ye DÜ res-TÉ ye ne sa-VE pa pur-KUÁ me ye le SÜ plü TAR»",
+      "focus": "Contraste de matices con vouloir, pouvoir, devoir y savoir en una narración.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Cuenta algo usando savoir o connaître, contrastando imparfait y passé composé.",
+      "modelAnswer": "Je ne savais pas la vérité, mais finalement je l'ai su.",
+      "alsoValid": ["Je le connaissais de nom, mais je l'ai connu en personne hier."],
+      "speak": "Je ne savais pas la vérité, mais finalement je l'ai su.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "¿Es imparfait (estado general) o passé composé (cambio puntual)?",
+      "buckets": ["Imparfait", "Passé composé"],
+      "items": [
+        { "text": "je savais", "bucket": 0 },
+        { "text": "j'ai su", "bucket": 1 },
+        { "text": "je connaissais", "bucket": 0 },
+        { "text": "j'ai connu", "bucket": 1 }
+      ],
+      "explain": "Je savais y je connaissais describen un estado; j'ai su y j'ai connu marcan un cambio puntual."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["contraste-pasados"],
+      "difficulty": 2,
+      "prompt": "Hay un error: conocer a alguien por primera vez en un momento concreto exige passé composé. Corrige la frase entera.",
+      "wrong": "Hier, je connaissais Marie pour la première fois.",
+      "accept": ["Hier, j'ai connu Marie pour la première fois"],
+      "audio": "Hier, j'ai connu Marie pour la première fois.",
+      "explain": "Un primer encuentro puntual (hier, pour la première fois) exige passé composé (j'ai connu), no imparfait."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "je savais", "es": "sabía", "esApprox": "«ye sa-VE»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'ai su", "es": "supe, me enteré", "esApprox": "«ye SÜ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "je connaissais", "es": "conocía", "esApprox": "«ye ko-ne-SE»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "j'ai connu", "es": "conocí (por primera vez)", "esApprox": "«ye ko-NÜ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "je pouvais", "es": "podía (en general)", "esApprox": "«ye pu-VE»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "j'ai pu", "es": "pude (lo conseguí)", "esApprox": "«ye PÜ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Je ne savais pas la vérité, mais finalement je l'ai su.", "es": "No sabía la verdad, pero al final me enteré.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je la connaissais de nom depuis des années, mais je l'ai connue en personne hier.", "es": "La conocía de nombre desde hacía años, pero la conocí en persona ayer.", "from": "e7" }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-144",
+  "lang": "fr",
+  "level": "A2",
+  "order": 144,
+  "title": "El medioambiente: lo básico para hablar de él",
+  "objectives": [
+    "Aprender vocabulario básico del medioambiente",
+    "Hablar de hábitos ecológicos con el presente y el futuro",
+    "Practicar opiniones sencillas sobre el medioambiente"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Vocabulario esencial del medioambiente",
+      "body": "Sin gramática nueva. Vocabulario para hablar del medioambiente: recycler, la pollution, protéger la planète, les déchets.",
+      "examples": [
+        { "target": "Je recycle le verre et le papier. On devrait tous protéger la planète.", "es": "Reciclo el vidrio y el papel. Todos deberíamos proteger el planeta.", "note": "presente habitual + on devrait (consejo general, clase A2-133)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario del medioambiente",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["recycler", "reciclar"],
+        ["la pollution", "la contaminación"],
+        ["protéger la planète", "proteger el planeta"],
+        ["les déchets", "los residuos, la basura"],
+        ["le réchauffement climatique", "el calentamiento global"],
+        ["économiser l'eau / l'énergie", "ahorrar agua / energía"],
+        ["un sac en plastique", "una bolsa de plástico"],
+        ["l'environnement", "el medioambiente"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "On devrait, el consejo general",
+      "body": "On devrait (deberíamos, en general) es la forma condicional de on doit, y se usa mucho para hablar de lo que la sociedad debería hacer por el medioambiente, sin señalar a nadie en concreto."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "recycler", "es": "reciclar", "ipa": "/ʁə.si.kle/", "esApprox": "«re-si-KLÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je recycle le verre et le papier.", "es": "Reciclo el vidrio y el papel." } },
+    { "id": "v2", "target": "la pollution", "es": "la contaminación", "ipa": "/la pɔ.ly.sjɔ̃/", "esApprox": "«la po-lü-SIÓN»", "pos": "sustantivo", "gender": "f", "example": { "target": "La pollution augmente dans les grandes villes.", "es": "La contaminación aumenta en las grandes ciudades." } },
+    { "id": "v3", "target": "protéger la planète", "es": "proteger el planeta", "ipa": "/pʁɔ.te.ʒe la pla.nɛt/", "esApprox": "«pro-te-YÉ la pla-NET»", "pos": "expresión", "gender": null, "example": { "target": "On devrait tous protéger la planète.", "es": "Todos deberíamos proteger el planeta." } },
+    { "id": "v4", "target": "les déchets", "es": "los residuos, la basura", "ipa": "/le de.ʃɛ/", "esApprox": "«le de-SHE»", "pos": "sustantivo", "gender": "m", "example": { "target": "Nous produisons trop de déchets.", "es": "Producimos demasiada basura." } },
+    { "id": "v5", "target": "le réchauffement climatique", "es": "el calentamiento global", "ipa": "/lə ʁe.ʃof.mɑ̃ kli.ma.tik/", "esApprox": "«le re-shof-MAN kli-ma-TIK»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le réchauffement climatique est un vrai problème.", "es": "El calentamiento global es un problema real." } },
+    { "id": "v6", "target": "économiser l'eau", "es": "ahorrar agua", "ipa": "/e.kɔ.nɔ.mi.ze lo/", "esApprox": "«e-ko-no-mi-ZÉ LO»", "pos": "expresión", "gender": null, "example": { "target": "J'essaie d'économiser l'eau à la maison.", "es": "Intento ahorrar agua en casa." } },
+    { "id": "v7", "target": "un sac en plastique", "es": "una bolsa de plástico", "ipa": "/œ̃ sak ɑ̃ plas.tik/", "esApprox": "«un SAK an plas-TIK»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je n'utilise plus de sacs en plastique.", "es": "Ya no uso bolsas de plástico." } },
+    { "id": "v8", "target": "l'environnement", "es": "el medioambiente", "ipa": "/lɑ̃.vi.ʁɔn.mɑ̃/", "esApprox": "«lan-vi-ron-MAN»", "pos": "sustantivo", "gender": "m", "example": { "target": "C'est important pour l'environnement.", "es": "Es importante para el medioambiente." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «reciclo el vidrio y el papel»?",
+      "options": ["Je recycle le verre et le papier.", "Je protège le verre et le papier.", "J'économise le verre et le papier.", "Je jette le verre et le papier."],
+      "answer": 0,
+      "explain": "Recycler = reciclar."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "¿Qué significa «les déchets»?",
+      "options": ["el agua", "los residuos, la basura", "la contaminación", "el planeta"],
+      "answer": 1,
+      "explain": "Les déchets = los residuos, la basura."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "statement": "Le réchauffement climatique significa el calentamiento global.",
+      "answer": true,
+      "explain": "Le réchauffement climatique = el calentamiento global."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "statement": "Économiser l'eau significa gastar más agua.",
+      "answer": false,
+      "explain": "Économiser l'eau significa ahorrar agua, no gastar más."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["la pollution", "l'environnement", "un sac en plastique", "protéger la planète"],
+      "right": ["proteger el planeta", "la contaminación", "el medioambiente", "una bolsa de plástico"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Pollution = contaminación, environnement = medioambiente, sac en plastique = bolsa de plástico, protéger la planète = proteger el planeta."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "Reciclo el vidrio y el papel. Todos deberíamos proteger el planeta.",
+      "accept": ["Je recycle le verre et le papier. On devrait tous protéger la planète"],
+      "hintWords": ["je recycle le verre et le papier", "on devrait tous protéger la planète"],
+      "strictAccents": true,
+      "audio": "Je recycle le verre et le papier. On devrait tous protéger la planète.",
+      "explain": "Presente habitual + on devrait (consejo general, clase A2-133)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "Ya no uso bolsas de plástico, e intento ahorrar agua en casa.",
+      "accept": ["Je n'utilise plus de sacs en plastique, et j'essaie d'économiser l'eau à la maison"],
+      "hintWords": ["je n'utilise plus de sacs en plastique", "j'essaie d'économiser l'eau à la maison"],
+      "strictAccents": true,
+      "audio": "Je n'utilise plus de sacs en plastique, et j'essaie d'économiser l'eau à la maison.",
+      "explain": "Ne...plus + un sac en plastique + économiser l'eau."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "La ___ augmente à cause des ___.",
+      "blanks": [{ "accept": ["pollution"] }, { "accept": ["déchets"] }],
+      "bank": ["pollution", "déchets", "environnement"],
+      "explain": "La pollution + les déchets, causa y efecto."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Producimos demasiada basura»",
+      "tokens": ["trop de déchets", "Nous produisons"],
+      "answer": ["Nous produisons", "trop de déchets"],
+      "audio": "Nous produisons trop de déchets.",
+      "explain": "Nous produisons + trop de déchets."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "Le réchauffement climatique est un vrai problème, et je pense que nous devons tous économiser l'énergie.",
+      "accept": ["El calentamiento global es un problema real, y pienso que todos debemos ahorrar energía."],
+      "strictAccents": false,
+      "audio": "Le réchauffement climatique est un vrai problème, et je pense que nous devons tous économiser l'énergie.",
+      "explain": "Le réchauffement climatique + devoir + économiser l'énergie."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el medioambiente",
+      "turns": [
+        { "who": "Léa", "text": "Tu fais quoi pour l'environnement ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je recycle le verre et le papier.", "J'économise l'eau et l'énergie."], "hint": "usa recycler o économiser" },
+        { "who": "Léa", "text": "C'est bien, moi aussi j'essaie.", "speak": true }
+      ],
+      "explain": "Tu fais quoi pour l'environnement...? se responde con hábitos ecológicos."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "speak": "Je recycle mes déchets, j'économise l'eau, et j'essaie de protéger la planète tous les jours.",
+      "mode": "write",
+      "accept": ["Je recycle mes déchets, j'économise l'eau, et j'essaie de protéger la planète tous les jours"],
+      "showTextAfter": true,
+      "explain": "Tres hábitos ecológicos encadenados."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["medioambiente"],
+      "difficulty": 1,
+      "speak": "les déchets",
+      "mode": "choose",
+      "options": ["la pollution", "les déchets", "l'environnement", "la planète"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Les déchets = los residuos, la basura."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["medioambiente"],
+      "difficulty": 3,
+      "speak": "Je recycle le verre et le papier, je n'utilise plus de sacs en plastique, et j'essaie de protéger la planète.",
+      "es": "Reciclo el vidrio y el papel, ya no uso bolsas de plástico, e intento proteger el planeta.",
+      "ipa": "/ʒə ʁə.si.kl lə vɛʁ e lə pa.pje ʒə ny.ti.liz ply də sak ɑ̃ plas.tik e ʒe.sɛ də pʁɔ.te.ʒe la pla.nɛt/",
+      "esApprox": "«ye re-SIKL le VER e le pa-PIÉ ye nü-ti-LIZ plü de SAK an plas-TIK e ye-SE de pro-te-YÉ la pla-NET»",
+      "focus": "Varios hábitos ecológicos en presente.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "Habla de lo que haces por el medioambiente en tu vida diaria.",
+      "modelAnswer": "Je recycle mes déchets, et j'essaie d'économiser l'eau et l'énergie.",
+      "alsoValid": ["Je n'utilise plus de sacs en plastique."],
+      "speak": "Je recycle mes déchets, et j'essaie d'économiser l'eau et l'énergie.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "¿Es un problema o una solución?",
+      "buckets": ["Problema", "Solución"],
+      "items": [
+        { "text": "la pollution", "bucket": 0 },
+        { "text": "recycler", "bucket": 1 },
+        { "text": "les déchets", "bucket": 0 },
+        { "text": "économiser l'eau", "bucket": 1 }
+      ],
+      "explain": "Pollution y déchets son problemas; recycler y économiser l'eau, soluciones."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["medioambiente"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "Je recycle l'eau à la maison.",
+      "accept": ["J'économise l'eau à la maison"],
+      "audio": "J'économise l'eau à la maison.",
+      "explain": "El agua se ahorra (économiser), no se recicla (recycler)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "recycler", "es": "reciclar", "esApprox": "«re-si-KLÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "la pollution", "es": "la contaminación", "esApprox": "«la po-lü-SIÓN»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "protéger la planète", "es": "proteger el planeta", "esApprox": "«pro-te-YÉ la pla-NET»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "les déchets", "es": "los residuos, la basura", "esApprox": "«le de-SHE»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "le réchauffement climatique", "es": "el calentamiento global", "esApprox": "«le re-shof-MAN kli-ma-TIK»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "l'environnement", "es": "el medioambiente", "esApprox": "«lan-vi-ron-MAN»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Je recycle le verre et le papier. On devrait tous protéger la planète.", "es": "Reciclo el vidrio y el papel. Todos deberíamos proteger el planeta.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je n'utilise plus de sacs en plastique, et j'essaie d'économiser l'eau à la maison.", "es": "Ya no uso bolsas de plástico, e intento ahorrar agua en casa.", "from": "e7" }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "id": "de-a1-009",
+  "lang": "de",
+  "level": "A1",
+  "order": 9,
+  "title": "El verbo sein",
+  "objectives": [
+    "Conjugar el verbo sein (ser/estar) en las seis personas: bin, bist, ist, sind, seid, sind",
+    "Usar sein para describir estados y presentarte: nombre, origen, cansancio, ánimo",
+    "Distinguir por escrito seid (verbo, ihr) de seit (preposición, «desde»), que suenan exactamente igual"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Sein es totalmente irregular: hay que memorizarlo entero",
+      "body": "Sein (ser/estar) es, con diferencia, el verbo más importante del alemán, y también el más irregular: no sigue ningún patrón, así que no hay atajo, hay que memorizar las seis formas. Ya has visto ist suelto en frases anteriores («Der Ofen ist offen»); ahora completas el resto del verbo, incluyendo ich, du, wir, ihr y sie/Sie.",
+      "examples": [
+        { "target": "Ich bin müde.", "es": "Estoy cansado.", "note": "ich → bin" },
+        { "target": "Du bist glücklich.", "es": "Tú estás feliz.", "note": "du → bist" },
+        { "target": "Wir sind aus Spanien.", "es": "Somos de España.", "note": "wir → sind" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El verbo sein en presente",
+      "headers": ["Persona", "Forma", "Ejemplo"],
+      "rows": [
+        ["ich", "bin", "Ich bin müde."],
+        ["du", "bist", "Du bist glücklich."],
+        ["er / sie / es", "ist", "Er ist traurig."],
+        ["wir", "sind", "Wir sind aus Spanien."],
+        ["ihr", "seid", "Ihr seid glücklich."],
+        ["sie / Sie", "sind", "Sie sind müde."]
+      ],
+      "note": "Fíjate en que wir y sie/Sie comparten la misma forma, sind, igual que er/sie/es comparten ist."
+    },
+    {
+      "type": "phonetics",
+      "title": "bin, bist, sind, seid: cuatro sonidos que hay que separar bien",
+      "body": "Las seis formas de sein suenan bastante distintas entre sí, así que no cuesta demasiado diferenciarlas de oído una vez las conoces.",
+      "drills": [
+        { "target": "bin", "ipa": "/bɪn/", "esApprox": "«bin»", "hint": "ich" },
+        { "target": "bist", "ipa": "/bɪst/", "esApprox": "«bist»", "hint": "du" },
+        { "target": "sind", "ipa": "/zɪnt/", "esApprox": "«zint», la d final suena como t", "hint": "wir / sie / Sie" },
+        { "target": "seid", "ipa": "/zaɪ̯t/", "esApprox": "«zait»", "hint": "ihr" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: seid (verbo) y seit (preposición) suenan idénticos",
+      "items": [
+        { "wrong": "Ihr seit müde. (usando seit, la preposición «desde»)", "right": "Ihr seid müde. (con d, la forma de sein para ihr)", "why": "seid (con d) es la forma de ihr del verbo sein; seit (con t) es una preposición que significa «desde». Se pronuncian exactamente igual, así que solo la ortografía y el contexto los distinguen." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Un truco para memorizar sein: ich/er/sie/es comparten la vocal i (bin, bist, ist); wir/sie/Sie comparten sind; solo ihr tiene una forma propia, seid. Agrupar así las seis formas ayuda mucho a fijarlas."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "sein",
+      "es": "ser, estar (infinitivo)",
+      "ipa": "/zaɪ̯n/",
+      "esApprox": "«zain»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Sein ist das wichtigste Verb.", "es": "Sein es el verbo más importante." }
+    },
+    {
+      "id": "v2",
+      "target": "bin",
+      "es": "(yo) soy, estoy",
+      "ipa": "/bɪn/",
+      "esApprox": "«bin»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich bin müde.", "es": "Estoy cansado." }
+    },
+    {
+      "id": "v3",
+      "target": "bist",
+      "es": "(tú) eres, estás",
+      "ipa": "/bɪst/",
+      "esApprox": "«bist»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Du bist glücklich.", "es": "Tú estás feliz." }
+    },
+    {
+      "id": "v4",
+      "target": "ist",
+      "es": "(él/ella/ello, usted) es, está",
+      "ipa": "/ɪst/",
+      "esApprox": "«ist»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Er ist traurig.", "es": "Él está triste." }
+    },
+    {
+      "id": "v5",
+      "target": "sind",
+      "es": "(nosotros/ellos/ustedes) somos/son, estamos/están",
+      "ipa": "/zɪnt/",
+      "esApprox": "«zint»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Wir sind aus Spanien.", "es": "Somos de España." }
+    },
+    {
+      "id": "v6",
+      "target": "seid",
+      "es": "(vosotros) sois, estáis",
+      "ipa": "/zaɪ̯t/",
+      "esApprox": "«zait»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ihr seid glücklich.", "es": "Vosotros estáis felices." }
+    },
+    {
+      "id": "v7",
+      "target": "glücklich",
+      "es": "feliz",
+      "ipa": "/ˈɡlʏklɪç/",
+      "esApprox": "«GLÜK-lich», con ü y con ich-Laut al final",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Ich bin sehr glücklich.", "es": "Estoy muy feliz." }
+    },
+    {
+      "id": "v8",
+      "target": "traurig",
+      "es": "triste",
+      "ipa": "/ˈtʁaʊ̯ʁɪç/",
+      "esApprox": "«TRAU-rich», con ich-Laut al final",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Er ist traurig.", "es": "Él está triste." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["sein"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma de sein para «ich»?",
+      "options": ["bist", "bin", "ist", "sind"],
+      "answer": 1,
+      "explain": "ich bin es la primera persona del singular de sein."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["sein"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la forma de sein para «wir»?",
+      "options": ["seid", "sind", "ist", "bin"],
+      "answer": 1,
+      "explain": "wir sind: wir comparte forma con sie/Sie."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["sein"],
+      "difficulty": 1,
+      "statement": "Seid (la forma de ihr) y seit (la preposición «desde») se pronuncian igual.",
+      "answer": true,
+      "explain": "Son homófonos: suenan idénticos, solo cambia la ortografía y el contexto."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["sein"],
+      "difficulty": 1,
+      "statement": "La forma de sein para «du» es «sind».",
+      "answer": false,
+      "explain": "La forma de du es bist, no sind. Sind es de wir y de sie/Sie."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas NO pertenece al verbo sein?",
+      "options": ["bin", "bist", "seid", "wohnst"],
+      "answer": 3,
+      "explain": "Wohnst pertenece al verbo wohnen (vivir), no a sein."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Une cada pronombre con su forma de sein",
+      "left": ["ich", "du", "wir", "ihr"],
+      "right": ["bin", "bist", "sind", "seid"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Las cuatro formas de sein para ich, du, wir e ihr."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Yo estoy cansado.",
+      "accept": ["Ich bin müde"],
+      "hintWords": ["ich bin", "müde"],
+      "strictAccents": false,
+      "audio": "Ich bin müde.",
+      "explain": "Ich + bin + müde: sujeto, verbo, adjetivo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Nosotros somos de España.",
+      "accept": ["Wir sind aus Spanien"],
+      "hintWords": ["wir sind", "aus Spanien"],
+      "strictAccents": false,
+      "audio": "Wir sind aus Spanien.",
+      "explain": "Wir sind aus + país, sin artículo delante del país."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de sein",
+      "text": "Du ___ glücklich. Ihr ___ traurig.",
+      "blanks": [{ "accept": ["bist"] }, { "accept": ["seid"] }],
+      "bank": ["bist", "seid", "sind"],
+      "explain": "du → bist; ihr → seid."
+    },
+    {
+      "id": "e10",
+      "type": "conjugation",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "verb": "sein",
+      "tense": "Präsens",
+      "prompt": "Conjuga «sein» (ser/estar) en presente",
+      "rows": [
+        { "person": "ich", "accept": ["bin"] },
+        { "person": "du", "accept": ["bist"] },
+        { "person": "er / sie / es", "accept": ["ist"] },
+        { "person": "wir", "accept": ["sind"] },
+        { "person": "ihr", "accept": ["seid"] },
+        { "person": "sie / Sie", "accept": ["sind"] }
+      ],
+      "explain": "Sein no sigue ningún patrón: hay que memorizar las seis formas una a una."
+    },
+    {
+      "id": "e11",
+      "type": "word_order",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Vosotros estáis felices»",
+      "tokens": ["seid", "glücklich", "Ihr"],
+      "answer": ["Ihr", "seid", "glücklich"],
+      "audio": "Ihr seid glücklich.",
+      "explain": "Ihr + seid + glücklich, el mismo orden que las demás frases con sein."
+    },
+    {
+      "id": "e12",
+      "type": "translate_to_es",
+      "tags": ["sein"],
+      "difficulty": 1,
+      "prompt": "Wir sind glücklich.",
+      "accept": ["Nosotros estamos felices.", "Estamos felices.", "Somos felices."],
+      "strictAccents": false,
+      "audio": "Wir sind glücklich.",
+      "explain": "Sein cubre tanto «ser» como «estar»: aquí encaja mejor «estamos felices»."
+    },
+    {
+      "id": "e13",
+      "type": "dialogue",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre cómo te sientes",
+      "turns": [
+        { "who": "Anna", "text": "Bist du müde?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich bin müde."], "hint": "responde que sí, que estás cansado" },
+        { "who": "Anna", "text": "Ich bin auch müde.", "speak": true }
+      ],
+      "explain": "Bist du...? es la pregunta típica con sein para preguntar cómo está alguien."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["sein"],
+      "difficulty": 1,
+      "speak": "Ich bin müde.",
+      "mode": "write",
+      "accept": ["Ich bin müde"],
+      "showTextAfter": true,
+      "explain": "Ich bin müde = estoy cansado."
+    },
+    {
+      "id": "e15",
+      "type": "listening",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "speak": "Wir sind glücklich.",
+      "mode": "choose",
+      "options": ["Wir sind glücklich.", "Ihr seid glücklich.", "Sie sind glücklich."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Wir, ihr y Sie llevan formas de sein distintas: sind, seid, sind."
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "speak": "Ich bin sehr glücklich.",
+      "es": "Estoy muy feliz.",
+      "ipa": "/ɪç bɪn zeːɐ̯ ˈɡlʏklɪç/",
+      "esApprox": "«ich bin zér GLÜK-lich»",
+      "focus": "glücklich termina en ich-Laut, el sonido suave de ch: no lo conviertas en jota.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "shadowing",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "speak": "Wir sind aus Deutschland.",
+      "es": "Somos de Alemania.",
+      "ipa": "/viːɐ̯ zɪnt aʊ̯s ˈdɔɪ̯tʃlant/",
+      "esApprox": "«vir zint aus DOICH-lant»",
+      "focus": "La d final de sind suena como una t: es una regla general del alemán con las consonantes finales.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "speak_prompt",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si estás feliz. Responde que sí, que estás muy feliz.",
+      "modelAnswer": "Ja, ich bin sehr glücklich.",
+      "alsoValid": ["Ich bin sehr glücklich."],
+      "speak": "Ja, ich bin sehr glücklich.",
+      "selfAssess": true
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada forma de sein: ¿singular o plural?",
+      "buckets": ["Singular", "Plural"],
+      "items": [
+        { "text": "bin", "bucket": 0 },
+        { "text": "bist", "bucket": 0 },
+        { "text": "ist", "bucket": 0 },
+        { "text": "sind", "bucket": 1 },
+        { "text": "seid", "bucket": 1 }
+      ],
+      "explain": "bin, bist e ist son formas del singular; sind y seid, del plural."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ihr seit müde.",
+      "accept": ["Ihr seid müde"],
+      "audio": "Ihr seid müde.",
+      "explain": "Con el verbo sein se escribe seid (con d); seit (con t) es una preposición distinta que significa «desde»."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "sein", "es": "ser, estar (infinitivo)", "esApprox": "«zain»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "bin", "es": "(yo) soy, estoy", "esApprox": "«bin»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "bist", "es": "(tú) eres, estás", "esApprox": "«bist»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "ist", "es": "(él/ella) es, está", "esApprox": "«ist»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "sind", "es": "(nosotros/ellos) somos/son", "esApprox": "«zint»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "seid", "es": "(vosotros) sois, estáis", "esApprox": "«zait»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "glücklich", "es": "feliz", "esApprox": "«GLÜK-lich»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "traurig", "es": "triste", "esApprox": "«TRAU-rich»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Ich bin sehr glücklich.", "es": "Estoy muy feliz.", "from": "e16" },
+    { "id": "s10", "kind": "phrase", "target": "Wir sind aus Deutschland.", "es": "Somos de Alemania.", "from": "e17" }
+  ]
+}

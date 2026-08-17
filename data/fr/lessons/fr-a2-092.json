@@ -1,0 +1,249 @@
+{
+  "id": "fr-a2-092",
+  "lang": "fr",
+  "level": "A2",
+  "order": 92,
+  "title": "El passé composé con los pronombres COD y COI",
+  "objectives": [
+    "Colocar el pronombre COD (le/la/les) o COI (lui/leur) antes del auxiliar avoir/être en passé composé",
+    "Practicar la negación con pronombre + passé composé: ne + pronombre + auxiliar + pas + participio",
+    "Preparar el terreno para el acuerdo del participio con el COD, que verás en la próxima clase"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El pronombre va antes del auxiliar, no antes del participio",
+      "body": "Ya sabes que le/la/les (COD, A1-82) y lui/leur (COI, A1-83) van antes del verbo conjugado. En passé composé, el verbo conjugado es el auxiliar avoir o être, así que el pronombre va justo antes de avoir/être, no antes del participio.",
+      "examples": [
+        { "target": "Tu as vu Léa ? Oui, je l'ai vue hier.", "es": "¿Has visto a Léa? Sí, la vi ayer.", "note": "le/la → l' + ai (auxiliar) + vue (participio)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "COD y COI en passé composé",
+      "headers": ["Presente", "Passé composé"],
+      "rows": [
+        ["Je le vois.", "Je l'ai vu."],
+        ["Je lui parle.", "Je lui ai parlé."],
+        ["Je ne le vois pas.", "Je ne l'ai pas vu."],
+        ["Je ne lui parle pas.", "Je ne lui ai pas parlé."]
+      ],
+      "note": "La negación rodea el pronombre y el auxiliar juntos: ne + l' + ai + pas."
+    },
+    {
+      "type": "tip",
+      "body": "Fíjate en que en el ejemplo de arriba escribimos vue, con -e: es el acuerdo del participio con el COD antepuesto (le/la/les), que verás con detalle en la clase 93. De momento, céntrate en la posición del pronombre."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "Je l'ai vu(e).", "es": "Lo/la vi.", "ipa": "/ʒə le vy/", "esApprox": "«ye le VÜ»", "pos": "expresión", "gender": null, "example": { "target": "Je l'ai vu hier au travail.", "es": "Lo vi ayer en el trabajo." } },
+    { "id": "v2", "target": "Je lui ai parlé.", "es": "Le hablé.", "ipa": "/ʒə lɥi e paʁ.le/", "esApprox": "«ye lüí e par-LÉ»", "pos": "expresión", "gender": null, "example": { "target": "Je lui ai parlé ce matin.", "es": "Le hablé esta mañana." } },
+    { "id": "v3", "target": "Je ne l'ai pas vu(e).", "es": "No lo/la vi.", "ipa": "/ʒə nə le pa vy/", "esApprox": "«ye ne le pa VÜ»", "pos": "expresión", "gender": null, "example": { "target": "Je ne l'ai pas vu ce week-end.", "es": "No lo vi este fin de semana." } },
+    { "id": "v4", "target": "trouver", "es": "encontrar", "ipa": "/tʁu.ve/", "esApprox": "«tru-VÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je l'ai trouvé dans ma poche.", "es": "Lo encontré en mi bolsillo." } },
+    { "id": "v5", "target": "perdre", "es": "perder", "ipa": "/pɛʁdʁ/", "esApprox": "«PERDR»", "pos": "verbo", "gender": null, "example": { "target": "J'ai perdu mes clés.", "es": "He perdido mis llaves." } },
+    { "id": "v6", "target": "inviter", "es": "invitar", "ipa": "/ɛ̃.vi.te/", "esApprox": "«en-vi-TÉ»", "pos": "verbo", "gender": null, "example": { "target": "Je les ai invités au dîner.", "es": "Los invité a cenar." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «lo vi» (le chat)?",
+      "options": ["J'ai le vu.", "Je l'ai vu.", "J'ai vu le.", "Je vu l'ai."],
+      "answer": 1,
+      "explain": "El pronombre va antes del auxiliar: je l'ai vu."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «le hablé»?",
+      "options": ["Je lui ai parlé.", "J'ai lui parlé.", "Je ai parlé lui.", "Je l'ai parlé."],
+      "answer": 0,
+      "explain": "Lui (COI) va antes de ai: je lui ai parlé."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "statement": "El pronombre COD/COI va antes del auxiliar, no antes del participio.",
+      "answer": true,
+      "explain": "En passé composé, el verbo conjugado es el auxiliar: el pronombre va justo antes de él."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "statement": "La negación rodea el pronombre y el auxiliar juntos.",
+      "answer": true,
+      "explain": "Ne + l' + ai + pas: el conjunto pronombre + auxiliar queda dentro de ne...pas."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "Une cada frase en presente con su passé composé",
+      "left": ["Je le vois.", "Je lui parle.", "Je les invite.", "Je ne le vois pas."],
+      "right": ["Je ne l'ai pas vu.", "Je l'ai vu.", "Je lui ai parlé.", "Je les ai invités."],
+      "answer": [1, 2, 3, 0],
+      "explain": "El pronombre se mantiene en la misma posición relativa al auxiliar."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Has visto a Marc? Sí, lo vi ayer en el trabajo.",
+      "accept": ["Tu as vu Marc ? Oui, je l'ai vu hier au travail"],
+      "hintWords": ["tu as vu Marc", "je l'ai vu hier au travail"],
+      "strictAccents": true,
+      "audio": "Tu as vu Marc ? Oui, je l'ai vu hier au travail.",
+      "explain": "El pronombre l' va antes del auxiliar ai."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["passe-compose", "negacion"],
+      "difficulty": 2,
+      "prompt": "No lo he visto, y no le he hablado.",
+      "accept": ["Je ne l'ai pas vu, et je ne lui ai pas parlé"],
+      "hintWords": ["je ne l'ai pas vu", "je ne lui ai pas parlé"],
+      "strictAccents": true,
+      "audio": "Je ne l'ai pas vu, et je ne lui ai pas parlé.",
+      "explain": "Ne + pronombre + auxiliar + pas, dos veces seguidas."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto",
+      "text": "Tu as perdu tes clés ? Non, je ___ ai trouvées.",
+      "blanks": [{ "accept": ["les"] }],
+      "bank": ["le", "la", "les"],
+      "explain": "Tes clés (plural) → les."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Los invité a cenar»",
+      "tokens": ["au dîner", "Je les ai", "invités"],
+      "answer": ["Je les ai", "invités", "au dîner"],
+      "audio": "Je les ai invités au dîner.",
+      "explain": "Je les ai (pronombre + auxiliar) + invités (participio) + au dîner."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "J'ai perdu mes clés, mais je les ai trouvées dans ma poche.",
+      "accept": ["He perdido mis llaves, pero las he encontrado en mi bolsillo."],
+      "strictAccents": false,
+      "audio": "J'ai perdu mes clés, mais je les ai trouvées dans ma poche.",
+      "explain": "Mes clés → les, delante de ai trouvées."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre algo que has perdido",
+      "turns": [
+        { "who": "Léa", "text": "Tu as trouvé ton téléphone ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, je l'ai trouvé.", "Non, je ne l'ai pas trouvé."], "hint": "usa l' + ai (trouvé)" },
+        { "who": "Léa", "text": "Ah, tant mieux !", "speak": true }
+      ],
+      "explain": "Tu as trouvé...? se responde con le/la/les + ai + participio."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "speak": "Je l'ai vu ce matin, et je lui ai parlé de toi.",
+      "mode": "write",
+      "accept": ["Je l'ai vu ce matin, et je lui ai parlé de toi"],
+      "showTextAfter": true,
+      "explain": "COD (l') y COI (lui) en la misma frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 1,
+      "speak": "je les ai invités",
+      "mode": "choose",
+      "options": ["je l'ai invité", "je les ai invités", "je lui ai invité", "je leur ai invités"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Je les ai invités = los/las invité."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 3,
+      "speak": "Tu as vu Léa ? Oui, je l'ai vue, je lui ai parlé, et je l'ai invitée au dîner.",
+      "es": "¿Has visto a Léa? Sí, la vi, le hablé, y la invité a cenar.",
+      "ipa": "/ty a vy le.a wi ʒə le vy ʒə lɥi e paʁ.le e ʒə le.ɛ̃.vi.te o di.ne/",
+      "esApprox": "«tü a VÜ LE-a UÍ ye le VÜ ye lüí e par-LÉ e ye le-en-vi-TÉ o di-NÉ»",
+      "focus": "Tres pronombres en cadena, todos referidos a la misma persona femenina.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "Cuenta si has visto o hablado con un amigo recientemente, usando le/la/lui.",
+      "modelAnswer": "Je l'ai vu hier, et je lui ai parlé de mon travail.",
+      "alsoValid": ["Je ne l'ai pas vu cette semaine."],
+      "speak": "Je l'ai vu hier, et je lui ai parlé de mon travail.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Es COD (le/la/les) o COI (lui/leur) en esta frase?",
+      "buckets": ["COD", "COI"],
+      "items": [
+        { "text": "Je l'ai vu.", "bucket": 0 },
+        { "text": "Je lui ai parlé.", "bucket": 1 },
+        { "text": "Je les ai invités.", "bucket": 0 },
+        { "text": "Je leur ai téléphoné.", "bucket": 1 }
+      ],
+      "explain": "Voir/inviter son COD; parler à/téléphoner à son COI."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["passe-compose", "pronombres"],
+      "difficulty": 2,
+      "prompt": "Hay un error de posición del pronombre. Corrige la frase entera.",
+      "wrong": "J'ai le vu.",
+      "accept": ["Je l'ai vu"],
+      "audio": "Je l'ai vu.",
+      "explain": "El pronombre va antes del auxiliar avoir, no después."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "Je l'ai vu(e).", "es": "Lo/la vi.", "esApprox": "«ye le VÜ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "Je lui ai parlé.", "es": "Le hablé.", "esApprox": "«ye lüí e par-LÉ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "Je ne l'ai pas vu(e).", "es": "No lo/la vi.", "esApprox": "«ye ne le pa VÜ»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "trouver", "es": "encontrar", "esApprox": "«tru-VÉ»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "perdre", "es": "perder", "esApprox": "«PERDR»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "inviter", "es": "invitar", "esApprox": "«en-vi-TÉ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Tu as vu Marc ? Oui, je l'ai vu hier au travail.", "es": "¿Has visto a Marc? Sí, lo vi ayer en el trabajo.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je ne l'ai pas vu, et je ne lui ai pas parlé.", "es": "No lo he visto, y no le he hablado.", "from": "e7" }
+  ]
+}

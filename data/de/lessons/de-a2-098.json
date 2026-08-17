@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-098",
+  "lang": "de",
+  "level": "A2",
+  "order": 98,
+  "title": "Contar tu fin de semana con soltura",
+  "objectives": [
+    "Usar conectores de secuencia para narrar con fluidez: zuerst, dann, danach, zum Schluss",
+    "Encadenar varias frases en Perfekt sin repetir siempre el mismo patrón",
+    "Contar un fin de semana completo combinando tiempo, actividades y valoraciones"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Conectores de secuencia: dar fluidez al relato",
+      "body": "Ya sabes contar qué hiciste (clase 70 del A1), pero para sonar más natural necesitas conectores que ordenen la narración: zuerst (primero), dann (luego), danach (después de eso), zum Schluss (por último). Estos conectores, como ya sabes de weil y dass, no son verbos: se colocan en posición 1 y el verbo va justo después.",
+      "examples": [
+        { "target": "Zuerst habe ich lange geschlafen.", "es": "Primero dormí hasta tarde." },
+        { "target": "Dann bin ich einkaufen gegangen.", "es": "Luego fui de compras." },
+        { "target": "Zum Schluss habe ich einen Film gesehen.", "es": "Por último vi una película." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Conectores de secuencia",
+      "headers": ["Alemán", "Español", "Posición"],
+      "rows": [
+        ["zuerst", "primero", "1"],
+        ["dann", "luego", "1"],
+        ["danach", "después de eso", "1"],
+        ["zum Schluss", "por último", "1"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No abuses de und para unir todo: alternar zuerst, dann, danach y zum Schluss con weil y aber hace que tu narración suene mucho más natural y menos repetitiva."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "zuerst", "es": "primero", "ipa": "/tsuˈeːɐ̯st/", "esApprox": "«tsu-ÉRST»", "pos": "adverbio", "gender": null, "example": { "target": "Zuerst habe ich lange geschlafen.", "es": "Primero dormí hasta tarde." } },
+    { "id": "v2", "target": "dann", "es": "luego", "ipa": "/dan/", "esApprox": "«dan»", "pos": "adverbio", "gender": null, "example": { "target": "Dann bin ich einkaufen gegangen.", "es": "Luego fui de compras." } },
+    { "id": "v3", "target": "danach", "es": "después de eso", "ipa": "/daˈnaːx/", "esApprox": "«da-NACH»", "pos": "adverbio", "gender": null, "example": { "target": "Danach habe ich gekocht.", "es": "Después de eso cociné." } },
+    { "id": "v4", "target": "zum Schluss", "es": "por último", "ipa": "/tsʊm ʃlʊs/", "esApprox": "«tsum shlus»", "pos": "expresión", "gender": null, "example": { "target": "Zum Schluss habe ich einen Film gesehen.", "es": "Por último vi una película." } },
+    { "id": "v5", "target": "lange schlafen", "es": "dormir hasta tarde", "ipa": "/ˈlaŋə ˈʃlaːfn̩/", "esApprox": "«LÁN-ge SHLÁ-fen»", "pos": "expresión", "gender": null, "example": { "target": "Ich habe lange geschlafen.", "es": "Dormí hasta tarde." } },
+    { "id": "v6", "target": "einkaufen gehen", "es": "ir de compras", "ipa": "/ˈaɪ̯nkaʊ̯fn̩ ˈɡeːən/", "esApprox": "«ÁIN-kau-fen GUÉ-en»", "pos": "expresión", "gender": null, "example": { "target": "Ich bin einkaufen gegangen.", "es": "Fui de compras." } },
+    { "id": "v7", "target": "insgesamt", "es": "en total, en general", "ipa": "/ˌɪnsɡəˈzamt/", "esApprox": "«ins-ge-ZAMT»", "pos": "adverbio", "gender": null, "example": { "target": "Insgesamt war es ein guter Tag.", "es": "En general fue un buen día." } },
+    { "id": "v8", "target": "erlebnisreich", "es": "lleno de experiencias", "ipa": "/ɛɐ̯ˈleːpnɪsʁaɪ̯ç/", "esApprox": "«er-LÉB-nis-raich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das Wochenende war erlebnisreich.", "es": "El fin de semana estuvo lleno de experiencias." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["conversacion"], "difficulty": 1, "prompt": "¿Cómo se dice «por último»?", "options": ["zuerst", "dann", "zum Schluss", "danach"], "answer": 2, "explain": "zum Schluss = por último." },
+    { "id": "e2", "type": "mcq", "tags": ["perfekt"], "difficulty": 2, "prompt": "¿Dónde va el verbo tras «zuerst»?", "options": ["Al final", "Posición 1", "Posición 2", "No cambia"], "answer": 2, "explain": "zuerst ocupa la posición 1, así que el verbo va en posición 2." },
+    { "id": "e3", "type": "true_false", "tags": ["conversacion"], "difficulty": 2, "statement": "«danach» significa «después de eso».", "answer": true, "explain": "danach = después de eso, distinto de dann (luego, en general)." },
+    { "id": "e4", "type": "true_false", "tags": ["conversacion"], "difficulty": 2, "statement": "Usar solo «und» para unir frases es la forma más natural de narrar.", "answer": false, "explain": "Alternar zuerst, dann, danach y zum Schluss suena mucho más natural que repetir und." },
+    { "id": "e5", "type": "match_pairs", "tags": ["conversacion"], "difficulty": 2, "prompt": "Une cada conector con su traducción", "left": ["zuerst", "dann", "danach", "zum Schluss"], "right": ["primero", "luego", "después de eso", "por último"], "answer": [0, 1, 2, 3], "explain": "Cuatro conectores de secuencia, en su orden natural de uso." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["conversacion"], "difficulty": 2, "prompt": "Primero dormí hasta tarde.", "accept": ["Zuerst habe ich lange geschlafen"], "hintWords": ["zuerst habe ich lange geschlafen"], "strictAccents": false, "audio": "Zuerst habe ich lange geschlafen.", "explain": "Zuerst (posición 1) + habe (posición 2) + ich + lange + geschlafen." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["conversacion"], "difficulty": 2, "prompt": "Luego fui de compras.", "accept": ["Dann bin ich einkaufen gegangen"], "hintWords": ["dann bin ich einkaufen gegangen"], "strictAccents": false, "audio": "Dann bin ich einkaufen gegangen.", "explain": "Dann + bin (sein-Perfekt) + ich + einkaufen + gegangen." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["conversacion"], "difficulty": 2, "prompt": "Por último vi una película.", "accept": ["Zum Schluss habe ich einen Film gesehen"], "hintWords": ["zum Schluss habe ich einen Film gesehen"], "strictAccents": false, "audio": "Zum Schluss habe ich einen Film gesehen.", "explain": "Zum Schluss + habe + ich + einen Film + gesehen." },
+    { "id": "e9", "type": "fill_blank", "tags": ["conversacion"], "difficulty": 2, "prompt": "Completa con el conector correcto", "text": "___ habe ich gekocht. (después de eso) ___ war es ein guter Tag. (en total)", "blanks": [{ "accept": ["Danach"] }, { "accept": ["Insgesamt"] }], "bank": ["Danach", "Insgesamt", "Zuerst"], "explain": "Danach (después de eso); Insgesamt (en total)." },
+    { "id": "e10", "type": "word_order", "tags": ["conversacion"], "difficulty": 2, "prompt": "Ordena: «El fin de semana estuvo lleno de experiencias»", "tokens": ["war", "erlebnisreich", "Das Wochenende"], "answer": ["Das Wochenende", "war", "erlebnisreich"], "audio": "Das Wochenende war erlebnisreich.", "explain": "Das Wochenende war erlebnisreich: sujeto-verbo-adjetivo." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["conversacion"], "difficulty": 2, "prompt": "Insgesamt war es ein guter Tag.", "accept": ["En general fue un buen día."], "strictAccents": false, "audio": "Insgesamt war es ein guter Tag.", "explain": "insgesamt = en total, en general." },
+    { "id": "e12", "type": "dialogue", "tags": ["conversacion"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Sara", "text": "Erzähl mir von deinem Wochenende!", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Zuerst habe ich lange geschlafen, dann bin ich einkaufen gegangen.", "Zuerst habe ich lange geschlafen."], "hint": "cuenta tu fin de semana usando conectores" },
+      { "who": "Sara", "text": "Klingt nach einem schönen Tag!", "speak": true }
+    ], "explain": "Práctica de narrar con conectores de secuencia." },
+    { "id": "e13", "type": "listening", "tags": ["conversacion"], "difficulty": 1, "speak": "Zuerst habe ich lange geschlafen.", "mode": "write", "accept": ["Zuerst habe ich lange geschlafen"], "showTextAfter": true, "explain": "Zuerst: primer conector de la secuencia narrativa." },
+    { "id": "e14", "type": "listening", "tags": ["conversacion"], "difficulty": 2, "speak": "Danach habe ich gekocht.", "mode": "choose", "options": ["Danach habe ich gekocht.", "Dann habe ich gekocht.", "Zuerst habe ich gekocht."], "answer": 0, "showTextAfter": true, "explain": "danach: después de eso, en esta secuencia concreta." },
+    { "id": "e15", "type": "shadowing", "tags": ["conversacion"], "difficulty": 2, "speak": "Zuerst habe ich lange geschlafen, dann bin ich einkaufen gegangen, und zum Schluss habe ich einen Film gesehen.", "es": "Primero dormí hasta tarde, luego fui de compras, y por último vi una película.", "ipa": "/tsuˈeːɐ̯st ˈhaːbə ɪç ˈlaŋə ɡəˈʃlaːfn̩ dan bɪn ɪç ˈaɪ̯nkaʊ̯fn̩ ɡəˈɡaŋən ʊnt tsʊm ʃlʊs ˈhaːbə ɪç ˈaɪ̯nən fɪlm ɡəˈzeːən/", "esApprox": "«tsu-ÉRST JÁ-be ich LÁN-ge ge-SHLÁ-fen, dan bin ich ÁIN-kau-fen ge-GÁN-guen, unt tsum shlus JÁ-be ich ÁI-nen film ge-ZÉ-en»", "focus": "Tres conectores encadenados (zuerst, dann, zum Schluss), cada uno abriendo su propia frase en Perfekt.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["conversacion"], "difficulty": 2, "speak": "Danach habe ich gekocht, und insgesamt war es ein erlebnisreiches Wochenende.", "es": "Después de eso cociné, y en general fue un fin de semana lleno de experiencias.", "ipa": "/daˈnaːx ˈhaːbə ɪç ɡəˈkɔxt ʊnt ˌɪnsɡəˈzamt vaːɐ̯ ɛs aɪ̯n ɛɐ̯ˈleːpnɪsʁaɪ̯çəs ˈvɔxn̩ˌʔɛndə/", "esApprox": "«da-NACH JÁ-be ich ge-KOCHT, unt ins-ge-ZAMT var es ain er-LÉB-nis-rái-ches VO-jen-en-de»", "focus": "danach e insgesamt: cierre de la narración con una valoración general.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["conversacion"], "difficulty": 2, "prompt": "Te piden que cuentes tu fin de semana. Usa al menos dos conectores de secuencia.", "modelAnswer": "Zuerst habe ich lange geschlafen, dann bin ich einkaufen gegangen.", "alsoValid": ["Zuerst war ich zu Hause, danach habe ich Freunde getroffen."], "speak": "Zuerst habe ich lange geschlafen, dann bin ich einkaufen gegangen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["conversacion"], "difficulty": 2, "prompt": "Clasifica cada conector según el momento de la narración", "buckets": ["Principio", "Final"], "items": [
+      { "text": "zuerst", "bucket": 0 },
+      { "text": "zum Schluss", "bucket": 1 },
+      { "text": "dann", "bucket": 0 },
+      { "text": "insgesamt", "bucket": 1 }
+    ], "explain": "zuerst y dann abren o continúan la narración; zum Schluss e insgesamt la cierran." },
+    { "id": "e19", "type": "error_correction", "tags": ["conversacion"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Zuerst ich habe lange geschlafen.", "accept": ["Zuerst habe ich lange geschlafen"], "audio": "Zuerst habe ich lange geschlafen.", "explain": "zuerst ocupa la posición 1, así que el verbo (habe) va en posición 2, antes del sujeto." },
+    { "id": "e20", "type": "mcq", "tags": ["conversacion"], "difficulty": 2, "prompt": "«Zuerst habe ich lange geschlafen. Dann bin ich einkaufen gegangen. Danach habe ich gekocht, und zum Schluss habe ich einen Film gesehen. Insgesamt war es ein erlebnisreiches Wochenende.» ¿Qué hizo la persona justo después de dormir?", "options": ["Cocinó", "Fue de compras", "Vio una película", "Salió con amigos"], "answer": 1, "explain": "«Dann bin ich einkaufen gegangen» = luego fui de compras, justo después de zuerst (dormir)." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "zuerst", "es": "primero", "esApprox": "«tsu-ÉRST»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "dann", "es": "luego", "esApprox": "«dan»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "danach", "es": "después de eso", "esApprox": "«da-NACH»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "zum Schluss", "es": "por último", "esApprox": "«tsum shlus»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "insgesamt", "es": "en total, en general", "esApprox": "«ins-ge-ZAMT»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "erlebnisreich", "es": "lleno de experiencias", "esApprox": "«er-LÉB-nis-raich»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Zuerst habe ich lange geschlafen, dann bin ich einkaufen gegangen, und zum Schluss habe ich einen Film gesehen.", "es": "Primero dormí hasta tarde, luego fui de compras, y por último vi una película.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Danach habe ich gekocht, und insgesamt war es ein erlebnisreiches Wochenende.", "es": "Después de eso cociné, y en general fue un fin de semana lleno de experiencias.", "from": "e16" }
+  ]
+}

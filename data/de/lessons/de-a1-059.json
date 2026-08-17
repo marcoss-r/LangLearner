@@ -1,0 +1,371 @@
+{
+  "id": "de-a1-059",
+  "lang": "de",
+  "level": "A1",
+  "order": 59,
+  "title": "Las profesiones y el trabajo",
+  "objectives": [
+    "Aprender el patrón masculino/femenino de las profesiones: -er → -erin (Lehrer → Lehrerin)",
+    "Usar arbeiten als + profesión para decir a qué te dedicas",
+    "Reconocer que algunas profesiones femeninas añaden Umlaut además de -in: Arzt → Ärztin"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El patrón -in para el femenino de las profesiones",
+      "body": "La mayoría de profesiones alemanas forman el femenino añadiendo -in a la forma masculina: der Lehrer → die Lehrerin. Algunas, como Arzt, además añaden un Umlaut: der Arzt → die Ärztin. Para decir en qué trabajas, usa arbeiten als (trabajar como) + la profesión sin artículo.",
+      "examples": [
+        { "target": "Ich arbeite als Lehrer.", "es": "Trabajo como profesor.", "note": "arbeiten als + profesión, sin artículo" },
+        { "target": "Sie arbeitet als Ärztin.", "es": "Ella trabaja como médica.", "note": "Arzt → Ärztin, con Umlaut" },
+        { "target": "Er ist Ingenieur.", "es": "Él es ingeniero.", "note": "sein + profesión, también sin artículo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Profesiones: masculino y femenino",
+      "headers": ["Masculino", "Femenino", "Español"],
+      "rows": [
+        ["der Lehrer", "die Lehrerin", "profesor / profesora"],
+        ["der Arzt", "die Ärztin", "médico / médica"],
+        ["der Ingenieur", "die Ingenieurin", "ingeniero / ingeniera"],
+        ["der Chef", "die Chefin", "jefe / jefa"]
+      ],
+      "note": "Con sein y arbeiten als, la profesión no lleva artículo: Ich bin Lehrer, no Ich bin ein Lehrer."
+    },
+    {
+      "type": "tip",
+      "body": "El patrón -in es tan regular que puedes aplicarlo a casi cualquier profesión nueva que aprendas: si sabes la forma masculina, ya sabes construir la femenina en la mayoría de los casos."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "der Ingenieur",
+      "es": "el ingeniero",
+      "ipa": "/ɪnʒenˈjøːɐ̯/",
+      "esApprox": "«in-shen-YÖR»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Ingenieure",
+      "example": { "target": "Er ist Ingenieur.", "es": "Él es ingeniero." }
+    },
+    {
+      "id": "v2",
+      "target": "die Ingenieurin",
+      "es": "la ingeniera",
+      "ipa": "/ɪnʒenˈjøːʁɪn/",
+      "esApprox": "«in-shen-YÖ-rin»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Ingenieurinnen",
+      "example": { "target": "Sie ist Ingenieurin.", "es": "Ella es ingeniera." }
+    },
+    {
+      "id": "v3",
+      "target": "die Lehrerin",
+      "es": "la profesora",
+      "ipa": "/ˈleːʁəʁɪn/",
+      "esApprox": "«LÉ-re-rin»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Lehrerinnen",
+      "example": { "target": "Sie arbeitet als Lehrerin.", "es": "Ella trabaja como profesora." }
+    },
+    {
+      "id": "v4",
+      "target": "die Ärztin",
+      "es": "la médica",
+      "ipa": "/ˈɛːɐ̯tstɪn/",
+      "esApprox": "«ERTS-tin»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Ärztinnen",
+      "example": { "target": "Sie arbeitet als Ärztin.", "es": "Ella trabaja como médica." }
+    },
+    {
+      "id": "v5",
+      "target": "die Firma",
+      "es": "la empresa",
+      "ipa": "/ˈfɪʁma/",
+      "esApprox": "«FIR-ma»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Firmen",
+      "example": { "target": "Die Firma ist modern.", "es": "La empresa es moderna." }
+    },
+    {
+      "id": "v6",
+      "target": "der Chef",
+      "es": "el jefe",
+      "ipa": "/ʃɛf/",
+      "esApprox": "«shef»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Chefs",
+      "example": { "target": "Der Chef ist nett.", "es": "El jefe es simpático." }
+    },
+    {
+      "id": "v7",
+      "target": "arbeiten als",
+      "es": "trabajar como",
+      "ipa": "/ˈaʁbaɪ̯tən als/",
+      "esApprox": "«AR-bai-ten als»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Ich arbeite als Lehrer.", "es": "Trabajo como profesor." }
+    },
+    {
+      "id": "v8",
+      "target": "der Beruf",
+      "es": "la profesión",
+      "ipa": "/bəˈʁuːf/",
+      "esApprox": "«be-RUF»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Berufe",
+      "example": { "target": "Was ist dein Beruf?", "es": "¿Cuál es tu profesión?" }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["profesiones"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «médica» en alemán?",
+      "options": ["Lehrerin", "Ärztin", "Ingenieurin", "Chefin"],
+      "answer": 1,
+      "explain": "die Ärztin = la médica."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «trabajo como profesor»?",
+      "options": ["Ich bin ein Lehrer.", "Ich arbeite als Lehrer.", "Ich habe Lehrer.", "Ich mache Lehrer."],
+      "answer": 1,
+      "explain": "arbeiten als + profesión, sin artículo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["profesiones"],
+      "difficulty": 1,
+      "statement": "La mayoría de profesiones femeninas se forman añadiendo -in a la masculina.",
+      "answer": true,
+      "explain": "Lehrer → Lehrerin, Ingenieur → Ingenieurin."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "statement": "El femenino de Arzt es Arztin, sin Umlaut.",
+      "answer": false,
+      "explain": "El femenino de Arzt es Ärztin, con Umlaut añadido."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas NO es una profesión?",
+      "options": ["Lehrer", "Ärztin", "Firma", "Ingenieur"],
+      "answer": 2,
+      "explain": "Firma es la empresa, no una profesión."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Une cada profesión masculina con su forma femenina",
+      "left": ["Lehrer", "Arzt", "Ingenieur", "Chef"],
+      "right": ["Chefin", "Lehrerin", "Ärztin", "Ingenieurin"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Cuatro pares de profesiones, masculino y femenino."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Trabajo como profesor.",
+      "accept": ["Ich arbeite als Lehrer"],
+      "hintWords": ["ich arbeite als Lehrer"],
+      "strictAccents": false,
+      "audio": "Ich arbeite als Lehrer.",
+      "explain": "arbeiten als + profesión, sin artículo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Ella trabaja como médica.",
+      "accept": ["Sie arbeitet als Ärztin"],
+      "hintWords": ["sie arbeitet als Ärztin"],
+      "strictAccents": false,
+      "audio": "Sie arbeitet als Ärztin.",
+      "explain": "Ärztin: femenino de Arzt, con Umlaut."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Completa con la profesión correcta",
+      "text": "Er ist ___. Sie ist ___.",
+      "blanks": [{ "accept": ["Ingenieur"] }, { "accept": ["Ingenieurin"] }],
+      "bank": ["Ingenieur", "Ingenieurin", "Chef"],
+      "explain": "Ingenieur (masculino); Ingenieurin (femenino)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Cuál es tu profesión?»",
+      "tokens": ["Beruf", "ist", "Was", "dein"],
+      "answer": ["Was", "ist", "dein", "Beruf"],
+      "audio": "Was ist dein Beruf?",
+      "explain": "Was ist + dein Beruf, con el posesivo sin -e (Beruf es masculino)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["profesiones"],
+      "difficulty": 1,
+      "prompt": "Der Chef ist nett.",
+      "accept": ["El jefe es simpático."],
+      "strictAccents": false,
+      "audio": "Der Chef ist nett.",
+      "explain": "der Chef = el jefe."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Was ist dein Beruf?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ich arbeite als Lehrer."], "hint": "responde que trabajas como profesor" },
+        { "who": "Anna", "text": "Interessant!", "speak": true }
+      ],
+      "explain": "arbeiten als + profesión, sin artículo delante."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["trabajo"],
+      "difficulty": 1,
+      "speak": "Ich arbeite als Lehrer.",
+      "mode": "write",
+      "accept": ["Ich arbeite als Lehrer"],
+      "showTextAfter": true,
+      "explain": "Ich arbeite als Lehrer = trabajo como profesor."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "speak": "Sie arbeitet als Ärztin.",
+      "mode": "choose",
+      "options": ["Sie arbeitet als Ärztin.", "Sie arbeitet als Lehrerin.", "Sie arbeitet als Ingenieurin."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Ärztin, Lehrerin e Ingenieurin suenan claramente distintas."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "speak": "Er ist Lehrer, und sie ist Ärztin.",
+      "es": "Él es profesor, y ella es médica.",
+      "ipa": "/eːɐ̯ ɪst ˈleːʁɐ ʊnt ziː ɪst ˈɛːɐ̯tstɪn/",
+      "esApprox": "«er ist LÉ-rer unt zi ist ERTS-tin»",
+      "focus": "Ärztin combina el Umlaut con la terminación -in: dos marcas de femenino en la misma palabra.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "speak": "Ich arbeite als Ingenieurin, und mein Chef ist nett.",
+      "es": "Trabajo como ingeniera, y mi jefe es simpático.",
+      "ipa": "/ɪç ˈaʁbaɪ̯tə als ɪnʒenˈjøːʁɪn ʊnt maɪ̯n ʃɛf ɪst nɛt/",
+      "esApprox": "«ich AR-bai-te als in-shen-YÖ-rin unt main shef ist net»",
+      "focus": "Ingenieurin lleva un préstamo del francés: la j suena como «sh».",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Te preguntan cuál es tu profesión. Responde que trabajas como ingeniero.",
+      "modelAnswer": "Ich arbeite als Ingenieur.",
+      "alsoValid": ["Ich bin Ingenieur."],
+      "speak": "Ich arbeite als Ingenieur.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada profesión: ¿masculina o femenina?",
+      "buckets": ["Masculino", "Femenino"],
+      "items": [
+        { "text": "Lehrer", "bucket": 0 },
+        { "text": "Lehrerin", "bucket": 1 },
+        { "text": "Arzt", "bucket": 0 },
+        { "text": "Ärztin", "bucket": 1 },
+        { "text": "Ingenieur", "bucket": 0 }
+      ],
+      "explain": "El patrón -in marca siempre el femenino de la profesión."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich bin ein Lehrer.",
+      "accept": ["Ich bin Lehrer"],
+      "audio": "Ich bin Lehrer.",
+      "explain": "Con sein, la profesión va sin artículo: Ich bin Lehrer, no ein Lehrer."
+    },
+    {
+      "id": "e20",
+      "type": "gender_article",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Firma", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" },
+        { "word": "Chef", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Beruf", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Ärztin", "options": ["der", "die", "das"], "answer": 1, "hint": "es femenino" }
+      ],
+      "explain": "Firma y Ärztin son femeninas; Chef y Beruf, masculinos."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Ingenieur", "es": "el ingeniero", "esApprox": "«in-shen-YÖR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Ingenieurin", "es": "la ingeniera", "esApprox": "«in-shen-YÖ-rin»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Lehrerin", "es": "la profesora", "esApprox": "«LÉ-re-rin»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Ärztin", "es": "la médica", "esApprox": "«ERTS-tin»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Firma", "es": "la empresa", "esApprox": "«FIR-ma»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Chef", "es": "el jefe", "esApprox": "«shef»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "arbeiten als", "es": "trabajar como", "esApprox": "«AR-bai-ten als»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "der Beruf", "es": "la profesión", "esApprox": "«be-RUF»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Er ist Lehrer, und sie ist Ärztin.", "es": "Él es profesor, y ella es médica.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Ich arbeite als Ingenieurin, und mein Chef ist nett.", "es": "Trabajo como ingeniera, y mi jefe es simpático.", "from": "e16" }
+  ]
+}

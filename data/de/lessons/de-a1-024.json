@@ -1,0 +1,328 @@
+{
+  "id": "de-a1-024",
+  "lang": "de",
+  "level": "A1",
+  "order": 24,
+  "title": "El acusativo: qué recibe la acción",
+  "objectives": [
+    "Reconocer el acusativo como el caso del objeto directo: qué o quién recibe la acción",
+    "Aplicar el cambio der → den y ein → einen, que solo afecta al masculino",
+    "Confirmar que femenino, neutro y plural no cambian nada entre nominativo y acusativo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El segundo caso: solo cambia el masculino, y solo el artículo",
+      "body": "El Akkusativ marca el objeto directo: lo que recibe la acción del verbo. La buena noticia es que es el caso más fácil de aplicar, porque solo afecta al masculino, y solo al artículo: der se convierte en den, ein se convierte en einen. Femenino, neutro y plural se quedan exactamente igual que en nominativo.",
+      "examples": [
+        { "target": "Ich sehe den Mann.", "es": "Veo al hombre.", "note": "der Mann → den Mann (masculino, cambia)" },
+        { "target": "Ich sehe die Frau.", "es": "Veo a la mujer.", "note": "die Frau → die Frau (femenino, no cambia)" },
+        { "target": "Ich kaufe einen Apfel.", "es": "Compro una manzana.", "note": "ein Apfel → einen Apfel" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Nominativ vs. Akkusativ: solo una fila cambia",
+      "headers": ["Género", "Nominativ (sujeto)", "Akkusativ (objeto directo)"],
+      "rows": [
+        ["masculino", "der / ein", "den / einen"],
+        ["femenino", "die / eine", "die / eine (igual)"],
+        ["neutro", "das / ein", "das / ein (igual)"],
+        ["plural", "die", "die (igual)"]
+      ],
+      "note": "De las cuatro filas, solo la masculina cambia. El resto de la tabla es idéntica a la del nominativo."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: no olvides cambiar el artículo masculino",
+      "items": [
+        { "wrong": "Ich sehe der Mann. (dejando el artículo en nominativo)", "right": "Ich sehe den Mann.", "why": "Mann recibe la acción de ver: es el objeto directo. Al ser masculino, der tiene que cambiar a den. Es el error más frecuente de esta clase: olvidarse de aplicar el cambio precisamente donde sí hace falta." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Pregúntate «¿qué o a quién?» después del verbo: la respuesta va en acusativo. Si esa respuesta es un sustantivo masculino, cambia der/ein a den/einen; en cualquier otro género, no toques nada."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "sehen",
+      "es": "ver",
+      "ipa": "/ˈzeːən/",
+      "esApprox": "«ZÉ-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich sehe den Mann.", "es": "Veo al hombre." }
+    },
+    {
+      "id": "v2",
+      "target": "der Mann",
+      "es": "el hombre",
+      "ipa": "/man/",
+      "esApprox": "«man»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Männer",
+      "example": { "target": "Ich sehe den Mann.", "es": "Veo al hombre." }
+    },
+    {
+      "id": "v3",
+      "target": "der Freund",
+      "es": "el amigo",
+      "ipa": "/fʁɔɪ̯nt/",
+      "esApprox": "«froint»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Freunde",
+      "example": { "target": "Ich sehe den Freund.", "es": "Veo al amigo." }
+    },
+    {
+      "id": "v4",
+      "target": "der Apfel",
+      "es": "la manzana",
+      "ipa": "/ˈapfl̩/",
+      "esApprox": "«AP-fel»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Äpfel",
+      "example": { "target": "Ich kaufe einen Apfel.", "es": "Compro una manzana." }
+    },
+    {
+      "id": "v5",
+      "target": "trinken",
+      "es": "beber",
+      "ipa": "/ˈtʁɪŋkən/",
+      "esApprox": "«TRIN-ken»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich trinke Wasser.", "es": "Bebo agua." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "¿Qué género cambia su artículo en acusativo?",
+      "options": ["femenino", "neutro", "masculino", "todos"],
+      "answer": 2,
+      "explain": "Solo el masculino cambia: der → den, ein → einen."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["acusativo"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es el acusativo de «der Mann»?",
+      "options": ["der Mann", "die Mann", "den Mann", "das Mann"],
+      "answer": 2,
+      "explain": "der → den en acusativo."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["acusativo"],
+      "difficulty": 1,
+      "statement": "El artículo femenino die es igual en nominativo y en acusativo.",
+      "answer": true,
+      "explain": "Femenino, neutro y plural no cambian nada en acusativo."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["acusativo"],
+      "difficulty": 1,
+      "statement": "Ein cambia a eine en acusativo masculino.",
+      "answer": false,
+      "explain": "Ein cambia a einen en acusativo masculino, no a eine."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos NO es un cambio correcto de nominativo a acusativo?",
+      "options": ["der Mann → den Mann", "die Frau → die Frau", "das Kind → das Kind", "ein Freund → ein Freund"],
+      "answer": 3,
+      "explain": "Debería ser ein Freund → einen Freund: Freund es masculino, así que ein sí cambia."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Une cada sustantivo en nominativo con su forma en acusativo",
+      "left": ["der Apfel", "die Katze", "das Buch", "der Freund"],
+      "right": ["den Apfel", "die Katze", "das Buch", "den Freund"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Solo der Apfel y der Freund cambian, por ser masculinos."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Veo al hombre.",
+      "accept": ["Ich sehe den Mann"],
+      "hintWords": ["ich sehe den Mann"],
+      "strictAccents": false,
+      "audio": "Ich sehe den Mann.",
+      "explain": "Mann recibe la acción de ver: den Mann, en acusativo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Compro una manzana.",
+      "accept": ["Ich kaufe einen Apfel"],
+      "hintWords": ["ich kaufe einen Apfel"],
+      "strictAccents": false,
+      "audio": "Ich kaufe einen Apfel.",
+      "explain": "Apfel es masculino: ein Apfel → einen Apfel en acusativo."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo en acusativo",
+      "text": "Ich sehe ___ Mann. Ich kaufe ___ Apfel.",
+      "blanks": [{ "accept": ["den"] }, { "accept": ["einen"] }],
+      "bank": ["den", "einen", "der"],
+      "explain": "den Mann (artículo definido) y einen Apfel (artículo indefinido), ambos masculinos en acusativo."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Veo al amigo»",
+      "tokens": ["Freund", "Ich", "den", "sehe"],
+      "answer": ["Ich", "sehe", "den", "Freund"],
+      "audio": "Ich sehe den Freund.",
+      "explain": "Ich + sehe + den Freund (acusativo)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["acusativo"],
+      "difficulty": 1,
+      "prompt": "Ich sehe die Katze.",
+      "accept": ["Veo al gato.", "Veo a la gata.", "Veo el gato."],
+      "strictAccents": false,
+      "audio": "Ich sehe die Katze.",
+      "explain": "die Katze no cambia en acusativo, por ser femenino."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du einen Apfel?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich habe einen Apfel."], "hint": "responde que sí, que tienes una manzana" },
+        { "who": "Anna", "text": "Lecker!", "speak": true }
+      ],
+      "explain": "einen Apfel: haben rige acusativo, y Apfel es masculino."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "speak": "Ich sehe den Mann.",
+      "mode": "write",
+      "accept": ["Ich sehe den Mann"],
+      "showTextAfter": true,
+      "explain": "Ich sehe den Mann = veo al hombre."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "speak": "Ich kaufe einen Apfel.",
+      "mode": "choose",
+      "options": ["Ich kaufe einen Apfel.", "Ich kaufe eine Apfel.", "Ich kaufe der Apfel."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Solo einen Apfel es correcto: eine y der no son formas válidas de acusativo masculino."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "speak": "Ich sehe den Mann und den Freund.",
+      "es": "Veo al hombre y al amigo.",
+      "ipa": "/ɪç ˈzeːə deːn man ʊnt deːn fʁɔɪ̯nt/",
+      "esApprox": "«ich ZÉ-e den man unt den froint»",
+      "focus": "den se pronuncia con una e cerrada y clara: no lo confundas con der.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "speak": "Ich trinke Wasser, und ich kaufe einen Apfel.",
+      "es": "Bebo agua, y compro una manzana.",
+      "ipa": "/ɪç ˈtʁɪŋkə ˈvasɐ ʊnt ɪç ˈkaʊ̯fə ˈaɪ̯nən ˈapfl̩/",
+      "esApprox": "«ich TRIN-ke VA-ser unt ich KAU-fe AI-nen AP-fel»",
+      "focus": "einen suena «AI-nen», con dos sílabas claras: no lo aplanes a «ain».",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si tienes una manzana. Responde que sí, que tienes una manzana.",
+      "modelAnswer": "Ja, ich habe einen Apfel.",
+      "alsoValid": ["Ich habe einen Apfel."],
+      "speak": "Ja, ich habe einen Apfel.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada sustantivo: ¿cambia su artículo en acusativo o no?",
+      "buckets": ["Cambia en acusativo", "No cambia en acusativo"],
+      "items": [
+        { "text": "der Mann", "bucket": 0 },
+        { "text": "die Frau", "bucket": 1 },
+        { "text": "das Kind", "bucket": 1 },
+        { "text": "der Freund", "bucket": 0 },
+        { "text": "die Katze", "bucket": 1 }
+      ],
+      "explain": "Solo los sustantivos masculinos cambian su artículo en acusativo."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["acusativo"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich sehe der Mann.",
+      "accept": ["Ich sehe den Mann"],
+      "audio": "Ich sehe den Mann.",
+      "explain": "Mann es el objeto directo (acusativo): der debe cambiar a den."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "sehen", "es": "ver", "esApprox": "«ZÉ-en»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Mann", "es": "el hombre", "esApprox": "«man»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Freund", "es": "el amigo", "esApprox": "«froint»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Apfel", "es": "la manzana", "esApprox": "«AP-fel»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "trinken", "es": "beber", "esApprox": "«TRIN-ken»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Ich sehe den Mann und den Freund.", "es": "Veo al hombre y al amigo.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Ich trinke Wasser, und ich kaufe einen Apfel.", "es": "Bebo agua, y compro una manzana.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Ich habe einen Apfel.", "es": "Tengo una manzana.", "from": "e17" }
+  ]
+}

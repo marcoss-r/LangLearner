@@ -1,0 +1,250 @@
+{
+  "id": "fr-b1-227",
+  "lang": "fr",
+  "level": "B1",
+  "order": 227,
+  "title": "La política y las instituciones",
+  "objectives": [
+    "Usar vocabulario básico de política: le gouvernement, voter, un parti politique",
+    "Nombrar instituciones francesas: le Parlement, la mairie",
+    "Practicar frases sobre derechos y deberes del ciudadano"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Hablar de política sin tecnicismos",
+      "body": "No hace falta ser experto para hablar de política en francés: este vocabulario básico te permite seguir una noticia o participar en una conversación sobre el tema."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario político",
+      "headers": ["Expresión", "Significado"],
+      "rows": [
+        ["le gouvernement", "el gobierno"],
+        ["voter aux élections", "votar en las elecciones"],
+        ["un parti politique", "un partido político"],
+        ["le Parlement", "el Parlamento"],
+        ["une loi", "una ley"],
+        ["le maire / la mairie", "el alcalde / el ayuntamiento"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Citoyen y impôts",
+      "body": "Un citoyen (ciudadano) tiene derechos y deberes, entre ellos payer les impôts (pagar los impuestos) y voter aux élections."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "le gouvernement", "es": "el gobierno", "ipa": "/lə gu.vɛʁ.nə.mɑ̃/", "esApprox": "«le gu-ver-ne-MAN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v2", "target": "voter aux élections", "es": "votar en las elecciones", "ipa": "/vɔ.te o.z‿e.lɛk.sjɔ̃/", "esApprox": "«vo-TÉ o-ze-lek-SIÓN»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "un parti politique", "es": "un partido político", "ipa": "/œ̃ paʁ.ti pɔ.li.tik/", "esApprox": "«un par-TÍ po-li-TIK»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v4", "target": "le Parlement", "es": "el Parlamento", "ipa": "/lə paʁ.lə.mɑ̃/", "esApprox": "«le par-le-MAN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v5", "target": "une loi", "es": "una ley", "ipa": "/yn lwa/", "esApprox": "«ün LUÁ»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v6", "target": "le maire / la mairie", "es": "el alcalde / el ayuntamiento", "ipa": "/lə mɛʁ la mɛ.ʁi/", "esApprox": "«le MER la me-RÍ»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v7", "target": "un citoyen / une citoyenne", "es": "un ciudadano / una ciudadana", "ipa": "/œ̃ si.twa.jɛ̃ yn si.twa.jɛn/", "esApprox": "«un si-tuá-YIN ün si-tuá-YEN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v8", "target": "les impôts", "es": "los impuestos", "ipa": "/le.z‿ɛ̃.po/", "esApprox": "«le-zin-PO»", "pos": "sustantivo", "gender": "m" }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «votar en las elecciones»?",
+      "options": ["voter aux élections", "payer les impôts", "voter le Parlement", "élire le gouvernement"],
+      "answer": 0,
+      "explain": "Voter aux élections es votar en las elecciones."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "¿Dónde trabaja le maire?",
+      "options": ["au Parlement", "à la mairie", "au gouvernement", "dans un parti"],
+      "answer": 1,
+      "explain": "Le maire trabaja en la mairie, el ayuntamiento."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "statement": "Une loi es aprobada, entre otros, por le Parlement.",
+      "answer": true,
+      "explain": "El Parlamento vota y aprueba las leyes."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "statement": "Les impôts es lo mismo que le gouvernement.",
+      "answer": false,
+      "explain": "Les impôts son los impuestos; le gouvernement es el gobierno."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["le gouvernement", "un parti politique", "le Parlement", "un citoyen"],
+      "right": ["el gobierno", "un partido político", "el Parlamento", "un ciudadano"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Vocabulario básico de instituciones políticas."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "Cada ciudadano tiene el deber de votar en las elecciones.",
+      "accept": ["Chaque citoyen a le devoir de voter aux élections"],
+      "hintWords": ["chaque citoyen a le devoir", "de voter aux élections"],
+      "strictAccents": true,
+      "audio": "Chaque citoyen a le devoir de voter aux élections.",
+      "explain": "Un citoyen + voter aux élections."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "El Parlamento votó una nueva ley sobre los impuestos.",
+      "accept": ["Le Parlement a voté une nouvelle loi sur les impôts"],
+      "hintWords": ["le Parlement a voté une nouvelle loi", "sur les impôts"],
+      "strictAccents": true,
+      "audio": "Le Parlement a voté une nouvelle loi sur les impôts.",
+      "explain": "Le Parlement + une loi + les impôts."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Le ___ a proposé une nouvelle loi, et le ___ va voter la semaine prochaine.",
+      "blanks": [{ "accept": ["gouvernement"] }, { "accept": ["Parlement"] }],
+      "bank": ["gouvernement", "Parlement", "maire"],
+      "explain": "Le gouvernement propone leyes; le Parlement las vota."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El alcalde trabaja en el ayuntamiento»",
+      "tokens": ["à la mairie", "Le maire travaille"],
+      "answer": ["Le maire travaille", "à la mairie"],
+      "audio": "Le maire travaille à la mairie.",
+      "explain": "Le maire + la mairie."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "Chaque citoyen doit payer ses impôts, et chacun a le droit de voter aux élections.",
+      "accept": ["Cada ciudadano debe pagar sus impuestos, y cada uno tiene derecho a votar en las elecciones."],
+      "strictAccents": false,
+      "audio": "Chaque citoyen doit payer ses impôts, et chacun a le droit de voter aux élections.",
+      "explain": "Deberes y derechos del ciudadano combinados."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre las elecciones",
+      "turns": [
+        { "who": "Léa", "text": "Tu vas voter aux élections ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, c'est important de voter.", "Je ne sais pas encore quel parti politique choisir."], "hint": "usa vocabulario de política" },
+        { "who": "Léa", "text": "Je suis d'accord.", "speak": true }
+      ],
+      "explain": "Repaso combinado del vocabulario político."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "speak": "Le gouvernement a proposé une nouvelle loi, et le Parlement va voter la semaine prochaine.",
+      "mode": "write",
+      "accept": ["Le gouvernement a proposé une nouvelle loi, et le Parlement va voter la semaine prochaine"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario político."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["politica"],
+      "difficulty": 1,
+      "speak": "un citoyen",
+      "mode": "choose",
+      "options": ["un parti politique", "un citoyen", "le gouvernement", "une loi"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un citoyen es un ciudadano."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["politica"],
+      "difficulty": 3,
+      "speak": "Chaque citoyen doit payer ses impôts et voter aux élections. Le gouvernement propose des lois, et le Parlement les vote.",
+      "es": "Cada ciudadano debe pagar sus impuestos y votar en las elecciones. El gobierno propone leyes, y el Parlamento las vota.",
+      "ipa": "/ʃak si.twa.jɛ̃ dwa pe.je se.z‿ɛ̃.po e vɔ.te o.z‿e.lɛk.sjɔ̃ lə gu.vɛʁ.nə.mɑ̃ pʁɔ.poz de lwa e lə paʁ.lə.mɑ̃ le vɔt/",
+      "esApprox": "«shak si-tuá-YIN duá pe-YÉ se-zin-PO e vo-TÉ o-ze-lek-SIÓN le gu-ver-ne-MAN pro-POZ de LUÁ e le par-le-MAN le VOT»",
+      "focus": "Deberes ciudadanos e instituciones políticas encadenados.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "Explica por qué es importante votar, usando el vocabulario político.",
+      "modelAnswer": "Chaque citoyen a le devoir de voter aux élections, pour choisir le gouvernement.",
+      "alsoValid": ["Le maire travaille à la mairie pour la ville."],
+      "speak": "Chaque citoyen a le devoir de voter aux élections, pour choisir le gouvernement.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "¿Es una institución o una acción del ciudadano?",
+      "buckets": ["Institución", "Acción del ciudadano"],
+      "items": [
+        { "text": "le Parlement", "bucket": 0 },
+        { "text": "voter aux élections", "bucket": 1 },
+        { "text": "la mairie", "bucket": 0 },
+        { "text": "payer les impôts", "bucket": 1 }
+      ],
+      "explain": "Le Parlement y la mairie son instituciones; voter y payer les impôts son acciones del ciudadano."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["politica"],
+      "difficulty": 2,
+      "prompt": "Hay un error: voter pide la preposición aux, no le. Corrige la frase entera.",
+      "wrong": "Je vais voter les élections.",
+      "accept": ["Je vais voter aux élections"],
+      "audio": "Je vais voter aux élections.",
+      "explain": "Voter aux élections exige la preposición à (contraída en aux)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "le gouvernement", "es": "el gobierno", "esApprox": "«le gu-ver-ne-MAN»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "voter aux élections", "es": "votar en las elecciones", "esApprox": "«vo-TÉ o-ze-lek-SIÓN»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un parti politique", "es": "un partido político", "esApprox": "«un par-TÍ po-li-TIK»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le Parlement", "es": "el Parlamento", "esApprox": "«le par-le-MAN»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "une loi", "es": "una ley", "esApprox": "«ün LUÁ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "les impôts", "es": "los impuestos", "esApprox": "«le-zin-PO»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Chaque citoyen a le devoir de voter aux élections.", "es": "Cada ciudadano tiene el deber de votar en las elecciones.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Le Parlement a voté une nouvelle loi sur les impôts.", "es": "El Parlamento votó una nueva ley sobre los impuestos.", "from": "e7" }
+  ]
+}

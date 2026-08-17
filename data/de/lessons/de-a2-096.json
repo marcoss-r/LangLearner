@@ -1,0 +1,90 @@
+{
+  "id": "de-a2-096",
+  "lang": "de",
+  "level": "A2",
+  "order": 96,
+  "title": "Marcadores de tiempo del pasado: gestern, letzte Woche, vor...",
+  "objectives": [
+    "Ampliar los marcadores de tiempo pasado: vorgestern, neulich, letztes Jahr, letzten Monat",
+    "Usar vor + dativo para decir «hace...» (vor zwei Tagen = hace dos días)",
+    "Combinar estos marcadores con el Perfekt en frases completas"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "vor + dativo: «hace...»",
+      "body": "Para decir «hace X tiempo», el alemán usa vor + dativo: «vor zwei Tagen» (hace dos días), «vor einer Woche» (hace una semana), «vor einem Jahr» (hace un año). Ya conocías vor como preposición espacial de dos direcciones (clase 42); aquí funciona siempre con dativo, sin distinción de movimiento.",
+      "examples": [
+        { "target": "Ich habe sie vor zwei Tagen gesehen.", "es": "La vi hace dos días." },
+        { "target": "Vor einem Jahr habe ich in Berlin gewohnt.", "es": "Hace un año vivía en Berlín." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Más marcadores de tiempo pasado",
+      "headers": ["Alemán", "Español"],
+      "rows": [
+        ["vorgestern", "anteayer"],
+        ["neulich", "hace poco, el otro día"],
+        ["letztes Jahr", "el año pasado"],
+        ["letzten Monat", "el mes pasado"],
+        ["vor + dativo", "hace... (tiempo)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Fíjate en la declinación de letzte: letzte Woche (femenino), letztes Jahr (neutro), letzten Monat (masculino, acusativo de tiempo). Concuerda como un ein-word con el género del sustantivo que acompaña."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "vorgestern", "es": "anteayer", "ipa": "/ˈfoːɐ̯ɡɛstɐn/", "esApprox": "«FOR-gues-tern»", "pos": "adverbio", "gender": null, "example": { "target": "Vorgestern war ich krank.", "es": "Anteayer estaba enfermo." } },
+    { "id": "v2", "target": "neulich", "es": "hace poco, el otro día", "ipa": "/ˈnɔɪ̯lɪç/", "esApprox": "«NÓI-lich»", "pos": "adverbio", "gender": null, "example": { "target": "Neulich habe ich einen alten Freund getroffen.", "es": "El otro día quedé con un viejo amigo." } },
+    { "id": "v3", "target": "letztes Jahr", "es": "el año pasado", "ipa": "/ˈlɛtstəs jaːɐ̯/", "esApprox": "«LETS-tes yar»", "pos": "expresión", "gender": null, "example": { "target": "Letztes Jahr war ich in Italien.", "es": "El año pasado estuve en Italia." } },
+    { "id": "v4", "target": "letzten Monat", "es": "el mes pasado", "ipa": "/ˈlɛtstn̩ ˈmoːnaːt/", "esApprox": "«LETS-ten MÓ-nat»", "pos": "expresión", "gender": null, "example": { "target": "Letzten Monat habe ich viel gearbeitet.", "es": "El mes pasado trabajé mucho." } },
+    { "id": "v5", "target": "vor", "es": "hace (+ dativo, tiempo)", "ipa": "/foːɐ̯/", "esApprox": "«for»", "pos": "preposición", "gender": null, "example": { "target": "Vor zwei Tagen habe ich sie gesehen.", "es": "La vi hace dos días." } },
+    { "id": "v6", "target": "der Tag", "es": "el día", "ipa": "/taːk/", "esApprox": "«tak»", "pos": "sustantivo", "gender": "m", "plural": "die Tage", "example": { "target": "Vor zwei Tagen.", "es": "Hace dos días." } },
+    { "id": "v7", "target": "damals", "es": "en aquella época", "ipa": "/ˈdaːmaːls/", "esApprox": "«DÁ-mals»", "pos": "adverbio", "gender": null, "example": { "target": "Damals war ich jünger.", "es": "En aquella época era más joven." } },
+    { "id": "v8", "target": "kürzlich", "es": "recientemente", "ipa": "/ˈkʏʁtslɪç/", "esApprox": "«KÜRTS-lich»", "pos": "adverbio", "gender": null, "example": { "target": "Kürzlich habe ich ein Buch gelesen.", "es": "Recientemente he leído un libro." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["marcadores-tiempo"], "difficulty": 1, "prompt": "¿Cómo se dice «anteayer»?", "options": ["gestern", "vorgestern", "neulich", "damals"], "answer": 1, "explain": "vorgestern = anteayer." },
+    { "id": "e2", "type": "mcq", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "¿Qué caso rige «vor» para decir «hace...»?", "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"], "answer": 2, "explain": "vor + dativo: vor zwei Tagen, vor einer Woche." },
+    { "id": "e3", "type": "true_false", "tags": ["marcadores-tiempo"], "difficulty": 2, "statement": "«neulich» significa «hace poco» o «el otro día».", "answer": true, "explain": "neulich = hace poco, un momento reciente pero no especificado con exactitud." },
+    { "id": "e4", "type": "true_false", "tags": ["marcadores-tiempo"], "difficulty": 2, "statement": "«letzte» se declina según el género del sustantivo que acompaña.", "answer": true, "explain": "letzte Woche (f), letztes Jahr (n), letzten Monat (m, acusativo de tiempo)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "Une cada expresión con su traducción", "left": ["vorgestern", "neulich", "letztes Jahr", "kürzlich"], "right": ["anteayer", "hace poco", "el año pasado", "recientemente"], "answer": [0, 1, 2, 3], "explain": "Cuatro marcadores de tiempo pasado ampliados." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "La vi hace dos días.", "accept": ["Ich habe sie vor zwei Tagen gesehen"], "hintWords": ["ich habe sie vor zwei Tagen gesehen"], "strictAccents": false, "audio": "Ich habe sie vor zwei Tagen gesehen.", "explain": "vor zwei Tagen: vor + dativo plural (Tagen, con -n)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "Hace un año vivía en Berlín.", "accept": ["Vor einem Jahr habe ich in Berlin gewohnt"], "hintWords": ["vor einem Jahr habe ich in Berlin gewohnt"], "strictAccents": false, "audio": "Vor einem Jahr habe ich in Berlin gewohnt.", "explain": "vor einem Jahr: vor + dativo neutro (einem Jahr)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "El otro día quedé con un viejo amigo.", "accept": ["Neulich habe ich einen alten Freund getroffen"], "hintWords": ["neulich habe ich einen alten Freund getroffen"], "strictAccents": false, "audio": "Neulich habe ich einen alten Freund getroffen.", "explain": "neulich en posición 1, verbo en posición 2." },
+    { "id": "e9", "type": "fill_blank", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "Completa con el marcador correcto", "text": "___ war ich krank. (anteayer) ___ habe ich viel gearbeitet. (el mes pasado)", "blanks": [{ "accept": ["Vorgestern"] }, { "accept": ["Letzten Monat"] }], "bank": ["Vorgestern", "Letzten Monat", "Neulich"], "explain": "Vorgestern (anteayer); Letzten Monat (el mes pasado)." },
+    { "id": "e10", "type": "word_order", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "Ordena: «Recientemente he leído un libro»", "tokens": ["ein Buch", "gelesen", "Kürzlich", "habe ich"], "answer": ["Kürzlich", "habe ich", "ein Buch", "gelesen"], "audio": "Kürzlich habe ich ein Buch gelesen.", "explain": "Kürzlich (posición 1) + habe (posición 2) + ich + ein Buch + gelesen (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "Damals war ich jünger.", "accept": ["En aquella época era más joven."], "strictAccents": false, "audio": "Damals war ich jünger.", "explain": "damals: en aquella época (pasado más lejano y general)." },
+    { "id": "e12", "type": "dialogue", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Jonas", "text": "Wann hast du sie zuletzt gesehen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich habe sie vor zwei Tagen gesehen.", "Vorgestern habe ich sie gesehen."], "hint": "responde con un marcador de tiempo pasado" },
+      { "who": "Jonas", "text": "Ach, das ist noch nicht lange her.", "speak": true }
+    ], "explain": "Práctica de marcadores de tiempo en una conversación natural." },
+    { "id": "e13", "type": "listening", "tags": ["marcadores-tiempo"], "difficulty": 1, "speak": "Ich habe sie vor zwei Tagen gesehen.", "mode": "write", "accept": ["Ich habe sie vor zwei Tagen gesehen"], "showTextAfter": true, "explain": "vor + dativo: la construcción clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["marcadores-tiempo"], "difficulty": 2, "speak": "Letztes Jahr war ich in Italien.", "mode": "choose", "options": ["Letztes Jahr war ich in Italien.", "Letzte Woche war ich in Italien.", "Letzten Monat war ich in Italien."], "answer": 0, "showTextAfter": true, "explain": "letztes Jahr (neutro) es distinto de letzte Woche (femenino) y letzten Monat (masculino)." },
+    { "id": "e15", "type": "shadowing", "tags": ["marcadores-tiempo"], "difficulty": 2, "speak": "Vor einem Jahr habe ich in Berlin gewohnt, und letzten Monat bin ich zurückgekommen.", "es": "Hace un año vivía en Berlín, y el mes pasado volví.", "ipa": "/foːɐ̯ ˈaɪ̯nəm jaːɐ̯ ˈhaːbə ɪç ɪn bɛʁˈliːn ɡəˈvoːnt ʊnt ˈlɛtstn̩ ˈmoːnaːt bɪn ɪç tsuˈʁʏkɡəkɔmən/", "esApprox": "«for ÁI-nem yar JÁ-be ich in ber-LÍN ge-VONT, unt LETS-ten MÓ-nat bin ich tsu-RÜK-ge-ko-men»", "focus": "vor einem Jahr (dativo) y letzten Monat (acusativo de tiempo): dos formas distintas de situar el pasado.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["marcadores-tiempo"], "difficulty": 2, "speak": "Neulich habe ich einen alten Freund getroffen, den ich seit Jahren nicht gesehen hatte.", "es": "El otro día quedé con un viejo amigo, al que no había visto en años.", "ipa": "/ˈnɔɪ̯lɪç ˈhaːbə ɪç ˈaɪ̯nən ˈaltn̩ fʁɔɪ̯nt ɡəˈtʁɔfn̩ deːn ɪç zaɪ̯t ˈjaːʁən nɪçt ɡəˈzeːən ˈhatə/", "esApprox": "«NÓI-lich JÁ-be ich ÁI-nen ÁL-ten froint ge-TRO-fen, den ich zait YÁ-ren nicht ge-ZÉ-en JÁ-te»", "focus": "neulich en posición 1, verbo getroffen en Perfekt.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "Te preguntan cuándo viste a alguien por última vez. Di que la viste hace dos días.", "modelAnswer": "Ich habe sie vor zwei Tagen gesehen.", "alsoValid": ["Vor zwei Tagen."], "speak": "Ich habe sie vor zwei Tagen gesehen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "Clasifica cada marcador: reciente o lejano", "buckets": ["Reciente", "Lejano"], "items": [
+      { "text": "vorgestern", "bucket": 0 },
+      { "text": "damals", "bucket": 1 },
+      { "text": "neulich", "bucket": 0 },
+      { "text": "vor einem Jahr", "bucket": 1 }
+    ], "explain": "vorgestern y neulich son recientes; damals y vor einem Jahr son más lejanos." },
+    { "id": "e19", "type": "error_correction", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich habe sie vor zwei Tage gesehen.", "accept": ["Ich habe sie vor zwei Tagen gesehen"], "audio": "Ich habe sie vor zwei Tagen gesehen.", "explain": "vor + dativo: el plural Tage necesita la -n del dativo plural (Tagen)." },
+    { "id": "e20", "type": "mcq", "tags": ["marcadores-tiempo"], "difficulty": 2, "prompt": "«Vor einem Jahr habe ich in Berlin gewohnt. Letzten Monat bin ich zurückgekommen, und neulich habe ich einen alten Freund getroffen.» ¿Cuándo volvió la persona?", "options": ["Hace un año", "El mes pasado", "El otro día", "Anteayer"], "answer": 1, "explain": "«Letzten Monat bin ich zurückgekommen» = el mes pasado volví." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "vorgestern", "es": "anteayer", "esApprox": "«FOR-gues-tern»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "neulich", "es": "hace poco, el otro día", "esApprox": "«NÓI-lich»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "letztes Jahr", "es": "el año pasado", "esApprox": "«LETS-tes yar»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "letzten Monat", "es": "el mes pasado", "esApprox": "«LETS-ten MÓ-nat»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "vor", "es": "hace (+ dativo, tiempo)", "esApprox": "«for»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "kürzlich", "es": "recientemente", "esApprox": "«KÜRTS-lich»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Vor einem Jahr habe ich in Berlin gewohnt, und letzten Monat bin ich zurückgekommen.", "es": "Hace un año vivía en Berlín, y el mes pasado volví.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Neulich habe ich einen alten Freund getroffen, den ich seit Jahren nicht gesehen hatte.", "es": "El otro día quedé con un viejo amigo, al que no había visto en años.", "from": "e16" }
+  ]
+}

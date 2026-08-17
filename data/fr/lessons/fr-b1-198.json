@@ -1,0 +1,247 @@
+{
+  "id": "fr-b1-198",
+  "lang": "fr",
+  "level": "B1",
+  "order": 198,
+  "title": "Ce qui, ce que, ce dont: el relativo sin antecedente",
+  "objectives": [
+    "Usar ce qui cuando «lo que» es el sujeto de la frase relativa",
+    "Usar ce que cuando «lo que» es el complemento directo",
+    "Usar ce dont cuando el verbo pide de (ce dont j'ai besoin)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "«Lo que» sin sustantivo antes",
+      "body": "Qui, que y dont necesitan un antecedente (un sustantivo antes). Cuando no hay un sustantivo concreto, sino la idea de «lo que», se usa ce qui, ce que o ce dont, según la función que cumpla dentro de la frase relativa."
+    },
+    {
+      "type": "table",
+      "title": "Ce qui, ce que, ce dont",
+      "headers": ["Función", "Forma", "Ejemplo"],
+      "rows": [
+        ["sujeto", "ce qui", "ce qui m'intéresse"],
+        ["complemento directo", "ce que", "ce que je veux"],
+        ["con verbos + de", "ce dont", "ce dont j'ai besoin"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "C'est ce qui... / c'est ce que...",
+      "body": "Una estructura muy común para dar énfasis: c'est ce qui me plaît (eso es lo que me gusta), c'est ce que je pense (eso es lo que pienso)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "ce qui m'intéresse", "es": "lo que me interesa", "ipa": "/sə ki mɛ̃.te.ʁɛs/", "esApprox": "«se KI min-te-RES»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "ce que je veux", "es": "lo que quiero", "ipa": "/sə kə ʒə vø/", "esApprox": "«se ke ye VÖ»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "ce dont j'ai besoin", "es": "lo que necesito", "ipa": "/sə dɔ̃ ʒe bə.zwɛ̃/", "esApprox": "«se don ye be-SUÍN»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "ce qui compte", "es": "lo que cuenta, lo que importa", "ipa": "/sə ki kɔ̃t/", "esApprox": "«se ki KONT»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "ce que tu dis", "es": "lo que dices", "ipa": "/sə kə ty di/", "esApprox": "«se ke tü DÍ»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "ce dont je parle", "es": "aquello de lo que hablo", "ipa": "/sə dɔ̃ ʒə paʁl/", "esApprox": "«se don ye PARL»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "c'est ce qui me plaît", "es": "eso es lo que me gusta", "ipa": "/sɛ sə ki mə plɛ/", "esApprox": "«se se ki me PLE»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "c'est ce que je pense", "es": "eso es lo que pienso", "ipa": "/sɛ sə kə ʒə pɑ̃s/", "esApprox": "«se se ke ye PANS»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "¿Cuál usas cuando «lo que» es el sujeto?",
+      "options": ["ce qui", "ce que", "ce dont", "qui"],
+      "answer": 0,
+      "explain": "Ce qui se usa cuando «lo que» hace de sujeto."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «lo que necesito»?",
+      "options": ["ce que j'ai besoin", "ce dont j'ai besoin", "ce qui j'ai besoin", "ce à j'ai besoin"],
+      "answer": 1,
+      "explain": "Avoir besoin de pide ce dont, no ce que."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "statement": "Ce que se usa cuando lo que sigue es complemento directo.",
+      "answer": true,
+      "explain": "Ce que je veux: veux tiene un complemento directo (ce que)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "statement": "Ce qui y ce que son intercambiables siempre.",
+      "answer": false,
+      "explain": "Dependen de la función (sujeto o complemento directo) dentro de la frase relativa."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su función",
+      "left": ["ce qui m'intéresse", "ce que tu dis", "ce dont j'ai besoin", "ce que je veux"],
+      "right": ["sujeto (intéresse)", "complemento directo (veux)", "con de (besoin)", "complemento directo (dis)"],
+      "answer": [0, 3, 2, 1],
+      "explain": "Ce qui m'intéresse = sujeto, ce que tu dis y ce que je veux = complemento directo, ce dont j'ai besoin = con de."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "Lo que me interesa es aprender francés.",
+      "accept": ["Ce qui m'intéresse, c'est d'apprendre le français"],
+      "hintWords": ["ce qui m'intéresse", "c'est d'apprendre le français"],
+      "strictAccents": true,
+      "audio": "Ce qui m'intéresse, c'est d'apprendre le français.",
+      "explain": "Ce qui (sujeto) + c'est de + infinitivo, estructura de énfasis."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "No sé lo que quieres.",
+      "accept": ["Je ne sais pas ce que tu veux"],
+      "hintWords": ["je ne sais pas", "ce que tu veux"],
+      "strictAccents": true,
+      "audio": "Je ne sais pas ce que tu veux.",
+      "explain": "Ce que (complemento directo de veux)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "___ compte, c'est ta santé, et ___ j'ai besoin, c'est de repos.",
+      "blanks": [{ "accept": ["Ce qui"] }, { "accept": ["ce dont"] }],
+      "bank": ["Ce qui", "ce dont", "ce que"],
+      "explain": "Ce qui (sujeto de compte) y ce dont (avoir besoin de)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Eso es lo que pienso»",
+      "tokens": ["ce que je pense", "C'est"],
+      "answer": ["C'est", "ce que je pense"],
+      "audio": "C'est ce que je pense.",
+      "explain": "C'est ce que + sujeto + verbo, estructura de énfasis."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "Ce dont je parle, c'est ce qui compte vraiment pour moi.",
+      "accept": ["Aquello de lo que hablo es lo que realmente cuenta para mí."],
+      "strictAccents": false,
+      "audio": "Ce dont je parle, c'est ce qui compte vraiment pour moi.",
+      "explain": "Ce dont (parler de) y ce qui (sujeto de compte), combinados."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación explicando lo que quieres",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu veux faire ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ce qui m'intéresse, c'est voyager.", "Ce que je veux, c'est me reposer."], "hint": "usa ce qui o ce que" },
+        { "who": "Léa", "text": "Bonne idée !", "speak": true }
+      ],
+      "explain": "Repaso combinado de ce qui y ce que."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "speak": "Ce qui compte, c'est ce que tu fais, pas ce que tu dis.",
+      "mode": "write",
+      "accept": ["Ce qui compte, c'est ce que tu fais, pas ce que tu dis"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de ce qui y ce que."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 1,
+      "speak": "ce dont j'ai besoin",
+      "mode": "choose",
+      "options": ["ce que j'ai besoin", "ce dont j'ai besoin", "ce qui j'ai besoin", "ce à j'ai besoin"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Avoir besoin de exige ce dont."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 3,
+      "speak": "Ce qui m'intéresse, c'est ce que tu penses, et ce dont tu as besoin.",
+      "es": "Lo que me interesa es lo que piensas, y lo que necesitas.",
+      "ipa": "/sə ki mɛ̃.te.ʁɛs sɛ sə kə ty pɑ̃s e sə dɔ̃ ty a bə.zwɛ̃/",
+      "esApprox": "«se KI min-te-RES se se ke tü PANS e se don tü a be-SUÍN»",
+      "focus": "Tres formas del relativo sin antecedente encadenadas.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "Explica lo que te interesa, lo que quieres y lo que necesitas, usando ce qui, ce que y ce dont.",
+      "modelAnswer": "Ce qui m'intéresse, c'est voyager ; ce que je veux, c'est apprendre ; et ce dont j'ai besoin, c'est de temps.",
+      "alsoValid": ["Ce qui compte, c'est ce que tu fais."],
+      "speak": "Ce qui m'intéresse, c'est voyager ; ce que je veux, c'est apprendre ; et ce dont j'ai besoin, c'est de temps.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "¿Es sujeto (ce qui) o complemento con de (ce dont)?",
+      "buckets": ["Sujeto (ce qui)", "Con de (ce dont)"],
+      "items": [
+        { "text": "ce qui compte", "bucket": 0 },
+        { "text": "ce dont j'ai besoin", "bucket": 1 },
+        { "text": "ce qui m'intéresse", "bucket": 0 },
+        { "text": "ce dont je parle", "bucket": 1 }
+      ],
+      "explain": "Ce qui compte y ce qui m'intéresse son sujeto; ce dont j'ai besoin y ce dont je parle van con verbos de de."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["relativos", "ce-qui-ce-que"],
+      "difficulty": 2,
+      "prompt": "Hay un error: cuando «lo que» es sujeto, se usa ce qui. Corrige la frase entera.",
+      "wrong": "Ce que compte, c'est ta santé.",
+      "accept": ["Ce qui compte, c'est ta santé"],
+      "audio": "Ce qui compte, c'est ta santé.",
+      "explain": "Cuando «lo que» es sujeto del verbo (compte), se usa ce qui, no ce que."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "ce qui m'intéresse", "es": "lo que me interesa", "esApprox": "«se KI min-te-RES»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "ce que je veux", "es": "lo que quiero", "esApprox": "«se ke ye VÖ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "ce dont j'ai besoin", "es": "lo que necesito", "esApprox": "«se don ye be-SUÍN»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "ce qui compte", "es": "lo que cuenta, lo que importa", "esApprox": "«se ki KONT»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "ce dont je parle", "es": "aquello de lo que hablo", "esApprox": "«se don ye PARL»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "c'est ce que je pense", "es": "eso es lo que pienso", "esApprox": "«se se ke ye PANS»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ce qui m'intéresse, c'est d'apprendre le français.", "es": "Lo que me interesa es aprender francés.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Je ne sais pas ce que tu veux.", "es": "No sé lo que quieres.", "from": "e7" }
+  ]
+}

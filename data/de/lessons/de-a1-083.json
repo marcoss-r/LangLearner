@@ -1,0 +1,91 @@
+{
+  "id": "de-a1-083",
+  "lang": "de",
+  "level": "A1",
+  "order": 83,
+  "title": "El comparativo",
+  "objectives": [
+    "Formar el comparativo regular añadiendo -er al adjetivo",
+    "Reconocer que muchos adjetivos de una sílaba añaden Umlaut en el comparativo (alt→älter, groß→größer)",
+    "Memorizar los tres comparativos irregulares más frecuentes: gut→besser, gern→lieber, viel→mehr"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El patrón regular: adjetivo + -er",
+      "body": "El comparativo regular en alemán se forma añadiendo -er al adjetivo, y la comparación se completa con als (que), como viste en la clase 82. Muchos adjetivos cortos de una sílaba con a, o, u añaden también un Umlaut: alt→älter, groß→größer, jung→jünger, kalt→kälter.",
+      "examples": [
+        { "target": "Mein Bruder ist größer als ich.", "es": "Mi hermano es más alto que yo." },
+        { "target": "Der Winter ist kälter als der Herbst.", "es": "El invierno es más frío que el otoño." },
+        { "target": "Sie ist jünger als ihr Bruder.", "es": "Ella es más joven que su hermano." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Comparativos irregulares clave",
+      "headers": ["Adjetivo/adverbio", "Comparativo", "Español"],
+      "rows": [
+        ["gut", "besser", "mejor"],
+        ["gern", "lieber", "preferir (verbo + lieber)"],
+        ["viel", "mehr", "más"]
+      ],
+      "note": "Estos tres no siguen el patrón -er: son completamente irregulares y muy frecuentes."
+    },
+    {
+      "type": "tip",
+      "body": "«gern» no es un adjetivo sino un adverbio que ya conoces (clase 52: ich spiele gern Fußball). Su comparativo, lieber, sirve para decir qué prefieres: «Ich spiele lieber Tennis» (Prefiero jugar al tenis)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "größer", "es": "más grande, más alto", "ipa": "/ˈɡʁøːsɐ/", "esApprox": "«GRÖ-ser»", "pos": "adjetivo", "gender": null, "example": { "target": "Er ist größer als ich.", "es": "Él es más alto que yo." } },
+    { "id": "v2", "target": "kälter", "es": "más frío", "ipa": "/ˈkɛltɐ/", "esApprox": "«KÉL-ter»", "pos": "adjetivo", "gender": null, "example": { "target": "Der Winter ist kälter.", "es": "El invierno es más frío." } },
+    { "id": "v3", "target": "jünger", "es": "más joven", "ipa": "/ˈjʏŋɐ/", "esApprox": "«YÜN-guer»", "pos": "adjetivo", "gender": null, "example": { "target": "Sie ist jünger als ich.", "es": "Ella es más joven que yo." } },
+    { "id": "v4", "target": "älter", "es": "mayor, más viejo", "ipa": "/ˈɛltɐ/", "esApprox": "«ÉL-ter»", "pos": "adjetivo", "gender": null, "example": { "target": "Mein Vater ist älter als meine Mutter.", "es": "Mi padre es mayor que mi madre." } },
+    { "id": "v5", "target": "besser", "es": "mejor", "ipa": "/ˈbɛsɐ/", "esApprox": "«BÉ-ser»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist besser.", "es": "Eso es mejor." } },
+    { "id": "v6", "target": "lieber", "es": "preferiblemente (comparativo de gern)", "ipa": "/ˈliːbɐ/", "esApprox": "«LÍ-ber»", "pos": "adverbio", "gender": null, "example": { "target": "Ich spiele lieber Tennis.", "es": "Prefiero jugar al tenis." } },
+    { "id": "v7", "target": "mehr", "es": "más (cantidad, comparativo de viel)", "ipa": "/meːɐ̯/", "esApprox": "«mer»", "pos": "adverbio", "gender": null, "example": { "target": "Ich brauche mehr Zeit.", "es": "Necesito más tiempo." } },
+    { "id": "v8", "target": "der Unterschied", "es": "la diferencia", "ipa": "/ˈʊntɐʃiːt/", "esApprox": "«ÚN-ter-shit»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein großer Unterschied.", "es": "Esa es una gran diferencia." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["comparativo"], "difficulty": 1, "prompt": "¿Cuál es el comparativo de «gut»?", "options": ["guter", "gutter", "besser", "mehr"], "answer": 2, "explain": "gut → besser: comparativo irregular." },
+    { "id": "e2", "type": "mcq", "tags": ["comparativo"], "difficulty": 2, "prompt": "¿Cuál es el comparativo de «alt»?", "options": ["alter", "älter", "besser", "altiger"], "answer": 1, "explain": "alt → älter, con Umlaut." },
+    { "id": "e3", "type": "true_false", "tags": ["comparativo"], "difficulty": 2, "statement": "El comparativo de «viel» es «mehr».", "answer": true, "explain": "viel → mehr: comparativo irregular, muy frecuente." },
+    { "id": "e4", "type": "true_false", "tags": ["comparativo"], "difficulty": 2, "statement": "Todos los adjetivos de una sílaba añaden Umlaut en el comparativo.", "answer": false, "explain": "Muchos sí (alt, groß, jung, kalt), pero no todos: por ejemplo, «schnell» no cambia (schneller)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["comparativo"], "difficulty": 2, "prompt": "Une cada adjetivo con su comparativo", "left": ["gut", "gern", "viel", "alt"], "right": ["besser", "lieber", "mehr", "älter"], "answer": [0, 1, 2, 3], "explain": "Tres irregulares (gut, gern, viel) y uno regular con Umlaut (alt)." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["comparativo"], "difficulty": 2, "prompt": "Mi hermano es más alto que yo.", "accept": ["Mein Bruder ist größer als ich"], "hintWords": ["mein Bruder ist größer als ich"], "strictAccents": false, "audio": "Mein Bruder ist größer als ich.", "explain": "größer als: comparativo + als." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["comparativo"], "difficulty": 2, "prompt": "Prefiero jugar al tenis.", "accept": ["Ich spiele lieber Tennis"], "hintWords": ["ich spiele lieber Tennis"], "strictAccents": false, "audio": "Ich spiele lieber Tennis.", "explain": "lieber: comparativo irregular de gern, para expresar preferencia." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["comparativo"], "difficulty": 2, "prompt": "Necesito más tiempo.", "accept": ["Ich brauche mehr Zeit"], "hintWords": ["ich brauche mehr Zeit"], "strictAccents": false, "audio": "Ich brauche mehr Zeit.", "explain": "mehr: comparativo irregular de viel." },
+    { "id": "e9", "type": "fill_blank", "tags": ["comparativo"], "difficulty": 2, "prompt": "Completa con el comparativo correcto", "text": "Mein Vater ist ___ als meine Mutter. (alt) Das ist ___. (gut)", "blanks": [{ "accept": ["älter"] }, { "accept": ["besser"] }], "bank": ["älter", "besser", "alter"], "explain": "älter (con Umlaut); besser (irregular)." },
+    { "id": "e10", "type": "word_order", "tags": ["comparativo"], "difficulty": 2, "prompt": "Ordena: «El invierno es más frío que el otoño»", "tokens": ["als der Herbst", "kälter", "ist", "Der Winter"], "answer": ["Der Winter", "ist", "kälter", "als der Herbst"], "audio": "Der Winter ist kälter als der Herbst.", "explain": "Der Winter ist kälter als der Herbst: sujeto-verbo-comparativo-als." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["comparativo"], "difficulty": 2, "prompt": "Das ist ein großer Unterschied.", "accept": ["Esa es una gran diferencia."], "strictAccents": false, "audio": "Das ist ein großer Unterschied.", "explain": "der Unterschied = la diferencia." },
+    { "id": "e12", "type": "dialogue", "tags": ["comparativo"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Tom", "text": "Spielst du lieber Fußball oder Tennis?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich spiele lieber Tennis.", "Ich spiele lieber Fußball."], "hint": "responde con tu preferencia usando lieber" },
+      { "who": "Tom", "text": "Ich auch!", "speak": true }
+    ], "explain": "Uso natural de lieber para expresar preferencia entre dos opciones." },
+    { "id": "e13", "type": "listening", "tags": ["comparativo"], "difficulty": 1, "speak": "Mein Bruder ist größer als ich.", "mode": "write", "accept": ["Mein Bruder ist größer als ich"], "showTextAfter": true, "explain": "größer als: comparativo regular con Umlaut." },
+    { "id": "e14", "type": "listening", "tags": ["comparativo"], "difficulty": 2, "speak": "Ich brauche mehr Zeit.", "mode": "choose", "options": ["Ich brauche mehr Zeit.", "Ich brauche viel Zeit.", "Ich brauche besser Zeit."], "answer": 0, "showTextAfter": true, "explain": "mehr (comparativo de viel) es la forma correcta aquí." },
+    { "id": "e15", "type": "shadowing", "tags": ["comparativo"], "difficulty": 2, "speak": "Mein Vater ist älter als meine Mutter, aber sie ist größer als er.", "es": "Mi padre es mayor que mi madre, pero ella es más alta que él.", "ipa": "/maɪ̯n ˈfaːtɐ ɪst ˈɛltɐ als ˈmaɪ̯nə ˈmʊtɐ ˈaːbɐ ziː ɪst ˈɡʁøːsɐ als eːɐ̯/", "esApprox": "«main FÁ-ter ist ÉL-ter als MÁI-ne MÚ-ter, Á-ber zi ist GRÖ-ser als er»", "focus": "älter y größer: dos comparativos con Umlaut, ambos con als.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["comparativo"], "difficulty": 2, "speak": "Ich finde Deutsch besser als Englisch, und ich lerne lieber Deutsch.", "es": "Encuentro el alemán mejor que el inglés, y prefiero aprender alemán.", "ipa": "/ɪç ˈfɪndə dɔɪ̯tʃ ˈbɛsɐ als ˈɛŋlɪʃ ʊnt ɪç ˈlɛʁnə ˈliːbɐ dɔɪ̯tʃ/", "esApprox": "«ich FÍN-de doich BÉ-ser als ÉNG-lish, unt ich LÉR-ne LÍ-ber doich»", "focus": "besser y lieber: dos de los tres comparativos irregulares, en la misma frase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["comparativo"], "difficulty": 2, "prompt": "Te preguntan si prefieres el fútbol o el tenis. Di que prefieres el tenis.", "modelAnswer": "Ich spiele lieber Tennis.", "alsoValid": ["Lieber Tennis."], "speak": "Ich spiele lieber Tennis.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["comparativo"], "difficulty": 2, "prompt": "Clasifica cada comparativo: regular (con o sin Umlaut) o irregular", "buckets": ["Regular (-er)", "Irregular"], "items": [
+      { "text": "größer", "bucket": 0 },
+      { "text": "besser", "bucket": 1 },
+      { "text": "kälter", "bucket": 0 },
+      { "text": "mehr", "bucket": 1 },
+      { "text": "lieber", "bucket": 1 }
+    ], "explain": "größer y kälter siguen el patrón -er (con Umlaut); besser, mehr y lieber son irregulares." },
+    { "id": "e19", "type": "error_correction", "tags": ["comparativo"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das ist guter als das andere.", "accept": ["Das ist besser als das andere"], "audio": "Das ist besser als das andere.", "explain": "gut es irregular: su comparativo es besser, no «guter»." },
+    { "id": "e20", "type": "mcq", "tags": ["comparativo"], "difficulty": 2, "prompt": "«Mein Bruder ist größer als ich, aber ich bin älter als er. Ich finde, dass er besser Fußball spielt als ich, aber ich spiele lieber Tennis.» ¿Quién es mayor?", "options": ["El hermano", "Yo", "Son iguales", "No se sabe"], "answer": 1, "explain": "«ich bin älter als er» = yo soy mayor que él." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "größer", "es": "más grande, más alto", "esApprox": "«GRÖ-ser»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "älter", "es": "mayor, más viejo", "esApprox": "«ÉL-ter»", "from": "v4" },
+    { "id": "s3", "kind": "word", "target": "besser", "es": "mejor", "esApprox": "«BÉ-ser»", "from": "v5" },
+    { "id": "s4", "kind": "word", "target": "lieber", "es": "preferiblemente (comparativo de gern)", "esApprox": "«LÍ-ber»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "mehr", "es": "más (cantidad, comparativo de viel)", "esApprox": "«mer»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "der Unterschied", "es": "la diferencia", "esApprox": "«ÚN-ter-shit»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Mein Vater ist älter als meine Mutter, aber sie ist größer als er.", "es": "Mi padre es mayor que mi madre, pero ella es más alta que él.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich finde Deutsch besser als Englisch, und ich lerne lieber Deutsch.", "es": "Encuentro el alemán mejor que el inglés, y prefiero aprender alemán.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-213",
+  "lang": "de",
+  "level": "B1",
+  "order": 213,
+  "title": "El discurso indirecto y el Konjunktiv I: reconocerlo al leer",
+  "objectives": [
+    "Reconocer las formas del Konjunktiv I (sei, habe, könne, werde) en textos periodísticos",
+    "Entender que el Konjunktiv I marca que una información es reportada, no confirmada por quien escribe",
+    "Reformular el discurso indirecto con Konjunktiv I a una frase directa o con dass + Konjunktiv II, para comprenderlo mejor"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El Konjunktiv I: la marca del discurso indirecto en la prensa",
+      "body": "El Konjunktiv I es un modo distinto del Konjunktiv II, que se usa casi exclusivamente para el discurso indirecto en un registro formal (noticias, comunicados oficiales). Se forma con la raíz del infinitivo + -e, -est, -e, -en, -et, -en; la forma más reconocible es la de er/sie/es (+ -e): «sei» (sein), «habe» (haben), «könne» (können). «Der Minister sagte, die Lage sei schwierig» (El ministro dijo que la situación era difícil) marca que es una afirmación reportada, no una opinión propia del periodista.",
+      "examples": [
+        { "target": "Der Minister sagte, die Lage sei schwierig.", "es": "El ministro dijo que la situación era difícil." },
+        { "target": "Sie erklärte, sie habe keine Zeit.", "es": "Ella explicó que no tenía tiempo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Formas frecuentes del Konjunktiv I (er/sie/es)",
+      "headers": ["Infinitivo", "Konjunktiv I (er/sie/es)"],
+      "rows": [
+        ["sein", "er sei"],
+        ["haben", "er habe"],
+        ["können", "er könne"],
+        ["werden", "er werde"],
+        ["kommen", "er komme"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "A nivel B1, tu objetivo es reconocer el Konjunktiv I al leer, no producirlo activamente: en la conversación cotidiana, incluso los hablantes nativos suelen usar el Konjunktiv II o simplemente dass + indicativo para el discurso indirecto."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sei", "es": "sea, es (Konjunktiv I de sein)", "ipa": "/zaɪ̯/", "esApprox": "«zai»", "pos": "verbo (Konjunktiv I)", "gender": null, "example": { "target": "Er sagte, die Lage sei schwierig.", "es": "Dijo que la situación era difícil." } },
+    { "id": "v2", "target": "habe", "es": "tenga, tiene (Konjunktiv I de haben)", "ipa": "/ˈhaːbə/", "esApprox": "«JÁ-be»", "pos": "verbo (Konjunktiv I)", "gender": null, "example": { "target": "Sie erklärte, sie habe keine Zeit.", "es": "Ella explicó que no tenía tiempo." } },
+    { "id": "v3", "target": "die indirekte Rede", "es": "el discurso indirecto", "ipa": "/diː ɪndiˈʁɛktə ˈʁeːdə/", "esApprox": "«di in-di-RÉK-te RÉ-de»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist ein Beispiel für die indirekte Rede.", "es": "Ese es un ejemplo de discurso indirecto." } },
+    { "id": "v4", "target": "berichten", "es": "informar, reportar", "ipa": "/bəˈʁɪçtn̩/", "esApprox": "«be-RICH-ten»", "pos": "verbo", "gender": null, "example": { "target": "Die Zeitung berichtet, die Firma wachse schnell.", "es": "El periódico informa de que la empresa crece rápido." } },
+    { "id": "v5", "target": "die Lage", "es": "la situación", "ipa": "/ˈlaːɡə/", "esApprox": "«LÁ-gue»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Lage sei schwierig.", "es": "La situación era difícil (según se informa)." } },
+    { "id": "v6", "target": "der Minister", "es": "el ministro", "ipa": "/miˈnɪstɐ/", "esApprox": "«mi-NÍS-ter»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Minister sagte etwas Wichtiges.", "es": "El ministro dijo algo importante." } },
+    { "id": "v7", "target": "die Quelle", "es": "la fuente", "ipa": "/ˈkvɛlə/", "esApprox": "«KVÉ-le»", "pos": "sustantivo", "gender": "f", "example": { "target": "Laut einer Quelle sei alles möglich.", "es": "Según una fuente, todo sería posible." } },
+    { "id": "v8", "target": "die Behauptung", "es": "la afirmación, la declaración", "ipa": "/bəˈhaʊ̯ptʊŋ/", "esApprox": "«be-JÁUP-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist nur eine Behauptung.", "es": "Eso es solo una afirmación." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 1, "prompt": "¿Para qué se usa principalmente el Konjunktiv I?", "options": ["Deseos irreales", "El discurso indirecto formal", "El futuro", "Las órdenes"], "answer": 1, "explain": "El Konjunktiv I marca el discurso indirecto, sobre todo en la prensa." },
+    { "id": "e2", "type": "mcq", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "¿Cuál es el Konjunktiv I de sein para «er»?", "options": ["ist", "war", "sei", "wäre"], "answer": 2, "explain": "er sei: Konjunktiv I de sein." },
+    { "id": "e3", "type": "true_false", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "statement": "El Konjunktiv I indica que quien escribe confirma personalmente la información.", "answer": false, "explain": "Al contrario: indica que la información es reportada, no necesariamente confirmada por quien escribe." },
+    { "id": "e4", "type": "true_false", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "statement": "A nivel B1, el objetivo principal es reconocer el Konjunktiv I al leer, no producirlo activamente.", "answer": true, "explain": "Incluso los hablantes nativos suelen preferir el Konjunktiv II o dass + indicativo en la conversación." },
+    { "id": "e5", "type": "match_pairs", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "Une cada infinitivo con su Konjunktiv I (er/sie/es)", "left": ["sein", "haben", "können", "werden"], "right": ["sei", "habe", "könne", "werde"], "answer": [0, 1, 2, 3], "explain": "Formas frecuentes del Konjunktiv I." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "El ministro dijo que la situación era difícil.", "accept": ["Der Minister sagte, die Lage sei schwierig"], "hintWords": ["der Minister sagte die Lage sei schwierig"], "strictAccents": false, "audio": "Der Minister sagte, die Lage sei schwierig.", "explain": "sagte + die Lage + sei (Konjunktiv I) + schwierig." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "Ella explicó que no tenía tiempo.", "accept": ["Sie erklärte, sie habe keine Zeit"], "hintWords": ["sie erklärte sie habe keine Zeit"], "strictAccents": false, "audio": "Sie erklärte, sie habe keine Zeit.", "explain": "erklärte + sie + habe (Konjunktiv I) + keine Zeit." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "Eso es solo una afirmación.", "accept": ["Das ist nur eine Behauptung"], "hintWords": ["das ist nur eine Behauptung"], "strictAccents": false, "audio": "Das ist nur eine Behauptung.", "explain": "die Behauptung = la afirmación, la declaración." },
+    { "id": "e9", "type": "fill_blank", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "Completa con la forma correcta del Konjunktiv I", "text": "Er sagte, die Lage ___ schwierig. Sie erklärte, sie ___ keine Zeit.", "blanks": [{ "accept": ["sei"] }, { "accept": ["habe"] }], "bank": ["sei", "habe", "ist"], "explain": "sei (sein) y habe (haben), ambos Konjunktiv I." },
+    { "id": "e10", "type": "word_order", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "Ordena: «El periódico informa de que la empresa crece rápido»", "tokens": ["die Firma wachse schnell", "Die Zeitung berichtet,"], "answer": ["Die Zeitung berichtet,", "die Firma wachse schnell"], "audio": "Die Zeitung berichtet, die Firma wachse schnell.", "explain": "berichtet + die Firma + wachse (Konjunktiv I) + schnell." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "Laut einer Quelle sei alles möglich.", "accept": ["Según una fuente, todo sería posible."], "strictAccents": false, "audio": "Laut einer Quelle sei alles möglich.", "explain": "sei marca que la afirmación viene de una fuente, no del periodista." },
+    { "id": "e12", "type": "dialogue", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was hat die Zeitung über den Minister geschrieben?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Sie schrieb, die Lage sei schwierig."], "hint": "reformula la noticia con Konjunktiv I" },
+      { "who": "Lea", "text": "Ah, interessant!", "speak": true }
+    ], "explain": "Reconocer y reformular el discurso indirecto con Konjunktiv I." },
+    { "id": "e13", "type": "listening", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 1, "speak": "Der Minister sagte, die Lage sei schwierig.", "mode": "write", "accept": ["Der Minister sagte, die Lage sei schwierig"], "showTextAfter": true, "explain": "sagte + Konjunktiv I (sei)." },
+    { "id": "e14", "type": "listening", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "speak": "Sie erklärte, sie habe keine Zeit.", "mode": "choose", "options": ["Sie erklärte, sie habe keine Zeit.", "Sie erklärte, sie hat keine Zeit.", "Sie erklärte, sie hätte keine Zeit."], "answer": 0, "showTextAfter": true, "explain": "habe (Konjunktiv I) es la forma típica del discurso indirecto formal." },
+    { "id": "e15", "type": "shadowing", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "speak": "Der Minister sagte, die Lage sei schwierig, aber laut einer anderen Quelle sei die Situation nicht so ernst.", "es": "El ministro dijo que la situación era difícil, pero según otra fuente la situación no era tan grave.", "ipa": "/deːɐ̯ miˈnɪstɐ ˈzaːktə diː ˈlaːɡə zaɪ̯ ˈʃviːʁɪç ˈaːbɐ laʊ̯t ˈaɪ̯nɐ ˈandəʁən ˈkvɛlə zaɪ̯ diː zituaˈtsi̯oːn nɪçt zoː ˈɛʁnst/", "esApprox": "«der mi-NÍS-ter ZAK-te di LÁ-gue zai SHVÍ-rich, Á-ber laut ÁI-ner ÁN-de-ren KVÉ-le zai di zi-tua-TSIÓN nicht zo ernst»", "focus": "sei repetido dos veces: dos fuentes distintas con opiniones distintas, ambas marcadas con Konjunktiv I.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "speak": "Die Zeitung berichtet, die Firma wachse schnell und werde bald neue Mitarbeiter einstellen.", "es": "El periódico informa de que la empresa crece rápido y contratará pronto a nuevos empleados.", "ipa": "/diː ˈtsaɪ̯tʊŋ bəˈʁɪçtət diː ˈfɪʁma ˈvaksə ʃnɛl ʊnt ˈveːʁdə balt ˈnɔɪ̯ə ˈmɪtaʁbaɪ̯tɐ ˈaɪ̯nʃtɛlən/", "esApprox": "«di TSÁI-tung be-RICH-tet, di FIR-ma VAK-se shnel unt VÉR-de balt NÓI-e MIT-ar-bai-ter ÁIN-shte-len»", "focus": "wachse y werde: dos formas de Konjunktiv I distintas en una noticia sobre economía.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "Te preguntan qué dijo el ministro. Responde que dijo que la situación era difícil.", "modelAnswer": "Er sagte, die Lage sei schwierig.", "alsoValid": ["Der Minister sagte, die Lage sei schwierig."], "speak": "Er sagte, die Lage sei schwierig.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "Clasifica cada forma: Konjunktiv I o indicativo", "buckets": ["Konjunktiv I", "Indicativo"], "items": [
+      { "text": "sei", "bucket": 0 },
+      { "text": "ist", "bucket": 1 },
+      { "text": "habe (er/sie/es)", "bucket": 0 },
+      { "text": "hat", "bucket": 1 }
+    ], "explain": "sei y habe son formas de Konjunktiv I; ist y hat son indicativo normal." },
+    { "id": "e19", "type": "error_correction", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "Hay un error de registro. Corrige la frase para el registro formal periodístico.", "wrong": "Der Minister sagte, die Lage ist schwierig.", "accept": ["Der Minister sagte, die Lage sei schwierig"], "audio": "Der Minister sagte, die Lage sei schwierig.", "explain": "En el registro periodístico formal, se usa sei (Konjunktiv I), no ist (indicativo), para marcar el discurso indirecto." },
+    { "id": "e20", "type": "mcq", "tags": ["discurso-indirecto", "konjunktiv-i"], "difficulty": 2, "prompt": "«Der Minister sagte, die Lage sei schwierig, aber laut einer anderen Quelle sei die Situation nicht so ernst.» ¿Qué indica el uso de sei en ambas partes?", "options": ["Que el periodista está de acuerdo con ambas afirmaciones", "Que ambas son afirmaciones reportadas, no confirmadas por el periodista", "Que son hechos totalmente seguros", "Que son preguntas"], "answer": 1, "explain": "El Konjunktiv I marca que son afirmaciones reportadas de fuentes distintas, sin que el periodista las confirme personalmente." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "sei", "es": "sea, es (Konjunktiv I de sein)", "esApprox": "«zai»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "habe", "es": "tenga, tiene (Konjunktiv I de haben)", "esApprox": "«JÁ-be»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "die indirekte Rede", "es": "el discurso indirecto", "esApprox": "«di in-di-RÉK-te RÉ-de»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "berichten", "es": "informar, reportar", "esApprox": "«be-RICH-ten»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Lage", "es": "la situación", "esApprox": "«LÁ-gue»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Quelle", "es": "la fuente", "esApprox": "«KVÉ-le»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Der Minister sagte, die Lage sei schwierig, aber laut einer anderen Quelle sei die Situation nicht so ernst.", "es": "El ministro dijo que la situación era difícil, pero según otra fuente la situación no era tan grave.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Zeitung berichtet, die Firma wachse schnell und werde bald neue Mitarbeiter einstellen.", "es": "El periódico informa de que la empresa crece rápido y contratará pronto a nuevos empleados.", "from": "e16" }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "id": "fr-a1-046",
+  "lang": "fr",
+  "level": "A1",
+  "order": 46,
+  "title": "Repaso activo III (clases 33–45)",
+  "objectives": [
+    "Repasar y consolidar los verbos -er, -ir, aller, faire, venir y los verbos pronominales",
+    "Repasar las contracciones au/à la/à l'/aux y du/de la/de l'/des",
+    "Repasar pouvoir, vouloir, devoir, il faut y los adverbios de frecuencia"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque D (verbos)",
+      "body": "Sin gramática nueva. Este bloque ha sido el más denso en verbos hasta ahora: -er, -ir, aller, faire, venir, pronominales, pouvoir, vouloir, devoir. Repasa las tablas y practica con calma: más ejercicios que en una clase normal, a propósito."
+    },
+    {
+      "type": "table",
+      "title": "Los verbos irregulares del bloque, lado a lado",
+      "headers": ["Persona", "aller", "faire", "venir", "pouvoir", "vouloir", "devoir"],
+      "rows": [
+        ["je", "vais", "fais", "viens", "peux", "veux", "dois"],
+        ["nous", "allons", "faisons", "venons", "pouvons", "voulons", "devons"],
+        ["ils", "vont", "font", "viennent", "peuvent", "veulent", "doivent"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las contracciones",
+      "headers": ["", "à (a)", "de (de)"],
+      "rows": [
+        ["+ le", "au", "du"],
+        ["+ la", "à la", "de la"],
+        ["+ l'", "à l'", "de l'"],
+        ["+ les", "aux", "des"]
+      ]
+    },
+    {
+      "type": "phonetics",
+      "title": "Recordatorio de pronunciación verbal",
+      "body": "Las cuatro formas que suenan igual en los verbos -er y -ir regulares.",
+      "drills": [
+        { "target": "il parle / ils parlent", "ipa": "/il paʁl/", "esApprox": "«il PARL»", "hint": "singular y plural suenan igual en -er" },
+        { "target": "il finit", "ipa": "/il fi.ni/", "esApprox": "«il fi-NÍ»", "hint": "igual que je finis y tu finis" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "aller", "es": "ir", "ipa": "/a.le/", "esApprox": "«a-LÉ»", "pos": "verbo", "gender": null },
+    { "id": "v2", "target": "faire", "es": "hacer", "ipa": "/fɛʁ/", "esApprox": "«FER»", "pos": "verbo", "gender": null },
+    { "id": "v3", "target": "venir", "es": "venir", "ipa": "/və.niʁ/", "esApprox": "«ve-NIR»", "pos": "verbo", "gender": null },
+    { "id": "v4", "target": "pouvoir", "es": "poder", "ipa": "/pu.vwaʁ/", "esApprox": "«pu-VUÁR»", "pos": "verbo", "gender": null },
+    { "id": "v5", "target": "vouloir", "es": "querer", "ipa": "/vu.lwaʁ/", "esApprox": "«vu-LUÁR»", "pos": "verbo", "gender": null },
+    { "id": "v6", "target": "devoir", "es": "deber", "ipa": "/də.vwaʁ/", "esApprox": "«de-VUÁR»", "pos": "verbo", "gender": null },
+    { "id": "v7", "target": "se lever", "es": "levantarse", "ipa": "/sə lə.ve/", "esApprox": "«se le-VÉ»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "il faut", "es": "hay que", "ipa": "/il fo/", "esApprox": "«il FÓ»", "pos": "expresión", "gender": null },
+    { "id": "v9", "target": "toujours", "es": "siempre", "ipa": "/tu.ʒuʁ/", "esApprox": "«tu-YUR»", "pos": "adverbio", "gender": null },
+    { "id": "v10", "target": "ne... jamais", "es": "nunca", "ipa": "/nə...ʒa.mɛ/", "esApprox": "«ne...ya-MÉ»", "pos": "adverbio", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "conjugation",
+      "tags": ["aller"],
+      "difficulty": 2,
+      "verb": "aller",
+      "tense": "présent",
+      "prompt": "Conjuga «aller» en presente",
+      "rows": [
+        { "person": "je", "accept": ["vais"] },
+        { "person": "tu", "accept": ["vas"] },
+        { "person": "il / elle", "accept": ["va"] },
+        { "person": "nous", "accept": ["allons"] },
+        { "person": "vous", "accept": ["allez"] },
+        { "person": "ils / elles", "accept": ["vont"] }
+      ],
+      "explain": "Repaso de la clase 35."
+    },
+    {
+      "id": "e2",
+      "type": "conjugation",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "verb": "finir",
+      "tense": "présent",
+      "prompt": "Conjuga «finir» en presente",
+      "rows": [
+        { "person": "je", "accept": ["finis"] },
+        { "person": "tu", "accept": ["finis"] },
+        { "person": "il / elle", "accept": ["finit"] },
+        { "person": "nous", "accept": ["finissons"] },
+        { "person": "vous", "accept": ["finissez"] },
+        { "person": "ils / elles", "accept": ["finissent"] }
+      ],
+      "explain": "Repaso de la clase 42."
+    },
+    {
+      "id": "e3",
+      "type": "translate_to_target",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "Me levanto a las siete y me acuesto a las once.",
+      "accept": ["Je me lève à sept heures et je me couche à onze heures"],
+      "hintWords": ["je me lève", "je me couche"],
+      "strictAccents": false,
+      "audio": "Je me lève à sept heures et je me couche à onze heures.",
+      "explain": "Repaso de la clase 41."
+    },
+    {
+      "id": "e4",
+      "type": "translate_to_target",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "Querría un café, por favor.",
+      "accept": ["Je voudrais un café, s'il vous plaît"],
+      "hintWords": ["je voudrais"],
+      "strictAccents": false,
+      "audio": "Je voudrais un café, s'il vous plaît.",
+      "explain": "Repaso de la clase 43."
+    },
+    {
+      "id": "e5",
+      "type": "translate_to_target",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "prompt": "Tengo que trabajar, pero hay que descansar también.",
+      "accept": ["Je dois travailler, mais il faut se reposer aussi"],
+      "hintWords": ["je dois", "il faut"],
+      "strictAccents": false,
+      "audio": "Je dois travailler, mais il faut se reposer aussi.",
+      "explain": "Repaso de la clase 44: devoir frente a il faut."
+    },
+    {
+      "id": "e6",
+      "type": "fill_blank",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Completa con au, à la, à l' o aux",
+      "text": "Je vais ___ travail, puis ___ école.",
+      "blanks": [{ "accept": ["au"] }, { "accept": ["à l'"] }],
+      "bank": ["au", "à la", "à l'", "aux"],
+      "explain": "Repaso de la clase 36."
+    },
+    {
+      "id": "e7",
+      "type": "fill_blank",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Completa con du, de la, de l' o des",
+      "text": "Je viens ___ travail et ___ gare.",
+      "blanks": [{ "accept": ["du"] }, { "accept": ["de la"] }],
+      "bank": ["du", "de la", "de l'", "des"],
+      "explain": "Repaso de la clase 37."
+    },
+    {
+      "id": "e8",
+      "type": "word_order",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Siempre trabajo los lunes»",
+      "tokens": ["le lundi", "toujours", "Je", "travaille"],
+      "answer": ["Je", "travaille", "toujours", "le lundi"],
+      "audio": "Je travaille toujours le lundi.",
+      "explain": "Repaso de la clase 45: el adverbio va después del verbo."
+    },
+    {
+      "id": "e9",
+      "type": "translate_to_es",
+      "tags": ["verbos-er"],
+      "difficulty": 1,
+      "prompt": "J'adore la musique et je déteste le silence.",
+      "accept": ["Me encanta la música y detesto el silencio."],
+      "strictAccents": false,
+      "audio": "J'adore la musique et je déteste le silence.",
+      "explain": "Repaso de la clase 33."
+    },
+    {
+      "id": "e10",
+      "type": "mcq",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es la forma correcta de acheter para «je»?",
+      "options": ["achete", "achète", "achetons", "achetez"],
+      "answer": 1,
+      "explain": "Repaso de la clase 34: j'achète, con e → è."
+    },
+    {
+      "id": "e11",
+      "type": "mcq",
+      "tags": ["aller", "faire"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «hacer deporte»?",
+      "options": ["aller le sport", "faire du sport", "faire le sport", "jouer le sport"],
+      "answer": 1,
+      "explain": "Repaso de la clase 35."
+    },
+    {
+      "id": "e12",
+      "type": "true_false",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "statement": "À + la se contrae en «al».",
+      "answer": false,
+      "explain": "À + la no se contrae nunca: à la."
+    },
+    {
+      "id": "e13",
+      "type": "true_false",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "statement": "La negación de un verbo pronominal rodea el pronombre y el verbo: ne me lève pas.",
+      "answer": true,
+      "explain": "Je ne me lève pas: ne antes del pronombre, pas después del verbo."
+    },
+    {
+      "id": "e14",
+      "type": "odd_one_out",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas formas es de vouloir, a diferencia de las demás?",
+      "options": ["peux", "dois", "veux", "peut"],
+      "answer": 2,
+      "explain": "Veux es de vouloir; las otras son de pouvoir y devoir."
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "tags": ["calendario"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["d'abord", "ensuite", "enfin", "le déjeuner"],
+      "right": ["la comida", "primero", "por último", "luego"],
+      "answer": [1, 3, 2, 0],
+      "explain": "Repaso de la clase 40."
+    },
+    {
+      "id": "e16",
+      "type": "dialogue",
+      "tags": ["rutina"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu rutina",
+      "turns": [
+        { "who": "Léa", "text": "Tu te lèves à quelle heure ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je me lève à sept heures.", "Je me lève tôt."], "hint": "usa je me lève" },
+        { "who": "Léa", "text": "Et tu fais du sport souvent ?", "speak": true }
+      ],
+      "explain": "Repaso combinado de rutina y frecuencia."
+    },
+    {
+      "id": "e17",
+      "type": "listening",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "speak": "Nous finissons à midi et nous choisissons un restaurant.",
+      "mode": "write",
+      "accept": ["Nous finissons à midi et nous choisissons un restaurant"],
+      "showTextAfter": true,
+      "explain": "Repaso de la clase 42."
+    },
+    {
+      "id": "e18",
+      "type": "listening",
+      "tags": ["obligacion"],
+      "difficulty": 2,
+      "speak": "Il faut faire attention.",
+      "mode": "choose",
+      "options": ["Il faut faire attention.", "Je dois faire attention.", "Tu dois faire attention.", "Nous devons faire attention."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Il faut es la única forma impersonal entre las cuatro opciones."
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["modales"],
+      "difficulty": 2,
+      "prompt": "¿Esta forma es de pouvoir, vouloir o devoir?",
+      "buckets": ["pouvoir", "vouloir", "devoir"],
+      "items": [
+        { "text": "peux", "bucket": 0 },
+        { "text": "veut", "bucket": 1 },
+        { "text": "devons", "bucket": 2 },
+        { "text": "voulez", "bucket": 1 },
+        { "text": "doit", "bucket": 2 },
+        { "text": "peuvent", "bucket": 0 }
+      ],
+      "explain": "Repaso combinado de los tres verbos modales."
+    },
+    {
+      "id": "e20",
+      "type": "shadowing",
+      "tags": ["verbos-er", "pronominales"],
+      "difficulty": 3,
+      "speak": "Je me lève, je m'habille, je vais au travail et le soir je me couche tôt.",
+      "es": "Me levanto, me visto, voy al trabajo y por la noche me acuesto pronto.",
+      "ipa": "/ʒə mə lɛv ʒə ma.bij ʒə vɛ o tʁa.vaj e lə swaʁ ʒə mə kuʃ to/",
+      "esApprox": "«ye me LEV ye ma-BIY ye vé o tra-VÁY e le SUAR ye me KUSH TÓ»",
+      "focus": "Una rutina completa combinando pronominales, aller y contracciones.",
+      "selfAssess": true
+    },
+    {
+      "id": "e21",
+      "type": "speak_prompt",
+      "tags": ["frecuencia"],
+      "difficulty": 2,
+      "prompt": "Di algo que haces siempre y algo que no haces nunca.",
+      "modelAnswer": "Je fais toujours du sport le week-end, je ne travaille jamais le dimanche.",
+      "alsoValid": ["Je me lève toujours tôt, je ne me couche jamais tard."],
+      "speak": "Je fais toujours du sport le week-end, je ne travaille jamais le dimanche.",
+      "selfAssess": true
+    },
+    {
+      "id": "e22",
+      "type": "error_correction",
+      "tags": ["contracciones"],
+      "difficulty": 2,
+      "prompt": "Hay un error de contracción. Corrige la frase entera.",
+      "wrong": "Je viens de le travail.",
+      "accept": ["Je viens du travail"],
+      "audio": "Je viens du travail.",
+      "explain": "De + le se contrae siempre en du."
+    },
+    {
+      "id": "e23",
+      "type": "error_correction",
+      "tags": ["pronominales"],
+      "difficulty": 2,
+      "prompt": "Hay un error: falta el pronombre reflexivo. Corrige la frase entera.",
+      "wrong": "Je lève à sept heures.",
+      "accept": ["Je me lève à sept heures"],
+      "audio": "Je me lève à sept heures.",
+      "explain": "Lever es pronominal aquí: hace falta je me lève."
+    },
+    {
+      "id": "e24",
+      "type": "mcq",
+      "tags": ["frecuencia"],
+      "difficulty": 1,
+      "prompt": "¿Qué adverbio indica frecuencia nula?",
+      "options": ["toujours", "souvent", "jamais", "parfois"],
+      "answer": 2,
+      "explain": "Jamais = nunca."
+    },
+    {
+      "id": "e25",
+      "type": "true_false",
+      "tags": ["verbos-er"],
+      "difficulty": 2,
+      "statement": "Je parle, tu parles, il parle e ils parlent suenan todos igual.",
+      "answer": true,
+      "explain": "Repaso de la clase 33."
+    },
+    {
+      "id": "e26",
+      "type": "categorize",
+      "tags": ["calendario"],
+      "difficulty": 1,
+      "prompt": "¿Es un día, un mes o una estación?",
+      "buckets": ["Día", "Mes", "Estación"],
+      "items": [
+        { "text": "lundi", "bucket": 0 },
+        { "text": "décembre", "bucket": 1 },
+        { "text": "l'hiver", "bucket": 2 }
+      ],
+      "explain": "Repaso de la clase 38."
+    },
+    {
+      "id": "e27",
+      "type": "translate_to_es",
+      "tags": ["hora"],
+      "difficulty": 1,
+      "prompt": "Il est trois heures et quart de l'après-midi.",
+      "accept": ["Son las tres y cuarto de la tarde."],
+      "strictAccents": false,
+      "audio": "Il est trois heures et quart de l'après-midi.",
+      "explain": "Repaso de la clase 39."
+    },
+    {
+      "id": "e28",
+      "type": "gender_article",
+      "tags": ["verbos-ir"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto",
+      "items": [
+        { "word": "travail", "options": ["le", "la"], "answer": 0 },
+        { "word": "musique", "options": ["le", "la"], "answer": 1 }
+      ],
+      "explain": "Le travail (masculino), la musique (femenino)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "aller", "es": "ir", "esApprox": "«a-LÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "pouvoir", "es": "poder", "esApprox": "«pu-VUÁR»", "from": "v4" },
+    { "id": "s3", "kind": "word", "target": "vouloir", "es": "querer", "esApprox": "«vu-LUÁR»", "from": "v5" },
+    { "id": "s4", "kind": "word", "target": "devoir", "es": "deber", "esApprox": "«de-VUÁR»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "se lever", "es": "levantarse", "esApprox": "«se le-VÉ»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "il faut", "es": "hay que", "esApprox": "«il FÓ»", "from": "v8" },
+    { "id": "s7", "kind": "word", "target": "ne... jamais", "es": "nunca", "esApprox": "«ne...ya-MÉ»", "from": "v10" },
+    { "id": "s8", "kind": "phrase", "target": "Je dois travailler, mais il faut se reposer aussi.", "es": "Tengo que trabajar, pero hay que descansar también.", "from": "e5" },
+    { "id": "s9", "kind": "phrase", "target": "Je me lève, je m'habille, je vais au travail et le soir je me couche tôt.", "es": "Me levanto, me visto, voy al trabajo y por la noche me acuesto pronto.", "from": "e20" }
+  ]
+}

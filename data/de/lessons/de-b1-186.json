@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-186",
+  "lang": "de",
+  "level": "B1",
+  "order": 186,
+  "title": "El Vorgangspassiv en pasado",
+  "objectives": [
+    "Formar la voz pasiva en Präteritum: wurde + participio",
+    "Reconocer worden como el participio especial de werden en la pasiva del Perfekt",
+    "Elegir entre wurde (narrativo) e ist...worden (conversacional) según el registro"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "wurde + participio: la pasiva narrativa",
+      "body": "Igual que en la voz activa el Präteritum es el registro narrativo (clase 155), la pasiva en Präteritum usa wurde (Präteritum de werden) + participio: «Das Auto wurde repariert» (El coche fue reparado). Es la forma más común en textos escritos, noticias e historia. También existe la pasiva del Perfekt: «Das Auto ist repariert worden», con worden en vez de geworden, una excepción exclusiva de la pasiva.",
+      "examples": [
+        { "target": "Das Auto wurde repariert.", "es": "El coche fue reparado." },
+        { "target": "Das Museum wurde 1920 gebaut.", "es": "El museo fue construido en 1920." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "werden en Präteritum (auxiliar de la pasiva)",
+      "headers": ["Persona", "wurde"],
+      "rows": [
+        ["ich", "wurde"],
+        ["du", "wurdest"],
+        ["er / sie / es", "wurde"],
+        ["wir", "wurden"],
+        ["ihr", "wurdet"],
+        ["sie / Sie", "wurden"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "worden es el participio de werden solo cuando funciona como auxiliar de la pasiva; geworden se usa en el resto de casos, como «Er ist Arzt geworden» (Se hizo médico). Nunca confundas «ist repariert worden» (pasiva, ha sido reparado) con «ist Arzt geworden» (se ha convertido en médico)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "wurde repariert", "es": "fue reparado", "ipa": "/ˈvʊʁdə ʁepaˈʁiːɐ̯t/", "esApprox": "«VUR-de re-pa-RIRT»", "pos": "verbo (voz pasiva, Präteritum)", "gender": null, "example": { "target": "Das Auto wurde repariert.", "es": "El coche fue reparado." } },
+    { "id": "v2", "target": "worden", "es": "(participio de werden en la pasiva)", "ipa": "/ˈvɔʁdn̩/", "esApprox": "«VOR-den»", "pos": "verbo (participio especial)", "gender": null, "example": { "target": "Das Auto ist repariert worden.", "es": "El coche ha sido reparado." } },
+    { "id": "v3", "target": "das Museum", "es": "el museo", "ipa": "/muˈzeːʊm/", "esApprox": "«mu-ZÉ-um»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das Museum wurde 1920 gebaut.", "es": "El museo fue construido en 1920." } },
+    { "id": "v4", "target": "gegründet", "es": "fundado", "ipa": "/ɡəˈɡʁʏndət/", "esApprox": "«ge-GRÜN-det»", "pos": "verbo (participio de gründen)", "gender": null, "example": { "target": "Die Stadt wurde im Mittelalter gegründet.", "es": "La ciudad fue fundada en la Edad Media." } },
+    { "id": "v5", "target": "das Mittelalter", "es": "la Edad Media", "ipa": "/ˈmɪtl̩ˌʔaltɐ/", "esApprox": "«MÍ-tel-al-ter»", "pos": "sustantivo", "gender": "n", "example": { "target": "Die Burg wurde im Mittelalter gebaut.", "es": "El castillo fue construido en la Edad Media." } },
+    { "id": "v6", "target": "entdecken", "es": "descubrir", "ipa": "/ɛntˈdɛkn̩/", "esApprox": "«ent-DÉ-ken»", "pos": "verbo", "gender": null, "example": { "target": "Das wurde erst später entdeckt.", "es": "Eso fue descubierto solo más tarde." } },
+    { "id": "v7", "target": "die Geschichte", "es": "la historia", "ipa": "/ɡəˈʃɪçtə/", "esApprox": "«ge-SHÍCH-te»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das steht in der Geschichte.", "es": "Eso está en la historia." } },
+    { "id": "v8", "target": "zerstören", "es": "destruir", "ipa": "/tsɛɐ̯ˈʃtøːʁən/", "esApprox": "«tser-SHTÖ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Der Wald wurde zerstört.", "es": "El bosque fue destruido." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["voz-pasiva"], "difficulty": 1, "prompt": "¿Cómo se forma la pasiva en Präteritum?", "options": ["wird + participio", "wurde + participio", "war + participio", "würde + participio"], "answer": 1, "explain": "wurde (Präteritum de werden) + participio." },
+    { "id": "e2", "type": "mcq", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "¿Qué participio usa werden en la pasiva del Perfekt?", "options": ["geworden", "worden", "gewesen", "wurde"], "answer": 1, "explain": "worden es exclusivo de la pasiva; geworden se usa para «convertirse en»." },
+    { "id": "e3", "type": "true_false", "tags": ["voz-pasiva"], "difficulty": 2, "statement": "«Er ist Arzt geworden» y «Das Auto ist repariert worden» usan el mismo participio de werden.", "answer": false, "explain": "geworden (hacerse) frente a worden (pasiva del Perfekt): son distintos." },
+    { "id": "e4", "type": "true_false", "tags": ["voz-pasiva"], "difficulty": 2, "statement": "El Präteritum pasivo (wurde) es más común en textos escritos que la pasiva del Perfekt.", "answer": true, "explain": "wurde es el registro narrativo típico de textos históricos y noticias." },
+    { "id": "e5", "type": "match_pairs", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Une cada persona con su forma de wurde", "left": ["ich", "du", "wir", "sie (plural)"], "right": ["wurde", "wurdest", "wurden", "wurden"], "answer": [0, 1, 2, 3], "explain": "Conjugación de werden en Präteritum." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "El coche fue reparado.", "accept": ["Das Auto wurde repariert"], "hintWords": ["das Auto wurde repariert"], "strictAccents": false, "audio": "Das Auto wurde repariert.", "explain": "wurde + repariert (participio al final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "El museo fue construido en 1920.", "accept": ["Das Museum wurde 1920 gebaut"], "hintWords": ["das Museum wurde 1920 gebaut"], "strictAccents": false, "audio": "Das Museum wurde 1920 gebaut.", "explain": "wurde + 1920 + gebaut (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "El bosque fue destruido.", "accept": ["Der Wald wurde zerstört"], "hintWords": ["der Wald wurde zerstört"], "strictAccents": false, "audio": "Der Wald wurde zerstört.", "explain": "wurde + zerstört (participio al final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Completa con la forma correcta", "text": "Die Stadt ___ im Mittelalter gegründet. Das Auto ist repariert ___.", "blanks": [{ "accept": ["wurde"] }, { "accept": ["worden"] }], "bank": ["wurde", "worden", "geworden"], "explain": "wurde (Präteritum) y worden (pasiva del Perfekt)." },
+    { "id": "e10", "type": "word_order", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Ordena: «Eso fue descubierto solo más tarde»", "tokens": ["erst später entdeckt", "Das wurde"], "answer": ["Das wurde", "erst später entdeckt"], "audio": "Das wurde erst später entdeckt.", "explain": "Das (sujeto) + wurde (posición 2) + erst später + entdeckt (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Das steht in der Geschichte.", "accept": ["Eso está en la historia."], "strictAccents": false, "audio": "Das steht in der Geschichte.", "explain": "die Geschichte = la historia." },
+    { "id": "e12", "type": "dialogue", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wann wurde das Museum gebaut?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Es wurde 1920 gebaut."], "hint": "responde con la pasiva en Präteritum" },
+      { "who": "Lea", "text": "Interessant!", "speak": true }
+    ], "explain": "wurde gebaut: pasiva narrativa típica para hablar de historia." },
+    { "id": "e13", "type": "listening", "tags": ["voz-pasiva"], "difficulty": 1, "speak": "Das Auto wurde repariert.", "mode": "write", "accept": ["Das Auto wurde repariert"], "showTextAfter": true, "explain": "wurde + repariert." },
+    { "id": "e14", "type": "listening", "tags": ["voz-pasiva"], "difficulty": 2, "speak": "Das Auto ist repariert worden.", "mode": "choose", "options": ["Das Auto ist repariert worden.", "Das Auto ist repariert geworden.", "Das Auto wurde repariert geworden."], "answer": 0, "showTextAfter": true, "explain": "worden es el único participio correcto para la pasiva del Perfekt." },
+    { "id": "e15", "type": "shadowing", "tags": ["voz-pasiva"], "difficulty": 2, "speak": "Die Stadt wurde im Mittelalter gegründet, und das Museum wurde erst viel später gebaut.", "es": "La ciudad fue fundada en la Edad Media, y el museo fue construido mucho más tarde.", "ipa": "/diː ʃtat ˈvʊʁdə ɪm ˈmɪtl̩ʔaltɐ ɡəˈɡʁʏndət ʊnt das muˈzeːʊm ˈvʊʁdə eːɐ̯st fiːl ˈʃpɛːtɐ ɡəˈbaʊ̯t/", "esApprox": "«di shtat VUR-de im MÍ-tel-al-ter ge-GRÜN-det, unt das mu-ZÉ-um VUR-de erst fil SHPÉ-ter ge-BAUT»", "focus": "wurde gegründet y wurde...gebaut: dos pasivas narrativas en Präteritum sobre historia.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["voz-pasiva"], "difficulty": 2, "speak": "Der Wald wurde durch den Sturm zerstört, aber das wurde erst später richtig entdeckt.", "es": "El bosque fue destruido por la tormenta, pero eso se descubrió correctamente solo más tarde.", "ipa": "/deːɐ̯ valt ˈvʊʁdə dʊʁç deːn ʃtʊʁm tsɛɐ̯ˈʃtøːɐ̯t ˈaːbɐ das ˈvʊʁdə eːɐ̯st ˈʃpɛːtɐ ˈʁɪçtɪç ɛntˈdɛkt/", "esApprox": "«der valt VUR-de durch den shturm tser-SHTÖRT, Á-ber das VUR-de erst SHPÉ-ter RICH-tich ent-DEKT»", "focus": "wurde...zerstört y wurde...entdeckt: dos pasivas en Präteritum, una con durch (causa impersonal).", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Te preguntan cuándo se construyó el museo. Responde que fue construido en 1920.", "modelAnswer": "Es wurde 1920 gebaut.", "alsoValid": ["Das Museum wurde 1920 gebaut."], "speak": "Es wurde 1920 gebaut.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Clasifica cada forma: pasiva en Präteritum o pasiva en Perfekt", "buckets": ["Präteritum (wurde)", "Perfekt (ist...worden)"], "items": [
+      { "text": "Das Auto wurde repariert.", "bucket": 0 },
+      { "text": "Das Auto ist repariert worden.", "bucket": 1 },
+      { "text": "Die Stadt wurde gegründet.", "bucket": 0 }
+    ], "explain": "wurde (Präteritum) frente a ist...worden (Perfekt)." },
+    { "id": "e19", "type": "error_correction", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das Auto ist repariert geworden.", "accept": ["Das Auto ist repariert worden"], "audio": "Das Auto ist repariert worden.", "explain": "En la pasiva del Perfekt, werden usa worden, no geworden." },
+    { "id": "e20", "type": "mcq", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "«Die Stadt wurde im Mittelalter gegründet. Das Museum wurde erst viel später gebaut, und der alte Wald wurde durch einen Sturm zerstört.» ¿Qué pasó con el bosque?", "options": ["Fue plantado de nuevo", "Fue destruido por una tormenta", "Se convirtió en un museo", "Nada, sigue igual"], "answer": 1, "explain": "«der alte Wald wurde durch einen Sturm zerstört» = el bosque viejo fue destruido por una tormenta." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "wurde repariert", "es": "fue reparado", "esApprox": "«VUR-de re-pa-RIRT»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "worden", "es": "(participio de werden en la pasiva)", "esApprox": "«VOR-den»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "gegründet", "es": "fundado", "esApprox": "«ge-GRÜN-det»", "from": "v4" },
+    { "id": "s4", "kind": "word", "target": "das Mittelalter", "es": "la Edad Media", "esApprox": "«MÍ-tel-al-ter»", "from": "v5" },
+    { "id": "s5", "kind": "word", "target": "entdecken", "es": "descubrir", "esApprox": "«ent-DÉ-ken»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "zerstören", "es": "destruir", "esApprox": "«tser-SHTÖ-ren»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Die Stadt wurde im Mittelalter gegründet, und das Museum wurde erst viel später gebaut.", "es": "La ciudad fue fundada en la Edad Media, y el museo fue construido mucho más tarde.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Wald wurde durch den Sturm zerstört, aber das wurde erst später richtig entdeckt.", "es": "El bosque fue destruido por la tormenta, pero eso se descubrió correctamente solo más tarde.", "from": "e16" }
+  ]
+}

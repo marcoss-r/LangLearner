@@ -1,0 +1,384 @@
+{
+  "id": "de-a1-002",
+  "lang": "de",
+  "level": "A1",
+  "order": 2,
+  "title": "El alfabeto y deletrear tu nombre",
+  "objectives": [
+    "Pronunciar las letras del alfabeto alemán que más se diferencian del español (j, v, w, z, y)",
+    "Reconocer y pronunciar los caracteres especiales ä, ö, ü y ß",
+    "Deletrear tu nombre y entender a alguien que deletrea el suyo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Las mismas 26 letras, pero varias suenan distinto",
+      "body": "El alfabeto alemán usa las mismas 26 letras que el español, más cuatro caracteres extra: **ä, ö, ü** (vocales con diéresis, llamadas Umlaute) y **ß** (Eszett o «scharfes S», una s fuerte). La buena noticia es que, una vez sabes cómo suena cada letra, la lees siempre igual: no hay sorpresas como en inglés. La mala noticia es que varias letras que ya conoces suenan de forma distinta a como esperarías desde el español: la j suena como nuestra y, la v como una f suave, y la w como nuestra v.",
+      "examples": [
+        { "target": "ja", "es": "sí", "note": "la j suena como la y española" },
+        { "target": "der Vater", "es": "el padre", "note": "la v suena como una f suave" },
+        { "target": "das Wasser", "es": "el agua", "note": "la w suena como la v española" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las letras que más te van a sorprender",
+      "headers": ["Letra", "Se pronuncia (aprox.)", "Ejemplo"],
+      "rows": [
+        ["J", "como la y española en «yo»", "ja (sí)"],
+        ["V", "como una f suave", "Vater (padre)"],
+        ["W", "como la v española", "Wasser (agua)"],
+        ["Z", "siempre «ts»", "Zug (tren)"],
+        ["Y", "como una ü breve", "typisch (típico)"],
+        ["Ä", "una e abierta", "Mädchen (chica)"],
+        ["Ö", "o con los labios en posición de u", "schön (bonito)"],
+        ["Ü", "u con los labios en posición de i", "müde (cansado)"],
+        ["ß", "una s fuerte (= ss)", "Straße (calle)"]
+      ],
+      "note": "En Suiza la ß no se usa: se escribe siempre ss. En el resto de países de habla alemana sí se mantiene."
+    },
+    {
+      "type": "phonetics",
+      "title": "Los cuatro sonidos que no existen en español",
+      "body": "Ä, ö, ü y ß son los caracteres que más cuesta dominar al principio. Ninguno existe en español, así que hace falta practicar la posición de la boca, no solo memorizar una letra nueva.",
+      "drills": [
+        { "target": "Mädchen", "ipa": "/ˈmɛːtçən/", "esApprox": "«MED-chen», con una e bien abierta, no una e normal", "hint": "ä = e abierta" },
+        { "target": "schön", "ipa": "/ʃøːn/", "esApprox": "«shön», pon la boca como para decir «u» pero pronuncia «e»", "hint": "ö" },
+        { "target": "müde", "ipa": "/ˈmyːdə/", "esApprox": "«MÜ-de», pon la boca como para decir «u» pero pronuncia «i»", "hint": "ü" },
+        { "target": "Straße", "ipa": "/ˈʃtʁaːsə/", "esApprox": "«SHTRA-se», con una s fuerte, nunca suena como una z", "hint": "ß = ss fuerte" }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Para deletrear (buchstabieren), se dice cada letra por separado y despacio. Muchos alemanes, para evitar confusiones por teléfono, añaden «wie in...» (como en...) seguido de un nombre conocido: «M wie Martha» (M como en Martha)."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "das Alphabet",
+      "es": "el alfabeto",
+      "ipa": "/alfaˈbeːt/",
+      "esApprox": "«al-fa-BET»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Alphabete",
+      "example": { "target": "Das deutsche Alphabet hat 26 Buchstaben.", "es": "El alfabeto alemán tiene 26 letras." }
+    },
+    {
+      "id": "v2",
+      "target": "der Buchstabe",
+      "es": "la letra",
+      "ipa": "/ˈbuːxˌʃtaːbə/",
+      "esApprox": "«BUJ-shta-be», la ch suena como una j suave, casi gutural",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Buchstaben",
+      "example": { "target": "Wie schreibt man diesen Buchstaben?", "es": "¿Cómo se escribe esta letra?" }
+    },
+    {
+      "id": "v3",
+      "target": "buchstabieren",
+      "es": "deletrear",
+      "ipa": "/ˌbuːxʃtaˈbiːʁən/",
+      "esApprox": "«buj-shta-BI-ren»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Können Sie das bitte buchstabieren?", "es": "¿Puede deletrearlo, por favor?" }
+    },
+    {
+      "id": "v4",
+      "target": "der Umlaut",
+      "es": "la diéresis (ä, ö, ü)",
+      "ipa": "/ˈʊmlaʊ̯t/",
+      "esApprox": "«UM-laut»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Umlaute",
+      "example": { "target": "Ä, ö und ü sind Umlaute.", "es": "Ä, ö y ü son diéresis." }
+    },
+    {
+      "id": "v5",
+      "target": "das Eszett",
+      "es": "la letra ß",
+      "ipa": "/ˈɛsˌtsɛt/",
+      "esApprox": "«ES-tset»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Eszetts",
+      "example": { "target": "Straße schreibt man mit Eszett.", "es": "Straße se escribe con ß." }
+    },
+    {
+      "id": "v6",
+      "target": "Wie schreibt man das?",
+      "es": "¿Cómo se escribe eso?",
+      "ipa": "/viː ˈʃʁaɪ̯pt man das/",
+      "esApprox": "«vi SHRAIPT man das»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Entschuldigung, wie schreibt man das?", "es": "Perdón, ¿cómo se escribe eso?" }
+    },
+    {
+      "id": "v7",
+      "target": "Können Sie das buchstabieren?",
+      "es": "¿Puede deletrearlo?",
+      "ipa": "/ˈkœnən ziː das ˌbuːxʃtaˈbiːʁən/",
+      "esApprox": "«KÖ-nen zi das buj-shta-BI-ren»",
+      "pos": "expresión",
+      "gender": null,
+      "example": { "target": "Können Sie Ihren Namen buchstabieren?", "es": "¿Puede deletrear su nombre?" }
+    },
+    {
+      "id": "v8",
+      "target": "der Name",
+      "es": "el nombre",
+      "ipa": "/ˈnaːmə/",
+      "esApprox": "«NA-me»",
+      "pos": "sustantivo",
+      "gender": "m",
+      "plural": "die Namen",
+      "example": { "target": "Mein Name ist schwer zu schreiben.", "es": "Mi nombre es difícil de escribir." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["alfabeto"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se pronuncia la letra «w» en alemán?",
+      "options": ["como una y española", "como una v española", "como una doble u inglesa", "es muda"],
+      "answer": 1,
+      "explain": "La w alemana suena como la v española: Wasser se pronuncia «VA-ser»."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["alfabeto"],
+      "difficulty": 1,
+      "prompt": "¿Cómo suena siempre la letra «z» en alemán?",
+      "options": ["como en «zapato»", "como «ts»", "es muda", "como «s»"],
+      "answer": 1,
+      "explain": "La z alemana siempre suena «ts»: Zug se pronuncia «tsuk»."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["alfabeto"],
+      "difficulty": 1,
+      "statement": "La ß (Eszett) se pronuncia como una s fuerte, nunca como una z.",
+      "answer": true,
+      "explain": "ß equivale a una ss fuerte; en Suiza, de hecho, se escribe directamente ss."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["alfabeto"],
+      "difficulty": 1,
+      "statement": "La letra «j» en alemán suena como la jota española.",
+      "answer": false,
+      "explain": "La j alemana suena como la y española: ja se pronuncia «ya»."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos sonidos SÍ existe en español?",
+      "options": ["ä", "ö", "ü", "a"],
+      "answer": 3,
+      "explain": "Ä, ö y ü son sonidos que no existen en español; la a es igual en los dos idiomas."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Une cada letra con su sonido aproximado",
+      "left": ["J", "V", "W", "Z"],
+      "right": ["y (como en «yo»)", "f suave", "v española", "ts"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Estas cuatro letras son las que más engañan a un hispanohablante que empieza con alemán."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se escribe eso?",
+      "accept": ["Wie schreibt man das?"],
+      "hintWords": ["wie", "schreibt", "man", "das"],
+      "strictAccents": false,
+      "audio": "Wie schreibt man das?",
+      "explain": "Wie schreibt man das? es la pregunta estándar cuando no sabes cómo se escribe una palabra."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "¿Puede deletrearlo, por favor? (formal)",
+      "accept": ["Können Sie das bitte buchstabieren?", "Können Sie das buchstabieren, bitte?"],
+      "hintWords": ["können Sie", "buchstabieren", "bitte"],
+      "strictAccents": false,
+      "audio": "Können Sie das bitte buchstabieren?",
+      "explain": "Con Sie (usted) se usa können Sie...; verás esta forma con calma más adelante."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra que falta",
+      "text": "Ich verstehe den Namen nicht. Können Sie das bitte ___?",
+      "blanks": [{ "accept": ["buchstabieren"] }],
+      "bank": ["buchstabieren", "schreiben", "sprechen"],
+      "explain": "buchstabieren es «deletrear»: decir el nombre letra por letra."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Cómo se escribe tu nombre?»",
+      "tokens": ["man", "schreibt", "Namen", "deinen", "Wie"],
+      "answer": ["Wie", "schreibt", "man", "deinen", "Namen"],
+      "audio": "Wie schreibt man deinen Namen?",
+      "explain": "Wie schreibt man...? es la estructura fija para preguntar cómo se escribe algo."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["alfabeto"],
+      "difficulty": 1,
+      "prompt": "Können Sie das buchstabieren?",
+      "accept": ["¿Puede deletrearlo?", "¿Puedes deletrearlo?"],
+      "strictAccents": false,
+      "audio": "Können Sie das buchstabieren?",
+      "explain": "Können Sie...? es la forma formal de pedir algo; buchstabieren es deletrear."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en una recepción",
+      "turns": [
+        { "who": "Empleado", "text": "Wie schreibt man Ihren Namen?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["M-A-R-C-O."], "hint": "deletrea tu nombre letra por letra" },
+        { "who": "Empleado", "text": "Danke, jetzt verstehe ich.", "speak": true }
+      ],
+      "explain": "Para deletrear, di cada letra por separado y despacio."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "speak": "Wie schreibt man das?",
+      "mode": "write",
+      "accept": ["Wie schreibt man das?"],
+      "showTextAfter": true,
+      "explain": "Wie schreibt man das? = ¿Cómo se escribe eso?"
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "speak": "Können Sie das buchstabieren?",
+      "mode": "choose",
+      "options": ["Können Sie das buchstabieren?", "Wie schreibt man das?", "Wie heißt du?"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Las tres frases se parecen; escucha bien el verbo: buchstabieren, schreiben o heißen."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "speak": "Können Sie das bitte buchstabieren?",
+      "es": "¿Puede deletrearlo, por favor?",
+      "ipa": "/ˈkœnən ziː das ˈbɪtə ˌbuːxʃtaˈbiːʁən/",
+      "esApprox": "«KÖ-nen zi das BI-te buj-shta-BI-ren»",
+      "focus": "La combinación «ie» siempre suena i larga, nunca «ie» como en español: buchstabieren = buj-shta-bi-ren.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "speak": "Mein Name ist schwer zu schreiben.",
+      "es": "Mi nombre es difícil de escribir.",
+      "ipa": "/maɪ̯n ˈnaːmə ɪst ʃveːɐ̯ tsuː ˈʃʁaɪ̯bən/",
+      "esApprox": "«main NA-me ist shver tsu SHRAI-ben»",
+      "focus": "sch se pronuncia siempre como una ch suave (parecida al «sh» inglés), tanto en schwer como en schreiben.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Un empleado te pide que deletrees tu nombre para una reserva. Deletréalo letra por letra en alemán (usa el nombre María como ejemplo).",
+      "modelAnswer": "M-A-R-I-A.",
+      "alsoValid": ["Ich buchstabiere: M-A-R-I-A."],
+      "speak": "M-A-R-I-A.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "gender_article",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Alphabet", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Buchstabe", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" },
+        { "word": "Name", "options": ["der", "die", "das"], "answer": 0, "hint": "es masculino" }
+      ],
+      "explain": "El género no se adivina por el significado: hay que memorizarlo con cada palabra nueva."
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["alfabeto"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra según su género: der, die o das",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Alphabet", "bucket": 2 },
+        { "text": "Buchstabe", "bucket": 0 },
+        { "text": "Umlaut", "bucket": 0 },
+        { "text": "Eszett", "bucket": 2 },
+        { "text": "Name", "bucket": 0 }
+      ],
+      "explain": "Todavía no ha aparecido ninguna palabra femenina (die) en esta clase: llegarán en la próxima tanda de vocabulario."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["mayuscula-sustantivos", "alfabeto"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Wie Schreibt man das?",
+      "accept": ["Wie schreibt man das?"],
+      "audio": "Wie schreibt man das?",
+      "explain": "Schreibt es un verbo, no un sustantivo: en alemán solo los sustantivos llevan mayúscula inicial, los verbos van siempre en minúscula."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Alphabet", "es": "el alfabeto", "esApprox": "«al-fa-BET»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Buchstabe", "es": "la letra", "esApprox": "«BUJ-shta-be»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "buchstabieren", "es": "deletrear", "esApprox": "«buj-shta-BI-ren»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Umlaut", "es": "la diéresis", "esApprox": "«UM-laut»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "das Eszett", "es": "la letra ß", "esApprox": "«ES-tset»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Name", "es": "el nombre", "esApprox": "«NA-me»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Wie schreibt man das?", "es": "¿Cómo se escribe eso?", "from": "v6" },
+    { "id": "s8", "kind": "phrase", "target": "Können Sie das buchstabieren?", "es": "¿Puede deletrearlo?", "from": "v7" },
+    { "id": "s9", "kind": "phrase", "target": "Können Sie das bitte buchstabieren?", "es": "¿Puede deletrearlo, por favor?", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Mein Name ist schwer zu schreiben.", "es": "Mi nombre es difícil de escribir.", "from": "e16" }
+  ]
+}

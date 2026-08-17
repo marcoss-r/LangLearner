@@ -1,0 +1,262 @@
+{
+  "id": "fr-a1-066",
+  "lang": "fr",
+  "level": "A1",
+  "order": 66,
+  "title": "En el médico: decir que te duele algo",
+  "objectives": [
+    "Usar avoir mal à + parte del cuerpo para decir que algo te duele",
+    "Aplicar las contracciones au/à la/à l'/aux (clase 36) con avoir mal à",
+    "Mantener una conversación sencilla en la consulta del médico"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Avoir mal à",
+      "body": "Para decir que te duele algo, usa avoir mal à + parte del cuerpo. À se contrae con el artículo definido igual que aprendiste en la clase 36: à + le = au, à + les = aux.",
+      "examples": [
+        { "target": "J'ai mal à la tête et j'ai mal au dos.", "es": "Me duele la cabeza y me duele la espalda.", "note": "à la tête (sin contracción) frente a au dos (à + le → au)" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Avoir mal à + las contracciones",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["avoir mal à la + f. sing.", "J'ai mal à la tête."],
+        ["avoir mal au + m. sing.", "J'ai mal au dos, au ventre."],
+        ["avoir mal à l' + vocal", "J'ai mal à l'oreille."],
+        ["avoir mal aux + plural", "J'ai mal aux pieds, aux oreilles."]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "En la consulta del médico",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["Qu'est-ce qui ne va pas ?", "¿Qué le pasa?"],
+        ["J'ai mal à...", "Me duele..."],
+        ["Depuis quand ?", "¿Desde cuándo?"],
+        ["Depuis hier / deux jours.", "Desde ayer / hace dos días."],
+        ["Vous devez vous reposer.", "Tiene que descansar."]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "avoir mal à", "es": "dolerle (a alguien)", "ipa": "/a.vwaʁ mal a/", "esApprox": "«a-VUÁR mal A»", "pos": "expresión", "gender": null, "example": { "target": "J'ai mal à la tête.", "es": "Me duele la cabeza." } },
+    { "id": "v2", "target": "J'ai mal au dos.", "es": "Me duele la espalda.", "ipa": "/ʒe mal o do/", "esApprox": "«ye mal o DÓ»", "pos": "expresión", "gender": null, "example": { "target": "J'ai mal au dos depuis hier.", "es": "Me duele la espalda desde ayer." } },
+    { "id": "v3", "target": "J'ai mal aux pieds.", "es": "Me duelen los pies.", "ipa": "/ʒe mal o pje/", "esApprox": "«ye mal o PIÉ»", "pos": "expresión", "gender": null, "example": { "target": "J'ai mal aux pieds après le sport.", "es": "Me duelen los pies después del deporte." } },
+    { "id": "v4", "target": "Qu'est-ce qui ne va pas ?", "es": "¿Qué le pasa?", "ipa": "/kɛs.ki nə va pa/", "esApprox": "«kes-ki ne va PA»", "pos": "expresión", "gender": null, "example": { "target": "Qu'est-ce qui ne va pas ? — J'ai mal au ventre.", "es": "¿Qué le pasa? —Me duele la barriga." } },
+    { "id": "v5", "target": "depuis", "es": "desde", "ipa": "/də.pɥi/", "esApprox": "«de-PÜÍ»", "pos": "preposición", "gender": null, "example": { "target": "J'ai mal à la tête depuis ce matin.", "es": "Me duele la cabeza desde esta mañana." } },
+    { "id": "v6", "target": "se reposer", "es": "descansar", "ipa": "/sə ʁə.po.ze/", "esApprox": "«se re-po-ZÉ»", "pos": "verbo", "gender": null, "example": { "target": "Vous devez vous reposer.", "es": "Tiene que descansar." } },
+    { "id": "v7", "target": "malade", "es": "enfermo/a", "ipa": "/ma.lad/", "esApprox": "«ma-LAD»", "pos": "adjetivo", "gender": "m", "example": { "target": "Je suis malade aujourd'hui.", "es": "Estoy enfermo hoy." } },
+    { "id": "v8", "target": "J'ai mal à l'oreille.", "es": "Me duele el oído.", "ipa": "/ʒe mal a lɔ.ʁɛj/", "esApprox": "«ye mal a lo-REY»", "pos": "expresión", "gender": null, "example": { "target": "J'ai mal à l'oreille depuis deux jours.", "es": "Me duele el oído desde hace dos días." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["medico", "salud"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me duele la cabeza»?",
+      "options": ["J'ai mal au tête.", "J'ai mal à la tête.", "J'ai mal les tête.", "Je suis mal la tête."],
+      "answer": 1,
+      "explain": "À + la tête (f. sing., no se contrae): à la tête."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["medico", "salud"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me duele la espalda»?",
+      "options": ["J'ai mal à le dos.", "J'ai mal au dos.", "J'ai mal à la dos.", "J'ai mal aux dos."],
+      "answer": 1,
+      "explain": "À + le dos se contrae en au dos (clase 36)."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "statement": "Con partes del cuerpo en plural, se usa avoir mal aux.",
+      "answer": true,
+      "explain": "À + les se contrae en aux: j'ai mal aux pieds."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas frases no usa avoir mal à correctamente?",
+      "options": ["J'ai mal à la tête.", "J'ai mal au ventre.", "J'ai mal à l'oreille.", "J'ai mal à le dos."],
+      "answer": 3,
+      "explain": "À + le siempre se contrae en au: j'ai mal au dos, no à le dos."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["se reposer", "Qu'est-ce qui ne va pas ?", "depuis", "malade"],
+      "right": ["desde", "descansar", "enfermo/a", "¿qué le pasa?"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Se reposer = descansar, Qu'est-ce qui ne va pas = ¿qué le pasa?, depuis = desde, malade = enfermo/a."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Me duele la cabeza y me duele la espalda desde ayer.",
+      "accept": ["J'ai mal à la tête et j'ai mal au dos depuis hier"],
+      "hintWords": ["j'ai mal à la tête", "j'ai mal au dos", "depuis hier"],
+      "strictAccents": false,
+      "audio": "J'ai mal à la tête et j'ai mal au dos depuis hier.",
+      "explain": "À la tête (sin contraer) frente a au dos (contraído)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Me duelen los pies y los oídos. Estoy enfermo.",
+      "accept": ["J'ai mal aux pieds et aux oreilles. Je suis malade"],
+      "hintWords": ["j'ai mal aux pieds", "aux oreilles", "je suis malade"],
+      "strictAccents": false,
+      "audio": "J'ai mal aux pieds et aux oreilles. Je suis malade.",
+      "explain": "Aux pieds, aux oreilles: à + les → aux (partes en plural)."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de à",
+      "text": "J'ai mal ___ ventre et j'ai mal ___ oreilles.",
+      "blanks": [{ "accept": ["au"] }, { "accept": ["aux"] }],
+      "bank": ["au", "à la", "aux"],
+      "explain": "Au ventre (m. sing.) y aux oreilles (plural)."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Tiene que descansar»",
+      "tokens": ["vous reposer", "devez", "Vous"],
+      "answer": ["Vous", "devez", "vous reposer"],
+      "audio": "Vous devez vous reposer.",
+      "explain": "Devoir (clase 44) + se reposer, pronominal."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Qu'est-ce qui ne va pas ? — J'ai mal à la gorge depuis deux jours.",
+      "accept": ["¿Qué le pasa? —Me duele la garganta desde hace dos días."],
+      "strictAccents": false,
+      "audio": "Qu'est-ce qui ne va pas ? — J'ai mal à la gorge depuis deux jours.",
+      "explain": "Depuis + cantidad de tiempo = desde hace."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación en la consulta",
+      "turns": [
+        { "who": "Médecin", "text": "Bonjour ! Qu'est-ce qui ne va pas ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["J'ai mal à la tête.", "J'ai mal au ventre.", "J'ai mal au dos."], "hint": "di qué te duele" },
+        { "who": "Médecin", "text": "Depuis quand ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Depuis hier.", "Depuis deux jours."], "hint": "di desde cuándo" }
+      ],
+      "explain": "Estructura habitual de la consulta: dolor + tiempo."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "speak": "J'ai mal à la tête et au ventre depuis ce matin. Je suis malade.",
+      "mode": "write",
+      "accept": ["J'ai mal à la tête et au ventre depuis ce matin. Je suis malade"],
+      "showTextAfter": true,
+      "explain": "Dos dolores diferentes con sus contracciones correspondientes."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["medico"],
+      "difficulty": 1,
+      "speak": "J'ai mal aux pieds.",
+      "mode": "choose",
+      "options": ["J'ai mal à la tête.", "J'ai mal au dos.", "J'ai mal aux pieds.", "J'ai mal à l'oreille."],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "J'ai mal aux pieds = me duelen los pies."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["medico"],
+      "difficulty": 3,
+      "speak": "Bonjour, j'ai mal à la tête et au dos depuis hier. Je suis fatigué et malade.",
+      "es": "Buenos días, me duele la cabeza y la espalda desde ayer. Estoy cansado y enfermo.",
+      "ipa": "/bɔ̃.ʒuʁ ʒe mal a la tɛt e o do də.pɥi jɛʁ ʒə sɥi fa.ti.ɡe e ma.lad/",
+      "esApprox": "«bon-YUR ye mal a la TET e o DÓ de-PÜÍ IER ye süí fa-ti-GUÉ e ma-LAD»",
+      "focus": "Presentar dos dolores y el estado general ante el médico.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Explica al médico qué te duele y desde cuándo.",
+      "modelAnswer": "J'ai mal à la tête depuis ce matin.",
+      "alsoValid": ["J'ai mal au ventre et aux pieds depuis hier."],
+      "speak": "J'ai mal à la tête depuis ce matin.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "¿Se usa au, à la, à l' o aux?",
+      "buckets": ["au", "à la", "à l'", "aux"],
+      "items": [
+        { "text": "dos", "bucket": 0 },
+        { "text": "tête", "bucket": 1 },
+        { "text": "oreille", "bucket": 2 },
+        { "text": "pieds", "bucket": 3 },
+        { "text": "ventre", "bucket": 0 },
+        { "text": "jambes", "bucket": 3 }
+      ],
+      "explain": "Dos/ventre (m. sing.) → au; tête (f. sing.) → à la; oreille (vocal) → à l'; pieds/jambes (plural) → aux."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Hay un error de contracción. Corrige la frase entera.",
+      "wrong": "J'ai mal à les pieds.",
+      "accept": ["J'ai mal aux pieds"],
+      "audio": "J'ai mal aux pieds.",
+      "explain": "À + les se contrae siempre en aux."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "avoir mal à", "es": "dolerle (a alguien)", "esApprox": "«a-VUÁR mal A»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "J'ai mal au dos.", "es": "Me duele la espalda.", "esApprox": "«ye mal o DÓ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "J'ai mal aux pieds.", "es": "Me duelen los pies.", "esApprox": "«ye mal o PIÉ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "Qu'est-ce qui ne va pas ?", "es": "¿Qué le pasa?", "esApprox": "«kes-ki ne va PA»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "depuis", "es": "desde", "esApprox": "«de-PÜÍ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "se reposer", "es": "descansar", "esApprox": "«se re-po-ZÉ»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "malade", "es": "enfermo/a", "esApprox": "«ma-LAD»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai mal à la tête et j'ai mal au dos depuis hier.", "es": "Me duele la cabeza y me duele la espalda desde ayer.", "from": "e6" }
+  ]
+}

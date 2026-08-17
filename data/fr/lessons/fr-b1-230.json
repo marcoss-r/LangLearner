@@ -1,0 +1,250 @@
+{
+  "id": "fr-b1-230",
+  "lang": "fr",
+  "level": "B1",
+  "order": 230,
+  "title": "Los medios de comunicación y las noticias",
+  "objectives": [
+    "Usar vocabulario sobre la fiabilidad de la información: une source fiable, vérifier une information",
+    "Hablar de las noticias falsas y el periodismo: les fake news, un journaliste, la liberté de la presse",
+    "Practicar frases sobre seguir la actualidad de forma crítica"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Consumir noticias con espíritu crítico",
+      "body": "Ya sabes vocabulario básico de prensa y televisión. Ahora hablas de la fiabilidad de la información, un tema central en el mundo actual."
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de los medios",
+      "headers": ["Expresión", "Significado"],
+      "rows": [
+        ["les gros titres", "los titulares"],
+        ["une source fiable", "una fuente fiable"],
+        ["une fausse information", "una noticia falsa"],
+        ["un journaliste", "un periodista"],
+        ["la liberté de la presse", "la libertad de prensa"],
+        ["vérifier une information", "verificar una información"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Suivre l'actualité con criterio",
+      "body": "Suivre l'actualité (seguir la actualidad) es útil, pero conviene vérifier une information antes de compartirla, sobre todo si viene de una source poco fiable."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "les gros titres", "es": "los titulares", "ipa": "/le gʁo titʁ/", "esApprox": "«le GRO TITR»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v2", "target": "une source fiable", "es": "una fuente fiable", "ipa": "/yn suʁs fjabl/", "esApprox": "«ün SURS FIABL»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v3", "target": "une fausse information", "es": "una noticia falsa", "ipa": "/yn fos ɛ̃.fɔʁ.ma.sjɔ̃/", "esApprox": "«ün FOS in-for-ma-SIÓN»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v4", "target": "un journaliste", "es": "un periodista", "ipa": "/œ̃ ʒuʁ.na.list/", "esApprox": "«un shur-na-LIST»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v5", "target": "la liberté de la presse", "es": "la libertad de prensa", "ipa": "/la li.bɛʁ.te də la pʁɛs/", "esApprox": "«la li-ber-TÉ de la PRES»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v6", "target": "vérifier une information", "es": "verificar una información", "ipa": "/ve.ʁi.fje yn ɛ̃.fɔʁ.ma.sjɔ̃/", "esApprox": "«ve-ri-FIÉ ün in-for-ma-SIÓN»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "un scandale médiatique", "es": "un escándalo mediático", "ipa": "/œ̃ skɑ̃.dal me.dja.tik/", "esApprox": "«un skan-DAL me-dia-TIK»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v8", "target": "suivre l'actualité", "es": "seguir la actualidad", "ipa": "/sɥivʁ lak.ty.a.li.te/", "esApprox": "«SÜÍVR lak-tü-a-li-TÉ»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «una noticia falsa»?",
+      "options": ["une source fiable", "une fausse information", "un gros titre", "un scandale médiatique"],
+      "answer": 1,
+      "explain": "Une fausse information es una noticia falsa."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "¿Quién escribe las noticias?",
+      "options": ["un journaliste", "un citoyen", "un spécialiste", "un propriétaire"],
+      "answer": 0,
+      "explain": "Un journaliste es un periodista."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "statement": "Vérifier une information significa comprobar si es cierta.",
+      "answer": true,
+      "explain": "Vérifier une information es verificarla antes de creerla o compartirla."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "statement": "Une source fiable es lo mismo que une fausse information.",
+      "answer": false,
+      "explain": "Une source fiable es de confianza; une fausse information es falsa."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su significado",
+      "left": ["les gros titres", "un journaliste", "la liberté de la presse", "un scandale médiatique"],
+      "right": ["los titulares", "un periodista", "la libertad de prensa", "un escándalo mediático"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Vocabulario clave de los medios de comunicación."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "Es importante verificar una información antes de compartirla.",
+      "accept": ["Il est important de vérifier une information avant de la partager"],
+      "hintWords": ["il est important de vérifier une information", "avant de la partager"],
+      "strictAccents": true,
+      "audio": "Il est important de vérifier une information avant de la partager.",
+      "explain": "Vérifier une information + avant de + infinitif (repaso del infinitif)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "El periodista escribió un artículo sobre una noticia falsa." ,
+      "accept": ["Le journaliste a écrit un article sur une fausse information"],
+      "hintWords": ["le journaliste a écrit un article", "sur une fausse information"],
+      "strictAccents": true,
+      "audio": "Le journaliste a écrit un article sur une fausse information.",
+      "explain": "Un journaliste + une fausse information."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "J'ai lu les ___ du journal, mais je préfère ___ l'information avant d'y croire.",
+      "blanks": [{ "accept": ["gros titres"] }, { "accept": ["vérifier"] }],
+      "bank": ["gros titres", "vérifier", "partager"],
+      "explain": "Les gros titres + vérifier une information."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La libertad de prensa es esencial»",
+      "tokens": ["est essentielle", "La liberté de la presse"],
+      "answer": ["La liberté de la presse", "est essentielle"],
+      "audio": "La liberté de la presse est essentielle.",
+      "explain": "La liberté de la presse como sujeto de la frase."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "Un scandale médiatique a éclaté après la publication d'une fausse information.",
+      "accept": ["Estalló un escándalo mediático después de la publicación de una noticia falsa."],
+      "strictAccents": false,
+      "audio": "Un scandale médiatique a éclaté après la publication d'une fausse information.",
+      "explain": "Un scandale médiatique + une fausse information."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre las noticias",
+      "turns": [
+        { "who": "Léa", "text": "Tu suis l'actualité ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, mais je vérifie toujours mes sources.", "Je fais attention aux fausses informations."], "hint": "usa vocabulario de medios" },
+        { "who": "Léa", "text": "C'est important !", "speak": true }
+      ],
+      "explain": "Repaso combinado del vocabulario de medios."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "speak": "J'ai lu les gros titres, mais je préfère vérifier une information avant d'y croire.",
+      "mode": "write",
+      "accept": ["J'ai lu les gros titres, mais je préfère vérifier une information avant d'y croire"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del vocabulario de medios."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["medios", "noticias"],
+      "difficulty": 1,
+      "speak": "une source fiable",
+      "mode": "choose",
+      "options": ["une fausse information", "une source fiable", "un scandale médiatique", "un gros titre"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Une source fiable es una fuente de confianza."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["medios", "noticias"],
+      "difficulty": 3,
+      "speak": "Je suis l'actualité, je lis les gros titres, mais je vérifie toujours si la source est fiable avant de croire une information.",
+      "es": "Sigo la actualidad, leo los titulares, pero siempre verifico si la fuente es fiable antes de creer una información.",
+      "ipa": "/ʒə sɥi lak.ty.a.li.te ʒə li le gʁo titʁ mɛ ʒə ve.ʁi.fj tu.ʒuʁ si la suʁs ɛ fjabl a.vɑ̃ də kʁwaʁ yn ɛ̃.fɔʁ.ma.sjɔ̃/",
+      "esApprox": "«ye süí lak-tü-a-li-TÉ ye LI le GRO TITR me ye ve-ri-FÍ tu-YUR si la SURS e FIABL a-VAN de KRUÁR ün in-for-ma-SIÓN»",
+      "focus": "Vocabulario de medios encadenado en una actitud crítica ante las noticias.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "Explica cómo consumes noticias de forma crítica, usando el vocabulario de medios.",
+      "modelAnswer": "Je suis l'actualité, mais je vérifie toujours si la source est fiable.",
+      "alsoValid": ["Il faut faire attention aux fausses informations."],
+      "speak": "Je suis l'actualité, mais je vérifie toujours si la source est fiable.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "¿Es fiable o no fiable?",
+      "buckets": ["Fiable", "No fiable"],
+      "items": [
+        { "text": "une source fiable", "bucket": 0 },
+        { "text": "une fausse information", "bucket": 1 },
+        { "text": "un journaliste sérieux", "bucket": 0 },
+        { "text": "une rumeur non vérifiée", "bucket": 1 }
+      ],
+      "explain": "Une source fiable y un journaliste sérieux son fiables; une fausse information y una rumeur non vérifiée no lo son."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["medios", "noticias"],
+      "difficulty": 2,
+      "prompt": "Hay un error: vérifier no lleva de antes del complemento directo. Corrige la frase entera.",
+      "wrong": "Je vérifie de l'information avant d'y croire.",
+      "accept": ["Je vérifie l'information avant d'y croire"],
+      "audio": "Je vérifie l'information avant d'y croire.",
+      "explain": "Vérifier une information es un complemento directo, sin de."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "les gros titres", "es": "los titulares", "esApprox": "«le GRO TITR»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "une source fiable", "es": "una fuente fiable", "esApprox": "«ün SURS FIABL»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "une fausse information", "es": "una noticia falsa", "esApprox": "«ün FOS in-for-ma-SIÓN»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "un journaliste", "es": "un periodista", "esApprox": "«un shur-na-LIST»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "vérifier une information", "es": "verificar una información", "esApprox": "«ve-ri-FIÉ ün in-for-ma-SIÓN»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "suivre l'actualité", "es": "seguir la actualidad", "esApprox": "«SÜÍVR lak-tü-a-li-TÉ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Il est important de vérifier une information avant de la partager.", "es": "Es importante verificar una información antes de compartirla.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Le journaliste a écrit un article sur une fausse information.", "es": "El periodista escribió un artículo sobre una noticia falsa.", "from": "e7" }
+  ]
+}

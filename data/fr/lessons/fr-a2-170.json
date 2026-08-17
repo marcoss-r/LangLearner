@@ -1,0 +1,248 @@
+{
+  "id": "fr-a2-170",
+  "lang": "fr",
+  "level": "A2",
+  "order": 170,
+  "title": "Repaso activo XIV: pronombres y sustitución",
+  "objectives": [
+    "Repasar los pronombres en, y, tónicos y su combinación en una misma frase",
+    "Repasar los relativos qui, que, où y los demostrativos ce/celui",
+    "Practicar frases que sustituyen varios elementos sin repetir el sustantivo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Todo lo que sustituye a un sustantivo",
+      "body": "Sin gramática nueva. Repasa en (de + cosa), y (à + lugar/cosa), los pronombres tónicos (moi, toi, lui...), los relativos (qui, que, où) y los demostrativos (celui, celle) del Bloque J."
+    },
+    {
+      "type": "table",
+      "title": "Resumen de sustituciones",
+      "headers": ["Pronombre", "Sustituye a...", "Ejemplo"],
+      "rows": [
+        ["en", "de + cosa/cantidad", "j'en ai deux"],
+        ["y", "à + lugar/cosa", "j'y vais"],
+        ["qui/que", "sujeto/complemento en una relativa", "un livre que j'aime"],
+        ["celui/celle", "un sustantivo ya mencionado", "celui de Léa"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Combina varios pronombres a la vez",
+      "body": "En una conversación real, es normal combinar varios pronombres en la misma frase: j'y vais avec lui, j'en ai plusieurs et je préfère celui-ci. Cuantas más combinaciones practiques, más natural sonará tu francés."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "j'en ai", "es": "tengo (de eso)", "ipa": "/ʒɑ̃.n‿e/", "esApprox": "«shan-NÉ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "j'y vais", "es": "voy allí", "ipa": "/ʒi vɛ/", "esApprox": "«shi VE»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "avec moi", "es": "conmigo", "ipa": "/a.vɛk mwa/", "esApprox": "«a-VEK muá»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "un ami qui...", "es": "un amigo que...", "ipa": "/œ̃.n‿a.mi ki/", "esApprox": "«un-na-MÍ ki»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "le jour où...", "es": "el día en que...", "ipa": "/lə ʒuʁ u/", "esApprox": "«le YUR u»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "celui de", "es": "el de", "ipa": "/sə.lɥi də/", "esApprox": "«se-LÜÍ de»", "pos": "pronombre", "gender": null },
+    { "id": "v7", "target": "quelques-uns", "es": "algunos (de eso)", "ipa": "/kɛl.kə.zœ̃/", "esApprox": "«kel-ke-ZUN»", "pos": "pronombre", "gender": null },
+    { "id": "v8", "target": "chaque", "es": "cada", "ipa": "/ʃak/", "esApprox": "«SHAK»", "pos": "adjetivo", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Cómo respondes «sí, tengo dos» a «tu as des frères ?»?",
+      "options": ["Oui, j'en ai deux.", "Oui, j'y ai deux.", "Oui, je les ai deux.", "Oui, j'ai ça."],
+      "answer": 0,
+      "explain": "Repaso de la clase A2-113: en sustituye a de + cantidad."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Cómo respondes «sí, voy» a «tu vas au travail ?»?",
+      "options": ["Oui, j'y vais.", "Oui, j'en vais.", "Oui, je le vais.", "Oui, je vais ça."],
+      "answer": 0,
+      "explain": "Repaso de la clase A2-114: y sustituye a à + lugar."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["relativos"],
+      "difficulty": 2,
+      "statement": "Después de qui va directamente un verbo, sin otro sujeto.",
+      "answer": true,
+      "explain": "Repaso de la clase A2-117."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["demostrativos"],
+      "difficulty": 2,
+      "statement": "Celui se usa para sustantivos femeninos.",
+      "answer": false,
+      "explain": "Celui es masculino; celle es la forma femenina."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Une cada pronombre con lo que sustituye",
+      "left": ["en", "y", "celui", "qui"],
+      "right": ["sujeto de una relativa", "de + cosa", "un sustantivo ya mencionado", "à + lugar"],
+      "answer": [1, 3, 2, 0],
+      "explain": "En = de + cosa, y = à + lugar, celui = sustantivo ya mencionado, qui = sujeto de una relativa."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Tengo un amigo que vive en el barrio donde nací.",
+      "accept": ["J'ai un ami qui habite dans le quartier où je suis né"],
+      "hintWords": ["j'ai un ami qui habite", "dans le quartier où je suis né"],
+      "strictAccents": true,
+      "audio": "J'ai un ami qui habite dans le quartier où je suis né.",
+      "explain": "Repaso de las clases A2-117 y A2-118."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Este libro es interesante, pero prefiero el de Léa.",
+      "accept": ["Ce livre est intéressant, mais je préfère celui de Léa"],
+      "hintWords": ["ce livre est intéressant", "je préfère celui de Léa"],
+      "strictAccents": true,
+      "audio": "Ce livre est intéressant, mais je préfère celui de Léa.",
+      "explain": "Repaso de las clases A2-119 y A2-120."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Completa con el pronombre correcto",
+      "text": "Tu as des questions ? Oui, j'___ ai ___.",
+      "blanks": [{ "accept": ["en"] }, { "accept": ["quelques-unes"] }],
+      "bank": ["en", "quelques-unes", "y"],
+      "explain": "En + quelques-unes, repaso de la clase A2-122."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Voy con él»",
+      "tokens": ["avec lui", "J'y vais"],
+      "answer": ["J'y vais", "avec lui"],
+      "audio": "J'y vais avec lui.",
+      "explain": "J'y vais + avec lui, combinando y y un pronombre tónico."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "J'ai lu beaucoup de livres cette année. La plupart étaient intéressants, mais je n'en ai aimé aucun autant que celui-ci.",
+      "accept": ["He leído muchos libros este año. La mayoría eran interesantes, pero no me ha gustado ninguno tanto como este."],
+      "strictAccents": false,
+      "audio": "J'ai lu beaucoup de livres cette année. La plupart étaient intéressants, mais je n'en ai aimé aucun autant que celui-ci.",
+      "explain": "Repaso combinado de en, aucun y celui-ci."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tus amigos",
+      "turns": [
+        { "who": "Léa", "text": "Tu as des amis à Paris ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'en ai quelques-uns.", "Non, je n'en ai aucun."], "hint": "usa en + quelques-uns o aucun" },
+        { "who": "Léa", "text": "Ah, d'accord !", "speak": true }
+      ],
+      "explain": "Repaso de la clase A2-122."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "speak": "J'en ai besoin pour mon travail, j'y pense souvent, et je préfère celui de Léa.",
+      "mode": "write",
+      "accept": ["J'en ai besoin pour mon travail, j'y pense souvent, et je préfère celui de Léa"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de en, y y celui."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["demostrativos"],
+      "difficulty": 1,
+      "speak": "cet homme",
+      "mode": "choose",
+      "options": ["ce homme", "cet homme", "cette homme", "ces homme"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase A2-119."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["pronombres"],
+      "difficulty": 3,
+      "speak": "J'ai un ami qui habite à Paris, qui parle trois langues, et que je vois souvent, avec qui j'y vais chaque année.",
+      "es": "Tengo un amigo que vive en París, que habla tres idiomas, y que veo a menudo, con quien voy allí cada año.",
+      "ipa": "/ʒe œ̃.n‿a.mi ki a.bit a pa.ʁi ki paʁl tʁwa lɑ̃ɡ e kə ʒə vwa su.vɑ̃ a.vɛk ki ʒi vɛ ʃak a.ne/",
+      "esApprox": "«ye un-na-MÍ ki a-BIT a pa-RÍ ki PARL truá LANG e ke ye VUÁ su-VAN a-VEK ki shi VE SHAK a-NÉ»",
+      "focus": "Repaso de qui/que combinado con y y chaque en una descripción larga.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Describe algo que tienes o un lugar al que vas, sin repetir el sustantivo, usando en, y o celui.",
+      "modelAnswer": "J'ai des livres, j'en ai plusieurs, et j'y pense souvent.",
+      "alsoValid": ["Je préfère celui de mon frère."],
+      "speak": "J'ai des livres, j'en ai plusieurs, et j'y pense souvent.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "¿Y sustituye a un lugar o en sustituye a una cantidad?",
+      "buckets": ["y (lugar)", "en (cantidad)"],
+      "items": [
+        { "text": "j'y vais", "bucket": 0 },
+        { "text": "j'en ai deux", "bucket": 1 },
+        { "text": "j'y suis allé", "bucket": 0 },
+        { "text": "j'en veux", "bucket": 1 }
+      ],
+      "explain": "Repaso combinado de las clases A2-113 y A2-114."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["pronombres"],
+      "difficulty": 2,
+      "prompt": "Hay un error: chaque no lleva artículo. Corrige la frase entera.",
+      "wrong": "Chaque les jours, je travaille.",
+      "accept": ["Chaque jour, je travaille"],
+      "audio": "Chaque jour, je travaille.",
+      "explain": "Repaso de la clase A2-121."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "j'en ai", "es": "tengo (de eso)", "esApprox": "«shan-NÉ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "j'y vais", "es": "voy allí", "esApprox": "«shi VE»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "avec moi", "es": "conmigo", "esApprox": "«a-VEK muá»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "le jour où...", "es": "el día en que...", "esApprox": "«le YUR u»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "celui de", "es": "el de", "esApprox": "«se-LÜÍ de»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "chaque", "es": "cada", "esApprox": "«SHAK»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai un ami qui habite dans le quartier où je suis né.", "es": "Tengo un amigo que vive en el barrio donde nací.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Ce livre est intéressant, mais je préfère celui de Léa.", "es": "Este libro es interesante, pero prefiero el de Léa.", "from": "e7" }
+  ]
+}

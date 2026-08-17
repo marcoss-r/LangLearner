@@ -1,0 +1,276 @@
+{
+  "id": "fr-a1-074",
+  "lang": "fr",
+  "level": "A1",
+  "order": 74,
+  "title": "Repaso activo V (clases 61–73)",
+  "objectives": [
+    "Repasar la escuela, las profesiones, el cuerpo y el médico, los animales y el tiempo",
+    "Repasar las estaciones, las fechas, los deportes y jouer à/de frente a faire de",
+    "Repasar el ritmo y el acento del francés"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Repaso activo: consolida el bloque F (vida diaria y ocio)",
+      "body": "Sin gramática nueva. Este bloque ha cubierto mucho vocabulario (escuela, profesiones, cuerpo, animales, tiempo) y estructuras clave (avoir mal à, jouer à/de). Repasa las tablas y practica con calma."
+    },
+    {
+      "type": "table",
+      "title": "Jouer à/de frente a faire de",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["jouer à + deporte/juego", "jouer au football, jouer aux cartes"],
+        ["jouer de + instrumento", "jouer du piano, jouer de la guitare"],
+        ["faire de + otra actividad", "faire de la danse, faire du vélo"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Avoir mal à + partes del cuerpo",
+      "headers": ["Estructura", "Ejemplo"],
+      "rows": [
+        ["avoir mal au + m.", "j'ai mal au dos"],
+        ["avoir mal à la + f.", "j'ai mal à la tête"],
+        ["avoir mal aux + pl.", "j'ai mal aux pieds"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "l'élève", "es": "el/la alumno/a", "ipa": "/le.lɛv/", "esApprox": "«le-LEV»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v2", "target": "le médecin", "es": "el/la médico/a", "ipa": "/lə med.sɛ̃/", "esApprox": "«le med-SEN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v3", "target": "avoir mal à", "es": "dolerle (a alguien)", "ipa": "/a.vwaʁ mal a/", "esApprox": "«a-VUÁR mal A»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "le chien", "es": "el perro", "ipa": "/lə ʃjɛ̃/", "esApprox": "«le SHIEN»", "pos": "sustantivo", "gender": "m" },
+    { "id": "v5", "target": "il fait beau", "es": "hace buen tiempo", "ipa": "/il fɛ bo/", "esApprox": "«il fe BÓ»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "la saison", "es": "la estación (del año)", "ipa": "/la sɛ.zɔ̃/", "esApprox": "«la se-ZÓN»", "pos": "sustantivo", "gender": "f" },
+    { "id": "v7", "target": "jouer", "es": "jugar, tocar (un instrumento)", "ipa": "/ʒwe/", "esApprox": "«YUÉ»", "pos": "verbo", "gender": null },
+    { "id": "v8", "target": "l'accent tonique", "es": "el acento tónico", "ipa": "/lak.sɑ̃ tɔ.nik/", "esApprox": "«lak-san to-NIK»", "pos": "sustantivo", "gender": "m" }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["profesiones"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es correcta?",
+      "options": ["Il est un médecin.", "Il est médecin.", "Il un médecin.", "Il est le médecin."],
+      "answer": 1,
+      "explain": "Repaso de la clase 63: être + profesión, sin artículo."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me duele la espalda»?",
+      "options": ["J'ai mal à le dos.", "J'ai mal au dos.", "J'ai mal à la dos.", "J'ai mal aux dos."],
+      "answer": 1,
+      "explain": "Repaso de la clase 66: à + le dos se contrae en au dos."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["jouer"],
+      "difficulty": 2,
+      "statement": "Con instrumentos musicales se usa jouer de, no jouer à.",
+      "answer": true,
+      "explain": "Repaso de la clase 72: jouer du piano, jouer de la guitare."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "statement": "Au printemps es una excepción: las demás estaciones usan en.",
+      "answer": true,
+      "explain": "Repaso de la clase 38/69: au printemps, pero en été/automne/hiver."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["escuela", "profesiones"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras no es una profesión?",
+      "options": ["le médecin", "l'avocat", "l'élève", "l'ingénieur"],
+      "answer": 2,
+      "explain": "L'élève (clase 61) es un alumno, no una profesión."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["cuerpo", "animales"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["le dos", "le chien", "les jambes", "le chat"],
+      "right": ["el gato", "las piernas", "la espalda", "el perro"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Repaso de las clases 65 y 67."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["medico"],
+      "difficulty": 2,
+      "prompt": "Me duele la cabeza y me duele la espalda desde ayer.",
+      "accept": ["J'ai mal à la tête et j'ai mal au dos depuis hier"],
+      "hintWords": ["j'ai mal à la tête", "j'ai mal au dos"],
+      "strictAccents": false,
+      "audio": "J'ai mal à la tête et j'ai mal au dos depuis hier.",
+      "explain": "Repaso de la clase 66."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["jouer", "deporte"],
+      "difficulty": 2,
+      "prompt": "Juego al tenis y toco el piano.",
+      "accept": ["Je joue au tennis et je joue du piano"],
+      "hintWords": ["je joue au tennis", "je joue du piano"],
+      "strictAccents": false,
+      "audio": "Je joue au tennis et je joue du piano.",
+      "explain": "Repaso de la clase 72."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["clima"],
+      "difficulty": 2,
+      "prompt": "Completa con la expresión correcta",
+      "text": "Aujourd'hui, il ___ beau et il y a du ___.",
+      "blanks": [{ "accept": ["fait"] }, { "accept": ["soleil"] }],
+      "bank": ["fait", "soleil", "pleut"],
+      "explain": "Repaso de la clase 68: il fait beau, il y a du soleil."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["fechas"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «¿Qué fecha es hoy?»",
+      "tokens": ["aujourd'hui", "la date", "Quelle est", "?"],
+      "answer": ["Quelle est", "la date", "aujourd'hui", "?"],
+      "audio": "Quelle est la date aujourd'hui ?",
+      "explain": "Repaso de la clase 70."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["trabajo"],
+      "difficulty": 2,
+      "prompt": "Je travaille comme ingénieur dans une entreprise.",
+      "accept": ["Trabajo de ingeniero en una empresa."],
+      "strictAccents": false,
+      "audio": "Je travaille comme ingénieur dans une entreprise.",
+      "explain": "Repaso de la clase 64."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["deporte", "ocio"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu tiempo libre",
+      "turns": [
+        { "who": "Léa", "text": "Qu'est-ce que tu fais pendant ton temps libre ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Je fais du football.", "Je joue au tennis.", "J'aime la lecture."], "hint": "di qué haces en tu tiempo libre" },
+        { "who": "Léa", "text": "Sympa !", "speak": true }
+      ],
+      "explain": "Repaso combinado de las clases 71 y 72."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["animales", "cuerpo"],
+      "difficulty": 2,
+      "speak": "J'ai un chien. Il a de grandes oreilles et de petits yeux.",
+      "mode": "write",
+      "accept": ["J'ai un chien. Il a de grandes oreilles et de petits yeux"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado de las clases 65 y 67."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["clima"],
+      "difficulty": 1,
+      "speak": "il neige",
+      "mode": "choose",
+      "options": ["il pleut", "il neige", "il fait chaud", "il fait beau"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Repaso de la clase 68."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["ritmo", "medico"],
+      "difficulty": 3,
+      "speak": "Bonjour, j'ai mal à la tête et au dos depuis hier. Je suis fatigué et malade.",
+      "es": "Buenos días, me duele la cabeza y la espalda desde ayer. Estoy cansado y enfermo.",
+      "ipa": "/bɔ̃.ʒuʁ ʒe mal a la tɛt e o do də.pɥi jɛʁ ʒə sɥi fa.ti.ɡe e ma.lad/",
+      "esApprox": "«bon-YUR ye mal a la TET e o DÓ de-PÜÍ IER ye süí fa-ti-GUÉ e ma-LAD»",
+      "focus": "Repaso del acento de grupo (clase 73) aplicado a una frase con dolores (clase 66).",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "speak_prompt",
+      "tags": ["profesiones", "estudios"],
+      "difficulty": 2,
+      "prompt": "Habla de tu trabajo o tus estudios, y di qué deporte practicas.",
+      "modelAnswer": "Je suis étudiant, j'étudie les mathématiques, et je fais du football.",
+      "alsoValid": ["Je travaille comme professeur et je joue au tennis."],
+      "speak": "Je suis étudiant, j'étudie les mathématiques, et je fais du football.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["jouer", "faire-de"],
+      "difficulty": 2,
+      "prompt": "¿Se usa jouer à, jouer de o faire de?",
+      "buckets": ["jouer à", "jouer de", "faire de"],
+      "items": [
+        { "text": "football", "bucket": 0 },
+        { "text": "piano", "bucket": 1 },
+        { "text": "danse", "bucket": 2 },
+        { "text": "cartes", "bucket": 0 },
+        { "text": "guitare", "bucket": 1 },
+        { "text": "natation", "bucket": 2 }
+      ],
+      "explain": "Repaso de la clase 72."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["ordinales"],
+      "difficulty": 2,
+      "prompt": "Hay un error de fecha. Corrige la frase entera.",
+      "wrong": "C'est le deuxième janvier.",
+      "accept": ["C'est le deux janvier"],
+      "audio": "C'est le deux janvier.",
+      "explain": "Repaso de la clase 70: solo el día 1 usa el ordinal."
+    },
+    {
+      "id": "e19",
+      "type": "gender_article",
+      "tags": ["escuela"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto",
+      "items": [
+        { "word": "cahier", "options": ["le", "la"], "answer": 0 },
+        { "word": "salle de classe", "options": ["le", "la"], "answer": 1 }
+      ],
+      "explain": "Le cahier (masculino), la salle de classe (femenino)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "l'élève", "es": "el/la alumno/a", "esApprox": "«le-LEV»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "le médecin", "es": "el/la médico/a", "esApprox": "«le med-SEN»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "avoir mal à", "es": "dolerle (a alguien)", "esApprox": "«a-VUÁR mal A»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "le chien", "es": "el perro", "esApprox": "«le SHIEN»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "il fait beau", "es": "hace buen tiempo", "esApprox": "«il fe BÓ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "la saison", "es": "la estación (del año)", "esApprox": "«la se-ZÓN»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "jouer", "es": "jugar, tocar (un instrumento)", "esApprox": "«YUÉ»", "from": "v7" },
+    { "id": "s8", "kind": "phrase", "target": "J'ai mal à la tête et j'ai mal au dos depuis hier.", "es": "Me duele la cabeza y me duele la espalda desde ayer.", "from": "e7" }
+  ]
+}

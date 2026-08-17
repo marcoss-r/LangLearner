@@ -1,0 +1,250 @@
+{
+  "id": "fr-b1-189",
+  "lang": "fr",
+  "level": "B1",
+  "order": 189,
+  "title": "Expresar reproche: tu aurais dû...",
+  "objectives": [
+    "Formar y usar tu aurais dû + infinitivo para expresar reproche",
+    "Reconocer el participio irregular de devoir (dû) en el conditionnel passé",
+    "Distinguir un reproche fuerte (devoir) de uno suave (pouvoir)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Reprochar algo del pasado",
+      "body": "Tu aurais dû + infinitivo es la fórmula típica para reprochar algo que alguien (o tú mismo) debería haber hecho de otra manera. Usa el conditionnel passé de devoir, cuyo participio irregular es dû."
+    },
+    {
+      "type": "table",
+      "title": "Devoir en conditionnel passé",
+      "headers": ["Persona", "Forma"],
+      "rows": [
+        ["j'", "aurais dû"],
+        ["tu", "aurais dû"],
+        ["il / elle", "aurait dû"],
+        ["nous", "aurions dû"],
+        ["vous", "auriez dû"],
+        ["ils / elles", "auraient dû"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Reproche fuerte frente a reproche suave",
+      "body": "Tu aurais dû (deberías haber) es un reproche directo y fuerte. Tu aurais pu (podrías haber) suaviza el reproche, casi como una sugerencia sobre lo que habría sido posible."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "tu aurais dû", "es": "deberías haber", "ipa": "/ty o.ʁɛ dy/", "esApprox": "«tü o-RE DÜ»", "pos": "expresión", "gender": null },
+    { "id": "v2", "target": "tu n'aurais pas dû", "es": "no deberías haber", "ipa": "/ty no.ʁɛ pa dy/", "esApprox": "«tü no-RE pa DÜ»", "pos": "expresión", "gender": null },
+    { "id": "v3", "target": "j'aurais dû", "es": "debería haber (yo)", "ipa": "/ʒo.ʁɛ dy/", "esApprox": "«sho-RE DÜ»", "pos": "expresión", "gender": null },
+    { "id": "v4", "target": "vous auriez dû", "es": "deberían haber (usted/es)", "ipa": "/vu.z‿o.ʁje dy/", "esApprox": "«vu-zo-RIÉ DÜ»", "pos": "expresión", "gender": null },
+    { "id": "v5", "target": "tu aurais pu", "es": "podrías haber", "ipa": "/ty o.ʁɛ py/", "esApprox": "«tü o-RE PÜ»", "pos": "expresión", "gender": null },
+    { "id": "v6", "target": "il aurait fallu", "es": "habría hecho falta", "ipa": "/i.l‿o.ʁɛ fa.ly/", "esApprox": "«il o-RE fa-LÜ»", "pos": "expresión", "gender": null },
+    { "id": "v7", "target": "c'est de ta faute", "es": "es culpa tuya", "ipa": "/sɛ də ta fot/", "esApprox": "«se de ta FOT»", "pos": "expresión", "gender": null },
+    { "id": "v8", "target": "tu aurais dû me le dire", "es": "deberías habérmelo dicho", "ipa": "/ty o.ʁɛ dy mə lə diʁ/", "esApprox": "«tü o-RE DÜ me le DIR»", "pos": "expresión", "gender": null }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «deberías haber estudiado»?",
+      "options": ["Tu dois étudier.", "Tu aurais dû étudier.", "Tu devrais étudier.", "Tu as dû étudier."],
+      "answer": 1,
+      "explain": "Tu aurais dû + infinitivo: reproche sobre el pasado."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "¿Qué expresa tu aurais pu, comparado con tu aurais dû?",
+      "options": ["un reproche más suave", "una orden", "una pregunta", "el mismo reproche exacto"],
+      "answer": 0,
+      "explain": "Tu aurais pu suaviza el reproche frente a tu aurais dû."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "statement": "El participio pasado de devoir es dû.",
+      "answer": true,
+      "explain": "Devoir tiene un participio irregular: dû."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "statement": "Tu devrais étudier es un reproche sobre el pasado.",
+      "answer": false,
+      "explain": "Tu devrais étudier (conditionnel présent) es un consejo para el futuro, no un reproche sobre el pasado."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "Une cada expresión con su función",
+      "left": ["tu aurais dû", "j'aurais dû", "tu aurais pu", "il aurait fallu"],
+      "right": ["necesidad impersonal", "reproche suave", "reproche a otra persona", "autorreproche"],
+      "answer": [2, 3, 1, 0],
+      "explain": "Tu aurais dû = reproche a otra persona, j'aurais dû = autorreproche, tu aurais pu = reproche suave, il aurait fallu = necesidad impersonal."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "Deberías haberme dicho la verdad.",
+      "accept": ["Tu aurais dû me dire la vérité"],
+      "hintWords": ["tu aurais dû me dire", "la vérité"],
+      "strictAccents": true,
+      "audio": "Tu aurais dû me dire la vérité.",
+      "explain": "Tu aurais dû + infinitivo (me dire)."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "No deberías haber llegado tan tarde.",
+      "accept": ["Tu n'aurais pas dû arriver si tard"],
+      "hintWords": ["tu n'aurais pas dû arriver", "si tard"],
+      "strictAccents": true,
+      "audio": "Tu n'aurais pas dû arriver si tard.",
+      "explain": "Tu n'aurais pas dû + infinitivo, la forma negativa del reproche."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta",
+      "text": "Tu ___ dû étudier, et j' ___ dû t'aider plus tôt.",
+      "blanks": [{ "accept": ["aurais"] }, { "accept": ["aurais"] }],
+      "bank": ["aurais", "aurait", "devrais"],
+      "explain": "Aurais dû (tu) y aurais dû (j') son las formas de je/tu en el conditionnel passé de devoir."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Habría hecho falta avisarme»",
+      "tokens": ["me prévenir", "Il aurait fallu"],
+      "answer": ["Il aurait fallu", "me prévenir"],
+      "audio": "Il aurait fallu me prévenir.",
+      "explain": "Il aurait fallu + infinitivo, un reproche impersonal."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "Tu aurais dû me le dire, et j'aurais dû t'écouter.",
+      "accept": ["Deberías habérmelo dicho, y yo debería haberte escuchado."],
+      "strictAccents": false,
+      "audio": "Tu aurais dû me le dire, et j'aurais dû t'écouter.",
+      "explain": "Reproche mutuo: tu aurais dû (a otro) + j'aurais dû (a mí mismo)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación con un reproche",
+      "turns": [
+        { "who": "Léa", "text": "J'ai raté le train !", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Tu aurais dû partir plus tôt.", "Tu aurais pu me le dire avant."], "hint": "usa tu aurais dû o tu aurais pu" },
+        { "who": "Léa", "text": "Je sais, c'est de ma faute.", "speak": true }
+      ],
+      "explain": "Repaso combinado del reproche con conditionnel passé."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "speak": "Tu aurais dû me le dire, et j'aurais dû t'écouter. Il aurait fallu être plus prudents.",
+      "mode": "write",
+      "accept": ["Tu aurais dû me le dire, et j'aurais dû t'écouter. Il aurait fallu être plus prudents"],
+      "showTextAfter": true,
+      "explain": "Repaso combinado del reproche y la necesidad impersonal."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["reproche"],
+      "difficulty": 1,
+      "speak": "tu aurais dû",
+      "mode": "choose",
+      "options": ["tu dois", "tu devrais", "tu aurais dû", "tu as dû"],
+      "answer": 2,
+      "showTextAfter": true,
+      "explain": "Tu aurais dû es el conditionnel passé de devoir, para reprochar el pasado."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["reproche"],
+      "difficulty": 3,
+      "speak": "Tu aurais dû étudier, tu n'aurais pas dû sortir hier soir, et j'aurais dû t'aider plus tôt.",
+      "es": "Deberías haber estudiado, no deberías haber salido anoche, y debería haberte ayudado antes.",
+      "ipa": "/ty o.ʁɛ dy e.ty.dje ty no.ʁɛ pa dy sɔʁ.tiʁ jɛʁ swaʁ e ʒo.ʁɛ dy tɛ.de ply to/",
+      "esApprox": "«tü o-RE DÜ e-tü-DIÉ tü no-RE pa DÜ sor-TIR ier suáR e sho-RE DÜ te-DÉ plü TO»",
+      "focus": "Tres reproches encadenados: afirmativo, negativo y autorreproche.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "Haz un reproche sobre algo que alguien (o tú mismo) debería haber hecho de otra manera.",
+      "modelAnswer": "Tu aurais dû me le dire plus tôt, et j'aurais dû t'écouter.",
+      "alsoValid": ["Tu aurais pu me prévenir avant."],
+      "speak": "Tu aurais dû me le dire plus tôt, et j'aurais dû t'écouter.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "¿Es un reproche fuerte (devoir) o suave (pouvoir)?",
+      "buckets": ["Reproche fuerte", "Reproche suave"],
+      "items": [
+        { "text": "tu aurais dû", "bucket": 0 },
+        { "text": "tu aurais pu", "bucket": 1 },
+        { "text": "vous auriez dû", "bucket": 0 },
+        { "text": "il aurait pu", "bucket": 1 }
+      ],
+      "explain": "Tu aurais dû y vous auriez dû son reproches fuertes (devoir); tu aurais pu e il aurait pu son reproches suaves (pouvoir)."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["reproche"],
+      "difficulty": 2,
+      "prompt": "Hay un error: el participio de devoir es dû, no devoir. Corrige la frase entera.",
+      "wrong": "Tu aurais devoir étudier.",
+      "accept": ["Tu aurais dû étudier"],
+      "audio": "Tu aurais dû étudier.",
+      "explain": "El participio pasado irregular de devoir es dû, no devoir."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "tu aurais dû", "es": "deberías haber", "esApprox": "«tü o-RE DÜ»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "tu n'aurais pas dû", "es": "no deberías haber", "esApprox": "«tü no-RE pa DÜ»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "j'aurais dû", "es": "debería haber (yo)", "esApprox": "«sho-RE DÜ»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "vous auriez dû", "es": "deberían haber (usted/es)", "esApprox": "«vu-zo-RIÉ DÜ»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "tu aurais pu", "es": "podrías haber", "esApprox": "«tü o-RE PÜ»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "il aurait fallu", "es": "habría hecho falta", "esApprox": "«il o-RE fa-LÜ»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Tu aurais dû me dire la vérité.", "es": "Deberías haberme dicho la verdad.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Tu n'aurais pas dû arriver si tard.", "es": "No deberías haber llegado tan tarde.", "from": "e7" }
+  ]
+}

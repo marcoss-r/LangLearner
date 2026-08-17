@@ -1,0 +1,323 @@
+{
+  "id": "de-a1-018",
+  "lang": "de",
+  "level": "A1",
+  "order": 18,
+  "title": "La negación: nicht y kein",
+  "objectives": [
+    "Distinguir cuándo usar nicht (niega verbos, adjetivos, adverbios) y cuándo kein/keine (niega sustantivos)",
+    "Formar la negación de un sustantivo que llevaba ein/eine, sustituyéndolo por kein/keine",
+    "Evitar el calco típico del español «no + un», que en alemán no existe"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos negaciones distintas, según lo que niegues",
+      "body": "El alemán tiene dos palabras para negar, y elegir la correcta depende de qué estés negando. Nicht niega verbos, adjetivos y adverbios: «no es», «no trabajo». Kein (y su forma femenina keine) niega sustantivos que llevarían ein/eine o ningún artículo: en vez de decir «no tengo un coche», el alemán dice directamente «tengo ningún coche».",
+      "examples": [
+        { "target": "Ich arbeite nicht.", "es": "No trabajo.", "note": "nicht niega el verbo" },
+        { "target": "Das ist nicht schön.", "es": "Eso no es bonito.", "note": "nicht niega el adjetivo" },
+        { "target": "Ich habe kein Auto.", "es": "No tengo coche.", "note": "kein niega el sustantivo Auto" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Qué negación usar según lo que niegues",
+      "headers": ["Niega...", "Partícula", "Ejemplo"],
+      "rows": [
+        ["un verbo o toda la frase", "nicht", "Ich arbeite nicht."],
+        ["un adjetivo", "nicht (justo antes)", "Das ist nicht schön."],
+        ["un sustantivo (con ein/eine o sin artículo)", "kein / keine", "Ich habe kein Auto. / Ich habe keine Zeit."]
+      ],
+      "note": "kein sigue el mismo patrón de género que ein (masculino y neutro); keine sigue el de eine (femenino)."
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo: en alemán no se dice «no + un»",
+      "items": [
+        { "wrong": "Ich habe nicht ein Auto. (calco de «no tengo un coche»)", "right": "Ich habe kein Auto.", "why": "El español niega el artículo indefinido con «no» + «un»; el alemán funde las dos ideas en una sola palabra, kein, que sustituye directamente a ein." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Si la frase afirmativa llevaría ein/eine o ningún artículo delante del sustantivo, usa kein/keine para negarla. Si no hay ningún sustantivo de por medio (niegas un verbo o un adjetivo), usa nicht."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "nicht",
+      "es": "no (niega verbos y adjetivos)",
+      "ipa": "/nɪçt/",
+      "esApprox": "«nicht», con ich-Laut",
+      "pos": "adverbio",
+      "gender": null,
+      "example": { "target": "Ich arbeite nicht.", "es": "No trabajo." }
+    },
+    {
+      "id": "v2",
+      "target": "kein",
+      "es": "ningún, ninguno (masculino/neutro)",
+      "ipa": "/kaɪ̯n/",
+      "esApprox": "«kain»",
+      "pos": "artículo",
+      "gender": null,
+      "example": { "target": "Ich habe kein Auto.", "es": "No tengo coche." }
+    },
+    {
+      "id": "v3",
+      "target": "keine",
+      "es": "ninguna (femenino)",
+      "ipa": "/ˈkaɪ̯nə/",
+      "esApprox": "«KAI-ne»",
+      "pos": "artículo",
+      "gender": null,
+      "example": { "target": "Ich habe keine Zeit.", "es": "No tengo tiempo." }
+    },
+    {
+      "id": "v4",
+      "target": "teuer",
+      "es": "caro, cara",
+      "ipa": "/ˈtɔɪ̯ɐ/",
+      "esApprox": "«TOI-er»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Das ist nicht teuer.", "es": "Eso no es caro." }
+    },
+    {
+      "id": "v5",
+      "target": "billig",
+      "es": "barato, barata",
+      "ipa": "/ˈbɪlɪç/",
+      "esApprox": "«BI-lich», con ich-Laut al final",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Das ist billig.", "es": "Eso es barato." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "¿Qué partícula usarías para negar «Ich habe ein Auto» (tengo un coche)?",
+      "options": ["nicht", "kein", "keine", "nein"],
+      "answer": 1,
+      "explain": "Auto es neutro, así que se niega con kein: Ich habe kein Auto."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "¿Qué partícula usarías para negar «Das ist schön» (eso es bonito)?",
+      "options": ["nicht", "kein", "keine", "nein"],
+      "answer": 0,
+      "explain": "schön es un adjetivo: se niega con nicht."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["negacion"],
+      "difficulty": 1,
+      "statement": "Kein y keine siguen el mismo patrón de género que ein y eine.",
+      "answer": true,
+      "explain": "kein = masculino/neutro (como ein); keine = femenino (como eine)."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["negacion"],
+      "difficulty": 1,
+      "statement": "«Ich habe nicht ein Auto» es la forma correcta de decir que no tienes coche.",
+      "answer": false,
+      "explain": "La forma correcta es Ich habe kein Auto: kein sustituye a ein, no se usa nicht + ein."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas negaciones está mal formada?",
+      "options": ["Ich habe kein Auto.", "Ich habe keine Zeit.", "Das ist nicht teuer.", "Ich habe nicht ein Hund."],
+      "answer": 3,
+      "explain": "Debería ser Ich habe keinen Hund (con kein-); nicht ein no es una construcción alemana."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Une cada frase afirmativa con su negación",
+      "left": ["Ich habe ein Auto.", "Das ist schön.", "Ich habe Zeit."],
+      "right": ["Ich habe keine Zeit.", "Das ist nicht schön.", "Ich habe kein Auto."],
+      "answer": [2, 1, 0],
+      "explain": "kein para el sustantivo Auto, nicht para el adjetivo schön, keine para el sustantivo Zeit."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "No tengo coche.",
+      "accept": ["Ich habe kein Auto"],
+      "hintWords": ["ich habe kein Auto"],
+      "strictAccents": false,
+      "audio": "Ich habe kein Auto.",
+      "explain": "kein sustituye a ein: Ich habe kein Auto, no Ich habe nicht ein Auto."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Eso no es caro.",
+      "accept": ["Das ist nicht teuer"],
+      "hintWords": ["das ist nicht teuer"],
+      "strictAccents": false,
+      "audio": "Das ist nicht teuer.",
+      "explain": "teuer es un adjetivo: se niega con nicht, justo antes."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Completa con la negación correcta",
+      "text": "Ich habe ___ Zeit. Das ist ___ teuer.",
+      "blanks": [{ "accept": ["keine"] }, { "accept": ["nicht"] }],
+      "bank": ["keine", "nicht", "kein"],
+      "explain": "Zeit es femenino (keine); teuer es un adjetivo (nicht)."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «No tengo coche»",
+      "tokens": ["Auto", "Ich", "kein", "habe"],
+      "answer": ["Ich", "habe", "kein", "Auto"],
+      "audio": "Ich habe kein Auto.",
+      "explain": "Ich + habe + kein Auto: kein va justo antes del sustantivo."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["negacion"],
+      "difficulty": 1,
+      "prompt": "Das ist nicht billig.",
+      "accept": ["Eso no es barato."],
+      "strictAccents": false,
+      "audio": "Das ist nicht billig.",
+      "explain": "billig es un adjetivo: se niega con nicht."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Hast du ein Auto?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Nein, ich habe kein Auto."], "hint": "responde que no, que no tienes coche" },
+        { "who": "Anna", "text": "Ich auch nicht!", "speak": true }
+      ],
+      "explain": "Nein, ich habe kein Auto: nein para la respuesta corta, kein para negar el sustantivo dentro de la frase."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["negacion"],
+      "difficulty": 1,
+      "speak": "Ich habe kein Auto.",
+      "mode": "write",
+      "accept": ["Ich habe kein Auto"],
+      "showTextAfter": true,
+      "explain": "Ich habe kein Auto = no tengo coche."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "speak": "Das ist nicht teuer.",
+      "mode": "choose",
+      "options": ["Das ist nicht teuer.", "Das ist teuer.", "Das ist nicht billig."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Escucha bien si aparece nicht o no: cambia completamente el sentido."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "speak": "Ich habe kein Auto. Ich habe keine Zeit.",
+      "es": "No tengo coche. No tengo tiempo.",
+      "ipa": "/ɪç ˈhaːbə kaɪ̯n ˈaʊ̯to ɪç ˈhaːbə ˈkaɪ̯nə tsaɪ̯t/",
+      "esApprox": "«ich HÁ-be kain AU-to, ich HÁ-be KAI-ne tsait»",
+      "focus": "kein (sin -e) para Auto, neutro; keine (con -e) para Zeit, femenino.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "speak": "Das ist nicht teuer, das ist billig.",
+      "es": "Eso no es caro, eso es barato.",
+      "ipa": "/das ɪst nɪçt ˈtɔɪ̯ɐ das ɪst ˈbɪlɪç/",
+      "esApprox": "«das ist nicht TOI-er, das ist BI-lich»",
+      "focus": "nicht va justo antes del adjetivo que niega, nunca al final en este tipo de frase.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si tienes coche. Responde que no, que no tienes coche.",
+      "modelAnswer": "Nein, ich habe kein Auto.",
+      "alsoValid": ["Ich habe kein Auto."],
+      "speak": "Nein, ich habe kein Auto.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "categorize",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada negación: ¿nicht o kein/keine?",
+      "buckets": ["nicht", "kein / keine"],
+      "items": [
+        { "text": "Das ist ___ schön.", "bucket": 0 },
+        { "text": "Ich habe ___ Auto.", "bucket": 1 },
+        { "text": "Ich habe ___ Zeit.", "bucket": 1 },
+        { "text": "Das ist ___ teuer.", "bucket": 0 }
+      ],
+      "explain": "Adjetivos con nicht; sustantivos con kein/keine."
+    },
+    {
+      "id": "e19",
+      "type": "error_correction",
+      "tags": ["negacion"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich habe nicht ein Auto.",
+      "accept": ["Ich habe kein Auto"],
+      "audio": "Ich habe kein Auto.",
+      "explain": "El alemán no combina nicht + ein: kein sustituye directamente al artículo indefinido."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "nicht", "es": "no (niega verbos y adjetivos)", "esApprox": "«nicht»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "kein", "es": "ningún, ninguno", "esApprox": "«kain»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "keine", "es": "ninguna", "esApprox": "«KAI-ne»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "teuer", "es": "caro, cara", "esApprox": "«TOI-er»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "billig", "es": "barato, barata", "esApprox": "«BI-lich»", "from": "v5" },
+    { "id": "s6", "kind": "phrase", "target": "Ich habe kein Auto. Ich habe keine Zeit.", "es": "No tengo coche. No tengo tiempo.", "from": "e15" },
+    { "id": "s7", "kind": "phrase", "target": "Das ist nicht teuer, das ist billig.", "es": "Eso no es caro, eso es barato.", "from": "e16" },
+    { "id": "s8", "kind": "phrase", "target": "Ich habe kein Auto.", "es": "No tengo coche.", "from": "e7" }
+  ]
+}

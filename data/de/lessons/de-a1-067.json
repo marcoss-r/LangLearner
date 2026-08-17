@@ -1,0 +1,370 @@
+{
+  "id": "de-a1-067",
+  "lang": "de",
+  "level": "A1",
+  "order": 67,
+  "title": "El Perfekt III: los verbos que van con sein",
+  "objectives": [
+    "Reconocer que los verbos de movimiento (fahren, gehen, kommen) y de cambio de estado forman el Perfekt con sein, no con haben",
+    "Aplicar sein (conjugado) + participio al final, con el mismo marco verbal de siempre",
+    "Memorizar gewesen, el participio irregular de sein"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Un grupo de verbos que usa sein en vez de haben",
+      "body": "No todos los verbos forman el Perfekt con haben: los verbos de movimiento de un lugar a otro (fahren, gehen, kommen) y algunos verbos de cambio de estado (bleiben, sein) usan sein como auxiliar. La estructura es idéntica: sein (conjugado, posición 2) + participio (final).",
+      "examples": [
+        { "target": "Ich bin nach Berlin gefahren.", "es": "Fui a Berlín.", "note": "bin (posición 2) + gefahren (final)" },
+        { "target": "Ich bin zu Hause geblieben.", "es": "Me quedé en casa.", "note": "bleiben = quedarse, con sein" },
+        { "target": "Ich bin müde gewesen.", "es": "Estuve cansado.", "note": "sein → ist gewesen, muy irregular" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Verbos que forman el Perfekt con sein",
+      "headers": ["Infinitivo", "Participio con sein"],
+      "rows": [
+        ["fahren", "ist gefahren"],
+        ["kommen", "ist gekommen"],
+        ["gehen", "ist gegangen"],
+        ["bleiben", "ist geblieben"],
+        ["aufstehen", "ist aufgestanden"],
+        ["reisen", "ist gereist"],
+        ["laufen", "ist gelaufen"],
+        ["sein", "ist gewesen"]
+      ],
+      "note": "gehen (ir, a pie) es un verbo nuevo en esta clase: du gehst, er geht, sin cambio de vocal en presente."
+    },
+    {
+      "type": "tip",
+      "body": "Regla práctica: si el verbo describe un movimiento DE UN LUGAR A OTRO (fahren, gehen, kommen, reisen) o un cambio de estado (aufstehen, sein), usa sein. El resto de verbos, incluidos los que describen una acción sin desplazamiento (arbeiten, lesen, essen...), usan haben."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "fahren",
+      "es": "conducir, ir (en vehículo)",
+      "ipa": "/ˈfaːʁən/",
+      "esApprox": "«FÁ-ren»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich bin nach Berlin gefahren.", "es": "Fui a Berlín." }
+    },
+    {
+      "id": "v2",
+      "target": "kommen",
+      "es": "venir",
+      "ipa": "/ˈkɔmən/",
+      "esApprox": "«KO-men»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Er ist spät gekommen.", "es": "Él llegó tarde." }
+    },
+    {
+      "id": "v3",
+      "target": "gehen",
+      "es": "ir (a pie)",
+      "ipa": "/ˈɡeːən/",
+      "esApprox": "«GUÉ-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich bin nach Hause gegangen.", "es": "Fui a casa." }
+    },
+    {
+      "id": "v4",
+      "target": "bleiben",
+      "es": "quedarse",
+      "ipa": "/ˈblaɪ̯bən/",
+      "esApprox": "«BLAI-ben»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich bin zu Hause geblieben.", "es": "Me quedé en casa." }
+    },
+    {
+      "id": "v5",
+      "target": "aufstehen",
+      "es": "levantarse",
+      "ipa": "/ˈaʊ̯fˌʃteːən/",
+      "esApprox": "«AUF-shte-en»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich bin früh aufgestanden.", "es": "Me levanté temprano." }
+    },
+    {
+      "id": "v6",
+      "target": "reisen",
+      "es": "viajar",
+      "ipa": "/ˈʁaɪ̯zən/",
+      "esApprox": "«RAI-zen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Wir sind nach Italien gereist.", "es": "Viajamos a Italia." }
+    },
+    {
+      "id": "v7",
+      "target": "laufen",
+      "es": "correr, caminar",
+      "ipa": "/ˈlaʊ̯fən/",
+      "esApprox": "«LAU-fen»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich bin schnell gelaufen.", "es": "Corrí rápido." }
+    },
+    {
+      "id": "v8",
+      "target": "sein",
+      "es": "ser, estar",
+      "ipa": "/zaɪ̯n/",
+      "esApprox": "«zain»",
+      "pos": "verbo",
+      "gender": null,
+      "example": { "target": "Ich bin müde gewesen.", "es": "Estuve cansado." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "¿Qué auxiliar usa «fahren» en el Perfekt?",
+      "options": ["haben", "sein", "werden", "dürfen"],
+      "answer": 1,
+      "explain": "fahren es un verbo de movimiento: usa sein."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["perfekt"],
+      "difficulty": 2,
+      "prompt": "¿Cuál es el participio de sein?",
+      "options": ["gesein", "gewesen", "geseint", "gewest"],
+      "answer": 1,
+      "explain": "sein → gewesen, muy irregular."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["sein"],
+      "difficulty": 1,
+      "statement": "Los verbos de movimiento de un lugar a otro usan sein en el Perfekt.",
+      "answer": true,
+      "explain": "fahren, gehen, kommen, reisen: todos con sein."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "statement": "Arbeiten forma el Perfekt con sein, porque es una acción.",
+      "answer": false,
+      "explain": "arbeiten no implica movimiento de un lugar a otro: usa haben."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos verbos NO usa sein en el Perfekt?",
+      "options": ["fahren", "kommen", "lesen", "gehen"],
+      "answer": 2,
+      "explain": "lesen no implica movimiento: usa haben (habe gelesen)."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Une cada infinitivo con su participio (con sein)",
+      "left": ["fahren", "kommen", "gehen", "bleiben"],
+      "right": ["ist gekommen", "ist gefahren", "ist geblieben", "ist gegangen"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Cuatro verbos de movimiento o cambio de estado, todos con sein."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Fui a Berlín.",
+      "accept": ["Ich bin nach Berlin gefahren"],
+      "hintWords": ["ich bin nach Berlin gefahren"],
+      "strictAccents": false,
+      "audio": "Ich bin nach Berlin gefahren.",
+      "explain": "bin (posición 2) + nach Berlin + gefahren (final)."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Me quedé en casa.",
+      "accept": ["Ich bin zu Hause geblieben"],
+      "hintWords": ["ich bin zu Hause geblieben"],
+      "strictAccents": false,
+      "audio": "Ich bin zu Hause geblieben.",
+      "explain": "bin + zu Hause + geblieben (final)."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Completa con la forma correcta de sein",
+      "text": "Ich ___ früh aufgestanden. Er ___ spät gekommen.",
+      "blanks": [{ "accept": ["bin"] }, { "accept": ["ist"] }],
+      "bank": ["bin", "ist", "habe"],
+      "explain": "bin (ich); ist (er), ambos con sein, no con haben."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Viajamos a Italia»",
+      "tokens": ["gereist", "Wir", "Italien", "sind", "nach"],
+      "answer": ["Wir", "sind", "nach", "Italien", "gereist"],
+      "audio": "Wir sind nach Italien gereist.",
+      "explain": "sind + nach Italien + gereist (final)."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Ich bin schnell gelaufen.",
+      "accept": ["Corrí rápido."],
+      "strictAccents": false,
+      "audio": "Ich bin schnell gelaufen.",
+      "explain": "bin + gelaufen: laufen usa sein."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación",
+      "turns": [
+        { "who": "Anna", "text": "Bist du nach Hause gegangen?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, ich bin nach Hause gegangen."], "hint": "responde que sí, que fuiste a casa" },
+        { "who": "Anna", "text": "Ah, okay!", "speak": true }
+      ],
+      "explain": "bist...gegangen: pregunta en Perfekt con sein."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["sein"],
+      "difficulty": 1,
+      "speak": "Ich bin nach Berlin gefahren.",
+      "mode": "write",
+      "accept": ["Ich bin nach Berlin gefahren"],
+      "showTextAfter": true,
+      "explain": "Ich bin nach Berlin gefahren = fui a Berlín."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "speak": "Ich bin zu Hause geblieben.",
+      "mode": "choose",
+      "options": ["Ich bin zu Hause geblieben.", "Ich habe zu Hause gearbeitet.", "Ich bin nach Hause gegangen."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Las tres frases suenan claramente distintas."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "speak": "Ich bin früh aufgestanden, und ich bin nach Berlin gefahren.",
+      "es": "Me levanté temprano, y fui a Berlín.",
+      "ipa": "/ɪç bɪn fʁyː ˈaʊ̯fɡəʃtandən ʊnt ɪç bɪn naːx bɛʁˈliːn ˈɡəfaːʁən/",
+      "esApprox": "«ich bin frü AUF-gue-shtan-den unt ich bin naj ber-LIN GUE-fa-ren»",
+      "focus": "aufgestanden es un participio separable largo: auf- se separa del participio gestanden.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "speak": "Er ist spät gekommen, aber ich bin zu Hause geblieben.",
+      "es": "Él llegó tarde, pero yo me quedé en casa.",
+      "ipa": "/eːɐ̯ ɪst ʃpɛːt ɡəˈkɔmən ˈaːbɐ ɪç bɪn tsuː ˈhaʊ̯zə ɡəˈbliːbən/",
+      "esApprox": "«er ist shpet gue-KO-men, Á-ber ich bin tsu JAU-ze gue-BLI-ben»",
+      "focus": "gekommen y geblieben: dos participios con doble consonante y acento en la segunda sílaba.",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Te preguntan si fuiste a casa. Responde que sí, que fuiste a casa.",
+      "modelAnswer": "Ja, ich bin nach Hause gegangen.",
+      "alsoValid": ["Ich bin nach Hause gegangen."],
+      "speak": "Ja, ich bin nach Hause gegangen.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "conjugation",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "verb": "fahren (Perfekt)",
+      "tense": "Perfekt",
+      "prompt": "Completa el Perfekt de «fahren» (ir en vehículo) con sein",
+      "rows": [
+        { "person": "ich", "accept": ["bin gefahren"] },
+        { "person": "du", "accept": ["bist gefahren"] },
+        { "person": "er / sie / es", "accept": ["ist gefahren"] },
+        { "person": "wir", "accept": ["sind gefahren"] },
+        { "person": "ihr", "accept": ["seid gefahren"] },
+        { "person": "sie / Sie", "accept": ["sind gefahren"] }
+      ],
+      "explain": "gefahren no cambia nunca; solo cambia sein, según la persona."
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada verbo: ¿usa sein o haben en el Perfekt?",
+      "buckets": ["sein", "haben"],
+      "items": [
+        { "text": "fahren", "bucket": 0 },
+        { "text": "gehen", "bucket": 0 },
+        { "text": "lesen", "bucket": 1 },
+        { "text": "arbeiten", "bucket": 1 },
+        { "text": "kommen", "bucket": 0 }
+      ],
+      "explain": "Los verbos de movimiento usan sein; el resto, haben."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["sein"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "Ich habe nach Berlin gefahren.",
+      "accept": ["Ich bin nach Berlin gefahren"],
+      "audio": "Ich bin nach Berlin gefahren.",
+      "explain": "fahren es un verbo de movimiento: usa sein, no haben."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "gefahren", "es": "ido en vehículo (participio de fahren)", "esApprox": "«gue-FÁ-ren»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "gekommen", "es": "venido (participio de kommen)", "esApprox": "«gue-KO-men»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "gegangen", "es": "ido, a pie (participio de gehen)", "esApprox": "«gue-GAN-guen»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "geblieben", "es": "quedado (participio de bleiben)", "esApprox": "«gue-BLÍ-ben»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "gereist", "es": "viajado (participio de reisen)", "esApprox": "«gue-RAIST»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "gewesen", "es": "sido, estado (participio de sein)", "esApprox": "«gue-VÉ-zen»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Ich bin früh aufgestanden, und ich bin nach Berlin gefahren.", "es": "Me levanté temprano, y fui a Berlín.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Er ist spät gekommen, aber ich bin zu Hause geblieben.", "es": "Él llegó tarde, pero yo me quedé en casa.", "from": "e16" }
+  ]
+}

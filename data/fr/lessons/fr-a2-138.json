@@ -1,0 +1,255 @@
+{
+  "id": "fr-a2-138",
+  "lang": "fr",
+  "level": "A2",
+  "order": 138,
+  "title": "La casa y la mudanza",
+  "objectives": [
+    "Aprender vocabulario para hablar de una mudanza",
+    "Usar el passé composé y el futur simple con este vocabulario",
+    "Practicar frases sobre encontrar y cambiar de vivienda"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cambiar de vivienda",
+      "body": "Sin gramática nueva. Vocabulario para hablar de mudarse: déménager, un loyer, un propriétaire, un locataire.",
+      "examples": [
+        { "target": "J'ai déménagé le mois dernier. Le loyer est un peu cher, mais l'appartement est lumineux.", "es": "Me mudé el mes pasado. El alquiler es un poco caro, pero el piso es luminoso.", "note": "passé composé (déménagé) + descripción con être" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario de la mudanza",
+      "headers": ["Francés", "Español"],
+      "rows": [
+        ["déménager", "mudarse"],
+        ["un loyer", "un alquiler"],
+        ["un propriétaire / une propriétaire", "un propietario / una propietaria"],
+        ["un locataire / une locataire", "un inquilino / una inquilina"],
+        ["un appartement lumineux", "un piso luminoso"],
+        ["signer un contrat", "firmar un contrato"],
+        ["les cartons", "las cajas (de mudanza)"],
+        ["le quartier", "el barrio"]
+      ]
+    },
+    {
+      "type": "tip",
+      "title": "Propriétaire, la misma palabra para él y ella",
+      "body": "Propriétaire y locataire no cambian de forma según el género: le/la propriétaire, le/la locataire. Solo cambia el artículo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "déménager", "es": "mudarse", "ipa": "/de.me.na.ʒe/", "esApprox": "«de-me-na-YÉ»", "pos": "verbo", "gender": null, "example": { "target": "J'ai déménagé le mois dernier.", "es": "Me mudé el mes pasado." } },
+    { "id": "v2", "target": "un loyer", "es": "un alquiler", "ipa": "/œ̃ lwa.je/", "esApprox": "«un luá-YÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le loyer est un peu cher.", "es": "El alquiler es un poco caro." } },
+    { "id": "v3", "target": "un propriétaire", "es": "un propietario", "ipa": "/œ̃ pʁɔ.pʁi.je.tɛʁ/", "esApprox": "«un pro-prie-TER»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai appelé le propriétaire.", "es": "Llamé al propietario." } },
+    { "id": "v4", "target": "un locataire", "es": "un inquilino", "ipa": "/œ̃ lɔ.ka.tɛʁ/", "esApprox": "«un lo-ka-TER»", "pos": "sustantivo", "gender": "m", "example": { "target": "Je suis locataire depuis deux ans.", "es": "Soy inquilino desde hace dos años." } },
+    { "id": "v5", "target": "lumineux / lumineuse", "es": "luminoso/a", "ipa": "/ly.mi.nø ly.mi.nøz/", "esApprox": "«lü-mi-NÖ lü-mi-NÖZ»", "pos": "adjetivo", "gender": null, "example": { "target": "L'appartement est lumineux.", "es": "El piso es luminoso." } },
+    { "id": "v6", "target": "signer un contrat", "es": "firmar un contrato", "ipa": "/si.ɲe œ̃ kɔ̃.tʁa/", "esApprox": "«si-NIÉ un kon-TRA»", "pos": "expresión", "gender": null, "example": { "target": "Nous avons signé le contrat hier.", "es": "Firmamos el contrato ayer." } },
+    { "id": "v7", "target": "les cartons", "es": "las cajas (de mudanza)", "ipa": "/le kaʁ.tɔ̃/", "esApprox": "«le kar-TON»", "pos": "sustantivo", "gender": "m", "example": { "target": "J'ai fait tous les cartons ce week-end.", "es": "Hice todas las cajas este fin de semana." } },
+    { "id": "v8", "target": "le quartier", "es": "el barrio", "ipa": "/lə kaʁ.tje/", "esApprox": "«le kar-TIÉ»", "pos": "sustantivo", "gender": "m", "example": { "target": "Le quartier est calme et vivant.", "es": "El barrio es tranquilo y animado." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «me mudé el mes pasado»?",
+      "options": ["Je déménage le mois dernier.", "J'ai déménagé le mois dernier.", "Je déménagerai le mois dernier.", "J'avais déménagé le mois dernier."],
+      "answer": 1,
+      "explain": "Passé composé de déménager."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "¿Qué es «un locataire»?",
+      "options": ["un propietario", "un inquilino", "un vecino", "un agente inmobiliario"],
+      "answer": 1,
+      "explain": "Un locataire = un inquilino."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "statement": "Un propriétaire y un locataire son la misma persona.",
+      "answer": false,
+      "explain": "El propriétaire es dueño de la vivienda; el locataire la alquila."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "statement": "Les cartons se usan para hacer una mudanza.",
+      "answer": true,
+      "explain": "Les cartons = las cajas de mudanza."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "Une cada palabra con su significado",
+      "left": ["déménager", "un loyer", "signer un contrat", "le quartier"],
+      "right": ["el barrio", "mudarse", "un alquiler", "firmar un contrato"],
+      "answer": [1, 2, 3, 0],
+      "explain": "Déménager = mudarse, loyer = alquiler, signer un contrat = firmar contrato, quartier = barrio."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "Me mudé el mes pasado. El alquiler es un poco caro, pero el piso es luminoso.",
+      "accept": ["J'ai déménagé le mois dernier. Le loyer est un peu cher, mais l'appartement est lumineux"],
+      "hintWords": ["j'ai déménagé le mois dernier", "le loyer est un peu cher, mais l'appartement est lumineux"],
+      "strictAccents": true,
+      "audio": "J'ai déménagé le mois dernier. Le loyer est un peu cher, mais l'appartement est lumineux.",
+      "explain": "Passé composé (déménagé) + descripción con être."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "Firmamos el contrato ayer, y hoy hice todas las cajas.",
+      "accept": ["Nous avons signé le contrat hier, et aujourd'hui j'ai fait tous les cartons"],
+      "hintWords": ["nous avons signé le contrat hier", "aujourd'hui j'ai fait tous les cartons"],
+      "strictAccents": true,
+      "audio": "Nous avons signé le contrat hier, et aujourd'hui j'ai fait tous les cartons.",
+      "explain": "Signer un contrat + faire les cartons, ambos en passé composé."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "Completa con la palabra correcta",
+      "text": "Le ___ est un peu cher, mais le ___ est calme et vivant.",
+      "blanks": [{ "accept": ["loyer"] }, { "accept": ["quartier"] }],
+      "bank": ["loyer", "quartier", "locataire"],
+      "explain": "Le loyer + le quartier, dos aspectos importantes al elegir vivienda."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «Soy inquilino desde hace dos años»",
+      "tokens": ["depuis deux ans", "Je suis locataire"],
+      "answer": ["Je suis locataire", "depuis deux ans"],
+      "audio": "Je suis locataire depuis deux ans.",
+      "explain": "Je suis locataire + depuis deux ans (clase A2-097)."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "J'ai appelé le propriétaire parce que le loyer a augmenté, mais il n'a rien changé.",
+      "accept": ["Llamé al propietario porque el alquiler subió, pero no cambió nada."],
+      "strictAccents": false,
+      "audio": "J'ai appelé le propriétaire parce que le loyer a augmenté, mais il n'a rien changé.",
+      "explain": "Un propriétaire + le loyer, con dos verbos en passé composé."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre tu mudanza",
+      "turns": [
+        { "who": "Léa", "text": "Tu as déménagé récemment, non ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Oui, j'ai déménagé le mois dernier.", "Oui, et le quartier est très calme."], "hint": "usa déménager en passé composé" },
+        { "who": "Léa", "text": "Ah, super, tu es content alors !", "speak": true }
+      ],
+      "explain": "Tu as déménagé...? se responde con j'ai déménagé + detalles."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "speak": "J'ai déménagé le mois dernier, j'ai signé le contrat, et j'ai fait tous les cartons en un week-end.",
+      "mode": "write",
+      "accept": ["J'ai déménagé le mois dernier, j'ai signé le contrat, et j'ai fait tous les cartons en un week-end"],
+      "showTextAfter": true,
+      "explain": "Tres pasos de una mudanza, encadenados en passé composé."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 1,
+      "speak": "un locataire",
+      "mode": "choose",
+      "options": ["un propriétaire", "un locataire", "un quartier", "un loyer"],
+      "answer": 1,
+      "showTextAfter": true,
+      "explain": "Un locataire = un inquilino."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 3,
+      "speak": "J'ai déménagé le mois dernier, j'ai signé un contrat avec le propriétaire, et le nouveau quartier est très vivant.",
+      "es": "Me mudé el mes pasado, firmé un contrato con el propietario, y el nuevo barrio es muy animado.",
+      "ipa": "/ʒe de.me.na.ʒe lə mwa dɛʁ.nje ʒe si.ɲe œ̃ kɔ̃.tʁa a.vɛk lə pʁɔ.pʁi.je.tɛʁ e lə nu.vo kaʁ.tje ɛ tʁɛ vi.vɑ̃/",
+      "esApprox": "«ye de-me-na-YÉ le muá der-NIÉ ye si-NIÉ un kon-TRA a-VEK le pro-prie-TER e le nu-VO kar-TIÉ e tre vi-VAN»",
+      "focus": "Toda la historia de una mudanza en passé composé.",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "Cuenta tu última mudanza o describe el barrio donde vives.",
+      "modelAnswer": "J'ai déménagé il y a un an, et mon quartier est calme et lumineux.",
+      "alsoValid": ["Je suis locataire depuis trois ans."],
+      "speak": "J'ai déménagé il y a un an, et mon quartier est calme et lumineux.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "categorize",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "¿Es una persona o una acción/objeto?",
+      "buckets": ["Persona", "Acción/objeto"],
+      "items": [
+        { "text": "le propriétaire", "bucket": 0 },
+        { "text": "déménager", "bucket": 1 },
+        { "text": "le locataire", "bucket": 0 },
+        { "text": "les cartons", "bucket": 1 }
+      ],
+      "explain": "Propriétaire y locataire son personas; déménager y cartons, acción y objeto."
+    },
+    {
+      "id": "e17",
+      "type": "error_correction",
+      "tags": ["vivienda", "mudanza"],
+      "difficulty": 2,
+      "prompt": "Hay un error de vocabulario. Corrige la frase entera.",
+      "wrong": "J'ai signé un loyer avec le propriétaire.",
+      "accept": ["J'ai signé un contrat avec le propriétaire"],
+      "audio": "J'ai signé un contrat avec le propriétaire.",
+      "explain": "Se firma un contrat (contrato), no un loyer (que es el pago mensual)."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "déménager", "es": "mudarse", "esApprox": "«de-me-na-YÉ»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "un loyer", "es": "un alquiler", "esApprox": "«un luá-YÉ»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "un propriétaire", "es": "un propietario", "esApprox": "«un pro-prie-TER»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "un locataire", "es": "un inquilino", "esApprox": "«un lo-ka-TER»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "signer un contrat", "es": "firmar un contrato", "esApprox": "«si-NIÉ un kon-TRA»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "le quartier", "es": "el barrio", "esApprox": "«le kar-TIÉ»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "J'ai déménagé le mois dernier. Le loyer est un peu cher, mais l'appartement est lumineux.", "es": "Me mudé el mes pasado. El alquiler es un poco caro, pero el piso es luminoso.", "from": "e6" },
+    { "id": "s8", "kind": "phrase", "target": "Nous avons signé le contrat hier, et aujourd'hui j'ai fait tous les cartons.", "es": "Firmamos el contrato ayer, y hoy hice todas las cajas.", "from": "e7" }
+  ]
+}

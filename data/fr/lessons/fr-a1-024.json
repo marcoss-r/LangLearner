@@ -1,0 +1,285 @@
+{
+  "id": "fr-a1-024",
+  "lang": "fr",
+  "level": "A1",
+  "order": 24,
+  "title": "Los colores",
+  "objectives": [
+    "Nombrar los colores básicos en francés",
+    "Concordar el color en género y número cuando funciona como adjetivo: bleu/bleue/bleus/bleues",
+    "Reconocer los colores invariables (orange, marron) que no cambian ni en género ni en número"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Los colores son adjetivos: concuerdan",
+      "body": "En francés, el color va casi siempre **después** del sustantivo (al revés que en muchos casos del español, donde puede ir antes o después) y concuerda en género y número, como cualquier adjetivo: **une voiture bleue**, **des voitures bleues**. Algunos colores, sin embargo, no cambian nunca: son los que vienen de un sustantivo, como orange (la fruta) o marron (la castaña).",
+      "examples": [
+        { "target": "un chat noir", "es": "un gato negro", "note": "masculino singular" },
+        { "target": "une maison blanche", "es": "una casa blanca", "note": "femenino: blanc → blanche, irregular" },
+        { "target": "des sacs orange", "es": "unos bolsos naranjas", "note": "orange no cambia nunca" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Los colores básicos",
+      "headers": ["Masculino", "Femenino", "Español"],
+      "rows": [
+        ["rouge", "rouge", "rojo (invariable)"],
+        ["bleu", "bleue", "azul"],
+        ["vert", "verte", "verde"],
+        ["jaune", "jaune", "amarillo (invariable)"],
+        ["noir", "noire", "negro"],
+        ["blanc", "blanche", "blanco (irregular)"],
+        ["gris", "grise", "gris"],
+        ["orange", "orange", "naranja (invariable)"],
+        ["marron", "marron", "marrón (invariable)"],
+        ["rose", "rose", "rosa (invariable en género)"]
+      ],
+      "note": "El plural regular añade -s (bleus, bleues), salvo en los invariables: des sacs orange, des yeux marron."
+    },
+    {
+      "type": "contrast",
+      "title": "Orange y marron nunca concuerdan",
+      "items": [
+        { "wrong": "une voiture oranges / une voiture orangée en femenino", "right": "une voiture orange, des voitures orange", "why": "Orange y marron vienen de un sustantivo (la fruta, la castaña) y por eso se comportan como invariables: nunca añaden -e ni -s, sea cual sea el género o el número del sustantivo." }
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Blanc/blanche es el color más irregular de la lista: no sigue el patrón normal de +e (como bleu→bleue). Apréndetelo como una excepción aparte, junto con su plural: blancs (masculino) / blanches (femenino)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "rouge", "es": "rojo", "ipa": "/ʁuʒ/", "esApprox": "«RUY»", "pos": "adjetivo", "gender": null, "example": { "target": "Le sac est rouge.", "es": "El bolso es rojo." } },
+    { "id": "v2", "target": "bleu / bleue", "es": "azul", "ipa": "/blø/", "esApprox": "«BLEU»", "pos": "adjetivo", "gender": null, "example": { "target": "La voiture est bleue.", "es": "El coche es azul." } },
+    { "id": "v3", "target": "vert / verte", "es": "verde", "ipa": "/vɛʁ / vɛʁt/", "esApprox": "«VER» / «VERT»", "pos": "adjetivo", "gender": null, "example": { "target": "La maison est verte.", "es": "La casa es verde." } },
+    { "id": "v4", "target": "jaune", "es": "amarillo", "ipa": "/ʒon/", "esApprox": "«YON»", "pos": "adjetivo", "gender": null, "example": { "target": "Le stylo est jaune.", "es": "El bolígrafo es amarillo." } },
+    { "id": "v5", "target": "noir / noire", "es": "negro", "ipa": "/nwaʁ/", "esApprox": "«NUAR»", "pos": "adjetivo", "gender": null, "example": { "target": "Le chat est noir.", "es": "El gato es negro." } },
+    { "id": "v6", "target": "blanc / blanche", "es": "blanco", "ipa": "/blɑ̃ / blɑ̃ʃ/", "esApprox": "«BLAN» / «BLANSH»", "pos": "adjetivo", "gender": null, "example": { "target": "La maison est blanche.", "es": "La casa es blanca." } },
+    { "id": "v7", "target": "gris / grise", "es": "gris", "ipa": "/ɡʁi / ɡʁiz/", "esApprox": "«GRI» / «GRIZ»", "pos": "adjetivo", "gender": null, "example": { "target": "Le ciel est gris.", "es": "El cielo está gris." } },
+    { "id": "v8", "target": "orange", "es": "naranja", "ipa": "/ɔ.ʁɑ̃ʒ/", "esApprox": "«o-RANY»", "pos": "adjetivo", "gender": null, "example": { "target": "Le sac est orange.", "es": "El bolso es naranja." } },
+    { "id": "v9", "target": "marron", "es": "marrón", "ipa": "/ma.ʁɔ̃/", "esApprox": "«ma-RÓN»", "pos": "adjetivo", "gender": null, "example": { "target": "Les chaussettes sont marron.", "es": "Los calcetines son marrones." } },
+    { "id": "v10", "target": "rose", "es": "rosa", "ipa": "/ʁoz/", "esApprox": "«ROZ»", "pos": "adjetivo", "gender": null, "example": { "target": "La chaise est rose.", "es": "La silla es rosa." } }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "¿Cómo se dice «azul» en femenino?",
+      "options": ["bleu", "bleue", "bleus", "bleuse"],
+      "answer": 1,
+      "explain": "Bleu añade -e en femenino: bleue."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "¿Cómo se dice «blanco» en femenino?",
+      "options": ["blanc", "blance", "blanche", "blanque"],
+      "answer": 2,
+      "explain": "Blanc es irregular: blanche, no blance."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "statement": "Orange y marron son invariables: nunca cambian de forma.",
+      "answer": true,
+      "explain": "Vienen de un sustantivo (la naranja, la castaña) y no concuerdan ni en género ni en número."
+    },
+    {
+      "id": "e4",
+      "type": "odd_one_out",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estos colores es invariable, a diferencia de los demás?",
+      "options": ["bleu", "vert", "noir", "orange"],
+      "answer": 3,
+      "explain": "Orange no cambia nunca; bleu, vert y noir sí concuerdan en género."
+    },
+    {
+      "id": "e5",
+      "type": "match_pairs",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "Une cada color con su significado",
+      "left": ["rouge", "jaune", "noir", "gris"],
+      "right": ["negro", "rojo", "gris", "amarillo"],
+      "answer": [1, 3, 0, 2],
+      "explain": "Rouge = rojo, jaune = amarillo, noir = negro, gris = gris."
+    },
+    {
+      "id": "e6",
+      "type": "translate_to_target",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "El coche es azul.",
+      "accept": ["La voiture est bleue"],
+      "hintWords": ["bleue"],
+      "strictAccents": false,
+      "audio": "La voiture est bleue.",
+      "explain": "Voiture es femenino: bleue, con -e."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "Tengo un gato negro y un bolso naranja.",
+      "accept": ["J'ai un chat noir et un sac orange"],
+      "hintWords": ["noir", "orange"],
+      "strictAccents": false,
+      "audio": "J'ai un chat noir et un sac orange.",
+      "explain": "Noir concuerda (masculino); orange no cambia nunca."
+    },
+    {
+      "id": "e8",
+      "type": "fill_blank",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "Completa con el color correcto",
+      "text": "La maison est ___ et la voiture est ___.",
+      "blanks": [{ "accept": ["blanche"] }, { "accept": ["grise"] }],
+      "bank": ["blanche", "blanc", "grise", "gris"],
+      "explain": "Maison y voiture son femeninas: blanche y grise, con -e."
+    },
+    {
+      "id": "e9",
+      "type": "word_order",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «El gato es negro y verde»",
+      "tokens": ["noir", "et", "est", "Le chat", "vert"],
+      "answer": ["Le chat", "est", "noir", "et", "vert"],
+      "audio": "Le chat est noir et vert.",
+      "explain": "El color va después del verbo être + sujeto."
+    },
+    {
+      "id": "e10",
+      "type": "translate_to_es",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "prompt": "Les chaussettes sont marron et le stylo est jaune.",
+      "accept": ["Los calcetines son marrones y el bolígrafo es amarillo."],
+      "strictAccents": false,
+      "audio": "Les chaussettes sont marron et le stylo est jaune.",
+      "explain": "Marron no añade -s en plural, a diferencia de jaune, que sí podría (aunque aquí está en singular)."
+    },
+    {
+      "id": "e11",
+      "type": "dialogue",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre el color de tu coche",
+      "turns": [
+        { "who": "Léa", "text": "Elle est de quelle couleur, ta voiture ?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Elle est bleue.", "Elle est grise."], "hint": "di el color de tu coche" },
+        { "who": "Léa", "text": "Ah, comme la mienne !", "speak": true }
+      ],
+      "explain": "Elle (la voiture) est + color, concordado en femenino."
+    },
+    {
+      "id": "e12",
+      "type": "listening",
+      "tags": ["colores"],
+      "difficulty": 1,
+      "speak": "Le chat est noir et blanc.",
+      "mode": "write",
+      "accept": ["Le chat est noir et blanc"],
+      "showTextAfter": true,
+      "explain": "Noir et blanc, ambos masculinos, sin -e."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "speak": "orange",
+      "mode": "choose",
+      "options": ["orange", "rouge", "rose", "jaune"],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Orange se reconoce por su sonido nasal final."
+    },
+    {
+      "id": "e14",
+      "type": "shadowing",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "speak": "J'ai une voiture bleue, un sac orange et des chaussettes marron.",
+      "es": "Tengo un coche azul, un bolso naranja y unos calcetines marrones.",
+      "ipa": "/ʒe yn vwa.tyʁ blø œ̃ sak ɔ.ʁɑ̃ʒ e de ʃo.sɛt ma.ʁɔ̃/",
+      "esApprox": "«ye ün vuá-TÜR BLEU un sak o-RANY e de sho-SET ma-RÓN»",
+      "focus": "Tres colores seguidos, dos que concuerdan (bleue) y uno que no (orange, marron).",
+      "selfAssess": true
+    },
+    {
+      "id": "e15",
+      "type": "speak_prompt",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "Describe el color de tu bolso y de tu coche.",
+      "modelAnswer": "Mon sac est noir et ma voiture est grise.",
+      "alsoValid": ["Mon sac est rouge et ma voiture est bleue."],
+      "speak": "Mon sac est noir et ma voiture est grise.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "gender_article",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "Elige la forma correcta del color para «la maison» (femenino)",
+      "items": [
+        { "word": "la maison (bleu/bleue)", "options": ["bleu", "bleue"], "answer": 1 },
+        { "word": "la maison (noir/noire)", "options": ["noir", "noire"], "answer": 1 },
+        { "word": "la maison (orange)", "options": ["orange", "orangee"], "answer": 0, "hint": "orange no cambia nunca" }
+      ],
+      "explain": "Bleu y noir concuerdan en femenino; orange se queda igual."
+    },
+    {
+      "id": "e17",
+      "type": "categorize",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "¿Este color concuerda en género o es invariable?",
+      "buckets": ["Concuerda", "Invariable"],
+      "items": [
+        { "text": "bleu", "bucket": 0 },
+        { "text": "orange", "bucket": 1 },
+        { "text": "vert", "bucket": 0 },
+        { "text": "marron", "bucket": 1 },
+        { "text": "noir", "bucket": 0 },
+        { "text": "rouge", "bucket": 1 }
+      ],
+      "explain": "Rouge también es invariable en género (rouge sirve para masculino y femenino)."
+    },
+    {
+      "id": "e18",
+      "type": "error_correction",
+      "tags": ["colores"],
+      "difficulty": 2,
+      "prompt": "Hay un error de concordancia. Corrige la frase entera.",
+      "wrong": "La voiture est bleu.",
+      "accept": ["La voiture est bleue"],
+      "audio": "La voiture est bleue.",
+      "explain": "Voiture es femenino: el color debe concordar, bleue con -e."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "bleu / bleue", "es": "azul", "esApprox": "«BLEU»", "from": "v2" },
+    { "id": "s2", "kind": "word", "target": "vert / verte", "es": "verde", "esApprox": "«VER» / «VERT»", "from": "v3" },
+    { "id": "s3", "kind": "word", "target": "noir / noire", "es": "negro", "esApprox": "«NUAR»", "from": "v5" },
+    { "id": "s4", "kind": "word", "target": "blanc / blanche", "es": "blanco", "esApprox": "«BLAN» / «BLANSH»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "orange", "es": "naranja", "esApprox": "«o-RANY»", "from": "v8" },
+    { "id": "s6", "kind": "word", "target": "marron", "es": "marrón", "esApprox": "«ma-RÓN»", "from": "v9" },
+    { "id": "s7", "kind": "word", "target": "rose", "es": "rosa", "esApprox": "«ROZ»", "from": "v10" },
+    { "id": "s8", "kind": "phrase", "target": "Le chat est noir et blanc.", "es": "El gato es blanco y negro.", "from": "e12" },
+    { "id": "s9", "kind": "phrase", "target": "J'ai une voiture bleue, un sac orange et des chaussettes marron.", "es": "Tengo un coche azul, un bolso naranja y unos calcetines marrones.", "from": "e14" }
+  ]
+}

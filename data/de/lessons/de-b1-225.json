@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-225",
+  "lang": "de",
+  "level": "B1",
+  "order": 225,
+  "title": "La economía personal: ahorrar, gastar, invertir",
+  "objectives": [
+    "Aprender vocabulario de economía personal: sparen, ausgeben, investieren",
+    "Hablar de tu presupuesto, tus ingresos y tus deudas con precisión",
+    "Usar die Ersparnisse, das Einkommen y die Schulden en frases naturales"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de la economía personal",
+      "body": "Los tres verbos clave de la economía personal son «sparen» (ahorrar), «ausgeben» (gastar) e «investieren» (invertir). A partir de ellos se forman sustantivos muy útiles: «die Ersparnisse» (los ahorros), «die Ausgaben» (los gastos) y «die Investition» (la inversión). «Das Einkommen» (los ingresos) y «das Budget» (el presupuesto) completan el vocabulario básico para hablar de tus finanzas.",
+      "examples": [
+        { "target": "Ich versuche, jeden Monat zu sparen.", "es": "Intento ahorrar cada mes." },
+        { "target": "Meine Ausgaben sind höher als mein Einkommen.", "es": "Mis gastos son más altos que mis ingresos." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario clave de economía personal",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["sparen", "ahorrar"],
+        ["ausgeben", "gastar"],
+        ["investieren", "invertir"],
+        ["das Einkommen", "los ingresos"],
+        ["die Schulden", "las deudas"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "sich verschulden (endeudarse) es el verbo reflexivo relacionado con die Schulden: «Ich möchte mich nicht verschulden» (No quiero endeudarme). Un buen das Budget (presupuesto) ayuda a evitar precisamente eso."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "sparen", "es": "ahorrar", "ipa": "/ˈʃpaːʁən/", "esApprox": "«SHPÁ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Ich versuche, jeden Monat zu sparen.", "es": "Intento ahorrar cada mes." } },
+    { "id": "v2", "target": "ausgeben", "es": "gastar", "ipa": "/ˈaʊ̯sɡeːbn̩/", "esApprox": "«ÁUS-gue-ben»", "pos": "verbo", "gender": null, "example": { "target": "Ich gebe zu viel Geld aus.", "es": "Gasto demasiado dinero." } },
+    { "id": "v3", "target": "investieren", "es": "invertir", "ipa": "/ɪnvɛsˈtiːʁən/", "esApprox": "«in-ves-TÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Ich möchte in Aktien investieren.", "es": "Quiero invertir en acciones." } },
+    { "id": "v4", "target": "das Einkommen", "es": "los ingresos", "ipa": "/ˈaɪ̯nkɔmən/", "esApprox": "«ÁIN-ko-men»", "pos": "sustantivo", "gender": "n", "example": { "target": "Meine Ausgaben sind höher als mein Einkommen.", "es": "Mis gastos son más altos que mis ingresos." } },
+    { "id": "v5", "target": "die Schulden", "es": "las deudas", "ipa": "/diː ˈʃʊldn̩/", "esApprox": "«di SHÚL-den»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "Ich möchte keine Schulden haben.", "es": "No quiero tener deudas." } },
+    { "id": "v6", "target": "das Budget", "es": "el presupuesto", "ipa": "/byˈdʒeː/", "esApprox": "«bu-YÉ»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich habe ein festes Budget.", "es": "Tengo un presupuesto fijo." } },
+    { "id": "v7", "target": "die Ersparnisse", "es": "los ahorros", "ipa": "/diː ɛɐ̯ˈʃpaːɐ̯nɪsə/", "esApprox": "«di er-SHPÁR-ni-se»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "Meine Ersparnisse reichen für die Reise.", "es": "Mis ahorros alcanzan para el viaje." } },
+    { "id": "v8", "target": "sich verschulden", "es": "endeudarse", "ipa": "/zɪç fɛɐ̯ˈʃʊldn̩/", "esApprox": "«zich fer-SHÚL-den»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich möchte mich nicht verschulden.", "es": "No quiero endeudarme." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["economia"], "difficulty": 1, "prompt": "¿Cómo se dice «ahorrar»?", "options": ["ausgeben", "sparen", "investieren", "verschulden"], "answer": 1, "explain": "sparen = ahorrar." },
+    { "id": "e2", "type": "mcq", "tags": ["economia"], "difficulty": 2, "prompt": "¿Qué significa «die Ersparnisse»?", "options": ["Las deudas", "Los ahorros", "Los gastos", "El presupuesto"], "answer": 1, "explain": "die Ersparnisse = los ahorros." },
+    { "id": "e3", "type": "true_false", "tags": ["economia"], "difficulty": 2, "statement": "das Einkommen se refiere a lo que ganas, no a lo que gastas.", "answer": true, "explain": "das Einkommen = los ingresos, lo que se gana." },
+    { "id": "e4", "type": "true_false", "tags": ["economia"], "difficulty": 2, "statement": "sich verschulden significa lo mismo que sparen.", "answer": false, "explain": "sich verschulden = endeudarse; sparen = ahorrar. Son casi opuestos." },
+    { "id": "e5", "type": "match_pairs", "tags": ["economia"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["sparen", "ausgeben", "investieren", "das Budget"], "right": ["ahorrar", "gastar", "invertir", "el presupuesto"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["economia"], "difficulty": 2, "prompt": "Intento ahorrar cada mes.", "accept": ["Ich versuche, jeden Monat zu sparen"], "hintWords": ["ich versuche jeden Monat zu sparen"], "strictAccents": false, "audio": "Ich versuche, jeden Monat zu sparen.", "explain": "versuche, + jeden Monat + zu sparen (final, repaso de la clase 215)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["economia"], "difficulty": 2, "prompt": "Mis gastos son más altos que mis ingresos.", "accept": ["Meine Ausgaben sind höher als mein Einkommen"], "hintWords": ["meine Ausgaben sind höher als mein Einkommen"], "strictAccents": false, "audio": "Meine Ausgaben sind höher als mein Einkommen.", "explain": "Meine Ausgaben (sujeto) + sind (posición 2) + höher als mein Einkommen." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["economia"], "difficulty": 2, "prompt": "Quiero invertir en acciones.", "accept": ["Ich möchte in Aktien investieren"], "hintWords": ["ich möchte in Aktien investieren"], "strictAccents": false, "audio": "Ich möchte in Aktien investieren.", "explain": "möchte + in Aktien + investieren (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["economia"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich möchte keine ___ haben. Meine ___ reichen für die Reise.", "blanks": [{ "accept": ["Schulden"] }, { "accept": ["Ersparnisse"] }], "bank": ["Schulden", "Ersparnisse", "Ausgaben"], "explain": "die Schulden y die Ersparnisse." },
+    { "id": "e10", "type": "word_order", "tags": ["economia"], "difficulty": 2, "prompt": "Ordena: «Tengo un presupuesto fijo»", "tokens": ["ein festes Budget", "Ich habe"], "answer": ["Ich habe", "ein festes Budget"], "audio": "Ich habe ein festes Budget.", "explain": "Ich habe (posición normal) + ein festes Budget." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["economia"], "difficulty": 2, "prompt": "Ich gebe zu viel Geld aus.", "accept": ["Gasto demasiado dinero."], "strictAccents": false, "audio": "Ich gebe zu viel Geld aus.", "explain": "ausgeben: verbo separable (gebe...aus)." },
+    { "id": "e12", "type": "dialogue", "tags": ["economia"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie sparst du für deine Reise?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich versuche, jeden Monat zu sparen, und ich habe ein festes Budget."], "hint": "explica tu estrategia de ahorro" },
+      { "who": "Lea", "text": "Guter Plan!", "speak": true }
+    ], "explain": "Conversación típica sobre ahorro personal." },
+    { "id": "e13", "type": "listening", "tags": ["economia"], "difficulty": 1, "speak": "Ich versuche, jeden Monat zu sparen.", "mode": "write", "accept": ["Ich versuche, jeden Monat zu sparen"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["economia"], "difficulty": 2, "speak": "Ich möchte mich nicht verschulden.", "mode": "choose", "options": ["Ich möchte mich nicht verschulden.", "Ich möchte mich nicht sparen.", "Ich möchte mich nicht investieren."], "answer": 0, "showTextAfter": true, "explain": "sich verschulden es el único verbo reflexivo entre estas opciones que significa endeudarse." },
+    { "id": "e15", "type": "shadowing", "tags": ["economia"], "difficulty": 2, "speak": "Meine Ausgaben sind höher als mein Einkommen, deshalb versuche ich, jeden Monat etwas zu sparen.", "es": "Mis gastos son más altos que mis ingresos, por eso intento ahorrar algo cada mes.", "ipa": "/ˈmaɪ̯nə ˈaʊ̯sɡaːbn̩ zɪnt ˈhøːɐ̯ als maɪ̯n ˈaɪ̯nkɔmən dɛsˈhalp fɛɐ̯ˈzuːxə ɪç ˈjeːdn̩ ˈmoːnaːt ˈɛtvas tsuː ˈʃpaːʁən/", "esApprox": "«MÁI-ne ÁUS-ga-ben zint JÖR als main ÁIN-ko-men, des-JALP fer-ZÚ-je ich YÉ-den mo-NAT ET-vas tsu SHPÁ-ren»", "focus": "Ausgaben, Einkommen y sparen: los tres pilares de un análisis financiero personal.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["economia"], "difficulty": 2, "speak": "Ich möchte in Aktien investieren, aber ich will mich dabei nicht verschulden; deshalb habe ich ein festes Budget.", "es": "Quiero invertir en acciones, pero no quiero endeudarme por ello; por eso tengo un presupuesto fijo.", "ipa": "/ɪç ˈmœçtə ɪn ˈaktsi̯ən ɪnvɛsˈtiːʁən ˈaːbɐ ɪç vɪl mɪç daˈbaɪ̯ nɪçt fɛɐ̯ˈʃʊldn̩ dɛsˈhalp ˈhaːbə ɪç aɪ̯n ˈfɛstəs byˈdʒeː/", "esApprox": "«ich MÖCH-te in ak-TSI-en in-ves-TÍ-ren, Á-ber ich vil mich da-BÁI nicht fer-SHÚL-den, des-JALP JÁ-be ich ain FÉS-tes bu-YÉ»", "focus": "investieren, verschulden y Budget: la relación entre invertir con prudencia y tener un presupuesto.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["economia"], "difficulty": 2, "prompt": "Te preguntan cómo gestionas tu dinero. Di que intentas ahorrar cada mes.", "modelAnswer": "Ich versuche, jeden Monat zu sparen.", "alsoValid": ["Ich spare jeden Monat etwas."], "speak": "Ich versuche, jeden Monat zu sparen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["economia"], "difficulty": 2, "prompt": "Clasifica cada palabra según si es positivo o negativo para las finanzas", "buckets": ["Positivo", "Negativo"], "items": [
+      { "text": "sparen", "bucket": 0 },
+      { "text": "die Ersparnisse", "bucket": 0 },
+      { "text": "die Schulden", "bucket": 1 },
+      { "text": "sich verschulden", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario de economía personal." },
+    { "id": "e19", "type": "error_correction", "tags": ["economia"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich gebe zu viel Geld sparen.", "accept": ["Ich gebe zu viel Geld aus"], "audio": "Ich gebe zu viel Geld aus.", "explain": "ausgeben (gastar) es el verbo correcto aquí, no sparen (ahorrar)." },
+    { "id": "e20", "type": "mcq", "tags": ["economia"], "difficulty": 2, "prompt": "«Ich möchte in Aktien investieren, aber ich will mich dabei nicht verschulden; deshalb habe ich ein festes Budget.» ¿Qué hace la persona para invertir con prudencia?", "options": ["Nada en concreto", "Tener un presupuesto fijo", "Pedir un préstamo", "Gastar sin límites"], "answer": 1, "explain": "«deshalb habe ich ein festes Budget» explica la estrategia de prudencia." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "sparen", "es": "ahorrar", "esApprox": "«SHPÁ-ren»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "ausgeben", "es": "gastar", "esApprox": "«ÁUS-gue-ben»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "investieren", "es": "invertir", "esApprox": "«in-ves-TÍ-ren»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Einkommen", "es": "los ingresos", "esApprox": "«ÁIN-ko-men»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Schulden", "es": "las deudas", "esApprox": "«di SHÚL-den»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "sich verschulden", "es": "endeudarse", "esApprox": "«zich fer-SHÚL-den»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Meine Ausgaben sind höher als mein Einkommen, deshalb versuche ich, jeden Monat etwas zu sparen.", "es": "Mis gastos son más altos que mis ingresos, por eso intento ahorrar algo cada mes.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich möchte in Aktien investieren, aber ich will mich dabei nicht verschulden; deshalb habe ich ein festes Budget.", "es": "Quiero invertir en acciones, pero no quiero endeudarme por ello; por eso tengo un presupuesto fijo.", "from": "e16" }
+  ]
+}

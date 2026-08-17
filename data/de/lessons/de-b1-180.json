@@ -1,0 +1,87 @@
+{
+  "id": "de-b1-180",
+  "lang": "de",
+  "level": "B1",
+  "order": 180,
+  "title": "Hacer reproches: du hättest anrufen sollen",
+  "objectives": [
+    "Formar reproches con hätte + infinitivo + modal en infinitivo (Ersatzinfinitiv)",
+    "Reconocer que el modal no usa su participio (gesollt), sino su infinitivo, al final de la frase",
+    "Usar esta estructura para lamentar algo propio o reprochar algo a otra persona"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El doble infinitivo: hätte + infinitivo + modal en infinitivo",
+      "body": "Para hacer reproches sobre el pasado («Deberías haber llamado»), el alemán combina el Konjunktiv II del pasado (clase 178) con los verbos modales, pero con una particularidad: el modal no usa su participio normal (gesollt, gekonnt), sino su infinitivo, y va al final, después del infinitivo del verbo principal. «Du hättest mich anrufen sollen» (Deberías haberme llamado), literalmente «Tú habrías-debido llamarme llamar-deber».",
+      "examples": [
+        { "target": "Du hättest mich anrufen sollen.", "es": "Deberías haberme llamado." },
+        { "target": "Ich hätte früher aufstehen müssen.", "es": "Debería haberme levantado antes." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "hätte + infinitivo + modal en infinitivo (Ersatzinfinitiv)",
+      "headers": ["Persona", "hätte", "infinitivo principal", "modal (infinitivo)"],
+      "rows": [
+        ["du", "hättest", "anrufen", "sollen"],
+        ["ich", "hätte", "aufstehen", "müssen"],
+        ["wir", "hätten", "das wissen", "können"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Este «infinitivo en vez de participio» se llama Ersatzinfinitiv (infinitivo sustitutivo) y ocurre siempre que un modal aparece junto a otro verbo en una estructura de participio: nunca dirás «hätte gesollt anrufen», sino «hättest anrufen sollen»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "hättest anrufen sollen", "es": "deberías haber llamado", "ipa": "/ˈhɛtəst ˈanʁuːfn̩ ˈzɔlən/", "esApprox": "«JÉ-test ÁN-ru-fen ZÓ-len»", "pos": "locución verbal (reproche)", "gender": null, "example": { "target": "Du hättest mich anrufen sollen.", "es": "Deberías haberme llamado." } },
+    { "id": "v2", "target": "hätte müssen", "es": "debería haber (+ infinitivo)", "ipa": "/ˈhɛtə ˈmʏsn̩/", "esApprox": "«JÉ-te MÜ-sen»", "pos": "locución verbal (reproche)", "gender": null, "example": { "target": "Ich hätte früher aufstehen müssen.", "es": "Debería haberme levantado antes." } },
+    { "id": "v3", "target": "der Vorwurf", "es": "el reproche", "ipa": "/ˈfoːɐ̯vʊʁf/", "esApprox": "«FOR-vurf»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein Vorwurf.", "es": "Eso es un reproche." } },
+    { "id": "v4", "target": "vorwerfen", "es": "reprochar", "ipa": "/ˈfoːɐ̯vɛʁfn̩/", "esApprox": "«FOR-ver-fen»", "pos": "verbo", "gender": null, "example": { "target": "Sie wirft mir vor, dass ich zu spät bin.", "es": "Ella me reprocha que llegue tarde." } },
+    { "id": "v5", "target": "Bescheid sagen", "es": "avisar", "ipa": "/bəˈʃaɪ̯t ˈzaːɡn̩/", "esApprox": "«be-SHÁIT ZÁ-guen»", "pos": "locución verbal", "gender": null, "example": { "target": "Du hättest Bescheid sagen sollen.", "es": "Deberías haber avisado." } },
+    { "id": "v6", "target": "vergessen", "es": "olvidar", "ipa": "/fɛɐ̯ˈɡɛsn̩/", "esApprox": "«fer-GUÉ-sen»", "pos": "verbo", "gender": null, "example": { "target": "Du hättest das nicht vergessen sollen.", "es": "No deberías haberlo olvidado." } },
+    { "id": "v7", "target": "die Verantwortung", "es": "la responsabilidad", "ipa": "/fɛɐ̯ˈʔantvɔʁtʊŋ/", "esApprox": "«fer-ÁNT-vor-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Du hättest Verantwortung übernehmen sollen.", "es": "Deberías haber asumido responsabilidad." } },
+    { "id": "v8", "target": "im Voraus", "es": "de antemano, con antelación", "ipa": "/ɪm ˈfoːɐ̯aʊ̯s/", "esApprox": "«im FOR-aus»", "pos": "locución adverbial", "gender": null, "example": { "target": "Du hättest das im Voraus planen sollen.", "es": "Deberías haberlo planeado de antemano." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 1, "prompt": "¿Qué forma usa el modal en «Du hättest anrufen sollen»?", "options": ["El participio (gesollt)", "El infinitivo (sollen)", "El presente (sollst)", "El Präteritum (solltest)"], "answer": 1, "explain": "El modal usa su infinitivo (Ersatzinfinitiv), no su participio." },
+    { "id": "e2", "type": "mcq", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "¿Dónde va el modal en esta estructura?", "options": ["Antes de hätte", "Justo después de hätte", "Al final, después del infinitivo principal", "No aparece"], "answer": 2, "explain": "hätte + infinitivo principal + modal en infinitivo, al final." },
+    { "id": "e3", "type": "true_false", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "statement": "«hätte gesollt anrufen» es una forma correcta.", "answer": false, "explain": "El orden correcto es hätte + anrufen + sollen, con el Ersatzinfinitiv al final." },
+    { "id": "e4", "type": "true_false", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "statement": "Esta estructura sirve tanto para reprochar a otros como para lamentar algo propio.", "answer": true, "explain": "Du hättest... (reproche a otro) e Ich hätte... (lamento propio) usan la misma estructura." },
+    { "id": "e5", "type": "match_pairs", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Une cada reproche con su significado", "left": ["Du hättest anrufen sollen.", "Ich hätte früher aufstehen müssen.", "Du hättest Bescheid sagen sollen.", "Du hättest das nicht vergessen sollen."], "right": ["Deberías haber llamado.", "Debería haberme levantado antes.", "Deberías haber avisado.", "No deberías haberlo olvidado."], "answer": [0, 1, 2, 3], "explain": "Cuatro reproches típicos con hätte + infinitivo + modal." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Deberías haberme llamado.", "accept": ["Du hättest mich anrufen sollen"], "hintWords": ["du hättest mich anrufen sollen"], "strictAccents": false, "audio": "Du hättest mich anrufen sollen.", "explain": "hättest + mich + anrufen + sollen (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Debería haberme levantado antes.", "accept": ["Ich hätte früher aufstehen müssen"], "hintWords": ["ich hätte früher aufstehen müssen"], "strictAccents": false, "audio": "Ich hätte früher aufstehen müssen.", "explain": "hätte + früher + aufstehen + müssen (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Deberías haber avisado.", "accept": ["Du hättest Bescheid sagen sollen"], "hintWords": ["du hättest Bescheid sagen sollen"], "strictAccents": false, "audio": "Du hättest Bescheid sagen sollen.", "explain": "hättest + Bescheid sagen + sollen (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Completa el reproche con la palabra correcta", "text": "Du hättest das nicht ___ sollen. Ich hätte früher aufstehen ___.", "blanks": [{ "accept": ["vergessen"] }, { "accept": ["müssen"] }], "bank": ["vergessen", "müssen", "vergaß"], "explain": "vergessen (infinitivo principal) y müssen (Ersatzinfinitiv del modal)." },
+    { "id": "e10", "type": "word_order", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Ordena: «Deberías haber asumido responsabilidad»", "tokens": ["übernehmen sollen", "Du hättest Verantwortung"], "answer": ["Du hättest Verantwortung", "übernehmen sollen"], "audio": "Du hättest Verantwortung übernehmen sollen.", "explain": "hättest (posición 2) + Verantwortung (objeto) + übernehmen (infinitivo) + sollen (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Sie wirft mir vor, dass ich zu spät bin.", "accept": ["Ella me reprocha que llegue tarde."], "strictAccents": false, "audio": "Sie wirft mir vor, dass ich zu spät bin.", "explain": "vorwerfen: verbo separable con dativo de persona." },
+    { "id": "e12", "type": "dialogue", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Ich habe den Bus verpasst und niemand wusste Bescheid.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Du hättest Bescheid sagen sollen."], "hint": "hazle un reproche suave con hätte + infinitivo + sollen" },
+      { "who": "Lea", "text": "Du hast recht, tut mir leid.", "speak": true }
+    ], "explain": "Reproche típico con hätte + infinitivo + sollen." },
+    { "id": "e13", "type": "listening", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 1, "speak": "Du hättest mich anrufen sollen.", "mode": "write", "accept": ["Du hättest mich anrufen sollen"], "showTextAfter": true, "explain": "Reproche completo con Ersatzinfinitiv." },
+    { "id": "e14", "type": "listening", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "speak": "Ich hätte früher aufstehen müssen.", "mode": "choose", "options": ["Ich hätte früher aufstehen müssen.", "Ich hätte früher aufgestanden gemusst.", "Ich hätte früher aufstehen gemusst."], "answer": 0, "showTextAfter": true, "explain": "El modal usa el Ersatzinfinitiv (müssen), no el participio (gemusst)." },
+    { "id": "e15", "type": "shadowing", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "speak": "Du hättest mich anrufen sollen, und ich hätte auch früher Bescheid sagen müssen.", "es": "Deberías haberme llamado, y yo también debería haber avisado antes.", "ipa": "/duː ˈhɛtəst mɪç ˈanʁuːfn̩ ˈzɔlən ʊnt ɪç ˈhɛtə aʊ̯x ˈfʁyːɐ bəˈʃaɪ̯t ˈzaːɡn̩ ˈmʏsn̩/", "esApprox": "«du JÉ-test mich ÁN-ru-fen ZÓ-len, unt ich JÉ-te aoj FRÍU-er be-SHÁIT ZÁ-guen MÜ-sen»", "focus": "hättest...sollen y hätte...müssen: dos reproches (a otra persona y a uno mismo) en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "speak": "Du hättest das im Voraus planen sollen, und du hättest auch Verantwortung übernehmen müssen.", "es": "Deberías haberlo planeado de antemano, y también deberías haber asumido responsabilidad.", "ipa": "/duː ˈhɛtəst das ɪm ˈfoːɐ̯aʊ̯s ˈplaːnən ˈzɔlən ʊnt duː ˈhɛtəst aʊ̯x fɛɐ̯ˈʔantvɔʁtʊŋ yːbɐˈneːmən ˈmʏsn̩/", "esApprox": "«du JÉ-test das im FOR-aus PLÁ-nen ZÓ-len, unt du JÉ-test aoj fer-ÁNT-vor-tung iu-ber-NÉ-men MÜ-sen»", "focus": "planen sollen y übernehmen müssen: dos reproches formales con distintos verbos principales.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Un amigo no te avisó de un cambio de planes. Hazle un reproche suave.", "modelAnswer": "Du hättest Bescheid sagen sollen.", "alsoValid": ["Du hättest mir Bescheid sagen sollen."], "speak": "Du hättest Bescheid sagen sollen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Clasifica cada reproche: a otra persona o a uno mismo", "buckets": ["Reproche a otra persona (du)", "Lamento propio (ich)"], "items": [
+      { "text": "Du hättest mich anrufen sollen.", "bucket": 0 },
+      { "text": "Ich hätte früher aufstehen müssen.", "bucket": 1 },
+      { "text": "Du hättest Bescheid sagen sollen.", "bucket": 0 }
+    ], "explain": "La misma estructura sirve para reprochar a otros (du) o lamentar algo propio (ich)." },
+    { "id": "e19", "type": "error_correction", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Du hättest mich anrufen gesollt.", "accept": ["Du hättest mich anrufen sollen"], "audio": "Du hättest mich anrufen sollen.", "explain": "El modal usa el Ersatzinfinitiv (sollen), no el participio (gesollt)." },
+    { "id": "e20", "type": "mcq", "tags": ["konjunktiv-ii", "reproches"], "difficulty": 2, "prompt": "«Du hättest mich anrufen sollen. Ich hätte auch früher Bescheid sagen müssen, denn wir hätten das Problem gemeinsam lösen können.» ¿Qué tono tiene esta frase?", "options": ["Un reproche mutuo y comprensivo", "Una orden estricta", "Una felicitación", "Una pregunta neutral"], "answer": 0, "explain": "El uso de hättest...sollen y hätte...müssen para ambas personas muestra un reproche mutuo, sin ser agresivo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "hättest anrufen sollen", "es": "deberías haber llamado", "esApprox": "«JÉ-test ÁN-ru-fen ZÓ-len»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "hätte müssen", "es": "debería haber (+ infinitivo)", "esApprox": "«JÉ-te MÜ-sen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Vorwurf", "es": "el reproche", "esApprox": "«FOR-vurf»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "vorwerfen", "es": "reprochar", "esApprox": "«FOR-ver-fen»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "Bescheid sagen", "es": "avisar", "esApprox": "«be-SHÁIT ZÁ-guen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Verantwortung", "es": "la responsabilidad", "esApprox": "«fer-ÁNT-vor-tung»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Du hättest mich anrufen sollen, und ich hätte auch früher Bescheid sagen müssen.", "es": "Deberías haberme llamado, y yo también debería haber avisado antes.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Du hättest das im Voraus planen sollen, und du hättest auch Verantwortung übernehmen müssen.", "es": "Deberías haberlo planeado de antemano, y también deberías haber asumido responsabilidad.", "from": "e16" }
+  ]
+}

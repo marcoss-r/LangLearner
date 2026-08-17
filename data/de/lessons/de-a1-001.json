@@ -1,0 +1,397 @@
+{
+  "id": "de-a1-001",
+  "lang": "de",
+  "level": "A1",
+  "order": 1,
+  "title": "Bienvenido al alemán: por qué es más lógico de lo que te han contado",
+  "objectives": [
+    "Reconocer cognados internacionales frecuentes entre el alemán y el español (Universität, Telefon, System, Idee)",
+    "Entender por qué el alemán, a pesar de su fama, es un idioma muy fonético: cada letra suena casi siempre igual",
+    "Detectar los tres rasgos que más van a chocar a un hispanohablante: la mayúscula obligatoria en todo sustantivo, las palabras compuestas y el orden distinto del verbo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El alemán tiene mala fama, pero es un idioma muy ordenado",
+      "body": "Mucha gente cree que el alemán es un idioma imposible. La realidad es distinta: el alemán es **mucho más fonético y regular** que el francés o el inglés. Una vez aprendes las reglas de pronunciación (pocas y sin apenas excepciones), sabes leer en voz alta casi cualquier palabra nueva. Además, el alemán culto comparte con el español un enorme vocabulario de origen latino y griego: **cognados internacionales** que reconoces a simple vista. Esta clase te enseña a apoyarte en eso desde el primer día, y a no asustarte con lo que sí es distinto: la mayúscula en los sustantivos y las palabras compuestas larguísimas.",
+      "examples": [
+        { "target": "die Universität", "es": "la universidad", "note": "cognado directo" },
+        { "target": "das Telefon", "es": "el teléfono", "note": "cognado directo" },
+        { "target": "die Musik", "es": "la música", "note": "cognado directo" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cognados internacionales fáciles de reconocer",
+      "headers": ["Alemán", "Español", "Nota"],
+      "rows": [
+        ["die Universität", "la universidad", "-tät → -dad"],
+        ["das System", "el sistema", "prácticamente idéntico"],
+        ["die Idee", "la idea", "solo cambia la ortografía"],
+        ["modern", "moderno", "adjetivo internacional, igual en las dos lenguas"]
+      ],
+      "note": "Estos cognados llegan del latín y el griego al alemán culto, igual que al español: por eso se parecen tanto."
+    },
+    {
+      "type": "phonetics",
+      "title": "El alemán se pronuncia (casi) como se escribe",
+      "body": "A diferencia del francés o el inglés, en alemán casi nunca hay letras mudas ni sorpresas: si sabes las reglas, puedes leer una palabra que ves por primera vez. Dos cosas ya desde ya: el acento suele caer en la primera sílaba de la raíz (salvo en muchos cognados internacionales, que lo llevan al final, como en español), y la combinación -tion se pronuncia «tsión», no «sión» como en francés.",
+      "drills": [
+        { "target": "die Universität", "ipa": "/u.ni.vɛʁ.ziˈtɛːt/", "esApprox": "«u-ni-ver-zi-TET», acento en la última sílaba, como en español", "hint": "cognado con acento final" },
+        { "target": "das Telefon", "ipa": "/ˌteː.leˈfoːn/", "esApprox": "«te-le-FON»", "hint": "acento en la última sílaba" },
+        { "target": "das System", "ipa": "/zʏsˈteːm/", "esApprox": "«süs-TEM», la y de sys- no existe en español: pon la boca en posición de «u» pero di «i»", "hint": "y = ü breve" },
+        { "target": "die Nation", "ipa": "/naˈtsi̯oːn/", "esApprox": "«na-TSIÓN», con una t clara: no es «sión» como en francés", "hint": "-tion se pronuncia -tsión" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Ojo con dos costumbres del alemán que no existen en español",
+      "items": [
+        { "wrong": "die universität (con minúscula, como en español)", "right": "die Universität", "why": "En alemán TODOS los sustantivos, no solo los nombres propios, se escriben siempre con mayúscula inicial, estén donde estén en la frase." },
+        { "wrong": "Handschuh se traduce por un cognado parecido al español", "right": "Handschuh = Hand (mano) + Schuh (zapato) → «guante»", "why": "El alemán construye palabras larguísimas pegando piezas más pequeñas. Para entenderlas hay que descomponerlas en trozos, no buscar un cognado directo: no todo es tan fácil como Universität." }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Un idioma de varios países",
+      "body": "El alemán es la lengua materna con más hablantes nativos de la Unión Europea: unos 100 millones. Es idioma oficial en Alemania, Austria, Suiza (junto al francés, el italiano y el romanche), Liechtenstein, y cooficial en partes de Bélgica e Italia (Tirol del Sur). Aunque el alemán estándar (Hochdeutsch) es el que vas a aprender aquí, cada región tiene su acento y hasta su propio dialecto: no te sorprendas si el alemán de Múnich suena distinto al de Berlín o al de Viena."
+    },
+    {
+      "type": "tip",
+      "body": "Truco para las palabras compuestas: léelas de derecha a izquierda, palabra por palabra. El género de toda la palabra compuesta es siempre el de la ÚLTIMA pieza: Hand + Schuh → der Schuh es masculino, así que der Handschuh también lo es."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "target": "die Universität",
+      "es": "la universidad",
+      "ipa": "/u.ni.vɛʁ.ziˈtɛːt/",
+      "esApprox": "«u-ni-ver-zi-TET»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Universitäten",
+      "example": { "target": "Die Universität ist sehr modern.", "es": "La universidad es muy moderna." }
+    },
+    {
+      "id": "v2",
+      "target": "das Telefon",
+      "es": "el teléfono",
+      "ipa": "/ˌteː.leˈfoːn/",
+      "esApprox": "«te-le-FON»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Telefone",
+      "example": { "target": "Das Telefon ist neu.", "es": "El teléfono es nuevo." }
+    },
+    {
+      "id": "v3",
+      "target": "die Musik",
+      "es": "la música",
+      "ipa": "/muˈziːk/",
+      "esApprox": "«mu-ZIK»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Musiken",
+      "example": { "target": "Die Musik ist sehr modern.", "es": "La música es muy moderna." }
+    },
+    {
+      "id": "v4",
+      "target": "das System",
+      "es": "el sistema",
+      "ipa": "/zʏsˈteːm/",
+      "esApprox": "«süs-TEM»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Systeme",
+      "example": { "target": "Das System ist neu.", "es": "El sistema es nuevo." }
+    },
+    {
+      "id": "v5",
+      "target": "die Idee",
+      "es": "la idea",
+      "ipa": "/iˈdeː/",
+      "esApprox": "«i-DÉ»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Ideen",
+      "example": { "target": "Das ist eine gute Idee.", "es": "Esa es una buena idea." }
+    },
+    {
+      "id": "v6",
+      "target": "modern",
+      "es": "moderno, moderna",
+      "ipa": "/moˈdɛʁn/",
+      "esApprox": "«mo-DERN»",
+      "pos": "adjetivo",
+      "gender": null,
+      "example": { "target": "Die Universität ist modern.", "es": "La universidad es moderna." }
+    },
+    {
+      "id": "v7",
+      "target": "das Museum",
+      "es": "el museo",
+      "ipa": "/muˈzeːʊm/",
+      "esApprox": "«mu-ZÉ-um»",
+      "pos": "sustantivo",
+      "gender": "n",
+      "plural": "die Museen",
+      "example": { "target": "Das Museum ist sehr modern.", "es": "El museo es muy moderno." }
+    },
+    {
+      "id": "v8",
+      "target": "die Nation",
+      "es": "la nación",
+      "ipa": "/naˈtsi̯oːn/",
+      "esApprox": "«na-TSIÓN»",
+      "pos": "sustantivo",
+      "gender": "f",
+      "plural": "die Nationen",
+      "example": { "target": "Deutschland ist eine große Nation.", "es": "Alemania es una gran nación." }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mcq",
+      "tags": ["cognados"],
+      "difficulty": 1,
+      "prompt": "¿Qué significa «die Universität»?",
+      "options": ["la universidad", "la unión", "el universo", "la unidad"],
+      "answer": 0,
+      "explain": "Universität es un cognado directo del español «universidad»."
+    },
+    {
+      "id": "e2",
+      "type": "mcq",
+      "tags": ["mayuscula-sustantivos"],
+      "difficulty": 1,
+      "prompt": "¿Cuál es la característica más famosa de los sustantivos alemanes?",
+      "options": ["Siempre van en minúscula", "Siempre empiezan con mayúscula, estén donde estén", "No tienen género", "No llevan artículo"],
+      "answer": 1,
+      "explain": "En alemán, todo sustantivo se escribe con mayúscula inicial en cualquier posición de la frase."
+    },
+    {
+      "id": "e3",
+      "type": "true_false",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 1,
+      "statement": "El alemán se pronuncia de forma muy irregular, con muchas letras mudas, como el francés.",
+      "answer": false,
+      "explain": "Al contrario: el alemán es muy fonético. Casi siempre se pronuncia tal como se escribe."
+    },
+    {
+      "id": "e4",
+      "type": "true_false",
+      "tags": ["mayuscula-sustantivos"],
+      "difficulty": 1,
+      "statement": "En alemán, la combinación -tion se pronuncia «tsión», no «sión».",
+      "answer": true,
+      "explain": "die Nation suena «na-TSIÓN», con una t clara, a diferencia del francés."
+    },
+    {
+      "id": "e5",
+      "type": "odd_one_out",
+      "tags": ["cognados"],
+      "difficulty": 2,
+      "prompt": "¿Cuál de estas palabras NO es un cognado internacional reconocible?",
+      "options": ["die Universität", "das Telefon", "der Handschuh", "das Museum"],
+      "answer": 2,
+      "explain": "Handschuh (Hand + Schuh, «zapato de mano») es una palabra compuesta genuinamente alemana: significa «guante» y no se parece a nada en español."
+    },
+    {
+      "id": "e6",
+      "type": "match_pairs",
+      "tags": ["cognados"],
+      "difficulty": 1,
+      "prompt": "Une cada palabra alemana con su significado en español",
+      "left": ["die Universität", "das Telefon", "die Musik", "das System"],
+      "right": ["el teléfono", "la universidad", "el sistema", "la música"],
+      "answer": [1, 0, 3, 2],
+      "explain": "Los cuatro son cognados internacionales fáciles de reconocer."
+    },
+    {
+      "id": "e7",
+      "type": "translate_to_target",
+      "tags": ["cognados"],
+      "difficulty": 2,
+      "prompt": "La universidad es moderna.",
+      "accept": ["Die Universität ist modern"],
+      "hintWords": ["die Universität", "ist", "modern"],
+      "strictAccents": false,
+      "audio": "Die Universität ist modern.",
+      "explain": "die Universität + ist + modern, en ese orden: sujeto, verbo, adjetivo."
+    },
+    {
+      "id": "e8",
+      "type": "translate_to_target",
+      "tags": ["cognados"],
+      "difficulty": 2,
+      "prompt": "El teléfono es moderno.",
+      "accept": ["Das Telefon ist modern"],
+      "hintWords": ["das Telefon", "ist", "modern"],
+      "strictAccents": false,
+      "audio": "Das Telefon ist modern.",
+      "explain": "Telefon es neutro (das), por eso no cambia el adjetivo: modern vale para los tres géneros en esta posición."
+    },
+    {
+      "id": "e9",
+      "type": "fill_blank",
+      "tags": ["mayuscula-sustantivos"],
+      "difficulty": 2,
+      "prompt": "Completa con el artículo correcto",
+      "text": "___ Universität ist sehr modern. ___ System ist neu.",
+      "blanks": [{ "accept": ["Die"] }, { "accept": ["Das"] }],
+      "bank": ["Die", "Das", "Der"],
+      "explain": "die Universität es femenino; das System es neutro."
+    },
+    {
+      "id": "e10",
+      "type": "word_order",
+      "tags": ["cognados"],
+      "difficulty": 2,
+      "prompt": "Ordena para formar la frase: «La música es muy moderna»",
+      "tokens": ["ist", "Musik", "sehr", "modern", "Die"],
+      "answer": ["Die", "Musik", "ist", "sehr", "modern"],
+      "audio": "Die Musik ist sehr modern.",
+      "explain": "Orden básico: sujeto (Die Musik), verbo (ist), y el resto detrás, igual que en español."
+    },
+    {
+      "id": "e11",
+      "type": "translate_to_es",
+      "tags": ["cognados"],
+      "difficulty": 1,
+      "prompt": "Das System ist neu.",
+      "accept": ["El sistema es nuevo."],
+      "strictAccents": false,
+      "audio": "Das System ist neu.",
+      "explain": "System es un cognado directo de «sistema»."
+    },
+    {
+      "id": "e12",
+      "type": "dialogue",
+      "tags": ["cognados"],
+      "difficulty": 2,
+      "prompt": "Completa la conversación sobre la universidad",
+      "turns": [
+        { "who": "Anna", "text": "Ist die Universität modern?", "speak": true },
+        { "who": "Toi", "blank": true, "accept": ["Ja, die Universität ist sehr modern."], "hint": "dile que sí, que es muy moderna" },
+        { "who": "Anna", "text": "Und das Museum?", "speak": true }
+      ],
+      "explain": "«Ist» es la forma de «es/está» que verás con calma en la clase 9; aquí solo la reconoces."
+    },
+    {
+      "id": "e13",
+      "type": "listening",
+      "tags": ["cognados"],
+      "difficulty": 2,
+      "speak": "Die Musik ist modern.",
+      "mode": "write",
+      "accept": ["Die Musik ist modern"],
+      "showTextAfter": true,
+      "explain": "Die Musik ist modern = la música es moderna."
+    },
+    {
+      "id": "e14",
+      "type": "listening",
+      "tags": ["cognados"],
+      "difficulty": 2,
+      "speak": "Das Telefon ist neu.",
+      "mode": "choose",
+      "options": ["Das Telefon ist neu.", "Die Musik ist neu.", "Das System ist neu."],
+      "answer": 0,
+      "showTextAfter": true,
+      "explain": "Telefon, Musik y System se distinguen solo por la primera palabra: presta atención al inicio."
+    },
+    {
+      "id": "e15",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "speak": "Die Universität ist sehr modern.",
+      "es": "La universidad es muy moderna.",
+      "ipa": "/diː uniˌvɛʁziˈtɛːt ɪst zeːɐ̯ moˈdɛʁn/",
+      "esApprox": "«di u-ni-ver-zi-TET ist zér mo-DERN»",
+      "focus": "La v alemana de Universität suena como una v/f inglesa (labiodental), no como la b española.",
+      "selfAssess": true
+    },
+    {
+      "id": "e16",
+      "type": "shadowing",
+      "tags": ["pronunciacion-general"],
+      "difficulty": 2,
+      "speak": "Das System ist neu.",
+      "es": "El sistema es nuevo.",
+      "ipa": "/das zʏsˈteːm ɪst nɔɪ̯/",
+      "esApprox": "«das süs-TEM ist NOI»",
+      "focus": "«Neu» se pronuncia «noi», un diptongo que no existe en español: empieza en «o» y cierra en «i».",
+      "selfAssess": true
+    },
+    {
+      "id": "e17",
+      "type": "speak_prompt",
+      "tags": ["cognados"],
+      "difficulty": 2,
+      "prompt": "Un amigo te pregunta si el museo es moderno. Dile que sí, que es muy moderno.",
+      "modelAnswer": "Ja, das Museum ist sehr modern.",
+      "alsoValid": ["Das Museum ist sehr modern."],
+      "speak": "Ja, das Museum ist sehr modern.",
+      "selfAssess": true
+    },
+    {
+      "id": "e18",
+      "type": "gender_article",
+      "tags": ["mayuscula-sustantivos", "cognados"],
+      "difficulty": 2,
+      "prompt": "Elige el artículo correcto (der, die o das)",
+      "items": [
+        { "word": "Universität", "options": ["der", "die", "das"], "answer": 1, "hint": "las palabras en -tät son femeninas" },
+        { "word": "Telefon", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "System", "options": ["der", "die", "das"], "answer": 2, "hint": "es neutro" },
+        { "word": "Nation", "options": ["der", "die", "das"], "answer": 1, "hint": "las palabras en -tion son femeninas, igual que en español -ción" }
+      ],
+      "explain": "En alemán el género no se adivina por el significado: hay que aprenderlo con cada palabra, aunque algunas terminaciones (-tät, -tion, -ung) casi siempre son femeninas."
+    },
+    {
+      "id": "e19",
+      "type": "categorize",
+      "tags": ["mayuscula-sustantivos"],
+      "difficulty": 2,
+      "prompt": "Clasifica cada palabra según su género: der, die o das",
+      "buckets": ["der", "die", "das"],
+      "items": [
+        { "text": "Universität", "bucket": 1 },
+        { "text": "Telefon", "bucket": 2 },
+        { "text": "Musik", "bucket": 1 },
+        { "text": "System", "bucket": 2 },
+        { "text": "Museum", "bucket": 2 },
+        { "text": "Nation", "bucket": 1 }
+      ],
+      "explain": "Ninguna de estas ocho palabras es masculina: fíjate en que der no aparece todavía, lo verás en la próxima tanda de vocabulario."
+    },
+    {
+      "id": "e20",
+      "type": "error_correction",
+      "tags": ["mayuscula-sustantivos"],
+      "difficulty": 2,
+      "prompt": "Hay un error. Corrige la frase entera.",
+      "wrong": "die telefon ist modern.",
+      "accept": ["Das Telefon ist modern"],
+      "audio": "Das Telefon ist modern.",
+      "explain": "Dos errores: Telefon es neutro (das, no die) y todo sustantivo se escribe con mayúscula inicial."
+    }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Universität", "es": "la universidad", "esApprox": "«u-ni-ver-zi-TET»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Telefon", "es": "el teléfono", "esApprox": "«te-le-FON»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Musik", "es": "la música", "esApprox": "«mu-ZIK»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das System", "es": "el sistema", "esApprox": "«süs-TEM»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Idee", "es": "la idea", "esApprox": "«i-DÉ»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "modern", "es": "moderno, moderna", "esApprox": "«mo-DERN»", "from": "v6" },
+    { "id": "s7", "kind": "word", "target": "das Museum", "es": "el museo", "esApprox": "«mu-ZÉ-um»", "from": "v7" },
+    { "id": "s8", "kind": "word", "target": "die Nation", "es": "la nación", "esApprox": "«na-TSIÓN»", "from": "v8" },
+    { "id": "s9", "kind": "phrase", "target": "Die Universität ist sehr modern.", "es": "La universidad es muy moderna.", "from": "e15" },
+    { "id": "s10", "kind": "phrase", "target": "Das System ist neu.", "es": "El sistema es nuevo.", "from": "e16" },
+    { "id": "s11", "kind": "phrase", "target": "Ja, das Museum ist sehr modern.", "es": "Sí, el museo es muy moderno.", "from": "e17" }
+  ]
+}
