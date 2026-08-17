@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-194",
+  "lang": "de",
+  "level": "B1",
+  "order": 194,
+  "title": "Las relativas en dativo y genitivo",
+  "objectives": [
+    "Formar oraciones de relativo en dativo (dem/der/dem/denen), típicas con verbos como helfen",
+    "Formar oraciones de relativo en genitivo (dessen/deren), equivalentes a «cuyo/cuya»",
+    "Completar el paradigma completo del pronombre relativo en los cuatro casos"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dativo (a quien) y genitivo (cuyo)",
+      "body": "El relativo en dativo se usa cuando el verbo de la subordinada rige dativo, como helfen: «Der Mann, dem ich geholfen habe, ist nett» (El hombre a quien he ayudado es simpático). El relativo en genitivo equivale a «cuyo/cuya» y expresa posesión: «Die Frau, deren Auto kaputt ist, wartet hier» (La mujer cuyo coche está estropeado espera aquí). En plural, el dativo usa la forma especial denen.",
+      "examples": [
+        { "target": "Der Mann, dem ich geholfen habe, ist nett.", "es": "El hombre a quien he ayudado es simpático." },
+        { "target": "Die Frau, deren Auto kaputt ist, wartet hier.", "es": "La mujer cuyo coche está estropeado espera aquí." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "El pronombre relativo completo",
+      "headers": ["Caso", "masculino", "femenino", "neutro", "plural"],
+      "rows": [
+        ["Nominativo", "der", "die", "das", "die"],
+        ["Acusativo", "den", "die", "das", "die"],
+        ["Dativo", "dem", "der", "dem", "denen"],
+        ["Genitivo", "dessen", "deren", "dessen", "deren"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Tras dessen/deren, el sustantivo que le sigue no lleva artículo, porque el relativo ya funciona como posesivo: «deren Auto» (cuyo coche), no «deren das Auto»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Mann, dem...", "es": "el hombre a quien... (dativo)", "ipa": "/deːɐ̯ man deːm/", "esApprox": "«der man dem»", "pos": "estructura relativa", "gender": null, "example": { "target": "Der Mann, dem ich geholfen habe, ist nett.", "es": "El hombre a quien he ayudado es simpático." } },
+    { "id": "v2", "target": "die Frau, deren...", "es": "la mujer cuyo/a... (genitivo)", "ipa": "/diː fʁaʊ̯ ˈdeːʁən/", "esApprox": "«di frau DÉ-ren»", "pos": "estructura relativa", "gender": null, "example": { "target": "Die Frau, deren Auto kaputt ist, wartet hier.", "es": "La mujer cuyo coche está estropeado espera aquí." } },
+    { "id": "v3", "target": "der Mann, dessen...", "es": "el hombre cuyo... (genitivo)", "ipa": "/deːɐ̯ man ˈdɛsn̩/", "esApprox": "«der man DÉ-sen»", "pos": "estructura relativa", "gender": null, "example": { "target": "Der Mann, dessen Sohn hier arbeitet, ist mein Nachbar.", "es": "El hombre cuyo hijo trabaja aquí es mi vecino." } },
+    { "id": "v4", "target": "die Leute, denen...", "es": "la gente a quien... (dativo plural)", "ipa": "/diː ˈlɔɪ̯tə ˈdeːnən/", "esApprox": "«di LÓI-te DÉ-nen»", "pos": "estructura relativa", "gender": null, "example": { "target": "Die Leute, denen ich geschrieben habe, haben nicht geantwortet.", "es": "La gente a la que he escrito no ha respondido." } },
+    { "id": "v5", "target": "helfen", "es": "ayudar (+ dativo)", "ipa": "/ˈhɛlfn̩/", "esApprox": "«JÉL-fen»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe ihm geholfen.", "es": "Le he ayudado." } },
+    { "id": "v6", "target": "der Nachbar", "es": "el vecino", "ipa": "/ˈnaːxbaːɐ̯/", "esApprox": "«NACH-bar»", "pos": "sustantivo", "gender": "m", "example": { "target": "Er ist mein Nachbar.", "es": "Él es mi vecino." } },
+    { "id": "v7", "target": "der Sohn", "es": "el hijo", "ipa": "/zoːn/", "esApprox": "«zon»", "pos": "sustantivo", "gender": "m", "example": { "target": "Dessen Sohn arbeitet hier.", "es": "El hijo de él trabaja aquí." } },
+    { "id": "v8", "target": "antworten", "es": "responder", "ipa": "/ˈantvɔʁtn̩/", "esApprox": "«ÁNT-vor-ten»", "pos": "verbo", "gender": null, "example": { "target": "Sie haben nicht geantwortet.", "es": "No han respondido." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["relativas"], "difficulty": 1, "prompt": "¿Qué relativo se usa en dativo masculino/neutro singular?", "options": ["den", "der", "dem", "dessen"], "answer": 2, "explain": "dem: dativo masculino y neutro." },
+    { "id": "e2", "type": "mcq", "tags": ["relativas"], "difficulty": 2, "prompt": "¿Qué relativo equivale a «cuyo» para un antecedente masculino/neutro?", "options": ["dessen", "deren", "dem", "der"], "answer": 0, "explain": "dessen: genitivo masculino y neutro (cuyo)." },
+    { "id": "e3", "type": "true_false", "tags": ["relativas"], "difficulty": 2, "statement": "Tras dessen/deren, el sustantivo lleva artículo, como en cualquier frase normal.", "answer": false, "explain": "El relativo genitivo ya funciona como posesivo, así que no lleva artículo después: deren Auto, no deren das Auto." },
+    { "id": "e4", "type": "true_false", "tags": ["relativas"], "difficulty": 2, "statement": "El dativo plural del relativo es denen, distinto del artículo definido den.", "answer": true, "explain": "denen es una forma especial exclusiva de los pronombres relativos en dativo plural." },
+    { "id": "e5", "type": "match_pairs", "tags": ["relativas"], "difficulty": 2, "prompt": "Une cada caso con su relativo masculino", "left": ["Nominativo", "Acusativo", "Dativo", "Genitivo"], "right": ["der", "den", "dem", "dessen"], "answer": [0, 1, 2, 3], "explain": "Los cuatro casos del relativo masculino singular." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["relativas"], "difficulty": 2, "prompt": "El hombre a quien he ayudado es simpático.", "accept": ["Der Mann, dem ich geholfen habe, ist nett"], "hintWords": ["der Mann dem ich geholfen habe ist nett"], "strictAccents": false, "audio": "Der Mann, dem ich geholfen habe, ist nett.", "explain": "dem (dativo, helfen rige dativo) + ich + geholfen habe (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["relativas"], "difficulty": 2, "prompt": "La mujer cuyo coche está estropeado espera aquí.", "accept": ["Die Frau, deren Auto kaputt ist, wartet hier"], "hintWords": ["die Frau deren Auto kaputt ist wartet hier"], "strictAccents": false, "audio": "Die Frau, deren Auto kaputt ist, wartet hier.", "explain": "deren (genitivo femenino) + Auto + kaputt + ist (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["relativas"], "difficulty": 2, "prompt": "El hombre cuyo hijo trabaja aquí es mi vecino.", "accept": ["Der Mann, dessen Sohn hier arbeitet, ist mein Nachbar"], "hintWords": ["der Mann dessen Sohn hier arbeitet ist mein Nachbar"], "strictAccents": false, "audio": "Der Mann, dessen Sohn hier arbeitet, ist mein Nachbar.", "explain": "dessen (genitivo masculino) + Sohn + hier + arbeitet (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["relativas"], "difficulty": 2, "prompt": "Completa con el relativo correcto", "text": "Der Mann, ___ ich geholfen habe, ist nett. Die Frau, ___ Auto kaputt ist, wartet hier.", "blanks": [{ "accept": ["dem"] }, { "accept": ["deren"] }], "bank": ["dem", "deren", "den"], "explain": "dem (dativo, helfen) y deren (genitivo femenino, posesión)." },
+    { "id": "e10", "type": "word_order", "tags": ["relativas"], "difficulty": 2, "prompt": "Ordena: «La gente a la que he escrito no ha respondido»", "tokens": ["habe, haben nicht geantwortet.", "Die Leute, denen ich geschrieben"], "answer": ["Die Leute, denen ich geschrieben", "habe, haben nicht geantwortet."], "audio": "Die Leute, denen ich geschrieben habe, haben nicht geantwortet.", "explain": "denen (dativo plural) + ich + geschrieben habe (final de la subordinada)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["relativas"], "difficulty": 2, "prompt": "Er ist mein Nachbar.", "accept": ["Él es mi vecino."], "strictAccents": false, "audio": "Er ist mein Nachbar.", "explain": "der Nachbar = el vecino." },
+    { "id": "e12", "type": "dialogue", "tags": ["relativas"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wer ist dieser Mann?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das ist der Mann, dem ich geholfen habe."], "hint": "usa una relativa en dativo" },
+      { "who": "Lea", "text": "Ach so!", "speak": true }
+    ], "explain": "dem ich geholfen habe: relativa en dativo con helfen." },
+    { "id": "e13", "type": "listening", "tags": ["relativas"], "difficulty": 1, "speak": "Der Mann, dem ich geholfen habe, ist nett.", "mode": "write", "accept": ["Der Mann, dem ich geholfen habe, ist nett"], "showTextAfter": true, "explain": "dem...geholfen habe: relativa en dativo." },
+    { "id": "e14", "type": "listening", "tags": ["relativas"], "difficulty": 2, "speak": "Die Frau, deren Auto kaputt ist, wartet hier.", "mode": "choose", "options": ["Die Frau, deren Auto kaputt ist, wartet hier.", "Die Frau, die Auto kaputt ist, wartet hier.", "Die Frau, deren das Auto kaputt ist, wartet hier."], "answer": 0, "showTextAfter": true, "explain": "deren Auto, sin artículo tras el relativo genitivo." },
+    { "id": "e15", "type": "shadowing", "tags": ["relativas"], "difficulty": 2, "speak": "Der Mann, dem ich geholfen habe, ist der Nachbar, dessen Sohn hier arbeitet.", "es": "El hombre a quien he ayudado es el vecino cuyo hijo trabaja aquí.", "ipa": "/deːɐ̯ man deːm ɪç ɡəˈhɔlfn̩ ˈhaːbə ɪst deːɐ̯ ˈnaːxbaːɐ̯ ˈdɛsn̩ zoːn hiːɐ̯ ˈaʁbaɪ̯tət/", "esApprox": "«der man dem ich ge-JÓL-fen JÁ-be ist der NACH-bar, DÉ-sen zon jir ÁR-bai-tet»", "focus": "dem (dativo) y dessen (genitivo): dos relativos con casos distintos en una misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["relativas"], "difficulty": 2, "speak": "Die Frau, deren Auto kaputt ist, wartet hier, und die Leute, denen ich geschrieben habe, haben nicht geantwortet.", "es": "La mujer cuyo coche está estropeado espera aquí, y la gente a la que he escrito no ha respondido.", "ipa": "/diː fʁaʊ̯ ˈdeːʁən ˈaʊ̯to kaˈpʊt ɪst ˈvaʁtət hiːɐ̯ ʊnt diː ˈlɔɪ̯tə ˈdeːnən ɪç ɡəˈʃʁiːbn̩ ˈhaːbə ˈhaːbn̩ nɪçt ɡəˈʔantvɔʁtət/", "esApprox": "«di frau DÉ-ren AU-to ka-PUT ist, VAR-tet jir, unt di LÓI-te DÉ-nen ich ge-SHRÍ-ben JÁ-be, JÁ-ben nicht ge-ÁNT-vor-tet»", "focus": "deren (genitivo) y denen (dativo plural): dos formas especiales del relativo en una misma frase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["relativas"], "difficulty": 2, "prompt": "Te preguntan quién es un hombre. Descríbelo como el hombre al que has ayudado.", "modelAnswer": "Das ist der Mann, dem ich geholfen habe.", "alsoValid": ["Er ist der Mann, dem ich geholfen habe."], "speak": "Das ist der Mann, dem ich geholfen habe.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["relativas"], "difficulty": 2, "prompt": "Clasifica cada relativo: dativo o genitivo", "buckets": ["Dativo (dem/der/denen)", "Genitivo (dessen/deren)"], "items": [
+      { "text": "dem ich geholfen habe", "bucket": 0 },
+      { "text": "deren Auto kaputt ist", "bucket": 1 },
+      { "text": "denen ich geschrieben habe", "bucket": 0 },
+      { "text": "dessen Sohn hier arbeitet", "bucket": 1 }
+    ], "explain": "dem/der/denen marcan dativo; dessen/deren marcan genitivo (posesión, «cuyo»)." },
+    { "id": "e19", "type": "error_correction", "tags": ["relativas"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Die Frau, deren das Auto kaputt ist, wartet hier.", "accept": ["Die Frau, deren Auto kaputt ist, wartet hier"], "audio": "Die Frau, deren Auto kaputt ist, wartet hier.", "explain": "Tras el relativo genitivo no va artículo: deren Auto, no deren das Auto." },
+    { "id": "e20", "type": "mcq", "tags": ["relativas"], "difficulty": 2, "prompt": "«Der Mann, dem ich geholfen habe, ist der Nachbar, dessen Sohn hier arbeitet. Die Frau, deren Auto kaputt ist, wartet hier.» ¿Por qué espera la mujer?", "options": ["Porque busca al vecino", "Porque su coche está estropeado", "Porque quiere ayudar al hombre", "Porque trabaja aquí"], "answer": 1, "explain": "«Die Frau, deren Auto kaputt ist, wartet hier» indica que espera porque su coche está estropeado." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "der Mann, dem...", "es": "el hombre a quien... (dativo)", "esApprox": "«der man dem»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "die Frau, deren...", "es": "la mujer cuyo/a... (genitivo)", "esApprox": "«di frau DÉ-ren»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "der Mann, dessen...", "es": "el hombre cuyo... (genitivo)", "esApprox": "«der man DÉ-sen»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "die Leute, denen...", "es": "la gente a quien... (dativo plural)", "esApprox": "«di LÓI-te DÉ-nen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "helfen", "es": "ayudar (+ dativo)", "esApprox": "«JÉL-fen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Nachbar", "es": "el vecino", "esApprox": "«NACH-bar»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Der Mann, dem ich geholfen habe, ist der Nachbar, dessen Sohn hier arbeitet.", "es": "El hombre a quien he ayudado es el vecino cuyo hijo trabaja aquí.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Frau, deren Auto kaputt ist, wartet hier, und die Leute, denen ich geschrieben habe, haben nicht geantwortet.", "es": "La mujer cuyo coche está estropeado espera aquí, y la gente a la que he escrito no ha respondido.", "from": "e16" }
+  ]
+}

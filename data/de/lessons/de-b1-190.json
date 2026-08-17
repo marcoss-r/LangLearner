@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-190",
+  "lang": "de",
+  "level": "B1",
+  "order": 190,
+  "title": "Cuándo un alemán usa de verdad la pasiva (y cuándo no)",
+  "objectives": [
+    "Reconocer los contextos donde la pasiva es realmente natural: ciencia, instrucciones, noticias",
+    "Evitar el error típico de sobreusar la pasiva en la conversación cotidiana",
+    "Elegir con criterio entre werden-Passiv, man y la voz activa según el contexto"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "La pasiva no es tan frecuente como parece",
+      "body": "Muchos estudiantes usan la pasiva más de lo que un hablante nativo lo haría, porque en su lengua es más común. En alemán, la voz activa y man son mucho más frecuentes en la conversación cotidiana; la pasiva se reserva sobre todo para textos científicos, técnicos, instrucciones oficiales y noticias, donde el proceso importa más que la persona.",
+      "examples": [
+        { "target": "Wasser besteht aus Sauerstoff und Wasserstoff.", "es": "El agua se compone de oxígeno e hidrógeno." },
+        { "target": "Man macht das so.", "es": "Se hace así." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Cuándo sí y cuándo no",
+      "headers": ["Contexto", "Preferencia habitual"],
+      "rows": [
+        ["Ciencia, manuales técnicos", "Pasiva frecuente (wird verwendet, wird hergestellt)"],
+        ["Instrucciones y normas oficiales", "Pasiva o modal + pasiva (muss beachtet werden)"],
+        ["Noticias e historia", "Pasiva en Präteritum (wurde gegründet)"],
+        ["Conversación cotidiana", "Voz activa o man, casi siempre"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Si dudas entre pasiva, man o activa en una conversación normal, elige man o la voz activa: sonarás más natural. Reserva la pasiva para cuando de verdad quieras poner el foco en el proceso o el resultado, no en quién lo hace."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "bestehen aus", "es": "componerse de", "ipa": "/bəˈʃteːən aʊ̯s/", "esApprox": "«be-SHTÉ-en aus»", "pos": "verbo con preposición fija", "gender": null, "example": { "target": "Wasser besteht aus Sauerstoff und Wasserstoff.", "es": "El agua se compone de oxígeno e hidrógeno." } },
+    { "id": "v2", "target": "verwenden", "es": "utilizar, emplear", "ipa": "/fɛɐ̯ˈvɛndn̩/", "esApprox": "«fer-VÉN-den»", "pos": "verbo", "gender": null, "example": { "target": "Dieses Material wird oft verwendet.", "es": "Este material se emplea a menudo." } },
+    { "id": "v3", "target": "herstellen", "es": "fabricar, producir", "ipa": "/ˈheːɐ̯ʃtɛlən/", "esApprox": "«JÉR-shte-len»", "pos": "verbo", "gender": null, "example": { "target": "Das Produkt wird in Deutschland hergestellt.", "es": "El producto se fabrica en Alemania." } },
+    { "id": "v4", "target": "der Sauerstoff", "es": "el oxígeno", "ipa": "/ˈzaʊ̯ɐʃtɔf/", "esApprox": "«ZÁU-er-shtof»", "pos": "sustantivo", "gender": "m", "example": { "target": "Wasser besteht aus Sauerstoff und Wasserstoff.", "es": "El agua se compone de oxígeno e hidrógeno." } },
+    { "id": "v5", "target": "natürlich klingen", "es": "sonar natural", "ipa": "/naˈtyːɐ̯lɪç ˈklɪŋən/", "esApprox": "«na-TIÚR-lich KLÍN-guen»", "pos": "locución verbal", "gender": null, "example": { "target": "Aktiv klingt oft natürlicher.", "es": "La voz activa suena a menudo más natural." } },
+    { "id": "v6", "target": "übertreiben", "es": "exagerar", "ipa": "/yːbɐˈtʁaɪ̯bn̩/", "esApprox": "«iu-ber-TRÁI-ben»", "pos": "verbo", "gender": null, "example": { "target": "Man sollte es mit dem Passiv nicht übertreiben.", "es": "No hay que exagerar con la pasiva." } },
+    { "id": "v7", "target": "die Wissenschaft", "es": "la ciencia", "ipa": "/ˈvɪsn̩ʃaft/", "esApprox": "«VÍ-sen-shaft»", "pos": "sustantivo", "gender": "f", "example": { "target": "In der Wissenschaft ist das Passiv üblich.", "es": "En la ciencia, la pasiva es habitual." } },
+    { "id": "v8", "target": "die Anleitung", "es": "las instrucciones", "ipa": "/ˈanlaɪ̯tʊŋ/", "esApprox": "«ÁN-lai-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "In der Anleitung wird alles erklärt.", "es": "En las instrucciones se explica todo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["voz-pasiva"], "difficulty": 1, "prompt": "¿En qué contexto es más frecuente la pasiva?", "options": ["Conversación cotidiana", "Ciencia e instrucciones oficiales", "Chistes entre amigos", "Ninguno"], "answer": 1, "explain": "La pasiva es propia de textos científicos, técnicos y normativos." },
+    { "id": "e2", "type": "mcq", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "¿Qué se recomienda en la conversación cotidiana ante la duda?", "options": ["Usar siempre la pasiva", "Usar man o la voz activa", "No hablar", "Usar solo el Konjunktiv II"], "answer": 1, "explain": "man y la voz activa suenan más naturales en el día a día." },
+    { "id": "e3", "type": "true_false", "tags": ["voz-pasiva"], "difficulty": 2, "statement": "Los estudiantes de alemán suelen usar la pasiva menos de lo necesario.", "answer": false, "explain": "El error típico es al revés: usarla más de lo que haría un hablante nativo." },
+    { "id": "e4", "type": "true_false", "tags": ["voz-pasiva"], "difficulty": 2, "statement": "En las noticias e historia, la pasiva en Präteritum es habitual.", "answer": true, "explain": "wurde gegründet, wurde gebaut: repaso de la clase 186." },
+    { "id": "e5", "type": "match_pairs", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Une cada contexto con su preferencia habitual", "left": ["Ciencia", "Instrucciones oficiales", "Noticias/historia", "Conversación cotidiana"], "right": ["Pasiva frecuente", "Pasiva o modal + pasiva", "Pasiva en Präteritum", "Activa o man"], "answer": [0, 1, 2, 3], "explain": "Cuatro contextos y su preferencia habitual." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "El agua se compone de oxígeno e hidrógeno.", "accept": ["Wasser besteht aus Sauerstoff und Wasserstoff"], "hintWords": ["Wasser besteht aus Sauerstoff und Wasserstoff"], "strictAccents": false, "audio": "Wasser besteht aus Sauerstoff und Wasserstoff.", "explain": "bestehen aus: típico de textos científicos, en voz activa." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "El producto se fabrica en Alemania.", "accept": ["Das Produkt wird in Deutschland hergestellt"], "hintWords": ["das Produkt wird in Deutschland hergestellt"], "strictAccents": false, "audio": "Das Produkt wird in Deutschland hergestellt.", "explain": "wird + hergestellt: pasiva típica de contextos industriales/técnicos." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "No hay que exagerar con la pasiva.", "accept": ["Man sollte es mit dem Passiv nicht übertreiben"], "hintWords": ["man sollte es mit dem Passiv nicht übertreiben"], "strictAccents": false, "audio": "Man sollte es mit dem Passiv nicht übertreiben.", "explain": "sollte (consejo suave, repaso de la clase 181) + nicht übertreiben." },
+    { "id": "e9", "type": "fill_blank", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "In der ___ wird alles erklärt. In der ___ ist das Passiv üblich.", "blanks": [{ "accept": ["Anleitung"] }, { "accept": ["Wissenschaft"] }], "bank": ["Anleitung", "Wissenschaft", "Küche"], "explain": "die Anleitung (instrucciones) y die Wissenschaft (ciencia)." },
+    { "id": "e10", "type": "word_order", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Ordena: «La voz activa suena a menudo más natural»", "tokens": ["oft natürlicher", "Aktiv klingt"], "answer": ["Aktiv klingt", "oft natürlicher"], "audio": "Aktiv klingt oft natürlicher.", "explain": "Aktiv (sujeto) + klingt (posición 2) + oft + natürlicher." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Dieses Material wird oft verwendet.", "accept": ["Este material se emplea a menudo."], "strictAccents": false, "audio": "Dieses Material wird oft verwendet.", "explain": "wird + verwendet: pasiva de contexto técnico." },
+    { "id": "e12", "type": "dialogue", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie repariert man das?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Man macht das so."], "hint": "responde con man, en voz activa, más natural que la pasiva" },
+      { "who": "Lea", "text": "Ah, verstanden!", "speak": true }
+    ], "explain": "man macht das so: mucho más natural en conversación que una pasiva." },
+    { "id": "e13", "type": "listening", "tags": ["voz-pasiva"], "difficulty": 1, "speak": "Man macht das so.", "mode": "write", "accept": ["Man macht das so"], "showTextAfter": true, "explain": "man + activo: la forma más natural en conversación." },
+    { "id": "e14", "type": "listening", "tags": ["voz-pasiva"], "difficulty": 2, "speak": "Das Produkt wird in Deutschland hergestellt.", "mode": "choose", "options": ["Das Produkt wird in Deutschland hergestellt.", "Man das Produkt in Deutschland herstellt.", "Das Produkt hergestellt in Deutschland wird."], "answer": 0, "showTextAfter": true, "explain": "En un contexto técnico, wird + hergestellt es lo natural." },
+    { "id": "e15", "type": "shadowing", "tags": ["voz-pasiva"], "difficulty": 2, "speak": "In der Wissenschaft ist das Passiv üblich, aber im Alltag klingt Aktiv oder man oft natürlicher.", "es": "En la ciencia, la pasiva es habitual, pero en el día a día la voz activa o man suenan a menudo más naturales.", "ipa": "/ɪn deːɐ̯ ˈvɪsn̩ʃaft ɪst das ˈpasiːf ˈyːplɪç ˈaːbɐ ɪm ˈaltaːk klɪŋt ˈaktiːf ˈoːdɐ man ɔft naˈtyːɐ̯lɪçɐ/", "esApprox": "«in der VÍ-sen-shaft ist das pa-SIF IÚP-lich, Á-ber im AL-tak klingt AK-tif Ó-der man oft na-TIÚR-li-jer»", "focus": "ist üblich frente a klingt natürlicher: contraste entre registro científico y cotidiano.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["voz-pasiva"], "difficulty": 2, "speak": "Wasser besteht aus Sauerstoff und Wasserstoff; man sollte es mit dem Passiv aber nicht übertreiben.", "es": "El agua se compone de oxígeno e hidrógeno; pero no hay que exagerar con la pasiva.", "ipa": "/ˈvasɐ bəˈʃteːt aʊ̯s ˈzaʊ̯ɐʃtɔf ʊnt ˈvasɐʃtɔf man ˈzɔltə ɛs mɪt deːm ˈpasiːf ˈaːbɐ nɪçt yːbɐˈtʁaɪ̯bn̩/", "esApprox": "«VÁ-ser be-SHTET aus ZÁU-er-shtof unt VÁ-ser-shtof, man ZÓL-te es mit dem pa-SIF Á-ber nicht iu-ber-TRÁI-ben»", "focus": "bestehen aus (voz activa científica) y sollte...übertreiben: dos consejos sobre el uso de la pasiva.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Alguien te pregunta cómo se repara algo. Responde de forma natural con man.", "modelAnswer": "Man macht das so.", "alsoValid": ["Das macht man so."], "speak": "Man macht das so.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Clasifica cada contexto según la forma preferida", "buckets": ["Pasiva natural", "Activa/man natural"], "items": [
+      { "text": "Un manual técnico", "bucket": 0 },
+      { "text": "Una charla informal con amigos", "bucket": 1 },
+      { "text": "Un artículo de noticias sobre historia", "bucket": 0 },
+      { "text": "Explicar cómo cocinar algo a un amigo", "bucket": 1 }
+    ], "explain": "La pasiva domina en textos técnicos e informativos; man y la activa dominan en la conversación." },
+    { "id": "e19", "type": "error_correction", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "Hay un uso poco natural. Sugiere una alternativa más natural para la conversación cotidiana.", "wrong": "Es wird von mir gekocht.", "accept": ["Ich koche", "Ich koche es"], "explain": "En conversación cotidiana, la voz activa (Ich koche) suena mucho más natural que la pasiva con agente explícito." },
+    { "id": "e20", "type": "mcq", "tags": ["voz-pasiva"], "difficulty": 2, "prompt": "«In der Wissenschaft ist das Passiv üblich, aber im Alltag klingt Aktiv oder man oft natürlicher. Man sollte es mit dem Passiv nicht übertreiben.» ¿Cuál es el consejo principal del texto?", "options": ["Usar siempre la pasiva", "No exagerar con la pasiva fuera de contextos técnicos", "Evitar totalmente la pasiva", "Usar solo man"], "answer": 1, "explain": "«Man sollte es mit dem Passiv nicht übertreiben» es el consejo central." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "bestehen aus", "es": "componerse de", "esApprox": "«be-SHTÉ-en aus»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "verwenden", "es": "utilizar, emplear", "esApprox": "«fer-VÉN-den»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "herstellen", "es": "fabricar, producir", "esApprox": "«JÉR-shte-len»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "übertreiben", "es": "exagerar", "esApprox": "«iu-ber-TRÁI-ben»", "from": "v6" },
+    { "id": "s5", "kind": "word", "target": "die Wissenschaft", "es": "la ciencia", "esApprox": "«VÍ-sen-shaft»", "from": "v7" },
+    { "id": "s6", "kind": "word", "target": "die Anleitung", "es": "las instrucciones", "esApprox": "«ÁN-lai-tung»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "In der Wissenschaft ist das Passiv üblich, aber im Alltag klingt Aktiv oder man oft natürlicher.", "es": "En la ciencia, la pasiva es habitual, pero en el día a día la voz activa o man suenan a menudo más naturales.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Wasser besteht aus Sauerstoff und Wasserstoff; man sollte es mit dem Passiv aber nicht übertreiben.", "es": "El agua se compone de oxígeno e hidrógeno; pero no hay que exagerar con la pasiva.", "from": "e16" }
+  ]
+}

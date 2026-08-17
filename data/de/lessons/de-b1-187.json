@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-187",
+  "lang": "de",
+  "level": "B1",
+  "order": 187,
+  "title": "La pasiva con verbos modales",
+  "objectives": [
+    "Formar la pasiva con modales: modal conjugado + participio + werden (infinitivo) al final",
+    "Reconocer que esta estructura combina la pasiva con el orden habitual de los modales",
+    "Usar esta construcción para dar instrucciones y normas de forma impersonal"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Modal + participio + werden: dos verbos al final",
+      "body": "Cuando un modal (müssen, können, sollen...) se combina con la pasiva, el modal se conjuga en posición 2 como siempre, pero al final de la frase aparecen dos verbos: el participio del verbo principal y werden en infinitivo. «Das muss gemacht werden» (Eso tiene que hacerse/ser hecho), literalmente «Eso debe hecho ser».",
+      "examples": [
+        { "target": "Das muss heute gemacht werden.", "es": "Eso tiene que hacerse hoy." },
+        { "target": "Die Aufgabe kann schnell erledigt werden.", "es": "La tarea puede resolverse rápido." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Modal + participio + werden",
+      "headers": ["Sujeto", "Modal (posición 2)", "Participio + werden (final)"],
+      "rows": [
+        ["das", "muss", "gemacht werden"],
+        ["die Aufgabe", "kann", "erledigt werden"],
+        ["die Regeln", "müssen", "beachtet werden"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Esta construcción es muy frecuente en instrucciones, normas y avisos oficiales, porque suena impersonal y objetivo: «Der Antrag muss unterschrieben werden» (La solicitud debe ser firmada) no dice quién debe firmarla, solo que debe pasar."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "muss gemacht werden", "es": "tiene que hacerse", "ipa": "/mʊs ɡəˈmaxt ˈveːɐ̯dn̩/", "esApprox": "«mus ge-MAJT VÉR-den»", "pos": "estructura verbal (pasiva con modal)", "gender": null, "example": { "target": "Das muss heute gemacht werden.", "es": "Eso tiene que hacerse hoy." } },
+    { "id": "v2", "target": "erledigen", "es": "resolver, terminar (una tarea)", "ipa": "/ɛɐ̯ˈleːdɪɡn̩/", "esApprox": "«er-LÉ-di-guen»", "pos": "verbo", "gender": null, "example": { "target": "Die Aufgabe kann schnell erledigt werden.", "es": "La tarea puede resolverse rápido." } },
+    { "id": "v3", "target": "beachten", "es": "tener en cuenta, respetar", "ipa": "/bəˈʔaxtn̩/", "esApprox": "«be-ÁJ-ten»", "pos": "verbo", "gender": null, "example": { "target": "Die Regeln müssen beachtet werden.", "es": "Las reglas deben respetarse." } },
+    { "id": "v4", "target": "der Antrag", "es": "la solicitud", "ipa": "/ˈantʁaːk/", "esApprox": "«ÁN-trak»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Antrag muss unterschrieben werden.", "es": "La solicitud debe ser firmada." } },
+    { "id": "v5", "target": "unterschreiben", "es": "firmar", "ipa": "/ˈʊntɐʃʁaɪ̯bn̩/", "esApprox": "«ÚN-ter-shrai-ben»", "pos": "verbo", "gender": null, "example": { "target": "Der Antrag muss unterschrieben werden.", "es": "La solicitud debe ser firmada." } },
+    { "id": "v6", "target": "dürfen", "es": "poder, tener permiso (para)", "ipa": "/ˈdʏʁfn̩/", "esApprox": "«DÚR-fen»", "pos": "verbo modal", "gender": null, "example": { "target": "Das darf nicht vergessen werden.", "es": "Eso no puede olvidarse." } },
+    { "id": "v7", "target": "die Vorschrift", "es": "la norma, la disposición", "ipa": "/ˈfoːɐ̯ʃʁɪft/", "esApprox": "«FOR-shrift»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Vorschriften müssen befolgt werden.", "es": "Las disposiciones deben cumplirse." } },
+    { "id": "v8", "target": "befolgen", "es": "cumplir, seguir (una norma)", "ipa": "/bəˈfɔlɡn̩/", "esApprox": "«be-FÓL-guen»", "pos": "verbo", "gender": null, "example": { "target": "Die Vorschriften müssen befolgt werden.", "es": "Las disposiciones deben cumplirse." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["voz-pasiva", "modales"], "difficulty": 1, "prompt": "¿Qué dos elementos van al final en la pasiva con modal?", "options": ["Modal + infinitivo", "Participio + werden", "Sujeto + verbo", "werden + modal"], "answer": 1, "explain": "El participio y werden (en infinitivo) van al final, en ese orden." },
+    { "id": "e2", "type": "mcq", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "¿Dónde va el modal en esta estructura?", "options": ["Al final", "Posición 2", "Antes del sujeto", "No aparece"], "answer": 1, "explain": "El modal se conjuga y va en posición 2, como siempre." },
+    { "id": "e3", "type": "true_false", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "statement": "«Das muss gemacht werden» dice quién debe hacer la acción.", "answer": false, "explain": "Es impersonal: no menciona quién debe hacerlo, solo que debe pasar." },
+    { "id": "e4", "type": "true_false", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "statement": "Esta estructura es muy frecuente en normas e instrucciones oficiales.", "answer": true, "explain": "Suena objetiva e impersonal, ideal para reglamentos y avisos." },
+    { "id": "e5", "type": "match_pairs", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "Une cada frase con su traducción", "left": ["Das muss gemacht werden.", "Die Aufgabe kann erledigt werden.", "Die Regeln müssen beachtet werden.", "Der Antrag muss unterschrieben werden."], "right": ["Eso tiene que hacerse.", "La tarea puede resolverse.", "Las reglas deben respetarse.", "La solicitud debe ser firmada."], "answer": [0, 1, 2, 3], "explain": "Cuatro ejemplos de pasiva con modal." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "Eso tiene que hacerse hoy.", "accept": ["Das muss heute gemacht werden"], "hintWords": ["das muss heute gemacht werden"], "strictAccents": false, "audio": "Das muss heute gemacht werden.", "explain": "muss (posición 2) + heute + gemacht + werden (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "La tarea puede resolverse rápido.", "accept": ["Die Aufgabe kann schnell erledigt werden"], "hintWords": ["die Aufgabe kann schnell erledigt werden"], "strictAccents": false, "audio": "Die Aufgabe kann schnell erledigt werden.", "explain": "kann + schnell + erledigt + werden (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "Las reglas deben respetarse.", "accept": ["Die Regeln müssen beachtet werden"], "hintWords": ["die Regeln müssen beachtet werden"], "strictAccents": false, "audio": "Die Regeln müssen beachtet werden.", "explain": "müssen + beachtet + werden (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Der Antrag muss unterschrieben ___. Das darf nicht ___ werden.", "blanks": [{ "accept": ["werden"] }, { "accept": ["vergessen"] }], "bank": ["werden", "vergessen", "worden"], "explain": "werden (infinitivo, no worden) y vergessen (participio)." },
+    { "id": "e10", "type": "word_order", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "Ordena: «Las disposiciones deben cumplirse»", "tokens": ["befolgt werden", "Die Vorschriften müssen"], "answer": ["Die Vorschriften müssen", "befolgt werden"], "audio": "Die Vorschriften müssen befolgt werden.", "explain": "müssen (posición 2) + befolgt + werden (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "Das darf nicht vergessen werden.", "accept": ["Eso no puede olvidarse."], "strictAccents": false, "audio": "Das darf nicht vergessen werden.", "explain": "darf + nicht + vergessen + werden (final)." },
+    { "id": "e12", "type": "dialogue", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Chef", "text": "Ist der Antrag schon fertig?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Er muss noch unterschrieben werden."], "hint": "responde con la pasiva y un modal" },
+      { "who": "Chef", "text": "Gut, bitte heute noch.", "speak": true }
+    ], "explain": "muss...werden: pasiva con modal en un contexto laboral." },
+    { "id": "e13", "type": "listening", "tags": ["voz-pasiva", "modales"], "difficulty": 1, "speak": "Das muss heute gemacht werden.", "mode": "write", "accept": ["Das muss heute gemacht werden"], "showTextAfter": true, "explain": "muss + gemacht + werden." },
+    { "id": "e14", "type": "listening", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "speak": "Die Regeln müssen beachtet werden.", "mode": "choose", "options": ["Die Regeln müssen beachtet werden.", "Die Regeln müssen beachtet worden.", "Die Regeln müssen beachten werden."], "answer": 0, "showTextAfter": true, "explain": "Con modales, werden va en infinitivo (no worden), y el verbo principal en participio (beachtet)." },
+    { "id": "e15", "type": "shadowing", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "speak": "Der Antrag muss unterschrieben werden, und die Vorschriften müssen dabei genau beachtet werden.", "es": "La solicitud debe ser firmada, y las disposiciones deben respetarse exactamente al hacerlo.", "ipa": "/deːɐ̯ ˈantʁaːk mʊs ˈʊntɐʃʁaɪ̯bn̩ ˈveːɐ̯dn̩ ʊnt diː ˈfoːɐ̯ʃʁɪftə mʏsn̩ daˈbaɪ̯ ɡəˈnaʊ̯ bəˈʔaxtət ˈveːɐ̯dn̩/", "esApprox": "«der ÁN-trak mus ÚN-ter-shrai-ben VÉR-den, unt di FOR-shrif-te MÜ-sen da-BÁI ge-NAU be-ÁJ-tet VÉR-den»", "focus": "muss...werden y müssen...werden: dos pasivas con modal, la primera con verbo simple, la segunda con doble werden final.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "speak": "Die Aufgabe kann schnell erledigt werden, aber das darf trotzdem nicht vergessen werden.", "es": "La tarea puede resolverse rápido, pero eso no puede olvidarse a pesar de todo.", "ipa": "/diː ˈaʊ̯fɡaːbə kan ʃnɛl ɛɐ̯ˈleːdɪçt ˈveːɐ̯dn̩ ˈaːbɐ das daʁf ˈtʁɔtsdeːm nɪçt fɛɐ̯ˈɡɛsn̩ ˈveːɐ̯dn̩/", "esApprox": "«di ÁUF-ga-be kan shnel er-LÉ-dicht VÉR-den, Á-ber das darf TROTS-dem nicht fer-GUÉ-sen VÉR-den»", "focus": "kann...werden y darf...werden: dos modales distintos con la misma estructura pasiva.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "Te preguntan si la solicitud está lista. Explica que todavía debe ser firmada.", "modelAnswer": "Sie muss noch unterschrieben werden.", "alsoValid": ["Der Antrag muss noch unterschrieben werden."], "speak": "Sie muss noch unterschrieben werden.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "Clasifica cada frase: pasiva simple o pasiva con modal", "buckets": ["Pasiva simple (wird/wurde)", "Pasiva con modal (muss/kann + werden)"], "items": [
+      { "text": "Das Auto wird repariert.", "bucket": 0 },
+      { "text": "Das muss gemacht werden.", "bucket": 1 },
+      { "text": "Die Aufgabe kann erledigt werden.", "bucket": 1 },
+      { "text": "Der Wald wurde zerstört.", "bucket": 0 }
+    ], "explain": "Las pasivas con modal siempre llevan werden en infinitivo al final, junto al participio." },
+    { "id": "e19", "type": "error_correction", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das muss gemacht worden.", "accept": ["Das muss gemacht werden"], "audio": "Das muss gemacht werden.", "explain": "Con un modal en presente, werden va en infinitivo, no worden (que es solo para la pasiva del Perfekt)." },
+    { "id": "e20", "type": "mcq", "tags": ["voz-pasiva", "modales"], "difficulty": 2, "prompt": "«Der Antrag muss heute unterschrieben werden. Die Vorschriften müssen dabei genau beachtet werden, sonst kann die Aufgabe nicht erledigt werden.» ¿Qué pasa si no se respetan las disposiciones?", "options": ["No pasa nada", "La tarea no podrá resolverse", "Se firma automáticamente", "Se cambia la solicitud"], "answer": 1, "explain": "«sonst kann die Aufgabe nicht erledigt werden» = si no, la tarea no podrá resolverse." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "muss gemacht werden", "es": "tiene que hacerse", "esApprox": "«mus ge-MAJT VÉR-den»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "erledigen", "es": "resolver, terminar (una tarea)", "esApprox": "«er-LÉ-di-guen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "beachten", "es": "tener en cuenta, respetar", "esApprox": "«be-ÁJ-ten»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "der Antrag", "es": "la solicitud", "esApprox": "«ÁN-trak»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "unterschreiben", "es": "firmar", "esApprox": "«ÚN-ter-shrai-ben»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Vorschrift", "es": "la norma, la disposición", "esApprox": "«FOR-shrift»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Der Antrag muss unterschrieben werden, und die Vorschriften müssen dabei genau beachtet werden.", "es": "La solicitud debe ser firmada, y las disposiciones deben respetarse exactamente al hacerlo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Aufgabe kann schnell erledigt werden, aber das darf trotzdem nicht vergessen werden.", "es": "La tarea puede resolverse rápido, pero eso no puede olvidarse a pesar de todo.", "from": "e16" }
+  ]
+}

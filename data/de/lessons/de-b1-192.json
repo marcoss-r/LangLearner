@@ -1,0 +1,82 @@
+{
+  "id": "de-b1-192",
+  "lang": "de",
+  "level": "B1",
+  "order": 192,
+  "title": "Repaso activo XVII (clases 185–191)",
+  "objectives": [
+    "Repasar el Vorgangspassiv en presente y pasado, y su combinación con verbos modales",
+    "Consolidar el Zustandspassiv y sus alternativas (man, sich lassen)",
+    "Repasar cuándo la pasiva es realmente natural y cómo encadenarla en instrucciones"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Sin gramática nueva: cierre del bloque de la voz pasiva",
+      "body": "Esta clase no introduce ningún contenido nuevo. Repasa todo el bloque de la voz pasiva: el Vorgangspassiv (proceso) en presente y pasado, su combinación con modales, el Zustandspassiv (resultado), las alternativas más naturales (man, sich lassen), y cuándo un hablante nativo realmente elige la pasiva."
+    },
+    {
+      "type": "table",
+      "title": "Lo que has aprendido en este bloque",
+      "headers": ["Clases", "Contenido clave"],
+      "rows": [
+        ["185-186", "Vorgangspassiv en presente (wird) y pasado (wurde / ist...worden)"],
+        ["187-188", "Pasiva con modales (muss...werden) y Zustandspassiv (ist + participio, el resultado)"],
+        ["189-190", "Alternativas: man + activo y sich lassen + infinitivo; cuándo la pasiva es realmente natural"],
+        ["191", "Encadenar la pasiva con marcadores de secuencia para describir procesos e instrucciones"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El siguiente bloque del B1 trata las oraciones de relativo, un recurso imprescindible para describir personas y cosas con precisión sin encadenar frases cortas."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "wurde repariert", "es": "fue reparado", "ipa": "/ˈvʊʁdə ʁepaˈʁiːɐ̯t/", "esApprox": "«VUR-de re-pa-RIRT»", "pos": "verbo (voz pasiva, Präteritum)", "gender": null, "example": { "target": "Das Auto wurde repariert.", "es": "El coche fue reparado." } },
+    { "id": "v2", "target": "muss gemacht werden", "es": "tiene que hacerse", "ipa": "/mʊs ɡəˈmaxt ˈveːɐ̯dn̩/", "esApprox": "«mus ge-MAJT VÉR-den»", "pos": "estructura verbal (pasiva con modal)", "gender": null, "example": { "target": "Das muss heute gemacht werden.", "es": "Eso tiene que hacerse hoy." } },
+    { "id": "v3", "target": "geöffnet", "es": "abierto", "ipa": "/ɡəˈʔœfnət/", "esApprox": "«ge-ÖF-net»", "pos": "verbo (participio, Zustandspassiv)", "gender": null, "example": { "target": "Das Geschäft ist geöffnet.", "es": "La tienda está abierta." } },
+    { "id": "v4", "target": "lässt sich reparieren", "es": "se puede reparar", "ipa": "/lɛst zɪç ʁepaˈʁiːʁən/", "esApprox": "«lest zich re-pa-RÍ-ren»", "pos": "estructura verbal (sich lassen + infinitivo)", "gender": null, "example": { "target": "Das Auto lässt sich reparieren.", "es": "El coche se puede reparar." } },
+    { "id": "v5", "target": "bestehen aus", "es": "componerse de", "ipa": "/bəˈʃteːən aʊ̯s/", "esApprox": "«be-SHTÉ-en aus»", "pos": "verbo con preposición fija", "gender": null, "example": { "target": "Wasser besteht aus Sauerstoff und Wasserstoff.", "es": "El agua se compone de oxígeno e hidrógeno." } },
+    { "id": "v6", "target": "zuerst", "es": "primero", "ipa": "/tsuˈʔeːɐ̯st/", "esApprox": "«tsu-ÉRST»", "pos": "adverbio", "gender": null, "example": { "target": "Zuerst wird das Gemüse geschnitten.", "es": "Primero se corta la verdura." } },
+    { "id": "v7", "target": "zum Schluss", "es": "por último", "ipa": "/tsʊm ʃlʊs/", "esApprox": "«tsum shlus»", "pos": "locución adverbial", "gender": null, "example": { "target": "Zum Schluss wird alles serviert.", "es": "Por último, se sirve todo." } },
+    { "id": "v8", "target": "der Zustand", "es": "el estado", "ipa": "/ˈtsuːʃtant/", "esApprox": "«TSÚ-shtant»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Zustand ist gut.", "es": "El estado es bueno." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["repaso"], "difficulty": 1, "prompt": "¿Cómo se forma la pasiva en Präteritum?", "options": ["wird + participio", "wurde + participio", "war + participio", "würde + participio"], "answer": 1, "explain": "Repaso de la clase 186." },
+    { "id": "e2", "type": "mcq", "tags": ["repaso"], "difficulty": 2, "prompt": "¿Qué dos elementos van al final en la pasiva con modal?", "options": ["Modal + infinitivo", "Participio + werden", "Sujeto + verbo", "werden + modal"], "answer": 1, "explain": "Repaso de la clase 187." },
+    { "id": "e3", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "El Zustandspassiv describe el resultado, no el proceso.", "answer": true, "explain": "Repaso de la clase 188." },
+    { "id": "e4", "type": "true_false", "tags": ["repaso"], "difficulty": 2, "statement": "man + verbo activo es una alternativa natural a la pasiva.", "answer": true, "explain": "Repaso de la clase 189." },
+    { "id": "e5", "type": "match_pairs", "tags": ["repaso"], "difficulty": 2, "prompt": "Une cada frase con su clase de origen", "left": ["Das Auto wurde repariert.", "Das muss gemacht werden.", "Die Tür ist geschlossen.", "Das lässt sich reparieren."], "right": ["clase 186", "clase 187", "clase 188", "clase 189"], "answer": [0, 1, 2, 3], "explain": "Repaso general de las clases 185-189." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "El coche fue reparado.", "accept": ["Das Auto wurde repariert"], "hintWords": ["das Auto wurde repariert"], "strictAccents": false, "audio": "Das Auto wurde repariert.", "explain": "Repaso de la clase 186." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["repaso"], "difficulty": 2, "prompt": "La tienda está abierta.", "accept": ["Das Geschäft ist geöffnet"], "hintWords": ["das Geschäft ist geöffnet"], "strictAccents": false, "audio": "Das Geschäft ist geöffnet.", "explain": "Repaso de la clase 188." },
+    { "id": "e8", "type": "fill_blank", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Das Auto ___ sich reparieren. ___ wird das Gemüse geschnitten.", "blanks": [{ "accept": ["lässt"] }, { "accept": ["Zuerst"] }], "bank": ["lässt", "Zuerst", "wird"], "explain": "Repaso de las clases 189 y 191." },
+    { "id": "e9", "type": "word_order", "tags": ["repaso"], "difficulty": 2, "prompt": "Ordena: «Por último, se sirve todo»", "tokens": ["wird alles serviert", "Zum Schluss"], "answer": ["Zum Schluss", "wird alles serviert"], "audio": "Zum Schluss wird alles serviert.", "explain": "Repaso de la clase 191." },
+    { "id": "e10", "type": "translate_to_es", "tags": ["repaso"], "difficulty": 2, "prompt": "Wasser besteht aus Sauerstoff und Wasserstoff.", "accept": ["El agua se compone de oxígeno e hidrógeno."], "strictAccents": false, "audio": "Wasser besteht aus Sauerstoff und Wasserstoff.", "explain": "Repaso de la clase 190." },
+    { "id": "e11", "type": "dialogue", "tags": ["repaso"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Kann man das Problem lösen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, das lässt sich leicht lösen."], "hint": "responde con sich lassen" },
+      { "who": "Lea", "text": "Super!", "speak": true }
+    ], "explain": "Repaso de la clase 189." },
+    { "id": "e12", "type": "listening", "tags": ["repaso"], "difficulty": 1, "speak": "Das muss heute gemacht werden.", "mode": "write", "accept": ["Das muss heute gemacht werden"], "showTextAfter": true, "explain": "Repaso de la clase 187." },
+    { "id": "e13", "type": "listening", "tags": ["repaso"], "difficulty": 2, "speak": "Man macht das so.", "mode": "choose", "options": ["Man macht das so.", "Es wird so gemacht von man.", "Man wird das machen so."], "answer": 0, "showTextAfter": true, "explain": "Repaso de la clase 190: man + verbo activo, sin werden." },
+    { "id": "e14", "type": "shadowing", "tags": ["repaso"], "difficulty": 2, "speak": "Zuerst wird das Gemüse geschnitten, und danach lässt sich alles leicht mischen.", "es": "Primero se corta la verdura, y después todo se mezcla fácilmente.", "ipa": "/tsuˈʔeːɐ̯st vɪʁt das ɡəˈmyːzə ɡəˈʃnɪtn̩ ʊnt daˈnaːx lɛst zɪç ˈaləs ˈlaɪ̯çt ˈmɪʃn̩/", "esApprox": "«tsu-ÉRST virt das ge-MIU-ze ge-SHNÍ-ten, unt da-NACH lest zich Á-les laicht MÍ-shen»", "focus": "Repaso combinado de la pasiva encadenada (191) y sich lassen (189).", "selfAssess": true },
+    { "id": "e15", "type": "speak_prompt", "tags": ["repaso"], "difficulty": 2, "prompt": "Te preguntan si la tienda está abierta. Responde que sí, ya está abierta.", "modelAnswer": "Ja, es ist geöffnet.", "alsoValid": ["Ja, das Geschäft ist geöffnet."], "speak": "Ja, es ist geöffnet.", "selfAssess": true },
+    { "id": "e16", "type": "categorize", "tags": ["repaso"], "difficulty": 2, "prompt": "Clasifica cada frase según su tipo de pasiva", "buckets": ["Vorgangspassiv (proceso)", "Zustandspassiv (resultado)"], "items": [
+      { "text": "Die Tür wird geschlossen.", "bucket": 0 },
+      { "text": "Die Tür ist geschlossen.", "bucket": 1 },
+      { "text": "Das Auto wurde repariert.", "bucket": 0 },
+      { "text": "Das Geschäft ist geöffnet.", "bucket": 1 }
+    ], "explain": "Repaso general de las clases 185-188." },
+    { "id": "e17", "type": "error_correction", "tags": ["repaso"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das Auto ist repariert geworden.", "accept": ["Das Auto ist repariert worden"], "audio": "Das Auto ist repariert worden.", "explain": "Repaso de la clase 186: la pasiva del Perfekt usa worden, no geworden." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "wurde repariert", "es": "fue reparado", "esApprox": "«VUR-de re-pa-RIRT»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "muss gemacht werden", "es": "tiene que hacerse", "esApprox": "«mus ge-MAJT VÉR-den»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "geöffnet", "es": "abierto", "esApprox": "«ge-ÖF-net»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "lässt sich reparieren", "es": "se puede reparar", "esApprox": "«lest zich re-pa-RÍ-ren»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "zuerst", "es": "primero", "esApprox": "«tsu-ÉRST»", "from": "v6" },
+    { "id": "s6", "kind": "phrase", "target": "zum Schluss", "es": "por último", "esApprox": "«tsum shlus»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "bestehen aus", "es": "componerse de", "esApprox": "«be-SHTÉ-en aus»", "from": "v5" },
+    { "id": "s8", "kind": "phrase", "target": "Zuerst wird das Gemüse geschnitten, und danach lässt sich alles leicht mischen.", "es": "Primero se corta la verdura, y después todo se mezcla fácilmente.", "from": "e14" }
+  ]
+}

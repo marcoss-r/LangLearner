@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-189",
+  "lang": "de",
+  "level": "B1",
+  "order": 189,
+  "title": "Alternativas a la pasiva: man y sich lassen",
+  "objectives": [
+    "Usar man + verbo activo como alternativa natural a la pasiva",
+    "Formar sich lassen + infinitivo para expresar posibilidad de forma pasiva",
+    "Elegir entre werden-Passiv, man y sich lassen según el matiz que se quiera dar"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos alternativas frecuentes a la pasiva",
+      "body": "El alemán no siempre usa werden-Passiv para quitar importancia al agente: man + verbo activo (repaso de la clase 169) es muy común y a veces más natural: «Man repariert das Auto» en vez de «Das Auto wird repariert». Además, sich lassen + infinitivo expresa que algo «se deja hacer», es decir, que es posible: «Das lässt sich reparieren» (Eso se puede reparar / eso se deja reparar).",
+      "examples": [
+        { "target": "Man repariert das Auto.", "es": "Se repara el coche (alguien indefinido lo repara)." },
+        { "target": "Das lässt sich reparieren.", "es": "Eso se puede reparar." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Tres formas de decir lo mismo",
+      "headers": ["Estructura", "Ejemplo", "Matiz"],
+      "rows": [
+        ["werden-Passiv", "Das Auto wird repariert.", "El proceso en sí, sin agente"],
+        ["man + activo", "Man repariert das Auto.", "Alguien indefinido lo hace, más coloquial"],
+        ["sich lassen + infinitivo", "Das Auto lässt sich reparieren.", "Es posible hacerlo (posibilidad, no proceso)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "sich lassen + infinitivo equivale casi siempre a «können + Passiv»: «Das lässt sich reparieren» = «Das kann repariert werden» (clase 187). Es una alternativa muy usada porque suena más fluida y natural en la conversación."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "lässt sich reparieren", "es": "se puede reparar", "ipa": "/lɛst zɪç ʁepaˈʁiːʁən/", "esApprox": "«lest zich re-pa-RÍ-ren»", "pos": "estructura verbal (sich lassen + infinitivo)", "gender": null, "example": { "target": "Das Auto lässt sich reparieren.", "es": "El coche se puede reparar." } },
+    { "id": "v2", "target": "sich lassen", "es": "dejarse (+ infinitivo: poder hacerse)", "ipa": "/zɪç ˈlasn̩/", "esApprox": "«zich LÁ-sen»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Das lässt sich leicht erklären.", "es": "Eso se explica fácilmente." } },
+    { "id": "v3", "target": "erklären", "es": "explicar", "ipa": "/ɛɐ̯ˈklɛːʁən/", "esApprox": "«er-KLÉ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Das lässt sich leicht erklären.", "es": "Eso se explica fácilmente." } },
+    { "id": "v4", "target": "leicht", "es": "fácil, fácilmente", "ipa": "/laɪ̯çt/", "esApprox": "«laicht»", "pos": "adjetivo/adverbio", "gender": null, "example": { "target": "Das Problem lässt sich leicht lösen.", "es": "El problema se resuelve fácilmente." } },
+    { "id": "v5", "target": "lösen", "es": "resolver", "ipa": "/ˈløːzn̩/", "esApprox": "«LÖ-zen»", "pos": "verbo", "gender": null, "example": { "target": "Das Problem lässt sich lösen.", "es": "El problema se puede resolver." } },
+    { "id": "v6", "target": "vermeiden", "es": "evitar", "ipa": "/fɛɐ̯ˈmaɪ̯dn̩/", "esApprox": "«fer-MÁI-den»", "pos": "verbo", "gender": null, "example": { "target": "Das lässt sich nicht vermeiden.", "es": "Eso no se puede evitar." } },
+    { "id": "v7", "target": "die Alternative", "es": "la alternativa", "ipa": "/altɐnaˈtiːvə/", "esApprox": "«al-ter-na-TÍ-ve»", "pos": "sustantivo", "gender": "f", "example": { "target": "man ist eine gute Alternative.", "es": "man es una buena alternativa." } },
+    { "id": "v8", "target": "flüssig", "es": "fluido", "ipa": "/ˈflʏsɪç/", "esApprox": "«FLÜ-sich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das klingt viel flüssiger.", "es": "Eso suena mucho más fluido." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["voz-pasiva", "man"], "difficulty": 1, "prompt": "¿Qué estructura expresa posibilidad, casi como können + Passiv?", "options": ["man + verbo", "sich lassen + infinitivo", "werden-Passiv", "würde + infinitivo"], "answer": 1, "explain": "sich lassen + infinitivo = poder hacerse algo." },
+    { "id": "e2", "type": "mcq", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "¿Cuál de estas frases usa man como alternativa a la pasiva?", "options": ["Das Auto wird repariert.", "Man repariert das Auto.", "Das Auto lässt sich reparieren.", "Das Auto ist repariert."], "answer": 1, "explain": "man + verbo activo: alternativa coloquial a la pasiva." },
+    { "id": "e3", "type": "true_false", "tags": ["voz-pasiva", "man"], "difficulty": 2, "statement": "«Das lässt sich reparieren» equivale a «Das kann repariert werden».", "answer": true, "explain": "Ambas expresan la posibilidad de que algo se haga." },
+    { "id": "e4", "type": "true_false", "tags": ["voz-pasiva", "man"], "difficulty": 2, "statement": "man + verbo activo solo puede usarse en frases negativas.", "answer": false, "explain": "man funciona en frases afirmativas y negativas por igual." },
+    { "id": "e5", "type": "match_pairs", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "Une cada estructura con su ejemplo", "left": ["werden-Passiv", "man + activo", "sich lassen + infinitivo"], "right": ["Das Auto wird repariert.", "Man repariert das Auto.", "Das Auto lässt sich reparieren."], "answer": [0, 1, 2], "explain": "Tres formas de expresar lo mismo con matices distintos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "El coche se puede reparar.", "accept": ["Das Auto lässt sich reparieren"], "hintWords": ["das Auto lässt sich reparieren"], "strictAccents": false, "audio": "Das Auto lässt sich reparieren.", "explain": "lässt sich + reparieren (infinitivo)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "El problema se resuelve fácilmente.", "accept": ["Das Problem lässt sich leicht lösen"], "hintWords": ["das Problem lässt sich leicht lösen"], "strictAccents": false, "audio": "Das Problem lässt sich leicht lösen.", "explain": "lässt sich + leicht + lösen (infinitivo)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "Eso no se puede evitar.", "accept": ["Das lässt sich nicht vermeiden"], "hintWords": ["das lässt sich nicht vermeiden"], "strictAccents": false, "audio": "Das lässt sich nicht vermeiden.", "explain": "lässt sich + nicht + vermeiden (infinitivo)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Das ___ sich leicht erklären. ___ repariert das Auto.", "blanks": [{ "accept": ["lässt"] }, { "accept": ["Man"] }], "bank": ["lässt", "Man", "wird"], "explain": "lässt sich (posibilidad) y Man (alternativa a la pasiva)." },
+    { "id": "e10", "type": "word_order", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "Ordena: «Eso suena mucho más fluido»", "tokens": ["viel flüssiger", "Das klingt"], "answer": ["Das klingt", "viel flüssiger"], "audio": "Das klingt viel flüssiger.", "explain": "Das (sujeto) + klingt (posición 2) + viel + flüssiger." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "man ist eine gute Alternative.", "accept": ["man es una buena alternativa."], "strictAccents": false, "audio": "man ist eine gute Alternative.", "explain": "die Alternative = la alternativa." },
+    { "id": "e12", "type": "dialogue", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Kann man das Problem lösen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, das lässt sich leicht lösen."], "hint": "responde con sich lassen" },
+      { "who": "Lea", "text": "Super, dann machen wir das!", "speak": true }
+    ], "explain": "sich lassen + lösen: expresar posibilidad de forma natural." },
+    { "id": "e13", "type": "listening", "tags": ["voz-pasiva", "man"], "difficulty": 1, "speak": "Das Auto lässt sich reparieren.", "mode": "write", "accept": ["Das Auto lässt sich reparieren"], "showTextAfter": true, "explain": "lässt sich + reparieren." },
+    { "id": "e14", "type": "listening", "tags": ["voz-pasiva", "man"], "difficulty": 2, "speak": "Man repariert das Auto.", "mode": "choose", "options": ["Man repariert das Auto.", "Man wird das Auto reparieren.", "Man repariert sich das Auto."], "answer": 0, "showTextAfter": true, "explain": "man + verbo activo en presente, sin werden ni sich." },
+    { "id": "e15", "type": "shadowing", "tags": ["voz-pasiva", "man"], "difficulty": 2, "speak": "Man repariert das Auto normalerweise schnell, und das Problem lässt sich meistens leicht lösen.", "es": "Normalmente se repara el coche rápido, y el problema se resuelve casi siempre con facilidad.", "ipa": "/man ʁepaˈʁiːɐ̯t das ˈaʊ̯to ˈnɔʁmaːlɐvaɪ̯zə ʃnɛl ʊnt das ˈpʁoːbleːm lɛst zɪç ˈmaɪ̯stns̩ ˈlaɪ̯çt ˈløːzn̩/", "esApprox": "«man re-pa-RIRT das ÁU-to nor-MÁ-ler-vai-ze shnel, unt das PRO-blem lest zich MÁI-stens laicht LÖ-zen»", "focus": "man repariert y lässt sich lösen: dos alternativas a la pasiva en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["voz-pasiva", "man"], "difficulty": 2, "speak": "Das lässt sich leicht erklären: man ist oft eine gute Alternative zur Passivform, weil es flüssiger klingt.", "es": "Eso se explica fácilmente: man es a menudo una buena alternativa a la voz pasiva, porque suena más fluido.", "ipa": "/das lɛst zɪç ˈlaɪ̯çt ɛɐ̯ˈklɛːʁən man ɪst ɔft ˈaɪ̯nə ˈɡuːtə altɐnaˈtiːvə tsuːɐ̯ paˈsiːffɔʁm vaɪ̯l ɛs ˈflʏsɪɡɐ klɪŋt/", "esApprox": "«das lest zich laicht er-KLÉ-ren: man ist oft ÁI-ne GÚ-te al-ter-na-TÍ-ve tsur pa-SIF-form, vail es FLÜ-si-guer klingt»", "focus": "lässt sich erklären y man ist...Alternative: reflexión sobre las alternativas a la pasiva.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "Te preguntan si se puede resolver un problema. Responde que sí, que se resuelve fácilmente.", "modelAnswer": "Ja, das lässt sich leicht lösen.", "alsoValid": ["Ja, man kann das leicht lösen."], "speak": "Ja, das lässt sich leicht lösen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "Clasifica cada frase según su estructura", "buckets": ["man + activo", "sich lassen + infinitivo"], "items": [
+      { "text": "Man repariert das Auto.", "bucket": 0 },
+      { "text": "Das Auto lässt sich reparieren.", "bucket": 1 },
+      { "text": "Man löst das Problem schnell.", "bucket": 0 },
+      { "text": "Das Problem lässt sich lösen.", "bucket": 1 }
+    ], "explain": "man describe quién (indefinido) hace la acción; sich lassen describe que algo es posible." },
+    { "id": "e19", "type": "error_correction", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das Auto lässt reparieren.", "accept": ["Das Auto lässt sich reparieren"], "audio": "Das Auto lässt sich reparieren.", "explain": "sich lassen necesita el pronombre reflexivo sich; sin él, la frase está incompleta." },
+    { "id": "e20", "type": "mcq", "tags": ["voz-pasiva", "man"], "difficulty": 2, "prompt": "«Man repariert das Auto normalerweise schnell. Das Problem lässt sich meistens leicht lösen, und das klingt viel flüssiger als die Passivform.» ¿Qué se dice sobre man y sich lassen?", "options": ["Que son incorrectos", "Que suenan más fluidos que la pasiva", "Que solo se usan por escrito", "Que son sinónimos de würde"], "answer": 1, "explain": "«das klingt viel flüssiger als die Passivform» resume la ventaja de estas alternativas." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "lässt sich reparieren", "es": "se puede reparar", "esApprox": "«lest zich re-pa-RÍ-ren»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "sich lassen", "es": "dejarse (+ infinitivo: poder hacerse)", "esApprox": "«zich LÁ-sen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "erklären", "es": "explicar", "esApprox": "«er-KLÉ-ren»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "leicht", "es": "fácil, fácilmente", "esApprox": "«laicht»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "lösen", "es": "resolver", "esApprox": "«LÖ-zen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Alternative", "es": "la alternativa", "esApprox": "«al-ter-na-TÍ-ve»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Man repariert das Auto normalerweise schnell, und das Problem lässt sich meistens leicht lösen.", "es": "Normalmente se repara el coche rápido, y el problema se resuelve casi siempre con facilidad.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Das lässt sich leicht erklären: man ist oft eine gute Alternative zur Passivform, weil es flüssiger klingt.", "es": "Eso se explica fácilmente: man es a menudo una buena alternativa a la voz pasiva, porque suena más fluido.", "from": "e16" }
+  ]
+}

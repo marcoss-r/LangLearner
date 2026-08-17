@@ -1,0 +1,87 @@
+{
+  "id": "de-b1-188",
+  "lang": "de",
+  "level": "B1",
+  "order": 188,
+  "title": "El Zustandspassiv: el resultado de la acción",
+  "objectives": [
+    "Distinguir el Zustandspassiv (sein + participio) del Vorgangspassiv (werden + participio)",
+    "Usar el Zustandspassiv para describir el resultado o estado final de una acción",
+    "Reconocer que el Zustandspassiv se parece al Perfekt activo, pero no es lo mismo"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "sein + participio: el estado, no el proceso",
+      "body": "El Vorgangspassiv (werden + participio) describe una acción en curso: «Die Tür wird geschlossen» (La puerta está siendo cerrada, alguien la está cerrando ahora). El Zustandspassiv (sein + participio) describe el resultado, el estado tras la acción: «Die Tür ist geschlossen» (La puerta está cerrada, ya está hecho, es su estado actual). La diferencia es sutil pero importante: uno es proceso, el otro es resultado.",
+      "examples": [
+        { "target": "Die Tür wird geschlossen.", "es": "La puerta está siendo cerrada (proceso)." },
+        { "target": "Die Tür ist geschlossen.", "es": "La puerta está cerrada (estado)." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vorgangspassiv vs. Zustandspassiv",
+      "headers": ["Tipo", "Estructura", "Ejemplo"],
+      "rows": [
+        ["Vorgangspassiv (proceso)", "werden + participio", "Das Geschäft wird geöffnet. (alguien lo está abriendo)"],
+        ["Zustandspassiv (resultado)", "sein + participio", "Das Geschäft ist geöffnet. (ya está abierto)"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "No confundas «Die Tür ist geschlossen» (Zustandspassiv: la puerta está cerrada) con el Perfekt activo de un verbo con sein, como «Er ist gekommen» (Él ha venido): en el Zustandspassiv, el sujeto recibe la acción; en el Perfekt activo con sein, el sujeto la realiza."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "geschlossen", "es": "cerrado", "ipa": "/ɡəˈʃlɔsn̩/", "esApprox": "«ge-SHLÓ-sen»", "pos": "verbo (participio de schließen, usado como Zustandspassiv)", "gender": null, "example": { "target": "Die Tür ist geschlossen.", "es": "La puerta está cerrada." } },
+    { "id": "v2", "target": "geöffnet", "es": "abierto", "ipa": "/ɡəˈʔœfnət/", "esApprox": "«ge-ÖF-net»", "pos": "verbo (participio de öffnen, usado como Zustandspassiv)", "gender": null, "example": { "target": "Das Geschäft ist geöffnet.", "es": "La tienda está abierta." } },
+    { "id": "v3", "target": "der Zustand", "es": "el estado", "ipa": "/ˈtsuːʃtant/", "esApprox": "«TSÚ-shtant»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Zustand ist gut.", "es": "El estado es bueno." } },
+    { "id": "v4", "target": "das Ergebnis", "es": "el resultado", "ipa": "/ˈɛɐ̯ɡeːpnɪs/", "esApprox": "«er-GUÉP-nis»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das ist das Ergebnis der Handlung.", "es": "Ese es el resultado de la acción." } },
+    { "id": "v5", "target": "besetzt", "es": "ocupado", "ipa": "/bəˈzɛtst/", "esApprox": "«be-ZETST»", "pos": "verbo (participio de besetzen, usado como Zustandspassiv)", "gender": null, "example": { "target": "Der Platz ist besetzt.", "es": "El asiento está ocupado." } },
+    { "id": "v6", "target": "kaputt", "es": "roto, estropeado", "ipa": "/kaˈpʊt/", "esApprox": "«ka-PUT»", "pos": "adjetivo", "gender": null, "example": { "target": "Das Auto ist kaputt.", "es": "El coche está estropeado." } },
+    { "id": "v7", "target": "fertig", "es": "terminado, listo", "ipa": "/ˈfɛʁtɪç/", "esApprox": "«FÉR-tich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das Essen ist fertig.", "es": "La comida está lista." } },
+    { "id": "v8", "target": "vorbereitet", "es": "preparado", "ipa": "/ˈfoːɐ̯bəʁaɪ̯tət/", "esApprox": "«FOR-be-rai-tet»", "pos": "verbo (participio de vorbereiten, usado como Zustandspassiv)", "gender": null, "example": { "target": "Alles ist vorbereitet.", "es": "Todo está preparado." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 1, "prompt": "¿Cómo se forma el Zustandspassiv?", "options": ["werden + participio", "sein + participio", "haben + participio", "würde + participio"], "answer": 1, "explain": "sein + participio describe el resultado, no el proceso." },
+    { "id": "e2", "type": "mcq", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "¿Qué describe «Die Tür ist geschlossen»?", "options": ["Que alguien la está cerrando ahora", "El estado: ya está cerrada", "Que se abrirá pronto", "Un error gramatical"], "answer": 1, "explain": "Zustandspassiv: describe el resultado, el estado actual." },
+    { "id": "e3", "type": "true_false", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "statement": "«Die Tür wird geschlossen» y «Die Tür ist geschlossen» significan exactamente lo mismo.", "answer": false, "explain": "wird geschlossen (proceso, se está cerrando) frente a ist geschlossen (resultado, ya está cerrada)." },
+    { "id": "e4", "type": "true_false", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "statement": "El Zustandspassiv es idéntico al Perfekt activo de verbos con sein.", "answer": false, "explain": "En el Zustandspassiv el sujeto recibe la acción; en el Perfekt activo (Er ist gekommen), la realiza." },
+    { "id": "e5", "type": "match_pairs", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "Une cada frase con su tipo", "left": ["Das Geschäft wird geöffnet.", "Das Geschäft ist geöffnet.", "Der Platz ist besetzt.", "Die Tür wird geschlossen."], "right": ["Vorgangspassiv", "Zustandspassiv", "Zustandspassiv", "Vorgangspassiv"], "answer": [0, 1, 2, 3], "explain": "werden = proceso; sein = resultado." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "La puerta está cerrada.", "accept": ["Die Tür ist geschlossen"], "hintWords": ["die Tür ist geschlossen"], "strictAccents": false, "audio": "Die Tür ist geschlossen.", "explain": "ist + geschlossen (Zustandspassiv)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "La tienda está abierta.", "accept": ["Das Geschäft ist geöffnet"], "hintWords": ["das Geschäft ist geöffnet"], "strictAccents": false, "audio": "Das Geschäft ist geöffnet.", "explain": "ist + geöffnet (Zustandspassiv)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "El asiento está ocupado.", "accept": ["Der Platz ist besetzt"], "hintWords": ["der Platz ist besetzt"], "strictAccents": false, "audio": "Der Platz ist besetzt.", "explain": "ist + besetzt (Zustandspassiv)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "Completa con sein o werden", "text": "Das Essen ___ fertig. Die Tür ___ gerade geschlossen.", "blanks": [{ "accept": ["ist"] }, { "accept": ["wird"] }], "bank": ["ist", "wird", "war"], "explain": "ist (resultado: la comida ya está lista); wird (proceso: se está cerrando ahora)." },
+    { "id": "e10", "type": "word_order", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "Ordena: «Todo está preparado»", "tokens": ["ist vorbereitet", "Alles"], "answer": ["Alles", "ist vorbereitet"], "audio": "Alles ist vorbereitet.", "explain": "Alles (sujeto) + ist (posición 2) + vorbereitet." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "Das ist das Ergebnis der Handlung.", "accept": ["Ese es el resultado de la acción."], "strictAccents": false, "audio": "Das ist das Ergebnis der Handlung.", "explain": "das Ergebnis = el resultado." },
+    { "id": "e12", "type": "dialogue", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Ist das Geschäft schon offen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ja, es ist geöffnet."], "hint": "responde con el Zustandspassiv" },
+      { "who": "Lea", "text": "Perfekt, gehen wir!", "speak": true }
+    ], "explain": "ist geöffnet: el estado actual de la tienda." },
+    { "id": "e13", "type": "listening", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 1, "speak": "Die Tür ist geschlossen.", "mode": "write", "accept": ["Die Tür ist geschlossen"], "showTextAfter": true, "explain": "ist + geschlossen." },
+    { "id": "e14", "type": "listening", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "speak": "Das Auto ist kaputt.", "mode": "choose", "options": ["Das Auto ist kaputt.", "Das Auto wird kaputt.", "Das Auto ist kaputt geworden gewesen."], "answer": 0, "showTextAfter": true, "explain": "kaputt es un adjetivo de estado, se usa directamente con sein." },
+    { "id": "e15", "type": "shadowing", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "speak": "Das Geschäft ist schon geöffnet, aber die Tür wird gerade wieder geschlossen.", "es": "La tienda ya está abierta, pero la puerta está siendo cerrada de nuevo ahora mismo.", "ipa": "/das ɡəˈʃɛft ɪst ʃoːn ɡəˈʔœfnət ˈaːbɐ diː tyːɐ̯ vɪʁt ɡəˈʁaːdə ˈviːdɐ ɡəˈʃlɔsn̩/", "esApprox": "«das ge-SHÉFT ist shon ge-ÖF-net, Á-ber di tiur virt ge-RÁ-de VÍ-der ge-SHLÓ-sen»", "focus": "ist geöffnet (Zustandspassiv) frente a wird...geschlossen (Vorgangspassiv), en la misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "speak": "Alles ist vorbereitet, das Essen ist fertig, und der Platz ist schon besetzt.", "es": "Todo está preparado, la comida está lista, y el asiento ya está ocupado.", "ipa": "/ˈaləs ɪst ˈfoːɐ̯bəʁaɪ̯tət das ˈɛsn̩ ɪst ˈfɛʁtɪç ʊnt deːɐ̯ plats ɪst ʃoːn bəˈzɛtst/", "esApprox": "«Á-les ist FOR-be-rai-tet, das É-sen ist FÉR-tich, unt der plats ist shon be-ZETST»", "focus": "Tres ejemplos seguidos de Zustandspassiv, todos describiendo un estado final.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "Te preguntan si la tienda está abierta. Responde que sí, ya está abierta.", "modelAnswer": "Ja, es ist geöffnet.", "alsoValid": ["Ja, das Geschäft ist geöffnet."], "speak": "Ja, es ist geöffnet.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "Clasifica cada frase: proceso o resultado", "buckets": ["Proceso (wird)", "Resultado (ist)"], "items": [
+      { "text": "Die Tür wird geschlossen.", "bucket": 0 },
+      { "text": "Die Tür ist geschlossen.", "bucket": 1 },
+      { "text": "Das Geschäft wird geöffnet.", "bucket": 0 },
+      { "text": "Das Geschäft ist geöffnet.", "bucket": 1 }
+    ], "explain": "werden marca el proceso en curso; sein marca el estado resultante." },
+    { "id": "e19", "type": "error_correction", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "Hay un error de matiz. Corrige la frase para expresar el estado, no el proceso.", "wrong": "Die Tür wird geschlossen. (quiere decir que la puerta ya está cerrada, no que se está cerrando)", "accept": ["Die Tür ist geschlossen"], "explain": "Para el estado (ya cerrada), se necesita sein, no werden." },
+    { "id": "e20", "type": "mcq", "tags": ["voz-pasiva", "zustandspassiv"], "difficulty": 2, "prompt": "«Das Geschäft ist schon geöffnet, aber die Tür wird gerade wieder geschlossen, weil es zu kalt ist.» ¿Qué está pasando ahora mismo?", "options": ["La tienda se está abriendo", "La puerta se está cerrando", "La tienda está cerrada", "Nada está pasando"], "answer": 1, "explain": "«die Tür wird gerade wieder geschlossen» describe un proceso en curso ahora mismo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "geschlossen", "es": "cerrado", "esApprox": "«ge-SHLÓ-sen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "geöffnet", "es": "abierto", "esApprox": "«ge-ÖF-net»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Zustand", "es": "el estado", "esApprox": "«TSÚ-shtant»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "das Ergebnis", "es": "el resultado", "esApprox": "«er-GUÉP-nis»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "besetzt", "es": "ocupado", "esApprox": "«be-ZETST»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "vorbereitet", "es": "preparado", "esApprox": "«FOR-be-rai-tet»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Das Geschäft ist schon geöffnet, aber die Tür wird gerade wieder geschlossen.", "es": "La tienda ya está abierta, pero la puerta está siendo cerrada de nuevo ahora mismo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Alles ist vorbereitet, das Essen ist fertig, und der Platz ist schon besetzt.", "es": "Todo está preparado, la comida está lista, y el asiento ya está ocupado.", "from": "e16" }
+  ]
+}
