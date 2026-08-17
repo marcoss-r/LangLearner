@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-242",
+  "lang": "de",
+  "level": "B1",
+  "order": 242,
+  "title": "Malentendidos: cómo darte cuenta y cómo salir de ellos",
+  "objectives": [
+    "Reconocer un malentendido con das Missverständnis y missverstehen",
+    "Aclarar lo que quisiste decir con das habe ich nicht so gemeint",
+    "Resolver un malentendido con klarstellen (dejar algo claro)"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Reconocer y resolver un malentendido",
+      "body": "«Das Missverständnis» (el malentendido) surge cuando alguien te «missversteht» (entiende mal). Si notas que algo se ha malinterpretado, puedes aclarar con «Das habe ich nicht so gemeint» (No quise decir eso) o «Das habe ich falsch verstanden» (Entendí eso mal, reconociendo tu propio error). Para resolverlo del todo, «etwas klarstellen» (dejar algo claro) es la fórmula clave.",
+      "examples": [
+        { "target": "Das habe ich nicht so gemeint.", "es": "No quise decir eso." },
+        { "target": "Lass mich das kurz klarstellen.", "es": "Déjame aclarar eso brevemente." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para gestionar malentendidos",
+      "headers": ["Función", "Fórmula"],
+      "rows": [
+        ["Nombrar el problema", "Das ist ein Missverständnis."],
+        ["Aclarar tu intención", "Das habe ich nicht so gemeint."],
+        ["Reconocer tu error", "Das habe ich falsch verstanden."],
+        ["Resolver del todo", "Lass mich das klarstellen."]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "sich verhören (oír mal) es útil cuando el malentendido viene de un error auditivo, no de interpretación: «Ich habe mich verhört» (Oí mal), distinto de missverstehen, que es un error de comprensión del sentido."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "das Missverständnis", "es": "el malentendido", "ipa": "/ˈmɪsfɛɐ̯ʃtɛntnɪs/", "esApprox": "«MIS-fer-shtent-nis»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das ist ein Missverständnis.", "es": "Eso es un malentendido." } },
+    { "id": "v2", "target": "missverstehen", "es": "entender mal, malinterpretar", "ipa": "/ˈmɪsfɛɐ̯ʃteːən/", "esApprox": "«MIS-fer-shte-en»", "pos": "verbo", "gender": null, "example": { "target": "Du hast mich missverstanden.", "es": "Me has entendido mal." } },
+    { "id": "v3", "target": "das habe ich nicht so gemeint", "es": "no quise decir eso", "ipa": "/das ˈhaːbə ɪç nɪçt zoː ɡəˈmaɪ̯nt/", "esApprox": "«das JÁ-be ich nicht zo ge-MAINT»", "pos": "locución", "gender": null, "example": { "target": "Das habe ich nicht so gemeint.", "es": "No quise decir eso." } },
+    { "id": "v4", "target": "das habe ich falsch verstanden", "es": "entendí eso mal", "ipa": "/das ˈhaːbə ɪç falʃ fɛɐ̯ˈʃtandn̩/", "esApprox": "«das JÁ-be ich falsh fer-SHTÁN-den»", "pos": "locución", "gender": null, "example": { "target": "Entschuldigung, das habe ich falsch verstanden.", "es": "Perdón, entendí eso mal." } },
+    { "id": "v5", "target": "klarstellen", "es": "dejar claro, aclarar", "ipa": "/ˈklaːɐ̯ʃtɛlən/", "esApprox": "«KLAR-shte-len»", "pos": "verbo separable", "gender": null, "example": { "target": "Lass mich das kurz klarstellen.", "es": "Déjame aclarar eso brevemente." } },
+    { "id": "v6", "target": "sich verhören", "es": "oír mal", "ipa": "/zɪç fɛɐ̯ˈhøːʁən/", "esApprox": "«zich fer-JÖ-ren»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich habe mich verhört.", "es": "Oí mal." } },
+    { "id": "v7", "target": "meinen", "es": "querer decir, referirse a", "ipa": "/ˈmaɪ̯nən/", "esApprox": "«MÁI-nen»", "pos": "verbo", "gender": null, "example": { "target": "Was meinst du damit?", "es": "¿Qué quieres decir con eso?" } },
+    { "id": "v8", "target": "eindeutig", "es": "inequívoco, claro", "ipa": "/ˈaɪ̯ndɔɪ̯tɪç/", "esApprox": "«ÁIN-doi-tich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das war nicht eindeutig.", "es": "Eso no fue inequívoco." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["malentendidos"], "difficulty": 1, "prompt": "¿Cómo se dice «el malentendido»?", "options": ["die Behauptung", "das Missverständnis", "die Vermutung", "der Kompromiss"], "answer": 1, "explain": "das Missverständnis = el malentendido." },
+    { "id": "e2", "type": "mcq", "tags": ["malentendidos"], "difficulty": 2, "prompt": "¿Qué fórmula usas para aclarar tu propia intención?", "options": ["Das habe ich falsch verstanden.", "Das habe ich nicht so gemeint.", "Ich habe mich verhört.", "Das ist ein Missverständnis."], "answer": 1, "explain": "Das habe ich nicht so gemeint aclara tu intención." },
+    { "id": "e3", "type": "true_false", "tags": ["malentendidos"], "difficulty": 2, "statement": "sich verhören se refiere a un error de comprensión del sentido, no auditivo.", "answer": false, "explain": "sich verhören es específicamente un error auditivo (oír mal), distinto de missverstehen." },
+    { "id": "e4", "type": "true_false", "tags": ["malentendidos"], "difficulty": 2, "statement": "klarstellen significa dejar algo claro.", "answer": true, "explain": "klarstellen = dejar claro, aclarar." },
+    { "id": "e5", "type": "match_pairs", "tags": ["malentendidos"], "difficulty": 2, "prompt": "Une cada función con su fórmula", "left": ["Nombrar el problema", "Aclarar tu intención", "Reconocer tu error", "Resolver del todo"], "right": ["Das ist ein Missverständnis.", "Das habe ich nicht so gemeint.", "Das habe ich falsch verstanden.", "Lass mich das klarstellen."], "answer": [0, 1, 2, 3], "explain": "Cuatro fórmulas centrales para gestionar malentendidos." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["malentendidos"], "difficulty": 2, "prompt": "No quise decir eso.", "accept": ["Das habe ich nicht so gemeint"], "hintWords": ["das habe ich nicht so gemeint"], "strictAccents": false, "audio": "Das habe ich nicht so gemeint.", "explain": "Das habe ich + nicht + so + gemeint (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["malentendidos"], "difficulty": 2, "prompt": "Perdón, entendí eso mal.", "accept": ["Entschuldigung, das habe ich falsch verstanden"], "hintWords": ["entschuldigung das habe ich falsch verstanden"], "strictAccents": false, "audio": "Entschuldigung, das habe ich falsch verstanden.", "explain": "Entschuldigung, + das habe ich + falsch + verstanden (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["malentendidos"], "difficulty": 2, "prompt": "Déjame aclarar eso brevemente.", "accept": ["Lass mich das kurz klarstellen"], "hintWords": ["lass mich das kurz klarstellen"], "strictAccents": false, "audio": "Lass mich das kurz klarstellen.", "explain": "Lass + mich + das + kurz + klarstellen (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["malentendidos"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Du hast mich ___. Ich habe mich ___.", "blanks": [{ "accept": ["missverstanden"] }, { "accept": ["verhört"] }], "bank": ["missverstanden", "verhört", "gemeint"], "explain": "missverstanden (Perfekt de missverstehen) y verhört (Perfekt de sich verhören)." },
+    { "id": "e10", "type": "word_order", "tags": ["malentendidos"], "difficulty": 2, "prompt": "Ordena: «¿Qué quieres decir con eso?»", "tokens": ["meinst du damit?", "Was"], "answer": ["Was", "meinst du damit?"], "audio": "Was meinst du damit?", "explain": "Was (posición 1) + meinst (posición 2) + du + damit." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["malentendidos"], "difficulty": 2, "prompt": "Das war nicht eindeutig.", "accept": ["Eso no fue inequívoco."], "strictAccents": false, "audio": "Das war nicht eindeutig.", "explain": "eindeutig = inequívoco, claro." },
+    { "id": "e12", "type": "dialogue", "tags": ["malentendidos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Du wolltest also nicht kommen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nein, das habe ich nicht so gemeint! Ich komme gern."], "hint": "aclara el malentendido" },
+      { "who": "Lea", "text": "Ach so, jetzt verstehe ich!", "speak": true }
+    ], "explain": "Das habe ich nicht so gemeint: aclarar un malentendido en una conversación." },
+    { "id": "e13", "type": "listening", "tags": ["malentendidos"], "difficulty": 1, "speak": "Das habe ich nicht so gemeint.", "mode": "write", "accept": ["Das habe ich nicht so gemeint"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["malentendidos"], "difficulty": 2, "speak": "Ich habe mich verhört.", "mode": "choose", "options": ["Ich habe mich verhört.", "Ich habe mich missverstanden.", "Ich habe das klargestellt."], "answer": 0, "showTextAfter": true, "explain": "sich verhören se aplica a uno mismo cuando oye mal." },
+    { "id": "e15", "type": "shadowing", "tags": ["malentendidos"], "difficulty": 2, "speak": "Entschuldigung, das habe ich falsch verstanden; ich glaube, ich habe mich verhört.", "es": "Perdón, entendí eso mal; creo que oí mal.", "ipa": "/ɛntˈʃʊldɪɡʊŋ das ˈhaːbə ɪç falʃ fɛɐ̯ˈʃtandn̩ ɪç ˈɡlaʊ̯bə ɪç ˈhaːbə mɪç fɛɐ̯ˈhøːɐ̯t/", "esApprox": "«ent-SHÚL-di-gung, das JÁ-be ich falsh fer-SHTÁN-den; ich GLÁU-be, ich JÁ-be mich fer-JÖRT»", "focus": "falsch verstanden y mich verhört: distinguir el error de interpretación del error auditivo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["malentendidos"], "difficulty": 2, "speak": "Das war offenbar nicht eindeutig, also lass mich das kurz klarstellen: Das habe ich nicht so gemeint.", "es": "Al parecer no fue inequívoco, así que déjame aclarar eso brevemente: no quise decir eso.", "ipa": "/das vaːɐ̯ ˈɔfn̩baːɐ̯ nɪçt ˈaɪ̯ndɔɪ̯tɪç ˈalzoː las mɪç das kʊʁts ˈklaːɐ̯ʃtɛlən das ˈhaːbə ɪç nɪçt zoː ɡəˈmaɪ̯nt/", "esApprox": "«das var Ó-fen-bar nicht ÁIN-doi-tich, ÁL-zo las mich das kurts KLAR-shte-len: das JÁ-be ich nicht zo ge-MAINT»", "focus": "klarstellen y nicht so gemeint: la resolución completa de un malentendido en una sola intervención.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["malentendidos"], "difficulty": 2, "prompt": "Alguien pensó que dijiste algo que no dijiste. Aclara tu intención.", "modelAnswer": "Das habe ich nicht so gemeint.", "alsoValid": ["So habe ich das nicht gemeint."], "speak": "Das habe ich nicht so gemeint.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["malentendidos"], "difficulty": 2, "prompt": "Clasifica cada frase según de quién es el error", "buckets": ["Error propio (reconocer)", "Aclarar la propia intención"], "items": [
+      { "text": "Das habe ich falsch verstanden.", "bucket": 0 },
+      { "text": "Ich habe mich verhört.", "bucket": 0 },
+      { "text": "Das habe ich nicht so gemeint.", "bucket": 1 }
+    ], "explain": "Las dos primeras reconocen un error propio de comprensión; la tercera aclara la intención original." },
+    { "id": "e19", "type": "error_correction", "tags": ["malentendidos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Lass mich das kurz klargestellt.", "accept": ["Lass mich das kurz klarstellen"], "audio": "Lass mich das kurz klarstellen.", "explain": "Tras lassen va el infinitivo (klarstellen), no el participio (klargestellt)." },
+    { "id": "e20", "type": "mcq", "tags": ["malentendidos"], "difficulty": 2, "prompt": "«Entschuldigung, das habe ich falsch verstanden; ich glaube, ich habe mich verhört. Lass mich das kurz klarstellen.» ¿Qué hace la persona al final?", "options": ["Ignora el malentendido", "Se ofrece a aclarar la situación", "Se enfada", "Cambia de tema"], "answer": 1, "explain": "«Lass mich das kurz klarstellen» indica que se ofrece a aclarar la situación." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Missverständnis", "es": "el malentendido", "esApprox": "«MIS-fer-shtent-nis»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "missverstehen", "es": "entender mal, malinterpretar", "esApprox": "«MIS-fer-shte-en»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "das habe ich nicht so gemeint", "es": "no quise decir eso", "esApprox": "«das JÁ-be ich nicht zo ge-MAINT»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "das habe ich falsch verstanden", "es": "entendí eso mal", "esApprox": "«das JÁ-be ich falsh fer-SHTÁN-den»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "klarstellen", "es": "dejar claro, aclarar", "esApprox": "«KLAR-shte-len»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "sich verhören", "es": "oír mal", "esApprox": "«zich fer-JÖ-ren»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Entschuldigung, das habe ich falsch verstanden; ich glaube, ich habe mich verhört.", "es": "Perdón, entendí eso mal; creo que oí mal.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Das war offenbar nicht eindeutig, also lass mich das kurz klarstellen: Das habe ich nicht so gemeint.", "es": "Al parecer no fue inequívoco, así que déjame aclarar eso brevemente: no quise decir eso.", "from": "e16" }
+  ]
+}

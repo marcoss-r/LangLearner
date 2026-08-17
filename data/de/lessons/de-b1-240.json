@@ -1,0 +1,89 @@
+{
+  "id": "de-b1-240",
+  "lang": "de",
+  "level": "B1",
+  "order": 240,
+  "title": "Expresar hipótesis y probabilidad en una charla informal",
+  "objectives": [
+    "Graduar la probabilidad con wahrscheinlich, möglicherweise, kaum y sicher",
+    "Formular hipótesis con es könnte sein, dass...",
+    "Combinar estos adverbios con el Konjunktiv II ya conocido para matizar una charla informal"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Graduar la probabilidad: de «seguro» a «poco probable»",
+      "body": "Además de vielleicht (quizás) y vermutlich (probablemente, clase 153), el B1 amplía la escala: «sicher» (seguro, casi certeza), «wahrscheinlich» (probablemente, alta probabilidad), «möglicherweise» (posiblemente, más incierto) y «kaum» (apenas, poco probable). «Es könnte sein, dass...» (Podría ser que...) introduce una hipótesis completa con verbo al final.",
+      "examples": [
+        { "target": "Es könnte sein, dass er das vergessen hat.", "es": "Podría ser que se le haya olvidado." },
+        { "target": "Das ist wahrscheinlich der Grund.", "es": "Ese es probablemente el motivo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Escala de probabilidad",
+      "headers": ["Adverbio", "Grado de probabilidad"],
+      "rows": [
+        ["sicher", "casi certeza"],
+        ["wahrscheinlich", "alta probabilidad"],
+        ["möglicherweise", "posible, incierto"],
+        ["kaum", "poco probable, apenas"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "«Es könnte sein, dass...» siempre va seguido de una subordinada con dass y el verbo al final: «Es könnte sein, dass sie zu spät kommt» (Podría ser que llegue tarde)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "wahrscheinlich", "es": "probablemente (alta probabilidad)", "ipa": "/vaːɐ̯ˈʃaɪ̯nlɪç/", "esApprox": "«var-SHÁIN-lich»", "pos": "adverbio", "gender": null, "example": { "target": "Das ist wahrscheinlich der Grund.", "es": "Ese es probablemente el motivo." } },
+    { "id": "v2", "target": "möglicherweise", "es": "posiblemente (más incierto)", "ipa": "/ˈmøːklɪçɐvaɪ̯zə/", "esApprox": "«MÖ-gli-cher-vai-ze»", "pos": "adverbio", "gender": null, "example": { "target": "Möglicherweise irrt er sich.", "es": "Posiblemente esté equivocado." } },
+    { "id": "v3", "target": "kaum", "es": "apenas, poco probable", "ipa": "/kaʊ̯m/", "esApprox": "«kaum»", "pos": "adverbio", "gender": null, "example": { "target": "Das ist kaum möglich.", "es": "Eso es poco probable." } },
+    { "id": "v4", "target": "sicher", "es": "seguro (casi certeza)", "ipa": "/ˈzɪçɐ/", "esApprox": "«ZÍ-cher»", "pos": "adverbio", "gender": null, "example": { "target": "Das ist sicher richtig.", "es": "Eso es seguro que es correcto." } },
+    { "id": "v5", "target": "es könnte sein, dass...", "es": "podría ser que...", "ipa": "/ɛs ˈkœntə zaɪ̯n das/", "esApprox": "«es KÖN-te zain das»", "pos": "locución", "gender": null, "example": { "target": "Es könnte sein, dass er das vergessen hat.", "es": "Podría ser que se le haya olvidado." } },
+    { "id": "v6", "target": "sich irren", "es": "equivocarse", "ipa": "/zɪç ˈɪʁən/", "esApprox": "«zich Í-ren»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Möglicherweise irrt er sich.", "es": "Posiblemente esté equivocado." } },
+    { "id": "v7", "target": "der Grund", "es": "el motivo, la razón", "ipa": "/ɡʁʊnt/", "esApprox": "«grunt»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist wahrscheinlich der Grund.", "es": "Ese es probablemente el motivo." } },
+    { "id": "v8", "target": "die Vermutung", "es": "la suposición", "ipa": "/fɛɐ̯ˈmuːtʊŋ/", "esApprox": "«fer-MÚ-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das ist nur eine Vermutung.", "es": "Eso es solo una suposición." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["hipotesis", "probabilidad"], "difficulty": 1, "prompt": "¿Qué adverbio expresa mayor probabilidad?", "options": ["kaum", "möglicherweise", "wahrscheinlich", "vielleicht"], "answer": 2, "explain": "wahrscheinlich indica una probabilidad alta." },
+    { "id": "e2", "type": "mcq", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "¿Qué adverbio expresa que algo es poco probable?", "options": ["sicher", "wahrscheinlich", "kaum", "möglicherweise"], "answer": 2, "explain": "kaum = apenas, poco probable." },
+    { "id": "e3", "type": "true_false", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "statement": "«Es könnte sein, dass...» va seguido de una subordinada con el verbo al final.", "answer": true, "explain": "Es könnte sein, dass + subordinada con verbo final." },
+    { "id": "e4", "type": "true_false", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "statement": "möglicherweise expresa más certeza que sicher.", "answer": false, "explain": "sicher expresa casi certeza; möglicherweise es más incierto." },
+    { "id": "e5", "type": "match_pairs", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Une cada adverbio con su grado de probabilidad", "left": ["sicher", "wahrscheinlich", "möglicherweise", "kaum"], "right": ["casi certeza", "alta probabilidad", "posible, incierto", "poco probable"], "answer": [0, 1, 2, 3], "explain": "Escala de probabilidad de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Podría ser que se le haya olvidado.", "accept": ["Es könnte sein, dass er das vergessen hat"], "hintWords": ["es könnte sein dass er das vergessen hat"], "strictAccents": false, "audio": "Es könnte sein, dass er das vergessen hat.", "explain": "Es könnte sein, + dass + er + das + vergessen hat (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Ese es probablemente el motivo.", "accept": ["Das ist wahrscheinlich der Grund"], "hintWords": ["das ist wahrscheinlich der Grund"], "strictAccents": false, "audio": "Das ist wahrscheinlich der Grund.", "explain": "Das ist + wahrscheinlich + der Grund." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Posiblemente esté equivocado.", "accept": ["Möglicherweise irrt er sich"], "hintWords": ["möglicherweise irrt er sich"], "strictAccents": false, "audio": "Möglicherweise irrt er sich.", "explain": "Möglicherweise (posición 1) + irrt (posición 2) + er + sich." },
+    { "id": "e9", "type": "fill_blank", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Das ist ___ richtig. Das ist ___ möglich.", "blanks": [{ "accept": ["sicher"] }, { "accept": ["kaum"] }], "bank": ["sicher", "kaum", "wahrscheinlich"], "explain": "sicher (casi certeza) y kaum (poco probable)." },
+    { "id": "e10", "type": "word_order", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Ordena: «Eso es solo una suposición»", "tokens": ["nur eine Vermutung", "Das ist"], "answer": ["Das ist", "nur eine Vermutung"], "audio": "Das ist nur eine Vermutung.", "explain": "Das ist (posición normal) + nur eine Vermutung." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Das ist nur eine Vermutung.", "accept": ["Eso es solo una suposición."], "strictAccents": false, "audio": "Das ist nur eine Vermutung.", "explain": "die Vermutung = la suposición." },
+    { "id": "e12", "type": "dialogue", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Warum ist er nicht gekommen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Es könnte sein, dass er das vergessen hat."], "hint": "responde con una hipótesis" },
+      { "who": "Lea", "text": "Das würde mich nicht überraschen.", "speak": true }
+    ], "explain": "Es könnte sein, dass...: formular una hipótesis en una charla informal." },
+    { "id": "e13", "type": "listening", "tags": ["hipotesis", "probabilidad"], "difficulty": 1, "speak": "Es könnte sein, dass er das vergessen hat.", "mode": "write", "accept": ["Es könnte sein, dass er das vergessen hat"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "speak": "Das ist kaum möglich.", "mode": "choose", "options": ["Das ist kaum möglich.", "Das ist sicher möglich.", "Das ist wahrscheinlich möglich."], "answer": 0, "showTextAfter": true, "explain": "kaum indica que algo es poco probable, casi improbable." },
+    { "id": "e15", "type": "shadowing", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "speak": "Es könnte sein, dass er das vergessen hat, aber das ist wahrscheinlich nicht der einzige Grund.", "es": "Podría ser que se le haya olvidado, pero probablemente no es el único motivo.", "ipa": "/ɛs ˈkœntə zaɪ̯n das eːɐ̯ das fɛɐ̯ˈɡɛsn̩ hat ˈaːbɐ das ɪst vaːɐ̯ˈʃaɪ̯nlɪç nɪçt deːɐ̯ ˈaɪ̯ntsɪɡə ɡʁʊnt/", "esApprox": "«es KÖN-te zain, das er das fer-GUÉ-sen jat, Á-ber das ist var-SHÁIN-lich nicht der ÁIN-tsi-gue grunt»", "focus": "es könnte sein, dass y wahrscheinlich: dos formas de hipótesis con distinto grado de certeza en una frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "speak": "Möglicherweise irrt er sich, aber es ist kaum wahrscheinlich, dass er das mit Absicht gemacht hat.", "es": "Posiblemente esté equivocado, pero es poco probable que lo haya hecho a propósito.", "ipa": "/ˈmøːklɪçɐvaɪ̯zə ɪʁt eːɐ̯ zɪç ˈaːbɐ ɛs ɪst kaʊ̯m vaːɐ̯ˈʃaɪ̯nlɪç das eːɐ̯ das mɪt ˈapzɪçt ɡəˈmaxt hat/", "esApprox": "«MÖ-gli-cher-vai-ze irt er zich, Á-ber es ist kaum var-SHÁIN-lich, das er das mit AP-zicht ge-MAJT jat»", "focus": "möglicherweise y kaum wahrscheinlich: dos grados distintos de duda combinados en una frase compleja.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Te preguntan por qué alguien no vino. Da una hipótesis: podría ser que se le olvidó.", "modelAnswer": "Es könnte sein, dass er das vergessen hat.", "alsoValid": ["Vielleicht hat er es vergessen."], "speak": "Es könnte sein, dass er das vergessen hat.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Clasifica cada adverbio según su grado de probabilidad", "buckets": ["Alta probabilidad", "Baja probabilidad"], "items": [
+      { "text": "sicher", "bucket": 0 },
+      { "text": "wahrscheinlich", "bucket": 0 },
+      { "text": "möglicherweise", "bucket": 1 },
+      { "text": "kaum", "bucket": 1 }
+    ], "explain": "Repaso general de la escala de probabilidad de esta clase." },
+    { "id": "e19", "type": "error_correction", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Es könnte sein, dass er das vergessen.", "accept": ["Es könnte sein, dass er das vergessen hat"], "audio": "Es könnte sein, dass er das vergessen hat.", "explain": "Falta el auxiliar hat: el verbo conjugado va al final de la subordinada con dass, junto al participio." },
+    { "id": "e20", "type": "mcq", "tags": ["hipotesis", "probabilidad"], "difficulty": 2, "prompt": "«Möglicherweise irrt er sich, aber es ist kaum wahrscheinlich, dass er das mit Absicht gemacht hat.» ¿Qué opina la persona sobre la intención del otro?", "options": ["Que fue completamente intencionado", "Que es poco probable que fuera intencionado", "Que no tiene opinión", "Que fue un accidente seguro"], "answer": 1, "explain": "«es ist kaum wahrscheinlich, dass er das mit Absicht gemacht hat» indica que es poco probable que fuera intencionado." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "wahrscheinlich", "es": "probablemente (alta probabilidad)", "esApprox": "«var-SHÁIN-lich»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "möglicherweise", "es": "posiblemente (más incierto)", "esApprox": "«MÖ-gli-cher-vai-ze»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "kaum", "es": "apenas, poco probable", "esApprox": "«kaum»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "sicher", "es": "seguro (casi certeza)", "esApprox": "«ZÍ-cher»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "es könnte sein, dass...", "es": "podría ser que...", "esApprox": "«es KÖN-te zain das»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "sich irren", "es": "equivocarse", "esApprox": "«zich Í-ren»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Es könnte sein, dass er das vergessen hat, aber das ist wahrscheinlich nicht der einzige Grund.", "es": "Podría ser que se le haya olvidado, pero probablemente no es el único motivo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Möglicherweise irrt er sich, aber es ist kaum wahrscheinlich, dass er das mit Absicht gemacht hat.", "es": "Posiblemente esté equivocado, pero es poco probable que lo haya hecho a propósito.", "from": "e16" }
+  ]
+}

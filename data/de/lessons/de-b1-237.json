@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-237",
+  "lang": "de",
+  "level": "B1",
+  "order": 237,
+  "title": "Interrumpir con educación y ceder el turno",
+  "objectives": [
+    "Interrumpir educadamente con darf ich kurz unterbrechen? y entschuldige, wenn ich unterbreche",
+    "Ceder el turno de palabra con fórmulas como sprich weiter o was wolltest du sagen?",
+    "Reconocer jemandem ins Wort fallen como la forma de interrumpir de manera brusca, a evitar"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Interrumpir sin ser brusco",
+      "body": "En una conversación animada, a veces necesitas intervenir: «Darf ich kurz unterbrechen?» (¿Puedo interrumpir un momento?) o «Entschuldige, wenn ich unterbreche» (Perdona que interrumpa) son fórmulas educadas. Lo contrario, «jemandem ins Wort fallen» (cortar a alguien de forma brusca), se considera de mala educación. Para devolver la palabra, usa «Sprich weiter» (Sigue hablando) o «Was wolltest du sagen?» (¿Qué querías decir?).",
+      "examples": [
+        { "target": "Darf ich kurz unterbrechen?", "es": "¿Puedo interrumpir un momento?" },
+        { "target": "Entschuldigung, sprich weiter.", "es": "Perdón, sigue hablando." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para interrumpir y ceder el turno",
+      "headers": ["Función", "Fórmula"],
+      "rows": [
+        ["Pedir permiso para interrumpir", "Darf ich kurz unterbrechen?"],
+        ["Disculparse al interrumpir", "Entschuldige, wenn ich unterbreche."],
+        ["Ceder el turno", "Sprich weiter. / Was wolltest du sagen?"],
+        ["Interrupción brusca (a evitar)", "jemandem ins Wort fallen"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "«Ich wollte nur sagen, dass...» (Solo quería decir que...) suaviza una interrupción, dando a entender que será breve antes de devolver la palabra."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "darf ich kurz unterbrechen?", "es": "¿puedo interrumpir un momento?", "ipa": "/daʁf ɪç kʊʁts ˌʊntɐˈbʁɛçn̩/", "esApprox": "«darf ich kurts un-ter-BRÉ-chen»", "pos": "locución", "gender": null, "example": { "target": "Darf ich kurz unterbrechen?", "es": "¿Puedo interrumpir un momento?" } },
+    { "id": "v2", "target": "entschuldige, wenn ich unterbreche", "es": "perdona que interrumpa", "ipa": "/ɛntˈʃʊldɪɡə vɛn ɪç ˌʊntɐˈbʁɛçə/", "esApprox": "«ent-SHÚL-di-gue, ven ich un-ter-BRÉ-che»", "pos": "locución", "gender": null, "example": { "target": "Entschuldige, wenn ich unterbreche.", "es": "Perdona que interrumpa." } },
+    { "id": "v3", "target": "sprich weiter", "es": "sigue hablando", "ipa": "/ʃpʁɪç ˈvaɪ̯tɐ/", "esApprox": "«shprich VÁI-ter»", "pos": "locución", "gender": null, "example": { "target": "Entschuldigung, sprich weiter.", "es": "Perdón, sigue hablando." } },
+    { "id": "v4", "target": "was wolltest du sagen?", "es": "¿qué querías decir?", "ipa": "/vas ˈvɔltəst duː ˈzaːɡn̩/", "esApprox": "«vas VÓL-test du ZÁ-guen»", "pos": "locución", "gender": null, "example": { "target": "Was wolltest du sagen?", "es": "¿Qué querías decir?" } },
+    { "id": "v5", "target": "jemandem ins Wort fallen", "es": "cortar a alguien (bruscamente)", "ipa": "/ˈjeːmandəm ɪns vɔʁt ˈfalən/", "esApprox": "«YÉ-man-dem ins vort FÁ-len»", "pos": "locución verbal", "gender": null, "example": { "target": "Bitte fall mir nicht ins Wort.", "es": "Por favor, no me cortes." } },
+    { "id": "v6", "target": "das Wort ergreifen", "es": "tomar la palabra", "ipa": "/das vɔʁt ɛɐ̯ˈɡʁaɪ̯fn̩/", "esApprox": "«das vort er-GRÁI-fen»", "pos": "locución verbal", "gender": null, "example": { "target": "Darf ich das Wort ergreifen?", "es": "¿Puedo tomar la palabra?" } },
+    { "id": "v7", "target": "ich wollte nur sagen, dass...", "es": "solo quería decir que...", "ipa": "/ɪç ˈvɔltə nuːɐ̯ ˈzaːɡn̩ das/", "esApprox": "«ich VÓL-te nur ZÁ-guen, das»", "pos": "locución", "gender": null, "example": { "target": "Ich wollte nur sagen, dass ich einverstanden bin.", "es": "Solo quería decir que estoy de acuerdo." } },
+    { "id": "v8", "target": "übrigens", "es": "por cierto", "ipa": "/ˈyːbʁɪɡn̩s/", "esApprox": "«IU-bri-guens»", "pos": "adverbio", "gender": null, "example": { "target": "Übrigens, hast du das schon gehört?", "es": "Por cierto, ¿ya te has enterado?" } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["turno-palabra"], "difficulty": 1, "prompt": "¿Cuál es la forma educada de pedir interrumpir?", "options": ["jemandem ins Wort fallen", "Darf ich kurz unterbrechen?", "Sei still!", "Halt die Klappe!"], "answer": 1, "explain": "Darf ich kurz unterbrechen? es la forma educada." },
+    { "id": "e2", "type": "mcq", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "¿Qué significa «jemandem ins Wort fallen»?", "options": ["Ceder la palabra", "Cortar a alguien bruscamente", "Pedir permiso para hablar", "Escuchar con atención"], "answer": 1, "explain": "jemandem ins Wort fallen = cortar a alguien de forma brusca." },
+    { "id": "e3", "type": "true_false", "tags": ["turno-palabra"], "difficulty": 2, "statement": "«Sprich weiter» se usa para ceder el turno de palabra.", "answer": true, "explain": "Sprich weiter = sigue hablando, cediendo el turno." },
+    { "id": "e4", "type": "true_false", "tags": ["turno-palabra"], "difficulty": 2, "statement": "jemandem ins Wort fallen es una forma educada de intervenir.", "answer": false, "explain": "Es la forma brusca, a evitar en una conversación educada." },
+    { "id": "e5", "type": "match_pairs", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "Une cada función con su fórmula", "left": ["Pedir permiso para interrumpir", "Disculparse al interrumpir", "Ceder el turno", "Suavizar una interrupción"], "right": ["Darf ich kurz unterbrechen?", "Entschuldige, wenn ich unterbreche.", "Sprich weiter.", "Ich wollte nur sagen, dass..."], "answer": [0, 1, 2, 3], "explain": "Cuatro fórmulas centrales para gestionar el turno de palabra." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "¿Puedo interrumpir un momento?", "accept": ["Darf ich kurz unterbrechen?"], "hintWords": ["darf ich kurz unterbrechen"], "strictAccents": false, "audio": "Darf ich kurz unterbrechen?", "explain": "Darf + ich + kurz + unterbrechen." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "Perdón, sigue hablando.", "accept": ["Entschuldigung, sprich weiter"], "hintWords": ["entschuldigung sprich weiter"], "strictAccents": false, "audio": "Entschuldigung, sprich weiter.", "explain": "Entschuldigung, + sprich + weiter." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "Solo quería decir que estoy de acuerdo.", "accept": ["Ich wollte nur sagen, dass ich einverstanden bin"], "hintWords": ["ich wollte nur sagen dass ich einverstanden bin"], "strictAccents": false, "audio": "Ich wollte nur sagen, dass ich einverstanden bin.", "explain": "Ich wollte nur sagen, + dass + ich + einverstanden + bin (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Bitte fall mir nicht ins ___. Darf ich das ___ ergreifen?", "blanks": [{ "accept": ["Wort"] }, { "accept": ["Wort"] }], "bank": ["Wort", "Gespräch", "Thema"], "explain": "ins Wort fallen y das Wort ergreifen: ambas expresiones usan das Wort." },
+    { "id": "e10", "type": "word_order", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "Ordena: «¿Qué querías decir?»", "tokens": ["wolltest du sagen?", "Was"], "answer": ["Was", "wolltest du sagen?"], "audio": "Was wolltest du sagen?", "explain": "Was (posición 1) + wolltest (posición 2) + du + sagen (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "Übrigens, hast du das schon gehört?", "accept": ["Por cierto, ¿ya te has enterado?"], "strictAccents": false, "audio": "Übrigens, hast du das schon gehört?", "explain": "übrigens = por cierto." },
+    { "id": "e12", "type": "dialogue", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Also, wie ich schon sagte, wir sollten...", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Entschuldige, wenn ich unterbreche, aber ich wollte nur kurz etwas sagen."], "hint": "interrumpe con educación" },
+      { "who": "Lea", "text": "Kein Problem, sag mal.", "speak": true }
+    ], "explain": "Entschuldige, wenn ich unterbreche: interrupción educada en una conversación." },
+    { "id": "e13", "type": "listening", "tags": ["turno-palabra"], "difficulty": 1, "speak": "Darf ich kurz unterbrechen?", "mode": "write", "accept": ["Darf ich kurz unterbrechen?"], "showTextAfter": true, "explain": "Fórmula educada para interrumpir." },
+    { "id": "e14", "type": "listening", "tags": ["turno-palabra"], "difficulty": 2, "speak": "Bitte fall mir nicht ins Wort.", "mode": "choose", "options": ["Bitte fall mir nicht ins Wort.", "Bitte fall mir nicht ins Gespräch.", "Bitte fall mir nicht ins Thema."], "answer": 0, "showTextAfter": true, "explain": "jemandem ins Wort fallen: la expresión fija usa das Wort." },
+    { "id": "e15", "type": "shadowing", "tags": ["turno-palabra"], "difficulty": 2, "speak": "Darf ich kurz unterbrechen? Ich wollte nur sagen, dass ich einverstanden bin, und dann kannst du weitersprechen.", "es": "¿Puedo interrumpir un momento? Solo quería decir que estoy de acuerdo, y luego puedes seguir hablando.", "ipa": "/daʁf ɪç kʊʁts ˌʊntɐˈbʁɛçn̩ ɪç ˈvɔltə nuːɐ̯ ˈzaːɡn̩ das ɪç ˈaɪ̯nfɛɐ̯ʃtandn̩ bɪn ʊnt dan kanst duː ˈvaɪ̯tɐʃpʁɛçn̩/", "esApprox": "«darf ich kurts un-ter-BRÉ-chen? ich VÓL-te nur ZÁ-guen, das ich ÁIN-fer-shtan-den bin, unt dan kanst du VÁI-ter-shpre-chen»", "focus": "unterbrechen y wollte nur sagen: la fórmula completa de una interrupción breve y educada.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["turno-palabra"], "difficulty": 2, "speak": "Entschuldigung, sprich weiter; ich wollte dir nur nicht ins Wort fallen, aber jetzt bin ich neugierig.", "es": "Perdón, sigue hablando; solo no quería cortarte, pero ahora tengo curiosidad.", "ipa": "/ɛntˈʃʊldɪɡʊŋ ʃpʁɪç ˈvaɪ̯tɐ ɪç ˈvɔltə diːɐ̯ nuːɐ̯ nɪçt ɪns vɔʁt ˈfalən ˈaːbɐ jɛtst bɪn ɪç ˈnɔɪ̯ɡiːʁɪç/", "esApprox": "«ent-SHÚL-di-gung, shprich VÁI-ter; ich VÓL-te dir nur nicht ins vort FÁ-len, Á-ber yetst bin ich NÓI-gui-rich»", "focus": "sprich weiter y ins Wort fallen: ceder el turno explicando por qué no se quiso interrumpir antes.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "Quieres intervenir en una conversación sin ser brusco. Pide permiso educadamente.", "modelAnswer": "Darf ich kurz unterbrechen?", "alsoValid": ["Entschuldige, wenn ich unterbreche."], "speak": "Darf ich kurz unterbrechen?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "Clasifica cada expresión según su educación", "buckets": ["Educado", "Brusco (a evitar)"], "items": [
+      { "text": "Darf ich kurz unterbrechen?", "bucket": 0 },
+      { "text": "jemandem ins Wort fallen", "bucket": 1 },
+      { "text": "Entschuldige, wenn ich unterbreche.", "bucket": 0 }
+    ], "explain": "Repaso general del contraste entre interrumpir con educación y hacerlo bruscamente." },
+    { "id": "e19", "type": "error_correction", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Darf ich kurz unterbrochen?", "accept": ["Darf ich kurz unterbrechen?"], "audio": "Darf ich kurz unterbrechen?", "explain": "Tras el modal darf va el infinitivo (unterbrechen), no el participio (unterbrochen)." },
+    { "id": "e20", "type": "mcq", "tags": ["turno-palabra"], "difficulty": 2, "prompt": "«Darf ich kurz unterbrechen? Ich wollte nur sagen, dass ich einverstanden bin, und dann kannst du weitersprechen.» ¿Qué hace la persona después de decir su opinión?", "options": ["Se va de la conversación", "Devuelve la palabra al otro", "Sigue hablando indefinidamente", "Cambia de tema"], "answer": 1, "explain": "«dann kannst du weitersprechen» indica que devuelve la palabra." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "darf ich kurz unterbrechen?", "es": "¿puedo interrumpir un momento?", "esApprox": "«darf ich kurts un-ter-BRÉ-chen»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "entschuldige, wenn ich unterbreche", "es": "perdona que interrumpa", "esApprox": "«ent-SHÚL-di-gue, ven ich un-ter-BRÉ-che»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "sprich weiter", "es": "sigue hablando", "esApprox": "«shprich VÁI-ter»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "jemandem ins Wort fallen", "es": "cortar a alguien (bruscamente)", "esApprox": "«YÉ-man-dem ins vort FÁ-len»", "from": "v5" },
+    { "id": "s5", "kind": "phrase", "target": "das Wort ergreifen", "es": "tomar la palabra", "esApprox": "«das vort er-GRÁI-fen»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "übrigens", "es": "por cierto", "esApprox": "«IU-bri-guens»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Darf ich kurz unterbrechen? Ich wollte nur sagen, dass ich einverstanden bin, und dann kannst du weitersprechen.", "es": "¿Puedo interrumpir un momento? Solo quería decir que estoy de acuerdo, y luego puedes seguir hablando.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Entschuldigung, sprich weiter; ich wollte dir nur nicht ins Wort fallen, aber jetzt bin ich neugierig.", "es": "Perdón, sigue hablando; solo no quería cortarte, pero ahora tengo curiosidad.", "from": "e16" }
+  ]
+}

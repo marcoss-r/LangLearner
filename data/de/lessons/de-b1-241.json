@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-241",
+  "lang": "de",
+  "level": "B1",
+  "order": 241,
+  "title": "Entender el alemán hablado rápido: trucos para no perderte",
+  "objectives": [
+    "Aprender fórmulas para pedir que repitan o hablen más despacio",
+    "Reconocer palabras clave (conectores, verbos) en vez de intentar entender cada palabra",
+    "Usar fórmulas de comprobación para confirmar que has entendido bien"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "No necesitas entender cada palabra",
+      "body": "Cuando el alemán hablado va rápido, el objetivo no es entender cada palabra, sino captar la estructura: busca el verbo (casi siempre en posición 2), los conectores (aber, deshalb, weil) y las palabras clave (sustantivos, nombres, números). Si te pierdes, pide ayuda con naturalidad: «Können Sie das bitte wiederholen?» (¿Puede repetir eso, por favor?) o «Könnten Sie etwas langsamer sprechen?» (¿Podría hablar un poco más despacio?).",
+      "examples": [
+        { "target": "Wie bitte? Können Sie das wiederholen?", "es": "¿Cómo dice? ¿Puede repetirlo?" },
+        { "target": "Könnten Sie etwas langsamer sprechen?", "es": "¿Podría hablar un poco más despacio?" }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Fórmulas para gestionar el habla rápida",
+      "headers": ["Función", "Fórmula"],
+      "rows": [
+        ["Pedir repetición", "Können Sie das bitte wiederholen?"],
+        ["Pedir más lentitud", "Könnten Sie etwas langsamer sprechen?"],
+        ["Comprobar comprensión", "Habe ich das richtig verstanden?"],
+        ["Pedir aclaración de una palabra", "Was bedeutet das genau?"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Concéntrate en las palabras acentuadas (normalmente sustantivos y verbos importantes) y deja pasar las palabras átonas (artículos, algunas preposiciones): esas palabras acentuadas suelen llevar el significado central de la frase."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "wiederholen", "es": "repetir", "ipa": "/viːdɐˈhoːlən/", "esApprox": "«vi-der-JÓ-len»", "pos": "verbo", "gender": null, "example": { "target": "Können Sie das bitte wiederholen?", "es": "¿Puede repetir eso, por favor?" } },
+    { "id": "v2", "target": "langsamer sprechen", "es": "hablar más despacio", "ipa": "/ˈlaŋzaːmɐ ˈʃpʁɛçn̩/", "esApprox": "«LÁNG-za-mer SHPRÉ-chen»", "pos": "locución verbal", "gender": null, "example": { "target": "Könnten Sie etwas langsamer sprechen?", "es": "¿Podría hablar un poco más despacio?" } },
+    { "id": "v3", "target": "wie bitte?", "es": "¿cómo dice?", "ipa": "/viː ˈbɪtə/", "esApprox": "«vi BI-te»", "pos": "locución", "gender": null, "example": { "target": "Wie bitte? Ich habe das nicht verstanden.", "es": "¿Cómo dice? No he entendido eso." } },
+    { "id": "v4", "target": "habe ich das richtig verstanden?", "es": "¿lo he entendido bien?", "ipa": "/ˈhaːbə ɪç das ˈʁɪçtɪç fɛɐ̯ˈʃtandn̩/", "esApprox": "«JÁ-be ich das RICH-tich fer-SHTÁN-den»", "pos": "locución", "gender": null, "example": { "target": "Habe ich das richtig verstanden?", "es": "¿Lo he entendido bien?" } },
+    { "id": "v5", "target": "was bedeutet das genau?", "es": "¿qué significa eso exactamente?", "ipa": "/vas bəˈdɔɪ̯tət das ɡəˈnaʊ̯/", "esApprox": "«vas be-DÓI-tet das ge-NAU»", "pos": "locución", "gender": null, "example": { "target": "Was bedeutet das genau?", "es": "¿Qué significa eso exactamente?" } },
+    { "id": "v6", "target": "die Schlüsselwörter", "es": "las palabras clave", "ipa": "/ˈʃlʏsl̩vœʁtɐ/", "esApprox": "«SHLÜ-sel-vör-ter»", "pos": "sustantivo (plural)", "gender": null, "example": { "target": "Achte auf die Schlüsselwörter.", "es": "Presta atención a las palabras clave." } },
+    { "id": "v7", "target": "die Betonung", "es": "el acento tónico", "ipa": "/bəˈtoːnʊŋ/", "esApprox": "«be-TÓ-nung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Achte auf die Betonung.", "es": "Presta atención al acento tónico." } },
+    { "id": "v8", "target": "verpassen", "es": "perderse (algo, en el sentido de no captarlo)", "ipa": "/fɛɐ̯ˈpasn̩/", "esApprox": "«fer-PÁ-sen»", "pos": "verbo", "gender": null, "example": { "target": "Ich habe den Anfang verpasst.", "es": "Me he perdido el principio." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["comprension-oral"], "difficulty": 1, "prompt": "¿Qué frase pides para que repitan algo?", "options": ["Was bedeutet das genau?", "Können Sie das bitte wiederholen?", "Habe ich das richtig verstanden?", "Wie bitte?"], "answer": 1, "explain": "Können Sie das bitte wiederholen? pide una repetición directa." },
+    { "id": "e2", "type": "mcq", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "¿En qué debes concentrarte cuando el alemán va rápido?", "options": ["Cada palabra por igual", "Las palabras acentuadas (sustantivos, verbos)", "Solo los artículos", "Nada, es imposible seguir"], "answer": 1, "explain": "Las palabras acentuadas suelen llevar el significado central." },
+    { "id": "e3", "type": "true_false", "tags": ["comprension-oral"], "difficulty": 2, "statement": "«Wie bitte?» es una forma natural de pedir que repitan algo.", "answer": true, "explain": "Wie bitte? es muy común y natural." },
+    { "id": "e4", "type": "true_false", "tags": ["comprension-oral"], "difficulty": 2, "statement": "El objetivo al escuchar rápido es entender cada palabra individualmente.", "answer": false, "explain": "El objetivo es captar la estructura general y las palabras clave, no cada palabra." },
+    { "id": "e5", "type": "match_pairs", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "Une cada función con su fórmula", "left": ["Pedir repetición", "Pedir más lentitud", "Comprobar comprensión", "Pedir aclaración"], "right": ["Können Sie das bitte wiederholen?", "Könnten Sie etwas langsamer sprechen?", "Habe ich das richtig verstanden?", "Was bedeutet das genau?"], "answer": [0, 1, 2, 3], "explain": "Cuatro fórmulas centrales para gestionar la comprensión oral." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "¿Cómo dice? No he entendido eso.", "accept": ["Wie bitte? Ich habe das nicht verstanden"], "hintWords": ["wie bitte ich habe das nicht verstanden"], "strictAccents": false, "audio": "Wie bitte? Ich habe das nicht verstanden.", "explain": "Wie bitte? + Ich habe + das + nicht + verstanden (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "¿Podría hablar un poco más despacio?", "accept": ["Könnten Sie etwas langsamer sprechen?"], "hintWords": ["könnten sie etwas langsamer sprechen"], "strictAccents": false, "audio": "Könnten Sie etwas langsamer sprechen?", "explain": "Könnten + Sie + etwas + langsamer + sprechen (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "¿Lo he entendido bien?", "accept": ["Habe ich das richtig verstanden?"], "hintWords": ["habe ich das richtig verstanden"], "strictAccents": false, "audio": "Habe ich das richtig verstanden?", "explain": "Habe + ich + das + richtig + verstanden (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Achte auf die ___. Ich habe den Anfang ___.", "blanks": [{ "accept": ["Schlüsselwörter"] }, { "accept": ["verpasst"] }], "bank": ["Schlüsselwörter", "verpasst", "Betonung"], "explain": "die Schlüsselwörter (las palabras clave) y verpasst (perdido)." },
+    { "id": "e10", "type": "word_order", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "Ordena: «¿Qué significa eso exactamente?»", "tokens": ["das genau?", "Was bedeutet"], "answer": ["Was bedeutet", "das genau?"], "audio": "Was bedeutet das genau?", "explain": "Was (posición 1) + bedeutet (posición 2) + das + genau." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "Achte auf die Betonung.", "accept": ["Presta atención al acento tónico."], "strictAccents": false, "audio": "Achte auf die Betonung.", "explain": "die Betonung = el acento tónico." },
+    { "id": "e12", "type": "dialogue", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Also, wie gesagt, wir treffen uns morgen um neun am Bahnhof, aber falls es regnet, dann lieber im Café.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Wie bitte? Können Sie das bitte wiederholen?"], "hint": "pide que repitan porque hablaron rápido" },
+      { "who": "Lea", "text": "Klar, kein Problem!", "speak": true }
+    ], "explain": "Wie bitte? y wiederholen: fórmula clave cuando algo se dice muy rápido." },
+    { "id": "e13", "type": "listening", "tags": ["comprension-oral"], "difficulty": 1, "speak": "Können Sie das bitte wiederholen?", "mode": "write", "accept": ["Können Sie das bitte wiederholen?"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["comprension-oral"], "difficulty": 2, "speak": "Achte auf die Schlüsselwörter.", "mode": "choose", "options": ["Achte auf die Schlüsselwörter.", "Achte auf die Artikel.", "Achte auf jedes Wort."], "answer": 0, "showTextAfter": true, "explain": "El consejo clave es fijarse en las palabras clave, no en cada palabra." },
+    { "id": "e15", "type": "shadowing", "tags": ["comprension-oral"], "difficulty": 2, "speak": "Wie bitte? Ich habe den Anfang verpasst. Könnten Sie das bitte wiederholen?", "es": "¿Cómo dice? Me he perdido el principio. ¿Podría repetirlo, por favor?", "ipa": "/viː ˈbɪtə ɪç ˈhaːbə deːn ˈanfaŋ fɛɐ̯ˈpast ˈkœntn̩ ziː das ˈbɪtə viːdɐˈhoːlən/", "esApprox": "«vi BI-te? ich JÁ-be den ÁN-fang fer-PAST. KÖN-ten zi das BI-te vi-der-JÓ-len?»", "focus": "Wie bitte, verpasst y wiederholen: la secuencia completa para pedir ayuda ante el habla rápida.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["comprension-oral"], "difficulty": 2, "speak": "Achte auf die Schlüsselwörter und die Betonung; dann verpasst du den Sinn der Frage nicht.", "es": "Presta atención a las palabras clave y al acento tónico; así no te pierdes el sentido de la frase.", "ipa": "/ˈaxtə aʊ̯f diː ˈʃlʏsl̩vœʁtɐ ʊnt diː bəˈtoːnʊŋ dan fɛɐ̯ˈpast duː deːn zɪn deːɐ̯ ˈfʁaːɡə nɪçt/", "esApprox": "«AJ-te auf di SHLÜ-sel-vör-ter unt di be-TÓ-nung; dan fer-PAST du den zin der FRÁ-gue nicht»", "focus": "Schlüsselwörter y Betonung: la estrategia central para no perder el hilo del habla rápida.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "No has entendido lo que ha dicho alguien porque hablaba rápido. Pide que hablen más despacio.", "modelAnswer": "Könnten Sie etwas langsamer sprechen?", "alsoValid": ["Kannst du bitte langsamer sprechen?"], "speak": "Könnten Sie etwas langsamer sprechen?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "Clasifica cada fórmula según su función", "buckets": ["Pedir ayuda directa", "Comprobar comprensión"], "items": [
+      { "text": "Wie bitte?", "bucket": 0 },
+      { "text": "Könnten Sie etwas langsamer sprechen?", "bucket": 0 },
+      { "text": "Habe ich das richtig verstanden?", "bucket": 1 }
+    ], "explain": "Repaso general de las fórmulas de esta clase, según su función comunicativa." },
+    { "id": "e19", "type": "error_correction", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Können Sie das bitte wiederholt?", "accept": ["Können Sie das bitte wiederholen?"], "audio": "Können Sie das bitte wiederholen?", "explain": "Tras el modal können va el infinitivo (wiederholen), no el participio (wiederholt)." },
+    { "id": "e20", "type": "mcq", "tags": ["comprension-oral"], "difficulty": 2, "prompt": "«Wie bitte? Ich habe den Anfang verpasst. Könnten Sie das bitte wiederholen? Achten Sie auf die Schlüsselwörter, das hilft mir immer.» ¿Qué estrategia menciona la persona que le ayuda?", "options": ["Ignorar la conversación", "Fijarse en las palabras clave", "Hablar más alto", "No pedir nunca ayuda"], "answer": 1, "explain": "«Achten Sie auf die Schlüsselwörter, das hilft mir immer» menciona esa estrategia." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "wiederholen", "es": "repetir", "esApprox": "«vi-der-JÓ-len»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "langsamer sprechen", "es": "hablar más despacio", "esApprox": "«LÁNG-za-mer SHPRÉ-chen»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "wie bitte?", "es": "¿cómo dice?", "esApprox": "«vi BI-te»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "habe ich das richtig verstanden?", "es": "¿lo he entendido bien?", "esApprox": "«JÁ-be ich das RICH-tich fer-SHTÁN-den»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "die Schlüsselwörter", "es": "las palabras clave", "esApprox": "«SHLÜ-sel-vör-ter»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "die Betonung", "es": "el acento tónico", "esApprox": "«be-TÓ-nung»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Wie bitte? Ich habe den Anfang verpasst. Könnten Sie das bitte wiederholen?", "es": "¿Cómo dice? Me he perdido el principio. ¿Podría repetirlo, por favor?", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Achte auf die Schlüsselwörter und die Betonung; dann verpasst du den Sinn der Frage nicht.", "es": "Presta atención a las palabras clave y al acento tónico; así no te pierdes el sentido de la frase.", "from": "e16" }
+  ]
+}
