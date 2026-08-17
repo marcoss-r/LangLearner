@@ -1,0 +1,87 @@
+{
+  "id": "de-b1-215",
+  "lang": "de",
+  "level": "B1",
+  "order": 215,
+  "title": "El infinitivo con zu",
+  "objectives": [
+    "Repasar cuándo el infinitivo lleva zu y cuándo no (nunca con modales)",
+    "Formar ohne...zu (sin hacer algo) y (an)statt...zu (en vez de hacer algo), como um...zu",
+    "Usar estas tres construcciones para expresar finalidad, ausencia de acción y alternativa"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Tres hermanas: um...zu, ohne...zu, (an)statt...zu",
+      "body": "Ya conoces um...zu para la finalidad (clase 127): «Ich lerne Deutsch, um in Deutschland zu arbeiten» (Aprendo alemán para trabajar en Alemania). Sus dos hermanas siguen la misma estructura: ohne...zu expresa que algo se hace sin hacer otra cosa: «Er ging, ohne sich zu verabschieden» (Se fue sin despedirse); (an)statt...zu expresa una alternativa: «Sie las ein Buch, anstatt fernzusehen» (Leyó un libro, en vez de ver la tele).",
+      "examples": [
+        { "target": "Er ging, ohne sich zu verabschieden.", "es": "Se fue sin despedirse." },
+        { "target": "Sie las ein Buch, anstatt fernzusehen.", "es": "Leyó un libro, en vez de ver la tele." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Las tres construcciones con zu + infinitivo",
+      "headers": ["Construcción", "Significado", "Ejemplo"],
+      "rows": [
+        ["um...zu", "finalidad (para)", "um Deutsch zu lernen"],
+        ["ohne...zu", "sin hacer algo", "ohne sich zu verabschieden"],
+        ["(an)statt...zu", "en vez de hacer algo", "anstatt fernzusehen"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Recuerda: el infinitivo NUNCA lleva zu tras un modal (kann, muss, will...) ni tras werden. Sí lo lleva tras la mayoría de los demás verbos que necesitan un segundo verbo: versuchen zu, beginnen zu, aufhören zu (repaso de clases 156, 178)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "ohne...zu", "es": "sin (hacer algo)", "ipa": "/ˈoːnə tsuː/", "esApprox": "«Ó-ne tsu»", "pos": "locución conjuntiva", "gender": null, "example": { "target": "Er ging, ohne sich zu verabschieden.", "es": "Se fue sin despedirse." } },
+    { "id": "v2", "target": "anstatt...zu", "es": "en vez de (hacer algo)", "ipa": "/anˈʃtat tsuː/", "esApprox": "«an-SHTAT tsu»", "pos": "locución conjuntiva", "gender": null, "example": { "target": "Sie las ein Buch, anstatt fernzusehen.", "es": "Leyó un libro, en vez de ver la tele." } },
+    { "id": "v3", "target": "sich verabschieden", "es": "despedirse", "ipa": "/zɪç fɛɐ̯ˈʔapʃiːdn̩/", "esApprox": "«zich fer-ÁP-shi-den»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Ich möchte mich verabschieden.", "es": "Quisiera despedirme." } },
+    { "id": "v4", "target": "fernsehen", "es": "ver la tele", "ipa": "/ˈfɛʁnzeːən/", "esApprox": "«FERN-ze-en»", "pos": "verbo separable", "gender": null, "example": { "target": "Sie sieht gern fern.", "es": "A ella le gusta ver la tele." } },
+    { "id": "v5", "target": "aufhören zu", "es": "dejar de (+ infinitivo)", "ipa": "/ˈaʊ̯fhøːʁən tsuː/", "esApprox": "«ÁUF-jö-ren tsu»", "pos": "verbo con zu", "gender": null, "example": { "target": "Er hat aufgehört zu rauchen.", "es": "Ha dejado de fumar." } },
+    { "id": "v6", "target": "versuchen zu", "es": "intentar (+ infinitivo)", "ipa": "/fɛɐ̯ˈzuːxn̩ tsuː/", "esApprox": "«fer-ZÚ-jen tsu»", "pos": "verbo con zu", "gender": null, "example": { "target": "Ich versuche, pünktlich zu sein.", "es": "Intento ser puntual." } },
+    { "id": "v7", "target": "die Absicht", "es": "la intención", "ipa": "/ˈapzɪçt/", "esApprox": "«AP-zicht»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das war nicht meine Absicht.", "es": "Esa no era mi intención." } },
+    { "id": "v8", "target": "sich verabreden", "es": "quedar (con alguien)", "ipa": "/zɪç fɛɐ̯ˈʔapʁeːdn̩/", "esApprox": "«zich fer-ÁP-re-den»", "pos": "verbo reflexivo", "gender": null, "example": { "target": "Wir haben uns verabredet.", "es": "Hemos quedado." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["infinitivo-zu"], "difficulty": 1, "prompt": "¿Qué significa «ohne...zu»?", "options": ["para", "sin (hacer algo)", "en vez de", "después de"], "answer": 1, "explain": "ohne...zu expresa que algo se hace sin hacer otra cosa." },
+    { "id": "e2", "type": "mcq", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "¿Qué significa «anstatt...zu»?", "options": ["para", "sin", "en vez de (hacer algo)", "porque"], "answer": 2, "explain": "anstatt...zu expresa una alternativa." },
+    { "id": "e3", "type": "true_false", "tags": ["infinitivo-zu"], "difficulty": 2, "statement": "El infinitivo lleva zu después de un modal como können o müssen.", "answer": false, "explain": "Tras los modales nunca se usa zu: kann machen, no kann zu machen." },
+    { "id": "e4", "type": "true_false", "tags": ["infinitivo-zu"], "difficulty": 2, "statement": "um...zu, ohne...zu y anstatt...zu siguen la misma estructura, con el verbo al final precedido de zu.", "answer": true, "explain": "Las tres construcciones comparten la misma estructura sintáctica." },
+    { "id": "e5", "type": "match_pairs", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Une cada construcción con su ejemplo", "left": ["um...zu", "ohne...zu", "anstatt...zu"], "right": ["um Deutsch zu lernen", "ohne sich zu verabschieden", "anstatt fernzusehen"], "answer": [0, 1, 2], "explain": "Las tres construcciones de zu-infinitivo de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Se fue sin despedirse.", "accept": ["Er ging, ohne sich zu verabschieden"], "hintWords": ["er ging ohne sich zu verabschieden"], "strictAccents": false, "audio": "Er ging, ohne sich zu verabschieden.", "explain": "Er ging, + ohne + sich + zu verabschieden (final)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Leyó un libro, en vez de ver la tele.", "accept": ["Sie las ein Buch, anstatt fernzusehen"], "hintWords": ["sie las ein Buch anstatt fernzusehen"], "strictAccents": false, "audio": "Sie las ein Buch, anstatt fernzusehen.", "explain": "Sie las ein Buch, + anstatt + fernzusehen (verbo separable + zu en medio: fern-zu-sehen)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Ha dejado de fumar.", "accept": ["Er hat aufgehört zu rauchen"], "hintWords": ["er hat aufgehört zu rauchen"], "strictAccents": false, "audio": "Er hat aufgehört zu rauchen.", "explain": "hat + aufgehört + zu + rauchen." },
+    { "id": "e9", "type": "fill_blank", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Completa con la construcción correcta", "text": "Ich lerne Deutsch, ___ in Deutschland zu arbeiten. Er ging, ___ sich zu verabschieden.", "blanks": [{ "accept": ["um"] }, { "accept": ["ohne"] }], "bank": ["um", "ohne", "anstatt"], "explain": "um...zu (finalidad) y ohne...zu (sin hacer algo)." },
+    { "id": "e10", "type": "word_order", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Ordena: «Intento ser puntual»", "tokens": ["pünktlich zu sein", "Ich versuche,"], "answer": ["Ich versuche,", "pünktlich zu sein"], "audio": "Ich versuche, pünktlich zu sein.", "explain": "versuche, + zu + sein (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Das war nicht meine Absicht.", "accept": ["Esa no era mi intención."], "strictAccents": false, "audio": "Das war nicht meine Absicht.", "explain": "die Absicht = la intención." },
+    { "id": "e12", "type": "dialogue", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Warum bist du so plötzlich gegangen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Entschuldigung, ich bin gegangen, ohne mich zu verabschieden."], "hint": "explica con ohne...zu" },
+      { "who": "Lea", "text": "Kein Problem!", "speak": true }
+    ], "explain": "ohne...zu: explicar una acción sin otra acompañante." },
+    { "id": "e13", "type": "listening", "tags": ["infinitivo-zu"], "difficulty": 1, "speak": "Er ging, ohne sich zu verabschieden.", "mode": "write", "accept": ["Er ging, ohne sich zu verabschieden"], "showTextAfter": true, "explain": "ohne + sich + zu verabschieden." },
+    { "id": "e14", "type": "listening", "tags": ["infinitivo-zu"], "difficulty": 2, "speak": "Sie las ein Buch, anstatt fernzusehen.", "mode": "choose", "options": ["Sie las ein Buch, anstatt fernzusehen.", "Sie las ein Buch, anstatt zu fernsehen.", "Sie las ein Buch, anstatt fern zu sehen."], "answer": 0, "showTextAfter": true, "explain": "Con verbos separables, zu va entre el prefijo y la raíz: fernzusehen." },
+    { "id": "e15", "type": "shadowing", "tags": ["infinitivo-zu"], "difficulty": 2, "speak": "Ich versuche, pünktlich zu sein, ohne mich dabei zu stressen, anstatt immer in letzter Minute loszurennen.", "es": "Intento ser puntual, sin estresarme por ello, en vez de salir corriendo siempre en el último minuto.", "ipa": "/ɪç fɛɐ̯ˈzuːxə ˈpʏŋktlɪç tsuː zaɪ̯n ˈoːnə mɪç daˈbaɪ̯ tsuː ʃtʁɛsn̩ anˈʃtat ˈɪmɐ ɪn ˈlɛtstɐ miˈnuːtə ˈloːstsuːʁɛnən/", "esApprox": "«ich fer-ZÚ-je, PÜNKT-lich tsu zain, Ó-ne mich da-BÁI tsu SHTRÉ-sen, an-SHTAT Í-mer in LÉTS-ter mi-NÚ-te LÓS-tsu-RÉ-nen»", "focus": "Las tres construcciones (versuchen zu, ohne...zu, anstatt...zu) combinadas en una sola frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["infinitivo-zu"], "difficulty": 2, "speak": "Er hat aufgehört zu rauchen, um gesünder zu leben, ohne dabei auf seine Lieblingsgewohnheiten zu verzichten.", "es": "Ha dejado de fumar para vivir más sano, sin renunciar por ello a sus costumbres favoritas.", "ipa": "/eːɐ̯ hat ˈaʊ̯fɡəhøːɐ̯t tsuː ˈʁaʊ̯xn̩ ʊm ɡəˈzʏndɐ tsuː ˈleːbn̩ ˈoːnə daˈbaɪ̯ aʊ̯f ˈzaɪ̯nə ˈliːplɪŋsɡəˌvoːnhaɪ̯tn̩ tsuː fɛɐ̯ˈtsɪçtn̩/", "esApprox": "«er jat ÁUF-ge-jört tsu RÁU-jen, um ge-ZÜN-der tsu LÉ-ben, Ó-ne da-BÁI auf ZÁI-ne LIP-lings-ge-vón-jai-ten tsu fer-TSICH-ten»", "focus": "aufgehört zu, um...zu y ohne...zu: tres construcciones con zu encadenadas en un propósito de vida saludable.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Explicas que te fuiste sin despedirte, sin querer.", "modelAnswer": "Ich bin gegangen, ohne mich zu verabschieden.", "alsoValid": ["Ich ging, ohne mich zu verabschieden."], "speak": "Ich bin gegangen, ohne mich zu verabschieden.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Clasifica cada construcción según su significado", "buckets": ["Finalidad/sin acción", "Alternativa"], "items": [
+      { "text": "um Deutsch zu lernen", "bucket": 0 },
+      { "text": "ohne sich zu verabschieden", "bucket": 0 },
+      { "text": "anstatt fernzusehen", "bucket": 1 }
+    ], "explain": "um y ohne describen finalidad o ausencia de acción; anstatt describe una alternativa." },
+    { "id": "e19", "type": "error_correction", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Er kann zu schwimmen.", "accept": ["Er kann schwimmen"], "audio": "Er kann schwimmen.", "explain": "Tras un modal (kann) nunca se usa zu: kann schwimmen, no kann zu schwimmen." },
+    { "id": "e20", "type": "mcq", "tags": ["infinitivo-zu"], "difficulty": 2, "prompt": "«Er hat aufgehört zu rauchen, um gesünder zu leben, ohne dabei auf seine Lieblingsgewohnheiten zu verzichten.» ¿Qué NO ha tenido que hacer la persona?", "options": ["Dejar de fumar", "Vivir más sano", "Renunciar a sus costumbres favoritas", "Cambiar de trabajo"], "answer": 2, "explain": "«ohne dabei auf seine Lieblingsgewohnheiten zu verzichten» indica que no ha tenido que renunciar a sus costumbres favoritas." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "ohne...zu", "es": "sin (hacer algo)", "esApprox": "«Ó-ne tsu»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "anstatt...zu", "es": "en vez de (hacer algo)", "esApprox": "«an-SHTAT tsu»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "sich verabschieden", "es": "despedirse", "esApprox": "«zich fer-ÁP-shi-den»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "fernsehen", "es": "ver la tele", "esApprox": "«FERN-ze-en»", "from": "v4" },
+    { "id": "s5", "kind": "phrase", "target": "aufhören zu", "es": "dejar de (+ infinitivo)", "esApprox": "«ÁUF-jö-ren tsu»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Absicht", "es": "la intención", "esApprox": "«AP-zicht»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich versuche, pünktlich zu sein, ohne mich dabei zu stressen, anstatt immer in letzter Minute loszurennen.", "es": "Intento ser puntual, sin estresarme por ello, en vez de salir corriendo siempre en el último minuto.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Er hat aufgehört zu rauchen, um gesünder zu leben, ohne dabei auf seine Lieblingsgewohnheiten zu verzichten.", "es": "Ha dejado de fumar para vivir más sano, sin renunciar por ello a sus costumbres favoritas.", "from": "e16" }
+  ]
+}

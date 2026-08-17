@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-214",
+  "lang": "de",
+  "level": "B1",
+  "order": 214,
+  "title": "La nominalización: convertir un verbo en sustantivo",
+  "objectives": [
+    "Convertir cualquier infinitivo en un sustantivo neutro: das Lesen, das Schwimmen",
+    "Formar sustantivos con el sufijo -ung a partir de verbos: die Lösung, die Bildung",
+    "Reconocer la nominalización como un recurso típico del registro escrito y formal"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Dos formas de convertir un verbo en sustantivo",
+      "body": "El alemán nominaliza verbos con mucha facilidad, algo típico del registro escrito y formal. La forma más sencilla: cualquier infinitivo funciona como sustantivo neutro con mayúscula, sin cambios: «das Lesen» (la lectura, el acto de leer), «das Schwimmen» (la natación). La segunda forma, más específica: muchos verbos forman un sustantivo femenino con el sufijo -ung: lösen → die Lösung (la solución), bilden → die Bildung (la formación, la educación).",
+      "examples": [
+        { "target": "Das Lesen macht mir Spaß.", "es": "Leer me divierte." },
+        { "target": "Die Lösung des Problems war einfach.", "es": "La solución del problema fue sencilla." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Dos patrones de nominalización",
+      "headers": ["Patrón", "Ejemplo", "Género"],
+      "rows": [
+        ["Infinitivo → sustantivo", "lesen → das Lesen", "siempre neutro"],
+        ["Verbo + -ung", "lösen → die Lösung", "siempre femenino"],
+        ["Verbo + -ung", "bilden → die Bildung", "siempre femenino"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Nominalizar es muy útil para escribir de forma más compacta y formal: en vez de «Wenn man das Problem löst, ...» puedes decir «Bei der Lösung des Problems, ...», una estructura mucho más típica de textos académicos o profesionales."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "das Lesen", "es": "la lectura, el acto de leer", "ipa": "/das ˈleːzn̩/", "esApprox": "«das LÉ-zen»", "pos": "sustantivo (infinitivo nominalizado)", "gender": "n", "example": { "target": "Das Lesen macht mir Spaß.", "es": "Leer me divierte." } },
+    { "id": "v2", "target": "das Schwimmen", "es": "la natación, el acto de nadar", "ipa": "/das ˈʃvɪmən/", "esApprox": "«das SHVÍ-men»", "pos": "sustantivo (infinitivo nominalizado)", "gender": "n", "example": { "target": "Beim Schwimmen entspanne ich mich.", "es": "Nadando me relajo." } },
+    { "id": "v3", "target": "die Lösung", "es": "la solución", "ipa": "/ˈløːzʊŋ/", "esApprox": "«LÖ-zung»", "pos": "sustantivo (verbo + -ung)", "gender": "f", "example": { "target": "Die Lösung des Problems war einfach.", "es": "La solución del problema fue sencilla." } },
+    { "id": "v4", "target": "die Bildung", "es": "la formación, la educación", "ipa": "/ˈbɪldʊŋ/", "esApprox": "«BÍL-dung»", "pos": "sustantivo (verbo + -ung)", "gender": "f", "example": { "target": "Bildung ist sehr wichtig.", "es": "La educación es muy importante." } },
+    { "id": "v5", "target": "die Entwicklung", "es": "el desarrollo", "ipa": "/ɛntˈvɪklʊŋ/", "esApprox": "«ent-VÍK-lung»", "pos": "sustantivo (verbo + -ung)", "gender": "f", "example": { "target": "Das ist eine positive Entwicklung.", "es": "Ese es un desarrollo positivo." } },
+    { "id": "v6", "target": "die Verbesserung", "es": "la mejora", "ipa": "/fɛɐ̯ˈbɛsəʁʊŋ/", "esApprox": "«fer-BÉ-se-rung»", "pos": "sustantivo (verbo + -ung)", "gender": "f", "example": { "target": "Das ist eine deutliche Verbesserung.", "es": "Esa es una mejora clara." } },
+    { "id": "v7", "target": "verwandeln", "es": "convertir, transformar", "ipa": "/fɛɐ̯ˈvandl̩n/", "esApprox": "«fer-VÁN-deln»", "pos": "verbo", "gender": null, "example": { "target": "Man kann jedes Verb in ein Nomen verwandeln.", "es": "Se puede convertir cualquier verbo en un sustantivo." } },
+    { "id": "v8", "target": "das Nomen", "es": "el sustantivo", "ipa": "/das ˈnoːmən/", "esApprox": "«das NÓ-men»", "pos": "sustantivo", "gender": "n", "example": { "target": "Das ist ein nominalisiertes Nomen.", "es": "Ese es un sustantivo nominalizado." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["nominalizacion"], "difficulty": 1, "prompt": "¿Qué género tiene un infinitivo nominalizado, como «das Lesen»?", "options": ["Masculino", "Femenino", "Neutro", "Depende del verbo"], "answer": 2, "explain": "Cualquier infinitivo nominalizado es siempre neutro." },
+    { "id": "e2", "type": "mcq", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "¿Qué género tienen los sustantivos formados con -ung?", "options": ["Masculino", "Femenino", "Neutro", "Depende del verbo"], "answer": 1, "explain": "Los sustantivos en -ung son siempre femeninos: die Lösung, die Bildung." },
+    { "id": "e3", "type": "true_false", "tags": ["nominalizacion"], "difficulty": 2, "statement": "Cualquier infinitivo se puede usar como sustantivo neutro sin cambios.", "answer": true, "explain": "lesen → das Lesen, schwimmen → das Schwimmen: solo hace falta la mayúscula y el artículo das." },
+    { "id": "e4", "type": "true_false", "tags": ["nominalizacion"], "difficulty": 2, "statement": "La nominalización es típica del registro oral e informal.", "answer": false, "explain": "Es un recurso propio del registro escrito y formal (textos académicos, profesionales)." },
+    { "id": "e5", "type": "match_pairs", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "Une cada verbo con su sustantivo nominalizado", "left": ["lesen", "lösen", "bilden", "entwickeln"], "right": ["das Lesen", "die Lösung", "die Bildung", "die Entwicklung"], "answer": [0, 1, 2, 3], "explain": "Dos patrones distintos de nominalización." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "Leer me divierte.", "accept": ["Das Lesen macht mir Spaß"], "hintWords": ["das Lesen macht mir Spaß"], "strictAccents": false, "audio": "Das Lesen macht mir Spaß.", "explain": "Das Lesen (sujeto neutro) + macht (posición 2) + mir + Spaß." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "La solución del problema fue sencilla.", "accept": ["Die Lösung des Problems war einfach"], "hintWords": ["die Lösung des Problems war einfach"], "strictAccents": false, "audio": "Die Lösung des Problems war einfach.", "explain": "Die Lösung des Problems (genitivo) + war (posición 2) + einfach." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "La educación es muy importante.", "accept": ["Bildung ist sehr wichtig"], "hintWords": ["Bildung ist sehr wichtig"], "strictAccents": false, "audio": "Bildung ist sehr wichtig.", "explain": "die Bildung, usado aquí sin artículo, en sentido general." },
+    { "id": "e9", "type": "fill_blank", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "Completa con el sustantivo nominalizado correcto", "text": "Beim ___ entspanne ich mich. (schwimmen) Das ist eine positive ___. (entwickeln)", "blanks": [{ "accept": ["Schwimmen"] }, { "accept": ["Entwicklung"] }], "bank": ["Schwimmen", "Entwicklung", "Verbesserung"], "explain": "das Schwimmen (infinitivo nominalizado) y die Entwicklung (verbo + -ung)." },
+    { "id": "e10", "type": "word_order", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "Ordena: «Esa es una mejora clara»", "tokens": ["eine deutliche Verbesserung", "Das ist"], "answer": ["Das ist", "eine deutliche Verbesserung"], "audio": "Das ist eine deutliche Verbesserung.", "explain": "Das ist (posición normal) + eine deutliche Verbesserung." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "Man kann jedes Verb in ein Nomen verwandeln.", "accept": ["Se puede convertir cualquier verbo en un sustantivo."], "strictAccents": false, "audio": "Man kann jedes Verb in ein Nomen verwandeln.", "explain": "verwandeln = convertir, transformar." },
+    { "id": "e12", "type": "dialogue", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Was machst du gern in deiner Freizeit?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Das Lesen macht mir Spaß."], "hint": "usa un infinitivo nominalizado" },
+      { "who": "Lea", "text": "Ich lese auch gern!", "speak": true }
+    ], "explain": "das Lesen: nominalización natural para hablar de aficiones." },
+    { "id": "e13", "type": "listening", "tags": ["nominalizacion"], "difficulty": 1, "speak": "Das Lesen macht mir Spaß.", "mode": "write", "accept": ["Das Lesen macht mir Spaß"], "showTextAfter": true, "explain": "das Lesen: infinitivo nominalizado." },
+    { "id": "e14", "type": "listening", "tags": ["nominalizacion"], "difficulty": 2, "speak": "Die Lösung des Problems war einfach.", "mode": "choose", "options": ["Die Lösung des Problems war einfach.", "Der Lösung des Problems war einfach.", "Das Lösung des Problems war einfach."], "answer": 0, "showTextAfter": true, "explain": "die Lösung: los sustantivos en -ung son siempre femeninos." },
+    { "id": "e15", "type": "shadowing", "tags": ["nominalizacion"], "difficulty": 2, "speak": "Das Lesen macht mir Spaß, und die Bildung, die ich dadurch bekomme, ist mir sehr wichtig.", "es": "Leer me divierte, y la formación que obtengo con ello me importa mucho.", "ipa": "/das ˈleːzn̩ maxt miːɐ̯ ʃpaːs ʊnt diː ˈbɪldʊŋ diː ɪç daˈdʊʁç bəˈkɔmə ɪst miːɐ̯ zeːɐ̯ ˈvɪçtɪç/", "esApprox": "«das LÉ-zen mact mir shpas, unt di BÍL-dung, di ich da-DURCH be-KÓ-me, ist mir zer VICH-tich»", "focus": "das Lesen y die Bildung: los dos patrones de nominalización combinados en una misma frase.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["nominalizacion"], "difficulty": 2, "speak": "Die Lösung des Problems war einfach, und die Verbesserung war nach der Entwicklung sofort sichtbar.", "es": "La solución del problema fue sencilla, y la mejora fue visible enseguida tras el desarrollo.", "ipa": "/diː ˈløːzʊŋ dɛs ˈpʁoːbleːms vaːɐ̯ ˈaɪ̯nfax ʊnt diː fɛɐ̯ˈbɛsəʁʊŋ vaːɐ̯ naːx deːɐ̯ ɛntˈvɪklʊŋ zoˈfɔʁt ˈzɪçtbaːɐ̯/", "esApprox": "«di LÖ-zung des PRO-blems var ÁIN-fach, unt di fer-BÉ-se-rung var nach der ent-VÍK-lung zo-FORT ZICHT-bar»", "focus": "Lösung, Verbesserung y Entwicklung: tres sustantivos en -ung en una sola frase sobre progreso.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "Te preguntan qué te gusta hacer en tu tiempo libre. Responde que leer te divierte.", "modelAnswer": "Das Lesen macht mir Spaß.", "alsoValid": ["Ich lese gern."], "speak": "Das Lesen macht mir Spaß.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "Clasifica cada sustantivo según su patrón de formación", "buckets": ["Infinitivo (neutro)", "Verbo + -ung (femenino)"], "items": [
+      { "text": "das Lesen", "bucket": 0 },
+      { "text": "die Lösung", "bucket": 1 },
+      { "text": "das Schwimmen", "bucket": 0 },
+      { "text": "die Bildung", "bucket": 1 }
+    ], "explain": "Los infinitivos nominalizados son siempre neutros; los sustantivos en -ung son siempre femeninos." },
+    { "id": "e19", "type": "error_correction", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Der Lösung des Problems war einfach.", "accept": ["Die Lösung des Problems war einfach"], "audio": "Die Lösung des Problems war einfach.", "explain": "Los sustantivos en -ung son siempre femeninos: die Lösung, no der Lösung." },
+    { "id": "e20", "type": "mcq", "tags": ["nominalizacion"], "difficulty": 2, "prompt": "«Die Lösung des Problems war einfach, und die Verbesserung war nach der Entwicklung sofort sichtbar.» ¿Cuándo se hizo visible la mejora?", "options": ["Antes del desarrollo", "Después del desarrollo", "Nunca", "Al mismo tiempo que el problema"], "answer": 1, "explain": "«war nach der Entwicklung sofort sichtbar» indica que fue visible después del desarrollo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "das Lesen", "es": "la lectura, el acto de leer", "esApprox": "«das LÉ-zen»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "das Schwimmen", "es": "la natación, el acto de nadar", "esApprox": "«das SHVÍ-men»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Lösung", "es": "la solución", "esApprox": "«LÖ-zung»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "die Bildung", "es": "la formación, la educación", "esApprox": "«BÍL-dung»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Entwicklung", "es": "el desarrollo", "esApprox": "«ent-VÍK-lung»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Verbesserung", "es": "la mejora", "esApprox": "«fer-BÉ-se-rung»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Das Lesen macht mir Spaß, und die Bildung, die ich dadurch bekomme, ist mir sehr wichtig.", "es": "Leer me divierte, y la formación que obtengo con ello me importa mucho.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Lösung des Problems war einfach, und die Verbesserung war nach der Entwicklung sofort sichtbar.", "es": "La solución del problema fue sencilla, y la mejora fue visible enseguida tras el desarrollo.", "from": "e16" }
+  ]
+}

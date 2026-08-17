@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-211",
+  "lang": "de",
+  "level": "B1",
+  "order": 211,
+  "title": "El Plusquamperfekt: el pasado del pasado",
+  "objectives": [
+    "Formar el Plusquamperfekt con hatte/war (Präteritum de haben/sein) + participio",
+    "Usar el Plusquamperfekt para una acción anterior a otra ya pasada",
+    "Distinguir el Plusquamperfekt del Perfekt y del Präteritum, que se refieren al mismo plano temporal"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El Plusquamperfekt: cuando una cosa pasó antes que otra, ambas en el pasado",
+      "body": "El Plusquamperfekt describe una acción que ya había ocurrido antes de otro momento del pasado: es el «pasado del pasado». Se forma con hatte o war (el Präteritum de haben/sein, según el mismo auxiliar del Perfekt) + el participio: «Ich hatte schon gegessen, als du ankamst» (Ya había comido cuando llegaste). Compara los dos planos temporales: primero comí (Plusquamperfekt), después llegaste (Präteritum).",
+      "examples": [
+        { "target": "Ich hatte schon gegessen, als du ankamst.", "es": "Ya había comido cuando llegaste." },
+        { "target": "Sie war schon gegangen, bevor ich anrief.", "es": "Ella ya se había ido antes de que yo llamara." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Plusquamperfekt: hatte/war + participio",
+      "headers": ["Persona", "hatte/war", "Ejemplo con participio"],
+      "rows": [
+        ["ich", "hatte / war", "hatte gegessen / war gegangen"],
+        ["du", "hattest / warst", "hattest gegessen / warst gegangen"],
+        ["wir", "hatten / waren", "hatten gegessen / waren gegangen"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "El auxiliar (hatte o war) es siempre el mismo que usarías en el Perfekt de ese verbo (repaso de las clases 94-95): si dices «ich bin gegangen», el Plusquamperfekt es «ich war gegangen», nunca «ich hatte gegangen»."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "hatte gegessen", "es": "había comido", "ipa": "/ˈhatə ɡəˈɡɛsn̩/", "esApprox": "«JÁ-te ge-GUÉ-sen»", "pos": "verbo (Plusquamperfekt)", "gender": null, "example": { "target": "Ich hatte schon gegessen, als du ankamst.", "es": "Ya había comido cuando llegaste." } },
+    { "id": "v2", "target": "war gegangen", "es": "se había ido", "ipa": "/vaːɐ̯ ɡəˈɡaŋən/", "esApprox": "«var ge-GÁN-guen»", "pos": "verbo (Plusquamperfekt)", "gender": null, "example": { "target": "Sie war schon gegangen, bevor ich anrief.", "es": "Ella ya se había ido antes de que yo llamara." } },
+    { "id": "v3", "target": "ankommen", "es": "llegar", "ipa": "/ˈankɔmən/", "esApprox": "«ÁN-ko-men»", "pos": "verbo", "gender": null, "example": { "target": "Als du ankamst, hatte ich schon gegessen.", "es": "Cuando llegaste, yo ya había comido." } },
+    { "id": "v4", "target": "bereits", "es": "ya (formal)", "ipa": "/bəˈʁaɪ̯ts/", "esApprox": "«be-RÁITS»", "pos": "adverbio", "gender": null, "example": { "target": "Ich hatte das Buch bereits gelesen.", "es": "Ya había leído el libro (antes)." } },
+    { "id": "v5", "target": "verpassen", "es": "perder, dejar pasar", "ipa": "/fɛɐ̯ˈpasn̩/", "esApprox": "«fer-PÁ-sen»", "pos": "verbo", "gender": null, "example": { "target": "Ich hatte den Zug bereits verpasst.", "es": "Ya había perdido el tren." } },
+    { "id": "v6", "target": "der Moment", "es": "el momento", "ipa": "/moˈmɛnt/", "esApprox": "«mo-MENT»", "pos": "sustantivo", "gender": "m", "example": { "target": "In dem Moment hatte alles schon begonnen.", "es": "En ese momento todo ya había empezado." } },
+    { "id": "v7", "target": "beginnen", "es": "empezar, comenzar", "ipa": "/bəˈɡɪnən/", "esApprox": "«be-GUÍ-nen»", "pos": "verbo", "gender": null, "example": { "target": "Der Film hatte schon begonnen.", "es": "La película ya había empezado." } },
+    { "id": "v8", "target": "die Reihenfolge", "es": "el orden, la secuencia", "ipa": "/ˈʁaɪ̯ənfɔlɡə/", "esApprox": "«RÁI-en-fol-gue»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Reihenfolge der Ereignisse ist wichtig.", "es": "El orden de los sucesos es importante." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["plusquamperfekt"], "difficulty": 1, "prompt": "¿Cómo se forma el Plusquamperfekt?", "options": ["habe/bin + participio", "hatte/war + participio", "werde + infinitivo", "würde + participio"], "answer": 1, "explain": "hatte/war (Präteritum de haben/sein) + participio." },
+    { "id": "e2", "type": "mcq", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "¿Para qué se usa el Plusquamperfekt?", "options": ["Un hecho futuro", "Una acción anterior a otra ya pasada", "Un hecho presente", "Una hipótesis"], "answer": 1, "explain": "Describe el «pasado del pasado»: lo que ya había ocurrido antes de otro momento pasado." },
+    { "id": "e3", "type": "true_false", "tags": ["plusquamperfekt"], "difficulty": 2, "statement": "El auxiliar del Plusquamperfekt es siempre el mismo que en el Perfekt de ese verbo.", "answer": true, "explain": "Si el Perfekt usa sein, el Plusquamperfekt también: war gegangen, no hatte gegangen." },
+    { "id": "e4", "type": "true_false", "tags": ["plusquamperfekt"], "difficulty": 2, "statement": "«Ich hatte gegessen» y «Ich habe gegessen» significan exactamente lo mismo.", "answer": false, "explain": "hatte gegessen (Plusquamperfekt) sitúa la acción antes de otro punto pasado; habe gegessen (Perfekt) es simplemente pasado." },
+    { "id": "e5", "type": "match_pairs", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "Une cada verbo con su Plusquamperfekt (ich)", "left": ["essen", "gehen", "verpassen", "beginnen"], "right": ["hatte gegessen", "war gegangen", "hatte verpasst", "hatte begonnen"], "answer": [0, 1, 2, 3], "explain": "Auxiliar según cada verbo (haben o sein) + participio." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "Ya había comido cuando llegaste.", "accept": ["Ich hatte schon gegessen, als du ankamst"], "hintWords": ["ich hatte schon gegessen als du ankamst"], "strictAccents": false, "audio": "Ich hatte schon gegessen, als du ankamst.", "explain": "hatte + schon + gegessen (final) + als (subordinada)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "Ella ya se había ido antes de que yo llamara.", "accept": ["Sie war schon gegangen, bevor ich anrief"], "hintWords": ["sie war schon gegangen bevor ich anrief"], "strictAccents": false, "audio": "Sie war schon gegangen, bevor ich anrief.", "explain": "war + schon + gegangen (final) + bevor (subordinada)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "Ya había perdido el tren.", "accept": ["Ich hatte den Zug bereits verpasst"], "hintWords": ["ich hatte den Zug bereits verpasst"], "strictAccents": false, "audio": "Ich hatte den Zug bereits verpasst.", "explain": "hatte + den Zug + bereits + verpasst (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "Completa con hatte o war", "text": "Ich ___ schon gegessen. Sie ___ schon gegangen.", "blanks": [{ "accept": ["hatte"] }, { "accept": ["war"] }], "bank": ["hatte", "war", "habe"], "explain": "gegessen usa haben; gegangen usa sein." },
+    { "id": "e10", "type": "word_order", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "Ordena: «La película ya había empezado»", "tokens": ["schon begonnen", "Der Film hatte"], "answer": ["Der Film hatte", "schon begonnen"], "audio": "Der Film hatte schon begonnen.", "explain": "Der Film hatte (posición normal) + schon + begonnen (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "In dem Moment hatte alles schon begonnen.", "accept": ["En ese momento todo ya había empezado."], "strictAccents": false, "audio": "In dem Moment hatte alles schon begonnen.", "explain": "hatte...begonnen: Plusquamperfekt de beginnen." },
+    { "id": "e12", "type": "dialogue", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Warum warst du nicht beim Essen?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich hatte schon gegessen."], "hint": "explica con el Plusquamperfekt" },
+      { "who": "Lea", "text": "Ah, verstehe!", "speak": true }
+    ], "explain": "hatte schon gegessen: explicar algo anterior a otro momento pasado." },
+    { "id": "e13", "type": "listening", "tags": ["plusquamperfekt"], "difficulty": 1, "speak": "Ich hatte schon gegessen, als du ankamst.", "mode": "write", "accept": ["Ich hatte schon gegessen, als du ankamst"], "showTextAfter": true, "explain": "hatte + gegessen + als." },
+    { "id": "e14", "type": "listening", "tags": ["plusquamperfekt"], "difficulty": 2, "speak": "Sie war schon gegangen, bevor ich anrief.", "mode": "choose", "options": ["Sie war schon gegangen, bevor ich anrief.", "Sie hatte schon gegangen, bevor ich anrief.", "Sie ist schon gegangen, bevor ich anrief."], "answer": 0, "showTextAfter": true, "explain": "gehen usa sein: war gegangen, no hatte ni ist." },
+    { "id": "e15", "type": "shadowing", "tags": ["plusquamperfekt"], "difficulty": 2, "speak": "Ich hatte den Zug bereits verpasst, als ich am Bahnhof ankam, und der nächste Zug hatte auch schon Verspätung.", "es": "Ya había perdido el tren cuando llegué a la estación, y el próximo tren también ya llevaba retraso.", "ipa": "/ɪç ˈhatə deːn tsuːk bəˈʁaɪ̯ts fɛɐ̯ˈpast als ɪç am ˈbaːnhoːf ˈankaːm ʊnt deːɐ̯ ˈneːçstə tsuːk ˈhatə aʊ̯x ʃoːn fɛɐ̯ˈʃpɛːtʊŋ/", "esApprox": "«ich JÁ-te den tsuk be-RÁITS fer-PAST, als ich am BÁN-jof ÁN-kam, unt der NÉCH-ste tsuk JÁ-te aoj shon fer-SHPÉ-tung»", "focus": "hatte...verpasst y hatte...Verspätung: dos Plusquamperfekt encadenados sobre un contratiempo.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["plusquamperfekt"], "difficulty": 2, "speak": "Der Film hatte schon begonnen, als wir ankamen, weil wir die Reihenfolge der Termine verwechselt hatten.", "es": "La película ya había empezado cuando llegamos, porque habíamos confundido el orden de las citas.", "ipa": "/deːɐ̯ fɪlm ˈhatə ʃoːn bəˈɡɔnən als viːɐ̯ ˈankaːmən vaɪ̯l viːɐ̯ diː ˈʁaɪ̯ənfɔlɡə deːɐ̯ tɛʁˈmiːnə fɛɐ̯ˈvɛksl̩t ˈhatn̩/", "esApprox": "«der film JÁ-te shon be-GÓ-nen, als vir ÁN-ka-men, vail vir di RÁI-en-fol-gue der ter-MÍ-ne fer-VÉK-selt JÁ-ten»", "focus": "hatte begonnen y hatten verwechselt: dos Plusquamperfekt en una explicación causal completa.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "Te preguntan por qué no estabas cuando llegaron a comer. Explica que ya habías comido.", "modelAnswer": "Ich hatte schon gegessen.", "alsoValid": ["Ich hatte schon gegessen, als ihr ankamt."], "speak": "Ich hatte schon gegessen.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "Clasifica cada verbo según su auxiliar en Plusquamperfekt", "buckets": ["hatte + participio", "war + participio"], "items": [
+      { "text": "essen", "bucket": 0 },
+      { "text": "gehen", "bucket": 1 },
+      { "text": "verpassen", "bucket": 0 },
+      { "text": "ankommen", "bucket": 1 }
+    ], "explain": "El auxiliar coincide con el que usa cada verbo en el Perfekt." },
+    { "id": "e19", "type": "error_correction", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Sie hatte schon gegangen, bevor ich anrief.", "accept": ["Sie war schon gegangen, bevor ich anrief"], "audio": "Sie war schon gegangen, bevor ich anrief.", "explain": "gehen usa sein: war gegangen, no hatte gegangen." },
+    { "id": "e20", "type": "mcq", "tags": ["plusquamperfekt"], "difficulty": 2, "prompt": "«Ich hatte den Zug bereits verpasst, als ich am Bahnhof ankam. Der Film hatte auch schon begonnen, weil wir die Reihenfolge verwechselt hatten.» ¿Qué pasó primero: llegar a la estación o perder el tren?", "options": ["Llegar a la estación", "Perder el tren", "Pasaron a la vez", "No se sabe"], "answer": 1, "explain": "«Ich hatte den Zug bereits verpasst, als ich am Bahnhof ankam» indica que perder el tren (Plusquamperfekt) ocurrió antes de llegar (Präteritum)." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "hatte gegessen", "es": "había comido", "esApprox": "«JÁ-te ge-GUÉ-sen»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "war gegangen", "es": "se había ido", "esApprox": "«var ge-GÁN-guen»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "ankommen", "es": "llegar", "esApprox": "«ÁN-ko-men»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "bereits", "es": "ya (formal)", "esApprox": "«be-RÁITS»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "verpassen", "es": "perder, dejar pasar", "esApprox": "«fer-PÁ-sen»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "beginnen", "es": "empezar, comenzar", "esApprox": "«be-GUÍ-nen»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich hatte den Zug bereits verpasst, als ich am Bahnhof ankam, und der nächste Zug hatte auch schon Verspätung.", "es": "Ya había perdido el tren cuando llegué a la estación, y el próximo tren también ya llevaba retraso.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Der Film hatte schon begonnen, als wir ankamen, weil wir die Reihenfolge der Termine verwechselt hatten.", "es": "La película ya había empezado cuando llegamos, porque habíamos confundido el orden de las citas.", "from": "e16" }
+  ]
+}
