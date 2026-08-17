@@ -93,7 +93,9 @@ export function esInput({ placeholder = '', onInput, ariaLabel } = {}) {
     placeholder,
     lang: 'es',
     autocapitalize: 'off',
+    autocorrect: 'off',
     autocomplete: 'off',
+    spellcheck: 'false',
     'aria-label': ariaLabel || null,
     onInput: (ev) => onInput && onInput(ev.target.value),
   });
