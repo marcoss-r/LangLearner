@@ -12,10 +12,15 @@ decisiones de producto.
 
 ## Estado actual
 
-Esta es la **Fase 0**: el esqueleto de la app y la capa PWA (shell, router,
-Service Worker, sistema de diseño). Todavía no hay contenido de clases ni
-lógica de ejercicios: las pantallas son placeholders. Ver `PLAN.md` §10 para
-el resto de fases.
+Las **Fases 0 a 5** están completas: el esqueleto de la app y la capa PWA,
+el núcleo de datos y servicios, el motor de ejercicios, las pantallas, y el
+currículo y contenido completo de los dos idiomas — **francés y alemán,
+250 clases cada uno (A1, A2 y B1)** — en `data/fr/` y `data/de/`, validados
+contra `docs/SPEC-DATOS.md` con `node tools/validate.mjs`.
+
+Queda pendiente la **Fase 6** (pruebas de nivel: 6 ficheros de examen, uno
+por idioma y nivel, en `data/<lang>/exams/`) y la **Fase 7** (pulido, QA
+lingüística y despliegue). Ver `PLAN.md` §10 para el detalle de cada fase.
 
 ## Cómo probar en local
 
