@@ -1,0 +1,88 @@
+{
+  "id": "de-b1-233",
+  "lang": "de",
+  "level": "B1",
+  "order": 233,
+  "title": "Expresiones idiomáticas frecuentes y el registro coloquial frente al formal",
+  "objectives": [
+    "Reconocer y usar expresiones idiomáticas frecuentes: die Daumen drücken, ins Wasser fallen, Schwein haben",
+    "Distinguir el registro coloquial del formal al elegir una expresión",
+    "Evitar usar expresiones coloquiales en contextos formales, y viceversa"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Expresiones idiomáticas: el toque final de la fluidez",
+      "body": "Las expresiones idiomáticas dan naturalidad, pero su registro importa: «die Daumen drücken» (cruzar los dedos, desear suerte) funciona en cualquier contexto; «Schwein haben» (tener suerte, literalmente «tener cerdo») es muy coloquial, apropiado entre amigos, pero no en una carta formal. «Ins Wasser fallen» (irse al garete, cancelarse un plan) es neutra y muy frecuente.",
+      "examples": [
+        { "target": "Ich drücke dir die Daumen für die Prüfung.", "es": "Te deseo suerte para el examen." },
+        { "target": "Unser Plan ist ins Wasser gefallen.", "es": "Nuestro plan se fue al garete." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Expresiones idiomáticas y su registro",
+      "headers": ["Expresión", "Significado", "Registro"],
+      "rows": [
+        ["die Daumen drücken", "desear suerte", "neutro"],
+        ["ins Wasser fallen", "cancelarse, irse al garete", "neutro"],
+        ["Schwein haben", "tener mucha suerte", "coloquial"],
+        ["auf dem Holzweg sein", "estar equivocado", "neutro/algo formal"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "Antes de usar una expresión idiomática nueva, fíjate en cómo la usan los hablantes nativos y en qué contexto: una expresión perfecta entre amigos puede sonar fuera de lugar en un correo de trabajo."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Daumen drücken", "es": "cruzar los dedos, desear suerte", "ipa": "/diː ˈdaʊ̯mən ˈdʁʏkn̩/", "esApprox": "«di DAU-men DRÜ-ken»", "pos": "expresión idiomática", "gender": null, "example": { "target": "Ich drücke dir die Daumen für die Prüfung.", "es": "Te deseo suerte para el examen." } },
+    { "id": "v2", "target": "ins Wasser fallen", "es": "cancelarse, irse al garete", "ipa": "/ɪns ˈvasɐ ˈfalən/", "esApprox": "«ins VÁ-ser FÁ-len»", "pos": "expresión idiomática", "gender": null, "example": { "target": "Unser Plan ist ins Wasser gefallen.", "es": "Nuestro plan se fue al garete." } },
+    { "id": "v3", "target": "Schwein haben", "es": "tener mucha suerte (coloquial)", "ipa": "/ʃvaɪ̯n ˈhaːbn̩/", "esApprox": "«shvain JÁ-ben»", "pos": "expresión idiomática (coloquial)", "gender": null, "example": { "target": "Du hast echt Schwein gehabt!", "es": "¡Has tenido mucha suerte de verdad!" } },
+    { "id": "v4", "target": "auf dem Holzweg sein", "es": "estar equivocado, ir por mal camino", "ipa": "/aʊ̯f deːm ˈhɔltsveːk zaɪ̯n/", "esApprox": "«auf dem JOLTS-vek zain»", "pos": "expresión idiomática", "gender": null, "example": { "target": "Da bist du auf dem Holzweg.", "es": "Ahí estás equivocado." } },
+    { "id": "v5", "target": "der Ausdruck", "es": "la expresión", "ipa": "/ˈaʊ̯sdʁʊk/", "esApprox": "«ÁUS-druk»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist ein umgangssprachlicher Ausdruck.", "es": "Esa es una expresión coloquial." } },
+    { "id": "v6", "target": "umgangssprachlich", "es": "coloquial", "ipa": "/ʊmˈɡaŋsʃpʁaːxlɪç/", "esApprox": "«um-GANGS-shpraj-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "Das klingt sehr umgangssprachlich.", "es": "Eso suena muy coloquial." } },
+    { "id": "v7", "target": "förmlich", "es": "formal", "ipa": "/ˈfœʁmlɪç/", "esApprox": "«FÖRM-lich»", "pos": "adjetivo", "gender": null, "example": { "target": "In einem Brief schreibt man förmlich.", "es": "En una carta se escribe de forma formal." } },
+    { "id": "v8", "target": "angemessen", "es": "apropiado, adecuado", "ipa": "/ˈangəmɛsn̩/", "esApprox": "«ÁN-ge-me-sen»", "pos": "adjetivo", "gender": null, "example": { "target": "Das ist hier nicht angemessen.", "es": "Eso no es apropiado aquí." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 1, "prompt": "¿Qué significa «die Daumen drücken»?", "options": ["Estar equivocado", "Desear suerte", "Cancelarse un plan", "Tener suerte"], "answer": 1, "explain": "die Daumen drücken = desear suerte, cruzar los dedos." },
+    { "id": "e2", "type": "mcq", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "¿Qué expresión es la más coloquial?", "options": ["die Daumen drücken", "ins Wasser fallen", "Schwein haben", "auf dem Holzweg sein"], "answer": 2, "explain": "Schwein haben es una expresión claramente coloquial." },
+    { "id": "e3", "type": "true_false", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "statement": "«ins Wasser fallen» significa que un plan se cancela.", "answer": true, "explain": "ins Wasser fallen = cancelarse, irse al garete." },
+    { "id": "e4", "type": "true_false", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "statement": "Se debe usar «Schwein haben» en una carta formal de trabajo.", "answer": false, "explain": "Schwein haben es coloquial y no es apropiado en un registro formal." },
+    { "id": "e5", "type": "match_pairs", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Une cada expresión con su significado", "left": ["die Daumen drücken", "ins Wasser fallen", "Schwein haben", "auf dem Holzweg sein"], "right": ["desear suerte", "cancelarse", "tener mucha suerte", "estar equivocado"], "answer": [0, 1, 2, 3], "explain": "Cuatro expresiones idiomáticas frecuentes de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Te deseo suerte para el examen.", "accept": ["Ich drücke dir die Daumen für die Prüfung"], "hintWords": ["ich drücke dir die Daumen für die Prüfung"], "strictAccents": false, "audio": "Ich drücke dir die Daumen für die Prüfung.", "explain": "drücke + dir + die Daumen + für die Prüfung." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Nuestro plan se fue al garete.", "accept": ["Unser Plan ist ins Wasser gefallen"], "hintWords": ["unser Plan ist ins Wasser gefallen"], "strictAccents": false, "audio": "Unser Plan ist ins Wasser gefallen.", "explain": "Unser Plan (sujeto) + ist (posición 2) + ins Wasser + gefallen (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Ahí estás equivocado.", "accept": ["Da bist du auf dem Holzweg"], "hintWords": ["da bist du auf dem Holzweg"], "strictAccents": false, "audio": "Da bist du auf dem Holzweg.", "explain": "Da (posición 1) + bist (posición 2) + du + auf dem Holzweg." },
+    { "id": "e9", "type": "fill_blank", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Das ist ein ___ Ausdruck. In einem Brief schreibt man ___.", "blanks": [{ "accept": ["umgangssprachlicher"] }, { "accept": ["förmlich"] }], "bank": ["umgangssprachlicher", "förmlich", "angemessen"], "explain": "umgangssprachlich (coloquial) y förmlich (formal)." },
+    { "id": "e10", "type": "word_order", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Ordena: «¡Has tenido mucha suerte de verdad!»", "tokens": ["echt Schwein gehabt!", "Du hast"], "answer": ["Du hast", "echt Schwein gehabt!"], "audio": "Du hast echt Schwein gehabt!", "explain": "Du hast (posición normal) + echt + Schwein + gehabt (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Das ist hier nicht angemessen.", "accept": ["Eso no es apropiado aquí."], "strictAccents": false, "audio": "Das ist hier nicht angemessen.", "explain": "angemessen = apropiado, adecuado." },
+    { "id": "e12", "type": "dialogue", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Ich habe morgen meine Prüfung.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich drücke dir die Daumen!"], "hint": "desea suerte con una expresión idiomática" },
+      { "who": "Lea", "text": "Danke, das brauche ich!", "speak": true }
+    ], "explain": "die Daumen drücken: expresión muy frecuente para desear suerte." },
+    { "id": "e13", "type": "listening", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 1, "speak": "Ich drücke dir die Daumen für die Prüfung.", "mode": "write", "accept": ["Ich drücke dir die Daumen für die Prüfung"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "speak": "Unser Plan ist ins Wasser gefallen.", "mode": "choose", "options": ["Unser Plan ist ins Wasser gefallen.", "Unser Plan hat Schwein gehabt.", "Unser Plan ist auf dem Holzweg."], "answer": 0, "showTextAfter": true, "explain": "ins Wasser fallen se aplica a planes que se cancelan." },
+    { "id": "e15", "type": "shadowing", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "speak": "Ich drücke dir die Daumen für die Prüfung, aber wenn unser Plan ins Wasser fällt, machen wir es einfach ein andermal.", "es": "Te deseo suerte para el examen, pero si nuestro plan se va al garete, simplemente lo hacemos otro día.", "ipa": "/ɪç ˈdʁʏkə diːɐ̯ diː ˈdaʊ̯mən fyːɐ̯ diː ˈpʁyːfʊŋ ˈaːbɐ vɛn ˈʊnzɐ plaːn ɪns ˈvasɐ fɛlt ˈmaxn̩ viːɐ̯ ɛs ˈaɪ̯nfax aɪ̯n ˈandɐmaːl/", "esApprox": "«ich DRÜ-ke dir di DAU-men fiur di PRIÚ-fung, Á-ber ven ÚN-zer plan ins VÁ-ser felt, MAJ-en vir es ÁIN-fach ain ÁN-der-mal»", "focus": "die Daumen drücken e ins Wasser fallen: dos expresiones idiomáticas de registro neutro combinadas.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "speak": "Du hast echt Schwein gehabt, aber wenn du glaubst, das war einfach, bist du auf dem Holzweg.", "es": "Has tenido mucha suerte de verdad, pero si crees que fue fácil, estás equivocado.", "ipa": "/duː hast ɛçt ʃvaɪ̯n ɡəˈhaːpt ˈaːbɐ vɛn duː ˈɡlaʊ̯pst das vaːɐ̯ ˈaɪ̯nfax bɪst duː aʊ̯f deːm ˈhɔltsveːk/", "esApprox": "«du jast echt shvain ge-JAPT, Á-ber ven du GLÁUPST das var ÁIN-fach, bist du auf dem JOLTS-vek»", "focus": "Schwein haben (coloquial) y auf dem Holzweg sein: dos expresiones combinadas, una informal y otra más neutra.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Un amigo tiene un examen mañana. Deséale suerte con una expresión idiomática.", "modelAnswer": "Ich drücke dir die Daumen!", "alsoValid": ["Viel Glück, ich drücke dir die Daumen!"], "speak": "Ich drücke dir die Daumen!", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Clasifica cada expresión según su registro", "buckets": ["Neutro (cualquier contexto)", "Coloquial (solo entre amigos)"], "items": [
+      { "text": "die Daumen drücken", "bucket": 0 },
+      { "text": "ins Wasser fallen", "bucket": 0 },
+      { "text": "Schwein haben", "bucket": 1 }
+    ], "explain": "die Daumen drücken e ins Wasser fallen son neutras; Schwein haben es claramente coloquial." },
+    { "id": "e19", "type": "error_correction", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "Hay un error de registro. Sugiere una alternativa más formal para una carta de trabajo.", "wrong": "Sehr geehrte Damen und Herren, wir hatten echt Schwein mit dem Projekt.", "accept": ["Sehr geehrte Damen und Herren, wir hatten großes Glück mit dem Projekt"], "explain": "Schwein haben es demasiado coloquial para una carta formal; se sustituye por großes Glück haben." },
+    { "id": "e20", "type": "mcq", "tags": ["expresiones-idiomaticas", "registro"], "difficulty": 2, "prompt": "«Du hast echt Schwein gehabt, aber wenn du glaubst, das war einfach, bist du auf dem Holzweg.» ¿Qué le dice la persona a su amigo?", "options": ["Que no tuvo suerte", "Que tuvo suerte, pero que se equivoca si cree que fue fácil", "Que todo fue fácil", "Que no le cree nada"], "answer": 1, "explain": "«Du hast echt Schwein gehabt» + «bist du auf dem Holzweg» combinan ambas ideas." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "die Daumen drücken", "es": "cruzar los dedos, desear suerte", "esApprox": "«di DAU-men DRÜ-ken»", "from": "v1" },
+    { "id": "s2", "kind": "phrase", "target": "ins Wasser fallen", "es": "cancelarse, irse al garete", "esApprox": "«ins VÁ-ser FÁ-len»", "from": "v2" },
+    { "id": "s3", "kind": "phrase", "target": "Schwein haben", "es": "tener mucha suerte (coloquial)", "esApprox": "«shvain JÁ-ben»", "from": "v3" },
+    { "id": "s4", "kind": "phrase", "target": "auf dem Holzweg sein", "es": "estar equivocado, ir por mal camino", "esApprox": "«auf dem JOLTS-vek zain»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "umgangssprachlich", "es": "coloquial", "esApprox": "«um-GANGS-shpraj-lich»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "förmlich", "es": "formal", "esApprox": "«FÖRM-lich»", "from": "v7" },
+    { "id": "s7", "kind": "phrase", "target": "Ich drücke dir die Daumen für die Prüfung, aber wenn unser Plan ins Wasser fällt, machen wir es einfach ein andermal.", "es": "Te deseo suerte para el examen, pero si nuestro plan se va al garete, simplemente lo hacemos otro día.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Du hast echt Schwein gehabt, aber wenn du glaubst, das war einfach, bist du auf dem Holzweg.", "es": "Has tenido mucha suerte de verdad, pero si crees que fue fácil, estás equivocado.", "from": "e16" }
+  ]
+}

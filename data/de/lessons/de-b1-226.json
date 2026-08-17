@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-226",
+  "lang": "de",
+  "level": "B1",
+  "order": 226,
+  "title": "La tecnología e internet",
+  "objectives": [
+    "Aprender vocabulario tecnológico avanzado: die künstliche Intelligenz, der Datenschutz, die Cloud",
+    "Hablar de subir y descargar archivos, y de las actualizaciones de software",
+    "Discutir sobre privacidad y seguridad digital con vocabulario preciso"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Vocabulario tecnológico para el B1",
+      "body": "Más allá del vocabulario básico de tecnología (clase 141), el B1 añade términos para debatir sobre el mundo digital: «die künstliche Intelligenz» (la inteligencia artificial), «der Datenschutz» (la protección de datos) y «die Cloud» (la nube). hochladen (subir) y herunterladen (descargar) son verbos separables muy frecuentes.",
+      "examples": [
+        { "target": "Ich lade die Datei in die Cloud hoch.", "es": "Subo el archivo a la nube." },
+        { "target": "Der Datenschutz ist mir sehr wichtig.", "es": "La protección de datos me importa mucho." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario tecnológico clave",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["die künstliche Intelligenz", "la inteligencia artificial"],
+        ["der Datenschutz", "la protección de datos"],
+        ["die Cloud", "la nube"],
+        ["hochladen", "subir (un archivo)"],
+        ["herunterladen", "descargar"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "der Hackerangriff (el ataque de hackers) y streamen (transmitir/ver en directo) son dos palabras muy frecuentes en las noticias tecnológicas: «Die Firma wurde Opfer eines Hackerangriffs» (La empresa fue víctima de un ataque de hackers)."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die künstliche Intelligenz", "es": "la inteligencia artificial", "ipa": "/diː ˈkʏnstlɪçə ɪntɛlɪˈɡɛnts/", "esApprox": "«di KÜNST-li-che in-te-li-GUENTS»", "pos": "sustantivo", "gender": "f", "example": { "target": "Künstliche Intelligenz verändert vieles.", "es": "La inteligencia artificial cambia muchas cosas." } },
+    { "id": "v2", "target": "der Datenschutz", "es": "la protección de datos", "ipa": "/ˈdaːtn̩ʃʊts/", "esApprox": "«DÁ-ten-shuts»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Datenschutz ist mir sehr wichtig.", "es": "La protección de datos me importa mucho." } },
+    { "id": "v3", "target": "die Cloud", "es": "la nube (almacenamiento)", "ipa": "/klaʊ̯t/", "esApprox": "«klaut»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich lade die Datei in die Cloud hoch.", "es": "Subo el archivo a la nube." } },
+    { "id": "v4", "target": "hochladen", "es": "subir (un archivo)", "ipa": "/ˈhoːxlaːdn̩/", "esApprox": "«JOCH-la-den»", "pos": "verbo separable", "gender": null, "example": { "target": "Ich lade das Foto hoch.", "es": "Subo la foto." } },
+    { "id": "v5", "target": "herunterladen", "es": "descargar", "ipa": "/hɛˈʁʊntɐlaːdn̩/", "esApprox": "«je-RÚN-ter-la-den»", "pos": "verbo separable", "gender": null, "example": { "target": "Ich lade die App herunter.", "es": "Descargo la aplicación." } },
+    { "id": "v6", "target": "der Hackerangriff", "es": "el ataque de hackers", "ipa": "/ˈhɛkɐˌangʁɪf/", "esApprox": "«JÉ-ker-an-grif»", "pos": "sustantivo", "gender": "m", "example": { "target": "Die Firma wurde Opfer eines Hackerangriffs.", "es": "La empresa fue víctima de un ataque de hackers." } },
+    { "id": "v7", "target": "streamen", "es": "transmitir/ver en directo (streaming)", "ipa": "/ˈstʁiːmən/", "esApprox": "«STRÍ-men»", "pos": "verbo", "gender": null, "example": { "target": "Ich streame Filme und Serien.", "es": "Veo películas y series en streaming." } },
+    { "id": "v8", "target": "das Update", "es": "la actualización", "ipa": "/ˈʌpdeːt/", "esApprox": "«AP-det»", "pos": "sustantivo", "gender": "n", "example": { "target": "Ich muss ein Update installieren.", "es": "Tengo que instalar una actualización." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["tecnologia", "internet"], "difficulty": 1, "prompt": "¿Cómo se dice «subir un archivo»?", "options": ["herunterladen", "hochladen", "streamen", "installieren"], "answer": 1, "explain": "hochladen = subir (un archivo)." },
+    { "id": "e2", "type": "mcq", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "¿Cómo se dice «descargar»?", "options": ["hochladen", "herunterladen", "streamen", "hacken"], "answer": 1, "explain": "herunterladen = descargar." },
+    { "id": "e3", "type": "true_false", "tags": ["tecnologia", "internet"], "difficulty": 2, "statement": "der Datenschutz se refiere a proteger la información personal.", "answer": true, "explain": "der Datenschutz = la protección de datos." },
+    { "id": "e4", "type": "true_false", "tags": ["tecnologia", "internet"], "difficulty": 2, "statement": "die Cloud es un tipo de virus informático.", "answer": false, "explain": "die Cloud es el almacenamiento en la nube, no un virus." },
+    { "id": "e5", "type": "match_pairs", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die künstliche Intelligenz", "der Datenschutz", "der Hackerangriff", "das Update"], "right": ["la inteligencia artificial", "la protección de datos", "el ataque de hackers", "la actualización"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "Subo el archivo a la nube.", "accept": ["Ich lade die Datei in die Cloud hoch"], "hintWords": ["ich lade die Datei in die Cloud hoch"], "strictAccents": false, "audio": "Ich lade die Datei in die Cloud hoch.", "explain": "lade + die Datei + in die Cloud + hoch (final, verbo separable)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "La protección de datos me importa mucho.", "accept": ["Der Datenschutz ist mir sehr wichtig"], "hintWords": ["der Datenschutz ist mir sehr wichtig"], "strictAccents": false, "audio": "Der Datenschutz ist mir sehr wichtig.", "explain": "Der Datenschutz (sujeto) + ist (posición 2) + mir + sehr wichtig." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "Tengo que instalar una actualización.", "accept": ["Ich muss ein Update installieren"], "hintWords": ["ich muss ein Update installieren"], "strictAccents": false, "audio": "Ich muss ein Update installieren.", "explain": "muss + ein Update + installieren (final)." },
+    { "id": "e9", "type": "fill_blank", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Ich lade die App ___. Die Firma wurde Opfer eines ___.", "blanks": [{ "accept": ["herunter"] }, { "accept": ["Hackerangriffs"] }], "bank": ["herunter", "Hackerangriffs", "hoch"], "explain": "lade...herunter (herunterladen) y der Hackerangriff." },
+    { "id": "e10", "type": "word_order", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "Ordena: «La inteligencia artificial cambia muchas cosas»", "tokens": ["verändert vieles", "Künstliche Intelligenz"], "answer": ["Künstliche Intelligenz", "verändert vieles"], "audio": "Künstliche Intelligenz verändert vieles.", "explain": "Künstliche Intelligenz (sujeto) + verändert (posición 2) + vieles." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "Ich streame Filme und Serien.", "accept": ["Veo películas y series en streaming."], "strictAccents": false, "audio": "Ich streame Filme und Serien.", "explain": "streamen = ver en streaming." },
+    { "id": "e12", "type": "dialogue", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Wie speicherst du deine Fotos?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Ich lade sie in die Cloud hoch."], "hint": "responde con hochladen y die Cloud" },
+      { "who": "Lea", "text": "Gute Idee!", "speak": true }
+    ], "explain": "hochladen + die Cloud: pregunta y respuesta típica sobre almacenamiento digital." },
+    { "id": "e13", "type": "listening", "tags": ["tecnologia", "internet"], "difficulty": 1, "speak": "Ich lade die Datei in die Cloud hoch.", "mode": "write", "accept": ["Ich lade die Datei in die Cloud hoch"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["tecnologia", "internet"], "difficulty": 2, "speak": "Die Firma wurde Opfer eines Hackerangriffs.", "mode": "choose", "options": ["Die Firma wurde Opfer eines Hackerangriffs.", "Die Firma wurde Opfer eines Updates.", "Die Firma wurde Opfer der Cloud."], "answer": 0, "showTextAfter": true, "explain": "der Hackerangriff es lo que causa víctimas, no das Update ni die Cloud." },
+    { "id": "e15", "type": "shadowing", "tags": ["tecnologia", "internet"], "difficulty": 2, "speak": "Künstliche Intelligenz verändert vieles, aber der Datenschutz bleibt für mich sehr wichtig.", "es": "La inteligencia artificial cambia muchas cosas, pero la protección de datos sigue siendo muy importante para mí.", "ipa": "/ˈkʏnstlɪçə ɪntɛlɪˈɡɛnts fɛɐ̯ˈʔɛndɐt ˈfiːləs ˈaːbɐ deːɐ̯ ˈdaːtn̩ʃʊts blaɪ̯pt fyːɐ̯ mɪç zeːɐ̯ ˈvɪçtɪç/", "esApprox": "«KÜNST-li-che in-te-li-GUENTS fer-ÉN-dert FÍ-les, Á-ber der DÁ-ten-shuts blaipt fiur mich zer VICH-tich»", "focus": "künstliche Intelligenz y Datenschutz: dos temas centrales del debate tecnológico actual.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["tecnologia", "internet"], "difficulty": 2, "speak": "Ich streame gern Filme, aber ich lade auch manchmal Fotos in die Cloud hoch, wenn mein Speicher voll ist.", "es": "Me gusta ver películas en streaming, pero también a veces subo fotos a la nube cuando mi almacenamiento está lleno.", "ipa": "/ɪç ˈstʁiːmə ɡɛʁn fɪlmə ˈaːbɐ ɪç ˈlaːdə aʊ̯x ˈmançmaːl ˈfoːtoːs ɪn diː klaʊ̯t hoːx vɛn maɪ̯n ˈʃpaɪ̯çɐ fɔl ɪst/", "esApprox": "«ich STRÍ-me guern FIL-me, Á-ber ich LÁ-de aoj MÁNCH-mal FÓ-tos in di klaut joj, ven main SHPÁI-cher fol ist»", "focus": "streame y lade...hoch: dos hábitos digitales cotidianos combinados en una frase.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "Te preguntan cómo guardas tus fotos. Di que las subes a la nube.", "modelAnswer": "Ich lade sie in die Cloud hoch.", "alsoValid": ["Ich speichere sie in der Cloud."], "speak": "Ich lade sie in die Cloud hoch.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "Clasifica cada palabra según si es positivo o un riesgo", "buckets": ["Uso cotidiano", "Riesgo/amenaza"], "items": [
+      { "text": "hochladen", "bucket": 0 },
+      { "text": "streamen", "bucket": 0 },
+      { "text": "der Hackerangriff", "bucket": 1 },
+      { "text": "der Datenschutz", "bucket": 0 }
+    ], "explain": "Repaso general del vocabulario tecnológico, distinguiendo usos cotidianos de riesgos." },
+    { "id": "e19", "type": "error_correction", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich lade die App hoch, um sie auf meinem Handy zu benutzen.", "accept": ["Ich lade die App herunter, um sie auf meinem Handy zu benutzen"], "audio": "Ich lade die App herunter, um sie auf meinem Handy zu benutzen.", "explain": "Para instalar una app en el móvil se usa herunterladen (descargar), no hochladen (subir)." },
+    { "id": "e20", "type": "mcq", "tags": ["tecnologia", "internet"], "difficulty": 2, "prompt": "«Künstliche Intelligenz verändert vieles, aber der Datenschutz bleibt für mich sehr wichtig. Ich streame gern Filme, aber ich lade auch manchmal Fotos in die Cloud hoch.» ¿Qué le preocupa a la persona a pesar de los avances tecnológicos?", "options": ["El precio del streaming", "La protección de datos", "La velocidad de internet", "El tamaño de las fotos"], "answer": 1, "explain": "«der Datenschutz bleibt für mich sehr wichtig» indica esa preocupación." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "phrase", "target": "die künstliche Intelligenz", "es": "la inteligencia artificial", "esApprox": "«di KÜNST-li-che in-te-li-GUENTS»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "der Datenschutz", "es": "la protección de datos", "esApprox": "«DÁ-ten-shuts»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Cloud", "es": "la nube (almacenamiento)", "esApprox": "«klaut»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "hochladen", "es": "subir (un archivo)", "esApprox": "«JOCH-la-den»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "herunterladen", "es": "descargar", "esApprox": "«je-RÚN-ter-la-den»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "der Hackerangriff", "es": "el ataque de hackers", "esApprox": "«JÉ-ker-an-grif»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Künstliche Intelligenz verändert vieles, aber der Datenschutz bleibt für mich sehr wichtig.", "es": "La inteligencia artificial cambia muchas cosas, pero la protección de datos sigue siendo muy importante para mí.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Ich streame gern Filme, aber ich lade auch manchmal Fotos in die Cloud hoch, wenn mein Speicher voll ist.", "es": "Me gusta ver películas en streaming, pero también a veces subo fotos a la nube cuando mi almacenamiento está lleno.", "from": "e16" }
+  ]
+}

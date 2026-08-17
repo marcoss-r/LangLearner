@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-227",
+  "lang": "de",
+  "level": "B1",
+  "order": 227,
+  "title": "Los medios de comunicación y las noticias",
+  "objectives": [
+    "Aprender vocabulario sobre medios de comunicación: die Schlagzeile, die Berichterstattung, die Pressefreiheit",
+    "Distinguir objektiv de subjektiv al hablar de una noticia",
+    "Hablar de la desinformación con die Falschmeldung y das Fake-News"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "El vocabulario de los medios de comunicación",
+      "body": "«Die Schlagzeile» (el titular) es lo primero que se lee de una noticia; «die Berichterstattung» (la cobertura informativa) describe cómo un medio trata un tema. «Die Pressefreiheit» (la libertad de prensa) es un valor fundamental, y hoy en día es importante saber distinguir una noticia «objektiv» (objetiva) de una «subjektiv» (subjetiva), y reconocer «eine Falschmeldung» (una noticia falsa).",
+      "examples": [
+        { "target": "Die Schlagzeile war sehr auffällig.", "es": "El titular era muy llamativo." },
+        { "target": "Man muss zwischen echten Nachrichten und Falschmeldungen unterscheiden.", "es": "Hay que distinguir entre noticias reales y noticias falsas." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario clave de los medios",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["die Schlagzeile", "el titular"],
+        ["die Berichterstattung", "la cobertura informativa"],
+        ["die Pressefreiheit", "la libertad de prensa"],
+        ["objektiv / subjektiv", "objetivo / subjetivo"],
+        ["die Falschmeldung", "la noticia falsa"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "der Journalist / die Journalistin (el/la periodista) y der Kommentar (el comentario, la opinión) son dos palabras clave para diferenciar entre una noticia y una opinión sobre esa noticia."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "die Schlagzeile", "es": "el titular", "ipa": "/ˈʃlaːktsaɪ̯lə/", "esApprox": "«SHLÁK-tsai-le»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Schlagzeile war sehr auffällig.", "es": "El titular era muy llamativo." } },
+    { "id": "v2", "target": "die Berichterstattung", "es": "la cobertura informativa", "ipa": "/bəˈʁɪçtɐʃtatʊŋ/", "esApprox": "«be-RICHT-er-shta-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Berichterstattung war sehr ausführlich.", "es": "La cobertura informativa fue muy detallada." } },
+    { "id": "v3", "target": "die Pressefreiheit", "es": "la libertad de prensa", "ipa": "/ˈpʁɛsəfʁaɪ̯haɪ̯t/", "esApprox": "«PRÉ-se-frai-jait»", "pos": "sustantivo", "gender": "f", "example": { "target": "Die Pressefreiheit ist wichtig für die Demokratie.", "es": "La libertad de prensa es importante para la democracia." } },
+    { "id": "v4", "target": "objektiv", "es": "objetivo", "ipa": "/ɔpjɛkˈtiːf/", "esApprox": "«ob-yek-TIF»", "pos": "adjetivo", "gender": null, "example": { "target": "Dieser Artikel ist sehr objektiv.", "es": "Este artículo es muy objetivo." } },
+    { "id": "v5", "target": "subjektiv", "es": "subjetivo", "ipa": "/zʊpjɛkˈtiːf/", "esApprox": "«zub-yek-TIF»", "pos": "adjetivo", "gender": null, "example": { "target": "Seine Meinung ist sehr subjektiv.", "es": "Su opinión es muy subjetiva." } },
+    { "id": "v6", "target": "die Falschmeldung", "es": "la noticia falsa", "ipa": "/ˈfalʃmɛldʊŋ/", "esApprox": "«FALSH-mel-dung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Das war eine Falschmeldung.", "es": "Eso era una noticia falsa." } },
+    { "id": "v7", "target": "der Journalist", "es": "el periodista", "ipa": "/ʒʊʁnaˈlɪst/", "esApprox": "«shur-na-LIST»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Journalist hat gut recherchiert.", "es": "El periodista investigó bien." } },
+    { "id": "v8", "target": "der Kommentar", "es": "el comentario, la opinión", "ipa": "/kɔmɛnˈtaːɐ̯/", "esApprox": "«ko-men-TAR»", "pos": "sustantivo", "gender": "m", "example": { "target": "Das ist nur ein Kommentar, keine Nachricht.", "es": "Eso es solo un comentario, no una noticia." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["medios", "noticias"], "difficulty": 1, "prompt": "¿Cómo se dice «el titular»?", "options": ["die Berichterstattung", "die Schlagzeile", "der Kommentar", "die Pressefreiheit"], "answer": 1, "explain": "die Schlagzeile = el titular." },
+    { "id": "e2", "type": "mcq", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "¿Cómo se dice «noticia falsa»?", "options": ["die Nachricht", "die Falschmeldung", "der Kommentar", "die Schlagzeile"], "answer": 1, "explain": "die Falschmeldung = la noticia falsa." },
+    { "id": "e3", "type": "true_false", "tags": ["medios", "noticias"], "difficulty": 2, "statement": "objektiv y subjektiv son sinónimos.", "answer": false, "explain": "objektiv (objetivo) y subjektiv (subjetivo) son casi opuestos." },
+    { "id": "e4", "type": "true_false", "tags": ["medios", "noticias"], "difficulty": 2, "statement": "der Kommentar es lo mismo que una noticia objetiva.", "answer": false, "explain": "der Kommentar expresa una opinión, no una noticia objetiva." },
+    { "id": "e5", "type": "match_pairs", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["die Schlagzeile", "die Pressefreiheit", "der Journalist", "der Kommentar"], "right": ["el titular", "la libertad de prensa", "el periodista", "el comentario"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "El titular era muy llamativo.", "accept": ["Die Schlagzeile war sehr auffällig"], "hintWords": ["die Schlagzeile war sehr auffällig"], "strictAccents": false, "audio": "Die Schlagzeile war sehr auffällig.", "explain": "Die Schlagzeile (sujeto) + war (posición 2) + sehr auffällig." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "La libertad de prensa es importante para la democracia.", "accept": ["Die Pressefreiheit ist wichtig für die Demokratie"], "hintWords": ["die Pressefreiheit ist wichtig für die Demokratie"], "strictAccents": false, "audio": "Die Pressefreiheit ist wichtig für die Demokratie.", "explain": "Die Pressefreiheit (sujeto) + ist (posición 2) + wichtig + für die Demokratie." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "Eso era una noticia falsa.", "accept": ["Das war eine Falschmeldung"], "hintWords": ["das war eine Falschmeldung"], "strictAccents": false, "audio": "Das war eine Falschmeldung.", "explain": "Das (sujeto) + war (posición 2) + eine Falschmeldung." },
+    { "id": "e9", "type": "fill_blank", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Dieser Artikel ist sehr ___. Seine Meinung ist sehr ___.", "blanks": [{ "accept": ["objektiv"] }, { "accept": ["subjektiv"] }], "bank": ["objektiv", "subjektiv", "auffällig"], "explain": "objektiv (hechos) y subjektiv (opinión)." },
+    { "id": "e10", "type": "word_order", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "Ordena: «El periodista investigó bien»", "tokens": ["hat gut recherchiert", "Der Journalist"], "answer": ["Der Journalist", "hat gut recherchiert"], "audio": "Der Journalist hat gut recherchiert.", "explain": "Der Journalist (sujeto) + hat (posición 2) + gut + recherchiert (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "Das ist nur ein Kommentar, keine Nachricht.", "accept": ["Eso es solo un comentario, no una noticia."], "strictAccents": false, "audio": "Das ist nur ein Kommentar, keine Nachricht.", "explain": "der Kommentar frente a die Nachricht: opinión frente a hecho." },
+    { "id": "e12", "type": "dialogue", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Lea", "text": "Ist dieser Artikel objektiv?", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Nein, ich finde ihn eher subjektiv."], "hint": "da tu opinión con objektiv/subjektiv" },
+      { "who": "Lea", "text": "Stimmt, guter Punkt!", "speak": true }
+    ], "explain": "objektiv/subjektiv: valorar un texto periodístico." },
+    { "id": "e13", "type": "listening", "tags": ["medios", "noticias"], "difficulty": 1, "speak": "Die Schlagzeile war sehr auffällig.", "mode": "write", "accept": ["Die Schlagzeile war sehr auffällig"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["medios", "noticias"], "difficulty": 2, "speak": "Man muss zwischen echten Nachrichten und Falschmeldungen unterscheiden.", "mode": "choose", "options": ["Man muss zwischen echten Nachrichten und Falschmeldungen unterscheiden.", "Man muss zwischen echten Nachrichten und Kommentaren unterscheiden.", "Man muss zwischen echten Nachrichten und Schlagzeilen unterscheiden."], "answer": 0, "showTextAfter": true, "explain": "El contraste clave aquí es entre noticias reales y noticias falsas (Falschmeldungen)." },
+    { "id": "e15", "type": "shadowing", "tags": ["medios", "noticias"], "difficulty": 2, "speak": "Die Schlagzeile war sehr auffällig, aber die Berichterstattung selbst war eher objektiv.", "es": "El titular era muy llamativo, pero la cobertura informativa en sí era bastante objetiva.", "ipa": "/diː ˈʃlaːktsaɪ̯lə vaːɐ̯ zeːɐ̯ ˈaʊ̯ffɛlɪç ˈaːbɐ diː bəˈʁɪçtɐʃtatʊŋ zɛlpst vaːɐ̯ ˈeːɐ̯ɐ ɔpjɛkˈtiːf/", "esApprox": "«di SHLÁK-tsai-le var zer ÁUF-fe-lich, Á-ber di be-RICHT-er-shta-tung zelpst var É-rer ob-yek-TIF»", "focus": "Schlagzeile y Berichterstattung, con el contraste llamativo/objektiv.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["medios", "noticias"], "difficulty": 2, "speak": "Die Pressefreiheit ist wichtig, denn man muss zwischen echten Nachrichten und Falschmeldungen unterscheiden können.", "es": "La libertad de prensa es importante, porque hay que poder distinguir entre noticias reales y noticias falsas.", "ipa": "/diː ˈpʁɛsəfʁaɪ̯haɪ̯t ɪst ˈvɪçtɪç dɛn man mʊs ˈtsvɪʃn̩ ˈɛçtn̩ ˈnaːxʁɪçtn̩ ʊnt ˈfalʃmɛldʊŋən ˌʊntɐˈʃaɪ̯dn̩ ˈkœnən/", "esApprox": "«di PRÉ-se-frai-jait ist VICH-tich, den man mus TSVI-shen ECH-ten NACH-rich-ten unt FALSH-mel-dun-guen un-ter-SHÁI-den KÖ-nen»", "focus": "Pressefreiheit y unterscheiden können: la libertad de prensa junto a la capacidad crítica del lector.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "Te preguntan si un artículo es objetivo. Di que lo encuentras bastante subjetivo.", "modelAnswer": "Ich finde ihn eher subjektiv.", "alsoValid": ["Der Artikel ist eher subjektiv."], "speak": "Ich finde ihn eher subjektiv.", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "Clasifica cada palabra: hecho o valoración", "buckets": ["Noticia/hecho", "Opinión/valoración"], "items": [
+      { "text": "die Nachricht", "bucket": 0 },
+      { "text": "objektiv", "bucket": 0 },
+      { "text": "der Kommentar", "bucket": 1 },
+      { "text": "subjektiv", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario de esta clase, distinguiendo hechos de opiniones." },
+    { "id": "e19", "type": "error_correction", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Das ist eine objektive Falschmeldung.", "accept": ["Das ist eine reine Falschmeldung"], "explain": "Una Falschmeldung nunca puede considerarse objektiv, porque es falsa por definición; se corrige con un adjetivo coherente como reine (pura)." },
+    { "id": "e20", "type": "mcq", "tags": ["medios", "noticias"], "difficulty": 2, "prompt": "«Die Pressefreiheit ist wichtig, denn man muss zwischen echten Nachrichten und Falschmeldungen unterscheiden können. Die Schlagzeile war sehr auffällig, aber die Berichterstattung selbst war eher objektiv.» ¿Por qué es importante la libertad de prensa según el texto?", "options": ["Porque los titulares deben ser llamativos", "Porque permite distinguir noticias reales de falsas", "Porque los periodistas ganan más dinero", "No se explica el motivo"], "answer": 1, "explain": "«man muss zwischen echten Nachrichten und Falschmeldungen unterscheiden können» explica el motivo." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "die Schlagzeile", "es": "el titular", "esApprox": "«SHLÁK-tsai-le»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Berichterstattung", "es": "la cobertura informativa", "esApprox": "«be-RICHT-er-shta-tung»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "die Pressefreiheit", "es": "la libertad de prensa", "esApprox": "«PRÉ-se-frai-jait»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "objektiv", "es": "objetivo", "esApprox": "«ob-yek-TIF»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Falschmeldung", "es": "la noticia falsa", "esApprox": "«FALSH-mel-dung»", "from": "v6" },
+    { "id": "s6", "kind": "word", "target": "der Kommentar", "es": "el comentario, la opinión", "esApprox": "«ko-men-TAR»", "from": "v8" },
+    { "id": "s7", "kind": "phrase", "target": "Die Schlagzeile war sehr auffällig, aber die Berichterstattung selbst war eher objektiv.", "es": "El titular era muy llamativo, pero la cobertura informativa en sí era bastante objetiva.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Die Pressefreiheit ist wichtig, denn man muss zwischen echten Nachrichten und Falschmeldungen unterscheiden können.", "es": "La libertad de prensa es importante, porque hay que poder distinguir entre noticias reales y noticias falsas.", "from": "e16" }
+  ]
+}

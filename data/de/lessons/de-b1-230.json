@@ -1,0 +1,90 @@
+{
+  "id": "de-b1-230",
+  "lang": "de",
+  "level": "B1",
+  "order": 230,
+  "title": "Viajes largos e imprevistos",
+  "objectives": [
+    "Aprender vocabulario para gestionar imprevistos de viaje: der Ausfall, die Umleitung, umbuchen",
+    "Hablar de vuelos de conexión y seguros de viaje",
+    "Reclamar una compensación con vocabulario preciso"
+  ],
+  "sections": [
+    {
+      "type": "explanation",
+      "title": "Cuando el viaje no sale como estaba previsto",
+      "body": "Además de die Verspätung (el retraso, ya conocido), el B1 añade vocabulario para imprevistos mayores: «der Ausfall» (la cancelación, de un vuelo o tren), «die Umleitung» (el desvío) y «der Anschlussflug» (el vuelo de conexión), que puedes perder si hay un retraso. Si algo sale mal, puede que necesites «umbuchen» (cambiar la reserva) o pedir «eine Entschädigung» (una compensación).",
+      "examples": [
+        { "target": "Mein Anschlussflug wurde gestrichen.", "es": "Mi vuelo de conexión fue cancelado." },
+        { "target": "Ich möchte meinen Flug umbuchen.", "es": "Quiero cambiar mi vuelo." }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Vocabulario clave de imprevistos de viaje",
+      "headers": ["Palabra", "Significado"],
+      "rows": [
+        ["der Ausfall", "la cancelación"],
+        ["die Umleitung", "el desvío"],
+        ["der Anschlussflug", "el vuelo de conexión"],
+        ["umbuchen", "cambiar una reserva"],
+        ["die Entschädigung", "la compensación"]
+      ]
+    },
+    {
+      "type": "tip",
+      "body": "die Reiseversicherung (el seguro de viaje) puede cubrir gastos por stornieren (cancelar) un viaje. Guarda siempre los documentos: son la base para pedir una Entschädigung si algo sale mal."
+    }
+  ],
+  "vocab": [
+    { "id": "v1", "target": "der Ausfall", "es": "la cancelación", "ipa": "/ˈaʊ̯sfal/", "esApprox": "«ÁUS-fal»", "pos": "sustantivo", "gender": "m", "example": { "target": "Der Ausfall des Zuges hat alles verzögert.", "es": "La cancelación del tren retrasó todo." } },
+    { "id": "v2", "target": "die Umleitung", "es": "el desvío", "ipa": "/ˈʊmlaɪ̯tʊŋ/", "esApprox": "«UM-lai-tung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Wir mussten eine Umleitung nehmen.", "es": "Tuvimos que tomar un desvío." } },
+    { "id": "v3", "target": "der Anschlussflug", "es": "el vuelo de conexión", "ipa": "/ˈanʃlʊsfluːk/", "esApprox": "«ÁN-shlus-fluk»", "pos": "sustantivo", "gender": "m", "example": { "target": "Mein Anschlussflug wurde gestrichen.", "es": "Mi vuelo de conexión fue cancelado." } },
+    { "id": "v4", "target": "umbuchen", "es": "cambiar una reserva", "ipa": "/ˈʊmbuːxn̩/", "esApprox": "«UM-bu-jen»", "pos": "verbo separable", "gender": null, "example": { "target": "Ich möchte meinen Flug umbuchen.", "es": "Quiero cambiar mi vuelo." } },
+    { "id": "v5", "target": "die Entschädigung", "es": "la compensación", "ipa": "/ɛntˈʃɛːdɪɡʊŋ/", "esApprox": "«ent-SHÉ-di-gung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich habe Anspruch auf eine Entschädigung.", "es": "Tengo derecho a una compensación." } },
+    { "id": "v6", "target": "die Reiseversicherung", "es": "el seguro de viaje", "ipa": "/ˈʁaɪ̯zəfɛɐ̯zɪçəʁʊŋ/", "esApprox": "«RÁI-ze-fer-zi-che-rung»", "pos": "sustantivo", "gender": "f", "example": { "target": "Ich habe eine Reiseversicherung abgeschlossen.", "es": "He contratado un seguro de viaje." } },
+    { "id": "v7", "target": "stornieren", "es": "cancelar (una reserva)", "ipa": "/stɔʁˈniːʁən/", "esApprox": "«stor-NÍ-ren»", "pos": "verbo", "gender": null, "example": { "target": "Ich musste die Reservierung stornieren.", "es": "Tuve que cancelar la reserva." } },
+    { "id": "v8", "target": "verzögern", "es": "retrasar, demorar", "ipa": "/fɛɐ̯ˈtsøːɡɐn/", "esApprox": "«fer-TSÖ-guern»", "pos": "verbo", "gender": null, "example": { "target": "Der Ausfall hat alles verzögert.", "es": "La cancelación retrasó todo." } }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "mcq", "tags": ["viajes", "imprevistos"], "difficulty": 1, "prompt": "¿Cómo se dice «la cancelación»?", "options": ["die Umleitung", "der Ausfall", "die Entschädigung", "der Anschlussflug"], "answer": 1, "explain": "der Ausfall = la cancelación." },
+    { "id": "e2", "type": "mcq", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "¿Cómo se dice «cambiar una reserva»?", "options": ["stornieren", "umbuchen", "verzögern", "abschließen"], "answer": 1, "explain": "umbuchen = cambiar una reserva." },
+    { "id": "e3", "type": "true_false", "tags": ["viajes", "imprevistos"], "difficulty": 2, "statement": "der Anschlussflug es el primer vuelo de un viaje.", "answer": false, "explain": "der Anschlussflug es el vuelo de conexión, el siguiente tramo del viaje." },
+    { "id": "e4", "type": "true_false", "tags": ["viajes", "imprevistos"], "difficulty": 2, "statement": "die Entschädigung es un dinero que se recibe como compensación.", "answer": true, "explain": "die Entschädigung = la compensación." },
+    { "id": "e5", "type": "match_pairs", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Une cada palabra con su traducción", "left": ["der Ausfall", "die Umleitung", "umbuchen", "stornieren"], "right": ["la cancelación", "el desvío", "cambiar una reserva", "cancelar una reserva"], "answer": [0, 1, 2, 3], "explain": "Vocabulario clave de esta clase." },
+    { "id": "e6", "type": "translate_to_target", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Mi vuelo de conexión fue cancelado.", "accept": ["Mein Anschlussflug wurde gestrichen"], "hintWords": ["mein Anschlussflug wurde gestrichen"], "strictAccents": false, "audio": "Mein Anschlussflug wurde gestrichen.", "explain": "Mein Anschlussflug (sujeto) + wurde (posición 2) + gestrichen (final, pasiva en Präteritum, repaso de la clase 186)." },
+    { "id": "e7", "type": "translate_to_target", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Quiero cambiar mi vuelo.", "accept": ["Ich möchte meinen Flug umbuchen"], "hintWords": ["ich möchte meinen Flug umbuchen"], "strictAccents": false, "audio": "Ich möchte meinen Flug umbuchen.", "explain": "möchte + meinen Flug + umbuchen (final)." },
+    { "id": "e8", "type": "translate_to_target", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Tengo derecho a una compensación.", "accept": ["Ich habe Anspruch auf eine Entschädigung"], "hintWords": ["ich habe Anspruch auf eine Entschädigung"], "strictAccents": false, "audio": "Ich habe Anspruch auf eine Entschädigung.", "explain": "habe + Anspruch + auf eine Entschädigung." },
+    { "id": "e9", "type": "fill_blank", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Completa con la palabra correcta", "text": "Wir mussten eine ___ nehmen. Ich musste die Reservierung ___.", "blanks": [{ "accept": ["Umleitung"] }, { "accept": ["stornieren"] }], "bank": ["Umleitung", "stornieren", "umbuchen"], "explain": "die Umleitung (el desvío) y stornieren (cancelar)." },
+    { "id": "e10", "type": "word_order", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Ordena: «He contratado un seguro de viaje»", "tokens": ["eine Reiseversicherung abgeschlossen", "Ich habe"], "answer": ["Ich habe", "eine Reiseversicherung abgeschlossen"], "audio": "Ich habe eine Reiseversicherung abgeschlossen.", "explain": "Ich habe (posición normal) + eine Reiseversicherung + abgeschlossen (final)." },
+    { "id": "e11", "type": "translate_to_es", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Der Ausfall des Zuges hat alles verzögert.", "accept": ["La cancelación del tren retrasó todo."], "strictAccents": false, "audio": "Der Ausfall des Zuges hat alles verzögert.", "explain": "verzögern = retrasar, demorar." },
+    { "id": "e12", "type": "dialogue", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Completa la conversación", "turns": [
+      { "who": "Mitarbeiterin", "text": "Ihr Anschlussflug wurde leider gestrichen.", "speak": true },
+      { "who": "Toi", "blank": true, "accept": ["Können Sie meinen Flug umbuchen?"], "hint": "pide que cambien tu vuelo" },
+      { "who": "Mitarbeiterin", "text": "Natürlich, einen Moment bitte.", "speak": true }
+    ], "explain": "umbuchen: gestionar un imprevisto de viaje en el mostrador." },
+    { "id": "e13", "type": "listening", "tags": ["viajes", "imprevistos"], "difficulty": 1, "speak": "Mein Anschlussflug wurde gestrichen.", "mode": "write", "accept": ["Mein Anschlussflug wurde gestrichen"], "showTextAfter": true, "explain": "Vocabulario clave de esta clase." },
+    { "id": "e14", "type": "listening", "tags": ["viajes", "imprevistos"], "difficulty": 2, "speak": "Ich habe Anspruch auf eine Entschädigung.", "mode": "choose", "options": ["Ich habe Anspruch auf eine Entschädigung.", "Ich habe Anspruch auf eine Umleitung.", "Ich habe Anspruch auf einen Ausfall."], "answer": 0, "showTextAfter": true, "explain": "die Entschädigung es lo que se reclama, no die Umleitung ni der Ausfall." },
+    { "id": "e15", "type": "shadowing", "tags": ["viajes", "imprevistos"], "difficulty": 2, "speak": "Mein Anschlussflug wurde gestrichen, deshalb musste ich meinen ganzen Flug umbuchen.", "es": "Mi vuelo de conexión fue cancelado, por eso tuve que cambiar todo mi vuelo.", "ipa": "/maɪ̯n ˈanʃlʊsfluːk ˈvʊʁdə ɡəˈʃtʁɪçn̩ dɛsˈhalp ˈmʊstə ɪç ˈmaɪ̯nən ˈɡantsn̩ fluːk ˈʊmbuːxn̩/", "esApprox": "«main ÁN-shlus-fluk VUR-de ge-SHTRI-chen, des-JALP MÚS-te ich MÁI-nen GÁN-tsen fluk UM-bu-jen»", "focus": "Anschlussflug, gestrichen y umbuchen: la cadena de acontecimientos de un imprevisto de viaje.", "selfAssess": true },
+    { "id": "e16", "type": "shadowing", "tags": ["viajes", "imprevistos"], "difficulty": 2, "speak": "Zum Glück hatte ich eine Reiseversicherung, und ich habe Anspruch auf eine Entschädigung für den Ausfall.", "es": "Por suerte tenía un seguro de viaje, y tengo derecho a una compensación por la cancelación.", "ipa": "/tsʊm ɡlʏk ˈhatə ɪç ˈaɪ̯nə ˈʁaɪ̯zəfɛɐ̯zɪçəʁʊŋ ʊnt ɪç ˈhaːbə ˈanʃpʁʊx aʊ̯f ˈaɪ̯nə ɛntˈʃɛːdɪɡʊŋ fyːɐ̯ deːn ˈaʊ̯sfal/", "esApprox": "«tsum gluk JÁ-te ich ÁI-ne RÁI-ze-fer-zi-che-rung, unt ich JÁ-be ÁN-shpruch auf ÁI-ne ent-SHÉ-di-gung fiur den ÁUS-fal»", "focus": "Reiseversicherung y Entschädigung: la relación entre estar asegurado y poder reclamar.", "selfAssess": true },
+    { "id": "e17", "type": "speak_prompt", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Tu vuelo de conexión ha sido cancelado. Pide que te cambien el vuelo.", "modelAnswer": "Können Sie meinen Flug umbuchen?", "alsoValid": ["Ich möchte meinen Flug umbuchen."], "speak": "Können Sie meinen Flug umbuchen?", "selfAssess": true },
+    { "id": "e18", "type": "categorize", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Clasifica cada palabra según si es un problema o una solución", "buckets": ["Problema", "Solución"], "items": [
+      { "text": "der Ausfall", "bucket": 0 },
+      { "text": "die Umleitung", "bucket": 0 },
+      { "text": "umbuchen", "bucket": 1 },
+      { "text": "die Entschädigung", "bucket": 1 }
+    ], "explain": "Repaso general del vocabulario de imprevistos de viaje." },
+    { "id": "e19", "type": "error_correction", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "Hay un error. Corrige la frase entera.", "wrong": "Ich möchte meinen Flug stornieren, damit ich am Sonntag statt am Samstag fliege.", "accept": ["Ich möchte meinen Flug umbuchen, damit ich am Sonntag statt am Samstag fliege"], "audio": "Ich möchte meinen Flug umbuchen, damit ich am Sonntag statt am Samstag fliege.", "explain": "Para cambiar la fecha se usa umbuchen (cambiar), no stornieren (cancelar del todo)." },
+    { "id": "e20", "type": "mcq", "tags": ["viajes", "imprevistos"], "difficulty": 2, "prompt": "«Mein Anschlussflug wurde gestrichen, deshalb musste ich umbuchen. Zum Glück hatte ich eine Reiseversicherung, und ich habe Anspruch auf eine Entschädigung.» ¿Por qué puede reclamar una compensación la persona?", "options": ["Porque no tenía seguro", "Porque tenía un seguro de viaje", "Porque canceló el viaje ella misma", "No se explica el motivo"], "answer": 1, "explain": "«Zum Glück hatte ich eine Reiseversicherung» explica por qué puede reclamar la compensación." }
+  ],
+  "srsItems": [
+    { "id": "s1", "kind": "word", "target": "der Ausfall", "es": "la cancelación", "esApprox": "«ÁUS-fal»", "from": "v1" },
+    { "id": "s2", "kind": "word", "target": "die Umleitung", "es": "el desvío", "esApprox": "«UM-lai-tung»", "from": "v2" },
+    { "id": "s3", "kind": "word", "target": "der Anschlussflug", "es": "el vuelo de conexión", "esApprox": "«ÁN-shlus-fluk»", "from": "v3" },
+    { "id": "s4", "kind": "word", "target": "umbuchen", "es": "cambiar una reserva", "esApprox": "«UM-bu-jen»", "from": "v4" },
+    { "id": "s5", "kind": "word", "target": "die Entschädigung", "es": "la compensación", "esApprox": "«ent-SHÉ-di-gung»", "from": "v5" },
+    { "id": "s6", "kind": "word", "target": "die Reiseversicherung", "es": "el seguro de viaje", "esApprox": "«RÁI-ze-fer-zi-che-rung»", "from": "v6" },
+    { "id": "s7", "kind": "phrase", "target": "Mein Anschlussflug wurde gestrichen, deshalb musste ich meinen ganzen Flug umbuchen.", "es": "Mi vuelo de conexión fue cancelado, por eso tuve que cambiar todo mi vuelo.", "from": "e15" },
+    { "id": "s8", "kind": "phrase", "target": "Zum Glück hatte ich eine Reiseversicherung, und ich habe Anspruch auf eine Entschädigung für den Ausfall.", "es": "Por suerte tenía un seguro de viaje, y tengo derecho a una compensación por la cancelación.", "from": "e16" }
+  ]
+}
