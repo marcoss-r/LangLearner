@@ -26,6 +26,7 @@ Solo metadatos. **Nunca contenido.** Es lo único que se carga al abrir un idiom
   "lang": "fr",
   "name": "Francés",
   "version": 1,
+  "progression": { "recognitionUntil": 3, "freeProductionFrom": 9 },
   "levels": [
     { "id": "A1", "name": "A1 — Principiante", "range": [1, 90],   "exam": "fr-a1" },
     { "id": "A2", "name": "A2 — Elemental",    "range": [91, 175], "exam": "fr-a2" },
@@ -52,6 +53,11 @@ Solo metadatos. **Nunca contenido.** Es lo único que se carga al abrir un idiom
 }
 ```
 
+- `progression`: marca las dos fronteras pedagógicas del idioma (ver §6.0).
+  `recognitionUntil` es el `order` de la última clase que todavía no puede pedir
+  producción escrita; `freeProductionFrom`, el de la primera que ya puede pedirlo
+  todo. En los dos idiomas `freeProductionFrom` es la clase del verbo copulativo
+  (être / sein): antes de tener un verbo no se puede construir una frase.
 - `kind` ∈ `"gramatica" | "vocabulario" | "fonetica" | "verbos" | "comunicacion" | "cultura" | "repaso"`.
 - `tags`: minúsculas, sin tildes, kebab-case (`passe-compose`, `dativo`, `verbos-modales`). Se usan para el diagnóstico de puntos débiles en Estadísticas y en el informe de los exámenes. **Usa siempre etiquetas ya existentes antes de inventar una nueva.**
 
@@ -185,6 +191,33 @@ Campos comunes a todos los tipos:
 - `difficulty` 1–3.
 - `explain`: se muestra tras responder, **acierte o falle**. Nunca lo omitas en ejercicios de gramática.
 
+### 6.0 Regla de progresión: nunca pidas lo que no has enseñado
+
+**Ningún ejercicio puede exigir producir algo que el alumno no haya visto antes.**
+Ni una palabra, ni una forma verbal, ni una estructura. No vale «es un adelanto
+de la clase 9»: un ejercicio que se adelanta al temario no enseña, solo
+demuestra que el alumno no sabe algo que nadie le ha explicado todavía.
+
+De ahí salen tres etapas, delimitadas por `course.json → progression`:
+
+| Etapa | Clases | Qué puede pedir |
+|---|---|---|
+| **Reconocimiento** | `order ≤ recognitionUntil` | Solo identificar y elegir. Prohibidos `translate_to_target`, `word_order`, `error_correction`, `conjugation`, `dialogue` con hueco y `listening` con `mode: "write"`. La familia de producción se cubre con `fill_blank` **con `bank`**: se pulsan botones, no se teclea. |
+| **Producción guiada** | hasta `freeProductionFrom` | Ya hay fórmulas fijas que repetir, así que vuelven `translate_to_target`, `word_order`, el dictado y el diálogo, siempre sobre material literal de la clase. Sigue prohibida la `conjugation`: aún no se ha presentado ningún paradigma. |
+| **Producción libre** | `order ≥ freeProductionFrom` | Todo. Empieza en la clase del verbo copulativo: con être/sein ya se pueden construir frases propias. |
+
+En las tres etapas vale lo mismo para el léxico: la respuesta esperada solo
+puede usar palabras que aparezcan en la **teoría** de esa clase (`sections`,
+`vocab`) o en cualquier parte de una clase anterior. Si un ejercicio necesita
+una palabra nueva, **añádela a la teoría**; no la cueles en el enunciado.
+
+Dos cosas no cuentan como «producir», y por eso no están sujetas a la regla:
+los distractores de un `bank` o de unas `options` (se descartan, no se
+escriben) y el campo `wrong` de `error_correction` (se lee).
+
+Lo comprueba `node tools/check-progression.mjs`, que falla con código 1 si
+alguna clase se salta cualquiera de estas reglas.
+
 ### Distribución obligatoria por clase (mínimo 15 ejercicios)
 | Familia | Mínimo | Tipos |
 |---|---|---|
@@ -194,6 +227,10 @@ Campos comunes a todos los tipos:
 | Escucha | 2 | `listening` |
 | Oral | 2 | `shadowing`, `speak_prompt` |
 | Libre | resto | cualquiera |
+
+En la etapa de reconocimiento la fila de producción escrita se cumple con
+cuatro `fill_blank` con `bank`, que es la única de las cuatro que no exige
+escribir en idioma meta.
 
 ---
 

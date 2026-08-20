@@ -242,67 +242,60 @@
     },
     {
       "id": "e7",
-      "type": "translate_to_target",
-      "tags": ["sujeto-obligatorio"],
+      "type": "fill_blank",
+      "tags": ["falsos-amigos"],
       "difficulty": 2,
-      "prompt": "Está lloviendo mucho hoy.",
-      "accept": ["Il pleut beaucoup aujourd'hui", "Aujourd'hui il pleut beaucoup"],
-      "hintWords": ["il pleut", "beaucoup", "aujourd'hui"],
-      "strictAccents": false,
-      "audio": "Il pleut beaucoup aujourd'hui.",
-      "explain": "Aunque «llueve» en español no lleva sujeto, el francés siempre necesita el «il» delante del verbo."
+      "prompt": "Completa con el verbo correcto: la frase dice «Oigo a alguien en la puerta»",
+      "text": "J'___ quelqu'un à la porte.",
+      "blanks": [{ "accept": ["entends"] }],
+      "bank": ["entends", "attends", "quitte"],
+      "audio": "J'entends quelqu'un à la porte.",
+      "explain": "Entendre es oír, no entender. «J'attends» sería «espero» y «je quitte», «me voy de»."
     },
     {
       "id": "e8",
-      "type": "translate_to_target",
+      "type": "mcq",
       "tags": ["falsos-amigos"],
       "difficulty": 2,
-      "prompt": "Espérame, por favor (a un amigo).",
-      "accept": ["Attends-moi, s'il te plaît"],
-      "hintWords": ["attendre"],
-      "strictAccents": false,
-      "audio": "Attends-moi, s'il te plaît.",
-      "explain": "Attendre = esperar. «Attends-moi» es la forma de tú; con «usted» sería «Attendez-moi, s'il vous plaît»."
+      "prompt": "Un amigo te dice «Attends-moi devant la gare». ¿Qué te está pidiendo?",
+      "options": ["Que le atiendas", "Que le esperes", "Que le oigas", "Que te vayas"],
+      "answer": 1,
+      "audio": "Attends-moi devant la gare.",
+      "explain": "Attendre = esperar. «Atender» sería «s'occuper de», y «oír», «entendre»: los tres se parecen y ninguno coincide."
     },
     {
       "id": "e9",
       "type": "fill_blank",
       "tags": ["sujeto-obligatorio"],
       "difficulty": 2,
-      "prompt": "Completa con la palabra que falta",
-      "text": "___ pleut beaucoup en Bretagne, mais ___ fait beau à Nice.",
+      "prompt": "Completa el sujeto que el francés no puede callarse",
+      "text": "___ pleut. ___ faut rester à la maison.",
       "blanks": [{ "accept": ["il"] }, { "accept": ["il"] }],
       "bank": ["il", "elle", "on"],
-      "explain": "Con verbos meteorológicos el sujeto es siempre «il», impersonal: il pleut, il fait beau."
+      "explain": "«Llueve» y «hay que» no llevan sujeto en español, pero en francés siempre va «il» delante: il pleut, il faut."
     },
     {
       "id": "e10",
-      "type": "word_order",
+      "type": "fill_blank",
       "tags": ["falsos-amigos"],
       "difficulty": 2,
-      "prompt": "Ordena para formar la frase: «Esta calle es muy ancha»",
-      "tokens": ["large", "Cette", "est", "rue", "très"],
-      "answer": ["Cette", "rue", "est", "très", "large"],
+      "prompt": "Ancho o largo: elige el adjetivo que dice de verdad lo que quieres decir",
+      "text": "Cette rue est très ___ . Le voyage est très ___ .",
+      "blanks": [{ "accept": ["large"] }, { "accept": ["long"] }],
+      "bank": ["large", "long", "longue"],
       "audio": "Cette rue est très large.",
-      "explain": "Large es «ancho», no «largo»: cette rue est large = esta calle es ancha."
+      "explain": "Large es «ancho», no «largo». «Largo» es long (longue en femenino), y voyage es masculino, así que long."
     },
     {
       "id": "e11",
-      "type": "conjugation",
-      "tags": ["verbos"],
+      "type": "mcq",
+      "tags": ["sujeto-obligatorio"],
       "difficulty": 2,
-      "verb": "être",
-      "tense": "présent",
-      "prompt": "Conjuga «être» (ser/estar) en presente — un adelanto de la clase 9",
-      "rows": [
-        { "person": "je", "accept": ["suis"] },
-        { "person": "tu", "accept": ["es"] },
-        { "person": "il / elle", "accept": ["est"] },
-        { "person": "nous", "accept": ["sommes"] },
-        { "person": "vous", "accept": ["êtes"] },
-        { "person": "ils / elles", "accept": ["sont"] }
-      ],
-      "explain": "Être es el verbo más irregular y más usado del francés. Aquí solo lo pruebas; lo verás con calma en la clase 9."
+      "prompt": "En español decimos «Llueve» y ya está. ¿Cómo empieza obligatoriamente esa frase en francés?",
+      "options": ["Pleut", "Il pleut", "Elle pleut", "On pleut"],
+      "answer": 1,
+      "audio": "Il pleut.",
+      "explain": "El francés no deja el verbo sin sujeto. En las frases impersonales el sujeto es siempre «il», aunque no se refiera a nadie."
     },
     {
       "id": "e12",
@@ -317,27 +310,27 @@
     },
     {
       "id": "e13",
-      "type": "dialogue",
+      "type": "fill_blank",
       "tags": ["falsos-amigos"],
       "difficulty": 2,
-      "prompt": "Completa la conversación entre dos amigos que hablan del fin de semana",
-      "turns": [
-        { "who": "Léa", "text": "Tu restes à Paris ce week-end ?", "speak": true },
-        { "who": "Toi", "blank": true, "accept": ["Non, je quitte Paris vendredi soir.", "Non, je quitte Paris vendredi."], "hint": "dile que te vas de París el viernes por la noche (quitter)" },
-        { "who": "Léa", "text": "Ah bon, tu vas où ?", "speak": true }
-      ],
-      "explain": "Quitter + lugar = irse de ese lugar. No lo confundas con «quitar» algo."
+      "prompt": "Quedarse o marcharse: completa cada frase con el verbo que toca",
+      "text": "Je ___ le travail à six heures. On ___ à la maison ce soir.",
+      "blanks": [{ "accept": ["quitte"] }, { "accept": ["reste"] }],
+      "bank": ["quitte", "reste", "entends"],
+      "audio": "Je quitte le travail à six heures.",
+      "explain": "Quitter + lugar es marcharse de ese lugar, nunca «quitar» algo. Rester es quedarse, no descansar ni restar."
     },
     {
       "id": "e14",
       "type": "listening",
       "tags": ["falsos-amigos"],
       "difficulty": 2,
-      "speak": "Attends-moi, s'il te plaît.",
-      "mode": "write",
-      "accept": ["Attends-moi, s'il te plaît"],
+      "speak": "Attends-moi devant la gare.",
+      "mode": "choose",
+      "options": ["Attends-moi devant la gare.", "J'entends la gare.", "Je quitte la gare."],
+      "answer": 0,
       "showTextAfter": true,
-      "explain": "Recuerda: attendre = esperar, no atender."
+      "explain": "Recuerda: attendre = esperar, no atender. Las tres frases se parecen al oído y significan cosas muy distintas."
     },
     {
       "id": "e15",
@@ -381,9 +374,9 @@
       "tags": ["falsos-amigos"],
       "difficulty": 2,
       "prompt": "Un amigo te pregunta si te quedas en su casa esta noche o si te vas. Dile que te quedas.",
-      "modelAnswer": "Je reste, merci !",
-      "alsoValid": ["Oui, je reste ce soir."],
-      "speak": "Je reste, merci !",
+      "modelAnswer": "Je reste !",
+      "alsoValid": ["Je reste à la maison.", "On reste à la maison."],
+      "speak": "Je reste !",
       "selfAssess": true
     },
     {
@@ -418,14 +411,12 @@
     },
     {
       "id": "e21",
-      "type": "error_correction",
+      "type": "true_false",
       "tags": ["sujeto-obligatorio"],
       "difficulty": 2,
-      "prompt": "Hay un error. Corrige la frase entera.",
-      "wrong": "Pleut beaucoup aujourd'hui.",
-      "accept": ["Il pleut beaucoup aujourd'hui"],
-      "audio": "Il pleut beaucoup aujourd'hui.",
-      "explain": "Falta el sujeto obligatorio «il»: el francés nunca deja el verbo sin sujeto explícito, ni con verbos meteorológicos."
+      "statement": "Como el español dice «Llueve» sin sujeto, en francés también vale decir «Pleut» a secas.",
+      "answer": false,
+      "explain": "No: falta el sujeto obligatorio. En francés se dice «Il pleut», con «il» delante, aunque ese «il» no se refiera a nadie."
     },
     {
       "id": "e22",
@@ -447,9 +438,9 @@
     { "id": "s6", "kind": "word", "target": "large", "es": "ancho, ancha", "esApprox": "«LARJ»", "from": "v10" },
     { "id": "s7", "kind": "word", "target": "long / longue", "es": "largo, larga", "esApprox": "«LON» / «LONGG»", "from": "v11" },
     { "id": "s8", "kind": "word", "target": "l'appartement", "es": "el apartamento", "esApprox": "«la-par-te-MAN»", "from": "v4" },
-    { "id": "s9", "kind": "phrase", "target": "Il pleut beaucoup aujourd'hui.", "es": "Llueve mucho hoy.", "from": "e7" },
-    { "id": "s10", "kind": "phrase", "target": "Attends-moi, s'il te plaît.", "es": "Espérame, por favor.", "from": "e8" },
+    { "id": "s9", "kind": "phrase", "target": "Il pleut.", "es": "Llueve.", "from": "e11" },
+    { "id": "s10", "kind": "phrase", "target": "Attends-moi devant la gare.", "es": "Espérame delante de la estación.", "from": "e8" },
     { "id": "s11", "kind": "phrase", "target": "Cette rue est très large.", "es": "Esta calle es muy ancha.", "from": "e16" },
-    { "id": "s12", "kind": "phrase", "target": "Je reste, merci !", "es": "Me quedo, gracias.", "from": "e18" }
+    { "id": "s12", "kind": "phrase", "target": "Je reste.", "es": "Me quedo.", "from": "e18" }
   ]
 }

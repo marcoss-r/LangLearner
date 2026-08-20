@@ -216,49 +216,51 @@
     },
     {
       "id": "e6",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["pronunciacion-general"],
       "difficulty": 2,
-      "prompt": "Es demasiado caro para mí.",
-      "accept": ["C'est trop cher pour moi"],
-      "hintWords": ["trop", "cher", "pour moi"],
-      "strictAccents": false,
+      "prompt": "Demasiado, bastante o mucho: completa con lo que dice la frase",
+      "text": "C'est ___ cher pour moi.",
+      "blanks": [{ "accept": ["trop"] }],
+      "bank": ["trop", "assez", "beaucoup"],
       "audio": "C'est trop cher pour moi.",
-      "explain": "Trop = demasiado. La p final no se pronuncia: «TRÓ»."
+      "explain": "Trop = demasiado, con carga negativa. La p final no se pronuncia: «TRÓ»."
     },
     {
       "id": "e7",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["pronunciacion-general"],
       "difficulty": 2,
-      "prompt": "Tengo un hijo y una hija.",
-      "accept": ["J'ai un fils et une fille"],
-      "hintWords": ["un fils", "une fille"],
-      "strictAccents": false,
-      "audio": "J'ai un fils et une fille.",
-      "explain": "Fils (hijo) pronuncia la s; fille (hija) no tiene nada que ver en la escritura, ojo a no confundirlas."
+      "prompt": "Completa con la palabra de la clase que encaja",
+      "text": "C'est le ___ de ma voisine.",
+      "blanks": [{ "accept": ["fils"] }],
+      "bank": ["fils", "temps", "ours"],
+      "audio": "C'est le fils de ma voisine.",
+      "explain": "Fils (hijo) es la gran excepción de la clase: la s final SÍ se pronuncia, «le FIS»."
     },
     {
       "id": "e8",
       "type": "fill_blank",
       "tags": ["pronunciacion-general"],
       "difficulty": 2,
-      "prompt": "Completa con la palabra que falta",
-      "text": "Il y a ___ de monde ici, on ne peut pas entrer.",
-      "blanks": [{ "accept": ["trop"] }],
-      "bank": ["trop", "beaucoup", "assez"],
-      "explain": "Trop de monde = demasiada gente. Beaucoup y assez no encajan con el sentido negativo de la frase (no se puede entrar)."
+      "prompt": "Ni mucho ni poco: completa con la palabra que dice «lo justo»",
+      "text": "J'ai ___ de temps aujourd'hui.",
+      "blanks": [{ "accept": ["assez"] }],
+      "bank": ["assez", "trop", "beaucoup"],
+      "audio": "J'ai assez de temps.",
+      "explain": "Assez de = bastante, lo suficiente. La z final es muda: «a-SÉ»."
     },
     {
       "id": "e9",
-      "type": "word_order",
+      "type": "fill_blank",
       "tags": ["pronunciacion-general"],
-      "difficulty": 2,
-      "prompt": "Ordena para formar la frase: «Tengo bastante tiempo»",
-      "tokens": ["temps", "J'ai", "de", "assez"],
-      "answer": ["J'ai", "assez", "de", "temps"],
-      "audio": "J'ai assez de temps.",
-      "explain": "Assez de + sustantivo = bastante (de) algo."
+      "difficulty": 1,
+      "prompt": "Completa la fórmula de agradecimiento más común del francés",
+      "text": "Merci ___ !",
+      "blanks": [{ "accept": ["beaucoup"] }],
+      "bank": ["beaucoup", "trop", "assez"],
+      "audio": "Merci beaucoup !",
+      "explain": "Merci beaucoup = muchas gracias. La p final de beaucoup no se pronuncia: «bo-KÚ»."
     },
     {
       "id": "e10",
@@ -273,16 +275,14 @@
     },
     {
       "id": "e11",
-      "type": "dialogue",
+      "type": "translate_to_es",
       "tags": ["pronunciacion-general"],
       "difficulty": 2,
-      "prompt": "Completa la conversación sobre el hijo de un amigo",
-      "turns": [
-        { "who": "Léo", "text": "Ton fils est comment ?", "speak": true },
-        { "who": "Toi", "blank": true, "accept": ["Il est très actif.", "Il est très actif, il ne reste jamais assis."], "hint": "dile que tu hijo es muy activo" },
-        { "who": "Léo", "text": "Ah, comme le mien !", "speak": true }
-      ],
-      "explain": "Actif se pronuncia con la f final sonando, a diferencia de la mayoría de las palabras de esta clase."
+      "prompt": "Il y a un ours dans ce zoo.",
+      "accept": ["Hay un oso en este zoo.", "Hay un oso en ese zoo."],
+      "strictAccents": false,
+      "audio": "Il y a un ours dans ce zoo.",
+      "explain": "Ours pronuncia la s final: «URS». Es otra excepción, como fils."
     },
     {
       "id": "e12",
@@ -290,10 +290,11 @@
       "tags": ["pronunciacion-general"],
       "difficulty": 2,
       "speak": "Le temps est gris aujourd'hui.",
-      "mode": "write",
-      "accept": ["Le temps est gris aujourd'hui"],
+      "mode": "choose",
+      "options": ["Le temps est gris aujourd'hui.", "Le temps est trop gris.", "Le fils est gris aujourd'hui."],
+      "answer": 0,
       "showTextAfter": true,
-      "explain": "Ni la p de temps ni la s de gris (en masculino) se pronuncian."
+      "explain": "Ni la p de temps ni la s de gris (en masculino) se pronuncian, así que la frase suena mucho más corta de lo que se escribe."
     },
     {
       "id": "e13",
@@ -324,10 +325,10 @@
       "type": "speak_prompt",
       "tags": ["pronunciacion-general"],
       "difficulty": 2,
-      "prompt": "Alguien te pregunta si hace mucho frío hoy. Dile que hace bastante frío, ni mucho ni poco.",
-      "modelAnswer": "Il fait assez froid.",
-      "alsoValid": ["Il fait assez froid aujourd'hui."],
-      "speak": "Il fait assez froid.",
+      "prompt": "Un amigo te pregunta si tienes tiempo hoy. Dile que tienes bastante, ni mucho ni poco.",
+      "modelAnswer": "J'ai assez de temps.",
+      "alsoValid": ["J'ai assez de temps aujourd'hui."],
+      "speak": "J'ai assez de temps.",
       "selfAssess": true
     },
     {
@@ -349,14 +350,14 @@
     },
     {
       "id": "e17",
-      "type": "error_correction",
+      "type": "mcq",
       "tags": ["pronunciacion-general"],
       "difficulty": 2,
-      "prompt": "Hay un error de ortografía. Corrige la frase entera.",
-      "wrong": "Il est très activ.",
-      "accept": ["Il est très actif"],
-      "audio": "Il est très actif.",
-      "explain": "El masculino se escribe actif, con f; active es la forma femenina."
+      "prompt": "«Mi hijo es muy activo». ¿Cómo se escribe ese «activo» en francés?",
+      "options": ["activ", "actif", "active", "actife"],
+      "answer": 1,
+      "audio": "Mon fils est très actif.",
+      "explain": "El masculino es actif, con f, y esa f se pronuncia. Active, con e, es la forma femenina."
     }
   ],
   "srsItems": [

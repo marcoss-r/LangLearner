@@ -202,49 +202,51 @@
     },
     {
       "id": "e7",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["alfabeto"],
       "difficulty": 2,
-      "prompt": "¿Cómo se escribe eso?",
-      "accept": ["Wie schreibt man das?"],
-      "hintWords": ["wie", "schreibt", "man", "das"],
-      "strictAccents": false,
+      "prompt": "Completa la pregunta que resuelve cualquier duda de ortografía",
+      "text": "___ schreibt man das?",
+      "blanks": [{ "accept": ["Wie"] }],
+      "bank": ["Wie", "Was", "Wer"],
       "audio": "Wie schreibt man das?",
-      "explain": "Wie schreibt man das? es la pregunta estándar cuando no sabes cómo se escribe una palabra."
+      "explain": "Wie = cómo. «Wie schreibt man das?» es la pregunta estándar cuando no sabes cómo se escribe una palabra."
     },
     {
       "id": "e8",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["alfabeto"],
       "difficulty": 2,
-      "prompt": "¿Puede deletrearlo, por favor? (formal)",
-      "accept": ["Können Sie das bitte buchstabieren?", "Können Sie das buchstabieren, bitte?"],
-      "hintWords": ["können Sie", "buchstabieren", "bitte"],
-      "strictAccents": false,
-      "audio": "Können Sie das bitte buchstabieren?",
-      "explain": "Con Sie (usted) se usa können Sie...; verás esta forma con calma más adelante."
+      "prompt": "Completa con el nombre del signo del que habla la frase",
+      "text": "Straße schreibt man mit ___ .",
+      "blanks": [{ "accept": ["Eszett"] }],
+      "bank": ["Eszett", "Umlaut", "Alphabet"],
+      "audio": "Straße schreibt man mit Eszett.",
+      "explain": "El Eszett es la ß. El Umlaut es la diéresis de ä, ö y ü: son dos signos distintos."
     },
     {
       "id": "e9",
       "type": "fill_blank",
       "tags": ["alfabeto"],
       "difficulty": 2,
-      "prompt": "Completa con la palabra que falta",
-      "text": "Ich verstehe den Namen nicht. Können Sie das bitte ___?",
+      "prompt": "Completa la petición formal para que te deletreen algo",
+      "text": "Können Sie das bitte ___ ?",
       "blanks": [{ "accept": ["buchstabieren"] }],
       "bank": ["buchstabieren", "schreiben", "sprechen"],
-      "explain": "buchstabieren es «deletrear»: decir el nombre letra por letra."
+      "audio": "Können Sie das bitte buchstabieren?",
+      "explain": "Buchstabieren es «deletrear»: decir la palabra letra por letra. Schreiben sería escribirla, que por teléfono no te sirve."
     },
     {
       "id": "e10",
-      "type": "word_order",
+      "type": "fill_blank",
       "tags": ["alfabeto"],
       "difficulty": 2,
-      "prompt": "Ordena para formar la frase: «¿Cómo se escribe tu nombre?»",
-      "tokens": ["man", "schreibt", "Namen", "deinen", "Wie"],
-      "answer": ["Wie", "schreibt", "man", "deinen", "Namen"],
-      "audio": "Wie schreibt man deinen Namen?",
-      "explain": "Wie schreibt man...? es la estructura fija para preguntar cómo se escribe algo."
+      "prompt": "Completa con la palabra que designa cada letra del alfabeto",
+      "text": "Das deutsche Alphabet hat 26 ___ .",
+      "blanks": [{ "accept": ["Buchstaben"] }],
+      "bank": ["Buchstaben", "Umlaute", "Namen"],
+      "audio": "Das deutsche Alphabet hat 26 Buchstaben.",
+      "explain": "Der Buchstabe es «la letra». Los Umlaute (ä, ö, ü) no cuentan como letras aparte del alfabeto."
     },
     {
       "id": "e11",
@@ -259,16 +261,14 @@
     },
     {
       "id": "e12",
-      "type": "dialogue",
+      "type": "translate_to_es",
       "tags": ["alfabeto"],
-      "difficulty": 2,
-      "prompt": "Completa la conversación en una recepción",
-      "turns": [
-        { "who": "Empleado", "text": "Wie schreibt man Ihren Namen?", "speak": true },
-        { "who": "Toi", "blank": true, "accept": ["M-A-R-C-O."], "hint": "deletrea tu nombre letra por letra" },
-        { "who": "Empleado", "text": "Danke, jetzt verstehe ich.", "speak": true }
-      ],
-      "explain": "Para deletrear, di cada letra por separado y despacio."
+      "difficulty": 1,
+      "prompt": "Ä, ö und ü sind Umlaute.",
+      "accept": ["Ä, ö y ü son umlauts.", "Ä, ö y ü son vocales con diéresis."],
+      "strictAccents": false,
+      "audio": "Ä, ö und ü sind Umlaute.",
+      "explain": "Und = y. El Umlaut son los dos puntitos: cambian el sonido de la vocal, no son adorno."
     },
     {
       "id": "e13",
@@ -276,10 +276,11 @@
       "tags": ["alfabeto"],
       "difficulty": 2,
       "speak": "Wie schreibt man das?",
-      "mode": "write",
-      "accept": ["Wie schreibt man das?"],
+      "mode": "choose",
+      "options": ["Wie schreibt man das?", "Können Sie das buchstabieren?", "Straße schreibt man mit Eszett."],
+      "answer": 0,
       "showTextAfter": true,
-      "explain": "Wie schreibt man das? = ¿Cómo se escribe eso?"
+      "explain": "Wie schreibt man das? = ¿Cómo se escribe eso? Es la pregunta corta; la segunda es la petición formal."
     },
     {
       "id": "e14",
@@ -359,14 +360,14 @@
     },
     {
       "id": "e20",
-      "type": "error_correction",
+      "type": "mcq",
       "tags": ["mayuscula-sustantivos", "alfabeto"],
       "difficulty": 2,
-      "prompt": "Hay un error. Corrige la frase entera.",
-      "wrong": "Wie Schreibt man das?",
-      "accept": ["Wie schreibt man das?"],
+      "prompt": "Solo una de estas frases está bien escrita. ¿Cuál?",
+      "options": ["Wie Schreibt man das?", "wie schreibt man das?", "Wie schreibt man das?", "Wie schreibt Man das?"],
+      "answer": 2,
       "audio": "Wie schreibt man das?",
-      "explain": "Schreibt es un verbo, no un sustantivo: en alemán solo los sustantivos llevan mayúscula inicial, los verbos van siempre en minúscula."
+      "explain": "«Schreibt» es un verbo y «man» un pronombre: en alemán la mayúscula es solo para los sustantivos, y la primera palabra de la frase por ser el principio."
     }
   ],
   "srsItems": [

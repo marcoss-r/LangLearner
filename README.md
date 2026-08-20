@@ -97,6 +97,12 @@ fases posteriores) un botón "Buscar actualizaciones" que llama a
 
 ## Herramientas locales
 
+- `tools/validate.mjs`: comprueba que todo `data/**` cumple el esquema de
+  `docs/SPEC-DATOS.md`. `node tools/validate.mjs`.
+- `tools/check-progression.mjs`: auditoría pedagógica. Comprueba que ninguna
+  clase exige producir palabras, formas verbales o estructuras que todavía no
+  ha enseñado (`docs/SPEC-DATOS.md` §6.0). Falla con código 1 si encuentra
+  alguna; los avisos de etapa libre se listan con `--avisos`.
 - `tools/make-icons.mjs`: genera los PNG de `assets/` (iconos de la PWA) a
   partir de formas geométricas, sin dependencias externas. Ejecutar con
   `node tools/make-icons.mjs` solo si hace falta regenerarlos.

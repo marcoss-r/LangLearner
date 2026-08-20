@@ -212,27 +212,27 @@
     },
     {
       "id": "e7",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["cognados"],
       "difficulty": 2,
-      "prompt": "La universidad es moderna.",
-      "accept": ["Die Universität ist modern"],
-      "hintWords": ["die Universität", "ist", "modern"],
-      "strictAccents": false,
+      "prompt": "Completa con la palabra que hace de «es» en la frase",
+      "text": "Die Universität ___ modern.",
+      "blanks": [{ "accept": ["ist"] }],
+      "bank": ["ist", "sind", "bin"],
       "audio": "Die Universität ist modern.",
-      "explain": "die Universität + ist + modern, en ese orden: sujeto, verbo, adjetivo."
+      "explain": "«Ist» es «es/está» para una sola cosa. Apréndelo de momento como bloque fijo: el verbo sein entero llega en la clase 9."
     },
     {
       "id": "e8",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["cognados"],
       "difficulty": 2,
-      "prompt": "El teléfono es moderno.",
-      "accept": ["Das Telefon ist modern"],
-      "hintWords": ["das Telefon", "ist", "modern"],
-      "strictAccents": false,
-      "audio": "Das Telefon ist modern.",
-      "explain": "Telefon es neutro (das), por eso no cambia el adjetivo: modern vale para los tres géneros en esta posición."
+      "prompt": "Completa con el cognado que encaja en la frase",
+      "text": "Deutschland ist eine große ___ .",
+      "blanks": [{ "accept": ["Nation"] }],
+      "bank": ["Nation", "Musik", "Idee"],
+      "audio": "Deutschland ist eine große Nation.",
+      "explain": "Nation = nación, con -tion → -ción. Y va con mayúscula, como todos los sustantivos alemanes."
     },
     {
       "id": "e9",
@@ -247,14 +247,15 @@
     },
     {
       "id": "e10",
-      "type": "word_order",
+      "type": "fill_blank",
       "tags": ["cognados"],
       "difficulty": 2,
-      "prompt": "Ordena para formar la frase: «La música es muy moderna»",
-      "tokens": ["ist", "Musik", "sehr", "modern", "Die"],
-      "answer": ["Die", "Musik", "ist", "sehr", "modern"],
+      "prompt": "Completa con la palabra que significa «muy»",
+      "text": "Die Musik ist ___ modern.",
+      "blanks": [{ "accept": ["sehr"] }],
+      "bank": ["sehr", "neu", "gut"],
       "audio": "Die Musik ist sehr modern.",
-      "explain": "Orden básico: sujeto (Die Musik), verbo (ist), y el resto detrás, igual que en español."
+      "explain": "Sehr = muy, y va justo delante del adjetivo, igual que en español."
     },
     {
       "id": "e11",
@@ -269,16 +270,14 @@
     },
     {
       "id": "e12",
-      "type": "dialogue",
+      "type": "translate_to_es",
       "tags": ["cognados"],
       "difficulty": 2,
-      "prompt": "Completa la conversación sobre la universidad",
-      "turns": [
-        { "who": "Anna", "text": "Ist die Universität modern?", "speak": true },
-        { "who": "Toi", "blank": true, "accept": ["Ja, die Universität ist sehr modern."], "hint": "dile que sí, que es muy moderna" },
-        { "who": "Anna", "text": "Und das Museum?", "speak": true }
-      ],
-      "explain": "«Ist» es la forma de «es/está» que verás con calma en la clase 9; aquí solo la reconoces."
+      "prompt": "Das ist eine gute Idee.",
+      "accept": ["Es una buena idea.", "Esa es una buena idea."],
+      "strictAccents": false,
+      "audio": "Das ist eine gute Idee.",
+      "explain": "Idee = idea: mismo origen, otra ortografía. Fíjate en que va con mayúscula por ser sustantivo."
     },
     {
       "id": "e13",
@@ -286,10 +285,11 @@
       "tags": ["cognados"],
       "difficulty": 2,
       "speak": "Die Musik ist modern.",
-      "mode": "write",
-      "accept": ["Die Musik ist modern"],
+      "mode": "choose",
+      "options": ["Die Musik ist modern.", "Die Musik ist neu.", "Das Museum ist modern."],
+      "answer": 0,
       "showTextAfter": true,
-      "explain": "Die Musik ist modern = la música es moderna."
+      "explain": "Die Musik ist modern = la música es moderna. Musik y Museum empiezan igual: fíjate en la sílaba tónica para distinguirlas."
     },
     {
       "id": "e14",
@@ -333,9 +333,9 @@
       "tags": ["cognados"],
       "difficulty": 2,
       "prompt": "Un amigo te pregunta si el museo es moderno. Dile que sí, que es muy moderno.",
-      "modelAnswer": "Ja, das Museum ist sehr modern.",
-      "alsoValid": ["Das Museum ist sehr modern."],
-      "speak": "Ja, das Museum ist sehr modern.",
+      "modelAnswer": "Das Museum ist sehr modern.",
+      "alsoValid": ["Das Museum ist modern."],
+      "speak": "Das Museum ist sehr modern.",
       "selfAssess": true
     },
     {
@@ -371,14 +371,14 @@
     },
     {
       "id": "e20",
-      "type": "error_correction",
+      "type": "mcq",
       "tags": ["mayuscula-sustantivos"],
       "difficulty": 2,
-      "prompt": "Hay un error. Corrige la frase entera.",
-      "wrong": "die telefon ist modern.",
-      "accept": ["Das Telefon ist modern"],
+      "prompt": "Solo una de estas frases está bien escrita. ¿Cuál?",
+      "options": ["die telefon ist modern.", "Die Telefon ist modern.", "Das Telefon ist modern.", "Das telefon ist modern."],
+      "answer": 2,
       "audio": "Das Telefon ist modern.",
-      "explain": "Dos errores: Telefon es neutro (das, no die) y todo sustantivo se escribe con mayúscula inicial."
+      "explain": "Telefon es neutro (das, no die) y, como todo sustantivo alemán, se escribe con mayúscula inicial esté donde esté."
     }
   ],
   "srsItems": [

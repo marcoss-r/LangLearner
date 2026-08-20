@@ -13,8 +13,10 @@
     {
       "type": "explanation",
       "title": "Las mismas 26 letras, pero con otro nombre",
-      "body": "El alfabeto francés tiene las mismas 26 letras que el español (sin la ñ). Lo que cambia es cómo se **llama** cada letra en voz alta: una b no se dice «be», se dice «bé»; una h no suena como nada al hablar, pero al deletrear se llama «ash». Saber nombrar las letras es imprescindible para deletrear tu nombre por teléfono, dar tu email o entender una dirección que te dictan.",
+      "body": "El alfabeto francés tiene las mismas 26 letras que el español (sin la ñ). Lo que cambia es cómo se **llama** cada letra en voz alta: una b no se dice «be», se dice «bé»; una h no suena como nada al hablar, pero al deletrear se llama «ash». Saber nombrar las letras es imprescindible para deletrear tu nombre por teléfono, dar tu email o entender una dirección que te dictan.\n\nDos bloques fijos que vas a usar en toda la clase, apréndetelos tal cual: **comment** (cómo) y **ça s'écrit** (se escribe). Juntos forman la pregunta que resuelve cualquier duda de ortografía: **Comment ça s'écrit ?**",
       "examples": [
+        { "target": "Comment ça s'écrit ?", "es": "¿Cómo se escribe (eso)?", "note": "la pregunta más útil de esta clase" },
+        { "target": "Ça s'écrit avec un accent aigu.", "es": "Se escribe con un acento agudo.", "note": "así se contesta" },
         { "target": "le café", "es": "el café", "note": "con accent aigu (é)" },
         { "target": "le père", "es": "el padre", "note": "con accent grave (è)" },
         { "target": "le château", "es": "el castillo", "note": "con accent circonflexe (â, ê, î, ô, û)" },
@@ -227,27 +229,27 @@
     },
     {
       "id": "e5",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["alfabeto"],
       "difficulty": 2,
-      "prompt": "Se escribe con un acento agudo.",
-      "accept": ["Ça s'écrit avec un accent aigu", "Ca s'écrit avec un accent aigu"],
-      "hintWords": ["ça s'écrit", "un accent aigu"],
-      "strictAccents": false,
-      "audio": "Ça s'écrit avec un accent aigu.",
-      "explain": "Ça s'écrit avec + acento: así se explica cómo se escribe una palabra."
+      "prompt": "Completa la fórmula para decir cómo se escribe una palabra",
+      "text": "Café ___ avec un accent aigu.",
+      "blanks": [{ "accept": ["s'écrit", "s’écrit"] }],
+      "bank": ["s'écrit", "s'appelle", "s'épelle"],
+      "audio": "Café s'écrit avec un accent aigu.",
+      "explain": "«Ça s'écrit avec…» es la fórmula fija para explicar la ortografía de algo."
     },
     {
       "id": "e6",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["alfabeto"],
       "difficulty": 2,
-      "prompt": "¿Puedes deletrear tu apellido, por favor?",
-      "accept": ["Tu peux épeler ton nom de famille, s'il te plaît", "Vous pouvez épeler votre nom de famille, s'il vous plaît"],
-      "hintWords": ["épeler", "ton nom de famille"],
-      "strictAccents": false,
-      "audio": "Tu peux épeler ton nom de famille, s'il te plaît ?",
-      "explain": "Épeler = deletrear. La frase funciona igual en tú (tu peux) que en usted (vous pouvez)."
+      "prompt": "Cada palabra lleva su signo: completa con el nombre correcto",
+      "text": "Garçon s'écrit avec une ___ . Père s'écrit avec un accent ___ .",
+      "blanks": [{ "accept": ["cédille"] }, { "accept": ["grave"] }],
+      "bank": ["cédille", "grave", "aigu", "arobase"],
+      "audio": "Garçon s'écrit avec une cédille.",
+      "explain": "La cédille es el rabito de la ç; el accent grave es el que baja (è), y el aigu el que sube (é)."
     },
     {
       "id": "e7",
@@ -262,14 +264,15 @@
     },
     {
       "id": "e8",
-      "type": "word_order",
+      "type": "fill_blank",
       "tags": ["alfabeto"],
       "difficulty": 2,
-      "prompt": "Ordena para formar la frase: «¿Cómo deletreas tu nombre?»",
-      "tokens": ["prénom", "Comment", "tu", "?", "épelles", "ton"],
-      "answer": ["Comment", "tu", "épelles", "ton", "prénom", "?"],
-      "audio": "Comment tu épelles ton prénom ?",
-      "explain": "Épeler se conjuga épelles en «tu»: comment tu épelles... = cómo deletreas..."
+      "prompt": "Completa la petición cortés que ya has visto en la clase",
+      "text": "Vous pouvez ___ votre nom, s'il vous plaît ?",
+      "blanks": [{ "accept": ["épeler"] }],
+      "bank": ["épeler", "écrire", "entendre"],
+      "audio": "Vous pouvez épeler votre nom, s'il vous plaît ?",
+      "explain": "Épeler es deletrear letra a letra. Écrire sería escribirlo, que no es lo mismo por teléfono."
     },
     {
       "id": "e9",
@@ -284,16 +287,14 @@
     },
     {
       "id": "e10",
-      "type": "dialogue",
+      "type": "mcq",
       "tags": ["alfabeto"],
       "difficulty": 2,
-      "prompt": "Completa la conversación: te piden que deletrees tu nombre por teléfono",
-      "turns": [
-        { "who": "Agent", "text": "Comment ça s'écrit, votre prénom ?", "speak": true },
-        { "who": "Toi", "blank": true, "accept": ["Ça s'écrit M, A, R, C, O.", "Ça s'écrit M-A-R-C-O."], "hint": "di «ça s'écrit» y deletrea M, A, R, C, O" },
-        { "who": "Agent", "text": "Merci, et votre nom de famille ?", "speak": true }
-      ],
-      "explain": "Ça s'écrit + las letras una a una: la fórmula estándar para deletrear algo."
+      "prompt": "Estás dando tu correo electrónico por teléfono y llegas a la «@». ¿Cómo se llama en francés?",
+      "options": ["une arobase", "une cédille", "un trait d'union", "un point"],
+      "answer": 0,
+      "audio": "une arobase",
+      "explain": "La arroba es «une arobase». El punto de «.com» es «un point» y el guion, «un trait d'union»."
     },
     {
       "id": "e11",
@@ -301,10 +302,11 @@
       "tags": ["alfabeto"],
       "difficulty": 1,
       "speak": "Comment ça s'écrit ?",
-      "mode": "write",
-      "accept": ["Comment ça s'écrit ?"],
+      "mode": "choose",
+      "options": ["Comment ça s'écrit ?", "Ça s'écrit avec un accent aigu.", "Vous pouvez épeler votre nom ?"],
+      "answer": 0,
       "showTextAfter": true,
-      "explain": "Comment ça s'écrit ? = ¿Cómo se escribe (eso)?"
+      "explain": "Comment ça s'écrit ? = ¿Cómo se escribe (eso)? Es la pregunta; las otras dos son respuestas o peticiones."
     },
     {
       "id": "e12",
@@ -372,14 +374,13 @@
     },
     {
       "id": "e17",
-      "type": "error_correction",
+      "type": "true_false",
       "tags": ["alfabeto"],
       "difficulty": 2,
-      "prompt": "Hay un error. Corrige la frase entera.",
-      "wrong": "Chateau s'écrit sans accent.",
-      "accept": ["Château s'écrit avec un accent circonflexe"],
+      "statement": "«Château» se escribe sin ningún signo encima de la a.",
+      "answer": false,
       "audio": "Château s'écrit avec un accent circonflexe.",
-      "explain": "Château lleva un accent circonflexe sobre la a: â."
+      "explain": "Falso: lleva un accent circonflexe sobre la a (â). Ese tejadillo suele señalar una s que el francés perdió hace siglos: château era «castel»."
     }
   ],
   "srsItems": [
