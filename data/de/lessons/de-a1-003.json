@@ -198,27 +198,27 @@
     },
     {
       "id": "e7",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["vocales"],
       "difficulty": 2,
-      "prompt": "El horno está abierto.",
-      "accept": ["Der Ofen ist offen"],
-      "hintWords": ["der Ofen", "ist", "offen"],
-      "strictAccents": false,
+      "prompt": "Completa con el adjetivo que dice que algo está abierto",
+      "text": "Der Ofen ist ___ .",
+      "blanks": [{ "accept": ["offen"] }],
+      "bank": ["offen", "modern", "kurz"],
       "audio": "Der Ofen ist offen.",
-      "explain": "Fíjate en el contraste: Ofen (o larga) y offen (o corta) en la misma frase."
+      "explain": "Fíjate en el contraste dentro de la misma frase: Ofen lleva o larga y offen, o corta. La consonante doble es la pista: avisa de que la vocal anterior es corta."
     },
     {
       "id": "e8",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["vocales"],
       "difficulty": 2,
-      "prompt": "El estado es moderno.",
-      "accept": ["Der Staat ist modern"],
-      "hintWords": ["der Staat", "ist", "modern"],
-      "strictAccents": false,
-      "audio": "Der Staat ist modern.",
-      "explain": "der Staat (a larga) + ist + modern, el mismo orden que en la clase anterior."
+      "prompt": "¿Estado o ciudad? Completa con la palabra correcta",
+      "text": "Deutschland ist ein moderner ___ .",
+      "blanks": [{ "accept": ["Staat"] }],
+      "bank": ["Staat", "Stadt", "Mitte"],
+      "audio": "Deutschland ist ein moderner Staat.",
+      "explain": "Staat (estado) lleva aa: vocal larga. Stadt (ciudad) tiene una sola a delante de dos consonantes: vocal corta. Solo las distingue la duración."
     },
     {
       "id": "e9",
@@ -233,14 +233,15 @@
     },
     {
       "id": "e10",
-      "type": "word_order",
+      "type": "fill_blank",
       "tags": ["vocales"],
       "difficulty": 2,
-      "prompt": "Ordena para formar la frase: «La ciudad es muy moderna»",
-      "tokens": ["ist", "Stadt", "sehr", "modern", "Die"],
-      "answer": ["Die", "Stadt", "ist", "sehr", "modern"],
+      "prompt": "Ahora al revés: completa con la palabra de vocal corta",
+      "text": "Die ___ ist sehr modern.",
+      "blanks": [{ "accept": ["Stadt"] }],
+      "bank": ["Stadt", "Staat", "Miete"],
       "audio": "Die Stadt ist sehr modern.",
-      "explain": "Die Stadt (a corta) + ist + sehr modern: mismo orden que ya conoces."
+      "explain": "Die Stadt, con a corta y seca. Y el género también las separa: die Stadt, pero der Staat."
     },
     {
       "id": "e11",
@@ -255,16 +256,14 @@
     },
     {
       "id": "e12",
-      "type": "dialogue",
+      "type": "translate_to_es",
       "tags": ["vocales"],
-      "difficulty": 2,
-      "prompt": "Completa la conversación sobre la ciudad",
-      "turns": [
-        { "who": "Anna", "text": "Ist die Stadt modern?", "speak": true },
-        { "who": "Toi", "blank": true, "accept": ["Ja, die Stadt ist sehr modern."], "hint": "dile que sí, que es muy moderna" },
-        { "who": "Anna", "text": "Und der Staat?", "speak": true }
-      ],
-      "explain": "Fíjate en que Stadt y Staat aparecen juntas en el mismo diálogo: es la mejor forma de entrenar el oído."
+      "difficulty": 1,
+      "prompt": "Der Ofen ist offen.",
+      "accept": ["El horno está abierto."],
+      "strictAccents": false,
+      "audio": "Der Ofen ist offen.",
+      "explain": "La frase entera es un ejercicio de oído: O-fen larga, off-en corta. En español no distinguimos vocales por duración, así que hay que entrenarlo aparte."
     },
     {
       "id": "e13",
@@ -272,10 +271,11 @@
       "tags": ["vocales"],
       "difficulty": 2,
       "speak": "Die Stadt ist modern.",
-      "mode": "write",
-      "accept": ["Die Stadt ist modern"],
+      "mode": "choose",
+      "options": ["Die Stadt ist modern.", "Der Staat ist modern.", "Die Mitte ist modern."],
+      "answer": 0,
       "showTextAfter": true,
-      "explain": "Die Stadt ist modern = la ciudad es moderna."
+      "explain": "Aquí solo la duración de la vocal te dice si es Stadt o Staat. Escúchalo varias veces: es el contraste que más cuesta al principio."
     },
     {
       "id": "e14",
@@ -356,14 +356,14 @@
     },
     {
       "id": "e20",
-      "type": "error_correction",
+      "type": "mcq",
       "tags": ["mayuscula-sustantivos", "vocales"],
       "difficulty": 2,
-      "prompt": "Hay un error. Corrige la frase entera.",
-      "wrong": "Der stadt ist modern.",
-      "accept": ["Die Stadt ist modern"],
+      "prompt": "Solo una de estas frases está bien escrita. ¿Cuál?",
+      "options": ["Der stadt ist modern.", "Die Stadt ist modern.", "Die stadt ist modern.", "Der Stadt ist modern."],
+      "answer": 1,
       "audio": "Die Stadt ist modern.",
-      "explain": "Dos errores: Stadt es femenino (die, no der) y todo sustantivo lleva mayúscula inicial."
+      "explain": "Stadt es femenino (die, no der) y, como todo sustantivo alemán, lleva mayúscula inicial."
     }
   ],
   "srsItems": [

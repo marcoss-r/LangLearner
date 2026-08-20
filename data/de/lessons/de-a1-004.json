@@ -197,27 +197,27 @@
     },
     {
       "id": "e7",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["umlaut"],
       "difficulty": 2,
-      "prompt": "El padre está cansado.",
-      "accept": ["Der Vater ist müde"],
-      "hintWords": ["der Vater", "ist", "müde"],
-      "strictAccents": false,
+      "prompt": "Completa con el adjetivo que lleva ü",
+      "text": "Der Vater ist ___ .",
+      "blanks": [{ "accept": ["müde"] }],
+      "bank": ["müde", "schön", "offen"],
       "audio": "Der Vater ist müde.",
-      "explain": "müde lleva ü: boca en posición de u, sonido de i."
+      "explain": "Müde lleva ü: pon la boca como para decir «u» y pronuncia «i». Sin los dos puntitos, «mude» no significa nada."
     },
     {
       "id": "e8",
-      "type": "translate_to_target",
+      "type": "fill_blank",
       "tags": ["umlaut"],
       "difficulty": 2,
-      "prompt": "La calle es bonita.",
-      "accept": ["Die Straße ist schön"],
-      "hintWords": ["die Straße", "ist", "schön"],
-      "strictAccents": false,
-      "audio": "Die Straße ist schön.",
-      "explain": "schön lleva ö: boca en posición de u, sonido de e."
+      "prompt": "Completa con el adjetivo que lleva ö",
+      "text": "Die Straße ist sehr ___ .",
+      "blanks": [{ "accept": ["schön"] }],
+      "bank": ["schön", "müde", "lang"],
+      "audio": "Die Straße ist sehr schön.",
+      "explain": "Schön lleva ö: boca de «o» y sonido de «e». Y Straße lleva ß, que suena siempre como una s sorda."
     },
     {
       "id": "e9",
@@ -232,14 +232,15 @@
     },
     {
       "id": "e10",
-      "type": "word_order",
+      "type": "fill_blank",
       "tags": ["umlaut"],
       "difficulty": 2,
-      "prompt": "Ordena para formar la frase: «La madre está cansada»",
-      "tokens": ["ist", "Mutter", "müde", "Die"],
-      "answer": ["Die", "Mutter", "ist", "müde"],
-      "audio": "Die Mutter ist müde.",
-      "explain": "Die Mutter + ist + müde: el mismo orden que ya conoces."
+      "prompt": "Completa con la preposición que significa «para»",
+      "text": "Das Buch ist ___ die Mutter.",
+      "blanks": [{ "accept": ["für"] }],
+      "bank": ["für", "dass", "schön"],
+      "audio": "Das Buch ist für die Mutter.",
+      "explain": "Für = para, y también lleva ü. Es una de las preposiciones más frecuentes del alemán."
     },
     {
       "id": "e11",
@@ -254,16 +255,14 @@
     },
     {
       "id": "e12",
-      "type": "dialogue",
+      "type": "translate_to_es",
       "tags": ["umlaut"],
-      "difficulty": 2,
-      "prompt": "Completa la conversación sobre la familia",
-      "turns": [
-        { "who": "Anna", "text": "Ist der Vater müde?", "speak": true },
-        { "who": "Toi", "blank": true, "accept": ["Ja, der Vater ist sehr müde."], "hint": "dile que sí, que está muy cansado" },
-        { "who": "Anna", "text": "Und die Mutter?", "speak": true }
-      ],
-      "explain": "müde (cansado) es uno de los adjetivos más útiles de esta clase."
+      "difficulty": 1,
+      "prompt": "Das Buch ist für die Mutter.",
+      "accept": ["El libro es para la madre.", "Ese libro es para la madre."],
+      "strictAccents": false,
+      "audio": "Das Buch ist für die Mutter.",
+      "explain": "Buch es neutro (das) y Mutter femenino (die): el género no se deduce del significado, hay que aprenderlo con la palabra."
     },
     {
       "id": "e13",
@@ -271,10 +270,11 @@
       "tags": ["umlaut"],
       "difficulty": 2,
       "speak": "Die Straße ist schön.",
-      "mode": "write",
-      "accept": ["Die Straße ist schön"],
+      "mode": "choose",
+      "options": ["Die Straße ist schön.", "Die Straße ist müde.", "Die Mutter ist schön."],
+      "answer": 0,
       "showTextAfter": true,
-      "explain": "Die Straße ist schön = la calle es bonita."
+      "explain": "Die Straße ist schön = la calle es bonita. Escucha la ß de Straße: una s sorda, nunca sonora."
     },
     {
       "id": "e14",
@@ -354,14 +354,14 @@
     },
     {
       "id": "e20",
-      "type": "error_correction",
+      "type": "mcq",
       "tags": ["mayuscula-sustantivos", "umlaut"],
       "difficulty": 2,
-      "prompt": "Hay un error. Corrige la frase entera.",
-      "wrong": "Die Buch ist für die Mutter.",
-      "accept": ["Das Buch ist für die Mutter"],
+      "prompt": "Solo una de estas frases está bien escrita. ¿Cuál?",
+      "options": ["Die Buch ist für die Mutter.", "Das buch ist für die Mutter.", "Das Buch ist für die Mutter.", "Der Buch ist für die Mutter."],
+      "answer": 2,
       "audio": "Das Buch ist für die Mutter.",
-      "explain": "Buch es neutro (das, no die): uno de los géneros que hay que memorizar palabra por palabra."
+      "explain": "Buch es neutro: das Buch. El género hay que memorizarlo palabra por palabra, no se deduce del significado."
     }
   ],
   "srsItems": [

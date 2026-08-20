@@ -235,7 +235,7 @@
       "tags": ["saludos"],
       "difficulty": 2,
       "prompt": "Completa el diálogo de despedida antes de dormir",
-      "text": "— Bonne ___, dors bien ! — Merci, toi aussi !",
+      "text": "— Bonne ___ ! — Merci, bonne nuit !",
       "blanks": [{ "accept": ["nuit"] }],
       "bank": ["nuit", "soir", "jour"],
       "explain": "Bonne nuit se usa al despedirte de alguien que se va a dormir."
@@ -344,10 +344,10 @@
       "tags": ["saludos"],
       "difficulty": 2,
       "prompt": "Hay un error de registro. Corrige la frase entera.",
-      "wrong": "Salut, madame la directrice, comment allez-vous ?",
-      "accept": ["Bonjour, madame la directrice, comment allez-vous ?"],
-      "audio": "Bonjour, madame la directrice, comment allez-vous ?",
-      "explain": "Con una directora, en un registro formal, se usa bonjour, no salut."
+      "wrong": "Salut, madame, comment allez-vous ?",
+      "accept": ["Bonjour, madame, comment allez-vous ?"],
+      "audio": "Bonjour, madame, comment allez-vous ?",
+      "explain": "Salut es solo para amigos. Con alguien a quien tratas de usted, el saludo es bonjour."
     }
   ],
   "srsItems": [
